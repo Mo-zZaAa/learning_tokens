@@ -678,8 +678,55 @@
      "notes": []
     },
     {
-     "id": "dn-0055",
+     "id": "dn-0130",
      "disp": "Dinari B-15",
+     "level": "●",
+     "text": "규모 과거 대비",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0131",
+     "disp": "Dinari B-16",
+     "level": "★",
+     "text": "2026-01 초 300만 달러 7위(0.37%) → 11-16 1,520만 11위(0.41%)",
+     "color": "black",
+     "fact_ids": [
+      "TP-004",
+      "F-1027"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0132",
+     "disp": "Dinari B-17",
+     "level": "★",
+     "text": "잔액 5.1배",
+     "color": "black",
+     "fact_ids": [
+      "TP-004",
+      "F-1027"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0133",
+     "disp": "Dinari B-18",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_W1_sentora_rwa_league_table_2026-01.jpg",
+       "caption": "rwa.xyz 순위표(Sentora 주간 글, 2026-01-09)"
+      }
+     ]
+    },
+    {
+     "id": "dn-0055",
+     "disp": "Dinari B-19",
      "level": "●",
      "text": "수수료",
      "color": "black",
@@ -689,7 +736,7 @@
     },
     {
      "id": "dn-0056",
-     "disp": "Dinari B-16",
+     "disp": "Dinari B-20",
      "level": "★",
      "text": "파트너 API 월 2,000달러부터, 주문당 0.20달러",
      "color": "black",
@@ -698,6 +745,63 @@
      ],
      "confirmed": false,
      "notes": []
+    },
+    {
+     "id": "dn-0134",
+     "disp": "Dinari B-21",
+     "level": "●",
+     "text": "제3자 시각",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0135",
+     "disp": "Dinari B-22",
+     "level": "★",
+     "text": "운영 모델이 Robinhood EU판과 거의 같음(포필러스, Securitize 후원, 2026-02 기준, 미국판 이전)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-117"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0136",
+     "disp": "Dinari B-23",
+     "level": "★",
+     "text": "개인 수수료 네트워크 0.2~50달러, 주문 0.25~0.50%(포필러스, Securitize 후원, 미국 밖판)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-118"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0137",
+     "disp": "Dinari B-24",
+     "level": "★",
+     "text": "배당의 5% 수취(포필러스, Securitize 후원, 미국 밖판)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-118"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0138",
+     "disp": "Dinari B-25",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_R1_p26_indirect_tokenization.jpg",
+       "caption": "간접 방식 흐름, Dinari는 미국 밖판에만 해당(포필러스, Securitize 후원, 2026-02)"
+      }
+     ]
     }
    ]
   },
@@ -885,6 +989,51 @@
      ],
      "confirmed": false,
      "notes": []
+    },
+    {
+     "id": "dn-0139",
+     "disp": "Dinari D-10",
+     "level": "●",
+     "text": "제3자 시각",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0140",
+     "disp": "Dinari D-11",
+     "level": "★",
+     "text": "토큰은 Dinari 등록 이용자끼리만 이전(포필러스, Securitize 후원, 2026-02 기준)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-120"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0141",
+     "disp": "Dinari D-12",
+     "level": "★",
+     "text": "배당은 USD+ 스테이블코인으로 지급(포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-120"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0142",
+     "disp": "Dinari D-13",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_R1_p36_indirect_platforms_table.jpg",
+       "caption": "간접 방식 4사 비교표(포필러스, Securitize 후원, 2026-02, 미국판 이전)"
+      }
+     ]
     }
    ]
   },
@@ -954,8 +1103,42 @@
      "notes": []
     },
     {
-     "id": "dn-0076",
+     "id": "dn-0143",
      "disp": "Dinari E-6",
+     "level": "●",
+     "text": "제3자 시각",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0144",
+     "disp": "Dinari E-7",
+     "level": "★",
+     "text": "표에 SEC 명의개서대리인, FINRA 증권사로 적힘(CoinDesk Research, Bullish 의뢰, 2026-08 기준)",
+     "color": "black",
+     "fact_ids": [
+      "TP-119"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0145",
+     "disp": "Dinari E-8",
+     "level": "★",
+     "text": "표는 Dinari를 보관형으로 묶어 우리 분류와 다름(CoinDesk Research)",
+     "color": "black",
+     "fact_ids": [
+      "TP-119"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0076",
+     "disp": "Dinari E-9",
      "level": "●",
      "text": "인가 없는 구간을 메우는 방법",
      "color": "black",
@@ -965,7 +1148,7 @@
     },
     {
      "id": "dn-0077",
-     "disp": "Dinari E-7",
+     "disp": "Dinari E-10",
      "level": "★",
      "text": "청산, 결제, 보관은 Alpaca에 위탁",
      "color": "black",
@@ -977,7 +1160,7 @@
     },
     {
      "id": "dn-0078",
-     "disp": "Dinari E-8",
+     "disp": "Dinari E-11",
      "level": "●",
      "text": "미국 등록의 대가",
      "color": "black",
@@ -987,7 +1170,7 @@
     },
     {
      "id": "dn-0079",
-     "disp": "Dinari E-9",
+     "disp": "Dinari E-12",
      "level": "★",
      "text": "거래시간 새벽 4시~밤 8시(ET), 주말 불가",
      "color": "black",
@@ -999,7 +1182,7 @@
     },
     {
      "id": "dn-0080",
-     "disp": "Dinari E-10",
+     "disp": "Dinari E-13",
      "level": "★",
      "text": "하루 매수 한도 5,000달러",
      "color": "black",
@@ -1011,7 +1194,7 @@
     },
     {
      "id": "dn-0081",
-     "disp": "Dinari E-11",
+     "disp": "Dinari E-14",
      "level": "★",
      "text": "토큰은 계좌 기록의 2차 기록, 계좌 기록이 우선",
      "color": "black",
@@ -1339,8 +1522,166 @@
      "notes": []
     },
     {
-     "id": "dn-0108",
+     "id": "dn-0146",
      "disp": "Dinari 판단-10",
+     "level": "●",
+     "text": "제3자 평가",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0147",
+     "disp": "Dinari 판단-11",
+     "level": "★",
+     "text": "평가 1 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 39쪽 https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks",
+     "color": "orange",
+     "fact_ids": [
+      "TP-117"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0148",
+     "disp": "Dinari 판단-12",
+     "level": "①",
+     "text": "원문 : \"The operating model is almost identical to Robinhood’s Stock Tokens.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0149",
+     "disp": "Dinari 판단-13",
+     "level": "②",
+     "text": "번역 : 운영 모델은 Robinhood의 Stock Tokens와 거의 같다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0150",
+     "disp": "Dinari 판단-14",
+     "level": "③",
+     "text": "해석 : 2026-02 기준 미국 밖 dShares 설명으로 미국판(2026-08) 이전. 미국판은 계좌 속 주식 구조라 이 평가를 미국판에 옮기면 안 됨",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0151",
+     "disp": "Dinari 판단-15",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_TP-117.jpg",
+       "caption": "평가 1 원문"
+      }
+     ]
+    },
+    {
+     "id": "dn-0152",
+     "disp": "Dinari 판단-16",
+     "level": "★",
+     "text": "평가 2 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 39쪽 https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks",
+     "color": "orange",
+     "fact_ids": [
+      "TP-118"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0153",
+     "disp": "Dinari 판단-17",
+     "level": "①",
+     "text": "원문 : \"dShares carry a relatively high number of fees.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0154",
+     "disp": "Dinari 판단-18",
+     "level": "②",
+     "text": "번역 : dShares는 수수료 항목이 비교적 많다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0155",
+     "disp": "Dinari 판단-19",
+     "level": "③",
+     "text": "해석 : 개인 직접 이용 기준 수수료. 우리 본문의 파트너 API 요금(F-0336)과 대상이 다르므로 섞어 읽지 않음",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0156",
+     "disp": "Dinari 판단-20",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_TP-118.jpg",
+       "caption": "평가 2 원문"
+      }
+     ]
+    },
+    {
+     "id": "dn-0157",
+     "disp": "Dinari 판단-21",
+     "level": "★",
+     "text": "평가 3 : CoinDesk Research(Bullish 의뢰), 발행사 안내서 비교표, 2026-09-29(2026-08 기준), 10쪽 https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities",
+     "color": "black",
+     "fact_ids": [
+      "TP-119"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0158",
+     "disp": "Dinari 판단-22",
+     "level": "①",
+     "text": "원문 : 표 칸 \"Custodial tokenized equities\", \"Econ only\", \"Dinari-held\", \"SEC TA + FINRA BD\"(Dinari 열)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0159",
+     "disp": "Dinari 판단-23",
+     "level": "②",
+     "text": "번역 : 보관형, 경제적 권리만, 장부는 Dinari가 보유, SEC 명의개서대리인과 FINRA 증권사.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0160",
+     "disp": "Dinari 판단-24",
+     "level": "③",
+     "text": "해석 : 발행사 직접 방식을 미는 의뢰사 표. 미국판과 미국 밖판을 한 열로 묶어 우리 분류(미국판 보관형, 밖판 연계증권)와 다름. 표 원문은 칸 글자라 캡처 없음",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0108",
+     "disp": "Dinari 판단-25",
      "level": "●",
      "text": "KDX 시사점 1",
      "color": "black",
@@ -1350,7 +1691,7 @@
     },
     {
      "id": "dn-0120",
-     "disp": "Dinari 판단-11",
+     "disp": "Dinari 판단-26",
      "level": "★",
      "text": "받치는 명제 : 시장 인프라 Unbundling",
      "color": "black",
@@ -1364,7 +1705,7 @@
     },
     {
      "id": "dn-0109",
-     "disp": "Dinari 판단-12",
+     "disp": "Dinari 판단-27",
      "level": "★",
      "text": "KDX가 가져올 것 : 기록, 중개는 직접, 청산, 보관은 위탁",
      "color": "black",
@@ -1378,7 +1719,7 @@
     },
     {
      "id": "dn-0121",
-     "disp": "Dinari 판단-13",
+     "disp": "Dinari 판단-28",
      "level": "★",
      "text": "KDX가 피할 것 : 회사가 동결, 소각 권한을 쥔 토큰 구조",
      "color": "black",
@@ -1390,7 +1731,7 @@
     },
     {
      "id": "dn-0122",
-     "disp": "Dinari 판단-14",
+     "disp": "Dinari 판단-29",
      "level": "●",
      "text": "KDX 시사점 2",
      "color": "black",
@@ -1400,7 +1741,7 @@
     },
     {
      "id": "dn-0123",
-     "disp": "Dinari 판단-15",
+     "disp": "Dinari 판단-30",
      "level": "★",
      "text": "받치는 명제 : Coopetition",
      "color": "black",
@@ -1413,7 +1754,7 @@
     },
     {
      "id": "dn-0124",
-     "disp": "Dinari 판단-16",
+     "disp": "Dinari 판단-31",
      "level": "★",
      "text": "KDX가 가져올 것 : 기존 사업자(tZERO, 카카오페이증권)와 협력",
      "color": "orange",
@@ -1426,7 +1767,7 @@
     },
     {
      "id": "dn-0125",
-     "disp": "Dinari 판단-17",
+     "disp": "Dinari 판단-32",
      "level": "★",
      "text": "KDX가 피할 것 : 증권사 채널 없이 직접 화면만 키우는 길",
      "color": "black",
@@ -1438,7 +1779,7 @@
     },
     {
      "id": "dn-0126",
-     "disp": "Dinari 판단-18",
+     "disp": "Dinari 판단-33",
      "level": "●",
      "text": "해외 확장 세 질문",
      "color": "black",
@@ -1448,7 +1789,7 @@
     },
     {
      "id": "dn-0127",
-     "disp": "Dinari 판단-19",
+     "disp": "Dinari 판단-34",
      "level": "★",
      "text": "제공 가치 : 한국 주식의 해외 접근",
      "color": "black",
@@ -1460,7 +1801,7 @@
     },
     {
      "id": "dn-0128",
-     "disp": "Dinari 판단-20",
+     "disp": "Dinari 판단-35",
      "level": "★",
      "text": "제도 : 원주를 해외투자자 통합계좌로 조달, 1:1 발행 검증",
      "color": "black",
@@ -1472,7 +1813,7 @@
     },
     {
      "id": "dn-0129",
-     "disp": "Dinari 판단-21",
+     "disp": "Dinari 판단-36",
      "level": "★",
      "text": "경제성 : 파트너 API 월 2,000달러부터, 주문당 0.20달러",
      "color": "black",

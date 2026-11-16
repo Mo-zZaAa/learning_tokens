@@ -808,8 +808,31 @@
      "notes": []
     },
     {
-     "id": "cb-0063",
+     "id": "cb-0152",
      "disp": "Coinbase B-18",
+     "level": "●",
+     "text": "규모의 과거 대비(2026-01 초 기준)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0153",
+     "disp": "Coinbase B-19",
+     "level": "★",
+     "text": "2026-01 초 rwa.xyz 표에는 없음(2026-08 출시)",
+     "color": "black",
+     "fact_ids": [
+      "TP-005",
+      "F-0776"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0063",
+     "disp": "Coinbase B-20",
      "level": "●",
      "text": "수수료",
      "color": "black",
@@ -819,7 +842,7 @@
     },
     {
      "id": "cb-0064",
-     "disp": "Coinbase B-19",
+     "disp": "Coinbase B-21",
      "level": "★",
      "text": "창설 0.01%, 상환 0.05%, 분배금 5.0%",
      "color": "black",
@@ -831,7 +854,7 @@
     },
     {
      "id": "cb-0065",
-     "disp": "Coinbase B-20",
+     "disp": "Coinbase B-22",
      "level": "★",
      "text": "주된 수익화는 Base 시퀀서 수수료(CFO 발언)",
      "color": "black",
@@ -1581,8 +1604,104 @@
      "notes": []
     },
     {
-     "id": "cb-0120",
+     "id": "cb-0154",
      "disp": "Coinbase 판단-16",
+     "level": "●",
+     "text": "제약과 리스크(제3자 지적)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0155",
+     "disp": "Coinbase 판단-17",
+     "level": "★",
+     "text": "SEC 승인 추진 보도가 규제 밖 영업 시도의 예로 인용됨 (WFE, 거래소 이해 대변)",
+     "color": "black",
+     "fact_ids": [
+      "TP-222"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0156",
+     "disp": "Coinbase 판단-18",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_TP-222.jpg",
+       "caption": "규제 밖 영업 시도 대목 원문"
+      }
+     ]
+    },
+    {
+     "id": "cb-0157",
+     "disp": "Coinbase 판단-19",
+     "level": "●",
+     "text": "제3자 평가",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0158",
+     "disp": "Coinbase 판단-20",
+     "level": "★",
+     "text": "평가 1 : 포필러스(Securitize 후원 보고서, 평가자에 Securitize 포함), 2026: The Year of Tokenized Stocks, 2026-02-23, 87쪽 https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks",
+     "color": "orange",
+     "fact_ids": [
+      "TP-221"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0159",
+     "disp": "Coinbase 판단-21",
+     "level": "①",
+     "text": "원문 : \"Coinbase CEO Brian Armstrong argues that it effectively bans tokenized stocks, while Securitize and Superstate evaluate it as providing regulatory clarity for tokenized stocks\"",
+     "color": "orange",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0160",
+     "disp": "Coinbase 판단-22",
+     "level": "②",
+     "text": "번역 : Coinbase 대표는 그 법안이 주식 토큰을 사실상 금지한다고 주장하는 반면 Securitize와 Superstate는 규제 명확성을 준다고 평가한다.",
+     "color": "orange",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0161",
+     "disp": "Coinbase 판단-23",
+     "level": "③",
+     "text": "해석 : 같은 법안을 두고 발행 방식별로 평가가 갈림(법안명은 87쪽에 적히지 않음). 그래서 KDX는 미국 제도 변화가 방식마다 유불리가 다름을 볼 것",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0162",
+     "disp": "Coinbase 판단-24",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_TP-221.jpg",
+       "caption": "평가 1 원문"
+      }
+     ]
+    },
+    {
+     "id": "cb-0120",
+     "disp": "Coinbase 판단-25",
      "level": "●",
      "text": "KDX 시사점",
      "color": "black",
@@ -1592,7 +1711,7 @@
     },
     {
      "id": "cb-0147",
-     "disp": "Coinbase 판단-17",
+     "disp": "Coinbase 판단-26",
      "level": "★",
      "text": "받치는 명제 : 시장 인프라 Unbundling",
      "color": "black",
@@ -1606,7 +1725,7 @@
     },
     {
      "id": "cb-0121",
-     "disp": "Coinbase 판단-18",
+     "disp": "Coinbase 판단-27",
      "level": "★",
      "text": "KDX가 가져올 것 : 발행 SPV, 장부 법인, 보관사를 나눈 구조",
      "color": "black",
@@ -1619,8 +1738,21 @@
      "notes": []
     },
     {
+     "id": "cb-0163",
+     "disp": "Coinbase 판단-28",
+     "level": "★",
+     "text": "KDX가 가져올 것 : 원주 수익권 증서를 국내 신탁 수익증권 유통에 대응 (기고, 법률 실무)",
+     "color": "black",
+     "fact_ids": [
+      "F-0079",
+      "TP-435"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "cb-0148",
-     "disp": "Coinbase 판단-19",
+     "disp": "Coinbase 판단-29",
      "level": "★",
      "text": "KDX가 피할 것 : 같은 그룹 겸영의 이해상충, 8위에 그친 유동성",
      "color": "black",
@@ -1633,7 +1765,7 @@
     },
     {
      "id": "cb-0149",
-     "disp": "Coinbase 판단-20",
+     "disp": "Coinbase 판단-30",
      "level": "●",
      "text": "해외 확장 세 질문",
      "color": "black",
@@ -1643,7 +1775,7 @@
     },
     {
      "id": "cb-0122",
-     "disp": "Coinbase 판단-21",
+     "disp": "Coinbase 판단-31",
      "level": "★",
      "text": "제공 가치 : 지갑만으로 미국 밖 개인이 24시간 미국 주식",
      "color": "black",
@@ -1656,7 +1788,7 @@
     },
     {
      "id": "cb-0150",
-     "disp": "Coinbase 판단-22",
+     "disp": "Coinbase 판단-32",
      "level": "★",
      "text": "제도 : ADGM 인가와 증서 투자설명서 승인",
      "color": "black",
@@ -1669,7 +1801,7 @@
     },
     {
      "id": "cb-0151",
-     "disp": "Coinbase 판단-23",
+     "disp": "Coinbase 판단-33",
      "level": "★",
      "text": "경제성 : Base 시퀀서 수수료(CFO 발언)",
      "color": "black",

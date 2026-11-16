@@ -215,8 +215,42 @@
      "notes": []
     },
     {
-     "id": "rh-0018",
+     "id": "rh-0149",
      "disp": "Robinhood 개요-18",
+     "level": "●",
+     "text": "출발 사업 수익 구조",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0150",
+     "disp": "Robinhood 개요-19",
+     "level": "★",
+     "text": "고객 주문을 Citadel로 보내고 PFOF를 받음(포필러스, Securitize 후원, 2026-02)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-110"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0151",
+     "disp": "Robinhood 개요-20",
+     "level": "★",
+     "text": "필자는 무수수료를 착시로 서술(포필러스)",
+     "color": "black",
+     "fact_ids": [
+      "TP-110"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0018",
+     "disp": "Robinhood 개요-21",
      "level": "●",
      "text": "화면",
      "color": "black",
@@ -226,7 +260,7 @@
     },
     {
      "id": "rh-0019",
-     "disp": "Robinhood 개요-19",
+     "disp": "Robinhood 개요-22",
      "level": "그림",
      "images": [
       {
@@ -813,8 +847,30 @@
      "notes": []
     },
     {
-     "id": "rh-0067",
+     "id": "rh-0152",
      "disp": "Robinhood B-19",
+     "level": "●",
+     "text": "규모 과거 대비",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0153",
+     "disp": "Robinhood B-20",
+     "level": "★",
+     "text": "2026-01 초 rwa.xyz 표에는 없음(집계 전)",
+     "color": "black",
+     "fact_ids": [
+      "TP-005"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0067",
+     "disp": "Robinhood B-21",
      "level": "●",
      "text": "수수료",
      "color": "black",
@@ -824,7 +880,7 @@
     },
     {
      "id": "rh-0068",
-     "disp": "Robinhood B-20",
+     "disp": "Robinhood B-22",
      "level": "★",
      "text": "지갑판 청약 0%, 발행 90일 이후 상환 0.05%",
      "color": "black",
@@ -836,7 +892,7 @@
     },
     {
      "id": "rh-0069",
-     "disp": "Robinhood B-21",
+     "disp": "Robinhood B-23",
      "level": "★",
      "text": "EU판 주문마다 환전 수수료 0.1%, 그 밖은 무료",
      "color": "black",
@@ -845,6 +901,62 @@
      ],
      "confirmed": false,
      "notes": []
+    },
+    {
+     "id": "rh-0154",
+     "disp": "Robinhood B-24",
+     "level": "●",
+     "text": "제3자 시각",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0155",
+     "disp": "Robinhood B-25",
+     "level": "★",
+     "text": "EU 법인이 원주 사고 파생계약 토큰 지급(포필러스, Securitize 후원, 2026-02 기준이라 지갑판 이전)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-104"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0156",
+     "disp": "Robinhood B-26",
+     "level": "★",
+     "text": "투자자는 EU 법인 상대 계약상 청구권 보유(포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-104"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0157",
+     "disp": "Robinhood B-27",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_R2_p08_synthetic.jpg",
+       "caption": "합성형 흐름(CoinDesk Research, Bullish 의뢰, 2026-09)"
+      }
+     ]
+    },
+    {
+     "id": "rh-0158",
+     "disp": "Robinhood B-28",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_R1_p26_indirect_tokenization.jpg",
+       "caption": "간접 방식 흐름(포필러스, Securitize 후원, 2026-02)"
+      }
+     ]
     }
    ]
   },
@@ -1063,6 +1175,63 @@
      ],
      "confirmed": false,
      "notes": []
+    },
+    {
+     "id": "rh-0159",
+     "disp": "Robinhood D-11",
+     "level": "●",
+     "text": "제3자 시각",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0160",
+     "disp": "Robinhood D-12",
+     "level": "★",
+     "text": "담보 서비스 없음, 원주 상환 불가(포필러스, Securitize 후원, 2026-02 기준)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-106"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0161",
+     "disp": "Robinhood D-13",
+     "level": "★",
+     "text": "앱 안에서만 거래, 회사가 상대방 겸 유동성 공급자(포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-102"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0162",
+     "disp": "Robinhood D-14",
+     "level": "★",
+     "text": "출금 제한으로 자산이 자체 플랫폼에 머문다는 보도, 지갑판 출시 전 상태(Finance Magnates, 2026-03)",
+     "color": "black",
+     "fact_ids": [
+      "TP-107"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0163",
+     "disp": "Robinhood D-15",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_R1_p36_indirect_platforms_table.jpg",
+       "caption": "간접 방식 4사 비교표(포필러스, Securitize 후원, 2026-02, 지갑판 이전)"
+      }
+     ]
     }
    ]
   },
@@ -1192,8 +1361,65 @@
      "notes": []
     },
     {
-     "id": "rh-0093",
+     "id": "rh-0164",
      "disp": "Robinhood E-11",
+     "level": "●",
+     "text": "제3자 시각",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0165",
+     "disp": "Robinhood E-12",
+     "level": "★",
+     "text": "리투아니아 인가로 EEA 30여 개국 판매(포필러스, Securitize 후원, 2026-02 기준)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-105"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0166",
+     "disp": "Robinhood E-13",
+     "level": "★",
+     "text": "MiFID II 장외 파생이라 회사가 직접 상대방(포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-105"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0167",
+     "disp": "Robinhood E-14",
+     "level": "★",
+     "text": "장부 기록 의무가 없어 분산원장 사용 가능(포필러스, Securitize 후원 설명)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-105"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0168",
+     "disp": "Robinhood E-15",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_R1_p56_robinhood_lithuania_table.jpg",
+       "caption": "리투아니아 역할 분담(포필러스, Securitize 후원, 2026-02, 표 출처 Dan Kim LawVax)"
+      }
+     ]
+    },
+    {
+     "id": "rh-0093",
+     "disp": "Robinhood E-16",
      "level": "●",
      "text": "인가 없는 구간을 메우는 방법",
      "color": "black",
@@ -1203,7 +1429,7 @@
     },
     {
      "id": "rh-0094",
-     "disp": "Robinhood E-12",
+     "disp": "Robinhood E-17",
      "level": "★",
      "text": "결제 계좌는 JPMorgan 런던 지점",
      "color": "black",
@@ -1215,7 +1441,7 @@
     },
     {
      "id": "rh-0095",
-     "disp": "Robinhood E-13",
+     "disp": "Robinhood E-18",
      "level": "★",
      "text": "독립 검증 대리인이 시리즈별 100% 담보 확인",
      "color": "black",
@@ -1227,7 +1453,7 @@
     },
     {
      "id": "rh-0096",
-     "disp": "Robinhood E-14",
+     "disp": "Robinhood E-19",
      "level": "●",
      "text": "미국 미등록의 대가",
      "color": "black",
@@ -1237,7 +1463,7 @@
     },
     {
      "id": "rh-0097",
-     "disp": "Robinhood E-15",
+     "disp": "Robinhood E-20",
      "level": "★",
      "text": "미국 증권법 미등록, 미국인 판매 불가",
      "color": "black",
@@ -1250,7 +1476,7 @@
     },
     {
      "id": "rh-0098",
-     "disp": "Robinhood E-16",
+     "disp": "Robinhood E-21",
      "level": "★",
      "text": "2026-09 SEC 토큰화 주식 면제 대상 아님",
      "color": "black",
@@ -1394,8 +1620,30 @@
      "notes": []
     },
     {
-     "id": "rh-0110",
+     "id": "rh-0169",
      "disp": "Robinhood 차이-6",
+     "level": "●",
+     "text": "제3자 시각",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0170",
+     "disp": "Robinhood 차이-7",
+     "level": "★",
+     "text": "가능했던 이유 : 장외 파생이라 시범제도 면제 불필요(포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-105"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0110",
+     "disp": "Robinhood 차이-8",
      "level": "●",
      "text": "고객 수요",
      "color": "black",
@@ -1405,7 +1653,7 @@
     },
     {
      "id": "rh-0111",
-     "disp": "Robinhood 차이-7",
+     "disp": "Robinhood 차이-9",
      "level": "★",
      "text": "가능했던 이유 : 증권 계좌 없이 1유로, 지갑으로 미국 주식",
      "color": "black",
@@ -1418,7 +1666,7 @@
     },
     {
      "id": "rh-0139",
-     "disp": "Robinhood 차이-8",
+     "disp": "Robinhood 차이-10",
      "level": "●",
      "text": "규제 건의 포인트 : 해외 파생계약형 토큰의 원금 손실 고지 기준",
      "color": "black",
@@ -1604,8 +1852,200 @@
      "notes": []
     },
     {
-     "id": "rh-0127",
+     "id": "rh-0171",
      "disp": "Robinhood 판단-15",
+     "level": "●",
+     "text": "제약과 리스크 대조(제3자)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0172",
+     "disp": "Robinhood 판단-16",
+     "level": "★",
+     "text": "비상장 토큰은 소유권과 상환 없음, OpenAI 승인 부인(포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-108"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0173",
+     "disp": "Robinhood 판단-17",
+     "level": "★",
+     "text": "IOSCO 각주가 Robinhood 비상장 토큰 보도를 사례로 듦(IOSCO, 감독기구)",
+     "color": "black",
+     "fact_ids": [
+      "TP-109"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0174",
+     "disp": "Robinhood 판단-18",
+     "level": "●",
+     "text": "제3자 평가",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0175",
+     "disp": "Robinhood 판단-19",
+     "level": "★",
+     "text": "평가 1 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 29쪽 https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks",
+     "color": "orange",
+     "fact_ids": [
+      "TP-101"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0176",
+     "disp": "Robinhood 판단-20",
+     "level": "①",
+     "text": "원문 : \"From a personal perspective, I also view indirect tokenization as a transitional approach.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0177",
+     "disp": "Robinhood 판단-21",
+     "level": "②",
+     "text": "번역 : 개인적으로 나는 간접 토큰화를 과도기 방식으로 본다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0178",
+     "disp": "Robinhood 판단-22",
+     "level": "③",
+     "text": "해석 : 직접 방식을 쓰는 후원사 쪽 보고서의 견해. 인가 없이 낸 간접 방식이 규제 명확화 뒤에도 남을지가 KDX가 볼 점",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0179",
+     "disp": "Robinhood 판단-23",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_TP-101.jpg",
+       "caption": "평가 1 원문"
+      }
+     ]
+    },
+    {
+     "id": "rh-0180",
+     "disp": "Robinhood 판단-24",
+     "level": "★",
+     "text": "평가 2 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 69쪽 https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks",
+     "color": "orange",
+     "fact_ids": [
+      "TP-102"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0181",
+     "disp": "Robinhood 판단-25",
+     "level": "①",
+     "text": "원문 : \"Robinhood acts as both counterparty and liquidity provider, internalizing user order flow within its platform.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0182",
+     "disp": "Robinhood 판단-26",
+     "level": "②",
+     "text": "번역 : Robinhood은 상대방이자 유동성 공급자로서 이용자 주문을 자기 플랫폼 안에서 내부 처리한다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0183",
+     "disp": "Robinhood 판단-27",
+     "level": "③",
+     "text": "해석 : 2026-02 기준이라 자체 체인과 지갑판 이전 설명. 회사가 상대방을 겸하는 구조의 이해상충 고지가 KDX가 볼 점",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0184",
+     "disp": "Robinhood 판단-28",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_TP-102.jpg",
+       "caption": "평가 2 원문"
+      }
+     ]
+    },
+    {
+     "id": "rh-0185",
+     "disp": "Robinhood 판단-29",
+     "level": "★",
+     "text": "평가 3 : CoinDesk Research(Bullish 의뢰), 발행사 안내서 비교표, 2026-09-29(2026-08 기준), 10쪽 https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities",
+     "color": "black",
+     "fact_ids": [
+      "TP-103"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0186",
+     "disp": "Robinhood 판단-30",
+     "level": "①",
+     "text": "원문 : 표 칸 \"Synthetic tokenized equities\", \"Derivative\", \"Debt / no rights\", \"Shadow / no consent\"(Robinhood 열)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0187",
+     "disp": "Robinhood 판단-31",
+     "level": "②",
+     "text": "번역 : 합성형 토큰 주식, 파생, 채무이고 주주권 없음, 발행사 동의 없는 구조.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0188",
+     "disp": "Robinhood 판단-32",
+     "level": "③",
+     "text": "해석 : 발행사 직접 방식에 유리한 의뢰사 표라 낮게 매긴 면이 있음. 지갑판 반영 표라 EU판과 구분해 읽어야 함. 표 원문은 이미지 아닌 칸 글자라 캡처 없음",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0127",
+     "disp": "Robinhood 판단-33",
      "level": "●",
      "text": "KDX 시사점",
      "color": "black",
@@ -1615,7 +2055,7 @@
     },
     {
      "id": "rh-0141",
-     "disp": "Robinhood 판단-16",
+     "disp": "Robinhood 판단-34",
      "level": "★",
      "text": "받치는 명제 : Borderless Investing",
      "color": "black",
@@ -1628,7 +2068,7 @@
     },
     {
      "id": "rh-0142",
-     "disp": "Robinhood 판단-17",
+     "disp": "Robinhood 판단-35",
      "level": "★",
      "text": "KDX가 가져올 것 : 증권 계좌 없이 지갑, 앱으로 미국 주식 접근",
      "color": "black",
@@ -1641,7 +2081,7 @@
     },
     {
      "id": "rh-0143",
-     "disp": "Robinhood 판단-18",
+     "disp": "Robinhood 판단-36",
      "level": "★",
      "text": "KDX가 피할 것 : 회사 파산 시 원금 전액 손실 구조",
      "color": "black",
@@ -1653,7 +2093,7 @@
     },
     {
      "id": "rh-0144",
-     "disp": "Robinhood 판단-19",
+     "disp": "Robinhood 판단-37",
      "level": "●",
      "text": "해외 확장 세 질문",
      "color": "black",
@@ -1663,7 +2103,7 @@
     },
     {
      "id": "rh-0145",
-     "disp": "Robinhood 판단-20",
+     "disp": "Robinhood 판단-38",
      "level": "★",
      "text": "제공 가치 : 24/7 미국 주식 노출",
      "color": "black",
@@ -1675,7 +2115,7 @@
     },
     {
      "id": "rh-0146",
-     "disp": "Robinhood 판단-21",
+     "disp": "Robinhood 판단-39",
      "level": "★",
      "text": "제도 : 저지 발행과 EU 투자설명서 승인",
      "color": "black",
@@ -1688,7 +2128,7 @@
     },
     {
      "id": "rh-0147",
-     "disp": "Robinhood 판단-22",
+     "disp": "Robinhood 판단-40",
      "level": "★",
      "text": "경제성 : 체인 시퀀서 수익 50~85%",
      "color": "black",

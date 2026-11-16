@@ -699,8 +699,19 @@
      "notes": []
     },
     {
-     "id": "on-0057",
+     "id": "on-0151",
      "disp": "Ondo B-10",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_R1_p26_indirect_tokenization.jpg",
+       "caption": "간접 방식 흐름(포필러스, Securitize 후원, 2026-02)"
+      }
+     ]
+    },
+    {
+     "id": "on-0057",
+     "disp": "Ondo B-11",
      "level": "●",
      "text": "투자자 권리",
      "color": "black",
@@ -710,7 +721,7 @@
     },
     {
      "id": "on-0058",
-     "disp": "Ondo B-11",
+     "disp": "Ondo B-12",
      "level": "★",
      "text": "배당은 자동 재투자되어 토큰 가격에 반영",
      "color": "black",
@@ -722,7 +733,7 @@
     },
     {
      "id": "on-0059",
-     "disp": "Ondo B-12",
+     "disp": "Ondo B-13",
      "level": "★",
      "text": "2026-04 Broadridge(의결 대행사) 연동, 의결 선호 제출",
      "color": "black",
@@ -734,8 +745,19 @@
      "notes": []
     },
     {
+     "id": "on-0152",
+     "disp": "Ondo B-14",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_R2_p08_synthetic.jpg",
+       "caption": "합성형 흐름(CoinDesk Research, Bullish 의뢰, 2026-09)"
+      }
+     ]
+    },
+    {
      "id": "on-0060",
-     "disp": "Ondo B-13",
+     "disp": "Ondo B-15",
      "level": "●",
      "text": "규모(시장 내 위치)",
      "color": "black",
@@ -745,7 +767,7 @@
     },
     {
      "id": "on-0061",
-     "disp": "Ondo B-14",
+     "disp": "Ondo B-16",
      "level": "★",
      "text": "2026-11-16 발행 잔액 8.99억 달러, 2위(점유율 24.23%)",
      "color": "black",
@@ -757,7 +779,7 @@
     },
     {
      "id": "on-0062",
-     "disp": "Ondo B-15",
+     "disp": "Ondo B-17",
      "level": "★",
      "text": "1위 Binance(가상자산 거래소) 13.6억, 3위 Kraken(가상자산 거래소) 6.8억 달러",
      "color": "black",
@@ -770,7 +792,7 @@
     },
     {
      "id": "on-0063",
-     "disp": "Ondo B-16",
+     "disp": "Ondo B-18",
      "level": "★",
      "text": "4위 Securitize(토큰화 회사) 2.7억, 6위 Robinhood(주식 거래 앱) 1.5억 달러",
      "color": "orange",
@@ -783,7 +805,7 @@
     },
     {
      "id": "on-0064",
-     "disp": "Ondo B-17",
+     "disp": "Ondo B-19",
      "level": "★",
      "text": "시장 전체 37.1억 달러(30일 전 대비 +4.33%)",
      "color": "black",
@@ -794,8 +816,67 @@
      "notes": []
     },
     {
+     "id": "on-0153",
+     "disp": "Ondo B-20",
+     "level": "●",
+     "text": "규모의 과거 대비(2026-01 초 기준)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0154",
+     "disp": "Ondo B-21",
+     "level": "★",
+     "text": "2026-01 초 4.13억 달러 1위(51.59%) → 11-16 8.99억 2위(24.23%)",
+     "color": "black",
+     "fact_ids": [
+      "TP-001",
+      "F-1022"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0155",
+     "disp": "Ondo B-22",
+     "level": "★",
+     "text": "2.2배, 점유율 27.4%p 하락",
+     "color": "black",
+     "fact_ids": [
+      "TP-001",
+      "F-1022"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0156",
+     "disp": "Ondo B-23",
+     "level": "★",
+     "text": "2026-03 Ondo 약 53%(Foresight Ventures 집계, 기준 달라 참고만)",
+     "color": "black",
+     "fact_ids": [
+      "TP-009"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0157",
+     "disp": "Ondo B-24",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_W1_sentora_rwa_league_table_2026-01.jpg",
+       "caption": "rwa.xyz 순위표(Sentora 주간 글, 2026-01-09)"
+      }
+     ]
+    },
+    {
      "id": "on-0065",
-     "disp": "Ondo B-18",
+     "disp": "Ondo B-25",
      "level": "●",
      "text": "수수료",
      "color": "black",
@@ -805,7 +886,7 @@
     },
     {
      "id": "on-0066",
-     "disp": "Ondo B-19",
+     "disp": "Ondo B-26",
      "level": "★",
      "text": "발행 수수료 없음, 상환 수수료 0.05%",
      "color": "black",
@@ -817,12 +898,92 @@
     },
     {
      "id": "on-0067",
-     "disp": "Ondo B-20",
+     "disp": "Ondo B-27",
      "level": "★",
      "text": "견적가와 기초 매매가 차이는 Ondo Stocks가 보유",
      "color": "black",
      "fact_ids": [
       "F-0546"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0158",
+     "disp": "Ondo B-28",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_R1_p36_indirect_platforms_table.jpg",
+       "caption": "간접 방식 4사 비교표(포필러스, Securitize 후원, 2026-02)"
+      }
+     ]
+    },
+    {
+     "id": "on-0159",
+     "disp": "Ondo B-29",
+     "level": "●",
+     "text": "제3자 시각(구조)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0160",
+     "disp": "Ondo B-30",
+     "level": "★",
+     "text": "발행사 동의 없음, 토큰은 래퍼, 장부는 SPV (CoinDesk Research, Bullish 의뢰)",
+     "color": "black",
+     "fact_ids": [
+      "TP-204"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0161",
+     "disp": "Ondo B-31",
+     "level": "●",
+     "text": "미국용 보관형(2026-07, 별도 상품)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0162",
+     "disp": "Ondo B-32",
+     "level": "★",
+     "text": "Oasis Pro 명의개서대리인이 IVV, MU 2종 토큰 발행",
+     "color": "black",
+     "fact_ids": [
+      "F-1128"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0163",
+     "disp": "Ondo B-33",
+     "level": "★",
+     "text": "우리 분류 : 보관형. 매수 대상 범위는 발표에 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-1128",
+      "F-1129"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0164",
+     "disp": "Ondo B-34",
+     "level": "★",
+     "text": "위 BVI 상품은 여전히 미국인, 미국 내 주문 금지",
+     "color": "black",
+     "fact_ids": [
+      "F-1129"
      ],
      "confirmed": false,
      "notes": []
@@ -912,6 +1073,28 @@
      "fact_ids": [
       "F-0530",
       "F-0544"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0165",
+     "disp": "Ondo C-8",
+     "level": "●",
+     "text": "제3자 시각(이용자)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0166",
+     "disp": "Ondo C-9",
+     "level": "★",
+     "text": "KYC 없는 이용자도 온체인 접근 가능 (포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-206"
      ],
      "confirmed": false,
      "notes": []
@@ -1048,6 +1231,28 @@
      "color": "black",
      "fact_ids": [
       "F-0553"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0167",
+     "disp": "Ondo D-12",
+     "level": "●",
+     "text": "제3자 시각(유통)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0168",
+     "disp": "Ondo D-13",
+     "level": "★",
+     "text": "DeFi 연동 가장 깊은 편, 합성 노출 (CoinDesk Research, Bullish 의뢰)",
+     "color": "black",
+     "fact_ids": [
+      "TP-207"
      ],
      "confirmed": false,
      "notes": []
@@ -1223,6 +1428,40 @@
      "color": "black",
      "fact_ids": [
       "F-0528"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0169",
+     "disp": "Ondo E-15",
+     "level": "●",
+     "text": "제3자 시각(인가)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0170",
+     "disp": "Ondo E-16",
+     "level": "★",
+     "text": "미국 유통은 Oasis Pro 인가 활용 준비 중, 2026-02 기준 (포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-205"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0171",
+     "disp": "Ondo E-17",
+     "level": "★",
+     "text": "1차 확인 : 2026-07 Oasis Pro 명의개서로 미국 보관형 2종 가동",
+     "color": "black",
+     "fact_ids": [
+      "F-1128"
      ],
      "confirmed": false,
      "notes": []
@@ -1549,8 +1788,189 @@
      "notes": []
     },
     {
-     "id": "on-0126",
+     "id": "on-0172",
      "disp": "Ondo 판단-10",
+     "level": "★",
+     "text": "DEX 풀 단건 매수가 같은 시각 주가보다 약 9.3% 높음(Citadel 지원 필자, 단일 사례)",
+     "color": "black",
+     "fact_ids": [
+      "TP-201"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0173",
+     "disp": "Ondo 판단-11",
+     "level": "●",
+     "text": "제3자 평가",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0174",
+     "disp": "Ondo 판단-12",
+     "level": "★",
+     "text": "평가 1 : 오버달(SEC 제출 의견서, 필자가 Citadel Securities 재정 지원을 밝힘), Tokenized U.S. Equities, DeFi Trading, and the SEC's Exemptive Authority, 2026-01-22, 25쪽 https://www.sec.gov/files/ctf-written-james-overdahl-tokenized-us-equities-01-22-2026.pdf",
+     "color": "black",
+     "fact_ids": [
+      "TP-201"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0175",
+     "disp": "Ondo 판단-13",
+     "level": "①",
+     "text": "원문 : \"This suggests that the user paid about 9.3% more for the tokenized NVDA stock compared to what they would have paid if they instead had executed a trade for NVDA on a regulated exchange.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0176",
+     "disp": "Ondo 판단-14",
+     "level": "②",
+     "text": "번역 : 이용자가 규제 거래소에서 샀을 때보다 토큰화 NVDA를 약 9.3% 비싸게 샀다는 뜻이다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0177",
+     "disp": "Ondo 판단-15",
+     "level": "③",
+     "text": "해석 : 2026-01-14 Ondo 토큰(NVDAon)을 DEX 풀에서 산 단일 사례. 그래서 KDX는 거래 장소별 체결 비용을 볼 것",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0178",
+     "disp": "Ondo 판단-16",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_TP-201.jpg",
+       "caption": "평가 1 원문"
+      }
+     ]
+    },
+    {
+     "id": "on-0179",
+     "disp": "Ondo 판단-17",
+     "level": "★",
+     "text": "평가 2 : 포필러스(Securitize 후원 보고서), 2026: The Year of Tokenized Stocks, 2026-02-23, 38쪽 https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks",
+     "color": "orange",
+     "fact_ids": [
+      "TP-202"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0180",
+     "disp": "Ondo 판단-18",
+     "level": "①",
+     "text": "원문 : \"Similar to the PFOF structure between Robinhood and Citadel, Ondo Finance can earn spread revenue while processing users' stock orders.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0181",
+     "disp": "Ondo 판단-19",
+     "level": "②",
+     "text": "번역 : Robinhood와 Citadel의 PFOF 구조처럼 Ondo는 주문 처리 중 스프레드 수익을 얻을 수 있다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0182",
+     "disp": "Ondo 판단-20",
+     "level": "③",
+     "text": "해석 : 수수료 0이어도 견적 차이가 수익. 그래서 KDX는 수수료에 스프레드를 합쳐 비교",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0183",
+     "disp": "Ondo 판단-21",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_TP-202.jpg",
+       "caption": "평가 2 원문"
+      }
+     ]
+    },
+    {
+     "id": "on-0184",
+     "disp": "Ondo 판단-22",
+     "level": "★",
+     "text": "평가 3 : 포필러스(Securitize 후원 보고서), 2026: The Year of Tokenized Stocks, 2026-02-23, 27쪽 https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks",
+     "color": "orange",
+     "fact_ids": [
+      "TP-203"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0185",
+     "disp": "Ondo 판단-23",
+     "level": "①",
+     "text": "원문 : \"Liquidity fragmentation: Even for the same stock, liquidity is not interoperable across different indirect tokenization platforms.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0186",
+     "disp": "Ondo 판단-24",
+     "level": "②",
+     "text": "번역 : 유동성 분산: 같은 종목도 간접 방식 플랫폼 사이에 유동성이 호환되지 않는다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0187",
+     "disp": "Ondo 판단-25",
+     "level": "③",
+     "text": "해석 : Backed xTSLA와 Ondo TSLAon이 갈린다는 예. 직접 방식 후원사의 평가, 그래서 KDX는 유동성 한곳 집중 설계를 볼 것",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0188",
+     "disp": "Ondo 판단-26",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_TP-203.jpg",
+       "caption": "평가 3 원문"
+      }
+     ]
+    },
+    {
+     "id": "on-0126",
+     "disp": "Ondo 판단-27",
      "level": "●",
      "text": "KDX 시사점 1",
      "color": "black",
@@ -1560,7 +1980,7 @@
     },
     {
      "id": "on-0141",
-     "disp": "Ondo 판단-11",
+     "disp": "Ondo 판단-28",
      "level": "★",
      "text": "받치는 명제 : Coopetition",
      "color": "black",
@@ -1573,7 +1993,7 @@
     },
     {
      "id": "on-0142",
-     "disp": "Ondo 판단-12",
+     "disp": "Ondo 판단-29",
      "level": "★",
      "text": "KDX가 가져올 것 : 거래소, 지갑, DTCC에 공급하는 개방형 연동",
      "color": "black",
@@ -1586,7 +2006,7 @@
     },
     {
      "id": "on-0143",
-     "disp": "Ondo 판단-13",
+     "disp": "Ondo 판단-30",
      "level": "★",
      "text": "KDX가 피할 것 : 1위 경쟁자(Binance)에 공급하며 의존",
      "color": "black",
@@ -1599,7 +2019,7 @@
     },
     {
      "id": "on-0144",
-     "disp": "Ondo 판단-14",
+     "disp": "Ondo 판단-31",
      "level": "●",
      "text": "KDX 시사점 2",
      "color": "black",
@@ -1609,7 +2029,7 @@
     },
     {
      "id": "on-0128",
-     "disp": "Ondo 판단-15",
+     "disp": "Ondo 판단-32",
      "level": "★",
      "text": "받치는 명제 : Borderless Investing",
      "color": "black",
@@ -1622,7 +2042,7 @@
     },
     {
      "id": "on-0145",
-     "disp": "Ondo 판단-16",
+     "disp": "Ondo 판단-33",
      "level": "★",
      "text": "KDX가 가져올 것 : 지갑으로 미국 주식 노출, 외부 지갑 이전 허용",
      "color": "black",
@@ -1635,7 +2055,7 @@
     },
     {
      "id": "on-0146",
-     "disp": "Ondo 판단-17",
+     "disp": "Ondo 판단-34",
      "level": "★",
      "text": "KDX가 피할 것 : 담보 채권 구조의 투자자 도산 위험 전가",
      "color": "black",
@@ -1647,7 +2067,7 @@
     },
     {
      "id": "on-0147",
-     "disp": "Ondo 판단-18",
+     "disp": "Ondo 판단-35",
      "level": "●",
      "text": "해외 확장 세 질문",
      "color": "black",
@@ -1657,7 +2077,7 @@
     },
     {
      "id": "on-0148",
-     "disp": "Ondo 판단-19",
+     "disp": "Ondo 판단-36",
      "level": "★",
      "text": "제공 가치 : 한국 주식의 해외 유통",
      "color": "black",
@@ -1669,7 +2089,7 @@
     },
     {
      "id": "on-0149",
-     "disp": "Ondo 판단-20",
+     "disp": "Ondo 판단-37",
      "level": "★",
      "text": "제도 : 카카오페이증권이 외국인 통합계좌로 원주 조달",
      "color": "black",
@@ -1681,7 +2101,7 @@
     },
     {
      "id": "on-0150",
-     "disp": "Ondo 판단-21",
+     "disp": "Ondo 판단-38",
      "level": "★",
      "text": "경제성 : 발행 수수료 없음, 상환 수수료 0.05%",
      "color": "black",

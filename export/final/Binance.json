@@ -739,8 +739,31 @@
      "notes": []
     },
     {
-     "id": "bn-0060",
+     "id": "bn-0133",
      "disp": "Binance B-19",
+     "level": "●",
+     "text": "규모의 과거 대비(2026-01 초 기준)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0134",
+     "disp": "Binance B-20",
+     "level": "★",
+     "text": "2026-01 초 rwa.xyz 표에는 없음(bStocks 2026-06 출시)",
+     "color": "black",
+     "fact_ids": [
+      "TP-005",
+      "F-1126"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0060",
+     "disp": "Binance B-21",
      "level": "●",
      "text": "수수료",
      "color": "black",
@@ -750,12 +773,47 @@
     },
     {
      "id": "bn-0061",
-     "disp": "Binance B-20",
+     "disp": "Binance B-22",
      "level": "★",
      "text": "주식과 토큰 1:1 전환 수수료 0, 소수 주식 5달러부터",
      "color": "black",
      "fact_ids": [
       "F-0050"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0135",
+     "disp": "Binance B-23",
+     "level": "●",
+     "text": "제3자 시각(구조)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0136",
+     "disp": "Binance B-24",
+     "level": "★",
+     "text": "보관형, 발행사 동의 없음, 장부는 Binance 보유 (CoinDesk Research, Bullish 의뢰)",
+     "color": "black",
+     "fact_ids": [
+      "TP-211"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0137",
+     "disp": "Binance B-25",
+     "level": "★",
+     "text": "표는 보관형으로 묶음, 투자설명서상은 신탁 수익권",
+     "color": "black",
+     "fact_ids": [
+      "TP-211",
+      "F-0994"
      ],
      "confirmed": false,
      "notes": []
@@ -907,6 +965,28 @@
      "fact_ids": [
       "F-0051",
       "F-0050"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0138",
+     "disp": "Binance D-8",
+     "level": "●",
+     "text": "제3자 시각(유통)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0139",
+     "disp": "Binance D-9",
+     "level": "★",
+     "text": "bStocks를 BNB Chain 대출 담보로 쓴다고 서술 (CoinDesk Research, Bullish 의뢰)",
+     "color": "black",
+     "fact_ids": [
+      "TP-212"
      ],
      "confirmed": false,
      "notes": []
@@ -1395,8 +1475,113 @@
      "notes": []
     },
     {
-     "id": "bn-0107",
+     "id": "bn-0140",
      "disp": "Binance 판단-15",
+     "level": "●",
+     "text": "제3자 평가",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0141",
+     "disp": "Binance 판단-16",
+     "level": "★",
+     "text": "평가 1 : CoinDesk Research(Bullish 의뢰, 발행사 직접 방식에 유리하게 씀), The Future of Equity Ownership: An Issuer's Guide to Tokenized Equities, 2026-09-29(표 기준 2026-08), 10쪽 표 https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities",
+     "color": "black",
+     "fact_ids": [
+      "TP-211"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0142",
+     "disp": "Binance 판단-17",
+     "level": "①",
+     "text": "원문 : 표 Binance 열 \"Custodial tokenized equities\", \"No consent\", \"Claim / cert\", \"Binance-held\", \"Partial\", \"Not for US\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0143",
+     "disp": "Binance 판단-18",
+     "level": "②",
+     "text": "번역 : 보관형 토큰 주식, 발행사 동의 없음, 청구권 또는 증서, Binance가 보유, 권리 일부, 미국 불가.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0144",
+     "disp": "Binance 판단-19",
+     "level": "③",
+     "text": "해석 : 표는 Binance를 Dinari와 같은 보관형으로 묶었으나 투자설명서상은 신탁 수익권이고 표 각주는 두 상품 중 좋은 쪽으로 채점했다고 밝힘. 그래서 KDX는 우리 분류를 유지하고 발행사 동의 없는 구조라는 점을 볼 것",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0145",
+     "disp": "Binance 판단-20",
+     "level": "★",
+     "text": "평가 2 : CoinDesk Research(Bullish 의뢰, 발행사 직접 방식에 유리하게 씀), The Future of Equity Ownership: An Issuer's Guide to Tokenized Equities, 2026-09-29, 15쪽 https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities",
+     "color": "black",
+     "fact_ids": [
+      "TP-212"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0146",
+     "disp": "Binance 판단-21",
+     "level": "①",
+     "text": "원문 : \"Binance’s bStocks, for example, can be used as collateral in lending protocols on BNB Chain.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0147",
+     "disp": "Binance 판단-22",
+     "level": "②",
+     "text": "번역 : 예를 들어 Binance의 bStocks는 BNB Chain의 대출 프로토콜에서 담보로 쓸 수 있다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0148",
+     "disp": "Binance 판단-23",
+     "level": "③",
+     "text": "해석 : 발행사 직접 방식은 이동이 제한된다고 대비해 쓴 대목. 그래서 KDX는 담보 활용과 이전 제한의 균형을 볼 것",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0149",
+     "disp": "Binance 판단-24",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_TP-212.jpg",
+       "caption": "평가 2 원문"
+      }
+     ]
+    },
+    {
+     "id": "bn-0107",
+     "disp": "Binance 판단-25",
      "level": "●",
      "text": "KDX 시사점",
      "color": "black",
@@ -1406,7 +1591,7 @@
     },
     {
      "id": "bn-0127",
-     "disp": "Binance 판단-16",
+     "disp": "Binance 판단-26",
      "level": "★",
      "text": "받치는 명제 : Coopetition",
      "color": "black",
@@ -1420,7 +1605,7 @@
     },
     {
      "id": "bn-0128",
-     "disp": "Binance 판단-17",
+     "disp": "Binance 판단-27",
      "level": "★",
      "text": "KDX가 가져올 것 : 경쟁 발행사 토큰 상장 뒤 직접 발행으로 확장",
      "color": "black",
@@ -1432,8 +1617,21 @@
      "notes": []
     },
     {
+     "id": "bn-0150",
+     "disp": "Binance 판단-28",
+     "level": "★",
+     "text": "KDX가 가져올 것 : 원주 보관 뒤 수익권 유통, 국내는 예탁원 신탁 수익증권 구조로 (기고, 법률 실무)",
+     "color": "black",
+     "fact_ids": [
+      "F-0049",
+      "TP-435"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0129",
-     "disp": "Binance 판단-18",
+     "disp": "Binance 판단-29",
      "level": "★",
      "text": "KDX가 피할 것 : 발행사 의무가 보관 기초주에 한정되는 구조",
      "color": "black",
@@ -1445,7 +1643,7 @@
     },
     {
      "id": "bn-0130",
-     "disp": "Binance 판단-19",
+     "disp": "Binance 판단-30",
      "level": "●",
      "text": "해외 확장 세 질문",
      "color": "black",
@@ -1455,7 +1653,7 @@
     },
     {
      "id": "bn-0109",
-     "disp": "Binance 판단-20",
+     "disp": "Binance 판단-31",
      "level": "★",
      "text": "제공 가치 : 거래소 계정으로 미국 주식 토큰 24시간",
      "color": "black",
@@ -1468,7 +1666,7 @@
     },
     {
      "id": "bn-0131",
-     "disp": "Binance 판단-21",
+     "disp": "Binance 판단-32",
      "level": "★",
      "text": "제도 : ADGM 인가 3종, 승인 투자설명서",
      "color": "black",
@@ -1481,7 +1679,7 @@
     },
     {
      "id": "bn-0132",
-     "disp": "Binance 판단-22",
+     "disp": "Binance 판단-33",
      "level": "★",
      "text": "경제성 : 담보 활용 거래 확대, 누적 거래량 400억 달러",
      "color": "black",

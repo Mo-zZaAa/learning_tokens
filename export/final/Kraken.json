@@ -828,8 +828,55 @@
      "notes": []
     },
     {
-     "id": "kr-0067",
+     "id": "kr-0168",
      "disp": "Kraken B-21",
+     "level": "●",
+     "text": "규모 과거 대비",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0169",
+     "disp": "Kraken B-22",
+     "level": "★",
+     "text": "2026-01 초 1.95억 달러 2위(24.37%) → 11-16 6.77억 3위(18.26%)",
+     "color": "black",
+     "fact_ids": [
+      "TP-002",
+      "F-1023"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0170",
+     "disp": "Kraken B-23",
+     "level": "★",
+     "text": "3.5배, 점유율 6.1%p 하락",
+     "color": "black",
+     "fact_ids": [
+      "TP-002",
+      "F-1023"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0171",
+     "disp": "Kraken B-24",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_W1_sentora_rwa_league_table_2026-01.jpg",
+       "caption": "rwa.xyz 순위표(Sentora 주간 글, 2026-01-09)"
+      }
+     ]
+    },
+    {
+     "id": "kr-0067",
+     "disp": "Kraken B-25",
      "level": "●",
      "text": "수수료",
      "color": "black",
@@ -839,7 +886,7 @@
     },
     {
      "id": "kr-0068",
-     "disp": "Kraken B-22",
+     "disp": "Kraken B-26",
      "level": "★",
      "text": "Kraken 앱 1달러부터, USDG, USD 매수 시 거래 수수료 없음",
      "color": "black",
@@ -851,7 +898,7 @@
     },
     {
      "id": "kr-0069",
-     "disp": "Kraken B-23",
+     "disp": "Kraken B-27",
      "level": "★",
      "text": "발행, 상환 수수료 상한 5%, 운용보수 연 5% 이내",
      "color": "black",
@@ -863,7 +910,7 @@
     },
     {
      "id": "kr-0070",
-     "disp": "Kraken B-24",
+     "disp": "Kraken B-28",
      "level": "★",
      "text": "운용보수는 토큰 수량 차감으로 반영",
      "color": "black",
@@ -872,6 +919,62 @@
      ],
      "confirmed": false,
      "notes": []
+    },
+    {
+     "id": "kr-0172",
+     "disp": "Kraken B-29",
+     "level": "●",
+     "text": "제3자 시각",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0173",
+     "disp": "Kraken B-30",
+     "level": "★",
+     "text": "스위스 본사와 저지 SPV, 무기명 채무증권(포필러스, Securitize 후원, 2026-02 기준)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-114"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0174",
+     "disp": "Kraken B-31",
+     "level": "★",
+     "text": "발행, 상환 수수료 0.5%, 보수 연 0.25% 도입 가능(포필러스, Securitize 후원, 문서 기재)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-114"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0175",
+     "disp": "Kraken B-32",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_R2_p08_synthetic.jpg",
+       "caption": "합성형 흐름(CoinDesk Research, Bullish 의뢰, 2026-09)"
+      }
+     ]
+    },
+    {
+     "id": "kr-0176",
+     "disp": "Kraken B-33",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_R1_p26_indirect_tokenization.jpg",
+       "caption": "간접 방식 흐름(포필러스, Securitize 후원, 2026-02)"
+      }
+     ]
     }
    ]
   },
@@ -980,6 +1083,52 @@
      "color": "black",
      "fact_ids": [
       "F-0973"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0177",
+     "disp": "Kraken C-10",
+     "level": "●",
+     "text": "제3자 시각",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0178",
+     "disp": "Kraken C-11",
+     "level": "★",
+     "text": "발행, 상환만 KYC, 이후 자유 유통(포필러스, Securitize 후원, 2026-02 기준)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-114"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0179",
+     "disp": "Kraken C-12",
+     "level": "★",
+     "text": "거래 78%가 100달러 미만, 2025-07~10(포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-113"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0180",
+     "disp": "Kraken C-13",
+     "level": "★",
+     "text": "위 78%는 Backed와 Ondo 합산, Kraken 단독 아님(포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-113"
      ],
      "confirmed": false,
      "notes": []
@@ -1111,6 +1260,63 @@
      ],
      "confirmed": false,
      "notes": []
+    },
+    {
+     "id": "kr-0181",
+     "disp": "Kraken D-11",
+     "level": "●",
+     "text": "제3자 시각",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0182",
+     "disp": "Kraken D-12",
+     "level": "★",
+     "text": "100만 달러 교환 시 TSLAx 약 5%, NVDAx 최대 80% 밀림(Jupiter 탈중앙 거래소 기준, 포필러스, Securitize 후원, 2026-02 발간, 시점 미표기)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-111"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0183",
+     "disp": "Kraken D-13",
+     "level": "★",
+     "text": "미국장 휴장 때 가격이 벌어질 수 있다고 xStocks 문서가 밝힘(CoinDesk Research, Bullish 의뢰, 2026-08 기준)",
+     "color": "black",
+     "fact_ids": [
+      "TP-112"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0184",
+     "disp": "Kraken D-14",
+     "level": "★",
+     "text": "Bybit xStocks 누적 거래대금 약 5.5억 달러(포필러스, Securitize 후원, 2026-02 이전)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-116"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0185",
+     "disp": "Kraken D-15",
+     "level": "그림",
+     "images": [
+      {
+       "file": "reports_R1_p36_indirect_platforms_table.jpg",
+       "caption": "간접 방식 4사 비교표(포필러스, Securitize 후원, 2026-02, Backed 열)"
+      }
+     ]
     }
    ]
   },
@@ -1253,8 +1459,42 @@
      "notes": []
     },
     {
-     "id": "kr-0095",
+     "id": "kr-0186",
      "disp": "Kraken E-12",
+     "level": "●",
+     "text": "제3자 시각",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0187",
+     "disp": "Kraken E-13",
+     "level": "★",
+     "text": "스위스법 준거, 리히텐슈타인 승인으로 EU 유통(포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-115"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0188",
+     "disp": "Kraken E-14",
+     "level": "★",
+     "text": "유럽 판매는 키프로스 법인 인가, 그 법인이 직접 상대방(포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-115"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0095",
+     "disp": "Kraken E-15",
      "level": "●",
      "text": "인가 없는 구간을 메우는 방법",
      "color": "black",
@@ -1264,7 +1504,7 @@
     },
     {
      "id": "kr-0096",
-     "disp": "Kraken E-13",
+     "disp": "Kraken E-16",
      "level": "★",
      "text": "저지 JFSC가 AP, 브로커를 규제 금융회사로 한정 요구",
      "color": "black",
@@ -1276,7 +1516,7 @@
     },
     {
      "id": "kr-0097",
-     "disp": "Kraken E-14",
+     "disp": "Kraken E-17",
      "level": "★",
      "text": "EU 공모는 리히텐슈타인 FMA 승인 투자설명서",
      "color": "black",
@@ -1288,7 +1528,7 @@
     },
     {
      "id": "kr-0098",
-     "disp": "Kraken E-15",
+     "disp": "Kraken E-18",
      "level": "●",
      "text": "미국 미등록의 대가",
      "color": "black",
@@ -1298,7 +1538,7 @@
     },
     {
      "id": "kr-0099",
-     "disp": "Kraken E-16",
+     "disp": "Kraken E-19",
      "level": "★",
      "text": "미국 증권법 미등록, 1차, 2차 시장 모두 미국인 판매 금지",
      "color": "black",
@@ -1310,7 +1550,7 @@
     },
     {
      "id": "kr-0100",
-     "disp": "Kraken E-17",
+     "disp": "Kraken E-20",
      "level": "★",
      "text": "미국 고객은 Kraken Securities로 실물 주식 거래",
      "color": "black",
@@ -1323,7 +1563,7 @@
     },
     {
      "id": "kr-0101",
-     "disp": "Kraken E-18",
+     "disp": "Kraken E-21",
      "level": "★",
      "text": "Kraken Securities는 미국에서만 등록",
      "color": "black",
@@ -1565,8 +1805,30 @@
      "notes": []
     },
     {
-     "id": "kr-0117",
+     "id": "kr-0189",
      "disp": "Kraken 차이-6",
+     "level": "●",
+     "text": "제3자 시각",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0190",
+     "disp": "Kraken 차이-7",
+     "level": "★",
+     "text": "가능했던 이유 : 여러 관할 결합으로 EU 전역 유통(포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-115"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0117",
+     "disp": "Kraken 차이-8",
      "level": "●",
      "text": "고객 수요",
      "color": "black",
@@ -1576,7 +1838,7 @@
     },
     {
      "id": "kr-0118",
-     "disp": "Kraken 차이-7",
+     "disp": "Kraken 차이-9",
      "level": "★",
      "text": "가능했던 이유 : 미국 밖 개인의 주말 포함 미국 주식 매매",
      "color": "black",
@@ -1589,7 +1851,7 @@
     },
     {
      "id": "kr-0152",
-     "disp": "Kraken 차이-8",
+     "disp": "Kraken 차이-10",
      "level": "●",
      "text": "규제 건의 포인트 : 발행사 채무형 토큰의 상환권, 보증 없음 고지 기준",
      "color": "black",
@@ -1779,8 +2041,189 @@
      "notes": []
     },
     {
-     "id": "kr-0130",
+     "id": "kr-0191",
      "disp": "Kraken 판단-15",
+     "level": "★",
+     "text": "큰 금액 교환은 가격 밀림, 100만 달러 TSLAx 약 5%(포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-111"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0192",
+     "disp": "Kraken 판단-16",
+     "level": "●",
+     "text": "제3자 평가",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0193",
+     "disp": "Kraken 판단-17",
+     "level": "★",
+     "text": "평가 1 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 70쪽 https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks",
+     "color": "orange",
+     "fact_ids": [
+      "TP-111"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0194",
+     "disp": "Kraken 판단-18",
+     "level": "①",
+     "text": "원문 : \"For example, swapping $1M of TSLAx on Jupiter results in roughly 5% slippage, while NVDAx experiences slippage as high as 80%, rendering it effectively untradeable.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0195",
+     "disp": "Kraken 판단-19",
+     "level": "②",
+     "text": "번역 : 예를 들어 Jupiter에서 TSLAx 100만 달러를 교환하면 가격이 약 5% 밀리고, NVDAx는 최대 80%까지 밀려 사실상 거래할 수 없다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0196",
+     "disp": "Kraken 판단-20",
+     "level": "③",
+     "text": "해석 : 100만 달러 기준, 탈중앙 거래소 Jupiter 사례이며 Kraken 앱 체결과는 다름. 2026-02 발간 보고서라 현재 유동성과 다를 수 있음",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0197",
+     "disp": "Kraken 판단-21",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_TP-111.jpg",
+       "caption": "평가 1 원문"
+      }
+     ]
+    },
+    {
+     "id": "kr-0198",
+     "disp": "Kraken 판단-22",
+     "level": "★",
+     "text": "평가 2 : CoinDesk Research(Bullish 의뢰), 발행사 안내서, 2026-09-29, 15쪽 https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities",
+     "color": "black",
+     "fact_ids": [
+      "TP-112"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0199",
+     "disp": "Kraken 판단-23",
+     "level": "①",
+     "text": "원문 : \"xStocks’ documentation, for instance, notes that token prices may diverge from the underlying shares when U.S. markets are closed, liquidity is thin, or reference pricing is stale.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0200",
+     "disp": "Kraken 판단-24",
+     "level": "②",
+     "text": "번역 : 예컨대 xStocks 문서는 미국 시장 휴장, 유동성 부족, 기준 가격 지연 때 토큰 가격이 원주와 벌어질 수 있다고 밝힌다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0201",
+     "disp": "Kraken 판단-25",
+     "level": "③",
+     "text": "해석 : 발행사 직접 방식을 미는 의뢰사 글이라 래퍼 방식에 불리하게 쓴 면이 있으나 출처는 xStocks 자체 문서. 한국에서 가격 괴리 고지 기준에 참고",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0202",
+     "disp": "Kraken 판단-26",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_TP-112.jpg",
+       "caption": "평가 2 원문"
+      }
+     ]
+    },
+    {
+     "id": "kr-0203",
+     "disp": "Kraken 판단-27",
+     "level": "★",
+     "text": "평가 3 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 77쪽 https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks",
+     "color": "orange",
+     "fact_ids": [
+      "TP-113"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0204",
+     "disp": "Kraken 판단-28",
+     "level": "①",
+     "text": "원문 : \"In addition, an analysis of trading data from Backed Finance and Ondo between July and October 2025 shows that 78% of all trades were under $100.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0205",
+     "disp": "Kraken 판단-29",
+     "level": "②",
+     "text": "번역 : Backed와 Ondo의 2025년 7월~10월 거래 데이터를 보면 전체 거래의 78%가 100달러 미만이었다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0206",
+     "disp": "Kraken 판단-30",
+     "level": "③",
+     "text": "해석 : 두 발행사 합산 수치로 Kraken만의 값이 아님. 소액 개인 수요라는 방향만 참고",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0207",
+     "disp": "Kraken 판단-31",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_TP-113.jpg",
+       "caption": "평가 3 원문"
+      }
+     ]
+    },
+    {
+     "id": "kr-0130",
+     "disp": "Kraken 판단-32",
      "level": "●",
      "text": "KDX 시사점",
      "color": "black",
@@ -1790,7 +2233,7 @@
     },
     {
      "id": "kr-0161",
-     "disp": "Kraken 판단-16",
+     "disp": "Kraken 판단-33",
      "level": "★",
      "text": "받치는 명제 : Coopetition",
      "color": "black",
@@ -1804,7 +2247,7 @@
     },
     {
      "id": "kr-0162",
-     "disp": "Kraken 판단-17",
+     "disp": "Kraken 판단-34",
      "level": "★",
      "text": "KDX가 가져올 것 : 거래소와 연결 통로 공동 개발, 지분 투자 유치",
      "color": "black",
@@ -1817,7 +2260,7 @@
     },
     {
      "id": "kr-0163",
-     "disp": "Kraken 판단-18",
+     "disp": "Kraken 판단-35",
      "level": "★",
      "text": "KDX가 피할 것 : 발행사 존속이 모회사 지원에만 달린 구조",
      "color": "black",
@@ -1830,7 +2273,7 @@
     },
     {
      "id": "kr-0164",
-     "disp": "Kraken 판단-19",
+     "disp": "Kraken 판단-36",
      "level": "●",
      "text": "해외 확장 세 질문",
      "color": "black",
@@ -1840,7 +2283,7 @@
     },
     {
      "id": "kr-0165",
-     "disp": "Kraken 판단-20",
+     "disp": "Kraken 판단-37",
      "level": "★",
      "text": "제공 가치 : 24시간 접근, 지갑 보유",
      "color": "black",
@@ -1853,7 +2296,7 @@
     },
     {
      "id": "kr-0166",
-     "disp": "Kraken 판단-21",
+     "disp": "Kraken 판단-38",
      "level": "★",
      "text": "제도 : 현지 공모 승인, 인가 법인 판매",
      "color": "black",
@@ -1866,7 +2309,7 @@
     },
     {
      "id": "kr-0167",
-     "disp": "Kraken 판단-22",
+     "disp": "Kraken 판단-39",
      "level": "★",
      "text": "경제성 : 운용보수 연 5% 이내",
      "color": "black",
