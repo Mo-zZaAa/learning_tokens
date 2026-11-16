@@ -76,10 +76,18 @@
   ★ 1, 2위는 Binance(가상자산 거래소), Ondo(토큰화 자산 회사)(13.6억, 9.0억 달러) [F-1021][F-1022]
   ★ 4위 Securitize(토큰화 플랫폼) 2.7억, 6위 Robinhood(주식 거래 앱) 1.5억 달러 [F-1024][F-1025]
   ★ 시장 전체 37.1억 달러 중 1~3위가 79% [F-1028][F-1021][F-1022][F-1023]
+● 규모 과거 대비
+  ★ 2026-01 초 1.95억 달러 2위(24.37%) → 11-16 6.77억 3위(18.26%), 3.5배, 6.1%p 하락 [TP-002][F-1023]
+  ![rwa.xyz 순위표(Sentora 주간 글, 2026-01-09)](../captures/reports/W1_sentora_rwa_league_table_2026-01.png)
 ● 수수료
   ★ Kraken 앱 1달러부터, USDG, USD 매수 시 거래 수수료 없음 [F-0404]
   ★ 발행, 상환 수수료 상한 5%, 운용보수 연 5% 이내 [F-0977]
   ★ 운용보수는 토큰 수량 차감으로 반영 [F-0978]
+● 제3자 시각
+  ★ 스위스 본사와 저지 SPV, 무기명 채무증권(포필러스, Securitize 후원, 2026-02 기준) [TP-114]
+  ★ 발행, 상환 수수료 0.5%, 보수 연 0.25% 도입 가능(포필러스, Securitize 후원, 문서 기재) [TP-114]
+  ![합성형 흐름(CoinDesk Research, Bullish 의뢰, 2026-09)](../captures/reports/R2_p08_synthetic.png)
+  ![간접 방식 흐름(포필러스, Securitize 후원, 2026-02)](../captures/reports/R1_p26_indirect_tokenization.png)
 
 ## C 최종 투자자
 ● 주장 : 앱에서는 미국 밖 개인, 발행사 직접 청약은 전문투자자만 [F-0392][F-0975]
@@ -91,6 +99,10 @@
   ★ 미국, 캐나다, 영국, 호주 이용 불가 [F-0393]
   ★ EU는 29개국 감독당국에 투자설명서 통지 [F-0976]
   ★ 스위스는 FinSA상 전문투자자에게만 제공 [F-0973]
+● 제3자 시각
+  ★ 발행, 상환만 KYC, 이후 자유 유통(포필러스, Securitize 후원, 2026-02 기준) [TP-114]
+  ★ 거래 78%가 100달러 미만, 2025-07~10(포필러스, Securitize 후원) [TP-113]
+  ★ 위 78%는 Backed와 Ondo 합산, Kraken 단독 아님(포필러스, Securitize 후원) [TP-113]
 
 ## D 유통과 접점
 ● 주장 : 자체 앱 직접 판매에 외부 거래소, 지갑, API 파트너 유통을 더함 [F-0919][F-1083][F-0450]
@@ -103,6 +115,11 @@
   ★ 10개 이상 블록체인 발행, 외부 지갑 출금 가능 [F-0397][F-0402]
   ★ 거래시간 : EEA 평일 24시간, 그 밖 다수 지역 24/7 [F-0400][F-0401]
   ★ 발행사는 거래소, MTF 상장 신청 없음, 2차 시장 재매도 [F-0981]
+● 제3자 시각
+  ★ Jupiter 100만 달러 교환 시 TSLAx 약 5%, NVDAx 최대 80% 밀림(포필러스, Securitize 후원, 2026-02 발간, 시점 미표기) [TP-111]
+  ★ 미국장 휴장 때 가격이 벌어질 수 있다고 xStocks 문서가 밝힘(CoinDesk Research, Bullish 의뢰, 2026-08 기준) [TP-112]
+  ★ Bybit xStocks 누적 거래대금 약 5.5억 달러(포필러스, Securitize 후원, 2026-02 이전) [TP-116]
+  ![간접 방식 4사 비교표(포필러스, Securitize 후원, 2026-02, Backed 열)](../captures/reports/R1_p36_indirect_platforms_table.png)
 
 ## E 인가
 ● 주장 : 발행은 무인가, 판매는 인가 계열사, 미국 파생 인가는 인수 [F-0990][F-0919][F-1118]
@@ -116,6 +133,9 @@
   ★ 미국 선물 중개 : 2025-05 NinjaTrader 인수로 확보 [F-1117][F-0177]
   ★ 미국 선물 거래소 : 2025-10 Small Exchange 인수 발표 [F-1116]
   ★ 미국 거래소, 청산소 : 2026-05 Bitnomial 인수 완료 [F-1118]
+● 제3자 시각
+  ★ 스위스법 준거, 리히텐슈타인 승인으로 EU 유통(포필러스, Securitize 후원) [TP-115]
+  ★ 유럽 판매는 키프로스 법인 인가, 그 법인이 직접 상대방(포필러스, Securitize 후원) [TP-115]
 ● 인가 없는 구간을 메우는 방법
   ★ 저지 JFSC가 AP, 브로커를 규제 금융회사로 한정 요구 [F-0990]
   ★ EU 공모는 리히텐슈타인 FMA 승인 투자설명서 [F-0918]
@@ -147,6 +167,8 @@
   ★ 가능했던 이유 : 미국 밖 판매는 미국 등록 없는 역외 구조 [F-0971][US-17CFR-230.901]
   ★ 가능했던 이유 : EU는 투자설명서 승인 후 29개국 공모 [F-0918][F-0976]
   ★ 한국 차이 : 앱 판매는 선택 국가의 미국 밖 개인만 [F-0392]
+● 제3자 시각
+  ★ 가능했던 이유 : 여러 관할 결합으로 EU 전역 유통(포필러스, Securitize 후원) [TP-115]
 ● 고객 수요
   ★ 가능했던 이유 : 미국 밖 개인의 주말 포함 미국 주식 매매 [F-0392][F-0401]
 ● 규제 건의 포인트 : 발행사 채무형 토큰의 상환권, 보증 없음 고지 기준 [F-0991][F-0924]
@@ -166,6 +188,23 @@
   ★ 발행사 존속이 Payward 지원에 의존, 채무 보증 없음 [F-0924][F-0986]
   ★ 발행사가 투자자 동의 없이 채무자 교체 가능 [F-0989]
   ★ 발행사가 30영업일 통지로 상품 해지 가능 [F-0949]
+  ★ 큰 금액 교환은 가격 밀림, 100만 달러 TSLAx 약 5%(포필러스, Securitize 후원) [TP-111]
+● 제3자 평가
+  ★ 평가 1 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 70쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks [TP-111]
+    ① 원문 : "For example, swapping $1M of TSLAx on Jupiter results in roughly 5% slippage, while NVDAx experiences slippage as high as 80%, rendering it effectively untradeable."
+    ② 번역 : 예를 들어 Jupiter에서 TSLAx 100만 달러를 교환하면 가격이 약 5% 밀리고, NVDAx는 최대 80%까지 밀려 사실상 거래할 수 없다.
+    ③ 해석 : 100만 달러 기준, 탈중앙 거래소 Jupiter 사례이며 Kraken 앱 체결과는 다름. 2026-02 발간 보고서라 현재 유동성과 다를 수 있음
+  ![평가 1 원문](../captures/reports/quotes/TP-111.png)
+  ★ 평가 2 : CoinDesk Research(Bullish 의뢰), 발행사 안내서, 2026-09-29, 15쪽, https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities [TP-112]
+    ① 원문 : "xStocks’ documentation, for instance, notes that token prices may diverge from the underlying shares when U.S. markets are closed, liquidity is thin, or reference pricing is stale."
+    ② 번역 : 예컨대 xStocks 문서는 미국 시장 휴장, 유동성 부족, 기준 가격 지연 때 토큰 가격이 원주와 벌어질 수 있다고 밝힌다.
+    ③ 해석 : 발행사 직접 방식을 미는 의뢰사 글이라 래퍼 방식에 불리하게 쓴 면이 있으나 출처는 xStocks 자체 문서. 한국에서 가격 괴리 고지 기준에 참고
+  ![평가 2 원문](../captures/reports/quotes/TP-112.png)
+  ★ 평가 3 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 77쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks [TP-113]
+    ① 원문 : "In addition, an analysis of trading data from Backed Finance and Ondo between July and October 2025 shows that 78% of all trades were under $100."
+    ② 번역 : Backed와 Ondo의 2025년 7월~10월 거래 데이터를 보면 전체 거래의 78%가 100달러 미만이었다.
+    ③ 해석 : 두 발행사 합산 수치로 Kraken만의 값이 아님. 소액 개인 수요라는 방향만 참고
+  ![평가 3 원문](../captures/reports/quotes/TP-113.png)
 ● KDX 시사점
   ★ 받치는 명제 : Coopetition [F-0175][F-0173][F-1119]
   ★ KDX가 가져올 것 : 거래소와 연결 통로 공동 개발, 지분 투자 유치 [F-0160][F-1119]

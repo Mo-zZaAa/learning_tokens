@@ -65,17 +65,27 @@
   ★ 발행 법인은 독립 이사 둔 SPV, 파산 격리 설계 [F-0576][F-0510]
   ★ Alpaca(미국 청산 증권사), BitGo Trust(수탁 회사) 담보 계좌 1:1 [F-0189][F-0558]
   ★ Ankura Trust(담보 대리인)가 1순위 담보권 보유 [F-0483][F-0573]
+  ![간접 방식 흐름(포필러스, Securitize 후원, 2026-02)](../captures/reports/R1_p26_indirect_tokenization.png)
 ● 투자자 권리
   ★ 배당은 자동 재투자되어 토큰 가격에 반영 [F-0542]
   ★ 2026-04 Broadridge(의결 대행사) 연동, 의결 선호 제출 [F-0463][F-0464]
+  ![합성형 흐름(CoinDesk Research, Bullish 의뢰, 2026-09)](../captures/reports/R2_p08_synthetic.png)
 ● 규모(시장 내 위치)
   ★ 2026-11-16 발행 잔액 8.99억 달러, 2위(점유율 24.23%) [F-1022]
   ★ 1위 Binance(가상자산 거래소) 13.6억, 3위 Kraken(가상자산 거래소) 6.8억 달러 [F-1021][F-1023]
   ★ 4위 Securitize(토큰화 회사) 2.7억, 6위 Robinhood(주식 거래 앱) 1.5억 달러 [F-1024][F-1025]
   ★ 시장 전체 37.1억 달러(30일 전 대비 +4.33%) [F-1028]
+● 규모의 과거 대비(2026-01 초 기준)
+  ★ 2026-01 초 4.13억 달러 1위(51.59%) → 11-16 8.99억 2위(24.23%) [TP-001][F-1022]
+  ★ 2.2배, 점유율 27.4%p 하락 [TP-001][F-1022]
+  ★ 2026-03 Ondo 약 53%(Foresight Ventures 집계, 기준 달라 참고만) [TP-009]
+  ![rwa.xyz 순위표(Sentora 주간 글, 2026-01-09)](../captures/reports/W1_sentora_rwa_league_table_2026-01.png)
 ● 수수료
   ★ 발행 수수료 없음, 상환 수수료 0.05% [F-0545]
   ★ 견적가와 기초 매매가 차이는 Ondo Stocks가 보유 [F-0546]
+  ![간접 방식 4사 비교표(포필러스, Securitize 후원, 2026-02)](../captures/reports/R1_p36_indirect_platforms_table.png)
+● 제3자 시각(구조)
+  ★ 발행사 동의 없음, 토큰은 래퍼, 장부는 SPV (CoinDesk Research, Bullish 의뢰) [TP-204]
 
 ## C 최종 투자자
 ● 주장 : 미국 밖 개인과 기관이 대상, 미국인은 배제 [F-0566][F-0190]
@@ -85,6 +95,8 @@
 ● 국적 및 지역 제한
   ★ 미국인, 미국 안에서 주문하는 자 제외 [F-0190][F-0543]
   ★ 스위스는 전문고객만, 개인 판매 없음 [F-0530][F-0544]
+● 제3자 시각(이용자)
+  ★ KYC 없는 이용자도 온체인 접근 가능 (포필러스, Securitize 후원) [TP-206]
 
 ## D 유통과 접점
 ● 주장 : 자체 앱 직접 판매와 거래소, 지갑 공급을 병행 [F-0552][F-0572]
@@ -98,6 +110,8 @@
   ★ 거래시간 : 일요일 밤 8시~금요일 밤 8시(ET) [F-0564]
   ★ 장외시간 거래 가능 종목 32개 [F-0565]
   ★ ERC20 호환, 외부 지갑으로 자유 이전 [F-0553]
+● 제3자 시각(유통)
+  ★ DeFi 연동 가장 깊은 편, 합성 노출 (CoinDesk Research, Bullish 의뢰) [TP-207]
 
 ## E 인가
 ● 주장 : 미국 인가는 인수로 사고, 주식 토큰은 미국 밖 면제로 발행 [F-0246][F-0560]
@@ -114,6 +128,8 @@
   ★ 1933년 증권법, 1940년 투자회사법 모두 미등록 [F-0529][F-0531]
   ★ 발행 법인이 받는 미국 배당에 원천징수 30% [F-0547]
   ★ Ondo는 BVI 금융당국 등록, 인가 없음 [F-0528]
+● 제3자 시각(인가)
+  ★ 미국 유통은 Oasis Pro 인가 활용 준비 중, 2026-02 기준 (포필러스, Securitize 후원) [TP-205]
 
 ## F 관계(해당 시)
 ● 주장 : 은행, 결제망, 자산운용사와 손잡아 상품 범위 확장 [F-0462][F-0461]
@@ -147,6 +163,23 @@
 ● 제약과 리스크
   ★ 담보로만 상환, 발행 법인 도산 위험은 투자자 부담 [F-0188]
   ★ 2026-08 창업자 유족이 경영권 소송 제기 [F-0208]
+  ★ DEX 풀 단건 매수가 같은 시각 주가보다 약 9.3% 높음(Citadel 지원 필자, 단일 사례) [TP-201]
+● 제3자 평가
+  ★ 평가 1 : 오버달(SEC 제출 의견서, 필자가 Citadel Securities 재정 지원을 밝힘), Tokenized U.S. Equities, DeFi Trading, and the SEC's Exemptive Authority, 2026-01-22, 25쪽, https://www.sec.gov/files/ctf-written-james-overdahl-tokenized-us-equities-01-22-2026.pdf [TP-201]
+    ① 원문 : "This suggests that the user paid about 9.3% more for the tokenized NVDA stock compared to what they would have paid if they instead had executed a trade for NVDA on a regulated exchange."
+    ② 번역 : 이용자가 규제 거래소에서 샀을 때보다 토큰화 NVDA를 약 9.3% 비싸게 샀다는 뜻이다.
+    ③ 해석 : 2026-01-14 Ondo 토큰(NVDAon)을 DEX 풀에서 산 단일 사례. 그래서 KDX는 거래 장소별 체결 비용을 볼 것
+  ![평가 1 원문](../captures/reports/quotes/TP-201.png)
+  ★ 평가 2 : 포필러스(Securitize 후원 보고서), 2026: The Year of Tokenized Stocks, 2026-02-23, 38쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks [TP-202]
+    ① 원문 : "Similar to the PFOF structure between Robinhood and Citadel, Ondo Finance can earn spread revenue while processing users' stock orders."
+    ② 번역 : Robinhood와 Citadel의 PFOF 구조처럼 Ondo는 주문 처리 중 스프레드 수익을 얻을 수 있다.
+    ③ 해석 : 수수료 0이어도 견적 차이가 수익. 그래서 KDX는 수수료에 스프레드를 합쳐 비교
+  ![평가 2 원문](../captures/reports/quotes/TP-202.png)
+  ★ 평가 3 : 포필러스(Securitize 후원 보고서), 2026: The Year of Tokenized Stocks, 2026-02-23, 27쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks [TP-203]
+    ① 원문 : "Liquidity fragmentation: Even for the same stock, liquidity is not interoperable across different indirect tokenization platforms."
+    ② 번역 : 유동성 분산: 같은 종목도 간접 방식 플랫폼 사이에 유동성이 호환되지 않는다.
+    ③ 해석 : Backed xTSLA와 Ondo TSLAon이 갈린다는 예. 직접 방식 후원사의 평가, 그래서 KDX는 유동성 한곳 집중 설계를 볼 것
+  ![평가 3 원문](../captures/reports/quotes/TP-203.png)
 ● KDX 시사점 1
   ★ 받치는 명제 : Coopetition [F-0549][F-1021]
   ★ KDX가 가져올 것 : 거래소, 지갑, DTCC에 공급하는 개방형 연동 [F-0572][F-1049]

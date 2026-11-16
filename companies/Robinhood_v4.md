@@ -18,6 +18,9 @@
   ★ 2025-06 Bitstamp 인수 → EU판 토큰 200종 [F-0605][F-0213][F-0221]
   ★ 2026-01 MIAXdx 90% → 2026-06 WonderFi 인수 [F-0610][F-0608]
   ★ 2026-07 자체 체인, 지갑판 → 2026-10 EU판 Classic [F-0666][F-0637][F-0239]
+● 출발 사업 수익 구조
+  ★ 고객 주문을 Citadel로 보내고 PFOF를 받음(포필러스, Securitize 후원, 2026-02) [TP-110]
+  ★ 필자는 무수수료를 착시로 서술(포필러스) [TP-110]
 ● 화면
   ![가입](../captures/Robinhood/signup.png) ![EU 투자 화면(주식 토큰 포함)](../captures/Robinhood/list.png) ![종목 화면(주문창은 로그인 뒤)](../captures/Robinhood/order.png)
 
@@ -74,9 +77,16 @@
   ★ 1~3위는 Binance, Ondo, Kraken(13.6억, 9.0억, 6.8억 달러) [F-1021][F-1022][F-1023]
   ★ 4위 Securitize(토큰화 발행사) 2.7억, 8위 Coinbase(가상자산 거래소) 0.47억 달러 [F-1024][F-1026]
   ★ 종목 : 지갑판 Final Terms 212건, EU판 2,000종 이상 [F-0663][F-0653]
+● 규모 과거 대비
+  ★ 2026-01 초 rwa.xyz 표에는 없음(집계 전) [TP-005]
 ● 수수료
   ★ 지갑판 청약 0%, 발행 90일 이후 상환 0.05% [F-0886]
   ★ EU판 주문마다 환전 수수료 0.1%, 그 밖은 무료 [F-0651]
+● 제3자 시각
+  ★ EU 법인이 원주 사고 파생계약 토큰 지급(포필러스, Securitize 후원, 2026-02 기준이라 지갑판 이전) [TP-104]
+  ★ 투자자는 EU 법인 상대 계약상 청구권 보유(포필러스, Securitize 후원) [TP-104]
+  ![합성형 흐름(CoinDesk Research, Bullish 의뢰, 2026-09)](../captures/reports/R2_p08_synthetic.png)
+  ![간접 방식 흐름(포필러스, Securitize 후원, 2026-02)](../captures/reports/R1_p26_indirect_tokenization.png)
 
 ## C 최종 투자자
 ● 주장 : 미국 밖 개인에게 소액부터 직접 판매 [F-0637][F-0654]
@@ -98,6 +108,11 @@
   ★ 사용 블록체인 : Robinhood Chain(자체 이더리움 L2), Arbitrum에서 이전 [F-0225][F-0884]
   ★ 거래시간 : 지갑판 24/7, EU판 월 02시~토 02시(CET) [F-0227][F-0648]
   ★ EU판은 외부 지갑으로 이전 불가 [F-0649]
+● 제3자 시각
+  ★ 담보 서비스 없음, 원주 상환 불가(포필러스, Securitize 후원, 2026-02 기준) [TP-106]
+  ★ 앱 안에서만 거래, 회사가 상대방 겸 유동성 공급자(포필러스, Securitize 후원) [TP-102]
+  ★ 출금 제한으로 자산이 자체 플랫폼에 머문다는 보도, 지갑판 출시 전 상태(Finance Magnates, 2026-03) [TP-107]
+  ![간접 방식 4사 비교표(포필러스, Securitize 후원, 2026-02, 지갑판 이전)](../captures/reports/R1_p36_indirect_platforms_table.png)
 
 ## E 인가
 ● 주장 : EU 인가는 직접과 인수로, 미국 파생은 인수로 확보 [F-0214][F-0605][F-0610]
@@ -110,6 +125,11 @@
   ★ 미국 증권사 : RHF 2013-10 직접 등록 [F-0243]
   ★ 미국 청산 증권사 : RHS 2017-10 직접 등록 [F-0244]
   ★ 미국 파생 거래소, 청산소 : 2026-01 MIAXdx 90% 인수로 확보 [F-0610]
+● 제3자 시각
+  ★ 리투아니아 인가로 EEA 30여 개국 판매(포필러스, Securitize 후원, 2026-02 기준) [TP-105]
+  ★ MiFID II 장외 파생이라 회사가 직접 상대방(포필러스, Securitize 후원) [TP-105]
+  ★ 장부 기록 의무가 없어 분산원장 사용 가능(포필러스, Securitize 후원 설명) [TP-105]
+  ![리투아니아 역할 분담(포필러스, Securitize 후원, 2026-02, 표 출처 Dan Kim LawVax)](../captures/reports/R1_p56_robinhood_lithuania_table.png)
 ● 인가 없는 구간을 메우는 방법
   ★ 결제 계좌는 JPMorgan 런던 지점 [F-0873]
   ★ 독립 검증 대리인이 시리즈별 100% 담보 확인 [F-0874]
@@ -130,6 +150,8 @@
   ★ 가능했던 이유 : 미국 밖 판매는 Regulation S 구조 [F-0636][US-17CFR-230.903-a]
   ★ 가능했던 이유 : EU 인가와 투자설명서 승인으로 EEA 판매 [F-0214][F-0856]
   ★ 한국 차이 : 한국은 지갑판 판매 국가 목록에 없음 [F-0880]
+● 제3자 시각
+  ★ 가능했던 이유 : 장외 파생이라 시범제도 면제 불필요(포필러스, Securitize 후원) [TP-105]
 ● 고객 수요
   ★ 가능했던 이유 : 증권 계좌 없이 1유로, 지갑으로 미국 주식 [F-0654][F-0637]
 ● 규제 건의 포인트 : 해외 파생계약형 토큰의 원금 손실 고지 기준 [F-0993][F-0652]
@@ -149,6 +171,24 @@
   ★ EU판은 회사 파산 시 원금 전액 손실 가능 [F-0652]
   ★ 2026-11 보충서로 기발행 상품 약관 개정 [F-0889]
   ★ 2024년 미인가 영업으로 2개 주 제재 [F-0598]
+● 제약과 리스크 대조(제3자)
+  ★ 비상장 토큰은 소유권과 상환 없음, OpenAI 승인 부인(포필러스, Securitize 후원) [TP-108]
+  ★ IOSCO 각주가 Robinhood 비상장 토큰 보도를 사례로 듦(IOSCO, 감독기구) [TP-109]
+● 제3자 평가
+  ★ 평가 1 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 29쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks [TP-101]
+    ① 원문 : "From a personal perspective, I also view indirect tokenization as a transitional approach."
+    ② 번역 : 개인적으로 나는 간접 토큰화를 과도기 방식으로 본다.
+    ③ 해석 : 직접 방식을 쓰는 후원사 쪽 보고서의 견해. 인가 없이 낸 간접 방식이 규제 명확화 뒤에도 남을지가 KDX가 볼 점
+  ![평가 1 원문](../captures/reports/quotes/TP-101.png)
+  ★ 평가 2 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 69쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks [TP-102]
+    ① 원문 : "Robinhood acts as both counterparty and liquidity provider, internalizing user order flow within its platform."
+    ② 번역 : Robinhood은 상대방이자 유동성 공급자로서 이용자 주문을 자기 플랫폼 안에서 내부 처리한다.
+    ③ 해석 : 2026-02 기준이라 자체 체인과 지갑판 이전 설명. 회사가 상대방을 겸하는 구조의 이해상충 고지가 KDX가 볼 점
+  ![평가 2 원문](../captures/reports/quotes/TP-102.png)
+  ★ 평가 3 : CoinDesk Research(Bullish 의뢰), 발행사 안내서 비교표, 2026-09-29(2026-08 기준), 10쪽, https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities [TP-103]
+    ① 원문 : 표 칸 "Synthetic tokenized equities", "Derivative", "Debt / no rights", "Shadow / no consent"(Robinhood 열)
+    ② 번역 : 합성형 토큰 주식, 파생, 채무이고 주주권 없음, 발행사 동의 없는 구조.
+    ③ 해석 : 발행사 직접 방식에 유리한 의뢰사 표라 낮게 매긴 면이 있음. 지갑판 반영 표라 EU판과 구분해 읽어야 함. 표 원문은 이미지 아닌 칸 글자라 캡처 없음
 ● KDX 시사점
   ★ 받치는 명제 : Borderless Investing [F-0637][F-0615]
   ★ KDX가 가져올 것 : 증권 계좌 없이 지갑, 앱으로 미국 주식 접근 [F-0654][F-0637]
