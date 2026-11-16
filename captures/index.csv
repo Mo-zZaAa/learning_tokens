@@ -1,4 +1,4 @@
-﻿회사,화면,설명,원래 주소,파일,찍은 일시,메모
+회사,화면,설명,원래 주소,파일,찍은 일시,메모
 Dinari,logo,홈 헤더 로고,https://dinari.com,captures/Dinari/logo.png,2026-11-16 15:13,"HTTP 200 제목:Dinari - API & Tokens for 1:1 Backed US Stocks, ET"
 Dinari,가입,앱 가입/로그인 첫 화면,https://app.dinari.com,captures/Dinari/signup.png,2026-11-16 15:13,"HTTP 200 제목:Dinari Trading App 가입은 지갑 연결(Connect Wallet) 방식, 팝업 닫은 뒤 화면. 로그인 필요: 계정 생성 단계 미진입"
 Dinari,종목 목록,"Market(종목 목록) 화면, 환영 팝업 닫은 뒤",https://app.dinari.com/,captures/Dinari/list.png,2026-11-16 15:13,"app.dinari.com/dshares는 404, 앱 루트(Market)가 목록. 로그인 없이 공개"
@@ -19,7 +19,7 @@ Binance,logo,헤더 로고,https://www.binance.com/en/stocks,captures/Binance/lo
 Binance,가입,가입 화면,https://accounts.binance.com/en/register,captures/Binance/signup.png,2026-11-16 15:15,HTTP 200 제목:Create a free account | Binance
 Binance,종목 목록,stocks 목록,https://www.binance.com/en/stocks,captures/Binance/list.png,2026-11-16 15:15,"AAPL 종목 화면(bStocks 목록 /en/stocks는 종목 화면으로 연결됨), 안내 팝업 닫음. HTTP 200 제목:$354.134 | Apple Inc. Common Stock (AAPL) Stock Pr"
 Binance,주문,종목 주문 화면,https://www.binance.com/en/trade/TSLAUSDT,captures/Binance/order.png,2026-11-16 15:15,"HTTP 200 제목:64,414.20 | BTC USDT | Bitcoin to USDT - Binance S 현물 BTC/USDT 화면으로 이동됨, 주식 주문창은 stocks 화면(list.png)에 있음, 로그인 필요"
-Coinbase,logo,base.org 헤더 로고,https://www.base.org,captures/Coinbase/logo.png,2026-11-16 15:16,"coinbase.com 브랜드 페이지 봇 차단(403), base.org 로고(파란 사각)로 대신. 요소 대신 헤더 영역 잘라 찍음"
+Coinbase,logo,Coinbase 공식 로고(Wikimedia Commons Coinbase.svg를 PNG로 변환),https://commons.wikimedia.org/wiki/File:Coinbase.svg,captures/Coinbase/logo.png,2026-11-16 15:55,"원본 파일 https://upload.wikimedia.org/wikipedia/commons/1/1a/Coinbase.svg. coinbase.com 브랜드 페이지는 봇 차단(403). 이전 base.org 로고 교체"
 Coinbase,가입,Base 앱 안내,https://www.base.org,captures/Coinbase/signup.png,2026-11-16 15:16,"coinbase.com 가입은 봇 차단, base.org 홈으로 대신 HTTP 200 제목:Base"
 Coinbase,종목 목록,Base stocks,https://www.base.org/stocks,captures/Coinbase/list.png,2026-11-16 15:16,HTTP 200 제목:Base
 Coinbase,주문,Base markets stocks,https://www.base.org/markets/stocks,captures/Coinbase/order.png,2026-11-16 15:16,HTTP 200 제목:Tokenized Stocks | Base Markets

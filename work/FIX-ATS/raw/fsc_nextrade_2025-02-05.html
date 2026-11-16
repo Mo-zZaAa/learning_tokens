@@ -1,0 +1,2734 @@
+<!DOCTYPE html>
+<html lang="ko" class="ko">
+<head>
+	<title>
+		보험정책 - 
+			정책일반 - 
+			정책마당 - 
+			금융위원회</title> 
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="keywords" content="금융위원회, 금융위">
+	<meta name="robots" content="index,follow" />
+	<link rel="shortcut icon" href="/humanframe/global/assets/image/icon/favicon.ico" type="image/x-icon"/>
+	<link rel="icon" href="/humanframe/global/assets/image/icon/favicon.ico" type="image/x-icon"/>
+	
+	<!-- NAVER WEBMASTER -->
+	<meta name="naver-site-verification" content="41d4a49609a8cc014169c0cbaa643150cf8d7b89" />
+	<meta name="description" content="혁신적 금융, 포용적 금융, 신뢰받는 금융, 금융위원회 입니다.">
+	<script type="application/ld+json">
+	{
+ 	"@context": "http://schema.org",
+	"@type": "WebSite",
+ 	"name": "금융위원회",
+ 	"url": "https://www.fsc.go.kr",
+ 	"sameAs": [
+   	"https://blog.naver.com/blogfsc",
+   	"https://www.youtube.com/channel/UCuJz-PXNMdWQr6TNM4htENw",
+   	"https://www.facebook.com/fsckorea",
+   	"https://twitter.com/fsckorea",
+    "https://instagram.com/fsc.go.kr"
+ 	]
+	}
+	</script>
+    
+	<!-- Vendor CSS -->
+	<link rel="stylesheet" href="/humanframe/theme/fscmain/assets/vendor/jquery-ui/jquery-ui.css" />
+	<link rel="stylesheet" href="/humanframe/theme/fscmain/assets/vendor/jquery-ui/jquery-ui.theme.css" />
+	<link rel="stylesheet" href="/humanframe/theme/fscmain/assets/vendor/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/humanframe/theme/fscmain/assets/vendor/owl.carousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="/humanframe/theme/fscmain/assets/vendor/magnific-popup/magnific-popup.min.css">
+	<link rel="stylesheet" href="/humanframe/theme/fscmain/assets/css/jquery.datetimepicker.css">
+	<link rel="stylesheet" href="/humanframe/theme/fscmain/assets/plugin/swiper/swiper.css">
+	<!-- Global CSS -->
+	<link rel="stylesheet" href="/humanframe/global/assets/css/global.css?20240118">
+	
+	<!-- FSC CSS -->
+	<link type="text/css" rel="stylesheet" href="/humanframe/theme/fscmain/assets/style/common.css">
+	<link type="text/css" rel="stylesheet" href="/humanframe/theme/fscmain/assets/style/custom.css">
+	<link type="text/css" rel="stylesheet" href="/humanframe/theme/fscmain/assets/style/search.css">
+	
+	<!-- 공용 Scripts -->
+	<script src="/humanframe/global/assets/vendor/jquery/jquery-2.2.2.min.js"></script>
+	<script src="/humanframe/global/assets/vendor/jquery/jquery.ajax-cross-origin.min.js"></script>
+	<script src="/humanframe/global/assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+	<script src="/humanframe/global/assets/vendor/jquery-ui/datepicker-ko.js"></script>
+	<script src="/humanframe/global/assets/vendor/loadingoverlay.min.js"></script>
+	<script src="/humanframe/global/assets/script/makePCookie.js"></script>
+	<script src="/humanframe/theme/fscmain/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+	<script src="/humanframe/theme/fscmain/assets/script/jquery.datetimepicker.js"></script>
+	<script src="/humanframe/theme/fscmain/assets/plugin/swiper/swiper.js"></script>
+	
+	<!-- FSC Scripts -->
+	<script src="/humanframe/global/assets/script/global-kor.js"></script>
+	<script type="text/javascript" src="/humanframe/theme/fscmain/assets/script/common.js"></script>
+	<script type="text/javascript" src="/humanframe/theme/fscmain/assets/script/sub.js"></script>
+	<script src="/humanframe/theme/fscmain/assets/script/search.js"></script>
+	<script src="/humanframe/theme/fscmain/assets/script/vKeyboard.js"></script>
+	
+	<!-- jQuery Validate -->
+	<script src="/humanframe/theme/fscmain/assets/vendor/jquery.validate/jquery.validate.min.js"></script>
+	<script src="/humanframe/theme/fscmain/assets/vendor/jquery.validate/localization/messages_ko.js"></script>
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		  // Find the subject element
+		  const subjectElement = document.querySelector('.board-view-wrap > .header > .subject');
+		  
+		  // Check if the subject element exists and has text content
+		  if (subjectElement && subjectElement.textContent.trim()) {
+		    // Get the current page title
+		    const currentTitle = document.title;
+		    
+		    // Get the text from subject element
+		    const subjectText = subjectElement.textContent.trim();
+		    
+		    // Update the document title by adding subject text at the beginning
+		    document.title = '상세화면' + ' - ' + currentTitle;
+		  }
+		});
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<div id="skipNavigation" title="스킵내비게이션">
+	        <a href="#gnb-menu">주메뉴 바로가기 </a>
+	        <a href="#container">본문 내용 바로가기</a>
+	    </div>
+	
+		<!-- start:header -->
+		<script type="text/javascript">
+	$(document).ready(function(){
+		$(".search-auto-wrap").hide();
+		
+		$("#searchText").on("focus", function() {
+			$(".search-auto-wrap").show();
+		});
+		
+		$("#searchText").on("keyup", function() {
+			getAutoComplete(autoMode);
+		});
+		
+		/*
+		$(document).click(function(e){
+			var ahref = $(e.target).attr('href');
+			var aclass = $(e.target).attr('class');
+			
+			if (!$(e.target).is('#searchText') && ahref != "#none" && aclass.indexOf("hover") < 0) {
+				$(".search-auto-wrap").hide();
+			}
+		});
+		*/
+		
+		$(document).mouseup(function (e){
+			var keyboardHide = $('.search-wrap');
+			if( keyboardHide.has(e.target).length === 0){
+				$(".search-auto-wrap").hide();
+			}
+		});
+		
+		$('#frmSearch').submit(function() {
+			if($("input[name='searchText']").val() == ""){
+				alert("검색어를 입력하세요.");
+				return false;
+			}
+		});
+	});
+	
+	function searchText(srchText) {
+		$("input[name='searchText'], frmSearch").val(srchText.trim());
+		$("#frmSearch").submit();
+	}
+	
+	function closeAutoComplete() {
+		$(".search-auto-wrap").hide();
+		$('.search-btn').focus();
+	}
+</script>
+   		<header>
+			<div class="eg">
+				<p><img src="/humanframe/theme/fscmain/assets/images/common/ico_eg.png" alt="eg(전자정부)">이 누리집은 대한민국 공식 전자정부 누리집입니다.</p>
+			</div>
+			<div class="top-head">
+                <div class="logo-cont">
+                    <a href="/index" title="금융위원회 바로가기"><img src="/humanframe/theme/fscmain/assets/images/common/logo.png" alt="금융위원회"></a>
+                </div>
+                <!-- side-menu 이동 -->
+                <div class="side-menu">
+                	<ul>
+						<li><a href="/edu" target="_blank" title="금융위원회 알기쉬운 금융홈페이지 새창으로 열기" class="ext_link_none">알기쉬운 금융</a></li>
+                    	<li><a href="/eng" target="_blank" title="금융위원회 영문홈페이지 새창으로 열기">ENGLISH</a></li>
+                    	<li><a href="/kids" target="_blank" title="금융위원회 어린이 홈페이지 새창으로 열기">어린이</a></li>
+                    </ul>
+                </div>
+                
+                <!-- search form -->
+                <form name="frmSearch" id="frmSearch" method="post" action="/sc000000">
+                	<input type="hidden" id="colTarget" name="colTarget" value="TOTAL">
+                	<input type="hidden" id="lang" name="lang" value="KO">
+                    <fieldset>
+                        <legend>검색영역</legend>
+                        <div class="search-wrap">
+                            <div class="header">
+                                <label for="searchText"><span class="hd-element">검색어를 입력하세요</span></label>
+                                <input type="text" name="searchText" id="searchText" placeholder="검색어를 입력하세요." autocomplete="off" maxlength='2000'>
+                                <!-- search auto -->
+                                <div class="search-auto-wrap" style="display:none">
+                                    <div class="auto-list" style="min-height: 220px;">
+                                        <ul id="autoResult"></ul>
+                                        <div class="link"></div>
+                                    </div>
+                                    <div class="auto-word">
+                                    	<div class="left-element">
+                                            <a href="javascript:getAutoComplete('s')">첫 단어 보기</a>
+                                        	<a href="javascript:getAutoComplete('e')">끝 단어 보기</a>
+                                        </div>
+                                        <div class="right-element">
+                                            <a href="javascript:closeAutoComplete()">닫기</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--// search auto -->
+                                <button type="submit" class="search-btn" title="검색"><span class="hd-element">검색</span></button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form><!--// search form -->
+
+                <!-- mobile menu -->
+                <ul class="m-menu">
+                    <li><a href="javascript:void(0);"><span class="hd-element">검색</span></a></li>
+                    <li><a href="javascript:void(0);">
+                    	<em class="hd-element">모바일메뉴 열기</em>
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
+                    </a>
+                </li>
+                </ul>
+                <!--// mobile menu -->
+            </div>
+            <!-- gnb -->
+            <nav class="gnb" id="gnb">
+                <div class="gnb-inner">
+                	<div class="side-menu">
+                		<ul>
+                        	<li><a href="/eng" target="_blank" title="금융위원회 영문홈페이지 새창으로 열기">ENGLISH</a></li>
+                        	<li><a href="/kids" target="_blank" title="금융위원회 어린이 홈페이지 새창으로 열기">어린이</a></li>
+                        </ul>
+                    </div>
+                    <ul id="gnb-menu">
+                        <li>
+									<a	
+										
+													href="/no040101" target="_self" 
+										>알림마당<span class="line" ></span></a>
+									<ul>
+										<li>
+													<a	
+														
+																	href="/no010101" target="_self" 
+														>위원회 소식</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/no010101"
+																				
+																			>보도자료</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no010102"
+																				
+																			>보도설명자료</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no010103"
+																				
+																			>보고영상</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no010104"
+																				
+																			>알림·채용·입찰</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no010105"
+																				
+																			>새소식</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no010106"
+																				
+																			>사진뉴스</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no010107"
+																				
+																			>정책영상</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/no040101" target="_self" 
+														>홍보자료</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/no040101"
+																				
+																			>카드뉴스</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="https://www.youtube.com/@FSCKorea" target="_blank" title="새창으로 열기"
+																			>영상(유튜브)</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no040104"
+																				
+																			>웹툰</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no040103"
+																				
+																			>정보그림(인포그래픽)</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/no020101" target="_self" 
+														>의결정보</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/no020101"
+																				
+																			>금융위의결정보</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no020102"
+																				
+																			>증선위의결정보</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="https://www.fss.or.kr/fss/job/accnutAdtorInfo/list.do?acntnWrkCode=01&menuNo=200732" target="_blank" title="새창으로 열기"
+																			>제재정보</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/no07010101" target="_self" 
+														>자본시장 불공정거래</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/no07010101"
+																				
+																			>불공정거래 홈</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no070101"
+																				
+																			>불공정거래란</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no070200"
+																				
+																			>의결정보</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no070300"
+																				
+																			>보도자료ㆍ참고자료</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/no030101" target="_self" 
+														>금융시장동향</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/no030101"
+																				
+																			>금융시장동향</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no030102"
+																				
+																			>금융지표</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/edu" target="_blank" title="새창으로 열기"
+														>알기쉬운금융</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="/no060101" target="_self" 
+														>해외금융기관</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="/no060101" target="_self" 
+																			>주요국가 금융감독기관</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no060201"
+																				
+																			>주요국제금융기구</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																href="/pa050000"
+															
+														>뉴스레터</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="/in090101" target="_self" 
+														>자료실</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="/in090101" target="_self" 
+																			>금융시장역사</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="/in090201" target="_self" 
+																			>금융60년연표</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/in090301"
+																				
+																			>금융용어설명</a>
+																	</li>
+																</ul>
+													</li>
+											</ul>
+								</li>
+							<li>
+									<a	
+										
+													href="/pa030101" target="_self" 
+										>참여마당<span class="line" ></span></a>
+									<ul>
+										<li>
+													<a	
+														
+																href="/pa010000"
+															
+														>민원신청</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="https://www.epeople.go.kr/idea/index.npaid" target="_blank" title="새창으로 열기"
+														>국민생각함</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="https://fine.fss.or.kr/fine/fncco/systemFncCo/list.do?menuNo=900038" target="_blank" title="새창으로 열기"
+														>제도권금융기관조회</a>
+													</li>
+											<li>
+													<a	
+														
+																href="/pa040000"
+															
+														>옴부즈만</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="/pa030101" target="_self" 
+														>신고마당</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/pa030101"
+																				
+																			>불공정거래신고</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="/pa030201" target="_self" 
+																			>부패방지신고</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="/pa030301" target="_self" 
+																			>직원친절ㆍ불친절제보</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="/pa030401" target="_self" 
+																			>금융부조리신고(비영리포함)</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/pa030501"
+																				
+																			>금융사고제보</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/pa030502"
+																				
+																			>공익신고</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/pa030503"
+																				
+																			>갑질피해신고</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="https://www.epeople.go.kr/nep/crtf/userLogn.npaid?returnUrl=%2Fnep%2FbdgtWst%2FselectBdgtWstRqstPage.paid" target="_blank" title="새창으로 열기"
+																			>예산낭비신고</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="https://www.safetyreport.go.kr/api?apiKey=1160100MEE3V8X4PT5AA2UJMORZ" target="_blank" title="새창으로 열기"
+																			>안전신문고</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/pa030601"
+																				
+																			>국고보조금 부조리 신고센터</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/pa070101" target="_self" 
+														>관련누리집</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="/pa070102" target="_self" 
+																			>국내관련누리집</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="/pa070201" target="_self" 
+																			>해외관련누리집</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																href="/pa070301"
+															
+														>금융위원회 공무원의 성과를 칭찬합니다.</a>
+													</li>
+											<li>
+													<a	
+														
+																href="/pa080001"
+															
+														>금융분야 정상화 과제 제안센터</a>
+													</li>
+											</ul>
+								</li>
+							<li>
+									<a	
+										
+													href="/po02010101" target="_self" 
+										>정책마당<span class="line" style="display:block"></span></a>
+									<ul>
+										<li>
+													<a	
+														
+																	href="/po02010101" target="_self" 
+														>정책자료</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="/po0201010202" target="_self" 
+																			>주요업무계획</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/po02050101"
+																				
+																			>국정성과</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/po020201"
+																				
+																			>주요정책문답</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="/po02030103" target="_self" 
+																			>국회·예산 등</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/po020401"
+																				
+																			>정부위원회현황</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/po040101" target="_self" 
+														>법령정보</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/po040101"
+																				
+																			>금융위 소관법규</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/po040200"
+																				
+																			>금융위 소관규정/고시/공고/훈령</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/po040301"
+																				
+																			>입법예고/규정변경예고</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/index" target="_self" 
+														>규제혁신</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="https://better.fsc.go.kr/" target="_blank" title="새창으로 열기"
+																			>금융규제 법령해석포털</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="https://www.better.go.kr/zz.main.PortalMain" target="_blank" title="새창으로 열기"
+																			>규제정보포털</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/po050100" target="_self" 
+														>국정과제</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/po050100"
+																				
+																			>국정과제</a>
+																	</li>
+																</ul>
+													</li>
+											</ul>
+								</li>
+							<li>
+									<a	
+										
+													href="/in010000" target="_self" 
+										>정보공개<span class="line" ></span></a>
+									<ul>
+										<li>
+													<a	
+														
+																href="/in010000"
+															
+														>정보공개제도안내</a>
+													</li>
+											<li>
+													<a	
+														
+																href="/in040000"
+															
+														>사전정보공표목록</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="/in050101" target="_self" 
+														>재정정보공개</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="/in050101" target="_self" 
+																			>재정정보</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																href="/in070000"
+															
+														>비공개 대상정보 세부기준</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="https://www.open.go.kr/com/login/memberLogin.do" target="_blank" title="새창으로 열기"
+														>정보공개청구</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="https://www.open.go.kr/othicInfo/infoList/infoList.do" target="_blank" title="새창으로 열기"
+														>보유정보목록</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="/in100100" target="_self" 
+														>감사·청렴</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/in100100"
+																				
+																			>자체감사결과</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/in100200"
+																				
+																			>부패공직자현황</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/in100300"
+																				
+																			>반부패·청렴</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/in060101" target="_self" 
+														>공공데이터개방</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/in060101"
+																				
+																			>금융공공데이터란</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/in060201"
+																				
+																			>시스템 구성</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/in060301"
+																				
+																			>개방 현황</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/in060501"
+																				
+																			>자주 묻는 질문</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/in060701"
+																				
+																			>공공데이터 제공신청 및 의견수렴</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																href="/in080000"
+															
+														>정책실명제</a>
+													</li>
+											</ul>
+								</li>
+							<li>
+									<a	
+										
+													href="/ad010101" target="_self" 
+										>적극행정<span class="line" ></span></a>
+									<ul>
+										<li>
+													<a	
+														
+																	href="/ad010101" target="_self" 
+														>제도소개</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/ad010101"
+																				
+																			>적극행정과 소극행정의 정의</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/ad010102"
+																				
+																			>적극행정 추진방향</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/ad020101" target="_self" 
+														>국민참여</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/ad020101"
+																				
+																			>적극행정국민추천</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="https://www.epeople.go.kr/nep/pttn/negativePttn/NegativePttnCotents.npaid" target="_blank" title="새창으로 열기"
+																			>소극행정신고</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="https://www.mpm.go.kr/mpm/info/theActive/referenceBoard/newsBoard/" target="_blank" title="새창으로 열기"
+														>적극행정자료실</a>
+													</li>
+											<li>
+													<a	
+														
+																href="/ad040101"
+															
+														>적극행정우수공무원</a>
+													</li>
+											</ul>
+								</li>
+							<li>
+									<a	
+										
+													href="/fsc010101" target="_self" 
+										>금융위원회<span class="line" ></span></a>
+									<ul>
+										<li>
+													<a	
+														
+																	href="/fsc010101" target="_self" 
+														>금융위원회소개</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/fsc010101"
+																				
+																			>금융위원회</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="/fsc010201" target="_self" 
+																			>위원소개</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/fsc020101" target="_self" 
+														>위원장</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="/fsc020101" target="_self" 
+																			>소개</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/fsc020201"
+																				
+																			>위원장과의 대화</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/fsc020301"
+																				
+																			>위원장 일정</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/fsc020401"
+																				
+																			>기고/강연/연설</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/fsc020501"
+																				
+																			>역대위원장</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/fsc030101" target="_self" 
+														>부위원장</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="/fsc030101" target="_self" 
+																			>소개</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/fsc030201"
+																				
+																			>부위원장 일정</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/fsc030202"
+																				
+																			>역대 부위원장</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																href="/fsc040101"
+															
+														>조직도</a>
+													</li>
+											<li>
+													<a	
+														
+																href="/fsc050101"
+															
+														>찾아오시는 길</a>
+													</li>
+											</ul>
+								</li>
+							<li class="allmenu">
+                            <a href="javascript:void(0);" title="전체보기"><span class="ico"></span>전체보기</a>
+                             <ul>
+                                <li>
+											<a	
+												
+															href="/no040101" target="_self" 
+												>알림마당</a>
+											<ul>
+												<li>
+															<a	
+																
+																			href="/no010101" target="_self" 
+																>위원회 소식</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/no010101"
+																					
+																				>보도자료</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no010102"
+																					
+																				>보도설명자료</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no010103"
+																					
+																				>보고영상</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no010104"
+																					
+																				>알림·채용·입찰</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no010105"
+																					
+																				>새소식</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no010106"
+																					
+																				>사진뉴스</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no010107"
+																					
+																				>정책영상</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/no040101" target="_self" 
+																>홍보자료</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/no040101"
+																					
+																				>카드뉴스</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="https://www.youtube.com/@FSCKorea" target="_blank" title="새창으로 열기"
+																				>영상(유튜브)</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no040104"
+																					
+																				>웹툰</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no040103"
+																					
+																				>정보그림(인포그래픽)</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/no020101" target="_self" 
+																>의결정보</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/no020101"
+																					
+																				>금융위의결정보</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no020102"
+																					
+																				>증선위의결정보</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="https://www.fss.or.kr/fss/job/accnutAdtorInfo/list.do?acntnWrkCode=01&menuNo=200732" target="_blank" title="새창으로 열기"
+																				>제재정보</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/no07010101" target="_self" 
+																>자본시장 불공정거래</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/no07010101"
+																					
+																				>불공정거래 홈</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no070101"
+																					
+																				>불공정거래란</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no070200"
+																					
+																				>의결정보</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no070300"
+																					
+																				>보도자료ㆍ참고자료</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/no030101" target="_self" 
+																>금융시장동향</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/no030101"
+																					
+																				>금융시장동향</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no030102"
+																					
+																				>금융지표</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/edu" target="_blank" title="새창으로 열기"
+																>알기쉬운금융</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/no060101" target="_self" 
+																>해외금융기관</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="/no060101" target="_self" 
+																				>주요국가 금융감독기관</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no060201"
+																					
+																				>주요국제금융기구</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/pa050000"
+																	
+																>뉴스레터</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/in090101" target="_self" 
+																>자료실</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="/in090101" target="_self" 
+																				>금융시장역사</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="/in090201" target="_self" 
+																				>금융60년연표</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/in090301"
+																					
+																				>금융용어설명</a>
+																		</li>
+																	</ul>
+														</li>
+													</ul>
+										</li>
+									<li>
+											<a	
+												
+															href="/pa030101" target="_self" 
+												>참여마당</a>
+											<ul>
+												<li>
+															<a	
+																
+																		href="/pa010000"
+																	
+																>민원신청</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="https://www.epeople.go.kr/idea/index.npaid" target="_blank" title="새창으로 열기"
+																>국민생각함</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="https://fine.fss.or.kr/fine/fncco/systemFncCo/list.do?menuNo=900038" target="_blank" title="새창으로 열기"
+																>제도권금융기관조회</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/pa040000"
+																	
+																>옴부즈만</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/pa030101" target="_self" 
+																>신고마당</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/pa030101"
+																					
+																				>불공정거래신고</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="/pa030201" target="_self" 
+																				>부패방지신고</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="/pa030301" target="_self" 
+																				>직원친절ㆍ불친절제보</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="/pa030401" target="_self" 
+																				>금융부조리신고(비영리포함)</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/pa030501"
+																					
+																				>금융사고제보</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/pa030502"
+																					
+																				>공익신고</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/pa030503"
+																					
+																				>갑질피해신고</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="https://www.epeople.go.kr/nep/crtf/userLogn.npaid?returnUrl=%2Fnep%2FbdgtWst%2FselectBdgtWstRqstPage.paid" target="_blank" title="새창으로 열기"
+																				>예산낭비신고</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="https://www.safetyreport.go.kr/api?apiKey=1160100MEE3V8X4PT5AA2UJMORZ" target="_blank" title="새창으로 열기"
+																				>안전신문고</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/pa030601"
+																					
+																				>국고보조금 부조리 신고센터</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/pa070101" target="_self" 
+																>관련누리집</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="/pa070102" target="_self" 
+																				>국내관련누리집</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="/pa070201" target="_self" 
+																				>해외관련누리집</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/pa070301"
+																	
+																>금융위원회 공무원의 성과를 칭찬합니다.</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/pa080001"
+																	
+																>금융분야 정상화 과제 제안센터</a>
+															<ul>
+																</ul>
+														</li>
+													</ul>
+										</li>
+									<li>
+											<a	
+												
+															href="/po02010101" target="_self" 
+												>정책마당</a>
+											<ul>
+												<li>
+															<a	
+																
+																			href="/po02010101" target="_self" 
+																>정책자료</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="/po0201010202" target="_self" 
+																				>주요업무계획</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/po02050101"
+																					
+																				>국정성과</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/po020201"
+																					
+																				>주요정책문답</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="/po02030103" target="_self" 
+																				>국회·예산 등</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/po020401"
+																					
+																				>정부위원회현황</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/po040101" target="_self" 
+																>법령정보</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/po040101"
+																					
+																				>금융위 소관법규</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/po040200"
+																					
+																				>금융위 소관규정/고시/공고/훈령</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/po040301"
+																					
+																				>입법예고/규정변경예고</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/index" target="_self" 
+																>규제혁신</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="https://better.fsc.go.kr/" target="_blank" title="새창으로 열기"
+																				>금융규제 법령해석포털</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="https://www.better.go.kr/zz.main.PortalMain" target="_blank" title="새창으로 열기"
+																				>규제정보포털</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/po050100" target="_self" 
+																>국정과제</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/po050100"
+																					
+																				>국정과제</a>
+																		</li>
+																	</ul>
+														</li>
+													</ul>
+										</li>
+									<li>
+											<a	
+												
+															href="/in010000" target="_self" 
+												>정보공개</a>
+											<ul>
+												<li>
+															<a	
+																
+																		href="/in010000"
+																	
+																>정보공개제도안내</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/in040000"
+																	
+																>사전정보공표목록</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/in050101" target="_self" 
+																>재정정보공개</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="/in050101" target="_self" 
+																				>재정정보</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/in070000"
+																	
+																>비공개 대상정보 세부기준</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="https://www.open.go.kr/com/login/memberLogin.do" target="_blank" title="새창으로 열기"
+																>정보공개청구</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="https://www.open.go.kr/othicInfo/infoList/infoList.do" target="_blank" title="새창으로 열기"
+																>보유정보목록</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/in100100" target="_self" 
+																>감사·청렴</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/in100100"
+																					
+																				>자체감사결과</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/in100200"
+																					
+																				>부패공직자현황</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/in100300"
+																					
+																				>반부패·청렴</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/in060101" target="_self" 
+																>공공데이터개방</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/in060101"
+																					
+																				>금융공공데이터란</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/in060201"
+																					
+																				>시스템 구성</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/in060301"
+																					
+																				>개방 현황</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/in060501"
+																					
+																				>자주 묻는 질문</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/in060701"
+																					
+																				>공공데이터 제공신청 및 의견수렴</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/in080000"
+																	
+																>정책실명제</a>
+															<ul>
+																</ul>
+														</li>
+													</ul>
+										</li>
+									<li>
+											<a	
+												
+															href="/ad010101" target="_self" 
+												>적극행정</a>
+											<ul>
+												<li>
+															<a	
+																
+																			href="/ad010101" target="_self" 
+																>제도소개</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/ad010101"
+																					
+																				>적극행정과 소극행정의 정의</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/ad010102"
+																					
+																				>적극행정 추진방향</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/ad020101" target="_self" 
+																>국민참여</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/ad020101"
+																					
+																				>적극행정국민추천</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="https://www.epeople.go.kr/nep/pttn/negativePttn/NegativePttnCotents.npaid" target="_blank" title="새창으로 열기"
+																				>소극행정신고</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="https://www.mpm.go.kr/mpm/info/theActive/referenceBoard/newsBoard/" target="_blank" title="새창으로 열기"
+																>적극행정자료실</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/ad040101"
+																	
+																>적극행정우수공무원</a>
+															<ul>
+																</ul>
+														</li>
+													</ul>
+										</li>
+									<li>
+											<a	
+												
+															href="/fsc010101" target="_self" 
+												>금융위원회</a>
+											<ul>
+												<li>
+															<a	
+																
+																			href="/fsc010101" target="_self" 
+																>금융위원회소개</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/fsc010101"
+																					
+																				>금융위원회</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="/fsc010201" target="_self" 
+																				>위원소개</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/fsc020101" target="_self" 
+																>위원장</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="/fsc020101" target="_self" 
+																				>소개</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/fsc020201"
+																					
+																				>위원장과의 대화</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/fsc020301"
+																					
+																				>위원장 일정</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/fsc020401"
+																					
+																				>기고/강연/연설</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/fsc020501"
+																					
+																				>역대위원장</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/fsc030101" target="_self" 
+																>부위원장</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="/fsc030101" target="_self" 
+																				>소개</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/fsc030201"
+																					
+																				>부위원장 일정</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/fsc030202"
+																					
+																				>역대 부위원장</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/fsc040101"
+																	
+																>조직도</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/fsc050101"
+																	
+																>찾아오시는 길</a>
+															<ul>
+																</ul>
+														</li>
+													</ul>
+										</li>
+									</ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav><!--// gnb -->
+		</header><!-- end:header -->
+		
+		<!-- start:content -->
+		<main id="sub-container">
+			<aside>
+	<script>
+	window.addEventListener("load", function () {
+	
+	    const lnb = document.querySelector(".lnb");
+	    
+	    if (!lnb) return;
+	    
+	    const depth2Menus = lnb.querySelectorAll("ul > li");
+	    
+	    depth2Menus.forEach(function(li) {
+	       
+	    	const a = li.querySelector("a");
+	        const subMenu = li.querySelector("ul");
+	
+	        // 실제 하위메뉴 있는지 체크 (핵심)
+	        const hasRealSubMenu = subMenu && subMenu.children.length > 0;
+	       
+	        if (a && hasRealSubMenu) {
+	            a.classList.add("has-submenu");
+	            a.setAttribute("aria-haspopup", "true");
+	          
+	            if (li.classList.contains("active")) {
+	                a.setAttribute("aria-expanded", "true");
+	                a.setAttribute("aria-label", "확장됨");
+	            } else {
+	                a.setAttribute("aria-expanded", "false");
+	                a.setAttribute("aria-label", "축소됨");
+	            }
+	
+	            // 클릭 (하위메뉴 있을 때만 막기)
+	            a.addEventListener("click", function(e) {
+	                e.preventDefault();
+	               
+	                const expanded = a.getAttribute("aria-expanded") === "true";
+	                
+	                a.setAttribute("aria-expanded", !expanded);
+	                a.setAttribute("aria-label", !expanded ? "확장됨" : "축소됨");
+	            });
+	
+	            // 키보드 접근성 (추가 but 안전)
+	            a.addEventListener("keydown", function(e) {
+	                if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+	                    e.preventDefault();
+	
+	                    const expanded = a.getAttribute("aria-expanded") === "true";
+	
+	                    a.setAttribute("aria-expanded", !expanded);
+	                    a.setAttribute("aria-label", !expanded ? "확장됨" : "축소됨");
+	                }
+	            });
+	        }
+	    });
+	});
+</script>
+	
+        <h2 class="lnb-title">정책마당</h2>
+        <nav class="lnb">
+            <ul>
+                <li title=""  >
+							<a href="/po02010101" target="_self" 
+							>정책자료<span></span>
+							</a>
+							<ul>
+								<li title="">
+											<a href="/po0201010202" target="_self" 
+											>주요업무계획</a>
+										</li>
+									<li title="">
+											<a href="/po02050101" 
+												
+											>국정성과</a>
+										</li>
+									<li title="">
+											<a href="/po020201" 
+												
+											>주요정책문답</a>
+										</li>
+									<li title="">
+											<a href="/po02030103" target="_self" 
+											>국회·예산 등</a>
+										</li>
+									<li title="">
+											<a href="/po020401" 
+												
+											>정부위원회현황</a>
+										</li>
+									</ul>
+						</li>
+					<li title=""  >
+							<a href="/po040101" target="_self" 
+							>법령정보<span></span>
+							</a>
+							<ul>
+								<li title="">
+											<a href="/po040101" 
+												
+											>금융위 소관법규</a>
+										</li>
+									<li title="">
+											<a href="/po040200" 
+												
+											>금융위 소관규정/고시/공고/훈령</a>
+										</li>
+									<li title="">
+											<a href="/po040301" 
+												
+											>입법예고/규정변경예고</a>
+										</li>
+									</ul>
+						</li>
+					<li title=""  >
+							<a href="/index" target="_self" 
+							>규제혁신<span></span>
+							</a>
+							<ul>
+								<li title="">
+											<a href="https://better.fsc.go.kr/" target="_blank" title="새 창에서 열림"
+											>금융규제 법령해석포털</a>
+										</li>
+									<li title="">
+											<a href="https://www.better.go.kr/zz.main.PortalMain" target="_blank" title="새 창에서 열림"
+											>규제정보포털</a>
+										</li>
+									</ul>
+						</li>
+					<li title=""  >
+							<a href="/po050100" target="_self" 
+							>국정과제<span></span>
+							</a>
+							<ul>
+								<li title="">
+											<a href="/po050100" 
+												
+											>국정과제</a>
+										</li>
+									</ul>
+						</li>
+					</ul>
+        </nav></aside><div class="content" id="container">
+	               	<!-- location -->
+	               	<div class="location-wrap">
+	                   	<div class="inner">
+							<span class="home"><a href="/index" title="금융위원회 홈으로 이동"><span class="hd-element">홈으로</span></a></span>
+		                   	<span ><a href="/po000000" title="정책마당 이동">정책마당</a></span>
+		                   	<span ><a href="/po010000" title="정책일반 이동">정책일반</a></span>
+		                   	<span class="active"><a href="/po010103?srchCtgry=3" title="보험정책 이동">보험정책</a></span>
+		                   	</div>
+	               	</div><!--// location -->
+	               	<!-- content-header -->
+	               	<div class="content-header">
+	                   	<h3>
+	                   	보험정책</h3>
+	                   <div class="right-column">
+	                       <span class="sns-link">
+	                           	<a href="javascript:void(0);"><span class="hd-element">공유하기</span></a>
+	                           	<div class="content-share-wrap">
+					            	<div class="content-share-layer">
+										<div class="sns-list-wrap">
+											<ul class="sns-list">
+												<li><a href="javascript:void(0);" class="btn-sns facebook" onclick="fn_sendSns('facebook','보험정책');" title="페이스북 공유하기 새창열기"><span>FaceBook</span></a></li>
+												<li><a href="javascript:void(0);" class="btn-sns twitter" onclick="fn_sendSns('twitter','보험정책');" title="X (구)트위터 공유하기 새창열기"><span>X (구)트위터</span></a></li>
+												<li><a href="javascript:void(0);" class="btn-sns naverblog" onclick="fn_sendSns('naverblog','보험정책');" title="네이버블로그 공유하기 새창열기"><span>NaverBlog</span></a></li>
+												<li><a href="javascript:void(0);" class="btn-linkurl" onclick="fn_copyUrl();" title="URL 복사하기"><span>URL 복사</span></a></li>
+											</ul>
+											<button type="button" class="close-btn-share-layer" aria-label="닫기"><span>close</span></button>
+										</div>
+									</div>
+								</div>
+	                       </span>
+	                       <span class="print-link">
+	                           <a href="javascript:void(0);" title="인쇄하기"><span class="hd-element">인쇄하기</span></a>
+	                       </span>
+	                   </div>
+	                   
+	               	</div><!--// content-header -->
+	               	<!-- content-body -->
+	               	<div class="content-body">
+	                   	<!-- tab -->
+	                   	<!--// tab -->
+	                	<!-- board-view -->
+<div class="board-view-wrap">
+    <div class="header">
+       	<div class="subject">[보도참고] 넥스트레이드의 다자간매매체결회사 투자중개업 본인가,  3월 4일 대체거래소(ATS) 출범 예정 - 2013년 제도 도입 이후 국내 최초의 대체거래소(ATS) 출범</div>
+       	<div class="day">
+           <span>2025-02-05</span>
+           <span>조회수 : 142106</span>
+       	</div>
+		<div class="info">
+					<span><strong>담당부서</strong>자본시장과</span>
+					<span><strong>담당자</strong>남명호 사무관</span>
+					<span><strong>연락처</strong>02-2100-2653</span>
+				</div>
+	       	<div class="info">
+					<span><strong>담당부서</strong>자본시장과</span>
+					<span><strong>담당자</strong>안영비 사무관</span>
+					<span><strong>연락처</strong>02-2100-2656</span>
+				</div>
+	       	</div>
+    <div class="body">
+        <div class="cont">
+            <table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none; width: 100%; overflow-wrap: break-word;"> 
+<tbody> 
+<tr> 
+<td valign="middle" style="border-left: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); border-bottom: none; padding: 1.4pt 5.1pt;">
+<p style="margin-right: 2.3pt; text-align: center;"><span style="font-weight: bold;">넥스트레이드의 다자간매매체결회사 투자중개업 본인가,</span></p> 
+<p style="margin-right: 2.3pt; text-align: center;"><span style="font-weight: bold;">3월 4일 대체거래소</span><span style="font-weight: bold;">(ATS)</span><span style="font-weight: bold;"> 출범 예정</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" style="border-left: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); border-top: none; border-bottom: 1px solid rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p style="margin-right: 2.3pt; text-align: center;">- 2013년 제도 도입 이후 <span style="font-weight: bold;">국내 최초의 대체거래소(ATS</span><span style="font-weight: bold;">) 출범</span> -</p> 
+<p style="margin-right: 2.3pt; text-align: center;">&nbsp;</p> 
+<p style="margin-right: 2.3pt; margin-left: 40px;"><span style="color: rgb(255, 0, 0);">&nbsp;</span>* ATS(Alternative Trading System) : 동시에 다수의 자를 대상으로 상장주권 및 증권예탁증권(DR)의 매매&middot;중개&middot;주선&middot;대리업무를 하는 다자간매매체결회사(法 &sect;8의2&#9316;)</p> 
+<p style="margin-right: 2.3pt; text-align: center;">&nbsp;</p> 
+<p style="margin-right: 2.3pt;">&radic; ATS 출범에 따른 <span style="font-weight: bold;">증권시장 인프라</span> <span style="font-weight: bold;">다양화</span>를 통해 <span style="font-weight: bold;">자본시장 접근성</span>이 <span style="font-weight: bold;">제고</span>되고, <span style="font-weight: bold;">투자자</span>의 <span style="font-weight: bold;">거래 편의</span>가<span style="font-weight: bold;"> 개선</span>될 것으로 기대</p> 
+<p style="margin-right: 2.3pt;">&nbsp;</p> 
+<p style="margin-right: 2.3pt;"><span style="font-weight: bold;">&nbsp; </span>&#9312;<span style="font-weight: bold;"> 오전 8시</span>부터 <span style="font-weight: bold;">오후 8시</span>까지<span style="font-weight: bold;"> 하루 12시간 </span>주식거래<br>
+ 한국거래소: (시가)08:30~09:00, (정규)09:00~15:20, (종가)15:20~15:30<br> 넥스트레이드: (pre)08:00~08:50, (정규)09:00~15:20, (After)15:30~20:00</p> 
+<p style="margin-right: 2.3pt;">&nbsp;</p> 
+<p style="margin-right: 2.3pt;"><span style="font-weight: bold;">&nbsp; </span>&#9313;<span style="font-weight: bold;"> 새로운 호가</span>(중간가호가, 스톱지정가호가)<span style="font-weight: bold;"> 도입, 수수료 경쟁 </span>등<span style="font-weight: bold; line-height: 150%;"></span></p> 
+<p style="margin-right: 2.3pt;">&nbsp;</p> 
+<p style="margin-right: 2.3pt;">&radic; 한국거래소와 넥스트레이드 <span style="font-weight: bold;">2개의 증권시장</span>을 <span style="font-weight: bold;">통합 관리&middot;감독</span></p> 
+<p style="margin-right: 2.3pt;">&nbsp;</p> 
+<p style="margin-right: 2.3pt;"><span style="font-weight: bold;">&nbsp;&nbsp;</span>&#9312; 증권사는 금감원의 ｢최선집행의무 가이드라인(`24.6.)｣에 따라 <span style="font-weight: bold;">최선집행</span><span style="font-weight: bold;">기준</span>과<span style="font-weight: bold;"> SOR</span><span style="font-weight: bold;">(Smart Order Routing) </span><span style="font-weight: bold;">시스템</span>을 마련하여 투자자 주문을 집행</p> 
+<p style="margin-right: 2.3pt;">&nbsp;</p> 
+<p style="margin-right: 2.3pt;"><span style="font-weight: bold;">&nbsp; </span>&#9313;<span style="font-weight: bold;"> 넥스트레이드 시장</span>에서도 <span style="font-weight: bold;">공매도</span>를<span style="font-weight: bold;"> 일관되게, 엄격하게 </span>관리&middot;감독</p> 
+<p style="margin-right: 2.3pt;">&nbsp;</p> 
+<p style="margin-right: 2.3pt;">&nbsp;&nbsp;&#9314;<span style="font-weight: bold;"> 한국</span><span style="font-weight: bold;">거래소와 동일</span>한 <span style="font-weight: bold;">가격변동폭</span>(KRX 전일 종가기준 &plusmn;30%), <span style="font-weight: bold;">시장안정장치</span>, <span style="font-weight: bold;">시장감시 </span>및 <span style="font-weight: bold;">청산&middot;결제</span>(T+2일) 등 적용</p> 
+<p style="margin-right: 2.3pt;">&nbsp;</p> 
+<p style="margin-right: 2.3pt;">&radic; ATS에서의 <span style="font-weight: bold;">불공정거래 </span>방지를 위해 <span style="font-weight: bold;">모니터링</span>을 <span style="font-weight: bold;">강화</span>하고, 적발시 <span style="font-weight: bold;">엄중 처벌</span></p></td> 
+</tr> 
+</tbody> 
+</table>
+<p><span><br></span></p>
+<p><span style="color: rgb(76, 76, 255);">&nbsp;[ 그간의 경과 및 본인가 의결 ]</span></p>
+<p><span style="color: rgb(76, 76, 255);"><br></span></p>
+<p><span style="font-weight: bold;">&nbsp;&nbsp;금융위원회</span><span>는 &lsquo;25.2.5일 제2차 정례회의를 개최하여, </span><span style="font-weight: bold;">넥스트레이드</span><span>의</span><span> </span><span style="font-weight: bold;">다자간매매체결회사</span><span> </span><span>투자중개업을</span><span style="font-weight: bold;"> 본인가</span><span>하였다. 국내 증권시장에서도 </span><span style="font-weight: bold;">대체</span><span style="font-weight: bold;">거래소가 출범</span><span>하여, 본격적인</span><span style="font-weight: bold;"> 복수 시장&middot;경쟁체제</span><span>가 </span><span style="font-weight: bold;">도입&middot;운영</span><span>되는 것이다.</span></p>
+<p style="text-align: left;"><span><br></span></p>
+<p style="text-align: left; margin-left: 40px;"><span>* </span><span>자본시장법상 대체거래소</span><span>(ATS: Alternative Trading System)</span><span>로서, 동시에 다수의 자를 대상으로 상장주권 및 DR의 매매&middot;중개&middot;주선&middot;대리업무를 하는 투자매매&middot;중개업자</span><span>(法 &sect;8의2&#9316;)</span></p>
+<p><span>&nbsp; </span><span>정부는 </span><span style="font-weight: bold;">자본시장 선진화</span><span>의 일환으로, </span><span style="font-weight: bold;">증권시장 인프라</span><span>를</span><span style="font-weight: bold;"> 다양화</span><span>하고</span><span> </span><span style="font-weight: bold;">투자자의 거래편의</span><span>를 개선하는 등 </span><span style="font-weight: bold;">자본시장 접근성</span><span>을 </span><span style="font-weight: bold;">제고</span><span>하기 위해</span><span style="font-weight: bold;"> `13년</span><span style="font-weight: bold;"> </span><span style="font-weight: bold;">다자간매매체결회사 </span><span>제도를 </span><span style="font-weight: bold;">도입</span><span>하였으며, </span><span style="font-weight: bold;">`23.7월 </span><span>넥스트레이드가 </span><span style="font-weight: bold;">최초로</span><span style="font-weight: bold;"> 예비인가</span><span>를 획득하였다.</span></p>
+<p><span><br></span></p>
+<p><span>&nbsp; </span><span>넥스트레이드 예비인가를 계기로, 금융위원회&middot;금융감독원&middot;한국거래소&middot;</span><span>금융투자협회&middot;예탁결제원&middot;넥스트레이드 등 </span><span style="font-weight: bold;">증권 유관기관</span><span>은 </span><span style="font-weight: bold;">`24.5.9일 ATS 운영방안 세미나</span><span>를 개최하여</span><span style="font-weight: bold;"> ATS 운영방안</span><span>과</span><span style="font-weight: bold;"> 통합시장 관리방안을 마련&middot;발표</span><span>하고</span><span style="font-weight: bold;"> 시장 참여자의 의견을 청취</span><span>하였다. 넥스트레이드는 세미나에서 논의된 다양한 의견을 종합하여, 대체거래소 운영을 위한 인력&middot;조직 </span><span>및 거래시스템을 구축하는 등의 준비를 바탕으로 </span><span style="font-weight: bold;">`24.11.29일 </span><span>금융위원회에</span><span style="font-weight: bold;"> </span><span>다자간매매체결회사</span><span style="font-weight: bold;"> 본인가를 신청</span><span>하였다.</span></p>
+<p><span><br></span></p>
+<p><span>&nbsp;&nbsp;민간전문가로 구성된 외부평가위원회의 평가, 금융감독원의 인가요건</span><span><sup><span>*</span></sup></span><span> </span><span>심사 등을 거쳐 금융위원회는 넥스트레이드의 </span><span style="font-weight: bold;">다자간매매체결회사 투자중개업</span><span style="font-weight: bold;"> 본인가를 의결</span><span>하였다.</span></p>
+<p><span><br></span></p>
+<p style="margin-left: 40px;"><span>* &#9312;법인격 요건 &#9313;자기자본 요건 &#9314;인력 요건 &#9315;물적설비 요건 &#9316;사업계획 요건 &#9317;건전경영 요건 &#9318;이해상충 방지체계 요건 &#9319;대주주 요건 등</span><span>(자본시장법 제12조)</span></p>
+<p><span><br></span></p>
+<p><span style="color: rgb(76, 76, 255);">&nbsp;[ 넥스트레이드 출범에 따른 거래체계 변화 ]</span></p>
+<p><span style="color: rgb(76, 76, 255);"><br></span></p>
+<p><span>&nbsp; </span><span>넥스트레이드는 오는 `25.3.4일 영업을 개시할 계획이다. </span><span>앞으로 </span><span style="font-weight: bold;">주식</span><span style="font-weight: bold;">거래 시간 연장</span><span>, </span><span style="font-weight: bold;">호가 유형 다양화</span><span> 및 수수료</span><span style="font-weight: bold;"> </span><span>경쟁에 따른 </span><span style="font-weight: bold;">거래비용 절감</span><span> 등</span><span> </span><span style="font-weight: bold;">투자자의 편익</span><span>이</span><span style="font-weight: bold;"> 향상</span><span>될 수 있을 것으로 기대하며, 복수시장 운영에 따른 투자자 보호 등을 위해 </span><span style="font-weight: bold;">통합 시장관리&middot;감독 체제</span><span>로 전환될 예정이다.</span></p>
+<p><span><br></span></p>
+<p><span style="font-size: 12pt;">&nbsp;&nbsp;</span><span style="font-size: 12pt;">□</span><span style="font-size: 12pt;">&nbsp;새로운 증권거래 서비스</span></p>
+<p><span style="font-weight: bold;"><br></span></p>
+<p><span style="font-weight: bold;">&nbsp; </span><span>넥스트레이드는 한국거래소와 동시에 운영하는 정규 거래시간 전‧후로,</span><span style="font-weight: bold;"> </span><span style="font-weight: bold;">08시 ~ 08시50분의 Pre마켓</span><span>과</span><span style="font-weight: bold;"> 15시30분 ~ 20시의 After마켓</span><span>을 운영한다.</span><span> 이에 우리나라의 하루 주식거래 시간은 </span><span style="font-weight: bold;">12시간</span><span>이 될 예정이다.</span></p>
+<p><span>&nbsp;&nbsp;이와 더불어, 한국거래소의 </span><span style="font-weight: bold;">시가 예상체결가 표출시간</span><span>과 </span><span style="font-weight: bold;">시간외단일가 </span><span style="font-weight: bold;">시장의 거래종목</span><span>이 </span><span style="font-weight: bold;">변경</span><span>되고, </span><span style="font-weight: bold;">시&middot;종가 단일가매매 시간동안 넥스트레이드</span><span>의</span><span style="font-weight: bold;"> 거래</span><span>가</span><span style="font-weight: bold;"> 중단</span><span>된다. </span><span style="font-weight: bold;">시‧종가의 대표성</span><span>을 유지하고, 호가를 접수받아 하나의 </span><span>가격으로 동시에 체결하는 </span><span style="font-weight: bold;">단일가매매</span><span>와 가격이 합치되는 즉시 매매체결이</span><span> 이루어지는 </span><span style="font-weight: bold;">접속매매의 차이</span><span>를 활용한 </span><span style="font-weight: bold;">시세조종을 방지</span><span>하기 위함이다.</span></p>
+<p><span><br></span></p>
+<p><span>&nbsp; </span><span>구체적으로, 한국거래소의 </span><span style="font-weight: bold;">시가 </span><span>단일가매매 시간은 현행 08시30분 ~ 09시를</span><span> </span><span>유지하되 </span><span style="font-weight: bold;">예상체결가 표출시간</span><span>을 </span><span style="font-weight: bold;">08시50분 ~ 09시</span><span>의</span><span style="font-weight: bold;"> 10분간으로 단축</span><span>하고,</span><span> </span><span>동 </span><span style="font-weight: bold;">10분 동안 넥스트레이드는 일시적으로 거래를 중단</span><span>한다. 또한, 종가</span><span> </span><span>단일가매매 시간은 </span><span style="font-weight: bold;">현행과 같이 15시20분 ~ 15시30분의 10분을 유지</span><span>하되</span><span><sup><span>*</span></sup></span><span>,</span><span> 해당 10분 동안 </span><span style="font-weight: bold;">넥스트레이드의 거래가 중단</span><span>될 예정이다.</span><span></span></p>
+<p><span><br></span></p>
+<p style="margin-left: 40px;"><span>* ATS 운영 세미나</span><span>(`24.5.9.)</span><span> 당시 종가 단일가매매 시간을 5분(15:25~15:30)으로 단축하는 내용을 발표했으나, 시장참여자들의 의견을 적극 수렴하여 현행 유지</span></p>
+<p><span><br></span></p>
+<p><span>&nbsp;&nbsp;한편, 넥스트</span><span>레이드의 After마켓 운영에 따라, 16시00분 ~ 18시까지 운영</span><span>되는 </span><span style="font-weight: bold;">한국거래소</span><span>의</span><span style="font-weight: bold;"> 시간외단일가 시장의 거래종목</span><span>에서</span><span style="font-weight: bold;"> 넥스트레이드의</span><span style="font-weight: bold;"> 거래종목을 제외</span><span>한다.&nbsp;</span></p>
+<p class="HStyle0" style="text-align: center; line-height: 165%;"><br></p>
+<div style="float: left;"> 
+<p><br></p> 
+<p class="HStyle0" style="text-align: center; line-height: 165%;"><br></p></div>
+<p><br></p>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none; height: 582px;"> 
+<tbody> 
+<tr> 
+<td valign="top" style="width: 601px; height: 578px; border-width: 1px; border-style: double; border-color: rgb(48, 87, 185); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="line-height: 150%;"><span style="font-size: 3pt; line-height: 150%;">&nbsp;</span></p> 
+<p class="HStyle0" style="line-height: 150%;"><br></p> 
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;"> 
+<tbody> 
+<tr> 
+<td colspan="2" valign="middle" style="width: 199px; height: 21px; padding: 1.4pt 5.1pt;"> 
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 140%;">&lt;&nbsp;현행 &gt;</span></p></td> 
+<td valign="middle" style="width: 37px; height: 21px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 13pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 45px; height: 21px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 13pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 38px; height: 21px; padding: 1.4pt 0pt 1.4pt 5.1pt;">
+<p class="HStyle0" style="line-height: 120%;"><span style="font-size: 13pt; font-family: 함초롬돋움; font-weight: bold; line-height: 120%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 34px; height: 21px; padding: 0pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 11pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(205, 25, 115); line-height: 140%;">&nbsp;</span></p></td> 
+<td colspan="4" valign="middle" style="width: 202px; height: 21px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 140%;">&lt;&nbsp;ATS 출범 후 &gt;</span></p></td> 
+<td valign="middle" style="width: 34px; height: 21px; padding: 1.4pt 5.1pt 1.4pt 1.4pt;">
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 8pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 120%;">&nbsp;</span></p></td> 
+</tr> 
+<tr> 
+<td colspan="2" valign="middle" style="width: 199px; height: 12px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 5pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 37px; height: 12px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 6pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 45px; height: 12px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 6pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 38px; height: 12px; padding: 1.4pt 0pt 1.4pt 5.1pt;">
+<p class="HStyle0" style="line-height: 120%;"><span style="font-size: 6pt; font-family: 함초롬돋움; font-weight: bold; line-height: 120%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 34px; height: 12px; padding: 0pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 4pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(205, 25, 115); line-height: 140%;">&nbsp;</span></p></td> 
+<td colspan="4" valign="middle" style="width: 202px; height: 12px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 5pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 34px; height: 12px; padding: 1.4pt 5.1pt 1.4pt 1.4pt;">
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 2pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 120%;">&nbsp;</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" style="width: 79px; height: 32px; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 120px; height: 32px; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 37px; height: 32px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td rowspan="10" valign="middle" style="width: 45px; height: 241px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;"><img src="/comm/getImage?srvcId=MEDIA&amp;upperNo=1390&amp;fileTy=MEDIA&amp;fileNo=1" alt="넥스트레이드의 거래 변경 화살표1"></span></p></td> 
+<td rowspan="10" valign="middle" style="width: 38px; height: 241px; padding: 1.4pt 0pt 1.4pt 5.1pt;">
+<p class="HStyle0" style="line-height: 120%;"><span style="font-family: 함초롬돋움; font-weight: bold; font-size: 12pt;">12h</span></p></td> 
+<td valign="middle" style="width: 34px; height: 32px; padding: 0pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><br></p> 
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;"> 
+<tbody> 
+<tr> 
+<td valign="middle" bgcolor="#cd1973" style="width: 31px; height: 21px; padding: 0pt;"> 
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 8pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(255, 255, 255); line-height: 140%;">NEW</span></p> </td> 
+</tr> 
+</tbody> 
+</table> 
+<p><br></p> 
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><br></p></td> 
+<td colspan="2" valign="middle" bgcolor="#ffffcb" style="width: 81px; height: 32px; border-left: none; border-right: 1px solid rgb(30, 116, 82); border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">Pre마켓</span></p></td> 
+<td colspan="2" valign="middle" bgcolor="#ffffcb" style="width: 120px; height: 32px; border-left: 1px solid rgb(30, 116, 82); border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">08:00 ~ 08:50</span></p></td> 
+<td valign="middle" style="width: 34px; height: 32px; padding: 1.4pt 5.1pt 1.4pt 1.4pt;">
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 8pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 120%;">ATS</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" bgcolor="#cdf2e4" style="width: 79px; height: 40px; border-left: none; border-right: 1px solid rgb(30, 116, 82); border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">시가</span></p></td> 
+<td valign="middle" style="width: 120px; height: 40px; border-left: 1px solid rgb(30, 116, 82); border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 120%;">08:30 ~ 09:00</span></p> 
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-family: 함초롬돋움;">[20분간 체결가 표출]</span></p></td> 
+<td valign="middle" style="width: 37px; height: 40px; padding: 1.4pt 0pt 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: right; line-height: 140%;"><span style="font-family: 함초롬돋움; font-weight: bold;">&nbsp;</span></p></td> 
+<td rowspan="4" valign="middle" style="width: 34px; height: 108px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="line-height: 120%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 120%;">&nbsp;</span></p></td> 
+<td colspan="2" valign="middle" bgcolor="#cdf2e4" style="width: 81px; height: 40px; border-left: none; border-right: 1px solid rgb(30, 116, 82); border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">시가</span></p></td> 
+<td colspan="2" valign="middle" style="width: 120px; height: 40px; border-left: 1px solid rgb(30, 116, 82); border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 120%;">08:30 ~ 09:00</span></p> 
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-family: 함초롬돋움; background-color: rgb(255, 255, 203);">[10분간 체결가 표출]</span></p></td> 
+<td valign="middle" style="width: 34px; height: 40px; padding: 1.4pt 5.1pt 1.4pt 1.4pt;">
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 8pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 120%;">KRX</span></p></td> 
+</tr> 
+<tr> 
+<td rowspan="2" valign="middle" bgcolor="#cdf2e4" style="width: 79px; height: 36px; border-left: none; border-right: 1px solid rgb(30, 116, 82); border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">정규시장</span></p></td> 
+<td rowspan="2" valign="middle" style="width: 120px; height: 36px; border-left: 1px solid rgb(30, 116, 82); border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">09:00 ~ 15:20</span></p></td> 
+<td rowspan="3" valign="middle" style="width: 37px; height: 68px; padding: 1.4pt 0pt 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: right; line-height: 140%;"><span style="font-family: 함초롬돋움; font-weight: bold;">6.5h</span></p></td> 
+<td rowspan="2" colspan="2" valign="middle" bgcolor="#cdf2e4" style="width: 81px; height: 36px; border-left: none; border-right: 1px solid rgb(30, 116, 82); border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">정규시장</span></p></td> 
+<td rowspan="2" colspan="2" valign="middle" style="width: 120px; height: 36px; border-left: 1px solid rgb(30, 116, 82); border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">09:00 ~ 15:20</span></p></td> 
+<td valign="middle" style="width: 34px; height: 31px; padding: 1.4pt 5.1pt 1.4pt 1.4pt;">
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 8pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 120%;">KRX</span></p> 
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 8pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 120%;">ATS</span></p></td> 
+</tr> 
+<tr> 
+<td rowspan="2" valign="middle" style="width: 34px; height: 37px; padding: 1.4pt 5.1pt 1.4pt 1.4pt;">
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 8pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 120%;">KRX</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" bgcolor="#cdf2e4" style="width: 79px; height: 32px; border-left: none; border-right: 1px solid rgb(30, 116, 82); border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">종가</span></p></td> 
+<td valign="middle" style="width: 120px; height: 32px; border-left: 1px solid rgb(30, 116, 82); border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">15:20 ~ 15:30</span></p></td> 
+<td colspan="2" valign="middle" bgcolor="#cdf2e4" style="width: 81px; height: 32px; border-left: none; border-right: 1px solid rgb(30, 116, 82); border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">종가</span></p></td> 
+<td colspan="2" valign="middle" style="width: 120px; height: 32px; border-left: 1px solid rgb(30, 116, 82); border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">15:20 ~ 15:30</span><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;"><sup></sup></span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" style="width: 79px; height: 16px; border-left: none; border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: none; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 120px; height: 16px; border-left: none; border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: none; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 37px; height: 16px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td rowspan="5" valign="middle" style="width: 34px; height: 101px; padding: 0pt;">
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;"> 
+<tbody> 
+<tr> 
+<td valign="middle" bgcolor="#cd1973" style="width: 31px; height: 21px; padding: 0pt; border-width: 1.11111px;"> 
+<p class="HStyle0" style="line-height: 22.4px; text-align: center;"><span style="font-size: 8pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(255, 255, 255); line-height: 14.9333px;">NEW</span></p></td> 
+</tr> 
+</tbody> 
+</table> 
+<p><br></p> 
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(205, 25, 115); line-height: 140%;">&nbsp;</span></p></td> 
+<td rowspan="2" colspan="2" valign="middle" bgcolor="#ffffcb" style="width: 81px; height: 35px; border-left: none; border-right: 1px solid rgb(30, 116, 82); border-top: 1px solid rgb(30, 116, 82); border-bottom: none; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">After마켓</span></p></td> 
+<td rowspan="2" colspan="2" valign="middle" bgcolor="#ffffcb" style="width: 120px; height: 35px; border-left: 1px solid rgb(30, 116, 82); border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: none; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">15:30 ~ 20:00</span></p></td> 
+<td rowspan="5" valign="middle" style="width: 34px; height: 101px; padding: 1.4pt 5.1pt 1.4pt 1.4pt;">
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 8pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 120%;">ATS</span></p> 
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 8pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 120%;">&nbsp;</span></p> 
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 8pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 120%;">&nbsp;</span></p> 
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 8pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 120%;">&nbsp;</span></p> 
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 8pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 120%;">KRX</span></p> 
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 8pt; font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185); line-height: 120%;">&nbsp;</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" style="width: 79px; height: 19px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 120px; height: 19px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 37px; height: 19px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" style="width: 79px; height: 9px; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 120px; height: 9px; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td rowspan="3" valign="middle" style="width: 37px; height: 66px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td colspan="2" valign="middle" bgcolor="#ffffcb" style="width: 81px; height: 9px; border-left: none; border-right: 1px solid rgb(30, 116, 82); border-top: none; border-bottom: none; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td colspan="2" valign="middle" bgcolor="#ffffcb" style="width: 120px; height: 9px; border-left: 1px solid rgb(30, 116, 82); border-right: none; border-top: none; border-bottom: none; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" bgcolor="#cdf2e4" style="width: 79px; height: 46px; border-left: none; border-right: 1px solid rgb(30, 116, 82); border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">시간외</span></p> 
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">단일가</span></p></td> 
+<td valign="middle" style="width: 120px; height: 46px; border-left: 1px solid rgb(30, 116, 82); border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">16:00~18:00</span></p></td> 
+<td rowspan="2" valign="middle" bgcolor="#ffffcb" style="width: 17px; height: 57px; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" bgcolor="#cdf2e4" style="width: 64px; height: 46px; border-left: none; border-right: 1px solid rgb(30, 116, 82); border-top: none; border-bottom: none; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">시간외</span></p> 
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">단일가</span></p></td> 
+<td valign="middle" style="width: 103px; height: 46px; border-left: 1px solid rgb(30, 116, 82); border-right: none; border-top: none; border-bottom: none; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">16:00~18:00</span></p></td> 
+<td valign="middle" bgcolor="#ffffcb" style="width: 17px; height: 46px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" style="width: 79px; height: 11px; border-left: none; border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: none; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 120px; height: 11px; border-left: none; border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: none; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" bgcolor="#ffffcb" style="width: 64px; height: 11px; border-left: none; border-right: 1px solid rgb(30, 116, 82); border-top: none; border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td colspan="2" valign="middle" bgcolor="#ffffcb" style="width: 120px; height: 11px; border-left: 1px solid rgb(30, 116, 82); border-right: none; border-top: none; border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 1pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" style="width: 79px; height: 13px; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 4pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 120px; height: 13px; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 4pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 37px; height: 13px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 4pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 45px; height: 13px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 4pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 38px; height: 13px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 4pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 34px; height: 13px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 4pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td colspan="2" valign="middle" style="width: 81px; height: 13px; border-left: none; border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 4pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td colspan="2" valign="middle" style="width: 120px; height: 13px; border-left: none; border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 4pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 34px; height: 13px; padding: 1.4pt 5.1pt 1.4pt 1.4pt;">
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 4pt; font-family: 함초롬돋움; font-weight: bold; line-height: 120%;">&nbsp;</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" bgcolor="#cdf2e4" style="width: 79px; height: 30px; border-left: none; border-right: 1px solid rgb(30, 116, 82); border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">공시시간</span></p></td> 
+<td valign="middle" style="width: 120px; height: 30px; border-left: 1px solid rgb(30, 116, 82); border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">07:30~18:00</span></p></td> 
+<td valign="middle" style="width: 37px; height: 30px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">&nbsp;</span></p></td> 
+<td valign="middle" style="width: 45px; height: 30px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;"><img src="/comm/getImage?srvcId=MEDIA&amp;upperNo=1391&amp;fileTy=MEDIA&amp;fileNo=1" alt="넥스트레이드의 거래 변경 화살표2"></span></p></td> 
+<td colspan="2" valign="middle" style="width: 71px; height: 30px; padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: right; line-height: 120%;"><span style="font-family: 함초롬돋움; font-weight: bold; color: rgb(48, 87, 185);">현행동일</span></p></td> 
+<td colspan="2" valign="middle" bgcolor="#cdf2e4" style="width: 81px; height: 30px; border-left: none; border-right: 1px solid rgb(30, 116, 82); border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">공시시간</span></p></td> 
+<td colspan="2" valign="middle" style="width: 120px; height: 30px; border-left: 1px solid rgb(30, 116, 82); border-right: none; border-top: 1px solid rgb(30, 116, 82); border-bottom: 1px solid rgb(30, 116, 82); padding: 1.4pt 5.1pt;">
+<p class="HStyle0" style="text-align: center; line-height: 140%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 140%;">07:30~18:00</span></p></td> 
+<td valign="middle" style="width: 34px; height: 30px; padding: 1.4pt 5.1pt 1.4pt 1.4pt;">
+<p class="HStyle0" style="text-align: center; line-height: 120%;"><span style="font-size: 12pt; font-family: 함초롬돋움; font-weight: bold; line-height: 120%;">&nbsp;</span></p></td> 
+</tr> 
+</tbody> 
+</table> 
+<p><br></p> 
+<p class="HStyle0" style="line-height: 150%;"><br></p> </td> 
+</tr> 
+</tbody> 
+</table>
+<p class="HStyle0" style="text-align: center; line-height: 165%;"><span style="font-size: 10pt;">&nbsp;</span></p>
+<p><span></span><span style="font-weight: bold;">&nbsp; 새로운 유형의 호가</span><span>도</span><span style="font-weight: bold;"> 도입</span><span>된다. 현재 국내 증시는 시장가 호가와 4가지 </span><span>지정가 호가</span><span>(일반, 최우선, 최유리, 조건부)</span><span>를 제공 중이다. 여기에 </span><span style="font-weight: bold;">최우선 매수‧</span><span style="font-weight: bold;">매도 호가의 중간가격</span><span>으로 가격이 자동 조정되는 &ldquo;</span><span style="font-weight: bold;">중간가호가&rdquo;</span><span>와,</span><span style="font-weight: bold;"> 특정</span><span style="font-weight: bold;"> 가격</span><span>에 </span><span style="font-weight: bold;">도달</span><span>하면 </span><span style="font-weight: bold;">지정가 호가</span><span>를 내는 &ldquo;</span><span style="font-weight: bold;">스톱지정가호가&rdquo;</span><span>가 추가된다. 한국</span><span>거래소도 넥스트레이드 출범일에 맞추어 함께 새로운 호가를 제공할 계획이며,</span><span> 투자자들은 새로운 호가를 바탕으로 </span><span style="font-weight: bold;">다양한 투자전략</span><span>을 구사할 수 있다.</span></p>
+<p><span><br></span></p>
+<p><span>&nbsp;&nbsp;또한, 넥스트레이드는 현행 한국거래소의 매매체결 수수료보다 </span><span style="font-weight: bold;">20~40% </span><span style="font-weight: bold;">수준 인하</span><span>할 예정으로, 시장 간 경쟁이 </span><span style="font-weight: bold;">거래비용 절감</span><span>이라는 투자자의</span><span> 편익으로 이어질 것으로 기대된다.</span></p>
+<p><span><br></span></p>
+<p><span>&nbsp;&nbsp;</span><span style="font-size: 12pt;">□</span><span style="font-size: 12pt;">&nbsp;통합 시장관리&middot;감독</span></p>
+<p><span style="font-weight: bold;"><br></span></p>
+<p><span>&nbsp; </span><span>한국거래소와 넥스트레이드 2개의 증권시장이 동시에 운영됨에 따른 </span><span style="font-weight: bold;">통합</span><span style="font-weight: bold;">적인 시장 관리‧감독</span><span>을 실시한다. 우선, 증권사가 투자자의 주문을 </span><span style="font-weight: bold;">최선의 조건으로 집행</span><span>하기 위한 </span><span style="font-weight: bold;">기준</span><span>을 사전에 마련‧공표하고, 동 기준에 따라 </span><span>한국거래소와 넥스트레이드 중 </span><span style="font-weight: bold;">시장을 선택</span><span>하여 주문을 제출하는 </span><span style="font-weight: bold;">최선</span><span style="font-weight: bold;">집행의무</span><span>가 본격적으로 적용된다.</span></p>
+<p><span><br></span></p>
+<p><span>&nbsp; </span><span style="font-weight: bold;">금융감독원</span><span>은 증권사가 보다 명확한 기준 하에 복수 거래시장에 대비할 </span><span>수 있도록, </span><span style="font-weight: bold;">`24.6월</span><span> 증권사가 구축해야 하는 주문집행체계와 세부 의무</span><span>사항을 담은 </span><span style="font-weight: bold;">｢최선집행의무 가이드라인｣을 발표</span><span><sup><span>*</span></sup></span><span>하였다. </span><span style="font-weight: bold;">증권사</span><span>는 이에 따라</span><span> </span><span style="font-weight: bold;">최선집행기준</span><span>과 </span><span style="font-weight: bold;">SOR</span><span>(Smart Order Routing System)</span><span> </span><span style="font-weight: bold;">시스템을 마련‧구축</span><span>하는 </span><span>한편, </span><span style="font-weight: bold;">최선집행기준 설명서</span><span>를 작성하여 </span><span style="font-weight: bold;">고객 주문을 받기 전 미리 교부</span><span>하고, 최선집행기준에 따라 </span><span style="font-weight: bold;">투자자 주문을 자동으로 집행</span><span>할 예정이다.</span></p>
+<p><span><br></span></p>
+<p style="margin-left: 40px;"><span>* </span><span>금융감독원 보도자료(`24.6.20.) &ldquo;투자자 주문 등을 최선의 거래조건으로 처리하기 위한</span><span> ｢증권사 최선집행의무 가이드라인｣을 마련하였습니다&rdquo;</span></p>
+<p><span><br></span></p>
+<p><span>&nbsp;&nbsp;한편, </span><span style="font-weight: bold;">공매도에 대한 관리‧감독</span><span>은 넥스트레이드 시장에서도</span><span style="font-weight: bold;"> </span><span>일관되게, 그리고 </span><span>엄격하게 이루어질 예정이다. 넥스트레이드의 </span><span style="font-weight: bold;">Pre‧After마켓</span><span>에서는 </span><span style="font-weight: bold;">공매도가 금지</span><span>되어 정규시간</span><span>(09시 ~ 15시20분) </span><span>중에만 공매도 주문이 가능하다</span><span>.</span><span style="font-weight: bold;"> 공매도 주문 표시, 공매도 과열종목 지정제도</span><span> 등은 </span><span>넥스트레이드에도 </span><span style="font-weight: bold;">동일</span><span>하게 적용되며,</span><span style="font-weight: bold;"> </span><span>공매도로 인한 직접적 가격하락을 방지하는 </span><span style="font-weight: bold;">업틱룰</span><span>은 한국</span><span>거래소와 넥스트레이드 </span><span style="font-weight: bold;">각각의 직전체결가를 기준</span><span>으로 운영한다.</span></p>
+<p><span><br></span></p>
+<p><span>&nbsp;&nbsp;또한, 한국거래소과와 동일한 가격변동폭, 시장안정장치, 시장감시 및 청산‧결제가 적용된다. 넥스트레이드의 </span><span style="font-weight: bold;">가격변동폭</span><span>은 </span><span style="font-weight: bold;">전일 한국</span><span style="font-weight: bold;">거래소 </span><span style="font-weight: bold;">종가 기준 &plusmn;30%</span><span>이며,</span><span style="font-weight: bold;"> After마켓</span><span>의 가격변동폭도 </span><span style="font-weight: bold;">전일 종가 기준 &plusmn;30%</span><span>이다</span><span><sup><span>*</span></sup></span><span>.</span><span> </span><span>한국거래소의 거래정지, 써킷브레이커,</span><span> </span><span>사이드카 등은 넥스트레이드에 즉시 적용되며, 넥스트레이드의 시장감시와 </span><span>청산도 한국거래소가 수행한다. </span><span style="font-weight: bold;">Pre‧ After마켓을 포함한 넥스트레이드의 거래</span><span>는</span><span style="font-weight: bold;"> T+2일에 결제</span><span>될 예정이다.</span></p>
+<p><span><br></span></p>
+<p style="margin-left: 40px;"><span>* 시가&middot;종가는 현행과 같이 한국거래소의 가격을 따름</span></p>
+<p><span><br></span></p>
+<p><span>&nbsp;&nbsp;특히, 금융위원회&middot;금융감독원&middot;한국거래소는 복수시장체제에서의 </span><span style="font-weight: bold;">불공정</span><span style="font-weight: bold;">거래</span><span>가 발생하지 않도록</span><span style="font-weight: bold;"> 시장 모니터링 체계</span><span>를 </span><span style="font-weight: bold;">강화</span><span>하는 동시에, </span><span style="font-weight: bold;">불공정</span><span style="font-weight: bold;">거래 발생</span><span>시 무관용 원칙에 따라 </span><span style="font-weight: bold;">엄중하게 제재</span><span>하여 국민들이 믿고 투자할 수 있는 공정한 자본시장을 조성해 나갈 계획이다.</span></p>
+<p><span><br></span></p>
+<p><span>&nbsp;&nbsp;</span><span style="font-size: 12pt;">□</span><span style="font-size: 12pt;">&nbsp;자본시장 제도 추가정비</span></p>
+<p><span style="font-weight: bold;"><br></span></p>
+<p><span>&nbsp;&nbsp;ATS의 원활한 운영을 위한 자본시장 제도 정비도 마무리해 나갈 예정</span><span>이다. ATS에서 </span><span style="font-weight: bold;">상장 ETF, ETN</span><span>도 </span><span style="font-weight: bold;">매매 체결</span><span>할 수 있도록 허용하는 한편,</span><span> ATS의 수수료 등도 증권시장의 거래비용 절감에 영향을 미친다는 점을 </span><span>감안하여 </span><span style="font-weight: bold;">시장효율화위원회의 심의 대상</span><span>에 </span><span style="font-weight: bold;">ATS도 포함</span><span>하고, ATS의 건전성</span><span> 규제를 합리화하는 등 ATS에 부적합한 규제를 정비</span><span><sup><span>*</span></sup></span><span>한다.</span></p>
+<p><span><br></span></p>
+<p style="margin-left: 40px;"><span>* `25.2.3일 자본시장법 시행령&middot;규정 기 입법예고</span></p>
+<p><span><br></span></p>
+<p style="margin-left: 40px;"><span>※ </span><span>ATS에 대한 공개매수의무 및 최선집행의무 적용배제 등의 내용을 담은 자본시장법</span><span> 개정안도 발의</span><span>(`24.9.13.)</span><span>되어, 국회 계류 중</span></p>
+<p><span><br></span></p>
+<p><span style="color: rgb(76, 76, 255);"><br></span></p>
+<p><span style="color: rgb(76, 76, 255);">&nbsp;[ 향후 계획 ]</span></p>
+<p><span><br></span></p>
+<p><span>&nbsp;&nbsp;넥스트레이드는 한국거래소&middot;증권사&middot;유관기관이 함께 참여하는 </span><span style="font-weight: bold;">모의시장 </span><span style="font-weight: bold;">운영</span><span>을 지속 중이며</span><span>(1차 : `24.11.5일~12.13일, 2차 : `24.12.16일~`25.1.10일,</span><span> 3차 : `25.1.13일~2.27일), </span><span>실제 가동환경 하에서의 </span><span style="font-weight: bold;">이행 리허설</span><span> 등을 거쳐 </span><span>출범 전까지 </span><span style="font-weight: bold;">안정적인 거래시스템 구축</span><span>을 위해 </span><span style="font-weight: bold;">만전</span><span>을 기할 예정이다.</span><span> </span><span>현재까지 </span><span style="font-weight: bold;">총 32개의 증권사</span><span>가 </span><span style="font-weight: bold;">넥스트레이드 시장 참여 의사</span><span>를 밝혔으며</span><span><sup><span>*</span></sup></span><span>, </span><span style="font-weight: bold;">순차적으로 참여 증권사를 확대</span><span>해 나갈 예정이다.</span></p>
+<p><span><br></span></p>
+<p style="margin-left: 40px;"><span>* </span><span><sup><span>❶</span></sup></span><span>`25.3.4일 전체시장 참여 의사 : 15개사</span></p>
+<p style="margin-left: 40px;"><span>&nbsp;&nbsp; </span><span><sup><span>❷</span></sup></span><span>`25.3.4일 </span><span>Pre&middot;After마켓만 참여</span><span> &amp; `25.9월부터 전체시장 참여 의사 : 13개사</span></p>
+<p style="margin-left: 40px;"><span>&nbsp;&nbsp; </span><span><sup><span>❸</span></sup></span><span>`25.9월부터 전체시장 참여 의사 : 4개사</span></p>
+<p style="margin-left: 40px;"><span>&nbsp;&nbsp;&nbsp;&nbsp;(단, 실제 참여 시기 및 회사 수는 변동될 수 있음)</span></p>
+<p><span><br></span></p>
+<p><span>&nbsp;&nbsp;또한, 넥스트레이드는 한국거래소에 상장된 주권 중 </span><span style="font-weight: bold;">유동성이 높은 종목 </span><span>등을 중심으로 </span><span style="font-weight: bold;">매매체결 종목을 선정</span><span>한다. </span><span style="font-weight: bold;">출범 이후 4주 동안</span><span>은</span><span style="font-weight: bold;"> </span><span>시스템의 안정성 확보와 증권사&middot;투자자의 복수시장체제 적응 등을 위해 </span><span style="font-weight: bold;">매주 거래 </span><span style="font-weight: bold;">종목을 순차적으로 확대</span><span style="font-weight: bold;"><sup><span>*</span></sup></span><span>하여 </span><span style="font-weight: bold;">총 800여개의 종목</span><span>을 </span><span style="font-weight: bold;">거래</span><span>하고, 구체적인</span><span> </span><span>종목은 2월 12일 합동설명회에서 공표할 예정이다. </span><span style="font-weight: bold;">`25.6월말부터는</span><span> 분기말의 5거래일</span><span> </span><span>전에 거래 종목을 선정하여 공지하고, 다음 분기의 첫 매매거래일부터</span><span> 적용하는 </span><span style="font-weight: bold;">정기변경</span><span>을</span><span style="font-weight: bold;"> 실시할 계획</span><span>이다.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<p><span><br></span></p>
+<p style="margin-left: 40px;"><span>*</span><span> </span><span>1주차 : 10개 &rarr; 2주차 : 110개 &rarr; 3주차 : 410개 &rarr; 4주차 : 800개</span><span>(상황에 따라 조정 가능)</span></p>
+<p><span><br></span></p>
+<p><span>&nbsp; </span><span>한편, 금융감독원은 증권사들의 </span><span style="font-weight: bold;">최선집행의무 관련 내규 및 SOR 시스템의</span><span style="font-weight: bold;"> 구축 현황 </span><span>등을</span><span style="font-weight: bold;"> 지속 점검</span><span>하고 부족한 부분을 </span><span style="font-weight: bold;">보완</span><span>할 수 있도록 </span><span style="font-weight: bold;">지도&middot;감독</span><span> </span><span>하고 있으며, </span><span>금융투자협회는 </span><span style="font-weight: bold;">복수시장체제 홍보&middot;안내 영상</span><span>을 제작&middot;배포하고</span><span> </span><span style="font-weight: bold;">증권사별 대고객 약관 변경 및 사전고지</span><span> 등이 차질 없이 이루어지도록</span><span> </span><span>관리할 예정이다. 이와 더불어, 한국거래소&middot;넥스트레이드의 </span><span style="font-weight: bold;">증권사 </span><span style="font-weight: bold;">IT담당자</span><span style="font-weight: bold;"> </span><span style="font-weight: bold;">대상 설명회</span><span>(2.5일)</span><span>, </span><span style="font-weight: bold;">금융투자협회</span><span> </span><span style="font-weight: bold;">출입기자 설명회</span><span>(2.7일)</span><span>,</span><span style="font-weight: bold;"> 금감원</span><span style="font-weight: bold;">&middot;</span><span style="font-weight: bold;">거래소&middot;</span><span style="font-weight: bold;">예탁원&middot;금투협&middot;넥스트레이드 합동설명회</span><span>(2.12일)</span><span> 등을 통해 ATS</span><span> </span><span>출범에 따라 달라지는 제도 및 시장 운영상의 유의사항 등을 상세히 설명해</span><span> 나갈 계획이다.</span></p></div>
+        <div class="file">
+            <div class="title">첨부파일 (3)<a href="javascript:void(0);"><span class="hd-element">첨부파일 목록</span></a></div>
+            <div class="file-list-wrap">
+            <div class="file-list">
+	                <a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=83953&amp;fileTy=ATTACH&amp;fileNo=4" title="250205 넥스트레이드 다자간매매체결회사 본인가, 3월4일 대체거래소 출범_수정1740.pdf"><span class="name">250205 넥스트레이드 다자간매매체결회사 본인가, 3월4일 대체거래소 출범_수정1740.pdf</span></a>
+			       	<span class="name"> (378 KB) </span>
+			        <span class="ico view"><a href="/ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E41082A725A1EA2724E4423100496F38C6237050412ABDBE45D8AEBF373566A9F961A797988F33DC6D13217761CDE452EF01E1C785C2D3DDE1A74A1A044AA796510387C5A5D1455B0E26FD6DD2971E2D200DF861B32694D877E4A806830D6C3D1AE" title="문서뷰어 새창으로 열기"><span class="hd-element">파일뷰어</span></a></span>
+		                <span class="ico download"><a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=83953&amp;fileTy=ATTACH&amp;fileNo=4" title="파일 다운로드"><span class="hd-element">파일다운로드</span></a></span>
+	            </div>
+            <div class="file-list">
+	                <a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=83953&amp;fileTy=ATTACH&amp;fileNo=5" title="250205 넥스트레이드 다자간매매체결회사 본인가, 3월4일 대체거래소 출범_수정1740.hwp"><span class="name">250205 넥스트레이드 다자간매매체결회사 본인가, 3월4일 대체거래소 출범_수정1740.hwp</span></a>
+			       	<span class="name"> (401 KB) </span>
+			        <span class="ico download"><a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=83953&amp;fileTy=ATTACH&amp;fileNo=5" title="파일 다운로드"><span class="hd-element">파일다운로드</span></a></span>
+	            </div>
+            <div class="file-list">
+	                <a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=83953&amp;fileTy=ATTACH&amp;fileNo=6" title="250205 넥스트레이드 다자간매매체결회사 본인가, 3월4일 대체거래소 출범_수정1740.hwpx"><span class="name">250205 넥스트레이드 다자간매매체결회사 본인가, 3월4일 대체거래소 출범_수정1740.hwpx</span></a>
+			       	<span class="name"> (484 KB) </span>
+			        <span class="ico download"><a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=83953&amp;fileTy=ATTACH&amp;fileNo=6" title="파일 다운로드"><span class="hd-element">파일다운로드</span></a></span>
+	            </div>
+            </div>
+        </div>
+        <div class="btn-board">
+        	<a href="/po010103?srchCtgry=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=" class="bg-black" title="목록으로 이동">목록으로</a>
+        </div>
+    </div>
+    <!-- footer -->
+	<div class="foot">
+	    	<ul>
+	    	<li title="[보도자료] 「신용정보업감독규정」 일부개정고시안 금융위원회 의결(‘25.2.5일) - 기업신용조회회사의 허위평가 행위 및 특정 평가결과 강요 행위 규율 ">
+                    <dl>
+                        <dt>이전글</dt>
+                        <dd>
+                        	<a href="83952?srchCtgry=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=" class="prev">[보도자료] 「신용정보업감독규정」 일부개정고시안 금융위원회 의결(‘25.2.5일) - 기업신용조회회사의 허위평가 행위 및 특정 평가결과 강요 행위 규율 </a>
+                            	</dd>
+                    </dl>
+                </li>
+                <li title="[보도자료] ｢전자금융감독규정｣ 일부개정고시안 금융위원회 의결">
+                    <dl>
+                        <dt>다음글</dt>
+                        <dd>
+                        	<a href="83954?srchCtgry=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=" class="next">[보도자료] ｢전자금융감독규정｣ 일부개정고시안 금융위원회 의결</a>
+                            	</dd>
+                    </dl>
+                </li>
+                </ul>
+        </div>
+	</div><!--// board-view --></div><!--// content-body -->
+					<!-- content-foot -->
+	            	<div class="content-foot">
+	                   	<form id="stsfdgForm" name="stsfdgForm" method="post" class="ml-xlg">
+			<input type="hidden" name="crud" value="">
+			<input type="hidden" name="siteNo" value="1" title="사이트번호">
+			<input type="hidden" name="menuNo" value="7" title="메뉴번호">
+			<div class="header">
+	            <dl>
+	                <dt>콘텐츠 내용에 만족하셨나요?</dt>
+	                <dd>
+	                    <div class="form-radio">
+	                        <input type="radio" name="score" id="c5" value="5" class="">
+	                        <label for="c5" title="매우만족 선택"><span><i class="s1"></i>매우만족</span></label>
+	                    </div>
+	                </dd>
+	                <dd>
+	                    <div class="form-radio">
+	                        <input type="radio" name="score" id="c4" value="4" class="">
+	                        <label for="c4" title="만족 선택"><span><i class="s2"></i>만족</span></label>
+	                    </div>
+	                </dd>
+	                <dd>
+	                    <div class="form-radio">
+	                        <input type="radio" name="score" id="c3" value="3" class="">
+	                        <label for="c3" title="보통 선택"><span><i class="s3"></i>보통</span></label>
+	                    </div>
+	                </dd>
+	                <dd>
+	                    <div class="form-radio">
+	                        <input type="radio" name="score" id="c2" value="2" class="">
+	                        <label for="c2" title="불만족 선택"><span><i class="s4"></i>불만족</span></label>
+	                    </div>
+	                </dd>
+	                <dd>
+	                    <div class="form-radio">
+	                        <input type="radio" name="score" id="c1" value="1" class="">
+	                        <label for="c1" title="매우불만족 선택"><span><i class="s5"></i>매우불만족</span></label>
+	                    </div>
+	                </dd>
+	            </dl>
+	            <button type="submit" class="btn-vote">평가하기</button>
+	        </div>
+        </form>
+        
+		<script>
+		$(function(){
+			//save saticsfaction degree 
+			$(document).on('submit', 'form[name="stsfdgForm"]', function(e){
+				e.preventDefault();
+				if($("form[name='stsfdgForm'] input[name='score']:checked").length > 0 && $("form[name='stsfdgForm'] input[name='score']:checked").val() ) {
+					
+					if(!confirm("선택하신 점수로 평가 하시겠습니까?")){
+						return false;
+					}
+					
+					$("form[name='stsfdgForm'] input[name='crud']").val('CREATE');
+					$.ajax({
+						url: "/ajax/stsfdgAction.json", // 의견 추가,삭제
+						type: "post",
+						data: $("form[name='stsfdgForm']").serialize(),
+						success: function(data){
+							if (data.process!=undefined&&data.process==1) {
+								alert('등록되었습니다.');
+							} else if (data.errorMessage!=undefined) {
+								alert(data.errorMessage);
+							} else {
+								alert("처리에 오류가 발생했습니다.");
+							}
+						},
+						error: function(xhr, status, err){
+							alert("[error] " + ":" + err + "(" + status + ")");
+						}
+					});
+				} else {
+					alert("만족도 점수를 선택해주세요");
+					$("form[name='stsfdgForm'] input[name='score']#c5").focus();
+				}
+			});
+		})
+		</script></div><!--// content-foot -->
+	           </div>
+			</main>
+		<!-- end:content -->
+	
+		<!-- start:footer -->
+		<style>
+.topbtn {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 999;
+}
+
+</style>
+
+<script type="text/javascript">
+	$(function() {
+	    $(window).scroll(function() {
+	        if ($(this).scrollTop() > 100) {
+	            $('#MOVE_TOP_BTN').fadeIn();
+	        } else {
+	            $('#MOVE_TOP_BTN').fadeOut();
+	        }
+	    });
+	    
+	    $("#MOVE_TOP_BTN").click(function() {
+	        $('html, body').animate({
+	            scrollTop : 0
+	        }, 400);
+	        return false;
+	    });
+		$("#MOVE_TOP_BTN").on("keydown", function(e) {
+	        if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+	            e.preventDefault();
+	            $('html, body').animate({ scrollTop : 0 }, 400);
+	        }
+	    });
+	});
+</script>
+
+<footer>
+	<div class="footer-inner">
+	    <ul class="family-wrap">
+	        <li title="금융위원회 유관기관 선택하기">
+	            <label for="s1" class="hd-element">금융위원회 유관기관</label>
+	            <select name="s1" id="s1">
+	                <option title="금융위원회 유관기관" value="">금융위원회 유관기관</option>
+	                <option title="금융감독원 선택" value="http://www.fss.or.kr">금융감독원</option>
+	                <option title="예금보험공사 선택" value="http://www.kdic.or.kr">예금보험공사</option>
+	                <option title="한국자산관리공사(캠코) 선택" value="http://www.kamco.or.kr">한국자산관리공사(캠코)</option>
+	                <option title="산업은행 선택" value="https://www.kdb.co.kr">산업은행</option>
+	                <option title="기업은행 선택" value="https://www.ibk.co.kr">기업은행</option>
+	                <option title="신용보증기금 선택" value="https://www.kodit.co.kr">신용보증기금</option>
+	                <option title="한국예탁결제원 선택" value="http://www.ksd.or.kr">한국예탁결제원</option>
+	                <option title="한국거래소 선택" value="http://www.krx.co.kr">한국거래소</option>
+	                <option title="한국주택금융공사 선택" value="http://www.hf.go.kr">한국주택금융공사</option>
+	                <option title="금융정보분석원 선택" value="https://www.kofiu.go.kr">금융정보분석원</option>
+	                <option title="전국은행연합회 선택" value="http://www.kfb.or.kr">전국은행연합회</option>
+	                <option title="생명보험협회 선택" value="http://www.klia.or.kr">생명보험협회</option>
+	                <option title="손해보험협회 선택" value="http://www.knia.or.kr">손해보험협회</option>
+	                <option title="한국금융투자협회 선택" value="http://www.kofia.or.kr">한국금융투자협회</option>
+	                <option title="여신금융협회 선택" value="https://www.crefia.or.kr">여신금융협회</option>
+	                <option title="상호저축은행중앙회 선택" value="https://www.fsb.or.kr">상호저축은행중앙회</option>
+	                <option title="신용정보협회 선택" value="http://www.cica.or.kr">신용정보협회</option>
+	                <option title="금융결제원 선택" value="http://www.kftc.or.kr">금융결제원</option>
+	                <option title="금융보안원 선택" value="http://www.fsec.or.kr">금융보안원</option>
+	                <option title="한국신용정보원 선택" value="http://www.kcredit.or.kr">한국신용정보원</option>
+	                <option title="서민금융진흥원 선택" value="http://www.kinfa.or.kr">서민금융진흥원</option>
+	                <option title="신용회복위원회 선택" value="https://www.ccrs.or.kr">신용회복위원회</option>
+	                <option title="한국금융연구원 선택" value="http://www.kif.re.kr">한국금융연구원</option>
+	                <option title="보험개발원 선택" value="http://www.kidi.or.kr">보험개발원</option>
+	                <option title="보험연구원 선택" value="http://www.kiri.or.kr">보험연구원</option>
+	                <option title="자본시장연구원 선택" value="http://www.kcmi.re.kr">자본시장연구원</option>
+	                <option title="한국금융연수원 선택" value="http://www.kbi.or.kr">한국금융연수원</option>
+	                <option title="핀테크지원센터 선택" value="https://fintech.or.kr">핀테크지원센터</option>
+	                <option title="한국핀테크산업협회 선택" value="http://www.korfin.kr">한국핀테크산업협회</option>
+	                <option title="한국화재보험협회 선택" value="https://www.kfpa.or.kr">한국화재보험협회</option>
+	                <option title="한국공인회계사회 선택" value="http://www.kicpa.or.kr">한국공인회계사회</option>
+	                <option title="한국회계기준원 선택" value="http://www.kasb.or.kr">한국회계기준원</option>
+	                <option title="코스콤 선택" value="http://www.koscom.co.kr">코스콤</option>
+	            </select>
+	            <button type="button" class="select-link-btn" title="선택한 유관기관 새창으로 열기"><span>이동</span></button>
+	        </li>
+	        <li title="금융서비스 포털모음 선택하기">
+	            <label for="s2" class="hd-element">금융서비스 포털모음</label>
+	            <select name="s2" id="s2">
+	                <option title="금융서비스 포털모음" value="">금융서비스 포털모음</option>
+	                <option title="파인 선택" value="http://fine.fss.or.kr">파인</option>
+	                <option title="카드포인트통합조회 선택" value="https://www.cardpoint.or.kr">카드포인트통합조회</option>
+	                <option title="착오송금 반환지원 선택" value="https://kmrs.kdic.or.kr/ko/index.do">착오송금 반환지원</option>
+	                <option title="휴면금융재산조회 선택" value="http://www.sleepmoney.or.kr">휴면금융재산조회</option>
+	                <option title="보험다모아 선택" value="http://www.e-insmarket.or.kr">보험다모아</option>
+	                <option title="본인신용정보 열람서비스 선택" value="https://www.credit4u.or.kr:2443/">본인신용정보 열람서비스</option>
+	                <option title="페이인포 선택" value="https://www.payinfo.or.kr/payinfo.html">페이인포</option>
+	                <option title="통합연금포털 선택" value="https://www.fss.or.kr/fss/lifeplan/lifeplanIndex/index.do?menuNo=201101">통합연금포털</option>
+	                <option title="ISA다모아 선택" value="https://dis.kofia.or.kr/websquare/index.jsp?w2xPath=/wq/isa/DISISANotice.xml&divisionId=MDIS07001001000000&serviceId=SDIS07001001000#!">ISA다모아</option>
+	                <option title="금융상품 한눈에 선택" value="http://finlife.fss.or.kr">금융상품 한눈에</option>
+	                <option title="마이데이터 종합포털 선택" value="https://www.mydatacenter.or.kr:3441/myd/index/index.do">마이데이터 종합포털</option>
+	                <option title="KRX ESG포털 선택" value="http://esgportal.kr">KRX ESG포털</option>
+					<option title="국민성장펀드" value="http://ngf.kdb.co.kr">국민성장펀드</option>
+	            </select>
+	            <button type="button" class="select-link-btn" title="선택한 포털 새창으로 열기"><span>이동</span></button>
+	        </li>
+	    </ul>
+	    <ul class="footer-body">
+	        <li>
+	            <dl class="guide-wrap">
+	                <dt>이용안내</dt>
+	                <dd><a href="/ut010101" title="금융행정서비스헌장 페이지로 이동">금융행정서비스헌장</a></dd>
+	                <dd class="font-color-yellow"><a href="/ut020103" title="개인정보처리방침 페이지로 이동">개인정보처리방침</a></dd>
+	                <dd><a href="/ut020105" title="전자우편 무단수집거부 페이지로 이동">전자우편 무단수집거부</a></dd>
+	                <dd><a href="/ut020104" title="저작권정책 페이지로 이동">저작권정책</a></dd>
+	                <dd><a href="/ut050101" title="누리집지도 페이지로 이동">누리집지도</a></dd>
+	                <dd><a href="/ut020102" title="누리집 개선제안 페이지로 이동">누리집 개선제안</a></dd>
+	                <dd><a href="/pa050000" title="소식지 신청 페이지로 이동">소식지 신청</a></dd>
+	                <dd><a href="/ut060101" title="최신소식(RSS)서비스 페이지로 이동">최신소식(RSS)서비스</a></dd>
+	            </dl>
+	        </li>
+	        <li>
+	            <dl class="custom">
+	                <dt>금융위 문의</dt>
+	                <dd class="loc">03171 서울특별시 종로구 세종대로 209 금융위원회</dd>
+					<dd class="tel">대표전화 : <a href="tel:02-2100-2500" title="대표전화:02-2100-2500 으로 전화걸기">02-2100-2500</a></dd>
+	                <dd class="tel">정부민원안내콜센터 국번없이 : 110(무료)</dd>
+					<dd class="tel">금감원콜센터 : 1332(유료, 통화료는 발신자 부담)</dd>
+	                </dl>
+	        </li>
+	        <li>
+	            <div class="copyright">
+	                <span>ⓒ FINANCIAL SERVICES COMMISSION.</span><br>ALL RIGHTS RESERVED. 
+	            </div>
+	            <ul class="footer-sns">
+	                <li class="fb"><a href="javascript:openFacebook()" title="금융위원회 페이스북 새창으로 열기"><span class="hd-element">페이스북</span></a></li>
+	                <li class="blog"><a href="javascript:openBlog()" title="금융위원회 네이버블로그 새창으로 열기"><span class="hd-element">네이버 블로그</span></a></li>
+	                <li class="yt"><a href="javascript:openYoutube()" title="금융위원회 유튜브 새창으로 열기"><span class="hd-element">유튜브</span></a></li>
+	                <li class="tw"><a href="javascript:openTwiter()" title="금융위원회 X (구)트위터 새창으로 열기"><span class="hd-element">X (구)트위터</span></a></li>
+	              	<li class="ins"><a href="javascript:openInstagram()" title="금융위원회 인스타그램 새창으로 열기"><span class="hd-element">인스타그램</span></a></li>
+	            </ul>
+	            <div class="other-wrap">
+	                <span><a href="https://www.mois.go.kr/frt/sub/popup/p_taegugki_banner/screen.do" title="국가상징 알아보기 새창으로 열기"><img src="/humanframe/theme/fscmain/assets/images/common/ico_tae1.png" alt="국가상징 알아보기"></a></span>
+	                <span><a href="https://www.kogl.or.kr/open/index.do" title="OPEN 정보공개 새창으로 열기"><img src="/humanframe/theme/fscmain/assets/images/common/ico_open.png" alt="OPEN 정보공개"></a></span>
+	                <span><a href="http://www.wa.or.kr/board/list.asp?search=link_url&SearchString=www.fsc.go.kr&BoardID=0006" target="_blank" title="웹접근성 품질인증 새창으로 열기" class="ext_link_none ext_link"><img style="width:43px; height:30px;" src="/humanframe/theme/fscmain/assets/images/common/2025_ico_wa.png" alt="(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)"></a></span>
+	            </div>
+	        </li>
+	    </ul>
+	</div>
+</footer>
+
+<aside class="topbtn">
+	<a id="MOVE_TOP_BTN" href="#eg"><img src="/humanframe/theme/fscmain/assets/images/ico/ico_top.png" alt="최상단 이동 버튼"></a>
+</aside><!-- end:footer -->
+		
+		<div class="mask-wrap"></div>
+		
+		<!-- layer popup -->
+	    <div class="layer-popup">
+	        <div class="load-wrap">
+	            <div id="loadUrl" class="load-inner"></div>
+	            </div>        
+	    </div>
+	    <!--// layer popup -->
+	    
+		</div>
+
+</body>
+</html>

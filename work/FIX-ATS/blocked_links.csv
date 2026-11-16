@@ -1,0 +1,5 @@
+링크,무엇이 있는 곳인지,필요한 이유,막힌 종류,시도한 방법,필요한 조치
+https://www.nextrade.co.kr,넥스트레이드 공식 사이트(거래 개시 발표),회사 발표 1차 출처,봇 차단 403,curl 기본 UA 1회,클라우드 밖에서 열람
+https://www.businesswire.com/news/home/20250625304252/en,Bruce Markets 투자 유치 보도자료 원문(Business Wire),Bruce 발언 3 원문 대조,Access Denied 403,curl 1회,사람이 열어 확인
+https://securities.miraeasset.com/bbs/board/message/file.do?attachmentId=2130566,금투협 보도참고자료(2024-08 주간거래 일시 중단) 첨부,사고 규모와 중단일 1차 출처,안내 이미지 페이지 반환,curl 1회,다른 경로로 협회 원문 확보
+https://www.samsungpop.com/ux/kor/customer/notice/notice/noticeViewContent.do?MenuSeqNo=21281,삼성증권 미국 주간거래 공지,증권사 공지 근거,410,curl 1회,사람이 열어 확인

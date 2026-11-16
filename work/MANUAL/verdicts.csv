@@ -3,3 +3,5 @@
 "F-0111","단일 출처","사용자 제공 주주서한 텍스트 변환본(42쪽)에서 숫자 대조: p.23 FTEs 4,204(Q3 2026) 확인. 약 700개 직무 감축과 약 14% 비중은 이 문서들에 없음","Coinbase Q3 2026 Shareholder Letter (사용자 제공 PDF); inputs/manual/B03_coinbase_Q3_26_shareholder_letter.pdf","절반만 확인. 직원 수는 1차 확인되나 '약 700개 감축'은 준비 발언 p.3이 '5월(2분기) 감원 효과'만 언급. 두 사실로 나누어 직원 수만 1차 출처 확인으로 올리기를 권함"
 "F-0109","1차 출처 확인","사용자 제공 주주서한 텍스트 변환본(42쪽)에서 숫자 대조: p.31 Operating income 61.7, Net income 718.7, (Gains) losses on crypto assets held for investment (715.0), 희석 EPS 2.51","Coinbase Q3 2026 Shareholder Letter (사용자 제공 PDF); inputs/manual/B03_coinbase_Q3_26_shareholder_letter.pdf","기존 교차 확인을 1차 출처 확인으로 상향 제안. 기준은 2026 Q3 분기(미감사)"
 "F-0108","1차 출처 확인","사용자 제공 주주서한 텍스트 변환본(42쪽)에서 숫자 대조: p.30 Total revenue 1,215.6(Y/Y (35)%), Transaction net 590.2","Coinbase Q3 2026 Shareholder Letter (사용자 제공 PDF); inputs/manual/B03_coinbase_Q3_26_shareholder_letter.pdf","기존 교차 확인을 1차 출처 확인으로 상향 제안"
+"F-0012","교차 확인","Korea Herald, 이데일리 2곳 18개 종목 중단 일치(FIX-ATS)","https://koreaherald.com/article/10860485","조선비즈, 매일경제는 시세 제공 중단 4종으로 표현"
+"F-0045","교차 확인","Korea Herald, 조선비즈 일치(FIX-ATS)","https://koreaherald.com/article/10860485",""

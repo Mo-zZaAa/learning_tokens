@@ -98,7 +98,7 @@ def write(name, rows):
 
 write('sources', src_rows)
 ver = {}
-for vp in sorted(glob.glob(os.path.join(W, 'VER-*', 'verdicts.csv')) + glob.glob(os.path.join(W, 'MANUAL', 'verdicts.csv'))):
+for vp in sorted(glob.glob(os.path.join(W, 'VER-*', 'verdicts.csv'))) + glob.glob(os.path.join(W, 'MANUAL', 'verdicts.csv')):  # MANUAL이 마지막에 이김
     for row in csv.DictReader(open(vp, encoding='utf-8-sig')):
         if row.get('fact_id') and row.get('새 검증 상태') in ('1차 출처 확인', '교차 확인', '단일 출처', '충돌'):
             ver[row['fact_id'].strip()] = row['새 검증 상태']
