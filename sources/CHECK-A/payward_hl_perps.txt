@@ -1,0 +1,68 @@
+
+Press release | Payward Intends to Bring Onchain Perpetual Futures to US Clients, Starting on Hyperliquid
+Payward Intends to Bring Onchain Perpetual Futures to US Clients, Starting on Hyperliquid
+September 16, 2026
+Payward’s open rails would give US clients greater access to and choice in onchain perpetuals, a product the rest of the world has traded for years
+CHEYENNE, Wyo., September 16, 2026: 
+Payward, the parent company of Kraken, today announced that it intends to deploy onchain perpetual futures markets for US clients, starting with Hyperliquid HIP-3* markets, the protocol’s first builder-deployed permissioned perpetual markets.
+Payward has run open financial rails since 2011 for clients in more than 190 countries and territories. As of June 30, 2026, it held 6.6 million funded accounts, and its Proof of Reserves, reviewed by an independent third-party accountant, showed client assets backed above 100 percent.
+“Multiple venues run builder-deployed perpetuals on Hyperliquid. One holds 98 percent of their open interest, and no registered US exchange or clearinghouse has deployed a market there. Payward intends to be the first, holding the keys and carrying the regulatory obligations. Our open rails serve clients in more than 190 countries and territories and enable the next protocol, region and product. We already list our own US perpetuals and intend to deploy on Hyperliquid as well, putting clients first, not ourselves,” said Arjun Sethi, Co-CEO of Payward.
+The markets would run on Hyperliquid’s public blockchain, whose onchain order book matches and records trades. Bitnomial, Payward’s CFTC-regulated exchange and clearinghouse, would be the HIP-3* deployer: it would create, own and administer the market and clear and settle the contracts. NinjaTrader Clearing, Payward’s CFTC-registered futures commission merchant, would carry the client accounts. Those entities hold the regulatory obligations. Only accounts onboarded by NinjaTrader and on both NinjaTrader and Bitnomial’s allowlists could trade.
+“A US client would open a futures account with Payward’s registered broker and trade new perpetual futures contracts on Hyperliquid, cleared through the same clearinghouse that already supports the crypto perpetual contracts Payward offers US clients today,” said Jon Pham, Head of US Derivatives at Payward.
+“Hyperliquid has pushed the boundaries of onchain finance since its inception. This latest milestone shows how decentralized infrastructure can adapt to regulated markets, finding ways to distribute innovative and compliant products to users around the world,” said Calvin Leyon, Kraken’s Head of Onchain. “Payward is pioneering a framework on Hyperliquid that we believe can be replicated across products and markets globally. By pairing Hyperliquid’s cutting-edge protocol with Payward’s infrastructure, liquidity and regulatory stack, we intend to bring a premier onchain product to users in the US market.”
+Perpetual futures have traded outside the United States since 2016; in 2025 alone more than $85 trillion changed hands worldwide, according to CoinGecko’s 2026 “State of Crypto Perpetuals Report.” For most of the past decade, no US venue offered them. Hyperliquid, live since 2023, is the best-in-class onchain product: CoinGecko ranked it the most active onchain perpetuals venue of 2025, and it handled more than $200 billion of volume in the past 30 days, per DefiLlama. Giving US clients access to the best products in the world, regardless of who built them, expands choice and strengthens competition so that the United States does not fall behind.
+Hyperliquid is the first protocol Payward plans to deploy on for US clients. Partners already run their own products on Payward Services, and more products will follow through the same open rails. The aim is to make DeFi products more accessible within established regulatory frameworks, expanding access for everyone.
+The Payward entities powering US onchain perps are Bitnomial Exchange, LLC, a CFTC-regulated designated contract market; Bitnomial Clearinghouse, LLC, a CFTC-registered derivatives clearing organization; and NinjaTrader Clearing, LLC, a CFTC-registered futures commission merchant and NFA member.
+Subject to regulatory approval, onchain perpetual futures will be listed under the rules of Bitnomial Exchange, LLC.
+About Payward
+Payward, Inc. is a unified financial infrastructure platform that powers a family of products advancing an open, global financial system. Built on a single shared architecture, Payward enables customers to hold, trade, earn, pay, and invest across asset classes without friction or fragmentation.
+At its core, Payward provides the infrastructure layer behind Kraken and a growing set of purpose-built products, including NinjaTrader, Breakout, xStocks, and CF Benchmarks.
+Payward separates infrastructure from product expression. Each product surface is designed for a specific customer segment, regulatory regime, and use case, while operating on the same global foundation:
+One global liquidity pool
+One unified risk and margin engine
+One collateral and settlement system
+One compliance and licensing framework
+This shared architecture allows Payward to scale efficiently, launch new products at low marginal cost, and serve diverse global markets while maintaining consistent risk management, regulatory integrity, and operational resilience.
+For more information about Payward, please visit 
+www.payward.com
+.
+Contact
+Lauren Post
+[email protected]
+Latest news
+November 13, 2026
+ Payward Q3 2026 financial highlights
+November 13, 2026
+ Payward Q3 2026 financial highlights
+November 11, 2026
+ xStocks Brings the DAX 40 Onchain, Opening Germany's Largest Listed Companies to 24/7 Global Trading
+November 11, 2026
+ xStocks Brings the DAX 40 Onchain, Opening Germany's Largest Listed Companies to 24/7 Global Trading
+November 11, 2026
+ xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain
+November 11, 2026
+ xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain
+Payward Inc.
+A collection of companies powering the open financial system.
+Trading
+Kraken
+Kraken Pro
+Kraken Wallet
+NinjaTrader
+Breakout
+Banking
+Krak
+Prime
+Asset Management
+Coming soon
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+About Payward
+Public Policy
+Contact
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions. © Payward 2026. All rights reserved. 
+Cookies Policy
+
