@@ -37,7 +37,7 @@ ORDER = [
 SLUG = {"kr": "kraken", "rh": "robinhood", "bn": "binance", "cb": "coinbase", "dn": "dinari",
         "on": "ondo", "bo": "blue-ocean", "br": "bruce", "mo": "moon"}
 
-ID_RE = re.compile(r"\[((?:F-\d{4})|(?:KR-[^\]]+)|(?:US-[^\]]+)|(?:EU-[^\]]+)|(?:CASE-[^\]]+))\]")
+ID_RE = re.compile(r"\[((?:F-\d{4})|(?:TP-\d{3})|(?:KR-[^\]]+)|(?:US-[^\]]+)|(?:EU-[^\]]+)|(?:CASE-[^\]]+))\]")
 IMG_RE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 URL_RE = re.compile(r"https?://\S+")
 ORANGE_WORDS = ("Securitize", "tZERO")
@@ -77,6 +77,7 @@ facts = {r["fact_id"]: r for r in load_csv(ROOT / "db/facts.csv")}
 sources = {r["source_id"]: r for r in load_csv(ROOT / "db/sources.csv")}
 laws = {r["law_id"]: r for r in load_csv(ROOT / "db/laws.csv")}
 cases = {r.get("case_id", ""): r for r in load_csv(ROOT / "db/cases.csv")}
+tparty = {r["tp_id"]: r for r in load_csv(ROOT / "db/third_party.csv")}
 
 
 def evidence(ids):
@@ -96,6 +97,15 @@ def evidence(ids):
                 continue
             seen.add(key)
             out.append({"q": q, "url": url, "t": title or url})
+        elif i in tparty:
+            t = tparty[i]
+            url = (t.get("링크") or "").split(" ")[0].strip()
+            if not url.startswith("http"):
+                url = ""
+            where = f'{t.get("쪽","")}쪽' if t.get("쪽", "").replace("~", "").replace(",", "").replace(" ", "").isdigit() else t.get("쪽", "")
+            out.append({"q": (t.get("원문") or "").strip(), "url": url,
+                        "t": f'{t.get("발행처","")}, {t.get("자료 제목","")} ({t.get("발간일","")}, {where}). 입장: {t.get("발행처 입장","")}',
+                        "e": (t.get("내용") or "").strip()})
         elif i in laws:
             l = laws[i]
             url = (l.get("링크") or "").strip()
@@ -264,20 +274,52 @@ def law_link(lid):
 
 
 def md_tables(path):
-    tabs, cur = [], None
+    tabs, cur, head = [], None, ""
     for line in Path(path).read_text(encoding="utf-8").splitlines():
+        if line.startswith("## "):
+            head = line[3:].strip()
         if line.startswith("|"):
             cells = [c.strip() for c in line.strip().strip("|").split("|")]
             if set("".join(cells)) <= set("-: "):
                 continue
             if cur is None:
-                cur = {"head": cells, "rows": []}
+                cur = {"head": cells, "rows": [], "sec": head}
                 tabs.append(cur)
             else:
                 cur["rows"].append(cells)
         else:
             cur = None
     return tabs
+
+
+FIG_CAP = {
+ "R2_p10_provider_comparison_table": "사업자 10곳 비교표. CoinDesk Research 10쪽, 2026-08 기준, Bullish 의뢰. Coinbase 열 없음. Binance와 Dinari를 같은 보관형으로 묶었지만 우리 분류는 다름(아래 표)",
+ "R2_p06_three_models_table": "세 모델 표(발행사 직접, 보관형, 합성형). CoinDesk Research 6쪽, 2026-09, Bullish 의뢰",
+ "R1_p19_four_types_diagram": "네 방식 한 장 그림(직접, 권리, 간접, 무기한선물). 포필러스 19쪽, 2026-02, Securitize 후원",
+ "R1_p20_model_comparison_table": "네 방식 비교표. 포필러스 20쪽, 2026-02, Securitize 후원. 간접을 스와프로 묶은 칸은 우리 분류와 다름",
+ "R1_p31_ecosystem_by_type": "방식별 사업자. 포필러스 31쪽, 2026-02, Securitize 후원",
+ "R1_p36_indirect_platforms_table": "Robinhood, Backed, Ondo, Dinari 비교표. 포필러스 36쪽, 2026-02 기준(Robinhood 지갑판, Dinari 미국판 이전), Securitize 후원",
+ "R1_p68_lifecycle_diagram": "주식 토큰 생애주기(발행, 상장, 가격 형성, 유동성, 담보, 상환). 포필러스 68쪽, 2026-02, Securitize 후원",
+ "R1_p76_value_by_platform_2026-01": "발행 플랫폼별 잔액(rwa.xyz, 2026-01-27). 포필러스 76쪽, Securitize 후원",
+ "W1_sentora_rwa_league_table_2026-01": "rwa.xyz 순위표(2026-01 초). Sentora 주간 글, 2026-01-09",
+ "R1_p73_ecosystem_map": "주식 토큰 생태계 지도. 포필러스 73쪽, 2026-02 기준, Securitize 후원",
+ "R2_p04_how_ownership_moves_today": "지금 주식 소유권이 움직이는 길과 단계별 마찰. CoinDesk Research 4쪽, 2026-09, Bullish 의뢰",
+ "R2_p07a_issuer_sponsored": "발행사 직접 방식 흐름. CoinDesk Research 7쪽, Bullish 의뢰",
+ "R2_p07b_custodial": "보관형 흐름(미국법 구조). CoinDesk Research 7쪽, Bullish 의뢰. Binance, Coinbase는 아부다비 신탁 구조라 회사 본문은 투자설명서를 따름",
+ "R2_p08_synthetic": "합성형 흐름. CoinDesk Research 8쪽, Bullish 의뢰",
+ "R1_p22_direct_tokenization": "직접 방식 흐름. 포필러스 22쪽, Securitize 후원",
+ "R1_p24_entitlement_tokenization": "권리 방식 흐름(DTC 장부를 블록체인으로). 포필러스 24쪽, Securitize 후원",
+ "R1_p26_indirect_tokenization": "간접 방식 흐름. 포필러스 26쪽, Securitize 후원",
+ "R1_p10_traditional_trade_lifecycle": "기존 주식 거래 흐름. 포필러스 10쪽, Securitize 후원",
+ "R1_p47_us_license_types": "미국 자격 3종(명의개서대리인, 브로커딜러, ATS). 포필러스 47쪽, Securitize 후원",
+}
+FIG_WHERE = {"compare": ["R2_p10_provider_comparison_table", "R2_p06_three_models_table", "R1_p19_four_types_diagram",
+                         "R1_p20_model_comparison_table", "R1_p31_ecosystem_by_type", "R1_p36_indirect_platforms_table", "R1_p68_lifecycle_diagram"],
+             "past": ["W1_sentora_rwa_league_table_2026-01", "R1_p76_value_by_platform_2026-01"],
+             "lic": ["R1_p73_ecosystem_map"],
+             "rules": ["R2_p04_how_ownership_moves_today", "R1_p10_traditional_trade_lifecycle", "R2_p07a_issuer_sponsored", "R1_p22_direct_tokenization",
+                       "R1_p24_entitlement_tokenization", "R2_p07b_custodial", "R2_p08_synthetic", "R1_p26_indirect_tokenization", "R1_p47_us_license_types"]}
+PAST = {"ondo": ("TP-001", 413.4e6, "51.59", 1), "kraken": ("TP-002", 195.3e6, "24.37", 2), "securitize": ("TP-003", 144.4e6, "18.02", 3), "dinari": ("TP-004", 3.0e6, "0.37", 7)}
 
 
 def extra_data():
@@ -294,7 +336,15 @@ def extra_data():
                 "Robinhood Stock Tokens": "robinhood", "Coinbase": "coinbase", "Dinari dShares": "dinari"}.get(name)
         rank.append({"name": name, "slug": slug, "rank": int(m.group(1)) if m else None, "share": m.group(2) if m else "",
                      "usd": float(f["값"] or 0), "date": f["기준일"], "src": evidence([fid])})
+    for r in rank:
+        k = r["slug"] or ("securitize" if "Securitize" in r["name"] else None)
+        if k in PAST:
+            tp, usd, share, rk = PAST[k]
+            r["past"] = {"usd": usd, "share": share, "rank": rk, "x": round(r["usd"] / usd, 1), "src": evidence([tp])}
     out["rank"] = rank
+    out["rank_total"] = {"now": float(facts.get("F-1028", {}).get("값") or 0), "past": 801.36e6, "src": evidence(["TP-005", "F-1028"])}
+    out["figs"] = {where: [{"k": img_key(f"../captures/reports/{n}.png"), "c": FIG_CAP.get(n, n)} for n in names] for where, names in FIG_WHERE.items()}
+    out["cls"] = [dict(r, src=src_of(r.pop("tp_ids", ""))) for r in load_csv(ROOT / "db/cross_class.csv")]
     out["cross"] = [dict(r, src=src_of(r.pop("fact_ids", ""))) for r in load_csv(ROOT / "db/cross.csv")]
     out["ats"] = [dict(r, src=src_of(r.pop("fact_ids", ""))) for r in load_csv(ROOT / "db/cross_ats.csv")]
     out["events"] = [dict(r, src=src_of(r.pop("fact_ids", ""))) for r in load_csv(ROOT / "db/ats_events.csv")]
@@ -348,9 +398,16 @@ def extra_data():
                 return [law_link(x) for x in re.findall(r"(?:US|KR|EU)-[^\s,()]+", cell)]
             reg.append({"issue": row[0], "us": row[1], "us_law": ids(row[2]), "kr": row[3], "kr_law": ids(row[4]), "diff": row[5]})
     out["reg"] = reg
-    common = []
-    if len(tabs) > 1:
-        for row in tabs[-1]["rows"]:
+    common, tp_reg = [], []
+    for tb in tabs:
+        if "제3자" in tb["sec"]:
+            for row in tb["rows"]:
+                ids = re.findall(r"TP-\d{3}|F-\d{4}", " ".join(row))
+                tp_reg.append({"cells": row, "head": tb["head"], "src": evidence(ids)})
+    out["tp_reg"] = tp_reg
+    ctab = next((tb for tb in tabs if "공통 줄" in tb["sec"]), None)
+    if ctab:
+        for row in ctab["rows"]:
             if len(row) >= 3:
                 common.append({"t": row[0], "d": row[1], "src": evidence(re.findall(r"F-\d{4}|KR-[^\s,]+", row[2]))})
     out["common"] = common

@@ -1,0 +1,65 @@
+﻿code,file,pages,kind,about,use_in,what,caution
+R2,figures/R2_p10_provider_comparison_table.png,10,그림,공통; Binance; Dinari; Kraken; Ondo; Robinhood; Securitize,가로 비교 맨 위,사업자 10곳 비교표,"2026-08 기준, Bullish 의뢰, Coinbase 없음"
+R2,figures/R2_p06_three_models_table.png,6,그림,공통,"가로 비교, 용어","세 모델 표: 발행사 직접, 보관형, 합성형",
+R2,figures/R2_p07a_issuer_sponsored.png,7,그림,공통; Securitize,공통 설명,발행사 직접 방식 흐름,
+R2,figures/R2_p07b_custodial.png,7,그림,공통,공통 설명,보관형 흐름,"미국법 구조. Binance, Coinbase 본문에는 투자설명서 우선"
+R2,figures/R2_p08_synthetic.png,8,그림,Kraken; Ondo; Robinhood,B 상품 구조,합성형 흐름,
+R2,figures/R2_p04_how_ownership_moves_today.png,4,그림,공통,"공통 설명, 용어",지금 주식 소유권이 움직이는 길,
+R2,figures/R2_p13_equiniti_bullish_flow.png,13,그림,참고,본문에 넣지 않음,Bullish 자사 주식 토큰 흐름,의뢰사 사례
+R1,figures/R1_p19_four_types_diagram.png,19,그림,공통,"가로 비교, 용어",네 방식 한 장 그림,
+R1,figures/R1_p20_model_comparison_table.png,20,그림,공통,가로 비교,네 방식 비교표,간접 = 스와프 칸은 우리 분류와 다름
+R1,figures/R1_p22_direct_tokenization.png,22,그림,공통; Securitize,공통 설명,직접 방식 흐름,
+R1,figures/R1_p24_entitlement_tokenization.png,24,그림,공통,공통 설명,권리 방식 흐름(DTC),
+R1,figures/R1_p26_indirect_tokenization.png,26,그림,Kraken; Ondo; Dinari; Robinhood,B 상품 구조,간접 방식 흐름,
+R1,figures/R1_p36_indirect_platforms_table.png,36,그림,Robinhood; Kraken; Ondo; Dinari,"가로 비교, B, D",네 회사 비교표,2026-02 기준
+R1,figures/R1_p56_robinhood_lithuania_table.png,56,그림,Robinhood,E 인가,EU판 역할 분담 표,
+R1,figures/R1_p47_us_license_types.png,47,그림,공통,"공통 제도 비교, 용어",미국 자격 3종 표,
+R1,figures/R1_p68_lifecycle_diagram.png,68,그림,공통,가로 비교의 단계 틀,주식 토큰 생애주기,
+R1,figures/R1_p73_ecosystem_map.png,73,그림,공통,관계 화면,생태계 지도,2026-02 기준
+R1,figures/R1_p31_ecosystem_by_type.png,31,그림,공통,가로 비교,방식별 사업자 로고,
+R1,figures/R1_p76_value_by_platform_2026-01.png,76,그림,공통,시장 내 위치의 과거 대비,"발행 플랫폼별 잔액(rwa.xyz, 2026-01-27)",
+W1,figures/W1_sentora_rwa_league_table_2026-01.png,,그림,공통; Ondo; Kraken; Dinari; Securitize,시장 내 위치의 과거 대비,rwa.xyz 순위표(2026-01 초),
+R1,figures/R1_p10_traditional_trade_lifecycle.png,10,그림,공통,"공통 설명, 용어",기존 주식 거래 흐름,
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,36-37,구조,Robinhood,B,EU판 구조와 투자자가 갖는 것(EU 법인에 대한 계약상 청구권),지갑판 이전
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,55-56,인가,Robinhood,"E, 한국 시장과의 차이","리투아니아 인가, 장외 파생이라 직접 상대방, 분산원장 시범제도 면제 없이 가능했던 이유",
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,68-72,평가,Robinhood; Kraken; Securitize,"제3자 평가, D",생애주기 단계별 세 회사 비교,
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,29,평가,Robinhood; 공통,"제3자 평가, 공통",방식별 SEC 태도와 간접 방식은 과도기라는 필자 견해,Securitize 후원 보고서
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,85,평가,Robinhood,제약과 리스크,비상장 회사 토큰과 OpenAI의 반박,DB의 기존 사실과 대조
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,16,구조,Robinhood,회사 개요,주문 대가 수익(PFOF) 구조,
+R2,reports/R2_CoinDesk_Bullish_IssuersGuide_2026-09.pdf,10,평가,Robinhood,"가로 비교, 제3자 평가",표의 Robinhood 열,2026-08 기준
+W2,web/W2_financemagnates_2026-03-10.jpg,,평가,Robinhood; Ondo; Kraken,"D, 시장 내 위치","출금 제한 서술, 2026-03 점유율(Ondo 약 53%, xStocks 약 23%)",다른 보고서 집계
+R3,reports/R3_IOSCO_Tokenization_2025-11.pdf,17,평가,Robinhood; 공통,"제약과 리스크, 공통",stock tokens 경고와 각주의 Robinhood 보도,
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,37-38,구조,Kraken,"B, C","Backed 구조, 채무증권, 수수료, 배당, KYC 범위",
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,62-63,인가,Kraken; Ondo,"E, 한국 시장과의 차이","스위스법과 리히텐슈타인 승인의 결합, Payward 키프로스 법인이 직접 상대방, Ondo의 미국 준비",
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,69-72,평가,Kraken,"D, 제약과 리스크","거래 장소, 가격 기준, 유동성(70쪽 가격 밀림 수치), 담보, 상환",
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,77,수치,Kraken; Ondo,"C, 제3자 평가",2025-07~10 거래의 78%가 100달러 미만,
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,82,평가,Kraken,"F, D","거래소가 2차 시장, Kraken의 Backed 인수, Bybit 누적 거래대금",
+R2,reports/R2_CoinDesk_Bullish_IssuersGuide_2026-09.pdf,15,평가,Kraken; Binance; Ondo,"제약과 리스크, D","휴장 때 가격 괴리 가능성, bStocks 담보 활용",
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,38,구조,Ondo,"B, 수수료","BVI 발행 법인, Alpaca 경유, 가격 차이로 버는 구조",
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,27,평가,Ondo; Kraken,"C, D",KYC 없는 이용자의 블록체인 위 접근,
+R2,reports/R2_CoinDesk_Bullish_IssuersGuide_2026-09.pdf,10,확인,Ondo,"B, E",미국용 보관형과 미국 서비스 표기,1차 자료로 확인
+R5,reports/R5_Overdahl_SEC_submission_2026-01.pdf,24-25,평가,Ondo,"제약과 리스크, 제3자 평가","점유율 50% 초과 서술, 탈중앙 거래소 매수가 약 9% 비쌌던 사례",Citadel Securities 지원
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,39,구조,Dinari,"B, 수수료, D","Robinhood EU판과 거의 같다는 평가, 수수료, 배당 방식, 이전 범위",미국판 이전. 출시일 확인
+R2,reports/R2_CoinDesk_Bullish_IssuersGuide_2026-09.pdf,10,평가,Dinari; Binance,"가로 비교, 제3자 평가",표의 Dinari 열과 Binance 열,우리 분류와 묶음이 다름
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,87,평가,Coinbase; 공통,"공통, 제3자 평가",같은 법안을 두고 Coinbase와 Securitize의 평가가 갈림,어느 법안인지 링크로 확인
+R4,reports/R4_WFE_MimickingTokenisedEquities_2025-08.pdf,4,평가,Coinbase; 공통,"제약과 리스크, 공통","규제 밖 영업 시도의 예로 든 각주, 요구 다섯 가지",
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,31-33,구조,Securitize,주황,"직접 방식 절차, Superstate",Securitize 후원
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,48-49,평가,Securitize,주황,세 자격으로 규제 안에서 발행부터 유통까지,Securitize 후원
+R2,reports/R2_CoinDesk_Bullish_IssuersGuide_2026-09.pdf,6,분류,공통,분류 틀 대조,세 모델 구분,
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,20-21,분류,공통,분류 틀 대조,네 방식과 SEC 범주 대응,간접 = 스와프는 우리와 다름
+R5,reports/R5_Overdahl_SEC_submission_2026-01.pdf,5-6,분류,공통,분류 틀 대조,"네 모델: 디지털 영수증, DTC 중심, 직접 발행, 합성",
+R3,reports/R3_IOSCO_Tokenization_2025-11.pdf,19,분류,공통,분류 틀 대조,"장부 기록용, 디지털 트윈, 디지털 네이티브",채권 기준
+R2,reports/R2_CoinDesk_Bullish_IssuersGuide_2026-09.pdf,16,제도,공통,공통 제도 비교,미국 규제 연표 2025-12~2026-09,DB 날짜와 대조
+R2,reports/R2_CoinDesk_Bullish_IssuersGuide_2026-09.pdf,9,수치,공통,공통,"주식 토큰 21억 달러, 세계 주식시장의 약 0.0014%",rwa.xyz와 기준 다름
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,30,제도,공통,공통 제도 비교,"한국 토큰증권과 미국 방식 비교, 예탁결제원 직접 등록, 주주 동의, 노드 요건",
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,41-44,제도,공통,공통 제도 비교,"한국 제도 정리: 샌드박스, 계좌관리기관, 장외거래중개업, 남은 쟁점",
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,45-49,제도,공통,공통 제도 비교,"미국 제도 정리와 DTC, Nasdaq 사례",
+R3,reports/R3_IOSCO_Tokenization_2025-11.pdf,17-18,제도,공통,공통 제도 비교,주식 토큰이 아직 작은 이유와 경고,
+R3,reports/R3_IOSCO_Tokenization_2025-11.pdf,45-47,제도,공통,공통 제도 비교,원본이 아닌 토큰에서 투자자가 갖는 권리의 불분명함,
+R3,reports/R3_IOSCO_Tokenization_2025-11.pdf,65-66,제도,공통,공통 제도 비교,"같은 활동, 같은 위험, 같은 규제 결과",
+R4,reports/R4_WFE_MimickingTokenisedEquities_2025-08.pdf,2-4,제도,공통,공통 제도 비교,거래소 쪽 우려와 요구,거래소 이해 대변
+R5,reports/R5_Overdahl_SEC_submission_2026-01.pdf,30-31,제도,공통,공통 제도 비교,"발행사 동의 없는 토큰화의 위험, 거래 비용 반론",Citadel Securities 지원
+A1,articles/A1_dailian_2026-10-10_KCMI_tokenization.txt,전체,제도,공통,공통 제도 비교,"예탁기관의 연결 역할, 중앙은행 화폐 결제, 국채부터 실증",
+A2,articles/A2_hankyung_2026-02-06_stock_token_seminar.txt,전체,제도,공통,공통 제도 비교,"노드 요건, 조각투자 중심의 한계, 달러 스테이블코인 결제 우려, 좁은 수익 모델",
+A3,articles/A3_contribution_listed_stock_tokenization.txt,전체,제도,공통; KDX,"공통 제도 비교, KDX가 가져올 것","분산원장을 원본 장부로 인정, 미국 DTC 방식과 비교, 신탁 수익증권을 통한 간접 토큰화, 단계적 전환",게재일과 필자는 원문에서 확인
+R1,reports/R1_FourPillars_TokenizedStocks_2026-02.pdf,32,확인,Securitize,주황,Pacific Stock Transfer를 발행사의 명의개서대리인으로 설명,Securitize 발표로 확인

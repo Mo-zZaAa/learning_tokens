@@ -229,10 +229,11 @@ def main():
         if tabs:
             w.writerow(tabs[0]["head"])
             w.writerows(tabs[0]["rows"])
-        if len(tabs) > 1:
+        for tb in tabs[1:]:
             w.writerow([])
-            w.writerow(["공통 줄(회사 본문에서 옮김)"] + tabs[-1]["head"][1:])
-            w.writerows(tabs[-1]["rows"])
+            w.writerow([tb["sec"]])
+            w.writerow(tb["head"])
+            w.writerows(tb["rows"])
     shutil.copy(ROOT / "db/ats_screen.csv", OUT / "ats_candidates.csv")
     with open(OUT / "cross.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)

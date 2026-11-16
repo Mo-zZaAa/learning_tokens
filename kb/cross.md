@@ -47,3 +47,33 @@
 - 투자설명서 승인은 EU 판매는 리히텐슈타인 FMA, 중동 거점은 ADGM로 갈린다.
 - 한국 주식 계획은 Dinari, Ondo(카카오페이증권), Kraken(GTN)만 있다.
 - ATS는 Blue Ocean의 사고(2024-08)와 종목 중단(2026-09)이 있을 때마다 한국 주문이 Bruce로 옮겨 갔다.
+
+## 5. 우리 분류와 다른 분류
+
+우리 분류는 상품 단위이고, SEC 직원 성명(2026-01-28)의 정의(보관형, 연계증권, 스와프)를 약관과 투자설명서에 적용한 것이다. 제3자 자료의 분류와 다른 점을 한 줄씩 둔다.
+
+| 자료 | 그 자료의 구분 | 우리 분류와 다른 점 |
+|---|---|---|
+| CoinDesk Research 6쪽(Bullish 의뢰, 2026-09) | 발행사 직접, 보관형, 합성형 | 회사 단위로 붙인다. 우리는 상품 단위(Dinari 미국판 보관형, 미국 밖판 연계증권. Robinhood 지갑판 연계증권, EU판 스와프). 같은 자료 10쪽 표는 Binance와 Dinari를 같은 보관형으로 묶지만, 투자설명서상 Binance는 신탁 수익권 증서이고 Dinari는 판마다 다르다 |
+| 포필러스 20~21쪽(Securitize 후원, 2026-02) | 직접, 권리, 간접, 무기한선물(SEC 네 범주에 대응) | 간접 방식 전체(Robinhood, Backed, Ondo, Dinari)를 증권기반 스와프에 대응시킨다. 우리는 약관과 투자설명서 근거로 연계증권(Kraken, Ondo, Robinhood 지갑판, Dinari 미국 밖판)과 스와프(Robinhood EU판)를 가른다 |
+| Overdahl 의견서 5~6쪽(Citadel Securities 재정 지원, 2026-01) | 디지털 영수증(보관 영수증), DTC 중심, 직접 발행, 파생 또는 합성 | 보관형을 "영수증"이라 부르고 발행사 동의가 필요 없다는 점을 강조한다. 범위는 우리 보관형과 비슷하지만 우리는 투자자가 법적으로 갖는 것(수익권, 계좌 속 주식)으로 가른다 |
+| IOSCO 19쪽(감독기구, 2025-11) | 장부 기록용, 디지털 트윈, 디지털 네이티브(채권 기준) | 채권 기준의 구분이다. 우리 읽기로는 조사한 주식 토큰 상품이 모두 이미 있는 주식을 옮긴 "디지털 트윈"에 들어가 이 틀로는 서로 구분되지 않는다. 기고 A3가 이 구분으로 한국과 미국을 비교한다 |
+
+## 6. 제3자 비교표 그림(참고)
+
+- captures/reports/R2_p10_provider_comparison_table.png: 사업자 10곳 비교표(CoinDesk Research, Bullish 의뢰, 2026-08 기준). Coinbase 열 없음. Binance와 Dinari를 같은 "보관형"으로 묶음(우리 분류는 위 5절). Ondo의 "미국용 보관형, 미국 서비스", "유동성 약 70%" 칸은 kb/tp_check.md에서 1차 자료로 확인한 결과를 따른다.
+- captures/reports/R1_p20_model_comparison_table.png, R1_p19_four_types_diagram.png, R1_p31_ecosystem_by_type.png, R1_p36_indirect_platforms_table.png(2026-02 기준, Robinhood 지갑판과 Dinari 미국판 이전), R1_p68_lifecycle_diagram.png(단계 틀), R2_p06_three_models_table.png.
+- 과거 대비: captures/reports/W1_sentora_rwa_league_table_2026-01.png(2026-01 초), R1_p76_value_by_platform_2026-01.png(2026-01-27).
+
+## 7. 발행 잔액 과거 대비(같은 출처 rwa.xyz)
+
+| 회사 | 2026-01 초(Sentora 글의 rwa.xyz 표) | 2026-11-16(우리 DB) | 배수 | 점유율 변화 |
+|---|---|---|---|---|
+| Ondo | 4.134억 달러, 51.59%, 1위 | 8.988억 달러, 24.23%, 2위 | 2.2배 | 27.4%p 하락 |
+| Kraken(xStocks, Backed) | 1.953억, 24.37%, 2위 | 6.774억, 18.26%, 3위 | 3.5배 | 6.1%p 하락 |
+| Securitize(주황) | 1.444억, 18.02%, 3위 | 2.652억, 7.15%, 4위 | 1.8배 | 10.9%p 하락 |
+| Dinari | 300만, 0.37%, 7위 | 1,520만, 0.41%, 11위 | 5.1배 | 0.04%p 상승 |
+| Binance, Robinhood, Coinbase | 표에 없음(출시 전이거나 집계 전) | 1위, 6위, 8위 | | |
+| 합계 | 8.0136억(표 9곳 합산) | 37.1억 | 4.6배 | |
+
+배수와 점유율 변화는 DB 값(F-1021~F-1028)과 W1 값으로 직접 계산. 2026-01-27 포필러스 76쪽 값(Ondo 5.066억, xStocks 1.974억, Securitize 1.347억)은 같은 rwa.xyz 기준의 중간 시점. 2026-03 Finance Magnates 기사(Foresight Ventures 집계, Ondo 약 53%, xStocks 약 23%)는 다른 집계라 참고만. 2026-01 표에 없던 Binance가 11월 1위라는 점이 판도 변화의 근거다.

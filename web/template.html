@@ -668,11 +668,18 @@ function coBtn(name){ const sl = slugOf(name); return sl ? `<button class="golin
 function srcCell(key, src){ if (!src || !src.length) return ''; const urls = [...new Set(src.map(s => s.url).filter(Boolean))];
   return `<span class="src">${urls.map((u,i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${i? i+1 : '출처'}</a>`).join(' ')}</span> <button class="sec2" type="button" data-srcrow="${key}" style="padding:0 6px;font-size:11.5px">근거</button>${openSrc.has(key) ? evHtml({src}) : ''}`; }
 
+function figsHtml(where){ const F = (D.figs||{})[where] || []; if (!F.length) return '';
+  return '<div class="figs">' + F.map(f => `<figure><img loading="lazy" alt="${esc(f.c)}" src="${D.imgs[f.k]}"><figcaption>${esc(f.c)}</figcaption></figure>`).join('') + '</div>'; }
 function renderCompare(){
   const R = D.rank.slice().sort((a,b) => a.rank - b.rank); const max = Math.max(...R.map(r => r.usd));
   let h = `<div class="wide"><h1>가로 비교</h1><p class="lead">회사 6곳과 미국 야간 ATS 3곳을 같은 칸으로 나란히 봅니다. 회사 이름을 누르면 본문으로 갑니다. 법적 성격은 SEC 직원 성명(2026-01-28)의 정의를 적용한 우리 분류입니다.</p>`;
-  h += `<h2>발행 잔액 순위</h2><p class="lead">같은 출처, 같은 기준일: rwa.xyz 분산형 토큰화 주식 플랫폼 표, ${esc(R[0]?.date||'')}.</p><div class="tbl"><table><thead><tr><th>순위</th><th>회사(상품)</th><th>발행 잔액</th><th style="min-width:180px">점유율</th><th>출처</th></tr></thead><tbody>` +
-    R.map((r,i) => `<tr class="${r.slug?'':'orange'}"><td class="n">${r.rank}</td><td>${r.slug?`<button class="golink" type="button" data-goco="${r.slug}">${esc(r.name)}</button>`:esc(r.name)+' <span class="detail">(조사 대상 밖, 추가 확인)</span>'}</td><td class="n">${fmtUsd(r.usd)}</td><td><div class="bar${r.slug?'':' orange'}"><div class="track"><div class="fill" style="width:${(r.usd/max*100).toFixed(1)}%"></div></div><span class="n" style="font-variant-numeric:tabular-nums">${esc(r.share)}%</span></div></td><td>${srcCell('rk'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>';
+  h += `<h2>제3자 비교표</h2><p class="lead">외부 보고서의 비교표와 구조 그림입니다. 발행처와 입장, 기준 시점을 그림 아래에 적었습니다. 칸 내용이 우리 확인 결과와 다르면 우리 쪽을 따릅니다.</p>` + figsHtml('compare');
+  if ((D.cls||[]).length) h += `<h2>우리 분류와 다른 분류</h2><p class="lead">우리 분류는 상품 단위이고, SEC 직원 성명(2026-01-28)의 정의를 약관과 투자설명서에 적용한 것입니다.</p><div class="tbl"><table><thead><tr><th>자료</th><th>그 자료의 구분</th><th>우리 분류와 다른 점</th><th>출처</th></tr></thead><tbody>` +
+    D.cls.map((r,i) => `<tr><td><b>${esc(r['자료'])}</b></td><td>${esc(r['그 자료의 구분'])}</td><td>${esc(r['우리 분류와 다른 점'])}</td><td>${srcCell('cl'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>';
+  h += `<h2>발행 잔액 순위</h2><p class="lead">같은 출처 rwa.xyz. 지금 값은 분산형 토큰화 주식 플랫폼 표 ${esc(R[0]?.date||'')}, 과거 값은 Sentora 주간 글(2026-01-09)에 실린 rwa.xyz 표(2026-01 초). 배수는 직접 계산했습니다.</p><div class="tbl"><table><thead><tr><th>순위</th><th>회사(상품)</th><th>발행 잔액</th><th style="min-width:170px">점유율</th><th>2026-01 초</th><th>배수</th><th>출처</th></tr></thead><tbody>` +
+    R.map((r,i) => `<tr class="${r.slug?'':'orange'}"><td class="n">${r.rank}</td><td>${r.slug?`<button class="golink" type="button" data-goco="${r.slug}">${esc(r.name)}</button>`:esc(r.name)+' <span class="detail">(조사 대상 밖, 추가 확인)</span>'}</td><td class="n">${fmtUsd(r.usd)}</td><td><div class="bar${r.slug?'':' orange'}"><div class="track"><div class="fill" style="width:${(r.usd/max*100).toFixed(1)}%"></div></div><span class="n" style="font-variant-numeric:tabular-nums">${esc(r.share)}%</span></div></td><td class="n">${r.past?`${fmtUsd(r.past.usd)}, ${esc(r.past.share)}%, ${r.past.rank}위`:'<span class="detail">표에 없음</span>'}</td><td class="n">${r.past?r.past.x+'배':''}</td><td>${srcCell('rk'+i, (r.src||[]).concat(r.past?r.past.src:[]))}</td></tr>`).join('') +
+    (D.rank_total?`<tr><td></td><td><b>시장 전체</b></td><td class="n">${fmtUsd(D.rank_total.now)}</td><td></td><td class="n">${fmtUsd(D.rank_total.past)}(표 9곳 합)</td><td class="n">${(D.rank_total.now/D.rank_total.past).toFixed(1)}배</td><td>${srcCell('rkt', D.rank_total.src)}</td></tr>`:'') + '</tbody></table></div>' +
+    `<p class="detail">2026-01 초 표에는 Binance, Robinhood, Coinbase가 없습니다(출시 전이거나 집계 전). 그때 없던 Binance가 11월 1위입니다.</p>` + figsHtml('past');
   const cols = ['원주 보관사','법적 성격(우리 분류)','판매 지역','투자설명서 승인 관할','한국 주식 계획'];
   h += `<h2>회사별 한 줄</h2><div class="tbl"><table><thead><tr><th>회사</th><th>상품</th>${cols.map(c => `<th>${c}</th>`).join('')}<th>출처</th></tr></thead><tbody>` +
     D.cross.map((r,i) => `<tr><td>${coBtn(r['회사'])}</td><td>${esc(r['상품'])}</td>${cols.map(c => `<td>${esc(r[c])}</td>`).join('')}<td>${srcCell('cr'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>';
@@ -688,7 +695,7 @@ const STAGE_DESC = {'발행':'토큰이나 상품을 내는 법인','체결':'�
 function renderLic(){
   const cos = []; D.lic.forEach(r => { if (!cos.includes(r.co)) cos.push(r.co); });
   let h = `<div class="wide"><h1>인가와 관계</h1><p class="lead">인가 지도를 등록부(BrokerCheck, CFTC 목록 등)와 대조해 고친 값입니다. 칸을 누르면 하는 일, 등록부와 다른 점, 출처가 나옵니다. Securitize, tZERO는 이번 조사 대상 밖이라 주황으로 둡니다.</p>`;
-  h += `<h2>회사별 밸류체인</h2><div class="legend"><span><i class="own"></i>직접 가짐</span><span><i class="ent"></i>남에게 맡김</span><span>"인수"는 남의 회사를 사서 얻은 자격과 그 시점</span></div>`;
+  h += `<h2>생태계 지도(제3자)</h2>` + figsHtml('lic') + `<h2>회사별 밸류체인</h2><div class="legend"><span><i class="own"></i>직접 가짐</span><span><i class="ent"></i>남에게 맡김</span><span>"인수"는 남의 회사를 사서 얻은 자격과 그 시점</span></div>`;
   h += `<div style="overflow-x:auto"><div class="vc"><div class="h first"></div>${STAGES.map(s => `<div class="h" title="${STAGE_DESC[s]}">${s}<div style="font-weight:400;font-size:11px">${STAGE_DESC[s]}</div></div>`).join('')}`;
   cos.forEach(co => {
     const orange = D.lic.some(r => r.co === co && r.orange);
@@ -717,6 +724,8 @@ function renderRules(){
   let h = `<div class="wide"><h1>제도와 용어</h1><p class="lead">모든 회사에 공통인 한미 제도 차이입니다. 조문 이름을 누르면 원문으로 갑니다.</p>`;
   h += `<h2>한미 제도 비교</h2><div class="tbl"><table><thead><tr><th>쟁점</th><th>미국 제도</th><th>미국 조문</th><th>한국 제도</th><th>한국 조문</th><th>차이에 따른 결과</th></tr></thead><tbody>` +
     D.reg.map(r => `<tr><td><b>${withTerms(r.issue)}</b></td><td>${withTerms(r.us)}</td><td>${lawLinks(r.us_law)}</td><td>${withTerms(r.kr)}</td><td>${lawLinks(r.kr_law)}</td><td>${withTerms(r.diff)}</td></tr>`).join('') + '</tbody></table></div>';
+  if ((D.tp_reg||[]).length){ const hd = D.tp_reg[0].head; h += `<h2>제3자 자료로 본 쟁점</h2><p class="lead">외부 보고서와 기사의 지적을 우리 DB와 대조했습니다. 발행처와 입장을 함께 적었습니다.</p><div class="tbl"><table><thead><tr>${hd.map(x => `<th>${esc(x)}</th>`).join('')}<th>출처</th></tr></thead><tbody>` + D.tp_reg.map((r,i) => `<tr>${r.cells.map(c => `<td>${withTerms(c.replace(/\[?TP-\d{3}\]?/g,'').replace(/F-\d{4}/g,''))}</td>`).join('')}<td>${srcCell('tr'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>'; }
+  h += `<h2>구조 그림(제3자)</h2><p class="lead">주식이 움직이는 길과 토큰화 방식별 흐름입니다. 발행처와 입장을 그림 아래에 적었습니다.</p>` + figsHtml('rules');
   h += `<h2>모든 회사에 공통인 한국 시장 사정</h2><p class="lead">회사 본문에서 빼고 여기에 한 번만 둡니다.</p><div class="tbl"><table><thead><tr><th>줄</th><th>내용</th><th>출처</th></tr></thead><tbody>` +
     D.common.map((r,i) => `<tr><td><b>${esc(r.t)}</b></td><td>${esc(r.d)}</td><td>${srcCell('cm'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>';
   const q = termQ.trim().toLowerCase();

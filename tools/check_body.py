@@ -2,6 +2,8 @@
 import re, sys, csv
 facts = {r['fact_id']: r['검증 상태'] for r in csv.DictReader(open('db/facts.csv', encoding='utf-8'))}
 laws = {r['law_id'] for r in csv.DictReader(open('db/laws.csv', encoding='utf-8'))}
+import os
+tps = {r['tp_id'] for r in csv.DictReader(open('db/third_party.csv', encoding='utf-8'))} if os.path.exists('db/third_party.csv') else set()
 for p in sys.argv[1:]:
     sec, cnt, bad = None, 0, []
     for n, line in enumerate(open(p, encoding='utf-8'), 1):
@@ -13,7 +15,10 @@ for p in sys.argv[1:]:
             sec, cnt = (n, s.strip()), 0
             body = s.strip()
         elif s.strip().startswith(('★', '①', '②', '③')):
-            cnt += 1; body = s.strip()
+            # 제3자 평가 묶음의 ①②③(원문, 번역, 해석)은 인용 틀이라 줄 수에 넣지 않음
+            if not (s.strip()[0] in '①②③' and sec and '제3자 평가' in sec[1]):
+                cnt += 1
+            body = s.strip()
         else:
             continue
         ids = re.findall(r'\[([^\]]+)\]', body)
@@ -35,6 +40,8 @@ for p in sys.argv[1:]:
             if i.startswith('F-'):
                 st = facts.get(i)
                 if st not in ('1차 출처 확인', '교차 확인', '등록부 대조 대기'): bad.append(f'{p}:{n} {i} 상태 {st}')
+            elif i.startswith('TP-'):
+                if i not in tps: bad.append(f'{p}:{n} {i} db/third_party.csv에 없음')
             elif i not in laws: bad.append(f'{p}:{n} {i} 미등록 law_id')
         if '—' in body or '·' in body: bad.append(f'{p}:{n} 금지 기호')
     if sec and cnt > 4: bad.append(f'{p}:{sec[0]} 중분류 줄 수 {cnt}')
