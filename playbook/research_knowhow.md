@@ -44,3 +44,16 @@
 - 사용자가 직접 찾아 준 자료(위키백과, 언론 인터뷰, 국내 매체 요약)는 사용자가 인용을 허락하면 검증 상태 "사용자 제공"으로 넣고, 본문에 출처 종류를 괄호로 밝힌다. 같은 내용이 두 곳 이상이면 "교차 확인".
 - 위키백과 각주는 1차 자료(회사 블로그, 등록부, 소송 번호)로 가는 지도다. 회사 연혁의 빈 칸(설립일, 초기 인수, 제재 이력)을 빠르게 채운다.
 - 코인데스크 한국어판(coindesk.com/ko)은 CEO 인터뷰 원문이 한국어로 있어 비전 문장을 찾기 좋다. 토큰포스트, 디지털투데이는 인수 금액 합계 같은 요약이 빠르다(단일이면 사용자 제공 또는 교차 확인 필요).
+
+## 6. 회차 L6에서 합친 노하우(리서치 담당 R-K, R-D, R-ATS, R-BIZ)
+- SEC 명령과 거래소 규칙: federalregister.gov API(documents.json?conditions[term]=SR 번호나 "23 Hours per Day")로 찾고 govinfo.gov/content/pkg/FR-날짜/html/문서번호.htm 으로 원문. 제목의 "Order Granting Approval"과 "Immediate Effectiveness"를 구분(MEMX는 즉시 효력, 승인 아님).
+- Form ATS-N: Part III Item 19가 수수료, 공정접근은 Reg ATS 301(b)(5) 관련 항목. sec.gov가 막히면 원문은 로컬 브라우저로. Blue Ocean 소유자 공시는 Form BD Schedule A/B(FAQ 페이지 링크).
+- 배포처 재게재: Business Wire와 GlobeNewswire가 막히면 같은 보도문을 실은 사이트(silicon.co.uk, MENAFN 등). CNBC 기사는 NBC 지역국 전재본(nbcsandiego.com 등).
+- 회사 문서 색인: Ondo는 docs.ondo.finance/llms.txt(문서 .md 주소 목록)와 ondo.finance/sitemap.xml(블로그 전수). 추측 URL은 404가 많다.
+- 상품 구성 비중: FAQ 문장보다 상품 페이지의 표(기준일 표시)를 쓴다(OUSG Portfolio Overview).
+- RWA.xyz: app.rwa.xyz/treasuries 같은 서버 렌더 HTML에서 리그 표와 자산 표를 읽는다. 세부 열은 로그인 필요, 과거 시점은 별도 경로가 필요해 처음부터 못 찾음 후보.
+- Coinbase: 사용자 제공 주주서한 텍스트(inputs/manual/B03_*)가 최우선(부록 Financial Summary, 슬라이드 15, 21, 22쪽, 콜 6쪽 시퀀서 수수료). 과거 서한은 IR CDN(s27.q4cdn.com) PDF가 열림.
+- Robinhood: 사이트 전수조사 사본(KDX_사이트전수조사_인수인계/work/robinhood/raw/investors.robinhood.com/)의 Q3 보도자료와 10-Q(node__16931__html.md)를 grep. 주식 토큰 잔액은 파생상품 주석, PFOF는 위험요인.
+- Kraken: payward.com 보도자료와 blog.kraken.com은 curl로 열림. 지분, 위험, 보관 질문은 Backed 투자설명서(inputs/manual/B01_*) 쪽수부터(p.61 주주 구조, p.66 직원 없음, 2차 보충서 p.4 Payward 의존, p.5~6 지식재산 양도). Payward 분기 실적 본문 각주에 자금 계정, 총플랫폼마진 정의.
+- 비상장사 매출, 거래량: DefiLlama API(api.llama.fi/summary/fees, dexs)는 제3자 값이고 회사 매출이 아님. 쓰면 반드시 주석.
+- 회사가 사업 단위(예: xStocks) 매출을 공개하지 않으면 추정하지 않고 "공개 없음".
