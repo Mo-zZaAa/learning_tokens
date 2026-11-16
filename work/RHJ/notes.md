@@ -1,0 +1,4 @@
+- Disclosures 페이지는 docs 사이트 안이 아니라 https://robinhood.com/eu/en/legal/rhj/ 로 연결됨(라이브러리: Base Prospectus 1건, 보충서 1건, Notice 3건, 종목별 Final Terms 다수). 저장본은 sources/RHJ/.
+- Corporate Actions, Price Deviations 두 페이지의 표는 동적 로딩이라 셸 수집에서는 "Loading..."만 보임. 내용 확인에는 브라우저 필요.
+- Notice 2026-10: Series 54는 iShares MSCI South Korea ETF 연계 토큰(한국 기초자산이지 한국 판매 근거 아님). 범위 밖 메모.
+- Final Terms 30여 종목 중 Apple(Series 14)만 읽음. 종목별 대여 적용 여부는 다를 수 있음.

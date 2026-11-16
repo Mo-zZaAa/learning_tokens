@@ -58,7 +58,7 @@
 - 경영진 발언 원문(향후 방향): Binance, Robinhood, MOON, Bruce는 확인된 발언이 없어 칸 삭제.
 - 한국 관련: Robinhood 한국 진출 계획 기사(단일 출처), 각 사 한국 투자자 이용 가능 여부.
 - 영상(VID-1, VID-2): 수행 안 함.
-- 상품 DB(`db/companies.csv`, 8개 상품): 법적 성격 분류는 SEC 직원 성명(2026-01-28) 원문을 열지 못해 Federal Register 면제 명령과 로펌 해설(Cleary, Dechert)의 정의로 분류함(정의 출처는 `work/PROD/notes.md`). 분류 자체는 해석이므로 원문 확인 뒤 재검토 필요. 판단이 약한 칸: Dinari 미국 밖판(연계증권 판단), Robinhood Classic(스와프 판단, 미국법상 security-based swap 여부 미분석), Robinhood Stock Tokens 1대1(10-Q 근거, 투자설명서는 현금 담보도 열거), Ondo 자체 고객 화면(회사는 기술 제공자라고 명시).
+- 상품 DB(`db/companies.csv`, 8개 상품, Robinhood 줄은 RHJ 투자설명서로 보강): 법적 성격 분류는 SEC 직원 성명(2026-01-28) 원문을 열지 못해 Federal Register 면제 명령과 로펌 해설(Cleary, Dechert)의 정의로 분류함(정의 출처는 `work/PROD/notes.md`). 분류 자체는 해석이므로 원문 확인 뒤 재검토 필요. 판단이 약한 칸: Dinari 미국 밖판(연계증권 판단), Robinhood Classic(스와프 판단, 미국법상 security-based swap 여부 미분석), Robinhood Stock Tokens 1대1(10-Q 근거, 투자설명서는 현금 담보도 열거), Ondo 자체 고객 화면(회사는 기술 제공자라고 명시).
 - 관계 DB(`db/relations.csv`, 116줄): 주는 것, 받는 것은 49줄만 채움(회사 발표, 계약 공시에 적힌 것만). 사용자 관계도의 연결선 28건 중 11건 추가, 2건 제외(대상 회사와 무관, 근거 403).
 
 ## 4. 충돌과 판정
