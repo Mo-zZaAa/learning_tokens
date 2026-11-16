@@ -1,0 +1,5 @@
+"source_id","제목","발행 주체","발행일","출처 종류","언어","링크","저장 파일 경로","캡처 파일","접근 결과","열람 일시"
+"PERP-S01","Hyperliquid info API, metaAndAssetCtxs (dex=xyz)","Hyperliquid(공식 API)","2026-11-16","회사 사이트","en","https://api.hyperliquid.xyz/info (POST {type:metaAndAssetCtxs,dex:xyz})","","","200 성공(curl)","2026-11-16T16:36Z"
+"PERP-S02","rwa.xyz Stocks 페이지 상단 지표","rwa.xyz","2026-11-16","회사 사이트","en","https://app.rwa.xyz/stocks","","","200 성공(curl)","2026-11-16T16:36Z"
+"PERP-S03","Binance 선물 API 24hr ticker","Binance","","회사 사이트","en","https://fapi.binance.com/fapi/v1/ticker/24hr","","","451 지역 제한, 우회 안 함","2026-11-16T16:36Z"
+"PERP-S04","Bybit 시세 API","Bybit","","회사 사이트","en","https://api.bybit.com/v5/market/tickers","","","403 지역 차단, 우회 안 함","2026-11-16T16:36Z"
