@@ -1985,9 +1985,10 @@
      "id": "dn-0074",
      "disp": "Dinari E-6",
      "level": "★",
-     "text": "명의개서대리인 : Dinari, Inc. 직접 보유(회사 발표)",
+     "text": "명의개서대리인 TA-1 : Dinari, Inc/TA 접수 2022-04, 수리 2022-05",
      "color": "black",
      "fact_ids": [
+      "F-1237",
       "F-1055"
      ],
      "confirmed": false,

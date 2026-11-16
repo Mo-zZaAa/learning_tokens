@@ -5,3 +5,5 @@
 "F-0108","1차 출처 확인","사용자 제공 주주서한 텍스트 변환본(42쪽)에서 숫자 대조: p.30 Total revenue 1,215.6(Y/Y (35)%), Transaction net 590.2","Coinbase Q3 2026 Shareholder Letter (사용자 제공 PDF); inputs/manual/B03_coinbase_Q3_26_shareholder_letter.pdf","기존 교차 확인을 1차 출처 확인으로 상향 제안"
 "F-0012","교차 확인","Korea Herald, 이데일리 2곳 18개 종목 중단 일치(FIX-ATS)","https://koreaherald.com/article/10860485","조선비즈, 매일경제는 시세 제공 중단 4종으로 표현"
 "F-0045","교차 확인","Korea Herald, 조선비즈 일치(FIX-ATS)","https://koreaherald.com/article/10860485",""
+"F-0107","1차 출처 확인","SEC 보도자료 2025-47 원문을 사용자 로컬 브라우저로 열어 확인(work/LOCAL LOC-005)","https://www.sec.gov/newsroom/press-releases/2025-47","captures/local/Coinbase_SEC_dismissal.png"
+"F-1121","1차 출처 확인","NFA BASIC 등록 이력 확인: 2023-08-15 FCM 등록, NFA 회원 승인(work/LOCAL LOC-006)","https://www.nfa.futures.org/BasicNet/","captures/local/Coinbase_NFA_CFM_history.png"

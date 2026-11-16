@@ -1269,7 +1269,7 @@
      "level": "그림",
      "images": [
       {
-       "file": "quotes_Robinhood_04.jpg",
+       "file": "local_Robinhood_q3_quote.jpg",
        "caption": "발언 4"
       }
      ]
@@ -2253,8 +2253,21 @@
      "notes": []
     },
     {
-     "id": "rh-0137",
+     "id": "rh-0265",
      "disp": "Robinhood E-11",
+     "level": "★",
+     "text": "미국 선물 중개 : Robinhood Derivatives(이전 Marex North America, FCM 2010 등록)를 넘겨받은 경로(인수 시점 미확인)",
+     "color": "black",
+     "fact_ids": [
+      "F-1236",
+      "F-1155"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0137",
+     "disp": "Robinhood E-12",
      "level": "★",
      "text": "미국 파생 거래소, 청산소 : 2026-01 MIAXdx 90% 인수로 확보",
      "color": "black",
@@ -2266,7 +2279,7 @@
     },
     {
      "id": "rh-0164",
-     "disp": "Robinhood E-12",
+     "disp": "Robinhood E-13",
      "level": "●",
      "text": "제3자 시각",
      "color": "black",
@@ -2276,7 +2289,7 @@
     },
     {
      "id": "rh-0165",
-     "disp": "Robinhood E-13",
+     "disp": "Robinhood E-14",
      "level": "★",
      "text": "리투아니아 인가로 EEA 30여 개국 판매(포필러스, Securitize 후원, 2026-02 기준)",
      "color": "orange",
@@ -2288,7 +2301,7 @@
     },
     {
      "id": "rh-0166",
-     "disp": "Robinhood E-14",
+     "disp": "Robinhood E-15",
      "level": "★",
      "text": "MiFID II 장외 파생이라 회사가 직접 상대방(포필러스, Securitize 후원)",
      "color": "orange",
@@ -2300,7 +2313,7 @@
     },
     {
      "id": "rh-0167",
-     "disp": "Robinhood E-15",
+     "disp": "Robinhood E-16",
      "level": "★",
      "text": "장부 기록 의무가 없어 분산원장 사용 가능(포필러스, Securitize 후원 설명)",
      "color": "orange",
@@ -2312,7 +2325,7 @@
     },
     {
      "id": "rh-0168",
-     "disp": "Robinhood E-16",
+     "disp": "Robinhood E-17",
      "level": "그림",
      "images": [
       {
@@ -2323,7 +2336,7 @@
     },
     {
      "id": "rh-0093",
-     "disp": "Robinhood E-17",
+     "disp": "Robinhood E-18",
      "level": "●",
      "text": "인가 없는 구간을 메우는 방법",
      "color": "black",
@@ -2333,7 +2346,7 @@
     },
     {
      "id": "rh-0094",
-     "disp": "Robinhood E-18",
+     "disp": "Robinhood E-19",
      "level": "★",
      "text": "결제 계좌는 JPMorgan 런던 지점",
      "color": "black",
@@ -2345,7 +2358,7 @@
     },
     {
      "id": "rh-0095",
-     "disp": "Robinhood E-19",
+     "disp": "Robinhood E-20",
      "level": "★",
      "text": "독립 검증 대리인이 시리즈별 100% 담보 확인",
      "color": "black",
@@ -2357,7 +2370,7 @@
     },
     {
      "id": "rh-0096",
-     "disp": "Robinhood E-20",
+     "disp": "Robinhood E-21",
      "level": "●",
      "text": "미국 미등록의 대가",
      "color": "black",
@@ -2367,7 +2380,7 @@
     },
     {
      "id": "rh-0097",
-     "disp": "Robinhood E-21",
+     "disp": "Robinhood E-22",
      "level": "★",
      "text": "미국 증권법 미등록, 미국인 판매 불가",
      "color": "black",
@@ -2380,7 +2393,7 @@
     },
     {
      "id": "rh-0098",
-     "disp": "Robinhood E-22",
+     "disp": "Robinhood E-23",
      "level": "★",
      "text": "2026-09 SEC 토큰화 주식 면제 대상 아님",
      "color": "black",

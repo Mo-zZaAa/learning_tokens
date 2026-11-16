@@ -179,7 +179,7 @@
 ● 보유 인가와 법인(확보 방식과 시점)
   ★ 미국 증권사 : Dinari Securities, 2025-06-20 직접 등록 [F-0116]
   ★ 증권사는 FINRA 회원, 53개 주 등록 [F-0116][F-0120]
-  ★ 명의개서대리인 : Dinari, Inc. 직접 보유(회사 발표) [F-1055]
+  ★ 명의개서대리인 TA-1 : Dinari, Inc/TA 접수 2022-04, 수리 2022-05 [F-1237][F-1055]
 ● 제3자 시각
   ★ 표에 SEC 명의개서대리인, FINRA 증권사로 적힘(CoinDesk Research, Bullish 의뢰, 2026-08 기준) [TP-119]
   ★ 표는 Dinari를 보관형으로 묶어 우리 분류와 다름(CoinDesk Research) [TP-119]

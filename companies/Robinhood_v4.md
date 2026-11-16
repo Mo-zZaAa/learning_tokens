@@ -110,7 +110,7 @@
     ① 원문 : "Our vision is to make everyone an owner, because broad ownership is essential to a free, stable, and prosperous society."
     ② 번역 : 우리의 비전은 모두를 주주로 만드는 것이다. 폭넓은 소유는 자유롭고 안정적이며 번영하는 사회에 필수적이기 때문이다.
     ③ 해석 : 큰 곳은 소유의 대중화와 해외 고객. 그래서 같은 분기 영국 가상자산 거래 출시
-  ![발언 4](../captures/quotes/Robinhood_04.png)
+  ![발언 4](../captures/local/Robinhood_q3_quote.png)
 
 ## A 출신과 진입(주식 토큰 사업)
 ● 쉽게 말하면 : 남의 상품을 파는 대신 회사가 직접 토큰을 발행해 진입 [F-0640][F-0630]
@@ -200,6 +200,7 @@
 ● 보유 인가와 법인(미국)
   ★ 미국 증권사 : RHF 2013-10 직접 등록 [F-0243]
   ★ 미국 청산 증권사 : RHS 2017-10 직접 등록 [F-0244]
+  ★ 미국 선물 중개 : Robinhood Derivatives(이전 Marex North America, FCM 2010 등록)를 넘겨받은 경로(인수 시점 미확인) [F-1236][F-1155]
   ★ 미국 파생 거래소, 청산소 : 2026-01 MIAXdx 90% 인수로 확보 [F-0610]
 ● 제3자 시각
   ★ 리투아니아 인가로 EEA 30여 개국 판매(포필러스, Securitize 후원, 2026-02 기준) [TP-105]
