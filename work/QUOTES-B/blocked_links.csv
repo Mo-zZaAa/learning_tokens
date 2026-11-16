@@ -1,0 +1,7 @@
+"링크","무엇이 있는 곳인지","필요한 이유","막힌 종류","시도한 방법","필요한 조치"
+"https://investors.robinhood.com/news-releases/news-release-details/robinhood-reports-second-quarter-2026-results","Robinhood 2026 Q2 실적 보도자료 원 화면","Tenev 발언 화면 캡처","봇 차단(403 Access Denied)","Playwright chromium 접속, curl","우회하지 않음. 본문은 KDX raw 사본(fetched 2026-11-16)으로 인용, 캡처는 사람이 직접 열어 찍거나 허용 필요"
+"https://investors.robinhood.com/news-releases/news-release-details/robinhood-reports-third-quarter-2026-results","Robinhood 2026 Q3 실적 보도자료 원 화면","Tenev 발언 화면 캡처","봇 차단(403 Access Denied)","Playwright chromium 접속, curl","위와 같음"
+"https://www.youtube.com/live/PpJSU4M87nw","Robinhood Q2 2026 실적 라이브 영상","영상 속 Tenev 발언 확인","미시도","raw 목록에서 링크만 확인","영상 자막 열람 필요. 이번 표에는 영상 발언 미사용"
+"https://www.binance.com/en/blog","Binance 공식 블로그","Yi He 등 회사 채널 발언","봇 차단(HTTP 202 빈 응답)","curl 여러 경로(blog, support/announcement, about-us)","우회하지 않음. Binance 발언은 PR Newswire 보도자료로 대체. Yi He 발언은 못 구함"
+"https://events.robinhood.com","To Catch a Token / The World is Flat 영상 페이지","행사 영상 속 발언 시각","미시도","검색 결과로 존재만 확인","영상 시각 확인 필요. 이번 표는 같은 행사의 공식 블로그 인용문 사용"
+"https://www.coinbase.com/blog","Coinbase 공식 블로그","Armstrong, Branzburg 블로그 발언","봇 차단(403)","curl","Coinbase는 로컬 실적 녹취로 충당. Branzburg 발언은 못 구함"
