@@ -350,8 +350,20 @@
      "notes": []
     },
     {
-     "id": "bo-0014",
+     "id": "bo-0128",
      "disp": "Blue Ocean 개요-18",
+     "level": "●",
+     "text": "미국 소매 증권사 연결 : Robinhood 야간 주문을 Blue Ocean이 체결",
+     "color": "black",
+     "fact_ids": [
+      "F-1241"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0014",
+     "disp": "Blue Ocean 개요-19",
      "level": "●",
      "text": "거래시간",
      "color": "black",
@@ -361,7 +373,7 @@
     },
     {
      "id": "bo-0015",
-     "disp": "Blue Ocean 개요-19",
+     "disp": "Blue Ocean 개요-20",
      "level": "★",
      "text": "일~목 밤 8시~새벽 4시(미국 동부)",
      "color": "black",
@@ -373,7 +385,7 @@
     },
     {
      "id": "bo-0016",
-     "disp": "Blue Ocean 개요-20",
+     "disp": "Blue Ocean 개요-21",
      "level": "★",
      "text": "한국 시간 오전 10시~오후 6시에 해당",
      "color": "black",
@@ -385,7 +397,7 @@
     },
     {
      "id": "bo-0017",
-     "disp": "Blue Ocean 개요-21",
+     "disp": "Blue Ocean 개요-22",
      "level": "●",
      "text": "거래 규모",
      "color": "black",
@@ -395,7 +407,7 @@
     },
     {
      "id": "bo-0018",
-     "disp": "Blue Ocean 개요-22",
+     "disp": "Blue Ocean 개요-23",
      "level": "★",
      "text": "기준 : FINRA 주간 보고 거래대금 13주 합산, 야간 3사 대비",
      "color": "black",
@@ -407,7 +419,7 @@
     },
     {
      "id": "bo-0019",
-     "disp": "Blue Ocean 개요-23",
+     "disp": "Blue Ocean 개요-24",
      "level": "★",
      "text": "2026 Q3 2,435.5억 달러, 야간 3사 중 83.0%로 1위",
      "color": "black",
@@ -419,7 +431,7 @@
     },
     {
      "id": "bo-0020",
-     "disp": "Blue Ocean 개요-24",
+     "disp": "Blue Ocean 개요-25",
      "level": "★",
      "text": "같은 Q3 Bruce(야간 ATS) 439.7억(15.0%), MOON(야간 ATS) 58.3억(2.0%)",
      "color": "black",
@@ -432,7 +444,7 @@
     },
     {
      "id": "bo-0021",
-     "disp": "Blue Ocean 개요-25",
+     "disp": "Blue Ocean 개요-26",
      "level": "★",
      "text": "2026 Q2 2,676.7억 달러, 점유율 83.9%에서 소폭 하락",
      "color": "black",
@@ -445,7 +457,7 @@
     },
     {
      "id": "bo-0022",
-     "disp": "Blue Ocean 개요-26",
+     "disp": "Blue Ocean 개요-27",
      "level": "●",
      "text": "차별화 요소",
      "color": "black",
@@ -455,7 +467,7 @@
     },
     {
      "id": "bo-0023",
-     "disp": "Blue Ocean 개요-27",
+     "disp": "Blue Ocean 개요-28",
      "level": "★",
      "text": "3사 중 가장 먼저 개장(MOON 2024-11, Bruce 2025-03)",
      "color": "black",
@@ -469,7 +481,7 @@
     },
     {
      "id": "bo-0024",
-     "disp": "Blue Ocean 개요-28",
+     "disp": "Blue Ocean 개요-29",
      "level": "★",
      "text": "2023-09 도쿄증권거래소가 지분 5% 투자, 일본 낮 시간 거래 목표",
      "color": "black",
@@ -481,7 +493,7 @@
     },
     {
      "id": "bo-0025",
-     "disp": "Blue Ocean 개요-29",
+     "disp": "Blue Ocean 개요-30",
      "level": "●",
      "text": "토큰증권 취급 현황",
      "color": "black",
@@ -491,7 +503,7 @@
     },
     {
      "id": "bo-0026",
-     "disp": "Blue Ocean 개요-30",
+     "disp": "Blue Ocean 개요-31",
      "level": "★",
      "text": "2025-10 토큰화 NMS 주식 거래 연동 추진 발표",
      "color": "black",
@@ -503,7 +515,7 @@
     },
     {
      "id": "bo-0027",
-     "disp": "Blue Ocean 개요-31",
+     "disp": "Blue Ocean 개요-32",
      "level": "★",
      "text": "2026-03 RQD*(미국 청산 회사)와 토큰 주식 청산 MOU",
      "color": "black",
@@ -515,7 +527,7 @@
     },
     {
      "id": "bo-0028",
-     "disp": "Blue Ocean 개요-32",
+     "disp": "Blue Ocean 개요-33",
      "level": "★",
      "text": "DTCC(미국 중앙 예탁결제기관) 토큰화 로드맵에 맞춤",
      "color": "black",
@@ -528,7 +540,7 @@
     },
     {
      "id": "bo-0029",
-     "disp": "Blue Ocean 개요-33",
+     "disp": "Blue Ocean 개요-34",
      "level": "●",
      "text": "화면",
      "color": "black",
@@ -538,7 +550,7 @@
     },
     {
      "id": "bo-0030",
-     "disp": "Blue Ocean 개요-34",
+     "disp": "Blue Ocean 개요-35",
      "level": "그림",
      "images": [
       {

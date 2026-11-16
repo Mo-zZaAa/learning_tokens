@@ -630,17 +630,30 @@
      "id": "bn-0222",
      "disp": "Binance 범위-16",
      "level": "★",
-     "text": "기관 : 2025-11 BUIDL을 장외결제 담보로",
+     "text": "기관 : 2022-06 기관 전용 사업 출시, 2025-11 BUIDL 담보",
      "color": "black",
      "fact_ids": [
+      "F-1242",
       "F-1233"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bn-0162",
+     "id": "bn-0223",
      "disp": "Binance 범위-17",
+     "level": "●",
+     "text": "스테이블코인 : 자체 브랜드 BUSD는 2023 발행사 규제로 중단, FDUSD로 대체",
+     "color": "black",
+     "fact_ids": [
+      "F-1243"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0162",
+     "disp": "Binance 범위-18",
      "level": "●",
      "text": "시장(어느 나라로)",
      "color": "black",
@@ -650,7 +663,7 @@
     },
     {
      "id": "bn-0163",
-     "disp": "Binance 범위-18",
+     "disp": "Binance 범위-19",
      "level": "★",
      "text": "2022-09 두바이 : VARA 직접",
      "color": "black",
@@ -662,7 +675,7 @@
     },
     {
      "id": "bn-0164",
-     "disp": "Binance 범위-19",
+     "disp": "Binance 범위-20",
      "level": "★",
      "text": "2024-09 아르헨티나 : 현지 법인 등록",
      "color": "black",
@@ -674,7 +687,7 @@
     },
     {
      "id": "bn-0165",
-     "disp": "Binance 범위-20",
+     "disp": "Binance 범위-21",
      "level": "★",
      "text": "2025-10 한국 : 고팍스 최대주주 변경 수리",
      "color": "black",
@@ -686,7 +699,7 @@
     },
     {
      "id": "bn-0166",
-     "disp": "Binance 범위-21",
+     "disp": "Binance 범위-22",
      "level": "★",
      "text": "2025-12 아부다비 : ADGM 인가 3종 직접",
      "color": "black",
@@ -698,7 +711,7 @@
     },
     {
      "id": "bn-0191",
-     "disp": "Binance 범위-22",
+     "disp": "Binance 범위-23",
      "level": "●",
      "text": "2021-04 주식 토큰 시도, 2021-07 중단 : 인가 없이 시작했다가 접음",
      "color": "black",
@@ -710,7 +723,7 @@
     },
     {
      "id": "bn-0192",
-     "disp": "Binance 범위-23",
+     "disp": "Binance 범위-24",
      "level": "★",
      "text": "왜 : 다른 제품에 집중하겠다며 구매 중단 공지(언론 인용)",
      "color": "black",
@@ -722,7 +735,7 @@
     },
     {
      "id": "bn-0193",
-     "disp": "Binance 범위-24",
+     "disp": "Binance 범위-25",
      "level": "★",
      "text": "쓴 곳 : 2021-10-14 지원 종료, 이후 5년간 공백",
      "color": "black",
@@ -734,7 +747,7 @@
     },
     {
      "id": "bn-0194",
-     "disp": "Binance 범위-25",
+     "disp": "Binance 범위-26",
      "level": "★",
      "text": "해석 : 첫 시도를 접고 2025-12 인가를 받은 뒤 2026-06 재설계해 재개",
      "color": "black",
@@ -748,7 +761,7 @@
     },
     {
      "id": "bn-0195",
-     "disp": "Binance 범위-26",
+     "disp": "Binance 범위-27",
      "level": "●",
      "text": "2025-12 ADGM 인가 3종(거래소, 청산과 보관, 브로커딜러) : 아부다비 규제 기반 확보",
      "color": "black",
@@ -762,7 +775,7 @@
     },
     {
      "id": "bn-0196",
-     "disp": "Binance 범위-27",
+     "disp": "Binance 범위-28",
      "level": "★",
      "text": "왜 : 규제 명확성과 정당성으로 ADGM에서 글로벌 사업 지원(Teng)",
      "color": "black",
@@ -774,7 +787,7 @@
     },
     {
      "id": "bn-0197",
-     "disp": "Binance 범위-28",
+     "disp": "Binance 범위-29",
      "level": "★",
      "text": "쓴 곳 : 2026-06 미국 주식 거래를 Nest Trading(브로커딜러) 이름으로 개시",
      "color": "black",
@@ -787,7 +800,7 @@
     },
     {
      "id": "bn-0198",
-     "disp": "Binance 범위-29",
+     "disp": "Binance 범위-30",
      "level": "★",
      "text": "해석 : 전통 증권 취급의 법적 바탕을 한 관할에 마련, 그 위에 토큰 발행",
      "color": "black",
@@ -801,7 +814,7 @@
     },
     {
      "id": "bn-0199",
-     "disp": "Binance 범위-30",
+     "disp": "Binance 범위-31",
      "level": "●",
      "text": "2026-06 미국 주식 거래 개시(7,000종 이상) : 실제 주식을 거래소 안에 먼저 열었음",
      "color": "black",
@@ -813,7 +826,7 @@
     },
     {
      "id": "bn-0200",
-     "disp": "Binance 범위-31",
+     "disp": "Binance 범위-32",
      "level": "★",
      "text": "왜 : 접근이 쉬워질수록 금융 포용이 커진다는 믿음(회사 발표)",
      "color": "black",
@@ -825,7 +838,7 @@
     },
     {
      "id": "bn-0201",
-     "disp": "Binance 범위-32",
+     "disp": "Binance 범위-33",
      "level": "★",
      "text": "쓴 곳 : 소수 주식 5달러부터, 이후 bStocks 1대1 전환 누적 60억 달러",
      "color": "black",
@@ -838,7 +851,7 @@
     },
     {
      "id": "bn-0202",
-     "disp": "Binance 범위-33",
+     "disp": "Binance 범위-34",
      "level": "★",
      "text": "해석 : 실제 주식을 먼저 열고 토큰은 그 위에 얹는 순서",
      "color": "black",
@@ -852,7 +865,7 @@
     },
     {
      "id": "bn-0203",
-     "disp": "Binance 범위-34",
+     "disp": "Binance 범위-35",
      "level": "●",
      "text": "2026-06 bStocks 직접 발행(계열 BTech Holdings) : 토큰을 자체 발행으로 전환",
      "color": "black",
@@ -865,7 +878,7 @@
     },
     {
      "id": "bn-0204",
-     "disp": "Binance 범위-35",
+     "disp": "Binance 범위-36",
      "level": "★",
      "text": "왜 : 주식 거래 초기 수요가 더 유연한 접근을 원함을 보여줌(Teng)",
      "color": "black",
@@ -877,7 +890,7 @@
     },
     {
      "id": "bn-0205",
-     "disp": "Binance 범위-36",
+     "disp": "Binance 범위-37",
      "level": "★",
      "text": "쓴 곳 : 2026-10 운용자산 10억 달러, 누적 거래 400억 달러(회사 발표)",
      "color": "black",
@@ -890,7 +903,7 @@
     },
     {
      "id": "bn-0206",
-     "disp": "Binance 범위-37",
+     "disp": "Binance 범위-38",
      "level": "★",
      "text": "쓴 곳 : 2026-09 마진과 선물 담보로 확대, 약 100종",
      "color": "black",
@@ -903,7 +916,7 @@
     },
     {
      "id": "bn-0207",
-     "disp": "Binance 범위-38",
+     "disp": "Binance 범위-39",
      "level": "★",
      "text": "해석 : 이용자 기반 위에서 24시간 거래와 담보로 확장, 발행사는 계열 SPV",
      "color": "black",
@@ -917,7 +930,7 @@
     },
     {
      "id": "bn-0208",
-     "disp": "Binance 범위-39",
+     "disp": "Binance 범위-40",
      "level": "●",
      "text": "해석 : 거래소에서 시작해 인가를 얻은 뒤 실제 주식, 직접 발행 토큰, 담보로 넓힘",
      "color": "black",
@@ -1858,7 +1871,8 @@
      "text": "Nest Exchange : 인정투자거래소, MTF 운영, 2025-12 직접",
      "color": "black",
      "fact_ids": [
-      "F-0064"
+      "F-0064",
+      "F-1244"
      ],
      "confirmed": false,
      "notes": []
@@ -1870,7 +1884,8 @@
      "text": "Nest Clearing and Custody : 청산, 수탁, CSD, 2025-12 직접",
      "color": "black",
      "fact_ids": [
-      "F-0065"
+      "F-0065",
+      "F-1244"
      ],
      "confirmed": false,
      "notes": []
@@ -1883,7 +1898,8 @@
      "color": "black",
      "fact_ids": [
       "F-0066",
-      "F-0050"
+      "F-0050",
+      "F-1244"
      ],
      "confirmed": false,
      "notes": []

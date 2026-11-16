@@ -827,8 +827,20 @@
      "notes": []
     },
     {
-     "id": "rh-0242",
+     "id": "rh-0266",
      "disp": "Robinhood 범위-30",
+     "level": "●",
+     "text": "야간 체결처 : Blue Ocean ATS, 2023-12 236종(Blue Ocean 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-1241"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0242",
+     "disp": "Robinhood 범위-31",
      "level": "●",
      "text": "2025-06 Bitstamp 인수(2.24억 달러, 가상자산 거래소) : 미국 밖과 기관 고객을 한 번에",
      "color": "black",
@@ -841,7 +853,7 @@
     },
     {
      "id": "rh-0243",
-     "disp": "Robinhood 범위-31",
+     "disp": "Robinhood 범위-32",
      "level": "★",
      "text": "왜 : 미국 밖 확장과 신뢰받는 기관 사업 확보(인수 발표문)",
      "color": "black",
@@ -853,7 +865,7 @@
     },
     {
      "id": "rh-0244",
-     "disp": "Robinhood 범위-32",
+     "disp": "Robinhood 범위-33",
      "level": "★",
      "text": "쓴 곳 : 같은 달 EU 토큰 200종 이상, 가상자산 선물은 Bitstamp로",
      "color": "black",
@@ -866,7 +878,7 @@
     },
     {
      "id": "rh-0245",
-     "disp": "Robinhood 범위-33",
+     "disp": "Robinhood 범위-34",
      "level": "★",
      "text": "해석 : EU 인가와 인수한 거래소 위에 EU 토큰 사업이 섬",
      "color": "black",
@@ -880,7 +892,7 @@
     },
     {
      "id": "rh-0246",
-     "disp": "Robinhood 범위-34",
+     "disp": "Robinhood 범위-35",
      "level": "●",
      "text": "2026-01 MIAXdx 지분 90% 인수(SIG와 합작 Rothera) : 파생 거래소를 직접 보유",
      "color": "black",
@@ -893,7 +905,7 @@
     },
     {
      "id": "rh-0247",
-     "disp": "Robinhood 범위-35",
+     "disp": "Robinhood 범위-36",
      "level": "★",
      "text": "쓴 곳 : 앞서 2024-10 선물 출시, 2025-03 예측시장 허브(Kalshi 제휴)",
      "color": "black",
@@ -906,7 +918,7 @@
     },
     {
      "id": "rh-0248",
-     "disp": "Robinhood 범위-36",
+     "disp": "Robinhood 범위-37",
      "level": "★",
      "text": "쓴 곳 : 선물 중개 등록 회사(Robinhood Derivatives)를 이미 보유",
      "color": "black",
@@ -918,7 +930,7 @@
     },
     {
      "id": "rh-0249",
-     "disp": "Robinhood 범위-37",
+     "disp": "Robinhood 범위-38",
      "level": "★",
      "text": "해석 : 파생을 중개로 시작해 거래소 인수로 직접 운영으로 이동",
      "color": "black",
@@ -932,7 +944,7 @@
     },
     {
      "id": "rh-0250",
-     "disp": "Robinhood 범위-38",
+     "disp": "Robinhood 범위-39",
      "level": "●",
      "text": "2026-07 Robinhood Chain 출시(Stock Tokens 지갑판 동반) : 토큰을 자체 체인 위에",
      "color": "black",
@@ -945,7 +957,7 @@
     },
     {
      "id": "rh-0251",
-     "disp": "Robinhood 범위-39",
+     "disp": "Robinhood 범위-40",
      "level": "★",
      "text": "왜 : 금융과 토큰화 실물자산용 이더리움 호환 레이어 2(10-Q 설명)",
      "color": "black",
@@ -957,7 +969,7 @@
     },
     {
      "id": "rh-0252",
-     "disp": "Robinhood 범위-40",
+     "disp": "Robinhood 범위-41",
      "level": "★",
      "text": "쓴 곳 : 지갑으로 120개국 이상에 판매, 체인 위 자산 약 1,280만 달러",
      "color": "black",
@@ -970,7 +982,7 @@
     },
     {
      "id": "rh-0253",
-     "disp": "Robinhood 범위-41",
+     "disp": "Robinhood 범위-42",
      "level": "★",
      "text": "해석 : 발행과 유통을 자체 체인으로 올리고 시퀀서 수익도 회사 몫",
      "color": "black",
@@ -983,7 +995,7 @@
     },
     {
      "id": "rh-0254",
-     "disp": "Robinhood 범위-42",
+     "disp": "Robinhood 범위-43",
      "level": "●",
      "text": "해석 : 주식 앱 위에 인수와 인가로 해외와 파생을 더하고 자체 체인으로 마무리",
      "color": "black",
