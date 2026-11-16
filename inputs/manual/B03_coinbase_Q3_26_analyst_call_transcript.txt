@@ -1,0 +1,503 @@
+Coinbase Global, Inc.
+Third Quarter 2026 Analyst Call
+October 29, 2026
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Good afternoon, everyone, and welcome to the
+Coinbase 3rd Quarter 2026 Analyst Q&A Call. Joining me on today's call is Alesia Haas, CFO, and I am Shan
+Agarwal, Chief Business Officer and Head of IR. Before we get started, I'd like to remind you that during
+today's discussion, we may make forward-looking statements that may vary materially from our actual results.
+Please refer to our SEC filings and earnings presentation for information concerning risks, uncertainties, and
+other factors that could cause these results to differ. In addition, our discussion today may include certain
+non-GAAP financial measures. Reconciliations to the most directly comparable GAAP financial measures are
+provided in the earnings presentation on our Investor Relations website. Thank you for joining. This quarter, we
+are using Zoom to facilitate this question and answer session.
+
+A few quick instructions before we jump in. We ask that everyone mute themselves to prevent any background
+noise. If you'd like to ask a question, for those who are natively joined through Zoom, please click the raise
+hand button on your toolbar to join the queue. For those who are joined by phone, please press star followed
+by the number 9. I will call upon you, and when called upon, please unmute yourself and ask your question.
+We ask that you limit yourself to one question and one follow-up, then place yourself back on mute. If you have
+another question, please rejoin the queue.
+
+All right, with that, we'll start off questions with Ken Worthington from JP Morgan.
+
+Ken Worthington, JP Morgan: Hi, thank you so much for taking the question. I wanted to talk about the
+build-out of payments, you know, significant initiative of yours. What sort of volumes are you driving in
+payments with stablecoins through your solutions today? And where would you like this to be as we look out
+over the next, say, 12 to 18 months?
+
+Alesia Haas, CFO: Thanks, Ken. Great to speak with you today. So we absolutely are working to build out
+payments functionality through Coinbase Developer Platform. It is one of the key areas of focus for us. We
+believe we have a full stack between Base as a rail, USDC as a stablecoin, x402, and we're building payments
+not only for businesses, but also for agents. And so we have signed a number of deals, as we have shared
+with you in our earnings presentation, with folks like Citibank, with folks like Cloudflare, Shopify, Checkout.com,
+and more. And so our goal here is to continue to fuel and be the frontier of finance behind many of these
+companies as they look to make payments faster, cheaper, and more global, as we find USDC payments are
+very suited to a lot of cross-border opportunities.
+
+So I don't have a specific number to share with you today. This is not yet material to our overall financials, but
+we are building a flywheel and seeing more and more engagement by a number of important partners here.
+
+Ken Worthington, JP Morgan: Great, thank you.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: All right, next up, Devin Ryan from Citizens.
+
+Devin Ryan, Citizens: Thanks for doing this. A question on the agentic trading. Obviously, some of those
+numbers got our attention, so good to hear about the early traction. I appreciate also, you know, as you guys
+talked about, these aren't huge numbers yet, but it'd be great to dig in a little bit more about the behaviors
+                                                                                                                     1
+you're seeing and what is the notional volume that you're seeing, like the turnover that you're seeing in agentic
+relative to average customers? Meaning, are the agents trading many more times? I'm sure the transaction
+sizes are smaller, but I'm guessing the notional is still quite significant relative to the average. So is there
+anything more you can tell us about that and just give us any additional kind of orders of magnitude of if we
+map this out, where you think it's going?
+
+Alesia Haas, CFO: So these are early, early days. But what we shared previously is that Coinbase for Agents,
+volume, and users are compounding 20% week over week. But I want to share, we're a few weeks in, we're
+still measuring the product process within weeks, we haven't even turned into months. And so we're seeing
+really good early day adoption. What I would comment on is what you see from independent research. People
+expect agents to process $3 to $5 trillion of transactions by 2030. So there's expected to be significant growth.
+
+And we believe that, and we are already starting to see agents start to outnumber human transactions in many
+things. But crypto is the native rail here. Our products are really being built to be purpose-built for agents to
+make it very easy for them to transact through our APIs and our MCPs. So early days, a lot more to come in
+future quarters.
+
+Devin Ryan, Citizens: Okay, got it. Thank you, Alesia. And then just on prediction markets, nice to see kind of
+continued momentum there, kind of product-market fit. Can you just talk a little more about the roadmap for
+that as well, particularly as you start to, you know, I guess bring more in-house and, you know, clearing
+infrastructure and you kind of develop your own contracts, like where we can expect prediction markets to go
+for Coinbase, your ability to kind of— I suspect that most of the customers using it today are existing Coinbase
+users. So as a kind of a platform to bring in new customers because of things that you're doing that are
+differentiated. So it'd be great just to hear a little bit more about what the roadmap is now that you're getting to
+some meaningful levels of revenues from that.
+
+Alesia Haas, CFO: Thanks. Great questions. We're really excited about it. It has shown 82% quarterly
+compound growth since launch just earlier this year in February. I think one of the 2 stats I want to share with
+you that we're really pleased to see, when we look Q3 to Q2, we saw a 60% increase in daily traders and
+they're trading a lot of contracts. They've traded more than 50% of the trades were from non-sports contracts.
+And this is an area we think we have a real right to win on crypto contracts. So crypto binaries.
+
+You're right that we obtained CFTC approval for our own DCO to support predictions. And so what this means
+is we have the opportunity to own more of the stack. That means we can launch our own contracts, and we
+can also then earn better economics. So we'll continue to offer contracts through a wide variety of partners.
+Kalshi has been a great partner to get us to launch in the early markets, but we now have the opportunity to
+continue to expand out and offer some of our own contracts as well. So that is what we plan to do. Obviously
+we're going to have a great hub around the election coming up. These are going to be big opportunities for
+people to take views on all of the elections around the US, and we'll continue to offer new sports and new
+crypto contracts as well. So exciting things to come.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Yeah, Devin, the only thing I would add there is today
+predictions are only available in the simple Coinbase experience, but we're excited to roll those also out to
+prosumers through Coinbase Advanced, and then ultimately to institutions as well. So we think that that will
+further broaden engagement across our multiple customer segments.
+
+Devin Ryan, Citizens: Great, thanks so much for the color.
+                                                                                                                   2
+Shan Aggarwal, Chief Business Officer & Head of IR: All right. Next up, Michael Cyprys from Morgan
+Stanley.
+
+Michael Cyprys, Morgan Stanley: Great, thanks so much for taking the question. One thing that stood out in
+the quarter was the divergence between the assets on the platforms, which increased quite a bit and monthly
+transacting users, which were a bit softer in the quarter. So I was hoping you could help reconcile the trends
+there. How much of the asset growth reflects market appreciation versus native unit growth that you've spoken
+about in prior quarters? And are you seeing underlying customer engagement? I was hoping you could speak
+to that. Thank you.
+
+Alesia Haas, CFO: Absolutely. So we saw both significant inflows specifically around our institutional ETFs in
+Q3, which drove assets on platform, as well as price appreciation. So we didn't bifurcate what was native unit
+growth versus asset appreciation, but both were benefiting the growth this quarter.
+
+With regards to MTUs, we did see the price appreciation come late in September. And so in part, what we're
+looking at over the quarter is we measure assets on platform at point in time versus MTUs as an average over
+the quarter, and revenue is obviously over-the-quarter experience. And so we saw very different markets as we
+kind of went starting July through the end of September.
+
+Michael Cyprys, Morgan Stanley: And then just as a follow-up, can you give us a sense of how the pace of
+new customer acquisition has been trending, particularly as you're expanding into prediction markets, equities,
+derivatives? Are these products bringing in new customers or are the folks that are engaging with this primarily
+existing Coinbase customers? And curious what your expectations are as we look out from here.
+
+Alesia Haas, CFO: To date, the majority of prediction markets has been existing customers broadening their
+engagement with new products and services. And we're really pleased to see to date that prediction markets is
+very incremental to all of the other products and services that we had offered. We are not seeing
+cannibalization. We're seeing people just trade spot a little bit less, but put more dollars to work in prediction
+markets. We did share within our outlook that we plan to increase our sales and marketing in Q4. And one of
+the areas that we are going to invest in is actually prediction markets and looking to use it as a customer
+acquisition vehicle or customer re-engagement vehicle. So we're adding more sales and marketing dollars
+there. We have not actively spent in sales and marketing on products like prediction markets to date.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: All right, next up, James Yaro from Goldman Sachs.
+
+James Yaro, Goldman Sachs: Thanks for taking the question. I wanted to touch on the tokenized equities
+product in the US. How much product development do you feel like you need to bring the product to the US
+from outside the US? And then just any thoughts on whether you might build an exchange for this in the US? I
+know that I think you'd need to build an AMM order book, and that's obviously different than your existing
+exchanges, which use central limit order books. So I guess just thoughts on both the brokerage side as well as
+the exchange side of tokenized equities in the US?
+
+Alesia Haas, CFO: We're really focused right now on our non-US offering. We are pleased to see that we have
+really exciting early traction with about $3 billion in volume since launch. This is the area that we're investing in,
+this non-US product. We're really pleased to see that the SEC has launched the innovation exemption and
+
+
+                                                                                                                    3
+exploring what we might want to do there. And we'll talk to you about it in future quarters, but we don't have
+anything to share on a US offering today.
+
+James Yaro, Goldman Sachs: Maybe just turning to subscription and services and the revenue guide there.
+So given the rate hike in the quarter, and then I think there's an additional hike in the forward curve, I guess I
+would've thought you might be able to see some additional quarter-on-quarter growth, at least in the stablecoin
+revenue component of subscription and services. So maybe just how do you approach modeling out the
+forward curve? I know that's kind of an in-the-weeds question.
+
+Alesia Haas, CFO: No, I love in-the-weeds questions. Absolutely. So we take a standard forward curve that we
+get from the market. We are not making our own proprietary forecast on interest rates. So when we are giving
+you the range for subscription and services, we are using the forward curve. We are then looking at
+sensitivities above and below depending on how many interest rate changes we could see. And then we look
+at the current environment for asset prices that would underpin staking and custody revenue, and we run plus
+minus on asset prices. So we really use the current environment as kind of the base for what we think the
+quarter could look like. And the current environment, meaning we look at the month of October, so current
+data.
+
+James Yaro, Goldman Sachs: Thank you.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Owen Lau from Clear Street.
+
+Owen Lau, Clear Street: Hi, good afternoon. Thank you for taking my question. Maybe one on the expense,
+and without getting into the detailed number for your 2027 adjusted operating expense number, how should we
+think about the expense directionally next year versus 2026? Thank you.
+
+Alesia Haas, CFO: We haven't given an outlook for 2027 at this time for expenses. We focused you this year
+that we were looking to bring the overall 2026 expense down to the 2025 levels, and we're really pleased that
+we brought it within 1% of 2025. So it'll come in slightly lower. As we get into early next year when we provide
+our year-end outlook, we will share with you the full year 2027 expectation. At this point in time, we're being
+very judicious with our expenses and don't expect meaningful changes as we go from Q4 to Q1, but we will
+update that as we go into the beginning of the year.
+
+Owen Lau, Clear Street: Got it. And then one follow-up going back to prediction markets in the 3rd quarter,
+you mentioned I think 62% were non-sport contracts.
+
+Alesia Haas, CFO: Over 50%.
+
+Owen Lau, Clear Street: But when you look at other platforms, they were mainly sports and FIFA World Cup
+related. I'm just wondering what was the driver of that over 50% volume? And then what is your runway, if you
+can, for the October number so far?
+
+Alesia Haas, CFO: I'm going to answer the October first. We don't break that out and provide an October
+number specifically for prediction markets, but it is embedded in the $165 million of transaction revenue that
+we provided, of transaction revenue through October 25th.
+
+
+
+                                                                                                                   4
+And the answer for non-sports is largely crypto binaries. And we think we have a real right to win here because
+we started as a crypto platform. Our customers are engaged in crypto and they're really finding a lot of
+excitement in trading short-term crypto contracts.​
+​
+Owen Lau, Clear Street: Thank you.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Kareem Seif from Bank of America.
+
+Kareem Seif, Bank of America: Hey, Alesia! Hey, Shan! Thank you so much for taking my question. So a few
+quarters ago, you've talked about how you have a lot of your customers who are HODLers. You also have
+taken steps to gain market share amongst active traders. You launched the white glove service, and recently
+you have reduced pricing on some products for outside of the US clients. Could you maybe talk about like, you
+know, the client mix that you have today between those who are, you would classify as active traders versus
+those who are not? And what other tools do you have in your toolbox that would allow you to gain market share
+globally?
+
+Alesia Haas, CFO: Great question. So the folks that trade on our advanced platform are the folks that we
+consider active advanced traders. Active traders in general, you can see characterized as part of our overall
+MTU number. Those are the folks that have transacted on the platform within the quarter, within the months,
+within the quarter. We have millions more that are HODLers. And so we don't break out and show an upper
+funnel detail, but we have many more people that are holding assets funded on our platform than trade in any
+given period. The folks then that we're talking about as advanced traders tend to be some of our highest
+volume traders within our advanced products, soon to be rebranded as Coinbase Pro and relaunched later this
+year. And for those folks, what we recognize is we did not invest properly in that product. And so we're bringing
+that product to market with a relaunch later this year and excited to show that to the world.
+
+Kareem Seif, Bank of America: Perfect. Thank you. And then for my follow-up, so you guys are doing a lot in
+stablecoins. Stablecoins, you know, are benefiting obviously from the GENIUS Act, which is in law. Outside of
+that, how would you characterize your kind of discussions with TradFi institutions following the September
+Senate decision with regards to the CLARITY Act?
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Still very positive on the whole. We haven't seen
+really any shift in the momentum that we've seen around stablecoins over the last year. And I think that really
+shows through with our Coinbase Developer Platform, our infrastructure platform, where even just recently we
+announced partnerships with Citigroup and other platforms like Moov. So we have some continued momentum
+that we expect on the horizon there, but it's been a consistent positive tone.
+
+Alesia Haas, CFO: And we partner with many banks around the world and really pleased with our overall
+banking relationships as it provides important connectivity for our customers to be able to seamlessly move
+between the fiat and stablecoin and/or crypto worlds.
+
+Kareem Seif, Bank of America: Thank you for taking my questions.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Next, Stephen Glagola from KBW.
+
+Stephen Glagola, KBW: Hey, thanks for the question. I think you grew net loan originations by a little over
+$400 million in the quarter, and I was just hoping you could discuss what drove that growth and how you
+                                                                                                                5
+expect the loan book to evolve in Q4 and through '27. And maybe also if you could just touch on how you plan
+to fund the growth going forward between your own capital and short-term borrowings. Thank you.
+
+Alesia Haas, CFO: Great question. We are really pleased to see the continued growth of our Prime financing
+product. We also are growing retail loans, but those are off balance sheet through our partnership with Morpho.
+But the retail Borrow/Lend demand is strong, as well as the institutional demand, which you're seeing show up
+on the balance sheet. So we closed the quarter with just under $2 billion of loans. We are funding those
+through a combination now of our own cash that we use from our corporate balance sheet to fund the loan
+book, as well as we are rehypothecating certain institutional customers' capital with their consent, where they
+engage in terms with us to lend us their crypto and/or USDC. We in turn lend that out to other customers. So
+those are the sources of financing at this point in time, either our own cash and/or customers.
+
+And we continue to look to expand out those sources of capital potentially through bank partnerships or others.
+So we are not seeing those show up as short-term borrowings, i.e., that we are taking additional loans right
+now. We're taking collateral from customers and then we are relending that out. And with regards to future, we
+are not giving an outlook specifically on that balance, but we are pleased to see the growth over the last few
+quarters where we continue to see expansion of that product.
+
+Stephen Glagola, KBW: Great. Thank you.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: All right. Joseph Vafi from Canaccord.
+
+Joseph Vafi, Canaccord: Hey, Alesia. Hey, Shan. Thanks for the question. I just have one. We saw earlier this
+week DTCC launch on Canton. You know, I know that Circle's Arc is focused on this broader real-world asset
+tokenization opportunity, especially institutionally. Just wondering how maybe your roadmap fits into this market
+moving forward. Thank you.
+
+Alesia Haas, CFO: Absolutely. So as I mentioned previously on tokenized equities, we're really pleased with
+the launch that we have done, ex-US, The product that we launched was one of the few first true tokenized
+equity products. It has real shareholder rights. It's real equity. It's just in token form. One of the things I like to
+say is we have real expertise through our experience with USDC, where we tokenized the US dollar and then
+built a market and built global liquidity. And we are looking to now do the same with tokenized equities.
+
+Base has become a top 3 chain with regards to tokenized equities trading volume on Base. So we're seeing
+this monetized largely through sequencer fees.
+
+We don't have a US product at this point in time, but what I would note is the design choices that we made for
+our non-US product really are purpose-built then for a US offering. So we are pleased to see the SEC with its
+innovation exemption, and we will explore doing something in the future in the US, but we do not have
+something today. We're really focused on growing that ex-US liquidity.
+
+And just a quick comment that you noted. Other people are bringing forward tokenized equities. This is likely
+going to be fragmented to start with. It is because it is easy to tokenize something. We saw this with
+stablecoins. There's many stablecoins out there. So easy to create a tokenized asset, hard to grow liquidity
+depth of a tokenized asset, hard to build a network, hard to get to the right liquidity for traders. And that is
+something that we feel uniquely experienced in. And something that we look forward to continue to grow with
+our non-US offering and then expanding that over time.
+                                                                                                                          6
+Joseph Vafi, Canaccord: Thank you, Alesia.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Dan Welden from Wells Fargo.
+
+Dan Welden, Wells Fargo: Hi, thanks for taking the question. I'm looking at your sort of CB1 subscribers slide
+about the most valuable users and wondering about your roadmap there. How do you encourage more users?
+Do you think about adding to the bundle? And then what's been the most successful for sort of driving users
+from Basic to Preferred or Premium over time? Thanks.
+
+Alesia Haas, CFO: Thanks for that. We're really pleased to see the growth in overall CB1 subscribers. What I
+would note today is that those benefits largely accrue to folks that trade spot crypto, and we have a real
+opportunity to explore different bundles of offerings under CB1, especially as we've expanded our own product
+set to equities, to prediction markets, et cetera. And so we are looking to change various tiers, various
+bundlings of service offerings, and we think that can be a real growth driver of CB1. But the core hooks, these
+are how to get the best rewards on USDC. It comes with a CB1 card, comes with better account protection.
+Those services are really valuable to our customers, which is what has driven the growth of overall paid
+subscriptions to date.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Yeah, I'd just add the Coinbase One subscription
+really ties together the Everything Exchange. So like Alesia mentioned, it's historically been really focused on
+spot crypto, but there's clearly an opportunity for us to bundle predictions benefits or derivatives benefits under
+that subscription as well. And so it just reinforces the value proposition that we can offer customers through a
+multi-product platform.
+
+Dan Welden, Wells Fargo: Thanks so much.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Chris Brendler from Rosenblatt.
+
+Chris Brendler, Rosenblatt: I didn't realize that Coinbase is growing its share of USDC and growing its
+balances even as the overall balances have declined. Can you talk about that for a little bit and what's driving
+that and where you see that going? And I had a follow-up as well, thanks.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Yeah, sure. So we're actually really happy that USDC
+on Coinbase has grown very consistently over the last 3 years and reached a new all-time high with $22 billion
+on our platform on average across Q3. And I think that's really a reflection of customers getting more and more
+value out of USDC on Coinbase as we've added new products and the attractiveness of our rewards program,
+as well as a select number of onchain partnerships like that we have done, like the, like Hyperliquid last
+quarter.
+
+Chris Brendler, Rosenblatt: Okay, great. And then my follow-up is on the derivatives business. You know,
+you're sort of increasing over there. Looks like it's going well. As you look back, how would you grade the
+process so far of integrating Deribit? It sounds like there's a bigger integration coming this quarter, and how
+should we think about what that could mean for the business in 2027? Thanks.
+
+Alesia Haas, CFO: We are pleased to see our derivatives growth. One, obviously, the acquisition of Deribit
+brought us to be strong positioning within options and really broadened out our products. We have futures,
+                                                                                                                   7
+perpetuals, options, really rounded out the suite of products. We're pleased to have announced the integration
+this quarter. This brings a set of global liquidity to our users. This gives us a platform now that we can offer
+cross-margin across a number of products. The key here for us is to continue to build out international users,
+continue to build out the financing elements of this platform, and to continue to try and grow market share. We
+have grown market share now for 4 consecutive quarters in a row and just continue to focus there as our
+efforts.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Yeah, just to emphasize, we will be the only unified
+global regulated platform that serves both US and ex-US users. And that's a really important point because
+point. Other competitive platforms, they have tried to serve the US, but it's been isolated or fragmented from
+the rest of the world. And the benefit of that for the end user is that it offers better liquidity and better pricing
+and then also better capital efficiency. And so this will really be a first-of-a-kind product that will be available to
+US users through a regulated platform like Coinbase.
+
+Chris Brendler, Rosenblatt: Great. Thanks so much, guys. Appreciate it.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Ed Engel from Compass Point.
+
+Ed Engel, Compass Point: Hey everyone, thanks for taking my question. Just another follow-up on prediction
+markets. Did you mention a timeline for when you expect to start listing your own events contracts? And then
+would it be safe to assume you'd probably start with markets like the crypto binaries?
+
+Alesia Haas, CFO: We have not shared a timeline, and this is something that gives us the option to expand
+out. But our focus is also just to grow the number of customers that engage with our prediction markets as well.
+So we will decide over time whether we want to route trades to our own DCO or to the market that is already
+developed.
+
+Ed Engel, Compass Point: Great. Thanks for that. On Deribit, have you started bringing crypto options
+onshore? And then I guess, is there a plan to offer the Deribit options to retail as well? Thank you.
+
+Alesia Haas, CFO: Institutions, yes, and we are working towards a retail offering.
+
+Ed Engel, Compass Point: Great.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Thank you. Next, Patrick Moley from Piper Sandler.
+
+Will Copps, Piper Sandler: Hey this is Will Copps on for Patrick. Thinking about competition and stablecoins
+and tokenized deposits alongside agreements like the one to pass through, USDC rewards to Hyperliquid. Do
+you see yourselves working with Circle to strike more of these deals with platforms like Hyperliquid, other
+decentralized platforms to cement USDC's place in the ecosystem? And are the economics on the Hyperliquid
+partnership representative of other exclusive partnerships you might sign? Thank you.
+
+Alesia Haas, CFO: Yeah, I would say we and Circle both have a goal to grow overall USDC market cap and
+adoption. In some cases, we could partner together to bring on more participants into the USDC ecosystem.
+We could also work independently to partner with various parties and bring them as partners on our respective
+platforms. Large deals such as Hyperliquid are very custom to the customer and the opportunity that they bring
+
+
+                                                                                                                          8
+to the USDC ecosystem. We also have a standard offering that anybody can join and partner with USDC and
+receive standard economics.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Yeah, I would just add that on your question
+regarding what the economics look like in those deals, Hyperliquid, I would say, would be more of one, a
+one-off, just given the size of the USDC balances across the protocol. There's not a lot of other platforms or
+distributors that have as significant of a balance.
+
+Will Copps, Piper Sandler: Got it. Thank you.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Next, Madison Suhr from Raymond James.
+
+Madison Suhr, Raymond James: Hey, good afternoon, and I appreciate you guys doing this. Thanks for
+letting me hop on and ask some questions here. I want to ask on Coinbase One. So great to see users all-time
+high, growing a healthy 24% in the quarter. Maybe just zooming out, how can we think about Coinbase One
+penetration of monthly transacting users over the medium term? I believe penetration is somewhere in the
+mid-teens today, but any sense where that can go over, call it, the next 3 to 5 years, or how we can think about
+the potential for an annual uplift around a penetration number for Coinbase One users?
+
+Alesia Haas, CFO: Great question. So first, I just want to clarify, the 24% was year-over-year growth, not
+quarter-over-quarter growth. Next, we disclose Coinbase One users about in December of 2025 as very near a
+million Coinbase One users. That gives you a sense of just when I gave you the 24% year over year, you can
+kind of like back into a number. And so it's in the low percentages of total MTUs.
+
+Madison Suhr, Raymond James: I know you've highlighted a 3.5x ARPU uplift from Coinbase One users, but
+I was hoping maybe you could also provide some color just around different cohorts. And really what I'm trying
+to understand is, does that ARPU uplift trend differently for users who have maybe been Coinbase One users
+for a longer period of time? Just trying to understand if there's differences among the cohorts. Thank you.
+
+Alesia Haas, CFO: It's a great question. We have not provided that level of detail.
+
+Madison Suhr, Raymond James: Okay. All right. Thank you for the opportunity to ask questions.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: John Todaro from Needham.
+
+John Todaro, Needham: Hey, thanks for taking my question. Sorry if this was asked right at the start of the
+call. I was a few minutes late. Not sure if you saw the Binance hacking news that's been going around in the
+last 35, 40 minutes or so. Just wondering if you've seen an increase in more sophisticated hacking attempts
+with AI now. Should we start to expect maybe increasing security spend to protect against these new threats?
+Just any kind of commentary on that and how the industry is evolving to tackle that.
+
+Alesia Haas, CFO: We are aware and we're closely tracking the Binance hack and potential loss of funds.
+We've extended an offer of support and we're in active discussions with our own custody team and see no
+indications of any activity on our platform. However, we were— we will monitor.
+
+I think if you look more broadly from crypto and look across the overall vendor ecosystem, you have seen more
+hacks and cyber incidents over the last weeks and months. And so I do think that AI is potentially having an
+                                                                                                                 9
+impact to breaches. This is something that we have invested in very significantly. We are partnering with both
+OpenAI and Anthropic. We use the most recent models to really test our own environments and ensure that we
+are patching and hardening our ecosystems in every way possible. We are active in doing pen tests. We are
+always vigilant around security, and it's been an area that as a crypto company, We've invested heavily in
+security since our inception, and we're really pleased that we've never seen a hack of our systems. We have
+layers of controls. We hold the majority of our assets in cold storage to ensure that they are offline and not
+available for a hack. But with the new environment, this is an area that we will be investing in resources to
+ensure that we continue to stay protecting our users.
+
+John Todaro, Needham: Great, that's very helpful. And then just a very simple housekeeping item. Do you
+plan to start segmenting out these different pieces within consumer and the institutional transaction piece? You
+know, should we expect that maybe next quarter or the following? Just as some of those get bigger, should we
+expect segmentation shortly?
+
+Alesia Haas, CFO: I don't believe that we are moving towards any segmentation, but we are actively looking to
+revisit our revenue disclosures as we go into the new year to make sure that people can really understand the
+key drivers of our business and how they drive our revenue.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Brian Bedell, Deutsche Bank.
+
+Brian Bedell, Deutsche Bank: Great. Thanks very much for taking my question. Most of my questions have
+been asked and answered, but maybe just, Alesia, your thoughts on, you know, the news with ICE and the
+partnership with Trade XYZ and Hyperliquid. Maybe just broadly how you're thinking about perpetual futures in
+the US and to what extent, you know, do you have optimism that, say, the CFTC will approve, you know, single
+stock perpetual futures and perhaps equity index futures? And how are you thinking about playing in that
+environment? And then also maybe just if I can add one more question on, you did touch on fragmentation of
+liquidity. How do you guys, how are you guys thinking about trying to develop more concentrated liquidity,
+including when you eventually bring tokenized stocks to the US?
+
+Alesia Haas, CFO: All right. Lots to jump into there. So we are just so pleased to have the CFTC partnering
+with the SEC and enabling us to have the innovative products in the US. Perps have been transformational,
+frankly, to the global trading market, and we're happy to bring these products to the US. Many in our company
+like to talk about the benefits of perp-ification of stocks, of commodities, of funds, and I think that we are just
+getting started. So we do believe that the CFTC will approve single-name stocks in the US. This is a product
+we're very excited to bring to the market and to our customers, and we think it provides structural benefits.
+
+I mean, there was a real cost to rolling forward contracts. So we are excited about this product offering in this
+space in general. And I think perps, I think tokenization, I think all of this is just the future of finance, quite
+candidly. And then when you add agents on top of it, I think it's so critical that we are building out the breadth of
+these product offerings to enable both our customers, but then increasingly agents, to transact with ease on
+our platform across all of these asset classes.
+
+To your question on tokenization, about building liquidity. You know, again, I want to just kind of call back to my
+comment previously. That is the real opportunity that we have and the skill set that we have. So when we think
+about our experience with building liquidity on USDC, we really have to invest in distribution partners, in market
+makers, in getting these assets into DeFi protocols to really ensure you start to get broad adoption. That is how
+
+
+                                                                                                                  10
+you start to build liquidity. That is how you build network effect. And that is the playbook that we will have with
+tokenized stocks as well.
+
+But I think uniquely that what I wanted to share is what Shan just mentioned earlier. We uniquely now have
+global liquidity on derivatives. That is something that we are unique in our ability to offer the same to our US
+and our non-US customers. And we would hope over time we can do that with tokenized stocks as well.
+
+That requires more regulatory approvals, but what we have built for tokenized stock is suited for the US
+innovation exemption.
+
+Brian Bedell, Deutsche Bank: Very interesting. Great color.
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Thank you. Okay, that's all I see in the queue, so
+thank you all for joining us. That concludes today's analyst call. We look forward to seeing you all again next
+quarter and appreciate you all joining.
+
+
+
+
+                                                                                                                   11
+

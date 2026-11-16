@@ -1,0 +1,392 @@
+Coinbase Global, Inc.
+Third Quarter 2026 Earnings AMA Call
+October 29, 2026
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Our discussion today includes forward-looking
+statements, which may vary materially from our actual results. Please refer to our SEC filings and earnings
+presentation for information concerning risks, uncertainties, and other factors that could cause these results to
+differ. In addition, our discussion today includes certain non-GAAP financial measures. Reconciliations to the
+most directly comparable GAAP financial measures are provided in the earnings presentation on our investor
+relations website.
+
+Alesia Haas, CFO: Hi everyone. Thanks for joining us live on X. I'm Alesia Haas, CFO of Coinbase, and I'm
+here with our co-founder and CEO, Brian Armstrong, and a few independent and institutional research
+analysts. If you haven't already, please head over to our IR website to watch the videos we posted of Brian and
+I discussing our quarterly results. But in this session right now, we are excited to directly connect with you: our
+customers, our community, our shareholders, and we want to talk about our quarter and answer questions. So
+just as a friendly reminder, we're not going to answer any questions on when XYZ token. We have a robust
+asset listing process that we follow, and we're not going to talk about any customer support cases. But besides
+from those simple ground rules, it is open question time.
+
+So first up, I'd like to introduce Andrew.
+
+Andrew Jeffrey, William Blair: Thank you very much. Alesia and Brian, it's a pleasure to be here. Appreciate
+the opportunity. I thought maybe I'd start with a big picture macro question, and I think you, you touched on it in
+the quarterly results. It does feel like crypto sentiment has shifted, and we've seen Bitcoin rally a lot off of its
+lows, but it still trades like a risk asset. I'm, you know, even after market today with, with tech trading off, do you
+feel like the case for Bitcoin ownership broadly has evolved? It does seem to me like that Base is certainly
+making the case that Bitcoin can be a global— can really be global digital collateral in DeFi marketplaces. But
+can you maybe just comment on how you think sort of the raison d'être may have shifted?
+
+Alesia Haas, CFO: And before you answer, Brian, I just wanted to apologize, Andrew. I should have given you
+a more robust introduction. So with us, folks, is Andrew Jeffrey, who is an institutional research analyst with
+William Blair. And with that, Brian, over to you. What is the BTC value proposition today in 2026?
+
+Brian Armstrong, Co-Founder and CEO: Yeah, so I think it's evolving. You're right. It's obviously still a store
+of value. You know, we're super bullish on Bitcoin. I think we just purchased our 18,000th Bitcoin actually on
+Coinbase balance sheet. Alesia has a Bitcoin pillow.
+
+Alesia Haas, CFO: Happy birthday.
+
+Brian Armstrong, Co-Founder and CEO: Yeah, it's Bitcoin's birthday coming up too. And then I think what
+you're getting at is correct, which is now that you can use Bitcoin as collateral, it actually improves liquidity for
+trading, right? So that's improving DEX trading, for instance, with Bitcoin. A lot of our customers who were
+early in Bitcoin, they don't want to ever sell their Bitcoin, but they do want to use it as collateral. And Base, for
+instance, has done really well recently by growing its financing product. So you can use that Bitcoin as
+collateral, get financing, go and do more trading. It is pretty synergistic. I think that is definitely a big trend that
+is happening right now. Then just broadly, I would say in this cycle that we are in, it is always difficult to call
+these things exactly, but we are seeing volumes rebounding and more institutions coming in onboarding.
+Yes, I think it is an exciting road ahead for Bitcoin.
+
+Alesia Haas, CFO: Yeah, I would just comment that we saw significant ETF inflows into Bitcoin specifically this
+quarter as people recognized that the price had stabilized. And one, Bitcoin is still a critical asset to us, but we
+are “Bitcoin and”, people can now trade a lot of things. And we've seen volatility come down in Bitcoin with the
+institutional adoption of this as an asset class. And I think that that is providing it to be an important
+diversification in a lot of people's investment portfolios.
+
+Andrew Jeffrey, William Blair: Thank you, mine included. I guess I'm not vain enough to have introduced
+myself. I probably should promote myself better. I actually think the comment on diversification and thinking
+about your business in particular is really a good segue. Terrific sequential growth in prediction market
+revenue. One of the questions we get a lot is sort of trends in consumer transaction revenue and take rate. I'm
+sure you hear this a lot too. Could you help us parse a little bit how much— it certainly looks like Prediction
+Markets cushioned consumer transaction revenue in the quarter, but can you help us sort of unpack that a little
+bit and tell us maybe how we can think about that going forward?
+
+Alesia Haas, CFO: Absolutely. So Prediction Markets is one of our fastest-growing new revenue products. We
+just launched it in February this year, and during the third quarter, it crossed $200 million of annualized run rate
+revenue. And what's great about that is this is a market where overall spot crypto trading was actually down.
+We saw overall crypto spot trading volume down 10% quarter over quarter. And so the growth in prediction
+markets offset the decline in overall spot trading, and we delivered flat revenue quarter over quarter. And when
+we look at the mix of our overall revenue, it's really interesting to look at this quarter.
+
+Predictions plus derivatives, so those 2 combined were about 25% of our total transaction revenue. And if I
+look at then our total revenue, subscription services was roughly 49% of total net revenues. So we are seeing
+the investments that we've made over the past few years to really diversify our revenue really come to our
+benefit. As I love what Brian says, there's always a market somewhere. And so people are shifting their trading
+behavior to the asset that's most interesting and most excited in the markets that they want to trade in. And
+what we saw right now in this quarter, a lot of that was around predictions.
+
+But I also want to share with you, this isn't cannibalizing our spot trading. What we're seeing is this is all
+incremental. And when we look at our trading profile, people are still continuing to trade spot, just maybe at a
+lesser level than they did in past quarters. And they're putting incremental dollars to trade in prediction markets
+and derivatives. So really, these are additive to our product offering right now.
+
+Andrew Jeffrey, William Blair: Which really goes a long way, I think, toward debunking the idea that Bitcoin's
+the tail that wags the dog. Although I think that still seems to inform stock prices, at least in the short term.
+There's a ton to talk about. I did want to spend a little time on stablecoins moving away from transaction. Could
+you just elaborate for us a bit on your Circle relationship? To me, it seems very much like a co-opetition
+situation. Both companies, you know, whereas USDC is still primary to your stablecoin efforts, it does seem like
+both companies are building similar stablecoin movement infrastructure. Can you talk about perhaps where
+your efforts overlap with Circle's and where your efforts are distinct?
+
+Alesia Haas, CFO: Brian, do you want me to start here and then you can add on?
+
+Brian Armstrong, Co-Founder and CEO: Yeah, go for it.
+
+Alesia Haas, CFO: All right. Well, we are proud to be a co-founder of USDC, and we're very committed to
+growing USDC. And we also want to support other high-quality regulated stablecoins. And so you saw that we
+also partnered with, as an example, with OUSD. We also have PYUSD on our platform. We will be supporting
+our customers in whatever asset they want to trade and whatever asset they want to transact with in crypto. So
+we think about ourselves asset agnostic that way. But because of our commercial relationship with Circle,
+where we have a strong economic interest to grow USDC, we are active in supporting this overall USDC
+ecosystem.
+
+Coinbase focuses on distribution, the customer relationships, the infrastructure, and really deeply integrating
+USDC and opportunities to use stablecoins in transaction flows within our products. This means that we are
+using this collateral with our derivatives exchange, as an example. This means that we are looking to put
+USDC on Base to really augment our payments with our Coinbase Developer product. And as a result, we've
+seen all-time highs in USDC use on our platform. So we capture about 50% of the overall economics. We hold
+about 30% of total USDC in circulation as assets on our platform. And we've seen the total assets on our
+platform grow for 5 sequential quarters, or more than that now. It's just been significantly growing on our
+platform for now many, many quarters.
+
+Where we compete is we're both building stablecoin payment infrastructure. And so we will compete in some
+areas, but we are both incentivized to grow total USDC market cap and deeply embedded in the overall
+network of stablecoin usage around the world.
+
+Brian Armstrong, Co-Founder and CEO: Yeah, I guess I'd just add that, you know, we really enjoy our
+partnership with Circle. There are many times where we work together on certain efforts. You're right that we
+are both building infrastructure. It's going to take a lot of work from lots of companies to go update the financial
+system. And so I think that that's great what they're doing. And we're going to keep doing our, our piece of it as
+well. And overall, what we want to see is just stablecoins be a larger and larger percentage of global GDP. For
+payments used in every country of the world. So we're going to keep working with them on that.
+
+Alesia Haas, CFO: All right, let's go to our next guest. We have Jon Ma from Artemis with us. Jon, over to you.
+Thank you, Andrew, for your questions too.
+
+Jon Ma, Artemis: Happy early 18th birthday for Bitcoin. That's very exciting.
+
+Alesia Haas, CFO: Hope someone out there is going to have a Halloween Bitcoin costume on Saturday. I'll
+start looking for that on social.
+
+Jon Ma, Artemis: That's my Halloween outfit. Thanks for the idea, Alesia. I'm really excited to talk about
+Coinbase Agents and getting your thoughts. So one of our engineers, Crystal, she built onbase.dev. She was a
+big Base developer. We recently integrated Coinbase MCP trading agents into Artemis, and she said of all the
+brokerages she worked with, it was the easiest. And so my question is, what could go right for Coinbase
+Agents? Because it's the only MCP that includes x402, prediction markets, equities, and crypto. Like, what
+could go right from here?
+
+Brian Armstrong, Co-Founder and CEO: Yeah, well, thanks for using our MCP. You know, we launched this
+product called Coinbase for Agents a little, a little while back, and it's basically an easy way to connect any
+third-party agent to your Coinbase account. And we really want to make Coinbase the most AI-enabled
+financial account out there for trading and payments and borrowing. So we've been putting a lot of work into
+that MCP API. And honestly, it's been really exciting. I mean, the Agentic trading volume is growing something
+like 20% week over week right now, which is just shocking.
+
+Alesia Haas, CFO: Early days, early days. Early days.
+Brian Armstrong, Co-Founder and CEO: The numbers in this grand scheme of things are still relatively small
+compared to our other trading volume. But to me, it's a clear indication of where things are going. And I'm just
+like, I'm just incredibly excited about the TAM for what the agentic economy could be. I mean, you asked what
+could go right. I think probably like you, we're seeing this trend and thinking, okay, there's going to be more and
+more agents in the economy getting work done on our behalf. They are going to have to pay for things and
+goods and services to get work done or go shopping for us. They're going to have to, in a business context,
+you know, they're going to have to pay for vendors and services to not get stuck at these paywalls, just like you
+would give an expense account to an employee or a budget to a certain team.
+
+This is very clear to us that they're going to need their own financial infrastructure, and they're going to do it for
+trading, too. It's not just payments. And so what does this mean? I mean, they're going to need to have
+accounts with good controls and permissions to make sure you're managing their spending and all that. And I
+think that it's hard to imagine a world where there's not more AI agents than humans at some point in this
+economy. So the agentic economy is going to be massive, and I think it's just one of these opportunities where,
+you know, frankly, we see the legacy players being a little bit hesitant about this and saying, I don't know, this is
+scary. What if these rogue agents do something unexpected? We're not going to let any of these things touch
+our accounts. You know, I kind of feel the opposite. It's an opportunity if we can lean in and build this in a very
+safe and trusted way, which is what Coinbase is known for, using these frontier technologies, AI and crypto,
+which, by the way, they go really well together.
+
+That's just a huge opportunity for us to capture more and more market share as the most AI-enabled financial
+account. So we're all in on this. It's what I wake up thinking about a lot these days.
+
+Jon Ma, Artemis: Yeah, Brian, it gets me really excited because right, like, right before the earnings call, I was
+using the Coinbase MCP to sell some Polkadot. I bought some ServiceNow stock. I sold down some USDC to
+buy another stock. And it was like the only product where everything's all in one place. And so something I'd be
+curious about is Coinbase is already number one in crypto market share for spot in the US. How do we go from
+here to number one across all assets, the everything exchange? Because this does feel very unique. Like
+maybe there's a world where every retail, every user just uses Coinbase for all their different assets because
+it's the only place where their agent could access all these different assets in one place.
+
+Brian Armstrong, Co-Founder and CEO: Yeah, I mean, I think you're right. It gets to what Alesia was saying
+earlier about diversification. A lot of these new bets that we made as part of the Everything Exchange
+investment over the past year have really started to bear fruit now— prediction markets, derivatives—
+because, you know, historically we've been overweight on spot crypto trading, which was down quarter over
+quarter. I don't think that this is widely understood yet. And the facts on the ground are actually looking a lot
+better than it's showing up maybe in the overall numbers, which are more flat-ish. But yeah, it makes sense to
+me that if you have an account where you could do all these things in one place— trading, payments,
+lending— because many of these are synergistic, right? Like, you might want to have a margin account to do
+more trading, or you might, as a business, you might want to do FX trading as you're receiving payments. So
+we believe that all of these things are going to need to work in one account.
+
+We did this with crypto. We can now do it with AI. I think this could be a massive source of new demand for our
+products. So yeah, that's definitely a very exciting moment. And I'll tell you one other fun anecdote, so in
+Coinbase for Agents, we initially, we were going around talking to customers and just, “hey, what would you like
+to see in it?” And building some of those features. One of the engineers on our team, they put an endpoint into
+the Coinbase MCP that is like a /feedback endpoint.
+Jon Ma, Artemis: Oh, wow.
+
+Brian Armstrong, Co-Founder and CEO: And so, so now all day long, as agents are using it, the agents are
+actually sending us feedback. Hundreds of messages are just coming into Slack every day that are different
+things that they want to see. A lot of those get turned into pull requests and now they're live back in production
+a day later. It's starting to get to that recursive self-improvement type feeling. Since that pattern was so
+successful, we're going to think about putting some of that for our internal APIs as well, just because we're
+using lots of agents internally as well. Yeah, every API needs to be agentified, so to speak.
+
+Jon Ma, Artemis: Yeah, Brian, I think folks were wondering, I think Jesse mentioned that you and Jesse were
+like shipping like 44 PRs over a day, and maybe you were responding to the agents that were giving feedback
+about the agent MCP.
+
+Brian Armstrong, Co-Founder and CEO: That's been part of it. Yeah, I mean, I've definitely been getting
+excited to go back and write some code. I mean, it's really the agents writing most of it, but starting my career
+as an engineer, you know you get a little rusty in the code the more CEO stuff you do. But yeah, it's definitely a
+fun moment. I think we're living through this kind of golden age, and AI is changing lots of things, but it's now
+starting to really change financial services. And that's been the biggest opportunity for us. And the level of
+productivity— I think code quality can actually go up as the velocity goes up. We're seeing that as well on the
+cyber front, and the number of bugs and incidents, and reliability can get better.
+
+So it's massively upleveling our internal systems. And then we can go build this infrastructure and provide it for
+all of our customers. To me, this is the future of financial services. I feel like we want to bring frontier
+technologies like crypto and AI to financial services. And I think we're the best company in the world that's set
+up to do that.
+
+Jon Ma, Artemis: Love that.
+
+Alesia Haas, CFO: All right. Well, thank you, Jon, for these questions. And thank you for feedback on the
+products as well. We love it when people give us feedback. So next up, we'd like to introduce Lorenzo Valente
+from ARK and hand it over to you to answer some questions, Lorenzo.
+
+Lorenzo Valente, ARK: Hi, Alesia. Hey, Brian. Thanks for taking these questions. Excited to do this. Maybe I'll
+start with just a question on security and custody in general. There's growing concern out there that AI could
+discover new algos that break cryptography and ECDSA in general. How does that change the security and
+custody setup? And are you accelerating the post-quantum roadmap? So just like a question in terms of
+custody and security in general, how you guys are thinking about that.
+
+Brian Armstrong, Co-Founder and CEO: Yeah, sure. OK, so I think there's really 2 separate things to look at.
+One is the AI, the trends that we're seeing of them coming out with new math proofs and in security things.
+Then there's the quantum question. So these are actually pretty different. I think that when it comes to ECDSA
+and this elliptic curve cryptography, I'm actually not too worried about AI creating a risk there. There's been
+something like a 40-year track record, actually, of people attempting new algorithms to try to make this easier
+to break. And they've basically made zero progress, it requires this brute forcing of a 256-bit number. So it's not
+one of these problems that I don't think AI is going to be able to chip away at it. Now, quantum— is a different
+story. I think quantum, you know, it requires a new type of computer to be built and actually to do it at scale, not
+just like a theoretical one with a couple of qubits. And so I think that's more of a matter of when, not if. Like, I
+think eventually a big enough quantum computer will get made that starts to make this stuff a real issue. So the
+quantum one, I think, is, is the more serious one to look at here.
+And to get ready for this, I mean, we're doing a handful of things. One is we have begun the work to upgrade
+our custody to be post-quantum. So that's important. Now, of course, we also need the blockchains themselves
+to be upgraded and to be quantum resistant. And I know lots of the different blockchains are all working on this.
+Some of them have published their roadmap. You know, one thing that we've been participating as best we can
+on the Bitcoin side. There's an advisory council for Bitcoin around post-quantum that had a really good meeting
+that we attended a few months ago at Stanford. Dan Bonnet was leading that along with a number of other
+folks.
+
+And that was a really great conversation that just got a lot of the people together in the room. And I know that
+the community has put out some of these Bitcoin improvement proposals like BIP-360, and there's others. And
+so, yeah, I mean, my hope is that the Bitcoin community will essentially find a path over the coming couple of
+quarters to start to coalesce around some of these proposals that are out there. And that one, I think, you
+know, it's not, it's not like, it's not imminent. I don't think it's going to happen imminently. But I do think we just,
+it's always good to be proactive and start to get ahead of these things.
+
+Alesia Haas, CFO: I just wanted to add on and share that in 2022, we acquired a team of some of the
+foremost cryptography experts. And this is a space both on the quantum and on the AI side that we are
+monitoring very carefully internally and being really vigilant in investing resources to harden both our own
+ecosystem as well as work in partnership with the community, as Brian shared.
+
+Lorenzo Valente, ARK: Perfect, thanks. Shifting to the tokenized stocks on Base, I know it's still very early,
+obviously, Is the base Sequencer fee the main revenue driver going forward, or are you looking at other
+monetization plans? And just to add to that, we're seeing just a lot of different equities tokenized by several
+exchanges. How do you see that fragmentation going forward, and how do you think about that?
+
+Alesia Haas, CFO: Great questions, Lorenzo. So yes, sequencer fees are the most direct monetization point
+tokenized equities today. And our main opportunity then is the utility of the assets once they're tokenized. And
+as we kind of expand out and build this network and build liquidity, we can explore different ways to monetize.
+But network effect is key. Liquidity is key. And that is the answer to your question on— we're seeing a lot of
+places tokenize equities. We see a lot of stablecoins.
+
+It is easy actually to tokenize something. And I don't mean that the wrong way, but the getting the tokenized
+asset is not the complicated part. Building depth of liquidity, building network effect, that is the hard part. And
+we're really proud that we're one of the firms with partnership with Circle that has really built that with the
+USDC ecosystem as an example. And so we feel like we have the skills, we have the tools to build liquid deep
+markets around these tokenized equities. And that is what we're doing. We've already seen $3 billion, for
+example, tokenized on Base in tokenized equity trading volume since launch of that product for our non-US
+customers. We're just getting started here, but the key is building network effect.
+
+And I do think that what we'll see then over time is things will coalesce and you'll see more and more market
+share gained by the best pricing and the best network effect and liquidity offered in these exchanges.
+
+Brian Armstrong, Co-Founder and CEO: Yeah, only thing I'll add to that is that, you know, we took the time
+to really do this in a thoughtful way, which means that these tokenized equities that we put out, they're, they're
+real deal securities. You can get the upside from dividends. We're implementing voting rights, things like that.
+So there are other things out there in the market that are more like synthetics or derivatives that give you
+exposure to it. But we thought it was important to do it in a way that it's a real security. It can be redeemed for
+the underlying asset, et cetera. And I think just as the largest custodian in crypto, the most trusted brand in
+crypto, this is actually something that we're uniquely good at and have a right to win. I'm excited about
+tokenized equities.
+
+Alesia Haas, CFO: Thanks. Thanks, Lorenzo. We're going to go to our last analyst today, and I'd like to
+introduce Anson, who is the host of Market Bubble, to ask us a few questions.
+
+Ansem, Market Bubble: Hey, how are you guys doing? Thanks for having me on.
+
+Brian Armstrong, Co-Founder and CEO: Yeah, thanks for being here.
+
+Ansem, Market Bubble: Yeah, so this is cool. Actually, I bought my first Bitcoin on Coinbase back in 2017. So
+this is crazy for me. But I know you guys are trying to verticalize a lot of the stack as a financial application
+from spot trading, prediction markets, stablecoin interest, and also institutional trading. But there are also a lot
+of other companies that are trying to do the same thing. How do you guys differentiate in those plans from your
+competitors?
+
+Brian Armstrong, Co-Founder and CEO: Yeah, it's, it's a great question. So I do think you're right. There are
+more and more people coming together around this Everything Exchange idea. You know, I think it depends
+which competitor you're talking about, right? So there's going to be some folks that I think they're not going to
+lean into this frontier technology, whether it's crypto, or AI, or perps, and prediction markets. And so, some of
+the more traditional players are probably not going to have all of these on one platform with a good, let's say,
+agentic trading interface. I think if you look at some of the more tech-forward ones, it depends. I think you have
+to look at— on the surface, they might look similar, but Coinbase is trying to do something a little different than,
+I think, the others, which is, we're not trying to just bring a bunch of people to Wall Street or something. We're
+trying to make a new decentralized financial system that doesn't need Wall Street, and can reach the billions of
+people that the old system didn't really serve.
+
+So I think there's going to be strengths and weaknesses of each of the players, including us. I think that some
+of the areas where we're going to be a little stronger are on the crypto infrastructure side, because that more is
+in line with our mission. And so things like Base have just a really large developer and on-chain ecosystem
+around it. We co-founded USDC. We created the x402 protocol for agentic commerce. We have really good
+decentralized exchange integrations. And I'd say one other advantage that Coinbase has is we actually serve
+not just consumers, but we also serve institutions. We have a developer infrastructure product that we sell.
+
+And so, you know, I think it's a little easier to run a business that has just one customer, but it's actually a lot
+more powerful if you can build the right platform to serve multiple customer types, which we've been investing
+in that platform for a number of years now. I think it's really starting to give us leverage and to amortize. We
+build something once in an excellent way, we can now launch it across multiple customer segments, and we
+can actually bring all of these customers to a new, let's say, a new asset or market on our exchange. And it's
+retail, it's institutional, it's businesses, it's developers from third parties are now all plugging into that.
+
+So those are some of the things we're focused on. Actually, if I could put in one more real quick, I'd say that still
+the majority of financial services are running on the traditional financial system. It's probably 90%, 95%,
+depending how you estimate it. All fintech companies combined are probably, say, 5% to 10% of the financial
+services revenue, which is a massive, massive percentage of GDP.
+
+The real opportunity, I think, is for the tech-enabled fintechs to keep growing and capture that other 90% or
+95% of the market and create net new demand from these new categories like agentic finance. That is really
+our opportunity. You know, we're going to do our best to compete, but we're also going to create new markets
+and capture share from TradFi.
+
+Ansem, Market Bubble: Awesome. I definitely love, love the points about the decentralized financial system. I
+know you guys recently acquired Deribit with your focus more on the institutional investor side of things. How
+have you seen the growth of that product, the perpetual futures and the options, and how has your plans with
+that shifted with the recent shift in more of a positive regulatory environment in the US?
+
+Brian Armstrong, Co-Founder and CEO: Yeah, so we acquired Deribit, which was the largest crypto options
+trading platform out there, and we've made really good progress now integrating it into our existing products.
+So, you know, we've got now this unified regulated global exchange that crosses everything, you know, perps,
+options, futures. We're making Deribit now available to both US and ex-US. So I think we're one of the only
+companies that can unify the global liquidity. Historically, this was fragmented across all the offshore stuff,
+non-US, and then in the US had a different world. We're now unifying much of this. And so it's been a huge
+benefit for us acquiring Deribit. You know, we're— we've said publicly we're going to actually relaunch our
+advanced trader platform under the Coinbase Pro brand. So Coinbase Pro is coming back.
+
+And, you know, you're right, the regulatory front has gotten a lot better as well. I think we're seeing really
+tailwinds from that, not just with the GENIUS Act that became law, but the SEC and CFTC have been very
+forward-thinking and collaborative between the 2 agencies to get more of this stuff available in the US because
+they want to see the US win. And so do we.
+
+Ansem, Market Bubble: Yeah. As far as the, the Coinbase Pro product, I actually used to use when it was
+GDAX back in the day, so it's gonna be nice, that comeback.
+
+Brian Armstrong, Co-Founder and CEO: Nice.
+
+Ansem, Market Bubble: I know you guys have focused a lot on like the regulatory stuff in DC, but I feel like
+you guys haven't done as much on like the consumer retail marketing side. I know it seems like a lot of the
+exchanges that did focus heavily on that turned out to be not having the best practices behind the scenes, but
+I'm curious if you guys have plans to do more marketing along that front to kind of target a different consumer
+or different customer segment?
+
+Brian Armstrong, Co-Founder and CEO: Yeah. So I know this perception is out there sometimes that we're
+almost like more focused on DC than, you know, on traders or something like that. I think, you know, in the
+wake of Sam Bankman-Fried kind of blowing up and FTX, I remember, I remember there was this really kind of
+critical moment where I felt like I had to go represent the industry there because nobody else was doing it. And
+In many ways, I feel like that helped the crypto industry. And, you know, it could have— people forget, like, it
+could have gone really poorly under Gensler. I mean, the industry could have effectively been banned in the
+US. And, like, we had to sue him and push back, and we won that case. And, you know, there's another
+version of history that looks a lot worse.
+
+And so, in many ways, I'm glad that we did that. Now, this doesn't mean— it's not a zero-sum game. Like,
+we've got to— we can go build products, we can go talk to our customers, and help push the regulatory ball
+forward. So, you know, I'll still be in DC periodically, but more and more my focus now is shifting to really just
+talking to our customers, improving our products. That's going to be my focus much more in 2027. So yeah, I
+think I'd leave it at that.
+Alesia Haas, CFO: Well, that's a perfect place to end. We're going to focus on our customers. Thank you all
+for joining us for our Q&A for our Q3 2026 earnings. If you haven't already, please go check out our
+presentation that Brian and I posted to our IR website where we discuss our quarterly results. And we will see
+you next quarter. Thank you all.
+
+Brian Armstrong, Co-Founder and CEO: Thanks, y'all.
+

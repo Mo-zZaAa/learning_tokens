@@ -1,0 +1,183 @@
+Coinbase Global, Inc.
+Third Quarter 2026 Earnings Presentation
+October 29, 2026
+
+Shan Aggarwal, Chief Business Officer & Head of IR: Our discussion today includes forward-looking
+statements, which may vary materially from our actual results. Please refer to our SEC filings and earnings
+presentation for information concerning risks, uncertainties, and other factors that could cause these results to
+differ. In addition, our discussion today includes certain non-GAAP financial measures. Reconciliations to the
+most directly comparable GAAP financial measures are provided in the earnings presentation on our Investor
+Relations website.
+
+Brian Armstrong, Co-Founder and CEO: Our mission at Coinbase is to increase economic freedom in the
+world, and we're using frontier technology like crypto and AI to update the financial system and make it work
+better for everyone. Now, financial services is one of the largest markets in the world, and crypto is going to
+update all of it from trading to payments to tokenization.
+
+And we're now seeing the biggest opportunity we've seen on the horizon with agentic finance. There will soon
+be more agents than humans in the economy, and they're going to need to trade on our behalf, pay for goods
+and services, and even raise money. Agentic finance is projected to process $3 to $5 trillion of transactions by
+2030, and Coinbase is building the most AI-enabled financial account.
+
+Today, we are the number one platform for crypto stored globally. We're the number one crypto spot exchange
+in the US. We have the leading distribution position for the number one regulated stablecoin, USDC. And we
+have this repeatable innovation culture, which is helping us spin up new product lines and diversify our
+revenue, which we'll talk about in a moment.
+
+Now, the crypto market cap was slow in Q3, but we continued to execute well on the things that are in our
+control and compound gains. So prediction markets passed $200 million in annualized revenue. We had our
+14th consecutive all-time high of USDC held in Coinbase products. We had our 4th consecutive quarter of
+crypto trading market share gains, and our 5th consecutive all-time high in Coinbase One paid subscribers.
+
+We doubled crypto trading volume market share since this time last year, so it's now at 10.7%. And this was
+driven by gains in both spot and derivatives.
+
+And then one of our major assets, of course, is that we're the most trusted player in crypto, and that means
+that we store more crypto than any other company in the world. So it was great to see that we returned to our
+peak assets on platform market share. This included seeing some nice inflows from the ETFs.
+
+And we hit an all-time high in USDC stored on Coinbase, despite a slight dip in the overall market cap of
+USDC. Just a reminder, we capture about 50% of all USDC economics, and our overarching goal here is just
+to keep growing stablecoin adoption globally.
+
+Now, here's a reminder, our top 3 priorities in 2026. They were number 1, the Everything Exchange, number 2,
+stablecoins and payments, and number 3, on-chain. So I'll touch on each of these just briefly.
+
+So the Everything Exchange, which is really the ability to trade every asset class on one platform, it's really
+now starting to work. So for example, derivatives volume grew 179% over the past 2 years. And we've been
+
+
+                                                                                                                   1
+working hard on building out things like unified global liquidity, and relaunching Coinbase Pro, which is our
+product for advanced traders.
+
+Prediction Markets are one of the fastest-growing products by revenue in Coinbase history, an important part of
+the Everything Exchange, and we saw 82% quarterly compound growth. Now, this has been growing even
+through slower months around sports, and this has been driven by things like crypto contracts, where we have
+a strong right to win. And so we're just going to continue to build great product here. We've been shipping good
+product around the 2026 midterms, for instance, and we got CFTC approval to list our own prediction market
+contracts now, which will improve our economics.
+
+Now, customers who want to use the Everything Exchange with zero trading fees, they can subscribe to
+Coinbase One, and we've seen good progress here as well. You know, Coinbase One has grown 5 quarters in
+a row, even through tough market conditions, and there's lots of benefits to it. In addition to zero trading fees,
+customers can get better rewards on USDC, their Coinbase One card, staking, and more. So even if they're
+holding, let's just say, just $1,500 of USDC on Coinbase, the rewards from that alone pay for this membership.
+So Coinbase One subscribers are our most valuable customers with higher revenue per customer and strong
+trading retention.
+
+Our second priority in 2026 was stablecoins and payments. And everyone's now leaning into stablecoins as a
+better form of payments. We now have top banks, payment service providers, and e-commerce players as
+customers. We just recently announced Citi, for instance, and we're seeing strong growth in total payment
+volume on CDP, which is our crypto infrastructure product.
+
+And then our third priority in 2026 was what we call on-chain. So this is how we're moving more of financial
+services onto decentralized blockchains so that we can do things better for our customers. And Base is the
+blockchain that we launched, and it's still the number one layer 2 for crypto spot trading and DeFi total value
+locked. Borrow/lend balances have been growing really nicely on Base, and tokenized equities trading volume
+just crossed over $1 billion. On the tokenized equities front, by the way, we took the time to do this in a very
+thoughtful way. We think we now have the solid foundation where we can see steady growth.
+
+So in conclusion, we are building the future of finance here on Coinbase. And we're doing that by using frontier
+technologies like crypto and AI to build a better financial system for everyone. Our goal really is just to build the
+best place to grow, use, and move your money, whether you're a person, a business, or increasingly, an AI
+agent. So with that, I will hand it over to Alesia to give you an update on our financials.
+
+Alesia Haas, CFO: Thanks, Brian. All right, let's get started with our financial results. In the 3rd quarter of
+2026, we generated $1.2 billion of total revenues, split roughly half and half between transaction revenues and
+subscription and services revenues. Quarterly net income was $719 million, driven largely by unrealized gains
+on crypto assets that we hold for investment. Our adjusted net income was $78 million, and we grew adjusted
+EBITDA 60% quarter over quarter to $333 million. I will unpack these results and more in the following slides.
+
+But let's start with a quick read on the quarter. The market backdrop was challenging, but the business is
+healthy. As we go through the slides today, all the comparisons I'm going to share will be on a
+quarter-over-quarter basis unless I note otherwise.
+
+We started the quarter with year-to-date lows in crypto market volumes and volatility. Total market crypto
+trading volumes fell 10% in the quarter, and volatility compressed to multi-year lows. However, conditions did
+improve in September, and total crypto market cap rose 37% from the end of Q2, and volatility increased
+                                                                                                                   2
+through the end of the quarter. Against that backdrop, Coinbase gained crypto trading volume market share for
+the 4th consecutive quarter across both spot and derivatives trading volumes.
+
+Prediction markets continued to scale. We surpassed $200 million in annualized revenues. We are pleased to
+see more than a 60% increase in daily prediction traders. And these traders, they're trading a wide variety of
+contracts. In the 3rd quarter, more than 50% of contracts traded were non-sports.
+
+Our subscription and services revenues grew 3% thanks to strength in stablecoins, staking, and financing.
+Coinbase One paid subscribers increased for the 5th quarter in a row. And we lowered our adjusted expenses.
+
+Our results were in line or lower than our guidance. Subscription and services trended towards the high end of
+the range, thanks to strong native unit inflows across USDC, staking, and custody. And we saw a modest
+tailwind from asset prices that rose late in the quarter, as I mentioned.
+
+Transaction expenses were within our mid-teens outlook, though slightly elevated due to the strong growth in
+prediction markets. Adjusted expenses came in slightly lower than our outlook. The largest driver of the decline
+in Q3 was first, lower headcount, as we received a full quarter of benefit of the reductions we announced in the
+second quarter. Second, we saw lower professional services expenses, which in part was driven by spend
+shifting from the 3rd quarter to the 4th quarter.
+
+Total revenue was $1.2 billion in Q3, roughly flat despite a 10% decline in total market crypto trading volume I
+mentioned earlier. The growth in prediction markets and subscription and services helped offset the softer
+crypto trading activity. Predictions and derivatives combined contributed 25% of transaction revenue, and
+subscription and services contributed nearly half of net revenue. Our focus is on building a diversified portfolio
+of products that reduces our reliance on crypto market cycles and supports durable long-term revenue growth.
+
+Transaction revenue was essentially stable at $590 million. Consumer revenue was $450 million, roughly flat,
+as continued growth in prediction markets helped offset softer crypto trading activity. Institutional revenue was
+$92 million, down 8%, roughly in line with broader market declines, and other transaction revenue was $48
+million, up 2%.
+
+Subscription and services revenue grew 3% to $570 million, representing 49% of net revenue. Stablecoin
+revenue grew 5% to $307 million. The average USDC held in Coinbase products reached a new all-time high
+of $22 billion, and higher balances and interest rates helped more than offset the lower off-platform balances.
+Blockchain rewards grew 3% to $86 million, driven by higher asset prices and growth in native units staked.
+Interest and finance fee income grew 4% to $69 million, supported by a new all-time high in our average daily
+loans outstanding. Other subscription and services revenue was $109 million, down 4%.
+
+Now turning to expenses. Adjusted expenses were $975 million, down 6%. Technology and development
+declined 5% to $447 million, reflecting lower employee-related spend and a full quarter benefit from the actions
+we announced in May. General and administrative expenses declined 11% to $319 million, primarily from lower
+professional services expenses, due in part to the anticipated Q3 expenses shifting to the 4th quarter. Sales
+and marketing expenses increased 1% to $243 million as higher USDC rewards were partially offset by lower
+media and event spend. Transaction expenses were 17% of net revenue, with growth in prediction markets
+increasing the contribution from associated exchange fees.
+
+
+
+
+                                                                                                                    3
+Adjusted EBITDA grew 60% to $333 million, marking our 15th consecutive positive quarter across multiple
+market environments. And as we've said before, we remain committed to generating positive adjusted EBITDA
+in all market environments.
+
+We ended Q3 with $8.6 billion in cash and cash equivalents and approximately $11 billion in total available
+resources. This gives us the flexibility to invest through cycles, pursue strategic opportunities, and return
+capital to investors.
+
+Our share count remained flat. We continue to take an opportunistic view towards managing dilution, and
+we've remained with approximately $2 billion of repurchase authorization available.
+
+Now, turning to our outlook, a few highlights. Transaction revenue through October 25th is approximately $165
+million. We expect subscription and services revenues of $550 to $630 million, up about 3% at the midpoint,
+driven by higher average interest rates and quarter-to-date asset prices. We expect transaction expenses in
+the mid-teens consistent with Q3, however, dependent on revenue mix. We expect adjusted expenses to range
+from $1.07 billion to $1.157 billion. The primary driver of the sequential increase is driven by marketing spend,
+which includes the full quarter impact of USDC rewards paid to Hyperliquid and discretionary marketing
+investments in products like prediction markets, where we see strong demand and growth. Additionally, we
+expect professional services expenses to look more like the Q2 levels and normalize from the
+lower-than-anticipated Q3 expense that we reported.
+
+Now turning to our full-year outlook, we are again lowering and narrowing our 2026 adjusted expense guidance
+to $4.15 to $4.3 billion. The midpoint of our updated range implies a roughly 1% year-over-year decline in our
+adjusted expenses, reflecting expense discipline despite growing investments in USDC Rewards and
+high-growth products.
+
+Thank you for listening to our Q3 2026 earnings presentation. We look forward to discussing our business and
+results during the Q&A session hosted on X Spaces at 2 PM Pacific time.
+
+
+
+
+                                                                                                                4
+
