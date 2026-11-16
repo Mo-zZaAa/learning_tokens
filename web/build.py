@@ -222,7 +222,7 @@ def parse(path):
             row["link"] = link
         if label == "주장" and level == "b":
             row["claim"] = True
-        if cur["code"] != "발언" and any(w in text for w in ORANGE_WORDS):
+        if cur["code"] != "발언" and any(w in re.sub(r"Securitize 후원", "", text) for w in ORANGE_WORDS):
             row["orange"] = True
         cur["rows"].append(row)
     return logo, sections
