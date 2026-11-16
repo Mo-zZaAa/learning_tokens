@@ -63,8 +63,17 @@
   ★ 2026-11-16 발행 잔액 1,520만 달러, 11위(점유율 0.41%) [F-1027]
   ★ 1~3위는 Binance, Ondo, Kraken(13.6억, 9.0억, 6.8억 달러) [F-1021][F-1022][F-1023]
   ★ 종목 수 2023-12 20종에서 2026-11 724종 이상 [F-0275][F-0339]
+● 규모 과거 대비
+  ★ 2026-01 초 300만 달러 7위(0.37%) → 11-16 1,520만 11위(0.41%) [TP-004][F-1027]
+  ★ 잔액 5.1배 [TP-004][F-1027]
+  ![rwa.xyz 순위표(Sentora 주간 글, 2026-01-09)](../captures/reports/W1_sentora_rwa_league_table_2026-01.png)
 ● 수수료
   ★ 파트너 API 월 2,000달러부터, 주문당 0.20달러 [F-0336]
+● 제3자 시각
+  ★ 운영 모델이 Robinhood EU판과 거의 같음(포필러스, Securitize 후원, 2026-02 기준, 미국판 이전) [TP-117]
+  ★ 개인 수수료 네트워크 0.2~50달러, 주문 0.25~0.50%(포필러스, Securitize 후원, 미국 밖판) [TP-118]
+  ★ 배당의 5% 수취(포필러스, Securitize 후원, 미국 밖판) [TP-118]
+  ![간접 방식 흐름, Dinari는 미국 밖판에만 해당(포필러스, Securitize 후원, 2026-02)](../captures/reports/R1_p26_indirect_tokenization.png)
 
 ## C 최종 투자자
 ● 주장 : 미국 밖 개인은 파트너 앱으로, 미국 개인은 직접 [F-0332][F-0319]
@@ -84,6 +93,10 @@
 ● 거래 장소
   ★ 사용 블록체인 : Ethereum, Arbitrum, Avalanche, Base 등 7개 [F-0344]
   ★ 24시간 거래 : 2025-12 Flow Traders(시장조성사)와 제휴 [F-1036]
+● 제3자 시각
+  ★ 토큰은 Dinari 등록 이용자끼리만 이전(포필러스, Securitize 후원, 2026-02 기준) [TP-120]
+  ★ 배당은 USD+ 스테이블코인으로 지급(포필러스, Securitize 후원) [TP-120]
+  ![간접 방식 4사 비교표(포필러스, Securitize 후원, 2026-02, 미국판 이전)](../captures/reports/R1_p36_indirect_platforms_table.png)
 
 ## E 인가
 ● 주장 : 증권사와 명의개서는 직접 등록, 청산과 보관은 위탁 [F-1055][F-0116][F-0315]
@@ -91,6 +104,9 @@
   ★ 미국 증권사 : Dinari Securities, 2025-06-20 직접 등록 [F-0116]
   ★ 증권사는 FINRA 회원, 53개 주 등록 [F-0116][F-0120]
   ★ 명의개서대리인 : Dinari, Inc. 직접 보유(회사 발표) [F-1055]
+● 제3자 시각
+  ★ 표에 SEC 명의개서대리인, FINRA 증권사로 적힘(CoinDesk Research, Bullish 의뢰, 2026-08 기준) [TP-119]
+  ★ 표는 Dinari를 보관형으로 묶어 우리 분류와 다름(CoinDesk Research) [TP-119]
 ● 인가 없는 구간을 메우는 방법
   ★ 청산, 결제, 보관은 Alpaca에 위탁 [F-0315]
 ● 미국 등록의 대가
@@ -130,6 +146,21 @@
 ● 제약과 리스크
   ★ dShares는 SIPC(미국 증권사 파산 보호) 대상 아님 [F-0292]
   ★ 회사가 토큰 동결, 소각, 재발행 권한 보유 [F-0320]
+● 제3자 평가
+  ★ 평가 1 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 39쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks [TP-117]
+    ① 원문 : "The operating model is almost identical to Robinhood’s Stock Tokens."
+    ② 번역 : 운영 모델은 Robinhood의 Stock Tokens와 거의 같다.
+    ③ 해석 : 2026-02 기준 미국 밖 dShares 설명으로 미국판(2026-08) 이전. 미국판은 계좌 속 주식 구조라 이 평가를 미국판에 옮기면 안 됨
+  ![평가 1 원문](../captures/reports/quotes/TP-117.png)
+  ★ 평가 2 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 39쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks [TP-118]
+    ① 원문 : "dShares carry a relatively high number of fees."
+    ② 번역 : dShares는 수수료 항목이 비교적 많다.
+    ③ 해석 : 개인 직접 이용 기준 수수료. 우리 본문의 파트너 API 요금(F-0336)과 대상이 다르므로 섞어 읽지 않음
+  ![평가 2 원문](../captures/reports/quotes/TP-118.png)
+  ★ 평가 3 : CoinDesk Research(Bullish 의뢰), 발행사 안내서 비교표, 2026-09-29(2026-08 기준), 10쪽, https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities [TP-119]
+    ① 원문 : 표 칸 "Custodial tokenized equities", "Econ only", "Dinari-held", "SEC TA + FINRA BD"(Dinari 열)
+    ② 번역 : 보관형, 경제적 권리만, 장부는 Dinari가 보유, SEC 명의개서대리인과 FINRA 증권사.
+    ③ 해석 : 발행사 직접 방식을 미는 의뢰사 표. 미국판과 미국 밖판을 한 열로 묶어 우리 분류(미국판 보관형, 밖판 연계증권)와 다름. 표 원문은 칸 글자라 캡처 없음
 ● KDX 시사점 1
   ★ 받치는 명제 : 시장 인프라 Unbundling [F-1055][F-0116][F-0315]
   ★ KDX가 가져올 것 : 기록, 중개는 직접, 청산, 보관은 위탁 [F-1055][F-0116][F-0315]

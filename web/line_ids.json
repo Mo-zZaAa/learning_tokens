@@ -1,6 +1,6 @@
 {
  "kr": {
-  "next": 168,
+  "next": 208,
   "lines": {
    "kr-0001": {
     "sec": "개요",
@@ -669,11 +669,171 @@
    "kr-0167": {
     "sec": "판단",
     "text": "★ 경제성 : 운용보수 연 5% 이내"
+   },
+   "kr-0168": {
+    "sec": "B",
+    "text": "● 규모 과거 대비"
+   },
+   "kr-0169": {
+    "sec": "B",
+    "text": "★ 2026-01 초 1.95억 달러 2위(24.37%) → 11-16 6.77억 3위(18.26%)"
+   },
+   "kr-0170": {
+    "sec": "B",
+    "text": "★ 3.5배, 점유율 6.1%p 하락"
+   },
+   "kr-0171": {
+    "sec": "B",
+    "text": "![rwa.xyz 순위표(Sentora 주간 글, 2026-01-09)](../captures/reports/W1_sentora_rwa_league_table_2026-01.png)"
+   },
+   "kr-0172": {
+    "sec": "B",
+    "text": "● 제3자 시각"
+   },
+   "kr-0173": {
+    "sec": "B",
+    "text": "★ 스위스 본사와 저지 SPV, 무기명 채무증권(포필러스, Securitize 후원, 2026-02 기준)"
+   },
+   "kr-0174": {
+    "sec": "B",
+    "text": "★ 발행, 상환 수수료 0.5%, 보수 연 0.25% 도입 가능(포필러스, Securitize 후원, 문서 기재)"
+   },
+   "kr-0175": {
+    "sec": "B",
+    "text": "![합성형 흐름(CoinDesk Research, Bullish 의뢰, 2026-09)](../captures/reports/R2_p08_synthetic.png)"
+   },
+   "kr-0176": {
+    "sec": "B",
+    "text": "![간접 방식 흐름(포필러스, Securitize 후원, 2026-02)](../captures/reports/R1_p26_indirect_tokenization.png)"
+   },
+   "kr-0177": {
+    "sec": "C",
+    "text": "● 제3자 시각"
+   },
+   "kr-0178": {
+    "sec": "C",
+    "text": "★ 발행, 상환만 KYC, 이후 자유 유통(포필러스, Securitize 후원, 2026-02 기준)"
+   },
+   "kr-0179": {
+    "sec": "C",
+    "text": "★ 거래 78%가 100달러 미만, 2025-07~10(포필러스, Securitize 후원)"
+   },
+   "kr-0180": {
+    "sec": "C",
+    "text": "★ 위 78%는 Backed와 Ondo 합산, Kraken 단독 아님(포필러스, Securitize 후원)"
+   },
+   "kr-0181": {
+    "sec": "D",
+    "text": "● 제3자 시각"
+   },
+   "kr-0182": {
+    "sec": "D",
+    "text": "★ 100만 달러 교환 시 TSLAx 약 5%, NVDAx 최대 80% 밀림(Jupiter 탈중앙 거래소 기준, 포필러스, Securitize 후원, 2026-02 발간, 시점 미표기)"
+   },
+   "kr-0183": {
+    "sec": "D",
+    "text": "★ 미국장 휴장 때 가격이 벌어질 수 있다고 xStocks 문서가 밝힘(CoinDesk Research, Bullish 의뢰, 2026-08 기준)"
+   },
+   "kr-0184": {
+    "sec": "D",
+    "text": "★ Bybit xStocks 누적 거래대금 약 5.5억 달러(포필러스, Securitize 후원, 2026-02 이전)"
+   },
+   "kr-0185": {
+    "sec": "D",
+    "text": "![간접 방식 4사 비교표(포필러스, Securitize 후원, 2026-02, Backed 열)](../captures/reports/R1_p36_indirect_platforms_table.png)"
+   },
+   "kr-0186": {
+    "sec": "E",
+    "text": "● 제3자 시각"
+   },
+   "kr-0187": {
+    "sec": "E",
+    "text": "★ 스위스법 준거, 리히텐슈타인 승인으로 EU 유통(포필러스, Securitize 후원)"
+   },
+   "kr-0188": {
+    "sec": "E",
+    "text": "★ 유럽 판매는 키프로스 법인 인가, 그 법인이 직접 상대방(포필러스, Securitize 후원)"
+   },
+   "kr-0189": {
+    "sec": "차이",
+    "text": "● 제3자 시각"
+   },
+   "kr-0190": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 여러 관할 결합으로 EU 전역 유통(포필러스, Securitize 후원)"
+   },
+   "kr-0191": {
+    "sec": "판단",
+    "text": "★ 큰 금액 교환은 가격 밀림, 100만 달러 TSLAx 약 5%(포필러스, Securitize 후원)"
+   },
+   "kr-0192": {
+    "sec": "판단",
+    "text": "● 제3자 평가"
+   },
+   "kr-0193": {
+    "sec": "판단",
+    "text": "★ 평가 1 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 70쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks"
+   },
+   "kr-0194": {
+    "sec": "판단",
+    "text": "① 원문 : \"For example, swapping $1M of TSLAx on Jupiter results in roughly 5% slippage, while NVDAx experiences slippage as high as 80%, rendering it effectively untradeable.\""
+   },
+   "kr-0195": {
+    "sec": "판단",
+    "text": "② 번역 : 예를 들어 Jupiter에서 TSLAx 100만 달러를 교환하면 가격이 약 5% 밀리고, NVDAx는 최대 80%까지 밀려 사실상 거래할 수 없다."
+   },
+   "kr-0196": {
+    "sec": "판단",
+    "text": "③ 해석 : 100만 달러 기준, 탈중앙 거래소 Jupiter 사례이며 Kraken 앱 체결과는 다름. 2026-02 발간 보고서라 현재 유동성과 다를 수 있음"
+   },
+   "kr-0197": {
+    "sec": "판단",
+    "text": "![평가 1 원문](../captures/reports/quotes/TP-111.png)"
+   },
+   "kr-0198": {
+    "sec": "판단",
+    "text": "★ 평가 2 : CoinDesk Research(Bullish 의뢰), 발행사 안내서, 2026-09-29, 15쪽, https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities"
+   },
+   "kr-0199": {
+    "sec": "판단",
+    "text": "① 원문 : \"xStocks’ documentation, for instance, notes that token prices may diverge from the underlying shares when U.S. markets are closed, liquidity is thin, or reference pricing is stale.\""
+   },
+   "kr-0200": {
+    "sec": "판단",
+    "text": "② 번역 : 예컨대 xStocks 문서는 미국 시장 휴장, 유동성 부족, 기준 가격 지연 때 토큰 가격이 원주와 벌어질 수 있다고 밝힌다."
+   },
+   "kr-0201": {
+    "sec": "판단",
+    "text": "③ 해석 : 발행사 직접 방식을 미는 의뢰사 글이라 래퍼 방식에 불리하게 쓴 면이 있으나 출처는 xStocks 자체 문서. 한국에서 가격 괴리 고지 기준에 참고"
+   },
+   "kr-0202": {
+    "sec": "판단",
+    "text": "![평가 2 원문](../captures/reports/quotes/TP-112.png)"
+   },
+   "kr-0203": {
+    "sec": "판단",
+    "text": "★ 평가 3 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 77쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks"
+   },
+   "kr-0204": {
+    "sec": "판단",
+    "text": "① 원문 : \"In addition, an analysis of trading data from Backed Finance and Ondo between July and October 2025 shows that 78% of all trades were under $100.\""
+   },
+   "kr-0205": {
+    "sec": "판단",
+    "text": "② 번역 : Backed와 Ondo의 2025년 7월~10월 거래 데이터를 보면 전체 거래의 78%가 100달러 미만이었다."
+   },
+   "kr-0206": {
+    "sec": "판단",
+    "text": "③ 해석 : 두 발행사 합산 수치로 Kraken만의 값이 아님. 소액 개인 수요라는 방향만 참고"
+   },
+   "kr-0207": {
+    "sec": "판단",
+    "text": "![평가 3 원문](../captures/reports/quotes/TP-113.png)"
    }
   }
  },
  "rh": {
-  "next": 149,
+  "next": 189,
   "lines": {
    "rh-0001": {
     "sec": "개요",
@@ -1266,11 +1426,171 @@
    "rh-0148": {
     "sec": "발언",
     "text": "![발언 4](../captures/quotes/Robinhood_04.png)"
+   },
+   "rh-0149": {
+    "sec": "개요",
+    "text": "● 출발 사업 수익 구조"
+   },
+   "rh-0150": {
+    "sec": "개요",
+    "text": "★ 고객 주문을 Citadel로 보내고 PFOF를 받음(포필러스, Securitize 후원, 2026-02)"
+   },
+   "rh-0151": {
+    "sec": "개요",
+    "text": "★ 필자는 무수수료를 착시로 서술(포필러스)"
+   },
+   "rh-0152": {
+    "sec": "B",
+    "text": "● 규모 과거 대비"
+   },
+   "rh-0153": {
+    "sec": "B",
+    "text": "★ 2026-01 초 rwa.xyz 표에는 없음(집계 전)"
+   },
+   "rh-0154": {
+    "sec": "B",
+    "text": "● 제3자 시각"
+   },
+   "rh-0155": {
+    "sec": "B",
+    "text": "★ EU 법인이 원주 사고 파생계약 토큰 지급(포필러스, Securitize 후원, 2026-02 기준이라 지갑판 이전)"
+   },
+   "rh-0156": {
+    "sec": "B",
+    "text": "★ 투자자는 EU 법인 상대 계약상 청구권 보유(포필러스, Securitize 후원)"
+   },
+   "rh-0157": {
+    "sec": "B",
+    "text": "![합성형 흐름(CoinDesk Research, Bullish 의뢰, 2026-09)](../captures/reports/R2_p08_synthetic.png)"
+   },
+   "rh-0158": {
+    "sec": "B",
+    "text": "![간접 방식 흐름(포필러스, Securitize 후원, 2026-02)](../captures/reports/R1_p26_indirect_tokenization.png)"
+   },
+   "rh-0159": {
+    "sec": "D",
+    "text": "● 제3자 시각"
+   },
+   "rh-0160": {
+    "sec": "D",
+    "text": "★ 담보 서비스 없음, 원주 상환 불가(포필러스, Securitize 후원, 2026-02 기준)"
+   },
+   "rh-0161": {
+    "sec": "D",
+    "text": "★ 앱 안에서만 거래, 회사가 상대방 겸 유동성 공급자(포필러스, Securitize 후원)"
+   },
+   "rh-0162": {
+    "sec": "D",
+    "text": "★ 출금 제한으로 자산이 자체 플랫폼에 머문다는 보도, 지갑판 출시 전 상태(Finance Magnates, 2026-03)"
+   },
+   "rh-0163": {
+    "sec": "D",
+    "text": "![간접 방식 4사 비교표(포필러스, Securitize 후원, 2026-02, 지갑판 이전)](../captures/reports/R1_p36_indirect_platforms_table.png)"
+   },
+   "rh-0164": {
+    "sec": "E",
+    "text": "● 제3자 시각"
+   },
+   "rh-0165": {
+    "sec": "E",
+    "text": "★ 리투아니아 인가로 EEA 30여 개국 판매(포필러스, Securitize 후원, 2026-02 기준)"
+   },
+   "rh-0166": {
+    "sec": "E",
+    "text": "★ MiFID II 장외 파생이라 회사가 직접 상대방(포필러스, Securitize 후원)"
+   },
+   "rh-0167": {
+    "sec": "E",
+    "text": "★ 장부 기록 의무가 없어 분산원장 사용 가능(포필러스, Securitize 후원 설명)"
+   },
+   "rh-0168": {
+    "sec": "E",
+    "text": "![리투아니아 역할 분담(포필러스, Securitize 후원, 2026-02, 표 출처 Dan Kim LawVax)](../captures/reports/R1_p56_robinhood_lithuania_table.png)"
+   },
+   "rh-0169": {
+    "sec": "차이",
+    "text": "● 제3자 시각"
+   },
+   "rh-0170": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 장외 파생이라 시범제도 면제 불필요(포필러스, Securitize 후원)"
+   },
+   "rh-0171": {
+    "sec": "판단",
+    "text": "● 제약과 리스크 대조(제3자)"
+   },
+   "rh-0172": {
+    "sec": "판단",
+    "text": "★ 비상장 토큰은 소유권과 상환 없음, OpenAI 승인 부인(포필러스, Securitize 후원)"
+   },
+   "rh-0173": {
+    "sec": "판단",
+    "text": "★ IOSCO 각주가 Robinhood 비상장 토큰 보도를 사례로 듦(IOSCO, 감독기구)"
+   },
+   "rh-0174": {
+    "sec": "판단",
+    "text": "● 제3자 평가"
+   },
+   "rh-0175": {
+    "sec": "판단",
+    "text": "★ 평가 1 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 29쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks"
+   },
+   "rh-0176": {
+    "sec": "판단",
+    "text": "① 원문 : \"From a personal perspective, I also view indirect tokenization as a transitional approach.\""
+   },
+   "rh-0177": {
+    "sec": "판단",
+    "text": "② 번역 : 개인적으로 나는 간접 토큰화를 과도기 방식으로 본다."
+   },
+   "rh-0178": {
+    "sec": "판단",
+    "text": "③ 해석 : 직접 방식을 쓰는 후원사 쪽 보고서의 견해. 인가 없이 낸 간접 방식이 규제 명확화 뒤에도 남을지가 KDX가 볼 점"
+   },
+   "rh-0179": {
+    "sec": "판단",
+    "text": "![평가 1 원문](../captures/reports/quotes/TP-101.png)"
+   },
+   "rh-0180": {
+    "sec": "판단",
+    "text": "★ 평가 2 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 69쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks"
+   },
+   "rh-0181": {
+    "sec": "판단",
+    "text": "① 원문 : \"Robinhood acts as both counterparty and liquidity provider, internalizing user order flow within its platform.\""
+   },
+   "rh-0182": {
+    "sec": "판단",
+    "text": "② 번역 : Robinhood은 상대방이자 유동성 공급자로서 이용자 주문을 자기 플랫폼 안에서 내부 처리한다."
+   },
+   "rh-0183": {
+    "sec": "판단",
+    "text": "③ 해석 : 2026-02 기준이라 자체 체인과 지갑판 이전 설명. 회사가 상대방을 겸하는 구조의 이해상충 고지가 KDX가 볼 점"
+   },
+   "rh-0184": {
+    "sec": "판단",
+    "text": "![평가 2 원문](../captures/reports/quotes/TP-102.png)"
+   },
+   "rh-0185": {
+    "sec": "판단",
+    "text": "★ 평가 3 : CoinDesk Research(Bullish 의뢰), 발행사 안내서 비교표, 2026-09-29(2026-08 기준), 10쪽, https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities"
+   },
+   "rh-0186": {
+    "sec": "판단",
+    "text": "① 원문 : 표 칸 \"Synthetic tokenized equities\", \"Derivative\", \"Debt / no rights\", \"Shadow / no consent\"(Robinhood 열)"
+   },
+   "rh-0187": {
+    "sec": "판단",
+    "text": "② 번역 : 합성형 토큰 주식, 파생, 채무이고 주주권 없음, 발행사 동의 없는 구조."
+   },
+   "rh-0188": {
+    "sec": "판단",
+    "text": "③ 해석 : 발행사 직접 방식에 유리한 의뢰사 표라 낮게 매긴 면이 있음. 지갑판 반영 표라 EU판과 구분해 읽어야 함. 표 원문은 이미지 아닌 칸 글자라 캡처 없음"
    }
   }
  },
  "bn": {
-  "next": 133,
+  "next": 150,
   "lines": {
    "bn-0001": {
     "sec": "개요",
@@ -1799,11 +2119,79 @@
    "bn-0132": {
     "sec": "판단",
     "text": "★ 경제성 : 담보 활용 거래 확대, 누적 거래량 400억 달러"
+   },
+   "bn-0133": {
+    "sec": "B",
+    "text": "● 규모의 과거 대비(2026-01 초 기준)"
+   },
+   "bn-0134": {
+    "sec": "B",
+    "text": "★ 2026-01 초 rwa.xyz 표에는 없음(bStocks 2026-06 출시)"
+   },
+   "bn-0135": {
+    "sec": "B",
+    "text": "● 제3자 시각(구조)"
+   },
+   "bn-0136": {
+    "sec": "B",
+    "text": "★ 보관형, 발행사 동의 없음, 장부는 Binance 보유 (CoinDesk Research, Bullish 의뢰)"
+   },
+   "bn-0137": {
+    "sec": "B",
+    "text": "★ 표는 보관형으로 묶음, 투자설명서상은 신탁 수익권"
+   },
+   "bn-0138": {
+    "sec": "D",
+    "text": "● 제3자 시각(유통)"
+   },
+   "bn-0139": {
+    "sec": "D",
+    "text": "★ bStocks를 BNB Chain 대출 담보로 쓴다고 서술 (CoinDesk Research, Bullish 의뢰)"
+   },
+   "bn-0140": {
+    "sec": "판단",
+    "text": "● 제3자 평가"
+   },
+   "bn-0141": {
+    "sec": "판단",
+    "text": "★ 평가 1 : CoinDesk Research(Bullish 의뢰, 발행사 직접 방식에 유리하게 씀), The Future of Equity Ownership: An Issuer's Guide to Tokenized Equities, 2026-09-29(표 기준 2026-08), 10쪽 표, https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities"
+   },
+   "bn-0142": {
+    "sec": "판단",
+    "text": "① 원문 : 표 Binance 열 \"Custodial tokenized equities\", \"No consent\", \"Claim / cert\", \"Binance-held\", \"Partial\", \"Not for US\""
+   },
+   "bn-0143": {
+    "sec": "판단",
+    "text": "② 번역 : 보관형 토큰 주식, 발행사 동의 없음, 청구권 또는 증서, Binance가 보유, 권리 일부, 미국 불가."
+   },
+   "bn-0144": {
+    "sec": "판단",
+    "text": "③ 해석 : 표는 Binance를 Dinari와 같은 보관형으로 묶었으나 투자설명서상은 신탁 수익권이고 표 각주는 두 상품 중 좋은 쪽으로 채점했다고 밝힘. 그래서 KDX는 우리 분류를 유지하고 발행사 동의 없는 구조라는 점을 볼 것"
+   },
+   "bn-0145": {
+    "sec": "판단",
+    "text": "★ 평가 2 : CoinDesk Research(Bullish 의뢰, 발행사 직접 방식에 유리하게 씀), The Future of Equity Ownership: An Issuer's Guide to Tokenized Equities, 2026-09-29, 15쪽, https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities"
+   },
+   "bn-0146": {
+    "sec": "판단",
+    "text": "① 원문 : \"Binance’s bStocks, for example, can be used as collateral in lending protocols on BNB Chain.\""
+   },
+   "bn-0147": {
+    "sec": "판단",
+    "text": "② 번역 : 예를 들어 Binance의 bStocks는 BNB Chain의 대출 프로토콜에서 담보로 쓸 수 있다."
+   },
+   "bn-0148": {
+    "sec": "판단",
+    "text": "③ 해석 : 발행사 직접 방식은 이동이 제한된다고 대비해 쓴 대목. 그래서 KDX는 담보 활용과 이전 제한의 균형을 볼 것"
+   },
+   "bn-0149": {
+    "sec": "판단",
+    "text": "![평가 2 원문](../captures/reports/quotes/TP-212.png)"
    }
   }
  },
  "cb": {
-  "next": 152,
+  "next": 163,
   "lines": {
    "cb-0001": {
     "sec": "개요",
@@ -2408,11 +2796,55 @@
    "cb-0151": {
     "sec": "판단",
     "text": "★ 경제성 : Base 시퀀서 수수료(CFO 발언)"
+   },
+   "cb-0152": {
+    "sec": "B",
+    "text": "● 규모의 과거 대비(2026-01 초 기준)"
+   },
+   "cb-0153": {
+    "sec": "B",
+    "text": "★ 2026-01 초 rwa.xyz 표에는 없음(2026-08 출시)"
+   },
+   "cb-0154": {
+    "sec": "판단",
+    "text": "● 제약과 리스크(제3자 지적)"
+   },
+   "cb-0155": {
+    "sec": "판단",
+    "text": "★ SEC 승인 추진 보도가 규제 밖 영업 시도의 예로 인용됨 (WFE, 거래소 이해 대변)"
+   },
+   "cb-0156": {
+    "sec": "판단",
+    "text": "![규제 밖 영업 시도 대목 원문](../captures/reports/quotes/TP-222.png)"
+   },
+   "cb-0157": {
+    "sec": "판단",
+    "text": "● 제3자 평가"
+   },
+   "cb-0158": {
+    "sec": "판단",
+    "text": "★ 평가 1 : 포필러스(Securitize 후원 보고서, 평가자에 Securitize 포함), 2026: The Year of Tokenized Stocks, 2026-02-23, 87쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks"
+   },
+   "cb-0159": {
+    "sec": "판단",
+    "text": "① 원문 : \"Coinbase CEO Brian Armstrong argues that it effectively bans tokenized stocks, while Securitize and Superstate evaluate it as providing regulatory clarity for tokenized stocks\""
+   },
+   "cb-0160": {
+    "sec": "판단",
+    "text": "② 번역 : Coinbase 대표는 그 법안이 주식 토큰을 사실상 금지한다고 주장하는 반면 Securitize와 Superstate는 규제 명확성을 준다고 평가한다."
+   },
+   "cb-0161": {
+    "sec": "판단",
+    "text": "③ 해석 : 같은 법안을 두고 발행 방식별로 평가가 갈림(법안명은 87쪽에 적히지 않음). 그래서 KDX는 미국 제도 변화가 방식마다 유불리가 다름을 볼 것"
+   },
+   "cb-0162": {
+    "sec": "판단",
+    "text": "![평가 1 원문](../captures/reports/quotes/TP-221.png)"
    }
   }
  },
  "dn": {
-  "next": 130,
+  "next": 161,
   "lines": {
    "dn-0001": {
     "sec": "개요",
@@ -2929,11 +3361,135 @@
    "dn-0129": {
     "sec": "판단",
     "text": "★ 경제성 : 파트너 API 월 2,000달러부터, 주문당 0.20달러"
+   },
+   "dn-0130": {
+    "sec": "B",
+    "text": "● 규모 과거 대비"
+   },
+   "dn-0131": {
+    "sec": "B",
+    "text": "★ 2026-01 초 300만 달러 7위(0.37%) → 11-16 1,520만 11위(0.41%)"
+   },
+   "dn-0132": {
+    "sec": "B",
+    "text": "★ 잔액 5.1배"
+   },
+   "dn-0133": {
+    "sec": "B",
+    "text": "![rwa.xyz 순위표(Sentora 주간 글, 2026-01-09)](../captures/reports/W1_sentora_rwa_league_table_2026-01.png)"
+   },
+   "dn-0134": {
+    "sec": "B",
+    "text": "● 제3자 시각"
+   },
+   "dn-0135": {
+    "sec": "B",
+    "text": "★ 운영 모델이 Robinhood EU판과 거의 같음(포필러스, Securitize 후원, 2026-02 기준, 미국판 이전)"
+   },
+   "dn-0136": {
+    "sec": "B",
+    "text": "★ 개인 수수료 네트워크 0.2~50달러, 주문 0.25~0.50%(포필러스, Securitize 후원, 미국 밖판)"
+   },
+   "dn-0137": {
+    "sec": "B",
+    "text": "★ 배당의 5% 수취(포필러스, Securitize 후원, 미국 밖판)"
+   },
+   "dn-0138": {
+    "sec": "B",
+    "text": "![간접 방식 흐름, Dinari는 미국 밖판에만 해당(포필러스, Securitize 후원, 2026-02)](../captures/reports/R1_p26_indirect_tokenization.png)"
+   },
+   "dn-0139": {
+    "sec": "D",
+    "text": "● 제3자 시각"
+   },
+   "dn-0140": {
+    "sec": "D",
+    "text": "★ 토큰은 Dinari 등록 이용자끼리만 이전(포필러스, Securitize 후원, 2026-02 기준)"
+   },
+   "dn-0141": {
+    "sec": "D",
+    "text": "★ 배당은 USD+ 스테이블코인으로 지급(포필러스, Securitize 후원)"
+   },
+   "dn-0142": {
+    "sec": "D",
+    "text": "![간접 방식 4사 비교표(포필러스, Securitize 후원, 2026-02, 미국판 이전)](../captures/reports/R1_p36_indirect_platforms_table.png)"
+   },
+   "dn-0143": {
+    "sec": "E",
+    "text": "● 제3자 시각"
+   },
+   "dn-0144": {
+    "sec": "E",
+    "text": "★ 표에 SEC 명의개서대리인, FINRA 증권사로 적힘(CoinDesk Research, Bullish 의뢰, 2026-08 기준)"
+   },
+   "dn-0145": {
+    "sec": "E",
+    "text": "★ 표는 Dinari를 보관형으로 묶어 우리 분류와 다름(CoinDesk Research)"
+   },
+   "dn-0146": {
+    "sec": "판단",
+    "text": "● 제3자 평가"
+   },
+   "dn-0147": {
+    "sec": "판단",
+    "text": "★ 평가 1 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 39쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks"
+   },
+   "dn-0148": {
+    "sec": "판단",
+    "text": "① 원문 : \"The operating model is almost identical to Robinhood’s Stock Tokens.\""
+   },
+   "dn-0149": {
+    "sec": "판단",
+    "text": "② 번역 : 운영 모델은 Robinhood의 Stock Tokens와 거의 같다."
+   },
+   "dn-0150": {
+    "sec": "판단",
+    "text": "③ 해석 : 2026-02 기준 미국 밖 dShares 설명으로 미국판(2026-08) 이전. 미국판은 계좌 속 주식 구조라 이 평가를 미국판에 옮기면 안 됨"
+   },
+   "dn-0151": {
+    "sec": "판단",
+    "text": "![평가 1 원문](../captures/reports/quotes/TP-117.png)"
+   },
+   "dn-0152": {
+    "sec": "판단",
+    "text": "★ 평가 2 : 포필러스(Securitize 후원), 주식 토큰화 보고서, 2026-02-23, 39쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks"
+   },
+   "dn-0153": {
+    "sec": "판단",
+    "text": "① 원문 : \"dShares carry a relatively high number of fees.\""
+   },
+   "dn-0154": {
+    "sec": "판단",
+    "text": "② 번역 : dShares는 수수료 항목이 비교적 많다."
+   },
+   "dn-0155": {
+    "sec": "판단",
+    "text": "③ 해석 : 개인 직접 이용 기준 수수료. 우리 본문의 파트너 API 요금(F-0336)과 대상이 다르므로 섞어 읽지 않음"
+   },
+   "dn-0156": {
+    "sec": "판단",
+    "text": "![평가 2 원문](../captures/reports/quotes/TP-118.png)"
+   },
+   "dn-0157": {
+    "sec": "판단",
+    "text": "★ 평가 3 : CoinDesk Research(Bullish 의뢰), 발행사 안내서 비교표, 2026-09-29(2026-08 기준), 10쪽, https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities"
+   },
+   "dn-0158": {
+    "sec": "판단",
+    "text": "① 원문 : 표 칸 \"Custodial tokenized equities\", \"Econ only\", \"Dinari-held\", \"SEC TA + FINRA BD\"(Dinari 열)"
+   },
+   "dn-0159": {
+    "sec": "판단",
+    "text": "② 번역 : 보관형, 경제적 권리만, 장부는 Dinari가 보유, SEC 명의개서대리인과 FINRA 증권사."
+   },
+   "dn-0160": {
+    "sec": "판단",
+    "text": "③ 해석 : 발행사 직접 방식을 미는 의뢰사 표. 미국판과 미국 밖판을 한 열로 묶어 우리 분류(미국판 보관형, 밖판 연계증권)와 다름. 표 원문은 칸 글자라 캡처 없음"
    }
   }
  },
  "on": {
-  "next": 151,
+  "next": 189,
   "lines": {
    "on-0001": {
     "sec": "개요",
@@ -3534,6 +4090,158 @@
    "on-0150": {
     "sec": "판단",
     "text": "★ 경제성 : 발행 수수료 없음, 상환 수수료 0.05%"
+   },
+   "on-0151": {
+    "sec": "B",
+    "text": "![간접 방식 흐름(포필러스, Securitize 후원, 2026-02)](../captures/reports/R1_p26_indirect_tokenization.png)"
+   },
+   "on-0152": {
+    "sec": "B",
+    "text": "![합성형 흐름(CoinDesk Research, Bullish 의뢰, 2026-09)](../captures/reports/R2_p08_synthetic.png)"
+   },
+   "on-0153": {
+    "sec": "B",
+    "text": "● 규모의 과거 대비(2026-01 초 기준)"
+   },
+   "on-0154": {
+    "sec": "B",
+    "text": "★ 2026-01 초 4.13억 달러 1위(51.59%) → 11-16 8.99억 2위(24.23%)"
+   },
+   "on-0155": {
+    "sec": "B",
+    "text": "★ 2.2배, 점유율 27.4%p 하락"
+   },
+   "on-0156": {
+    "sec": "B",
+    "text": "★ 2026-03 Ondo 약 53%(Foresight Ventures 집계, 기준 달라 참고만)"
+   },
+   "on-0157": {
+    "sec": "B",
+    "text": "![rwa.xyz 순위표(Sentora 주간 글, 2026-01-09)](../captures/reports/W1_sentora_rwa_league_table_2026-01.png)"
+   },
+   "on-0158": {
+    "sec": "B",
+    "text": "![간접 방식 4사 비교표(포필러스, Securitize 후원, 2026-02)](../captures/reports/R1_p36_indirect_platforms_table.png)"
+   },
+   "on-0159": {
+    "sec": "B",
+    "text": "● 제3자 시각(구조)"
+   },
+   "on-0160": {
+    "sec": "B",
+    "text": "★ 발행사 동의 없음, 토큰은 래퍼, 장부는 SPV (CoinDesk Research, Bullish 의뢰)"
+   },
+   "on-0161": {
+    "sec": "B",
+    "text": "● 미국용 보관형(2026-07, 별도 상품)"
+   },
+   "on-0162": {
+    "sec": "B",
+    "text": "★ Oasis Pro 명의개서대리인이 IVV, MU 2종 토큰 발행"
+   },
+   "on-0163": {
+    "sec": "B",
+    "text": "★ 우리 분류 : 보관형. 매수 대상 범위는 발표에 없음"
+   },
+   "on-0164": {
+    "sec": "B",
+    "text": "★ 위 BVI 상품은 여전히 미국인, 미국 내 주문 금지"
+   },
+   "on-0165": {
+    "sec": "C",
+    "text": "● 제3자 시각(이용자)"
+   },
+   "on-0166": {
+    "sec": "C",
+    "text": "★ KYC 없는 이용자도 온체인 접근 가능 (포필러스, Securitize 후원)"
+   },
+   "on-0167": {
+    "sec": "D",
+    "text": "● 제3자 시각(유통)"
+   },
+   "on-0168": {
+    "sec": "D",
+    "text": "★ DeFi 연동 가장 깊은 편, 합성 노출 (CoinDesk Research, Bullish 의뢰)"
+   },
+   "on-0169": {
+    "sec": "E",
+    "text": "● 제3자 시각(인가)"
+   },
+   "on-0170": {
+    "sec": "E",
+    "text": "★ 미국 유통은 Oasis Pro 인가 활용 준비 중, 2026-02 기준 (포필러스, Securitize 후원)"
+   },
+   "on-0171": {
+    "sec": "E",
+    "text": "★ 1차 확인 : 2026-07 Oasis Pro 명의개서로 미국 보관형 2종 가동"
+   },
+   "on-0172": {
+    "sec": "판단",
+    "text": "★ DEX 풀 단건 매수가 같은 시각 주가보다 약 9.3% 높음(Citadel 지원 필자, 단일 사례)"
+   },
+   "on-0173": {
+    "sec": "판단",
+    "text": "● 제3자 평가"
+   },
+   "on-0174": {
+    "sec": "판단",
+    "text": "★ 평가 1 : 오버달(SEC 제출 의견서, 필자가 Citadel Securities 재정 지원을 밝힘), Tokenized U.S. Equities, DeFi Trading, and the SEC's Exemptive Authority, 2026-01-22, 25쪽, https://www.sec.gov/files/ctf-written-james-overdahl-tokenized-us-equities-01-22-2026.pdf"
+   },
+   "on-0175": {
+    "sec": "판단",
+    "text": "① 원문 : \"This suggests that the user paid about 9.3% more for the tokenized NVDA stock compared to what they would have paid if they instead had executed a trade for NVDA on a regulated exchange.\""
+   },
+   "on-0176": {
+    "sec": "판단",
+    "text": "② 번역 : 이용자가 규제 거래소에서 샀을 때보다 토큰화 NVDA를 약 9.3% 비싸게 샀다는 뜻이다."
+   },
+   "on-0177": {
+    "sec": "판단",
+    "text": "③ 해석 : 2026-01-14 Ondo 토큰(NVDAon)을 DEX 풀에서 산 단일 사례. 그래서 KDX는 거래 장소별 체결 비용을 볼 것"
+   },
+   "on-0178": {
+    "sec": "판단",
+    "text": "![평가 1 원문](../captures/reports/quotes/TP-201.png)"
+   },
+   "on-0179": {
+    "sec": "판단",
+    "text": "★ 평가 2 : 포필러스(Securitize 후원 보고서), 2026: The Year of Tokenized Stocks, 2026-02-23, 38쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks"
+   },
+   "on-0180": {
+    "sec": "판단",
+    "text": "① 원문 : \"Similar to the PFOF structure between Robinhood and Citadel, Ondo Finance can earn spread revenue while processing users' stock orders.\""
+   },
+   "on-0181": {
+    "sec": "판단",
+    "text": "② 번역 : Robinhood와 Citadel의 PFOF 구조처럼 Ondo는 주문 처리 중 스프레드 수익을 얻을 수 있다."
+   },
+   "on-0182": {
+    "sec": "판단",
+    "text": "③ 해석 : 수수료 0이어도 견적 차이가 수익. 그래서 KDX는 수수료에 스프레드를 합쳐 비교"
+   },
+   "on-0183": {
+    "sec": "판단",
+    "text": "![평가 2 원문](../captures/reports/quotes/TP-202.png)"
+   },
+   "on-0184": {
+    "sec": "판단",
+    "text": "★ 평가 3 : 포필러스(Securitize 후원 보고서), 2026: The Year of Tokenized Stocks, 2026-02-23, 27쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks"
+   },
+   "on-0185": {
+    "sec": "판단",
+    "text": "① 원문 : \"Liquidity fragmentation: Even for the same stock, liquidity is not interoperable across different indirect tokenization platforms.\""
+   },
+   "on-0186": {
+    "sec": "판단",
+    "text": "② 번역 : 유동성 분산: 같은 종목도 간접 방식 플랫폼 사이에 유동성이 호환되지 않는다."
+   },
+   "on-0187": {
+    "sec": "판단",
+    "text": "③ 해석 : Backed xTSLA와 Ondo TSLAon이 갈린다는 예. 직접 방식 후원사의 평가, 그래서 KDX는 유동성 한곳 집중 설계를 볼 것"
+   },
+   "on-0188": {
+    "sec": "판단",
+    "text": "![평가 3 원문](../captures/reports/quotes/TP-203.png)"
    }
   }
  },

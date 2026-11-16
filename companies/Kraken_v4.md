@@ -117,7 +117,7 @@
   ★ 거래시간 : EEA 평일 24시간, 그 밖 다수 지역 24/7 [F-0400][F-0401]
   ★ 발행사는 거래소, MTF 상장 신청 없음, 2차 시장 재매도 [F-0981]
 ● 제3자 시각
-  ★ Jupiter 100만 달러 TSLAx 약 5%, NVDAx 80% 밀림(포필러스, Securitize 후원, 2026-02 발간, 시점 미표기) [TP-111]
+  ★ 100만 달러 교환 시 TSLAx 약 5%, NVDAx 최대 80% 밀림(Jupiter 탈중앙 거래소 기준, 포필러스, Securitize 후원, 2026-02 발간, 시점 미표기) [TP-111]
   ★ 미국장 휴장 때 가격이 벌어질 수 있다고 xStocks 문서가 밝힘(CoinDesk Research, Bullish 의뢰, 2026-08 기준) [TP-112]
   ★ Bybit xStocks 누적 거래대금 약 5.5억 달러(포필러스, Securitize 후원, 2026-02 이전) [TP-116]
   ![간접 방식 4사 비교표(포필러스, Securitize 후원, 2026-02, Backed 열)](../captures/reports/R1_p36_indirect_platforms_table.png)
