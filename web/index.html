@@ -223,6 +223,38 @@ figure figcaption{font-size:12px;color:var(--muted)}
 .gl .g .en{font-size:12px;color:var(--muted)}
 .lawl a{display:block;font-size:12.5px}
 @media (max-width:760px){.vc{grid-template-columns:repeat(5,minmax(110px,1fr))}.vc .co2{grid-column:1/-1}.vc .h.first{display:none}}
+
+/* 메모: 줄 왼쪽 단추, 달린 메모는 왼쪽 여백 카드로 뻗어 나옴 */
+.numc{display:flex;justify-content:flex-end;align-items:flex-start;gap:2px;align-self:start}
+.addm{border:0;background:transparent;color:var(--faint);cursor:pointer;padding:3px 3px 0;opacity:.35;border-radius:4px;line-height:0}
+.row:hover .addm,.row:focus-within .addm,.addm:focus-visible{opacity:1}
+.addm:hover{color:var(--accent);background:var(--accent-soft)}
+@media (hover:none){.addm{opacity:.6}}
+.hint{font-size:12.5px;color:var(--muted);margin:-6px 0 14px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.hint svg{color:var(--accent)}
+.mbadge{border:0;border-radius:9px;background:var(--orange);color:var(--panel);font-size:11px;font-weight:700;min-width:18px;height:18px;padding:0 5px;margin-top:2px;cursor:pointer}
+.rail{display:none}
+.row.has-notes{box-shadow:inset 3px 0 0 var(--orange)}
+.rcard{font-size:12.5px;line-height:1.45;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--orange);border-radius:7px;padding:5px 8px;cursor:pointer;position:relative}
+.rcard .rh{display:flex;gap:6px;align-items:center;justify-content:space-between}
+.rcard .rt{font-weight:700;color:var(--orange)}
+.rcard .rx{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.rcard .ra{color:var(--muted);margin-top:3px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.rcard.open .rx,.rcard.open .ra{display:block}
+.rcard.open{z-index:6;box-shadow:0 6px 20px rgba(0,0,0,.14)}
+.rcard .acts{display:flex;gap:6px;margin-top:5px}
+.rcard .acts button{border:1px solid var(--line);background:var(--panel);border-radius:5px;padding:0 8px;font-size:12px;cursor:pointer}
+.rcard .before{text-decoration:line-through;opacity:.7}
+.rcard.t-챌린지{border-left-color:var(--warn)} .rcard.t-챌린지 .rt{color:var(--warn)}
+.rcard.t-딥다이브요청,.rcard.t-풀어쓰기요청{border-left-color:var(--accent)} .rcard.t-딥다이브요청 .rt,.rcard.t-풀어쓰기요청 .rt{color:var(--accent)}
+.row:has(.rcard:hover),.row:has(.rcard:focus){background:var(--hl)}
+@media (min-width:1320px){
+  .page{max-width:1160px;padding-left:260px}
+  .rail{display:grid;gap:4px;position:absolute;right:calc(100% + 30px);top:2px;width:215px;z-index:5}
+  .rail::after{content:"";position:absolute;top:12px;left:100%;width:30px;border-top:1.5px solid var(--orange)}
+  .mbadge{display:none}
+  .row.has-notes .notes{display:none}
+}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
 
@@ -377,7 +409,8 @@ function rowHtml(c, r, hasKids){
     <button type="button" data-act="conf" data-lid="${r.id}">${conf?'확정 풀기':'확정'}</button>
     <button type="button" data-act="orange" data-lid="${r.id}">${orange?'주황 끄기':'주황 표시'}</button>
   </div>`;
-  return `<div class="${cls.join(' ')}" id="L-${r.id}" data-lid="${r.id}"><button class="num" type="button" data-tools="${r.id}" title="줄 도구 열기">${esc(dispOf(r))}</button><div class="body">${body}</div>${tools}${formHtml(r)}${notesHtml(r)}</div>`;
+  const nm = noteCount(r);
+  return `<div class="${cls.join(' ')}${nm?' has-notes':''}" id="L-${r.id}" data-lid="${r.id}">${railHtml(r)}<div class="numc"><button class="addm" type="button" data-act="memo" data-lid="${r.id}" title="이 줄에 메모" aria-label="${esc(dispOf(r))}에 메모">${MEMO_ICON}</button><button class="num" type="button" data-tools="${r.id}" title="줄 도구 열기(고치기, 추가, 삭제, 순서, 확정, 주황)">${esc(dispOf(r))}</button>${nm?`<button class="mbadge" type="button" data-notes="${r.id}" title="달린 메모 보기">${nm}</button>`:''}</div><div class="body">${body}</div>${tools}${formHtml(r)}${openNotes.has(r.id)?notesHtml(r):''}</div>`;
 }
 
 function formHtml(r){
@@ -399,6 +432,17 @@ function formHtml(r){
   return '';
 }
 
+const MEMO_ICON = '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M2.5 3.5h11v7h-6l-3 2.5v-2.5h-2z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M8 5.2v3.6M6.2 7h3.6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>';
+const openNotes = new Set(), openCards = new Set();
+function userMemos(r){ return S.memos.filter(m => m.lid === r.id && !['고침','추가','삭제','순서','확정','주황','합의'].includes(m.type)); }
+function noteCount(r){ return userMemos(r).filter(m => !LOG_BY_MEMO[m.mid]).length + (LOG_BY_LINE[r.id]||[]).length; }
+function railHtml(r){
+  const cards = [];
+  userMemos(r).forEach(m => { if (!LOG_BY_MEMO[m.mid]) cards.push({k: m.mid, type: m.type, text: m.text, st: memoStatus(m)}); });
+  (LOG_BY_LINE[r.id]||[]).forEach(g => { const agreed = S.agreed[g.memo_id || g._i] || g.status === '합의'; cards.push({k: g.memo_id || g._i, type: g.type || '질문', text: g.question, st: agreed ? '합의' : (g.status || '답함'), ans: g.answer, g}); });
+  if (!cards.length) return '';
+  return '<div class="rail">' + cards.map(c => { const open = openCards.has(c.k); return `<div class="rcard t-${esc(c.type).replace(/ /g,'')}${open?' open':''}" data-card="${esc(c.k)}" tabindex="0" title="${esc(dispOf(r))} 줄의 메모"><div class="rh"><span class="rt">${esc(c.type)}</span><span class="st st-${c.st.replace(' ','')}">${esc(c.st)}</span></div><div class="rx">${esc(c.text)}</div>${c.ans?`<div class="ra"><b>답</b> ${esc(c.ans)}</div>`:''}${open && c.g ? ((c.g.changes||[]).map(x => `<div class="ra"><span class="before">${esc(x.before||'')}</span> → <b>${esc(x.after||'')}</b></div>`).join('') + (c.st==='합의'?'':`<div class="acts"><button type="button" data-act="agree" data-g="${c.g._i}" data-lid="${r.id}">합의</button><button type="button" data-act="rechal" data-lid="${r.id}">다시 챌린지</button></div>`)) : ''}</div>`; }).join('') + '</div>';
+}
 function notesHtml(r){
   const mine = S.memos.filter(m => m.lid === r.id && !['고침','추가','삭제','순서','확정','주황','합의'].includes(m.type));
   const logs = LOG_BY_LINE[r.id] || [];
@@ -421,7 +465,7 @@ function renderCompany(){
   c.sections.forEach(sec => { let n = 0; rowsOf(c, sec).forEach(r => { n++; DISP[r.id] = `${c.name} ${sec.code}-${n}`; }); });
   const claims = [];
   c.sections.forEach(sec => rowsOf(c, sec).forEach(r => { if (r.claim && !S.del[r.id]) claims.push([sec, r]); }));
-  let h = `<div class="page"><div class="head">${c.logo?`<img alt="${esc(c.name)} 로고" src="${D.imgs[c.logo]}">`:''}<div><h1>${esc(c.name)}</h1><div class="kind">${c.kind==='ats'?'미국 주식 야간 거래 시장(ATS)':'주식 토큰 사업자'}</div></div></div>`;
+  let h = `<div class="page"><div class="head">${c.logo?`<img alt="${esc(c.name)} 로고" src="${D.imgs[c.logo]}">`:''}<div><h1>${esc(c.name)}</h1><div class="kind">${c.kind==='ats'?'미국 주식 야간 거래 시장(ATS)':'주식 토큰 사업자'}</div></div></div><p class="hint">줄 왼쪽 ${MEMO_ICON} 을 누르면 메모, 챌린지, 딥다이브 요청을 남깁니다. 줄 번호를 누르면 고치기, 줄 추가, 확정, 주황 표시가 나옵니다. 달린 메모는 줄 왼쪽에 붙어 보입니다.</p>`;
   if (claims.length) h += `<section class="claims"><h2>주장 한눈에 보기</h2><ol>${claims.map(([sec,r]) => `<li><button type="button" data-jump="${sec.code}"><span class="cs">${esc(secShort(sec))}</span><span class="ct">${esc(S.edits[r.id]!=null?S.edits[r.id].replace(/^주장\s*:\s*/,''):r.text)}</span></button></li>`).join('')}</ol></section>`;
   c.sections.forEach(sec => {
     const rows = rowsOf(c, sec);
@@ -499,6 +543,8 @@ document.addEventListener('click', e => {
   const img = t.closest('figure img'); if (img){ const z = document.createElement('div'); z.className = 'zoom'; z.innerHTML = `<img alt="" src="${img.src}">`; z.onclick = () => z.remove(); document.body.appendChild(z); return; }
   const jump = t.closest('[data-jump]'); if (jump){ const code = jump.dataset.jump; closedSecs.delete(cur+'/'+code); render(); const el = document.getElementById('S-'+code); if (el) el.scrollIntoView({block:'start'}); window.scrollBy(0,-60); return; }
   const grp = t.closest('[data-grp]'); if (grp){ const id = grp.dataset.grp; collapsedGroups.has(id) ? collapsedGroups.delete(id) : collapsedGroups.add(id); keepScroll(render); return; }
+  const nb = t.closest('[data-notes]'); if (nb){ const id = nb.dataset.notes; openNotes.has(id) ? openNotes.delete(id) : openNotes.add(id); keepScroll(render); return; }
+  const card = t.closest('[data-card]'); if (card && !t.closest('button')){ const k = card.dataset.card; openCards.has(k) ? openCards.delete(k) : openCards.add(k); keepScroll(render); return; }
   const num = t.closest('[data-tools]'); if (num){ const id = num.dataset.tools; openTools.has(id) ? openTools.delete(id) : openTools.add(id); keepScroll(render); return; }
   const ev = t.closest('[data-ev]'); if (ev && !t.closest('.ev')){ const id = ev.dataset.ev; openEv.has(id) ? openEv.delete(id) : openEv.add(id); keepScroll(render); return; }
   const mf = t.closest('[data-mf-co],[data-mf-st]'); if (mf){ const f = window._mf || {co:'all', st:'all'}; if (mf.dataset.mfCo) f.co = mf.dataset.mfCo; if (mf.dataset.mfSt) f.st = mf.dataset.mfSt; window._mf = f; render(); return; }
