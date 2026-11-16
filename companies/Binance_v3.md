@@ -18,7 +18,7 @@
   ★ 2025-12 ADGM 인가 3종 → 2026-06 bStocks 5종 [F-0064][F-0053]
   ★ 2026-08 투자설명서 승인 시작 → 2026-09 선물 담보 [F-0691][F-0062]
 ● 화면
-  ![가입](../captures/Binance/signup.png) ![종목 목록](../captures/Binance/list.png) ![주문](../captures/Binance/order.png)
+  ![가입](../captures/Binance/signup.png) ![주식 토큰 종목 화면(AAPL)](../captures/Binance/list.png)
 
 ## 경영진 발언
 ● 발언 1 : 한 관할의 규제 기반 위에 글로벌 사업을 올린다 [F-1071]

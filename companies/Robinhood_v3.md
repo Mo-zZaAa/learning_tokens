@@ -1,3 +1,5 @@
+![Robinhood 로고](../captures/Robinhood/logo.png)
+
 ## 회사 개요와 확장 경로
 ● 주장 : 미국 주식 앱이 거래소 인수와 자체 체인으로 해외 토큰 판매 [F-0605][F-0666][F-0637]
 ● 기본정보
@@ -16,6 +18,8 @@
   ★ 2025-06 EU 인가 → EU판 Stock Tokens(미국 주식 연동 토큰) 200종 [F-0213][F-0214][F-0221]
   ★ 2026-06 WonderFi(캐나다 가상자산 기업) 인수 → 2026-07 자체 체인 출범 [F-0608][F-0666]
   ★ 2026-07 지갑판(Robinhood Wallet 판매 토큰) 출시 → 2026-10 EU판 Classic 개칭 [F-0637][F-0239]
+● 화면
+  ![가입](../captures/Robinhood/signup.png) ![EU 투자 화면(주식 토큰 포함)](../captures/Robinhood/list.png) ![종목 화면(주문창은 로그인 뒤)](../captures/Robinhood/order.png)
 
 ## 경영진 발언
 ● 발언 1 : 크립토가 글로벌 금융의 중추가 된다 [F-1063]

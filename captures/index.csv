@@ -1,25 +1,25 @@
 ﻿회사,화면,설명,원래 주소,파일,찍은 일시,메모
 Dinari,logo,홈 헤더 로고,https://dinari.com,captures/Dinari/logo.png,2026-11-16 15:13,"HTTP 200 제목:Dinari - API & Tokens for 1:1 Backed US Stocks, ET"
-Dinari,가입,앱 가입/로그인 첫 화면,https://app.dinari.com,captures/Dinari/signup.png,2026-11-16 15:13,HTTP 200 제목:Dinari Trading App
-Dinari,종목 목록,dShares 목록,https://app.dinari.com/dshares,captures/Dinari/list.png,2026-11-16 15:13,HTTP 200 제목:Dinari Trading App
-Dinari,주문,trade 화면,https://app.dinari.com/trade,captures/Dinari/order.png,2026-11-16 15:13,HTTP 200 제목:Dinari Trading App
+Dinari,가입,앱 가입/로그인 첫 화면,https://app.dinari.com,captures/Dinari/signup.png,2026-11-16 15:13,"HTTP 200 제목:Dinari Trading App 가입은 지갑 연결(Connect Wallet) 방식, 팝업 닫은 뒤 화면. 로그인 필요: 계정 생성 단계 미진입"
+Dinari,종목 목록,"Market(종목 목록) 화면, 환영 팝업 닫은 뒤",https://app.dinari.com/,captures/Dinari/list.png,2026-11-16 15:13,"app.dinari.com/dshares는 404, 앱 루트(Market)가 목록. 로그인 없이 공개"
+Dinari,주문,trade 화면,https://app.dinari.com/trade,captures/Dinari/order.png,2026-11-16 15:13,HTTP 200 제목:Dinari Trading App 지갑 미연결 상태의 공개 주문창
 Kraken,logo,헤더 로고,https://www.kraken.com/xstocks,captures/Kraken/logo.png,2026-11-16 15:13,HTTP 200 제목:Tokenized Stocks and ETFs on Kraken
 Kraken,가입,가입 화면 첫 단계,https://www.kraken.com/sign-up,captures/Kraken/signup.png,2026-11-16 15:13,"HTTP 200 제목:Create account - Kraken | Buy, Sell and Margin Tra"
 Kraken,종목 목록,xStocks 종목 목록,https://www.kraken.com/xstocks,captures/Kraken/list.png,2026-11-16 15:14,HTTP 200 제목:Tokenized Stocks and ETFs on Kraken
-Kraken,주문,xStock 종목 페이지 매수 영역,https://www.kraken.com/prices/xstocks,captures/Kraken/order.png,2026-11-16 15:14,HTTP 200 제목:Tokenized Stock Prices – 24/7 Live Equity Token Ra
+Kraken,주문,xStock 종목 페이지 매수 영역,https://www.kraken.com/prices/xstocks,captures/Kraken/order.png,2026-11-16 15:14,"HTTP 200 제목:Tokenized Stock Prices – 24/7 Live Equity Token Ra 가격/종목 목록 페이지, 매수 영역은 로그인 필요"
 Ondo,logo,헤더 로고,https://ondo.finance,captures/Ondo/logo.png,2026-11-16 15:14,"HTTP 200 제목:Ondo Finance — Institutional-grade finance, delive"
-Ondo,가입,"앱 첫 화면(지갑 연결 단계, 개인정보 미입력)",https://app.ondo.finance,captures/Ondo/signup.png,2026-11-16 15:14,HTTP 200 제목:Ondo | Tokenized Stocks
+Ondo,가입,"앱 첫 화면(지갑 연결 단계, 개인정보 미입력)",https://app.ondo.finance,captures/Ondo/signup.png,2026-11-16 15:14,HTTP 200 제목:Ondo | Tokenized Stocks 로그인 필요: 계정 생성은 지갑 연결
 Ondo,종목 목록,"Ondo Stocks 종목 목록(공개 소개 페이지, app.ondo.finance/assets는 404)",https://ondo.finance/ondo-stocks,captures/Ondo/list.png,2026-11-16 15:14,HTTP 200 제목:Ondo Stocks | Tokenized Stocks and ETFs | Ondo Fin
 Ondo,주문,개별 종목(AAPLon) 주문 영역,https://app.ondo.finance/assets/aaplon,captures/Ondo/order.png,2026-11-16 15:14,HTTP 200 제목:AAPLon: Apple (Ondo Tokenized) Tokenized Stock Pri
-Robinhood,logo,헤더 로고,https://robinhood.com/eu/en/,captures/Robinhood/logo.png,2026-11-16 15:14,HTTP 200 제목:Explore Classic Stock Tokens & Crypto | Robinhood
+Robinhood,logo,헤더 로고,https://robinhood.com/eu/en/,captures/Robinhood/logo.png,2026-11-16 15:14,HTTP 200 제목:Explore Classic Stock Tokens & Crypto | Robinhood 헤더 로고
 Robinhood,가입,가입 화면 첫 단계,https://robinhood.com/signup/,captures/Robinhood/signup.png,2026-11-16 15:15,HTTP 200 제목:What’s your email address? | Robinhood
 Robinhood,종목 목록,EU 투자(주식 토큰 포함) 페이지,https://robinhood.com/eu/en/invest/,captures/Robinhood/list.png,2026-11-16 15:15,stock-tokens 전용 페이지는 404 HTTP 200 제목:Build your Portfolio with Classic Stock Tokens | R
 Robinhood,주문,"종목 페이지(TSLA, 공개 화면)",https://robinhood.com/stocks/TSLA/,captures/Robinhood/order.png,2026-11-16 15:15,"로그인 필요: 주문창은 로그인 후에만 보임, 공개 종목 페이지로 대신 HTTP 200 제목:Tesla: TSLA Stock Price Quote & News | Robinhood"
-Binance,logo,헤더 로고,https://www.binance.com/en/stocks,captures/Binance/logo.png,2026-11-16 15:15,HTTP 202 제목:$354.112 | Apple Inc. Common Stock (AAPL) Stock Pr
+Binance,logo,헤더 로고,https://www.binance.com/en/stocks,captures/Binance/logo.png,2026-11-16 15:15,HTTP 202 제목:$354.112 | Apple Inc. Common Stock (AAPL) Stock Pr 헤더 로고
 Binance,가입,가입 화면,https://accounts.binance.com/en/register,captures/Binance/signup.png,2026-11-16 15:15,HTTP 200 제목:Create a free account | Binance
-Binance,종목 목록,stocks 목록,https://www.binance.com/en/stocks,captures/Binance/list.png,2026-11-16 15:15,HTTP 200 제목:$354.134 | Apple Inc. Common Stock (AAPL) Stock Pr
-Binance,주문,종목 주문 화면,https://www.binance.com/en/trade/TSLAUSDT,captures/Binance/order.png,2026-11-16 15:15,"HTTP 200 제목:64,414.20 | BTC USDT | Bitcoin to USDT - Binance S"
-Coinbase,logo,base.org 헤더 로고,https://www.base.org,captures/Coinbase/logo.png,2026-11-16 15:16,"coinbase.com 브랜드 페이지 봇 차단(403), base.org 로고로 대신 로고 요소 못 찾아 헤더 좌상단 영역 캡처 HTTP 200 제목:Base"
+Binance,종목 목록,stocks 목록,https://www.binance.com/en/stocks,captures/Binance/list.png,2026-11-16 15:15,"AAPL 종목 화면(bStocks 목록 /en/stocks는 종목 화면으로 연결됨), 안내 팝업 닫음. HTTP 200 제목:$354.134 | Apple Inc. Common Stock (AAPL) Stock Pr"
+Binance,주문,종목 주문 화면,https://www.binance.com/en/trade/TSLAUSDT,captures/Binance/order.png,2026-11-16 15:15,"HTTP 200 제목:64,414.20 | BTC USDT | Bitcoin to USDT - Binance S 현물 BTC/USDT 화면으로 이동됨, 주식 주문창은 stocks 화면(list.png)에 있음, 로그인 필요"
+Coinbase,logo,base.org 헤더 로고,https://www.base.org,captures/Coinbase/logo.png,2026-11-16 15:16,"coinbase.com 브랜드 페이지 봇 차단(403), base.org 로고(파란 사각)로 대신. 요소 대신 헤더 영역 잘라 찍음"
 Coinbase,가입,Base 앱 안내,https://www.base.org,captures/Coinbase/signup.png,2026-11-16 15:16,"coinbase.com 가입은 봇 차단, base.org 홈으로 대신 HTTP 200 제목:Base"
 Coinbase,종목 목록,Base stocks,https://www.base.org/stocks,captures/Coinbase/list.png,2026-11-16 15:16,HTTP 200 제목:Base
 Coinbase,주문,Base markets stocks,https://www.base.org/markets/stocks,captures/Coinbase/order.png,2026-11-16 15:16,HTTP 200 제목:Tokenized Stocks | Base Markets
@@ -31,17 +31,9 @@ Bruce,logo,로고,https://brucemarkets.com,captures/Bruce/logo.png,2026-11-16 15
 Bruce,홈,홈,https://brucemarkets.com,captures/Bruce/home.png,2026-11-16 15:17,HTTP 200 제목:Bruce Markets: Institutional-Grade Overnight Tradi
 Bruce,안내1,Bruce ATS 안내,https://www.brucemarkets.com/bruce-ats,captures/Bruce/info1.png,2026-11-16 15:17,HTTP 200 제목:Bruce ATS — Overnight Trading System | Bruce Marke
 Bruce,안내2,파트너와 참가자 안내,https://www.brucemarkets.com/partners-participants,captures/Bruce/info2.png,2026-11-16 15:17,HTTP 200 제목:Partners & Participants — Bruce Markets
-MOON,logo,로고,https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:18,"실패:Page.goto: Timeout 20000ms exceeded.
-Call log:
-  - navigating to ""https://www.otcmarkets.com/otc-lin"
-MOON,홈,MOON 페이지,https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:18,"실패:Page.goto: Timeout 20000ms exceeded.
-Call log:
-  - navigating to ""https://www.otcmarkets.com/otc-lin"
-MOON,안내1,거래시간 안내,https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:18,"실패:Page.goto: Timeout 20000ms exceeded.
-Call log:
-  - navigating to ""https://www.otcmarkets.com/otc-lin"
-MOON,안내2,구독자 안내,https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:19,"실패:Page.goto: Timeout 20000ms exceeded.
-Call log:
-  - navigating to ""https://www.otcmarkets.com/otc-lin"
-MOON,logo,로고(OTC Markets 헤더와 MOON ATS 제목),https://www.otcmarkets.com/otc-link/moon-overnight,captures/MOON/logo.png,2026-11-16 15:20,HTTP 200 제목:MOON ATS I OTC Markets (V3-ATS 재촬영)
-MOON,홈,MOON ATS 안내 페이지,https://www.otcmarkets.com/otc-link/moon-overnight,captures/MOON/home.png,2026-11-16 15:20,HTTP 200 제목:MOON ATS I OTC Markets (V3-ATS 재촬영)
+MOON,logo,로고,https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:18,"otcmarkets.com 클라우드 접속 불가(타임아웃, curl 000), 우회 안 함. 캡처 없음. 기존 blocked_links 기록과 동일"
+MOON,홈,MOON 페이지,https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:18,"otcmarkets.com 클라우드 접속 불가(타임아웃, curl 000), 우회 안 함. 캡처 없음. 기존 blocked_links 기록과 동일"
+MOON,안내1,거래시간 안내,https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:18,"otcmarkets.com 클라우드 접속 불가(타임아웃, curl 000), 우회 안 함. 캡처 없음. 기존 blocked_links 기록과 동일"
+MOON,안내2,구독자 안내,https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:19,"otcmarkets.com 클라우드 접속 불가(타임아웃, curl 000), 우회 안 함. 캡처 없음. 기존 blocked_links 기록과 동일"
+MOON,logo,로고(OTC Markets 헤더와 MOON ATS 제목),https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:20,"otcmarkets.com 클라우드 접속 불가(타임아웃, curl 000), 우회 안 함. 캡처 없음. 기존 blocked_links 기록과 동일"
+MOON,홈,MOON ATS 안내 페이지,https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:20,"otcmarkets.com 클라우드 접속 불가(타임아웃, curl 000), 우회 안 함. 캡처 없음. 기존 blocked_links 기록과 동일"
