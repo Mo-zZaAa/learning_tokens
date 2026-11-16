@@ -64,3 +64,5 @@
 - 큰 그림 빈칸 찾기: db/facts.csv에서 검증 상태가 단일 출처, 사용자 제공, 교차 확인, 회사 주장이면서 본문에 번호가 안 쓰인 사실을 회사별로 뽑는다(본문 F 번호 집합을 빼는 짧은 파이썬, 회사 칸은 startswith). 창업 배경, 사고 원인, 한국 비중, 파트너 거래대금이 여기서 나왔다.
 - 줄 ID: 대분류 첫머리 "주장 :" 줄은 전체 그림이 링크한다. 길게 고치면 유사도 0.55 아래로 떨어져 ID가 끊긴다. 설명은 세부 불렛으로 내린다. build의 "찾지 못한 줄 링크" 경고로 확인.
 - 여러 담당이 동시에 고칠 때: 파일을 담당별로 나누고, build는 `flock /tmp/kdx_build.lock python3 web/build.py`로만 돌린다. 이전 상태가 필요한 일(줄 ID 복구)은 시작 전에 본문과 web/line_ids.json 사본을 떠 둔다.
+- ● 라벨을 길게 바꾸면 줄 ID가 끊긴다. 빌드 전에 web/build.py의 parse와 assign_ids를 web/line_ids.json 사본에 돌려 사라지는 ID가 없는지 미리 본다(scratchpad 미리보기 스크립트 방식).
+- 회사 문서 원문 저장본(sources/R-*/)에만 있고 사실 행이 없는 문장이 있다(Ondo OUSG 한국 거주자 제외). 감사 때 원문 저장본을 grep해 사실 행으로 올린다(work/MANUAL/facts.csv).

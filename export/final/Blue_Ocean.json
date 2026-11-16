@@ -11,20 +11,30 @@
      "id": "bo-0106",
      "disp": "Blue Ocean 카드-1",
      "level": "●",
-     "text": "한 줄 정체 : 미국 주식이 거래소 닫힌 밤에 거래되는 야간 장터, 한국 낮에 맞음",
+     "text": "한 줄 정체 : 미국 거래소 거래가 없는 밤(미국 동부 밤 8시~새벽 4시)에 미국 주식을 거래하는 야간 시장 Blue Ocean ATS. 이 시간이 한국 시간 낮(오전 10시~오후 6시)이라 한국 증권사 고객이 주 이용자",
      "color": "black",
      "fact_ids": [
       "F-0001",
-      "F-0014"
+      "F-0005"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bo-0107",
+     "id": "bo-0129",
      "disp": "Blue Ocean 카드-2",
+     "level": "-",
+     "text": "뜻 : ATS(대체거래시스템) = 거래소로 등록하지 않고 브로커딜러가 운영하는 주문 체결 시장. 이 본문의 \"야간 3사\"는 Blue Ocean, Bruce, MOON 세 ATS",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0107",
+     "disp": "Blue Ocean 카드-3",
      "level": "●",
-     "text": "대표 상품 : Blue Ocean Session(BOATS) = 미국 주식 야간 시장(밤 8시~새벽 4시)",
+     "text": "대표 상품 : Blue Ocean Session(BOATS) = 미국 주식 야간 시장(미국 동부 밤 8시~새벽 4시)",
      "color": "black",
      "fact_ids": [
       "F-0001",
@@ -35,7 +45,7 @@
     },
     {
      "id": "bo-0108",
-     "disp": "Blue Ocean 카드-3",
+     "disp": "Blue Ocean 카드-4",
      "level": "●",
      "text": "꼭 알아야 할 사실",
      "color": "black",
@@ -45,9 +55,9 @@
     },
     {
      "id": "bo-0109",
-     "disp": "Blue Ocean 카드-4",
+     "disp": "Blue Ocean 카드-5",
      "level": "★",
-     "text": "상장하지 않음, 도쿄증권거래소가 5% 보유(2023-09)",
+     "text": "상장하지 않음. 운영사의 지주회사 Blue Ocean Technologies 지분을 Urbana(캐나다 상장 투자회사)가 약 35%, 도쿄증권거래소(일본 거래소)가 5% 보유(2023-09)",
      "color": "black",
      "fact_ids": [
       "F-0002",
@@ -58,9 +68,9 @@
     },
     {
      "id": "bo-0110",
-     "disp": "Blue Ocean 카드-5",
+     "disp": "Blue Ocean 카드-6",
      "level": "★",
-     "text": "2024-01 MEMX를 기술 파트너로 선정(24X도 MEMX 기술)",
+     "text": "2024-01 MEMX를 기술 파트너로 선정, 야간 거래소를 준비하는 24X도 MEMX 기술 사용",
      "color": "black",
      "fact_ids": [
       "F-1177",
@@ -70,22 +80,36 @@
      "notes": []
     },
     {
-     "id": "bo-0111",
-     "disp": "Blue Ocean 카드-6",
-     "level": "★",
-     "text": "2024-08-05 체결 취소 사고, 한국 증권사 19곳 6,300억원",
+     "id": "bo-0130",
+     "disp": "Blue Ocean 카드-7",
+     "level": "-",
+     "text": "뜻 : MEMX = 미국 증권 거래소 운영사. Blue Ocean에는 체결 시스템을 제공하고 자체 거래소로도 야간 세션을 준비 중",
      "color": "black",
      "fact_ids": [
-      "F-1105"
+      "F-1177",
+      "F-1304"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0111",
+     "disp": "Blue Ocean 카드-8",
+     "level": "★",
+     "text": "2024-08-05 체결 취소 사고, 한국 증권사 19곳에서 거래 6,300억원 취소. 그 시점 사업의 65%가 한국 물량이었음(Korea Times 보도, 단일 출처)",
+     "color": "black",
+     "fact_ids": [
+      "F-1105",
+      "F-0010"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "bo-0112",
-     "disp": "Blue Ocean 카드-7",
+     "disp": "Blue Ocean 카드-9",
      "level": "★",
-     "text": "2026-09-01 공정접근 5% 문턱으로 18개 종목 중단 후 재개",
+     "text": "2026-09-01 공정접근 규칙의 5% 기준에 걸려 18개 종목 거래를 스스로 중단, 2026-09-10 회사 대변인이 더는 중단하지 않아도 된다고 밝힘(이유는 확인하지 못함)",
      "color": "black",
      "fact_ids": [
       "F-1099",
@@ -95,8 +119,21 @@
      "notes": []
     },
     {
+     "id": "bo-0131",
+     "disp": "Blue Ocean 카드-10",
+     "level": "-",
+     "text": "뜻 : 공정접근 = ATS가 한 종목 거래량의 5% 이상을 직전 6개월 중 4개월 이상 차지하면 참가자 접근을 부당하게 막지 못하게 하는 미국 SEC 규칙. 인기 종목에서 점유가 커지면 의무가 붙으므로 회사는 해당 종목 거래를 멈춤",
+     "color": "black",
+     "fact_ids": [
+      "US-17CFR-242.301-b5",
+      "F-1100"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bo-0113",
-     "disp": "Blue Ocean 카드-8",
+     "disp": "Blue Ocean 카드-11",
      "level": "●",
      "text": "숫자",
      "color": "black",
@@ -105,10 +142,23 @@
      "notes": []
     },
     {
-     "id": "bo-0114",
-     "disp": "Blue Ocean 카드-9",
+     "id": "bo-0132",
+     "disp": "Blue Ocean 카드-12",
      "level": "★",
-     "text": "순위와 점유율 : 야간 3사 중 1위, 2026 Q3 83.0%",
+     "text": "점유율 : 야간 3사(미국 야간 ATS 전체가 아니라 이 본문이 다루는 세 곳) 거래대금 합계 2,934억 달러 중 2,435.5억 달러로 83.0%(2026 Q3 13주, FINRA 주간 보고 거래대금 기준), 2위 Bruce 15.0%와 68.0%p 차이",
+     "color": "black",
+     "fact_ids": [
+      "F-0015",
+      "F-0029"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0191",
+     "disp": "Blue Ocean 카드-13",
+     "level": "-",
+     "text": "뜻 : FINRA 주간 보고 = FINRA가 ATS별 주간 거래대금을 공개하는 통계. 거래대금 = 체결된 주식 수에 가격을 곱한 금액",
      "color": "black",
      "fact_ids": [
       "F-0015"
@@ -118,9 +168,9 @@
     },
     {
      "id": "bo-0115",
-     "disp": "Blue Ocean 카드-10",
+     "disp": "Blue Ocean 카드-14",
      "level": "★",
-     "text": "종목 수 : 약 11,000(회사 홈페이지)",
+     "text": "종목 수 : 거래 가능한 미국 상장 종목 약 11,000개(회사 홈페이지, 2026-11-16 열람)",
      "color": "black",
      "fact_ids": [
       "F-1182"
@@ -130,9 +180,9 @@
     },
     {
      "id": "bo-0116",
-     "disp": "Blue Ocean 카드-11",
+     "disp": "Blue Ocean 카드-15",
      "level": "●",
-     "text": "흐름 : 한국 투자자 → 한국 증권사 앱 → (해외 중개사) → Blue Ocean ATS 체결(MEMX 기술)",
+     "text": "흐름 : 한국 투자자 → 한국 증권사 앱 → 주문을 대신 전달하는 미국 브로커 → Blue Ocean ATS 체결(MEMX 기술)",
      "color": "black",
      "fact_ids": [
       "F-0004",
@@ -152,7 +202,7 @@
      "id": "bo-0117",
      "disp": "Blue Ocean 개요-1",
      "level": "●",
-     "text": "쉽게 말하면 : 한국 낮에 미국 주식을 살 수 있게 한 야간 장터, 야간 거래의 8할",
+     "text": "쉽게 말하면 : 한국 낮 시간에 미국 주식을 살 수 있게 만든 야간 시장, 야간 3사 거래대금의 83.0%",
      "color": "black",
      "fact_ids": [
       "F-0005",
@@ -165,7 +215,7 @@
      "id": "bo-0001",
      "disp": "Blue Ocean 개요-2",
      "level": "●",
-     "text": "주장 : 한국 낮 주문을 먼저 잡아 야간 3사 거래대금 83%",
+     "text": "주장 : 한국 낮 주문을 먼저 잡아 야간 3사 거래대금 83.0%를 차지",
      "color": "black",
      "fact_ids": [
       "F-1090",
@@ -189,7 +239,7 @@
      "id": "bo-0003",
      "disp": "Blue Ocean 개요-4",
      "level": "★",
-     "text": "법인명 : Blue Ocean ATS, LLC(미국 주식 야간 거래 시장 BOATS 운영)",
+     "text": "법인명 : Blue Ocean ATS, LLC(미국 주식 야간 거래 시장 BOATS, Blue Ocean Alternative Trading System 운영)",
      "color": "black",
      "fact_ids": [
       "F-0001"
@@ -201,7 +251,7 @@
      "id": "bo-0004",
      "disp": "Blue Ocean 개요-5",
      "level": "★",
-     "text": "2019년 설립, 2020-10 브로커딜러 등록, FINRA(미국 증권업 자율규제기구) 회원",
+     "text": "2019년 설립, 2020-10 브로커딜러 등록, FINRA 회원",
      "color": "black",
      "fact_ids": [
       "F-0001",
@@ -211,8 +261,28 @@
      "notes": []
     },
     {
-     "id": "bo-0080",
+     "id": "bo-0133",
      "disp": "Blue Ocean 개요-6",
+     "level": "-",
+     "text": "뜻 : 브로커딜러 = 미국 SEC에 등록해 증권을 중개, 매매하는 증권사",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0134",
+     "disp": "Blue Ocean 개요-7",
+     "level": "-",
+     "text": "뜻 : FINRA = 미국 브로커딜러를 감독하는 민간 자율규제기구",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0080",
+     "disp": "Blue Ocean 개요-8",
      "level": "★",
      "text": "2021-06 시범 운영, 2021-10 정식 개장",
      "color": "black",
@@ -225,7 +295,7 @@
     },
     {
      "id": "bo-0005",
-     "disp": "Blue Ocean 개요-7",
+     "disp": "Blue Ocean 개요-9",
      "level": "●",
      "text": "모회사",
      "color": "black",
@@ -235,9 +305,9 @@
     },
     {
      "id": "bo-0006",
-     "disp": "Blue Ocean 개요-8",
+     "disp": "Blue Ocean 개요-10",
      "level": "★",
-     "text": "Blue Ocean Technologies(지주회사)가 운영사 지분 보유",
+     "text": "지주회사 Blue Ocean Technologies가 운영사 Blue Ocean ATS, LLC 지분 보유",
      "color": "black",
      "fact_ids": [
       "F-0247"
@@ -247,9 +317,9 @@
     },
     {
      "id": "bo-0007",
-     "disp": "Blue Ocean 개요-9",
+     "disp": "Blue Ocean 개요-11",
      "level": "★",
-     "text": "Urbana(캐나다 상장 투자회사)가 지주회사 약 35% 보유(2023)",
+     "text": "Urbana(캐나다 상장 투자회사)가 지주회사 지분 약 35% 보유(2023-09). 나머지 지분 보유자는 비상장이라 자료에서 확인하지 못함",
      "color": "black",
      "fact_ids": [
       "F-0002"
@@ -259,7 +329,7 @@
     },
     {
      "id": "bo-0008",
-     "disp": "Blue Ocean 개요-10",
+     "disp": "Blue Ocean 개요-12",
      "level": "●",
      "text": "취급 자산",
      "color": "black",
@@ -269,9 +339,9 @@
     },
     {
      "id": "bo-0009",
-     "disp": "Blue Ocean 개요-11",
+     "disp": "Blue Ocean 개요-13",
      "level": "★",
-     "text": "미국 NMS(전국시장체계) 상장 주식",
+     "text": "미국 NMS 상장 주식",
      "color": "black",
      "fact_ids": [
       "F-0001"
@@ -280,10 +350,20 @@
      "notes": []
     },
     {
+     "id": "bo-0135",
+     "disp": "Blue Ocean 개요-14",
+     "level": "-",
+     "text": "뜻 : NMS(전국시장체계) = 미국 증권거래소에 상장된 주식을 하나의 시장처럼 묶는 SEC 규칙 체계",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bo-0010",
-     "disp": "Blue Ocean 개요-12",
+     "disp": "Blue Ocean 개요-15",
      "level": "★",
-     "text": "2026-10 세션 1위 SOXL(3배 반도체 ETF), 1.65억 달러",
+     "text": "2026-10 세션 거래대금 1위 종목 SOXL(반도체 지수 수익률의 3배를 따르는 ETF), 1.65억 달러",
      "color": "black",
      "fact_ids": [
       "F-0016"
@@ -293,7 +373,7 @@
     },
     {
      "id": "bo-0011",
-     "disp": "Blue Ocean 개요-13",
+     "disp": "Blue Ocean 개요-16",
      "level": "●",
      "text": "대상 고객",
      "color": "black",
@@ -303,19 +383,20 @@
     },
     {
      "id": "bo-0012",
-     "disp": "Blue Ocean 개요-14",
+     "disp": "Blue Ocean 개요-17",
      "level": "★",
-     "text": "ATS에 가입한 글로벌 구독 브로커",
+     "text": "ATS에 가입한 글로벌 구독 브로커(가입 자격은 아래 \"거래 시설 운영\" 참조)",
      "color": "black",
      "fact_ids": [
-      "F-0001"
+      "F-0001",
+      "F-1290"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "bo-0013",
-     "disp": "Blue Ocean 개요-15",
+     "disp": "Blue Ocean 개요-18",
      "level": "★",
      "text": "2022년부터 한국 증권사 고객이 한국 낮 시간에 이용",
      "color": "black",
@@ -327,9 +408,9 @@
     },
     {
      "id": "bo-0118",
-     "disp": "Blue Ocean 개요-16",
+     "disp": "Blue Ocean 개요-19",
      "level": "★",
-     "text": "미국 증권사 Interactive Brokers가 2023-07 연결(회사 발표)",
+     "text": "미국 대형 온라인 증권사 Interactive Brokers가 2023-07 연결(회사 발표)",
      "color": "black",
      "fact_ids": [
       "F-1178"
@@ -339,7 +420,7 @@
     },
     {
      "id": "bo-0119",
-     "disp": "Blue Ocean 개요-17",
+     "disp": "Blue Ocean 개요-20",
      "level": "★",
      "text": "2024-01 MEMX를 기술 파트너로 선정, 체결 시스템 제공",
      "color": "black",
@@ -351,9 +432,9 @@
     },
     {
      "id": "bo-0128",
-     "disp": "Blue Ocean 개요-18",
+     "disp": "Blue Ocean 개요-21",
      "level": "●",
-     "text": "미국 소매 증권사 연결 : Robinhood 야간 주문을 Blue Ocean이 체결",
+     "text": "미국 개인 대상 증권사 연결 : Robinhood의 24시간 거래 서비스가 Blue Ocean과 제휴해 야간 주문을 Blue Ocean으로 보내 체결(2023-12 종목 236종)",
      "color": "black",
      "fact_ids": [
       "F-1241"
@@ -363,7 +444,7 @@
     },
     {
      "id": "bo-0014",
-     "disp": "Blue Ocean 개요-19",
+     "disp": "Blue Ocean 개요-22",
      "level": "●",
      "text": "거래시간",
      "color": "black",
@@ -373,7 +454,7 @@
     },
     {
      "id": "bo-0015",
-     "disp": "Blue Ocean 개요-20",
+     "disp": "Blue Ocean 개요-23",
      "level": "★",
      "text": "일~목 밤 8시~새벽 4시(미국 동부)",
      "color": "black",
@@ -385,7 +466,7 @@
     },
     {
      "id": "bo-0016",
-     "disp": "Blue Ocean 개요-21",
+     "disp": "Blue Ocean 개요-24",
      "level": "★",
      "text": "한국 시간 오전 10시~오후 6시에 해당",
      "color": "black",
@@ -397,7 +478,7 @@
     },
     {
      "id": "bo-0017",
-     "disp": "Blue Ocean 개요-22",
+     "disp": "Blue Ocean 개요-25",
      "level": "●",
      "text": "거래 규모",
      "color": "black",
@@ -407,9 +488,9 @@
     },
     {
      "id": "bo-0018",
-     "disp": "Blue Ocean 개요-23",
+     "disp": "Blue Ocean 개요-26",
      "level": "★",
-     "text": "기준 : FINRA 주간 보고 거래대금 13주 합산, 야간 3사 대비",
+     "text": "기준 : FINRA 주간 보고 거래대금 13주 합산, 야간 3사 합계 대비",
      "color": "black",
      "fact_ids": [
       "F-0015"
@@ -419,7 +500,7 @@
     },
     {
      "id": "bo-0019",
-     "disp": "Blue Ocean 개요-24",
+     "disp": "Blue Ocean 개요-27",
      "level": "★",
      "text": "2026 Q3 2,435.5억 달러, 야간 3사 중 83.0%로 1위",
      "color": "black",
@@ -431,9 +512,9 @@
     },
     {
      "id": "bo-0020",
-     "disp": "Blue Ocean 개요-25",
+     "disp": "Blue Ocean 개요-28",
      "level": "★",
-     "text": "같은 Q3 Bruce(야간 ATS) 439.7억(15.0%), MOON(야간 ATS) 58.3억(2.0%)",
+     "text": "같은 Q3 Bruce(야간 ATS) 439.7억 달러(15.0%), MOON(야간 ATS) 58.3억 달러(2.0%)",
      "color": "black",
      "fact_ids": [
       "F-0029",
@@ -444,20 +525,33 @@
     },
     {
      "id": "bo-0021",
-     "disp": "Blue Ocean 개요-26",
+     "disp": "Blue Ocean 개요-29",
      "level": "★",
-     "text": "2026 Q2 2,676.7억 달러, 점유율 83.9%에서 소폭 하락",
+     "text": "2026 Q2 2,676.7억 달러, 점유율 83.9%에서 Q3 0.9%p 하락. 점유율 하락과 함께 거래대금 자체도 Q2 대비 9.0% 감소",
      "color": "black",
      "fact_ids": [
       "F-0013",
-      "F-0014"
+      "F-0014",
+      "F-0015"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0220",
+     "disp": "Blue Ocean 개요-30",
+     "level": "★",
+     "text": "다른 기준의 점유율(Korea Times 2026-03-02 보도, Blue Ocean 사이트 게재) : 야간 시장의 약 90%를 Blue Ocean, 약 10%를 Bruce와 MOON이 나눔. 기간과 집계 방식이 적혀 있지 않아 위 FINRA 13주 합산 83.0%와 같은 줄에서 비교하지 않음",
+     "color": "black",
+     "fact_ids": [
+      "F-1395"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "bo-0022",
-     "disp": "Blue Ocean 개요-27",
+     "disp": "Blue Ocean 개요-31",
      "level": "●",
      "text": "차별화 요소",
      "color": "black",
@@ -467,9 +561,9 @@
     },
     {
      "id": "bo-0023",
-     "disp": "Blue Ocean 개요-28",
+     "disp": "Blue Ocean 개요-32",
      "level": "★",
-     "text": "3사 중 가장 먼저 개장(MOON 2024-11, Bruce 2025-03)",
+     "text": "3사 중 가장 먼저 개장(2021-10, 뒤이어 MOON 2024-11, Bruce 2025-03)",
      "color": "black",
      "fact_ids": [
       "F-1090",
@@ -481,9 +575,9 @@
     },
     {
      "id": "bo-0024",
-     "disp": "Blue Ocean 개요-29",
+     "disp": "Blue Ocean 개요-33",
      "level": "★",
-     "text": "2023-09 도쿄증권거래소가 지분 5% 투자, 일본 낮 시간 거래 목표",
+     "text": "2023-09 도쿄증권거래소가 지주회사 지분 5% 투자, 일본 낮 시간 거래 목표",
      "color": "black",
      "fact_ids": [
       "F-0003"
@@ -493,7 +587,7 @@
     },
     {
      "id": "bo-0025",
-     "disp": "Blue Ocean 개요-30",
+     "disp": "Blue Ocean 개요-34",
      "level": "●",
      "text": "토큰증권 취급 현황",
      "color": "black",
@@ -503,9 +597,9 @@
     },
     {
      "id": "bo-0026",
-     "disp": "Blue Ocean 개요-31",
+     "disp": "Blue Ocean 개요-35",
      "level": "★",
-     "text": "2025-10 토큰화 NMS 주식 거래 연동 추진 발표",
+     "text": "2025-10 토큰화한 NMS 주식(블록체인 토큰 형태의 상장 주식) 거래와의 연동 추진 발표",
      "color": "black",
      "fact_ids": [
       "F-0017"
@@ -514,10 +608,22 @@
      "notes": []
     },
     {
-     "id": "bo-0027",
-     "disp": "Blue Ocean 개요-32",
+     "id": "bo-0192",
+     "disp": "Blue Ocean 개요-36",
      "level": "★",
-     "text": "2026-03 RQD*(미국 청산 회사)와 토큰 주식 청산 MOU",
+     "text": "2026-03 주말에도 토큰화 증권을 거래하는 구상 밝힘. NMS 주식 거래 방식 자체는 그대로 유지(Traders Magazine 인터뷰, 단일 출처)",
+     "color": "black",
+     "fact_ids": [
+      "F-0019"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0027",
+     "disp": "Blue Ocean 개요-37",
+     "level": "★",
+     "text": "2026-03 RQD(미국 청산 회사)와 토큰 주식 청산 MOU(업무협약, 법적 구속력 있는 계약이 아닌 협력 문서)",
      "color": "black",
      "fact_ids": [
       "F-0018"
@@ -527,9 +633,9 @@
     },
     {
      "id": "bo-0028",
-     "disp": "Blue Ocean 개요-33",
+     "disp": "Blue Ocean 개요-38",
      "level": "★",
-     "text": "DTCC(미국 중앙 예탁결제기관) 토큰화 로드맵에 맞춤",
+     "text": "DTCC(미국 중앙 예탁결제기관)가 추진하는 토큰화 일정에 맞춰 준비",
      "color": "black",
      "fact_ids": [
       "F-0017",
@@ -540,7 +646,7 @@
     },
     {
      "id": "bo-0029",
-     "disp": "Blue Ocean 개요-34",
+     "disp": "Blue Ocean 개요-39",
      "level": "●",
      "text": "화면",
      "color": "black",
@@ -550,7 +656,7 @@
     },
     {
      "id": "bo-0030",
-     "disp": "Blue Ocean 개요-35",
+     "disp": "Blue Ocean 개요-40",
      "level": "그림",
      "images": [
       {
@@ -558,6 +664,507 @@
        "caption": "홈"
       }
      ]
+    }
+   ]
+  },
+  {
+   "code": "거래",
+   "title": "거래 시설 운영",
+   "lines": [
+    {
+     "id": "bo-0136",
+     "disp": "Blue Ocean 거래-1",
+     "level": "●",
+     "text": "쉽게 말하면 : 직접 가입은 미국 브로커딜러만 하고, 장애에 대비한 별도 복구 사이트는 없으며, 사고 뒤 한국이 복수 ATS 연결을 요구함",
+     "color": "black",
+     "fact_ids": [
+      "F-1290",
+      "F-1292",
+      "F-1299"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0137",
+     "disp": "Blue Ocean 거래-2",
+     "level": "●",
+     "text": "주장 : 가입 자격과 가격 밴드로 안전장치는 두었으나 장애 때 넘어갈 별도 복구 사이트가 없는 단일 체결 시장이어서, 사고 뒤 한국이 복수 ATS 연결을 재개 조건으로 붙임",
+     "color": "black",
+     "fact_ids": [
+      "F-1291",
+      "F-1293",
+      "F-1292",
+      "F-1299"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0138",
+     "disp": "Blue Ocean 거래-3",
+     "level": "●",
+     "text": "참가자 수와 유형",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0139",
+     "disp": "Blue Ocean 거래-4",
+     "level": "★",
+     "text": "직접 구독자 : 미국 SEC 등록 브로커딜러이면서 미국 자율규제기구 회원 1곳 이상(회사 FAQ, 2026-11-16 열람)",
+     "color": "black",
+     "fact_ids": [
+      "F-1290",
+      "F-1291"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0140",
+     "disp": "Blue Ocean 거래-5",
+     "level": "-",
+     "text": "뜻 : 구독자 = ATS에 주문을 직접 보낼 자격을 얻은 가입 회원",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0141",
+     "disp": "Blue Ocean 거래-6",
+     "level": "★",
+     "text": "한국 증권사의 위치 : 직접 구독자가 아니므로 미국 브로커를 거쳐 접속",
+     "color": "black",
+     "fact_ids": [
+      "F-1291",
+      "KR-금투업규정-5-31"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0194",
+     "disp": "Blue Ocean 거래-7",
+     "level": "★",
+     "text": "참가 브로커 : 2024-11 업계 행사 보도로 55곳(일본, 한국, 싱가포르, 미국, FlexTrade 게시글, 단일 출처)",
+     "color": "black",
+     "fact_ids": [
+      "F-1183"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0221",
+     "disp": "Blue Ocean 거래-8",
+     "level": "-",
+     "text": "다른 시점 값 : 2026-03-02 Korea Times 보도(Blue Ocean 사이트 게재)는 30개국 140곳 이상의 증권사가 쓰고 그 절반이 아시아라고 씀. 시점과 출처가 달라 둘 다 두고 하나로 고르지 않음. 회사 FAQ에서는 수를 확인하지 못함",
+     "color": "black",
+     "fact_ids": [
+      "F-1395",
+      "F-1183"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0222",
+     "disp": "Blue Ocean 거래-9",
+     "level": "★",
+     "text": "요금(Form ATS-N 첨부서, 2026년 개정) : 접속비와 포트비 없음. 1달러 이상 종목은 기존 호가를 가져가는 체결에 주당 0~0.002달러(협상), 1달러 미만 종목은 거래대금의 최대 0.3%",
+     "color": "black",
+     "fact_ids": [
+      "F-1394"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0223",
+     "disp": "Blue Ocean 거래-10",
+     "level": "-",
+     "text": "뜻 : Form ATS-N = NMS 주식을 거래하는 ATS가 SEC에 내는 운영 신고서. 요금과 참가 조건이 여기에 공시됨",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0195",
+     "disp": "Blue Ocean 거래-11",
+     "level": "★",
+     "text": "수수료 : Interactive Brokers가 공시한 이용 요율로 1달러 이상 종목은 기존 호가를 가져가는 주문에 주당 0.002달러 부과, 새 호가를 내는 주문에는 주당 0.0006달러 리베이트(단일 출처, 회사 매출은 공개되지 않음)",
+     "color": "black",
+     "fact_ids": [
+      "F-1294"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0227",
+     "disp": "Blue Ocean 거래-12",
+     "level": "-",
+     "text": "리베이트(새 호가를 내 체결된 쪽에 돌려주는 돈) : 2026년 개정 ATS-N은 주당 0~0.0060달러 범위에서 협상. Interactive Brokers 요율표의 주당 0.0006달러는 개정 전 ATS-N의 고정 리베이트와 같은 값이며, 개정본에서 이 옛 요율표는 삭제 표시됨(ATS-N 첨부서 캡처 captures/chrome/BlueOcean_ATSN_fees_2026.png)",
+     "color": "black",
+     "fact_ids": [
+      "F-1394",
+      "F-1294"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0142",
+     "disp": "Blue Ocean 거래-13",
+     "level": "●",
+     "text": "주주 구성과 지분",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0143",
+     "disp": "Blue Ocean 거래-14",
+     "level": "★",
+     "text": "확인된 주주 : Urbana 약 35%, 도쿄증권거래소 5%로 합계 약 40%이며 나머지 약 60%의 보유자는 자료에서 확인하지 못함(위 모회사 항목 참조)",
+     "color": "black",
+     "fact_ids": [
+      "F-0002",
+      "F-0003"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0144",
+     "disp": "Blue Ocean 거래-15",
+     "level": "★",
+     "text": "도쿄증권거래소 투자 목적 : 일본 투자자가 일본 낮 시간에 Blue Ocean ATS를 쓰게 하려는 것(2023-09-13, 투자 완료 발표, 아래 발언 2)",
+     "color": "black",
+     "fact_ids": [
+      "F-0003"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0145",
+     "disp": "Blue Ocean 거래-16",
+     "level": "●",
+     "text": "장애 대응 체계",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0146",
+     "disp": "Blue Ocean 거래-17",
+     "level": "★",
+     "text": "복구 사이트 : 이중화한 별도 복구 사이트는 없고, 사업 지속 계획(BCP)을 연 1회 점검(회사 FAQ)",
+     "color": "black",
+     "fact_ids": [
+      "F-1292"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0147",
+     "disp": "Blue Ocean 거래-18",
+     "level": "-",
+     "text": "뜻 : BCP = 장애나 재난 때 시장을 계속 돌리기 위한 대응 계획",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0148",
+     "disp": "Blue Ocean 거래-19",
+     "level": "★",
+     "text": "가격 밴드 : 거래 세션 중 20% 가격 밴드 적용(회사 FAQ)",
+     "color": "black",
+     "fact_ids": [
+      "F-1293"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0149",
+     "disp": "Blue Ocean 거래-20",
+     "level": "-",
+     "text": "뜻 : 가격 밴드 = 기준 가격에서 일정 폭을 벗어난 가격의 주문 체결을 막는 안전장치",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0150",
+     "disp": "Blue Ocean 거래-21",
+     "level": "★",
+     "text": "실제 사고 : 2024-08-05 체결 취소로 한국 증권사 19곳, 약 9만 계좌, 6,300억원 취소. 회사 설명은 거래량 급증이 원인이고 새벽 1:45~3:06 사이 체결이 취소됨(Markets Media 보도, 단일 출처)",
+     "color": "black",
+     "fact_ids": [
+      "F-1105",
+      "F-0007",
+      "F-0006"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0151",
+     "disp": "Blue Ocean 거래-22",
+     "level": "★",
+     "text": "한국 재개 조건(금융감독원이 금융투자협회와 2025-09-24 발표, 매체 3곳 일치) : 2곳 이상 미국 브로커와 ATS에 주문 회선 연결",
+     "color": "black",
+     "fact_ids": [
+      "F-1299"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0152",
+     "disp": "Blue Ocean 거래-23",
+     "level": "★",
+     "text": "한국 재개 조건 : 계좌별, 시간대별, 체결번호별 롤백 시스템 도입",
+     "color": "black",
+     "fact_ids": [
+      "F-1300"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0153",
+     "disp": "Blue Ocean 거래-24",
+     "level": "-",
+     "text": "뜻 : 롤백 = 체결이 취소될 때 고객 잔고와 증거금을 원래대로 되돌리는 시스템",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0154",
+     "disp": "Blue Ocean 거래-25",
+     "level": "★",
+     "text": "한국 재개 조건 : 위험 고지 강화, 사고 시 보상체계, 장애 대응 매뉴얼, 현지 ATS와 비상연락망",
+     "color": "black",
+     "fact_ids": [
+      "F-1301"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0225",
+     "disp": "Blue Ocean 거래-26",
+     "level": "★",
+     "text": "사고 뒤 회사가 내놓은 방안(2025-02 CEO 인터뷰, Korea Times 보도) : 한국 증권사에 월 최대 25만 달러의 금전 보상을 포함한 방안 제시, 2025-01-22 서울 사무소 개설",
+     "color": "black",
+     "fact_ids": [
+      "F-1297",
+      "F-1296"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0155",
+     "disp": "Blue Ocean 거래-27",
+     "level": "★",
+     "text": "해석 : 복구 사이트 없는 단일 시장의 위험을 한국 증권사가 복수 ATS 계약으로 나눠 맡는 구조. 사고 뒤 회사는 새 기술의 용량이 하룻밤 350억 메시지(이전 3,500만)라며 체결 취소 재발이 없을 것이라 말함(2025-02, 회사 주장)",
+     "color": "black",
+     "fact_ids": [
+      "F-1292",
+      "F-1299",
+      "F-0035",
+      "F-1295"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0156",
+     "disp": "Blue Ocean 거래-28",
+     "level": "●",
+     "text": "공정접근 규칙 대응",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0157",
+     "disp": "Blue Ocean 거래-29",
+     "level": "★",
+     "text": "2026-09-01 일부 종목이 공정접근 5% 기준에 가까워 18개 종목 거래 중단",
+     "color": "black",
+     "fact_ids": [
+      "F-1099",
+      "F-1100"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0158",
+     "disp": "Blue Ocean 거래-30",
+     "level": "★",
+     "text": "2026-09-10 회사 대변인이 더는 공정접근 문턱 때문에 중단하지 않아도 된다고 밝힘",
+     "color": "black",
+     "fact_ids": [
+      "F-1102"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0159",
+     "disp": "Blue Ocean 거래-31",
+     "level": "●",
+     "text": "정규 거래소 야간 진입 일정(미국 정규 거래소가 밤 시간대 거래를 열려는 계획)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0160",
+     "disp": "Blue Ocean 거래-32",
+     "level": "-",
+     "text": "뜻 : SIP(통합시세 처리 시스템) = 여러 거래소의 호가와 체결가를 하나로 모아 전 시장에 내보내는 시스템. 거래소 야간 세션은 SIP가 야간에도 운영될 수 있을 때 시작하는 조건이 붙음",
+     "color": "black",
+     "fact_ids": [
+      "F-1172"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0198",
+     "disp": "Blue Ocean 거래-33",
+     "level": "-",
+     "text": "뜻 : 신속 승인 = SEC가 통상 절차보다 앞당겨 내린 승인. 제출 즉시 효력 = 승인 명령 없이 규칙을 제출하는 것만으로 효력이 생기는 방식. 조건부 면제 = SEC가 정해진 조건 아래에서만 규정 적용을 면제해 준 것. 거래소 야간 세션 = 정규 거래소가 같은 시간대에 여는 야간 거래 시간",
+     "color": "black",
+     "fact_ids": [
+      "F-1171",
+      "F-1174",
+      "F-1165"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0161",
+     "disp": "Blue Ocean 거래-34",
+     "level": "★",
+     "text": "SIP : 2026-12-06부터 연장 시간표 적용, 야간 시작 조건의 기준일",
+     "color": "black",
+     "fact_ids": [
+      "F-1166",
+      "F-1168"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0162",
+     "disp": "Blue Ocean 거래-35",
+     "level": "★",
+     "text": "Nasdaq : 2026-04-10 SEC 신속 승인, 주 5일 23시간 거래, 야간 세션은 SIP 가용 시 시작",
+     "color": "black",
+     "fact_ids": [
+      "F-1171",
+      "F-1172"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0163",
+     "disp": "Blue Ocean 거래-36",
+     "level": "★",
+     "text": "Cboe EDGX : 2026-05-29 SEC 신속 승인, SIP 준비 조건 충족 전에는 야간 세션 시작 안 함",
+     "color": "black",
+     "fact_ids": [
+      "F-1303"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0164",
+     "disp": "Blue Ocean 거래-37",
+     "level": "★",
+     "text": "NYSE Arca : 2026-05 야간 세션 추가 규칙 제출, 승인 명령이 아니라 제출 즉시 효력",
+     "color": "black",
+     "fact_ids": [
+      "F-1174"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0165",
+     "disp": "Blue Ocean 거래-38",
+     "level": "★",
+     "text": "MEMX : 승인이 아니라 2026-08-28 규칙 제출, 즉시 효력(관보 2026-09-14), 야간 세션 시작 조건은 EDGX와 같음",
+     "color": "black",
+     "fact_ids": [
+      "F-1304"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0166",
+     "disp": "Blue Ocean 거래-39",
+     "level": "★",
+     "text": "24X : 야간 거래는 조건부 면제로 2027-01-24부터, SIP가 2026-12-06까지 준비되지 못할 때만 허용",
+     "color": "black",
+     "fact_ids": [
+      "F-1165"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0167",
+     "disp": "Blue Ocean 거래-40",
+     "level": "★",
+     "text": "규모 : MEMX가 SEC 문서에 인용한 자료로 2026-04 미국 야간 시간대 거래는 전년 같은 달 대비 305% 증가했으나 미국 전체 일 거래량의 1% 미만",
+     "color": "black",
+     "fact_ids": [
+      "F-1305"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0168",
+     "disp": "Blue Ocean 거래-41",
+     "level": "★",
+     "text": "해석 : Blue Ocean의 체결 시스템 공급자 MEMX와 24X의 기술 공급자가 같아, 거래소 야간 세션이 열려도 같은 기술 위에서 경쟁함",
+     "color": "black",
+     "fact_ids": [
+      "F-1177",
+      "F-1164",
+      "F-1304"
+     ],
+     "confirmed": false,
+     "notes": []
     }
    ]
   },
@@ -583,7 +1190,7 @@
      "id": "bo-0031",
      "disp": "Blue Ocean 발언-2",
      "level": "●",
-     "text": "주장 : 한국 낮 시간에서 아시아로, 다시 24시간 토큰 시장으로",
+     "text": "주장 : 한국 낮 시간 연결에서 시작해 일본과 아시아로, 이어 주말까지 닫힌 틈이 없는 24시간 토큰 시장으로 넓히겠다고 말하고 일부를 이룸",
      "color": "black",
      "fact_ids": [
       "F-0004",
@@ -594,8 +1201,129 @@
      "notes": []
     },
     {
-     "id": "bo-0032",
+     "id": "bo-0199",
      "disp": "Blue Ocean 발언-3",
+     "level": "●",
+     "text": "말하고 이룬 것(시점 순)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0200",
+     "disp": "Blue Ocean 발언-4",
+     "level": "★",
+     "text": "2022-02-07 Layman(당시 CEO) : 미국 주식 시장이 서울에서 열린다 → 같은 날 삼성증권 제휴, 2022년부터 한국 증권사 고객이 한국 낮에 이용",
+     "color": "black",
+     "fact_ids": [
+      "F-0004",
+      "F-0005"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0201",
+     "disp": "Blue Ocean 발언-5",
+     "level": "★",
+     "text": "2022-10-11 Hyndman(사장 겸 CEO) : 아시아 시간대에 맞춰 일요일 밤 8시 개장 구조로 수요를 받는다 → 일~목 밤 8시 개장으로 운영 중(단일 출처)",
+     "color": "black",
+     "fact_ids": [
+      "F-1072",
+      "F-0001"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0202",
+     "disp": "Blue Ocean 발언-6",
+     "level": "★",
+     "text": "2023-09-13 Hyndman : 아시아태평양 거래를 키우는 시점 → 도쿄증권거래소 5% 투자",
+     "color": "black",
+     "fact_ids": [
+      "F-0003"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0203",
+     "disp": "Blue Ocean 발언-7",
+     "level": "★",
+     "text": "2025-01-30 Hyndman : 한국과 북아시아가 가장 큰 수요처라 현지에서 영업을 직접 관리 → 서울 사무소 개설(2025-01-22, 전 LSEG Korea 대표 영입, 단일 출처)",
+     "color": "black",
+     "fact_ids": [
+      "F-1073",
+      "F-1296"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0204",
+     "disp": "Blue Ocean 발언-8",
+     "level": "●",
+     "text": "말하고 진행 중인 것",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0205",
+     "disp": "Blue Ocean 발언-9",
+     "level": "★",
+     "text": "2025-10-10 Hyndman : 토큰화가 24시간 365일 시장을 완성 → 2026-03 RQD와 토큰 주식 청산 MOU, 실제 거래는 시작 전",
+     "color": "black",
+     "fact_ids": [
+      "F-0017",
+      "F-0018"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0206",
+     "disp": "Blue Ocean 발언-10",
+     "level": "★",
+     "text": "2025-12-22 Hyndman : 토큰화는 12~24개월 안에 열릴 새 경로이고 기존 NMS 거래와 병행(단일 출처)",
+     "color": "black",
+     "fact_ids": [
+      "F-1075"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0207",
+     "disp": "Blue Ocean 발언-11",
+     "level": "★",
+     "text": "한국 비중 : 2024-08에는 사업의 65%가 한국(Korea Times 보도), 2026-03 Korea Times 보도는 한국이 하룻밤 거래량의 약 35%. 같은 매체의 CEO 발언 보도라 시점 순으로 두되 기준 문구(사업 대비, 거래량 대비)가 다름(단일 출처)",
+     "color": "black",
+     "fact_ids": [
+      "F-0010",
+      "F-1395"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0226",
+     "disp": "Blue Ocean 발언-12",
+     "level": "-",
+     "text": "같은 달 다른 매체 : 아주경제 인용 CEO 인터뷰 제목(Blue Ocean 홈페이지 뉴스 목록, 2026-03-20)도 한국이 글로벌 거래량의 35%",
+     "color": "black",
+     "fact_ids": [
+      "F-1298"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0032",
+     "disp": "Blue Ocean 발언-13",
      "level": "●",
      "text": "발언 1 : 미국 주식 시장을 서울 낮으로 옮긴다",
      "color": "black",
@@ -607,7 +1335,7 @@
     },
     {
      "id": "bo-0033",
-     "disp": "Blue Ocean 발언-4",
+     "disp": "Blue Ocean 발언-14",
      "level": "★",
      "text": "Ralph Layman(Blue Ocean Technologies CEO, 2022년 당시), 삼성증권 제휴 발표, 2022-02-07 https://prnewswire.com/news-releases/blue-ocean-technologies--samsung-securities-announce-strategic-partnership-offering-us-equity-trading-during-local-asia-pacific-business-hours-301476177.html",
      "color": "black",
@@ -619,7 +1347,7 @@
     },
     {
      "id": "bo-0034",
-     "disp": "Blue Ocean 발언-5",
+     "disp": "Blue Ocean 발언-15",
      "level": "①",
      "text": "원문 : \"This partnership allows us to transport the US equities trading day, and our Blue Ocean trading model, to provide expanded local access to the greatest capital market in the world. ... As of today, the US equity market opens in Seoul.\"",
      "color": "black",
@@ -629,7 +1357,7 @@
     },
     {
      "id": "bo-0035",
-     "disp": "Blue Ocean 발언-6",
+     "disp": "Blue Ocean 발언-16",
      "level": "②",
      "text": "번역 : 이번 제휴로 미국 주식 거래일과 Blue Ocean 거래 모델을 옮겨 세계 최대 자본시장에 대한 현지 접근을 넓힌다. 오늘부터 미국 주식 시장이 서울에서 열린다.",
      "color": "black",
@@ -639,9 +1367,9 @@
     },
     {
      "id": "bo-0036",
-     "disp": "Blue Ocean 발언-7",
+     "disp": "Blue Ocean 발언-17",
      "level": "③",
-     "text": "해석 : 큰 곳은 한국 낮 시간의 미국 주식 수요. 그래서 한국 증권사를 구독자로 연결",
+     "text": "해석 : 방향은 한국 낮 시간의 미국 주식 수요, 실행은 한국 증권사를 구독자로 연결",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -649,7 +1377,7 @@
     },
     {
      "id": "bo-0037",
-     "disp": "Blue Ocean 발언-8",
+     "disp": "Blue Ocean 발언-18",
      "level": "그림",
      "images": [
       {
@@ -660,7 +1388,7 @@
     },
     {
      "id": "bo-0038",
-     "disp": "Blue Ocean 발언-9",
+     "disp": "Blue Ocean 발언-19",
      "level": "●",
      "text": "발언 2 : 아시아태평양 거래를 키우는 시점",
      "color": "black",
@@ -672,7 +1400,7 @@
     },
     {
      "id": "bo-0039",
-     "disp": "Blue Ocean 발언-10",
+     "disp": "Blue Ocean 발언-20",
      "level": "★",
      "text": "Brian Hyndman(사장 겸 CEO), 도쿄증권거래소 투자 완료 발표, 2023-09-13 https://prnewswire.com/news-releases/blue-ocean-technologies--tokyo-stock-exchange-close-strategic-investment-agreement-focused-on-expanding-trading-hours-for-japanese-investors-301926166.html",
      "color": "black",
@@ -684,7 +1412,7 @@
     },
     {
      "id": "bo-0040",
-     "disp": "Blue Ocean 발언-11",
+     "disp": "Blue Ocean 발언-21",
      "level": "①",
      "text": "원문 : \"This partnership comes at a pivotal time as we continue to grow our trading in the Asia Pacific region. ... connecting local Japanese investors to endless trading opportunities on the Blue Ocean ATS platform\"",
      "color": "black",
@@ -694,7 +1422,7 @@
     },
     {
      "id": "bo-0041",
-     "disp": "Blue Ocean 발언-12",
+     "disp": "Blue Ocean 발언-22",
      "level": "②",
      "text": "번역 : 이번 제휴는 아시아태평양 거래를 계속 키우는 중요한 시점에 이뤄졌다. 일본 현지 투자자를 Blue Ocean ATS의 거래 기회와 연결한다.",
      "color": "black",
@@ -704,9 +1432,9 @@
     },
     {
      "id": "bo-0042",
-     "disp": "Blue Ocean 발언-13",
+     "disp": "Blue Ocean 발언-23",
      "level": "③",
-     "text": "해석 : 큰 곳은 한국 다음의 아시아 시장. 그래서 도쿄증권거래소 지분 투자를 받아 일본으로 확장",
+     "text": "해석 : 방향은 한국 다음의 아시아 시장, 실행은 도쿄증권거래소 지분 투자를 받아 일본으로 확장",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -714,7 +1442,7 @@
     },
     {
      "id": "bo-0043",
-     "disp": "Blue Ocean 발언-14",
+     "disp": "Blue Ocean 발언-24",
      "level": "그림",
      "images": [
       {
@@ -725,7 +1453,7 @@
     },
     {
      "id": "bo-0044",
-     "disp": "Blue Ocean 발언-15",
+     "disp": "Blue Ocean 발언-25",
      "level": "●",
      "text": "발언 3 : 토큰화가 24시간 365일 시장을 완성",
      "color": "black",
@@ -737,7 +1465,7 @@
     },
     {
      "id": "bo-0045",
-     "disp": "Blue Ocean 발언-16",
+     "disp": "Blue Ocean 발언-26",
      "level": "★",
      "text": "Brian Hyndman(CEO), 토큰화 NMS 주식 연동 발표(보도자료), 2025-10-10 https://www.finanzen.net/nachricht/aktien/blue-ocean-technologies-to-pursue-tokenized-nms-us-equities-trading-14994412",
      "color": "black",
@@ -749,7 +1477,7 @@
     },
     {
      "id": "bo-0046",
-     "disp": "Blue Ocean 발언-17",
+     "disp": "Blue Ocean 발언-27",
      "level": "①",
      "text": "원문 : \"Integrating with forthcoming tokenized settlement infrastructure represents the next frontier in our journey. Tokenization has the potential to complete the 24/7/365 market, closing the final gap in an increasingly connected global trading ecosystem.\"",
      "color": "black",
@@ -759,7 +1487,7 @@
     },
     {
      "id": "bo-0047",
-     "disp": "Blue Ocean 발언-18",
+     "disp": "Blue Ocean 발언-28",
      "level": "②",
      "text": "번역 : 다가올 토큰화 결제 인프라와의 연동은 우리 여정의 다음 개척지다. 토큰화는 24시간 365일 시장을 완성해 연결된 세계 거래 생태계의 마지막 빈틈을 메울 수 있다.",
      "color": "black",
@@ -769,9 +1497,9 @@
     },
     {
      "id": "bo-0048",
-     "disp": "Blue Ocean 발언-19",
+     "disp": "Blue Ocean 발언-29",
      "level": "③",
-     "text": "해석 : 큰 곳은 주말까지 이어지는 24시간 시장. 그래서 토큰화 결제와 청산 연동 준비",
+     "text": "해석 : 방향은 주말까지 이어지는 24시간 시장, 실행은 토큰화 결제와 청산 연동 준비",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -779,7 +1507,7 @@
     },
     {
      "id": "bo-0049",
-     "disp": "Blue Ocean 발언-20",
+     "disp": "Blue Ocean 발언-30",
      "level": "그림",
      "images": [
       {
@@ -847,17 +1575,31 @@
      "id": "bo-0053",
      "disp": "Blue Ocean 연결-5",
      "level": "★",
-     "text": "2025-11 재개 조건 : 2곳 이상 ATS 계약, 거래 되돌림 체계",
+     "text": "2025-11-04 한국 증권사 18곳 주간거래 재개(조건은 위 거래 시설 운영의 한국 재개 조건 참조)",
      "color": "black",
      "fact_ids": [
-      "F-0011"
+      "F-0011",
+      "F-1010"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0209",
+     "disp": "Blue Ocean 연결-6",
+     "level": "-",
+     "text": "뜻 : 주간거래 = 한국 증권사가 한국 낮 시간(미국 야간)에 제공하는 미국 주식 거래 서비스. 한국 증권사는 주문을 이 ATS로 보냄",
+     "color": "black",
+     "fact_ids": [
+      "F-0005",
+      "F-1103"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "bo-0055",
-     "disp": "Blue Ocean 연결-6",
+     "disp": "Blue Ocean 연결-7",
      "level": "●",
      "text": "사고와 중단 연표",
      "color": "black",
@@ -867,7 +1609,7 @@
     },
     {
      "id": "bo-0082",
-     "disp": "Blue Ocean 연결-7",
+     "disp": "Blue Ocean 연결-8",
      "level": "★",
      "text": "2024-08-05 체결 일괄 취소, 한국 증권사 19곳, 6,300억원",
      "color": "black",
@@ -879,7 +1621,7 @@
     },
     {
      "id": "bo-0083",
-     "disp": "Blue Ocean 연결-8",
+     "disp": "Blue Ocean 연결-9",
      "level": "★",
      "text": "2024-08-16 한국 주간거래 중단, 2025-11-04 재개(약 15개월)",
      "color": "black",
@@ -892,7 +1634,7 @@
     },
     {
      "id": "bo-0084",
-     "disp": "Blue Ocean 연결-9",
+     "disp": "Blue Ocean 연결-10",
      "level": "★",
      "text": "2026-09-01 18개 종목(SOXL, KORU 등) 거래 중단",
      "color": "black",
@@ -905,7 +1647,7 @@
     },
     {
      "id": "bo-0085",
-     "disp": "Blue Ocean 연결-10",
+     "disp": "Blue Ocean 연결-11",
      "level": "★",
      "text": "2026-09-11 18개 종목 재개(한국 시간)",
      "color": "black",
@@ -917,7 +1659,7 @@
     },
     {
      "id": "bo-0086",
-     "disp": "Blue Ocean 연결-11",
+     "disp": "Blue Ocean 연결-12",
      "level": "●",
      "text": "2026-09 종목 중단의 내용",
      "color": "black",
@@ -927,7 +1669,7 @@
     },
     {
      "id": "bo-0087",
-     "disp": "Blue Ocean 연결-12",
+     "disp": "Blue Ocean 연결-13",
      "level": "★",
      "text": "사유 : SEC 공정접근 5% 문턱, 의무가 아닌 자체 중단",
      "color": "black",
@@ -939,7 +1681,7 @@
     },
     {
      "id": "bo-0088",
-     "disp": "Blue Ocean 연결-13",
+     "disp": "Blue Ocean 연결-14",
      "level": "★",
      "text": "한국은 그 종목을 Bruce, MOON에 호가 없이 지정가로 주문",
      "color": "black",
@@ -951,8 +1693,20 @@
      "notes": []
     },
     {
+     "id": "bo-0210",
+     "disp": "Blue Ocean 연결-15",
+     "level": "-",
+     "text": "뜻 : 호가 = 사려는, 팔려는 희망 가격 목록. 한국 앱은 Bruce, MOON 호가를 볼 수 없어 사는 가격을 직접 정해 내는 지정가 주문만 가능했음",
+     "color": "black",
+     "fact_ids": [
+      "F-1101"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bo-0089",
-     "disp": "Blue Ocean 연결-14",
+     "disp": "Blue Ocean 연결-16",
      "level": "★",
      "text": "같은 9월 메리츠, 10월 토스가 Bruce 시세 연결",
      "color": "black",
@@ -965,7 +1719,7 @@
     },
     {
      "id": "bo-0090",
-     "disp": "Blue Ocean 연결-15",
+     "disp": "Blue Ocean 연결-17",
      "level": "★",
      "text": "10월 최근 3주 Bruce 점유율 29.8%로 상승",
      "color": "black",
@@ -985,7 +1739,7 @@
      "id": "bo-0121",
      "disp": "Blue Ocean 차이-1",
      "level": "●",
-     "text": "쉽게 말하면 : 미국은 등록하면 야간 시장을 열지만 한국은 인가가 있어야 함",
+     "text": "쉽게 말하면 : 미국은 증권사 등록과 규정 준수만으로 야간 시장을 열 수 있으나 한국은 정부 인가가 있어야 함",
      "color": "black",
      "fact_ids": [
       "F-0247",
@@ -998,11 +1752,12 @@
      "id": "bo-0058",
      "disp": "Blue Ocean 차이-2",
      "level": "●",
-     "text": "주장 : 미국은 등록과 신고로 열고, 한국은 인가가 있어야 연다",
+     "text": "주장 : 같은 야간 시장이라도 미국은 거래소 등록 면제 요건만 지키면 열리는 반면, 한국 ATS는 금융위원회 인가(넥스트레이드 2025-02 본인가)를 받아야 하는 차이",
      "color": "black",
      "fact_ids": [
       "F-0247",
-      "F-1092"
+      "F-1092",
+      "US-17CFR-242.301-b1"
      ],
      "confirmed": false,
      "notes": []
@@ -1032,10 +1787,20 @@
      "notes": []
     },
     {
-     "id": "bo-0091",
+     "id": "bo-0169",
      "disp": "Blue Ocean 차이-5",
+     "level": "-",
+     "text": "뜻 : Reg ATS = 미국 SEC의 ATS 규정, 브로커딜러가 요건을 지키면 거래소 등록 없이 시장을 운영하게 함",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0091",
+     "disp": "Blue Ocean 차이-6",
      "level": "★",
-     "text": "한국 차이 : 한국 ATS는 금융위 인가(넥스트레이드 2025-02 본인가)",
+     "text": "한국 차이 : 한국 ATS는 금융위원회 인가(넥스트레이드 2025-02 본인가)",
      "color": "black",
      "fact_ids": [
       "F-1092"
@@ -1044,8 +1809,18 @@
      "notes": []
     },
     {
+     "id": "bo-0170",
+     "disp": "Blue Ocean 차이-7",
+     "level": "-",
+     "text": "뜻 : 넥스트레이드 = 한국에서 인가받은 대체거래소(ATS)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bo-0092",
-     "disp": "Blue Ocean 차이-6",
+     "disp": "Blue Ocean 차이-8",
      "level": "★",
      "text": "한국 차이 : 직접 참가자는 증권사, 개인은 증권사를 거쳐 거래",
      "color": "black",
@@ -1059,7 +1834,7 @@
     },
     {
      "id": "bo-0062",
-     "disp": "Blue Ocean 차이-7",
+     "disp": "Blue Ocean 차이-9",
      "level": "★",
      "text": "한국 차이 : 개인의 해외 주식 주문은 해외 중개업자 경유",
      "color": "black",
@@ -1071,7 +1846,7 @@
     },
     {
      "id": "bo-0063",
-     "disp": "Blue Ocean 차이-8",
+     "disp": "Blue Ocean 차이-10",
      "level": "●",
      "text": "고객 수요",
      "color": "black",
@@ -1081,7 +1856,7 @@
     },
     {
      "id": "bo-0064",
-     "disp": "Blue Ocean 차이-9",
+     "disp": "Blue Ocean 차이-11",
      "level": "★",
      "text": "가능했던 이유 : 한국 낮 시간의 미국 주식 매매 수요",
      "color": "black",
@@ -1093,7 +1868,7 @@
     },
     {
      "id": "bo-0093",
-     "disp": "Blue Ocean 차이-10",
+     "disp": "Blue Ocean 차이-12",
      "level": "●",
      "text": "규제 건의 포인트 : 해외 체결 시장 사고 때 거래 되돌림, 고객 보호 기준",
      "color": "black",
@@ -1114,7 +1889,7 @@
      "id": "bo-0122",
      "disp": "Blue Ocean 판단-1",
      "level": "●",
-     "text": "쉽게 말하면 : 1위이나 사고와 종목 중단에 약하고 거래소 야간 거래가 다가옴",
+     "text": "쉽게 말하면 : 야간 3사 중 1위이나 한 번의 사고와 종목 중단에 약하고, 거래소의 야간 거래가 다가옴",
      "color": "black",
      "fact_ids": [
       "F-0015",
@@ -1128,7 +1903,7 @@
      "id": "bo-0094",
      "disp": "Blue Ocean 판단-2",
      "level": "●",
-     "text": "주장 : 1위 자리도 사고 한 번, 종목 중단 한 번에 흔들린다",
+     "text": "주장 : 1위 점유율도 사고 한 번, 종목 중단 한 번에 흔들릴 수 있음",
      "color": "black",
      "fact_ids": [
       "F-0015",
@@ -1149,14 +1924,14 @@
      "notes": []
     },
     {
-     "id": "bo-0096",
+     "id": "bo-0171",
      "disp": "Blue Ocean 판단-4",
      "level": "★",
-     "text": "2026 Q3 야간 3사 거래대금 83.0%, Q2 83.9%에서 하락",
+     "text": "거래대금 점유율 : 야간 3사 합계 대비 2026 Q2 83.9%, Q3 83.0%",
      "color": "black",
      "fact_ids": [
-      "F-0015",
-      "F-0014"
+      "F-0014",
+      "F-0015"
      ],
      "confirmed": false,
      "notes": []
@@ -1172,35 +1947,74 @@
      "notes": []
     },
     {
-     "id": "bo-0097",
+     "id": "bo-0172",
      "disp": "Blue Ocean 판단-6",
      "level": "★",
-     "text": "2021-10 먼저 개장, 2022 한국 연결로 Q3 83.0%",
+     "text": "후발보다 3년 이상 먼저 개장해 한국 연결을 선점(한국 증권사가 처음 연결한 야간 시장)",
      "color": "black",
      "fact_ids": [
       "F-1090",
-      "F-0004",
+      "F-0036",
+      "F-0020",
+      "F-0004"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0173",
+     "disp": "Blue Ocean 판단-7",
+     "level": "-",
+     "text": "남들 : MOON 2024-11, Bruce 2025-03 개장",
+     "color": "black",
+     "fact_ids": [
+      "F-0036",
+      "F-0020"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0174",
+     "disp": "Blue Ocean 판단-8",
+     "level": "-",
+     "text": "이 회사 : 2021-10 개장, 2022-02 삼성증권을 첫 해외 제휴사로 연결",
+     "color": "black",
+     "fact_ids": [
+      "F-1090",
+      "F-0004"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0096",
+     "disp": "Blue Ocean 판단-9",
+     "level": "-",
+     "text": "결과 : 2026 Q3 야간 3사 합계 대비 83.0%로 1위",
+     "color": "black",
+     "fact_ids": [
       "F-0015"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bo-0070",
-     "disp": "Blue Ocean 판단-7",
-     "level": "★",
-     "text": "일요일 밤(미국 동부) 개장으로 아시아 월요일 낮과 연결",
+     "id": "bo-0175",
+     "disp": "Blue Ocean 판단-10",
+     "level": "-",
+     "text": "한계 : 전후 비교가 되는 점유율 시계열은 Q2 83.9%에서 Q3 83.0%까지만 확보",
      "color": "black",
      "fact_ids": [
-      "F-0001",
-      "F-0005"
+      "F-0014",
+      "F-0015"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "bo-0071",
-     "disp": "Blue Ocean 판단-8",
+     "disp": "Blue Ocean 판단-11",
      "level": "●",
      "text": "제약과 리스크",
      "color": "black",
@@ -1210,7 +2024,7 @@
     },
     {
      "id": "bo-0072",
-     "disp": "Blue Ocean 판단-9",
+     "disp": "Blue Ocean 판단-12",
      "level": "★",
      "text": "2024 사고 한 번이 한국 고객 전체 중단으로 번짐",
      "color": "black",
@@ -1222,8 +2036,33 @@
      "notes": []
     },
     {
+     "id": "bo-0176",
+     "disp": "Blue Ocean 판단-13",
+     "level": "-",
+     "text": "잃는 쪽 : 한국 증권사 19곳의 약 9만 계좌가 6,300억원어치 거래를 취소당함",
+     "color": "black",
+     "fact_ids": [
+      "F-1105"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0177",
+     "disp": "Blue Ocean 판단-14",
+     "level": "-",
+     "text": "이어진 손실 : 한국 주간거래가 2024-08-16부터 2025-11-04까지 약 15개월 중단",
+     "color": "black",
+     "fact_ids": [
+      "F-1103",
+      "F-0009"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bo-0098",
-     "disp": "Blue Ocean 판단-10",
+     "disp": "Blue Ocean 판단-15",
      "level": "★",
      "text": "공정접근 5% 문턱 때문에 인기 종목을 스스로 멈춤",
      "color": "black",
@@ -1235,43 +2074,44 @@
      "notes": []
     },
     {
+     "id": "bo-0178",
+     "disp": "Blue Ocean 판단-16",
+     "level": "-",
+     "text": "잃는 쪽 : 한국 투자자는 SOXL, KORU 등 18개 종목을 시세 없는 지정가로 Bruce, MOON에 주문해야 했음",
+     "color": "black",
+     "fact_ids": [
+      "F-1099",
+      "F-1101"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0179",
+     "disp": "Blue Ocean 판단-17",
+     "level": "-",
+     "text": "잃는 쪽 : Blue Ocean은 그 기간 주문을 경쟁사에 내줌",
+     "color": "black",
+     "fact_ids": [
+      "F-0031",
+      "F-1101"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bo-0123",
-     "disp": "Blue Ocean 판단-11",
+     "disp": "Blue Ocean 판단-18",
      "level": "●",
-     "text": "거래소 야간 거래가 오면",
+     "text": "거래소 야간 거래가 오면(일정은 위 \"거래 시설 운영\" 참조)",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bo-0124",
-     "disp": "Blue Ocean 판단-12",
-     "level": "★",
-     "text": "Nasdaq 23시간 승인(2026-04-10), SIP 야간 편입 2026-12-06",
-     "color": "black",
-     "fact_ids": [
-      "F-1171",
-      "F-1166"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "bo-0125",
-     "disp": "Blue Ocean 판단-13",
-     "level": "★",
-     "text": "24X 야간 조건부 면제는 2027-01-24부터",
-     "color": "black",
-     "fact_ids": [
-      "F-1165"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
      "id": "bo-0126",
-     "disp": "Blue Ocean 판단-14",
+     "disp": "Blue Ocean 판단-19",
      "level": "★",
      "text": "24X는 MEMX 기술 위에서 운영, Blue Ocean과 같은 기술",
      "color": "black",
@@ -1284,9 +2124,9 @@
     },
     {
      "id": "bo-0127",
-     "disp": "Blue Ocean 판단-15",
+     "disp": "Blue Ocean 판단-20",
      "level": "★",
-     "text": "해석 : 존재 이유가 유일한 야간 시장에서 한국 연결과 기술 안정성으로 바뀜",
+     "text": "해석 : 거래소의 야간 세션이 열리면 Blue Ocean만 밤에 거래할 수 있다는 강점이 줄고, 한국 증권사 연결과 체결 시스템 안정성이 경쟁 기준이 됨",
      "color": "black",
      "fact_ids": [
       "F-1176",
@@ -1298,7 +2138,7 @@
     },
     {
      "id": "bo-0075",
-     "disp": "Blue Ocean 판단-16",
+     "disp": "Blue Ocean 판단-21",
      "level": "●",
      "text": "KDX 시사점",
      "color": "black",
@@ -1307,23 +2147,114 @@
      "notes": []
     },
     {
-     "id": "bo-0099",
-     "disp": "Blue Ocean 판단-17",
+     "id": "bo-0180",
+     "disp": "Blue Ocean 판단-22",
      "level": "★",
-     "text": "받치는 명제 : 시장 인프라 Unbundling",
+     "text": "자산 : 기존 미국 상장 주식을 시간대만 바꿔 거래",
      "color": "black",
      "fact_ids": [
       "F-0001",
+      "F-0005"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0181",
+     "disp": "Blue Ocean 판단-23",
+     "level": "-",
+     "text": "가져올 것 : 새 상품 없이 기존 자산의 거래 시간대를 넓히는 방식",
+     "color": "black",
+     "fact_ids": [
+      "F-0001",
+      "F-0005"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0213",
+     "disp": "Blue Ocean 판단-24",
+     "level": "-",
+     "text": "이유 : 새 자산 상장이나 토큰 발행 없이 기존 상장 주식을 그대로 쓰므로 상품 설명과 투자자 보호 부담이 늘지 않고, 수요가 있는 시간대만 새로 채움(해석)",
+     "color": "black",
+     "fact_ids": [
+      "F-0001",
+      "F-0005"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0182",
+     "disp": "Blue Ocean 판단-25",
+     "level": "★",
+     "text": "고객 : 한국 증권사 단위로 고객 수요를 연결",
+     "color": "black",
+     "fact_ids": [
+      "F-0004",
+      "F-0005"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0183",
+     "disp": "Blue Ocean 판단-26",
+     "level": "-",
+     "text": "가져올 것 : 증권사 한 곳씩 제휴해 한국 낮 시간 수요를 모음",
+     "color": "black",
+     "fact_ids": [
       "F-0004"
      ],
      "confirmed": false,
      "notes": []
     },
     {
+     "id": "bo-0214",
+     "disp": "Blue Ocean 판단-27",
+     "level": "-",
+     "text": "이유 : 개인 고객 접점을 가진 증권사를 거치면 가입, 계좌 개설 없이 물량이 들어옴(해석). 삼성증권 제휴(2022-02)를 시작으로 2024-08에는 한국 증권사 19곳이 연결되어 사업의 65%가 한국 물량",
+     "color": "black",
+     "fact_ids": [
+      "F-0004",
+      "F-1105",
+      "F-0010"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0184",
+     "disp": "Blue Ocean 판단-28",
+     "level": "-",
+     "text": "피할 것 : 한국 증권사 19곳이 한 체결 시장에 묶여 사고 때 함께 멈추는 구조",
+     "color": "black",
+     "fact_ids": [
+      "F-1105",
+      "F-0009"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0215",
+     "disp": "Blue Ocean 판단-29",
+     "level": "-",
+     "text": "이유 : 한 시장의 사고가 모든 연결 증권사의 고객에게 동시에 번져 6,300억원 거래 취소와 15개월 서비스 중단으로 이어짐",
+     "color": "black",
+     "fact_ids": [
+      "F-1105",
+      "F-0009"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bo-0100",
-     "disp": "Blue Ocean 판단-18",
+     "disp": "Blue Ocean 판단-30",
      "level": "★",
-     "text": "KDX가 가져올 것 : 해외 시간대 체결은 현지 ATS, 접점은 국내 증권사",
+     "text": "시장 : 해외 시간대 체결은 현지 ATS, 접점은 국내 증권사",
      "color": "black",
      "fact_ids": [
       "F-0001",
@@ -1334,22 +2265,98 @@
     },
     {
      "id": "bo-0101",
-     "disp": "Blue Ocean 판단-19",
-     "level": "★",
-     "text": "KDX가 피할 것 : 한 체결 시장 의존, 시세 없는 지정가 주문",
+     "disp": "Blue Ocean 판단-31",
+     "level": "-",
+     "text": "피할 것 : 시세 없는 지정가 주문",
      "color": "black",
      "fact_ids": [
-      "F-0009",
       "F-1101"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bo-0102",
-     "disp": "Blue Ocean 판단-20",
+     "id": "bo-0216",
+     "disp": "Blue Ocean 판단-32",
+     "level": "-",
+     "text": "이유 : 호가를 보지 못하고 가격을 정해 내는 주문은 투자자가 불리한 가격에 체결될 위험을 직접 짐(해석)",
+     "color": "black",
+     "fact_ids": [
+      "F-1101"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0185",
+     "disp": "Blue Ocean 판단-33",
+     "level": "★",
+     "text": "거래 시설 운영 : 가입 자격을 브로커딜러로 제한하고 가격 밴드를 둠",
+     "color": "black",
+     "fact_ids": [
+      "F-1290",
+      "F-1293"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0186",
+     "disp": "Blue Ocean 판단-34",
+     "level": "-",
+     "text": "가져올 것 : 직접 가입 자격과 가격 밴드를 문서로 공개",
+     "color": "black",
+     "fact_ids": [
+      "F-1290",
+      "F-1293"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0217",
+     "disp": "Blue Ocean 판단-35",
+     "level": "-",
+     "text": "이유 : 누가 참여하고 어떤 가격 이상 주문을 막는지 미리 알려 두면 사고 때 책임 범위와 대응 기준이 분명해짐(해석)",
+     "color": "black",
+     "fact_ids": [
+      "F-1290",
+      "F-1293"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0187",
+     "disp": "Blue Ocean 판단-36",
+     "level": "-",
+     "text": "피할 것 : 별도 복구 사이트 없이 한 체결 시장에 의존",
+     "color": "black",
+     "fact_ids": [
+      "F-1292",
+      "F-1105"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0218",
+     "disp": "Blue Ocean 판단-37",
+     "level": "-",
+     "text": "이유 : 장애가 나면 거래를 옮길 곳이 없어 시장 전체가 멈춤. 한국 당국이 재개 조건으로 복수 ATS 연결을 요구한 이유로 보임(해석)",
+     "color": "black",
+     "fact_ids": [
+      "F-1292",
+      "F-1299"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bo-0188",
+     "disp": "Blue Ocean 판단-38",
      "level": "●",
-     "text": "해외 확장 세 질문",
+     "text": "해외에서 이 사업이 된 조건",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -1357,7 +2364,7 @@
     },
     {
      "id": "bo-0103",
-     "disp": "Blue Ocean 판단-21",
+     "disp": "Blue Ocean 판단-39",
      "level": "★",
      "text": "제공 가치 : 한국 낮 시간의 미국 주식 체결",
      "color": "black",
@@ -1369,9 +2376,9 @@
     },
     {
      "id": "bo-0104",
-     "disp": "Blue Ocean 판단-22",
+     "disp": "Blue Ocean 판단-40",
      "level": "★",
-     "text": "제도 : 미국 브로커딜러 등록과 Reg ATS",
+     "text": "제도 : 미국 브로커딜러 등록과 Reg ATS로 거래소 등록 면제",
      "color": "black",
      "fact_ids": [
       "F-0247",
@@ -1382,12 +2389,14 @@
     },
     {
      "id": "bo-0105",
-     "disp": "Blue Ocean 판단-23",
+     "disp": "Blue Ocean 판단-41",
      "level": "★",
-     "text": "경제성 : 야간 3사 거래대금 83.0% 점유",
+     "text": "경제성 : 주문 유형별 수수료와 리베이트로 수익을 내는 구조(Form ATS-N 요금, 1달러 이상 종목 주당 최대 0.002달러)이며, 거래대금 점유율 83.0%가 수입 규모의 근거이나 회사 매출은 공개되지 않음",
      "color": "black",
      "fact_ids": [
-      "F-0015"
+      "F-0015",
+      "F-1394",
+      "F-1294"
      ],
      "confirmed": false,
      "notes": []

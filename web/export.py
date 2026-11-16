@@ -30,7 +30,7 @@ import build as B  # noqa: E402
 
 ROOT = B.ROOT
 OUT = ROOT / "export"
-LV = {"b": "●", "s": "★", "q1": "①", "q2": "②", "q3": "③", "img": "그림"}
+LV = {"b": "●", "s": "★", "q1": "①", "q2": "②", "q3": "③", "img": "그림", "d": "-"}
 
 
 def raw_lines(path):

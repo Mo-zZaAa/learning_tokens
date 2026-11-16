@@ -11,18 +11,29 @@
      "id": "bn-0176",
      "disp": "Binance 카드-1",
      "level": "●",
-     "text": "한 줄 정체 : 2017년 CZ가 시작한 가상자산 거래소, 미국 주식과 주식 토큰도 취급",
+     "text": "한 줄 정체 : 2017년 CZ(자오창펑)가 시작한 가상자산 거래소, 2026-06부터 미국 주식 거래와 주식 토큰(bStocks)도 제공",
      "color": "black",
      "fact_ids": [
       "F-0678",
-      "F-1198"
+      "F-1198",
+      "F-1126"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bn-0177",
+     "id": "bn-0224",
      "disp": "Binance 카드-2",
+     "level": "-",
+     "text": "뜻 : 가상자산 거래소 = 비트코인 같은 가상자산을 사고파는 시장. 주식 토큰 = 미국 주식 1주를 기초로 블록체인 위에 발행한 증서",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0177",
+     "disp": "Binance 카드-3",
      "level": "●",
      "text": "대표 상품 : 미국 주식 거래 = 실제 주식 7,000종 이상(Nest Trading이 주문을 Alpaca로 보냄, 2026-06-01)",
      "color": "black",
@@ -34,10 +45,20 @@
      "notes": []
     },
     {
+     "id": "bn-0225",
+     "disp": "Binance 카드-4",
+     "level": "-",
+     "text": "뜻 : Nest Trading = Binance 그룹의 아부다비 증권 중개 법인. Alpaca = 미국 증권사로, 주문 집행, 청산, 보관을 맡음(Binance 발표 기준)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0178",
-     "disp": "Binance 카드-3",
+     "disp": "Binance 카드-5",
      "level": "●",
-     "text": "대표 상품(토큰) : bStocks = 주식 연계 증서(계열 BTech Holdings 발행), 미국인 제외",
+     "text": "대표 상품(토큰) : bStocks = 미국 주식 일부를 기초로 한 증권 증서(계열 BTech Holdings 발행), 미국과 미국인 제외, 가상자산 거래에는 이 제한이 없음",
      "color": "black",
      "fact_ids": [
       "F-0046",
@@ -47,8 +68,178 @@
      "notes": []
     },
     {
+     "id": "bn-0336",
+     "disp": "Binance 카드-6",
+     "level": "-",
+     "text": "뜻 : 증서(Certificate) = 주식 자체가 아니라 발행사가 신탁으로 맡아 둔 기초 주식에 대한 수익권을 나타내는 ADGM 법상 증권",
+     "color": "black",
+     "fact_ids": [
+      "F-0994",
+      "F-0047"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0226",
+     "disp": "Binance 카드-7",
+     "level": "●",
+     "text": "그룹 관계(누가 무엇을 하는가)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0227",
+     "disp": "Binance 카드-8",
+     "level": "★",
+     "text": "Binance 그룹 : 가상자산 거래소 운영, 사업은 여러 나라에 분산, 규제 인가는 아부다비 계열 법인이 보유",
+     "color": "black",
+     "fact_ids": [
+      "F-1071",
+      "F-0064"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0228",
+     "disp": "Binance 카드-9",
+     "level": "★",
+     "text": "Nest Exchange(옛 Nest Services) : 거래소 인가(RIE)와 다자간 거래시설(MTF) 운영",
+     "color": "black",
+     "fact_ids": [
+      "F-0064",
+      "F-1244"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0229",
+     "disp": "Binance 카드-10",
+     "level": "★",
+     "text": "Nest Clearing and Custody(옛 Binance (AD)) : 청산, 수탁, 권리 원장(CSD) 관리",
+     "color": "black",
+     "fact_ids": [
+      "F-0065",
+      "F-1244"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0230",
+     "disp": "Binance 카드-11",
+     "level": "★",
+     "text": "Nest Trading(옛 BCI Limited) : 브로커딜러, 주식 주문 접수와 주식과 bStocks 1:1 전환",
+     "color": "black",
+     "fact_ids": [
+      "F-0066",
+      "F-0050",
+      "F-1244"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0231",
+     "disp": "Binance 카드-12",
+     "level": "★",
+     "text": "BTech Holdings Limited : bStocks 발행 전용 계열사(SPV)",
+     "color": "black",
+     "fact_ids": [
+      "F-0046",
+      "F-0994"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0232",
+     "disp": "Binance 카드-13",
+     "level": "★",
+     "text": "주주 : 아부다비 투자사 MGX가 2025-03 20억 달러로 소수 지분 취득, 지분율은 발표에 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-0069",
+      "F-1388"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0365",
+     "disp": "Binance 카드-14",
+     "level": "-",
+     "text": "방식 : 스테이블코인으로 20억 달러를 넣은 Binance의 첫 기관 투자(로이터 보도)",
+     "color": "black",
+     "fact_ids": [
+      "F-1388"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0337",
+     "disp": "Binance 카드-15",
+     "level": "★",
+     "text": "최대주주 : CZ는 CEO에서 물러났으나 Binance 최대주주로 남음(Finance Magnates 보도), 지분율은 열람 자료에 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-0070"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0233",
+     "disp": "Binance 카드-16",
+     "level": "-",
+     "text": "뜻 : ADGM = 아부다비 금융특구(Abu Dhabi Global Market), 영국식 법체계를 쓰는 금융 자유구역. FSRA = ADGM의 금융감독청",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0338",
+     "disp": "Binance 카드-17",
+     "level": "-",
+     "text": "뜻 : RIE = 인정투자거래소(거래소 인가). MTF = 다자간 거래시설(여러 참가자의 주문을 맞추는 시장). RCH = 인정청산기관",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0339",
+     "disp": "Binance 카드-18",
+     "level": "-",
+     "text": "뜻 : CSD = 중앙예탁기관(누가 무엇을 가졌는지 적는 원장). SPV = 한 가지 목적으로 세운 발행 전용 회사",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0234",
+     "disp": "Binance 카드-19",
+     "level": "-",
+     "text": "뜻 : 왜 아부다비인가 = 회사는 \"규제 명확성과 정당성\"을 이유로 밝힘 . 공동 CEO Teng은 합류 전 ADGM 금융감독청 CEO였음 . MGX도 아부다비 투자사 . 해석 : 이 세 가지의 인과를 회사가 직접 밝히지는 않음",
+     "color": "black",
+     "fact_ids": [
+      "F-1071",
+      "F-0685",
+      "F-0069"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0179",
-     "disp": "Binance 카드-4",
+     "disp": "Binance 카드-20",
      "level": "●",
      "text": "꼭 알아야 할 사실",
      "color": "black",
@@ -57,34 +248,49 @@
      "notes": []
     },
     {
-     "id": "bn-0180",
-     "disp": "Binance 카드-5",
+     "id": "bn-0235",
+     "disp": "Binance 카드-21",
      "level": "★",
-     "text": "최초, 최대 타이틀 : 가장 빨리 운용자산 10억 달러를 넘은 토큰 주식 bStocks(회사 주장)",
+     "text": "최초, 최대 타이틀 : 토큰화 주식 상품 중 가장 빨리 운용자산 10억 달러를 넘김(출시 약 4개월, 회사 주장). 운용자산은 Dune Research 온체인 자료를 회사가 인용한 값",
      "color": "black",
      "fact_ids": [
-      "F-0057"
+      "F-0057",
+      "F-1287"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "bn-0181",
-     "disp": "Binance 카드-6",
+     "disp": "Binance 카드-22",
      "level": "★",
-     "text": "큰 인수 : 2025-10 고팍스 최대주주 지위, 한국 금융정보분석원 승인(금액 못 찾음)",
+     "text": "큰 인수 : 2025-10 한국 가상자산 거래소 고팍스(GOPAX) 최대주주 변경을 한국 금융정보분석원이 수리. 2023-02 운영사 스트리미 지분 72.26% 인수, 이후 보유 67.45%(블록미디어 보도)",
      "color": "black",
      "fact_ids": [
-      "F-0073"
+      "F-0073",
+      "F-1389"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0340",
+     "disp": "Binance 카드-23",
+     "level": "-",
+     "text": "이 장에 둔 이유 : 2021년 한국에서 철수한 Binance가 한국 시장에 다시 닿는 경로라서 이 장에 둠, 자세한 배경은 사업 범위 장 고팍스 항목",
+     "color": "black",
+     "fact_ids": [
+      "F-0073",
+      "F-0074"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "bn-0182",
-     "disp": "Binance 카드-7",
+     "disp": "Binance 카드-24",
      "level": "★",
-     "text": "큰 제재 : 2023-11 미국 재무부 합의(FinCEN 34억 달러, OFAC 9.68억 달러)",
+     "text": "큰 제재 : 2023-11-21 미국 재무부 합의. FinCEN(재무부 금융범죄단속청)에 민사과징금 34억 달러와 5년 감독관, OFAC(재무부 해외자산통제국)에 9.68억 달러",
      "color": "black",
      "fact_ids": [
       "F-1200"
@@ -93,12 +299,26 @@
      "notes": []
     },
     {
-     "id": "bn-0183",
-     "disp": "Binance 카드-8",
-     "level": "★",
-     "text": "사면 : 창업자 CZ, 2025-10-21 사면 항목(미 법무부 사면담당관실 목록)",
+     "id": "bn-0341",
+     "disp": "Binance 카드-25",
+     "level": "-",
+     "text": "무슨 일 : CZ의 사유는 효과적인 자금세탁방지 프로그램을 유지하지 않은 것(법무부 표기), FinCEN과 OFAC 합의가 문제 삼은 위반 내용의 상세는 열람 문서에 없음",
      "color": "black",
      "fact_ids": [
+      "F-1234",
+      "F-1200"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0236",
+     "disp": "Binance 카드-26",
+     "level": "★",
+     "text": "소송과 사면 : 2025-05 SEC 민사소송 재제기 불가로 취하, 2025-10-21 창업자 CZ가 미 법무부 사면담당관실 목록에 오름(CZ는 자금세탁방지 프로그램 미유지로 4개월 징역과 5천만 달러 벌금, 2024-04-30)",
+     "color": "black",
+     "fact_ids": [
+      "F-0072",
       "F-1199",
       "F-1234"
      ],
@@ -106,8 +326,20 @@
      "notes": []
     },
     {
+     "id": "bn-0342",
+     "disp": "Binance 카드-27",
+     "level": "-",
+     "text": "풀이 : 법무부 목록 제목이 사면 1건(1 Pardon)이고 CZ(Changpeng Zhao)가 그 항목으로 적혀 있어 사면 대상으로 기재됨",
+     "color": "black",
+     "fact_ids": [
+      "F-1234"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0184",
-     "disp": "Binance 카드-9",
+     "disp": "Binance 카드-28",
      "level": "●",
      "text": "숫자",
      "color": "black",
@@ -116,22 +348,37 @@
      "notes": []
     },
     {
-     "id": "bn-0185",
-     "disp": "Binance 카드-10",
+     "id": "bn-0237",
+     "disp": "Binance 카드-29",
      "level": "★",
-     "text": "순위와 잔액 : 2026-11-16 bStocks 1위, 13.6억 달러(rwa.xyz)",
+     "text": "순위와 잔액 : 2026-11-16 rwa.xyz(토큰화 실물자산 집계 사이트, 제3자 집계) 토큰화 주식 플랫폼 표에서 bStocks 1위, 13.6억 달러, 시장 전체 37.1억 달러의 36.6%, 2위 Ondo 9.0억 달러",
      "color": "black",
      "fact_ids": [
-      "F-1021"
+      "F-1021",
+      "F-1028",
+      "F-1022"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0343",
+     "disp": "Binance 카드-30",
+     "level": "-",
+     "text": "뜻 : Ondo = 미국 주식 토큰을 발행하는 토큰화 자산 회사(Binance는 이 회사 토큰도 상장)",
+     "color": "black",
+     "fact_ids": [
+      "F-1022",
+      "F-1125"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "bn-0186",
-     "disp": "Binance 카드-11",
+     "disp": "Binance 카드-31",
      "level": "★",
-     "text": "종목 수 : 미국 주식과 ETF 7,000종 이상, bStocks 약 100종",
+     "text": "종목 수 : 미국 주식과 ETF 7,000종 이상(실제 주식), bStocks 약 100종(출시 때 5종)",
      "color": "black",
      "fact_ids": [
       "F-1198",
@@ -143,9 +390,9 @@
     },
     {
      "id": "bn-0187",
-     "disp": "Binance 카드-12",
+     "disp": "Binance 카드-32",
      "level": "★",
-     "text": "이용자 수 : 3억 2천만 명 이상(회사 주장)",
+     "text": "이용자 수 : 3억 2천만 명 이상(등록 계정 기준, 회사 주장, 2026-10-15)",
      "color": "black",
      "fact_ids": [
       "F-1201"
@@ -155,7 +402,7 @@
     },
     {
      "id": "bn-0188",
-     "disp": "Binance 카드-13",
+     "disp": "Binance 카드-33",
      "level": "●",
      "text": "흐름(주식 거래) : 이용자 → Binance 앱 → Nest Trading(ADGM 브로커) → Alpaca(청산, 보관)",
      "color": "black",
@@ -168,7 +415,7 @@
     },
     {
      "id": "bn-0189",
-     "disp": "Binance 카드-14",
+     "disp": "Binance 카드-34",
      "level": "●",
      "text": "흐름(bStocks) : 이용자 → Binance 거래소 → 발행(BTech Holdings) → Alpaca(보관)",
      "color": "black",
@@ -190,7 +437,7 @@
      "id": "bn-0001",
      "disp": "Binance 개요-1",
      "level": "●",
-     "text": "쉽게 말하면 : 거래소가 2021년에 접은 주식 토큰을 인가 뒤 직접 발행으로 재개",
+     "text": "쉽게 말하면 : 거래소가 2021년에 접은 주식 토큰을 아부다비 인가 3종을 받은 뒤 직접 발행으로 재개",
      "color": "black",
      "fact_ids": [
       "F-1124",
@@ -215,8 +462,165 @@
      "notes": []
     },
     {
-     "id": "bn-0002",
+     "id": "bn-0238",
      "disp": "Binance 개요-3",
+     "level": "●",
+     "text": "본업과 규모",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0239",
+     "disp": "Binance 개요-4",
+     "level": "★",
+     "text": "본업 : 가상자산 거래소. 개인은 거래소 직접 이용(40개 언어 24시간 지원), 기관은 2022-06 기관 전용 사업과 2025-11 BUIDL 담보 수용",
+     "color": "black",
+     "fact_ids": [
+      "F-0677",
+      "F-1242",
+      "F-1233"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0344",
+     "disp": "Binance 개요-5",
+     "level": "-",
+     "text": "뜻 : BUIDL = 미국 단기국채에 투자하는 토큰화 펀드, 자세한 내용은 사업 범위 장 자산 2",
+     "color": "black",
+     "fact_ids": [
+      "F-1233"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0240",
+     "disp": "Binance 개요-6",
+     "level": "★",
+     "text": "이용자 : 등록 계정 3억 2천만 명 이상, 100여 개국(회사 주장, 2026-10-15). 활동 이용자 수는 아님",
+     "color": "black",
+     "fact_ids": [
+      "F-1201"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0345",
+     "disp": "Binance 개요-7",
+     "level": "-",
+     "text": "추이 : 2025-01 기준 등록 가입자 2억 5천만 명(회사 소개), 2025년 중 3억 명 돌파(회사 블로그), 같은 등록 기준으로 약 1년 9개월 사이 7천만 명 증가(우리 계산)",
+     "color": "black",
+     "fact_ids": [
+      "F-0679",
+      "F-1387",
+      "F-1201"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0241",
+     "disp": "Binance 개요-8",
+     "level": "★",
+     "text": "매출과 거래대금 : 약관은 수익을 수수료, 스프레드, 금융 수익으로 설명하고 매출 숫자는 공개하지 않음. 2025년 전체 거래대금 34조 달러, 그중 현물 7.1조 달러(Binance 블로그, 2025년 결산)",
+     "color": "black",
+     "fact_ids": [
+      "F-1289",
+      "F-1387"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0366",
+     "disp": "Binance 개요-9",
+     "level": "-",
+     "text": "같은 회사의 다른 표기 : 회사 소개 페이지는 2025년 현물과 선물 거래 34,883십억 달러(약 34.9조 달러), 일평균 950억 달러라고 적음. 기간 정의와 산정 방식이 없어 블로그의 34조 달러와 기준이 다를 수 있고 하나로 고르지 않음",
+     "color": "black",
+     "fact_ids": [
+      "F-0675",
+      "F-0674",
+      "F-1387"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0367",
+     "disp": "Binance 개요-10",
+     "level": "-",
+     "text": "해석 : 34,883십억 달러를 365일로 나누면 약 956억 달러로 소개 페이지의 일평균 950억 달러와 같은 크기",
+     "color": "black",
+     "fact_ids": [
+      "F-0675",
+      "F-0674"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0368",
+     "disp": "Binance 개요-11",
+     "level": "-",
+     "text": "주식 토큰 비중 : 두 자료 모두 2025년 값이고 bStocks는 2026-06 출시라 기간이 달라 비중을 계산하지 않음",
+     "color": "black",
+     "fact_ids": [
+      "F-1387",
+      "F-0675",
+      "F-1126"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0346",
+     "disp": "Binance 개요-12",
+     "level": "-",
+     "text": "순위 주장 : 소개 페이지는 거래량 기준 세계 최대 거래소라고 적음(기준 기간과 산정 출처 없음, 회사 주장), Coinbase 2025년 총거래량 5.2조 달러와는 집계 정의가 달라 비교하지 않음",
+     "color": "black",
+     "fact_ids": [
+      "F-0676",
+      "F-1220"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0242",
+     "disp": "Binance 개요-13",
+     "level": "★",
+     "text": "주식 사업의 크기 : 미국 주식 직접 거래 7,000종 이상(2026-06 개시). bStocks는 출시 이후 누적 거래 400억 달러 초과, 일평균 3억 달러 초과, 운용자산 10억 달러 초과(모두 회사 발표, 2026-10-15)",
+     "color": "black",
+     "fact_ids": [
+      "F-1198",
+      "F-0058",
+      "F-0057"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0243",
+     "disp": "Binance 개요-14",
+     "level": "★",
+     "text": "시장 안 크기 : bStocks 13.6억 달러는 rwa.xyz 토큰화 주식 시장 전체 37.1억 달러의 약 3분의 1. 운용자산(회사 측정)과 발행 잔액(rwa.xyz)은 기준과 날짜가 달라 거친 비교",
+     "color": "black",
+     "fact_ids": [
+      "F-1021",
+      "F-1028",
+      "F-0057"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0002",
+     "disp": "Binance 개요-15",
      "level": "●",
      "text": "기본정보",
      "color": "black",
@@ -226,9 +630,9 @@
     },
     {
      "id": "bn-0003",
-     "disp": "Binance 개요-4",
+     "disp": "Binance 개요-16",
      "level": "★",
-     "text": "법인명 : Binance 그룹(가상자산 거래소), 발행사 BTech Holdings Limited",
+     "text": "법인명 : Binance 그룹(가상자산 거래소), bStocks 발행사 BTech Holdings Limited",
      "color": "black",
      "fact_ids": [
       "F-0046"
@@ -238,9 +642,9 @@
     },
     {
      "id": "bn-0004",
-     "disp": "Binance 개요-5",
+     "disp": "Binance 개요-17",
      "level": "★",
-     "text": "설립 : 2017-07 거래소 출시",
+     "text": "설립 : 2017-07 CZ가 거래소 출시(회사 소개)",
      "color": "black",
      "fact_ids": [
       "F-0678"
@@ -250,7 +654,7 @@
     },
     {
      "id": "bn-0005",
-     "disp": "Binance 개요-6",
+     "disp": "Binance 개요-18",
      "level": "★",
      "text": "창업자 : CZ(자오창펑), 공동 창업자 Yi He, Heina Chen",
      "color": "black",
@@ -264,9 +668,9 @@
     },
     {
      "id": "bn-0006",
-     "disp": "Binance 개요-7",
+     "disp": "Binance 개요-19",
      "level": "★",
-     "text": "운영 거점 : 사업은 분산, 2025-12부터 ADGM(아부다비 금융특구) 인가 기반",
+     "text": "운영 거점 : 사업은 분산, 2025-12부터 ADGM 인가를 기반으로 글로벌 사업 지원",
      "color": "black",
      "fact_ids": [
       "F-1071"
@@ -276,7 +680,7 @@
     },
     {
      "id": "bn-0007",
-     "disp": "Binance 개요-8",
+     "disp": "Binance 개요-20",
      "level": "●",
      "text": "지배구조",
      "color": "black",
@@ -286,21 +690,22 @@
     },
     {
      "id": "bn-0008",
-     "disp": "Binance 개요-9",
+     "disp": "Binance 개요-21",
      "level": "★",
-     "text": "2025-03 MGX(아부다비 투자사) 20억 달러, 소수 지분",
+     "text": "2025-03 MGX 20억 달러 투자, 소수 지분(첫 기관 투자)",
      "color": "black",
      "fact_ids": [
-      "F-0069"
+      "F-0069",
+      "F-1388"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "bn-0009",
-     "disp": "Binance 개요-10",
+     "disp": "Binance 개요-22",
      "level": "★",
-     "text": "공동 CEO : Yi He, Richard Teng",
+     "text": "공동 CEO : Yi He(공동 창업자), Richard Teng",
      "color": "black",
      "fact_ids": [
       "F-0686",
@@ -311,9 +716,9 @@
     },
     {
      "id": "bn-0010",
-     "disp": "Binance 개요-11",
+     "disp": "Binance 개요-23",
      "level": "★",
-     "text": "Teng은 전 ADGM 금융감독청 CEO",
+     "text": "Teng은 합류 전 ADGM 금융감독청 CEO",
      "color": "black",
      "fact_ids": [
       "F-0685"
@@ -323,7 +728,7 @@
     },
     {
      "id": "bn-0011",
-     "disp": "Binance 개요-12",
+     "disp": "Binance 개요-24",
      "level": "★",
      "text": "이사회 의장 : Gabriel Abed(독립이사)",
      "color": "black",
@@ -335,9 +740,9 @@
     },
     {
      "id": "bn-0012",
-     "disp": "Binance 개요-13",
+     "disp": "Binance 개요-25",
      "level": "●",
-     "text": "설립 목적",
+     "text": "설립 목적과 비전",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -345,9 +750,9 @@
     },
     {
      "id": "bn-0013",
-     "disp": "Binance 개요-14",
+     "disp": "Binance 개요-26",
      "level": "★",
-     "text": "미션 : Binance를 크립토 세계의 인프라 제공자로",
+     "text": "미션 : Binance를 내일의 크립토 세계를 위한 인프라 제공자로(회사 소개)",
      "color": "black",
      "fact_ids": [
       "F-0680"
@@ -356,10 +761,169 @@
      "notes": []
     },
     {
-     "id": "bn-0014",
-     "disp": "Binance 개요-15",
+     "id": "bn-0244",
+     "disp": "Binance 개요-27",
+     "level": "★",
+     "text": "구체 목표 : 매출이나 이용자 목표 숫자와 시점은 열람한 문서에 없음. 아래는 회사가 시점을 붙여 말한 계획과 실제 결과",
+     "color": "black",
+     "fact_ids": [
+      "F-0680"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0347",
+     "disp": "Binance 개요-28",
+     "level": "★",
+     "text": "방향 : MENAT 총괄 Tarik Erk가 암호화폐 플랫폼을 넘어 하나의 신뢰 생태계에서 다양한 금융 기회에 접근하게 하는 금융 슈퍼앱을 만든다고 말함(UAE 출시 소식, Khaleej Times 보도)",
+     "color": "black",
+     "fact_ids": [
+      "F-1070"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0245",
+     "disp": "Binance 개요-29",
+     "level": "★",
+     "text": "2025-12 계획 : 2026-01-05 ADGM 인가 활동 개시 예정, 2026-06 실제 미국 주식 거래를 이 인가 위에서 개시",
+     "color": "black",
+     "fact_ids": [
+      "F-0067",
+      "F-1198"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0246",
+     "disp": "Binance 개요-30",
+     "level": "★",
+     "text": "2026-06-01 계획 : bStocks를 수 주 안에 출시(규제 승인 필요), 실제 2026-06-12 상장",
+     "color": "black",
+     "fact_ids": [
+      "F-1198",
+      "F-1126"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0247",
+     "disp": "Binance 개요-31",
+     "level": "★",
+     "text": "진행 중 : bStocks 활용을 거래에서 헤지, 마진, 위험 관리로 넓힘. 2026-09 마진과 선물 담보 확대, 2026-10-28 5종 증거금 담보 추가, 2026-10-29 주식 무기한선물 개시",
+     "color": "black",
+     "fact_ids": [
+      "F-1288",
+      "F-0062",
+      "F-1230",
+      "F-1231"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0248",
+     "disp": "Binance 개요-32",
      "level": "●",
-     "text": "성장 경로(한 줄기)",
+     "text": "타깃 수요",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0249",
+     "disp": "Binance 개요-33",
+     "level": "★",
+     "text": "대상 : 거래소 이용자 중 전통 시장(미국 주식)에 더 유연하게 접근하길 원하는 사람(Teng 발언)",
+     "color": "black",
+     "fact_ids": [
+      "F-1068"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0250",
+     "disp": "Binance 개요-34",
+     "level": "★",
+     "text": "겹침 : 초기 bStocks 이용자의 58.5%가 무기한선물이나 직접 주식도 거래, 기존 거래소 이용자가 주 수요",
+     "color": "black",
+     "fact_ids": [
+      "F-0063"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0251",
+     "disp": "Binance 개요-35",
+     "level": "★",
+     "text": "시간 수요 : 2026-07 거래량 중 미국 정규장 시간 비중이 bStocks는 38%, 전통 미국 주식은 89.2%라 bStocks는 장 밖 시간 수요가 큼",
+     "color": "black",
+     "fact_ids": [
+      "F-0061"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0252",
+     "disp": "Binance 개요-36",
+     "level": "●",
+     "text": "수익원",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0253",
+     "disp": "Binance 개요-37",
+     "level": "★",
+     "text": "약관 기재 : 이용자가 내는 수수료, 커미션, 이자, 스프레드, 그리고 ADGM 계열이 거래소 상장 자산을 보유, 헤지, 대출하며 얻는 금융 수익",
+     "color": "black",
+     "fact_ids": [
+      "F-1289"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0254",
+     "disp": "Binance 개요-38",
+     "level": "★",
+     "text": "주식 거래 : 수수료 0, 소수 주식 5달러부터, 주식과 bStocks 1:1 전환 수수료 0",
+     "color": "black",
+     "fact_ids": [
+      "F-1198",
+      "F-0050"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0255",
+     "disp": "Binance 개요-39",
+     "level": "★",
+     "text": "bStocks 전용 수익 : 수수료율이나 별도 매출은 열람한 문서에 없음. 마진과 선물 담보로 쓰이면 기존 선물 수수료 사업과 이어짐(해석)",
+     "color": "black",
+     "fact_ids": [
+      "F-0062",
+      "F-1289"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0014",
+     "disp": "Binance 개요-40",
+     "level": "●",
+     "text": "성장 경로(시간 순)",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -367,7 +931,7 @@
     },
     {
      "id": "bn-0016",
-     "disp": "Binance 개요-16",
+     "disp": "Binance 개요-41",
      "level": "★",
      "text": "2021-04 주식 토큰 → 2021-10 지원 종료",
      "color": "black",
@@ -379,7 +943,7 @@
     },
     {
      "id": "bn-0015",
-     "disp": "Binance 개요-17",
+     "disp": "Binance 개요-42",
      "level": "★",
      "text": "2025-12 ADGM 인가 3종 확보",
      "color": "black",
@@ -391,7 +955,7 @@
     },
     {
      "id": "bn-0113",
-     "disp": "Binance 개요-18",
+     "disp": "Binance 개요-43",
      "level": "★",
      "text": "2026-02 Ondo 토큰 Binance Alpha 상장",
      "color": "black",
@@ -403,7 +967,7 @@
     },
     {
      "id": "bn-0114",
-     "disp": "Binance 개요-19",
+     "disp": "Binance 개요-44",
      "level": "★",
      "text": "2026-06 bStocks 직접 발행 → 2026-09 선물 담보",
      "color": "black",
@@ -415,8 +979,18 @@
      "notes": []
     },
     {
+     "id": "bn-0256",
+     "disp": "Binance 개요-45",
+     "level": "-",
+     "text": "뜻 : Binance Alpha = Binance 앱 안에서 외부 발행사의 온체인 토큰을 제공하는 구역(Ondo 발표 기준)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0017",
-     "disp": "Binance 개요-20",
+     "disp": "Binance 개요-46",
      "level": "●",
      "text": "화면",
      "color": "black",
@@ -426,7 +1000,7 @@
     },
     {
      "id": "bn-0018",
-     "disp": "Binance 개요-21",
+     "disp": "Binance 개요-47",
      "level": "그림",
      "images": [
       {
@@ -438,6 +1012,18 @@
        "caption": "주식 토큰 종목 화면(AAPL)"
       }
      ]
+    },
+    {
+     "id": "bn-0257",
+     "disp": "Binance 개요-48",
+     "level": "★",
+     "text": "그림 해설 : 왼쪽은 Binance 가입 화면, 오른쪽은 이용자가 보는 bStocks 종목 화면(AAPL). 가입과 거래가 거래소 앱 한 곳에서 이뤄지고 별도 판매 창구가 없다는 점을 보여 줌",
+     "color": "black",
+     "fact_ids": [
+      "F-0051"
+     ],
+     "confirmed": false,
+     "notes": []
     }
    ]
   },
@@ -449,7 +1035,7 @@
      "id": "bn-0190",
      "disp": "Binance 범위-1",
      "level": "●",
-     "text": "쉽게 말하면 : 거래소 이용자 위에 실제 주식, 주식 토큰, 담보 순으로 더함",
+     "text": "쉽게 말하면 : 거래소 이용자 위에 실제 주식, 주식 토큰, 담보와 선물 순으로 더함",
      "color": "black",
      "fact_ids": [
       "F-1198",
@@ -535,7 +1121,7 @@
      "id": "bn-0157",
      "disp": "Binance 범위-8",
      "level": "●",
-     "text": "자산 2",
+     "text": "자산 2(담보와 파생)",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -545,7 +1131,7 @@
      "id": "bn-0158",
      "disp": "Binance 범위-9",
      "level": "★",
-     "text": "2026-09 선물 담보 : bStocks로 확대",
+     "text": "2026-09 bStocks를 마진과 선물 담보로 확대",
      "color": "black",
      "fact_ids": [
       "F-0062"
@@ -557,7 +1143,7 @@
      "id": "bn-0219",
      "disp": "Binance 범위-10",
      "level": "★",
-     "text": "2025-11 국채 토큰 BUIDL : 기관 장외결제 담보로 수용",
+     "text": "2025-11 국채 토큰 BUIDL : 기관 장외결제 담보로 수용(BUIDL = 미국 단기국채에 투자하는 토큰화 펀드)",
      "color": "black",
      "fact_ids": [
       "F-1233"
@@ -569,7 +1155,7 @@
      "id": "bn-0220",
      "disp": "Binance 범위-11",
      "level": "★",
-     "text": "2026-10-28 bStocks 5종 : 증거금 담보로(차입은 불가)",
+     "text": "2026-10-28 bStocks 5종 : 증거금 담보로 추가, 차입은 불가",
      "color": "black",
      "fact_ids": [
       "F-1230",
@@ -582,7 +1168,7 @@
      "id": "bn-0221",
      "disp": "Binance 범위-12",
      "level": "★",
-     "text": "2026-10~11 주식 7종 무기한선물, 최대 20배, 24시간",
+     "text": "2026-10-29와 11-12 주식 무기한선물 7종과 ETF 1종, 최대 20배, 24시간(회사 공지)",
      "color": "black",
      "fact_ids": [
       "F-1231",
@@ -593,8 +1179,52 @@
      "notes": []
     },
     {
-     "id": "bn-0159",
+     "id": "bn-0369",
      "disp": "Binance 범위-13",
+     "level": "-",
+     "text": "24시간 거래대금(Binance TradFi 선물 화면, 2026-11-17 한 시점, 거래소 공식 통계 아님) : 개별 주식 NVDAUSDT 18.3억, SNDKUSDT 17.4억, SKHYNIXUSDT 10.5억 달러",
+     "color": "black",
+     "fact_ids": [
+      "F-1238"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0370",
+     "disp": "Binance 범위-14",
+     "level": "-",
+     "text": "개별 주식 표시가 아닌 것 : SOXL 41.8억, 금(XAU) 22.3억, SPCX 16.6억(분류 미확인), SOXS 9.4억 달러",
+     "color": "black",
+     "fact_ids": [
+      "F-1239"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0371",
+     "disp": "Binance 범위-15",
+     "level": "-",
+     "text": "뜻 : SKHYNIXUSDT = SK하이닉스 주가를 따르는 무기한선물. SOXL = 미국 반도체 지수 수익률의 3배를 따르는 ETF, SOXS = 같은 지수의 반대 방향 3배를 따르는 ETF",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0258",
+     "disp": "Binance 범위-16",
+     "level": "-",
+     "text": "뜻 : 무기한선물 = 만기 없이 기초자산 가격을 따라 거래하는 파생계약. 증거금 담보 = 선물, 대출 거래에 맡겨 두는 보증 자산",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0159",
+     "disp": "Binance 범위-17",
      "level": "●",
      "text": "고객(개인에서 기관으로)",
      "color": "black",
@@ -604,7 +1234,7 @@
     },
     {
      "id": "bn-0160",
-     "disp": "Binance 범위-14",
+     "disp": "Binance 범위-18",
      "level": "★",
      "text": "개인 이용자 : 거래소 직접, 40개 언어 지원",
      "color": "black",
@@ -616,9 +1246,9 @@
     },
     {
      "id": "bn-0161",
-     "disp": "Binance 범위-15",
+     "disp": "Binance 범위-19",
      "level": "★",
-     "text": "2026-06 bStocks 자격 이용자 : 직접 판매",
+     "text": "2026-06 bStocks 자격 이용자 : 미국과 미국인을 뺀 허용 지역에 직접 판매",
      "color": "black",
      "fact_ids": [
       "F-0054"
@@ -628,9 +1258,9 @@
     },
     {
      "id": "bn-0222",
-     "disp": "Binance 범위-16",
+     "disp": "Binance 범위-20",
      "level": "★",
-     "text": "기관 : 2022-06 기관 전용 사업 출시, 2025-11 BUIDL 담보",
+     "text": "기관 : 2022-06 기관 전용 사업 출시, 2025-11 BUIDL 담보 수용",
      "color": "black",
      "fact_ids": [
       "F-1242",
@@ -641,9 +1271,21 @@
     },
     {
      "id": "bn-0223",
-     "disp": "Binance 범위-17",
+     "disp": "Binance 범위-21",
      "level": "●",
-     "text": "스테이블코인 : 자체 브랜드 BUSD는 2023 발행사 규제로 중단, FDUSD로 대체",
+     "text": "스테이블코인 : 자체 브랜드 BUSD는 2023 발행사 Paxos가 뉴욕 금융감독청 지시로 신규 발행을 멈춰 중단, FDUSD를 핵심 거래쌍으로 대체",
+     "color": "black",
+     "fact_ids": [
+      "F-1243"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0348",
+     "disp": "Binance 범위-22",
+     "level": "-",
+     "text": "뜻 : BUSD, FDUSD = 달러 가치에 맞춘 스테이블코인. Paxos = BUSD 발행사. 핵심 거래쌍 = 다른 코인을 사고팔 때 기준으로 삼는 코인. 거래소가 쓰는 자산 구성이 규제로 바뀐 사례라 이 장에 둠",
      "color": "black",
      "fact_ids": [
       "F-1243"
@@ -653,7 +1295,7 @@
     },
     {
      "id": "bn-0162",
-     "disp": "Binance 범위-18",
+     "disp": "Binance 범위-23",
      "level": "●",
      "text": "시장(어느 나라로)",
      "color": "black",
@@ -663,9 +1305,9 @@
     },
     {
      "id": "bn-0163",
-     "disp": "Binance 범위-19",
+     "disp": "Binance 범위-24",
      "level": "★",
-     "text": "2022-09 두바이 : VARA 직접",
+     "text": "2022-09 두바이 : VARA(두바이 가상자산 규제청) 직접 라이선스",
      "color": "black",
      "fact_ids": [
       "F-0068"
@@ -675,9 +1317,9 @@
     },
     {
      "id": "bn-0164",
-     "disp": "Binance 범위-20",
+     "disp": "Binance 범위-25",
      "level": "★",
-     "text": "2024-09 아르헨티나 : 현지 법인 등록",
+     "text": "2024-09 아르헨티나 : 현지 법인이 가상자산 서비스 사업자로 등록",
      "color": "black",
      "fact_ids": [
       "F-0712"
@@ -687,7 +1329,7 @@
     },
     {
      "id": "bn-0165",
-     "disp": "Binance 범위-21",
+     "disp": "Binance 범위-26",
      "level": "★",
      "text": "2025-10 한국 : 고팍스 최대주주 변경 수리",
      "color": "black",
@@ -699,7 +1341,7 @@
     },
     {
      "id": "bn-0166",
-     "disp": "Binance 범위-22",
+     "disp": "Binance 범위-27",
      "level": "★",
      "text": "2025-12 아부다비 : ADGM 인가 3종 직접",
      "color": "black",
@@ -710,8 +1352,33 @@
      "notes": []
     },
     {
+     "id": "bn-0372",
+     "disp": "Binance 범위-28",
+     "level": "-",
+     "text": "UAE 비중 : UAE에 직원 약 1,000명(전체 약 5,000명), CEO Richard Teng은 아부다비 금융감독청장 출신(로이터 보도, Khaleej Times 게재)",
+     "color": "black",
+     "fact_ids": [
+      "F-1388"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0373",
+     "disp": "Binance 범위-29",
+     "level": "-",
+     "text": "자본 : 2025-03 아부다비 투자사 MGX가 스테이블코인으로 20억 달러 투자, MGX 지분율 비공개(로이터 보도)",
+     "color": "black",
+     "fact_ids": [
+      "F-1388",
+      "F-0069"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0191",
-     "disp": "Binance 범위-23",
+     "disp": "Binance 범위-30",
      "level": "●",
      "text": "2021-04 주식 토큰 시도, 2021-07 중단 : 인가 없이 시작했다가 접음",
      "color": "black",
@@ -723,9 +1390,9 @@
     },
     {
      "id": "bn-0192",
-     "disp": "Binance 범위-24",
+     "disp": "Binance 범위-31",
      "level": "★",
-     "text": "왜 : 다른 제품에 집중하겠다며 구매 중단 공지(언론 인용)",
+     "text": "왜 : 다른 제품에 집중하겠다며 신규 구매 중단을 공지(언론 인용)",
      "color": "black",
      "fact_ids": [
       "F-1124"
@@ -735,9 +1402,9 @@
     },
     {
      "id": "bn-0193",
-     "disp": "Binance 범위-25",
+     "disp": "Binance 범위-32",
      "level": "★",
-     "text": "쓴 곳 : 2021-10-14 지원 종료, 이후 5년간 공백",
+     "text": "쓴 곳 : 2021-10-14 지원 종료, 이후 약 5년간 주식 토큰 공백",
      "color": "black",
      "fact_ids": [
       "F-1124"
@@ -747,9 +1414,9 @@
     },
     {
      "id": "bn-0194",
-     "disp": "Binance 범위-26",
+     "disp": "Binance 범위-33",
      "level": "★",
-     "text": "해석 : 첫 시도를 접고 2025-12 인가를 받은 뒤 2026-06 재설계해 재개",
+     "text": "해석 : 첫 시도를 접고 2025-12 인가를 받은 뒤 2026-06 재설계해 재개. 인가 없이 시작한 것이 접은 이유라는 설명은 회사가 하지 않음",
      "color": "black",
      "fact_ids": [
       "F-1124",
@@ -761,7 +1428,7 @@
     },
     {
      "id": "bn-0195",
-     "disp": "Binance 범위-27",
+     "disp": "Binance 범위-34",
      "level": "●",
      "text": "2025-12 ADGM 인가 3종(거래소, 청산과 보관, 브로커딜러) : 아부다비 규제 기반 확보",
      "color": "black",
@@ -775,7 +1442,7 @@
     },
     {
      "id": "bn-0196",
-     "disp": "Binance 범위-28",
+     "disp": "Binance 범위-35",
      "level": "★",
      "text": "왜 : 규제 명확성과 정당성으로 ADGM에서 글로벌 사업 지원(Teng)",
      "color": "black",
@@ -786,8 +1453,20 @@
      "notes": []
     },
     {
+     "id": "bn-0259",
+     "disp": "Binance 범위-36",
+     "level": "★",
+     "text": "어떻게 : 자체 신청으로 직접 인가, 법인 3개를 둠(인수 아님)",
+     "color": "black",
+     "fact_ids": [
+      "F-1244"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0197",
-     "disp": "Binance 범위-29",
+     "disp": "Binance 범위-37",
      "level": "★",
      "text": "쓴 곳 : 2026-06 미국 주식 거래를 Nest Trading(브로커딜러) 이름으로 개시",
      "color": "black",
@@ -799,10 +1478,23 @@
      "notes": []
     },
     {
-     "id": "bn-0198",
-     "disp": "Binance 범위-30",
+     "id": "bn-0260",
+     "disp": "Binance 범위-38",
      "level": "★",
-     "text": "해석 : 전통 증권 취급의 법적 바탕을 한 관할에 마련, 그 위에 토큰 발행",
+     "text": "계획 : 인가 활동 개시 2026-01-05 예정이었고 2026-06 이 인가 위에서 미국 주식 거래 개시",
+     "color": "black",
+     "fact_ids": [
+      "F-0067",
+      "F-1198"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0198",
+     "disp": "Binance 범위-39",
+     "level": "★",
+     "text": "해석 : 전통 증권 취급의 법적 바탕을 한 관할에 마련하고 그 위에 토큰 발행. 거래소, 청산, 중개를 한 관할에서 갖춘 순서의 이유는 회사가 밝히지 않음",
      "color": "black",
      "fact_ids": [
       "F-1071",
@@ -814,7 +1506,7 @@
     },
     {
      "id": "bn-0199",
-     "disp": "Binance 범위-31",
+     "disp": "Binance 범위-40",
      "level": "●",
      "text": "2026-06 미국 주식 거래 개시(7,000종 이상) : 실제 주식을 거래소 안에 먼저 열었음",
      "color": "black",
@@ -826,7 +1518,7 @@
     },
     {
      "id": "bn-0200",
-     "disp": "Binance 범위-32",
+     "disp": "Binance 범위-41",
      "level": "★",
      "text": "왜 : 접근이 쉬워질수록 금융 포용이 커진다는 믿음(회사 발표)",
      "color": "black",
@@ -837,10 +1529,23 @@
      "notes": []
     },
     {
-     "id": "bn-0201",
-     "disp": "Binance 범위-33",
+     "id": "bn-0261",
+     "disp": "Binance 범위-42",
      "level": "★",
-     "text": "쓴 곳 : 소수 주식 5달러부터, 이후 bStocks 1대1 전환 누적 60억 달러",
+     "text": "어떻게 : Nest Trading이 주문을 받아 Alpaca로 보내 집행, 청산, 보관",
+     "color": "black",
+     "fact_ids": [
+      "F-1198",
+      "F-1229"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0201",
+     "disp": "Binance 범위-43",
+     "level": "★",
+     "text": "쓴 곳 : 소수 주식 5달러부터, 이후 주식과 bStocks 1대1 전환 누적 60억 달러",
      "color": "black",
      "fact_ids": [
       "F-0050",
@@ -850,10 +1555,23 @@
      "notes": []
     },
     {
-     "id": "bn-0202",
-     "disp": "Binance 범위-34",
+     "id": "bn-0262",
+     "disp": "Binance 범위-44",
      "level": "★",
-     "text": "해석 : 실제 주식을 먼저 열고 토큰은 그 위에 얹는 순서",
+     "text": "계획 : bStocks를 수 주 안에 출시 예고, 실제 2026-06-12",
+     "color": "black",
+     "fact_ids": [
+      "F-1198",
+      "F-1126"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0202",
+     "disp": "Binance 범위-45",
+     "level": "★",
+     "text": "해석 : 실제 주식을 먼저 열고 토큰은 그 위에 얹는 순서. 이용자가 기초주와 토큰을 1:1로 바꿀 수 있어 토큰 수요가 주식 거래에서 이어짐",
      "color": "black",
      "fact_ids": [
       "F-1198",
@@ -865,7 +1583,7 @@
     },
     {
      "id": "bn-0203",
-     "disp": "Binance 범위-35",
+     "disp": "Binance 범위-46",
      "level": "●",
      "text": "2026-06 bStocks 직접 발행(계열 BTech Holdings) : 토큰을 자체 발행으로 전환",
      "color": "black",
@@ -878,7 +1596,7 @@
     },
     {
      "id": "bn-0204",
-     "disp": "Binance 범위-36",
+     "disp": "Binance 범위-47",
      "level": "★",
      "text": "왜 : 주식 거래 초기 수요가 더 유연한 접근을 원함을 보여줌(Teng)",
      "color": "black",
@@ -889,8 +1607,21 @@
      "notes": []
     },
     {
+     "id": "bn-0263",
+     "disp": "Binance 범위-48",
+     "level": "★",
+     "text": "어떻게 : 아부다비 감독청 투자설명서 승인 뒤 ADGM 안에서 공모, 계열 SPV가 발행",
+     "color": "black",
+     "fact_ids": [
+      "F-1126",
+      "F-0047"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0205",
-     "disp": "Binance 범위-37",
+     "disp": "Binance 범위-49",
      "level": "★",
      "text": "쓴 곳 : 2026-10 운용자산 10억 달러, 누적 거래 400억 달러(회사 발표)",
      "color": "black",
@@ -903,7 +1634,7 @@
     },
     {
      "id": "bn-0206",
-     "disp": "Binance 범위-38",
+     "disp": "Binance 범위-50",
      "level": "★",
      "text": "쓴 곳 : 2026-09 마진과 선물 담보로 확대, 약 100종",
      "color": "black",
@@ -915,8 +1646,20 @@
      "notes": []
     },
     {
+     "id": "bn-0264",
+     "disp": "Binance 범위-51",
+     "level": "★",
+     "text": "다음 계획 : 거래에서 헤지, 마진, 위험 관리로 활용 확대(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-1288"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0207",
-     "disp": "Binance 범위-39",
+     "disp": "Binance 범위-52",
      "level": "★",
      "text": "해석 : 이용자 기반 위에서 24시간 거래와 담보로 확장, 발행사는 계열 SPV",
      "color": "black",
@@ -929,8 +1672,165 @@
      "notes": []
     },
     {
+     "id": "bn-0265",
+     "disp": "Binance 범위-53",
+     "level": "●",
+     "text": "2026-02 Ondo 주식 토큰 제휴 상장 : 자체 발행 전에 외부 토큰으로 수요를 먼저 봄",
+     "color": "black",
+     "fact_ids": [
+      "F-1125"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0266",
+     "disp": "Binance 범위-54",
+     "level": "★",
+     "text": "왜 : 회사가 밝힌 이유 문장은 열람 자료에 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-1125"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0267",
+     "disp": "Binance 범위-55",
+     "level": "★",
+     "text": "쓴 곳 : Ondo 토큰 10종 상장 뒤 4개월 만에 자체 bStocks 출시, 두 상품이 병행",
+     "color": "black",
+     "fact_ids": [
+      "F-1125",
+      "F-1126"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0268",
+     "disp": "Binance 범위-56",
+     "level": "★",
+     "text": "해석 : 외부 토큰으로 수요를 시험한 뒤 직접 발행으로 옮겼다는 순서는 시점에서 읽은 것이고 회사가 그렇게 말한 것은 아님",
+     "color": "black",
+     "fact_ids": [
+      "F-1125",
+      "F-1126"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0269",
+     "disp": "Binance 범위-57",
+     "level": "●",
+     "text": "2025-10 고팍스 최대주주 : 한국 시장 재진입 경로",
+     "color": "black",
+     "fact_ids": [
+      "F-0073"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0270",
+     "disp": "Binance 범위-58",
+     "level": "★",
+     "text": "왜 : 회사가 밝힌 이유 문장은 열람 자료에 없음. 언론은 2년 넘게 막혔던 한국 시장 복귀로 서술",
+     "color": "black",
+     "fact_ids": [
+      "F-0073"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0349",
+     "disp": "Binance 범위-59",
+     "level": "-",
+     "text": "시장 배경 : Binance는 2021년 한국에서 철수, 국내 점유는 업비트 약 72%, 빗썸 약 24%(2024 말 자료), 분석가는 해외 유동성 공유와 자본 통제를 제약으로 거론(Decrypt 보도)",
+     "color": "black",
+     "fact_ids": [
+      "F-0074"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0271",
+     "disp": "Binance 범위-60",
+     "level": "★",
+     "text": "어떻게 : 2023-03부터 보류된 최대주주 변경 신고를 한국 FIU가 2025-10 수리, 지분과 금액은 아래(블록미디어 보도)",
+     "color": "black",
+     "fact_ids": [
+      "F-0073",
+      "F-1389"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0374",
+     "disp": "Binance 범위-61",
+     "level": "-",
+     "text": "지분 : 2023-02 고팍스 운영사 스트리미 지분 72.26% 인수, 이후 보유 67.45%(블록미디어 보도, 2024-08)",
+     "color": "black",
+     "fact_ids": [
+      "F-1389"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0375",
+     "disp": "Binance 범위-62",
+     "level": "-",
+     "text": "금액 : 투자액 약 1,200억 원, 고파이 부채 560억 원 상환 약속(블록미디어 보도)",
+     "color": "black",
+     "fact_ids": [
+      "F-1389"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0376",
+     "disp": "Binance 범위-63",
+     "level": "-",
+     "text": "뜻 : 스트리미 = 고팍스를 운영하는 법인. 고파이 = 고팍스의 가상자산 예치 상품",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0272",
+     "disp": "Binance 범위-64",
+     "level": "★",
+     "text": "쓴 곳 : 한국에서 bStocks를 제공하는지는 열람 문서에 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-0054"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0273",
+     "disp": "Binance 범위-65",
+     "level": "★",
+     "text": "해석 : 한국 법인 직접 인가 대신 현지 거래소 인수로 들어오는 경로",
+     "color": "black",
+     "fact_ids": [
+      "F-0073"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0208",
-     "disp": "Binance 범위-40",
+     "disp": "Binance 범위-66",
      "level": "●",
      "text": "해석 : 거래소에서 시작해 인가를 얻은 뒤 실제 주식, 직접 발행 토큰, 담보로 넓힘",
      "color": "black",
@@ -949,21 +1849,144 @@
    "title": "경영진 발언",
    "lines": [
     {
-     "id": "bn-0209",
+     "id": "bn-0274",
      "disp": "Binance 발언-1",
      "level": "●",
-     "text": "쉽게 말하면 : 규제 기반 위에 글로벌 사업을 올리고 전통 시장 수요를 받는다고 말함",
+     "text": "쉽게 말하면 : 경영진은 \"규제 기반 확보, 이용자 수요 확인, 출시 후 시장 기능\" 순으로 말했고 시점 순으로 실행됨",
      "color": "black",
      "fact_ids": [
       "F-1071",
+      "F-1068",
+      "F-1069"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0275",
+     "disp": "Binance 발언-2",
+     "level": "●",
+     "text": "말하고 이룬 것(시점 순)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0276",
+     "disp": "Binance 발언-3",
+     "level": "★",
+     "text": "2025-12-08 Teng(공동 CEO) : ADGM 인가가 글로벌 사업의 규제 기반",
+     "color": "black",
+     "fact_ids": [
+      "F-1071"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0277",
+     "disp": "Binance 발언-4",
+     "level": "-",
+     "text": "이룬 것 : 2026-06-01 이 인가 위에서 미국 주식 7,000종 이상 거래 개시",
+     "color": "black",
+     "fact_ids": [
+      "F-1198",
+      "F-0066"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0278",
+     "disp": "Binance 발언-5",
+     "level": "★",
+     "text": "2026-06-12 Teng : 주식 거래 초기 수요 확인, bStocks는 다음 단계",
+     "color": "black",
+     "fact_ids": [
       "F-1068"
      ],
      "confirmed": false,
      "notes": []
     },
     {
+     "id": "bn-0279",
+     "disp": "Binance 발언-6",
+     "level": "-",
+     "text": "이룬 것 : 2026-10-15 운용자산 10억 달러, 누적 거래 400억 달러, 약 100종",
+     "color": "black",
+     "fact_ids": [
+      "F-0057",
+      "F-0058",
+      "F-0059"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0280",
+     "disp": "Binance 발언-7",
+     "level": "★",
+     "text": "2026-10-15 Shunyet Jan(거래소 및 트레이딩 총괄) : 시험대는 출시 뒤에도 시장처럼 작동하는가",
+     "color": "black",
+     "fact_ids": [
+      "F-1069"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0281",
+     "disp": "Binance 발언-8",
+     "level": "-",
+     "text": "이룬 것 : 2026-09 마진, 선물 담보 확대, 1:1 전환 누적 60억 달러",
+     "color": "black",
+     "fact_ids": [
+      "F-0062",
+      "F-0060"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0282",
+     "disp": "Binance 발언-9",
+     "level": "●",
+     "text": "말하고 진행 중인 것",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0283",
+     "disp": "Binance 발언-10",
+     "level": "★",
+     "text": "2026-10-15 회사 발표 : 활용을 거래에서 헤지, 마진, 위험 관리로 넓힌다",
+     "color": "black",
+     "fact_ids": [
+      "F-1288"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0284",
+     "disp": "Binance 발언-11",
+     "level": "-",
+     "text": "진행 : 2026-10-28 5종 증거금 담보 추가, 2026-10-29와 11-12 주식 무기한선물 개시",
+     "color": "black",
+     "fact_ids": [
+      "F-1230",
+      "F-1231",
+      "F-1232"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0019",
-     "disp": "Binance 발언-2",
+     "disp": "Binance 발언-12",
      "level": "●",
      "text": "발언 1 : 한 관할의 규제 기반 위에 글로벌 사업을 올린다",
      "color": "black",
@@ -975,7 +1998,7 @@
     },
     {
      "id": "bn-0020",
-     "disp": "Binance 발언-3",
+     "disp": "Binance 발언-13",
      "level": "★",
      "text": "Richard Teng(공동 CEO), ADGM 글로벌 라이선스 보도자료, 2025-12-08 https://tools.prnewswire.com/en-us/live/20813/release/20251207EN41035",
      "color": "black",
@@ -987,7 +2010,7 @@
     },
     {
      "id": "bn-0021",
-     "disp": "Binance 발언-4",
+     "disp": "Binance 발언-14",
      "level": "①",
      "text": "원문 : \"This license provides regulatory clarity and legitimacy, enabling Binance to support its global operations from ADGM. While our global operations remain distributed, leveraging talent and innovation worldwide, this regulatory foundation offers our users peace of mind knowing Binance operates under a globally recognised, gold standard framework.\"",
      "color": "black",
@@ -997,7 +2020,7 @@
     },
     {
      "id": "bn-0022",
-     "disp": "Binance 발언-5",
+     "disp": "Binance 발언-15",
      "level": "②",
      "text": "번역 : 이 라이선스는 규제 명확성과 정당성을 주어 Binance가 ADGM에서 글로벌 사업을 지원하게 한다. 사업은 분산돼 있지만 이 규제 기반이 이용자에게 안심을 준다.",
      "color": "black",
@@ -1007,9 +2030,9 @@
     },
     {
      "id": "bn-0023",
-     "disp": "Binance 발언-6",
+     "disp": "Binance 발언-16",
      "level": "③",
-     "text": "해석 : 큰 곳은 규제 틀 위의 글로벌 플랫폼. 그래서 거래, 청산, 중개 3개 법인으로 ADGM 인가 확보",
+     "text": "해석 : 핵심은 규제 틀 위의 글로벌 플랫폼. 그래서 거래, 청산, 중개 3개 법인으로 ADGM 인가 확보",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -1017,7 +2040,7 @@
     },
     {
      "id": "bn-0024",
-     "disp": "Binance 발언-7",
+     "disp": "Binance 발언-17",
      "level": "그림",
      "images": [
       {
@@ -1028,7 +2051,7 @@
     },
     {
      "id": "bn-0025",
-     "disp": "Binance 발언-8",
+     "disp": "Binance 발언-18",
      "level": "●",
      "text": "발언 2 : 거래소 이용자의 전통 시장 접근 수요가 있다",
      "color": "black",
@@ -1040,7 +2063,7 @@
     },
     {
      "id": "bn-0026",
-     "disp": "Binance 발언-9",
+     "disp": "Binance 발언-19",
      "level": "★",
      "text": "Richard Teng(공동 CEO), bStocks 출시 보도자료, 2026-06-12 https://www.prnewswire.com/apac/news-releases/binance-exchange-launches-bstocks-tokenized-securities-11-backing-and-247-trading-302798969.html",
      "color": "black",
@@ -1052,7 +2075,7 @@
     },
     {
      "id": "bn-0027",
-     "disp": "Binance 발언-10",
+     "disp": "Binance 발언-20",
      "level": "①",
      "text": "원문 : \"Early demand for stocks trading on Binance shows that users want more flexible ways to access traditional markets. bStocks are the next step in that evolution, bringing real-world assets on-chain while giving users greater portability and self-custody.\"",
      "color": "black",
@@ -1062,7 +2085,7 @@
     },
     {
      "id": "bn-0028",
-     "disp": "Binance 발언-11",
+     "disp": "Binance 발언-21",
      "level": "②",
      "text": "번역 : Binance의 주식 거래에 대한 초기 수요는 이용자가 전통 시장에 더 유연하게 접근하길 원함을 보여준다. bStocks는 그 다음 단계로, 실물자산을 온체인으로 가져오며 이동성과 자기수탁을 높인다.",
      "color": "black",
@@ -1072,9 +2095,9 @@
     },
     {
      "id": "bn-0029",
-     "disp": "Binance 발언-12",
+     "disp": "Binance 발언-22",
      "level": "③",
-     "text": "해석 : 큰 곳은 거래소 이용자의 미국 주식 수요. 그래서 자체 발행 bStocks를 24시간 상장",
+     "text": "해석 : 핵심은 거래소 이용자의 미국 주식 수요. 그래서 자체 발행 bStocks를 24시간 상장",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -1082,7 +2105,7 @@
     },
     {
      "id": "bn-0030",
-     "disp": "Binance 발언-13",
+     "disp": "Binance 발언-23",
      "level": "그림",
      "images": [
       {
@@ -1093,7 +2116,7 @@
     },
     {
      "id": "bn-0031",
-     "disp": "Binance 발언-14",
+     "disp": "Binance 발언-24",
      "level": "●",
      "text": "발언 3 : 토큰 주식은 출시 뒤에도 시장으로 쓰여야 한다",
      "color": "black",
@@ -1105,7 +2128,7 @@
     },
     {
      "id": "bn-0032",
-     "disp": "Binance 발언-15",
+     "disp": "Binance 발언-25",
      "level": "★",
      "text": "Shunyet Jan(거래소 및 트레이딩 총괄), bStocks AUM 보도자료, 2026-10-15 https://www.prnewswire.com/news-releases/binances-bstocks-become-the-fastest-tokenized-equity-product-to-surpass-1-billion-in-assets-under-management-302909927.html",
      "color": "black",
@@ -1117,7 +2140,7 @@
     },
     {
      "id": "bn-0033",
-     "disp": "Binance 발언-16",
+     "disp": "Binance 발언-26",
      "level": "①",
      "text": "원문 : \"The test of a tokenized stock isn't the launch-day chart; it's whether it still behaves like a market after the launch. bStocks trade around the clock, get used as collateral, move between self-custodial wallets, and convert 1:1 into direct stock holdings.\"",
      "color": "black",
@@ -1127,7 +2150,7 @@
     },
     {
      "id": "bn-0034",
-     "disp": "Binance 발언-17",
+     "disp": "Binance 발언-27",
      "level": "②",
      "text": "번역 : 토큰화 주식의 시험대는 출시일 차트가 아니라 출시 후에도 시장처럼 작동하는지다. bStocks는 24시간 거래되고 담보로 쓰이며 자기수탁 지갑 사이를 오가고 1:1로 직접 주식으로 전환된다.",
      "color": "black",
@@ -1137,9 +2160,9 @@
     },
     {
      "id": "bn-0035",
-     "disp": "Binance 발언-18",
+     "disp": "Binance 발언-28",
      "level": "③",
-     "text": "해석 : 큰 곳은 담보, 전환 등 실사용. 그래서 종목을 늘리고 마진, 선물 담보로 연결",
+     "text": "해석 : 핵심은 담보, 전환 등 실사용. 그래서 종목을 늘리고 마진, 선물 담보로 연결",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -1147,7 +2170,7 @@
     },
     {
      "id": "bn-0036",
-     "disp": "Binance 발언-19",
+     "disp": "Binance 발언-29",
      "level": "그림",
      "images": [
       {
@@ -1234,6 +2257,57 @@
      ],
      "confirmed": false,
      "notes": []
+    },
+    {
+     "id": "bn-0285",
+     "disp": "Binance A-7",
+     "level": "●",
+     "text": "진입 시점(남들과 비교)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0286",
+     "disp": "Binance A-8",
+     "level": "★",
+     "text": "Binance : 2021-04 첫 시도(독일 CM-Equity 제휴), 2021-07 중단, 2026-06 bStocks로 재개",
+     "color": "black",
+     "fact_ids": [
+      "F-1124",
+      "F-1126"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0287",
+     "disp": "Binance A-9",
+     "level": "★",
+     "text": "다른 회사 : Kraken xStocks 2025-06-30, Robinhood EU 토큰 2025-06, Coinbase Base 토큰 2026-08-24",
+     "color": "black",
+     "fact_ids": [
+      "F-1040",
+      "F-0221",
+      "F-0776"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0288",
+     "disp": "Binance A-10",
+     "level": "★",
+     "text": "해석 : 2021년 첫 시도는 가장 이른 축에 속하나 접어서 공백이 있었고, 현 상품은 Kraken, Robinhood보다 약 1년 늦은 후발",
+     "color": "black",
+     "fact_ids": [
+      "F-1124",
+      "F-1040",
+      "F-1126"
+     ],
+     "confirmed": false,
+     "notes": []
     }
    ]
   },
@@ -1254,23 +2328,36 @@
      "notes": []
     },
     {
-     "id": "bn-0115",
+     "id": "bn-0350",
      "disp": "Binance B-2",
+     "level": "-",
+     "text": "뜻 : 신탁 = 맡은 자산을 수탁자(여기서는 발행사)가 법적으로 보유하고 그 수익은 투자자가 받는 구조. 수익권 = 그 수익을 받을 권리",
+     "color": "black",
+     "fact_ids": [
+      "F-0994"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0115",
+     "disp": "Binance B-3",
      "level": "●",
-     "text": "주장 : 직접 발행으로 돌아선 지 5개월 만에 잔액 1위",
+     "text": "주장 : 직접 발행으로 돌아선 지 5개월 만에 잔액 1위, 투자자 몫은 신탁 수익권",
      "color": "black",
      "fact_ids": [
       "F-1126",
-      "F-1021"
+      "F-1021",
+      "F-0994"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "bn-0043",
-     "disp": "Binance B-3",
+     "disp": "Binance B-4",
      "level": "●",
-     "text": "토큰의 법적 성격(우리 분류)",
+     "text": "토큰의 법적 성격",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -1278,7 +2365,7 @@
     },
     {
      "id": "bn-0044",
-     "disp": "Binance B-4",
+     "disp": "Binance B-5",
      "level": "★",
      "text": "ADGM 법상 증서(Certificate), ADGM 승인 투자설명서로만 공모",
      "color": "black",
@@ -1289,8 +2376,21 @@
      "notes": []
     },
     {
+     "id": "bn-0351",
+     "disp": "Binance B-6",
+     "level": "-",
+     "text": "뜻 : 증서 = ADGM 법상 증권으로 분류되는 상품 형태, 주식 자체가 아님",
+     "color": "black",
+     "fact_ids": [
+      "F-0047",
+      "F-0994"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0045",
-     "disp": "Binance B-5",
+     "disp": "Binance B-7",
      "level": "★",
      "text": "발행사가 기초주를 신탁 보유, 보유자는 1:1 수익적 이익",
      "color": "black",
@@ -1302,7 +2402,7 @@
     },
     {
      "id": "bn-0046",
-     "disp": "Binance B-6",
+     "disp": "Binance B-8",
      "level": "★",
      "text": "의결권, 기초 발행사 주주권 없음, 상환 시 기초주 인도 가능",
      "color": "black",
@@ -1314,10 +2414,10 @@
      "notes": []
     },
     {
-     "id": "bn-0047",
-     "disp": "Binance B-7",
+     "id": "bn-0289",
+     "disp": "Binance B-9",
      "level": "★",
-     "text": "우리 분류 : 제3자 보관형(Coinbase와 같은 신탁 구조)",
+     "text": "유형 : 제3자 보관형(원주를 발행사가 신탁으로 1:1 보유하고 투자자는 수익권)",
      "color": "black",
      "fact_ids": [
       "F-0994",
@@ -1327,8 +2427,36 @@
      "notes": []
     },
     {
+     "id": "bn-0352",
+     "disp": "Binance B-10",
+     "level": "-",
+     "text": "뜻 : 제3자 보관형 = 기초 주식을 발행사나 수탁기관이 따로 보관하고 투자자는 그 주식의 수익권을 가진 유형(이 문서의 분류). 발행사 채권만 갖는 합성형과 구분",
+     "color": "black",
+     "fact_ids": [
+      "F-0994",
+      "F-0995"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0290",
+     "disp": "Binance B-11",
+     "level": "★",
+     "text": "다른 회사 유형과 비교 : Coinbase도 같은 신탁 1:1 구조, Kraken과 Ondo는 발행사에 대한 채권(원주 보유 아님), Robinhood EU판은 파생계약(가로 비교 탭 참고)",
+     "color": "black",
+     "fact_ids": [
+      "F-0995",
+      "F-0991",
+      "F-0998",
+      "F-0993"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0048",
-     "disp": "Binance B-8",
+     "disp": "Binance B-12",
      "level": "●",
      "text": "발행 주체와 보관",
      "color": "black",
@@ -1338,7 +2466,7 @@
     },
     {
      "id": "bn-0049",
-     "disp": "Binance B-9",
+     "disp": "Binance B-13",
      "level": "★",
      "text": "BTech Holdings(그룹 계열 SPV)가 발행",
      "color": "black",
@@ -1351,7 +2479,7 @@
     },
     {
      "id": "bn-0050",
-     "disp": "Binance B-10",
+     "disp": "Binance B-14",
      "level": "★",
      "text": "Alpaca(미국 청산 증권사) 분리계좌에 기초주 1주씩 보관",
      "color": "black",
@@ -1364,7 +2492,7 @@
     },
     {
      "id": "bn-0051",
-     "disp": "Binance B-11",
+     "disp": "Binance B-15",
      "level": "★",
      "text": "보유자별 권리는 CSD(중앙예탁) 원장에 기록",
      "color": "black",
@@ -1376,7 +2504,7 @@
     },
     {
      "id": "bn-0052",
-     "disp": "Binance B-12",
+     "disp": "Binance B-16",
      "level": "●",
      "text": "투자자 권리와 공시",
      "color": "black",
@@ -1386,9 +2514,9 @@
     },
     {
      "id": "bn-0053",
-     "disp": "Binance B-13",
+     "disp": "Binance B-17",
      "level": "★",
-     "text": "2026-09 기업행위 공시 17건(TSMC, NVIDIA 등)",
+     "text": "2026-09 기업행위(분할, 배당 등) 공시 17건(TSMC, NVIDIA 등)",
      "color": "black",
      "fact_ids": [
       "F-0700",
@@ -1399,10 +2527,22 @@
      "notes": []
     },
     {
+     "id": "bn-0353",
+     "disp": "Binance B-18",
+     "level": "-",
+     "text": "뜻 : 기업행위 = 주식 분할, 배당처럼 기초 주식 회사가 내리는 결정으로 토큰 수량이나 가치에 영향을 줌",
+     "color": "black",
+     "fact_ids": [
+      "F-0700"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0054",
-     "disp": "Binance B-14",
+     "disp": "Binance B-19",
      "level": "★",
-     "text": "발행 잔량을 주 단위로 공시(2026-09 3건)",
+     "text": "발행 잔량(유통 중인 증서 수)을 주 단위로 공시, 2026-09 3건",
      "color": "black",
      "fact_ids": [
       "F-0703",
@@ -1413,7 +2553,7 @@
     },
     {
      "id": "bn-0055",
-     "disp": "Binance B-15",
+     "disp": "Binance B-20",
      "level": "●",
      "text": "규모(시장 내 위치)",
      "color": "black",
@@ -1423,9 +2563,9 @@
     },
     {
      "id": "bn-0056",
-     "disp": "Binance B-16",
+     "disp": "Binance B-21",
      "level": "★",
-     "text": "2026-11-16 발행 잔액 13.6억 달러, 1위(점유율 36.62%)",
+     "text": "2026-11-16 rwa.xyz 기준 발행 잔액 13.6억 달러, 1위(점유율 36.62%)",
      "color": "black",
      "fact_ids": [
       "F-1021"
@@ -1435,9 +2575,9 @@
     },
     {
      "id": "bn-0057",
-     "disp": "Binance B-17",
+     "disp": "Binance B-22",
      "level": "★",
-     "text": "2~4위는 Ondo, Kraken, Securitize(9.0억, 6.8억, 2.7억 달러)",
+     "text": "2위에서 4위는 Ondo, Kraken, Securitize(9.0억, 6.8억, 2.7억 달러)",
      "color": "orange",
      "fact_ids": [
       "F-1022",
@@ -1449,7 +2589,7 @@
     },
     {
      "id": "bn-0058",
-     "disp": "Binance B-18",
+     "disp": "Binance B-23",
      "level": "★",
      "text": "Robinhood 6위 1.5억, Coinbase 8위 0.5억 달러",
      "color": "black",
@@ -1462,7 +2602,7 @@
     },
     {
      "id": "bn-0059",
-     "disp": "Binance B-19",
+     "disp": "Binance B-24",
      "level": "★",
      "text": "시장 전체 37.1억 달러(같은 출처, 같은 날)",
      "color": "black",
@@ -1473,8 +2613,21 @@
      "notes": []
     },
     {
+     "id": "bn-0291",
+     "disp": "Binance B-25",
+     "level": "★",
+     "text": "1위와 2위 차이 : 13.6억 대 9.0억 달러, 약 4.6억 달러",
+     "color": "black",
+     "fact_ids": [
+      "F-1021",
+      "F-1022"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0133",
-     "disp": "Binance B-20",
+     "disp": "Binance B-26",
      "level": "●",
      "text": "규모의 과거 대비(2026-01 초 기준)",
      "color": "black",
@@ -1484,7 +2637,7 @@
     },
     {
      "id": "bn-0134",
-     "disp": "Binance B-21",
+     "disp": "Binance B-27",
      "level": "★",
      "text": "2026-01 초 rwa.xyz 표에는 없음(bStocks 2026-06 출시)",
      "color": "black",
@@ -1497,7 +2650,7 @@
     },
     {
      "id": "bn-0060",
-     "disp": "Binance B-22",
+     "disp": "Binance B-28",
      "level": "●",
      "text": "수수료",
      "color": "black",
@@ -1507,7 +2660,7 @@
     },
     {
      "id": "bn-0061",
-     "disp": "Binance B-23",
+     "disp": "Binance B-29",
      "level": "★",
      "text": "주식과 토큰 1:1 전환 수수료 0, 소수 주식 5달러부터",
      "color": "black",
@@ -1519,7 +2672,7 @@
     },
     {
      "id": "bn-0167",
-     "disp": "Binance B-24",
+     "disp": "Binance B-30",
      "level": "●",
      "text": "평가",
      "color": "black",
@@ -1529,7 +2682,7 @@
     },
     {
      "id": "bn-0168",
-     "disp": "Binance B-25",
+     "disp": "Binance B-31",
      "level": "★",
      "text": "유동성 분산 : 같은 주식이 Ondo 토큰과 bStocks로 갈림",
      "color": "black",
@@ -1542,7 +2695,7 @@
     },
     {
      "id": "bn-0169",
-     "disp": "Binance B-26",
+     "disp": "Binance B-32",
      "level": "★",
      "text": "블록체인 위 활용 : 마진과 선물 담보로 사용",
      "color": "black",
@@ -1554,7 +2707,7 @@
     },
     {
      "id": "bn-0170",
-     "disp": "Binance B-27",
+     "disp": "Binance B-33",
      "level": "★",
      "text": "제3자 위험 : 발행 SPV BTech, 기초주 Alpaca 보관",
      "color": "black",
@@ -1566,9 +2719,9 @@
     },
     {
      "id": "bn-0135",
-     "disp": "Binance B-28",
+     "disp": "Binance B-34",
      "level": "●",
-     "text": "제3자 시각(구조)",
+     "text": "제3자 시각(분류)",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -1576,9 +2729,21 @@
     },
     {
      "id": "bn-0136",
-     "disp": "Binance B-29",
+     "disp": "Binance B-35",
      "level": "★",
-     "text": "보관형, 발행사 동의 없음, 장부는 Binance 보유 (CoinDesk Research, Bullish 의뢰)",
+     "text": "주의 : 보관형, 발행사 동의 없음, 장부는 Binance 보유로 분류됨 (CoinDesk Research, Bullish 의뢰, 발행사 직접 방식에 유리하게 씀)",
+     "color": "black",
+     "fact_ids": [
+      "TP-211"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0354",
+     "disp": "Binance B-36",
+     "level": "-",
+     "text": "풀이 : 표가 bStocks를 기초 주식 회사의 동의 없이 낸 보관형으로 분류했다는 뜻, 해석은 아래 제3자 평가 1",
      "color": "black",
      "fact_ids": [
       "TP-211"
@@ -1588,9 +2753,9 @@
     },
     {
      "id": "bn-0137",
-     "disp": "Binance B-30",
+     "disp": "Binance B-37",
      "level": "★",
-     "text": "표는 보관형으로 묶음, 투자설명서상은 신탁 수익권",
+     "text": "표는 보관형으로 묶었으나 투자설명서상은 신탁 수익권(근거는 제3자 평가 1)",
      "color": "black",
      "fact_ids": [
       "TP-211",
@@ -1609,7 +2774,7 @@
      "id": "bn-0212",
      "disp": "Binance C-1",
      "level": "●",
-     "text": "쉽게 말하면 : 미국과 미국인을 뺀 거래소 자격 이용자가 대상",
+     "text": "쉽게 말하면 : bStocks는 미국과 미국인을 뺀 허용 지역의 거래소 자격 이용자가 대상(가상자산 거래는 해당 없음)",
      "color": "black",
      "fact_ids": [
       "F-0054"
@@ -1621,7 +2786,7 @@
      "id": "bn-0062",
      "disp": "Binance C-2",
      "level": "●",
-     "text": "주장 : 미국 밖 Binance 거래소 자격 이용자",
+     "text": "주장 : bStocks 구매 대상은 미국 밖 Binance 거래소 자격 이용자",
      "color": "black",
      "fact_ids": [
       "F-0054"
@@ -1652,8 +2817,20 @@
      "notes": []
     },
     {
-     "id": "bn-0065",
+     "id": "bn-0355",
      "disp": "Binance C-5",
+     "level": "-",
+     "text": "뜻 : 자격 이용자 = 허용 지역에 있고 미국인이 아닌 거래소 이용자, 세부 자격 기준은 열람 문서에 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-0054"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0065",
+     "disp": "Binance C-6",
      "level": "●",
      "text": "국적 및 지역 제한",
      "color": "black",
@@ -1663,13 +2840,23 @@
     },
     {
      "id": "bn-0066",
-     "disp": "Binance C-6",
+     "disp": "Binance C-7",
      "level": "★",
      "text": "미국, 미국인 제외, 허용국 전체 목록 비공개",
      "color": "black",
      "fact_ids": [
       "F-0054"
      ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0292",
+     "disp": "Binance C-8",
+     "level": "-",
+     "text": "뜻 : 2차 시장 = 발행사에게 새로 사는 것이 아니라 이미 나온 토큰을 거래소에서 사고파는 시장",
+     "color": "black",
+     "fact_ids": [],
      "confirmed": false,
      "notes": []
     }
@@ -1728,8 +2915,20 @@
      "notes": []
     },
     {
-     "id": "bn-0070",
+     "id": "bn-0356",
      "disp": "Binance D-5",
+     "level": "-",
+     "text": "뜻 : USDT 현물 쌍 = 달러 가치에 맞춘 스테이블코인 USDT로 bStocks를 바로 사고파는 거래 메뉴",
+     "color": "black",
+     "fact_ids": [
+      "F-0051"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0070",
+     "disp": "Binance D-6",
      "level": "★",
      "text": "고객층 : 미국 밖 자격 이용자, 40개 언어 24시간 지원",
      "color": "black",
@@ -1742,7 +2941,7 @@
     },
     {
      "id": "bn-0071",
-     "disp": "Binance D-6",
+     "disp": "Binance D-7",
      "level": "●",
      "text": "거래 장소",
      "color": "black",
@@ -1752,7 +2951,7 @@
     },
     {
      "id": "bn-0072",
-     "disp": "Binance D-7",
+     "disp": "Binance D-8",
      "level": "★",
      "text": "사용 블록체인 : BNB Chain(BEP-20)",
      "color": "black",
@@ -1763,8 +2962,20 @@
      "notes": []
     },
     {
+     "id": "bn-0357",
+     "disp": "Binance D-9",
+     "level": "-",
+     "text": "뜻 : BNB Chain = Binance 계열 블록체인, BEP-20 = 그 위에서 쓰는 토큰 규격 이름",
+     "color": "black",
+     "fact_ids": [
+      "F-0052"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0073",
-     "disp": "Binance D-8",
+     "disp": "Binance D-10",
      "level": "★",
      "text": "24시간 7일 거래, 원주 1:1 전환으로 가격 연동",
      "color": "black",
@@ -1777,7 +2988,7 @@
     },
     {
      "id": "bn-0171",
-     "disp": "Binance D-9",
+     "disp": "Binance D-11",
      "level": "●",
      "text": "가격과 유동성 장치",
      "color": "black",
@@ -1787,7 +2998,7 @@
     },
     {
      "id": "bn-0172",
-     "disp": "Binance D-10",
+     "disp": "Binance D-12",
      "level": "★",
      "text": "상환과 수렴 : 원주와 1:1 전환, 수수료 없음",
      "color": "black",
@@ -1799,24 +3010,12 @@
      "notes": []
     },
     {
-     "id": "bn-0138",
-     "disp": "Binance D-11",
-     "level": "●",
-     "text": "제3자 시각(유통)",
+     "id": "bn-0293",
+     "disp": "Binance D-13",
+     "level": "-",
+     "text": "뜻 : 수렴 = 토큰 가격이 주식 가격에서 벌어져도 1:1 전환 창구가 있어 다시 가까워지는 작용",
      "color": "black",
      "fact_ids": [],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "bn-0139",
-     "disp": "Binance D-12",
-     "level": "★",
-     "text": "bStocks를 BNB Chain 대출 담보로 쓴다고 서술 (CoinDesk Research, Bullish 의뢰)",
-     "color": "black",
-     "fact_ids": [
-      "TP-212"
-     ],
      "confirmed": false,
      "notes": []
     }
@@ -1830,7 +3029,7 @@
      "id": "bn-0214",
      "disp": "Binance E-1",
      "level": "●",
-     "text": "쉽게 말하면 : 체결, 청산, 중개 인가를 아부다비 계열 법인 셋이 직접 확보",
+     "text": "쉽게 말하면 : 체결, 청산, 중개 인가를 아부다비 계열 법인 셋이 직접 신청해 확보",
      "color": "black",
      "fact_ids": [
       "F-0064",
@@ -2015,7 +3214,7 @@
      "id": "bn-0216",
      "disp": "Binance G-1",
      "level": "●",
-     "text": "쉽게 말하면 : 주식 토큰이 아니라 거래소 인수로 한국과 연결",
+     "text": "쉽게 말하면 : 주식 토큰이 아니라 한국 가상자산 거래소 인수로 한국과 연결",
      "color": "black",
      "fact_ids": [
       "F-0073"
@@ -2052,19 +3251,77 @@
      "text": "2025-10 FIU, 고팍스(국내 거래소) 최대주주 변경 수리",
      "color": "black",
      "fact_ids": [
-      "F-0073"
+      "F-0073",
+      "F-1389"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0377",
+     "disp": "Binance G-5",
+     "level": "-",
+     "text": "지분 : 운영사 스트리미 지분 72.26% 인수(2023-02), 이후 67.45% 보유(블록미디어 보도)",
+     "color": "black",
+     "fact_ids": [
+      "F-1389"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "bn-0086",
-     "disp": "Binance G-5",
+     "disp": "Binance G-6",
      "level": "★",
      "text": "신고는 2023-03부터 보류",
      "color": "black",
      "fact_ids": [
       "F-0073"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0358",
+     "disp": "Binance G-7",
+     "level": "★",
+     "text": "한국 시장 배경 : 2021 철수 뒤 국내 점유는 업비트 약 72%, 빗썸 약 24%(2024 말 자료, Decrypt 보도)",
+     "color": "black",
+     "fact_ids": [
+      "F-0074"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0294",
+     "disp": "Binance G-8",
+     "level": "-",
+     "text": "뜻 : FIU = 한국 금융정보분석원, 가상자산사업자의 신고와 임원, 최대주주 변경 신고를 수리하는 기관. 고팍스 = 한국 원화 가상자산 거래소",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0378",
+     "disp": "Binance G-9",
+     "level": "●",
+     "text": "한국 이용자 제한 표기",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0379",
+     "disp": "Binance G-10",
+     "level": "★",
+     "text": "캠페인 약관 제외 국가 : Binance Pay 첫 구매 캠페인(2026-03)과 Tokenstore 캠페인 약관이 참여 불가 국가에 한국(KR)을 넣음. 캠페인 약관일 뿐 bStocks 약관이 아니어서 bStocks의 한국 이용 가능 여부 근거가 아님",
+     "color": "black",
+     "fact_ids": [
+      "F-0721",
+      "F-0722"
      ],
      "confirmed": false,
      "notes": []
@@ -2079,7 +3336,7 @@
      "id": "bn-0217",
      "disp": "Binance 차이-1",
      "level": "●",
-     "text": "쉽게 말하면 : 아부다비 증서로 길이 열렸고 한국은 해외 토큰 판매 근거 없음",
+     "text": "쉽게 말하면 : Binance는 아부다비 승인 증서로 미국 밖 자격 이용자에게 팔았고, 한국은 해외 발행 토큰도 권유하면 공모 서류가 필요",
      "color": "black",
      "fact_ids": [
       "F-0047",
@@ -2092,7 +3349,7 @@
      "id": "bn-0087",
      "disp": "Binance 차이-2",
      "level": "●",
-     "text": "주장 : ADGM 증서 발행으로 길이 열렸고, 한국은 해외 토큰 판매 근거가 없다",
+     "text": "주장 : ADGM 증서 발행으로 길이 열렸고, 한국은 해외 발행 증권도 공모 규제 대상",
      "color": "black",
      "fact_ids": [
       "F-0047",
@@ -2115,7 +3372,7 @@
      "id": "bn-0089",
      "disp": "Binance 차이-4",
      "level": "★",
-     "text": "가능했던 이유 : ADGM 한 관할에서 발행, 체결, 청산 인가",
+     "text": "가능했던 이유 : ADGM 한 관할에서 발행 승인, 거래소, 청산 인가를 모두 받음",
      "color": "black",
      "fact_ids": [
       "F-0047",
@@ -2129,7 +3386,7 @@
      "id": "bn-0090",
      "disp": "Binance 차이-5",
      "level": "★",
-     "text": "가능했던 이유 : 미국과 미국인을 판매 대상에서 제외",
+     "text": "가능했던 이유 : 미국과 미국인을 판매 대상에서 제외해 미국 규제와 부딪치지 않음",
      "color": "black",
      "fact_ids": [
       "F-0054"
@@ -2141,7 +3398,7 @@
      "id": "bn-0119",
      "disp": "Binance 차이-6",
      "level": "★",
-     "text": "한국 차이 : 허용국 전체 목록 비공개, 한국 이용 가능 여부 불명",
+     "text": "한국 차이 : 허용국 전체 목록 비공개, 한국 이용자가 쓸 수 있는지 불명",
      "color": "black",
      "fact_ids": [
       "F-0054"
@@ -2150,8 +3407,20 @@
      "notes": []
     },
     {
-     "id": "bn-0093",
+     "id": "bn-0295",
      "disp": "Binance 차이-7",
+     "level": "★",
+     "text": "한국 법 : 일정 금액 이상 증권 공모는 해외 발행인도 금융위원회에 증권신고서를 내 수리돼야 함",
+     "color": "black",
+     "fact_ids": [
+      "KR-자본시장법-119"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0093",
+     "disp": "Binance 차이-8",
      "level": "●",
      "text": "고객 수요",
      "color": "black",
@@ -2161,7 +3430,7 @@
     },
     {
      "id": "bn-0094",
-     "disp": "Binance 차이-8",
+     "disp": "Binance 차이-9",
      "level": "★",
      "text": "가능했던 이유 : 거래소 이용자의 전통 시장 접근 수요",
      "color": "black",
@@ -2173,7 +3442,7 @@
     },
     {
      "id": "bn-0120",
-     "disp": "Binance 차이-9",
+     "disp": "Binance 차이-10",
      "level": "●",
      "text": "규제 건의 포인트 : 해외 거래소 발행 토큰의 허용국 공시 기준",
      "color": "black",
@@ -2193,11 +3462,12 @@
      "id": "bn-0218",
      "disp": "Binance 판단-1",
      "level": "●",
-     "text": "쉽게 말하면 : 접었던 주식 토큰이 직접 발행 뒤 400억 달러 거래량, 잔액 1위",
+     "text": "쉽게 말하면 : 접었던 주식 토큰이 직접 발행 뒤 400억 달러 거래량, 잔액 1위. 본업 거래소는 매출 비공개, 2025년 거래대금 34조 달러(회사 블로그)",
      "color": "black",
      "fact_ids": [
       "F-0058",
-      "F-1021"
+      "F-1021",
+      "F-1387"
      ],
      "confirmed": false,
      "notes": []
@@ -2220,64 +3490,109 @@
      "id": "bn-0097",
      "disp": "Binance 판단-3",
      "level": "●",
-     "text": "성과",
+     "text": "사업별 성과",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bn-0122",
+     "id": "bn-0296",
      "disp": "Binance 판단-4",
      "level": "★",
-     "text": "bStocks 운용자산 10억 달러 초과(Dune Research 측정, 회사 발표)",
+     "text": "거래소 본업 : 이용자 3.2억 명 이상(등록 계정, 회사 주장), 2025년 거래대금 34조 달러 중 현물 7.1조 달러(회사 블로그), 소개 페이지 표기 34.9조 달러(현물과 선물)와는 기준이 다를 수 있음, 매출은 공개 없음",
      "color": "black",
      "fact_ids": [
-      "F-0057"
+      "F-1201",
+      "F-1387",
+      "F-0675"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bn-0123",
+     "id": "bn-0297",
      "disp": "Binance 판단-5",
      "level": "★",
-     "text": "출시 후 누적 거래량 400억 달러 초과(회사 발표)",
+     "text": "미국 주식 직접 거래(2026-06-01 개시) : 7,000종 이상, 소수 5달러부터 수수료 0. 주식과 bStocks 1:1 전환 누적 60억 달러",
      "color": "black",
      "fact_ids": [
-      "F-0058"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "bn-0124",
-     "disp": "Binance 판단-6",
-     "level": "★",
-     "text": "상장 종목 약 100개(출시 5개), 1:1 전환 60억 달러(회사 발표)",
-     "color": "black",
-     "fact_ids": [
-      "F-0059",
+      "F-1198",
       "F-0060"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bn-0098",
-     "disp": "Binance 판단-7",
+     "id": "bn-0122",
+     "disp": "Binance 판단-6",
      "level": "★",
-     "text": "2026-08~09 ADGM 승인 투자설명서 20건",
+     "text": "bStocks : 운용자산 10억 달러 초과(Dune Research 측정, 회사 발표), 누적 거래 400억 달러 초과, 일평균 3억 달러 초과, 종목 5종에서 약 100종",
      "color": "black",
      "fact_ids": [
+      "F-0057",
+      "F-0058",
+      "F-0059"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0298",
+     "disp": "Binance 판단-7",
+     "level": "★",
+     "text": "담보와 선물 연결 : 2026-09 마진과 선물 담보 확대, 2026-10 담보 5종 추가와 주식 무기한선물 8종 상장",
+     "color": "black",
+     "fact_ids": [
+      "F-0062",
+      "F-1230",
+      "F-1231",
+      "F-1232"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0299",
+     "disp": "Binance 판단-8",
+     "level": "★",
+     "text": "인가와 공시 : 2025-12 ADGM 인가 3종, 2026-08-04부터 09-22까지 승인 투자설명서 20건",
+     "color": "black",
+     "fact_ids": [
+      "F-0064",
       "F-0692"
      ],
      "confirmed": false,
      "notes": []
     },
     {
+     "id": "bn-0300",
+     "disp": "Binance 판단-9",
+     "level": "★",
+     "text": "기관 : 2025-11 BUIDL 담보 수용, 기관 전용 사업은 2022-06 출시",
+     "color": "black",
+     "fact_ids": [
+      "F-1233",
+      "F-1242"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0301",
+     "disp": "Binance 판단-10",
+     "level": "★",
+     "text": "주식 토큰 잔액 순위(참고) : 2026-11-16 rwa.xyz 1위 13.6억 달러",
+     "color": "black",
+     "fact_ids": [
+      "F-1021"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0100",
-     "disp": "Binance 판단-8",
+     "disp": "Binance 판단-11",
      "level": "●",
      "text": "핵심 성공요인(KSF)",
      "color": "black",
@@ -2286,47 +3601,132 @@
      "notes": []
     },
     {
-     "id": "bn-0125",
-     "disp": "Binance 판단-9",
+     "id": "bn-0359",
+     "disp": "Binance 판단-12",
+     "level": "-",
+     "text": "뜻 : KSF = 남들보다 먼저 한 일이 시장 선점과 성과 변화로 이어졌다는 근거가 있는 것. 근거가 없으면 사실 나열이라 KSF로 쓰지 않음",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0302",
+     "disp": "Binance 판단-13",
      "level": "★",
-     "text": "거래소 이용자에게 상장, 초기 이용자 58.5%가 선물 등도 거래(회사 발표)",
+     "text": "거래소 이용자를 그대로 토큰 수요로 : 남들은 2025-06부터 시작했고 Binance는 약 1년 늦은 2026-06 출시였으나 이용자 기반으로 따라잡음",
      "color": "black",
      "fact_ids": [
-      "F-0051",
+      "F-1040",
+      "F-0221",
+      "F-1126"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0303",
+     "disp": "Binance 판단-14",
+     "level": "-",
+     "text": "전 : 2021-04 첫 시도(인가 없이 시작) 3개월 뒤 신규 구매 중단, 이후 5년간 공백",
+     "color": "black",
+     "fact_ids": [
+      "F-1124"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0304",
+     "disp": "Binance 판단-15",
+     "level": "-",
+     "text": "후 : 2026-06 재개 후 약 4개월 만에 운용자산 10억 달러, 잔액 1위 13.6억 달러(3위 Kraken 6.8억의 2배, 2위 Ondo 9.0억의 약 1.5배, 출시가 1년 빠른 Kraken보다 큼)",
+     "color": "black",
+     "fact_ids": [
+      "F-0057",
+      "F-1021",
+      "F-1022",
+      "F-1023"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0305",
+     "disp": "Binance 판단-16",
+     "level": "-",
+     "text": "이유(근거) : 초기 bStocks 이용자의 58.5%가 이미 선물이나 직접 주식도 거래",
+     "color": "black",
+     "fact_ids": [
       "F-0063"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bn-0126",
-     "disp": "Binance 판단-10",
+     "id": "bn-0306",
+     "disp": "Binance 판단-17",
      "level": "★",
-     "text": "24시간 7일 거래, 7월 정규장 시간 거래 38%(회사 발표)",
+     "text": "KSF 보류(비교 근거 없음) : 장 밖 시간 24시간 거래, 정규장 시간 거래 비중이 전통 주식 89.2% 대 bStocks 38%, 나머지가 장 밖 수요",
      "color": "black",
      "fact_ids": [
-      "F-0051",
       "F-0061"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bn-0102",
-     "disp": "Binance 판단-11",
-     "level": "★",
-     "text": "원주 1:1 전환 창구, 누적 전환 60억 달러(회사 발표)",
+     "id": "bn-0123",
+     "disp": "Binance 판단-18",
+     "level": "-",
+     "text": "결과 : 출시 이후 일평균 거래대금 3억 달러 초과",
      "color": "black",
      "fact_ids": [
-      "F-0050",
+      "F-0058"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0307",
+     "disp": "Binance 판단-19",
+     "level": "★",
+     "text": "KSF 보류(비교 근거 없음) : 주식 먼저, 토큰은 그 위, 2026-06-01 실제 주식 거래를 먼저 열어 1:1 전환 창구를 만듦",
+     "color": "black",
+     "fact_ids": [
+      "F-1198",
+      "F-0050"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0102",
+     "disp": "Binance 판단-20",
+     "level": "-",
+     "text": "결과 : 전환 누적 60억 달러",
+     "color": "black",
+     "fact_ids": [
       "F-0060"
      ],
      "confirmed": false,
      "notes": []
     },
     {
+     "id": "bn-0308",
+     "disp": "Binance 판단-21",
+     "level": "-",
+     "text": "한계 : 이 세 가지가 서로 독립적으로 얼마나 기여했는지는 회사 자료에 분리돼 있지 않음",
+     "color": "black",
+     "fact_ids": [
+      "F-0057"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "bn-0103",
-     "disp": "Binance 판단-12",
+     "disp": "Binance 판단-22",
      "level": "●",
      "text": "제약과 리스크",
      "color": "black",
@@ -2336,9 +3736,9 @@
     },
     {
      "id": "bn-0104",
-     "disp": "Binance 판단-13",
+     "disp": "Binance 판단-23",
      "level": "★",
-     "text": "미국 형사 합의에 따른 준수 감독인과 정보 공유",
+     "text": "2023 미국 합의로 지정된 감독인과 Binance 이용자 정보 공유",
      "color": "black",
      "fact_ids": [
       "F-0719",
@@ -2348,20 +3748,57 @@
      "notes": []
     },
     {
-     "id": "bn-0105",
-     "disp": "Binance 판단-14",
-     "level": "★",
-     "text": "2025-05 SEC 민사소송은 재제기 불가로 취하",
+     "id": "bn-0309",
+     "disp": "Binance 판단-24",
+     "level": "-",
+     "text": "왜 : 2023 합의로 준수 감독인이 지정되어 이용자 개인정보를 감독인과 공유할 수 있다고 약관에 고지, 이용자는 정보 공유를 감수",
      "color": "black",
      "fact_ids": [
-      "F-0072"
+      "F-0720"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0310",
+     "disp": "Binance 판단-25",
+     "level": "-",
+     "text": "왜 : 재무부 합의에 5년 감독 기간이 포함되어 그 기간 Binance의 운영 점검이 이어짐",
+     "color": "black",
+     "fact_ids": [
+      "F-1200"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0105",
+     "disp": "Binance 판단-26",
+     "level": "★",
+     "text": "2025-05 SEC 민사소송은 재제기 불가로 취하, 미국 규제 부담은 줄었으나 bStocks는 여전히 미국과 미국인 제외",
+     "color": "black",
+     "fact_ids": [
+      "F-0072",
+      "F-0054"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0311",
+     "disp": "Binance 판단-27",
+     "level": "-",
+     "text": "왜 : 가장 큰 주식 시장 고객인 미국 이용자에게는 이 상품을 팔 수 없어 시장 범위가 제한됨",
+     "color": "black",
+     "fact_ids": [
+      "F-0054"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "bn-0106",
-     "disp": "Binance 판단-15",
+     "disp": "Binance 판단-28",
      "level": "★",
      "text": "발행사 의무는 보관 기초주에 한정(제한소구)",
      "color": "black",
@@ -2372,138 +3809,58 @@
      "notes": []
     },
     {
-     "id": "bn-0140",
-     "disp": "Binance 판단-16",
-     "level": "●",
-     "text": "제3자 평가",
-     "color": "black",
-     "fact_ids": [],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "bn-0141",
-     "disp": "Binance 판단-17",
-     "level": "★",
-     "text": "평가 1 : CoinDesk Research(Bullish 의뢰, 발행사 직접 방식에 유리하게 씀), The Future of Equity Ownership: An Issuer's Guide to Tokenized Equities, 2026-09-29(표 기준 2026-08), 10쪽 표 https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities",
+     "id": "bn-0360",
+     "disp": "Binance 판단-29",
+     "level": "-",
+     "text": "뜻 : 제한소구 = 발행사가 갚을 책임이 담보로 맡은 기초 주식의 가치까지로 제한되고 다른 재산으로는 갚지 않는 구조",
      "color": "black",
      "fact_ids": [
-      "TP-211"
+      "F-0994"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bn-0142",
-     "disp": "Binance 판단-18",
-     "level": "①",
-     "text": "원문 : 표 Binance 열 \"Custodial tokenized equities\", \"No consent\", \"Claim / cert\", \"Binance-held\", \"Partial\", \"Not for US\"",
-     "color": "black",
-     "fact_ids": [],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "bn-0143",
-     "disp": "Binance 판단-19",
-     "level": "②",
-     "text": "번역 : 보관형 토큰 주식, 발행사 동의 없음, 청구권 또는 증서, Binance가 보유, 권리 일부, 미국 불가.",
-     "color": "black",
-     "fact_ids": [],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "bn-0144",
-     "disp": "Binance 판단-20",
-     "level": "③",
-     "text": "해석 : 표는 Binance를 Dinari와 같은 보관형으로 묶었으나 투자설명서상은 신탁 수익권이고 표 각주는 두 상품 중 좋은 쪽으로 채점했다고 밝힘. 그래서 KDX는 우리 분류를 유지하고 발행사 동의 없는 구조라는 점을 볼 것",
-     "color": "black",
-     "fact_ids": [],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "bn-0145",
-     "disp": "Binance 판단-21",
-     "level": "★",
-     "text": "평가 2 : CoinDesk Research(Bullish 의뢰, 발행사 직접 방식에 유리하게 씀), The Future of Equity Ownership: An Issuer's Guide to Tokenized Equities, 2026-09-29, 15쪽 https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities",
+     "id": "bn-0312",
+     "disp": "Binance 판단-30",
+     "level": "-",
+     "text": "왜 : 발행 SPV나 보관 증권사에 문제가 생기면 보유자가 받을 수 있는 것은 보관 기초주의 가치까지이고, 그 밖의 발행사 재산으로 보상받을 수 없음",
      "color": "black",
      "fact_ids": [
-      "TP-212"
+      "F-0994"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bn-0146",
-     "disp": "Binance 판단-22",
-     "level": "①",
-     "text": "원문 : \"Binance’s bStocks, for example, can be used as collateral in lending protocols on BNB Chain.\"",
-     "color": "black",
-     "fact_ids": [],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "bn-0147",
-     "disp": "Binance 판단-23",
-     "level": "②",
-     "text": "번역 : 예를 들어 Binance의 bStocks는 BNB Chain의 대출 프로토콜에서 담보로 쓸 수 있다.",
-     "color": "black",
-     "fact_ids": [],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "bn-0148",
-     "disp": "Binance 판단-24",
-     "level": "③",
-     "text": "해석 : 발행사 직접 방식은 이동이 제한된다고 대비해 쓴 대목. 그래서 KDX는 담보 활용과 이전 제한의 균형을 볼 것",
-     "color": "black",
-     "fact_ids": [],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "bn-0149",
-     "disp": "Binance 판단-25",
-     "level": "그림",
-     "images": [
-      {
-       "file": "quotes_TP-212.jpg",
-       "caption": "평가 2 원문"
-      }
-     ]
-    },
-    {
-     "id": "bn-0107",
-     "disp": "Binance 판단-26",
-     "level": "●",
-     "text": "KDX 시사점",
-     "color": "black",
-     "fact_ids": [],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "bn-0173",
-     "disp": "Binance 판단-27",
+     "id": "bn-0313",
+     "disp": "Binance 판단-31",
      "level": "★",
-     "text": "확장 축 : 시장(해외), 자산(가상자산)",
+     "text": "의결권, 기초 발행사 주주권 없음",
      "color": "black",
      "fact_ids": [
-      "F-0064",
-      "F-0678"
+      "F-0048"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bn-0128",
-     "disp": "Binance 판단-28",
+     "id": "bn-0314",
+     "disp": "Binance 판단-32",
+     "level": "-",
+     "text": "왜 : 주주총회에 참여하거나 주주로서 권리를 행사할 수 없어 실제 주식과 같지 않음",
+     "color": "black",
+     "fact_ids": [
+      "F-0048"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0315",
+     "disp": "Binance 판단-33",
      "level": "★",
-     "text": "KDX가 가져올 것 : 경쟁 발행사 토큰 상장 뒤 직접 발행으로 확장",
+     "text": "유동성 분산 : 같은 주식이 Ondo 토큰과 bStocks로 갈림",
      "color": "black",
      "fact_ids": [
       "F-1125",
@@ -2513,35 +3870,393 @@
      "notes": []
     },
     {
-     "id": "bn-0150",
-     "disp": "Binance 판단-29",
-     "level": "★",
-     "text": "KDX가 가져올 것 : 원주 보관 뒤 수익권 유통, 국내는 예탁원 신탁 수익증권 구조로 (기고, 법률 실무)",
+     "id": "bn-0316",
+     "disp": "Binance 판단-34",
+     "level": "-",
+     "text": "왜 : 시장이 둘로 나뉘면 각 시장의 호가가 얇아져 큰 주문이 불리한 가격에 체결될 수 있음(해석)",
      "color": "black",
      "fact_ids": [
-      "F-0049",
+      "F-1125",
+      "F-1126"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0317",
+     "disp": "Binance 판단-35",
+     "level": "★",
+     "text": "장 밖 시간 거래 : 거래량의 62%가 미국 정규장 밖 시간에 일어남",
+     "color": "black",
+     "fact_ids": [
+      "F-0061"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0318",
+     "disp": "Binance 판단-36",
+     "level": "-",
+     "text": "왜 : 기초 주식 시장이 닫힌 시간에는 가격을 참고할 기준이 약해 토큰 가격이 기초주 가격에서 벌어질 수 있음(해석)",
+     "color": "black",
+     "fact_ids": [
+      "F-0061"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0319",
+     "disp": "Binance 판단-37",
+     "level": "★",
+     "text": "허용국 목록 비공개",
+     "color": "black",
+     "fact_ids": [
+      "F-0054"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0320",
+     "disp": "Binance 판단-38",
+     "level": "-",
+     "text": "왜 : 이용자가 자국에서 쓸 수 있는지 사전에 확인하기 어려움",
+     "color": "black",
+     "fact_ids": [
+      "F-0054"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0321",
+     "disp": "Binance 판단-39",
+     "level": "★",
+     "text": "이해충돌 : 약관은 ADGM 계열이 상장 자산을 보유, 헤지, 대출하며 수수료와 스프레드를 받을 수 있다고 밝힘",
+     "color": "black",
+     "fact_ids": [
+      "F-1289"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0322",
+     "disp": "Binance 판단-40",
+     "level": "-",
+     "text": "왜 : 같은 그룹이 거래소 운영자이자 거래 상대방일 수 있어 이용자 이익과 그룹 이익이 어긋날 수 있음",
+     "color": "black",
+     "fact_ids": [
+      "F-1289"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0140",
+     "disp": "Binance 판단-41",
+     "level": "●",
+     "text": "제3자 평가",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0141",
+     "disp": "Binance 판단-42",
+     "level": "★",
+     "text": "평가 1 : 주의. 표는 Binance를 발행사 동의 없는 보관형으로 분류했으나 투자설명서와 다름. CoinDesk Research(Bullish 의뢰, 발행사 직접 방식에 유리하게 씀), The Future of Equity Ownership: An Issuer's Guide to Tokenized Equities, 2026-09-29(표 기준 2026-08), 10쪽 표 https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities",
+     "color": "black",
+     "fact_ids": [
+      "TP-211"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0142",
+     "disp": "Binance 판단-43",
+     "level": "①",
+     "text": "원문 : 표 Binance 열 \"Custodial tokenized equities\", \"No consent\", \"Claim / cert\", \"Binance-held\", \"Partial\", \"Not for US\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0143",
+     "disp": "Binance 판단-44",
+     "level": "②",
+     "text": "번역 : 보관형 토큰 주식, 발행사 동의 없음, 청구권 또는 증서, Binance가 보유, 권리 일부, 미국 불가.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0144",
+     "disp": "Binance 판단-45",
+     "level": "③",
+     "text": "해석 : 표는 Binance를 Dinari와 같은 보관형으로 묶었으나 투자설명서상은 신탁 수익권이고 표 각주는 두 상품 중 좋은 쪽으로 채점했다고 밝힘. 그래서 KDX는 투자설명서 기준 분류를 유지하고 발행사 동의 없는 구조라는 점을 볼 것",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0323",
+     "disp": "Binance 판단-46",
+     "level": "★",
+     "text": "그림 해설 : 위 표 원문은 글자 표여서 캡처가 없음. 표에는 여러 회사가 열로 나오며 Binance 열이 이 회사에 해당",
+     "color": "black",
+     "fact_ids": [
+      "TP-211"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0107",
+     "disp": "Binance 판단-47",
+     "level": "●",
+     "text": "KDX 시사점",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0173",
+     "disp": "Binance 판단-48",
+     "level": "★",
+     "text": "넓힌 방향 : 시장(해외)과 자산(주식 토큰)",
+     "color": "black",
+     "fact_ids": [
+      "F-0064",
+      "F-1126"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0361",
+     "disp": "Binance 판단-49",
+     "level": "-",
+     "text": "시장 : 2022-09 두바이 VARA 라이선스, 2024-09 아르헨티나 등록, 2025-10 한국 고팍스 최대주주, 2025-12 아부다비 ADGM 인가 3종",
+     "color": "black",
+     "fact_ids": [
+      "F-0068",
+      "F-0712",
+      "F-0073",
+      "F-0064"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0362",
+     "disp": "Binance 판단-50",
+     "level": "-",
+     "text": "자산 : 2017 가상자산 거래소, 2021 주식 토큰 첫 시도, 2026-02 Ondo 토큰 상장, 2026-06 실제 주식 7,000종 이상과 bStocks, 2026-10 주식 무기한선물",
+     "color": "black",
+     "fact_ids": [
+      "F-0678",
+      "F-1124",
+      "F-1125",
+      "F-1198",
+      "F-1231"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0324",
+     "disp": "Binance 판단-51",
+     "level": "●",
+     "text": "KDX 관점 자산",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0150",
+     "disp": "Binance 판단-52",
+     "level": "-",
+     "text": "가져올 것 : 실제 주식 거래를 먼저 열고 그 위에 토큰을 얹어 1:1 전환 창구를 둠. 국내는 예탁원 신탁 수익증권 구조로 대응 가능(기고, 법률 실무)",
+     "color": "black",
+     "fact_ids": [
+      "F-1198",
+      "F-0050",
       "TP-435"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bn-0129",
-     "disp": "Binance 판단-30",
-     "level": "★",
-     "text": "KDX가 피할 것 : 발행사 의무가 보관 기초주에 한정되는 구조",
+     "id": "bn-0363",
+     "disp": "Binance 판단-53",
+     "level": "-",
+     "text": "뜻 : 예탁원 신탁 수익증권 = 2025-09-23 시행령 개정으로 한국예탁결제원이 소수 단위 주식을 신탁받아 수익증권을 발행할 수 있게 된 구조, 기고는 이를 비상장주식 간접 토큰화에 쓸 수 있다고 보며 상장주식 적용은 기고 범위 밖",
      "color": "black",
      "fact_ids": [
-      "F-0994"
+      "TP-435"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "bn-0130",
-     "disp": "Binance 판단-31",
+     "id": "bn-0325",
+     "disp": "Binance 판단-54",
+     "level": "-",
+     "text": "가져올 것 : 토큰을 증거금 담보로 연결해 활용처를 늘림",
+     "color": "black",
+     "fact_ids": [
+      "F-0062",
+      "F-1230"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0129",
+     "disp": "Binance 판단-55",
+     "level": "-",
+     "text": "피할 것 : 발행사 의무가 보관 기초주에 한정되고 의결권이 없는 구조(투자자가 주주로 오인할 수 있음)",
+     "color": "black",
+     "fact_ids": [
+      "F-0994",
+      "F-0048"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0326",
+     "disp": "Binance 판단-56",
      "level": "●",
-     "text": "해외 확장 세 질문",
+     "text": "KDX 관점 고객",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0125",
+     "disp": "Binance 판단-57",
+     "level": "-",
+     "text": "가져올 것 : 기존 이용자 기반에 먼저 제공(초기 이용자 58.5%가 선물이나 주식도 거래)",
+     "color": "black",
+     "fact_ids": [
+      "F-0063"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0327",
+     "disp": "Binance 판단-58",
+     "level": "-",
+     "text": "피할 것 : 허용국 목록을 공개하지 않아 이용자가 이용 가능 여부를 모르는 상태",
+     "color": "black",
+     "fact_ids": [
+      "F-0054"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0328",
+     "disp": "Binance 판단-59",
+     "level": "●",
+     "text": "KDX 관점 시장 확장",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0329",
+     "disp": "Binance 판단-60",
+     "level": "-",
+     "text": "가져올 것 : 한 관할(ADGM)에서 거래소, 청산, 중개 인가를 모두 받고 거기서 해외 판매",
+     "color": "black",
+     "fact_ids": [
+      "F-0064",
+      "F-0065",
+      "F-0066"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0330",
+     "disp": "Binance 판단-61",
+     "level": "-",
+     "text": "가져올 것 : 한국 진입은 직접 인가가 아니라 현지 거래소 인수(고팍스)로",
+     "color": "black",
+     "fact_ids": [
+      "F-0073"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0331",
+     "disp": "Binance 판단-62",
+     "level": "-",
+     "text": "피할 것 : 최대 시장인 미국과 미국인을 제외한 채 시작해 시장 범위가 제한되는 구조",
+     "color": "black",
+     "fact_ids": [
+      "F-0054"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0332",
+     "disp": "Binance 판단-63",
+     "level": "●",
+     "text": "KDX 관점 거래 시설 운영",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0333",
+     "disp": "Binance 판단-64",
+     "level": "-",
+     "text": "가져올 것 : 거래소, 청산과 보관, 브로커를 한 그룹 안의 별도 법인으로 나누고 기업행위와 발행 잔량을 주 단위로 공시",
+     "color": "black",
+     "fact_ids": [
+      "F-1244",
+      "F-0700",
+      "F-0703"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0334",
+     "disp": "Binance 판단-65",
+     "level": "-",
+     "text": "피할 것 : 거래소 계열 법인이 상장 자산을 보유, 헤지, 대출하며 수익을 얻는 이해충돌",
+     "color": "black",
+     "fact_ids": [
+      "F-1289"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0335",
+     "disp": "Binance 판단-66",
+     "level": "●",
+     "text": "해외에서 이 사업이 된 조건(제공 가치, 제도, 경제성)",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -2549,9 +4264,9 @@
     },
     {
      "id": "bn-0109",
-     "disp": "Binance 판단-32",
+     "disp": "Binance 판단-67",
      "level": "★",
-     "text": "제공 가치 : 거래소 계정으로 미국 주식 토큰 24시간",
+     "text": "제공 가치 : 거래소 계정으로 미국 주식 토큰을 24시간",
      "color": "black",
      "fact_ids": [
       "F-0051",
@@ -2562,7 +4277,7 @@
     },
     {
      "id": "bn-0131",
-     "disp": "Binance 판단-33",
+     "disp": "Binance 판단-68",
      "level": "★",
      "text": "제도 : ADGM 인가 3종, 승인 투자설명서",
      "color": "black",
@@ -2575,13 +4290,26 @@
     },
     {
      "id": "bn-0132",
-     "disp": "Binance 판단-34",
+     "disp": "Binance 판단-69",
      "level": "★",
      "text": "경제성 : 담보 활용 거래 확대, 누적 거래량 400억 달러",
      "color": "black",
      "fact_ids": [
       "F-0062",
       "F-0058"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0364",
+     "disp": "Binance 판단-70",
+     "level": "-",
+     "text": "풀이 : bStocks 전용 수수료 수익은 공개되지 않고, 담보 활용 확대가 기존 선물 수수료 사업과 이어짐(해석)",
+     "color": "black",
+     "fact_ids": [
+      "F-0062",
+      "F-1289"
      ],
      "confirmed": false,
      "notes": []

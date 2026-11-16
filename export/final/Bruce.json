@@ -11,7 +11,7 @@
      "id": "br-0097",
      "disp": "Bruce 카드-1",
      "level": "●",
-     "text": "한 줄 정체 : 미국 야간 주식 장터, 2025-03 개시한 후발 주자(Nasdaq 기술)",
+     "text": "한 줄 정체 : 미국 거래소 거래가 없는 밤(미국 동부 밤 8시~새벽 4시)에 미국 주식을 거래하는 야간 시장 Bruce ATS. 3사 중 2025-03에 가장 늦게 시작했고 Nasdaq의 거래 기술을 씀",
      "color": "black",
      "fact_ids": [
       "F-0020"
@@ -20,10 +20,20 @@
      "notes": []
     },
     {
-     "id": "br-0098",
+     "id": "br-0117",
      "disp": "Bruce 카드-2",
+     "level": "-",
+     "text": "뜻 : ATS(대체거래시스템) = 거래소로 등록하지 않고 브로커딜러가 운영하는 주문 체결 시장. 이 본문의 \"야간 3사\"는 Blue Ocean, Bruce, MOON 세 ATS",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0098",
+     "disp": "Bruce 카드-3",
      "level": "●",
-     "text": "대표 상품 : Bruce ATS = 미국 주식 야간 시장(밤 8시~새벽 4시, Nasdaq 기술)",
+     "text": "대표 상품 : Bruce ATS = 미국 주식 야간 시장(미국 동부 밤 8시~새벽 4시, Nasdaq 기술)",
      "color": "black",
      "fact_ids": [
       "F-0020",
@@ -34,7 +44,7 @@
     },
     {
      "id": "br-0099",
-     "disp": "Bruce 카드-3",
+     "disp": "Bruce 카드-4",
      "level": "●",
      "text": "꼭 알아야 할 사실",
      "color": "black",
@@ -44,23 +54,25 @@
     },
     {
      "id": "br-0100",
-     "disp": "Bruce 카드-4",
+     "disp": "Bruce 카드-5",
      "level": "★",
-     "text": "상장하지 않음, 모회사 Bruce Markets Holdings",
+     "text": "상장하지 않음. 모회사 Bruce Markets Holdings의 최대주주는 PEAK6(미국 금융 투자회사, Finance Magnates 보도, 단일 출처)",
      "color": "black",
      "fact_ids": [
-      "F-0021"
+      "F-0021",
+      "F-0022"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "br-0101",
-     "disp": "Bruce 카드-5",
+     "disp": "Bruce 카드-6",
      "level": "★",
-     "text": "2025-06 투자 라운드 8곳(Robinhood, Nasdaq Ventures 등, 금액 미공개)",
+     "text": "2025-06 전략 투자 라운드에 Robinhood, Nasdaq Ventures 등 8곳 참여(금액 미공개), 개인 대상 증권사와 앱(Robinhood, Webull 등)을 포함",
      "color": "black",
      "fact_ids": [
+      "F-1397",
       "F-0023",
       "F-0034"
      ],
@@ -69,19 +81,20 @@
     },
     {
      "id": "br-0102",
-     "disp": "Bruce 카드-6",
+     "disp": "Bruce 카드-7",
      "level": "★",
-     "text": "2026-09 주말 포함 연속 거래 계획, SEC 검토 대상",
+     "text": "2026-09 주말까지 이어 거래하는 24시간 연속 거래 계획 발표, SEC 검토 대상이라 출시일 미정",
      "color": "black",
      "fact_ids": [
-      "F-0025"
+      "F-0025",
+      "F-1077"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "br-0103",
-     "disp": "Bruce 카드-7",
+     "disp": "Bruce 카드-8",
      "level": "●",
      "text": "숫자",
      "color": "black",
@@ -90,24 +103,72 @@
      "notes": []
     },
     {
-     "id": "br-0104",
-     "disp": "Bruce 카드-8",
+     "id": "br-0118",
+     "disp": "Bruce 카드-9",
      "level": "★",
-     "text": "점유율 : 야간 3사 중 Q2 12.3%, Q3 15.0%, 최근 3주 29.8%",
+     "text": "점유율 : 야간 3사(Blue Ocean, Bruce, MOON, 미국 야간 ATS 전체가 아니라 이 본문이 다루는 세 곳) 거래대금 합계 대비, FINRA 주간 보고 13주 기준 Q2 12.3%, Q3 15.0%",
      "color": "black",
      "fact_ids": [
       "F-0028",
-      "F-0029",
+      "F-0029"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0166",
+     "disp": "Bruce 카드-10",
+     "level": "-",
+     "text": "뜻 : FINRA 주간 보고 = FINRA가 ATS별 주간 거래대금을 공개하는 통계",
+     "color": "black",
+     "fact_ids": [
+      "F-0029"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0167",
+     "disp": "Bruce 카드-11",
+     "level": "★",
+     "text": "최근 3주(2026-10-12~30) 29.8%. 기간이 분기와 달라 같은 줄에서 비교하지 않음",
+     "color": "black",
+     "fact_ids": [
       "F-0031"
      ],
      "confirmed": false,
      "notes": []
     },
     {
+     "id": "br-0119",
+     "disp": "Bruce 카드-12",
+     "level": "★",
+     "text": "1위와의 차이 : 같은 2026 Q3 기준 Blue Ocean 83.0%와 68.0%p 차이",
+     "color": "black",
+     "fact_ids": [
+      "F-0029",
+      "F-0015"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0168",
+     "disp": "Bruce 카드-13",
+     "level": "★",
+     "text": "Bruce 자사 발표 2026-09 점유율 20.77%(직전 값 14.13%에서 상승, 야간 거래대금 기준, 산정 방식은 자료에 없음)",
+     "color": "black",
+     "fact_ids": [
+      "F-0030"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "br-0105",
-     "disp": "Bruce 카드-9",
+     "disp": "Bruce 카드-14",
      "level": "●",
-     "text": "흐름(미국판) : 미국 투자자 → 증권사 앱(Robinhood 등) → Bruce ATS 체결 → 청산(Apex Clearing)",
+     "text": "흐름(미국판) : 미국 투자자 → 미국 증권사 앱 → Bruce ATS 체결 → 청산(Apex Clearing, 미국 청산 회사)",
      "color": "black",
      "fact_ids": [
       "F-0023",
@@ -118,9 +179,9 @@
     },
     {
      "id": "br-0106",
-     "disp": "Bruce 카드-10",
+     "disp": "Bruce 카드-15",
      "level": "●",
-     "text": "흐름(한국판) : 한국 투자자 → 한국 증권사 앱(시세 연결) → (해외 중개사) → Bruce ATS 지정가 주문",
+     "text": "흐름(한국판) : 한국 투자자 → 한국 증권사 앱(시세 연결) → (미국 브로커) → Bruce ATS 지정가 주문",
      "color": "black",
      "fact_ids": [
       "F-0032",
@@ -141,11 +202,11 @@
      "id": "br-0107",
      "disp": "Bruce 개요-1",
      "level": "●",
-     "text": "쉽게 말하면 : 후발 야간 장터, 주문을 내는 앱과 증권사를 주주로 끌어들임",
+     "text": "쉽게 말하면 : 후발 야간 시장, 증권사와 앱 등을 투자자로 끌어들인 뒤 점유율이 커짐",
      "color": "black",
      "fact_ids": [
       "F-0020",
-      "F-0023"
+      "F-1397"
      ],
      "confirmed": false,
      "notes": []
@@ -154,11 +215,13 @@
      "id": "br-0001",
      "disp": "Bruce 개요-2",
      "level": "●",
-     "text": "주장 : 후발이라도 주문 채널을 주주로 묶으면 점유율을 뺏는다",
+     "text": "주장 : 후발인데도 증권사와 앱 등 8곳을 투자자로 묶은 뒤 점유율이 Q2 12.3%에서 Q3 15.0%, 2026-10 최근 3주 29.8%로 커짐(투자와 점유율 상승의 인과는 해석)",
      "color": "black",
      "fact_ids": [
       "F-0020",
-      "F-0023",
+      "F-1397",
+      "F-0028",
+      "F-0029",
       "F-0031"
      ],
      "confirmed": false,
@@ -190,7 +253,7 @@
      "id": "br-0004",
      "disp": "Bruce 개요-5",
      "level": "★",
-     "text": "2020-11 브로커딜러 등록, FINRA(미국 증권업 자율규제기구) 회원",
+     "text": "2020-11 브로커딜러 등록, FINRA 회원",
      "color": "black",
      "fact_ids": [
       "F-0248"
@@ -199,8 +262,28 @@
      "notes": []
     },
     {
-     "id": "br-0005",
+     "id": "br-0120",
      "disp": "Bruce 개요-6",
+     "level": "-",
+     "text": "뜻 : 브로커딜러 = 미국 SEC에 등록해 증권을 중개, 매매하는 증권사",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0121",
+     "disp": "Bruce 개요-7",
+     "level": "-",
+     "text": "뜻 : FINRA = 미국 브로커딜러를 감독하는 민간 자율규제기구",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0005",
+     "disp": "Bruce 개요-8",
      "level": "★",
      "text": "2025-03 야간 ATS 개시",
      "color": "black",
@@ -212,7 +295,7 @@
     },
     {
      "id": "br-0006",
-     "disp": "Bruce 개요-7",
+     "disp": "Bruce 개요-9",
      "level": "●",
      "text": "모회사",
      "color": "black",
@@ -222,9 +305,9 @@
     },
     {
      "id": "br-0007",
-     "disp": "Bruce 개요-8",
+     "disp": "Bruce 개요-10",
      "level": "★",
-     "text": "Bruce Markets Holdings가 운영사 지분 보유",
+     "text": "Bruce Markets Holdings가 운영사 Bruce Markets LLC 지분 보유",
      "color": "black",
      "fact_ids": [
       "F-0021",
@@ -235,19 +318,20 @@
     },
     {
      "id": "br-0008",
-     "disp": "Bruce 개요-9",
+     "disp": "Bruce 개요-11",
      "level": "★",
-     "text": "등록부 기타 상호 : PEAK6 Trading, All Time ATS",
+     "text": "등록부 기타 상호 : PEAK6 Trading, All Time ATS(최대주주 PEAK6와 같은 이름이 포함됨)",
      "color": "black",
      "fact_ids": [
-      "F-0248"
+      "F-0248",
+      "F-0022"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "br-0009",
-     "disp": "Bruce 개요-10",
+     "disp": "Bruce 개요-12",
      "level": "●",
      "text": "취급 자산",
      "color": "black",
@@ -257,9 +341,9 @@
     },
     {
      "id": "br-0010",
-     "disp": "Bruce 개요-11",
+     "disp": "Bruce 개요-13",
      "level": "★",
-     "text": "미국 NMS(전국시장체계) 상장 주식",
+     "text": "미국 NMS 상장 주식",
      "color": "black",
      "fact_ids": [
       "F-0020"
@@ -268,8 +352,18 @@
      "notes": []
     },
     {
+     "id": "br-0122",
+     "disp": "Bruce 개요-14",
+     "level": "-",
+     "text": "뜻 : NMS(전국시장체계) = 미국 증권거래소에 상장된 주식을 하나의 시장처럼 묶는 SEC 규칙 체계",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "br-0011",
-     "disp": "Bruce 개요-12",
+     "disp": "Bruce 개요-15",
      "level": "●",
      "text": "대상 고객",
      "color": "black",
@@ -279,7 +373,7 @@
     },
     {
      "id": "br-0012",
-     "disp": "Bruce 개요-13",
+     "disp": "Bruce 개요-16",
      "level": "★",
      "text": "미국 브로커딜러와 해외 브로커",
      "color": "black",
@@ -291,7 +385,7 @@
     },
     {
      "id": "br-0013",
-     "disp": "Bruce 개요-14",
+     "disp": "Bruce 개요-17",
      "level": "●",
      "text": "거래시간",
      "color": "black",
@@ -301,7 +395,7 @@
     },
     {
      "id": "br-0014",
-     "disp": "Bruce 개요-15",
+     "disp": "Bruce 개요-18",
      "level": "★",
      "text": "일~목 밤 8시~새벽 4시(미국 동부)",
      "color": "black",
@@ -313,7 +407,7 @@
     },
     {
      "id": "br-0015",
-     "disp": "Bruce 개요-16",
+     "disp": "Bruce 개요-19",
      "level": "●",
      "text": "호가 방식",
      "color": "black",
@@ -323,9 +417,9 @@
     },
     {
      "id": "br-0016",
-     "disp": "Bruce 개요-17",
+     "disp": "Bruce 개요-20",
      "level": "★",
-     "text": "Nasdaq(미국 거래소 운영사) 거래 기술로 체결",
+     "text": "Nasdaq(미국 거래소 운영사)의 거래 기술로 체결",
      "color": "black",
      "fact_ids": [
       "F-0020"
@@ -335,7 +429,7 @@
     },
     {
      "id": "br-0017",
-     "disp": "Bruce 개요-18",
+     "disp": "Bruce 개요-21",
      "level": "★",
      "text": "브로커는 표준 FIX(주문 전송 규격)로 접속",
      "color": "black",
@@ -347,7 +441,7 @@
     },
     {
      "id": "br-0018",
-     "disp": "Bruce 개요-19",
+     "disp": "Bruce 개요-22",
      "level": "●",
      "text": "거래 규모",
      "color": "black",
@@ -357,9 +451,9 @@
     },
     {
      "id": "br-0019",
-     "disp": "Bruce 개요-20",
+     "disp": "Bruce 개요-23",
      "level": "★",
-     "text": "기준 : FINRA 주간 보고 거래대금 13주 합산, 야간 3사 대비",
+     "text": "기준 : FINRA 주간 보고 거래대금 13주 합산, 야간 3사 합계 대비",
      "color": "black",
      "fact_ids": [
       "F-0029"
@@ -369,7 +463,7 @@
     },
     {
      "id": "br-0020",
-     "disp": "Bruce 개요-21",
+     "disp": "Bruce 개요-24",
      "level": "★",
      "text": "2026 Q3 439.7억 달러, 3사 중 15.0%(Q2 12.3%)",
      "color": "black",
@@ -382,7 +476,7 @@
     },
     {
      "id": "br-0021",
-     "disp": "Bruce 개요-22",
+     "disp": "Bruce 개요-25",
      "level": "★",
      "text": "같은 Q3 Blue Ocean(선발 야간 ATS) 83.0%, MOON(야간 ATS) 2.0%",
      "color": "black",
@@ -395,7 +489,7 @@
     },
     {
      "id": "br-0023",
-     "disp": "Bruce 개요-23",
+     "disp": "Bruce 개요-26",
      "level": "●",
      "text": "차별화 요소",
      "color": "black",
@@ -405,11 +499,12 @@
     },
     {
      "id": "br-0024",
-     "disp": "Bruce 개요-24",
+     "disp": "Bruce 개요-27",
      "level": "★",
-     "text": "2025-06 투자사에 Robinhood(미국 주식 앱), Webull(투자 앱) 등 주문 채널",
+     "text": "2025-06 투자사에 Robinhood(미국 주식 앱), Webull(투자 앱) 등 개인 대상 증권사 포함(아래 주주 구성)",
      "color": "black",
      "fact_ids": [
+      "F-1397",
       "F-0023"
      ],
      "confirmed": false,
@@ -417,7 +512,7 @@
     },
     {
      "id": "br-0025",
-     "disp": "Bruce 개요-25",
+     "disp": "Bruce 개요-28",
      "level": "★",
      "text": "2026-09 주말 포함 연속 거래 계획, SEC 검토 대상",
      "color": "black",
@@ -429,7 +524,7 @@
     },
     {
      "id": "br-0026",
-     "disp": "Bruce 개요-26",
+     "disp": "Bruce 개요-29",
      "level": "●",
      "text": "토큰증권 취급 현황",
      "color": "black",
@@ -439,7 +534,7 @@
     },
     {
      "id": "br-0027",
-     "disp": "Bruce 개요-27",
+     "disp": "Bruce 개요-30",
      "level": "★",
      "text": "주말 거래도 기존 주식 청산 구조, Apex Clearing(미국 청산 회사)",
      "color": "black",
@@ -451,7 +546,7 @@
     },
     {
      "id": "br-0028",
-     "disp": "Bruce 개요-28",
+     "disp": "Bruce 개요-31",
      "level": "●",
      "text": "화면",
      "color": "black",
@@ -461,7 +556,7 @@
     },
     {
      "id": "br-0029",
-     "disp": "Bruce 개요-29",
+     "disp": "Bruce 개요-32",
      "level": "그림",
      "images": [
       {
@@ -473,6 +568,403 @@
        "caption": "회사 소개"
       }
      ]
+    }
+   ]
+  },
+  {
+   "code": "거래",
+   "title": "거래 시설 운영",
+   "lines": [
+    {
+     "id": "br-0123",
+     "disp": "Bruce 거래-1",
+     "level": "●",
+     "text": "쉽게 말하면 : 체결 기술과 시세 전송은 Nasdaq 시설을 빌려 쓰고, 증권사와 앱 등 8곳이 투자자로 참여하며, 한국 증권사가 복수 ATS를 요구받은 덕에 백업 시장 자리를 얻음",
+     "color": "black",
+     "fact_ids": [
+      "F-1302",
+      "F-0023",
+      "F-0035"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0124",
+     "disp": "Bruce 거래-2",
+     "level": "●",
+     "text": "주장 : 직접 시스템을 만들지 않고 Nasdaq의 기술과 시세 배포망을 빌려 빠르게 열었고, 그 대신 기술 공급자가 경쟁자이기도 한 의존 구조를 가짐",
+     "color": "black",
+     "fact_ids": [
+      "F-0020",
+      "F-1302",
+      "F-0023",
+      "F-1171"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0187",
+     "disp": "Bruce 거래-3",
+     "level": "●",
+     "text": "요금(Form ATS-N, 2026-01-30 제출본)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0188",
+     "disp": "Bruce 거래-4",
+     "level": "★",
+     "text": "1달러 이상 종목은 기존 호가를 가져가는 체결에 주당 0~0.002달러, 1달러 미만 종목은 거래대금의 최대 0.3%. 초기 참여사와 대량 거래사는 할인",
+     "color": "black",
+     "fact_ids": [
+      "F-1396"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0189",
+     "disp": "Bruce 거래-5",
+     "level": "-",
+     "text": "뜻 : Form ATS-N = NMS 주식을 거래하는 ATS가 SEC에 내는 운영 신고서. 요금과 참가 조건이 여기에 공시됨",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0190",
+     "disp": "Bruce 거래-6",
+     "level": "-",
+     "text": "비교 : 같은 기준(1달러 이상 종목, 가져가는 체결)에서 Blue Ocean도 주당 0~0.002달러(Form ATS-N), MOON은 주당 0.0016달러(2026-11-01 시행 요금표). 세 곳 모두 매출은 따로 공개하지 않음",
+     "color": "black",
+     "fact_ids": [
+      "F-1394",
+      "F-1398"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0125",
+     "disp": "Bruce 거래-7",
+     "level": "●",
+     "text": "시세 제공(수익원 중 확인된 부분)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0126",
+     "disp": "Bruce 거래-8",
+     "level": "★",
+     "text": "2025-04-15 Nasdaq 배포 연결을 통해 브로커와 트레이더가 Bruce ATS 시세(Last Sale 최근 체결가, Best Bid and Offer 최우선 호가, Depth of Book 호가 잔량)에 접근",
+     "color": "black",
+     "fact_ids": [
+      "F-1302"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0127",
+     "disp": "Bruce 거래-9",
+     "level": "●",
+     "text": "참가자 유형",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0128",
+     "disp": "Bruce 거래-10",
+     "level": "★",
+     "text": "접속 대상 : 미국 브로커딜러와 해외 브로커(표준 FIX 접속)",
+     "color": "black",
+     "fact_ids": [
+      "F-0020"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0129",
+     "disp": "Bruce 거래-11",
+     "level": "★",
+     "text": "한국 증권사 : 메리츠증권(2026-09), 토스증권(2026-10)은 시세 피드(가격 정보 전송)에만 연결, 주문 연결은 아님",
+     "color": "black",
+     "fact_ids": [
+      "F-0032",
+      "F-0033"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0130",
+     "disp": "Bruce 거래-12",
+     "level": "●",
+     "text": "주주 구성과 지분",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0131",
+     "disp": "Bruce 거래-13",
+     "level": "★",
+     "text": "모회사 Bruce Markets Holdings(비상장)",
+     "color": "black",
+     "fact_ids": [
+      "F-0021"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0132",
+     "disp": "Bruce 거래-14",
+     "level": "★",
+     "text": "2025-06 투자 라운드 참여 8곳 : Apex Fintech, Fidelity, Nasdaq Ventures, NH투자증권, PEAK6, Robinhood, tastytrade, Webull(금액, 지분율 미공개)",
+     "color": "black",
+     "fact_ids": [
+      "F-1397",
+      "F-0023",
+      "F-0034"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0191",
+     "disp": "Bruce 거래-15",
+     "level": "-",
+     "text": "회사 성격 : 개인 고객 계좌를 두는 증권사와 앱은 Fidelity, NH투자증권, Robinhood, Webull, tastytrade 5곳. Apex Fintech는 청산 회사 계열(Bruce 주말 거래의 청산과 보관은 Apex Clearing), Nasdaq Ventures는 Nasdaq의 투자 부문, PEAK6는 Bruce의 최대주주인 금융 투자회사",
+     "color": "black",
+     "fact_ids": [
+      "F-1397",
+      "F-0025",
+      "F-0022"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0192",
+     "disp": "Bruce 거래-16",
+     "level": "-",
+     "text": "주문 연결 : 8곳 중 어느 곳이 실제로 Bruce에 주문을 보내는지는 자료에서 확인하지 못해 모두 투자 참여사로만 씀",
+     "color": "black",
+     "fact_ids": [
+      "F-1397",
+      "F-0023"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0133",
+     "disp": "Bruce 거래-17",
+     "level": "-",
+     "text": "뜻 : Nasdaq Ventures = 미국 거래소 운영사 Nasdaq의 투자 부문. Nasdaq는 Bruce의 기술 공급자이자 투자자이면서 야간 거래소 경쟁자",
+     "color": "black",
+     "fact_ids": [
+      "F-0034",
+      "F-1171",
+      "F-0020"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0134",
+     "disp": "Bruce 거래-18",
+     "level": "●",
+     "text": "장애 대응 체계",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0135",
+     "disp": "Bruce 거래-19",
+     "level": "★",
+     "text": "한국 재개 조건(금융감독원이 금융투자협회와 2025-09-24 발표, 매체 3곳 일치) : 2곳 이상 미국 브로커와 ATS에 주문 회선 연결",
+     "color": "black",
+     "fact_ids": [
+      "F-1299"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0136",
+     "disp": "Bruce 거래-20",
+     "level": "★",
+     "text": "한국 재개 조건 : 위험 고지 강화, 사고 시 보상체계, 장애 대응 매뉴얼, 현지 ATS와 비상연락망",
+     "color": "black",
+     "fact_ids": [
+      "F-1301"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0137",
+     "disp": "Bruce 거래-21",
+     "level": "★",
+     "text": "해석 : 이 조건이 한국 증권사가 Blue Ocean 외에 Bruce와 MOON을 백업으로 계약한 배경",
+     "color": "black",
+     "fact_ids": [
+      "F-1299",
+      "F-0035"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0138",
+     "disp": "Bruce 거래-22",
+     "level": "●",
+     "text": "정규 거래소 야간 진입 일정(미국 정규 거래소가 밤 시간대 거래를 열려는 계획)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0139",
+     "disp": "Bruce 거래-23",
+     "level": "-",
+     "text": "뜻 : SIP(통합시세 처리 시스템) = 여러 거래소의 호가와 체결가를 하나로 모아 전 시장에 내보내는 시스템. 거래소 야간 세션은 SIP가 야간에도 운영될 수 있을 때 시작하는 조건이 붙음",
+     "color": "black",
+     "fact_ids": [
+      "F-1172"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0171",
+     "disp": "Bruce 거래-24",
+     "level": "-",
+     "text": "뜻 : 신속 승인 = SEC가 통상 절차보다 앞당겨 내린 승인. 제출 즉시 효력 = 승인 명령 없이 규칙을 제출하는 것만으로 효력이 생기는 방식. 조건부 면제 = SEC가 정해진 조건 아래에서만 규정 적용을 면제해 준 것. 거래소 야간 세션 = 정규 거래소가 같은 시간대에 여는 야간 거래 시간",
+     "color": "black",
+     "fact_ids": [
+      "F-1171",
+      "F-1174",
+      "F-1165"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0140",
+     "disp": "Bruce 거래-25",
+     "level": "★",
+     "text": "SIP : 2026-12-06부터 연장 시간표 적용, 야간 시작 조건의 기준일",
+     "color": "black",
+     "fact_ids": [
+      "F-1166",
+      "F-1168"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0141",
+     "disp": "Bruce 거래-26",
+     "level": "★",
+     "text": "Nasdaq : 2026-04-10 SEC 신속 승인, 주 5일 23시간 거래, 야간 세션은 SIP 가용 시 시작",
+     "color": "black",
+     "fact_ids": [
+      "F-1171",
+      "F-1172"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0142",
+     "disp": "Bruce 거래-27",
+     "level": "★",
+     "text": "Cboe EDGX : 2026-05-29 SEC 신속 승인, SIP 준비 조건 충족 전에는 야간 세션 시작 안 함",
+     "color": "black",
+     "fact_ids": [
+      "F-1303"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0143",
+     "disp": "Bruce 거래-28",
+     "level": "★",
+     "text": "NYSE Arca : 2026-05 야간 세션 추가 규칙 제출, 승인 명령이 아니라 제출 즉시 효력",
+     "color": "black",
+     "fact_ids": [
+      "F-1174"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0144",
+     "disp": "Bruce 거래-29",
+     "level": "★",
+     "text": "MEMX : 승인이 아니라 2026-08-28 규칙 제출, 즉시 효력(관보 2026-09-14), 야간 세션 시작 조건은 EDGX와 같음",
+     "color": "black",
+     "fact_ids": [
+      "F-1304"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0145",
+     "disp": "Bruce 거래-30",
+     "level": "★",
+     "text": "24X : 야간 거래는 조건부 면제로 2027-01-24부터, SIP가 2026-12-06까지 준비되지 못할 때만 허용",
+     "color": "black",
+     "fact_ids": [
+      "F-1165"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0146",
+     "disp": "Bruce 거래-31",
+     "level": "★",
+     "text": "규모 : MEMX가 SEC 문서에 인용한 자료로 2026-04 야간 거래는 전년 같은 달 대비 305% 증가, 전체 일 거래량의 1% 미만",
+     "color": "black",
+     "fact_ids": [
+      "F-1305"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0147",
+     "disp": "Bruce 거래-32",
+     "level": "★",
+     "text": "해석 : Bruce는 Nasdaq에 기술과 시세 배포를 기대는데, Nasdaq가 자체 야간 거래소도 열 예정이라 협력과 경쟁이 겹침",
+     "color": "black",
+     "fact_ids": [
+      "F-1302",
+      "F-0034",
+      "F-1171"
+     ],
+     "confirmed": false,
+     "notes": []
     }
    ]
   },
@@ -498,7 +990,7 @@
      "id": "br-0030",
      "disp": "Bruce 발언-2",
      "level": "●",
-     "text": "주장 : 개인투자자의 24시간 수요를 보고 주말과 한국으로 확장",
+     "text": "주장 : 개인투자자의 24시간 수요를 보고 증권사와 앱의 투자 유치, 한국 시세 연결, 주말 거래 순으로 넓히겠다고 말하며 앞의 둘은 이룸",
      "color": "black",
      "fact_ids": [
       "F-0023",
@@ -509,8 +1001,69 @@
      "notes": []
     },
     {
-     "id": "br-0031",
+     "id": "br-0172",
      "disp": "Bruce 발언-3",
+     "level": "●",
+     "text": "말하고 이룬 것(시점 순)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0173",
+     "disp": "Bruce 발언-4",
+     "level": "★",
+     "text": "2025-06-27 Wallach(CEO) : 개인투자자가 24시간 시장을 이끈다 → 같은 날 Robinhood, Webull 등 8곳이 참여하는 투자 라운드 발표(단일 출처 포함)",
+     "color": "black",
+     "fact_ids": [
+      "F-0023",
+      "F-1079",
+      "F-1397"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0174",
+     "disp": "Bruce 발언-5",
+     "level": "★",
+     "text": "2026-10-01 Wallach : 한국 투자자는 야간 시장의 핵심 세력이라 시세 피드부터 연결 → 2026-09 메리츠증권, 2026-10 토스증권 연결",
+     "color": "black",
+     "fact_ids": [
+      "F-0033",
+      "F-0032",
+      "F-1078"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0175",
+     "disp": "Bruce 발언-6",
+     "level": "●",
+     "text": "말하고 진행 중인 것",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0176",
+     "disp": "Bruce 발언-7",
+     "level": "★",
+     "text": "2026-09-30 Wallach : 뉴스는 월요일 개장을 기다리지 않는다 → 주말 포함 24/7 거래를 Nasdaq 기술로 추진, SEC 검토 중이며 출시일 미정, 토큰화 언급은 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-0025",
+      "F-1077"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0031",
+     "disp": "Bruce 발언-8",
      "level": "●",
      "text": "발언 1 : 개인투자자가 24시간 시장을 이끈다",
      "color": "black",
@@ -522,7 +1075,7 @@
     },
     {
      "id": "br-0032",
-     "disp": "Bruce 발언-4",
+     "disp": "Bruce 발언-9",
      "level": "★",
      "text": "Jason Wallach(CEO), 전략 투자 유치 발표, 2025-06-27 https://www.marketsmedia.com/overnight-trading-platform-bruce-ats-raises-funds",
      "color": "black",
@@ -534,7 +1087,7 @@
     },
     {
      "id": "br-0033",
-     "disp": "Bruce 발언-5",
+     "disp": "Bruce 발언-10",
      "level": "①",
      "text": "원문 : \"This esteemed group of strategic investors reflects a shared belief in the future of financial markets as a fully accessible, 24-hour trading ecosystem, and represents another significant step forward for retail investors who are, for the first time, playing an influential role in the evolution of our market structure.\"",
      "color": "black",
@@ -544,7 +1097,7 @@
     },
     {
      "id": "br-0034",
-     "disp": "Bruce 발언-6",
+     "disp": "Bruce 발언-11",
      "level": "②",
      "text": "번역 : 이 전략 투자자들은 금융시장의 미래가 누구나 접근하는 24시간 거래 생태계라는 믿음을 공유하며, 처음으로 시장구조 변화에 영향력을 갖게 된 개인투자자에게도 중요한 진전이다.",
      "color": "black",
@@ -554,9 +1107,9 @@
     },
     {
      "id": "br-0035",
-     "disp": "Bruce 발언-7",
+     "disp": "Bruce 발언-12",
      "level": "③",
-     "text": "해석 : 큰 곳은 개인투자자의 24시간 거래. 그래서 개인 대상 증권사와 앱을 주주로 묶음",
+     "text": "해석 : 방향은 개인투자자의 24시간 거래, 실행은 개인 대상 증권사와 앱을 주주로 묶음",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -564,7 +1117,7 @@
     },
     {
      "id": "br-0036",
-     "disp": "Bruce 발언-8",
+     "disp": "Bruce 발언-13",
      "level": "그림",
      "images": [
       {
@@ -575,7 +1128,7 @@
     },
     {
      "id": "br-0037",
-     "disp": "Bruce 발언-9",
+     "disp": "Bruce 발언-14",
      "level": "●",
      "text": "발언 2 : 뉴스는 월요일 개장을 기다리지 않는다",
      "color": "black",
@@ -587,7 +1140,7 @@
     },
     {
      "id": "br-0038",
-     "disp": "Bruce 발언-10",
+     "disp": "Bruce 발언-15",
      "level": "★",
      "text": "Jason Wallach(CEO), 주말 거래 계획 발표, 2026-09-30 https://www.financemagnates.com/institutional-forex/bruce-markets-plans-weekend-trading-to-bring-us-equities-closer-to-247-access/",
      "color": "black",
@@ -599,7 +1152,7 @@
     },
     {
      "id": "br-0039",
-     "disp": "Bruce 발언-11",
+     "disp": "Bruce 발언-16",
      "level": "①",
      "text": "원문 : \"Market-moving news does not wait for Monday's open, and soon, neither will investors. Together with our partners, we are breaking down the limitations of traditional market structure and redefining how the world trades.\"",
      "color": "black",
@@ -609,7 +1162,7 @@
     },
     {
      "id": "br-0040",
-     "disp": "Bruce 발언-12",
+     "disp": "Bruce 발언-17",
      "level": "②",
      "text": "번역 : 시장을 움직이는 뉴스는 월요일 개장을 기다리지 않고, 곧 투자자도 기다리지 않을 것이다. 파트너와 함께 전통 시장구조의 한계를 허물고 세계의 거래 방식을 다시 정의한다.",
      "color": "black",
@@ -619,9 +1172,9 @@
     },
     {
      "id": "br-0041",
-     "disp": "Bruce 발언-13",
+     "disp": "Bruce 발언-18",
      "level": "③",
-     "text": "해석 : 큰 곳은 주말 뉴스에 반응하는 수요. 그래서 Nasdaq 기술로 주말 연속 거래 추진",
+     "text": "해석 : 방향은 주말 뉴스에 반응하는 수요, 실행은 Nasdaq 기술로 주말 연속 거래 추진",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -629,7 +1182,7 @@
     },
     {
      "id": "br-0042",
-     "disp": "Bruce 발언-14",
+     "disp": "Bruce 발언-19",
      "level": "그림",
      "images": [
       {
@@ -640,7 +1193,7 @@
     },
     {
      "id": "br-0043",
-     "disp": "Bruce 발언-15",
+     "disp": "Bruce 발언-20",
      "level": "●",
      "text": "발언 3 : 한국 투자자는 야간 시장의 핵심 세력",
      "color": "black",
@@ -652,7 +1205,7 @@
     },
     {
      "id": "br-0077",
-     "disp": "Bruce 발언-16",
+     "disp": "Bruce 발언-21",
      "level": "★",
      "text": "Jason Wallach(CEO), 토스증권 시세 연결 발표, 2026-10-01 https://www.prnewswire.com/apac/news-releases/leading-korean-brokerage-connects-to-bruce-markets-us-equities-data-feed-reducing-risks-of-blind-trading-302894812.html",
      "color": "black",
@@ -664,7 +1217,7 @@
     },
     {
      "id": "br-0045",
-     "disp": "Bruce 발언-17",
+     "disp": "Bruce 발언-22",
      "level": "①",
      "text": "원문 : \"Korean investors are a critical force in the U.S. overnight market. They shouldn't face needless data blackouts from a single ATS outage, especially when other venues have available liquidity.\"",
      "color": "black",
@@ -674,7 +1227,7 @@
     },
     {
      "id": "br-0046",
-     "disp": "Bruce 발언-18",
+     "disp": "Bruce 발언-23",
      "level": "②",
      "text": "번역 : 한국 투자자는 미국 야간 시장의 핵심 세력이다. 다른 시장에 유동성이 있는데도 한 ATS의 장애로 시세가 끊겨서는 안 된다.",
      "color": "black",
@@ -684,9 +1237,9 @@
     },
     {
      "id": "br-0047",
-     "disp": "Bruce 발언-19",
+     "disp": "Bruce 발언-24",
      "level": "③",
-     "text": "해석 : 큰 곳은 한국 투자자의 야간 주문. 그래서 한국 증권사에 시세 피드부터 연결",
+     "text": "해석 : 방향은 한국 투자자의 야간 주문, 실행은 한국 증권사에 시세 피드부터 연결",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -694,7 +1247,7 @@
     },
     {
      "id": "br-0048",
-     "disp": "Bruce 발언-20",
+     "disp": "Bruce 발언-25",
      "level": "그림",
      "images": [
       {
@@ -772,8 +1325,20 @@
      "notes": []
     },
     {
-     "id": "br-0053",
+     "id": "br-0177",
      "disp": "Bruce 연결-6",
+     "level": "-",
+     "text": "뜻 : 백업 ATS = 주 시장(Blue Ocean)이 멈출 때 주문을 돌리도록 미리 계약해 둔 예비 시장",
+     "color": "black",
+     "fact_ids": [
+      "F-0035"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0053",
+     "disp": "Bruce 연결-7",
      "level": "★",
      "text": "2026-09 메리츠증권(한국 증권사)에 시세 피드 연결, 주문 연결 아님",
      "color": "black",
@@ -785,7 +1350,7 @@
     },
     {
      "id": "br-0054",
-     "disp": "Bruce 연결-7",
+     "disp": "Bruce 연결-8",
      "level": "★",
      "text": "2026-10 토스증권(토스 앱 증권 서비스)에 시세 피드 연결",
      "color": "black",
@@ -797,7 +1362,7 @@
     },
     {
      "id": "br-0079",
-     "disp": "Bruce 연결-8",
+     "disp": "Bruce 연결-9",
      "level": "●",
      "text": "2026-09 종목 중단과 한 줄기",
      "color": "black",
@@ -807,7 +1372,7 @@
     },
     {
      "id": "br-0080",
-     "disp": "Bruce 연결-9",
+     "disp": "Bruce 연결-10",
      "level": "★",
      "text": "09-01 Blue Ocean 18종목 중단, 한국 주문이 Bruce로",
      "color": "black",
@@ -820,9 +1385,9 @@
     },
     {
      "id": "br-0081",
-     "disp": "Bruce 연결-10",
+     "disp": "Bruce 연결-11",
      "level": "★",
-     "text": "한국 앱엔 시세가 없어 지정가만, 그래서 메리츠, 토스가 시세 연결",
+     "text": "한국 앱엔 이 시장의 시세(호가)가 없어 가격을 직접 정하는 지정가 주문만 가능했고, 이후 메리츠, 토스가 시세를 연결(시점 순서이며 인과는 해석)",
      "color": "black",
      "fact_ids": [
       "F-1101",
@@ -834,9 +1399,9 @@
     },
     {
      "id": "br-0082",
-     "disp": "Bruce 연결-11",
+     "disp": "Bruce 연결-12",
      "level": "★",
-     "text": "10월 최근 3주 점유율 29.8%(Q3 15.0%)",
+     "text": "10월 최근 3주(10-12~30) 점유율 29.8%(Q3 15.0%)",
      "color": "black",
      "fact_ids": [
       "F-0031",
@@ -855,7 +1420,7 @@
      "id": "br-0110",
      "disp": "Bruce 차이-1",
      "level": "●",
-     "text": "쉽게 말하면 : 미국은 등록과 신고로 후발 야간 장터가 생기지만 한국은 인가가 필요함",
+     "text": "쉽게 말하면 : 미국은 증권사 등록과 신고만으로 후발 야간 시장이 생길 수 있으나 한국은 정부 인가가 필요함",
      "color": "black",
      "fact_ids": [
       "F-0248",
@@ -868,10 +1433,12 @@
      "id": "br-0055",
      "disp": "Bruce 차이-2",
      "level": "●",
-     "text": "주장 : 미국은 등록과 신고로 후발 ATS가 생기고, 한국은 인가가 필요",
+     "text": "주장 : Bruce는 2020-11 등록한 증권사가 2025-03 Form ATS-N 신고를 거쳐 야간 시장을 연 사례이고, 한국 ATS는 금융위원회 인가가 필요해 같은 방식으로는 열 수 없음",
      "color": "black",
      "fact_ids": [
       "F-0248",
+      "F-0020",
+      "US-17CFR-242.304",
       "F-1092"
      ],
      "confirmed": false,
@@ -902,8 +1469,18 @@
      "notes": []
     },
     {
-     "id": "br-0058",
+     "id": "br-0148",
      "disp": "Bruce 차이-5",
+     "level": "-",
+     "text": "뜻 : Reg ATS = 미국 SEC의 ATS 규정, 브로커딜러가 요건을 지키면 거래소 등록 없이 시장을 운영하게 함",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0058",
+     "disp": "Bruce 차이-6",
      "level": "★",
      "text": "가능했던 이유 : NMS 주식 ATS는 Form ATS-N 효력으로 운영",
      "color": "black",
@@ -914,8 +1491,18 @@
      "notes": []
     },
     {
+     "id": "br-0149",
+     "disp": "Bruce 차이-7",
+     "level": "-",
+     "text": "뜻 : Form ATS-N = NMS 주식을 거래하는 ATS가 SEC에 내는 운영 신고서, 효력이 생겨야 운영 가능",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "br-0083",
-     "disp": "Bruce 차이-6",
+     "disp": "Bruce 차이-8",
      "level": "★",
      "text": "한국 차이 : 한국 ATS는 금융위 인가, 직접 참가자는 증권사",
      "color": "black",
@@ -929,7 +1516,7 @@
     },
     {
      "id": "br-0060",
-     "disp": "Bruce 차이-7",
+     "disp": "Bruce 차이-9",
      "level": "★",
      "text": "한국 차이 : 개인의 해외 주식 주문은 해외 중개업자 경유",
      "color": "black",
@@ -941,7 +1528,7 @@
     },
     {
      "id": "br-0061",
-     "disp": "Bruce 차이-8",
+     "disp": "Bruce 차이-10",
      "level": "●",
      "text": "고객 수요",
      "color": "black",
@@ -951,7 +1538,7 @@
     },
     {
      "id": "br-0062",
-     "disp": "Bruce 차이-9",
+     "disp": "Bruce 차이-11",
      "level": "★",
      "text": "가능했던 이유 : 미국 개인 대상 증권사, 앱의 24시간 주문",
      "color": "black",
@@ -963,7 +1550,7 @@
     },
     {
      "id": "br-0084",
-     "disp": "Bruce 차이-10",
+     "disp": "Bruce 차이-12",
      "level": "●",
      "text": "규제 건의 포인트 : 국내 앱이 연결한 해외 ATS 시세를 함께 보이는 기준",
      "color": "black",
@@ -984,10 +1571,10 @@
      "id": "br-0111",
      "disp": "Bruce 판단-1",
      "level": "●",
-     "text": "쉽게 말하면 : 주주 채널 덕에 점유율이 빠르게 늘었고 거래소 야간 거래가 변수임",
+     "text": "쉽게 말하면 : 증권사와 앱이 투자에 참여한 뒤 점유율이 빠르게 늘었고(인과는 해석), 거래소 야간 거래가 변수임",
      "color": "black",
      "fact_ids": [
-      "F-0023",
+      "F-1397",
       "F-0031",
       "F-1171"
      ],
@@ -998,10 +1585,10 @@
      "id": "br-0085",
      "disp": "Bruce 판단-2",
      "level": "●",
-     "text": "주장 : 선발 시장이 멈출 때마다 주주 채널을 가진 후발이 주문을 가져감",
+     "text": "주장 : 선발 시장이 멈출 때마다 증권사와 앱을 투자자로 둔 후발이 주문을 가져감",
      "color": "black",
      "fact_ids": [
-      "F-0023",
+      "F-1397",
       "F-1099",
       "F-0031"
      ],
@@ -1022,7 +1609,7 @@
      "id": "br-0087",
      "disp": "Bruce 판단-4",
      "level": "★",
-     "text": "점유율 Q2 12.3%, Q3 15.0%, 10월 최근 3주 29.8%",
+     "text": "거래대금 점유율 : 야간 3사 합계 대비 Q2 12.3%, Q3 15.0%, 2026-10 최근 3주 29.8%",
      "color": "black",
      "fact_ids": [
       "F-0028",
@@ -1036,10 +1623,11 @@
      "id": "br-0088",
      "disp": "Bruce 판단-5",
      "level": "★",
-     "text": "2026 Q2 체결대금 490.3억 달러(회사 발표)",
+     "text": "2026 Q2 체결대금 490.3억 달러(회사 발표). FINRA 주간 보고 기반 Q3 439.7억 달러와는 집계 기준이 달라 이어 붙여 증감으로 읽지 않음",
      "color": "black",
      "fact_ids": [
-      "F-1106"
+      "F-1106",
+      "F-0029"
      ],
      "confirmed": false,
      "notes": []
@@ -1055,25 +1643,79 @@
      "notes": []
     },
     {
-     "id": "br-0089",
+     "id": "br-0150",
      "disp": "Bruce 판단-7",
      "level": "★",
-     "text": "투자사 Robinhood, Webull의 주문, Q3 점유율 15.0%",
+     "text": "후발 개장에도 증권사와 앱을 투자자로 묶어 점유율을 키움(KSF 후보)",
      "color": "black",
      "fact_ids": [
-      "F-0023",
+      "F-1397",
+      "F-0020",
       "F-0029"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "br-0090",
+     "id": "br-0193",
      "disp": "Bruce 판단-8",
-     "level": "★",
-     "text": "9~10월 한국 시세 연결, 10월 점유율 29.8%",
+     "level": "-",
+     "text": "주의 : 투자사 8곳이 실제로 Bruce에 주문을 보내는지는 확인하지 못해, 투자와 점유율 상승의 연결은 해석",
      "color": "black",
      "fact_ids": [
+      "F-1397",
+      "F-0029"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0151",
+     "disp": "Bruce 판단-9",
+     "level": "-",
+     "text": "남들 : Blue Ocean 2021-10 개장, MOON 2024-11 개장",
+     "color": "black",
+     "fact_ids": [
+      "F-1090",
+      "F-0036"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0152",
+     "disp": "Bruce 판단-10",
+     "level": "-",
+     "text": "이 회사 : 2025-03 개장, 2025-06 Robinhood, Webull 등 8곳 투자 유치(금액 비공개)",
+     "color": "black",
+     "fact_ids": [
+      "F-0020",
+      "F-1397"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0153",
+     "disp": "Bruce 판단-11",
+     "level": "-",
+     "text": "결과 : 점유율 Q2 12.3%에서 Q3 15.0%로 상승",
+     "color": "black",
+     "fact_ids": [
+      "F-0028",
+      "F-0029"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0154",
+     "disp": "Bruce 판단-12",
+     "level": "★",
+     "text": "선발 시장 중단 때 한국 시세 연결로 점유율 상승",
+     "color": "black",
+     "fact_ids": [
+      "F-1099",
       "F-0032",
       "F-0033",
       "F-0031"
@@ -1082,8 +1724,23 @@
      "notes": []
     },
     {
+     "id": "br-0155",
+     "disp": "Bruce 판단-13",
+     "level": "-",
+     "text": "전과 후 : Q3 15.0%에서 2026-10 최근 3주 29.8%로, 연결 시점 9~10월과 같은 시기이며 인과는 해석. 분기와 3주는 기간 길이가 달라 일시적 상승일 수 있음",
+     "color": "black",
+     "fact_ids": [
+      "F-0029",
+      "F-0031",
+      "F-0032",
+      "F-0033"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "br-0069",
-     "disp": "Bruce 판단-9",
+     "disp": "Bruce 판단-14",
      "level": "●",
      "text": "제약과 리스크",
      "color": "black",
@@ -1093,7 +1750,7 @@
     },
     {
      "id": "br-0070",
-     "disp": "Bruce 판단-10",
+     "disp": "Bruce 판단-15",
      "level": "★",
      "text": "한국 연결은 시세 피드와 백업 계약 단계",
      "color": "black",
@@ -1105,8 +1762,20 @@
      "notes": []
     },
     {
+     "id": "br-0156",
+     "disp": "Bruce 판단-16",
+     "level": "-",
+     "text": "잃는 쪽 : 한국 투자자는 주문 연결이 없어 Bruce 시세를 보고도 직접 주문하지 못함",
+     "color": "black",
+     "fact_ids": [
+      "F-0032"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "br-0071",
-     "disp": "Bruce 판단-11",
+     "disp": "Bruce 판단-17",
      "level": "★",
      "text": "주말 거래는 SEC 검토 대상, 출시 시점 유동적",
      "color": "black",
@@ -1117,20 +1786,33 @@
      "notes": []
     },
     {
+     "id": "br-0157",
+     "disp": "Bruce 판단-18",
+     "level": "-",
+     "text": "해석 : 출시가 늦어지면 투자에 참여한 증권사와 앱이 주말 수요를 받는 시점도 늦어지고, 그 사이 다른 시장이 먼저 열 수 있음",
+     "color": "black",
+     "fact_ids": [
+      "F-0025",
+      "F-0023"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "br-0112",
-     "disp": "Bruce 판단-12",
+     "disp": "Bruce 판단-19",
      "level": "●",
-     "text": "거래소 야간 거래가 오면",
+     "text": "거래소 야간 거래가 오면(일정은 위 \"거래 시설 운영\" 참조)",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "br-0113",
-     "disp": "Bruce 판단-13",
+     "id": "br-0114",
+     "disp": "Bruce 판단-20",
      "level": "★",
-     "text": "Nasdaq 23시간 승인(2026-04-10), Bruce 기술 공급자",
+     "text": "Nasdaq는 Bruce 기술 공급자이자 야간 거래소 경쟁자",
      "color": "black",
      "fact_ids": [
       "F-1171",
@@ -1140,35 +1822,10 @@
      "notes": []
     },
     {
-     "id": "br-0114",
-     "disp": "Bruce 판단-14",
-     "level": "★",
-     "text": "Nasdaq는 Bruce 투자자이자 야간 거래소 경쟁자",
-     "color": "black",
-     "fact_ids": [
-      "F-0034",
-      "F-1171"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "br-0115",
-     "disp": "Bruce 판단-15",
-     "level": "★",
-     "text": "2026-12-06 SIP(통합시세) 연장 시간표 적용",
-     "color": "black",
-     "fact_ids": [
-      "F-1168"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
      "id": "br-0116",
-     "disp": "Bruce 판단-16",
+     "disp": "Bruce 판단-21",
      "level": "★",
-     "text": "해석 : 존재 이유가 유일한 야간 시장에서 주말과 주문 채널 차별화로 바뀜",
+     "text": "해석 : 거래소의 야간 세션이 열리면 야간에 거래할 수 있다는 점은 차별점이 못 되고, 주말 거래와 증권사, 앱 투자자 구조가 경쟁 기준이 됨(해석)",
      "color": "black",
      "fact_ids": [
       "F-0025",
@@ -1180,7 +1837,7 @@
     },
     {
      "id": "br-0072",
-     "disp": "Bruce 판단-17",
+     "disp": "Bruce 판단-22",
      "level": "●",
      "text": "KDX 시사점",
      "color": "black",
@@ -1189,36 +1846,101 @@
      "notes": []
     },
     {
-     "id": "br-0091",
-     "disp": "Bruce 판단-18",
+     "id": "br-0158",
+     "disp": "Bruce 판단-23",
      "level": "★",
-     "text": "받치는 명제 : Coopetition",
+     "text": "자산 : 새 자산 없이 기존 NMS 주식의 시간대를 넓힘",
      "color": "black",
      "fact_ids": [
-      "F-0023",
-      "F-0034"
+      "F-0020",
+      "F-0025"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0159",
+     "disp": "Bruce 판단-24",
+     "level": "-",
+     "text": "가져올 것 : 주말까지 기존 청산 구조로 잇는 방식",
+     "color": "black",
+     "fact_ids": [
+      "F-0025"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0182",
+     "disp": "Bruce 판단-25",
+     "level": "-",
+     "text": "이유 : 토큰화 없이 기존 주식 청산 회사(Apex Clearing)를 그대로 써서 주말 거래를 추진하므로 새 기술 도입 위험 없이 시간만 넓힘(해석)",
+     "color": "black",
+     "fact_ids": [
+      "F-0025"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "br-0067",
-     "disp": "Bruce 판단-19",
+     "disp": "Bruce 판단-26",
      "level": "★",
-     "text": "KDX가 가져올 것 : 주문을 낼 증권사, 앱을 주주로 묶는 구조",
+     "text": "고객 : 개인 대상 증권사와 앱을 투자자로 묶음",
      "color": "black",
      "fact_ids": [
-      "F-0023",
+      "F-1397",
       "F-0034"
      ],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "br-0092",
-     "disp": "Bruce 판단-20",
+     "id": "br-0160",
+     "disp": "Bruce 판단-27",
+     "level": "-",
+     "text": "가져올 것 : 주문을 낼 수 있는 증권사와 앱을 지분 관계로 묶어 물량 확보를 노리는 방식",
+     "color": "black",
+     "fact_ids": [
+      "F-1397",
+      "F-0034"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0183",
+     "disp": "Bruce 판단-28",
+     "level": "-",
+     "text": "이유 : 증권사와 앱이 주주이면 시장이 성공할수록 자기 이익이 되어 물량을 보낼 이유가 생김(해석). 8곳 참여 뒤 점유율이 Q2 12.3%에서 Q3 15.0%로 상승했으나 8곳 중 실제 주문을 보내는 곳은 확인하지 못함",
+     "color": "black",
+     "fact_ids": [
+      "F-1397",
+      "F-0034",
+      "F-0028",
+      "F-0029"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0161",
+     "disp": "Bruce 판단-29",
      "level": "★",
-     "text": "KDX가 피할 것 : 시세 없이 주문만 받는 연결",
+     "text": "시장 : 한국에는 시세 피드부터 연결",
+     "color": "black",
+     "fact_ids": [
+      "F-0032",
+      "F-0033"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0092",
+     "disp": "Bruce 판단-30",
+     "level": "-",
+     "text": "피할 것 : 시세 없이 주문만 받는 연결",
      "color": "black",
      "fact_ids": [
       "F-1101"
@@ -1227,10 +1949,87 @@
      "notes": []
     },
     {
-     "id": "br-0093",
-     "disp": "Bruce 판단-21",
+     "id": "br-0184",
+     "disp": "Bruce 판단-31",
+     "level": "-",
+     "text": "이유 : 투자자가 가격을 보지 못하면 불리한 가격에 체결될 위험이 있어, 한국 증권사가 시세 피드부터 연결한 사례(해석)",
+     "color": "black",
+     "fact_ids": [
+      "F-1101",
+      "F-0032",
+      "F-0033"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0162",
+     "disp": "Bruce 판단-32",
+     "level": "★",
+     "text": "거래 시설 운영 : 기술과 시세 배포를 거래소 운영사에 의존",
+     "color": "black",
+     "fact_ids": [
+      "F-0020",
+      "F-1302"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0163",
+     "disp": "Bruce 판단-33",
+     "level": "-",
+     "text": "가져올 것 : 기존 배포망을 빌려 시세를 파는 방식",
+     "color": "black",
+     "fact_ids": [
+      "F-1302"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0185",
+     "disp": "Bruce 판단-34",
+     "level": "-",
+     "text": "이유 : 시세를 전송할 시설을 직접 만들지 않고 Nasdaq 배포망에 연결하는 것만으로 브로커와 트레이더에게 시세를 제공(2025-04-15)",
+     "color": "black",
+     "fact_ids": [
+      "F-1302"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0164",
+     "disp": "Bruce 판단-35",
+     "level": "-",
+     "text": "피할 것 : 기술 공급자가 경쟁자가 되는 구조에 대한 대비 없는 의존",
+     "color": "black",
+     "fact_ids": [
+      "F-0034",
+      "F-1171"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0186",
+     "disp": "Bruce 판단-36",
+     "level": "-",
+     "text": "이유 : Nasdaq가 기술 공급자이자 투자자이면서 자체 야간 거래소(2026-04-10 SEC 신속 승인)를 열면, 공급 조건 변경이나 고객 이탈에 대응할 수단이 없음(해석)",
+     "color": "black",
+     "fact_ids": [
+      "F-0034",
+      "F-1171"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0165",
+     "disp": "Bruce 판단-37",
      "level": "●",
-     "text": "해외 확장 세 질문",
+     "text": "해외에서 이 사업이 된 조건",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
@@ -1238,7 +2037,7 @@
     },
     {
      "id": "br-0094",
-     "disp": "Bruce 판단-22",
+     "disp": "Bruce 판단-38",
      "level": "★",
      "text": "제공 가치 : 선발 시장 장애 때 대체 체결과 시세",
      "color": "black",
@@ -1250,7 +2049,7 @@
     },
     {
      "id": "br-0095",
-     "disp": "Bruce 판단-23",
+     "disp": "Bruce 판단-39",
      "level": "★",
      "text": "제도 : 미국 브로커딜러 등록, Form ATS-N",
      "color": "black",
@@ -1263,11 +2062,13 @@
     },
     {
      "id": "br-0096",
-     "disp": "Bruce 판단-24",
+     "disp": "Bruce 판단-40",
      "level": "★",
-     "text": "경제성 : 10월 최근 3주 점유율 29.8%",
+     "text": "경제성 : 시세 배포 수익과 거래 수수료가 수입원으로 보이나 매출 수치는 공개되지 않음. 공개된 것은 요율(1달러 이상 종목 주당 최대 0.002달러)과 야간 3사 합계 대비 점유율(2026-10 최근 3주 29.8%)",
      "color": "black",
      "fact_ids": [
+      "F-1302",
+      "F-1396",
       "F-0031"
      ],
      "confirmed": false,
