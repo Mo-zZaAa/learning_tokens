@@ -59,7 +59,7 @@ def sec_code(title):
     m = re.match(r"([A-H]) ", title)
     if m:
         return m.group(1)
-    for key, code in (("개요", "개요"), ("발언", "발언"), ("연결", "연결"), ("차이", "차이"), ("판단", "판단")):
+    for key, code in (("사업 범위", "범위"), ("개요", "개요"), ("발언", "발언"), ("연결", "연결"), ("차이", "차이"), ("판단", "판단")):
         if key in title:
             return code
     return title[:2]
@@ -345,6 +345,18 @@ def extra_data():
     out["rank_total"] = {"now": float(facts.get("F-1028", {}).get("값") or 0), "past": 801.36e6, "src": evidence(["TP-005", "F-1028"])}
     out["figs"] = {where: [{"k": img_key(f"../captures/reports/{n}.png"), "c": FIG_CAP.get(n, n)} for n in names] for where, names in FIG_WHERE.items()}
     out["cls"] = [dict(r, src=src_of(r.pop("tp_ids", ""))) for r in load_csv(ROOT / "db/cross_class.csv")]
+    out["axis"] = [dict(r, src=src_of(r.pop("fact_ids", ""))) for r in load_csv(ROOT / "db/cross_axis.csv")]
+    pv = ROOT / "kb/perp_vs_spot.md"
+    out["perp"] = []
+    if pv.exists():
+        for tb in md_tables(pv):
+            rows = []
+            for row in tb["rows"]:
+                ids = re.findall(r"TP-\d{3}|F-\d{4}", " ".join(row))
+                rows.append({"cells": [re.sub(r"\[?(?:TP-\d{3}|F-\d{4})\]?[,; ]*", "", c).strip() for c in row], "src": evidence(ids)})
+            out["perp"].append({"sec": tb["sec"], "head": tb["head"], "rows": rows})
+        concl = re.search(r"##[^\n]*결론[^\n]*\n(.*?)(?:\n## |\Z)", pv.read_text(encoding="utf-8"), re.S)
+        out["perp_concl"] = [l.strip("- ").strip() for l in (concl.group(1).splitlines() if concl else []) if l.strip().startswith(("-", "1", "2", "3"))]
     out["cross"] = [dict(r, src=src_of(r.pop("fact_ids", ""))) for r in load_csv(ROOT / "db/cross.csv")]
     out["ats"] = [dict(r, src=src_of(r.pop("fact_ids", ""))) for r in load_csv(ROOT / "db/cross_ats.csv")]
     out["events"] = [dict(r, src=src_of(r.pop("fact_ids", ""))) for r in load_csv(ROOT / "db/ats_events.csv")]

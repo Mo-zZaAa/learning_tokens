@@ -237,7 +237,7 @@ def main():
     shutil.copy(ROOT / "db/ats_screen.csv", OUT / "ats_candidates.csv")
     with open(OUT / "cross.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
-        for i, name in enumerate(["db/cross.csv", "db/cross_ats.csv", "db/ats_events.csv"]):
+        for i, name in enumerate([n for n in ["db/cross.csv", "db/cross_axis.csv", "db/cross_class.csv", "db/cross_ats.csv", "db/ats_events.csv"] if (ROOT / n).exists()]):
             rows = list(csv.reader(open(ROOT / name, encoding="utf-8-sig")))
             if i:
                 w.writerow([])
