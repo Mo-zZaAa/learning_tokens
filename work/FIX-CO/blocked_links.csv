@@ -1,0 +1,7 @@
+﻿"링크","무엇이 있는 곳인지","필요한 이유","막힌 종류","시도한 방법","필요한 조치"
+"https://www.coinbase.com/about","Coinbase 회사 소개, 미션, 창업자","Coinbase 설립 연도, 창업자, 공식 미션 문장 1차 확인","봇 차단(curl 403, WebFetch는 호스트 해석 실패)","curl, WebFetch, medium.com 미션 글 403, /mission, /en-gb/about 모두 403","허용 호스트에 coinbase.com 추가하거나 사람이 열어 문장 확인. 검색 결과 요약은 mission 문구(increase economic freedom in the world)만 시사, 원문 미확인이라 facts에 넣지 않음"
+"https://investors.robinhood.com/news-releases/news-release-details/robinhood-reports-second-quarter-2026-results","Robinhood 2026 Q2 실적 보도자료(발언 4 원문)","captures/quotes/Robinhood_04.png 캡처","봇 차단(403 Access Denied)","Playwright, curl, node/16386/html, node/16381/pdf, static-files 사본 모두 403, finviz와 barchart 사본도 403(Cloudflare 챌린지), newsroom.aboutrobinhood.com 해당 글 없음","사람이 직접 열어 캡처하거나 investors.robinhood.com 허용"
+"https://www.binance.com/en/support/announcement","Binance 2021 주식 토큰 중단 공지 원문","회사 공지 1차 확인","봇 차단(HTTP 202 챌린지)","curl","우회하지 않음. 언론 2곳(Decrypt, Cointelegraph)이 공지 문장을 인용해 교차 확인으로 처리"
+"https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizations","CFTC DCM, DCO 목록","Coinbase DCM, DCO 이번 세션 재열람","403(이번 세션)","curl","LICMAP이 앞서 연 결과를 인용"
+"https://register.fma-li.li/search","FMA 리히텐슈타인 레지스터(승인 투자설명서 목록)","Ondo 기본 투자설명서 갱신 여부","동적 앱, 승인 투자설명서는 PDF 범주라 검색 불가","Playwright로 검색, 범주 선택, 다운로드 시도","PDF 목록 직접 링크를 사람이 확인"
+"https://www.sec.gov/","SEC EDGAR(Coinbase 10-K 미션 문장)","Coinbase 공식 미션과 설립 확인 대안","호스트 해석 실패(WebFetch)","WebFetch","허용 호스트에 www.sec.gov 추가"

@@ -29,7 +29,7 @@ button{font:inherit;color:inherit}
   padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
   display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
 .brand{font-weight:800;letter-spacing:-.01em;font-size:16px;margin-right:6px}
-.tabs{display:flex;gap:4px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap}
 .tab{border:1px solid var(--line);background:transparent;border-radius:6px;padding:4px 12px;cursor:pointer;color:var(--muted)}
 .tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--panel);font-weight:700}
 .spacer{flex:1}
@@ -177,6 +177,52 @@ figure figcaption{font-size:12px;color:var(--muted)}
   .lv-s .body{padding-left:.9em} .lv-q1 .body,.lv-q2 .body,.lv-q3 .body{padding-left:1.8em}
   .claims button{grid-template-columns:1fr;gap:0}
 }
+
+.wide{max-width:1180px;margin:0 auto}
+.wide h1{margin:0 0 4px;font-size:24px}
+.wide h2{font-size:18px;margin:26px 0 8px}
+.lead{margin:0 0 10px;color:var(--muted)}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.tbl table{border-collapse:collapse;width:100%;font-size:13.5px}
+.tbl th,.tbl td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.tbl th{background:var(--quote);font-weight:700;color:var(--muted);white-space:nowrap;position:sticky;top:0}
+.tbl tr:last-child td{border-bottom:0}
+.tbl td.n{font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.tbl tr.orange td{color:var(--orange)}
+.golink{border:0;background:transparent;color:var(--accent);font-weight:700;cursor:pointer;padding:0;text-align:left}
+.golink:hover{text-decoration:underline}
+.bar{display:flex;align-items:center;gap:8px}
+.bar .track{flex:1;height:10px;background:var(--quote);border-radius:5px;min-width:60px;overflow:hidden}
+.bar .fill{height:100%;background:var(--accent)}
+.bar.orange .fill{background:var(--orange)}
+.tl{display:grid;gap:0;border-left:2px solid var(--line);margin-left:6px;padding-left:16px}
+.tl .ev2{position:relative;padding:6px 0}
+.tl .ev2::before{content:"";position:absolute;left:-22px;top:12px;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.tl .d{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.vc{display:grid;grid-template-columns:120px repeat(5,minmax(0,1fr));gap:6px;align-items:stretch;font-size:12.5px}
+.vc .h{font-weight:700;color:var(--muted);text-align:center;padding:4px}
+.vc .co2{font-weight:700;padding:6px 4px;display:flex;align-items:center}
+.vc .cell{border-radius:6px;padding:6px;display:grid;gap:4px;align-content:start;background:var(--quote);min-height:44px}
+.vc .it{border-radius:5px;padding:3px 6px;line-height:1.35;cursor:pointer}
+.vc .it.own{background:var(--accent);color:var(--panel)}
+.vc .it.ent{background:transparent;border:1.5px dashed var(--muted);color:var(--ink)}
+.vc .it .acq{display:block;font-size:11.5px;font-weight:700;opacity:.9}
+.vc .none{color:var(--faint);text-align:center;padding-top:8px}
+.vc .orange.co2{color:var(--orange)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--muted);margin:6px 0 10px;align-items:center}
+.legend i{display:inline-block;width:22px;height:12px;border-radius:3px;vertical-align:-1px;margin-right:5px}
+.legend .own{background:var(--accent)} .legend .ent{border:1.5px dashed var(--muted)}
+.search{width:100%;max-width:420px;font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.chips button{border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:2px 12px;cursor:pointer;font-size:13px}
+.chips button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);font-weight:700}
+.detail{font-size:13px;color:var(--muted);margin-top:4px}
+.gl{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.gl .g{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.gl .g b{display:block}
+.gl .g .en{font-size:12px;color:var(--muted)}
+.lawl a{display:block;font-size:12.5px}
+@media (max-width:760px){.vc{grid-template-columns:repeat(5,minmax(110px,1fr))}.vc .co2{grid-column:1/-1}.vc .h.first{display:none}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
 
@@ -184,6 +230,9 @@ figure figcaption{font-size:12px;color:var(--muted)}
   <span class="brand">KDX 해외 사례</span>
   <div class="tabs" role="tablist">
     <button class="tab" id="tab-read" role="tab" aria-selected="true">본문</button>
+    <button class="tab" id="tab-compare" role="tab" aria-selected="false" data-view="compare">가로 비교</button>
+    <button class="tab" id="tab-lic" role="tab" aria-selected="false" data-view="lic">인가와 관계</button>
+    <button class="tab" id="tab-rules" role="tab" aria-selected="false" data-view="rules">제도와 용어</button>
     <button class="tab" id="tab-memo" role="tab" aria-selected="false">메모</button>
   </div>
   <span class="spacer"></span>
@@ -420,9 +469,10 @@ function renderMemo(){
 
 function render(){
   $('#tab-read').setAttribute('aria-selected', view==='read'); $('#tab-memo').setAttribute('aria-selected', view==='memo');
+  document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-selected', b.dataset.view === view));
   $('#btn-fold').hidden = view !== 'read';
   document.querySelectorAll('.co').forEach(el => el.setAttribute('aria-current', el.dataset.slug === cur && view === 'read'));
-  if (view === 'read') renderCompany(); else renderMemo();
+  if (view === 'read') renderCompany(); else if (view === 'memo') renderMemo(); else if (view === 'compare') renderCompare(); else if (view === 'lic') renderLic(); else if (view === 'rules') renderRules();
   updateCount();
 }
 function keepScroll(fn){ const y = window.scrollY; fn(); window.scrollTo(0, y); }
@@ -437,6 +487,11 @@ document.addEventListener('click', e => {
   const co = t.closest('.co'); if (co){ cur = co.dataset.slug; view = 'read'; location.hash = cur; render(); window.scrollTo(0,0); return; }
   if (t.closest('#tab-read')){ view = 'read'; render(); return; }
   if (t.closest('#tab-memo')){ view = 'memo'; render(); window.scrollTo(0,0); return; }
+  const vb = t.closest('[data-view]'); if (vb){ view = vb.dataset.view; location.hash = 'v-' + view; render(); window.scrollTo(0,0); return; }
+  const gco = t.closest('[data-goco]'); if (gco){ const sl = gco.dataset.goco; if (CO[sl]){ cur = sl; view = 'read'; location.hash = sl; render(); window.scrollTo(0,0); } return; }
+  const vci = t.closest('[data-lic]'); if (vci){ const i = +vci.dataset.lic; openLic.has(i) ? openLic.delete(i) : openLic.add(i); keepScroll(render); return; }
+  const rk = t.closest('[data-relk]'); if (rk){ relKind = rk.dataset.relk; keepScroll(render); return; }
+  const srcb = t.closest('[data-srcrow]'); if (srcb && !t.closest('a')){ const k = srcb.dataset.srcrow; openSrc.has(k) ? openSrc.delete(k) : openSrc.add(k); keepScroll(render); return; }
   if (t.closest('#btn-fold')){ allOpen = !allOpen; const c = CO[cur]; c.sections.forEach(s => { const k = cur + '/' + s.code; if (allOpen) closedSecs.delete(k); else closedSecs.add(k); }); t.closest('#btn-fold').textContent = allOpen ? '모두 접기' : '모두 펼치기'; render(); return; }
   if (t.closest('#btn-send')){ openSend(); return; }
   const term = t.closest('.term'); if (term){ showTerm(term); e.stopPropagation(); return; }
@@ -553,10 +608,81 @@ function openSend(){
   });
 }
 
+// ---------- 2~4배치 화면 ----------
+const openLic = new Set(), openSrc = new Set(); let relKind = 'all', relQ = '', termQ = '';
+const NAME2SLUG = {}; D.companies.forEach(c => { NAME2SLUG[c.name.toLowerCase()] = c.slug; });
+function slugOf(name){ const n = String(name||'').toLowerCase(); for (const k in NAME2SLUG){ if (n.startsWith(k) || n.includes(k)) return NAME2SLUG[k]; } return null; }
+function coBtn(name){ const sl = slugOf(name); return sl ? `<button class="golink" type="button" data-goco="${sl}">${esc(name)}</button>` : esc(name); }
+function srcCell(key, src){ if (!src || !src.length) return ''; const urls = [...new Set(src.map(s => s.url).filter(Boolean))];
+  return `<span class="src">${urls.map((u,i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${i? i+1 : '출처'}</a>`).join(' ')}</span> <button class="sec2" type="button" data-srcrow="${key}" style="padding:0 6px;font-size:11.5px">근거</button>${openSrc.has(key) ? evHtml({src}) : ''}`; }
+
+function renderCompare(){
+  const R = D.rank.slice().sort((a,b) => a.rank - b.rank); const max = Math.max(...R.map(r => r.usd));
+  let h = `<div class="wide"><h1>가로 비교</h1><p class="lead">회사 6곳과 미국 야간 ATS 3곳을 같은 칸으로 나란히 봅니다. 회사 이름을 누르면 본문으로 갑니다. 법적 성격은 SEC 직원 성명(2026-01-28)의 정의를 적용한 우리 분류입니다.</p>`;
+  h += `<h2>발행 잔액 순위</h2><p class="lead">같은 출처, 같은 기준일: rwa.xyz 분산형 토큰화 주식 플랫폼 표, ${esc(R[0]?.date||'')}.</p><div class="tbl"><table><thead><tr><th>순위</th><th>회사(상품)</th><th>발행 잔액</th><th style="min-width:180px">점유율</th><th>출처</th></tr></thead><tbody>` +
+    R.map((r,i) => `<tr class="${r.slug?'':'orange'}"><td class="n">${r.rank}</td><td>${r.slug?`<button class="golink" type="button" data-goco="${r.slug}">${esc(r.name)}</button>`:esc(r.name)+' <span class="detail">(조사 대상 밖, 추가 확인)</span>'}</td><td class="n">${fmtUsd(r.usd)}</td><td><div class="bar${r.slug?'':' orange'}"><div class="track"><div class="fill" style="width:${(r.usd/max*100).toFixed(1)}%"></div></div><span class="n" style="font-variant-numeric:tabular-nums">${esc(r.share)}%</span></div></td><td>${srcCell('rk'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>';
+  const cols = ['원주 보관사','법적 성격(우리 분류)','판매 지역','투자설명서 승인 관할','한국 주식 계획'];
+  h += `<h2>회사별 한 줄</h2><div class="tbl"><table><thead><tr><th>회사</th><th>상품</th>${cols.map(c => `<th>${c}</th>`).join('')}<th>출처</th></tr></thead><tbody>` +
+    D.cross.map((r,i) => `<tr><td>${coBtn(r['회사'])}</td><td>${esc(r['상품'])}</td>${cols.map(c => `<td>${esc(r[c])}</td>`).join('')}<td>${srcCell('cr'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>';
+  h += `<h2>미국 야간 ATS 3곳</h2><p class="lead">점유율은 FINRA 주간 보고 거래대금 13주 합산을 야간 3사 합계로 나눈 값입니다.</p><div class="tbl"><table><thead><tr><th>ATS</th><th>운영사</th><th>개장</th><th>2026 Q2 점유율</th><th>2026 Q3 점유율</th><th>한국 증권사 연결</th><th>출처</th></tr></thead><tbody>` +
+    D.ats.map((r,i) => `<tr><td>${coBtn(r['ATS'])}</td><td>${esc(r['운영사'])}</td><td>${esc(r['개장'])}</td><td class="n">${esc(r['2026 Q2 점유율'])}</td><td class="n">${esc(r['2026 Q3 점유율'])}</td><td>${esc(r['한국 증권사 연결'])}</td><td>${srcCell('at'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>';
+  h += `<h2>사건 연표</h2><div class="tl">` + D.events.map((e,i) => `<div class="ev2"><div class="d">${esc(e['날짜'])}</div><div><b>${coBtn(e['누가'])}</b> ${esc(e['무슨 일'])} ${srcCell('evt'+i, e.src)}</div></div>`).join('') + '</div></div>';
+  $('#main').innerHTML = h;
+}
+function fmtUsd(v){ if (v >= 1e8) return (v/1e8).toFixed(v >= 1e9 ? 1 : 2).replace(/\.?0+$/,'') + '억 달러'; return Math.round(v/1e4).toLocaleString('ko-KR') + '만 달러'; }
+
+const STAGES = ['발행','체결','청산','기록','접점'];
+const STAGE_DESC = {'발행':'토큰이나 상품을 내는 법인','체결':'거래소, ATS, 파생 거래소','청산':'청산, 결제, 보관','기록':'명의개서, 권리 기록','접점':'고객 주문 접수, 중개'};
+function renderLic(){
+  const cos = []; D.lic.forEach(r => { if (!cos.includes(r.co)) cos.push(r.co); });
+  let h = `<div class="wide"><h1>인가와 관계</h1><p class="lead">인가 지도를 등록부(BrokerCheck, CFTC 목록 등)와 대조해 고친 값입니다. 칸을 누르면 하는 일, 등록부와 다른 점, 출처가 나옵니다. Securitize, tZERO는 이번 조사 대상 밖이라 주황으로 둡니다.</p>`;
+  h += `<h2>회사별 밸류체인</h2><div class="legend"><span><i class="own"></i>직접 가짐</span><span><i class="ent"></i>남에게 맡김</span><span>"인수"는 남의 회사를 사서 얻은 자격과 그 시점</span></div>`;
+  h += `<div style="overflow-x:auto"><div class="vc"><div class="h first"></div>${STAGES.map(s => `<div class="h" title="${STAGE_DESC[s]}">${s}<div style="font-weight:400;font-size:11px">${STAGE_DESC[s]}</div></div>`).join('')}`;
+  cos.forEach(co => {
+    const orange = D.lic.some(r => r.co === co && r.orange);
+    h += `<div class="co2${orange?' orange':''}">${coBtn(co)}</div>`;
+    STAGES.forEach(st => {
+      const items = D.lic.map((r,i) => [r,i]).filter(([r]) => r.co === co && r.stage === st);
+      h += '<div class="cell">' + (items.length ? items.map(([r,i]) => `<div class="it ${r.own==='맡김'?'ent':'own'}" data-lic="${i}" tabindex="0">${esc(r.own==='맡김' ? r.lic : (r.ent || r.lic))}${r.how==='인수'?`<span class="acq">인수 ${esc(r.target)} ${esc(r.when)}</span>`:(r.when?`<span class="acq">${r.own==='맡김'?'':'직접 '}${esc(r.when)}</span>`:'')}${r.regwhen?`<span class="acq" style="font-weight:400">등록부 ${esc(r.regwhen)}</span>`:''}</div>`).join('') : '<div class="none">없음</div>') + '</div>';
+    });
+  });
+  h += '</div></div>';
+  const op = [...openLic].map(i => D.lic[i]).filter(Boolean);
+  if (op.length) h += '<div style="display:grid;gap:6px;margin-top:10px">' + op.map(r => `<div class="ev" style="margin:0"><p><b>${esc(r.co)} ${esc(r.job)}</b>: ${esc(r.lic)}${r.ent?` (${esc(r.ent)})`:''}${r.place?`, ${esc(r.place)}`:''}</p>${r.does?`<p>${esc(r.does)}</p>`:''}${r.note?`<p class="e">등록부: ${esc(r.note)}</p>`:''}<p>${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">출처</a>`:''}${r.reg?` <a href="${esc(r.reg)}" target="_blank" rel="noopener">등록부</a>`:''}</p></div>`).join('') + '</div>';
+  const kinds = ['all','인수','투자','제휴','위탁','자회사','자금 조달'];
+  const q = relQ.trim().toLowerCase();
+  let rows = D.rel.filter(r => (relKind === 'all' || r.kind === relKind) && (!q || (r.a + ' ' + r.b + ' ' + r.what).toLowerCase().includes(q)));
+  rows.sort((a,b) => String(b.when).localeCompare(String(a.when)));
+  h += `<h2>관계 표</h2><input class="search" id="rel-q" type="search" placeholder="회사 이름으로 찾기 (예: Alpaca)" value="${esc(relQ)}"><div class="chips">${kinds.map(k => `<button type="button" data-relk="${k}" aria-pressed="${relKind===k}">${k==='all'?'전체':k}</button>`).join('')}</div>
+    <div class="tbl"><table><thead><tr><th>누가</th><th>누구와</th><th>무엇을</th><th>언제</th><th>내용</th><th>출처</th></tr></thead><tbody>` +
+    rows.map(r => `<tr><td>${coBtn(r.a)}</td><td>${coBtn(r.b)}</td><td>${esc(r.kind)}</td><td style="white-space:nowrap">${esc(r.when)}</td><td>${esc(r.what)}${r.give||r.get?`<div class="detail">${r.give?'주는 것: '+esc(r.give):''}${r.give&&r.get?'. ':''}${r.get?'받는 것: '+esc(r.get):''}</div>`:''}</td><td>${r.url?`<a class="src" href="${esc(r.url)}" target="_blank" rel="noopener">출처</a>`:''}</td></tr>`).join('') +
+    `</tbody></table></div><p class="detail">${rows.length}건</p></div>`;
+  $('#main').innerHTML = h;
+}
+
+function lawLinks(arr){ return '<div class="lawl">' + arr.map(l => l.url ? `<a href="${esc(l.url)}" target="_blank" rel="noopener" title="${esc(l.e||'')}">${esc(l.t)}</a>` : `<span>${esc(l.t)}</span>`).join('') + '</div>'; }
+function renderRules(){
+  let h = `<div class="wide"><h1>제도와 용어</h1><p class="lead">모든 회사에 공통인 한미 제도 차이입니다. 조문 이름을 누르면 원문으로 갑니다.</p>`;
+  h += `<h2>한미 제도 비교</h2><div class="tbl"><table><thead><tr><th>쟁점</th><th>미국 제도</th><th>미국 조문</th><th>한국 제도</th><th>한국 조문</th><th>차이에 따른 결과</th></tr></thead><tbody>` +
+    D.reg.map(r => `<tr><td><b>${withTerms(r.issue)}</b></td><td>${withTerms(r.us)}</td><td>${lawLinks(r.us_law)}</td><td>${withTerms(r.kr)}</td><td>${lawLinks(r.kr_law)}</td><td>${withTerms(r.diff)}</td></tr>`).join('') + '</tbody></table></div>';
+  h += `<h2>모든 회사에 공통인 한국 시장 사정</h2><p class="lead">회사 본문에서 빼고 여기에 한 번만 둡니다.</p><div class="tbl"><table><thead><tr><th>줄</th><th>내용</th><th>출처</th></tr></thead><tbody>` +
+    D.common.map((r,i) => `<tr><td><b>${esc(r.t)}</b></td><td>${esc(r.d)}</td><td>${srcCell('cm'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>';
+  const q = termQ.trim().toLowerCase();
+  const T = D.terms.filter(t => !q || (t.t + ' ' + t.en + ' ' + t.e).toLowerCase().includes(q));
+  h += `<h2>용어</h2><input class="search" id="term-q" type="search" placeholder="용어 찾기" value="${esc(termQ)}"><p class="detail">${T.length}개</p><div class="gl">` +
+    T.map(t => `<div class="g"><b>${esc(t.t)}</b>${t.en?`<span class="en">${esc(t.en)}</span>`:''}<div>${esc(t.e)}</div>${t.p&&t.d?`<div class="en">헷갈리는 짝: ${esc(t.p)}. ${esc(t.d)}</div>`:''}${t.kr?`<div class="en">한국: ${esc(t.kr)}</div>`:''}</div>`).join('') + '</div></div>';
+  $('#main').innerHTML = h;
+}
+document.addEventListener('input', e => {
+  if (e.target.id === 'rel-q'){ relQ = e.target.value; const pos = e.target.selectionStart; renderLic(); const el = $('#rel-q'); el.focus(); el.setSelectionRange(pos,pos); }
+  if (e.target.id === 'term-q'){ termQ = e.target.value; const pos = e.target.selectionStart; renderRules(); const el = $('#term-q'); el.focus(); el.setSelectionRange(pos,pos); }
+});
+
 // ---------- 시작 ----------
 const fromHash = location.hash.slice(1);
 cur = CO[fromHash] ? fromHash : D.companies[0].slug;
+if (fromHash.startsWith('v-') && ['compare','lic','rules'].includes(fromHash.slice(2))) view = fromHash.slice(2);
 renderNav(); render();
-window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (CO[h] && h !== cur){ cur = h; view = 'read'; render(); } });
+window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (CO[h] && (h !== cur || view !== 'read')){ cur = h; view = 'read'; render(); } else if (h.startsWith('v-') && h.slice(2) !== view && ['compare','lic','rules'].includes(h.slice(2))){ view = h.slice(2); render(); } });
 })();
 </script>

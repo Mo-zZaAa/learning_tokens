@@ -1,0 +1,18 @@
+# FIX-CO 메모 (2026-11-16)
+
+## 한 일과 못 한 일
+- facts.csv 19행, sources.csv 22행, license_paths.csv 37행(Kraken, Robinhood, Binance, Coinbase, Dinari, Ondo의 licenses_check.csv 행 전부), verdicts.csv 15행, blocked_links.csv 6행.
+- 1 설립, 창업자, 미션: Kraken(2011 Jesse Powell, 미션), Ondo(2021, 창업자 Nathan Allman, 미션), Dinari(미션)는 회사 페이지로 1차 확인. Coinbase는 coinbase.com 전부 차단이라 회사 공식 문장 못 얻음. 설립 2012-06, 창업자 Armstrong과 Ehrsam은 위키백과 기준 단일 출처(FIX-CO-007)로만 넣음. 미션은 넣지 않음.
+- Kraken 창업자: 회사 about 페이지는 Jesse Powell만 거론. DB F-0363(홈 구조화 데이터)은 Thanh Luu, Michael Gronager, Jesse Powell 3인. 두 값이 다르니 본문은 "Jesse Powell 공동 설립(회사 연혁 서술)"로 쓰고 공동 창업자 전체는 보류.
+- 2 Kraken 경로: Small Exchange(2025-10-16 발표, 1억 달러, IG Group), NinjaTrader(2025-03-20 계약 발표 15억, 완료 2025-05-01은 F-0177에 있음), Bitnomial(2026-04-17 발표, 2026-05-01 완료. 최대 5.5억 달러는 회사 보도자료에 없음, 지도 acquisitions.csv 값은 보류), Nasdaq(2026-09-10 Nasdaq Ventures 1억 달러). 모두 회사 발표로 1차 확인.
+- 3 Coinbase 미국 자격: 증권사(Coinbase Capital Markets Corp, CRD 10722, 최초 상태일 1982-08-13, 이전 상호 Keystone Capital 등. BrokerCheck 이번에 재열람)는 기존 법인의 상호 변경이므로 지도의 직접 표기와 다름. 거래소(DCM) Coinbase Derivatives는 FairX 인수 경로(CFTC 지정 2020-11-23, 인수 2022), 청산소(DCO) Coinbase Clearing은 직접 등록 2026-09-28, 선물중개(FCM) Coinbase Financial Markets는 지도상 직접(2023)이나 NFA BASIC 접근 불가로 미확인. CFTC 목록은 이번 세션 403이라 LICMAP의 앞선 열람 결과를 인용.
+- 4 Binance: 2021 중단은 binance.com 차단. Decrypt와 Cointelegraph가 공지 문장을 인용해 교차 확인. 2026-02-24 Ondo 주식 토큰은 Binance Alpha에 10종 상장(Ondo 블로그 1차). 지도에는 "Binance 상장"으로만 적혀 있으니 본문은 Alpha로 표기. 2026-06-12 bStocks는 BTech Holdings(아부다비)가 발행, Binance 보도자료로 1차 확인.
+- 5 license_paths.csv: 지도 법인, 시점, 방식과 등록부 값이 다른 곳은 대조 결과 칸에 이유를 그대로 둠. 주요 불일치: Kraken Securities 시점(2025.4 vs 등록 2024-06-10), Coinbase 증권사 시점, Robinhood Securities, Robinhood 거래소와 청산소 법인명(Rothera Exchange and Clearing LLC), Dinari 증권사 시점(2025.6 vs 2025-06-20). 등록부 미확인 행(발행 법인 Jersey, BVI, 아부다비 ADGM, NFA)은 그대로 미확인.
+- 6 Ondo EU 기본 투자설명서: 갱신 확인 못 함. 찾아본 곳: (a) docs.ondo.finance/legal(약관, 개인정보 등 하위 페이지만 있고 투자설명서 목록 없음)과 /ondo-stocks/important-notes(수정일 2026-11-07, 여전히 FMA 승인 기본 투자설명서를 근거로 서술, 투자설명서는 app.ondo.finance 각 토큰 페이지에 게시한다고 안내), /ondo-stocks/legal-and-regulatory, llms.txt, sitemap. (b) ondo.finance/blog 사이트맵 190건 중 EU 승인 글은 2025-11-18 하나뿐, 새 투자설명서나 보충서 글 없음. (c) FMA 리히텐슈타인: 레지스터(register.fma-li.li) 승인 투자설명서는 PDF 범주라 검색 안 됨, 사이트 검색 404. 결론: 보충서나 새 투자설명서가 나왔다는 증거 없음, 없다는 증거도 아님. 유효기간 만료 2026-11-11은 이미 지났으므로(기준일 2026-11-16) FMA 승인 PDF 목록을 사람이 확인해야 한다.
+- 7 verdicts.csv: 회사 발표 수치 15건(Kraken xStocks 거래량, 보유자, AUM, Q3 재무, Binance bStocks AUM, 거래량 등)을 회사 페이지를 열어 문장 일치 확인 후 '1차 출처 확인'으로 올림. 제외: Robinhood F-0236, F-0669(investors.robinhood.com 403이라 이번에 못 엶), Ondo F-0199, F-0200, F-1032와 Kraken xStocks F-1030(언론 또는 제3자 집계), Coinbase F-0105, F-0110(sec-api.io), Coinbase base.org 페이지 거래량 F-0812 등(수시 변동 화면 값), Ondo 홈 TVL F-0466, F-0468(화면 값, 단일 출처로 유지). F-0161은 CoinGecko 순위 인용 문장이라 메모에 명시.
+- 8 캡처: Coinbase 로고를 Wikimedia Commons Coinbase.svg(https://upload.wikimedia.org/wikipedia/commons/1/1a/Coinbase.svg)에서 PNG로 변환해 captures/Coinbase/logo.png로 교체, captures/index.csv 갱신. coinbase.com 브랜드 자료는 접속 차단. Wikimedia 파일 설명에 상표 로고 분류가 있음(공용 문구상 Public domain 표기이나 상표권은 별개). Ondo 발언 2: captures/quotes/Ondo_2.png가 이미 인용문이 보이는 ondo.finance 블로그 화면이어서 그대로 둠(재촬영 안 함). Robinhood 발언 4: 403으로 못 찍음(blocked_links.csv). 공식 사본 주소 모두 403이고 비공식 사본(finviz, barchart)도 차단.
+
+## 다른 범위 발견
+- Kraken 공식 about 페이지 수치: 100개 이상 면허, 190개 이상 관할, 16개 인터페이스(참고용, 필요하면 후속).
+- Payward 뉴스룸에 2026-11-11 xStocks DAX 40, 영국과 EU 상장주식 발표, 2026-11-13 Q3 재무 하이라이트(F-0180 반영됨).
+- Ondo 2026-02-24 글 기준 TVL 5.5억 달러, 누적 거래량 110억 달러는 F-0200이 언론 출처로 단일. Ondo 블로그가 1차이므로 verdicts 후속 후보(이번에는 시간 때문에 미처리).

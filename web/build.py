@@ -68,7 +68,7 @@ def sec_code(title):
 def load_csv(p):
     if not p.exists():
         return []
-    with open(p, newline="", encoding="utf-8") as f:
+    with open(p, newline="", encoding="utf-8-sig") as f:
         return list(csv.DictReader(f))
 
 
@@ -237,6 +237,121 @@ def assign_ids(prefix, sections, store):
         lines[r["id"]] = {"sec": code, "text": norm(r["raw"])}
 
 
+
+# ---------- 2~4배치 데이터 ----------
+def src_of(ids):
+    return evidence([i.strip() for i in re.split(r"[;,\s]+", ids or "") if i.strip()])
+
+
+STAGE = {"발행": "발행", "체결 장소": "체결", "파생 거래소": "체결", "청산, 결제, 보관": "청산", "파생 청산소": "청산",
+         "기록": "기록", "주문 접수": "접점", "파생 중개": "접점"}
+CO_ALIAS = {"Payward (Kraken)": "Kraken", "Kraken(Payward)": "Kraken"}
+REL_KIND = {"인수와 합병": "인수", "지분 투자": "투자", "사업 제휴": "제휴", "발행과 유통 위탁": "위탁",
+            "모회사와 자회사": "자회사", "상장과 자금 조달": "자금 조달", "투자": "투자", "제휴": "제휴", "인수": "인수"}
+
+
+def law_link(lid):
+    l = laws.get(lid)
+    if not l:
+        return {"t": lid, "url": ""}
+    return {"t": f'{l.get("법령명","")} {l.get("조항","")}'.strip(), "url": (l.get("링크") or "").strip(),
+            "q": (l.get("원문 발췌") or "").strip(), "e": (l.get("쉬운 풀이") or "").strip()}
+
+
+def md_tables(path):
+    tabs, cur = [], None
+    for line in Path(path).read_text(encoding="utf-8").splitlines():
+        if line.startswith("|"):
+            cells = [c.strip() for c in line.strip().strip("|").split("|")]
+            if set("".join(cells)) <= set("-: "):
+                continue
+            if cur is None:
+                cur = {"head": cells, "rows": []}
+                tabs.append(cur)
+            else:
+                cur["rows"].append(cells)
+        else:
+            cur = None
+    return tabs
+
+
+def extra_data():
+    out = {}
+    # 발행 잔액 순위(한 출처, 같은 기준일)
+    rank = []
+    for fid in ["F-1021", "F-1022", "F-1023", "F-1024", "F-1025", "F-1026", "F-1027"]:
+        f = facts.get(fid)
+        if not f:
+            continue
+        m = re.search(r"(\d+)위, 점유율 ([\d.]+)%", f["무엇을"])
+        name = f["회사"]
+        slug = {"Binance bStocks": "binance", "Ondo Global Markets": "ondo", "Kraken xStocks": "kraken",
+                "Robinhood Stock Tokens": "robinhood", "Coinbase": "coinbase", "Dinari dShares": "dinari"}.get(name)
+        rank.append({"name": name, "slug": slug, "rank": int(m.group(1)) if m else None, "share": m.group(2) if m else "",
+                     "usd": float(f["값"] or 0), "date": f["기준일"], "src": evidence([fid])})
+    out["rank"] = rank
+    out["cross"] = [dict(r, src=src_of(r.pop("fact_ids", ""))) for r in load_csv(ROOT / "db/cross.csv")]
+    out["ats"] = [dict(r, src=src_of(r.pop("fact_ids", ""))) for r in load_csv(ROOT / "db/cross_ats.csv")]
+    out["events"] = [dict(r, src=src_of(r.pop("fact_ids", ""))) for r in load_csv(ROOT / "db/ats_events.csv")]
+    # 인가 지도 + 등록부 대조
+    lic = []
+    for r in load_csv(ROOT / "work/LICMAP/licenses_check.csv"):
+        r = {k.lstrip("\ufeff"): v for k, v in r.items()}
+        co = CO_ALIAS.get(r["회사"], r["회사"])
+        res = r.get("대조 결과", "")
+        note = r.get("차이 또는 시도한 곳", "")
+        if res.startswith("등록부 미확인"):
+            note = ""
+        lic.append({"co": co, "stage": STAGE.get(r["하는 일"], r["하는 일"]), "job": r["하는 일"], "own": r["상태"],
+                    "lic": r["자격"], "place": r["지명"], "how": r["확보 방식"], "target": r["인수 대상"],
+                    "when": r["시점"], "ent": r["법인"], "does": r["이 자격으로 하는 일"],
+                    "url": r["출처 링크"], "reg": r.get("등록부 링크", ""), "note": note,
+                    "orange": co in ("Securitize", "tZERO"),
+                    "regwhen": "" if co in ("Securitize", "tZERO") else (lambda m: m.group(1) if m else "")(re.search(r"(?:firmStatusDate|등록부|등록|지정|최초 상태일)\)?\s*(\d{4}-\d{2})", note))})
+    out["lic"] = lic
+    # 관계
+    rel = []
+    for r in load_csv(ROOT / "db/relations.csv"):
+        rel.append({"a": r["주체"], "b": r["대상"], "kind": REL_KIND.get(r["관계 종류"], r["관계 종류"]),
+                    "when": r["시점"], "what": r.get("회사가 밝힌 목적") or "", "give": r.get("주는 것", ""),
+                    "get": r.get("받는 것", ""), "url": r.get("링크", ""), "q": r.get("원문 근거 문장", "")})
+    for r in load_csv(ROOT / "inputs/license_map/relations.csv"):
+        r = {k.lstrip("\ufeff"): v for k, v in r.items()}
+        rel.append({"a": r["주는 쪽"], "b": r["받는 쪽"], "kind": REL_KIND.get(r["유형"], r["유형"]), "when": r["시점"],
+                    "what": r["내용"], "give": "", "get": "", "url": r["출처 링크"], "q": ""})
+    for r in load_csv(ROOT / "inputs/license_map/acquisitions.csv"):
+        r = {k.lstrip("\ufeff"): v for k, v in r.items()}
+        rel.append({"a": CO_ALIAS.get(r["회사"], r["회사"]), "b": r["대상"], "kind": "인수", "when": r["시점"],
+                    "what": r["얻은 것"] + (". " + r["회사가 밝힌 이유"] if r.get("회사가 밝힌 이유") else ""),
+                    "give": "", "get": "", "url": r["출처 링크"], "q": ""})
+    seen, rel2 = set(), []
+    for x in rel:
+        k = (x["a"].lower()[:12], x["b"].lower()[:12], x["kind"], x["when"][:4])
+        if k in seen:
+            continue
+        seen.add(k)
+        rel2.append(x)
+    out["rel"] = rel2
+    # 한미 제도 비교
+    tabs = md_tables(ROOT / "kb/regulation_compare.md")
+    reg = []
+    if tabs:
+        for row in tabs[0]["rows"]:
+            if len(row) < 6:
+                continue
+            def ids(cell):
+                return [law_link(x) for x in re.findall(r"(?:US|KR|EU)-[^\s,()]+", cell)]
+            reg.append({"issue": row[0], "us": row[1], "us_law": ids(row[2]), "kr": row[3], "kr_law": ids(row[4]), "diff": row[5]})
+    out["reg"] = reg
+    common = []
+    if len(tabs) > 1:
+        for row in tabs[-1]["rows"]:
+            if len(row) >= 3:
+                common.append({"t": row[0], "d": row[1], "src": evidence(re.findall(r"F-\d{4}|KR-[^\s,]+", row[2]))})
+    out["common"] = common
+    return out
+
+
 def main():
     store_p = WEB / "line_ids.json"
     store = json.loads(store_p.read_text(encoding="utf-8")) if store_p.exists() else {}
@@ -289,7 +404,7 @@ def main():
             if line.strip():
                 log.append(json.loads(line))
 
-    data = {"companies": companies, "imgs": IMGS, "terms": terms, "log": log}
+    data = {"companies": companies, "imgs": IMGS, "terms": terms, "log": log, **extra_data()}
     tpl = (WEB / "template.html").read_text(encoding="utf-8")
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     html = tpl.replace("/*__DATA__*/null", payload)
