@@ -280,6 +280,252 @@
    ]
   },
   {
+   "code": "범위",
+   "title": "사업 범위와 넓힌 순서",
+   "lines": [
+    {
+     "id": "rh-0189",
+     "disp": "Robinhood 범위-1",
+     "level": "●",
+     "text": "주장 : 주식 앱에 가상자산, 선물, 해외를 인가와 인수로 쌓은 뒤 토큰을 얹음",
+     "color": "black",
+     "fact_ids": [
+      "F-0243",
+      "F-0605",
+      "F-0610"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0190",
+     "disp": "Robinhood 범위-2",
+     "level": "●",
+     "text": "자산(무엇을 어떤 순서로 더했나)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0191",
+     "disp": "Robinhood 범위-3",
+     "level": "★",
+     "text": "2013 미국 주식 : 직접 등록(RHF)",
+     "color": "black",
+     "fact_ids": [
+      "F-0243"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0192",
+     "disp": "Robinhood 범위-4",
+     "level": "★",
+     "text": "2019-01 가상자산 : 뉴욕주 직접 등록",
+     "color": "black",
+     "fact_ids": [
+      "F-0257"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0193",
+     "disp": "Robinhood 범위-5",
+     "level": "★",
+     "text": "2025-06 가상자산 거래소 : Bitstamp 인수",
+     "color": "black",
+     "fact_ids": [
+      "F-0605"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0194",
+     "disp": "Robinhood 범위-6",
+     "level": "★",
+     "text": "2026-01 선물, 예측시장 거래소 : MIAXdx 90% 인수",
+     "color": "black",
+     "fact_ids": [
+      "F-0610"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0195",
+     "disp": "Robinhood 범위-7",
+     "level": "●",
+     "text": "자산 2",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0196",
+     "disp": "Robinhood 범위-8",
+     "level": "★",
+     "text": "선물 중개 : 직접(Robinhood Derivatives)",
+     "color": "black",
+     "fact_ids": [
+      "F-0591"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0197",
+     "disp": "Robinhood 범위-9",
+     "level": "★",
+     "text": "2025-06 EU 주식 토큰, OpenAI 등 비상장 토큰 : 직접",
+     "color": "black",
+     "fact_ids": [
+      "F-0221",
+      "F-0222"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0198",
+     "disp": "Robinhood 범위-10",
+     "level": "★",
+     "text": "EU 머니마켓펀드 접근 : J.P. Morgan 제휴",
+     "color": "black",
+     "fact_ids": [
+      "F-0660"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0199",
+     "disp": "Robinhood 범위-11",
+     "level": "★",
+     "text": "2026-07 자체 체인, 지갑판 토큰 : 직접",
+     "color": "black",
+     "fact_ids": [
+      "F-0666",
+      "F-0630"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0200",
+     "disp": "Robinhood 범위-12",
+     "level": "●",
+     "text": "고객(개인에서 기관으로)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0201",
+     "disp": "Robinhood 범위-13",
+     "level": "★",
+     "text": "2013 개인 앱 : 직접, 2026 Q3 고객 2,870만 명(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-0581",
+      "F-0622"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0202",
+     "disp": "Robinhood 범위-14",
+     "level": "★",
+     "text": "2025-02 RIA용 수탁 플랫폼 : TradePMR 인수",
+     "color": "black",
+     "fact_ids": [
+      "F-0603"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0203",
+     "disp": "Robinhood 범위-15",
+     "level": "★",
+     "text": "2025-03 관리계좌 개인 : Strategies 직접 출시",
+     "color": "black",
+     "fact_ids": [
+      "F-0604",
+      "F-0593"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0204",
+     "disp": "Robinhood 범위-16",
+     "level": "●",
+     "text": "시장(어느 나라로)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0205",
+     "disp": "Robinhood 범위-17",
+     "level": "★",
+     "text": "2025-06 EU : 리투아니아 직접 인가, Bitstamp 인수",
+     "color": "black",
+     "fact_ids": [
+      "F-0213",
+      "F-0605"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0206",
+     "disp": "Robinhood 범위-18",
+     "level": "★",
+     "text": "2026-06 캐나다 : WonderFi 인수",
+     "color": "black",
+     "fact_ids": [
+      "F-0608",
+      "F-0614"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0207",
+     "disp": "Robinhood 범위-19",
+     "level": "★",
+     "text": "2026-07 120개국 지갑판 : 직접",
+     "color": "black",
+     "fact_ids": [
+      "F-0637"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0208",
+     "disp": "Robinhood 범위-20",
+     "level": "★",
+     "text": "2026 영국 가상자산 : 직접 출시",
+     "color": "black",
+     "fact_ids": [
+      "F-0620"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
    "code": "발언",
    "title": "경영진 발언",
    "lines": [
@@ -903,8 +1149,68 @@
      "notes": []
     },
     {
-     "id": "rh-0154",
+     "id": "rh-0209",
      "disp": "Robinhood B-24",
+     "level": "●",
+     "text": "평가",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0210",
+     "disp": "Robinhood B-25",
+     "level": "★",
+     "text": "유동성 분산 : 지갑판과 EU판이 따로, EU판은 이전 불가",
+     "color": "black",
+     "fact_ids": [
+      "F-0992",
+      "F-0993",
+      "F-0649"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0211",
+     "disp": "Robinhood B-26",
+     "level": "★",
+     "text": "블록체인 위 활용 : 지갑판은 체인에서 담보 사용 가능",
+     "color": "black",
+     "fact_ids": [
+      "F-0227"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0212",
+     "disp": "Robinhood B-27",
+     "level": "★",
+     "text": "제3자 위험 : 발행사 RHJ는 비규제 법인",
+     "color": "black",
+     "fact_ids": [
+      "F-0854"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0213",
+     "disp": "Robinhood B-28",
+     "level": "★",
+     "text": "제3자 위험 : 1차 청약은 Bitstamp Global 한 곳",
+     "color": "black",
+     "fact_ids": [
+      "F-0871"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0154",
+     "disp": "Robinhood B-29",
      "level": "●",
      "text": "제3자 시각",
      "color": "black",
@@ -914,7 +1220,7 @@
     },
     {
      "id": "rh-0155",
-     "disp": "Robinhood B-25",
+     "disp": "Robinhood B-30",
      "level": "★",
      "text": "EU 법인이 원주 사고 파생계약 토큰 지급(포필러스, Securitize 후원, 2026-02 기준이라 지갑판 이전)",
      "color": "orange",
@@ -926,7 +1232,7 @@
     },
     {
      "id": "rh-0156",
-     "disp": "Robinhood B-26",
+     "disp": "Robinhood B-31",
      "level": "★",
      "text": "투자자는 EU 법인 상대 계약상 청구권 보유(포필러스, Securitize 후원)",
      "color": "orange",
@@ -938,7 +1244,7 @@
     },
     {
      "id": "rh-0157",
-     "disp": "Robinhood B-27",
+     "disp": "Robinhood B-32",
      "level": "그림",
      "images": [
       {
@@ -949,7 +1255,7 @@
     },
     {
      "id": "rh-0158",
-     "disp": "Robinhood B-28",
+     "disp": "Robinhood B-33",
      "level": "그림",
      "images": [
       {
@@ -1177,8 +1483,54 @@
      "notes": []
     },
     {
-     "id": "rh-0159",
+     "id": "rh-0214",
      "disp": "Robinhood D-11",
+     "level": "●",
+     "text": "가격과 유동성 장치",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0215",
+     "disp": "Robinhood D-12",
+     "level": "★",
+     "text": "가격 기준 : 상환금액은 기초자산 시장가격",
+     "color": "black",
+     "fact_ids": [
+      "F-0860"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0216",
+     "disp": "Robinhood D-13",
+     "level": "★",
+     "text": "유동성 공급 : 일반 투자자는 AP 아닌 2차 시장에서 매매",
+     "color": "black",
+     "fact_ids": [
+      "F-0872"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0217",
+     "disp": "Robinhood D-14",
+     "level": "★",
+     "text": "상환과 수렴 : 괴리 5% 7영업일 연속이면 공시",
+     "color": "black",
+     "fact_ids": [
+      "F-0891"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0159",
+     "disp": "Robinhood D-15",
      "level": "●",
      "text": "제3자 시각",
      "color": "black",
@@ -1188,7 +1540,7 @@
     },
     {
      "id": "rh-0160",
-     "disp": "Robinhood D-12",
+     "disp": "Robinhood D-16",
      "level": "★",
      "text": "담보 서비스 없음, 원주 상환 불가(포필러스, Securitize 후원, 2026-02 기준)",
      "color": "orange",
@@ -1200,7 +1552,7 @@
     },
     {
      "id": "rh-0161",
-     "disp": "Robinhood D-13",
+     "disp": "Robinhood D-17",
      "level": "★",
      "text": "앱 안에서만 거래, 회사가 상대방 겸 유동성 공급자(포필러스, Securitize 후원)",
      "color": "orange",
@@ -1212,7 +1564,7 @@
     },
     {
      "id": "rh-0162",
-     "disp": "Robinhood D-14",
+     "disp": "Robinhood D-18",
      "level": "★",
      "text": "출금 제한으로 자산이 자체 플랫폼에 머문다는 보도, 지갑판 출시 전 상태(Finance Magnates, 2026-03)",
      "color": "black",
@@ -1224,7 +1576,7 @@
     },
     {
      "id": "rh-0163",
-     "disp": "Robinhood D-15",
+     "disp": "Robinhood D-19",
      "level": "그림",
      "images": [
       {
@@ -2054,14 +2406,15 @@
      "notes": []
     },
     {
-     "id": "rh-0141",
+     "id": "rh-0218",
      "disp": "Robinhood 판단-34",
      "level": "★",
-     "text": "받치는 명제 : Borderless Investing",
+     "text": "확장 축 : 시장(해외), 자산(비상장주식)",
      "color": "black",
      "fact_ids": [
-      "F-0637",
-      "F-0615"
+      "F-0213",
+      "F-0605",
+      "F-0222"
      ],
      "confirmed": false,
      "notes": []

@@ -242,6 +242,247 @@
    ]
   },
   {
+   "code": "범위",
+   "title": "사업 범위와 넓힌 순서",
+   "lines": [
+    {
+     "id": "dn-0161",
+     "disp": "Dinari 범위-1",
+     "level": "●",
+     "text": "주장 : 해외 파트너 판매로 시작해 증권사를 직접 등록해 미국으로",
+     "color": "black",
+     "fact_ids": [
+      "F-0273",
+      "F-0116",
+      "F-1131"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0162",
+     "disp": "Dinari 범위-2",
+     "level": "●",
+     "text": "자산(무엇을 어떤 순서로 더했나)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0163",
+     "disp": "Dinari 범위-3",
+     "level": "★",
+     "text": "2023-08 미국 주식 토큰(dShares) : 직접 발행",
+     "color": "black",
+     "fact_ids": [
+      "F-0273"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0164",
+     "disp": "Dinari 범위-4",
+     "level": "★",
+     "text": "USD+ 국채 담보 달러 토큰 : 직접 발행",
+     "color": "black",
+     "fact_ids": [
+      "F-0327"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0165",
+     "disp": "Dinari 범위-5",
+     "level": "★",
+     "text": "2025-06 증권사 : Dinari Securities 직접 등록",
+     "color": "black",
+     "fact_ids": [
+      "F-0116"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0166",
+     "disp": "Dinari 범위-6",
+     "level": "★",
+     "text": "명의개서대리인 : Dinari, Inc. 직접 보유(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-1055"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0167",
+     "disp": "Dinari 범위-7",
+     "level": "●",
+     "text": "자산 2(인프라)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0168",
+     "disp": "Dinari 범위-8",
+     "level": "★",
+     "text": "2025-08 Dinari Financial Network : 직접 구축",
+     "color": "black",
+     "fact_ids": [
+      "F-0282"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0169",
+     "disp": "Dinari 범위-9",
+     "level": "★",
+     "text": "청산, 결제 : Alpaca 위탁",
+     "color": "black",
+     "fact_ids": [
+      "F-0315"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0170",
+     "disp": "Dinari 범위-10",
+     "level": "★",
+     "text": "2026-07 브로커리지, 수탁 : tZERO 제휴",
+     "color": "orange",
+     "fact_ids": [
+      "F-0288"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0171",
+     "disp": "Dinari 범위-11",
+     "level": "●",
+     "text": "고객(파트너에서 증권사로)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0172",
+     "disp": "Dinari 범위-12",
+     "level": "★",
+     "text": "2023-08 미국 밖 투자자 : 파트너 앱 경유",
+     "color": "black",
+     "fact_ids": [
+      "F-0273",
+      "F-0332"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0173",
+     "disp": "Dinari 범위-13",
+     "level": "★",
+     "text": "2024-02 기업, 핀테크 : B2B API 직접",
+     "color": "black",
+     "fact_ids": [
+      "F-0277"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0174",
+     "disp": "Dinari 범위-14",
+     "level": "★",
+     "text": "2026-07 증권사 : tZERO 제휴로 공급",
+     "color": "orange",
+     "fact_ids": [
+      "F-0288"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0175",
+     "disp": "Dinari 범위-15",
+     "level": "★",
+     "text": "2026-08 미국 적격 투자자, 사업자 : 직접",
+     "color": "black",
+     "fact_ids": [
+      "F-1131"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0176",
+     "disp": "Dinari 범위-16",
+     "level": "●",
+     "text": "시장(어느 나라로)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0177",
+     "disp": "Dinari 범위-17",
+     "level": "★",
+     "text": "2023-08 미국 밖 : dShares 직접 출시",
+     "color": "black",
+     "fact_ids": [
+      "F-0273"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0178",
+     "disp": "Dinari 범위-18",
+     "level": "★",
+     "text": "2025-06 미국 : 증권사 직접 등록",
+     "color": "black",
+     "fact_ids": [
+      "F-0116"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0179",
+     "disp": "Dinari 범위-19",
+     "level": "★",
+     "text": "2026-08 미국 판매 : 724종 직접",
+     "color": "black",
+     "fact_ids": [
+      "F-1131"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0180",
+     "disp": "Dinari 범위-20",
+     "level": "★",
+     "text": "2026-09 한국 : 카카오페이증권 협약(제휴)",
+     "color": "black",
+     "fact_ids": [
+      "F-0131"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
    "code": "발언",
    "title": "경영진 발언",
    "lines": [
@@ -802,6 +1043,56 @@
        "caption": "간접 방식 흐름, Dinari는 미국 밖판에만 해당(포필러스, Securitize 후원, 2026-02)"
       }
      ]
+    },
+    {
+     "id": "dn-0181",
+     "disp": "Dinari B-26",
+     "level": "●",
+     "text": "평가",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0182",
+     "disp": "Dinari B-27",
+     "level": "★",
+     "text": "유동성 분산 : 7개 체인 지원, 체인 간 유동성은 DFN이 연결",
+     "color": "black",
+     "fact_ids": [
+      "F-0344",
+      "F-0282"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0183",
+     "disp": "Dinari B-28",
+     "level": "★",
+     "text": "블록체인 위 활용 : 배당은 USD+ 지급, 제한 지역 이전은 코드 차단",
+     "color": "black",
+     "fact_ids": [
+      "F-0308",
+      "F-0270"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0184",
+     "disp": "Dinari B-29",
+     "level": "★",
+     "text": "제3자 위험 : 청산, 보관은 Alpaca, SIPC 밖, 동결 권한 보유",
+     "color": "black",
+     "fact_ids": [
+      "F-0315",
+      "F-0292",
+      "F-0320"
+     ],
+     "confirmed": false,
+     "notes": []
     }
    ]
   },
@@ -991,8 +1282,55 @@
      "notes": []
     },
     {
-     "id": "dn-0139",
+     "id": "dn-0185",
      "disp": "Dinari D-10",
+     "level": "●",
+     "text": "가격과 유동성 장치",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0186",
+     "disp": "Dinari D-11",
+     "level": "★",
+     "text": "가격 기준 : 기초 주식 주문을 Alpaca로 보내 최선집행",
+     "color": "black",
+     "fact_ids": [
+      "F-0318"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0187",
+     "disp": "Dinari D-12",
+     "level": "★",
+     "text": "유동성 공급 : 장외 시간 Flow Traders(시장조성사)",
+     "color": "black",
+     "fact_ids": [
+      "F-1036"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0188",
+     "disp": "Dinari D-13",
+     "level": "★",
+     "text": "상환과 수렴 : 소각으로 직접 환매, 발행과 소각은 주문 완료 뒤",
+     "color": "black",
+     "fact_ids": [
+      "F-0306",
+      "F-0326"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "dn-0139",
+     "disp": "Dinari D-14",
      "level": "●",
      "text": "제3자 시각",
      "color": "black",
@@ -1002,7 +1340,7 @@
     },
     {
      "id": "dn-0140",
-     "disp": "Dinari D-11",
+     "disp": "Dinari D-15",
      "level": "★",
      "text": "토큰은 Dinari 등록 이용자끼리만 이전(포필러스, Securitize 후원, 2026-02 기준)",
      "color": "orange",
@@ -1014,7 +1352,7 @@
     },
     {
      "id": "dn-0141",
-     "disp": "Dinari D-12",
+     "disp": "Dinari D-16",
      "level": "★",
      "text": "배당은 USD+ 스테이블코인으로 지급(포필러스, Securitize 후원)",
      "color": "orange",
@@ -1026,7 +1364,7 @@
     },
     {
      "id": "dn-0142",
-     "disp": "Dinari D-13",
+     "disp": "Dinari D-17",
      "level": "그림",
      "images": [
       {
@@ -1683,22 +2021,22 @@
      "id": "dn-0108",
      "disp": "Dinari 판단-25",
      "level": "●",
-     "text": "KDX 시사점 1",
+     "text": "KDX 시사점",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "dn-0120",
+     "id": "dn-0189",
      "disp": "Dinari 판단-26",
      "level": "★",
-     "text": "받치는 명제 : 시장 인프라 Unbundling",
+     "text": "확장 축 : 고객(기관), 시장(해외)",
      "color": "black",
      "fact_ids": [
-      "F-1055",
-      "F-0116",
-      "F-0315"
+      "F-0277",
+      "F-0288",
+      "F-0273"
      ],
      "confirmed": false,
      "notes": []
@@ -1707,71 +2045,25 @@
      "id": "dn-0109",
      "disp": "Dinari 판단-27",
      "level": "★",
-     "text": "KDX가 가져올 것 : 기록, 중개는 직접, 청산, 보관은 위탁",
+     "text": "KDX가 가져올 것 : 기록, 중개는 직접, 청산, 보관은 위탁, 파트너 API 공급",
      "color": "black",
      "fact_ids": [
       "F-1055",
       "F-0116",
-      "F-0315"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "dn-0121",
-     "disp": "Dinari 판단-28",
-     "level": "★",
-     "text": "KDX가 피할 것 : 회사가 동결, 소각 권한을 쥔 토큰 구조",
-     "color": "black",
-     "fact_ids": [
-      "F-0320"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "dn-0122",
-     "disp": "Dinari 판단-29",
-     "level": "●",
-     "text": "KDX 시사점 2",
-     "color": "black",
-     "fact_ids": [],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "dn-0123",
-     "disp": "Dinari 판단-30",
-     "level": "★",
-     "text": "받치는 명제 : Coopetition",
-     "color": "black",
-     "fact_ids": [
-      "F-0288",
-      "F-0131"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "dn-0124",
-     "disp": "Dinari 판단-31",
-     "level": "★",
-     "text": "KDX가 가져올 것 : 기존 사업자(tZERO, 카카오페이증권)와 협력",
-     "color": "orange",
-     "fact_ids": [
-      "F-0288",
-      "F-0131"
+      "F-0315",
+      "F-0332"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "dn-0125",
-     "disp": "Dinari 판단-32",
+     "disp": "Dinari 판단-28",
      "level": "★",
-     "text": "KDX가 피할 것 : 증권사 채널 없이 직접 화면만 키우는 길",
+     "text": "KDX가 피할 것 : 동결 권한 토큰 구조, 증권사 채널 없는 직접 화면",
      "color": "black",
      "fact_ids": [
+      "F-0320",
       "F-0289"
      ],
      "confirmed": false,
@@ -1779,7 +2071,7 @@
     },
     {
      "id": "dn-0126",
-     "disp": "Dinari 판단-33",
+     "disp": "Dinari 판단-29",
      "level": "●",
      "text": "해외 확장 세 질문",
      "color": "black",
@@ -1789,7 +2081,7 @@
     },
     {
      "id": "dn-0127",
-     "disp": "Dinari 판단-34",
+     "disp": "Dinari 판단-30",
      "level": "★",
      "text": "제공 가치 : 한국 주식의 해외 접근",
      "color": "black",
@@ -1801,7 +2093,7 @@
     },
     {
      "id": "dn-0128",
-     "disp": "Dinari 판단-35",
+     "disp": "Dinari 판단-31",
      "level": "★",
      "text": "제도 : 원주를 해외투자자 통합계좌로 조달, 1:1 발행 검증",
      "color": "black",
@@ -1813,7 +2105,7 @@
     },
     {
      "id": "dn-0129",
-     "disp": "Dinari 판단-36",
+     "disp": "Dinari 판단-32",
      "level": "★",
      "text": "경제성 : 파트너 API 월 2,000달러부터, 주문당 0.20달러",
      "color": "black",

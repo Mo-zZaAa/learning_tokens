@@ -111,3 +111,9 @@
 - 내보내기: web/export.py → export/handoff_to_chat.zip.
 - tools/merge_db.py 버그 수정: MANUAL verdicts가 VER-*보다 먼저 읽혀 지던 문제. FIX-CO 판정은 work/VER-ZZ-FIXCO(마지막에 읽힘).
 - 남은 것: Coinbase 설립, 창업자, 미션 공식 문장(coinbase.com 403), Coinbase 선물 중개(NFA 미확인), Ondo EU 투자설명서 갱신(FMA PDF 목록 확인 필요), 2026-09 종목 중단 회사 직접 공지(삼성증권 410, Blue Ocean 404), "15개월"은 실제 14개월 19일이라 "약 15개월"로 씀.
+
+## 10. 제3자 보고서와 틀 보완 (2026-11-16)
+- 제3자 자료: inputs/reports(묶음), db/third_party.csv(TP 번호, 사실 DB와 분리), captures/reports(그림 21장, quotes/ 인용 캡처). 지시 TP_BRIEF.md. 8절 확인 kb/tp_check.md, 7절 kb/regulation_compare.md "제3자 자료로 본 쟁점".
+- 틀 보완: 회사마다 "## 사업 범위와 넓힌 순서"(자산, 고객, 시장), D "가격과 유동성 장치", B "평가", KDX 시사점 첫 줄 "확장 축". 지시 SCOPE_BRIEF.md, 축 재료 work/SCOPE-*/axis.csv → tools/compile_axis.py → db/cross_axis.csv, kb/cross.md 9절.
+- 대체재: kb/perp_vs_spot.md(cross.md 8절).
+- 남은 빈칸: Ondo OUSG, USDY 출시 연월(ondo.finance 접속 실패), Binance 국채 토큰 담보와 기관 사업, Coinbase 예측시장과 Prime 시점, Kraken 예측시장, 거래소별 주식 무기한선물 공식 합계(Binance 451, Bybit 403).

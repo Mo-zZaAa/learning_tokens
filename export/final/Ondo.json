@@ -263,6 +263,229 @@
    ]
   },
   {
+   "code": "범위",
+   "title": "사업 범위와 넓힌 순서",
+   "lines": [
+    {
+     "id": "on-0189",
+     "disp": "Ondo 범위-1",
+     "level": "●",
+     "text": "주장 : 국채 토큰으로 시작해 인수로 인가를 사고 주식 토큰은 미국 밖부터",
+     "color": "black",
+     "fact_ids": [
+      "F-0509",
+      "F-1047",
+      "F-0197"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0190",
+     "disp": "Ondo 범위-2",
+     "level": "●",
+     "text": "자산(무엇을 어떤 순서로 더했나)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0191",
+     "disp": "Ondo 범위-3",
+     "level": "★",
+     "text": "국채 토큰 : OUSG, USDY 직접 발행",
+     "color": "black",
+     "fact_ids": [
+      "F-0465",
+      "F-0509",
+      "F-0524"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0192",
+     "disp": "Ondo 범위-4",
+     "level": "★",
+     "text": "2025-09 주식 토큰 : BVI 법인으로 직접 발행",
+     "color": "black",
+     "fact_ids": [
+      "F-0185",
+      "F-0197"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0193",
+     "disp": "Ondo 범위-5",
+     "level": "★",
+     "text": "2025-10 미국 증권사, ATS, 명의개서 : Oasis Pro 인수",
+     "color": "black",
+     "fact_ids": [
+      "F-1047"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0194",
+     "disp": "Ondo 범위-6",
+     "level": "★",
+     "text": "2026-07 미국용 보관형 : Oasis Pro 명의개서 활용",
+     "color": "black",
+     "fact_ids": [
+      "F-1128"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0195",
+     "disp": "Ondo 범위-7",
+     "level": "●",
+     "text": "자산 2(자문, 제휴 상품)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0196",
+     "disp": "Ondo 범위-8",
+     "level": "★",
+     "text": "OUSG 자문 : Ondo Capital Management, SEC 등록",
+     "color": "black",
+     "fact_ids": [
+      "F-0535",
+      "F-0534"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0197",
+     "disp": "Ondo 범위-9",
+     "level": "★",
+     "text": "2026-09 BlackRock 전략 포트폴리오 3종 : 제휴",
+     "color": "black",
+     "fact_ids": [
+      "F-0461"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0198",
+     "disp": "Ondo 범위-10",
+     "level": "●",
+     "text": "고객(개인과 기관)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0199",
+     "disp": "Ondo 범위-11",
+     "level": "★",
+     "text": "OUSG : 미국 적격투자자 대상, 직접",
+     "color": "black",
+     "fact_ids": [
+      "F-0532"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0200",
+     "disp": "Ondo 범위-12",
+     "level": "★",
+     "text": "USDY : 적격 비미국인 개인과 기관, 직접",
+     "color": "black",
+     "fact_ids": [
+      "F-0505"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0201",
+     "disp": "Ondo 범위-13",
+     "level": "★",
+     "text": "2025-09 주식 토큰 : 미국 밖 개인과 기관, 직접",
+     "color": "black",
+     "fact_ids": [
+      "F-0566",
+      "F-0197"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0202",
+     "disp": "Ondo 범위-14",
+     "level": "●",
+     "text": "시장(어느 나라로)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0203",
+     "disp": "Ondo 범위-15",
+     "level": "★",
+     "text": "2025-09 미국 밖 : BVI 발행, Regulation S 직접",
+     "color": "black",
+     "fact_ids": [
+      "F-0197",
+      "F-0560"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0204",
+     "disp": "Ondo 범위-16",
+     "level": "★",
+     "text": "2025-10 아시아, 중남미 : BNB 체인 확장(직접)",
+     "color": "black",
+     "fact_ids": [
+      "F-1052"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0205",
+     "disp": "Ondo 범위-17",
+     "level": "★",
+     "text": "2025-11 EU : FMA 승인 투자설명서(직접)",
+     "color": "black",
+     "fact_ids": [
+      "F-0191"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0206",
+     "disp": "Ondo 범위-18",
+     "level": "★",
+     "text": "2026-09 한국 : 카카오페이증권, 미래에셋 MOU(제휴)",
+     "color": "black",
+     "fact_ids": [
+      "F-0204",
+      "F-0205"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
    "code": "발언",
    "title": "경영진 발언",
    "lines": [
@@ -920,30 +1143,57 @@
      ]
     },
     {
-     "id": "on-0159",
+     "id": "on-0207",
      "disp": "Ondo B-29",
      "level": "●",
-     "text": "제3자 시각(구조)",
+     "text": "평가",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "on-0160",
+     "id": "on-0208",
      "disp": "Ondo B-30",
      "level": "★",
-     "text": "발행사 동의 없음, 토큰은 래퍼, 장부는 SPV (CoinDesk Research, Bullish 의뢰)",
+     "text": "유동성 분산 : 같은 종목도 플랫폼 간 비호환, 3개 체인(포필러스, Securitize 후원)",
+     "color": "orange",
+     "fact_ids": [
+      "TP-203",
+      "F-0574"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0209",
+     "disp": "Ondo B-31",
+     "level": "★",
+     "text": "블록체인 위 활용 : ERC20 이전 허용, LayerZero 브리지로 DeFi 연동 추진",
      "color": "black",
      "fact_ids": [
-      "TP-204"
+      "F-0553",
+      "F-1051"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0160",
+     "disp": "Ondo B-32",
+     "level": "★",
+     "text": "제3자 위험 : 발행사 동의 없는 래퍼, 장부는 SPV(CoinDesk Research, Bullish 의뢰), 담보 대리인 Ankura",
+     "color": "black",
+     "fact_ids": [
+      "TP-204",
+      "F-0573"
      ],
      "confirmed": false,
      "notes": []
     },
     {
      "id": "on-0161",
-     "disp": "Ondo B-31",
+     "disp": "Ondo B-33",
      "level": "●",
      "text": "미국용 보관형(2026-07, 별도 상품)",
      "color": "black",
@@ -953,7 +1203,7 @@
     },
     {
      "id": "on-0162",
-     "disp": "Ondo B-32",
+     "disp": "Ondo B-34",
      "level": "★",
      "text": "Oasis Pro 명의개서대리인이 IVV, MU 2종 토큰 발행",
      "color": "black",
@@ -965,7 +1215,7 @@
     },
     {
      "id": "on-0163",
-     "disp": "Ondo B-33",
+     "disp": "Ondo B-35",
      "level": "★",
      "text": "우리 분류 : 보관형. 매수 대상 범위는 발표에 없음",
      "color": "black",
@@ -978,7 +1228,7 @@
     },
     {
      "id": "on-0164",
-     "disp": "Ondo B-34",
+     "disp": "Ondo B-36",
      "level": "★",
      "text": "위 BVI 상품은 여전히 미국인, 미국 내 주문 금지",
      "color": "black",
@@ -1236,8 +1486,56 @@
      "notes": []
     },
     {
-     "id": "on-0167",
+     "id": "on-0210",
      "disp": "Ondo D-12",
+     "level": "●",
+     "text": "가격과 유동성 장치",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0211",
+     "disp": "Ondo D-13",
+     "level": "★",
+     "text": "가격 기준 : 기초 주식 매매가, 견적 차이는 Ondo가 보유",
+     "color": "black",
+     "fact_ids": [
+      "F-0546"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0212",
+     "disp": "Ondo D-14",
+     "level": "★",
+     "text": "유동성 공급 : 전통 시장 유동성 승계, 즉시 민트와 소각",
+     "color": "black",
+     "fact_ids": [
+      "F-0541",
+      "F-0570"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0213",
+     "disp": "Ondo D-15",
+     "level": "★",
+     "text": "상환과 수렴 : 현금 가치로 스테이블코인 상환, 수수료 0.05%",
+     "color": "black",
+     "fact_ids": [
+      "F-0481",
+      "F-0545"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0167",
+     "disp": "Ondo D-16",
      "level": "●",
      "text": "제3자 시각(유통)",
      "color": "black",
@@ -1247,7 +1545,7 @@
     },
     {
      "id": "on-0168",
-     "disp": "Ondo D-13",
+     "disp": "Ondo D-17",
      "level": "★",
      "text": "DeFi 연동 가장 깊은 편, 합성 노출 (CoinDesk Research, Bullish 의뢰)",
      "color": "black",
@@ -1972,21 +2270,21 @@
      "id": "on-0126",
      "disp": "Ondo 판단-27",
      "level": "●",
-     "text": "KDX 시사점 1",
+     "text": "KDX 시사점",
      "color": "black",
      "fact_ids": [],
      "confirmed": false,
      "notes": []
     },
     {
-     "id": "on-0141",
+     "id": "on-0214",
      "disp": "Ondo 판단-28",
      "level": "★",
-     "text": "받치는 명제 : Coopetition",
+     "text": "확장 축 : 자산(채권), 시장(해외)",
      "color": "black",
      "fact_ids": [
-      "F-0549",
-      "F-1021"
+      "F-0465",
+      "F-0197"
      ],
      "confirmed": false,
      "notes": []
@@ -1995,7 +2293,7 @@
      "id": "on-0142",
      "disp": "Ondo 판단-29",
      "level": "★",
-     "text": "KDX가 가져올 것 : 거래소, 지갑, DTCC에 공급하는 개방형 연동",
+     "text": "KDX가 가져올 것 : 국채 토큰 고객 위에 해외 거래소, 지갑, DTCC 공급",
      "color": "black",
      "fact_ids": [
       "F-0572",
@@ -2008,58 +2306,10 @@
      "id": "on-0143",
      "disp": "Ondo 판단-30",
      "level": "★",
-     "text": "KDX가 피할 것 : 1위 경쟁자(Binance)에 공급하며 의존",
+     "text": "KDX가 피할 것 : 1위 경쟁자 Binance 의존, 담보 채권 도산 위험 전가",
      "color": "black",
      "fact_ids": [
       "F-0549",
-      "F-1021"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "on-0144",
-     "disp": "Ondo 판단-31",
-     "level": "●",
-     "text": "KDX 시사점 2",
-     "color": "black",
-     "fact_ids": [],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "on-0128",
-     "disp": "Ondo 판단-32",
-     "level": "★",
-     "text": "받치는 명제 : Borderless Investing",
-     "color": "black",
-     "fact_ids": [
-      "F-0478",
-      "F-0553"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "on-0145",
-     "disp": "Ondo 판단-33",
-     "level": "★",
-     "text": "KDX가 가져올 것 : 지갑으로 미국 주식 노출, 외부 지갑 이전 허용",
-     "color": "black",
-     "fact_ids": [
-      "F-0478",
-      "F-0553"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "on-0146",
-     "disp": "Ondo 판단-34",
-     "level": "★",
-     "text": "KDX가 피할 것 : 담보 채권 구조의 투자자 도산 위험 전가",
-     "color": "black",
-     "fact_ids": [
       "F-0188"
      ],
      "confirmed": false,
@@ -2067,7 +2317,7 @@
     },
     {
      "id": "on-0147",
-     "disp": "Ondo 판단-35",
+     "disp": "Ondo 판단-31",
      "level": "●",
      "text": "해외 확장 세 질문",
      "color": "black",
@@ -2077,7 +2327,7 @@
     },
     {
      "id": "on-0148",
-     "disp": "Ondo 판단-36",
+     "disp": "Ondo 판단-32",
      "level": "★",
      "text": "제공 가치 : 한국 주식의 해외 유통",
      "color": "black",
@@ -2089,7 +2339,7 @@
     },
     {
      "id": "on-0149",
-     "disp": "Ondo 판단-37",
+     "disp": "Ondo 판단-33",
      "level": "★",
      "text": "제도 : 카카오페이증권이 외국인 통합계좌로 원주 조달",
      "color": "black",
@@ -2101,7 +2351,7 @@
     },
     {
      "id": "on-0150",
-     "disp": "Ondo 판단-38",
+     "disp": "Ondo 판단-34",
      "level": "★",
      "text": "경제성 : 발행 수수료 없음, 상환 수수료 0.05%",
      "color": "black",
