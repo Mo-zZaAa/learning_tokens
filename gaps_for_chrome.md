@@ -70,49 +70,39 @@
 
 ## D. 깊이
 
-### G9. Ondo 국채 토큰 과거 잔액 추이
-- 질문: OUSG, USDY 발행 잔액과 국채 토큰 시장 규모의 2025년, 2026-01 시점 값은?
-- 이미 본 출처: 2026-11-13, 11-16 값 F-1315, F-1318, F-1320~F-1322
-- 찾을 곳: https://app.rwa.xyz/treasuries (기간 선택 차트), https://defillama.com/protocol/ondo-finance (제3자 TVL 차트), https://ondo.finance 홈 TVL, 구글 "tokenized treasuries market size 2025 Ondo share". LOCAL_GOOGLE_TASK #18과 합침
+### G9. Ondo 국채 토큰 과거 점유율
+- 2026-11-17 Chrome 결과로 채운 것: 시장 규모 2025-01 39.5억 달러, 2026-01 88.6억 달러(F-1391, CryptoSlate). 남은 것: 같은 시점의 Ondo 잔액과 점유율
+- 질문: 2025-01, 2026-01 시점 OUSG, USDY 잔액(또는 Ondo 합계)은?
+- 찾을 곳: Ondo 분기 블로그나 보도자료의 잔액 언급, 매체 기사(The Block, CoinDesk)의 "Ondo ... billion" 문장, 구글 "Ondo OUSG USDY AUM January 2026"
 - 채울 곳: Ondo, 국채 토큰 사업 "발행 잔액과 시장 내 위치"
-- 브라우저가 필요한 이유: 차트는 동적 렌더링이고 과거 시점은 로그인이나 별도 경로 필요. 캡처에 날짜가 보이게
+- 브라우저가 필요한 이유: rwa.xyz 과거 점유율은 로그인 필요(2026-11-17 확인). 로그인 없이 볼 수 있는 기사나 회사 글로 대신
 
-### G10. Robinhood 비상장 토큰의 개별 약관, 규모, 감독기관 후속
-- 질문: OpenAI, SpaceX 토큰의 약관상 권리, 발행 규모, 리투아니아 중앙은행 조회의 결과, 지금도 제공되는가?
-- 이미 본 출처: F-0222, F-1327~F-1329(2025-07-07까지)
-- 찾을 곳: https://robinhood.com/eu/en/support 와 https://docs.robinhood.com/rhj/ 의 Final Terms 목록, https://www.lb.lt (리투아니아 중앙은행 보도자료), 구글 "Robinhood OpenAI token Bank of Lithuania outcome". LOCAL_GOOGLE_TASK #12와 합침
-- 채울 곳: Robinhood, B 상품 구조 비상장 토큰, 제약과 리스크
-- 브라우저가 필요한 이유: Final Terms 목록이 동적 로딩이고 investors.robinhood.com은 클라우드 403
+### G10. Robinhood 비상장 토큰의 개별 약관과 감독기관 후속
+- 2026-11-17 Chrome 결과로 채운 것: 2025-07 리투아니아 중앙은행 해명 요청(F-1384), 2026-07 Stock Tokens 개편과 1세대 Classic 이름 변경(F-1385). 남은 것: 최종 결론, OpenAI 토큰 지금 제공 여부
+- 질문: 리투아니아 중앙은행이 결론이나 조치를 발표했나? OpenAI, SpaceX 토큰을 지금도 제공하나?
+- 찾을 곳: https://www.lb.lt 보도자료 검색 "Robinhood", 구글 "Lietuvos bankas Robinhood", Robinhood EU 지원 페이지의 private company tokens 문서
+- 채울 곳: Robinhood, 비상장 회사 토큰과 사모 접근
+- 브라우저가 필요한 이유: lb.lt 검색 화면과 Robinhood 지원 페이지가 동적
 
 ## E. 자료
 
-### G11. Binance 연간 이용자와 거래대금, 매출
-- 질문: 활성 이용자 수, 연간 거래대금(현물과 선물 구분, 산정 방식), 매출 공개 값은?
-- 이미 본 출처: F-1201(등록 3.2억), F-0675, F-0674(about 페이지 표기, 단일 출처)
-- 찾을 곳: https://www.binance.com/en/about, 구글 "Binance 2025 annual report users trading volume revenue". LOCAL_GOOGLE_TASK #14와 합침
-- 채울 곳: Binance, 회사 개요 본업과 규모
-- 브라우저가 필요한 이유: binance.com 클라우드 405(봇 확인), 동적 페이지
+(G11 Binance 이용자와 거래대금, G13 Dinari 매출과 고객 수는 2026-11-17 Chrome 결과로 닫음. Binance 매출과 Dinari 매출, 고객 수는 회사 비공개로 확인)
 
-### G12. Ondo 고객 수와 매출
-- 질문: Ondo 보유자 수, 매출, 전체 TVL의 회사 공개 값이나 신뢰할 수 있는 매체 값은?
-- 이미 본 출처: 시장 전체 보유자 86,310(F-1320), DefiLlama fees F-1326(제3자). 블로그 209건에서 공개 수치 없음
-- 찾을 곳: https://ondo.finance 홈, https://defillama.com/protocol/ondo-finance, https://app.rwa.xyz/platforms/ondo, 구글 "Ondo Finance holders number TVL 2026". LOCAL_GOOGLE_TASK #17과 합침
+
+### G12. Ondo 매출
+- 2026-11-17 Chrome 결과로 채운 것: 보유자 200,645명(F-1390). 남은 것: 회사가 공개한 매출(매체 집계 1,326만 달러는 추정이라 쓰지 않음)
+- 질문: Ondo가 직접 밝힌 매출이나 수수료 수입 값이 있나?
+- 찾을 곳: Ondo 블로그 연간 회고, Ondo 재단 거버넌스 보고, 구글 "Ondo Finance revenue 2026"
 - 채울 곳: Ondo, 회사 개요 본업과 규모
-- 브라우저가 필요한 이유: rwa.xyz 세부 열은 로그인과 동적 화면
+- 브라우저가 필요한 이유: 검색 결과를 넘겨 가며 원문을 찾아야 함
 
-### G13. Dinari 매출, 고객 수, 거래 규모
-- 질문: 회사 또는 매체가 낸 매출, 고객 수, 파트너 수, 거래액은?
-- 이미 본 출처: F-0128, F-1027, F-1031, F-1333(제3자), F-0350. 매출과 고객 수는 회사 비공개 표시
-- 찾을 곳: https://dinari.com/blog, https://www.rwa.xyz/ 토큰화 주식 플랫폼 표, 구글 "Dinari dShares partners number revenue Series A investors". LOCAL_GOOGLE_TASK #20과 합침
-- 채울 곳: Dinari, 회사 개요 본업과 규모
-- 브라우저가 필요한 이유: 동적 페이지와 검색 화면
 
-### G14. 야간 ATS 3곳의 수수료와 수익 구조
-- 질문: Blue Ocean, Bruce, MOON의 구독 브로커 대상 수수료, 구독자 수, 시세 판매 수익은? Form ATS-N Part III 수수료와 공정접근 항목은?
-- 이미 본 출처: F-1294(Interactive Brokers 요율표, 단일 출처), F-1302, F-1183, F-1298. Form ATS-N 원문은 못 열음
-- 찾을 곳: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=ATS-N (EDGAR 회사 검색), https://www.interactivebrokers.com/en/accounts/fees/blueocean-ats.php, https://www.blueocean-tech.io, https://www.brucemarkets.com, https://www.otcmarkets.com (MOON ATS). LOCAL_GOOGLE_TASK #21~24와 합침
-- 채울 곳: Blue Ocean, Bruce, MOON, 거래 시설 운영 "수수료와 수익원"
-- 브라우저가 필요한 이유: sec.gov 클라우드 403, otcmarkets.com이 셸에서 열리지 않음, 원문이 PDF
+### G14. Bruce와 MOON의 구독사 수와 공정접근 대응
+- 2026-11-17 Chrome 결과로 채운 것: 3곳 요금(F-1394, F-1396, F-1398), Blue Ocean 증권사 140곳 이상과 한국 비중 35%(F-1395), OTC Markets 주주(F-1399). 남은 것: Bruce, MOON 구독사 수와 공정접근 대응
+- 질문: Bruce, MOON의 구독 증권사 수는? Form ATS-N의 공정접근(Reg ATS 301(b)(5)) 관련 답은?
+- 찾을 곳: SEC EDGAR Form ATS-N 원문의 Part III(구독자 자격, 공정접근 항목), Bruce와 OTC Markets 보도자료의 "brokers"
+- 채울 곳: Bruce, MOON, 거래 시설 운영
+- 브라우저가 필요한 이유: sec.gov 클라우드 403
 
 ### G15. Dinari 미국판 대상 서술의 불일치
 - 질문: 미국판 이용 자격은 "적격 미국 투자자와 사업자"인가 "만 18세 이상 미국 거주 개인"인가, 둘 다인가?
