@@ -1,0 +1,6 @@
+- 상황 : Ondo OUSG, USDY 상품 구조와 포트폴리오 비중, 수수료, 최소 금액 확인 / 막힌 곳 : docs.ondo.finance 하위 경로(ousg/fees 등 추측 URL)는 404, ondo.finance/blog/sec-... 추측 URL도 404 / 통한 방법 : docs.ondo.finance/llms.txt 색인에서 .md 주소를 받아 열람, ondo.finance/sitemap.xml로 블로그 209건 전수 내려받아 grep / 다음에 쓸 때 : Ondo 자료는 llms.txt와 sitemap.xml 먼저 열고 grep
+- 상황 : OUSG 기초자산 비중 / 막힌 곳 : 문서의 FAQ 문장("BUIDL이 압도적 다수")이 갱신 안 됨 / 통한 방법 : ondo.finance/ousg 페이지 HTML의 Portfolio Overview 표(기준일 표시)를 텍스트로 변환 / 다음에 쓸 때 : 비중은 FAQ 말고 표의 숫자와 기준일을 쓰고 충돌이면 충돌 행으로
+- 상황 : 국채 토큰 시장 규모와 발행사 순위 / 막힌 곳 : app.rwa.xyz 세부 열은 로그인 필요, 과거 시점 스냅샷은 archive.org 열람이 권한 거부 / 통한 방법 : app.rwa.xyz/treasuries 서버 렌더 HTML의 리그 테이블과 자산 표에서 값 추출(기준일 표시됨) / 다음에 쓸 때 : 과거 시점은 별도 승인된 경로가 필요하니 처음부터 못 찾음 후보로 둔다
+- 상황 : SEC 조사 종결, Robinhood Ventures 펀드 공시 / 막힌 곳 : www.sec.gov 셸 403(선언되지 않은 자동화 도구 안내) / 통한 방법 : 회사 발표(Ondo 블로그 2025-12-09 본문 articleBody), Robinhood 홈페이지, newsroom 목록 HTML / 다음에 쓸 때 : SEC 확인문이 필요하면 WebFetch로 시도하되 안 되면 회사 발표로 두고 사유 기록
+- 상황 : OpenAI 반박 문장과 리투아니아 중앙은행 대응 / 막힌 곳 : cnbc.com 직접은 열기 어려움 / 통한 방법 : CNBC 머니리포트 전재본(nbcsandiego.com, nbclosangeles.com)에서 원문 인용 확보 / 다음에 쓸 때 : CNBC 기사는 NBC 지역국 전재 주소로
+- 상황 : 비상장 회사 매출과 거래량(Ondo, Dinari) / 막힌 곳 : 회사 공개 수치 없음 / 통한 방법 : api.llama.fi/summary/fees, dexs 응답 JSON(제3자, 단일 출처로 표기) / 다음에 쓸 때 : DefiLlama fees는 회사 매출이 아니므로 반드시 주석을 달고 단일 출처
