@@ -716,6 +716,12 @@ function renderCompare(){
   h += `<h2>제3자 비교표</h2><p class="lead">외부 보고서의 비교표와 구조 그림입니다. 발행처와 입장, 기준 시점을 그림 아래에 적었습니다. 칸 내용이 우리 확인 결과와 다르면 우리 쪽을 따릅니다.</p>` + figsHtml('compare');
   if ((D.cls||[]).length) h += `<h2>우리 분류와 다른 분류</h2><p class="lead">우리 분류는 상품 단위이고, SEC 직원 성명(2026-01-28)의 정의를 약관과 투자설명서에 적용한 것입니다.</p><div class="tbl"><table><thead><tr><th>자료</th><th>그 자료의 구분</th><th>우리 분류와 다른 점</th><th>출처</th></tr></thead><tbody>` +
     D.cls.map((r,i) => `<tr><td><b>${esc(r['자료'])}</b></td><td>${esc(r['그 자료의 구분'])}</td><td>${esc(r['우리 분류와 다른 점'])}</td><td>${srcCell('cl'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>';
+  if ((D.check||[]).length){
+    const CK = ['상장 여부와 시점','기업가치와 주요 주주','대표 상품 이름과 쉬운 뜻','최초와 최대 타이틀','큰 인수(금액)','큰 사고와 제재','고객 수','한국 접점','종목 수'];
+    const cos = []; D.check.forEach(r => { if (!cos.includes(r['회사'])) cos.push(r['회사']); });
+    h += `<h2>회사별 꼭 나와야 할 지점</h2><p class="lead">빈칸은 1차 자료로 확인하지 못한 곳입니다. 회사가 스스로 말한 것은 "(회사 주장)"을 붙였습니다. 칸을 누르면 출처가 나옵니다. Securitize, tZERO는 조사 대상 밖이라 주황입니다.</p><div class="tbl"><table><thead><tr><th>회사</th>${CK.map(k => `<th style="min-width:150px">${k}</th>`).join('')}</tr></thead><tbody>` +
+      cos.map(co => `<tr class="${/Securitize|tZERO/.test(co)?'orange':''}"><td>${coBtn(co.replace('(Payward)','').replace(' ATS',''))}</td>${CK.map(k => { const i = D.check.findIndex(r => r['회사'] === co && r['칸'] === k); const r = D.check[i]; if (!r) return '<td></td>'; const nf = /못 찾음|단일 출처/.test(r['출처 성격']); return `<td data-srcrow="ck${i}" style="cursor:pointer">${nf ? '<span class="detail">자료 없음</span>' : esc(r['내용']) + (r['출처 성격'] === '회사 주장' ? ' <span class="detail">(회사 주장)</span>' : '')}${openSrc.has('ck'+i) ? evHtml(r) + (r['비고']?`<div class="detail">${esc(r['비고'])}</div>`:'') : ''}</td>`; }).join('')}</tr>`).join('') + '</tbody></table></div>';
+  }
   if ((D.axis||[]).length){
     const AX = ['자산(채권)','자산(비상장주식)','자산(펀드)','자산(가상자산)','고객(고액자산가)','고객(기관)','시장(해외)'];
     const cos = []; D.axis.forEach(r => { if (!cos.includes(r['회사'])) cos.push(r['회사']); });

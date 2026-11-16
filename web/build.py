@@ -362,6 +362,7 @@ def extra_data():
     out["rank_total"] = {"now": float(facts.get("F-1028", {}).get("값") or 0), "past": 801.36e6, "src": evidence(["TP-005", "F-1028"])}
     out["figs"] = {where: [{"k": img_key(f"../captures/reports/{n}.png"), "c": FIG_CAP.get(n, n)} for n in names] for where, names in FIG_WHERE.items()}
     out["cls"] = [dict(r, src=src_of(r.pop("tp_ids", ""))) for r in load_csv(ROOT / "db/cross_class.csv")]
+    out["check"] = [dict(r, src=src_of(r.get("F 번호", ""))) for r in load_csv(ROOT / "kb/checklist.csv")]
     out["axis"] = [dict(r, src=src_of(r.pop("fact_ids", ""))) for r in load_csv(ROOT / "db/cross_axis.csv")]
     pv = ROOT / "kb/perp_vs_spot.md"
     out["perp"] = []
