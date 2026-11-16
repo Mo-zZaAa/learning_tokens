@@ -35,3 +35,4 @@
 | 12:21 | 2a | SITEFACT-Robinhood | | | 213,493 | 6,358,206 |
 | 12:22 | 2a, 3단계 | SITEFACT-Kraken, VER-LAW | | | 373,897 | 6,732,103 |
 | 12:22 | 2a | Coinbase base.org 기타 읽기(Haiku) | | | 262,524 | 6,994,627 |
+| 12:23 | 2a | SITEFACT-Ondo | | | 230,514 | 7,225,141 |

@@ -6,7 +6,7 @@
 - 2025-03: ContinuousPriceOracle 감사(Spearbit). [출처](https://docs.ondo.finance/general-access-products/usdy/usdy-price-oracle)
 - 2025-10-01: Ondo Stocks 일일 증명 온라인 열람 시작. [출처](https://docs.ondo.finance/ondo-stocks/trust-and-transparency)
 - 2025-12-15: USDY가 Ondo Stocks 우산 아래로 편입. [출처](https://docs.ondo.finance/general-access-products/usdy/basics)
-- 2026-02-02: 이용약관 최종 갱신일. 이 약관이 이미 Ondo Stocks 이름과 옛 이름을 함께 적는다. [출처](https://docs.ondo.finance/legal/terms-of-service)
+- 2026-02-02: 이용약관 최종 갱신일 표기. 현재 열람한 본문은 이 갱신일 표기와 함께 Ondo Stocks 이름과 옛 이름을 적는다. [출처](https://docs.ondo.finance/legal/terms-of-service)
 - 2026-04-28: Broadridge 파트너십 글. [출처](https://ondo.finance/)
 - 2026-05-06: Kinexys, Mastercard, Ripple과 토큰화 국채 펀드 첫 국경 간 은행 간 상환 시범 글. [출처](https://ondo.finance/)
 - 2026-06-27: 토큰화 미국 주식과 ETF 24시간 민트와 상환 보도(제목). [출처](https://ondo.finance/insights)
@@ -28,4 +28,4 @@
 - 2026-12-31(예정): 이전 USDY 가격 오라클 deprecate 예상. [출처](https://docs.ondo.finance/general-access-products/usdy/usdy-price-oracle)
 
 ## 해석
-- 사이트는 Ondo Stocks 개명 시점을 밝히지 않는다. 2026-02-02 갱신본 약관이 이미 개명 사실을 적고 있어 개명이 그 이전일 수 있으나, 약관 본문이 이후 수정되었을 가능성도 있다(open-questions.md).
+- 사이트는 Ondo Stocks 개명 시점을 밝히지 않는다. 약관의 갱신일 표기는 2026-02-02인데 본문은 개명 사실을 적고 있다. 개명이 그 이전이었는지, 갱신일 표기 뒤에 본문이 수정되었는지는 사이트만으로 알 수 없다(open-questions.md).
