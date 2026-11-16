@@ -68,8 +68,13 @@
   ★ 2~4위는 Ondo, Kraken, Securitize(9.0억, 6.8억, 2.7억 달러) [F-1022][F-1023][F-1024]
   ★ Robinhood 6위 1.5억, Coinbase 8위 0.5억 달러 [F-1025][F-1026]
   ★ 시장 전체 37.1억 달러(같은 출처, 같은 날) [F-1028]
+● 규모의 과거 대비(2026-01 초 기준)
+  ★ 2026-01 초 rwa.xyz 표에는 없음(bStocks 2026-06 출시) [TP-005][F-1126]
 ● 수수료
   ★ 주식과 토큰 1:1 전환 수수료 0, 소수 주식 5달러부터 [F-0050]
+● 제3자 시각(구조)
+  ★ 보관형, 발행사 동의 없음, 장부는 Binance 보유 (CoinDesk Research, Bullish 의뢰) [TP-211]
+  ★ 표는 보관형으로 묶음, 투자설명서상은 신탁 수익권 [TP-211][F-0994]
 
 ## C 최종 투자자
 ● 주장 : 미국 밖 Binance 거래소 자격 이용자 [F-0054]
@@ -86,6 +91,8 @@
 ● 거래 장소
   ★ 사용 블록체인 : BNB Chain(BEP-20) [F-0052]
   ★ 24시간 7일 거래, 원주 1:1 전환으로 가격 연동 [F-0051][F-0050]
+● 제3자 시각(유통)
+  ★ bStocks를 BNB Chain 대출 담보로 쓴다고 서술 (CoinDesk Research, Bullish 의뢰) [TP-212]
 
 ## E 인가
 ● 주장 : 체결, 청산, 중개 인가를 ADGM 그룹 법인 셋이 직접 확보 [F-0064][F-0065][F-0066]
@@ -134,6 +141,16 @@
   ★ 미국 형사 합의에 따른 준수 감독인과 정보 공유 [F-0719][F-0720]
   ★ 2025-05 SEC 민사소송은 재제기 불가로 취하 [F-0072]
   ★ 발행사 의무는 보관 기초주에 한정(제한소구) [F-0994]
+● 제3자 평가
+  ★ 평가 1 : CoinDesk Research(Bullish 의뢰, 발행사 직접 방식에 유리하게 씀), The Future of Equity Ownership: An Issuer's Guide to Tokenized Equities, 2026-09-29(표 기준 2026-08), 10쪽 표, https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities [TP-211]
+    ① 원문 : 표 Binance 열 "Custodial tokenized equities", "No consent", "Claim / cert", "Binance-held", "Partial", "Not for US"
+    ② 번역 : 보관형 토큰 주식, 발행사 동의 없음, 청구권 또는 증서, Binance가 보유, 권리 일부, 미국 불가.
+    ③ 해석 : 표는 Binance를 Dinari와 같은 보관형으로 묶었으나 투자설명서상은 신탁 수익권이고 표 각주는 두 상품 중 좋은 쪽으로 채점했다고 밝힘. 그래서 KDX는 우리 분류를 유지하고 발행사 동의 없는 구조라는 점을 볼 것
+  ★ 평가 2 : CoinDesk Research(Bullish 의뢰, 발행사 직접 방식에 유리하게 씀), The Future of Equity Ownership: An Issuer's Guide to Tokenized Equities, 2026-09-29, 15쪽, https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities [TP-212]
+    ① 원문 : "Binance’s bStocks, for example, can be used as collateral in lending protocols on BNB Chain."
+    ② 번역 : 예를 들어 Binance의 bStocks는 BNB Chain의 대출 프로토콜에서 담보로 쓸 수 있다.
+    ③ 해석 : 발행사 직접 방식은 이동이 제한된다고 대비해 쓴 대목. 그래서 KDX는 담보 활용과 이전 제한의 균형을 볼 것
+  ![평가 2 원문](../captures/reports/quotes/TP-212.png)
 ● KDX 시사점
   ★ 받치는 명제 : Coopetition [F-1021][F-1022][F-0549]
   ★ KDX가 가져올 것 : 경쟁 발행사 토큰 상장 뒤 직접 발행으로 확장 [F-1125][F-1126]

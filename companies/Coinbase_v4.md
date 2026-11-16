@@ -74,6 +74,8 @@
   ★ 1~3위는 Binance, Ondo, Kraken(13.6억, 9.0억, 6.8억 달러) [F-1021][F-1022][F-1023]
   ★ Robinhood 6위 1.49억, Dinari 11위 1,520만 달러 [F-1025][F-1027]
   ★ 종목 수 2026-11-16 10종(NVDAc, AAPLc 등) [F-0093]
+● 규모의 과거 대비(2026-01 초 기준)
+  ★ 2026-01 초 rwa.xyz 표에는 없음(2026-08 출시) [TP-005][F-0776]
 ● 수수료
   ★ 창설 0.01%, 상환 0.05%, 분배금 5.0% [F-0087]
   ★ 주된 수익화는 Base 시퀀서 수수료(CFO 발언) [F-0895][F-0770]
@@ -148,6 +150,15 @@
   ★ 법적 요건용 동결과 압류 기능 보유 [F-0807]
   ★ 기업행위 중 창설, 상환 중단, 전송은 계속 [F-0762]
   ★ 그룹 2026 Q3 총수익 12.2억 달러, 전년 대비 35% 감소(회사 발표) [F-0910]
+● 제약과 리스크(제3자 지적)
+  ★ SEC 승인 추진 보도가 규제 밖 영업 시도의 예로 인용됨 (WFE, 거래소 이해 대변) [TP-222]
+  ![규제 밖 영업 시도 대목 원문](../captures/reports/quotes/TP-222.png)
+● 제3자 평가
+  ★ 평가 1 : 포필러스(Securitize 후원 보고서, 평가자에 Securitize 포함), 2026: The Year of Tokenized Stocks, 2026-02-23, 87쪽, https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks [TP-221]
+    ① 원문 : "Coinbase CEO Brian Armstrong argues that it effectively bans tokenized stocks, while Securitize and Superstate evaluate it as providing regulatory clarity for tokenized stocks"
+    ② 번역 : Coinbase 대표는 그 법안이 주식 토큰을 사실상 금지한다고 주장하는 반면 Securitize와 Superstate는 규제 명확성을 준다고 평가한다.
+    ③ 해석 : 같은 법안을 두고 발행 방식별로 평가가 갈림(법안명은 87쪽에 적히지 않음). 그래서 KDX는 미국 제도 변화가 방식마다 유불리가 다름을 볼 것
+  ![평가 1 원문](../captures/reports/quotes/TP-221.png)
 ● KDX 시사점
   ★ 받치는 명제 : 시장 인프라 Unbundling [F-0076][F-0082][F-0081]
   ★ KDX가 가져올 것 : 발행 SPV, 장부 법인, 보관사를 나눈 구조 [F-0076][F-0082][F-0081]
