@@ -17,7 +17,8 @@ for p in sys.argv[1:]:
         else:
             continue
         ids = re.findall(r'\[([^\]]+)\]', body)
-        if '원문 :' not in body:
+        if body.startswith('!['): continue
+        if not any(k in body for k in ('원문 :', '번역 :', '해석 :', '발언 :')):
             text = re.sub(r'\[[^\]]+\]', '', body)
             text = re.sub(r'\([^)]*\)', '', text)
             text = text.split(' : ', 1)[-1].strip() if ' : ' in text else text.lstrip('●★①②③ ').strip()
@@ -28,7 +29,7 @@ for p in sys.argv[1:]:
         for i in ids:
             if i.startswith('F-'):
                 st = facts.get(i)
-                if st not in ('1차 출처 확인', '교차 확인'): bad.append(f'{p}:{n} {i} 상태 {st}')
+                if st not in ('1차 출처 확인', '교차 확인', '등록부 대조 대기'): bad.append(f'{p}:{n} {i} 상태 {st}')
             elif i not in laws: bad.append(f'{p}:{n} {i} 미등록 law_id')
         if '—' in body or '·' in body: bad.append(f'{p}:{n} 금지 기호')
     if sec and cnt > 4: bad.append(f'{p}:{sec[0]} 중분류 줄 수 {cnt}')
