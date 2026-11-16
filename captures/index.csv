@@ -43,3 +43,5 @@ Call log:
 MOON,안내2,구독자 안내,https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:19,"실패:Page.goto: Timeout 20000ms exceeded.
 Call log:
   - navigating to ""https://www.otcmarkets.com/otc-lin"
+MOON,logo,로고(OTC Markets 헤더와 MOON ATS 제목),https://www.otcmarkets.com/otc-link/moon-overnight,captures/MOON/logo.png,2026-11-16 15:20,HTTP 200 제목:MOON ATS I OTC Markets (V3-ATS 재촬영)
+MOON,홈,MOON ATS 안내 페이지,https://www.otcmarkets.com/otc-link/moon-overnight,captures/MOON/home.png,2026-11-16 15:20,HTTP 200 제목:MOON ATS I OTC Markets (V3-ATS 재촬영)
