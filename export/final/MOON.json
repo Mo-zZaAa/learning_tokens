@@ -4,12 +4,151 @@
  "logo": "MOON_logo.png",
  "sections": [
   {
+   "code": "카드",
+   "title": "정체 카드",
+   "lines": [
+    {
+     "id": "mo-0091",
+     "disp": "MOON 카드-1",
+     "level": "●",
+     "text": "한 줄 정체 : OTC Markets Group 운영 야간 장터, 3사 중 가장 작음",
+     "color": "black",
+     "fact_ids": [
+      "F-0036",
+      "F-0042"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0092",
+     "disp": "MOON 카드-2",
+     "level": "●",
+     "text": "대표 상품 : MOON ATS = 상장 주식 야간 거래(OTC Overnight은 장외주식)",
+     "color": "black",
+     "fact_ids": [
+      "F-0036",
+      "F-0038"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0093",
+     "disp": "MOON 카드-3",
+     "level": "●",
+     "text": "꼭 알아야 할 사실",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0094",
+     "disp": "MOON 카드-4",
+     "level": "★",
+     "text": "MOON은 비상장, 모회사는 OTCQX 상장(OTC Markets Group)",
+     "color": "black",
+     "fact_ids": [
+      "F-0036"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0095",
+     "disp": "MOON 카드-5",
+     "level": "★",
+     "text": "2024-11-21 MOON ATS 출시",
+     "color": "black",
+     "fact_ids": [
+      "F-0036"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0096",
+     "disp": "MOON 카드-6",
+     "level": "★",
+     "text": "2026-09 Blue Ocean 중단 때 한국 지정가 주문 유입",
+     "color": "black",
+     "fact_ids": [
+      "F-1101",
+      "F-0045"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0097",
+     "disp": "MOON 카드-7",
+     "level": "●",
+     "text": "숫자",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0098",
+     "disp": "MOON 카드-8",
+     "level": "★",
+     "text": "점유율 : 야간 3사 중 Q2 3.8%, Q3 2.0%",
+     "color": "black",
+     "fact_ids": [
+      "F-0041",
+      "F-0042"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0099",
+     "disp": "MOON 카드-9",
+     "level": "★",
+     "text": "2026 Q3 거래대금 58.3억 달러",
+     "color": "black",
+     "fact_ids": [
+      "F-0042"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0100",
+     "disp": "MOON 카드-10",
+     "level": "●",
+     "text": "흐름 : 아시아 투자자 → Moomoo 앱 → MOON ATS 체결",
+     "color": "black",
+     "fact_ids": [
+      "F-1080"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
    "code": "개요",
    "title": "ATS 개요",
    "lines": [
     {
-     "id": "mo-0074",
+     "id": "mo-0101",
      "disp": "MOON 개요-1",
+     "level": "●",
+     "text": "쉽게 말하면 : OTC 시장 운영사가 얹은 야간 장터, 규모는 가장 작음",
+     "color": "black",
+     "fact_ids": [
+      "F-0036",
+      "F-0042"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0074",
+     "disp": "MOON 개요-2",
      "level": "●",
      "text": "주장 : 기존 구독 기반만으로는 야간 주문을 끌어오지 못함",
      "color": "black",
@@ -22,7 +161,7 @@
     },
     {
      "id": "mo-0002",
-     "disp": "MOON 개요-2",
+     "disp": "MOON 개요-3",
      "level": "●",
      "text": "운영사",
      "color": "black",
@@ -32,7 +171,7 @@
     },
     {
      "id": "mo-0003",
-     "disp": "MOON 개요-3",
+     "disp": "MOON 개요-4",
      "level": "★",
      "text": "운영 : OTC Link LLC(OTC Markets 계열 브로커딜러)",
      "color": "black",
@@ -44,7 +183,7 @@
     },
     {
      "id": "mo-0004",
-     "disp": "MOON 개요-4",
+     "disp": "MOON 개요-5",
      "level": "★",
      "text": "2012-03 OTC Link 브로커딜러 등록, FINRA(미국 증권업 자율규제기구) 회원",
      "color": "black",
@@ -56,7 +195,7 @@
     },
     {
      "id": "mo-0005",
-     "disp": "MOON 개요-5",
+     "disp": "MOON 개요-6",
      "level": "★",
      "text": "2024-11 SEC 신고 절차 뒤 MOON ATS 출시",
      "color": "black",
@@ -68,7 +207,7 @@
     },
     {
      "id": "mo-0006",
-     "disp": "MOON 개요-6",
+     "disp": "MOON 개요-7",
      "level": "●",
      "text": "모회사",
      "color": "black",
@@ -78,7 +217,7 @@
     },
     {
      "id": "mo-0007",
-     "disp": "MOON 개요-7",
+     "disp": "MOON 개요-8",
      "level": "★",
      "text": "OTC Markets Group(미국 장외주식 시장 운영사), OTCQX 상장",
      "color": "black",
@@ -90,7 +229,7 @@
     },
     {
      "id": "mo-0008",
-     "disp": "MOON 개요-8",
+     "disp": "MOON 개요-9",
      "level": "★",
      "text": "2026 Q2 그룹 매출 3,480만 달러, 전년 대비 14% 증가",
      "color": "black",
@@ -102,7 +241,7 @@
     },
     {
      "id": "mo-0009",
-     "disp": "MOON 개요-9",
+     "disp": "MOON 개요-10",
      "level": "●",
      "text": "취급 자산",
      "color": "black",
@@ -112,7 +251,7 @@
     },
     {
      "id": "mo-0010",
-     "disp": "MOON 개요-10",
+     "disp": "MOON 개요-11",
      "level": "★",
      "text": "미국 NMS(전국시장체계) 상장 주식",
      "color": "black",
@@ -124,7 +263,7 @@
     },
     {
      "id": "mo-0011",
-     "disp": "MOON 개요-11",
+     "disp": "MOON 개요-12",
      "level": "★",
      "text": "장외주식 야간 거래는 2024-09 OTC Overnight로 별도",
      "color": "black",
@@ -136,7 +275,7 @@
     },
     {
      "id": "mo-0012",
-     "disp": "MOON 개요-12",
+     "disp": "MOON 개요-13",
      "level": "●",
      "text": "대상 고객",
      "color": "black",
@@ -146,7 +285,7 @@
     },
     {
      "id": "mo-0013",
-     "disp": "MOON 개요-13",
+     "disp": "MOON 개요-14",
      "level": "★",
      "text": "브로커딜러 구독자",
      "color": "black",
@@ -158,7 +297,7 @@
     },
     {
      "id": "mo-0014",
-     "disp": "MOON 개요-14",
+     "disp": "MOON 개요-15",
      "level": "★",
      "text": "2025-12 Moomoo(아시아 투자 앱)가 24시간 플랫폼에 연결",
      "color": "black",
@@ -170,7 +309,7 @@
     },
     {
      "id": "mo-0015",
-     "disp": "MOON 개요-15",
+     "disp": "MOON 개요-16",
      "level": "●",
      "text": "거래시간",
      "color": "black",
@@ -180,7 +319,7 @@
     },
     {
      "id": "mo-0016",
-     "disp": "MOON 개요-16",
+     "disp": "MOON 개요-17",
      "level": "★",
      "text": "일~목 밤 8시~새벽 4시(미국 동부)",
      "color": "black",
@@ -192,7 +331,7 @@
     },
     {
      "id": "mo-0017",
-     "disp": "MOON 개요-17",
+     "disp": "MOON 개요-18",
      "level": "●",
      "text": "거래 규모",
      "color": "black",
@@ -202,7 +341,7 @@
     },
     {
      "id": "mo-0018",
-     "disp": "MOON 개요-18",
+     "disp": "MOON 개요-19",
      "level": "★",
      "text": "기준 : FINRA 주간 보고 거래대금 13주 합산, 야간 3사 대비",
      "color": "black",
@@ -214,7 +353,7 @@
     },
     {
      "id": "mo-0019",
-     "disp": "MOON 개요-19",
+     "disp": "MOON 개요-20",
      "level": "★",
      "text": "2026 Q3 58.3억 달러, 3사 중 2.0%(Q2 3.8%)",
      "color": "black",
@@ -227,7 +366,7 @@
     },
     {
      "id": "mo-0020",
-     "disp": "MOON 개요-20",
+     "disp": "MOON 개요-21",
      "level": "★",
      "text": "같은 Q3 Blue Ocean(선발 야간 ATS) 83.0%, Bruce(야간 ATS) 15.0%",
      "color": "black",
@@ -240,7 +379,7 @@
     },
     {
      "id": "mo-0021",
-     "disp": "MOON 개요-21",
+     "disp": "MOON 개요-22",
      "level": "★",
      "text": "2026 Q2 120.9억 달러에서 Q3 절반 아래로 감소",
      "color": "black",
@@ -253,7 +392,7 @@
     },
     {
      "id": "mo-0022",
-     "disp": "MOON 개요-22",
+     "disp": "MOON 개요-23",
      "level": "●",
      "text": "차별화 요소",
      "color": "black",
@@ -263,7 +402,7 @@
     },
     {
      "id": "mo-0023",
-     "disp": "MOON 개요-23",
+     "disp": "MOON 개요-24",
      "level": "★",
      "text": "아시아 구간 월~금 오전 8시~오후 4시(UTC+8) 별도",
      "color": "black",
@@ -275,7 +414,7 @@
     },
     {
      "id": "mo-0024",
-     "disp": "MOON 개요-24",
+     "disp": "MOON 개요-25",
      "level": "★",
      "text": "상장주식(MOON)과 장외주식(OTC Overnight) 야간 병행",
      "color": "black",
@@ -287,7 +426,7 @@
     },
     {
      "id": "mo-0025",
-     "disp": "MOON 개요-25",
+     "disp": "MOON 개요-26",
      "level": "●",
      "text": "토큰증권 취급 현황",
      "color": "black",
@@ -297,7 +436,7 @@
     },
     {
      "id": "mo-0026",
-     "disp": "MOON 개요-26",
+     "disp": "MOON 개요-27",
      "level": "★",
      "text": "2026-03 실적 발표 기준 취급 전, 아래 발언 3 참조",
      "color": "black",
@@ -309,7 +448,7 @@
     },
     {
      "id": "mo-0027",
-     "disp": "MOON 개요-27",
+     "disp": "MOON 개요-28",
      "level": "●",
      "text": "화면",
      "color": "black",
@@ -319,7 +458,7 @@
     },
     {
      "id": "mo-0028",
-     "disp": "MOON 개요-28",
+     "disp": "MOON 개요-29",
      "level": "그림",
      "images": [
       {
@@ -335,8 +474,22 @@
    "title": "경영진 발언",
    "lines": [
     {
-     "id": "mo-0029",
+     "id": "mo-0102",
      "disp": "MOON 발언-1",
+     "level": "●",
+     "text": "쉽게 말하면 : 경영진은 아시아 개인과 미국 밖 시간대를 보되 토큰은 적법화 뒤라고 말함",
+     "color": "black",
+     "fact_ids": [
+      "F-1080",
+      "F-1081",
+      "F-1082"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0029",
+     "disp": "MOON 발언-2",
      "level": "●",
      "text": "주장 : 아시아 개인과 미국 밖 시간대를 보되 토큰은 적법화 뒤",
      "color": "black",
@@ -350,7 +503,7 @@
     },
     {
      "id": "mo-0030",
-     "disp": "MOON 발언-2",
+     "disp": "MOON 발언-3",
      "level": "●",
      "text": "발언 1 : 거래시간 확대는 개인투자자의 기회",
      "color": "black",
@@ -362,7 +515,7 @@
     },
     {
      "id": "mo-0031",
-     "disp": "MOON 발언-3",
+     "disp": "MOON 발언-4",
      "level": "★",
      "text": "Cromwell Coulson(OTC Markets Group CEO), Moomoo 연결 보도자료, 2025-12-03 https://www.aap.com.au/aapreleases/globenewswire9594942/",
      "color": "black",
@@ -374,7 +527,7 @@
     },
     {
      "id": "mo-0032",
-     "disp": "MOON 발언-4",
+     "disp": "MOON 발언-5",
      "level": "①",
      "text": "원문 : \"By integrating MOON ATS into its 24-hour trading platform, Moomoo is empowering more individual investors by broadening global market access. Expanded trading hours enables retail investors, not just professionals, greater opportunities across continents and time zones.\"",
      "color": "black",
@@ -384,7 +537,7 @@
     },
     {
      "id": "mo-0033",
-     "disp": "MOON 발언-5",
+     "disp": "MOON 발언-6",
      "level": "②",
      "text": "번역 : Moomoo가 24시간 거래 플랫폼에 MOON ATS를 통합해 더 많은 개인투자자에게 글로벌 시장 접근을 넓힌다. 거래시간 확대는 전문가만이 아니라 개인투자자에게도 대륙과 시간대를 넘는 기회를 준다.",
      "color": "black",
@@ -394,7 +547,7 @@
     },
     {
      "id": "mo-0034",
-     "disp": "MOON 발언-6",
+     "disp": "MOON 발언-7",
      "level": "③",
      "text": "해석 : 큰 곳은 아시아 개인투자자. 그래서 아시아 투자 앱에 연결해 야간 주문 확보",
      "color": "black",
@@ -404,7 +557,7 @@
     },
     {
      "id": "mo-0035",
-     "disp": "MOON 발언-7",
+     "disp": "MOON 발언-8",
      "level": "그림",
      "images": [
       {
@@ -415,7 +568,7 @@
     },
     {
      "id": "mo-0036",
-     "disp": "MOON 발언-8",
+     "disp": "MOON 발언-9",
      "level": "●",
      "text": "발언 2 : 미국 밖 시간대에 해외 증권을 연다",
      "color": "black",
@@ -427,7 +580,7 @@
     },
     {
      "id": "mo-0037",
-     "disp": "MOON 발언-9",
+     "disp": "MOON 발언-10",
      "level": "★",
      "text": "Cromwell Coulson(사장 겸 CEO), 2025 Q4 실적 발표 녹취, 2026-03-05 https://www.otcmarkets.com/files/030526OTCM.pdf",
      "color": "black",
@@ -439,7 +592,7 @@
     },
     {
      "id": "mo-0038",
-     "disp": "MOON 발언-10",
+     "disp": "MOON 발언-11",
      "level": "①",
      "text": "원문 : \"Over 12,000 OTC securities trade on our daytime markets and more than 9,000 of those are non-U.S., providing global investors access to these securities during hours more convenient for non-U.S. time zones remains a key part of our vision for overnight trading.\"",
      "color": "black",
@@ -449,7 +602,7 @@
     },
     {
      "id": "mo-0039",
-     "disp": "MOON 발언-11",
+     "disp": "MOON 발언-12",
      "level": "②",
      "text": "번역 : 주간 시장에서 1만 2천 종 넘는 OTC 증권이 거래되고 그중 9천 종 넘게가 미국 밖 증권이다. 미국 밖 투자자가 편한 시간에 이 증권에 접근하게 하는 것이 야간 거래 비전의 핵심이다.",
      "color": "black",
@@ -459,7 +612,7 @@
     },
     {
      "id": "mo-0040",
-     "disp": "MOON 발언-12",
+     "disp": "MOON 발언-13",
      "level": "③",
      "text": "해석 : 큰 곳은 미국 밖 투자자의 해외 증권 수요. 그래서 장외주식 야간 시장을 병행",
      "color": "black",
@@ -469,7 +622,7 @@
     },
     {
      "id": "mo-0041",
-     "disp": "MOON 발언-13",
+     "disp": "MOON 발언-14",
      "level": "그림",
      "images": [
       {
@@ -480,7 +633,7 @@
     },
     {
      "id": "mo-0042",
-     "disp": "MOON 발언-14",
+     "disp": "MOON 발언-15",
      "level": "●",
      "text": "발언 3 : 적법한 토큰증권이 나오면 참여",
      "color": "black",
@@ -492,7 +645,7 @@
     },
     {
      "id": "mo-0043",
-     "disp": "MOON 발언-15",
+     "disp": "MOON 발언-16",
      "level": "★",
      "text": "Cromwell Coulson(사장 겸 CEO), 2025 Q4 실적 발표 질의응답, 2026-03-05 https://www.otcmarkets.com/files/030526OTCM.pdf",
      "color": "black",
@@ -504,7 +657,7 @@
     },
     {
      "id": "mo-0044",
-     "disp": "MOON 발언-16",
+     "disp": "MOON 발언-17",
      "level": "①",
      "text": "원문 : \"So, there are a lot of tokenized assets that are not securities. There are not many lawful tokenized securities yet. ... We will be there with tokenized securities when they are free trading and lawful.\"",
      "color": "black",
@@ -514,7 +667,7 @@
     },
     {
      "id": "mo-0045",
-     "disp": "MOON 발언-17",
+     "disp": "MOON 발언-18",
      "level": "②",
      "text": "번역 : 증권이 아닌 토큰화 자산은 많지만 합법적인 토큰화 증권은 아직 많지 않다. 토큰화 증권이 자유롭게 거래되고 적법해지면 우리도 거기에 있을 것이다.",
      "color": "black",
@@ -524,7 +677,7 @@
     },
     {
      "id": "mo-0046",
-     "disp": "MOON 발언-18",
+     "disp": "MOON 발언-19",
      "level": "③",
      "text": "해석 : 큰 곳은 적법해진 뒤의 토큰증권 시장. 그래서 지금은 규제 정리를 기다리며 준비",
      "color": "black",
@@ -534,7 +687,7 @@
     },
     {
      "id": "mo-0047",
-     "disp": "MOON 발언-19",
+     "disp": "MOON 발언-20",
      "level": "그림",
      "images": [
       {
@@ -550,8 +703,21 @@
    "title": "국내 연결과 사고 이력",
    "lines": [
     {
-     "id": "mo-0048",
+     "id": "mo-0103",
      "disp": "MOON 연결-1",
+     "level": "●",
+     "text": "쉽게 말하면 : 한국 증권사에는 Blue Ocean이 멈출 때 쓰는 백업 계약일 뿐임",
+     "color": "black",
+     "fact_ids": [
+      "F-0044",
+      "F-1101"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0048",
+     "disp": "MOON 연결-2",
      "level": "●",
      "text": "주장 : 한국 주문은 Blue Ocean이 멈출 때만 들어오는 백업",
      "color": "black",
@@ -564,7 +730,7 @@
     },
     {
      "id": "mo-0049",
-     "disp": "MOON 연결-2",
+     "disp": "MOON 연결-3",
      "level": "●",
      "text": "국내 증권사 연결",
      "color": "black",
@@ -574,7 +740,7 @@
     },
     {
      "id": "mo-0050",
-     "disp": "MOON 연결-3",
+     "disp": "MOON 연결-4",
      "level": "★",
      "text": "2025-11 한국 증권사가 Blue Ocean 외 백업 ATS로 계약",
      "color": "black",
@@ -586,7 +752,7 @@
     },
     {
      "id": "mo-0051",
-     "disp": "MOON 연결-4",
+     "disp": "MOON 연결-5",
      "level": "★",
      "text": "같은 백업 지위를 Bruce와 나눔",
      "color": "black",
@@ -598,7 +764,7 @@
     },
     {
      "id": "mo-0075",
-     "disp": "MOON 연결-5",
+     "disp": "MOON 연결-6",
      "level": "●",
      "text": "2026-09 종목 중단 때",
      "color": "black",
@@ -608,7 +774,7 @@
     },
     {
      "id": "mo-0076",
-     "disp": "MOON 연결-6",
+     "disp": "MOON 연결-7",
      "level": "★",
      "text": "09-01 Blue Ocean 18종목 중단, 주문 일부가 MOON으로",
      "color": "black",
@@ -621,7 +787,7 @@
     },
     {
      "id": "mo-0077",
-     "disp": "MOON 연결-7",
+     "disp": "MOON 연결-8",
      "level": "★",
      "text": "한국 앱엔 시세가 없어 지정가만, 시세 연결은 Bruce가 먼저",
      "color": "black",
@@ -634,7 +800,7 @@
     },
     {
      "id": "mo-0078",
-     "disp": "MOON 연결-8",
+     "disp": "MOON 연결-9",
      "level": "★",
      "text": "Q3 점유율 2.0%, Q2 3.8%에서 하락",
      "color": "black",
@@ -652,8 +818,21 @@
    "title": "한국 시장과의 차이",
    "lines": [
     {
-     "id": "mo-0052",
+     "id": "mo-0104",
      "disp": "MOON 차이-1",
+     "level": "●",
+     "text": "쉽게 말하면 : 미국은 기존 브로커딜러가 신고로 시간대를 더하지만 한국은 인가가 필요함",
+     "color": "black",
+     "fact_ids": [
+      "F-0249",
+      "F-1092"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0052",
+     "disp": "MOON 차이-2",
      "level": "●",
      "text": "주장 : 미국은 기존 브로커딜러가 신고로 시간대를 더하고, 한국은 인가",
      "color": "black",
@@ -666,7 +845,7 @@
     },
     {
      "id": "mo-0053",
-     "disp": "MOON 차이-2",
+     "disp": "MOON 차이-3",
      "level": "●",
      "text": "규제",
      "color": "black",
@@ -676,7 +855,7 @@
     },
     {
      "id": "mo-0054",
-     "disp": "MOON 차이-3",
+     "disp": "MOON 차이-4",
      "level": "★",
      "text": "가능했던 이유 : 브로커딜러 등록과 Reg ATS로 거래소 등록 면제",
      "color": "black",
@@ -690,7 +869,7 @@
     },
     {
      "id": "mo-0055",
-     "disp": "MOON 차이-4",
+     "disp": "MOON 차이-5",
      "level": "★",
      "text": "가능했던 이유 : NMS 주식 ATS는 Form ATS-N 효력으로 운영",
      "color": "black",
@@ -703,7 +882,7 @@
     },
     {
      "id": "mo-0079",
-     "disp": "MOON 차이-5",
+     "disp": "MOON 차이-6",
      "level": "★",
      "text": "한국 차이 : 한국 ATS는 금융위 인가, 직접 참가자는 증권사",
      "color": "black",
@@ -717,7 +896,7 @@
     },
     {
      "id": "mo-0057",
-     "disp": "MOON 차이-6",
+     "disp": "MOON 차이-7",
      "level": "★",
      "text": "한국 차이 : 개인의 해외 주식 주문은 해외 중개업자 경유",
      "color": "black",
@@ -729,7 +908,7 @@
     },
     {
      "id": "mo-0058",
-     "disp": "MOON 차이-7",
+     "disp": "MOON 차이-8",
      "level": "●",
      "text": "고객 수요",
      "color": "black",
@@ -739,7 +918,7 @@
     },
     {
      "id": "mo-0059",
-     "disp": "MOON 차이-8",
+     "disp": "MOON 차이-9",
      "level": "★",
      "text": "가능했던 이유 : 아시아 낮 시간의 미국 증권 매매 수요",
      "color": "black",
@@ -751,7 +930,7 @@
     },
     {
      "id": "mo-0080",
-     "disp": "MOON 차이-9",
+     "disp": "MOON 차이-10",
      "level": "●",
      "text": "규제 건의 포인트 : 평상시에도 여러 해외 ATS로 나눠 주문하는 최선집행 기준",
      "color": "black",
@@ -769,8 +948,22 @@
    "title": "성과와 판단",
    "lines": [
     {
-     "id": "mo-0062",
+     "id": "mo-0105",
      "disp": "MOON 판단-1",
+     "level": "●",
+     "text": "쉽게 말하면 : 백업 지위만으로는 점유율이 늘지 않고 거래소 야간 거래가 변수임",
+     "color": "black",
+     "fact_ids": [
+      "F-0044",
+      "F-0042",
+      "F-1171"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0062",
+     "disp": "MOON 판단-2",
      "level": "●",
      "text": "주장 : 백업 지위와 기존 구독만으로는 점유율을 지키지 못함",
      "color": "black",
@@ -783,7 +976,7 @@
     },
     {
      "id": "mo-0081",
-     "disp": "MOON 판단-2",
+     "disp": "MOON 판단-3",
      "level": "●",
      "text": "성과",
      "color": "black",
@@ -793,7 +986,7 @@
     },
     {
      "id": "mo-0082",
-     "disp": "MOON 판단-3",
+     "disp": "MOON 판단-4",
      "level": "★",
      "text": "2026 Q3 58.3억 달러, 점유율 2.0%(Q2 3.8%)",
      "color": "black",
@@ -806,7 +999,7 @@
     },
     {
      "id": "mo-0063",
-     "disp": "MOON 판단-4",
+     "disp": "MOON 판단-5",
      "level": "●",
      "text": "핵심 성공요인(KSF)",
      "color": "black",
@@ -816,7 +1009,7 @@
     },
     {
      "id": "mo-0083",
-     "disp": "MOON 판단-5",
+     "disp": "MOON 판단-6",
      "level": "★",
      "text": "기존 브로커딜러 위에 야간 추가, 출시 1년 만에 Q2 3.8%",
      "color": "black",
@@ -830,7 +1023,7 @@
     },
     {
      "id": "mo-0065",
-     "disp": "MOON 판단-6",
+     "disp": "MOON 판단-7",
      "level": "★",
      "text": "2025-12 Moomoo 연결로 아시아 개인 주문 경로 확보",
      "color": "black",
@@ -842,7 +1035,7 @@
     },
     {
      "id": "mo-0066",
-     "disp": "MOON 판단-7",
+     "disp": "MOON 판단-8",
      "level": "●",
      "text": "제약과 리스크",
      "color": "black",
@@ -852,7 +1045,7 @@
     },
     {
      "id": "mo-0067",
-     "disp": "MOON 판단-8",
+     "disp": "MOON 판단-9",
      "level": "★",
      "text": "2026 점유율 Q2 3.8%에서 Q3 2.0%로 하락",
      "color": "black",
@@ -865,7 +1058,7 @@
     },
     {
      "id": "mo-0068",
-     "disp": "MOON 판단-9",
+     "disp": "MOON 판단-10",
      "level": "★",
      "text": "한국 연결은 백업 계약에 그침",
      "color": "black",
@@ -876,8 +1069,69 @@
      "notes": []
     },
     {
+     "id": "mo-0106",
+     "disp": "MOON 판단-11",
+     "level": "●",
+     "text": "거래소 야간 거래가 오면",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0107",
+     "disp": "MOON 판단-12",
+     "level": "★",
+     "text": "Nasdaq 23시간 승인(2026-04-10), 목표 2026-12-06",
+     "color": "black",
+     "fact_ids": [
+      "F-1171",
+      "F-1175"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0108",
+     "disp": "MOON 판단-13",
+     "level": "★",
+     "text": "2026-05 NYSE Arca 야간 세션 규칙, 제출 즉시 효력",
+     "color": "black",
+     "fact_ids": [
+      "F-1174"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0109",
+     "disp": "MOON 판단-14",
+     "level": "★",
+     "text": "2026-12-06 SIP(통합시세) 야간 편입",
+     "color": "black",
+     "fact_ids": [
+      "F-1166"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0110",
+     "disp": "MOON 판단-15",
+     "level": "★",
+     "text": "해석 : 존재 이유가 야간 유일 시장에서 아시아 앱 채널과 장외주식 병행으로 바뀜",
+     "color": "black",
+     "fact_ids": [
+      "F-1080",
+      "F-0038",
+      "F-1171"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
      "id": "mo-0069",
-     "disp": "MOON 판단-10",
+     "disp": "MOON 판단-16",
      "level": "●",
      "text": "KDX 시사점",
      "color": "black",
@@ -887,7 +1141,7 @@
     },
     {
      "id": "mo-0084",
-     "disp": "MOON 판단-11",
+     "disp": "MOON 판단-17",
      "level": "★",
      "text": "받치는 명제 : 시장 인프라 Unbundling",
      "color": "black",
@@ -900,7 +1154,7 @@
     },
     {
      "id": "mo-0085",
-     "disp": "MOON 판단-12",
+     "disp": "MOON 판단-18",
      "level": "★",
      "text": "KDX가 가져올 것 : 기존 인가 위에 시간대만 더하는 확장",
      "color": "black",
@@ -913,7 +1167,7 @@
     },
     {
      "id": "mo-0086",
-     "disp": "MOON 판단-13",
+     "disp": "MOON 판단-19",
      "level": "★",
      "text": "KDX가 피할 것 : 주문 채널 없이 체결 시장만 여는 것",
      "color": "black",
@@ -925,7 +1179,7 @@
     },
     {
      "id": "mo-0087",
-     "disp": "MOON 판단-14",
+     "disp": "MOON 판단-20",
      "level": "●",
      "text": "해외 확장 세 질문",
      "color": "black",
@@ -935,7 +1189,7 @@
     },
     {
      "id": "mo-0088",
-     "disp": "MOON 판단-15",
+     "disp": "MOON 판단-21",
      "level": "★",
      "text": "제공 가치 : 아시아 시간대의 미국 증권 체결",
      "color": "black",
@@ -947,7 +1201,7 @@
     },
     {
      "id": "mo-0089",
-     "disp": "MOON 판단-16",
+     "disp": "MOON 판단-22",
      "level": "★",
      "text": "제도 : 기존 브로커딜러 등록, Form ATS-N",
      "color": "black",
@@ -960,7 +1214,7 @@
     },
     {
      "id": "mo-0090",
-     "disp": "MOON 판단-17",
+     "disp": "MOON 판단-23",
      "level": "★",
      "text": "경제성 : Q3 점유율 2.0%, 그룹 매출은 다른 사업이 버팀",
      "color": "black",
