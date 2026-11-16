@@ -31,3 +31,7 @@
 | 12:17 | 2a | Binance B1 읽기(Haiku) | | | 170,762 | 5,459,414 |
 | 12:18 | 2a, 3단계 | Binance B2, VER-Binance, VER-Dinari | | | 388,272 | 5,847,686 |
 | 12:20 | 3단계 | VER-Coinbase | | | 142,838 | 5,990,524 |
+| 12:20 | 3단계 | VER-ATS | | | 154,189 | 6,144,713 |
+| 12:21 | 2a | SITEFACT-Robinhood | | | 213,493 | 6,358,206 |
+| 12:22 | 2a, 3단계 | SITEFACT-Kraken, VER-LAW | | | 373,897 | 6,732,103 |
+| 12:22 | 2a | Coinbase base.org 기타 읽기(Haiku) | | | 262,524 | 6,994,627 |

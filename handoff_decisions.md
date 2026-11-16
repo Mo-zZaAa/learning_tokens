@@ -16,3 +16,4 @@
 - Kraken 읽기 담당 일부가 근거 구절을 따옴표 없이 써서 verify가 세지 못함. 따옴표만 기계적으로 씌운 뒤 verify 재실행(내용 수정 없음).
 - 회사 자체 문서(약관, docs, FAQ, 보도자료)는 자기 상품 내용에 대해 1차 출처로 판정(3절 3번). 인가 보유, 규모, 순위 주장만 단일 출처로 둠. 이 기준을 검증 에이전트에 전달.
 - Binance inventory.csv(458MB)는 GitHub 한도를 넘어 기록에서 지우고 inventory.csv.gz(26MB)만 커밋. .tmp 파일은 .gitignore.
+- base.org markets 묶음 02, 03(종목별 같은 틀 페이지)은 표본(01)만 읽고 나머지는 미열람.

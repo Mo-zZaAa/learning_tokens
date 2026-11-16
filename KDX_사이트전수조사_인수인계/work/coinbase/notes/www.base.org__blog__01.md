@@ -45,7 +45,7 @@
 - [구조] B20 토큰 하나가 영구적으로 주식 한 주와 같지는 않으므로 토큰과 주식을 환산할 때 현재 배수를 읽어야 함
   근거: "a B20 tokenized stock does not permanently equal one share"
 - [구조] 주식 분할 등 기초자산 이벤트를 배수 변경으로 처리하므로 AMM 풀의 ERC-20 잔액은 변하지 않는다고 설명
-  근거: "the pool’s ERC-20 balances never change"
+  근거: "the pool's ERC-20 balances never change"
 - [구조] 이동 제한을 위한 정책은 공유 Policy Registry에 정의되며, 정책 하나를 여러 토큰이 참조할 수 있음
   근거: "Policies live in a shared Policy Registry"
 - [구조] 법적 요건을 충족하도록 "freeze and seize"(동결과 압류) 기능을 추가했다고 명시

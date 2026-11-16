@@ -121,5 +121,12 @@ for name in ['terms', 'laws', 'cases', 'relations', 'blocked_links', 'absent', '
         if name == 'relations' and len(r) > 10:
             r[10] = src_map.get((agent, r[10]), r[10])
         rows.append(r)
+    vfile = {'laws': 'verdicts_laws.csv', 'cases': 'verdicts_cases.csv'}.get(name)
+    if vfile and os.path.exists(os.path.join(W, 'VER-LAW', vfile)):
+        key = 'law_id' if name == 'laws' else 'case_id'
+        vv = {x[key].strip(): x['새 검증 상태'] for x in csv.DictReader(open(os.path.join(W, 'VER-LAW', vfile), encoding='utf-8-sig')) if x.get('새 검증 상태') in ('1차 출처 확인', '교차 확인', '단일 출처', '충돌')}
+        for r in rows:
+            if r[0].strip() in vv:
+                r[-1] = vv[r[0].strip()]
     write(name, rows)
 print('facts', len(fact_rows), 'sources', len(src_rows))
