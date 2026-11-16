@@ -1,0 +1,7 @@
+"회사","항목","구분","사유","찾아본 곳"
+"Kraken","Kraken 상호 언급","없음","투자설명서 전체에 Kraken이라는 단어가 없다. 모회사는 Payward, Inc.로만 나오고 xStocks는 'xStocks product offering'으로만 언급(p.23, 58, 63, 66). 자체 고객 화면이 Kraken인지는 이 문서로 확인 불가","B01 합본 텍스트 전체 검색"
+"Kraken","한국(대한민국) 판매 제한 또는 언급","없음","South Korea 또는 Republic of Korea 언급 없음. Korea는 제재 예시의 North Korea로만 등장(p.84, 128). 한국 투자자 대상 판매 허용 또는 금지 문장이 없고, 일반 판매 제한(적법하지 않은 관할, FATF 고위험 관할)만 있음","B01 합본 텍스트 전체 검색"
+"Kraken","승인 참가자 개별 이름","없음","투자설명서는 승인 참가자 자격만 정의하고 이름은 발행사 웹사이트 공지로 위임(p.67). 이름은 2차 보충서(work/MANUAL 쪽)에 있음","B01 p.67"
+"Kraken","Maerki Baumann & Co. AG","없음","기존 PROD 줄에 보관처로 적혀 있으나 이 투자설명서에는 Maerki Baumann이 한 번도 나오지 않음","B01 합본 텍스트 전체 검색"
+"Kraken","최소 투자금액","없음","기본 투자설명서에는 일반 최소 금액이 없고 상품별 Final Terms의 '최소/최대 청약금액' 양식 칸(p.137)만 있음","B01 p.137 Final Terms 양식"
+"Kraken","솔라나 등 xStocks 사용 체인 명시","없음","사용 체인은 '이더리움과 유사 블록체인(BSC, TRON, Polygon, Gnosis, 이더리움 롤업)'으로만 적혀 있고 Solana는 나오지 않음(p.19, 27). 실제 xStocks 체인은 다른 출처 확인 필요","B01 p.19, 27"
