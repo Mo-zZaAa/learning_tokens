@@ -248,7 +248,7 @@
   ★ 담보로만 상환, 발행 법인 도산 위험은 투자자 부담 [F-0188]
   ★ 2026-08 창업자 유족이 경영권 소송 제기 [F-0208]
   ★ DEX 풀 단건 매수가 같은 시각 주가보다 약 9.3% 높음(Citadel 지원 필자, 단일 사례) [TP-201]
-● EU 판매 근거의 만료 : 기본 투자설명서 유효기간 2026-11-11, 2026-09 목록까지 새 승인본 없음 [F-1240]
+● EU 판매 근거 만료 : 투자설명서 2026-11-11 만료, 갱신은 미확인 [F-1240]
 ● 제3자 평가
   ★ 평가 1 : 오버달(SEC 제출 의견서, 필자가 Citadel Securities 재정 지원을 밝힘), Tokenized U.S. Equities, DeFi Trading, and the SEC's Exemptive Authority, 2026-01-22, 25쪽, https://www.sec.gov/files/ctf-written-james-overdahl-tokenized-us-equities-01-22-2026.pdf [TP-201]
     ① 원문 : "This suggests that the user paid about 9.3% more for the tokenized NVDA stock compared to what they would have paid if they instead had executed a trade for NVDA on a regulated exchange."
