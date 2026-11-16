@@ -56,6 +56,14 @@ Classic Stock Tokens,Classic Stock Tokens,2026-10 실적 발표에서 기존 EEA
 발행과 유통 분리,Separation of issuance and distribution,"자기가 발행, 인수, 주선한 증권을 자기 유통 플랫폼에서 거래시키지 못하게 하는 원칙",해외 사업자의 발행부터 거래까지 한 회사 구조와 정면으로 다름,자기계약 금지,"분리 원칙은 상품 단위, 자기계약 금지는 거래 상대방 단위","금융위 정비방안(2023.2.6.), 하위법규 조문 미확인",KR-2-S07
 외국인 통합계좌,Omnibus account,글로벌 운용사나 증권사 명의로 여러 최종투자자 주문을 한 계좌에서 처리,외국인이 국내 토큰증권에 투자하는 경로,외국인 투자자 등록,"등록제는 2023.12.14. 폐지, LEI 또는 여권번호로 바로 계좌 개설","자본시장법 제168조, 시행령",KR-2-S12
 외화증권,Foreign currency securities,외국환거래법 제3조제1항제8호의 증권. 국내 증권사가 해외 증권을 다룰 때의 기본 용어,해외 토큰증권을 국내 투자자에게 중개하는 경로,외국 집합투자증권,외국 펀드는 별도 특례(금투업규정 제7편 제9장),금융투자업규정 제5-30조,KR-2-S06
+dShares,dShares,기초 증권에 1:1로 담보된 Dinari의 토큰,Dinari 사업의 핵심 상품. 법적 성격이 지역과 법인에 따라 다르게 서술됨,주식 예탁증서(DR),"DR은 발행사나 예탁기관이 발행, dShares는 브로커딜러와 수탁 브로커가 보유한 주식을 토큰으로 기록","주식 예탁증서, 토큰증권(전자증권법상 발행 방식)",SITE-Dinari-S06
+2차 기록 토큰,secondary recordkeeping token,계좌의 주식 포지션을 블록체인에 따로 기록한 토큰. 별도 투자가 아니며 불일치 시 계좌 기록이 우선(미국 공시),미국 고객 dShares의 법적 성격 서술,별도 증권(docs FAQ),"미국 공시는 계좌 기록의 사본, FAQ는 별도 증권이라 표현",전자증권법상 전자등록부와 토큰의 관계,SITE-Dinari-S07
+완전공개 청산,fully disclosed clearing,청산 회사가 고객별 계좌를 알고 직접 장부를 관리하는 방식,Dinari Securities와 Alpaca의 역할 분담,옴니버스 청산,옴니버스는 고객 구분 없이 합산,"청산결제(예탁결제원, 증권사 위탁매매)",SITE-Dinari-S07
+USD+,USD+,Dinari가 발행하는 수익형 스테이블코인(단기 미국 국채 담보라고 주장),dShares의 정산과 배당 지급 수단,USDC,"USDC는 Circle 발행 일반 스테이블코인, USD+는 Dinari 발행 수익 발생형",원화 스테이블코인 논의,SITE-Dinari-S04
+Dinari Financial Network,Dinari Financial Network(DFN),Avalanche 기반 Dinari 전용 Layer 1과 기관 참여 틀,체인 간 결제와 규제 참여자 연결 구상,,,,SITE-Dinari-S44
+restricted state,restricted state,dShare가 허가 없는 환경으로 나가면 일부 소유권 권리가 정지되는 상태(회사 표현),Hyperliquid 상장 사례의 핵심 구조,,,,SITE-Dinari-S31
+Rule 14b-1(c),SEC Rule 14b-1(c),발행사 요청 시 명의 보유 증권의 실소유자 정보를 공개할 수 있게 하는 규칙,Dinari Securities 약관에 명시,,,실질주주 명부(예탁결제원),SITE-Dinari-S08
+NBBO,National Best Bid and Offer,"미국 시장 전체의 최우선 매수, 매도 호가",미국 고객 주문 최선집행 기준,,,최선집행의무(자본시장법),SITE-Dinari-S03
 Howey test,Howey test,돈을 공동사업에 넣고 남의 노력으로 이익을 기대하면 투자계약,가상자산이 증권인지 가르는 기준,Howey와 토큰 분류표,"Howey는 거래 방식을 보고, 분류표는 토큰 성격을 본다",자본시장법 투자계약증권 개념,US-1-S03
 투자계약,investment contract,증권 정의 목록의 한 항목,비증권 토큰도 투자계약 아래 팔리면 그 거래가 증권,투자계약과 투자계약증권,"미국은 정의 항목, 한국은 증권 종류로 규정",자본시장법 투자계약증권,US-1-S01
 디지털 상품,digital commodity,"SEC 2026 해석의 분류로, 그 자체는 증권이 아닌 토큰",CFTC 관할 가능성과 연결,디지털 증권,증권 여부가 갈린다,(대응 없음),US-1-S11

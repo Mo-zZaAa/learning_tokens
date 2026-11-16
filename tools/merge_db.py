@@ -97,6 +97,14 @@ def write(name, rows):
         w.writerows(rows)
 
 write('sources', src_rows)
+ver = {}
+for vp in sorted(glob.glob(os.path.join(W, 'VER-*', 'verdicts.csv'))):
+    for row in csv.DictReader(open(vp, encoding='utf-8-sig')):
+        if row.get('fact_id') and row.get('새 검증 상태') in ('1차 출처 확인', '교차 확인', '단일 출처', '충돌'):
+            ver[row['fact_id'].strip()] = row['새 검증 상태']
+for r in fact_rows:
+    if r[0] in ver:
+        r[26] = ver[r[0]]
 fact_rows.sort(key=lambda r: r[0])
 write('facts', fact_rows)
 with open(os.path.join(D, '_fact_id_map.csv'), 'w', encoding='utf-8', newline='') as f:

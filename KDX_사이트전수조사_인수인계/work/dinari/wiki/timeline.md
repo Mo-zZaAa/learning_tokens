@@ -1,0 +1,21 @@
+# 연혁
+확인일 2026-11-16. 날짜는 블로그 게시일 또는 문서 표기일.
+
+- 2022: SEC 등록 명의개서대리인이 되었다고 회사가 서술. [출처](https://dinari.com/blog/7-5m-in-seed-investments-and-ex-us-launch-of-dshare-platform)
+- 2023-08-14: 시드 7.5백만 달러 마감, 미국 밖 dShare 플랫폼 출시(당시 미국 거래 불가 고지). [출처](https://dinari.com/blog/7-5m-in-seed-investments-and-ex-us-launch-of-dshare-platform)
+- 2023-10-16: Arbitrum 메인넷 발행 프로토콜, 온램프 연동. [출처](https://dinari.com/blog/dinari-q3-2023-recap-funding-features-and-more)
+- 2023-12-18: 시드 누적 10백만 달러, dShares 20종. [출처](https://dinari.com/blog/weve-closed-10-million-in-seed-funding-and-added-new-dshares)
+- 2024-02-29: B2B REST API와 Managed Account. [출처](https://dinari.com/blog/b2b-api-and-managed-account)
+- 2024 말: dShares 약 100종, USD+ 출시, 체인 확장. [출처](https://dinari.com/blog/dinaris-2024-year-in-review-assets-apis-and-more)
+- 2025-05-01: 시리즈 A 12.7백만 달러, 100종 이상, 60개국 이상. [출처](https://dinari.com/blog/12m-series-a-equities-onchain)
+- 2025-08-14: Dinari Financial Network 출시, 당시 미국 제공 불가 서술. [출처](https://dinari.com/blog/dinari-launches-the-dinari-financial-network-an-omni-chain-orderbook-powered-by-avalanche)
+- 2026-05-14: Bitcoin.com 제휴, 300종 이상. [출처](https://dinari.com/blog/bitcoincom-and-dinari-bring-tokenized-equities-and-etfs-to-global-investors)
+- 2026-07-06: DFN 기관 참여 틀. [출처](https://dinari.com/blog/the-dinari-financial-network)
+- 2026-07-08: tZERO 제휴. [출처](https://dinari.com/blog/dinari-and-tzero-partner)
+- 2026-07-21: Blockchain Association 가입, Form CRS 효력 2026-07-20, 약관 갱신 2026-07-21. [출처](https://dinari.com/blog/dinari-joins-blockchain-association) [출처](https://dinari.com/bd/terms)
+- 2026-08-04: 미국에서 724종 출시. [출처](https://dinari.com/blog/dinari-launches-724-tokenized-stocks-available-to-u-s-investors-and-businesses)
+- 2026-08-20: 미국 투자자 USDC 입금 지원. [출처](https://dinari.com/blog/dinari-enables-usdc-funding-for-tokenized-u-s-equities)
+- 2026-09-18: SEC Innovation Exemption 논평(미국 출시를 earlier this year로 서술). [출처](https://dinari.com/blog/the-secs-innovation-exemption-advances-the-market-for-tokenized-equities)
+- 2026-09-25: 사업개발 팀 확대. [출처](https://dinari.com/blog/dinari-expands-business-development-team)
+- 2026-09-30(사이트 글 날짜): 카카오페이증권 제휴. 외부 보도 체결일 2026-09-29. [출처](https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities)
+- 2026-11-05: Broadridge 위임장 투표. [출처](https://dinari.com/blog/broadridge-and-dinari-partner-to-bring-proxy-voting-to-dshares)

@@ -11,3 +11,7 @@
 - site-pack-reader는 세션 시작 뒤 추가된 정의라 에이전트 종류로 부를 수 없음. general-purpose + model haiku로 띄우고 정의 파일(.claude/agents/site-pack-reader.md)을 그대로 따르게 함. 부르는 횟수를 줄이려고 에이전트 하나에 묶음 2~6개를 주고, 묶음마다 notes 파일을 따로 쓰게 함(verify 짝 맞춤 유지).
 - ATS 운영사 사이트는 map하지 않음. ATS-1이 운영사 사이트와 FINRA API로 필요한 항목을 채웠고, 남은 시간을 회사 6곳 읽기에 씀.
 - 02 새 판은 정리(위키)를 메인 모델이 하게 하지만, 시간과 메인 대화 분량을 줄이려고 notes→위키, DB 줄 옮기기는 sonnet SITEFACT 에이전트에 맡김. 메인은 위키의 open-questions, verify.md, db/facts.csv로 companies 본문을 씀.
+- Ondo, Robinhood는 읽기와 verify가 끝난 뒤 수집 반복을 멈춤(digest가 묶음을 새로 만들면 notes 짝이 어긋나므로). 남은 대기 쪽은 coverage에 미열람으로 남김.
+- 읽기 담당이 묶음을 읽는 동안 fetch 반복이 끝나며 digest가 묶음을 다시 만들면 파일이 바뀔 수 있어, 12:16 UTC에 모든 수집 반복을 멈춤. 그 시점까지 받은 쪽만 읽음. 남은 대기 쪽은 coverage에 미열람(수집 미완료)으로 남김.
+- Kraken 읽기 담당 일부가 근거 구절을 따옴표 없이 써서 verify가 세지 못함. 따옴표만 기계적으로 씌운 뒤 verify 재실행(내용 수정 없음).
+- 회사 자체 문서(약관, docs, FAQ, 보도자료)는 자기 상품 내용에 대해 1차 출처로 판정(3절 3번). 인가 보유, 규모, 순위 주장만 단일 출처로 둠. 이 기준을 검증 에이전트에 전달.

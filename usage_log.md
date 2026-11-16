@@ -24,3 +24,7 @@
 | 12:12 | 2a | Ondo O3 읽기(Haiku) | | | 186,271 | 3,229,177 |
 | 12:13 | 2a | Robinhood R2, R3, Ondo O1 읽기(Haiku) | | | 623,456 | 3,852,633 |
 | 12:13 | 2a | Robinhood R4 읽기(Haiku) | | | 229,142 | 4,081,775 |
+| 12:14 | 2a | Ondo O2, Robinhood R1 읽기(Haiku) | | | 451,077 | 4,532,852 |
+| 12:15 | 2a | Kraken K3 읽기(Haiku) | | | 368,757 | 4,901,609 |
+| 12:15 | 2a | SITEFACT-Dinari | | | 205,685 | 5,107,294 |
+| 12:15 | 2a | Coinbase base.org stocks 읽기(Haiku) | | | 181,358 | 5,288,652 |
