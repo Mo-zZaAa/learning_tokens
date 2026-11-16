@@ -266,6 +266,16 @@ figure figcaption{font-size:12px;color:var(--muted)}
 .row.flash{background:var(--hl)!important;transition:background .4s}
 .lv-th .body,.lv-tr .body{padding-left:0}
 @media (max-width:760px){.cells{grid-template-columns:minmax(0,1fr)}.cells.th{display:none}.cells .cell:first-child{font-weight:700}}
+
+.colink{border:0;background:transparent;padding:0;font:inherit;color:inherit;border-bottom:1.5px solid var(--accent);cursor:pointer}
+.colink:hover{color:var(--accent)}
+details.sec.idcard{border:2px solid var(--accent);background:var(--panel)}
+details.sec.idcard>summary{color:var(--accent)}
+.flow{display:inline-flex;flex-wrap:wrap;gap:6px;align-items:center;margin-left:6px;vertical-align:middle}
+.fbox{border:1.5px solid var(--accent);border-radius:8px;padding:3px 10px;background:var(--accent-soft);font-weight:600;font-size:13.5px}
+.farrow{color:var(--accent);font-weight:700}
+.row.easy .txt{background:var(--hl);padding:1px 4px;border-radius:4px}
+.row.easy .lbl{color:var(--ink)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
 
@@ -318,11 +328,15 @@ D.terms.forEach((t,i) => t.k.forEach(k => TERM_KEYS.push([k,i])));
 TERM_KEYS.sort((a,b) => b[0].length - a[0].length);
 const TERM_RE = TERM_KEYS.length ? new RegExp(TERM_KEYS.map(k => k[0].replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|'), 'g') : null;
 const TERM_IDX = Object.fromEntries(TERM_KEYS);
+const CO_NAMES = [['Blue Ocean','blue-ocean'],['Robinhood','robinhood'],['Coinbase','coinbase'],['Binance','binance'],['Kraken','kraken'],['Dinari','dinari'],['Ondo','ondo'],['Bruce','bruce'],['MOON','moon']];
+const CO_RE = new RegExp('\\b(' + CO_NAMES.map(x => x[0]).join('|') + ')\\b', 'g');
 function withTerms(text){
-  const h = esc(text);
-  if (!TERM_RE) return h;
-  const seen = new Set();
-  return h.replace(TERM_RE, m => { if (seen.has(m)) return m; seen.add(m); return `<span class="term" tabindex="0" data-term="${TERM_IDX[m]}">${m}</span>`; });
+  let h = esc(text);
+  if (TERM_RE){ const seen = new Set();
+    h = h.replace(TERM_RE, m => { if (seen.has(m)) return m; seen.add(m); return `<span class="term" tabindex="0" data-term="${TERM_IDX[m]}">${m}</span>`; }); }
+  // 다른 회사 이름은 그 회사 본문으로 가는 링크(줄마다 처음 한 번, 지금 보는 회사 제외, 태그 밖에서만)
+  const done = new Set();
+  return h.split(/(<[^>]+>)/).map(part => part.startsWith('<') ? part : part.replace(CO_RE, m => { const sl = (CO_NAMES.find(x => x[0] === m)||[])[1]; if (!sl || sl === cur || done.has(sl) || !CO[sl]) return m; done.add(sl); return `<button class="colink" type="button" data-goco="${sl}" title="${m} 본문으로">${m}</button>`; })).join('');
 }
 
 function memoStatus(m){
@@ -414,6 +428,8 @@ function rowHtml(c, r, hasKids){
     const link = r.link ? ` <span class="src"><a href="${esc(r.link)}" target="_blank" rel="noopener">원문 링크</a></span>` : '';
     const grp = hasKids ? `<button class="grp" type="button" data-grp="${r.id}" aria-label="아래 줄 접기">${collapsedGroups.has(r.id)?'▸':'▾'}</button>` : '';
     if (r.interp && !edited) t = `<span class="interp">해석</span> ${withTerms(r.text)}`;
+    if (r.label === '흐름' && !edited) t = `<span class="lbl">흐름</span><span class="flow">${(r.text||'').split(/\s*→\s*/).map((x,i,a) => `<span class="fbox">${withTerms(x)}</span>${i<a.length-1?'<span class="farrow" aria-hidden="true">→</span>':''}`).join('')}</span>`;
+    if (r.label === '쉽게 말하면') cls.push('easy');
     body = `<span class="mk">${MK[r.level]||''}</span>${grp}<span class="txt" data-ev="${r.id}">${t}</span>${linkChips(r.links)}${link}${srcLinks(r)}` +
       (conf?'<span class="chip ok">확정</span>':'') + (edited?'<span class="chip ed">고침</span>':'') + (r.added?'<span class="chip new">추가</span>':'') +
       (del?' <button class="sec2" type="button" data-act="undel" data-lid="'+r.id+'" style="padding:0 8px;font-size:12px">되살리기</button>':'') +
@@ -486,7 +502,9 @@ function renderCompany(){
   const claims = [];
   c.sections.forEach(sec => rowsOf(c, sec).forEach(r => { if (r.claim && !S.del[r.id]) claims.push([sec, r]); }));
   let h = `<div class="page"><div class="head">${c.logo?`<img alt="${esc(c.name)} 로고" src="${D.imgs[c.logo]}">`:''}<div><h1>${esc(c.name)}</h1><div class="kind">${c.kind==='ats'?'미국 주식 야간 거래 시장(ATS)':c.kind==='overview'?'회사 6곳과 미국 야간 ATS 3곳을 한 장으로. 줄 끝 단추를 누르면 그 회사 본문 줄로 갑니다.':'주식 토큰 사업자'}</div></div></div><p class="hint">줄 왼쪽 ${MEMO_ICON} 을 누르면 메모, 챌린지, 딥다이브 요청을 남깁니다. 줄 번호를 누르면 고치기, 줄 추가, 확정, 주황 표시가 나옵니다. 달린 메모는 줄 왼쪽에 붙어 보입니다.</p>`;
-  if (claims.length) h += `<section class="claims"><h2>주장 한눈에 보기</h2><ol>${claims.map(([sec,r]) => `<li><button type="button" data-jump="${sec.code}"><span class="cs">${esc(secShort(sec))}</span><span class="ct">${esc(S.edits[r.id]!=null?S.edits[r.id].replace(/^주장\s*:\s*/,''):r.text)}</span></button></li>`).join('')}</ol></section>`;
+  let claimsHtml = '';
+  if (claims.length) claimsHtml = `<section class="claims"><h2>주장 한눈에 보기</h2><ol>${claims.map(([sec,r]) => `<li><button type="button" data-jump="${sec.code}"><span class="cs">${esc(secShort(sec))}</span><span class="ct">${esc(S.edits[r.id]!=null?S.edits[r.id].replace(/^주장\s*:\s*/,''):r.text)}</span></button></li>`).join('')}</ol></section>`;
+  let cardHtml = '', restHtml = '';
   c.sections.forEach(sec => {
     const rows = rowsOf(c, sec);
     let inner = '', hideUnder = null, qbox = false;
@@ -501,9 +519,10 @@ function renderCompany(){
       inner += html;
       if (hasKids && collapsedGroups.has(r.id) && !hideUnder) hideUnder = {d: depth(r.level)};
     });
-    h += `<details class="sec" id="S-${sec.code}" ${secOpen(sec)?'open':''}><summary><span class="code">${esc(sec.code)}</span>${esc(sec.title)}</summary><div class="rows">${inner}</div></details>`;
+    const blk = `<details class="sec${sec.code==='카드'?' idcard':''}" id="S-${sec.code}" ${secOpen(sec)?'open':''}><summary><span class="code">${esc(sec.code)}</span>${esc(sec.title)}</summary><div class="rows">${inner}</div></details>`;
+    if (sec.code === '카드') cardHtml += blk; else restHtml += blk;
   });
-  h += '</div>';
+  h += cardHtml + claimsHtml + restHtml + '</div>';
   $('#main').innerHTML = h;
 }
 const closedSecs = new Set();

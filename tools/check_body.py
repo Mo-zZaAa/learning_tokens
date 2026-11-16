@@ -29,13 +29,14 @@ for p in sys.argv[1:]:
             if not ids: bad.append(f'{p}:{n} 근거 ID 없음')
             continue
         if not any(k in body for k in ('원문 :', '번역 :', '해석 :', '발언 :')):
-            text = re.sub(r'\[[^\]]+\]', '', body)
+            text = re.sub(r'\{[a-z]{2}-[0-9a-z]+\}', '', body)
+            text = re.sub(r'\[[^\]]+\]', '', text)
             text = re.sub(r'\([^)]*\)', '', text)
             text = text.split(' : ', 1)[-1].strip() if ' : ' in text else text.lstrip('●★①②③ ').strip()
             if len(text) > 40: bad.append(f'{p}:{n} {len(text)}자: {text}')
         if (body.startswith('●') and ':' not in body) or body.startswith(('★ 쟁점', '★ 비교 항목')):
             continue
-        if not ids: bad.append(f'{p}:{n} 근거 ID 없음')
+        if not ids and not re.search(r'\{[a-z]{2}-[0-9a-z]+\}', body): bad.append(f'{p}:{n} 근거 ID 없음')
         for i in ids:
             if i.startswith('F-'):
                 st = facts.get(i)
