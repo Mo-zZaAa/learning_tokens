@@ -93,6 +93,7 @@ details.sec>summary .code{font-family:var(--mono);color:var(--accent);font-size:
 .grp{background:transparent;border:0;cursor:pointer;color:var(--faint);padding:0 4px;font-size:11px}
 .src{font-size:11.5px;margin-left:6px;white-space:nowrap}
 .src a{text-decoration:none;border-bottom:1px solid currentColor}
+.src .more{border:0;background:transparent;color:var(--accent);font-size:11px;cursor:pointer;padding:0 2px}
 .chip{display:inline-block;font-size:11px;border-radius:4px;padding:0 5px;margin-left:6px;vertical-align:1px;font-weight:700}
 .chip.ok{background:var(--ok-soft);color:var(--ok)}
 .chip.ed{background:var(--accent-soft);color:var(--accent)}
@@ -255,13 +256,24 @@ figure figcaption{font-size:12px;color:var(--muted)}
   .mbadge{display:none}
   .row.has-notes .notes{display:none}
 }
+
+.cells{display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));gap:10px;font-size:13.5px;padding:4px 0;border-bottom:1px solid var(--line)}
+.cells.th{font-weight:700;color:var(--muted);font-size:12.5px;border-bottom:2px solid var(--line)}
+.cell{min-width:0}
+.lchip{display:inline-block;border:1px solid var(--accent);color:var(--accent);background:transparent;border-radius:10px;font-size:11px;padding:0 6px;margin:2px 0 0 4px;cursor:pointer;font-family:var(--mono);white-space:nowrap}
+.lchip:hover{background:var(--accent);color:var(--panel)}
+.interp{display:inline-block;font-size:11px;font-weight:700;border-radius:4px;padding:0 5px;background:var(--quote);color:var(--muted);border:1px dashed var(--muted);margin-right:2px;vertical-align:1px}
+.row.flash{background:var(--hl)!important;transition:background .4s}
+.lv-th .body,.lv-tr .body{padding-left:0}
+@media (max-width:760px){.cells{grid-template-columns:minmax(0,1fr)}.cells.th{display:none}.cells .cell:first-child{font-weight:700}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
 
 <header class="top">
   <span class="brand">KDX 해외 사례</span>
   <div class="tabs" role="tablist">
-    <button class="tab" id="tab-read" role="tab" aria-selected="true">본문</button>
+    <button class="tab" id="tab-ov" role="tab" aria-selected="true">전체 그림</button>
+    <button class="tab" id="tab-read" role="tab" aria-selected="false">본문</button>
     <button class="tab" id="tab-compare" role="tab" aria-selected="false" data-view="compare">가로 비교</button>
     <button class="tab" id="tab-lic" role="tab" aria-selected="false" data-view="lic">인가와 관계</button>
     <button class="tab" id="tab-rules" role="tab" aria-selected="false" data-view="rules">제도와 용어</button>
@@ -360,7 +372,7 @@ const openEv = new Set(), openTools = new Set();
 let openForm = null; // {lid, kind}
 
 function renderNav(){
-  const groups = [['company','회사 6곳'],['ats','미국 야간 ATS 3곳']];
+  const groups = [['overview','한눈에'],['company','회사 6곳'],['ats','미국 야간 ATS 3곳']];
   $('#nav').innerHTML = groups.map(([k,h]) => `<div class="navh">${h}</div>` + D.companies.filter(c => c.kind === k).map(c =>
     `<button class="co" type="button" data-slug="${c.slug}" aria-current="${c.slug===cur}">${c.logo?`<img alt="" src="${D.imgs[c.logo]}">`:''}<span>${esc(c.name)}</span><span class="cnt"></span></button>`).join('')).join('');
   updateCount();
@@ -370,7 +382,7 @@ function srcLinks(r){
   const urls = [...new Set((r.src||[]).map(s => s.url).filter(Boolean))];
   if (!urls.length) return '';
   const first = `<a href="${esc(urls[0])}" target="_blank" rel="noopener">출처</a>`;
-  const more = urls.slice(1).map((u,i) => ` <a href="${esc(u)}" target="_blank" rel="noopener">${i+2}</a>`).join('');
+  const more = urls.length > 1 ? ` <button class="more" type="button" data-ev="${r.id}" title="근거 모두 보기">+${urls.length-1}</button>` : '';
   return `<span class="src">${first}${more}</span>`;
 }
 function evHtml(r){
@@ -385,7 +397,14 @@ function rowHtml(c, r, hasKids){
   const orange = S.orange[r.id] != null ? S.orange[r.id] : !!r.orange;
   const cls = ['row','lv-'+r.level]; if (r.claim) cls.push('claim'); if (orange) cls.push('orange'); if (del) cls.push('del'); if (openTools.has(r.id)) cls.push('tools-on');
   let body;
-  if (r.level === 'img'){
+  const linkChips = (L) => (L||[]).map(l => `<button class="lchip" type="button" data-go="${esc(l.id)}" data-co="${esc(l.co)}" title="본문 줄로 이동">${esc(l.disp)}</button>`).join('');
+  if (r.level === 'th' || r.level === 'tr'){
+    const cells = r.cells || [];
+    const ed = S.edits[r.id];
+    body = ed != null ? `<span class="txt" data-ev="${r.id}">${withTerms(ed)}</span>` :
+      `<div class="cells ${r.level}" style="--n:${cells.length}" data-ev="${r.id}">` + cells.map(cl => `<div class="cell">${r.level==='th'?esc(cl.t):withTerms(cl.t)}${linkChips(cl.links)}</div>`).join('') + '</div>';
+    if (r.level === 'tr') body += srcLinks(r) + (conf?'<span class="chip ok">확정</span>':'') + (edited?'<span class="chip ed">고침</span>':'') + (openEv.has(r.id) ? evHtml(r) : '');
+  } else if (r.level === 'img'){
     body = `<div class="figs${r.imgs.length===1?' one':''}">` + r.imgs.map(i => `<figure><img loading="lazy" alt="${esc(i.c)}" src="${D.imgs[i.k]}"><figcaption>${esc(i.c)}</figcaption></figure>`).join('') + '</div>';
   } else {
     let t;
@@ -394,7 +413,8 @@ function rowHtml(c, r, hasKids){
     else t = withTerms(r.text);
     const link = r.link ? ` <span class="src"><a href="${esc(r.link)}" target="_blank" rel="noopener">원문 링크</a></span>` : '';
     const grp = hasKids ? `<button class="grp" type="button" data-grp="${r.id}" aria-label="아래 줄 접기">${collapsedGroups.has(r.id)?'▸':'▾'}</button>` : '';
-    body = `<span class="mk">${MK[r.level]||''}</span>${grp}<span class="txt" data-ev="${r.id}">${t}</span>${link}${srcLinks(r)}` +
+    if (r.interp && !edited) t = `<span class="interp">해석</span> ${withTerms(r.text)}`;
+    body = `<span class="mk">${MK[r.level]||''}</span>${grp}<span class="txt" data-ev="${r.id}">${t}</span>${linkChips(r.links)}${link}${srcLinks(r)}` +
       (conf?'<span class="chip ok">확정</span>':'') + (edited?'<span class="chip ed">고침</span>':'') + (r.added?'<span class="chip new">추가</span>':'') +
       (del?' <button class="sec2" type="button" data-act="undel" data-lid="'+r.id+'" style="padding:0 8px;font-size:12px">되살리기</button>':'') +
       (openEv.has(r.id) ? evHtml(r) : '');
@@ -465,14 +485,14 @@ function renderCompany(){
   c.sections.forEach(sec => { let n = 0; rowsOf(c, sec).forEach(r => { n++; DISP[r.id] = `${c.name} ${sec.code}-${n}`; }); });
   const claims = [];
   c.sections.forEach(sec => rowsOf(c, sec).forEach(r => { if (r.claim && !S.del[r.id]) claims.push([sec, r]); }));
-  let h = `<div class="page"><div class="head">${c.logo?`<img alt="${esc(c.name)} 로고" src="${D.imgs[c.logo]}">`:''}<div><h1>${esc(c.name)}</h1><div class="kind">${c.kind==='ats'?'미국 주식 야간 거래 시장(ATS)':'주식 토큰 사업자'}</div></div></div><p class="hint">줄 왼쪽 ${MEMO_ICON} 을 누르면 메모, 챌린지, 딥다이브 요청을 남깁니다. 줄 번호를 누르면 고치기, 줄 추가, 확정, 주황 표시가 나옵니다. 달린 메모는 줄 왼쪽에 붙어 보입니다.</p>`;
+  let h = `<div class="page"><div class="head">${c.logo?`<img alt="${esc(c.name)} 로고" src="${D.imgs[c.logo]}">`:''}<div><h1>${esc(c.name)}</h1><div class="kind">${c.kind==='ats'?'미국 주식 야간 거래 시장(ATS)':c.kind==='overview'?'회사 6곳과 미국 야간 ATS 3곳을 한 장으로. 줄 끝 단추를 누르면 그 회사 본문 줄로 갑니다.':'주식 토큰 사업자'}</div></div></div><p class="hint">줄 왼쪽 ${MEMO_ICON} 을 누르면 메모, 챌린지, 딥다이브 요청을 남깁니다. 줄 번호를 누르면 고치기, 줄 추가, 확정, 주황 표시가 나옵니다. 달린 메모는 줄 왼쪽에 붙어 보입니다.</p>`;
   if (claims.length) h += `<section class="claims"><h2>주장 한눈에 보기</h2><ol>${claims.map(([sec,r]) => `<li><button type="button" data-jump="${sec.code}"><span class="cs">${esc(secShort(sec))}</span><span class="ct">${esc(S.edits[r.id]!=null?S.edits[r.id].replace(/^주장\s*:\s*/,''):r.text)}</span></button></li>`).join('')}</ol></section>`;
   c.sections.forEach(sec => {
     const rows = rowsOf(c, sec);
     let inner = '', hideUnder = null, qbox = false;
     rows.forEach((r, i) => {
       const nxt = rows[i+1];
-      const depth = l => l === 'b' ? 0 : (l === 's' || l === 'img') ? 1 : 2;
+      const depth = l => l === 'b' ? 0 : (l === 's' || l === 'img' || l === 'th' || l === 'tr') ? 1 : 2;
       const hasKids = r.level !== 'img' && nxt && depth(nxt.level) > depth(r.level);
       let hidden = false;
       if (hideUnder){ if (depth(r.level) > hideUnder.d) hidden = true; else hideUnder = null; }
@@ -512,7 +532,7 @@ function renderMemo(){
 }
 
 function render(){
-  $('#tab-read').setAttribute('aria-selected', view==='read'); $('#tab-memo').setAttribute('aria-selected', view==='memo');
+  $('#tab-ov').setAttribute('aria-selected', view==='read' && cur==='overview'); $('#tab-read').setAttribute('aria-selected', view==='read' && cur!=='overview'); $('#tab-memo').setAttribute('aria-selected', view==='memo');
   document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-selected', b.dataset.view === view));
   $('#btn-fold').hidden = view !== 'read';
   document.querySelectorAll('.co').forEach(el => el.setAttribute('aria-current', el.dataset.slug === cur && view === 'read'));
@@ -529,7 +549,8 @@ document.addEventListener('click', e => {
   const t = e.target;
   if (!t.closest('.pop') && !t.closest('.term')) closePop();
   const co = t.closest('.co'); if (co){ cur = co.dataset.slug; view = 'read'; location.hash = cur; render(); window.scrollTo(0,0); return; }
-  if (t.closest('#tab-read')){ view = 'read'; render(); return; }
+  if (t.closest('#tab-ov')){ view = 'read'; cur = 'overview'; location.hash = 'overview'; render(); window.scrollTo(0,0); return; }
+  if (t.closest('#tab-read')){ view = 'read'; if (cur === 'overview'){ cur = D.companies.find(c => c.kind !== 'overview').slug; location.hash = cur; } render(); window.scrollTo(0,0); return; }
   if (t.closest('#tab-memo')){ view = 'memo'; render(); window.scrollTo(0,0); return; }
   const vb = t.closest('[data-view]'); if (vb){ view = vb.dataset.view; location.hash = 'v-' + view; render(); window.scrollTo(0,0); return; }
   const gco = t.closest('[data-goco]'); if (gco){ const sl = gco.dataset.goco; if (CO[sl]){ cur = sl; view = 'read'; location.hash = sl; render(); window.scrollTo(0,0); } return; }
@@ -546,9 +567,9 @@ document.addEventListener('click', e => {
   const nb = t.closest('[data-notes]'); if (nb){ const id = nb.dataset.notes; openNotes.has(id) ? openNotes.delete(id) : openNotes.add(id); keepScroll(render); return; }
   const card = t.closest('[data-card]'); if (card && !t.closest('button')){ const k = card.dataset.card; openCards.has(k) ? openCards.delete(k) : openCards.add(k); keepScroll(render); return; }
   const num = t.closest('[data-tools]'); if (num){ const id = num.dataset.tools; openTools.has(id) ? openTools.delete(id) : openTools.add(id); keepScroll(render); return; }
-  const ev = t.closest('[data-ev]'); if (ev && !t.closest('.ev')){ const id = ev.dataset.ev; openEv.has(id) ? openEv.delete(id) : openEv.add(id); keepScroll(render); return; }
+  const ev = t.closest('[data-ev]'); if (ev && !t.closest('.ev') && !t.closest('.lchip')){ const id = ev.dataset.ev; openEv.has(id) ? openEv.delete(id) : openEv.add(id); keepScroll(render); return; }
   const mf = t.closest('[data-mf-co],[data-mf-st]'); if (mf){ const f = window._mf || {co:'all', st:'all'}; if (mf.dataset.mfCo) f.co = mf.dataset.mfCo; if (mf.dataset.mfSt) f.st = mf.dataset.mfSt; window._mf = f; render(); return; }
-  const go = t.closest('[data-go]'); if (go){ cur = go.dataset.co || cur; view = 'read'; location.hash = cur; openTools.add(go.dataset.go); render(); const el = document.getElementById('L-'+go.dataset.go); if (el){ el.scrollIntoView({block:'center'}); } return; }
+  const go = t.closest('[data-go]'); if (go){ cur = go.dataset.co || cur; view = 'read'; location.hash = cur; closedSecs.clear(); render(); const el = document.getElementById('L-'+go.dataset.go); if (el){ el.scrollIntoView({block:'center'}); el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 2400); } return; }
   const rm = t.closest('[data-rm]'); if (rm){ S.memos = S.memos.filter(m => m.mid !== rm.dataset.rm); save(); render(); return; }
   const act = t.closest('[data-act]'); if (act) doAct(act.dataset.act, act.dataset.lid, act);
 });
@@ -751,7 +772,7 @@ document.addEventListener('input', e => {
 
 // ---------- 시작 ----------
 const fromHash = location.hash.slice(1);
-cur = CO[fromHash] ? fromHash : D.companies[0].slug;
+cur = CO[fromHash] ? fromHash : (CO['overview'] ? 'overview' : D.companies[0].slug);
 if (fromHash.startsWith('v-') && ['compare','lic','rules'].includes(fromHash.slice(2))) view = fromHash.slice(2);
 renderNav(); render();
 window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (CO[h] && (h !== cur || view !== 'read')){ cur = h; view = 'read'; render(); } else if (h.startsWith('v-') && h.slice(2) !== view && ['compare','lic','rules'].includes(h.slice(2))){ view = h.slice(2); render(); } });

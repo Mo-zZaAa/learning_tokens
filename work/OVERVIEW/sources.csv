@@ -1,0 +1,11 @@
+source_id,제목,발행 주체,발행일,출처 종류,언어,링크,저장 파일 경로,캡처 파일,접근 결과,열람 일시
+OV-S01,"인가 지도 등록 수: 거래소, 대체거래시스템(ATS) 거래소","인가 지도(사용자 제공), 원 출처 링크",,등록부 통계,ko,https://www.sec.gov/about/divisions-offices/division-trading-markets/national-securities-exchanges,inputs/license_map/license_units.csv,,사용자 제공 표,2026-11-16T18:00Z
+OV-S02,"인가 지도 등록 수: 거래소, 대체거래시스템(ATS) 상장주식 ATS","인가 지도(사용자 제공), 원 출처 링크",,등록부 통계,ko,https://www.sec.gov/divisions/marketreg/form-ats-n-filings.htm,inputs/license_map/license_units.csv,,사용자 제공 표,2026-11-16T18:00Z
+OV-S03,"인가 지도 등록 수: 거래소, 대체거래시스템(ATS) 그 밖의 ATS","인가 지도(사용자 제공), 원 출처 링크",,등록부 통계,ko,https://www.sec.gov/foia/docs/atslist,inputs/license_map/license_units.csv,,사용자 제공 표,2026-11-16T18:00Z
+OV-S04,"인가 지도 등록 수: 청산기관, 청산 증권사 청산기관","인가 지도(사용자 제공), 원 출처 링크",,등록부 통계,ko,https://www.sec.gov/about/divisions-offices/division-trading-markets/clearing-agencies,inputs/license_map/license_units.csv,,사용자 제공 표,2026-11-16T18:00Z
+OV-S05,"인가 지도 등록 수: 청산기관, 청산 증권사 청산, 보관형 증권사","인가 지도(사용자 제공), 원 출처 링크",,등록부 통계,ko,https://www.sec.gov/files/dera-broker-dealer-activity-2506.pdf,inputs/license_map/license_units.csv,,사용자 제공 표,2026-11-16T18:00Z
+OV-S06,인가 지도 등록 수: 명의개서대리인 SEC 등록,"인가 지도(사용자 제공), 원 출처 링크",,등록부 통계,ko,https://www.sec.gov/data-research/statistics-data-visualizations/transfer-agents,inputs/license_map/license_units.csv,,사용자 제공 표,2026-11-16T18:00Z
+OV-S07,인가 지도 등록 수: 명의개서대리인 은행 감독기관 등록,"인가 지도(사용자 제공), 원 출처 링크",,등록부 통계,ko,https://www.dfinsolutions.com/knowledge-hub/thought-leadership/knowledge-resources/form-ta-1,inputs/license_map/license_units.csv,,사용자 제공 표,2026-11-16T18:00Z
+OV-S08,인가 지도 등록 수: 브로커딜러 소개 증권사,"인가 지도(사용자 제공), 원 출처 링크",,등록부 통계,ko,,inputs/license_map/license_units.csv,,사용자 제공 표,2026-11-16T18:00Z
+OV-S09,"인가 지도 등록 수: 브로커딜러 청산, 보관형 증권사","인가 지도(사용자 제공), 원 출처 링크",,등록부 통계,ko,https://www.sec.gov/files/dera-broker-dealer-activity-2506.pdf,inputs/license_map/license_units.csv,,사용자 제공 표,2026-11-16T18:00Z
+OV-S10,인가 지도 등록 수: 브로커딜러 업무 종류,"인가 지도(사용자 제공), 원 출처 링크",,등록부 통계,ko,https://www.finra.org/registration-exams-ce/broker-dealers/update/form-bd-form-cma,inputs/license_map/license_units.csv,,사용자 제공 표,2026-11-16T18:00Z

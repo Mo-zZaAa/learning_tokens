@@ -40,6 +40,7 @@ SLUG = {"kr": "kraken", "rh": "robinhood", "bn": "binance", "cb": "coinbase", "d
 ID_RE = re.compile(r"\[((?:F-\d{4})|(?:TP-\d{3})|(?:KR-[^\]]+)|(?:US-[^\]]+)|(?:EU-[^\]]+)|(?:CASE-[^\]]+))\]")
 IMG_RE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 URL_RE = re.compile(r"https?://\S+")
+LINK_RE = re.compile(r"\{([a-z]{2}-[0-9a-z]{4,})\}")
 ORANGE_WORDS = ("Securitize", "tZERO")
 
 
@@ -59,7 +60,7 @@ def sec_code(title):
     m = re.match(r"([A-H]) ", title)
     if m:
         return m.group(1)
-    for key, code in (("사업 범위", "범위"), ("개요", "개요"), ("발언", "발언"), ("연결", "연결"), ("차이", "차이"), ("판단", "판단")):
+    for key, code in (("물결", "물결"), ("출신", "출신"), ("고객 화면", "화면"), ("등록 종류", "등록"), ("KDX 질문", "질문"), ("기업별 한 줄", "한줄"), ("사업 범위", "범위"), ("개요", "개요"), ("발언", "발언"), ("연결", "연결"), ("차이", "차이"), ("판단", "판단")):
         if key in title:
             return code
     return title[:2]
@@ -174,6 +175,19 @@ def parse(path):
                 logo = img_key(m.group(2))
             continue
         s = raw.strip()
+        if s.startswith("|"):
+            cells = [c.strip() for c in s.strip("|").split("|")]
+            if set("".join(cells)) <= set("-: "):
+                continue
+            prev = cur["rows"][-1] if cur["rows"] else None
+            level = "tr" if prev and prev["level"] in ("th", "tr") else "th"
+            cl = []
+            for c in cells:
+                cl.append({"t": LINK_RE.sub("", ID_RE.sub("", c)).strip(), "links": LINK_RE.findall(c), "ids": ID_RE.findall(c)})
+            ids = [i for c in cl for i in c["ids"]]
+            cur["rows"].append({"level": level, "cells": cl, "raw": s, "ids": ids, "src": evidence(ids),
+                                "links": [l for c in cl for l in c["links"]], "label": None, "text": " | ".join(c["t"] for c in cl)})
+            continue
         if IMG_RE.match(s):
             imgs = [{"k": img_key(m.group(2)), "c": m.group(1)} for m in IMG_RE.finditer(s)]
             cur["rows"].append({"level": "img", "imgs": [i for i in imgs if i["k"]], "raw": s})
@@ -185,7 +199,8 @@ def parse(path):
         else:
             body = s[1:].strip()
         ids = ID_RE.findall(body)
-        text = ID_RE.sub("", body).strip()
+        links = LINK_RE.findall(body)
+        text = LINK_RE.sub("", ID_RE.sub("", body)).strip()
         link = None
         um = URL_RE.search(text)
         if um:
@@ -198,7 +213,9 @@ def parse(path):
         if " : " in text:
             label, rest = text.split(" : ", 1)
         row = {"level": level, "label": label, "text": rest if label else text, "raw": s,
-               "src": evidence(ids)}
+               "src": evidence(ids), "ids": ids, "links": links}
+        if label == "해석":
+            row["interp"] = True
         if link:
             row["link"] = link
         if label == "주장" and level == "b":
@@ -433,8 +450,9 @@ def main():
     locks = json.loads(locks_p.read_text(encoding="utf-8")) if locks_p.exists() else {}
 
     companies = []
-    for base, name, kind, prefix in ORDER:
-        p = latest_body(base)
+    plan = [("__overview__", "전체 그림", "overview", "ov")] + list(ORDER)
+    for base, name, kind, prefix in plan:
+        p = ROOT / "kb/overview.md" if base == "__overview__" else latest_body(base)
         if not p:
             print("본문 없음:", base, file=sys.stderr)
             continue
@@ -454,11 +472,40 @@ def main():
                         print(f"  확정 문구 유지: {r['disp']}", file=sys.stderr)
                         r["text"] = t
                 r.pop("raw", None)
-        companies.append({"slug": SLUG[prefix], "name": name, "kind": kind, "logo": logo,
+        companies.append({"slug": SLUG.get(prefix, "overview"), "name": name, "kind": kind, "logo": logo,
                           "sections": sections})
         print(f"{name}: {p.name}, {sum(len(s['rows']) for s in sections)}줄")
 
     store_p.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
+    # 본문 줄 링크 풀기: {kr-0215} → 회사, 화면 번호, 그 줄의 근거
+    idx = {}
+    for c in companies:
+        for sec in c["sections"]:
+            for r in sec["rows"]:
+                idx[r["id"]] = (c["slug"], r)
+    bad = []
+    def res(lid):
+        if lid not in idx:
+            bad.append(lid)
+            return None
+        slug, r = idx[lid]
+        return {"id": lid, "co": slug, "disp": r["disp"]}
+    for c in companies:
+        for sec in c["sections"]:
+            for r in sec["rows"]:
+                if r.get("links"):
+                    r["links"] = [x for x in (res(l) for l in r["links"]) if x]
+                    extra = [i for l in r["links"] for i in idx[l["id"]][1].get("ids", []) if i not in r.get("ids", [])]
+                    have = {(e.get("url"), e.get("q", "")[:80]) for e in r["src"]}
+                    for e in evidence(list(dict.fromkeys(extra))):
+                        if (e.get("url"), e.get("q", "")[:80]) not in have:
+                            r["src"].append(e)
+                for cl in r.get("cells", []):
+                    cl["links"] = [x for x in (res(l) for l in cl["links"]) if x]
+                if r.get("level") not in ("img", "th") and c["kind"] == "overview" and not r.get("ids") and not r.get("links") and r.get("text") and " : " not in (r.get("label") or "") and r["level"] != "b":
+                    print("  근거 없는 전체 그림 줄:", r["disp"], r.get("text", "")[:40], file=sys.stderr)
+    if bad:
+        print("  찾지 못한 줄 링크:", sorted(set(bad)), file=sys.stderr)
 
     terms = []
     for r in load_csv(ROOT / "db/terms.csv"):
