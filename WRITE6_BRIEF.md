@@ -1,5 +1,7 @@
 # 본문 보완 지시 6 (사용자 Kraken 메모 79개 반영, 2026-11-16)
 
+먼저 playbook/writing_rules.md와 playbook/research_knowhow.md를 읽는다. 아래는 이번 회차에만 해당하는 지시다.
+
 사용자가 Kraken 본문을 읽고 메모 79개를 남겼다(discussion/inbox/2026-11-16_1819_kraken.json). 다른 회사도 같은 종류의 질문이 나오지 않게 고친다. 대상 파일은 companies/<회사>_v4.md(새 버전 파일을 만들지 않는다).
 
 ## 1. 바뀐 쓰기 규칙
