@@ -7,3 +7,7 @@
 "F-0045","교차 확인","Korea Herald, 조선비즈 일치(FIX-ATS)","https://koreaherald.com/article/10860485",""
 "F-0107","1차 출처 확인","SEC 보도자료 2025-47 원문을 사용자 로컬 브라우저로 열어 확인(work/LOCAL LOC-005)","https://www.sec.gov/newsroom/press-releases/2025-47","captures/local/Coinbase_SEC_dismissal.png"
 "F-1121","1차 출처 확인","NFA BASIC 등록 이력 확인: 2023-08-15 FCM 등록, NFA 회원 승인(work/LOCAL LOC-006)","https://www.nfa.futures.org/BasicNet/","captures/local/Coinbase_NFA_CFM_history.png"
+"F-1320","1차 출처 확인","RWA.xyz 화면 직접 조회(주식 토큰 F-1021~F-1028과 같은 데이터 제공자, 같은 날)","",""
+"F-1321","1차 출처 확인","RWA.xyz 화면 직접 조회(주식 토큰 F-1021~F-1028과 같은 데이터 제공자, 같은 날)","",""
+"F-1322","1차 출처 확인","RWA.xyz 화면 직접 조회(주식 토큰 F-1021~F-1028과 같은 데이터 제공자, 같은 날)","",""
+"F-1323","1차 출처 확인","회사 블로그 발표, 상태값 표기 정규화","","회사 발표"
