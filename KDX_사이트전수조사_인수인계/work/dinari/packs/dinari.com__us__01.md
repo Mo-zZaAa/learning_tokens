@@ -69,7 +69,7 @@ url: https://dinari.com/us/disclosures
 title: Disclosures
 description: 
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 
@@ -132,7 +132,7 @@ accept discretionary authority. You are solely responsible for your
 investment decisions.
 
 Our principal office is located at 260 Madison Avenue, Suite 8051,
-New York, NY 10016. You may contact us at [[email protected]](https://dinari.com/cdn-cgi/l/email-protection).
+New York, NY 10016. You may contact us at [support@dinarisecurities.com](mailto:support@dinarisecurities.com).
 
 ## 2. Our relationship with Dinari, Inc.
 
@@ -231,7 +231,7 @@ not extend margin or credit to Dinari Securities customers through the
 Platform.
 
 If you have a question or complaint about your account, contact
-Dinari Securities first at [[email protected]](https://dinari.com/cdn-cgi/l/email-protection).
+Dinari Securities first at [support@dinarisecurities.com](mailto:support@dinarisecurities.com).
 You may also contact Alpaca directly if you have questions about the
 custody of your securities, your account statements, or if you are
 unable to reach Dinari Securities.
@@ -467,3 +467,7 @@ may update this page at any time.
 ## Looking to trade dShares™?
 
 [Find a partner near you](https://dinari.com/partners)
+
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+
+Cookies Settings Reject All Accept All Cookies

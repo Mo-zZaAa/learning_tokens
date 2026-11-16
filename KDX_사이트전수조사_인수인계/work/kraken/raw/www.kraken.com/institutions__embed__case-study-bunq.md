@@ -133,10 +133,29 @@ Send
 
 ## 펼치거나 눌러야 보이던 내용
 
+### What is the difference between an on-ramp and an off-ramp? 누른 뒤
+
+- What is the difference between an on-ramp and an off-ramp?
 - An on-ramp turns fiat into crypto, and an off-ramp turns crypto back into fiat. With our hosted checkout, your user pays in fiat and we deliver crypto to their wallet. To off-ramp, your users convert crypto or stablecoins to fiat and withdraw it to a linked bank account. See Ramp.
+
+### How does a hosted on-ramp checkout work for our product? 누른 뒤
+
+- How does a hosted on-ramp checkout work for our product?
 - Integration follows four steps. You discover which countries, currencies, payment methods and assets are valid for your user, preview the pay and receive amounts, optionally check minimum and maximum limits, then send the user to a hosted checkout. Payward handles payment processing, user verification and crypto delivery, and your product receives transaction updates. Full steps are in the Ramp guide.
+
+### How are our users verified? 누른 뒤
+
+- How are our users verified?
 - We verify your users for you through a hosted web or embedded flow, so you don't need to build identity collection yourself. Verification runs in the background, so your product waits for the result before the user can buy. Approved partners in the EEA can instead submit users their own provider has already verified. See Hosted KYC.
+
+### Which assets, countries and payment methods are supported? 누른 뒤
+
+- Which assets, countries and payment methods are supported?
 - Supported assets include major cryptocurrencies such as Bitcoin and Ethereum and stablecoins such as USDC and USDT, across several networks. Coverage varies by product and is subject to regulatory requirements in each jurisdiction, so the supported countries, currencies and payment methods depend on your user's location. Your integration engineer can confirm corridor-specific availability. See asset, funding rail and geo coverage.
+
+### Can we test the integration before going live? 누른 뒤
+
+- Can we test the integration before going live?
 - Yes. You get a sandbox from day one to build and test your integration. The Ramp checkout itself isn't available in the sandbox, so you test it in production with small real amounts, using a production test account we set up for you. See Environments.
 
 ## 구조화 데이터(JSON-LD)

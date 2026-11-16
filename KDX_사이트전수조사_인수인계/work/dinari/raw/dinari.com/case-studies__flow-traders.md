@@ -3,7 +3,7 @@ url: https://dinari.com/case-studies/flow-traders
 title: Always-On Markets With Dinari's dShares™ and Flow Traders
 description: By combining Flow Traders' global liquidity expertise with Dinari's dShares™, investors can now trade select U.S. equities 24 hours a day, 7 days a week, bringing always-on access to some of the world's most actively traded stocks and ETFs.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 
@@ -107,3 +107,7 @@ As tokenized securities continue to mature, continuous trading will become an in
 ## Looking to trade dShares™?
 
 [Find a partner near you](https://dinari.com/partners)
+
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+
+Cookies Settings Reject All Accept All Cookies

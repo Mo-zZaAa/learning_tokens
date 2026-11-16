@@ -2294,7 +2294,7 @@ Copy Page
 ```
 
 <<<PAGE https://docs.dinari.com/docs>>>
-(본문이 https://dinari.com/get-started 과 같아 생략)
+(본문이 https://docs.dinari.com/ 과 같아 생략)
 
 <<<PAGE https://docs.dinari.com/docs/error-codes>>>
 ---

@@ -54,3 +54,17 @@ Connect wallet
 [Market](https://app.dinari.com/)[Portfolio](https://app.dinari.com/portfolio)[Orders](https://app.dinari.com/orders)
 
 Dinari Trading App
+
+## 펼치거나 눌러야 보이던 내용
+
+### Connect Wallet 누른 뒤
+
+- Connect wallet
+- Dinari Trading
+- Sign in with Base
+- or use another wallet
+- Coinbase Wallet
+- MetaMask
+- Phantom
+- By connecting a wallet, you agree to our
+- Terms of Service and Privacy Policy.

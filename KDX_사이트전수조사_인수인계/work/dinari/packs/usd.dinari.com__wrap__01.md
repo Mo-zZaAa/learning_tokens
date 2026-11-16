@@ -46,3 +46,15 @@ Connect Wallet
 By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
 
 Cookies Settings Reject All Accept All Cookies
+
+## 펼치거나 눌러야 보이던 내용
+
+### Connect Wallet 누른 뒤
+
+- Cookies Settings Reject All Accept All Cookies
+- Connect a Wallet
+- External Wallets
+- Coinbase Wallet
+- WalletConnect
+- New to Ethereum wallets?
+- Learn More

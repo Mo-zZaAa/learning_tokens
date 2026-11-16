@@ -1,0 +1,5 @@
+/home/user/learning_tokens/.claude/skills/company-site-wiki/scripts/sitewiki.py:101: FutureWarning: Possible nested set at position 3
+  locs = [re.sub(r'<![[]CDATA[[]|[]][]]>', '', x).strip().replace('&amp;', '&') for x in re.findall(r'<loc>(.*?)</loc>', text, re.S)]
+/home/user/learning_tokens/.claude/skills/company-site-wiki/scripts/sitewiki.py:101: FutureWarning: Possible nested set at position 11
+  locs = [re.sub(r'<![[]CDATA[[]|[]][]]>', '', x).strip().replace('&amp;', '&') for x in re.findall(r'<loc>(.*?)</loc>', text, re.S)]
+MAPDONE 11:49:35

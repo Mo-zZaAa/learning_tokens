@@ -3,7 +3,7 @@ url: https://dinari.com/case-studies/rwax-exchange
 title: How RWAX Exchange Expanded Access to Real-World Assets With Tokenized U.S. Securities
 description: Powered by Dinari's dShares™, RWAX Exchange broadened its marketplace by adding regulated U.S. securities, giving users access to one of the world's largest asset classes alongside commodities, stablecoins, and other real-world assets.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 
@@ -99,3 +99,7 @@ Together, RWAX Exchange and Dinari demonstrate that the next generation of finan
 ## Looking to trade dShares™?
 
 [Find a partner near you](https://dinari.com/partners)
+
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+
+Cookies Settings Reject All Accept All Cookies

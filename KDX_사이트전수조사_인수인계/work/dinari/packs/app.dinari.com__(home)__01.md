@@ -57,143 +57,108 @@ Chart
 
 NVDANVIDIA Corporation Common Stock
 
-$159.20
+$159.27
 
-6.01M
+6.64M
 
-—
+-1.26%
+
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
 
 [그림: AMD]
 
 AMDAdvanced Micro Devices, Inc. Common Stock
 
-$507.80
+$511.70
 
-447.29K
+491.96K
 
-—
+-0.48%
+
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
 
 [그림: GOOGL]
 
 GOOGLAlphabet Inc. Class A Common Stock
 
-$294.82
+$295.35
 
-237.1K
+256.65K
 
-—
++0.62%
+
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
 
 [그림: COIN]
 
 COINCoinbase Global, Inc. Class A Common Stock
 
-$119.40
+$119.98
 
-231.74K
+250.7K
 
-—
+-0.14%
+
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
 
 [그림: TSLA]
 
 TSLATesla, Inc. Common Stock
 
-$386.59
+$388.50
 
-181.18K
+212.59K
 
-—
++0.60%
+
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
 
 [그림: AMZN]
 
 AMZNAmazon.com, Inc. Common Stock
 
-$265.30
+$265.60
 
-171.5K
+187K
 
-—
++0.45%
 
-[그림: NFLX]
-
-NFLXNetflix, Inc. Common Stock
-
-$62.85
-
-158.24K
-
-—
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
 
 S
 
 SPYETFState Street SPDR S&P 500 ETF Trust
 
-$751.62
+$752.02
 
-146.93K
+183.46K
 
-—
++0.09%
 
-[그림: AAPL]
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
 
-AAPLApple Inc. Common Stock
-
-$358.78
-
-94.87K
-
-—
-
-[그림: PFE]
-
-PFEPfizer Inc.
-
-$29.10
-
-94.05K
-
-—
-
-[그림: MSFT]
-
-MSFTMicrosoft Corporation Common Stock
-
-$528.10
-
-87.45K
-
-—
-
-[그림: META]
-
-METAMeta Platforms, Inc. Class A Common Stock
-
-$638.32
-
-70.46K
-
-—
-
-G
-
-GBTCETFGrayscale Bitcoin Trust ETF
-
-$49.75
-
-65.89K
-
-—
-
-[그림: RIOT]
-
-RIOTRiot Platforms, Inc. Common Stock
-
-$16.68
-
-51.52K
-
-—
-
-Updated: Nov 16, 2026, 5:53:26 AM ET
+Updated: Nov 16, 2026, 6:34:09 AM ET
 
 View More
 
@@ -228,3 +193,23 @@ Connect wallet
 [Market](https://app.dinari.com/)[Portfolio](https://app.dinari.com/portfolio)[Orders](https://app.dinari.com/orders)
 
 Dinari Trading App
+
+## 펼치거나 눌러야 보이던 내용
+
+### View More 누른 뒤
+
+- (prev close line)
+- Loading stocks...
+- Updated: Nov 16, 2026, 6:34:17 AM ET
+
+### Connect Wallet 누른 뒤
+
+- No advice. Dinari Securities does not provide investment advice or recommendations. All orders are self-directed. Popular, Trending and similar lists are generated automatically by objective criteria such as volume and price change and are not recommendations. Before investing in an ETF, consider its objectives, risks, charges and expenses, described in its prospectus, available from the fund sponsor or at sec.gov. Commissions and fees apply.
+- Dinari Trading
+- Sign in with Base
+- or use another wallet
+- Coinbase Wallet
+- MetaMask
+- Phantom
+- By connecting a wallet, you agree to our
+- Terms of Service and Privacy Policy.

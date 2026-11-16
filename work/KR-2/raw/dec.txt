@@ -1,0 +1,4 @@
+fetched: 2026-11-16T11:58Z
+url: POST https://www.law.go.kr/LSW/lsInfoR.do lsiSeq=291669 (자본시장법 시행령 현행)
+
+ Error

@@ -4227,8 +4227,6 @@ PayPal Holdings, Inc. Common Stock
 
 PYPLx
 
-PYTH
-
 [그림: PYTH icon]
 
 Pyth Network

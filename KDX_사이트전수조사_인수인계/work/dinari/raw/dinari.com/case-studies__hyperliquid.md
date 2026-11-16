@@ -3,7 +3,7 @@ url: https://dinari.com/case-studies/hyperliquid
 title: Launching SpaceX as the First Spot U.S. Equity on Hyperliquid
 description: $SPCXD became the first tokenized U.S. equity to trade on HyperCore, demonstrating how Dinari's dShares™ can serve both regulated financial institutions and permissionless onchain markets through a single asset architecture.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 
@@ -137,3 +137,7 @@ The launch of $SPCXD on Hyperliquid represents more than another integration. It
 ## Looking to trade dShares™?
 
 [Find a partner near you](https://dinari.com/partners)
+
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+
+Cookies Settings Reject All Accept All Cookies

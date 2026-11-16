@@ -13,9 +13,9 @@ plan: read
 
 Access 1,000+ companies like Apple and NVIDIA instantly, with auto-reinvested dividends.
 
-[Sign up](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=%2Fxstocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a&deep_link_value=explore%2Ftokenized_assets)[Sign up](/sign-up)
+[Sign up](https://app.kraken.com/JDNW?deep_link_value=explore%2Ftokenized_assets)[Sign up](https://www.kraken.com/sign-up)
 
-[Trade xStocks](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=/xstocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a)[Trade xStocks](/sign-up)
+[Trade xStocks](https://app.kraken.com/JDNW)[Trade xStocks](https://www.kraken.com/sign-up)
 
 [영상]
 
@@ -23,13 +23,13 @@ Available on
 
 [[그림: App icon] 
 
-Kraken](/kraken-app)
+Kraken](https://www.kraken.com/kraken-app)
 
-The fast, flexible, fair access you deserve. xStocks lets you trade tokenized shares of top U.S. stocks and ETFs, from the S&P 500 to Amazon, 24 hours a day, every weekday. Plus, request tokenized shares of select companies before they go public with [IPO access](/ipo).
+The fast, flexible, fair access you deserve. xStocks lets you trade tokenized shares of top U.S. stocks and ETFs, from the S&P 500 to Amazon, 24 hours a day, every weekday. Plus, request tokenized shares of select companies before they go public with [IPO access](https://www.kraken.com/ipo).
 
-[Sign up](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=%2Fxstocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a&deep_link_value=explore%2Ftokenized_assets)[Sign up](/sign-up)
+[Sign up](https://app.kraken.com/JDNW?deep_link_value=explore%2Ftokenized_assets)[Sign up](https://www.kraken.com/sign-up)
 
-[Sign up](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=/xstocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a)[Sign up](/sign-up)
+[Sign up](https://app.kraken.com/JDNW)[Sign up](https://www.kraken.com/sign-up)
 
 Why xStocks?
 
@@ -82,7 +82,7 @@ Earn up to 2% rewards on supported tokenized stocks
 
 Keep full price exposure while earning rewards.
 
-[Sign up](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=%2Fxstocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a&deep_link_value=explore%2Ftokenized_assets)[Sign up](/sign-up)
+[Sign up](https://app.kraken.com/JDNW?deep_link_value=explore%2Ftokenized_assets)[Sign up](https://www.kraken.com/sign-up)
 
 [그림: xStocks]
 
@@ -92,11 +92,11 @@ Earn up to 2% rewards on supported tokenized stocks
 
 Keep full price exposure while earning rewards.
 
-[Sign up](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=%2Fxstocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a&deep_link_value=explore%2Ftokenized_assets)[Sign up](/sign-up)
+[Sign up](https://app.kraken.com/JDNW?deep_link_value=explore%2Ftokenized_assets)[Sign up](https://www.kraken.com/sign-up)
 
 [그림: xStocks]
 
-Not available in the US, EEA, and certain other regions. Auto Earn rates are subject to change. Participation in the Opt-In Rewards Program involves an element of risk and may not be suitable for everyone. For the full terms and conditions, please refer to Kraken’s [Terms of Service](/legal).
+Not available in the US, EEA, and certain other regions. Auto Earn rates are subject to change. Participation in the Opt-In Rewards Program involves an element of risk and may not be suitable for everyone. For the full terms and conditions, please refer to Kraken’s [Terms of Service](https://www.kraken.com/legal).
 
 Tokenized equities explained
 
@@ -108,83 +108,85 @@ Build your xStock portfolio
 
 ExxonMobil Holdings
 
-XOMx](/xstocks/xomx)[[그림: WMT icon]
+XOMx](https://www.kraken.com/xstocks/xomx)[[그림: WMT icon]
 
 Walmart
 
-WMTx](/xstocks/wmtx)[[그림: VTI icon]
+WMTx](https://www.kraken.com/xstocks/wmtx)[[그림: VTI icon]
 
 Vanguard Morningstar Total Stock Market ETF
 
-VTIx](/xstocks/vtix)[[그림: V icon]
+VTIx](https://www.kraken.com/xstocks/vtix)[[그림: V icon]
 
 Visa
 
-Vx](/xstocks/vx)[[그림: UNH icon]
+Vx](https://www.kraken.com/xstocks/vx)[UNH
+
+[그림: UNH icon]
 
 UnitedHealth Group
 
-UNHx](/xstocks/unhx)[TSLA
+UNHx](https://www.kraken.com/xstocks/unhx)[TSLA
 
 [그림: TSLA icon]
 
 Tesla
 
-TSLAx](/xstocks/tslax)[TMO
+TSLAx](https://www.kraken.com/xstocks/tslax)[TMO
 
 [그림: TMO icon]
 
 Thermo Fisher Scientific
 
-TMOx](/xstocks/tmox)[SPY
+TMOx](https://www.kraken.com/xstocks/tmox)[SPY
 
 [그림: SPY icon]
 
 SPDR S&P 500 ETF
 
-SPYx](/xstocks/spyx)[QQQ
+SPYx](https://www.kraken.com/xstocks/spyx)[QQQ
 
 [그림: QQQ icon]
 
 Invesco Nasdaq ETF
 
-QQQx](/xstocks/qqqx)[PM
+QQQx](https://www.kraken.com/xstocks/qqqx)[PM
 
 [그림: PM icon]
 
 Philip Morris Intl
 
-PMx](/xstocks/pmx)[PLTR
+PMx](https://www.kraken.com/xstocks/pmx)[PLTR
 
 [그림: PLTR icon]
 
 Palantir Technologies
 
-PLTRx](/xstocks/pltrx)[PG
+PLTRx](https://www.kraken.com/xstocks/pltrx)[PG
 
 [그림: PG icon]
 
 Procter & Gamble
 
-PGx](/xstocks/pgx)[PFE
+PGx](https://www.kraken.com/xstocks/pgx)[PFE
 
 [그림: PFE icon]
 
 Pfizer
 
-PFEx](/xstocks/pfex)[PEP
+PFEx](https://www.kraken.com/xstocks/pfex)[PEP
 
 [그림: PEP icon]
 
 PepsiCo
 
-PEPx](/xstocks/pepx)[ORCL
+PEPx](https://www.kraken.com/xstocks/pepx)[ORCL
 
 [그림: ORCL icon]
 
 Oracle
 
-ORCLx](/xstocks/orclx)
+ORCLx](https://www.kraken.com/xstocks/orclx)
 
 [XOM
 
@@ -192,169 +194,167 @@ ORCLx](/xstocks/orclx)
 
 ExxonMobil Holdings
 
-XOMx](/xstocks/xomx)[WMT
+XOMx](https://www.kraken.com/xstocks/xomx)[WMT
 
 [그림: WMT icon]
 
 Walmart
 
-WMTx](/xstocks/wmtx)[VTI
+WMTx](https://www.kraken.com/xstocks/wmtx)[VTI
 
 [그림: VTI icon]
 
 Vanguard Morningstar Total Stock Market ETF
 
-VTIx](/xstocks/vtix)[V
+VTIx](https://www.kraken.com/xstocks/vtix)[V
 
 [그림: V icon]
 
 Visa
 
-Vx](/xstocks/vx)[UNH
+Vx](https://www.kraken.com/xstocks/vx)[UNH
 
 [그림: UNH icon]
 
 UnitedHealth Group
 
-UNHx](/xstocks/unhx)[TSLA
+UNHx](https://www.kraken.com/xstocks/unhx)[TSLA
 
 [그림: TSLA icon]
 
 Tesla
 
-TSLAx](/xstocks/tslax)[TMO
+TSLAx](https://www.kraken.com/xstocks/tslax)[TMO
 
 [그림: TMO icon]
 
 Thermo Fisher Scientific
 
-TMOx](/xstocks/tmox)[SPY
+TMOx](https://www.kraken.com/xstocks/tmox)[SPY
 
 [그림: SPY icon]
 
 SPDR S&P 500 ETF
 
-SPYx](/xstocks/spyx)[QQQ
+SPYx](https://www.kraken.com/xstocks/spyx)[QQQ
 
 [그림: QQQ icon]
 
 Invesco Nasdaq ETF
 
-QQQx](/xstocks/qqqx)[PM
+QQQx](https://www.kraken.com/xstocks/qqqx)[PM
 
 [그림: PM icon]
 
 Philip Morris Intl
 
-PMx](/xstocks/pmx)[PLTR
+PMx](https://www.kraken.com/xstocks/pmx)[PLTR
 
 [그림: PLTR icon]
 
 Palantir Technologies
 
-PLTRx](/xstocks/pltrx)[PG
+PLTRx](https://www.kraken.com/xstocks/pltrx)[PG
 
 [그림: PG icon]
 
 Procter & Gamble
 
-PGx](/xstocks/pgx)[PFE
+PGx](https://www.kraken.com/xstocks/pgx)[PFE
 
 [그림: PFE icon]
 
 Pfizer
 
-PFEx](/xstocks/pfex)[PEP
-
-[그림: PEP icon]
+PFEx](https://www.kraken.com/xstocks/pfex)[[그림: PEP icon]
 
 PepsiCo
 
-PEPx](/xstocks/pepx)[[그림: ORCL icon]
+PEPx](https://www.kraken.com/xstocks/pepx)[[그림: ORCL icon]
 
 Oracle
 
-ORCLx](/xstocks/orclx)
+ORCLx](https://www.kraken.com/xstocks/orclx)
 
 [[그림: NVO icon]
 
 Novo Nordisk
 
-NVOx](/xstocks/nvox)[[그림: NVDA icon]
+NVOx](https://www.kraken.com/xstocks/nvox)[[그림: NVDA icon]
 
 NVIDIA
 
-NVDAx](/xstocks/nvdax)[[그림: NFLX icon]
+NVDAx](https://www.kraken.com/xstocks/nvdax)[[그림: NFLX icon]
 
 Netflix
 
-NFLXx](/xstocks/nflxx)[[그림: MSTR icon]
+NFLXx](https://www.kraken.com/xstocks/nflxx)[[그림: MSTR icon]
 
 Strategy
 
-MSTRx](/xstocks/mstrx)[[그림: MSFT icon]
+MSTRx](https://www.kraken.com/xstocks/mstrx)[[그림: MSFT icon]
 
 Microsoft
 
-MSFTx](/xstocks/msftx)[[그림: MRVL icon]
+MSFTx](https://www.kraken.com/xstocks/msftx)[[그림: MRVL icon]
 
 Marvell Technology
 
-MRVLx](/xstocks/mrvlx)[MRK
+MRVLx](https://www.kraken.com/xstocks/mrvlx)[MRK
 
 [그림: MRK icon]
 
 Merck & Co
 
-MRKx](/xstocks/mrkx)[META
+MRKx](https://www.kraken.com/xstocks/mrkx)[META
 
 [그림: META icon]
 
 Meta Platforms
 
-METAx](/xstocks/metax)[MDT
+METAx](https://www.kraken.com/xstocks/metax)[MDT
 
 [그림: MDT icon]
 
 Medtronic
 
-MDTx](/xstocks/mdtx)[MCD
+MDTx](https://www.kraken.com/xstocks/mdtx)[MCD
 
 [그림: MCD icon]
 
 McDonald's
 
-MCDx](/xstocks/mcdx)[MA
+MCDx](https://www.kraken.com/xstocks/mcdx)[MA
 
 [그림: MA icon]
 
 Mastercard
 
-MAx](/xstocks/max)[LLY
+MAx](https://www.kraken.com/xstocks/max)[LLY
 
 [그림: LLY icon]
 
 Eli Lilly
 
-LLYx](/xstocks/llyx)[LIN
+LLYx](https://www.kraken.com/xstocks/llyx)[LIN
 
 [그림: LIN icon]
 
 Linde
 
-LINx](/xstocks/linx)[KO
+LINx](https://www.kraken.com/xstocks/linx)[KO
 
 [그림: KO icon]
 
 Coca-Cola
 
-KOx](/xstocks/kox)[JPM
+KOx](https://www.kraken.com/xstocks/kox)[JPM
 
 [그림: JPM icon]
 
 JPMorgan Chase
 
-JPMx](/xstocks/jpmx)
+JPMx](https://www.kraken.com/xstocks/jpmx)
 
 [NVO
 
@@ -362,171 +362,171 @@ JPMx](/xstocks/jpmx)
 
 Novo Nordisk
 
-NVOx](/xstocks/nvox)[NVDA
+NVOx](https://www.kraken.com/xstocks/nvox)[NVDA
 
 [그림: NVDA icon]
 
 NVIDIA
 
-NVDAx](/xstocks/nvdax)[NFLX
+NVDAx](https://www.kraken.com/xstocks/nvdax)[NFLX
 
 [그림: NFLX icon]
 
 Netflix
 
-NFLXx](/xstocks/nflxx)[MSTR
+NFLXx](https://www.kraken.com/xstocks/nflxx)[MSTR
 
 [그림: MSTR icon]
 
 Strategy
 
-MSTRx](/xstocks/mstrx)[MSFT
+MSTRx](https://www.kraken.com/xstocks/mstrx)[MSFT
 
 [그림: MSFT icon]
 
 Microsoft
 
-MSFTx](/xstocks/msftx)[MRVL
+MSFTx](https://www.kraken.com/xstocks/msftx)[MRVL
 
 [그림: MRVL icon]
 
 Marvell Technology
 
-MRVLx](/xstocks/mrvlx)[MRK
+MRVLx](https://www.kraken.com/xstocks/mrvlx)[MRK
 
 [그림: MRK icon]
 
 Merck & Co
 
-MRKx](/xstocks/mrkx)[META
+MRKx](https://www.kraken.com/xstocks/mrkx)[META
 
 [그림: META icon]
 
 Meta Platforms
 
-METAx](/xstocks/metax)[MDT
+METAx](https://www.kraken.com/xstocks/metax)[MDT
 
 [그림: MDT icon]
 
 Medtronic
 
-MDTx](/xstocks/mdtx)[MCD
+MDTx](https://www.kraken.com/xstocks/mdtx)[MCD
 
 [그림: MCD icon]
 
 McDonald's
 
-MCDx](/xstocks/mcdx)[MA
+MCDx](https://www.kraken.com/xstocks/mcdx)[MA
 
 [그림: MA icon]
 
 Mastercard
 
-MAx](/xstocks/max)[LLY
+MAx](https://www.kraken.com/xstocks/max)[LLY
 
 [그림: LLY icon]
 
 Eli Lilly
 
-LLYx](/xstocks/llyx)[LIN
+LLYx](https://www.kraken.com/xstocks/llyx)[LIN
 
 [그림: LIN icon]
 
 Linde
 
-LINx](/xstocks/linx)[KO
+LINx](https://www.kraken.com/xstocks/linx)[KO
 
 [그림: KO icon]
 
 Coca-Cola
 
-KOx](/xstocks/kox)[JPM
+KOx](https://www.kraken.com/xstocks/kox)[JPM
 
 [그림: JPM icon]
 
 JPMorgan Chase
 
-JPMx](/xstocks/jpmx)
+JPMx](https://www.kraken.com/xstocks/jpmx)
 
 [[그림: JNJ icon]
 
 Johnson & Johnson
 
-JNJx](/xstocks/jnjx)[[그림: INTC icon]
+JNJx](https://www.kraken.com/xstocks/jnjx)[[그림: INTC icon]
 
 Intel
 
-INTCx](/xstocks/intcx)[[그림: IBM icon]
+INTCx](https://www.kraken.com/xstocks/intcx)[[그림: IBM icon]
 
 IBM
 
-IBMx](/xstocks/ibmx)[[그림: HOOD icon]
+IBMx](https://www.kraken.com/xstocks/ibmx)[[그림: HOOD icon]
 
 Robinhood Markets
 
-HOODx](/xstocks/hoodx)[[그림: HON icon]
+HOODx](https://www.kraken.com/xstocks/hoodx)[[그림: HON icon]
 
 Honeywell Intl
 
-HONx](/xstocks/honx)[[그림: HD icon]
+HONx](https://www.kraken.com/xstocks/honx)[[그림: HD icon]
 
 Home Depot
 
-HDx](/xstocks/hdx)[GS
+HDx](https://www.kraken.com/xstocks/hdx)[GS
 
 [그림: GS icon]
 
 Goldman Sachs Group
 
-GSx](/xstocks/gsx)[GOOGL
+GSx](https://www.kraken.com/xstocks/gsx)[GOOGL
 
 [그림: GOOGL icon]
 
 Alphabet (Class A)
 
-GOOGLx](/xstocks/googlx)[GME
+GOOGLx](https://www.kraken.com/xstocks/googlx)[GME
 
 [그림: GME icon]
 
 GameStop
 
-GMEx](/xstocks/gmex)[GLD
+GMEx](https://www.kraken.com/xstocks/gmex)[GLD
 
 [그림: GLD icon]
 
 SPDR Gold Shares
 
-GLDx](/xstocks/gldx)[DHR
+GLDx](https://www.kraken.com/xstocks/gldx)[DHR
 
 [그림: DHR icon]
 
 Danaher
 
-DHRx](/xstocks/dhrx)[CVX
+DHRx](https://www.kraken.com/xstocks/dhrx)[CVX
 
 [그림: CVX icon]
 
 Chevron
 
-CVXx](/xstocks/cvxx)[CSCO
+CVXx](https://www.kraken.com/xstocks/cvxx)[CSCO
 
 [그림: CSCO icon]
 
 Cisco Systems
 
-CSCOx](/xstocks/cscox)[CRWD
+CSCOx](https://www.kraken.com/xstocks/cscox)[CRWD
 
 [그림: CRWD icon]
 
 CrowdStrike Holdings
 
-CRWDx](/xstocks/crwdx)[CRM
+CRWDx](https://www.kraken.com/xstocks/crwdx)[CRM
 
 [그림: CRM icon]
 
 Salesforce
 
-CRMx](/xstocks/crmx)
+CRMx](https://www.kraken.com/xstocks/crmx)
 
 [JNJ
 
@@ -534,227 +534,225 @@ CRMx](/xstocks/crmx)
 
 Johnson & Johnson
 
-JNJx](/xstocks/jnjx)[INTC
+JNJx](https://www.kraken.com/xstocks/jnjx)[INTC
 
 [그림: INTC icon]
 
 Intel
 
-INTCx](/xstocks/intcx)[IBM
+INTCx](https://www.kraken.com/xstocks/intcx)[IBM
 
 [그림: IBM icon]
 
 IBM
 
-IBMx](/xstocks/ibmx)[HOOD
+IBMx](https://www.kraken.com/xstocks/ibmx)[HOOD
 
 [그림: HOOD icon]
 
 Robinhood Markets
 
-HOODx](/xstocks/hoodx)[HON
+HOODx](https://www.kraken.com/xstocks/hoodx)[HON
 
 [그림: HON icon]
 
 Honeywell Intl
 
-HONx](/xstocks/honx)[HD
+HONx](https://www.kraken.com/xstocks/honx)[HD
 
 [그림: HD icon]
 
 Home Depot
 
-HDx](/xstocks/hdx)[GS
+HDx](https://www.kraken.com/xstocks/hdx)[GS
 
 [그림: GS icon]
 
 Goldman Sachs Group
 
-GSx](/xstocks/gsx)[GOOGL
+GSx](https://www.kraken.com/xstocks/gsx)[GOOGL
 
 [그림: GOOGL icon]
 
 Alphabet (Class A)
 
-GOOGLx](/xstocks/googlx)[GME
+GOOGLx](https://www.kraken.com/xstocks/googlx)[GME
 
 [그림: GME icon]
 
 GameStop
 
-GMEx](/xstocks/gmex)[GLD
+GMEx](https://www.kraken.com/xstocks/gmex)[GLD
 
 [그림: GLD icon]
 
 SPDR Gold Shares
 
-GLDx](/xstocks/gldx)[DHR
+GLDx](https://www.kraken.com/xstocks/gldx)[DHR
 
 [그림: DHR icon]
 
 Danaher
 
-DHRx](/xstocks/dhrx)[CVX
+DHRx](https://www.kraken.com/xstocks/dhrx)[CVX
 
 [그림: CVX icon]
 
 Chevron
 
-CVXx](/xstocks/cvxx)[CSCO
+CVXx](https://www.kraken.com/xstocks/cvxx)[CSCO
 
 [그림: CSCO icon]
 
 Cisco Systems
 
-CSCOx](/xstocks/cscox)[CRWD
+CSCOx](https://www.kraken.com/xstocks/cscox)[CRWD
 
 [그림: CRWD icon]
 
 CrowdStrike Holdings
 
-CRWDx](/xstocks/crwdx)[CRM
-
-[그림: CRM icon]
+CRWDx](https://www.kraken.com/xstocks/crwdx)[[그림: CRM icon]
 
 Salesforce
 
-CRMx](/xstocks/crmx)
+CRMx](https://www.kraken.com/xstocks/crmx)
 
 [[그림: COIN icon]
 
 Coinbase Global
 
-COINx](/xstocks/coinx)[[그림: CMCSA icon]
+COINx](https://www.kraken.com/xstocks/coinx)[[그림: CMCSA icon]
 
 Comcast
 
-CMCSAx](/xstocks/cmcsax)[[그림: BRK.B icon]
+CMCSAx](https://www.kraken.com/xstocks/cmcsax)[[그림: BRK.B icon]
 
 Berkshire Hathaway
 
-BRK.Bx](/xstocks/brk.bx)[[그림: BAC icon]
+BRK.Bx](https://www.kraken.com/xstocks/brk.bx)[[그림: BAC icon]
 
 Bank of America
 
-BACx](/xstocks/bacx)[[그림: AZN icon]
+BACx](https://www.kraken.com/xstocks/bacx)[[그림: AZN icon]
 
 AstraZeneca
 
-AZNx](/xstocks/aznx)[AVGO
+AZNx](https://www.kraken.com/xstocks/aznx)[AVGO
 
 [그림: AVGO icon]
 
 Broadcom
 
-AVGOx](/xstocks/avgox)[APP
+AVGOx](https://www.kraken.com/xstocks/avgox)[APP
 
 [그림: APP icon]
 
 AppLovin
 
-APPx](/xstocks/appx)[AMZN
+APPx](https://www.kraken.com/xstocks/appx)[AMZN
 
 [그림: AMZN icon]
 
 Amazon.com
 
-AMZNx](/xstocks/amznx)[ACN
+AMZNx](https://www.kraken.com/xstocks/amznx)[ACN
 
 [그림: ACN icon]
 
 Accenture
 
-ACNx](/xstocks/acnx)[ABT
+ACNx](https://www.kraken.com/xstocks/acnx)[ABT
 
 [그림: ABT icon]
 
 Abbott Laboratories
 
-ABTx](/xstocks/abtx)[ABBV
+ABTx](https://www.kraken.com/xstocks/abtx)[ABBV
 
 [그림: ABBV icon]
 
 AbbVie
 
-ABBVx](/xstocks/abbvx)[AAPL
+ABBVx](https://www.kraken.com/xstocks/abbvx)[AAPL
 
 [그림: AAPL icon]
 
 Apple
 
-AAPLx](/xstocks/aaplx)[COIN
+AAPLx](https://www.kraken.com/xstocks/aaplx)[COIN
 
 [그림: COIN icon]
 
 Coinbase Global
 
-COINx](/xstocks/coinx)[CMCSA
+COINx](https://www.kraken.com/xstocks/coinx)[CMCSA
 
 [그림: CMCSA icon]
 
 Comcast
 
-CMCSAx](/xstocks/cmcsax)[BRK.B
+CMCSAx](https://www.kraken.com/xstocks/cmcsax)[BRK.B
 
 [그림: BRK.B icon]
 
 Berkshire Hathaway
 
-BRK.Bx](/xstocks/brk.bx)[BAC
+BRK.Bx](https://www.kraken.com/xstocks/brk.bx)[BAC
 
 [그림: BAC icon]
 
 Bank of America
 
-BACx](/xstocks/bacx)[AZN
+BACx](https://www.kraken.com/xstocks/bacx)[AZN
 
 [그림: AZN icon]
 
 AstraZeneca
 
-AZNx](/xstocks/aznx)[AVGO
+AZNx](https://www.kraken.com/xstocks/aznx)[AVGO
 
 [그림: AVGO icon]
 
 Broadcom
 
-AVGOx](/xstocks/avgox)[APP
+AVGOx](https://www.kraken.com/xstocks/avgox)[APP
 
 [그림: APP icon]
 
 AppLovin
 
-APPx](/xstocks/appx)[AMZN
+APPx](https://www.kraken.com/xstocks/appx)[AMZN
 
 [그림: AMZN icon]
 
 Amazon.com
 
-AMZNx](/xstocks/amznx)[ACN
+AMZNx](https://www.kraken.com/xstocks/amznx)[ACN
 
 [그림: ACN icon]
 
 Accenture
 
-ACNx](/xstocks/acnx)[ABT
+ACNx](https://www.kraken.com/xstocks/acnx)[ABT
 
 [그림: ABT icon]
 
 Abbott Laboratories
 
-ABTx](/xstocks/abtx)[ABBV
+ABTx](https://www.kraken.com/xstocks/abtx)[ABBV
 
 [그림: ABBV icon]
 
 AbbVie
 
-ABBVx](/xstocks/abbvx)[AAPL
+ABBVx](https://www.kraken.com/xstocks/abbvx)[AAPL
 
 [그림: AAPL icon]
 
 Apple
 
-AAPLx](/xstocks/aaplx)
+AAPLx](https://www.kraken.com/xstocks/aaplx)
 
 [COIN
 
@@ -762,153 +760,153 @@ AAPLx](/xstocks/aaplx)
 
 Coinbase Global
 
-COINx](/xstocks/coinx)[CMCSA
+COINx](https://www.kraken.com/xstocks/coinx)[CMCSA
 
 [그림: CMCSA icon]
 
 Comcast
 
-CMCSAx](/xstocks/cmcsax)[BRK.B
+CMCSAx](https://www.kraken.com/xstocks/cmcsax)[BRK.B
 
 [그림: BRK.B icon]
 
 Berkshire Hathaway
 
-BRK.Bx](/xstocks/brk.bx)[BAC
+BRK.Bx](https://www.kraken.com/xstocks/brk.bx)[BAC
 
 [그림: BAC icon]
 
 Bank of America
 
-BACx](/xstocks/bacx)[AZN
+BACx](https://www.kraken.com/xstocks/bacx)[AZN
 
 [그림: AZN icon]
 
 AstraZeneca
 
-AZNx](/xstocks/aznx)[AVGO
+AZNx](https://www.kraken.com/xstocks/aznx)[AVGO
 
 [그림: AVGO icon]
 
 Broadcom
 
-AVGOx](/xstocks/avgox)[APP
+AVGOx](https://www.kraken.com/xstocks/avgox)[APP
 
 [그림: APP icon]
 
 AppLovin
 
-APPx](/xstocks/appx)[AMZN
+APPx](https://www.kraken.com/xstocks/appx)[AMZN
 
 [그림: AMZN icon]
 
 Amazon.com
 
-AMZNx](/xstocks/amznx)[ACN
+AMZNx](https://www.kraken.com/xstocks/amznx)[ACN
 
 [그림: ACN icon]
 
 Accenture
 
-ACNx](/xstocks/acnx)[ABT
+ACNx](https://www.kraken.com/xstocks/acnx)[ABT
 
 [그림: ABT icon]
 
 Abbott Laboratories
 
-ABTx](/xstocks/abtx)[ABBV
+ABTx](https://www.kraken.com/xstocks/abtx)[ABBV
 
 [그림: ABBV icon]
 
 AbbVie
 
-ABBVx](/xstocks/abbvx)[AAPL
+ABBVx](https://www.kraken.com/xstocks/abbvx)[AAPL
 
 [그림: AAPL icon]
 
 Apple
 
-AAPLx](/xstocks/aaplx)[COIN
+AAPLx](https://www.kraken.com/xstocks/aaplx)[COIN
 
 [그림: COIN icon]
 
 Coinbase Global
 
-COINx](/xstocks/coinx)[CMCSA
+COINx](https://www.kraken.com/xstocks/coinx)[CMCSA
 
 [그림: CMCSA icon]
 
 Comcast
 
-CMCSAx](/xstocks/cmcsax)[BRK.B
+CMCSAx](https://www.kraken.com/xstocks/cmcsax)[BRK.B
 
 [그림: BRK.B icon]
 
 Berkshire Hathaway
 
-BRK.Bx](/xstocks/brk.bx)[BAC
+BRK.Bx](https://www.kraken.com/xstocks/brk.bx)[BAC
 
 [그림: BAC icon]
 
 Bank of America
 
-BACx](/xstocks/bacx)[AZN
+BACx](https://www.kraken.com/xstocks/bacx)[AZN
 
 [그림: AZN icon]
 
 AstraZeneca
 
-AZNx](/xstocks/aznx)[AVGO
+AZNx](https://www.kraken.com/xstocks/aznx)[AVGO
 
 [그림: AVGO icon]
 
 Broadcom
 
-AVGOx](/xstocks/avgox)[APP
+AVGOx](https://www.kraken.com/xstocks/avgox)[APP
 
 [그림: APP icon]
 
 AppLovin
 
-APPx](/xstocks/appx)[AMZN
+APPx](https://www.kraken.com/xstocks/appx)[AMZN
 
 [그림: AMZN icon]
 
 Amazon.com
 
-AMZNx](/xstocks/amznx)[ACN
+AMZNx](https://www.kraken.com/xstocks/amznx)[ACN
 
 [그림: ACN icon]
 
 Accenture
 
-ACNx](/xstocks/acnx)[ABT
+ACNx](https://www.kraken.com/xstocks/acnx)[ABT
 
 [그림: ABT icon]
 
 Abbott Laboratories
 
-ABTx](/xstocks/abtx)[ABBV
+ABTx](https://www.kraken.com/xstocks/abtx)[ABBV
 
 [그림: ABBV icon]
 
 AbbVie
 
-ABBVx](/xstocks/abbvx)[[그림: AAPL icon]
+ABBVx](https://www.kraken.com/xstocks/abbvx)[[그림: AAPL icon]
 
 Apple
 
-AAPLx](/xstocks/aaplx)
+AAPLx](https://www.kraken.com/xstocks/aaplx)
 
-[Trade xStocks](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=/xstocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a)[Trade xStocks](/sign-up)
+[Trade xStocks](https://app.kraken.com/JDNW)[Trade xStocks](https://www.kraken.com/sign-up)
 
-[Trade xStocks](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=%2Fxstocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a&deep_link_value=explore%2Ftokenized_assets)[Trade xStocks](/sign-up)
+[Trade xStocks](https://app.kraken.com/JDNW?deep_link_value=explore%2Ftokenized_assets)[Trade xStocks](https://www.kraken.com/sign-up)
 
 Gain exposure to U.S. markets
 
 Access and trade xStocks directly in the Kraken app.
 
-[Get Kraken](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=/xstocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a)[Get Kraken](/sign-up)
+[Get Kraken](https://app.kraken.com/JDNW)[Get Kraken](https://www.kraken.com/sign-up)
 
 Get the **Kraken app**
 
@@ -964,59 +962,67 @@ Are xStocks safe to use?
 
 Kraken and Backed utilize secure custody, audited reserves, and blockchain infrastructure to ensure the safety and transparency of xStock holdings.​ Still, investing in xStocks involves an element of risk.
 
-Read Kraken’s xStocks Risk Disclosure at [kraken.com/legal/xstocks](/legal/xstocks) as well as the Base Prospectus and related Final Terms for xStocks at <https://assets.backed.fi/legal-documentation> to learn more.
+Read Kraken’s xStocks Risk Disclosure at [kraken.com/legal/xstocks](https://www.kraken.com/legal/xstocks) as well as the Base Prospectus and related Final Terms for xStocks at <https://assets.backed.fi/legal-documentation> to learn more.
 
 ## Learn more
 
-[[그림: ]](/learn/tokenized-equities)
+[[그림: ]](https://www.kraken.com/learn/tokenized-equities)
 
-[### What are tokenized equities?](/learn/tokenized-equities)
+[### What are tokenized equities?](https://www.kraken.com/learn/tokenized-equities)
 
 7 min
 
-[[그림: ]](/learn/what-are-meme-stocks)
+[[그림: ]](https://www.kraken.com/learn/what-are-meme-stocks)
 
-[### What are meme stocks?](/learn/what-are-meme-stocks)
+[### What are meme stocks?](https://www.kraken.com/learn/what-are-meme-stocks)
 
 11 min
 
-[[그림: Transparency Report]](/learn/what-exactly-are-stocks)
+[[그림: Transparency Report]](https://www.kraken.com/learn/what-exactly-are-stocks)
 
-[### What are stocks, exactly?](/learn/what-exactly-are-stocks)
+[### What are stocks, exactly?](https://www.kraken.com/learn/what-exactly-are-stocks)
 
 10 min
 
-[[그림: How to earn crypto]](/learn/treasury-stocks-explained)
+[[그림: How to earn crypto]](https://www.kraken.com/learn/treasury-stocks-explained)
 
-[### Treasury stocks, explained](/learn/treasury-stocks-explained)
+[### Treasury stocks, explained](https://www.kraken.com/learn/treasury-stocks-explained)
 
 6 min
 
-[[그림: Kraken Support]](/learn/revenue-vs-profit)
+[[그림: Kraken Support]](https://www.kraken.com/learn/revenue-vs-profit)
 
-[### Revenue vs profit](/learn/revenue-vs-profit)
+[### Revenue vs profit](https://www.kraken.com/learn/revenue-vs-profit)
 
 7 min
 
-[[그림: Stablecoins]](/learn/how-to-invest-stocks)
+[[그림: Stablecoins]](https://www.kraken.com/learn/how-to-invest-stocks)
 
-[### How to invest in stocks](/learn/how-to-invest-stocks)
+[### How to invest in stocks](https://www.kraken.com/learn/how-to-invest-stocks)
 
 13 min
 
-xStocks are issued by Backed Assets (JE) Limited (a Jersey private limited company) and offered to eligible Kraken customers via Payward Digital Solutions Ltd. (“PDSL”), a company licensed to conduct digital asset business by the Bermuda Monetary Authority. xStocks are not nor will be registered with any local securities regulators. PDSL (Kraken) does not provide investment advice and/or recommendations, and, no communication, through any Kraken App or website or otherwise, should be construed as such. Individual investors should make their own decisions or seek professional independent advice if they are unsure as to the suitability / appropriateness of any investment for their circumstances or needs, including potential tax treatment. Investing in xStocks involves an element of risk. The value of an investment may go down as well as up, and past performance is not a reliable indicator of future results. Not available in the U.S. or to U.S. persons. Geo restrictions apply. Read Kraken’s xStocks Risk Disclosure at [kraken.com/legal/xstocks](/legal/xstocks) as well as the Base Prospectus and related Final Terms for xStocks at <https://assets.backed.fi/legal-documentation> to learn more.
+xStocks are issued by Backed Assets (JE) Limited (a Jersey private limited company) and offered to eligible Kraken customers via Payward Digital Solutions Ltd. (“PDSL”), a company licensed to conduct digital asset business by the Bermuda Monetary Authority. xStocks are not nor will be registered with any local securities regulators. PDSL (Kraken) does not provide investment advice and/or recommendations, and, no communication, through any Kraken App or website or otherwise, should be construed as such. Individual investors should make their own decisions or seek professional independent advice if they are unsure as to the suitability / appropriateness of any investment for their circumstances or needs, including potential tax treatment. Investing in xStocks involves an element of risk. The value of an investment may go down as well as up, and past performance is not a reliable indicator of future results. Not available in the U.S. or to U.S. persons. Geo restrictions apply. Read Kraken’s xStocks Risk Disclosure at [kraken.com/legal/xstocks](https://www.kraken.com/legal/xstocks) as well as the Base Prospectus and related Final Terms for xStocks at <https://assets.backed.fi/legal-documentation> to learn more.
 
 # Get the app
 
 Buy, sell and trade xStocks directly in the Kraken app.
 
-[Get Kraken](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=/xstocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a)[Get Kraken](/sign-up)
+[Get Kraken](https://app.kraken.com/JDNW)[Get Kraken](https://www.kraken.com/sign-up)
 
 [그림: Contact activity]
 
 ## 펼치거나 눌러야 보이던 내용
 
+### Who can buy xStocks? 누른 뒤
+
+- Who can buy xStocks?
 - xStocks are only available to non-U.S. retail clients in select countries; visit support article here for who can access. Tokenized stocks are not accessible in the US, Canada, UK, or Australia at this time​.
+
+### Are xStocks safe to use? 누른 뒤
+
+- Are xStocks safe to use?
+- Kraken and Backed utilize secure custody, audited reserves, and blockchain infrastructure to ensure the safety and transparency of xStock holdings.​ Still, investing in xStocks involves an element of risk.
 - Read Kraken’s xStocks Risk Disclosure at kraken.com/legal/xstocks as well as the Base Prospectus and related Final Terms for xStocks at https://assets.backed.fi/legal-documentation to learn more.
 
 ## 구조화 데이터(JSON-LD)

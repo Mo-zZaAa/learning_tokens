@@ -199,11 +199,35 @@ OTC derivatives involve significant risk and are not suitable for all investors.
 
 ## 펼치거나 눌러야 보이던 내용
 
+### What cryptocurrencies does Kraken support? 누른 뒤
+
+- What cryptocurrencies does Kraken support?
+- Trade over chat:
 - All asset pairs listed on the Kraken exchange (subject to geographic restrictions)
+- RFQ:
 - Over 20 assets, including stablecoins (subject to geographic restrictions)
+- OTC derivatives:
 - BTC and ETH are supported for options trading (subject to geographic restrictions).
 - Only available to OTC clients in certain jurisdictions. Learn more about OTC Derivatives.
+
+### How do I get started? 누른 뒤
+
+- How do I get started?
 - You must be verified with a Pro level Kraken exchange account to access the OTC desk.
+- Learn more about Pro limits for:
+- Personal accounts
+- Business accounts
+
+### How does settlement work? 누른 뒤
+
+- How does settlement work?
+- Trade obligations must be settled within 24 hours
+- Crypto can be settled to/from your Kraken exchange wallet or sent to the external wallet of your choice
+- USD can be settled to/from your Kraken account or wired directly to your bank account
+- AUD can be settled directly to/from your domestic bank account
+- Other fiat currencies available for trading on Kraken must be settled to your Kraken account
+- Your settlement options:
+- Flexible settlement arrangements allow you to settle trades with your Kraken account, your bank, or an external wallet of your choice within 24 hours
 - RFQ offers a fully automated trade and settlement feature, in addition to flexible settlement (subject to eligibility):
 - Automated settlement allows you to trade and settle with your Kraken balance. Your Kraken account must be funded, and once your trade is filled your assets will be settled into your Kraken account within seconds.
 - Flexible settlement, available to eligible clients, allows you to settle trades within 24 hours via your Kraken account, bank or an external wallet.

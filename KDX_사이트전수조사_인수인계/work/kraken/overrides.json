@@ -1,6 +1,10 @@
 {
  "settings": {
-  "skim_cap": 10
+  "skim_cap": 10,
+  "template_min": 40,
+  "sample": 5,
+  "read_all_under": 300,
+  "locales": ",en-us,en,en-gb,ko-kr,ko"
  },
  "list": [
   "https://www.kraken.com/buy/*",

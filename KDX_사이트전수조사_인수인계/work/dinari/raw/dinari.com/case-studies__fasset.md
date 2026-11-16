@@ -3,7 +3,7 @@ url: https://dinari.com/case-studies/fasset
 title: How Fasset Expanded Global Investing With Tokenized U.S. Equities
 description: Powered by Dinari's dShares™, Fasset broadened its investment platform by bringing regulated U.S. equities and ETFs to customers, expanding access to global financial markets through a single application.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 
@@ -117,3 +117,7 @@ By partnering with Dinari, Fasset has demonstrated how digital asset platforms c
 ## Looking to trade dShares™?
 
 [Find a partner near you](https://dinari.com/partners)
+
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+
+Cookies Settings Reject All Accept All Cookies

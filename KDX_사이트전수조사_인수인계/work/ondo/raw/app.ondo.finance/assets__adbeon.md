@@ -1,0 +1,27 @@
+---
+url: https://app.ondo.finance/assets/adbeon
+title: ADBEon: Adobe (Ondo Tokenized) Tokenized Stock Price & Chart | Ondo
+description: Trade tokenized Adobe (Ondo Tokenized) stock (ADBEon) on Ondo. Live price, charts, and 24/7 access to tokenized equities.
+fetched: 2026-11-16
+method: static
+plan: skim
+---
+
+###### About
+
+## Statistics
+
+Pay
+
+##### 0
+
+Receive
+
+##### 0
+
+## 구조화 데이터(JSON-LD)
+
+```json
+{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","@id":"https://app.ondo.finance/#webapp","name":"Ondo","url":"https://app.ondo.finance","applicationCategory":"FinanceApplication","operatingSystem":"Web browser","description":"Ondo is the platform for qualified users to buy and sell tokenized stocks, ETFs, and Treasuries onchain.","publisher":{"@id":"https://ondo.finance/#organization"}}]}
+{"@context":"https://schema.org","@graph":[{"@type":"FinancialProduct","name":"ADBEon: Adobe (Ondo Tokenized)","url":"https://app.ondo.finance/assets/adbeon","description":"Adobe Inc. stands as a prominent global software provider, delivering a diverse range of solutions. Its operations are structured into three primary business divisions: Digital Media, Digital Experience, and Publishing and Advertising. The Digital Media segment empowers individuals, teams, and enterprises to generate, disseminate, and amplify various forms of content through its array of products and services, including the cloud-native Document Cloud platform. Central to this segment is Creative Cloud, its subscription-based flagship, granting access to a comprehensive suite of creative tools. This division caters to a diverse range of users, from professional content creators and marketers to educators, communicators, and general consumers. Adobe's Digital Experience division offers an integrated suite of applications and services designed to empower brands and businesses to craft, orchestrate, assess, and enhance customer journeys, from initial analytical insights to final commercial transactions. It serves a broad professional base including marketing teams, advertisers, agencies, data scientists, and senior executives. The Publishing and Advertising segment provides specialized offerings such as e-learning tools, technical documentation services, web conferencing solutions, advanced printing technologies, and its Advertising Cloud suite. Adobe engages directly with enterprise clients through its dedicated sales teams and regional offices. Individual end-users can access its offerings via app stores or its official website, adobe.com. Additionally, an extensive indirect channel supports distribution, encompassing partners such as distributors, value-added resellers, system integrators, software vendors, retailers, and original equipment manufacturers. Established in 1982, the company, initially named Adobe Systems Incorporated, rebranded as Adobe Inc. in October 2018. Its corporate headquarters are situated in San Jose, California.","image":"https://cdn.ondo.finance/tokens/logos/adbeon_160x160.png","provider":{"@type":"Organization","name":"Ondo Finance","url":"https://ondo.finance"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Explore","item":"https://app.ondo.finance"},{"@type":"ListItem","position":2,"name":"Adobe","item":"https://app.ondo.finance/assets/adbeon"}]}]}
+```

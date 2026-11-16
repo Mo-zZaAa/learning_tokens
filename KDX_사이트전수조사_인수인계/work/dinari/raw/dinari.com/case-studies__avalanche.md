@@ -3,7 +3,7 @@ url: https://dinari.com/case-studies/avalanche
 title: Building the Future of Tokenized Equities with Avalanche
 description: How Dinari and Avalanche built the infrastructure for compliant tokenized equities while expanding access to more than 350 tokenized U.S. equities across the Avalanche ecosystem.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 
@@ -99,3 +99,7 @@ As tokenized equities continue moving toward mainstream adoption, partnerships l
 ## Looking to trade dShares™?
 
 [Find a partner near you](https://dinari.com/partners)
+
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+
+Cookies Settings Reject All Accept All Cookies

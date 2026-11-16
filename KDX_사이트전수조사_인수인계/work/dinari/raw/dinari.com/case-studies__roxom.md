@@ -3,7 +3,7 @@ url: https://dinari.com/case-studies/roxom
 title: How Roxom Is Bringing U.S. Public Markets Into the Bitcoin Economy With Dinari's dShares™
 description: Powered by Dinari's dShares™, Roxom enables investors to buy and sell regulated U.S. securities directly in BTC, making U.S. public markets more accessible within the Bitcoin economy.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 
@@ -113,3 +113,7 @@ By combining Roxom's Bitcoin-denominated marketplace with Dinari's regulated tok
 ## Looking to trade dShares™?
 
 [Find a partner near you](https://dinari.com/partners)
+
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+
+Cookies Settings Reject All Accept All Cookies

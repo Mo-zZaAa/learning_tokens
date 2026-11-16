@@ -1,11 +1,13 @@
 | 묶음 | 정독 쪽수 | 훑기 쪽수 | 글자수 |
 |---|---|---|---|
-| app.ondo.finance__(home)__01.md | 1 | 0 | 1483 |
-| app.ondo.finance__assets__01.md | 5 | 40 | 16269 |
-| app.ondo.finance__bridge__01.md | 1 | 0 | 125 |
-| app.ondo.finance__convert__01.md | 1 | 0 | 127 |
-| app.ondo.finance__intelligent-portfolios__01.md | 9 | 0 | 21535 |
-| app.ondo.finance__portfolio__01.md | 1 | 0 | 768 |
+| app.ondo.finance__(home)__01.md | 3 | 0 | 3344 |
+| app.ondo.finance__assets__01.md | 7 | 40 | 34729 |
+| app.ondo.finance__bridge__01.md | 1 | 0 | 7416 |
+| app.ondo.finance__convert__01.md | 1 | 0 | 183 |
+| app.ondo.finance__intelligent-portfolios__01.md | 9 | 0 | 33374 |
+| app.ondo.finance__legal-documentation__01.md | 39 | 0 | 14899 |
+| app.ondo.finance__overview__01.md | 1 | 0 | 1166 |
+| app.ondo.finance__portfolio__01.md | 1 | 0 | 194 |
 | app.ondo.finance__private-client__01.md | 1 | 0 | 4473 |
 | app.ondo.finance__private-markets__01.md | 1 | 0 | 2624 |
 | blog.ondo.finance__(home)__01.md | 1 | 0 | 8179 |
@@ -25,4 +27,20 @@
 | docs.ondo.finance__ondo-stocks__01.md | 14 | 0 | 116462 |
 | docs.ondo.finance__ondo-stocks__02.md | 7 | 0 | 55395 |
 | docs.ondo.finance__ondo-v1-vaults-laas__01.md | 1 | 0 | 3699 |
-| ondo.finance__blog__01.md | 0 | 40 | 4313 |
+| ondo.finance__(home)__01.md | 2 | 0 | 27690 |
+| ondo.finance__blog__01.md | 6 | 80 | 93139 |
+| ondo.finance__bridge__01.md | 1 | 0 | 1598 |
+| ondo.finance__catalyst__01.md | 1 | 0 | 6030 |
+| ondo.finance__contact__01.md | 1 | 0 | 3861 |
+| ondo.finance__convert__01.md | 1 | 0 | 119 |
+| ondo.finance__ecosystem__01.md | 1 | 0 | 18885 |
+| ondo.finance__global-markets__01.md | 1 | 0 | 13176 |
+| ondo.finance__insights__01.md | 2 | 0 | 21319 |
+| ondo.finance__intelligent-portfolios__01.md | 1 | 0 | 13530 |
+| ondo.finance__learn__01.md | 6 | 0 | 109568 |
+| ondo.finance__learn__02.md | 2 | 0 | 30708 |
+| ondo.finance__ondo-stocks__01.md | 1 | 0 | 13125 |
+| ondo.finance__ousg__01.md | 1 | 0 | 15665 |
+| ondo.finance__private-markets__01.md | 1 | 0 | 12680 |
+| ondo.finance__team__01.md | 1 | 0 | 18600 |
+| ondo.finance__usdy__01.md | 1 | 0 | 62011 |

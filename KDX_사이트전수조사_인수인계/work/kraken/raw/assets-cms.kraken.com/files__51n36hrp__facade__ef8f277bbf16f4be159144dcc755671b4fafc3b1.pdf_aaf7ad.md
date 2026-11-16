@@ -1,0 +1,4047 @@
+---
+url: https://assets-cms.kraken.com/files/51n36hrp/facade/ef8f277bbf16f4be159144dcc755671b4fafc3b1.pdf?dl=
+title: ef8f277bbf16f4be159144dcc755671b4fafc3b1.pdf?dl=
+description: PDF
+fetched: 2026-11-16
+method: pdf
+plan: read
+---
+
+KRAKEN EEA TERMS OF SERVICE
+Effective Date: 14 November 2025
+Summary of Kraken EEA Terms of Service
+The EEA (European Economic Area) comprises the EU member states plus Iceland, Liechtenstein,
+and Norway.
+This summary provides an overview of our Terms of Service that apply to your use of our website,
+platforms, trading and other services. This summary is not legally binding and is purely for
+informational purposes. While we hope this summary section is helpful, please read the complete
+Terms of Service below for the legally binding terms.
+Applicable Terms. The Terms of Service apply to clients using our services in the European
+Economic Area (EEA). If you are located outside of the EEA, we have separate Terms of Service
+that will apply to you.
+Account and Eligibility. The Terms of Service sets forth certain criteria for your eligibility to use
+our services and platforms. It also includes requirements about who may create an account and
+what you cannot do with your account.
+Our Services. Below, you will find terms about how you can use our services. There are fees
+associated with our services, and the Terms of Service provide more information on those fees and
+how they may be paid by you. There are also a number of ways in which you are prohibited from
+using our services or platforms, some of which are covered below.
+Supported Crypto-Assets and Availability of Services. Certain crypto-assets or services may
+not be available or may only be available in certain jurisdictions. We also may stop supporting
+certain crypto-assets or may stop providing certain services.
+Changes. The Terms of Service discuss changes we can make to our services, platforms, or the
+terms themselves, including how we can suspend or terminate the services or your account, and
+when and how we will give you advance notice of those changes. Continued use of our services
+and platforms means that you consent to the Terms of Service and any changes to them.
+Risks and Liability. There are risks associated with using our services, and the Terms of Service
+cover some of these risks. The Terms also cover your responsibility for taking on risk, limit our
+liability to you, and limit the remedies you may have against us and how you may seek those
+remedies.
+No Insurance. We are not a bank or other depository institution. Your account is not a deposit
+account or bank account. Unless specifically stated in relation to a particular service, your account
+and crypto-assets are not covered by insurance against losses or subject to protections from any
+deposit insurance or investor protection organisation in the world.
+Parts. You may have the opportunity to use additional services we provide. The Parts to the Terms
+of Service contain terms and conditions on additional services.
+Dispute Resolution. We hope to avoid disputes, but if a dispute arises, the applicable governing
+law and jurisdiction will depend on which Kraken entity provides the services to you.
+Non-consumers are required to arbitrate disputes with us under the LCIA Rules in London, UK,
+with proceedings conducted in English. More comprehensive details are covered below.
+Termination of Account. You may terminate the Agreement (and close your Account) at any time
+by giving notice to us at https://support.kraken.com/hc/en-us/forms. Certain terms of our
+relationship survive termination of your Account, and these terms are detailed below.
+1
+
+PART A: GENERAL TERMS
+1. This Agreement
+1.1 Your agreement with Kraken. These terms and conditions (the “Agreement”) are a contract
+between you, the client (“client”, “you”, “your”), and (depending on which of our services you
+use and the location you use them from) each of:
+● Payward Europe Solutions Limited, a company registered in Ireland with registration
+number 711781 and registered address at 70 Sir John Rogerson’s Quay, Dublin
+Docklands, Dublin 2, Ireland D02 R296, which is authorised by the Central Bank of
+Ireland as a crypto-asset service provider under Regulation (EU) 2023/1114 of the
+European Parliament and of the Council of 31 May 2023 on markets in crypto-assets
+and European Union (Markets in Crypto-Assets) Regulations 2024 S.I. No. 607/2024
+with register number C468360 (“PESL”);
+● Payward Ireland Limited, a company registered in Ireland with registration number
+688569, VAT registration number 3792937OH and registered address at 70 Sir John
+Rogerson’s Quay, Dublin Docklands, Dublin 2, Ireland D02 R296, which is
+authorised by the Central Bank of Ireland as an electronic money institution (“EMI”)
+under the European Communities (Electronic Money) Regulations 2011 with register
+number C453020 (“PIL”).
+● Payward Europe Digital Solutions (CY) Limited, a company registered in Cyprus with
+registration number HE 356603 and registered address at Athalássas, 62,
+MEZZANINE, Stróvolos 2012, Nicosia, Cyprus, which is authorised by the Cyprus
+Securities and Exchange Commission as a Cypriot investment firm under the
+Investment Services Law 87(l)/2017 with register number 342/17 (“PEDSL”);
+● Kraken Continuance, Inc., a company registered in the Cayman Islands with
+registered address C/O CO Services Cayman Limited, PO Box 1008, Willow House
+Cricket Square, Grand Cayman KY1-1001 (“KC”);
+● Payward Trading Ltd, a company registered in the British Virgin Islands with
+registered address at 2nd floor Water’s Edge Building, Wickhams Cay II, Road Town,
+Tortola, VG1110, British Virgin Islands (“PTL”); and
+● Payward Commercial Ltd., a company registered in the British Virgin Islands with
+registration number 2110761 and registered address at Road Town PO Box 4301,
+Tortola British Virgin Islands (“PC”).
+1.2 Applicable Kraken contracting entity. References in this Agreement to “Kraken”, “we”, “our”
+or “us”, are to the applicable Kraken entity listed above. The applicable Kraken entity for each
+of our services, and whether that service is regulated, is shown in the table below.
+2
+
+|       |                      |     |     | EEA Kraken  |     |             |
+| ----- | -------------------- | --- | --- | ----------- | --- | ----------- |
+| Part  | When will it apply?  |     |     | provider?   |     | Regulated?  |
+PESL; PIL;
+Applies to all clients whichever services you
+| Part A: General Terms  |     |     |     |     | PEDSL; KC;  | No  |
+| ---------------------- | --- | --- | --- | --- | ----------- | --- |
+are using.
+PTL; PC
+PESL; PIL;
+| Part B: Definitions and  | Applies to all clients whichever services you  |     |     |     |             |     |
+| ------------------------ | ---------------------------------------------- | --- | --- | --- | ----------- | --- |
+|                          |                                                |     |     |     | PEDSL; KC;  | No  |
+| Interpretation           | are using.                                     |     |     |     |             |     |
+PTL; PC
+|     | Applies  | to  all  clients  | who  use  | our  |       |      |
+| --- | -------- | ----------------- | --------- | ---- | ----- | ---- |
+|     |          |                   |           |      | PESL  | Yes  |
+Crypto-asset Core Services.
+Part C: Core Services
+Terms
+Applies to all clients who use our E-money
+|     |     |     |     |     | PIL  | Yes  |
+| --- | --- | --- | --- | --- | ---- | ---- |
+Core Services.
+Part D: Portfolio
+Applies to all clients who use our Portfolio
+| Management Services  |     |     |     |     | PESL  | Yes  |
+| -------------------- | --- | --- | --- | --- | ----- | ---- |
+Management Services.
+Terms
+| Part E: OTC Services  | Applies to all clients who use our OTC  or  |     |     |     |       |      |
+| --------------------- | ------------------------------------------- | --- | --- | --- | ----- | ---- |
+|                       |                                             |     |     |     | PESL  | Yes  |
+| and Prime Terms       | Prime Services.                             |     |     |     |       |      |
+Part F: PEDSL,
+Applies to all clients who use our PEDSL
+| Derivatives and xStocks  |     |     |     |     | PEDSL  | Yes  |
+| ------------------------ | --- | --- | --- | --- | ------ | ---- |
+Products.
+Terms
+| Part G: Staking        | Applies to all clients who use our Staking  |     |     |                |     |              |
+| ---------------------- | ------------------------------------------- | --- | --- | -------------- | --- | ------------ |
+|                        |                                             |     |     |                | PC  | No           |
+| Services Terms         | Services.                                   |     |     |                |     |              |
+| Part H: kBTC Services  | Applies to all clients who use our kBTC     |     |     |                |     |              |
+|                        |                                             |     |     |            PC  |     |          No  |
+| Terms                  | Services.                                   |     |     |                |     |              |
+Part I: Kraken+ Terms  Applies to all clients who use Kraken+.  PESL  No
+Part J: Kraken Verify
+|     | Applies to all clients who use Kraken Verify.  |     |     |     | KC  | No  |
+| --- | ---------------------------------------------- | --- | --- | --- | --- | --- |
+Terms
+| Part K: Margin Trading  | Applies to all clients who use our Margin     |     |     |     |             |       |
+| ----------------------- | --------------------------------------------- | --- | --- | --- | ----------- | ----- |
+|                         |                                               |     |     |     | PTL         | No    |
+| Services Terms          | Trading Services.                             |     |     |     |             |       |
+| Part L: Opt-In Rewards  | Applies to all clients who use our Opt-In     |     |     |     |             |       |
+|                         |                                               |     |     |     | PTL         | No    |
+| Program Terms           | Rewards Program.                              |     |     |     |             |       |
+| Part M: Kraken Launch   | Applies to all clients who use our Kraken     |     |     |     |             |       |
+|                         |                                               |     |     |     | PESL        | Yes   |
+| Terms                   | Launch Services                               |     |     |     |             |       |
+| Part N: Krak Card       | Applies to all clients who use our Krak Card  |     |     |     |             |       |
+|                         |                                               |     |     |     | PIL, PESL*  | Yes*  |
+| Terms                   | Services                                      |     |     |     |             |       |
+3
+
+*KRAK CARD IS ISSUED BY UAB MONAVATE, AUTHORISED BY THE BANK OF LITHUANIA. THE KRAKEN
+E-MONEY WALLET ASSOCIATED WITH THE KRAK CARD IS PROVIDED BY PIL.
+PIL IS AUTHORISED BY CENTRAL BANK OF IRELAND (CBI) AS AN EMI TO PROVIDE
+E-MONEY CORE SERVICES
+PESL IS AUTHORISED BY THE CBI AS A CASP TO PROVIDE CRYPTO-ASSET CORE
+SERVICES, PORTFOLIO MANAGEMENT SERVICES, OTC SERVICES AND PRIME SERVICES
+AND KRAKEN LAUNCH SERVICES.
+PEDSL IS AUTHORISED BY THE CYPRUS SECURITIES AND EXCHANGE COMMISSION
+(CySEC) AS A MIFID II INVESTMENT FIRM.
+ADDITIONAL TERMS APPLY FOR SERVICES THAT ARE OFFERED BY KRAKEN ENTITIES
+THAT ARE NOT REGULATED SERVICES, BEING STAKING SERVICES (OFFERED BY PC),
+kBTC SERVICES (OFFERED BY PC), KRAKEN+ (OFFERED BY PESL), KRAKEN VERIFY
+(OFFERED BY KC), THE OPT-IN REWARDS PROGRAM (OFFERED BY PTL) AND MARGIN
+TRADING SERVICES (OFFERED BY PTL). THESE SERVICES ARE NOT REGULATED
+ACTIVITIES IN THE EEA AND AS A RESULT THE ENTITIES PROVIDING THESE SERVICES
+ARE NOT PRUDENTIALLY REGULATED BY THE CBI, CySEC OR ANY OTHER EEA
+REGULATOR IN RESPECT OF THESE SERVICES. ACCORDINGLY, CLIENTS ENGAGING IN
+THOSE SERVICES DO NOT HAVE THE SAME PROTECTIONS AND SAFEGUARDS
+AVAILABLE TO THEM AS WHEN THEY ARE ACCESSING SERVICES THAT ARE
+REGULATED AND ARE EXPOSED TO A NUMBER OF OTHER RISKS.
+1.3 Geographic restrictions. All of our services listed in the table above are available to clients
+that are resident and located in the EEA (although some of our services may not be available
+in certain EEA jurisdictions). If you are resident or located outside of the EEA, this Agreement
+does not apply to you. We may change the services that are available in the EEA from time to
+time by giving notice to you in accordance with section 1.7.
+1.4 Entering into this Agreement. This Agreement governs the provision of our services to you.
+By making an application for an Account or by otherwise accessing or using our services or the
+Platform, you agree that you have read, understood, and agree to be bound by all of the terms
+of this Agreement (including our policies where applicable). You can print or download a copy
+of this Agreement at any time.
+1.5 Data Privacy. This Agreement is supplemented by our Privacy Notice, which is applicable
+when you open an Account.
+1.6 Definitions. Unless otherwise set out in this Agreement, capitalised words used in this
+Agreement will have the meaning given in Part B: Definitions and Interpretation.
+1.7 Amending this Agreement. We may make changes to this Agreement (including amending
+our fees or introducing new fees) from time to time as part of how we administer the manner in
+which we provide services to you or so that we can manage our business better. Reasons for
+such changes may include changes in general law or for the purpose of meeting regulatory
+requirements, industry guidance and codes of practice or reflecting other cost increases or
+reductions associated with providing the services. We will:
+● provide at least 30 days’ notice in advance of any proposed material changes to this
+Agreement, where we are required to do so under applicable law. The revised
+Agreement will apply to you 30 days after we provide you with the notice;
+● provide more than 30 days’ notice in advance of any proposed changes to parts of
+this Agreement, where we are required to do so under applicable law. We have
+provided more information on this within the relevant parts of this Agreement;
+4
+
+● make any other amendments to the Agreement at any time by posting the revised
+Agreement on the Site or by providing a copy of it to you. The revised Agreement will
+apply to you from the time it is posted on the Site or provided to you (unless stated
+otherwise).
+We will never apply changes retroactively.
+You will be considered as having accepted the revised Agreement if you continue to use your
+Account or any of our services after the changes are applied to you.
+If you do not agree with any changes to the Agreement, you should close your Account with us
+and cease to use our services.
+1.8 Order of precedence. If there's a conflict between this Part A of the Agreement and any other
+Part, the other Part will take priority. You may be required to sign additional contracts that will
+apply alongside this one and relate to similar topics, which are intended to be consistent with
+this Agreement and each other, but in the event of conflict with this Agreement, this Agreement
+will take priority. In the event of any translation of this Agreement, the English version will take
+priority, except as otherwise required under applicable law. Notwithstanding the above, with
+respect to your agreement with PEDSL, should there be any conflict between these Terms
+and any other terms of services agreed directly with PEDSL (the “Standalone PEDSL
+Terms”), such Standalone PEDSL Terms will prevail in your contractual relationship with
+PEDSL.
+1.9 Partnerships. If you are introduced to us through one of our partners, the terms of this
+Agreement will be modified as set out in section 16.10 of this Part A. You should read section
+16.10 carefully in connection with your review of this Agreement.
+1.10 Consent to use the English language. In some jurisdictions, you may have the right to
+receive this Agreement and/or information related to the Agreement in your local language. To
+the extent permitted by applicable law, by making an application for an Account or by
+otherwise accessing or using our services or the Platform, you agree to waive this right
+and you explicitly consent to receive this Agreement and all information relating to this
+Agreement in English.
+1.11 No advice. We do not provide you with any investment, legal, tax or other form of
+advice, nor can you rely on any statements made by us.
+You are solely responsible for any decisions taken in respect of any and all products
+and services that you choose to use under this Agreement.
+You should seek independent financial, legal, regulatory, tax, or other advice before
+making any investment decisions. If you choose not to seek such advice, you should
+carefully consider whether the investment or product is appropriate for you.
+2. Eligibility Requirements
+2.1 Eligibility Conditions. To use our services and to create an Account, you must meet the
+following conditions (“Conditions”):
+● if you are an individual, you must be old enough to legally form a binding contract in
+your jurisdiction (in most countries, that’s 18 years old, but it may be different where
+you live);
+● if you are an entity, you must be duly organised and validly existing under the
+applicable laws of the jurisdiction of your organisation;
+5
+
+● you must have a current and valid email address, mobile phone number, and street
+address;
+● you must have full power and authority to enter into this Agreement without violating
+any other agreement you have made or laws that apply to you;
+● you must not have been previously restricted from using our services;
+● you must be located in an EEA jurisdiction; and
+● if you are (i) an individual, you must not be, or be acting at the direction of, or in any
+way connected to, a person who is, or (ii) an entity, you must not be (or be directly or
+indirectly owned or controlled by any person who is) or be acting at the direction of, or
+in any way connected to, a person who is:
+○ a terrorist or terrorist organisation;
+○ listed on any applicable list of sanctioned parties/persons (including the lists of
+restricted parties issued by the United Nations, United States, European Union,
+Ireland, Cyprus and UK); or
+○ ordinarily resident in or organised under the laws of any jurisdiction subject to
+comprehensive or other territory-wide sanctions imposed by the United Nations,
+United States, European Union, Ireland, Cyprus or UK.
+2.2 Satisfaction of Eligibility Criteria. To create an Account or use the services, you must meet
+all of the Conditions and any other applicable eligibility criteria as stated on the Site for each of
+our services and updated from time to time (together, the “Eligibility Criteria”). Additional
+Eligibility Criteria may apply depending on your country of residence. You must have an
+Account with us in order to use any of our services.
+If you stop meeting any of the Eligibility Criteria, you must immediately notify us and stop using
+your Account and the services. We may require proof that you meet the Eligibility Criteria from
+time to time. Even if you meet the Eligibility Criteria, we may, in our sole discretion, determine
+that you are not eligible to have an Account or use the services, in which case your application
+for an Account will be rejected and/or your access to the services will be terminated. If you are
+a Consumer, we will not do this unless we have a valid reason.
+2.3 Enquiries. You authorise us to make enquiries, whether directly or through third parties:
+● that we consider necessary to verify your identity,
+● to confirm the Eligibility Criteria,
+● to protect you or us against fraud or other financial crime, and
+● as we determine may be necessary to facilitate compliance with this Agreement and
+applicable laws.
+You understand and agree that we may take action we reasonably consider necessary based
+on the results of such enquiries, that we have no obligation to inform you of the results of any
+enquiry and that you expressly waive any obligation we may have to take, or advise you of,
+any possible remedial measures. By making an application for an Account or by otherwise
+accessing or using our services or the Platform, you acknowledge and agree that your
+personal data may be disclosed to credit reference and fraud prevention or financial
+crime agencies and that these agencies may respond to our enquiries in full.
+6
+
+2.4 Client verification. Under applicable law, we must apply client identification procedures and
+client due diligence when establishing a business relationship with a client and/or carrying out
+an occasional transaction with a client (where applicable). You will not be considered our client
+unless all our internal checks, including anti-money laundering checks, have been duly
+satisfied. We reserve the right at all times to monitor, review, retain and/or disclose any
+information as necessary to satisfy any applicable law, regulation, sanctions programs, legal
+process or governmental request.
+2.5 Verification information sources. We will rely on the KYC information and verification
+processes conducted when you open an Account through the Site and we might require
+additional information to satisfy any regulatory requirements applicable to the services. We
+may decide to verify or otherwise re-confirm your identity at any time as long as you hold an
+Account, which may involve using third party verification providers. If you don’t respond to a
+request from us to verify or re-confirm your Account within the timeframe specified in that
+request, we may suspend your Account.
+2.6 Verification information you provide. You agree to provide us with all information that we
+reasonably request in order to verify your identity in accordance with our obligations under
+applicable law.
+This may include a copy of your passport, a proof of address or other identifying documents or
+information that may be requested from time to time, including any other information as set out
+on the Site. In providing us with this, or any other information that may be required, you
+confirm that the information is true, accurate and complete, and you have not withheld any
+information that may influence our evaluation of you for your application for an Account or the
+provision of services to you.
+You must notify us immediately of any material change in the information previously provided
+to us under this section.
+We will retain any documentation or information provided by you to allow us to verify your
+identity and will continue to hold such information following the termination of this Agreement in
+accordance with the periods specified under applicable law or regulation.
+2.7 Proof of funds. To protect the integrity of our services and to ensure our compliance with
+applicable law, we reserve the right to:
+● require proof of source of funds, assets and/or wealth from you;
+● obtain confirmation of your control of your Crypto-assets address(es);
+● investigate any suspected breach of this Agreement, or any other suspicious activity or
+behaviour; and
+● suspend your Account, including due to repetitive losses and to assess the
+appropriateness of the services for you.
+7
+
+2.8 Corporate clients. If you are a corporate client, you are entitled to appoint certain
+representatives who may access and operate your Account on your behalf. You acknowledge
+and agree that you take full responsibility for all activities undertaken by your users on the
+Platform in respect of the services. When you appoint users, you must provide us with the full
+legal names of those users and keep us updated as to any changes to the identity of your
+users. You represent and warrant that (i) your users comply with applicable provisions of this
+Agreement when accessing the services; (ii) your users have appropriate skills, knowledge
+and expertise to use the Platform to access the services; (iii) each user has the appropriate
+authority to bind you to transactions using our services made under this Agreement; and (iv)
+that your users meet the applicable Eligibility Criteria.
+2.9 Third-party sign-in. We may allow you to create or access your account using third-party
+sign-in services (e.g., Google or Apple). Those services are provided by third parties and are
+subject to their own terms and privacy policies. We do not control those services and do not
+receive your third-party passwords. If you revoke Kraken’s access in your Google or Apple
+settings, you may need to add another sign-in method to continue accessing your account. We
+may suspend or restrict access where a third-party provider indicates your sign-in is
+compromised or fraudulent. Your ability to use third-party sign-in depends on the availability of
+those third-party services. Interruptions or changes by Google or Apple do not constitute a
+Kraken breach; we may provide alternative sign-in methods where feasible.
+If you use Apple’s “Hide My Email,” you agree that we may contact you at the private relay
+address for account, security, and regulatory communications. Using a relay address does not
+limit your responsibility to review communications we send. Where our applications offer
+third-party sign-in on iOS, we also offer Sign in with Apple as an equivalent option, subject to
+Apple’s platform rules.
+If you create an account with one method (for example, email and password) and later use a
+third-party sign-in tied to the same verified email or phone number, we may link or merge those
+sign-in methods for the same Kraken account, subject to our security checks. We may require
+additional verification (including multi-factor authentication) before linking or merging.
+8
+
+3. Our Services
+3.1 Our services. We provide services in relation to Crypto-assets, electronic money and certain
+financial instruments from a number of group entities. These include:
+● Crypto-asset exchange services;
+● Crypto-asset transfers;
+● Custody of Crypto-assets;
+● Crypto-asset staking services;
+● E-money wallet provision and related payment services;
+● Portfolio management services in relation to Crypto-assets;
+● Crypto-asset derivatives trading;
+● Rewards programs; and
+● xStocks trading.
+3.2 Changing the services. We may in our sole discretion where we have a valid reason, add,
+amend or discontinue any aspect of our services. Where this change would materially impact
+your rights, we will notify you in advance to the extent required by applicable law via the email
+address associated with your Account.
+3.3 No advice. Unless specified, our services are provided on a non-advised basis, meaning that
+we will not provide you with any advice as to the merits of any particular product or service or
+whether a particular product or service is suitable for you.
+3.4 No reliance. You agree not to rely upon any statement or content on our services, Site or
+Platform, or that is otherwise attributed to us, as a recommendation, advice, or guidance
+regarding trades, investments, tax, or any other similar issues.
+Except as otherwise set out herein, we are not acting as your bank, broker, intermediary,
+agent, advisor, or as your fiduciary in any capacity, including with respect to the services.
+Except for the express statements set out in this Agreement, you acknowledge that you have
+not relied on any other statements or understandings, whether written or oral, regarding your
+use and access of our services and Platform.
+3.5 Supported Crypto-assets and Fiat Currency. Our services are available only in connection
+with Crypto-assets (and networks) and Fiat Currencies that we support, and we support
+different types of Crypto-asset and Fiat Currency in relation to different services. You can
+check which Crypto-assets (and networks) and Fiat Currencies we support in relation to each
+of our services on our Site, although this may be updated by us from time to time.
+You must not attempt to use our services in relation to any unsupported crypto-assets
+or networks and it is your responsibility to monitor which Crypto-assets, networks and
+Fiat Currencies we support. If you attempt to use any crypto-asset that our services
+don’t support, you may permanently lose that crypto-asset. If this happens, we won’t be
+liable for your loss and we have no obligation to add support for, or aid your recovery
+of, the lost crypto-asset. If we, in our sole discretion, attempt to identify and return
+those assets for you, we may charge you a fee, which may be withheld from the assets
+that we return to you.
+9
+
+3.6 Ending support for Crypto-assets or Fiat Currency. We may in our sole discretion end our
+support for any Crypto-asset or Fiat Currency. You acknowledge and agree that we may take
+any action necessary to discontinue our support of a Crypto-asset or Fiat Currency, including
+cancelling your Orders, requiring you to remove or liquidate your holdings of discontinued
+Crypto-assets or Fiat Currency from your Account in a reasonable period of time, or
+exchanging such assets for other supported assets.
+3.7 Operation of Protocols. We do not own or control the underlying software protocols which
+govern the operation of Crypto-assets. Generally, the underlying protocols are ‘open source’
+and anyone can use, copy, modify, and distribute them.
+We assume no responsibility for the operation of the underlying protocols and we do not
+guarantee the functionality or security of network operations.
+3.8 Supplemental Protocols Excluded. Unless specifically announced on the Site, or otherwise
+set out in this Agreement, the Crypto-assets we support exclude all other protocols and/or
+functionality which supplement or interact with those Crypto-assets. This exclusion includes:
+metacoins, colored coins, side chains, or other derivatives, enhanced or forked protocols,
+tokens, or coins or other functionality, such as staking, protocol governance, and/or any smart
+contract functionality, which may supplement or interact with a Crypto-asset (collectively,
+“Supplemental Protocols”). Do not use your Account to attempt to receive, request, send,
+store, or engage in any other type of transaction or functionality involving any such
+Supplemental Protocols, as the Platform is not configured to detect, secure, or process these
+transactions and functionalities. Any attempted transactions in such items may result in loss of
+the item.
+You acknowledge and agree that other than as set out herein, Supplemental Protocols
+are excluded from the Crypto-assets we support and that we are not required to add
+support for any Supplemental Protocols and have no liability for any losses related to
+Supplemental Protocols.
+4. Payments and Fees
+4.1 Fees. We may charge you fees for our services. Details of our fees for each of our services is
+set out in the service specific terms within this Agreement, and can be found on our Site. We
+may change the fees from time to time in our sole discretion by notice to you in accordance
+with applicable law. It is your responsibility to ensure that you are aware of our current
+applicable fees. Fees are exclusive of any applicable taxes unless otherwise stated.
+4.2 How to pay. Fees must be paid in accordance with the procedures made available via the
+Platform. Any attempts to pay fees other than via an available method will be rejected. Unless
+we have agreed otherwise, all fees arising in connection with the provision of our services will
+be due and payable by you to us immediately. If you fail to pay the relevant fee or you have
+insufficient Crypto-assets / Fiat Currency on your Account to cover the value of the fee, then
+your use of our services may be suspended, and any transaction you may submit may be
+rejected or cancelled.
+4.3 Settlement. All fees or other amounts owed by you to us may be settled by us at our sole
+discretion on the day they fall due by debiting your Account with the relevant amount payable
+by you.
+If there are insufficient Crypto-assets / Fiat Currency in your Account to satisfy all fees
+and other amounts owed by you, you acknowledge that any amount due and payable
+from you under this Agreement is a debt immediately due and owing by you to us.
+10
+
+You will be liable in full to us for all losses, costs and expenses we incur due to your
+failure to pay any amounts which are due from you. Such losses, costs and expenses
+include our legal costs, interest on overdue payments and third party costs reasonably
+incurred in recovering any sums from you.
+4.4 Deductions and Withholdings. All amounts owed to us will be settled in such Crypto-assets /
+Fiat Currency as solely determined by us from time to time and will be free of deduction or
+withholdings (if applicable). If you are required to effect such deductions or withholdings, then
+the amount due to us will be increased by such amount as will result in us receiving an amount
+equal to the amount we should have received in the absence of such deduction or withholding.
+4.5 Repayment. If for any reason we cannot effect payment or repayment to you in a particular
+Crypto-asset in which payment or repayment is due, we may effect payment or repayment in
+an equivalent amount of any other Crypto-assets selected by us based on a rate of exchange
+solely determined by us, acting reasonably, at the relevant time.
+4.6 Set off. Without affecting any legal right of set-off under this Agreement or applicable
+law, you acknowledge and agree that we may set off any and all amounts which are due
+or owing from you (or, where appropriate, from the relevant entity for whom you are
+acting) or to you (or, where appropriate, to the relevant entity for whom you are acting)
+in respect of the services and/or any other services provided to you through the
+Platform or otherwise.
+4.7 Interest. If any amount you owe (except interest) is not paid within seven calendar days of its
+due date, we may charge you interest from the due date until payment is received in full at 2%
+above Central Bank of Ireland base rate from time to time; provided that, where mandated by
+applicable law, the interest charged will not exceed the maximum interest we are allowed to
+charge under such applicable law. If you have asked us in writing to pay you an amount that is
+due and payable by us to you and we have not paid the amount due within five Business Days
+of receipt by us of that request, we will pay you interest on the unpaid amount at the Central
+Bank of Ireland base rate from time to time.
+4.8 Taxes. There may be taxes or costs which apply to you that aren’t charged by us or paid
+through us. You are solely responsible for reporting and paying any applicable taxes arising
+from transactions using our services. You must reimburse us for any applicable taxes, duties,
+disbursements, costs and/or other expenses we incur in connection with providing the services
+to you or otherwise in connection with your Account. You understand that we may report
+information with respect to your transactions, payments, transfers, or distributions made by or
+to you with respect to your activities using our services to a tax or governmental authority to
+the extent such reporting is required by applicable law. We will withhold or add taxes
+applicable to your transactions or to payments or distributions made or considered made to
+you to the extent such withholding or addition is required by applicable law. From time to time,
+we may require you to provide tax documentation or certification of your taxpayer status as
+required by applicable law, and any failure by you to comply with this request in the time frame
+identified may result in withholding and/or remission of taxes to a tax authority. You should
+conduct your own due diligence and consult your own tax advisors before using any of our
+services.
+4.9 Currency conversions. We may convert from one Fiat Currency or Crypto-asset in your
+PEDSL Account to any other Fiat Currency or Crypto-asset relevant to a particular Service or
+Order, or relevant to settle any amounts you owe us or we owe you, or any profit or loss on
+open positions. Orders will be executed and settled in the Fiat Currency that the Order is
+quoted in unless otherwise stated. A mark-up may apply during any conversion that may need
+to take place in order to remit any profit or loss to you. Conversions will be at prevailing market
+11
+
+rates reasonably available to us. We are entitled to charge you all commission and costs
+incurred by us in Fiat Currency or Crypto-Asset conversions, if we are required to carry out any
+such conversion.
+12
+
+5. Representations and Warranties
+5.1 General representations. When you enter into this Agreement, and each time you use our
+services, you agree to, and represent and warrant (on an ongoing basis) that you:
+● have full power and authority to enter into this Agreement and, in doing so, will not
+violate any other agreement to which you are a party, or applicable law;
+● have provided and will provide accurate, complete, truthful, and updated information at
+all times when submitting an application for or using any Account or service and when
+otherwise prompted by any screen displayed within the services or on our Platform;
+● comply with all the applicable terms and conditions of this Agreement, including the
+Eligibility Criteria;
+● have had the opportunity to take independent financial advice before applying for an
+Account with us and/or before using any of our services, and you have not relied on
+any information and/or recommendation provided by us in using any of our services
+and you acknowledge that any information and/or recommendation provided by us
+does not constitute or amount to investment advice but is merely a tool for you to
+make your own investment decisions;
+● act as principal, solely in your own name and for your own benefit, and will not use
+your Account for the benefit of any person other than you (except if approved by
+Kraken, where you are a corporate user);
+● will only deliver to us monies (including Crypto-assets and Fiat Currency) that belong
+exclusively to you (except if approved by Kraken, where you are a corporate user),
+and which are free of any lien, charge, pledge and any other encumbrance and are in
+no direct or indirect way the proceeds of any illegal activity including money laundering
+or used or intended to be used for money laundering and/or terrorist financing;
+● are not a politically exposed person and do not have any relationship (for example
+relative or business associate) with a person who holds or held in the last twelve
+months a prominent public position. If at any stage during this Agreement you become
+a politically exposed person, you will inform us as soon as possible;
+● take responsibility for all activities that occur under your Account, and accept all risks
+of any authorised or unauthorised access to your Account, to the maximum extent
+permitted under applicable law;
+● maintain the security of your Account, including by using a strong password for your
+Account that you do not use anywhere else, and will not share your Account or
+password with anyone else; and
+● maintain the security of the email account registered to your Account and any cloud
+storage platform that you might use to save your passwords and/or connected with
+your authenticator apps.
+6. Events of Default
+6.1 Events of Default. It will be an “Event of Default” under this Agreement if, in our reasonable
+opinion:
+● you have repeatedly or materially failed to comply with or perform any of your
+obligations under this Agreement;
+13
+
+● you have repeatedly or materially failed to comply with or perform any obligation under
+any other agreement with us relating to our services to you;
+● any representation, warranty or undertaking made by you to us under or in connection
+with this Agreement is untrue, inaccurate, incomplete or misleading in any respect at
+the time when made by you or later becomes untrue, inaccurate, incomplete or
+misleading in any respect and you fail to inform us of the true position as soon as
+reasonably practicable;
+● if you are an individual, you become deceased, bankrupt or commence action (or have
+any action commenced against you) to place you into bankruptcy or personal
+insolvency or you are otherwise unable to pay your debts as and when they fall due;
+● if you are acting on behalf of a partnership, any of the partners thereof become
+deceased, bankrupt or commence action (or have any action commenced against
+them) to place them into bankruptcy or personal insolvency or are otherwise unable to
+pay their debts as and when they fall due or if any action is commenced to dissolve the
+partnership;
+● if you are a legal entity or are acting on behalf of a legal entity, the legal entity
+becomes unable to pay its debts as and when they fall due, or action is commenced to
+place the legal entity in insolvency, judicial management, receivership, examinership,
+administrative management, or any similar or analogous proceedings;
+● any investigation, claim, action or proceeding of any nature is commenced against you
+(including investigation into suspected market abuse, manipulation or other criminal
+conduct), you have breached applicable laws or steps are taken by any person to
+enforce any security interest against you;
+● a credible allegation of fraud, misconduct, embezzlement, money laundering, insider
+trading, market manipulation abuse or other material illegality, breach of regulation or
+impropriety is made against you or we otherwise reasonably believe that you have
+conducted any of the foregoing activities or that you have used our services with
+improper intent;
+● you become ineligible to use any of our services in accordance with our Eligibility
+Criteria set out in this Agreement; or
+● we reasonably believe that any of the circumstances set out under the above bullet
+points are likely to happen and we also reasonably believe that any action described in
+section 7 (Consequences of Default) below is necessary, desirable or expedient to
+protect our interests or the interests of our other clients.
+7. Consequences of Default
+7.1 Consequences of Event of Default. In the case of an Event of Default, we may immediately
+or any time thereafter whilst the Event of Default is continuing, do any one or more of the
+following without prior notice:
+● suspend, cancel or terminate any Account or any services provided to you in
+accordance with section 8.4, or prohibit you from opening any Account with Kraken
+and/or accelerate any and all of your liabilities to us (including any and all fees,
+interest, commission, and charges owed by you to us) so that they will become
+immediately due and payable;
+● refuse to complete, or place on hold, block, cancel or reverse a transaction you have
+authorised (even after funds or assets have been debited from your Account);
+14
+
+● at such times and manner as we may reasonably determine based on factors including
+market conditions and portfolio health, sell or otherwise transfer any Crypto-assets or
+other property which we (or another Kraken entity on your behalf, as the case may be)
+may hold for you or which has been transferred to us by you and apply the proceeds to
+the discharge of your obligations, subject to our rights to set-off and net amounts owed
+as between you and us as set out herein or under applicable law;
+● apply any positive balance in your Account against any amounts which you owe us, or
+generally exercise our rights of netting and set-off as set out herein or under applicable
+law, and to then demand any shortfall from you, or hold any excess pending full
+settlement of any other of your obligations, or pay any excess to you by way of any
+methods considered appropriate by us;
+● restrict your ability to withdraw or transfer (as the case may be) any Crypto-assets or
+Fiat Currency which we (or another Kraken entity on your behalf, as the case may be)
+may hold for yout; and/or
+● if the Event of Default is due to your potential breach of applicable law (including for
+fraud, misconduct, embezzlement, money laundering, insider trading or market
+abuse), we reserve the right (without liability to you or any third party) to unwind or
+reverse any Orders, freeze any or all amounts allocated to your account, and/or
+deduct any amounts allocated to your account that relate to or arise out of any
+services entered into by you in connection with your potential breach of applicable law.
+7.2 Costs of enforcement. To the extent permitted under applicable law, you will be responsible
+for the reasonable costs and expenses of collection of any unpaid fees, charges or balance in
+your Account (including legal counsel’s fees incurred by us), and will be responsible for any
+other reasonable costs and expenses incurred by us in exercising any of our rights under this
+section pursuant to any Event of Default.
+8. Suspension and Termination
+8.1 Your right to cancel this Agreement. If you are a Consumer, because your agreement with
+us is a distance contract, you have the right under the Distance Marketing Directive as
+implemented in Ireland or the EEA jurisdiction in which you are resident, to withdraw from this
+Agreement, within 14 days of (a) accepting it, or (b) the date that you accessed this Agreement
+incorporating the information required by the Directive as implemented, whichever is later. If
+you do not cancel the Agreement during the 14-day period it will continue until it is terminated
+in accordance with its terms. Should you wish to cancel this Agreement, please contact us at
+https://support.kraken.com/hc/en-us/forms. You will not be charged for cancellation or
+termination of the Agreement in accordance with this section, although you will be required to
+pay any amounts owed to us and from the date of cancellation you will no longer be able to
+use our services.
+8.2 Your right to terminate. You may terminate the Agreement (and close your Account) at any
+time and for whatever reason by contacting us through
+https://support.kraken.com/hc/en-us/forms, following which we will redeem any Fiat Currency
+remaining in your Kraken Fiat Wallet as set out in section 6.5 of Part C (Redemption on
+termination). Your right to terminate this Agreement will be subject to the settlement of all
+trades to which you are a party as at the date we receive the notice of termination. In order to
+comply with anti-money laundering laws that apply to us, we may need to verify your identity
+before we allow you to withdraw funds.
+15
+
+8.3 Our right to terminate. We may terminate this Agreement (and close your Account) at
+any time and for whatever reason upon giving you two months’ written notice via the
+contact details provided on your Account. You will need to ensure that you withdraw
+any Crypto-assets and/or legal tender balances from your Account as soon as possible
+following your receipt of a notification of termination, and in any event by no later than
+two months following the date of that notification.
+8.4 Suspension, termination and cancellation. In addition to our termination rights under
+section 8.3, we may immediately and without prior notice, suspend, cancel or terminate your
+Account or any services provided to you:
+● in an Event of Default, as set out in section 6.1;
+● if we are required by applicable law or a governmental authority to do so; or
+● if we otherwise feel it is necessary, in our reasonable opinion, in order to protect us,
+the Site or the Platform.
+8.5 Notice of suspension or termination. If we suspend, restrict or close your Account, and/or
+suspend or terminate your use of our services, we will (unless it would compromise reasonable
+security measures or would be unlawful for us to do so) provide you with notice of our actions
+and the reasons for termination, suspension or closure, and where appropriate, with the
+procedure for correcting any factual errors that led to the termination, suspension or closure of
+your Account. We will lift the suspension as soon as reasonably practicable once the reasons
+for suspension no longer exist.
+8.6 Consequences of termination or suspension. On termination or suspension of our services
+under this Agreement for any reason, unless prohibited by applicable law or by any court or
+other order to which we are subject in any jurisdiction, you will be permitted to access your
+Account for a maximum of 15 calendar days to close out trades and withdraw your
+Crypto-assets/Fiat Currency. You are not permitted to use the services or your Account for any
+other purpose during this period and we may, in our discretion, limit the functionality of the
+Platform or access to the Site for you accordingly. If we do not permit you to access your
+Account after termination or suspension of our services under this Agreement, or if you do not
+close out trades and withdraw your Crypto-assets / Fiat Currency, then, unless prohibited by
+applicable law or by any court or other order to which we are subject in any jurisdiction, we will
+close your Account and return Crypto-assets / Fiat Currency held in your Account to an
+external crypto-asset wallet / bank account linked to your Account.
+8.7 Consequences of termination. Where we consider it reasonably necessary under applicable
+law, we may freeze the balances of Crypto-assets and/or Fiat Currency held on your Account
+at the time that we terminate your Account. Where we terminate this Agreement as a result of
+our reasonable suspicion that you are involved in any fraudulent or criminal activity, we reserve
+the right to take any further or other action against you in such respect.
+8.8 Fees on closure. Any fees we charge relating to your use of your Account and our services
+will be payable by you proportionally up to the termination of your Account. Any fees for
+transactions made before the closure of your Account (including those transactions that are not
+capable of being cancelled and have been initiated but not completed before closure of your
+Account) will not be refunded.
+9. Liability
+16
+
+9.1 Release of Kraken. If you have a dispute with one or more users of our services (other than
+Kraken), you agree that neither we nor our affiliates or service providers, nor any of our
+respective officers, directors, agents, joint venturers, employees, and representatives, will be
+liable for any claims, demands, and damages (actual and consequential, direct or indirect) of
+any kind or nature arising out of or in any way connected with such disputes.
+9.2 Indemnification. You agree to indemnify us, our affiliates, and service providers, and each of
+our, or their, respective officers, directors, agents, employees, and representatives, in respect
+of any costs (including reasonable legal costs and any fines, fees, or penalties imposed by any
+regulatory authority) that have been reasonably incurred in connection with any claims,
+demands, or damages arising out of or related to your breach of this Agreement, including any
+fraudulent, negligent or reckless act, omission or default or your misuse of the services.
+9.3 Limitation of our liability. Kraken’s total aggregate liability to you for any individual claim or
+series of connected claims for losses, costs, liabilities, or expenses which you may suffer
+arising out of, or in connection with, any breach by Kraken of this Agreement will be limited to
+the aggregate value of the Crypto-assets and Fiat Currency in your Account at the time of the
+breach by Kraken giving rise to your claim. Where we are considering a specific claim relating
+to a specific service, Kraken's total aggregate liability will be limited to the greater of: (i) the
+total fees paid by you for the service in dispute in the 12 months preceding the event giving
+rise to the claim; or (ii) (if applicable) the maximum value of the Collateral held in relation to the
+transaction in dispute.
+9.4 Exclusion of liability. In addition to the liability cap set out at section 9.3 above, you
+acknowledge and agree that Kraken disclaims and has no responsibility for any of the below
+listed losses, liability, or damage you may incur, directly or indirectly, in connection with our
+services:
+● (i) any loss of profits or loss of expected revenue or gains, including any loss of
+anticipated trading profits and / or any actual or hypothetical trading losses, (ii) any
+loss of, or damage to, reputation or goodwill, any loss of business or opportunity, or
+any other loss of revenue or actual or anticipated savings, (iii) any special, incidental,
+intangible or consequential damages, and for each of (i)-(iii) whether direct or
+indirect, even if we are advised of or knew or should have known of the possibility of
+the same;
+● (i) any loss of use of hardware, software, or data and/or any corruption of data; (ii)
+any losses or damages arising out of or relating to any inaccuracy, defect, or
+omission of Crypto-asset price data; (iii) any error, delay, or interruption in the
+transmission of such data; (iv) viruses or other malicious software obtained by
+accessing our Site, Platform, services, software, systems operated by us or on our
+behalf or any website or services linked to our Site; or (v) interruptions, errors,
+defects, glitches, bugs, or inaccuracies of any kind in our Site, Platform, services,
+software, systems operated by us or on our behalf;
+● any third party disruptions of or unauthorised access to our Site, Platform or
+services;
+● any suspension, restriction or termination of any services or your Account; or
+● any loss or damage whatsoever which does not arise directly as a result of our
+breach of this Agreement, whether or not you are able to prove such loss or damage
+(for example where the cause is due to a technical failure in a Crypto-asset protocol,
+the fork of a Crypto-asset protocol or an action by another client or a third party).
+17
+
+9.5 Applicable law. Nothing in this Agreement will limit our liability resulting from our negligence
+or wilful default, fraud or fraudulent misrepresentation, deliberate misconduct, or for death or
+personal injury resulting from either our or our subcontractors’ negligence. Additionally, nothing
+in this Agreement will limit our liability in relation to our duties under applicable law unless
+otherwise expressly excluded or limited by this Agreement in accordance with applicable law.
+9.6 No Warranties. Our services and Platform are provided on an "as is" and "as available" basis,
+without any warranties, either express or implied. Specifically, we disclaim all implied
+warranties of title, merchantability, fitness for a particular purpose, and non-infringement. We
+do not guarantee continuous, uninterrupted, timely, or error-free access to our Platform or
+services, or to any of the materials contained therein. Any materials, information, views,
+opinions, projections, or estimates made available through our Platform are for informational
+purposes only and are subject to change without notice. You are responsible for conducting
+your own evaluation of the relevance, timeliness, accuracy, adequacy, commercial value,
+completeness, and reliability of any such materials or information. Accordingly, we provide no
+warranty and accept no liability for any loss arising, directly or indirectly, from your reliance on
+such materials or information.
+10. Accessing Our Site
+10.1 Access to our Site. Access to our Site may be impaired or unavailable during periods of
+significant volatility or high volume, potentially restricting access to your Account or the
+Platform or Site. This may affect your ability to initiate or complete transactions and could
+result in delayed response times from our support team. While we aim to deliver uninterrupted
+service and ensure transactions are processed efficiently, we cannot guarantee continuous
+access to the Site, the execution or completion of any orders, the recording or maintenance of
+open orders, or uninterrupted Account access. Additionally, customer support response times
+may be extended during periods of significant volatility or transaction volumes.
+10.2 Processing times. We will make reasonable efforts to ensure that transactions and requests
+for debits and credits are processed in a timely manner, but we make no guarantees regarding
+the time needed to complete processing, which may be affected by factors beyond our control.
+10.3 Site maintenance. We reserve the right to suspend access to the Site or Platform as needed
+for maintenance, repairs, upgrades, or development without notice, though we will endeavour
+to notify you of this in advance where reasonably practicable. We will not be liable for any
+damages resulting from service interruptions, transaction processing delays, the inability to
+execute transactions, or delayed support responses.
+11. Intellectual Property
+11.1 Our Content. We or our licensors own (1) our services, Site and Platform, (2) all content,
+materials, software, and trademarks found on them (including, for example, our pricing data),
+(3) the selection and arrangement of them, and (4) all intellectual property rights and
+confidential information in them (collectively, “Our Content”). Subject to your compliance with
+this Agreement, we permit you to use our services, and Our Content made available to you as
+part of our services, but only for approved purposes as permitted by us and for your own
+benefit. We can take away this permission at any time for any reason. Except as set out in the
+previous sentence, you do not have and will not acquire any rights to Our Content. If you wish
+to use Our Content for any other purpose you must seek prior permission to do so by
+contacting marketdata@kraken.com.
+18
+
+11.2 Your Content. You may have the opportunity to transmit content or materials in or through our
+services or Platform (excluding personal data, “your Content”). You grant us a perpetual,
+irrevocable, royalty-free, worldwide, fully sublicensable, non-exclusive right and licence to use
+and exploit your Content in any manner and for any purpose.
+11.3 Feedback. Provided that you have the rights to do so, you may provide us with feedback,
+suggestions, or ideas relating to our services or Platform (“Feedback”). You agree that we will
+own all Feedback, and you hereby irrevocably assign all right, title, and interest in and to all
+Feedback to us.
+11.4 Other Content and Services. When using our services or Platform, you may come across
+links to third party content, or you may have the opportunity to use third party services in
+connection with our services or Platform. We do not control or endorse any third party content
+or services and are not liable to you for third party content or services in any way. Your use of
+third party content or services may be subject to additional terms and conditions with third
+party providers, and we are not part of those terms or conditions. For example, we use
+Google’s Places API to mitigate errors in account address records during account creation,
+which may delay account creation and verification. Your use of Google’s Places API during
+account creation is subject to Google’s Terms of Service and Google’s Privacy Policy. If any
+third party terms and conditions conflict with this Agreement, you agree that the terms of this
+Agreement will prevail.
+11.5 Restrictions. When you use our services, you agree not to:
+● use Our Content to engage in, pay for, or support any illegal, fraudulent, deceptive,
+or manipulative conduct, including illegal gambling activities, money-laundering, or
+terrorist activities;
+● use Our Content in any way or for any purpose that infringes, misappropriates, or
+otherwise violates any intellectual property rights or other rights of us or any third
+party, or applicable law, or in a way that is prohibited by this Agreement;
+● remove, delete, alter, or obscure any trademarks, specifications, warranties, or
+disclaimers, or any intellectual property or proprietary rights notices from Our
+Content;
+● copy, modify, disassemble, decompile, or reverse engineer Our Content (except to
+the extent such restrictions are prohibited by applicable law);
+● licence, sublicence, sell, resell, transfer, assign, distribute or otherwise commercially
+exploit or make available to any third party Our Content in any way;
+● take any action or use Our Content in any manner that could damage, destroy,
+disrupt, violate the security of, interfere with, disable, impair, overburden, or
+otherwise impede or harm in any manner Our Content, or interfere with any other
+party’s use of Our Content;
+● bypass, breach, avoid, remove, deactivate, impair, descramble, or otherwise
+circumvent any security device, protection, or technological measure implemented by
+us or any of our service providers to protect Our Content;
+● use any device, software, or routine that interferes with the function of Our Content
+or transmit in or through Our Content, or use in connection with Our Content, any
+virus, trojan horse, worm, backdoor, time bomb, malware, or other software or
+hardware devices designed to permit unauthorised access to, or disable, erase, or
+otherwise harm, any computer, systems, or software;
+19
+
+● access or use Our Content to build or support products or services competitive to our
+services;
+● use any web scraping, web harvesting, or data extraction methods to extract any
+data from Our Content, or create, use, operate, or employ any bots, robots, parsers,
+spiders, scripts, programs, routines, or any other forms of automation to engage in
+any activity on Our Content;
+● develop any third party applications that interact with Our Content without our prior
+written consent;
+● use or attempt to use another client’s account without authorisation;
+● access or attempt to access any of our services that are not available in your
+location;
+● use or attempt to use Our Content for any person other than yourself; or
+● encourage, permit, or enable any other person or entity to do any of the foregoing.
+12. Security
+12.1 Your Data. We hold and process your data including regarding your identity, address,
+company details, or other information you provide us with. We will hold your data on secure
+servers which may be located outside of the jurisdiction of the Platform or your local
+jurisdiction. For more details see our Privacy Notice on the Site. We will protect your data in
+accordance with good industry practice and we will not sell any of your data or licence it to
+third parties. We will apply security and verification measures (such as two-factor
+authentication) from time to time, including when you access your Account, initiate transactions
+or carry out actions that could present a payment fraud or other security risk.
+12.2 Security credentials. As part of the Account opening process, you will be required to set up
+your unique security credentials (“Security Credentials”). Security Credentials may include
+information such as a username, password, PIN, personal email address, phone number,
+authenticator app, items of memorable information and any other security items we may
+require from time to time. You should not share your Security Credentials with anyone (except,
+where you are a corporate client, in accordance with section 2.8 above).
+12.3 Updating your Security Credentials. If we reasonably believe it is necessary to prevent fraud
+or for security reasons, we may request that you change or update your Security Credentials at
+any time and you agree to change or update your Security Credentials if we request you to do
+so. We will never ask you to confirm your Security Credentials by phone. In the event that
+someone does so, purporting to be us, you should contact us via
+https://support.kraken.com/hc/en-us/forms.
+12.4 Your security obligations. You are responsible for keeping your Security Credentials, any
+other security measures implemented on your Account, and electronic devices and email or
+other accounts through which our services are accessed, safe and secure. This includes taking
+all reasonable steps to avoid the loss, theft or misuse of electronic devices and ensuring that
+electronic devices and any accounts are password protected. Information about how to secure
+your Account and the measures that we take to verify you is available on our Site. Any loss or
+compromise of electronic devices, accounts or security details may result in unauthorised
+access of your Account by third parties and the loss or theft of any Crypto-assets and/or funds
+which we (or another Kraken entity on your behalf, as the case may be) may hold for you and
+the misuse of any associated accounts, including linked bank account(s) and credit/debit
+card(s).
+20
+
+12.5 Access using your Security Credentials. Whenever your Account (including your Kraken
+E-Money Wallet) is accessed using your unique Security Credentials, it authorises us to act on
+any instructions we receive as if they were from you, even if your Security Credentials are
+being used by an unauthorised third party. Unless we receive a notification from you under this
+section, we will treat all activity made on your Account as authorised activity. If you make a
+notification under this section and we request certain information to confirm your identity to us,
+you must provide it in order to continue using our services.
+12.6 Security Breach. If you suspect that your Account, Security Credentials or other security
+measures have been compromised, misused or stolen, or if you become aware of any fraud or
+attempted fraud or any other security incident (including a cyber-security attack) affecting you
+and/or Kraken (collectively, a “Security Breach”), you must: (A) notify us immediately via
+https://support.kraken.com/hc/en-us/forms or the contact methods provided in section 14.1; (B)
+provide accurate and up-to-date information throughout the duration of the Security Breach;
+and (C) take any steps that we reasonably require to mitigate or manage any Security Breach.
+12.7 Notification of security risks. To ensure the security of your Account, we will notify you of
+any potential fraud or security risk in connection with your Account, of which we are aware.
+13. Privacy and Confidentiality
+13.1 Personal Data. You acknowledge that we may process personal data about you (if you are an
+individual), and personal data that you have provided (or in the future provide) to us about your
+employees and other associated individuals (if you are not an individual), in connection with
+this Agreement or the services we provide. We will process this personal data in accordance
+with our Privacy Notice (as updated from time to time). Accordingly, you represent and warrant
+that:
+● your disclosure to us of any personal data relating to individuals other than yourself
+was or will be made in accordance with all applicable laws, and is accurate, up to
+date and relevant when disclosed;
+● before providing any personal data to us, you acknowledge that you have read and
+understood our Privacy Notice, and, in the case of personal data relating to an
+individual other than yourself, have (or will at the time of disclosure have) provided
+the individual with a copy of, or directed the individual towards a webpage containing
+that Privacy Notice; and
+● if from time to time we provide you with a replacement version of the Privacy Notice,
+you will promptly read it and provide updated copies of the Privacy Notice to, or
+re-direct towards a webpage containing the updated Privacy Notice, any individual
+whose personal data you have provided to us.
+13.2 Privacy of Others. If you receive information about another client through our services, you
+must keep the information confidential and only use it for the purposes stated herein. You may
+not disclose or distribute a client’s information to a third party or use the information except as
+reasonably necessary to carry out a transaction and other connected functions such as
+support, reconciliation and accounting unless you receive the client’s express consent to do
+so. You may not send unsolicited communications to another client through the Platform, Site
+or our services.
+14. Communications
+14.1 How to contact us. You can contact us via:
+● The Chat Function on the Kraken App or Site; or
+21
+
+● Our online support portal, available at https://support.kraken.com/hc/en-us/forms.
+14.2 How we contact you. We usually contact you via email. You agree and consent to receive
+electronically all service communications, agreements, documents, notices and disclosures
+that we provide in connection with your Account and your use of our services. We recommend
+you keep copies of all communications we send or make available to you. You must at all times
+maintain at least one valid email address in your Account and you must check for incoming
+messages regularly and frequently. You understand and agree that if we send you an email
+(including any legally required notices) but you do not receive it because the email address
+you have provided is incorrect, out-of-date, blocked by your service provider, or you are
+otherwise unable to receive emails, you will still be deemed to be in receipt of the email.
+14.3 Withdrawing consent. You may withdraw your consent to receive communications from us
+electronically by contacting us via the methods set out in section 14.1 above. If you fail to
+provide or if you withdraw your consent to receive communications in the specified manner, we
+reserve the right to immediately terminate this Agreement and close your Account, or charge
+you additional fees for paper copies of communications.
+14.4 Legal notices. We will send you any legally required notices by email to the primary email
+address associated with your Account and any notice sent in such manner will be considered
+to have been delivered to you on the Business Day following the day we send the email. You
+must send your notices to https://support.kraken.com/hc/en-us/forms. Your notices will be
+considered delivered on the Business Day following the submission of that notice to us.
+14.5 Language. This Agreement, related pre-contractual information and any information or
+notifications that you or we are to provide will be in English, except as otherwise required
+under applicable law or requested by you in accordance with applicable law. Any information
+that you are required to provide should be provided in English, except where otherwise
+requested by you in accordance with applicable law.
+15. Dispute Resolution
+15.1 Complaints. If you have a support issue, you should submit this to us via the contact details
+set out in section 14.1 above for our support team to resolve. If you have a complaint about us
+or the services we provide, you should submit this to us using the Complaint Submission Form
+available at https://support.kraken.com/hc/en-us/articles/complaint-handling-process. We will
+handle your complaint in accordance with our complaint handling process, which is set out at
+the link above and is described below.
+15.2 Responding to complaints. We will acknowledge receipt of your complaint without undue
+delay. We will then aim to provide you with an answer or resolution to your complaint within the
+timeframes and in the manner required by applicable law. Should this not be possible due to
+exceptional circumstances not within our control, we will contact you setting out the reasons
+why the complaint remains ongoing, requesting further information on the complaint (where
+appropriate) and specifying the deadline by which you will receive a response.
+15.3 Your right to complain to an alternative dispute resolution service. If on receipt of (or in
+absence of) our final response to your complaint within the timeframe required by applicable
+law, we have not been able to resolve your complaint, you may escalate your complaint via the
+dispute processes set out in this section as applicable to you.
+● For PEDSL Products, you may refer the matter to the Financial Ombudsman, whose
+address is Kipranoros 15, 1061, Nicosia, Cyprus.
+22
+
+● For E-money Core Services provided by PIL or any services provided by PESL, you
+may refer the matter to the Financial Services and Pensions Ombudsman, whose
+address is Lincoln House, Lincoln Place, Dublin 2, Ireland (Telephone: +353 1 567
+7000, Website: Financial Services and Pensions Ombudsman (FSPO) | Ireland).
+If you are resident in an EEA country other than Ireland, you may also be entitled to submit a
+complaint to a local Ombudsman or equivalent body. Additionally, you may have the option to
+use the European Commission's online dispute resolution platform to facilitate the online
+resolution of your dispute. The platform is available at http://ec.europa.eu/odr. However, please
+note that we are not obliged to participate in EU’s online dispute resolution process.
+If your complaint relates to any other service, or for any other complaint or dispute arising out
+of or in connection with this Agreement that cannot be resolved via the complaints process
+outlined in sections 15.1 and 15.2 above, you agree to submit to the exclusive jurisdiction or
+the Irish Courts, or to arbitrate disputes, as applicable in accordance with section 15.4 below.
+You and Kraken agree to notify each other in writing prior to initiating any proceeding. Notice to
+Kraken must be sent to legal@kraken.com.
+15.4 Governing law and jurisdiction. Without prejudice to any mandatory rights available to
+Consumers, any dispute or claim arising out of or in connection with this Agreement or our
+relationship with you (including non-contractual disputes or claims) will be governed by, and
+construed in accordance with, the following:
+● If you are a Consumer, the governing law will be the laws of Ireland, and any
+disputes (including any question regarding the Agreement’s existence, validity or
+termination) will be subject to the exclusive jurisdiction of the Irish courts; or
+● If you are not a Consumer, the governing law (including the governing law of this
+arbitration agreement) will be the laws of Ireland, and any disputes (including any
+question regarding the Agreement’s existence, validity or termination) will be referred
+to and finally resolved by arbitration under the LCIA Rules, which Rules are deemed
+to be incorporated by reference into this section. The seat, or legal place, of
+arbitration will be London, UK. The language to be used in the arbitral proceedings
+will be English.
+16. General
+16.1 Abusive Trading. Internet connectivity delays and price feed errors sometimes create a
+situation where the price feeds displayed on the Platform do not actually reflect the market
+rates. The concept of arbitrage and “scalping”, or taking advantage of these internet delays is
+not permitted by us and transactions that rely on price latency or arbitrage opportunities may
+be revoked by us. We reserve the right to make necessary corrections or adjustments on any
+Account involved. Any dispute arising from quoting or execution errors will be resolved by us in
+our sole discretion. If we determine that an abusive trading technique has been used, we
+reserve the right to take action as we see fit including blocking access to the services,
+terminating your Account and freezing or reclaiming all funds and assets held in or associated
+with your Account.
+23
+
+16.2 Assignment. Your Account is personal to you and is non-assignable. We can assign or
+transfer any right or obligation under this Agreement, in whole or in part, without your consent,
+subject to compliance with applicable laws. In addition, if we are acquired by or merged with a
+third party entity, we reserve the right to transfer or assign the information we have collected
+from you and our relationship with you (including this Agreement) as part of such merger,
+acquisition, sale, or other change of control. If that is the case, we will inform you if your details
+are being transferred to a third party entity. Subject to the foregoing, this Agreement will bind
+and inure to the benefit of the parties, their successors and permitted assigns.
+16.3 Compliance with applicable law. Your use of our services, Platform and Site is subject to
+your compliance with applicable law, including export restrictions, end-user restrictions,
+antiterrorism laws, and economic sanctions. You acknowledge and agree to hold us
+harmless for any losses caused by delays or refusals to process a transaction that
+result from our obligation to ensure compliance with applicable export controls or
+sanctions.
+16.4 Conflicts of Interest. As part of acting in the best interests of our clients, we have
+implemented, and will on an ongoing basis maintain, robust policies and procedures that
+identify, prevent, manage, and disclose any conflicts of interest that may from time to time
+arise between us and any third party or between two or more clients.
+16.5 Duration of this Agreement. This Agreement has no fixed duration and will last until one of
+us terminates it.
+16.6 Enforceability. If any part of this Agreement is found to be invalid, illegal, or unenforceable,
+the rest of the terms of the Agreement will still apply and be enforceable. If any such invalid,
+illegal, or unenforceable provision can be modified so as to be valid and enforceable as a
+matter of law, then such provision is not considered severed from the Agreement and instead
+is considered to have been modified so as to be valid and enforceable to the maximum extent
+permitted by law.
+16.7 Entire Agreement. This Agreement and all of its Parts (and including documents incorporated
+by reference herein) is the complete and only agreement between you and us in relation to the
+services described in and provided under this Agreement. It replaces all previous discussions,
+agreements, and understandings about these services. Each party agrees that it will have no
+remedies in respect of any statement, representation, assurance or warranty (whether made
+innocently or negligently) that is not set out in this Agreement.
+16.8 Force majeure. We are not responsible or liable for any error, delay, loss, or damage arising
+from any event beyond our reasonable control (each, a “Force Majeure Event”) and we
+reserve the right to take or omit to take any actions that we consider appropriate in the
+circumstances to protect ourselves and our clients as a whole (including suspension of trading,
+voiding open positions, adjusting prices or changing Collateral Requirements). Force Majeure
+Events include flood, extraordinary weather conditions, earthquake, or other act of God, fire,
+war, insurrection, riot, labour dispute, accident, action of government, communications, power
+failure, equipment or software malfunction, or the suspension or closure of any index / market /
+exchange or the abandonment or failure of any event upon which we base, or to which we may
+relate our quotes, with the result that we are in our reasonable opinion unable to maintain an
+orderly trading market or provide our services.
+16.9 Further Information. You can find further information about your rights when making and
+receiving payments in Europe on our Site.
+24
+
+16.10 Partnerships. From time to time we may offer our services in partnership with a third party
+partner. If you are introduced to us through one of our partners, the following terms will apply to
+you (notwithstanding any terms to the contrary in this Agreement):
+● You may only be able to access your Account and/or our services through our
+partner's platform or app, in which case access to your Account and our services will
+be subject to:
+○ the availability of our partner's platform or app;
+○ our partner’s terms and conditions; and
+○ your compliance with our partner's terms and conditions, as well as this
+Agreement.
+● You may not be able to access all of our services, or all of the Crypto-assets and Fiat
+Currencies that we support, through a partner's platform or app.
+● You may be required to satisfy additional onboarding requirements from our partners
+as well as the Eligibility Criteria set out in this Agreement.
+● Your personal data will be processed by our partner as well as by us (the privacy
+notices of our partners will explain how they will process your data).
+● The fees that you pay for using our services through a partner's platform or app may
+be different to the fees stated on our Site, but we will still notify you of all applicable
+fees for any transactions in advance.
+● Your account with a partner may be debited or credited by the partner on our behalf
+in order to settle fees you owe us or transactions you have made using our services.
+● You may communicate with us, and/or receive communications from us, through our
+partner instead of through the communication methods set out in this Agreement
+(although you always have the right to communicate with us directly if you wish to
+raise a formal complaint about our services).
+● In addition to our termination rights outlined in section 8, there may be circumstances
+in which we will need to terminate your Account and liquidate your holdings if our
+partner terminates your access to their platform for any reason.
+16.11 Survival. All provisions of this Agreement which by their nature extend beyond the expiration
+or termination of this Agreement, including the sections relating to suspension or termination,
+Account cancellation, payments to us, general use of the Platform or Site, disputes with us,
+and general provisions will continue to be binding and operate after the termination or
+expiration of this Agreement.
+16.12 Relationship. Nothing in this Agreement will be considered to or is intended to, nor will it,
+cause you and us to be treated as partners, joint venturers, or otherwise as joint associates for
+profit, nor will it authorise you to act as our agent.
+16.13 Third party rights. Kraken Group entities may enforce the terms of this Agreement. Except as
+set forth in the preceding sentence, a person who is not a party to this Agreement will not have
+any rights under or in connection with it.
+16.14 Waiver. If we choose not to enforce any of our rights under this Agreement at any time, we are
+not waiving those rights and may enforce our rights at any time.
+25
+
+PART B: DEFINITIONS AND INTERPRETATION
+In this Agreement, unless the context requires otherwise:
+● words defined in applicable law will have the same meaning as in applicable law,
+unless defined below;
+● words importing the singular will be considered to include the plural and vice versa;
+● use of the words “include” or “including” are not to be interpreted as words of
+limitation and the use of these or similar words will not be given a restrictive meaning
+because they are followed or preceded by particular examples;
+● references to statutory provisions, regulations, notices or applicable law will include
+those provisions, regulations, notices or rules as amended, extended, consolidated,
+substituted or re-enacted from time to time; and
+● defined words used in any Part of the Agreement will have the same meaning as set
+forth below unless they are expressly defined differently, in which case, the
+definitions in that Part will apply.
+Section and Part headings are for guidance only and will not affect the interpretation of the
+Agreement.
+Term Meaning
+“Account” means the account held in your name on the Platform via which you
+receive our services.
+“Agreement” means these terms and conditions between you and us
+“API” means application programming interfaces
+"Assets" means all Collateral and all other securities, cash, financial assets,
+security entitlements, general intangibles and other property delivered by
+you to the Platform, including in your Account
+“Attestations” means verified, on-chain credentials issued through Kraken Verify that are
+related to your Account
+“Bundle” means a pre-selected portfolio of Crypto-assets that you choose when
+using our bundles product as part of the Portfolio Management Services
+"Bid Price" means the lower of the two prices quoted by us for the same market
+26
+
+“Business Day” means:
+● in respect of services relating to the PEDSL Products, any day
+other than a Saturday or a Sunday or a public holiday in Cyprus,
+and
+● in respect of all of our other services, any day other than a
+Saturday or a Sunday or a public holiday in Ireland
+“Client Money” means any Fiat Currency that is considered to be client money in
+accordance with the Client Money Rules
+"Client Money means the CySEC's Directive DI87-01 for the Safeguarding of Financial
+Rules" Instruments and Funds belonging to Clients
+"Collateral" means a specified minimum amount of Fiat Currency approved by us to
+qualify as collateral, maintained in your Account at all times during the
+term of an open Derivative Order
+"Collateral means the amount of Collateral that must be provided to open or maintain
+Requirement" a Derivatives position, as determined by us and shown to you on the
+Platform
+“Consumer” means an individual acting for purposes that are wholly or mainly outside
+that individual’s trade, business, craft or profession
+“Core Services” means the Crypto-asset Core Services and the E-money Core Services
+"Counterparty" means the counterparty to an Order entered into by the client
+"Crypto-asset" means any digital currency, stablecoin or other digital representation of
+value that is able to be transferred and stored using distributed ledger
+technology, and that is available in connection with our services, but does
+not include NFTs
+27
+
+“Crypto-asset means:
+Core Services”
+● exchanging Crypto-assets for Fiat Currency or other Crypto-assets;
+● adding Crypto-assets into your Account and withdrawing
+Crypto-assets from your Account;
+● transferring Crypto-assets from your Account to another Account;
+and
+● custody of Crypto-assets
+"CySEC" means the Cyprus Securities and Exchange Commission
+"Derivative means the receipt of Orders from you via the Platform in relation to
+Services" Derivatives and the subsequent transmission of those Orders to Execution
+Venues as agent on your behalf for execution against a Counterparty
+"Derivatives" means trading contracts that reference Crypto-assets as the underlying
+reference asset
+“Durable Medium” means any instrument which enables you to store information addressed
+personally to you in a way accessible for future reference for a period of
+time adequate for purposes of the information and which allows the
+unchanged reproduction of the information stored
+“E-money Core means:
+Services”
+● opening and closing your Kraken E-Money Wallet;
+● issuing Fiat Currency to your Kraken E-Money Wallet when you
+make a corresponding deposit;
+● redeeming Fiat Currency in your Kraken E-Money Wallet when you
+make a corresponding withdrawal;
+● issuing or redeeming Fiat Currency in your Kraken E-Money Wallet
+when you:
+♦ elect to make a purchase or sale of Crypto-assets
+using our services; and/or
+♦ receive or transmit Fiat Currency to or from another
+Kraken client;
+● transferring Fiat Currency from your Kraken E-Money Wallet to a
+bank account nominated by you by way of a credit transfer
+28
+
+“E-money Core means the E-money Core Services terms set out in Part C of this
+Services Terms” Agreement, together with other terms in this Agreement set out in Part A,
+Part B or Part C that form the ‘framework contract’ (as defined under
+applicable law) governing your use of the E-money Core Services
+“EEA” means the European Economic Area
+"Elective means a client who requests to be treated as a Professional Client and
+Professional who meets the qualitative and quantitative tests as set out in our Client
+Client" Categorisation Policy
+"Eligible Asset" means any of the specified assets that are eligible to contribute to the
+Opt-In Rewards Program, listed at
+https://support.kraken.com/hc/en-us/articles/360044886311-Overview-of-O
+pt-In-Rewards-on-Kraken
+“EMIR” means the European Market Infrastructure Regulation No. 648/2012 on
+derivatives and all related delegated, supplementing or successive
+regulations, as amended
+“Event of Default” means any of the circumstances listed in section 6 of Part A (Events of
+Default)
+"Execution Venue" means a regulated market, a multilateral trading facility, a systematic
+internaliser, a market maker or other liquidity provider or an entity that
+performs a similar function in a third country to the functions performed by
+any of the foregoing, as defined under Delegated Regulation 2017/565,
+which was selected by us, based on the provisions of our Order Execution
+Policy, to execute your Orders
+"Fiat Currency" means government-issued currency that is not backed by a commodity,
+including U.S. Dollars, British Pound, and Euro, or any electronic
+representation of such a currency, and that is available in connection with
+our services
+“Investor means the compensation fund established in Cyprus for clients of
+Compensation investment firms pursuant to the Investment Services Law 144(I)/2007, as
+Fund” amended, and Directive 144-2007-15, and supervised by the Cyprus
+Securities and Exchange Commission. Further information is available
+here
+29
+
+“kBTC” means an ERC-20 token minted exclusively by PC, for use on
+Ethereum-based networks
+“kBTC Services” means the option to exchange BTC for kBTC and vice versa at a 1:1
+exchange rate within your Account
+“Kraken+” means our premium subscription service offering users certain benefits in
+exchange for a monthly fee
+“Kraken E-Money means a Kraken Fiat Currency Account
+Wallet”
+“Kraken Verify” means a service that provides access to on-chain verification, allowing
+you to issue verified credentials related to your Account
+"KYC" means Know Your Customer
+“Leaders” means (in relation to the Portfolio Management Services) clients whose
+trading activities can be replicated by other users
+“Liquidity Pool” means the pool of Kraken’s funds set aside to support our equity
+protection process for certain PEDSL Products to increase Position
+Liquidations and Position Assignments before a Position Unwind is
+required (further information is available at
+https://support.kraken.com/hc/en-us/articles/futures-liquidity-pool)
+“MIFIR” means Regulation (EU) No 600/2014 of the European Parliament and of
+the Council of 15 May 2014 on markets in financial instruments and
+amending Regulation (EU) No 648/2012
+"Obligations" (in relation to section 6 of Part D (Security Interest)) of the PEDSL Terms
+of Service any and all of your obligations, liabilities or monies whatsoever
+at any time now or hereafter owing, due, incurred or payable by you to us
+under this Agreement or otherwise, whether present or future, actual or
+contingent, solely or jointly or whether as principal or surety
+"Offer Price" means the higher of the two prices quoted by us for the same market
+"Opt-In Rewards means the option to contribute and earn rewards on eligible, available and
+Program" idle Crypto-asset balances in your Account
+30
+
+“Opt-Out” means a request for a complete or partial return of your contributed
+Eligible Assets from the Opt-In Rewards Program
+"Order" means:
+● in respect of PEDSL Products, a request made via the Platform to
+enter into or close out a contract for a PEDSL Product, and
+● in respect of our Core Services, a request made via the Platform to
+purchase or sell Crypto-assets
+“Paylink” means a payment link used to select a recipient for transferring funds
+within the Kraken Platform, utilising the "Paylinks" feature
+"P&L Model" means our proprietary model used to calculate the profit and loss of your
+open Derivatives positions
+"PEDSL Account" Means your account with PEDSL, which is linked to your Account
+"PEDSL Products" means any or all of the Derivatives, or xStocks, as appropriate
+"Platform" means our online platforms for the provision of our services
+“Portfolio means our services in managing portfolios of Crypto-assets in accordance
+Management with instructions given by you
+Services”
+"Position means where we cannot liquidate some or all of your open positions, and
+Assignment" so we assign some or all of your remaining open positions to another
+client who has previously agreed to receive assignments of positions for
+this purpose
+"Position Covered means where we cannot use Position Assignment and we instead attempt
+Liquidation" to liquidate your remaining open positions to another client, and to cover
+any remaining negative balance of required Collateral from the Liquidity
+Pool
+"Position means where your Collateral is lower than your Collateral Requirement
+Liquidation" and we cancel your open Orders and/or liquidate some or all of your open
+positions
+31
+
+"Position Unwind" means where we unwind some or all of your open positions
+“Professional has the meaning given in Annex II of Directive 2014/65/EU of the
+Client” European Parliament and of the Council of 15 May 2014 on Markets in
+Financial Instruments and amending Directive 2002/92/EC and Directive
+2011/61/EU (“MiFID II”)
+“Rebalancing” means (in relation to the Portfolio Management Services) the automatic
+adjustment of your Bundles at a frequency and according to the allocation
+parameters set by us
+“Reportable means trades made via PEDSL that must be reported under applicable
+Transactions” law, including EMIR, MIFIR, and applicable CySEC rules
+“Retail Client” means any client that is not categorised as a Professional Client
+"Rewards" means (in relation to the Opt-In Rewards Program only) periodic payments
+which participation in the Opt-In Rewards Program entitles you to receive
+“Security means your unique security credentials that are required as part of the
+Credentials” Account opening process
+"Site" means kraken.com and our associated websites, APIs and mobile
+applications
+“Stake” means electing to stake or restake a Supported Crypto-asset
+“Staking Rewards” means the applicable staking rewards received from the Staked
+Crypto-asset protocol attributable to your Staked Crypto-assets
+“Staking Services” means the option to Stake and earn rewards on eligible Crypto-assets that
+you hold in your Account
+“Suitability means the assessment of whether the Portfolio Management Services
+Assessment” and Crypto-assets related to the Portfolio Management Services are
+suitable for you that we are required to conduct, in accordance with
+applicable law, prior to you receiving any Portfolio Management Services
+and on a regular basis afterwards
+32
+
+“Supplemental means metacoins, colored coins, side chains, or other derivative,
+Protocols” enhanced, or forked protocols, tokens, or coins or other functionality, such
+as staking, protocol governance, and/or any smart contract functionality,
+which may supplement or interact with a Crypto-asset
+“Supported means the Crypto-assets in relation to which the Staking Services are
+Crypto-asset” available
+“Supported means a blockchain network that is eligible for kBTC Services
+Network”
+"Supporting means the provision of supplementary supporting services where
+Services" requested by you or necessary for the purposes of executing services in
+relation to PEDSL Products
+“TPP” means a third party service provider licensed by applicable law
+"TTCA" means a title transfer collateral arrangement
+"TTCA Terms" means terms relating to the TTCA that will be set out in a document and
+made available to you on our Site
+"xStocks" means the digital assets issued by Backed Assets (JE) Limited, which are
+tokenized debt instruments that represent real-world US stocks and
+exchange-traded funds, and are backed 1:1 by the Underlying Securities
+“xStocks means the receipt of Orders from you via the Platform in relation to
+Services” xStocks and the subsequent execution of those Orders as principal and
+Counterparty
+"Underlying means a stock, exchange-traded fund, or treasury that is used as a
+Securities" reference for an xStock and is purchased and held by or on behalf of
+Backed Assets (JE) Limited
+33
+
+PART C: CORE SERVICES TERMS
+Our provision of the E-money Core Services and the Crypto-asset Core Services is
+regulated by the Central Bank of Ireland.
+1. Core Services
+1.1 Core Services. Our Core Services are made up of the primary services that our clients use,
+including services that may be needed in order to access our non-Core Services.
+Before using any of our Core Services, you should ensure you have read and
+understood the risk warnings in relation to our Core Services, which are set out in
+section 18. We have outlined some of the other substantial risks associated with using
+our services, including submitting Orders, on our Legal Disclosures page, which is
+incorporated into this Agreement by reference. You should carefully review these risks
+to determine if our services are suitable for you, considering your circumstances,
+knowledge, and financial resources.
+1.2 Crypto-asset Core Services. Within our Core Services, our Crypto-asset Core Services are
+provided by PESL. Our Crypto-asset Core Services include:
+● Exchanging Crypto-assets for Fiat Currency or other Crypto-assets;
+● Adding Crypto-assets into your Account and withdrawing Crypto-assets from your
+Account;
+● Transferring Crypto-assets between your Account and other Accounts, external
+parties or wallets; and
+● Custody of Crypto-assets.
+1.3 E-money Core Services. Within our Core Services, our E-money Core Services are provided
+by PIL. Our E-money Core Services include:
+● Opening and closing a Kraken Fiat Currency Account for you (your “Kraken
+E-Money Wallet”);
+● Issuing Fiat Currency to your Kraken E-Money Wallet when you make a
+corresponding deposit;
+● Redeeming Fiat Currency in your Kraken E-Money Wallet when you make a
+corresponding withdrawal;
+● Issuing or redeeming Fiat Currency in your Kraken E-Money Wallet when you:
+♦ elect to make a purchase or sale of Crypto-assets using our services; and/or
+♦ receive or transmit Fiat Currency to or from another Kraken client;
+● Transferring Fiat Currency from your Kraken E-Money Wallet to a bank account
+nominated by you by way of a credit transfer.
+34
+
+1.4 Core Services products. Our Core Services include certain products, set out below, which
+may be available to certain categories of clients or via certain applications, as stated on the
+Site. These Core Services may be updated from time to time without notice as part of how we
+administer the manner in which we provide those services to you, or so that we can manage
+our business better (further details of how we can make changes to this Agreement are set out
+in section 1.7 of Part A).
+● Instant Buy/Sell – this service allows you to submit Orders to instantly buy, sell or
+convert Crypto-assets via the Platform, with us as your counterparty;
+● Spot Crypto – this service involves submitting Orders on the order book with us as
+your agent and broker;
+● P2P – this service enables transfers of Crypto-assets between existing Kraken
+clients; and
+● Crypto-asset Transfers – this service enables existing Kraken clients to send or
+receive transfers of Crypto-assets to or from external parties or wallets.
+1.5 Executing Core Services. We will provide the Core Services in accordance with the
+instructions we receive from you. You should verify all transaction information prior to
+submitting instructions to us. We will have no liability or responsibility for ensuring that the
+information you provide is accurate and complete. We may refuse to process or cancel any
+pending transaction in relation to the Core Services as required by law, regulation or any court
+or other authority to which we are subject in any jurisdiction, for instance, if there is suspicion
+of money laundering, terrorist financing, breaches of international sanctions, fraud, or any
+other financial crime.
+1.6 Timing. If we receive instructions from you in relation to our Core Services on a non-Business
+Day or after 5.00pm (Dublin time) on a Business Day, we may treat those instructions as if they
+were received by us on the following Business Day. You cannot withdraw your consent to any
+transactions that you ask us to make immediately, but you can withdraw your consent in
+relation to transactions that you have asked to us to make on a future date (if we receive your
+request to withdraw before our cut-off times). To cancel a future transaction relating to your
+Kraken E-Money Wallet, follow the instructions on our Platform and Site.
+1.7 Conflicts of interest. In accordance with applicable law, we have disclosed the general nature
+and sources of conflicts of interest, along with the measures taken to mitigate those conflicts in
+our Conflicts of Interest Policy which is available here: www.kraken.com/legal/MiCAR.
+By using our Core Services, you acknowledge and agree that you are aware this
+may cause a conflict of interest and that you still wish to proceed to use these
+services.
+1.8 Applicable law. Our provision of Crypto-asset Core Services is governed by applicable law. In
+accordance with applicable law:
+● We publish certain disclosures relating to the principal adverse impacts on the
+climate and other environment-related adverse impacts of the consensus mechanism
+used to issue each Crypto-asset that we provide services in respect of. These
+disclosures may be copied from Crypto-asset white papers and are available to view
+here: https://www.kraken.com/legal/mica-whitepapers.
+35
+
+● We maintain records of the Crypto-asset Core Services we provide and the activities
+and transactions in relation to these in accordance with our internal document
+retention policies. We will provide a copy of the records applicable to your use of the
+Crypto-asset Core Services if you request it from us.
+● Where we hold your funds, Crypto-assets or the means of accessing your
+Crypto-assets, we have adequate arrangements in place to safeguard your
+ownership rights, especially in the event of our insolvency, and to prevent the use of
+clients’ Crypto-assets or funds for our own account.
+1.9 Assignment. If you use our Crypto-asset Core Services and we merge with a third party entity
+or transfer all or part of our Crypto-asset Core Services to a third party entity, we will provide
+you with two months’ notice to enable you to make alternative arrangements. We will ensure
+that all outstanding business with you is properly completed prior to any merger or transfer, or
+inform you of how continuity of service will be provided following any merger or transfer.
+2. Fees
+2.1 Core Services fees. The fees applicable to our Core Services are available on our Site and
+may be changed by us in accordance with applicable law.
+2.2 Payment of fees. Fees payable by you will be deducted from your Kraken E-Money Wallet
+balance (or, if we give you the option to change your fee currency for a particular transaction,
+and you exercise that option, fees payable by you will be deducted from the available
+Crypto-asset balance you select). Transaction fees will be charged when the transaction is
+executed. Reversal or chargeback fees will be deducted when they occur.
+2.3 How fees are calculated. Our fees are either expressed as a percentage of the transaction or
+as a fixed amount in EUR. Where fixed fee amounts are displayed in a currency other than
+EUR, this is for information purposes only. If fees are deducted from a balance or a transaction
+denominated in a different currency, the EUR fee amount will be converted into an equivalent
+fee in that other currency based on the Kraken E-Money Wallet wholesale exchange rates
+applicable at the time and then deducted. We will not apply a foreign exchange fee on
+currency conversions of fees.
+2.4 Insufficient funds. If we determine there are insufficient funds to pay any fees, you authorise
+us to deduct Fiat Currency or sell Crypto-assets from your Account to pay any fees due.
+2.5 Fees in other currencies. To the extent fees must be paid in a particular denomination of Fiat
+Currency, you authorise us to receive the proceeds of any sale of Crypto-assets in such
+denomination of Fiat Currency or to convert any Fiat Currency held in your Account to the
+required denomination. You are responsible for any and all additional fees that may be incurred
+to sell Crypto-assets or convert Fiat Currency denominations in order for the fees to be paid to
+us.
+2.6 External Fees. Our list of fees does not include any network or transaction fees that are
+charged externally when you send Crypto-assets from an external wallet to your Account, or
+when you send Crypto-assets from your Account to an external wallet. Additionally, our list of
+fees does not include any third party or banking fees that are charged by third parties when, for
+example, you upload Fiat Currency to your Kraken E-Money Wallet or transfer Fiat Currency
+out of your Kraken E-Money Wallet.
+36
+
+E- MONEY CORE SERVICES
+3. Kraken E-Money Wallet
+3.1 Your Kraken E-Money Wallet. If we accept your Account application, we will open a Kraken
+E-Money Wallet for you. You need a Kraken E-Money Wallet to enjoy the full use of services
+offered by Kraken under this Agreement.
+3.2 Not a bank account. Your Kraken E-Money Wallet is not a bank account. By submitting an
+application for an Account with us you expressly acknowledge that the Irish Deposit Guarantee
+Scheme does not apply to your Kraken E-Money Wallet. In the event that we become
+insolvent, you may lose the Fiat Currency held in your Kraken E-Money Wallet. However, we
+are subject to laws which are designed to ensure the safety and liquidity of funds held with us.
+3.3 Multiple Fiat Currencies. Your Kraken E-Money Wallet may hold Fiat Currency denominated
+in different currencies and we will show the Fiat Currency balance for each currency that you
+hold.
+3.4 No interest. Any Fiat Currency held in your Kraken E-Money Wallet will not expire, but it will
+not earn interest.
+3.5 Regular information. We will provide you with regular information relating to payment
+transactions on your Kraken E-Money Wallet by making the following information available in
+your Account on the Platform:
+● a reference enabling you to identify each payment transaction and, where
+appropriate, information relating to the payee (i.e., the person or party you have
+paid);
+● the amount of the payment transaction in the currency in which your Fiat Currency is
+debited or in the currency used for the payment instruction;
+● the amount of any charges for the payment transaction and, where applicable, a
+breakdown of the amounts of such charges;
+● where applicable, the exchange rate used in the payment transaction by us, and the
+amount of the payment transaction after that currency conversion; and
+● the debit value date or the date of receipt of the payment instruction.
+You may also request a statement containing the above information from us at any time.
+3.6 Using your personal information. In order for us to provide the E-money Core Services
+under this Agreement, you agree to us accessing, processing, and retaining any information
+you provide to us. This does not affect any rights and obligations you or we have under data
+protection laws. You can withdraw this consent by closing your Kraken E-Money Wallet. If you
+do this, you will no longer be able to access any of our services and we’ll stop using your data
+for this purpose, but may continue to process your data for other purposes in line with our
+Privacy Notice.
+3.7 Keeping your Kraken E-Money Wallet safe. In order to keep your Kraken E-Money Wallet
+safe, you must:
+● keep all Security Credentials safe;
+37
+
+● take care when using Security Credentials (for example, making sure that nobody
+else can see or hear you using them and that you log out of any device that is
+accessible to someone else);
+● inform us immediately if there is reason to believe someone else knows the Security
+Credentials or if the Security Credentials have, or may have, been misused or stolen;
+● not choose Security Credentials that other people would easily guess;
+● not let anyone else access or use your Security Credentials, or share your Security
+Credentials; and
+● not write down any Security Credentials in a way that other people would
+understand.
+4. Use of Third Parties
+4.1 TPP services. You may permit third party service providers licensed by applicable law (each a
+“TPP”) to:
+● provide account information services to access information about your Kraken
+E-Money Wallet on your behalf; and
+● provide payment initiation services to initiate transactions from your Kraken E-Money
+Wallet on your behalf.
+4.2 Use of a TPP. If you use a TPP, this Agreement will still apply to you, in addition to any
+agreement you might make with the TPP. You should check that any TPP you use is
+appropriately authorised or licensed.
+4.3 TPP Access. If you give your consent, we will allow the TPP access to Kraken E-Money
+Wallet information and you will be able to make the same E-money Core Services transactions
+through the TPP that you are permitted to make with us (directly) under this Agreement.
+Information will include details about who you make transactions to and from.
+4.4 Unauthorised TPPs. To protect you, we may refuse to allow a TPP to access your Kraken
+E-Money Wallet if we are concerned that the TPP is unauthorised or acting fraudulently. We
+will tell you if we do this, unless it would be unlawful or would compromise our security
+measures. If you think a transaction made through a TPP was unauthorised or incorrect, you
+must contact us as soon as you can via https://support.kraken.com/hc/en-us/forms.
+5. Refunds for Unauthorised or Incorrect Transactions
+5.1 Contact us. As soon as you become aware of an issue with a transaction, you must notify us
+via https://support.kraken.com/hc/en-us/forms so that we can investigate what happened.
+5.2 Unauthorised transactions. In the event of an unauthorised payment transaction on your
+Kraken E-Money Wallet (such as an Order or fiat withdrawal that was not authorised by you),
+provided you have notified us, we will normally refund your Kraken E-Money Wallet by the end
+of the next Business Day. We’ll refund the amount of the payment transaction and put your
+Kraken E-Money Wallet in the position it would have been in but for the unauthorised payment
+transaction.
+5.3 When we won’t refund you. If we later become aware that we were not responsible for the
+unauthorised payment transaction, we may reverse the refund. We will not make a refund if we
+can show:
+38
+
+● you did authorise the payment transaction;
+● you have acted fraudulently;
+● you intentionally or negligently failed to keep your Security Credentials safe as
+required under sections 12.4 of Part A (Your security obligations) and 3.7 of this Part
+C; or
+● (in respect of transactions made before you notified us) you intentionally or
+negligently failed to notify us as soon as you became aware that either (1) your
+Security Credentials were lost or stolen, or (2) that an unauthorised payment was
+taken from your Account.
+5.4 Incorrect transactions. We are responsible to you for making payment transactions correctly
+under this Agreement. If you ask us to make a payment to another person (including another
+Kraken entity) and the payment is not made properly or the person you are paying does not
+receive it, you should notify us via https://support.kraken.com/hc/en-us/forms so that we can
+investigate what went wrong. We will refund the amount of the transaction (and any fees and
+charges you paid as a result), unless we can show that the payment was received by the
+recipient’s bank or you provided us with incorrect details.
+5.5 Incorrect payment details. If you provided us with incorrect details, we are not responsible
+but if you ask us, we will make reasonable efforts to recover the payment and will tell you the
+outcome. We may charge you our reasonable costs for doing so.
+5.6 Delayed payments. If a payment is made late due to our error, you can ask us to request that
+the recipient’s bank adds the payment to the recipient’s account as if it had been made on
+time. We won’t be responsible if you ask us to make a payment to another person and the
+recipient’s bank delays crediting the money to the recipient’s account. This could happen if, for
+example, they need to carry out security checks.
+5.7 Time limits. Subject to the above conditions on when you may be entitled to a refund, you will
+usually not be liable for losses incurred due to unauthorised or incorrect transactions after you
+have notified us. To be eligible for any refund, you must notify us as soon as possible and
+within 13 months of the date of the first affected transaction.
+5.8 Checking your transaction information. You should check the transaction information that
+we provide or make available to you relating to your Kraken E-Money Wallet regularly and
+contact us at https://support.kraken.com/hc/en-us/forms immediately if you have any
+questions or concerns.
+5.9 Disputes. If we discover that you were not entitled to a refund after we have given it to you, we
+will take it back. If we take back a refund, we’ll put your Kraken E-Money Wallet in the position
+it would have been in had we not provided a refund in the first place.
+6. Issuing and Redeeming Fiat Currency
+6.1 Issuance. Whenever you upload or receive Fiat Currency to your Kraken E-Money Wallet
+using any payment methods we accept from time to time, we will issue you with Fiat Currency
+in the form of e-money of the same value. Such funds will usually be available for your use
+immediately. However, from time to time, we may need to carry out certain checks before
+funds are made available to you and shown in the balance on your Kraken E-Money Wallet.
+Funds of an equivalent value to the Fiat Currency held in your Kraken E-Money Wallet will be
+‘safeguarded’ in accordance with applicable law. For further information on how we safeguard,
+please visit our Site.
+39
+
+6.2 Reversals. If you receive funds into your Kraken E-Money Wallet that were not intended to be
+transferred to you (e.g. because we’ve credited your Kraken E-Money Wallet incorrectly), then
+we will be entitled to remove these funds from your Kraken E-Money Wallet.
+6.3 Redemption. You can request a redemption of all or part of the Fiat Currency held in your
+Kraken E-Money Wallet at any time at ‘par value’ by selecting the relevant option in the Kraken
+E-Money Wallet and following the instructions. The Fiat Currency will be redeemed and any
+applicable withdrawal fee (available on our Site) will be deducted before the funds will be
+transferred to the bank account you have registered with us during Account setup or any other
+bank account that has been approved by us.
+6.4 Checks before redemption. Before redeeming Fiat Currency from your Kraken E-Money
+Wallet, we may conduct checks for the purposes of preventing fraud, money laundering,
+terrorist financing and other financial crimes, and as required by applicable law. This may
+mean you are prevented or delayed from withdrawing Fiat Currency from your Kraken
+E-Money Wallet until those checks are completed.
+6.5 Redemption on termination. If you or we terminate this Agreement, we will redeem any Fiat
+Currency remaining in your Kraken E-Money Wallet. If this happens, then unless restricted by
+applicable law, we will transfer funds to the bank account you have registered with us, or any
+other bank account that has subsequently been approved by us, by no later than the next
+Business Day after we are deemed to have received your request. We will confirm the details
+we require at the time of the redemption.
+6.6 Timing. Unless we say otherwise in this Part C, it typically takes one Business Day for funds
+to reach a relevant payee, but it may take longer in certain circumstances.
+6.7 Unsuccessful transactions. If a payment to load funds into your Kraken E-Money Wallet is
+not successful, you authorise us, in our sole discretion, either to cancel any related transaction
+or to debit your other payment methods, in any amount necessary to complete the transaction
+in question. You are responsible for maintaining an adequate balance and/or sufficient credit
+limits in order to avoid overdraft fees, or similar fees charged by your payment provider.
+7. Transferring Fiat Currencies to other Kraken Users
+7.1 Initiating and authorising a transfer. To initiate a transfer of Fiat Currency from your Kraken
+E-Money Wallet, you (the sender) must provide instructions to Kraken by telling us (i) the
+amount of Fiat Currency in your Account that you wish to transfer, and (ii) the intended
+recipient of the transfer (the “Kraken Pay Instructions”). By submitting the Kraken Pay
+Instructions and confirming the transaction, you authorise us to transfer Fiat Currency to the
+recipient you have selected.
+7.2 Limits. You may only transfer Fiat Currency to a recipient if the Fiat Currency is also available
+in the recipient’s jurisdiction. We may decide to add or remove a Fiat Currency available in any
+jurisdiction. Your use of the E-money Core Services is also subject to certain limits (for
+example, in the amount and/or frequency of transactions you may make within a period of
+time). We may change these limits from time to time. You can ask us for further details.
+40
+
+7.3 Selecting your recipient. You may select the Kraken user that you wish to make a transfer to
+by entering the Kraktag or email (if enabled) associated with the recipient’s Kraken Account or
+by selecting the “Paylinks” feature. If you select Paylinks as your recipient, a payment link
+(“Paylink”) will be generated, which you may share with the intended recipient through your
+own chosen communication method. Once a Paylink has been generated, the Fiat Currency
+you have selected for transfer will no longer be available in your Kraken E-Money Wallet. While
+a recipient of the Paylink does not need a Kraken account to receive the Paylink, the recipient
+must create a Kraken Account, pass identity verification checks and satisfy our Eligibility
+Criteria before they can claim the Fiat Currency you have designated for transfer through the
+Paylink. A Paylink may only be redeemed once and will expire 14 days after we share it with
+you. If the designated Fiat Currency is not claimed through the Paylink within that time, the Fiat
+Currency will be re-issued to your Kraken E-Money Wallet. You are responsible for ensuring
+that the Paylink is sent to the correct recipient.
+7.4 Timing. When you submit Kraken Pay Instructions and confirm the transaction, we will begin
+processing the transfer immediately and the relevant Fiat Currency will leave your Kraken
+E-Money Wallet as soon as you confirm the transaction and reach the recipient by no later
+than the end of the next business day. You should carefully check all transaction information
+prior to submitting Kraken Pay Instructions as the transfer may not be cancelled or reversed
+once it is submitted.
+7.5 Pending and failed transactions. From time to time, we may tell you that a transaction has a
+“Pending” status. This could be for a number of reasons, including that we need to apply
+checks before processing the transaction. We will then confirm whether the transaction has
+been successfully processed or failed.
+7.6 Information on transactions you initiate. Where a Fiat Currency transaction is initiated by
+you, we will provide you with the following information upon your request or otherwise in
+accordance with applicable law:
+● the maximum execution time;
+● any charges payable by you; and
+● where applicable, a breakdown of the amounts of any charges.
+8. Restrictions on E-money Core Services
+8.1 Limits on your Kraken E-Money Wallet. Unless we tell you otherwise (and except as
+otherwise set out in this Agreement), there are no spending limits in place and you are
+permitted to spend the balance of your Kraken E-Money Wallet at any time.
+8.2 Refusing payment transactions. We may refuse to execute a payment transaction where:
+● you do not have enough balance in your Kraken E-Money Wallet for the payment;
+● you have not provided us with information that we need to make the payment;
+● the payment exceeds any limits we tell you about when you try to make it;
+● we reasonably suspect fraud or other criminal activity in connection with your
+request;
+● we reasonably believe that following your instructions might put us in breach of
+applicable law or at risk of action by one of our regulators; or
+● we have reasonable concerns about the security of your Kraken E-Money Wallet.
+41
+
+8.3 What happens if we refuse. Unless the law prevents us from doing so, we will inform you of
+our refusal and, where applicable, any steps you can take to enable us to execute your
+payment transaction.
+8.4 Blocking your Kraken E-Money Wallet. We can block or suspend access to your Kraken
+E-Money Wallet (and associated Security Credentials) if we reasonably:
+● suspect there has been unauthorised or fraudulent use of your Kraken E-Money
+Wallet;
+● have concerns about the security of your Kraken E-Money Wallet; or
+● believe that it is required in order to meet a legal or regulatory obligation that applies
+to us.
+We will let you know if we do this, and why, unless it would be unlawful for us to tell you or
+it would affect the security of your account. If possible, we will tell you before we put a
+block in place but, if we cannot do this, we will tell you immediately after we have done it.
+We will remove a block as soon as the reason for it ends. We may replace your payment
+device or get you to change your security credentials if we reasonably believe this is
+necessary to keep your account secure.
+9. Disruptions to our E-money Core Services
+9.1 Our liability. We will not be responsible for any losses to you if we cannot perform the
+E-Money Core Services because of abnormal or unforeseeable circumstances beyond our
+control (or the control of any third parties acting for us, such as agents and sub-contractors),
+the consequences of which were unavoidable despite all efforts to the contrary, for example
+the failure of a payments system that prevents us from making payments for you.
+10. Amending the E-money Core Services Terms
+10.1 Notice of changes to these E-money Core Services Terms. Subject to section 10.4 of this
+Part C and notwithstanding section 1.7 of Part A (Amending this Agreement), we may make
+changes to these E-money Core Services Terms (including amending our fees or introducing
+new fees) at any time by giving you no less than two months’ notice.
+10.2 How we will notify you. We will give notice to you of any proposed changes by sending an
+email to the primary email address registered with us.
+10.3 When changes come into effect. Any proposed changes will come into effect two months
+after the date that you receive notice, unless you have given us notice that you object to the
+proposed changes before the changes come into effect under section 10.5.
+10.4 When we can make changes sooner. Amendments that (a) make these terms more
+favourable to you and/or (b) are related to the addition of new e-money and/or payment
+services which do not change the terms relating to the existing e-money and/or payment
+services, will come into effect immediately.
+10.5 Your right to object. You have the right to object to any proposed changes and, in doing so,
+terminate these E-money Core Services Terms immediately and without charge by providing
+written notice to us, provided that you do so before such changes come into effect. If you
+exercise this right, then your Kraken E-Money Wallet will be closed and all Fiat Currency held
+in your Account will be redeemed as described in section 6.5 above.
+42
+
+10.6 If you do not object. If we do not hear from you before such changes come into effect, you
+will be deemed to have accepted the changes and the amended terms will apply from the date
+included in the notice.
+11. Terminating the E-money Core Services Terms
+11.1 Our right to terminate the E-money Core Services without delay. Notwithstanding section
+8.4 of Part A (Suspension, termination and cancellation), we may close your Kraken E-Money
+Wallet and will provide you with notice without delay if:
+● we consider that your conduct in relation to someone acting for us or on our behalf
+amounts to an offence under certain specific laws (such as those relating to public
+order, harassment, abuse, and other threatening behaviours); or
+● you provided us with certain incorrect information before, or when entering into, the
+E-Money Core Services Terms, and had the correct information been provided we
+would not have entered into such terms.
+12. Disputes relating to the E-Money Core Service Terms
+12.1 Complaints. If you have a complaint about our E-money Core Services, you can send it to us
+by following the process set out in section 15.1 of Part A (Complaints).
+12.2 Responding to complaints. Notwithstanding section 15.2 of Part A (Responding to
+complaints), we will respond to complaints relating to our E-money Core Services as follows:
+● We will acknowledge receipt of your complaint within five Business Days.
+● We will provide you with the name of the individual(s) who will be the point of contact
+in relation to your complaint and will provide you with regular updates on the
+progress of the complaint at least every 20 calendar days.
+● We will then aim to provide you with an answer or resolution to your complaint within
+the timeframes and in the manner required by applicable law and at the latest within
+15 Business Days. Should this not be possible due to exceptional circumstances not
+within our control, we will contact you setting out the reasons why the complaint
+remains ongoing, requesting further information on the complaint (where appropriate)
+and specifying the deadline by which you will receive a response.
+● In any event, we will send a final reply to you, addressing all points raised in your
+complaint, at the latest within 35 business days of our receipt of the complaint.
+● In our final reply, we will inform you of (i) the outcome of the investigation, (ii) terms
+of any offer/settlement, (iii) that the matter can be referred to the FSPO and (iv)
+contact details of the FSPO.
+43
+
+CRYPTO-ASSET CORE SERVICES
+13. Purchasing, Selling and Exchanging Crypto-assets
+13.1 Orders. Subject to your fulfilment of all applicable Eligibility Criteria, the Core Services allow
+you to purchase Crypto-assets using Fiat Currency or other Crypto-assets, and to sell
+Crypto-assets in exchange for Fiat Currency or other Crypto-assets, all by submitting an order
+through the Platform (each an “Order”). Your Order must include all information required by us
+and we will let you know what information is required before you submit the Order. You should
+carefully check all details in your Order before it is submitted. Please refer to our Trading
+Guide for more information regarding submitting Orders to buy and sell Crypto-assets.
+If you don’t understand everything in our Trading Guide: don’t submit any Orders.
+13.2 Authorisation. When you submit an Order, that Order is binding on you and you authorise us
+to execute a transaction in accordance with the Order and to charge you any applicable fees
+and taxes. By submitting an Order to make a purchase, you are consenting to us making a
+transfer of Fiat Currency of the equivalent value on your behalf to the relevant Kraken entity
+from your Kraken E-Money Wallet. If the Order type you choose for an Order is set to execute
+only at a certain price or only if certain contingencies are met (for example, a limit order), we
+cannot guarantee that the Order will ever be executed in whole or in part.
+13.3 Order cancellation. All Orders are final, non-refundable and non-cancellable, including before
+or after we execute an Order, unless otherwise provided in this Agreement. In some
+circumstances, you may have the opportunity to request cancellation of an Order before we
+execute it, but we may refuse any cancellation request at our sole discretion.
+13.4 Order Information. Where an Order is submitted by you, we will provide you with the following
+information upon your request or otherwise in accordance with applicable law:
+● the maximum execution time;
+● any charges payable by you; and
+● where applicable, a breakdown of the amounts of any charges.
+13.5 Order confirmations. We will notify you of the Orders we have executed via e-mail and/or
+through automatic confirmations on the Site. A list of all successfully executed Orders will also
+be available on your Account. Proceeds from a successfully executed Order will be credited to
+your Account, less any applicable fees, and the Crypto-assets or Fiat Currency you traded for
+such proceeds will be removed from your Account.
+13.6 Rejecting Orders. We will determine in our sole discretion whether or not to accept any Order.
+We will notify you if an Order is rejected, but we will not be required to explain why your Order
+was rejected.
+13.7 Pricing. The price of any Order will be displayed on the Platform and we will execute each
+Order at the price displayed at the time when your Order is submitted. However, we cannot
+guarantee any Order will trade at any particular exchange rate and the exchange rates that
+may be used for your Order may differ from rates provided by third parties. We are not
+responsible for matching any third party rate or providing you any particular rate. The actual
+rate at which an Order is executed may be different from the current market exchange rate
+indicated by our Platform at the time of your Order (due to fluctuations in the rate or other
+factors outside our control), and we are not liable for any such difference or any price
+fluctuations. Any rate shown on our Platform is only valid during a specific period and may not
+be current.
+44
+
+13.8 Completing Orders. If your Order is not executed successfully or your payment method does
+not have sufficient Fiat Currency or Crypto-assets to complete the Order, you authorise us, in
+our sole discretion, to cancel the Order or to use alternative Crypto-assets and Fiat Currency in
+your Account or to debit any other payment methods you have provided us with up to the value
+necessary to complete the Order or part of the Order or resolve any resulting shortfall or
+negative balance, including to exchange Crypto-assets or Fiat Currency in your Account for
+alternative types of Crypto-assets or Fiat Currency and deduct any applicable fees and taxes.
+You should ensure that you have sufficient available funds available to fulfil any Orders you
+make. Otherwise, you may incur fees or charges from your bank or other payment service
+provider.
+13.9 Order errors. In the event of an error, whether via our Platform or otherwise, in an Order
+confirmation, in processing your purchase, in funding your Account, in transferring Fiat
+Currency or Crypto-assets, or any other transaction, we reserve the right, and you authorise
+us, to correct such error, including by revising the transaction (including charging the correct
+price), cancelling the transaction, or taking any other action to resolve the error (including
+exchanging Fiat Currency or Crypto-assets in your Account for alternative types of Fiat
+Currency or Crypto-assets and deducting any applicable fees and taxes to correct the error).
+13.10 Transaction limits. Your transaction and trade size limits may vary depending on your
+payment method, verification steps you have completed, and other factors. Details of these
+limits are published on our Site. We reserve the right to change applicable limits as we
+consider necessary. No Order which exceeds our set maximum trade size can be submitted
+unless agreed otherwise by us. No Order which is less than our minimum trade size can be
+submitted unless agreed otherwise by us.
+13.11 Order Execution. We will carry out Core Services that involve the execution of Orders on
+your behalf in accordance with our Order Execution Policy. We will notify you if we make any
+significant changes to our Order execution arrangements or Order Execution Policy.
+By using our Core Services, you acknowledge and agree: (1) to our Order
+Execution Policy; and (2) that, as set out in our Order Execution Policy, your Orders
+may from time to time be executed outside a trading platform.
+13.12 Order Execution Policy. Our Order Execution Policy sets out how we execute Orders on
+your behalf and contains the steps we take when executing Orders to obtain the best possible
+result for you. The best possible result is not solely determined by price; we also consider
+other factors like execution speed and the likelihood of an Order being executed successfully.
+All Orders processed under our Order Execution Policy are routed to an execution venue,
+where Orders are filled as soon as market conditions permit, in accordance with same
+price-time priority rules. We regularly review the execution venues we use against criteria such
+as regulatory compliance, operational resilience and market abuse. We also conduct ongoing
+monitoring of the effectiveness of our Order execution arrangements through metrics such as
+how quickly we complete Orders, how many Orders we complete before they expire or are
+cancelled, and how much prices move between when you place the Order and when we
+execute it. Further details about our Order Execution Policy are available at
+www.kraken.com/legal/MiCAR.
+45
+
+14. Order Types
+14.1 Order types. Please refer to our order types page for a description of the various types of
+Orders that our Core Services may permit you to make. Certain Order types may not be
+available to you or may be subject to additional terms and conditions set forth in this
+Agreement. We can remove or change any Order types in our discretion at any time.
+14.2 Kraken as counterparty or agent. Trades in which you enter an Order with a specified
+trading pair and quantity after receiving a quote from us providing indicative trade terms and
+fees (for instance our Instant Buy/Sell service) are filled by us as your counterparty. Trades in
+which you submit limit or market buy and sell Orders (such as our Kraken Pro Spot Crypto
+service) are executed by us on an agency basis, on your behalf.
+14.3 Recurring and custom Orders. You may have the option to submit Orders on a recurring or
+custom basis using our services. If you elect to make recurring or custom Orders, you
+authorise us to initiate recurring or custom electronic purchases or sales using Crypto-assets
+and Fiat Currency in your Account in accordance with your selections and based on your time
+period selection. Your authorisation will remain effective until the expiration of your chosen time
+period or until you change your recurring or custom Order settings in your Account, whichever
+occurs first. Changes in your recurring or custom Order settings may take up to one calendar
+day to become effective. You agree to keep your payment method updated in your Account as
+long as you have recurring or custom Orders active or scheduled. You should regularly check
+the status of your recurring and custom Orders. You acknowledge that:
+● while we may attempt to execute your recurring Order on the day that you select,
+transaction times may vary;
+● the amount of any Crypto-asset you purchase or sell in each recurring Order will
+depend on the market price at the time of the Order and will only be determined once
+the Order is executed;
+● while we will attempt to fulfil custom Orders at the chosen price once the custom
+Order is triggered, there is no guarantee that the Order will execute at the price
+chosen in the custom Order and the custom Order may not execute immediately
+after it is triggered;
+● we may reject, cancel, suspend or delay a recurring or custom Order (in whole or in
+part) for any reason at any time without incurring liability and we will not be liable for
+any recurring or custom Order or any failure to make a recurring or custom Order;
+● we will not verify the information or details of your recurring or custom Orders and so
+you agree that the information and details of your recurring and custom Orders as
+provided by you are accurate and complete and as such may be treated and acted
+upon by us; and
+● we may, at any time and without liability, terminate recurring or custom Orders by
+providing notice to you, unless such notice is prohibited by law.
+15. Adding and Withdrawing Crypto-assets
+15.1 Adding Crypto-assets. To fund your Account, you may receive Crypto-assets from external
+wallets and add them into your Account. When you do this, you agree to comply with all
+applicable laws regarding the source and legality of the added Crypto-assets and you
+represent and warrant that the Crypto-assets do not originate from illegal activities, money
+laundering, terrorist financing or other illegal sources.
+46
+
+15.2 Verifying added Crypto-assets. We reserve the right to verify the source of any
+Crypto-assets added into your Account and may take appropriate action, including freezing or
+blocking funds or assets, if we suspect any violation of this Agreement or applicable law.
+15.3 Withdrawing Crypto-assets. You may transfer Crypto-assets out of your Account by making
+a withdrawal from your Account to an external destination wallet chosen by you. You must
+have sufficient Crypto-assets in your Account to cover the Crypto-assets to be withdrawn and
+any applicable fees associated with the withdrawal. You cannot make a withdrawal if the
+balance of Crypto-assets in your Account is less than any minimum balance requirements, any
+amounts needed to satisfy any of your open positions, or any fees owed by you.
+15.4 Verifying withdrawals. You are fully responsible for the destination wallet details that you
+provide to us and we accept no responsibility for your Crypto-assets if the details given are
+incorrect. If you make a withdrawal of Crypto-assets from your Account we may require you to
+provide us with additional information so that we can review and verify the destination wallet, in
+order to comply with our legal obligations. Our review may result in us taking any of the actions
+set out in section 7.1 of Part A (Consequences of Default), in our sole discretion.
+15.5 Processing additions and withdrawals. We don’t control or make any guarantees about the
+amount of time it takes to complete an addition or withdrawal of Crypto-assets to/from your
+Account, as this time frame depends upon the performance of third parties. We can, at any
+time and without notice, reject any addition or withdrawal of Crypto-assets to/from your
+Account or impose limits on the additions and withdrawals you can make (for example in size
+or frequency).
+15.6 No cancellation. Additions and withdrawals of Crypto-assets to/from your Account are final
+and non-refundable once made, and may not be cancellable once initiated.
+15.7 Compliance with applicable law. Where you make a request to withdraw Crypto-assets from
+your Account, we will carry out that withdrawal as a transfer service in accordance with
+applicable law. Further details on the nature and arrangements relating to our transfer services
+can be found on our Site.
+16. Transferring Crypto-assets
+16.1 P2P product. Our P2P product allows you to send or receive Crypto-assets to or from other
+Kraken clients that have an Account with us. You cannot use the P2P product to transfer
+Crypto-assets to a Kraken client: (1) that does not satisfy our Eligibility Criteria; or (2) that is in
+another jurisdiction where the type of Crypto-asset being transferred is not supported by us in
+that jurisdiction.
+16.2 Crypto-asset Transfers product. Our Crypto-asset Transfers product allows you to send or
+receive Crypto-assets to or from external parties. Transfers to or from external parties will only
+be executed by us where the external party passes our client verification checks in accordance
+with applicable law, and for transfers of Crypto-assets to external parties, the external party
+must also satisfy our Eligibility Criteria and create an Account with us. Where we have
+insufficient information to meet our requirements we may reject or return any transferred
+assets received.
+16.3 Staked assets. You cannot transfer Staked Crypto-assets using our P2P product or our
+Crypto-asset Transfers product (together, the “Transfer Services”).
+16.4 Sending Crypto-assets. To send Crypto-assets using the Transfer Services, you must provide
+us with instructions on the transfer by confirming:
+47
+
+● the type and amount of Crypto-assets in your Account that you wish to transfer;
+● the intended recipient of the transfer (e.g. by providing their wallet address, Kraktag
+and/or email); and
+● any other details we request on the Platform.
+By submitting these instructions to us through the Platform, you authorise us to transfer the
+designated Crypto-assets to the recipient you have selected. You must not submit
+instructions for a transfer of more Crypto-assets than you hold in your Account, or for a
+type of Crypto-asset that you do not have in your Account. From submission of your
+instructions, you will no longer own the Crypto-assets that you have designated to be
+transferred and they will be removed from your Account.
+16.5 Paylinks. If you send Crypto-assets using the Crypto-asset Transfers product, once you have
+submitted instructions on the transfer, we will generate a Paylink for the recipient to use to
+claim the transferred Crypto-assets and will share the Paylink with you. You are responsible for
+sending the Paylink to the intended recipient. We do not share the Paylink with anyone except
+you and will have no liability or responsibility in the event an individual other than the intended
+recipient claims the Crypto-assets through the Paylink.
+16.6 Claiming Crypto-assets through Paylink. Once you have shared the Paylink with the
+intended recipient, the recipient will need to create a Kraken Account, pass identity verification
+checks, and satisfy our Eligibility Criteria before they can claim the Crypto-assets you have
+designated for them to receive through the Paylink. A Paylink may only be redeemed once and
+will expire 14 days after we share it with you. If the designated Crypto-assets are not claimed
+through the Paylink within that time, the Crypto-assets will be returned to your Account.
+16.7 Receiving Crypto-assets. To receive Crypto-assets using the Transfer Services, you will need
+to share your public crypto wallet address with the sender. We reserve the right to verify the
+source of any Crypto-assets transferred into your Account and may take appropriate action,
+including freezing or blocking funds or assets, if we suspect any violation of this Agreement or
+applicable law.
+16.8 No cancellation. Transfers using the Transfer Services are final, non-refundable and
+non-reversable once made, and may not be cancellable once initiated. Once you have
+submitted instructions for a transfer using the Transfer Services, the instruction cannot be
+withdrawn or amended. In some circumstances, you may have the opportunity to request
+cancellation or reversal of a transfer, but we may refuse any request at our sole discretion.
+16.9 Your responsibilities. It is your responsibility to make sure the transfer instructions that you
+submit to us are correct, and that the type of Crypto-asset being transferred is supported by
+the recipient wallet address. You acknowledge that any errors may result in the irreversible
+loss of your Crypto-assets.
+16.10 Transfer Services reporting. At least once per month, we will provide you with information
+about your transfers using the Transfer Services by making this information available to view in
+your Account, including:
+● the names of the sender and the recipient, and each of their distributed ledger
+addresses or Account numbers;
+● a reference enabling you to identify each transfer of Crypto-assets;
+● the amount and type of Crypto-assets transferred or received;
+● the debit value date or the credit value date of the transfer of Crypto-assets; and
+48
+
+● the amount of any charges, fees or commissions relating to the transfer of
+Crypto-assets and, where applicable, a breakdown of the amounts of such charges.
+16.11 Transfer Services failure. Transfers of Crypto-assets may fail for a variety of reasons. If a
+transfer using the Transfer Services fails for any reason, we will notify you of this, the reason it
+failed and (if applicable) how to remedy this, and the amount of fees you have incurred and
+whether any reimbursement is possible. The Crypto-assets that were designated to be
+transferred will be returned to your Account. You will then have the opportunity to submit new
+transfer instructions to re-initiate the failed transfer.
+16.12 Processing times. We will act on your transfer instructions as soon as they are correctly
+submitted, but we don’t control or make any guarantees about the amount of time it takes to
+complete a transfer of Crypto-assets to/from your Account, as this time frame depends upon
+the performance of third parties.
+16.13 Restrictions on Transfer Services. The Transfer Services are only available in relation to
+the types of Crypto-assets that are available in the recipient’s jurisdiction. We can, at any time
+and without notice, reject any transfers using the Transfer Services or impose limits on the
+transfers you can make using the Transfer Services (for example in size or frequency).
+16.14 Compliance with applicable law. Where you request a Crypto-asset Transfer, we will
+carry out that Crypto-asset Transfer as a transfer service in accordance with applicable law.
+Further details on the nature and arrangements relating to our transfer services, including a
+description of the security systems we use, can be found on our Site.
+16.15 Taxes. Sending or receiving Digital Assets may constitute a taxable transaction in certain
+situations. You alone are responsible for determining whether your use of Kraken Pay is
+subject to tax and for reporting and remitting the correct taxes to the appropriate tax
+authorities. You agree that we have no responsibility or liability for determining whether a
+transaction is subject to tax and what taxes apply or for collecting, reporting, withholding, or
+remitting any taxes arising from your use of Kraken Pay, unless otherwise required by law.
+Notwithstanding anything herein to the contrary, you acknowledge and accept that Kraken may
+have a legal obligation to make reports, and will make such reports as required, to the relevant
+tax authorities regarding Kraken Pay.
+16.16 This section 16.16 is only applicable to Payment Service Providers that use Kraken
+Pay. Payment Service Providers (“Channel Partners”) utilizing the Kraken Pay platform —for
+services including payroll, invoicing or contractor payment platforms, and merchant payment
+processors —are solely responsible for ensuring compliance with all applicable tax reporting
+and withholding obligations related to the payments they facilitate. Given their direct
+relationship with payment recipients and, in certain instances, their specific knowledge
+concerning the nature, purpose, or character of the payments, Channel Partners acknowledge
+and agree that they assume full responsibility for any required tax reporting and withholding.
+Kraken shall have no responsibility or liability for tax reporting or withholding on transactions
+processed by Channel Partners, except where Kraken is expressly required to withhold or
+report under applicable law. In such cases, Kraken will perform the necessary withholding and
+reporting to the extent mandated.
+By using the Kraken Pay platform, Channel Partners agree to indemnify and hold Kraken
+harmless from any claims, liabilities, penalties, or costs arising from their failure to comply with
+applicable tax reporting and withholding obligations.
+If you have any questions about your tax obligations, please consult with a tax professional for
+advice.
+49
+
+17. Custody of Crypto-assets
+17.1 Title to Crypto-assets. Except as provided herein, you own the Crypto-assets in your Account
+and these Crypto-assets are assets held in custody by us for you.
+As you are the owner of the Crypto-assets in your Account, we will not have any
+liability for fluctuations in the value of the Crypto-assets held on your behalf by us
+in your account.
+17.2 Our custodial obligations. None of the Crypto-assets in your Account should be subject to
+the claims of our creditors. However, a court may disagree with our treatment of your
+Crypto-assets and subject them to claims of our creditors. Except as required by law, or as set
+forth in this Agreement, we won’t sell, transfer, loan, hypothecate, or otherwise alienate any
+Crypto-assets in your Account unless you instruct us to.
+17.3 Segregation of Crypto-assets. We maintain separate ledgers for your Account and our
+accounts. Additionally, we will legally and operationally segregate the Crypto-assets we hold in
+custody for you from our own assets in accordance with applicable law and will ensure client
+assets are clearly identified and protected in the event of our insolvency.
+17.4 Storage of Crypto-assets. We may hold Crypto-assets in your Account in a variety of different
+ways, including across multiple blockchain protocols, such as “Layer 2” networks, alternative
+“Layer 1” networks, or side chains. In connection with holding your Crypto-assets, we may
+transfer those Crypto-assets off the primary blockchain protocol and onto shared blockchain
+addresses we control or on alternative blockchain protocols in forms compatible with such
+protocols. You agree that all forms of the same Crypto-asset may be treated as fungible and
+the equivalent of each other, including those that are held and made available across multiple
+blockchain protocols and without regard to (a) whether any form of the Crypto-assets is
+wrapped or (b) the blockchain protocol on which any form of the Crypto-assets is stored.
+17.5 Voting rights. The underlying protocols for certain Crypto-assets offer holders the ability to
+vote on matters related to the governance of the protocol or exercise other rights attached to
+the Crypto-assets. We do not support voting or exercise of voting rights for Crypto-assets held
+in your Account with us and we will not exercise voting rights in relation to these Crypto-assets
+on your behalf. To participate in protocol governance or exercise other voting rights attached to
+Crypto-assets, you must withdraw your Crypto-assets to a personal wallet and use the
+respective protocol’s interface.
+17.6 Underlying protocol changes. As stated in section 3.7 of Part A (Operation of Protocols)
+above, we do not own or control the underlying software protocols that govern the operation of
+Crypto-assets and these may be subject to sudden changes in operating rules (including forks
+or airdrops). Any operating changes may materially affect the availability, value, functionality,
+name of the Crypto-asset you store in your Account and/or require a response from you. We
+do not control the timing or features of these operating changes but we will provide you with
+any information about operations on Crypto-assets that require a response from you as soon
+as possible after we become aware of them. It is your responsibility to make yourself aware
+and informed of upcoming operating changes to determine whether to continue to transact in
+the affected Crypto-asset using your Account.
+In the event of any such operational change, we reserve the right in our sole discretion to
+take any steps that may be necessary to protect the security and safety of assets held on
+the Platform, including temporarily suspending operations for the affected Crypto-asset, or
+deciding not to support any new Crypto-asset fork. In such circumstances you may not be
+entitled to any Crypto-assets or any rights newly created.
+50
+
+You acknowledge and accept the risks of operating changes to Crypto-asset
+protocols and agree that we are not responsible for them or for any loss of value
+you may experience as a result of those changes in operating rules. You
+acknowledge and agree that:
+● we have no responsibility to assist you with unsupported crypto-assets or
+protocols,
+● we have no responsibility to support new Crypto-asset forks or operating
+changes for Crypto-assets, and
+● you are not entitled to any Crypto-assets or rights created on the basis of any
+such changes or events.
+17.7 Custody Policy. We have a Custody Policy in place which contains our internal rules and
+procedures to ensure the safekeeping and/or control of your Crypto-assets, and the means of
+access to your Crypto-assets, and which is designed to minimise the risk of a loss of client
+Crypto-assets due to fraud, cyber threats or negligence. A summary of our Custody Policy,
+together with a description of the security systems we use, is available here:
+www.kraken.com/legal/MiCAR.
+17.8 Account statements. You have continuous access to real-time and historic account
+information via the Platform. Through the Documents Interface within the Platform, you may
+generate and download an Account statement at any time. Each Account statement will
+identify the amount and value of each Crypto-asset in your Account at the end of the period
+and on a look-back basis, and will set out details of all transactions carried out via your
+Account during that period. As a result of this information being available to you on a real-time
+basis, we do not proactively send statements to you unless agreed with you separately.
+17.9 Our custodial liability. In respect of our provision of custody services to you as set out in this
+section 17, our liability to you will be limited as set out in this section 17.9. To the extent this
+section 17.9 conflicts with section 9.3 of Part A (Limitation of our liability) or section 9.4 of Part
+A (Exclusions of liability), this section will take precedence.
+We will be liable to you for the loss of any Crypto-asset or of the means of access to the
+Crypto-asset as a result of an incident that is attributable to us, up to a maximum amount
+equal to the market value of the Crypto-asset that was lost, at the time the loss occurred.
+In no event will we be liable for losses of Crypto-assets where the loss occurred as
+a result of incidents that were not directly attributable to us.
+For the purposes of this Agreement, this includes any event that occurred independently
+of our provision of services to you, or independently of our operations, including:
+● any problem inherent in the operation of any distributed ledger underlying any
+Crypto-asset,
+● your failure to verify the details of any Crypto-asset transfer before executing it,
+● breaches of our security that occur notwithstanding our compliance with our security
+obligations under this Agreement,
+● any compromise of custodial account login credentials due to no fault of ours, and/or
+● your failure to follow or act on any notices or alerts that we send to you relating to the
+security of your Crypto-assets.
+51
+
+18. Risk Warnings
+18.1 Digital asset risks. You acknowledge that using or undertaking transactions involving
+digital assets, their networks and protocols, involves serious risks. It is your duty to
+learn and understand all risks involved with digital assets, their protocols and networks.
+For example, the value of digital assets can change rapidly, increase or decrease
+unexpectedly. We have no control over, and makes no representations regarding the
+value of digital assets, or the security of their networks or protocols. We have set out
+some of these risks below. You should read and ensure that you understand all of these
+risks before using any of our Core Services.
+18.2 DeFi Tokens. DeFi tokens are cryptoassets that are linked with decentralised financial
+applications. Examples of DeFi tokens are 1inch (1INCH), Aave (AAVE), Ankr (ANKR) and
+Aerodrome Finance (AERO).
+● Market abuse risk: Bad actors could attempt to scam purchasers by launching tokens
+without then developing the underlying DeFi project, resulting in the exploitation of
+investors and loss of funds. Alternatively large token holders could flood the market
+by selling lots of tokens at once, causing unexpected sudden price drops.
+● Protocol complexity risk: DeFi applications and tokens can be complex, making them
+challenging to understand.
+● Regulatory risk: DeFi applications operate in a decentralised manner, often without
+intermediaries or financial controls, which makes them vulnerable to global
+regulatory changes impacting the use, value, or legality of DeFi applications or
+tokens.
+● Smart contract / data risk: DeFi applications rely on the integrity of data and security
+of smart contracts. Vulnerabilities in smart contracts (like a coding error) can be
+exploited and lead to significant losses for DeFi applications, impacting the valuation
+of DeFi tokens. Similarly, reliance by a DeFi app on external data sources could
+result in disruption and devaluation, as the data sources may be vulnerable to attack.
+18.3 Meme Tokens. Meme tokens are cryptoassets that derive their value from community interest
+and online trends. Examples of meme tokens are Pepe (PEPE), Floki (FLOKI), Apu Apustaja
+(APU) and Doland Tremp (TREMP).
+● Emotional risk: Meme tokens are often bought based on investor sentiment, but
+emotional reactions can lead to impulsive or irrational decisions and amplify losses.
+● Market abuse risk: The lack of intrinsic value or utility in a meme token also makes it
+highly vulnerable to market manipulation schemes where the token value can crash
+instantly.
+● Transparency risk: Limited information about a meme token, such as its development
+team, goals and financials, can make it difficult to evaluate the credibility and value of
+a meme token.
+● Volatility risk: As meme token value is reliant on popularity, community interest,
+social media trends and speculation, extreme price volatility is common, causing
+rapid and unpredictable price fluctuations.
+52
+
+18.4 Stablecoins. Stablecoins are cryptoassets where the value of the cryptoasset is pegged to
+another underlying asset such as a fiat currency and reserves held in the pegged asset are
+used to maintain the stability of the stablecoin’s value. Examples of stablecoins are Global
+Dollar (USDG), USD Coin (USDC) and PayPal USD (PYUSD).
+● Algorithm risk: Some stablecoins rely on an algorithm to maintain price stability of the
+stablecoin, rather than by holding reserves of the underlying asset. If the algorithm
+fails, the stablecoin could become de-pegged, meaning the value of the stablecoin
+would no longer match the value of the underlying asset.
+● Counterparty risk: The maintenance of reserves in the underlying asset may be done
+by a third party, which could become insolvent, suffer a cyber-attack or fail to perform
+correctly.
+● Price fluctuation risk: Changes to the value of the underlying asset might affect the
+price stability of the stablecoin. Additionally, exchange rate fluctuations in the
+underlying asset could impact the value of your investment.
+● Redemption risk: Although an asset may have functionality to be redeemable for the
+underlying asset, redemption processes might not work efficiently during market
+volatility or operational incidents.
+18.5 Staking Tokens. Staking tokens are cryptoassets that have functionality to allow the
+cryptoassets to be locked into a blockchain protocol to enable operation of the proof of stake
+consensus mechanism to validate blockchain transactions. In return, those locked
+cryptoassets may receive rewards. Examples of tokens that can be staked are Ethereum
+(ETH), Solana (SOL), Chainlink (LINK), Polkadot (DOT) and Cardano (ADA).
+● APY risk: The annual percentage yield gained from staked assets is variable and is
+subject to external factors, so any yield cannot be guaranteed.
+● Liquidity risk: Staking tokens often involves a lock-up period, a bonding period and
+an unbonding period. During these periods, the staked tokens cannot be sold or
+used for any other activities.
+● Protocol risk: As staking protocols are developing all the time, there is a possibility
+that future changes may introduce vulnerabilities, bugs or unforeseen consequences.
+● Slashing risk: If the validator that your tokens are staked with is penalised by the
+protocol for not validating transactions correctly, the staked assets may be slashed
+(i.e. lost).
+18.6 Wrapped Tokens. Wrapped tokens represent cryptoassets pegged to the value of another
+asset that are used to facilitate interaction between blockchains. Stablecoins were one of the
+first types of wrapped tokens. Other examples of wrapped tokens are Wrapped Bitcoin
+(WBTC) and Wrapped Ethereum (WETH).
+● Collateral risk: If sufficient reserves of the underlying tokens are not held, or the
+mechanisms to ensure sufficient collateral fail, the value of the wrapped token might
+fall.
+● Counterparty risk: The underlying assets may be held by a third party, which could
+become insolvent, suffer a cyber-attack or fail to perform correctly.
+53
+
+● Smart contract risk: Wrapped tokens use smart contracts to ensure their value
+remains pegged to the underlying asset. Vulnerabilities in these smart contracts (like
+a coding error) can be exploited and impact the valuation of wrapped tokens, leading
+to significant losses.
+● Bridging risk: If there are technical issues with the integration layers that facilitate the
+bridging of cryptoassets between protocols, this could impact on the utility of the
+token or unwrapping of the token.
+54
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+PART D: PORTFOLIO MANAGEMENT SERVICES TERMS
+Our provision of the Portfolio Management Services is regulated by the Central Bank of
+Ireland.
+1. Portfolio Management Services
+1.1 Portfolio Management Services overview. In addition to our Core Services, we may offer
+services in managing portfolios of Crypto-assets in accordance with instructions given by you
+to us (“Portfolio Management Services”), subject to your fulfilment of the Eligibility Criteria
+and the terms of this Agreement, including this Part D.
+These services relate to crypto-assets, which involve special risks related to the
+specific features of the crypto-asset. The price of crypto-assets depends on
+fluctuations in the financial and crypto-asset markets that are outside of our control.
+Past performance or future forecasts do not constitute reliable indicators of future
+performance. We have set out some of the main risks associated with using our
+Portfolio Management Services in section 9 below. You should read these in full
+before you decide to use our Portfolio Management Services.
+1.2 Portfolio Management Services products. Our Portfolio Management Services include
+certain products, which are set out below and may be updated from time to time without
+notice. More information about these products is available on our Site.
+● Bundles – these are portfolios of Crypto-assets that are automatically rebalanced in the
+background by us, allowing you to invest in a range of Crypto-assets at once, while the
+rebalancing keeps portfolios on track so that when the market changes, the portfolio still
+captures your same investment preference. This product is available to all clients
+subject to successful completion of our client Suitability Assessment as set out in
+section 2.
+● Copy trading – this product allows you to automatically copy the trades of other traders
+in real time, linking accounts so that your positions are adjusted synchronously on a pro
+rata basis, while ensuring you maintain full control over your Account, including the
+ability to start or stop copying at any time. This product is available to all eligible clients
+subject to successful completion of our client Suitability Assessment as set out in
+section 2.
+1.3 Portfolio Management Policy. We will carry out the Portfolio Management Services
+(including Suitability Assessments, as described below) in accordance with our Portfolio
+Management Policy and related procedures. These policies and procedures are designed to
+establish a comprehensive framework for providing our Portfolio Management Services and
+set out the arrangements and systems we use for monitoring and ensuring compliance with
+applicable law.
+1.4 Connection with Core Services. Where you use the Portfolio Management Services
+(including authorising transactions to buy or sell Crypto-assets, or holding Crypto-assets
+within your portfolio), the terms of this Part D apply to you in addition to the terms of Part C:
+Core Services Terms (and, for the avoidance of doubt, Part A: General Terms, which always
+apply). To the extent of any conflict, the terms of this Part D will take precedence.
+55
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+1.5 Periodic Statements. We will provide you with a periodic statement of the Portfolio
+Management Services we have provided to you in an electronic format that is a Durable
+Medium. These periodic statements will be provided every three months while you use the
+Portfolio Management Services and will either be made available for you to access in your
+Account on demand (in which case we will notify you every time a new periodic statement is
+made available), or provided to you by email. The periodic statements will contain:
+● a statement of the contents and the valuation of your portfolio, including details of each
+Crypto-asset held, its market value, or fair value if market value is unavailable and the
+Fiat Currency balance, all at the beginning and at the end of the reporting period;
+● the performance of your portfolio during the reporting period (including any
+Crypto-assets received through staking activities);
+● the total amount of fees and charges incurred during the reporting period, itemising total
+management fees and total costs associated with execution (where relevant, we will
+provide a more detailed breakdown at your request);
+● where applicable, a comparison of performance during the period covered by the
+statement with the performance benchmark (if any) agreed between us and you;
+● for each transaction executed during the period, the main characteristics of the relevant
+transaction;
+● an explanation of how the Portfolio Management Services undertaken during the period
+meet your preferences, objectives and other characteristics; and
+● the date of the last Suitability Assessment or its review and, if relevant, on which basis it
+was last updated.
+1.6 Disruption to Portfolio Management Services. We cannot guarantee uninterrupted or
+error-free operation of the Portfolio Management Services or that we will correct all defects
+or prevent disruptions or unauthorised access. We may suspend or discontinue the Portfolio
+Management Services in our sole discretion at any time and without notice. In the event of
+any disruptions, suspension, or discontinuance of the Portfolio Management Services,
+rebalancing trades, copy trades or other trades in connection with the management of your
+portfolio may not be executed in full or at all, and your portfolio may be closed, causing
+Crypto-assets held in the portfolio to be sold at a lower value than when they were
+purchased.
+2. Suitability Assessments
+2.1 Suitability Assessments. Prior to receiving any Portfolio Management Services and on a
+regular basis afterwards, we are required to conduct an assessment of whether the Portfolio
+Management Services are suitable for you, in accordance with applicable law (each a
+“Suitability Assessment”). After the initial Suitability Assessment is successfully completed,
+we will review and update the Suitability Assessment at least every two years after that if you
+continue to use Portfolio Management Services.
+2.2 Provision of information. You must provide us with up-to-date, accurate and complete
+information when we request it in connection with each Suitability Assessment. If there is a
+change to your knowledge, experience, financial situation, or investment objectives, including
+your risk tolerance, you should advise us. We are not liable for any losses that you suffer as
+a result of providing false, misleading or inaccurate information as part of your Suitability
+Assessment, including where this leads to us making a Portfolio Management Service
+available to you that might not be suitable for you.
+56
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+2.3 Conduct of Suitability Assessment. The purpose of the Suitability Assessment is to
+ensure that we only offer Portfolio Management Services that are suitable for your needs,
+financial situation and risk tolerance. As part of this, we will take into consideration your
+knowledge and experience in investing in crypto-assets, your investment objectives
+(including risk tolerance) and your financial situation (including your ability to bear losses).
+2.4 Suitability Assessments for legal entities or groups. Where you are a legal person or a
+natural person represented by another natural person, the financial situation and investment
+objectives will be assessed in light of those of the underlying client (the legal person or the
+natural person that is being represented), whereas the knowledge and experience we will
+assess will be that of the representative. As part of this we will require verification that the
+representative is indeed authorised to carry out transactions on behalf of the client, in
+accordance with applicable law. Where you are a group of two or more natural persons and
+no representative is foreseen under applicable law and we agree to provide Portfolio
+Management Services to you, we will either invite you to designate a representative, or
+collect information about and assess the suitability for each individual client that is part of the
+group.
+2.5 Outcome of Suitability Assessment. We will determine the outcome of Suitability
+Assessments in our absolute discretion. In certain circumstances where we determine our
+Portfolio Management Services are not suitable for you, we may in our discretion give you an
+opportunity to retake the Suitability Assessment.
+● If we determine that the Portfolio Management Services are suitable for you, you will
+receive a notification of this and will then be able to access Portfolio Management
+Services in your Account that we deem suitable for you.
+● If we determine that the Portfolio Management Services are not suitable for you or if you
+do not provide sufficient information for us to complete a Suitability Assessment, you will
+receive a notification of this and will not be able to access any Portfolio Management
+Services in your Account.
+● We may determine that only some Portfolio Management Services are suitable for you,
+in which case only those services will be accessible in your Account.
+3. Your Portfolio
+3.1 Authorisation. By using any of our Portfolio Management Services, you give us a mandate
+and authorise us to execute Orders on your behalf in accordance with the parameters that
+you have set for that portfolio (such as the amount of money you wish to invest). Once you
+have allocated Fiat Currency to a portfolio in connection with our Portfolio Management
+Services, we will then automatically execute Orders for you in accordance with the applicable
+product. We will not obtain your confirmation before we execute Orders carried out as part of
+our provision of Portfolio Management Services. Execution of Orders carried out as part of
+our provision of Portfolio Management Services will not require any prior consultation,
+consent or approval.
+3.2 Your instructions. You can give us instructions in relation to your portfolio by updating the
+trading parameters for the portfolio in your Account at any time. It is your responsibility to
+keep your trading parameters up to date. We may, in our discretion, delay or not carry out
+instructions until we can contact you to clarify or check your instructions, or where your
+portfolio does not hold sufficient assets or funds for us to follow your instruction. We will not
+be liable for any loss or expense that you incur as a result of such a delay or refusal,
+provided that we have acted reasonably.
+57
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+3.3 Limits and restrictions. Use of any of our Portfolio Management Services may be subject
+to minimum or maximum thresholds on portfolio size and value, and/or transactions
+executed. Use of our Portfolio Management Services is also subject to the transaction and
+trade size limits set out in section 13.10 of Part C (Transaction Limits).
+3.4 Claiming returns. Returns may be generated from your portfolio through increases in the
+price of held Crypto-assets, Crypto-assets received from staking activities, or Crypto-assets
+received via air-drops. As the owner of the Crypto-assets held in your portfolio, you may be
+required to take certain actions to claim returns generated from Crypto-assets in your
+portfolio.
+3.5 Reinvestment of returns. Unless you have expressly instructed us not to, we will reinvest
+all returns received from your portfolio, including from increases in the price of held
+Crypto-assets, Crypto-assets received from staking activities, or Crypto-assets received via
+air-drop.
+4. Bundles
+4.1 Bundles product. When you use our bundles product, you will first need to choose a
+pre-selected portfolio of Crypto-assets (each a “Bundle”) from a number of themed Bundles
+available. In certain cases we may give you the option to customise a Bundle for example by
+adjusting Crypto-asset weightings or selecting specific Crypto-assets you wish to include in
+the Bundle, although this feature will not always be available.
+4.2 Weightings. When you allocate Fiat Currency to the portfolio, we will execute trades to
+purchase the Crypto-assets listed for that Bundle at the same weightings of Crypto-assets as
+is allocated in the Bundle unless agreed otherwise with you. However, where this would
+involve us executing trades below the minimum trade size, these trades will not be executed.
+4.3 Rebalancing. We will automatically rebalance your Bundles at a frequency and according to
+the allocation parameters set by us (“Rebalancing”), unless agreed otherwise with you.
+Allocation parameters could be set so that your portfolio is updated to mirror the
+Crypto-assets and weightings of the Bundle, or according to other factors as further set out
+on our Site. By using our Bundles product, you are authorising us to execute trades to buy
+and sell Crypto-assets in your portfolio at a frequency set by us, to reallocate weightings of
+Crypto-assets in your portfolio according to the allocation parameters.
+4.4 Allocations. We may update the allocation parameters or weightings within a Bundle at any
+time in our sole discretion without prior notice by adding or removing Crypto-assets or
+changing the weightings of Crypto-assets in a Bundle, for instance as new Crypto-assets are
+added or removed from our Platform, or as market caps change. Unless we give you the
+option to opt-out of Rebalancing and you choose to opt-out, your portfolio will be updated
+during Rebalancing to mirror the updated Bundle composition, according to the updated
+allocation parameters and weightings.
+4.5 Risk acknowledgement. You acknowledge that you are fully responsible for deciding
+which Bundle to invest in (if any) and we do not provide investment advice or
+personal recommendations. You understand that market conditions may impact the
+effectiveness of rebalancing strategies and that we give no representations or
+warranties about the current or future performance of Bundles or Rebalancing.
+5. Copy Trading
+58
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+5.1 Copy trading product. Our copy trading product allows you to copy the trading activity of
+other select clients (“Leaders”). When a Leader makes a trade, we will automatically execute
+the same trade (on a proportionate basis according to the amount you have allocated to your
+portfolio) on behalf of all of our clients that are copying that Leader.
+5.2 Allocating Fiat Currency. When you allocate Fiat Currency to a copy trading portfolio, you
+must select a Leader to copy. We will then copy trades executed by the Leader in your
+portfolio, at the same proportion as is allocated in the Leader’s portfolio. However, copied
+trades that would be below the minimum trade size will not be executed.
+5.3 Timing. We will endeavour to execute your Orders as soon as reasonably practicable
+following submission of the Leader’s Orders. However, there may be occasional delays. The
+execution price of your Order may differ from that of the Leader, which may result in a price
+differential that may or may not be to your advantage.
+5.4 Starting copy trading. When you open a copy trading portfolio, you can choose to copy
+either:
+● all Crypto-assets which are currently held in the Leader’s portfolio as well as any new
+Crypto-assets which are added to the Leader’s portfolio after you begin to copy the
+Leader, in which case we will execute Orders for the currently held Crypto-assets at the
+prevailing market price at the time you open your copy trading portfolio (rather than the
+price at the time when the held Crypto-assets were originally purchased by the Leader);
+or
+● only new Crypto-assets which are added to the Leader’s portfolio after you begin to
+copy the Leader (i.e., we will not copy any Crypto-assets already held in the Leader's
+portfolio at the time you started copying them), in which case we will execute Orders on
+your behalf to copy the Leader solely on a going-forward basis, as and when the Leader
+executes Orders.
+5.5 Restrictions on copying. If you are restricted from trading a Crypto-asset that is traded by a
+Leader you are copying, for example because the Crypto-asset is not available in your
+jurisdiction, or for any other reason in our sole discretion, then we may, in our sole discretion:
+● execute a substitute trade for your portfolio in place of the restricted trade. If we
+substitute a trade for you the composition of your portfolio will no longer match that of
+the Leader, and we cannot guarantee that the performance of the substitute trade will
+match that of the restricted trade; or
+● not substitute the restricted trade, in which case your portfolio will not change and the
+composition of your portfolio will no longer match that of the Leader.
+5.6 Monitoring copied traders. We will monitor the trading activities of Leaders. We reserve
+the right to suspend or block any Leader at any time and without notice in our sole discretion,
+in which case your copy trading portfolio for that Leader will be terminated and the
+Crypto-assets from that portfolio will remain in your Account.
+5.7 Risk acknowledgement. You acknowledge that you are fully responsible for deciding
+which Leader to copy (if any) and we do not provide investment advice or personal
+recommendations. You understand that we give no representations or warranties
+about the current or future performance of Leaders.
+6. Fees
+59
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+6.1 Portfolio Management Services fees. The fees applicable to our Portfolio Management
+Services are available on our Site and may be changed by us with notice to you, where
+required in accordance with applicable law. We have provided a summary of our fee
+structure in relation to our Portfolio Management Services products below for your
+information only and if there is a conflict between the information below and the information
+on our Site, the information on our Site will take precedence:
+● Bundle fees. Fees for use of the Bundle product will be charged as a percentage of the
+price of buy and sell transactions, with no charges for rebalancing your Bundle portfolio.
+● Copy Trading fees. The fees for the Copy Trading product will align with those of the
+Spot Trading product, with the addition of a revenue share percentage paid by the
+follower to the leader being copied. The percentage of revenue share payable will be
+agreed between us and the Leader and will be displayed in your Account and
+accessible at the time of selecting the Leader
+6.2 No third party commission. We will not accept or retain fees, commissions or any
+monetary or non-monetary benefits paid or provided by an issuer, offeror, person seeking
+admission to trading, or any third party, or a person acting on behalf of a third party, in
+relation to the provision of Portfolio Management Services to our clients.
+7. Events of Default
+7.1 Events of Default. In addition to the Events of Default set out in section 6.1 of Part A
+(Events of Default), in relation to the Portfolio Management Services it will be an “Event of
+Default” under this Agreement if: we have notified you of a material change to, or
+discontinuation of, any of our Portfolio Management Services, either generally or in relation
+to you specifically, that requires you to close or reduce the size of any of your open
+portfolios, or change the portfolio parameters in your Account, and you have failed to follow
+our instructions within the relevant notice period.
+7.2 Consequences of Event of Default. In the case of an Event of Default, in addition to our
+rights under section 7 of Part A (Consequences of Default), we may immediately or any time
+thereafter whilst the Event of Default is continuing, liquidate any of your open portfolios by
+selling the Crypto-assets in those portfolios, close the portfolios, deduct any amounts owed
+by you from the Fiat Currency received and transfer the remaining Fiat Currency received
+into your Account.
+8. Closing Your Portfolio
+8.1 Failure to meet minimum threshold. If the value of your portfolio falls below the applicable
+minimum threshold, we may sell the Crypto-assets in that portfolio, close the portfolio and
+transfer the Fiat Currency received into your Account.
+8.2 Account closure. If you choose to close your Account (in accordance with section 8.2 of
+Part A (Your right to terminate)) without first withdrawing all of your assets and funds from
+your open portfolios, we will close your Account as soon as reasonably practicable after we
+have received your request, and we have sold the Crypto-assets in your open portfolios,
+closed the open portfolios and transferred the Fiat Currency received into your Account,
+cancelled all Orders, and all of your obligations under this Agreement have been discharged.
+You authorise us to cancel or suspend any pending transactions at the time of cancellation.
+9. Risk Warnings
+60
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+9.1 Limitations to the Portfolio Management Services. Our Portfolio Management Services
+do not include the provision of any personalised investment recommendations, investment
+advice, tax related advice or other financial related advice of any kind. Any explanation or
+information which we give to you as part of our Portfolio Management Services (including
+performance of any products or Crypto-assets) is not intended to be, and should not be
+considered as advice. This information is provided by us solely for informational purposes.
+9.2 Risks of Portfolio Management Services. Investing in Crypto-assets carries risks,
+including that the value of your investments may go down as well as up. You should be sure
+to retain enough emergency cash outside your portfolio. Our Portfolio Management Services
+are not a guarantee that the investments in your portfolio will perform as you or we expect.
+Past performance is not a reliable indicator of future performance and we do not represent or
+guarantee that you will achieve profits or losses similar to past performance shown for any
+product or portfolio.
+9.3 Specific risks of Portfolio Management Services. We have set out some of the main risks
+associated with using our Portfolio Management Services below. Please also refer to section
+18 of Part C (Risk Warnings) for more information on the key risks associated with trading
+Crypto-assets. In choosing to use our Portfolio Management Services, you accept the
+following risks:
+● Volatility risk: the value of Crypto-assets in your portfolio might fluctuate as
+Crypto-assets are a highly volatile asset class and are based on decentralised monetary
+protocols which are still in experimental stage and may change at any time;
+● Risk of losses: the Crypto-assets that you purchase might be subject to full or partial
+losses and you are not certain to make a profit on any trade or portfolio. You may make
+a loss and you may lose your entire investment;
+● Liquidity risk: the Crypto-assets in your portfolio might not be liquid due to market
+conditions or other factors, limiting your ability to trade the Crypto-assets, and the
+market price of the Crypto-assets may significantly increase or decrease by the time
+there is sufficient liquidity for you to sell the Crypto-asset;
+● No investor protections: Crypto-assets are not covered by any investor compensation
+schemes including under Directive 97/9/EC or any deposit guarantee schemes including
+under Directive 2014/49/EU.
+● Return expectation risk: We may publish anticipated return rates for our Portfolio
+Management Services and related products. These rates are forward-looking
+statements that reflect current expectations regarding future events, involve significant
+risks and uncertainties, should not be read as guarantees of future performance or
+results and will not necessarily be accurate indications of whether or not such
+performance or results will be achieved. Forward-looking statements are in no way a
+form of advice, solicitation or offering of or for the Portfolio Management Services and
+should not be interpreted as such. Returns under the Portfolio Management Services
+are in no way guaranteed.
+61
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+PART E: OTC SERVICES AND PRIME SERVICES TERMS
+Our provision of the OTC Services and Prime Services is regulated by the Central Bank of
+Ireland.
+1. OTC Services and Prime Services
+1.1 OTC Services and Prime Services overview. In addition to our Core Services, we may
+offer over-the-counter services (“OTC Services”) and prime trade execution services (“Prime
+Services”) to clients that meet the Eligibility Criteria, including the service specific eligibility
+criteria for OTC Services stated on our Site and the service specific eligibility criteria for
+Prime Services which is set by us in our discretion, each of which may be updated by us at
+any time. The OTC Services and Prime Services enable clients to trade Crypto-assets with
+us as your counterparty.
+The use of our OTC Services and Prime Services involves significant risks and
+potential financial loss. You should ensure you understand these risks before you
+decide to use our OTC Services or Prime Services. These services relate to
+crypto-assets, which involve special risks related to the specific features of the
+crypto-asset. The price of crypto-assets depends on fluctuations in the financial and
+crypto-asset markets that are outside of our control. Past performance or future
+forecasts do not constitute reliable indicators of future performance.
+1.2 Connection with Core Services. Where you use the OTC Services or Prime Services the
+terms of this Part E apply to you in addition to the terms of Part C: Core Services Terms
+(and, for the avoidance of doubt, Part A: General Terms and Part B: Definitions and
+Interpretation, which always apply). To the extent of any conflict, the terms of this Part E will
+take precedence.
+1.3 Conflict of interest disclosure. You understand that in all trades we are your counterparty,
+not your agent or your broker. Our interests and the interests of other parties trading with us
+may diverge from yours. By using the OTC Services or Prime Services, you agree and
+understand that we are the exclusive counterparty for all trades and that the affiliation
+between us and any other Kraken affiliates may give rise to certain potential or actual
+conflicts of interest. If we act in circumstances where we – or any of our affiliates – have a
+material interest or conflict of interests, we will take reasonable steps to ensure that you are
+treated fairly. We, in our discretion, may also decline to act in such circumstances. The
+following are examples (without limitation) of such potential conflicts of interest: (i) that
+certain Kraken affiliates have not established, and do not intend to establish, relationships
+with unaffiliated liquidity providers for purposes of the OTC Services or Prime Services,
+regardless of whether the terms and fees offered by such unaffiliated liquidity providers are
+more favourable than those offered by us; (ii) that we (or any of our Kraken affiliates) may
+make a profit in respect of a transaction on which you do not; and/or (iii) that we may share
+various resources with other Kraken affiliates, including office space, personnel, and
+systems.
+1.4 Commercial policy. We will provide the OTC Services and Prime Services in accordance
+with a non-discriminatory commercial policy that indicates, in particular, the type of clients we
+agree to transact with and the conditions that shall be met by such clients.
+62
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+1.5 Ownership. You acknowledge and agree that, at the time you make use of any of the OTC
+Services or Prime Services, you have the legal right to control and manage the
+Crypto-assets and Fiat Currency you use for the OTC Services or Prime Services (whether
+held on the Platform or in a third-party wallet or bank account), and such Crypto-assets and
+Fiat Currency may not necessarily be owned by you but are free and clear of any liens and
+encumbrances.
+1.6 Additional terms. Use of our OTC Services and Prime Services may be subject to
+additional terms as agreed between you and Kraken. These additional terms apply in
+addition to the terms of this Agreement, and will take precedence to the extent of any conflict
+with the Terms of this Agreement.
+1.7 Order handling and outcomes. When you use the OTC Services or Prime Services, we will
+endeavour to handle your trades in a manner designed to achieve a favourable overall
+outcome for you. In practice, this means we may seek to balance a range of factors across
+your trading activity so that your trades, taken together, are executed in a way that supports
+your overall interests. Our Order Execution Policy does not apply to the OTC Services or
+Prime Services.
+1.8 Limits and restrictions. Use of our OTC Services and Prime Services may be subject to
+additional or different minimum or maximum thresholds on trade size and value, and/or
+transactions executed.
+1.9 Disruption to OTC Services and Prime Services. While we employ measures to ensure
+that the OTC Services and Prime Services are available 24 hours a day and 7 days a week,
+we cannot guarantee uninterrupted or error-free operation of the OTC Services or Prime
+Services or that we will correct all defects or prevent third-party disruptions or unauthorised
+third party access.
+2. Quotes and Spreads
+2.1 Quoting Services. You may have the option to submit electronic messages to us for the
+purpose of soliciting a quote for a trade (a “Request for Quote” or “RFQ”) and to receive
+quotes for a trade from us (a “Quote”) via (i) our online RFQ service or (ii) via direct
+communication with our traders (together, the “Quoting Services”). Quotes are valid for any
+time period specified and if you do not accept a Quote within that time period, the Quote will
+expire and you will no longer be able to accept it.
+2.2 Accepted Quotes. By accepting a Quote obtained via either of the Quoting Services, you
+place an Order with us to execute the trade in accordance with your instructions. Accepted
+Quotes are final, binding, and cannot be modified. Proceeds from a successfully executed
+trade will be credited to you, less any applicable fees, and the Crypto-assets or Fiat Currency
+you traded for those proceeds may be removed from your Account.
+2.3 Spreads and fees. You understand and agree that any spread or fee may be in addition to
+the quoted price, or the quoted price may be inclusive of all spreads and fees.
+63
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+PART F: PEDSL, DERIVATIVES, XSTOCKS TERMS
+Our provision of the PEDSL Products is regulated by the Cyprus Securities and Exchange
+Commission.
+The terms and conditions applicable to all products and services provided by Payward Europe Digital
+Solutions (CY) Limited (“PEDSL”), including derivative trading, xStocks and related investment
+services, are set out separately and form part of this Agreement by reference.
+You can view the full set of PEDSL Terms, including the applicable Risk Disclosure, at:
+- https://eu.kraken.com/legal/payward-europe-digital-solutions-cy-terms-conditions
+By accessing or using any PEDSL-provided services, you confirm that you have read, understood,
+and agree to be bound by those terms (as amended from time to time).
+64
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+PART G: STAKING SERVICES TERMS
+Our provision of Staking Services is not regulated.
+1. Staking Services
+1.1 Staking Services overview. We may provide you with the option to lock up and earn
+rewards on eligible Crypto-assets that you hold in your Account (the “Staking Services”)
+subject to the terms and conditions of this Agreement (including this Part G) and your
+fulfilment of all applicable Eligibility Criteria. Our Staking Services are provided by PC.
+These services relate to crypto-assets, which involve special risks related to the
+specific features of the crypto-asset. Past performance or future forecasts do not
+constitute reliable indicators of future performance. We have set out some of the main
+risks associated with using our Staking Services in section 5 below. You should read
+these in full before you decide to use our Staking Services.
+1.2 Supported Crypto-assets. Our Staking Services are only available in relation to certain
+Crypt-assets, which are specified on our Site (each a “Supported Crypto-asset”). We may
+update the list of Supported Crypto-assets at any time in our sole discretion.
+1.3 Staking Services products. Our Staking Services include certain products, which are only
+available to certain categories of clients. These are set out below and may be updated from
+time to time without notice.
+● On-Chain Staking – This service allows clients to earn rewards by locking up
+Crypto-assets with third party node operators to be used in transaction validation
+activities on blockchain proof-of-stake protocols, and is available to all clients. Further
+information about how staking works and the Supported Crypto-assets for On-Chain
+Staking is available on our Site. Depending on the Crypto-asset, you may have the
+option for On-chain Staking to be either:
+♦ Bonded, where Crypto-assets elected for staking must go through a protocol
+bonding period before they start to earn rewards, and when you choose to
+unstake them, your Crypto-assets will be subject to a wait time, known as the
+onchain unbonding period, before you can sell or transfer the Crypto-assets out of
+your Account; or
+♦ Flexible, allowing you to stake and unstake without any bonding or unbonding
+periods.
+● Restaking – This service gives clients who participate in On-Chain Staking the ability to
+restake their staked Crypto-assets with third party node operators that will redeploy
+staked Crypto-assets to be simultaneously used in transaction validation activities on
+other blockchain protocols, and is available to Kraken Pro clients. Further information
+about how restaking works and the Supported Crypto-assets for Restaking is available
+on our Site.
+1.4 Provision of Staking Services. The Staking Service is a separate and distinct IT service,
+which means it is a general commercial activity provided to you by means of a technical IT
+infrastructure. We may perform any or all of the Staking Services directly or through our
+affiliates and service providers.
+65
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+1.5 Disruption to Staking Services. We cannot guarantee uninterrupted or error-free operation
+of the Staking Services or that we will correct all defects or prevent disruptions or
+unauthorised access. We may suspend or discontinue the Staking Services in our sole
+discretion at any time. In the event of any disruptions, suspension, or discontinuance of the
+Staking Services, any Staked Crypto-assets may stop generating Staking Rewards and you
+may not receive any (and you may forfeit all) Staking Rewards whatsoever.
+2. Staking
+2.1 Electing to Stake. When you elect to stake or restake, (collectively, “Stake”) a Supported
+Crypto-asset, the Staked Crypto-asset will be locked for the duration that it is Staked
+(including any bonding and unbonding time) and you will not be able to sell or transfer the
+Staked Crypto-asset until it has been unstaked and any unbonding period has elapsed.
+When you elect to Stake a Supported Crypto-asset, you consent to us moving that
+Supported Crypto-asset from your Account into a dedicated staking wallet (still visible in your
+Account) to reflect that the Staked Crypto-asset is now locked.
+2.2 Ownership. If you elect to Stake, we, either directly or delegated to an affiliate or relevant
+third party, will perform blockchain operations involving your Supported Crypto-assets as
+described above. This instruction to stake does not affect the ownership of your Supported
+Crypto-assets in any way. You retain ownership of each Supported Crypto-asset that is
+Staked, and each Staked Crypto-asset remains your property while Staked. We will hold the
+Staked Crypto-assets on custody for you, in accordance with section 17 of Part C (Custody
+of Crypto-assets).
+2.3 Flexible On-Chain Staking. Where you use our Flexible On-Chain Staking product, we will
+only Stake a portion of the Supported Crypto-assets that you have elected to Stake. The
+remainder will be held by us so that we can maintain adequate liquidity in the relevant
+Supported Crypto-asset to enable clients to stake and unstake without any bonding or
+unbonding periods. If there is insufficient liquidity available in a particular Supported
+Crypto-asset, we reserve the right, in our sole discretion, to delay the release of any of
+Staked Crypto-assets that you have elected to unstake, until after the relevant unbonding
+period for the Staked Crypto-asset protocol has elapsed.
+2.4 Bonded On-Chain Staking. Where you use our Bonded On-Chain Staking product, you are
+instructing us to commit the Supported Crypto-assets that you elect to Stake to the relevant
+protocol’s bonding and/or unbonding period and you won't be able to access your Staked
+Crypto-assets, or earn Staking Rewards on the Staked Crypto-assets, during that bonding
+and/or unbonding period.
+2.5 Restrictions. We may limit the number and type of Crypto-assets that you can elect to Stake
+at any time in our sole discretion. Details of these limits will be published on our Site and/or
+Platform.
+2.6 Network Events. If there’s a fork or an airdrop, we may take any steps we consider
+appropriate to protect your staked Crypto-assets and the Platforms. This could include
+suspending or terminating our Staking Services, or amending any terms that apply to these
+services or your staked Crypto-assets. Any action we take will be consistent with our legal
+and regulatory obligations. If an airdrop relates directly to your staked Crypto-assets, we are
+not obligated to transfer or make available those new assets to you.
+66
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+3. Staking Rewards and Fees
+3.1 Staking Rewards. If you elect to Stake Supported Crypto-assets, then once any applicable
+bonding period is completed, we will remit to you the applicable staking rewards received
+from the Staked Crypto-asset protocol attributable to your Staked Crypto-assets (“Staking
+Rewards”). We will not distribute any Staking Rewards that are less than the smallest
+decimal precision supported by the Platform.
+3.2 Compounding Staking Rewards. If the applicable Staked Crypto-asset protocol distributes
+any Staking Rewards in unstaked form, we will use commercially reasonable efforts to Stake
+those Staking Rewards on your behalf. You may request to unstake your accrued Staking
+Rewards at any time.
+3.3 Fluctuations in Staking Rewards. Staking Rewards are not guaranteed and the rates of
+return on a Staked Crypto-asset will vary. Unless otherwise specified, the Staking Rewards
+annual percentage rates published on our Site are an estimated annualised historical rate
+based on the Staking Rewards generated by us in providing Staking Services to our clients
+for that Supported Crypto-asset before any deduct of fees or commission and these rates
+change over time. The amount of Staking Rewards you receive and the timing of our
+distributions of the Staking Rewards:
+● will be determined by us in our sole discretion;
+● will vary depending on the Staked Crypto-asset protocol;
+● may be more or less than the actual Staking Rewards we receive from the Staked
+Crypto-asset protocol; and
+● will be further detailed in your Account.
+3.4 Staking fees. We may charge transaction fees and/or commission in return for carrying out
+Staking Services. Commission will be charged as a proportion of the Staking Rewards, to
+compensate us for administering the Staking Services and distributing the Staking Rewards
+to you. We will deduct the applicable commission and transaction fees before we add the
+Staking Rewards to your Account. Details of our fees in relation to the Staking Services are
+available on our Site and can be changed by us at any time as part of how we administer the
+manner in which we provide services to you or so that we can manage our business better.
+4. Slashing Penalties
+4.1 Slashing. If a third party node validator or staking operator behaves dishonestly or fails to
+perform in relation to the validation of transactions on a Supported Crypto-asset protocol,
+that validator or operator may be subject to a slashing penalty, where the applicable protocol
+removes Crypto-assets that were Staked with that validator or operator. Clients that Stake
+Crypto-assets may lose part, or all, of their Staked Crypto-assets and Staking Rewards if the
+validator or operator that the Crypto-assets are Staked with is subject to a slashing penalty.
+4.2 Slashing compensation. Subject to section 4.3 below, if your Staked Crypto-assets are
+affected by a slashing penalty, we will compensate you by replacing any slashed Staked
+Crypto-assets and supplementing your Staking Rewards with our own Crypto-assets to bring
+your Staking Rewards up to the amount we consider you would have received if there had
+not been a slashing penalty.
+4.3 Compensation exclusions. We will not compensate you for a slashing penalty where it is
+the result of:
+● your acts or omissions,
+67
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+● protocol level failures, maintenance, bugs, upgrades or errors,
+● acts by a malicious actor or hacker,
+● breaches of this Agreement, whether by you or any other person or entity, or
+● Force Majeure Events.
+5. Risk Warnings
+5.1 In choosing to Stake, you accept the following risks:
+● Liquidity risk: You may not be able to sell or withdraw your Staked Crypto-assets
+immediately due to the mechanics of bonded and flexible staking discussed above. The
+market price of Staked Crypto-assets may significantly increase or decrease by the time
+the unbonding period expires and your Crypto-assets are unstaked.
+● Smart contract risk: A bug within the proof-of-stake network could cause loss of
+Staked Crypto-assets.
+● Slashing risk: Your Staked Crypto-assets and Staking Rewards could be affected or
+lost due to the Staked Crypto-asset protocol imposing a slashing penalty.
+68
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+PART H: kBTC Services
+Our provision of the kBTC Services set out in this Part H is not regulated.
+1. KBTC Services
+1.1 KBTC. Kraken Wrapped Bitcoin (“kBTC”) is an ERC-20 token minted exclusively by PC, for
+use on Ethereum-based networks. kBTC is not available for trading on our Platform.
+These services relate to crypto-assets, which involve special risks related to the
+specific features of the crypto-asset. We have set out some of the main risks
+associated with using our kBTC Services in section 5 below. You should read these in
+full before you decide to use our kBTC Services.
+1.2 KBTC Services overview. We may provide you with the option to exchange BTC that you
+hold in your Account at a 1:1 exchange rate for kBTC, and to exchange kBTC that you hold
+in your Account at a 1:1 exchange rate for BTC (“kBTC Services”), subject to the terms and
+conditions of this Agreement (including this Part H) and your fulfilment of all applicable
+Eligibility Criteria.
+1.3 Contracting Kraken entity. Our kBTC Services are provided by PC. Where you use our
+kBTC Services, the terms in this Part H apply to you in addition to the terms of Part C: Core
+Services Terms (and, for the avoidance of doubt, Part A: General Terms and Part B:
+Definitions and Interpretation, which always apply). To the extent of any conflict, the terms of
+this Part H will take precedence. Further information on our kBTC Services is available on
+our Site.
+1.4 BTC for exchange requests. PC has engaged Payward Financial, Inc. to hold an amount of
+BTC which is kept at all times at a level equal to the amount of kBTC then in issue. These
+amounts are held in a segregated vault by Payward Financial, Inc. on PC’s behalf, for the
+purpose of fulfilling kBTC holders’ exchange requests on the Platform. You can verify the
+value of these BTC amounts that we hold by following the instructions on our Site.
+1.5 Supported networks. Our kBTC Services are only available in relation to certain blockchain
+networks like Ethereum (each a “Supported Network”), which are listed on our Site. We
+may update the list of Supported Networks at any time in our sole discretion.
+1.6 kBTC exchanges. You can obtain kBTC by initiating a withdrawal of BTC from your Account
+to an external wallet on a Supported Network. You can convert kBTC back to BTC by
+depositing kBTC into your Account, where we will automatically convert it back to BTC.
+Approximate processing times for exchanges on each Supported Network are available on
+our Site.
+1.7 Service disruptions. We cannot guarantee uninterrupted or error-free operation of the
+kBTC Services or that we will correct all defects or prevent disruptions or unauthorised
+access. We may suspend or discontinue the kBTC Services in our sole discretion at any
+time.
+2. Fees
+69
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+2.1 kBTC fees. When you request an exchange from BTC to kBTC, we will charge you a
+network withdrawal fee. We do not charge any additional fees for kBTC conversion.
+3. Disclaimers
+3.1 Blockchain events. kBTC is intended for use on the Supported Networks, which are various
+decentralized and open source blockchains and protocols over which we have no control. In
+the event that any such blockchain or protocol experiences a “fork”, we reserve the right to
+suspend the kBTC Services temporarily or indefinitely or change the Supported Networks, on
+little or no notice, while we determine, in our sole discretion, which fork we will support, if any.
+We will have no liability or responsibility for any loss, liability, or damage you may incur as
+result of our determination to support or not support any particular blockchain or protocol or
+fork thereof.
+3.2 Compatibility. In addition to the Supported Networks, kBTC may be compatible with other
+protocols or software or technology provided by third parties, but we make no guarantee as
+to such compatibility and we are not responsible for any losses of kBTC or other issues you
+may experience through use of such third-party protocols, software or technology.
+3.3 Delays. You agree that we will not be liable for any delays in processing a kBTC exchange,
+regardless of the reason for that delay, or if we are unable to complete a kBTC exchange for
+any reason, including because of: (i) any direct or indirect actions taken by you that result in
+a mistaken or accidental transfer (such as providing inaccurate or insufficient instructions);
+(ii) insufficient Crypto-assets in your Account to complete the kBTC exchange; (iii) any
+malfunction of the kBTC Services due to circumstances beyond our control; or (iv) any
+suspension or discontinuance of the kBTC Services.
+3.4 Restrictions. We impose minimum thresholds for withdrawals or deposits of kBTC in relation
+to each Supported Network and details of these thresholds are available on our Site. We
+may change these thresholds, or limit the number or size of withdrawals and deposits that
+you can make using the kBTC Services, at any time in our sole discretion. Details of these
+limits and thresholds will be published on our Site and/or Platform.
+3.5 Blacklisted addresses. We may, in our discretion, add or remove specific addresses to an
+internal blacklist in the kBTC smart contract, including in response to law enforcement
+demands, sanctions requirements or suspected fraudulent activity. Addresses on this
+blacklist will be blocked from receiving or transferring kBTC.
+4. Right to Withdraw
+4.1 Eligibility. If you are a Retail Client and are resident in the EEA, this section 4 applies to
+you, notwithstanding section 8.1 of Part A (Your right to cancel this Agreement). If you do not
+meet both of those criteria, this section does not apply to you.
+4.2 Right to withdraw. You have the right to withdraw from your agreement to exchange BTC
+for kBTC without incurring any fees or costs and without being required to give reasons. This
+right to withdraw begins on the date that you make the exchange of BTC for kBTC, and
+expires 14 calendar days from that date. To exercise this right to withdraw, please contact us
+using one of the methods set out in section 14.1 of Part A (How to contact us).
+4.3 Reimbursement of fees. If you have paid any fees in relation to the exchange of BTC for
+kBTC that you are withdrawing from, we will reimburse these without undue delay and in any
+event no later than 14 calendar days from the date that we receive notice from you that you
+are exercising your right to withdraw.
+5. Risk Warnings
+70
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+5.1 By using the kBTC Services, you agree to and accept the following risks:
+● Price volatility risk: We are not responsible for any change in value of your kBTC.
+Although at the time of withdrawal one kBTC will always equal one BTC, we do not
+guarantee that the value of one kBTC will always equal the value of one BTC on
+third-party platforms;
+● Wrapping risk: Wrapped tokens are typically underpinned by, and represent, other
+crypto-assets, and are created to facilitate compatibility and interaction across different
+blockchain protocols. In addition to the general risks associated with crypto-assets,
+wrapped tokens like kBTC have some unique risks. Learn more about kBTC risks in the
+whitepaper; and
+● Regulatory risk: Legislative and regulatory changes and requirements may adversely
+affect the value of, and ability to transact in, kBTC, including the ability to withdraw and
+deposit kBTC.
+71
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+PART I: KRAKEN PLUS SUBSCRIPTION SERVICES
+Our provision of the Kraken+ subscription services set out in this Part I is not regulated.
+1. Kraken Plus Subscription
+1.1 Kraken+ overview. We may provide you with the option to sign up to our premium
+subscription service, which gives users certain benefits in exchange for payment of a
+monthly fee (“Kraken+”). Use of Kraken+ is subject to the terms and conditions of this
+Agreement and your fulfilment of all applicable Eligibility Criteria.
+1.2 Contracting Kraken entity. Kraken+ is provided by PESL. Where you use Kraken+, the
+terms in this Part I apply to you in addition to the terms of Part C: Core Services Terms (and,
+for the avoidance of doubt, Part A: General Terms and Part B: Definitions and Interpretation,
+which always apply). To the extent of any conflict, the terms of this Part I will take
+precedence. Further information on Kraken+ is available on our Site.
+1.3 Kraken+ benefits. If you are subscribed to Kraken+, you may receive certain benefits, some
+of which are set out below. These benefits may be available to certain categories of clients or
+via certain applications, or may be only available in certain countries. The benefits available
+to you will be stated on the Platform and may be updated by us at any time in accordance
+with our business and compliance requirements.
+● Kraken Trading Fee Waiver – Instant Buy/Sell trading fees (further details of which are
+set out in section 2 of Part C (Fees)) are waived for Kraken+ subscribers, provided that
+the transaction is still subject to a spread that is included in the transaction price. All
+other Kraken fees (including Kraken Pro fees), funding provider fees, and credit card
+fees continue to apply. There is a limit on the total amount of fees that can be waived in
+a month, which can be changed in our discretion without notice. You can view
+applicable limits and the remaining amount of fees that will be waived in a month under
+the “subscription management” tab of your Account. If you exceed your zero-fee limit,
+standard trading fees will apply for the remainder of the month.
+● Early Access – Kraken+ grants access to exclusive projects via Kraken curated
+airdrops and other perks, through participation in Kraken Reef.
+1.4 Subscribing. To subscribe to Kraken+, select the Kraken+ option on our Platform, which will
+take you to the Apple App Store or Google Play Store to complete the subscription process.
+Once you have subscribed, Kraken+ will automatically renew unless and until (i) you cancel
+your subscription; (ii) your Account is suspended or terminated pursuant to the Agreement;
+or (iii) Kraken+ is suspended or terminated by us (with each of (i), (ii) and (iii) being a
+“Subscription Termination Event”).
+1.5 Restrictions. Each Kraken+ subscription is specific to the Account where the subscription
+was purchased and cannot be shared across multiple accounts. Kraken+ applies only to
+Kraken (app and web) and does not apply to other Kraken products such as Kraken Pro
+(Spot & Futures), Kraken Desktop, or Kraken Wallet.
+2. Fees
+2.1 Kraken+ fees. We charge fees for Kraken+, which are set out on our Site and can be
+changed by us at any time, with effect from the beginning of your next subscription billing
+period.
+72
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+2.2 Billing. We will bill you for Kraken+ subscription fees in advance and will debit these from
+the bank account linked to your Account, starting on the date you subscribe and then on an
+on-going basis the day immediately following the end of your prior subscription billing period.
+We will stop billing you for Kraken+ subscription fees from the day immediately following the
+end of the subscription billing period where a Subscription Termination Event occurs.
+2.3 Billing period. The length of your subscription billing period depends on the subscription
+plan you signed up for (e.g. monthly, annually where offered, or other), which you can view in
+the “subscription management” tab of your Account.
+3. Promotional Subscription Offers
+3.1 Promotional subscription offers. We may offer free trials or other promotional subscription
+offers of Kraken+. Promotional subscriptions of Kraken+ are subject to the terms in this
+section.
+3.2 Eligibility. Only one promotional subscription offer is available per user and Kraken may, at
+its discretion, limit the ability for users to combine promotional subscription offers with other
+offers. Eligibility for promotional subscription offers is determined by Kraken at its sole
+discretion.
+3.3 Payments. For some promotional subscription offers, you may be required to provide your
+payment details in order to use the promotional subscription offer. Kraken will not notify you
+when the promotional subscription offer ends. To avoid paying subscription fees, you must
+cancel Kraken+ before the end of the promotional subscription period as described below.
+By providing payment details you agree that at the end of your promotional
+subscription offer period, Kraken+ will automatically renew and you will be charged
+the subscription fees as set out in section 2 above.
+4. Ending your Subscription
+4.1 Your right to cancel Kraken+. You may cancel Kraken+ at any time within the Apple App
+Store or Google Play Store. Cancellation will take effect at the end of your current
+subscription billing period and you will continue to benefit from Kraken+ until that date. All
+Kraken+ benefits will immediately cease from the day after the end of your last subscription
+billing period.
+4.2 Our right to cancel Kraken+. We may suspend or cancel your Kraken+ subscription at any
+time in our discretion. If we cancel your Kraken+ subscription under this section 4.2, we will
+refund payments made by you of subscription fees in relation to the interrupted subscription
+billing period on a pro rata basis, calculated from the end of the month during which we
+cancel your Kraken+ subscription.
+4.3 Automatic cancellation of Kraken+. In addition to our right to suspend or cancel your
+Kraken+ subscription under section 4.2, your Kraken+ subscription will automatically
+terminate if your Account is suspended or terminated pursuant to this Agreement, on the
+date that your Account is suspended or terminated. We will not refund you for any payments
+made in respect of subscription fees, including where Kraken+ is terminated part way
+through a subscription billing period.
+73
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+PART J: KRAKEN VERIFY SERVICES
+Our provision of the Kraken Verify set out in this Part J is not regulated.
+1. Kraken Verify
+1.1 Kraken Verify overview. We may provide you with the option to access our on-chain
+verification services (“Kraken Verify”) to allow you to issue verified, on-chain credentials
+related to your Account (“Attestations”). Kraken Verify is deployed on the Ink network and is
+enabled by the Ethereum Attestation Service. Use of Kraken Verify is subject to the terms
+and conditions of this Agreement and your fulfilment of all applicable Eligibility Criteria.
+1.2 Contracting Kraken entity. Kraken Verify is provided by KC. Where you use Kraken Verify,
+the terms in this Part J apply to you in addition to the terms of Part C: Core Services Terms
+(and, for the avoidance of doubt, Part A: General Terms and Part B: Definitions and
+Interpretation, which always apply). To the extent of any conflict, the terms of this Part J will
+take precedence. Further information on Kraken Verify is available on our Site.
+1.3 Attestations. Attestations may be used to establish your identity and reputation when
+interacting with certain decentralized applications on-chain. An Attestation issued by you is
+stored on-chain, and therefore is public and viewable by anyone indefinitely, even if the
+Attestation is later revoked.
+If you do not wish to share your wallet address or the fact that you are a Kraken client
+publicly, do not use Kraken Verify.
+1.4 Service disruption. We cannot guarantee uninterrupted or error-free operation of Kraken
+Verify or that we will correct all defects or prevent disruptions or unauthorised access. We
+may suspend or discontinue Kraken Verify in our sole discretion at any time.
+2. Using Kraken Verify
+2.1 Eligibility. To use Kraken Verify, you must:
+● have an identity verified Account,
+● be in good standing and eligible to transact on the Platform, and
+● have executed at least one trade.
+2.2 Usage restrictions. We may refuse to allow you to use Kraken Verify, and/or may revoke
+any Attestations that we have issued, if:
+● any of the information you provided to apply for an Account (as described in section 2 of
+Part A (Eligibility Criteria) above) is incomplete or inaccurate,
+● you breach any terms of this Agreement or applicable law,
+● you engage in behaviour that harms our services (for example, by engaging in
+fraudulent activity or attempting to circumvent this Agreement or our policies),
+● if your Account is subject to any type of restriction or review, or
+● any Event of Default applies.
+74
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+2.3 Using Kraken Verify. To start using Kraken Verify, you can sign up through the Ink Platform
+by connecting your wallet (which can be held with Kraken or a third party), signing a
+verification request and then confirming ownership of your Account by signing in. An
+Attestation will then be published on-chain linking your wallet to your Account.
+2.4 Fees and expenses. We reserve the right to charge fees and expenses in relation to Kraken
+Verify. In the event we charge fees and expenses, we will notify you.
+2.5 Using Attestations. Certain decentralized applications (“Dapps”) may provide you with
+access to their applications because you hold an Attestation. Unless otherwise specified, we
+do not have any affiliation with any Dapp that you may gain access to by virtue of holding
+Attestations, and your use of any Dapp will be subject to the terms and conditions between
+you and the Dapp. Third party service providers may offer certain services that leverage
+Attestations. Your use of those third party services may be subject to separate terms and
+conditions with those third parties, and we will not be a party to those terms and conditions.
+You agree that we have no responsibility for Dapps that we are not affiliated with, or for
+products and services provided by third parties.
+3. Attestations
+3.1 Information you provide for Attestations. By using Kraken Verify, you agree that
+information you provide to us may be used to issue Attestations. This includes information
+you provided when you created your Account and other information we collect in accordance
+with our Privacy Notice (for example from your use of our services). If you choose to issue an
+Attestation, you agree that information related to your Account will be stored on-chain, and
+therefore will be public and viewable by anyone.
+3.2 Quality of information. An Attestation relies on the completeness, accuracy and
+correctness of information provided by you, which you are ultimately responsible for. You
+represent and warrant that:
+● all the information you provide in order to issue an Attestation is complete, accurate and
+correct,
+● you have not impersonated another user or entity to obtain an Attestation, and
+● you own and control the private keys associated with the self-hosted wallet that you
+specify for receipt of any Attestation issued to you.
+3.3 Information from third parties for Attestations. An Attestation may also be based on data
+supplied to us by third parties, including government agencies, third party suppliers of
+identity verification services. These third parties may change or may change their policies or
+services, in which case we may be required to amend the provision and scope of any
+Attestation, and we may do so at any time at our discretion without notice.
+3.4 Use of Attestation information. We may use information related to Attestations for the
+purposes of complying with any tax reporting obligations that we may become subject to as a
+result of any funds or assets that are distributed to a self-hosted wallet in connection with an
+Attestation.
+3.5 Attestations are non-transferable. Attestations are non-transferrable and are for your
+personal use only. You must not transfer any Attestations to any third party. Purchasing,
+selling, lending, or renting an Attestation is strictly prohibited.
+75
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+3.6 Accuracy of Attestations. Any Attestation related to your Account represents the status of
+your Account as of the time the Attestation is issued, and changes to the status of your
+Account that result in the Attestation no longer being true may not be reflected immediately
+in the Ethereum Attestation Service. We do not represent, warrant or guarantee that the
+information contained in or represented by any Attestation is complete, accurate, or correct.
+The processes that we use to verify the identities of customers may differ by jurisdiction.
+3.7 Relying on Attestations. Any Attestation that is issued to you is provided for informational
+purposes only and unless otherwise expressly specified by us, is not intended to be relied
+upon for any legal, compliance or contractual purpose. You agree that any reliance by you
+will be at your own risk. Subject to the provisions in section 9 of Part A (Liability), we will
+have no liability to you or any third party resulting from such reliance.
+4. Revoking Attestations
+4.1 Ending use of Kraken Verify. You can stop using Kraken Verify at any time by choosing
+“Revoke” on your Kraken Verify dashboard.
+4.2 Revoking Attestations. We may revoke any Attestation that we have issued to you at our
+discretion, without notice, including in the circumstances set out in section 2.2 above.
+4.3 Transferring private keys. If you transfer the private keys associated with the self-hosted
+wallet to which an Attestation has been issued to a third party, we can revoke that Attestation
+and take any other action with respect to your Account that we deem appropriate and/or
+necessary in our sole discretion.
+4.4 Consequences of revocation. If any of your Attestations are revoked for any reason, you
+may not be able to use Dapps or third party services that were conditional on holding that
+Attestation, and your access to these Dapps or services may be terminated without notice.
+76
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+PART K: MARGIN TRADING SERVICES TERMS
+Our provision of Margin Extensions is not regulated.
+1. Margin Extensions
+1.1 Margin Extensions. When you trade Crypto-assets for Fiat Currency or vice versa, you may
+pay in full with your own funds, or we may extend, and you may return to us from time to
+time, Crypto-assets (each a “Margin Extension”) to make Spot Crypto trades (each trade, a
+“Margin Transaction”) through your Account (your “Margin Enabled Account”).
+Conducting Margin Transactions involves significant risks and potential financial loss.
+You should ensure you read and understand these risks, and this Part K, before you
+decide to conduct Margin Transactions. Margin Transactions relate to crypto-assets,
+which involve special risks related to the specific features of the crypto-asset. The
+price of crypto-assets depends on fluctuations in the financial and crypto-asset
+markets that are outside of our control. Past performance or future forecasts do not
+constitute reliable indicators of future performance.
+1.2 Contracting Kraken entity. Margin Extensions are provided exclusively and directly to you
+by PTL and so the terms set out in this Part K are between you and PTL. Where you conduct
+Margin Transactions, the terms of this Part K apply to you in addition to the terms of Part C:
+Core Services Terms (and, for the avoidance of doubt, Part A: General Terms and Part B:
+Definitions and Interpretation, which always apply). To the extent of any conflict, the terms of
+this Part K will take precedence.
+1.3 Margin Extensions eligibility. To be eligible to conduct Margin Transactions, you must be at
+least 18 years old and satisfy all of the Eligibility Criteria, including the service specific
+eligibility criteria for Margin Extensions stated on our Site and in this Part K.
+1.4 Consumers are not eligible to receive Margin Extensions. A Margin Extension by
+means of the Margin Enabled Account is available only to individuals acting for the
+purpose of their business, trade or profession, specifically, for the purposes of profit
+generation.
+1.5 Margin Extension representations and warranties. By using a Margin Extension by
+means of the Margin Enabled Account, you represent and warrant that you:
+● are acting wholly for the purposes of your business, trade or profession - specifically, for
+profit generation - and are not acting as a “consumer” as defined by measures for the
+protection of the interests of natural persons acting wholly or partly for purposes outside
+of their trade business or profession including, strictly without limitation, (i) national
+measures implementing the Consumer Credit Directive 2023/2225, the Unfair Contract
+Terms Directive 1993/13 and the Distance Marketing Directive 2023/2673; and (ii)
+domestically derived national measures for the purposes of the protection of these
+persons, in all cases, as those measures may be amended or substituted from time to
+time and including any of their predecessors or successors);
+● understand, acknowledge and agree that as a result, there are certain remedies and
+protections, including those referenced in the preceding bullet point, which will not be
+afforded to you when using a Margin Extension by means of the Margin Enabled Account;
+77
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+● acknowledge that you have had the opportunity to take independent legal advice before
+using the Margin Extension by means of the Margin Enabled Account, have had the
+benefit of such legal advice prior to conducting Margin Transactions and fully understand
+and accept the implications of the risk warnings set out at section 6 of this Part K; and
+● acknowledge and confirm that you independently initiated contact with us, without any
+prior solicitation or inducement on our part, for the express purpose of seeking to avail of
+a Margin Extension through the use of the Margin Enabled Account. This approach was
+made solely at your discretion and based on your own assessment of your financial
+needs and objectives. Furthermore, you confirm that this decision was made without any
+prior marketing or promotional efforts directed at you by us and that your engagement
+with us relating to a Margin Extension is entirely voluntary and self-directed on your part.
+1.6 Geographic Restrictions. Margin Extensions are only available to clients located in certain
+countries in the EEA. We may vary the list of such countries from time to time to comply with
+any applicable legal or regulatory obligations and/or our internal policies and requirements.
+You may not use Margin Extensions if you are located in or are a national or resident of any
+jurisdiction in which we are not authorised to provide Margin Extensions, or any jurisdiction
+where your use of Margin Extensions would be illegal or otherwise violate any applicable law
+of that jurisdiction.
+1.7 Tax treatment. For tax purposes, in the case of a Margin Transaction, it is intended that,
+absent a change in law or administrative practice to the contrary, the transfer and delivery of
+the Crypto-assets or Fiat Currency used for a Margin Extension shall be treated as a loan
+and not be treated as an exchange of property for other property differing materially in kind
+or extent.
+1.8 Margin Extensions. The Crypto-asset which your Margin Extension is denominated in will
+depend on the order type (buy or sell) and the base and quote asset for a given trading pair.
+For example:
+● If you place a sell order on the BTC/ETH trading pair, you will receive a Margin
+Extension in Bitcoin. By contrast, if you place a buy order on the same trading pair, you
+will receive a Margin Extension in Ether.
+1.9 If you place a sell order on the BTC/USD trading pair, you will receive a Margin Extension in
+Bitcoin. By contrast, if you place a buy order on the same trading pair, you will receive a
+Margin Extension in a Crypto-asset which references the value of the USD (“Borrwed
+Stablecoin”) (by way of example only, USDC for USD-quoted pairs), and upon disbursement
+of that Borrowed Stablecoin to you, you instruct and authorise it to be converted into the
+relevant Fiat Currency quote asset for the trading pair, solely to facilitate execution and
+settlement of the Margin Transaction. The principal, interest, fees and any other amounts
+owed in respect of such a Margin Extension are, and will remain, denominated and payable
+exclusively in the Borrowed Stablecoin.
+78
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+2. Participating in Margin Trading
+2.1 Criteria for Margin Extensions. In order to receive a Margin Extension, you must post
+Crypto-assets or Fiat Currency in your Margin Enabled Account (“Collateral Assets”). Doing
+so will require you to have an Account with PESL and PIL. The amount of Collateral Assets
+that you must post in relation to a Margin Extension is determined by us and is shown on the
+Platform when you initiate a Margin Transaction (the “Maintenance Margin
+Requirements”). You must meet or exceed our Maintenance Margin Requirements for your
+Margin Enabled Account to qualify for a Margin Extension. We are not under any obligation
+to make any Margin Extensions to you, and we may decline a request to initiate a Margin
+Extension in our sole discretion.
+2.2 Received Assets. When you use a Margin Extension to conduct a Margin Transaction, we
+record the transfer of ownership of the applicable Crypto-asset or Fiat Currency resulting
+from the Margin Transaction by registering you as the owner of the Crypto-asset or Fiat
+Currency purchased by you (“Received Assets”) on our internal books and records. For
+example, you might use an Ether Margin Extension from us to buy Bitcoin, and the Bitcoin
+you buy using that Margin Extension would be Received Assets.
+2.3 No term limits. There are no term limits on margin obligations, meaning that you may elect
+to maintain a Margin Extension for an unlimited duration, as long as you continue to meet the
+Maintenance Margin Requirements and all applicable Eligibility Criteria.
+2.4 Maintenance Margin Requirement. You agree to maintain in your Margin Enabled Account,
+at all times during the term of a Margin Extension, Collateral Assets at or exceeding the
+specified Maintenance Margin Requirements. A complete list of eligible Collateral Assets is
+available on our Site. It is your responsibility to constantly monitor your Collateral Assets and
+to ensure that they remain equal to, or higher than, your Maintenance Margin Requirement at
+any given time. If this is not the case, it is your responsibility to immediately deposit
+additional Fiat Currency or Crypto-assets into your Margin Enabled Account so that your
+Collateral Assets are equal to or higher than your Maintenance Margin Requirement.
+2.5 Maintenance Margin Requirement calculation. Collateral Assets will be valued on a
+continuous basis at fair market value as determined by us, and adjusted by any applicable
+discounts, to assess your compliance with the Maintenance Margin Requirements. For
+instance a discount may be applied to non-USD denominated Collateral Assets to account
+for the fees incurred by us in its conversion. More information can be found on our Site. Due
+to market conditions, including lack of liquidity and high price volatility, your Collateral Assets
+may be converted at a rate inclusive of the discount. Valuation of Crypto-assets will be based
+on the prevailing value of each Crypto-asset on one or more crypto-asset exchanges chosen
+by us, including those operated by our affiliates. Valuation of Fiat Currency balances will be
+based on the prevailing market price on one or more third-party indices chosen by us.
+2.6 Margin Call. If the Collateral Assets supporting your Margin Extension decline in value
+below the Maintenance Margin Requirement, we may (but are not obliged to) notify you that
+you need to deposit additional Crypto-assets or Fiat Currency to your Margin Enabled
+Account, to meet the Maintenance Margin Requirement (“Margin Call”). You authorise us
+(without notice to you) to sell Crypto-assets or Fiat Currency in your Margin Enabled Account
+(including Received Assets), in order to maintain a balance that meets or exceeds the
+Maintenance Margin Requirement.
+3. Security Interest
+79
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+3.1 No third party security interest. You cannot and must not create security over your
+Collateral Assets or Margin Enabled Account unless you have obtained our prior approval in
+writing. You represent and warrant that the Collateral Assets in your Margin Enabled Account
+are free and clear of all liens and encumbrances other than those arising hereunder, and that
+you have the right to grant a first priority security interest hereunder.
+3.2 Secured Assets. Any and all Collateral Assets delivered by you to your Margin Enabled
+Account (“Secured Assets”) will be held, notwithstanding any provision or instructions to the
+contrary, as security on a continuous basis and will be subject to a general lien and right of
+set-off in favour of us for any and all of your obligations, liabilities or monies whatsoever at
+any time now or hereafter owing, due, incurred or payable by you to us in respect of any
+Margin Extensions provided under this Agreement and for any other obligations you have to
+us arising hereunder, whether present or future, actual or contingent, solely or jointly or
+whether as principal or surety ("Margin Obligations").
+3.3 Security Interest. As continuing security for the Margin Obligations, you hereby charge by
+way of first fixed charge and assign by way of security (the "Security Interest"), in favour of
+us, all of your rights, title and interest in the Secured Assets. The Security Interest is a
+continuing security that shall attach upon provision of the Margin Extension and will remain in
+full force and effect notwithstanding any settlement, compromise or intermediate payment
+made in respect of your Margin Obligations. The Security Interest will immediately and
+automatically terminate upon the return and repayment in full of the Margin Extension and all
+related fees and expenses. You agree that, where PESL or PIL holds or custodies Secured
+Assets on your behalf, that entity is entitled to exercise any of our rights set out in this
+section to enforce the Security Interest or give effect to any of our other rights under, and in
+accordance with, this Agreement.
+3.4 Maintaining the Security Interest. You will take all action that may be necessary and that
+we may reasonably request so as at all times to maintain the validity, perfection,
+enforceability and priority of the Security Interest, and to enable us to protect, exercise or
+enforce our rights hereunder. Notwithstanding any other terms of this Agreement, no part of
+the Secured Assets may, unless and until your Margin Obligations have been duly paid and
+discharged in full, be withdrawn, assigned or otherwise disposed of or encumbered except
+where you have requested and obtained our prior consent.
+3.5 Withdrawals and transfers. You may request to transfer, withdraw, or otherwise deal with
+your Secured Assets, however, where doing so may result in an Event of Default or a breach
+of your Margin Obligations, you may be required to terminate your Margin Extension
+beforehand.
+3.6 Enforcing Security Interest. We may immediately enforce the Security Interest without
+notice or further demand if:
+● an Event of Default occurs with respect to you; or
+● the balance in your Margin Enabled Account falls below the Maintenance Margin
+Requirements.
+80
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+3.7 Exercising Security Interest. In exercising our rights to enforce the Security Interest, we
+will be entitled, without notice or further demand, immediately to exercise all our rights,
+powers and remedies in accordance with applicable law as chargee and assignee of the
+Secured Assets and to: (A) demand and receive all and any amounts due under or arising
+out of your Margin Enabled Account; (B) exercise in relation to the Secured Assets all such
+rights as you were then entitled to exercise in relation to the Secured Assets or might
+exercise; and (C) apply, set-off or transfer all or any part of the Secured Assets in or towards
+the payment or other satisfaction of the Margin Obligations or any part of them.
+3.8 Authorisation. In exercising our rights to enforce the Security Interest and without limiting
+any other rights or remedies under this Agreement or applicable law, you hereby irrevocably
+authorise us to sell, appropriate or otherwise realise any and all Secured Assets and to apply
+the proceeds of sale in order to satisfy your Margin Obligations in such order and manner as
+we think fit, including in or towards payment of all costs and expenses incurred by us in
+connection with such sale or realisation. If we exercise our right of appropriation to any
+Secured Assets, we will be entitled to determine their value in good faith and in a
+commercially reasonable manner.
+4. Events of Default
+4.1 Events of Default. In addition to the Events of Default set out in section 6.1 of Part A
+(Events of Default), in relation to the provision of Margin Extensions it will be an “Event of
+Default” under this Agreement if:
+● the Collateral Assets in your Margin Enabled Account fall below the applicable
+Maintenance Margin Requirement, or you are, or appear to be, unable to meet your
+obligations in respect of one or more Margin Extensions; or
+● we have notified you of a material change to, or discontinuation of, our services in
+relation to Margin Extensions, either generally or in relation to you specifically, that
+requires you to terminate your existing Margin Extensions, and you have failed to do so
+within the relevant notice period.
+● Consequences of Event of Default. In the case of an Event of Default, in addition to
+our rights under section 7 of Part A (Consequences of Default), we may immediately or
+any time thereafter whilst the Event of Default is continuing, without prior notice, vary
+the applicable Maintenance Margin Requirement, or exercise our power to liquidate,
+sell, or convert the Secured Assets, Received Assets or part thereof, at a price which
+we consider appropriate in the circumstances, in order to repay an outstanding Margin
+Extension and terminate the Margin Transaction.
+4.2 Our sole recourse against you in relation to the satisfaction of any of your obligations,
+liabilities, interest, fees, costs, losses or shortfalls arising out of or in connection with a
+Margin Extension (“Margin Liabilities”) is limited to our rights under section 7 of Part A
+(Consequences of Default) and Section 4.2 of this Part K (Consequences of Event of
+Default). You shall not be obliged to transfer, post or otherwise provide additional funds or
+assets in respect of a Margin Extension where any shortfall remains after we exercise our
+rights under Section 4.2 of this Part K (Consequences of Event of Default).
+5. Termination of Margin Extensions
+81
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+5.1 Termination by you. You may terminate a Margin Extension, partially or wholly, by delivering
+to us Crypto-assets of the same type the Margin Extension is denominated in (e.g. if you
+obtained a Margin Extension in Ether to buy Bitcoin, you could deposit a sufficient amount of
+Ether to your Margin Enabled Account to settle the Margin Extension), or by selling the
+Received Assets for a sufficient amount of the same type of Crypto-asset as the Margin
+Extension is denominated in (e.g. if you obtained a Margin Extension in Ether to buy Bitcoin,
+you could close your Margin Transaction by selling the Bitcoin for the sufficient amount of
+Ether to repay the Margin Extension).
+5.2 Return of certain Crypto-assets. Upon the termination of a Margin Extension by you, you
+must return to us any Crypto-assets received due to a Margin Extension, which are not
+Received Assets. This applies if the Margin Extension (and not the Received Assets)
+enabled you to receive assets (i) where new Crypto-assets are distributed to holders (an
+airdrop), or (ii) where changes in blockchain rules create new asset versions (a fork).
+5.3 Negative equity. If the value of your Collateral Assets falls below the value of your Margin
+Extension, this may result in negative equity in your Margin Enabled Account. In these
+circumstances, we may, in our sole discretion, impose restrictions on your Margin Enabled
+Account, including suspending or limiting your ability to trade or withdraw. You may deposit
+additional Collateral Assets to restore your Margin Enabled Account to positive equity,
+following which we may, at our discretion, remove or adjust such restrictions.
+5.4 Termination upon loss of eligibility. If you are not (or are no longer) eligible to receive
+Margin Extensions, each of your then-existing Margin Extensions will become due and must
+be terminated immediately by you upon loss of eligibility. If you don’t immediately terminate
+your Margin Extensions in full, then we may, without further notice to you: (a) sell your
+Secured Assets and/or Received Assets and apply the proceeds to the termination of the
+Margin Extension; and (b) liquidate other Crypto-assets or Fiat Currency balances in your
+Margin Enabled Account, in the manner and amount practicable, in our reasonable
+discretion, to terminate the Margin Extension.
+5.5 Discontinuing Margin Extensions. We may in our sole discretion terminate the provision of
+new or existing Margin Extensions, provided that we will notify you in advance to the extent
+required by applicable law including, where we are in a position to do so and this is required
+by applicable law, providing reasonable notice, via the email address associated with your
+Account. If you do not terminate your existing Margin Extensions during this time, it will be an
+Event of Default and we may take any of the actions set out in section 7 of Part A
+(Consequences of Default) or in section 4.2 above.
+6. Fees
+6.1 Margin fees. Fees charged on and in connection with any Margin Extension will be at the
+applicable rates and methods of computation specified in the Fee Schedule (the “Margin
+Fees”).
+6.2 Maximum legal limit on Margin Fees. If the Margin Fees on any Margin Extension provided
+under this Part K exceeds the maximum rates we may charge under applicable law, the
+Margin Fees will be reduced automatically to the maximum Margin Fees we may charge
+under applicable law.
+7. Risk Warnings
+7.1 By initiating Margin Transactions, you accept the following risks:
+82
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+● Financial risk: Using margin poses a high degree of financial risk and is not suitable for
+everyone. Margin trading can rapidly lead to large losses, including losses of all the
+Crypto-assets or Fiat Currency in your Margin Enabled Account. You should examine
+your financial objectives, financial resources and risk tolerance to determine whether
+receiving Margin Extensions secured by the Crypto-assets or Fiat Currency in your
+Margin Enabled Account is appropriate for you.
+● Margin Calls: The prices of Crypto-assets are highly volatile and a decline in the value
+of Crypto-assets that are traded on margin may require you to deposit additional
+Crypto-assets or Fiat Currency to your Margin Enabled Account, on short notice or with
+no notice, to meet the Maintenance Margin Requirement and avoid the automatic
+liquidation of assets in your Margin Enabled Account.
+● No obligation for Margin Call notification: We are not obligated to contact you for a
+Margin Call to be valid and we may liquidate assets in your Margin Enabled Account
+without notification. While we may attempt to inform you of Margin Calls, it’s not
+mandatory. Furthermore, even if we have contacted you and set a specific deadline to
+meet a Margin Call, we may still proceed with asset liquidation without notice and before
+the deadline.
+● No extensions on a Margin Call: While we might grant you an extension of time to
+meet Maintenance Margin Requirements under certain conditions, you don’t have a
+right to any extension, and our granting of an extension in one case does not mean it
+will be extended in any future cases (even if similar). Moreover, even if we have agreed
+to an extension of time to meet Maintenance Margin Requirements, we may still
+immediately sell assets in your Margin Enabled Account without notice to you and
+without waiting for the expiration of the extension of time to meet a Margin Call.
+● Maintenance Margin Requirements: We may increase the Maintenance Margin
+Requirements without advance notice, which may result in the issuance of a Margin
+Call. Your failure to satisfy the Maintenance Margin Requirements may cause us to
+liquidate or sell assets in your Margin Enabled Account. We are not responsible for
+delays in the release of funds intended to satisfy the Margin Call, including internal
+holds on funds exceeding verification limits, delays in the transfer of funds from external
+accounts maintained by third-party financial institutions, and failure of proper routing of
+funds through financial networks. The funds will not count towards meeting the
+Maintenance Margin Requirements until the funds are released.
+● Asset liquidation without notice: If the equity in your Margin Enabled Account is
+below the Maintenance Margin Requirement, you authorise us to sell your assets
+(including Crypto-assets and Fiat Currency) in your Margin Enabled Account to cover
+the margin deficiency. As crypto-asset markets are open 24 hours a day, 7 days a week,
+Margin Calls and liquidations may occur at any time, including outside of normal
+business hours.
+7.2 Risk Acknowledgment. You understand, acknowledge, and agree that:
+● before initiating a Margin Transaction, you will read and you agree to this Part K in
+full;
+● You are solely responsible for, and you assume in full, all risks regarding Margin
+Enabled Accounts, Margin Extensions, and Margin Transactions, including all risks
+disclosed in this section, as well as additional risks; and
+83
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+● initiating a Margin Transaction means you have determined that such activities are
+appropriate for you;
+84
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+PART L: OPT IN REWARDS PROGRAM TERMS
+Our provision of the Opt-In Rewards Program is not regulated.
+1. Opt-In Rewards Program
+1.1 Opt-In Rewards Program. We may provide you with the option to contribute and earn
+rewards on eligible, available and idle Crypto-assets balances in your Account (the “Opt-In
+Rewards Program”) subject to the terms and conditions of this Agreement (including this
+Part L) and your fulfilment of all applicable Eligibility Criteria. The Opt-In Rewards Program is
+provided by PTL and so the terms set out in this Part L are between you and PTL.
+We have set out the main risks associated with using the Opt-In Rewards Program in
+section 5 below. The Opt-In Rewards Program involves a title transfer arrangement
+whereby you lend your crypto-assets to us as an unsecured creditor and will have to
+accept the risk of potential loss in the event of our insolvency. While we have title to
+your contributed Crypto-assets, we will only use them for our on-platform Kraken
+programs such as fully collateralised lending programs. We will not use or deploy any
+assets you allocate to participate in our Opt-In Rewards program for internal,
+proprietary, or investment purposes. Before participating in the Opt-In Rewards
+Program, it's important to understand its specific and unique risks. You should
+carefully review this Part L in full before you decide to use the Opt-In Rewards
+Program.
+1.2 Transfer of Crypto-assets out of custody. When you contribute Crypto-assets to the
+Opt-In Rewards Program, you lend those Crypto-assets to us and title in those Crypto-assets
+transfers from you to us at the point in time when you agree to contribute Crypto-assets on
+the Platform. In exchange, you have the right for assets equivalent to those Crypto-assets to
+be returned to you on request, and the right to receive payment of rewards generated by
+those Crypto-assets. While we have title to your contributed Crypto-assets, we will only use
+them for our on-platform Kraken programs such as fully collateralised lending programs. We
+will not use or deploy any assets you allocate to participate in our Opt-In Rewards program
+for internal, proprietary, or investment purposes. When you lend and transfer title in your
+Crypto-assets to us, those Crypto-assets will no longer be held in custody by PESL as a
+regulated crypto-asset custody service under applicable law, and will instead be held by us
+on an unregulated, non-custodial basis. Section 18 of Part C (Custody of Crypto-assets)
+does not apply in relation to any Crypto-assets contributed to the Opt-In Rewards Program,
+during the period they are within the Opt-In Rewards Program.
+Lending, and transferring title to, your Crypto-assets to us subjects you to additional
+risk, as if we were to become insolvent you would be an unsecured creditor and may
+not receive repayment of your contributed Crypto-assets in full or at all.
+By contributing Crypto-assets to the Opt-In Rewards Program, you acknowledge the
+associated risks set out herein and give your informed consent to lend and transfer
+title in the contributed Crypto-assets to us. You agree that because you have lent and
+transferred title in these Crypto-assets to us, these contributed Crypto-assets will not
+be held in accordance with our custodial obligations that are set out elsewhere in this
+Agreement.
+85
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+1.3 Eligible Assets. You can participate in the Opt-In Rewards Program by contributing eligible
+available Crypto-assets from your Account. Only certain Crypto-assets are eligible to
+contribute to the Opt-In Rewards Program. A list of assets that are currently eligible for the
+Opt-In Rewards Program is available at
+https://support.kraken.com/hc/en-us/articles/360044886311-Overview-of-Opt-In-Rewards-on-
+Kraken (each an “Eligible Asset”). We may update the list of Eligible Assets at any time in
+our sole discretion.
+1.4 Geographic Restrictions. The Opt-In Rewards Program is only available to clients located
+in certain countries in the EEA. We may vary the list of such countries from time to time to
+comply with any applicable legal or regulatory obligations and/or our internal policies and
+requirements. You may not use the Opt-In Rewards Program if you are located in or are a
+national or resident of any jurisdiction in which we are not authorised to provide the Opt-In
+Rewards Program, or any jurisdiction where your use of the Opt-In Rewards Program would
+be illegal or otherwise violate any applicable law of that jurisdiction.
+1.5 Disruption to Opt-In Rewards Program. We cannot guarantee uninterrupted or error-free
+operation of the Opt-In Rewards Program or that we will correct all defects or prevent
+disruptions or unauthorised access. We may suspend or discontinue the Opt-In Rewards
+Program in our sole discretion at any time. In the event of any disruptions, suspension, or
+discontinuance of the Opt-In Rewards Program, your contributed Eligible Assets may stop
+generating Rewards and you may not receive any (and you may forfeit all then-accrued)
+Rewards whatsoever.
+1.6 Fees and expenses. We reserve the right to charge fees and expenses in relation to the
+Opt-In Rewards Program. In the event we charge fees and expenses, we will notify you.
+2. Participating in the Opt-In Rewards Program
+2.1 Opting in to the Opt-In Rewards Program. You can opt-in to the Opt-In Rewards Program
+through your Account. You will need to confirm the number and type of Eligible Assets from
+your Account that you wish to contribute. You must only contribute Eligible Assets that
+comprise available and idle Account balances that you initially deposited and that are
+reflected in your Account for trading Fiat Currency and Crypto-assets. We will update your
+Account to show the Eligible Assets that you have contributed to the Opt-In Rewards
+Program when we receive them.
+2.2 Participating Eligible Assets. By contributing Eligible Assets to the Opt-In Rewards
+Program, you lend those contributed Eligible Assets to us and title in those Eligible Assets
+transfers to us. You will not be able to access, transfer, stake, withdraw or otherwise use the
+Eligible Assets that you contributed, until you Opt-Out (as defined below) and we return
+assets that are equivalent to the Eligible Assets you lent us to your Account.
+2.3 Opting Out from the Opt-In Rewards Program. You may request a complete or partial
+return of your contributed Eligible Assets from the Opt-In Rewards Program at any time
+through your Account (”Opt-Out”). You will need to confirm the number and type of
+contributed Eligible Assets that you wish to Opt-Out. When you Opt-Out, you are making an
+on demand request to us to return to you assets equivalent to the contributed Eligible Assets
+that you lent to us, and at the same time pass title in those equivalent assets to you.
+2.4 Return of contributed Eligible Assets. Upon receipt of your request to Opt-Out, we will
+initiate the Opt-Out process to return to you equivalent assets to your contributed Eligible
+Assets to your Account. We will do this as soon as possible, but return of equivalent assets
+to your contributed Eligible Assets (and title to them) may be subject to a delay of up to five
+calendar days after you submit your request.
+86
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+3. Rewards
+3.1 Rewards. The Opt-In Rewards Program entitles you to receive periodic payments, on a
+weekly basis (“Rewards”) as interest payments for the lending of your contributed Eligible
+Assets to us, subject to the terms of this Part L. Rewards will accrue on a weekly basis and
+will be paid to you as an upward adjustment to your contributed Eligible Assets balance in
+your Account.
+3.2 Rewards rates. Reward rates will be determined in our sole discretion based on factors
+including the type of Eligible Asset contributed and market conditions. You acknowledge and
+agree the amounts you receive may vary from week to week.
+3.3 Rewards calculation. Rewards will be calculated and paid with the decimal precision
+described at
+https://support.kraken.com/hc/en-us/articles/360044886311-Overview-of-Opt-In-Rewards-on-
+Kraken, as may be updated by us from time to time in our sole discretion.
+4. Our Rights
+4.1 Use of contributed Eligible Assets. By participating in the Opt-In Rewards Program, you
+acknowledge and agree that you have granted us full rights to use or not use the contributed
+Eligible Assets in our sole discretion and for our own account (subject to those restrictions on
+our use which are detailed in section 1.2 of this Part L), and without further notice to you
+being required; provided that if you Opt-Out for any reason, we will (subject to section 1.5 of
+this Part L) return to you equivalent assets to the contributed Eligible Assets that you lent to
+us, together with your accrued Rewards.
+4.2 Our rights. In addition to our rights set out herein, in relation to the Opt-In Rewards Program
+we reserve the right to:
+● reject or remove any contribution from the Opt-In Rewards Program;
+● establish minimum or maximum contribution amounts; and
+● close the Opt-In Rewards Program.
+4.3 Facilitating return of contributed Eligible Assets. In the event we elect to return
+contributed Eligible Assets to you pursuant to section 4.2, you agree to promptly Opt-Out the
+contributed Eligible Assets and to undertake any other actions we reasonably request in
+order to facilitate that return.
+4.4 Opt-Out limits. We may apply Opt-Out limits based on frequency or volume at any time and
+will notify these to you through the Platform or our Site. In certain market conditions, for
+instance due to high volatility or lack of liquidity in the Eligible Asset markets, we may impose
+other restrictions on opting out from the Opt-In Rewards Programs. We are not responsible
+for any loss you may suffer as a result of any delay due to such market conditions in
+returning the contributed Eligible Assets to your Account.
+5. Risk Warnings
+5.1 Risks of using the Opt-In Rewards Program. The Opt-In Rewards Program is not for
+everyone. You should examine your objectives, financial resources and risk tolerance to
+determine whether contributing Crypto-assets to the Opt-In Rewards Program is appropriate
+for you. Some, but not all, of the risks and uncertainties associated with the Opt-In Rewards
+Program are:
+87
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+● Counterparty Risk: As you have lent and transferred title in the contributed Eligible
+Assets to us in order to participate in the Opt-In Rewards Program, you are subject to
+the risk that if we were to become insolvent you would be an unsecured creditor and
+may not receive repayment of your contributed Eligible Assets in full or at all.
+● Rewards Expectation Risk: We may publish anticipated Reward rates for the Opt-In
+Rewards Program. These rates are forward-looking statements that reflect current
+expectations regarding future events, involve significant risks and uncertainties, should
+not be read as guarantees of future performance or results and will not necessarily be
+accurate indications of whether or not such performance or results will be achieved.
+Forward-looking statements are in no way a form of advice, solicitation or offering of or
+for the Opt-In Rewards Program and should not be interpreted as such.
+● Regulatory risks: Legislative and regulatory changes or actions in your country or state
+of residence may adversely affect: (i) the use, transfer, and value of Eligible Assets you
+contribute; (ii) the operations and profitability of the Opt-In Rewards Program; (iii) the
+tax treatment of the Opt-In Rewards Program; and (iv) your ability to Opt-Out
+contributed Eligible Assets in a timely manner or at all.
+5.2 Timing of return of assets. As set out in section 2.4 of this Part L, when you Opt-Out we
+will return your contributed Eligible Assets but this can in some circumstances take a number
+of days to complete. You should therefore be aware that when you contribute Eligible Assets
+into the Opt-In Rewards Program, they may not be immediately available to you if you need
+them to be returned quickly at a later date.
+5.3 Not a bank account. We are not a bank or other depository institution. Your Account is not a
+deposit account or a bank account. The Opt-In Rewards Program is not a depository or bank
+program. Eligible Assets which you contribute are not covered by insurance against losses or
+the protections of any organisation anywhere in the world.
+5.4 Risk acknowledgment. You understand, acknowledge, and agree that:
+● before using the Opt-In Rewards Program, you will read and you agree to this Part L
+in full;
+● you are solely responsible for, and you assume in full, all risks regarding the Opt-In
+Rewards Program, including all risks disclosed in this section, as well as additional
+risks; and
+● using the Opt-In Rewards Program, you have determined that such use is
+appropriate for you.
+6. Taxes
+6.1 Intended tax treatment. The transfer of Crypto-assets by you to us under the Opt-In
+Rewards Program is intended to be treated as a loan of those Crypto-assets for tax
+purposes. Accordingly, any Rewards you receive under the Opt-In Rewards Program are
+intended to be characterized as interest income by you.
+6.2 No representations. Nothing in Section 6.1 constitutes a representation or warranty by us
+that any court or tax authority will respect the treatment set forth herein. Tax laws and their
+interpretation are subject to change and may vary by jurisdiction and individual
+circumstances. You should consult your tax adviser regarding the tax consequences of
+participating in the Opt-In Rewards Program, including the application of tax rules to your
+individual circumstances.
+88
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+6.3 Withholding taxes. We may withhold (or cause there to be withheld, as the case may be)
+from any amounts otherwise due or payable to you such federal, national, provincial, local
+income non-income, or other taxes as may be required to be withheld pursuant to any
+applicable law or regulation of any jurisdiction or taxing authority. We shall have no obligation
+to increase (“gross-up”) any payment to you to offset any such tax withholding or deduction.
+89
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+PART M: KRAKEN LAUNCH TERMS
+Our provision of Kraken Launch is regulated by the Central Bank of Ireland.
+1. Kraken Launch
+1.1 Kraken Launch Overview. We offer eligible Kraken users the opportunity to participate in
+early token sales conducted by emerging crypto projects before their token generation event
+(“TGE”).
+Kraken Launch relates to crypto-assets, which involve special risks related to the
+specific features of the crypto-asset. The price of crypto-assets depends on
+fluctuations in the financial and crypto-asset markets that are outside of our control.
+Past performance or future forecasts do not constitute reliable indicators of future
+performance. We have set out some of the main risks associated with using Kraken
+Launch in section 5 below. You should read these in full before you decide to use
+Kraken Launch.
+1.2 Connection with Core Services. Where you use Kraken Launch, the terms of this Part M
+Kraken Launch Terms will apply to you in addition to the terms of Part C: Core Services
+Terms (and, for the avoidance of doubt, Part A: General Terms, and Part B: Definitions and
+Interpretation, which always apply). To the extent of any conflict, the terms of this Part M will
+take precedence.
+1.3 Eligibility. Participation in Kraken Launch is subject to satisfaction of the Eligibility Criteria,
+including any Kraken Launch specific eligibility requirements determined by Kraken and the
+applicable project, which are notified to you through the Platform or our Site. We reserve the
+right to restrict or deny access to Kraken Launch to any user at our sole discretion.
+1.4 Disclosures. As part of Kraken Launch, when we share a new opportunity to participate in
+an early token sale, we will provide you with access to the whitepaper for that Crypto-asset,
+which you should review. Please also note the standard disclosures we have made in
+relation to our Crypto-asset Services.
+1.5 Additional terms. Participation in Kraken Launch may be subject to additional terms set by
+the crypto project organising the early token sale – we’ll notify you where these apply. These
+additional terms apply in addition to the terms of this Agreement, and will take precedence to
+the extent of any conflict with the terms of this Agreement
+2. Pledging for Tokens
+2.1 For each token offered through Kraken Launch, there will be an allocation window of a fixed
+duration during which you may pledge certain of your Crypto-assets ( “Pledged Assets”) to
+be used as payment to purchase tokens subject to an eventual TGE (the “Launch Tokens”).
+2.2 These Pledged Assets will be locked until the results of the token sale are announced, which
+will be around the time of TGE. Pledged Assets remain yours at all times and continue to be
+held in custody with PESL in accordance with Part C of these Terms, pending the completion
+of the sale.
+2.3 At the end of the allocation window, Kraken will assess all customers who have Pledged
+Assets against a number of factors to ensure a “merit-based” allocation, as outlined on the
+Kraken Launch platform for each relevant sale.
+2.4 If you are successful, your pledge converts to a purchase from the minimum allocation up to
+your total pledged allocation depending on demand and supply, and you will receive the
+90
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+relevant Launch Tokens in your Account. The minimum allocation for each token sale will be
+specified in the relevant sale terms.
+2.5 If you are not successful, your Pledged Assets will be unlocked, and you will be free to use
+them.
+2.6 Kraken Launch fees. We charge a percentage fee on each order you submit to participate in
+a Kraken Launch early token sale. Details of the applicable percentage are available on our
+Site.
+2.7 Delivery of the Launch Tokens to you is conditional on the project completing its TGE and
+providing us with the ordered Launch Tokens in accordance with its obligations. We do not
+guarantee or warrant that any token sale will be completed or that Launch Tokens will be
+issued or delivered on time, or at all.
+2.8 In the event a project’s TGE is not completed, we will unlock your Pledged Assets, and they
+will become available to use as normal in your Account.
+3. Right to Withdraw
+3.1 Eligibility. If you are a Retail Client and are resident in the EEA, this section 3 applies to
+you, notwithstanding section 8.1 of Part A (Your right to cancel this Agreement). If you do not
+meet both of those criteria, this section does not apply to you.
+3.2 Right to withdraw. You have the right to withdraw from your agreement to participate in any
+Kraken Launch early token sale without incurring any fees or costs and without being
+required to give reasons, providing that the Crypto-asset in question has not already been
+listed on any platform for secondary trading. This right to withdraw begins on the date that
+you pledge your assets to participate in a Kraken Launch sale, and expires 14 calendar days
+from that date, or if earlier, the point at which your Pledged Assets are converted and the
+Launch Tokens are credited to your account To exercise this right to withdraw, please contact
+us using one of the methods set out in section 14.1 of Part A (How to contact us).
+3.3 Unlock and Reimbursement. We will unlock your Pledged Assets and reimburse you any
+fees you have paid in relation to your participation in a Kraken Launch sale without undue
+delay, and in any event no later than 14 calendar days from the date that we receive notice
+from you that you are exercising your right to withdraw.
+4. Risk Disclosure
+4.1 By participating in Kraken Launch, you agree to and accept the following risks:
+● Kraken Launch facilitates access to token sales but does not issue or create the tokens, nor
+does it provide any guarantee as to their value, utility, legality, or performance.
+● The sale of these Launch Tokens does not constitute an offer of securities or investment
+advice. Purchasers are solely responsible for evaluating the risks and merits of participation.
+● Launch Tokens do not represent shares, equity, or ownership in the issuer or exchange, and
+confer no rights to dividends, governance, or participation beyond their intended utility within
+the relevant protocol.
+● Participation in Kraken Launch involves significant risks, including the potential loss of all
+funds, regulatory uncertainty, and lack of liquidity. Tokens may have no value and there is no
+guarantee of listing or secondary market availability.
+● The timing, structure, and success of TGEs are not guaranteed and may be subject to change
+or cancellation.
+91
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+PART N: KRAK CARD TERMS
+Krak Card is issued by UAB Monavate, authorised by the Bank of Lithuania. The
+Kraken E-Money Wallet associated with the Krak Card is provided by Payward Ireland
+Limited which, trading as Kraken, is regulated by the Central Bank of Ireland.
+1. Krak Card Overview
+1.1 Krak Card Terms Overview. This Part N (the “Krak Card Terms”) governs the provision of
+Card services provided by us. As set out in Part A of this Agreement, the Crypto-asset Core
+Services are provided to you by PESL and the E-Money Core Services are provided to you
+by PIL.
+Before using our Card services, you should ensure you have read and understood the
+risk warnings in relation to our Core Services, which are set out in section 18 of Part C
+of this Agreement. We have outlined some of the other substantial risks associated
+with using our services, including submitting Orders, on our Legal Disclosures page,
+which is incorporated into this Agreement by reference. You should carefully review
+these risks to determine if our services are suitable for you, considering your
+circumstances, knowledge, and financial resources.
+1.2 Connection with Core Services. Where you use the Card services, the terms of this Part N
+apply to you in addition to the terms of Part C: Core Services Terms (and, for the avoidance
+of doubt, Part A: General Terms and Part B: Definitions and Interpretation which always
+apply). To the extent of any conflict, the terms of this Part N will take precedence. We have
+used definitions in these Krak Card Terms wherever we think it will be helpful, and capitalised
+terms used but not defined in these Krak Card Terms shall have the meanings given to them
+in Part B of this Agreement.
+2. Krak Card Services Overview
+2.1 The Card. We may offer you the ability to obtain a payment card (“Card”), which is issued to
+you by UAB Monavate (“Monavate”). The Card is governed by separate terms and
+conditions you enter into with Monavate (“Monavate Terms”), which should be read
+alongside these Krak Card Terms. The Card will be linked to your Kraken E-Money Wallet
+and will allow you to spend your Krak ‘Everyday’ balance in the Krak app to buy goods and
+services or withdraw cash in fiat currencies from merchants or cashpoints that accept the
+Card. You agree that you will also use the Card in accordance with the Monavate Terms.
+2.2 About Monavate. UAB Monavate is a company incorporated under the laws of Lithuania
+with registered company number 305628001. Its registered address is Konstitucijos pr. 21a,
+LT-08130, Vilnius. UAB Monavate is authorised by the Bank of Lithuania (“BOL”)
+(authorisation code: LB002139901097) to issue electronic money and provide payment
+services.
+2.3 About the Card services. When you make a Card transaction, you will be using your Card
+to instruct us to make a payment for you. We will do so by transferring the fiat currency
+amount required by us to send to Monavate so that Monavate can onward transfer the
+correct amount to the merchant via the relevant card scheme (“Card Scheme”). The amount
+that will be due from you in total to cover this will be the amount of the Card transaction, plus
+any accompanying fees, converted at the applicable exchange rate (together the “Total
+Transaction Price”). The funds that you will use to make a payment will be taken from:
+92
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+● the Fiat Currency balance of your Kraken E-Money Wallet, in which case the
+necessary amount of Fiat Currency which will be redeemed and the proceeds of
+which will be used to settle the Total Transaction Price; or
+● your available Crypto-asset balance, in which case PESL will sell Crypto-assets (a
+“Crypto-asset Transaction”) and the proceeds of which will be used to settle the
+Total Transaction Price; or
+● a combination of these two.
+All Crypto-asset Transactions are part of the Crypto-asset Core Services, governed by Part
+C of this Agreement that set out your trading of Crypto-assets, and the same considerations
+and restrictions apply. This means that, among other things, there are a number of situations
+in which a Crypto-asset Transaction may be rejected, declined or fail, as explained in Part C.
+If the Total Transaction Price is not deducted immediately, we reserve the right to deduct this
+amount at a later point in time. If, as a result of this, a transaction is completed by us for
+where the Total Transaction Price is greater than both the total balance of your Kraken
+E-Money Wallet and/or your sale price of the Crypto-assets you hold at the point at which we
+go to settle this amount, then you will owe this to us as a debt and you must put your Kraken
+E-Money Wallet into a positive balance as soon as possible so that you may continue to use
+your Kraken-E Money Wallet and Card without interruption.
+2.4 Your authorisation. By taking out a Card, you expressly authorise us to use any Fiat
+Currency balance(s) and/or Crypto-assets in your Account in order to settle Card
+transactions. You may give instructions at any time through the Krak app if there are any Fiat
+Currency balances and/or Crypto-assets that you do not want to be available to settle Card
+transactions. You can find details of any restrictions on the way in which we will use your Fiat
+Currency balances and/or Crypto-assets in the Krak app. If, at the point of the transaction,
+there are insufficient funds to settle the Card transaction, then we reserve the right to decline
+the transaction as set out in more detail at section 6.1 of this Part N.
+2.5 Availability of Crypto-assets. Not all Crypto-assets that you hold in your Account are
+available for Card transactions and the Crypto-assets that are available may change from
+time to time. You will be notified when any additional Crypto-assets become available to be
+used to settle Card transactions. From time to time, there may also be restrictions on the
+availability of the Crypto-assets that you hold to be used to settle Card transactions (for
+example, if at the time of the Card transaction, there is a shortage of a particular
+Crypto-asset in the market).
+3. Krak Card Transactions
+3.1 Using the Card. You will need to authorise each Card transaction by following the
+procedures required for the type of payment you are making. You may need to take steps to
+authorise a transaction at the time you are paying, for example, by entering your Card details
+on a merchant’s online payment page, tapping your Card at the point of sale in-store or
+entering your PIN on the key pad. Depending on the circumstances, you may be required to
+undergo some further security checks at the time such as providing biometric data (e.g. a
+fingerprint).
+3.2 Authorisation. If the Card, card number and PIN, biometric data or other of your Security
+Credentials have been used, we will assume you have authorised the transaction. You must
+therefore tell us immediately if you do not recognise a transaction based on the information
+we provide to you. Please see section 5.5 below for information on how best to contact us.
+93
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+3.3 Cancelling. You cannot cancel a Card transaction after it has been authorised. You can,
+however, cancel payments that you have authorised to be made on a future date, for
+example, if you have set up a recurring payment. To cancel a recurring payment relating to
+your Card, please contact Monavate at https://www.monavate.com/contact.
+3.4 Timing. Below are the timings that apply to transactions under these terms:
+● Where you are settling the transaction with Crypto-assets, any required Crypto-asset
+Transaction will be executed by PESL following your authorisation/pre-authorisation of
+the relevant Card transaction in line with Part C of this Agreement; and
+● Where you are settling the transaction with your Fiat Currency balance, we will transfer
+the Card transaction monies to Monavate in response to the merchant's settlement
+processes and in accordance both with the Card Scheme’s corresponding request and
+the Card Scheme’s settlement timing requirements.
+The maximum execution time of the Card transaction itself is not wholly within our or
+Monavate’s control and is dependent on actions being taken by the merchant and the Card
+Scheme. Monavate will comply with and adhere to the Card Scheme’s and our settlement
+timing requirements.
+3.5 Chargebacks. We accept no responsibility for the goods or services purchased by you with
+your Card. All such disputes must be addressed directly with the merchant providing the
+relevant goods or services. Once you have authorised your Card to make a purchase, we
+cannot stop that Card transaction. However, where you have used your Card to buy goods or
+services, you may have a claim against the merchant if the goods or services are
+unsatisfactory, not supplied, supplied only in part or do not match the supplier’s description.
+You must notify us of any dispute and the chargeback will only be applied to your Kraken
+E-Money Wallet in the currency your card is denominated in if successfully secured from the
+merchant. If you wrongly make a chargeback claim, we will be entitled to charge you any
+fees we reasonably incur in pursuing the chargeback claim and we will be entitled to debit
+your Kraken E-Money Wallet with the amount of any such fees.
+3.6 Refund rights where you’ve been charged more than you expected. You may claim a
+refund for a Card transaction that you authorised provided that the following three conditions
+apply:
+● your authorisation did not specify the exact amount when you consented to the
+transaction;
+● the amount of the transaction exceeded the amount that you could reasonably have
+expected it to be (taking into account your previous spending pattern, these Krak Card
+Terms and the circumstances of this case); and
+● you requested a refund from us within 8 weeks of the date the transaction took place.
+When you request a refund under this section, we may require you to provide us with
+evidence to substantiate your claim. We will refund you within 10 Business Days of receiving
+your claim for a refund or, where applicable, within 10 Business Days of receiving any further
+information we requested - or we will provide you with reasons for refusing the refund. The
+refund shall be equal to the amount of the relevant transaction. If the transaction in question
+was funded by a Crypto-asset Transaction or Fiat Currency in a currency that is not in your
+Card’s primary currency (“Settlement Currency”), you will only receive any refund as the
+equivalent amount of Fiat Currency issued to your Account in your Card’s Settlement
+Currency; we will not credit the original Crypto-asset(s) used to fund the payment
+transaction.
+94
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+3.7 Unauthorised Card transactions. If it is established a Card transaction has been executed
+without your consent, we will provide you with a refund. Any such refund will only be made if
+you comply with your obligations set out herein and will be subject to section 5 (Refunds for
+Unauthorised or Incorrect Transactions) of Part C of this Agreement. If a refund is granted,
+we will credit your Kraken E-Money Wallet in your Card's Settlement Currency. We will not
+credit the original Crypto-asset(s) used to fund the payment transaction.
+3.8 Errors. In the event of an error with respect to any Crypto-asset Transaction (for example,
+accidentally using a Crypto-asset to settle a Card transaction that you have told us should
+not be available for Card transactions), this will be dealt with in accordance with section 13.9
+(Order Errors) of Part C of this Agreement. Part A of this Agreement sets out further details
+of any liability potentially owed to you.
+3.9 Limits. Our limits on your Card use are set out in the Krak app.
+4. Charges and Currency Conversion
+4.1 Settlement of transactions. When Monavate issues your Card, it will be denominated in
+Euro. If you attempt to make a payment using your Card in a currency that is different to the
+currency in which the Card is denominated (even if you hold that currency in your Kraken
+E-Money Wallet), the payment will be automatically processed using a currency conversion
+rate to Euro.
+4.2 Charges. When we sell Crypto-assets in the context of a Card transaction, we will include a
+spread in the price quoted. You can find information on charges here; the Krak app and our
+website will show details of the spread applied.
+4.3 Exchange Rates. Currency conversions between a transaction you attempt to make and the
+currency that denominates your Card, as well as on Crypto-asset Transactions, will be
+subject to the exchange rate at the time of the given Card transaction. You can find
+information on the exchange rates we use here; the Krak app and our website will show
+details of the exchange rate applied. Any conversion is final at the point at which we
+authorise the transaction.
+4.4 Changes to Charges and Exchange Rates. We may make changes to the applicable
+charges and exchange rates from time to time in accordance with section 10.1 (Notice of
+changes to these E-money Core Services Terms) of Part C of this Agreement.
+4.5 Tax. You are responsible for determining and fulfilling any tax obligations that may arise in
+connection with your use of the Krak Card and/or any Cashback you may receive, including
+but not limited to rewards related to Crypto-assets such as bitcoin. You can find more
+information on taxes here.
+5. Communications
+5.1 General information. You may request a copy of these Krak Card Terms at any time.
+5.2 Communications from Monavate. As set out in the Monavate Terms, if Monavate needs to
+communicate with you in relation to the Card that they have issued you, such
+communications will be made through us (Kraken) using the methods set out in the
+Monavate Terms.
+5.3 Information about Card transactions. We will provide you with regular information about
+your Card transactions in accordance with section 3.5 (Regular Information) of Part C of this
+Agreement.
+5.4 Keeping your Card and its details safe. You must:
+95
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+● keep your Card, Card number, 3-digit security code and PIN safe;
+● not give your Card or its details (including the PIN) to anyone else;
+● not permit any other person to use your Card;
+● inform yourself about common scams, such as phishing; and
+● take all reasonable precautions to prevent the misuse of your Card and/or its details.
+5.5 Telling us if your Card is lost, stolen or misused. If you believe that:
+(1) your Card has been lost, stolen or misused (whether for the making of unauthorised
+Card transactions or in any other way); and/or
+(2) Card transactions in respect of your Card have either not been executed or have been
+defectively-executed; then
+you must inform us immediately through the Krak app.
+5.6 Amending this Part N. Subject to section 7.11 of this Part N (Krak Card Rewards), we may
+make changes to this Part N at any time in accordance with section 10 (Amending the
+E-money Core Services Terms) of Part C of this Agreement.
+5.7 Your right to object to changes. You have the right to object to any proposed changes and,
+in doing so, terminate this Part N and the Monavate Terms immediately and without charge
+by providing written notice to us, provided that you do so before the changes come into
+effect. If you exercise this right, then your Card and any pending transactions will be
+cancelled. If we do not hear from you before such changes come into effect, you will be
+deemed to have accepted the changes and the amended terms will apply from the date
+included in the notice.
+6. Suspension, Cancellation and Termination
+6.1 Refusal and Suspension. We may refuse or decline a Card transaction you attempt and/or
+terminate your access to the Card and/or any or all of the related services with immediate
+effect where:
+● we are, in our reasonable opinion, required to do so by applicable law or any court or
+other authority to which we are subject in any jurisdiction;
+● we have concerns that a Card transaction is erroneous or about the security of your
+Card, your Kraken E-Money Wallet or we suspect our services are being used in a
+fraudulent or unauthorised manner;
+● we suspect money laundering, terrorist financing, fraud, or any other financial crime;
+● you have insufficient Fiat Currency and/or Crypto-assets in your Account to cover the
+Total Transaction Price of a relevant Card transaction;
+● you have not provided us with information that we need to make the payment or we
+need to carry out further checks;
+● the payment exceeds any limits we tell you about when you try to make it;
+● a third party prevents us from making the payment (for example, a card scheme); and/or
+● we have suspended your Account.
+We may also suspend your use of the Card (and associated Security Credentials) if we
+reasonably:
+● suspect there has been unauthorised or fraudulent use of your Card;
+96
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+● have concerns about the security of your Card; or
+● believe that it is required in order to meet a legal or regulatory obligation that applies to
+us.
+If we refuse to approve a Card transaction and/or suspend your use of the Card and any
+related services in this way, we will (unless it would be unlawful for us to do so) provide you
+with notice of our actions and the reasons for the refusal or suspension where appropriate,
+with the procedure for correcting any factual errors that led to us taking that action. In the
+event that we decline a Card transaction and/or suspend your use of the Card and any related
+service, we will lift the suspension as soon as reasonably practicable once the reasons for
+declining and/or suspension no longer exist. Monavate has additional rights to refuse Card
+transactions and suspend the use of the Card, as set out in the Monavate Terms.
+6.2 Cancellation and termination of these Krak Card Terms by you. You may cancel these
+Krak Card Terms within 14 days of accepting them and you may terminate these Krak Card
+Terms at any time by giving notice of such termination to us. You will not be charged by us
+for such cancellation or termination, although you will be required to pay any amounts owed
+to us under any outstanding Card transactions and from the date of cancellation will no
+longer be able to use the Card. If you cancel or terminate these Krak Card Terms you will
+also simultaneously cancel or terminate the Monavate Terms and we will notify Monavate on
+your behalf to confirm this.
+6.3 Termination of these Krak Card Terms by us. We may terminate this Part N at any time in
+accordance with section 8.3 (Our right to terminate) of Part A of this Agreement. In addition
+to our rights to terminate for cause under section 11 (Terminating the E-money Core Services
+Terms) of Part C of this Agreement, we may terminate this Part N immediately and without
+prior notice to you if:
+● we are, in our reasonable opinion, required to do so by applicable law or any court or
+other authority to which we are subject in any jurisdiction;
+● we reasonably suspect you of acting in breach of these Krak Card Terms, this
+Agreement or the Monavate Terms;
+● we reasonably suspect our services are being used by you in a fraudulent or
+unauthorised manner; or
+● we reasonably suspect you of being engaged in money laundering, terrorist financing,
+fraud, or any other financial crime.
+6.4 Termination of this Agreement and the Monavate Terms. These Krak Card Terms will
+terminate automatically upon termination of this Agreement and/or the Monavate Terms. In
+the event of such termination, we may notify you that any pending Card transactions are
+suspended or declined. In any event, you will be required to pay any outstanding amounts
+owed to us.
+7. Krak Card Rewards
+7.1 Eligible Cashback. Every time you make a Card transaction which is an eligible purchase,
+we will reward you with “Cashback” and give you back a percentage of the amount of the
+Card transaction. We explain what eligible purchases are in the Krak App and here.
+Cashback is a reward by us (and not Monavate, as issuer of your Card, nor any other party)
+for making a Card transaction, so it does not impact any offers merchants may also give you.
+7.2 Ineligible transactions. The following transactions will not be eligible for Cashback:
+● taking out cash (including withdrawing cash from a cash machine)
+97
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+● transactions under 0.49 in your Card’s Settlement Currency.
+We reserve the right to change this list of ineligible transactions at any time.
+7.3 How Cashback is calculated. The amount of any Cashback we will reward you with for any
+Card transaction is a percentage of the value of the Card transaction. The percentage that
+any Cashback is calculated on will be explained in the Krak App. We reserve the right to
+change the percentages of Cashback awarded at any time. We may set out multiple possible
+percentages in the Krak App and impose eligibility requirements that will determine which
+percentage is used to calculate Cashback on your Card transactions at that point in time. If
+you do not qualify for any possible percentages, none of your Card transactions will be an
+eligible purchase and you will not receive any Cashback for making a Card transaction.
+7.4 Timing of Cashback. Any Cashback that arises from a Card transaction will be calculated in
+accordance with these Krak Card Terms and made available to you shortly after settlement
+of that specific Card transaction in line with section 3.4 of this Part N.
+7.5 Form of Cashback. Any Cashback due to you by us will be paid either in:
+● your Card's Settlement Currency. Here any Cashback will be credited by PIL to your Kraken
+E-Money Wallet in the form of e-money as part of the settlement of your Card transaction; or
+● in bitcoin. Here, we will instruct PESL to transfer the required value of bitcoin (calculated at
+the point of settlement of the transaction) to your account.
+You can tell us that you wish to change the form your Cashback is paid to you in using the
+Krak App. The form in which Cashback is paid is subject to availability and we reserve the
+right to restrict or change the available and/or any default forms at any time.
+7.6 Refunded Card Transactions. If a Card transaction is refunded then it immediately ceases
+to become an eligible purchase and you agree that:
+● you are no longer eligible to receive Cashback for that Card transaction; and
+● you will immediately return any Cashback that we have rewarded you with in relation to that
+Card transaction. Where you are required to return any Cashback, you authorise us to take
+any steps required to do so in relation to your Kraken E-Money Wallet and account including
+but not limited to redeeming any e-money held in your Kraken E-Money Wallet, transferring
+any Crypto-assets out of your account, and/or setting off any amounts that we may otherwise
+owe you.
+7.7 Disputed Card Transactions. You are also required to return Cashback that we have paid
+to you in error as well as for transactions where you acted fraudulently and/or misused or
+‘gamed’ Krak Card Rewards. Where you are required to return any Cashback, you authorise
+us to take any steps required to do so in relation to your Kraken E-Money Wallet and account
+including but not limited to redeeming any e-money held in your Kraken E-Money Wallet,
+transferring any Crypto-assets out of your account, and/or setting off any amounts that we
+may otherwise owe you.
+7.8 Missing Cashback: If you think you are missing Cashback, you need to tell us through the
+Krak App within 60 days of you making the relevant Card transaction. If, following
+consideration, we decide you should have earned Cashback, we will pay it to you.
+7.9 Reward Disclaimer. All rewards are offered solely by us and not by Monavate (the issuer of
+your Card). Monavate is not responsible for, nor involved in, the provision or administration of
+any rewards associated with your Card.
+98
+
+DO NOT AMEND OR APPROVE ANY COMMENTS
+7.10 Abuse of Krak Card Rewards. If we reasonably suspect any fraud or misuse by you
+relating to Krak Card Rewards, or if you breach the Krak Card Terms, we may disqualify you
+from earning Cashback.
+7.11 Changes to Krak Card Rewards. We may make changes to the terms applying to Krak
+Card Rewards, as well as withdraw it, at any time. You can check the Krak App at any time to
+find the latest Krak Card Rewards available to you.
+99

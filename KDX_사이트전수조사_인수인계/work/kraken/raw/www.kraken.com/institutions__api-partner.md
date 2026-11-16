@@ -837,14 +837,6 @@ Kaspa
 
 KAS
 
-JITOSOL
-
-[그림: JITOSOL icon]
-
-Jitosol
-
-JITOSOL
-
 NIGHT
 
 [그림: NIGHT icon]
@@ -852,6 +844,14 @@ NIGHT
 Midnight
 
 NIGHT
+
+JITOSOL
+
+[그림: JITOSOL icon]
+
+Jitosol
+
+JITOSOL
 
 SHIB
 
@@ -1109,14 +1109,6 @@ Kaspa
 
 KAS
 
-JITOSOL
-
-[그림: JITOSOL icon]
-
-Jitosol
-
-JITOSOL
-
 NIGHT
 
 [그림: NIGHT icon]
@@ -1124,6 +1116,14 @@ NIGHT
 Midnight
 
 NIGHT
+
+JITOSOL
+
+[그림: JITOSOL icon]
+
+Jitosol
+
+JITOSOL
 
 ALGO
 
@@ -1205,14 +1205,6 @@ EURC
 
 EURC
 
-FIL
-
-[그림: FIL icon]
-
-Filecoin
-
-FIL
-
 LSETH
 
 [그림: LSETH icon]
@@ -1220,6 +1212,14 @@ LSETH
 Liquid Staked ETH
 
 LSETH
+
+FIL
+
+[그림: FIL icon]
+
+Filecoin
+
+FIL
 
 CAKE
 
@@ -1325,14 +1325,6 @@ Celestia
 
 TIA
 
-CRV
-
-[그림: CRV icon]
-
-Curve DAO
-
-CRV
-
 SOFID
 
 [그림: SOFID icon]
@@ -1340,6 +1332,14 @@ SOFID
 SoFiUSD
 
 SOFID
+
+CRV
+
+[그림: CRV icon]
+
+Curve DAO
+
+CRV
 
 PENGU
 
@@ -1461,14 +1461,6 @@ EURC
 
 EURC
 
-FIL
-
-[그림: FIL icon]
-
-Filecoin
-
-FIL
-
 LSETH
 
 [그림: LSETH icon]
@@ -1476,6 +1468,14 @@ LSETH
 Liquid Staked ETH
 
 LSETH
+
+FIL
+
+[그림: FIL icon]
+
+Filecoin
+
+FIL
 
 CAKE
 
@@ -1581,14 +1581,6 @@ Celestia
 
 TIA
 
-CRV
-
-[그림: CRV icon]
-
-Curve DAO
-
-CRV
-
 SOFID
 
 [그림: SOFID icon]
@@ -1596,6 +1588,14 @@ SOFID
 SoFiUSD
 
 SOFID
+
+CRV
+
+[그림: CRV icon]
+
+Curve DAO
+
+CRV
 
 PENGU
 
@@ -1661,6 +1661,8 @@ SOL/USD
 
 SOL
 
+ZEC
+
 [그림: ZEC icon]
 
 ZEC/USD
@@ -1683,11 +1685,15 @@ XRP/USD
 
 XRP
 
+NVDAX
+
 [그림: NVDAX icon]
 
 NVDAx/USD
 
 NVDAx
+
+DOGE
 
 [그림: DOGE icon]
 
@@ -1727,14 +1733,6 @@ TAO/USD
 
 TAO
 
-ASTER
-
-[그림: ASTER icon]
-
-ASTER/USD
-
-ASTER
-
 ADA
 
 [그림: ADA icon]
@@ -1742,6 +1740,14 @@ ADA
 ADA/USD
 
 ADA
+
+ASTER
+
+[그림: ASTER icon]
+
+ASTER/USD
+
+ASTER
 
 SOL
 
@@ -1759,14 +1765,6 @@ AVAX/USD
 
 AVAX
 
-UNI
-
-[그림: UNI icon]
-
-UNI/USD
-
-UNI
-
 XMR
 
 [그림: XMR icon]
@@ -1774,6 +1772,14 @@ XMR
 XMR/USD
 
 XMR
+
+UNI
+
+[그림: UNI icon]
+
+UNI/USD
+
+UNI
 
 QNT
 
@@ -1791,14 +1797,6 @@ XAG/USD
 
 XAG
 
-INJ
-
-[그림: INJ icon]
-
-INJ/USD
-
-INJ
-
 SUI
 
 [그림: SUI icon]
@@ -1806,6 +1804,14 @@ SUI
 SUI/USD
 
 SUI
+
+INJ
+
+[그림: INJ icon]
+
+INJ/USD
+
+INJ
 
 LINK
 
@@ -1839,22 +1845,6 @@ XLM/USD
 
 XLM
 
-PUMP
-
-[그림: PUMP icon]
-
-PUMP/USD
-
-PUMP
-
-LTC
-
-[그림: LTC icon]
-
-LTC/USD
-
-LTC
-
 SPCXX
 
 [그림: SPCXX icon]
@@ -1863,6 +1853,14 @@ SPCXx/USD
 
 SPCXx
 
+PUMP
+
+[그림: PUMP icon]
+
+PUMP/USD
+
+PUMP
+
 PENGU
 
 [그림: PENGU icon]
@@ -1870,6 +1868,14 @@ PENGU
 PENGU/USD
 
 PENGU
+
+LTC
+
+[그림: LTC icon]
+
+LTC/USD
+
+LTC
 
 TRX
 
@@ -1999,14 +2005,6 @@ TAO/USD
 
 TAO
 
-ASTER
-
-[그림: ASTER icon]
-
-ASTER/USD
-
-ASTER
-
 ADA
 
 [그림: ADA icon]
@@ -2014,6 +2012,14 @@ ADA
 ADA/USD
 
 ADA
+
+ASTER
+
+[그림: ASTER icon]
+
+ASTER/USD
+
+ASTER
 
 SOL
 
@@ -2031,14 +2037,6 @@ AVAX/USD
 
 AVAX
 
-UNI
-
-[그림: UNI icon]
-
-UNI/USD
-
-UNI
-
 XMR
 
 [그림: XMR icon]
@@ -2046,6 +2044,14 @@ XMR
 XMR/USD
 
 XMR
+
+UNI
+
+[그림: UNI icon]
+
+UNI/USD
+
+UNI
 
 QNT
 
@@ -2063,14 +2069,6 @@ XAG/USD
 
 XAG
 
-INJ
-
-[그림: INJ icon]
-
-INJ/USD
-
-INJ
-
 SUI
 
 [그림: SUI icon]
@@ -2078,6 +2076,14 @@ SUI
 SUI/USD
 
 SUI
+
+INJ
+
+[그림: INJ icon]
+
+INJ/USD
+
+INJ
 
 LINK
 
@@ -2111,22 +2117,6 @@ XLM/USD
 
 XLM
 
-PUMP
-
-[그림: PUMP icon]
-
-PUMP/USD
-
-PUMP
-
-LTC
-
-[그림: LTC icon]
-
-LTC/USD
-
-LTC
-
 SPCXX
 
 [그림: SPCXX icon]
@@ -2135,6 +2125,14 @@ SPCXx/USD
 
 SPCXx
 
+PUMP
+
+[그림: PUMP icon]
+
+PUMP/USD
+
+PUMP
+
 PENGU
 
 [그림: PENGU icon]
@@ -2142,6 +2140,14 @@ PENGU
 PENGU/USD
 
 PENGU
+
+LTC
+
+[그림: LTC icon]
+
+LTC/USD
+
+LTC
 
 TRX
 
@@ -2175,11 +2181,21 @@ ZRO/USD
 
 ZRO
 
+SOXL
+
 [그림: SOXL icon]
 
 SOXL/USD
 
 SOXL
+
+ARB
+
+[그림: ARB icon]
+
+ARB/USD
+
+ARB
 
 PAXG
 
@@ -2189,18 +2205,6 @@ PAXG/USD
 
 PAXG
 
-[그림: ARB icon]
-
-ARB/USD
-
-ARB
-
-[그림: DOT icon]
-
-DOT/USD
-
-DOT
-
 AAVE
 
 [그림: AAVE icon]
@@ -2209,17 +2213,29 @@ AAVE/USD
 
 AAVE
 
+DOT
+
+[그림: DOT icon]
+
+DOT/USD
+
+DOT
+
+WIF
+
 [그림: WIF icon]
 
 WIF/USD
 
 WIF
 
-[그림: FET icon]
+WTIOIL
 
-FET/USD
+[그림: WTIOIL icon]
 
-FET
+WTIOIL/USD
+
+WTIOIL
 
 BTC
 
@@ -2237,13 +2253,13 @@ CRV/USD
 
 CRV
 
-WTIOIL
+FET
 
-[그림: WTIOIL icon]
+[그림: FET icon]
 
-WTIOIL/USD
+FET/USD
 
-WTIOIL
+FET
 
 SNDK
 
@@ -2261,22 +2277,6 @@ ENA/USD
 
 ENA
 
-WLD
-
-[그림: WLD icon]
-
-WLD/USD
-
-WLD
-
-HBAR
-
-[그림: HBAR icon]
-
-HBAR/USD
-
-HBAR
-
 TRUMP
 
 [그림: TRUMP icon]
@@ -2293,6 +2293,22 @@ QQQx/USD
 
 QQQx
 
+WLD
+
+[그림: WLD icon]
+
+WLD/USD
+
+WLD
+
+HBAR
+
+[그림: HBAR icon]
+
+HBAR/USD
+
+HBAR
+
 KAVA
 
 [그림: KAVA icon]
@@ -2301,14 +2317,6 @@ KAVA/USD
 
 KAVA
 
-GOOGLX
-
-[그림: GOOGLX icon]
-
-GOOGLx/USD
-
-GOOGLx
-
 FIL
 
 [그림: FIL icon]
@@ -2316,6 +2324,14 @@ FIL
 FIL/USD
 
 FIL
+
+GOOGLX
+
+[그림: GOOGLX icon]
+
+GOOGLx/USD
+
+GOOGLx
 
 BTC
 
@@ -2445,14 +2461,6 @@ SOXL/USD
 
 SOXL
 
-PAXG
-
-[그림: PAXG icon]
-
-PAXG/USD
-
-PAXG
-
 ARB
 
 [그림: ARB icon]
@@ -2461,13 +2469,13 @@ ARB/USD
 
 ARB
 
-DOT
+PAXG
 
-[그림: DOT icon]
+[그림: PAXG icon]
 
-DOT/USD
+PAXG/USD
 
-DOT
+PAXG
 
 AAVE
 
@@ -2477,6 +2485,14 @@ AAVE/USD
 
 AAVE
 
+DOT
+
+[그림: DOT icon]
+
+DOT/USD
+
+DOT
+
 WIF
 
 [그림: WIF icon]
@@ -2485,13 +2501,13 @@ WIF/USD
 
 WIF
 
-FET
+WTIOIL
 
-[그림: FET icon]
+[그림: WTIOIL icon]
 
-FET/USD
+WTIOIL/USD
 
-FET
+WTIOIL
 
 BTC
 
@@ -2509,13 +2525,13 @@ CRV/USD
 
 CRV
 
-WTIOIL
+FET
 
-[그림: WTIOIL icon]
+[그림: FET icon]
 
-WTIOIL/USD
+FET/USD
 
-WTIOIL
+FET
 
 SNDK
 
@@ -2533,22 +2549,6 @@ ENA/USD
 
 ENA
 
-WLD
-
-[그림: WLD icon]
-
-WLD/USD
-
-WLD
-
-HBAR
-
-[그림: HBAR icon]
-
-HBAR/USD
-
-HBAR
-
 TRUMP
 
 [그림: TRUMP icon]
@@ -2565,6 +2565,22 @@ QQQx/USD
 
 QQQx
 
+WLD
+
+[그림: WLD icon]
+
+WLD/USD
+
+WLD
+
+HBAR
+
+[그림: HBAR icon]
+
+HBAR/USD
+
+HBAR
+
 KAVA
 
 [그림: KAVA icon]
@@ -2573,14 +2589,6 @@ KAVA/USD
 
 KAVA
 
-GOOGLX
-
-[그림: GOOGLX icon]
-
-GOOGLx/USD
-
-GOOGLx
-
 FIL
 
 [그림: FIL icon]
@@ -2588,6 +2596,14 @@ FIL
 FIL/USD
 
 FIL
+
+GOOGLX
+
+[그림: GOOGLX icon]
+
+GOOGLx/USD
+
+GOOGLx
 
 BTC
 
@@ -2717,11 +2733,7 @@ BTC/USD
 
 BTC
 
-[그림: RENDER icon]
-
-RENDER/USD
-
-RENDER
+SAMSUNG
 
 [그림: SAMSUNG icon]
 
@@ -2729,11 +2741,31 @@ SAMSUNG/USD
 
 SAMSUNG
 
+RENDER
+
+[그림: RENDER icon]
+
+RENDER/USD
+
+RENDER
+
+JUP
+
 [그림: JUP icon]
 
 JUP/USD
 
 JUP
+
+KAS
+
+[그림: KAS icon]
+
+KAS/USD
+
+KAS
+
+SEI
 
 [그림: SEI icon]
 
@@ -2741,11 +2773,7 @@ SEI/USD
 
 SEI
 
-[그림: ATOM icon]
-
-ATOM/USD
-
-ATOM
+COINX
 
 [그림: COINX icon]
 
@@ -2760,6 +2788,22 @@ PONS
 PONS/USD
 
 PONS
+
+TIA
+
+[그림: TIA icon]
+
+TIA/USD
+
+TIA
+
+ATOM
+
+[그림: ATOM icon]
+
+ATOM/USD
+
+ATOM
 
 ETH
 
@@ -2777,14 +2821,6 @@ DASH/USD
 
 DASH
 
-TIA
-
-[그림: TIA icon]
-
-TIA/USD
-
-TIA
-
 NBIS
 
 [그림: NBIS icon]
@@ -2792,14 +2828,6 @@ NBIS
 NBIS/USD
 
 NBIS
-
-KAS
-
-[그림: KAS icon]
-
-KAS/USD
-
-KAS
 
 TSLAX
 
@@ -2865,14 +2893,6 @@ AMD/USD
 
 AMD
 
-US100
-
-[그림: US100 icon]
-
-US100/USD
-
-US100
-
 ACE
 
 [그림: ACE icon]
@@ -2880,6 +2900,14 @@ ACE
 ACE/USD
 
 ACE
+
+US100
+
+[그림: US100 icon]
+
+US100/USD
+
+US100
 
 GRASS
 
@@ -2897,14 +2925,6 @@ METAx/USD
 
 METAx
 
-HOODX
-
-[그림: HOODX icon]
-
-HOODx/USD
-
-HOODx
-
 BRENTOIL
 
 [그림: BRENTOIL icon]
@@ -2912,6 +2932,14 @@ BRENTOIL
 BRENTOIL/USD
 
 BRENTOIL
+
+HOODX
+
+[그림: HOODX icon]
+
+HOODx/USD
+
+HOODx
 
 ETH
 
@@ -2961,14 +2989,6 @@ BTC/USD
 
 BTC
 
-RENDER
-
-[그림: RENDER icon]
-
-RENDER/USD
-
-RENDER
-
 SAMSUNG
 
 [그림: SAMSUNG icon]
@@ -2976,6 +2996,14 @@ SAMSUNG
 SAMSUNG/USD
 
 SAMSUNG
+
+RENDER
+
+[그림: RENDER icon]
+
+RENDER/USD
+
+RENDER
 
 JUP
 
@@ -2985,6 +3013,14 @@ JUP/USD
 
 JUP
 
+KAS
+
+[그림: KAS icon]
+
+KAS/USD
+
+KAS
+
 SEI
 
 [그림: SEI icon]
@@ -2992,14 +3028,6 @@ SEI
 SEI/USD
 
 SEI
-
-ATOM
-
-[그림: ATOM icon]
-
-ATOM/USD
-
-ATOM
 
 COINX
 
@@ -3017,6 +3045,22 @@ PONS/USD
 
 PONS
 
+TIA
+
+[그림: TIA icon]
+
+TIA/USD
+
+TIA
+
+ATOM
+
+[그림: ATOM icon]
+
+ATOM/USD
+
+ATOM
+
 ETH
 
 [그림: ETH icon]
@@ -3033,14 +3077,6 @@ DASH/USD
 
 DASH
 
-TIA
-
-[그림: TIA icon]
-
-TIA/USD
-
-TIA
-
 NBIS
 
 [그림: NBIS icon]
@@ -3048,14 +3084,6 @@ NBIS
 NBIS/USD
 
 NBIS
-
-KAS
-
-[그림: KAS icon]
-
-KAS/USD
-
-KAS
 
 TSLAX
 
@@ -3121,14 +3149,6 @@ AMD/USD
 
 AMD
 
-US100
-
-[그림: US100 icon]
-
-US100/USD
-
-US100
-
 ACE
 
 [그림: ACE icon]
@@ -3136,6 +3156,14 @@ ACE
 ACE/USD
 
 ACE
+
+US100
+
+[그림: US100 icon]
+
+US100/USD
+
+US100
 
 GRASS
 
@@ -3153,14 +3181,6 @@ METAx/USD
 
 METAx
 
-HOODX
-
-[그림: HOODX icon]
-
-HOODx/USD
-
-HOODx
-
 BRENTOIL
 
 [그림: BRENTOIL icon]
@@ -3168,6 +3188,14 @@ BRENTOIL
 BRENTOIL/USD
 
 BRENTOIL
+
+HOODX
+
+[그림: HOODX icon]
+
+HOODx/USD
+
+HOODx
 
 ETH
 

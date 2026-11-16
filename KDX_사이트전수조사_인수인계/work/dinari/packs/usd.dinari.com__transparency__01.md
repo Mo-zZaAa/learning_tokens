@@ -25,7 +25,7 @@ USD+ is 100%-backed by short-term US Treasuries.
 
 | Asset | Chain | Balance | Value |
 | --- | --- | --- | --- |
-| WisdomTree Floating Rate Treasury Fund - Dinari  USFR |  | 56.815366289 USFR | $2,868.61 |
+| WisdomTree Floating Rate Treasury Fund - Dinari  USFR |  | 56.815366289 USFR | $2,869.15 |
 | WisdomTree Floating Rate Treasury Fund - Dinari  USFR |  | 71318.443998175 USFR | $3,600,868.24 |
 | WisdomTree Floating Rate Treasury Fund - Dinari  USFR |  | 0.02741375 USFR | $1.38 |
 | USD+  USD+ |  | 0.000001 USD+ | $0.00 |
@@ -45,3 +45,15 @@ USD+ is 100%-backed by short-term US Treasuries.
 By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
 
 Cookies Settings Reject All Accept All Cookies
+
+## 펼치거나 눌러야 보이던 내용
+
+### Connect Wallet 누른 뒤
+
+- Cookies Settings Reject All Accept All Cookies
+- Connect a Wallet
+- External Wallets
+- Coinbase Wallet
+- WalletConnect
+- New to Ethereum wallets?
+- Learn More

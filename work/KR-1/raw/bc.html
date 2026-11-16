@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <script type="text/javascript">
+    $(document).ready(function () {
+        fn_law();
+    });
+</script> 
+  <script type="text/javascript">
+    $(document).ready(function () {
+        // 한글,pdf 둘 다 없으면 저장 버튼 비활성화
+        if (!$("#hanFlSeq").val() && !$("#pdfFlSeq").val()) {
+            $("#bylSaveBtn").prop("disabled", true);
+        }
+
+        // 라디오 버튼 옵션 활성화
+        if ($("#hanFlSeq").val()) {
+            $("#saveBylHWPDiv").show();
+        }
+
+        if ($("#pdfFlSeq").val()) {
+            $("#saveBylPDFDiv").show();
+        }
+
+        if ($("#brtFlSeq").val()) {
+            $("#bylBrtSaveBtn").show();
+        }
+
+        if (document.body.className !== "dark") {
+            var bylViewer = document.querySelector('iframe[id^="fancybox-frame"]');
+            if(bylViewer){
+                bylViewer.src = bylViewer.src.replace('viewer/skin/','viewer/skin_light/')
+            }
+        }
+    })
+</script> 
+ </head>
+ <body>
+  <div class="fancybox-inner" id="pdf171326817" style="overflow: auto; width: auto; height: 100%;"> 
+   <iframe title="viewerPdf" id="fancybox-frame171326817" name="fancybox-frame1711343642316" class="fancybox-iframe" frameborder="0" vspace="0" hspace="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" scrolling="auto" src="/LSW/viewer/skin/doc.html?imageConverting=true&amp;convLocale=ko_KR&amp;key=171326817&amp;contextPath=/viewer/BYL/LS/2026/11/0108172026111036823/SKIN/171326817"></iframe> 
+  </div> 
+  <p id="bylContentsPrint" style="padding-top:17px;line-height:0;margin-left:0;display:none;"> <img src="/LSW/flDownload.do?flSeq=171328939" alt="법령별표 본문이미지" /><br /><br /> <img src="/LSW/flDownload.do?flSeq=171328941" alt="법령별표 본문이미지" /><br /><br /> <img src="/LSW/flDownload.do?flSeq=171328943" alt="법령별표 본문이미지" /><br /><br /> <img src="/LSW/flDownload.do?flSeq=171328945" alt="법령별표 본문이미지" /><br /><br /> <img src="/LSW/flDownload.do?flSeq=171328947" alt="법령별표 본문이미지" /><br /><br /> <img src="/LSW/flDownload.do?flSeq=171328949" alt="법령별표 본문이미지" /><br /><br /> </p> 
+  <input type="hidden" id="hanFlSeq" name="hanFlSeq" value="171326815" /> 
+  <input type="hidden" id="odtFlSeq" name="odtFlSeq" value="" /> 
+  <input type="hidden" id="pdfFlSeq" name="pdfFlSeq" value="171326817" /> 
+  <input type="hidden" id="brtFlSeq" name="brtFlSeq" value="" /> 
+  <input type="hidden" id="govLnkUrl" name="govLnkUrl" value="" /> 
+ </body>
+</html>

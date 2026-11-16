@@ -23,6 +23,14 @@ Ondo Stocks are not registered under the Securities Act of 1933, as amended (the
 
 [View Eligibility Restrictions](https://docs.ondo.finance/ondo-stocks/eligibility)[Back to Home](https://ondo.finance/)
 
+## 펼치거나 눌러야 보이던 내용
+
+### Connect Wallet 누른 뒤
+
+- Invest
+- Overview
+- Private Client
+
 ## 구조화 데이터(JSON-LD)
 
 ```json

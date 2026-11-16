@@ -1,7 +1,7 @@
 | 묶음(같은 경로 틀) | 전체 | 정독 | 훑기 | 목록만 | 서로 닮은 정도 | 판단 |
 |---|---|---|---|---|---|---|
-| www.kraken.com/xstocks/* | 1216 | 5 | 0 | 1211 | 0.35 | 중간: 표본 2쪽 비교 후 결정 |
-| support.kraken.com/articles/* | 1077 | 27 | 66 | 984 | 0.1 | 서로 다른 글: 제목 보고 관련 글을 read로 승격 |
+| www.kraken.com/xstocks/* | 1216 | 0 | 0 | 1216 |  | 미수집 |
+| support.kraken.com/articles/* | 1079 | 27 | 66 | 986 | 0.1 | 서로 다른 글: 제목 보고 관련 글을 read로 승격 |
 | blog.kraken.com/crypto-education/market-reports/* | 1064 | 0 | 0 | 1064 |  | 미수집 |
 | www.kraken.com/convert/*/* | 1021 | 0 | 0 | 1021 |  | 미수집 |
 | blog.kraken.com/product/*/* | 736 | 33 | 40 | 663 |  | 미수집 |
@@ -11,8 +11,8 @@
 | www.kraken.com/features/dollar-cost-averaging/* | 615 | 0 | 0 | 615 |  | 미수집 |
 | www.kraken.com/price-prediction/* | 615 | 0 | 0 | 615 |  | 미수집 |
 | www.kraken.com/features/futures/*/* | 503 | 0 | 0 | 503 |  | 미수집 |
+| www.kraken.com/stocks/* | 477 | 2 | 0 | 475 | 0.36 | 중간: 표본 2쪽 비교 후 결정 |
 | blog.kraken.com/tag/* | 475 | 3 | 0 | 472 |  | 미수집 |
-| www.kraken.com/stocks/* | 448 | 2 | 0 | 446 |  | 미수집 |
 | www.kraken.com/prices/* | 396 | 0 | 0 | 396 |  | 미수집 |
 | blog.kraken.com/news/* | 330 | 3 | 40 | 287 |  | 미수집 |
 | www.kraken.com/* | 215 | 215 | 0 | 0 | 0.0 | 서로 다른 글: 제목 보고 관련 글을 read로 승격 |

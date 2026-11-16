@@ -1,6 +1,6 @@
 ---
 url: https://app.ondo.finance/legal-documentation?asset=kopnon&autoOpen=true&download=shared-5
-title: Legal Documentation | Ondo
+title: Legal Documentation — OUSG | Ondo
 description: 
 fetched: 2026-11-16
 method: render

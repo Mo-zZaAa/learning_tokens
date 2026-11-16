@@ -1,6 +1,6 @@
 # Claude Code 지시문에 넣을 부분: 공식 사이트 수집
 
-아래 내용을 Claude Code 지시문의 "원자료 수집" 단계에 넣는다. 기업별 정리 틀과 산출물 형식은 기존 지시문을 그대로 따른다.
+아래 내용을 Claude Code 지시문의 "원자료 수집" 단계에 넣는다. 기업별 정리 틀과 산출물 형식은 기존 지시문을 그대로 따른다. 이 파일은 추가분에서 전체가 새 판으로 바뀌었다. 먼저 넣은 문단이 있으면 통째로 이것으로 바꾼다.
 
 ---
 
@@ -8,38 +8,57 @@
 
 ### 준비 (한 번만)
 
-1. `KDX_사이트전수조사_인수인계.zip`을 작업 폴더에 푼다.
+1. `KDX_사이트전수조사_인수인계.zip`을 작업 폴더에 풀고, 같은 자리에 `KDX_사이트전수조사_인수인계_추가분.zip`을 풀어 덮어쓴다. 순서를 지킨다. 겹치는 파일은 추가분이 맞다.
 2. `KDX_사이트전수조사_인수인계/skill/company-site-wiki` 폴더를 `.claude/skills/company-site-wiki`로 복사한다.
-3. 필요한 도구 설치: `pip install requests beautifulsoup4 lxml markdownify playwright "markitdown[pdf]"`. Chrome이 없는 컴퓨터면 `playwright install chromium`도 실행.
-4. `python .claude/skills/company-site-wiki/scripts/sitewiki.py --help`가 도는지 확인.
-5. `00_먼저읽기.md`와 `.claude/skills/company-site-wiki/SKILL.md`를 읽는다.
+3. `KDX_사이트전수조사_인수인계/agents`의 파일 두 개를 `.claude/agents/`로 복사한다.
+4. 필요한 도구 설치: `pip install requests beautifulsoup4 lxml markdownify playwright "markitdown[pdf]"`. Chrome이 없는 컴퓨터면 `playwright install chromium`도 실행.
+5. `python .claude/skills/company-site-wiki/scripts/sitewiki.py --help`가 도는지 확인.
+6. 세 회사 작업 폴더에 `digest`를 한 번씩 실행해 읽기 묶음을 새로 만든다(몇 초, 토큰 없음).
+7. `00_먼저읽기.md`와 `.claude/skills/company-site-wiki/SKILL.md`를 읽는다.
+
+### 역할 나누기
+
+비싼 모델이 원문을 직접 읽지 않는다.
+
+| 층 | 누가 | 하는 일 |
+|---|---|---|
+| 수집 | 스크립트(실행은 site-collector 서브에이전트, Haiku) | map, fetch, digest, verify, audit |
+| 읽기 | site-pack-reader 서브에이전트(Haiku) | 묶음 하나를 읽고 notes 파일 하나 작성 |
+| 정리 | 메인 모델 | 읽을 묶음 고르기, notes와 verify.md만 읽고 위키와 기업별틀 작성 |
+
+- 메인 모델은 packs와 raw를 열지 않는다. `packs/_index.md`의 묶음 이름과 글자수만 보고 읽을 묶음을 고른다.
+- 묶음 하나당 site-pack-reader를 하나 부른다. 넘길 것: 묶음 파일 경로, 메모를 쓸 경로(`work/<회사>/notes/<묶음 파일명>`), 조사 질문(기업별틀의 항목 이름들). 동시에 4~6개까지 돌린다.
+- 읽기가 끝나면 `verify`를 실행한다. `verify.md`에서 "메모에 빠진 페이지"가 있으면 그 묶음을 다시 맡기고, "원문에서 못 찾은 근거"가 붙은 사실은 쓰지 않는다.
+- 메인 모델이 raw를 여는 경우는 둘뿐이다: 인허가, 수수료, 숫자처럼 결론에 직접 쓰는 핵심 주장을 `grep`으로 해당 줄만 확인할 때, 메모끼리 어긋날 때.
+- 세션 전체를 Haiku로 돌린다면 verify까지 하고 멈춘다. notes, verify.md, coverage.md를 넘겨받은 똑똑한 모델이 정리를 맡는다.
 
 ### 작업 방식
 
-- 공식 사이트 조사는 SKILL.md의 절차(map > plan > fetch > digest > 읽기와 메모 > 위키 > audit)를 따른다. 검색과 낱장 열람으로 공식 사이트를 훑지 않는다.
+- 공식 사이트 조사는 SKILL.md의 절차를 따른다. 검색과 낱장 열람으로 공식 사이트를 훑지 않는다.
 - 회사별 작업 폴더는 `KDX_사이트전수조사_인수인계/work/<회사>`를 그대로 이어 쓴다. 새 회사는 같은 위치에 `work/<회사>`를 만든다.
+- 새 회사의 읽기 계획은 메인 모델이 `plan_summary.md`를 보고 한 번 확정한다. 기준은 SKILL.md 2단계와 `00_먼저읽기.md`의 Kraken 예를 따른다.
 - 공식 사이트 밖의 자료(감독기관 등록부, 공시, 보도)는 기존 지시문 방식대로 따로 찾는다. 위키의 open-questions.md에 모인 "외부 확인이 필요한 것"이 그 출발점이다.
 - 회사별 위키(`work/<회사>/wiki`)는 원자료 정리본이다. 기업별틀 엑셀은 위키와 notes를 근거로 채우고, 칸마다 출처 URL을 남긴다.
 
 ### 다시 하지 않을 것
 
-- Kraken 목록화(map): 끝났다. `work/kraken/inventory.csv`에 URL 약 21.7만 개와 계획이 들어 있다. map을 다시 돌리지 않는다.
+- Kraken 목록화(map): 끝났다. `work/kraken/inventory.csv`에 URL 약 21.8만 개와 계획이 들어 있다. map을 다시 돌리지 않는다.
 - Kraken 읽기 계획: `work/kraken/overrides.json`에 제외와 우선순위가 들어 있다. `fetch`를 실행하면 그 계획대로 이어서 수집된다. 계획을 바꿀 때는 패턴을 추가하는 방식으로만 바꾼다.
-- Dinari 수집(map, fetch, digest): 끝났다. `work/dinari/packs`의 묶음을 바로 읽으면 된다.
-- Ondo 목록화(map): 끝났다. 수집 상태는 `00_먼저읽기.md` 표를 본다. 남은 것은 `fetch`만 이어서 실행.
+- Dinari 수집(map, fetch): 끝났다. digest 뒤 바로 읽기로 간다.
+- Ondo 목록화(map): 끝났다. 남은 것은 `fetch`를 이어서 실행하는 것뿐이다.
 - `00_먼저읽기.md`의 "더 볼 필요 없는 곳"에 적힌 구역은 열지 않는다. 기업별틀을 채우다가 꼭 필요해지면 해당 URL만 패턴으로 올린다.
 
 ### 토큰을 아끼는 규칙
 
-- 수집(map, fetch, digest, audit)은 스크립트가 하므로 토큰이 거의 들지 않는다. 토큰은 묶음을 읽을 때 든다.
-- `inventory.csv`, raw 폴더, packs 폴더를 통째로 열지 않는다. Kraken의 inventory.csv는 44MB다. 필요한 줄만 `grep`이나 짧은 파이썬으로 뽑아 본다. 현황은 `plan_summary.md`, `packs/_index.md`, `packs/_groups.md`, `coverage.md`로 본다.
-- 읽기 전에 예상량을 먼저 계산한다. `packs/_index.md`의 글자수를 더해 4로 나누면 대략의 토큰 수다. 회사 하나를 읽기 전에 "읽을 묶음, 글자수 합계, 예상 토큰"을 한 번 보고한다.
+- 수집은 스크립트라 토큰이 거의 들지 않는다. 읽기는 Haiku가 한다. 메인 모델이 읽는 것은 notes, verify.md, 요약 표뿐이다.
+- `inventory.csv`, raw 폴더, packs 폴더를 메인 대화에 올리지 않는다. Kraken의 inventory.csv는 44MB다. 필요한 줄만 `grep`이나 짧은 파이썬으로 뽑아 본다.
+- 회사 하나를 읽기 전에 예상량을 보고한다. `packs/_index.md`에서 읽을 묶음의 글자수를 더해 4로 나누면 Haiku가 읽을 토큰 수이고, 메인 모델이 읽을 notes는 그 5~10%다.
 - 주간 사용량의 50%를 넘길 것으로 보이면 읽기를 시작하지 말고 멈춘 뒤 사용자에게 보고한다. 보고 내용: 지금까지 읽은 양, 남은 묶음과 예상량, 줄일 수 있는 안(묶음 우선순위).
-- 묶음은 조사 질문과 관련이 큰 것부터 읽고, 읽을 때마다 notes를 남긴다. 같은 원문을 두 번 읽지 않는다.
-- 글 묶음(블로그, 고객센터, 약관)은 먼저 URL과 제목을 핵심어로 걸러 관련 글만 읽는다.
-- 서브에이전트로 나눌 때는 회사나 호스트 단위로 나누고, 각 서브에이전트는 notes 파일만 돌려준다. 원문을 대화로 돌려보내지 않는다.
+- 묶음은 조사 질문과 관련이 큰 것부터 맡긴다. 같은 묶음을 두 번 읽히지 않는다.
+- 글 묶음(블로그, 고객센터, 약관)은 먼저 URL과 제목을 핵심어로 걸러 관련 글만 read로 올린다.
+- 서브에이전트는 영수증만 돌려준다. 원문이나 메모 내용을 메인 대화로 돌려보내지 않는다.
 
 ### 끝낼 때
 
-- 회사마다 `audit`을 실행해 `coverage.md`를 남긴다. 안 읽은 범위(구역, 쪽수, 사유)를 그대로 적는다. 읽지 않은 것을 읽은 것처럼 쓰지 않는다.
-- 회사별로 수집 쪽수, 정독 쪽수, 미열람 범위, 외부 확인이 필요한 항목 수를 한 표로 보고한다.
+- 회사마다 `verify`와 `audit`을 실행해 `verify.md`와 `coverage.md`를 남긴다. 안 읽은 범위(구역, 쪽수, 사유)를 그대로 적는다. 읽지 않은 것을 읽은 것처럼 쓰지 않는다.
+- 회사별로 수집 쪽수, 메모한 쪽수, 근거 대조 결과, 미열람 범위, 외부 확인이 필요한 항목 수를 한 표로 보고한다.

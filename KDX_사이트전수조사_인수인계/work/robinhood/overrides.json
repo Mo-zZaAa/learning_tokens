@@ -1,0 +1,31 @@
+{
+ "settings": {},
+ "read": [
+  "*token*",
+  "*robinhood-chain*",
+  "*legal*",
+  "*disclosure*",
+  "https://robinhood.com/us/en/newsroom/*acqui*",
+  "https://robinhood.com/us/en/newsroom/*bitstamp*",
+  "https://robinhood.com/us/en/newsroom/*europe*",
+  "https://robinhood.com/us/en/newsroom/*24*"
+ ],
+ "skim": [
+  "https://robinhood.com/us/en/newsroom/*"
+ ],
+ "list": [
+  "https://robinhood.com/*/prediction-markets/*",
+  "https://robinhood.com/*/learn/*",
+  "https://robinhood.com/*/crypto/*",
+  "https://robinhood.com/*/support/*"
+ ],
+ "skip": [
+  "https://robinhood.com/eu/fr/*",
+  "https://robinhood.com/eu/es/*",
+  "https://robinhood.com/eu/de/*",
+  "https://robinhood.com/eu/nl/*",
+  "https://robinhood.com/eu/pl/*",
+  "https://robinhood.com/eu/lt/*",
+  "https://robinhood.com/eu/it/*"
+ ]
+}

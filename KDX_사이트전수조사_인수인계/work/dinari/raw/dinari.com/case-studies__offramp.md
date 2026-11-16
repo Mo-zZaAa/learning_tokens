@@ -3,7 +3,7 @@ url: https://dinari.com/case-studies/offramp
 title: Building a Borderless Financial Account With Dinari's dShares™
 description: Offramp integrated Dinari's dShares™ to expand its global financial account with regulated U.S. equities, allowing users to receive, hold, spend, and invest through a single borderless experience.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 
@@ -127,3 +127,7 @@ Through its partnership with Dinari, Offramp is helping define that future by ma
 ## Looking to trade dShares™?
 
 [Find a partner near you](https://dinari.com/partners)
+
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+
+Cookies Settings Reject All Accept All Cookies

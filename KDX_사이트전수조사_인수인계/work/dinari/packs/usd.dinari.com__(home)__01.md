@@ -76,3 +76,23 @@ Connect Wallet
 By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
 
 Cookies Settings Reject All Accept All Cookies
+
+## 펼치거나 눌러야 보이던 내용
+
+### Connect Wallet 누른 뒤
+
+- Cookies Settings Reject All Accept All Cookies
+- Connect a Wallet
+- External Wallets
+- Coinbase Wallet
+- WalletConnect
+- New to Ethereum wallets?
+- Learn More
+- USD+ is unavailable in your country.
+- Unfortunately our platform currently does not allow purchasing within your country. We apologize for the inconvenience.
+
+### Redeem 누른 뒤
+
+- USDC
+- You receive: 0 USDC
+- Redemptions may take up to 3 days. Learn more

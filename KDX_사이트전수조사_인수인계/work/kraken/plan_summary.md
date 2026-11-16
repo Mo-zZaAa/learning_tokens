@@ -2,7 +2,7 @@
 |---|---|---|---|---|---|---|---|
 | app.kraken.com | JDNW | 4 | 0 | 0 | 0 | 4 | 0 |
 | app.kraken.com | (home) | 1 | 0 | 0 | 0 | 1 | 0 |
-| assets-cms.kraken.com | files | 37 | 37 | 0 | 0 | 0 | 0 |
+| assets-cms.kraken.com | files | 38 | 38 | 0 | 0 | 0 | 0 |
 | blog.kraken.com | crypto-education | 1119 | 0 | 6 | 1113 | 0 | 0 |
 | blog.kraken.com | product | 896 | 33 | 44 | 819 | 0 | 0 |
 | blog.kraken.com | tag | 475 | 3 | 0 | 472 | 0 | 0 |
@@ -73,7 +73,7 @@
 | status.kraken.com | uptime | 1 | 0 | 0 | 1 | 0 | 0 |
 | status.kraken.com | history.atom | 1 | 0 | 0 | 1 | 0 | 0 |
 | status.kraken.com | history | 1 | 0 | 0 | 1 | 0 | 0 |
-| support.kraken.com | articles | 28644 | 27 | 66 | 984 | 27567 | 23 |
+| support.kraken.com | articles | 28646 | 27 | 66 | 986 | 27567 | 23 |
 | support.kraken.com | sections | 5544 | 2 | 12 | 184 | 5346 | 0 |
 | support.kraken.com | forms | 2240 | 0 | 0 | 0 | 2240 | 0 |
 | support.kraken.com | categories | 423 | 1 | 2 | 15 | 405 | 0 |
@@ -89,7 +89,7 @@
 | support.kraken.com | proapp | 28 | 0 | 0 | 1 | 27 | 0 |
 | support.kraken.com | search | 28 | 0 | 0 | 0 | 28 | 0 |
 | support.kraken.com | stocks | 28 | 0 | 1 | 0 | 27 | 0 |
-| support.kraken.com | hc | 8 | 1 | 2 | 5 | 0 | 0 |
+| support.kraken.com | hc | 16 | 1 | 2 | 13 | 0 | 0 |
 | support.kraken.com | article_attachments | 1 | 0 | 0 | 1 | 0 | 0 |
 | wallet.kraken.com | market | 3 | 3 | 0 | 0 | 0 | 0 |
 | wallet.kraken.com | (home) | 1 | 1 | 0 | 0 | 0 | 0 |
@@ -105,12 +105,12 @@
 | www.kraken.com | price-prediction | 17248 | 1 | 0 | 615 | 16632 | 0 |
 | www.kraken.com | sell | 17248 | 1 | 0 | 615 | 16632 | 0 |
 | www.kraken.com | buy | 17247 | 1 | 0 | 615 | 16631 | 0 |
-| www.kraken.com | xstocks | 14620 | 6 | 0 | 1211 | 13403 | 6 |
-| www.kraken.com | legal | 5365 | 12 | 193 | 0 | 5160 | 7 |
-| www.kraken.com | stocks | 4557 | 3 | 0 | 446 | 4108 | 1 |
+| www.kraken.com | xstocks | 14620 | 1 | 0 | 1216 | 13403 | 1 |
+| www.kraken.com | legal | 5366 | 12 | 193 | 0 | 5161 | 7 |
+| www.kraken.com | stocks | 4586 | 3 | 0 | 475 | 4108 | 3 |
 | www.kraken.com | categories | 1428 | 1 | 0 | 50 | 1377 | 0 |
 | www.kraken.com | convert | 1103 | 1 | 0 | 1084 | 18 | 0 |
-| www.kraken.com | institutions | 1041 | 42 | 0 | 0 | 999 | 23 |
+| www.kraken.com | institutions | 1041 | 42 | 0 | 0 | 999 | 40 |
 | www.kraken.com | pro | 1033 | 37 | 0 | 0 | 996 | 0 |
 | www.kraken.com | wallet | 592 | 6 | 10 | 32 | 544 | 0 |
 | www.kraken.com | prices | 587 | 1 | 0 | 397 | 189 | 0 |
@@ -121,13 +121,13 @@
 | www.kraken.com | compliance | 252 | 8 | 1 | 0 | 243 | 0 |
 | www.kraken.com | partnercampaign | 140 | 0 | 0 | 5 | 135 | 0 |
 | www.kraken.com | launch | 84 | 3 | 0 | 0 | 81 | 0 |
-| www.kraken.com | krak | 61 | 34 | 0 | 0 | 27 | 0 |
+| www.kraken.com | krak | 61 | 34 | 0 | 0 | 27 | 1 |
 | www.kraken.com | desktop | 57 | 3 | 0 | 0 | 54 | 0 |
 | www.kraken.com | affiliate | 56 | 2 | 0 | 0 | 54 | 0 |
 | www.kraken.com | ipo | 56 | 2 | 0 | 0 | 54 | 0 |
 | www.kraken.com | kbtc | 56 | 2 | 0 | 0 | 54 | 0 |
 | www.kraken.com | khype | 56 | 2 | 0 | 0 | 54 | 0 |
-| www.kraken.com | prime | 56 | 2 | 0 | 0 | 54 | 0 |
+| www.kraken.com | prime | 56 | 2 | 0 | 0 | 54 | 1 |
 | www.kraken.com | (home) | 28 | 1 | 0 | 0 | 27 | 1 |
 | www.kraken.com | 10x-analytics | 28 | 1 | 0 | 0 | 27 | 0 |
 | www.kraken.com | 13terms | 28 | 1 | 0 | 0 | 27 | 0 |
@@ -323,4 +323,6 @@
 | www.kraken.com | kraken-app | 1 | 1 | 0 | 0 | 0 | 0 |
 | www.kraken.com | sign-in | 1 | 1 | 0 | 0 | 0 | 0 |
 | www.kraken.com | security | 1 | 1 | 0 | 0 | 0 | 0 |
-| 합계 |  | 218200 | 566 | 472 | 12375 | 204787 | 70 |
+| www.kraken.com | otc | 1 | 1 | 0 | 0 | 0 | 0 |
+| www.kraken.com | slp | 1 | 1 | 0 | 0 | 0 | 0 |
+| 합계 |  | 218243 | 564 | 472 | 12419 | 204788 | 86 |

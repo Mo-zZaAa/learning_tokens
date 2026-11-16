@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 # sitewiki.py
-"""기업 공식 사이트 전수 목록화(map) > 읽기 계획(plan) > 마크다운 변환(fetch) > 읽기 묶음(digest) > 누락 점검(audit).
+"""기업 공식 사이트 전수 목록화(map) > 읽기 계획(plan) > 마크다운 변환(fetch) > 읽기 묶음(digest) > 메모 검수(verify) > 누락 점검(audit).
 장부는 <work>/inventory.csv 한 파일이고 모든 명령은 이어서 다시 실행할 수 있다.
   map    --work W --domain example.com --seed https://example.com [--seed ...] [--max-hosts 25] [--sitemap-cap 1500] [--no-render]
-  plan   --work W [--read 'URL패턴'] [--skim ..] [--list ..] [--skip ..] [--template-min 40] [--sample 5] [--skim-cap 40] [--read-all-under 300]
-  fetch  --work W [--minutes 8] [--only 'URL패턴'] [--limit N] [--render auto|read|all|thin|never]
+  plan   --work W [--read 'URL패턴'] [--skim ..] [--list ..] [--skip ..] [--add 'https://밖의문서'] [--template-min 40] [--sample 5] [--skim-cap 40] [--read-all-under 300]
+  fetch  --work W [--minutes 8] [--only 'URL패턴'] [--limit N] [--render auto|read|all|thin|never] [--click deep|basic] [--refetch 'URL패턴']
   digest --work W [--pack-chars 120000]
   audit  --work W [--wiki 위키폴더]
+  verify --work W [--notes 메모폴더]      메모의 근거 구절이 원문에 있는지, 빠진 페이지가 없는지 대조
 URL패턴은 * 를 쓰는 전체 일치(예: 'https://example.com/blog/*'). 여러 패턴에 걸리면 list < skim < read < skip 순으로 뒤쪽이 우선. 패턴과 계획 설정은 <work>/overrides.json에 남아 이후 명령에도 적용된다.
 plan 값: read=수집 후 정독, skim=수집 후 제목과 첫머리만 표로, list=URL만 기록, skip=수집 안 함(언어판 중복, robots 제외, 수동 제외)"""
 import argparse, collections, csv, fnmatch, gzip, hashlib, json, os, re, sys, time
@@ -108,13 +109,25 @@ def read_sitemaps(host, rows, domains, ext, log, cap=1500):
     if left: log.append(f"| {host} | (주의) 상한 {cap}개에 걸려 못 연 사이트맵 파일 {left}개: --sitemap-cap 을 올려 다시 실행 | 0 | 0 |")
 
 # ---------- 브라우저 렌더링: 스크롤, 메뉴 hover, 탭과 아코디언과 더보기 클릭 ----------
-MARK_JS = """([limit, hub]) => { const re=/^(show|view|see|load|read) +(more|all)|^more$|더 *보기|전체 *보기|펼치기|자세히/i; let n=0;
+MARK_JS = """([limit, hub, deep]) => { const re=/^(show|view|see|load|read) +(more|all)|^more$|더 *보기|전체 *보기|펼치기|자세히/i; let n=0; const per=new Map();
+ const bad=e=>e.closest('form,[role=dialog],[id*=onetrust],[class*=cookie]')||(!hub&&e.closest('header,nav,footer'));
+ const vis=e=>{const r=e.getBoundingClientRect(); return r.width>=16&&r.height>=12&&r.width*r.height<innerWidth*innerHeight*0.7;};
+ const mark=e=>{ if(n>=limit||e.hasAttribute('data-sw')) return; const p=e.parentElement, c=per.get(p)||0; if(c>=6) return; per.set(p,c+1); e.setAttribute('data-sw','s'+(n++)); };
+ // 1) 표준 방식: 아코디언, 탭, 펼침 버튼, 더보기
  for (const e of document.querySelectorAll('details:not([open])>summary,[aria-expanded=false],[role=tab]:not([aria-selected=true]),button,[role=button]')) {
-  if (n>=limit) break; const a=e.closest('a[href]'); if (a && !(a.getAttribute('href')||'').startsWith('#')) continue;
+  const a=e.closest('a[href]'); if (a && !(a.getAttribute('href')||'').startsWith('#')) continue;
   const structural=e.matches('summary,[aria-expanded=false],[role=tab]'); const t=(e.innerText||'').trim();
-  if (!structural && !re.test(t)) continue; if (!hub && e.closest('header,nav,footer')) continue;
-  if (e.closest('form,[role=dialog],[id*=onetrust],[class*=cookie]') || e.matches('[role=combobox],[aria-haspopup=listbox],[aria-haspopup=dialog]')) continue;
-  const r=e.getBoundingClientRect(); if (!r.width||!r.height) continue; e.setAttribute('data-sw', 's'+(n++)); } return n; }"""
+  if (!structural && !re.test(t)) continue;
+  if (bad(e)||e.matches('[role=combobox],[aria-haspopup=listbox],[aria-haspopup=dialog]')||!vis(e)) continue; mark(e); }
+ // 2) 표시 없이 만든 누르는 요소: 손가락 커서가 시작되는 요소(카드, 칩, 전환 버튼). 링크와 입력 칸은 제외
+ if (deep) for (const e of document.querySelectorAll('body *')) { if (n>=limit) break;
+  if (getComputedStyle(e).cursor!=='pointer'||(e.parentElement&&getComputedStyle(e.parentElement).cursor==='pointer')) continue;
+  if (e.closest('a[href],label,select,input,textarea,video,[data-sw]')||e.querySelector('[data-sw]')||bad(e)||!vis(e)) continue;
+  if (!((e.innerText||'').trim()||e.getAttribute('aria-label'))) continue; mark(e); }
+ return n; }"""
+CLICK_JS = """i => { const e=document.querySelector(`[data-sw=s${i}]`); if(!e) return null; e.scrollIntoView({block:'center'});
+ const r=e.getBoundingClientRect(), t=document.elementFromPoint(r.left+r.width/2, r.top+r.height/2); (t&&e.contains(t)?t:e).click();
+ return ((e.getAttribute('aria-label')||e.innerText||'').trim().split(String.fromCharCode(10))[0]||'').slice(0,60); }"""
 
 class Browser:
     def __init__(self):
@@ -126,14 +139,18 @@ class Browser:
         except Exception: self.br = self.pw.chromium.launch(**kw)
         self.ctx = self.br.new_context(user_agent=UA, locale='en-US', viewport={'width': 1440, 'height': 900})
 
-    def render(self, url, hub=False, clicks=20):
+    def render(self, url, hub=False, clicks=30, deep=True):
+        """본문은 처음 열었을 때 화면(스크롤 후). 누르거나 올려서 새로 보인 내용은 extra에 (누른 것 이름, 줄 목록)으로 따로 담는다."""
         pg = self.ctx.new_page(); links = set(); seen = set(); extra = []
-        def snap():
+        pg.on('popup', lambda p: p.close())
+        def snap(ctx=False):
             try:
                 links.update(pg.eval_on_selector_all('a[href]', 'e=>e.map(a=>a.href)'))
-                new = [l.strip() for l in pg.inner_text('body').splitlines() if l.strip() and l.strip() not in seen]
-            except Exception: new = []
-            seen.update(new); return new
+                lines = [l.strip() for l in pg.inner_text('body').splitlines() if l.strip()]
+            except Exception: return []
+            idx = [k for k, l in enumerate(lines) if l not in seen]; seen.update(lines)
+            if not ctx: return [lines[k] for k in idx]
+            return [lines[j] for j in sorted({j for k in idx for j in (k - 1, k) if j >= 0})][:60]  # 값만 바뀌는 칸은 앞줄(항목 이름)을 함께 남김
         try:
             resp = pg.goto(url, wait_until='domcontentloaded', timeout=45000); status = resp.status if resp else 0
             try: pg.wait_for_load_state('networkidle', timeout=4000)
@@ -142,15 +159,24 @@ class Browser:
             snap(); html = pg.content(); here = pg.url.split('#')[0]
             if hub:
                 for el in pg.query_selector_all('header a, header button, nav a, nav button, [aria-haspopup]')[:25]:
-                    try: el.hover(timeout=400); pg.wait_for_timeout(100); extra += snap()
+                    try:
+                        el.hover(timeout=400); pg.wait_for_timeout(100); new = snap(True)
+                        if new: extra.append(('메뉴 ' + (el.inner_text() or '').strip().split('\n')[0][:40], new))
                     except Exception: pass
-            for i in range(pg.evaluate(MARK_JS, [clicks, hub])):
+            n = pg.evaluate(MARK_JS, [clicks, hub, deep]); i = 0; navs = 0
+            while i < n:
                 try:
-                    pg.evaluate('i=>{const e=document.querySelector(`[data-sw=s${i}]`); if(e) e.click();}', i); pg.wait_for_timeout(150)
-                    if pg.url.split('#')[0] != here: pg.goto(here, wait_until='domcontentloaded', timeout=30000); break
-                    extra += snap()
+                    label = pg.evaluate(CLICK_JS, i); pg.wait_for_timeout(180)
+                    if pg.url.split('#')[0] != here:  # 눌렀더니 다른 페이지로 이동: 주소를 링크로 기록하고 돌아옴
+                        links.add(pg.url); navs += 1
+                        pg.goto(here, wait_until='domcontentloaded', timeout=30000); pg.wait_for_timeout(700)
+                        if navs >= 4: break
+                        n = pg.evaluate(MARK_JS, [clicks, hub, deep])
+                    else:
+                        new = snap(True)
+                        if new and label is not None: extra.append((label, new))
                 except Exception: pass
-            if pg.url.split('#')[0] == here: html = pg.content()
+                i += 1
             return status, html, links, extra, pg.url
         finally: pg.close()
 
@@ -178,8 +204,11 @@ def extract(html, url, extra=()):
         if n: el['href'] = n
     md = re.sub(r'\n{3,}', '\n\n', markdownify(str(main), heading_style='ATX')).strip()
     flat = ' '.join(md.split())
-    more = [l for l in dict.fromkeys(extra) if len(l) > 3 and l not in flat][:150]
-    if more: md += '\n\n## 펼치거나 눌러야 보이던 내용\n\n' + '\n'.join('- ' + l for l in more)
+    blocks = []; total = 0
+    for label, lines in extra:  # 누른 것마다 한 덩어리: 본문에 없는 줄이 하나라도 있을 때만 남김
+        if total >= 400 or not any(len(l) > 1 and l not in flat for l in lines): continue
+        blocks.append('### ' + (label or '이름 없는 요소') + ' 누른 뒤\n\n' + '\n'.join('- ' + l for l in lines)); total += len(lines)
+    if blocks: md += '\n\n## 펼치거나 눌러야 보이던 내용\n\n' + '\n\n'.join(blocks)
     ld = [x.strip() for x in ld if 20 < len(x) < 8000]
     if ld: md += '\n\n## 구조화 데이터(JSON-LD)\n\n' + FENCE + 'json\n' + '\n'.join(ld)[:8000] + '\n' + FENCE
     return title, desc, md, links
@@ -325,12 +354,18 @@ def summary(rows):
     return '\n'.join(out)
 
 def cmd_plan(a):
-    rows = load(a.work); classify(rows, a); save(a.work, rows); s = summary(rows)
+    rows = load(a.work)
+    for u in a.add or []:  # 대상 도메인 밖의 문서(외부에 올린 투자설명서 PDF 등)를 낱개로 장부에 추가
+        u = norm(u)
+        if u and u not in rows: rows[u] = dict.fromkeys(FIELDS, ''); rows[u].update(url=u, host=urlsplit(u).netloc, source='manual')
+    classify(rows, a); save(a.work, rows); s = summary(rows)
     open(os.path.join(a.work, 'plan_summary.md'), 'w', encoding='utf-8').write(s); print(s if len(s) < 9000 else s[:9000] + '\n... (전체: plan_summary.md)')
 
 def cmd_fetch(a):
     rows = load(a.work); sp = os.path.join(a.work, 'scope.json')
     domains = a.domain or (json.load(open(sp, encoding='utf-8'))['domains'] if os.path.exists(sp) else sys.exit('scope.json 없음: map을 먼저 실행하거나 --domain 지정'))
+    for r in rows.values():  # --refetch: 이미 받은 페이지를 다시 받기(누르기 규칙이 바뀌었거나 내용이 갱신됐을 때)
+        if r['status'] and any(fnmatch.fnmatch(r['url'], p) for p in a.refetch or []): r.update(status='', method='', chars='', title='', file='')
     end = time.time() + a.minutes * 60; br = None; n = 0
     def finish(row, r_or_none):
         nonlocal br
@@ -351,10 +386,10 @@ def cmd_fetch(a):
         title, desc, md, links = extract(html, final) if html and not blocked else ('', '', '', set())
         depth = len([x for x in urlsplit(url).path.split('/') if x]) - (1 if row['locale'] else 0)
         need = blocked or a.render == 'all' or (a.render == 'read' and row['plan'] == 'read') or len(md) < 500 or (
-            a.render == 'auto' and row['plan'] == 'read' and (depth <= 1 or re.search('role=.?tab|load more|show more|view all|더보기', html, re.I)))
+            a.render == 'auto' and row['plan'] == 'read' and (depth <= 2 or re.search('role=.?tab|load more|show more|view all|더보기', html, re.I)))
         if need and a.render != 'never':
             try:
-                br = br or Browser(); st, html2, l2, extra, final = br.render(url, hub=row['section'] == '(home)')
+                br = br or Browser(); st, html2, l2, extra, final = br.render(url, hub=row['section'] == '(home)', deep=a.click == 'deep')
                 if st in (401, 403, 429, 503) or (len(html2) < 6000 and BLOCK_HINT.search(html2)): row.update(status='blocked', note=f"HTTP {st}"); return
                 t2, d2, md2, l3 = extract(html2, final, extra)
                 if len(md2) >= len(md) * 0.8: title, desc, md, method = t2 or title, d2 or desc, md2, 'render'
@@ -377,18 +412,23 @@ def cmd_fetch(a):
         if not todo or (a.limit and n >= a.limit): break
         batch = todo[:min(24, (a.limit - n) if a.limit else 24)]
         with ThreadPoolExecutor(4) as ex: res = list(ex.map(lambda r: fetch_static(r['url']), batch))
-        for row, (st, note, r) in zip(batch, res):
+        for k, (row, (st, note, r)) in enumerate(zip(batch, res)):
+            if time.time() > end: break  # 시간이 다 되면 남은 쪽은 대기로 두고 끝냄
             if st == 'error' and a.render == 'never': row.update(status='error', note=note); continue
             try: finish(row, r)
             except Exception as e: row.update(status='error', note=str(e)[:120])
             n += 1
+            if k % 6 == 5: save(a.work, rows)  # 중간에 끊겨도 잃는 양이 적게 자주 저장
         save(a.work, rows); time.sleep(a.delay)
     if br: br.close()
     classify(rows, a); save(a.work, rows); c = collections.Counter(r['status'] or ('대기' if r['plan'] in ('read', 'skim') else '-') for r in rows.values())
     print(f"이번 실행 {n}건. 상태: {dict(c)}. 대기가 남아 있으면 같은 명령을 다시 실행.")
 
 def cmd_digest(a):
-    settings(a); rows = load(a.work); pd = os.path.join(a.work, 'packs'); os.makedirs(pd, exist_ok=True); idx = ['| 묶음 | 정독 쪽수 | 훑기 쪽수 | 글자수 |', '|---|---|---|---|']
+    settings(a); rows = load(a.work); pd = os.path.join(a.work, 'packs'); os.makedirs(pd, exist_ok=True)
+    for old in os.listdir(pd):  # 이전 묶음 지우고 새로 만듦
+        if old.endswith('.md'): os.remove(os.path.join(pd, old))
+    idx = ['| 묶음 | 정독 쪽수 | 훑기 쪽수 | 글자수 |', '|---|---|---|---|']
     by = collections.defaultdict(list); dup = {}
     for r in rows.values():
         if r['plan'] != 'skip': by[(r['host'], r['section'])].append(r)
@@ -444,20 +484,53 @@ def cmd_audit(a):
         out.append(f"## 정독했으나 위키 어디에도 출처로 안 쓰인 페이지: {len(miss)}건 (반영하거나 coverage 메모에 사유 기록)"); out += [f"- {r['url']} ({r['title']})" for r in miss]
     text = '\n'.join(out); open(os.path.join(a.work, 'coverage.md'), 'w', encoding='utf-8').write(text); print(text[:6000])
 
+QUOTES = str.maketrans({'\u2019': "'", '\u2018': "'", '\u201c': '"', '\u201d': '"', '\u2013': '-', '\u2014': '-', '\u00a0': ' ', '\u200b': '', '\u200c': '', '\u200d': '', '\ufeff': ''})
+def flat_text(t):
+    t = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', t)  # 링크는 보이는 글자만 남김
+    return ' '.join(re.sub(r'[*_#>|`\\]', ' ', t).translate(QUOTES).lower().split())
+
+def cmd_verify(a):
+    """notes의 근거 구절이 수집한 원문에 실제로 있는지, 묶음의 페이지가 메모에 빠지지 않았는지 대조. 값싼 모델이 쓴 메모의 검수용."""
+    rows = load(a.work); nd = a.notes or os.path.join(a.work, 'notes'); pd = os.path.join(a.work, 'packs'); cache = {}
+    def page(url):
+        r = rows.get(norm(url or ''))
+        if not r or not r['file'] or not os.path.exists(os.path.join(a.work, r['file'])): return None
+        if r['url'] not in cache: cache[r['url']] = flat_text(open(os.path.join(a.work, r['file']), encoding='utf-8').read())
+        return cache[r['url']]
+    table = ['| 메모 파일 | 묶음의 페이지 | 메모된 페이지 | 근거 줄 | 원문에 없는 근거 |', '|---|---|---|---|---|']; fails = []; missing = []; tot = bad = 0
+    for fn in sorted(os.listdir(nd)) if os.path.isdir(nd) else []:
+        if not fn.endswith('.md'): continue
+        cur = None; n = b = 0; noted = set()
+        for line in open(os.path.join(nd, fn), encoding='utf-8'):
+            m = re.match(r'##\s+(https?://\S+)', line)
+            if m: cur = norm(m.group(1)); noted.add(cur); continue
+            m = re.search(r'근거\s*:\s*["\u201c](.+)["\u201d]\s*$', line.strip())
+            if not m: continue
+            n += 1; src = page(cur); parts = [flat_text(x) for x in re.split(r'\.\.\.|\u2026', m.group(1)) if len(x.strip()) >= 6]
+            if src is None: b += 1; fails.append(f'- {fn} | {cur} | 원문 파일 없음 | "{m.group(1)[:90]}"')
+            elif not parts or not all(x in src for x in parts): b += 1; fails.append(f'- {fn} | {cur} | "{m.group(1)[:90]}"')
+        inpack = set()
+        if os.path.exists(os.path.join(pd, fn)): inpack = {norm(u) for u in re.findall(r'<<<PAGE (\S+?)>>>', open(os.path.join(pd, fn), encoding='utf-8').read())}
+        missing += [f'- {fn} | {u}' for u in sorted(inpack - noted)]
+        tot += n; bad += b; table.append(f'| {fn} | {len(inpack)} | {len(noted)} | {n} | {b} |')
+    text = '\n'.join(['# 메모 검수 (verify)', '', f'근거 줄 {tot}개 가운데 원문에서 못 찾은 것 {bad}개, 메모에 빠진 페이지 {len(missing)}쪽', ''] + table
+                     + ['', '## 메모에 빠진 페이지 (묶음에는 있는데 메모에 절이 없음)'] + missing + ['', '## 원문에서 못 찾은 근거 (그 사실은 쓰지 말거나 원문에서 다시 확인)'] + fails)
+    open(os.path.join(a.work, 'verify.md'), 'w', encoding='utf-8').write(text); print(text[:5000])
+
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument('cmd', choices=['map', 'plan', 'fetch', 'digest', 'audit']); ap.add_argument('--work', required=True)
+    ap = argparse.ArgumentParser(); ap.add_argument('cmd', choices=['map', 'plan', 'fetch', 'digest', 'audit', 'verify']); ap.add_argument('--work', required=True)
     ap.add_argument('--domain', action='append', default=[]); ap.add_argument('--seed', action='append', default=[])
     ap.add_argument('--no-render', action='store_true'); ap.add_argument('--max-hosts', type=int, default=25); ap.add_argument('--sitemap-cap', type=int, default=1500)
     ap.add_argument('--locales'); ap.add_argument('--template-min', type=int)
     ap.add_argument('--sample', type=int); ap.add_argument('--read-all-under', type=int); ap.add_argument('--skim-cap', type=int)
     for k in ('read', 'skim', 'list', 'skip'): ap.add_argument('--' + k, action='append')
-    ap.add_argument('--render', choices=['auto', 'read', 'thin', 'all', 'never'], default='auto'); ap.add_argument('--only', action='append'); ap.add_argument('--minutes', type=float, default=8)
+    ap.add_argument('--render', choices=['auto', 'read', 'thin', 'all', 'never'], default='auto'); ap.add_argument('--only', action='append'); ap.add_argument('--refetch', action='append'); ap.add_argument('--click', choices=['deep', 'basic'], default='deep'); ap.add_argument('--minutes', type=float, default=8)
     ap.add_argument('--limit', type=int, default=0); ap.add_argument('--delay', type=float, default=1.0)
-    ap.add_argument('--pack-chars', type=int, default=120000); ap.add_argument('--skim-chars', type=int, default=240); ap.add_argument('--wiki')
+    ap.add_argument('--pack-chars', type=int, default=120000); ap.add_argument('--skim-chars', type=int, default=240); ap.add_argument('--wiki'); ap.add_argument('--notes'); ap.add_argument('--add', action='append')
     a = ap.parse_args()
     try: sys.stdout.reconfigure(encoding='utf-8', errors='replace')  # Windows 콘솔에서 특수문자 출력 오류 방지
     except Exception: pass
     if a.cmd == 'map' and not (a.domain and a.seed): sys.exit('map에는 --domain 과 --seed 가 필요')
-    {'map': cmd_map, 'plan': cmd_plan, 'fetch': cmd_fetch, 'digest': cmd_digest, 'audit': cmd_audit}[a.cmd](a)
+    {'map': cmd_map, 'plan': cmd_plan, 'fetch': cmd_fetch, 'digest': cmd_digest, 'audit': cmd_audit, 'verify': cmd_verify}[a.cmd](a)
 
 if __name__ == '__main__': main()

@@ -46,7 +46,7 @@
 ## 4. 도구 허가와 접근 불가 링크
 
 - 시작하자마자 쓸 수 있는 도구를 점검한다. 추가로 쓰고 싶은 MCP나 외부 도구(예: 영상 자막 수집 도구, 화면 캡처 도구)가 있으면 설치나 연결을 하지 말고 `mcp_requests.md`에 도구 이름, 쓰려는 곳, 필요한 권한, 없을 때의 대안을 적는다.
-- 사전 허가된 도구: 인수인계 묶음의 company-site-wiki 스킬, 그 스크립트 `sitewiki.py`, 스크립트가 쓰는 파이썬 패키지(requests, beautifulsoup4, lxml, markdownify, playwright, markitdown). 사이트 전체 수집은 이 스크립트로 한다. 브라우저는 이미 설치된 Chromium이나 Chrome을 쓰고, `python3 -c "import playwright"`가 되고 브라우저가 있으면 `playwright install`을 하지 않는다. 없을 때만 설치한다.
+- 사전 허가된 도구: 인수인계 묶음의 company-site-wiki 스킬, 그 스크립트 `sitewiki.py`, 서브에이전트 정의 두 개(site-collector, site-pack-reader), 스크립트가 쓰는 파이썬 패키지(requests, beautifulsoup4, lxml, markdownify, playwright, markitdown). 사이트 전체 수집은 이 스크립트로 한다. 브라우저는 이미 설치된 Chromium이나 Chrome을 쓰고, `python3 -c "import playwright"`가 되고 브라우저가 있으면 `playwright install`을 하지 않는다. 없을 때만 설치한다.
 - 허가받지 않은 도구는 쓰지 않는다. 기본 도구(웹 검색, 웹 열람, 셸)와 위 스크립트로 끝까지 진행하고, 다른 도구가 있었다면 더 얻을 수 있었던 것을 `handoff.md`에 적는다. 사용자가 돌아와 허가하면 그때 보강한다.
 - 셸에서 외부 사이트 접속이 막히면(네트워크 제한) 웹 검색과 웹 열람 도구로 대신하고, 막힌 도메인을 `handoff.md`에 모아 적는다. 공식 사이트 수집이 막히면 SKILL.md의 "막혔을 때" 절을 따른다.
 - 열지 못한 링크(로그인, 유료 구독, 접속 차단, 읽기 어려운 형식)는 `db/blocked_links.csv`에 모은다. 열: 링크, 무엇이 있는 곳인지, 필요한 이유, 막힌 종류, 시도한 방법, 필요한 조치. 스크립트 수집에서 상태가 blocked인 페이지도 웹 열람 도구로 그 URL만 한 번 더 시도한 뒤 안 되면 여기에 넣는다. 종료 보고의 맨 위에 이 목록과 `mcp_requests.md`를 보여 준다. 사용자가 파일로 넘겨주면 `inputs/`에서 읽어 반영한다.
@@ -64,58 +64,88 @@
 
 ## 5-1. 공식 사이트 원자료: 인수인계 묶음과 company-site-wiki 스킬
 
-### 위치와 설치 (0단계에서 한 번)
+### 준비 (0단계에서 한 번)
 
-1. `inputs/KDX_사이트전수조사_인수인계.zip`을 저장소 맨 위에서 푼다. 결과 폴더는 `KDX_사이트전수조사_인수인계/`이고, 이하 H라고 쓴다.
-2. 회사별 원자료 작업 폴더는 `H/work/<회사>`(소문자 회사명: kraken, dinari, ondo, robinhood, coinbase, binance, 그리고 ATS별 폴더)다. 서브에이전트 산출 폴더 `work/<회사>_<주제>/`와는 다른 곳이다. 섞지 않는다.
-3. `H/skill/company-site-wiki` 폴더를 `.claude/skills/company-site-wiki`로 복사한다. 이하 S는 `.claude/skills/company-site-wiki/scripts/sitewiki.py`.
-4. 설치: `pip install requests beautifulsoup4 lxml markdownify playwright "markitdown[pdf]"`. 브라우저는 4절대로.
-5. `python3 S --help`가 도는지, `curl -sI https://dinari.com`으로 셸에서 외부 접속이 되는지 확인한다.
-6. `H/00_먼저읽기.md`와 `.claude/skills/company-site-wiki/SKILL.md`를 읽는다. 둘이 이 지시문과 어긋나면 이 지시문을 따른다. `H/01_*.md`, `H/02_*.md`는 이 지시문에 이미 반영했으므로 읽지 않는다.
+1. `inputs/KDX_사이트전수조사_인수인계.zip`을 저장소 맨 위에서 풀고, 같은 자리에 `inputs/KDX_사이트전수조사_인수인계_추가분.zip`을 풀어 덮어쓴다. 순서를 지킨다. 겹치는 파일은 추가분이 맞다. 결과 폴더는 `KDX_사이트전수조사_인수인계/`이고, 이하 H라고 쓴다.
+2. `H/skill/company-site-wiki` 폴더를 `.claude/skills/company-site-wiki`로 복사한다. 이하 S는 `.claude/skills/company-site-wiki/scripts/sitewiki.py`.
+3. `H/agents`의 파일 두 개(site-collector.md, site-pack-reader.md)를 `.claude/agents/`로 복사한다.
+4. 필요한 도구 설치: `pip install requests beautifulsoup4 lxml markdownify playwright "markitdown[pdf]"`. 브라우저는 4절대로(이미 있으면 설치하지 않음).
+5. `python3 S --help`가 도는지 확인.
+6. 세 회사(kraken, dinari, ondo) 작업 폴더에 `digest`를 한 번씩 실행해 읽기 묶음을 새로 만든다(몇 초, 토큰 없음).
+7. `H/00_먼저읽기.md`와 `.claude/skills/company-site-wiki/SKILL.md`를 읽는다. 둘이 이 지시문과 어긋나면 이 지시문을 따른다. `H/01_*.md`, `H/02_*.md`, `H/03_*.md`는 이 지시문에 이미 반영했으므로 읽지 않는다.
 
-### 원자료의 층과 순서
+- 회사별 원자료 작업 폴더는 `H/work/<회사>`(소문자 회사명)다. 서브에이전트 산출 폴더 `work/<회사>_<주제>/`와는 다른 곳이다. 섞지 않는다.
 
-raw(원문 변환본, 스크립트가 만듦) > notes(묶음별 사실 메모) > wiki(회사별 원자료 정리본) > DB 줄(`work/<회사>_site/`를 거쳐 `db/`) > `companies/<회사>.md`(기업별틀)
+### 역할 나누기
 
-- 공식 사이트는 SKILL.md 절차(map > plan > fetch > digest > 읽기와 notes > wiki > audit)로만 조사한다. 웹 검색과 낱장 열람으로 공식 사이트를 훑지 않는다.
-- 회사별 위키(`H/work/<회사>/wiki/`)는 원자료 정리본이다. 기업별틀(`companies/<회사>.md`, 원본은 `inputs/`의 기업별 틀 엑셀)은 위키와 DB의 사실을 근거로 그다음에 채운다. 기업별 틀 엑셀과 스토리라인 파일은 고치지 않는다.
-- 위키 줄은 SKILL.md대로 출처 URL을 붙인다. DB로 옮길 때 원문 근거 문장, 원문 위치(raw 파일 경로와 절 제목), 열람 일시(raw의 `fetched`)를 채운다.
-- 공식 사이트 원문은 `sources/`에 다시 복사하지 않는다. `db/sources.csv`의 `저장 파일 경로`에 raw 파일 경로를 적는다. `sources/`는 공식 사이트 밖 자료(공시, 규제기관 문서, 언론)용이다.
+비싼 모델이 원문을 직접 읽지 않는다.
+
+| 층 | 누가 | 하는 일 |
+|---|---|---|
+| 수집 | 스크립트(실행은 site-collector 서브에이전트, Haiku) | map, fetch, digest, verify, audit |
+| 읽기 | site-pack-reader 서브에이전트(Haiku) | 묶음 하나를 읽고 notes 파일 하나 작성 |
+| 정리 | 메인 모델 | 읽을 묶음 고르기, notes와 verify.md만 읽고 위키와 기업별틀 작성 |
+
+- 메인 모델은 packs와 raw를 열지 않는다. `packs/_index.md`의 묶음 이름과 글자수만 보고 읽을 묶음을 고른다.
+- 묶음 하나당 site-pack-reader를 하나 부른다. 넘길 것: 묶음 파일 경로, 메모를 쓸 경로(`H/work/<회사>/notes/<묶음 파일명>`), 조사 질문(기업별틀의 항목 이름들). 동시에 4~6개까지 돌린다.
+- 읽기가 끝나면 `verify`를 실행한다. `verify.md`에서 "메모에 빠진 페이지"가 있으면 그 묶음을 다시 맡기고, "원문에서 못 찾은 근거"가 붙은 사실은 쓰지 않는다.
+- 메인 모델이 raw를 여는 경우는 둘뿐이다: 인허가, 수수료, 숫자처럼 결론에 직접 쓰는 핵심 주장을 `grep`으로 해당 줄만 확인할 때, 메모끼리 어긋날 때.
+- 세션 전체를 Haiku로 돌린다면 verify까지 하고 멈춘다. notes, verify.md, coverage.md를 넘겨받은 똑똑한 모델이 정리를 맡는다.
+
+### 작업 방식
+
+- 공식 사이트 조사는 SKILL.md의 절차를 따른다. 검색과 낱장 열람으로 공식 사이트를 훑지 않는다.
+- 회사별 작업 폴더는 `H/work/<회사>`를 그대로 이어 쓴다. 새 회사는 같은 위치에 `H/work/<회사>`를 만든다.
+- 새 회사의 읽기 계획은 메인 모델이 `plan_summary.md`를 보고 한 번 확정한다. 기준은 SKILL.md 2단계와 `H/00_먼저읽기.md`의 Kraken 예를 따른다.
+- 공식 사이트 밖의 자료(감독기관 등록부, 공시, 보도)는 기존 지시문 방식대로 따로 찾는다(아래 "공식 사이트 밖 자료"). 위키의 open-questions.md에 모인 "외부 확인이 필요한 것"이 그 출발점이다.
+- 회사별 위키(`H/work/<회사>/wiki`)는 원자료 정리본이다. 기업별틀(`companies/<회사>.md`, 원본은 `inputs/`의 기업별 틀 엑셀)은 위키, notes, DB의 사실을 근거로 그다음에 채운다. 근거 표기는 7절대로 사실 ID(`[F-...]`)이고, 출처 URL은 그 사실의 facts.csv 줄에 둔다. 기업별 틀 엑셀과 스토리라인 파일은 고치지 않는다.
+- notes를 DB로 옮길 때 메인 모델이 원문 위치(raw 파일 경로, inventory.csv의 file 열), 열람 일시(raw의 `fetched`), 틀 항목을 채운다. `원문 근거 문장`은 notes의 `근거:` 구절이다.
+- 공식 사이트 원문은 `sources/`에 다시 복사하지 않는다. `db/sources.csv`의 `저장 파일 경로`에 raw 파일 경로를 적는다.
 
 ### 회사별 시작점
 
 | 회사 | 끝난 것(다시 하지 않음) | 이어서 할 것 |
 |---|---|---|
-| Kraken | map(URL 218,200개, `H/work/kraken/inventory.csv`), 읽기 계획(`overrides.json`), 70쪽 수집 | fetch 반복(대기 966쪽, 아래 "먼저 읽을 묶음" 구역부터 `--only`로) > digest > 읽기. 회사 소유 도메인 추가(아래) |
-| Dinari | map, fetch(308쪽, PDF 12건 포함, 대기 0), digest | `H/work/dinari/packs` 읽기부터 |
-| Ondo | map | fetch 반복(대기 183쪽) > digest > 읽기 |
+| Kraken | map(URL 218,243개), 읽기 계획(`overrides.json`), 86쪽 수집 | fetch 반복(대기 947쪽, 아래 "먼저 읽힐 묶음" 구역부터 `--only`로) > digest > 읽기. 회사 소유 도메인 추가(아래) |
+| Dinari | map, fetch(311쪽, PDF 12건 포함, 대기 0) | digest > 읽기 |
+| Ondo | map | fetch 반복(대기 155쪽) > digest > 읽기 |
 | Robinhood, Coinbase, Binance | 없음 | map부터 |
 | 미국 ATS(Blue Ocean, Bruce, MOON, 2단계에서 추린 후보) | 없음 | map부터. 운영사 도메인은 12절 보도자료와 SEC Form ATS-N에서 확인 |
 
-- 다시 실행하지 않는 것: Kraken map, Kraken 읽기 계획 새로 짜기, Dinari map, fetch, digest, Ondo map, 스크립트 동작 시험. Kraken 계획을 바꿀 때는 `plan`에 패턴을 더하는 방식으로만 바꾼다.
-- Kraken map은 초기판으로 돌려 stocks 종목별 목록이 일부(448쪽)만 있다. map을 다시 돌리지 않는다. 전체 종목 수는 사이트 본문이나 다른 출처로 확인한다.
+### 다시 하지 않을 것
+
+- Kraken 목록화(map): 끝났다. `H/work/kraken/inventory.csv`에 URL 약 21.8만 개와 계획이 들어 있다. map을 다시 돌리지 않는다.
+- Kraken 읽기 계획: `H/work/kraken/overrides.json`에 제외와 우선순위가 들어 있다. `fetch`를 실행하면 그 계획대로 이어서 수집된다. 계획을 바꿀 때는 패턴을 추가하는 방식으로만 바꾼다.
+- Dinari 수집(map, fetch): 끝났다. digest 뒤 바로 읽기로 간다.
+- Ondo 목록화(map): 끝났다. 남은 것은 `fetch`를 이어서 실행하는 것뿐이다.
+- 스크립트 동작 시험: 끝났다(사이트맵 읽기, 메뉴와 탭과 카드 누르기, PDF 변환, 이어서 실행, 메모 검수, 누락 점검).
+- `H/00_먼저읽기.md`의 "더 볼 필요 없는 곳"에 적힌 구역은 열지 않는다(아래 "제외 범위"). 기업별틀을 채우다가 꼭 필요해지면 해당 URL만 패턴으로 올린다.
+
+### 회사별 덧붙임
+
+- Kraken map은 초기판으로 돌려 stocks 종목별 목록이 일부(448쪽)만 있다. 전체 종목 수는 사이트 본문이나 다른 출처로 확인한다.
 - Ondo의 `map_log.md` 하위 사이트 후보 중 공개용으로 보이는 것(community, summit, ai, usdy 등)만 `--seed`로 추가한다. 시험용, 내부용(dvn, grpc, api, cdn, betterstack, entity-tax-cert 등)은 열지 않는다.
-- Kraken 회사 소유 도메인: `H/00_먼저읽기.md` 7번의 후보(payward.com, services.payward.com, xstocks.fi, krak.app, ninjatrader.com, breakoutprop.com, cfbenchmarks.com, reap.global)와 assets.backed.fi(xStocks 법적 문서 위치). 소유 근거(12절 Payward 보도자료, 자동 이동, 약관의 운영 주체)를 확인한 곳만 `python3 S map --work H/work/kraken --domain 새도메인 --seed https://새도메인`으로 같은 폴더에 추가한다. payward.com, xstocks.fi, backed.fi를 먼저 하고, 나머지는 5-2절 "미룰 일"이다. 근거를 못 찾으면 handoff.md에 적고 넘긴다.
-- Coinbase는 인수인계 묶음에 없다. 다른 새 회사와 같이 map부터 한다.
-- 새 회사(Robinhood, Coinbase, Binance)의 plan 조정은 Kraken 기준을 따른다: 국가판과 언어판 중복, 앱 화면, 로그인, 가입, 문의 양식, 자산별로 같은 틀이 반복되는 가격과 판촉 페이지는 skip이나 list. 블로그, 고객센터, 약관 글은 `inventory.csv`의 URL을 핵심어로 걸러(`grep -iE`) 걸린 것만 skim이나 read로 올린다. 핵심어는 `H/00_먼저읽기.md` 5번 Kraken 핵심어에 그 회사의 상품명을 더한 것. 메인 세션은 `map_log.md`와 `plan_summary.md`만 보고 패턴을 정한다.
-- 새 회사의 IR, 뉴스룸처럼 다른 도메인에 있는 회사 운영 사이트는 `map_log.md`의 "사이트가 링크한 외부 호스트"에서 근거(푸터 법인명, 자동 이동, 운영 주체)를 보고 가려 `--domain`으로 추가한다.
-- Binance 사이트는 접속 지역에 따라 셸에서 막힐 수 있다. 막히면 SKILL.md "막혔을 때"를 따르고 `db/blocked_links.csv`와 `handoff.md`에 적는다.
-- ATS 운영사 사이트가 대형 사이트의 일부(예: MOON ATS가 운영사 사이트의 한 구역)이면 map 뒤 plan에서 ATS 관련 구역과 투자자 정보 구역만 read로 두고 나머지는 list로 둔다.
+- Kraken 회사 소유 도메인: `H/00_먼저읽기.md` 7번의 후보(payward.com, services.payward.com, xstocks.fi, krak.app, ninjatrader.com, breakoutprop.com, cfbenchmarks.com, reap.global)와 assets.backed.fi(xStocks 법적 문서 위치). 소유 근거(12절 Payward 보도자료, 자동 이동, 약관의 운영 주체)를 확인한 곳만 `python3 S map --work H/work/kraken --domain 새도메인 --seed https://새도메인`으로 같은 폴더에 추가한다. payward.com, xstocks.fi, backed.fi를 먼저 하고, 나머지는 5-2절 "미룰 일"이다.
+- Coinbase는 인수인계 묶음에 없다. map부터 한다. `H/00_먼저읽기.md` 7번대로 www.base.org/stocks(Base의 토큰화 주식 안내)도 같은 스크립트로 열리고, 투자설명서 PDF(api.coinbase.com)는 `plan --add`로 낱개 추가한다.
+- 새 회사(Robinhood, Coinbase, Binance)의 plan은 Kraken 기준을 따른다: 국가판과 언어판 중복, 앱 화면, 로그인, 가입, 문의 양식, 자산별 가격과 판촉 페이지는 skip이나 list. 블로그, 고객센터, 약관 글은 URL을 핵심어로 걸러(`grep -iE`) 걸린 것만 skim이나 read로 올린다.
+- 새 회사의 IR, 뉴스룸처럼 다른 도메인에 있는 회사 운영 사이트는 `map_log.md`의 "사이트가 링크한 외부 호스트"에서 근거를 보고 가려 `--domain`으로 추가한다.
+- 사이트가 봇 차단(403, 확인 화면)으로 막히면 우회하지 않는다. SKILL.md "막혔을 때"를 따르고 `db/blocked_links.csv`와 `handoff.md`에 적는다.
+- ATS 운영사 사이트가 대형 사이트의 일부이면 plan에서 ATS 관련 구역과 투자자 정보 구역만 read로 두고 나머지는 list로 둔다.
 
 ### 제외 범위 (열지 않는다)
 
-`H/00_먼저읽기.md` 5번 "더 볼 필요 없는 곳"을 그대로 제외 범위로 쓴다. 기업별틀을 채우다가 꼭 필요해지면 해당 URL만 `plan --read` 패턴으로 올리고 사유를 handoff.md에 적는다.
+`H/00_먼저읽기.md` 5번 "더 볼 필요 없는 곳"을 그대로 제외 범위로 쓴다.
 
 Kraken
 
 | 구역 | 처리 |
 |---|---|
-| 국가판 접두어 27개(ar, at, au, be, br, ca, ch, cn, cz, de, dk, es, fi, fr, gb, gr, in, it, mx, nl, no, pl, pt, ro, se, tw, ua) 아래 페이지(180,878쪽). 단, 특정 국가판에만 있는 71쪽(장부 note 칸 표시)은 남아 있음 | 제외 |
+| 국가판 접두어 27개(ar, at, au, be, br, ca, ch, cn, cz, de, dk, es, fi, fr, gb, gr, in, it, mx, nl, no, pl, pt, ro, se, tw, ua) 아래 페이지(180,879쪽). 단, 특정 국가판에만 있는 71쪽(장부 note 칸 표시)은 남아 있음 | 제외 |
 | pro.kraken.com/app/*(거래 앱 화면 23,797쪽) | 제외 |
 | id.kraken.com, app.kraken.com, proapp.kraken.com, 가입 화면, 고객센터 문의 양식과 검색 | 제외 |
 | www의 buy, sell, price-prediction, convert, prices, categories, compare, competitions(약 4,000쪽) | 목록만 |
 | www의 features 아래 dollar-cost-averaging, futures, margin-trading, auto-earn, staking의 자산별 페이지(약 1,500쪽). 각 기능 첫 화면은 정독 | 목록만 |
-| www의 xstocks 종목별 1,216쪽, stocks 종목별 448쪽 | 표본만(xstocks 5종목, stocks aapl과 tsla). 종목 목록은 inventory.csv에서 뽑음 |
+| www의 xstocks 종목별 1,216쪽, stocks 종목별 448쪽 | 표본만(표본 수집 완료). 종목 목록은 inventory.csv에서 뽑음 |
 | www의 learn(676쪽) | 목록만 |
 | blog의 market-reports, tag, category, kraken-japan, go(약 2,000쪽) | 목록만 |
 | docs.kraken.com API 참조, status.kraken.com 장애 이력(약 500쪽) | 목록만 |
@@ -124,7 +154,7 @@ Kraken
 Dinari
 
 - docs.dinari.com/reference(API 참조 72쪽): 표본 2~3쪽만.
-- dinari.com/dshares 묶음 4개: 첫 쪽만 정독. 나머지는 종목 표만 다른 쪽 번호 변형.
+- dinari.com/dshares 묶음: 같은 페이지의 쪽 번호 변형 11개. 첫 쪽만 읽히고 나머지는 종목 표만 다름.
 - assets.dinari.com/audits(스마트컨트랙트 감사 보고서 PDF 4건): 보안 감사 내용이 필요할 때만.
 - www.dinari.com(dinari.com과 같은 내용), money2020, careers, contact-us, privacy, status, app.dinari.com의 trade, orders, portfolio: 읽지 않음.
 - docs.dinari.com/login 이동 주소 124건: robots.txt 제외 대상. 수집하지 않음.
@@ -132,38 +162,42 @@ Dinari
 Ondo
 
 - app.ondo.finance/assets/* 477쪽: 표본만.
+- docs.ondo.finance/api-reference: 개발자용 명세. 표본만.
 - 인증서 기록에서 나온 시험용, 내부용 하위 호스트 449개: 열지 않음.
 
 공통(SKILL.md "지킬 것"): robots.txt 제외 경로, 로그인 화면, 캡차, 차단은 우회하지 않는다. 요청 속도 옵션을 올리지 않는다. staging, dev, test, internal, admin 같은 호스트는 열지 않는다.
 
-### 먼저 읽을 묶음
+### 먼저 읽힐 묶음
 
-| 회사 | 먼저 읽을 묶음 |
+| 회사 | 먼저 읽힐 묶음 |
 |---|---|
 | Kraken | www의 xstocks, stocks, institutions, legal(equities, xstocks, digital-assets-brokerage-services), prime, krak, compliance, features 첫 화면들, press. blog의 product/xstocks. support의 xstocks 관련 글. assets-cms의 PDF 37건(제목부터 확인). 최상위 바로 아래 215쪽은 행사와 경품 페이지가 섞여 있으니 `packs/_index.md`의 묶음 이름을 보고 고름 |
 | Dinari | dshares 첫 쪽, usdplus, business, get-started, us, bd(브로커딜러 공시 PDF 7건), terms-conditions-usdplus-stusdplus-tokens, case-studies, transparency, assets.dinari.com/forms(USD+ 백서), docs.dinari.com/docs의 안내 글 |
-| Ondo | docs의 ondo-stocks, general-access-products, legal. app의 표본 자산 페이지. ondo.finance 본 사이트 |
+| Ondo | ondo.finance 첫 화면과 상품 화면, docs의 ondo-stocks, general-access-products, legal. app의 legal-documentation(39쪽 수집 완료)과 표본 자산 페이지 |
 | 새 회사, ATS | 주식 토큰 상품 페이지, 법적 고지와 약관, 투자자 정보, 보도자료 목록, 회사 소개. 핵심어에 걸린 글 |
 
-- 이 표에 없는 묶음은 기본적으로 읽지 않는다. 5-2절 상한이 남을 때만 관련도 순으로 더 읽는다.
-- 같은 틀 묶음(`packs/_groups.md`의 닮은 정도 0.5 이상)은 표본만 읽는다.
+- 같은 틀 묶음(`packs/_groups.md`의 닮은 정도 0.5 이상)은 표본만 읽힌다.
 
 ### notes 형식
 
-SKILL.md 5단계 형식을 쓰되, DB로 옮길 사실 줄에는 아래를 붙인다.
+SKILL.md 5단계와 `.claude/agents/site-pack-reader.md`의 형식을 그대로 쓴다(이 형식을 지켜야 verify가 된다). 파일명은 묶음 파일명과 똑같이 한다.
 
 ```markdown
-### <URL>
-- 사실 한 줄
-  - 원문: "짧은 원문 근거 문장"
-  - 위치: <raw 파일 경로> / <절 제목>
-  - 틀: <7절 틀의 항목, 예: 핵심 사업 상세 > 발행 구조 > 법적 성격>
-  - 숫자면: 무엇을 잰 것, 기준일
-- 조사 질문 관련도: 높음, 중간, 낮음
+# notes: <묶음 파일명>
+
+## https://페이지-주소
+- [상품] 사실을 한국어 한 문장으로. 숫자와 고유명사는 원문 표기 그대로
+  근거: "원문에서 글자 그대로 복사한 5~15단어"
+- 관련도: 높음
+
+## https://다음-페이지-주소
+- 해당 없음: 행사 안내
+
+## 승격 후보
+- https://훑기-표에서-조사-질문과-관련-있어-보이는-주소
 ```
 
-- 정독한 페이지는 쓸 내용이 없어도 한 줄(쓸 내용 없음, 사유)을 남긴다.
-- "서로 어긋나는 서술"과 "더 봐야 할 것"은 SKILL.md 형식 그대로 둔다. 위키의 `open-questions.md`로 모인다.
+- 분류표: 상품, 구조, 인허가, 수수료, 지역제한, 고객, 파트너, 숫자, 연혁, 용어, 기타.
 
 ### 공식 사이트 밖 자료
 
@@ -173,51 +207,36 @@ SKILL.md 5단계 형식을 쓰되, DB로 옮길 사실 줄에는 아래를 붙�
 ## 5-2. 사용량
 
 - 원칙: 이 실행은 주간 사용 한도의 50%를 넘기지 않는다. 나머지는 사용자가 이 실행 뒤 질의응답 등에 쓸 몫이다.
-- 토큰이 드는 곳: 수집(map, plan, fetch, digest, audit)은 스크립트라 토큰이 거의 들지 않는다. 토큰은 묶음 읽기, 웹 열람, 서브에이전트 지시와 보고에서 든다. 그래서 수집은 넓게, 읽기는 좁게 한다.
+- 메인 세션은 주간 사용률을 직접 보지 못한다. 0단계에서 `inputs/usage.md`를 읽고, 거기 적힌 시작 사용률과 대리 상한을 지킨다. 서브에이전트가 끝날 때 표시되는 토큰 수를 `usage_log.md`에 누적한다.
 
-### 상한 정하기
+### 토큰을 아끼는 규칙
 
-메인 세션은 주간 사용률을 직접 보지 못한다. 그래서 아래 순서로 상한을 정한다.
-
-1. 0단계에서 `inputs/usage.md`를 읽는다. 사용자가 시작 전에 적어 둔 주간 사용률(%)과 이번 실행에 쓸 상한이 있으면 그것을 쓴다. %는 메인 세션이 직접 잴 수 없으므로, 파일에 적힌 대리 상한(정독 글자수, 서브에이전트 토큰 누적)을 지킨다.
-2. 파일이 없으면 기본 상한을 쓴다: 공식 사이트 원문 정독 합계 회사당 30만 자, ATS 1곳당 10만 자, 전체 200만 자(약 50만 토큰). 상한은 5-1절 "먼저 읽을 묶음" 안에서 관련도 높은 순으로 채운다.
-3. 서브에이전트가 끝날 때 표시되는 토큰 수를 `usage_log.md`에 누적한다.
-
-### 읽기 전 보고
-
-- 회사마다 읽기 시작 전에 `usage_log.md`에 한 줄을 쓰고 대화에도 남긴다: 읽을 묶음 목록, 글자수 합계(`packs/_index.md`의 글자수), 예상 토큰(글자수 ÷ 4), 지금까지 누적, 상한 대비 비율.
-
-### 멈춤
-
-- 다음 회사를 읽으면 상한을 넘길 것으로 보이면 그 읽기를 시작하지 않는다.
-- 멈출 때 할 일: 읽기와 새 서브에이전트 띄우기를 멈춘다. 이미 모인 결과의 병합, 커밋, 푸시만 한다. `usage_report.md`를 쓰고 종료 보고 맨 위에 둔 뒤 끝낸다.
-- `usage_report.md` 내용: 지금까지 읽은 양(묶음, 글자수, 토큰), 남은 묶음과 예상량, 줄일 수 있는 안(묶음 우선순위, 낮은 모델로 돌릴 수 있는 일).
+- 수집은 스크립트라 토큰이 거의 들지 않는다. 읽기는 Haiku가 한다. 메인 모델이 읽는 것은 notes, verify.md, 요약 표뿐이다.
+- `inventory.csv`, raw 폴더, packs 폴더를 메인 대화에 올리지 않는다. Kraken의 inventory.csv는 44MB다. 필요한 줄만 `grep`이나 짧은 파이썬으로 뽑아 본다.
+- 회사 하나를 읽기 전에 예상량을 보고한다. `packs/_index.md`에서 읽을 묶음의 글자수를 더해 4로 나누면 Haiku가 읽을 토큰 수이고, 메인 모델이 읽을 notes는 그 5~10%다. `usage_log.md`에 한 줄 쓰고 대화에도 남긴다.
+- 주간 사용량의 50%를 넘길 것으로 보이면 읽기를 시작하지 말고 멈춘 뒤 보고한다. 보고 내용: 지금까지 읽은 양, 남은 묶음과 예상량, 줄일 수 있는 안(묶음 우선순위). 사용자는 자리에 없으므로(3절 9번) 멈출 때는 이미 모인 결과의 병합, 커밋, 푸시만 하고, `usage_report.md`에 보고를 써 종료 보고 맨 위에 둔 뒤 끝낸다.
+- 묶음은 조사 질문과 관련이 큰 것부터 맡긴다. 같은 묶음을 두 번 읽히지 않는다.
+- 글 묶음(블로그, 고객센터, 약관)은 먼저 URL과 제목을 핵심어로 걸러 관련 글만 read로 올린다.
+- 서브에이전트는 영수증만 돌려준다. 원문이나 메모 내용을 메인 대화로 돌려보내지 않는다.
 
 ### 모델 배분
 
-서브에이전트를 띄울 때 `model`을 지정한다.
+서브에이전트를 띄울 때 `model`을 지정한다. 공식 사이트의 수집과 읽기는 위 "역할 나누기"를 따른다.
 
 | 일 | 모델 |
 |---|---|
-| map, plan, fetch, digest, audit 실행, CSV 합치기, 중복 제거, ID 부여, 원문 근거 문장 대조 | 모델 쓰지 않음(셸, 짧은 파이썬) |
-| ATS-2 목록 훑기, VID-1과 VID-2(영상 찾기와 자막 정리), skim 표 확인, 관련도 낮은 묶음 읽기, 용어 후보 뽑기 | haiku |
-| 먼저 읽을 묶음 정독과 notes, 위키 작성과 DB 옮기기, 외부 수집, 검증, 1단계 US-1, US-3, KR-1, CASE | sonnet |
+| 공식 사이트 수집 실행(site-collector), 묶음 읽기(site-pack-reader), ATS-2 목록 훑기, VID-1과 VID-2 | haiku |
+| 외부 수집(EXT), 검증, 1단계 US-1, US-3, KR-1, CASE | sonnet |
 | 1단계 US-2, KR-2(이 과제의 핵심 쟁점) | opus |
-| kb 반영, 충돌 판정(canon.md), companies 본문, 핵심 성공요인과 KDX 시사점 | 메인 세션 |
+| 읽을 묶음 고르기, 위키, kb 반영, 충돌 판정(canon.md), companies 본문, 핵심 성공요인과 KDX 시사점 | 메인 세션 |
+| CSV 합치기, 중복 제거, ID 부여 | 모델 쓰지 않음(셸, 짧은 파이썬) |
 
 ### 미룰 일 (시간과 상한이 남을 때만)
 
 - VID-1, VID-2.
 - ATS 후보 중 야간 거래 3곳 밖의 상세 조사.
 - Kraken의 부수 도메인(krak.app, ninjatrader.com, breakoutprop.com, cfbenchmarks.com, reap.global).
-- 5-1절 "먼저 읽을 묶음"에 없는 묶음(예: Ondo api-reference 5묶음 약 52만 자, intelligent-portfolios, Dinari blog와 audits, Kraken blog의 훑기 대상).
-
-### 아끼는 규칙
-
-- `inventory.csv`, `raw/`, `packs/`를 통째로 열지 않는다. Kraken의 inventory.csv는 44MB다. 필요한 줄만 `grep`이나 짧은 파이썬으로 뽑는다. 현황은 `plan_summary.md`, `packs/_index.md`, `packs/_groups.md`, `coverage.md`로 본다.
-- 같은 원문을 두 번 읽지 않는다. 묶음 하나를 읽을 때마다 notes를 남긴다. 읽기로 한 묶음은 끝까지 읽되, 읽을 묶음 수로 양을 줄인다.
-- 서브에이전트는 결과를 자기 파일에 쓰고 대화로는 10줄 보고만 돌려준다. 원문을 대화로 돌려보내지 않는다.
-- 검증 3단계에서 공식 사이트 사실의 원문 근거 문장이 raw 파일에 그대로 있는지는 메인 세션이 스크립트(`grep -F`)로 먼저 대조한다. 검증 에이전트는 뜻이 맞는지와 외부 출처만 본다.
+- "먼저 읽힐 묶음"에 없는 묶음.
 
 ## 6. 진행 순서와 시간
 
@@ -226,13 +245,13 @@ SKILL.md 5단계 형식을 쓰되, DB로 옮길 사실 줄에는 아래를 붙�
 ### 0단계 (10분) 준비
 
 - 도구 점검, 허가가 필요한 도구 기록, 폴더 생성, `inputs/` 읽기(`usage.md` 포함).
-- 5-1절 "위치와 설치".
-- 공식 사이트 수집을 셸 백그라운드로 시작한다. 토큰이 들지 않고, 이후 단계와 동시에 돈다. `fetch --minutes 8`을 대기 0이 될 때까지 반복하는 셸 반복문으로 돌리고, 끝나면 `digest`를 실행한다. 회사별로 따로 돌린다.
+- 5-1절 "준비" 1~7(zip 두 개를 순서대로 풀기, 스킬과 agents 복사, 설치, 세 회사 digest).
+- 공식 사이트 수집을 시작한다. 실행은 site-collector(Haiku) 또는 셸 백그라운드로 하고, 이후 단계와 동시에 돈다. fetch는 대기 0이 될 때까지 반복하고, 끝나면 digest를 실행한다. 회사별로 따로 돌린다.
   ① Ondo: fetch 반복 > digest. 공개용 하위 사이트 추가는 map 후 이어서.
-  ② Kraken: 먼저 읽을 구역을 `--only`로 먼저 받고 나머지 > digest. 소유가 확인된 도메인은 map 추가 후 fetch.
-  ③ Robinhood, Coinbase, Binance: map. 끝나는 대로 메인 세션이 plan 패턴을 정하고 fetch > digest.
+  ② Kraken: 먼저 읽힐 구역을 `--only`로 먼저 받고 나머지 > digest. 소유가 확인된 도메인은 map 추가 후 fetch.
+  ③ Robinhood, Coinbase, Binance: map. 끝나는 대로 메인 세션이 plan을 확정하고 fetch > digest.
   ④ ATS 3곳 운영사 사이트: map > plan > fetch > digest.
-- Dinari는 수집이 끝나 있으므로 2단계에서 바로 읽는다.
+- Dinari는 수집이 끝나 있으므로 digest 뒤 2단계에서 바로 읽힌다.
 - 0단계가 끝날 때 커밋한다(H 폴더 포함).
 
 ### 1단계 (20분) 한미 제도 기초
@@ -258,10 +277,11 @@ SKILL.md 5단계 형식을 쓰되, DB로 옮길 사실 줄에는 아래를 붙�
 
 2a 공식 사이트 읽기(회사마다)
 
-- 읽기 전에 5-2절 "읽기 전 보고"를 한다.
-- SITE-<회사>-<번호> 에이전트: 그 회사의 먼저 읽을 묶음을 호스트나 구역 단위로 나눠 맡는다. 에이전트 하나에 묶음 글자수 합계 15만 자 안팎. 맡은 묶음을 끝까지 읽고 `H/work/<회사>/notes/<묶음이름>.md`만 쓴다(5-1절 notes 형식).
-- 수집이 아직 안 끝난 회사는 준비된 묶음부터 읽는다. 2단계 시작 20분 뒤에도 준비되지 않은 묶음은 coverage에 "미열람(수집 미완료)"으로 남긴다.
-- WIKI-<회사> 에이전트(회사마다 하나): 그 회사의 읽기가 끝나면 notes로 `H/work/<회사>/wiki/`를 SKILL.md 6단계대로 쓰고, `python3 S audit --work H/work/<회사> --wiki H/work/<회사>/wiki`를 실행한다. 이어 위키 사실을 10절 열에 맞춰 `work/<회사>_site/`의 facts.csv, sources.csv, terms.csv, relations.csv, notes.md로 옮긴다. 줄마다 `틀 항목`을 단다. 위키 `glossary.md`의 용어는 terms.csv로, 제도 관련 발견은 proposals로 올린다.
+- 메인 세션이 `packs/_index.md`의 묶음 이름과 글자수만 보고 읽을 묶음을 고르고, 5-2절대로 예상량을 보고한다.
+- 묶음 하나당 site-pack-reader(Haiku) 하나를 부른다. 넘길 것: 묶음 파일 경로, 메모 경로(`H/work/<회사>/notes/<묶음 파일명>`), 조사 질문(7절 틀의 항목 이름들). 동시에 4~6개.
+- 수집이 아직 안 끝난 회사는 준비된 묶음부터 맡긴다. 2단계 시작 20분 뒤에도 준비되지 않은 묶음은 coverage에 "미열람(수집 미완료)"으로 남긴다.
+- 회사별 읽기가 끝나면 `python3 S verify --work H/work/<회사>`를 실행한다. "메모에 빠진 페이지"가 있으면 그 묶음을 다시 맡기고, "원문에서 못 찾은 근거"가 붙은 사실은 쓰지 않는다.
+- 메인 세션이 notes와 `verify.md`만 읽고 `H/work/<회사>/wiki/`를 SKILL.md 6단계대로 쓴 뒤 `python3 S audit --work H/work/<회사> --wiki H/work/<회사>/wiki`를 실행한다. 이어 위키 사실을 10절 열에 맞춰 `work/<회사>_site/`의 facts.csv, sources.csv, terms.csv, relations.csv로 옮긴다. 줄마다 `틀 항목`을 단다. 제도 관련 발견은 kb에 바로 반영한다.
 
 2b 공식 사이트 밖 자료(회사마다, 2a와 동시에)
 
@@ -284,7 +304,7 @@ SKILL.md 5단계 형식을 쓰되, DB로 옮길 사실 줄에는 아래를 붙�
 
 | 에이전트 | 범위 |
 |---|---|
-| ATS-1 | 야간 거래 ATS 3곳의 운영사, 모회사, 거래시간, 대상 고객, 거래 규모, 점유율, 사고 이력, 국내 증권사 연결 현황. 운영사 사이트 부분은 `H/work/<ATS>`의 묶음을 읽어 notes로 남기고, 사이트 밖 자료(FINRA 통계, Form ATS-N, 보도)는 직접 찾음 |
+| ATS-1 | 야간 거래 ATS 3곳의 운영사, 모회사, 거래시간, 대상 고객, 거래 규모, 점유율, 사고 이력, 국내 증권사 연결 현황. 운영사 사이트 부분은 `H/work/<ATS>`의 묶음을 site-pack-reader에 맡겨 notes로 남기고, 사이트 밖 자료(FINRA 통계, Form ATS-N, 보도)는 직접 찾음 |
 | ATS-2 | SEC ATS 목록과 FINRA 거래 통계를 훑어 후보 추림 기준에 걸리는 곳을 올리고 선정 사유를 적음 |
 | VID-1, VID-2 | 대상 회사 경영진과 규제 당국자의 발표, 인터뷰 영상. 9절 참조. 5-2절 "미룰 일" |
 
@@ -294,7 +314,7 @@ SKILL.md 5단계 형식을 쓰되, DB로 옮길 사실 줄에는 아래를 붙�
 
 - 회사별 검증 에이전트 6개, 제도 1개, ATS 1개를 한 번에 띄운다.
 - 검증 에이전트는 수집 에이전트의 메모를 보지 않는다. `facts.csv`의 각 줄을 받아 링크를 다시 열고, 근거 문장이 실제로 그 내용을 말하는지 대조해 검증 상태를 매긴다.
-- 공식 사이트 사실은 메인 세션이 먼저 원문 근거 문장이 raw 파일에 있는지 스크립트로 대조해 넘긴다. 검증 에이전트는 raw 파일의 해당 절을 열어 뜻을 대조하고, raw에 없거나 바뀌었을 수 있는 값(종목 수, 수수료, 규모)만 링크를 다시 연다.
+- 공식 사이트 사실의 근거 구절이 원문에 있는지는 2a의 `verify`가 기계로 이미 대조했다. 검증 에이전트는 그 사실이 근거 구절의 뜻과 맞는지만 보고, raw에 없거나 바뀌었을 수 있는 값(종목 수, 수수료, 규모)만 링크를 다시 연다.
 - 회사 사이트에만 근거가 있는 인가와 등록 사실은 감독기관 등록부를 열어 대조한다.
 - 같은 사실에 출처가 다르게 말하면 `충돌`로 표기하고, 메인 세션이 1차 출처 기준으로 판정해 `kb/canon.md`에 적는다.
 - 숫자, 날짜, 인가, 지분율, 법적 성격은 전수 대조한다. 나머지는 시간 안에서 가능한 만큼 대조하고, 대조하지 못한 줄은 `단일 출처`로 둔다.
@@ -304,7 +324,7 @@ SKILL.md 5단계 형식을 쓰되, DB로 옮길 사실 줄에는 아래를 붙�
 - `work/`의 파일을 `db/`로 합친다(중복 제거, ID 부여). `work/<회사>_site/`도 포함한다.
 - 회사별 본문 `companies/<회사>.md`를 7절의 틀과 8절 규칙대로 쓴다. 근거는 `db/`의 사실이고, 위키는 빠진 사실을 찾는 데만 쓴다.
 - `handoff.md`를 쓴다: 한 일, 회사별 채움 상태, 남은 공백, 충돌과 판정, 접근 불가 링크, 다음에 팔 가치가 있는 주제, 사용량(`usage_log.md` 누적과 상한 대비).
-- `handoff.md`의 회사별 채움 상태에 공식 사이트 표를 넣는다: 수집 쪽수, 정독 쪽수, 미열람 범위(구역, 쪽수, 사유), 외부 확인이 필요한 항목 수. 값은 각 회사의 audit 결과 `coverage.md`에서 가져온다. 읽지 않은 것을 읽은 것처럼 쓰지 않는다.
+- `handoff.md`의 회사별 채움 상태에 공식 사이트 표를 넣는다: 수집 쪽수, 메모한 쪽수, 근거 대조 결과, 미열람 범위(구역, 쪽수, 사유), 외부 확인이 필요한 항목 수. 값은 각 회사의 `verify.md`와 `coverage.md`에서 가져온다. 읽지 않은 것을 읽은 것처럼 쓰지 않는다.
 - 결과 폴더 전체를 `result.zip`으로 묶어 저장소에 함께 커밋하고 브랜치로 푸시한 뒤, 브랜치 이름과 zip 경로를 알린다. `result.zip`에서 `H/work/*/raw`, `H/work/*/files`, `H/work/*/packs`, `H/work/*/inventory.csv`는 뺀다(내부 작업용 원문, 용량). 이 파일들은 저장소에는 커밋해 둔다. 100MB를 넘는 파일은 gzip으로 묶어 커밋한다.
 
 ## 7. 회사별 본문의 틀
@@ -467,16 +487,7 @@ SKILL.md 5단계 형식을 쓰되, DB로 옮길 사실 줄에는 아래를 붙�
 - 원문을 대화로 돌려보내지 않는다. 결과는 파일에 쓰고 보고는 10줄로 한다.
 ```
 
-공식 사이트 읽기 에이전트(SITE, WIKI, ATS-1의 사이트 부분)에는 아래를 더한다.
-
-```
-- .claude/skills/company-site-wiki/SKILL.md의 5단계(읽기와 메모)와 6단계(위키)를 따른다.
-- 맡은 묶음만 끝까지 읽는다. inventory.csv, raw/, packs/를 통째로 열지 않는다.
-- 지시문 5-1절의 제외 범위(H/00_먼저읽기.md 5번)는 열지 않는다.
-- 이 에이전트의 "자기 폴더"는 H/work/<회사>/notes/의 맡은 묶음 파일이다. WIKI 에이전트는 H/work/<회사>/wiki/와 work/<회사>_site/다.
-- 사실 줄마다 원문 근거 문장, raw 위치, 틀 항목을 단다(5-1절 notes 형식).
-- 회사 사이트가 밝힌 인가, 규모, 순위는 사실로 확정하지 않고 open-questions.md에 확인할 곳과 함께 올린다.
-```
+공식 사이트 묶음 읽기는 site-pack-reader(`.claude/agents/site-pack-reader.md`)가 맡는다. 그 정의 파일의 순서, 형식, 규칙이 머리말을 대신하고, 위 공통 머리말은 넣지 않는다. 넘길 것은 묶음 파일 경로, 메모 경로, 조사 질문 셋이다. 수집 실행은 site-collector(`.claude/agents/site-collector.md`)에 작업 폴더 경로와 명령을 넘긴다.
 
 공식 사이트 밖 자료 에이전트(EXT)에는 아래를 더한다.
 
@@ -518,6 +529,7 @@ Coinbase는 이전에 열람한 링크도, 수집해 둔 사이트 원자료도 
 - 기업별 틀 엑셀: 7절 틀의 원본
 - 과거 해외 거래소 현황표, tZERO 정리본: 서술 깊이와 문체의 참고
 - `KDX_사이트전수조사_인수인계.zip`: 공식 사이트 수집 스킬과 회사별 수집 결과(5-1절)
+- `KDX_사이트전수조사_인수인계_추가분.zip`: 위 zip의 바뀐 파일과 새 파일. 위 zip을 푼 자리에 덮어씀(5-1절)
 - `usage.md`(있으면): 시작 시점 주간 사용률과 이번 실행 상한(5-2절)
 
 ## 14. 완료 기준
@@ -528,6 +540,6 @@ Coinbase는 이전에 열람한 링크도, 수집해 둔 사이트 원자료도 
 - 본문에 쓴 용어가 모두 `db/terms.csv`에 있다.
 - `kb/regulation_compare.md`의 쟁점마다 한미 양쪽 근거 조문 링크가 있다.
 - ATS 후보 선정 결과와 사유가 `db/ats_screen.csv`에 있다.
-- 공식 사이트를 다룬 회사마다 audit을 돌린 `coverage.md`가 있고, "정독했으나 위키에 안 쓰인 페이지"는 위키에 반영되었거나 사유가 적혀 있다. 미열람 범위가 handoff.md 표에 있다.
-- 사용량이 5-2절 상한 안이고, `usage_log.md`에 회사별 예상량과 누적이 있다. 상한에 걸려 멈췄으면 `usage_report.md`가 있다.
+- 공식 사이트를 다룬 회사마다 verify를 돌린 `verify.md`와 audit을 돌린 `coverage.md`가 있고, "정독했으나 위키에 안 쓰인 페이지"는 위키에 반영되었거나 사유가 적혀 있다. 미열람 범위가 handoff.md 표에 있다.
+- 사용량이 5-2절 기준(주간 50%) 안이고, `usage_log.md`에 회사별 예상량과 누적이 있다. 상한에 걸려 멈췄으면 `usage_report.md`가 있다.
 - 결과가 브랜치에 푸시되어 있고, `handoff.md`, 브랜치 이름, zip 경로를 보고했다.

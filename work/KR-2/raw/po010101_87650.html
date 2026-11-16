@@ -1,0 +1,2773 @@
+<!DOCTYPE html>
+<html lang="ko" class="ko">
+<head>
+	<title>
+		금융정책 - 
+			정책일반 - 
+			정책마당 - 
+			금융위원회</title> 
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="keywords" content="금융위원회, 금융위">
+	<meta name="robots" content="index,follow" />
+	<link rel="shortcut icon" href="/humanframe/global/assets/image/icon/favicon.ico" type="image/x-icon"/>
+	<link rel="icon" href="/humanframe/global/assets/image/icon/favicon.ico" type="image/x-icon"/>
+	
+	<!-- NAVER WEBMASTER -->
+	<meta name="naver-site-verification" content="41d4a49609a8cc014169c0cbaa643150cf8d7b89" />
+	<meta name="description" content="혁신적 금융, 포용적 금융, 신뢰받는 금융, 금융위원회 입니다.">
+	<script type="application/ld+json">
+	{
+ 	"@context": "http://schema.org",
+	"@type": "WebSite",
+ 	"name": "금융위원회",
+ 	"url": "https://www.fsc.go.kr",
+ 	"sameAs": [
+   	"https://blog.naver.com/blogfsc",
+   	"https://www.youtube.com/channel/UCuJz-PXNMdWQr6TNM4htENw",
+   	"https://www.facebook.com/fsckorea",
+   	"https://twitter.com/fsckorea",
+    "https://instagram.com/fsc.go.kr"
+ 	]
+	}
+	</script>
+    
+	<!-- Vendor CSS -->
+	<link rel="stylesheet" href="/humanframe/theme/fscmain/assets/vendor/jquery-ui/jquery-ui.css" />
+	<link rel="stylesheet" href="/humanframe/theme/fscmain/assets/vendor/jquery-ui/jquery-ui.theme.css" />
+	<link rel="stylesheet" href="/humanframe/theme/fscmain/assets/vendor/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/humanframe/theme/fscmain/assets/vendor/owl.carousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="/humanframe/theme/fscmain/assets/vendor/magnific-popup/magnific-popup.min.css">
+	<link rel="stylesheet" href="/humanframe/theme/fscmain/assets/css/jquery.datetimepicker.css">
+	<link rel="stylesheet" href="/humanframe/theme/fscmain/assets/plugin/swiper/swiper.css">
+	<!-- Global CSS -->
+	<link rel="stylesheet" href="/humanframe/global/assets/css/global.css?20240118">
+	
+	<!-- FSC CSS -->
+	<link type="text/css" rel="stylesheet" href="/humanframe/theme/fscmain/assets/style/common.css">
+	<link type="text/css" rel="stylesheet" href="/humanframe/theme/fscmain/assets/style/custom.css">
+	<link type="text/css" rel="stylesheet" href="/humanframe/theme/fscmain/assets/style/search.css">
+	
+	<!-- 공용 Scripts -->
+	<script src="/humanframe/global/assets/vendor/jquery/jquery-2.2.2.min.js"></script>
+	<script src="/humanframe/global/assets/vendor/jquery/jquery.ajax-cross-origin.min.js"></script>
+	<script src="/humanframe/global/assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+	<script src="/humanframe/global/assets/vendor/jquery-ui/datepicker-ko.js"></script>
+	<script src="/humanframe/global/assets/vendor/loadingoverlay.min.js"></script>
+	<script src="/humanframe/global/assets/script/makePCookie.js"></script>
+	<script src="/humanframe/theme/fscmain/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+	<script src="/humanframe/theme/fscmain/assets/script/jquery.datetimepicker.js"></script>
+	<script src="/humanframe/theme/fscmain/assets/plugin/swiper/swiper.js"></script>
+	
+	<!-- FSC Scripts -->
+	<script src="/humanframe/global/assets/script/global-kor.js"></script>
+	<script type="text/javascript" src="/humanframe/theme/fscmain/assets/script/common.js"></script>
+	<script type="text/javascript" src="/humanframe/theme/fscmain/assets/script/sub.js"></script>
+	<script src="/humanframe/theme/fscmain/assets/script/search.js"></script>
+	<script src="/humanframe/theme/fscmain/assets/script/vKeyboard.js"></script>
+	
+	<!-- jQuery Validate -->
+	<script src="/humanframe/theme/fscmain/assets/vendor/jquery.validate/jquery.validate.min.js"></script>
+	<script src="/humanframe/theme/fscmain/assets/vendor/jquery.validate/localization/messages_ko.js"></script>
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		  // Find the subject element
+		  const subjectElement = document.querySelector('.board-view-wrap > .header > .subject');
+		  
+		  // Check if the subject element exists and has text content
+		  if (subjectElement && subjectElement.textContent.trim()) {
+		    // Get the current page title
+		    const currentTitle = document.title;
+		    
+		    // Get the text from subject element
+		    const subjectText = subjectElement.textContent.trim();
+		    
+		    // Update the document title by adding subject text at the beginning
+		    document.title = '상세화면' + ' - ' + currentTitle;
+		  }
+		});
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<div id="skipNavigation" title="스킵내비게이션">
+	        <a href="#gnb-menu">주메뉴 바로가기 </a>
+	        <a href="#container">본문 내용 바로가기</a>
+	    </div>
+	
+		<!-- start:header -->
+		<script type="text/javascript">
+	$(document).ready(function(){
+		$(".search-auto-wrap").hide();
+		
+		$("#searchText").on("focus", function() {
+			$(".search-auto-wrap").show();
+		});
+		
+		$("#searchText").on("keyup", function() {
+			getAutoComplete(autoMode);
+		});
+		
+		/*
+		$(document).click(function(e){
+			var ahref = $(e.target).attr('href');
+			var aclass = $(e.target).attr('class');
+			
+			if (!$(e.target).is('#searchText') && ahref != "#none" && aclass.indexOf("hover") < 0) {
+				$(".search-auto-wrap").hide();
+			}
+		});
+		*/
+		
+		$(document).mouseup(function (e){
+			var keyboardHide = $('.search-wrap');
+			if( keyboardHide.has(e.target).length === 0){
+				$(".search-auto-wrap").hide();
+			}
+		});
+		
+		$('#frmSearch').submit(function() {
+			if($("input[name='searchText']").val() == ""){
+				alert("검색어를 입력하세요.");
+				return false;
+			}
+		});
+	});
+	
+	function searchText(srchText) {
+		$("input[name='searchText'], frmSearch").val(srchText.trim());
+		$("#frmSearch").submit();
+	}
+	
+	function closeAutoComplete() {
+		$(".search-auto-wrap").hide();
+		$('.search-btn').focus();
+	}
+</script>
+   		<header>
+			<div class="eg">
+				<p><img src="/humanframe/theme/fscmain/assets/images/common/ico_eg.png" alt="eg(전자정부)">이 누리집은 대한민국 공식 전자정부 누리집입니다.</p>
+			</div>
+			<div class="top-head">
+                <div class="logo-cont">
+                    <a href="/index" title="금융위원회 바로가기"><img src="/humanframe/theme/fscmain/assets/images/common/logo.png" alt="금융위원회"></a>
+                </div>
+                <!-- side-menu 이동 -->
+                <div class="side-menu">
+                	<ul>
+						<li><a href="/edu" target="_blank" title="금융위원회 알기쉬운 금융홈페이지 새창으로 열기" class="ext_link_none">알기쉬운 금융</a></li>
+                    	<li><a href="/eng" target="_blank" title="금융위원회 영문홈페이지 새창으로 열기">ENGLISH</a></li>
+                    	<li><a href="/kids" target="_blank" title="금융위원회 어린이 홈페이지 새창으로 열기">어린이</a></li>
+                    </ul>
+                </div>
+                
+                <!-- search form -->
+                <form name="frmSearch" id="frmSearch" method="post" action="/sc000000">
+                	<input type="hidden" id="colTarget" name="colTarget" value="TOTAL">
+                	<input type="hidden" id="lang" name="lang" value="KO">
+                    <fieldset>
+                        <legend>검색영역</legend>
+                        <div class="search-wrap">
+                            <div class="header">
+                                <label for="searchText"><span class="hd-element">검색어를 입력하세요</span></label>
+                                <input type="text" name="searchText" id="searchText" placeholder="검색어를 입력하세요." autocomplete="off" maxlength='2000'>
+                                <!-- search auto -->
+                                <div class="search-auto-wrap" style="display:none">
+                                    <div class="auto-list" style="min-height: 220px;">
+                                        <ul id="autoResult"></ul>
+                                        <div class="link"></div>
+                                    </div>
+                                    <div class="auto-word">
+                                    	<div class="left-element">
+                                            <a href="javascript:getAutoComplete('s')">첫 단어 보기</a>
+                                        	<a href="javascript:getAutoComplete('e')">끝 단어 보기</a>
+                                        </div>
+                                        <div class="right-element">
+                                            <a href="javascript:closeAutoComplete()">닫기</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--// search auto -->
+                                <button type="submit" class="search-btn" title="검색"><span class="hd-element">검색</span></button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form><!--// search form -->
+
+                <!-- mobile menu -->
+                <ul class="m-menu">
+                    <li><a href="javascript:void(0);"><span class="hd-element">검색</span></a></li>
+                    <li><a href="javascript:void(0);">
+                    	<em class="hd-element">모바일메뉴 열기</em>
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
+                    </a>
+                </li>
+                </ul>
+                <!--// mobile menu -->
+            </div>
+            <!-- gnb -->
+            <nav class="gnb" id="gnb">
+                <div class="gnb-inner">
+                	<div class="side-menu">
+                		<ul>
+                        	<li><a href="/eng" target="_blank" title="금융위원회 영문홈페이지 새창으로 열기">ENGLISH</a></li>
+                        	<li><a href="/kids" target="_blank" title="금융위원회 어린이 홈페이지 새창으로 열기">어린이</a></li>
+                        </ul>
+                    </div>
+                    <ul id="gnb-menu">
+                        <li>
+									<a	
+										
+													href="/no040101" target="_self" 
+										>알림마당<span class="line" ></span></a>
+									<ul>
+										<li>
+													<a	
+														
+																	href="/no010101" target="_self" 
+														>위원회 소식</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/no010101"
+																				
+																			>보도자료</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no010102"
+																				
+																			>보도설명자료</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no010103"
+																				
+																			>보고영상</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no010104"
+																				
+																			>알림·채용·입찰</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no010105"
+																				
+																			>새소식</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no010106"
+																				
+																			>사진뉴스</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no010107"
+																				
+																			>정책영상</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/no040101" target="_self" 
+														>홍보자료</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/no040101"
+																				
+																			>카드뉴스</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="https://www.youtube.com/@FSCKorea" target="_blank" title="새창으로 열기"
+																			>영상(유튜브)</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no040104"
+																				
+																			>웹툰</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no040103"
+																				
+																			>정보그림(인포그래픽)</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/no020101" target="_self" 
+														>의결정보</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/no020101"
+																				
+																			>금융위의결정보</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no020102"
+																				
+																			>증선위의결정보</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="https://www.fss.or.kr/fss/job/accnutAdtorInfo/list.do?acntnWrkCode=01&menuNo=200732" target="_blank" title="새창으로 열기"
+																			>제재정보</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/no07010101" target="_self" 
+														>자본시장 불공정거래</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/no07010101"
+																				
+																			>불공정거래 홈</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no070101"
+																				
+																			>불공정거래란</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no070200"
+																				
+																			>의결정보</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no070300"
+																				
+																			>보도자료ㆍ참고자료</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/no030101" target="_self" 
+														>금융시장동향</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/no030101"
+																				
+																			>금융시장동향</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no030102"
+																				
+																			>금융지표</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/edu" target="_blank" title="새창으로 열기"
+														>알기쉬운금융</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="/no060101" target="_self" 
+														>해외금융기관</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="/no060101" target="_self" 
+																			>주요국가 금융감독기관</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/no060201"
+																				
+																			>주요국제금융기구</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																href="/pa050000"
+															
+														>뉴스레터</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="/in090101" target="_self" 
+														>자료실</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="/in090101" target="_self" 
+																			>금융시장역사</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="/in090201" target="_self" 
+																			>금융60년연표</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/in090301"
+																				
+																			>금융용어설명</a>
+																	</li>
+																</ul>
+													</li>
+											</ul>
+								</li>
+							<li>
+									<a	
+										
+													href="/pa030101" target="_self" 
+										>참여마당<span class="line" ></span></a>
+									<ul>
+										<li>
+													<a	
+														
+																href="/pa010000"
+															
+														>민원신청</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="https://www.epeople.go.kr/idea/index.npaid" target="_blank" title="새창으로 열기"
+														>국민생각함</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="https://fine.fss.or.kr/fine/fncco/systemFncCo/list.do?menuNo=900038" target="_blank" title="새창으로 열기"
+														>제도권금융기관조회</a>
+													</li>
+											<li>
+													<a	
+														
+																href="/pa040000"
+															
+														>옴부즈만</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="/pa030101" target="_self" 
+														>신고마당</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/pa030101"
+																				
+																			>불공정거래신고</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="/pa030201" target="_self" 
+																			>부패방지신고</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="/pa030301" target="_self" 
+																			>직원친절ㆍ불친절제보</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="/pa030401" target="_self" 
+																			>금융부조리신고(비영리포함)</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/pa030501"
+																				
+																			>금융사고제보</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/pa030502"
+																				
+																			>공익신고</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/pa030503"
+																				
+																			>갑질피해신고</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="https://www.epeople.go.kr/nep/crtf/userLogn.npaid?returnUrl=%2Fnep%2FbdgtWst%2FselectBdgtWstRqstPage.paid" target="_blank" title="새창으로 열기"
+																			>예산낭비신고</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="https://www.safetyreport.go.kr/api?apiKey=1160100MEE3V8X4PT5AA2UJMORZ" target="_blank" title="새창으로 열기"
+																			>안전신문고</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/pa030601"
+																				
+																			>국고보조금 부조리 신고센터</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/pa070101" target="_self" 
+														>관련누리집</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="/pa070102" target="_self" 
+																			>국내관련누리집</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="/pa070201" target="_self" 
+																			>해외관련누리집</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																href="/pa070301"
+															
+														>금융위원회 공무원의 성과를 칭찬합니다.</a>
+													</li>
+											<li>
+													<a	
+														
+																href="/pa080001"
+															
+														>금융분야 정상화 과제 제안센터</a>
+													</li>
+											</ul>
+								</li>
+							<li>
+									<a	
+										
+													href="/po02010101" target="_self" 
+										>정책마당<span class="line" style="display:block"></span></a>
+									<ul>
+										<li>
+													<a	
+														
+																	href="/po02010101" target="_self" 
+														>정책자료</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="/po0201010202" target="_self" 
+																			>주요업무계획</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/po02050101"
+																				
+																			>국정성과</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/po020201"
+																				
+																			>주요정책문답</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="/po02030103" target="_self" 
+																			>국회·예산 등</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/po020401"
+																				
+																			>정부위원회현황</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/po040101" target="_self" 
+														>법령정보</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/po040101"
+																				
+																			>금융위 소관법규</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/po040200"
+																				
+																			>금융위 소관규정/고시/공고/훈령</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/po040301"
+																				
+																			>입법예고/규정변경예고</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/index" target="_self" 
+														>규제혁신</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="https://better.fsc.go.kr/" target="_blank" title="새창으로 열기"
+																			>금융규제 법령해석포털</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="https://www.better.go.kr/zz.main.PortalMain" target="_blank" title="새창으로 열기"
+																			>규제정보포털</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/po050100" target="_self" 
+														>국정과제</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/po050100"
+																				
+																			>국정과제</a>
+																	</li>
+																</ul>
+													</li>
+											</ul>
+								</li>
+							<li>
+									<a	
+										
+													href="/in010000" target="_self" 
+										>정보공개<span class="line" ></span></a>
+									<ul>
+										<li>
+													<a	
+														
+																href="/in010000"
+															
+														>정보공개제도안내</a>
+													</li>
+											<li>
+													<a	
+														
+																href="/in040000"
+															
+														>사전정보공표목록</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="/in050101" target="_self" 
+														>재정정보공개</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="/in050101" target="_self" 
+																			>재정정보</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																href="/in070000"
+															
+														>비공개 대상정보 세부기준</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="https://www.open.go.kr/com/login/memberLogin.do" target="_blank" title="새창으로 열기"
+														>정보공개청구</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="https://www.open.go.kr/othicInfo/infoList/infoList.do" target="_blank" title="새창으로 열기"
+														>보유정보목록</a>
+													</li>
+											<li>
+													<a	
+														
+																	href="/in100100" target="_self" 
+														>감사·청렴</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/in100100"
+																				
+																			>자체감사결과</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/in100200"
+																				
+																			>부패공직자현황</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/in100300"
+																				
+																			>반부패·청렴</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/in060101" target="_self" 
+														>공공데이터개방</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/in060101"
+																				
+																			>금융공공데이터란</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/in060201"
+																				
+																			>시스템 구성</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/in060301"
+																				
+																			>개방 현황</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/in060501"
+																				
+																			>자주 묻는 질문</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/in060701"
+																				
+																			>공공데이터 제공신청 및 의견수렴</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																href="/in080000"
+															
+														>정책실명제</a>
+													</li>
+											</ul>
+								</li>
+							<li>
+									<a	
+										
+													href="/ad010101" target="_self" 
+										>적극행정<span class="line" ></span></a>
+									<ul>
+										<li>
+													<a	
+														
+																	href="/ad010101" target="_self" 
+														>제도소개</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/ad010101"
+																				
+																			>적극행정과 소극행정의 정의</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/ad010102"
+																				
+																			>적극행정 추진방향</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/ad020101" target="_self" 
+														>국민참여</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/ad020101"
+																				
+																			>적극행정국민추천</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="https://www.epeople.go.kr/nep/pttn/negativePttn/NegativePttnCotents.npaid" target="_blank" title="새창으로 열기"
+																			>소극행정신고</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="https://www.mpm.go.kr/mpm/info/theActive/referenceBoard/newsBoard/" target="_blank" title="새창으로 열기"
+														>적극행정자료실</a>
+													</li>
+											<li>
+													<a	
+														
+																href="/ad040101"
+															
+														>적극행정우수공무원</a>
+													</li>
+											</ul>
+								</li>
+							<li>
+									<a	
+										
+													href="/fsc010101" target="_self" 
+										>금융위원회<span class="line" ></span></a>
+									<ul>
+										<li>
+													<a	
+														
+																	href="/fsc010101" target="_self" 
+														>금융위원회소개</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																					href="/fsc010101"
+																				
+																			>금융위원회</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																						href="/fsc010201" target="_self" 
+																			>위원소개</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/fsc020101" target="_self" 
+														>위원장</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="/fsc020101" target="_self" 
+																			>소개</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/fsc020201"
+																				
+																			>위원장과의 대화</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/fsc020301"
+																				
+																			>위원장 일정</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/fsc020401"
+																				
+																			>기고/강연/연설</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/fsc020501"
+																				
+																			>역대위원장</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																	href="/fsc030101" target="_self" 
+														>부위원장</a>
+													<ul>
+															<li>
+																		<a	
+																			
+																						href="/fsc030101" target="_self" 
+																			>소개</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/fsc030201"
+																				
+																			>부위원장 일정</a>
+																	</li>
+																<li>
+																		<a	
+																			
+																					href="/fsc030202"
+																				
+																			>역대 부위원장</a>
+																	</li>
+																</ul>
+													</li>
+											<li>
+													<a	
+														
+																href="/fsc040101"
+															
+														>조직도</a>
+													</li>
+											<li>
+													<a	
+														
+																href="/fsc050101"
+															
+														>찾아오시는 길</a>
+													</li>
+											</ul>
+								</li>
+							<li class="allmenu">
+                            <a href="javascript:void(0);" title="전체보기"><span class="ico"></span>전체보기</a>
+                             <ul>
+                                <li>
+											<a	
+												
+															href="/no040101" target="_self" 
+												>알림마당</a>
+											<ul>
+												<li>
+															<a	
+																
+																			href="/no010101" target="_self" 
+																>위원회 소식</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/no010101"
+																					
+																				>보도자료</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no010102"
+																					
+																				>보도설명자료</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no010103"
+																					
+																				>보고영상</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no010104"
+																					
+																				>알림·채용·입찰</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no010105"
+																					
+																				>새소식</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no010106"
+																					
+																				>사진뉴스</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no010107"
+																					
+																				>정책영상</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/no040101" target="_self" 
+																>홍보자료</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/no040101"
+																					
+																				>카드뉴스</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="https://www.youtube.com/@FSCKorea" target="_blank" title="새창으로 열기"
+																				>영상(유튜브)</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no040104"
+																					
+																				>웹툰</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no040103"
+																					
+																				>정보그림(인포그래픽)</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/no020101" target="_self" 
+																>의결정보</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/no020101"
+																					
+																				>금융위의결정보</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no020102"
+																					
+																				>증선위의결정보</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="https://www.fss.or.kr/fss/job/accnutAdtorInfo/list.do?acntnWrkCode=01&menuNo=200732" target="_blank" title="새창으로 열기"
+																				>제재정보</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/no07010101" target="_self" 
+																>자본시장 불공정거래</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/no07010101"
+																					
+																				>불공정거래 홈</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no070101"
+																					
+																				>불공정거래란</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no070200"
+																					
+																				>의결정보</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no070300"
+																					
+																				>보도자료ㆍ참고자료</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/no030101" target="_self" 
+																>금융시장동향</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/no030101"
+																					
+																				>금융시장동향</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no030102"
+																					
+																				>금융지표</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/edu" target="_blank" title="새창으로 열기"
+																>알기쉬운금융</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/no060101" target="_self" 
+																>해외금융기관</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="/no060101" target="_self" 
+																				>주요국가 금융감독기관</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/no060201"
+																					
+																				>주요국제금융기구</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/pa050000"
+																	
+																>뉴스레터</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/in090101" target="_self" 
+																>자료실</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="/in090101" target="_self" 
+																				>금융시장역사</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="/in090201" target="_self" 
+																				>금융60년연표</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/in090301"
+																					
+																				>금융용어설명</a>
+																		</li>
+																	</ul>
+														</li>
+													</ul>
+										</li>
+									<li>
+											<a	
+												
+															href="/pa030101" target="_self" 
+												>참여마당</a>
+											<ul>
+												<li>
+															<a	
+																
+																		href="/pa010000"
+																	
+																>민원신청</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="https://www.epeople.go.kr/idea/index.npaid" target="_blank" title="새창으로 열기"
+																>국민생각함</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="https://fine.fss.or.kr/fine/fncco/systemFncCo/list.do?menuNo=900038" target="_blank" title="새창으로 열기"
+																>제도권금융기관조회</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/pa040000"
+																	
+																>옴부즈만</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/pa030101" target="_self" 
+																>신고마당</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/pa030101"
+																					
+																				>불공정거래신고</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="/pa030201" target="_self" 
+																				>부패방지신고</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="/pa030301" target="_self" 
+																				>직원친절ㆍ불친절제보</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="/pa030401" target="_self" 
+																				>금융부조리신고(비영리포함)</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/pa030501"
+																					
+																				>금융사고제보</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/pa030502"
+																					
+																				>공익신고</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/pa030503"
+																					
+																				>갑질피해신고</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="https://www.epeople.go.kr/nep/crtf/userLogn.npaid?returnUrl=%2Fnep%2FbdgtWst%2FselectBdgtWstRqstPage.paid" target="_blank" title="새창으로 열기"
+																				>예산낭비신고</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="https://www.safetyreport.go.kr/api?apiKey=1160100MEE3V8X4PT5AA2UJMORZ" target="_blank" title="새창으로 열기"
+																				>안전신문고</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/pa030601"
+																					
+																				>국고보조금 부조리 신고센터</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/pa070101" target="_self" 
+																>관련누리집</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="/pa070102" target="_self" 
+																				>국내관련누리집</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="/pa070201" target="_self" 
+																				>해외관련누리집</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/pa070301"
+																	
+																>금융위원회 공무원의 성과를 칭찬합니다.</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/pa080001"
+																	
+																>금융분야 정상화 과제 제안센터</a>
+															<ul>
+																</ul>
+														</li>
+													</ul>
+										</li>
+									<li>
+											<a	
+												
+															href="/po02010101" target="_self" 
+												>정책마당</a>
+											<ul>
+												<li>
+															<a	
+																
+																			href="/po02010101" target="_self" 
+																>정책자료</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="/po0201010202" target="_self" 
+																				>주요업무계획</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/po02050101"
+																					
+																				>국정성과</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/po020201"
+																					
+																				>주요정책문답</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="/po02030103" target="_self" 
+																				>국회·예산 등</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/po020401"
+																					
+																				>정부위원회현황</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/po040101" target="_self" 
+																>법령정보</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/po040101"
+																					
+																				>금융위 소관법규</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/po040200"
+																					
+																				>금융위 소관규정/고시/공고/훈령</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/po040301"
+																					
+																				>입법예고/규정변경예고</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/index" target="_self" 
+																>규제혁신</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="https://better.fsc.go.kr/" target="_blank" title="새창으로 열기"
+																				>금융규제 법령해석포털</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="https://www.better.go.kr/zz.main.PortalMain" target="_blank" title="새창으로 열기"
+																				>규제정보포털</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/po050100" target="_self" 
+																>국정과제</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/po050100"
+																					
+																				>국정과제</a>
+																		</li>
+																	</ul>
+														</li>
+													</ul>
+										</li>
+									<li>
+											<a	
+												
+															href="/in010000" target="_self" 
+												>정보공개</a>
+											<ul>
+												<li>
+															<a	
+																
+																		href="/in010000"
+																	
+																>정보공개제도안내</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/in040000"
+																	
+																>사전정보공표목록</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/in050101" target="_self" 
+																>재정정보공개</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="/in050101" target="_self" 
+																				>재정정보</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/in070000"
+																	
+																>비공개 대상정보 세부기준</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="https://www.open.go.kr/com/login/memberLogin.do" target="_blank" title="새창으로 열기"
+																>정보공개청구</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="https://www.open.go.kr/othicInfo/infoList/infoList.do" target="_blank" title="새창으로 열기"
+																>보유정보목록</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/in100100" target="_self" 
+																>감사·청렴</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/in100100"
+																					
+																				>자체감사결과</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/in100200"
+																					
+																				>부패공직자현황</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/in100300"
+																					
+																				>반부패·청렴</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/in060101" target="_self" 
+																>공공데이터개방</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/in060101"
+																					
+																				>금융공공데이터란</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/in060201"
+																					
+																				>시스템 구성</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/in060301"
+																					
+																				>개방 현황</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/in060501"
+																					
+																				>자주 묻는 질문</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/in060701"
+																					
+																				>공공데이터 제공신청 및 의견수렴</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/in080000"
+																	
+																>정책실명제</a>
+															<ul>
+																</ul>
+														</li>
+													</ul>
+										</li>
+									<li>
+											<a	
+												
+															href="/ad010101" target="_self" 
+												>적극행정</a>
+											<ul>
+												<li>
+															<a	
+																
+																			href="/ad010101" target="_self" 
+																>제도소개</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/ad010101"
+																					
+																				>적극행정과 소극행정의 정의</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/ad010102"
+																					
+																				>적극행정 추진방향</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/ad020101" target="_self" 
+																>국민참여</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/ad020101"
+																					
+																				>적극행정국민추천</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="https://www.epeople.go.kr/nep/pttn/negativePttn/NegativePttnCotents.npaid" target="_blank" title="새창으로 열기"
+																				>소극행정신고</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="https://www.mpm.go.kr/mpm/info/theActive/referenceBoard/newsBoard/" target="_blank" title="새창으로 열기"
+																>적극행정자료실</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/ad040101"
+																	
+																>적극행정우수공무원</a>
+															<ul>
+																</ul>
+														</li>
+													</ul>
+										</li>
+									<li>
+											<a	
+												
+															href="/fsc010101" target="_self" 
+												>금융위원회</a>
+											<ul>
+												<li>
+															<a	
+																
+																			href="/fsc010101" target="_self" 
+																>금융위원회소개</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																						href="/fsc010101"
+																					
+																				>금융위원회</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																							href="/fsc010201" target="_self" 
+																				>위원소개</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/fsc020101" target="_self" 
+																>위원장</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="/fsc020101" target="_self" 
+																				>소개</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/fsc020201"
+																					
+																				>위원장과의 대화</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/fsc020301"
+																					
+																				>위원장 일정</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/fsc020401"
+																					
+																				>기고/강연/연설</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/fsc020501"
+																					
+																				>역대위원장</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																			href="/fsc030101" target="_self" 
+																>부위원장</a>
+															<ul>
+																<li>
+																			<a	
+																				
+																							href="/fsc030101" target="_self" 
+																				>소개</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/fsc030201"
+																					
+																				>부위원장 일정</a>
+																		</li>
+																	<li>
+																			<a	
+																				
+																						href="/fsc030202"
+																					
+																				>역대 부위원장</a>
+																		</li>
+																	</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/fsc040101"
+																	
+																>조직도</a>
+															<ul>
+																</ul>
+														</li>
+													<li>
+															<a	
+																
+																		href="/fsc050101"
+																	
+																>찾아오시는 길</a>
+															<ul>
+																</ul>
+														</li>
+													</ul>
+										</li>
+									</ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav><!--// gnb -->
+		</header><!-- end:header -->
+		
+		<!-- start:content -->
+		<main id="sub-container">
+			<aside>
+	<script>
+	window.addEventListener("load", function () {
+	
+	    const lnb = document.querySelector(".lnb");
+	    
+	    if (!lnb) return;
+	    
+	    const depth2Menus = lnb.querySelectorAll("ul > li");
+	    
+	    depth2Menus.forEach(function(li) {
+	       
+	    	const a = li.querySelector("a");
+	        const subMenu = li.querySelector("ul");
+	
+	        // 실제 하위메뉴 있는지 체크 (핵심)
+	        const hasRealSubMenu = subMenu && subMenu.children.length > 0;
+	       
+	        if (a && hasRealSubMenu) {
+	            a.classList.add("has-submenu");
+	            a.setAttribute("aria-haspopup", "true");
+	          
+	            if (li.classList.contains("active")) {
+	                a.setAttribute("aria-expanded", "true");
+	                a.setAttribute("aria-label", "확장됨");
+	            } else {
+	                a.setAttribute("aria-expanded", "false");
+	                a.setAttribute("aria-label", "축소됨");
+	            }
+	
+	            // 클릭 (하위메뉴 있을 때만 막기)
+	            a.addEventListener("click", function(e) {
+	                e.preventDefault();
+	               
+	                const expanded = a.getAttribute("aria-expanded") === "true";
+	                
+	                a.setAttribute("aria-expanded", !expanded);
+	                a.setAttribute("aria-label", !expanded ? "확장됨" : "축소됨");
+	            });
+	
+	            // 키보드 접근성 (추가 but 안전)
+	            a.addEventListener("keydown", function(e) {
+	                if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+	                    e.preventDefault();
+	
+	                    const expanded = a.getAttribute("aria-expanded") === "true";
+	
+	                    a.setAttribute("aria-expanded", !expanded);
+	                    a.setAttribute("aria-label", !expanded ? "확장됨" : "축소됨");
+	                }
+	            });
+	        }
+	    });
+	});
+</script>
+	
+        <h2 class="lnb-title">정책마당</h2>
+        <nav class="lnb">
+            <ul>
+                <li title=""  >
+							<a href="/po02010101" target="_self" 
+							>정책자료<span></span>
+							</a>
+							<ul>
+								<li title="">
+											<a href="/po0201010202" target="_self" 
+											>주요업무계획</a>
+										</li>
+									<li title="">
+											<a href="/po02050101" 
+												
+											>국정성과</a>
+										</li>
+									<li title="">
+											<a href="/po020201" 
+												
+											>주요정책문답</a>
+										</li>
+									<li title="">
+											<a href="/po02030103" target="_self" 
+											>국회·예산 등</a>
+										</li>
+									<li title="">
+											<a href="/po020401" 
+												
+											>정부위원회현황</a>
+										</li>
+									</ul>
+						</li>
+					<li title=""  >
+							<a href="/po040101" target="_self" 
+							>법령정보<span></span>
+							</a>
+							<ul>
+								<li title="">
+											<a href="/po040101" 
+												
+											>금융위 소관법규</a>
+										</li>
+									<li title="">
+											<a href="/po040200" 
+												
+											>금융위 소관규정/고시/공고/훈령</a>
+										</li>
+									<li title="">
+											<a href="/po040301" 
+												
+											>입법예고/규정변경예고</a>
+										</li>
+									</ul>
+						</li>
+					<li title=""  >
+							<a href="/index" target="_self" 
+							>규제혁신<span></span>
+							</a>
+							<ul>
+								<li title="">
+											<a href="https://better.fsc.go.kr/" target="_blank" title="새 창에서 열림"
+											>금융규제 법령해석포털</a>
+										</li>
+									<li title="">
+											<a href="https://www.better.go.kr/zz.main.PortalMain" target="_blank" title="새 창에서 열림"
+											>규제정보포털</a>
+										</li>
+									</ul>
+						</li>
+					<li title=""  >
+							<a href="/po050100" target="_self" 
+							>국정과제<span></span>
+							</a>
+							<ul>
+								<li title="">
+											<a href="/po050100" 
+												
+											>국정과제</a>
+										</li>
+									</ul>
+						</li>
+					</ul>
+        </nav></aside><div class="content" id="container">
+	               	<!-- location -->
+	               	<div class="location-wrap">
+	                   	<div class="inner">
+							<span class="home"><a href="/index" title="금융위원회 홈으로 이동"><span class="hd-element">홈으로</span></a></span>
+		                   	<span ><a href="/po000000" title="정책마당 이동">정책마당</a></span>
+		                   	<span ><a href="/po010000" title="정책일반 이동">정책일반</a></span>
+		                   	<span class="active"><a href="/po010101?srchCtgry=1" title="금융정책 이동">금융정책</a></span>
+		                   	</div>
+	               	</div><!--// location -->
+	               	<!-- content-header -->
+	               	<div class="content-header">
+	                   	<h3>
+	                   	금융정책</h3>
+	                   <div class="right-column">
+	                       <span class="sns-link">
+	                           	<a href="javascript:void(0);"><span class="hd-element">공유하기</span></a>
+	                           	<div class="content-share-wrap">
+					            	<div class="content-share-layer">
+										<div class="sns-list-wrap">
+											<ul class="sns-list">
+												<li><a href="javascript:void(0);" class="btn-sns facebook" onclick="fn_sendSns('facebook','금융정책');" title="페이스북 공유하기 새창열기"><span>FaceBook</span></a></li>
+												<li><a href="javascript:void(0);" class="btn-sns twitter" onclick="fn_sendSns('twitter','금융정책');" title="X (구)트위터 공유하기 새창열기"><span>X (구)트위터</span></a></li>
+												<li><a href="javascript:void(0);" class="btn-sns naverblog" onclick="fn_sendSns('naverblog','금융정책');" title="네이버블로그 공유하기 새창열기"><span>NaverBlog</span></a></li>
+												<li><a href="javascript:void(0);" class="btn-linkurl" onclick="fn_copyUrl();" title="URL 복사하기"><span>URL 복사</span></a></li>
+											</ul>
+											<button type="button" class="close-btn-share-layer" aria-label="닫기"><span>close</span></button>
+										</div>
+									</div>
+								</div>
+	                       </span>
+	                       <span class="print-link">
+	                           <a href="javascript:void(0);" title="인쇄하기"><span class="hd-element">인쇄하기</span></a>
+	                       </span>
+	                   </div>
+	                   
+	               	</div><!--// content-header -->
+	               	<!-- content-body -->
+	               	<div class="content-body">
+	                   	<!-- tab -->
+	                   	<!--// tab -->
+	                	<!-- board-view -->
+<div class="board-view-wrap">
+    <div class="header">
+       	<div class="subject">토큰증권 정책방향 발표- 민·관 합동 토큰증권 협의체 3차회의 개최</div>
+       	<div class="day">
+           <span>2026-09-04</span>
+           <span>조회수 : 75798</span>
+       	</div>
+		<div class="info">
+					<span><strong>담당부서</strong>자본시장과</span>
+					<span><strong>담당자</strong>이용준 사무관</span>
+					<span><strong>연락처</strong>02-2100-2644</span>
+				</div>
+	       	</div>
+    <div class="body">
+        <div class="cont">
+            <p style="text-align: center;"><span><br></span></p>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none; width: 100%; overflow-wrap: break-word;"> 
+<tbody> 
+<tr> 
+<td valign="middle" style="border-left: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); border-bottom: none; padding: 1.4pt 5.1pt;">
+<p style="margin-right: 2.3pt; text-align: center;"><span style="font-weight: bold;">토큰증권 정책방향 발표<br></span><span style="font-weight: bold;">- </span><span style="font-weight: bold;">민&middot;관 합동 토큰증권 협의체 3차회의 개최-</span></p> 
+<p><br></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" style="border-left: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); border-top: none; border-bottom: 1px solid rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>[1]&nbsp;</span><span style="color: rgb(32, 27, 112);">조각투자를 넘어 모든 증권의 토큰증권 발행 인프라 구축을 추진합니다.</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>&nbsp;ㅇ </span><span style="font-weight: bold;">신종&middot;비정형증권</span><span>인 </span><span style="font-weight: bold;">조각투자 </span><span>토큰화와 함께</span><span style="font-weight: bold;"> 주식&middot;채권&middot;펀드</span><span> 등<br></span><span style="font-weight: bold;">기존&middot;정형증권의 토큰화</span><span>도 함께 추진</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>&nbsp;ㅇ </span><span style="font-weight: bold;">혁신</span><span>은 늦추지 않으면서 </span><span style="font-weight: bold;">안정성</span><span>을 갖추기 위해</span><span style="font-weight: bold;"> 단계별 계획</span><span><sup><span>*</span></sup></span><span> 마련</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>&nbsp;&nbsp;&nbsp;&nbsp;* [예] 토큰화 1단계(&lsquo;27.2월 법 시행시)<br></span><span>-(정형증권) 기관투자자 전용 사모MMF&middot;사채 토큰화, 비상장주식 신탁방식 토큰화<br> -(비정형증권) 공모 조각투자증권 토큰화</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>&nbsp;&nbsp;&nbsp;※ NYSE, Nasdaq 파일럿 프로그램을 참고하여 한국거래소를 중심으로 장내시장<br> 토큰화 거래 파일럿 테스트 추진</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>[2]&nbsp;</span><span style="color: rgb(32, 27, 112);">조각투자 혁신과 투자자 보호를 함께 추진합니다.</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>&nbsp;ㅇ 비금전신탁수익증권 </span><span style="font-weight: bold;">기초자산 확대</span><span>(집합화(Pooling) 및 불확실사건<br> 연계 자산</span><span><sup><span> </span></sup></span><span>허용) </span><span>및 </span><span style="font-weight: bold;">투자자 보호</span><span>를 위한 </span><span style="font-weight: bold;">공모절차</span><span style="font-weight: bold;"><sup><span>**</span></sup></span><span style="font-weight: bold;"> </span><span>등 </span><span style="font-weight: bold;">원칙</span><span> 제시</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>&nbsp;&nbsp;&nbsp;&nbsp;* 동일 종류, 목적&middot;기준 명확성, 부실자산 포함 금지, 개별자산 구분 정보 제공 등 필요</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>&nbsp;&nbsp;&nbsp;** 1인당 청약한도, 공모시 배정방법 등</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>&nbsp;&nbsp;&nbsp;※ 투자계약증권 조각투자는 유통성 확대 등을 위한 보완 연구용역 진행</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>[3]&nbsp;</span><span style="color: rgb(32, 27, 112);">기존 증권 중개제도와 토큰증권의 접목을 추진합니다.</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>&nbsp;ㅇ </span><span style="font-weight: bold;">자본시장법</span><span>상 </span><span style="font-weight: bold;">투자중개&middot;매매 인가</span><span>(예:증권업, 장외거래소)</span><span> 획득시, 해당<br></span><span>인가받은 </span><span>업무 범위 내에서 별도 추가인가 없이 </span><span style="font-weight: bold;">토큰증권</span><span style="font-weight: bold;"> 취급 가능</span><span><sup><span>*</span></sup></span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>&nbsp;&nbsp;&nbsp;&nbsp;* 단, 장외거래소는 토큰증권 거래를 지원하려는 경우 금감원 사전협의 필요</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>&nbsp;ㅇ 장외거래소 일반투자자 </span><span style="font-weight: bold;">거래한도</span><span>:장외거래소별 </span><span style="font-weight: bold;">순매수액 1억원</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>[4] </span><span style="color: rgb(32, 27, 112);">발행인 계좌관리기관</span><span style="color: rgb(32, 27, 112);"><sup><span>*</span></sup></span><span style="color: rgb(32, 27, 112);">의 안정적 제도화를 추진합니다.</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>&nbsp;&nbsp;&nbsp;&nbsp;* 금융회사가 아닌 발행인도 자신이 발행한 증권의 고객 증권계좌 개설&middot;관리 가능</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p style="margin-right: 2.3pt;"><span>&nbsp;ㅇ </span><span>안정성 확보를 위해 자기자본</span><span style="font-weight: bold;"> 40억원</span><span>, </span><span style="font-weight: bold;">계좌관리&middot;내부통제&middot;전산 전</span><span style="font-weight: bold;">문</span><span style="font-weight: bold;">인력</span><span> 구비 등 발행인 계좌관리기관 </span><span style="font-weight: bold;">등록요건 </span><span>설정</span></p><span> </span> 
+<p style="margin-right: 2.3pt;"><br></p><span> </span> 
+<p><span>【관련 국정과제】 48. 디지털자산 생태계 구축</span></p></td> 
+</tr> 
+</tbody> 
+</table>
+<p><span><br></span></p>
+<p style="text-align: center;"><span><br></span></p>
+<p><span style="font-weight: bold; color: rgb(0, 0, 255);">[회의 개요 및 모두발언]</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;&rsquo;26.9.4일 금융위원회는 유관기관, 협회, 민간 전문가로 구성된 </span><span style="font-weight: bold;">&ldquo;민&middot;관 합동 토큰증권 협의체&rdquo;</span><span> </span><span style="font-weight: bold;">3차회의</span><span>를 개최했다. 지난 1차회의(&rsquo;26.3.4일)에서 </span><span><sup><span>➀</span></sup></span><span>다양성과 확장성을 위한 </span><span style="font-weight: bold;">혁신</span><span>, </span><span><sup><span>➁</span></sup></span><span>맞춤형 </span><span style="font-weight: bold;">투자자 보호</span><span>, </span><span><sup><span>➂</span></sup></span><span>증권결제 시스템의</span><span> </span><span style="font-weight: bold;">미래준비 </span><span>라는 3대 정책방향을 제시하고, 2차회의(&rsquo;26.5.15일)에서 인프라&middot; 발행&middot;유통 부문의 </span><span style="font-weight: bold;">핵심과제</span><span>에 대한 </span><span style="font-weight: bold;">세부 논의</span><span>를 진행한데 이어, 오늘 3차 </span><span>회의에서는 </span><span style="font-weight: bold;">지금까지의 논의 결과</span><span>를 종합하여 ｢</span><span style="font-weight: bold;">토큰증권 정책방향</span><span>｣을 공</span><span>개했다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span><br></span></p>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none; width: 100%; overflow-wrap: break-word;"> 
+<tbody> 
+<tr> 
+<td valign="middle" style="border-width: 1px; border-style: dotted; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>※ </span><span style="font-weight: bold;">토큰증권 협의체 3차회의 개요</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span>- 일시/장소 : &lsquo;26.9.4일(금) 10:00 / 예탁결제원 서울사무소 12F 대회의실</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span>- 참석자 : </span><span style="font-weight: bold;">금융위원회 부위원장</span><span>(주재)</span><span>, </span><span style="font-weight: bold;">금융감독원</span><span>, </span><span style="font-weight: bold;">예탁결제원, 금융보안원,</span><span><br></span><span style="font-weight: bold;">금융투자협회</span><span>, </span><span style="font-weight: bold;">핀테크산업협회</span><span> 및 </span><span style="font-weight: bold;">협회 산하 토큰증권협의회</span><span>,<br></span><span style="font-weight: bold;">정보통신기술협회, </span><span style="font-weight: bold;">학계&middot;연구계</span><span> 및 </span><span style="font-weight: bold;">법조계 </span><span>등 </span><span style="font-weight: bold;">민간 전문가</span></p><span> </span></td> 
+</tr> 
+</tbody> 
+</table>
+<p><span><br></span></p>
+<p><span><br></span></p>
+<p><span>&nbsp;&nbsp;권대영 부위원장은 모두발언을 통해 &ldquo;토큰증권을</span><span style="font-weight: bold;"> 조각투자</span><span>에만 머물게 </span><span>하지 않겠다&rdquo;며 &ldquo;</span><span style="font-weight: bold;">전략적&middot;단계적 접근</span><span>을 통해 </span><span style="font-weight: bold;">주식, 채권, 펀드 등 기존 금융</span><span style="font-weight: bold;">상품</span><span>도</span><span> </span><span style="font-weight: bold;">토큰 방식</span><span>으로 발행하고 거래할 수 있는 기반을 마련해 나가겠다&rdquo;고</span><span> 밝혔다. 또한 &ldquo;증권의 발행, 거래, 청산, 결제, 권리행사, 기초자산 등 </span><span style="font-weight: bold;">자본</span><span style="font-weight: bold;">시장 전체 가치사슬</span><span>을 </span><span style="font-weight: bold;">하나의 디지털 자본시장</span><span>이라는 관점에서</span><span style="font-weight: bold;"> 연결</span><span>하겠다&rdquo;</span><span>고</span><span> </span><span>강조하며 &ldquo;</span><span style="font-weight: bold;">혁신</span><span>은 </span><span style="font-weight: bold;">시장</span><span>이 이끌고, </span><span style="font-weight: bold;">신뢰</span><span>는 </span><span style="font-weight: bold;">정부</span><span>가 뒷받침하는 방식으로 새</span><span>로운 디지털 자본시장을 만들어 나가겠다&rdquo;고 언급했다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span style="font-weight: bold; color: rgb(0, 0, 255);">[토큰증권의 개념]</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;토큰증권은 통상 </span><span style="font-weight: bold;">블록체인 장부</span><span>에 기재되어 </span><span style="font-weight: bold;">발행&middot;유통</span><span>되는 증권을 의미</span><span>한다. 지난 2월 ｢</span><span style="font-weight: bold;">전자증권법</span><span>｣ 개정을 통해 &ldquo;</span><span style="font-weight: bold;">분산원장등록주식등</span><span>&rdquo;이라는 </span><span>명</span><span>칭으로 </span><span style="font-weight: bold;">공식 제도화</span><span> 되었으며 동 개정안은 </span><span style="font-weight: bold;">&rsquo;27.2.4일 시행</span><span> 예정이다. 시장</span><span>에서는 토큰증권이 </span><span style="font-weight: bold;">조각투자증권</span><span>과</span><span style="font-weight: bold;"> 혼용</span><span>되어 사용하는 경우가 있지만, </span><span style="font-weight: bold;">토</span><span style="font-weight: bold;">큰증권</span><span>은 증권의 내용이 아닌 </span><span style="font-weight: bold;">형태에 따른 구분</span><span>이다. 조각투자증권이 (비</span><span>금전신탁)수익증권 또는 투자계약증권으로서 지분증권(예:주식), 채무</span><span>증권</span><span>(예:회사채) 등과 내용상 구분된다면, 토큰증권은 </span><span style="font-weight: bold;">실물증권</span><span>, </span><span style="font-weight: bold;">기존 전</span><span style="font-weight: bold;">자증권</span><span>과 </span><span style="font-weight: bold;">형태상 구</span><span style="font-weight: bold;">분</span><span>되는 것이다. 즉 조각투자증권도 기존 전자증권 형태로</span><span> </span><span>발행</span><span>되</span><span>면 토큰증권이 아니고, 지분&middot;채무증권 등 기존 정형증권도 토큰형태로 발행되면 토큰증권이 된다</span><span>.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;전자증권과 토큰증권은 </span><span style="font-weight: bold;">전자적 방식</span><span>으로</span><span style="font-weight: bold;"> 증권계좌부를 작성</span><span>하며 ｢전자</span><span>증권법｣상 관리체계를 준수한다는 점에서 공통적이나, 토큰증권은 </span><span style="font-weight: bold;">분산</span><span style="font-weight: bold;">원</span><span style="font-weight: bold;">장</span><span style="font-weight: bold;"><sup><span>*</span></sup></span><span style="font-weight: bold;">인 증권계좌부</span><span>를 이용한다는 차이가 있다. 따라서 토큰증권 시스템</span><span>에</span><span>서는 </span><span style="font-weight: bold;">증권의 발행&middot;유통 정보</span><span>를 </span><span style="font-weight: bold;">분산원장에 참여</span><span>하는 </span><span style="font-weight: bold;">예탁원, 증권사 등</span><span>이</span><span> </span><span style="font-weight: bold;">공동으로 기재&middot;관리</span><span>하게 된다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;* 다수 참여자에 의해 시간 순서 등 일정 기준에 따라 기재되고, 공동 관리 및 기술적 조</span><span>치를 통하여 무단 삭제 및 사후적 변경으로부터 보호되는 장부&middot;관리체계</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span><br></span></p>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;"> 
+<tbody> 
+<tr> 
+<td rowspan="2" valign="middle" bgcolor="#efffff" style="width: 51px; height: 192px; border-left: none; border-right: 1px dotted rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p style="text-align: center;"><span>증권</span></p></td> 
+<td valign="middle" bgcolor="#efffff" style="width: 70px; height: 83px; border-width: 1px; border-style: solid dotted dotted; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p style="text-align: center;"><span style="font-weight: bold;">내용상</span></p><span> </span> 
+<p style="text-align: center;"><span style="font-weight: bold;">구분</span></p></td> 
+<td valign="middle" style="width: 500px; height: 83px; border-left: 1px dotted rgb(0, 0, 0); border-right: none; border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px dotted rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>- 채무증권, 지분증권, 수익증권, 투자계약증권,<br> 파생결합증권, 증권예탁증권</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span style="font-weight: bold;">&nbsp;&rarr; ｢자본시장법｣에서 규율</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" bgcolor="#efffff" style="width: 70px; height: 109px; border-width: 1px; border-style: dotted dotted solid; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p style="text-align: center;"><span style="font-weight: bold;">형태상</span></p><span> </span> 
+<p style="text-align: center;"><span style="font-weight: bold;">구분</span></p></td> 
+<td valign="middle" style="width: 500px; height: 109px; border-left: 1px dotted rgb(0, 0, 0); border-right: none; border-top: 1px dotted rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>- 실물증권(실물로 발행&middot;유통되는 증권)<br> - 전자증권(전자적 방식으로 발행&middot;유통되는 증권)</span></p><span> </span> 
+<p><span style="font-weight: bold;">- </span><span style="font-weight: bold; color: rgb(0, 0, 255);">토큰증권</span><span>(분산원장 기반 전자적 방식으로 발행&middot;유통되는 증권)</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span style="font-weight: bold;">&nbsp;&rarr; ｢전자증권법｣에서 규율</span></p></td> 
+</tr> 
+</tbody> 
+</table>
+<p><span><br></span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span style="font-weight: bold; color: rgb(0, 0, 255);">[토큰증권 정책방향 주요내용]</span></p>
+<p><span style="font-weight: bold; text-decoration: line-through; color: rgb(0, 0, 255);"><br></span></p>
+<p><span style="font-weight: bold; text-decoration: underline;">&lt;&nbsp;1. 토큰증권 발행 인프라 단계별 구축 계획 &gt;</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span></span><span style="font-weight: bold;">&nbsp;초기 토큰증권 인프라 논의</span><span>는 </span><span style="font-weight: bold;">조각투자증권</span><span>을 중심으로 진행되었다. 조</span><span>각</span><span>투자증권은 주식&middot;채권 등 기존 정형증권에 비해 상대적으로 (1)</span><span style="font-weight: bold;">규모</span><span>가 </span><span>작</span><span>고, (2)</span><span style="font-weight: bold;">권리구현</span><span><sup><span>*</span></sup></span><span>이 용이하고, (3)새롭게 등장한 만큼 </span><span style="font-weight: bold;">기존 시스템과 복잡한</span><span style="font-weight: bold;"> 연계</span><span> 작업이 불필요하기 때문이다. 그러나 국내외적으로 </span><span style="font-weight: bold;">기존 정형증권</span><span>의 </span><span style="font-weight: bold;">토큰화</span><span>와 관련된 </span><span style="font-weight: bold;">논의</span><span>가 활발해졌다. 미국의 사모MMF 토큰인 </span><span style="font-weight: bold;">BUIDL</span><span>, 홍</span><span>콩의</span><span style="font-weight: bold;"> 녹색국채 토큰화</span><span> 등이 대표적 사례이다. 이를 고려하여 토큰증권 </span><span>협의체에서는 조각투자 뿐만 아니라 </span><span style="font-weight: bold;">기존 정형증권의 토큰화 </span><span>인프라 구축을</span><span> </span><span style="font-weight: bold;">함께 추진</span><span>하기로 계획을 수립했다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;* [예] (조각투자) 신탁 기초자산, 공동사업에서 나오는 수익의 배분이 주요 권리<br> vs (주식) 의결권, 배당, 신주인수권, 증&middot;감자, 병합 등 다양한 권리관계 발생</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;기존 전자증권은 </span><span style="font-weight: bold;">발행&middot;유통&middot;권리관리</span><span>를 위한</span><span style="font-weight: bold;"> 시스템(e-SAFE)</span><span>이 완비되어</span><span> </span><span>있는 반면 토큰증권은 분산원장에 맞는</span><span style="font-weight: bold;"> 신규 인프라 구축</span><span>이 필요하다. </span><span>구</span><span>체적으로는 증권사 등이 토큰증권 발행을 위한 </span><span style="font-weight: bold;">분산원장(메인넷) 인프라를</span><span style="font-weight: bold;"> </span><span style="font-weight: bold;">구축</span><span>하고, 이를 전자등록기관인 </span><span style="font-weight: bold;">예탁원의 토큰증권 시스템과 연계</span><span>해야 한</span><span>다. 기존 전자증권 시스템의 모든 기능을 토큰증권 시스템에서 </span><span style="font-weight: bold;">한 번에 </span><span style="font-weight: bold;">구현</span><span>하는 것은 개발 부담이 크고 증권의 발행&middot;유통에 있어 </span><span style="font-weight: bold;">안정성이 저해</span><span>될</span><span> 우려도 있다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;이를 고려하여, </span><span style="font-weight: bold;">단계별 로드맵</span><span>을 세워 증권사 등과 예탁원이 협력하며 </span><span>토큰증권 인프라를 구축해 나갈 계획이다. </span><span>토큰증권법 시행 시점인 </span><span style="font-weight: bold;">&rsquo;27.2월</span><span>,</span><span style="font-weight: bold;"> </span><span style="font-weight: bold;">처음 1단계</span><span>에서는 </span><span><sup><span>➀</span></sup></span><span style="font-weight: bold;">펀드&middot;채권</span><span>의 경우 </span><span style="font-weight: bold;">기관투자자 전용 사모방식</span><span> 증권의 토</span><span>큰화를 먼저 추진하고, </span><span><sup><span>➁</span></sup></span><span style="font-weight: bold;">주식</span><span>은 </span><span style="font-weight: bold;">비상장주식을 신탁방식</span><span><sup><span>*</span></sup></span><span>으로 </span><span style="font-weight: bold;">토큰화</span><span>하는 </span><span>방안을 추진한다. </span><span><sup><span>➂</span></sup></span><span>상대적으로 토큰화가 용이한 조각투자는 1단계부터 </span><span style="font-weight: bold;">공모</span><span style="font-weight: bold;"> 조각투자증권</span><span>의 </span><span style="font-weight: bold;">토큰화</span><span>가 허용된다. 이후 2단계는 </span><span style="font-weight: bold;">공모 증권의 토큰화</span><span> 등 </span><span>기술적으로 가능한 범위까지 </span><span style="font-weight: bold;">인프라를 확대&middot;개편</span><span>하고, 3단계는 </span><span style="font-weight: bold;">스테이블</span><span style="font-weight: bold;">코</span><span style="font-weight: bold;">인 등</span><span>을 </span><span style="font-weight: bold;">결제수단</span><span>으로 연계하여 온체인(on-chain) 결제를 구현하는 계</span><span>획이다. </span><span style="font-weight: bold;">2&middot;3단계</span><span>로의 이행 시점은 1단계 토큰화의 안정성&middot;효율성 수준, 시장 참여자들의 기술혁신 속도, 스테이블코인 법제화 등에 따라 </span><span style="font-weight: bold;">가변적</span><span>일 것으로 예상된다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;* </span><span>전자증권으로 발행된 비상장주식을 예탁원 또는 신탁업자에 신탁하고, 예탁원 또는 신탁</span><span>업자가 토큰증권 형태의 비상장주식 신탁 수익증권을 발행(주식의 다양한 권리는 기존 전자증권 시스템을 통해 관리되고, 토큰증권 인프라에서는 수익증권 권리만 관리하는</span><span> 하이브리드 방식)</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span><br></span></p>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;"> 
+<tbody> 
+<tr> 
+<td valign="middle" bgcolor="#efffff" style="width: 64px; height: 27px; border-left: none; border-right: 1px dotted rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px dotted rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p style="text-align: center;"><br></p></td> 
+<td valign="middle" bgcolor="#efffff" style="width: 227px; height: 27px; border-width: 1px; border-style: solid dotted dotted; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p style="text-align: center;"><span>[1단계] &lsquo;27.2월 법시행</span></p></td> 
+<td valign="middle" bgcolor="#efffff" style="width: 179px; height: 27px; border-width: 1px; border-style: solid dotted dotted; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p style="text-align: center;"><span>[2단계]</span></p></td> 
+<td valign="middle" bgcolor="#efffff" style="width: 164px; height: 27px; border-left: 1px dotted rgb(0, 0, 0); border-right: none; border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px dotted rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p style="text-align: center;"><span>[3단계]</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" bgcolor="#efffff" style="width: 64px; height: 165px; border-left: none; border-right: 1px dotted rgb(0, 0, 0); border-top: 1px dotted rgb(0, 0, 0); border-bottom: 1px dotted rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p style="text-align: center;"><span>기존</span></p><span> </span> 
+<p style="text-align: center;"><span>정형</span></p><span> </span> 
+<p style="text-align: center;"><span>증권</span></p></td> 
+<td valign="middle" style="width: 227px; height: 165px; border-width: 1px; border-style: dotted; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>[펀드] </span><span style="font-weight: bold;">기관투자자 전용<br> 사모MMF 토큰화</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span>[채권] </span><span style="font-weight: bold;">기관투자자 전용<br> 사모사채 토큰화</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span>[주식] </span><span style="font-weight: bold;">신탁방식을 이용한<br> 비상장주식 토큰화</span></p></td> 
+<td valign="middle" style="width: 179px; height: 165px; border-width: 1px; border-style: dotted; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>1단계 토큰화의</span></p><span> </span> 
+<p><span>안정성, 효율성 및<br> 시장수요를 점검하며</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span style="font-weight: bold;">공모 증권 토큰화<br> 등으로 </span><span style="font-weight: bold;">인프라 확충</span></p></td> 
+<td rowspan="2" valign="middle" style="width: 164px; height: 306px; border-left: 1px dotted rgb(0, 0, 0); border-right: none; border-top: 1px dotted rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span style="font-weight: bold;">스테이블코인 등</span><span>을</span></p><span> </span> 
+<p><span>결제수단으로 하는<br></span><span style="font-weight: bold;">온체인(on-chain) <br> 결제</span><span> 인프라 구축</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" bgcolor="#efffff" style="width: 64px; height: 141px; border-left: none; border-right: 1px dotted rgb(0, 0, 0); border-top: 1px dotted rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p style="text-align: center;"><span>신종</span></p><span> </span> 
+<p style="text-align: center;"><span>비정형</span></p><span> </span> 
+<p style="text-align: center;"><span>증권</span></p></td> 
+<td colspan="2" valign="middle" style="width: 406px; height: 141px; border-width: 1px; border-style: dotted dotted solid; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>[조각투자] </span><span style="font-weight: bold;">공모 조각투자증권 토큰화<br></span><span>(</span><span>상대적으로 권리관계가 단순하고 규모가 크지 않아 시스템 구축에 용이)</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span>※ 단, 조각투자는 </span><span style="font-weight: bold;">투자자보호</span><span> 측면에서 </span><span style="font-weight: bold;">기초자산</span><span>의 </span><span style="font-weight: bold;">적격성</span><span> 등 관련 별도 모범규준 적용</span></p></td> 
+</tr> 
+</tbody> 
+</table>
+<p><span><br></span></p>
+<p><span><br></span></p>
+<p><span>* NYSE, Nasdaq 파일럿 프로그램을 참고하여 한국거래소를 중심으로 상장주식 토큰화 모델검증 및 시범사업도 병행</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span><br></span></p>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none; width: 100%; overflow-wrap: break-word;"> 
+<tbody> 
+<tr> 
+<td valign="middle" bgcolor="#fff9c9" style="border-width: 1px; border-style: dotted; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>※ 향후 인프라 관련 추가 논의사항</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span style="font-weight: bold;">▸ 원활한 온체인 결제</span><span>를 위해서는 </span><span style="font-weight: bold;">서로 다른 분산원장</span><span>(토큰증권 원장- 스테이블</span><span>코인 원장)을 시스템적으로 </span><span style="font-weight: bold;">연계</span><span>하는 </span><span style="font-weight: bold;">&ldquo;상호운용 기술&rdquo;</span><span> 활용 필요</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span>&nbsp;&rarr; </span><span style="font-weight: bold;">브릿지 기관을 통한 연계 방식, 기술적 메인넷 연계 방식 </span><span>등 다양한 방법에 대한 </span><span style="font-weight: bold;">이론적&middot;실증적 검토</span><span> 추진</span></p><span> </span></td> 
+</tr> 
+</tbody> 
+</table>
+<p><span><br></span></p>
+<p><span style="font-weight: bold; text-decoration: line-through;"><br></span></p>
+<p><span style="font-weight: bold; text-decoration: underline;">&lt;&nbsp;2. 조각투자 모범규준 &gt;</span></p>
+<p><span style="font-weight: bold; text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;조각투자는 </span><span style="font-weight: bold;">비금전신탁 수익증권</span><span>과 </span><span style="font-weight: bold;">투자계약증권</span><span>으로 구분된다. 기초자산 </span><span>및 </span><span>사업에 다수가 나누어 투자한다는 측면에서는 유사하지만, 전자는 </span><span style="font-weight: bold;">신탁</span><span>이</span><span> 가능한 기초자산을 대상으로 </span><span style="font-weight: bold;">기존에 정립</span><span>되어 있는 </span><span style="font-weight: bold;">신탁제도</span><span>를 활용하는 </span><span>한편, 후자는 신탁이라는 매개수단 없이</span><span style="font-weight: bold;"> 직접 공동사업의 손익을 배분</span><span>한다는 점에서 차이가 있다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span></span><span style="font-weight: bold;">&nbsp;비금전신탁 수익증권</span><span>의 경우 </span><span style="font-weight: bold;">샌드박스</span><span>를 통해 시험이 이루어졌고 </span><span style="font-weight: bold;">부동산</span><span style="font-weight: bold;"> </span><span>및</span><span style="font-weight: bold;"> 음원 </span><span>조각투자가 실제 발행되었다. 샌드박스 운영시, 규제특례라는 특</span><span>성을 감안하여 </span><span style="font-weight: bold;">기초자산 집합화(Pooling) 금지</span><span>, 장래매출채권 등 </span><span style="font-weight: bold;">불확정 사건 연계 기초자산 금지</span><span> 등 엄격한 </span><span style="font-weight: bold;">가이드라인</span><span>(&rsquo;23.12월)이 마련되었다.</span></p>
+<p><span>&nbsp;&nbsp;금번 토큰증권 정책방향에서는 </span><span style="font-weight: bold;">토큰화</span><span>가 시행될 경우 </span><span style="font-weight: bold;">보다 활성화</span><span>될 것으로</span><span> 기대</span><span>되는 조각투자의 &ldquo;</span><span style="font-weight: bold;">혁신적 상품 등장 지원</span><span> + </span><span style="font-weight: bold;">투자자 보호</span><span>&rdquo;의 조화를 위한 비금전신탁 수익증권 </span><span style="font-weight: bold;">모범규준</span><span>을 마련했다. 우선 (1)</span><span style="font-weight: bold;">기초자산 집합화</span><span style="font-weight: bold;">(pooling)</span><span>를 </span><span style="font-weight: bold;">조건부</span><span>로 </span><span style="font-weight: bold;">허용</span><span>한다. </span><span style="font-weight: bold;">동일종류, 집합화 기준&middot;목적의 명확성, 부</span><span style="font-weight: bold;">실자산 포함 금지, 개별자산의 구분 정보 제공 </span><span>등을 충족하는 경우 여러 기초자산을 묶어 하나의 조각투자증권으로 발행이 가능해진다. 이를 통해 </span><span style="font-weight: bold;">개별 규모가 작아 </span><span>증권화가 어려웠던 자산의 상품화가 가능해지고 </span><span style="font-weight: bold;">투자자의</span><span style="font-weight: bold;"> </span><span style="font-weight: bold;">다양한 선호</span><span>에 맞는 상품도 등장할 것으로 기대된다. (2)</span><span style="font-weight: bold;">안정적인 기초 </span><span style="font-weight: bold;">법</span><span style="font-weight: bold;">률관계</span><span>가 존재하고, </span><span style="font-weight: bold;">가까운 장래</span><span>에 발생이 예상되며, 신용보완 등 </span><span style="font-weight: bold;">강화된</span><span style="font-weight: bold;"> 투자자 보호조치</span><span>가 있는 경우에는 장래매출채권과 같은</span><span style="font-weight: bold;"> 불확실사건 연계 기초자산</span><span>도 조각투자화를 허용한다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;모범규준에서는 </span><span style="font-weight: bold;">투자자 보호</span><span>를 위한 </span><span style="font-weight: bold;">발행&middot;유통 공시, 공모시 1인당 청약</span><span style="font-weight: bold;">한도, 배정방법, 이해상충방지체계</span><span> 등에 대한 </span><span style="font-weight: bold;">구체적 원칙</span><span>도 제시한다. </span><span>예를 들어 (1)청약한도의 경우 기초자산의 성격&middot;규모 등 개별 특성을 고려해</span><span> </span><span>판단하는 것이 원칙이나 &ldquo;</span><span style="font-weight: bold;">3천만원</span><span>과 </span><span style="font-weight: bold;">발행금액의 5%</span><span> 중 작은 규모&rdquo;를 </span><span>표</span><span>준 예시로 제시했다. (2)공모물량 배정은 특정인 몰아주기 방지 등</span><span style="font-weight: bold;"> 공정성</span><span style="font-weight: bold;"> </span><span style="font-weight: bold;">제고</span><span>를 위해 사전에 </span><span style="font-weight: bold;">내규</span><span>에 </span><span style="font-weight: bold;">일반투자자 배정</span><span> 및 </span><span style="font-weight: bold;">균등배정</span><span> </span><span style="font-weight: bold;">최소 비율</span><span>을 정</span><span>하는 방법을 권고했다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span><br></span></p>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none; width: 100%; overflow-wrap: break-word;"> 
+<tbody> 
+<tr> 
+<td valign="middle" style="width: 29px; height: 13px; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span style="text-decoration: line-through;"><br></span></p></td> 
+<td rowspan="2" valign="middle" bgcolor="#364878" style="width: 15%; height: 26px; padding: 1.4pt 5.1pt;">
+<p style="text-align: center;"><span style="color: rgb(255, 255, 255);">예시</span></p></td> 
+<td rowspan="2" valign="middle" bgcolor="#dce3ee" style="width: 40%; height: 26px; padding: 1.4pt 5.1pt;">
+<p><span></span><span>신탁 수익증권 1인당 청약한도 및 1주당 가격 설정</span></p></td> 
+<td valign="middle" style="width: 51px; height: 13px; border-left: none; border-right: none; border-top: none; border-bottom: 1px solid rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span style="text-decoration: line-through;"><br></span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" bgcolor="#ffffff" style="width: 29px; height: 12px; border-left: 1px solid rgb(0, 0, 0); border-right: none; border-top: 1px solid rgb(0, 0, 0); border-bottom: none; padding: 1.4pt 5.1pt;">
+<p><span style="text-decoration: line-through;"><br></span></p></td> 
+<td valign="middle" bgcolor="#ffffff" style="width: 51px; height: 12px; border-left: none; border-right: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); border-bottom: none; padding: 1.4pt 5.1pt;">
+<p><span style="text-decoration: line-through;"><br></span></p></td> 
+</tr> 
+<tr> 
+<td colspan="4" valign="middle" bgcolor="#ffffff" style="width: 639px; height: 135px; border-left: 1px solid rgb(0, 0, 0); border-right: 1px solid rgb(0, 0, 0); border-top: none; border-bottom: 1px solid rgb(0, 0, 0); padding: 1.4pt 4.3pt;">
+<p><span></span><span>N</span><span>사는 일반투자자에 대해 비금전신탁 수익증권의 1인당 청약한도를 </span><span>ⓐ </span><span>3,000만원(6,000주&times;5,000원)과 </span><span>ⓑ </span><span>발행금액의 100분의 5 중 적은 금액</span><span>으로</span><span> 설정하여 유동화증권을 발행하였으며, 전문투자자에게는 청약한도 제한을 두지 않았다.</span></p></td> 
+</tr> 
+</tbody> 
+</table>
+<p><span><br></span></p>
+<p><span style="font-size: 10pt;">&nbsp;</span></p>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none; width: 100%; overflow-wrap: break-word;"> 
+<tbody> 
+<tr> 
+<td valign="middle" bgcolor="#fff9c9" style="border-width: 1px; border-style: dotted; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>※ 향후 비금전신탁 수익증권 관련 추가 논의사항</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span style="font-weight: bold;">▸ </span><span>표준특허는 </span><span style="font-weight: bold;">여러 국가</span><span>에 등록된 </span><span style="font-weight: bold;">표준특허 패밀리</span><span>(묶음) 단위로 </span><span style="font-weight: bold;">거래&middot;수익화</span><span>되는 구조</span><span>,<br></span><span style="font-weight: bold;">&ldquo;특허풀&rdquo;</span><span>(주로 민간외국회사)이 여러 국가의 </span><span style="font-weight: bold;">실시료 징수</span><span> 및 </span><span style="font-weight: bold;">분배역할</span><span> 수행</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span>&nbsp;&rarr; </span><span style="font-weight: bold;">&ldquo;집합화&rdquo;</span><span> 기준을 충족하더라도, </span><span style="font-weight: bold;">기초자산 처분의 용이성</span><span>, </span><span style="font-weight: bold;">특허풀에 대한 실시료 징수&middot;분배역할 허용</span><span>(자본시장법상 &ldquo;위탁&rdquo; 여부) 가능성 등 추가 검토 필요</span></p><span> </span></td> 
+</tr> 
+</tbody> 
+</table>
+<p><span><br></span></p>
+<p><span><br></span></p>
+<p><span>&nbsp;&nbsp;한편, </span><span style="font-weight: bold;">투자계약증권</span><span>에 대해서는 </span><span style="font-weight: bold;">현행 체계</span><span>(투자자 보호 측면의 엄격한 개별심사)를 유지하되, </span><span style="font-weight: bold;">공유지분형 투자계약증권의 유통, 사업형 투자계약증권의 발행</span><span> 관련 쟁점에 대해 </span><span style="font-weight: bold;">연구용역 </span><span>등 </span><span style="font-weight: bold;">추가 검토</span><span>를 진행하기로 했다. </span><span>현재까지 발행된 투자계약증권은 모두 사업의 핵심</span><span>자</span><span>산에 투자자들이 공</span><span>동소유권을 설정하는 </span><span style="font-weight: bold;">공유지분형</span><span>인데, 이 경우 </span><span style="font-weight: bold;">증권의</span><span style="font-weight: bold;"> 이동</span><span>만으로 양도가 끝나지 않고 별도로 </span><span style="font-weight: bold;">공유지분 변경</span><span>(예:민법상 지명채</span><span>권양도 방식)이 필요</span><span>하므로 </span><span style="font-weight: bold;">유통에 제한</span><span>이 발생한다는 지적이 있다. 한편 공동 소유권 설정이 적합하지</span><span> 않은 </span><span style="font-weight: bold;">(순수)</span><span style="font-weight: bold;">사업형</span><span style="font-weight: bold;"> 투자계약증권</span><span>은 발행인과 공동사업 자산과의 </span><span style="font-weight: bold;">도산절연 문제</span><span> 등 </span><span style="font-weight: bold;">투자자 보호 리스크</span><span>가 크다고 평가되고 있다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span><br></span></p>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none; width: 100%; overflow-wrap: break-word;"> 
+<tbody> 
+<tr> 
+<td valign="middle" bgcolor="#fff9c9" style="border-width: 1px; border-style: dotted; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>※ 향후 투자계약증권 관련 추가 논의사항</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span>&rarr; 기술적, 제도적으로 증권 계좌대체와 공유지분 변경을 연계하여 </span><span style="font-weight: bold;">공유지분형 투자계약증권의 원활한 유통</span><span>이 </span><span style="font-weight: bold;">가능한 방안</span><span>이 있는지</span><span style="font-weight: bold;"> 연구용역 진행</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span>&rarr; </span><span>사업형 투자계약증권이 </span><span style="font-weight: bold;">허용될 수 있는 수준</span><span>의 </span><span style="font-weight: bold;">투자자 보호 기준</span><span>을 </span><span style="font-weight: bold;">제도화(준정형화)</span><span>할 수 있는 방안이 있는지에</span><span style="font-weight: bold;"> </span><span>대한 </span><span style="font-weight: bold;">연구용역 진행</span></p><span> </span></td> 
+</tr> 
+</tbody> 
+</table>
+<p><span><br></span></p>
+<p><span><br></span></p>
+<p><span style="font-weight: bold; text-decoration: underline;">&lt;&nbsp;3. 장외거래소 유통체계 &gt;</span></p>
+<p><span style="font-weight: bold; text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;｢자본시장법｣상 거래소 외 </span><span style="font-weight: bold;">장외거래</span><span>는 </span><span style="font-weight: bold;">1:1 중개</span><span>가 원칙이나, 예외적으로 </span><span style="font-weight: bold;">다자간 중개</span><span>를 허용하는</span><span style="font-weight: bold;"> 장외거래소 제도</span><span>가</span><span> </span><span>도입되어 왔다. 금융투자협회의</span><span> </span><span>비상장주식 거래플랫폼인 K-OTC, 전문투</span><span>자자 간 다자간 채권중개를 허</span><span>용하는 채권중개전문회사, 그리고 </span><span style="font-weight: bold;">작년에 </span><span style="font-weight: bold;">새롭게 제도화</span><span>된 </span><span style="font-weight: bold;">비상장주식 및 비금전신탁수익증권(조각투자) 장외거래소</span><span>가</span><span> 대표적이다. 장외거래소는 아직 </span><span>상장되지 않았거나, 규모&middot;거래량 등을 고려시 기존 거래소 시스템에서 </span><span>거</span><span>래되기에 적합하지 않은 증권의 </span><span style="font-weight: bold;">유통을 효율적으로 지원</span><span>하는 기능을 수</span><span>행한다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span><br></span></p>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none; width: 100%; overflow-wrap: break-word;"> 
+<tbody> 
+<tr> 
+<td valign="middle" style="border-width: 1px; border-style: dotted; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span style="font-weight: bold;">※ [참고] 조각투자 시장의 구조</span></p><span> </span> 
+<p><span style="font-weight: bold;">&nbsp;</span></p><span> </span> 
+<p><span style="font-weight: bold;">󰊱 발행&middot;공모 시장</span></p><span> </span> 
+<p><span>&nbsp;</span></p><span> </span> 
+<p><span>&nbsp;ㅇ </span><span>주식의 </span><span style="font-weight: bold;">IPO시 공모주 투자</span><span>와 유사하게, 조각투자 증권이 </span><span style="font-weight: bold;">처음 발행</span><span>되어 공모가</span><span> 이루어지는 단계</span></p><span> </span> 
+<p><span>&nbsp;</span></p><span> </span> 
+<p><span>&nbsp;ㅇ </span><span>종합 증권 투자중개업 인가를 받은 </span><span style="font-weight: bold;">증권사(2-1-1)</span><span> 및 조각투자 발행 스몰라이센스</span><span> 인가를 받은 </span><span style="font-weight: bold;">핀테크사(2-14-1)</span><span>가 투자자 모집&middot;주선</span></p><span> </span> 
+<p><span>&nbsp;</span></p><span> </span> 
+<p><span style="font-weight: bold;">󰊲 장외거래소 유통시장</span></p><span> </span> 
+<p><span>&nbsp;</span></p><span> </span> 
+<p><span>&nbsp;ㅇ </span><span style="font-weight: bold;">장외거래소 인가</span><span>를 받은 장외거래중개업자(2o-14-1)가 </span><span style="font-weight: bold;">유통플랫폼</span><span> 운영</span></p><span> </span> 
+<p><span>&nbsp;</span></p><span> </span> 
+<p><span>&nbsp;ㅇ </span><span style="font-weight: bold;">다양한</span><span> 조각투자 증권의</span><span> </span><span style="font-weight: bold;">환</span><span style="font-weight: bold;">금성이</span><span style="font-weight: bold;"> 제고</span><span>되어</span><span style="font-weight: bold;"> 투자매력도</span><span> 향상 가능</span></p><span> </span> 
+<p><span>&nbsp;</span></p><span> </span> 
+<p><span style="font-weight: bold;">󰊳 거래소상장시장</span></p><span> </span> 
+<p><span>&nbsp;</span></p><span> </span> 
+<p><span>&nbsp;ㅇ 조각투자는 </span><span style="font-weight: bold;">증권의 규모 및 거래량</span><span>을 고려하면 상장시장보다는 </span><span style="font-weight: bold;">장외거래소를 통한 유통</span><span>이 적합한 측면</span></p><span> </span> 
+<p><span>&nbsp;</span></p><span> </span> 
+<p><span>&nbsp;ㅇ 다만, </span><span style="font-weight: bold;">대규모 조각투자 증권</span><span>의 경우 상장시장이 </span><span style="font-weight: bold;">보충적</span><span>으로 </span><span style="font-weight: bold;">유통 지원</span><span> 가능<br> (현재, 한국거래소가 </span><span style="font-weight: bold;">샌드박스</span><span>를 지정받았으므로, </span><span style="font-weight: bold;">필요시 상장시장 개설</span><span> 가능)</span></p><span> </span></td> 
+</tr> 
+</tbody> 
+</table>
+<p><span><br></span></p>
+<p><span style="font-weight: bold; text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;토큰증권 협의체는 내년부터 발행되는</span><span style="font-weight: bold;"> 토큰증권</span><span>이 </span><span style="font-weight: bold;">기존에 ｢자본시장법｣에</span><span style="font-weight: bold;"> </span><span style="font-weight: bold;">따른 중개 인가</span><span>를 받은 </span><span style="font-weight: bold;">증권사</span><span>나</span><span style="font-weight: bold;"> 장외거래소</span><span>에서 유통될 수 있는지 등에</span><span> </span><span>대한 논의를 </span><span>진</span><span>행해 왔다. 결론적으로 토큰증권만을 위한 별도 인가체계는</span><span> 마련하지 </span><span>않기로 하였다. </span><span style="font-weight: bold;">기존에 금융투자업 인가</span><span>를 받았다면 </span><span style="font-weight: bold;">해당 인가의 </span><span style="font-weight: bold;">업무범위 </span><span style="font-weight: bold;">내</span><span>에서 </span><span style="font-weight: bold;">토큰증권도 취급</span><span>이 가능</span><span><sup><span>*</span></sup></span><span>하다. 이는 </span><span><sup><span>➀</span></sup></span><span style="font-weight: bold;">｢자본시장법｣</span><span>상 </span><span>인</span><span>가체계가 </span><span>원</span><span>칙적으로 </span><span style="font-weight: bold;">증권의 형태</span><span>에 따른 </span><span style="font-weight: bold;">구분을 하지 않고 있고</span><span>, </span><span><sup><span>➁</span></sup></span><span>토</span><span>큰</span><span>증권 발행</span><span>&middot;유</span><span>통의 안정성 등은 ｢전자증권법｣상 </span><span style="font-weight: bold;">전자등록</span><span> 과정에서 </span><span style="font-weight: bold;">전자등록</span><span style="font-weight: bold;">기관</span><span>인 </span><span>예탁원이 </span><span style="font-weight: bold;">적절성을 심사</span><span>하며, </span><span><sup><span>➂</span></sup></span><span style="font-weight: bold;">장외거래소</span><span>의 경우에도 </span><span style="font-weight: bold;">호가접수</span><span style="font-weight: bold;">&middot;</span><span style="font-weight: bold;">거래체결</span><span> 업무가 분산원장 기술과 </span><span style="font-weight: bold;">직접 연결되는 것은 아니기</span><span> 때문이다</span><span>. </span><span>다만, 장외거래소는 </span><span style="font-weight: bold;">인프라적 </span><span style="font-weight: bold;">중요</span><span style="font-weight: bold;">성</span><span>을 고려해 </span><span style="font-weight: bold;">토큰증권 거래를 지원</span><span>하</span><span>려는 경우 </span><span style="font-weight: bold;">금감원 사전협의</span><span>를 거</span><span>치도록 할 예정이다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;* [예➊] 수익증권 투자중개업 인가를 받은 증권사A<br> &rarr; 조각투자(비금전신탁 수익증권) 토큰증권 공모&middot;주선 가능</span></p>
+<p><span>&nbsp;&nbsp;&nbsp;&nbsp;[예➋] 수익증권 장외거래소 인가를 받은 장외거래소B<br> &rarr; 조각투자 토큰증권도 장외거래소에서 거래지원 가능</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;한편, 토큰증권 생태계의 확대에 대비하여 비상장주식, 비금전신탁수익</span><span>증권에 </span><span>더해 </span><span style="font-weight: bold;">채무증권</span><span>에 대해서도 </span><span style="font-weight: bold;">장외거래소 인가단위</span><span>를 </span><span style="font-weight: bold;">추가 신설</span><span>한다. </span><span>현재는 일반투자자</span><span> </span><span>간 </span><span>채</span><span>권의 매수&middot;매도 수요가 크지 않으나, </span><span style="font-weight: bold;">토큰화</span><span>를 통한</span><span> </span><span style="font-weight: bold;">채권 유통시장의</span><span style="font-weight: bold;"> 변</span><span style="font-weight: bold;">화</span><span>를 </span><span style="font-weight: bold;">예상</span><span>하는 시각도 존재하기 때문이다. 다만, </span><span style="font-weight: bold;">투자</span><span style="font-weight: bold;">계약증권</span><span>의 경우 </span><span>앞</span><span>서 논의된</span><span> </span><span>유통성 </span><span>확보를 위한 </span><span style="font-weight: bold;">보완 연구</span><span> 후 장외거</span><span>래소 인가단위 </span><span>신</span><span>설을 검토할 </span><span>계</span><span>획이다.</span></p>
+<p><span>&nbsp;&nbsp;투자자 보호를 위한 </span><span style="font-weight: bold;">일반투자자 투자한도</span><span> 및</span><span style="font-weight: bold;"> 불공정거래</span><span> 관련 사항도 논의되었다. 토큰증권법의 일환으로 함께 개정되어 내년 2월 시행 예정인 </span><span>｢자본시장법｣ 개정안은 장외거래소 관련 일반투자자 거래한도를</span><span> </span><span style="font-weight: bold;">시행령에 </span><span style="font-weight: bold;">위임</span><span>하고 있다. 크라우드펀딩, 조각투자 샌드박스 등 </span><span style="font-weight: bold;">기존 사례를 참고</span><span>하되</span><span>, </span><span>과도하게 거래를 제한하지 않기 위해 &ldquo;</span><span style="font-weight: bold;">장외거래소별 연간 순매수</span><span style="font-weight: bold;"> 금액</span><span>(총매수</span><span>금액</span><span>-총매도금액)&rdquo;을 기준으로</span><span style="font-weight: bold;"> 1억원 한도</span><span>를 설정한다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p style="text-align: center;"><span><br></span></p>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none; width: 100%; overflow-wrap: break-word;"> 
+<tbody> 
+<tr> 
+<td valign="middle" style="border-width: 1px; border-style: dotted; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>※ [참고] (크라우드펀딩) 연간 투자금액 </span><span style="font-weight: bold;">종목별 5백만원, 합계 1천만원</span><span><br> (비상장주식 유통 샌드박스) 연간 </span><span style="font-weight: bold;">매도금액</span><span> 합계 </span><span style="font-weight: bold;">3억원</span><span><br> (조각투자 발행 샌드박스) 연간 </span><span style="font-weight: bold;">투자금액 1천만원 </span><span>~</span><span style="font-weight: bold;"> 2천만원</span><span><br> (투자계약증권 유통 샌드박스) 연간 </span><span style="font-weight: bold;">매도금액</span><span> 합계</span><span style="font-weight: bold;"> 4천만원</span></p><span> </span></td> 
+</tr> 
+</tbody> 
+</table>
+<p><span><br></span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp; </span><span>장외거래소 거래를 이용한 </span><span style="font-weight: bold;">불공정거래의 예방</span><span style="font-weight: bold;">&middot;엄벌체계</span><span>도 철저히 구축해 나간다. </span><span style="font-weight: bold;">장외거래소</span><span>에 불공정거래 예방&middot;감시&middot;</span><span>조치에 관한 </span><span style="font-weight: bold;">업무기준</span><span>을 </span><span style="font-weight: bold;">마련</span><span>하고 이를 </span><span style="font-weight: bold;">준수</span><span>할 의무가 부과되어 있는 만큼 </span><span>감시기능을 제대로 수행하도록</span><span> 감독해 나갈 예정이다. 또한 장외거래소 </span><span>거</span><span>래를 악용한 </span><span style="font-weight: bold;">부정거래</span><span>가 적발</span><span>되면 이 역시 </span><span style="font-weight: bold;">형벌, 과징금, 계좌동결, 임원선</span><span style="font-weight: bold;">임 제한</span><span> 등 자본시장법상 제재</span><span> 대상이 된다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span><br></span></p>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none; width: 100%; overflow-wrap: break-word;"> 
+<tbody> 
+<tr> 
+<td valign="middle" bgcolor="#fff9c9" style="border-width: 1px; border-style: dotted; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>※ 향후 장외거래소 불공정거래 관련 추가 논의사항</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span>&rarr; </span><span>상장(예정)법인 증권에 대한 적용을 원칙으로 하는 </span><span style="font-weight: bold;">미공개중요정보이용</span><span>, </span><span style="font-weight: bold;">시세조종 </span><span>조문을 장외거래소 거래에도 적용하는 방향으로 </span><span style="font-weight: bold;">법 개정이 필요한지</span><span> 및 법 체계상</span><span style="font-weight: bold;"> 개정이 가능한지</span><span> 등 검토(처벌근거 명확화 등)</span></p><span> </span></td> 
+</tr> 
+</tbody> 
+</table>
+<p><span><br></span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span></span><span style="font-weight: bold; text-decoration: underline;">&lt;&nbsp;4. 발행인 계좌관리기관 &gt;</span></p>
+<p><span style="font-weight: bold; text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;｢전자증권법｣상 토큰증권에 대해서는 &ldquo;</span><span style="font-weight: bold;">발행인 계좌관리기관</span><span>&rdquo; 제도가 </span><span>도</span><span>입되었다. 계좌관리기관이란 </span><span style="font-weight: bold;">고객의 증권계좌</span><span>를</span><span style="font-weight: bold;"> 개설</span><span>해주고 </span><span style="font-weight: bold;">관리</span><span>하는 </span><span>기</span><span>관을 의미하며 </span><span style="font-weight: bold;">기존</span><span>에는 증권사&middot;은행&middot;보험회사 등 </span><span style="font-weight: bold;">금융회사</span><span>만이 그 역할을</span><span> 수행할 수 있도록 규정되어 있었다. 발행인 계좌관리기관은 기존 계좌관리기관 외에도 증권 </span><span style="font-weight: bold;">발행인이 직접 계좌관리기관</span><span>이 될 수 있도록 허용하는 </span><span>제도이다. 분산원장의 공동 기재&middot;관리 특성과 무단삭제 등으로부터의 </span><span>안정</span><span>성을 고려해 토큰증권에 한하여 발행인 계좌관리기관 제도가 신설되</span><span>었다. 발행인 계좌관리제도를 이용하면 </span><span style="font-weight: bold;">보다 효율적인</span><span> 증권의 </span><span style="font-weight: bold;">권리관리 </span><span>및 </span><span style="font-weight: bold;">업무처리</span><span> 구조</span><span><sup><span>*</span></sup></span><span>를 </span><span style="font-weight: bold;">설계</span><span>할 수 있을 것으로 기대된다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;* 발행인의 실시간 투자자 명단 확인이 가능한 구조 설계도 가능할 것으로 기대</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;다만, 고객 증권계좌 관리는 </span><span style="font-weight: bold;">투자자 재산권의 보호</span><span> 및</span><span style="font-weight: bold;"> 증권 발행&middot;유통의 안정성</span><span> 측면에서 중요성이 매우 큰 업무이다. ｢전자증권법｣은 발행인 계좌</span><span>관리기관이 되기 위해서는 </span><span style="font-weight: bold;">자기자본, 인력, 전산설비, 사회적 신용</span><span> 등을 갖</span><span>추어 등록하도록 규정한다. 구체적인 등록요건과 관련하여 </span><span style="font-weight: bold;">자기자본</span><span>은 </span><span style="font-weight: bold;">40억원</span><span>, </span><span style="font-weight: bold;">인력 요건</span><span>은 </span><span style="font-weight: bold;">계좌관리 전문인력, 내부통제 전문인력, 전산 전문인</span><span style="font-weight: bold;">력</span><span>을 갖추도록 </span><span style="font-weight: bold;">하위법규</span><span><sup><span>*</span></sup></span><span>에 반영할 예정이다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;* 하위법규에 위임된 주요 등록요건 구체화 방안</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p style="text-align: center;"><span><br></span></p>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;"> 
+<tbody> 
+<tr> 
+<td valign="middle" bgcolor="#efffff" style="width: 61px; height: 84px; border-left: none; border-right: 1px dotted rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px dotted rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p style="text-align: center;"><span>자본</span></p></td> 
+<td valign="middle" style="width: 525px; height: 84px; border-left: 1px dotted rgb(0, 0, 0); border-right: none; border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px dotted rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>- 10억원 이상에서 대통령령으로 결정 &rarr; </span><span style="font-weight: bold;">40억원</span><span>으로 설정</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span>- </span><span style="font-weight: bold;">기존 주요 계좌관리기관</span><span>의 자본요건 사례 고려 (</span><span style="font-weight: bold;">투자중개업 40억원</span><span>,</span><span> <br> 투자매매업 500억원, 은행 1,000억원, 보험회사 300억원 등)</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" bgcolor="#efffff" style="width: 61px; height: 31px; border-left: none; border-right: 1px dotted rgb(0, 0, 0); border-top: 1px dotted rgb(0, 0, 0); border-bottom: 1px dotted rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p style="text-align: center;"><span>인력</span></p></td> 
+<td valign="middle" style="width: 525px; height: 31px; border-left: 1px dotted rgb(0, 0, 0); border-right: none; border-top: 1px dotted rgb(0, 0, 0); border-bottom: 1px dotted rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>- </span><span style="font-weight: bold;">계좌관리 전문인력</span><span> 1명, </span><span style="font-weight: bold;">내부통제 전문인력</span><span> 1명, </span><span style="font-weight: bold;">전산 전문인력</span><span> 2명</span></p></td> 
+</tr> 
+<tr> 
+<td valign="middle" bgcolor="#efffff" style="width: 61px; height: 31px; border-left: none; border-right: 1px dotted rgb(0, 0, 0); border-top: 1px dotted rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p style="text-align: center;"><span>전산</span></p></td> 
+<td valign="middle" style="width: 525px; height: 31px; border-left: 1px dotted rgb(0, 0, 0); border-right: none; border-top: 1px dotted rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>- </span><span style="font-weight: bold;">전산 및 보안사고</span><span>의 </span><span style="font-weight: bold;">예방&middot;대응</span><span>을 위한 엄격한 기준 적용</span></p></td> 
+</tr> 
+</tbody> 
+</table>
+<p><span><br></span></p>
+<p style="text-align: center;"><span><br></span></p>
+<p><span><br></span></p>
+<table border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none; width: 100%; overflow-wrap: break-word;"> 
+<tbody> 
+<tr> 
+<td valign="middle" style="border-width: 1px; border-style: dotted; border-color: rgb(0, 0, 0); padding: 1.4pt 5.1pt;">
+<p><span>※ </span><span style="font-weight: bold;">조각투자 발행 스몰라이센스</span><span>(비금전신탁 수익증권 </span><span style="font-weight: bold;">투자중개업</span><span>) 인가를 받을 경우, <br> 발행인 계좌관리기관 등록 없이도 </span><span style="font-weight: bold;">계좌관리기관</span><span>이 될 수 있는 </span><span style="font-weight: bold;">자격</span><span> 발생</span></p><span> </span> 
+<p><br></p><span> </span> 
+<p><span>&nbsp;&nbsp;- 현행법상 </span><span style="font-weight: bold;">투자중개업자</span><span>는 &ldquo;계좌관리기관이 될 수 있는 기관&rdquo;이기 때문<br></span><span>(다만, 실제 기능 수행을 위해서는 전자등록기관과 시스템 연계 등 인프라 구비 필요)</span></p><span> </span></td> 
+</tr> 
+</tbody> 
+</table>
+<p><span><br></span></p>
+<p><span><br></span></p>
+<p><span></span><span style="font-weight: bold; text-decoration: underline;">&lt;&nbsp;5. 분산원장 표준요건 가이드라인 &gt;</span></p>
+<p><span style="font-weight: bold; text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;예탁원은 토큰증권의 </span><span style="font-weight: bold;">원활한 전자등록 지원</span><span>을 위해 분산원장의 참여자, </span><span>합의 알고리즘, 전자등록정보 보존 등 </span><span style="font-weight: bold;">심사기준을 표준화</span><span>하여 가이드라인을</span><span> 마련했다. 증권사 등이 분산원장 연계를 신청하면, 예탁원이 가이드라인을 </span><span>기반으로 </span><span style="font-weight: bold;">심사 및 기능테스트</span><span>를 수행한다. 가이드라인에는 토큰증권의 발</span><span>행&middot;유통을 위한 기본적인 기능 외에도 </span><span style="font-weight: bold;">오류&middot;장애시 업무연속성 </span><span style="font-weight: bold;">확보</span><span> 등 </span><span style="font-weight: bold;">컨틴전시 플랜</span><span>에 대한 내용도 포함되어 있다. 증권사 등은 분산원장</span><span> 고유의 기술적 특성을 반영하되, </span><span style="font-weight: bold;">기존 전자증권 시스템에 준하는 수준</span><span>의 </span><span style="font-weight: bold;">안정성</span><span>을 확보해야 한다.</span></p>
+<p><span style="text-decoration: line-through;"><br></span></p>
+<p><span style="text-decoration: line-through;"><img src="/comm/getImage?srvcId=MEDIA&amp;upperNo=2072&amp;fileTy=MEDIA&amp;fileNo=1" alt=""><br></span></p>
+<p><span style="text-decoration: line-through;" vspace="0" hspace="0" border="0"></span><span><br></span></p>
+<p><span style="font-weight: bold; color: rgb(0, 0, 255);">[향후계획]</span></p>
+<p><span style="font-weight: bold; text-decoration: line-through;"><br></span></p>
+<p><span>&nbsp;&nbsp;금일 발표된 ｢토큰증권 정책방향｣ 중 </span><span style="font-weight: bold;">하위법규 규정사항</span><span>(토큰증권 발행이</span><span> </span><span>허용되는 증권의 범위, 장외거래소 인가단위 신설 및 거래한도, 발행인 계</span><span>좌관리기관 등록요건 등)은 </span><span style="font-weight: bold;">9월말</span><span> ｢자본시장법｣ 및 ｢전자증권법｣ 하위</span><span>법규 개정안에 담겨 </span><span style="font-weight: bold;">입법예고</span><span>되고 </span><span style="font-weight: bold;">의견수렴</span><span>이 진행될 예정이다. 또한 기존 정형증권 관련 단계별</span><span> 토큰화 계획이 마련된 만큼 </span><span style="font-weight: bold;">&rsquo;27.2월 1단계 시행</span><span>을 </span><span>위해</span><span style="font-weight: bold;"> 예탁원</span><span>과 </span><span style="font-weight: bold;">증권사 </span><span style="font-weight: bold;">등</span><span>이 </span><span style="font-weight: bold;">협업</span><span>하여 </span><span style="font-weight: bold;">인프라를 구축</span><span>해 나가게 된다. </span><span style="font-weight: bold;">비금</span><span style="font-weight: bold;">전</span><span style="font-weight: bold;">신탁 수익증권 </span><span style="font-weight: bold;">모범규</span><span style="font-weight: bold;">준</span><span>의 경우 </span><span style="font-weight: bold;">현행 전자증권 형태</span><span>의 조각투자에 대해서도</span><span style="font-weight: bold;"> </span><span style="font-weight: bold;">즉시 적용</span><span>한</span><span>다. </span><span>마지막으로 </span><span style="font-weight: bold;">추가 검토</span><span>를 예고한 과제들의 경우 토큰증권</span><span> </span><span>협의</span><span>체를 중심으로</span><span> </span><span style="font-weight: bold;">시장의견을 수렴</span><span>하며 </span><span style="font-weight: bold;">심도있게 논의</span><span>를 지속해 나갈 계</span><span>획이다.</span></p>
+<p><span>&nbsp;※ [별첨1] 토큰증권 정책방향<br>
+ [별첨2] 비금전신탁수익증권 발행 모범규준<br> [별첨3] 토큰증권 분산원장 표준요건 가이드라인</span></p></div>
+        <div class="file">
+            <div class="title">첨부파일 (5)<a href="javascript:void(0);"><span class="hd-element">첨부파일 목록</span></a></div>
+            <div class="file-list-wrap">
+            <div class="file-list">
+	                <a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=87650&amp;fileTy=ATTACH&amp;fileNo=1" title="260903(보도자료) 토큰증권 정책방향 발표.hwpx"><span class="name">260903(보도자료) 토큰증권 정책방향 발표.hwpx</span></a>
+			       	<span class="name"> (801 KB) </span>
+			        <span class="ico download"><a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=87650&amp;fileTy=ATTACH&amp;fileNo=1" title="파일 다운로드"><span class="hd-element">파일다운로드</span></a></span>
+	            </div>
+            <div class="file-list">
+	                <a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=87650&amp;fileTy=ATTACH&amp;fileNo=2" title="260903(보도자료) 토큰증권 정책방향 발표.pdf"><span class="name">260903(보도자료) 토큰증권 정책방향 발표.pdf</span></a>
+			       	<span class="name"> (782 KB) </span>
+			        <span class="ico view"><a href="/ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E411B5BEDC9B659A2E3A3B481017B4132AA6230E1E5A5A691D3DCC191133E2A45C6D05AC36A093D43AC16E383EDB319722EEB4A25E0B665865EBBA7B83D4F40FF7B387C5A5D1455B0E26FD6DD2971E2D20004C90E5462A6DBB5AA94511ADF9AEA6F" title="문서뷰어 새창으로 열기"><span class="hd-element">파일뷰어</span></a></span>
+		                <span class="ico download"><a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=87650&amp;fileTy=ATTACH&amp;fileNo=2" title="파일 다운로드"><span class="hd-element">파일다운로드</span></a></span>
+	            </div>
+            <div class="file-list">
+	                <a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=87650&amp;fileTy=ATTACH&amp;fileNo=3" title="260903[별첨1] 토큰증권 정책방향.hwp"><span class="name">260903[별첨1] 토큰증권 정책방향.hwp</span></a>
+			       	<span class="name"> (654 KB) </span>
+			        <span class="ico download"><a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=87650&amp;fileTy=ATTACH&amp;fileNo=3" title="파일 다운로드"><span class="hd-element">파일다운로드</span></a></span>
+	            </div>
+            <div class="file-list">
+	                <a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=87650&amp;fileTy=ATTACH&amp;fileNo=4" title="260903[별첨2] 비금전신탁수익증권 발행 모범규준.hwp"><span class="name">260903[별첨2] 비금전신탁수익증권 발행 모범규준.hwp</span></a>
+			       	<span class="name"> (78 KB) </span>
+			        <span class="ico download"><a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=87650&amp;fileTy=ATTACH&amp;fileNo=4" title="파일 다운로드"><span class="hd-element">파일다운로드</span></a></span>
+	            </div>
+            <div class="file-list">
+	                <a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=87650&amp;fileTy=ATTACH&amp;fileNo=5" title="260903[별첨3] 토큰증권 분산원장 표준요건 가이드라인.pdf"><span class="name">260903[별첨3] 토큰증권 분산원장 표준요건 가이드라인.pdf</span></a>
+			       	<span class="name"> (2 MB) </span>
+			        <span class="ico view"><a href="/ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E411B5BEDC9B659A2E3A3B481017B4132AA622A596FAC7629600DB89BC83A4088C28AE27C7D6AD5CBF67462B70F71B8976C55CC039C37EA18B95F8E4355D98C9DB9387C5A5D1455B0E26FD6DD2971E2D200D556C0F4700DEA0A569A884FC35A0D5C" title="문서뷰어 새창으로 열기"><span class="hd-element">파일뷰어</span></a></span>
+		                <span class="ico download"><a href="/comm/getFile?srvcId=BBSTY1&amp;upperNo=87650&amp;fileTy=ATTACH&amp;fileNo=5" title="파일 다운로드"><span class="hd-element">파일다운로드</span></a></span>
+	            </div>
+            </div>
+        </div>
+        <div class="btn-board">
+        	<a href="/po010101?srchCtgry=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=" class="bg-black" title="목록으로 이동">목록으로</a>
+        </div>
+    </div>
+    <!-- footer -->
+	<div class="foot">
+	    	<ul>
+	    	<li title="금융·외환·부동산 등 부문별 리스크 종합 점검">
+                    <dl>
+                        <dt>이전글</dt>
+                        <dd>
+                        	<a href="87648?srchCtgry=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=" class="prev">금융·외환·부동산 등 부문별 리스크 종합 점검</a>
+                            	</dd>
+                    </dl>
+                </li>
+                <li title="지역 밀착형 서민금융 복합지원으로  강원도민의 경제적 자립을 돕겠습니다.  - 이억원 금융위원장, 강원 지역 밀착형 복합지원 업무협약식 참석">
+                    <dl>
+                        <dt>다음글</dt>
+                        <dd>
+                        	<a href="87652?srchCtgry=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=" class="next">지역 밀착형 서민금융 복합지원으로  강원도민의 경제적 자립을 돕겠습니다.  - 이억원 금융위원장, 강원 지역 밀착형 복합지원 업무협약식 참석</a>
+                            	</dd>
+                    </dl>
+                </li>
+                </ul>
+        </div>
+	</div><!--// board-view --></div><!--// content-body -->
+					<!-- content-foot -->
+	            	<div class="content-foot">
+	                   	<form id="stsfdgForm" name="stsfdgForm" method="post" class="ml-xlg">
+			<input type="hidden" name="crud" value="">
+			<input type="hidden" name="siteNo" value="1" title="사이트번호">
+			<input type="hidden" name="menuNo" value="5" title="메뉴번호">
+			<div class="header">
+	            <dl>
+	                <dt>콘텐츠 내용에 만족하셨나요?</dt>
+	                <dd>
+	                    <div class="form-radio">
+	                        <input type="radio" name="score" id="c5" value="5" class="">
+	                        <label for="c5" title="매우만족 선택"><span><i class="s1"></i>매우만족</span></label>
+	                    </div>
+	                </dd>
+	                <dd>
+	                    <div class="form-radio">
+	                        <input type="radio" name="score" id="c4" value="4" class="">
+	                        <label for="c4" title="만족 선택"><span><i class="s2"></i>만족</span></label>
+	                    </div>
+	                </dd>
+	                <dd>
+	                    <div class="form-radio">
+	                        <input type="radio" name="score" id="c3" value="3" class="">
+	                        <label for="c3" title="보통 선택"><span><i class="s3"></i>보통</span></label>
+	                    </div>
+	                </dd>
+	                <dd>
+	                    <div class="form-radio">
+	                        <input type="radio" name="score" id="c2" value="2" class="">
+	                        <label for="c2" title="불만족 선택"><span><i class="s4"></i>불만족</span></label>
+	                    </div>
+	                </dd>
+	                <dd>
+	                    <div class="form-radio">
+	                        <input type="radio" name="score" id="c1" value="1" class="">
+	                        <label for="c1" title="매우불만족 선택"><span><i class="s5"></i>매우불만족</span></label>
+	                    </div>
+	                </dd>
+	            </dl>
+	            <button type="submit" class="btn-vote">평가하기</button>
+	        </div>
+        </form>
+        
+		<script>
+		$(function(){
+			//save saticsfaction degree 
+			$(document).on('submit', 'form[name="stsfdgForm"]', function(e){
+				e.preventDefault();
+				if($("form[name='stsfdgForm'] input[name='score']:checked").length > 0 && $("form[name='stsfdgForm'] input[name='score']:checked").val() ) {
+					
+					if(!confirm("선택하신 점수로 평가 하시겠습니까?")){
+						return false;
+					}
+					
+					$("form[name='stsfdgForm'] input[name='crud']").val('CREATE');
+					$.ajax({
+						url: "/ajax/stsfdgAction.json", // 의견 추가,삭제
+						type: "post",
+						data: $("form[name='stsfdgForm']").serialize(),
+						success: function(data){
+							if (data.process!=undefined&&data.process==1) {
+								alert('등록되었습니다.');
+							} else if (data.errorMessage!=undefined) {
+								alert(data.errorMessage);
+							} else {
+								alert("처리에 오류가 발생했습니다.");
+							}
+						},
+						error: function(xhr, status, err){
+							alert("[error] " + ":" + err + "(" + status + ")");
+						}
+					});
+				} else {
+					alert("만족도 점수를 선택해주세요");
+					$("form[name='stsfdgForm'] input[name='score']#c5").focus();
+				}
+			});
+		})
+		</script></div><!--// content-foot -->
+	           </div>
+			</main>
+		<!-- end:content -->
+	
+		<!-- start:footer -->
+		<style>
+.topbtn {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 999;
+}
+
+</style>
+
+<script type="text/javascript">
+	$(function() {
+	    $(window).scroll(function() {
+	        if ($(this).scrollTop() > 100) {
+	            $('#MOVE_TOP_BTN').fadeIn();
+	        } else {
+	            $('#MOVE_TOP_BTN').fadeOut();
+	        }
+	    });
+	    
+	    $("#MOVE_TOP_BTN").click(function() {
+	        $('html, body').animate({
+	            scrollTop : 0
+	        }, 400);
+	        return false;
+	    });
+		$("#MOVE_TOP_BTN").on("keydown", function(e) {
+	        if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+	            e.preventDefault();
+	            $('html, body').animate({ scrollTop : 0 }, 400);
+	        }
+	    });
+	});
+</script>
+
+<footer>
+	<div class="footer-inner">
+	    <ul class="family-wrap">
+	        <li title="금융위원회 유관기관 선택하기">
+	            <label for="s1" class="hd-element">금융위원회 유관기관</label>
+	            <select name="s1" id="s1">
+	                <option title="금융위원회 유관기관" value="">금융위원회 유관기관</option>
+	                <option title="금융감독원 선택" value="http://www.fss.or.kr">금융감독원</option>
+	                <option title="예금보험공사 선택" value="http://www.kdic.or.kr">예금보험공사</option>
+	                <option title="한국자산관리공사(캠코) 선택" value="http://www.kamco.or.kr">한국자산관리공사(캠코)</option>
+	                <option title="산업은행 선택" value="https://www.kdb.co.kr">산업은행</option>
+	                <option title="기업은행 선택" value="https://www.ibk.co.kr">기업은행</option>
+	                <option title="신용보증기금 선택" value="https://www.kodit.co.kr">신용보증기금</option>
+	                <option title="한국예탁결제원 선택" value="http://www.ksd.or.kr">한국예탁결제원</option>
+	                <option title="한국거래소 선택" value="http://www.krx.co.kr">한국거래소</option>
+	                <option title="한국주택금융공사 선택" value="http://www.hf.go.kr">한국주택금융공사</option>
+	                <option title="금융정보분석원 선택" value="https://www.kofiu.go.kr">금융정보분석원</option>
+	                <option title="전국은행연합회 선택" value="http://www.kfb.or.kr">전국은행연합회</option>
+	                <option title="생명보험협회 선택" value="http://www.klia.or.kr">생명보험협회</option>
+	                <option title="손해보험협회 선택" value="http://www.knia.or.kr">손해보험협회</option>
+	                <option title="한국금융투자협회 선택" value="http://www.kofia.or.kr">한국금융투자협회</option>
+	                <option title="여신금융협회 선택" value="https://www.crefia.or.kr">여신금융협회</option>
+	                <option title="상호저축은행중앙회 선택" value="https://www.fsb.or.kr">상호저축은행중앙회</option>
+	                <option title="신용정보협회 선택" value="http://www.cica.or.kr">신용정보협회</option>
+	                <option title="금융결제원 선택" value="http://www.kftc.or.kr">금융결제원</option>
+	                <option title="금융보안원 선택" value="http://www.fsec.or.kr">금융보안원</option>
+	                <option title="한국신용정보원 선택" value="http://www.kcredit.or.kr">한국신용정보원</option>
+	                <option title="서민금융진흥원 선택" value="http://www.kinfa.or.kr">서민금융진흥원</option>
+	                <option title="신용회복위원회 선택" value="https://www.ccrs.or.kr">신용회복위원회</option>
+	                <option title="한국금융연구원 선택" value="http://www.kif.re.kr">한국금융연구원</option>
+	                <option title="보험개발원 선택" value="http://www.kidi.or.kr">보험개발원</option>
+	                <option title="보험연구원 선택" value="http://www.kiri.or.kr">보험연구원</option>
+	                <option title="자본시장연구원 선택" value="http://www.kcmi.re.kr">자본시장연구원</option>
+	                <option title="한국금융연수원 선택" value="http://www.kbi.or.kr">한국금융연수원</option>
+	                <option title="핀테크지원센터 선택" value="https://fintech.or.kr">핀테크지원센터</option>
+	                <option title="한국핀테크산업협회 선택" value="http://www.korfin.kr">한국핀테크산업협회</option>
+	                <option title="한국화재보험협회 선택" value="https://www.kfpa.or.kr">한국화재보험협회</option>
+	                <option title="한국공인회계사회 선택" value="http://www.kicpa.or.kr">한국공인회계사회</option>
+	                <option title="한국회계기준원 선택" value="http://www.kasb.or.kr">한국회계기준원</option>
+	                <option title="코스콤 선택" value="http://www.koscom.co.kr">코스콤</option>
+	            </select>
+	            <button type="button" class="select-link-btn" title="선택한 유관기관 새창으로 열기"><span>이동</span></button>
+	        </li>
+	        <li title="금융서비스 포털모음 선택하기">
+	            <label for="s2" class="hd-element">금융서비스 포털모음</label>
+	            <select name="s2" id="s2">
+	                <option title="금융서비스 포털모음" value="">금융서비스 포털모음</option>
+	                <option title="파인 선택" value="http://fine.fss.or.kr">파인</option>
+	                <option title="카드포인트통합조회 선택" value="https://www.cardpoint.or.kr">카드포인트통합조회</option>
+	                <option title="착오송금 반환지원 선택" value="https://kmrs.kdic.or.kr/ko/index.do">착오송금 반환지원</option>
+	                <option title="휴면금융재산조회 선택" value="http://www.sleepmoney.or.kr">휴면금융재산조회</option>
+	                <option title="보험다모아 선택" value="http://www.e-insmarket.or.kr">보험다모아</option>
+	                <option title="본인신용정보 열람서비스 선택" value="https://www.credit4u.or.kr:2443/">본인신용정보 열람서비스</option>
+	                <option title="페이인포 선택" value="https://www.payinfo.or.kr/payinfo.html">페이인포</option>
+	                <option title="통합연금포털 선택" value="https://www.fss.or.kr/fss/lifeplan/lifeplanIndex/index.do?menuNo=201101">통합연금포털</option>
+	                <option title="ISA다모아 선택" value="https://dis.kofia.or.kr/websquare/index.jsp?w2xPath=/wq/isa/DISISANotice.xml&divisionId=MDIS07001001000000&serviceId=SDIS07001001000#!">ISA다모아</option>
+	                <option title="금융상품 한눈에 선택" value="http://finlife.fss.or.kr">금융상품 한눈에</option>
+	                <option title="마이데이터 종합포털 선택" value="https://www.mydatacenter.or.kr:3441/myd/index/index.do">마이데이터 종합포털</option>
+	                <option title="KRX ESG포털 선택" value="http://esgportal.kr">KRX ESG포털</option>
+					<option title="국민성장펀드" value="http://ngf.kdb.co.kr">국민성장펀드</option>
+	            </select>
+	            <button type="button" class="select-link-btn" title="선택한 포털 새창으로 열기"><span>이동</span></button>
+	        </li>
+	    </ul>
+	    <ul class="footer-body">
+	        <li>
+	            <dl class="guide-wrap">
+	                <dt>이용안내</dt>
+	                <dd><a href="/ut010101" title="금융행정서비스헌장 페이지로 이동">금융행정서비스헌장</a></dd>
+	                <dd class="font-color-yellow"><a href="/ut020103" title="개인정보처리방침 페이지로 이동">개인정보처리방침</a></dd>
+	                <dd><a href="/ut020105" title="전자우편 무단수집거부 페이지로 이동">전자우편 무단수집거부</a></dd>
+	                <dd><a href="/ut020104" title="저작권정책 페이지로 이동">저작권정책</a></dd>
+	                <dd><a href="/ut050101" title="누리집지도 페이지로 이동">누리집지도</a></dd>
+	                <dd><a href="/ut020102" title="누리집 개선제안 페이지로 이동">누리집 개선제안</a></dd>
+	                <dd><a href="/pa050000" title="소식지 신청 페이지로 이동">소식지 신청</a></dd>
+	                <dd><a href="/ut060101" title="최신소식(RSS)서비스 페이지로 이동">최신소식(RSS)서비스</a></dd>
+	            </dl>
+	        </li>
+	        <li>
+	            <dl class="custom">
+	                <dt>금융위 문의</dt>
+	                <dd class="loc">03171 서울특별시 종로구 세종대로 209 금융위원회</dd>
+					<dd class="tel">대표전화 : <a href="tel:02-2100-2500" title="대표전화:02-2100-2500 으로 전화걸기">02-2100-2500</a></dd>
+	                <dd class="tel">정부민원안내콜센터 국번없이 : 110(무료)</dd>
+					<dd class="tel">금감원콜센터 : 1332(유료, 통화료는 발신자 부담)</dd>
+	                </dl>
+	        </li>
+	        <li>
+	            <div class="copyright">
+	                <span>ⓒ FINANCIAL SERVICES COMMISSION.</span><br>ALL RIGHTS RESERVED. 
+	            </div>
+	            <ul class="footer-sns">
+	                <li class="fb"><a href="javascript:openFacebook()" title="금융위원회 페이스북 새창으로 열기"><span class="hd-element">페이스북</span></a></li>
+	                <li class="blog"><a href="javascript:openBlog()" title="금융위원회 네이버블로그 새창으로 열기"><span class="hd-element">네이버 블로그</span></a></li>
+	                <li class="yt"><a href="javascript:openYoutube()" title="금융위원회 유튜브 새창으로 열기"><span class="hd-element">유튜브</span></a></li>
+	                <li class="tw"><a href="javascript:openTwiter()" title="금융위원회 X (구)트위터 새창으로 열기"><span class="hd-element">X (구)트위터</span></a></li>
+	              	<li class="ins"><a href="javascript:openInstagram()" title="금융위원회 인스타그램 새창으로 열기"><span class="hd-element">인스타그램</span></a></li>
+	            </ul>
+	            <div class="other-wrap">
+	                <span><a href="https://www.mois.go.kr/frt/sub/popup/p_taegugki_banner/screen.do" title="국가상징 알아보기 새창으로 열기"><img src="/humanframe/theme/fscmain/assets/images/common/ico_tae1.png" alt="국가상징 알아보기"></a></span>
+	                <span><a href="https://www.kogl.or.kr/open/index.do" title="OPEN 정보공개 새창으로 열기"><img src="/humanframe/theme/fscmain/assets/images/common/ico_open.png" alt="OPEN 정보공개"></a></span>
+	                <span><a href="http://www.wa.or.kr/board/list.asp?search=link_url&SearchString=www.fsc.go.kr&BoardID=0006" target="_blank" title="웹접근성 품질인증 새창으로 열기" class="ext_link_none ext_link"><img style="width:43px; height:30px;" src="/humanframe/theme/fscmain/assets/images/common/2025_ico_wa.png" alt="(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)"></a></span>
+	            </div>
+	        </li>
+	    </ul>
+	</div>
+</footer>
+
+<aside class="topbtn">
+	<a id="MOVE_TOP_BTN" href="#eg"><img src="/humanframe/theme/fscmain/assets/images/ico/ico_top.png" alt="최상단 이동 버튼"></a>
+</aside><!-- end:footer -->
+		
+		<div class="mask-wrap"></div>
+		
+		<!-- layer popup -->
+	    <div class="layer-popup">
+	        <div class="load-wrap">
+	            <div id="loadUrl" class="load-inner"></div>
+	            </div>        
+	    </div>
+	    <!--// layer popup -->
+	    
+		</div>
+
+</body>
+</html>

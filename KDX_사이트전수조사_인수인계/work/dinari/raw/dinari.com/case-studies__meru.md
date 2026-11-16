@@ -3,7 +3,7 @@ url: https://dinari.com/case-studies/meru
 title: How Meru Expanded Its Wealth Platform With Tokenized U.S. Equities
 description: Powered by Dinari's dShares™, Meru added access to U.S. public markets alongside digital dollars, crypto, and yield products through a single integration, giving customers a more complete wealth-building experience.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 
@@ -139,3 +139,7 @@ By partnering with Dinari, Meru has shown how fintechs can broaden their product
 ## Looking to trade dShares™?
 
 [Find a partner near you](https://dinari.com/partners)
+
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+
+Cookies Settings Reject All Accept All Cookies

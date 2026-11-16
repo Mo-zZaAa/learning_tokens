@@ -9,11 +9,11 @@ plan: read
 
 # Trade stocks on Kraken
 
-US clients can now invest in over 11,000 stocks and ETFs – commission-free [1](#disclaimer) – directly in the Kraken app.
+US clients can now invest in over 11,000 stocks and ETFs – commission-free [1](https://www.kraken.com/stocks) – directly in the Kraken app.
 
-[Trade stocks](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=/stocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a)[Trade stocks](/sign-up)
+[Trade stocks](https://app.kraken.com/JDNW)[Trade stocks](https://www.kraken.com/sign-up)
 
-[Trade stocks](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=/stocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a)[Trade stocks](/sign-up)
+[Trade stocks](https://app.kraken.com/JDNW)[Trade stocks](https://www.kraken.com/sign-up)
 
 [영상]
 
@@ -21,11 +21,11 @@ Availability
 
 [[그림: App icon] 
 
-Kraken](/kraken-app)
+Kraken](https://www.kraken.com/kraken-app)
 
 [[그림: App icon] 
 
-Pro](https://pro.kraken.com)
+Pro](https://pro.kraken.com/)
 
 [그림: App icon] 
 
@@ -45,7 +45,7 @@ Trade beyond big-name US stocks and ETFs across NYSE, NASDAQ, AMEX, and more.
 
 Commission free
 
-Trade stocks and ETFs with zero commissions.[1](#disclaimer)
+Trade stocks and ETFs with zero commissions.[1](https://www.kraken.com/stocks)
 
 [그림: commission free]
 
@@ -59,9 +59,9 @@ Invest in stocks, ETFs, and crypto – side by side – all within the Kraken a
 
 [그림: Commision free]
 
-[Sign up for Kraken](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=/stocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a)[Sign up for Kraken](/sign-up)
+[Sign up for Kraken](https://app.kraken.com/JDNW)[Sign up for Kraken](https://www.kraken.com/sign-up)
 
-[Sign up for Kraken](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=/stocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a)[Sign up for Kraken](/sign-up)
+[Sign up for Kraken](https://app.kraken.com/JDNW)[Sign up for Kraken](https://www.kraken.com/sign-up)
 
 Using another broker?
 
@@ -77,7 +77,7 @@ Extended trading hours
 
 Earn interest
 
-With our Fully Paid Securities Lending (FPSL) program, you can put your portfolio to work and may be eligible to earn passive yield.[2](#disclaimer)
+With our Fully Paid Securities Lending (FPSL) program, you can put your portfolio to work and may be eligible to earn passive yield.[2](https://www.kraken.com/stocks)
 
  [그림: Example of payments sent and received]
 
@@ -91,111 +91,113 @@ StocksETFs
 
 Apple
 
-AAPL](/stocks/aapl)[[그림: MSFT icon]
+AAPL](https://www.kraken.com/stocks/aapl)[[그림: MSFT icon]
 
 Microsoft
 
-MSFT](/stocks/msft)[[그림: NVDA icon]
+MSFT](https://www.kraken.com/stocks/msft)[[그림: NVDA icon]
 
 NVIDIA
 
-NVDA](/stocks/nvda)[[그림: GOOGL icon]
+NVDA](https://www.kraken.com/stocks/nvda)[[그림: GOOGL icon]
 
 Alphabet (Class A)
 
-GOOGL](/stocks/googl)[[그림: GOOG icon]
+GOOGL](https://www.kraken.com/stocks/googl)[[그림: GOOG icon]
 
 Alphabet (Class C)
 
-GOOG](/stocks/goog)[[그림: AMZN icon]
-
-Amazon.com
-
-AMZN](/stocks/amzn)[TSM
-
-[그림: TSM icon]
-
-Taiwan Semiconductor
-
-TSM](/stocks/tsm)[SPCX
-
-[그림: SPCX icon]
-
-SpaceX
-
-SPCX](/stocks/spcx)[META
-
-[그림: META icon]
-
-Meta Platforms
-
-META](/stocks/meta)[AVGO
-
-[그림: AVGO icon]
-
-Broadcom
-
-AVGO](/stocks/avgo)[AAPL
-
-[그림: AAPL icon]
-
-Apple
-
-AAPL](/stocks/aapl)[MSFT
-
-[그림: MSFT icon]
-
-Microsoft
-
-MSFT](/stocks/msft)[NVDA
-
-[그림: NVDA icon]
-
-NVIDIA
-
-NVDA](/stocks/nvda)[GOOGL
-
-[그림: GOOGL icon]
-
-Alphabet (Class A)
-
-GOOGL](/stocks/googl)[GOOG
-
-[그림: GOOG icon]
-
-Alphabet (Class C)
-
-GOOG](/stocks/goog)[AMZN
+GOOG](https://www.kraken.com/stocks/goog)[AMZN
 
 [그림: AMZN icon]
 
 Amazon.com
 
-AMZN](/stocks/amzn)[TSM
+AMZN](https://www.kraken.com/stocks/amzn)[TSM
 
 [그림: TSM icon]
 
 Taiwan Semiconductor
 
-TSM](/stocks/tsm)[SPCX
+TSM](https://www.kraken.com/stocks/tsm)[SPCX
 
 [그림: SPCX icon]
 
 SpaceX
 
-SPCX](/stocks/spcx)[META
+SPCX](https://www.kraken.com/stocks/spcx)[META
 
 [그림: META icon]
 
 Meta Platforms
 
-META](/stocks/meta)[AVGO
+META](https://www.kraken.com/stocks/meta)[AVGO
 
 [그림: AVGO icon]
 
 Broadcom
 
-AVGO](/stocks/avgo)
+AVGO](https://www.kraken.com/stocks/avgo)[AAPL
+
+[그림: AAPL icon]
+
+Apple
+
+AAPL](https://www.kraken.com/stocks/aapl)[MSFT
+
+[그림: MSFT icon]
+
+Microsoft
+
+MSFT](https://www.kraken.com/stocks/msft)[NVDA
+
+[그림: NVDA icon]
+
+NVIDIA
+
+NVDA](https://www.kraken.com/stocks/nvda)[GOOGL
+
+[그림: GOOGL icon]
+
+Alphabet (Class A)
+
+GOOGL](https://www.kraken.com/stocks/googl)[GOOG
+
+[그림: GOOG icon]
+
+Alphabet (Class C)
+
+GOOG](https://www.kraken.com/stocks/goog)[AMZN
+
+[그림: AMZN icon]
+
+Amazon.com
+
+AMZN](https://www.kraken.com/stocks/amzn)[TSM
+
+[그림: TSM icon]
+
+Taiwan Semiconductor
+
+TSM](https://www.kraken.com/stocks/tsm)[SPCX
+
+[그림: SPCX icon]
+
+SpaceX
+
+SPCX](https://www.kraken.com/stocks/spcx)[META
+
+[그림: META icon]
+
+Meta Platforms
+
+META](https://www.kraken.com/stocks/meta)[AVGO
+
+[그림: AVGO icon]
+
+Broadcom
+
+AVGO](https://www.kraken.com/stocks/avgo)
 
 [AAPL
 
@@ -203,229 +205,229 @@ AVGO](/stocks/avgo)
 
 Apple
 
-AAPL](/stocks/aapl)[MSFT
+AAPL](https://www.kraken.com/stocks/aapl)[MSFT
 
 [그림: MSFT icon]
 
 Microsoft
 
-MSFT](/stocks/msft)[NVDA
+MSFT](https://www.kraken.com/stocks/msft)[NVDA
 
 [그림: NVDA icon]
 
 NVIDIA
 
-NVDA](/stocks/nvda)[GOOGL
+NVDA](https://www.kraken.com/stocks/nvda)[GOOGL
 
 [그림: GOOGL icon]
 
 Alphabet (Class A)
 
-GOOGL](/stocks/googl)[GOOG
+GOOGL](https://www.kraken.com/stocks/googl)[GOOG
 
 [그림: GOOG icon]
 
 Alphabet (Class C)
 
-GOOG](/stocks/goog)[AMZN
+GOOG](https://www.kraken.com/stocks/goog)[AMZN
 
 [그림: AMZN icon]
 
 Amazon.com
 
-AMZN](/stocks/amzn)[TSM
+AMZN](https://www.kraken.com/stocks/amzn)[TSM
 
 [그림: TSM icon]
 
 Taiwan Semiconductor
 
-TSM](/stocks/tsm)[SPCX
+TSM](https://www.kraken.com/stocks/tsm)[SPCX
 
 [그림: SPCX icon]
 
 SpaceX
 
-SPCX](/stocks/spcx)[META
+SPCX](https://www.kraken.com/stocks/spcx)[META
 
 [그림: META icon]
 
 Meta Platforms
 
-META](/stocks/meta)[AVGO
+META](https://www.kraken.com/stocks/meta)[AVGO
 
 [그림: AVGO icon]
 
 Broadcom
 
-AVGO](/stocks/avgo)[AAPL
+AVGO](https://www.kraken.com/stocks/avgo)[AAPL
 
 [그림: AAPL icon]
 
 Apple
 
-AAPL](/stocks/aapl)[MSFT
+AAPL](https://www.kraken.com/stocks/aapl)[MSFT
 
 [그림: MSFT icon]
 
 Microsoft
 
-MSFT](/stocks/msft)[NVDA
+MSFT](https://www.kraken.com/stocks/msft)[NVDA
 
 [그림: NVDA icon]
 
 NVIDIA
 
-NVDA](/stocks/nvda)[GOOGL
+NVDA](https://www.kraken.com/stocks/nvda)[GOOGL
 
 [그림: GOOGL icon]
 
 Alphabet (Class A)
 
-GOOGL](/stocks/googl)[GOOG
+GOOGL](https://www.kraken.com/stocks/googl)[GOOG
 
 [그림: GOOG icon]
 
 Alphabet (Class C)
 
-GOOG](/stocks/goog)[AMZN
+GOOG](https://www.kraken.com/stocks/goog)[AMZN
 
 [그림: AMZN icon]
 
 Amazon.com
 
-AMZN](/stocks/amzn)[TSM
+AMZN](https://www.kraken.com/stocks/amzn)[TSM
 
 [그림: TSM icon]
 
 Taiwan Semiconductor
 
-TSM](/stocks/tsm)[SPCX
+TSM](https://www.kraken.com/stocks/tsm)[SPCX
 
 [그림: SPCX icon]
 
 SpaceX
 
-SPCX](/stocks/spcx)[META
+SPCX](https://www.kraken.com/stocks/spcx)[META
 
 [그림: META icon]
 
 Meta Platforms
 
-META](/stocks/meta)[[그림: AVGO icon]
+META](https://www.kraken.com/stocks/meta)[[그림: AVGO icon]
 
 Broadcom
 
-AVGO](/stocks/avgo)
+AVGO](https://www.kraken.com/stocks/avgo)
 
 [[그림: TSLA icon]
 
 Tesla
 
-TSLA](/stocks/tsla)[[그림: LLY icon]
+TSLA](https://www.kraken.com/stocks/tsla)[[그림: LLY icon]
 
 Eli Lilly
 
-LLY](/stocks/lly)[[그림: BRK.B icon]
+LLY](https://www.kraken.com/stocks/lly)[[그림: BRK.B icon]
 
 Berkshire Hathaway
 
-BRK.B](/stocks/brk.b)[[그림: BRK.A icon]
+BRK.B](https://www.kraken.com/stocks/brk.b)[[그림: BRK.A icon]
 
 Berkshire Hathaway
 
-BRK.A](/stocks/brk.a)[[그림: WMT icon]
+BRK.A](https://www.kraken.com/stocks/brk.a)[[그림: WMT icon]
 
 Walmart
 
-WMT](/stocks/wmt)[[그림: JPM icon]
+WMT](https://www.kraken.com/stocks/wmt)[[그림: JPM icon]
 
 JPMorgan Chase
 
-JPM](/stocks/jpm)[SKHY
+JPM](https://www.kraken.com/stocks/jpm)[SKHY
 
 [그림: SKHY icon]
 
 SK hynix
 
-SKHY](/stocks/skhy)[MU
+SKHY](https://www.kraken.com/stocks/skhy)[MU
 
 [그림: MU icon]
 
 Micron Technology
 
-MU](/stocks/mu)[AMD
+MU](https://www.kraken.com/stocks/mu)[AMD
 
 [그림: AMD icon]
 
 Advanced Micro Devices
 
-AMD](/stocks/amd)[V
+AMD](https://www.kraken.com/stocks/amd)[V
 
 [그림: V icon]
 
 Visa
 
-V](/stocks/v)[TSLA
+V](https://www.kraken.com/stocks/v)[TSLA
 
 [그림: TSLA icon]
 
 Tesla
 
-TSLA](/stocks/tsla)[LLY
+TSLA](https://www.kraken.com/stocks/tsla)[LLY
 
 [그림: LLY icon]
 
 Eli Lilly
 
-LLY](/stocks/lly)[BRK.B
+LLY](https://www.kraken.com/stocks/lly)[BRK.B
 
 [그림: BRK.B icon]
 
 Berkshire Hathaway
 
-BRK.B](/stocks/brk.b)[BRK.A
+BRK.B](https://www.kraken.com/stocks/brk.b)[BRK.A
 
 [그림: BRK.A icon]
 
 Berkshire Hathaway
 
-BRK.A](/stocks/brk.a)[WMT
+BRK.A](https://www.kraken.com/stocks/brk.a)[WMT
 
 [그림: WMT icon]
 
 Walmart
 
-WMT](/stocks/wmt)[JPM
+WMT](https://www.kraken.com/stocks/wmt)[JPM
 
 [그림: JPM icon]
 
 JPMorgan Chase
 
-JPM](/stocks/jpm)[SKHY
+JPM](https://www.kraken.com/stocks/jpm)[SKHY
 
 [그림: SKHY icon]
 
 SK hynix
 
-SKHY](/stocks/skhy)[MU
+SKHY](https://www.kraken.com/stocks/skhy)[MU
 
 [그림: MU icon]
 
 Micron Technology
 
-MU](/stocks/mu)[AMD
+MU](https://www.kraken.com/stocks/mu)[AMD
 
 [그림: AMD icon]
 
 Advanced Micro Devices
 
-AMD](/stocks/amd)[V
+AMD](https://www.kraken.com/stocks/amd)[V
 
 [그림: V icon]
 
 Visa
 
-V](/stocks/v)
+V](https://www.kraken.com/stocks/v)
 
 [TSLA
 
@@ -433,229 +435,229 @@ V](/stocks/v)
 
 Tesla
 
-TSLA](/stocks/tsla)[LLY
+TSLA](https://www.kraken.com/stocks/tsla)[LLY
 
 [그림: LLY icon]
 
 Eli Lilly
 
-LLY](/stocks/lly)[BRK.B
+LLY](https://www.kraken.com/stocks/lly)[BRK.B
 
 [그림: BRK.B icon]
 
 Berkshire Hathaway
 
-BRK.B](/stocks/brk.b)[BRK.A
+BRK.B](https://www.kraken.com/stocks/brk.b)[BRK.A
 
 [그림: BRK.A icon]
 
 Berkshire Hathaway
 
-BRK.A](/stocks/brk.a)[WMT
+BRK.A](https://www.kraken.com/stocks/brk.a)[WMT
 
 [그림: WMT icon]
 
 Walmart
 
-WMT](/stocks/wmt)[JPM
+WMT](https://www.kraken.com/stocks/wmt)[JPM
 
 [그림: JPM icon]
 
 JPMorgan Chase
 
-JPM](/stocks/jpm)[SKHY
+JPM](https://www.kraken.com/stocks/jpm)[SKHY
 
 [그림: SKHY icon]
 
 SK hynix
 
-SKHY](/stocks/skhy)[MU
+SKHY](https://www.kraken.com/stocks/skhy)[MU
 
 [그림: MU icon]
 
 Micron Technology
 
-MU](/stocks/mu)[AMD
+MU](https://www.kraken.com/stocks/mu)[AMD
 
 [그림: AMD icon]
 
 Advanced Micro Devices
 
-AMD](/stocks/amd)[V
+AMD](https://www.kraken.com/stocks/amd)[V
 
 [그림: V icon]
 
 Visa
 
-V](/stocks/v)[TSLA
+V](https://www.kraken.com/stocks/v)[TSLA
 
 [그림: TSLA icon]
 
 Tesla
 
-TSLA](/stocks/tsla)[LLY
+TSLA](https://www.kraken.com/stocks/tsla)[LLY
 
 [그림: LLY icon]
 
 Eli Lilly
 
-LLY](/stocks/lly)[BRK.B
+LLY](https://www.kraken.com/stocks/lly)[BRK.B
 
 [그림: BRK.B icon]
 
 Berkshire Hathaway
 
-BRK.B](/stocks/brk.b)[BRK.A
+BRK.B](https://www.kraken.com/stocks/brk.b)[BRK.A
 
 [그림: BRK.A icon]
 
 Berkshire Hathaway
 
-BRK.A](/stocks/brk.a)[WMT
+BRK.A](https://www.kraken.com/stocks/brk.a)[WMT
 
 [그림: WMT icon]
 
 Walmart
 
-WMT](/stocks/wmt)[JPM
+WMT](https://www.kraken.com/stocks/wmt)[JPM
 
 [그림: JPM icon]
 
 JPMorgan Chase
 
-JPM](/stocks/jpm)[SKHY
+JPM](https://www.kraken.com/stocks/jpm)[SKHY
 
 [그림: SKHY icon]
 
 SK hynix
 
-SKHY](/stocks/skhy)[MU
+SKHY](https://www.kraken.com/stocks/skhy)[MU
 
 [그림: MU icon]
 
 Micron Technology
 
-MU](/stocks/mu)[AMD
+MU](https://www.kraken.com/stocks/mu)[AMD
 
 [그림: AMD icon]
 
 Advanced Micro Devices
 
-AMD](/stocks/amd)[[그림: V icon]
+AMD](https://www.kraken.com/stocks/amd)[[그림: V icon]
 
 Visa
 
-V](/stocks/v)
+V](https://www.kraken.com/stocks/v)
 
 [[그림: JNJ icon]
 
 Johnson & Johnson
 
-JNJ](/stocks/jnj)[[그림: XOM icon]
+JNJ](https://www.kraken.com/stocks/jnj)[[그림: XOM icon]
 
 ExxonMobil Holdings
 
-XOM](/stocks/xom)[[그림: MA icon]
+XOM](https://www.kraken.com/stocks/xom)[[그림: MA icon]
 
 Mastercard
 
-MA](/stocks/ma)[[그림: ASML icon]
+MA](https://www.kraken.com/stocks/ma)[[그림: ASML icon]
 
 ASML Holding
 
-ASML](/stocks/asml)[[그림: ABBV icon]
+ASML](https://www.kraken.com/stocks/asml)[[그림: ABBV icon]
 
 AbbVie
 
-ABBV](/stocks/abbv)[[그림: COST icon]
+ABBV](https://www.kraken.com/stocks/abbv)[[그림: COST icon]
 
 Costco Wholesale
 
-COST](/stocks/cost)[CVX
+COST](https://www.kraken.com/stocks/cost)[CVX
 
 [그림: CVX icon]
 
 Chevron
 
-CVX](/stocks/cvx)[KO
+CVX](https://www.kraken.com/stocks/cvx)[KO
 
 [그림: KO icon]
 
 Coca-Cola
 
-KO](/stocks/ko)[PLTR
+KO](https://www.kraken.com/stocks/ko)[PLTR
 
 [그림: PLTR icon]
 
 Palantir Technologies
 
-PLTR](/stocks/pltr)[PG
+PLTR](https://www.kraken.com/stocks/pltr)[PG
 
 [그림: PG icon]
 
 Procter & Gamble
 
-PG](/stocks/pg)[JNJ
+PG](https://www.kraken.com/stocks/pg)[JNJ
 
 [그림: JNJ icon]
 
 Johnson & Johnson
 
-JNJ](/stocks/jnj)[XOM
+JNJ](https://www.kraken.com/stocks/jnj)[XOM
 
 [그림: XOM icon]
 
 ExxonMobil Holdings
 
-XOM](/stocks/xom)[MA
+XOM](https://www.kraken.com/stocks/xom)[MA
 
 [그림: MA icon]
 
 Mastercard
 
-MA](/stocks/ma)[ASML
+MA](https://www.kraken.com/stocks/ma)[ASML
 
 [그림: ASML icon]
 
 ASML Holding
 
-ASML](/stocks/asml)[ABBV
+ASML](https://www.kraken.com/stocks/asml)[ABBV
 
 [그림: ABBV icon]
 
 AbbVie
 
-ABBV](/stocks/abbv)[COST
+ABBV](https://www.kraken.com/stocks/abbv)[COST
 
 [그림: COST icon]
 
 Costco Wholesale
 
-COST](/stocks/cost)[CVX
+COST](https://www.kraken.com/stocks/cost)[CVX
 
 [그림: CVX icon]
 
 Chevron
 
-CVX](/stocks/cvx)[KO
+CVX](https://www.kraken.com/stocks/cvx)[KO
 
 [그림: KO icon]
 
 Coca-Cola
 
-KO](/stocks/ko)[PLTR
+KO](https://www.kraken.com/stocks/ko)[PLTR
 
 [그림: PLTR icon]
 
 Palantir Technologies
 
-PLTR](/stocks/pltr)[PG
+PLTR](https://www.kraken.com/stocks/pltr)[PG
 
 [그림: PG icon]
 
 Procter & Gamble
 
-PG](/stocks/pg)
+PG](https://www.kraken.com/stocks/pg)
 
 [JNJ
 
@@ -663,233 +665,233 @@ PG](/stocks/pg)
 
 Johnson & Johnson
 
-JNJ](/stocks/jnj)[XOM
+JNJ](https://www.kraken.com/stocks/jnj)[XOM
 
 [그림: XOM icon]
 
 ExxonMobil Holdings
 
-XOM](/stocks/xom)[MA
+XOM](https://www.kraken.com/stocks/xom)[MA
 
 [그림: MA icon]
 
 Mastercard
 
-MA](/stocks/ma)[ASML
+MA](https://www.kraken.com/stocks/ma)[ASML
 
 [그림: ASML icon]
 
 ASML Holding
 
-ASML](/stocks/asml)[ABBV
+ASML](https://www.kraken.com/stocks/asml)[ABBV
 
 [그림: ABBV icon]
 
 AbbVie
 
-ABBV](/stocks/abbv)[COST
+ABBV](https://www.kraken.com/stocks/abbv)[COST
 
 [그림: COST icon]
 
 Costco Wholesale
 
-COST](/stocks/cost)[CVX
+COST](https://www.kraken.com/stocks/cost)[CVX
 
 [그림: CVX icon]
 
 Chevron
 
-CVX](/stocks/cvx)[KO
+CVX](https://www.kraken.com/stocks/cvx)[KO
 
 [그림: KO icon]
 
 Coca-Cola
 
-KO](/stocks/ko)[PLTR
+KO](https://www.kraken.com/stocks/ko)[PLTR
 
 [그림: PLTR icon]
 
 Palantir Technologies
 
-PLTR](/stocks/pltr)[PG
+PLTR](https://www.kraken.com/stocks/pltr)[PG
 
 [그림: PG icon]
 
 Procter & Gamble
 
-PG](/stocks/pg)[JNJ
+PG](https://www.kraken.com/stocks/pg)[JNJ
 
 [그림: JNJ icon]
 
 Johnson & Johnson
 
-JNJ](/stocks/jnj)[XOM
+JNJ](https://www.kraken.com/stocks/jnj)[XOM
 
 [그림: XOM icon]
 
 ExxonMobil Holdings
 
-XOM](/stocks/xom)[MA
+XOM](https://www.kraken.com/stocks/xom)[MA
 
 [그림: MA icon]
 
 Mastercard
 
-MA](/stocks/ma)[ASML
+MA](https://www.kraken.com/stocks/ma)[ASML
 
 [그림: ASML icon]
 
 ASML Holding
 
-ASML](/stocks/asml)[ABBV
+ASML](https://www.kraken.com/stocks/asml)[ABBV
 
 [그림: ABBV icon]
 
 AbbVie
 
-ABBV](/stocks/abbv)[COST
+ABBV](https://www.kraken.com/stocks/abbv)[COST
 
 [그림: COST icon]
 
 Costco Wholesale
 
-COST](/stocks/cost)[CVX
+COST](https://www.kraken.com/stocks/cost)[CVX
 
 [그림: CVX icon]
 
 Chevron
 
-CVX](/stocks/cvx)[KO
+CVX](https://www.kraken.com/stocks/cvx)[KO
 
 [그림: KO icon]
 
 Coca-Cola
 
-KO](/stocks/ko)[PLTR
+KO](https://www.kraken.com/stocks/ko)[PLTR
 
 [그림: PLTR icon]
 
 Palantir Technologies
 
-PLTR](/stocks/pltr)[PG
+PLTR](https://www.kraken.com/stocks/pltr)[PG
 
 [그림: PG icon]
 
 Procter & Gamble
 
-PG](/stocks/pg)
+PG](https://www.kraken.com/stocks/pg)
 
 [[그림: ORCL icon]
 
 Oracle
 
-ORCL](/stocks/orcl)[[그림: CSCO icon]
+ORCL](https://www.kraken.com/stocks/orcl)[[그림: CSCO icon]
 
 Cisco Systems
 
-CSCO](/stocks/csco)[[그림: UNH icon]
+CSCO](https://www.kraken.com/stocks/csco)[[그림: UNH icon]
 
 UnitedHealth Group
 
-UNH](/stocks/unh)[[그림: MRK icon]
+UNH](https://www.kraken.com/stocks/unh)[[그림: MRK icon]
 
 Merck & Co
 
-MRK](/stocks/mrk)[[그림: BAC icon]
+MRK](https://www.kraken.com/stocks/mrk)[[그림: BAC icon]
 
 Bank of America
 
-BAC](/stocks/bac)[HD
+BAC](https://www.kraken.com/stocks/bac)[HD
 
 [그림: HD icon]
 
 Home Depot
 
-HD](/stocks/hd)[GE
+HD](https://www.kraken.com/stocks/hd)[GE
 
 [그림: GE icon]
 
 GE Aerospace
 
-GE](/stocks/ge)[PM
+GE](https://www.kraken.com/stocks/ge)[PM
 
 [그림: PM icon]
 
 Philip Morris Intl
 
-PM](/stocks/pm)[HSBC
+PM](https://www.kraken.com/stocks/pm)[HSBC
 
 [그림: HSBC icon]
 
 HSBC Holdings
 
-HSBC](/stocks/hsbc)[NVS
+HSBC](https://www.kraken.com/stocks/hsbc)[NVS
 
 [그림: NVS icon]
 
 Novartis
 
-NVS](/stocks/nvs)[ORCL
+NVS](https://www.kraken.com/stocks/nvs)[ORCL
 
 [그림: ORCL icon]
 
 Oracle
 
-ORCL](/stocks/orcl)[CSCO
+ORCL](https://www.kraken.com/stocks/orcl)[CSCO
 
 [그림: CSCO icon]
 
 Cisco Systems
 
-CSCO](/stocks/csco)[UNH
+CSCO](https://www.kraken.com/stocks/csco)[UNH
 
 [그림: UNH icon]
 
 UnitedHealth Group
 
-UNH](/stocks/unh)[MRK
+UNH](https://www.kraken.com/stocks/unh)[MRK
 
 [그림: MRK icon]
 
 Merck & Co
 
-MRK](/stocks/mrk)[BAC
+MRK](https://www.kraken.com/stocks/mrk)[BAC
 
 [그림: BAC icon]
 
 Bank of America
 
-BAC](/stocks/bac)[HD
+BAC](https://www.kraken.com/stocks/bac)[HD
 
 [그림: HD icon]
 
 Home Depot
 
-HD](/stocks/hd)[GE
+HD](https://www.kraken.com/stocks/hd)[GE
 
 [그림: GE icon]
 
 GE Aerospace
 
-GE](/stocks/ge)[PM
+GE](https://www.kraken.com/stocks/ge)[PM
 
 [그림: PM icon]
 
 Philip Morris Intl
 
-PM](/stocks/pm)[HSBC
+PM](https://www.kraken.com/stocks/pm)[HSBC
 
 [그림: HSBC icon]
 
 HSBC Holdings
 
-HSBC](/stocks/hsbc)[NVS
+HSBC](https://www.kraken.com/stocks/hsbc)[NVS
 
 [그림: NVS icon]
 
 Novartis
 
-NVS](/stocks/nvs)
+NVS](https://www.kraken.com/stocks/nvs)
 
 [ORCL
 
@@ -897,119 +899,119 @@ NVS](/stocks/nvs)
 
 Oracle
 
-ORCL](/stocks/orcl)[CSCO
+ORCL](https://www.kraken.com/stocks/orcl)[CSCO
 
 [그림: CSCO icon]
 
 Cisco Systems
 
-CSCO](/stocks/csco)[UNH
+CSCO](https://www.kraken.com/stocks/csco)[UNH
 
 [그림: UNH icon]
 
 UnitedHealth Group
 
-UNH](/stocks/unh)[MRK
+UNH](https://www.kraken.com/stocks/unh)[MRK
 
 [그림: MRK icon]
 
 Merck & Co
 
-MRK](/stocks/mrk)[BAC
+MRK](https://www.kraken.com/stocks/mrk)[BAC
 
 [그림: BAC icon]
 
 Bank of America
 
-BAC](/stocks/bac)[HD
+BAC](https://www.kraken.com/stocks/bac)[HD
 
 [그림: HD icon]
 
 Home Depot
 
-HD](/stocks/hd)[GE
+HD](https://www.kraken.com/stocks/hd)[GE
 
 [그림: GE icon]
 
 GE Aerospace
 
-GE](/stocks/ge)[PM
+GE](https://www.kraken.com/stocks/ge)[PM
 
 [그림: PM icon]
 
 Philip Morris Intl
 
-PM](/stocks/pm)[HSBC
+PM](https://www.kraken.com/stocks/pm)[HSBC
 
 [그림: HSBC icon]
 
 HSBC Holdings
 
-HSBC](/stocks/hsbc)[NVS
+HSBC](https://www.kraken.com/stocks/hsbc)[NVS
 
 [그림: NVS icon]
 
 Novartis
 
-NVS](/stocks/nvs)[ORCL
+NVS](https://www.kraken.com/stocks/nvs)[ORCL
 
 [그림: ORCL icon]
 
 Oracle
 
-ORCL](/stocks/orcl)[CSCO
+ORCL](https://www.kraken.com/stocks/orcl)[CSCO
 
 [그림: CSCO icon]
 
 Cisco Systems
 
-CSCO](/stocks/csco)[UNH
+CSCO](https://www.kraken.com/stocks/csco)[UNH
 
 [그림: UNH icon]
 
 UnitedHealth Group
 
-UNH](/stocks/unh)[MRK
+UNH](https://www.kraken.com/stocks/unh)[MRK
 
 [그림: MRK icon]
 
 Merck & Co
 
-MRK](/stocks/mrk)[BAC
+MRK](https://www.kraken.com/stocks/mrk)[BAC
 
 [그림: BAC icon]
 
 Bank of America
 
-BAC](/stocks/bac)[HD
+BAC](https://www.kraken.com/stocks/bac)[HD
 
 [그림: HD icon]
 
 Home Depot
 
-HD](/stocks/hd)[GE
+HD](https://www.kraken.com/stocks/hd)[GE
 
 [그림: GE icon]
 
 GE Aerospace
 
-GE](/stocks/ge)[PM
+GE](https://www.kraken.com/stocks/ge)[PM
 
 [그림: PM icon]
 
 Philip Morris Intl
 
-PM](/stocks/pm)[HSBC
+PM](https://www.kraken.com/stocks/pm)[HSBC
 
 [그림: HSBC icon]
 
 HSBC Holdings
 
-HSBC](/stocks/hsbc)[[그림: NVS icon]
+HSBC](https://www.kraken.com/stocks/hsbc)[[그림: NVS icon]
 
 Novartis
 
-NVS](/stocks/nvs)
+NVS](https://www.kraken.com/stocks/nvs)
 
 [VOO
 
@@ -1017,121 +1019,121 @@ NVS](/stocks/nvs)
 
 Vanguard S&P 500 ETF
 
-VOO](/stocks/voo)[IVV
+VOO](https://www.kraken.com/stocks/voo)[IVV
 
 [그림: IVV icon]
 
 iShares Core S&P 500 ETF
 
-IVV](/stocks/ivv)[SPY
+IVV](https://www.kraken.com/stocks/ivv)[SPY
 
 [그림: SPY icon]
 
 SPDR S&P 500 ETF
 
-SPY](/stocks/spy)[VTI
+SPY](https://www.kraken.com/stocks/spy)[VTI
 
 [그림: VTI icon]
 
 Vanguard Morningstar Total Stock Market ETF
 
-VTI](/stocks/vti)[QQQ
+VTI](https://www.kraken.com/stocks/vti)[QQQ
 
 [그림: QQQ icon]
 
 Invesco Nasdaq ETF
 
-QQQ](/stocks/qqq)[VEA
+QQQ](https://www.kraken.com/stocks/qqq)[VEA
 
 [그림: VEA icon]
 
 Vanguard FTSE Developed Markets ETF
 
-VEA](/stocks/vea)[VUG
+VEA](https://www.kraken.com/stocks/vea)[VUG
 
 [그림: VUG icon]
 
 Vanguard Morningstar Growth ETF
 
-VUG](/stocks/vug)[VTV
+VUG](https://www.kraken.com/stocks/vug)[VTV
 
 [그림: VTV icon]
 
 Vanguard Morningstar Value ETF
 
-VTV](/stocks/vtv)[IEFA
+VTV](https://www.kraken.com/stocks/vtv)[IEFA
 
 [그림: IEFA icon]
 
 iShares Core MSCI EAFE ETF
 
-IEFA](/stocks/iefa)[SPYM
+IEFA](https://www.kraken.com/stocks/iefa)[SPYM
 
 [그림: SPYM icon]
 
 State Street SPDR Portfolio S&P 500 ETF
 
-SPYM](/stocks/spym)[VOO
+SPYM](https://www.kraken.com/stocks/spym)[VOO
 
 [그림: VOO icon]
 
 Vanguard S&P 500 ETF
 
-VOO](/stocks/voo)[IVV
+VOO](https://www.kraken.com/stocks/voo)[IVV
 
 [그림: IVV icon]
 
 iShares Core S&P 500 ETF
 
-IVV](/stocks/ivv)[SPY
+IVV](https://www.kraken.com/stocks/ivv)[SPY
 
 [그림: SPY icon]
 
 SPDR S&P 500 ETF
 
-SPY](/stocks/spy)[VTI
+SPY](https://www.kraken.com/stocks/spy)[VTI
 
 [그림: VTI icon]
 
 Vanguard Morningstar Total Stock Market ETF
 
-VTI](/stocks/vti)[QQQ
+VTI](https://www.kraken.com/stocks/vti)[QQQ
 
 [그림: QQQ icon]
 
 Invesco Nasdaq ETF
 
-QQQ](/stocks/qqq)[VEA
+QQQ](https://www.kraken.com/stocks/qqq)[VEA
 
 [그림: VEA icon]
 
 Vanguard FTSE Developed Markets ETF
 
-VEA](/stocks/vea)[VUG
+VEA](https://www.kraken.com/stocks/vea)[VUG
 
 [그림: VUG icon]
 
 Vanguard Morningstar Growth ETF
 
-VUG](/stocks/vug)[VTV
+VUG](https://www.kraken.com/stocks/vug)[VTV
 
 [그림: VTV icon]
 
 Vanguard Morningstar Value ETF
 
-VTV](/stocks/vtv)[IEFA
+VTV](https://www.kraken.com/stocks/vtv)[IEFA
 
 [그림: IEFA icon]
 
 iShares Core MSCI EAFE ETF
 
-IEFA](/stocks/iefa)[SPYM
+IEFA](https://www.kraken.com/stocks/iefa)[SPYM
 
 [그림: SPYM icon]
 
 State Street SPDR Portfolio S&P 500 ETF
 
-SPYM](/stocks/spym)
+SPYM](https://www.kraken.com/stocks/spym)
 
 [VOO
 
@@ -1139,121 +1141,121 @@ SPYM](/stocks/spym)
 
 Vanguard S&P 500 ETF
 
-VOO](/stocks/voo)[IVV
+VOO](https://www.kraken.com/stocks/voo)[IVV
 
 [그림: IVV icon]
 
 iShares Core S&P 500 ETF
 
-IVV](/stocks/ivv)[SPY
+IVV](https://www.kraken.com/stocks/ivv)[SPY
 
 [그림: SPY icon]
 
 SPDR S&P 500 ETF
 
-SPY](/stocks/spy)[VTI
+SPY](https://www.kraken.com/stocks/spy)[VTI
 
 [그림: VTI icon]
 
 Vanguard Morningstar Total Stock Market ETF
 
-VTI](/stocks/vti)[QQQ
+VTI](https://www.kraken.com/stocks/vti)[QQQ
 
 [그림: QQQ icon]
 
 Invesco Nasdaq ETF
 
-QQQ](/stocks/qqq)[VEA
+QQQ](https://www.kraken.com/stocks/qqq)[VEA
 
 [그림: VEA icon]
 
 Vanguard FTSE Developed Markets ETF
 
-VEA](/stocks/vea)[VUG
+VEA](https://www.kraken.com/stocks/vea)[VUG
 
 [그림: VUG icon]
 
 Vanguard Morningstar Growth ETF
 
-VUG](/stocks/vug)[VTV
+VUG](https://www.kraken.com/stocks/vug)[VTV
 
 [그림: VTV icon]
 
 Vanguard Morningstar Value ETF
 
-VTV](/stocks/vtv)[IEFA
+VTV](https://www.kraken.com/stocks/vtv)[IEFA
 
 [그림: IEFA icon]
 
 iShares Core MSCI EAFE ETF
 
-IEFA](/stocks/iefa)[SPYM
+IEFA](https://www.kraken.com/stocks/iefa)[SPYM
 
 [그림: SPYM icon]
 
 State Street SPDR Portfolio S&P 500 ETF
 
-SPYM](/stocks/spym)[VOO
+SPYM](https://www.kraken.com/stocks/spym)[VOO
 
 [그림: VOO icon]
 
 Vanguard S&P 500 ETF
 
-VOO](/stocks/voo)[IVV
+VOO](https://www.kraken.com/stocks/voo)[IVV
 
 [그림: IVV icon]
 
 iShares Core S&P 500 ETF
 
-IVV](/stocks/ivv)[SPY
+IVV](https://www.kraken.com/stocks/ivv)[SPY
 
 [그림: SPY icon]
 
 SPDR S&P 500 ETF
 
-SPY](/stocks/spy)[VTI
+SPY](https://www.kraken.com/stocks/spy)[VTI
 
 [그림: VTI icon]
 
 Vanguard Morningstar Total Stock Market ETF
 
-VTI](/stocks/vti)[QQQ
+VTI](https://www.kraken.com/stocks/vti)[QQQ
 
 [그림: QQQ icon]
 
 Invesco Nasdaq ETF
 
-QQQ](/stocks/qqq)[VEA
+QQQ](https://www.kraken.com/stocks/qqq)[VEA
 
 [그림: VEA icon]
 
 Vanguard FTSE Developed Markets ETF
 
-VEA](/stocks/vea)[VUG
+VEA](https://www.kraken.com/stocks/vea)[VUG
 
 [그림: VUG icon]
 
 Vanguard Morningstar Growth ETF
 
-VUG](/stocks/vug)[VTV
+VUG](https://www.kraken.com/stocks/vug)[VTV
 
 [그림: VTV icon]
 
 Vanguard Morningstar Value ETF
 
-VTV](/stocks/vtv)[IEFA
+VTV](https://www.kraken.com/stocks/vtv)[IEFA
 
 [그림: IEFA icon]
 
 iShares Core MSCI EAFE ETF
 
-IEFA](/stocks/iefa)[SPYM
+IEFA](https://www.kraken.com/stocks/iefa)[SPYM
 
 [그림: SPYM icon]
 
 State Street SPDR Portfolio S&P 500 ETF
 
-SPYM](/stocks/spym)
+SPYM](https://www.kraken.com/stocks/spym)
 
 [BND
 
@@ -1261,121 +1263,121 @@ SPYM](/stocks/spym)
 
 Vanguard Total Bond Market ETF
 
-BND](/stocks/bnd)[VXUS
+BND](https://www.kraken.com/stocks/bnd)[VXUS
 
 [그림: VXUS icon]
 
 Vanguard Total International Stock ETF
 
-VXUS](/stocks/vxus)[IEMG
+VXUS](https://www.kraken.com/stocks/vxus)[IEMG
 
 [그림: IEMG icon]
 
 iShares Core MSCI Emerging Markets ETF
 
-IEMG](/stocks/iemg)[AGG
+IEMG](https://www.kraken.com/stocks/iemg)[AGG
 
 [그림: AGG icon]
 
 iShares Core U.S. Aggregate Bond ETF
 
-AGG](/stocks/agg)[VGT
+AGG](https://www.kraken.com/stocks/agg)[VGT
 
 [그림: VGT icon]
 
 Vanguard Information Technology ETF
 
-VGT](/stocks/vgt)[GLD
+VGT](https://www.kraken.com/stocks/vgt)[GLD
 
 [그림: GLD icon]
 
 SPDR Gold Shares
 
-GLD](/stocks/gld)[SCHD
+GLD](https://www.kraken.com/stocks/gld)[SCHD
 
 [그림: SCHD icon]
 
 Schwab US Dividend Equity ETF
 
-SCHD](/stocks/schd)[IJH
+SCHD](https://www.kraken.com/stocks/schd)[IJH
 
 [그림: IJH icon]
 
 iShares Core S&P Mid-Cap ETF
 
-IJH](/stocks/ijh)[VIG
+IJH](https://www.kraken.com/stocks/ijh)[VIG
 
 [그림: VIG icon]
 
 Vanguard Dividend Appreciation FTF
 
-VIG](/stocks/vig)[SGOV
+VIG](https://www.kraken.com/stocks/vig)[SGOV
 
 [그림: SGOV icon]
 
 iShares 0-3 Month Treasury Bond ETF
 
-SGOV](/stocks/sgov)[BND
+SGOV](https://www.kraken.com/stocks/sgov)[BND
 
 [그림: BND icon]
 
 Vanguard Total Bond Market ETF
 
-BND](/stocks/bnd)[VXUS
+BND](https://www.kraken.com/stocks/bnd)[VXUS
 
 [그림: VXUS icon]
 
 Vanguard Total International Stock ETF
 
-VXUS](/stocks/vxus)[IEMG
+VXUS](https://www.kraken.com/stocks/vxus)[IEMG
 
 [그림: IEMG icon]
 
 iShares Core MSCI Emerging Markets ETF
 
-IEMG](/stocks/iemg)[AGG
+IEMG](https://www.kraken.com/stocks/iemg)[AGG
 
 [그림: AGG icon]
 
 iShares Core U.S. Aggregate Bond ETF
 
-AGG](/stocks/agg)[VGT
+AGG](https://www.kraken.com/stocks/agg)[VGT
 
 [그림: VGT icon]
 
 Vanguard Information Technology ETF
 
-VGT](/stocks/vgt)[GLD
+VGT](https://www.kraken.com/stocks/vgt)[GLD
 
 [그림: GLD icon]
 
 SPDR Gold Shares
 
-GLD](/stocks/gld)[SCHD
+GLD](https://www.kraken.com/stocks/gld)[SCHD
 
 [그림: SCHD icon]
 
 Schwab US Dividend Equity ETF
 
-SCHD](/stocks/schd)[IJH
+SCHD](https://www.kraken.com/stocks/schd)[IJH
 
 [그림: IJH icon]
 
 iShares Core S&P Mid-Cap ETF
 
-IJH](/stocks/ijh)[VIG
+IJH](https://www.kraken.com/stocks/ijh)[VIG
 
 [그림: VIG icon]
 
 Vanguard Dividend Appreciation FTF
 
-VIG](/stocks/vig)[SGOV
+VIG](https://www.kraken.com/stocks/vig)[SGOV
 
 [그림: SGOV icon]
 
 iShares 0-3 Month Treasury Bond ETF
 
-SGOV](/stocks/sgov)
+SGOV](https://www.kraken.com/stocks/sgov)
 
 [BND
 
@@ -1383,121 +1385,121 @@ SGOV](/stocks/sgov)
 
 Vanguard Total Bond Market ETF
 
-BND](/stocks/bnd)[VXUS
+BND](https://www.kraken.com/stocks/bnd)[VXUS
 
 [그림: VXUS icon]
 
 Vanguard Total International Stock ETF
 
-VXUS](/stocks/vxus)[IEMG
+VXUS](https://www.kraken.com/stocks/vxus)[IEMG
 
 [그림: IEMG icon]
 
 iShares Core MSCI Emerging Markets ETF
 
-IEMG](/stocks/iemg)[AGG
+IEMG](https://www.kraken.com/stocks/iemg)[AGG
 
 [그림: AGG icon]
 
 iShares Core U.S. Aggregate Bond ETF
 
-AGG](/stocks/agg)[VGT
+AGG](https://www.kraken.com/stocks/agg)[VGT
 
 [그림: VGT icon]
 
 Vanguard Information Technology ETF
 
-VGT](/stocks/vgt)[GLD
+VGT](https://www.kraken.com/stocks/vgt)[GLD
 
 [그림: GLD icon]
 
 SPDR Gold Shares
 
-GLD](/stocks/gld)[SCHD
+GLD](https://www.kraken.com/stocks/gld)[SCHD
 
 [그림: SCHD icon]
 
 Schwab US Dividend Equity ETF
 
-SCHD](/stocks/schd)[IJH
+SCHD](https://www.kraken.com/stocks/schd)[IJH
 
 [그림: IJH icon]
 
 iShares Core S&P Mid-Cap ETF
 
-IJH](/stocks/ijh)[VIG
+IJH](https://www.kraken.com/stocks/ijh)[VIG
 
 [그림: VIG icon]
 
 Vanguard Dividend Appreciation FTF
 
-VIG](/stocks/vig)[SGOV
+VIG](https://www.kraken.com/stocks/vig)[SGOV
 
 [그림: SGOV icon]
 
 iShares 0-3 Month Treasury Bond ETF
 
-SGOV](/stocks/sgov)[BND
+SGOV](https://www.kraken.com/stocks/sgov)[BND
 
 [그림: BND icon]
 
 Vanguard Total Bond Market ETF
 
-BND](/stocks/bnd)[VXUS
+BND](https://www.kraken.com/stocks/bnd)[VXUS
 
 [그림: VXUS icon]
 
 Vanguard Total International Stock ETF
 
-VXUS](/stocks/vxus)[IEMG
+VXUS](https://www.kraken.com/stocks/vxus)[IEMG
 
 [그림: IEMG icon]
 
 iShares Core MSCI Emerging Markets ETF
 
-IEMG](/stocks/iemg)[AGG
+IEMG](https://www.kraken.com/stocks/iemg)[AGG
 
 [그림: AGG icon]
 
 iShares Core U.S. Aggregate Bond ETF
 
-AGG](/stocks/agg)[VGT
+AGG](https://www.kraken.com/stocks/agg)[VGT
 
 [그림: VGT icon]
 
 Vanguard Information Technology ETF
 
-VGT](/stocks/vgt)[GLD
+VGT](https://www.kraken.com/stocks/vgt)[GLD
 
 [그림: GLD icon]
 
 SPDR Gold Shares
 
-GLD](/stocks/gld)[SCHD
+GLD](https://www.kraken.com/stocks/gld)[SCHD
 
 [그림: SCHD icon]
 
 Schwab US Dividend Equity ETF
 
-SCHD](/stocks/schd)[IJH
+SCHD](https://www.kraken.com/stocks/schd)[IJH
 
 [그림: IJH icon]
 
 iShares Core S&P Mid-Cap ETF
 
-IJH](/stocks/ijh)[VIG
+IJH](https://www.kraken.com/stocks/ijh)[VIG
 
 [그림: VIG icon]
 
 Vanguard Dividend Appreciation FTF
 
-VIG](/stocks/vig)[SGOV
+VIG](https://www.kraken.com/stocks/vig)[SGOV
 
 [그림: SGOV icon]
 
 iShares 0-3 Month Treasury Bond ETF
 
-SGOV](/stocks/sgov)
+SGOV](https://www.kraken.com/stocks/sgov)
 
 [VWO
 
@@ -1505,121 +1507,121 @@ SGOV](/stocks/sgov)
 
 Vanguard FTSE Emerging Markets ETF
 
-VWO](/stocks/vwo)[IWF
+VWO](https://www.kraken.com/stocks/vwo)[IWF
 
 [그림: IWF icon]
 
 iShares Russell 1000 Growth ETF
 
-IWF](/stocks/iwf)[XLK
+IWF](https://www.kraken.com/stocks/iwf)[XLK
 
 [그림: XLK icon]
 
 State Street Technology Select Sector SPDR ETF
 
-XLK](/stocks/xlk)[VO
+XLK](https://www.kraken.com/stocks/xlk)[VO
 
 [그림: VO icon]
 
 Vanguard Morningstar Mid-Cap ETF
 
-VO](/stocks/vo)[QQQM
+VO](https://www.kraken.com/stocks/vo)[QQQM
 
 [그림: QQQM icon]
 
 Invesco NASDAQ 100 ETF
 
-QQQM](/stocks/qqqm)[IJR
+QQQM](https://www.kraken.com/stocks/qqqm)[IJR
 
 [그림: IJR icon]
 
 iShares Core S&P Small-Cap ETF
 
-IJR](/stocks/ijr)[RSP
+IJR](https://www.kraken.com/stocks/ijr)[RSP
 
 [그림: RSP icon]
 
 Invesco S&P 500 Equal Weight ETF
 
-RSP](/stocks/rsp)[ITOT
+RSP](https://www.kraken.com/stocks/rsp)[ITOT
 
 [그림: ITOT icon]
 
 iShares Core S&P Total U.S. Stock Market ETF
 
-ITOT](/stocks/itot)[IWD
+ITOT](https://www.kraken.com/stocks/itot)[IWD
 
 [그림: IWD icon]
 
 iShares Russell 1000 Value Index Fund
 
-IWD](/stocks/iwd)[BNDX
+IWD](https://www.kraken.com/stocks/iwd)[BNDX
 
 [그림: BNDX icon]
 
 Vanguard Total International Bond ETF
 
-BNDX](/stocks/bndx)[VWO
+BNDX](https://www.kraken.com/stocks/bndx)[VWO
 
 [그림: VWO icon]
 
 Vanguard FTSE Emerging Markets ETF
 
-VWO](/stocks/vwo)[IWF
+VWO](https://www.kraken.com/stocks/vwo)[IWF
 
 [그림: IWF icon]
 
 iShares Russell 1000 Growth ETF
 
-IWF](/stocks/iwf)[XLK
+IWF](https://www.kraken.com/stocks/iwf)[XLK
 
 [그림: XLK icon]
 
 State Street Technology Select Sector SPDR ETF
 
-XLK](/stocks/xlk)[VO
+XLK](https://www.kraken.com/stocks/xlk)[VO
 
 [그림: VO icon]
 
 Vanguard Morningstar Mid-Cap ETF
 
-VO](/stocks/vo)[QQQM
+VO](https://www.kraken.com/stocks/vo)[QQQM
 
 [그림: QQQM icon]
 
 Invesco NASDAQ 100 ETF
 
-QQQM](/stocks/qqqm)[IJR
+QQQM](https://www.kraken.com/stocks/qqqm)[IJR
 
 [그림: IJR icon]
 
 iShares Core S&P Small-Cap ETF
 
-IJR](/stocks/ijr)[RSP
+IJR](https://www.kraken.com/stocks/ijr)[RSP
 
 [그림: RSP icon]
 
 Invesco S&P 500 Equal Weight ETF
 
-RSP](/stocks/rsp)[ITOT
+RSP](https://www.kraken.com/stocks/rsp)[ITOT
 
 [그림: ITOT icon]
 
 iShares Core S&P Total U.S. Stock Market ETF
 
-ITOT](/stocks/itot)[IWD
+ITOT](https://www.kraken.com/stocks/itot)[IWD
 
 [그림: IWD icon]
 
 iShares Russell 1000 Value Index Fund
 
-IWD](/stocks/iwd)[BNDX
+IWD](https://www.kraken.com/stocks/iwd)[BNDX
 
 [그림: BNDX icon]
 
 Vanguard Total International Bond ETF
 
-BNDX](/stocks/bndx)
+BNDX](https://www.kraken.com/stocks/bndx)
 
 [VWO
 
@@ -1627,121 +1629,121 @@ BNDX](/stocks/bndx)
 
 Vanguard FTSE Emerging Markets ETF
 
-VWO](/stocks/vwo)[IWF
+VWO](https://www.kraken.com/stocks/vwo)[IWF
 
 [그림: IWF icon]
 
 iShares Russell 1000 Growth ETF
 
-IWF](/stocks/iwf)[XLK
+IWF](https://www.kraken.com/stocks/iwf)[XLK
 
 [그림: XLK icon]
 
 State Street Technology Select Sector SPDR ETF
 
-XLK](/stocks/xlk)[VO
+XLK](https://www.kraken.com/stocks/xlk)[VO
 
 [그림: VO icon]
 
 Vanguard Morningstar Mid-Cap ETF
 
-VO](/stocks/vo)[QQQM
+VO](https://www.kraken.com/stocks/vo)[QQQM
 
 [그림: QQQM icon]
 
 Invesco NASDAQ 100 ETF
 
-QQQM](/stocks/qqqm)[IJR
+QQQM](https://www.kraken.com/stocks/qqqm)[IJR
 
 [그림: IJR icon]
 
 iShares Core S&P Small-Cap ETF
 
-IJR](/stocks/ijr)[RSP
+IJR](https://www.kraken.com/stocks/ijr)[RSP
 
 [그림: RSP icon]
 
 Invesco S&P 500 Equal Weight ETF
 
-RSP](/stocks/rsp)[ITOT
+RSP](https://www.kraken.com/stocks/rsp)[ITOT
 
 [그림: ITOT icon]
 
 iShares Core S&P Total U.S. Stock Market ETF
 
-ITOT](/stocks/itot)[IWD
+ITOT](https://www.kraken.com/stocks/itot)[IWD
 
 [그림: IWD icon]
 
 iShares Russell 1000 Value Index Fund
 
-IWD](/stocks/iwd)[BNDX
+IWD](https://www.kraken.com/stocks/iwd)[BNDX
 
 [그림: BNDX icon]
 
 Vanguard Total International Bond ETF
 
-BNDX](/stocks/bndx)[VWO
+BNDX](https://www.kraken.com/stocks/bndx)[VWO
 
 [그림: VWO icon]
 
 Vanguard FTSE Emerging Markets ETF
 
-VWO](/stocks/vwo)[IWF
+VWO](https://www.kraken.com/stocks/vwo)[IWF
 
 [그림: IWF icon]
 
 iShares Russell 1000 Growth ETF
 
-IWF](/stocks/iwf)[XLK
+IWF](https://www.kraken.com/stocks/iwf)[XLK
 
 [그림: XLK icon]
 
 State Street Technology Select Sector SPDR ETF
 
-XLK](/stocks/xlk)[VO
+XLK](https://www.kraken.com/stocks/xlk)[VO
 
 [그림: VO icon]
 
 Vanguard Morningstar Mid-Cap ETF
 
-VO](/stocks/vo)[QQQM
+VO](https://www.kraken.com/stocks/vo)[QQQM
 
 [그림: QQQM icon]
 
 Invesco NASDAQ 100 ETF
 
-QQQM](/stocks/qqqm)[IJR
+QQQM](https://www.kraken.com/stocks/qqqm)[IJR
 
 [그림: IJR icon]
 
 iShares Core S&P Small-Cap ETF
 
-IJR](/stocks/ijr)[RSP
+IJR](https://www.kraken.com/stocks/ijr)[RSP
 
 [그림: RSP icon]
 
 Invesco S&P 500 Equal Weight ETF
 
-RSP](/stocks/rsp)[ITOT
+RSP](https://www.kraken.com/stocks/rsp)[ITOT
 
 [그림: ITOT icon]
 
 iShares Core S&P Total U.S. Stock Market ETF
 
-ITOT](/stocks/itot)[IWD
+ITOT](https://www.kraken.com/stocks/itot)[IWD
 
 [그림: IWD icon]
 
 iShares Russell 1000 Value Index Fund
 
-IWD](/stocks/iwd)[BNDX
+IWD](https://www.kraken.com/stocks/iwd)[BNDX
 
 [그림: BNDX icon]
 
 Vanguard Total International Bond ETF
 
-BNDX](/stocks/bndx)
+BNDX](https://www.kraken.com/stocks/bndx)
 
 [VYM
 
@@ -1749,121 +1751,121 @@ BNDX](/stocks/bndx)
 
 Vanguard High Dividend Yield Indx ETF
 
-VYM](/stocks/vym)[VT
+VYM](https://www.kraken.com/stocks/vym)[VT
 
 [그림: VT icon]
 
 Vanguard Total World Stock ETF
 
-VT](/stocks/vt)[VB
+VT](https://www.kraken.com/stocks/vt)[VB
 
 [그림: VB icon]
 
 Vanguard Morningstar Small-Cap ETF
 
-VB](/stocks/vb)[EFA
+VB](https://www.kraken.com/stocks/vb)[EFA
 
 [그림: EFA icon]
 
 iShares MSCI EAFE ETF
 
-EFA](/stocks/efa)[IWM
+EFA](https://www.kraken.com/stocks/efa)[IWM
 
 [그림: IWM icon]
 
 iShares Russell 2000 Index Fund
 
-IWM](/stocks/iwm)[SCHX
+IWM](https://www.kraken.com/stocks/iwm)[SCHX
 
 [그림: SCHX icon]
 
 Schwab U.S. Large-Cap ETF
 
-SCHX](/stocks/schx)[IVW
+SCHX](https://www.kraken.com/stocks/schx)[IVW
 
 [그림: IVW icon]
 
 iShares S&P 500 Growth ETF
 
-IVW](/stocks/ivw)[SCHF
+IVW](https://www.kraken.com/stocks/ivw)[SCHF
 
 [그림: SCHF icon]
 
 Schwab International Equity ETF
 
-SCHF](/stocks/schf)[VCIT
+SCHF](https://www.kraken.com/stocks/schf)[VCIT
 
 [그림: VCIT icon]
 
 Vanguard Intermediate-Term Corporate Bond ETF
 
-VCIT](/stocks/vcit)[VEU
+VCIT](https://www.kraken.com/stocks/vcit)[VEU
 
 [그림: VEU icon]
 
 Vanguard FTSE All-World ex-US ETF
 
-VEU](/stocks/veu)[VYM
+VEU](https://www.kraken.com/stocks/veu)[VYM
 
 [그림: VYM icon]
 
 Vanguard High Dividend Yield Indx ETF
 
-VYM](/stocks/vym)[VT
+VYM](https://www.kraken.com/stocks/vym)[VT
 
 [그림: VT icon]
 
 Vanguard Total World Stock ETF
 
-VT](/stocks/vt)[VB
+VT](https://www.kraken.com/stocks/vt)[VB
 
 [그림: VB icon]
 
 Vanguard Morningstar Small-Cap ETF
 
-VB](/stocks/vb)[EFA
+VB](https://www.kraken.com/stocks/vb)[EFA
 
 [그림: EFA icon]
 
 iShares MSCI EAFE ETF
 
-EFA](/stocks/efa)[IWM
+EFA](https://www.kraken.com/stocks/efa)[IWM
 
 [그림: IWM icon]
 
 iShares Russell 2000 Index Fund
 
-IWM](/stocks/iwm)[SCHX
+IWM](https://www.kraken.com/stocks/iwm)[SCHX
 
 [그림: SCHX icon]
 
 Schwab U.S. Large-Cap ETF
 
-SCHX](/stocks/schx)[IVW
+SCHX](https://www.kraken.com/stocks/schx)[IVW
 
 [그림: IVW icon]
 
 iShares S&P 500 Growth ETF
 
-IVW](/stocks/ivw)[SCHF
+IVW](https://www.kraken.com/stocks/ivw)[SCHF
 
 [그림: SCHF icon]
 
 Schwab International Equity ETF
 
-SCHF](/stocks/schf)[VCIT
+SCHF](https://www.kraken.com/stocks/schf)[VCIT
 
 [그림: VCIT icon]
 
 Vanguard Intermediate-Term Corporate Bond ETF
 
-VCIT](/stocks/vcit)[VEU
+VCIT](https://www.kraken.com/stocks/vcit)[VEU
 
 [그림: VEU icon]
 
 Vanguard FTSE All-World ex-US ETF
 
-VEU](/stocks/veu)
+VEU](https://www.kraken.com/stocks/veu)
 
 [VYM
 
@@ -1871,131 +1873,131 @@ VEU](/stocks/veu)
 
 Vanguard High Dividend Yield Indx ETF
 
-VYM](/stocks/vym)[VT
+VYM](https://www.kraken.com/stocks/vym)[VT
 
 [그림: VT icon]
 
 Vanguard Total World Stock ETF
 
-VT](/stocks/vt)[VB
+VT](https://www.kraken.com/stocks/vt)[VB
 
 [그림: VB icon]
 
 Vanguard Morningstar Small-Cap ETF
 
-VB](/stocks/vb)[EFA
+VB](https://www.kraken.com/stocks/vb)[EFA
 
 [그림: EFA icon]
 
 iShares MSCI EAFE ETF
 
-EFA](/stocks/efa)[IWM
+EFA](https://www.kraken.com/stocks/efa)[IWM
 
 [그림: IWM icon]
 
 iShares Russell 2000 Index Fund
 
-IWM](/stocks/iwm)[SCHX
+IWM](https://www.kraken.com/stocks/iwm)[SCHX
 
 [그림: SCHX icon]
 
 Schwab U.S. Large-Cap ETF
 
-SCHX](/stocks/schx)[IVW
+SCHX](https://www.kraken.com/stocks/schx)[IVW
 
 [그림: IVW icon]
 
 iShares S&P 500 Growth ETF
 
-IVW](/stocks/ivw)[SCHF
+IVW](https://www.kraken.com/stocks/ivw)[SCHF
 
 [그림: SCHF icon]
 
 Schwab International Equity ETF
 
-SCHF](/stocks/schf)[VCIT
+SCHF](https://www.kraken.com/stocks/schf)[VCIT
 
 [그림: VCIT icon]
 
 Vanguard Intermediate-Term Corporate Bond ETF
 
-VCIT](/stocks/vcit)[VEU
+VCIT](https://www.kraken.com/stocks/vcit)[VEU
 
 [그림: VEU icon]
 
 Vanguard FTSE All-World ex-US ETF
 
-VEU](/stocks/veu)[VYM
+VEU](https://www.kraken.com/stocks/veu)[VYM
 
 [그림: VYM icon]
 
 Vanguard High Dividend Yield Indx ETF
 
-VYM](/stocks/vym)[VT
+VYM](https://www.kraken.com/stocks/vym)[VT
 
 [그림: VT icon]
 
 Vanguard Total World Stock ETF
 
-VT](/stocks/vt)[VB
+VT](https://www.kraken.com/stocks/vt)[VB
 
 [그림: VB icon]
 
 Vanguard Morningstar Small-Cap ETF
 
-VB](/stocks/vb)[EFA
+VB](https://www.kraken.com/stocks/vb)[EFA
 
 [그림: EFA icon]
 
 iShares MSCI EAFE ETF
 
-EFA](/stocks/efa)[IWM
+EFA](https://www.kraken.com/stocks/efa)[IWM
 
 [그림: IWM icon]
 
 iShares Russell 2000 Index Fund
 
-IWM](/stocks/iwm)[SCHX
+IWM](https://www.kraken.com/stocks/iwm)[SCHX
 
 [그림: SCHX icon]
 
 Schwab U.S. Large-Cap ETF
 
-SCHX](/stocks/schx)[IVW
+SCHX](https://www.kraken.com/stocks/schx)[IVW
 
 [그림: IVW icon]
 
 iShares S&P 500 Growth ETF
 
-IVW](/stocks/ivw)[SCHF
+IVW](https://www.kraken.com/stocks/ivw)[SCHF
 
 [그림: SCHF icon]
 
 Schwab International Equity ETF
 
-SCHF](/stocks/schf)[VCIT
+SCHF](https://www.kraken.com/stocks/schf)[VCIT
 
 [그림: VCIT icon]
 
 Vanguard Intermediate-Term Corporate Bond ETF
 
-VCIT](/stocks/vcit)[VEU
+VCIT](https://www.kraken.com/stocks/vcit)[VEU
 
 [그림: VEU icon]
 
 Vanguard FTSE All-World ex-US ETF
 
-VEU](/stocks/veu)
+VEU](https://www.kraken.com/stocks/veu)
 
-[Trade stocks](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=/stocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a)[Trade stocks](/sign-up)
+[Trade stocks](https://app.kraken.com/JDNW)[Trade stocks](https://www.kraken.com/sign-up)
 
-[Trade stocks](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=/stocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a)[Trade stocks](/sign-up)
+[Trade stocks](https://app.kraken.com/JDNW)[Trade stocks](https://www.kraken.com/sign-up)
 
 Ready to stock up?
 
-Access stocks directly in the Kraken app,  and start trading – with zero commissions.[1](#disclaimer)
+Access stocks directly in the Kraken app,  and start trading – with zero commissions.[1](https://www.kraken.com/stocks)
 
-[Get Kraken](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=/stocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a)[Get Kraken](/sign-up)
+[Get Kraken](https://app.kraken.com/JDNW)[Get Kraken](https://www.kraken.com/sign-up)
 
 Get the **Kraken app**
 
@@ -2023,7 +2025,7 @@ How do I get started?
 
 Please visit our “Getting Started with Equities” Support article [here](https://support.kraken.com/hc/articles/getting-started-with-equities).
 
-Currently available in the U.S. only; may not be available in all states. Brokerage services are provided by Kraken Securities LLC, member FINRA/SIPC. Please view the firm’s profile, registration and background of our registered reps on <https://brokercheck.finra.org/>. Digital asset services offered by Payward Interactive, not a member of FINRA/ SIPC and not FDIC insured. This is not an offer, solicitation, inducement or advice to buy or sell securities, or open a brokerage account in any jurisdiction where Kraken Securities is not registered. All trading involves risk, including loss of your investments. View full disclosures at: [Equities Disclosures](/legal/equities) and [Crypto Risk Disclosures](/legal/disclosures).
+Currently available in the U.S. only; may not be available in all states. Brokerage services are provided by Kraken Securities LLC, member FINRA/SIPC. Please view the firm’s profile, registration and background of our registered reps on <https://brokercheck.finra.org/>. Digital asset services offered by Payward Interactive, not a member of FINRA/ SIPC and not FDIC insured. This is not an offer, solicitation, inducement or advice to buy or sell securities, or open a brokerage account in any jurisdiction where Kraken Securities is not registered. All trading involves risk, including loss of your investments. View full disclosures at: [Equities Disclosures](https://www.kraken.com/legal/equities) and [Crypto Risk Disclosures](https://www.kraken.com/legal/disclosures).
 
 1 Other fees may apply.  
 2 Lending income not guaranteed
@@ -2032,13 +2034,20 @@ Currently available in the U.S. only; may not be available in all states. Broker
 
 Buy stocks and ETFs with Kraken.
 
-[Get Kraken](https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=/stocks&original_landing=not_set&anon_id=d5c9d583-b5ba-4d59-9d4e-f903143d8863&ga_session_id=1794826134&ga_client_id=2107389273.1794826134&statsig_stable_id=fa06da73-000f-4eec-9687-afd5f1ae216a)[Get Kraken](/sign-up)
+[Get Kraken](https://app.kraken.com/JDNW)[Get Kraken](https://www.kraken.com/sign-up)
 
 [그림: Contact activity]
 
 ## 펼치거나 눌러야 보이던 내용
 
+### Who can trade stocks on Kraken? 누른 뒤
+
+- Who can trade stocks on Kraken?
 - For now, stock trading is available to US residents in eligible states. For more details, please visit our “Getting Started with Equities” support article.
+
+### How do I get started? 누른 뒤
+
+- How do I get started?
 - Please visit our “Getting Started with Equities” Support article here.
 
 ## 구조화 데이터(JSON-LD)

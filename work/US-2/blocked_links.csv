@@ -1,0 +1,6 @@
+"링크","무엇이 있는 곳인지","필요한 이유","막힌 종류","시도한 방법","필요한 조치"
+"https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment","SEC 보도자료 2026-90","면제 명령 요약과 발표일 확인","호스트 차단(WebFetch ENOTFOUND, 셸 403)","WebFetch","세션 네트워크에 www.sec.gov 허용. 명령 원문은 govinfo로 대체 확보"
+"https://www.sec.gov/files/34-106402-fact-sheet.pdf","면제 명령 팩트시트","요약 대조","호스트 차단","검색 결과로만 확인","www.sec.gov 허용"
+"https://www.sec.gov/newsroom/speeches-statements/trading-markets-121725-statement-custody-crypto-asset-securities-broker-dealers","2025-12-17 직원 성명(브로커딜러 암호자산 증권 수탁)","SPBD 이후 수탁 기준 확인","호스트 차단","미시도(같은 호스트)","www.sec.gov 허용"
+"https://www.law.cornell.edu/cfr/text/17/240.3b-16","Rule 3b-16 해설 원문","조문 대조","호스트 차단(ENOTFOUND)","WebFetch","eCFR로 대체 완료, 조치 불요"
+"https://www.wilmerhale.com/en/insights/client-alerts/20261005-the-innovation-exemption-arrives-sec-clears-a-conditional-path-for-onchain-trading-of-tokenized-nms-stocks","로펌 해설","교차 확인","호스트 차단","WebFetch","필요 시 허용"

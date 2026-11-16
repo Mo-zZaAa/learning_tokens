@@ -3,7 +3,7 @@ url: https://dinari.com/case-studies/eldora
 title: Eldora Expands Access to Tokenized U.S. Equities Across Southeast Asia
 description: By partnering with Dinari, Eldora launched regulated tokenized U.S. equities across Southeast Asia, giving investors access to more than 272 U.S. stocks and ETFs backed by real underlying shares.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 
@@ -87,3 +87,7 @@ Beyond trading activity, the partnership established a foundation for expanding 
 ## Looking to trade dShares™?
 
 [Find a partner near you](https://dinari.com/partners)
+
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+
+Cookies Settings Reject All Accept All Cookies

@@ -27,6 +27,26 @@ Ondo Stocks are not registered under the Securities Act of 1933, as amended (the
 
 [View Eligibility Restrictions](https://docs.ondo.finance/ondo-stocks/eligibility)[Back to Home](https://ondo.finance/)
 
+## 펼치거나 눌러야 보이던 내용
+
+### US Users: OUSG is available in your region 누른 뒤
+
+- Sign Up / Log In
+- About
+- Statistics
+- Pay
+- 0
+- Receive
+- 0
+- Privacy Policy
+- [*] OUSG tokens have not been registered under the US Securities Act of 1933, as amended (the "Act") or the securities or financial instrument laws of any other jurisdiction, and are available solely to persons who are accredited investors (as defined in Rule 501 of Regulation D under the Act) and qualified purchasers (as defined in Section 2(a)(51) of the US Investment Company Act of 1940, as amended (the "40 Act")). The issuer of OUSG is Ondo I LP, a Delaware (USA) limited partnership (the "Fund") is not registered as an investment company under the 40 Act or as an Alternative Investment Fund or Undertaking for Collective Investment in Transferable Securities in the European Economic Area, or under the securities or financial instrument laws of any other jurisdiction.
+- Ondo Finance Inc., a Delaware (USA) corporation, provides tokenization services to, and is also the sole member of both the general partner of the Fund and the investment adviser to the Fund, Ondo Capital Management LLC (the "Adviser"). The Adviser is a Registered Investment Adviser registered with the U.S. Securities and Exchange Commission ("SEC"). The Adviser's current written disclosure statement (Form ADV Part 2A) discussing its advisory services and fees is available upon request or at the SEC's Investment Adviser Public Disclosure website (www.adviserinfo.sec.gov). Registration as an investment adviser does not imply a certain level of skill or training. The Adviser shall not be responsible for any errors or omissions, or for the results obtained from the use of the information provided by the Adviser, the Fund or any of their respective affiliates, control persons, agents or representatives.
+- The OUSG issuer, its affiliates, their respective shareholders and members, and their respective directors, officers, employees, consultants, agents and representatives (the "Ondo Persons") do not endorse, the Ondo Persons do not make any representation or warranty whatsoever (express or implied, including but not limited to any warranty of merchantability, fitness for a particular purpose, or non-infringement) regarding, and THE ONDO PERSONS SHALL NOT HAVE ANY LIABILITY WHATSOEVER WITH RESPECT TO ANYONE'S USE OF, any third-party products, services or technologies referenced herein.
+- The communications herein are only intended for eligible purchasers of, or for actual or potential business relationships or technical integrations with respect to, OUSG. Nothing herein constitutes any offer to sell, or any solicitation of an offer to buy, any assets. Nothing herein constitutes investment, legal, tax or financial advice. Acquiring tokens involves risks. A holder of tokens may incur losses, including total loss of their purchase price. Past performance may not be (and for the tokens will not be) an indication of future results. Investors are responsible for conducting their own research, investigation, verification, checks or consultation for professional or investment advice.
+- This communication may contain forward-looking statements, including, but not limited to, statements regarding future financial performance, business strategies, or expectations for Ondo Finance's growth and development. These statements are based on management's current expectations, estimates, projections, and beliefs, and are subject to a number of risks, uncertainties, and assumptions that could cause actual results to differ materially from those anticipated. Forward-looking statements can be identified by the use of terminology such as "may," "will," "should," "expect," "intend," "plan," "anticipate," "believe," "estimate," "predict," "potential," "continue," or the negative of these terms or other similar expressions. Factors that could cause actual results to differ materially from those contemplated by the forward-looking statements include, but are not limited to, the following: economic, competitive, legal, governmental, and technological factors affecting Ondo Finance's operations, markets, products, services, and prices. Neither Ondo Finance nor any of their respective affiliates undertakes any obligation to update or revise any forward-looking statements, whether as a result of new information, future events, or otherwise, except as required by law.
+- Additional terms and restrictions apply. See docs.ondo.finance/legal/terms-of-service, https://docs.ondo.finance/qualified-access-products/ousg, https://ondo.finance/ousg, app.ondo.finance and (as applicable) the Token offering documents for details.
+- ¹ APY is generally updated each weekday, excluding holidays. APY is calculated based on the average income, net of expenses, earned over the 30 calendar days preceding and including the day that APY is updated. This yield reflects past performance. Past performance is not indicative of future results. Actual yields may vary depending on market conditions and other factors. ² Yields are generally updated each weekday, excluding holidays. 7-Day Yield is calculated based on the average income, net of expenses, earned over the 7 calendar days preceding and including the day that the 7-Day Yield is updated. 30-Day Yield is calculated based on the average income, net of expenses, earned over the 30 calendar days preceding and including the day that the 30-Day Yield is updated. These yields reflect past performance. Past performance is not indicative of future results. Actual yields may vary depending on market conditions and other factors. ³ Current Value excludes OUSG limited partnership interests represented in book-entry (non-tokenized) form. ⁴ Other Assets consists funds in transit, outstanding receivables less payables
+
 ## 구조화 데이터(JSON-LD)
 
 ```json
@@ -60,11 +80,64 @@ Ondo Stocks are not registered under the Securities Act of 1933, as amended (the
 
 [View Eligibility Restrictions](https://docs.ondo.finance/ondo-stocks/eligibility)[Back to Home](https://ondo.finance/)
 
+## 펼치거나 눌러야 보이던 내용
+
+### US Users: OUSG is available in your region 누른 뒤
+
+- Sign Up / Log In
+- About
+- Statistics
+- Pay
+- 0
+- Receive
+- 0
+- Privacy Policy
+- [*] OUSG tokens have not been registered under the US Securities Act of 1933, as amended (the "Act") or the securities or financial instrument laws of any other jurisdiction, and are available solely to persons who are accredited investors (as defined in Rule 501 of Regulation D under the Act) and qualified purchasers (as defined in Section 2(a)(51) of the US Investment Company Act of 1940, as amended (the "40 Act")). The issuer of OUSG is Ondo I LP, a Delaware (USA) limited partnership (the "Fund") is not registered as an investment company under the 40 Act or as an Alternative Investment Fund or Undertaking for Collective Investment in Transferable Securities in the European Economic Area, or under the securities or financial instrument laws of any other jurisdiction.
+- Ondo Finance Inc., a Delaware (USA) corporation, provides tokenization services to, and is also the sole member of both the general partner of the Fund and the investment adviser to the Fund, Ondo Capital Management LLC (the "Adviser"). The Adviser is a Registered Investment Adviser registered with the U.S. Securities and Exchange Commission ("SEC"). The Adviser's current written disclosure statement (Form ADV Part 2A) discussing its advisory services and fees is available upon request or at the SEC's Investment Adviser Public Disclosure website (www.adviserinfo.sec.gov). Registration as an investment adviser does not imply a certain level of skill or training. The Adviser shall not be responsible for any errors or omissions, or for the results obtained from the use of the information provided by the Adviser, the Fund or any of their respective affiliates, control persons, agents or representatives.
+- The OUSG issuer, its affiliates, their respective shareholders and members, and their respective directors, officers, employees, consultants, agents and representatives (the "Ondo Persons") do not endorse, the Ondo Persons do not make any representation or warranty whatsoever (express or implied, including but not limited to any warranty of merchantability, fitness for a particular purpose, or non-infringement) regarding, and THE ONDO PERSONS SHALL NOT HAVE ANY LIABILITY WHATSOEVER WITH RESPECT TO ANYONE'S USE OF, any third-party products, services or technologies referenced herein.
+- The communications herein are only intended for eligible purchasers of, or for actual or potential business relationships or technical integrations with respect to, OUSG. Nothing herein constitutes any offer to sell, or any solicitation of an offer to buy, any assets. Nothing herein constitutes investment, legal, tax or financial advice. Acquiring tokens involves risks. A holder of tokens may incur losses, including total loss of their purchase price. Past performance may not be (and for the tokens will not be) an indication of future results. Investors are responsible for conducting their own research, investigation, verification, checks or consultation for professional or investment advice.
+- This communication may contain forward-looking statements, including, but not limited to, statements regarding future financial performance, business strategies, or expectations for Ondo Finance's growth and development. These statements are based on management's current expectations, estimates, projections, and beliefs, and are subject to a number of risks, uncertainties, and assumptions that could cause actual results to differ materially from those anticipated. Forward-looking statements can be identified by the use of terminology such as "may," "will," "should," "expect," "intend," "plan," "anticipate," "believe," "estimate," "predict," "potential," "continue," or the negative of these terms or other similar expressions. Factors that could cause actual results to differ materially from those contemplated by the forward-looking statements include, but are not limited to, the following: economic, competitive, legal, governmental, and technological factors affecting Ondo Finance's operations, markets, products, services, and prices. Neither Ondo Finance nor any of their respective affiliates undertakes any obligation to update or revise any forward-looking statements, whether as a result of new information, future events, or otherwise, except as required by law.
+- Additional terms and restrictions apply. See docs.ondo.finance/legal/terms-of-service, https://docs.ondo.finance/qualified-access-products/ousg, https://ondo.finance/ousg, app.ondo.finance and (as applicable) the Token offering documents for details.
+- ¹ APY is generally updated each weekday, excluding holidays. APY is calculated based on the average income, net of expenses, earned over the 30 calendar days preceding and including the day that APY is updated. This yield reflects past performance. Past performance is not indicative of future results. Actual yields may vary depending on market conditions and other factors. ² Yields are generally updated each weekday, excluding holidays. 7-Day Yield is calculated based on the average income, net of expenses, earned over the 7 calendar days preceding and including the day that the 7-Day Yield is updated. 30-Day Yield is calculated based on the average income, net of expenses, earned over the 30 calendar days preceding and including the day that the 30-Day Yield is updated. These yields reflect past performance. Past performance is not indicative of future results. Actual yields may vary depending on market conditions and other factors. ³ Current Value excludes OUSG limited partnership interests represented in book-entry (non-tokenized) form. ⁴ Other Assets consists funds in transit, outstanding receivables less payables
+
 ## 구조화 데이터(JSON-LD)
 
 ```json
 {"@context":"https://schema.org","@graph":[{"@type":"WebApplication","@id":"https://app.ondo.finance/#webapp","name":"Ondo","url":"https://app.ondo.finance","applicationCategory":"FinanceApplication","operatingSystem":"Web browser","description":"Ondo is the platform for qualified users to buy and sell tokenized stocks, ETFs, and Treasuries onchain.","publisher":{"@id":"https://ondo.finance/#organization"}}]}
 {"@context":"https://schema.org","@graph":[{"@type":"FinancialProduct","name":"SATSon: Strive SATS Preferred (Ondo Tokenized)","url":"https://app.ondo.finance/assets/satson","description":"The 15.00% Series A Perpetual SATS Preferred Stock is a fixed-rate, cumulative perpetual preferred security issued by Strive, Inc., a Nevada corporation (Nasdaq: ASST) based in Dallas that describes itself as a structured finance company and institutional asset manager using Bitcoin as its capital-allocation hurdle rate. The stock has a stated amount and initial liquidation preference of $100 per share. It accrues cumulative dividends at 15.00% per year, payable when, as, and if declared, on each business day beginning November 9, 2026. It ranks junior to Strive's Variable Rate Series A Perpetual Preferred Stock (SATA) and senior to its common stock, and unlike SATA it has no target trading range. Strive may redeem all of the stock for cash if fewer than 25% of the shares originally issued remain outstanding, and holders may require repurchase after a fundamental change. The initial public offering priced on October 15, 2026 at $90 per share for 7,000,000 shares, about $630 million gross, upsized from 5,000,000 shares. Settlement is scheduled for October 20, 2026. Strive has applied to list the stock on the Nasdaq Global Market.","image":"https://cdn.ondo.finance/tokens/logos/satson_160x160.png","provider":{"@type":"Organization","name":"Ondo Finance","url":"https://ondo.finance"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Explore","item":"https://app.ondo.finance"},{"@type":"ListItem","position":2,"name":"Strive SATS Preferred","item":"https://app.ondo.finance/assets/satson"}]}]}
+```
+
+<<<PAGE https://app.ondo.finance/assets/kwebon>>>
+---
+url: https://app.ondo.finance/assets/kwebon
+title: KWEBon: KraneShares CSI China Internet ETF (Ondo Tokenized) Tokenized Stock Price & Chart | Ondo
+description: Trade tokenized KraneShares CSI China Internet ETF (Ondo Tokenized) stock (KWEBon) on Ondo. Live price, charts, and 24/7 access to tokenized equities.
+fetched: 2026-11-16
+method: render
+plan: read
+---
+
+[그림: ousg logo]
+
+US Users: OUSG is available in your region
+
+Built for institutional investors, OUSG offers exposure to short-term US Treasuries with 24/7 instant mints and redemptions. View Details
+
+###### Access Restricted
+
+# Ondo Stocks
+
+The content you are trying to access is not accessible in your jurisdiction.
+
+Ondo Stocks are not registered under the Securities Act of 1933, as amended (the "Act"). Ondo Stocks are not offered or sold in the US, to US persons (as defined in Rule 902(k) of the Act), or for the account or benefit of US persons, or in or to persons in other restricted jurisdictions.
+
+[View Eligibility Restrictions](https://docs.ondo.finance/ondo-stocks/eligibility)[Back to Home](https://ondo.finance/)
+
+## 구조화 데이터(JSON-LD)
+
+```json
+{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","@id":"https://app.ondo.finance/#webapp","name":"Ondo","url":"https://app.ondo.finance","applicationCategory":"FinanceApplication","operatingSystem":"Web browser","description":"Ondo is the platform for qualified users to buy and sell tokenized stocks, ETFs, and Treasuries onchain.","publisher":{"@id":"https://ondo.finance/#organization"}}]}
+{"@context":"https://schema.org","@graph":[{"@type":"FinancialProduct","name":"KWEBon: KraneShares CSI China Internet ETF (Ondo Tokenized)","url":"https://app.ondo.finance/assets/kwebon","description":"This fund commits at least 80% of its net assets to investments directly replicating its benchmark index, or to securities that possess similar economic attributes. The underlying index is designed to gauge the stock market returns of publicly traded companies based in China whose principal activities are in the internet and related industries. Notably, these companies are listed on exchanges outside of mainland China, a classification determined by the index's creator. The fund itself is designated as non-diversified.","image":"https://cdn.ondo.finance/tokens/logos/kwebon_160x160.png","provider":{"@type":"Organization","name":"Ondo Finance","url":"https://ondo.finance"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Explore","item":"https://app.ondo.finance"},{"@type":"ListItem","position":2,"name":"KraneShares CSI China Internet ETF","item":"https://app.ondo.finance/assets/kwebon"}]}]}
 ```
 
 <<<PAGE https://app.ondo.finance/assets/zsepon>>>
@@ -92,6 +165,16 @@ The content you are trying to access is not accessible in your jurisdiction.
 Ondo Stocks are not registered under the Securities Act of 1933, as amended (the "Act"). Ondo Stocks are not offered or sold in the US, to US persons (as defined in Rule 902(k) of the Act), or for the account or benefit of US persons, or in or to persons in other restricted jurisdictions.
 
 [View Eligibility Restrictions](https://docs.ondo.finance/ondo-stocks/eligibility)[Back to Home](https://ondo.finance/)
+
+## 펼치거나 눌러야 보이던 내용
+
+### Select language 누른 뒤
+
+- Private Client
+- English
+- 中文 (简体)
+- 中文 (繁體)
+- Español
 
 ## 구조화 데이터(JSON-LD)
 
@@ -131,6 +214,39 @@ Ondo Stocks are not registered under the Securities Act of 1933, as amended (the
 ```json
 {"@context":"https://schema.org","@graph":[{"@type":"WebApplication","@id":"https://app.ondo.finance/#webapp","name":"Ondo","url":"https://app.ondo.finance","applicationCategory":"FinanceApplication","operatingSystem":"Web browser","description":"Ondo is the platform for qualified users to buy and sell tokenized stocks, ETFs, and Treasuries onchain.","publisher":{"@id":"https://ondo.finance/#organization"}}]}
 {"@context":"https://schema.org","@graph":[{"@type":"FinancialProduct","name":"KOPNon: Kopin (Ondo Tokenized)","url":"https://app.ondo.finance/assets/kopnon","description":"Kopin Corporation, together with its subsidiaries, develops, manufactures, and sells microdisplays, subassemblies, and related components for defense, enterprise, industrial, and consumer products in the United States, the Asia-Pacific, Europe, and internationally. It offers miniature active-matrix liquid crystal displays, ferroelectric liquid crystal on silicon displays, organic light emitting diode displays, MicroLED display technologies, application specific optical solutions, backlights, and optical lenses. The company’s products are used for soldier thermal weapon rifle sights, avionic fixed and rotary wing pilot helmets, armored vehicle targeting systems, and training and simulation headsets; industrial and medical headsets; 3D optical inspection systems; and consumer augmented reality and virtual reality wearable headsets systems. Kopin Corporation was incorporated in 1984 and is headquartered in Westborough, Massachusetts.","image":"https://cdn.ondo.finance/tokens/logos/kopnon_160x160.png","provider":{"@type":"Organization","name":"Ondo Finance","url":"https://ondo.finance"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Explore","item":"https://app.ondo.finance"},{"@type":"ListItem","position":2,"name":"Kopin","item":"https://app.ondo.finance/assets/kopnon"}]}]}
+```
+
+<<<PAGE https://app.ondo.finance/assets/drson>>>
+---
+url: https://app.ondo.finance/assets/drson
+title: DRSon: Leonardo DRS (Ondo Tokenized) Tokenized Stock Price & Chart | Ondo
+description: Trade tokenized Leonardo DRS (Ondo Tokenized) stock (DRSon) on Ondo. Live price, charts, and 24/7 access to tokenized equities.
+fetched: 2026-11-16
+method: render
+plan: read
+---
+
+[그림: ousg logo]
+
+US Users: OUSG is available in your region
+
+Built for institutional investors, OUSG offers exposure to short-term US Treasuries with 24/7 instant mints and redemptions. View Details
+
+###### Access Restricted
+
+# Ondo Stocks
+
+The content you are trying to access is not accessible in your jurisdiction.
+
+Ondo Stocks are not registered under the Securities Act of 1933, as amended (the "Act"). Ondo Stocks are not offered or sold in the US, to US persons (as defined in Rule 902(k) of the Act), or for the account or benefit of US persons, or in or to persons in other restricted jurisdictions.
+
+[View Eligibility Restrictions](https://docs.ondo.finance/ondo-stocks/eligibility)[Back to Home](https://ondo.finance/)
+
+## 구조화 데이터(JSON-LD)
+
+```json
+{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","@id":"https://app.ondo.finance/#webapp","name":"Ondo","url":"https://app.ondo.finance","applicationCategory":"FinanceApplication","operatingSystem":"Web browser","description":"Ondo is the platform for qualified users to buy and sell tokenized stocks, ETFs, and Treasuries onchain.","publisher":{"@id":"https://ondo.finance/#organization"}}]}
+{"@context":"https://schema.org","@graph":[{"@type":"FinancialProduct","name":"DRSon: Leonardo DRS (Ondo Tokenized)","url":"https://app.ondo.finance/assets/drson","description":"Established in Arlington, Virginia, in 1969, Leonardo DRS, Inc. is a leading supplier of advanced defense products and technologies. The company's diverse portfolio addresses military requirements across various environments, including land, air, sea, space, and cybersecurity, with additional applications in the commercial sector. Its operations are organized into two primary divisions: Advanced Sensing and Computing, and Integrated Mission Systems. DRS provides sophisticated sensing solutions, such as infrared systems for threat identification and improving situational awareness, alongside uncooled infrared technologies and systems designed to mitigate brownout conditions. Their electronic warfare (EW) capabilities encompass airborne, vehicle-mounted, and soldier-borne systems, supported by specialized EW software, training tools, and intelligence services. Furthermore, Leonardo DRS develops essential computing systems for military platforms like ground vehicles, ships, and submarines. These offerings include robust network and data distribution applications, integrated sensor systems, and resilient networked computing infrastructure. The company also specializes in force protection, delivering solutions for counter-unmanned aerial systems (C-UAS), short-range air defense, and active protection systems. Additionally, DRS is a key provider of power management and propulsion technologies, offering systems for power control, distribution, conversion, and propulsion—including hybrid electric drive systems, energy storage solutions, gas turbine packages, nuclear instrumentation and controls, and thermal management and refrigeration equipment. Leonardo DRS serves a broad client base, which includes the U.S. military, major aerospace and defense contractors, government intelligence agencies, and international armed forces.","image":"https://cdn.ondo.finance/tokens/logos/drson_160x160.png","provider":{"@type":"Organization","name":"Ondo Finance","url":"https://ondo.finance"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Explore","item":"https://app.ondo.finance"},{"@type":"ListItem","position":2,"name":"Leonardo DRS","item":"https://app.ondo.finance/assets/drson"}]}]}
 ```
 
 <<<PAGE https://app.ondo.finance/assets/dramon>>>
@@ -212,7 +328,7 @@ Ondo Stocks are not registered under the Securities Act of 1933, as amended (the
 | https://app.ondo.finance/assets/asmlon |  |  |
 
 
-## 목록만 둔 URL 431건 (inventory.csv에서 plan=list)
+## 목록만 둔 URL 432건 (inventory.csv에서 plan=list)
 - https://app.ondo.finance/assets/corzon
 - https://app.ondo.finance/assets/rddton
 - https://app.ondo.finance/assets/vrton

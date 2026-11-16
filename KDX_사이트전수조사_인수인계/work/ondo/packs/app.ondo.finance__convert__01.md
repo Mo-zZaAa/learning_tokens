@@ -2,4 +2,4 @@
 
 
 <<<PAGE https://app.ondo.finance/convert>>>
-(본문이 https://app.ondo.finance/ 과 같아 생략)
+(본문이 https://app.ondo.finance/?tab=intelligent-portfolios&sort=most-popular&view=table 과 같아 생략)

@@ -57,87 +57,94 @@ Chart
 
 NVDANVIDIA Corporation Common Stock
 
-—
+6.79M
+
+-1.26%
+
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
 
 [그림: AMD]
 
 AMDAdvanced Micro Devices, Inc. Common Stock
 
-—
+513.82K
+
+-0.48%
+
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
 
 [그림: GOOGL]
 
 GOOGLAlphabet Inc. Class A Common Stock
 
-—
+260.96K
+
++0.62%
+
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
 
 [그림: COIN]
 
 COINCoinbase Global, Inc. Class A Common Stock
 
-—
+252.06K
 
-[그림: TSLA]
+-0.14%
 
-TSLATesla, Inc. Common Stock
-
-—
-
-[그림: AMZN]
-
-AMZNAmazon.com, Inc. Common Stock
-
-—
-
-[그림: NFLX]
-
-NFLXNetflix, Inc. Common Stock
-
-—
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
 
 S
 
 SPYETFState Street SPDR S&P 500 ETF Trust
 
-—
+225.42K
 
-[그림: AAPL]
++0.09%
 
-AAPLApple Inc. Common Stock
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
 
-—
+[그림: TSLA]
 
-[그림: PFE]
+TSLATesla, Inc. Common Stock
 
-PFEPfizer Inc.
+219.52K
 
-—
++0.60%
 
-[그림: MSFT]
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
 
-MSFTMicrosoft Corporation Common Stock
+[그림: AMZN]
 
-—
+AMZNAmazon.com, Inc. Common Stock
 
-[그림: META]
+191.3K
 
-METAMeta Platforms, Inc. Class A Common Stock
++0.45%
 
-—
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
 
-G
-
-GBTCETFGrayscale Bitcoin Trust ETF
-
-—
-
-[그림: RIOT]
-
-RIOTRiot Platforms, Inc. Common Stock
-
-—
-
-Updated: Nov 16, 2026, 5:57:30 AM ET
+Updated: Nov 16, 2026, 6:37:15 AM ET
 
 View More
 
@@ -172,3 +179,60 @@ Connect wallet
 [Market](https://app.dinari.com/)[Portfolio](https://app.dinari.com/portfolio)[Orders](https://app.dinari.com/orders)
 
 Dinari Trading App
+
+## 펼치거나 눌러야 보이던 내용
+
+### View More 누른 뒤
+
+- NVIDIA Corporation Common Stock
+- —
+- Advanced Micro Devices, Inc. Common Stock
+- —
+- Alphabet Inc. Class A Common Stock
+- —
+- Coinbase Global, Inc. Class A Common Stock
+- —
+- State Street SPDR S&P 500 ETF Trust
+- —
+- Tesla, Inc. Common Stock
+- —
+- Amazon.com, Inc. Common Stock
+- —
+- NFLX
+- Netflix, Inc. Common Stock
+- —
+- AAPL
+- Apple Inc. Common Stock
+- —
+- PFE
+- Pfizer Inc.
+- —
+- MSFT
+- Microsoft Corporation Common Stock
+- —
+- G
+- GBTC
+- ETF
+- Grayscale Bitcoin Trust ETF
+- —
+- META
+- Meta Platforms, Inc. Class A Common Stock
+- —
+- RIOT
+- Riot Platforms, Inc. Common Stock
+- —
+
+### Connect Wallet 누른 뒤
+
+- (prev close line)
+- Loading stocks...
+- Updated: Nov 16, 2026, 6:37:22 AM ET
+- No advice. Dinari Securities does not provide investment advice or recommendations. All orders are self-directed. Popular, Trending and similar lists are generated automatically by objective criteria such as volume and price change and are not recommendations. Before investing in an ETF, consider its objectives, risks, charges and expenses, described in its prospectus, available from the fund sponsor or at sec.gov. Commissions and fees apply.
+- Dinari Trading
+- Sign in with Base
+- or use another wallet
+- Coinbase Wallet
+- MetaMask
+- Phantom
+- By connecting a wallet, you agree to our
+- Terms of Service and Privacy Policy.

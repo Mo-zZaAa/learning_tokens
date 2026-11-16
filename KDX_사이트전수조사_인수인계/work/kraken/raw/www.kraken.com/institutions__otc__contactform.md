@@ -211,19 +211,63 @@ Send
 
 ## 펼치거나 눌러야 보이던 내용
 
+### What is the request-for-quote (RFQ) feature? 누른 뒤
+
+- What is the request-for-quote (RFQ) feature?
 - Automated OTC trading, offered through our request-for-quote feature (RFQ) in Kraken Pro and Kraken Custody, enables OTC clients to get automated, immediately executable quotes for supported cryptoassets.
+- Request unlimited live quotes, execute orders and settle instantly using the funds in your Kraken account.
+- Get a full overview of accepted, rejected and expired RFQ quotes, as well as your full OTC order history.
+
+### How is RFQ accessed? 누른 뒤
+
+- How is RFQ accessed?
 - RFQ is available to OTC clients. Institutional clients can access RFQ in Kraken Custody, and advanced traders can access RFQ through the OTC Portal in Kraken Pro and the Kraken Pro app.
+- Kraken Custody
 - RFQ is visible to institutional OTC clients in Kraken Custody. RFQ access, tradable assets and maximum trade amounts by vault can be customized as needed within Kraken Custody. Once RFQ is enabled and controls are set, the RFQ tab will appear for specified vault users, and supported assets will be available to trade with RFQ.
+- Kraken Custody provides OTC clients with the following features:
+- RFQ access
+- Position exposure information
+- OTC RFQ order history
+- OTC Portal in Kraken Pro
 - The OTC Portal is visible to OTC clients in Kraken Pro, offering:
+- RFQ access
+- Customized price charts based on your trading habits
+- Position exposure information
+- Full OTC order history
+- Kraken Pro app
 - RFQ is visible to OTC clients in the Kraken Pro app. When a supported cryptoasset is selected, clients can select between an exchange or OTC order type.
+- The Kraken Pro app provides OTC clients with the following features:
+- RFQ access
+- OTC spot order history
+
+### What cryptocurrencies do we support? 누른 뒤
+
+- What cryptocurrencies do we support?
+- Different assets are available depending on how you would like to trade.
 - Trade over chat:
 - All asset pairs listed on the Kraken exchange, such as BTC, ETH, SOL, MATIC, USDT and USDC (subject to geographic restrictions).
 - RFQ:
 - Kraken Pro and the Kraken Pro app: Over 20 assets,  such as BTC, ETH, SOL, MATIC, USDT and USDC (subject to geographic restrictions).
+- Kraken Custody: All assets that can be stored within Kraken Custody.
 - OTC Derivatives:
 - BTC and ETH are supported for options trading (subject to geographic restrictions).
 - OTC Derivatives services are only available to OTC clients in certain jurisdictions. Learn more about OTC Derivatives.
+
+### How do I get started? 누른 뒤
+
+- How do I get started?
+- To conduct OTC trades over RFQ only, clients must be Intermediate-level verified. To conduct OTC trades over chat, clients must be Pro-level verified.
 - Please find our verification level requirements here.
+
+### How does settlement work? 누른 뒤
+
+- How does settlement work?
+- Trade obligations must be settled within 24 hours
+- Crypto can be settled to/from your Kraken exchange wallet or sent to the external wallet of your choice
+- USD can be settled to/from your Kraken account or wired directly to your bank account
+- Other fiat currencies available for trading on Kraken must be settled to your Kraken account
+- Your settlement options:
+- Flexible settlement arrangements allow you to settle trades with your Kraken account, your bank, or an external wallet of your choice within 24 hours
 - RFQ offers a fully automated trade and settlement feature, in addition to flexible settlement (subject to eligibility):
 - Automated settlement allows you to trade and settle with your Kraken balance. Your Kraken account must be funded, and once your trade is filled your assets will be settled into your Kraken account within seconds.
 - Flexible settlement, available to eligible clients, allows you to settle trades within 24 hours via your Kraken account, bank or an external wallet.

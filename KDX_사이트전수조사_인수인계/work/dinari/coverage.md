@@ -41,11 +41,11 @@
 | docs.dinari.com | docs | 53 | 46 | 7 | 0 | 0 | 50 |
 | docs.dinari.com | changelog | 18 | 18 | 0 | 0 | 0 | 15 |
 | docs.dinari.com | user-guide | 3 | 3 | 0 | 0 | 0 | 0 |
+| docs.dinari.com | v | 2 | 2 | 0 | 0 | 0 | 0 |
 | docs.dinari.com | v2.0 | 2 | 2 | 0 | 0 | 0 | 2 |
 | docs.dinari.com | reference-link | 2 | 2 | 0 | 0 | 0 | 2 |
 | docs.dinari.com | (home) | 1 | 1 | 0 | 0 | 0 | 1 |
 | docs.dinari.com | api | 1 | 1 | 0 | 0 | 0 | 0 |
-| docs.dinari.com | v | 1 | 1 | 0 | 0 | 0 | 0 |
 | docs.dinari.com | architecture | 1 | 1 | 0 | 0 | 0 | 0 |
 | docs.dinari.com | ](https: | 1 | 1 | 0 | 0 | 0 | 0 |
 | docs.dinari.com | cdn-cgi | 1 | 0 | 0 | 0 | 1 | 0 |
@@ -65,7 +65,7 @@
 | www.dinari.com | transparency | 1 | 1 | 0 | 0 | 0 | 1 |
 | www.dinari.com | referrals | 1 | 1 | 0 | 0 | 0 | 0 |
 | www.dinari.com | ](https: | 1 | 1 | 0 | 0 | 0 | 0 |
-| 합계 |  | 463 | 324 | 14 | 0 | 125 | 308 |
+| 합계 |  | 464 | 325 | 14 | 0 | 125 | 308 |
 
 ## 수집 대기: 0건
 ## 차단: 0건

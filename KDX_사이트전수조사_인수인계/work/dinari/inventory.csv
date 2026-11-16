@@ -1,19 +1,19 @@
 url,host,locale,section,group,source,plan,status,method,chars,title,file,note
-https://dinari.com/,dinari.com,,(home),dinari.com/*,seed,read,ok,render,6708,"Dinari - API & Tokens for 1:1 Backed US Stocks, ETFs, & More",raw/dinari.com/index.md,
+https://dinari.com/,dinari.com,,(home),dinari.com/*,seed,read,ok,render,6710,"Dinari - API & Tokens for 1:1 Backed US Stocks, ETFs, & More",raw/dinari.com/index.md,이동: https://dinari.com/us
 https://dinari.com/privacy,dinari.com,,privacy,dinari.com/*,sitemap:sitemap.xml,read,ok,render,13312,Dinari Inc. Privacy Policy,raw/dinari.com/privacy.md,
 https://dinari.com/terms,dinari.com,,terms,dinari.com/*,sitemap:sitemap.xml,read,ok,render,1156,Terms and Conditions for the Dinari Tokens,raw/dinari.com/terms.md,
 https://dinari.com/blog,dinari.com,,blog,dinari.com/*,sitemap:sitemap.xml,read,ok,render,17137,Blog,raw/dinari.com/blog.md,
 https://dinari.com/terms-conditions-usdplus-stusdplus-tokens,dinari.com,,terms-conditions-usdplus-stusdplus-tokens,dinari.com/*,sitemap:sitemap.xml,read,ok,render,68282,Terms and Conditions for the Dinari USD+ and stUSD+ Tokens,raw/dinari.com/terms-conditions-usdplus-stusdplus-tokens.md,
 https://dinari.com/careers,dinari.com,,careers,dinari.com/*,sitemap:sitemap.xml,read,ok,render,1597,Careers at Dinari,raw/dinari.com/careers.md,
 https://dinari.com/contact-us,dinari.com,,contact-us,dinari.com/*,sitemap:sitemap.xml,read,ok,render,1113,Contact us,raw/dinari.com/contact-us.md,
-https://dinari.com/dshares,dinari.com,,dshares,dinari.com/*,sitemap:sitemap.xml,read,ok,render,30486,dShares™,raw/dinari.com/dshares.md,
+https://dinari.com/dshares,dinari.com,,dshares,dinari.com/*,sitemap:sitemap.xml,read,ok,render,31888,dShares™,raw/dinari.com/dshares.md,
 https://dinari.com/usdplus,dinari.com,,usdplus,dinari.com/*,sitemap:sitemap.xml,read,ok,render,1987,Stable and growing,raw/dinari.com/usdplus.md,
 https://dinari.com/money2020,dinari.com,,money2020,dinari.com/*,sitemap:sitemap.xml,read,ok,render,59651,Redeem,raw/dinari.com/money2020.md,
 https://dinari.com/spdm,dinari.com,,spdm,dinari.com/*,sitemap:sitemap.xml,read,ok,render,6609,S&P Digital Markets 50 Index,raw/dinari.com/spdm.md,
 https://dinari.com/work-with-dinari,dinari.com,,work-with-dinari,dinari.com/*,sitemap:sitemap.xml,read,ok,render,7481,Work with Dinari: Real equities. Multiple ways to participate.,raw/dinari.com/work-with-dinari.md,
 https://dinari.com/partners,dinari.com,,partners,dinari.com/*,sitemap:sitemap.xml,read,ok,render,5058,Partners,raw/dinari.com/partners.md,
 https://dinari.com/us,dinari.com,,us,dinari.com/*,sitemap:sitemap.xml,read,ok,render,2551,Home (US),raw/dinari.com/us.md,
-https://dinari.com/us/disclosures,dinari.com,,us,dinari.com/us/*,sitemap:sitemap.xml,read,ok,static,19478,Disclosures,raw/dinari.com/us__disclosures.md,
+https://dinari.com/us/disclosures,dinari.com,,us,dinari.com/us/*,sitemap:sitemap.xml,read,ok,render,19699,Disclosures,raw/dinari.com/us__disclosures.md,
 https://dinari.com/direct-indexing-portfolios,dinari.com,,direct-indexing-portfolios,dinari.com/*,sitemap:sitemap.xml,read,ok,render,4751,Direct Indexing Portfolios,raw/dinari.com/direct-indexing-portfolios.md,
 https://dinari.com/blog/12m-series-a-equities-onchain,dinari.com,,blog,dinari.com/blog/*,sitemap:sitemap.xml,read,ok,static,5220,Dinari Raises $12.7M Series A to Bring U.S. Equities Onchain for the World,raw/dinari.com/blog__12m-series-a-equities-onchain.md,
 https://dinari.com/blog/24-7-trading-is-live-with-flow-traders-and-dinari,dinari.com,,blog,dinari.com/blog/*,sitemap:sitemap.xml,read,ok,static,6505,24/7 Trading Is Live: dShares™ Now Trade Around the Clock with Flow Traders,raw/dinari.com/blog__24-7-trading-is-live-with-flow-traders-and-dinari.md,
@@ -88,19 +88,19 @@ https://dinari.com/blog/usd-plus-automatic-yield-stablecoin,dinari.com,,blog,din
 https://dinari.com/blog/usd-stusd-yield-bearing-stablecoin,dinari.com,,blog,dinari.com/blog/*,sitemap:sitemap.xml,read,ok,static,4677,USD+ and stUSD+ - Dinari's Leap into Yield-Bearing Stablecoin,raw/dinari.com/blog__usd-stusd-yield-bearing-stablecoin.md,
 https://dinari.com/blog/usdc-payouts-for-dividends,dinari.com,,blog,dinari.com/blog/*,sitemap:sitemap.xml,read,ok,static,3006,USDC Payouts for Dividends,raw/dinari.com/blog__usdc-payouts-for-dividends.md,
 https://dinari.com/blog/weve-closed-10-million-in-seed-funding-and-added-new-dshares,dinari.com,,blog,dinari.com/blog/*,sitemap:sitemap.xml,read,ok,static,3323,We've Closed $10 Million in Seed Funding and Added New dShares,raw/dinari.com/blog__weve-closed-10-million-in-seed-funding-and-added-new-dshares.md,
-https://dinari.com/case-studies/avalanche,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,static,7969,Building the Future of Tokenized Equities with Avalanche,raw/dinari.com/case-studies__avalanche.md,
-https://dinari.com/case-studies/cadana,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,static,5272,How Cadana Expanded Beyond Payroll With Tokenized U.S. Equities,raw/dinari.com/case-studies__cadana.md,
-https://dinari.com/case-studies/eldora,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,static,3407,Eldora Expands Access to Tokenized U.S. Equities Across Southeast Asia,raw/dinari.com/case-studies__eldora.md,
-https://dinari.com/case-studies/fasset,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,static,5659,How Fasset Expanded Global Investing With Tokenized U.S. Equities,raw/dinari.com/case-studies__fasset.md,
-https://dinari.com/case-studies/flow-traders,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,static,4801,Always-On Markets With Dinari's dShares™ and Flow Traders,raw/dinari.com/case-studies__flow-traders.md,
-https://dinari.com/case-studies/hyperliquid,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,static,6466,Launching SpaceX as the First Spot U.S. Equity on Hyperliquid,raw/dinari.com/case-studies__hyperliquid.md,
-https://dinari.com/case-studies/meru,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,static,7408,How Meru Expanded Its Wealth Platform With Tokenized U.S. Equities,raw/dinari.com/case-studies__meru.md,
-https://dinari.com/case-studies/offramp,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,static,6277,Building a Borderless Financial Account With Dinari's dShares™,raw/dinari.com/case-studies__offramp.md,
-https://dinari.com/case-studies/roxom,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,static,6432,How Roxom Is Bringing U.S. Public Markets Into the Bitcoin Economy With Dinari's dShares™,raw/dinari.com/case-studies__roxom.md,
-https://dinari.com/case-studies/rwax-exchange,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,static,5839,How RWAX Exchange Expanded Access to Real-World Assets With Tokenized U.S. Securities,raw/dinari.com/case-studies__rwax-exchange.md,
+https://dinari.com/case-studies/avalanche,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,render,8188,Building the Future of Tokenized Equities with Avalanche,raw/dinari.com/case-studies__avalanche.md,
+https://dinari.com/case-studies/cadana,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,render,5491,How Cadana Expanded Beyond Payroll With Tokenized U.S. Equities,raw/dinari.com/case-studies__cadana.md,
+https://dinari.com/case-studies/eldora,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,render,3626,Eldora Expands Access to Tokenized U.S. Equities Across Southeast Asia,raw/dinari.com/case-studies__eldora.md,
+https://dinari.com/case-studies/fasset,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,render,5878,How Fasset Expanded Global Investing With Tokenized U.S. Equities,raw/dinari.com/case-studies__fasset.md,
+https://dinari.com/case-studies/flow-traders,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,render,5020,Always-On Markets With Dinari's dShares™ and Flow Traders,raw/dinari.com/case-studies__flow-traders.md,
+https://dinari.com/case-studies/hyperliquid,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,render,6685,Launching SpaceX as the First Spot U.S. Equity on Hyperliquid,raw/dinari.com/case-studies__hyperliquid.md,
+https://dinari.com/case-studies/meru,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,render,7627,How Meru Expanded Its Wealth Platform With Tokenized U.S. Equities,raw/dinari.com/case-studies__meru.md,
+https://dinari.com/case-studies/offramp,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,render,6496,Building a Borderless Financial Account With Dinari's dShares™,raw/dinari.com/case-studies__offramp.md,
+https://dinari.com/case-studies/roxom,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,render,6651,How Roxom Is Bringing U.S. Public Markets Into the Bitcoin Economy With Dinari's dShares™,raw/dinari.com/case-studies__roxom.md,
+https://dinari.com/case-studies/rwax-exchange,dinari.com,,case-studies,dinari.com/case-studies/*,sitemap:sitemap.xml,read,ok,render,6058,How RWAX Exchange Expanded Access to Real-World Assets With Tokenized U.S. Securities,raw/dinari.com/case-studies__rwax-exchange.md,
 https://partners.dinari.com/,partners.dinari.com,,(home),partners.dinari.com/*,homepage,read,ok,render,662,Partner App,raw/partners.dinari.com/index.md,
 https://docs.dinari.com/,docs.dinari.com,,(home),docs.dinari.com/*,homepage,read,ok,render,12228,Quickstart,raw/docs.dinari.com/index.md,이동: https://docs.dinari.com/docs/quickstart
-https://app.dinari.com/,app.dinari.com,,(home),app.dinari.com/*,homepage,read,ok,render,2267,Dinari Trading App,raw/app.dinari.com/index.md,
+https://app.dinari.com/,app.dinari.com,,(home),app.dinari.com/*,homepage,read,ok,render,3005,Dinari Trading App,raw/app.dinari.com/index.md,
 https://www.dinari.com/terms,www.dinari.com,,terms,www.dinari.com/*,homepage,read,ok,render,1156,Terms and Conditions for the Dinari Tokens,raw/www.dinari.com/terms.md,이동: https://dinari.com/terms
 https://docs.dinari.com/docs/regional-requirements,docs.dinari.com,,docs,docs.dinari.com/docs/*,sitemap:sitemap.xml,read,ok,static,3887,Regional Requirements,raw/docs.dinari.com/docs__regional-requirements.md,
 https://docs.dinari.com/docs/us,docs.dinari.com,,docs,docs.dinari.com/docs/*,sitemap:sitemap.xml,read,ok,static,32187,US Customers,raw/docs.dinari.com/docs__us.md,
@@ -225,24 +225,24 @@ https://docs.dinari.com/changelog/v20260617-68ffb6a,docs.dinari.com,,changelog,d
 https://docs.dinari.com/changelog/v20260709-097f56a,docs.dinari.com,,changelog,docs.dinari.com/changelog/*,sitemap:sitemap.xml,read,ok,render,427,v20260709-097f56a,raw/docs.dinari.com/changelog__v20260709-097f56a.md,
 https://docs.dinari.com/docs/smart-contract-wallet-support,docs.dinari.com,,docs,docs.dinari.com/docs/*,homepage,read,ok,static,3739,Smart Contract Wallet Support,raw/docs.dinari.com/docs__smart-contract-wallet-support.md,
 https://docs.dinari.com/docs,docs.dinari.com,,docs,docs.dinari.com/*,homepage,read,ok,render,12228,Quickstart,raw/docs.dinari.com/docs.md,이동: https://docs.dinari.com/docs/quickstart
-https://app.dinari.com/transparency,app.dinari.com,,transparency,app.dinari.com/*,homepage,read,ok,render,50531,Dinari Trading App,raw/app.dinari.com/transparency.md,
+https://app.dinari.com/transparency,app.dinari.com,,transparency,app.dinari.com/*,homepage,read,ok,render,50625,Dinari Trading App,raw/app.dinari.com/transparency.md,
 https://partners.dinari.com/auth/register,partners.dinari.com,,auth,partners.dinari.com/auth/*,homepage,read,gone,,,,,404
 https://docs.dinari.com/login?redirect_uri=%2Fdocs%2Fquickstart,docs.dinari.com,,login,docs.dinari.com/*,homepage,skip,,,,,,robots.txt 수집 제외
 https://docs.dinari.com/reference,docs.dinari.com,,reference,docs.dinari.com/*,homepage,read,ok,render,7029,⚠️ Environment,raw/docs.dinari.com/reference.md,이동: https://docs.dinari.com/reference/environments
 https://docs.dinari.com/docs/error-codes,docs.dinari.com,,docs,docs.dinari.com/docs/*,homepage,read,ok,static,3703,Error Codes,raw/docs.dinari.com/docs__error-codes.md,
 https://dinari.com/bd/terms,dinari.com,,bd,dinari.com/bd/*,homepage,read,ok,pdf,113794,terms,raw/dinari.com/bd__terms.md,
 https://app.dinari.com/portfolio,app.dinari.com,,portfolio,app.dinari.com/*,homepage,read,ok,render,621,Dinari Trading App,raw/app.dinari.com/portfolio.md,
-https://app.dinari.com/trade,app.dinari.com,,trade,app.dinari.com/*,homepage,read,ok,render,925,Dinari Trading App,raw/app.dinari.com/trade.md,
+https://app.dinari.com/trade,app.dinari.com,,trade,app.dinari.com/*,homepage,read,ok,render,1170,Dinari Trading App,raw/app.dinari.com/trade.md,
 https://dinari.com/bd/privacy,dinari.com,,bd,dinari.com/bd/*,homepage,read,ok,pdf,13967,privacy,raw/dinari.com/bd__privacy.md,
 https://dinari.com/bd/crs,dinari.com,,bd,dinari.com/bd/*,homepage,read,ok,pdf,5061,crs,raw/dinari.com/bd__crs.md,특정 언어판에만 있는 페이지(bd)
 https://app.dinari.com/orders,app.dinari.com,,orders,app.dinari.com/*,homepage,read,ok,render,874,Dinari Trading App,raw/app.dinari.com/orders.md,
 https://www.dinari.com/,www.dinari.com,,(home),www.dinari.com/*,seed,read,ok,render,6708,"Dinari - API & Tokens for 1:1 Backed US Stocks, ETFs, & More",raw/www.dinari.com/index.md,이동: https://dinari.com/
-https://dinari.com/business,dinari.com,,business,dinari.com/*,link,read,ok,render,7481,Work with Dinari: Real equities. Multiple ways to participate.,raw/dinari.com/business.md,이동: https://dinari.com/work-with-dinari
+https://dinari.com/business,dinari.com,,business,dinari.com/*,link,read,ok,render,7481,Work with Dinari: Real equities. Multiple ways to participate.,raw/dinari.com/business.md,이동: https://dinari.com/work-with-dinari 이동: https://dinari.com/work-with-dinari
 https://dinari.com/cdn-cgi/l/email-protection,dinari.com,,cdn-cgi,dinari.com/cdn-cgi/l/*,link,read,gone,,,,,404
-https://sbt.dinari.com/,sbt.dinari.com,,(home),sbt.dinari.com/*,link,read,ok,render,2029,Dinari Trading App,raw/sbt.dinari.com/index.md,이동: https://app.dinari.com/
+https://sbt.dinari.com/,sbt.dinari.com,,(home),sbt.dinari.com/*,link,read,ok,render,3532,Dinari Trading App,raw/sbt.dinari.com/index.md,이동: https://app.dinari.com/ 이동: https://app.dinari.com/
 https://www.dinari.com/transparency,www.dinari.com,,transparency,www.dinari.com/*,link,read,ok,render,50540,Dinari Trading App,raw/www.dinari.com/transparency.md,이동: https://app.dinari.com/transparency
 https://docs.dinari.com/api/enterprise-guide,docs.dinari.com,,api,docs.dinari.com/api/*,link,read,gone,,,,,404
-https://usd.dinari.com/,usd.dinari.com,,(home),usd.dinari.com/*,link,read,ok,render,973,USD+ Powered by Dinari,raw/usd.dinari.com/index.md,
+https://usd.dinari.com/,usd.dinari.com,,(home),usd.dinari.com/*,link,read,ok,render,1436,USD+ Powered by Dinari,raw/usd.dinari.com/index.md,
 https://api-enterprise.sbt.dinari.com/api/v1/docs,api-enterprise.sbt.dinari.com,,api,api-enterprise.sbt.dinari.com/api/v1/*,link,read,nonhtml,,,,,application/json
 https://sbt.dinari.com/defi?actionType=0&selectedStockTokenId=14,sbt.dinari.com,,defi,sbt.dinari.com/*,link,read,ok,render,2267,Dinari Trading App,raw/sbt.dinari.com/defi_d50c1e.md,이동: https://app.dinari.com/
 https://docs.dinari.com/v/usd+-user-guide,docs.dinari.com,,v,docs.dinari.com/v/*,link,read,gone,,,,,404
@@ -250,7 +250,7 @@ https://assets.dinari.com/forms/usdplus-whitepaper.pdf,assets.dinari.com,,forms,
 https://www.dinari.com/blog/hashtags/Dinari,www.dinari.com,,blog,www.dinari.com/blog/hashtags/*,link,read,gone,,,,,404
 https://www.dinari.com/blog/hashtags/TOKEN2049,www.dinari.com,,blog,www.dinari.com/blog/hashtags/*,link,read,gone,,,,,404
 https://docs.dinari.com/architecture/contracts,docs.dinari.com,,architecture,docs.dinari.com/architecture/*,link,read,gone,,,,,404
-https://dinari.com/get-started,dinari.com,,get-started,dinari.com/*,link,read,ok,render,12228,Quickstart,raw/dinari.com/get-started.md,이동: https://docs.dinari.com/docs/quickstart
+https://dinari.com/get-started,dinari.com,,get-started,dinari.com/*,link,read,ok,render,12326,Quickstart,raw/dinari.com/get-started.md,이동: https://docs.dinari.com/docs/quickstart 이동: https://docs.dinari.com/docs/quickstart
 https://www.dinari.com/referrals,www.dinari.com,,referrals,www.dinari.com/*,link,read,gone,,,,,404
 https://www.dinari.com/post/dinari-featured-in-bloomberg-crypto,www.dinari.com,,post,www.dinari.com/post/*,link,read,ok,static,1849,Dinari Featured in Bloomberg Crypto,raw/www.dinari.com/post__dinari-featured-in-bloomberg-crypto.md,이동: https://dinari.com/blog/dinari-featured-in-bloomberg-crypto
 https://www.dinari.com/post/introducing-our-latest-product-release-with-exciting-new-features,www.dinari.com,,post,www.dinari.com/post/*,link,read,ok,static,4409,Introducing Our Latest Product Release with Exciting New Features!,raw/www.dinari.com/post__introducing-our-latest-product-release-with-exciting-new-features.md,이동: https://dinari.com/blog/introducing-our-latest-product-release-with-exciting-new-features
@@ -280,8 +280,8 @@ https://sbt.dinari.com/tokens?tokenSymbol=PG.d,sbt.dinari.com,,tokens,sbt.dinari
 https://www.dinari.com/](https:/www.dinari.com/),www.dinari.com,,](https:,www.dinari.com/](https:/www.dinari.com/*,link,read,gone,,,,,404
 https://docs.dinari.com/](https:/docs.dinari.com/),docs.dinari.com,,](https:,docs.dinari.com/](https:/docs.dinari.com/*,link,read,gone,,,,,404
 https://docs.dinari.com/user-guide/geographies,docs.dinari.com,,user-guide,docs.dinari.com/user-guide/*,link,read,gone,,,,,404
-https://dinari.com/launch,dinari.com,,launch,dinari.com/*,link,read,ok,render,5058,Partners,raw/dinari.com/launch.md,이동: https://dinari.com/partners
-https://app.dinari.com/spcx,app.dinari.com,,spcx,app.dinari.com/*,link,read,ok,render,1930,Dinari Trading App,raw/app.dinari.com/spcx.md,이동: https://app.dinari.com/tokens/019e99d6-0ad0-73b3-88d0-a8d699bde153
+https://dinari.com/launch,dinari.com,,launch,dinari.com/*,link,read,ok,render,5058,Partners,raw/dinari.com/launch.md,이동: https://dinari.com/partners 이동: https://dinari.com/partners
+https://app.dinari.com/spcx,app.dinari.com,,spcx,app.dinari.com/*,link,read,ok,render,5956,Dinari Trading App,raw/app.dinari.com/spcx.md,이동: https://app.dinari.com/tokens/019e99d6-0ad0-73b3-88d0-a8d699bde153 이동: https://app.dinari.com/tokens/019e99d6-0ad0-73b3-88d0-a8d699bde153
 https://docs.dinari.com/user-guide/stock-splits,docs.dinari.com,,user-guide,docs.dinari.com/user-guide/*,link,read,gone,,,,,404
 https://sbt.dinari.com/tokens/USFR.d,sbt.dinari.com,,tokens,sbt.dinari.com/tokens/*,link,read,ok,static,1070,Dinari Trading App,raw/sbt.dinari.com/tokens__USFR.d.md,이동: https://app.dinari.com/
 https://sbt.dinari.com/tokens/MCD.d,sbt.dinari.com,,tokens,sbt.dinari.com/tokens/*,link,read,ok,static,1070,Dinari Trading App,raw/sbt.dinari.com/tokens__MCD.d.md,이동: https://app.dinari.com/
@@ -375,7 +375,7 @@ https://docs.dinari.com/docs/troubleshooting-known-issues,docs.dinari.com,,docs,
 https://docs.dinari.com/login?redirect_uri=%2Fdocs%2Fwhat-is-dshare,docs.dinari.com,,login,docs.dinari.com/*,link,skip,,,,,,robots.txt 수집 제외
 https://docs.dinari.com/docs/blockchain-1,docs.dinari.com,,docs,docs.dinari.com/docs/*,link,skim,ok,static,6564,EVM,raw/docs.dinari.com/docs__blockchain-1.md,이동: https://docs.dinari.com/docs/usdplus-evm
 https://docs.dinari.com/login?redirect_uri=%2Fdocs%2Fwhat-is-usd,docs.dinari.com,,login,docs.dinari.com/*,link,skip,,,,,,robots.txt 수집 제외
-https://usd.dinari.com/transparency,usd.dinari.com,,transparency,usd.dinari.com/*,link,read,ok,render,1163,USD+ Powered by Dinari,raw/usd.dinari.com/transparency.md,
+https://usd.dinari.com/transparency,usd.dinari.com,,transparency,usd.dinari.com/*,link,read,ok,render,1370,USD+ Powered by Dinari,raw/usd.dinari.com/transparency.md,
 https://docs.dinari.com/login?redirect_uri=%2Fdocs%2Fwrapping,docs.dinari.com,,login,docs.dinari.com/*,link,skip,,,,,,robots.txt 수집 제외
 https://docs.dinari.com/reference/market-data,docs.dinari.com,,reference,docs.dinari.com/reference/*,link,skim,ok,render,8977,Get Stocks,raw/docs.dinari.com/reference__market-data.md,이동: https://docs.dinari.com/reference/getstocks
 https://docs.dinari.com/login?redirect_uri=%2Freference%2Fenvironments,docs.dinari.com,,login,docs.dinari.com/*,link,skip,,,,,,robots.txt 수집 제외
@@ -454,7 +454,7 @@ https://dinari.com/dshares?5cb9eabe_page=9,dinari.com,,dshares,dinari.com/*,link
 https://dinari.com/dshares?5cb9eabe_page=3,dinari.com,,dshares,dinari.com/*,link,read,ok,render,30565,dShares™,raw/dinari.com/dshares_0cd296.md,
 https://dinari.com/dshares?5cb9eabe_page=1,dinari.com,,dshares,dinari.com/*,link,read,ok,render,30566,dShares™,raw/dinari.com/dshares_0d0c2f.md,
 https://docs.dinari.com/changelog?page=1,docs.dinari.com,,changelog,docs.dinari.com/*,link,read,ok,render,3908,Changelog,raw/docs.dinari.com/changelog_1a3b6e.md,
-https://usd.dinari.com/wrap,usd.dinari.com,,wrap,usd.dinari.com/*,link,read,ok,render,677,USD+ Powered by Dinari,raw/usd.dinari.com/wrap.md,
+https://usd.dinari.com/wrap,usd.dinari.com,,wrap,usd.dinari.com/*,link,read,ok,render,884,USD+ Powered by Dinari,raw/usd.dinari.com/wrap.md,
 https://docs.dinari.com/login?redirect_uri=%2Freference%2Fproxied-orders,docs.dinari.com,,login,docs.dinari.com/*,link,skip,,,,,,robots.txt 수집 제외
 https://docs.dinari.com/reference/withdrawals,docs.dinari.com,,reference,docs.dinari.com/reference/*,link,read,ok,static,8101,Get Withdrawal Requests,raw/docs.dinari.com/reference__withdrawals.md,이동: https://docs.dinari.com/reference/getaccountwithdrawalrequests
 https://dinari.com/dshares?5cb9eabe_page=4,dinari.com,,dshares,dinari.com/*,link,read,ok,render,30565,dShares™,raw/dinari.com/dshares_4377a7.md,
@@ -462,3 +462,4 @@ https://dinari.com/dshares?5cb9eabe_page=8,dinari.com,,dshares,dinari.com/*,link
 https://dinari.com/dshares?5cb9eabe_page=5,dinari.com,,dshares,dinari.com/*,link,read,ok,render,30565,dShares™,raw/dinari.com/dshares_413915.md,
 https://dinari.com/dshares?5cb9eabe_page=7,dinari.com,,dshares,dinari.com/*,link,read,ok,render,30565,dShares™,raw/dinari.com/dshares_1b937f.md,
 https://dinari.com/dshares?5cb9eabe_page=6,dinari.com,,dshares,dinari.com/*,link,read,ok,render,30565,dShares™,raw/dinari.com/dshares_8e9628.md,
+https://docs.dinari.com/v/usd+-user-guide/faq,docs.dinari.com,,v,docs.dinari.com/v/usd+-user-guide/*,link,read,gone,,,,,404

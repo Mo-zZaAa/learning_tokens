@@ -27,7 +27,7 @@ Please select your region:
 
 ## Powering the **S&P Digital Markets 50 Index**
 
-[Integrate dShares™](https://dinari.com/)
+[Integrate dShares™](https://dinari.com/us)
 
 Trusted by
 

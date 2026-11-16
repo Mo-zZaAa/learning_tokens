@@ -77,95 +77,7 @@ Install
 
 KRAKEN CLI
 
-Set up a paper trading DCA simulation
-
-$ kraken paper reset --balance 1200 --currency USD
-
-┌──────────────────┬───────────────────────────┐
-
-│ Field ┆ Value │
-
-╞══════════════════╪═══════════════════════════╡
-
-│ Mode ┆ [PAPER] Simulated Trading │
-
-│ Action ┆ Account reset │
-
-│ Starting Balance ┆ 1200.00 USD │
-
-│ Fee Rate ┆ 0.26% │
-
-└──────────────────┴───────────────────────────┘
-
-$ kraken paper buy XBTUSD 0.00142 # week 1
-
-┌──────────┬───────────────────────────┐
-
-│ Field ┆ Value │
-
-╞══════════╪═══════════════════════════╡
-
-│ Action ┆ Market Buy executed │
-
-│ Trade ID ┆ PAPER-00002 │
-
-│ Price ┆ 70176.80 │
-
-│ Volume ┆ 0.00142000 │
-
-│ Fee ┆ 0.2591 │
-
-│ Cost ┆ 99.65 │
-
-└──────────┴───────────────────────────┘
-
-$ kraken paper buy XBTUSD 0.00142 # week 2
-
-│ Action ┆ Market Buy executed │
-
-│ Price ┆ 70176.80 │ Cost 99.65 │
-
-$ kraken paper buy XBTUSD 0.00142 # week 3
-
-│ Action ┆ Market Buy executed │
-
-│ Price ┆ 70176.80 │ Cost 99.65 │
-
-$ kraken paper buy XBTUSD 0.00142 # week 4
-
-│ Action ┆ Market Buy executed │
-
-│ Price ┆ 70156.90 │ Cost 99.62 │
-
-$ kraken paper buy XBTUSD 0.00142 # weeks 5–12 ...
-
-│ Action ┆ Market Buy executed │ ×8
-
-│ Price ┆ 70156.90 │ Cost 99.62 │
-
-$ kraken paper status
-
-┌──────────────────┬───────────────────────────┐
-
-│ Field ┆ Value │
-
-╞══════════════════╪═══════════════════════════╡
-
-│ Mode ┆ [PAPER] Simulated Trading │
-
-│ Starting Balance ┆ 1200.00 USD │
-
-│ Current Value ┆ 1196.66 USD │
-
-│ Unrealized P&L ┆ -3.34 USD (-0.28%) │
-
-│ Total Trades ┆ 12 │
-
-│ Open Orders ┆ 0 │
-
-│ Assets Held ┆ 2 │
-
-└──────────────────┴───────────────────────────┘](https://www.kraken.com/kraken-cli)
+Set up a p](https://www.kraken.com/kraken-cli)
 
 [## Spot margin. Multiplied.
 
@@ -189,117 +101,117 @@ PRICE
 
 M. CAP
 
-[[그림: AAPL icon]
+[BTC
 
-[그림: AAPL icon]
+[그림: BTC icon]
 
-Apple
+[그림: BTC icon]
 
-AAPL
+Bitcoin
 
-$358.50
+BTC
 
-0.59%
+$64,603.00
 
-$358.50
+-1.20%
 
-0.59%
+$64,603.00
 
-$5.21T](https://www.kraken.com/stocks/aapl)[[그림: MSFT icon]
+-1.20%
 
-[그림: MSFT icon]
+$1.30T](https://www.kraken.com/prices/bitcoin)[ETH
 
-Microsoft
+[그림: ETH icon]
 
-MSFT
+[그림: ETH icon]
 
-$527.67
+Ethereum
 
-0.66%
+ETH
 
-$527.67
+$1,808.12
 
-0.66%
+-1.31%
 
-$3.92T](https://www.kraken.com/stocks/msft)[[그림: NVDA icon]
+$1,808.12
 
-[그림: NVDA icon]
+-1.31%
 
-NVIDIA
+$221.00B](https://www.kraken.com/prices/ethereum)[USDT
 
-NVDA
+[그림: USDT icon]
 
-$159.18
+[그림: USDT icon]
 
--2.25%
+Tether
 
-$159.18
+USDT
 
--2.25%
+$1.00
 
-$3.84T](https://www.kraken.com/stocks/nvda)[GOOGL
+0.00%
 
-[그림: GOOGL icon]
+$1.00
 
-GOOGL
+0.00%
 
-[그림: GOOGL icon]
+$175.31B](https://www.kraken.com/prices/tether)[BNB
 
-Alphabet (Class A)
+[그림: BNB icon]
 
-GOOGL
+[그림: BNB icon]
 
-$294.66
+BNB
 
--0.39%
+BNB
 
-$294.66
+$590.78
 
--0.39%
+-1.11%
 
-$3.62T](https://www.kraken.com/stocks/googl)[GOOG
+$590.78
 
-[그림: GOOG icon]
+-1.11%
 
-GOOG
+$77.69B](https://www.kraken.com/prices/bnb)[USDC
 
-[그림: GOOG icon]
+[그림: USDC icon]
 
-Alphabet (Class C)
+[그림: USDC icon]
 
-GOOG
+USDC
 
-$291.48
+USDC
 
--0.35%
+$1.00
 
-$291.48
+0.00%
 
--0.35%
+$1.00
 
-$3.58T](https://www.kraken.com/stocks/goog)[AMZN
+0.00%
 
-[그림: AMZN icon]
+$69.05B](https://www.kraken.com/prices/usdc)[XRP
 
-AMZN
+[그림: XRP icon]
 
-[그림: AMZN icon]
+[그림: XRP icon]
 
-Amazon.com
+XRP
 
-AMZN
+XRP
 
-$265.00
+$0.96
 
--0.62%
+-0.82%
 
-$265.00
+$0.96
 
--0.62%
+-0.82%
 
-$2.87T](https://www.kraken.com/stocks/amzn)
+$60.73B](https://www.kraken.com/prices/xrp)
 
-[View all stocks](https://www.kraken.com/stocks)
+[View all cryptocurrencies](https://www.kraken.com/prices)
 
 [그림: Spot illustrations / beast] 
 
@@ -321,7 +233,17 @@ Voted Best crypto platform: [https://www.forbes.com/advisor/investing/cryptocur
 
 ## 펼치거나 눌러야 보이던 내용
 
+### 메뉴  누른 뒤
+
+- KRAKEN CLI
+- Set up a paper trading DCA simulation
+- $ kraken paper reset --balance 1200 --currency USD
+
+### 메뉴 Kraken 누른 뒤
+
+- Kraken
 - Multi-asset investing
+- Stocks
 - Borrow
 - Onchain
 - Auto earn
@@ -332,106 +254,309 @@ Voted Best crypto platform: [https://www.forbes.com/advisor/investing/cryptocur
 - Dive in
 - Buy crypto
 - Buy stocks
+- $ kraken paper reset --balance 1200 --currency USD
+- ┌──────────────────┬───────────────────────────┐
+- │ Field            ┆ Value                     │
+- ╞══════════════════╪═══════════════════════════╡
+- │ Mode             ┆ [PAPER] Simulated Trading │
+- │ Action           ┆ Account reset             │
+- │ Starting Balance ┆ 1200.00 USD               │
+- │ Fee Rate         ┆ 0.26%                     │
+
+### 메뉴 Pro 누른 뒤
+
+- Kraken Pro
 - Advanced trading platform
 - Crypto spot
+- Margin
 - Perps
+- Stocks
+- Staking
+- Resources
 - Pro fees
 - Liquidity providers
 - Prop funding
 - Desktop app
 - TradingView
 - CLI trading
+- Dive in
 - Trade markets
+- OTC
 - Rewards hub
-- Prime brokerage for digital assets
-- Prime eligibility
-- │ Field            ┆ Value                     │
-- │ Mode             ┆ [PAPER] Simulated Trading │
-- Premium offering for UHNW clients
-- What you'll receive
-- Who qualifies
-- │ Action           ┆ Account reset             │
-- │ Starting Balance ┆ 1200.00 USD               │
 - │ Fee Rate         ┆ 0.26%                     │
-- Why Kraken
-- Leading security
-- Deep liquidity
-- Proof of reserves
-- Affiliates
-- Support
-- Payward newsroom
+- └──────────────────┴───────────────────────────┘
 - $ kraken paper buy XBTUSD 0.00142  # week 1
+- ┌──────────┬───────────────────────────┐
 - │ Field    ┆ Value                     │
+- ╞══════════╪═══════════════════════════╡
+- │ Action   ┆ Market Buy executed       │
+
+### 메뉴 Markets 누른 뒤
+
+- Wallet
+- Multi-chain self-custody wallet
+- Portfolio, earn, swap
+- Your keys
+- Multi-chain
+- Resources
+- FAQs
 - │ Action   ┆ Market Buy executed       │
 - │ Trade ID ┆ PAPER-00002               │
 - │ Price    ┆ 70176.80                  │
 - │ Volume   ┆ 0.00142000                │
 - │ Fee      ┆ 0.2591                    │
 - │ Cost     ┆ 99.65                     │
+- └──────────┴───────────────────────────┘
 - $ kraken paper buy XBTUSD 0.00142  # week 2
 - │ Action   ┆ Market Buy executed      │
 - │ Price    ┆ 70176.80  │  Cost  99.65 │
 - $ kraken paper buy XBTUSD 0.00142  # week 3
+- │ Action   ┆ Market Buy executed       │
+- │ Price    ┆ 70176.80  │  Cost  99.65 │
+
+### 메뉴 About 누른 뒤
+
+- Sign up
+- Browse crypto prices
+- STOCKS
+- PRICE
+- 24H
+- AAPL
+- AAPL
+- $358.57
+- +0.61%
+- MSFT
+- MSFT
+- $527.88
+- +0.70%
+- NVDA
+- NVDA
+- $159.14
+- -2.27%
+- LEARN MORE
+- CRYPTO
+- PRICE
+- 24H
+- BTC
+- /USD
+- ETH
+- /USD
+- XRP
+- /USD
+- -0.82%
+- CRYPTO IN APP
+- FUTURES
+- LEVERAGE
+- 24H
+- BTC
+- Perp
+- 100x
+- -1.10%
+- ETH
+- Perp
+- 100x
+- -1.16%
+- SOL
+- Perp
+- 100x
+- -1.11%
+- FUTURES IN APP
+
+### Markets 누른 뒤
+
+- Sign up
+- Why Kraken
+- Leading security
+- Deep liquidity
+- Proof of reserves
+- Affiliates
+- Learn
+- Support
+- Payward newsroom
+- │ Price    ┆ 70176.80  │  Cost  99.65 │
 - $ kraken paper buy XBTUSD 0.00142  # week 4
+- │ Action   ┆ Market Buy executed      │
 - │ Price    ┆ 70156.90  │  Cost  99.62 │
 - $ kraken paper buy XBTUSD 0.00142  # weeks 5–12 ...
 - │ Action   ┆ Market Buy executed      │  ×8
+- │ Price    ┆ 70156.90  │  Cost  99.62 │
+- $ kraken paper status
+- │ Starting Balance ┆ 1200.00 USD               │
 - │ Current Value    ┆ 1196.66 USD               │
 - │ Unrealized P&L   ┆ -3.34 USD (-0.28%)        │
 - │ Total Trades     ┆ 12                        │
 - │ Open Orders      ┆ 0                         │
 - │ Assets Held      ┆ 2                         │
+
+### About 누른 뒤
+
+- Set up a paper trading DCA simulation
+- [Enter]
+- Watch ETH, SOL, and BTC for 30 seconds. Show the price movement
+
+### Spot / Margin 누른 뒤
+
+- M. CAP
 - BTC/USD
-- $64,521.00
-- -1.54%
+- 20X
+- Bitcoin
+- $64,644.00
+- -1.07%
+- $1.30T
 - ETH/USD
-- $1,807.97
-- -1.19%
-- $221.00B
+- 20X
+- Ethereum
+- $1,810.37
+- -0.97%
+- $221.22B
 - SOL/USD
+- 10X
 - Solana
-- $71.61
-- -0.69%
-- $42.38B
+- $71.71
+- -0.78%
+- $42.43B
 - LTC/USD
+- 10X
 - Litecoin
-- $44.61
-- -2.32%
+- $44.60
+- -1.93%
 - $3.47B
 - USDT/USD
-- -0.034%
-- $175.27B
+- 10X
+- $1.00
+- -0.019%
+- $175.28B
 - XRP/USD
-- $0.95
-- -1.15%
-- $60.56B
+- 10X
+- $0.96
+- -0.65%
+- $60.80B
+- View all
+
+### Futures 누른 뒤
+
+- 24H%
 - VOLUME
 - BTC Perp
-- 100x
-- $64,603.00
-- $525.66M
+- Bitcoin
+- $64,641.00
+- -1.10%
+- $523.09M
 - ETH Perp
-- $1,808.70
-- -0.93%
-- $176.63M
+- Ethereum
+- $1,808.60
+- -1.16%
+- $177.11M
 - SOL Perp
-- $71.73
-- -0.46%
-- $75.42M
+- Solana
+- $71.50
+- -1.11%
+- $75.70M
 - ZEC Perp
+- 50x
 - Zcash
-- $894.26
-- -2.48%
-- $24.62M
-- HYPE
+- $895.14
+- -2.68%
+- $24.91M
 - HYPE Perp
+- 50x
 - Hyperliquid
-- $67.73
-- -0.25%
-- $19.02M
+- $67.15
+- -1.19%
+- $19.83M
 - XRP Perp
-- -0.68%
-- $17.26M
+- 50x
+- $0.96
+- -0.83%
+- $17.38M
+
+### Stocks 누른 뒤
+
+- M. CAP
+- Apple
+- AAPL
+- $358.39
+- 0.56%
+- $5.21T
+- Microsoft
+- $527.88
+- 0.70%
+- $3.92T
+- NVIDIA
+- NVDA
+- $159.31
+- -2.17%
+- $3.85T
+- Alphabet (Class A)
+- GOOGL
+- $294.84
+- -0.33%
+- $3.62T
+- Alphabet (Class C)
+- GOOG
+- $291.53
+- -0.33%
+- $3.58T
+- Amazon.com
+- AMZN
+- $265.25
+- -0.52%
+- $2.87T
+- View all stocks
+
+### Wallet 누른 뒤
+
+- Secure your crypto with self custody
+- Add to browser
+- Explore the app
+- Explore and connect
+- to web3 apps
+- Get the browser extension
+- Manage your entire portfolio
+- in one place
+- Explore on web
+- Deposit, earn, and trade across the full breadth of DeFi on web and mobile
+- World class security
+- Built on Kraken’s security-first foundation, Kraken Wallet helps protect your assets while keeping you in control.
+- Your portfolio
+- Track your crypto, tokenized assets, NFTs, and DeFi positions in one clear view.
+- DeFi
+- Deposit to vaults, earn onchain and grow your portfolio through DeFi opportunities.
+- Swap
+- Swap and bridge tokens across networks quickly and securely from your wallet.
+- Your keys. Your crypto.
+- Seed phrases
+- Create or import multiple seed phrase wallets and stay in control of your keys.
+- Embedded wallet
+- Create a wallet using an email or social account (Google, Apple), with sponsored transactions on supported networks and no seed phrase required. Add a passkey afterwards for faster sign-in.
+- Manage everything in one place
+- View your seed phrase and embedded wallets, even add watch-only wallets.
+- Send
+- Transfer crypto and make payments securely from your wallet.
+- Receive
+- Receive crypto directly into your wallet using your address or QR code.
+- Address book
+- Save trusted addresses to make future transfers faster and easier.
+- Take full control of your crypto with Kraken Wallet. Built for speed, security, and self custody, it brings multichain assets, swaps, DeFi access, and portfolio management together in one seamless experience.
+- Create an account
+- Self-custody for Bitcoin
+- Hold BTC in self custody and stay connected to opportunities across crypto.
+- Connected to Kraken
+- Transfer crypto from Kraken to your wallet quickly, securely, and without the extra steps.
+- One wallet. Multi-chain.
+- Access a growing range of networks, including Bitcoin, Ethereum, Solana, Ink, BNB Smart Chain, Robinhood Chain, Polygon, Base, Arbitrum, Optimism, Dogecoin, Linea, and more.
+- Featured partners
+- FAQs
+- How do I back up my Kraken Wallet?
+- Write down your Secret Recovery Phrase and store it in a secure location.
+- Is Kraken Wallet free to use?
+- Yes, Kraken Wallet is free to use, and available on both iOS and Android supported devices.
+- What blockchains does Kraken Wallet initially support?
+- Kraken Wallet supports Bitcoin, Ethereum mainnet, Solana, Ink, Base, Robinhood chain, BNB smart chain, Polygon, Arbitrum, Optimism, Dogecoin and more!
+- Your crypto, in your control
+- Get Kraken Wallet and start managing all your crypto.
+- Create an account
+- Download the mobile app
 
 ## 구조화 데이터(JSON-LD)
 

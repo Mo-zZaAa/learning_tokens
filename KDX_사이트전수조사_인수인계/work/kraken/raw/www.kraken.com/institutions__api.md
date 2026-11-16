@@ -139,8 +139,20 @@ What countries can use Kraken’s API?
 
 ## 펼치거나 눌러야 보이던 내용
 
+### What is API trading? 누른 뒤
+
+- What is API trading?
+- An application programming interface (API) connects two applications together, such as a trader’s customized trading software and Kraken’s market data stream. Kraken’s Institutional API products let traders connect and control their Kraken accounts using their own or third-party software. This allows institutional traders to use custom code for market analysis and automated trading strategies via Kraken.
 - Head to the Kraken API Center to explore our APIs and workflows.
+
+### Does Kraken allow trading bots? 누른 뒤
+
+- Does Kraken allow trading bots?
 - Yes, clients are welcome to use trading bots to trade our markets. You can learn more about connecting a trading bot to your Kraken account on our Support Center: Does Kraken allow trading bots?
+
+### What countries can use Kraken’s API? 누른 뒤
+
+- What countries can use Kraken’s API?
 - Check your country of residence here to see which features are enabled in your area.
 
 ## 구조화 데이터(JSON-LD)

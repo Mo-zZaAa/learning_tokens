@@ -582,7 +582,7 @@ If you experience a delay or failure for your Ethereum transaction on the zkSync
 | https://support.kraken.com/articles/360028093572-Bank-deposit-requirements-and-checklist |  |  |
 
 
-## 목록만 둔 URL 984건 (inventory.csv에서 plan=list)
+## 목록만 둔 URL 986건 (inventory.csv에서 plan=list)
 - https://support.kraken.com/articles/complaint-handling-process
 - https://support.kraken.com/articles/12975108557588-kraken-pro-analytics
 - https://support.kraken.com/articles/13049711807636-derivatives-platform-parameters-changelog

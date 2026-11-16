@@ -1,0 +1,58 @@
+---
+url: https://ondo.finance/blog/allison-parent-joins-ondo
+title: Ondo Finance Hires Allison Parent, Former GFMA Executive Director and Barclays Global Policy Head, as Chief Policy Officer | Ondo Finance
+description: Two decades of financial policy leadership, from the U.S. Senate to the Bank of England to the world's largest capital markets trade association, now focuse…
+fetched: 2026-11-16
+method: static
+plan: skim
+---
+
+Announcement • Aug 28, 2026 • 2 min
+
+# Ondo Finance Hires Allison Parent, Former GFMA Executive Director and Barclays Global Policy Head, as Chief Policy Officer
+
+[Ondo Finance
+
+Official Blog](https://ondo.finance/blog)
+
+[그림: Ondo Finance Hires Allison Parent]
+
+***Two decades of financial policy leadership, from the U.S. Senate to the Bank of England to the world's largest capital markets trade association, now focused on shaping the regulatory foundation for onchain capital markets.***
+
+Ondo Finance today announced the appointment of Allison Parent as Chief Policy Officer. Parent has spent her career at the intersection of financial markets and global policy, advising governments, market regulators, central bankers, as well as global financial institutions on some of the most consequential regulatory frameworks of the past two decades.
+
+Parent joins from the Global Financial Markets Association (GFMA), where she served as Executive Director since 2017, representing the world's largest financial and capital markets firms on cross-border regulatory and market structure issues. Before GFMA, she was Head of Global Policy and Strategy at Barclays in London. She previously served as Senior Policy Advisor and Counsel for Markets at the Bank of England, and as Director for Government Policy and Finance with Barclays in Washington, DC. Earlier in her career, Parent was General Counsel to the U.S. Senate Committee on the Budget, where she advised on key financial services legislation, including the Dodd-Frank Wall Street Reform and Consumer Protection Act and the Emergency Economic Stabilization Act (aka TARP).
+
+Allison has also served on a number of public sector advisory roles, including as member of the Financial Stability Board (FSB) Advisory Forum on Format for Cyber Incident Reporting, the Associate Members Consultative Committee of the International Organization of Securities Commissions (IOSCO), and the Digital Markets Subcommittee of the Global Markets Advisory Committee at the U.S. Commodity Futures and Trading Commission (CFTC).
+
+Ondo has spent years building the tokenization infrastructure for onchain capital markets. We believe as markets modernize the institutions and the jurisdictions that establish the necessary legal certainty, demonstrate market integrity in the underlying infrastructure, and transparency first will deliver the capital markets of the future.
+
+Parent's appointment reflects the next phase of our work: industry collaboration with policymakers and regulators worldwide as tokenized assets move into the financial mainstream is integral to establishing clear, credible market standards that institutional adoption requires on a cross-border basis.
+
+> "Throughout my career, I've seen how global alignment of regulatory outcomes can unlock new distribution channels and accessibility rather than constrain it. Tokenization is the most significant advancement in market infrastructure in a generation, and getting the regulatory foundation and necessary industry standards right will determine how quickly its benefits reach investors and institutions globally. Balanced regulatory policy involves weighing growth and innovation with market integrity, consumer protection, and overall financial stability. Ondo Finance has the infrastructure in place and I’m excited to support unlocking the full potential of onchain markets." — Allison Parent, Chief Policy Officer, Ondo Finance
+
+Parent’s invaluable experience in the regulatory, infrastructure and governance conditions that underpin trust in capital markets reflects our commitment to developing global industry standards that reward on-chain markets to provide new distribution channels for investors and clients globally.
+
+The appointment follows rapid growth and regulatory progress for Ondo tokenized stocks, which have surpassed $1 billion in total value locked in under eight months. Ondo has secured authorization from the Liechtenstein Financial Market Authority, with passporting across the EU and EEA, seen its digital securities become the first admitted for trading under ADGM's FSRA framework via Binance's Multilateral Trading Facility, and received FINRA authorizations through its SEC-registered broker-dealer subsidiary Oasis Pro Markets. Parent will lead Ondo's policy and regulatory engagement as this footprint expands globally.
+
+Next
+
+[[그림: USDY is now live on Tempo]
+
+USDY•Aug 27, 2026
+
+### USDY Is Now Live on Tempo](https://ondo.finance/blog/usdy-is-live-on-tempo)
+
+[[그림: Illustration titled 'A Letter to the SEC: Tokenized and Traditional, Same Standard' with the Ondo logo and a dot-pattern American flag graphic]
+
+Announcement•Aug 12, 2026
+
+### One Market, Onchain and Off: Our Comment to the SEC on Rule 611](https://ondo.finance/blog/sec-comment-rule-611)
+
+## 구조화 데이터(JSON-LD)
+
+```json
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://ondo.finance/#organization","name":"Ondo Finance","url":"https://ondo.finance","logo":"https://ondo.finance/images/ondo-icon.svg","foundingDate":"2021","sameAs":["https://x.com/Ondo","https://www.linkedin.com/company/ondo-finance/","https://github.com/ondoprotocol","https://www.youtube.com/@OndoFinance"],"contactPoint":{"@type":"ContactPoint","contactType":"customer support","email":"support@ondo.finance","url":"https://ondo.finance/contact"},"description":"Institutional Grade Finance. Onchain. For Everyone. Ondo Finance bridges traditional finance with blockchain through tokenized real-world assets."},{"@type":"WebSite","@id":"https://ondo.finance/#website","name":"Ondo Finance","url":"https://ondo.finance","publisher":{"@id":"https://ondo.finance/#organization"}}]}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Ondo Finance Hires Allison Parent, Former GFMA Executive Director and Barclays Global Policy Head, as Chief Policy Officer","description":"Two decades of financial policy leadership, from the U.S. Senate to the Bank of England to the world's largest capital markets trade association, now focuse…","articleBody":"Two decades of financial policy leadership, from the U.S. Senate to the Bank of England to the world's largest capital markets trade association, now focused on shaping the regulatory foundation for onchain capital markets.\n\nOndo Finance today announced the appointment of Allison Parent as Chief Policy Officer. Parent has spent her career at the intersection of financial markets and global policy, advising governments, market regulators, central bankers, as well as global financial institutions on some of the most consequential regulatory frameworks of the past two decades.\n\nParent joins from the Global Financial Markets Association (GFMA), where she served as Executive Director since 2017, representing the world's largest financial and capital markets firms on cross-border regulatory and market structure issues. Before GFMA, she was Head of Global Policy and Strategy at Barclays in London. She previously served as Senior Policy Advisor and Counsel for Markets at the Bank of England, and as Director for Government Policy and Finance with Barclays in Washington, DC. Earlier in her career, Parent was General Counsel to the U.S. Senate Committee on the Budget, where she advised on key financial services legislation, including the Dodd-Frank Wall Street Reform and Consumer Protection Act and the Emergency Economic Stabilization Act (aka TARP).\n\nAllison has also served on a number of public sector advisory roles, including as member of the Financial Stability Board (FSB) Advisory Forum on Format for Cyber Incident Reporting, the Associate Members Consultative Committee of the International Organization of Securities Commissions (IOSCO), and the Digital Markets Subcommittee of the Global Markets Advisory Committee at the U.S. Commodity Futures and Trading Commission (CFTC). \n\nOndo has spent years building the tokenization infrastructure for onchain capital markets. We believe as markets modernize the institutions and the jurisdictions that establish the necessary legal certainty, demonstrate market integrity in the underlying infrastructure, and transparency first will deliver the capital markets of the future. \n\nParent's appointment reflects the next phase of our work: industry collaboration with policymakers and regulators worldwide as tokenized assets move into the financial mainstream is integral to establishing clear, credible market standards that institutional adoption requires on a cross-border basis.\n\"Throughout my career, I've seen how global alignment of regulatory outcomes can unlock new distribution channels and accessibility rather than constrain it. Tokenization is the most significant advancement in market infrastructure in a generation, and getting the regulatory foundation and necessary industry standards right will determine how quickly its benefits reach investors and institutions globally. Balanced regulatory policy involves weighing growth and innovation with market integrity, consumer protection, and overall financial stability. Ondo Finance has the infrastructure in place and I’m excited to support unlocking the full potential of onchain markets.\" — Allison Parent, Chief Policy Officer, Ondo Finance\n\nParent’s invaluable experience in the regulatory, infrastructure and governance conditions that underpin trust in capital markets reflects our commitment to developing global industry standards that reward on-chain markets to provide new distribution channels for investors and clients globally. \n\nThe appointment follows rapid growth and regulatory progress for Ondo tokenized stocks, which have surpassed $1 billion in total value locked in under eight months. Ondo has secured authorization from the Liechtenstein Financial Market Authority, with passporting across the EU and EEA, seen its digital securities become the first admitted for trading under ADGM's FSRA framework via Binance's Multilateral Trading Facility, and received FINRA authorizations through its SEC-registered broker-dealer subsidiary Oasis Pro Markets. Parent will lead Ondo's policy and regulatory engagement as this footprint expands globally.\n\n\n","datePublished":"2026-08-28T14:01:00.000Z","dateModified":"2026-08-28T14:08:10Z","mainEntityOfPage":{"@type":"WebPage","@id":"https://ondo.finance/blog/allison-parent-joins-ondo"},"image":"https://cdn.sanity.io/images/8k2tqa6n/production/531510b94181b71dcb2c4621e69d5ad6bb996b9f-1600x960.png","publisher":{"@id":"https://ondo.finance/#organization"},"url":"https://ondo.finance/blog/allison-parent-joins-ondo"}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ondo.finance"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://ondo.finance/blog"},{"@type":"ListItem","position":3,"name":"Ondo Finance Hires Allison Parent, Former GFMA Executive Director and Barclays Global Policy Head, as Chief Policy Officer","item":"https://ondo.finance/blog/allison-parent-joins-ondo"}]}
+```
