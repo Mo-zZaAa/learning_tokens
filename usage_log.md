@@ -28,3 +28,4 @@
 | 12:15 | 2a | Kraken K3 읽기(Haiku) | | | 368,757 | 4,901,609 |
 | 12:15 | 2a | SITEFACT-Dinari | | | 205,685 | 5,107,294 |
 | 12:15 | 2a | Coinbase base.org stocks 읽기(Haiku) | | | 181,358 | 5,288,652 |
+| 12:17 | 2a | Binance B1 읽기(Haiku) | | | 170,762 | 5,459,414 |
