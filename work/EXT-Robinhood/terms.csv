@@ -1,0 +1,5 @@
+"용어","원어","쉬운 뜻","이 과제에서 중요한 이유","헷갈리는 짝","차이 한 줄","한국의 대응 용어와 제도","source_id"
+"Stock Tokens","Robinhood Stock Tokens","미국 주식과 ETF 가격에 연동된 토큰. 주식 소유권과 의결권은 없고 발행사에 대한 채권(부채증권)이라고 보도됨","KDX가 참고할 사업의 핵심 상품","주식 예탁증서(DR), 토큰증권","DR은 기초 주식을 실제 보관하고 권리를 연결, 이 토큰은 가격 노출만 줌(보도 기준)","토큰증권(STO)은 전자증권법상 발행 계좌 기록, 발행사 채무는 별개","EXT-Robinhood-S12"
+"Robinhood Chain","Robinhood Chain","Arbitrum 기술을 쓴 이더리움 L2. 2026-07-01 메인넷","토큰 24시간 거래 인프라","Arbitrum One","Arbitrum One은 공용 체인, Robinhood Chain은 회사 전용 L2","","EXT-Robinhood-S09"
+"MiCA CASP","Crypto-Asset Service Provider (MiCA)","EU 가상자산서비스 제공자 인가. 한 회원국 인가로 EU 전역 영업 가능(패스포트)","Robinhood Europe가 리투아니아에서 취득","MiFID 증권중개 인가","CASP는 가상자산, MiFID는 금융투자상품","가상자산이용자보호법상 사업자 신고(참고)","EXT-Robinhood-S03"
+"Classic Stock Tokens","Classic Stock Tokens","2026-10 실적 발표에서 기존 EEA 대상 Stock Tokens를 가리키는 이름","Robinhood Chain 위 새 Stock Tokens와 구분","Stock Tokens(체인)","Classic은 EEA, 체인판은 미국 밖 120여 개국(보도)","","EXT-Robinhood-S01"

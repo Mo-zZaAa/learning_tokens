@@ -65,29 +65,29 @@ Kraken and Alpaca view this partnership expansion as a pivotal step toward build
 
 ### Related Posts
 
-## [PWT is available for trading!](https://blog.kraken.com/product/asset-listings/pwt-is-available-for-trading)
-
-2 min read
-
-August 26th, 2026
-
-## [IN is available for trading!](https://blog.kraken.com/product/asset-listings/in-is-available-for-trading)
-
-2 min read
-
-January 20th, 2026
-
-## [Kraken Borrow: spend more than your cash balance](https://blog.kraken.com/product/borrow/introducing-kraken-borrow)
+## [New EEA futures traders: no trading fees for your first 30 days](https://blog.kraken.com/product/kraken-derivatives/eea-futures-30-days-no-trading-fees)
 
 4 min read
 
-July 15th, 2026
+June 25th, 2026
 
-## [PYUSD deposits and withdrawals now available on Stellar!](https://blog.kraken.com/product/new-features/pyusd-deposits-and-withdrawals-now-available-on-stellar)
+## [KULA is available for trading!](https://blog.kraken.com/product/asset-listings/kula-is-available-for-trading)
 
 2 min read
 
-July 28th, 2026
+December 16th, 2025
+
+## [OKB is available for trading!](https://blog.kraken.com/product/asset-listings/okb-is-available-for-trading)
+
+2 min read
+
+April 3rd, 2026
+
+## [Kraken 360 TGE Playbook Part 3: from launch to scale — sustaining momentum after TGE](https://blog.kraken.com/product/360/pre-tge-playbook-part-3)
+
+13 min read
+
+March 19th, 2026
 
 These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
 

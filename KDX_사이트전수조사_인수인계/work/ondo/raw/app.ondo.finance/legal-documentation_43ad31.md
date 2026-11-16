@@ -9,6 +9,13 @@ plan: read
 
 
 
+## 펼치거나 눌러야 보이던 내용
+
+### Connect Wallet 누른 뒤
+
+- Connect Wallet
+- Sign Up / Log In
+
 ## 구조화 데이터(JSON-LD)
 
 ```json

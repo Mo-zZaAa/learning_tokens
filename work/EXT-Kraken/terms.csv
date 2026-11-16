@@ -1,0 +1,8 @@
+"용어","원어","쉬운 뜻","이 과제에서 중요한 이유","헷갈리는 짝","차이 한 줄","한국의 대응 용어와 제도","source_id"
+"xStocks","xStocks","미국 등 상장 주식과 ETF를 1:1 담보로 블록체인에 올린 토큰. 발행은 Backed, 제공은 Kraken","핵심 사업","예탁증서(DR)","DR은 해외 예탁기관이 원주를 예탁하고 현지에서 발행, xStocks는 추적 증권(S10)이며 발행사가 기초주식을 담보로 보유","토큰증권, 해외주식 예탁증서","EXT-Kraken-S02"
+"Tracker certificate","Tracker (open-ended)","기초자산 가격을 따라가는 만기 없는 증서. 투자설명서의 xStocks 상품 유형","법적 성격 이해","주식 직접 보유","기초주식은 발행사가 담보로 보유, 투자자는 주주 아님(가격 노출)","파생결합증권 비교","EXT-Kraken-S10"
+"Base Prospectus / Final Terms","Base Prospectus, Final Terms","발행 프로그램 전체 설명서와 종목별 조건서","발행 구조 근거","","종목마다 최종 조건서를 따로 제출","증권신고서와 투자설명서","EXT-Kraken-S10"
+"Tokenizer","Tokenizer","미리 만든 원장형 증권을 활성화해 투자자 지갑으로 보내는 주체. 발행사 본인이며 Payward 인프라 사용","발행 절차","","","","EXT-Kraken-S10"
+"Authorized Participant","Authorized Participant","발행사와 계약해 토큰 신규 발행과 상환을 요청하는 승인 참가자","유통 구조","","","","EXT-Kraken-S10"
+"xPO","xPO","비상장 기업이 주식을 xStocks로 온체인 공모하는 계획 상품(승인 조건)","향후 방향","IPO","상장 전 발행 첫날부터 2차 시장","","EXT-Kraken-S06"
+"Total Platform Margin","TPM","총수익에서 거래비용, 거래손익, 고객 스테이킹 보상을 뺀 지표","성과 지표 해석","Adjusted Revenue","Adjusted Revenue는 스테이킹 보상을 빼지 않음","","EXT-Kraken-S06"

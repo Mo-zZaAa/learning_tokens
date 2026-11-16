@@ -1,1 +1,49 @@
 회사,항목,구분,사유,찾아본 곳
+Bruce ATS,토큰증권 취급 현황,공개 자료 없음,"Bruce 홈페이지, PEAK6 공지, 주말 거래 보도에 토큰증권 언급 없음","brucemarkets.com, peak6.com, financemagnates"
+MOON ATS,토큰증권 취급 현황,공개 자료 없음,MOON 관련 보도에 토큰증권 계획 언급 없음. OTC Markets Group 실적 요약에 디지털자산 제휴 언급만(2차 요약),"AAP/GlobeNewswire, OTC Markets 블로그, Exegy, Quartr"
+MOON ATS,한국 증권사별 연결 현황,공개 자료 없음,"한국 증권사가 MOON과 복수 계약했다는 일반 보도만 있고 증권사명 없음(삼성증권, 토스증권이 MOON 이용 안내했다는 Korea Herald 단일 보도 있음)","비즈워치, 머니S, Korea Herald"
+Blue Ocean ATS,한국 증권사별 연결 현황(재개 후),공개 자료 없음,18개 증권사 재개는 확인했으나 증권사별 ATS 배정은 열람 자료에 없음,"머니S, 한국경제, 비즈워치"
+Binance,bStocks 허용 및 제외 국가 전체 목록,공개 자료 없음,열람한 보도자료는 미국과 미국인만 명시하고 나머지는 '허용 지역'이라고만 함,"PR Newswire 2건, Khaleej Times, Unlock Blockchain"
+Binance,기초 주식 수탁기관 이름,공개 자료 없음,보도자료에 'regulated custodian'만 있고 이름 없음,"PR Newswire, Khaleej Times"
+Binance,MGX 지분율,공개 자료 없음,Binance가 비공개,"Abu Dhabi Media Office, CoinMarketCap"
+Binance,프랑스 AMF 등록,미확인,1차 등록부 열람 못함(검색 결과는 비공식 집계 사이트뿐),웹 검색
+Binance,Gopax 지분율,미확인,열람한 기사에는 '과반'만 있음,"Decrypt, The Paypers"
+Coinbase,미국 BD(Coinbase Capital Markets 등) FINRA BrokerCheck 등록,인가와 등록,BrokerCheck 등록부 접근 경로를 이번 시간 안에 못 열었음(찾았으나 공개 자료 확인 못 함),"검색 요약, 주주서한"
+Coinbase,뉴욕 BitLicense 번호와 NFA FCM 등록 확인,인가와 등록,주주서한에 FCM(Coinbase Financial Markets) 언급만 있고 등록부 미열람,주주서한 Q4 2025
+Coinbase,한국 거래소 인수 또는 제휴 확정,한국,2026-01 보도만 있고 확정 발표 없음,"Cointelegraph, DL News"
+Coinbase,토큰화 주식 거래량과 보유자 수,성과 지표,2026-08 이후 수치는 열람 문서에 없음(Q3 2026 주주서한 미열람),"Base 안내 페이지, 투자설명서"
+Dinari,유럽 MiFID II 하 유통 인가,해외 라이선스,"공개 자료 없음. Dinari 자신의 MiFID 인가나 투자설명서는 못 찾음. 유럽 접근은 Gemini 제휴(검색 요약, 미열람)로 보이며 근거 인가 불명","WebSearch 'Dinari MiFID II'. FCA, CySEC, BaFin 등록부는 이름 검색 도구가 없어 직접 열지 못함"
+Dinari,홍콩 일반 증권 취급 인가,해외 라이선스,"공개 자료 없음. SFC 등록부 검색 결과에 Dinari 없음(검색 엔진 기준, 등록부 직접 열람은 아님)",WebSearch
+Dinari,중남미 디지털 결제 라이선스,해외 라이선스,공개 자료 없음. 중남미 이용 비중은 500 Global 글(단일 출처)만 있음,WebSearch
+Dinari,FINRA 또는 주 감독기관 제재,제재와 사고,"BrokerCheck 공시 0건(Dinari Securities LLC). 그 외 법인(Dinari, Inc.)의 제재 기록은 못 찾음",BrokerCheck API
+Dinari,"거래량, 이용자 수의 제3자 확인값",성과 지표,"열린 제3자 출처 없음. DefiLlama, CoinGecko는 봇 차단. 이용자 수는 검증된 공개값 없음","WebSearch, curl"
+Dinari,경영진이 밝힌 진출 사유 인터뷰 원문,경영진 발언,"The Block 인터뷰(Anna Wroblewska, 2026-05)는 DNS 차단으로 열지 못함",WebSearch
+Kraken,영국 FCA 등록,인가,"열람 자료에서 FCA 등록부 미확인. xStocks는 영국 투자자에게 제공하지 않는다고 S02, S04, S08이 밝힘","payward.com 보도자료, 웹 검색"
+Kraken,미국 주별 송금업 라이선스와 Wyoming 은행 등 미국 인가 목록,인가,"보도자료에 구체 목록 없음. DCM, DCO, FCM 보유 언급만(S06)",Payward Q3 자료
+Kraken,MiCA 인가 1차 출처,인가,"businesswire 403. 검색 요약만(아일랜드 중앙은행, 2025-06-25, Payward Europe Solutions Limited) 직접 열지 못해 facts에 넣지 않음",웹 검색 요약
+Kraken,SEC 소송 종결 원문,사건,"sec.gov 호스트 막힘. 검색 요약상 2025-03-27 lr-26278, 불이익 취하",kb/cases.md에 이미 있음
+Kraken,공개 IPO 서류(S-1)와 상장 일정,상장,"공개 서류 없음. 비공개 제출은 언론 보도만. Payward Q3, Q2 자료에는 IPO 언급 없음",Payward 보도자료
+Kraken,한국 투자자의 xStocks 이용 가능 여부와 한국 제휴,한국,South Korean assets 토큰화 계획 문구만 있고 한국 제휴사나 이용 허용 문구 없음,"S03, S06, S16 전체 텍스트"
+Backed,"Backed Finance AG 소재지, 설립 시기, 인수 종결 시점과 금액",지배구조,"S01은 인수 합의만, Walkers는 Backed Assets (JE) 취득만 언급, 금액 미공개","S01, S12"
+Ondo,Oasis Pro 인수 금액,금액,Cointelegraph가 비공개라고 보도. 공개 자료 못 찾음,"Cointelegraph, Ledger Insights, PrivSource"
+Ondo,Ondo Global Markets 한국 투자자 직접 이용 경로(국내 거래소 상장),한국 관련,한국 거래소 상장 사실은 못 찾음. 언론은 한국 투자자 이용 규모만 회사 주장으로 전함,"Bloomingbit, Korea Herald"
+Ondo,Flux Finance Inc.의 실소유자,지배구조,Final Terms에 주주명만 있음,Final Terms
+Robinhood,"FINRA BrokerCheck, 주 감독기관 등록부(Robinhood Financial, Robinhood Securities, Robinhood Crypto)",인가,이번 시간 안에 열지 못함,검색은 했으나 등록부 직접 열람 안 함
+Robinhood,Stock Tokens 발행사의 법적 성격에 대한 감독기관 공식 문서,발행 구조,리투아니아 중앙은행 공식 발표문 못 찾음(CNBC 인용 보도만),검색 2회
+Robinhood,제재 2026년 건,제재,2026년 신규 제재는 확인 못 함,검색 1회(실적 보도자료 위험 문단에 소송과 조사 일반 언급뿐)
+Kraken,"NinjaTrader 계열 FCM/IB(CFTC, NFA)",NFA 등록,"찾았으나 공개 자료 없음 (NFA BASIC은 JS와 CSRF 기반 호출이라 직접 조회 불가, 우회하지 않음). 인수 완료는 Business Wire 보도자료만","NFA BASIC 첫 화면, FINRA BrokerCheck 'ninjatrader' 검색 0건"
+Kraken,Backed(토큰화 주식 발행 법인) 인가,해외 등록,찾았으나 공개 자료 없음,"ESMA CASPS.csv(backed 0건), FINRA 검색 'backed finance' 무관 결과만"
+Kraken,"Payward Ltd(영국) 등 FCA 등록, Kraken Derivatives US(CFTC)","영국 FCA, CFTC","찾았으나 공개 자료 없음 (FCA 등록부는 SPA라 조회 불가, cftc.gov 열지 않음)",register.fca.org.uk 검색 URL(내용 없음)
+Kraken,Kraken 뉴욕 DFS 라이선스,주 면허,DFS 면허 목록에 Kraken/Payward 없음,dfs.ny.gov/virtual_currency_businesses
+Robinhood,"Robinhood Derivatives/Robinhood Money 등 CFTC/NFA 등록, 명의개서대리인","NFA, SEC TA","찾았으나 공개 자료 없음 (NFA 직접 조회 불가, SEC 사이트 열지 않음)","NFA BASIC, FINRA BrokerCheck"
+Robinhood,"Robinhood Crypto 외 영국 FCA 등록, 청산 업무 상세 사업 유형",영국 FCA,찾았으나 공개 자료 없음,"register.fca.org.uk(SPA), BrokerCheck JSON에는 사업 유형 상세 없음"
+Binance,"MiCA CASP 인가, FINRA 등록 BD","EU, 미국","찾았으나 공개 자료 없음 (ESMA 목록 407건에 Binance 법인 없음, BrokerCheck 'binance' 0건)","ESMA CASPS.csv, FINRA BrokerCheck, DFS 목록"
+Binance,"Binance 그룹 각국 등록(프랑스 AMF PSAN, 리투아니아, 폴란드, UAE VARA 등)",해외 국가,이번 시간 내 각국 목록 미조회. 미확인,미조회(시간 상한)
+Coinbase,"Coinbase Financial Markets(FCM), Coinbase Derivatives(DCM), Deribit","NFA, CFTC","찾았으나 공개 자료 없음 (NFA 직접 조회 불가, cftc.gov 열지 않음)","NFA BASIC 첫 화면, BrokerCheck 'coinbase financial'은 Coinbase Capital Markets만 반환"
+Coinbase,"Coinbase Europe Limited(아일랜드 CBI), Coinbase Custody International, Tagomi 계열",해외 국가,ESMA MiCA 목록에는 Coinbase Luxembourg S.A.만 있음. 그 외 미확인,ESMA CASPS.csv
+Dinari,"Dinari, Inc., Dinari Financial Sezc 등 해외 법인 등록",주/해외,찾았으나 공개 자료 없음,"BrokerCheck 'dinari'는 Dinari Securities LLC 1건, ESMA 0건"
+Dinari,명의개서대리인(SEC TA) 등록,SEC TA,찾았으나 공개 자료 없음 (SEC 사이트 열지 않음),BrokerCheck 상세에 TA 항목 없음
+Ondo,"Ondo Global Markets, Ondo Finance Inc. 해외 등록",해외,찾았으나 공개 자료 없음,"BrokerCheck 'ondo'는 Ondo Capital Management LLC(BD 아님), ESMA 0건"
+Ondo,"Oasis Pro의 ATS, 명의개서대리인 등록","SEC ATS, TA","BrokerCheck JSON에 ATS, TA 표기 없음. 회사/언론 보도(The Block, Blockworks)에만 있음","BrokerCheck 149420, Federal Register(미조회)"
+OTC Markets Group,MOON ATS 이름의 ATS 및 Form ATS,SEC ATS,OTC Link LLC의 BD 등록은 확인했으나 MOON ATS 명칭의 등록부 근거 없음,"BrokerCheck 'otc markets', 'otc link'"
+Blue Ocean,ATS 등록 표기,SEC ATS,BrokerCheck에 BD 등록만 있고 ATS 표기 없음(이름이 Blue Ocean ATS),BrokerCheck 306512

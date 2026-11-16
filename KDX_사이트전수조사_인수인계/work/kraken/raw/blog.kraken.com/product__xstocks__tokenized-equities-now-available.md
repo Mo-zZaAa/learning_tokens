@@ -67,29 +67,29 @@ Not a Kraken client yet? [Create your account](https://kraken.onl/JDNW/6efp65or)
 
 ### Related Posts
 
-## [Kraken API Unlocked: running multi-strategy operations on Kraken — subaccounts, API keys, and the two layers of separation that matter](https://blog.kraken.com/product/api/unlocked-6-multi-strategy-operations-subaccounts-api-keys)
+## [Spend more than your cash balance: introducing Kraken Borrow for US customers](https://blog.kraken.com/product/borrow/us-customers)
 
-6 min read
+4 min read
 
-May 15th, 2026
+September 24th, 2026
 
-## [Kraken wins Fintech Company of the Year – Established at the National Fintech Awards 2026](https://blog.kraken.com/news/industry-news/fintech-awards-2026)
-
-5 min read
-
-October 26th, 2026
-
-## [New pair available for margin trading: VVV/USD!](https://blog.kraken.com/product/margin/new-pair-vvv-usd)
-
-2 min read
-
-June 17th, 2026
-
-## [Kraken and Deutsche Börse announce strategic partnership to bridge traditional and digital markets](https://blog.kraken.com/news/deutsche-borse-strategic-partnership)
+## [CSPR is available for trading!](https://blog.kraken.com/product/asset-listings/cspr-is-available-for-trading)
 
 3 min read
 
-December 4th, 2025
+July 21st, 2026
+
+## [Kraken to acquire Backed, accelerating xStocks expansion and unlocking global demand for tokenized equities](https://blog.kraken.com/news/backed-acquisition)
+
+4 min read
+
+December 2nd, 2025
+
+## [LAVA is available for trading!](https://blog.kraken.com/product/asset-listings/lava-is-available-for-trading)
+
+2 min read
+
+December 10th, 2025
 
 These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
 

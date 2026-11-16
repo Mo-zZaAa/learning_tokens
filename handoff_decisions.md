@@ -7,3 +7,6 @@
 - www.sec.gov: 셸 403(SEC는 연락처가 들어간 User-Agent를 요구). 임의 연락처로 바꾸는 시도는 권한 판정에서 거부되어 하지 않음. SEC 규칙과 명령은 Federal Register(federalregister.gov, govinfo.gov)로 대체. EDGAR 공시는 사용자 허가(연락처 UA) 필요 항목으로 blocked_links에 남김.
 - Coinbase(www, investor, help)와 investors.robinhood.com은 봇 차단(Cloudflare, Akamai) 403. 헤드리스 브라우저도 차단. 우회하지 않음. Coinbase 공식 사이트 수집(map) 불가 → 사이트 밖 자료만으로 조사.
 - 사용자 요청(12:0x UTC): db/licenses.csv 추가, 등록부로만 확인. 웹 화면 지시에 등록 지도 배치(2-1) 추가. LIC 에이전트 띄움.
+- ATS 상세 조사는 야간 거래 3곳만(지시문 2절 시간 부족 시 규칙). ATS-2 후보 STEN, CGXS는 규모가 작거나 차별화 근거가 약해 ats_screen.csv에만 남김. ATS-2가 Blue Ocean, Bruce, MOON을 '다른 담당'으로 적은 줄은 병합 때 ATS-1 줄로 대체.
+- site-pack-reader는 세션 시작 뒤 추가된 정의라 에이전트 종류로 부를 수 없음. general-purpose + model haiku로 띄우고 정의 파일(.claude/agents/site-pack-reader.md)을 그대로 따르게 함. 부르는 횟수를 줄이려고 에이전트 하나에 묶음 2~6개를 주고, 묶음마다 notes 파일을 따로 쓰게 함(verify 짝 맞춤 유지).
+- ATS 운영사 사이트는 map하지 않음. ATS-1이 운영사 사이트와 FINRA API로 필요한 항목을 채웠고, 남은 시간을 회사 6곳 읽기에 씀.

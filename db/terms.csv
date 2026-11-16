@@ -1,4 +1,8 @@
 용어,원어,쉬운 뜻,이 과제에서 중요한 이유,헷갈리는 짝,차이 한 줄,한국의 대응 용어와 제도,source_id
+블라인드 거래,blind trading,한 거래장의 호가를 못 보고 주문하는 상태,한국 증권사 앱에 Bruce와 MOON 시세가 안 나와 지정가 주문만 가능했던 문제,야간 거래,"블라인드 거래는 시세 부재, 야간은 시간대",국내 증권사 해외주식 주간거래,ATS-1-S18
+공정접근 규칙,Fair Access Rule (Reg ATS),ATS가 한 종목 거래량의 5% 이상을 6개월 중 4개월 차지하면 접근 제한을 못 하게 하는 규칙,Blue Ocean의 2026-09 18개 종목 중단 사유,거래소 호가 규칙,ATS 전용 접근 의무,다자간매매체결회사 접근 규정,ATS-1-S18
+롤백,rollback,체결 취소 시 잔고와 증거금을 되돌리는 시스템,2025-11 한국 주간거래 재개 조건,체결 취소,"롤백은 정정 절차, 취소는 사고",증권사 해외주식 주간거래 재개 조건,ATS-1-S19
+OTC Overnight,OTC Overnight,OTC Markets의 OTC 및 교차상장 해외 주식 야간 시장,MOON(NMS)과 짝으로 운영,MOON ATS,OTC 주식 대 NMS 주식,,ATS-1-S09
 공동 합의서 취하,joint stipulation of dismissal,양쪽이 함께 소송을 그만두겠다고 법원에 내는 서류,"Coinbase, Binance, Kraken 소송이 모두 이 방식으로 끝남",판결,판결은 법원이 결론을 내리고 취하는 당사자가 끝냄,소 취하,CASE-S01
 편견 없는 취하,dismissal with prejudice,같은 내용으로 다시 소송할 수 없는 취하,Kraken 건은 합의서 제출일까지의 행위에 한정됨,편견 있는 취하(without prejudice),재소 가능 여부가 다름,,CASE-S04
 동의 판결,consent judgment,잘못을 인정하거나 부인하지 않고 조건에 합의해 받는 판결,Kraken 스테이킹 합의 형식,확정 판결,법원이 사실을 다투지 않고 합의 내용을 확인함,,CASE-S03
@@ -7,6 +11,38 @@
 합의 명령 AWC,"Acceptance, Waiver and Consent",FINRA 제재를 회사가 인정하거나 다투지 않고 받아들이는 문서,Robinhood FINRA 제재 형식,SEC 합의 명령,기관이 다름(자율규제기구 대 정부),금융투자협회 등 자율규제는 별도,CASE-S06
 혁신금융서비스,,규제 샌드박스로 규제 특례를 받는 지정,조각투자 사업자의 한국 운영 근거,인가,"지정은 시한부 특례, 인가는 정식 허가",금융혁신지원특별법,CASE-S12
 제재면제,,제재를 하지 않기로 의결,뮤직카우 사후 처리,제재 보류,"면제는 확정, 보류는 미룸",,CASE-S11
+ADGM,Abu Dhabi Global Market,아부다비의 금융 자유구역. 영국식 법체계와 자체 금융 규제기관(FSRA)을 둠,bStocks의 투자설명서를 승인한 곳,DIFC(두바이 금융 자유구역),"ADGM은 아부다비, DIFC는 두바이. 가상자산 전담 규제청 VARA는 두바이 일반 지역",금융위원회와 자본시장법,EXT-Binance-S01
+FSRA,Financial Services Regulatory Authority,ADGM의 금융 감독기관,Binance 3개 법인의 인가와 투자설명서 승인 기관,VARA,"FSRA는 ADGM 안, VARA는 두바이 가상자산 감독","금융위원회, 금융감독원",EXT-Binance-S04
+Certificate(증서),Certificate representing certain Financial Instruments (FSMR Sch.1 para 92),기초 증권을 대표하는 증서형 증권. 주식 자체가 아님,bStocks의 법적 성격. 의결권 등 주주 권리 없음,주식 예탁증서(DR),"DR은 발행사 주식을 예탁한 증서, bStocks는 제3자(BTech)가 발행하는 증서","예탁증권(DR), 신탁수익증권",EXT-Binance-S01
+Recognised Investment Exchange(RIE),같음,ADGM이 인정한 거래소,Nest Exchange가 다자간거래시설(MTF) 운영,Recognised Clearing House(RCH),"RIE는 거래, RCH는 청산 결제 수탁","거래소(자본시장법상 거래소), 한국예탁결제원",EXT-Binance-S04
+MVP 라이선스,Minimal Viable Product license,VARA가 초기 단계에 주는 제한적 운영 허가,Binance FZE의 두바이 인가 단계,VARA 정식 라이선스,MVP는 시범 단계(자격 투자자 위주),가상자산사업자 신고(특금법),EXT-Binance-S08
+US person(미국인),US person,미국 거주자와 미국 법인 등 미국 증권법상 대상,bStocks의 제외 대상. 미국 증권법 등록 회피 구조,,,,EXT-Binance-S01
+주식 예탁증서형 증서,Certificate over Shares,기초주식 지분에 대한 비례 수익권을 나타내는 증서. 토큰은 운영 증표,Coinbase 토큰화 주식의 법적 성격,주식 직접 보유,"증서는 SPV가 신탁 보유한 주식에 대한 수익권, 직접 주주 아님","예탁증권(DR), 신탁수익증권",EXT-Coinbase-S02
+베스팅 조건,Vesting Conditions,"KYC, 제재 심사, 지갑 통제 증명을 통과해야 법적 소유자로 장부에 오르고 상환과 의결을 행사할 수 있는 조건",토큰을 누구나 사고팔 수 있어도 권리는 심사 통과자만 가짐,단순 토큰 보유,토큰 이전과 법적 권리 행사가 분리됨,전자등록 계좌부 등록,EXT-Coinbase-S02
+토큰화 주체,Tokenisation Entity / CSD,토큰 민팅과 법적 소유 장부 유지와 공시까지 맡는 FSRA 인가 법인(OML),발행 SPV는 직원이 없고 이 법인에 의존,발행 주체,"SPV가 발행, OML이 기록과 운영","전자등록기관, 한국예탁결제원",EXT-Coinbase-S02
+Authorised Participant,Authorised Participant,1차 시장에서 증권 창설과 상환을 하는 승인된 전문투자자,유일한 유통 개시 경로,Market Maker,발행 사무 접근 권한 유무,발행시장 인수인 또는 유동성공급자,EXT-Coinbase-S02
+규정 S,Regulation S,미국 밖에서 미국인에게 팔지 않는 조건으로 SEC 등록 없이 하는 증권 제공,Coinbase 토큰화 주식은 미국인에게 팔 수 없음,Rule 144A,역외 비미국인 대상 vs 적격기관 대상,해외 사모 발행 제한,EXT-Coinbase-S01
+B20,B20 token,Base에서 Coinbase가 쓰는 토큰 규격(Base 안내문),토큰화 주식 사용 규격,ERC-20,페이지 설명 이상은 미확인,,EXT-Coinbase-S01
+명의개서대리인,Transfer Agent,증권 발행사를 대신해 주주명부(소유자 기록)를 관리하는 SEC 등록 업자(Exchange Act 17A),"Dinari, Inc.가 토큰 발행 기록의 법적 근거로 내세우는 등록",브로커딜러,"명의개서대리인은 소유자 기록 관리, 브로커딜러는 매매 중개","한국예탁결제원(명의개서대행), 증권대행사",EXT-Dinari-S12
+옴니버스 계좌,Omnibus account,여러 해외 투자자의 주문을 한 계좌에 모아 보유하는 통합계좌,카카오페이증권이 원주 조달에 쓰려는 수단,개별 계좌,옴니버스는 최종 투자자 구분 없이 합산 보유,"해외투자자 통합계좌(자본시장법 시행령, 금융투자업규정)",EXT-Dinari-S03
+CRD 번호,Central Registration Depository number,FINRA가 브로커딜러와 개인에게 매기는 등록 식별번호,BrokerCheck 조회 키(329672),SEC 파일번호,"CRD는 FINRA 식별, 8-xxxxx는 SEC BD 파일번호",금융투자업 등록번호(금융감독원 금융회사 조회),EXT-Dinari-S01
+xStocks,xStocks,"미국 등 상장 주식과 ETF를 1:1 담보로 블록체인에 올린 토큰. 발행은 Backed, 제공은 Kraken",핵심 사업,예탁증서(DR),"DR은 해외 예탁기관이 원주를 예탁하고 현지에서 발행, xStocks는 추적 증권(S10)이며 발행사가 기초주식을 담보로 보유","토큰증권, 해외주식 예탁증서",EXT-Kraken-S02
+Tracker certificate,Tracker (open-ended),기초자산 가격을 따라가는 만기 없는 증서. 투자설명서의 xStocks 상품 유형,법적 성격 이해,주식 직접 보유,"기초주식은 발행사가 담보로 보유, 투자자는 주주 아님(가격 노출)",파생결합증권 비교,EXT-Kraken-S10
+Base Prospectus / Final Terms,"Base Prospectus, Final Terms",발행 프로그램 전체 설명서와 종목별 조건서,발행 구조 근거,,종목마다 최종 조건서를 따로 제출,증권신고서와 투자설명서,EXT-Kraken-S10
+Tokenizer,Tokenizer,미리 만든 원장형 증권을 활성화해 투자자 지갑으로 보내는 주체. 발행사 본인이며 Payward 인프라 사용,발행 절차,,,,EXT-Kraken-S10
+Authorized Participant,Authorized Participant,발행사와 계약해 토큰 신규 발행과 상환을 요청하는 승인 참가자,유통 구조,,,,EXT-Kraken-S10
+xPO,xPO,비상장 기업이 주식을 xStocks로 온체인 공모하는 계획 상품(승인 조건),향후 방향,IPO,상장 전 발행 첫날부터 2차 시장,,EXT-Kraken-S06
+Total Platform Margin,TPM,"총수익에서 거래비용, 거래손익, 고객 스테이킹 보상을 뺀 지표",성과 지표 해석,Adjusted Revenue,Adjusted Revenue는 스테이킹 보상을 빼지 않음,,EXT-Kraken-S06
+트래커 인증서,Tracker Certificate,기초 주식 가격을 1:1로 따라가는 채무증권. 기초 주식 자체의 소유권은 아님,Ondo Global Markets 토큰의 법적 성격,주식예탁증서(DR),DR은 원주 권리를 대표하나 이 토큰은 발행자에 대한 제한소구 채권,"파생결합증권, 증권예탁증권(DR)",EXT-Ondo-S01
+제한소구,limited-recourse,상환이 담보 자산으로만 가능하고 발행자의 다른 재산에는 청구 못함,투자자 권리의 범위,,,,EXT-Ondo-S01
+Regulation S,Regulation S (Rule 902),미국 밖 거래에는 증권 등록을 요구하지 않는 SEC 규칙. 미국인 제외가 전제,미국인 제외 구조의 근거,Rule 144A,144A는 미국 내 적격기관 재판매,,EXT-Ondo-S01
+토크나이저,Tokenizer,Final Terms에서 계산 대행 등을 맡은 Ondo Finance Inc.의 역할 명칭,발행 법인과 모회사 역할 구분,,,,EXT-Ondo-S01
+투자설명서 패스포팅,Base Prospectus approved by FMA Liechtenstein,"리히텐슈타인 감독청이 승인한 EU 투자설명서로 EU, EEA 여러 나라에서 공모",EU 개인투자자 대상 제공 근거,,,증권신고서,EXT-Ondo-S01
+통합계좌,omnibus account,여러 투자자 보유분을 한 계좌에 모아 관리,카카오페이증권 한국주식 조달 방식,,,외국인 통합계좌(투자등록 예외 제도),EXT-Ondo-S11
+Stock Tokens,Robinhood Stock Tokens,미국 주식과 ETF 가격에 연동된 토큰. 주식 소유권과 의결권은 없고 발행사에 대한 채권(부채증권)이라고 보도됨,KDX가 참고할 사업의 핵심 상품,"주식 예탁증서(DR), 토큰증권","DR은 기초 주식을 실제 보관하고 권리를 연결, 이 토큰은 가격 노출만 줌(보도 기준)","토큰증권(STO)은 전자증권법상 발행 계좌 기록, 발행사 채무는 별개",EXT-Robinhood-S12
+Robinhood Chain,Robinhood Chain,Arbitrum 기술을 쓴 이더리움 L2. 2026-07-01 메인넷,토큰 24시간 거래 인프라,Arbitrum One,"Arbitrum One은 공용 체인, Robinhood Chain은 회사 전용 L2",,EXT-Robinhood-S09
+MiCA CASP,Crypto-Asset Service Provider (MiCA),EU 가상자산서비스 제공자 인가. 한 회원국 인가로 EU 전역 영업 가능(패스포트),Robinhood Europe가 리투아니아에서 취득,MiFID 증권중개 인가,"CASP는 가상자산, MiFID는 금융투자상품",가상자산이용자보호법상 사업자 신고(참고),EXT-Robinhood-S03
+Classic Stock Tokens,Classic Stock Tokens,2026-10 실적 발표에서 기존 EEA 대상 Stock Tokens를 가리키는 이름,Robinhood Chain 위 새 Stock Tokens와 구분,Stock Tokens(체인),"Classic은 EEA, 체인판은 미국 밖 120여 개국(보도)",,EXT-Robinhood-S01
 증권,securities,추가 납입 의무 없는 금융투자상품. 6종류,토큰증권이 증권인지 판단하는 출발점,파생상품,파생상품은 추가 지급 의무가 있을 수 있다,자본시장법 제4조,KR-1-S01
 인가업무 단위,authorized business unit,"금융투자업 종류, 상품 범위, 투자자 유형을 묶어 인가받는 최소 단위",단위가 허용 업무와 최저자기자본을 정한다,등록업무 단위,"인가는 투자매매, 중개, 집합투자, 신탁. 등록은 자문, 일임 등","자본시장법 제12조, 시행령 별표 1",KR-1-S03
 2o 단위(장외거래중개),OTC brokerage unit,투자중개업자가 비상장 지분증권과 수익증권의 장외매매를 중개하는 인가 단위,조각투자 장외 유통의 인가 틀. 법 조문에는 장외거래중개업이라는 이름이 없고 별표 1의 코드 2o에서 온 호칭,다자간매매체결회사,"ATS는 상장 증권 대상, 2o는 비상장 대상","시행령 제178조의2, 별표 1 비고 17",KR-1-S03
@@ -32,7 +68,6 @@ AMM 유동성풀,Automated Market Maker Liquidity Pool,스마트컨트랙트가 
 Covered Firm,Covered Firm,"TSV 유동성풀에 자기자본으로 토큰화 주식 유동성을 공급하는 자로, 딜러 등록을 면제받는 자",유동성 공급자 규제 완화,딜러,"고객 자산 보관 금지, 자기 계산만",유동성공급자(LP),US-2-S01
 특별목적 브로커딜러(SPBD),Special Purpose Broker-Dealer,디지털자산 증권만 다루는 조건으로 수탁을 인정받던 브로커딜러,토큰증권 수탁 경로,일반 브로커딜러,SPBD는 전통 증권과 비증권 가상자산 수탁 불가,계좌관리기관,US-2-S03
 Form ATS-N,Form ATS-N,NMS 주식 ATS가 운영 구조와 이해상충을 SEC에 내고 공개하는 서식,NMS Stock ATS 진입 요건,Form ATS,ATS-N은 공개되고 SEC가 무효 선언 가능,다자간매매체결회사 인가 신청,US-2-S06
-명의개서대리인,Transfer Agent,발행회사를 대신해 증권 발행과 이전을 기록하는 자,토큰증권 기록 주체,청산기관,"TA는 주주명부 기록, 청산기관은 거래 결제 중개",명의개서대리인,US-2-S05
 미국인,U.S. person,미국 거주 개인과 미국 법인 등. 국적이 아니라 거주와 설립지 기준,Reg S로 해외 투자자 전용 토큰을 팔 때 팔면 안 되는 대상,미국 시민,시민권자라도 해외 거주면 U.S. person이 아닐 수 있다,거주자와 비거주자(외국환거래법),US-3-S04
 배포 준수 기간,distribution compliance period,"Reg S 판매 후 미국인에게 되팔리지 않게 막는 기간(40일, 1년, 6개월)",토큰 2차 유통에서 미국인 유입 차단 기간의 근거,보유기간(Rule 144),"DCP는 해외판매 직후 미국인 판매 금지, 보유기간은 제한증권 재판매 대기",전매제한 제도(자본시장법 시행령),US-3-S05
 미국 내 판매 활동,directed selling efforts,미국 시장을 달구려는 홍보,토큰 마케팅과 접근 차단의 기준,일반 광고,"DSE는 Reg S, 일반 광고는 Reg D 개념",,US-3-S04

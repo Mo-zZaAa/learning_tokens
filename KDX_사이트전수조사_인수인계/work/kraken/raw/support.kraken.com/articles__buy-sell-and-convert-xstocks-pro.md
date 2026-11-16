@@ -255,29 +255,90 @@ The margin position limits represent the maximum position size for a particular 
 
 ## 펼치거나 눌러야 보이던 내용
 
+### How to trade xStocks on the Kraken Pro website 누른 뒤
+
+- How to trade xStocks on the Kraken Pro website
+- 1
 - Go to pro.kraken.com and sign in to your Kraken account.
+- 2
+- After signing in, you can immediately find xStocks using the Market selector in the top left corner.
+- 3
 - After clicking the market selector, click the xStocks filter to see only xStocks markets. You may also use the search bar to search for a specific xStock market.
+- 4
+- Select an xStock market by clicking it, this will then open the Trade page with your selected market.
+- 5
 - On the Trade page, you can then use the Order Form widget to place a buy or sell order. First, you’ll want to select whether you’d like to buy or sell, then select the order type.
+- 6
 - Next, enter the Quantity or Total amount of your trade. If you’ve selected a Limit Order, you’ll also need to set a Limit Price, which is the price in which you want your order to execute.
+- 7
 - Then, click the large Buy or Sell button to submit your order.
+
+### How to trade xStocks on the Kraken Pro app 누른 뒤
+
+- 1
+- Open the Kraken Pro app, sign in if needed.
+- 2
 - xStocks can be found on the Markets tab of Kraken Pro in the bottom left corner, but you may also search for xStocks by tapping the Search bar at the top of the screen.
+- 3
 - Search for the xStock market you’d like to trade. You can filter the search results to only show xStocks as well.
+- 4
 - Tap the xStock market you’d like to trade. This will take you to the Trade page for this xStock market.
+- 5
 - On the bottom of the Trade page for the market, you’ll notice a green buy button, and a red sell button. Tap the order type you’d like to create.
+- 6
 - After selecting the order type, enter the Amount of shares, or Total cost of your trade. If you’ve selected a Limit Order, you’ll also need to set a Limit Price, which is the price in which you want your order to execute.
+
+### How to convert xStocks 누른 뒤
+
+- How to convert xStocks
+- Kraken Pro web
+- 1
 - Go to the Portfolio page.
+- 2
 - Click Convert in the top right corner.
+- 3
 - In the From box, select the xStock you'd like to convert from, then enter the amount in the box.
+- 4
 - In the To box, select the asset you'd like to convert to. The correct amount will automatically populate based on the amount you entered in the From box.
+- 5
 - Click the Review button at the bottom of the form.
+- 6
+- Take a look at the confirmation. Here you can see the conversion amounts, rate of exchange, and the fee.
+- 7
 - Click Confirm to submit the conversion.
+- Kraken Pro app
+- 1
+- Go to the Portfolio tab.
+- 2
 - Tap the Convert button.
+- 3
+- In the From box, select the xStock you'd like to convert from, then enter the amount in the box.
+- 4
+- In the To box, select the asset you'd like to convert to. The correct amount will automatically populate based on the amount you entered in the From box.
+- 5
 - Tap the Review button at the bottom of the form.
+- 6
+- Take a look at the confirmation. Here you can see the conversion amounts, rate of exchange, and the fee.
+- 7
 - Tap Confirm to submit the conversion.
+
+### How to margin trade xStocks on the Kraken Pro website 누른 뒤
+
+- 4
+- Select an xStock market by clicking it, or search for the xStock you'd like to trade on margin.
 - Note: AAPLx, CRCLx, GLDx, GOOGLx, HOODx, MSTRx, NVDAx, QQQx, SPYx, TSLAx are available for margin trading.
+- 5
 - On the Trade page, you can then use the Order Form widget to place a buy or sell order. First, you'll want to enable margin using the Margin toggle. You’ll then want to select whether you’d like to buy or sell (Long or Short), and then select the order type.
+
+### How to margin trade xStocks on the Kraken Pro app 누른 뒤
+
+- 6
 - After selecting the order type, tap the Margin toggle to enable margin trading. Then, enter the Amount of shares, or Total cost of your trade.
 - If you’ve selected a Limit Order, you’ll also need to set a Limit Price, which is the price in which you want your order to execute.
+
+### Position limits 누른 뒤
+
+- Position limits
 - The margin position limits represent the maximum position size for a particular pair, represented in base units. If you try to open a margin position that exceeds the limit, you will see a "Margin position size exceeded".
 - Pair	Long Position Limit	Short Position Limit
 - AAPLx/USD	200	200

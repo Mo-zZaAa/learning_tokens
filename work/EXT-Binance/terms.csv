@@ -1,0 +1,7 @@
+"용어","원어","쉬운 뜻","이 과제에서 중요한 이유","헷갈리는 짝","차이 한 줄","한국의 대응 용어와 제도","source_id"
+"ADGM","Abu Dhabi Global Market","아부다비의 금융 자유구역. 영국식 법체계와 자체 금융 규제기관(FSRA)을 둠","bStocks의 투자설명서를 승인한 곳","DIFC(두바이 금융 자유구역)","ADGM은 아부다비, DIFC는 두바이. 가상자산 전담 규제청 VARA는 두바이 일반 지역","금융위원회와 자본시장법","EXT-Binance-S01"
+"FSRA","Financial Services Regulatory Authority","ADGM의 금융 감독기관","Binance 3개 법인의 인가와 투자설명서 승인 기관","VARA","FSRA는 ADGM 안, VARA는 두바이 가상자산 감독","금융위원회, 금융감독원","EXT-Binance-S04"
+"Certificate(증서)","Certificate representing certain Financial Instruments (FSMR Sch.1 para 92)","기초 증권을 대표하는 증서형 증권. 주식 자체가 아님","bStocks의 법적 성격. 의결권 등 주주 권리 없음","주식 예탁증서(DR)","DR은 발행사 주식을 예탁한 증서, bStocks는 제3자(BTech)가 발행하는 증서","예탁증권(DR), 신탁수익증권","EXT-Binance-S01"
+"Recognised Investment Exchange(RIE)","같음","ADGM이 인정한 거래소","Nest Exchange가 다자간거래시설(MTF) 운영","Recognised Clearing House(RCH)","RIE는 거래, RCH는 청산 결제 수탁","거래소(자본시장법상 거래소), 한국예탁결제원","EXT-Binance-S04"
+"MVP 라이선스","Minimal Viable Product license","VARA가 초기 단계에 주는 제한적 운영 허가","Binance FZE의 두바이 인가 단계","VARA 정식 라이선스","MVP는 시범 단계(자격 투자자 위주)","가상자산사업자 신고(특금법)","EXT-Binance-S08"
+"US person(미국인)","US person","미국 거주자와 미국 법인 등 미국 증권법상 대상","bStocks의 제외 대상. 미국 증권법 등록 회피 구조","","","","EXT-Binance-S01"

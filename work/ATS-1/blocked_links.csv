@@ -1,0 +1,7 @@
+"링크","무엇이 있는 곳인지","필요한 이유","막힌 종류","시도한 방법","필요한 조치"
+"https://www.nasdaq.com/press-release/otc-markets-group-announces-launch-moon-ats-new-overnight-trading-platform-national","MOON ATS 출시 보도자료 원문","1차 원문 확인","연결 실패(000)","셸 curl","GlobeNewswire 전재(AAP)로 대체 확인"
+"https://www.otcmarkets.com/otc-link/moon-overnight","OTC Markets MOON 소개 페이지","운영 법인, 가입 안내","연결 실패(000)","셸 curl","다른 담당 열람"
+"https://www.businesswire.com/news/home/20250625304252/en/Bruce-Markets-Announces-New-Round-of-Strategic-Investment-Backed-by-Industry-Leaders","Bruce 투자 라운드 보도자료 원문","1차 원문 확인","403","셸 curl","Markets Media 전재로 대체"
+"https://www.businesswire.com/news/home/20251020916827/en/Bruce-ATS-Integrates-with-Yonhap-Infomax-to-Expand-24-Hour-U.S.-Equities-Market-Access-in-Asia","Bruce와 연합인포맥스 연동 보도","한국 연결 현황","403","셸 curl","열람 필요"
+"https://peak6.com/bruce-markets-releases-2026-q3-overnight-market-review","Bruce 2026 Q3 야간 시장 리뷰","자사 집계 점유율","404(제목만 목록에서 확인)","셸 curl","Bruce 사이트 News에서 원문 탐색"
+"https://otctransparency.finra.org/otctransparency/AtsData","FINRA ATS 거래 통계 화면","통계 확인","자바스크립트 화면","셸 curl","FINRA 공개 API로 대체"

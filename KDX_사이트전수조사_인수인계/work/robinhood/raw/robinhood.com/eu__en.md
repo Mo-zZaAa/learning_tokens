@@ -3,7 +3,7 @@ url: https://robinhood.com/eu/en
 title: Explore Classic Stock Tokens & Crypto | Robinhood EU
 description: From Classic Stock Tokens to crypto – buy, sell, and manage it all in one place with Robinhood EU. Start investing today with as little as €1.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 

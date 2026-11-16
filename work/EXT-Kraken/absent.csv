@@ -1,0 +1,8 @@
+"회사","항목","구분","사유","찾아본 곳"
+"Kraken","영국 FCA 등록","인가","열람 자료에서 FCA 등록부 미확인. xStocks는 영국 투자자에게 제공하지 않는다고 S02, S04, S08이 밝힘","payward.com 보도자료, 웹 검색"
+"Kraken","미국 주별 송금업 라이선스와 Wyoming 은행 등 미국 인가 목록","인가","보도자료에 구체 목록 없음. DCM, DCO, FCM 보유 언급만(S06)","Payward Q3 자료"
+"Kraken","MiCA 인가 1차 출처","인가","businesswire 403. 검색 요약만(아일랜드 중앙은행, 2025-06-25, Payward Europe Solutions Limited) 직접 열지 못해 facts에 넣지 않음","웹 검색 요약"
+"Kraken","SEC 소송 종결 원문","사건","sec.gov 호스트 막힘. 검색 요약상 2025-03-27 lr-26278, 불이익 취하","kb/cases.md에 이미 있음"
+"Kraken","공개 IPO 서류(S-1)와 상장 일정","상장","공개 서류 없음. 비공개 제출은 언론 보도만. Payward Q3, Q2 자료에는 IPO 언급 없음","Payward 보도자료"
+"Kraken","한국 투자자의 xStocks 이용 가능 여부와 한국 제휴","한국","South Korean assets 토큰화 계획 문구만 있고 한국 제휴사나 이용 허용 문구 없음","S03, S06, S16 전체 텍스트"
+"Backed","Backed Finance AG 소재지, 설립 시기, 인수 종결 시점과 금액","지배구조","S01은 인수 합의만, Walkers는 Backed Assets (JE) 취득만 언급, 금액 미공개","S01, S12"

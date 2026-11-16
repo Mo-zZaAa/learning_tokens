@@ -105,3 +105,12 @@ For Vermont Customers: THIS IS A LOAN SOLICITATION ONLY. ROBINHOOD CREDIT, INC. 
 Robinhood, 85 Willow Road, Menlo Park, CA 94025.  
   
 © 2026 Robinhood. All rights reserved.
+
+## 펼치거나 눌러야 보이던 내용
+
+### Terms apply 누른 뒤
+
+- Terms apply
+- Cash-like transactions or prohibited transaction categories, such as rent and taxes, are not eligible for rewards. For more information, including important limitations and other terms applicable to the Robinhood Gold Card, please see disclosures at the bottom of this page and:
+- Card Program Terms
+- Rewards Program Terms

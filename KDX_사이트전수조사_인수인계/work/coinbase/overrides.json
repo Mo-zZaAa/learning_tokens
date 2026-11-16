@@ -1,0 +1,15 @@
+{
+ "settings": {},
+ "read": [
+  "*stock*",
+  "*tokeniz*",
+  "*legal*",
+  "*terms*",
+  "https://www.base.org/about*"
+ ],
+ "skim": [],
+ "list": [
+  "https://*base.org/*"
+ ],
+ "skip": []
+}

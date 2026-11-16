@@ -1,0 +1,7 @@
+"링크","무엇이 있는 곳인지","필요한 이유","막힌 종류","시도한 방법","필요한 조치"
+"https://www.justice.gov/archives/opa/pr/binance-and-ceo-plead-guilty-federal-charges-4b-resolution","DOJ 보도자료(Binance 유죄 인정)","DOJ 합의 1차 출처","봇 확인 화면(curl), DNS 차단(WebFetch)","curl, WebFetch","justice.gov를 허용 도메인에 추가하거나 사람이 확인"
+"https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26316","SEC 소송 취하 공시","SEC 취하 1차 출처","DNS 차단","WebFetch","sec.gov 허용 또는 courtlistener 등 사본"
+"https://www.adgm.com/media/announcements/binance-becomes-first-crypto-exchange-to-secure-a-global-license-under-adgm-framework-setting-a-new-standard-in-digital-asset-regulation","ADGM 발표문, 공개 등록부","ADGM 인가의 감독기관 1차 확인","본문 비어 있음(자바스크립트), WebFetch DNS 차단","curl, WebFetch","ADGM 공개 등록부 사람이 확인"
+"https://www.theblock.co/post/374864/binance-completes-acquisition-gopax","The Block 고팍스 인수 완료","고팍스 지분율","403","curl","없음(우회 금지)"
+"https://thedefiant.io/converge/tradfi-and-fintech/binance-opens-us-stock-trading-non-us-users-bstocks-bnb-chain","The Defiant bStocks 기사","교차 확인","403","curl","없음"
+"VARA 공개 등록부, AMF 디지털자산사업자 등록부, Binance bStocks 약관과 투자설명서(binance.com 도메인)","각국 등록부와 회사 공식 사이트","현재 인가 상태, 제외 국가 목록","범위 밖 또는 미시도","","공식 사이트 담당과 사람 확인"

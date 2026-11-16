@@ -154,6 +154,9 @@ As part of Payward Brasil’s regulatory transition, these products are no longe
 
 ## 펼치거나 눌러야 보이던 내용
 
+### I hold xStocks. Will they disappear from my account? 누른 뒤
+
+- I hold xStocks. Will they disappear from my account?
 - No. Your existing xStocks holdings continue to display in your Balances on Kraken Pro, or in your Portfolio in the Kraken app. Only the ability to discover or buy new xStocks is available on the global platform.
 
 ## 구조화 데이터(JSON-LD)

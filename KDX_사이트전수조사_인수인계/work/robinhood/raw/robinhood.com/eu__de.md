@@ -3,7 +3,7 @@ url: https://robinhood.com/eu/de
 title: Entdecken Classic Stock Tokens und Krypto | Robinhood EU
 description: Mit Robinhood EU können Sie nicht nur Classic Stock Tokens sondern auch Kryptowährungen kaufen, verkaufen und verwalten – alles an einem Ort. Schon ab 1 EUR Anlagesumme.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 

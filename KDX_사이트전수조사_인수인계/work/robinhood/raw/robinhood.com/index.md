@@ -94,3 +94,24 @@ Here's a preview of the things you can learn when you sign up.
 # Join a new generation of investors
 
 [Get started](https://robinhood.com/signup)
+
+## 펼치거나 눌러야 보이던 내용
+
+### Fees + IPO disclosures 누른 뒤
+
+- Fees + IPO disclosures
+- While there are no commission fees to buy IPO shares, there are other fees associated with your brokerage account. Review Robinhood Financial's fee schedule for more information.
+- IPOs can be risky and speculative investments, and may not be appropriate for every investor. Learn more.
+
+### Crypto Risk Disclosures 누른 뒤
+
+- Crypto Risk Disclosures
+- Trading in cryptocurrencies comes with significant risks, including volatile market price swings or flash crashes, market manipulation, and cybersecurity risks. In addition, cryptocurrency markets and exchanges are not regulated with the same controls or customer protections available in equity, option, futures, or foreign exchange investing. Cryptocurrency trading can lead to large and immediate financial losses and is suitable only for investors who can bear such losses.
+
+### US 누른 뒤
+
+- US
+- UK
+- EU
+- CA
+- SG

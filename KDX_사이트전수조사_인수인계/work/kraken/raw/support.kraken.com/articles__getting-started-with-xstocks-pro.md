@@ -108,14 +108,32 @@ Unlock xStocks on the Kraken Pro app
 
 ## 펼치거나 눌러야 보이던 내용
 
+### Unlock xStocks trading on the Kraken Pro website 누른 뒤
+
+- Unlock xStocks trading on the Kraken Pro website
+- 1
 - Go to pro.kraken.com and sign in to your Kraken account.
+- 2
 - Next, head over to your account settings by clicking here, or by clicking the human icon in the top right and then clicking Settings.
+- 3
 - Under Account details you will see a row for xStocks with an Unlock button to the right. Click the Unlock button to begin the xStocks verification process.
+- 4
 - You’ll then be taken to a couple of verification questions. Answer these questions, and click Continue.
+- 5
 - That’s all! If your account is eligible for xStocks, the Unlock button should turn into an Unlocked confirmation, and you may begin trading xStocks.
+
+### Unlock xStocks on the Kraken Pro app 누른 뒤
+
+- 1
+- Open the Kraken Pro app, sign in if needed.
+- 2
 - Tap the human icon in the top right corner to enter the Account page.
+- 3
 - At the top of the page, under your name, tap View account details.
+- 4
 - Then, you’ll see a row for xStocks trading, with its current status to the right (Locked or Not eligible). If xStocks is “Locked”, simply tap the row to begin verification to unlock xStocks.
+- You’ll then be taken to a couple of verification questions. Answer these questions, and click Continue.
+- 6
 
 ## 구조화 데이터(JSON-LD)
 

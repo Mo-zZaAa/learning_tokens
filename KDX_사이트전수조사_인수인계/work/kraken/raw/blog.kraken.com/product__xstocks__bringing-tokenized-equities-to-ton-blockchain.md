@@ -71,29 +71,29 @@ This approach enables assets to move freely across ecosystems, laying the founda
 
 ### Related Posts
 
-## [Multiple vendors, one launch, zero coordination: the vendor sprawl problem](https://blog.kraken.com/product/360/the-vendor-sprawl-problem)
+## [Win 3 bitcoins this holiday season](https://blog.kraken.com/product/promotions/win-3-bitcoins-holiday-2025)
 
-4 min read
+3 min read
 
-April 22nd, 2026
+December 5th, 2025
 
-## [Trading Spaces recap: Liquidity jitters, BTC’s “last stand” and why privacy coins won’t quit](https://blog.kraken.com/crypto-education/dentoshi_below_100k_but_we_still_have_hope)
-
-4 min read
-
-November 17th, 2025
-
-## [Bittensor subnet tokens are coming to Kraken](https://blog.kraken.com/product/new-features/bittensor-subnet-tokens)
+## [SODA is available for trading!](https://blog.kraken.com/product/asset-listings/soda-is-available-for-trading)
 
 2 min read
 
-July 3rd, 2026
+August 14th, 2026
 
-## [EDU is available for trading!](https://blog.kraken.com/product/asset-listings/edu-is-available-for-trading)
+## [UP is available for trading!](https://blog.kraken.com/product/asset-listings/up-is-available-for-trading)
 
 2 min read
 
-November 13th, 2025
+February 10th, 2026
+
+## [xStocks: now trading 24/7 on Kraken Pro](https://blog.kraken.com/product/xstocks/24-7-on-kraken-pro)
+
+3 min read
+
+December 3rd, 2025
 
 These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
 

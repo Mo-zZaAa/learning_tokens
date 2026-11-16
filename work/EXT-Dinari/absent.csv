@@ -1,0 +1,7 @@
+"회사","항목","구분","사유","찾아본 곳"
+"Dinari","유럽 MiFID II 하 유통 인가","해외 라이선스","공개 자료 없음. Dinari 자신의 MiFID 인가나 투자설명서는 못 찾음. 유럽 접근은 Gemini 제휴(검색 요약, 미열람)로 보이며 근거 인가 불명","WebSearch 'Dinari MiFID II'. FCA, CySEC, BaFin 등록부는 이름 검색 도구가 없어 직접 열지 못함"
+"Dinari","홍콩 일반 증권 취급 인가","해외 라이선스","공개 자료 없음. SFC 등록부 검색 결과에 Dinari 없음(검색 엔진 기준, 등록부 직접 열람은 아님)","WebSearch"
+"Dinari","중남미 디지털 결제 라이선스","해외 라이선스","공개 자료 없음. 중남미 이용 비중은 500 Global 글(단일 출처)만 있음","WebSearch"
+"Dinari","FINRA 또는 주 감독기관 제재","제재와 사고","BrokerCheck 공시 0건(Dinari Securities LLC). 그 외 법인(Dinari, Inc.)의 제재 기록은 못 찾음","BrokerCheck API"
+"Dinari","거래량, 이용자 수의 제3자 확인값","성과 지표","열린 제3자 출처 없음. DefiLlama, CoinGecko는 봇 차단. 이용자 수는 검증된 공개값 없음","WebSearch, curl"
+"Dinari","경영진이 밝힌 진출 사유 인터뷰 원문","경영진 발언","The Block 인터뷰(Anna Wroblewska, 2026-05)는 DNS 차단으로 열지 못함","WebSearch"

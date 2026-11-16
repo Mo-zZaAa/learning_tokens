@@ -52,29 +52,29 @@ BNB Chain’s addition marks another significant milestone for xStocks, expandin
 
 ### Related Posts
 
-## [Trade futures without the wallet-hopping: Unified Wallet is now available in the EEA](https://blog.kraken.com/product/unified-wallet/now-available-in-the-eea)
-
-5 min read
-
-October 16th, 2026
-
-## [GAME2 is available for trading!](https://blog.kraken.com/product/asset-listings/game2-is-available-for-trading)
+## [MON staking is live globally at up to 12% APY](https://blog.kraken.com/product/staking/monad)
 
 2 min read
 
-November 26th, 2025
+August 6th, 2026
 
-## [WEMIX is available for trading!](https://blog.kraken.com/product/asset-listings/wemix-is-available-for-trading)
-
-2 min read
-
-July 7th, 2026
-
-## [CPI, FOMC, and the SpaceX IPO: two weeks of consequential data](https://blog.kraken.com/economic-brief/june-10-2026)
+## [GDP and PCE tomorrow morning; SpaceX IPO timeline accelerates](https://blog.kraken.com/economic-brief/may-27-2026)
 
 8 min read
 
-June 10th, 2026
+May 27th, 2026
+
+## [Your Kraken balance, ready to spend: the Kraken Card is here](https://blog.kraken.com/product/kraken-card/introducing-the-kraken-card)
+
+5 min read
+
+July 13th, 2026
+
+## [ROBO is available for trading!](https://blog.kraken.com/product/asset-listings/robo-is-available-for-trading)
+
+2 min read
+
+March 5th, 2026
 
 These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
 

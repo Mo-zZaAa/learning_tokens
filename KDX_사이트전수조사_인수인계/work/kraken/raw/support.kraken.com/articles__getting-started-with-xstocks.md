@@ -139,15 +139,48 @@ Kraken and Backed utilize secure custody, audited reserves, and blockchain infra
 
 ## 펼치거나 눌러야 보이던 내용
 
+### Unlock xStocks trading on the Kraken app 누른 뒤
+
+- Unlock xStocks trading on the Kraken app
+- 1
 - Open the Kraken app and go to the Buy section.
+- 2
+- Search for any token and tap on it. xStocks are identified by an "x" appended to the stock ticker, setting them apart from traditional stocks.
+- 3
 - A Get started popup will appear, tap Continue.
+- 4
+- Accept the updated Terms of Service, and confirm that you are not located in the U.S. or a U.S. Person.
+- 5
+- Confirm your current address.
+- If your address has changed from what's displayed in the app, or requires verification, you may need to upload a new proof of address.
+- Once you’re approved, you’ll be ready to start trading xStocks!
+
+### How are xStocks different from traditional stocks? 누른 뒤
+
+- How are xStocks different from traditional stocks?
+- xStocks do not confer traditional shareholder rights such as voting. Dividends are handled differently: when a dividend is declared, your xStock balance is automatically adjusted upward to reflect the dividend value, net of applicable withholding taxes. You retain the economic benefit of dividends without needing to take any action. For full details on how this works, see Do I receive dividends from xStocks?
+- Unlike traditional brokerage models, xStocks remove friction, costly fees, limited market hours, and complex onboarding, offering instant settlement, fractional investments, 24/5 market access, and self-custody. Stocks are built on blockchain technology and use smart contracts for transparency, automation and cost-efficiency.
 - Feature	Traditional Stocks	xStocks
 - Trading Hours	Limited to market hours
+- 24/5 on Kraken; 24/7 onchain
 - Settlement Time	1 business day	Instant or near-instant via smart contracts
 - Accessibility	Limited by geography and intermediaries
+- Investors can withdraw xStocks to a compatible onchain wallet for full control​
 - Transparency	Relies on third parties	Immutable records on blockchain
+
+### Who can buy xStocks? 누른 뒤
+
+- Who can buy xStocks?
 - xStocks are only available to non-U.S. clients in select countries; visit this support article for who can access. They are not accessible in the US (or to US Persons), Canada, UK, or Australia​.
+
+### When can I trade xStocks? 누른 뒤
+
+- When can I trade xStocks?
 - xStocks can be traded 24/5, providing access outside of traditional market hours. Weekend trading availability is in development​.  When withdrawn to a self-hosted wallet, xStocks can be traded 24/7 onchain.
+
+### Are xStocks safe to use? 누른 뒤
+
+- Are xStocks safe to use?
 - Kraken and Backed utilize secure custody, audited reserves, and blockchain infrastructure to ensure the safety and transparency of xStock holdings. Still, investing in xStocks involves an element of risk. Read Kraken’s xStocks Risk Disclosure at kraken.com/legal/xstocks as well as the Base Prospectus and related Final Terms for xStocks at https://assets.backed.fi/legal-documentationto learn more.
 
 ## 구조화 데이터(JSON-LD)

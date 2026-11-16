@@ -69,29 +69,29 @@ In the weeks ahead, we’ll continue working with Backed and leading crypto comm
 
 ### Related Posts
 
-## [Payward 宣布收购 Reap，扩展 B2B 全球支付基础设施本](https://blog.kraken.com/global/reap-acquisition-cn)
-
-1 min read
-
-May 7th, 2026
-
-## [USDT0 on Stellar deposits and withdrawals now available!](https://blog.kraken.com/product/new-features/usdt0-on-stellar-deposits-and-withdrawals-now-available)
+## [CHIP is available for trading!](https://blog.kraken.com/product/asset-listings/chip-is-available-for-trading)
 
 2 min read
 
-September 4th, 2026
+April 23rd, 2026
 
-## [QUAI is available for trading!](https://blog.kraken.com/product/asset-listings/quai-is-available-for-trading)
+## [PROS is available for trading!](https://blog.kraken.com/product/asset-listings/pros-is-available-for-trading)
 
 2 min read
 
-April 10th, 2026
+April 28th, 2026
 
-## [Remote isn’t a perk. It’s how Kraken operates.](https://blog.kraken.com/news/industry-news/remote-is-how-kraken-operates)
+## [PNT is available for trading!](https://blog.kraken.com/product/asset-listings/pnt-is-available-for-trading)
 
-5 min read
+2 min read
 
-March 5th, 2026
+October 8th, 2026
+
+## [USDC deposits and withdrawals now available on Injective!](https://blog.kraken.com/product/new-features/usdc-deposits-and-withdrawals-now-available-on-injective)
+
+2 min read
+
+July 28th, 2026
 
 These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
 
