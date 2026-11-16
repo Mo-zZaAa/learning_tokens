@@ -87,6 +87,9 @@ def evidence(ids):
             sid = (f.get("source_id") or "").split(";")[0].strip()
             title = sources.get(sid, {}).get("제목", "") if sid else ""
             url = (f.get("링크") or "").strip()
+            if not url.startswith("http"):
+                url = ""
+                title = title or "사용자 제공 문서"
             q = (f.get("원문 근거 문장") or "").strip()
             key = (url, q[:80])
             if key in seen:
@@ -179,6 +182,8 @@ def parse(path):
             link = um.group(0).rstrip(".,)")
             text = (text[:um.start()] + text[um.end():]).strip().rstrip(",").strip()
             text = re.sub(r",\s*,", ",", text)
+        text = re.sub(r"\((?:\.\./)?(?:inputs|sources|work|captures)/[^)]*\)", "(사용자 제공 문서)", text)
+        text = re.sub(r"(?:\.\./)?(?:inputs|sources|work)/\S+", "사용자 제공 문서", text)
         label, rest = None, text
         if " : " in text:
             label, rest = text.split(" : ", 1)

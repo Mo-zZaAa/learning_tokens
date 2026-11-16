@@ -1,0 +1,181 @@
+# 용어
+
+- **블라인드 거래** (blind trading): 한 거래장의 호가를 못 보고 주문하는 상태 헷갈리는 짝: 야간 거래. 블라인드 거래는 시세 부재, 야간은 시간대
+- **공정접근 규칙** (Fair Access Rule (Reg ATS)): ATS가 한 종목 거래량의 5% 이상을 6개월 중 4개월 차지하면 접근 제한을 못 하게 하는 규칙 헷갈리는 짝: 거래소 호가 규칙. ATS 전용 접근 의무
+- **롤백** (rollback): 체결 취소 시 잔고와 증거금을 되돌리는 시스템 헷갈리는 짝: 체결 취소. 롤백은 정정 절차, 취소는 사고
+- **OTC Overnight** (OTC Overnight): OTC Markets의 OTC 및 교차상장 해외 주식 야간 시장 헷갈리는 짝: MOON ATS. OTC 주식 대 NMS 주식
+- **공동 합의서 취하** (joint stipulation of dismissal): 양쪽이 함께 소송을 그만두겠다고 법원에 내는 서류 헷갈리는 짝: 판결. 판결은 법원이 결론을 내리고 취하는 당사자가 끝냄
+- **편견 없는 취하** (dismissal with prejudice): 같은 내용으로 다시 소송할 수 없는 취하 헷갈리는 짝: 편견 있는 취하(without prejudice). 재소 가능 여부가 다름
+- **동의 판결** (consent judgment): 잘못을 인정하거나 부인하지 않고 조건에 합의해 받는 판결 헷갈리는 짝: 확정 판결. 법원이 사실을 다투지 않고 합의 내용을 확인함
+- **투자계약증권** (investment contract securities): 사업자의 노력으로 수익이 나는 계약 형태의 증권 헷갈리는 짝: 지분증권, 채무증권. 특정 서식 없이 실질로 판단
+- **비조치 성격 종결** (closed without charges): 조사가 끝났고 기소하지 않겠다고 통지 헷갈리는 짝: 비조치의견서(no-action letter). 종결 통지는 사후, 비조치의견서는 사전 문의 답변
+- **합의 명령 AWC** (Acceptance, Waiver and Consent): FINRA 제재를 회사가 인정하거나 다투지 않고 받아들이는 문서 헷갈리는 짝: SEC 합의 명령. 기관이 다름(자율규제기구 대 정부)
+- **혁신금융서비스**: 규제 샌드박스로 규제 특례를 받는 지정 헷갈리는 짝: 인가. 지정은 시한부 특례, 인가는 정식 허가
+- **제재면제**: 제재를 하지 않기로 의결 헷갈리는 짝: 제재 보류. 면제는 확정, 보류는 미룸
+- **ADGM** (Abu Dhabi Global Market): 아부다비의 금융 자유구역. 영국식 법체계와 자체 금융 규제기관(FSRA)을 둠 헷갈리는 짝: DIFC(두바이 금융 자유구역). ADGM은 아부다비, DIFC는 두바이. 가상자산 전담 규제청 VARA는 두바이 일반 지역
+- **FSRA** (Financial Services Regulatory Authority): ADGM의 금융 감독기관 헷갈리는 짝: VARA. FSRA는 ADGM 안, VARA는 두바이 가상자산 감독
+- **Certificate(증서)** (Certificate representing certain Financial Instruments (FSMR Sch.1 para 92)): 기초 증권을 대표하는 증서형 증권. 주식 자체가 아님 헷갈리는 짝: 주식 예탁증서(DR). DR은 발행사 주식을 예탁한 증서, bStocks는 제3자(BTech)가 발행하는 증서
+- **Recognised Investment Exchange(RIE)** (같음): ADGM이 인정한 거래소 헷갈리는 짝: Recognised Clearing House(RCH). RIE는 거래, RCH는 청산 결제 수탁
+- **MVP 라이선스** (Minimal Viable Product license): VARA가 초기 단계에 주는 제한적 운영 허가 헷갈리는 짝: VARA 정식 라이선스. MVP는 시범 단계(자격 투자자 위주)
+- **US person(미국인)** (US person): 미국 거주자와 미국 법인 등 미국 증권법상 대상
+- **주식 예탁증서형 증서** (Certificate over Shares): 기초주식 지분에 대한 비례 수익권을 나타내는 증서. 토큰은 운영 증표 헷갈리는 짝: 주식 직접 보유. 증서는 SPV가 신탁 보유한 주식에 대한 수익권, 직접 주주 아님
+- **베스팅 조건** (Vesting Conditions): KYC, 제재 심사, 지갑 통제 증명을 통과해야 법적 소유자로 장부에 오르고 상환과 의결을 행사할 수 있는 조건 헷갈리는 짝: 단순 토큰 보유. 토큰 이전과 법적 권리 행사가 분리됨
+- **토큰화 주체** (Tokenisation Entity / CSD): 토큰 민팅과 법적 소유 장부 유지와 공시까지 맡는 FSRA 인가 법인(OML) 헷갈리는 짝: 발행 주체. SPV가 발행, OML이 기록과 운영
+- **Authorised Participant** (Authorised Participant): 1차 시장에서 증권 창설과 상환을 하는 승인된 전문투자자 헷갈리는 짝: Market Maker. 발행 사무 접근 권한 유무
+- **규정 S** (Regulation S): 미국 밖에서 미국인에게 팔지 않는 조건으로 SEC 등록 없이 하는 증권 제공 헷갈리는 짝: Rule 144A. 역외 비미국인 대상 vs 적격기관 대상
+- **B20** (B20 token): Base에서 Coinbase가 쓰는 토큰 규격(Base 안내문) 헷갈리는 짝: ERC-20. 페이지 설명 이상은 미확인
+- **명의개서대리인** (Transfer Agent): 증권 발행사를 대신해 주주명부(소유자 기록)를 관리하는 SEC 등록 업자(Exchange Act 17A) 헷갈리는 짝: 브로커딜러. 명의개서대리인은 소유자 기록 관리, 브로커딜러는 매매 중개
+- **옴니버스 계좌** (Omnibus account): 여러 해외 투자자의 주문을 한 계좌에 모아 보유하는 통합계좌 헷갈리는 짝: 개별 계좌. 옴니버스는 최종 투자자 구분 없이 합산 보유
+- **CRD 번호** (Central Registration Depository number): FINRA가 브로커딜러와 개인에게 매기는 등록 식별번호 헷갈리는 짝: SEC 파일번호. CRD는 FINRA 식별, 8-xxxxx는 SEC BD 파일번호
+- **xStocks** (xStocks): 미국 등 상장 주식과 ETF를 1:1 담보로 블록체인에 올린 토큰. 발행은 Backed, 제공은 Kraken 헷갈리는 짝: 예탁증서(DR). DR은 해외 예탁기관이 원주를 예탁하고 현지에서 발행, xStocks는 추적 증권(S10)이며 발행사가 기초주식을 담보로 보유
+- **Tracker certificate** (Tracker (open-ended)): 기초자산 가격을 따라가는 만기 없는 증서. 투자설명서의 xStocks 상품 유형 헷갈리는 짝: 주식 직접 보유. 기초주식은 발행사가 담보로 보유, 투자자는 주주 아님(가격 노출)
+- **Base Prospectus / Final Terms** (Base Prospectus, Final Terms): 발행 프로그램 전체 설명서와 종목별 조건서
+- **Tokenizer** (Tokenizer): 미리 만든 원장형 증권을 활성화해 투자자 지갑으로 보내는 주체. 발행사 본인이며 Payward 인프라 사용
+- **Authorized Participant** (Authorized Participant): 발행사와 계약해 토큰 신규 발행과 상환을 요청하는 승인 참가자
+- **xPO** (xPO): 비상장 기업이 주식을 xStocks로 온체인 공모하는 계획 상품(승인 조건) 헷갈리는 짝: IPO. 상장 전 발행 첫날부터 2차 시장
+- **Total Platform Margin** (TPM): 총수익에서 거래비용, 거래손익, 고객 스테이킹 보상을 뺀 지표 헷갈리는 짝: Adjusted Revenue. Adjusted Revenue는 스테이킹 보상을 빼지 않음
+- **트래커 인증서** (Tracker Certificate): 기초 주식 가격을 1:1로 따라가는 채무증권. 기초 주식 자체의 소유권은 아님 헷갈리는 짝: 주식예탁증서(DR). DR은 원주 권리를 대표하나 이 토큰은 발행자에 대한 제한소구 채권
+- **제한소구** (limited-recourse): 상환이 담보 자산으로만 가능하고 발행자의 다른 재산에는 청구 못함
+- **Regulation S** (Regulation S (Rule 902)): 미국 밖 거래에는 증권 등록을 요구하지 않는 SEC 규칙. 미국인 제외가 전제 헷갈리는 짝: Rule 144A. 144A는 미국 내 적격기관 재판매
+- **토크나이저** (Tokenizer): Final Terms에서 계산 대행 등을 맡은 Ondo Finance Inc.의 역할 명칭
+- **투자설명서 패스포팅** (Base Prospectus approved by FMA Liechtenstein): 리히텐슈타인 감독청이 승인한 EU 투자설명서로 EU, EEA 여러 나라에서 공모
+- **통합계좌** (omnibus account): 여러 투자자 보유분을 한 계좌에 모아 관리
+- **Stock Tokens** (Robinhood Stock Tokens): 미국 주식과 ETF 가격에 연동된 토큰. 주식 소유권과 의결권은 없고 발행사에 대한 채권(부채증권)이라고 보도됨 헷갈리는 짝: 주식 예탁증서(DR), 토큰증권. DR은 기초 주식을 실제 보관하고 권리를 연결, 이 토큰은 가격 노출만 줌(보도 기준)
+- **Robinhood Chain** (Robinhood Chain): Arbitrum 기술을 쓴 이더리움 L2. 2026-07-01 메인넷 헷갈리는 짝: Arbitrum One. Arbitrum One은 공용 체인, Robinhood Chain은 회사 전용 L2
+- **MiCA CASP** (Crypto-Asset Service Provider (MiCA)): EU 가상자산서비스 제공자 인가. 한 회원국 인가로 EU 전역 영업 가능(패스포트) 헷갈리는 짝: MiFID 증권중개 인가. CASP는 가상자산, MiFID는 금융투자상품
+- **Classic Stock Tokens** (Classic Stock Tokens): 2026-10 실적 발표에서 기존 EEA 대상 Stock Tokens를 가리키는 이름 헷갈리는 짝: Stock Tokens(체인). Classic은 EEA, 체인판은 미국 밖 120여 개국(보도)
+- **증권** (securities): 추가 납입 의무 없는 금융투자상품. 6종류 헷갈리는 짝: 파생상품. 파생상품은 추가 지급 의무가 있을 수 있다
+- **인가업무 단위** (authorized business unit): 금융투자업 종류, 상품 범위, 투자자 유형을 묶어 인가받는 최소 단위 헷갈리는 짝: 등록업무 단위. 인가는 투자매매, 중개, 집합투자, 신탁. 등록은 자문, 일임 등
+- **2o 단위(장외거래중개)** (OTC brokerage unit): 투자중개업자가 비상장 지분증권과 수익증권의 장외매매를 중개하는 인가 단위 헷갈리는 짝: 다자간매매체결회사. ATS는 상장 증권 대상, 2o는 비상장 대상
+- **다자간매매체결회사** (ATS (alternative trading system)): 거래소 밖에서 전자적으로 다수 당사자 매매를 체결하는 투자매매업자 또는 투자중개업자 헷갈리는 짝: 거래소. 거래소는 허가로 시장을 개설, ATS는 인가받은 금융투자업자
+- **매매체결대상상품** (tradable products on ATS): ATS가 거래할 수 있는 상품(상장 주권 등)
+- **최저자기자본** (minimum equity capital): 인가 단위별 자기자본 하한
+- **토큰증권** (Security Token; 법률상 분산원장등록주식등): 블록체인 같은 분산원장에 기록해 발행하고 거래하는 증권. 내용이 아니라 형태의 구분 헷갈리는 짝: 조각투자증권. 조각투자는 증권의 내용(신탁수익증권, 투자계약증권), 토큰증권은 기록 형태
+- **분산원장** (Distributed ledger): 여러 참여자가 같이 쓰고 지키는, 몰래 지우거나 고칠 수 없게 보호된 장부 헷갈리는 짝: 블록체인. 블록체인은 분산원장 기술의 한 종류
+- **발행인계좌관리기관** (Issuer account management institution): 금융회사가 아닌 발행회사가 자기 발행 토큰증권의 고객 계좌를 직접 관리하도록 금융위에 등록한 자 헷갈리는 짝: 계좌관리기관. 계좌관리기관은 증권사, 은행 등 금융회사. 발행인계좌관리기관은 토큰증권에만, 자기 발행분만
+- **장외거래중개업(장외거래소)** (OTC multilateral brokerage): 거래소 밖에서 여러 고객 주문을 서로 맞춰 주는 투자중개업 인가 단위 헷갈리는 짝: 다자간매매체결회사. 다자간매매체결회사는 상장증권 대상 대체거래소, 장외거래소는 비상장 증권 대상
+- **발행과 유통 분리** (Separation of issuance and distribution): 자기가 발행, 인수, 주선한 증권을 자기 유통 플랫폼에서 거래시키지 못하게 하는 원칙 헷갈리는 짝: 자기계약 금지. 분리 원칙은 상품 단위, 자기계약 금지는 거래 상대방 단위
+- **외국인 통합계좌** (Omnibus account): 글로벌 운용사나 증권사 명의로 여러 최종투자자 주문을 한 계좌에서 처리 헷갈리는 짝: 외국인 투자자 등록. 등록제는 2023.12.14. 폐지, LEI 또는 여권번호로 바로 계좌 개설
+- **외화증권** (Foreign currency securities): 외국환거래법 제3조제1항제8호의 증권. 국내 증권사가 해외 증권을 다룰 때의 기본 용어 헷갈리는 짝: 외국 집합투자증권. 외국 펀드는 별도 특례(금투업규정 제7편 제9장)
+- **원장기반증권** (Ledger-Based Securities (스위스 채무법 제973d조)): 블록체인 같은 원장에 등록해야 권리가 생기는 스위스법상 증권 형태 헷갈리는 짝: ADGM 증서(Certificate over Shares). 스위스는 발행사 채무증서를 원장에 올린 것이고 ADGM 증서는 기초주식 지분에 대한 수익권
+- **승인 참가자** (Authorized Participant (AP)): 발행사가 승인해 상품을 투자자에게 제공하는 규제 회사 헷갈리는 짝: Coinbase 토큰의 Authorised Participant(기관 마켓메이커). Backed AP는 판매 법인, Coinbase AP는 발행과 상환을 하는 기관
+- **시퀀서 수수료** (Sequencer fee): Base 거래를 모아 기록하는 시퀀서가 받는 수수료. Coinbase가 토큰화 주식에서 얻는 가장 직접적인 수익 헷갈리는 짝: 거래 수수료. 거래소 수수료가 아니라 체인 운영 수수료
+- **SEC 혁신 면제** (SEC innovation exemption): SEC가 혁신 상품 미국 제공을 허용하려고 도입했다고 경영진이 언급한 면제 헷갈리는 짝: 기존 면제 등록. 내용은 이 문서에서 확인 못함. 경영진 발언 기준
+- **무기한 선물** (Perpetual futures (perps)): 만기 없이 이월 없이 들고 갈 수 있는 선물 헷갈리는 짝: 만기 선물. 만기와 이월 비용 유무
+- **자체 청산소 지정** (DCO (Derivatives Clearing Organization)): CFTC 승인을 받은 파생상품 청산 기관 헷갈리는 짝: DCM(계약시장). DCO는 청산, DCM은 거래 시장
+- **보충서** (Supplement (Prospectus Regulation Art. 23)): 투자설명서 내용 변경과 추가를 알리는 문서. 철회권 3영업일 헷갈리는 짝: 기본 투자설명서. 보충서가 충돌 시 우선
+- **발행사 직접 토큰화 증권** (issuer-sponsored tokenized securities): 증권을 낸 회사(또는 그 대리인)가 주주명부 등 기록 시스템에 분산원장을 붙여 증권 자체를 토큰 형태로 발행한 것 헷갈리는 짝: 제3자 보관형. 발행사가 직접 하느냐, 무관한 제3자가 하느냐
+- **제3자 보관형 토큰화 증권** (custodial tokenized securities): 발행사와 무관한 제3자가 기초 증권을 보관하고, 토큰이 그 보관 증권에 대한 보유자의 소유 지분(직접 또는 간접)을 나타내는 방식. 예: 토큰화된 증권 권리(security entitlement) 헷갈리는 짝: 제3자 합성형. 보유자가 기초 증권에 소유 지분을 갖느냐
+- **제3자 합성형 토큰화 증권** (synthetic tokenized securities): 제3자가 자기 자신의 증권을 토큰으로 발행해 기초 증권의 가격에 연동된 노출만 주는 방식. 연계증권과 증권기반 스와프 두 갈래 헷갈리는 짝: 제3자 보관형. 기초 증권 권리 없이 발행자에 대한 청구권만 가짐
+- **연계증권** (linked security): 제3자가 스스로 발행한 증권으로 참조 증권 가치에 수익이 연동되지만, 참조 증권 발행회사의 채무가 아니고 그 회사로부터 아무 권리도 받지 못함. 구조화 채권 같은 채무증권일 수 있음 헷갈리는 짝: 증권기반 스와프. 연계증권은 증권 발행, 스와프는 계약
+- **증권기반 스와프** (security-based swap): 단일 증권이나 좁은 지수 등에 연동된 스와프로, 보유자에게 지분, 의결권, 정보권을 주지 않음. 적격 계약 참가자가 아닌 사람에게는 증권신고서 효력과 거래소 거래 없이는 팔 수 없음 헷갈리는 짝: 연계증권. 계약 형태이며 미국 개인 판매 요건이 더 엄격
+- **bStocks** (bStocks): Binance가 ADGM 승인 투자설명서로 공개한 Digital Securities. 종목 티커는 기초 티커 뒤에 B를 붙임 헷갈리는 짝: Binance 거래소의 일반 가상자산 현물. bStocks는 투자설명서와 공시가 있는 증권형, 일반 코인은 해당 없음
+- **BTech Holdings** (BTech Holdings): 투자설명서 제목에 발행 주체로 표기된 법인. 정식 법인명과 Binance와의 관계는 사이트에 없음 헷갈리는 짝: Binance 거래소 운영 법인. 발행 주체와 거래소 운영 주체의 분리 여부가 핵심. 외부 자료에서 확인(EXT-Binance-001)
+- **Digital Securities** (Digital Securities): 사이트가 bStocks를 부르는 이름 헷갈리는 짝: Certificate. 사이트는 Digital Securities, 외부 법적 분류는 Certificate(EXT-Binance-002)
+- **Outstanding Certificates 공시** (Disclosure on Outstanding Certificates): 주 단위로 게시하는 bStocks 발행 잔량 공시 헷갈리는 짝: 기업행위 공시. 잔량 공시는 수량, 기업행위 공시는 배당, 분할 등 사건
+- **기업행위 공시** (Disclosure on corporate action): 기초 주식의 배당, 분할 등 사건이 bStocks에 미치는 영향을 알리는 공시 헷갈리는 짝: Outstanding Certificates 공시. 기업행위는 사건, 잔량은 수량
+- **거래 편입 통지** (Admission to Trading Notice): 종목을 거래 대상으로 편입한다는 통지 헷갈리는 짝: 청산 편입 통지. 거래 가능 시점 대 청산 가능 시점
+- **청산 편입 통지** (Admission to Clearing Notice): 종목을 청산 대상으로 편입한다는 통지 헷갈리는 짝: 거래 편입 통지. 청산 단계의 편입은 거래와 별도 통지
+- **ADGM FSRA** (Abu Dhabi Global Market Financial Services Regulatory Authority): 아부다비 글로벌 마켓의 금융서비스 규제기관. 사이트는 이 기관 규제를 받는다고 표기 헷갈리는 짝: ADGM 자체. ADGM은 금융자유구역, FSRA는 규제기관
+- **CNV VAS 등록** (CNV Registry of Virtual Asset Service Providers): 아르헨티나 증권위원회의 가상자산서비스제공자 등록부. 사이트는 라이선스나 감독이 아니라고 명시 헷갈리는 짝: 인가(license). 등록은 자금세탁 통제 목적, 인가는 영업 허가
+- **US Plea Agreements** (US Plea Agreements): 미국 법원 판결과 FinCEN 동의 명령을 합친 개인정보 고지상의 정의 헷갈리는 짝: 제재 유무. 감독인과의 정보 공유 의무가 약관에 반영됨
+- **배수** (multiplier): 토큰 한 개가 주식 몇 주에 해당하는지를 나타내는 온체인 값. 배당과 분할이 토큰 수량 대신 배수로 반영됨 헷갈리는 짝: 리베이스 토큰. 수량이 변하지 않고 환산비만 변함
+- **승인 참여자** (Authorized Participant(AP)): KYC를 마치고 토큰을 직접 발행(민팅)하고 상환할 수 있는 기관 파트너. 주로 기관 마켓메이커 헷갈리는 짝: 일반 이용자. AP만 KYC를 거치고 2차 시장은 허가 없이 거래
+- **파산 격리** (bankruptcy-remote): 발행사나 중개사가 파산해도 기초자산이 채권자 청구 대상에서 분리되도록 보관하는 구조 헷갈리는 짝: 분리 보관. 법적 격리 여부는 실제 약정과 관할에 따라 달라 사이트 표기만으로 확인 불가
+- **Policy Registry** (Policy Registry): 전송 허용과 거부 규칙(정책)을 모아 두고 여러 토큰이 같은 정책을 참조하게 하는 공유 저장소 헷갈리는 짝: 화이트리스트. 정책 하나를 여러 토큰이 공유
+- **동결과 압류** (freeze and seize): 관리자가 정책에 걸린 주소의 토큰을 동결하거나 승인된 주소로 옮기는 기능 헷갈리는 짝: 일시정지. 일시정지는 함수 단위, 동결과 압류는 주소 단위
+- **총수익 가격 피드** (Total Return Values feed): 배당 등 기업행위를 반영해 주가 대신 총수익을 보고하는 Chainlink 가격 피드 헷갈리는 짝: 시장가 피드. 배수가 이미 반영된 값
+- **Coinbase Sequencer** (Coinbase Sequencer): Coinbase가 운영하며 Base 거래를 받고 기록하고 보고하는 노드. 사용자 자산을 보관하지 않는다고 약관이 명시 헷갈리는 짝: 검증자. Base는 optimistic rollup이고 시퀀서가 주문 담당
+- **Aave V4 담보** (Aave V4 collateral): 토큰화 주식을 맡기고 USDC를 빌리는 DeFi 대출. Base Markets가 담보 사용 금액과 금리를 표시 헷갈리는 짝: Morpho vault. Aave는 대출 시장, Morpho와 Superform은 전략 vault
+- **dShares** (dShares): 기초 증권에 1:1로 담보된 Dinari의 토큰 헷갈리는 짝: 주식 예탁증서(DR). DR은 발행사나 예탁기관이 발행, dShares는 브로커딜러와 수탁 브로커가 보유한 주식을 토큰으로 기록
+- **2차 기록 토큰** (secondary recordkeeping token): 계좌의 주식 포지션을 블록체인에 따로 기록한 토큰. 별도 투자가 아니며 불일치 시 계좌 기록이 우선(미국 공시) 헷갈리는 짝: 별도 증권(docs FAQ). 미국 공시는 계좌 기록의 사본, FAQ는 별도 증권이라 표현
+- **완전공개 청산** (fully disclosed clearing): 청산 회사가 고객별 계좌를 알고 직접 장부를 관리하는 방식 헷갈리는 짝: 옴니버스 청산. 옴니버스는 고객 구분 없이 합산
+- **USD+** (USD+): Dinari가 발행하는 수익형 스테이블코인(단기 미국 국채 담보라고 주장) 헷갈리는 짝: USDC. USDC는 Circle 발행 일반 스테이블코인, USD+는 Dinari 발행 수익 발생형
+- **Dinari Financial Network** (Dinari Financial Network(DFN)): Avalanche 기반 Dinari 전용 Layer 1과 기관 참여 틀
+- **restricted state** (restricted state): dShare가 허가 없는 환경으로 나가면 일부 소유권 권리가 정지되는 상태(회사 표현)
+- **Rule 14b-1(c)** (SEC Rule 14b-1(c)): 발행사 요청 시 명의 보유 증권의 실소유자 정보를 공개할 수 있게 하는 규칙
+- **NBBO** (National Best Bid and Offer): 미국 시장 전체의 최우선 매수, 매도 호가
+- **Payward Digital Solutions Ltd.(PDSL)** (Payward Digital Solutions Ltd.): xStocks를 적격 Kraken 고객에게 제공하는 버뮤다 법인 헷갈리는 짝: Backed Assets (JE) Limited. PDSL은 판매 법인, Backed는 발행사
+- **Backed Assets (JE) Limited** (Backed Assets (JE) Limited): xStocks를 발행하는 저지(Jersey) 법인 헷갈리는 짝: Backed Finance AG. 사이트에는 JE 법인만 나옴. 모기업은 외부 자료(EXT-Kraken)에서 확인
+- **U.S. person** (U.S. person): 미국 거주자와 미국 법인 등 미국 증권법상 제한 대상 헷갈리는 짝: US residents. U.S. person은 국적과 거주를 넘어 미국 증권법상 대상 범주
+- **SPDI** (Special Purpose Depository Institution): 와이오밍주 특수목적예금기관. 예금보험 없이 디지털 자산 수탁을 하는 주 인가 은행 헷갈리는 짝: 일반 상업은행. FDIC 보험 은행이 아니라고 사이트가 밝힘
+- **MTF** (Multilateral Trading Facility): EU의 다자간 거래시설. 증권사 등이 운영하는 거래 시장 헷갈리는 짝: 거래소. 정규 거래소와 달리 MiFID II상 시설 구분
+- **MiCA** (Markets in Crypto-Assets Regulation): EU 암호자산 시장 규제 헷갈리는 짝: MiFID II. MiCA는 암호자산, MiFID II는 금융상품(토큰증권 포함 가능)
+- **VASP** (Virtual Asset Service Provider): 가상자산 사업자 등록 대상 헷갈리는 짝: CASP(MiCA상 명칭). VASP는 자금세탁 규정상 등록, CASP는 MiCA 인가
+- **FPSL** (Fully Paid Securities Lending): 투자자가 전액 지불한 주식을 빌려주고 수익을 받는 프로그램 헷갈리는 짝: 마진 대여. 고객이 전액 지불한 주식을 대상으로 한 대여
+- **RFQ** (Request for Quote): 실행 가능한 견적을 요청하는 거래 방식 헷갈리는 짝: 채팅 거래. RFQ는 자동 견적, 채팅은 데스크와 직접 확정
+- **CF Benchmarks** (CF Benchmarks): Kraken 계열의 디지털 자산 지수 제공자
+- **Tier 3 KYC** (Tier 3 identity verification): Kraken의 신원확인 단계 중 가장 높은 쪽(사이트는 T3로 표기) 헷갈리는 짝: Intermediate, Pro 등급. 등급별 이용 범위가 다름
+- **IPO access** (IPO access): 상장 전 기업의 토큰화 주식을 IPO 가격에 신청하는 서비스 헷갈리는 짝: 일반 IPO 청약. 배정은 인수단이 수요에 따라 결정, 지역별 제공 상이
+- **Ondo Stocks** (Ondo Stocks (구 Ondo Global Markets)): 미국 상장 주식과 ETF 가격을 따라가는 토큰을 미국 외 투자자에게 제공하는 서비스 이름. 사이트는 이전 명칭이 Ondo Global Markets라고 적는다 헷갈리는 짝: Ondo Global Markets(GM) 토큰. 같은 상품의 옛 이름과 새 이름. 개명 시점은 사이트에 없음
+- **on 접미사** ("on" suffix (예: TSLAon)): 기초 종목 티커 뒤에 on을 붙인 토큰 이름 헷갈리는 짝: DR(예탁증서). DR은 원주 권리를 대표하나 이 토큰은 기초자산 보유 권리를 주지 않는다고 약관이 밝힘
+- **구조화 노트** (structured note): BVI 특수목적회사가 발행하는 채무 상품. 토큰 보유자 권리는 발행사 판매 약관(스위스법)에 따름 헷갈리는 짝: 주식, DR. 주주 권리가 없고 발행사 채무 및 담보에 의존
+- **Security Agent** (Security Agent / Collateral Agent): 담보권을 투자자를 위해 보유하고 담보 자산 존재를 검증하는 독립 수탁 대리인. 사이트는 Ankura Trust Company를 지명 헷갈리는 짝: 신탁업자. 
+- **USDon** (USDon): Ondo Stocks 브로커리지 계좌의 미국 달러로 1:1 담보되는 스테이블코인. 토큰화 주식 매수와 상환의 결제 수단 헷갈리는 짝: USDC. USDC는 외부 스테이블코인, USDon은 플랫폼 내 결제용. 둘 사이 전환은 기본적으로 허용 목록(whitelist) 필요
+- **Off-Hours 세션** (Off-Hours session): 기초 미국 시장이 닫힌 시간(주말, 공휴일)에 선택된 자산만 거래하는 별도 세션. 자산별 한도와 넓은 스프레드 헷갈리는 짝: 오버나이트 세션. 오버나이트는 평일 8:05pm-3:55am ET, Off-Hours는 기초 시장 휴장 때
+- **JIT 민팅** (just-in-time (JIT) minting): 스왑이 실행되는 순간 토큰을 발행하는 방식
+- **USDY** (USDY): 단기 미국채와 은행 예금 등으로 담보되는 토큰화 노트. 수익이 가격에 누적됨. 사이트는 스테이블코인이 아니라고 명시 헷갈리는 짝: rUSDY. USDY는 가격이 오르는 누적형, rUSDY는 $1.00 유지하고 수량이 늘어나는 리베이싱형
+- **OUSG** (OUSG): 단기 미국 국채에 대한 노출을 주는 토큰. 발행사는 델라웨어 유한파트너십 Ondo I LP이며 accredited investor 대상 헷갈리는 짝: USDY. OUSG는 미국 적격 투자자용(Ondo I LP), USDY는 비미국인용(BVI 발행사)
+- **Nexus** (Nexus): 토큰화 미국 국채와 스테이블코인 발행사가 고객에게 즉시 민트와 상환을 제공하도록 하는 Ondo 기술(회사 서술)
+- **Ondo Private Client** (Ondo Private Client Program): Ondo Foundation이 운영하는 충성도 프로그램. 보유 자산이나 누적 거래량으로 등급을 나눔
+- **표시 배율** (display multiplier): 배당 재투자로 토큰이 대표하는 주식 수가 늘어날 때, 지원 지갑이 잔고를 배율로 보정해 보여 주는 방식(Solana, BNB Chain) 헷갈리는 짝: 리베이싱. 
+- **Covered Entities** (Covered Entities): 이용약관이 정의한 Ondo 그룹 법인 묶음. Ondo Global Markets (BVI) Limited와 Ondo USDY LLC가 포함
+- **RHJ** (Robinhood Assets (Jersey) Limited): 저지 설립 비공개 유한회사로 Stock Tokens 발행 주체 헷갈리는 짝: Robinhood Europe, UAB. RHJ는 토큰 발행사, Robinhood Europe는 EU 인가 사업자
+- **Tokenised Products Programme** (RHJ Tokenised Products Programme): RHJ가 부채증권을 종목별 Final Terms로 발행하는 프로그램. 기본투자설명서를 리히텐슈타인 FMA가 승인 헷갈리는 짝: Final Terms. 기본투자설명서는 틀, Final Terms는 종목별 조건
+- **Funded Customers** (Funded Customers): 45일 내 잔액이 있거나 거래한 고유 개인 헷갈리는 짝: Total Platform Assets. 고객 수 대 자산 규모
+- **브로커딜러** (broker-dealer): 증권을 남의 계산으로 사고파는 중개 업무와 자기 계산으로 거래하는 업무를 하려면 증권 당국에 등록해야 하는 회사다. 헷갈리는 짝: 브로커 대 딜러. 브로커는 남의 계산, 딜러는 자기 계산으로 거래한다.
+- **MiFID II** (Markets in Financial Instruments Directive II): EU의 금융상품 시장 지침이다. 증권 중개와 투자자 보호 기준을 정한다. 헷갈리는 짝: MiCA. MiFID II는 전통 금융상품, MiCA는 가상자산을 규율한다.
+- **SPV** (Special Purpose Vehicle): 특정 목적에만 쓰도록 세운 법인이다. 자산을 발행하거나 위험을 가두는 데 쓴다. 헷갈리는 짝: 지주회사. SPV는 한 가지 목적에 한정되고, 지주회사는 자회사 지분을 가진 회사다.
+- **추적 증권** (tracker security (Tracker)): 기초자산 가격을 1:1로 따라가는 증권이다. 만기가 없는 형태도 있다. 헷갈리는 짝: 주식. 추적 증권은 가격을 따라가는 권리, 주식은 회사 지분이다.
+- **채무증권** (debt securities): 발행자가 돈을 빌린 사실을 표시한 증권이다. 발행자는 원금과 이자를 갚을 의무가 있다. 헷갈리는 짝: 지분증권. 채무증권은 빌려준 돈을 돌려받고, 지분증권은 회사의 주인 몫을 가진다.
+- **파생계약** (derivative contract): 기초자산 가격 등에 따라 손익이 정해지는 계약이다. 발행된 증권이 아니어도 금융투자상품이 된다. 헷갈리는 짝: 증권. 파생계약은 계약상 권리이고, 증권은 증권 형식으로 발행된 권리다.
+- **수탁** (custody): 고객의 자산을 맡아 보관하고 관리하는 일이다. 맡은 쪽에 법적 책임이 따른다. 헷갈리는 짝: 신탁. 수탁은 자산을 맡아 관리하는 행위이고, 신탁은 자산을 신탁 구조로 묶는 법적 틀이다.
+- **청산** (clearing): 체결된 거래의 채권과 채무를 중간에서 계산하고 정리해 상대방 위험을 줄이는 절차다. 헷갈리는 짝: 결제. 청산은 정산과 위험 관리, 결제는 실제 돈과 증권의 이전이다.
+- **결제** (settlement): 거래가 끝난 뒤 실제로 돈과 증권을 넘겨 거래를 마감하는 절차다. 헷갈리는 짝: 청산. 청산은 계산과 위험 관리 단계, 결제는 실제 이전 단계다.
+- **명의개서** (transfer of registered ownership): 주주명부에 주식의 소유자가 바뀌었음을 기록하는 절차다. 헷갈리는 짝: 명의개서대리인. 명의개서는 기록하는 행위이고, 명의개서대리인은 그 업무를 맡는 회사다.
+- **원천징수** (withholding tax): 세금을 지급하는 쪽이 지급 때 미리 떼어 나라에 내는 방식이다. 헷갈리는 짝: 세율. 원천징수는 떼는 방식이고, 세율은 떼는 비율이다.
+- **L2** (Layer 2): 이더리움 같은 기반 블록체인 위에 얹은 확장 체인이다. 거래 속도와 비용을 낮추려고 만든다. 헷갈리는 짝: L1. L1은 기반 블록체인이고, L2는 그 위에 있는 체인이다.
+- **시퀀서** (sequencer): L2에서 거래를 받아 순서를 정하고 기록하는 노드다. 헷갈리는 짝: 밸리데이터. 시퀀서는 L2의 거래 순서를 정하고, 밸리데이터는 합의에 참여한다.
+- **스테이블코인** (stablecoin): 달러 같은 법정통화에 1:1로 가치가 연동된 가상자산이다. 헷갈리는 짝: 가상자산. 스테이블코인은 가격 안정을 목표로 하고, 일반 가상자산은 가격이 움직인다.
+- **증권신고서** (securities registration statement): 일정 규모 이상으로 증권을 공모할 때 금융위원회에 내는 신고서다. 수리되기 전에는 판매할 수 없다. 헷갈리는 짝: 투자설명서. 증권신고서는 당국에 내는 신고서이고, 투자설명서는 투자자에게 주는 문서다.
+- **투자설명서** (prospectus (offering document)): 증권을 팔 때 조건과 위험을 적어 투자자에게 주는 문서다. 헷갈리는 짝: 증권신고서. 투자설명서는 투자자에게 주는 문서이고, 증권신고서는 당국에 내는 신고서다.
+- **FINRA** (Financial Industry Regulatory Authority): 미국 브로커딜러를 감독하는 민간 자율규제기구다. 회원사의 규칙 위반을 조사하고 제재한다. 헷갈리는 짝: SEC. FINRA는 업계가 만든 자율규제기구이고, SEC는 정부 감독기관이다.
+- **자율규제기구** (self-regulatory organization (SRO)): 업계가 모인 조직이 회원을 규칙으로 감독하는 기구다. 미국에서는 FINRA가 대표 사례다. 헷갈리는 짝: 정부 규제기관. 자율규제기구는 업계 회원을 감독하고, 정부 규제기관은 법으로 감독한다.
+- **SIPC** (Securities Investor Protection Corporation): 증권사가 파산하면 고객 계좌의 자산을 일정 한도까지 돌려주도록 하는 미국의 투자자 보호 기관이다. 헷갈리는 짝: 예금자보호. SIPC는 증권사 파산 시 고객 자산 보호이고, 예금자보호는 예금 기관의 보호다.
+- **FMA** (Financial Market Authority (Liechtenstein)): 리히텐슈타인의 금융시장 감독기관이다. EU 투자설명서를 승인한다. 헷갈리는 짝: FSRA. FMA는 리히텐슈타인 감독기관이고, FSRA는 아부다비 ADGM의 감독기관이다.
+- **CySEC** (Cyprus Securities and Exchange Commission): 키프로스의 증권 감독기관이다. EU 안에서 금융 서비스 인가를 준다. 헷갈리는 짝: MiFID II. CySEC는 키프로스 감독기관이고, MiFID II는 EU 공통 지침이다.
+- **VARA** (Virtual Asset Regulatory Authority (Dubai)): 두바이의 가상자산 전담 규제기관이다. 헷갈리는 짝: ADGM. VARA는 두바이 가상자산 감독, ADGM은 아부다비 금융 자유구역이다.
+- **FIU** (Financial Intelligence Unit (Korea)): 자금세탁 의심거래를 분석하는 기관이다. 한국에서는 금융정보분석원이다. 헷갈리는 짝: 금융위원회. FIU는 자금세탁 방지 관점의 감독이고, 금융위원회는 인가와 금융 규제를 맡는다.
+- **시장조성사** (market maker): 매수 호가와 매도 호가를 계속 내서 거래 상대를 찾아 주고 유동성을 공급하는 기관이다. 헷갈리는 짝: 승인 참여자. 시장조성사는 호가를 내서 거래를 돕고, 승인 참여자는 토큰을 새로 만들거나 되돌리는 권한을 가진다.
+- **1:1 담보** (1:1 backing): 발행한 토큰 한 개마다 같은 수량의 기초 주식을 보관해 뒷받침하는 방식이다. 헷갈리는 짝: 완전 담보. 1:1 담보는 수량을 맞추는 것이고, 완전 담보는 가치로 뒷받침한다는 뜻으로 쓰인다.
+- **기초자산** (underlying asset): 토큰이나 파생상품의 가치가 따라가는 원래 자산이다. 주식, 국채 등이 여기에 해당한다. 헷갈리는 짝: 발행 자산. 기초자산은 가치의 원천이고, 토큰은 그 권리를 표시한 것이다.
+- **창설과 상환** (creation and redemption): 승인 참여자가 토큰을 새로 만들어 공급을 늘리는 것을 창설, 되돌려 받아 줄이는 것을 상환이라 한다. 헷갈리는 짝: 발행과 유통. 창설과 상환은 공급량 조절이고, 발행과 유통은 처음 내놓고 사고파는 단계 구분이다.
+- **최선집행** (best execution): 고객 주문을 가장 유리한 조건으로 체결해야 할 의무다. 헷갈리는 짝: NBBO. 최선집행은 중개인의 의무이고, NBBO는 시장의 최선 호가 기준이다.
+- **2차 시장** (secondary market): 처음 발행된 뒤 투자자끼리 사고파는 시장이다. 헷갈리는 짝: 1차 시장. 1차 시장은 발행 단계, 2차 시장은 투자자 간 거래 단계다.
+- **공모** (public offering): 불특정 다수나 50인 이상에게 증권 취득을 권유하는 것이다. 헷갈리는 짝: 사모. 공모는 많은 사람에게 권유하고, 사모는 소수에게 권유한다.
+- **사모** (private placement): 소수의 특정 투자자에게만 증권을 파는 방식이다. 등록 의무가 면제되는 근거가 된다. 헷갈리는 짝: 공모. 사모는 소수 대상 면제, 공모는 등록과 공시가 필요한 판매다.
+- **원주** (underlying Korean listed share): 한국 거래소에 상장된 원래 주식이다. 헷갈리는 짝: 토큰 주식. 원주는 실제 주식이고, 토큰은 그 권리를 표시한 증표다.
+- **배당 재투자** (dividend reinvestment): 배당금을 현금으로 받지 않고 기초자산을 더 사서 보유 수량을 늘리는 방식이다. 헷갈리는 짝: 배당 지급. 재투자는 현금이 나가지 않고 수량이 늘며, 지급은 현금을 받는다.
+- **의결권** (voting rights): 주주가 회사 의사결정에 투표할 수 있는 권리다. 헷갈리는 짝: 배당 재투자. 의결권은 경영 참여 권리이고, 배당 재투자는 경제적 이익을 처리하는 방식이다.
+- **NMS 주식** (National Market System stock): 미국 전국 시장 체계에서 거래되는 상장 주식이다. NYSE나 Nasdaq 상장 종목이 포함된다. 헷갈리는 짝: OTC 주식. NMS 주식은 거래소 체계 안의 상장 주식이고, OTC 주식은 장외에서 거래되는 주식이다.
+- **야간 거래** (overnight trading): 정규 거래 시간이 끝난 저녁부터 새벽까지 이어지는 거래다. 한국 낮 시간에 미국 주식을 거래할 수 있게 한다. 헷갈리는 짝: 블라인드 거래. 야간 거래는 시간대를 뜻하고, 블라인드 거래는 호가를 못 보는 상태를 뜻한다.
+- **KYC** (Know Your Customer): 고객의 신원과 위험을 확인하는 절차다. 헷갈리는 짝: AML. KYC는 고객 신원 확인이고, AML은 자금세탁 방지 체계 전체다.
+- **Howey test** (Howey test): 돈을 공동사업에 넣고 남의 노력으로 이익을 기대하면 투자계약 헷갈리는 짝: Howey와 토큰 분류표. Howey는 거래 방식을 보고, 분류표는 토큰 성격을 본다
+- **투자계약** (investment contract): 증권 정의 목록의 한 항목 헷갈리는 짝: 투자계약과 투자계약증권. 미국은 정의 항목, 한국은 증권 종류로 규정
+- **디지털 상품** (digital commodity): SEC 2026 해석의 분류로, 그 자체는 증권이 아닌 토큰 헷갈리는 짝: 디지털 증권. 증권 여부가 갈린다
+- **디지털 증권** (digital securities): SEC 2026 해석에서 증권으로 본 가상자산 범주 헷갈리는 짝: 토큰화 증권. 분류표 범주명 대 일반 표현
+- **토큰화 NMS 주식** (Tokenized NMS Stock): 발행자가 또는 발행자를 위해 토큰화한 상장주식
+- **covered security** (covered security): 연방법이 주 등록 요건을 배제한 증권
+- **대체거래시스템(ATS)** (Alternative Trading System): 거래소 기능을 하지만 거래소로 등록하지 않고 브로커딜러로 등록해 Regulation ATS를 따르는 사설 거래 시스템 헷갈리는 짝: 전국증권거래소. 거래소는 자율규제기관으로 회원 규칙과 징계권이 있고 ATS는 없다
+- **토큰화증권거래장(TSV)** (Tokenized Securities Venue): 허가된 참가자가 AMM 유동성풀로 토큰화 NMS 주식을 거래하도록 풀을 제공하고 접근 기준을 정하는 자 헷갈리는 짝: ATS. ATS는 브로커딜러 등록과 Reg NMS 적용, TSV는 둘 다 없음(조건부)
+- **AMM 유동성풀** (Automated Market Maker Liquidity Pool): 스마트컨트랙트가 풀 안 자산 비율로 가격을 정해 자동 체결하는 구조 헷갈리는 짝: 주문장(order book). 주문을 짝짓지 않고 풀과 거래
+- **Covered Firm** (Covered Firm): TSV 유동성풀에 자기자본으로 토큰화 주식 유동성을 공급하는 자로, 딜러 등록을 면제받는 자 헷갈리는 짝: 딜러. 고객 자산 보관 금지, 자기 계산만
+- **특별목적 브로커딜러(SPBD)** (Special Purpose Broker-Dealer): 디지털자산 증권만 다루는 조건으로 수탁을 인정받던 브로커딜러 헷갈리는 짝: 일반 브로커딜러. SPBD는 전통 증권과 비증권 가상자산 수탁 불가
+- **Form ATS-N** (Form ATS-N): NMS 주식 ATS가 운영 구조와 이해상충을 SEC에 내고 공개하는 서식 헷갈리는 짝: Form ATS. ATS-N은 공개되고 SEC가 무효 선언 가능
+- **미국인** (U.S. person): 미국 거주 개인과 미국 법인 등. 국적이 아니라 거주와 설립지 기준 헷갈리는 짝: 미국 시민. 시민권자라도 해외 거주면 U.S. person이 아닐 수 있다
+- **배포 준수 기간** (distribution compliance period): Reg S 판매 후 미국인에게 되팔리지 않게 막는 기간(40일, 1년, 6개월) 헷갈리는 짝: 보유기간(Rule 144). DCP는 해외판매 직후 미국인 판매 금지, 보유기간은 제한증권 재판매 대기
+- **미국 내 판매 활동** (directed selling efforts): 미국 시장을 달구려는 홍보 헷갈리는 짝: 일반 광고. DSE는 Reg S, 일반 광고는 Reg D 개념
+- **적격투자자** (accredited investor): 재산이나 자격이 충분한 투자자 헷갈리는 짝: 적격기관투자자(QIB). AI는 Reg D, QIB는 144A 기준
+- **적격기관투자자** (qualified institutional buyer (QIB)): 대체로 비계열 증권 1억 달러 이상 운용 기관 헷갈리는 짝: 적격투자자. QIB가 더 좁고 기관 중심
+- **제한증권** (restricted securities): 사모나 Reg S로 받아 자유 재판매가 안 되는 증권
+- **미국예탁증권** (American Depositary Receipt (ADR)): 예탁기관이 외국 주식을 맡고 미국에서 발행하는 증서 헷갈리는 짝: 예탁기관. ADR은 증서, 예탁기관은 발행 주체

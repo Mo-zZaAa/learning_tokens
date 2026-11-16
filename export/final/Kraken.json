@@ -1,0 +1,1882 @@
+{
+ "company": "Kraken",
+ "kind": "company",
+ "logo": "Kraken_logo.png",
+ "sections": [
+  {
+   "code": "개요",
+   "title": "회사 개요와 확장 경로",
+   "lines": [
+    {
+     "id": "kr-0001",
+     "disp": "Kraken 개요-1",
+     "level": "●",
+     "text": "주장 : 거래소가 인가와 발행사를 사들여 토큰 공급망 확보",
+     "color": "black",
+     "fact_ids": [
+      "F-0389",
+      "F-0939",
+      "F-1118"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0002",
+     "disp": "Kraken 개요-2",
+     "level": "●",
+     "text": "기본정보",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0003",
+     "disp": "Kraken 개요-3",
+     "level": "★",
+     "text": "법인명 : Payward, Inc.(Kraken 거래소 모회사)",
+     "color": "black",
+     "fact_ids": [
+      "F-0359"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0004",
+     "disp": "Kraken 개요-4",
+     "level": "★",
+     "text": "소재지 : 미국 와이오밍주 Cheyenne",
+     "color": "black",
+     "fact_ids": [
+      "F-0360"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0005",
+     "disp": "Kraken 개요-5",
+     "level": "★",
+     "text": "핵심 상품 : xStocks(미국 주식, ETF 토큰), Kraken 앱 판매",
+     "color": "black",
+     "fact_ids": [
+      "F-0389"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0135",
+     "disp": "Kraken 개요-6",
+     "level": "★",
+     "text": "설립 : 2011-07, Jesse Powell 공동 설립",
+     "color": "black",
+     "fact_ids": [
+      "F-1109"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0006",
+     "disp": "Kraken 개요-7",
+     "level": "●",
+     "text": "지배구조",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0007",
+     "disp": "Kraken 개요-8",
+     "level": "★",
+     "text": "Payward가 Kraken, NinjaTrader(미국 선물 중개사), xStocks 보유",
+     "color": "black",
+     "fact_ids": [
+      "F-0176"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0008",
+     "disp": "Kraken 개요-9",
+     "level": "★",
+     "text": "Payward 지분 25% 넘게 가진 개인 주주 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-0938"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0009",
+     "disp": "Kraken 개요-10",
+     "level": "★",
+     "text": "발행사 지분은 Payward 그룹이 100% 보유",
+     "color": "black",
+     "fact_ids": [
+      "F-0938"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0136",
+     "disp": "Kraken 개요-11",
+     "level": "●",
+     "text": "설립 목적",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0137",
+     "disp": "Kraken 개요-12",
+     "level": "★",
+     "text": "미션 : 금융 자유와 포용을 세계에 가져오는 것",
+     "color": "black",
+     "fact_ids": [
+      "F-1110"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0010",
+     "disp": "Kraken 개요-13",
+     "level": "●",
+     "text": "성장 경로(한 줄기, 인수는 계약 또는 발표 시점 순서)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0011",
+     "disp": "Kraken 개요-14",
+     "level": "★",
+     "text": "2025-03 NinjaTrader 계약 → 2025-05 완료",
+     "color": "black",
+     "fact_ids": [
+      "F-1117",
+      "F-0177"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0138",
+     "disp": "Kraken 개요-15",
+     "level": "★",
+     "text": "2025-06 xStocks → 2025-10 Small Exchange",
+     "color": "black",
+     "fact_ids": [
+      "F-1040",
+      "F-1116"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0012",
+     "disp": "Kraken 개요-16",
+     "level": "★",
+     "text": "2025-12 Backed 합의 → 2026-05 Bitnomial",
+     "color": "black",
+     "fact_ids": [
+      "F-0139",
+      "F-1118"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0014",
+     "disp": "Kraken 개요-17",
+     "level": "★",
+     "text": "2026-09 Nasdaq 투자 → 2026-11 영국, EU 200종",
+     "color": "black",
+     "fact_ids": [
+      "F-1119",
+      "F-0174"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0015",
+     "disp": "Kraken 개요-18",
+     "level": "●",
+     "text": "화면",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0016",
+     "disp": "Kraken 개요-19",
+     "level": "그림",
+     "images": [
+      {
+       "file": "Kraken_signup.jpg",
+       "caption": "가입"
+      },
+      {
+       "file": "Kraken_list.jpg",
+       "caption": "종목 목록"
+      },
+      {
+       "file": "Kraken_order.jpg",
+       "caption": "주문"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "발언",
+   "title": "경영진 발언",
+   "lines": [
+    {
+     "id": "kr-0017",
+     "disp": "Kraken 발언-1",
+     "level": "●",
+     "text": "발언 1 : 주식을 지갑에서 돈처럼 쓴다",
+     "color": "black",
+     "fact_ids": [
+      "F-1040"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0018",
+     "disp": "Kraken 발언-2",
+     "level": "★",
+     "text": "Arjun Sethi(Kraken 공동 CEO), Kraken 블로그 xStocks 출시 발표, 2025-06-30 https://blog.kraken.com/product/xstocks/tokenized-equities-now-available",
+     "color": "black",
+     "fact_ids": [
+      "F-1040"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0019",
+     "disp": "Kraken 발언-3",
+     "level": "①",
+     "text": "원문 : \"For the first time, people all over the world can own and use a share of a tokenized stock like they would use money.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0020",
+     "disp": "Kraken 발언-4",
+     "level": "②",
+     "text": "번역 : 세계 어디서나 처음으로 토큰화 주식 한 주를 돈처럼 보유하고 쓸 수 있다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0021",
+     "disp": "Kraken 발언-5",
+     "level": "③",
+     "text": "해석 : 큰 곳은 지갑 속 주식의 쓰임. 그래서 xStocks로 보유, 이동, 담보 사용 지원",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0022",
+     "disp": "Kraken 발언-6",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_Kraken_1.jpg",
+       "caption": "발언 1"
+      }
+     ]
+    },
+    {
+     "id": "kr-0023",
+     "disp": "Kraken 발언-7",
+     "level": "●",
+     "text": "발언 2 : 발행, 거래, 결제를 한 틀로 묶는다",
+     "color": "black",
+     "fact_ids": [
+      "F-1043"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0024",
+     "disp": "Kraken 발언-8",
+     "level": "★",
+     "text": "Arjun Sethi(Kraken 공동 CEO), Backed 인수 발표, 2025-12-02 https://blog.kraken.com/news/backed-acquisition",
+     "color": "black",
+     "fact_ids": [
+      "F-1043"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0025",
+     "disp": "Kraken 발언-9",
+     "level": "①",
+     "text": "원문 : \"Unifying issuance, trading and settlement under one framework ensures the infrastructure for tokenized assets remains transparent, reliable and globally accessible.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0026",
+     "disp": "Kraken 발언-10",
+     "level": "②",
+     "text": "번역 : 발행, 거래, 결제를 한 틀로 묶으면 토큰화 자산 인프라가 투명하고 믿을 만하며 전 세계에서 접근 가능해진다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0027",
+     "disp": "Kraken 발언-11",
+     "level": "③",
+     "text": "해석 : 큰 곳은 발행부터 결제까지의 수직 통합. 그래서 xStocks 발행사 Backed 인수",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0028",
+     "disp": "Kraken 발언-12",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_Kraken_4.jpg",
+       "caption": "발언 2"
+      }
+     ]
+    },
+    {
+     "id": "kr-0029",
+     "disp": "Kraken 발언-13",
+     "level": "●",
+     "text": "발언 3 : 규제 시장과 블록체인을 잇는다",
+     "color": "black",
+     "fact_ids": [
+      "F-1044"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0030",
+     "disp": "Kraken 발언-14",
+     "level": "★",
+     "text": "Arjun Sethi(Payward, Kraken 공동 CEO), Nasdaq(미국 증권거래소) 제휴 발표, 2026-03-09 https://blog.kraken.com/news/payward-partners-with-nasdaq",
+     "color": "black",
+     "fact_ids": [
+      "F-1044"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0031",
+     "disp": "Kraken 발언-15",
+     "level": "①",
+     "text": "원문 : \"With xStocks, our goal is to make equities natively interoperable across trading venues, financial applications and blockchain networks while preserving issuer rights regulatory protections and price integrity.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0032",
+     "disp": "Kraken 발언-16",
+     "level": "②",
+     "text": "번역 : xStocks로 주식을 거래소, 금융 앱, 블록체인 사이에서 기본적으로 상호운용되게 하되 발행자 권리, 규제 보호, 가격 무결성을 지키는 것이 목표다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0033",
+     "disp": "Kraken 발언-17",
+     "level": "③",
+     "text": "해석 : 큰 곳은 허가형 시장과 블록체인의 연결. 그래서 Nasdaq과 연결 통로 개발",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0034",
+     "disp": "Kraken 발언-18",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_Kraken_5.jpg",
+       "caption": "발언 3"
+      }
+     ]
+    },
+    {
+     "id": "kr-0035",
+     "disp": "Kraken 발언-19",
+     "level": "●",
+     "text": "발언 4 : 다음은 해외 주요 주식이다",
+     "color": "black",
+     "fact_ids": [
+      "F-1045"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0036",
+     "disp": "Kraken 발언-20",
+     "level": "★",
+     "text": "Val Gui(xStocks 총괄), Kraken 블로그 xStocks 100종 돌파, 2026-03-18 https://blog.kraken.com/product/xstocks/celebrating-100-xstocks",
+     "color": "black",
+     "fact_ids": [
+      "F-1045"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0037",
+     "disp": "Kraken 발언-21",
+     "level": "①",
+     "text": "원문 : \"The next step is expanding access to every major U.S. equity and, ultimately, other leading global equities across international markets.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0038",
+     "disp": "Kraken 발언-22",
+     "level": "②",
+     "text": "번역 : 다음 단계는 모든 주요 미국 주식으로, 궁극적으로 해외 시장의 주요 주식으로 접근을 넓히는 것이다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0039",
+     "disp": "Kraken 발언-23",
+     "level": "③",
+     "text": "해석 : 큰 곳은 미국 밖 상장주. 그래서 종목 수 확대와 각국 상장주 토큰화",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0040",
+     "disp": "Kraken 발언-24",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_Kraken_6.jpg",
+       "caption": "발언 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "A",
+   "title": "A 출신과 진입(주식 토큰 사업)",
+   "lines": [
+    {
+     "id": "kr-0041",
+     "disp": "Kraken A-1",
+     "level": "●",
+     "text": "주장 : 남이 발행한 토큰을 앱에서 팔다가 발행사째 인수",
+     "color": "black",
+     "fact_ids": [
+      "F-0390",
+      "F-0139"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0042",
+     "disp": "Kraken A-2",
+     "level": "●",
+     "text": "출신 : 가상자산 거래소, Kraken 앱 안에서 주식 토큰 매매",
+     "color": "black",
+     "fact_ids": [
+      "F-0389"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0043",
+     "disp": "Kraken A-3",
+     "level": "●",
+     "text": "진입 방식",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0044",
+     "disp": "Kraken A-4",
+     "level": "★",
+     "text": "발행은 Backed 법인, 판매는 Kraken 앱이 분담",
+     "color": "black",
+     "fact_ids": [
+      "F-0390",
+      "F-0389"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0045",
+     "disp": "Kraken A-5",
+     "level": "★",
+     "text": "진출 사유 : 24시간 거래, 전 세계 2차 시장, 지갑 직접 보유",
+     "color": "black",
+     "fact_ids": [
+      "F-0983"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0046",
+     "disp": "Kraken A-6",
+     "level": "★",
+     "text": "Backed의 원장, 특허 등 지식재산 일체를 Payward로 이전",
+     "color": "black",
+     "fact_ids": [
+      "F-0923"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "B",
+   "title": "B 상품 구조",
+   "lines": [
+    {
+     "id": "kr-0047",
+     "disp": "Kraken B-1",
+     "level": "●",
+     "text": "주장 : 투자자는 주식이 아니라 저지 발행사에 대한 상환 채권 보유",
+     "color": "black",
+     "fact_ids": [
+      "F-0991"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0048",
+     "disp": "Kraken B-2",
+     "level": "●",
+     "text": "토큰의 법적 성격(우리 분류)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0049",
+     "disp": "Kraken B-3",
+     "level": "★",
+     "text": "법적 보유 : 저지 발행사에 대한 상환금 채권",
+     "color": "black",
+     "fact_ids": [
+      "F-0991"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0050",
+     "disp": "Kraken B-4",
+     "level": "★",
+     "text": "기초주식, 담보 자체에 대한 권리 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-0991"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0051",
+     "disp": "Kraken B-5",
+     "level": "★",
+     "text": "형식 : 스위스법 원장기반증권, 만기 없는 트래커 증서",
+     "color": "black",
+     "fact_ids": [
+      "F-0945",
+      "F-0944"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0052",
+     "disp": "Kraken B-6",
+     "level": "★",
+     "text": "우리 분류 : 1:1 담보부 연계증권(발행사 채무형)",
+     "color": "black",
+     "fact_ids": [
+      "F-0991",
+      "F-0944"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0053",
+     "disp": "Kraken B-7",
+     "level": "●",
+     "text": "발행 주체와 보관",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0054",
+     "disp": "Kraken B-8",
+     "level": "★",
+     "text": "발행 : Backed 저지 법인, 2024년 설립",
+     "color": "black",
+     "fact_ids": [
+      "F-0935"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0055",
+     "disp": "Kraken B-9",
+     "level": "★",
+     "text": "토큰 수만큼 기초주식을 담보로 1:1 보유 의무",
+     "color": "black",
+     "fact_ids": [
+      "F-0955"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0056",
+     "disp": "Kraken B-10",
+     "level": "★",
+     "text": "보관 : InCore Bank(스위스 은행), Alpaca(미국 중개사), GTN Europe(영국 중개사)",
+     "color": "black",
+     "fact_ids": [
+      "F-0964"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0057",
+     "disp": "Kraken B-11",
+     "level": "★",
+     "text": "담보대리인이 투자자 직접 대리인으로 질권 보유",
+     "color": "black",
+     "fact_ids": [
+      "F-0963"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0058",
+     "disp": "Kraken B-12",
+     "level": "●",
+     "text": "투자자 권리",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0059",
+     "disp": "Kraken B-13",
+     "level": "★",
+     "text": "배당은 현금 대신 토큰 수량 증가로 재투자",
+     "color": "black",
+     "fact_ids": [
+      "F-0398"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0060",
+     "disp": "Kraken B-14",
+     "level": "★",
+     "text": "의결권 등 주주 권리 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-0399"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0061",
+     "disp": "Kraken B-15",
+     "level": "★",
+     "text": "상환은 현금, 가상자산 정산, 주식 인도 불가",
+     "color": "black",
+     "fact_ids": [
+      "F-0950"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0062",
+     "disp": "Kraken B-16",
+     "level": "●",
+     "text": "규모(시장 내 위치)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0063",
+     "disp": "Kraken B-17",
+     "level": "★",
+     "text": "2026-11-16 발행 잔액 6.8억 달러, 3위(점유율 18.26%)",
+     "color": "black",
+     "fact_ids": [
+      "F-1023"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0064",
+     "disp": "Kraken B-18",
+     "level": "★",
+     "text": "1, 2위는 Binance(가상자산 거래소), Ondo(토큰화 자산 회사)(13.6억, 9.0억 달러)",
+     "color": "black",
+     "fact_ids": [
+      "F-1021",
+      "F-1022"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0065",
+     "disp": "Kraken B-19",
+     "level": "★",
+     "text": "4위 Securitize(토큰화 플랫폼) 2.7억, 6위 Robinhood(주식 거래 앱) 1.5억 달러",
+     "color": "orange",
+     "fact_ids": [
+      "F-1024",
+      "F-1025"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0066",
+     "disp": "Kraken B-20",
+     "level": "★",
+     "text": "시장 전체 37.1억 달러 중 1~3위가 79%",
+     "color": "black",
+     "fact_ids": [
+      "F-1028",
+      "F-1021",
+      "F-1022",
+      "F-1023"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0067",
+     "disp": "Kraken B-21",
+     "level": "●",
+     "text": "수수료",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0068",
+     "disp": "Kraken B-22",
+     "level": "★",
+     "text": "Kraken 앱 1달러부터, USDG, USD 매수 시 거래 수수료 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-0404"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0069",
+     "disp": "Kraken B-23",
+     "level": "★",
+     "text": "발행, 상환 수수료 상한 5%, 운용보수 연 5% 이내",
+     "color": "black",
+     "fact_ids": [
+      "F-0977"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0070",
+     "disp": "Kraken B-24",
+     "level": "★",
+     "text": "운용보수는 토큰 수량 차감으로 반영",
+     "color": "black",
+     "fact_ids": [
+      "F-0978"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "C",
+   "title": "C 최종 투자자",
+   "lines": [
+    {
+     "id": "kr-0071",
+     "disp": "Kraken C-1",
+     "level": "●",
+     "text": "주장 : 앱에서는 미국 밖 개인, 발행사 직접 청약은 전문투자자만",
+     "color": "black",
+     "fact_ids": [
+      "F-0392",
+      "F-0975"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0072",
+     "disp": "Kraken C-2",
+     "level": "●",
+     "text": "대상",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0073",
+     "disp": "Kraken C-3",
+     "level": "★",
+     "text": "Kraken 앱 : 선택된 국가의 미국 밖 개인",
+     "color": "black",
+     "fact_ids": [
+      "F-0392"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0074",
+     "disp": "Kraken C-4",
+     "level": "★",
+     "text": "발행사 직접 청약 : 적격 전문투자자만",
+     "color": "black",
+     "fact_ids": [
+      "F-0975"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0075",
+     "disp": "Kraken C-5",
+     "level": "★",
+     "text": "일반 투자자 : 승인 참가자(AP, 판매 중개 법인) 경유",
+     "color": "black",
+     "fact_ids": [
+      "F-0975"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0076",
+     "disp": "Kraken C-6",
+     "level": "●",
+     "text": "국적 및 지역 제한",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0077",
+     "disp": "Kraken C-7",
+     "level": "★",
+     "text": "미국, 캐나다, 영국, 호주 이용 불가",
+     "color": "black",
+     "fact_ids": [
+      "F-0393"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0078",
+     "disp": "Kraken C-8",
+     "level": "★",
+     "text": "EU는 29개국 감독당국에 투자설명서 통지",
+     "color": "black",
+     "fact_ids": [
+      "F-0976"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0079",
+     "disp": "Kraken C-9",
+     "level": "★",
+     "text": "스위스는 FinSA상 전문투자자에게만 제공",
+     "color": "black",
+     "fact_ids": [
+      "F-0973"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "D",
+   "title": "D 유통과 접점",
+   "lines": [
+    {
+     "id": "kr-0080",
+     "disp": "Kraken D-1",
+     "level": "●",
+     "text": "주장 : 자체 앱 직접 판매에 외부 거래소, 지갑, API 파트너 유통을 더함",
+     "color": "black",
+     "fact_ids": [
+      "F-0919",
+      "F-1083",
+      "F-0450"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0081",
+     "disp": "Kraken D-2",
+     "level": "●",
+     "text": "공급 방식(누구에게 서빙하는지)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0082",
+     "disp": "Kraken D-3",
+     "level": "★",
+     "text": "Kraken 앱 : 버뮤다, 키프로스 계열 법인이 AP로 개인에 판매",
+     "color": "black",
+     "fact_ids": [
+      "F-0919",
+      "F-0920"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0083",
+     "disp": "Kraken D-4",
+     "level": "★",
+     "text": "Bybit(가상자산 거래소), Jupiter(Solana 거래 앱) 파트너",
+     "color": "black",
+     "fact_ids": [
+      "F-1083"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0084",
+     "disp": "Kraken D-5",
+     "level": "★",
+     "text": "API 파트너 : 거래 앱에 xStocks 연결, 수수료 최대 50% 배분",
+     "color": "black",
+     "fact_ids": [
+      "F-0450",
+      "F-0451"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0085",
+     "disp": "Kraken D-6",
+     "level": "★",
+     "text": "GTN(해외주식 중개 인프라) : 인가 취득 후 자사 기관 고객에 제공",
+     "color": "black",
+     "fact_ids": [
+      "F-1084"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0086",
+     "disp": "Kraken D-7",
+     "level": "●",
+     "text": "거래 장소",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0087",
+     "disp": "Kraken D-8",
+     "level": "★",
+     "text": "10개 이상 블록체인 발행, 외부 지갑 출금 가능",
+     "color": "black",
+     "fact_ids": [
+      "F-0397",
+      "F-0402"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0088",
+     "disp": "Kraken D-9",
+     "level": "★",
+     "text": "거래시간 : EEA 평일 24시간, 그 밖 다수 지역 24/7",
+     "color": "black",
+     "fact_ids": [
+      "F-0400",
+      "F-0401"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0089",
+     "disp": "Kraken D-10",
+     "level": "★",
+     "text": "발행사는 거래소, MTF 상장 신청 없음, 2차 시장 재매도",
+     "color": "black",
+     "fact_ids": [
+      "F-0981"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "E",
+   "title": "E 인가",
+   "lines": [
+    {
+     "id": "kr-0090",
+     "disp": "Kraken E-1",
+     "level": "●",
+     "text": "주장 : 발행은 무인가, 판매는 인가 계열사, 미국 파생 인가는 인수",
+     "color": "black",
+     "fact_ids": [
+      "F-0990",
+      "F-0919",
+      "F-1118"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0091",
+     "disp": "Kraken E-2",
+     "level": "●",
+     "text": "보유 인가와 법인(미국 밖)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0092",
+     "disp": "Kraken E-3",
+     "level": "★",
+     "text": "버뮤다 PDSL : 직접 인가, 2025-04 xStocks 판매 계약",
+     "color": "black",
+     "fact_ids": [
+      "F-0919"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0093",
+     "disp": "Kraken E-4",
+     "level": "★",
+     "text": "키프로스 법인 : MiFID II 직접 인가, 2026-05 발행사와 AP 계약",
+     "color": "black",
+     "fact_ids": [
+      "F-0156",
+      "F-0920"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0094",
+     "disp": "Kraken E-5",
+     "level": "★",
+     "text": "아일랜드 법인 : MiCA 직접 인가, 2025-06",
+     "color": "black",
+     "fact_ids": [
+      "F-0250",
+      "F-0251"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0139",
+     "disp": "Kraken E-6",
+     "level": "★",
+     "text": "발행사 Backed : 인수로 확보, 2026-01 지분 100%",
+     "color": "black",
+     "fact_ids": [
+      "F-0939",
+      "F-0139"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0140",
+     "disp": "Kraken E-7",
+     "level": "●",
+     "text": "보유 인가와 법인(미국)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0141",
+     "disp": "Kraken E-8",
+     "level": "★",
+     "text": "미국 증권사 : 2024-06 직접 등록",
+     "color": "black",
+     "fact_ids": [
+      "F-0242"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0142",
+     "disp": "Kraken E-9",
+     "level": "★",
+     "text": "미국 선물 중개 : 2025-05 NinjaTrader 인수로 확보",
+     "color": "black",
+     "fact_ids": [
+      "F-1117",
+      "F-0177"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0143",
+     "disp": "Kraken E-10",
+     "level": "★",
+     "text": "미국 선물 거래소 : 2025-10 Small Exchange 인수 발표",
+     "color": "black",
+     "fact_ids": [
+      "F-1116"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0144",
+     "disp": "Kraken E-11",
+     "level": "★",
+     "text": "미국 거래소, 청산소 : 2026-05 Bitnomial 인수 완료",
+     "color": "black",
+     "fact_ids": [
+      "F-1118"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0095",
+     "disp": "Kraken E-12",
+     "level": "●",
+     "text": "인가 없는 구간을 메우는 방법",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0096",
+     "disp": "Kraken E-13",
+     "level": "★",
+     "text": "저지 JFSC가 AP, 브로커를 규제 금융회사로 한정 요구",
+     "color": "black",
+     "fact_ids": [
+      "F-0990"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0097",
+     "disp": "Kraken E-14",
+     "level": "★",
+     "text": "EU 공모는 리히텐슈타인 FMA 승인 투자설명서",
+     "color": "black",
+     "fact_ids": [
+      "F-0918"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0098",
+     "disp": "Kraken E-15",
+     "level": "●",
+     "text": "미국 미등록의 대가",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0099",
+     "disp": "Kraken E-16",
+     "level": "★",
+     "text": "미국 증권법 미등록, 1차, 2차 시장 모두 미국인 판매 금지",
+     "color": "black",
+     "fact_ids": [
+      "F-0971"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0100",
+     "disp": "Kraken E-17",
+     "level": "★",
+     "text": "미국 고객은 Kraken Securities로 실물 주식 거래",
+     "color": "black",
+     "fact_ids": [
+      "F-0424",
+      "F-0422"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0101",
+     "disp": "Kraken E-18",
+     "level": "★",
+     "text": "Kraken Securities는 미국에서만 등록",
+     "color": "black",
+     "fact_ids": [
+      "F-0373"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "F",
+   "title": "F 관계(해당 시)",
+   "lines": [
+    {
+     "id": "kr-0145",
+     "disp": "Kraken F-1",
+     "level": "●",
+     "text": "주장 : 파생 인가는 사들이고, 거래소와 중개 인프라는 손잡는다",
+     "color": "black",
+     "fact_ids": [
+      "F-1118",
+      "F-1119",
+      "F-0175"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0146",
+     "disp": "Kraken F-2",
+     "level": "●",
+     "text": "인수(미국 파생)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0147",
+     "disp": "Kraken F-3",
+     "level": "★",
+     "text": "NinjaTrader : 2025-03 계약 발표, 약 15억 달러(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-1117"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0148",
+     "disp": "Kraken F-4",
+     "level": "★",
+     "text": "Small Exchange : 2025-10 발표, 1억 달러(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-1116"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0149",
+     "disp": "Kraken F-5",
+     "level": "★",
+     "text": "Bitnomial : 2026-05 완료, FCM, DCM, DCO 보유(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-1118"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0103",
+     "disp": "Kraken F-6",
+     "level": "●",
+     "text": "투자, 제휴",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0150",
+     "disp": "Kraken F-7",
+     "level": "★",
+     "text": "Nasdaq : 2026-09 Nasdaq Ventures 1억 달러 투자 합의",
+     "color": "black",
+     "fact_ids": [
+      "F-1119"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0105",
+     "disp": "Kraken F-8",
+     "level": "★",
+     "text": "Nasdaq : 토큰 주식 연결 통로, Payward가 KYC 담당",
+     "color": "black",
+     "fact_ids": [
+      "F-0160"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0104",
+     "disp": "Kraken F-9",
+     "level": "★",
+     "text": "독일거래소 : 2026-02부터 360X(DLT 시범제도 거래장)에서 거래",
+     "color": "black",
+     "fact_ids": [
+      "F-0175"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0106",
+     "disp": "Kraken F-10",
+     "level": "★",
+     "text": "LSE(런던증권거래소) : 2026-09 런던 상위 100종 토큰화 합의",
+     "color": "black",
+     "fact_ids": [
+      "F-0173"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "G",
+   "title": "G 한국 접점(해당 시)",
+   "lines": [
+    {
+     "id": "kr-0108",
+     "disp": "Kraken G-1",
+     "level": "●",
+     "text": "주장 : 한국 상장자산은 GTN 제휴의 확장 대상",
+     "color": "black",
+     "fact_ids": [
+      "F-0170"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0109",
+     "disp": "Kraken G-2",
+     "level": "●",
+     "text": "한국 주식 취급",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0110",
+     "disp": "Kraken G-3",
+     "level": "★",
+     "text": "홍콩 다음 확장 대상에 한국 상장자산 포함(규제 승인 조건)",
+     "color": "black",
+     "fact_ids": [
+      "F-0170"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "차이",
+   "title": "한국 시장과의 차이",
+   "lines": [
+    {
+     "id": "kr-0111",
+     "disp": "Kraken 차이-1",
+     "level": "●",
+     "text": "주장 : 해외는 역외 발행 구조로 열렸고, 한국은 권유 시 공모 규제",
+     "color": "black",
+     "fact_ids": [
+      "F-0971",
+      "KR-자본시장법-119"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0112",
+     "disp": "Kraken 차이-2",
+     "level": "●",
+     "text": "규제",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0113",
+     "disp": "Kraken 차이-3",
+     "level": "★",
+     "text": "가능했던 이유 : 미국 밖 판매는 미국 등록 없는 역외 구조",
+     "color": "black",
+     "fact_ids": [
+      "F-0971",
+      "US-17CFR-230.901"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0114",
+     "disp": "Kraken 차이-4",
+     "level": "★",
+     "text": "가능했던 이유 : EU는 투자설명서 승인 후 29개국 공모",
+     "color": "black",
+     "fact_ids": [
+      "F-0918",
+      "F-0976"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0151",
+     "disp": "Kraken 차이-5",
+     "level": "★",
+     "text": "한국 차이 : 앱 판매는 선택 국가의 미국 밖 개인만",
+     "color": "black",
+     "fact_ids": [
+      "F-0392"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0117",
+     "disp": "Kraken 차이-6",
+     "level": "●",
+     "text": "고객 수요",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0118",
+     "disp": "Kraken 차이-7",
+     "level": "★",
+     "text": "가능했던 이유 : 미국 밖 개인의 주말 포함 미국 주식 매매",
+     "color": "black",
+     "fact_ids": [
+      "F-0392",
+      "F-0401"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0152",
+     "disp": "Kraken 차이-8",
+     "level": "●",
+     "text": "규제 건의 포인트 : 발행사 채무형 토큰의 상환권, 보증 없음 고지 기준",
+     "color": "black",
+     "fact_ids": [
+      "F-0991",
+      "F-0924"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "판단",
+   "title": "성과와 판단",
+   "lines": [
+    {
+     "id": "kr-0153",
+     "disp": "Kraken 판단-1",
+     "level": "●",
+     "text": "주장 : 발행사와 파생 인가를 사들인 곳이 거래량 450억 달러",
+     "color": "black",
+     "fact_ids": [
+      "F-0166",
+      "F-1118"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0121",
+     "disp": "Kraken 판단-2",
+     "level": "●",
+     "text": "성과",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0154",
+     "disp": "Kraken 판단-3",
+     "level": "★",
+     "text": "누적 거래량 100억(2025-12), 250억(2026-03), 450억 달러 초과(2026-10)(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-0141",
+      "F-0158",
+      "F-0166"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0155",
+     "disp": "Kraken 판단-4",
+     "level": "★",
+     "text": "보유자 8.5만(2026-03), 20만(2026-07), 55만 초과(2026-10)(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-0158",
+      "F-0162",
+      "F-0166"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0156",
+     "disp": "Kraken 판단-5",
+     "level": "★",
+     "text": "xStocks 운용자산 10억 달러 돌파(2026-10)(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-0165"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0157",
+     "disp": "Kraken 판단-6",
+     "level": "★",
+     "text": "시총 상위 15개 중 8개 발행(CoinGecko 순위 인용, 2026-07)(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-0161"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0123",
+     "disp": "Kraken 판단-7",
+     "level": "●",
+     "text": "핵심 성공요인(KSF)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0158",
+     "disp": "Kraken 판단-8",
+     "level": "★",
+     "text": "발행사 소유로 공급망 확보, 잔액 6.8억 달러 3위",
+     "color": "black",
+     "fact_ids": [
+      "F-0938",
+      "F-1023"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0159",
+     "disp": "Kraken 판단-9",
+     "level": "★",
+     "text": "미국 밖 개인 24시간 판매, 거래량 450억 달러 초과(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-0971",
+      "F-0401",
+      "F-0166"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0160",
+     "disp": "Kraken 판단-10",
+     "level": "★",
+     "text": "미국 파생 인가 인수, 2026 Q3 총플랫폼마진 4.87억 달러(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-1118",
+      "F-0180"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0126",
+     "disp": "Kraken 판단-11",
+     "level": "●",
+     "text": "제약과 리스크",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0127",
+     "disp": "Kraken 판단-12",
+     "level": "★",
+     "text": "발행사 존속이 Payward 지원에 의존, 채무 보증 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-0924",
+      "F-0986"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0128",
+     "disp": "Kraken 판단-13",
+     "level": "★",
+     "text": "발행사가 투자자 동의 없이 채무자 교체 가능",
+     "color": "black",
+     "fact_ids": [
+      "F-0989"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0129",
+     "disp": "Kraken 판단-14",
+     "level": "★",
+     "text": "발행사가 30영업일 통지로 상품 해지 가능",
+     "color": "black",
+     "fact_ids": [
+      "F-0949"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0130",
+     "disp": "Kraken 판단-15",
+     "level": "●",
+     "text": "KDX 시사점",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0161",
+     "disp": "Kraken 판단-16",
+     "level": "★",
+     "text": "받치는 명제 : Coopetition",
+     "color": "black",
+     "fact_ids": [
+      "F-0175",
+      "F-0173",
+      "F-1119"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0162",
+     "disp": "Kraken 판단-17",
+     "level": "★",
+     "text": "KDX가 가져올 것 : 거래소와 연결 통로 공동 개발, 지분 투자 유치",
+     "color": "black",
+     "fact_ids": [
+      "F-0160",
+      "F-1119"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0163",
+     "disp": "Kraken 판단-18",
+     "level": "★",
+     "text": "KDX가 피할 것 : 발행사 존속이 모회사 지원에만 달린 구조",
+     "color": "black",
+     "fact_ids": [
+      "F-0924",
+      "F-0986"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0164",
+     "disp": "Kraken 판단-19",
+     "level": "●",
+     "text": "해외 확장 세 질문",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0165",
+     "disp": "Kraken 판단-20",
+     "level": "★",
+     "text": "제공 가치 : 24시간 접근, 지갑 보유",
+     "color": "black",
+     "fact_ids": [
+      "F-0401",
+      "F-0402"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0166",
+     "disp": "Kraken 판단-21",
+     "level": "★",
+     "text": "제도 : 현지 공모 승인, 인가 법인 판매",
+     "color": "black",
+     "fact_ids": [
+      "F-0918",
+      "F-0919"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0167",
+     "disp": "Kraken 판단-22",
+     "level": "★",
+     "text": "경제성 : 운용보수 연 5% 이내",
+     "color": "black",
+     "fact_ids": [
+      "F-0979"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  }
+ ]
+}

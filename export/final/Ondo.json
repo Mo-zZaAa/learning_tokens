@@ -1,0 +1,1697 @@
+{
+ "company": "Ondo",
+ "kind": "company",
+ "logo": "Ondo_logo.png",
+ "sections": [
+  {
+   "code": "개요",
+   "title": "회사 개요와 확장 경로",
+   "lines": [
+    {
+     "id": "on-0001",
+     "disp": "Ondo 개요-1",
+     "level": "●",
+     "text": "주장 : 국채 토큰 고객 위에 미국 밖 주식 토큰을 얹어 잔액 2위로",
+     "color": "black",
+     "fact_ids": [
+      "F-0465",
+      "F-0197",
+      "F-1022"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0002",
+     "disp": "Ondo 개요-2",
+     "level": "●",
+     "text": "기본정보",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0003",
+     "disp": "Ondo 개요-3",
+     "level": "★",
+     "text": "법인명 : Ondo Finance Inc.(토큰화 기술 회사, 미국 코네티컷주 그리니치)",
+     "color": "black",
+     "fact_ids": [
+      "F-0551",
+      "F-0193"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0004",
+     "disp": "Ondo 개요-4",
+     "level": "★",
+     "text": "발행 법인 : Ondo Global Markets (BVI) Limited",
+     "color": "black",
+     "fact_ids": [
+      "F-0550"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0131",
+     "disp": "Ondo 개요-5",
+     "level": "★",
+     "text": "2021년 설립, 창업자 Nathan Allman(Founder)",
+     "color": "black",
+     "fact_ids": [
+      "F-1111",
+      "F-1112"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0132",
+     "disp": "Ondo 개요-6",
+     "level": "★",
+     "text": "경영 : Ian De Bode(Acting CEO and President)",
+     "color": "black",
+     "fact_ids": [
+      "F-1112"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0007",
+     "disp": "Ondo 개요-7",
+     "level": "●",
+     "text": "지배구조",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0008",
+     "disp": "Ondo 개요-8",
+     "level": "★",
+     "text": "발행 법인 지분 : Flux Finance 90.01%, Ondo Finance 9.99%",
+     "color": "black",
+     "fact_ids": [
+      "F-0186"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0009",
+     "disp": "Ondo 개요-9",
+     "level": "★",
+     "text": "Flux Finance는 Ondo Foundation(재단)의 완전 자회사",
+     "color": "black",
+     "fact_ids": [
+      "F-0562"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0010",
+     "disp": "Ondo 개요-10",
+     "level": "★",
+     "text": "Flux Finance가 토큰 채무의 추가 담보 자금 보증",
+     "color": "black",
+     "fact_ids": [
+      "F-0580"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0011",
+     "disp": "Ondo 개요-11",
+     "level": "●",
+     "text": "설립 목적",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0133",
+     "disp": "Ondo 개요-12",
+     "level": "★",
+     "text": "Ondo가 믿는 것 : 블록체인으로 높은 수수료, 닫힌 구조, 제한된 접근 해소",
+     "color": "black",
+     "fact_ids": [
+      "F-1113"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0134",
+     "disp": "Ondo 개요-13",
+     "level": "★",
+     "text": "금융시장을 온체인으로 옮기는 기관급 플랫폼, 자산, 인프라 설계",
+     "color": "black",
+     "fact_ids": [
+      "F-1113"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0012",
+     "disp": "Ondo 개요-14",
+     "level": "★",
+     "text": "Ondo는 세계 금융자산의 공개 블록체인 토큰화를 전망",
+     "color": "black",
+     "fact_ids": [
+      "F-0496"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0013",
+     "disp": "Ondo 개요-15",
+     "level": "●",
+     "text": "성장 경로(한 줄기)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0014",
+     "disp": "Ondo 개요-16",
+     "level": "★",
+     "text": "2021 설립 → OUSG(단기 국채 토큰), USDY(담보부 노트)로 출발",
+     "color": "black",
+     "fact_ids": [
+      "F-1111",
+      "F-0465",
+      "F-0509"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0015",
+     "disp": "Ondo 개요-17",
+     "level": "★",
+     "text": "2025-04 발행 법인 설립 → 2025-10 Oasis Pro(미국 증권사) 인수",
+     "color": "black",
+     "fact_ids": [
+      "F-0185",
+      "F-1047"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0016",
+     "disp": "Ondo 개요-18",
+     "level": "★",
+     "text": "2025-09 미국 밖 전용 주식 토큰 100종 개시",
+     "color": "black",
+     "fact_ids": [
+      "F-0197"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0017",
+     "disp": "Ondo 개요-19",
+     "level": "★",
+     "text": "2025-12 SEC 조사 종결(회사 발표), USDY를 Ondo Stocks로 편입",
+     "color": "black",
+     "fact_ids": [
+      "F-0198",
+      "F-0503"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0018",
+     "disp": "Ondo 개요-20",
+     "level": "●",
+     "text": "화면",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0019",
+     "disp": "Ondo 개요-21",
+     "level": "그림",
+     "images": [
+      {
+       "file": "Ondo_signup.jpg",
+       "caption": "가입"
+      },
+      {
+       "file": "Ondo_list.jpg",
+       "caption": "상품 소개"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "발언",
+   "title": "경영진 발언",
+   "lines": [
+    {
+     "id": "on-0020",
+     "disp": "Ondo 발언-1",
+     "level": "●",
+     "text": "발언 1 : 미국 규제형 토큰 증권 시장용 인가를 갖췄다",
+     "color": "black",
+     "fact_ids": [
+      "F-1047"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0021",
+     "disp": "Ondo 발언-2",
+     "level": "★",
+     "text": "Nathan Allman(창업자 겸 CEO), Oasis Pro 인수 완료 발표, 2025-10-07 https://ondo.finance/blog/ondo-acquires-oasis-pro",
+     "color": "black",
+     "fact_ids": [
+      "F-1047"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0022",
+     "disp": "Ondo 발언-3",
+     "level": "①",
+     "text": "원문 : \"We now have the most comprehensive suite of licenses and infrastructure necessary to develop compliant and regulated tokenized securities markets in the U.S.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0023",
+     "disp": "Ondo 발언-4",
+     "level": "②",
+     "text": "번역 : 이제 미국에서 규제를 지키는 토큰 증권 시장을 만드는 데 필요한 가장 포괄적인 인가와 인프라를 갖췄다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0024",
+     "disp": "Ondo 발언-5",
+     "level": "③",
+     "text": "해석 : 큰 곳은 미국 규제형 토큰 증권 시장. 그래서 증권사, ATS, 명의개서 인가를 인수",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0025",
+     "disp": "Ondo 발언-6",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_Ondo_1.jpg",
+       "caption": "발언 1"
+      }
+     ]
+    },
+    {
+     "id": "on-0026",
+     "disp": "Ondo 발언-7",
+     "level": "●",
+     "text": "발언 2 : 아시아, 중남미 수백만 이용자에게 미국 주식을",
+     "color": "black",
+     "fact_ids": [
+      "F-1052"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0027",
+     "disp": "Ondo 발언-8",
+     "level": "★",
+     "text": "Nathan Allman(창업자 겸 CEO), BNB 체인 진출 발표, 2025-10-29 https://ondo.finance/blog/global-markets-live-on-bnb-chain",
+     "color": "black",
+     "fact_ids": [
+      "F-1052"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0028",
+     "disp": "Ondo 발언-9",
+     "level": "①",
+     "text": "원문 : \"Expanding Ondo Stocks to BNB Chain allows us to bring tokenized U.S. stocks and ETFs to millions of users across Asia, Latin America, and other geographies, in an environment that is fast, cost-efficient, and highly interoperable.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0029",
+     "disp": "Ondo 발언-10",
+     "level": "②",
+     "text": "번역 : BNB 체인 확장으로 아시아, 중남미 등 수백만 이용자에게 빠르고 저렴하며 연동성 높은 환경에서 토큰 미국 주식과 ETF를 제공한다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0030",
+     "disp": "Ondo 발언-11",
+     "level": "③",
+     "text": "해석 : 큰 곳은 아시아, 중남미 개인. 그래서 이용자 많은 BNB 체인에 100종 이상 상장",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0031",
+     "disp": "Ondo 발언-12",
+     "level": "●",
+     "text": "발언 3 : 기존 시장 인프라와 경쟁이 아니라 연동",
+     "color": "black",
+     "fact_ids": [
+      "F-1049"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0032",
+     "disp": "Ondo 발언-13",
+     "level": "★",
+     "text": "Ian De Bode(CEO), DTCC 협업 발표, 2026-07-15 https://ondo.finance/blog/ondo-and-dtcc-collaborate-on-tokenized-stocks",
+     "color": "black",
+     "fact_ids": [
+      "F-1049"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0033",
+     "disp": "Ondo 발언-14",
+     "level": "①",
+     "text": "원문 : \"Today's initiative with DTCC demonstrates that Ondo Stocks infrastructure is purpose-built to interoperate with institutional market infrastructure, not to compete with it.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0034",
+     "disp": "Ondo 발언-15",
+     "level": "②",
+     "text": "번역 : DTCC와의 이번 시도는 Ondo Stocks 인프라가 기관 시장 인프라와 경쟁하지 않고 연동하도록 설계됐음을 보여준다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0035",
+     "disp": "Ondo 발언-16",
+     "level": "③",
+     "text": "해석 : 큰 곳은 DTCC(미국 예탁결제기관)와 연결된 토큰 주식. 그래서 DTC 토큰화 권리 기반 주식 토큰 출시",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0036",
+     "disp": "Ondo 발언-17",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_Ondo_3.jpg",
+       "caption": "발언 3"
+      }
+     ]
+    },
+    {
+     "id": "on-0037",
+     "disp": "Ondo 발언-18",
+     "level": "●",
+     "text": "발언 4 : 닫힌 금융에서 열린 온체인 경제로",
+     "color": "black",
+     "fact_ids": [
+      "F-1048"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0038",
+     "disp": "Ondo 발언-19",
+     "level": "★",
+     "text": "Nathan Allman(창업자 겸 CEO), Ondo Catalyst 출시 발표, 2025-07-03 https://ondo.finance/blog/introducing-ondo-catalyst",
+     "color": "black",
+     "fact_ids": [
+      "F-1048"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0039",
+     "disp": "Ondo 발언-20",
+     "level": "①",
+     "text": "원문 : \"With Ondo Catalyst, we're fueling the transition from closed, permissioned systems to an open, onchain economy.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0040",
+     "disp": "Ondo 발언-21",
+     "level": "②",
+     "text": "번역 : Ondo Catalyst로 닫힌 허가형 시스템에서 열린 온체인 경제로의 전환을 키운다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0041",
+     "disp": "Ondo 발언-22",
+     "level": "③",
+     "text": "해석 : 큰 곳은 온체인 경제의 앱과 인프라. 그래서 2.5억 달러 전략 투자로 생태계 후원",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0042",
+     "disp": "Ondo 발언-23",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_Ondo_2.jpg",
+       "caption": "발언 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "A",
+   "title": "A 출신과 진입(주식 토큰 사업)",
+   "lines": [
+    {
+     "id": "on-0043",
+     "disp": "Ondo A-1",
+     "level": "●",
+     "text": "주장 : 국채 토큰 고객 기반 위에 별도 발행 법인으로 진입",
+     "color": "black",
+     "fact_ids": [
+      "F-0532",
+      "F-0505",
+      "F-0550"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0044",
+     "disp": "Ondo A-2",
+     "level": "●",
+     "text": "출신 : OUSG는 미국 적격투자자, USDY는 비미국인 대상",
+     "color": "black",
+     "fact_ids": [
+      "F-0532",
+      "F-0505"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0045",
+     "disp": "Ondo A-3",
+     "level": "●",
+     "text": "진입 방식",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0046",
+     "disp": "Ondo A-4",
+     "level": "★",
+     "text": "발행은 BVI 법인, Ondo Finance는 토큰화 서비스만",
+     "color": "black",
+     "fact_ids": [
+      "F-0550",
+      "F-0551"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0047",
+     "disp": "Ondo A-5",
+     "level": "★",
+     "text": "진출 사유 : 미국 밖 투자자에게 미국 공개 증권 수천 종 노출",
+     "color": "black",
+     "fact_ids": [
+      "F-0568"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "B",
+   "title": "B 상품 구조",
+   "lines": [
+    {
+     "id": "on-0048",
+     "disp": "Ondo B-1",
+     "level": "●",
+     "text": "주장 : 주식이 아니라 BVI 발행 법인에 대한 담보부 채권",
+     "color": "black",
+     "fact_ids": [
+      "F-0998"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0049",
+     "disp": "Ondo B-2",
+     "level": "●",
+     "text": "토큰의 법적 성격(우리 분류)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0050",
+     "disp": "Ondo B-3",
+     "level": "★",
+     "text": "스위스법 채무증서, 기초 종목 1:1 추종",
+     "color": "black",
+     "fact_ids": [
+      "F-0187",
+      "F-0557"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0051",
+     "disp": "Ondo B-4",
+     "level": "★",
+     "text": "기초 주식 인도 청구권, 주주 권리 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-0188",
+      "F-0559"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0052",
+     "disp": "Ondo B-5",
+     "level": "★",
+     "text": "우리 분류 : 연계증권(담보부 제한소구 채권)",
+     "color": "black",
+     "fact_ids": [
+      "F-0998"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0053",
+     "disp": "Ondo B-6",
+     "level": "●",
+     "text": "발행 주체와 보관",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0054",
+     "disp": "Ondo B-7",
+     "level": "★",
+     "text": "발행 법인은 독립 이사 둔 SPV, 파산 격리 설계",
+     "color": "black",
+     "fact_ids": [
+      "F-0576",
+      "F-0510"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0055",
+     "disp": "Ondo B-8",
+     "level": "★",
+     "text": "Alpaca(미국 청산 증권사), BitGo Trust(수탁 회사) 담보 계좌 1:1",
+     "color": "black",
+     "fact_ids": [
+      "F-0189",
+      "F-0558"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0056",
+     "disp": "Ondo B-9",
+     "level": "★",
+     "text": "Ankura Trust(담보 대리인)가 1순위 담보권 보유",
+     "color": "black",
+     "fact_ids": [
+      "F-0483",
+      "F-0573"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0057",
+     "disp": "Ondo B-10",
+     "level": "●",
+     "text": "투자자 권리",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0058",
+     "disp": "Ondo B-11",
+     "level": "★",
+     "text": "배당은 자동 재투자되어 토큰 가격에 반영",
+     "color": "black",
+     "fact_ids": [
+      "F-0542"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0059",
+     "disp": "Ondo B-12",
+     "level": "★",
+     "text": "2026-04 Broadridge(의결 대행사) 연동, 의결 선호 제출",
+     "color": "black",
+     "fact_ids": [
+      "F-0463",
+      "F-0464"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0060",
+     "disp": "Ondo B-13",
+     "level": "●",
+     "text": "규모(시장 내 위치)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0061",
+     "disp": "Ondo B-14",
+     "level": "★",
+     "text": "2026-11-16 발행 잔액 8.99억 달러, 2위(점유율 24.23%)",
+     "color": "black",
+     "fact_ids": [
+      "F-1022"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0062",
+     "disp": "Ondo B-15",
+     "level": "★",
+     "text": "1위 Binance(가상자산 거래소) 13.6억, 3위 Kraken(가상자산 거래소) 6.8억 달러",
+     "color": "black",
+     "fact_ids": [
+      "F-1021",
+      "F-1023"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0063",
+     "disp": "Ondo B-16",
+     "level": "★",
+     "text": "4위 Securitize(토큰화 회사) 2.7억, 6위 Robinhood(주식 거래 앱) 1.5억 달러",
+     "color": "orange",
+     "fact_ids": [
+      "F-1024",
+      "F-1025"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0064",
+     "disp": "Ondo B-17",
+     "level": "★",
+     "text": "시장 전체 37.1억 달러(30일 전 대비 +4.33%)",
+     "color": "black",
+     "fact_ids": [
+      "F-1028"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0065",
+     "disp": "Ondo B-18",
+     "level": "●",
+     "text": "수수료",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0066",
+     "disp": "Ondo B-19",
+     "level": "★",
+     "text": "발행 수수료 없음, 상환 수수료 0.05%",
+     "color": "black",
+     "fact_ids": [
+      "F-0545"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0067",
+     "disp": "Ondo B-20",
+     "level": "★",
+     "text": "견적가와 기초 매매가 차이는 Ondo Stocks가 보유",
+     "color": "black",
+     "fact_ids": [
+      "F-0546"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "C",
+   "title": "C 최종 투자자",
+   "lines": [
+    {
+     "id": "on-0068",
+     "disp": "Ondo C-1",
+     "level": "●",
+     "text": "주장 : 미국 밖 개인과 기관이 대상, 미국인은 배제",
+     "color": "black",
+     "fact_ids": [
+      "F-0566",
+      "F-0190"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0069",
+     "disp": "Ondo C-2",
+     "level": "●",
+     "text": "대상",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0070",
+     "disp": "Ondo C-3",
+     "level": "★",
+     "text": "지원 관할의 기관과 개인, 2개 고객군",
+     "color": "black",
+     "fact_ids": [
+      "F-0566"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0071",
+     "disp": "Ondo C-4",
+     "level": "★",
+     "text": "Persona(신원 확인 업체)로 KYC, KYB 심사",
+     "color": "black",
+     "fact_ids": [
+      "F-0567"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0072",
+     "disp": "Ondo C-5",
+     "level": "●",
+     "text": "국적 및 지역 제한",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0073",
+     "disp": "Ondo C-6",
+     "level": "★",
+     "text": "미국인, 미국 안에서 주문하는 자 제외",
+     "color": "black",
+     "fact_ids": [
+      "F-0190",
+      "F-0543"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0074",
+     "disp": "Ondo C-7",
+     "level": "★",
+     "text": "스위스는 전문고객만, 개인 판매 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-0530",
+      "F-0544"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "D",
+   "title": "D 유통과 접점",
+   "lines": [
+    {
+     "id": "on-0075",
+     "disp": "Ondo D-1",
+     "level": "●",
+     "text": "주장 : 자체 앱 직접 판매와 거래소, 지갑 공급을 병행",
+     "color": "black",
+     "fact_ids": [
+      "F-0552",
+      "F-0572"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0076",
+     "disp": "Ondo D-2",
+     "level": "●",
+     "text": "공급 방식(누구에게 서빙하는지)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0077",
+     "disp": "Ondo D-3",
+     "level": "★",
+     "text": "자체 앱 : KYC 마친 개인, 기관에 USDon(달러 토큰)으로 판매",
+     "color": "black",
+     "fact_ids": [
+      "F-0561",
+      "F-0552"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0078",
+     "disp": "Ondo D-4",
+     "level": "★",
+     "text": "Bitget(가상자산 거래소) : USDT 계정 이용자, 2025-09부터 100종 이상",
+     "color": "black",
+     "fact_ids": [
+      "F-0202"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0079",
+     "disp": "Ondo D-5",
+     "level": "★",
+     "text": "Nest Exchange(Binance 운영 거래소) : UAE에서 디지털 증권으로 거래",
+     "color": "black",
+     "fact_ids": [
+      "F-0549"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0080",
+     "disp": "Ondo D-6",
+     "level": "★",
+     "text": "Trust Wallet(지갑), OKX, HTX, 1inch도 출시 파트너",
+     "color": "black",
+     "fact_ids": [
+      "F-0572"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0081",
+     "disp": "Ondo D-7",
+     "level": "●",
+     "text": "거래 장소",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0082",
+     "disp": "Ondo D-8",
+     "level": "★",
+     "text": "사용 블록체인 : Ethereum, BNB Chain, Solana 3개",
+     "color": "black",
+     "fact_ids": [
+      "F-0574"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0083",
+     "disp": "Ondo D-9",
+     "level": "★",
+     "text": "거래시간 : 일요일 밤 8시~금요일 밤 8시(ET)",
+     "color": "black",
+     "fact_ids": [
+      "F-0564"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0084",
+     "disp": "Ondo D-10",
+     "level": "★",
+     "text": "장외시간 거래 가능 종목 32개",
+     "color": "black",
+     "fact_ids": [
+      "F-0565"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0085",
+     "disp": "Ondo D-11",
+     "level": "★",
+     "text": "ERC20 호환, 외부 지갑으로 자유 이전",
+     "color": "black",
+     "fact_ids": [
+      "F-0553"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "E",
+   "title": "E 인가",
+   "lines": [
+    {
+     "id": "on-0086",
+     "disp": "Ondo E-1",
+     "level": "●",
+     "text": "주장 : 미국 인가는 인수로 사고, 주식 토큰은 미국 밖 면제로 발행",
+     "color": "black",
+     "fact_ids": [
+      "F-0246",
+      "F-0560"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0087",
+     "disp": "Ondo E-2",
+     "level": "●",
+     "text": "보유 인가와 법인(확보 방식과 시점)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0135",
+     "disp": "Ondo E-3",
+     "level": "★",
+     "text": "미국 증권사 : Oasis Pro 인수(2025-07 발표, 2025-10 완료)",
+     "color": "black",
+     "fact_ids": [
+      "F-0246",
+      "F-0194",
+      "F-1047"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0136",
+     "disp": "Ondo E-4",
+     "level": "★",
+     "text": "미국 ATS, 명의개서 : Oasis Pro 인수분에 포함",
+     "color": "black",
+     "fact_ids": [
+      "F-0194"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0090",
+     "disp": "Ondo E-5",
+     "level": "★",
+     "text": "투자자문 : Ondo Capital Management, SEC 등록(OUSG 자문)",
+     "color": "black",
+     "fact_ids": [
+      "F-0535",
+      "F-0534"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0137",
+     "disp": "Ondo E-6",
+     "level": "★",
+     "text": "발행 법인 : BVI 법인 2025-04 직접 설립",
+     "color": "black",
+     "fact_ids": [
+      "F-0185"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0091",
+     "disp": "Ondo E-7",
+     "level": "●",
+     "text": "인가 없는 구간을 메우는 방법",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0092",
+     "disp": "Ondo E-8",
+     "level": "★",
+     "text": "발행은 1933년 증권법 Regulation S 면제",
+     "color": "black",
+     "fact_ids": [
+      "F-0560"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0099",
+     "disp": "Ondo E-9",
+     "level": "★",
+     "text": "EU는 FMA 승인 기본 투자설명서(2025-11-11)",
+     "color": "black",
+     "fact_ids": [
+      "F-0548",
+      "F-0191"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0094",
+     "disp": "Ondo E-10",
+     "level": "★",
+     "text": "Ondo Finance는 중개, 청산, 보관 아닌 기술 제공자(약관)",
+     "color": "black",
+     "fact_ids": [
+      "F-0526",
+      "F-0525"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0095",
+     "disp": "Ondo E-11",
+     "level": "●",
+     "text": "미국 밖 구조의 대가",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0096",
+     "disp": "Ondo E-12",
+     "level": "★",
+     "text": "1933년 증권법, 1940년 투자회사법 모두 미등록",
+     "color": "black",
+     "fact_ids": [
+      "F-0529",
+      "F-0531"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0097",
+     "disp": "Ondo E-13",
+     "level": "★",
+     "text": "발행 법인이 받는 미국 배당에 원천징수 30%",
+     "color": "black",
+     "fact_ids": [
+      "F-0547"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0098",
+     "disp": "Ondo E-14",
+     "level": "★",
+     "text": "Ondo는 BVI 금융당국 등록, 인가 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-0528"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "F",
+   "title": "F 관계(해당 시)",
+   "lines": [
+    {
+     "id": "on-0100",
+     "disp": "Ondo F-1",
+     "level": "●",
+     "text": "주장 : 은행, 결제망, 자산운용사와 손잡아 상품 범위 확장",
+     "color": "black",
+     "fact_ids": [
+      "F-0462",
+      "F-0461"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0101",
+     "disp": "Ondo F-2",
+     "level": "●",
+     "text": "인수, 투자, 제휴",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0102",
+     "disp": "Ondo F-3",
+     "level": "★",
+     "text": "2026-05 Kinexys(JP Morgan 결제망) 등 3곳(Mastercard, Ripple 포함)과 국채 토큰 국경간 상환",
+     "color": "black",
+     "fact_ids": [
+      "F-0462"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0103",
+     "disp": "Ondo F-4",
+     "level": "★",
+     "text": "2026-09 BlackRock(자산운용사) 전략 기반 포트폴리오 3종 출시",
+     "color": "black",
+     "fact_ids": [
+      "F-0461"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "G",
+   "title": "G 한국 접점(해당 시)",
+   "lines": [
+    {
+     "id": "on-0104",
+     "disp": "Ondo G-1",
+     "level": "●",
+     "text": "주장 : 한국 주식 해외 유통과 한국 운용사 ETF 토큰화로 협력",
+     "color": "black",
+     "fact_ids": [
+      "F-0204",
+      "F-0205"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0105",
+     "disp": "Ondo G-2",
+     "level": "●",
+     "text": "한국 회사와의 협약",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0106",
+     "disp": "Ondo G-3",
+     "level": "★",
+     "text": "2026-09 카카오페이증권과 한국 주식 해외 유통 MOU",
+     "color": "black",
+     "fact_ids": [
+      "F-0204"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0107",
+     "disp": "Ondo G-4",
+     "level": "★",
+     "text": "카카오페이증권이 외국인 통합계좌로 원주 조달",
+     "color": "black",
+     "fact_ids": [
+      "F-0204"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0108",
+     "disp": "Ondo G-5",
+     "level": "★",
+     "text": "미래에셋자산운용과 Global X ETF 토큰화 MOU",
+     "color": "black",
+     "fact_ids": [
+      "F-0205"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "차이",
+   "title": "한국 시장과의 차이",
+   "lines": [
+    {
+     "id": "on-0109",
+     "disp": "Ondo 차이-1",
+     "level": "●",
+     "text": "주장 : 미국 밖 면제로 열렸고, 채무증서형 토큰도 한국에선 증권",
+     "color": "black",
+     "fact_ids": [
+      "F-0560",
+      "F-0187"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0110",
+     "disp": "Ondo 차이-2",
+     "level": "●",
+     "text": "규제",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0111",
+     "disp": "Ondo 차이-3",
+     "level": "★",
+     "text": "가능했던 이유 : 미국 밖 판매는 Regulation S로 공모 등록 불요",
+     "color": "black",
+     "fact_ids": [
+      "F-0560",
+      "US-17CFR-230.903-a"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0138",
+     "disp": "Ondo 차이-4",
+     "level": "★",
+     "text": "한국 차이 : 스위스법 채무증서도 외국인 발행 증권으로 봄",
+     "color": "black",
+     "fact_ids": [
+      "F-0187",
+      "KR-자본시장법-4①본문"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0114",
+     "disp": "Ondo 차이-5",
+     "level": "●",
+     "text": "고객 수요",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0115",
+     "disp": "Ondo 차이-6",
+     "level": "★",
+     "text": "가능했던 이유 : 증권 계좌 없이 지갑으로 미국 주식 노출 수요",
+     "color": "black",
+     "fact_ids": [
+      "F-0478",
+      "F-0553"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0139",
+     "disp": "Ondo 차이-7",
+     "level": "●",
+     "text": "규제 건의 포인트 : 외국인 통합계좌로 원주를 조달하는 해외 발행 허용 범위",
+     "color": "black",
+     "fact_ids": [
+      "F-0204",
+      "KR-자본시장법-168"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "판단",
+   "title": "성과와 판단",
+   "lines": [
+    {
+     "id": "on-0118",
+     "disp": "Ondo 판단-1",
+     "level": "●",
+     "text": "성과",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0119",
+     "disp": "Ondo 판단-2",
+     "level": "★",
+     "text": "2025-09 출시 뒤 14개월 만에 발행 잔액 2위",
+     "color": "black",
+     "fact_ids": [
+      "F-0197",
+      "F-1022"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0140",
+     "disp": "Ondo 판단-3",
+     "level": "★",
+     "text": "2026-11-16 잔액 8.99억 달러, 점유율 24.23%",
+     "color": "black",
+     "fact_ids": [
+      "F-1022"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0120",
+     "disp": "Ondo 판단-4",
+     "level": "●",
+     "text": "핵심 성공요인(KSF)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0121",
+     "disp": "Ondo 판단-5",
+     "level": "★",
+     "text": "발행 SPV 분리, 파트너 5곳, 잔액 8.99억 달러 2위",
+     "color": "black",
+     "fact_ids": [
+      "F-0551",
+      "F-0572",
+      "F-1022"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0122",
+     "disp": "Ondo 판단-6",
+     "level": "★",
+     "text": "2025-12 Ondo Stocks 통합, 점유율 24.23%",
+     "color": "black",
+     "fact_ids": [
+      "F-0503",
+      "F-1022"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0123",
+     "disp": "Ondo 판단-7",
+     "level": "●",
+     "text": "제약과 리스크",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0124",
+     "disp": "Ondo 판단-8",
+     "level": "★",
+     "text": "담보로만 상환, 발행 법인 도산 위험은 투자자 부담",
+     "color": "black",
+     "fact_ids": [
+      "F-0188"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0125",
+     "disp": "Ondo 판단-9",
+     "level": "★",
+     "text": "2026-08 창업자 유족이 경영권 소송 제기",
+     "color": "black",
+     "fact_ids": [
+      "F-0208"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0126",
+     "disp": "Ondo 판단-10",
+     "level": "●",
+     "text": "KDX 시사점 1",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0141",
+     "disp": "Ondo 판단-11",
+     "level": "★",
+     "text": "받치는 명제 : Coopetition",
+     "color": "black",
+     "fact_ids": [
+      "F-0549",
+      "F-1021"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0142",
+     "disp": "Ondo 판단-12",
+     "level": "★",
+     "text": "KDX가 가져올 것 : 거래소, 지갑, DTCC에 공급하는 개방형 연동",
+     "color": "black",
+     "fact_ids": [
+      "F-0572",
+      "F-1049"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0143",
+     "disp": "Ondo 판단-13",
+     "level": "★",
+     "text": "KDX가 피할 것 : 1위 경쟁자(Binance)에 공급하며 의존",
+     "color": "black",
+     "fact_ids": [
+      "F-0549",
+      "F-1021"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0144",
+     "disp": "Ondo 판단-14",
+     "level": "●",
+     "text": "KDX 시사점 2",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0128",
+     "disp": "Ondo 판단-15",
+     "level": "★",
+     "text": "받치는 명제 : Borderless Investing",
+     "color": "black",
+     "fact_ids": [
+      "F-0478",
+      "F-0553"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0145",
+     "disp": "Ondo 판단-16",
+     "level": "★",
+     "text": "KDX가 가져올 것 : 지갑으로 미국 주식 노출, 외부 지갑 이전 허용",
+     "color": "black",
+     "fact_ids": [
+      "F-0478",
+      "F-0553"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0146",
+     "disp": "Ondo 판단-17",
+     "level": "★",
+     "text": "KDX가 피할 것 : 담보 채권 구조의 투자자 도산 위험 전가",
+     "color": "black",
+     "fact_ids": [
+      "F-0188"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0147",
+     "disp": "Ondo 판단-18",
+     "level": "●",
+     "text": "해외 확장 세 질문",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0148",
+     "disp": "Ondo 판단-19",
+     "level": "★",
+     "text": "제공 가치 : 한국 주식의 해외 유통",
+     "color": "black",
+     "fact_ids": [
+      "F-0204"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0149",
+     "disp": "Ondo 판단-20",
+     "level": "★",
+     "text": "제도 : 카카오페이증권이 외국인 통합계좌로 원주 조달",
+     "color": "black",
+     "fact_ids": [
+      "F-0204"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0150",
+     "disp": "Ondo 판단-21",
+     "level": "★",
+     "text": "경제성 : 발행 수수료 없음, 상환 수수료 0.05%",
+     "color": "black",
+     "fact_ids": [
+      "F-0545"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  }
+ ]
+}

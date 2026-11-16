@@ -1,0 +1,1686 @@
+{
+ "company": "Coinbase",
+ "kind": "company",
+ "logo": "Coinbase_logo.png",
+ "sections": [
+  {
+   "code": "개요",
+   "title": "회사 개요와 확장 경로",
+   "lines": [
+    {
+     "id": "cb-0125",
+     "disp": "Coinbase 개요-1",
+     "level": "●",
+     "text": "주장 : 미국 자격을 사 모은 뒤 주식 토큰은 미국 밖 전용으로 발행",
+     "color": "black",
+     "fact_ids": [
+      "F-1120",
+      "F-1122",
+      "F-0749"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0002",
+     "disp": "Coinbase 개요-2",
+     "level": "●",
+     "text": "기본정보",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0003",
+     "disp": "Coinbase 개요-3",
+     "level": "★",
+     "text": "법인명 : Coinbase Global(미국 가상자산 거래소), Nasdaq 상장",
+     "color": "black",
+     "fact_ids": [
+      "F-0078"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0004",
+     "disp": "Coinbase 개요-4",
+     "level": "★",
+     "text": "대표 : Brian Armstrong(CEO)",
+     "color": "black",
+     "fact_ids": [
+      "F-1056"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0005",
+     "disp": "Coinbase 개요-5",
+     "level": "★",
+     "text": "발행 법인 : Coinbase Onchain SPV Ltd(아부다비 ADGM, 발행 전용)",
+     "color": "black",
+     "fact_ids": [
+      "F-0076",
+      "F-0077"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0006",
+     "disp": "Coinbase 개요-6",
+     "level": "●",
+     "text": "지배구조",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0007",
+     "disp": "Coinbase 개요-7",
+     "level": "★",
+     "text": "SPV는 OMHL을 거쳐 Coinbase Global 100% 소유",
+     "color": "black",
+     "fact_ids": [
+      "F-0078"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0008",
+     "disp": "Coinbase 개요-8",
+     "level": "●",
+     "text": "설립 목적",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0009",
+     "disp": "Coinbase 개요-9",
+     "level": "★",
+     "text": "2026 우선순위 : 주식 포함 모든 자산을 한 곳에서 거래",
+     "color": "black",
+     "fact_ids": [
+      "F-0899"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0010",
+     "disp": "Coinbase 개요-10",
+     "level": "★",
+     "text": "2026 우선순위 : 스테이블코인과 결제, 온체인",
+     "color": "black",
+     "fact_ids": [
+      "F-0916"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0011",
+     "disp": "Coinbase 개요-11",
+     "level": "●",
+     "text": "성장 경로(한 줄기)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0012",
+     "disp": "Coinbase 개요-12",
+     "level": "★",
+     "text": "2018-09 USDC(Circle과 공동) 출시",
+     "color": "black",
+     "fact_ids": [
+      "F-0790"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0126",
+     "disp": "Coinbase 개요-13",
+     "level": "★",
+     "text": "증권사 법인 확보 → 2022 FairX 인수로 거래소(DCM)",
+     "color": "black",
+     "fact_ids": [
+      "F-1120",
+      "F-1122"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0127",
+     "disp": "Coinbase 개요-14",
+     "level": "★",
+     "text": "2026-02 앱 주식 거래 → 2026-06 발행 SPV 설립",
+     "color": "black",
+     "fact_ids": [
+      "F-0100",
+      "F-0076"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0128",
+     "disp": "Coinbase 개요-15",
+     "level": "★",
+     "text": "2026-08 Base 주식 토큰 → 2026-09 청산소(DCO) 등록",
+     "color": "black",
+     "fact_ids": [
+      "F-0776",
+      "F-1123"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0015",
+     "disp": "Coinbase 개요-16",
+     "level": "●",
+     "text": "화면",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0016",
+     "disp": "Coinbase 개요-17",
+     "level": "그림",
+     "images": [
+      {
+       "file": "Coinbase_signup.jpg",
+       "caption": "가입"
+      },
+      {
+       "file": "Coinbase_list.jpg",
+       "caption": "종목 목록"
+      },
+      {
+       "file": "Coinbase_order.jpg",
+       "caption": "주문"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "발언",
+   "title": "경영진 발언",
+   "lines": [
+    {
+     "id": "cb-0017",
+     "disp": "Coinbase 발언-1",
+     "level": "●",
+     "text": "발언 1 : 지금 투자하는 곳은 미국 밖 상품",
+     "color": "black",
+     "fact_ids": [
+      "F-1058"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0018",
+     "disp": "Coinbase 발언-2",
+     "level": "★",
+     "text": "Alesia Haas(CFO), 실적 콜(2026 Q3, 애널리스트 질의), 2026-10-29, 녹취(사용자 제공 문서)",
+     "color": "black",
+     "fact_ids": [
+      "F-1058"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0019",
+     "disp": "Coinbase 발언-3",
+     "level": "①",
+     "text": "원문 : \"We're really focused right now on our non-US offering. We are pleased to see that we have really exciting early traction with about $3 billion in volume since launch. This is the area that we're investing in, this non-US product.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0020",
+     "disp": "Coinbase 발언-4",
+     "level": "②",
+     "text": "번역 : 지금은 미국 밖 상품에 집중한다. 출시 이후 거래대금 약 30억 달러로 초기 반응이 좋고, 투자하는 곳도 이 미국 밖 상품이다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0021",
+     "disp": "Coinbase 발언-5",
+     "level": "③",
+     "text": "해석 : 큰 곳은 미국 밖 주식 토큰. 그래서 미국 상품 없이 미국 밖 상품에 먼저 투자",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0022",
+     "disp": "Coinbase 발언-6",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_Coinbase_03.jpg",
+       "caption": "발언 1"
+      }
+     ]
+    },
+    {
+     "id": "cb-0023",
+     "disp": "Coinbase 발언-7",
+     "level": "●",
+     "text": "발언 2 : 만들기는 쉽고 유동성 키우기가 어렵다",
+     "color": "black",
+     "fact_ids": [
+      "F-1059"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0024",
+     "disp": "Coinbase 발언-8",
+     "level": "★",
+     "text": "Alesia Haas(CFO), 실적 콜(2026 Q3, 애널리스트 질의), 2026-10-29, 녹취(사용자 제공 문서)",
+     "color": "black",
+     "fact_ids": [
+      "F-1059"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0025",
+     "disp": "Coinbase 발언-9",
+     "level": "①",
+     "text": "원문 : \"It has real shareholder rights. It's real equity. It's just in token form. [...] easy to create a tokenized asset, hard to grow liquidity depth of a tokenized asset, hard to build a network, hard to get to the right liquidity for traders.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0026",
+     "disp": "Coinbase 발언-10",
+     "level": "②",
+     "text": "번역 : 실제 주주 권리가 있는 진짜 주식이고 형태만 토큰이다. 토큰 자산은 만들기 쉽지만 유동성 깊이와 네트워크를 키우기는 어렵다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0027",
+     "disp": "Coinbase 발언-11",
+     "level": "③",
+     "text": "해석 : 큰 곳은 주식 토큰의 유동성. 그래서 USDC 방식대로 시장조성자, DeFi 편입에 투자",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0028",
+     "disp": "Coinbase 발언-12",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_Coinbase_04.jpg",
+       "caption": "발언 2"
+      }
+     ]
+    },
+    {
+     "id": "cb-0129",
+     "disp": "Coinbase 발언-13",
+     "level": "●",
+     "text": "서류 대조(발언 2) : 말은 진짜 주식, 서류는 수익권",
+     "color": "black",
+     "fact_ids": [
+      "F-1059",
+      "F-0079"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0130",
+     "disp": "Coinbase 발언-14",
+     "level": "★",
+     "text": "서류 : 투자설명서는 SPV 보관 기초주의 비례 수익권, 직접 투자 아님",
+     "color": "black",
+     "fact_ids": [
+      "F-0079",
+      "F-0081"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0029",
+     "disp": "Coinbase 발언-15",
+     "level": "●",
+     "text": "발언 3 : 토큰화도 미국과 미국 밖 유동성을 묶겠다",
+     "color": "black",
+     "fact_ids": [
+      "F-1060"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0030",
+     "disp": "Coinbase 발언-16",
+     "level": "★",
+     "text": "Alesia Haas(CFO), 실적 콜(2026 Q3, 애널리스트 질의), 2026-10-29, 녹취(사용자 제공 문서)",
+     "color": "black",
+     "fact_ids": [
+      "F-1060"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0031",
+     "disp": "Coinbase 발언-17",
+     "level": "①",
+     "text": "원문 : \"I think perps, I think tokenization, I think all of this is just the future of finance, quite candidly. [...] We uniquely now have global liquidity on derivatives. [...] we would hope over time we can do that with tokenized stocks as well. That requires more regulatory approvals, but what we have built for tokenized stock is suited for the US innovation exemption.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0032",
+     "disp": "Coinbase 발언-18",
+     "level": "②",
+     "text": "번역 : 무기한선물과 토큰화 모두 금융의 미래다. 파생상품에는 미국과 미국 밖을 잇는 유동성이 있고, 주식 토큰도 그렇게 하고 싶다. 추가 승인이 필요하지만 만든 상품은 미국 혁신 면제에 맞는다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0033",
+     "disp": "Coinbase 발언-19",
+     "level": "③",
+     "text": "해석 : 큰 곳은 미국과 미국 밖 통합 유동성. 그래서 미국 승인을 전제로 확장 가능한 설계",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0034",
+     "disp": "Coinbase 발언-20",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_Coinbase_05.jpg",
+       "caption": "발언 3"
+      }
+     ]
+    },
+    {
+     "id": "cb-0035",
+     "disp": "Coinbase 발언-21",
+     "level": "●",
+     "text": "발언 4 : 합성이 아닌 진짜 증권이 이긴다",
+     "color": "black",
+     "fact_ids": [
+      "F-1061"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0036",
+     "disp": "Coinbase 발언-22",
+     "level": "★",
+     "text": "Brian Armstrong(공동 창업자 겸 CEO), 실적 AMA(2026 Q3), 2026-10-29, 녹취(사용자 제공 문서)",
+     "color": "black",
+     "fact_ids": [
+      "F-1061"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0037",
+     "disp": "Coinbase 발언-23",
+     "level": "①",
+     "text": "원문 : \"these tokenized equities that we put out, they're real deal securities. You can get the upside from dividends. We're implementing voting rights, things like that. [...] as the largest custodian in crypto, the most trusted brand in crypto, this is actually something that we're uniquely good at and have a right to win.\"",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0038",
+     "disp": "Coinbase 발언-24",
+     "level": "②",
+     "text": "번역 : 우리가 낸 주식 토큰은 진짜 증권이다. 배당 이익을 받고 의결권도 구현 중이다. 크립토 최대 수탁기관이자 가장 신뢰받는 브랜드로서 잘할 수 있는 영역이다.",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0039",
+     "disp": "Coinbase 발언-25",
+     "level": "③",
+     "text": "해석 : 큰 곳은 실물 권리형 주식 토큰. 그래서 배당, 의결권, 상환과 수탁 신뢰로 차별화",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0040",
+     "disp": "Coinbase 발언-26",
+     "level": "그림",
+     "images": [
+      {
+       "file": "quotes_Coinbase_06.jpg",
+       "caption": "발언 4"
+      }
+     ]
+    },
+    {
+     "id": "cb-0131",
+     "disp": "Coinbase 발언-27",
+     "level": "●",
+     "text": "서류 대조(발언 4) : 의결권은 직접 아닌 지시 반영, 배당은 재투자",
+     "color": "black",
+     "fact_ids": [
+      "F-1061",
+      "F-0086"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0132",
+     "disp": "Coinbase 발언-28",
+     "level": "★",
+     "text": "서류 : 의결권 직접 없음, 현금 배당 없이 재투자",
+     "color": "black",
+     "fact_ids": [
+      "F-0086",
+      "F-0753"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "A",
+   "title": "A 출신과 진입(주식 토큰 사업)",
+   "lines": [
+    {
+     "id": "cb-0041",
+     "disp": "Coinbase A-1",
+     "level": "●",
+     "text": "주장 : 거래소 고객 기반 위에 자체 블록체인으로 직접 발행해 진입",
+     "color": "black",
+     "fact_ids": [
+      "F-0902",
+      "F-0777"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0042",
+     "disp": "Coinbase A-2",
+     "level": "●",
+     "text": "출신 : 가상자산 거래소, 2026 Q3 거래대금 점유율 10.7%",
+     "color": "black",
+     "fact_ids": [
+      "F-0902"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0043",
+     "disp": "Coinbase A-3",
+     "level": "●",
+     "text": "진입 방식",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0044",
+     "disp": "Coinbase A-4",
+     "level": "★",
+     "text": "Base(자체 블록체인) 표준 B20으로 직접 발행",
+     "color": "black",
+     "fact_ids": [
+      "F-0777",
+      "F-0799"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0045",
+     "disp": "Coinbase A-5",
+     "level": "★",
+     "text": "진출 사유 : 주식을 온체인에서 프로그래밍, 조합 가능하게",
+     "color": "black",
+     "fact_ids": [
+      "F-0794"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "B",
+   "title": "B 상품 구조",
+   "lines": [
+    {
+     "id": "cb-0133",
+     "disp": "Coinbase B-1",
+     "level": "●",
+     "text": "주장 : 말은 진짜 주식이나 투자자 몫은 SPV 보관분의 수익권",
+     "color": "black",
+     "fact_ids": [
+      "F-0995",
+      "F-0079"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0047",
+     "disp": "Coinbase B-2",
+     "level": "●",
+     "text": "토큰의 법적 성격(우리 분류)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0048",
+     "disp": "Coinbase B-3",
+     "level": "★",
+     "text": "투자자 : SPV가 Alpaca에 맡긴 기초주의 비례 수익권",
+     "color": "black",
+     "fact_ids": [
+      "F-0995"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0049",
+     "disp": "Coinbase B-4",
+     "level": "★",
+     "text": "ADGM 증서(Certificate over Shares), 기초주 직접 투자 아님",
+     "color": "black",
+     "fact_ids": [
+      "F-0079"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0050",
+     "disp": "Coinbase B-5",
+     "level": "★",
+     "text": "토큰 : 운영상 증표, 법적 소유는 CSD 장부 기준",
+     "color": "black",
+     "fact_ids": [
+      "F-0080"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0051",
+     "disp": "Coinbase B-6",
+     "level": "★",
+     "text": "우리 분류 : 제3자 보관형(SPV는 bare trustee, 제한소구)",
+     "color": "black",
+     "fact_ids": [
+      "F-0995"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0052",
+     "disp": "Coinbase B-7",
+     "level": "●",
+     "text": "발행 주체와 보관",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0053",
+     "disp": "Coinbase B-8",
+     "level": "★",
+     "text": "발행 : SPV(Coinbase Onchain SPV), 토큰 발행과 장부는 OML(Onchain Marketplace)",
+     "color": "black",
+     "fact_ids": [
+      "F-0076",
+      "F-0082"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0054",
+     "disp": "Coinbase B-9",
+     "level": "★",
+     "text": "보관 : 기초주는 SPV 명의 분리 계좌, 파산 격리",
+     "color": "black",
+     "fact_ids": [
+      "F-0081",
+      "F-0742"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0055",
+     "disp": "Coinbase B-10",
+     "level": "●",
+     "text": "투자자 권리",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0056",
+     "disp": "Coinbase B-11",
+     "level": "★",
+     "text": "배당 : 현금 대신 재투자, 배수(1.00 시작) 상승으로 반영",
+     "color": "black",
+     "fact_ids": [
+      "F-0753",
+      "F-0801"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0057",
+     "disp": "Coinbase B-12",
+     "level": "★",
+     "text": "의결권 : 직접 없음, 보유자 지시를 SPV가 반영 노력",
+     "color": "black",
+     "fact_ids": [
+      "F-0086"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0058",
+     "disp": "Coinbase B-13",
+     "level": "●",
+     "text": "규모(시장 내 위치)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0059",
+     "disp": "Coinbase B-14",
+     "level": "★",
+     "text": "2026-11-16 발행 잔액 4,690만 달러, 8위(점유율 1.26%)",
+     "color": "black",
+     "fact_ids": [
+      "F-1026"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0060",
+     "disp": "Coinbase B-15",
+     "level": "★",
+     "text": "1~3위는 Binance, Ondo, Kraken(13.6억, 9.0억, 6.8억 달러)",
+     "color": "black",
+     "fact_ids": [
+      "F-1021",
+      "F-1022",
+      "F-1023"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0061",
+     "disp": "Coinbase B-16",
+     "level": "★",
+     "text": "Robinhood 6위 1.49억, Dinari 11위 1,520만 달러",
+     "color": "black",
+     "fact_ids": [
+      "F-1025",
+      "F-1027"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0062",
+     "disp": "Coinbase B-17",
+     "level": "★",
+     "text": "종목 수 2026-11-16 10종(NVDAc, AAPLc 등)",
+     "color": "black",
+     "fact_ids": [
+      "F-0093"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0063",
+     "disp": "Coinbase B-18",
+     "level": "●",
+     "text": "수수료",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0064",
+     "disp": "Coinbase B-19",
+     "level": "★",
+     "text": "창설 0.01%, 상환 0.05%, 분배금 5.0%",
+     "color": "black",
+     "fact_ids": [
+      "F-0087"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0065",
+     "disp": "Coinbase B-20",
+     "level": "★",
+     "text": "주된 수익화는 Base 시퀀서 수수료(CFO 발언)",
+     "color": "black",
+     "fact_ids": [
+      "F-0895",
+      "F-0770"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "C",
+   "title": "C 최종 투자자",
+   "lines": [
+    {
+     "id": "cb-0066",
+     "disp": "Coinbase C-1",
+     "level": "●",
+     "text": "주장 : 미국 밖 지갑 보유 개인이 사고팔고, 창설은 기관만",
+     "color": "black",
+     "fact_ids": [
+      "F-0785",
+      "F-0740"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0067",
+     "disp": "Coinbase C-2",
+     "level": "●",
+     "text": "대상",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0068",
+     "disp": "Coinbase C-3",
+     "level": "★",
+     "text": "2차 시장 : 인터넷과 지갑이 있는 미국 밖 적격 개인",
+     "color": "black",
+     "fact_ids": [
+      "F-0785",
+      "F-0749"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0069",
+     "disp": "Coinbase C-4",
+     "level": "★",
+     "text": "2차 보유, 거래는 KYC 없이 허가 없이 가능",
+     "color": "black",
+     "fact_ids": [
+      "F-0757"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0070",
+     "disp": "Coinbase C-5",
+     "level": "★",
+     "text": "1차 창설, 상환 : KYC 거친 승인 참여자(기관)만",
+     "color": "black",
+     "fact_ids": [
+      "F-0740",
+      "F-0808"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0071",
+     "disp": "Coinbase C-6",
+     "level": "●",
+     "text": "국적 및 지역 제한",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0072",
+     "disp": "Coinbase C-7",
+     "level": "★",
+     "text": "미국인 제외(Regulation S), ADGM 밖 배포 불가",
+     "color": "black",
+     "fact_ids": [
+      "F-0084",
+      "F-0739"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0073",
+     "disp": "Coinbase C-8",
+     "level": "★",
+     "text": "미국 제재 명단, 제재 관할 거주자 이용 불가",
+     "color": "black",
+     "fact_ids": [
+      "F-0772"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "D",
+   "title": "D 유통과 접점",
+   "lines": [
+    {
+     "id": "cb-0074",
+     "disp": "Coinbase D-1",
+     "level": "●",
+     "text": "주장 : 판매 창구 없이 DeFi에 풀어 유통을 외부 프로토콜에 맡김",
+     "color": "black",
+     "fact_ids": [
+      "F-0088",
+      "F-0092"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0075",
+     "disp": "Coinbase D-2",
+     "level": "●",
+     "text": "공급 방식(누구에게 서빙하는지)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0076",
+     "disp": "Coinbase D-3",
+     "level": "★",
+     "text": "승인 참여자(기관 시장조성사) : 주식 매입 후 토큰 창설",
+     "color": "black",
+     "fact_ids": [
+      "F-0780"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0077",
+     "disp": "Coinbase D-4",
+     "level": "★",
+     "text": "Aerodrome(Base 탈중앙 거래소) : 지갑 보유 개인의 매매",
+     "color": "black",
+     "fact_ids": [
+      "F-0092",
+      "F-0786"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0078",
+     "disp": "Coinbase D-5",
+     "level": "★",
+     "text": "Aave, Morpho(대출 프로토콜) : 주식 토큰 담보 대출 이용자",
+     "color": "black",
+     "fact_ids": [
+      "F-0092",
+      "F-0782"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0079",
+     "disp": "Coinbase D-6",
+     "level": "★",
+     "text": "Virtuals, Treasures(에이전트 서비스) : AI 에이전트 매매",
+     "color": "black",
+     "fact_ids": [
+      "F-0783"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0080",
+     "disp": "Coinbase D-7",
+     "level": "●",
+     "text": "거래 장소",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0081",
+     "disp": "Coinbase D-8",
+     "level": "★",
+     "text": "중앙 거래소 상장 없이 블록체인 위 DeFi에서만 유통",
+     "color": "black",
+     "fact_ids": [
+      "F-0088"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0082",
+     "disp": "Coinbase D-9",
+     "level": "★",
+     "text": "주말, 미국 공휴일 포함 24시간 거래",
+     "color": "black",
+     "fact_ids": [
+      "F-0747"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0083",
+     "disp": "Coinbase D-10",
+     "level": "★",
+     "text": "사용 블록체인 : Base(Ethereum 위 롤업)",
+     "color": "black",
+     "fact_ids": [
+      "F-0766"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "E",
+   "title": "E 인가",
+   "lines": [
+    {
+     "id": "cb-0134",
+     "disp": "Coinbase E-1",
+     "level": "●",
+     "text": "주장 : 미국은 인수와 직접 등록으로 쌓고, 토큰 발행은 ADGM 법인",
+     "color": "black",
+     "fact_ids": [
+      "F-1120",
+      "F-1123",
+      "F-0082"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0135",
+     "disp": "Coinbase E-2",
+     "level": "●",
+     "text": "미국 자격(확보 방식과 시점)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0136",
+     "disp": "Coinbase E-3",
+     "level": "★",
+     "text": "미국 증권사 : Coinbase Capital Markets(CRD 10722), 기존 법인 확보",
+     "color": "black",
+     "fact_ids": [
+      "F-1120"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0137",
+     "disp": "Coinbase E-4",
+     "level": "★",
+     "text": "이전 상호 Keystone Capital(등록 1982-08-13), 인수 시점 미확인",
+     "color": "black",
+     "fact_ids": [
+      "F-1120"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0138",
+     "disp": "Coinbase E-5",
+     "level": "★",
+     "text": "미국 거래소(DCM) : 2022 FairX 인수로 확보",
+     "color": "black",
+     "fact_ids": [
+      "F-1122"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0139",
+     "disp": "Coinbase E-6",
+     "level": "★",
+     "text": "미국 청산소(DCO) : 2026-09-28 직접 등록",
+     "color": "black",
+     "fact_ids": [
+      "F-1123"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0085",
+     "disp": "Coinbase E-7",
+     "level": "●",
+     "text": "아부다비 인가와 법인",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0086",
+     "disp": "Coinbase E-8",
+     "level": "★",
+     "text": "Onchain Marketplace : FSRA 투자 거래 주선, CSD 수탁",
+     "color": "black",
+     "fact_ids": [
+      "F-0082"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0087",
+     "disp": "Coinbase E-9",
+     "level": "★",
+     "text": "증서 : FSRA가 증권으로 간주, 2026-08-04 투자설명서 승인",
+     "color": "black",
+     "fact_ids": [
+      "F-0079"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0088",
+     "disp": "Coinbase E-10",
+     "level": "★",
+     "text": "Coinbase : FSRA FSP(아부다비 토큰화 거점)",
+     "color": "black",
+     "fact_ids": [
+      "F-0095"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0089",
+     "disp": "Coinbase E-11",
+     "level": "●",
+     "text": "인가 없는 구간을 메우는 방법",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0090",
+     "disp": "Coinbase E-12",
+     "level": "★",
+     "text": "기초주 매매 중개는 Alpaca(SEC 등록 증권사, FINRA, SIPC)에 위탁",
+     "color": "black",
+     "fact_ids": [
+      "F-0081"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0091",
+     "disp": "Coinbase E-13",
+     "level": "●",
+     "text": "미국 밖 구조의 대가",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0092",
+     "disp": "Coinbase E-14",
+     "level": "★",
+     "text": "미국 상품 없음, SEC 혁신 면제 뒤 검토(CFO)",
+     "color": "black",
+     "fact_ids": [
+      "F-0898"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0093",
+     "disp": "Coinbase E-15",
+     "level": "★",
+     "text": "KYC 통과 보유자(Vested Holder)만 상환, 의결권",
+     "color": "black",
+     "fact_ids": [
+      "F-0085"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "F",
+   "title": "F 관계(해당 시)",
+   "lines": [
+    {
+     "id": "cb-0094",
+     "disp": "Coinbase F-1",
+     "level": "●",
+     "text": "주장 : 자금은 그룹 안에서, 가격 데이터는 외부에서",
+     "color": "black",
+     "fact_ids": [
+      "F-0089",
+      "F-0758"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0095",
+     "disp": "Coinbase F-2",
+     "level": "●",
+     "text": "인수, 투자, 제휴",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0096",
+     "disp": "Coinbase F-3",
+     "level": "★",
+     "text": "Coinbase Custody International : SPV에 300만 달러 대출 한도",
+     "color": "black",
+     "fact_ids": [
+      "F-0089"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0097",
+     "disp": "Coinbase F-4",
+     "level": "★",
+     "text": "Chainlink : 총수익 가격 피드, 주말은 마지막 종가",
+     "color": "black",
+     "fact_ids": [
+      "F-0758",
+      "F-0810"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "차이",
+   "title": "한국 시장과의 차이",
+   "lines": [
+    {
+     "id": "cb-0098",
+     "disp": "Coinbase 차이-1",
+     "level": "●",
+     "text": "주장 : 미국 밖은 ADGM 증서로 열렸고, 한국은 증권 해당 여부부터",
+     "color": "black",
+     "fact_ids": [
+      "F-0079",
+      "KR-자본시장법-4①본문"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0099",
+     "disp": "Coinbase 차이-2",
+     "level": "●",
+     "text": "규제",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0100",
+     "disp": "Coinbase 차이-3",
+     "level": "★",
+     "text": "가능했던 이유 : ADGM 증서 승인, 미국 밖은 Regulation S",
+     "color": "black",
+     "fact_ids": [
+      "F-0079",
+      "F-0739",
+      "US-17CFR-230.903-a"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0140",
+     "disp": "Coinbase 차이-4",
+     "level": "★",
+     "text": "한국 차이 : 외국인 발행도 국내법상 증권, 증서 수익권도 해당",
+     "color": "black",
+     "fact_ids": [
+      "KR-자본시장법-4①본문",
+      "F-0079"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0103",
+     "disp": "Coinbase 차이-5",
+     "level": "●",
+     "text": "고객 수요",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0104",
+     "disp": "Coinbase 차이-6",
+     "level": "★",
+     "text": "가능했던 이유 : 미국 시장 접근이 제한된 미국 밖 사용자",
+     "color": "black",
+     "fact_ids": [
+      "F-0796",
+      "F-0785"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0141",
+     "disp": "Coinbase 차이-7",
+     "level": "●",
+     "text": "규제 건의 포인트 : 수익권 증서형 토큰의 증권 해당 기준 사전 안내",
+     "color": "black",
+     "fact_ids": [
+      "F-0079",
+      "KR-자본시장법-4①본문"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  },
+  {
+   "code": "판단",
+   "title": "성과와 판단",
+   "lines": [
+    {
+     "id": "cb-0142",
+     "disp": "Coinbase 판단-1",
+     "level": "●",
+     "text": "주장 : 서류보다 말이 앞서 있고 발행 잔액은 8위에 머묾",
+     "color": "black",
+     "fact_ids": [
+      "F-1059",
+      "F-0079",
+      "F-1026"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0107",
+     "disp": "Coinbase 판단-2",
+     "level": "●",
+     "text": "성과",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0143",
+     "disp": "Coinbase 판단-3",
+     "level": "★",
+     "text": "2026-11-16 발행 잔액 4,690만 달러, 8위(점유율 1.26%)",
+     "color": "black",
+     "fact_ids": [
+      "F-1026"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0108",
+     "disp": "Coinbase 판단-4",
+     "level": "★",
+     "text": "2026-09말 누적 거래대금 10억 달러 이상(회사 발표, 주주서한)",
+     "color": "black",
+     "fact_ids": [
+      "F-0892"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0109",
+     "disp": "Coinbase 판단-5",
+     "level": "★",
+     "text": "같은 상품 출시 이후 약 30억 달러(회사 발표, CFO 발언, 기준 차이)",
+     "color": "black",
+     "fact_ids": [
+      "F-0894"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0144",
+     "disp": "Coinbase 판단-6",
+     "level": "★",
+     "text": "2026 Q3 암호자산 거래대금 점유율 10.7%(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-0902"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0112",
+     "disp": "Coinbase 판단-7",
+     "level": "●",
+     "text": "핵심 성공요인(KSF)",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0145",
+     "disp": "Coinbase 판단-8",
+     "level": "★",
+     "text": "자체 블록체인 DeFi 유통, 출시 이후 거래대금 약 30억 달러(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-0092",
+      "F-0894"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0146",
+     "disp": "Coinbase 판단-9",
+     "level": "★",
+     "text": "발행과 장부를 그룹 안에서, 잔액 4,690만 달러 8위",
+     "color": "black",
+     "fact_ids": [
+      "F-0082",
+      "F-1026"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0115",
+     "disp": "Coinbase 판단-10",
+     "level": "★",
+     "text": "USDC로 유동성을 키운 경험(CFO), 거래대금 점유율 10.7%(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-1059",
+      "F-0902"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0116",
+     "disp": "Coinbase 판단-11",
+     "level": "●",
+     "text": "제약과 리스크",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0117",
+     "disp": "Coinbase 판단-12",
+     "level": "★",
+     "text": "SPV, 토큰화 법인, Coinbase가 같은 그룹, 이해상충 공시",
+     "color": "black",
+     "fact_ids": [
+      "F-0090"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0118",
+     "disp": "Coinbase 판단-13",
+     "level": "★",
+     "text": "법적 요건용 동결과 압류 기능 보유",
+     "color": "black",
+     "fact_ids": [
+      "F-0807"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0119",
+     "disp": "Coinbase 판단-14",
+     "level": "★",
+     "text": "기업행위 중 창설, 상환 중단, 전송은 계속",
+     "color": "black",
+     "fact_ids": [
+      "F-0762"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0111",
+     "disp": "Coinbase 판단-15",
+     "level": "★",
+     "text": "그룹 2026 Q3 총수익 12.2억 달러, 전년 대비 35% 감소(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-0910"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0120",
+     "disp": "Coinbase 판단-16",
+     "level": "●",
+     "text": "KDX 시사점",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0147",
+     "disp": "Coinbase 판단-17",
+     "level": "★",
+     "text": "받치는 명제 : 시장 인프라 Unbundling",
+     "color": "black",
+     "fact_ids": [
+      "F-0076",
+      "F-0082",
+      "F-0081"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0121",
+     "disp": "Coinbase 판단-18",
+     "level": "★",
+     "text": "KDX가 가져올 것 : 발행 SPV, 장부 법인, 보관사를 나눈 구조",
+     "color": "black",
+     "fact_ids": [
+      "F-0076",
+      "F-0082",
+      "F-0081"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0148",
+     "disp": "Coinbase 판단-19",
+     "level": "★",
+     "text": "KDX가 피할 것 : 같은 그룹 겸영의 이해상충, 8위에 그친 유동성",
+     "color": "black",
+     "fact_ids": [
+      "F-0090",
+      "F-1026"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0149",
+     "disp": "Coinbase 판단-20",
+     "level": "●",
+     "text": "해외 확장 세 질문",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0122",
+     "disp": "Coinbase 판단-21",
+     "level": "★",
+     "text": "제공 가치 : 지갑만으로 미국 밖 개인이 24시간 미국 주식",
+     "color": "black",
+     "fact_ids": [
+      "F-0785",
+      "F-0747"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0150",
+     "disp": "Coinbase 판단-22",
+     "level": "★",
+     "text": "제도 : ADGM 인가와 증서 투자설명서 승인",
+     "color": "black",
+     "fact_ids": [
+      "F-0082",
+      "F-0079"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "cb-0151",
+     "disp": "Coinbase 판단-23",
+     "level": "★",
+     "text": "경제성 : Base 시퀀서 수수료(CFO 발언)",
+     "color": "black",
+     "fact_ids": [
+      "F-0895",
+      "F-0770"
+     ],
+     "confirmed": false,
+     "notes": []
+    }
+   ]
+  }
+ ]
+}
