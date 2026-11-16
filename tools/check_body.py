@@ -10,7 +10,7 @@ facts = {r['fact_id']: r['검증 상태'] for r in csv.DictReader(open('db/facts
 laws = {r['law_id'] for r in csv.DictReader(open('db/laws.csv', encoding='utf-8'))}
 cases = {r['case_id'] for r in csv.DictReader(open('db/cases.csv', encoding='utf-8')) if r.get('검증 상태') in ('1차 출처 확인', '교차 확인')}
 tps = {r['tp_id'] for r in csv.DictReader(open('db/third_party.csv', encoding='utf-8'))} if os.path.exists('db/third_party.csv') else set()
-OK = ('1차 출처 확인', '교차 확인', '등록부 대조 대기', '회사 주장', '사용자 제공')
+OK = ('1차 출처 확인', '교차 확인', '등록부 대조 대기', '회사 주장', '사용자 제공', '단일 출처')
 LINK = re.compile(r'\{[a-z]{2}-[0-9a-z]+\}')
 for p in sys.argv[1:]:
     bad = []
