@@ -130,3 +130,23 @@ for name in ['terms', 'laws', 'cases', 'relations', 'blocked_links', 'absent', '
                 r[-1] = vv[r[0].strip()]
     write(name, rows)
 print('facts', len(fact_rows), 'sources', len(src_rows))
+
+# --- 후처리: 관계 전체본, 상품 DB, ATS 선정표 정리 ---
+import shutil
+rf = os.path.join(W, 'REL', 'relations_full.csv')
+if os.path.exists(rf):
+    shutil.copyfile(rf, os.path.join(D, 'relations.csv'))
+pf = os.path.join(W, 'PROD', 'companies.csv')
+if os.path.exists(pf):
+    shutil.copyfile(pf, os.path.join(D, 'companies.csv'))
+ap = os.path.join(D, 'ats_screen.csv')
+rows = list(csv.reader(open(ap, encoding='utf-8')))
+head, body = rows[0], rows[1:]
+detail = {r[0].split('(')[0].strip().lower(): r for r in body if r[10] == '상세 조사'}
+keep = []
+for r in body:
+    nm = r[0].split('(')[0].strip().lower()
+    if r[10] == '다른 담당' and any(k in nm or nm in k for k in detail):
+        continue
+    keep.append(r)
+csv.writer(open(ap, 'w', encoding='utf-8', newline='')).writerows([head] + keep)

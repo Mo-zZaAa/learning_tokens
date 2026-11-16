@@ -1,0 +1,4 @@
+"링크","무엇이 있는 곳인지","필요한 이유","막힌 종류","시도한 방법","필요한 조치"
+"https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities","SEC 직원 성명 Statement on Tokenized Securities 원문(2026-01-28)","4분류 정의 문장 원문 확인","403(셸에서 sec.gov 차단)","셸 curl 안 함(지시: sec.gov 막힘), 대신 91 FR 60168과 로펌 해설 사용","메인이 WebFetch로 원문 열람해 정의 문장 대조"
+"https://investors.robinhood.com/node/16931/html","Robinhood Form 10-Q 2026 3분기","Stock Tokens와 Classic Stock Tokens 구조 문장 재열람","403(셸)","셸 curl 1회, KDX 수집본 raw로 대체","WebFetch로 재열람"
+"https://www.binance.com/en/about-legal-disclosures/bstocks-digital-securities-documentation-prospectuses","Binance bStocks 투자설명서 목록 페이지","종목별 투자설명서 목록 확인","202 빈 응답(셸)","셸 curl 1회, KDX 수집본 raw의 PDF 링크로 대체","WebFetch로 목록 재열람"

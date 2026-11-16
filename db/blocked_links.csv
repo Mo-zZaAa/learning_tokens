@@ -71,6 +71,12 @@ https://www.law.go.kr/ (자본시장법 시행령 lsiSeq=291669 본문),"자본�
 www.law.go.kr (WebFetch),법령 원문,교차 확인,WebFetch에서 DNS 해석 실패(허용 호스트 아님),WebFetch,셸 curl로만 열 것
 https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=87650&fileTy=ATTACH,"토큰증권 정책방향 별첨1~3(hwp, pdf)",발행과 유통 분리의 2026년 정리 여부 확인,시간 부족으로 미열람,없음,PDF 내려받아 확인
 2017.12.13 국무조정실 가상통화 관련 긴급대책 보도자료,"금융기관의 가상통화 보유, 매입, 담보취득, 지분투자 금지 원문",겸영 제한 근거가 행정지도인지 확인,"FSC 게시판 검색에서 찾지 못함, 기사로만 확인","fsc.go.kr 제목 검색, WebSearch",opm.go.kr 또는 정책브리핑(korea.kr) 원문 확인
+https://medium.com/the-coinbase-blog/our-path-to-listing-sec-regulated-crypto-securities-a1724e13bb5a,Coinbase 블로그 2018 증권 토큰 상장 글,Coinbase의 Keystone 계열 3개사 인수 추진 확인,403,셸 curl 기본 UA,다른 담당 열람 또는 사용자 확인
+https://defillama.com/rwa/platform/bstocks?view=information,bStocks 정보 페이지(Alpaca가 bStocks 원주 보관),Alpaca와 Binance 관계 확인,403,셸 curl 기본 UA,회사 문서(Binance
+https://www.metroseoul.co.kr/article/20260923500126,Securitize와 KB 토큰증권 MOU 기사,관계 확인(Securitize 쪽은 조사 범위 밖),403,셸 curl 기본 UA,Securitize 담당이 열람
+https://www.theblock.co/post/397890/kraken-parent-payward-agrees-to-acquire-bitnomial-for-up-to-550-million,Bitnomial 인수 금액 보도,최대 5.5억 달러 금액 확인,403,셸 curl 기본 UA,금액은 회사 발표에 없어 단일 출처로 남김
+https://www.businesswire.com/news/home/20251001526080/en,Alpaca 즉시 토큰화 망 출범 보도자료,Alpaca와 Dinari 협력 확인,403,셸 curl 기본 UA,다른 담당 열람
+https://natlawreview.com/press-releases/update-gemini-list-dinaris-tokenized-us-equities-bringing-access-european,Gemini의 Dinari 주식 토큰 상장 보도,Dinari와 Gemini 공급 관계 확인,404,셸 curl 기본 UA,Dinari 또는 Gemini 회사 발표 찾기
 https://www.sec.gov/newsroom/speeches-statements/statement-tokenized-securities-012826,SEC 직원 토큰화 증권 성명(2026-01-28),토큰화 증권도 증권이라는 1차 문서,셸 403 및 WebFetch 호스트 해석 불가,curl -A Mozilla 2026-11-16,브라우저로 받아 저장하거나 sec.gov를 WebFetch에 허용
 https://www.sec.gov/ (2026-03-17 해석 Application of the Federal Securities Laws to Certain Types of Crypto Assets),SEC 해석 원문(91 FR 13717 부근),분류표 원문 확인,동일,동일,Federal Register 본문(govinfo FR-2026-03-xx) 경로 확인 필요
 https://www.congress.gov/ (H.R.3633 및 상원 법안 현황),CLARITY Act 상원 진행,11월 현황,셸 403,curl,브라우저 확인
