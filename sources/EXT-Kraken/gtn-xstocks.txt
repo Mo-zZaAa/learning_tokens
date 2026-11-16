@@ -1,0 +1,98 @@
+
+Press release | Payward and GTN partner to expand global capital market access through xStocks
+xStocks not available in the USA. Geo restrictions apply. See 
+kraken.com/legal/xstocks
+ to learn more.
+Trading
+Banking
+AI
+Asset Management
+Services
+About
+Trading
+Banking
+AI
+Asset Management
+Services
+About
+Governance
+Governance
+Newsroom
+Newsroom
+Careers
+Careers
+Payward and GTN partner to expand global capital market access through xStocks
+July 22, 2026
+Marking the next phase of xStocks, the partnership expands the tokenized equities framework beyond U.S. stocks and ETFs to include equities from international markets and, over time, other asset classes.
+ST. HELIER, Jersey & DUBAI, United Arab Emirates, July 22
+ — Payward, the developer of the xStocks tokenized equities framework and parent company of Kraken, has partnered with GTN, the fintech powering limitless investment, to enhance and accelerate the global expansion of the xStocks offering.
+The partnership unlocks a pathway for xStocks to significantly scale the range of equities it tokenizes, beginning by tokenizing equities listed in Hong Kong, before expanding to tokenize UK-listed assets, European assets, South Korean assets, and more, delivering an unrivalled breadth of international market access that no other tokenized framework offers today. It also opens the opportunity to expand xStocks beyond tokenized equities for the first time, broadening the framework to new tokenized asset classes. For individual holders, it means tokenized assets from markets across the world and multiple asset classes can sit side-by-side in one portfolio, held onchain, tradeable 24/7 (in select geographic regions), and portable across the 100+ exchanges, wallets, and DeFi applications where xStocks already trade.
+GTN provides the global execution and custody for the traditional assets underlying xStocks’ expansion. Spanning a broad range of asset classes across 90+ markets through a single integration, GTN is the partner making the next phase of xStocks possible, providing a route to scale its tokenized offering beyond U.S. equities to equities listed in international markets and, over time, new asset classes, each subject to regulatory approvals. Tokenization’s promise has always been to make the world’s markets accessible to more people from a single place, and this partnership is a key step toward that goal.
+Bringing truly global capital markets onchain
+Under the agreement, GTN provides infrastructure to support the ledgering and record-keeping of tokenized products, helping token issuers account for the underlying assets. Subject to GTN obtaining the required licences in each market, GTN would also make a range of xStocks available to its institutional clients alongside its existing offering. Because GTN reaches a range of asset classes across 90+ markets, the partnership also creates pathways for the xStocks ecosystem to diversify the assets it lists to the hundreds of centralized exchanges, self-custody wallets, and DeFi protocols where it already trades.
+“For decades, we’ve accepted that capital markets should be fragmented by country, currency, and market hours,” said Mark Greenberg, Global Head of Payward Services. “That’s a legacy financial infrastructure problem. The biggest asset class that hasn’t been tokenized yet is the rest of the world, and our partnership with GTN is about changing that. One asset at a time, we’re bringing truly global capital markets onchain until geography becomes irrelevant to investing.”
+“Financial institutions want to move into new asset classes and markets without rebuilding their technology. Our infrastructure lets partners like Payward launch quickly across 90+ markets and a full range of instruments, and it includes the sub-accounting technology Kraken needs to offer tokenised products. We are delighted that Payward has selected GTN as a global product expansion partner,” said Ankit Shah, Global Head of FinTech, GTN.
+The next phase of xStocks
+xStocks launched a year ago with tokenized U.S. stocks and ETFs, backed 1:1 by the underlying assets. It has since grown and broadened to more than 500 tokenized assets spanning equities, ETFs, and IPOs, the widest range offered by any tokenized equities framework, and now power over $37 billion dollars in transaction volume across multiple blockchain ecosystems, and has amassed nearly 200,000 holders across the world. The GTN partnership marks the start of its next phase, extending that framework beyond U.S. capital markets for investors around the world.
+The partnership is already live, with tokenized distribution to GTN’s institutional clients to follow once the required licences are in place. By combining GTN’s regulated infrastructure with Payward’s platform, the two companies aim to make a wider range of assets and markets accessible to institutions worldwide, and will share details on enhanced offerings in the coming weeks.
+About Payward
+Payward, Inc. is a unified financial infrastructure platform that powers a family of products advancing an open, global financial system. Built on a single shared architecture, Payward enables customers to hold, trade, earn, pay, and invest across asset classes without friction or fragmentation.
+At its core, Payward provides the infrastructure layer behind Kraken and a growing set of purpose-built products, including NinjaTrader, Breakout, xStocks, and CF Benchmarks. Payward separates infrastructure from product expression. Each product surface is designed for a specific customer segment, regulatory regime, and use case, while operating on the same global foundation:
+One global liquidity pool
+One unified risk and margin engine
+One collateral and settlement system
+One compliance and licensing framework
+This shared architecture allows Payward to scale efficiently, launch new products at low marginal cost, and serve diverse global markets while maintaining consistent risk management, regulatory integrity, and operational resilience.
+For more information about Payward, please visit 
+www.payward.com
+.
+About xStocks:
+ xStocks is the industry benchmark for tokenized equities, bringing publicly listed U.S. stocks and ETFs onchain through fully collateralized, 1:1-backed tokens. Powered by Payward’s digital asset infrastructure, xStocks provides exposure to traditional equities on blockchain infrastructure, expanding access to U.S. capital markets with extended availability, global reach, and seamless digital-native settlement. Designed for interoperability, xStocks move seamlessly between centralized exchanges, self-custodied wallets, and onchain applications, unlocking new utility across trading, collateralization, and decentralized finance. Since launching in June 2025, xStocks is powering billions of dollars in transaction volume across multiple blockchain ecosystems and anchors a rapidly expanding global network shaping the future of tokenized markets. For more information, visit 
+https://xstocks.fi
+.
+About GTN:
+ GTN is the global fintech infrastructure powering limitless investment through a unified API-first architecture. By combining cloud-native technology with deep institutional expertise, GTN provides brokers, banks, asset managers, and fintechs with brokerage infrastructure spanning 90+ markets and 8 asset classes through a single API, enabling partners to create the next generation of investing and trading experiences. From fractional trading and micro-portfolios, including $1 fractional bonds, to full-service brokerage, GTN automates the investment lifecycle from digital onboarding to post-trade settlement. As a single counterparty, GTN reduces technical and regulatory burdens, enabling investment banks, brokerage firms, and wealth management firms to scale without having to build technology from scratch. With over 600 professionals across 14 countries, and serving 500+ clients globally, we’re united by one mission: transforming the accessibility of investment and trading opportunities for all. Regulated across six jurisdictions (FCA, DFSA, MAS, FINRA, FSCA, SFC), GTN is backed by strategic investors including IFC (World Bank Group) and SBI Ventures Singapore. Learn more at 
+www.gtngroup.com
+ or follow us on LinkedIn.
+This announcement is for informational purposes only. It is not investment, legal or tax advice, and it is not an offer or solicitation to buy or sell any security, token or other financial instrument. xStocks are issued by Backed Assets (JE) Limited (a Jersey private limited company) and offered to eligible Kraken customers via Payward Digital Solutions Ltd. (“PDSL”), a company licensed to conduct digital asset business by the Bermuda Monetary Authority, and to eligible EU customers via Payward Europe Digital Solutions Ltd., a company authorised and regulated by the Cyprus Securities and Exchange Commission. xStocks are not offered or available in the United States or to U.S. persons, and other geographic restrictions apply. xStocks are not, nor will they be registered with any local securities regulators. The availability of products and services varies by jurisdiction and is subject to local regulatory requirements and approvals. GTN’s provision of any services described is subject to GTN obtaining the relevant regulatory licences in each market. Tokenized and cryptoasset products carry significant risk, including the risk of total loss, may be unregulated, and may not be covered by statutory compensation schemes; the value of investments can go down as well as up. Read Kraken’s xStocks Risk Disclosure at 
+kraken.com/legal/xstocks
+ as well as the Base Prospectus and related Final Terms for xStocks at 
+https://assets.backed.fi/legal-documentation
+ to learn more.
+This announcement contains forward-looking statements that reflect current expectations and are subject to change, including as a result of regulatory, market and technological developments. GTN and Payward undertake no obligation to update them.
+Latest news
+November 13, 2026
+ Payward Q3 2026 financial highlights
+November 13, 2026
+ Payward Q3 2026 financial highlights
+November 11, 2026
+ xStocks Brings the DAX 40 Onchain, Opening Germany's Largest Listed Companies to 24/7 Global Trading
+November 11, 2026
+ xStocks Brings the DAX 40 Onchain, Opening Germany's Largest Listed Companies to 24/7 Global Trading
+November 11, 2026
+ xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain
+November 11, 2026
+ xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain
+Payward Inc.
+A collection of companies powering the open financial system.
+Trading
+Kraken
+Kraken Pro
+Kraken Wallet
+NinjaTrader
+Breakout
+Banking
+Krak
+Prime
+Asset Management
+Coming soon
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+About Payward
+Public Policy
+Contact
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions. © Payward 2026. All rights reserved. 
+Cookies Policy

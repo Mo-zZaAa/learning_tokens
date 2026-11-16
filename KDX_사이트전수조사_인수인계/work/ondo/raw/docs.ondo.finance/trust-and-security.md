@@ -7,16 +7,6 @@ method: render
 plan: read
 ---
 
-## On this page
-
-Back to top
-
-* [Institutional Partners](https://docs.ondo.finance/trust-and-security)
-* [Transparency & Disclosure](https://docs.ondo.finance/trust-and-security)
-* [Legal & Regulatory Compliance](https://docs.ondo.finance/trust-and-security)
-  + [Ondo I LP (OUSG)](https://docs.ondo.finance/trust-and-security)
-  + [Ondo USDY LLC (USDY)](https://docs.ondo.finance/trust-and-security)
-
 Getting Started
 
 # Trust & Security

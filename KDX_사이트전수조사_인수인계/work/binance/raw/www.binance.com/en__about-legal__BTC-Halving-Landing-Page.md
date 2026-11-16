@@ -27,7 +27,7 @@ SECS
 
 [BTC
 
-$64,507.87](https://www.binance.com/en/trade/BTC_USDT)
+$64,469.6](https://www.binance.com/en/trade/BTC_USDT)
 
 [그림: Company Logo]
 

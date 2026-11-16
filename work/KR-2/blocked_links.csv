@@ -1,0 +1,5 @@
+"링크","무엇이 있는 곳인지","필요한 이유","막힌 종류","시도한 방법","필요한 조치"
+"https://www.law.go.kr/ (자본시장법 시행령 lsiSeq=291669 본문)","자본시장법 시행령 제184조(해외시장 거래), 외국인 거래 관련 조문","해외 증권 국내 중개와 외국인 투자 절차의 시행령 근거","lsInfoR.do POST가 Error 반환","curl POST lsiSeq만 전달","efYd 등 파라미터 추가해 재시도"
+"www.law.go.kr (WebFetch)","법령 원문","교차 확인","WebFetch에서 DNS 해석 실패(허용 호스트 아님)","WebFetch","셸 curl로만 열 것"
+"https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=87650&fileTy=ATTACH","토큰증권 정책방향 별첨1~3(hwp, pdf)","발행과 유통 분리의 2026년 정리 여부 확인","시간 부족으로 미열람","없음","PDF 내려받아 확인"
+"2017.12.13 국무조정실 가상통화 관련 긴급대책 보도자료","금융기관의 가상통화 보유, 매입, 담보취득, 지분투자 금지 원문","겸영 제한 근거가 행정지도인지 확인","FSC 게시판 검색에서 찾지 못함, 기사로만 확인","fsc.go.kr 제목 검색, WebSearch","opm.go.kr 또는 정책브리핑(korea.kr) 원문 확인"

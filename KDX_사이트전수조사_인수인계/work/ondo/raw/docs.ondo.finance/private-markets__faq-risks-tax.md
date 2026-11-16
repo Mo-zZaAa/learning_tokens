@@ -3,18 +3,9 @@ url: https://docs.ondo.finance/private-markets/faq-risks-tax
 title: Risks & Tax - Ondo Finance
 description: FAQs on security, key risks, tax, and where to find the full terms.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
-
-## On this page
-
-Back to top
-
-* [24. Are the notes secured, insured, or guaranteed?](https://docs.ondo.finance/private-markets/faq-risks-tax)
-* [25. What are the main risks?](https://docs.ondo.finance/private-markets/faq-risks-tax)
-* [26. How are the notes taxed?](https://docs.ondo.finance/private-markets/faq-risks-tax)
-* [27. Where can I find the full terms?](https://docs.ondo.finance/private-markets/faq-risks-tax)
 
 FAQs
 
@@ -25,6 +16,10 @@ Copy pageCopy page
 FAQs on security, key risks, tax, and where to find the full terms.
 
 Copy pageCopy page
+
+Access Restricted
+
+The content you are trying to access is not accessible in your region. Ondo Private Markets products are not available in your region. The notes are only offered and sold to organizations and individuals outside the US and other prohibited jurisdictions. See the [Ondo Private Markets eligibility criteria](https://docs.ondo.finance/private-markets/eligibility) for details.
 
 ### 24. Are the notes secured, insured, or guaranteed?
 

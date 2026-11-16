@@ -1,0 +1,62 @@
+source_id,제목,발행 주체,발행일,출처 종류,언어,링크,저장 파일 경로,캡처 파일,접근 결과,열람 일시
+S-0001,SEC Announces Dismissal of Civil Enforcement Action Against Coinbase (2025-47),SEC,2025-02-27,보도자료,en,https://www.sec.gov/newsroom/press-releases/2025-47,,,"원문 열람 실패(WebFetch DNS 차단, 셸 403). 검색 결과 요약으로만 확인",2026-11-16T11:51Z
+S-0002,SEC Litigation Release 26316 (Binance 소송 기각),SEC,2025-05-29,규제기관,en,https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26316,,,원문 열람 실패. 검색 결과 요약으로만 확인,2026-11-16T11:51Z
+S-0003,SEC Press Release 2023-25 (Kraken 스테이킹 합의)와 Litigation Release 25637,SEC,2023-02-09,보도자료,en,https://www.sec.gov/newsroom/press-releases/2023-25,,,원문 열람 실패. 검색 결과 요약으로만 확인,2026-11-16T11:51Z
+S-0004,SEC Litigation Release 26278 (Payward/Kraken 소송 기각),SEC,2025-03-27,규제기관,en,https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26278,,,원문 열람 실패. 검색 결과 요약으로만 확인,2026-11-16T11:51Z
+S-0005,SEC Press Release 2025-5 (Robinhood 합의),SEC,2025-01-13,보도자료,en,https://www.sec.gov/newsroom/press-releases/2025-5,,,원문 열람 실패. 검색 결과 요약으로만 확인,2026-11-16T11:51Z
+S-0006,FINRA Orders Robinhood Financial to Pay $3.75 Million in Restitution to Customers; Fines Robinhood Financial and Robinhood Securities ...,FINRA,2025-03-07,보도자료,en,https://www.finra.org/media-center/newsreleases/2025/finra-orders-robinhood-financial-pay-375-million-restitution,work/CASE/raw/finra_robinhood_2025-03-07.html,,열림(셸 curl 200),2026-11-16T11:51Z
+S-0007,"Binance 유죄 인정 및 $4.3B 합의 (DOJ 원문 미확보, 언론 보도)",Fortune / Bloomberg Law / Yahoo Finance,2023-11-21,언론,en,https://dc.fortune.com/crypto/2023/11/21/justice-department-charges-binance-cz,,,검색 결과 요약으로만 확인. justice.gov 원문 열람 실패,2026-11-16T11:51Z
+S-0008,Ondo Finance Says Biden-Era SEC Investigation Closed With No Charges,Decrypt,2025-12,언론,en,https://decrypt.co/351509/ondo-says-biden-era-sec-investigation-closed-no-charges,,,검색 결과 요약으로만 확인. Ondo 공지 원문 미확인,2026-11-16T11:51Z
+S-0009,"Dinari 등록 현황 (회사 보도자료 문구, 2차 정리 사이트)",DeFiLlama / Crypto Briefing,2025,언론,en,https://defillama.com/rwa/platform/dinari?view=information,,,"검색 결과 요약으로만 확인. SEC 양도대리인 목록, BrokerCheck 미확인",2026-11-16T11:51Z
+S-0010,조각투자 등 신종증권 사업 관련 가이드라인 (금융위 보도자료),금융위원회,2022-04-28,규제기관,ko,https://www.fsc.go.kr/no010101/77728,work/CASE/raw/fsc_77728.html,,열림(셸 curl 200),2026-11-16T11:51Z
+S-0011,㈜뮤직카우 제재면제 의결 및 한우·미술품 조각투자의 증권성 판단 (금융위 보도자료),금융위원회,2022-11-29,규제기관,ko,https://fsc.go.kr/po010101/79010,,,열림 실패(프록시 터널 닫힘). 제목은 검색 결과로만 확인,2026-11-16T11:51Z
+S-0012,비상장주식·조각투자 유통플랫폼 시행령 개정안 입법예고 (보도),파이낸셜뉴스,2025-05-08,언론,ko,https://www.fnnews.com/news/202505081859491664,,,검색 결과 요약으로만 확인. 금융위 원문 미확인,2026-11-16T11:51Z
+S-0013,"자본시장과 금융투자업에 관한 법률 (시행 2026. 11. 13., 법률 제21647호, 2026. 5. 12., 일부개정)",법제처 국가법령정보센터,2026-05-12,법령,ko,https://www.law.go.kr/법령/자본시장과금융투자업에관한법률,work/KR-1/raw/law.html (본문 텍스트 raw/law.txt),,"성공(셸 curl, lsInfoR.do?lsiSeq=285957&efYd=20261113)",2026-11-16T12:05Z
+S-0014,"자본시장과 금융투자업에 관한 법률 시행령 (시행 2026. 11. 13., 대통령령 제36823호, 2026. 11. 10., 일부개정)",법제처 국가법령정보센터,2026-11-10,법령,ko,https://www.law.go.kr/법령/자본시장과금융투자업에관한법률시행령,work/KR-1/raw/decree.html (본문 텍스트 raw/decree.txt),,"성공(셸 curl, lsInfoR.do?lsiSeq=291669&efYd=20261113)",2026-11-16T12:05Z
+S-0015,시행령 [별표 1] 인가업무 단위 및 최저자기자본 (개정 2026. 3. 10.),법제처 국가법령정보센터,2026-03-10,법령,ko,https://www.law.go.kr/LSW/flDownload.do?flSeq=171326817,work/KR-1/raw/byl1.pdf (텍스트 raw/byl1.txt),,성공(PDF 다운로드 flSeq=171326817),2026-11-16T12:05Z
+S-0016,"토큰증권 관련 전자증권법, 자본시장법 하위법규 개정안 입법예고 실시",금융위원회,2026-10-01,규제기관,ko,https://www.fsc.go.kr/no010101/87838,work/KR-2/raw/no010101_87838.body.txt,,"열람 성공(본문, 첨부 PDF는 미열람)",2026-11-16T11:50Z
+S-0017,"토큰증권 정책방향 발표(민, 관 합동 토큰증권 협의체 3차회의)",금융위원회,2026-09-04,규제기관,ko,https://www.fsc.go.kr/po010101/87650,work/KR-2/raw/po010101_87650.body.txt,,"열람 성공(본문, 별첨1~3 미열람)",2026-11-16T11:50Z
+S-0018,"토큰증권 도입 및 투자계약증권 유통을 위한 전자증권법, 자본시장법 개정안 국회 본회의 통과",금융위원회,2026-01-15,규제기관,ko,https://www.fsc.go.kr/no010101/86064,work/KR-2/raw/no010101_86064.body.txt,,열람 성공,2026-11-16T11:50Z
+S-0019,"주식, 사채 등의 전자등록에 관한 법률(법률 제21318호, 시행 2027.2.4.)",법제처 국가법령정보센터,2026-02-03,법령,ko,https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283195&efYd=20270204,work/KR-2/raw/es_283195.txt,,열람 성공(lsInfoR.do POST),2026-11-16T11:52Z
+S-0020,"자본시장과 금융투자업에 관한 법률(법률 제21324호, 시행 2027.2.4.분)",법제처 국가법령정보센터,2026-02-03,법령,ko,https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283193&efYd=20270204,work/KR-2/raw/cma_283193.txt,,열람 성공(lsInfoR.do POST),2026-11-16T11:53Z
+S-0021,금융투자업규정(금융위원회고시 제2026-38호),법제처 국가법령정보센터,2026-09-09,법령,ko,https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000285020,work/KR-2/raw/fir.txt,,열람 성공(admRulInfoR.do POST),2026-11-16T11:56Z
+S-0022,"토큰 증권(Security Token) 발행, 유통 규율체계 정비방안",금융위원회,2023-02-06,규제기관,ko,https://www.fsc.go.kr/no010101/79386,work/KR-2/raw/no010101_79386.body.txt,,열람 성공,2026-11-16T11:57Z
+S-0023,가상통화 투기근절을 위한 특별대책중 금융부문 대책 시행,금융위원회,2018-01-23,규제기관,ko,https://www.fsc.go.kr/no010101/72995,work/KR-2/raw/no010101_72995.body.txt,,"열람 성공(본문만, 첨부 미열람)",2026-11-16T11:53Z
+S-0024,가상통화에 대한 정부입장,금융위원회,2018-01-15,규제기관,ko,https://www.fsc.go.kr/no010101/72983,work/KR-2/raw/no010101_72983.body.txt,,열람 성공,2026-11-16T11:54Z
+S-0025,제1차 가상자산위원회 개최(법인의 가상자산시장 참여 이슈),금융위원회,2024-11-06,규제기관,ko,https://www.fsc.go.kr/no010101/83341,work/KR-2/raw/no010101_83341.body.txt,,열람 성공,2026-11-16T11:53Z
+S-0026,가상자산이용자보호법 시행 2년간의 가상자산 불공정거래 조사 주요성과 및 향후 계획,금융위원회,2026-07-20,규제기관,ko,https://www.fsc.go.kr/no010101/87357,work/KR-2/raw/no010101_87357.body.txt,,열람 성공,2026-11-16T11:52Z
+S-0027,한국 증시의 외국인 투자 관련 제도를 글로벌 정합성에 맞게 개선(외국인 투자자 등록제도 폐지 등),금융위원회,2023-01-25,규제기관,ko,https://www.fsc.go.kr/no010101/79326,work/KR-2/raw/no010101_79326.body.txt,,열람 성공,2026-11-16T11:55Z
+S-0028,"30년된 외국인 투자자 등록제, 역사속으로",금융위원회,2023-06-05,규제기관,ko,https://www.fsc.go.kr/no010101/80128,work/KR-2/raw/no010101_80128.body.txt,,열람 성공,2026-11-16T11:55Z
+S-0029,디지털자산기본법 관련 기사 묶음(검색 결과),"헤럴드경제, SBS Biz, MTN, 블록미디어",2025-12~2026-07,언론,ko,https://biz.sbs.co.kr/amp/article/20000325470,,,"검색 요약만, 기사 원문 미열람",2026-11-16T11:52Z
+S-0030,15 U.S. Code Sec 77b Definitions,Cornell LII (US Code 전재),,법령,en,https://www.law.cornell.edu/uscode/text/15/77b,sources/US-1/77b.txt,,200 OK(셸 curl),2026-11-16T11:55Z
+S-0031,15 U.S. Code Sec 78c Definitions and application,Cornell LII (US Code 전재),,법령,en,https://www.law.cornell.edu/uscode/text/15/78c,sources/US-1/78c.txt,,200 OK(셸 curl),2026-11-16T11:55Z
+S-0032,"SEC v. W.J. Howey Co., 328 U.S. 293 (1946)",Cornell LII (Supreme Court 판결문),1946,법령,en,https://www.law.cornell.edu/supremecourt/text/328/293,sources/US-1/howey_lii.txt,,200 OK(셸 curl),2026-11-16T11:55Z
+S-0033,7 U.S. Code Sec 1a Definitions (CEA),Cornell LII,,법령,en,https://www.law.cornell.edu/uscode/text/7/1a,sources/US-1/cea1a.txt,,200 OK(셸 curl),2026-11-16T11:55Z
+S-0034,7 U.S. Code Sec 2 Jurisdiction of CFTC,Cornell LII,,법령,en,https://www.law.cornell.edu/uscode/text/7/2,sources/US-1/7usc2.txt,,200 OK(셸 curl),2026-11-16T11:55Z
+S-0035,15 U.S. Code Sec 77e Prohibitions relating to interstate commerce and the mails,Cornell LII,,법령,en,https://www.law.cornell.edu/uscode/text/15/77e,sources/US-1/77e.txt,,200 OK(셸 curl),2026-11-16T11:55Z
+S-0036,15 U.S. Code Sec 78f National securities exchanges,Cornell LII,,법령,en,https://www.law.cornell.edu/uscode/text/15/78f,sources/US-1/78f.txt,,200 OK(셸 curl),2026-11-16T11:55Z
+S-0037,15 U.S. Code Sec 78o Registration and regulation of brokers and dealers,Cornell LII,,법령,en,https://www.law.cornell.edu/uscode/text/15/78o,sources/US-1/78o.txt,,200 OK(셸 curl),2026-11-16T11:55Z
+S-0038,15 U.S. Code Sec 78o-3 Registered securities associations,Cornell LII,,법령,en,https://www.law.cornell.edu/uscode/text/15/78o-3,sources/US-1/78o3.txt,,200 OK(셸 curl),2026-11-16T11:55Z
+S-0039,15 U.S. Code Sec 77r Exemption from State regulation of securities offerings,Cornell LII,,법령,en,https://www.law.cornell.edu/uscode/text/15/77r,sources/US-1/77r.txt,,200 OK(셸 curl),2026-11-16T11:55Z
+S-0040,"Regulation Crypto Assets (SEC 제안 규칙), 91 FR 54510","SEC (Federal Register, govinfo 전재)",2026-08-21,규제기관,en,https://www.govinfo.gov/content/pkg/FR-2026-08-21/html/2026-17183.htm,sources/US-1/regcrypto.txt,,200 OK(셸 curl),2026-11-16T11:55Z
+S-0041,"Order Granting Temporary Conditional Exemptive Relief ... Tokenized NMS Stocks, 91 FR 60168","SEC (Federal Register, govinfo 전재)",2026-09-22,규제기관,en,https://www.govinfo.gov/content/pkg/FR-2026-09-22/html/2026-19388.htm,sources/US-1/tokenNMS.txt,,200 OK(셸 curl),2026-11-16T11:55Z
+S-0042,H.R. 3633 Digital Asset Market Clarity Act of 2025 (Engrossed in House),U.S. GPO (govinfo),2025-07-17,법령,en,https://www.govinfo.gov/content/pkg/BILLS-119hr3633eh/html/BILLS-119hr3633eh.htm,sources/US-1/hr3633.txt,,200 OK(셸 curl),2026-11-16T11:55Z
+S-0043,SEC press release 2026-90 (innovation exemption for tokenized NMS stock),SEC,2026-09,보도자료,영어,https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment,,,"차단(WebFetch 호스트 해석 실패, 셸 403)",2026-11-16T11:50Z
+S-0044,Custody of Digital Asset Securities by Special Purpose Broker-Dealers (Release No. 34-90788),SEC,2021-02-26,규제기관,영어,https://www.govinfo.gov/content/pkg/FR-2021-02-26/html/2020-28847.htm,sources/US-2/2020-28847.htm.txt,,열람 성공,2026-11-16T11:50Z
+S-0045,Adviser and Regulated Fund Custody Rules; Crypto Custody Rules (제안),SEC,2026-10-06,규제기관,영어,https://www.govinfo.gov/content/pkg/FR-2026-10-06/html/2026-20466.htm,sources/US-2/2026-20466.txt,,열람 성공(부분 검색),2026-11-16T11:50Z
+S-0046,"15 U.S.C. 78c, 78e, 78f, 78o, 78q-1, 78mm (USC 2023판)",GPO(govinfo),2023판,법령,영어,https://www.govinfo.gov/content/pkg/USCODE-2023-title15/html/USCODE-2023-title15-chap2B-sec78c.htm,sources/US-2/usc78*.html.txt,,열람 성공,2026-11-16T11:50Z
+S-0047,"17 CFR 240.3b-16, 3a1-1, 15b1-1, 15c3-3, 17Ad-2; 242.300~304, 600 (eCFR API)",eCFR,2026-11-12 현행,법령,영어,https://www.ecfr.gov/current/title-17/section-242.300,sources/US-2/*.xml.txt,,열람 성공,2026-11-16T11:50Z
+S-0048,"Federal Register API 검색(34-106402, special purpose broker-dealer)",Federal Register,2026-11-16 검색,기타,영어,https://www.federalregister.gov/api/v1/documents.json,,,열람 성공,2026-11-16T11:50Z
+S-0049,15 U.S.C. 77d (Securities Act Sec 4),US Code (LII 게재),,법령,en,https://www.law.cornell.edu/uscode/text/15/77d,sources/US-3/uscode_15_77d.txt,,열람 성공(셸 curl),2026-11-16T11:58Z
+S-0050,17 CFR 230.901 General statement,"SEC (eCFR, LII 게재)",,법령,en,https://www.law.cornell.edu/cfr/text/17/230.901,sources/US-3/cornell_230.901.txt,,열람 성공,2026-11-16T11:58Z
+S-0051,17 CFR 230.902 Definitions,"SEC (eCFR, LII 게재)",,법령,en,https://www.law.cornell.edu/cfr/text/17/230.902,sources/US-3/cornell_230.902.txt,,열람 성공,2026-11-16T11:58Z
+S-0052,17 CFR 230.903 Issuer safe harbor,"SEC (eCFR, LII 게재)",,법령,en,https://www.law.cornell.edu/cfr/text/17/230.903,sources/US-3/cornell_230.903.txt,,열람 성공,2026-11-16T11:58Z
+S-0053,17 CFR 230.904 Resale safe harbor,"SEC (eCFR, LII 게재)",,법령,en,https://www.law.cornell.edu/cfr/text/17/230.904,sources/US-3/cornell_230.904.txt,,열람 성공,2026-11-16T11:58Z
+S-0054,17 CFR 230.905 Resale limitations,"SEC (eCFR, LII 게재)",,법령,en,https://www.law.cornell.edu/cfr/text/17/230.905,sources/US-3/cornell_230.905.txt,,열람 성공,2026-11-16T11:58Z
+S-0055,17 CFR 230.506 Exemption for limited offers and sales,"SEC (eCFR, LII 게재)",,법령,en,https://www.law.cornell.edu/cfr/text/17/230.506,sources/US-3/cornell_230.506.txt,,열람 성공,2026-11-16T11:58Z
+S-0056,17 CFR 230.502 General conditions,"SEC (eCFR, LII 게재)",,법령,en,https://www.law.cornell.edu/cfr/text/17/230.502,sources/US-3/cornell_230.502.txt,,열람 성공,2026-11-16T11:58Z
+S-0057,17 CFR 230.144 Persons deemed not to be engaged in a distribution,"SEC (eCFR, LII 게재)",,법령,en,https://www.law.cornell.edu/cfr/text/17/230.144,sources/US-3/cornell_230.144.txt,,열람 성공,2026-11-16T11:58Z
+S-0058,17 CFR 230.144A Private resales to institutions,"SEC (eCFR, LII 게재)",,법령,en,https://www.law.cornell.edu/cfr/text/17/230.144A,sources/US-3/cornell_230.144A.txt,,열람 성공,2026-11-16T11:58Z
+S-0059,17 CFR 230.251 Scope of exemption (Regulation A),"SEC (eCFR, LII 게재)",,법령,en,https://www.law.cornell.edu/cfr/text/17/230.251,sources/US-3/cornell_230.251.txt,,열람 성공,2026-11-16T11:58Z
+S-0060,17 CFR 239.36 Form F-6,"SEC (eCFR, LII 게재)",,법령,en,https://www.law.cornell.edu/cfr/text/17/239.36,sources/US-3/cornell_239.36.txt,,열람 성공,2026-11-16T11:58Z
+S-0061,17 CFR 240.12g3-2 Exemptions for ADRs and certain foreign securities,"SEC (eCFR, LII 게재)",,법령,en,https://www.law.cornell.edu/cfr/text/17/240.12g3-2,sources/US-3/cornell_240.12g3-2.txt,,열람 성공,2026-11-16T11:58Z

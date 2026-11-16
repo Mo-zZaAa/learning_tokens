@@ -3,15 +3,9 @@ url: https://docs.ondo.finance/qualified-access-products/onboarding-and-kyc
 title: Onboarding & KYC - Ondo Finance
 description: 
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
-
-## On this page
-
-Back to top
-
-* [What’s involved in onboarding for your Qualified-Access Funds?](https://docs.ondo.finance/qualified-access-products/onboarding-and-kyc)
 
 OUSG
 

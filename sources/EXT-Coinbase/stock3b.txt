@@ -1,0 +1,495 @@
+Coinbase Enters the Race for Tokenized Equities | stock3
+Anmelden
+Terminal
+Anmelden
+Anmelden
+Kostenlos anmelden oder einloggen
+Terminal
+News & Analysen
+Märkte
+Aktien
+Indizes
+Devisen
+Kryptos
+Rohstoffe
+Zertifikate
+ETFs
+Fonds
+Mehr
+Bedienungshilfen
+stock3 Status
+Theme
+Light
+Dark
+System
+Version
+release-2026-11-16-31987
+News & Analysen
+Märkte
+Aktien
+Indizes
+Devisen
+Kryptos
+Rohstoffe
+Zertifikate
+ETFs
+Fonds
+Mehr
+Broker Login
+Werbung
+Exklusive Analysen, Trading-Setups und Wissensartikel
+Mit Code
+STARTPLUS
+1. Monat für
+0,00 €
+14,99 €
+Jetzt kostenlos testen
+Werbung
+Kommentar
+07:05 Uhr, 28.08.2026
+Coinbase Enters the Race for Tokenized Equities
+Coinbase wants its tokenized stocks to become the building blocks for a broader onchain financial system, from automated portfolios to lending and collateral.
+Blockstories
+Lesezeichen für Artikel anlegen
+Artikel Url in die Zwischenablage kopieren
+Artikel per Mail weiterleiten
+Artikel auf X teilen
+Artikel auf WhatsApp teilen
+Ausdrucken oder als PDF speichern
+Externe Medien
+Dieses Bild wurde auf einem Bilder-Hoster hochgeladen. Wenn Sie es laden, dann verarbeitet der Bilder-Hoster möglicherweise Ihre IP-Adresse.
+Mit dem Laden des Inhalts akzeptierst Du die
+Datenschutzerklärung
+von
+Externer Medien-Hoster
+.
+Entscheidung merken
+Inhalt laden
+Onchain asset management just added a new primitive to its lineup.
+For most of this year, onchain vaults have carried the story, but as of this week, they’re no longer alone.
+On Tuesday, crypto asset manager Bitwise
+launched
+Automated Token Portfolios (ATPs), together with Coinbase and Glider (
+see our story below
+).
+Especially if you enjoy tennis, “ATP” might be confusing at first, so let’s break it down with the example of Bitwise’s Mag7X, one of the first ATPs.
+Bitwise designs the model, in this case equal weights of the Magnificent 7 plus SpaceX.
+If you invest in the strategy, you buy the tokenized stocks and hold them in your own wallet.
+Infrastructure partner Glider gets a narrow, revocable permission to continously rebalance your portfolio toward Bitwise’s weights.
+Bitwise does not take custody, give advice, or execute the trades. The assets stay with you.
+That last part is important. For decades, accessing a professional investment strategy usually meant buying into a fund or giving a manager discretion over a portfolio. An ATP keeps the stocks in your wallet and brings the model to you. Asset management as an API.
+What you gain by dropping the fund wrapper is speed and flexibility.
+An ETF can take months to launch, needs a minimum number of holdings, and has to justify years of existence. An ATP can be spun up in hours to days, hold exactly the five companies that define a theme, and retire when the theme does.
+With more assets and strategies being tokenized onto the same ledger, the composition of an ATP gets interesting, too: perps, gold, stocks, carry trades, prediction market positions… they all can sit inside one ATP.
+And while we're at it, take 'asset management as an API' one step further. Add AI, and you get non-human asset managers spinning up and running ATPs autonomously on the live news cycle, their full track record sitting onchain for anyone to audit
+Chris Dixon once said: the next big thing always starts out looking like a toy. For DeFi, it’s never been more true.
+IN TODAY’S BRIEFING:
+Ethena Foundation
+unveils token overhaul
+Coinbase
+enters the race for tokenized equities
+WITH INSIGHTS FROM
+Externe Medien
+Dieses Bild wurde auf einem Bilder-Hoster hochgeladen. Wenn Sie es laden, dann verarbeitet der Bilder-Hoster möglicherweise Ihre IP-Adresse.
+Mit dem Laden des Inhalts akzeptierst Du die
+Datenschutzerklärung
+von
+Externer Medien-Hoster
+.
+Entscheidung merken
+Inhalt laden
+Xen Baynham-Herd
+Coinbase
+Externe Medien
+Dieses Bild wurde auf einem Bilder-Hoster hochgeladen. Wenn Sie es laden, dann verarbeitet der Bilder-Hoster möglicherweise Ihre IP-Adresse.
+Mit dem Laden des Inhalts akzeptierst Du die
+Datenschutzerklärung
+von
+Externer Medien-Hoster
+.
+Entscheidung merken
+Inhalt laden
+Mark Hull
+Kamino
+Externe Medien
+Dieses Bild wurde auf einem Bilder-Hoster hochgeladen. Wenn Sie es laden, dann verarbeitet der Bilder-Hoster möglicherweise Ihre IP-Adresse.
+Mit dem Laden des Inhalts akzeptierst Du die
+Datenschutzerklärung
+von
+Externer Medien-Hoster
+.
+Entscheidung merken
+Inhalt laden
+Brian
+Huang
+Glider
+HIGH SIGNAL NEWS
+Externe Medien
+Dieses Bild wurde auf einem Bilder-Hoster hochgeladen. Wenn Sie es laden, dann verarbeitet der Bilder-Hoster möglicherweise Ihre IP-Adresse.
+Mit dem Laden des Inhalts akzeptierst Du die
+Datenschutzerklärung
+von
+Externer Medien-Hoster
+.
+Entscheidung merken
+Inhalt laden
+Ethena shares protocol update.
+The team announced a buyout of locked ENA from certain seed investors, plans to align protocol value accrual with ENA holders, and a proposal to activate the fee switch and use protocol revenue for dedicated ENA buybacks, among other changes. 🪙
+LayerZero unveils own exchange infrastructure.
+Dubbed ATLAS, it is built on the firm's upcoming Zero blockchain and combines matching, clearing, settlement, and risk in one stack. It will launch with capacity for 200,000 transactions per second, with part of trading fees flowing to ZRO buybacks and burns. 💱
+Kamino introduces "Fixed Rates."
+The fixed-rate, fixed-term credit protocol is now live in private beta, with the public launch slated for this quarter. 📆
+TOP STORY
+Coinbase Enters the Race for Tokenized Equities
+Externe Medien
+Dieses Bild wurde auf einem Bilder-Hoster hochgeladen. Wenn Sie es laden, dann verarbeitet der Bilder-Hoster möglicherweise Ihre IP-Adresse.
+Mit dem Laden des Inhalts akzeptierst Du die
+Datenschutzerklärung
+von
+Externer Medien-Hoster
+.
+Entscheidung merken
+Inhalt laden
+Coinbase stocks:
+On Monday, Coinbase
+debuted
+its own tokenized U.S. equities on its Layer-2 network Base. Unlike many other tokenized equity standards in the market, each token represents a direct claim on a real share and passes through the underlying stock’s economic benefits and, where applicable, shareholder rights. The tokens are issued by Coinbase Onchain SPV, an entity regulated by Abu Dhabi's ADGM, with brokerage infrastructure provider Alpaca serving as broker and custodian.
+Why it matters:
+Coinbase is the latest retail trading platform to launch its own standard for tokenized equities, following its competitors Kraken, Binance, and Robinhood. Together with crypto-native issuers such as Ondo, these firms have pushed the sector from
+~$130 million
+in tokenized value twelve months ago to an all-time high of
+$2.9 billion
+today.
+Expansion:
+Tokenized equities bring platforms like Coinbase closer to an "everything exchange," a single venue for trading and holding virtually any form of value. Tokenization also eases international expansion: instead of rebuilding brokerage and market infrastructure country by country, Coinbase can use the same underlying rails across multiple jurisdictions. And for firms such as Coinbase and Robinhood that are launching these products on their own networks, more assets also mean more activity, which translates into
+additional revenue
+through transaction fees.
+Onchain finance AWS:
+For Coinbase, the ambition goes further and follows a familiar playbook. As with its custody business or Developer Platform, Coinbase builds infrastructure for its own products first, then opens the stack to others. Tokenized equities appear to be on the same path, potentially becoming rails that other brokerages and neobanks plug into. A brokerage, for example, could let clients tokenize stocks on Base and access lending and other DeFi products without building any of it itself.
+“We want to be that backend so that, if you are a financial platform, you can integrate one platform and get access to every single financial product with best execution at the lowest cost, delivering better financial experiences to your customers,” Jesse Pollak, Head of Base,
+said
+on a podcast.
+Tokenized portfolios:
+Early examples of such products include Automated Token Portfolios (ATPs),
+launched
+on Tuesday by digital asset manager Bitwise together with onchain startup Glider. The product lets Bitwise build different thematic portfolios based on Coinbase's tokenized stocks. Unlike in a traditional index fund, investors do not receive a fund share. They hold the individual stocks in their self-custodial wallet — with weights automatically rebalanced by Glider — and can use those stocks elsewhere onchain, such as for lending or as collateral.
+Portfolio-backed lending:
+Similar to Kraken’s
+Flexline
+offering, Base is also working on infrastructure that could allow users to borrow stablecoins against their entire tokenized equity portfolio rather than individual assets.
+“A lot of the work I’m doing right now with the Coinbase teams is around portfolio line-of-credit infrastructure, so you can have all of those assets sit in your portfolio and borrow 30% or 40% against it,” Pollak said.
+Outlook:
+While it is still unclear when portfolio-backed lending and other more sophisticated features will go live, Coinbase's more immediate priority is to expand its stock lineup. Nvidia, Meta, Apple, and Alphabet are live today, with names including Amazon, Microsoft, Tesla, and Circle set to follow. But listings alone will not establish Coinbase’s offering. It also needs developers to build products around the assets and give users reasons to hold and use them on Base.
+“Ticker count is a vanity number. The metric I actually watch is whether builders are shipping real products on top of the ones we've already listed. That's the signal for whether this becomes infrastructure or just stays a headline,” Xen Baynham-Herd, Head of Marketing & Global Expansion at Base, told Blockstories.
+Externe Medien
+Dieses Bild wurde auf einem Bilder-Hoster hochgeladen. Wenn Sie es laden, dann verarbeitet der Bilder-Hoster möglicherweise Ihre IP-Adresse.
+Mit dem Laden des Inhalts akzeptierst Du die
+Datenschutzerklärung
+von
+Externer Medien-Hoster
+.
+Entscheidung merken
+Inhalt laden
+Mark Hull
+is a core contributor to
+Kamino
+, Solana’s leading lending platform. Roughly
+30%
+of all tokenized equities deployed across DeFi are currently deployed on Kamino.
+Lending is pitched as the flagship use case for tokenized equities. Yet their traction as collateral has trailed their growth as an asset. Why is that?
+First, the yield profile of tokenized equities does not align well with the lending strategies that have historically attracted the most crypto-native capital. One of the biggest has been looping, essentially a leveraged carry trade around yielding RWAs such as Figure’s tokenized home equity lines of credit (HELOCs) or OnRe’s tokenized reinsurance, which gives investors exposure to returns generated from underwriting real-world insurance risk. Stocks lack that natural carry. Meanwhile, users seeking leveraged directional exposure have generally preferred more volatile assets such as SOL.
+Second, the infrastructure around tokenized equities is still early. Pricing outside market hours remains difficult, while corporate actions introduce additional risk. A stock split, for example, requires oracle pricing and secondary markets to correctly reflect the new share ratio, or the token can be mispriced as collateral. Those unknowns have pushed lending markets toward conservative LTVs and caps, making stocks less capital-efficient as collateral.
+Both constraints should ease over time. As the infrastructure around tokenized equities matures, integrating them safely into fintech front ends should become easier, opening the door to margin lending and other credit use cases for a much broader user base.
+Externe Medien
+Dieses Bild wurde auf einem Bilder-Hoster hochgeladen. Wenn Sie es laden, dann verarbeitet der Bilder-Hoster möglicherweise Ihre IP-Adresse.
+Mit dem Laden des Inhalts akzeptierst Du die
+Datenschutzerklärung
+von
+Externer Medien-Hoster
+.
+Entscheidung merken
+Inhalt laden
+Brian Huang
+is co-founder of
+Glider
+, an onchain portfolio management platform. Previously, he was a high-frequency trader at XTX Markets, one of the world’s largest electronic market makers.
+AMMs dominate crypto trading and currently also tokenized-equity trading. Why, and will that remain the case?
+AMMs dominate today largely because launching an onchain liquidity pool is faster and easier than building professional market-making infrastructure. For platforms such as Coinbase and Robinhood, there is also an adverse economic incentive: AMMs generate more transactions, and therefore more fee revenue, for their own blockchains than alternative trading models.
+But AMMs have structural weaknesses: they commingle retail and sophisticated traders into the same liquidity. Retail loses the pricing advantage it could receive when its less-informed flow is segregated from that of hedge funds. AMMs also require liquidity to be pre-positioned onchain, limiting the trade sizes they can support compared to traditional equity markets.
+This is why issuers are increasingly converging on the Request for Quote (RFQ) model first established by Ondo for tokenized equities. There, an app sends an order to the issuer, who routes it to a market maker that sources the stock on traditional stock exchanges before minting the corresponding token. This market structure allows tokenized equities to tap into the deep liquidity of traditional exchanges like Nasdaq.
+But even RFQs are likely only an intermediate step. Large orders leak information before execution and market makers can even reject them. Over time, I expect tokenized-equity trading to move closer to TradFi market structures, with dark pools and single-dealer platforms streaming prices directly to apps and institutions.
+Externe Medien
+Dieses Bild wurde auf einem Bilder-Hoster hochgeladen. Wenn Sie es laden, dann verarbeitet der Bilder-Hoster möglicherweise Ihre IP-Adresse.
+Mit dem Laden des Inhalts akzeptierst Du die
+Datenschutzerklärung
+von
+Externer Medien-Hoster
+.
+Entscheidung merken
+Inhalt laden
+Externe Medien
+Dieses Bild wurde auf einem Bilder-Hoster hochgeladen. Wenn Sie es laden, dann verarbeitet der Bilder-Hoster möglicherweise Ihre IP-Adresse.
+Mit dem Laden des Inhalts akzeptierst Du die
+Datenschutzerklärung
+von
+Externer Medien-Hoster
+.
+Entscheidung merken
+Inhalt laden
+Synchronization of both the frontend and the backend
+Illustration: Blockstories
+Externe Medien
+Dieses Bild wurde auf einem Bilder-Hoster hochgeladen. Wenn Sie es laden, dann verarbeitet der Bilder-Hoster möglicherweise Ihre IP-Adresse.
+Mit dem Laden des Inhalts akzeptierst Du die
+Datenschutzerklärung
+von
+Externer Medien-Hoster
+.
+Entscheidung merken
+Inhalt laden
+Aave Labs:
+Staff Backend Engineer, Vaults
+, London 🇬🇧
+Aplo:
+Quantitative Developer (crypto prime broker)
+, Paris 🇫🇷
+Bitvavo:
+Senior Market Abuse Officer
+, Amsterdam 🇳🇱
+Bullish:
+Director, European Sales
+, Frankfurt 🇩🇪
+Deel:
+Staff Engineer, Crypto
+, United Kingdom 🇬🇧
+OKX:
+Growth Manager - Campaigns
+, Germany 🇩🇪
+RULEMATCH:
+Institutional Sales & Business Development, Digital Assets (Associate or Manager)
+, Vaduz 🇱🇮
+Thunes:
+EU Compliance Manager
+, Paris 🇫🇷
+Externe Medien
+Dieses Bild wurde auf einem Bilder-Hoster hochgeladen. Wenn Sie es laden, dann verarbeitet der Bilder-Hoster möglicherweise Ihre IP-Adresse.
+Mit dem Laden des Inhalts akzeptierst Du die
+Datenschutzerklärung
+von
+Externer Medien-Hoster
+.
+Entscheidung merken
+Inhalt laden
+Fasset
+| $68 million | Series C
+: Stablecoin-powered Islamic bank offering interest-free banking, payments, and investing.
+EntropyIO
+|
+$14 million | Seed
+: Hyperliquid-based trading platform that offers perpetual futures on global equities, commodities, indices, and pre-IPO companies.
+City Protocol
+| $11 million | Seed + pre-Series A
+: Infrastructure platform that provides customizable tokenization and vault solutions for financial products.
+Externe Medien
+Dieses Bild wurde auf einem Bilder-Hoster hochgeladen. Wenn Sie es laden, dann verarbeitet der Bilder-Hoster möglicherweise Ihre IP-Adresse.
+Mit dem Laden des Inhalts akzeptierst Du die
+Datenschutzerklärung
+von
+Externer Medien-Hoster
+.
+Entscheidung merken
+Inhalt laden
+Why DeFi Lending Is Harder Than Lending (Vaish Puri)
+— This essay argues that DeFi lending will mature by moving beyond variable rates toward fixed-term primitives, letting borrowers and lenders directly price interest rates, maturity, liquidity, and credit risk, much like AMMs enabled market-driven price discovery in trading.
+Social Trading and The Garden of Eden (Syncracy Capital)
+— This piece makes the case that social trading could become crypto’s next major consumer use case, combining 24/7 markets with social feeds, copy trading, and personalized recommendations to turn trading into something closer to TikTok or an online game.
+→ Want more? Visit
+Blockstories Library
+for a curated selection of 120+ reports on digital assets.
+Subscribe
+Disclaimer
+: The information provided in the Crypto Briefing by Blockstories does not constitute investment advice. Accordingly, we assume no liability for any investment decisions made based on the content presented herein.
+Powered by beehiiv
+Ähnliche Artikel
+DE' LONGHI - Kaffee lernt fliegen
+Die Aktie des italienischen Herstellers von Kaffeevollautomaten und Klimageräten schießt seit Wochen nach oben und erreicht neue Rekorde.
+Bild: © amenic181 / Adobe.Stock.com
+Gerade eben
+A. Rain
+Analyse
+Nvidia – Hat Huangs Rücktritt die KI-Blase endgültig zum Platzen gebracht?
+Gerade eben
+BNP Paribas
+Kommentar
+Chart Tracker: Siemens Energy, Novo Nordisk, ProSiebenSat.1
+vor 3 Min
+A. Rain
+Analyse
+1
+VALERO ENERGY - Korrektur nach Rekordrally
+vor 20 Min
+A. Paulus
+Analyse
+DAX Analyse am Mittag - Extrem spannende Basis und meine konkreten Tradingideen!
+vor 29 Min
+R. Berteit
+Video
+Mehr News & Analysen
+Leserfavoriten stock3 Plus
+1
+TALANX - Die Cashcow meines Depots
+15.11.
+M. Ries
+Analyse
+1
+2
+NVIDIA – Huang prüft Rückkehr an die Konzernspitze
+vor 4 Std
+O. Baron
+Analyse
+3
+DAX-Wochenausblick: 27.000 Punkte erreicht! Wo endet die Rekordjagd beim DAX?
+vor 20 Std
+J. Graß
+Analyse
+4
+Geduld ist geil
+vor 2 Std
+D. Siebenhaar
+Analyse
+4
+5
+GOLD - Eingekeilt und angeschlagen
+vor 6 Std
+T. May
+Analyse
+1
+6
+stock3 Wochenend-Setup: Scharfe Zahlen – heißes Setup!
+vor 23 Std
+A. Strobl
+Analyse
+Mehr stock3 Plus lesen
+Webinare
+Rendezvous mit Harry
+Liebe Rendezvous mit Harry-Teilnehmer,
+jeden Montag um 19 Uhr erwartet Sie BNP Paribas Zertifikate und Trader Harald Weygand in der Sendung Rendezvous mit Harry auf YouTube.
+Um keine Sendung zu verpassen hilft ein Abonnement des Kanals von BNP Paribas Zertifikate.
+Viel Erfolg wünschen Harald Weygand, Volker Meinel und Kemal Bagci.
+Datum
+16.11.2026
+Uhrzeit
+19:00 - 20:00 Uhr
+Veranstalter
+BNP Paribas
+Harald Weygand
+,
+Volker Meinel
+Moderatoren
+Details
+Mehr Webinare
+Werbung
+Das könnte Dich auch interessieren
+Passender Service
+stock3 Plus
+Ich lese was,
+was Du nicht liest...
+… und habe mit meinem
+Wissensvorsprung
+mehr
+Erfolg an der Börse
+Analysen und Trading-Setups
+langjähriger Börsenexperten
+Redaktionelle Begleitung:
+alle Events, alle Strategien, alle Instrumente
+Das will ich auch
+Mehr Services
+Mehr von Blockstories
+Securitize Moves Closer to Credit Origination With River One Deal
+Securitize agrees to acquire River One, a NY-based asset-backed financing startup, marking its entry into credit origination and expanding beyond tokenization fees.
+Blockstories
+13.11.
+Kommentar
+Mehr von Blockstories
+Securitize Moves Into Asset-Backed Finance With River One Deal
+The acquisition takes Securitize upstream, from tokenizing financial assets to financing their origination. River One brings warehouse lending infrastructure designed to connect stablecoin capital with traditional credit markets.
+13.11.
+Blockstories
+Kommentar
+CFTC Clears Single-Stock Perpetual Futures for U.S. Traders
+06.11.
+Blockstories
+Kommentar
+Perpetual Futures Shake Up U.S. Derivatives Markets
+06.11.
+Blockstories
+Kommentar
+SoFi Turns to Tokenized Deposits to Strengthen Its Core Lending Business
+30.10.
+Blockstories
+Kommentar
+SoFi Bets on Tokenized Deposits to Grow Its Lending Business
+30.10.
+Blockstories
+Kommentar
+stock3 Weekly – Dein Begleiter an den Finanzmärkten
+kostenlos
+Makro-Themen
+Aktienanalysen
+stock3-Features
+Zur Anmeldung
+Bitpanda Altersvorsorgedepot: Die Warteliste ist offen!🔔
+Sei direkt ab dem Launch mit dabei und sichere dir bis zu
+75 €
+Bitpanda Bonus und bis zu
+540 €
+Zuschuss pro Jahr vom Staat! 💸
+Alle Infos hier!
+Homebase
+Experten
+Trading & Broker
+Live-Ticker
+Events
+Mein stock3
+Anwendungen
+Charting
+Watchlist
+Depot
+Fundamentalanalyse
+Terminal
+Aktien-Screener
+Premium
+stock3 Plus
+stock3 Select
+stock3 Ultimate
+stock3 Core
+Analyse-Services
+Trading-Services
+Kurspakete & Add-ons
+Unternehmen
+Über Uns
+stock3 Updates
+Investor Relations
+Presse
+Jobs
+Business
+Werben Sie mit uns
+Hinweisgeberschutz
+Service
+Sicherheit beim Trading
+Kontakt
+brokerize
+Impressum
+Datenschutz
+Haftung
+AGB
+Netiquette
+Erklärung zur Barrierefreiheit
+Service widerrufen/kündigen
+The Dow Jones IndicesSM are proprietary to and distributed by CME Group Index Services LLC and have been licensed for use.
+For the Terms and Conditions of Use of the Dow Jones IndicesSM please
+see here
+Informationen zur Zeitverzögerung der Kursdaten und Börsenbedingungen
+Für die Richtigkeit der dargestellten Kurs-, Stamm- und Marktdaten wird keine Haftung übernommen. Vergleiche die hier wiedergegebenen Daten mit denen Deiner Bank oder Deines Brokers, bevor Du eine Anlage tätigst.
+Alle Angaben ohne Gewähr © 2026 stock3 AG
+Zum Seitenanfang

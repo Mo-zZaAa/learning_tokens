@@ -3,20 +3,9 @@ url: https://docs.ondo.finance/qualified-access-products/cash-management-101
 title: Cash Management 101 - Ondo Finance
 description: 
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
-
-## On this page
-
-Back to top
-
-* [What is Cash Management?](https://docs.ondo.finance/qualified-access-products/cash-management-101)
-* [The Basic Process](https://docs.ondo.finance/qualified-access-products/cash-management-101)
-  + [1. Forecast your cash flow and needs](https://docs.ondo.finance/qualified-access-products/cash-management-101)
-  + [2. Manage your liquidity accordingly](https://docs.ondo.finance/qualified-access-products/cash-management-101)
-  + [3. Revise and update continuously](https://docs.ondo.finance/qualified-access-products/cash-management-101)
-* [Getting Started](https://docs.ondo.finance/qualified-access-products/cash-management-101)
 
 OUSG
 

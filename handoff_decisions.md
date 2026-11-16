@@ -6,3 +6,4 @@
 - 웹 열람 도구(WebFetch)는 세션 시작 때의 도메인 목록을 따라 환경을 제한 없음으로 바꾼 뒤에도 대부분 호스트에서 DNS 실패. 서브에이전트는 셸 curl로 원문을 받아 sources/<에이전트>/에 저장하고 근거로 씀.
 - www.sec.gov: 셸 403(SEC는 연락처가 들어간 User-Agent를 요구). 임의 연락처로 바꾸는 시도는 권한 판정에서 거부되어 하지 않음. SEC 규칙과 명령은 Federal Register(federalregister.gov, govinfo.gov)로 대체. EDGAR 공시는 사용자 허가(연락처 UA) 필요 항목으로 blocked_links에 남김.
 - Coinbase(www, investor, help)와 investors.robinhood.com은 봇 차단(Cloudflare, Akamai) 403. 헤드리스 브라우저도 차단. 우회하지 않음. Coinbase 공식 사이트 수집(map) 불가 → 사이트 밖 자료만으로 조사.
+- 사용자 요청(12:0x UTC): db/licenses.csv 추가, 등록부로만 확인. 웹 화면 지시에 등록 지도 배치(2-1) 추가. LIC 에이전트 띄움.

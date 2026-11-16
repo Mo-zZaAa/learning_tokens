@@ -3,16 +3,9 @@ url: https://docs.ondo.finance/private-markets/overview
 title: Overview - Ondo Finance
 description: What Ondo Private Markets is and how Ondo Private Markets Notes work.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
-
-## On this page
-
-Back to top
-
-* [What is Ondo Private Markets?](https://docs.ondo.finance/private-markets/overview)
-* [What are Ondo Private Markets Notes?](https://docs.ondo.finance/private-markets/overview)
 
 Ondo Private Markets
 
@@ -23,6 +16,10 @@ Copy pageCopy page
 What Ondo Private Markets is and how Ondo Private Markets Notes work.
 
 Copy pageCopy page
+
+Access Restricted
+
+The content you are trying to access is not accessible in your region. Ondo Private Markets products are not available in your region. The notes are only offered and sold to organizations and individuals outside the US and other prohibited jurisdictions. See the [Ondo Private Markets eligibility criteria](https://docs.ondo.finance/private-markets/eligibility) for details.
 
 This page, along with all Ondo Private Markets docs at [https://docs.ondo.finance/private-markets](https://docs.ondo.finance/private-markets/overview), is provided for informational purposes only. Each Ondo Private Markets Note is issued under its own [Offering Documents, Token Terms, and Risk Factors](https://app.ondo.finance/legal-documentation), which govern in the event of any conflicts with the general descriptions provided below.
 

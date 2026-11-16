@@ -3,16 +3,9 @@ url: https://docs.ondo.finance/qualified-access-products/minting-and-redeeming
 title: Minting & Redeeming - Ondo Finance
 description: 
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
-
-## On this page
-
-Back to top
-
-* [What currency or stablecoins can I use to invest in your Qualified Access Funds?](https://docs.ondo.finance/qualified-access-products/minting-and-redeeming)
-* [What currency or stablecoins can I redeem OUSG for?](https://docs.ondo.finance/qualified-access-products/minting-and-redeeming)
 
 OUSG
 

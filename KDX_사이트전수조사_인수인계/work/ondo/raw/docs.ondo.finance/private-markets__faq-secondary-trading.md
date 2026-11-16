@@ -3,17 +3,9 @@ url: https://docs.ondo.finance/private-markets/faq-secondary-trading
 title: Secondary Trading - Ondo Finance
 description: FAQs on trading Ondo Private Markets Notes on secondary markets.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
-
-## On this page
-
-Back to top
-
-* [6. Where can I trade Ondo Private Markets Notes on secondary markets?](https://docs.ondo.finance/private-markets/faq-secondary-trading)
-* [7. When can I trade on secondary markets?](https://docs.ondo.finance/private-markets/faq-secondary-trading)
-* [8. How is the Spot price set on secondary markets?](https://docs.ondo.finance/private-markets/faq-secondary-trading)
 
 FAQs
 
@@ -24,6 +16,10 @@ Copy pageCopy page
 FAQs on trading Ondo Private Markets Notes on secondary markets.
 
 Copy pageCopy page
+
+Access Restricted
+
+The content you are trying to access is not accessible in your region. Ondo Private Markets products are not available in your region. The notes are only offered and sold to organizations and individuals outside the US and other prohibited jurisdictions. See the [Ondo Private Markets eligibility criteria](https://docs.ondo.finance/private-markets/eligibility) for details.
 
 ### 6. Where can I trade Ondo Private Markets Notes on secondary markets?
 

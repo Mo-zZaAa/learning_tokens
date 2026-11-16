@@ -221,3 +221,11 @@ Content provided for educational purposes only. Not investment advice or a recom
 Futures, options on futures and cleared swaps trading involves significant risk and is not appropriate for everyone. Please carefully consider if it's appropriate for you in light of your personal financial circumstances. Please read the [Futures Risk Disclosure Statement](https://cdn.robinhood.com/assets/robinhood/legal/Futures_Risk_Disclosure_Statement.pdf) prior to trading futures products, and please read the [Event Contract Risk Disclosure](https://cdn.robinhood.com/assets/robinhood/legal/Forecast_Contract_Risk_Disclosure.pdf) for more information about the risks associated with forecast event contracts.
 
 5762469
+
+## 펼치거나 눌러야 보이던 내용
+
+### 🇺🇸 누른 뒤
+
+- US
+- 🇬🇧
+- UK

@@ -3,7 +3,7 @@ url: https://docs.ondo.finance/protocols/flux
 title: Flux Finance - Ondo Finance
 description: 
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 

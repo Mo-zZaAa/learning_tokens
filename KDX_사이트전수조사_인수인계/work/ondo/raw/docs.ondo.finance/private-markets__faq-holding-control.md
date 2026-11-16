@@ -3,18 +3,9 @@ url: https://docs.ondo.finance/private-markets/faq-holding-control
 title: Holding & Control - Ondo Finance
 description: FAQs on custody, Issuer controls, amendments, and transfers.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
-
-## On this page
-
-Back to top
-
-* [20. How are my notes held?](https://docs.ondo.finance/private-markets/faq-holding-control)
-* [21. Can the Issuer freeze, pause, or change my notes?](https://docs.ondo.finance/private-markets/faq-holding-control)
-* [22. Do holders get a vote on changes to the terms?](https://docs.ondo.finance/private-markets/faq-holding-control)
-* [23. Can I transfer my notes?](https://docs.ondo.finance/private-markets/faq-holding-control)
 
 FAQs
 
@@ -25,6 +16,10 @@ Copy pageCopy page
 FAQs on custody, Issuer controls, amendments, and transfers.
 
 Copy pageCopy page
+
+Access Restricted
+
+The content you are trying to access is not accessible in your region. Ondo Private Markets products are not available in your region. The notes are only offered and sold to organizations and individuals outside the US and other prohibited jurisdictions. See the [Ondo Private Markets eligibility criteria](https://docs.ondo.finance/private-markets/eligibility) for details.
 
 ### 20. How are my notes held?
 

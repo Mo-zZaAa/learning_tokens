@@ -3,17 +3,9 @@ url: https://docs.ondo.finance/qualified-access-products/eligibility
 title: Eligibility - Ondo Finance
 description: 
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
-
-## On this page
-
-Back to top
-
-* [Possible Accredited Investor Criteria](https://docs.ondo.finance/qualified-access-products/eligibility)
-* [Possible Qualified Purchaser Criteria](https://docs.ondo.finance/qualified-access-products/eligibility)
-* [Jurisdictional Restrictions](https://docs.ondo.finance/qualified-access-products/eligibility)
 
 OUSG
 

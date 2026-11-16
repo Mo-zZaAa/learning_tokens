@@ -1,0 +1,104 @@
+
+Press release | Kraken Clients Can Now Earn Onchain Yield on xStocks
+xStocks not available in the USA. Geo restrictions apply. See 
+kraken.com/legal/xstocks
+ to learn more.
+Trading
+Banking
+AI
+Asset Management
+Services
+About
+Trading
+Banking
+AI
+Asset Management
+Services
+About
+Governance
+Governance
+Newsroom
+Newsroom
+Careers
+Careers
+Kraken Clients Can Now Earn Onchain Yield on xStocks
+September 14, 2026
+Investors in SPYx, QQQx and NVDAx can put their assets to work onchain with Kraken.
+ST. HELIER, Jersey—
+ Kraken, one of the world’s longest-standing, most liquid and secure digital asset platforms, today launched a new product that enables clients to earn additional yield on select tokenized stocks and ETFs from newly-launched vaults.
+Beginning today, clients can allocate SPYx, QQQx and NVDAx to xStocks vaults via both the Kraken and Kraken Pro interfaces, which earn yield from onchain lending protocols. Yield is paid in-kind and accrues continuously, so clients’ balances grow in the vaults they allocate to. Clients can deposit from less than a dollar and can make a withdrawal request at any time, with xStocks returned in three days.
+xStocks vaults run on the same infrastructure behind Kraken DeFi Earn, which launched in January and has since passed $800 million in deposits. xStocks vaults extends that same architecture and value proposition to a new asset class, letting clients put xStocks holdings to work the same way they already put BTC and stablecoin balances to work.
+“Every xStocks position sitting untouched is capital not working as hard as it should,” said Darius Tabatabai, Head of Kraken Pro. “Clients can already earn dividend yield on select xStocks, and our new vaults enable clients to earn additional onchain yield on their holdings.”
+xStocks vaults are powered by Veda, with strategy design and risk curation by Sentora. Clients can allocate xStocks from within the Kraken interfaces, and Veda’s vault infrastructure ensures allocated xStocks are put to work directly on onchain markets, such as Kamino on Solana. Yield is generated using Sentora’s proprietary risk mitigation solutions and advanced onchain strategies framework. Assets are held in self-custodial wallets and because the vaults operate onchain, clients can check what is happening with their allocation at any time.
+Sun Raghupathi, CEO & Co-Founder of Veda, said: “Tokenized equities have moved beyond simply replicating traditional market exposure onchain, towards making those assets even more productive. By bringing xStocks into Veda vaults, Kraken clients can access onchain yield strategies without having to navigate DeFi themselves. This makes it dead simple to earn on xStocks through the same integration that already enables clients to earn yield on stablecoins and bitcoin.”
+“A Kraken client holding SPYx or NVDAx already has the equity exposure. xStocks vaults let them keep that position while generating additional yield in-kind,” said Anthony DeMartino, CEO and Co-Founder of Sentora. “The strategies behind the xStocks vaults are designed to lend those assets into onchain markets such as Kamino, with exposure limits set in advance and live risk models tracking collateral, liquidity and oracle conditions. It’s the same curation approach we built for Kraken’s DeFi Earn vaults, and we’re now extending it to tokenized equities as we deepen our partnership with Kraken.”
+“Tokenized equities have mostly been discussed as a faster way to trade a stock, but they’re also a way to get more yield,” Tabatabai added. “Equities lending is increasingly becoming a common feature in investment apps. xStocks vaults enable investors in some of the most popularly held equities and ETFs to earn additional yield with onchain transparency.”
+xStocks vaults are available to eligible Kraken clients in the EEA and rest of world, excluding the UAE, UK, US, CA and AU.
+For more information, please visit 
+kraken.com/pro/tokenized-equities/vaults
+.
+About Kraken
+Founded in 2011, Kraken is one of the world’s longest-standing and most secure crypto platforms globally. Kraken clients trade more than 600 digital assets, traditional assets such as U.S. futures and U.S.-listed stocks and ETFs, and 6 different national currencies, including GBP, EUR, USD, CAD, CHF, and AUD. Trusted by millions of institutions, professional traders and consumers, Kraken is one of the fastest, most liquid and performant trading platforms available.
+Kraken’s suite of products and services includes the Kraken App, Kraken Pro, the Krak App, Kraken Institutional, Kraken’s onchain offerings and the NinjaTrader retail trading platform. Across these offerings, clients can buy, sell, stake, earn rewards, send and receive assets, custody holdings, and access advanced trading, derivatives, and portfolio management tools.
+Kraken has set the industry standard for transparency and client trust, and it was the first crypto platform to conduct Proof of Reserves. It complies with regulations and laws applicable to its business, while actively protecting client privacy and maintaining the highest security standards.
+For more information about Kraken, please visit 
+www.kraken.com
+.
+About xStocks
+xStocks is the industry benchmark for tokenized real world assets, bringing publicly listed equities and other assets onchain through fully collateralized, 1:1-backed tokens. Powered by Payward’s digital asset infrastructure, xStocks places traditional assets on blockchain rails, expanding access to global capital markets with extended availability, global reach, and digital-native settlement. Starting with tokenized US equities, xStocks now spans markets across the US, Europe and Asia.
+Designed for interoperability, xStocks move seamlessly between centralized exchanges, self-custodied wallets, and onchain applications, unlocking new utility across trading, collateralization, and decentralized finance. Since launching in June 2025, xStocks has grown to power billions of dollars in transaction volume across multiple blockchain ecosystems, anchoring a rapidly expanding global network shaping the future of tokenized markets.
+For more information, visit 
+https://xstocks.fi
+.
+About Veda
+Veda is the leading vault infrastructure provider, powering onchain yield products for businesses across fintech. By abstracting the complexities of DeFi, Veda allows enterprises to offer seamless embedded Earn experiences for their users. Veda has secured more than $32 billion in deposits for more than 300k end users and is trusted by Kraken, EtherFi, MetaMask and more to power flexible, secure and compliant Earn products. To learn more, visit 
+https://veda.tech
+.
+About Sentora
+Sentora
+ is a platform that bridges traditional finance and decentralized finance for institutional investors, providing the foundational infrastructure to make every app earn. It offers onchain earn programs, vault curation, risk management, tokenized equities and onchain growth solutions. Sentora’s solutions deploy billions in capital across leading onchain venues, supporting enterprise clients, asset managers and protocols with the infrastructure and expertise to manage it at scale. It curates the vaults behind Kraken’s DeFi Earn program, which passed $700 million in deposits within 7 months, and its strategies support platforms including PayPal, EtherFi, Ripple and Aave.
+PRESS CONTACT
+Lauren Post
+[email protected]
+xStocks are issued by Backed Assets (JE) Limited (a Jersey private limited company) and offered to eligible Kraken customers via Payward Digital Solutions Ltd. (PDSL), a company licensed to conduct digital asset business by the Bermuda Monetary Authority. xStocks are not, nor will they be registered with any local securities regulators. Not available in the US or to US persons. xStocks are not offered by or associated with Kraken Securities, are not registered with the SEC, and are not insured or guaranteed by FDIC or SIPC. Geo restrictions apply. Read Kraken’s xStocks Risk Disclosure at 
+kraken.com/legal/xstocks
+ as well as the Base Prospectus and related Final Terms for xStocks at 
+assets.backed.fi/legal-documentation
+ to learn more.
+Rewards are variable and not guaranteed; you can lose some or all of your assets. Interacting with on-chain smart contracts involves risks which are further detailed in the terms of service, including technological risk (bugs, exploits, and oracle/MEV/bridge failures), market risk (price volatility, de-pegs, and liquidation where relevant), and operational risk (irreversible transactions, gas fees, network congestion). Kraken does not control third-party protocols. Offered by Payward Wallet, LLC. Fees apply. Availability varies by jurisdiction.
+Latest news
+November 13, 2026
+ Payward Q3 2026 financial highlights
+November 13, 2026
+ Payward Q3 2026 financial highlights
+November 11, 2026
+ xStocks Brings the DAX 40 Onchain, Opening Germany's Largest Listed Companies to 24/7 Global Trading
+November 11, 2026
+ xStocks Brings the DAX 40 Onchain, Opening Germany's Largest Listed Companies to 24/7 Global Trading
+November 11, 2026
+ xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain
+November 11, 2026
+ xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain
+Payward Inc.
+A collection of companies powering the open financial system.
+Trading
+Kraken
+Kraken Pro
+Kraken Wallet
+NinjaTrader
+Breakout
+Banking
+Krak
+Prime
+Asset Management
+Coming soon
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+About Payward
+Public Policy
+Contact
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions. © Payward 2026. All rights reserved. 
+Cookies Policy

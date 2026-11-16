@@ -1,0 +1,2214 @@
+Coinbase (COIN) Q3 2026 Earnings SEC Filing Analysis
+sec-api.io
+SEC API
+by D2V
+Products
+Core APIs
+Find & Track
+EDGAR Filing Query API
+Full-Text Search API
+Real-Time Stream API
+Daily Filing Ingestion Log
+File Access
+Download Filings & Exhibits
+PDF Generator
+Bulk Datasets
+Extraction & Conversion
+XBRL-to-JSON Converter
+Financial Statements + More
+Financial Statements
+Filing Section Extractor
+Reference
+EDGAR Entities Database
+CIK / CUSIP / Ticker Mapping
+AI Agents
+Claude, ChatGPT & 50+ agents
+MCP Server
+Financial Analysis Prompt Library
+Equity Research & Market Insights
+Ownership & Corp. Events
+Ownership & Insiders
+Insider Trading
+Form 3/4/5
+Institutional Holdings
+Form 13F
+5% Beneficial Owners
+13D / 13G
+Insider Sale Notices
+Form 144
+Event-Driven Disclosures
+Auditor Changes
+8-K - 4.01
+Non-Reliance / Restatements
+8-K - 4.02
+Exec & Director Changes
+8-K - 5.02
+Company Profile Data
+Governance
+Executive Compensation
+Directors & Board Members
+Capital Structure
+Outstanding Shares & Float
+Subsidiaries
+Audit
+Audit Reports
+Audit Fees
+Funds & Advisers
+Registered Funds
+Fund Portfolio Holdings and Performance
+Form N-PORT
+Annual Reports
+Form N-CEN
+Proxy Voting Records
+Form N-PX
+Investment Advisers
+Adviser Registrations
+Form ADV, Schedules, Brochures
+Broker-Dealers
+FOCUS Reports
+Form X-17A-5
+Offerings & Capital
+Public Offerings
+IPOs & Secondaries
+S-1 / F-1 / 424B4
+Exempt Offerings
+Private Placements
+Form D
+Crowdfunding
+Form C
+Mini-IPOs
+Reg A+
+Enforcement & Regulatory
+SEC Enforcement Actions
+SEC Litigation Releases
+SEC Administrative Proceedings
+AAER Database
+SRO Filings & Rule Making
+FINRA, Exchanges, Clearing Agencies
+For developers
+Quickstart
+API Reference
+Python SDK
+↗
+TypeScript SDK
+↗
+Cookbook
+↗
+Browse all APIs →
+Browse all datasets →
+Full API docs →
+API reference →
+Datasets
+Annual & Quarterly Reports
+Annual reports
+10-K
+Quarterly reports
+10-Q
+Foreign annual
+20-F
+Canadian annual
+40-F
+Material Events & Disclosures
+Current reports
+8-K
+Foreign current
+6-K
+Reg A events
+1-U
+Earnings results
+8-K, Item 2.02
+Press releases + Reg FD
+Ex 99
+Material contracts
+Ex 10
+Insider trade policies
+Ex 19
+Proxy & Shareholder Voting
+Proxy statements
+DEF 14A
+Preliminary
+PRE 14A
+Additional
+DEFA14A
+Non-management soliciting
+DFAN14A
+Merger proxy statements
+DEFM14A
+Definitive info
+DEF 14C
+Preliminary info
+PRE 14C
+Annual report to SH
+ARS
+Corporate Insiders (§16)
+Initial ownership
+Form 3
+Insider Trading
+Form 4
+Annual deferred
+Form 5
+Restricted sales
+Form 144
+Institutional Holdings
+Portfolio holdings
+13F-HR
+Cover pages
+13F-HR
+Beneficial Ownership (5%+)
+Active / activist
+13D
+Passive / institutional
+13G
+Broker-Dealers & Market Infrastructure
+BD annual reports
+X-17A-5
+Transfer agent reg
+TA-1
+Transfer agent rpt
+TA-2
+Municipal advisors
+MA
+Alt trading systems
+ATS-N
+Rating agencies
+NRSRO-CE
+Swap dealers
+SBSE
+SEC Administrative
+Comment letters
+Corresp / Letter
+Effectiveness
+EFFECT
+Confidential treatment orders
+CT ORDER
+Fund Registration & Holdings
+Mutual funds & ETFs
+N-1A
+Closed-end & BDCs
+N-2
+Portfolio holdings
+N-PORT
+Money market fund portfolio reports
+N-MFP
+Separate account
+N-3
+Variable annuity
+N-4
+Variable life insurance
+N-6
+Fund mergers
+N-14
+Business Development Cos
+BDC election
+N-54A
+BDC registration
+N-2
+BDC auto shelf
+N-2ASR
+Fund Reports
+Annual census
+N-CEN
+Shareholder reports
+N-CSR
+Semi-annual shareholder reports
+N-CSRS
+Money market events
+N-CR
+Proxy voting
+N-PX
+Variable products
+N-VP
+Fund Prospectuses & Supplements
+Fund prospectus
+497
+Summary prospectus
+497K
+Variable initial summary
+497VPI
+Variable updating summary
+497VPU
+Post-effective (delayed)
+485APOS
+Post-effective (immediate)
+485BPOS
+Fund Operations
+Securities sold
+24F-2NT
+Repurchase offers
+N-23C
+Deregistration
+N-8F
+Exemptive apps
+40-APP
+Public Offerings — Domestic
+IPOs & registration
+S-1
+Shelf registrations
+S-3
+Business combinations
+S-4
+Employee plans
+S-8
+REITs
+S-11
+Public Offerings — Foreign
+Foreign registration
+F-1
+Foreign shelf
+F-3
+Foreign combinations
+F-4
+ADRs
+F-6
+Rights offering
+F-7
+Business combination
+F-8
+MJDS registration
+F-10
+MJDS exchange/tender
+F-80
+Prospectuses (424 series)
+Structured products
+424B2
+Prospectus supplements
+424B3
+Final IPO
+424B4
+Shelf supplements
+424B5
+Free writing
+FWP
+M&A communications
+425
+Exempt Offerings
+Reg D private
+Form D
+Reg A offerings
+1-A
+Reg A annual
+1-K
+Reg A semi-annual
+1-SA
+Crowdfunding
+Form C
+Funding portals
+CFPORTAL
+Asset-Backed Securities
+Standard ABS registration
+SF-1
+Shelf ABS registration
+SF-3
+Distribution reports
+10-D
+Asset-level data
+ABS-EE
+Reps & warranties
+ABS-15G
+Tender Offers & Going Private
+Pre-commencement comms
+SC TO-C
+Third-party
+SC TO-T
+Issuer self-tender
+SC TO-I
+Target response
+SC 14D9
+Going private
+SC 13E3
+Cross-border transactions
+CB
+Confidential Submissions
+Draft registrations
+DRS
+Draft Reg A
+DOS
+Browse all 400+ datasets →
+Datasets catalog →
+Pricing
+Playground
+Docs
+Tutorials
+Setup
+Python SDK
+↗
+TypeScript SDK
+↗
+Lucene Query Syntax
+Fetch & download
+Download SEC Filings From EDGAR
+Download Filings As PDFs
+Download XML From EDGAR
+Download 10-Ks (Russell 3000)
+Financial Statements As Excel
+Export Filing Metadata To CSV
+List Fiscal Period End Dates
+Reference
+Map Ticker → CIK & CUSIP
+Map CIK → Ticker & CUSIP
+Map CUSIP → Ticker & CIK
+List Companies By Exchange
+List Companies By Sector & Industry
+AI / LLM
+Summarize SEC Filings With GPT
+↗
+Analyze SEC Comment Letters
+Section & text extraction
+Extract 10-K Sections
+Extract 10-Q Sections
+Extract 8-K Sections
+Extract 10-K (Multi-Year)
+Clean Extracted Sections
+Extract 10-K Textual Data
+Extract Google Revenue (10-K)
+Financial data
+Extract Financial Statements
+XBRL-to-JSON Converter
+Download XBRL XSD Files
+Exhibits & attachments
+Download 8-K Exhibit 99
+Download 8-K Press Releases
+Download Material Contracts (Ex-10)
+Governance & compensation
+Exec Comp By Ticker
+Exec Comp Multi-Company Compare
+Export Exec Comp To Excel
+Directors & Board Members
+Audit Fees
+Subsidiaries
+Outstanding Shares & Float
+Market events & disclosures
+8-K Material Event Activity
+Stock Reactions To 8-K 4.02
+8-K Item 4.01
+Accountant Changes
+8-K Item 5.02
+Exec Changes
+Ownership & fund analysis
+Insider Trading Analysis
+Insider Trading Analysis - Extended
+↗
+13F Alpha, Volatility & Survival
+13F Portfolio Holdings & Cover Pages
+N-PORT Swap Counterparties
+N-PORT ETF Constituents
+Form 13D / 13G API Examples
+Form 144 Insider Sales
+Investment advisers (Form ADV)
+Recently Updated Form ADVs
+Find By Advisory Activity
+Find By Business Activity
+Find By Compensation Model
+Sort By Assets Under Management
+Sort By Number Of Accounts
+Find Individual Advisers By CRD
+Offerings analysis
+Top 20 Largest Offerings / Yr
+Most-Used Law Firms (S-1)
+424B4 Prospectuses By Year
+Form C Crowdfunding
+Form D Private Placements
+Reg A+ Offerings
+Quant & research
+Fed Funds Rate Projections
+Fama-French Factor Model
+Statistical Significance
+Halloween Effect Explained
+EDGAR Filing Trends 1994-2022
+EDGAR Filer Analysis
+Enforcement research
+SEC Litigation Releases
+SEC Administrative Proceedings
+AAERs
+More
+Real-Time Stream
+Full-Text Search
+Form N-CEN
+Form N-PX Proxy Voting
+All Per-API Examples →
+Regulatory explainers
+EDGAR Filings & Exhibits
+Intro to SEC Law
+Filing Entities & Disclosure Requirements
+Form Types Supporting XBRL
+8-K Item 4.01 Content Requirements
+Browse All Tutorials →
+Cookbook on GitHub
+↗
+Open main menu
+Home
+Insights
+Coinbase (COIN) Q3 2026 Earnings SEC Filing Analysis
+November 1, 2026
+·
+42
+min read
+Coinbase Global (COIN), Financial Analysis
+Insights derived from analysing SEC filings. Independent analysis, not a publication of the SEC.
+Total revenue Q3 2026
+$1.22bn
+(35.0%) year on year (Q3 2025 $1.87bn)
+Total operating expenses Q3 2026
+$1.15bn
+(16.9%) year on year (Q3 2025 $1.39bn)
+Operating margin Q3 2026
+5.1%
+(20.6 pts) year on year (Q3 2025 25.7%)
+Key findings
+Revenue follows crypto trading.
+Q3 2026 total revenue $1.22bn, (35.0%); transaction revenue $590.2m, (43.6%), as consumer spot volume fell 59.2% to $23.4bn. Operating margin 5.1% against 25.7%.
+Share gains in a smaller market.
+Crypto trading volume market share 10.7% against 5.6% a year earlier; crypto derivatives volume $963bn, +14.1%; prediction markets above $200m of annualized revenue.
+Stablecoins hold up.
+Stablecoin revenue $306.9m, (5.4%): +$84.6m from higher USDC balances, ($52.8m) from lower rates. Subscription and services reached 49.1% of net revenue against 40.6%.
+Costs cut twice.
+Total operating expenses $1.15bn, (16.9%); employees 4,204 against 4,988 in Q1 2026 after the May 2026 restructuring; FY2026 Adjusted Expenses outlook lowered to $4.15bn to $4.30bn.
+Net income follows crypto marks.
+Q3 2026 net income $718.7m includes a $715.0m gain on crypto assets held for investment, against operating income of $61.7m; 9M 2026 net loss ($34.9m).
+Shares closed at $143.54 on 30 Oct 2026
+, (10.6%) after results; 6.4x EV/Sales TTM. Three year model: base case $119, best $349, worst $14.
+Figures are read from the Forms 10-K for FY2022, FY2024 and FY2025, the Forms 10-Q for Q1 to Q3 2026, the Forms 8-K with all their exhibits, incl. the quarterly shareholder letters and earnings decks (Ex 99.1) with the CFO commentary and outlook sections, the Texas plan of conversion, certificate of formation and bylaws (Ex 2.1, 3.1, 3.2), four supplemental indentures for the convertible notes (Ex 4.1 to 4.4), three legal opinions (Ex 5.1 to 5.3) and two officer advisor agreements (Ex 10.1), the proxy statement of 2026 and the Form 8-K Item 5.07 vote results, Schedules 13G and Forms 3, 4 and 5 on the record for central index key 1679788, together with the comparable filings of Robinhood, CME Group, Intercontinental Exchange, Circle, Galaxy Digital, Bullish, Gemini and Bakkt used in chapters 2 to 4 and 7. Accession numbers for every filing used appear in the Sources appendix. Market prices are closing prices of 30 October 2026.
+Contents
+1 Revenue & Business Model
+2 Trading: Spot Volumes Fall, Derivatives and Prediction Markets Grow
+3 Stablecoins & USDC: Record Balances, Lower Rates
+4 Staking, Lending & Subscriptions: Price Driven Rewards, Growing Loans
+5 Financial Analysis & Ratios
+6 MD&A & Management Commentary
+7 Sector & Competitor Analysis
+8 Material Events & Contracts
+9 Ownership, Voting Power & Annual Meeting
+10 Risk Factors
+11 Stock Price, Scenarios & Sensitivity
+Disclaimer
+Sources
+1 Revenue & Business Model
+Storyline: revenue follows crypto trading activity, while the mix moves toward stablecoins and services.
+Transaction revenue was 50.9% of Q3 2026 net revenue against 59.4% in Q3 2025; subscription and services rose to 49.1% from 40.6%. Chapters 2 to 4 cover the three revenue drivers: trading, stablecoins and USDC, and staking, lending and subscriptions.
+Business:
+Coinbase runs four exchanges (Coinbase Exchange, Coinbase International Exchange, Coinbase Derivatives Exchange and Deribit), a consumer app and custody. It reports one segment and three revenue types: transaction revenue (consumer, institutional, other), subscription and services (stablecoin revenue, blockchain rewards, interest and finance fee income, other) and other revenue (corporate interest and other income).
+FY2025 revenue $7.18bn, +9.4%:
+transaction $4.06bn (56.5%), subscription and services $2.83bn (39.4%), other $297.9m. Revenue peaked at $7.84bn in FY2021 and fell to $3.19bn in FY2022; TTM Q3 2026 $5.63bn, (26.6%).
+Regions:
+United States $6.01bn of FY2025 revenue (84%), international $1.17bn; Q3 2026 United States $1.02bn, international $199.5m.
+Employees 4,204 at 30 Sep 2026
+, against 4,795 a year earlier and 4,988 at 31 Mar 2026.
+Bases:
+annual revenue by type is shown as filed in each Form 10-K. From Q1 2026 Coinbase moved revenue on corporate USDC balances from subscription and services (stablecoin revenue) into other revenue and recast the 2025 quarters; the FY2025 Form 10-K was not recast. Quarterly series in this report use the recast basis.
+Table 1.1  Revenue by type, FY2021 to FY2025, as filed in each Form 10-K ($bn)
+Revenue line
+FY2021
+FY2022
+FY2023
+FY2024
+FY2025
+Transaction revenue
+6.84
+2.36
+1.52
+3.99
+4.06
+Consumer
+6.49
+2.24
+1.33
+3.43
+3.32
+Institutional
+0.35
+0.12
+0.09
+0.35
+0.48
+Subscription and services revenue
+0.52
+0.79
+1.41
+2.31
+2.83
+Stablecoin revenue
+n/a
+n/a
+0.69
+0.91
+1.35
+Blockchain rewards
+0.22
+0.28
+0.33
+0.71
+0.68
+Interest and finance fee income
+0.03
+0.33
+0.19
+0.27
+0.25
+Other revenue
+0.48
+0.05
+0.18
+0.27
+0.30
+Total revenue
+7.84
+3.19
+3.11
+6.56
+7.18
+FY2023 to FY2025 from the FY2025 Form 10-K, FY2021 and FY2022 from the FY2022 Form 10-K. FY2023 to FY2025 subscription and services include revenue on corporate USDC balances (moved to other revenue from Q1 2026). Stablecoin revenue was not shown separately before FY2023; FY2022 interest income included USDC economics.
+Table 1.2  Revenue by type, last five quarters, recast basis ($m)
+Revenue line
+Q3 2025
+Q4 2025
+Q1 2026
+Q2 2026
+Q3 2026
+Change (%)
+Consumer transaction ($m)
+843.5
+734.0
+567.0
+452.0
+450.1
+(46.6)
+Institutional transaction ($m)
+135.0
+185.0
+136.0
+100.0
+91.7
+(32.1)
+Other transaction ($m)
+67.7
+64.0
+53.0
+47.0
+48.5
+(28.4)
+Stablecoin revenue ($m)
+324.5
+331.0
+305.0
+292.0
+306.9
+(5.4)
+Blockchain rewards ($m)
+184.6
+152.0
+101.0
+83.0
+85.7
+(53.6)
+Interest and finance fee income ($m)
+64.8
+60.0
+68.0
+66.0
+68.6
+5.9
+Other subscription and services ($m)
+142.7
+152.0
+109.0
+114.0
+109.0
+(23.6)
+Other revenue (corporate interest and other) ($m)
+105.8
+104.0
+73.6
+65.8
+55.1
+(47.9)
+Total revenue ($m)
+1,868.7
+1,781.1
+1,413.0
+1,220.1
+1,215.6
+(35.0)
+Recast basis from the 2026 shareholder letters and Forms 10-Q: revenue on corporate USDC balances sits in other revenue. Lines for quarters other than Q3 2025 and Q3 2026 are read from earnings deck charts and are rounded; Q3 2025 and Q3 2026 are exact Form 10-Q values. Change is Q3 2026 against Q3 2025.
+2 Trading: Spot Volumes Fall, Derivatives and Prediction Markets Grow
+Transaction revenue $590.2m in Q3 2026, (43.6%), 50.9% of net revenue.
+Consumer $450.1m, (46.6%); institutional $91.7m, (32.1%); other $48.5m.
+Volumes:
+consumer spot $23.4bn, (59.2%); institutional spot $111.1bn, (53.1%); crypto derivatives $963.0bn, +14.1%; Coinbase Total Trading Volume $1.21tn, (2.8%).
+Market share 10.7% of total crypto trading volume
+, the fourth quarterly gain in a row, against 5.6% in Q3 2025; crypto derivatives volume TTM $4.34tn against $3.24tn a year earlier.
+Prediction markets
+, launched in the US with initial market flow from Kalshi (Q4 2025 letter), passed $200m of annualized revenue in Q3 2026 with 82% quarterly compound growth; with derivatives they were about 25% of transaction revenue (Q3 2026 call).
+Derivatives venues:
+Deribit (closed Aug 2025) and Coinbase International Exchange were combined into one exchange in Oct 2026; the advanced trading platform relaunches as Coinbase Pro in Q4 2026 with spot, futures, perpetuals, options and equities.
+Table 2.1  Trading metrics, last five quarters
+Metric
+Q3 2025
+Q4 2025
+Q1 2026
+Q2 2026
+Q3 2026
+Monthly Transacting Users (m)
+9.3
+9.1
+8.2
+7.6
+7.4
+Coinbase Total Trading Volume ($bn)
+1,249.1
+1,685.1
+1,371.4
+1,299.7
+1,213.8
+Consumer crypto spot volume ($bn)
+57.4
+53.7
+33.8
+25.8
+23.4
+Institutional crypto spot volume ($bn)
+236.9
+207.8
+158.7
+120.6
+111.1
+Crypto derivatives volume ($bn)
+843.8
+1,318.5
+1,032.1
+1,027.0
+963.0
+Crypto trading volume market share (%)
+5.6
+8.4
+9.1
+10.3
+10.7
+Assets on platform, period end ($bn)
+515.9
+376.1
+294.0
+246.0
+376.6
+Coinbase Total Trading Volume is spot plus derivatives plus stablecoin volume, as defined from 2026; spot volume excludes stablecoin trades.
+How crypto trading is changing
+Q3 2026 market data quoted by Coinbase:
+total market crypto spot volume (6%) and derivatives volume (11%) on Q2, crypto volatility (15%) to multi year lows, while total crypto market capitalization rose 37%; total market crypto trading volume about $11tn in the quarter (8-K Ex 99.1).
+Regulated futures diverge:
+CME Bitcoin futures and options average daily volume 103k contracts, +21%, Ether 72k, (70%); CME average daily volume across all products a Q3 record of 29.4m contracts, +16% (CME 10-Q).
+Retail crypto trading fell at other platforms:
+Robinhood cryptocurrencies revenue $120m, (55.2%), with users placing crypto trades (37%); Gemini trading volume $3.8bn in Q2 2026 against $11.3bn; Bullish digital asset sales $32.6bn against $58.6bn.
+Prediction markets become a trading line:
+Robinhood event contracts revenue $173m in Q3 2026 against $27m; Coinbase above $200m annualized; Gemini prediction markets revenue $0.5m in Q2 2026.
+Table 2.2  Trading businesses compared
+Company
+Period
+Measure
+Value and change year on year
+Filed detail
+Coinbase
+Q3 2026
+Transaction revenue
+$590.2m, (43.6%)
+consumer $450.1m (46.6% lower); institutional $91.7m; crypto derivatives volume $963bn; operating margin 5.1%
+Robinhood
+Q3 2026
+Cryptocurrencies revenue
+$120m, (55.2%)
+event contracts revenue $173m against $27m; users placing crypto trades (37%)
+Galaxy Digital
+Q3 2026
+Global Markets adjusted gross profit
+$53m, +8% on Q2 2026
+trading volumes +12% on Q2; average loan book $1.8bn; 1,763 trading counterparties
+Bullish
+Q2 2026
+Adjusted transaction revenue (non IFRS)
+$29.9m, +24.1%
+digital asset sales $32.6bn against $58.6bn; adjusted EBITDA margin 31.9%
+Gemini
+Q2 2026
+Transaction revenue
+$17.8m, (14.4%)
+trading volume $3.8bn against $11.3bn; prediction markets revenue $0.5m; operating expenses $122.4m on revenue of $45.5m
+CME Group
+Q3 2026
+Bitcoin futures and options average daily volume
+103k contracts, +21.0%
+Ether futures and options 72k contracts, (70%); company operating margin 65.7%
+Robinhood from its Form 10-Q, Galaxy Digital and Gemini from 8-K Ex 99.1, Bullish from 6-K Ex 99.1 (non IFRS), CME Group from its Form 10-Q. Galaxy states no year on year change. Bullish and Gemini had filed Q2 2026 only. Kraken (Payward) has no SEC filings.
+3 Stablecoins & USDC: Record Balances, Lower Rates
+Stablecoin revenue $306.9m in Q3 2026, (5.4%), 26.4% of net revenue;
+the 10-Q attributes +$84.6m to higher USDC balances and ($52.8m) to lower rates.
+Average USDC held in Coinbase products $22bn, +49% (deck)
+, about 30% of average USDC market capitalization of $73bn, against $68bn a year earlier.
+Where the revenue comes from (deck):
+USDC in Coinbase products $202m against $159m, of which corporate balances $21m against $30m, now in other revenue; off platform USDC $126m against $196m. Other revenue $55.1m, (47.9%).
+USDC rewards paid to customers $129.2m (+16%)
+, in sales and marketing, equal to 42.1% of stablecoin revenue.
+Circle arrangement renewed on the same terms in 2026;
+Coinbase says it captured about 50% of USDC economics over the past year. Payment stablecoins of $2.42bn sit in cash and cash equivalents.
+Table 3.1  Stablecoin metrics, last five quarters
+Metric
+Q3 2025
+Q4 2025
+Q1 2026
+Q2 2026
+Q3 2026
+Stablecoin revenue ($m)
+324.5
+331.0
+305.0
+292.0
+306.9
+Average USDC held in Coinbase products ($bn)
+15
+18
+19
+20
+22
+Average USDC market capitalization ($bn)
+68
+76
+75
+77
+73
+USDC in Coinbase products, share of market capitalization (%)
+22.1
+23.7
+25.3
+26.0
+30.1
+Revenue on USDC in Coinbase products ($m)
+159
+172
+161
+174
+202
+of which corporate USDC balances ($m)
+30
+33
+18
+28
+21
+Revenue on off platform USDC ($m)
+196
+192
+163
+146
+126
+Other revenue, corporate interest and other ($m)
+105.8
+104.0
+73.6
+65.8
+55.1
+Stablecoin revenue on the recast basis. Revenue on USDC by location as shown in the earnings decks; revenue on USDC in Coinbase products includes the corporate balances line, and products plus off platform equals stablecoin revenue plus revenue on corporate USDC balances (in other revenue).
+How stablecoins are changing
+Market size:
+stablecoin market capitalization $304bn at the end of Q3 2026; Coinbase cites the US Treasury Secretary's Nov 2025 remarks expecting $3tn by 2030 (8-K Ex 99.1).
+USDC growth slows with rates:
+USDC in circulation $73.3bn at 30 Jun 2026, +19%; Circle reserve return rate 3.5%, 66bps lower; USDC 27% of the stablecoin market (Circle 8-K Ex 99.1). The fed funds rate fell from 5.33% at end 2023 to 3.64% at end 2025 (Coinbase 10-K).
+Regulation:
+the GENIUS Act on payment stablecoins became US law in Jul 2025 and appears in the FY2025 risk factors.
+Payments by software agents:
+Circle reports 99.3% of x402 agent payment volume settles in USDC and Circle Payments Network at $14.7bn of annualized volume, +76% on Q1; Coinbase reported over 90% of onchain agentic commerce in USDC on Base and over 100m x402 payments (Q1 2026 deck).
+Table 3.2  Stablecoin businesses compared
+Company
+Period
+Measure
+Value and change year on year
+Filed detail
+Coinbase
+Q3 2026
+Stablecoin revenue
+$306.9m, (5.4%)
+average USDC held in Coinbase products $22bn, about 30% of USDC market capitalization; USDC rewards expense $129.2m; +$84.6m from higher balances, ($52.8m) from lower rates
+Circle
+Q2 2026
+Reserve income
+$668m, +5.3%
+USDC in circulation $73.3bn, +19%; reserve return rate 3.5%, 66bps lower; distribution and transaction costs $410m; operating margin 4.9%; stablecoin market share 27%
+Robinhood
+Q3 2026
+Stablecoins held, corporate
+$164m
+revenue from Robinhood Chain sits in crypto revenue; no stablecoin revenue line
+Galaxy Digital
+Q3 2026
+Stablecoins held
+$812m
+$1.56bn at Q2 2026; founding validator on the Arc network of Circle
+Bakkt
+Q2 2026
+Total transacting volume incl. stablecoin payments
+$168.8m
+stablecoin on and off ramps and cross border payments via DTR, acquired 30 Apr 2026; FY2026 volume expected about $2.5bn
+Circle and Bakkt had filed Q2 2026 only. Robinhood and Galaxy report stablecoin holdings, not stablecoin revenue.
+4 Staking, Lending & Subscriptions: Price Driven Rewards, Growing Loans
+Subscription and services $570.2m in Q3 2026, (20.4%), 49.1% of net revenue
+against 40.6%; the non stablecoin lines below total $263.3m against $392.1m.
+Blockchain rewards $85.7m, (53.6%):
+($111.8m) from lower Solana and Ethereum prices and ($18.9m) from lower reward rates, partly offset by higher staked balances (10-Q).
+Interest and finance fee income $68.6m, +5.9%;
+average Borrow/Lend balances $1.87bn against $610m a year earlier.
+Other subscription and services $109.0m, (23.6%)
+, incl. Coinbase One; paid Coinbase One subscribers reached an all time high, +24% (no count disclosed; nearly 1m in the Q4 2025 letter).
+Assets on platform $376.6bn at 30 Sep 2026
+, (27.0%), 12.5% of total crypto market capitalization; Bitcoin $252.5bn of it. Coinbase is custodian for over 80% of US Bitcoin and Ether ETF assets (Q4 2025 letter).
+Table 4.1  Services metrics, last five quarters
+Metric
+Q3 2025
+Q4 2025
+Q1 2026
+Q2 2026
+Q3 2026
+Blockchain rewards ($m)
+184.6
+152.0
+101.0
+83.0
+85.7
+Interest and finance fee income ($m)
+64.8
+60.0
+68.0
+66.0
+68.6
+Other subscription and services, incl. Coinbase One ($m)
+142.7
+152.0
+109.0
+114.0
+109.0
+Subscription and services revenue ($m)
+716.6
+694.5
+583.5
+555.1
+570.2
+Subscription and services, share of net revenue (%)
+41
+41
+44
+48
+49
+Average Borrow/Lend balances ($m)
+610
+1,230
+1,330
+1,491
+1,866
+Subscription and services share of net revenue as stated in the earnings decks.
+How staking, lending and subscriptions are changing
+Staking income follows token prices:
+Coinbase blockchain rewards ($111.8m) from lower prices and ($18.9m) from lower reward rates year on year; Galaxy assets under stake $4.6bn, +64% on Q2 2026, with a multi year agreement to support staking on the BNY custody platform; Gemini staking revenue $4.0m, +50% (Q2 2026).
+Crypto lending grows:
+Coinbase average Borrow/Lend balances $1.87bn against $610m; Galaxy average loan book $1.8bn, +27% on Q2 2026.
+Subscriptions spread across retail platforms:
+paid Coinbase One subscribers +24%; Robinhood Gold subscribers 5.18m, +34%, with Gold subscription revenue $62m, +31.9%.
+Services grow at newer venues:
+Bullish subscription, services and other revenue $62.7m, +90.6% (Q2 2026, derived); Circle other revenue $34m, +41%, with FY2026 guidance raised to $310m to $330m.
+Table 4.2  Staking, lending and subscription businesses compared
+Company
+Period
+Measure
+Value and change year on year
+Filed detail
+Coinbase
+Q3 2026
+Blockchain rewards revenue
+$85.7m, (53.6%)
+($111.8m) from lower prices, ($18.9m) from lower reward rates; interest and finance fee income $68.6m, +5.9%; other subscription and services $109.0m
+Galaxy Digital
+Q3 2026
+Assets under stake
+$4.6bn, +64% on Q2 2026
+multi year agreement with BNY to support staking on its custody platform
+Gemini
+Q2 2026
+Staking revenue
+$4.0m, +50.0%
+services revenue $23.5m, +149%; credit card revenue $16.2m, +231%
+Robinhood
+Q3 2026
+Gold subscription revenue
+$62m, +31.9%
+Gold subscribers 5.18m, +34%
+Bullish
+Q2 2026
+Subscription, services and other revenue (derived)
+$62.7m, +90.6%
+adjusted revenue less adjusted transaction revenue; FY2026 guidance $225m to $245m
+Circle
+Q2 2026
+Other revenue (subscription and services)
+$34m, +41.0%
+FY2026 other revenue guidance raised to $310m to $330m
+Gemini, Bullish and Circle had filed Q2 2026 only. Bullish line derived as adjusted revenue less adjusted transaction revenue (non IFRS).
+5 Financial Analysis & Ratios
+Operating margin fell with trading revenue:
+FY2024 35.1%, FY2025 20.0%, TTM Q3 2026 3.6%; Q3 2026 5.1% against 25.7% in Q3 2025.
+Net income TTM ($701.6m)
+includes net losses of $695.1m on crypto assets held for investment over the four quarters; Adjusted EBITDA TTM $1.41bn (non GAAP).
+Cash flow:
+operating cash flow TTM $1.41bn; free cash flow $1.30bn after a capex stand in of $109.3m. Operating cash flow excludes customer custodial fund flows, which sit in financing, and includes swings in loans and crypto working capital.
+Balance sheet at 30 Sep 2026:
+cash and investments $8.82bn, incl. $2.42bn of payment stablecoins; crypto held for investment $2.22bn at fair value (cost $1.86bn); debt $6.70bn, incl. $748.8m of short term crypto borrowings; goodwill $4.13bn, mainly Deribit; customer custodial funds of $4.46bn sit on both sides.
+Capital returns:
+buybacks $790.2m in FY2025 and $1.25bn in 9M 2026 (7.1m shares); about $1.96bn of the $4.0bn authorization left at 30 Sep 2026; the $1.27bn 2026 convertible notes were repaid on 1 Jun 2026; no dividend.
+Table 5.1  Income statement, cash flow and balance sheet summary ($bn unless stated)
+Line item
+FY2021
+FY2022
+FY2023
+FY2024
+FY2025
+TTM Q3 2026
+Revenue
+7.8
+3.2
+3.1
+6.6
+7.2
+5.6
+Gross profit
+6.6
+2.6
+2.7
+5.7
+6.2
+4.8
+Research and development
+1.3
+2.3
+1.3
+1.5
+1.7
+1.9
+Selling, general and administrative
+1.6
+2.1
+1.4
+2.0
+2.7
+2.6
+Operating income
+3.1
+(2.7)
+(0.2)
+2.3
+1.4
+0.2
+Net income
+3.6
+(2.6)
+0.1
+2.6
+1.3
+(0.7)
+Diluted EPS ($)
+14.50
+(11.83)
+0.37
+9.48
+4.45
+(2.83)
+Operating cash flow
+4.0
+(1.6)
+0.7
+3.1
+2.4
+1.4
+Capital expenditure
+0.0
+(0.1)
+(0.1)
+(0.1)
+(0.1)
+(0.1)
+Free cash flow
+4.0
+(1.6)
+0.6
+3.0
+2.3
+1.3
+Stock based compensation
+0.8
+1.6
+0.8
+0.9
+0.8
+0.9
+Cash and investments
+7.1
+4.4
+5.1
+9.3
+11.6
+8.8
+Total debt
+3.4
+3.4
+3.0
+4.6
+7.7
+6.7
+Total equity
+6.4
+5.5
+6.3
+10.3
+14.8
+13.9
+Gross profit is total revenue less transaction expense; Coinbase reports no gross profit line. Research and development is technology and development. Coinbase reports no capex line: Capital expenditure here is a stand in, purchases of property and equipment plus capitalized software for FY2021 and FY2022 and other investing activities, net (mainly capitalized software and equipment) from FY2023; free cash flow is operating cash flow less this stand in. FY2022 balance sheet is shown without the $75.4bn customer crypto safeguarding asset and the equal liability recorded under SAB 121, which the SEC withdrew with SAB 122; as filed, total assets were $89.72bn and total liabilities $84.27bn. Cash and investments exclude customer custodial funds and crypto; FY2024 uses the FY2025 Form 10-K recast ($9.31bn; originally $8.54bn) after payment stablecoins were classed as cash equivalents; FY2023 and earlier were not recast. Total debt includes short term crypto and stablecoin borrowings. Before FY2024 crypto held for investment was carried at cost less impairment, with impairments of $329.2m (FY2021) and $757.3m (FY2022) in operating income. TTM equals Q4 2025 plus Q1 to Q3 2026.
+Table 5.2  What changed, Q3 2026 against Q3 2025
+Metric
+Q3 2025
+Q3 2026
+Change
+Revenue ($bn)
+1.87
+1.22
+(35.0%)
+Gross profit ($bn)
+1.62
+1.02
+(36.8%)
+Operating income ($bn)
+0.48
+0.06
+(87.2%)
+Net income ($bn)
+0.43
+0.72
+66.1%
+Diluted EPS ($)
+1.50
+2.51
+67.3%
+Operating cash flow ($bn)
+0.71
+0.41
+(42.9%)
+Free cash flow ($bn)
+0.69
+0.39
+(43.3%)
+Operating margin (%)
+25.7
+5.1
+(20.6 pts)
+Net margin (%)
+23.1
+59.1
+36.0 pts
+Table 5.3  Ratio analysis
+Ratio
+FY2021
+FY2022
+FY2023
+FY2024
+FY2025
+TTM Q3 2026
+Growth and margins
+Revenue growth (%)
+n/a
+(59.3)
+(2.7)
+111.2
+9.4
+n/a
+Gross margin (%)
+83.8
+80.3
+86.5
+86.3
+85.8
+85.8
+Operating margin (%)
+39.2
+(84.8)
+(5.2)
+35.1
+20.0
+3.6
+Net margin (%)
+46.2
+(82.2)
+3.1
+39.3
+17.5
+(12.5)
+FCF margin (%)
+51.2
+(51.6)
+19.3
+46.2
+32.2
+23.1
+Cost and investment intensity
+R&D (%) revenue
+16.5
+72.8
+42.6
+22.4
+23.3
+34.5
+SBC (%) revenue
+10.5
+49.0
+25.1
+13.9
+11.7
+16.9
+Effective tax rate (%)
+(19.7)
+n/a
+n/a
+12.4
+17.2
+n/a
+Returns
+ROE (%)
+56.8
+(44.4)
+1.6
+31.2
+10.1
+(5.0)
+ROA (%)
+17.0
+(14.8)
+0.7
+13.8
+4.8
+(2.6)
+ROIC (%)
+95.5
+(50.2)
+(3.2)
+36.3
+10.9
+1.4
+Asset turnover (x)
+0.37
+0.22
+0.21
+0.29
+0.24
+0.21
+Liquidity and leverage
+Current ratio (x)
+1.61
+2.04
+2.07
+2.28
+2.34
+2.42
+Debt to equity (x)
+0.53
+0.62
+0.47
+0.45
+0.52
+0.48
+Net cash ($bn)
+3.7
+1.0
+2.2
+4.7
+3.9
+2.1
+Efficiency and cash quality
+Days sales outstanding
+14
+46
+20
+15
+16
+18
+FCF to net income (x)
+1.11
+n/a
+6.31
+1.18
+1.84
+n/a
+Shareholder returns (%) FCF
+n/a
+n/a
+n/a
+n/a
+34
+157
+ROE and ROA use average balances for FY2022 to FY2025 and period end balances for FY2021 and TTM. Net income, and so ROE and ROA, includes crypto and strategic investment marks. Shareholder returns are buybacks of Class A stock.
+Table 5.4  Valuation snapshot at $143.54 per share, 30 Oct 2026
+Measure
+Value
+Market cap ($bn)
+38.0
+Enterprise value ($bn)
+35.9
+EV/Sales (TTM) (x)
+6.4
+EV/EBITDA (TTM) (x)
+77.1
+FCF yield (%)
+3.4
+Price/Book (x)
+2.7
+EV/Adjusted EBITDA (TTM) (x)
+25.4
+Cost structure and profitability
+Total operating expenses $1.15bn in Q3 2026, (16.9%)
+, against revenue (35.0%); operating income $61.7m against $480.5m.
+Technology and development $447.4m, 36.8% of revenue
+against 23.0% a year earlier and $525.6m in Q1 2026, before the May 2026 restructuring of about 700 roles ($47.8m of charges in 9M 2026).
+Sales and marketing $242.6m
+, incl. USDC rewards of $129.2m (+16%); general and administrative $318.9m, (23.8%).
+Transaction expense $194.5m, 16.8% of net revenue
+, incl. $45.0m of other transaction expense, mainly prediction market exchange fees (+369%).
+Stock based compensation $233.0m, 19.2% of revenue
+; Adjusted EBITDA $332.9m excludes it together with depreciation, restructuring and data theft incident items.
+Crypto marks explain the gap between operating income and net income:
+gains (losses) on crypto assets held for investment of $715.0m in Q3 2026, $(718.2)m in Q4 2025; 9M 2026 operating loss ($73.2m) against a net loss of ($34.9m).
+Table 5.5  Costs as % of total revenue, last five quarters
+Line
+Q3 2025
+Q4 2025
+Q1 2026
+Q2 2026
+Q3 2026
+Transaction expense (% of revenue)
+13.6
+12.3
+13.9
+15.6
+16.0
+Technology and development (% of revenue)
+23.0
+27.9
+37.2
+38.8
+36.8
+Sales and marketing (% of revenue)
+13.9
+17.7
+18.9
+19.7
+20.0
+General and administrative (% of revenue)
+22.4
+25.4
+26.6
+29.3
+26.2
+Stock based compensation (incl. in lines above) (% of revenue)
+11.9
+12.9
+17.6
+19.5
+19.2
+Depreciation and amortization (incl. in lines above) (% of revenue)
+2.7
+4.0
+4.8
+5.3
+5.0
+Operating income (% of revenue)
+25.7
+15.4
+(1.5)
+(9.3)
+5.1
+Capex stand in: other investing activities, net (% of revenue)
+0.9
+1.4
+1.3
+4.5
+1.0
+Table 5.6  Operating income to net income ($m)
+Line
+Q3 2025
+Q3 2026
+9M 2026
+Total revenue
+1,868.7
+1,215.6
+3,848.6
+Operating income
+480.5
+61.7
+(73.2)
+Gains (losses) on crypto assets held for investment
+423.9
+715.0
+23.2
+Gains (losses) on strategic and marketable investments
+(400.3)
+39.2
+27.9
+Interest, other income and expense and income taxes
+(71.6)
+(97.2)
+(12.7)
+Net income
+432.6
+718.7
+(34.9)
+Adjusted EBITDA (non GAAP, as reported)
+800.7
+332.9
+844.0
+Interest, other income and expense and income taxes is net income less the three lines above it. Q3 2026 includes an effective tax rate of 12.8%. Gains on strategic and marketable investments mainly reflect Circle shares.
+Table 5.7  Adjusted measures as reported (non GAAP), last five quarters
+Measure
+Q3 2025
+Q4 2025
+Q1 2026
+Q2 2026
+Q3 2026
+Adjusted EBITDA ($m)
+800.7
+565.9
+303.3
+207.8
+332.9
+Adjusted net income ($m)
+420.7
+178.0
+(45.6)
+(104.9)
+77.7
+Adjusted Expenses ($m)
+1,088.5
+1,229.4
+1,132.9
+1,034.8
+975.0
+Full time employees
+4,795
+4,951
+4,988
+4,321
+4,204
+Adjusted net income excludes tax effected crypto and investment marks. Adjusted Expenses are technology and development, general and administrative and sales and marketing excluding intangible amortization.
+6 MD&A & Management Commentary
+Q3 2026 shareholder letter, Form 10-Q and earnings call
+Q3 2026 (29 Oct 2026):
+total revenue $1.22bn, (35.0%) year on year and (0.4%) on Q2; net revenue $1.16bn; net income $718.7m, diluted EPS $2.51; Adjusted EBITDA $332.9m, (58.4%); effective tax rate 12.8%, incl. a valuation allowance release and the closing of the 2020 to 2021 federal audit.
+Transaction revenue $590.2m:
+consumer $450.1m, (46.6%), with consumer spot volume (59%) and institutional spot volume (53%); institutional $91.7m, (32.1%). Monthly Transacting Users 7.4m against 9.3m.
+Subscription and services $570.2m, (20.4%):
+stablecoin revenue $306.9m; blockchain rewards $85.7m, (53.6%), on lower Solana and Ethereum prices and reward rates (10-Q).
+Expenses:
+Adjusted Expenses $975m, below the $980m to $1.08bn outlook; general and administrative $318.9m, (24%), on lower professional services and customer support; transaction expense 16.8% of net revenue, incl. $45.0m of other transaction expense, mainly prediction market exchange fees.
+Call (29 Oct 2026):
+prediction markets passed $200m of annualized revenue; with derivatives they made up about 25% of transaction revenue. The INTX and Deribit integration was completed in Oct 2026 and management expects near term volume volatility; the advanced trading platform relaunches as Coinbase Pro in Q4 2026.
+Crypto portfolio:
+Bitcoin units held +92% year on year (deck); 17,954 BTC and 152,649 ETH at 30 Sep 2026; portfolio $2.22bn at fair value.
+Q2 2026 (30 Jul 2026):
+total revenue $1.22bn, (18.5%); net loss ($359.5m); market share a then record 10.3%; prediction markets above $100m of annualized revenue; cash and cash equivalents $8.6bn after repaying the 2026 convertible notes.
+Table 6.1  Company outlook and every 2026 revision
+Item
+Outlook
+Source
+FY2026 Adjusted Expenses
+$4.15bn to $4.30bn (Oct 2026); cut from $4.20bn to $4.45bn (Jul 2026) and $4.25bn to $4.60bn (first 2026 outlook, repeated in May 2026); FY2025 actual $4.28bn; 9M 2026 actual $3.14bn
+8-K Ex 99.1 of 12 Feb, 7 May, 30 Jul and 29 Oct 2026
+Q4 2026 subscription and services
+$550m to $630m on higher average rates and crypto prices; Q3 actual $570.2m
+8-K Ex 99.1, 29 Oct 2026
+Q4 2026 Adjusted Expenses
+$1.01bn to $1.16bn, incl. marketing for USDC rewards; intangible amortization $36m to $46m on top
+8-K Ex 99.1, 29 Oct 2026
+Q4 2026 other items
+transaction expense mid teens % of net revenue; stock based compensation about $240m
+8-K Ex 99.1, 29 Oct 2026
+Q4 2026 transaction revenue
+about $165m to 25 Oct 2026; no full quarter outlook
+8-K Ex 99.1, 29 Oct 2026
+Q3 2026 outlook and actual
+subscription and services $500m to $580m, actual $570.2m; Adjusted Expenses $980m to $1.08bn, actual $975m; stock based compensation about $245m, actual $233m
+8-K Ex 99.1, 30 Jul and 29 Oct 2026
+Q2 2026 outlook and actual
+subscription and services $565m to $645m, actual $555.1m; restructuring $50m to $60m, $47.8m recorded for 9M 2026
+8-K Ex 99.1, 7 May and 30 Jul 2026
+Q1 2026 outlook and actual
+subscription and services $550m to $630m (set before corporate USDC revenue moved to other revenue), actual $583.5m; technology and development plus general and administrative $925m to $975m, actual $902m
+8-K Ex 99.1, 12 Feb and 7 May 2026
+Capital return
+repurchase authorization $4.0bn for Class A stock and notes; about $1.96bn left at 30 Sep 2026
+10-Q Q3 2026, Part II Item 2
+Management and CFO commentary
+CFO Alesia Haas, Q3 2026 letter outlook (29 Oct 2026):
+FY2026 Adjusted Expenses cut again to $4.15bn to $4.30bn, about $100m lower at the midpoint; Q4 subscription and services $550m to $630m on higher average rates and crypto prices.
+CFO, Q3 2026 letter:
+cash and cash equivalents $8.6bn and $11bn of available resources incl. $2.4bn of crypto and marketable investments; $2.0bn of buyback authorization left; 10.2m Class A shares repurchased under the program.
+CFO, Q2 2026 letter (30 Jul 2026):
+cost base about $600m below the 2025 annualized exit rate; Q3 drivers named as higher USDC balances, offset by the roll off of Q2 performance earn outs and lower crypto prices.
+CFO, Q1 2026 call (7 May 2026):
+Coinbase intended to retire the $1.3bn 2026 convertible notes; buybacks since Q4 2024 offset about 90% of stock compensation issuance.
+Q4 2025 letter (12 Feb 2026):
+Q4 net loss after a $718m loss on the crypto investment portfolio, largely unrealized, and a $395m loss on strategic investments incl. Circle shares; FY2025 tax rate 17%.
+Management, Q1 2026 deck:
+pull requests per engineer +78% year on year; teams of ten replaced by two to three people plus AI agents; the May 2026 restructuring was described as optimizing operations for the AI era.
+Management, Q3 2026 deck:
+assets on platform back to 12.5% of crypto market capitalization; prediction market daily traders up more than 60% on Q2; Coinbase Developer Platform payments volume 160% quarterly compound growth.
+Table 6.2  Management statements in their own words
+Speaker
+Date and source
+Statement
+Coinbase management, Q4 2025 shareholder letter
+12 Feb 2026, 8-K Ex 99.1
+“experience tells us it’s never as good, or as bad as it seems”
+Alesia Haas, Chief Financial Officer
+7 May 2026, Q1 2026 earnings call
+“We are controlling what we can control and the underlying business performed well.”
+Coinbase management, Q3 2026 earnings deck
+29 Oct 2026, 8-K Ex 99.1
+“Maintain our commitment to generate positive Adjusted EBITDA in all market conditions”
+Alesia Haas, Chief Financial Officer
+29 Oct 2026, Q3 2026 earnings call
+“The growth in Prediction Markets offset the decline in overall spot trading”
+Table 6.3  Key disclosures in the Forms 10-Q and 10-K
+Item
+Disclosure
+10-Q Q3 2026, stablecoins
+Stablecoin revenue (5%) year on year: +$84.6m from higher USDC balances and ($52.8m) from lower rates; USDC rewards in sales and marketing $129.2m, +16%. The Circle arrangement was renewed on the same terms in 2026.
+10-Q Q3 2026, liquidity
+Cash, cash equivalents and marketable investments $8.8bn; notes principal about $6.0bn due 2028 to 2032; short term crypto borrowings $748.8m; 9M operating cash flow $785.5m against $1.80bn.
+10-Q Q3 2026, regulatory capital
+Coinbase, Inc. net capital $2.93bn against $1.19bn required; Coinbase Custody Trust net capital $618m against $222m required.
+10-Q Q3 2026, legal
+The New Jersey securities regulator said on 29 Oct 2026 that it intends to rescind its staking cease and desist order; staking actions remain in California, Maryland, Washington and Wisconsin; the Underwood class action continues.
+10-Q Q3 2026, trading plans
+Armstrong plan for up to 8,167,446 Class A shares from option exercises, 16 Nov 2026 to 22 Oct 2027; Ehrsam up to 3,866,620 shares; Choi up to 1,560,453 shares plus future vesting.
+10-K FY2025, revenue
+Consumer transaction revenue (3%) as a lower blended fee rate (($384.4m)) offset 7% higher consumer volume (+$277.0m); institutional revenue +39%, mainly Deribit derivatives; spot volume $1.22tn; Monthly Transacting Users 9.2m on average against 8.4m.
+10-K FY2025, commitments
+Non cancelable purchase obligations $670.4m plus $180.5m of investment commitments payable in 2026; customer crypto and stablecoins of $376.1bn are held off balance sheet with no loss accrual.
+10-K FY2025, market risk
+A 50% move in crypto prices at 31 Dec 2025 changes the value of crypto held for investment by $1.0bn; the fed funds rate fell from 5.33% (Dec 2023) to 3.64% (Dec 2025).
+7 Sector & Competitor Analysis
+Sector: digital asset market infrastructure
+(crypto exchanges, custody, stablecoins and derivatives) plus regulated exchanges and retail brokers adding crypto and event contracts. The peer set is Robinhood, CME Group, Intercontinental Exchange and Circle.
+Growth:
+COIN TTM revenue (26.6%) and Q3 2026 (35.0%), against HOOD TTM +20.9%, ICE 9M 2026 +14.8%, CRCL H1 2026 +12.8% and CME 9M 2026 +9.3%.
+Operating margin:
+CME 66.8% (9M 2026), HOOD 45.7% (TTM), CRCL 5.7% (H1 2026), COIN 3.6% (TTM); COIN gross margin, total revenue less transaction expense, 85.8%.
+Valuation:
+COIN 6.4x EV/Sales TTM and a TTM net loss, so no P/E; HOOD 14.7x EV/Sales and 39.4x P/E. Market value COIN $38.0bn, HOOD $76.9bn, CRCL $18.5bn.
+Coinbase and Circle share USDC economics:
+Circle paid distribution, transaction and other costs of $819.3m in H1 2026, mostly to distribution partners with Coinbase the largest; Coinbase says it captured about 50% of USDC economics over the past year.
+Table 7.1  Peer comparison, latest reported trailing twelve months
+Company
+Revenue TTM ($bn)
+Revenue growth (%)
+Gross margin (%)
+Operating margin (%)
+Net margin (%)
+FCF margin (%)
+ROE (%)
+Net cash ($bn)
+Market value ($bn)
+EV/Sales (x)
+P/E TTM (x)
+COIN
+5.6
+(26.6)
+85.8
+3.6
+(12.5)
+23.1
+(5.0)
+2.1
+38
+6.4
+n/a
+HOOD
+5.1
+20.9
+95.1
+45.7
+39.0
+58.4
+21.3
+2.3
+77
+14.7
+39.4
+CME
+n/a
+9.3
+n/a
+66.8
+60.7
+n/a
+n/a
+(1.1)
+n/a
+n/a
+n/a
+ICE
+n/a
+14.8
+n/a
+n/a
+n/a
+n/a
+n/a
+(22.4)
+n/a
+n/a
+n/a
+CRCL
+n/a
+12.8
+41.3
+5.7
+n/a
+n/a
+n/a
+1.7
+19
+n/a
+n/a
+COIN and HOOD TTM Q4 2025 to Q3 2026; growth against the prior TTM. CME and ICE 9M 2026 and CRCL H1 2026 from their Forms 10-Q, against the same period of 2025; TTM revenue, ROE and market value for CME and ICE were not collected, ICE operating income was not collected. Gross margin: COIN total revenue less transaction expense; HOOD revenue less brokerage and transaction costs; CRCL revenue less distribution, transaction and other costs. Net cash: cash and investments less debt incl. short term borrowings. Prices are closes of 30 Oct 2026. CME and ICE are left out of Figure 7.1 as their market value was not collected.
+8 Material Events & Contracts
+12 Forms 8-K from 31 Oct 2025 to 31 Oct 2026:
+four results filings with shareholder letters (Ex 99.1), five officer and director notices (two with advisor agreements, Ex 10.1), the May 2026 restructuring, the annual meeting results and the Texas reincorporation with ten exhibits.
+No notes offering or acquisition 8-K in the window.
+Deribit closed on 14 Aug 2025 and Echo on 8 Oct 2025 (10-K FY2025); the Dec 2025 indentures only move the convertible notes to the Texas company, and Ex 5.3 covers resale of the 10,997,856 Class A shares issued for Deribit.
+Table 8.1  Forms 8-K filed in the last twelve months
+Date
+Items
+Event
+15 Dec 2025
+8.01, 9.01
+Conversion from a Delaware to a Texas corporation effective 15 Dec 2025; shares converted one for one; plan of conversion (Ex 2.1), certificate of formation (Ex 3.1), bylaws (Ex 3.2), supplemental indentures for the 2026, 2029, 2030 and 2032 convertible notes (Ex 4.1 to 4.4) and legal opinions (Ex 5.1 to 5.3).
+12 Feb 2026
+2.02, 9.01
+Q4 2025 shareholder letter (Ex 99.1): total revenue $1.78bn; FY2025 $7.18bn, +9.4%; net loss ($666.7m) after crypto investment losses of $718.2m; Adjusted EBITDA $565.9m; Q1 2026 subscription and services outlook $550m to $630m.
+10 Apr 2026
+5.02
+Director Paul Clement not standing for reelection; board to shrink from ten to nine at the 2026 annual meeting.
+5 May 2026
+2.05
+Restructuring: about 700 roles cut (about 14% of the workforce at 1 May 2026); expected charges $50m to $60m, mostly cash severance, in Q2 2026. Charges of $47.8m recorded for 9M 2026.
+7 May 2026
+2.02, 9.01
+Q1 2026 shareholder letter (Ex 99.1): total revenue $1.41bn, (30.5%); net loss ($394.1m) incl. crypto investment loss of $482.4m; Adjusted EBITDA $303.3m; corporate USDC revenue moved from subscription and services to other revenue.
+18 Jun 2026
+5.07
+2026 annual meeting of 16 Jun 2026: all nine directors elected; Deloitte & Touche ratified with 962.1m votes for and 0.2m against.
+9 Jul 2026
+5.02, 9.01
+Chief Legal Officer Paul Grewal steps down effective 31 Jul 2026 and advises to 31 Oct 2026 (Ex 10.1, lump sum $182,500); Molly Abraham to become General Counsel and Secretary.
+23 Jul 2026
+5.02, 9.01
+Chief People Officer Lawrence Brock steps down effective 17 Aug 2026 and advises from 2 Sep to 30 Nov 2026 (Ex 10.1); Dominique Baillet to succeed.
+30 Jul 2026
+2.02, 9.01
+Q2 2026 shareholder letter (Ex 99.1): total revenue $1.22bn, (18.5%); net loss ($359.5m); Adjusted EBITDA $207.8m; FY2026 Adjusted Expenses outlook cut to $4.20bn to $4.45bn; Q3 subscription and services outlook $500m to $580m.
+2 Sep 2026
+5.02
+Anthony Armstrong appointed director effective 1 Sep 2026, on the Audit and Compliance Committee; board increased from nine to ten.
+2 Oct 2026
+5.02
+Chief Accounting Officer Jennifer Jones to retire; she stays until a successor is found.
+29 Oct 2026
+2.02, 9.01
+Q3 2026 shareholder letter (Ex 99.1): total revenue $1.22bn, (35%); transaction revenue $590.2m; subscription and services $570.2m; net income $718.7m incl. a $715.0m crypto investment gain; diluted EPS $2.51; Adjusted EBITDA $332.9m; FY2026 Adjusted Expenses outlook cut to $4.15bn to $4.30bn.
+Table 8.2  Material contracts and financing arrangements
+Contract
+Terms
+Convertible and senior notes
+Principal $7.28bn at 31 Dec 2025: 0.50% converts due 2026 $1.27bn (repaid 1 Jun 2026), 3.375% senior due 2028 $1.00bn, 0% converts due 2029 $1.50bn, 0.25% converts due 2030 $1.26bn, 3.625% senior due 2031 $737.5m, 0% converts due 2032 $1.50bn; about $6.0bn after repayment, fair value $5.4bn at 30 Sep 2026.
+Circle USDC arrangement
+Renewed on the same terms in 2026 after the auto renewal conditions were met; Coinbase earns revenue on USDC held in its products, on corporate balances and on part of off platform USDC.
+Deribit (Sentillia B.V.)
+Closed 14 Aug 2025 for $4.29bn: $721.5m cash incl. $150m escrow for 15 months and $3.57bn of Class A stock; goodwill $2.82bn; intangibles $1.39bn; integration with INTX completed in Oct 2026.
+Echo (Gm Echo Ltd)
+Closed 8 Oct 2025 for $176.0m: $68.0m cash and $108.0m of Class A stock (640,658 shares); goodwill $152.3m.
+Repurchase program
+Raised to $2.0bn in Oct 2025 and $4.0bn in Jan 2026; covers Class A stock and convertible and senior notes; about $1.96bn left at 30 Sep 2026.
+Texas certificate of formation and bylaws (Ex 3.1, 3.2)
+10bn Class A and 500m Class B shares authorized; Class B converts automatically if the founder group holds under 25% of the Class B held at the effective date; derivative suits need holders of at least 3% of shares.
+Purchase and investment commitments
+Non cancelable purchase obligations $670.4m at 31 Dec 2025 (2026 $169.9m); $180.5m of investment commitments, of which a $180.0m strategic equity investment was completed in 9M 2026.
+9 Ownership, Voting Power & Annual Meeting
+Two voting classes:
+Class B carries 20 votes per share and, on the 22 Oct 2026 share counts, 78.6% of total votes with 15.5% of shares. Brian Armstrong reported 33.1m shares, 13.9% of Class A as converted, in his last Schedule 13G/A (holding at 31 Dec 2024).
+2026 annual meeting (16 Jun 2026, virtual), the first as a Texas corporation:
+all nine directors elected with 96.1% (Gokul Rajaram) to 99.9% (Christa Davies) of votes cast; Deloitte & Touche ratified with 99.98%. The ballot held no say on pay vote and no shareholder proposals.
+Insiders, Forms 4 of the last 12 months: no open market purchases.
+88 Forms 3, 4 and 5 were filed. Open market sales came from Brian Armstrong (option exercises with same day sales under a trading plan, about 40,000 shares per tranche at $248 to $276 in Dec 2025 and Jan 2026), Marc Andreessen trusts (e.g. 13,676 shares at $186.18 on 1 Oct 2026), CFO Alesia Haas (39,030 shares at about $205 on 21 Sep 2026), Fred Ehrsam, Fred Wilson, Emilie Choi, Paul Grewal and Jennifer Jones; the other filings are RSU vesting and tax withholding.
+New trading plans (10-Q Q3 2026):
+Armstrong up to 8,167,446 Class A shares from option exercises, 16 Nov 2026 to 22 Oct 2027; Ehrsam up to 3,866,620 shares, 7 Dec 2026 to 7 Jun 2027; Choi up to 1,560,453 shares plus future vesting, 4 Jan 2027 to 31 Dec 2027. Coinbase repurchased 7.1m shares for $1.25bn in 9M 2026.
+Table 9.1  Annual meeting vote results, 16 Jun 2026
+Proposal
+For (bn votes)
+Against (bn votes)
+Abstain (bn votes)
+For as % of votes cast
+Result
+Elect Brian Armstrong
+0.898
+0.019
+0.000
+97.9
+Elected
+Elect Marc L. Andreessen
+0.891
+0.026
+0.000
+97.1
+Elected
+Elect Christa Davies
+0.916
+0.001
+0.000
+99.9
+Elected
+Elect Frederick Ernest Ehrsam III
+0.891
+0.027
+0.000
+97.0
+Elected
+Elect Gokul Rajaram
+0.882
+0.035
+0.000
+96.1
+Elected
+Elect Fred Wilson
+0.911
+0.006
+0.000
+99.3
+Elected
+Ratify Deloitte & Touche LLP for FY2026
+0.962
+0.000
+0.000
+100.0
+Ratified
+Director votes are For and Withheld (Withheld shown as Against). Class A one vote, Class B 20 votes, voting as one class. Broker non votes 45.0m on each director. Three of nine directors are not shown: Kelly Kramer 99.4%, Chris Lehane 99.8% and Tobias Lutke 99.7% of votes cast for.
+2026 annual meeting
+Virtual meeting of 16 Jun 2026
+chaired by Brian Armstrong; record date 21 Apr 2026; two proposals, director election and auditor ratification.
+No business update
+was given at the meeting, and no shareholder questions were received in the Q&A session.
+Board changes:
+Paul Clement did not stand for reelection, leaving nine directors; Anthony Armstrong joined on 1 Sep 2026, taking the board to ten.
+Table 9.2  Largest holders as last filed
+Holder
+Shares (m)
+Stake as filed
+Filing and date of holding
+Brian Armstrong, mostly Class B
+33.10
+13.9% of Class A as converted
+Schedule 13G/A, 31 Dec 2024
+Vanguard Capital Management
+16.33
+7.32% of Class A
+Schedule 13G, 31 Mar 2026
+BlackRock
+14.62
+6.9% of Class A
+Schedule 13G, 30 Jun 2025
+Susquehanna entities
+9.35
+4.2% of Class A
+Schedule 13G/A, 31 Mar 2025
+Fred Ehrsam, director
+6.06
+2.87% of Class A as converted
+Schedule 13G/A, 31 Dec 2024
+Class A one vote, Class B 20 votes. Shares at 22 Oct 2026: 223,729,527 Class A and 41,033,891 Class B; Class B holds 78.6% of votes on these counts. The beneficial ownership table of the 2026 proxy statement was not parsed, so current insider voting percentages are not shown.
+10 Risk Factors
+Scope of the comparison as filed:
+the first 9 risk factors of Item 1A in the Forms 10-K for FY2025 and FY2024, the group headed The Most Material Risks Related to Our Business and Financial Position. The rest of Item 1A was not compared, so the total number of factors and any factor added or removed outside this group are not stated here.
+Within the 9 factors:
+4 materially reworded, 2 with minor wording changes (interest rates: payment stablecoins, such as USDC; competition: shorter heading) and 3 unchanged. The Forms 10-Q for Q1, Q2 and Q3 2026 each state no material change to the FY2025 risk factors.
+Table 10.1  Risk factors and legal matters with filed figures
+Risk
+Disclosure and change
+Crypto prices and trading activity
+Consumer spot volume $23.4bn in Q3 2026 against $57.4bn; Bitcoin and Ethereum pairs about 45% of 2025 trading volume; Monthly Transacting Users 7.4m against 9.3m.
+Interest rates and stablecoins
+Fed funds rate 5.33% (Dec 2023) to 3.64% (Dec 2025); lower rates cut stablecoin revenue by $52.8m year on year in Q3 2026; revenue depends on interest earned on USDC reserves held by Circle.
+Crypto investment marks
+Crypto held for investment $2.22bn at 30 Sep 2026 (cost $1.86bn); a 50% price move changed its value by $1.0bn at 31 Dec 2025; quarterly marks ranged from ($718.2m) in Q4 2025 to $715.0m in Q3 2026.
+Cybersecurity
+Data theft incident (8-K of 15 May 2025): net losses of $306.7m in Q2 2025 and $48.0m in Q3 2025, then net recoveries of $43.7m in 9M 2026; investigations and litigation continue.
+Regulation and litigation
+GENIUS Act on payment stablecoins (Jul 2025); MiCA licence (Jun 2025); state staking actions in four states after New Jersey said it intends to rescind its order; event contract suits under state gambling laws.
+Custody
+Customer crypto and stablecoins of $376.1bn at 31 Dec 2025 are off balance sheet; Coinbase, Inc. net capital $2.93bn against $1.19bn required at 30 Sep 2026.
+Governance under Texas law
+Class B 78.6% of votes; 3% ownership threshold for derivative suits; Texas Business Court as forum; Texas anti takeover provisions.
+Debt and borrowings
+About $6.0bn of note principal due 2028 to 2032; short term crypto and stablecoin borrowings $748.8m at 30 Sep 2026.
+How risk factors changed
+Comparison:
+first 9 risk factors of Item 1A in the 10-K FY2025 (filed 12 Feb 2026), the group headed The Most Material Risks Related to Our Business and Financial Position against the same group of 9 factors in the 10-K FY2024 (filed 13 Feb 2025); the remaining factors of Item 1A were not compared.
+Scope as filed:
+9 of the factors in each 10-K; within them none added or removed, 4 materially reworded, 2 with minor wording changes and 3 unchanged.
+Stablecoin language widens from USDC to payment stablecoins across the opening factors, and the GENIUS Act (Jul 2025) enters the regulatory factor.
+The FY2025 text replaces cryptoeconomy with onchain economy in the part compared.
+The cybersecurity factor cites the May 2025 data theft incident in place of the 2021 account takeover case ($25.1m reimbursed).
+Event contracts (prediction markets) appear as a regulatory exposure, with state gambling law and CFTC preemption litigation named.
+Enforcement references from 2022 to 2023 (FTX, the June 2023 SEC complaint, NYDFS and FinCEN proposals) are removed from the regulatory factor.
+Table 10.2  Size of the risk factor section
+Measure
+10-K FY2024, scope compared
+10-K FY2025, scope compared
+Risk factors (count)
+9
+9
+Table 10.3  Risk factors added, removed and materially reworded
+Change
+Risk factor
+What changed
+Reworded
+Operating results fluctuate with crypto volatility
+Cryptoeconomy becomes onchain economy; new drivers listed: market values of marketable and strategic investments, tariffs and trade restrictions, extended US federal government shutdowns and stablecoin revenue growth; the FY2024 paragraph on USDC demand and Circle moves to other factors.
+Reworded
+Revenue concentrated in Bitcoin, Ethereum and stablecoins
+Bitcoin and Ethereum pairs drove about 45% (2025) and 46% (2024) of trading volume, against 44% (2024) and 54% (2023) a year earlier; USDC becomes payment stablecoins, and stablecoin revenue now depends on the mix of balances held in Coinbase products against off platform.
+Reworded
+Cyberattacks and security breaches
+The 2021 example (about 6,000 customers, $25.1m reimbursed) is replaced by the data theft incident disclosed on Form 8-K on 15 May 2025, with investigations and litigation; adds exposure from options and perpetual swaps offered through third parties.
+Reworded
+Extensive and uncertain regulatory landscape
+Removes the 2022 FTX and Celsius failures, the SEC proposal to redefine an exchange, NYDFS guidance of Nov 2023, the FinCEN mixing proposal and the June 2023 SEC complaint; adds the GENIUS Act (Jul 2025), the MiCA licence obtained in Jun 2025 and event contract litigation in which state gambling laws may not be preempted by the CEA; Coinbase Wallet renamed Base App.
+Table 10.4  Risk factor updates in quarterly reports since the annual filing
+Filing
+Change disclosed
+10-Q Q1 2026 filed 7 May 2026
+No material changes to the risk factors in the FY2025 10-K.
+10-Q Q2 2026 filed 30 Jul 2026
+No material changes to the risk factors in the FY2025 10-K.
+10-Q Q3 2026 filed 29 Oct 2026
+No material changes to the risk factors in the FY2025 10-K.
+11 Stock Price, Scenarios & Sensitivity
+COIN closed at $143.54 on 30 Oct 2026
+, (10.6%) on the 29 Oct close of $160.59 after the Q3 2026 release, 58.1% below the 52 week high of $342.80 and 4.9% above the low of $136.89.
+Valuation:
+market value $38.0bn; enterprise value $35.9bn; 6.4x EV/Sales TTM; 25.4x EV/Adjusted EBITDA TTM; no P/E as TTM net income was a loss of ($701.6m); free cash flow yield 3.4%; 2.7x book value.
+Scenario model:
+total revenue grows from TTM Q3 2026 $5.63bn for three years; operating margin as stated; no gains or losses on crypto or strategic investments; other income set to zero; 20% tax rate; price equals TTM Q3 2029 EPS times exit P/E.
+Critical factors and core assumptions
+Table 11.1  Critical factors behind the best case
+Factor
+Current value
+Best case requires
+Evidence in filings and calls
+Crypto trading activity
+consumer spot volume $23.4bn in Q3 2026 against $57.4bn
+consumer spot volume back above $50bn a quarter
+consumer transaction revenue $450.1m against $843.5m (10-Q)
+Derivatives and market share
+crypto derivatives volume TTM $4.34tn; market share 10.7%
+market share above 12% with INTX and Deribit volumes holding after integration
+8-K Ex 99.1; integration completed Oct 2026
+USDC balances and rates
+average USDC in products $22bn; stablecoin revenue $306.9m a quarter
+USDC in products above $35bn with rates not below about 3%
+10-Q: +$84.6m from balances, ($52.8m) from rates
+Prediction markets
+above $200m of annualized revenue; 82% quarterly compound growth
+above $1bn of annualized revenue
+8-K Ex 99.1; prediction market exchange fees in transaction expense
+Expense control
+Adjusted Expenses $975m in Q3 2026; FY2026 outlook $4.15bn to $4.30bn
+Adjusted Expenses grow under 5% a year
+outlook cut twice in 2026; 700 roles cut in May 2026
+Crypto investment marks
+$2.22bn held for investment; Q3 2026 gain $715.0m, Q4 2025 loss $718.2m
+stable or higher Bitcoin and Ethereum prices
+income statement; 10-K market risk
+Revenue base
+TTM Q3 2026 $5.63bn; operating income $200.6m (3.6% margin); FY2025 operating margin 20.0%, FY2024 35.1%.
+Best case:
+25% revenue CAGR as crypto activity recovers and derivatives, prediction markets and USDC keep growing; 30% operating margin; 35x P/E; share count unchanged.
+Base case:
+12% revenue CAGR, which brings revenue back near the FY2025 level by the end of the period; 20% operating margin, the FY2025 level; 25x P/E; share count unchanged as buybacks offset stock compensation.
+Worst case:
+revenue (3%) a year in a long period of low crypto activity and lower rates; 5% operating margin, near the Q3 2026 level of 5.1%; 18x P/E; share count +2%.
+Tax rate 20%;
+no dividend; mix stays about half transaction and half subscription, services and other revenue.
+Scenarios, three years forward
+Table 11.2  Scenario analysis, TTM Q3 2026 to TTM Q3 2029
+Measure
+Worst case
+Base case
+Best case
+Revenue CAGR, 3 years (%)
+(3.0)
+12.0
+25.0
+Revenue, TTM Q3 2029 ($bn)
+5.1
+7.9
+11.0
+Operating margin, TTM Q3 2029 (%)
+5.0
+20.0
+30.0
+Net income, TTM Q3 2029 ($bn)
+0.2
+1.3
+2.6
+EPS, TTM Q3 2029 ($)
+0.76
+4.78
+9.97
+Exit P/E (x)
+18.0
+25.0
+35.0
+Implied price ($)
+14
+119
+349
+Change against $143.54 (%)
+(90)
+(17)
+143
+Implied annual return (%)
+(54.3)
+(5.9)
+34.4
+Implied annual return assumes no dividend. An operating margin near zero, such as the 9M 2026 margin of (1.9%), gives no earnings and no P/E based value.
+Sensitivity analysis
+Table 11.3  Sensitivity of implied price to revenue CAGR and operating margin at 25x P/E
+Revenue CAGR \ Operating margin
+5%
+12%
+20%
+25%
+30%
+(3%)
+$19
+$47
+$78
+$97
+$116
+5%
+$25
+$59
+$98
+$123
+$148
+12%
+$30
+$72
+$119
+$149
+$179
+18%
+$35
+$84
+$140
+$175
+$210
+25%
+$42
+$100
+$166
+$208
+$249
+Cells show implied share price in year 3. Current price $143.54. Blue cells sit above it, red cells below.
+Table 11.4  Sensitivity of implied price to exit P/E and operating margin at 12% revenue CAGR
+Exit P/E \ Operating margin
+5%
+12%
+20%
+25%
+30%
+18x
+$22
+$52
+$86
+$108
+$129
+22x
+$26
+$63
+$105
+$131
+$158
+25x
+$30
+$72
+$119
+$149
+$179
+30x
+$36
+$86
+$143
+$179
+$215
+35x
+$42
+$100
+$167
+$209
+$251
+Cells show implied share price in year 3. Current price $143.54. Blue cells sit above it, red cells below.
+Disclaimer
+This analysis is for information only and is not financial advice. It is derived from public SEC filings retrieved via sec-api.io and is not a publication of the U.S. Securities and Exchange Commission. Scenario values are model outputs under stated assumptions and are not forecasts. Data as of 30 October 2026.
+Sources
+All company figures are read from SEC filings retrieved through the sec-api.io MCP server. Call statements are taken from the Q3 2026 and Q1 2026 earnings calls held by the company.
+Table A.1  Filings used, with accession numbers
+Form
+Period
+Filed
+Accession number
+10-Q
+Q3 2026
+29 Oct 2026
+0001679788-26-000122
+8-K (2.02) Ex 99.1 earnings deck
+Q3 2026
+29 Oct 2026
+0001679788-26-000121
+10-Q
+Q2 2026
+30 Jul 2026
+0001679788-26-000088
+8-K (2.02) Ex 99.1 earnings deck
+Q2 2026
+30 Jul 2026
+0001679788-26-000087
+10-Q
+Q1 2026
+7 May 2026
+0001679788-26-000054
+8-K (2.02) Ex 99.1 earnings deck
+Q1 2026
+7 May 2026
+0001679788-26-000053
+10-K
+FY2025
+12 Feb 2026
+0001679788-26-000015
+8-K (2.02) Ex 99.1 shareholder letter
+Q4 2025
+12 Feb 2026
+0001679788-26-000011
+10-K
+FY2024
+13 Feb 2025
+0001679788-25-000022
+10-K
+FY2022
+21 Feb 2023
+0001679788-23-000031
+8-K 5.07
+2026 annual meeting
+18 Jun 2026
+0001679788-26-000075
+8-K 2.05
+Restructuring
+5 May 2026
+0001679788-26-000049
+8-K 8.01
+Texas reincorporation
+15 Dec 2025
+0001679788-25-000247
+DEF 14A
+2026 proxy
+24 Apr 2026
+0001679788-26-000045
+Schedule 13G
+Vanguard Capital Management
+29 Apr 2026
+0002100119-26-000293
+10-Q (peer)
+CME Q3 2026
+23 Oct 2026
+0001156375-26-000068
+10-Q (peer)
+ICE Q3 2026
+29 Oct 2026
+0001571949-26-000015
+10-Q (peer)
+CRCL Q2 2026
+5 Aug 2026
+0001876042-26-000248
+Table A.2  Peer and sector filings used
+Company
+Form
+Filed
+Accession number
+Bakkt
+8-K Ex 99.1
+10 Aug 2026
+0001628280-26-055276
+Bullish
+6-K Ex 99.1
+13 Aug 2026
+0001437749-26-027475
+Circle
+8-K Ex 99.1
+5 Aug 2026
+0001876042-26-000246
+Galaxy Digital
+8-K Ex 99.1
+27 Oct 2026
+0001859392-26-000108
+Gemini
+8-K Ex 99.1
+13 Aug 2026
+0002055592-26-000063
+Robinhood
+10-Q
+27 Oct 2026
+0001783879-26-000167
+Table B.1  Exhibits to Forms 8-K filed in the last twelve months
+Filed
+Exhibit
+Document
+Content
+15 Dec 2025
+8-K Item 8.01
+Reincorporation from Delaware to Texas
+Effective 15 Dec 2025; Class A and Class B shares converted one for one; convertible notes carried over on the same terms
+15 Dec 2025
+EX-2.1
+Plan of conversion, Delaware to Texas
+Board and officers continue; the Texas corporation assumes all debts and liabilities
+15 Dec 2025
+EX-3.1
+Texas certificate of formation
+11.5bn shares authorized; Class B 20 votes; Class B converts if the founder group holds under 25% of its Class B
+15 Dec 2025
+EX-3.2
+Texas bylaws
+Derivative suits need holders of at least 3% of shares; advance notice rules
+15 Dec 2025
+EX-4.1 to 4.4
+Supplemental indentures for the 2026, 2029, 2030 and 2032 convertible notes
+Notes convert into Texas Class A shares; no economic terms changed
+15 Dec 2025
+EX-5.1 to 5.3
+Legality opinions of Foley & Lardner
+Shares under five Forms S-8, the May 2025 shelf registration and 10,997,856 Deribit resale shares
+12 Feb 2026
+EX-99.1
+Q4 and FY2025 shareholder letter
+FY2025 total revenue $7.18bn, +9%; net income $1.26bn; Q4 net loss $667m after crypto and strategic investment losses
+7 May 2026
+EX-99.1
+Q1 2026 shareholder letter
+Total revenue $1.41bn, (31%); net loss $394m; prediction markets above $100m annualized in March
+9 Jul 2026
+EX-10.1
+Advisor agreement with departing Chief Legal Officer Paul Grewal
+Advisor 1 Aug to 31 Oct 2026; lump sum $182,500; unvested equity forfeited apart from one RSU tranche
+23 Jul 2026
+EX-10.1
+Advisor agreement with departing Chief People Officer Lawrence Brock
+Advisor 2 Sep to 30 Nov 2026; lump sum $182,500
+30 Jul 2026
+EX-99.1
+Q2 2026 shareholder letter
+Total revenue $1.22bn, (19%); net loss $359m; market share 10.3%; Circle partnership renews on the same terms
+29 Oct 2026
+EX-99.1
+Q3 2026 shareholder letter
+Total revenue $1.22bn, (35%); net income $719m incl. $715m crypto gains; Adjusted EBITDA $333m; market share 10.7%
+Read next
+Intel (INTC) Q3 2026 Earnings SEC Filing Analysis
+November 1, 2026
+·
+45
+min read
+Merck & Co. (MRK) Q3 2026 Earnings SEC Filing Analysis
+October 31, 2026
+·
+43
+min read
+Products
+MCP Server
+Financial Analysis Prompt Library
+EDGAR Filing Search API
+Full-Text Search API
+Real-Time Filing Stream API
+EDGAR File & Filing Download API
+Filing to PDF Generator API
+XBRL-to-JSON Converter
+10-K/10-Q/8-K Item Extractor
+Investment Adviser & Form ADV API
+Insider Trading Data - Form 3, 4, 5
+Restricted Sales Notifications - Form 144
+Institutional Holdings - Form 13F
+Form N-PORT API - Investment Company Holdings
+Form N-CEN API - Annual Reports by Investment Companies
+Form N-PX API - Proxy Voting Records
+Form 13D/13G API
+Form S-1/424B4 - IPOs, Debt & Rights Offerings
+Form C - Crowdfunding Offerings
+Form D - Private Placements & Exempt Offerings
+Regulation A Offering Statements API
+Changes in Auditors & Accountants
+Non-Reliance on Prior Financial Statements
+Executive Compensation Data API
+Audit Fees Data API
+Directors & Board Members Data
+Company Subsidiaries Database
+Outstanding Shares & Public Float
+SEC Enforcement Actions
+Accounting & Auditing Enforcement Releases (AAERs)
+SRO Filings
+CIK, CUSIP, Ticker Mapping
+Bulk Datasets
+General
+Pricing
+APIs
+Datasets
+Data Browser
+Features
+Supported Filings
+EDGAR Filing Statistics
+Equity Research & Market Insights
+Account
+Sign Up - Start Free Trial
+Log In
+Forgot Password
+Developers
+API Playground
+Documentation
+API Reference
+llms.txt
+Resources & Tutorials
+Python API SDK
+Node.js API SDK
+Cookbook
+GitHub
+Legal
+Terms of Service
+Privacy Policy
+Legal
+Terms of Service
+Privacy Policy
+SEC API
+© 2019 -
+2026
+sec-api.io by
+Data2Value GmbH
+. All rights reserved.
+SEC® and EDGAR® are registered trademarks of the U.S. Securities and Exchange Commission (SEC).
+EDGAR is the Electronic Data Gathering, Analysis, and Retrieval system operated by the SEC.
+sec-api.io and Data2Value GmbH are independent of, and not affiliated with, sponsored by, or endorsed by the U.S. Securities and Exchange Commission.
+sec-api.io is classified under SIC code 7375 (Information Retrieval Services),
+providing on-demand access to structured data and online information services.

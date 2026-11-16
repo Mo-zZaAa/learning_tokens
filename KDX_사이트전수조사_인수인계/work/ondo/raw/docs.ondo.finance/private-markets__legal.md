@@ -3,7 +3,7 @@ url: https://docs.ondo.finance/private-markets/legal
 title: Legal - Ondo Finance
 description: Disclaimers and limitations for Ondo Private Markets.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 

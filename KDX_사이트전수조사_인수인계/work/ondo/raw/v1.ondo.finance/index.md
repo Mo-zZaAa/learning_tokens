@@ -2858,3 +2858,28 @@ $1,237,261
 ######](https://v1.ondo.finance/markets/15519161897061424286099485816900104327566848801882302873753760938611125987312)
 
 [Terms of Service](https://docs.ondo.finance/legal/terms-of-service)[Privacy Policy](https://docs.ondo.finance/legal/privacy-policy)Cookie Preferences
+
+## 펼치거나 눌러야 보이던 내용
+
+### Claim ONDO 누른 뒤
+
+- Manage
+- Choose your wallet
+- Terms of Service
+- and
+
+### Close 누른 뒤
+
+- ​
+- Ethereum Mainnet
+- Polygon Mainnet
+
+### Cookie Preferences 누른 뒤
+
+- Learn more about our Cookies Policy
+- Strictly Necessary Cookies
+- Always Enabled
+- Functional Cookies
+- Analytics Cookies
+- Targeting Cookies
+- Confirm my choices

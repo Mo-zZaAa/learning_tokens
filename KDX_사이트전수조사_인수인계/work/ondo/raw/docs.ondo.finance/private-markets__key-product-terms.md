@@ -3,7 +3,7 @@ url: https://docs.ondo.finance/private-markets/key-product-terms
 title: Key Product Terms - Ondo Finance
 description: The key product terms of Ondo Private Markets Notes.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 
@@ -16,6 +16,10 @@ Copy pageCopy page
 The key product terms of Ondo Private Markets Notes.
 
 Copy pageCopy page
+
+Access Restricted
+
+The content you are trying to access is not accessible in your region. Ondo Private Markets products are not available in your region. The notes are only offered and sold to organizations and individuals outside the US and other prohibited jurisdictions. See the [Ondo Private Markets eligibility criteria](https://docs.ondo.finance/private-markets/eligibility) for details.
 
 The following are the key product terms of Ondo Private Markets Notes. Terms may differ for future Notes distributed by the Issuer. Always check the applicable Offering Documents for the most up-to-date Token Terms.
 

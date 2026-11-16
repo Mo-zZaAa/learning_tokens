@@ -1,0 +1,223 @@
+---
+url: https://ondo.finance/ondo-chain
+title: Introducing the Ondo Network: The Evolution of Ondo Infrastructure | Ondo Finance
+description: Today we’re introducing the Ondo Network: the execution layer for a new generation of financial markets — fast and private like a centralized exchange, veri…
+fetched: 2026-11-16
+method: render
+plan: read
+---
+
+In this article
+
+* [The Goal, Not the Tool](https://ondo.finance/blog/introducing-the-ondo-network)
+* [How It Works](https://ondo.finance/blog/introducing-the-ondo-network)
+* [The Network Today, and Where It’s Going](https://ondo.finance/blog/introducing-the-ondo-network)
+* [What Ondo Network Unlocks](https://ondo.finance/blog/introducing-the-ondo-network)
+* [Why This Matters](https://ondo.finance/blog/introducing-the-ondo-network)
+
+Announcement • Jul 27, 2026 • 8 min
+
+# Introducing the Ondo Network: The Evolution of Ondo Infrastructure
+
+Ondo Finance
+
+Official Blog
+
+[그림: Introducing the Ondo Network]
+
+Today we’re introducing the Ondo Network: the execution layer for a new generation of financial markets — fast and private like a centralized exchange, verifiable like a blockchain, and non-custodial in design.
+
+The Ondo Network is also already live today: the first application powered by it is Ondo Perps, the high-performance perpetual futures platform that launched last week.
+
+To explain what the Ondo Network is, and why it looks the way it does, we have to start with why we built it in the first place.
+
+### The Goal, Not the Tool
+
+Our mission at Ondo has always been to make the financial system more accessible. We’ve long believed that blockchain technology would be a critical enabler of that mission, and we’ve focused on designing institutional-grade platforms, assets, and infrastructure to bring financial markets onchain.
+
+Blockchain has long been the most powerful tool available to pursue our mission: a technology that made it possible to hold assets without a custodian, transact without an intermediary, and build and access financial products without asking permission. Those properties are profound, and they remain foundational to everything we build. But we have always been clear-eyed that blockchain is a means to an end, and that as the technology landscape evolves, so too should our understanding of how best to deploy it. A blockchain is not a product in itself, but a technology that you build products on.
+
+That’s why, as we built toward this mission, we’ve always let the goal — not the tool — lead. When we first announced Ondo Chain, we set out to build a blockchain because that seemed like the best approach to reaching that goal. But as we actually built for Ondo Perps and listened to clients, we learned something more precise about where the current constraints really were. From those discussions, we came to the realization that achieving our objectives doesn’t require us to build a chain in the traditional sense at all.
+
+For most of the history of blockchain technology, “putting something onchain” meant doing everything in one place: transaction execution, verification, and settlement, all on the same ledger, secured by the same consensus. That approach is a large part of what made blockchains trustworthy.
+
+As we set out to build the technology for Ondo Perps, we had a specific requirement: enable a high-performance, non-custodial trading experience with both privacy and verifiability. But as we dug deeper, we came to realize that the binding constraint wasn’t settlement — the part a blockchain does well — it was execution. Building a better chain wouldn’t have solved the problem that actually mattered.
+
+The core challenge was that many of the properties that make public blockchains powerful — decentralized consensus and replication, transparent state, open innovation, and composability — were often in conflict with what trading platforms like Ondo Perps needed, particularly regarding trade execution speed and privacy.
+
+Different players have taken different approaches to try to navigate this conflict. Centralized exchanges are fast and private, but require trust in the operator. App-specific blockchains like Hypercore and ZK exchanges like Lighter are secure and transparent, but at the expense of privacy and speed. Permissioned networks like Canton provide privacy and security, at the expense of verifiability and access.
+
+Each of these approaches ultimately tries to make a single system handle both trade execution and trade settlement, and settle for a compromise somewhere. But these are two different phases of a trade, each with different needs. Trade execution (i.e., matching, risk, margin, and liquidations) needs to be fast and private. Trade settlement (the final, durable record of who owns what once a trade is finalized) first and foremost needs to be durable and verifiable. Blockchains bundle a set of design choices — consensus, replication, transparency, and final settlement of state. Together, these provide security and verifiability, but at a cost: replication makes it slow; transparency makes it public. For trade settlement, that’s a reasonable tradeoff. For trade execution, it’s not.
+
+So we decomposed the problem: we took the properties that we knew mattered for trade execution — speed, privacy, and verifiability — and designed a system that could deliver all three all at once: speed and privacy provided by off-chain secure hardware enclaves, and verifiability by a decentralized set of attestors who control which code the enclaves are allowed to run, and who hold the keys the system needs to operate. Asset transfers settle on a public blockchain, and the system is designed so that settled state can ultimately be committed there too — giving trade settlement a durable, verifiable home separate from trade execution. Because this frees trade execution from the burden of replication and forced transparency, it is able to run at near-CEX speeds while remaining verifiable and non-custodial in a way a CEX can never be. The result is a system that is both fast and decentralized, verifiable and private — exactly what trade execution requires.
+
+In some respects, the industry has been moving in this direction for years. Many layer-2 networks centralize execution to increase speed and separate it from final state settlement, posting aggregated state back to a base layer. And the broader move toward zero-knowledge architectures reflects the same realization: what matters is not that everything happens onchain, but that everything can be verified without trusting a centralized intermediary.
+
+Ondo Network is the next step in that progression. It shares the trust model that blockchains pioneered — verifiable and trust-minimized, with no operator you have to take at their word — and extends that to enable something that chains inherently struggle to provide: near-real-time, private execution where users stay in control of their funds.
+
+### How It Works
+
+At its core, Ondo Network is a verifiable execution environment: applications run privately and at high speed inside secure enclaves, while a decentralized set of attestors ensures — cryptographically, not contractually — that only approved code is running. This separates the execution of application logic from the verification of that execution, and puts each where it works best. Two primitives do the work:
+
+##### *Enclaves Run the Application Logic*
+
+Enclaves — also known as Trusted Execution Environments, or TEEs — execute the application’s code privately, at near-CEX speed, inside hardware-isolated environments that even the machine’s operator cannot inspect or modify. Every enclave carries a hardware measurement of the exact code it runs, and it can prove, cryptographically, that only the unmodified, approved application code is what’s running inside it. This means no one actor can modify the code by themselves: if even a single byte of the code is changed, the measurement also changes, and the verification will fail.
+
+##### *Attestors Form the Trust Layer*
+
+The Ondo Network runs on a multi-party attestor set — a distributed group of independent operators operating under a quorum model for every decision the attestor set makes. Attestors do three things, each enforced by cryptography rather than policy:
+
+* **They verify the code.** Before an enclave can start, a quorum of attestors independently checks its hardware measurement against the reviewed and approved version of the code. The wrong code — even a single modified byte — cannot join the Network.
+* **They hold the keys**. The keys critical to the operation and security of the application never exist in complete form anywhere outside a verified enclave. Instead, the keys are split into pieces, with each attestor only receiving a subset of them. If a full key is needed, it can only be reconstructed inside an enclave that has recently proven its identity, and only if enough attestors agree — after verification of the code — to share their parts of the key. The operator alone cannot reach quorum, and no single party can ever assemble a key.
+* **They connect the Network to public blockchains.** Attestors act as a quorum-verified oracle for asset transfers and other onchain events.
+
+Once verified and provisioned, the enclave runs at full speed — and emits a cryptographically signed, replayable log of all core state transitions. That log can be replayed against the approved code by all allowed third parties — auditors, counterparties, and the like — to independently confirm that every action followed the rules in the approved code.
+
+For trading applications, this means that verification never sits between an order and a fill, slowing trade execution down; it doesn’t have to, because the attestors have already approved the code that’s doing the filling.
+
+But the benefits of the Ondo Network are not limited just to trading: any application where users need to know that the code running is the code that was audited — and that it handled their assets and/or data exactly as specified — fits naturally here.
+
+Consider the benefits of this design:
+
+* **Low latency.** Code execution happens inside enclaves, not through every node replicating every transaction. Work runs in near-real-time — for a market, that’s activities like matching, margin, and liquidations — while attestors can verify correctness periodically rather than gating each state transition. The result is latency similar to centralized exchanges, but with trust guarantees that are difficult for them to make.
+* **Verifiable fairness.** The system is built so that only the exact, approved code can ever execute. Any tampered or altered version simply won’t run, as the attestors will only provision keys to the verified code. And all core actions performed by the code are recorded in a signed log, so it can be independently verified that the right code ran, unmodified, and produced exactly the results it did, all while the execution of the code remains private. For trading, this means that these parties can independently verify that no order was skipped, front-run, or preferentially matched.
+* **Privacy-focused.** Because execution is separated from public data, privacy (or the lack thereof) is a user- or application-level choice rather than a network-wide mandate. Sensitive activity — for a trading platform, things like order flow and individual positions — need not be broadcast publicly or exposed on a public ledger.
+* **Decentralized non-custodial design.** The key that authorizes movement of user assets is assembled only inside a verified enclave, and only after the hardware has proven the enclave is running the exact code the attestors approved. That same approved code enforces the rules for every single transfer. No individual ever holds this key, and no operator, even one with full control of the underlying infrastructure, can extract it, trigger the signing process, or alter the code that governs it.
+* **Progressively decentralized security.** Today, the Ondo Network has multiple attestors already running; as Network activity increases, attestor participation can grow.
+
+### The Network Today, and Where It’s Going
+
+Today, the Ondo Network already runs on a multi-party attestation model: no single operator can run unapproved code, reconstruct a key, or move funds alone. That decentralized architecture is live now, and lays the foundation for what comes next.
+
+For a trading platform, beyond speed and privacy, users need two additional things. They need to know the code touching their money is the exact code that was approved. And they need to know that nobody can do things with their assets without their approval. With the launch of the Ondo Network, users can have both. But getting there without giving up near-CEX speed took some deliberate choices:
+
+* **Code execution currently runs in a single high-performance enclave, not a replicated network. A matching engine wants one deterministic sequencer, and replication adds latency to every order.** The risk here could be that transactions could get reordered, but the Network is designed so that every order is sequenced by fixed, deterministic rules, enforced by the attested code, and recorded in the signed log.
+* **Attestors decide which code runs and hold the keys the enclave needs — but are not involved in the execution path.** They can do this while maintaining verifiability because the signed execution log makes every state transition checkable after the fact anyway.
+
+But none of this is where the Network stops. We built it to further evolve without breaking anything along the way. Possible directions include:
+
+* **A larger, permissionless attestor set** — opened up to bonded participation, so the set grows beyond its current operators and becomes harder for any single party to influence.
+* **Decoupled roles** — separating code verification, key custody, and application hosting so that no single set of operators holds every responsibility at once.
+* **Onchain state settlement** — asset transfers already settle onchain; committing settled state to a public blockchain allows a durable and immutable record to live separate from — and be independently verifiable against — the execution that produced it.
+* **External watchers** — opening the signed execution log to independent third parties who can replay the Network’s activity and challenge any invalid state transition.
+* **Additional cryptographic proofs** — extending the signed execution log so that key properties can be proven to anyone with cryptographic proofs, removing the need to trust the operator.
+* **Selective privacy** — giving users fine-grained control over what stays private and what’s revealed, so sensitive activity like positions and order flow can be shielded while still exposing what regulators, counterparties, or the market need to see.
+* **Proof-of-stake security model** — the same design opens the door to other roles that keep the system honest. Because every execution is recorded in a signed, replayable log, independent participants will be able to act as watchers — replaying the Network’s activity and checking it against the rules. If they ever find a state transition that shouldn’t have happened, they can post a proof of it, forcing a correction.
+
+These same mechanisms can extend into the applications built on the Network, too. On a trading platform like Ondo Perps, for example, participants could be entered into a randomized lottery — proportional to their stake — for first notice when a position becomes eligible for liquidation — a fair, transparent way to distribute a valuable role across the Network’s participants rather than concentrating it.
+
+Note that with each of these, the Ondo Network starts to look more like what people have always actually valued in a blockchain: many independent operators, one shared history, security that comes from economics and cryptography instead of mere trust, and rules anyone can check. But it does so in a way that keeps the speed and privacy that blockchains themselves have never managed to offer.
+
+It’s also true that blockchains are converging from the other direction: with every rollup and every proof system, blockchains are becoming networks where execution happens somewhere else, and the chain’s job is just to verify and settle.
+
+That’s why the Ondo Network is really the continuation of what we set out to build with Ondo Chain. It isn’t a blockchain today; it doesn’t need to be. But as its trust roles open up to more independent participants, we expect the line between the two to get harder and harder to draw. So while the Ondo Network isn’t the blockchain we first described, it’s the truer expression of why we wanted one.
+
+### What Ondo Network Unlocks
+
+The first application built on the Ondo Network is Ondo Perps, the high-performance perpetual futures platform that launched last week. Ondo Perps will deliver deep liquidity, 24/7, professional-grade execution, and native access to tokenized real-world assets as collateral — with fairness, user control over funds, privacy, and omnichain access built in at the infrastructure layer rather than added on top.
+
+But importantly, the Network is not a perps-specific system. It is general-purpose infrastructure for any application that needs execution speed, privacy, and distributed, verifiable correctness. Spot markets, structured products, lending markets, and trade settlement rails can all be built on it. So can applications that have nothing to do with finance: any use case where users need to know that the code running is the code that was approved, and that their data is being handled the way the code says it will be.
+
+### Why This Matters
+
+A year ago we said we were building infrastructure to make markets more accessible. That remains what we’re building toward; what’s changed is our understanding of what that requires.
+
+For most of our industry’s history, building financial infrastructure meant accepting tradeoffs. The more you put onchain, the more trustworthy and transparent the system became — but the slower it ran and the more it exposed. The less you put onchain, the faster it went — but the more you had to trust whoever operated it. Speed, privacy, custodial independence, verifiability: you bought one by giving up another. And because every system faced the same constraints, those tradeoffs started to seem inherent.
+
+They weren’t. They were a consequence of forcing execution, verification, and settlement to happen in one place, secured the same way. Separate them, and the tradeoffs no longer apply. Once execution can be independently verified, it matters less where it occurred — and properties that used to come at each other’s expense can all be achieved at once.
+
+That is what the Ondo Network does. A trader, an institution with strict confidentiality requirements, and a market maker quoting at machine speed can all meet on the same platform — each getting performance without surrendering verification, privacy without surrendering control, and access without asking permission.
+
+This matters more, not less, as software like AI agents begins to act on people’s behalf. A person deciding whether to trust a system can lean on reputation, brand, and track record. An agent can too — but it’s far better positioned to skip the proxies and check the thing itself: that the code running is the code that’s been verified and that the rules were followed. We don’t know how much of financial activity will eventually be driven by agents rather than people, but we’re confident it will grow — and that infrastructure that can be verified rather than trusted is well-suited for that world.
+
+That is the future the Ondo Network is built for. Not a bet on any one technology, but on the goal every technology we’ve adopted was meant to serve: a financial system genuinely accessible to everyone. Verifiable without being fully visible. Fast without being centralized. Private without being opaque. All while ensuring your assets remain yours to control.
+
+Onward.
+
+Next
+
+[[그림: Ondo Finance’s Oasis Pro Markets Secures FINRA Authorizations to Offer Broad Range of Tokenized Equities and Funds to U.S. Investors]
+
+Announcement•Jul 23, 2026
+
+### Ondo Finance’s Oasis Pro Markets Secures FINRA Authorizations to Offer Broad Range of Tokenized Equities and Funds to U.S. Investors](https://ondo.finance/blog/finra-authorizations-to-offer-tokenized-equities)
+
+[[그림: Ondo and SBI Group Partner ]
+
+Ondo Stocks•Jul 16, 2026
+
+### Ondo and SBI Group Partner to Bring Japanese Equities Onchain](https://ondo.finance/blog/ondo-partners-with-sbi-group)
+
+## 펼치거나 눌러야 보이던 내용
+
+### Products 누른 뒤
+
+- Privacy Policy
+- Assets
+- USDY
+- Not Available in US
+- Freely transferable yieldcoin designed for DeFi.
+- OUSG
+- For Institutions & HNWIs
+- Short-Term US Treasuries & Agency Bonds.
+- Platforms & Protocols
+- Ondo Stocks
+- Not Available in US
+- Access tokenized stocks and ETFs.
+- Ondo Intelligent Portfolios
+- Not Available in US
+- Access investment strategies in a portfolio token.
+- Ondo Private Markets
+- Not Available in US
+- Exposure to leading private companies.
+- Flux
+- Borrow and lend with tokenized assets.
+- Nexus
+- For Asset Issuers
+- Offer instant 24/7 liquidity to your investors.
+- Ondo Network
+- The execution layer for financial markets.
+- Bridge
+- Transfer Ondo RWAs across supported chains.
+- Converter
+- Convert between accumulating and rebasing tokens.
+
+### Resources 누른 뒤
+
+- Insights
+- Market research, articles, and podcasts.
+- Blog
+- Product updates and highlights.
+- Ondo Learn
+- Learn about tokenization and blockchain technology.
+
+### Ecosystem 누른 뒤
+
+- Privacy Policy
+- Ondo Ecosystem
+- Institutions, blockchains, and more bring RWAs onchain.
+- Catalyst
+- A $250M initiative pursuing strategic investments.
+- Ondo Foundation
+- Grow RWA adoption and support the Ondo DAO.
+
+### About 누른 뒤
+
+- Privacy Policy
+- Docs & FAQs
+- Learn about our products, services, and tech.
+- Trust and Security
+- How we secure your funds and build trust.
+- Careers
+- Help build the future of finance.
+- Team
+- Learn about Ondo's mission and the team.
+- Contact Us
+- Reach out for support or general inquiries.
+
+## 구조화 데이터(JSON-LD)
+
+```json
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://ondo.finance/#organization","name":"Ondo Finance","url":"https://ondo.finance","logo":"https://ondo.finance/images/ondo-icon.svg","foundingDate":"2021","sameAs":["https://x.com/Ondo","https://www.linkedin.com/company/ondo-finance/","https://github.com/ondoprotocol","https://www.youtube.com/@OndoFinance"],"contactPoint":{"@type":"ContactPoint","contactType":"customer support","email":"support@ondo.finance","url":"https://ondo.finance/contact"},"description":"Institutional Grade Finance. Onchain. For Everyone. Ondo Finance bridges traditional finance with blockchain through tokenized real-world assets."},{"@type":"WebSite","@id":"https://ondo.finance/#website","name":"Ondo Finance","url":"https://ondo.finance","publisher":{"@id":"https://ondo.finance/#organization"}}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ondo.finance"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://ondo.finance/blog"},{"@type":"ListItem","position":3,"name":"Introducing the Ondo Network: The Evolution of Ondo Infrastructure","item":"https://ondo.finance/blog/introducing-the-ondo-network"}]}
+```

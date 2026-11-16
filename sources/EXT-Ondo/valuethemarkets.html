@@ -1,0 +1,1774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+    window.APP_RELEASE = "6.0.0";
+</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','analytics_storage':'denied','functionality_storage':'granted','security_storage':'granted','wait_for_update':500});</script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push({"event":"pageView","environment":"production","pageType":"Generated Article","pageAuthor":"Patricia Miller","pagePath":"ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs","pageTitle":"Ondo Global Markets Reaches $1 Billion in Tokenized Stocks and ETFs","pageUrl":"\/cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs","pagePublishDate":"2026-05-13 04:51:20","pageReadTime":2,"clientCampaignCode":"","isClientCampaignPage":false,"isClientCampaignReportPage":false,"isPageProtected":false});
+                                        </script>
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+            var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+            j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TF7N8P4');
+    </script>
+<meta charset="utf-8">
+<meta name="application-name" content="Value The Markets">
+<meta name="csrf-token" content="">
+<script>
+    (function () {
+        var meta = document.querySelector('meta[name="csrf-token"]');
+
+        if (!meta || meta.content) {
+            return;
+        }
+
+        var nativeFetch = window.fetch;
+        var pending = null;
+
+        function ensureCsrfToken() {
+            if (meta.content) {
+                return Promise.resolve(meta.content);
+            }
+
+            if (!pending) {
+                pending = nativeFetch.call(window, "\/csrf-token", {
+                    credentials: 'same-origin',
+                    headers: { 'Accept': 'application/json' },
+                }).then(function (response) {
+                    return response.json();
+                }).then(function (data) {
+                    meta.content = data.token;
+
+                    document.querySelectorAll('input[name="_token"]').forEach(function (input) {
+                        input.value = data.token;
+                    });
+
+                    return data.token;
+                }).catch(function (error) {
+                    pending = null;
+
+                    throw error;
+                });
+            }
+
+            return pending;
+        }
+
+        window.ensureCsrfToken = ensureCsrfToken;
+
+        window.fetch = function (input, init) {
+            var isRequest = typeof Request !== 'undefined' && input instanceof Request;
+            var method = ((init && init.method) || (isRequest && input.method) || 'GET').toUpperCase();
+
+            if (method === 'GET' || method === 'HEAD' || meta.content) {
+                return nativeFetch.call(window, input, init);
+            }
+
+            var url = new URL(isRequest ? input.url : String(input), window.location.href);
+
+            if (url.origin !== window.location.origin) {
+                return nativeFetch.call(window, input, init);
+            }
+
+            return ensureCsrfToken().then(function (token) {
+                var options = Object.assign({}, init);
+                var headers = new Headers(options.headers || (isRequest ? input.headers : undefined));
+
+                headers.set('X-CSRF-TOKEN', token);
+                options.headers = headers;
+
+                return nativeFetch.call(window, input, options);
+            });
+        };
+
+        document.addEventListener('submit', function (event) {
+            var form = event.target;
+
+            if (!(form instanceof HTMLFormElement) || meta.content || form.method.toLowerCase() !== 'post') {
+                return;
+            }
+
+            event.preventDefault();
+
+            ensureCsrfToken().then(function () {
+                HTMLFormElement.prototype.submit.call(form);
+            });
+        }, true);
+    })();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.valuethemarkets.com/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.valuethemarkets.com/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.valuethemarkets.com/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.valuethemarkets.com/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.valuethemarkets.com/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.valuethemarkets.com/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.valuethemarkets.com/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.valuethemarkets.com/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.valuethemarkets.com/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://www.valuethemarkets.com/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.valuethemarkets.com/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://www.valuethemarkets.com/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.valuethemarkets.com/icons/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://www.valuethemarkets.com/icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="alternate" type="application/atom+xml" href="https://www.valuethemarkets.com/feed/prediction-markets" title="Prediction Markets">
+    <link rel="alternate" type="application/atom+xml" href="https://www.valuethemarkets.com/feed/top-picks" title="Top Picks">
+    <link rel="alternate" type="application/atom+xml" href="https://www.valuethemarkets.com/feed/analysis/investing-ideas" title="Investing Ideas">
+    <link rel="alternate" type="application/atom+xml" href="https://www.valuethemarkets.com/feed/analysis/investing-ideas/trending-stocks" title="Trending Stocks">
+    <link rel="alternate" type="application/atom+xml" href="https://www.valuethemarkets.com/feed/news/press-releases" title="Press Releases">
+    <link rel="alternate" type="application/atom+xml" href="https://www.valuethemarkets.com/feed/analysis/market-reports-guides/guides" title="Guides">
+    <link rel="alternate" type="application/atom+xml" href="https://www.valuethemarkets.com/feed/education" title="Education">
+    <link rel="alternate" type="application/atom+xml" href="https://www.valuethemarkets.com/feed/investing" title="Investing">
+    <link rel="alternate" type="application/atom+xml" href="https://www.valuethemarkets.com/feed/invest-in-stocks" title="Invest In Stocks">
+    <link rel="alternate" type="application/atom+xml" href="https://www.valuethemarkets.com/feed/news" title="News">
+    <link rel="alternate" type="application/atom+xml" href="https://www.valuethemarkets.com/feed/analysis" title="Latest Analysis">
+    <link rel="alternate" type="application/atom+xml" href="https://www.valuethemarkets.com/feed/cryptocurrency/analysis" title="Cryptocurrency &amp; Blockchain Analysis">
+    <link rel="alternate" type="application/atom+xml" href="https://www.valuethemarkets.com/feed/cryptocurrency/news" title="Cryptocurrency &amp; Blockchain News">
+    <link rel="alternate" type="application/atom+xml" href="https://www.valuethemarkets.com/feed/investing-data-story" title="Investing Data Stories">
+
+
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//fonts.bunny.net">
+<link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+
+<style>[x-cloak] {
+        display: none !important;
+    }</style>
+<link rel="preload" as="style" href="https://www.valuethemarkets.com/build/assets/app-DTEhcig3.css" /><link rel="stylesheet" href="https://www.valuethemarkets.com/build/assets/app-DTEhcig3.css" data-navigate-track="reload" /><!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.list-item][wire\:loading\.list-item], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #03b663;}[x-cloak] {display: none !important;}[wire\:cloak] {display: none !important;}dialog#livewire-error::backdrop {background-color: rgba(0, 0, 0, .6);}</style>
+<script src="https://www.valuethemarkets.com/cookie-consent/script?id=9aa331e1824c8a88136500aff8cd73f5" defer></script>
+            <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://www.valuethemarkets.com/cryptocurrency/news/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs">
+<link rel="sitemap" title="Sitemap" href="/sitemap" type="application/xml">
+<meta name="description" content="Ondo Global Markets achieved $1 billion in value locked in tokenized stocks, making it the fastest in onchain finance. Here’s what to know.">
+<meta name="author" content="Patricia Miller">
+<title>Ondo Global Markets Reaches $1 Billion in Tokenized Stocks and ETFs | Value The Markets</title>
+<meta name="image" content="https://www.valuethemarkets.com/images/og-default.png">
+<link href="https://www.valuethemarkets.com/favicon.ico" rel="shortcut icon">
+<meta property="og:title" content="Ondo Global Markets Reaches $1 Billion in Tokenized Stocks and ETFs | Value The Markets">
+<meta property="og:description" content="Ondo Global Markets achieved $1 billion in value locked in tokenized stocks, making it the fastest in onchain finance. Here’s what to know.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://www.valuethemarkets.com/images/og-default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://www.valuethemarkets.com/cryptocurrency/news/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs">
+<meta property="og:site_name" content="Value The Markets">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2026-05-13T04:51:20+00:00">
+<meta property="article:section" content="Cryptocurrency &amp; Blockchain News">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.valuethemarkets.com/images/og-default.png">
+<meta name="twitter:image:width" content="1200">
+<meta name="twitter:image:height" content="630">
+<meta name="twitter:title" content="Ondo Global Markets Reaches $1 Billion in Tokenized Stocks and ETFs | Value The Markets">
+<meta name="twitter:description" content="Ondo Global Markets achieved $1 billion in value locked in tokenized stocks, making it the fastest in onchain finance. Here’s what to know.">
+<meta name="twitter:site" content="@ValueTheMarkets">
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"https:\/\/www.valuethemarkets.com\/#website","url":"https:\/\/www.valuethemarkets.com","name":"Value The Markets","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.valuethemarkets.com\/search?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"NewsMediaOrganization","@id":"https:\/\/www.valuethemarkets.com\/#organization","name":"Value The Markets","url":"https:\/\/www.valuethemarkets.com","logo":{"@type":"ImageObject","url":"https:\/\/www.valuethemarkets.com\/images\/logo-dark.png","width":1200,"height":132},"contactPoint":{"@type":"ContactPoint","contactType":"customer support","email":"contact@valuethemarkets.com"},"sameAs":["https:\/\/twitter.com\/ValueTheMarkets","https:\/\/www.linkedin.com\/company\/valuethemarkets\/","https:\/\/www.youtube.com\/valuethemarkets\/"]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.valuethemarkets.com\/cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs"},"datePublished":"2026-05-13T04:51:20+00:00","headline":"Ondo Global Markets Reaches $1 Billion in Tokenized Stocks and ETFs","author":{"@type":"Person","name":"Patricia Miller","url":"https:\/\/www.valuethemarkets.com\/authors\/patricia-miller"},"description":"Ondo Global Markets achieved $1 billion in value locked in tokenized stocks, making it the fastest in onchain finance. Here\u2019s what to know.","image":"https:\/\/www.valuethemarkets.com\/images\/og-default.png","publisher":{"@type":"Organization","name":"Value The Markets","url":"https:\/\/www.valuethemarkets.com","logo":{"@type":"ImageObject","url":"https:\/\/www.valuethemarkets.com\/images\/logo-dark.png","width":1200,"height":132}}}</script>
+
+    </head>
+<body class="antialiased">
+
+    <header class="relative isolate bg-gray z-50"
+        x-data="{ mobileIsOpen: false, menu0IsOpen: false, mobile0IsOpen: false, menu1IsOpen: false, mobile1IsOpen: false, menu2IsOpen: false, mobile2IsOpen: false, menu3IsOpen: false, mobile3IsOpen: false, menu4IsOpen: false, mobile4IsOpen: false, menu5IsOpen: false, mobile5IsOpen: false, }">
+    <div class="max-w-(--breakpoint-2xl) mx-auto">
+        <nav class="mx-auto flex items-center justify-between py-2 px-4 lg:px-8" aria-label="Global">
+            <div class="flex">
+                <a href="https://www.valuethemarkets.com" class="-m-1.5 p-1.5">
+                    <span class="sr-only">Value The Markets</span>
+                    <div>
+    <svg width="250" height="60" viewBox="0 0 2203 241" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M141.686 16.249H195.233V19.8604C185.605 25.2754 175.377 46.0375 162.142 82.1428L104.385 240.107H95.9603L27.3753 54.7619C18.6527 30.9923 12.3332 21.0642 0 19.8604V16.249H103.182V19.8604C84.5288 21.0642 79.115 30.6903 84.8307 46.6374L124.237 156.761L151.914 80.3392C164.549 45.1357 162.142 25.2754 141.686 19.8604V16.249Z" fill="white"/>
+    <path d="M318.854 214.228C314.04 221.753 300.206 238.904 274.936 238.904C254.178 238.904 247.56 227.768 245.757 217.24C235.827 230.175 218.08 238.904 200.635 238.904C179.273 238.904 165.137 226.266 165.137 205.806C165.137 181.134 181.382 163.984 216.277 154.353L242.746 147.135V132.391C242.746 123.965 242.746 98.0898 215.975 98.0898C197.926 98.0898 183.785 110.124 175.964 123.965L169.951 121.557C179.877 90.8671 207.852 74.0182 241.543 74.0182C275.837 74.0182 296.293 94.4784 296.293 129.984V196.176C296.293 206.108 296.293 214.228 305.016 214.228C308.626 214.228 312.237 212.726 314.644 210.319L318.854 214.228ZM242.746 210.919V154.957L237.332 157.365C219.284 165.187 215.073 173.01 215.073 191.063C215.073 207.911 223.196 215.432 231.617 215.432C235.227 215.432 239.14 213.93 242.746 210.919Z" fill="white"/>
+    <path d="M320.344 235.292V231.681C332.677 231.681 333.583 221.451 333.583 202.194V41.5243C333.583 22.2679 328.467 16.8529 318.239 13.2416V9.63026L386.526 0H388.933V202.194C388.933 221.451 389.835 231.681 402.168 231.681V235.292H320.344Z" fill="white"/>
+    <path d="M573.322 194.972C573.322 214.228 578.438 222.655 588.666 226.266V229.877L527.298 238.904H524.891L519.176 213.93C504.737 228.07 484.881 238.904 463.825 238.904C435.247 238.904 423.513 222.051 423.513 191.964V111.931C423.513 92.6749 417.797 85.4522 407.569 81.8409V78.2295L476.46 74.6223H478.863V178.727C478.863 199.187 481.27 211.221 498.116 211.221C503.534 211.221 511.355 209.417 517.972 206.708V111.931C517.972 92.6749 512.256 85.4522 502.028 81.8409V78.2295L570.915 74.6223H573.322L573.322 194.972Z" fill="white"/>
+    <path d="M736.044 142.622H652.421C653.621 186.851 665.354 210.621 695.438 210.621C710.476 210.621 721.908 201.595 730.631 191.365L736.044 194.674C722.81 218.741 704.161 238.904 668.965 238.904C620.232 238.904 597.067 200.991 597.067 159.47C597.067 112.531 627.751 74.0182 676.484 74.0182C717.995 74.0182 738.451 101.097 736.044 142.622ZM652.421 133.595H690.322C693.031 99.8935 691.828 81.8408 675.28 81.8408C656.028 81.8408 652.421 107.116 652.421 133.595Z" fill="white"/>
+    <path d="M798.599 89.9653L776.038 197.681C773.635 208.213 773.032 219.647 781.754 219.647C790.779 219.647 808.53 203.398 822.666 180.229L827.48 183.24C810.031 215.734 785.365 238.904 766.112 238.904C750.168 238.904 746.26 222.655 750.772 200.689L774.537 89.9653H758.593L760.095 82.7426L764.607 80.9389C779.649 74.92 791.08 63.4861 806.123 38.2149H809.733L801.61 77.6296H852.146L845.227 89.9653H798.599Z" fill="white"/>
+    <path d="M983.894 192.866C968.55 221.753 951.705 238.904 937.569 238.904C923.126 238.904 922.527 225.062 926.737 207.01L944.186 129.38C948.996 109.826 952.007 92.9728 938.168 92.9728C912.299 92.9728 872.288 158.867 856.043 235.292H831.678L873.19 38.5129C877.102 19.5585 873.794 13.2417 863.868 10.8341L864.769 7.22277L903.274 6.10352e-05H905.681L871.387 163.082C892.744 110.426 922.225 74.0183 952.909 74.0183C977.575 74.0183 975.772 100.497 968.55 131.788L952.007 204.3C950.2 211.523 948.698 218.142 953.508 218.142C958.926 218.142 970.358 203.998 978.779 189.859L983.894 192.866Z" fill="white"/>
+    <path d="M1016.67 160.07C1015.16 167.893 1014.26 175.715 1014.26 183.84C1014.26 211.221 1024.19 222.353 1040.73 222.353C1058.78 222.353 1076.83 208.511 1093.68 187.753L1098.49 190.761C1076.53 224.16 1053.37 238.904 1029.9 238.904C1005.84 238.904 988.692 223.255 988.692 189.557C988.692 141.716 1022.69 74.0183 1082.25 74.0183C1104.81 74.0183 1115.03 83.3466 1115.03 97.188C1115.03 125.169 1076.23 142.018 1016.67 160.07ZM1018.77 151.044C1067.2 134.195 1092.47 120.052 1092.47 97.188C1092.47 87.2558 1088.26 81.8408 1077.43 81.8408C1054.57 81.8408 1029 113.433 1018.77 151.044Z" fill="white"/>
+    <path d="M1354.17 196.176C1355.38 218.443 1356.58 231.681 1377.04 231.681V235.292H1276.87V231.681C1297.32 231.681 1298.52 218.443 1297.32 196.176L1289.2 49.6488L1228.43 235.292H1221.21L1149.32 48.445L1143 166.089C1140.9 206.708 1151.72 230.477 1169.17 231.681V235.292H1109.01V231.681C1125.25 229.877 1130.67 206.406 1132.77 166.089L1138.79 51.1505C1139.99 29.7885 1129.76 22.2679 1117.13 19.8603V16.249H1198.35L1246.78 147.135L1289.8 16.249H1368.01V19.8603C1347.56 21.6639 1345.15 33.0978 1346.35 55.3657L1354.17 196.176Z" fill="white"/>
+    <path d="M1528.63 214.228C1523.82 221.753 1509.98 238.904 1484.71 238.904C1463.95 238.904 1457.33 227.768 1455.53 217.24C1445.6 230.175 1427.85 238.904 1410.41 238.904C1389.05 238.904 1374.91 226.266 1374.91 205.806C1374.91 181.134 1391.15 163.984 1426.05 154.353L1452.52 147.135V132.391C1452.52 123.965 1452.52 98.0898 1425.75 98.0898C1407.7 98.0898 1393.56 110.124 1385.74 123.965L1379.72 121.557C1389.65 90.8671 1417.62 74.0182 1451.32 74.0182C1485.61 74.0182 1506.06 94.4784 1506.06 129.984V196.176C1506.06 206.108 1506.06 214.228 1514.79 214.228C1518.4 214.228 1522.01 212.726 1524.42 210.319L1528.63 214.228ZM1452.52 210.919V154.957L1447.1 157.365C1429.05 165.187 1424.84 173.01 1424.84 191.063C1424.84 207.911 1432.97 215.432 1441.39 215.432C1445 215.432 1448.91 213.93 1452.52 210.919Z" fill="white"/>
+    <path d="M1655.86 76.4258L1645.33 123.365H1642.32C1633.6 111.931 1624.57 107.116 1614.35 107.116C1609.53 107.116 1604.12 108.32 1599.3 110.727V202.194C1599.3 221.451 1600.21 231.681 1612.54 231.681V235.292H1530.72V231.681C1543.05 231.681 1543.95 221.451 1543.95 202.194V118.55C1543.95 99.2936 1538.84 93.8786 1528.61 90.2673V86.656L1596.9 74.6222H1599.3V101.701C1612.54 83.6486 1626.68 74.0183 1643.23 74.0183C1647.14 74.0183 1651.35 74.9201 1655.86 76.4258Z" fill="white"/>
+    <path d="M1727.14 202.194C1727.14 221.451 1728.05 231.681 1740.38 231.681V235.292H1658.56V231.681C1670.89 231.681 1671.79 221.451 1671.79 202.194V41.5243C1671.79 22.2679 1666.68 16.8529 1656.45 13.2416V9.63026L1724.74 0H1727.14V202.194ZM1834.23 231.681V235.292C1823.71 236.496 1806.56 236.496 1798.74 236.496C1767.45 236.496 1762.94 224.458 1731.66 151.044L1755.12 126.675C1767.45 113.735 1774.07 103.807 1774.07 92.9727C1774.07 86.354 1770.46 81.8408 1762.94 81.2409V77.6296H1829.42V81.2409C1819.2 82.7426 1797.84 98.9916 1772.27 122.161C1811.37 201.595 1829.42 229.273 1834.23 231.681Z" fill="white"/>
+    <path d="M1963.57 142.622H1879.95C1881.15 186.851 1892.88 210.621 1922.96 210.621C1938.01 210.621 1949.43 201.595 1958.16 191.365L1963.57 194.674C1950.34 218.741 1931.69 238.904 1896.49 238.904C1847.76 238.904 1824.6 200.991 1824.6 159.47C1824.6 112.531 1855.28 74.0182 1904.01 74.0182C1945.53 74.0182 1965.98 101.097 1963.57 142.622ZM1879.95 133.595H1917.85C1920.56 99.8935 1919.35 81.8408 1902.81 81.8408C1883.56 81.8408 1879.95 107.116 1879.95 133.595Z" fill="white"/>
+    <path d="M2085.09 209.715C2070.65 226.564 2048.69 238.904 2028.23 238.904C2002.06 238.904 1986.42 226.866 1986.42 193.168V93.8786H1970.78V84.2484L1974.99 82.1428C2000.86 69.2031 2018.91 57.1694 2038.16 28.8867H2041.77V77.6296H2082.68L2076.97 93.8786H2041.77V191.964C2041.77 206.406 2048.69 213.024 2060.42 213.024C2067.64 213.024 2073.96 210.319 2080.57 204.904L2085.09 209.715Z" fill="white"/>
+    <path d="M2089.89 231.681L2087.18 183.538H2090.79C2104.03 207.609 2117.27 231.077 2142.53 231.077C2155.77 231.077 2166.6 224.16 2166.6 212.123C2166.6 198.281 2156.07 191.662 2136.52 181.432L2124.48 175.115C2113.66 169.399 2089.89 157.663 2089.89 126.373C2089.89 92.6748 2117.27 74.0182 2150.35 74.0182C2162.39 74.0182 2182.54 76.4258 2195.18 80.637V120.958H2191.57C2180.14 99.5955 2166.9 81.8407 2147.05 81.8407C2132.91 81.8407 2126.29 89.9653 2126.29 98.9916C2126.29 112.833 2138.32 119.754 2148.55 125.169L2160.58 131.486C2181.04 142.32 2203 152.852 2203 183.84C2203 218.141 2175.93 238.904 2135.61 238.904C2121.78 238.904 2101.92 236.496 2089.89 231.681Z" fill="white"/>
+</svg>
+</div>
+
+                </a>
+            </div>
+            <div class="flex justify-end lg:hidden">
+                <div class="flex">
+                    <div wire:key="lw-3760590309-0" wire:snapshot="{&quot;data&quot;:{&quot;query&quot;:&quot;&quot;},&quot;memo&quot;:{&quot;id&quot;:&quot;szRJDeMTQiruP8YUiphI&quot;,&quot;name&quot;:&quot;search-modal&quot;,&quot;path&quot;:&quot;cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:{&quot;lw-3468151381-0&quot;:[&quot;div&quot;,&quot;F2BGcT14cY4Ssk5ontE7&quot;],&quot;lw-3468151381-1-0&quot;:[&quot;div&quot;,&quot;uieoEl9SixJCwblEvsFB&quot;]},&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;,&quot;islands&quot;:[]},&quot;checksum&quot;:&quot;3e043571763a41428eccbcaf8fdbd96c6ec37bb0279894b09b489c656b9d71b0&quot;}" wire:effects="{&quot;partials&quot;:[],&quot;listeners&quot;:[&quot;full-search&quot;]}" wire:id="szRJDeMTQiruP8YUiphI" wire:name="search-modal" class="z-10 relative">
+    <div x-data="{ showModal: false }" @keydown.window.escape="showModal = false"
+         x-init="$watch('showModal', value => document.body.classList.toggle('overflow-hidden', value))">
+        <div class="relative mt-2 lg:flex items-center hidden">
+            <input type="text"
+                   @keydown.ctrl.k.prevent.document="showModal = true; $nextTick(() => $refs.input.focus());"
+                   @keydown.meta.k.prevent.document="showModal = true; $nextTick(() => $refs.input.focus());"
+                   @keyup.escape.window="showModal = false"
+                   @click="showModal = !showModal; $nextTick(() => $refs.input.focus());"
+                   class="h-10 w-full border border-gray-700 lg:rounded-md bg-gray-400/40 hover:bg-gray-800 ring-1 ring-gray-400 transition-all pl-5 pr-4 text-white placeholder:text-gray-300 sm:text-sm"
+                   placeholder="Search...">
+            <div class="absolute inset-y-0 right-0 flex py-1.5 pr-1.5">
+                <kbd
+                    class="inline-flex items-center rounded-sm border border-white bg-gray-600 px-1 font-sans text-xs text-white">⌘K</kbd>
+            </div>
+        </div>
+        <div class="relative mt-3 lg:hidden">
+            <!-- search button -->
+            <div class="absolute inset-y-0 right-0 flex items-center pr-3">
+                <button @click="showModal = true; $nextTick(() => $refs.input.focus());"
+                        aria-label="Search"
+                        type="button"
+                        class="h-10 w-10 flex items-center justify-center rounded-md ring-1 ring-gray-600 transition-all text-white  hover:text-gray-100 focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                    <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/>
+</svg>                </button>
+            </div>
+        </div>
+        <div x-cloak class="relative z-10" role="dialog" aria-modal="true">
+            <div
+                x-show="showModal"
+                x-transition:enter="ease-out duration-300"
+                x-transition:enter-start="opacity-0"
+                x-transition:enter-end="opacity-100"
+                x-transition:leave="ease-in duration-200"
+                x-transition:leave-start="opacity-100"
+                x-transition:leave-end="opacity-0"
+                x-on:click="showModal = false"
+                class="fixed inset-0  bg-current/50 transition-opacity"></div>
+
+            <div
+                x-show="showModal"
+                x-transition:enter="ease-out duration-300"
+                x-transition:enter-start="opacity-0 scale-95"
+                x-transition:enter-end="opacity-100 scale-100"
+                x-transition:leave="ease-in duration-200"
+                x-transition:leave-start="opacity-100 scale-100"
+                x-transition:leave-end="opacity-0 scale-95"
+                class="fixed mx-auto max-h-min max-w-5xl inset-0 z-10 p-4 sm:p-6 md:p-20">
+                <div
+                    class="mx-auto max-h-min max-w-5xl transform divide-y divide-gray-100 overflow-hidden rounded-xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 transition-all">
+                    <div class="relative">
+                        <div class="flex items-center justify-between bg-gray-50 px-4 py-2.5 text-xs text-gray-700">
+                            <div class="flex space-x-6 order-1">
+                                <p>
+                                    Press <kbd
+                                        class="h-5 w-5 items-center justify-center rounded-sm border border-gray-400 bg-white font-semibold text-gray-900 p-1">esc</kbd>
+                                    to close search
+                                </p>
+                            </div>
+                            <div class="order-2 text-red-500 hover:text-red-700">
+                                <button @click="showModal = false;">
+                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+</svg>                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <svg class="pointer-events-none absolute left-4 top-3.5 h-5 w-5 text-gray-400"
+                             viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                  d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                                  clip-rule="evenodd"/>
+                        </svg>
+                        <form action="/search" method="GET">
+                            <input
+                                name="q"
+                                x-ref="input"
+                                type="text"
+                                wire:model.live.debounce.400ms="query"
+                                class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-gray-800 placeholder:text-gray-400 focus:ring-0 sm:text-sm"
+                                placeholder="Search..." role="combobox" aria-expanded="false" aria-controls="options">
+                        </form>
+                    </div>
+
+                    <div class="flex transform-gpu divide-x divide-gray-100">
+                        <div class="flex h-auto w-full sm:w-2/3 flex-none flex-col overflow-y-auto px-6 py-4 max-h-96 bg-gray-50">
+                            <h2 class="text-lg tracking-tight text-gray-900 uppercase font-bold">Articles</h2>
+                            <div wire:key="lw-3468151381-0" wire:snapshot="{&quot;data&quot;:{&quot;search&quot;:&quot;&quot;,&quot;limit&quot;:5,&quot;paginators&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;F2BGcT14cY4Ssk5ontE7&quot;,&quot;name&quot;:&quot;search-results&quot;,&quot;path&quot;:&quot;cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;lazyLoaded&quot;:false,&quot;lazyIsolated&quot;:true,&quot;props&quot;:[&quot;search&quot;],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;,&quot;islands&quot;:[]},&quot;checksum&quot;:&quot;0d218b6b8b75e09fa8bb21e188dd6976bed1901c55966845eb1381082db2d92a&quot;}" wire:effects="{&quot;partials&quot;:[]}" wire:id="F2BGcT14cY4Ssk5ontE7" wire:name="search-results" x-intersect="$wire.__lazyLoad(&#039;eyJkYXRhIjp7ImZvck1vdW50IjpbeyJzZWFyY2giOiIiLCJsaW1pdCI6IjUifSx7InMiOiJhcnIifV19LCJtZW1vIjp7ImlkIjoiVGJFQUpmUWlzYlpoeUtqa1lJTXoiLCJuYW1lIjoiX19tb3VudFBhcmFtc0NvbnRhaW5lciIsInBhdGgiOiJjcnlwdG9jdXJyZW5jeVwvbmV3c1wvb25kby1nbG9iYWwtbWFya2V0cy1yZWFjaGVzLTEtYmlsbGlvbi1pbi10b2tlbml6ZWQtc3RvY2tzLWFuZC1ldGZzIiwibWV0aG9kIjoiR0VUIiwicmVsZWFzZSI6ImEtYS1hIn0sImNoZWNrc3VtIjoiMjFlY2JiZDdkOTEyZWUyYzljOGM2MGMzOWJjMDMyOTczY2Q3ZmZmMGMxNjFmZDY0MzIzZDg0YTNhNTc5ODA4YiJ9&#039;)">
+    <!--[if BLOCK]><![endif]-->        <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+    <!--[if ENDBLOCK]><![endif]--></div>
+                        </div>
+
+                        <div
+                            class="hidden sm:flex flex-col max-h-96 min-w-0 scroll-py-4 overflow-y-auto px-6 py-4 sm:h-auto bg-white">
+                            <h2 class="text-lg tracking-tight text-gray-900 uppercase font-bold">Tickers</h2>
+                            <div wire:key="lw-3468151381-1-0" wire:snapshot="{&quot;data&quot;:{&quot;search&quot;:&quot;&quot;,&quot;tickerValues&quot;:null,&quot;displayLimit&quot;:10,&quot;showAll&quot;:false},&quot;memo&quot;:{&quot;id&quot;:&quot;uieoEl9SixJCwblEvsFB&quot;,&quot;name&quot;:&quot;search-tickers&quot;,&quot;path&quot;:&quot;cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;lazyLoaded&quot;:false,&quot;lazyIsolated&quot;:true,&quot;props&quot;:[&quot;search&quot;],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;,&quot;islands&quot;:[]},&quot;checksum&quot;:&quot;8e3fb24ac6e3da7e8e8eedc9c3e6ec7c6fb22e695a7c01c19896f42884ad0eed&quot;}" wire:effects="{&quot;partials&quot;:[]}" wire:id="uieoEl9SixJCwblEvsFB" wire:name="search-tickers" x-intersect="$wire.__lazyLoad(&#039;eyJkYXRhIjp7ImZvck1vdW50IjpbeyJzZWFyY2giOiIifSx7InMiOiJhcnIifV19LCJtZW1vIjp7ImlkIjoiZVlIZENzSld3NjZBSGRZWlhXb3giLCJuYW1lIjoiX19tb3VudFBhcmFtc0NvbnRhaW5lciIsInBhdGgiOiJjcnlwdG9jdXJyZW5jeVwvbmV3c1wvb25kby1nbG9iYWwtbWFya2V0cy1yZWFjaGVzLTEtYmlsbGlvbi1pbi10b2tlbml6ZWQtc3RvY2tzLWFuZC1ldGZzIiwibWV0aG9kIjoiR0VUIiwicmVsZWFzZSI6ImEtYS1hIn0sImNoZWNrc3VtIjoiNDFiZTcwYzhkMTMxM2EzMGI1NDRkMDIxNzBiM2U4ZjdmZTZkN2IxNWU3NzNlNjAzN2IwMGQ3YzRiYWQ2YTc3NSJ9&#039;)">
+    <!--[if BLOCK]><![endif]-->        <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+    <!--[if ENDBLOCK]><![endif]--></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+                <div class="flex lg:hidden">
+                    <button x-on:click="mobileIsOpen = !mobileIsOpen"
+                            type="button"
+                            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                             aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="hidden lg:flex lg:gap-x-12">
+                <a class="text-sm font-semibold leading-6 text-white uppercase text-nowrap" href="/news" >
+                <span class="flex justify-between">
+                    News
+                </span>
+            </a>
+                                            <a class="text-sm font-semibold leading-6 text-white uppercase text-nowrap" href="/analysis" >
+                <span class="flex justify-between">
+                    Latest Analysis
+                </span>
+            </a>
+                                            <a class="text-sm font-semibold leading-6 text-white uppercase text-nowrap" href="/analysis/investing-ideas" >
+                <span class="flex justify-between">
+                    Investing Ideas
+                </span>
+            </a>
+                                            <a class="text-sm font-semibold leading-6 text-white uppercase text-nowrap" href="/investing-data-story/" >
+                <span class="flex justify-between">
+                    Data Stories
+                </span>
+            </a>
+                                            <a class="text-sm font-semibold leading-6 text-white uppercase text-nowrap" href="/cryptocurrency/news/" >
+                <span class="flex justify-between">
+                    Crypto
+                </span>
+            </a>
+                                            <div>
+                <button x-on:click="menu5IsOpen = !menu5IsOpen"
+                        type="button"
+                        class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white uppercase"
+                        aria-expanded="false">
+                    Education
+                    <svg class="h-5 w-5 flex-none text-white" viewBox="0 0 20 20" fill="currentColor"
+                         aria-hidden="true">
+                        <path fill-rule="evenodd"
+                              d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                              clip-rule="evenodd"/>
+                    </svg>
+                </button>
+                <div
+                    @click.away="menu5IsOpen = false"
+                    x-cloak
+                    x-show="menu5IsOpen"
+                    x-transition:enter="transition ease-out duration-200"
+                    x-transition:enter-start="opacity-0 -translate-y-1"
+                    x-transition:enter-end="opacity-100 translate-y-0"
+                    x-transition:leave="transition ease-in duration-150"
+                    x-transition:leave-start="opacity-100 translate-y-0"
+                    x-transition:leave-end="opacity-0 -translate-y-1"
+                    class="absolute inset-x-0 top-0 -z-10 bg-gray pt-14 shadow-lg ring-1 ring-gray-900/5">
+                    <div class="mx-auto grid max-w-7xl grid-cols-3 gap-x-3 px-6 py-10 lg:px-8 xl:gap-x-8">
+                                                    <div class="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-500">
+                                                                    <div
+                                        class="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-600 group-hover:bg-gray-300 group-hover:border group-hover:border-gray-100">
+                                        <svg class="h-6 w-6 text-white group-hover:text-gray" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"/>
+</svg>                                    </div>
+                                
+                                <a class="mt-6 block font-semibold text-white" href="https://www.valuethemarkets.com/education" >
+                                    Education Articles
+                                    <span class="absolute inset-0"></span>
+                                </a>
+                                                                    <p class="mt-1 text-white">Our education section provides in-depth guides and articles across a range of topics.</p>
+                                                            </div>
+                                                    <div class="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-500">
+                                                                    <div
+                                        class="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-600 group-hover:bg-gray-300 group-hover:border group-hover:border-gray-100">
+                                        <svg class="h-6 w-6 text-white group-hover:text-gray" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/>
+</svg>                                    </div>
+                                
+                                <a class="mt-6 block font-semibold text-white" href="https://www.valuethemarkets.com/education/glossary" >
+                                    Investing Glossary
+                                    <span class="absolute inset-0"></span>
+                                </a>
+                                                                    <p class="mt-1 text-white">Our glossary is a great place to start if you’re new to the world of investing.</p>
+                                                            </div>
+                                            </div>
+                </div>
+            </div>
+                                        </div>
+            <div class="hidden lg:flex lg:justify-end">
+                <div class="w-full max-w-lg lg:max-w-xs">
+                    <div wire:key="lw-3760590309-1-1" wire:snapshot="{&quot;data&quot;:{&quot;query&quot;:&quot;&quot;},&quot;memo&quot;:{&quot;id&quot;:&quot;apZVhUD9yyC78WyxTqcX&quot;,&quot;name&quot;:&quot;search-modal&quot;,&quot;path&quot;:&quot;cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:{&quot;lw-3468151381-0-1&quot;:[&quot;div&quot;,&quot;Bv361P3amjTlqS4n81tQ&quot;],&quot;lw-3468151381-1-2&quot;:[&quot;div&quot;,&quot;flOcFGbtZd6N1TdHoJHd&quot;]},&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;,&quot;islands&quot;:[]},&quot;checksum&quot;:&quot;18e640c9057c70cdf14023601e88f8093b266bbdf08e56424452e460475fffc9&quot;}" wire:effects="{&quot;partials&quot;:[],&quot;listeners&quot;:[&quot;full-search&quot;]}" wire:id="apZVhUD9yyC78WyxTqcX" wire:name="search-modal" class="z-10 relative">
+    <div x-data="{ showModal: false }" @keydown.window.escape="showModal = false"
+         x-init="$watch('showModal', value => document.body.classList.toggle('overflow-hidden', value))">
+        <div class="relative mt-2 lg:flex items-center hidden">
+            <input type="text"
+                   @keydown.ctrl.k.prevent.document="showModal = true; $nextTick(() => $refs.input.focus());"
+                   @keydown.meta.k.prevent.document="showModal = true; $nextTick(() => $refs.input.focus());"
+                   @keyup.escape.window="showModal = false"
+                   @click="showModal = !showModal; $nextTick(() => $refs.input.focus());"
+                   class="h-10 w-full border border-gray-700 lg:rounded-md bg-gray-400/40 hover:bg-gray-800 ring-1 ring-gray-400 transition-all pl-5 pr-4 text-white placeholder:text-gray-300 sm:text-sm"
+                   placeholder="Search...">
+            <div class="absolute inset-y-0 right-0 flex py-1.5 pr-1.5">
+                <kbd
+                    class="inline-flex items-center rounded-sm border border-white bg-gray-600 px-1 font-sans text-xs text-white">⌘K</kbd>
+            </div>
+        </div>
+        <div class="relative mt-3 lg:hidden">
+            <!-- search button -->
+            <div class="absolute inset-y-0 right-0 flex items-center pr-3">
+                <button @click="showModal = true; $nextTick(() => $refs.input.focus());"
+                        aria-label="Search"
+                        type="button"
+                        class="h-10 w-10 flex items-center justify-center rounded-md ring-1 ring-gray-600 transition-all text-white  hover:text-gray-100 focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                    <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/>
+</svg>                </button>
+            </div>
+        </div>
+        <div x-cloak class="relative z-10" role="dialog" aria-modal="true">
+            <div
+                x-show="showModal"
+                x-transition:enter="ease-out duration-300"
+                x-transition:enter-start="opacity-0"
+                x-transition:enter-end="opacity-100"
+                x-transition:leave="ease-in duration-200"
+                x-transition:leave-start="opacity-100"
+                x-transition:leave-end="opacity-0"
+                x-on:click="showModal = false"
+                class="fixed inset-0  bg-current/50 transition-opacity"></div>
+
+            <div
+                x-show="showModal"
+                x-transition:enter="ease-out duration-300"
+                x-transition:enter-start="opacity-0 scale-95"
+                x-transition:enter-end="opacity-100 scale-100"
+                x-transition:leave="ease-in duration-200"
+                x-transition:leave-start="opacity-100 scale-100"
+                x-transition:leave-end="opacity-0 scale-95"
+                class="fixed mx-auto max-h-min max-w-5xl inset-0 z-10 p-4 sm:p-6 md:p-20">
+                <div
+                    class="mx-auto max-h-min max-w-5xl transform divide-y divide-gray-100 overflow-hidden rounded-xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 transition-all">
+                    <div class="relative">
+                        <div class="flex items-center justify-between bg-gray-50 px-4 py-2.5 text-xs text-gray-700">
+                            <div class="flex space-x-6 order-1">
+                                <p>
+                                    Press <kbd
+                                        class="h-5 w-5 items-center justify-center rounded-sm border border-gray-400 bg-white font-semibold text-gray-900 p-1">esc</kbd>
+                                    to close search
+                                </p>
+                            </div>
+                            <div class="order-2 text-red-500 hover:text-red-700">
+                                <button @click="showModal = false;">
+                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+</svg>                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <svg class="pointer-events-none absolute left-4 top-3.5 h-5 w-5 text-gray-400"
+                             viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                  d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                                  clip-rule="evenodd"/>
+                        </svg>
+                        <form action="/search" method="GET">
+                            <input
+                                name="q"
+                                x-ref="input"
+                                type="text"
+                                wire:model.live.debounce.400ms="query"
+                                class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-gray-800 placeholder:text-gray-400 focus:ring-0 sm:text-sm"
+                                placeholder="Search..." role="combobox" aria-expanded="false" aria-controls="options">
+                        </form>
+                    </div>
+
+                    <div class="flex transform-gpu divide-x divide-gray-100">
+                        <div class="flex h-auto w-full sm:w-2/3 flex-none flex-col overflow-y-auto px-6 py-4 max-h-96 bg-gray-50">
+                            <h2 class="text-lg tracking-tight text-gray-900 uppercase font-bold">Articles</h2>
+                            <div wire:key="lw-3468151381-0-1" wire:snapshot="{&quot;data&quot;:{&quot;search&quot;:&quot;&quot;,&quot;limit&quot;:5,&quot;paginators&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;Bv361P3amjTlqS4n81tQ&quot;,&quot;name&quot;:&quot;search-results&quot;,&quot;path&quot;:&quot;cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;lazyLoaded&quot;:false,&quot;lazyIsolated&quot;:true,&quot;props&quot;:[&quot;search&quot;],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;,&quot;islands&quot;:[]},&quot;checksum&quot;:&quot;b3290af6133b00fdac4be70a26f6c44f1b7b9ef8fe94d24cbb8abecfe05e0603&quot;}" wire:effects="{&quot;partials&quot;:[]}" wire:id="Bv361P3amjTlqS4n81tQ" wire:name="search-results" x-intersect="$wire.__lazyLoad(&#039;eyJkYXRhIjp7ImZvck1vdW50IjpbeyJzZWFyY2giOiIiLCJsaW1pdCI6IjUifSx7InMiOiJhcnIifV19LCJtZW1vIjp7ImlkIjoiOUs3M0ROUE84VkhzU0MxTDRIcWoiLCJuYW1lIjoiX19tb3VudFBhcmFtc0NvbnRhaW5lciIsInBhdGgiOiJjcnlwdG9jdXJyZW5jeVwvbmV3c1wvb25kby1nbG9iYWwtbWFya2V0cy1yZWFjaGVzLTEtYmlsbGlvbi1pbi10b2tlbml6ZWQtc3RvY2tzLWFuZC1ldGZzIiwibWV0aG9kIjoiR0VUIiwicmVsZWFzZSI6ImEtYS1hIn0sImNoZWNrc3VtIjoiNmRjYWU1ZTJlMjgxMWMyZjdiOTcwYWI1NWIxOGY4ZmVlY2Q4NjU2ZTgyOTRjMTU1NTMwNTExODRmNjYzZDE2YiJ9&#039;)">
+    <!--[if BLOCK]><![endif]-->        <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+    <!--[if ENDBLOCK]><![endif]--></div>
+                        </div>
+
+                        <div
+                            class="hidden sm:flex flex-col max-h-96 min-w-0 scroll-py-4 overflow-y-auto px-6 py-4 sm:h-auto bg-white">
+                            <h2 class="text-lg tracking-tight text-gray-900 uppercase font-bold">Tickers</h2>
+                            <div wire:key="lw-3468151381-1-2" wire:snapshot="{&quot;data&quot;:{&quot;search&quot;:&quot;&quot;,&quot;tickerValues&quot;:null,&quot;displayLimit&quot;:10,&quot;showAll&quot;:false},&quot;memo&quot;:{&quot;id&quot;:&quot;flOcFGbtZd6N1TdHoJHd&quot;,&quot;name&quot;:&quot;search-tickers&quot;,&quot;path&quot;:&quot;cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;lazyLoaded&quot;:false,&quot;lazyIsolated&quot;:true,&quot;props&quot;:[&quot;search&quot;],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;,&quot;islands&quot;:[]},&quot;checksum&quot;:&quot;5e07a74fb6d710d6413d084562bba284f661b220c968960013cd23381f9385a3&quot;}" wire:effects="{&quot;partials&quot;:[]}" wire:id="flOcFGbtZd6N1TdHoJHd" wire:name="search-tickers" x-intersect="$wire.__lazyLoad(&#039;eyJkYXRhIjp7ImZvck1vdW50IjpbeyJzZWFyY2giOiIifSx7InMiOiJhcnIifV19LCJtZW1vIjp7ImlkIjoicTg4dnp1Z2Fyc1JXc3huU2ZteWQiLCJuYW1lIjoiX19tb3VudFBhcmFtc0NvbnRhaW5lciIsInBhdGgiOiJjcnlwdG9jdXJyZW5jeVwvbmV3c1wvb25kby1nbG9iYWwtbWFya2V0cy1yZWFjaGVzLTEtYmlsbGlvbi1pbi10b2tlbml6ZWQtc3RvY2tzLWFuZC1ldGZzIiwibWV0aG9kIjoiR0VUIiwicmVsZWFzZSI6ImEtYS1hIn0sImNoZWNrc3VtIjoiMWZmYjZhOTVlM2YxMGVhN2RjYjMxYjRiNzA1OTZjMGRlZjhhYThhNjdjYWZjMWJiNjJlZjViZmUyNjgzYzk3NyJ9&#039;)">
+    <!--[if BLOCK]><![endif]-->        <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+    <!--[if ENDBLOCK]><![endif]--></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </nav>
+        <div x-cloak class="lg:hidden" role="dialog" aria-modal="true" x-show="mobileIsOpen">
+            <div class="fixed inset-0 z-10 opacity-75 bg-black"></div>
+            <div
+                class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white p-2 px-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <div class="flex items-center justify-between">
+                    <a href="https://www.valuethemarkets.com" class="-m-1.5 p-1.5">
+                        <span class="sr-only">Value The Markets</span>
+                        <svg width="250" height="60"  viewBox="0 0 2203 241" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M141.686 16.249H195.233V19.8604C185.605 25.2754 175.377 46.0375 162.142 82.1428L104.385 240.107H95.9603L27.3753 54.7619C18.6527 30.9923 12.3332 21.0642 0 19.8604V16.249H103.182V19.8604C84.5288 21.0642 79.115 30.6903 84.8307 46.6374L124.237 156.761L151.914 80.3392C164.549 45.1357 162.142 25.2754 141.686 19.8604V16.249Z" fill="#1A1A1A"/>
+    <path d="M318.854 214.228C314.04 221.753 300.206 238.904 274.936 238.904C254.178 238.904 247.56 227.768 245.757 217.24C235.827 230.175 218.08 238.904 200.635 238.904C179.273 238.904 165.137 226.266 165.137 205.806C165.137 181.134 181.382 163.984 216.277 154.353L242.746 147.135V132.391C242.746 123.965 242.746 98.0898 215.975 98.0898C197.926 98.0898 183.785 110.124 175.964 123.965L169.951 121.557C179.877 90.8671 207.852 74.0182 241.543 74.0182C275.837 74.0182 296.293 94.4784 296.293 129.984V196.176C296.293 206.108 296.293 214.228 305.016 214.228C308.626 214.228 312.237 212.726 314.644 210.319L318.854 214.228ZM242.746 210.919V154.957L237.332 157.365C219.284 165.187 215.073 173.01 215.073 191.063C215.073 207.911 223.196 215.432 231.617 215.432C235.227 215.432 239.14 213.93 242.746 210.919Z" fill="#1A1A1A"/>
+    <path d="M320.344 235.292V231.681C332.677 231.681 333.583 221.451 333.583 202.194V41.5243C333.583 22.2679 328.467 16.8529 318.239 13.2416V9.63026L386.526 0H388.933V202.194C388.933 221.451 389.835 231.681 402.168 231.681V235.292H320.344Z" fill="#1A1A1A"/>
+    <path d="M573.322 194.972C573.322 214.228 578.438 222.655 588.666 226.266V229.877L527.298 238.904H524.891L519.176 213.93C504.737 228.07 484.881 238.904 463.825 238.904C435.247 238.904 423.513 222.051 423.513 191.964V111.931C423.513 92.6749 417.797 85.4522 407.569 81.8409V78.2295L476.46 74.6223H478.863V178.727C478.863 199.187 481.27 211.221 498.116 211.221C503.534 211.221 511.355 209.417 517.972 206.708V111.931C517.972 92.6749 512.256 85.4522 502.028 81.8409V78.2295L570.915 74.6223H573.322L573.322 194.972Z" fill="#1A1A1A"/>
+    <path d="M736.044 142.622H652.421C653.621 186.851 665.354 210.621 695.438 210.621C710.476 210.621 721.908 201.595 730.631 191.365L736.044 194.674C722.81 218.741 704.161 238.904 668.965 238.904C620.232 238.904 597.067 200.991 597.067 159.47C597.067 112.531 627.751 74.0182 676.484 74.0182C717.995 74.0182 738.451 101.097 736.044 142.622ZM652.421 133.595H690.322C693.031 99.8935 691.828 81.8408 675.28 81.8408C656.028 81.8408 652.421 107.116 652.421 133.595Z" fill="#1A1A1A"/>
+    <path d="M798.599 89.9653L776.038 197.681C773.635 208.213 773.032 219.647 781.754 219.647C790.779 219.647 808.53 203.398 822.666 180.229L827.48 183.24C810.031 215.734 785.365 238.904 766.112 238.904C750.168 238.904 746.26 222.655 750.772 200.689L774.537 89.9653H758.593L760.095 82.7426L764.607 80.9389C779.649 74.92 791.08 63.4861 806.123 38.2149H809.733L801.61 77.6296H852.146L845.227 89.9653H798.599Z" fill="#1A1A1A"/>
+    <path d="M983.894 192.866C968.55 221.753 951.705 238.904 937.569 238.904C923.126 238.904 922.527 225.062 926.737 207.01L944.186 129.38C948.996 109.826 952.007 92.9728 938.168 92.9728C912.299 92.9728 872.288 158.867 856.043 235.292H831.678L873.19 38.5129C877.102 19.5585 873.794 13.2417 863.868 10.8341L864.769 7.22277L903.274 6.10352e-05H905.681L871.387 163.082C892.744 110.426 922.225 74.0183 952.909 74.0183C977.575 74.0183 975.772 100.497 968.55 131.788L952.007 204.3C950.2 211.523 948.698 218.142 953.508 218.142C958.926 218.142 970.358 203.998 978.779 189.859L983.894 192.866Z" fill="#1A1A1A"/>
+    <path d="M1016.67 160.07C1015.16 167.893 1014.26 175.715 1014.26 183.84C1014.26 211.221 1024.19 222.353 1040.73 222.353C1058.78 222.353 1076.83 208.511 1093.68 187.753L1098.49 190.761C1076.53 224.16 1053.37 238.904 1029.9 238.904C1005.84 238.904 988.692 223.255 988.692 189.557C988.692 141.716 1022.69 74.0183 1082.25 74.0183C1104.81 74.0183 1115.03 83.3466 1115.03 97.188C1115.03 125.169 1076.23 142.018 1016.67 160.07ZM1018.77 151.044C1067.2 134.195 1092.47 120.052 1092.47 97.188C1092.47 87.2558 1088.26 81.8408 1077.43 81.8408C1054.57 81.8408 1029 113.433 1018.77 151.044Z" fill="#1A1A1A"/>
+    <path d="M1354.17 196.176C1355.38 218.443 1356.58 231.681 1377.04 231.681V235.292H1276.87V231.681C1297.32 231.681 1298.52 218.443 1297.32 196.176L1289.2 49.6488L1228.43 235.292H1221.21L1149.32 48.445L1143 166.089C1140.9 206.708 1151.72 230.477 1169.17 231.681V235.292H1109.01V231.681C1125.25 229.877 1130.67 206.406 1132.77 166.089L1138.79 51.1505C1139.99 29.7885 1129.76 22.2679 1117.13 19.8603V16.249H1198.35L1246.78 147.135L1289.8 16.249H1368.01V19.8603C1347.56 21.6639 1345.15 33.0978 1346.35 55.3657L1354.17 196.176Z" fill="#1A1A1A"/>
+    <path d="M1528.63 214.228C1523.82 221.753 1509.98 238.904 1484.71 238.904C1463.95 238.904 1457.33 227.768 1455.53 217.24C1445.6 230.175 1427.85 238.904 1410.41 238.904C1389.05 238.904 1374.91 226.266 1374.91 205.806C1374.91 181.134 1391.15 163.984 1426.05 154.353L1452.52 147.135V132.391C1452.52 123.965 1452.52 98.0898 1425.75 98.0898C1407.7 98.0898 1393.56 110.124 1385.74 123.965L1379.72 121.557C1389.65 90.8671 1417.62 74.0182 1451.32 74.0182C1485.61 74.0182 1506.06 94.4784 1506.06 129.984V196.176C1506.06 206.108 1506.06 214.228 1514.79 214.228C1518.4 214.228 1522.01 212.726 1524.42 210.319L1528.63 214.228ZM1452.52 210.919V154.957L1447.1 157.365C1429.05 165.187 1424.84 173.01 1424.84 191.063C1424.84 207.911 1432.97 215.432 1441.39 215.432C1445 215.432 1448.91 213.93 1452.52 210.919Z" fill="#1A1A1A"/>
+    <path d="M1655.86 76.4258L1645.33 123.365H1642.32C1633.6 111.931 1624.57 107.116 1614.35 107.116C1609.53 107.116 1604.12 108.32 1599.3 110.727V202.194C1599.3 221.451 1600.21 231.681 1612.54 231.681V235.292H1530.72V231.681C1543.05 231.681 1543.95 221.451 1543.95 202.194V118.55C1543.95 99.2936 1538.84 93.8786 1528.61 90.2673V86.656L1596.9 74.6222H1599.3V101.701C1612.54 83.6486 1626.68 74.0183 1643.23 74.0183C1647.14 74.0183 1651.35 74.9201 1655.86 76.4258Z" fill="#1A1A1A"/>
+    <path d="M1727.14 202.194C1727.14 221.451 1728.05 231.681 1740.38 231.681V235.292H1658.56V231.681C1670.89 231.681 1671.79 221.451 1671.79 202.194V41.5243C1671.79 22.2679 1666.68 16.8529 1656.45 13.2416V9.63026L1724.74 0H1727.14V202.194ZM1834.23 231.681V235.292C1823.71 236.496 1806.56 236.496 1798.74 236.496C1767.45 236.496 1762.94 224.458 1731.66 151.044L1755.12 126.675C1767.45 113.735 1774.07 103.807 1774.07 92.9727C1774.07 86.354 1770.46 81.8408 1762.94 81.2409V77.6296H1829.42V81.2409C1819.2 82.7426 1797.84 98.9916 1772.27 122.161C1811.37 201.595 1829.42 229.273 1834.23 231.681Z" fill="#1A1A1A"/>
+    <path d="M1963.57 142.622H1879.95C1881.15 186.851 1892.88 210.621 1922.96 210.621C1938.01 210.621 1949.43 201.595 1958.16 191.365L1963.57 194.674C1950.34 218.741 1931.69 238.904 1896.49 238.904C1847.76 238.904 1824.6 200.991 1824.6 159.47C1824.6 112.531 1855.28 74.0182 1904.01 74.0182C1945.53 74.0182 1965.98 101.097 1963.57 142.622ZM1879.95 133.595H1917.85C1920.56 99.8935 1919.35 81.8408 1902.81 81.8408C1883.56 81.8408 1879.95 107.116 1879.95 133.595Z" fill="#1A1A1A"/>
+    <path d="M2085.09 209.715C2070.65 226.564 2048.69 238.904 2028.23 238.904C2002.06 238.904 1986.42 226.866 1986.42 193.168V93.8786H1970.78V84.2484L1974.99 82.1428C2000.86 69.2031 2018.91 57.1694 2038.16 28.8867H2041.77V77.6296H2082.68L2076.97 93.8786H2041.77V191.964C2041.77 206.406 2048.69 213.024 2060.42 213.024C2067.64 213.024 2073.96 210.319 2080.57 204.904L2085.09 209.715Z" fill="#1A1A1A"/>
+    <path d="M2089.89 231.681L2087.18 183.538H2090.79C2104.03 207.609 2117.27 231.077 2142.53 231.077C2155.77 231.077 2166.6 224.16 2166.6 212.123C2166.6 198.281 2156.07 191.662 2136.52 181.432L2124.48 175.115C2113.66 169.399 2089.89 157.663 2089.89 126.373C2089.89 92.6748 2117.27 74.0182 2150.35 74.0182C2162.39 74.0182 2182.54 76.4258 2195.18 80.637V120.958H2191.57C2180.14 99.5955 2166.9 81.8407 2147.05 81.8407C2132.91 81.8407 2126.29 89.9653 2126.29 98.9916C2126.29 112.833 2138.32 119.754 2148.55 125.169L2160.58 131.486C2181.04 142.32 2203 152.852 2203 183.84C2203 218.141 2175.93 238.904 2135.61 238.904C2121.78 238.904 2101.92 236.496 2089.89 231.681Z" fill="#1A1A1A"/>
+</svg>
+                    </a>
+                    <button x-on:click="mobileIsOpen = !mobileIsOpen" type="button"
+                            class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                        <span class="sr-only">Close menu</span>
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                             aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="mt-6 flow-root">
+                    <div class="-my-6 divide-y divide-gray-500/10">
+                        <div class="space-y-2 py-6">
+                            <a class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="/news"
+               >
+                <span class="flex justify-between">
+                    News
+                </span>
+            </a>
+                                        <a class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="/analysis"
+               >
+                <span class="flex justify-between">
+                    Latest Analysis
+                </span>
+            </a>
+                                        <a class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="/analysis/investing-ideas"
+               >
+                <span class="flex justify-between">
+                    Investing Ideas
+                </span>
+            </a>
+                                        <a class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="/investing-data-story/"
+               >
+                <span class="flex justify-between">
+                    Data Stories
+                </span>
+            </a>
+                                        <a class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="/cryptocurrency/news/"
+               >
+                <span class="flex justify-between">
+                    Crypto
+                </span>
+            </a>
+                                    <div class="-mx-3">
+            <button x-on:click="mobile5IsOpen = !mobile5IsOpen" type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50" aria-controls="disclosure-1" aria-expanded="false">
+                Education
+                <svg
+                    :class="mobile5IsOpen ? 'rotate-180' : ''"
+                    class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                </svg>
+            </button>
+            <div class="mt-2 space-y-2" id="disclosure-2" x-show="mobile5IsOpen">
+                                    <a class="mt-6 ml-6 block font-semibold text-gray-900" href="https://www.valuethemarkets.com/education" >
+                        <span class="flex justify-between">
+                            Education Articles
+                        </span>
+                    </a>
+                                    <a class="mt-6 ml-6 block font-semibold text-gray-900" href="https://www.valuethemarkets.com/education/glossary" >
+                        <span class="flex justify-between">
+                            Investing Glossary
+                        </span>
+                    </a>
+                            </div>
+        </div>
+                                            </div>
+                        <div class="py-6">
+                            <div wire:key="lw-3760590309-2-3" wire:snapshot="{&quot;data&quot;:{&quot;query&quot;:&quot;&quot;},&quot;memo&quot;:{&quot;id&quot;:&quot;rIHAeVK9vSNWEcGm5AnW&quot;,&quot;name&quot;:&quot;search-modal&quot;,&quot;path&quot;:&quot;cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:{&quot;lw-3468151381-0-3&quot;:[&quot;div&quot;,&quot;rhkeNN902pEJsgd0IRVe&quot;],&quot;lw-3468151381-1-4&quot;:[&quot;div&quot;,&quot;r53axYKuu0PNayGNWU1o&quot;]},&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;,&quot;islands&quot;:[]},&quot;checksum&quot;:&quot;7d54155870bf20641c2284ed0c94a0541b591716ad1376550cdbab793f5528c0&quot;}" wire:effects="{&quot;partials&quot;:[],&quot;listeners&quot;:[&quot;full-search&quot;]}" wire:id="rIHAeVK9vSNWEcGm5AnW" wire:name="search-modal" class="z-10 relative">
+    <div x-data="{ showModal: false }" @keydown.window.escape="showModal = false"
+         x-init="$watch('showModal', value => document.body.classList.toggle('overflow-hidden', value))">
+        <div class="relative mt-2 lg:flex items-center hidden">
+            <input type="text"
+                   @keydown.ctrl.k.prevent.document="showModal = true; $nextTick(() => $refs.input.focus());"
+                   @keydown.meta.k.prevent.document="showModal = true; $nextTick(() => $refs.input.focus());"
+                   @keyup.escape.window="showModal = false"
+                   @click="showModal = !showModal; $nextTick(() => $refs.input.focus());"
+                   class="h-10 w-full border border-gray-700 lg:rounded-md bg-gray-400/40 hover:bg-gray-800 ring-1 ring-gray-400 transition-all pl-5 pr-4 text-white placeholder:text-gray-300 sm:text-sm"
+                   placeholder="Search...">
+            <div class="absolute inset-y-0 right-0 flex py-1.5 pr-1.5">
+                <kbd
+                    class="inline-flex items-center rounded-sm border border-white bg-gray-600 px-1 font-sans text-xs text-white">⌘K</kbd>
+            </div>
+        </div>
+        <div class="relative mt-3 lg:hidden">
+            <!-- search button -->
+            <div class="absolute inset-y-0 right-0 flex items-center pr-3">
+                <button @click="showModal = true; $nextTick(() => $refs.input.focus());"
+                        aria-label="Search"
+                        type="button"
+                        class="h-10 w-10 flex items-center justify-center rounded-md ring-1 ring-gray-600 transition-all text-white  hover:text-gray-100 focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                    <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/>
+</svg>                </button>
+            </div>
+        </div>
+        <div x-cloak class="relative z-10" role="dialog" aria-modal="true">
+            <div
+                x-show="showModal"
+                x-transition:enter="ease-out duration-300"
+                x-transition:enter-start="opacity-0"
+                x-transition:enter-end="opacity-100"
+                x-transition:leave="ease-in duration-200"
+                x-transition:leave-start="opacity-100"
+                x-transition:leave-end="opacity-0"
+                x-on:click="showModal = false"
+                class="fixed inset-0  bg-current/50 transition-opacity"></div>
+
+            <div
+                x-show="showModal"
+                x-transition:enter="ease-out duration-300"
+                x-transition:enter-start="opacity-0 scale-95"
+                x-transition:enter-end="opacity-100 scale-100"
+                x-transition:leave="ease-in duration-200"
+                x-transition:leave-start="opacity-100 scale-100"
+                x-transition:leave-end="opacity-0 scale-95"
+                class="fixed mx-auto max-h-min max-w-5xl inset-0 z-10 p-4 sm:p-6 md:p-20">
+                <div
+                    class="mx-auto max-h-min max-w-5xl transform divide-y divide-gray-100 overflow-hidden rounded-xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 transition-all">
+                    <div class="relative">
+                        <div class="flex items-center justify-between bg-gray-50 px-4 py-2.5 text-xs text-gray-700">
+                            <div class="flex space-x-6 order-1">
+                                <p>
+                                    Press <kbd
+                                        class="h-5 w-5 items-center justify-center rounded-sm border border-gray-400 bg-white font-semibold text-gray-900 p-1">esc</kbd>
+                                    to close search
+                                </p>
+                            </div>
+                            <div class="order-2 text-red-500 hover:text-red-700">
+                                <button @click="showModal = false;">
+                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+</svg>                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <svg class="pointer-events-none absolute left-4 top-3.5 h-5 w-5 text-gray-400"
+                             viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                  d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                                  clip-rule="evenodd"/>
+                        </svg>
+                        <form action="/search" method="GET">
+                            <input
+                                name="q"
+                                x-ref="input"
+                                type="text"
+                                wire:model.live.debounce.400ms="query"
+                                class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-gray-800 placeholder:text-gray-400 focus:ring-0 sm:text-sm"
+                                placeholder="Search..." role="combobox" aria-expanded="false" aria-controls="options">
+                        </form>
+                    </div>
+
+                    <div class="flex transform-gpu divide-x divide-gray-100">
+                        <div class="flex h-auto w-full sm:w-2/3 flex-none flex-col overflow-y-auto px-6 py-4 max-h-96 bg-gray-50">
+                            <h2 class="text-lg tracking-tight text-gray-900 uppercase font-bold">Articles</h2>
+                            <div wire:key="lw-3468151381-0-3" wire:snapshot="{&quot;data&quot;:{&quot;search&quot;:&quot;&quot;,&quot;limit&quot;:5,&quot;paginators&quot;:[[],{&quot;s&quot;:&quot;arr&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;rhkeNN902pEJsgd0IRVe&quot;,&quot;name&quot;:&quot;search-results&quot;,&quot;path&quot;:&quot;cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;lazyLoaded&quot;:false,&quot;lazyIsolated&quot;:true,&quot;props&quot;:[&quot;search&quot;],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;,&quot;islands&quot;:[]},&quot;checksum&quot;:&quot;35afa3fe4016281b8d889d9ec8915ae93a3b99807978fa48bcc4fd626f09be6f&quot;}" wire:effects="{&quot;partials&quot;:[]}" wire:id="rhkeNN902pEJsgd0IRVe" wire:name="search-results" x-intersect="$wire.__lazyLoad(&#039;eyJkYXRhIjp7ImZvck1vdW50IjpbeyJzZWFyY2giOiIiLCJsaW1pdCI6IjUifSx7InMiOiJhcnIifV19LCJtZW1vIjp7ImlkIjoicmpTSXRMVlpFR1FkbnA3ZGpjMkwiLCJuYW1lIjoiX19tb3VudFBhcmFtc0NvbnRhaW5lciIsInBhdGgiOiJjcnlwdG9jdXJyZW5jeVwvbmV3c1wvb25kby1nbG9iYWwtbWFya2V0cy1yZWFjaGVzLTEtYmlsbGlvbi1pbi10b2tlbml6ZWQtc3RvY2tzLWFuZC1ldGZzIiwibWV0aG9kIjoiR0VUIiwicmVsZWFzZSI6ImEtYS1hIn0sImNoZWNrc3VtIjoiMjM5ODIzZGU4YTc5OWY2YzlkZWQyYzYwZjYwMzc1MjZiOGZiMDU2ZDZjMmFiYTJkNmM3NjE2YWVlZDQyMWNjNCJ9&#039;)">
+    <!--[if BLOCK]><![endif]-->        <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <p class="w-1/4 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></p>
+            <p class="mt-3 w-full h-3 animate-pulse bg-gray-400"></p>
+        </div>
+    <!--[if ENDBLOCK]><![endif]--></div>
+                        </div>
+
+                        <div
+                            class="hidden sm:flex flex-col max-h-96 min-w-0 scroll-py-4 overflow-y-auto px-6 py-4 sm:h-auto bg-white">
+                            <h2 class="text-lg tracking-tight text-gray-900 uppercase font-bold">Tickers</h2>
+                            <div wire:key="lw-3468151381-1-4" wire:snapshot="{&quot;data&quot;:{&quot;search&quot;:&quot;&quot;,&quot;tickerValues&quot;:null,&quot;displayLimit&quot;:10,&quot;showAll&quot;:false},&quot;memo&quot;:{&quot;id&quot;:&quot;r53axYKuu0PNayGNWU1o&quot;,&quot;name&quot;:&quot;search-tickers&quot;,&quot;path&quot;:&quot;cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;lazyLoaded&quot;:false,&quot;lazyIsolated&quot;:true,&quot;props&quot;:[&quot;search&quot;],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;,&quot;islands&quot;:[]},&quot;checksum&quot;:&quot;a9d8b5e601739a78c957e60e10a39fce6ed40a390a8890282ea7d80d6fb7214f&quot;}" wire:effects="{&quot;partials&quot;:[]}" wire:id="r53axYKuu0PNayGNWU1o" wire:name="search-tickers" x-intersect="$wire.__lazyLoad(&#039;eyJkYXRhIjp7ImZvck1vdW50IjpbeyJzZWFyY2giOiIifSx7InMiOiJhcnIifV19LCJtZW1vIjp7ImlkIjoialBVd3VMTFhKTkJRb0dHZFloQmEiLCJuYW1lIjoiX19tb3VudFBhcmFtc0NvbnRhaW5lciIsInBhdGgiOiJjcnlwdG9jdXJyZW5jeVwvbmV3c1wvb25kby1nbG9iYWwtbWFya2V0cy1yZWFjaGVzLTEtYmlsbGlvbi1pbi10b2tlbml6ZWQtc3RvY2tzLWFuZC1ldGZzIiwibWV0aG9kIjoiR0VUIiwicmVsZWFzZSI6ImEtYS1hIn0sImNoZWNrc3VtIjoiMzk5MDMzYzZhM2ZjZGRlNTE5ODE5NzYxNjk3NTUyMGFmYWVmMGM0NTUyYzg1NWRiZmZmZGNjNGVmMDFmNzMzNSJ9&#039;)">
+    <!--[if BLOCK]><![endif]-->        <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+            <div wire:loading.block class="border-b-[0.5px] border-black py-4">
+            <div>
+                <div class="w-3/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/4 h-3 animate-pulse bg-gray-400"></div>
+                <div class="mt-2 w-1/2 h-3 animate-pulse bg-gray-400"></div>
+            </div>
+        </div>
+    <!--[if ENDBLOCK]><![endif]--></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    
+
+<div class="max-w-(--breakpoint-2xl) mt-5 mx-auto">
+
+    <main class="mx-auto px-4 lg:px-8">
+                    <div>
+    </div>
+                <div class="pb-24  lg:grid lg:grid-cols-3 lg:gap-x-8 xl:grid-cols-4">
+            <section class="mt-6 lg:col-span-2 lg:mt-0 xl:col-span-3">
+                                    <main class="mx-auto px-4 lg:px-8">
+    <div class="hidden lg:block">
+        <nav class="flex" aria-label="Breadcrumb">
+        <ol role="list" class="flex items-center space-x-2">
+            <li>
+                <div>
+                    <a href="https://www.valuethemarkets.com" class="text-gray-400 hover:text-gray">
+                        <span class="text-sm font-bold text-gray hover:text-gray-700 hover:underline">
+                            Home
+                        </span>
+                    </a>
+                </div>
+            </li>
+                                                <li>
+                        <div class="flex items-center">
+                            <svg class="h-3 w-3 shrink-0 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/>
+                            </svg>
+                            <a href="/cryptocurrency/news" class="ml-2 text-sm font-bold text-gray hover:text-gray-700 hover:underline">
+                                Cryptocurrency &amp; Blockchain News
+                            </a>
+                        </div>
+                    </li>
+                                                                <li  aria-current="page" >
+                        <div class="flex items-center">
+                            <svg class="h-3 w-3 shrink-0 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/>
+                            </svg>
+                            <p class="ml-2 text-sm font-medium text-gray hover:text-gray-700"  aria-current="page" >Ondo Global Markets Reaches $1 Billion in Tokenized Stocks and ETFs</p>
+                        </div>
+                    </li>
+                                    </ol>
+    </nav>
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.valuethemarkets.com"},{"@type":"ListItem","position":2,"name":"Cryptocurrency & Blockchain News","item":"https://www.valuethemarkets.com/cryptocurrency/news"},{"@type":"ListItem","position":3,"name":"Ondo Global Markets Reaches $1 Billion in Tokenized Stocks and ETFs","item":"https://www.valuethemarkets.com/cryptocurrency/news/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs"}]}
+    </script>
+
+    </div>
+
+    <div class="lg:pt-5 relative">
+        <section aria-labelledby="article-heading" class="lg:col-span-2 xl:col-span-3">
+            <div class="border-b border-gray-100">
+    <h1 class="text-4xl font-bold text-gray-900">Ondo Global Markets Reaches $1 Billion in Tokenized Stocks and ETFs</h1>
+    <div class="sm:flex mt-5 mb-5 justify-between">
+        <div class="flex">
+            <p class="text-sm font-bold text-gray mr-3 prose">
+                By
+                                    <a class="font-bold" href="https://www.valuethemarkets.com/authors/patricia-miller">
+                        Patricia Miller
+                    </a>
+                            </p>
+
+            <p class="text-sm font-bold text-gray mr-3">
+                <time datetime="2026-05-13T04:51:20+00:00">May 13, 2026</time>
+            </p>
+            
+                                                    <span class="text-sm font-bold text-gray">2 min read</span>
+                    </div>
+    </div>
+</div>
+
+            <div
+                class="lg:pt-5 lg:grid
+                lg:grid-cols-3
+                lg:gap-x-8
+                xl:grid-cols-4">
+
+                                    <aside>
+        <div id="article-sidebar-left" class="block sticky top-5">
+        <div class="space-y-0 lg:space-y-10">
+            
+            <div id="sidebar-slot-4" class="mb-2 lg:mb-10">
+                            </div>
+        </div>
+    </div>
+</aside>
+                
+                <section aria-labelledby="article-heading" class="lg:col-span-2 xl:col-span-3">
+                    <div class="mb-5">
+                                            </div>
+
+                    
+                    <p class="text-lg font-bold leading-8 text-gray">Ondo Global Markets achieved $1 billion in value locked in tokenized stocks, making it the fastest in onchain finance. Here’s what to know.</p>
+
+                    
+                                                                
+                    <div id="article-content" class="prose prose-lg prose-primary mt-6 text-gray max-w-none">
+    <h2 id="what-milestone-has-ondo-global-markets-achieved"><a href="#what-milestone-has-ondo-global-markets-achieved">#</a>What milestone has Ondo Global Markets achieved?</h2><p>Ondo Global Markets recently reached a significant milestone, achieving $1 billion in total value locked across its tokenized stocks and ETFs in under eight months. This rapid growth positions Ondo as the fastest platform to hit this figure in the onchain finance sector, a field that includes established stablecoins.</p><h2 id="what-are-the-key-numbers-behind-this-achievement"><a href="#what-are-the-key-numbers-behind-this-achievement">#</a>What are the key numbers behind this achievement?</h2><p>The current statistics reveal that Ondo Global Markets commands over 70% of the market share in tokenized equities. With more than 260 live assets available, the platform covers diverse sectors such as artificial intelligence, biotechnology, defense, and energy. Additionally, the cumulative trading volume has surpassed an impressive $18 billion, demonstrating strong market engagement. Ondo operates across prominent blockchain networks including Solana, BNB Chain, and Ethereum. Recently, it has also integrated with Hyperliquid&#039;s HyperEVM through the Ondo Bridge, facilitating seamless transactions of tokenized stocks and ETFs within Hyperliquid&#039;s trading infrastructure.</p><div>
+                    
+            
+            <div>
+    <div class="text-white py-10 relative overflow-hidden"
+     style="background-color: #000000">
+
+    
+    <div class="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto grid grid-cols-1 gap-[25px]">
+            <div class="text-center mx-auto font-bold tracking-tight">
+                <h2 class="text-2xl mb-2 mt-0 text-white not-prose">A sharper way to see the markets in just 5 minutes.</h2>
+                <p class="text-lg opacity-90 not-prose">Same news, different lens. We cut through the noise and hand you the overlooked ideas and the deeper read the crowd misses. Join 38,000+ investors seeing the markets differently.</p>
+            </div>
+
+            <div class="mx-auto max-w-md w-full">
+                <div wire:key="lw-2108196466-0" wire:snapshot="{&quot;data&quot;:{&quot;submissionMessage&quot;:&quot;You are subscribed!&quot;,&quot;buttonLabel&quot;:&quot;Subscribe&quot;,&quot;privacyPolicy&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;email&quot;:&quot;&quot;,&quot;subscribed&quot;:false,&quot;darkMode&quot;:false,&quot;darkFont&quot;:false,&quot;isPageProtected&quot;:false,&quot;pageType&quot;:&quot;&quot;,&quot;pageUrl&quot;:&quot;https:\/\/www.valuethemarkets.com\/cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;clientCampaignCode&quot;:&quot;&quot;,&quot;isClientCampaignPage&quot;:false,&quot;isClientCampaignReportPage&quot;:false,&quot;extraFields&quot;:[{&quot;my_name&quot;:&quot;&quot;,&quot;valid_from&quot;:&quot;eyJpdiI6Ikt3bW9ad0RnN2NRa2Z0UTBNK0lxZFE9PSIsInZhbHVlIjoiWEEvQ3hkWkRTTUQxT3kxSWJDWGV5QT09IiwibWFjIjoiMTc3NWZiZTU2MWY4ZTYzNmE1MmMzZTRkZThkNTI3MmI3NjgxMDM3MTAzNWY2Yjk3MTBlODJjNTAzNmRmOTYyMyIsInRhZyI6IiJ9&quot;},{&quot;class&quot;:&quot;Spatie\\Honeypot\\Http\\Livewire\\Concerns\\HoneypotData&quot;,&quot;s&quot;:&quot;wrbl&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;L6a1raCVGfYcV8gyGqXx&quot;,&quot;name&quot;:&quot;subscriber-form&quot;,&quot;path&quot;:&quot;cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;,&quot;islands&quot;:[]},&quot;checksum&quot;:&quot;93d64afa974691d948fcbc6e819655ccd298fe88e0529a61e89e9374bca377fc&quot;}" wire:effects="{&quot;partials&quot;:[],&quot;listeners&quot;:[&quot;send-meta-data&quot;]}" wire:id="L6a1raCVGfYcV8gyGqXx" wire:name="subscriber-form">
+    <!--[if BLOCK]><![endif]-->        <form wire:submit.prevent="submit" class="w-full max-w-md lg:col-span-5 lg:pt-2" x-data="{ darkMode: 0 }">
+            <!--[if BLOCK]><![endif]-->    <div id="my_name_1bpV0ePRw7YDoiQf_wrap"  style="display: none" aria-hidden="true">
+        <input id="my_name_1bpV0ePRw7YDoiQf"
+               name="my_name_1bpV0ePRw7YDoiQf"
+               type="text"
+               value=""
+                wire:model.defer="extraFields.my_name"                autocomplete="nope"
+               tabindex="-1">
+        <input name="valid_from"
+               type="text"
+               value="eyJpdiI6IlBZMnBHZHlvUUFYKzBxanRtS2s1T3c9PSIsInZhbHVlIjoiYmlKMGNSSUZMRTVudVNXa1d5eWY1dz09IiwibWFjIjoiMGMyODRiNjM4ZDM4YjY5YzUzZWNiNzk1OTczMDdkY2JhMTg4YWJlMGQ4OTM3ZjJkMzQ0ZDM3OWI2NjI1MGE5NSIsInRhZyI6IiJ9"
+                wire:model.defer="extraFields.valid_from"                autocomplete="off"
+               tabindex="-1">
+    </div>
+<!--[if ENDBLOCK]><![endif]-->            <div class="flex gap-x-4">
+                <label for="email" class="sr-only">Email address</label>
+                <input wire:model="email" id="email" name="email" type="email" autocomplete="email"
+                       :class="{'text-white placeholder:text-white ring-white/10 focus:ring-brand-500': darkMode, 'text-gray-900 bg-white ring-gray-300 placeholder:text-gray-400 focus:ring-brand-500': !darkMode }"
+                       class="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 shadow-xs ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6"
+                       placeholder="Enter your email">
+                <button type="submit"
+                        id="subBtn_248"
+                        :class="{'bg-brand-600 hover:bg-brand-700 focus-visible:outline-brand-500': darkMode, 'bg-brand-600 hover:bg-brand-500 focus-visible:outline-brand-600': !darkMode }"
+                        class="flex-none rounded-md py-2.5 px-3.5 text-sm font-semibold text-white shadow-xs focus-visible:outline-solid focus-visible:outline-2 focus-visible:outline-offset-2 ">Subscribe</button>
+            </div>
+            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->            <div class="mt-4">
+                <div class="flex items-center">
+                    <input type="checkbox" required
+                           id="chkBox_248"
+                           class="checkbox-brand rounded-sm border-gray-300 shadow-xs"
+                           wire:model="privacyPolicy">
+                    <span class="text-white ml-2 text-sm">I agree to the <a href="/privacy-policy" class="font-semibold text-brand-600 hover:text-brand-500">privacy policy</a>.</span>
+                </div>
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->            </div>
+        </form>
+    <!--[if ENDBLOCK]><![endif]--></div>
+
+<!--[if BLOCK]><![endif]-->    <!--[if ENDBLOCK]><![endif]-->            </div>
+        </div>
+    </div>
+</div>
+</div>
+            </div>
+<h2 id="why-are-tokenized-stocks-becoming-increasingly-popular"><a href="#why-are-tokenized-stocks-becoming-increasingly-popular">#</a>Why are tokenized stocks becoming increasingly popular?</h2><p>There are several reasons for the rising interest in tokenized stocks, particularly on platforms like Ondo. These stocks provide continuous trading opportunities, unrestricted by the traditional hours of 9:30 AM to 4:00 PM Eastern Time that characterize conventional U.S. stock exchanges. Moreover, they allow for fractional ownership, which opens doors for small investors, especially in emerging markets where expensive shares could otherwise be out of reach.</p><p>Institutional interest has also played a pivotal role in driving growth. Recent favorable regulatory changes have made large investors more open to the concept of tokenized real-world assets, encouraging the development of this financial innovation.</p><h2 id="what-does-this-mean-for-investors"><a href="#what-does-this-mean-for-investors">#</a>What does this mean for investors?</h2><p>The cumulative trading volume of $18 billion relative to the $1 billion total value locked is noteworthy. This volume-to-TVL ratio of approximately 18 times suggests a high velocity of asset trading on the platform, indicating that the tokens are actively traded rather than stashed away.</p><p>However, as with any emerging financial market, regulatory risks loom large. Tokenized stocks exist in a legislative gray area in various regions. Therefore, while monitoring Ondo&#039;s impressive growth metrics, it remains crucial for investors to keep an eye on the regulatory landscape monitored by the SEC and equivalent bodies internationally. The regulatory environment will ultimately determine whether tokenized equities can maintain their rapid growth trajectory or face significant limitations.</p>
+</div>
+
+                    
+                    
+                    
+                    <div class="mt-5">
+                        <div>
+                    
+            
+            <div>
+    <div class="text-white py-10 relative overflow-hidden"
+     style="background-color: #000000">
+
+    
+    <div class="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto grid grid-cols-1 gap-[25px]">
+            <div class="text-center mx-auto font-bold tracking-tight">
+                <h2 class="text-2xl mb-2 mt-0 text-white not-prose">A sharper way to see the markets in just 5 minutes.</h2>
+                <p class="text-lg opacity-90 not-prose">Same news, different lens. We cut through the noise and hand you the overlooked ideas and the deeper read the crowd misses. Join 38,000+ investors seeing the markets differently.</p>
+            </div>
+
+            <div class="mx-auto max-w-md w-full">
+                <div wire:key="lw-2108196466-0" wire:snapshot="{&quot;data&quot;:{&quot;submissionMessage&quot;:&quot;You are subscribed!&quot;,&quot;buttonLabel&quot;:&quot;Subscribe&quot;,&quot;privacyPolicy&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;email&quot;:&quot;&quot;,&quot;subscribed&quot;:false,&quot;darkMode&quot;:false,&quot;darkFont&quot;:false,&quot;isPageProtected&quot;:false,&quot;pageType&quot;:&quot;&quot;,&quot;pageUrl&quot;:&quot;https:\/\/www.valuethemarkets.com\/cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;clientCampaignCode&quot;:&quot;&quot;,&quot;isClientCampaignPage&quot;:false,&quot;isClientCampaignReportPage&quot;:false,&quot;extraFields&quot;:[{&quot;my_name&quot;:&quot;&quot;,&quot;valid_from&quot;:&quot;eyJpdiI6InFMWnBqajZZMEh4VEdlUnV2YzJrT1E9PSIsInZhbHVlIjoiOVhGaFJqdmVNWVJTejhQZ0dNeStQQT09IiwibWFjIjoiZDBlOTA1Nzk3OThiNDA2ZTY5NWYwZmFhNjc1NWY0MzMxZGM1NjYyMDVjNjM5NGM0MzhhNmRmOTRkY2RlZDgwNiIsInRhZyI6IiJ9&quot;},{&quot;class&quot;:&quot;Spatie\\Honeypot\\Http\\Livewire\\Concerns\\HoneypotData&quot;,&quot;s&quot;:&quot;wrbl&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;D06eYl9YF1SRL6688oRM&quot;,&quot;name&quot;:&quot;subscriber-form&quot;,&quot;path&quot;:&quot;cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;,&quot;islands&quot;:[]},&quot;checksum&quot;:&quot;d00168234b8f83f805e75900dc50c26d2a44bdc76e55eed49b6b10880e44b264&quot;}" wire:effects="{&quot;partials&quot;:[],&quot;listeners&quot;:[&quot;send-meta-data&quot;]}" wire:id="D06eYl9YF1SRL6688oRM" wire:name="subscriber-form">
+    <!--[if BLOCK]><![endif]-->        <form wire:submit.prevent="submit" class="w-full max-w-md lg:col-span-5 lg:pt-2" x-data="{ darkMode: 0 }">
+            <!--[if BLOCK]><![endif]-->    <div id="my_name_6fCcZB8usyEkNYH6_wrap"  style="display: none" aria-hidden="true">
+        <input id="my_name_6fCcZB8usyEkNYH6"
+               name="my_name_6fCcZB8usyEkNYH6"
+               type="text"
+               value=""
+                wire:model.defer="extraFields.my_name"                autocomplete="nope"
+               tabindex="-1">
+        <input name="valid_from"
+               type="text"
+               value="eyJpdiI6ImdYRUtLdGE1by9vaXJOS2t1eWl1Vnc9PSIsInZhbHVlIjoiMUgwRFE5YjJjN2QweS83TmFJTm92UT09IiwibWFjIjoiZDNlNzQ4MTg4NDY0ZWI4Yjk3Mzc1YjIwMzA0OTI4NTZmMWM4ZWU2NWFhYWRiYTY4YTljNzQ2YTE1ZGM1YTMwNiIsInRhZyI6IiJ9"
+                wire:model.defer="extraFields.valid_from"                autocomplete="off"
+               tabindex="-1">
+    </div>
+<!--[if ENDBLOCK]><![endif]-->            <div class="flex gap-x-4">
+                <label for="email" class="sr-only">Email address</label>
+                <input wire:model="email" id="email" name="email" type="email" autocomplete="email"
+                       :class="{'text-white placeholder:text-white ring-white/10 focus:ring-brand-500': darkMode, 'text-gray-900 bg-white ring-gray-300 placeholder:text-gray-400 focus:ring-brand-500': !darkMode }"
+                       class="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 shadow-xs ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6"
+                       placeholder="Enter your email">
+                <button type="submit"
+                        id="subBtn_754"
+                        :class="{'bg-brand-600 hover:bg-brand-700 focus-visible:outline-brand-500': darkMode, 'bg-brand-600 hover:bg-brand-500 focus-visible:outline-brand-600': !darkMode }"
+                        class="flex-none rounded-md py-2.5 px-3.5 text-sm font-semibold text-white shadow-xs focus-visible:outline-solid focus-visible:outline-2 focus-visible:outline-offset-2 ">Subscribe</button>
+            </div>
+            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->            <div class="mt-4">
+                <div class="flex items-center">
+                    <input type="checkbox" required
+                           id="chkBox_754"
+                           class="checkbox-brand rounded-sm border-gray-300 shadow-xs"
+                           wire:model="privacyPolicy">
+                    <span class="text-white ml-2 text-sm">I agree to the <a href="/privacy-policy" class="font-semibold text-brand-600 hover:text-brand-500">privacy policy</a>.</span>
+                </div>
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->            </div>
+        </form>
+    <!--[if ENDBLOCK]><![endif]--></div>
+
+<!--[if BLOCK]><![endif]-->    <!--[if ENDBLOCK]><![endif]-->            </div>
+        </div>
+    </div>
+</div>
+</div>
+            </div>
+                    </div>
+
+                    <div class="border-t border-trueGray-300 mt-5 pt-5">
+        <h2 class="mb-5 text-lg	font-bold">Related Articles:</h2>
+        <ul class="grid marker:text-black prose">
+                            <li class="flex items-start pl-0">
+                    <span class="mr-3 text-2xl text-black">&#8226;</span>
+                    <a href="https://www.valuethemarkets.com/news/palantir-nasdaq-pltr-posts-first-2-billion-quarter" title="Palantir (NASDAQ: PLTR) Posts First $2 Billion Quarter" class="transition-transform duration-500 ease-in-out hover:transform hover:translate-x-0.5 inline-block">
+                        Palantir (NASDAQ: PLTR) Posts First $2 Billion Quarter
+                    </a>
+                </li>
+                            <li class="flex items-start pl-0">
+                    <span class="mr-3 text-2xl text-black">&#8226;</span>
+                    <a href="https://www.valuethemarkets.com/cryptocurrency/news/binance-hit-by-63b-hack-cryptos-biggest-ever-heist" title="Binance Hit by $6.3B Hack, Crypto&#039;s Biggest Ever Heist" class="transition-transform duration-500 ease-in-out hover:transform hover:translate-x-0.5 inline-block">
+                        Binance Hit by $6.3B Hack, Crypto&#039;s Biggest Ever Heist
+                    </a>
+                </li>
+                            <li class="flex items-start pl-0">
+                    <span class="mr-3 text-2xl text-black">&#8226;</span>
+                    <a href="https://www.valuethemarkets.com/cryptocurrency/news/strategy-stock-jumps-as-bitcoin-proxy-trade-draws-fresh-analyst-attention" title="Strategy stock jumps as Bitcoin proxy trade draws fresh analyst attention" class="transition-transform duration-500 ease-in-out hover:transform hover:translate-x-0.5 inline-block">
+                        Strategy stock jumps as Bitcoin proxy trade draws fresh analyst attention
+                    </a>
+                </li>
+                            <li class="flex items-start pl-0">
+                    <span class="mr-3 text-2xl text-black">&#8226;</span>
+                    <a href="https://www.valuethemarkets.com/cryptocurrency/news/self-brings-privacy-first-usa-stablecoin-faucet-to-celo" title="Self brings privacy-first USA stablecoin faucet to Celo" class="transition-transform duration-500 ease-in-out hover:transform hover:translate-x-0.5 inline-block">
+                        Self brings privacy-first USA stablecoin faucet to Celo
+                    </a>
+                </li>
+                    </ul>
+    </div>
+
+                    <div class="p-5 section bg-gray-50 border-t-4 border-gray text-sm font-bold text-green mt-8">
+            <div class="mb-4">
+            <h3>Explore more on these topics:</h3>
+
+            <div class="flex flex-wrap mt-2">
+                                                            <a href="https://www.valuethemarkets.com/topics/cryptocurrency" class="flex group mr-2 my-2">
+    <span class="inline-flex text-xs self-start p-1 font-bold uppercase break-all ease-in-out duration-300 bg-brand-100 group-hover:underline w-full">
+        Cryptocurrency
+    </span>
+</a>
+                                                                                <a href="https://www.valuethemarkets.com/topics/blockchain" class="flex group mr-2 my-2">
+    <span class="inline-flex text-xs self-start p-1 font-bold uppercase break-all ease-in-out duration-300 bg-brand-100 group-hover:underline w-full">
+        Blockchain
+    </span>
+</a>
+                                                                                <a href="https://www.valuethemarkets.com/topics/financial-technology-fintech" class="flex group mr-2 my-2">
+    <span class="inline-flex text-xs self-start p-1 font-bold uppercase break-all ease-in-out duration-300 bg-brand-100 group-hover:underline w-full">
+        Financial Technology (FinTech)
+    </span>
+</a>
+                                                                                <a href="https://www.valuethemarkets.com/topics/stocks" class="flex group mr-2 my-2">
+    <span class="inline-flex text-xs self-start p-1 font-bold uppercase break-all ease-in-out duration-300 bg-brand-100 group-hover:underline w-full">
+        Stocks
+    </span>
+</a>
+                                                                                <a href="https://www.valuethemarkets.com/topics/exchange-traded-fund-etf" class="flex group mr-2 my-2">
+    <span class="inline-flex text-xs self-start p-1 font-bold uppercase break-all ease-in-out duration-300 bg-brand-100 group-hover:underline w-full">
+        Exchange Traded Fund (ETF)
+    </span>
+</a>
+                                    
+                                                    
+                            </div>
+        </div>
+    
+        <h2 class="font-black text-xl uppercase">Important Notice And Disclaimer</h2>
+        <div>
+    <div class="mt-4">
+                                    <div class="text-lg font-normal" id="ccView-disclaimer">
+    <p>This article does not provide any financial advice and is not a recommendation to deal in any securities or product. Investments may fall in value and an investor may lose some or all of their investment. Past performance is not an indicator of future performance.</p>
+
+    </div>
+
+                        </div>
+</div>
+</div>
+                </section>
+            </div>
+        </section>
+    </div>
+</main>
+                
+            </section>
+
+            <aside>
+    <div id="article-sidebar" class="hidden lg:block top-5">
+        <div>
+            <div id="sidebar-slot-1">
+                            </div>
+
+            <div id="sidebar-slot-2">
+                <div>
+                    
+            
+            <div>
+    <div class="text-brand-700 py-10 relative overflow-hidden"
+     style="background-color: #daf556">
+
+    
+    <div class="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto grid grid-cols-1 gap-[25px]">
+            <div class="text-center mx-auto font-bold tracking-tight">
+                <h2 class="text-2xl mb-2 mt-0 text-gray-700 not-prose">Get The Investing Intel Newsletter</h2>
+                <p class="text-lg opacity-90 not-prose">Join 38,000+ investors getting insights, support &amp; ideas, all in under five minutes.</p>
+            </div>
+
+            <div class="mx-auto max-w-md w-full">
+                <div wire:key="lw-2108196466-0-5" wire:snapshot="{&quot;data&quot;:{&quot;submissionMessage&quot;:&quot;You are subscribed!&quot;,&quot;buttonLabel&quot;:&quot;Subscribe&quot;,&quot;privacyPolicy&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;email&quot;:&quot;&quot;,&quot;subscribed&quot;:false,&quot;darkMode&quot;:false,&quot;darkFont&quot;:true,&quot;isPageProtected&quot;:false,&quot;pageType&quot;:&quot;&quot;,&quot;pageUrl&quot;:&quot;https:\/\/www.valuethemarkets.com\/cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;clientCampaignCode&quot;:&quot;&quot;,&quot;isClientCampaignPage&quot;:false,&quot;isClientCampaignReportPage&quot;:false,&quot;extraFields&quot;:[{&quot;my_name&quot;:&quot;&quot;,&quot;valid_from&quot;:&quot;eyJpdiI6IkszTGVDTTJtTVJWYStGR0FnVncwTmc9PSIsInZhbHVlIjoidDFmQU1ma1JnVmsvRFQ0d0tuU3dkQT09IiwibWFjIjoiMjMyNzY0NWYyZmJkNWQ0MzIzNzk5OGM0NjlkMDZiYTBhNjY3ZWQ0NDI2YmM1MTdkY2Q5NGI3M2NiMjEyYjdmZSIsInRhZyI6IiJ9&quot;},{&quot;class&quot;:&quot;Spatie\\Honeypot\\Http\\Livewire\\Concerns\\HoneypotData&quot;,&quot;s&quot;:&quot;wrbl&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;FUsWYBwt6d1YJh4RI8OG&quot;,&quot;name&quot;:&quot;subscriber-form&quot;,&quot;path&quot;:&quot;cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;,&quot;islands&quot;:[]},&quot;checksum&quot;:&quot;7e6ba7f4ca09e8d5ac463254067ea7132b4bebb53ed1ff19bfa23d74dda49945&quot;}" wire:effects="{&quot;partials&quot;:[],&quot;listeners&quot;:[&quot;send-meta-data&quot;]}" wire:id="FUsWYBwt6d1YJh4RI8OG" wire:name="subscriber-form">
+    <!--[if BLOCK]><![endif]-->        <form wire:submit.prevent="submit" class="w-full max-w-md lg:col-span-5 lg:pt-2" x-data="{ darkMode: 0 }">
+            <!--[if BLOCK]><![endif]-->    <div id="my_name_PkhBhB7BLHfZgVMo_wrap"  style="display: none" aria-hidden="true">
+        <input id="my_name_PkhBhB7BLHfZgVMo"
+               name="my_name_PkhBhB7BLHfZgVMo"
+               type="text"
+               value=""
+                wire:model.defer="extraFields.my_name"                autocomplete="nope"
+               tabindex="-1">
+        <input name="valid_from"
+               type="text"
+               value="eyJpdiI6IkI2MEI4aWl1ZldDVjBZc1RZckhteGc9PSIsInZhbHVlIjoiZ0wrVXNJSTlSMll5YjFESWwyNUVaZz09IiwibWFjIjoiMmZlZjdlNjI4MGZiZGFhZDAyYTc0NzNhZmYwOTE0ZTIxODlkN2EwMGJlYzRiNWQ1NmFkN2E2MzQ2YmM0MTM2NiIsInRhZyI6IiJ9"
+                wire:model.defer="extraFields.valid_from"                autocomplete="off"
+               tabindex="-1">
+    </div>
+<!--[if ENDBLOCK]><![endif]-->            <div class="flex gap-x-4">
+                <label for="email" class="sr-only">Email address</label>
+                <input wire:model="email" id="email" name="email" type="email" autocomplete="email"
+                       :class="{'text-white placeholder:text-white ring-white/10 focus:ring-brand-500': darkMode, 'text-gray-900 bg-white ring-gray-300 placeholder:text-gray-400 focus:ring-brand-500': !darkMode }"
+                       class="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 shadow-xs ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6"
+                       placeholder="Enter your email">
+                <button type="submit"
+                        id="subBtn_18"
+                        :class="{'bg-brand-600 hover:bg-brand-700 focus-visible:outline-brand-500': darkMode, 'bg-brand-600 hover:bg-brand-500 focus-visible:outline-brand-600': !darkMode }"
+                        class="flex-none rounded-md py-2.5 px-3.5 text-sm font-semibold text-white shadow-xs focus-visible:outline-solid focus-visible:outline-2 focus-visible:outline-offset-2 ">Subscribe</button>
+            </div>
+            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->            <div class="mt-4">
+                <div class="flex items-center">
+                    <input type="checkbox" required
+                           id="chkBox_18"
+                           class="checkbox-brand rounded-sm border-gray-300 shadow-xs"
+                           wire:model="privacyPolicy">
+                    <span class="text-gray-900 ml-2 text-sm">I agree to the <a href="/privacy-policy" class="font-semibold text-brand-600 hover:text-brand-500">privacy policy</a>.</span>
+                </div>
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->            </div>
+        </form>
+    <!--[if ENDBLOCK]><![endif]--></div>
+
+<!--[if BLOCK]><![endif]-->    <!--[if ENDBLOCK]><![endif]-->            </div>
+        </div>
+    </div>
+</div>
+</div>
+            </div>
+            </div>
+
+            <div id="sidebar-slot-3">
+                            </div>
+        </div>
+    </div>
+</aside>
+        </div>
+    </main>
+</div>
+
+<div class="mt-4">
+    </div>
+    <footer class="relative w-full footer colourway-nav">
+    <div class="relative py-4 text-white bg-gray md:py-6 md:static p-6 lg:px-8">
+        <div class="max-w-(--breakpoint-2xl) mx-auto md:mx-auto">
+            <div class="grid gap-6 fluid-container sm:grid-cols-8 lg:grid-cols-16 md:py-2">
+                <div class="flex flex-col row-start-1 pt-2 lg:row-start-auto sm:col-span-8 lg:col-span-2">
+                    <a href="/">
+                        <div>
+    <img src="https://www.valuethemarkets.com/images/logo-white.svg" alt="Value the markets Logo" width="160" height="90" lazy="true">
+</div>
+                    </a>
+                </div>
+                <div class="flex flex-col gap-6 md:pt-4 sm:col-span-4 lg:col-span-9 lg:px-7">
+                    <nav class="grid grid-cols-2 gap-6 md:grid-cols-4 lg:grid-cols-6">
+                        <a class="flex items-center shrink col-span-1 md:col-span-2 title-border title-border--navigation title-border--no-border text-xs link-underline" href="/about-us">
+                            <span class="wrap-break-word ">About Us</span>
+                            <svg class="w-2.5 ml-1 overflow-visible transform -rotate-90 fill-current" aria-hidden="true" stroke-width="16" viewBox="0 0 14 9">
+                                <path d="M12.1 0L6.857 5.232 1.611 0 0 1.61l6.854 6.854 6.853-6.854z"></path>
+                            </svg>
+                        </a>
+                        <a class="flex items-center shrink col-span-1 md:col-span-2 title-border title-border--navigation title-border--no-border text-xs link-underline" href="https://www.valuethemarkets.com/news/press-releases">
+                            <span class="wrap-break-word ">Press Releases</span>
+                            <svg class="w-2.5 ml-1 overflow-visible transform -rotate-90 fill-current" aria-hidden="true" stroke-width="16" viewBox="0 0 14 9">
+                                <path d="M12.1 0L6.857 5.232 1.611 0 0 1.61l6.854 6.854 6.853-6.854z"></path>
+                            </svg>
+                        </a>
+                        <a class="flex items-center shrink col-span-1 md:col-span-2 title-border title-border--navigation title-border--no-border text-xs link-underline" href="/about/value-the-markets">
+                            <span class="wrap-break-word ">About Value The Markets</span>
+                            <svg class="w-2.5 ml-1 overflow-visible transform -rotate-90 fill-current" aria-hidden="true" stroke-width="16" viewBox="0 0 14 9">
+                                <path d="M12.1 0L6.857 5.232 1.611 0 0 1.61l6.854 6.854 6.853-6.854z"></path>
+                            </svg>
+                        </a>
+                        <a class=" flex items-center shrink col-span-1 md:col-span-2 title-border title-border--navigation title-border--no-border text-xs link-underline" href="/contact-us">
+                            <span class="wrap-break-word ">Contact Us</span>
+                            <svg class="w-2.5 ml-1 overflow-visible transform -rotate-90 fill-current" aria-hidden="true" stroke-width="16" viewBox="0 0 14 9">
+                                <path d="M12.1 0L6.857 5.232 1.611 0 0 1.61l6.854 6.854 6.853-6.854z"></path>
+                            </svg>
+                        </a>
+                        <a class=" flex items-center shrink col-span-1 md:col-span-2 title-border title-border--navigation title-border--no-border text-xs link-underline" href="/disclaimer">
+                            <span class="wrap-break-word ">Disclaimer</span>
+                            <svg class="w-2.5 ml-1 overflow-visible transform -rotate-90 fill-current" aria-hidden="true" stroke-width="16" viewBox="0 0 14 9">
+                                <path d="M12.1 0L6.857 5.232 1.611 0 0 1.61l6.854 6.854 6.853-6.854z"></path>
+                            </svg>
+                        </a>
+                        <a class=" flex items-center shrink col-span-1 md:col-span-2 title-border title-border--navigation title-border--no-border text-xs link-underline" href="/privacy-policy">
+                            <span class="wrap-break-word ">Privacy Policy</span>
+                            <svg class="w-2.5 ml-1 overflow-visible transform -rotate-90 fill-current" aria-hidden="true" stroke-width="16" viewBox="0 0 14 9">
+                                <path d="M12.1 0L6.857 5.232 1.611 0 0 1.61l6.854 6.854 6.853-6.854z"></path>
+                            </svg>
+                        </a>
+                        <a class=" flex items-center shrink col-span-1 md:col-span-2 title-border title-border--navigation title-border--no-border text-xs link-underline" href="/terms-conditions">
+                            <span class="wrap-break-word ">Terms &amp; Conditions</span>
+                            <svg class="w-2.5 ml-1 overflow-visible transform -rotate-90 fill-current" aria-hidden="true" stroke-width="16" viewBox="0 0 14 9">
+                                <path d="M12.1 0L6.857 5.232 1.611 0 0 1.61l6.854 6.854 6.853-6.854z"></path>
+                            </svg>
+                        </a>
+                        <form action="https://www.valuethemarkets.com/cookie-consent/reset" method="post" data-cookie-action="reset" class="cookiereset flex items-center shrink col-span-1 md:col-span-2 title-border title-border--navigation title-border--no-border text-xs">
+    <input type="hidden" name="_token" value="" autocomplete="off">    <button type="submit" class="cookiereset__link">
+        <span class="cookiereset__label">Cookie Preferences</span>
+    </button>
+</form>
+                    </nav>
+                    <div class="flex flex-col items-start gap-y-2 gap-x-6 md:items-center md:flex-row">
+                        <span class="text-colourway-tag-background">
+                            <ul class="flex gap-4">
+                                <li>
+                                    <a aria-label="twitter_link" class="block bg-cover rounded-xl"
+                                       href="https://twitter.com/ValueTheMarkets" target="_blank"
+                                       rel="noopener noreferrer">
+                                        <svg alt="twitter" aria-hidden="false" class="w-8 h-8"
+                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path
+                                                d="M15 0a15 15 0 1015 15A15 15 0 0015 0zm7.583 12.056a10.21 10.21 0 01-15.708 9.066 7.223 7.223 0 005.315-1.486 3.6 3.6 0 01-3.355-2.494 3.6 3.6 0 001.623-.061 3.6 3.6 0 01-2.88-3.566 3.582 3.582 0 001.626.449A3.6 3.6 0 018.093 9.17a10.191 10.191 0 007.4 3.751 3.593 3.593 0 016.119-3.275 7.161 7.161 0 002.28-.871 3.605 3.605 0 01-1.579 1.986 7.162 7.162 0 002.061-.566 7.206 7.206 0 01-1.791 1.861z"
+                                                fill="currentColor"></path></svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a aria-label="instagram_link" class="block bg-cover rounded-xl"
+                                       href="https://www.instagram.com/valuethemarkets" target="_blank"
+                                       rel="noopener noreferrer">
+                                        <svg fill="currentColor" class="w-8 h-8" width="800px" height="800px"
+                                             viewBox="0 0 19.2 19.2" data-name="Instagram w/circle"
+                                             xmlns="http://www.w3.org/2000/svg"><path
+                                                d="M13.498 6.651a1.656 1.656 0 0 0-.95-.949 2.766 2.766 0 0 0-.928-.172c-.527-.024-.685-.03-2.02-.03s-1.493.006-2.02.03a2.766 2.766 0 0 0-.929.172 1.656 1.656 0 0 0-.949.95 2.766 2.766 0 0 0-.172.928c-.024.527-.03.685-.03 2.02s.006 1.493.03 2.02a2.766 2.766 0 0 0 .172.929 1.656 1.656 0 0 0 .95.949 2.766 2.766 0 0 0 .928.172c.527.024.685.029 2.02.029s1.493-.005 2.02-.03a2.766 2.766 0 0 0 .929-.171 1.656 1.656 0 0 0 .949-.95 2.766 2.766 0 0 0 .172-.928c.024-.527.029-.685.029-2.02s-.005-1.493-.03-2.02a2.766 2.766 0 0 0-.171-.929zM9.6 12.168A2.568 2.568 0 1 1 12.168 9.6 2.568 2.568 0 0 1 9.6 12.168zm2.669-4.637a.6.6 0 1 1 .6-.6.6.6 0 0 1-.6.6zM11.267 9.6A1.667 1.667 0 1 1 9.6 7.933 1.667 1.667 0 0 1 11.267 9.6zM9.6 0a9.6 9.6 0 1 0 9.6 9.6A9.6 9.6 0 0 0 9.6 0zm4.97 11.661a3.67 3.67 0 0 1-.233 1.214 2.556 2.556 0 0 1-1.462 1.462 3.67 3.67 0 0 1-1.213.233c-.534.024-.704.03-2.062.03s-1.528-.006-2.062-.03a3.67 3.67 0 0 1-1.213-.233 2.556 2.556 0 0 1-1.462-1.462 3.67 3.67 0 0 1-.233-1.213c-.024-.534-.03-.704-.03-2.062s.006-1.528.03-2.062a3.67 3.67 0 0 1 .232-1.213 2.556 2.556 0 0 1 1.463-1.463 3.67 3.67 0 0 1 1.213-.232c.534-.024.704-.03 2.062-.03s1.528.006 2.062.03a3.67 3.67 0 0 1 1.213.232 2.556 2.556 0 0 1 1.462 1.463 3.67 3.67 0 0 1 .233 1.213c.024.534.03.704.03 2.062s-.006 1.528-.03 2.062z"/></svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a aria-label="linkedin_link" class="block bg-cover rounded-xl"
+                                       href="https://www.linkedin.com/company/valuethemarkets/" target="_blank"
+                                       rel="noopener noreferrer">
+                                        <svg alt="linkedin" aria-hidden="false" class="w-8 h-8"
+                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path
+                                                d="M15 0a15 15 0 1015 15A15 15 0 0015 0zm-2.5 20H10v-7.5h2.5zm-1.25-8.614A1.386 1.386 0 1112.625 10a1.381 1.381 0 01-1.375 1.386zm10 8.614h-2.5v-3.576c0-2.351-2.5-2.153-2.5 0V20h-2.5v-7.5h2.5v1.366c1.09-2.02 5-2.17 5 1.935z"
+                                                fill="currentColor"></path></svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a aria-label="youtube_link" class="block bg-cover rounded-xl"
+                                       href="https://www.youtube.com/valuethemarkets/?sub_confirmation=1"
+                                       target="_blank" rel="noopener noreferrer">
+                                        <svg alt="youtube" aria-hidden="false" class="w-8 h-8" viewBox="0 0 24 24"
+                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path
+                                                d="M12 0a12 12 0 1012 12A12 12 0 0012 0zm4.441 16.892c-2.1.144-6.784.144-8.883 0C5.282 16.736 5.017 15.622 5 12c.017-3.629.285-4.736 2.558-4.892 2.1-.144 6.782-.144 8.883 0C18.718 7.264 18.982 8.378 19 12c-.018 3.629-.285 4.736-2.559 4.892zM10 9.658L14.917 12 10 14.342z"
+                                                fill="currentColor"></path></svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a aria-label="pinterest_link" class="block bg-cover rounded-xl"
+                                       href="https://uk.pinterest.com/valuethemarkets/_saved/"
+                                       target="_blank" rel="noopener noreferrer">
+                                            <svg class="w-8 h-8 rounded-xl"  height="800px" width="800px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                 viewBox="-143 145 512 512">
+                                            <path fill="currentColor" d="M-143,145v512h512V145H-143z M113,528.3c-12.6,0-24.8-1.9-36.3-5.3c4.9-7.7,10.2-17.6,12.9-27.4c1.6-5.7,9-35.2,9-35.2
+                                                c4.4,8.5,17.4,15.9,31.3,15.9c41.2,0,69.1-37.5,69.1-87.7c0-38-32.2-73.3-81-73.3c-60.8,0-91.5,43.6-91.5,80
+                                                c0,22,8.3,41.6,26.2,48.9c2.9,1.2,5.5,0,6.4-3.2c0.6-2.2,2-7.9,2.6-10.3c0.9-3.2,0.5-4.3-1.8-7.1c-5.1-6.1-8.4-13.9-8.4-25.1
+                                                c0-32.3,24.2-61.3,63-61.3c34.4,0,53.3,21,53.3,49c0,36.9-16.3,68-40.6,68c-13.4,0-23.4-11.1-20.2-24.6
+                                                c3.8-16.2,11.3-33.7,11.3-45.4c0-10.5-5.6-19.2-17.3-19.2c-13.7,0-24.7,14.2-24.7,33.1c0,12.1,4.1,20.2,4.1,20.2s-14,59.4-16.5,69.7
+                                                c-2.3,9.7-2.6,20.5-2.2,29.4C16.5,497.8-15,452.7-15,400.3c0-70.7,57.3-128,128-128s128,57.3,128,128S183.7,528.3,113,528.3z"/>
+                                            </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </span>
+                        <p class="text-sm">
+                            Copyright © 2020 - 2026 Value The Markets
+                        </p>
+                    </div>
+                </div>
+                <div class="row-start-2 md:pt-4 sm:row-span-2 md:row-start-auto lg:row-span-full sm:col-span-4 lg:col-start-12 lg:col-span-5 md:max-w-none">
+                    <span class="mb-2 tracking-tight text-white">Sign up for Investing Intel Newsletter</span>
+                    <section class="relative grid gap-4">
+                        <div wire:key="lw-3627513090-0-5" wire:snapshot="{&quot;data&quot;:{&quot;submissionMessage&quot;:&quot;You are subscribed!&quot;,&quot;buttonLabel&quot;:&quot;Subscribe&quot;,&quot;privacyPolicy&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;email&quot;:&quot;&quot;,&quot;subscribed&quot;:false,&quot;darkMode&quot;:true,&quot;darkFont&quot;:false,&quot;isPageProtected&quot;:false,&quot;pageType&quot;:&quot;&quot;,&quot;pageUrl&quot;:&quot;&quot;,&quot;clientCampaignCode&quot;:&quot;&quot;,&quot;isClientCampaignPage&quot;:false,&quot;isClientCampaignReportPage&quot;:false,&quot;extraFields&quot;:[{&quot;my_name&quot;:&quot;&quot;,&quot;valid_from&quot;:&quot;eyJpdiI6IlRnZ2pJREtCYTRwS2dOMGx6UElyREE9PSIsInZhbHVlIjoiNFAxWUZ4VzlZQmc3M01jZUQwWHFKdz09IiwibWFjIjoiN2EyN2VmYjgyY2M4YWEyODdjODJmMGJhZTI1NWE1ZGZiYjA1YWM5MWI5YThhMTdkNzM1ODVmYjk0MzU3MWI1NCIsInRhZyI6IiJ9&quot;},{&quot;class&quot;:&quot;Spatie\\Honeypot\\Http\\Livewire\\Concerns\\HoneypotData&quot;,&quot;s&quot;:&quot;wrbl&quot;}]},&quot;memo&quot;:{&quot;id&quot;:&quot;hkrNC9KKlWHLK3XZZc8F&quot;,&quot;name&quot;:&quot;subscriber-form&quot;,&quot;path&quot;:&quot;cryptocurrency\/news\/ondo-global-markets-reaches-1-billion-in-tokenized-stocks-and-etfs&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;release&quot;:&quot;a-a-a&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;,&quot;islands&quot;:[]},&quot;checksum&quot;:&quot;7d7de94bac86a632c1c386719fde2b0ce5d652a004d7413aaebe48cfff44d638&quot;}" wire:effects="{&quot;partials&quot;:[],&quot;listeners&quot;:[&quot;send-meta-data&quot;]}" wire:id="hkrNC9KKlWHLK3XZZc8F" wire:name="subscriber-form">
+    <!--[if BLOCK]><![endif]-->        <form wire:submit.prevent="submit" class="w-full max-w-md lg:col-span-5 lg:pt-2" x-data="{ darkMode: 1 }">
+            <!--[if BLOCK]><![endif]-->    <div id="my_name_IahlfzuiUO7N6xQD_wrap"  style="display: none" aria-hidden="true">
+        <input id="my_name_IahlfzuiUO7N6xQD"
+               name="my_name_IahlfzuiUO7N6xQD"
+               type="text"
+               value=""
+                wire:model.defer="extraFields.my_name"                autocomplete="nope"
+               tabindex="-1">
+        <input name="valid_from"
+               type="text"
+               value="eyJpdiI6IjRhRkxKdFJaek5hck1jZjhiL2pRQ2c9PSIsInZhbHVlIjoiTzFJL1BkamJIK1oxcGZva3hhUFNhUT09IiwibWFjIjoiYWIyNGFmNzhhOGIxN2U1ZTkxZmFjNDVjZjNkNzk0ODUxNTkyOTFjMWRiZWQ0ZTNjMGIzMTcxYWRmODdjZWUyMyIsInRhZyI6IiJ9"
+                wire:model.defer="extraFields.valid_from"                autocomplete="off"
+               tabindex="-1">
+    </div>
+<!--[if ENDBLOCK]><![endif]-->            <div class="flex gap-x-4">
+                <label for="email" class="sr-only">Email address</label>
+                <input wire:model="email" id="email" name="email" type="email" autocomplete="email"
+                       :class="{'text-white placeholder:text-white ring-white/10 focus:ring-brand-500': darkMode, 'text-gray-900 bg-white ring-gray-300 placeholder:text-gray-400 focus:ring-brand-500': !darkMode }"
+                       class="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 shadow-xs ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6"
+                       placeholder="Enter your email">
+                <button type="submit"
+                        id="subBtn_812"
+                        :class="{'bg-brand-600 hover:bg-brand-700 focus-visible:outline-brand-500': darkMode, 'bg-brand-600 hover:bg-brand-500 focus-visible:outline-brand-600': !darkMode }"
+                        class="flex-none rounded-md py-2.5 px-3.5 text-sm font-semibold text-white shadow-xs focus-visible:outline-solid focus-visible:outline-2 focus-visible:outline-offset-2 ">Subscribe</button>
+            </div>
+            <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->            <div class="mt-4">
+                <div class="flex items-center">
+                    <input type="checkbox" required
+                           id="chkBox_812"
+                           class="checkbox-brand rounded-sm border-gray-300 shadow-xs"
+                           wire:model="privacyPolicy">
+                    <span class="text-white ml-2 text-sm">I agree to the <a href="/privacy-policy" class="font-semibold text-brand-600 hover:text-brand-500">privacy policy</a>.</span>
+                </div>
+                <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->            </div>
+        </form>
+    <!--[if ENDBLOCK]><![endif]--></div>
+
+<!--[if BLOCK]><![endif]-->    <!--[if ENDBLOCK]><![endif]-->                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-4 px-4 text-white bg-gray-700">
+        <div class="max-w-(--breakpoint-2xl) mx-auto md:mx-auto">
+            <h3 class="mb-2 text-xs bold">Disclaimers:</h3>
+            <div class="grid grid-cols-2 gap-5 md:py-2 text-sm">
+                <div class="col-span-2 text-disclaimer">
+                    <p>The content of this site is intended to be used, and must only be used for information purposes only. It is very important to do your own analysis before making any investment based on your personal circumstances. You should take independent financial advice from a regulated FCA advisor in connection with, or independently research and verify any information that you find on this site, and wish to rely on whether for the purpose of making an investment decision or otherwise. No news or research item is a personal recommendation to deal or invest in any particular company or product, nor does Valuethemarkets.com or Digitonic Ltd endorse any investment or product</p>
+                </div>
+                <div class="col-span-2 text-disclaimer md:col-span-1">
+                    <p>This website is a news website only. Valuethemarkets.com and Digitonic Ltd are not a broker/dealer, we are not an investment advisor, we have no access to non-public information about publicly traded companies, and this is not a place for the giving or receiving of financial advice, advice concerning investment decisions or tax or legal advice.</p>
+                </div>
+                <div class="col-span-2 text-disclaimer md:col-span-1">
+                    <p>We are not regulated by the Financial Conduct Authority. You will have no right to complain to the Financial Ombudsman Services or to seek compensation from the Financial Services Compensation Scheme. All investments can fall as well as rise in value so you could lose some or all of your investment. Past performance is not an indicator of future performance.</p>
+                </div>
+                <div class="col-span-2 text-disclaimer">
+                    <p>Market data provided can be delayed by at least 15-minutes. Data sourced from TradingView. To see all exchange delays and terms of use, please see disclaimer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<link rel="modulepreload" as="script" href="https://www.valuethemarkets.com/build/assets/app-D_XiFKT2.js" /><script type="module" src="https://www.valuethemarkets.com/build/assets/app-D_XiFKT2.js" data-navigate-track="reload"></script><script src="https://www.valuethemarkets.com/livewire-24acf3ea/livewire.min.js?id=657d57c2"   data-csrf="" data-module-url="https://www.valuethemarkets.com/livewire-24acf3ea" data-update-uri="https://www.valuethemarkets.com/livewire-24acf3ea/update" data-navigate-once="true"></script>
+        <script>
+            let subBtn_248 = document.getElementById('subBtn_248');
+            if (subBtn_248) {
+                subBtn_248.addEventListener('click', function () {
+                    const chkBox = document.getElementById('chkBox_248');
+                    if (chkBox && chkBox.checked) {
+                        window.dataLayer.push({
+                            event: 'newsletterSignup',
+                            eventCategory: 'User Interaction',
+                            eventAction: 'Newsletter Signup'
+                        });
+                    }
+                });
+            }
+        </script>
+            <script>
+            let subBtn_754 = document.getElementById('subBtn_754');
+            if (subBtn_754) {
+                subBtn_754.addEventListener('click', function () {
+                    const chkBox = document.getElementById('chkBox_754');
+                    if (chkBox && chkBox.checked) {
+                        window.dataLayer.push({
+                            event: 'newsletterSignup',
+                            eventCategory: 'User Interaction',
+                            eventAction: 'Newsletter Signup'
+                        });
+                    }
+                });
+            }
+        </script>
+            <script>
+            let subBtn_18 = document.getElementById('subBtn_18');
+            if (subBtn_18) {
+                subBtn_18.addEventListener('click', function () {
+                    const chkBox = document.getElementById('chkBox_18');
+                    if (chkBox && chkBox.checked) {
+                        window.dataLayer.push({
+                            event: 'newsletterSignup',
+                            eventCategory: 'User Interaction',
+                            eventAction: 'Newsletter Signup'
+                        });
+                    }
+                });
+            }
+        </script>
+            <script>
+            let subBtn_812 = document.getElementById('subBtn_812');
+            if (subBtn_812) {
+                subBtn_812.addEventListener('click', function () {
+                    const chkBox = document.getElementById('chkBox_812');
+                    if (chkBox && chkBox.checked) {
+                        window.dataLayer.push({
+                            event: 'newsletterSignup',
+                            eventCategory: 'User Interaction',
+                            eventAction: 'Newsletter Signup'
+                        });
+                    }
+                });
+            }
+        </script>
+    
+<script type="module" src="https://widget.faqsir.com/index.js"></script>
+    <script>
+        window.faqsir = window.faqsir || {
+            api_key: '1|iX6pm1NId6eX4kFctfWpzQYZ4DjYw6jAqAqorifT8a621790',
+            site_id: '',
+            options: {"api_url":"https:\/\/faqsir.com\/api","show_sentiment":false,"exclusive":true,"sticky_cta":{"enabled":true,"position":"bottom-center"}}        };
+    </script>
+<aside id="cookies-policy" class="cookies cookies--no-js" data-text="{&quot;more&quot;:&quot;More details&quot;,&quot;less&quot;:&quot;Less details&quot;}">
+    <div class="cookies__alert">
+        <div class="cookies__container">
+            <div class="cookies__wrapper">
+                <h2 class="cookies__title">We use cookies</h2>
+                <div class="cookies__intro">
+                    <p>Value The Markets uses cookies to run the site, understand how it is used and to fund our free content with advertising. You can choose which optional cookies to allow.</p>
+                                            <p>See our <a href="https://www.valuethemarkets.com/policy/cookie">Privacy Policy</a> for details of the cookies we use and how we use your data.</p>
+                                    </div>
+                <div class="cookies__actions">
+                    <form action="https://www.valuethemarkets.com/cookie-consent/accept-essentials" method="post" data-cookie-action="accept.essentials" class="cookiesBtn cookiesBtn--essentials">
+    <input type="hidden" name="_token" value="" autocomplete="off">    <button type="submit" class="cookiesBtn__link">
+        <span class="cookiesBtn__label">Only essentials</span>
+    </button>
+</form>
+                    <form action="https://www.valuethemarkets.com/cookie-consent/accept-all" method="post" data-cookie-action="accept.all" class="cookiesBtn cookiesBtn--accept">
+    <input type="hidden" name="_token" value="" autocomplete="off">    <button type="submit" class="cookiesBtn__link">
+        <span class="cookiesBtn__label">Accept all</span>
+    </button>
+</form>
+                </div>
+            </div>
+        </div>
+            <a href="#cookies-policy-customize" class="cookies__btn cookies__btn--customize">
+                <span>Customize</span>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M14.7559 11.9782C15.0814 11.6527 15.0814 11.1251 14.7559 10.7996L10.5893 6.63297C10.433 6.47669 10.221 6.3889 10 6.38889C9.77899 6.38889 9.56703 6.47669 9.41075 6.63297L5.24408 10.7996C4.91864 11.1251 4.91864 11.6527 5.24408 11.9782C5.56951 12.3036 6.09715 12.3036 6.42259 11.9782L10 8.40074L13.5774 11.9782C13.9028 12.3036 14.4305 12.3036 14.7559 11.9782Z" fill="#2C2E30"/>
+                </svg>
+            </a>
+        <div class="cookies__expandable cookies__expandable--custom" id="cookies-policy-customize">
+            <form action="https://www.valuethemarkets.com/cookie-consent/configure" method="post" class="cookies__customize">
+                <input type="hidden" name="_token" value="" autocomplete="off">                <div class="cookies__sections">
+                                        <div class="cookies__section">
+                        <label for="cookies-policy-check-essentials" class="cookies__category">
+                                                            <input type="hidden" name="categories[]" value="essentials" />
+                                <input type="checkbox" name="categories[]" value="essentials" id="cookies-policy-check-essentials" checked="checked" disabled="disabled" />
+                                                        <span class="cookies__box">
+                                <strong class="cookies__label">Essential cookies</strong>
+                            </span>
+                                                            <p class="cookies__info">There are some cookies that we have to include in order for certain web pages to function. For this reason, they do not require your consent.</p>
+                                                    </label>
+
+                        <div class="cookies__expandable" id="cookies-policy-essentials">
+                            <ul class="cookies__definitions">
+                                                                <li class="cookies__cookie">
+                                    <p class="cookies__name">vtm_cookie_consent</p>
+                                    <p class="cookies__duration">1 year</p>
+                                                                            <p class="cookies__description">Used to store the user&#039;s cookie consent preferences.</p>
+                                                                    </li>
+                                                                <li class="cookies__cookie">
+                                    <p class="cookies__name">value_the_markets_session</p>
+                                    <p class="cookies__duration">2 hours</p>
+                                                                            <p class="cookies__description">Used to identify the user&#039;s browsing session.</p>
+                                                                    </li>
+                                                                <li class="cookies__cookie">
+                                    <p class="cookies__name">XSRF-TOKEN</p>
+                                    <p class="cookies__duration">2 hours</p>
+                                                                            <p class="cookies__description">Used to secure both the user and our website against cross-site request forgery attacks.</p>
+                                                                    </li>
+                                                            </ul>
+                        </div>
+                        <a href="#cookies-policy-essentials" class="cookies__details">More details</a>
+                    </div>
+                                        <div class="cookies__section">
+                        <label for="cookies-policy-check-analytics" class="cookies__category">
+                                                            <input type="checkbox" name="categories[]" value="analytics" id="cookies-policy-check-analytics" />
+                                                        <span class="cookies__box">
+                                <strong class="cookies__label">Analytics cookies</strong>
+                            </span>
+                                                            <p class="cookies__info">We use these for internal research on how we can improve the service we provide for all our users. These cookies assess how you interact with our website.</p>
+                                                    </label>
+
+                        <div class="cookies__expandable" id="cookies-policy-analytics">
+                            <ul class="cookies__definitions">
+                                                                <li class="cookies__cookie">
+                                    <p class="cookies__name">_ga</p>
+                                    <p class="cookies__duration">1 year</p>
+                                                                            <p class="cookies__description">Main cookie used by Google Analytics, enables a service to distinguish one visitor from another.</p>
+                                                                    </li>
+                                                                <li class="cookies__cookie">
+                                    <p class="cookies__name">_ga_*</p>
+                                    <p class="cookies__duration">1 year</p>
+                                                                            <p class="cookies__description">Used by Google Analytics to persist session state.</p>
+                                                                    </li>
+                                                                <li class="cookies__cookie">
+                                    <p class="cookies__name">_gid</p>
+                                    <p class="cookies__duration">1 day</p>
+                                                                            <p class="cookies__description">Used by Google Analytics to identify the user.</p>
+                                                                    </li>
+                                                            </ul>
+                        </div>
+                        <a href="#cookies-policy-analytics" class="cookies__details">More details</a>
+                    </div>
+                                        <div class="cookies__section">
+                        <label for="cookies-policy-check-advertising" class="cookies__category">
+                                                            <input type="checkbox" name="categories[]" value="advertising" id="cookies-policy-check-advertising" />
+                                                        <span class="cookies__box">
+                                <strong class="cookies__label">Advertising cookies</strong>
+                            </span>
+                                                            <p class="cookies__info">Set by Google AdSense to serve and measure the adverts that keep our content free. Without them no adverts are shown.</p>
+                                                    </label>
+
+                        <div class="cookies__expandable" id="cookies-policy-advertising">
+                            <ul class="cookies__definitions">
+                                                                <li class="cookies__cookie">
+                                    <p class="cookies__name">__gads</p>
+                                    <p class="cookies__duration">1 year</p>
+                                                                            <p class="cookies__description">Used by Google AdSense to deliver and measure adverts.</p>
+                                                                    </li>
+                                                                <li class="cookies__cookie">
+                                    <p class="cookies__name">__gpi</p>
+                                    <p class="cookies__duration">1 year</p>
+                                                                            <p class="cookies__description">Used by Google AdSense to personalise adverts.</p>
+                                                                    </li>
+                                                                <li class="cookies__cookie">
+                                    <p class="cookies__name">IDE</p>
+                                    <p class="cookies__duration">1 year</p>
+                                                                            <p class="cookies__description">Used by Google DoubleClick to measure advert performance.</p>
+                                                                    </li>
+                                                            </ul>
+                        </div>
+                        <a href="#cookies-policy-advertising" class="cookies__details">More details</a>
+                    </div>
+                                    </div>
+                <div class="cookies__save">
+                    <button type="submit" class="cookiesBtn__link">Save settings</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</aside>
+
+
+
+<script data-cookie-consent>
+    (()=>{var e,t={148:()=>{var e=document.querySelector("#cookies-policy"),t=document.querySelector(".cookiereset");if(t&&t.addEventListener("submit",(function(e){return function(e){if(e.preventDefault(),document.querySelector("#cookies-policy"))return;window.LaravelCookieConsent.reset()}(e)})),e){var o=e.querySelector(".cookies__btn--customize"),n=e.querySelectorAll(".cookies__details"),i=e.querySelector(".cookiesBtn--accept"),r=e.querySelector(".cookiesBtn--essentials"),s=e.querySelector(".cookies__customize"),c=JSON.parse(e.getAttribute("data-text"));e.removeAttribute("data-text"),e.classList.remove("cookies--no-js"),e.classList.add("cookies--closing"),setTimeout((function(){e.classList.remove("cookies--closing")}),310);for(var u=0;u<n.length;u++)n[u].addEventListener("click",(function(e){return a(e,e.target,!1)}));o.addEventListener("click",(function(e){return a(e,o)})),i.addEventListener("submit",(function(e){return function(e){e.preventDefault(),window.LaravelCookieConsent.acceptAll(),l()}(e)})),r.addEventListener("submit",(function(e){return function(e){e.preventDefault(),window.LaravelCookieConsent.acceptEssentials(),l()}(e)})),s.addEventListener("submit",(function(e){return function(e){e.preventDefault(),window.LaravelCookieConsent.configure(new FormData(e.target)),l()}(e)})),window.addEventListener("resize",(function(t){window.innerHeight<=e.offsetHeight?e.querySelector(".cookies__sections").style.maxHeight="50vh":e.querySelector(".cookies__sections").removeAttribute("style")}))}function a(t,o){var n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];t.preventDefault(),t.target.blur();var i=e.querySelector(o.getAttribute("href")),r=i.firstElementChild.offsetHeight,s=i.classList.contains("cookies__expandable--open");i.setAttribute("style","height:"+(s?r:0)+"px"),function(e,t,o){if(e)return;o.target.textContent=t?c.more:c.less}(n,s,t),setTimeout((function(){i.classList.toggle("cookies__expandable--open"),i.setAttribute("style","height:"+(s?0:r)+"px"),setTimeout((function(){i.removeAttribute("style")}),310)}),10),function(t,o){if(!t)return;var n=e.querySelector(".cookies__container"),i=n.firstElementChild.offsetHeight;n.setAttribute("style","height:"+(o?0:i)+"px"),setTimeout(function(e){return function(){e.classList.toggle("cookies--show"),n.classList.toggle("cookies__container--hide"),n.setAttribute("style","height:"+(o?i:0)+"px"),setTimeout((function(){n.removeAttribute("style")}),320)}}(e),10)}(n,s)}function l(){e.classList.add("cookies--closing"),setTimeout(function(e){return function(){e.parentNode.querySelectorAll("[data-cookie-consent]").forEach((function(e){e.parentNode.removeChild(e)})),e.parentNode.removeChild(e)}}(e),210)}},985:()=>{}},o={};function n(e){var i=o[e];if(void 0!==i)return i.exports;var r=o[e]={exports:{}};return t[e](r,r.exports,n),r.exports}n.m=t,e=[],n.O=(t,o,i,r)=>{if(!o){var s=1/0;for(l=0;l<e.length;l++){for(var[o,i,r]=e[l],c=!0,u=0;u<o.length;u++)(!1&r||s>=r)&&Object.keys(n.O).every((e=>n.O[e](o[u])))?o.splice(u--,1):(c=!1,r<s&&(s=r));if(c){e.splice(l--,1);var a=i();void 0!==a&&(t=a)}}return t}r=r||0;for(var l=e.length;l>0&&e[l-1][2]>r;l--)e[l]=e[l-1];e[l]=[o,i,r]},n.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{var e={879:0,314:0};n.O.j=t=>0===e[t];var t=(t,o)=>{var i,r,[s,c,u]=o,a=0;if(s.some((t=>0!==e[t]))){for(i in c)n.o(c,i)&&(n.m[i]=c[i]);if(u)var l=u(n)}for(t&&t(o);a<s.length;a++)r=s[a],n.o(e,r)&&e[r]&&e[r][0](),e[r]=0;return n.O(l)},o=self.webpackChunklaravel_cookie_consent=self.webpackChunklaravel_cookie_consent||[];o.forEach(t.bind(null,0)),o.push=t.bind(null,o.push.bind(o))})(),n.O(void 0,[314],(()=>n(148)));var i=n.O(void 0,[314],(()=>n(985)));i=n.O(i)})();
+</script>
+<style data-cookie-consent>
+    #cookies-policy.cookies{bottom:0;font-size:16px;max-height:100%;max-width:100%;overflow:auto;position:fixed;right:0;transition:transform .2s ease-out,opacity .2s ease-out;z-index:9999}#cookies-policy.cookies--closing{opacity:0;transform:translateY(10px)}#cookies-policy.cookies--show .cookies__btn--customize{border-bottom:1px solid #e7e8e9;border-top:none}#cookies-policy.cookies--show .cookies__btn svg{transform:rotate(180deg)}#cookies-policy.cookies--no-js .cookies__expandable:target,#cookies-policy.cookies--no-js .cookies__section .cookies__expandable{height:auto;opacity:1;transition:height .3s ease-out,opacity .3s ease-out;visibility:visible}#cookies-policy.cookies--no-js .cookies__details{display:none}#cookies-policy.cookies--no-js .cookies__sections{max-height:-moz-fit-content;max-height:fit-content}#cookies-policy.cookies--no-js svg{display:none}#cookies-policy .cookies__expandable{display:block;height:0;opacity:0;overflow:hidden;transition:height .3s ease-out,opacity .3s ease-out,visibility 0s linear .3s;visibility:hidden}#cookies-policy .cookies__expandable--open{height:auto;opacity:1;transition:height .3s ease-out,opacity .3s ease-out;visibility:visible}#cookies-policy .cookies__alert{background:#fff;border:1px solid #e7e8e9;border-radius:8px;box-shadow:0 12px 12px -8px rgba(0,0,0,.08),0 0 4px rgba(0,0,0,.04);margin:4%;max-height:90%;max-width:90%;width:22em}#cookies-policy .cookies__container{display:block;height:auto;opacity:1;overflow:hidden;transition:height .3s ease-out,opacity .3s ease-out,visibility 0s linear .1s;visibility:visible}#cookies-policy .cookies__container--hide{height:0;opacity:0;transition:height .3s ease-out,opacity .3s ease-out,visibility 0s linear .3s;visibility:hidden}#cookies-policy .cookies__wrapper{padding:1em 1.5em}#cookies-policy .cookies__title{color:#2c2e30;font-weight:700;line-height:1.4em;margin-bottom:.8em}#cookies-policy .cookies__intro{color:#2c2e30;font-size:.875em;font-weight:450;line-height:1.4em}#cookies-policy .cookies__intro p{margin-top:1em}#cookies-policy .cookies__intro p:first-child{margin-top:0}#cookies-policy .cookies__intro a{color:inherit;text-decoration:underline;transition:color .2s ease-out}#cookies-policy .cookies__intro a:focus,#cookies-policy .cookies__intro a:hover{color:#7959ef}#cookies-policy .cookies__actions{display:flex;flex-direction:column;gap:4px;justify-content:space-between;margin-top:1em}#cookies-policy .cookies__btn--customize{align-items:center;border-top:1px solid #e7e8e9;color:#2c2e30;display:flex;font-size:.875em;font-weight:600;justify-content:space-between;line-height:1em;padding:1.125em 24px;position:relative;text-decoration:none}#cookies-policy .cookies__btn svg{transition:transform .2s ease-out}#cookies-policy .cookies__sections{max-height:450px;overflow-y:scroll}#cookies-policy .cookies__section{padding:0 1.5em}#cookies-policy .cookies__section+.cookies__section{border-top:1px solid #eee}#cookies-policy .cookies__box,#cookies-policy .cookies__category{display:block;overflow:hidden;position:relative}#cookies-policy .cookies__category input{display:block;margin:0;padding:0;position:absolute;right:105%;top:0}#cookies-policy .cookies__box{cursor:pointer;line-height:1.4em;padding:1em 3em 1em 0}#cookies-policy .cookies__box:after,#cookies-policy .cookies__box:before{border-radius:1.4em;content:"";display:block;position:absolute;top:50%}#cookies-policy .cookies__box:after{background:#e7e8e9;height:1.4em;margin-top:-.7em;right:0;transition:background .2s ease-out,opacity .2s ease-out;width:2.5em;z-index:0}#cookies-policy .cookies__box:before{background:#fff;height:1em;margin-top:-.5em;right:.75em;transform:translateX(-.55em);transition:transform .2s ease-out;width:1em;z-index:1}#cookies-policy .cookies__category input:checked+.cookies__box:after{background:#7959ef;opacity:1}#cookies-policy .cookies__category input:disabled+.cookies__box:after{opacity:.6}#cookies-policy .cookies__category input:checked+.cookies__box:before{transform:translateX(.55em)}#cookies-policy .cookies__label{color:#2c2e30;font-size:.875em;font-weight:600}#cookies-policy .cookies__info{color:#2c2e30;font-size:.875em;font-weight:450;line-height:1.4em}#cookies-policy .cookies__details{color:#7959ef;display:block;font-size:.875em;margin:.625em 0 .9em;transition:color .2s ease-out}#cookies-policy .cookies__details:focus,#cookies-policy .cookies__details:hover{color:#7959ef}#cookies-policy .cookies__definitions{color:#676767;font-size:.875em;line-height:1.2em;padding-top:.8em}#cookies-policy .cookies__cookie+.cookies__cookie{margin-top:1em}#cookies-policy .cookies__name{color:#8a8e92;display:inline;font-weight:600;line-height:22px}#cookies-policy .cookies__duration{color:#8a8e92;display:inline;text-align:right}#cookies-policy .cookies__description{color:#8a8e92;display:block;line-height:120%;padding-top:.3em;text-align:left;width:100%}#cookies-policy .cookies__save{border-top:1px solid #e7e8e9;display:flex;justify-content:flex-end;margin-top:.4em;padding:.75em 1.5em}#cookies-policy .cookiesBtn{width:100%}#cookies-policy .cookiesBtn__link{background:#7959ef;border:1px solid #7959ef;border-radius:4px;color:#fff;cursor:pointer;display:block;font:inherit;font-size:14px;font-weight:600;line-height:1em;margin:0;overflow:hidden;padding:.86em 1em;text-align:center;text-decoration:none;text-overflow:ellipsis;transition:opacity .2s ease-out;white-space:nowrap;width:100%}#cookies-policy .cookiesBtn__link:focus,#cookies-policy .cookiesBtn__link:hover{opacity:.8}
+
+</style>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5b6557e593428c0',t:'MTc5NDgzMDQxMg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5b6557e593428c0',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

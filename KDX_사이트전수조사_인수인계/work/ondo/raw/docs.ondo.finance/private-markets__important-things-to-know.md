@@ -3,7 +3,7 @@ url: https://docs.ondo.finance/private-markets/important-things-to-know
 title: What are the most important things I should know? - Ondo Finance
 description: Key points to understand about Ondo Private Markets Notes.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 
@@ -16,6 +16,10 @@ Copy pageCopy page
 Key points to understand about Ondo Private Markets Notes.
 
 Copy pageCopy page
+
+Access Restricted
+
+The content you are trying to access is not accessible in your region. Ondo Private Markets products are not available in your region. The notes are only offered and sold to organizations and individuals outside the US and other prohibited jurisdictions. See the [Ondo Private Markets eligibility criteria](https://docs.ondo.finance/private-markets/eligibility) for details.
 
 * **It’s a note, not shares.** You don’t own any shares in the Reference Company, and you get no voting, dividend, or information rights.
 * **Your claim is on the Issuer, not the Reference Company.** The Reference Company has not sponsored, approved, or endorsed the notes and has no obligations to holders.

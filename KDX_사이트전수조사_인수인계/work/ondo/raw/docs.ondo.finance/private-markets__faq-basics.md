@@ -3,19 +3,9 @@ url: https://docs.ondo.finance/private-markets/faq-basics
 title: The Basics - Ondo Finance
 description: FAQs on what Ondo Private Markets is and what you are buying.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
-
-## On this page
-
-Back to top
-
-* [1. What is Ondo Private Markets?](https://docs.ondo.finance/private-markets/faq-basics)
-* [2. What am I buying?](https://docs.ondo.finance/private-markets/faq-basics)
-* [3. Am I buying shares in the Reference Company?](https://docs.ondo.finance/private-markets/faq-basics)
-* [4. How do I identify Ondo Private Markets assets?](https://docs.ondo.finance/private-markets/faq-basics)
-* [5. Can I buy notes in a primary offering?](https://docs.ondo.finance/private-markets/faq-basics)
 
 FAQs
 
@@ -26,6 +16,10 @@ Copy pageCopy page
 FAQs on what Ondo Private Markets is and what you are buying.
 
 Copy pageCopy page
+
+Access Restricted
+
+The content you are trying to access is not accessible in your region. Ondo Private Markets products are not available in your region. The notes are only offered and sold to organizations and individuals outside the US and other prohibited jurisdictions. See the [Ondo Private Markets eligibility criteria](https://docs.ondo.finance/private-markets/eligibility) for details.
 
 ### 1. What is Ondo Private Markets?
 

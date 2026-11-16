@@ -1,0 +1,180 @@
+                                                Prospectus III
+
+Information about Submitting Party
+
+                 Company name        MLL Legal AG
+                       First name    Reto
+                       Last name     Luthiger
+                  E-Mail Address     reto.luthiger@mll-legal.com
+             Telephone Number        +41585520192
+
+
+
+Information about Issuer
+
+      Issuer Standardised name       Backed Assets (JE) Limited
+                 Issuer residency    JE
+                        Issuer LEI   984500001AB7C6C7F577
+   Does the issuer has a Board of    Yes
+              Directors of Issuer?
+Does the issuer has an Executive     No
+  Board/Management of Issuer?
+Does the issuer has shareholders     Yes
+which hold more than 10% of the
+                         shares?
+
+
+
+Member of the Board of Directors of Issuer
+
+                       First name    Roberto Isaac
+                       Last name     Klein
+
+
+                       First name    James
+                       Last name     Cunningham-Davis
+
+
+                       First name    Lindsay
+                       Last name     Bracegirdle
+
+
+                       First name    Roy
+                       Last name     Matas
+
+
+
+
+                                                                   Page 1 of 5
+Major Shareholders of Issuer
+
+              Name legal entity      Backed Finance AG
+
+
+
+General Information about Security
+
+     Name of (Base-)Prospectus       Final Terms
+                           FMA-ID    377027
+
+
+
+List of Offeror/Guarantor
+
+                       Offeror LEI   984500001AB7C6C7F577
+     Offeror standardised name       Backed Assets (JE) Limited
+               Offeror residency     JE
+
+
+
+Securities Record
+
+                     Request type    MODF (Modification of a document record)
+                Document type        FTWS (Final terms, including the summary of the indicidual issue annexed
+                                     to them)
+                    Structure type   SPWS (Tripartite prospectus with Summary)
+
+
+
+
+                                                                                                        Page 2 of 5
+Receiving Member State   Austria
+                         Belgium
+                         Bulgaria
+                         Croatia
+                         Cyprus
+                         Czech Republic
+                         Denmark
+                         Estonia
+                         Finland
+                         France
+                         Germany
+                         Greece
+                         Hungary
+                         Island
+                         Italy
+                         Latvia
+                         Lithuania
+                         Luxembourg
+                         Malta
+                         Netherlands
+                         Norway
+                         Poland
+                         Republic of Ireland
+                         Romania
+                         Slovakia
+                         Slovenia
+                         Spain
+                         Sweden
+
+
+
+
+                                               Page 3 of 5
+            Document language       German
+                                    English
+                                    Bulgarian
+                                    Croatian
+                                    Estonian
+                                    French
+                                    Greek
+                                    Hungarian
+                                    Icelandic
+                                    Italian
+                                    Latvian
+                                    Lithuanian
+                                    Polish
+                                    Romanian
+                                    Slovak
+                                    Slovenian
+                                    Spanish
+                                    Swedish
+         Approval Or Filling Date   17.11.2025
+     Document date (Issue Date)     14.11.2025
+
+
+
+List of Financial Instruments
+
+               Name of Security     Visa xStock
+                            FISN    Vx
+                            ISIN    CH1436219310
+                             CFI    DEMMRS
+          Denomination per unit     0.0
+              Issuance currency     CHF
+                 Volume offered     Volume offered to
+                Exact/Maximum       100,000,000.0
+                  Volume raised     Volume raised to
+                Exact/Maximum       100,000,000.0
+                    Price offered   NOAP - Not applicable
+          Consideration offered     NOAP - Not applicable
+        Identifier or name of the   In case of security or index with existing ISIN
+                       underlying
+                            ISIN    US92826C8394
+
+
+
+
+                                                                                      Page 4 of 5
+                     Bail-in-ability   No
+        Type of offer / admission      IOWA - Initial offer without admission to trading / listing
+                                       Please check the box in case the security is a debt security with undefined
+                                       maturity date (perpetual)
+
+
+
+Type of security
+
+                   Type of security    DWHD (Debt with denomination < €100.000)
+
+
+
+Add Securities Records
+
+         Add Securities Records        No
+
+
+
+
+                                                                                                             Page 5 of 5
+

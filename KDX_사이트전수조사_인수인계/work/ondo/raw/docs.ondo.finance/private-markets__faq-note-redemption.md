@@ -3,25 +3,9 @@ url: https://docs.ondo.finance/private-markets/faq-note-redemption
 title: Note Redemption - Ondo Finance
 description: FAQs on Qualifying Liquidity Events, payouts, and the claim process.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
-
-## On this page
-
-Back to top
-
-* [9. How do Note redemptions work?](https://docs.ondo.finance/private-markets/faq-note-redemption)
-* [10. What constitutes a Qualifying Liquidity Event?](https://docs.ondo.finance/private-markets/faq-note-redemption)
-* [11. How much does a note pay upon a Qualifying Liquidity Event?](https://docs.ondo.finance/private-markets/faq-note-redemption)
-* [12. When do I get paid after an IPO?](https://docs.ondo.finance/private-markets/faq-note-redemption)
-* [13. How is the payout price calculated for an IPO redemption?](https://docs.ondo.finance/private-markets/faq-note-redemption)
-* [14. What if the payout is triggered by something other than an IPO?](https://docs.ondo.finance/private-markets/faq-note-redemption)
-* [15. What if no liquidity event happens?](https://docs.ondo.finance/private-markets/faq-note-redemption)
-* [16. Do I get paid automatically?](https://docs.ondo.finance/private-markets/faq-note-redemption)
-* [17. What happens to my notes after I’m paid?](https://docs.ondo.finance/private-markets/faq-note-redemption)
-* [18. Do I earn anything while I hold?](https://docs.ondo.finance/private-markets/faq-note-redemption)
-* [19. Can I convert my notes into the company’s listed stock after an IPO?](https://docs.ondo.finance/private-markets/faq-note-redemption)
 
 FAQs
 
@@ -32,6 +16,10 @@ Copy pageCopy page
 FAQs on Qualifying Liquidity Events, payouts, and the claim process.
 
 Copy pageCopy page
+
+Access Restricted
+
+The content you are trying to access is not accessible in your region. Ondo Private Markets products are not available in your region. The notes are only offered and sold to organizations and individuals outside the US and other prohibited jurisdictions. See the [Ondo Private Markets eligibility criteria](https://docs.ondo.finance/private-markets/eligibility) for details.
 
 ### 9. How do Note redemptions work?
 

@@ -1,0 +1,204 @@
+
+Backed
+Docs
+Issuer
+Platform
+xStocks
+Ecosystem
+Company
+News
+Contact
+DeFi Dashboard
+The Future Is xStocks: Upgrading bTokens
+xStocks are the next evolution of bTokens — same underlying exposure, now with greater liquidity, adoption, and onchain utility.
+Backed set out to bring traditional assets onchain, borderless, permissionless, open to everyone. That vision is now a reality. With over 100 tokenized stocks and ETFs, xStocks have become the leading tokenized stocks product in the market, with billions in combined exchange and onchain volume since launch.
+As part of Payward, Backed is consolidating its product line. bTokens, the original product that started it all, are being upgraded to xStocks. The bTokens product line will be gradually wound down by the end of 2026.
+Why Upgrade
+bTokens and xStocks share the same issuer, prospectus, collateral structure, and investor protections. Both are fully collateralized 1:1 by the underlying asset. If you hold bTSLA, you can swap it to TSLAx. Same underlying, same exposure, same rights.
+xStocks build on this foundation with greater utility and adoption: capital market liquidity during the week, onchain price discovery on weekends, DeFi integrations across SVM and EVM including lending and yield, and access through major exchanges. Over 100,000 unique onchain holders and $25 billion in total transaction volume in under eight months confirm the demand.
+How to Upgrade
+Onboarded clients
+ can swap bTokens for the corresponding xStocks directly with the issuer, or redeem bTokens to stablecoin using the standard redemption process.
+bToken holders
+ can access onchain liquidity to swap from bTokens to xStocks on supported decentralized venues such as CoW Swap.
+bTokens will remain redeemable throughout the wind-down period. We encourage all bToken holders to upgrade ahead of the end-of-2026 deadline. For support, contact 
+[email protected]
+ETF Mapping
+For equities, the upgrade is 1:1. For example, bTSLA to TSLAx, bNVDA to NVDAx, bAAPL to AAPLx, and so on.
+For ETFs, xStocks offers an updated selection with similar investment exposure. The exchange ratio will be determined by the issuer.
+bToken
+xStock
+bCSPX
+SPYx
+bC3M
+TBLLx
+bIB01
+TBLLx
+bIBTA
+TBLLx
+bHIGH
+TBLLx
+For more information on xStocks, visit 
+xstocks.fi
+. For bToken documentation and legal resources, visit 
+assets.backed.fi
+‍
+xStocks are issued by Backed Assets (JE) Limited (a Jersey private limited company) and offered to eligible Kraken customers via Payward Digital Solutions Ltd. ("PDSL"), a company licensed to conduct digital asset business by the Bermuda Monetary Authority. In the European Union / European Economic Area, xStocks are offered to eligible customers via Payward Europe Digital Solutions (CY) Ltd. ("PEDLS-CY"), a Cyprus investment firm authorized and regulated under EU MiFID II. xStocks are not registered under the U.S. Securities Act and are not available in the United States or to U.S. persons. xStocks are also not currently available in the United Kingdom or in any other jurisdiction where their offer or distribution would be unlawful or would require regulatory authorization that has not been obtained. Neither PDSL, PEDLS-CY, nor their respective Kraken affiliates provide investment advice or recommendations, and no communication, through any Kraken App or website or otherwise, should be construed as such. Individual investors should make their own decisions or seek professional independent advice if they are unsure as to the suitability / appropriateness of any investment for their circumstances or needs, including potential tax treatment. Investing in xStocks involves an element of risk. The value of an investment may go down as well as up, and past performance is not a reliable indicator of future results. Geo restrictions apply. Read Kraken's xStocks Risk Disclosure at kraken.com/legal/xstocks as well as the Base Prospectus and related Final Terms for xStocks at 
+https://assets.backed.fi/legal-documentation
+ to learn more.
+Close Cookie Preference Manager
+Cookie Settings
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage and assist in our marketing efforts. 
+More info
+Strictly Necessary (Always Active)
+Cookies required to enable basic website functionality.
+Marketing
+Cookies used to deliver advertising that is more relevant to you and your interests.
+Personalization
+Cookies allowing the website to remember choices you make (such as your user name, language, or the region you are in).
+Analytics
+Cookies helping understand how this website performs, how visitors interact with the site, and whether there may be technical issues.
+Accept All Cookies
+Save Settings
+Made by 
+Flinch 77
+Oops! Something went wrong while submitting the form.
+Cookies Preferences
+Close Cookie Popup
+Cookie Settings
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage and assist in our marketing efforts. For more information on our use of cookies please see our
+Privacy Notice
+Accept All Cookies
+Cookie Settings
+More from Backed
+Backed Joins Kraken
+We become part of Kraken to push tokenized equities to the next stage
+December 2, 2025
+xStocks are going Live: Tokenized Stocks for the DeFi Era
+Over 60 tokenized stocks coming to Bybit, Kraken, and Solana DeFi today
+September 26, 2025
+Backed Welcomes Alchemy Pay to the xStocks Alliance
+Pioneering a New Era of Global, Accessible Tokenized Equities
+September 26, 2025
+Backed Announces xStocks: Coming Soon to Kraken and Solana
+Backed is thrilled to unveil xStocks, a new line of over 55 tokenized stocks and ETFs, set to launch soon on Kraken and integrated with Solana’s best DeFi apps. 
+May 28, 2025
+Backed's Tokenized Coinbase Stock and S&P 500 Launches on Avalanche
+March 18, 2025
+Backed issued Tokenized Coinbase Stock ($bCOIN) on Base
+March 9, 2025
+Assetera Lists Backed’s Tokenized NVIDIA, Coinbase and S&P500 Assets on Polygon
+European regulated trading venue enables 24/7 blockchain-based trading of traditional securities, starting with blue-chip stock and T-Bill trackers, bringing unprecedented liquidity to tokenized assets.
+March 3, 2025
+Backed, Sonic, and Chainlink Partner with Fortlake for Landmark Fund Tokenization
+March 3, 2025
+Backed Is Now All-In on Chainlink Tokenized Asset Infrastructure
+March 3, 2025
+Backed and eNor Securities partner to list RWAs on emerging market exchange
+Backed, a leading innovator in asset tokenization, today announced a groundbreaking partnership with eNor Securities, a regulated investment exchange and marketplace for tokenized assets in Latin America. This collaboration marks a milestone in which Backed's tokenized securities, also known as Real World Assets (RWAs), will be offered by a licensed investment exchange to retail investors in the fast-growing LATAM market.
+March 3, 2025
+Backed and Lisk Announce Strategic Partnership to Foster Real-World Asset Adoption in Emerging Markets
+Backed, a pioneer in the tokenization of real-world assets (RWAs), and Lisk, the Layer 2 blockchain dedicated to bringing Web3 adoption in emerging markets back to Ethereum, today announced a strategic partnership aimed at accelerating RWA adoption and financial inclusion in emerging markets.
+March 3, 2025
+INX and Backed Launch On-Chain Tokenized NVIDIA Stock Trading
+INX, the regulated marketplace for trading security tokens and tokenized real-world assets, and Backed, a pioneer in real-world asset tokenization, today announced the listing of tokenized stock on the INX platform for eligible non-US users. This groundbreaking partnership begins with the launch of bNVDA, a tokenized security backed one-to-one by NVIDIA Corp (NVDA) stock, issued on the Ethereum network, with the blockchain ledger conveying ownership.
+March 3, 2025
+Backed Launches Five New Tokenized Equities Including bGOOGL, bTSLA, and bGME
+Backed, a pioneer in real-world asset tokenization, has unveiled a new range of tokenized equities backed one-to-one by stocks of some of the world’s largest companies.
+March 3, 2025
+Backed launches tokenization platform for institutions
+Backed announced the launch of its comprehensive suite of services providing tokenization solutions for institutions.
+March 3, 2025
+PayPal’s PYUSD gets DeFi yield powered by Backed’s real-world assets on Morpho
+PayPal’s PYUSD gets DeFi yield powered by Backed’s real-world assets on Morpho
+March 3, 2025
+Backed joins Tokenized Asset Coalition
+Backed is happy to announce that they are joining the Tokenized Asset Coalition alongside 16 new members. The Coalition - founded by Aave Companies, Base, Centrifuge, Circle, Coinbase, Credix, Goldfinch and RWA.xyz - aims to bring the “next trillion dollars of assets” on-chain - and Backed will now be involved in education, advocacy, and pushing the adoption of tokenized assets as part of the group.
+March 3, 2025
+Chainlink Proof of Reserve (PoR) Is Now Active for Backed’s Tokenized Real-World Assets (RWAs)
+Backed is pleased to announce that we have integrated Chainlink Proof of Reserve (PoR). This development provides users with a transparent and trust-minimized means to confirm the collateralization of our tokenized assets.
+March 3, 2025
+Backed issues the first tokenized security on Base
+Backed has issued the first tokenized security on Base - bIB01, a tokenized short-term US treasury bond ETF. Base, Coinbase’s L2 network, offers a low-cost, developer-friendly way to build on-chain. Backed has been enthusiastically preparing for Base’s mainnet launch, working diligently to ensure its tokenized RWAs are available for eligible users.
+March 3, 2025
+Backed now natively issues tokens on BNB Smart Chain: enabling new integrations and scalability
+Backed has extended its native token issuance to include the BNB Smart Chain (BSC) to bring our products to a wider audience and give our clients the flexibility to choose the blockchain that works best for their use case. 
+March 3, 2025
+Chainlink Price Feeds Are Now Available to Support the Adoption of Backed’s Tokenized Real-World Assets 
+Chainlink Price Feeds are now available for the underlying assets for our bTokens: bIB01, bIBTA, and bCSPX.
+March 3, 2025
+Backed expands native token issuance to Polygon: unlocking new opportunities for real-world asset integration
+Bridging real-world assets on-chain: now with Polygon compatibility.
+March 3, 2025
+Backed expands native token availability to Gnosis Chain: pioneering real-world asset integration to the cutting-edge blockchain
+Introducing Backed Tokens on Gnosis Chain for seamless on-chain asset management.
+March 3, 2025
+Backed fixed-income products: a robust on-chain treasury management solution
+In finance, treasury optimization involves managing a company, protocol, or institution's cash and investments to maximize returns while minimizing risk.
+March 3, 2025
+De-risking bank runs with tokenized securities
+The last few days have seen unprecedented shocks in the crypto and tech space due primarily to the bankruptcy of Silicon Valley Bank. Silicon Valley Bank (SVB) was the 16th bank in the US by asset and the bank of choice for many tech start-ups in the Bay area and worldwide.
+March 3, 2025
+Backed is bringing real-world assets to Base
+Following the announcement of Base testnet, Backed is proud to announce that we will support the testnet launch and bring real-world assets to Base.
+March 3, 2025
+Introducing: bCSPX
+We are delighted to announce our first product, bCSPX.
+March 3, 2025
+Backed is integrating Chainlink Proof of Reserve to increase the transparency of bToken reserves
+We're excited to announce that Backed is integrating Chainlink Proof of Reserve to increase the transparency of bToken reserves. This integration will provide market participants with higher assurances that each bToken is backed 1:1 by the underlying asset.
+March 3, 2025
+Backed hires Yotam Katznelson as CTO
+We are pleased to welcome Yotam Katznelson as Chief Technology Officer. With our continued rapid growth, Backed needed someone who could bring a wealth of fintech, blockchain and leadership experience to the role.
+March 3, 2025
+Backed appoints Erwan Mismaque as COO
+We are delighted to announce that we have appointed Erwan Mismaque as Chief Operating Officer to continue our rapid growth and become the primary framework for real-world assets on-chain.
+March 3, 2025
+Introducing Backed Finance
+We are excited to announce Backed, a new project expanding access to financial assets by bridging equities into decentralized finance.
+March 3, 2025
+External links
+Docs
+Issuer
+xStocks DeFi Dashboard
+bTokens DeFi Dashboard
+About Backed
+Ecosystem
+Company
+Careers
+News
+Newsletter
+Please tick this box to receive news and updates about our services. Your data will be processed per our 
+privacy policy
+. You can unsubscribe at any time by clicking the link in every email or by emailing 
+[email protected]
+Thanks for subscribing to our Newsletter. 
+We also invite you to check our social channels:
+Oops! Something went wrong while submitting the form. Please try again.
+© 2023 Backed Finance. All rights reserved.
+Privacy Notice
+Terms of Service
+Close Cookie Preference Manager
+Cookie Settings
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage and assist in our marketing efforts. 
+More info
+Strictly Necessary (Always Active)
+Cookies required to enable basic website functionality.
+Marketing
+Cookies used to deliver advertising that is more relevant to you and your interests.
+Personalization
+Cookies allowing the website to remember choices you make (such as your user name, language, or the region you are in).
+Analytics
+Cookies helping understand how this website performs, how visitors interact with the site, and whether there may be technical issues.
+Accept All Cookies
+Save Settings
+Made by 
+Flinch 77
+Oops! Something went wrong while submitting the form.
+Cookies Preferences
+Close Cookie Popup
+Cookie Settings
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage and assist in our marketing efforts. For more information on our use of cookies please see our
+Privacy Notice
+Accept All Cookies
+Cookie Settings

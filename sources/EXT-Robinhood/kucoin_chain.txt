@@ -1,0 +1,43 @@
+
+Robinhood Chain Launches, $12M in Tokenized Stocks Deposited into DeFi | KuCoin
+Robinhood Chain Launches, $12M in Tokenized Stocks Deposited into DeFi
+CryptoBriefing
+Release Time:
+2026/08/24 12:44:23
+Share
+NVDA
+--
+--
+SPY
+--
+--
+Summary
+Robinhood Chain, a new on-chain news story, launched its mainnet on July 1, 2026, built on Arbitrum’s Orbit tech. Users deposited $11.8 million in tokenized stocks like NVDA and SPY into DeFi protocols. Total real-world assets hit $12.8 million by mid-July, with $10.68 million in stock tokens. These debt securities are not available to U.S. persons. A DeFi exploit remains a risk as the chain grows.
+Robinhood just quietly became a blockchain company. The trading platform launched its public mainnet on July 1, 2026, and within weeks, users had deposited roughly $11.8 million worth of tokenized stock into decentralized finance protocols on the new network.
+The leading assets by deposit volume are NVDA, SPY, and SpaceX tokens, a lineup that reads less like a crypto portfolio and more like a boomer’s brokerage account, which is precisely the point.
+What Robinhood Chain actually is
+Robinhood Chain is an Ethereum Layer 2 built on Arbitrum’s Orbit technology, meaning it inherits Ethereum’s security while processing transactions faster and cheaper.
+Advertisement
+The flagship product is Stock Tokens, ERC-20 tokens that give holders 24/7 on-chain economic exposure to equities and ETFs. These are structured as debt securities, not direct equity stakes, which is an important legal distinction that also explains why they are off-limits to US persons entirely.
+By mid-July 2026, total tokenized real-world assets on the chain had reached approximately $12.8 million, with stock tokens accounting for around $10.68 million of that figure. The $11.8 million deposit figure represents how much of that stock token supply has moved into active DeFi usage rather than sitting idle in wallets.
+DeFi meets the S&P 500
+Stock Tokens on Robinhood Chain can be traded on Uniswap and a platform called Arcus, and they can be posted as collateral in lending protocols.
+The choice of SpaceX as one of the top deposited assets is notable on its own. SpaceX is a private company, meaning retail investors have historically had no practical path to owning exposure to it.
+Robinhood secured partnerships with Chainlink for oracle data feeds and BitGo for custodial services. Chainlink’s oracles connect the on-chain tokens to real-world price data, ensuring the stock tokens track actual equity prices. BitGo’s custody role means the underlying assets backing the tokens are held by a regulated, insured custodian rather than an anonymous smart contract.
+Early days, mixed signals
+Early trading on Robinhood Chain was dominated by memecoins and stablecoins, with tokenized equities initially representing roughly 4% of all transactions on the network.
+The US person restriction also creates a ceiling on organic growth from Robinhood’s existing user base. The company’s 24 million funded accounts are predominantly American.
+Source
+:
+Show original
+Disclaimer: The information on this page may have been obtained from third parties and does not necessarily reflect the views or opinions of KuCoin. This content is provided for general informational purposes only, without any representation or warranty of any kind, nor shall it be construed as financial or investment advice. KuCoin shall not be liable for any errors or omissions, or for any outcomes resulting from the use of this information.
+Investments in digital assets can be risky. Please carefully evaluate the risks of a product and your risk tolerance based on your own financial circumstances. For more information, please refer to our 
+Terms of Use
+ and 
+Risk Disclosure
+.
+Go to GemSlot
+Sign Up
+Already have an account?
+Log In
+Featured

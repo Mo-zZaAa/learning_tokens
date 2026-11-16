@@ -1,0 +1,229 @@
+
+Robinhood launches crypto mainnet, expands perpetual futures offerings in EU
+Skip to content
+Fear & Greed
+10
+Extreme Fear
+Crypto market
+$2.24T
+−0.8%
+24h breadth
+116 up
+127 down
+Bitcoin
+$64,832
+−1.3%
+Ethereum
+$1,820
+−0.7%
+Solana
+$71
+−1%
+XRP
+$0.957
++0.6%
+BNB
+$590
++0.1%
+Top gainers
+NES
+$0.168
++25.8%
+VVV
+$20
++15.4%
+MEGA
+$0.049
++14.1%
+Top losers
+BLAST
+$0.00000031
+−63.1%
+BTW
+$0.536
+−25.9%
+0G
+$0.127
+−14.2%
+Stocks
+NVDA
+$163
+−2%
+TSLA
+$390
+−1.8%
+AAPL
+$356
++0.4%
+MSFT
+$524
++0.2%
+COIN
+$128
+−2.3%
+Fear & Greed
+10
+Extreme Fear
+Crypto market
+$2.24T
+−0.8%
+24h breadth
+116 up
+127 down
+Bitcoin
+$64,832
+−1.3%
+Ethereum
+$1,820
+−0.7%
+Solana
+$71
+−1%
+XRP
+$0.957
++0.6%
+BNB
+$590
++0.1%
+Top gainers
+NES
+$0.168
++25.8%
+VVV
+$20
++15.4%
+MEGA
+$0.049
++14.1%
+Top losers
+BLAST
+$0.00000031
+−63.1%
+BTW
+$0.536
+−25.9%
+0G
+$0.127
+−14.2%
+Stocks
+NVDA
+$163
+−2%
+TSLA
+$390
+−1.8%
+AAPL
+$356
++0.4%
+MSFT
+$524
++0.2%
+COIN
+$128
+−2.3%
+Advertisement
+Crypto Briefing 
+Pro
+Follow the news about what you own.
+Add your holdings to find related stories in Pro.
+Create a free account
+Menu
+Search Crypto Briefing
+Crypto sections
+Bitcoin
+Ethereum
+Altcoins
+DeFi
+Stablecoins
+Regulation
+Security
+Create account
+Log in
+Appearance
+System
+System
+Light
+Dark
+Español
+The brokerage's Ethereum Layer 2 chain enables 24/7 trading of tokenized stocks while European users get access to leveraged perpetual futures across commodities, ETFs, and FX
+by 
+Editorial Team
+Thu 2 Jul 2026 · 01:06 EDT
+·
+                            3 min read                        
+In                                 
+Technology
+Share
+ this.removeAttribute('data-copied'), 2000);"
+        class="w-7 h-7 border border-foreground/30 text-foreground rounded-full flex items-center justify-center hover:bg-muted transition-colors"
+        aria-label="Copy link"
+    >
+    Follow on Google
+Robinhood just shipped its own blockchain. The company launched the public mainnet of Robinhood Chain on July 1, an 
+Ethereum
+ Layer 2 network built on the 
+Arbitrum
+ tech stack that enables round-the-clock trading of tokenized US stocks and ETFs.
+Wall Street noticed. Robinhood’s stock climbed 8.1% on the news, as investors priced in the possibility that the retail brokerage might actually pull off its transformation into a full-stack crypto infrastructure company.
+What Robinhood Chain actually does
+The network supports what Robinhood calls “Stock Tokens,” which are tokenized versions of US equities and ETFs that trade 24/7 with zero commissions and dividend support.
+This isn’t entirely new territory for the company. Stock Tokens were initially introduced on Arbitrum One back in June 2025. The mainnet launch moves them onto Robinhood’s own dedicated chain, giving the company more control over the infrastructure and user experience.
+Advertisement
+Crypto Briefing 
+Pro
+Follow the news about what you own.
+Add your holdings to find related stories in Pro.
+Create a free account
+The chain launched with two notable DeFi partners already plugged in. 
+Uniswap
+ and Pleiades were integrated as day-one collaborators, providing liquidity and trading functionality from the jump.
+Two additional products debuted alongside the chain. Robinhood Earn lets users participate in decentralized lending of USDG, a stablecoin, generating yield through DeFi mechanics. And the 
+Lighter
+ DEX offers access to perpetual futures directly through the Robinhood Wallet for eligible customers.
+AI, tech, and the markets they move—in one daily briefing.
+Daily. Free. Join 34,000+ readers across crypto, finance, and policy.
+Email address
+Subscribe free
+We respect your privacy. Unsubscribe anytime.
+EU perpetual futures expansion
+Simultaneously, Robinhood broadened its European crypto offerings in a significant way. The platform now supports perpetual futures trading across commodities, ETFs, and foreign exchange pairs, with leverage up to 10x.
+This EU expansion matters because Europe has become a regulatory sweet spot for crypto derivatives. While the US has largely kept retail traders away from leveraged crypto products, European regulators have been more permissive, creating a competitive market that Robinhood is now entering with force.
+From brokerage app to blockchain company
+The Arbitrum tech stack choice is worth noting. Arbitrum is the most widely used Ethereum Layer 2 by total value locked, and building on its technology gives Robinhood Chain compatibility with the broader Ethereum ecosystem. That means existing DeFi protocols can deploy on Robinhood Chain without rewriting their code from scratch, which explains why Uniswap was ready on day one.
+What this means for investors
+The competitive implications are significant. 
+Coinbase
+ has its own Layer 2, Base, which has gained substantial traction since launching. Robinhood Chain puts the two companies in direct competition not just for trading volume, but for developer attention and DeFi liquidity.
+The tokenized stock angle is perhaps the most disruptive element. Traditional stock settlement still takes one business day. Blockchain settlement is near-instant. The 24/7 availability removes another friction point that has defined markets for over a century.
+Advertisement
+Crypto Briefing 
+Pro
+Follow the news about what you own.
+Add your holdings to find related stories in Pro.
+Create a free account
+Disclosure:
+ This article was edited by Editorial Team. For more information on how we create and review content, see our 
+Editorial Policy
+.
+Next in Technology
+Bank for International Settlements argues stablecoins need central bank support
+Crypto Briefing 
+Pro
+Follow the news about what you own.
+Add your holdings to find related stories in Pro.
+Create a free account
+AI, tech, and the markets they move—in one daily briefing.
+Daily. Free. Join 34,000+ readers across crypto, finance, and policy.
+Email address
+Subscribe free
+×
+Free daily briefing
+Email address
+Join
+×
+Crypto Briefing Pro
+The news about what you hold
+Follow your stocks and crypto. Read the news about them from hundreds of publishers in Pro.
+Create account
+Not now
+Privacy policy

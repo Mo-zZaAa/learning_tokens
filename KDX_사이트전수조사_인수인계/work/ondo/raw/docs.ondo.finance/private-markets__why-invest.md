@@ -3,7 +3,7 @@ url: https://docs.ondo.finance/private-markets/why-invest
 title: Why Invest in Ondo Private Markets Notes - Ondo Finance
 description: Why invest in Ondo Private Markets Notes.
 fetched: 2026-11-16
-method: static
+method: render
 plan: read
 ---
 
@@ -16,6 +16,10 @@ Copy pageCopy page
 Why invest in Ondo Private Markets Notes.
 
 Copy pageCopy page
+
+Access Restricted
+
+The content you are trying to access is not accessible in your region. Ondo Private Markets products are not available in your region. The notes are only offered and sold to organizations and individuals outside the US and other prohibited jurisdictions. See the [Ondo Private Markets eligibility criteria](https://docs.ondo.finance/private-markets/eligibility) for details.
 
 Private markets can offer even more in both breadth and performance than US public markets, which are widely regarded as the global gold standard. [87% of US companies](https://www.apolloacademy.com/many-more-private-firms-in-the-us) with more than $100 million in annual revenue are privately held, including many shaping the next generation of AI, robotics, and more. They can also deliver superior long-term returns. Over the 20 years ending December 2025, US private equity funds [delivered](https://www.cambridgeassociates.com/wp-content/uploads/2026/07/2026-07-US-PE-VC-Benchmark-Commentary-CY2025-Data-PUBLIC.pdf) annualized returns of 13.2%, net of fees, compared with 11.3% for an S&P 500 public-market equivalent. Yet, access to private markets remains out of reach for many retail and high-net worth investors, with high minimum investments creating substantial barriers to entry.Ondo Private Markets Notes make private market exposure accessible:
 
