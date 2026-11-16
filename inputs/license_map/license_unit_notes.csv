@@ -1,0 +1,35 @@
+﻿단,하는 일,구분,내용,출처 링크
+상품 공급,발행,볼 범위,발행 법인이 있는 나라,
+상품 공급,발행,볼 범위,투자자가 법적으로 갖는 것,
+상품 공급,발행,절차와 걸린 시간,"미국 밖 법인 발행이 다수: 저지, 아부다비, 영국령 버진아일랜드",https://degate.com/playbook/tokenized-stock-issuance-models/
+상품 공급,발행,절차와 걸린 시간,"미국 법인 발행: Dinari, Securitize",https://www.prnewswire.com/news-releases/in-an-industry-first-dinari-launches-724-tokenized-stocks-available-to-both-us-investors-and-businesses-302842099.html
+시장 인프라,체결 장소,볼 범위,"야간 ATS 3곳: Bruce ATS, MOON ATS, BOATS",https://www.sec.gov/divisions/marketreg/form-ats-n-filings.htm
+시장 인프라,체결 장소,볼 범위,"토큰증권 ATS: tZERO, Securitize Markets, Oasis Pro",
+시장 인프라,체결 장소,빼도 되는 유형,"대형 증권사 이름이 붙은 기관용 ATS: Barclays, JPM, UBS 등",https://www.sec.gov/divisions/marketreg/form-ats-n-filings.htm
+시장 인프라,체결 장소,빼도 되는 유형,채권용 ATS,
+시장 인프라,체결 장소,빼도 되는 유형,옵션 거래소,
+시장 인프라,체결 장소,절차와 걸린 시간,Securitize: ATS를 가진 증권사를 2020.11 인수,https://www.unlock-bc.com/news/2020-11-25/securitize-sto-platform-acquires-dtm-broker-dealer-in-usa
+시장 인프라,체결 장소,절차와 걸린 시간,Ondo: ATS를 가진 회사를 2025.10 인수,https://www.theblock.co/post/373547/ondo-completes-acquisition-of-us-regulated-broker-oasis-pro
+시장 인프라,"청산, 결제, 보관",볼 범위,"주식 토큰 뒤의 원주를 맡는 곳: Alpaca, Apex",https://coinmarketcap.com/events/tokenized-stocks-cex-vs-onchain/
+시장 인프라,"청산, 결제, 보관",볼 범위,청산과 보관을 직접 하는 곳: Robinhood,https://cdn.robinhood.com/assets/robinhood/legal/Conversion%20Notice%20to%20Customers.pdf
+시장 인프라,"청산, 결제, 보관",빼도 되는 유형,청산기관 9곳은 기존 인프라,
+시장 인프라,"청산, 결제, 보관",절차와 걸린 시간,"Alpaca: 2018 증권사 등록, 2024 자기 청산 전환",https://alpaca.markets/about
+시장 인프라,"청산, 결제, 보관",절차와 걸린 시간,"Robinhood: 2013 증권사 등록, 2018.11 자체 청산 전환",https://cdn.robinhood.com/assets/robinhood/legal/Conversion%20Notice%20to%20Customers.pdf
+시장 인프라,기록,볼 범위,"토큰 보유 기록을 직접 관리하려는 토큰화 회사: Dinari, Securitize, tZERO, Oasis Pro",
+시장 인프라,기록,빼도 되는 유형,은행 감독기관 등록 55곳,
+시장 인프라,기록,빼도 되는 유형,일반 주식 사무 대행사,
+시장 인프라,기록,절차와 걸린 시간,Securitize: 2019.1 신청. 절차가 특별히 까다롭지 않았다고 밝힘,https://dlnews.com/articles/regulation/how-a-crypto-firm-met-gensler-demands-to-register-with-sec/
+시장 인프라,기록,절차와 걸린 시간,Dinari: 이 자격만으로 미국 밖 판매를 먼저 시작,https://yespress.io/dinari
+고객 접점,주문 접수,볼 범위,"주식 토큰 회사가 세운 증권사: Kraken Securities, Dinari Securities, Coinbase Capital Markets",
+고객 접점,주문 접수,볼 범위,ATS를 운영하는 증권사,
+고객 접점,주문 접수,빼도 되는 유형,"소형사 2,832곳 대부분",https://altswire.com/dual-registration-hits-majority-among-finra-reps-in-2026-snapshot/
+고객 접점,주문 접수,절차와 걸린 시간,심사 기한 180일,https://www.finra.org/registration-exams-ce/broker-dealers/how-become-member-membership-application-time-frames
+고객 접점,주문 접수,절차와 걸린 시간,"Dinari: 2025.6 등록, 2026.8 미국 판매 시작",https://cryptobriefing.com/dinari-circle-tokenized-stocks-us-investors/
+고객 접점,주문 접수,절차와 걸린 시간,Securitize: 세 자격에 3년. 증권사는 인수가 빠르다고 판단,https://dlnews.com/articles/regulation/how-a-crypto-firm-met-gensler-demands-to-register-with-sec/
+파생상품,"중개, 거래소, 청산소",볼 범위,"세 칸을 다 채운 곳: Payward, Coinbase, Robinhood",
+파생상품,"중개, 거래소, 청산소",절차와 걸린 시간,"Coinbase 중개: 2021.9 신청, 2023 승인",https://www.ledgerinsights.com/coinbase-crypto-derivatives/
+파생상품,"중개, 거래소, 청산소",절차와 걸린 시간,"Coinbase 청산소: 2025.11 신청, 2026.9 등록",https://crypto.news/coinbase-can-now-settle-derivatives-24-7-with-usdc/
+파생상품,"중개, 거래소, 청산소",절차와 걸린 시간,Payward: Bitnomial 인수로 세 자격을 한 번에,https://www.payward.com/press-release/payward-completes-acquisition-of-bitnomial-the-first-fully-cftc-licensed-crypto-native-derivatives-stack-in-the-us
+가상자산,체계 차이,가상자산은 체계가 다름,증권이 아니어서 SEC 등록 대상이 아님. FinCEN 자금서비스업 등록과 주별 면허를 받음,https://www.fincen.gov/resources/statutes-regulations/guidance/application-fincens-regulations-persons-administering
+가상자산,체계 차이,가상자산은 체계가 다름,가상자산 거래소 전용 연방법은 없음. CLARITY 법안은 2026.9.15 상원 표결에서 부결,https://www.troutman.com/insights/in-the-wake-of-clarity-acts-failure-agencies-move-forward-without-congressional-action-or-certainty/
+가상자산,체계 차이,가상자산은 체계가 다름,그래서 주식을 다루려는 가상자산 거래소는 증권 쪽 자격을 따로 갖춤,https://www.theblock.co/amp/post/383068/coinbase-stocks-prediction-markets-solana-dex-jupiter-everything-exchange

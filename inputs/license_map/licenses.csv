@@ -1,0 +1,52 @@
+﻿회사,하는 일,상태,자격,지명,확보 방식,인수 대상,시점,법인,이 자격으로 하는 일,출처 링크
+Payward (Kraken),발행,가짐,해외 법인 발행,저지,인수,Backed,2025.12,Backed Assets (JE) Limited,미국 밖 투자자에게 주식 토큰 xStocks 판매,https://blog.kraken.com/news/backed-acquisition
+Payward (Kraken),"청산, 결제, 보관",맡김,Alpaca에 맡김,,,,,,"Kraken 미국 주식의 체결, 청산, 결제, 보관",https://files.brokercheck.finra.org/crs_324343.pdf
+Payward (Kraken),주문 접수,가짐,소개 증권사,,직접,,2025.4,Kraken Securities,미국 주식과 ETF 1.1만 종 거래. 주문만 받음,https://www.financemagnates.com/cryptocurrency/kraken-adds-over-us-stocks-and-etfs-in-collaboration-with-broker-dealer-alpaca/
+Payward (Kraken),주문 접수,가짐,투자회사,키프로스,직접,,,키프로스 투자회사 인가 법인,유럽 주식 서비스,https://theblock.co/news/business/2026-08-18-kraken-us-stock-trading-europe-economic-area-412027
+Payward (Kraken),파생 중개,가짐,중개,,인수,"NinjaTrader, Bitnomial",2025.3,"NinjaTrader, Bitnomial",미국 선물 중개,https://blog.kraken.com/news/kraken-to-acquire-ninjatrader
+Payward (Kraken),파생 거래소,가짐,거래소,,인수,"Small Exchange, Bitnomial",2025.10,"Small Exchange, Bitnomial",미국 안에서 파생상품 설계와 상장,https://blog.kraken.com/news/acquires-small-exchange
+Payward (Kraken),파생 청산소,가짐,청산소,,인수,Bitnomial,2026.5,Bitnomial,파생상품 청산,https://www.payward.com/press-release/payward-completes-acquisition-of-bitnomial-the-first-fully-cftc-licensed-crypto-native-derivatives-stack-in-the-us
+Coinbase,발행,가짐,해외 법인 발행,아부다비,직접,,2026.8,Coinbase Onchain SPV,미국 밖 투자자에게 주식 토큰 판매,https://crypto.news/coinbase-ceo-tokenized-stocks-should-hold-securities/
+Coinbase,"청산, 결제, 보관",맡김,Apex에 맡김,,,,,,미국 주식 거래의 청산,https://coinmarketcap.com/events/tokenized-stocks-cex-vs-onchain/
+Coinbase,"청산, 결제, 보관",맡김,Alpaca에 맡김,,,,,,주식 토큰 뒤의 원주 보관,https://www.galaxy.com/insights/research/coinbase-tokenized-stocks-base-third-party-issuer-sec-innovation-exemption
+Coinbase,주문 접수,가짐,증권사,,직접,,2025.12,Coinbase Capital Markets,미국 고객 대상 주식과 ETF 거래,https://www.theblock.co/amp/post/383068/coinbase-stocks-prediction-markets-solana-dex-jupiter-everything-exchange
+Coinbase,주문 접수,가짐,"토큰증권 주선, 보관",아부다비,직접,,2026.8,아부다비 금융특구 인가 법인,미국 밖 토큰화 거점,https://brokerchooser.com/news/coinbase-gets-abu-dhabi-green-light-for-tokenized-apple-stock--05d45039
+Coinbase,파생 중개,가짐,중개,,직접,,2023,Coinbase Financial Markets,"2021.9 신청, 2023 승인",https://www.ledgerinsights.com/coinbase-crypto-derivatives/
+Coinbase,파생 거래소,가짐,거래소,,인수,FairX,2022,Coinbase Derivatives,미국 가상자산 선물 상장,https://blockworks.co/news/coinbase-regulated-crypto-futures-us
+Coinbase,파생 청산소,가짐,청산소,,직접,,2026.9,Coinbase Clearing,"2025.11 신청, 2026.9.28 등록",https://crypto.news/coinbase-can-now-settle-derivatives-24-7-with-usdc/
+Binance,발행,가짐,해외 법인 발행,아부다비,직접,,2026.6,BTech Holdings,증서 형태의 주식 토큰 bStocks. 보유자는 주주가 아님,https://www.unlock-bc.com/en/binance-bstocks-launch-puts-adgm-in-tokenized-securities-spotlight
+Binance,체결 장소,가짐,거래소,아부다비,직접,,2025.12,Nest Exchange,2026.1 가동,https://cointelegraph.com/news/binance-abu-dhabi-fsra-licenses-exchange-clearing-broker-dealer
+Binance,"청산, 결제, 보관",가짐,"청산소, 수탁",아부다비,직접,,2025.12,Nest Clearing and Custody,청산과 수탁,https://cointelegraph.com/news/binance-abu-dhabi-fsra-licenses-exchange-clearing-broker-dealer
+Binance,"청산, 결제, 보관",맡김,Alpaca에 맡김,,,,,,bStocks 뒤의 미국 원주 보관과 청산,https://defillama.com/rwa/platform/bstocks?view=information
+Binance,주문 접수,가짐,브로커딜러,아부다비,직접,,2025.12,Nest Trading,원주를 사서 bStocks로 바꿔 줌,https://www.unlock-bc.com/en/binance-bstocks-launch-puts-adgm-in-tokenized-securities-spotlight
+Robinhood,발행,가짐,해외 법인 발행,저지,직접,,2026.7,Robinhood Assets (Jersey),채무증권 형태의 주식 토큰. 120여 개국,https://coin360.com/news/robinhood-chain-tokenized-stocks-crypto-expansion
+Robinhood,"청산, 결제, 보관",가짐,자기 청산,,직접,,2018.11,Robinhood Securities,계열 청산 증권사로 청산과 보관을 옮김,https://cdn.robinhood.com/assets/robinhood/legal/Conversion%20Notice%20to%20Customers.pdf
+Robinhood,주문 접수,가짐,소개 증권사,,직접,,2013,Robinhood Financial,미국 주식 중개,https://www.robinhood.com/us/en/newsroom/our-brokerage-anniversary
+Robinhood,주문 접수,가짐,가상자산 라이선스,해외,인수,Bitstamp,2025.6,Bitstamp,가상자산 거래소. 라이선스 50여 개,https://www.nbcsandiego.com/news/business/money-report/robinhoods-200-million-bitstamp-deal-takes-it-beyond-retail-trading/3838538/
+Robinhood,파생 중개,가짐,중개,,직접,,,Robinhood Derivatives,"CFTC 규제, NFA 회원",https://robinhood.com/gb/en/support/articles/whats-clearing-by-robinhood
+Robinhood,파생 거래소,가짐,거래소,,인수,MIAXdx 90%,2026.1,MIAXdx,Susquehanna와 합작,https://robinhood.com/newsroom/robinhood-prediction-markets-joint-venture/
+Robinhood,파생 청산소,가짐,청산소,,인수,MIAXdx 90%,2026.1,MIAXdx,Susquehanna와 합작,https://robinhood.com/newsroom/robinhood-prediction-markets-joint-venture/
+Dinari,발행,가짐,미국 법인 발행,,직접,,,Dinari Inc.,2026.8부터 미국 투자자에게 주식 토큰 724종 판매,https://www.prnewswire.com/news-releases/in-an-industry-first-dinari-launches-724-tokenized-stocks-available-to-both-us-investors-and-businesses-302842099.html
+Dinari,"청산, 결제, 보관",맡김,Alpaca에 맡김,,,,,,주식 토큰의 청산과 원주 보관,https://coinmarketcap.com/events/tokenized-stocks-cex-vs-onchain/
+Dinari,"청산, 결제, 보관",맡김,tZERO와 제휴,,,,2026.7,,"중개, 수탁, 청산, 결제 인프라 결합",https://cryptobriefing.com/dinari-and-tzero-partner-to-bring-tokenized-equities-to-broker-dealers/
+Dinari,기록,가짐,명의개서대리인,,직접,,,Dinari Inc.,토큰 보유 기록을 직접 관리,https://www.prnewswire.com/news-releases/in-an-industry-first-dinari-launches-724-tokenized-stocks-available-to-both-us-investors-and-businesses-302842099.html
+Dinari,주문 접수,가짐,증권사,,직접,,2025.6,Dinari Securities,2025.6.26 FINRA 등록으로 미국 투자자 접근이 열림,https://cryptobriefing.com/dinari-circle-tokenized-stocks-us-investors/
+Ondo,발행,가짐,해외 법인 발행,BVI,직접,,2025.9,영국령 버진아일랜드 법인,채권 형태의 주식 토큰. 미국 거주자 제외,https://degate.com/playbook/tokenized-stock-issuance-models/
+Ondo,체결 장소,가짐,ATS,,인수,Oasis Pro,2025.10,Oasis Pro,미국 토큰증권 거래,https://www.theblock.co/post/373547/ondo-completes-acquisition-of-us-regulated-broker-oasis-pro
+Ondo,"청산, 결제, 보관",맡김,Alpaca에 맡김,,,,,,원주 매매와 보관,https://alpaca.markets/blog/alpaca-holds-94-market-share-of-tokenized-us-stocks-and-etfs-setting-global-standard-for-on-chain-markets/
+Ondo,기록,가짐,명의개서대리인,,인수,Oasis Pro,2025.10,Oasis Pro,토큰증권 보유 기록,https://www.theblock.co/post/373547/ondo-completes-acquisition-of-us-regulated-broker-oasis-pro
+Ondo,주문 접수,가짐,증권사,,인수,Oasis Pro,2025.10,Oasis Pro,미국 토큰증권 중개,https://www.theblock.co/post/373547/ondo-completes-acquisition-of-us-regulated-broker-oasis-pro
+Securitize,발행,가짐,자사 주식 직접 발행,,직접,,2026.7,,NYSE 상장과 같은 날. 의결권과 배당 유지,https://www.theblock.co/news/markets/2026-07-02-securitize-first-debut-shares-nyse-onchain-but-wont-be-last-407104
+Securitize,체결 장소,가짐,ATS,,인수,DTM,2020.11,Securitize Markets,토큰증권 유통,https://www.unlock-bc.com/news/2020-11-25/securitize-sto-platform-acquires-dtm-broker-dealer-in-usa
+Securitize,체결 장소,가짐,"거래, 결제 시스템",EU,직접,,2025.11,,거래와 결제를 한 시스템에서 운영,https://theblock.co/post/380639/securitize-eu-approval-operate-tokenized-trading-system-avalanche
+Securitize,기록,가짐,명의개서대리인,,직접,,2019,,2019.1 신청,https://dlnews.com/articles/regulation/how-a-crypto-firm-met-gensler-demands-to-register-with-sec/
+Securitize,주문 접수,가짐,증권사,,인수,DTM,2020.11,Securitize Markets,토큰증권 발행 주선과 중개,https://hotfix.coindesk.com/business/2020/10/15/securitize-goes-license-shopping-with-acquisition-of-sec-registered-broker-dealer
+Securitize,주문 접수,가짐,투자회사,스페인,직접,,2024.12,,"주문 집행, 수탁, 명의개서",https://theblock.co/post/380639/securitize-eu-approval-operate-tokenized-trading-system-avalanche
+tZERO,체결 장소,가짐,ATS,,직접,,,tZERO Securities,토큰증권 거래,https://www.nasdaq.com/press-release/dinari-inc-and-tzero-partner-create-operating-framework-broker-dealers-offer
+tZERO,"청산, 결제, 보관",가짐,수탁 증권사,,직접,,,tZERO Digital Asset Securities,토큰증권 보관,https://www.nasdaq.com/press-release/dinari-inc-and-tzero-partner-create-operating-framework-broker-dealers-offer
+tZERO,기록,가짐,명의개서대리인,,직접,,,tZERO Transfer Services,보유 기록 관리,https://www.nasdaq.com/press-release/dinari-inc-and-tzero-partner-create-operating-framework-broker-dealers-offer
+tZERO,주문 접수,가짐,증권사,,직접,,,tZERO Securities,"SEC 등록, FINRA 회원",https://www.nasdaq.com/press-release/dinari-inc-and-tzero-partner-create-operating-framework-broker-dealers-offer
+tZERO,파생 거래소,가짐,거래소,,직접,,2026.11,,CFTC 승인,
+tZERO,파생 청산소,가짐,청산소,,직접,,2026.10,,CFTC 등록,https://www.cftc.gov/IndustryOversight/IndustryFilings/ClearingOrganizations
+Alpaca,"청산, 결제, 보관",가짐,자기 청산,,직접,,2024,Alpaca Securities,2024년 자기 청산 전환. 주식 토큰 뒤 원주 대부분을 보관,https://alpaca.markets/blog/alpaca-successfully-transitions-to-self-clearing-at-dtcc/
+Alpaca,주문 접수,가짐,증권사,,직접,,2018,Alpaca Securities,다른 회사 앱 뒤에서 계좌와 주문을 처리,https://alpaca.markets/about
