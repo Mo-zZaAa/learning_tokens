@@ -21,8 +21,88 @@
      "notes": []
     },
     {
-     "id": "rh-0223",
+     "id": "rh-0436",
      "disp": "Robinhood 카드-2",
+     "level": "★",
+     "text": "유형 안 위치 : 미국 FINRA 등록 증권사 3,184곳(2025년 말) → 고객 돈과 증권을 맡아 청산까지 하는 청산, 보관형 증권사(SEC 집계 158곳) 유형, 자회사 Robinhood Securities가 자사 앱 계좌의 청산을 맡음 → 공식 순위 없음 → 2013년 주식 거래 앱 출신",
+     "color": "black",
+     "fact_ids": [
+      "F-1405",
+      "F-1144",
+      "F-0588",
+      "F-0581"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0437",
+     "disp": "Robinhood 카드-3",
+     "level": "-",
+     "text": "뜻 : FINRA = 미국 증권사(브로커딜러)를 감독하는 민간 자율규제기구. 3,184곳은 FINRA Industry Snapshot 2026의 2025년 말 등록 증권사 수",
+     "color": "black",
+     "fact_ids": [
+      "F-1405"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0438",
+     "disp": "Robinhood 카드-4",
+     "level": "-",
+     "text": "규모별 : 등록 영업인 수로 대형(500명 이상) 155곳, 중형 197곳, 소형 2,832곳. FINRA가 회사별 규모와 사업 유형을 공개하지 않아 Robinhood가 어느 칸인지는 쓰지 않음",
+     "color": "black",
+     "fact_ids": [
+      "F-1405",
+      "F-1408"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0439",
+     "disp": "Robinhood 카드-5",
+     "level": "-",
+     "text": "해석 : 158곳은 SEC 통계 집계 수라 회사별 명단 대조는 하지 않았고, Robinhood Securities가 이 유형이라는 것은 회사 공시(앱 계좌의 청산 증권사)에 기댄 판단",
+     "color": "black",
+     "fact_ids": [
+      "F-1144",
+      "F-0588"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0440",
+     "disp": "Robinhood 카드-6",
+     "level": "-",
+     "text": "보조 모집단 : 뉴욕주 NYDFS 가상자산 인가 39곳 중 BitLicense 26곳에 Robinhood Crypto(2019-01)가 있음. EU MiCA 가상자산사업자 404곳에 Robinhood Europe UAB(리투아니아)가 있으나 거래 플랫폼 운영 코드는 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-1411",
+      "F-1412",
+      "F-1413",
+      "F-1414"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0441",
+     "disp": "Robinhood 카드-7",
+     "level": "-",
+     "text": "참고(회사 평가 기준 아님) : Stock Tokens(지갑판) 발행 잔액 rwa.xyz 6위(제3자 집계, 아래 숫자)",
+     "color": "black",
+     "fact_ids": [
+      "F-1025"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "rh-0223",
+     "disp": "Robinhood 카드-8",
      "level": "●",
      "text": "대표 상품 : 24 Hour Market = 주 5일 24시간 미국 주식 거래(2023-05, 첫 43종)",
      "color": "black",
@@ -34,7 +114,7 @@
     },
     {
      "id": "rh-0224",
-     "disp": "Robinhood 카드-3",
+     "disp": "Robinhood 카드-9",
      "level": "●",
      "text": "대표 상품(토큰) : Stock Tokens(지갑판) = 발행사 채무증권, 주식 소유권 아님",
      "color": "black",
@@ -47,7 +127,7 @@
     },
     {
      "id": "rh-0225",
-     "disp": "Robinhood 카드-4",
+     "disp": "Robinhood 카드-10",
      "level": "●",
      "text": "꼭 알아야 할 사실",
      "color": "black",
@@ -57,7 +137,7 @@
     },
     {
      "id": "rh-0226",
-     "disp": "Robinhood 카드-5",
+     "disp": "Robinhood 카드-11",
      "level": "★",
      "text": "최초, 최대 타이틀 : 리투아니아가 MiCA 가상자산서비스 인가를 처음 낸 사례(2025-06, Robinhood의 EU 법인)",
      "color": "black",
@@ -69,7 +149,7 @@
     },
     {
      "id": "rh-0384",
-     "disp": "Robinhood 카드-6",
+     "disp": "Robinhood 카드-12",
      "level": "-",
      "text": "중요한 정도 : 이 인가 한 건으로 EU, EEA 여러 나라에서 영업할 수 있는 길이 열렸다는 점이 의미이고, 인가 1호라는 순서는 시장 지위나 규모를 뜻하지 않음",
      "color": "black",
@@ -81,7 +161,7 @@
     },
     {
      "id": "rh-0267",
-     "disp": "Robinhood 카드-7",
+     "disp": "Robinhood 카드-13",
      "level": "-",
      "text": "뜻 : MiCA = EU 가상자산 시장 규정. 인가 한 곳을 받으면 EU, EEA 여러 나라에서 영업 가능(패스포트). 리투아니아는 Robinhood의 EU 법인이 인가를 받은 나라",
      "color": "black",
@@ -94,7 +174,7 @@
     },
     {
      "id": "rh-0227",
-     "disp": "Robinhood 카드-8",
+     "disp": "Robinhood 카드-14",
      "level": "★",
      "text": "상장 : Nasdaq 상장사(티커 HOOD), 2021-07-29 IPO(TechCrunch 보도)",
      "color": "black",
@@ -107,7 +187,7 @@
     },
     {
      "id": "rh-0422",
-     "disp": "Robinhood 카드-9",
+     "disp": "Robinhood 카드-15",
      "level": "-",
      "text": "IPO : 공모가 38달러(희망 범위 하단), 5,500만 주로 21억 달러 조달, 기업가치 약 320억 달러, 첫날 종가 34.82달러(8.37% 하락)(TechCrunch 보도)",
      "color": "black",
@@ -119,7 +199,7 @@
     },
     {
      "id": "rh-0228",
-     "disp": "Robinhood 카드-10",
+     "disp": "Robinhood 카드-16",
      "level": "★",
      "text": "큰 인수 : Bitstamp 2.24억 달러(2025-06), WonderFi 1.78억 달러(2026-06)",
      "color": "black",
@@ -132,7 +212,7 @@
     },
     {
      "id": "rh-0385",
-     "disp": "Robinhood 카드-11",
+     "disp": "Robinhood 카드-17",
      "level": "-",
      "text": "Bitstamp : 룩셈부르크 MiCA 인가와 기관 고객을 가진 글로벌 가상자산 거래소, 왜 샀는지는 사업 범위 장 Bitstamp 항목",
      "color": "black",
@@ -145,7 +225,7 @@
     },
     {
      "id": "rh-0386",
-     "disp": "Robinhood 카드-12",
+     "disp": "Robinhood 카드-18",
      "level": "-",
      "text": "WonderFi : 캐나다 디지털 자산 기업, 왜 샀는지는 사업 범위 장 WonderFi 항목",
      "color": "black",
@@ -158,7 +238,7 @@
     },
     {
      "id": "rh-0264",
-     "disp": "Robinhood 카드-13",
+     "disp": "Robinhood 카드-19",
      "level": "★",
      "text": "큰 제재 : 2025-01 SEC 합의 명령(총 4,500만 달러 과징금), 2025-03 FINRA 합의(벌금 2,600만 달러, 고객 환급 375만 달러)",
      "color": "black",
@@ -171,7 +251,7 @@
     },
     {
      "id": "rh-0387",
-     "disp": "Robinhood 카드-14",
+     "disp": "Robinhood 카드-20",
      "level": "-",
      "text": "무슨 일 : SEC 건은 공매도 규정(Reg SHO)과 고객 개인정보 규정(Reg S-P, Reg S-ID), 기록 보관 등 위반(요약 기준), FINRA 건은 시장가 주문 공시 부정확, 자금세탁방지 프로그램, 고객 신원 확인, 청산 시스템 감독, 인플루언서 홍보물 보관, 보고 의무 위반",
      "color": "black",
@@ -184,7 +264,7 @@
     },
     {
      "id": "rh-0229",
-     "disp": "Robinhood 카드-15",
+     "disp": "Robinhood 카드-21",
      "level": "●",
      "text": "숫자",
      "color": "black",
@@ -194,7 +274,7 @@
     },
     {
      "id": "rh-0230",
-     "disp": "Robinhood 카드-16",
+     "disp": "Robinhood 카드-22",
      "level": "★",
      "text": "주식 토큰 순위와 잔액 : 2026-11-16 지갑판 발행 잔액 6위, 1.5억 달러(1위 Binance 13.6억 달러의 약 11%, rwa.xyz 토큰화 주식 플랫폼 표)",
      "color": "black",
@@ -207,7 +287,7 @@
     },
     {
      "id": "rh-0268",
-     "disp": "Robinhood 카드-17",
+     "disp": "Robinhood 카드-23",
      "level": "★",
      "text": "본업 규모 : 2026 Q3 순매출 14.2억 달러, 총 플랫폼 자산 3,960억 달러, 주식 토큰 의무 1.85억 달러는 총 플랫폼 자산의 약 0.05%",
      "color": "black",
@@ -221,7 +301,7 @@
     },
     {
      "id": "rh-0231",
-     "disp": "Robinhood 카드-18",
+     "disp": "Robinhood 카드-24",
      "level": "★",
      "text": "고객 수 : 펀디드 고객 2,870만 명(2026-09-30, 회사 발표)",
      "color": "black",
@@ -233,7 +313,7 @@
     },
     {
      "id": "rh-0269",
-     "disp": "Robinhood 카드-19",
+     "disp": "Robinhood 카드-25",
      "level": "-",
      "text": "뜻 : 펀디드 고객 = 계좌에 자금이 있거나 최근 거래한 고객(회사가 센 활성 고객)",
      "color": "black",
@@ -245,7 +325,7 @@
     },
     {
      "id": "rh-0232",
-     "disp": "Robinhood 카드-20",
+     "disp": "Robinhood 카드-26",
      "level": "★",
      "text": "종목 수 : 24 Hour Market 야간 거래 첫 43종(2023-05), EU판 토큰 출시 때 200종 이상(2025-06)",
      "color": "black",
@@ -258,7 +338,7 @@
     },
     {
      "id": "rh-0233",
-     "disp": "Robinhood 카드-21",
+     "disp": "Robinhood 카드-27",
      "level": "●",
      "text": "흐름(지갑판) : 이용자 → 지갑(Robinhood Wallet) → 발행사(Robinhood Assets, 저지) → Alpaca(보관)",
      "color": "black",
@@ -272,7 +352,7 @@
     },
     {
      "id": "rh-0270",
-     "disp": "Robinhood 카드-22",
+     "disp": "Robinhood 카드-28",
      "level": "-",
      "text": "뜻 : 지갑판 = 2026-07 출시한 Stock Tokens. 자체 체인과 지갑에서 120개국 이상 적격 이용자에게 판매",
      "color": "black",
@@ -286,7 +366,7 @@
     },
     {
      "id": "rh-0271",
-     "disp": "Robinhood 카드-23",
+     "disp": "Robinhood 카드-29",
      "level": "-",
      "text": "뜻 : 저지(Jersey) = 영국 해협의 자치령. 영국 본토 법이 아닌 자체 법으로 회사를 세우는 역외 지역이며 Robinhood가 이곳에 발행사를 둔 이유는 회사 자료에서 확인하지 못함",
      "color": "black",
@@ -298,7 +378,7 @@
     },
     {
      "id": "rh-0272",
-     "disp": "Robinhood 카드-24",
+     "disp": "Robinhood 카드-30",
      "level": "-",
      "text": "뜻 : Alpaca = 미국 청산 증권사. 지갑판 기초 주식을 보관",
      "color": "black",
@@ -310,7 +390,7 @@
     },
     {
      "id": "rh-0234",
-     "disp": "Robinhood 카드-25",
+     "disp": "Robinhood 카드-31",
      "level": "●",
      "text": "흐름(EU판) : 이용자 → Robinhood 앱 → EU 법인(파생계약) → 헤지용 주식(매수)",
      "color": "black",
@@ -324,7 +404,7 @@
     },
     {
      "id": "rh-0273",
-     "disp": "Robinhood 카드-26",
+     "disp": "Robinhood 카드-32",
      "level": "-",
      "text": "뜻 : EU판 = 2025-06 EU 고객에게 출시한 Classic Stock Tokens. 주식이 아니라 Robinhood Europe, UAB와 맺은 파생계약상 권리",
      "color": "black",
@@ -336,7 +416,7 @@
     },
     {
      "id": "rh-0274",
-     "disp": "Robinhood 카드-27",
+     "disp": "Robinhood 카드-33",
      "level": "-",
      "text": "뜻 : 헤지용 매수 = 고객에게 지급할 금액에 맞춰 회사가 기초 주식을 사 두는 위험 상쇄 거래. 토큰 보유자의 담보가 아님",
      "color": "black",

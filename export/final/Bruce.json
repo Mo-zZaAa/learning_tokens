@@ -30,8 +30,51 @@
      "notes": []
     },
     {
-     "id": "br-0098",
+     "id": "br-0194",
      "disp": "Bruce 카드-3",
+     "level": "★",
+     "text": "유형 안 위치 : 미국 SEC 상장주식 ATS 35곳(2026-11) → 그중 야간 거래 ATS 4곳의 하나(로펌 정리) → 야간 3사 거래대금의 15.0%로 2위(2026 Q3, FINRA 주간 보고 계산), 2026-10 최근 3주는 29.8% → PEAK6 계열이 2024-12 예고, 2025-03 개시",
+     "color": "black",
+     "fact_ids": [
+      "F-1141",
+      "F-1176",
+      "F-0029",
+      "F-0031",
+      "F-1425",
+      "F-0020"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0195",
+     "disp": "Bruce 카드-4",
+     "level": "-",
+     "text": "ATS 전체 안 : 2026 Q3 13주에 NMS 주식 거래를 보고한 ATS 34곳 중 거래대금 25위, 전체 ATS 거래대금의 0.36%(FINRA 주간 보고 계산)",
+     "color": "black",
+     "fact_ids": [
+      "F-1419",
+      "F-1421"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0196",
+     "disp": "Bruce 카드-5",
+     "level": "-",
+     "text": "분모 주의 : 34곳 합계에는 낮 시간 기관 거래가 대부분 섞여 있어 0.36%는 야간 시장 안 비중이 아님. 야간 시장 안 비중은 위 15.0%(야간 3사 대비)",
+     "color": "black",
+     "fact_ids": [
+      "F-1421",
+      "F-0029"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0098",
+     "disp": "Bruce 카드-6",
      "level": "●",
      "text": "대표 상품 : Bruce ATS = 미국 주식 야간 시장(미국 동부 밤 8시~새벽 4시, Nasdaq 기술)",
      "color": "black",
@@ -44,7 +87,7 @@
     },
     {
      "id": "br-0099",
-     "disp": "Bruce 카드-4",
+     "disp": "Bruce 카드-7",
      "level": "●",
      "text": "꼭 알아야 할 사실",
      "color": "black",
@@ -54,7 +97,7 @@
     },
     {
      "id": "br-0100",
-     "disp": "Bruce 카드-5",
+     "disp": "Bruce 카드-8",
      "level": "★",
      "text": "상장하지 않음. 모회사 Bruce Markets Holdings의 최대주주는 PEAK6(미국 금융 투자회사, Finance Magnates 보도, 단일 출처)",
      "color": "black",
@@ -67,7 +110,7 @@
     },
     {
      "id": "br-0101",
-     "disp": "Bruce 카드-6",
+     "disp": "Bruce 카드-9",
      "level": "★",
      "text": "2025-06 전략 투자 라운드에 Robinhood, Nasdaq Ventures 등 8곳 참여(금액 미공개), 개인 대상 증권사와 앱(Robinhood, Webull 등)을 포함",
      "color": "black",
@@ -81,7 +124,7 @@
     },
     {
      "id": "br-0102",
-     "disp": "Bruce 카드-7",
+     "disp": "Bruce 카드-10",
      "level": "★",
      "text": "2026-09 주말까지 이어 거래하는 24시간 연속 거래 계획 발표, SEC 검토 대상이라 출시일 미정",
      "color": "black",
@@ -94,7 +137,7 @@
     },
     {
      "id": "br-0103",
-     "disp": "Bruce 카드-8",
+     "disp": "Bruce 카드-11",
      "level": "●",
      "text": "숫자",
      "color": "black",
@@ -104,7 +147,7 @@
     },
     {
      "id": "br-0118",
-     "disp": "Bruce 카드-9",
+     "disp": "Bruce 카드-12",
      "level": "★",
      "text": "점유율 : 야간 3사(Blue Ocean, Bruce, MOON, 미국 야간 ATS 전체가 아니라 이 본문이 다루는 세 곳) 거래대금 합계 대비, FINRA 주간 보고 13주 기준 Q2 12.3%, Q3 15.0%",
      "color": "black",
@@ -117,7 +160,7 @@
     },
     {
      "id": "br-0166",
-     "disp": "Bruce 카드-10",
+     "disp": "Bruce 카드-13",
      "level": "-",
      "text": "뜻 : FINRA 주간 보고 = FINRA가 ATS별 주간 거래대금을 공개하는 통계",
      "color": "black",
@@ -129,7 +172,7 @@
     },
     {
      "id": "br-0167",
-     "disp": "Bruce 카드-11",
+     "disp": "Bruce 카드-14",
      "level": "★",
      "text": "최근 3주(2026-10-12~30) 29.8%. 기간이 분기와 달라 같은 줄에서 비교하지 않음",
      "color": "black",
@@ -141,7 +184,7 @@
     },
     {
      "id": "br-0119",
-     "disp": "Bruce 카드-12",
+     "disp": "Bruce 카드-15",
      "level": "★",
      "text": "1위와의 차이 : 같은 2026 Q3 기준 Blue Ocean 83.0%와 68.0%p 차이",
      "color": "black",
@@ -154,7 +197,7 @@
     },
     {
      "id": "br-0168",
-     "disp": "Bruce 카드-13",
+     "disp": "Bruce 카드-16",
      "level": "★",
      "text": "Bruce 자사 발표 2026-09 점유율 20.77%(직전 값 14.13%에서 상승, 야간 거래대금 기준, 산정 방식은 자료에 없음)",
      "color": "black",
@@ -166,7 +209,7 @@
     },
     {
      "id": "br-0105",
-     "disp": "Bruce 카드-14",
+     "disp": "Bruce 카드-17",
      "level": "●",
      "text": "흐름(미국판) : 미국 투자자 → 미국 증권사 앱 → Bruce ATS 체결 → 청산(Apex Clearing, 미국 청산 회사)",
      "color": "black",
@@ -179,7 +222,7 @@
     },
     {
      "id": "br-0106",
-     "disp": "Bruce 카드-15",
+     "disp": "Bruce 카드-18",
      "level": "●",
      "text": "흐름(한국판) : 한국 투자자 → 한국 증권사 앱(시세 연결) → (미국 브로커) → Bruce ATS 지정가 주문",
      "color": "black",
@@ -294,8 +337,62 @@
      "notes": []
     },
     {
-     "id": "br-0006",
+     "id": "br-0197",
      "disp": "Bruce 개요-9",
+     "level": "●",
+     "text": "설립 목적과 타깃 수요",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0198",
+     "disp": "Bruce 개요-10",
+     "level": "★",
+     "text": "왜 만들었나 : 2024-12-10 출범 예고에서 업계 경력자와 초기 이용 증권사가 더 나은 야간 거래 수단이 필요하다고 본 데서 나왔다고 밝힘. Nasdaq 기술로 만들고 Apex Fintech Solutions 고객은 첫날부터 접속(PEAK6 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-1425"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0199",
+     "disp": "Bruce 개요-11",
+     "level": "★",
+     "text": "누구의 어떤 수요 : 같은 발표가 꼽은 수요는 셋. 뭄바이, 베이징, 서울 같은 동아시아와 남아시아 도시의 아침 시간 미국 시장 접근, 비전통 시간대를 원하는 신규 투자자, 24시간 7일 거래에 익숙한 가상자산 투자자가 전통 증권으로 옮겨 오는 수요(PEAK6 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-1426"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0200",
+     "disp": "Bruce 개요-12",
+     "level": "-",
+     "text": "뒤의 발언 : CEO가 개인투자자를 24시간 시장의 큰 수요로 본 발언(2025-06)과 한국 투자자를 야간 시장의 핵심 세력으로 본 발언(2026-10)은 경영진 발언 장",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0201",
+     "disp": "Bruce 개요-13",
+     "level": "★",
+     "text": "실제 주문을 낸 쪽 : 미국 증권사 앱 이용자 주문이 Bruce에서 체결되고, 2026-09 Blue Ocean 18종목 거래 멈춤 때 한국 증권사가 지정가 주문을 Bruce로 돌림. 한국의 메리츠, 토스는 시세만 연결했고 투자사 8곳 중 실제로 주문을 보내는 곳은 확인하지 못함",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "br-0006",
+     "disp": "Bruce 개요-14",
      "level": "●",
      "text": "모회사",
      "color": "black",
@@ -305,7 +402,7 @@
     },
     {
      "id": "br-0007",
-     "disp": "Bruce 개요-10",
+     "disp": "Bruce 개요-15",
      "level": "★",
      "text": "Bruce Markets Holdings가 운영사 Bruce Markets LLC 지분 보유",
      "color": "black",
@@ -318,7 +415,7 @@
     },
     {
      "id": "br-0008",
-     "disp": "Bruce 개요-11",
+     "disp": "Bruce 개요-16",
      "level": "★",
      "text": "등록부 기타 상호 : PEAK6 Trading, All Time ATS(최대주주 PEAK6와 같은 이름이 포함됨)",
      "color": "black",
@@ -331,7 +428,7 @@
     },
     {
      "id": "br-0009",
-     "disp": "Bruce 개요-12",
+     "disp": "Bruce 개요-17",
      "level": "●",
      "text": "취급 자산",
      "color": "black",
@@ -341,7 +438,7 @@
     },
     {
      "id": "br-0010",
-     "disp": "Bruce 개요-13",
+     "disp": "Bruce 개요-18",
      "level": "★",
      "text": "미국 NMS 상장 주식",
      "color": "black",
@@ -353,7 +450,7 @@
     },
     {
      "id": "br-0122",
-     "disp": "Bruce 개요-14",
+     "disp": "Bruce 개요-19",
      "level": "-",
      "text": "뜻 : NMS(전국시장체계) = 미국 증권거래소에 상장된 주식을 하나의 시장처럼 묶는 SEC 규칙 체계",
      "color": "black",
@@ -363,7 +460,7 @@
     },
     {
      "id": "br-0011",
-     "disp": "Bruce 개요-15",
+     "disp": "Bruce 개요-20",
      "level": "●",
      "text": "대상 고객",
      "color": "black",
@@ -373,7 +470,7 @@
     },
     {
      "id": "br-0012",
-     "disp": "Bruce 개요-16",
+     "disp": "Bruce 개요-21",
      "level": "★",
      "text": "미국 브로커딜러와 해외 브로커",
      "color": "black",
@@ -385,7 +482,7 @@
     },
     {
      "id": "br-0013",
-     "disp": "Bruce 개요-17",
+     "disp": "Bruce 개요-22",
      "level": "●",
      "text": "거래시간",
      "color": "black",
@@ -395,7 +492,7 @@
     },
     {
      "id": "br-0014",
-     "disp": "Bruce 개요-18",
+     "disp": "Bruce 개요-23",
      "level": "★",
      "text": "일~목 밤 8시~새벽 4시(미국 동부)",
      "color": "black",
@@ -407,7 +504,7 @@
     },
     {
      "id": "br-0015",
-     "disp": "Bruce 개요-19",
+     "disp": "Bruce 개요-24",
      "level": "●",
      "text": "호가 방식",
      "color": "black",
@@ -417,7 +514,7 @@
     },
     {
      "id": "br-0016",
-     "disp": "Bruce 개요-20",
+     "disp": "Bruce 개요-25",
      "level": "★",
      "text": "Nasdaq(미국 거래소 운영사)의 거래 기술로 체결",
      "color": "black",
@@ -429,7 +526,7 @@
     },
     {
      "id": "br-0017",
-     "disp": "Bruce 개요-21",
+     "disp": "Bruce 개요-26",
      "level": "★",
      "text": "브로커는 표준 FIX(주문 전송 규격)로 접속",
      "color": "black",
@@ -441,7 +538,7 @@
     },
     {
      "id": "br-0018",
-     "disp": "Bruce 개요-22",
+     "disp": "Bruce 개요-27",
      "level": "●",
      "text": "거래 규모",
      "color": "black",
@@ -451,7 +548,7 @@
     },
     {
      "id": "br-0019",
-     "disp": "Bruce 개요-23",
+     "disp": "Bruce 개요-28",
      "level": "★",
      "text": "기준 : FINRA 주간 보고 거래대금 13주 합산, 야간 3사 합계 대비",
      "color": "black",
@@ -463,7 +560,7 @@
     },
     {
      "id": "br-0020",
-     "disp": "Bruce 개요-24",
+     "disp": "Bruce 개요-29",
      "level": "★",
      "text": "2026 Q3 439.7억 달러, 3사 중 15.0%(Q2 12.3%)",
      "color": "black",
@@ -476,7 +573,7 @@
     },
     {
      "id": "br-0021",
-     "disp": "Bruce 개요-25",
+     "disp": "Bruce 개요-30",
      "level": "★",
      "text": "같은 Q3 Blue Ocean(선발 야간 ATS) 83.0%, MOON(야간 ATS) 2.0%",
      "color": "black",
@@ -489,7 +586,7 @@
     },
     {
      "id": "br-0023",
-     "disp": "Bruce 개요-26",
+     "disp": "Bruce 개요-31",
      "level": "●",
      "text": "차별화 요소",
      "color": "black",
@@ -499,7 +596,7 @@
     },
     {
      "id": "br-0024",
-     "disp": "Bruce 개요-27",
+     "disp": "Bruce 개요-32",
      "level": "★",
      "text": "2025-06 투자사에 Robinhood(미국 주식 앱), Webull(투자 앱) 등 개인 대상 증권사 포함(아래 주주 구성)",
      "color": "black",
@@ -512,7 +609,7 @@
     },
     {
      "id": "br-0025",
-     "disp": "Bruce 개요-28",
+     "disp": "Bruce 개요-33",
      "level": "★",
      "text": "2026-09 주말 포함 연속 거래 계획, SEC 검토 대상",
      "color": "black",
@@ -524,7 +621,7 @@
     },
     {
      "id": "br-0026",
-     "disp": "Bruce 개요-29",
+     "disp": "Bruce 개요-34",
      "level": "●",
      "text": "토큰증권 취급 현황",
      "color": "black",
@@ -534,7 +631,7 @@
     },
     {
      "id": "br-0027",
-     "disp": "Bruce 개요-30",
+     "disp": "Bruce 개요-35",
      "level": "★",
      "text": "주말 거래도 기존 주식 청산 구조, Apex Clearing(미국 청산 회사)",
      "color": "black",
@@ -546,7 +643,7 @@
     },
     {
      "id": "br-0028",
-     "disp": "Bruce 개요-31",
+     "disp": "Bruce 개요-36",
      "level": "●",
      "text": "화면",
      "color": "black",
@@ -556,7 +653,7 @@
     },
     {
      "id": "br-0029",
-     "disp": "Bruce 개요-32",
+     "disp": "Bruce 개요-37",
      "level": "그림",
      "images": [
       {

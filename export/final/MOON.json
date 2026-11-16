@@ -32,8 +32,49 @@
      "notes": []
     },
     {
-     "id": "mo-0092",
+     "id": "mo-0181",
      "disp": "MOON 카드-3",
+     "level": "★",
+     "text": "유형 안 위치 : 미국 SEC 상장주식 ATS 35곳(2026-11) → 그중 야간 거래 ATS 4곳의 하나(로펌 정리) → 야간 3사 거래대금의 2.0%로 3위(2026 Q3, FINRA 주간 보고 계산) → 장외주식 시장 운영사 OTC Markets Group 계열이 2024-11 출시",
+     "color": "black",
+     "fact_ids": [
+      "F-1141",
+      "F-1176",
+      "F-0042",
+      "F-0036"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0182",
+     "disp": "MOON 카드-4",
+     "level": "-",
+     "text": "ATS 전체 안 : 2026 Q3 13주에 NMS 주식 거래를 보고한 ATS 34곳 중 거래대금 30위, 전체 ATS 거래대금의 0.05%(FINRA 주간 보고 계산)",
+     "color": "black",
+     "fact_ids": [
+      "F-1419",
+      "F-1422"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0183",
+     "disp": "MOON 카드-5",
+     "level": "-",
+     "text": "분모 주의 : 34곳 합계에는 낮 시간 기관 거래가 대부분 섞여 있어 0.05%는 야간 시장 안 비중이 아님. 야간 시장 안 비중은 위 2.0%(야간 3사 대비)",
+     "color": "black",
+     "fact_ids": [
+      "F-1422",
+      "F-0042"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0092",
+     "disp": "MOON 카드-6",
      "level": "●",
      "text": "대표 상품 : MOON ATS = 거래소 상장 주식의 야간 거래. 별도로 2024-09 시작한 OTC Overnight은 거래소에 상장되지 않은 장외주식의 야간 거래",
      "color": "black",
@@ -46,7 +87,7 @@
     },
     {
      "id": "mo-0093",
-     "disp": "MOON 카드-4",
+     "disp": "MOON 카드-7",
      "level": "●",
      "text": "꼭 알아야 할 사실",
      "color": "black",
@@ -56,7 +97,7 @@
     },
     {
      "id": "mo-0094",
-     "disp": "MOON 카드-5",
+     "disp": "MOON 카드-8",
      "level": "★",
      "text": "MOON ATS는 비상장, 모회사 OTC Markets Group은 OTCQX 시장에 상장",
      "color": "black",
@@ -68,7 +109,7 @@
     },
     {
      "id": "mo-0176",
-     "disp": "MOON 카드-6",
+     "disp": "MOON 카드-9",
      "level": "★",
      "text": "모회사 최대주주는 CEO Cromwell Coulson(27.1%, 2025 연차보고서). 자세한 지분은 아래 거래 시설 운영의 주주 구성",
      "color": "black",
@@ -80,7 +121,7 @@
     },
     {
      "id": "mo-0154",
-     "disp": "MOON 카드-7",
+     "disp": "MOON 카드-10",
      "level": "-",
      "text": "뜻 : OTCQX = OTC Markets Group이 운영하는 장외 시장의 상위 등급. 모회사 주식이 거래소가 아닌 이 장외 시장에서 거래됨",
      "color": "black",
@@ -92,7 +133,7 @@
     },
     {
      "id": "mo-0095",
-     "disp": "MOON 카드-8",
+     "disp": "MOON 카드-11",
      "level": "★",
      "text": "2024-11-21 MOON ATS 출시",
      "color": "black",
@@ -104,7 +145,7 @@
     },
     {
      "id": "mo-0096",
-     "disp": "MOON 카드-9",
+     "disp": "MOON 카드-12",
      "level": "★",
      "text": "2026-09 Blue Ocean 18개 종목 중단 때 한국 지정가(가격을 직접 정해 내는 주문) 주문이 일부 유입",
      "color": "black",
@@ -117,7 +158,7 @@
     },
     {
      "id": "mo-0097",
-     "disp": "MOON 카드-10",
+     "disp": "MOON 카드-13",
      "level": "●",
      "text": "숫자",
      "color": "black",
@@ -127,7 +168,7 @@
     },
     {
      "id": "mo-0112",
-     "disp": "MOON 카드-11",
+     "disp": "MOON 카드-14",
      "level": "★",
      "text": "점유율 : 야간 3사 거래대금 합계 대비, FINRA 주간 보고 13주 기준 Q2 3.8%, Q3 2.0%(1위 Blue Ocean 83.0%와 81.0%p 차이)",
      "color": "black",
@@ -141,7 +182,7 @@
     },
     {
      "id": "mo-0099",
-     "disp": "MOON 카드-12",
+     "disp": "MOON 카드-15",
      "level": "★",
      "text": "2026 Q3 거래대금 58.3억 달러",
      "color": "black",
@@ -153,7 +194,7 @@
     },
     {
      "id": "mo-0100",
-     "disp": "MOON 카드-13",
+     "disp": "MOON 카드-16",
      "level": "●",
      "text": "흐름 : 아시아 투자자 → Moomoo 앱 → MOON ATS 체결",
      "color": "black",
@@ -264,8 +305,63 @@
      "notes": []
     },
     {
-     "id": "mo-0006",
+     "id": "mo-0184",
      "disp": "MOON 개요-9",
+     "level": "●",
+     "text": "설립 목적과 타깃 수요",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0185",
+     "disp": "MOON 개요-10",
+     "level": "★",
+     "text": "왜 만들었나 : 2024-11-21 출시 발표에서 미국 달러 표시 해외 증권과 야간 세션 수요가 늘고 브로커딜러가 미국과 해외 투자자의 거래 경험을 높이려는 시점에 내놓았다고 밝힘(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-1427"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0186",
+     "disp": "MOON 개요-11",
+     "level": "★",
+     "text": "누구의 어떤 수요 : 같은 발표가 꼽은 대상은 현지 낮 시간에 미국 상장 주식을 거래하려는 아시아태평양 투자자와 늦은 저녁, 이른 아침에 거래하려는 미국 투자자. 아시아 구간(UTC+8 오전 8시~오후 4시)을 따로 둠(회사 발표)",
+     "color": "black",
+     "fact_ids": [
+      "F-1427",
+      "F-0037"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0187",
+     "disp": "MOON 개요-12",
+     "level": "-",
+     "text": "뒤의 발언 : CEO가 아시아 개인투자자를 큰 수요처로 본 발언(2025-12, Moomoo 연결)과 미국 밖 시간대 투자자에게 해외 증권을 야간에 여는 것을 큰 시장으로 본 발언(2026-03)은 경영진 발언 장",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0188",
+     "disp": "MOON 개요-13",
+     "level": "★",
+     "text": "실제 주문을 낸 쪽 : 브로커딜러 구독자와 2025-12 연결한 Moomoo(아시아 투자 앱). 한국 증권사는 Blue Ocean이 멈출 때만 주문을 돌리는 백업 계약 단계이고 2026-09 Blue Ocean 종목 거래 멈춤 때 지정가 주문이 일부 들어옴",
+     "color": "black",
+     "fact_ids": [],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "mo-0006",
+     "disp": "MOON 개요-14",
      "level": "●",
      "text": "모회사",
      "color": "black",
@@ -275,7 +371,7 @@
     },
     {
      "id": "mo-0007",
-     "disp": "MOON 개요-10",
+     "disp": "MOON 개요-15",
      "level": "★",
      "text": "OTC Markets Group(미국 장외주식 시장 운영사), OTCQX 상장",
      "color": "black",
@@ -287,7 +383,7 @@
     },
     {
      "id": "mo-0008",
-     "disp": "MOON 개요-11",
+     "disp": "MOON 개요-16",
      "level": "★",
      "text": "2026 Q2 그룹 매출 3,480만 달러, 전년 같은 분기 대비 14% 증가. 이 중 MOON ATS 몫은 공개되지 않음",
      "color": "black",
@@ -299,7 +395,7 @@
     },
     {
      "id": "mo-0009",
-     "disp": "MOON 개요-12",
+     "disp": "MOON 개요-17",
      "level": "●",
      "text": "취급 자산",
      "color": "black",
@@ -309,7 +405,7 @@
     },
     {
      "id": "mo-0010",
-     "disp": "MOON 개요-13",
+     "disp": "MOON 개요-18",
      "level": "★",
      "text": "미국 NMS 상장 주식",
      "color": "black",
@@ -321,7 +417,7 @@
     },
     {
      "id": "mo-0115",
-     "disp": "MOON 개요-14",
+     "disp": "MOON 개요-19",
      "level": "-",
      "text": "뜻 : NMS(전국시장체계) = 미국 증권거래소에 상장된 주식을 하나의 시장처럼 묶는 SEC 규칙 체계",
      "color": "black",
@@ -331,7 +427,7 @@
     },
     {
      "id": "mo-0011",
-     "disp": "MOON 개요-15",
+     "disp": "MOON 개요-20",
      "level": "★",
      "text": "장외주식 야간 거래는 2024-09 OTC Overnight으로 별도",
      "color": "black",
@@ -343,7 +439,7 @@
     },
     {
      "id": "mo-0012",
-     "disp": "MOON 개요-16",
+     "disp": "MOON 개요-21",
      "level": "●",
      "text": "대상 고객",
      "color": "black",
@@ -353,7 +449,7 @@
     },
     {
      "id": "mo-0013",
-     "disp": "MOON 개요-17",
+     "disp": "MOON 개요-22",
      "level": "★",
      "text": "브로커딜러 구독자",
      "color": "black",
@@ -365,7 +461,7 @@
     },
     {
      "id": "mo-0014",
-     "disp": "MOON 개요-18",
+     "disp": "MOON 개요-23",
      "level": "★",
      "text": "2025-12 Moomoo(아시아 투자 앱)가 24시간 플랫폼에 연결",
      "color": "black",
@@ -377,7 +473,7 @@
     },
     {
      "id": "mo-0015",
-     "disp": "MOON 개요-19",
+     "disp": "MOON 개요-24",
      "level": "●",
      "text": "거래시간",
      "color": "black",
@@ -387,7 +483,7 @@
     },
     {
      "id": "mo-0016",
-     "disp": "MOON 개요-20",
+     "disp": "MOON 개요-25",
      "level": "★",
      "text": "일~목 밤 8시~새벽 4시(미국 동부)",
      "color": "black",
@@ -399,7 +495,7 @@
     },
     {
      "id": "mo-0017",
-     "disp": "MOON 개요-21",
+     "disp": "MOON 개요-26",
      "level": "●",
      "text": "거래 규모",
      "color": "black",
@@ -409,7 +505,7 @@
     },
     {
      "id": "mo-0018",
-     "disp": "MOON 개요-22",
+     "disp": "MOON 개요-27",
      "level": "★",
      "text": "기준 : FINRA 주간 보고 거래대금 13주 합산, 야간 3사 합계 대비",
      "color": "black",
@@ -421,7 +517,7 @@
     },
     {
      "id": "mo-0019",
-     "disp": "MOON 개요-23",
+     "disp": "MOON 개요-28",
      "level": "★",
      "text": "2026 Q3 58.3억 달러, 3사 중 2.0%(Q2 3.8%)",
      "color": "black",
@@ -434,7 +530,7 @@
     },
     {
      "id": "mo-0020",
-     "disp": "MOON 개요-24",
+     "disp": "MOON 개요-29",
      "level": "★",
      "text": "같은 Q3 Blue Ocean(선발 야간 ATS) 83.0%, Bruce(야간 ATS) 15.0%",
      "color": "black",
@@ -447,7 +543,7 @@
     },
     {
      "id": "mo-0021",
-     "disp": "MOON 개요-25",
+     "disp": "MOON 개요-30",
      "level": "★",
      "text": "2026 Q2 120.9억 달러에서 Q3 58.3억 달러로 절반 아래로 감소(약 -52%)",
      "color": "black",
@@ -460,7 +556,7 @@
     },
     {
      "id": "mo-0156",
-     "disp": "MOON 개요-26",
+     "disp": "MOON 개요-31",
      "level": "★",
      "text": "앞서 2025-09 초부터 연말까지 일평균 거래대금이 200% 넘게 증가했다는 분석(Exegy, 단일 출처)이 있어, 2025년 말 증가 뒤 2026 Q3에 다시 줄어든 흐름",
      "color": "black",
@@ -472,7 +568,7 @@
     },
     {
      "id": "mo-0022",
-     "disp": "MOON 개요-27",
+     "disp": "MOON 개요-32",
      "level": "●",
      "text": "차별화 요소",
      "color": "black",
@@ -482,7 +578,7 @@
     },
     {
      "id": "mo-0023",
-     "disp": "MOON 개요-28",
+     "disp": "MOON 개요-33",
      "level": "★",
      "text": "아시아 구간 월~금 오전 8시~오후 4시(UTC+8, 홍콩, 싱가포르 시간대로 한국 시간 오전 9시~오후 5시) 별도",
      "color": "black",
@@ -494,7 +590,7 @@
     },
     {
      "id": "mo-0024",
-     "disp": "MOON 개요-29",
+     "disp": "MOON 개요-34",
      "level": "★",
      "text": "상장주식(MOON)과 장외주식(OTC Overnight) 야간 병행",
      "color": "black",
@@ -506,7 +602,7 @@
     },
     {
      "id": "mo-0025",
-     "disp": "MOON 개요-30",
+     "disp": "MOON 개요-35",
      "level": "●",
      "text": "토큰증권 취급 현황",
      "color": "black",
@@ -516,7 +612,7 @@
     },
     {
      "id": "mo-0026",
-     "disp": "MOON 개요-31",
+     "disp": "MOON 개요-36",
      "level": "★",
      "text": "2026-03 실적 발표 시점에 토큰증권은 취급하지 않음. CEO는 적법하고 자유롭게 거래되는 토큰증권이 나오면 참여하겠다고 말함(아래 발언 3)",
      "color": "black",
@@ -528,7 +624,7 @@
     },
     {
      "id": "mo-0027",
-     "disp": "MOON 개요-32",
+     "disp": "MOON 개요-37",
      "level": "●",
      "text": "화면",
      "color": "black",
@@ -538,7 +634,7 @@
     },
     {
      "id": "mo-0028",
-     "disp": "MOON 개요-33",
+     "disp": "MOON 개요-38",
      "level": "그림",
      "images": [
       {

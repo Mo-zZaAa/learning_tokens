@@ -45,8 +45,122 @@
      "notes": []
     },
     {
-     "id": "kr-0241",
+     "id": "kr-0709",
      "disp": "Kraken 카드-4",
+     "level": "★",
+     "text": "유형 안 위치 : EU MiCA 가상자산사업자(CASP) 404곳(ESMA 임시 등록부, 2026-11-11 파일) → 그중 가상자산 거래 플랫폼 운영 서비스가 든 22곳의 하나(아일랜드 Payward Global Solutions) → 업계 현물 거래량의 6.5%(2026-09, 회사 발표), 공식 순위 없음 → 2011년 가상자산 거래소 출신",
+     "color": "black",
+     "fact_ids": [
+      "F-1413",
+      "F-1414",
+      "F-1247",
+      "F-1109"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0710",
+     "disp": "Kraken 카드-5",
+     "level": "-",
+     "text": "뜻 : MiCA = EU의 가상자산시장 규정",
+     "color": "black",
+     "fact_ids": [
+      "F-1413"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0711",
+     "disp": "Kraken 카드-6",
+     "level": "-",
+     "text": "뜻 : CASP(가상자산사업자) = MiCA에 따라 인가를 받거나 기존 금융회사로 통지해 EU에서 가상자산 서비스를 하는 사업자. 404곳은 ESMA 등록부에서 종료일이 없는 곳 수",
+     "color": "black",
+     "fact_ids": [
+      "F-1413"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0712",
+     "disp": "Kraken 카드-7",
+     "level": "-",
+     "text": "뜻 : 거래 플랫폼 운영 = 여러 이용자의 가상자산 매매 주문을 한 시장에서 맞붙여 체결하는 서비스(거래소 업무). Coinbase, Robinhood의 EU 법인도 CASP이지만 이 서비스 코드는 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-1414"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0713",
+     "disp": "Kraken 카드-8",
+     "level": "-",
+     "text": "버뮤다 : 버뮤다 금융청(BMA) 디지털자산사업 48곳 중 거래소 운영이 허용된 23곳에 Payward Digital Solutions(정식 Class F, 2024-08-01)가 있음. 수탁 법인 Payward Commercial Treasury까지 Kraken 계열 2곳",
+     "color": "black",
+     "fact_ids": [
+      "F-1415",
+      "F-1416"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0714",
+     "disp": "Kraken 카드-9",
+     "level": "-",
+     "text": "미국 선물 : NFA 회원 선물중개업자(FCM) 79곳(2026-10-31)이 모집단이고, Kraken 계열은 NinjaTrader, Bitnomial 인수로 FCM을 보유(회사 발표). CFTC 지정 거래소와 청산소 수는 cftc.gov를 열지 못해 확인하지 못함",
+     "color": "black",
+     "fact_ids": [
+      "F-1410",
+      "F-1118"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0715",
+     "disp": "Kraken 카드-10",
+     "level": "-",
+     "text": "뉴욕 : 뉴욕주 금융서비스국(NYDFS) 가상자산 인가 목록 39곳에 Kraken(Payward) 법인은 없음",
+     "color": "black",
+     "fact_ids": [
+      "F-1411",
+      "F-1412"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0716",
+     "disp": "Kraken 카드-11",
+     "level": "-",
+     "text": "6.5%의 기준 : 회사가 업계 현물 거래량 대비로 낸 값(2025-09 3.3%)이라 감독기관 순위가 아님",
+     "color": "black",
+     "fact_ids": [
+      "F-1247"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0717",
+     "disp": "Kraken 카드-12",
+     "level": "-",
+     "text": "참고(회사 평가 기준 아님) : xStocks 발행 잔액 rwa.xyz 3위(제3자 집계, 아래 숫자)",
+     "color": "black",
+     "fact_ids": [
+      "F-1023"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "kr-0241",
+     "disp": "Kraken 카드-13",
      "level": "●",
      "text": "대표 상품 : xStocks = 미국 주식 1대1 담보 토큰, 미국인 판매 불가",
      "color": "black",
@@ -60,7 +174,7 @@
     },
     {
      "id": "kr-0290",
-     "disp": "Kraken 카드-5",
+     "disp": "Kraken 카드-14",
      "level": "-",
      "text": "뜻 : xStocks = 미국 상장 주식이나 ETF 한 주에 대응하는 블록체인 토큰. 기초 주식을 발행사가 1:1로 담보로 보유하지만 투자자가 갖는 것은 주식이 아니라 발행사에 대한 상환 청구권",
      "color": "black",
@@ -70,7 +184,7 @@
     },
     {
      "id": "kr-0242",
-     "disp": "Kraken 카드-6",
+     "disp": "Kraken 카드-15",
      "level": "●",
      "text": "꼭 알아야 할 사실",
      "color": "black",
@@ -80,7 +194,7 @@
     },
     {
      "id": "kr-0243",
-     "disp": "Kraken 카드-7",
+     "disp": "Kraken 카드-16",
      "level": "★",
      "text": "최초, 최대 타이틀 : 발행사 Backed는 저지 최초 토큰화 자산 발행사(로펌 서술)",
      "color": "black",
@@ -95,7 +209,7 @@
     },
     {
      "id": "kr-0291",
-     "disp": "Kraken 카드-8",
+     "disp": "Kraken 카드-17",
      "level": "-",
      "text": "뜻 : 저지(Jersey) = 영국 해협의 영국 왕실 속령. 영국 본토 법이 아니라 자체 법과 금융감독청(JFSC)을 가진 역외 금융지역",
      "color": "black",
@@ -105,7 +219,7 @@
     },
     {
      "id": "kr-0292",
-     "disp": "Kraken 카드-9",
+     "disp": "Kraken 카드-18",
      "level": "-",
      "text": "뜻 : Backed = xStocks를 만든 토큰화 증권 발행 회사. 스위스에서 시작해 발행 법인은 저지의 Backed Assets (JE) Limited, 2026-01 Payward 그룹이 100% 소유",
      "color": "black",
@@ -115,7 +229,7 @@
     },
     {
      "id": "kr-0293",
-     "disp": "Kraken 카드-10",
+     "disp": "Kraken 카드-19",
      "level": "-",
      "text": "왜 저지라는 말이 붙는가 : xStocks를 발행해 투자자에게 상환 의무를 지는 법인이 저지에 등록된 Backed Assets (JE) Limited이기 때문. 투자자가 청구하는 상대의 소재지를 가리키는 말",
      "color": "black",
@@ -128,7 +242,7 @@
     },
     {
      "id": "kr-0294",
-     "disp": "Kraken 카드-11",
+     "disp": "Kraken 카드-20",
      "level": "-",
      "text": "이력 : 스위스 Backed Assets GmbH 2021-04-20 설립, 저지 법인 2024-01-19 설립, 2024-02-23 스위스 법인이 저지 법인에 합병",
      "color": "black",
@@ -141,7 +255,7 @@
     },
     {
      "id": "kr-0295",
-     "disp": "Kraken 카드-12",
+     "disp": "Kraken 카드-21",
      "level": "-",
      "text": "중요한 정도 : 최초는 로펌 Walkers의 인수 안내문 서술이라 발행 규모나 시장 지위를 뜻하지 않음. 이 문서에서 저지가 중요한 이유는 채권을 청구하는 상대와 감독 구조가 저지 법인에 걸려 있기 때문",
      "color": "black",
@@ -154,7 +268,7 @@
     },
     {
      "id": "kr-0296",
-     "disp": "Kraken 카드-13",
+     "disp": "Kraken 카드-22",
      "level": "-",
      "text": "해석 : 저지 발행사는 발행만 맡는 특수목적 법인이고, 인가 받은 판매 법인과 보관 기관이 규제를 맡는 구조. 회사가 저지를 고른 이유를 직접 밝힌 문장은 없음",
      "color": "black",
@@ -167,7 +281,7 @@
     },
     {
      "id": "kr-0244",
-     "disp": "Kraken 카드-14",
+     "disp": "Kraken 카드-23",
      "level": "★",
      "text": "상장 : 비상장, 2025-11-19 SEC에 상장 서류 비공개 제출(회사 블로그)",
      "color": "black",
@@ -182,7 +296,7 @@
     },
     {
      "id": "kr-0297",
-     "disp": "Kraken 카드-15",
+     "disp": "Kraken 카드-24",
      "level": "-",
      "text": "모회사 Payward, Inc. : 비상장. 상장(IPO)용 Form S-1 초안을 SEC에 비공개 제출, 주식 수와 가격 범위는 미정",
      "color": "black",
@@ -194,7 +308,7 @@
     },
     {
      "id": "kr-0298",
-     "disp": "Kraken 카드-16",
+     "disp": "Kraken 카드-25",
      "level": "-",
      "text": "상장 시점 : 2026-09 회사가 2027년 2분기 전에는 상장 계획이 없다고 밝힘(코인데스크 한국어판 보도), 외부 자금 없이 운영 가능하다고 밝힘",
      "color": "black",
@@ -206,7 +320,7 @@
     },
     {
      "id": "kr-0299",
-     "disp": "Kraken 카드-17",
+     "disp": "Kraken 카드-26",
      "level": "-",
      "text": "100% 자회사 : Kraken Securities LLC(미국 증권사)는 Payward, Inc.가 유일한 사원, Backed Finance AG는 아일랜드 Payward Europe Limited가 100%이고 그 위에 Payward, Inc.가 100%",
      "color": "black",
@@ -219,7 +333,7 @@
     },
     {
      "id": "kr-0300",
-     "disp": "Kraken 카드-18",
+     "disp": "Kraken 카드-27",
      "level": "-",
      "text": "인수한 회사 : NinjaTrader(2025-05), Small Exchange(2025-10), Bitnomial(2026-05), Reap(2026-07)는 인수 완료를 회사가 밝힘, 인수 뒤 각 회사의 지분 구조와 상장 여부 공시는 못 찾음",
      "color": "black",
@@ -234,7 +348,7 @@
     },
     {
      "id": "kr-0301",
-     "disp": "Kraken 카드-19",
+     "disp": "Kraken 카드-28",
      "level": "-",
      "text": "주주로 확인되는 곳 : Citadel Securities 전략 투자 2억 달러(2025-11), Nasdaq Ventures 1억 달러 투자 합의(2026-09), 독일거래소그룹 지분 1.5% 2억 달러(2026-04, 토큰포스트 보도), 지분율 전체 표는 못 찾음",
      "color": "black",
@@ -248,7 +362,7 @@
     },
     {
      "id": "kr-0245",
-     "disp": "Kraken 카드-20",
+     "disp": "Kraken 카드-29",
      "level": "★",
      "text": "큰 인수 : NinjaTrader 15억, Small Exchange, Bitnomial, Backed, Reap(금액 출처는 아래 세부)",
      "color": "black",
@@ -269,7 +383,7 @@
     },
     {
      "id": "kr-0302",
-     "disp": "Kraken 카드-21",
+     "disp": "Kraken 카드-30",
      "level": "-",
      "text": "NinjaTrader 금액 : 2025-03-20 계약 발표 때 Kraken 블로그가 약 15억 달러(가격 조정 조건)를 직접 밝힘, 코인데스크 한국어판도 같은 금액 보도. 2025-05-01 완료는 언론으로 확인하고 완료 시점 금액 발표는 없음",
      "color": "black",
@@ -283,7 +397,7 @@
     },
     {
      "id": "kr-0303",
-     "disp": "Kraken 카드-22",
+     "disp": "Kraken 카드-31",
      "level": "-",
      "text": "Small Exchange : 2025-10-16 발표, IG Group에서 1억 달러, 미국 선물 거래소 인가 확보",
      "color": "black",
@@ -295,7 +409,7 @@
     },
     {
      "id": "kr-0304",
-     "disp": "Kraken 카드-23",
+     "disp": "Kraken 카드-32",
      "level": "-",
      "text": "Bitnomial : 2026-05-01 완료, 중개, 거래소, 청산소 인가 한 벌, 금액 5.5억 달러는 현금과 주식(코인데스크 한국어판 보도)",
      "color": "black",
@@ -309,7 +423,7 @@
     },
     {
      "id": "kr-0305",
-     "disp": "Kraken 카드-24",
+     "disp": "Kraken 카드-33",
      "level": "-",
      "text": "Backed : 2025-12-02 합의, 2026-01 100% 매입, 금액 미공개, xStocks 발행사",
      "color": "black",
@@ -322,7 +436,7 @@
     },
     {
      "id": "kr-0306",
-     "disp": "Kraken 카드-25",
+     "disp": "Kraken 카드-34",
      "level": "-",
      "text": "Reap : 2026-07-01 완료, 금액은 회사 발표에 없고 최대 6억 달러라는 보도가 있음(토큰포스트 보도)",
      "color": "black",
@@ -335,7 +449,7 @@
     },
     {
      "id": "kr-0307",
-     "disp": "Kraken 카드-26",
+     "disp": "Kraken 카드-35",
      "level": "-",
      "text": "합계 : 공개된 인수 금액만 더해 최소 27.5억 달러(토큰포스트 보도, Backed와 Magna는 비공개)",
      "color": "black",
@@ -347,7 +461,7 @@
     },
     {
      "id": "kr-0663",
-     "disp": "Kraken 카드-27",
+     "disp": "Kraken 카드-36",
      "level": "-",
      "text": "합계의 계산 : NinjaTrader 15억 + Small Exchange 1억 + Bitnomial 최대 5.5억 + Reap 최대 6억 달러, 뒤의 두 건은 상한값이라 합계는 참고용",
      "color": "black",
@@ -359,7 +473,7 @@
     },
     {
      "id": "kr-0308",
-     "disp": "Kraken 카드-28",
+     "disp": "Kraken 카드-37",
      "level": "-",
      "text": "그 밖 인수 : Breakout(2025-09-04 안내, 프롭 트레이딩 평가 플랫폼) 금액과 이유 문장 못 찾음, Saldo Bank(2026-10 계약, 종결 2027 예상)",
      "color": "black",
@@ -372,7 +486,7 @@
     },
     {
      "id": "kr-0309",
-     "disp": "Kraken 카드-29",
+     "disp": "Kraken 카드-38",
      "level": "-",
      "text": "인수마다 왜, 어떻게, 어디에 썼는지, 계획은 사업 범위 장 에 따로 정리",
      "color": "black",
@@ -384,7 +498,7 @@
     },
     {
      "id": "kr-0246",
-     "disp": "Kraken 카드-30",
+     "disp": "Kraken 카드-39",
      "level": "★",
      "text": "계획 : Payward 계열이 미국 개별 주식 10종의 무기한선물(만기 없는 선물)을 2026-09 감독기관에 서류 제출, 아직 출시 아님",
      "color": "black",
@@ -396,7 +510,7 @@
     },
     {
      "id": "kr-0287",
-     "disp": "Kraken 카드-31",
+     "disp": "Kraken 카드-40",
      "level": "●",
      "text": "큰 사고와 제재 : 2023-02 SEC 스테이킹 합의",
      "color": "black",
@@ -411,7 +525,7 @@
     },
     {
      "id": "kr-0310",
-     "disp": "Kraken 카드-32",
+     "disp": "Kraken 카드-41",
      "level": "★",
      "text": "무슨 일 : 2023-02-09 Kraken 법인 2곳이 SEC와 합의, 스테이킹 프로그램(광고 수익률 최대 연 21%)이 미등록 증권 공모인지가 쟁점",
      "color": "black",
@@ -423,7 +537,7 @@
     },
     {
      "id": "kr-0311",
-     "disp": "Kraken 카드-33",
+     "disp": "Kraken 카드-42",
      "level": "-",
      "text": "뜻 : 스테이킹 = 보유한 가상자산을 네트워크 운영에 맡기고 보상을 받는 서비스",
      "color": "black",
@@ -433,7 +547,7 @@
     },
     {
      "id": "kr-0312",
-     "disp": "Kraken 카드-34",
+     "disp": "Kraken 카드-43",
      "level": "-",
      "text": "결과 : 인정도 부인도 하지 않고 스테이킹 서비스 중단과 미등록 스테이킹 영구 금지에 동의, 총 3천만 달러 납부",
      "color": "black",
@@ -445,7 +559,7 @@
     },
     {
      "id": "kr-0313",
-     "disp": "Kraken 카드-35",
+     "disp": "Kraken 카드-44",
      "level": "★",
      "text": "뒤의 일 : 2023-11-20 SEC가 Payward 등을 별건으로 제소, 2025-03 취하(위키백과 정리)",
      "color": "black",
@@ -457,7 +571,7 @@
     },
     {
      "id": "kr-0314",
-     "disp": "Kraken 카드-36",
+     "disp": "Kraken 카드-45",
      "level": "★",
      "text": "그 밖의 이력(위키백과 정리) : 2015-08 뉴욕 BitLicense 문제로 뉴욕 철수, 2021-09 CFTC 미등록 마진거래 125만 달러, 2022-11 OFAC 이란 제재 위반 36.2만 달러, 2024 호주 ASIC 소송 벌금 800만 호주달러",
      "color": "black",
@@ -469,7 +583,7 @@
     },
     {
      "id": "kr-0315",
-     "disp": "Kraken 카드-37",
+     "disp": "Kraken 카드-46",
      "level": "★",
      "text": "감원(위키백과 정리) : 2022-11 약 1,100명(약 30%), 2024-10 약 15%",
      "color": "black",
@@ -481,7 +595,7 @@
     },
     {
      "id": "kr-0316",
-     "disp": "Kraken 카드-38",
+     "disp": "Kraken 카드-47",
      "level": "★",
      "text": "해석 : 스테이킹 건은 가상자산 서비스에 관한 것이고 xStocks 사업과 직접 관련은 없음. 스테이킹 재개 여부는 확인 못 함",
      "color": "black",
@@ -493,7 +607,7 @@
     },
     {
      "id": "kr-0247",
-     "disp": "Kraken 카드-39",
+     "disp": "Kraken 카드-48",
      "level": "●",
      "text": "숫자",
      "color": "black",
@@ -503,7 +617,7 @@
     },
     {
      "id": "kr-0248",
-     "disp": "Kraken 카드-40",
+     "disp": "Kraken 카드-49",
      "level": "★",
      "text": "순위와 잔액 : 2026-11-16 3위, 6.8억 달러(rwa.xyz 발행 잔액 기준)",
      "color": "black",
@@ -518,7 +632,7 @@
     },
     {
      "id": "kr-0317",
-     "disp": "Kraken 카드-41",
+     "disp": "Kraken 카드-50",
      "level": "-",
      "text": "무엇의 순위 : rwa.xyz가 집계한 분산형 토큰화 주식 플랫폼 표에서 블록체인에 발행된 토큰화 주식의 달러 가치(발행 잔액) 순서",
      "color": "black",
@@ -530,7 +644,7 @@
     },
     {
      "id": "kr-0318",
-     "disp": "Kraken 카드-42",
+     "disp": "Kraken 카드-51",
      "level": "-",
      "text": "1위와 차이 : 1위 Binance 13.6억 달러(점유율 36.62%), Kraken은 1위의 약 절반, 점유율 차이 18.4%p",
      "color": "black",
@@ -543,7 +657,7 @@
     },
     {
      "id": "kr-0319",
-     "disp": "Kraken 카드-43",
+     "disp": "Kraken 카드-52",
      "level": "-",
      "text": "2위와 차이 : 2위 Ondo 9.0억 달러(24.23%), Kraken은 Ondo의 약 75%",
      "color": "black",
@@ -556,7 +670,7 @@
     },
     {
      "id": "kr-0320",
-     "disp": "Kraken 카드-44",
+     "disp": "Kraken 카드-53",
      "level": "-",
      "text": "비교 범위 : 표 전체 37.1억 달러 중 Kraken 18.26%, 이 표는 rwa.xyz가 집계한 플랫폼만이라 시장 전체가 아님",
      "color": "black",
@@ -569,7 +683,7 @@
     },
     {
      "id": "kr-0321",
-     "disp": "Kraken 카드-45",
+     "disp": "Kraken 카드-54",
      "level": "-",
      "text": "다른 지표와 구분 : 회사가 발표한 운용자산 10억 달러(2026-10-27)는 발행 잔액과 다른 지표라 합치거나 비교하지 않음",
      "color": "black",
@@ -582,7 +696,7 @@
     },
     {
      "id": "kr-0322",
-     "disp": "Kraken 카드-46",
+     "disp": "Kraken 카드-55",
      "level": "-",
      "text": "전에는 : 2026-01 초 2위 24.37%, 2026-11-16 3위 18.26%",
      "color": "black",
@@ -595,7 +709,7 @@
     },
     {
      "id": "kr-0249",
-     "disp": "Kraken 카드-47",
+     "disp": "Kraken 카드-56",
      "level": "★",
      "text": "고객 수 : 자금 계정 710만 개(2026-09-30, 중복 가능, 회사 발표)",
      "color": "black",
@@ -610,7 +724,7 @@
     },
     {
      "id": "kr-0323",
-     "disp": "Kraken 카드-48",
+     "disp": "Kraken 카드-57",
      "level": "-",
      "text": "자금 계정의 정의 : 기간 마지막 날 잔고가 0보다 크고 거래할 수 있는 고객 계정 수, 한 고객이 여러 개를 가질 수 있어 고유 고객 수가 아님(회사 정의)",
      "color": "black",
@@ -622,7 +736,7 @@
     },
     {
      "id": "kr-0324",
-     "disp": "Kraken 카드-49",
+     "disp": "Kraken 카드-58",
      "level": "-",
      "text": "증가 : 전 분기 대비 +7%, 전년 동기 대비 +37%, Payward 플랫폼 전체 합산",
      "color": "black",
@@ -634,7 +748,7 @@
     },
     {
      "id": "kr-0325",
-     "disp": "Kraken 카드-50",
+     "disp": "Kraken 카드-59",
      "level": "-",
      "text": "날짜가 다른 값 : 약 660만 개는 2026-06-30 기준(회사 블로그)이고 Sethi 인터뷰(2026-09, 코인데스크 한국어판)도 약 660만 개, 710만 개는 2026-09-30 기준이라 서로 다른 날짜의 값",
      "color": "black",
@@ -648,7 +762,7 @@
     },
     {
      "id": "kr-0326",
-     "disp": "Kraken 카드-51",
+     "disp": "Kraken 카드-60",
      "level": "-",
      "text": "과거 : 2024년 말 260만 개(위키백과)",
      "color": "black",
@@ -660,7 +774,7 @@
     },
     {
      "id": "kr-0327",
-     "disp": "Kraken 카드-52",
+     "disp": "Kraken 카드-61",
      "level": "-",
      "text": "다른 고객 지표 : 청구 가능 계정 150만 개는 트레이더 평가, 구독, 상장, 지수 라이선스 등 이용료를 내는 계정(전년 대비 +74%)",
      "color": "black",
@@ -672,7 +786,7 @@
     },
     {
      "id": "kr-0328",
-     "disp": "Kraken 카드-53",
+     "disp": "Kraken 카드-62",
      "level": "-",
      "text": "xStocks 보유자 : 55만 초과(2026-10, 회사 발표)로 자금 계정과 별개 지표",
      "color": "black",
@@ -684,7 +798,7 @@
     },
     {
      "id": "kr-0250",
-     "disp": "Kraken 카드-54",
+     "disp": "Kraken 카드-63",
      "level": "★",
      "text": "종목 수 : 100종 돌파(2026-03, 회사 발표)",
      "color": "black",
@@ -696,7 +810,7 @@
     },
     {
      "id": "kr-0664",
-     "disp": "Kraken 카드-55",
+     "disp": "Kraken 카드-64",
      "level": "-",
      "text": "다른 표기 : Kraken xStocks 페이지 FAQ는 1,000종 이상으로 적음, 기준일이 없고 100종(2026-03)과 달라 하나로 고르지 않음",
      "color": "black",
@@ -709,7 +823,7 @@
     },
     {
      "id": "kr-0329",
-     "disp": "Kraken 카드-56",
+     "disp": "Kraken 카드-65",
      "level": "-",
      "text": "출시 때 60종(2025-06-30)",
      "color": "black",
@@ -721,7 +835,7 @@
     },
     {
      "id": "kr-0251",
-     "disp": "Kraken 카드-57",
+     "disp": "Kraken 카드-66",
      "level": "★",
      "text": "기업가치 : 200억 달러(2025-11, 시티델 2억 달러 투자 기준, 회사 발표)",
      "color": "black",
@@ -733,7 +847,7 @@
     },
     {
      "id": "kr-0330",
-     "disp": "Kraken 카드-58",
+     "disp": "Kraken 카드-67",
      "level": "-",
      "text": "다른 시점 값 : 2026-04 독일거래소그룹이 지분 1.5%를 2억 달러에 취득한 거래 기준 약 133억 달러(토큰포스트 보도), 두 값은 날짜와 거래가 달라 직접 비교하지 않음",
      "color": "black",
@@ -746,7 +860,7 @@
     },
     {
      "id": "kr-0252",
-     "disp": "Kraken 카드-59",
+     "disp": "Kraken 카드-68",
      "level": "●",
      "text": "흐름 : 이용자 → Kraken 앱 → Backed(저지 발행사) → InCore, Alpaca(보관)",
      "color": "black",
@@ -763,7 +877,7 @@
     },
     {
      "id": "kr-0331",
-     "disp": "Kraken 카드-60",
+     "disp": "Kraken 카드-69",
      "level": "★",
      "text": "1단계 판매 : 이용자는 Kraken 앱에서 주문, 판매 법인은 버뮤다 Payward Digital Solutions Ltd와 EU용 키프로스 Payward Europe Digital Solutions (CY) Ltd",
      "color": "black",
@@ -777,7 +891,7 @@
     },
     {
      "id": "kr-0665",
-     "disp": "Kraken 카드-61",
+     "disp": "Kraken 카드-70",
      "level": "-",
      "text": "뜻 : 승인 참가자(AP) = 발행사와 계약해 토큰을 받아 투자자에게 파는 인가 금융회사, 위 두 법인이 이 계약을 맺은 Payward 그룹 법인",
      "color": "black",
@@ -790,7 +904,7 @@
     },
     {
      "id": "kr-0332",
-     "disp": "Kraken 카드-62",
+     "disp": "Kraken 카드-71",
      "level": "★",
      "text": "2단계 발행 : 저지 Backed Assets (JE) Limited가 토큰을 발행하고 상환 의무를 짐",
      "color": "black",
@@ -803,7 +917,7 @@
     },
     {
      "id": "kr-0333",
-     "disp": "Kraken 카드-63",
+     "disp": "Kraken 카드-72",
      "level": "★",
      "text": "3단계 보관 InCore Bank : 스위스 FINMA 인가 은행, 스위스 쪽 담보 보관과 발행, 상환 대금 계좌, 브로커 역할",
      "color": "black",
@@ -817,7 +931,7 @@
     },
     {
      "id": "kr-0666",
-     "disp": "Kraken 카드-64",
+     "disp": "Kraken 카드-73",
      "level": "-",
      "text": "뜻 : FINMA = 스위스 금융시장감독청",
      "color": "black",
@@ -829,7 +943,7 @@
     },
     {
      "id": "kr-0334",
-     "disp": "Kraken 카드-65",
+     "disp": "Kraken 카드-74",
      "level": "★",
      "text": "3단계 보관 Alpaca : 미국 쪽 보관기관(Alpaca Crypto LLC)과 미국 브로커(Alpaca Securities LLC, SEC 등록 브로커딜러)",
      "color": "black",
@@ -842,7 +956,7 @@
     },
     {
      "id": "kr-0335",
-     "disp": "Kraken 카드-66",
+     "disp": "Kraken 카드-75",
      "level": "★",
      "text": "두 곳인 이유 : 담보의 법구조가 보관기관 소재국에 따라 스위스, 미국, 영국으로 갈려 보관처도 나라별로 나뉨. 회사가 두 곳을 쓰는 이유를 직접 밝힌 문장은 못 찾음",
      "color": "black",
@@ -854,7 +968,7 @@
     },
     {
      "id": "kr-0336",
-     "disp": "Kraken 카드-67",
+     "disp": "Kraken 카드-76",
      "level": "★",
      "text": "둘과의 관계 : 투자설명서는 둘을 보관기관과 브로커로 기재하고 지분 관계는 적지 않음. Alpaca Securities는 약정이 허용하면 기초주식 대여 상대가 될 수 있고 InCore는 증권 대여가 금지됨",
      "color": "black",
@@ -868,7 +982,7 @@
     },
     {
      "id": "kr-0337",
-     "disp": "Kraken 카드-68",
+     "disp": "Kraken 카드-77",
      "level": "-",
      "text": "뜻 : 보관기관(custodian) = 담보 주식을 대신 맡아 두는 곳. 브로커 = 주식 매매 주문을 넣는 증권사",
      "color": "black",

@@ -41,8 +41,75 @@
      "notes": []
     },
     {
-     "id": "on-0219",
+     "id": "on-0483",
      "disp": "Ondo 카드-4",
+     "level": "★",
+     "text": "유형 안 위치 : 미국 SEC 등록 명의개서대리인 273곳 → 2025-10 Oasis Pro 인수로 명의개서대리인, ATS, 증권사 세 자격을 한 그룹에 둔 토큰화 회사(주식 토큰 발행 법인은 BVI) → 공식 순위 없음(토큰화 주식 발행사의 감독기관 공식 목록은 찾지 못함) → 2021년 설립, 국채 토큰에서 출발",
+     "color": "black",
+     "fact_ids": [
+      "F-1145",
+      "F-1216",
+      "F-0185",
+      "F-1111",
+      "F-1215"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0484",
+     "disp": "Ondo 카드-5",
+     "level": "-",
+     "text": "모집단을 고른 이유 : 2026-07 Oasis Pro 명의개서로 미국 보관형 주식 토큰(IVV, MU)을 첫 가동(회사 주장)해, 토큰 발행과 기록을 맡는 자격이 주식 토큰 본업과 가장 가까움",
+     "color": "black",
+     "fact_ids": [
+      "F-1128"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0485",
+     "disp": "Ondo 카드-6",
+     "level": "-",
+     "text": "ATS : SEC 목록의 그 밖의 ATS(상장주식 ATS가 아닌 곳) 81곳이 모집단. Oasis Pro ATS를 이 목록과 대조하지는 않음",
+     "color": "black",
+     "fact_ids": [
+      "F-1142",
+      "F-0194"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0486",
+     "disp": "Ondo 카드-7",
+     "level": "-",
+     "text": "증권사 : FINRA 등록 증권사 3,184곳(2025년 말) 중 Oasis Pro 증권사 법인. FINRA가 회사별 규모와 사업 유형을 공개하지 않아 그 안의 위치는 쓰지 않음",
+     "color": "black",
+     "fact_ids": [
+      "F-1405",
+      "F-0246"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0487",
+     "disp": "Ondo 카드-8",
+     "level": "-",
+     "text": "참고(회사 평가 기준 아님) : Ondo Stocks 발행 잔액 rwa.xyz 2위, 국채 토큰 플랫폼 2위, 둘 다 제3자 집계(아래 숫자)",
+     "color": "black",
+     "fact_ids": [
+      "F-1022",
+      "F-1321"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "on-0219",
+     "disp": "Ondo 카드-9",
      "level": "●",
      "text": "대표 상품 : OUSG = 미국 국채 펀드 4종과 USDC를 담은 사모 펀드 지분 토큰, 적격투자자용",
      "color": "black",
@@ -56,7 +123,7 @@
     },
     {
      "id": "on-0268",
-     "disp": "Ondo 카드-5",
+     "disp": "Ondo 카드-10",
      "level": "-",
      "text": "뜻 : 적격투자자(accredited investor) = 미국 증권법이 정한 순자산이나 소득 기준을 넘어 사모 상품에 투자할 수 있는 개인, 기관",
      "color": "black",
@@ -66,7 +133,7 @@
     },
     {
      "id": "on-0269",
-     "disp": "Ondo 카드-6",
+     "disp": "Ondo 카드-11",
      "level": "-",
      "text": "뜻 : 사모 = 불특정 다수 공모가 아니라 자격 있는 소수 투자자에게만 파는 방식. 토큰이 가리키는 것은 Ondo I LP(Ondo가 운용하는 유한책임조합)의 지분",
      "color": "black",
@@ -76,7 +143,7 @@
     },
     {
      "id": "on-0270",
-     "disp": "Ondo 카드-7",
+     "disp": "Ondo 카드-12",
      "level": "★",
      "text": "OUSG 구성(2026-11-13) : State Street 펀드 48.57%, BlackRock BUIDL 32.69%, Franklin BENJI 10.13%, Fidelity FYOXX 7.56%. 국채를 직접 사지 않고 운용사들이 만든 국채 펀드의 토큰을 다시 담은 구조",
      "color": "black",
@@ -89,7 +156,7 @@
     },
     {
      "id": "on-0221",
-     "disp": "Ondo 카드-8",
+     "disp": "Ondo 카드-13",
      "level": "★",
      "text": "USDY = Ondo가 발행하는 국채 담보 노트 토큰(OUSG와 달리 펀드 지분이 아니라 발행사 채무증서), 적격 비미국인 대상. 2026-11-13 발행 잔액 19.7억 달러(Ondo 사이트 표시)",
      "color": "black",
@@ -103,7 +170,7 @@
     },
     {
      "id": "on-0271",
-     "disp": "Ondo 카드-9",
+     "disp": "Ondo 카드-14",
      "level": "-",
      "text": "뜻 : 담보부 노트 = 발행사가 국채 등을 담보로 잡고 이자를 얹어 돌려주겠다고 약속한 채무증서(스테이블코인과 다름)",
      "color": "black",
@@ -115,7 +182,7 @@
     },
     {
      "id": "on-0222",
-     "disp": "Ondo 카드-10",
+     "disp": "Ondo 카드-15",
      "level": "★",
      "text": "Ondo Stocks(2025-09 출시, 이전 이름 Ondo Global Markets) = 미국 상장 주식, ETF의 가격을 1:1로 따라가는 채무증권 토큰, 미국 밖 개인과 기관 대상",
      "color": "black",
@@ -129,7 +196,7 @@
     },
     {
      "id": "on-0406",
-     "disp": "Ondo 카드-11",
+     "disp": "Ondo 카드-16",
      "level": "-",
      "text": "뜻 : 이름이 둘인 이유 = Ondo Stocks가 이전에 Ondo Global Markets라는 이름이었고, 발행 법인명 Ondo Global Markets (BVI) Limited에 옛 이름이 남아 있음",
      "color": "black",
@@ -142,7 +209,7 @@
     },
     {
      "id": "on-0407",
-     "disp": "Ondo 카드-12",
+     "disp": "Ondo 카드-17",
      "level": "-",
      "text": "뜻 : 채무증권 = 주식 자체가 아니라 발행 법인에 대한 채권. 토큰 보유자는 해당 기업의 주주가 아니고 의결권이 없음",
      "color": "black",
@@ -155,7 +222,7 @@
     },
     {
      "id": "on-0223",
-     "disp": "Ondo 카드-13",
+     "disp": "Ondo 카드-18",
      "level": "●",
      "text": "꼭 알아야 할 사실",
      "color": "black",
@@ -165,7 +232,7 @@
     },
     {
      "id": "on-0224",
-     "disp": "Ondo 카드-14",
+     "disp": "Ondo 카드-19",
      "level": "★",
      "text": "투자 : 2022-04 시리즈 A(창업 초기의 첫 본격 투자 라운드) 2000만 달러, 투자사 Founders Fund와 Pantera가 주도",
      "color": "black",
@@ -177,7 +244,7 @@
     },
     {
      "id": "on-0225",
-     "disp": "Ondo 카드-15",
+     "disp": "Ondo 카드-20",
      "level": "★",
      "text": "큰 인수 : 2025-10 Oasis Pro 인수, 금액 비공개. 목적은 미국 증권사, ATS, 명의개서 인가 확보(회사 설명)",
      "color": "black",
@@ -192,7 +259,7 @@
     },
     {
      "id": "on-0226",
-     "disp": "Ondo 카드-16",
+     "disp": "Ondo 카드-21",
      "level": "★",
      "text": "자체 체인 : 2025-02 발표한 자체 블록체인 Ondo Chain은 철회, 2026-07 Ondo Network로 대체",
      "color": "black",
@@ -205,7 +272,7 @@
     },
     {
      "id": "on-0408",
-     "disp": "Ondo 카드-17",
+     "disp": "Ondo 카드-22",
      "level": "-",
      "text": "뜻 : L1 = 독자적으로 거래를 검증, 기록하는 기본 블록체인. Ondo Network = 자체 체인을 새로 만드는 대신 검증과 정산만 맡는 실행 계층(회사 설명)",
      "color": "black",
@@ -217,7 +284,7 @@
     },
     {
      "id": "on-0227",
-     "disp": "Ondo 카드-18",
+     "disp": "Ondo 카드-23",
      "level": "★",
      "text": "제재 : SEC(미국 증권거래위원회)의 수년간 비공개 조사(토큰화 방식과 ONDO 토큰의 증권성)가 기소 없이 종결됐다고 회사가 발표(2025-12). SEC 확인문은 없음",
      "color": "black",
@@ -230,7 +297,7 @@
     },
     {
      "id": "on-0228",
-     "disp": "Ondo 카드-19",
+     "disp": "Ondo 카드-24",
      "level": "●",
      "text": "숫자",
      "color": "black",
@@ -240,7 +307,7 @@
     },
     {
      "id": "on-0272",
-     "disp": "Ondo 카드-20",
+     "disp": "Ondo 카드-25",
      "level": "★",
      "text": "주식 토큰 순위와 잔액 : 2026-11-16 rwa.xyz 토큰화 주식 플랫폼 표에서 발행 잔액 2위, 8.99억 달러로 시장 37.1억 달러의 24.23%. 1위 Binance 13.6억 달러와 4.6억 달러 차이",
      "color": "black",
@@ -254,7 +321,7 @@
     },
     {
      "id": "on-0411",
-     "disp": "Ondo 카드-21",
+     "disp": "Ondo 카드-26",
      "level": "-",
      "text": "뜻 : 발행 잔액 = 토큰으로 발행되어 블록체인 위에 유통 중인 가치의 합계. rwa.xyz 표에서는 Total Value(분산 가치)로 표시되는 값",
      "color": "black",
@@ -267,7 +334,7 @@
     },
     {
      "id": "on-0273",
-     "disp": "Ondo 카드-22",
+     "disp": "Ondo 카드-27",
      "level": "★",
      "text": "국채 토큰 순위와 잔액 : 같은 날 rwa.xyz 국채 토큰 플랫폼 표 2위, Ondo 상품 합계 32억 달러(시장 139.2억 달러의 약 23%). 1위 Franklin Benji 33억 달러와 약 1억 달러 차이",
      "color": "black",
@@ -280,7 +347,7 @@
     },
     {
      "id": "on-0230",
-     "disp": "Ondo 카드-23",
+     "disp": "Ondo 카드-28",
      "level": "★",
      "text": "종목 수 : 2025-09 출시 때 100종 이상, 2026-11-16 Ondo 사이트 소개문에 450개 이상(토큰화 주식과 ETF, 회사 표기)",
      "color": "black",
@@ -293,7 +360,7 @@
     },
     {
      "id": "on-0470",
-     "disp": "Ondo 카드-24",
+     "disp": "Ondo 카드-29",
      "level": "★",
      "text": "보유자 수 : 2026-08-15 Ondo 전체 상품 보유자 200,645명, 그중 Ondo Stocks 186,636명(회사 보도자료)",
      "color": "black",
@@ -305,7 +372,7 @@
     },
     {
      "id": "on-0231",
-     "disp": "Ondo 카드-25",
+     "disp": "Ondo 카드-30",
      "level": "●",
      "text": "흐름(주식 토큰) : 이용자(미국 밖) → 앱, Bitget(거래소) → 발행 BVI(SPV) → 보관 Alpaca(BitGo 포함)",
      "color": "black",
@@ -320,7 +387,7 @@
     },
     {
      "id": "on-0274",
-     "disp": "Ondo 카드-26",
+     "disp": "Ondo 카드-31",
      "level": "-",
      "text": "뜻 : BVI = 영국령 버진아일랜드, 영국 본토 법이 아닌 자체 회사법으로 법인을 세우는 역외 지역. Ondo가 이곳에 발행 법인을 둔 이유는 회사 자료에서 확인하지 못함",
      "color": "black",
@@ -330,7 +397,7 @@
     },
     {
      "id": "on-0275",
-     "disp": "Ondo 카드-27",
+     "disp": "Ondo 카드-32",
      "level": "-",
      "text": "뜻 : SPV = 특정 사업만 하도록 따로 세운 특수목적법인. 토큰 채무가 모회사 파산과 분리되도록 설계",
      "color": "black",
@@ -343,7 +410,7 @@
     },
     {
      "id": "on-0276",
-     "disp": "Ondo 카드-28",
+     "disp": "Ondo 카드-33",
      "level": "-",
      "text": "뜻 : Alpaca = 미국 청산 증권사, 기초 주식 보관 . BitGo Trust = 가상자산 수탁 회사",
      "color": "black",
@@ -356,7 +423,7 @@
     },
     {
      "id": "on-0277",
-     "disp": "Ondo 카드-29",
+     "disp": "Ondo 카드-34",
      "level": "●",
      "text": "흐름(국채 토큰) : 투자자 → Ondo 웹(USDC, PYUSD 입금) → 펀드가 Coinbase에 둔 계좌로 입금액 이동 → 기초 국채 펀드 매입",
      "color": "black",
