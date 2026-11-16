@@ -18,3 +18,4 @@
 - Binance inventory.csv(458MB)는 GitHub 한도를 넘어 기록에서 지우고 inventory.csv.gz(26MB)만 커밋. .tmp 파일은 .gitignore.
 - base.org markets 묶음 02, 03(종목별 같은 틀 페이지)은 표본(01)만 읽고 나머지는 미열람.
 - 사용자 요청(12:2x UTC): relations.csv에 주는 것, 받는 것 열 추가(회사 발표, 계약 공시만). 상품 단위 db/companies.csv 신설(SEC 직원 성명 2026.1.28 분류). 사용자가 올린 관계도 HTML의 연결선 23건은 inputs/관계도_연결선.csv로 뽑아 출발점으로만 씀.
+- SEC: 사용자가 준 연락처로 User-Agent를 선언해도 403(Undeclared Automated Tool). 클라우드 접속 위치 차단으로 보고 사용자에게 성명 PDF 등 3~4건 첨부를 요청함.
