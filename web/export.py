@@ -158,7 +158,7 @@ def main():
                     text = (r["label"] + " : " if r.get("label") else "") + r.get("text", "")
                     if r.get("link"):
                         text += " " + r["link"]
-                rows.append({"id": r["id"], "disp": disp, "level": LV[r["level"]], "text": text,
+                rows.append({"id": r["id"], "disp": disp, "level": LV[r["level"]], "text": re.sub(r"\*\*(.+?)\*\*|==(.+?)==|!!(.+?)!!", lambda m: next(g for g in m.groups() if g is not None), text),
                              "color": "orange" if r.get("orange") else "black", "fact_ids": r.get("fact_ids", []),
                              "confirmed": bool(r.get("_confirmed")), "notes": notes.get(r["id"], [])})
                 for fid in r.get("fact_ids", []):
