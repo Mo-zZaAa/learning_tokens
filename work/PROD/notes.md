@@ -1,3 +1,8 @@
+# 분류 정의 원문 확인 (2026-11-16 추가)
+- SEC 직원 성명 원문(Statement on Tokenized Securities, 2026-01-28, Corporation Finance, Investment Management, Trading and Markets 공동)을 사용자가 준 PDF로 확인함: inputs/manual/B17_sec_staff_statement_tokenized_securities_20260128.pdf(OCR 텍스트 .txt).
+- 정의: 발행사 직접(issuer-sponsored), 제3자 보관형(custodial: 기초 증권을 보관하고 토큰이 보관 증권에 대한 소유 지분을 나타냄), 제3자 합성형(synthetic: 제3자 자신의 증권으로 합성 노출. 연계증권 또는 증권기반 스와프).
+- 이 정의로 8개 상품 분류를 다시 대조한 결과 바꿀 것 없음. 아래 로펌 해설 기반 정의는 길잡이로만 남김.
+
 # PROD 메모 (기준일 2026-11-16, 열람 2026-11-16T12:30Z)
 
 ## 1. 토큰 법적 성격 분류 정의와 출처 (맨 위)
