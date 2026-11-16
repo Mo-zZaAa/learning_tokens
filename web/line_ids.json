@@ -1,0 +1,3927 @@
+{
+ "kr": {
+  "next": 135,
+  "lines": {
+   "kr-0001": {
+    "sec": "개요",
+    "text": "● 주장 : 가상자산 거래소가 발행사를 사들여 주식 토큰 공급망을 직접 확보"
+   },
+   "kr-0002": {
+    "sec": "개요",
+    "text": "● 기본정보"
+   },
+   "kr-0003": {
+    "sec": "개요",
+    "text": "★ 법인명 : Payward, Inc.(Kraken 거래소 모회사)"
+   },
+   "kr-0004": {
+    "sec": "개요",
+    "text": "★ 소재지 : 미국 와이오밍주 Cheyenne"
+   },
+   "kr-0005": {
+    "sec": "개요",
+    "text": "★ 핵심 상품 : xStocks(미국 주식, ETF 토큰), Kraken 앱 판매"
+   },
+   "kr-0006": {
+    "sec": "개요",
+    "text": "● 지배구조"
+   },
+   "kr-0007": {
+    "sec": "개요",
+    "text": "★ Payward가 Kraken, NinjaTrader(미국 선물 중개사), xStocks 보유"
+   },
+   "kr-0008": {
+    "sec": "개요",
+    "text": "★ Payward 지분 25% 넘게 가진 개인 주주 없음"
+   },
+   "kr-0009": {
+    "sec": "개요",
+    "text": "★ 발행사 지분은 Payward 그룹이 100% 보유"
+   },
+   "kr-0010": {
+    "sec": "개요",
+    "text": "● 성장 경로(한 줄기)"
+   },
+   "kr-0011": {
+    "sec": "개요",
+    "text": "★ 2025-05 NinjaTrader 인수 → 2025-06 미국 밖 출시"
+   },
+   "kr-0012": {
+    "sec": "개요",
+    "text": "★ 2025-12 Backed(스위스 토큰화 회사) 인수 합의 → 2026-01 지분 100%"
+   },
+   "kr-0013": {
+    "sec": "개요",
+    "text": "★ 2026-07 홍콩, 영국, 유럽, 한국 확장 계획 발표"
+   },
+   "kr-0014": {
+    "sec": "개요",
+    "text": "★ 2026-11 영국, EU 상장주 200종 이상 배포"
+   },
+   "kr-0015": {
+    "sec": "개요",
+    "text": "● 화면"
+   },
+   "kr-0016": {
+    "sec": "개요",
+    "text": "![가입](../captures/Kraken/signup.png) ![종목 목록](../captures/Kraken/list.png) ![주문](../captures/Kraken/order.png)"
+   },
+   "kr-0017": {
+    "sec": "발언",
+    "text": "● 발언 1 : 주식을 지갑에서 돈처럼 쓴다"
+   },
+   "kr-0018": {
+    "sec": "발언",
+    "text": "★ Arjun Sethi(Kraken 공동 CEO), Kraken 블로그 xStocks 출시 발표, 2025-06-30, https://blog.kraken.com/product/xstocks/tokenized-equities-now-available"
+   },
+   "kr-0019": {
+    "sec": "발언",
+    "text": "① 원문 : \"For the first time, people all over the world can own and use a share of a tokenized stock like they would use money.\""
+   },
+   "kr-0020": {
+    "sec": "발언",
+    "text": "② 번역 : 세계 어디서나 처음으로 토큰화 주식 한 주를 돈처럼 보유하고 쓸 수 있다."
+   },
+   "kr-0021": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 지갑 속 주식의 쓰임. 그래서 xStocks로 보유, 이동, 담보 사용 지원"
+   },
+   "kr-0022": {
+    "sec": "발언",
+    "text": "![발언 1](../captures/quotes/Kraken_1.png)"
+   },
+   "kr-0023": {
+    "sec": "발언",
+    "text": "● 발언 2 : 발행, 거래, 결제를 한 틀로 묶는다"
+   },
+   "kr-0024": {
+    "sec": "발언",
+    "text": "★ Arjun Sethi(Kraken 공동 CEO), Backed 인수 발표, 2025-12-02, https://blog.kraken.com/news/backed-acquisition"
+   },
+   "kr-0025": {
+    "sec": "발언",
+    "text": "① 원문 : \"Unifying issuance, trading and settlement under one framework ensures the infrastructure for tokenized assets remains transparent, reliable and globally accessible.\""
+   },
+   "kr-0026": {
+    "sec": "발언",
+    "text": "② 번역 : 발행, 거래, 결제를 한 틀로 묶으면 토큰화 자산 인프라가 투명하고 믿을 만하며 전 세계에서 접근 가능해진다."
+   },
+   "kr-0027": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 발행부터 결제까지의 수직 통합. 그래서 xStocks 발행사 Backed 인수"
+   },
+   "kr-0028": {
+    "sec": "발언",
+    "text": "![발언 2](../captures/quotes/Kraken_4.png)"
+   },
+   "kr-0029": {
+    "sec": "발언",
+    "text": "● 발언 3 : 규제 시장과 블록체인을 잇는다"
+   },
+   "kr-0030": {
+    "sec": "발언",
+    "text": "★ Arjun Sethi(Payward, Kraken 공동 CEO), Nasdaq(미국 증권거래소) 제휴 발표, 2026-03-09, https://blog.kraken.com/news/payward-partners-with-nasdaq"
+   },
+   "kr-0031": {
+    "sec": "발언",
+    "text": "① 원문 : \"With xStocks, our goal is to make equities natively interoperable across trading venues, financial applications and blockchain networks while preserving issuer rights regulatory protections and price integrity.\""
+   },
+   "kr-0032": {
+    "sec": "발언",
+    "text": "② 번역 : xStocks로 주식을 거래소, 금융 앱, 블록체인 사이에서 기본적으로 상호운용되게 하되 발행자 권리, 규제 보호, 가격 무결성을 지키는 것이 목표다."
+   },
+   "kr-0033": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 허가형 시장과 블록체인의 연결. 그래서 Nasdaq과 연결 통로 개발"
+   },
+   "kr-0034": {
+    "sec": "발언",
+    "text": "![발언 3](../captures/quotes/Kraken_5.png)"
+   },
+   "kr-0035": {
+    "sec": "발언",
+    "text": "● 발언 4 : 다음은 해외 주요 주식이다"
+   },
+   "kr-0036": {
+    "sec": "발언",
+    "text": "★ Val Gui(xStocks 총괄), Kraken 블로그 xStocks 100종 돌파, 2026-03-18, https://blog.kraken.com/product/xstocks/celebrating-100-xstocks"
+   },
+   "kr-0037": {
+    "sec": "발언",
+    "text": "① 원문 : \"The next step is expanding access to every major U.S. equity and, ultimately, other leading global equities across international markets.\""
+   },
+   "kr-0038": {
+    "sec": "발언",
+    "text": "② 번역 : 다음 단계는 모든 주요 미국 주식으로, 궁극적으로 해외 시장의 주요 주식으로 접근을 넓히는 것이다."
+   },
+   "kr-0039": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 미국 밖 상장주. 그래서 종목 수 확대와 각국 상장주 토큰화"
+   },
+   "kr-0040": {
+    "sec": "발언",
+    "text": "![발언 4](../captures/quotes/Kraken_6.png)"
+   },
+   "kr-0041": {
+    "sec": "A",
+    "text": "● 주장 : 남이 발행한 토큰을 앱에서 팔다가 발행사째 인수"
+   },
+   "kr-0042": {
+    "sec": "A",
+    "text": "● 출신 : 가상자산 거래소, Kraken 앱 안에서 주식 토큰 매매"
+   },
+   "kr-0043": {
+    "sec": "A",
+    "text": "● 진입 방식"
+   },
+   "kr-0044": {
+    "sec": "A",
+    "text": "★ 발행은 Backed 법인, 판매는 Kraken 앱이 분담"
+   },
+   "kr-0045": {
+    "sec": "A",
+    "text": "★ 진출 사유 : 24시간 거래, 전 세계 2차 시장, 지갑 직접 보유"
+   },
+   "kr-0046": {
+    "sec": "A",
+    "text": "★ Backed의 원장, 특허 등 지식재산 일체를 Payward로 이전"
+   },
+   "kr-0047": {
+    "sec": "B",
+    "text": "● 주장 : 투자자는 주식이 아니라 저지 발행사에 대한 상환 채권 보유"
+   },
+   "kr-0048": {
+    "sec": "B",
+    "text": "● 토큰의 법적 성격(우리 분류)"
+   },
+   "kr-0049": {
+    "sec": "B",
+    "text": "★ 법적 보유 : 저지 발행사에 대한 상환금 채권"
+   },
+   "kr-0050": {
+    "sec": "B",
+    "text": "★ 기초주식, 담보 자체에 대한 권리 없음"
+   },
+   "kr-0051": {
+    "sec": "B",
+    "text": "★ 형식 : 스위스법 원장기반증권, 만기 없는 트래커 증서"
+   },
+   "kr-0052": {
+    "sec": "B",
+    "text": "★ 우리 분류 : 1:1 담보부 연계증권(발행사 채무형)"
+   },
+   "kr-0053": {
+    "sec": "B",
+    "text": "● 발행 주체와 보관"
+   },
+   "kr-0054": {
+    "sec": "B",
+    "text": "★ 발행 : Backed 저지 법인, 2024년 설립"
+   },
+   "kr-0055": {
+    "sec": "B",
+    "text": "★ 토큰 수만큼 기초주식을 담보로 1:1 보유 의무"
+   },
+   "kr-0056": {
+    "sec": "B",
+    "text": "★ 보관 : InCore Bank(스위스 은행), Alpaca(미국 중개사), GTN Europe(영국 중개사)"
+   },
+   "kr-0057": {
+    "sec": "B",
+    "text": "★ 담보대리인이 투자자 직접 대리인으로 질권 보유"
+   },
+   "kr-0058": {
+    "sec": "B",
+    "text": "● 투자자 권리"
+   },
+   "kr-0059": {
+    "sec": "B",
+    "text": "★ 배당은 현금 대신 토큰 수량 증가로 재투자"
+   },
+   "kr-0060": {
+    "sec": "B",
+    "text": "★ 의결권 등 주주 권리 없음"
+   },
+   "kr-0061": {
+    "sec": "B",
+    "text": "★ 상환은 현금, 가상자산 정산, 주식 인도 불가"
+   },
+   "kr-0062": {
+    "sec": "B",
+    "text": "● 규모(시장 내 위치)"
+   },
+   "kr-0063": {
+    "sec": "B",
+    "text": "★ 2026-11-16 발행 잔액 6.8억 달러, 3위(점유율 18.26%)"
+   },
+   "kr-0064": {
+    "sec": "B",
+    "text": "★ 1, 2위는 Binance(가상자산 거래소), Ondo(토큰화 자산 회사)(13.6억, 9.0억 달러)"
+   },
+   "kr-0065": {
+    "sec": "B",
+    "text": "★ 4위 Securitize(토큰화 플랫폼) 2.7억, 6위 Robinhood(주식 거래 앱) 1.5억 달러"
+   },
+   "kr-0066": {
+    "sec": "B",
+    "text": "★ 시장 전체 37.1억 달러 중 1~3위가 79%"
+   },
+   "kr-0067": {
+    "sec": "B",
+    "text": "● 수수료"
+   },
+   "kr-0068": {
+    "sec": "B",
+    "text": "★ Kraken 앱 1달러부터, USDG, USD 매수 시 거래 수수료 없음"
+   },
+   "kr-0069": {
+    "sec": "B",
+    "text": "★ 발행, 상환 수수료 상한 5%, 운용보수 연 5% 이내"
+   },
+   "kr-0070": {
+    "sec": "B",
+    "text": "★ 운용보수는 토큰 수량 차감으로 반영"
+   },
+   "kr-0071": {
+    "sec": "C",
+    "text": "● 주장 : 앱에서는 미국 밖 개인, 발행사 직접 청약은 전문투자자만"
+   },
+   "kr-0072": {
+    "sec": "C",
+    "text": "● 대상"
+   },
+   "kr-0073": {
+    "sec": "C",
+    "text": "★ Kraken 앱 : 선택된 국가의 미국 밖 개인"
+   },
+   "kr-0074": {
+    "sec": "C",
+    "text": "★ 발행사 직접 청약 : 적격 전문투자자만"
+   },
+   "kr-0075": {
+    "sec": "C",
+    "text": "★ 일반 투자자 : 승인 참가자(AP, 판매 중개 법인) 경유"
+   },
+   "kr-0076": {
+    "sec": "C",
+    "text": "● 국적 및 지역 제한"
+   },
+   "kr-0077": {
+    "sec": "C",
+    "text": "★ 미국, 캐나다, 영국, 호주 이용 불가"
+   },
+   "kr-0078": {
+    "sec": "C",
+    "text": "★ EU는 29개국 감독당국에 투자설명서 통지"
+   },
+   "kr-0079": {
+    "sec": "C",
+    "text": "★ 스위스는 FinSA상 전문투자자에게만 제공"
+   },
+   "kr-0080": {
+    "sec": "D",
+    "text": "● 주장 : 자체 앱 직접 판매에 외부 거래소, 지갑, API 파트너 유통을 더함"
+   },
+   "kr-0081": {
+    "sec": "D",
+    "text": "● 공급 방식(누구에게 서빙하는지)"
+   },
+   "kr-0082": {
+    "sec": "D",
+    "text": "★ Kraken 앱 : 버뮤다, 키프로스 계열 법인이 AP로 개인에 판매"
+   },
+   "kr-0083": {
+    "sec": "D",
+    "text": "★ Bybit(가상자산 거래소), Jupiter(Solana 거래 앱) 파트너"
+   },
+   "kr-0084": {
+    "sec": "D",
+    "text": "★ API 파트너 : 거래 앱에 xStocks 연결, 수수료 최대 50% 배분"
+   },
+   "kr-0085": {
+    "sec": "D",
+    "text": "★ GTN(해외주식 중개 인프라) : 인가 취득 후 자사 기관 고객에 제공"
+   },
+   "kr-0086": {
+    "sec": "D",
+    "text": "● 거래 장소"
+   },
+   "kr-0087": {
+    "sec": "D",
+    "text": "★ 10개 이상 블록체인 발행, 외부 지갑 출금 가능"
+   },
+   "kr-0088": {
+    "sec": "D",
+    "text": "★ 거래시간 : EEA 평일 24시간, 그 밖 다수 지역 24/7"
+   },
+   "kr-0089": {
+    "sec": "D",
+    "text": "★ 발행사는 거래소, MTF 상장 신청 없음, 2차 시장 재매도"
+   },
+   "kr-0090": {
+    "sec": "E",
+    "text": "● 주장 : 발행사는 감독 인가 없이, 판매는 규제 계열사로 한정"
+   },
+   "kr-0091": {
+    "sec": "E",
+    "text": "● 보유 인가와 법인"
+   },
+   "kr-0092": {
+    "sec": "E",
+    "text": "★ 버뮤다 PDSL : BMA 디지털자산 사업 인가, xStocks 판매"
+   },
+   "kr-0093": {
+    "sec": "E",
+    "text": "★ 키프로스 법인 : MiFID II 투자회사 인가, EU 판매"
+   },
+   "kr-0094": {
+    "sec": "E",
+    "text": "★ 아일랜드 법인 : MiCA 가상자산사업자 인가"
+   },
+   "kr-0095": {
+    "sec": "E",
+    "text": "● 인가 없는 구간을 메우는 방법"
+   },
+   "kr-0096": {
+    "sec": "E",
+    "text": "★ 저지 JFSC가 AP, 브로커를 규제 금융회사로 한정 요구"
+   },
+   "kr-0097": {
+    "sec": "E",
+    "text": "★ EU 공모는 리히텐슈타인 FMA 승인 투자설명서"
+   },
+   "kr-0098": {
+    "sec": "E",
+    "text": "● 미국 미등록의 대가"
+   },
+   "kr-0099": {
+    "sec": "E",
+    "text": "★ 미국 증권법 미등록, 1차, 2차 시장 모두 미국인 판매 금지"
+   },
+   "kr-0100": {
+    "sec": "E",
+    "text": "★ 미국 고객은 Kraken Securities(미국 증권사)로 실물 주식 거래"
+   },
+   "kr-0101": {
+    "sec": "E",
+    "text": "★ Kraken Securities는 미국에서만 등록"
+   },
+   "kr-0102": {
+    "sec": "F",
+    "text": "● 주장 : 기존 거래소, 중개 인프라와 손잡아 토큰을 제도권 시장에 연결"
+   },
+   "kr-0103": {
+    "sec": "F",
+    "text": "● 인수, 투자, 제휴"
+   },
+   "kr-0104": {
+    "sec": "F",
+    "text": "★ 독일거래소 : 2026-02부터 360X(DLT 시범제도 거래장)에서 거래"
+   },
+   "kr-0105": {
+    "sec": "F",
+    "text": "★ Nasdaq : 토큰 주식 연결 통로, Payward가 KYC와 결제 담당"
+   },
+   "kr-0106": {
+    "sec": "F",
+    "text": "★ LSE(런던증권거래소) : 2026-09 런던 상위 100종 토큰화 합의"
+   },
+   "kr-0107": {
+    "sec": "F",
+    "text": "★ GTN : 원주 집행, 보관, 원장 기록 담당"
+   },
+   "kr-0108": {
+    "sec": "G",
+    "text": "● 주장 : 한국 상장자산은 GTN 제휴의 확장 대상"
+   },
+   "kr-0109": {
+    "sec": "G",
+    "text": "● 한국 주식 취급"
+   },
+   "kr-0110": {
+    "sec": "G",
+    "text": "★ 홍콩 다음 확장 대상에 한국 상장자산 포함(규제 승인 조건)"
+   },
+   "kr-0111": {
+    "sec": "차이",
+    "text": "● 주장 : 해외는 역외 발행 구조로 열렸고, 한국은 권유 시 공모 규제"
+   },
+   "kr-0112": {
+    "sec": "차이",
+    "text": "● 규제"
+   },
+   "kr-0113": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 미국 밖 판매는 미국 등록 없는 역외 구조"
+   },
+   "kr-0114": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : EU는 투자설명서 승인 후 29개국 공모"
+   },
+   "kr-0115": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 해외 발행 토큰은 국내 권유 시 증권신고서"
+   },
+   "kr-0116": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 장외거래소 토큰 유통 근거는 2027-02 시행"
+   },
+   "kr-0117": {
+    "sec": "차이",
+    "text": "● 고객 수요"
+   },
+   "kr-0118": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 미국 밖 개인의 주말 포함 미국 주식 매매"
+   },
+   "kr-0119": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 국내 투자자는 이미 증권사로 미국 주식 1,636억 달러 보관(2025말)"
+   },
+   "kr-0120": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 2025-11 증권사 18곳이 미국 주식 주간거래 재개"
+   },
+   "kr-0121": {
+    "sec": "판단",
+    "text": "● 성과"
+   },
+   "kr-0122": {
+    "sec": "판단",
+    "text": "★ 상품 수 2025-12 60개 이상에서 2026-05 172개"
+   },
+   "kr-0123": {
+    "sec": "판단",
+    "text": "● 핵심 성공요인(KSF)"
+   },
+   "kr-0124": {
+    "sec": "판단",
+    "text": "★ 발행사 소유로 발행부터 판매까지 한 그룹 안에"
+   },
+   "kr-0125": {
+    "sec": "판단",
+    "text": "★ 미국 밖 개인 대상이라 미국 등록 없이 24시간 판매"
+   },
+   "kr-0126": {
+    "sec": "판단",
+    "text": "● 제약과 리스크"
+   },
+   "kr-0127": {
+    "sec": "판단",
+    "text": "★ 발행사 존속이 Payward 지원에 의존, 채무 보증 없음"
+   },
+   "kr-0128": {
+    "sec": "판단",
+    "text": "★ 발행사가 투자자 동의 없이 채무자 교체 가능"
+   },
+   "kr-0129": {
+    "sec": "판단",
+    "text": "★ 발행사가 30영업일 통지로 상품 해지 가능"
+   },
+   "kr-0130": {
+    "sec": "판단",
+    "text": "● KDX 시사점(스토리라인 명제별)"
+   },
+   "kr-0131": {
+    "sec": "판단",
+    "text": "★ 시장 인프라 Unbundling : 발행은 자회사, 원주 보관은 은행, 증권사에 위탁"
+   },
+   "kr-0132": {
+    "sec": "판단",
+    "text": "★ Borderless Investing : 증권 계좌 없이 지갑으로 미국 주식 보유"
+   },
+   "kr-0133": {
+    "sec": "판단",
+    "text": "★ Coopetition : 독일거래소, LSE, Nasdaq과 토큰 거래 협력"
+   },
+   "kr-0134": {
+    "sec": "판단",
+    "text": "★ 해외 확장 세 질문 : 24시간 접근, 현지 공모 승인, 운용보수(제공 가치, 제도, 경제성)"
+   }
+  }
+ },
+ "rh": {
+  "next": 132,
+  "lines": {
+   "rh-0001": {
+    "sec": "개요",
+    "text": "● 주장 : 미국 주식 앱이 거래소 인수와 자체 체인으로 해외 토큰 판매"
+   },
+   "rh-0002": {
+    "sec": "개요",
+    "text": "● 기본정보"
+   },
+   "rh-0003": {
+    "sec": "개요",
+    "text": "★ 법인명 : Robinhood Markets, Inc.(미국 주식 거래 앱 운영사)"
+   },
+   "rh-0004": {
+    "sec": "개요",
+    "text": "★ 발행 법인 : Robinhood Assets (Jersey) Limited(RHJ, 지갑판 발행사)"
+   },
+   "rh-0005": {
+    "sec": "개요",
+    "text": "★ 설립 : 2013년, 창업자 Vlad Tenev, Baiju Bhatt"
+   },
+   "rh-0006": {
+    "sec": "개요",
+    "text": "★ 소재지와 상장 : 미국 캘리포니아 멘로파크, Nasdaq(HOOD)"
+   },
+   "rh-0007": {
+    "sec": "개요",
+    "text": "● 지배구조"
+   },
+   "rh-0008": {
+    "sec": "개요",
+    "text": "★ Tenev가 이사회 의장 겸 CEO"
+   },
+   "rh-0009": {
+    "sec": "개요",
+    "text": "★ RHF(중개 증권사), RHS(청산 증권사), EU 법인은 완전 자회사"
+   },
+   "rh-0010": {
+    "sec": "개요",
+    "text": "★ RHJ 단독 주주는 Robinhood International"
+   },
+   "rh-0011": {
+    "sec": "개요",
+    "text": "● 설립 목적"
+   },
+   "rh-0012": {
+    "sec": "개요",
+    "text": "★ 2013년 설립, 사명은 금융 민주화(회사 공시)"
+   },
+   "rh-0013": {
+    "sec": "개요",
+    "text": "● 성장 경로(한 줄기)"
+   },
+   "rh-0014": {
+    "sec": "개요",
+    "text": "★ 2013 미국 주식 앱 출발 → 2025-06 Bitstamp(가상자산 거래소) 인수"
+   },
+   "rh-0015": {
+    "sec": "개요",
+    "text": "★ 2025-06 EU 인가 → EU판 Stock Tokens(미국 주식 연동 토큰) 200종"
+   },
+   "rh-0016": {
+    "sec": "개요",
+    "text": "★ 2026-06 WonderFi(캐나다 가상자산 기업) 인수 → 2026-07 자체 체인 출범"
+   },
+   "rh-0017": {
+    "sec": "개요",
+    "text": "★ 2026-07 지갑판(Robinhood Wallet 판매 토큰) 출시 → 2026-10 EU판 Classic 개칭"
+   },
+   "rh-0018": {
+    "sec": "개요",
+    "text": "● 화면"
+   },
+   "rh-0019": {
+    "sec": "개요",
+    "text": "![가입](../captures/Robinhood/signup.png) ![EU 투자 화면(주식 토큰 포함)](../captures/Robinhood/list.png) ![종목 화면(주문창은 로그인 뒤)](../captures/Robinhood/order.png)"
+   },
+   "rh-0020": {
+    "sec": "발언",
+    "text": "● 발언 1 : 크립토가 글로벌 금융의 중추가 된다"
+   },
+   "rh-0021": {
+    "sec": "발언",
+    "text": "★ Vlad Tenev(의장 겸 CEO), To Catch a Token 행사(칸), 2025-06-30, https://robinhood.com/newsroom/robinhood-launches-stock-tokens-reveals-layer-2-blockchain-and-expands-crypto-suite-in-eu-and-us-with-perpetual-futures-and-staking/"
+   },
+   "rh-0022": {
+    "sec": "발언",
+    "text": "① 원문 : \"Our latest offerings lay the groundwork for crypto to become the backbone of the global financial system.\""
+   },
+   "rh-0023": {
+    "sec": "발언",
+    "text": "② 번역 : 우리의 최신 상품은 크립토가 글로벌 금융 시스템의 중추가 되기 위한 토대를 놓는다."
+   },
+   "rh-0024": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 크립토 기반 글로벌 금융. 그래서 EU에 주식 토큰 200종 출시와 자체 체인 예고"
+   },
+   "rh-0025": {
+    "sec": "발언",
+    "text": "![발언 1](../captures/quotes/Robinhood_01.png)"
+   },
+   "rh-0026": {
+    "sec": "발언",
+    "text": "● 발언 2 : 크립토를 쉽게 만들어 세계를 끌어들인다"
+   },
+   "rh-0027": {
+    "sec": "발언",
+    "text": "★ Johann Kerbrat(당시 Robinhood Crypto 총괄 SVP), To Catch a Token 행사(칸), 2025-06-30, https://robinhood.com/newsroom/robinhood-launches-stock-tokens-reveals-layer-2-blockchain-and-expands-crypto-suite-in-eu-and-us-with-perpetual-futures-and-staking/"
+   },
+   "rh-0028": {
+    "sec": "발언",
+    "text": "① 원문 : \"Crypto was built by engineers for engineers, and has not been accessible to most people. We're onboarding the world to crypto by making it as easy to use as possible.\""
+   },
+   "rh-0029": {
+    "sec": "발언",
+    "text": "② 번역 : 크립토는 엔지니어가 엔지니어를 위해 만들었고 대부분의 사람은 쓰기 어려웠다. 최대한 쉽게 만들어 세계를 크립토로 끌어들인다."
+   },
+   "rh-0030": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 크립토를 못 쓰던 다수 개인. 그래서 EU 앱 하나에 주식 토큰과 가상자산 결합"
+   },
+   "rh-0031": {
+    "sec": "발언",
+    "text": "![발언 2](../captures/quotes/Robinhood_02.png)"
+   },
+   "rh-0032": {
+    "sec": "발언",
+    "text": "● 발언 3 : 전통 금융과 DeFi를 합쳐 소유를 전 세계로"
+   },
+   "rh-0033": {
+    "sec": "발언",
+    "text": "★ Johann Kerbrat(가상자산, 국제사업 총괄 SVP), The World is Flat 행사(런던), 2026-07-01, https://robinhood.com/newsroom/robinhood-accelerates-global-expansion-robinhood-chain-mainnet-stock-tokens-agentic-trading/"
+   },
+   "rh-0034": {
+    "sec": "발언",
+    "text": "① 원문 : \"We're bringing the best of traditional finance and DeFi together, and in doing so, expanding financial ownership to every corner of the globe.\""
+   },
+   "rh-0035": {
+    "sec": "발언",
+    "text": "② 번역 : 전통 금융과 DeFi의 장점을 합쳐 금융 소유를 전 세계 구석구석으로 넓힌다."
+   },
+   "rh-0036": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 전 세계 온체인 주식. 그래서 자체 체인 메인넷과 120개국 지갑판 출시"
+   },
+   "rh-0037": {
+    "sec": "발언",
+    "text": "![발언 3](../captures/quotes/Robinhood_03.png)"
+   },
+   "rh-0038": {
+    "sec": "발언",
+    "text": "● 발언 4 : 모두를 주주로 만드는 것이 비전"
+   },
+   "rh-0039": {
+    "sec": "발언",
+    "text": "★ Vlad Tenev(의장 겸 CEO), 2026년 3분기 실적 보도자료, 2026-10-27, https://investors.robinhood.com/news-releases/news-release-details/robinhood-reports-third-quarter-2026-results"
+   },
+   "rh-0040": {
+    "sec": "발언",
+    "text": "① 원문 : \"Our vision is to make everyone an owner, because broad ownership is essential to a free, stable, and prosperous society.\""
+   },
+   "rh-0041": {
+    "sec": "발언",
+    "text": "② 번역 : 우리의 비전은 모두를 주주로 만드는 것이다. 폭넓은 소유는 자유롭고 안정적이며 번영하는 사회에 필수적이기 때문이다."
+   },
+   "rh-0042": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 소유의 대중화와 해외 고객. 그래서 같은 분기 영국 가상자산 거래 출시"
+   },
+   "rh-0043": {
+    "sec": "A",
+    "text": "● 주장 : 남의 상품 판매가 아니라 자체 발행으로 진입"
+   },
+   "rh-0044": {
+    "sec": "A",
+    "text": "● 출신 : 미국 개인 대상 주식, 옵션, 가상자산 거래 앱"
+   },
+   "rh-0045": {
+    "sec": "A",
+    "text": "● 진입 방식"
+   },
+   "rh-0046": {
+    "sec": "A",
+    "text": "★ EU판은 EU 법인이 고객과 맺는 자체 파생계약"
+   },
+   "rh-0047": {
+    "sec": "A",
+    "text": "★ 출발 사업 연계 : 앱의 미국 주식을 EU 고객에게 토큰으로"
+   },
+   "rh-0048": {
+    "sec": "A",
+    "text": "★ 진출 사유 : Bitstamp 인수로 EU, 영국, 아시아 확장 가속"
+   },
+   "rh-0049": {
+    "sec": "B",
+    "text": "● 주장 : 지갑판은 RHJ 채무증권, EU판은 회사와 맺은 파생계약"
+   },
+   "rh-0050": {
+    "sec": "B",
+    "text": "● 토큰의 법적 성격(우리 분류)"
+   },
+   "rh-0051": {
+    "sec": "B",
+    "text": "★ 지갑판 : RHJ에 대한 담보부 상환금 채권, 주식 소유 없음"
+   },
+   "rh-0052": {
+    "sec": "B",
+    "text": "★ EU판 : EU 법인과 맺은 파생계약상 권리, 주식 소유 없음"
+   },
+   "rh-0053": {
+    "sec": "B",
+    "text": "★ 우리 분류 : 지갑판 연계증권, EU판 증권기반 스왑형"
+   },
+   "rh-0054": {
+    "sec": "B",
+    "text": "● 발행 주체와 보관"
+   },
+   "rh-0055": {
+    "sec": "B",
+    "text": "★ 지갑판 발행사 RHJ는 저지 비규제 법인"
+   },
+   "rh-0056": {
+    "sec": "B",
+    "text": "★ 지갑판 기초주는 Alpaca(미국 청산 증권사)가 보관"
+   },
+   "rh-0057": {
+    "sec": "B",
+    "text": "★ 지갑판 담보는 가치 기준, 현금과 대여 허용"
+   },
+   "rh-0058": {
+    "sec": "B",
+    "text": "★ EU판은 기초주 보유 의무 없이 헤지용 매수"
+   },
+   "rh-0059": {
+    "sec": "B",
+    "text": "● 투자자 권리"
+   },
+   "rh-0060": {
+    "sec": "B",
+    "text": "★ 의결권 등 주주 권리 없음, 상환은 USD 현금만"
+   },
+   "rh-0061": {
+    "sec": "B",
+    "text": "★ 배당 : 지갑판 승수로 재투자, EU판 현금 상당액"
+   },
+   "rh-0062": {
+    "sec": "B",
+    "text": "● 규모(시장 내 위치)"
+   },
+   "rh-0063": {
+    "sec": "B",
+    "text": "★ 2026-11-16 지갑판 발행 잔액 1.49억 달러, 6위(점유율 4.01%)"
+   },
+   "rh-0064": {
+    "sec": "B",
+    "text": "★ 1~3위는 Binance, Ondo, Kraken(13.6억, 9.0억, 6.8억 달러)"
+   },
+   "rh-0065": {
+    "sec": "B",
+    "text": "★ 4위 Securitize(토큰화 발행사) 2.7억, 8위 Coinbase(가상자산 거래소) 0.47억 달러"
+   },
+   "rh-0066": {
+    "sec": "B",
+    "text": "★ 종목 : 지갑판 Final Terms 212건, EU판 2,000종 이상"
+   },
+   "rh-0067": {
+    "sec": "B",
+    "text": "● 수수료"
+   },
+   "rh-0068": {
+    "sec": "B",
+    "text": "★ 지갑판 청약 0%, 발행 90일 이후 상환 0.05%"
+   },
+   "rh-0069": {
+    "sec": "B",
+    "text": "★ EU판 주문마다 환전 수수료 0.1%, 그 밖은 무료"
+   },
+   "rh-0070": {
+    "sec": "C",
+    "text": "● 주장 : 미국 밖 개인에게 소액부터 직접 판매"
+   },
+   "rh-0071": {
+    "sec": "C",
+    "text": "● 대상"
+   },
+   "rh-0072": {
+    "sec": "C",
+    "text": "★ 지갑판 : 120개국 이상 적격 이용자"
+   },
+   "rh-0073": {
+    "sec": "C",
+    "text": "★ EU판 : EEA 적격 개인, 1유로부터"
+   },
+   "rh-0074": {
+    "sec": "C",
+    "text": "● 국적 및 지역 제한"
+   },
+   "rh-0075": {
+    "sec": "C",
+    "text": "★ 캐나다, 영국, 스위스 제한, 한국은 목록에 없음"
+   },
+   "rh-0076": {
+    "sec": "C",
+    "text": "★ 북한, 이란 등 11개 관할 투자 금지"
+   },
+   "rh-0077": {
+    "sec": "D",
+    "text": "● 주장 : 파트너 도매가 아니라 자체 앱과 자체 지갑으로 공급"
+   },
+   "rh-0078": {
+    "sec": "D",
+    "text": "● 공급 방식(누구에게 서빙하는지)"
+   },
+   "rh-0079": {
+    "sec": "D",
+    "text": "★ EU판 : 자체 앱이 EU 자기주도 개인에 직접 판매"
+   },
+   "rh-0080": {
+    "sec": "D",
+    "text": "★ 지갑판 : 자체 Wallet(비수탁 지갑, 150개국 이상) 이용자"
+   },
+   "rh-0081": {
+    "sec": "D",
+    "text": "★ 1차 공급 : 자회사 Bitstamp Global만 발행사에 직접 청약"
+   },
+   "rh-0082": {
+    "sec": "D",
+    "text": "★ 2차 시장 : 일반 투자자는 Uniswap(탈중앙 거래소) 등에서 매매"
+   },
+   "rh-0083": {
+    "sec": "D",
+    "text": "● 거래 장소"
+   },
+   "rh-0084": {
+    "sec": "D",
+    "text": "★ 사용 블록체인 : Robinhood Chain(자체 이더리움 L2), Arbitrum에서 이전"
+   },
+   "rh-0085": {
+    "sec": "D",
+    "text": "★ 거래시간 : 지갑판 24/7, EU판 월 02시~토 02시(CET)"
+   },
+   "rh-0086": {
+    "sec": "D",
+    "text": "★ EU판은 외부 지갑으로 이전 불가"
+   },
+   "rh-0087": {
+    "sec": "E",
+    "text": "● 주장 : EU 판매는 직접 인가, 지갑판 발행은 비규제 저지 법인"
+   },
+   "rh-0088": {
+    "sec": "E",
+    "text": "● 보유 인가와 법인"
+   },
+   "rh-0089": {
+    "sec": "E",
+    "text": "★ 미국 : RHF, RHS 브로커딜러 등록(SEC, FINRA)"
+   },
+   "rh-0090": {
+    "sec": "E",
+    "text": "★ EU : 리투아니아 MiFID 중개, MiCA 가상자산 인가"
+   },
+   "rh-0091": {
+    "sec": "E",
+    "text": "★ 저지 : RHJ는 차입 동의만 받은 비규제 발행사"
+   },
+   "rh-0092": {
+    "sec": "E",
+    "text": "★ 투자설명서 : EU 규정에 따라 리히텐슈타인 FMA 승인"
+   },
+   "rh-0093": {
+    "sec": "E",
+    "text": "● 인가 없는 구간을 메우는 방법"
+   },
+   "rh-0094": {
+    "sec": "E",
+    "text": "★ 결제 계좌는 JPMorgan 런던 지점"
+   },
+   "rh-0095": {
+    "sec": "E",
+    "text": "★ 독립 검증 대리인이 시리즈별 100% 담보 확인"
+   },
+   "rh-0096": {
+    "sec": "E",
+    "text": "● 미국 미등록의 대가"
+   },
+   "rh-0097": {
+    "sec": "E",
+    "text": "★ 미국 증권법 미등록, 미국인 판매 불가"
+   },
+   "rh-0098": {
+    "sec": "E",
+    "text": "★ 2026-09 SEC 토큰화 주식 면제 대상 아님"
+   },
+   "rh-0099": {
+    "sec": "F",
+    "text": "● 주장 : 인수로 해외 인가와 거래 인프라를 사서 들임"
+   },
+   "rh-0100": {
+    "sec": "F",
+    "text": "● 인수, 투자, 제휴"
+   },
+   "rh-0101": {
+    "sec": "F",
+    "text": "★ Bitstamp 지분 100%, 현금 2.24억 달러"
+   },
+   "rh-0102": {
+    "sec": "F",
+    "text": "★ WonderFi 지분 100%, 현금 1.78억 달러"
+   },
+   "rh-0103": {
+    "sec": "F",
+    "text": "★ Rothera(SIG와 합작법인)로 MIAXdx(파생상품 거래소) 지분 90%"
+   },
+   "rh-0104": {
+    "sec": "차이",
+    "text": "● 주장 : 해외는 역외 발행과 EU 인가로 열렸고 한국은 판매 근거 없음"
+   },
+   "rh-0105": {
+    "sec": "차이",
+    "text": "● 규제"
+   },
+   "rh-0106": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 미국 밖 판매는 Regulation S 구조"
+   },
+   "rh-0107": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : EU 인가와 투자설명서 승인으로 EEA 판매"
+   },
+   "rh-0108": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 해외 발행 토큰은 국내 권유 시 증권신고서"
+   },
+   "rh-0109": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 장외거래소 토큰 유통 근거는 2027-02 시행"
+   },
+   "rh-0110": {
+    "sec": "차이",
+    "text": "● 고객 수요"
+   },
+   "rh-0111": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 증권 계좌 없이 1유로, 지갑으로 미국 주식"
+   },
+   "rh-0112": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 국내 투자자는 이미 증권사로 미국 주식 1,636억 달러 보관(2025말)"
+   },
+   "rh-0113": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 2025-11 증권사 18곳이 미국 주식 주간거래 재개"
+   },
+   "rh-0114": {
+    "sec": "판단",
+    "text": "● 성과"
+   },
+   "rh-0115": {
+    "sec": "판단",
+    "text": "★ 2026-09 지갑판 토큰 의무 공정가치 1.85억 달러"
+   },
+   "rh-0116": {
+    "sec": "판단",
+    "text": "★ 2026 Q3 순매출 14.2억 달러, 전년 대비 12% 증가"
+   },
+   "rh-0117": {
+    "sec": "판단",
+    "text": "★ 2026 Q3 체인 매출이 가상자산 매출 감소 일부 상쇄"
+   },
+   "rh-0118": {
+    "sec": "판단",
+    "text": "● 핵심 성공요인(KSF)"
+   },
+   "rh-0119": {
+    "sec": "판단",
+    "text": "★ 고객 2,870만 명 앱에 자체 토큰 결합"
+   },
+   "rh-0120": {
+    "sec": "판단",
+    "text": "★ 거래소 인수로 EU 인가와 1차 공급 법인 확보"
+   },
+   "rh-0121": {
+    "sec": "판단",
+    "text": "★ 자체 체인 시퀀서 수익 50~85%를 회사 몫으로"
+   },
+   "rh-0122": {
+    "sec": "판단",
+    "text": "● 제약과 리스크"
+   },
+   "rh-0123": {
+    "sec": "판단",
+    "text": "★ 2025년 OpenAI 토큰에 회사 측 반박, 감독기관 설명 요구"
+   },
+   "rh-0124": {
+    "sec": "판단",
+    "text": "★ EU판은 회사 파산 시 원금 전액 손실 가능"
+   },
+   "rh-0125": {
+    "sec": "판단",
+    "text": "★ 2026-11 보충서로 기발행 상품 약관 개정"
+   },
+   "rh-0126": {
+    "sec": "판단",
+    "text": "★ 2024년 미인가 영업으로 2개 주 제재"
+   },
+   "rh-0127": {
+    "sec": "판단",
+    "text": "● KDX 시사점(스토리라인 명제별)"
+   },
+   "rh-0128": {
+    "sec": "판단",
+    "text": "★ 시장 인프라 Unbundling : 발행은 저지 법인, 보관은 Alpaca, 청약은 자회사"
+   },
+   "rh-0129": {
+    "sec": "판단",
+    "text": "★ Borderless Investing : 증권 계좌 없이 지갑으로 120개국에 미국 주식"
+   },
+   "rh-0130": {
+    "sec": "판단",
+    "text": "★ Coopetition : 경쟁사도 쓰는 Alpaca 보관, 외부 DEX에 유통 개방"
+   },
+   "rh-0131": {
+    "sec": "판단",
+    "text": "★ 해외 확장 세 질문 : 24/7 노출, 저지 발행과 EU 승인, 체인 수수료(제공 가치, 제도, 경제성)"
+   }
+  }
+ },
+ "bn": {
+  "next": 112,
+  "lines": {
+   "bn-0001": {
+    "sec": "개요",
+    "text": "● 주장 : 가상자산 거래소가 아부다비 인가로 주식 토큰을 직접 발행"
+   },
+   "bn-0002": {
+    "sec": "개요",
+    "text": "● 기본정보"
+   },
+   "bn-0003": {
+    "sec": "개요",
+    "text": "★ 법인명 : Binance 그룹(가상자산 거래소), 발행사 BTech Holdings Limited"
+   },
+   "bn-0004": {
+    "sec": "개요",
+    "text": "★ 설립 : 2017-07 거래소 출시"
+   },
+   "bn-0005": {
+    "sec": "개요",
+    "text": "★ 창업자 : CZ(자오창펑), 공동 창업자 Yi He, Heina Chen"
+   },
+   "bn-0006": {
+    "sec": "개요",
+    "text": "★ 운영 거점 : 사업은 분산, 2025-12부터 ADGM(아부다비 금융특구) 인가 기반"
+   },
+   "bn-0007": {
+    "sec": "개요",
+    "text": "● 지배구조"
+   },
+   "bn-0008": {
+    "sec": "개요",
+    "text": "★ 2025-03 MGX(아부다비 투자사) 20억 달러, 소수 지분"
+   },
+   "bn-0009": {
+    "sec": "개요",
+    "text": "★ 공동 CEO : Yi He, Richard Teng"
+   },
+   "bn-0010": {
+    "sec": "개요",
+    "text": "★ Teng은 전 ADGM 금융감독청 CEO"
+   },
+   "bn-0011": {
+    "sec": "개요",
+    "text": "★ 이사회 의장 : Gabriel Abed(독립이사)"
+   },
+   "bn-0012": {
+    "sec": "개요",
+    "text": "● 설립 목적"
+   },
+   "bn-0013": {
+    "sec": "개요",
+    "text": "★ 미션 : Binance를 크립토 세계의 인프라 제공자로"
+   },
+   "bn-0014": {
+    "sec": "개요",
+    "text": "● 성장 경로(한 줄기)"
+   },
+   "bn-0015": {
+    "sec": "개요",
+    "text": "★ 2025-12 ADGM 인가 3종 → 2026-06 bStocks 5종"
+   },
+   "bn-0016": {
+    "sec": "개요",
+    "text": "★ 2026-08 투자설명서 승인 시작 → 2026-09 선물 담보"
+   },
+   "bn-0017": {
+    "sec": "개요",
+    "text": "● 화면"
+   },
+   "bn-0018": {
+    "sec": "개요",
+    "text": "![가입](../captures/Binance/signup.png) ![주식 토큰 종목 화면(AAPL)](../captures/Binance/list.png)"
+   },
+   "bn-0019": {
+    "sec": "발언",
+    "text": "● 발언 1 : 한 관할의 규제 기반 위에 글로벌 사업을 올린다"
+   },
+   "bn-0020": {
+    "sec": "발언",
+    "text": "★ Richard Teng(공동 CEO), ADGM 글로벌 라이선스 보도자료, 2025-12-08, https://tools.prnewswire.com/en-us/live/20813/release/20251207EN41035"
+   },
+   "bn-0021": {
+    "sec": "발언",
+    "text": "① 원문 : \"This license provides regulatory clarity and legitimacy, enabling Binance to support its global operations from ADGM. While our global operations remain distributed, leveraging talent and innovation worldwide, this regulatory foundation offers our users peace of mind knowing Binance operates under a globally recognised, gold standard framework.\""
+   },
+   "bn-0022": {
+    "sec": "발언",
+    "text": "② 번역 : 이 라이선스는 규제 명확성과 정당성을 주어 Binance가 ADGM에서 글로벌 사업을 지원하게 한다. 사업은 분산돼 있지만 이 규제 기반이 이용자에게 안심을 준다."
+   },
+   "bn-0023": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 규제 틀 위의 글로벌 플랫폼. 그래서 거래, 청산, 중개 3개 법인으로 ADGM 인가 확보"
+   },
+   "bn-0024": {
+    "sec": "발언",
+    "text": "![발언 1](../captures/quotes/Binance_04.png)"
+   },
+   "bn-0025": {
+    "sec": "발언",
+    "text": "● 발언 2 : 거래소 이용자의 전통 시장 접근 수요가 있다"
+   },
+   "bn-0026": {
+    "sec": "발언",
+    "text": "★ Richard Teng(공동 CEO), bStocks 출시 보도자료, 2026-06-12, https://www.prnewswire.com/apac/news-releases/binance-exchange-launches-bstocks-tokenized-securities-11-backing-and-247-trading-302798969.html"
+   },
+   "bn-0027": {
+    "sec": "발언",
+    "text": "① 원문 : \"Early demand for stocks trading on Binance shows that users want more flexible ways to access traditional markets. bStocks are the next step in that evolution, bringing real-world assets on-chain while giving users greater portability and self-custody.\""
+   },
+   "bn-0028": {
+    "sec": "발언",
+    "text": "② 번역 : Binance의 주식 거래에 대한 초기 수요는 이용자가 전통 시장에 더 유연하게 접근하길 원함을 보여준다. bStocks는 그 다음 단계로, 실물자산을 온체인으로 가져오며 이동성과 자기수탁을 높인다."
+   },
+   "bn-0029": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 거래소 이용자의 미국 주식 수요. 그래서 자체 발행 bStocks를 24시간 상장"
+   },
+   "bn-0030": {
+    "sec": "발언",
+    "text": "![발언 2](../captures/quotes/Binance_01.png)"
+   },
+   "bn-0031": {
+    "sec": "발언",
+    "text": "● 발언 3 : 토큰 주식은 출시 뒤에도 시장으로 쓰여야 한다"
+   },
+   "bn-0032": {
+    "sec": "발언",
+    "text": "★ Shunyet Jan(거래소 및 트레이딩 총괄), bStocks AUM 보도자료, 2026-10-15, https://www.prnewswire.com/news-releases/binances-bstocks-become-the-fastest-tokenized-equity-product-to-surpass-1-billion-in-assets-under-management-302909927.html"
+   },
+   "bn-0033": {
+    "sec": "발언",
+    "text": "① 원문 : \"The test of a tokenized stock isn't the launch-day chart; it's whether it still behaves like a market after the launch. bStocks trade around the clock, get used as collateral, move between self-custodial wallets, and convert 1:1 into direct stock holdings.\""
+   },
+   "bn-0034": {
+    "sec": "발언",
+    "text": "② 번역 : 토큰화 주식의 시험대는 출시일 차트가 아니라 출시 후에도 시장처럼 작동하는지다. bStocks는 24시간 거래되고 담보로 쓰이며 자기수탁 지갑 사이를 오가고 1:1로 직접 주식으로 전환된다."
+   },
+   "bn-0035": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 담보, 전환 등 실사용. 그래서 종목을 늘리고 마진, 선물 담보로 연결"
+   },
+   "bn-0036": {
+    "sec": "발언",
+    "text": "![발언 3](../captures/quotes/Binance_02.png)"
+   },
+   "bn-0037": {
+    "sec": "A",
+    "text": "● 주장 : 기존 거래소 이용자에게 그룹이 직접 만든 토큰을 얹음"
+   },
+   "bn-0038": {
+    "sec": "A",
+    "text": "● 출신 : 가상자산 거래소, 2017년 출시"
+   },
+   "bn-0039": {
+    "sec": "A",
+    "text": "● 진입 방식"
+   },
+   "bn-0040": {
+    "sec": "A",
+    "text": "★ 2026-06 그룹 계열 BTech Holdings가 직접 발행"
+   },
+   "bn-0041": {
+    "sec": "A",
+    "text": "★ 진출 사유 : 이용자의 전통 시장 접근 수요(Teng 발언)"
+   },
+   "bn-0042": {
+    "sec": "B",
+    "text": "● 주장 : 신탁으로 보관한 기초주 1:1의 수익적 이익, 제3자 보관형"
+   },
+   "bn-0043": {
+    "sec": "B",
+    "text": "● 토큰의 법적 성격(우리 분류)"
+   },
+   "bn-0044": {
+    "sec": "B",
+    "text": "★ ADGM 법상 증서(Certificate), ADGM 승인 투자설명서로만 공모"
+   },
+   "bn-0045": {
+    "sec": "B",
+    "text": "★ 발행사가 기초주를 신탁 보유, 보유자는 1:1 수익적 이익"
+   },
+   "bn-0046": {
+    "sec": "B",
+    "text": "★ 의결권, 기초 발행사 주주권 없음, 상환 시 기초주 인도 가능"
+   },
+   "bn-0047": {
+    "sec": "B",
+    "text": "★ 우리 분류 : 제3자 보관형(Coinbase와 같은 신탁 구조)"
+   },
+   "bn-0048": {
+    "sec": "B",
+    "text": "● 발행 주체와 보관"
+   },
+   "bn-0049": {
+    "sec": "B",
+    "text": "★ BTech Holdings(그룹 계열 SPV)가 발행"
+   },
+   "bn-0050": {
+    "sec": "B",
+    "text": "★ Alpaca(미국 청산 증권사) 분리계좌에 기초주 1주씩 보관"
+   },
+   "bn-0051": {
+    "sec": "B",
+    "text": "★ 보유자별 권리는 CSD(중앙예탁) 원장에 기록"
+   },
+   "bn-0052": {
+    "sec": "B",
+    "text": "● 투자자 권리와 공시"
+   },
+   "bn-0053": {
+    "sec": "B",
+    "text": "★ 2026-09 기업행위 공시 17건(TSMC, NVIDIA 등)"
+   },
+   "bn-0054": {
+    "sec": "B",
+    "text": "★ 발행 잔량을 주 단위로 공시(2026-09 3건)"
+   },
+   "bn-0055": {
+    "sec": "B",
+    "text": "● 규모(시장 내 위치)"
+   },
+   "bn-0056": {
+    "sec": "B",
+    "text": "★ 2026-11-16 발행 잔액 13.6억 달러, 1위(점유율 36.62%)"
+   },
+   "bn-0057": {
+    "sec": "B",
+    "text": "★ 2~4위는 Ondo, Kraken, Securitize(9.0억, 6.8억, 2.7억 달러)"
+   },
+   "bn-0058": {
+    "sec": "B",
+    "text": "★ Robinhood 6위 1.5억, Coinbase 8위 0.5억 달러"
+   },
+   "bn-0059": {
+    "sec": "B",
+    "text": "★ 시장 전체 37.1억 달러(같은 출처, 같은 날)"
+   },
+   "bn-0060": {
+    "sec": "B",
+    "text": "● 수수료"
+   },
+   "bn-0061": {
+    "sec": "B",
+    "text": "★ 주식과 토큰 1:1 전환 수수료 0, 소수 주식 5달러부터"
+   },
+   "bn-0062": {
+    "sec": "C",
+    "text": "● 주장 : 미국 밖 Binance 거래소 자격 이용자"
+   },
+   "bn-0063": {
+    "sec": "C",
+    "text": "● 대상"
+   },
+   "bn-0064": {
+    "sec": "C",
+    "text": "★ 허용 지역 자격 이용자, 2차 시장 거래"
+   },
+   "bn-0065": {
+    "sec": "C",
+    "text": "● 국적 및 지역 제한"
+   },
+   "bn-0066": {
+    "sec": "C",
+    "text": "★ 미국, 미국인 제외, 허용국 전체 목록 비공개"
+   },
+   "bn-0067": {
+    "sec": "D",
+    "text": "● 주장 : 파트너 공급 없이 자체 거래소에서 직접 판매"
+   },
+   "bn-0068": {
+    "sec": "D",
+    "text": "● 공급 방식(누구에게 서빙하는지)"
+   },
+   "bn-0069": {
+    "sec": "D",
+    "text": "★ 자사 직접 판매 : Binance 거래소 USDT 현물 쌍"
+   },
+   "bn-0070": {
+    "sec": "D",
+    "text": "★ 고객층 : 미국 밖 자격 이용자, 40개 언어 24시간 지원"
+   },
+   "bn-0071": {
+    "sec": "D",
+    "text": "● 거래 장소"
+   },
+   "bn-0072": {
+    "sec": "D",
+    "text": "★ 사용 블록체인 : BNB Chain(BEP-20)"
+   },
+   "bn-0073": {
+    "sec": "D",
+    "text": "★ 24시간 7일 거래, 원주 1:1 전환으로 가격 연동"
+   },
+   "bn-0074": {
+    "sec": "E",
+    "text": "● 주장 : 체결, 청산, 중개 인가를 ADGM 한 관할의 그룹 법인 셋이 보유"
+   },
+   "bn-0075": {
+    "sec": "E",
+    "text": "● 보유 인가와 법인"
+   },
+   "bn-0076": {
+    "sec": "E",
+    "text": "★ Nest Exchange : 인정투자거래소, MTF 운영(체결)"
+   },
+   "bn-0077": {
+    "sec": "E",
+    "text": "★ Nest Clearing and Custody : 청산기관, 수탁, CSD"
+   },
+   "bn-0078": {
+    "sec": "E",
+    "text": "★ Nest Trading : 브로커딜러, 장외 거래와 1:1 전환"
+   },
+   "bn-0079": {
+    "sec": "E",
+    "text": "★ 그 밖 : 2022년 두바이 VARA, 2024년 아르헨티나 등록"
+   },
+   "bn-0080": {
+    "sec": "F",
+    "text": "● 주장 : 경쟁 발행사 Ondo의 토큰도 자기 시장에 상장"
+   },
+   "bn-0081": {
+    "sec": "F",
+    "text": "● 인수, 투자, 제휴"
+   },
+   "bn-0082": {
+    "sec": "F",
+    "text": "★ Ondo Stocks(Ondo 주식 토큰) 일부를 Nest Exchange에서 거래 허용"
+   },
+   "bn-0083": {
+    "sec": "G",
+    "text": "● 주장 : 주식 토큰이 아니라 가상자산 거래소 인수로 한국과 연결"
+   },
+   "bn-0084": {
+    "sec": "G",
+    "text": "● 한국 회사와의 관계"
+   },
+   "bn-0085": {
+    "sec": "G",
+    "text": "★ 2025-10 FIU, 고팍스(국내 거래소) 최대주주 변경 수리"
+   },
+   "bn-0086": {
+    "sec": "G",
+    "text": "★ 신고는 2023-03부터 보류"
+   },
+   "bn-0087": {
+    "sec": "차이",
+    "text": "● 주장 : ADGM 증서 발행으로 길이 열렸고, 한국은 해외 토큰 판매 근거가 없다"
+   },
+   "bn-0088": {
+    "sec": "차이",
+    "text": "● 규제"
+   },
+   "bn-0089": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : ADGM 한 관할에서 발행, 체결, 청산 인가"
+   },
+   "bn-0090": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 미국과 미국인을 판매 대상에서 제외"
+   },
+   "bn-0091": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 해외 발행 토큰은 국내 권유 시 증권신고서"
+   },
+   "bn-0092": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 장외거래소 토큰 유통 근거는 2027-02 시행"
+   },
+   "bn-0093": {
+    "sec": "차이",
+    "text": "● 고객 수요"
+   },
+   "bn-0094": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 거래소 이용자의 전통 시장 접근 수요"
+   },
+   "bn-0095": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 국내 투자자는 이미 증권사로 미국 주식 1,636억 달러 보관(2025말)"
+   },
+   "bn-0096": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 2025-11 증권사 18곳이 미국 주식 주간거래 재개"
+   },
+   "bn-0097": {
+    "sec": "판단",
+    "text": "● 성과"
+   },
+   "bn-0098": {
+    "sec": "판단",
+    "text": "★ 2026-08~09 ADGM 승인 투자설명서 20건"
+   },
+   "bn-0099": {
+    "sec": "판단",
+    "text": "★ 2026-11 청산 편입 통지 21건, 티커 105개"
+   },
+   "bn-0100": {
+    "sec": "판단",
+    "text": "● 핵심 성공요인(KSF)"
+   },
+   "bn-0101": {
+    "sec": "판단",
+    "text": "★ 기존 거래소 이용자에게 24시간 바로 상장"
+   },
+   "bn-0102": {
+    "sec": "판단",
+    "text": "★ 원주 1:1 전환 창구로 토큰 가격을 주식에 연동"
+   },
+   "bn-0103": {
+    "sec": "판단",
+    "text": "● 제약과 리스크"
+   },
+   "bn-0104": {
+    "sec": "판단",
+    "text": "★ 미국 형사 합의에 따른 준수 감독인과 정보 공유"
+   },
+   "bn-0105": {
+    "sec": "판단",
+    "text": "★ 2025-05 SEC 민사소송은 재제기 불가로 취하"
+   },
+   "bn-0106": {
+    "sec": "판단",
+    "text": "★ 발행사 의무는 보관 기초주에 한정(제한소구)"
+   },
+   "bn-0107": {
+    "sec": "판단",
+    "text": "● KDX 시사점(스토리라인 명제별)"
+   },
+   "bn-0108": {
+    "sec": "판단",
+    "text": "★ 시장 인프라 Unbundling : 체결, 청산, 중개는 그룹 법인별 인가, 보관만 Alpaca 위탁"
+   },
+   "bn-0109": {
+    "sec": "판단",
+    "text": "★ Borderless Investing : 거래소 계정으로 미국 주식 토큰 24시간, 미국인 제외"
+   },
+   "bn-0110": {
+    "sec": "판단",
+    "text": "★ Coopetition : 1위 발행사이면서 2위 Ondo 토큰도 자기 시장에 상장"
+   },
+   "bn-0111": {
+    "sec": "판단",
+    "text": "★ 해외 확장 세 질문 : 24시간 접근, ADGM 인가 3종, 담보 활용 거래 확대(제공 가치, 제도, 경제성)"
+   }
+  }
+ },
+ "cb": {
+  "next": 125,
+  "lines": {
+   "cb-0001": {
+    "sec": "개요",
+    "text": "● 주장 : 가상자산 거래소가 자체 블록체인 위에 미국 밖 전용 주식 토큰을 낸 경로"
+   },
+   "cb-0002": {
+    "sec": "개요",
+    "text": "● 기본정보"
+   },
+   "cb-0003": {
+    "sec": "개요",
+    "text": "★ 법인명 : Coinbase Global(미국 가상자산 거래소), Nasdaq 상장"
+   },
+   "cb-0004": {
+    "sec": "개요",
+    "text": "★ 창업자 : Brian Armstrong(공동 창업자 겸 CEO)"
+   },
+   "cb-0005": {
+    "sec": "개요",
+    "text": "★ 발행 법인 : Coinbase Onchain SPV Ltd(아부다비 ADGM, 발행 전용)"
+   },
+   "cb-0006": {
+    "sec": "개요",
+    "text": "● 지배구조"
+   },
+   "cb-0007": {
+    "sec": "개요",
+    "text": "★ SPV는 OMHL을 거쳐 Coinbase Global 100% 소유"
+   },
+   "cb-0008": {
+    "sec": "개요",
+    "text": "● 설립 목적"
+   },
+   "cb-0009": {
+    "sec": "개요",
+    "text": "★ 2026 우선순위 : 주식 포함 모든 자산을 한 곳에서 거래"
+   },
+   "cb-0010": {
+    "sec": "개요",
+    "text": "★ 2026 우선순위 : 스테이블코인과 결제, 온체인"
+   },
+   "cb-0011": {
+    "sec": "개요",
+    "text": "● 성장 경로(한 줄기)"
+   },
+   "cb-0012": {
+    "sec": "개요",
+    "text": "★ 2018-09 USDC(Circle과 공동) 출시 → 2026-02 앱 주식 거래"
+   },
+   "cb-0013": {
+    "sec": "개요",
+    "text": "★ 2026-06 발행 SPV(ADGM) 설립 → 2026-08 Base 주식 토큰"
+   },
+   "cb-0014": {
+    "sec": "개요",
+    "text": "★ 2026-10 Deribit(INTX와) 통합 → 2026 Q4 거래 앱 재출시 계획(Coinbase Pro)"
+   },
+   "cb-0015": {
+    "sec": "개요",
+    "text": "● 화면"
+   },
+   "cb-0016": {
+    "sec": "개요",
+    "text": "![가입](../captures/Coinbase/signup.png) ![종목 목록](../captures/Coinbase/list.png) ![주문](../captures/Coinbase/order.png)"
+   },
+   "cb-0017": {
+    "sec": "발언",
+    "text": "● 발언 1 : 지금 투자하는 곳은 미국 밖 상품"
+   },
+   "cb-0018": {
+    "sec": "발언",
+    "text": "★ Alesia Haas(CFO), 실적 콜(2026 Q3, 애널리스트 질의), 2026-10-29, 녹취(../inputs/manual/B03_coinbase_Q3_26_analyst_call_transcript.pdf)"
+   },
+   "cb-0019": {
+    "sec": "발언",
+    "text": "① 원문 : \"We're really focused right now on our non-US offering. We are pleased to see that we have really exciting early traction with about $3 billion in volume since launch. This is the area that we're investing in, this non-US product.\""
+   },
+   "cb-0020": {
+    "sec": "발언",
+    "text": "② 번역 : 지금은 미국 밖 상품에 집중한다. 출시 이후 거래대금 약 30억 달러로 초기 반응이 좋고, 투자하는 곳도 이 미국 밖 상품이다."
+   },
+   "cb-0021": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 미국 밖 주식 토큰. 그래서 미국 상품 없이 미국 밖 상품에 먼저 투자"
+   },
+   "cb-0022": {
+    "sec": "발언",
+    "text": "![발언 1](../captures/quotes/Coinbase_03.png)"
+   },
+   "cb-0023": {
+    "sec": "발언",
+    "text": "● 발언 2 : 만들기는 쉽고 유동성 키우기가 어렵다"
+   },
+   "cb-0024": {
+    "sec": "발언",
+    "text": "★ Alesia Haas(CFO), 실적 콜(2026 Q3, 애널리스트 질의), 2026-10-29, 녹취(../inputs/manual/B03_coinbase_Q3_26_analyst_call_transcript.pdf)"
+   },
+   "cb-0025": {
+    "sec": "발언",
+    "text": "① 원문 : \"It has real shareholder rights. It's real equity. It's just in token form. [...] easy to create a tokenized asset, hard to grow liquidity depth of a tokenized asset, hard to build a network, hard to get to the right liquidity for traders.\""
+   },
+   "cb-0026": {
+    "sec": "발언",
+    "text": "② 번역 : 실제 주주 권리가 있는 진짜 주식이고 형태만 토큰이다. 토큰 자산은 만들기 쉽지만 유동성 깊이와 네트워크를 키우기는 어렵다."
+   },
+   "cb-0027": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 주식 토큰의 유동성. 그래서 USDC 방식대로 시장조성자, DeFi 편입에 투자"
+   },
+   "cb-0028": {
+    "sec": "발언",
+    "text": "![발언 2](../captures/quotes/Coinbase_04.png)"
+   },
+   "cb-0029": {
+    "sec": "발언",
+    "text": "● 발언 3 : 토큰화도 미국과 미국 밖 유동성을 묶겠다"
+   },
+   "cb-0030": {
+    "sec": "발언",
+    "text": "★ Alesia Haas(CFO), 실적 콜(2026 Q3, 애널리스트 질의), 2026-10-29, 녹취(../inputs/manual/B03_coinbase_Q3_26_analyst_call_transcript.pdf)"
+   },
+   "cb-0031": {
+    "sec": "발언",
+    "text": "① 원문 : \"I think perps, I think tokenization, I think all of this is just the future of finance, quite candidly. [...] We uniquely now have global liquidity on derivatives. [...] we would hope over time we can do that with tokenized stocks as well. That requires more regulatory approvals, but what we have built for tokenized stock is suited for the US innovation exemption.\""
+   },
+   "cb-0032": {
+    "sec": "발언",
+    "text": "② 번역 : 무기한선물과 토큰화 모두 금융의 미래다. 파생상품에는 미국과 미국 밖을 잇는 유동성이 있고, 주식 토큰도 그렇게 하고 싶다. 추가 승인이 필요하지만 만든 상품은 미국 혁신 면제에 맞는다."
+   },
+   "cb-0033": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 미국과 미국 밖 통합 유동성. 그래서 미국 승인을 전제로 확장 가능한 설계"
+   },
+   "cb-0034": {
+    "sec": "발언",
+    "text": "![발언 3](../captures/quotes/Coinbase_05.png)"
+   },
+   "cb-0035": {
+    "sec": "발언",
+    "text": "● 발언 4 : 합성이 아닌 진짜 증권이 이긴다"
+   },
+   "cb-0036": {
+    "sec": "발언",
+    "text": "★ Brian Armstrong(공동 창업자 겸 CEO), 실적 AMA(2026 Q3), 2026-10-29, 녹취(../inputs/manual/B03_coinbase_Q3_26_AMA_transcript.pdf)"
+   },
+   "cb-0037": {
+    "sec": "발언",
+    "text": "① 원문 : \"these tokenized equities that we put out, they're real deal securities. You can get the upside from dividends. We're implementing voting rights, things like that. [...] as the largest custodian in crypto, the most trusted brand in crypto, this is actually something that we're uniquely good at and have a right to win.\""
+   },
+   "cb-0038": {
+    "sec": "발언",
+    "text": "② 번역 : 우리가 낸 주식 토큰은 진짜 증권이다. 배당 이익을 받고 의결권도 구현 중이다. 크립토 최대 수탁기관이자 가장 신뢰받는 브랜드로서 잘할 수 있는 영역이다."
+   },
+   "cb-0039": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 실물 권리형 주식 토큰. 그래서 배당, 의결권, 상환과 수탁 신뢰로 차별화"
+   },
+   "cb-0040": {
+    "sec": "발언",
+    "text": "![발언 4](../captures/quotes/Coinbase_06.png)"
+   },
+   "cb-0041": {
+    "sec": "A",
+    "text": "● 주장 : 남의 상품이 아니라 자체 블록체인에 직접 발행해 진입"
+   },
+   "cb-0042": {
+    "sec": "A",
+    "text": "● 출신 : 가상자산 거래소, 2026 Q3 거래대금 점유율 10.7%"
+   },
+   "cb-0043": {
+    "sec": "A",
+    "text": "● 진입 방식"
+   },
+   "cb-0044": {
+    "sec": "A",
+    "text": "★ Base(자체 블록체인) 표준 B20으로 직접 발행"
+   },
+   "cb-0045": {
+    "sec": "A",
+    "text": "★ 진출 사유 : 주식을 온체인에서 프로그래밍, 조합 가능하게"
+   },
+   "cb-0046": {
+    "sec": "B",
+    "text": "● 주장 : 투자자는 SPV가 맡긴 주식의 비례 수익권, 토큰은 증표"
+   },
+   "cb-0047": {
+    "sec": "B",
+    "text": "● 토큰의 법적 성격(우리 분류)"
+   },
+   "cb-0048": {
+    "sec": "B",
+    "text": "★ 투자자 : SPV가 Alpaca에 맡긴 기초주의 비례 수익권"
+   },
+   "cb-0049": {
+    "sec": "B",
+    "text": "★ ADGM 증서(Certificate over Shares), 기초주 직접 투자 아님"
+   },
+   "cb-0050": {
+    "sec": "B",
+    "text": "★ 토큰 : 운영상 증표, 법적 소유는 CSD 장부 기준"
+   },
+   "cb-0051": {
+    "sec": "B",
+    "text": "★ 우리 분류 : 제3자 보관형(SPV는 bare trustee, 제한소구)"
+   },
+   "cb-0052": {
+    "sec": "B",
+    "text": "● 발행 주체와 보관"
+   },
+   "cb-0053": {
+    "sec": "B",
+    "text": "★ 발행 : SPV(Coinbase Onchain SPV), 토큰 발행과 장부는 OML(Onchain Marketplace)"
+   },
+   "cb-0054": {
+    "sec": "B",
+    "text": "★ 보관 : 기초주는 SPV 명의 분리 계좌, 파산 격리"
+   },
+   "cb-0055": {
+    "sec": "B",
+    "text": "● 투자자 권리"
+   },
+   "cb-0056": {
+    "sec": "B",
+    "text": "★ 배당 : 현금 대신 재투자, 배수(1.00 시작) 상승으로 반영"
+   },
+   "cb-0057": {
+    "sec": "B",
+    "text": "★ 의결권 : 직접 없음, 보유자 지시를 SPV가 반영 노력"
+   },
+   "cb-0058": {
+    "sec": "B",
+    "text": "● 규모(시장 내 위치)"
+   },
+   "cb-0059": {
+    "sec": "B",
+    "text": "★ 2026-11-16 발행 잔액 4,690만 달러, 8위(점유율 1.26%)"
+   },
+   "cb-0060": {
+    "sec": "B",
+    "text": "★ 1~3위는 Binance, Ondo, Kraken(13.6억, 9.0억, 6.8억 달러)"
+   },
+   "cb-0061": {
+    "sec": "B",
+    "text": "★ Robinhood 6위 1.49억, Dinari 11위 1,520만 달러"
+   },
+   "cb-0062": {
+    "sec": "B",
+    "text": "★ 종목 수 2026-11-16 10종(NVDAc, AAPLc 등)"
+   },
+   "cb-0063": {
+    "sec": "B",
+    "text": "● 수수료"
+   },
+   "cb-0064": {
+    "sec": "B",
+    "text": "★ 창설 0.01%, 상환 0.05%, 분배금 5.0%"
+   },
+   "cb-0065": {
+    "sec": "B",
+    "text": "★ 주된 수익화는 Base 시퀀서 수수료(CFO 발언)"
+   },
+   "cb-0066": {
+    "sec": "C",
+    "text": "● 주장 : 2차 시장은 미국 밖 지갑 보유 개인, 1차 창설은 기관만"
+   },
+   "cb-0067": {
+    "sec": "C",
+    "text": "● 대상"
+   },
+   "cb-0068": {
+    "sec": "C",
+    "text": "★ 2차 시장 : 인터넷과 지갑이 있는 미국 밖 적격 개인"
+   },
+   "cb-0069": {
+    "sec": "C",
+    "text": "★ 2차 보유, 거래는 KYC 없이 허가 없이 가능"
+   },
+   "cb-0070": {
+    "sec": "C",
+    "text": "★ 1차 창설, 상환 : KYC 거친 승인 참여자(기관)만"
+   },
+   "cb-0071": {
+    "sec": "C",
+    "text": "● 국적 및 지역 제한"
+   },
+   "cb-0072": {
+    "sec": "C",
+    "text": "★ 미국인 제외(Regulation S), ADGM 밖 배포 불가"
+   },
+   "cb-0073": {
+    "sec": "C",
+    "text": "★ 미국 제재 명단, 제재 관할 거주자 이용 불가"
+   },
+   "cb-0074": {
+    "sec": "D",
+    "text": "● 주장 : 자체 판매 창구 대신 Base DeFi 프로토콜에 풀어 유통"
+   },
+   "cb-0075": {
+    "sec": "D",
+    "text": "● 공급 방식(누구에게 서빙하는지)"
+   },
+   "cb-0076": {
+    "sec": "D",
+    "text": "★ 승인 참여자(기관 시장조성사) : 주식 매입 후 토큰 창설"
+   },
+   "cb-0077": {
+    "sec": "D",
+    "text": "★ Aerodrome(Base 탈중앙 거래소) : 지갑 보유 개인의 매매"
+   },
+   "cb-0078": {
+    "sec": "D",
+    "text": "★ Aave, Morpho(대출 프로토콜) : 주식 토큰 담보 대출 이용자"
+   },
+   "cb-0079": {
+    "sec": "D",
+    "text": "★ Virtuals, Treasures(에이전트 서비스) : AI 에이전트 매매"
+   },
+   "cb-0080": {
+    "sec": "D",
+    "text": "● 거래 장소"
+   },
+   "cb-0081": {
+    "sec": "D",
+    "text": "★ 중앙 거래소 상장 없이 블록체인 위 DeFi에서만 유통"
+   },
+   "cb-0082": {
+    "sec": "D",
+    "text": "★ 주말, 미국 공휴일 포함 24시간 거래"
+   },
+   "cb-0083": {
+    "sec": "D",
+    "text": "★ 사용 블록체인 : Base(Ethereum 위 롤업)"
+   },
+   "cb-0084": {
+    "sec": "E",
+    "text": "● 주장 : 발행과 장부는 ADGM 그룹 법인, 미국 쪽 보관은 위탁"
+   },
+   "cb-0085": {
+    "sec": "E",
+    "text": "● 보유 인가와 법인"
+   },
+   "cb-0086": {
+    "sec": "E",
+    "text": "★ Onchain Marketplace : FSRA 투자 거래 주선, CSD 수탁"
+   },
+   "cb-0087": {
+    "sec": "E",
+    "text": "★ 증서 : FSRA가 증권으로 간주, 2026-08-04 투자설명서 승인"
+   },
+   "cb-0088": {
+    "sec": "E",
+    "text": "★ Coinbase : FSRA FSP(아부다비 토큰화 거점)"
+   },
+   "cb-0089": {
+    "sec": "E",
+    "text": "● 인가 없는 구간을 메우는 방법"
+   },
+   "cb-0090": {
+    "sec": "E",
+    "text": "★ 기초주 매매 중개는 Alpaca(SEC 등록 증권사, FINRA, SIPC)에 위탁"
+   },
+   "cb-0091": {
+    "sec": "E",
+    "text": "● 미국 밖 구조의 대가"
+   },
+   "cb-0092": {
+    "sec": "E",
+    "text": "★ 미국 상품 없음, SEC 혁신 면제 뒤 검토(CFO)"
+   },
+   "cb-0093": {
+    "sec": "E",
+    "text": "★ KYC 통과 보유자(Vested Holder)만 상환, 의결권"
+   },
+   "cb-0094": {
+    "sec": "F",
+    "text": "● 주장 : 자금은 그룹 안에서, 가격 데이터는 외부에서"
+   },
+   "cb-0095": {
+    "sec": "F",
+    "text": "● 인수, 투자, 제휴"
+   },
+   "cb-0096": {
+    "sec": "F",
+    "text": "★ Coinbase Custody International : SPV에 300만 달러 대출 한도"
+   },
+   "cb-0097": {
+    "sec": "F",
+    "text": "★ Chainlink : 총수익 가격 피드, 주말은 마지막 종가"
+   },
+   "cb-0098": {
+    "sec": "차이",
+    "text": "● 주장 : 미국 밖은 ADGM 증서와 Reg S로 열림, 한국은 권유 시 신고 필요"
+   },
+   "cb-0099": {
+    "sec": "차이",
+    "text": "● 규제"
+   },
+   "cb-0100": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : ADGM 증서 승인, 미국 밖은 Regulation S"
+   },
+   "cb-0101": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 해외 발행 토큰은 국내 권유 시 증권신고서"
+   },
+   "cb-0102": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 장외거래소 토큰 유통 근거는 2027-02 시행"
+   },
+   "cb-0103": {
+    "sec": "차이",
+    "text": "● 고객 수요"
+   },
+   "cb-0104": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 미국 시장 접근이 제한된 미국 밖 사용자"
+   },
+   "cb-0105": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 국내 투자자는 이미 증권사로 미국 주식 1,636억 달러 보관(2025말)"
+   },
+   "cb-0106": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 2025-11 증권사 18곳이 미국 주식 주간거래 재개"
+   },
+   "cb-0107": {
+    "sec": "판단",
+    "text": "● 성과"
+   },
+   "cb-0108": {
+    "sec": "판단",
+    "text": "★ 2026-09말 누적 거래대금 10억 달러 이상(주주서한)"
+   },
+   "cb-0109": {
+    "sec": "판단",
+    "text": "★ 같은 상품 거래대금 출시 이후 약 30억 달러(CFO, 기준 차이)"
+   },
+   "cb-0110": {
+    "sec": "판단",
+    "text": "★ Base, 주식 토큰 거래대금 상위 3개 체인(CFO 발언)"
+   },
+   "cb-0111": {
+    "sec": "판단",
+    "text": "★ 그룹 2026 Q3 총수익 12.2억 달러, 전년 대비 35% 감소"
+   },
+   "cb-0112": {
+    "sec": "판단",
+    "text": "● 핵심 성공요인(KSF)"
+   },
+   "cb-0113": {
+    "sec": "판단",
+    "text": "★ 자체 블록체인 DeFi와 거래, 담보 대출 연결"
+   },
+   "cb-0114": {
+    "sec": "판단",
+    "text": "★ 발행, 장부, 기술을 그룹 안에서 수행"
+   },
+   "cb-0115": {
+    "sec": "판단",
+    "text": "★ USDC로 시장과 유동성을 키운 경험(CFO)"
+   },
+   "cb-0116": {
+    "sec": "판단",
+    "text": "● 제약과 리스크"
+   },
+   "cb-0117": {
+    "sec": "판단",
+    "text": "★ SPV, 토큰화 법인, Coinbase가 같은 그룹, 이해상충 공시"
+   },
+   "cb-0118": {
+    "sec": "판단",
+    "text": "★ 법적 요건용 동결과 압류 기능 보유"
+   },
+   "cb-0119": {
+    "sec": "판단",
+    "text": "★ 기업행위 중 창설, 상환 중단, 전송은 계속"
+   },
+   "cb-0120": {
+    "sec": "판단",
+    "text": "● KDX 시사점(스토리라인 명제별)"
+   },
+   "cb-0121": {
+    "sec": "판단",
+    "text": "★ 시장 인프라 Unbundling : 발행 SPV, CSD 장부 법인, 보관사 분리"
+   },
+   "cb-0122": {
+    "sec": "판단",
+    "text": "★ Borderless Investing : 지갑만으로 미국 밖 개인이 24시간 미국 주식"
+   },
+   "cb-0123": {
+    "sec": "판단",
+    "text": "★ Coopetition : 거래, 담보 대출은 외부 DeFi 프로토콜에 개방"
+   },
+   "cb-0124": {
+    "sec": "판단",
+    "text": "★ 해외 확장 세 질문 : 24시간 거래, ADGM 인가, 시퀀서 수수료(제공 가치, 제도, 경제성)"
+   }
+  }
+ },
+ "dn": {
+  "next": 113,
+  "lines": {
+   "dn-0001": {
+    "sec": "개요",
+    "text": "● 주장 : 토큰화 전문 회사가 미국 밖 판매에서 미국 등록까지 간 경로"
+   },
+   "dn-0002": {
+    "sec": "개요",
+    "text": "● 기본정보"
+   },
+   "dn-0003": {
+    "sec": "개요",
+    "text": "★ 법인명 : Dinari, Inc.(기술 회사), Dinari Securities, LLC(미국 증권사)"
+   },
+   "dn-0004": {
+    "sec": "개요",
+    "text": "★ 설립 : 2021년, 공동 창업자 3명"
+   },
+   "dn-0005": {
+    "sec": "개요",
+    "text": "★ 창업자 : Otte(CEO), Rampenthal(CLO), Timothy(CTO)"
+   },
+   "dn-0006": {
+    "sec": "개요",
+    "text": "★ 소재지 : 미국 뉴욕"
+   },
+   "dn-0007": {
+    "sec": "개요",
+    "text": "● 지배구조"
+   },
+   "dn-0008": {
+    "sec": "개요",
+    "text": "★ 2023년 시드 1,000만 달러, 500 Global 등"
+   },
+   "dn-0009": {
+    "sec": "개요",
+    "text": "★ 2025년 시리즈 A 1,270만 달러, Hack VC 주도"
+   },
+   "dn-0010": {
+    "sec": "개요",
+    "text": "● 설립 목적"
+   },
+   "dn-0011": {
+    "sec": "개요",
+    "text": "★ 미국 밖 투자자의 복잡한 가입, 높은 비용 해소"
+   },
+   "dn-0012": {
+    "sec": "개요",
+    "text": "● 성장 경로(한 줄기)"
+   },
+   "dn-0013": {
+    "sec": "개요",
+    "text": "★ 2023-08 미국 밖 판매 → 2024-02 API 공급"
+   },
+   "dn-0014": {
+    "sec": "개요",
+    "text": "★ 2025-06 미국 등록 → 2026-08 미국 판매 724종"
+   },
+   "dn-0015": {
+    "sec": "개요",
+    "text": "★ 2026-07 증권사 공급(tZERO) → 2026-09 한국 주식(카카오페이)"
+   },
+   "dn-0016": {
+    "sec": "개요",
+    "text": "● 화면"
+   },
+   "dn-0017": {
+    "sec": "개요",
+    "text": "![가입](../captures/Dinari/signup.png) ![종목 목록](../captures/Dinari/list.png) ![주문](../captures/Dinari/order.png)"
+   },
+   "dn-0018": {
+    "sec": "발언",
+    "text": "● 발언 1 : 증권사 채널이 커야 대중화된다"
+   },
+   "dn-0019": {
+    "sec": "발언",
+    "text": "★ Gabriel Otte(공동 창업자 겸 CEO), tZERO 제휴 발표, 2026-07-08, https://dinari.com/blog/dinari-and-tzero-partner"
+   },
+   "dn-0020": {
+    "sec": "발언",
+    "text": "① 원문 : \"Tokenized equities won't reach mainstream adoption until broker-dealers can offer them as naturally as they offer traditional securities.\""
+   },
+   "dn-0021": {
+    "sec": "발언",
+    "text": "② 번역 : 토큰 주식은 증권사가 전통 증권처럼 자연스럽게 내놓을 수 있어야 대중화된다."
+   },
+   "dn-0022": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 증권사 유통. 그래서 발행, 보관, 청산을 묶어 증권사에 공급"
+   },
+   "dn-0023": {
+    "sec": "발언",
+    "text": "![발언 1](../captures/quotes/Dinari_1.png)"
+   },
+   "dn-0024": {
+    "sec": "발언",
+    "text": "● 발언 2 : 주식은 국경 없이 24시간 거래된다"
+   },
+   "dn-0025": {
+    "sec": "발언",
+    "text": "★ Gabe Otte(CEO), Dinari Financial Network 출시 발표, 2025-08-14, https://dinari.com/blog/dinari-launches-the-dinari-financial-network-a"
+   },
+   "dn-0026": {
+    "sec": "발언",
+    "text": "① 원문 : \"The future of equities is global, programmable, and always available.\""
+   },
+   "dn-0027": {
+    "sec": "발언",
+    "text": "② 번역 : 주식의 미래는 국경이 없고, 프로그래밍 가능하며, 언제나 열려 있다."
+   },
+   "dn-0028": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 24시간 글로벌 주식 시장. 그래서 자체 블록체인으로 주문과 결제 기반 구축"
+   },
+   "dn-0029": {
+    "sec": "발언",
+    "text": "![발언 2](../captures/quotes/Dinari_3.png)"
+   },
+   "dn-0030": {
+    "sec": "발언",
+    "text": "● 발언 3 : 한국 주식의 해외 접근이 비어 있다"
+   },
+   "dn-0031": {
+    "sec": "발언",
+    "text": "★ Gabe Otte(CEO), 카카오페이증권 제휴 발표, 2026-09-30, https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-"
+   },
+   "dn-0032": {
+    "sec": "발언",
+    "text": "① 원문 : \"Korea is home to some of the world's most important public companies, yet access to Korean equities remains limited for many investors outside the country.\""
+   },
+   "dn-0033": {
+    "sec": "발언",
+    "text": "② 번역 : 한국에는 세계적 상장사가 많지만, 한국 밖 투자자의 한국 주식 접근은 여전히 제한적이다."
+   },
+   "dn-0034": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 한국 주식의 해외 수요. 그래서 국내 증권사와 원주 조달, 토큰화 모델 검증"
+   },
+   "dn-0035": {
+    "sec": "발언",
+    "text": "![발언 3](../captures/quotes/Dinari_2.png)"
+   },
+   "dn-0036": {
+    "sec": "A",
+    "text": "● 주장 : 남의 상품이 아니라 직접 만든 토큰으로 진입"
+   },
+   "dn-0037": {
+    "sec": "A",
+    "text": "● 출신 : 토큰화 전문 회사, 2021년 설립"
+   },
+   "dn-0038": {
+    "sec": "A",
+    "text": "● 진입 방식"
+   },
+   "dn-0039": {
+    "sec": "A",
+    "text": "★ 2023년 Arbitrum에 자체 발행 프로토콜 출시"
+   },
+   "dn-0040": {
+    "sec": "A",
+    "text": "★ 진출 사유 : 증권 계좌 없는 미국 밖 투자자 접근"
+   },
+   "dn-0041": {
+    "sec": "B",
+    "text": "● 주장 : 미국판은 계좌 속 주식, 미국 밖판은 Dinari에 대한 청구권"
+   },
+   "dn-0042": {
+    "sec": "B",
+    "text": "● 토큰의 법적 성격(우리 분류)"
+   },
+   "dn-0043": {
+    "sec": "B",
+    "text": "★ 미국판 : 보유자가 계좌 속 주식 소유, 토큰은 2차 기록"
+   },
+   "dn-0044": {
+    "sec": "B",
+    "text": "★ 미국 밖판 : 기초주 권리 없이 Dinari에 가치 청구권"
+   },
+   "dn-0045": {
+    "sec": "B",
+    "text": "★ 우리 분류 : 미국판 제3자 보관형, 미국 밖판 연계증권"
+   },
+   "dn-0046": {
+    "sec": "B",
+    "text": "● 발행 주체와 보관"
+   },
+   "dn-0047": {
+    "sec": "B",
+    "text": "★ 미국판 증권사 법인, 미국 밖판 Dinari, Inc."
+   },
+   "dn-0048": {
+    "sec": "B",
+    "text": "★ Alpaca(미국 청산 증권사)가 Dinari 명의 계좌에 보관"
+   },
+   "dn-0049": {
+    "sec": "B",
+    "text": "● 투자자 권리"
+   },
+   "dn-0050": {
+    "sec": "B",
+    "text": "★ 배당 자동 반영, 2026-11 의결권 행사 연동"
+   },
+   "dn-0051": {
+    "sec": "B",
+    "text": "● 규모(시장 내 위치)"
+   },
+   "dn-0052": {
+    "sec": "B",
+    "text": "★ 2026-11-16 발행 잔액 1,520만 달러, 11위(점유율 0.41%)"
+   },
+   "dn-0053": {
+    "sec": "B",
+    "text": "★ 1~3위는 Binance, Ondo, Kraken(13.6억, 9.0억, 6.8억 달러)"
+   },
+   "dn-0054": {
+    "sec": "B",
+    "text": "★ 종목 수 2023-12 20종에서 2026-11 724종 이상"
+   },
+   "dn-0055": {
+    "sec": "B",
+    "text": "● 수수료"
+   },
+   "dn-0056": {
+    "sec": "B",
+    "text": "★ 파트너 API 월 2,000달러부터, 주문당 0.20달러"
+   },
+   "dn-0057": {
+    "sec": "C",
+    "text": "● 주장 : 미국 밖 개인은 파트너 앱으로, 미국 개인은 직접"
+   },
+   "dn-0058": {
+    "sec": "C",
+    "text": "● 대상"
+   },
+   "dn-0059": {
+    "sec": "C",
+    "text": "★ 미국 개인(만 18세 이상, 미국 거주)"
+   },
+   "dn-0060": {
+    "sec": "C",
+    "text": "★ 미국 밖은 파트너 앱 이용자(아래 D)"
+   },
+   "dn-0061": {
+    "sec": "C",
+    "text": "● 국적 및 지역 제한"
+   },
+   "dn-0062": {
+    "sec": "C",
+    "text": "★ 미국 밖판은 미국인 불가, 미지원 31개국, 한국은 목록에 없음"
+   },
+   "dn-0063": {
+    "sec": "D",
+    "text": "● 주장 : 직접 화면보다 파트너 앱에 도매로 공급"
+   },
+   "dn-0064": {
+    "sec": "D",
+    "text": "● 공급 방식(누구에게 서빙하는지)"
+   },
+   "dn-0065": {
+    "sec": "D",
+    "text": "★ Cadana(급여 플랫폼) : 100개국 이상 직원, 계약자"
+   },
+   "dn-0066": {
+    "sec": "D",
+    "text": "★ Eldora(투자 앱) : 동남아 개인 투자자"
+   },
+   "dn-0067": {
+    "sec": "D",
+    "text": "★ Meru(국경간 금융 앱) : 중남미 프리랜서, 원격근무자"
+   },
+   "dn-0068": {
+    "sec": "D",
+    "text": "★ Offramp(금융 계정) : 스테이블코인 잔고 이용자"
+   },
+   "dn-0069": {
+    "sec": "D",
+    "text": "● 거래 장소"
+   },
+   "dn-0070": {
+    "sec": "D",
+    "text": "★ 사용 블록체인 : Ethereum, Arbitrum, Avalanche, Base 등 7개"
+   },
+   "dn-0071": {
+    "sec": "D",
+    "text": "★ 24시간 거래 : 2025-12 Flow Traders(시장조성사)와 제휴"
+   },
+   "dn-0072": {
+    "sec": "E",
+    "text": "● 주장 : 명의개서와 증권사 등록을 직접 갖고 청산은 위탁"
+   },
+   "dn-0073": {
+    "sec": "E",
+    "text": "● 보유 인가와 법인"
+   },
+   "dn-0074": {
+    "sec": "E",
+    "text": "★ Dinari, Inc. : SEC 명의개서대리인(회사 발표)"
+   },
+   "dn-0075": {
+    "sec": "E",
+    "text": "★ Dinari Securities : 2025-06 브로커딜러 등록, 53개 주"
+   },
+   "dn-0076": {
+    "sec": "E",
+    "text": "● 인가 없는 구간을 메우는 방법"
+   },
+   "dn-0077": {
+    "sec": "E",
+    "text": "★ 청산, 결제, 보관은 Alpaca에 위탁"
+   },
+   "dn-0078": {
+    "sec": "E",
+    "text": "● 미국 등록의 대가"
+   },
+   "dn-0079": {
+    "sec": "E",
+    "text": "★ 거래시간 새벽 4시~밤 8시(ET), 주말 불가"
+   },
+   "dn-0080": {
+    "sec": "E",
+    "text": "★ 하루 매수 한도 5,000달러"
+   },
+   "dn-0081": {
+    "sec": "E",
+    "text": "★ 토큰은 계좌 기록의 2차 기록, 계좌 기록이 우선"
+   },
+   "dn-0082": {
+    "sec": "F",
+    "text": "● 주장 : 기존 인프라사와 손잡아 증권사 시장으로"
+   },
+   "dn-0083": {
+    "sec": "F",
+    "text": "● 인수, 투자, 제휴"
+   },
+   "dn-0084": {
+    "sec": "F",
+    "text": "★ 2026-07 tZERO와 증권사용 운영 틀 제휴"
+   },
+   "dn-0085": {
+    "sec": "F",
+    "text": "★ 2026-11 Broadridge와 의결권 인프라 연동"
+   },
+   "dn-0086": {
+    "sec": "G",
+    "text": "● 주장 : 한국 주식을 해외로 내보내는 쪽에서 국내 증권사와 협력"
+   },
+   "dn-0087": {
+    "sec": "G",
+    "text": "● 한국 회사와의 협약"
+   },
+   "dn-0088": {
+    "sec": "G",
+    "text": "★ 2026-09 카카오페이증권과 한국 주식 해외 유통 협약"
+   },
+   "dn-0089": {
+    "sec": "G",
+    "text": "● 한국 주식 취급"
+   },
+   "dn-0090": {
+    "sec": "G",
+    "text": "★ 원주를 해외투자자 통합계좌로 조달, 1:1 발행 검증"
+   },
+   "dn-0091": {
+    "sec": "차이",
+    "text": "● 주장 : 미국은 증권사 등록으로 길이 열렸고, 한국은 판매 근거가 없다"
+   },
+   "dn-0092": {
+    "sec": "차이",
+    "text": "● 규제"
+   },
+   "dn-0093": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 미국 밖은 Regulation S, 미국은 증권사 등록"
+   },
+   "dn-0094": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 해외 발행 토큰은 국내 권유 시 증권신고서"
+   },
+   "dn-0095": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 장외거래소 토큰 유통 근거는 2027-02 시행"
+   },
+   "dn-0096": {
+    "sec": "차이",
+    "text": "● 고객 수요"
+   },
+   "dn-0097": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 증권 계좌 없는 미국 밖 투자자 수요"
+   },
+   "dn-0098": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 국내 투자자는 이미 증권사로 미국 주식 1,636억 달러 보관(2025말)"
+   },
+   "dn-0099": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 2025-11 증권사 18곳이 미국 주식 주간거래 재개"
+   },
+   "dn-0100": {
+    "sec": "판단",
+    "text": "● 성과"
+   },
+   "dn-0101": {
+    "sec": "판단",
+    "text": "★ 2026-11 점유율 0.41%로 11위, 종목 수는 724종 이상"
+   },
+   "dn-0102": {
+    "sec": "판단",
+    "text": "● 핵심 성공요인(KSF)"
+   },
+   "dn-0103": {
+    "sec": "판단",
+    "text": "★ 파트너가 증권사 등록 없이 붙는 API 공급 모델"
+   },
+   "dn-0104": {
+    "sec": "판단",
+    "text": "★ 명의개서, 증권사 등록으로 미국 판매 길 확보"
+   },
+   "dn-0105": {
+    "sec": "판단",
+    "text": "● 제약과 리스크"
+   },
+   "dn-0106": {
+    "sec": "판단",
+    "text": "★ dShares는 SIPC(미국 증권사 파산 보호) 대상 아님"
+   },
+   "dn-0107": {
+    "sec": "판단",
+    "text": "★ 회사가 토큰 동결, 소각, 재발행 권한 보유"
+   },
+   "dn-0108": {
+    "sec": "판단",
+    "text": "● KDX 시사점(스토리라인 명제별)"
+   },
+   "dn-0109": {
+    "sec": "판단",
+    "text": "★ 시장 인프라 Unbundling : 기록, 중개는 직접, 청산, 보관은 위탁"
+   },
+   "dn-0110": {
+    "sec": "판단",
+    "text": "★ Borderless Investing : 증권 계좌 없이 지갑으로 미국 주식"
+   },
+   "dn-0111": {
+    "sec": "판단",
+    "text": "★ Coopetition : tZERO, 카카오페이증권 등 기존 사업자와 협력"
+   },
+   "dn-0112": {
+    "sec": "판단",
+    "text": "★ 해외 확장 세 질문 : 한국 주식 해외 접근, 원주 조달, API 수수료(제공 가치, 제도, 경제성)"
+   }
+  }
+ },
+ "on": {
+  "next": 131,
+  "lines": {
+   "on-0001": {
+    "sec": "개요",
+    "text": "● 주장 : 국채 토큰 회사가 미국 밖 주식 토큰으로 잔액 2위에 오른 경로"
+   },
+   "on-0002": {
+    "sec": "개요",
+    "text": "● 기본정보"
+   },
+   "on-0003": {
+    "sec": "개요",
+    "text": "★ 법인명 : Ondo Finance Inc.(토큰화 기술 회사)"
+   },
+   "on-0004": {
+    "sec": "개요",
+    "text": "★ 발행 법인 : Ondo Global Markets (BVI) Limited"
+   },
+   "on-0005": {
+    "sec": "개요",
+    "text": "★ 창업자 : Nathan Allman, 2026-05 사망 뒤 De Bode가 CEO"
+   },
+   "on-0006": {
+    "sec": "개요",
+    "text": "★ 소재지 : 미국 코네티컷주 그리니치"
+   },
+   "on-0007": {
+    "sec": "개요",
+    "text": "● 지배구조"
+   },
+   "on-0008": {
+    "sec": "개요",
+    "text": "★ 발행 법인 지분 : Flux Finance 90.01%, Ondo Finance 9.99%"
+   },
+   "on-0009": {
+    "sec": "개요",
+    "text": "★ Flux Finance는 Ondo Foundation(재단)의 완전 자회사"
+   },
+   "on-0010": {
+    "sec": "개요",
+    "text": "★ Flux Finance가 토큰 채무의 추가 담보 자금 보증"
+   },
+   "on-0011": {
+    "sec": "개요",
+    "text": "● 설립 목적"
+   },
+   "on-0012": {
+    "sec": "개요",
+    "text": "★ Ondo는 세계 금융자산의 공개 블록체인 토큰화를 전망"
+   },
+   "on-0013": {
+    "sec": "개요",
+    "text": "● 성장 경로(한 줄기)"
+   },
+   "on-0014": {
+    "sec": "개요",
+    "text": "★ OUSG(단기 국채 토큰), USDY(담보부 노트)로 출발"
+   },
+   "on-0015": {
+    "sec": "개요",
+    "text": "★ 2025-04 발행 법인 설립 → 2025-07 Oasis Pro(미국 증권사) 인수"
+   },
+   "on-0016": {
+    "sec": "개요",
+    "text": "★ 2025-09 미국 밖 전용 주식 토큰 100종 개시"
+   },
+   "on-0017": {
+    "sec": "개요",
+    "text": "★ 2025-12 SEC 조사 종결(회사 발표), USDY를 Ondo Stocks로 편입"
+   },
+   "on-0018": {
+    "sec": "개요",
+    "text": "● 화면"
+   },
+   "on-0019": {
+    "sec": "개요",
+    "text": "![가입](../captures/Ondo/signup.png) ![상품 소개](../captures/Ondo/list.png)"
+   },
+   "on-0020": {
+    "sec": "발언",
+    "text": "● 발언 1 : 미국 규제형 토큰 증권 시장용 인가를 갖췄다"
+   },
+   "on-0021": {
+    "sec": "발언",
+    "text": "★ Nathan Allman(창업자 겸 CEO), Oasis Pro 인수 완료 발표, 2025-10-07, https://ondo.finance/blog/ondo-acquires-oasis-pro"
+   },
+   "on-0022": {
+    "sec": "발언",
+    "text": "① 원문 : \"We now have the most comprehensive suite of licenses and infrastructure necessary to develop compliant and regulated tokenized securities markets in the U.S.\""
+   },
+   "on-0023": {
+    "sec": "발언",
+    "text": "② 번역 : 이제 미국에서 규제를 지키는 토큰 증권 시장을 만드는 데 필요한 가장 포괄적인 인가와 인프라를 갖췄다."
+   },
+   "on-0024": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 미국 규제형 토큰 증권 시장. 그래서 증권사, ATS, 명의개서 인가를 인수"
+   },
+   "on-0025": {
+    "sec": "발언",
+    "text": "![발언 1](../captures/quotes/Ondo_1.png)"
+   },
+   "on-0026": {
+    "sec": "발언",
+    "text": "● 발언 2 : 아시아, 중남미 수백만 이용자에게 미국 주식을"
+   },
+   "on-0027": {
+    "sec": "발언",
+    "text": "★ Nathan Allman(창업자 겸 CEO), BNB 체인 진출 발표, 2025-10-29, https://ondo.finance/blog/global-markets-live-on-bnb-chain"
+   },
+   "on-0028": {
+    "sec": "발언",
+    "text": "① 원문 : \"Expanding Ondo Stocks to BNB Chain allows us to bring tokenized U.S. stocks and ETFs to millions of users across Asia, Latin America, and other geographies, in an environment that is fast, cost-efficient, and highly interoperable.\""
+   },
+   "on-0029": {
+    "sec": "발언",
+    "text": "② 번역 : BNB 체인 확장으로 아시아, 중남미 등 수백만 이용자에게 빠르고 저렴하며 연동성 높은 환경에서 토큰 미국 주식과 ETF를 제공한다."
+   },
+   "on-0030": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 아시아, 중남미 개인. 그래서 이용자 많은 BNB 체인에 100종 이상 상장"
+   },
+   "on-0031": {
+    "sec": "발언",
+    "text": "● 발언 3 : 기존 시장 인프라와 경쟁이 아니라 연동"
+   },
+   "on-0032": {
+    "sec": "발언",
+    "text": "★ Ian De Bode(CEO), DTCC 협업 발표, 2026-07-15, https://ondo.finance/blog/ondo-and-dtcc-collaborate-on-tokenized-stocks"
+   },
+   "on-0033": {
+    "sec": "발언",
+    "text": "① 원문 : \"Today's initiative with DTCC demonstrates that Ondo Stocks infrastructure is purpose-built to interoperate with institutional market infrastructure, not to compete with it.\""
+   },
+   "on-0034": {
+    "sec": "발언",
+    "text": "② 번역 : DTCC와의 이번 시도는 Ondo Stocks 인프라가 기관 시장 인프라와 경쟁하지 않고 연동하도록 설계됐음을 보여준다."
+   },
+   "on-0035": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 DTCC(미국 예탁결제기관)와 연결된 토큰 주식. 그래서 DTC 토큰화 권리 기반 주식 토큰 출시"
+   },
+   "on-0036": {
+    "sec": "발언",
+    "text": "![발언 3](../captures/quotes/Ondo_3.png)"
+   },
+   "on-0037": {
+    "sec": "발언",
+    "text": "● 발언 4 : 닫힌 금융에서 열린 온체인 경제로"
+   },
+   "on-0038": {
+    "sec": "발언",
+    "text": "★ Nathan Allman(창업자 겸 CEO), Ondo Catalyst 출시 발표, 2025-07-03, https://ondo.finance/blog/introducing-ondo-catalyst"
+   },
+   "on-0039": {
+    "sec": "발언",
+    "text": "① 원문 : \"With Ondo Catalyst, we're fueling the transition from closed, permissioned systems to an open, onchain economy.\""
+   },
+   "on-0040": {
+    "sec": "발언",
+    "text": "② 번역 : Ondo Catalyst로 닫힌 허가형 시스템에서 열린 온체인 경제로의 전환을 키운다."
+   },
+   "on-0041": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 온체인 경제의 앱과 인프라. 그래서 2.5억 달러 전략 투자로 생태계 후원"
+   },
+   "on-0042": {
+    "sec": "발언",
+    "text": "![발언 4](../captures/quotes/Ondo_2.png)"
+   },
+   "on-0043": {
+    "sec": "A",
+    "text": "● 주장 : 국채 토큰 고객 기반 위에 별도 발행 법인으로 진입"
+   },
+   "on-0044": {
+    "sec": "A",
+    "text": "● 출신 : OUSG는 미국 적격투자자, USDY는 비미국인 대상"
+   },
+   "on-0045": {
+    "sec": "A",
+    "text": "● 진입 방식"
+   },
+   "on-0046": {
+    "sec": "A",
+    "text": "★ 발행은 BVI 법인, Ondo Finance는 토큰화 서비스만"
+   },
+   "on-0047": {
+    "sec": "A",
+    "text": "★ 진출 사유 : 미국 밖 투자자에게 미국 공개 증권 수천 종 노출"
+   },
+   "on-0048": {
+    "sec": "B",
+    "text": "● 주장 : 주식이 아니라 BVI 발행 법인에 대한 담보부 채권"
+   },
+   "on-0049": {
+    "sec": "B",
+    "text": "● 토큰의 법적 성격(우리 분류)"
+   },
+   "on-0050": {
+    "sec": "B",
+    "text": "★ 스위스법 채무증서, 기초 종목 1:1 추종"
+   },
+   "on-0051": {
+    "sec": "B",
+    "text": "★ 기초 주식 인도 청구권, 주주 권리 없음"
+   },
+   "on-0052": {
+    "sec": "B",
+    "text": "★ 우리 분류 : 연계증권(담보부 제한소구 채권)"
+   },
+   "on-0053": {
+    "sec": "B",
+    "text": "● 발행 주체와 보관"
+   },
+   "on-0054": {
+    "sec": "B",
+    "text": "★ 발행 법인은 독립 이사 둔 SPV, 파산 격리 설계"
+   },
+   "on-0055": {
+    "sec": "B",
+    "text": "★ Alpaca(미국 청산 증권사), BitGo Trust(수탁 회사) 담보 계좌 1:1"
+   },
+   "on-0056": {
+    "sec": "B",
+    "text": "★ Ankura Trust(담보 대리인)가 1순위 담보권 보유"
+   },
+   "on-0057": {
+    "sec": "B",
+    "text": "● 투자자 권리"
+   },
+   "on-0058": {
+    "sec": "B",
+    "text": "★ 배당은 자동 재투자되어 토큰 가격에 반영"
+   },
+   "on-0059": {
+    "sec": "B",
+    "text": "★ 2026-04 Broadridge(의결 대행사) 연동, 의결 선호 제출"
+   },
+   "on-0060": {
+    "sec": "B",
+    "text": "● 규모(시장 내 위치)"
+   },
+   "on-0061": {
+    "sec": "B",
+    "text": "★ 2026-11-16 발행 잔액 8.99억 달러, 2위(점유율 24.23%)"
+   },
+   "on-0062": {
+    "sec": "B",
+    "text": "★ 1위 Binance(가상자산 거래소) 13.6억, 3위 Kraken(가상자산 거래소) 6.8억 달러"
+   },
+   "on-0063": {
+    "sec": "B",
+    "text": "★ 4위 Securitize(토큰화 회사) 2.7억, 6위 Robinhood(주식 거래 앱) 1.5억 달러"
+   },
+   "on-0064": {
+    "sec": "B",
+    "text": "★ 시장 전체 37.1억 달러(30일 전 대비 +4.33%)"
+   },
+   "on-0065": {
+    "sec": "B",
+    "text": "● 수수료"
+   },
+   "on-0066": {
+    "sec": "B",
+    "text": "★ 발행 수수료 없음, 상환 수수료 0.05%"
+   },
+   "on-0067": {
+    "sec": "B",
+    "text": "★ 견적가와 기초 매매가 차이는 Ondo Stocks가 보유"
+   },
+   "on-0068": {
+    "sec": "C",
+    "text": "● 주장 : 미국 밖 개인과 기관이 대상, 미국인은 배제"
+   },
+   "on-0069": {
+    "sec": "C",
+    "text": "● 대상"
+   },
+   "on-0070": {
+    "sec": "C",
+    "text": "★ 지원 관할의 기관과 개인, 2개 고객군"
+   },
+   "on-0071": {
+    "sec": "C",
+    "text": "★ Persona(신원 확인 업체)로 KYC, KYB 심사"
+   },
+   "on-0072": {
+    "sec": "C",
+    "text": "● 국적 및 지역 제한"
+   },
+   "on-0073": {
+    "sec": "C",
+    "text": "★ 미국인, 미국 안에서 주문하는 자 제외"
+   },
+   "on-0074": {
+    "sec": "C",
+    "text": "★ 스위스는 전문고객만, 개인 판매 없음"
+   },
+   "on-0075": {
+    "sec": "D",
+    "text": "● 주장 : 자체 앱 직접 판매와 거래소, 지갑 공급을 병행"
+   },
+   "on-0076": {
+    "sec": "D",
+    "text": "● 공급 방식(누구에게 서빙하는지)"
+   },
+   "on-0077": {
+    "sec": "D",
+    "text": "★ 자체 앱 : KYC 마친 개인, 기관에 USDon(달러 토큰)으로 판매"
+   },
+   "on-0078": {
+    "sec": "D",
+    "text": "★ Bitget(가상자산 거래소) : USDT 계정 이용자, 2025-09부터 100종 이상"
+   },
+   "on-0079": {
+    "sec": "D",
+    "text": "★ Nest Exchange(Binance 운영 거래소) : UAE에서 디지털 증권으로 거래"
+   },
+   "on-0080": {
+    "sec": "D",
+    "text": "★ Trust Wallet(지갑), OKX, HTX, 1inch도 출시 파트너"
+   },
+   "on-0081": {
+    "sec": "D",
+    "text": "● 거래 장소"
+   },
+   "on-0082": {
+    "sec": "D",
+    "text": "★ 사용 블록체인 : Ethereum, BNB Chain, Solana 3개"
+   },
+   "on-0083": {
+    "sec": "D",
+    "text": "★ 거래시간 : 일요일 밤 8시~금요일 밤 8시(ET)"
+   },
+   "on-0084": {
+    "sec": "D",
+    "text": "★ 장외시간 거래 가능 종목 32개"
+   },
+   "on-0085": {
+    "sec": "D",
+    "text": "★ ERC20 호환, 외부 지갑으로 자유 이전"
+   },
+   "on-0086": {
+    "sec": "E",
+    "text": "● 주장 : 미국 인가는 인수로 확보, 주식 토큰은 미국 밖 면제로 발행"
+   },
+   "on-0087": {
+    "sec": "E",
+    "text": "● 보유 인가와 법인"
+   },
+   "on-0088": {
+    "sec": "E",
+    "text": "★ Oasis Pro : SEC 브로커딜러, FINRA 회원, 53개 주"
+   },
+   "on-0089": {
+    "sec": "E",
+    "text": "★ Oasis Pro : ATS, 명의개서대리인 보유"
+   },
+   "on-0090": {
+    "sec": "E",
+    "text": "★ Ondo Capital Management : SEC 등록 투자자문사(OUSG 자문)"
+   },
+   "on-0091": {
+    "sec": "E",
+    "text": "● 인가 없는 구간을 메우는 방법"
+   },
+   "on-0092": {
+    "sec": "E",
+    "text": "★ 발행은 1933년 증권법 Regulation S 면제"
+   },
+   "on-0093": {
+    "sec": "E",
+    "text": "★ EU는 리히텐슈타인 FMA 승인 투자설명서"
+   },
+   "on-0094": {
+    "sec": "E",
+    "text": "★ Ondo Finance는 중개, 청산, 보관 아닌 기술 제공자(약관)"
+   },
+   "on-0095": {
+    "sec": "E",
+    "text": "● 미국 밖 구조의 대가"
+   },
+   "on-0096": {
+    "sec": "E",
+    "text": "★ 1933년 증권법, 1940년 투자회사법 모두 미등록"
+   },
+   "on-0097": {
+    "sec": "E",
+    "text": "★ 발행 법인이 받는 미국 배당에 원천징수 30%"
+   },
+   "on-0098": {
+    "sec": "E",
+    "text": "★ Ondo는 BVI 금융당국 등록, 인가 없음"
+   },
+   "on-0099": {
+    "sec": "E",
+    "text": "★ EU 투자설명서 유효기간 2026-11-11까지"
+   },
+   "on-0100": {
+    "sec": "F",
+    "text": "● 주장 : 은행, 결제망, 자산운용사와 손잡아 상품 범위 확장"
+   },
+   "on-0101": {
+    "sec": "F",
+    "text": "● 인수, 투자, 제휴"
+   },
+   "on-0102": {
+    "sec": "F",
+    "text": "★ 2026-05 Kinexys(JP Morgan 결제망) 등 3곳(Mastercard, Ripple 포함)과 국채 토큰 국경간 상환"
+   },
+   "on-0103": {
+    "sec": "F",
+    "text": "★ 2026-09 BlackRock(자산운용사) 전략 기반 포트폴리오 3종 출시"
+   },
+   "on-0104": {
+    "sec": "G",
+    "text": "● 주장 : 한국 주식 해외 유통과 한국 운용사 ETF 토큰화로 협력"
+   },
+   "on-0105": {
+    "sec": "G",
+    "text": "● 한국 회사와의 협약"
+   },
+   "on-0106": {
+    "sec": "G",
+    "text": "★ 2026-09 카카오페이증권과 한국 주식 해외 유통 MOU"
+   },
+   "on-0107": {
+    "sec": "G",
+    "text": "★ 카카오페이증권이 외국인 통합계좌로 원주 조달"
+   },
+   "on-0108": {
+    "sec": "G",
+    "text": "★ 미래에셋자산운용과 Global X ETF 토큰화 MOU"
+   },
+   "on-0109": {
+    "sec": "차이",
+    "text": "● 주장 : 미국 밖 면제로 길이 열렸고, 한국 권유는 공모 규제에 걸린다"
+   },
+   "on-0110": {
+    "sec": "차이",
+    "text": "● 규제"
+   },
+   "on-0111": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 미국 밖 판매는 Regulation S로 공모 등록 불요"
+   },
+   "on-0112": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 해외 발행 토큰도 국내 50인 이상 권유면 증권신고서"
+   },
+   "on-0113": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 장외거래소 토큰 유통 근거는 2027-02 시행"
+   },
+   "on-0114": {
+    "sec": "차이",
+    "text": "● 고객 수요"
+   },
+   "on-0115": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 증권 계좌 없이 지갑으로 미국 주식 노출 수요"
+   },
+   "on-0116": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 국내 투자자는 이미 증권사로 미국 주식 1,636억 달러 보관(2025말)"
+   },
+   "on-0117": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 2025-11 증권사 18곳이 미국 주식 주간거래 재개"
+   },
+   "on-0118": {
+    "sec": "판단",
+    "text": "● 성과"
+   },
+   "on-0119": {
+    "sec": "판단",
+    "text": "★ 2025-09 출시 뒤 14개월 만에 발행 잔액 2위"
+   },
+   "on-0120": {
+    "sec": "판단",
+    "text": "● 핵심 성공요인(KSF)"
+   },
+   "on-0121": {
+    "sec": "판단",
+    "text": "★ 기술 회사와 발행 SPV 분리, 출시 파트너 5곳에 공급"
+   },
+   "on-0122": {
+    "sec": "판단",
+    "text": "★ 국채 토큰 운영을 2025-12 Ondo Stocks 한 우산으로 통합"
+   },
+   "on-0123": {
+    "sec": "판단",
+    "text": "● 제약과 리스크"
+   },
+   "on-0124": {
+    "sec": "판단",
+    "text": "★ 담보로만 상환, 발행 법인 도산 위험은 투자자 부담"
+   },
+   "on-0125": {
+    "sec": "판단",
+    "text": "★ 2026-08 창업자 유족이 경영권 소송 제기"
+   },
+   "on-0126": {
+    "sec": "판단",
+    "text": "● KDX 시사점(스토리라인 명제별)"
+   },
+   "on-0127": {
+    "sec": "판단",
+    "text": "★ 시장 인프라 Unbundling : 토큰화는 Ondo, 발행은 SPV, 보관은 Alpaca 등"
+   },
+   "on-0128": {
+    "sec": "판단",
+    "text": "★ Borderless Investing : 미국 밖 투자자가 지갑으로 미국 주식 노출"
+   },
+   "on-0129": {
+    "sec": "판단",
+    "text": "★ Coopetition : Binance 계열 거래소에 공급하나 Binance가 잔액 1위 경쟁자"
+   },
+   "on-0130": {
+    "sec": "판단",
+    "text": "★ 해외 확장 세 질문 : 한국 주식 해외 유통, 통합계좌 조달, 상환 수수료 0.05%(제공 가치, 제도, 경제성)"
+   }
+  }
+ },
+ "bo": {
+  "next": 80,
+  "lines": {
+   "bo-0001": {
+    "sec": "개요",
+    "text": "● 주장 : 2019년 먼저 연 야간 시장이 거래대금 83%를 차지"
+   },
+   "bo-0002": {
+    "sec": "개요",
+    "text": "● 운영사"
+   },
+   "bo-0003": {
+    "sec": "개요",
+    "text": "★ 법인명 : Blue Ocean ATS, LLC(미국 주식 야간 거래 시장 BOATS 운영)"
+   },
+   "bo-0004": {
+    "sec": "개요",
+    "text": "★ 2019년 설립, 2020-10 브로커딜러 등록, FINRA(미국 증권업 자율규제기구) 회원"
+   },
+   "bo-0005": {
+    "sec": "개요",
+    "text": "● 모회사"
+   },
+   "bo-0006": {
+    "sec": "개요",
+    "text": "★ Blue Ocean Technologies(지주회사)가 운영사 지분 보유"
+   },
+   "bo-0007": {
+    "sec": "개요",
+    "text": "★ Urbana(캐나다 상장 투자회사)가 지주회사 약 35% 보유(2023)"
+   },
+   "bo-0008": {
+    "sec": "개요",
+    "text": "● 취급 자산"
+   },
+   "bo-0009": {
+    "sec": "개요",
+    "text": "★ 미국 NMS(전국시장체계) 상장 주식"
+   },
+   "bo-0010": {
+    "sec": "개요",
+    "text": "★ 2026-10 세션 1위 SOXL(3배 반도체 ETF), 1.65억 달러"
+   },
+   "bo-0011": {
+    "sec": "개요",
+    "text": "● 대상 고객"
+   },
+   "bo-0012": {
+    "sec": "개요",
+    "text": "★ ATS에 가입한 글로벌 구독 브로커"
+   },
+   "bo-0013": {
+    "sec": "개요",
+    "text": "★ 2022년부터 한국 증권사 고객이 한국 낮 시간에 이용"
+   },
+   "bo-0014": {
+    "sec": "개요",
+    "text": "● 거래시간"
+   },
+   "bo-0015": {
+    "sec": "개요",
+    "text": "★ 일~목 밤 8시~새벽 4시(미국 동부)"
+   },
+   "bo-0016": {
+    "sec": "개요",
+    "text": "★ 한국 시간 오전 10시~오후 6시에 해당"
+   },
+   "bo-0017": {
+    "sec": "개요",
+    "text": "● 거래 규모"
+   },
+   "bo-0018": {
+    "sec": "개요",
+    "text": "★ 기준 : FINRA 주간 보고 거래대금 13주 합산, 야간 3사 대비"
+   },
+   "bo-0019": {
+    "sec": "개요",
+    "text": "★ 2026 Q3 2,435.5억 달러, 야간 3사 중 83.0%로 1위"
+   },
+   "bo-0020": {
+    "sec": "개요",
+    "text": "★ 같은 Q3 Bruce(야간 ATS) 439.7억(15.0%), MOON(야간 ATS) 58.3억(2.0%)"
+   },
+   "bo-0021": {
+    "sec": "개요",
+    "text": "★ 2026 Q2 2,676.7억 달러, 점유율 83.9%에서 소폭 하락"
+   },
+   "bo-0022": {
+    "sec": "개요",
+    "text": "● 차별화 요소"
+   },
+   "bo-0023": {
+    "sec": "개요",
+    "text": "★ 3사 중 가장 먼저 개설(Bruce 2025-03, MOON 2024-11)"
+   },
+   "bo-0024": {
+    "sec": "개요",
+    "text": "★ 2023-09 도쿄증권거래소가 지분 5% 투자, 일본 낮 시간 거래 목표"
+   },
+   "bo-0025": {
+    "sec": "개요",
+    "text": "● 토큰증권 취급 현황"
+   },
+   "bo-0026": {
+    "sec": "개요",
+    "text": "★ 2025-10 토큰화 NMS 주식 거래 연동 추진 발표"
+   },
+   "bo-0027": {
+    "sec": "개요",
+    "text": "★ 2026-03 RQD*(미국 청산 회사)와 토큰 주식 청산 MOU"
+   },
+   "bo-0028": {
+    "sec": "개요",
+    "text": "★ DTCC(미국 중앙 예탁결제기관) 토큰화 로드맵에 맞춤"
+   },
+   "bo-0029": {
+    "sec": "개요",
+    "text": "● 화면"
+   },
+   "bo-0030": {
+    "sec": "개요",
+    "text": "![홈](../captures/BlueOcean/home.png)"
+   },
+   "bo-0031": {
+    "sec": "발언",
+    "text": "● 주장 : 한국 낮 시간에서 아시아로, 다시 24시간 토큰 시장으로"
+   },
+   "bo-0032": {
+    "sec": "발언",
+    "text": "● 발언 1 : 미국 주식 시장을 서울 낮으로 옮긴다"
+   },
+   "bo-0033": {
+    "sec": "발언",
+    "text": "★ Ralph Layman(Blue Ocean Technologies CEO, 2022년 당시), 삼성증권 제휴 발표, 2022-02-07, https://prnewswire.com/news-releases/blue-ocean-technologies--samsung-securities-announce-strategic-partnership-offering-us-equity-trading-during-local-asia-pacific-business-hours-301476177.html"
+   },
+   "bo-0034": {
+    "sec": "발언",
+    "text": "① 원문 : \"This partnership allows us to transport the US equities trading day, and our Blue Ocean trading model, to provide expanded local access to the greatest capital market in the world. ... As of today, the US equity market opens in Seoul.\""
+   },
+   "bo-0035": {
+    "sec": "발언",
+    "text": "② 번역 : 이번 제휴로 미국 주식 거래일과 Blue Ocean 거래 모델을 옮겨 세계 최대 자본시장에 대한 현지 접근을 넓힌다. 오늘부터 미국 주식 시장이 서울에서 열린다."
+   },
+   "bo-0036": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 한국 낮 시간의 미국 주식 수요. 그래서 한국 증권사를 구독자로 연결"
+   },
+   "bo-0037": {
+    "sec": "발언",
+    "text": "![발언 1](../captures/quotes/BlueOcean_6.png)"
+   },
+   "bo-0038": {
+    "sec": "발언",
+    "text": "● 발언 2 : 아시아태평양 거래를 키우는 시점"
+   },
+   "bo-0039": {
+    "sec": "발언",
+    "text": "★ Brian Hyndman(사장 겸 CEO), 도쿄증권거래소 투자 완료 발표, 2023-09-13, https://prnewswire.com/news-releases/blue-ocean-technologies--tokyo-stock-exchange-close-strategic-investment-agreement-focused-on-expanding-trading-hours-for-japanese-investors-301926166.html"
+   },
+   "bo-0040": {
+    "sec": "발언",
+    "text": "① 원문 : \"This partnership comes at a pivotal time as we continue to grow our trading in the Asia Pacific region. ... connecting local Japanese investors to endless trading opportunities on the Blue Ocean ATS platform\""
+   },
+   "bo-0041": {
+    "sec": "발언",
+    "text": "② 번역 : 이번 제휴는 아시아태평양 거래를 계속 키우는 중요한 시점에 이뤄졌다. 일본 현지 투자자를 Blue Ocean ATS의 거래 기회와 연결한다."
+   },
+   "bo-0042": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 한국 다음의 아시아 시장. 그래서 도쿄증권거래소 지분 투자를 받아 일본으로 확장"
+   },
+   "bo-0043": {
+    "sec": "발언",
+    "text": "![발언 2](../captures/quotes/BlueOcean_7.png)"
+   },
+   "bo-0044": {
+    "sec": "발언",
+    "text": "● 발언 3 : 토큰화가 24시간 365일 시장을 완성"
+   },
+   "bo-0045": {
+    "sec": "발언",
+    "text": "★ Brian Hyndman(CEO), 토큰화 NMS 주식 연동 발표(보도자료), 2025-10-10, https://www.finanzen.net/nachricht/aktien/blue-ocean-technologies-to-pursue-tokenized-nms-us-equities-trading-14994412"
+   },
+   "bo-0046": {
+    "sec": "발언",
+    "text": "① 원문 : \"Integrating with forthcoming tokenized settlement infrastructure represents the next frontier in our journey. Tokenization has the potential to complete the 24/7/365 market, closing the final gap in an increasingly connected global trading ecosystem.\""
+   },
+   "bo-0047": {
+    "sec": "발언",
+    "text": "② 번역 : 다가올 토큰화 결제 인프라와의 연동은 우리 여정의 다음 개척지다. 토큰화는 24시간 365일 시장을 완성해 연결된 세계 거래 생태계의 마지막 빈틈을 메울 수 있다."
+   },
+   "bo-0048": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 주말까지 이어지는 24시간 시장. 그래서 토큰화 결제와 청산 연동 준비"
+   },
+   "bo-0049": {
+    "sec": "발언",
+    "text": "![발언 3](../captures/quotes/BlueOcean_8.png)"
+   },
+   "bo-0050": {
+    "sec": "연결",
+    "text": "● 주장 : 한국 증권사 주문으로 컸고 사고 때 한국 거래가 함께 멈춤"
+   },
+   "bo-0051": {
+    "sec": "연결",
+    "text": "● 국내 증권사 연결"
+   },
+   "bo-0052": {
+    "sec": "연결",
+    "text": "★ 2022-02 삼성증권(한국 증권사)이 첫 해외 제휴사"
+   },
+   "bo-0053": {
+    "sec": "연결",
+    "text": "★ 2025-11 재개 조건 : 2곳 이상 ATS 계약, 거래 되돌림 체계"
+   },
+   "bo-0054": {
+    "sec": "연결",
+    "text": "★ 백업 ATS는 Bruce, MOON"
+   },
+   "bo-0055": {
+    "sec": "연결",
+    "text": "● 사고 이력"
+   },
+   "bo-0056": {
+    "sec": "연결",
+    "text": "★ 2024-08 사고로 국내 증권사 주간거래 일괄 중단"
+   },
+   "bo-0057": {
+    "sec": "연결",
+    "text": "★ 중단 기간 약 1년 2개월(2024-08~2025-11)"
+   },
+   "bo-0058": {
+    "sec": "차이",
+    "text": "● 주장 : 미국은 브로커딜러 등록으로 열었고, 한국 ATS는 전문투자자용"
+   },
+   "bo-0059": {
+    "sec": "차이",
+    "text": "● 규제"
+   },
+   "bo-0060": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 브로커딜러 등록과 Reg ATS로 거래소 등록 면제"
+   },
+   "bo-0061": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 다자간매매체결회사(한국 ATS) 인가는 전문투자자 대상만"
+   },
+   "bo-0062": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 개인의 해외 주식 주문은 해외 중개업자 경유"
+   },
+   "bo-0063": {
+    "sec": "차이",
+    "text": "● 고객 수요"
+   },
+   "bo-0064": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 한국 낮 시간의 미국 주식 매매 수요"
+   },
+   "bo-0065": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 국내 투자자 미국 주식 보관 1,636억 달러(2025말)"
+   },
+   "bo-0066": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 2025-11 증권사 18곳이 주간거래 재개"
+   },
+   "bo-0067": {
+    "sec": "판단",
+    "text": "● 주장 : 선발 효과로 1위지만 한국 주문 의존이 가장 큰 위험"
+   },
+   "bo-0068": {
+    "sec": "판단",
+    "text": "● 핵심 성공요인(KSF)"
+   },
+   "bo-0069": {
+    "sec": "판단",
+    "text": "★ 2022년 선발 진입으로 한국 증권사 주문 선점"
+   },
+   "bo-0070": {
+    "sec": "판단",
+    "text": "★ 일요일 밤(미국 동부) 개장으로 아시아 월요일 낮과 연결"
+   },
+   "bo-0071": {
+    "sec": "판단",
+    "text": "● 제약과 리스크"
+   },
+   "bo-0072": {
+    "sec": "판단",
+    "text": "★ 2024년 한 시장 사고가 한국 고객 전체 중단으로 번짐"
+   },
+   "bo-0073": {
+    "sec": "판단",
+    "text": "★ 2026-10 최근 3주 Bruce 점유율 29.8%로 추격"
+   },
+   "bo-0074": {
+    "sec": "판단",
+    "text": "★ 종목 거래량 5% 넘으면 공정접근 의무(Reg ATS)"
+   },
+   "bo-0075": {
+    "sec": "판단",
+    "text": "● KDX 시사점(스토리라인 명제별)"
+   },
+   "bo-0076": {
+    "sec": "판단",
+    "text": "★ 시장 인프라 Unbundling : 체결은 ATS, 접점은 증권사, 토큰 청산은 RQD*"
+   },
+   "bo-0077": {
+    "sec": "판단",
+    "text": "★ Borderless Investing : 국경 대신 시간대를 넘어 한국 낮에 미국 주식"
+   },
+   "bo-0078": {
+    "sec": "판단",
+    "text": "★ Coopetition : 삼성증권과 제휴, 도쿄증권거래소를 주주로"
+   },
+   "bo-0079": {
+    "sec": "판단",
+    "text": "★ 해외 확장 세 질문 : 아시아 낮 체결, 브로커딜러 등록, 체결 시장(제공 가치, 제도, 역할)"
+   }
+  }
+ },
+ "br": {
+  "next": 77,
+  "lines": {
+   "br-0001": {
+    "sec": "개요",
+    "text": "● 주장 : 2025년 후발 진입, 주문 채널을 주주로 묶어 점유율 상승"
+   },
+   "br-0002": {
+    "sec": "개요",
+    "text": "● 운영사"
+   },
+   "br-0003": {
+    "sec": "개요",
+    "text": "★ 법인명 : Bruce Markets LLC(미국 주식 야간 거래 시장 Bruce ATS 운영)"
+   },
+   "br-0004": {
+    "sec": "개요",
+    "text": "★ 2020-11 브로커딜러 등록, FINRA(미국 증권업 자율규제기구) 회원"
+   },
+   "br-0005": {
+    "sec": "개요",
+    "text": "★ 2025-03 야간 ATS 개시"
+   },
+   "br-0006": {
+    "sec": "개요",
+    "text": "● 모회사"
+   },
+   "br-0007": {
+    "sec": "개요",
+    "text": "★ Bruce Markets Holdings가 운영사 지분 보유"
+   },
+   "br-0008": {
+    "sec": "개요",
+    "text": "★ 등록부 기타 상호 : PEAK6 Trading, All Time ATS"
+   },
+   "br-0009": {
+    "sec": "개요",
+    "text": "● 취급 자산"
+   },
+   "br-0010": {
+    "sec": "개요",
+    "text": "★ 미국 NMS(전국시장체계) 상장 주식"
+   },
+   "br-0011": {
+    "sec": "개요",
+    "text": "● 대상 고객"
+   },
+   "br-0012": {
+    "sec": "개요",
+    "text": "★ 미국 브로커딜러와 해외 브로커"
+   },
+   "br-0013": {
+    "sec": "개요",
+    "text": "● 거래시간"
+   },
+   "br-0014": {
+    "sec": "개요",
+    "text": "★ 일~목 밤 8시~새벽 4시(미국 동부)"
+   },
+   "br-0015": {
+    "sec": "개요",
+    "text": "● 호가 방식"
+   },
+   "br-0016": {
+    "sec": "개요",
+    "text": "★ Nasdaq(미국 거래소 운영사) 거래 기술로 체결"
+   },
+   "br-0017": {
+    "sec": "개요",
+    "text": "★ 브로커는 표준 FIX(주문 전송 규격)로 접속"
+   },
+   "br-0018": {
+    "sec": "개요",
+    "text": "● 거래 규모"
+   },
+   "br-0019": {
+    "sec": "개요",
+    "text": "★ 기준 : FINRA 주간 보고 거래대금 13주 합산, 야간 3사 대비"
+   },
+   "br-0020": {
+    "sec": "개요",
+    "text": "★ 2026 Q3 439.7억 달러, 3사 중 15.0%(Q2 12.3%)"
+   },
+   "br-0021": {
+    "sec": "개요",
+    "text": "★ 같은 Q3 Blue Ocean(선발 야간 ATS) 83.0%, MOON(야간 ATS) 2.0%"
+   },
+   "br-0022": {
+    "sec": "개요",
+    "text": "★ 2026-10 최근 3주 점유율 29.8%로 상승"
+   },
+   "br-0023": {
+    "sec": "개요",
+    "text": "● 차별화 요소"
+   },
+   "br-0024": {
+    "sec": "개요",
+    "text": "★ 2025-06 투자사에 Robinhood(미국 주식 앱), Webull(투자 앱) 등 주문 채널"
+   },
+   "br-0025": {
+    "sec": "개요",
+    "text": "★ 2026-09 주말 포함 연속 거래 계획, SEC 검토 대상"
+   },
+   "br-0026": {
+    "sec": "개요",
+    "text": "● 토큰증권 취급 현황"
+   },
+   "br-0027": {
+    "sec": "개요",
+    "text": "★ 주말 거래도 기존 주식 청산 구조, Apex Clearing(미국 청산 회사)"
+   },
+   "br-0028": {
+    "sec": "개요",
+    "text": "● 화면"
+   },
+   "br-0029": {
+    "sec": "개요",
+    "text": "![홈](../captures/Bruce/home.png) ![회사 소개](../captures/Bruce/info2.png)"
+   },
+   "br-0030": {
+    "sec": "발언",
+    "text": "● 주장 : 개인투자자의 24시간 수요를 보고 주말과 한국으로 확장"
+   },
+   "br-0031": {
+    "sec": "발언",
+    "text": "● 발언 1 : 개인투자자가 24시간 시장을 이끈다"
+   },
+   "br-0032": {
+    "sec": "발언",
+    "text": "★ Jason Wallach(CEO), 전략 투자 유치 발표, 2025-06-27, https://www.marketsmedia.com/overnight-trading-platform-bruce-ats-raises-funds"
+   },
+   "br-0033": {
+    "sec": "발언",
+    "text": "① 원문 : \"This esteemed group of strategic investors reflects a shared belief in the future of financial markets as a fully accessible, 24-hour trading ecosystem, and represents another significant step forward for retail investors who are, for the first time, playing an influential role in the evolution of our market structure.\""
+   },
+   "br-0034": {
+    "sec": "발언",
+    "text": "② 번역 : 이 전략 투자자들은 금융시장의 미래가 누구나 접근하는 24시간 거래 생태계라는 믿음을 공유하며, 처음으로 시장구조 변화에 영향력을 갖게 된 개인투자자에게도 중요한 진전이다."
+   },
+   "br-0035": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 개인투자자의 24시간 거래. 그래서 개인 대상 증권사와 앱을 주주로 묶음"
+   },
+   "br-0036": {
+    "sec": "발언",
+    "text": "![발언 1](../captures/quotes/Bruce_3.png)"
+   },
+   "br-0037": {
+    "sec": "발언",
+    "text": "● 발언 2 : 뉴스는 월요일 개장을 기다리지 않는다"
+   },
+   "br-0038": {
+    "sec": "발언",
+    "text": "★ Jason Wallach(CEO), 주말 거래 계획 발표, 2026-09-30, https://www.financemagnates.com/institutional-forex/bruce-markets-plans-weekend-trading-to-bring-us-equities-closer-to-247-access/"
+   },
+   "br-0039": {
+    "sec": "발언",
+    "text": "① 원문 : \"Market-moving news does not wait for Monday's open, and soon, neither will investors. Together with our partners, we are breaking down the limitations of traditional market structure and redefining how the world trades.\""
+   },
+   "br-0040": {
+    "sec": "발언",
+    "text": "② 번역 : 시장을 움직이는 뉴스는 월요일 개장을 기다리지 않고, 곧 투자자도 기다리지 않을 것이다. 파트너와 함께 전통 시장구조의 한계를 허물고 세계의 거래 방식을 다시 정의한다."
+   },
+   "br-0041": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 주말 뉴스에 반응하는 수요. 그래서 Nasdaq 기술로 주말 연속 거래 추진"
+   },
+   "br-0042": {
+    "sec": "발언",
+    "text": "![발언 2](../captures/quotes/Bruce_1.png)"
+   },
+   "br-0043": {
+    "sec": "발언",
+    "text": "● 발언 3 : 한국 투자자는 야간 시장의 핵심 세력"
+   },
+   "br-0044": {
+    "sec": "발언",
+    "text": "★ Jason Wallach(CEO), 토스증권 시세 연결 발표, 2026-10-01, https://www.thailand-business-news.com/?p=332115"
+   },
+   "br-0045": {
+    "sec": "발언",
+    "text": "① 원문 : \"Korean investors are a critical force in the U.S. overnight market. They shouldn't face needless data blackouts from a single ATS outage, especially when other venues have available liquidity.\""
+   },
+   "br-0046": {
+    "sec": "발언",
+    "text": "② 번역 : 한국 투자자는 미국 야간 시장의 핵심 세력이다. 다른 시장에 유동성이 있는데도 한 ATS의 장애로 시세가 끊겨서는 안 된다."
+   },
+   "br-0047": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 한국 투자자의 야간 주문. 그래서 한국 증권사에 시세 피드부터 연결"
+   },
+   "br-0048": {
+    "sec": "발언",
+    "text": "![발언 3](../captures/quotes/Bruce_2.png)"
+   },
+   "br-0049": {
+    "sec": "연결",
+    "text": "● 주장 : 한국은 투자, 백업 계약, 시세 피드 순으로 연결"
+   },
+   "br-0050": {
+    "sec": "연결",
+    "text": "● 국내 증권사 연결"
+   },
+   "br-0051": {
+    "sec": "연결",
+    "text": "★ 2025-06 NH투자증권(한국 증권사)이 투자자로 참여"
+   },
+   "br-0052": {
+    "sec": "연결",
+    "text": "★ 2025-11 한국 증권사가 Blue Ocean 외 백업 ATS로 계약"
+   },
+   "br-0053": {
+    "sec": "연결",
+    "text": "★ 2026-09 메리츠증권(한국 증권사)에 시세 피드 연결, 주문 연결 아님"
+   },
+   "br-0054": {
+    "sec": "연결",
+    "text": "★ 2026-10 토스증권(토스 앱 증권 서비스)에 시세 피드 연결"
+   },
+   "br-0055": {
+    "sec": "차이",
+    "text": "● 주장 : 미국은 등록만으로 후발 ATS가 생기고, 한국 ATS는 전문투자자용"
+   },
+   "br-0056": {
+    "sec": "차이",
+    "text": "● 규제"
+   },
+   "br-0057": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 브로커딜러 등록과 Reg ATS로 거래소 등록 면제"
+   },
+   "br-0058": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : NMS 주식 ATS는 Form ATS-N 효력으로 운영"
+   },
+   "br-0059": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 다자간매매체결회사(한국 ATS) 인가는 전문투자자 대상만"
+   },
+   "br-0060": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 개인의 해외 주식 주문은 해외 중개업자 경유"
+   },
+   "br-0061": {
+    "sec": "차이",
+    "text": "● 고객 수요"
+   },
+   "br-0062": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 미국 개인 대상 증권사, 앱의 24시간 주문"
+   },
+   "br-0063": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 국내 투자자 미국 주식 보관 1,636억 달러(2025말)"
+   },
+   "br-0064": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 2025-11 증권사 18곳이 주간거래 재개"
+   },
+   "br-0065": {
+    "sec": "판단",
+    "text": "● 주장 : 주문 채널 주주와 선발 사고가 후발의 점유율을 키움"
+   },
+   "br-0066": {
+    "sec": "판단",
+    "text": "● 핵심 성공요인(KSF)"
+   },
+   "br-0067": {
+    "sec": "판단",
+    "text": "★ 2025-06 주문을 낼 증권사, 앱을 주주로 확보"
+   },
+   "br-0068": {
+    "sec": "판단",
+    "text": "★ 2024년 Blue Ocean 사고 뒤 한국의 백업 수요 흡수"
+   },
+   "br-0069": {
+    "sec": "판단",
+    "text": "● 제약과 리스크"
+   },
+   "br-0070": {
+    "sec": "판단",
+    "text": "★ 한국 연결은 시세 피드와 백업 계약 단계"
+   },
+   "br-0071": {
+    "sec": "판단",
+    "text": "★ 주말 거래는 SEC 검토 대상, 출시 시점 유동적"
+   },
+   "br-0072": {
+    "sec": "판단",
+    "text": "● KDX 시사점(스토리라인 명제별)"
+   },
+   "br-0073": {
+    "sec": "판단",
+    "text": "★ 시장 인프라 Unbundling : 규칙은 Bruce, 기술은 Nasdaq, 청산과 보관은 Apex"
+   },
+   "br-0074": {
+    "sec": "판단",
+    "text": "★ Borderless Investing : 해외 브로커 고객에게 미국 주식 야간 체결"
+   },
+   "br-0075": {
+    "sec": "판단",
+    "text": "★ Coopetition : 경쟁 거래소(Nasdaq)와 주문 채널을 주주로"
+   },
+   "br-0076": {
+    "sec": "판단",
+    "text": "★ 해외 확장 세 질문 : 대체 유동성, 브로커딜러 등록, 체결과 시세 공급(제공 가치, 제도, 역할)"
+   }
+  }
+ },
+ "mo": {
+  "next": 74,
+  "lines": {
+   "mo-0001": {
+    "sec": "개요",
+    "text": "● 주장 : 장외주식 시장 운영사가 야간을 더했으나 점유율 2%대"
+   },
+   "mo-0002": {
+    "sec": "개요",
+    "text": "● 운영사"
+   },
+   "mo-0003": {
+    "sec": "개요",
+    "text": "★ 운영 : OTC Link LLC(OTC Markets 계열 브로커딜러)"
+   },
+   "mo-0004": {
+    "sec": "개요",
+    "text": "★ 2012-03 OTC Link 브로커딜러 등록, FINRA(미국 증권업 자율규제기구) 회원"
+   },
+   "mo-0005": {
+    "sec": "개요",
+    "text": "★ 2024-11 SEC 신고 절차 뒤 MOON ATS 출시"
+   },
+   "mo-0006": {
+    "sec": "개요",
+    "text": "● 모회사"
+   },
+   "mo-0007": {
+    "sec": "개요",
+    "text": "★ OTC Markets Group(미국 장외주식 시장 운영사), OTCQX 상장"
+   },
+   "mo-0008": {
+    "sec": "개요",
+    "text": "★ 2026 Q2 그룹 매출 3,480만 달러, 전년 대비 14% 증가"
+   },
+   "mo-0009": {
+    "sec": "개요",
+    "text": "● 취급 자산"
+   },
+   "mo-0010": {
+    "sec": "개요",
+    "text": "★ 미국 NMS(전국시장체계) 상장 주식"
+   },
+   "mo-0011": {
+    "sec": "개요",
+    "text": "★ 장외주식 야간 거래는 2024-09 OTC Overnight로 별도"
+   },
+   "mo-0012": {
+    "sec": "개요",
+    "text": "● 대상 고객"
+   },
+   "mo-0013": {
+    "sec": "개요",
+    "text": "★ 브로커딜러 구독자"
+   },
+   "mo-0014": {
+    "sec": "개요",
+    "text": "★ 2025-12 Moomoo(아시아 투자 앱)가 24시간 플랫폼에 연결"
+   },
+   "mo-0015": {
+    "sec": "개요",
+    "text": "● 거래시간"
+   },
+   "mo-0016": {
+    "sec": "개요",
+    "text": "★ 일~목 밤 8시~새벽 4시(미국 동부)"
+   },
+   "mo-0017": {
+    "sec": "개요",
+    "text": "● 거래 규모"
+   },
+   "mo-0018": {
+    "sec": "개요",
+    "text": "★ 기준 : FINRA 주간 보고 거래대금 13주 합산, 야간 3사 대비"
+   },
+   "mo-0019": {
+    "sec": "개요",
+    "text": "★ 2026 Q3 58.3억 달러, 3사 중 2.0%(Q2 3.8%)"
+   },
+   "mo-0020": {
+    "sec": "개요",
+    "text": "★ 같은 Q3 Blue Ocean(선발 야간 ATS) 83.0%, Bruce(야간 ATS) 15.0%"
+   },
+   "mo-0021": {
+    "sec": "개요",
+    "text": "★ 2026 Q2 120.9억 달러에서 Q3 절반 아래로 감소"
+   },
+   "mo-0022": {
+    "sec": "개요",
+    "text": "● 차별화 요소"
+   },
+   "mo-0023": {
+    "sec": "개요",
+    "text": "★ 아시아 구간 월~금 오전 8시~오후 4시(UTC+8) 별도"
+   },
+   "mo-0024": {
+    "sec": "개요",
+    "text": "★ 상장주식(MOON)과 장외주식(OTC Overnight) 야간 병행"
+   },
+   "mo-0025": {
+    "sec": "개요",
+    "text": "● 토큰증권 취급 현황"
+   },
+   "mo-0026": {
+    "sec": "개요",
+    "text": "★ 2026-03 실적 발표 기준 취급 전, 아래 발언 3 참조"
+   },
+   "mo-0027": {
+    "sec": "개요",
+    "text": "● 화면"
+   },
+   "mo-0028": {
+    "sec": "개요",
+    "text": "![MOON ATS 안내](../captures/MOON/home.png)"
+   },
+   "mo-0029": {
+    "sec": "발언",
+    "text": "● 주장 : 아시아 개인과 미국 밖 시간대를 보되 토큰은 적법화 뒤"
+   },
+   "mo-0030": {
+    "sec": "발언",
+    "text": "● 발언 1 : 거래시간 확대는 개인투자자의 기회"
+   },
+   "mo-0031": {
+    "sec": "발언",
+    "text": "★ Cromwell Coulson(OTC Markets Group CEO), Moomoo 연결 보도자료, 2025-12-03, https://www.aap.com.au/aapreleases/globenewswire9594942/"
+   },
+   "mo-0032": {
+    "sec": "발언",
+    "text": "① 원문 : \"By integrating MOON ATS into its 24-hour trading platform, Moomoo is empowering more individual investors by broadening global market access. Expanded trading hours enables retail investors, not just professionals, greater opportunities across continents and time zones.\""
+   },
+   "mo-0033": {
+    "sec": "발언",
+    "text": "② 번역 : Moomoo가 24시간 거래 플랫폼에 MOON ATS를 통합해 더 많은 개인투자자에게 글로벌 시장 접근을 넓힌다. 거래시간 확대는 전문가만이 아니라 개인투자자에게도 대륙과 시간대를 넘는 기회를 준다."
+   },
+   "mo-0034": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 아시아 개인투자자. 그래서 아시아 투자 앱에 연결해 야간 주문 확보"
+   },
+   "mo-0035": {
+    "sec": "발언",
+    "text": "![발언 1](../captures/quotes/MOON_1.png)"
+   },
+   "mo-0036": {
+    "sec": "발언",
+    "text": "● 발언 2 : 미국 밖 시간대에 해외 증권을 연다"
+   },
+   "mo-0037": {
+    "sec": "발언",
+    "text": "★ Cromwell Coulson(사장 겸 CEO), 2025 Q4 실적 발표 녹취, 2026-03-05, https://www.otcmarkets.com/files/030526OTCM.pdf"
+   },
+   "mo-0038": {
+    "sec": "발언",
+    "text": "① 원문 : \"Over 12,000 OTC securities trade on our daytime markets and more than 9,000 of those are non-U.S., providing global investors access to these securities during hours more convenient for non-U.S. time zones remains a key part of our vision for overnight trading.\""
+   },
+   "mo-0039": {
+    "sec": "발언",
+    "text": "② 번역 : 주간 시장에서 1만 2천 종 넘는 OTC 증권이 거래되고 그중 9천 종 넘게가 미국 밖 증권이다. 미국 밖 투자자가 편한 시간에 이 증권에 접근하게 하는 것이 야간 거래 비전의 핵심이다."
+   },
+   "mo-0040": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 미국 밖 투자자의 해외 증권 수요. 그래서 장외주식 야간 시장을 병행"
+   },
+   "mo-0041": {
+    "sec": "발언",
+    "text": "![발언 2](../captures/quotes/MOON_2.png)"
+   },
+   "mo-0042": {
+    "sec": "발언",
+    "text": "● 발언 3 : 적법한 토큰증권이 나오면 참여"
+   },
+   "mo-0043": {
+    "sec": "발언",
+    "text": "★ Cromwell Coulson(사장 겸 CEO), 2025 Q4 실적 발표 질의응답, 2026-03-05, https://www.otcmarkets.com/files/030526OTCM.pdf"
+   },
+   "mo-0044": {
+    "sec": "발언",
+    "text": "① 원문 : \"So, there are a lot of tokenized assets that are not securities. There are not many lawful tokenized securities yet. ... We will be there with tokenized securities when they are free trading and lawful.\""
+   },
+   "mo-0045": {
+    "sec": "발언",
+    "text": "② 번역 : 증권이 아닌 토큰화 자산은 많지만 합법적인 토큰화 증권은 아직 많지 않다. 토큰화 증권이 자유롭게 거래되고 적법해지면 우리도 거기에 있을 것이다."
+   },
+   "mo-0046": {
+    "sec": "발언",
+    "text": "③ 해석 : 큰 곳은 적법해진 뒤의 토큰증권 시장. 그래서 지금은 규제 정리를 기다리며 준비"
+   },
+   "mo-0047": {
+    "sec": "발언",
+    "text": "![발언 3](../captures/quotes/MOON_3.png)"
+   },
+   "mo-0048": {
+    "sec": "연결",
+    "text": "● 주장 : 한국과는 Blue Ocean 사고 뒤 백업 ATS로만 연결"
+   },
+   "mo-0049": {
+    "sec": "연결",
+    "text": "● 국내 증권사 연결"
+   },
+   "mo-0050": {
+    "sec": "연결",
+    "text": "★ 2025-11 한국 증권사가 Blue Ocean 외 백업 ATS로 계약"
+   },
+   "mo-0051": {
+    "sec": "연결",
+    "text": "★ 같은 백업 지위를 Bruce와 나눔"
+   },
+   "mo-0052": {
+    "sec": "차이",
+    "text": "● 주장 : 미국은 기존 브로커딜러가 시간대를 더하고, 한국 ATS는 전문투자자용"
+   },
+   "mo-0053": {
+    "sec": "차이",
+    "text": "● 규제"
+   },
+   "mo-0054": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 브로커딜러 등록과 Reg ATS로 거래소 등록 면제"
+   },
+   "mo-0055": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : NMS 주식 ATS는 Form ATS-N 효력으로 운영"
+   },
+   "mo-0056": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 다자간매매체결회사(한국 ATS) 인가는 전문투자자 대상만"
+   },
+   "mo-0057": {
+    "sec": "차이",
+    "text": "★ 한국에서 막히는 지점 : 개인의 해외 주식 주문은 해외 중개업자 경유"
+   },
+   "mo-0058": {
+    "sec": "차이",
+    "text": "● 고객 수요"
+   },
+   "mo-0059": {
+    "sec": "차이",
+    "text": "★ 가능했던 이유 : 아시아 낮 시간의 미국 증권 매매 수요"
+   },
+   "mo-0060": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 국내 투자자 미국 주식 보관 1,636억 달러(2025말)"
+   },
+   "mo-0061": {
+    "sec": "차이",
+    "text": "★ 한국 차이 : 2025-11 증권사 18곳이 주간거래 재개"
+   },
+   "mo-0062": {
+    "sec": "판단",
+    "text": "● 주장 : 기존 구독 기반만으로는 선발 시장의 주문을 못 가져옴"
+   },
+   "mo-0063": {
+    "sec": "판단",
+    "text": "● 핵심 성공요인(KSF)"
+   },
+   "mo-0064": {
+    "sec": "판단",
+    "text": "★ 2012년부터 운영한 브로커딜러 위에 야간 시장 추가"
+   },
+   "mo-0065": {
+    "sec": "판단",
+    "text": "★ 2025-12 Moomoo 연결로 아시아 개인 주문 경로 확보"
+   },
+   "mo-0066": {
+    "sec": "판단",
+    "text": "● 제약과 리스크"
+   },
+   "mo-0067": {
+    "sec": "판단",
+    "text": "★ 2026 점유율 Q2 3.8%에서 Q3 2.0%로 하락"
+   },
+   "mo-0068": {
+    "sec": "판단",
+    "text": "★ 한국 연결은 백업 계약에 그침"
+   },
+   "mo-0069": {
+    "sec": "판단",
+    "text": "● KDX 시사점(스토리라인 명제별)"
+   },
+   "mo-0070": {
+    "sec": "판단",
+    "text": "★ 시장 인프라 Unbundling : 체결만 하고 고객 접점은 구독 브로커와 앱"
+   },
+   "mo-0071": {
+    "sec": "판단",
+    "text": "★ Borderless Investing : 아시아 시간대 구간을 따로 열어 해외 수요"
+   },
+   "mo-0072": {
+    "sec": "판단",
+    "text": "★ Coopetition : 경쟁 시장 사고 때 백업으로 같은 증권사에 공급"
+   },
+   "mo-0073": {
+    "sec": "판단",
+    "text": "★ 해외 확장 세 질문 : 아시아 낮 체결, 브로커딜러 등록, 앱 연결(제공 가치, 제도, 역할)"
+   }
+  }
+ }
+}
