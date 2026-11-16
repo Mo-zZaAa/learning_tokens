@@ -1,0 +1,64 @@
+---
+url: https://blog.kraken.com/news/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release
+title: Kraken Acquires Crypto Derivatives Trading Platform and Index Provider, Crypto Facilities, in Nine-figure Deal (Official Press Release) - Kraken Blog Kraken Blog
+description: 
+fetched: 2026-11-16
+method: static
+plan: skim
+---
+
+February 4, 2019
+ | 
+[News](https://blog.kraken.com/category/news)
+
+# Kraken Acquires Crypto Derivatives Trading Platform and Index Provider, Crypto Facilities, in Nine-figure Deal (Official Press Release)
+
+[그림: crypto futures acquisition]
+
+**SAN FRANCISCO, February 4th, 2019** – Kraken, consistently rated the most secure digital asset exchange and leader in euro volume since 2013, today announced the acquisition of Crypto Facilities, a world-leading, regulated cryptocurrency trading platform and index provider.  The combination creates a global leader in cryptocurrency spot and futures trading.
+
+London-based Crypto Facilities offers individuals and institutions transparent, secure, 24/7 trading on a range of cryptocurrency derivatives.  A pioneer in the industry, the firm was the first regulated entity to list [futures on Bitcoin](https://www.kraken.com/en-us/features/futures), Ethereum, Ripple XRP, Litecoin and Bitcoin Cash. The firm is also the leading [cryptocurrency index](https://www.kraken.com/en-us/features/indices) provider, calculating the CME CF Bitcoin Reference Rate that powers the CME Group’s Bitcoin futures.  Users value the high integrity, low latency marketplace that Crypto Facilities provides under the regulatory supervision of the UK’s Financial Conduct Authority.
+
+The acquisition of Crypto Facilities reinforces Kraken’s commitment to meeting client demand for innovative products and services that complement its core spot exchange and white-glove [OTC trading](https://www.kraken.com/en-us/features/otc-exchange) service.  Eligible Kraken clients will gain access to futures on six cryptocurrency pairs, providing a highly efficient way to trade and hedge cryptocurrency in any market environment.  
+
+Trusted by more than 4 million clients in over 190 countries, including professionals, [institutions](https://www.kraken.com/en-us/institutions) and authorities, Kraken delivers seamless trading in 20 digital assets and 70+ currency pairs, and offers the industry’s most popular advanced charting, trading and portfolio tracking tools through Cryptowatch.
+
+“I’m thrilled to welcome the Crypto Facilities team into the Kraken family,” **said Kraken CEO Jesse Powell**.  “We are excited to introduce eligible clients to these industry leading futures and index products.  Over the coming months, our teams will continue to enhance and expand these offerings. We’ve got great stuff in store for traders and institutional clients in 2019.”
+
+**Timo Schlaefer, Crypto Facilities CEO and Founder, said**: “It has been our mission to build the most sophisticated, powerful and user friendly cryptocurrency trading platform.  Teaming up with Kraken allows us to innovate the next generation of products and tremendously boosts the value we are able to provide to our clients.”
+
+Crypto Facilities will remain London-based, benefiting from the regulatory oversight of the Financial Conduct Authority, one of the world’s most forward looking and innovation-focused regulators, and reflecting Kraken’s commitment to the UK as the leading financial and cryptocurrency hub in Europe.
+
+The nine-figure deal is Kraken’s largest acquisition to date and one of the largest the industry has seen.  Kraken’s previous acquisitions include major Bitcoin exchanges Coinsetter, Cavirtex and CleverCoin; the award-winning wallet funding service Glidera; and the popular multi-exchange charting, trading and portfolio tracking platform [Cryptowatch](https://www.kraken.com/en-us/cryptowatch).
+
+**About Kraken**
+
+Based in San Francisco, Kraken is the world’s largest global [bitcoin exchange](https://www.kraken.com/en-us) in euro volume and liquidity. Kraken’s clients also trade US dollars, Canadian dollars, British pounds, Japanese yen and other digital currencies on a platform consistently rated the best and most secure bitcoin exchange by independent news media.
+
+Founded in 2011, Kraken was the first bitcoin exchange to have its market data displayed on the Bloomberg Terminal, the first to pass a cryptographically verifiable proof-of-reserves audit and one of the first exchanges to offer leveraged bitcoin margin trading.
+
+Kraken is trusted by over 4 million traders, institutions and authorities across the world.  In 2018 the exchange processed nearly $90 billion in volume while its white-glove OTC desk handled over $2 billion in trades.  Since 2016, Kraken has acquired major bitcoin exchanges Coinsetter, Cavirtex and CleverCoin; the award-winning wallet-funding service Glidera; and the popular multi-exchange charting, trading and portfolio tracking platform Cryptowatch, expanding its global reach.
+
+Kraken is backed by investors including Hummingbird Ventures, Blockchain Capital and Digital Currency Group, among others.  For more information about Kraken, please visit [https://www.kraken.com](https://www.kraken.com/).
+
+**About Crypto Facilities**
+
+Crypto Facilities is a world-leading cryptocurrency trading platform, offering individuals and institutions regulated, transparent and secure derivatives trading 24/7/365.  The firm was the first regulated entity to offer  Ethereum, Ripple XRP, Litecoin, Bitcoin Cash and [Bitcoin futures](https://www.kraken.com/en-us/features/futures). The firm is also the leading cryptocurrency index provider, calculating and administering the CME CF Bitcoin Reference Rate powering the CME Group’s Bitcoin futures.  Founded in 2015 and headquartered in London, Crypto Facilities Ltd is authorised and regulated by the UK’s Financial Conduct Authority (FRN: 757895). For more information on Crypto Facilities, please visit [https://www.cryptofacilities.com](https://www.cryptofacilities.com/).
+
+**Contact**:  
+press@kraken.com
+
+### Share this:
+
+* [Share on X (Opens in new window)
+  X](https://blog.kraken.com/news/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release?share=twitter)
+* [Share on LinkedIn (Opens in new window)
+  LinkedIn](https://blog.kraken.com/news/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release?share=linkedin)
+* [Share on Facebook (Opens in new window)
+  Facebook](https://blog.kraken.com/news/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release?share=facebook)
+
+## 구조화 데이터(JSON-LD)
+
+```json
+{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release#article","isPartOf":{"@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release"},"author":{"name":"krakenfx","@id":"https:\/\/blog.kraken.com\/#\/schema\/person\/461b7fbe1832d96cab8eb182c6642a21"},"headline":"Kraken Acquires Crypto Derivatives Trading Platform and Index Provider, Crypto Facilities, in Nine-figure Deal (Official Press Release)","datePublished":"2019-02-04T14:01:44+00:00","dateModified":"2023-05-09T11:54:25+00:00","mainEntityOfPage":{"@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release"},"wordCount":731,"publisher":{"@id":"https:\/\/blog.kraken.com\/#organization"},"image":{"@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release#primaryimage"},"thumbnailUrl":"https:\/\/i0.wp.com\/blog.kraken.com\/wp-content\/uploads\/2019\/02\/Blog-Futures-v2-2.png?fit=950%2C474&ssl=1","articleSection":["News"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release","url":"https:\/\/blog.kraken.com\/news\/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release","name":"Kraken Acquires Crypto Derivatives Trading Platform and Index Provider, Crypto Facilities, in Nine-figure Deal (Official Press Release) - Kraken Blog","isPartOf":{"@id":"https:\/\/blog.kraken.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release#primaryimage"},"image":{"@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release#primaryimage"},"thumbnailUrl":"https:\/\/i0.wp.com\/blog.kraken.com\/wp-content\/uploads\/2019\/02\/Blog-Futures-v2-2.png?fit=950%2C474&ssl=1","datePublished":"2019-02-04T14:01:44+00:00","dateModified":"2023-05-09T11:54:25+00:00","breadcrumb":{"@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/blog.kraken.com\/news\/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release#primaryimage","url":"https:\/\/i0.wp.com\/blog.kraken.com\/wp-content\/uploads\/2019\/02\/Blog-Futures-v2-2.png?fit=950%2C474&ssl=1","contentUrl":"https:\/\/i0.wp.com\/blog.kraken.com\/wp-content\/uploads\/2019\/02\/Blog-Futures-v2-2.png?fit=950%2C474&ssl=1","width":950,"height":474},{"@type":"BreadcrumbList","@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/blog.kraken.com\/"},{"@type":"ListItem","position":2,"name":"Kraken Acquires Crypto Derivatives Trading Platform and Index Provider, Crypto Facilities, in Nine-figure Deal (Official Press Release)"}]},{"@type":"WebSite","@id":"https:\/\/blog.kraken.com\/#website","url":"https:\/\/blog.kraken.com\/","name":"Kraken Blog","description":"","publisher":{"@id":"https:\/\/blog.kraken.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/blog.kraken.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/blog.kraken.com\/#organization","name":"Kraken Blog","url":"https:\/\/blog.kraken.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/blog.kraken.com\/#\/schema\/logo\/image\/","url":"https:\/\/i0.wp.com\/blog.kraken.com\/wp-content\/uploads\/2024\/06\/New-Lockups%402x.png?fit=214%2C64&ssl=1","contentUrl":"https:\/\/i0.wp.com\/blog.kraken.com\/wp-content\/uploads\/2024\/06\/New-Lockups%402x.png?fit=214%2C64&ssl=1","width":214,"height":64,"caption":"Kraken Blog"},"image":{"@id":"https:\/\/blog.kraken.com\/#\/schema\/logo\/image\/"}},{"@type":"Person","@id":"https:\/\/blog.kraken.com\/#\/schema\/person\/461b7fbe1832d96cab8eb182c6642a21","name":"krakenfx","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/secure.gravatar.com\/avatar\/04487d6556c0179da80ad38a8388130aae1fbdf092aac5bdc95f97ca322e6b7b?s=96&d=identicon&r=g","url":"https:\/\/secure.gravatar.com\/avatar\/04487d6556c0179da80ad38a8388130aae1fbdf092aac5bdc95f97ca322e6b7b?s=96&d=identicon&r=g","contentUrl":"https:\/\/secure.gravatar.com\/avatar\/04487d6556c0179da80ad38a8388130aae1fbdf092aac5bdc95f97ca322e6b7b?s=96&d=identicon&r=g","caption":"krakenfx"},"sameAs":["https:\/\/blog.kraken.com"],"url":"https:\/\/blog.kraken.com\/author\/krakenfx"}]}
+```

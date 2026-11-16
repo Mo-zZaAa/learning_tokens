@@ -1,7 +1,7 @@
 # 읽기 묶음: blog.kraken.com / category (1/1)
 
 
-## 목록만 둔 URL 66건 (inventory.csv에서 plan=list)
+## 목록만 둔 URL 67건 (inventory.csv에서 plan=list)
 - https://blog.kraken.com/category/product/360
 - https://blog.kraken.com/category/product/api
 - https://blog.kraken.com/category/product/asset-listings

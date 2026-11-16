@@ -1,0 +1,49 @@
+---
+url: https://blog.kraken.com/news/kraken-acquires-dutch-bitcoin-exchange-clevercoin
+title: Kraken Acquires Dutch Bitcoin Exchange CleverCoin - Kraken Blog Kraken Blog
+description: 
+fetched: 2026-11-16
+method: static
+plan: skim
+---
+
+June 28, 2016
+ | 
+[News](https://blog.kraken.com/category/news)
+
+# Kraken Acquires Dutch Bitcoin Exchange CleverCoin
+
+[그림: image] 
+
+Less than six months after acquiring both Coinsetter and Cavirtex in a landmark deal, we are pleased today to announce the acquisition of CleverCoin, one of the first Netherlands-based bitcoin exchanges. The addition of CleverCoin cements Kraken’s position as the undisputed leading exchange in Europe with the arrival of thousands of new clients, while other geographic markets experience record growth. Terms of the deal were not announced.
+
+In the announcement, CEO Jesse Powell described plans to fold the CleverCoin brand into Kraken’s global umbrella while providing existing clients with seamless access to Kraken’s unparalleled suite of features. CleverCoin clients will be automatically transferred to Kraken’s platform on June 29, 2016. Once the transfer is completed, account holders will be directed to [www.kraken.com](https://www.kraken.com/) to login, update account information, and can begin trading immediately.
+
+Founded in 2013 as one of the first bitcoin exchange in the Netherlands, Eindhoven-based CleverCoin is a graduate of Boost VC, the high profile accelerator backed by venture capitalists Tim and Adam Draper. CleverCoin was one of the earliest exchanges in Western Europe to focus on compliance, offer leveraged trading, and establish regulated banking partnerships. After successfully selling the most prominent Dutch bitcoin exchange, CleverCoin’s founders have decided to focus on providing IT business solutions.
+
+CTO and Co-Founder Karsten Nilsen said, “Kraken is the ideal custodian for CleverCoin going forward. They are, by every measure, the largest bitcoin and digital asset exchange in Europe and our core beliefs are perfectly aligned. As of today, CleverCoin clients will have seamless access to all the features and benefits of Kraken’s global brand, including the ability to trade many of the most popular currency pairs, the latest technology, the most advanced security, and faster Single Euro Payments Area (SEPA) transfers.”
+
+Former CEO and Co-founder Christian de Kok added, “We started CleverCoin to provide access to bitcoin to traders throughout Europe, and today we could not be prouder of our accomplishments. Since 2013, we’ve helped tens of thousands of individuals trade bitcoin and have access to the fastest SEPA payments of any crypto exchange, rivaled only by Kraken. We are excited to hand the torch to our partners at Kraken.”
+
+Reflecting on today’s news, Kraken CEO Jesse Powell said, “In record time, the digital currency industry has matured. Our M&A plans have been accelerated by encouraging news throughout the industry. Prices are rising, the regulatory picture is rapidly clarifying, and clients from around the globe are joining us in record numbers. The acquisition of CleverCoin will empower Kraken with greater liquidity and a significantly expanded customer base in Europe, our flagship market.”
+
+Since the majority of CleverCoin clients are in European countries, the acquisition is expected to have the greatest impact on Kraken’s euro trading pairs. Average weekly volume in these pairs has already been growing at a rapid rate since the third week of April, with an over 4x increase in the bitcoin-euro (XBT/EUR) and ether-euro (ETH/EUR) pairs. The ether-bitcoin pair (ETH/XBT), has seen a massive 9x increase.
+
+In the weeks following Kraken’s acquisition of prominent bitcoin exchanges Coinsetter and Cavirtex on January 19th, Kraken saw remarkable gains in average weekly trade volumes, including XBT/USD (13x increase), ETH/USD (30x increase), XBT/CAD (50x increase), and ETH/CAD (6x increase).
+
+After acquiring Coinsetter and Cavirtex, in February, Kraken announced that SBI Investment, an influential Japanese venture fund, would lead a Series B round of financing. In April, Kraken announced an additional, significant investment from leading Japanese FX brokerage Money Partners Group to their Series B, and in May was selected by CME Group, one of the largest options and futures exchanges, to be a key supplier of market data for new reference and real-time bitcoin price indices. One of the first major exchanges to embrace Ethereum, Kraken last month unveiled the first-ever Ether Dark Pool and the addition of leveraged trading for ether with multiple currency pairs.
+
+### Share this:
+
+* [Share on X (Opens in new window)
+  X](https://blog.kraken.com/news/kraken-acquires-dutch-bitcoin-exchange-clevercoin?share=twitter)
+* [Share on LinkedIn (Opens in new window)
+  LinkedIn](https://blog.kraken.com/news/kraken-acquires-dutch-bitcoin-exchange-clevercoin?share=linkedin)
+* [Share on Facebook (Opens in new window)
+  Facebook](https://blog.kraken.com/news/kraken-acquires-dutch-bitcoin-exchange-clevercoin?share=facebook)
+
+## 구조화 데이터(JSON-LD)
+
+```json
+{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-dutch-bitcoin-exchange-clevercoin#article","isPartOf":{"@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-dutch-bitcoin-exchange-clevercoin"},"author":{"name":"krakenfx","@id":"https:\/\/blog.kraken.com\/#\/schema\/person\/461b7fbe1832d96cab8eb182c6642a21"},"headline":"Kraken Acquires Dutch Bitcoin Exchange CleverCoin","datePublished":"2016-06-28T00:06:04+00:00","dateModified":"2023-05-09T11:54:25+00:00","mainEntityOfPage":{"@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-dutch-bitcoin-exchange-clevercoin"},"wordCount":666,"publisher":{"@id":"https:\/\/blog.kraken.com\/#organization"},"image":{"@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-dutch-bitcoin-exchange-clevercoin#primaryimage"},"thumbnailUrl":"https:\/\/68.media.tumblr.com\/496261b4ef82715f5e31be7892b4e602\/tumblr_inline_o9gq57r6as1t0tbub_540.jpg","keywords":["acquisitions","bitcoin","BTC"],"articleSection":["News"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-dutch-bitcoin-exchange-clevercoin","url":"https:\/\/blog.kraken.com\/news\/kraken-acquires-dutch-bitcoin-exchange-clevercoin","name":"Kraken Acquires Dutch Bitcoin Exchange CleverCoin - Kraken Blog","isPartOf":{"@id":"https:\/\/blog.kraken.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-dutch-bitcoin-exchange-clevercoin#primaryimage"},"image":{"@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-dutch-bitcoin-exchange-clevercoin#primaryimage"},"thumbnailUrl":"https:\/\/68.media.tumblr.com\/496261b4ef82715f5e31be7892b4e602\/tumblr_inline_o9gq57r6as1t0tbub_540.jpg","datePublished":"2016-06-28T00:06:04+00:00","dateModified":"2023-05-09T11:54:25+00:00","breadcrumb":{"@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-dutch-bitcoin-exchange-clevercoin#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/blog.kraken.com\/news\/kraken-acquires-dutch-bitcoin-exchange-clevercoin"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-dutch-bitcoin-exchange-clevercoin#primaryimage","url":"https:\/\/68.media.tumblr.com\/496261b4ef82715f5e31be7892b4e602\/tumblr_inline_o9gq57r6as1t0tbub_540.jpg","contentUrl":"https:\/\/68.media.tumblr.com\/496261b4ef82715f5e31be7892b4e602\/tumblr_inline_o9gq57r6as1t0tbub_540.jpg"},{"@type":"BreadcrumbList","@id":"https:\/\/blog.kraken.com\/news\/kraken-acquires-dutch-bitcoin-exchange-clevercoin#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/blog.kraken.com\/"},{"@type":"ListItem","position":2,"name":"Kraken Acquires Dutch Bitcoin Exchange CleverCoin"}]},{"@type":"WebSite","@id":"https:\/\/blog.kraken.com\/#website","url":"https:\/\/blog.kraken.com\/","name":"Kraken Blog","description":"","publisher":{"@id":"https:\/\/blog.kraken.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/blog.kraken.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/blog.kraken.com\/#organization","name":"Kraken Blog","url":"https:\/\/blog.kraken.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/blog.kraken.com\/#\/schema\/logo\/image\/","url":"https:\/\/i0.wp.com\/blog.kraken.com\/wp-content\/uploads\/2024\/06\/New-Lockups%402x.png?fit=214%2C64&ssl=1","contentUrl":"https:\/\/i0.wp.com\/blog.kraken.com\/wp-content\/uploads\/2024\/06\/New-Lockups%402x.png?fit=214%2C64&ssl=1","width":214,"height":64,"caption":"Kraken Blog"},"image":{"@id":"https:\/\/blog.kraken.com\/#\/schema\/logo\/image\/"}},{"@type":"Person","@id":"https:\/\/blog.kraken.com\/#\/schema\/person\/461b7fbe1832d96cab8eb182c6642a21","name":"krakenfx","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/secure.gravatar.com\/avatar\/04487d6556c0179da80ad38a8388130aae1fbdf092aac5bdc95f97ca322e6b7b?s=96&d=identicon&r=g","url":"https:\/\/secure.gravatar.com\/avatar\/04487d6556c0179da80ad38a8388130aae1fbdf092aac5bdc95f97ca322e6b7b?s=96&d=identicon&r=g","contentUrl":"https:\/\/secure.gravatar.com\/avatar\/04487d6556c0179da80ad38a8388130aae1fbdf092aac5bdc95f97ca322e6b7b?s=96&d=identicon&r=g","caption":"krakenfx"},"sameAs":["https:\/\/blog.kraken.com"],"url":"https:\/\/blog.kraken.com\/author\/krakenfx"}]}
+```

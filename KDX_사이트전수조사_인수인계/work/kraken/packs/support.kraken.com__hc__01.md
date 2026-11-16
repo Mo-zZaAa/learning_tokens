@@ -9,7 +9,7 @@
 | https://support.kraken.com/hc/en-us/articles/where-is-kraken-licensed-or-regulated |  |  |
 
 
-## 목록만 둔 URL 13건 (inventory.csv에서 plan=list)
+## 목록만 둔 URL 16건 (inventory.csv에서 plan=list)
 - https://support.kraken.com/hc/en-us
 - https://support.kraken.com/hc/en-us/articles/4402532394260-Client-eligibility-for-margin-trading-services-
 - https://support.kraken.com/hc/forms/37016855737620
@@ -23,4 +23,6 @@
 - https://support.kraken.com/hc/en-us/articles/115004862007-Pro-accounts-for-Corporations-and-Institutions
 - https://support.kraken.com/hc/en-us/articles/360021967711
 - https://support.kraken.com/hc/en-us/articles/360037682011-Overview-of-On-chain-staking-on-Kraken
+- https://support.kraken.com/hc/en-us/articles/360027545252-Kraken-Affiliate-program
+- https://support.kraken.com/hc/en-us/articles/360022618012-how-to-unlock-futures-trading
 - ...

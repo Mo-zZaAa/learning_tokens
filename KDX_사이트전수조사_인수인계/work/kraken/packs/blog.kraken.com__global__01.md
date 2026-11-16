@@ -18,8 +18,8 @@
 | https://blog.kraken.com/global/a-krak-virtualis-iban |  |  |
 | https://blog.kraken.com/global/krak-ievies-virtualos-iban |  |  |
 | https://blog.kraken.com/global/krak-greece-iban |  |  |
-| https://blog.kraken.com/global/reap-acquisition-cn |  |  |
-| https://blog.kraken.com/global/payward-kraken-nasdaq |  |  |
+| https://blog.kraken.com/global/reap-acquisition-cn | Payward 宣布收购 Reap，扩展 B2B 全球支付基础设施本 - Kraken Blog Kraken Blog | May 7, 2026 [Kraken Global](https://blog.kraken.com/category/global) # Payward 宣布收购 Reap，扩展 B2B 全球支付基础设施本 本次收购将解锁全球受监管的发卡及稳定币支付基础设施 ### Share this: * [Share on X (Opens in new window) X](https://blog.kraken.com/global/reap-acquisition-cn?sh |
+| https://blog.kraken.com/global/payward-kraken-nasdaq | Payward співпрацює з Nasdaq для розробки шлюзу на базі xStocks, який з’єднує токенізовані фондові ринки з дозволом та без нього - Kraken Blog Kraken Blog | May 14, 2026 [Kraken Global](https://blog.kraken.com/category/global) # Payward співпрацює з Nasdaq для розробки шлюзу на базі xStocks, який з’єднує токенізовані фондові ринки з дозволом та без нього xStocks забезпечить роботу рівня інфраст |
 | https://blog.kraken.com/global/romania-krak-salary-match |  |  |
 | https://blog.kraken.com/global/krak-iban-malta |  |  |
 | https://blog.kraken.com/global/krak-iban-finland |  |  |
@@ -40,7 +40,7 @@
 | https://blog.kraken.com/global/krak-iban-sweden |  |  |
 
 
-## 목록만 둔 URL 65건 (inventory.csv에서 plan=list)
+## 목록만 둔 URL 71건 (inventory.csv에서 plan=list)
 - https://blog.kraken.com/global/kraken-behaalt-eu-mifid
 - https://blog.kraken.com/global/kraken-versterkt-europese-activiteiten-met-overname-bcm
 - https://blog.kraken.com/global/kraken-publiceert-bewijs-van-reserves-voor-2024

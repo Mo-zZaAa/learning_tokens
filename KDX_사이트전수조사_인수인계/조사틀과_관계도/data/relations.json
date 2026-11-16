@@ -1,0 +1,752 @@
+{
+ "TYPES": {
+  "acq": {
+   "k": "인수",
+   "arrow": true
+  },
+  "inv": {
+   "k": "투자",
+   "arrow": true
+  },
+  "ally": {
+   "k": "제휴와 협약",
+   "arrow": false
+  },
+  "infra": {
+   "k": "보관과 청산 제공",
+   "arrow": true
+  },
+  "supply": {
+   "k": "상품 공급",
+   "arrow": true
+  },
+  "rival": {
+   "k": "경쟁",
+   "arrow": false
+  },
+  "claim": {
+   "k": "회사가 내세운 협력",
+   "arrow": false
+  }
+ },
+ "LANES": [
+  [
+   100,
+   "기존 금융 인프라와 운용사"
+  ],
+  [
+   345,
+   "토큰화 전문 회사"
+  ],
+  [
+   590,
+   "뒤에서 받치는 회사"
+  ],
+  [
+   835,
+   "투자자 접점을 가진 회사"
+  ],
+  [
+   1080,
+   "Payward가 인수한 회사"
+  ]
+ ],
+ "SRC": {
+  "k_nasdaq": [
+   "Kraken 블로그 2026.3.9",
+   "https://blog.kraken.com/news/payward-partners-with-nasdaq",
+   "공식"
+  ],
+  "k_backed": [
+   "Kraken 블로그 2025.12.2",
+   "https://blog.kraken.com/news/backed-acquisition",
+   "공식"
+  ],
+  "k_ninja": [
+   "Kraken 블로그 2025.3.20",
+   "https://blog.kraken.com/news/kraken-to-acquire-ninjatrader",
+   "공식"
+  ],
+  "k_breakout": [
+   "Kraken 블로그 2025.9.4",
+   "https://blog.kraken.com/news/kraken-acquires-breakout",
+   "공식"
+  ],
+  "k_small": [
+   "Kraken 블로그 2025.10.16",
+   "https://blog.kraken.com/news/acquires-small-exchange",
+   "공식"
+  ],
+  "k_magna": [
+   "Kraken 블로그 2026.2.18",
+   "https://blog.kraken.com/news/payward-acquires-magna",
+   "공식"
+  ],
+  "k_bitnomial": [
+   "Kraken 블로그 2026.4.17",
+   "https://blog.kraken.com/news/payward-acquires-bitnomial",
+   "공식"
+  ],
+  "k_reap": [
+   "Kraken 블로그 2026.5.7",
+   "https://blog.kraken.com/global/reap-acquisition-cn",
+   "공식"
+  ],
+  "d_kakao": [
+   "Dinari 블로그 2026.9.30",
+   "https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities",
+   "공식"
+  ],
+  "d_tzero": [
+   "Dinari 블로그 2026.7.8",
+   "https://dinari.com/blog/dinari-and-tzero-partner",
+   "공식"
+  ],
+  "d_exempt": [
+   "Dinari 블로그 2026.9.18",
+   "https://dinari.com/blog/the-secs-innovation-exemption-advances-the-market-for-tokenized-equities",
+   "공식"
+  ],
+  "d_biz": [
+   "Dinari 사업 안내",
+   "https://dinari.com/business",
+   "공식"
+  ],
+  "o_legal": [
+   "Ondo 문서, 법적 구조",
+   "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory",
+   "공식"
+  ],
+  "o_elig": [
+   "Ondo 문서, 이용 자격",
+   "https://docs.ondo.finance/ondo-stocks/eligibility",
+   "공식"
+  ],
+  "o_addr": [
+   "Ondo 문서, 주소 목록",
+   "https://docs.ondo.finance/addresses",
+   "공식"
+  ],
+  "o_buidl": [
+   "Ondo 블로그, BUIDL 활용",
+   "https://ondo.finance/blog/building-on-buidl-how-ondo-leverages-blackrocks-tokenized-treasuries",
+   "공식"
+  ],
+  "o_recap": [
+   "Ondo 블로그, 2025 정리",
+   "https://ondo.finance/blog/2025-recap",
+   "공식"
+  ],
+  "o_vc": [
+   "Ondo 블로그 2024.2",
+   "https://ondo.finance/blog/ondo-finance-expands-risk-and-compliance-team-adding-additional-goldman-alum",
+   "공식"
+  ],
+  "o_stocks": [
+   "Ondo 문서, 주식 토큰",
+   "https://docs.ondo.finance/ondo-stocks",
+   "공식"
+  ],
+  "base": [
+   "Base 주식 안내",
+   "https://www.base.org/stocks",
+   "공식"
+  ],
+  "n_sbs": [
+   "SBS Biz 2026.9.29",
+   "https://biz.sbs.co.kr/amp/article/20000337347",
+   "보도"
+  ],
+  "n_econ": [
+   "이코노미스트 2026.9.29",
+   "https://economist.co.kr/article/view/ecn202609290038",
+   "보도"
+  ],
+  "n_bin": [
+   "The Block 2026.2.24",
+   "https://www.theblock.co/post/391030/binance-brings-back-tokenized-stocks-via-ondo-finance-partnership",
+   "보도"
+  ],
+  "n_bin21": [
+   "The Block 2021.7.16",
+   "https://www.theblock.co/post/111661/binance-ceases-stock-tokens-trading",
+   "보도"
+  ],
+  "n_bw": [
+   "Blockworks 2025.9",
+   "https://blockworks.co/news/tokenized-stocks-on-ethereum",
+   "보도"
+  ],
+  "n_ct": [
+   "Cointelegraph 2026.8.24",
+   "https://cointelegraph.com/news/coinbase-taps-chainlink-for-tokenized-stock-data-on-base",
+   "보도"
+  ],
+  "n_cn": [
+   "crypto.news",
+   "https://crypto.news/coinbase-adds-six-tokenized-stocks-after-228m-debut/",
+   "보도"
+  ],
+  "n_llama": [
+   "DefiLlama, COINon",
+   "https://defillama.com/rwa/asset/COINon",
+   "보도"
+  ],
+  "pack": [
+   "프로젝트 문서 KDX 7-9장 핸드오프 v3",
+   "",
+   "리서치팩"
+  ],
+  "k_xstocks": [
+   "Kraken xStocks 안내",
+   "https://www.kraken.com/xstocks",
+   "공식"
+  ],
+  "d_bd": [
+   "Dinari 미국 고지 사항",
+   "https://dinari.com/us/disclosures",
+   "공식"
+  ],
+  "sec_ta": [
+   "SEC 명의개서대리인 통계",
+   "https://www.sec.gov/data-research/statistics-data-visualizations/transfer-agents",
+   "공식"
+  ],
+  "finra": [
+   "FINRA 가입 심사 안내",
+   "https://www.finra.org/industry/after-you-apply",
+   "공식"
+  ],
+  "n_tarule": [
+   "Global FinReg Blog, SEC 규칙 개정 제안",
+   "https://www.globalfinregblog.com/?p=4341",
+   "보도"
+  ],
+  "n_mt": [
+   "머니투데이 2026.9.29",
+   "https://www.mt.co.kr/stock/2026/09/29/2026092916273597892",
+   "보도"
+  ],
+  "n_gen": [
+   "Genfinity 2026.8.25",
+   "https://genfinity.io/2026/08/25/coinbase-tokenized-stocks-live-on-base",
+   "보도"
+  ]
+ },
+ "N": [
+  [
+   "nasdaq",
+   "Nasdaq",
+   "미국 증권거래소",
+   0,
+   96,
+   0,
+   [
+    "자기 방식의 주식 토큰 설계를 2027 상반기 가동 예정으로 발표(Payward와 공동 발표)|k_nasdaq",
+    "자사 상장 주식을 SEC 혁신 면제 토큰 거래시설에서 제외한다는 방침|pack"
+   ]
+  ],
+  [
+   "ice",
+   "ICE",
+   "NYSE의 모회사",
+   0,
+   176,
+   0,
+   []
+  ],
+  [
+   "blackrock",
+   "BlackRock",
+   "세계 최대 자산운용사",
+   0,
+   266,
+   0,
+   [
+    "토큰 펀드 BUIDL을 2024.3 출시|o_buidl"
+   ]
+  ],
+  [
+   "tradfi",
+   "대형 금융사 여럿",
+   "Fidelity, Franklin 등",
+   0,
+   346,
+   0,
+   [
+    "Ondo가 이름을 든 곳: BlackRock, WisdomTree, DTCC, Fidelity, Franklin Templeton, BNY, State Street 등|o_recap"
+   ]
+  ],
+  [
+   "securitize",
+   "Securitize",
+   "펀드 토큰화 회사",
+   1,
+   96,
+   0,
+   [
+    "운용사 펀드를 토큰으로 만들어 주는 회사",
+    "증권사, 대체거래시스템, 명의개서대리인을 모두 보유. 명의개서대리인 등록 2019.7, 증권사 인수 2020.11|pack",
+    "팀 안에서는 건우쌤 담당"
+   ]
+  ],
+  [
+   "ondo",
+   "Ondo",
+   "국채와 주식 토큰 발행",
+   1,
+   250,
+   1,
+   [
+    "주식 토큰은 영국령 버진아일랜드 법인이 발행하는 채무증권. 토큰 보유자는 기초 주식의 주주명부에 오르지 않음|o_legal",
+    "미국 거주자는 살 수 없음|o_elig",
+    "미국 밖 판매 시작 2025.9, 미국 안 토큰 업무 시작 2026.7|pack"
+   ]
+  ],
+  [
+   "oasis",
+   "Oasis Pro",
+   "미국 인가 3종 보유",
+   1,
+   330,
+   0,
+   [
+    "증권사, 대체거래시스템, 명의개서대리인 인가를 가진 회사|o_recap"
+   ]
+  ],
+  [
+   "dinari",
+   "Dinari",
+   "주식 토큰 발행과 공급",
+   1,
+   440,
+   1,
+   [
+    "SEC 등록 명의개서대리인. 자회사 Dinari Securities는 등록 증권사|d_exempt",
+    "2026년에 미국 투자자에게 700종 넘는 주식 토큰 판매 시작|d_exempt",
+    "파트너가 증권사 인가 없이 토큰 주식을 팔 수 있게 API로 공급|d_biz"
+   ]
+  ],
+  [
+   "tzero",
+   "tZERO",
+   "토큰 증권 장터",
+   1,
+   520,
+   0,
+   [
+    "토큰 증권을 사고파는 대체거래시스템 운영사",
+    "팀 안에서는 건우쌤 담당"
+   ]
+  ],
+  [
+   "backed",
+   "Backed",
+   "xStocks 발행사",
+   1,
+   610,
+   1,
+   [
+    "Kraken이 파는 주식 토큰 xStocks를 발행하던 회사|k_backed"
+   ]
+  ],
+  [
+   "apex",
+   "Apex",
+   "청산 대행 증권사",
+   2,
+   120,
+   0,
+   []
+  ],
+  [
+   "alpaca",
+   "Alpaca",
+   "보관과 청산 대행 증권사",
+   2,
+   300,
+   0,
+   [
+    "미국 주식 토큰 밑 실물의 약 94%를 보관한다는 회사 주장|pack"
+   ]
+  ],
+  [
+   "circle",
+   "Circle",
+   "USDC 발행사",
+   2,
+   440,
+   0,
+   []
+  ],
+  [
+   "okx",
+   "OKX",
+   "가상자산 거래소",
+   3,
+   96,
+   0,
+   []
+  ],
+  [
+   "coinbase",
+   "Coinbase",
+   "미국 상장 가상자산 거래소",
+   3,
+   200,
+   1,
+   [
+    "2026.8.24 자체 블록체인 Base에서 주식 토큰 출시. 미국 밖 투자자 대상|n_ct",
+    "발행은 아부다비 금융특구 법인, 실물은 Alpaca 보관|base",
+    "미국 고객의 일반 주식 거래는 별도 증권사 법인으로 운영|n_cn"
+   ]
+  ],
+  [
+   "binance",
+   "Binance",
+   "세계 최대 가상자산 거래소",
+   3,
+   300,
+   0,
+   [
+    "2021.4 주식 토큰을 냈다가 규제 당국 경고 뒤 2021.7 중단|n_bin21",
+    "2026.2 Ondo 상품으로 다시 시작. 미국 제외|n_bin"
+   ]
+  ],
+  [
+   "trust",
+   "Trust Wallet",
+   "가상자산 지갑 앱",
+   3,
+   380,
+   0,
+   []
+  ],
+  [
+   "payward",
+   "Payward (Kraken)",
+   "Kraken의 모회사",
+   3,
+   560,
+   1,
+   [
+    "미국 안: 주문 접수만 직접 하고 체결, 청산, 보관은 Alpaca에 맡김|pack",
+    "미국 밖: 주식 토큰 xStocks 판매. 누적 거래 250억 달러 초과, 보유자 8.5만 명 초과(2026.3 회사 발표)|k_nasdaq"
+   ]
+  ],
+  [
+   "ninja",
+   "NinjaTrader",
+   "개인 선물 거래 플랫폼",
+   4,
+   420,
+   0,
+   []
+  ],
+  [
+   "breakout",
+   "Breakout",
+   "회사 자금 거래 플랫폼",
+   4,
+   468,
+   0,
+   [
+    "평가를 통과한 개인에게 회사 자금으로 거래하게 해 주는 플랫폼|k_breakout"
+   ]
+  ],
+  [
+   "small",
+   "Small Exchange",
+   "미국 지정 선물시장",
+   4,
+   516,
+   0,
+   [
+    "미국 상품선물거래위원회 지정 선물시장|k_small"
+   ]
+  ],
+  [
+   "magna",
+   "Magna",
+   "토큰 배분 관리 도구",
+   4,
+   564,
+   0,
+   []
+  ],
+  [
+   "bitnomial",
+   "Bitnomial",
+   "미국 인가 파생상품 거래소",
+   4,
+   612,
+   0,
+   [
+    "미국 상품선물거래위원회 인가 파생상품 거래소|k_bitnomial"
+   ]
+  ],
+  [
+   "reap",
+   "Reap",
+   "기업 결제와 카드 발급",
+   4,
+   660,
+   0,
+   []
+  ],
+  [
+   "kakao",
+   "카카오페이증권",
+   "한국 모바일 증권사",
+   2,
+   656,
+   0,
+   [
+    "2026.9.29 같은 날 Ondo, Dinari와 각각 협약. 목적은 한국 상장주식의 해외 유통|n_sbs",
+    "실제 토큰 주식 출시 여부는 미정|n_econ"
+   ]
+  ]
+ ],
+ "E": [
+  [
+   "payward",
+   "backed",
+   "acq",
+   "xStocks 발행사 인수 합의",
+   "2025.12",
+   "k_backed"
+  ],
+  [
+   "payward",
+   "ninja",
+   "acq",
+   "15억 달러에 인수 합의",
+   "2025.3",
+   "k_ninja"
+  ],
+  [
+   "payward",
+   "breakout",
+   "acq",
+   "인수",
+   "2025.9",
+   "k_breakout"
+  ],
+  [
+   "payward",
+   "small",
+   "acq",
+   "인수",
+   "2025.10",
+   "k_small"
+  ],
+  [
+   "payward",
+   "magna",
+   "acq",
+   "인수",
+   "2026.2",
+   "k_magna"
+  ],
+  [
+   "payward",
+   "bitnomial",
+   "acq",
+   "인수 합의",
+   "2026.4",
+   "k_bitnomial"
+  ],
+  [
+   "payward",
+   "reap",
+   "acq",
+   "인수 발표",
+   "2026.5",
+   "k_reap"
+  ],
+  [
+   "nasdaq",
+   "payward",
+   "inv",
+   "1억 달러 투자 합의",
+   "2026.9",
+   "pack"
+  ],
+  [
+   "nasdaq",
+   "payward",
+   "ally",
+   "Nasdaq 주식 토큰과 xStocks를 잇는 통로 공동 개발. Payward가 해당 거래의 주 결제 층",
+   "2026.3",
+   "k_nasdaq"
+  ],
+  [
+   "ice",
+   "okx",
+   "inv",
+   "OKX에 투자",
+   "리서치팩 9장",
+   "pack"
+  ],
+  [
+   "ondo",
+   "oasis",
+   "acq",
+   "미국 인가 3종을 가진 회사 인수",
+   "2025.10",
+   "o_recap"
+  ],
+  [
+   "ondo",
+   "binance",
+   "supply",
+   "Ondo 주식 토큰 10종을 Binance Alpha와 Wallet에 공급",
+   "2026.2",
+   "n_bin"
+  ],
+  [
+   "ondo",
+   "trust",
+   "supply",
+   "Ondo 주식 토큰을 지갑 앱에 공급",
+   "2025.9",
+   "n_bw"
+  ],
+  [
+   "coinbase",
+   "ondo",
+   "inv",
+   "Coinbase Ventures가 Ondo 투자자",
+   "2024.2 글 기준",
+   "o_vc"
+  ],
+  [
+   "coinbase",
+   "ondo",
+   "infra",
+   "Ondo 상품의 USDC 수납 계좌를 Coinbase Prime이 수탁",
+   "",
+   "o_addr"
+  ],
+  [
+   "coinbase",
+   "ondo",
+   "rival",
+   "미국 밖 미국 주식 토큰 판매에서 경쟁. Ondo는 Coinbase 주식 토큰도 발행",
+   "2026.8 이후",
+   "n_llama"
+  ],
+  [
+   "blackrock",
+   "ondo",
+   "supply",
+   "Ondo 국채 토큰(OUSG) 자금을 BlackRock 토큰 펀드 BUIDL에 넣어 운용",
+   "",
+   "o_buidl"
+  ],
+  [
+   "securitize",
+   "blackrock",
+   "infra",
+   "BUIDL을 BlackRock과 함께 출시, 토큰화 담당",
+   "2024.3",
+   "o_buidl"
+  ],
+  [
+   "circle",
+   "blackrock",
+   "infra",
+   "BUIDL과 USDC 사이 상시 환매 유동성 제공",
+   "2024.3",
+   "o_buidl"
+  ],
+  [
+   "alpaca",
+   "payward",
+   "infra",
+   "Kraken 미국 주식 거래의 체결, 청산, 보관 대행",
+   "",
+   "pack"
+  ],
+  [
+   "alpaca",
+   "dinari",
+   "infra",
+   "Dinari Securities의 청산 회사, 실물 주식 보관",
+   "",
+   "d_exempt"
+  ],
+  [
+   "alpaca",
+   "coinbase",
+   "infra",
+   "Coinbase 주식 토큰의 실물 주식 보관",
+   "2026.8",
+   "base"
+  ],
+  [
+   "apex",
+   "coinbase",
+   "infra",
+   "Coinbase 미국 주식 거래의 청산 대행",
+   "",
+   "pack"
+  ],
+  [
+   "alpaca",
+   "ondo",
+   "claim",
+   "Ondo가 생태계 참여사로 Alpaca를 명시",
+   "",
+   "o_stocks"
+  ],
+  [
+   "dinari",
+   "tzero",
+   "ally",
+   "증권사가 토큰 주식을 취급할 수 있는 운영 틀 공동 구축",
+   "2026.7",
+   "d_tzero"
+  ],
+  [
+   "dinari",
+   "circle",
+   "ally",
+   "미국 주식 약 700종의 스테이블코인 결제와 배당 지급 지원",
+   "2026.8",
+   "n_econ"
+  ],
+  [
+   "kakao",
+   "ondo",
+   "ally",
+   "협약: 한국 상장주식 해외 유통 체계, 토큰화 인프라 공동 연구",
+   "2026.9.29",
+   "n_sbs"
+  ],
+  [
+   "kakao",
+   "dinari",
+   "ally",
+   "협약: 원주 조달 기반 위에서 한국 주식 토큰화 개념검증",
+   "2026.9.29",
+   "d_kakao"
+  ],
+  [
+   "ondo",
+   "tradfi",
+   "claim",
+   "2026.2 Ondo 행사 무대에 함께 선다고 Ondo가 공지",
+   "2026.2",
+   "o_recap"
+  ],
+  [
+   "ondo",
+   "blackrock",
+   "claim",
+   "Ondo가 기관 파트너로 BlackRock을 명시",
+   "",
+   "o_vc"
+  ]
+ ]
+}

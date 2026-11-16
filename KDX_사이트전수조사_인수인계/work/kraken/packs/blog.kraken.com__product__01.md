@@ -5,7 +5,7 @@
 
 | URL | 제목 | 첫머리 |
 |---|---|---|
-| https://blog.kraken.com/product/unlock-futures-trading-with-our-crypto-facilities-acquisition |  |  |
+| https://blog.kraken.com/product/unlock-futures-trading-with-our-crypto-facilities-acquisition | Unlock futures trading with our Crypto Facilities acquisition! - Kraken Blog Kraken Blog | February 4, 2019 [Product](https://blog.kraken.com/category/product) # Unlock futures trading with our Crypto Facilities acquisition! [그림: crypto futures acquisition] Last week we revealed our [new face](https://blog.kraken.com/post/2035/kr |
 | https://blog.kraken.com/product/quick-primer-on-funding-rates |  |  |
 | https://blog.kraken.com/product/security/security-advisory-mobile-phones |  |  |
 | https://blog.kraken.com/product/security/inside-kraken-security-labs-flaws-found-in-coolwallet-s-hardware-wallets |  |  |
@@ -51,7 +51,7 @@
 | https://blog.kraken.com/product/promotions/the-anthropic-pre-ipo-challenge-nov-2026 |  |  |
 
 
-## 목록만 둔 URL 819건 (inventory.csv에서 plan=list)
+## 목록만 둔 URL 822건 (inventory.csv에서 plan=list)
 - https://blog.kraken.com/product/kraken-launches-monero-trading
 - https://blog.kraken.com/product/kraken-announces-trading-support-for-new-currency
 - https://blog.kraken.com/product/monero-xmr-margin-trading-now-available

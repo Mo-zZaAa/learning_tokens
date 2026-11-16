@@ -2,18 +2,16 @@
 
 | 호스트 | 구역 | 전체 | 정독(read) | 훑기(skim) | 목록만(list) | 제외(skip) | 수집완료 |
 |---|---|---|---|---|---|---|---|
-| app.kraken.com | JDNW | 7 | 0 | 0 | 0 | 7 | 0 |
-| app.kraken.com | IKVW | 2 | 0 | 0 | 0 | 2 | 0 |
+| app.kraken.com | JDNW | 4 | 0 | 0 | 0 | 4 | 0 |
 | app.kraken.com | (home) | 1 | 0 | 0 | 0 | 1 | 0 |
-| app.kraken.com | UflE | 1 | 0 | 0 | 0 | 1 | 0 |
-| assets-cms.kraken.com | files | 39 | 39 | 0 | 0 | 0 | 39 |
+| assets-cms.kraken.com | files | 38 | 38 | 0 | 0 | 0 | 0 |
 | blog.kraken.com | crypto-education | 1119 | 0 | 6 | 1113 | 0 | 0 |
-| blog.kraken.com | product | 974 | 111 | 44 | 819 | 0 | 27 |
+| blog.kraken.com | product | 899 | 33 | 44 | 822 | 0 | 1 |
 | blog.kraken.com | tag | 475 | 3 | 0 | 472 | 0 | 0 |
-| blog.kraken.com | news | 385 | 3 | 45 | 337 | 0 | 0 |
+| blog.kraken.com | news | 430 | 3 | 45 | 382 | 0 | 15 |
 | blog.kraken.com | kraken-japan | 207 | 0 | 0 | 207 | 0 | 0 |
 | blog.kraken.com | go | 190 | 0 | 2 | 188 | 0 | 0 |
-| blog.kraken.com | global | 98 | 0 | 33 | 65 | 0 | 0 |
+| blog.kraken.com | global | 104 | 0 | 33 | 71 | 0 | 2 |
 | blog.kraken.com | category | 69 | 2 | 0 | 67 | 0 | 0 |
 | blog.kraken.com | economic-brief | 22 | 0 | 0 | 22 | 0 | 0 |
 | blog.kraken.com | uncategorized | 7 | 0 | 0 | 7 | 0 | 0 |
@@ -21,10 +19,10 @@
 | blog.kraken.com | event | 6 | 1 | 0 | 5 | 0 | 0 |
 | blog.kraken.com | author | 6 | 0 | 0 | 6 | 0 | 0 |
 | blog.kraken.com | kraken-vip | 4 | 0 | 0 | 4 | 0 | 0 |
+| blog.kraken.com | post | 4 | 0 | 0 | 4 | 0 | 0 |
 | blog.kraken.com | policy | 3 | 0 | 1 | 2 | 0 | 0 |
 | blog.kraken.com | compliance | 2 | 0 | 0 | 2 | 0 | 0 |
 | blog.kraken.com | vip | 2 | 0 | 0 | 2 | 0 | 0 |
-| blog.kraken.com | post | 2 | 0 | 0 | 2 | 0 | 0 |
 | blog.kraken.com | (home) | 1 | 1 | 0 | 0 | 0 | 0 |
 | blog.kraken.com | general | 1 | 0 | 0 | 1 | 0 | 0 |
 | blog.kraken.com | token-spotlight | 1 | 0 | 0 | 1 | 0 | 0 |
@@ -56,40 +54,34 @@
 | docs.kraken.com | exchange | 181 | 0 | 0 | 181 | 0 | 0 |
 | docs.kraken.com | institutional | 50 | 0 | 0 | 50 | 0 | 0 |
 | docs.kraken.com | home | 7 | 7 | 0 | 0 | 0 | 7 |
-| docs.kraken.com | api | 4 | 0 | 0 | 4 | 0 | 0 |
+| docs.kraken.com | api | 1 | 0 | 0 | 1 | 0 | 0 |
 | docs.kraken.com | (home) | 1 | 1 | 0 | 0 | 0 | 0 |
 | docs.kraken.com | pay | 1 | 0 | 0 | 1 | 0 | 0 |
 | docs.kraken.com | llms.txt | 1 | 0 | 0 | 1 | 0 | 0 |
 | docs.kraken.com | rest | 1 | 0 | 0 | 1 | 0 | 0 |
 | email.kraken.com | (home) | 1 | 1 | 0 | 0 | 0 | 0 |
-| eu.kraken.com | (home) | 1 | 1 | 0 | 0 | 0 | 0 |
-| eu.kraken.com | legal | 1 | 1 | 0 | 0 | 0 | 0 |
-| eu.kraken.com | payward-europe-digital-solutions | 1 | 1 | 0 | 0 | 0 | 0 |
 | id.kraken.com | sign-in | 5 | 0 | 0 | 0 | 5 | 0 |
 | id.kraken.com | (home) | 1 | 0 | 0 | 0 | 1 | 0 |
 | id.kraken.com | forgot-password | 1 | 0 | 0 | 0 | 1 | 0 |
 | id.kraken.com | forgot-username | 1 | 0 | 0 | 0 | 1 | 0 |
-| kraken.com | c | 2 | 2 | 0 | 0 | 0 | 0 |
 | kraken.com | (home) | 1 | 1 | 0 | 0 | 0 | 0 |
 | kraken.com | legal | 1 | 1 | 0 | 0 | 0 | 0 |
-| kraken.com | xstocks | 1 | 1 | 0 | 0 | 0 | 0 |
-| kraken.com | pro | 1 | 1 | 0 | 0 | 0 | 0 |
-| pro.kraken.com | app | 23814 | 1 | 0 | 0 | 23813 | 0 |
+| kraken.com | features | 1 | 1 | 0 | 0 | 0 | 0 |
+| kraken.com | breakout | 1 | 1 | 0 | 0 | 0 | 0 |
+| pro.kraken.com | app | 23804 | 0 | 0 | 0 | 23804 | 0 |
 | pro.kraken.com | (home) | 1 | 1 | 0 | 0 | 0 | 0 |
 | pro.kraken.com | perps | 1 | 1 | 0 | 0 | 0 | 0 |
-| proapp.kraken.com | 9f1e | 6 | 0 | 0 | 0 | 6 | 0 |
+| proapp.kraken.com | 9f1e | 4 | 0 | 0 | 0 | 4 | 0 |
 | proapp.kraken.com | (home) | 1 | 0 | 0 | 0 | 1 | 0 |
-| proapp.kraken.com | OBT6 | 1 | 0 | 0 | 0 | 1 | 0 |
 | status.kraken.com | incidents | 53 | 0 | 0 | 53 | 0 | 0 |
 | status.kraken.com | (home) | 1 | 0 | 0 | 1 | 0 | 0 |
 | status.kraken.com | uptime | 1 | 0 | 0 | 1 | 0 | 0 |
 | status.kraken.com | history.atom | 1 | 0 | 0 | 1 | 0 | 0 |
 | status.kraken.com | history | 1 | 0 | 0 | 1 | 0 | 0 |
-| support.kraken.com | articles | 28648 | 28 | 66 | 987 | 27567 | 41 |
-| support.kraken.com | sections | 5544 | 2 | 12 | 184 | 5346 | 2 |
+| support.kraken.com | articles | 28646 | 27 | 66 | 986 | 27567 | 23 |
+| support.kraken.com | sections | 5544 | 2 | 12 | 184 | 5346 | 0 |
 | support.kraken.com | forms | 2240 | 0 | 0 | 0 | 2240 | 0 |
-| support.kraken.com | categories | 423 | 1 | 2 | 15 | 405 | 1 |
-| support.kraken.com | hc | 39 | 1 | 2 | 36 | 0 | 0 |
+| support.kraken.com | categories | 423 | 1 | 2 | 15 | 405 | 0 |
 | support.kraken.com | (home) | 28 | 1 | 0 | 0 | 27 | 0 |
 | support.kraken.com | 404-not-found | 28 | 0 | 0 | 1 | 27 | 0 |
 | support.kraken.com | articles-ivy-funding-provider | 28 | 0 | 0 | 1 | 27 | 0 |
@@ -102,9 +94,9 @@
 | support.kraken.com | proapp | 28 | 0 | 0 | 1 | 27 | 0 |
 | support.kraken.com | search | 28 | 0 | 0 | 0 | 28 | 0 |
 | support.kraken.com | stocks | 28 | 0 | 1 | 0 | 27 | 0 |
-| support.kraken.com | legal | 2 | 1 | 0 | 1 | 0 | 0 |
+| support.kraken.com | hc | 19 | 1 | 2 | 16 | 0 | 0 |
 | support.kraken.com | article_attachments | 1 | 0 | 0 | 1 | 0 | 0 |
-| support.kraken.com | pro.kraken.com | 1 | 0 | 0 | 1 | 0 | 0 |
+| trade.kraken.com | (home) | 1 | 1 | 0 | 0 | 0 | 0 |
 | wallet.kraken.com | market | 3 | 3 | 0 | 0 | 0 | 0 |
 | wallet.kraken.com | (home) | 1 | 1 | 0 | 0 | 0 | 0 |
 | wallet.kraken.com | legal | 1 | 1 | 0 | 0 | 0 | 0 |
@@ -114,8 +106,8 @@
 | wallet.kraken.com | swap | 1 | 1 | 0 | 0 | 0 | 0 |
 | wallet.kraken.com | bridge | 1 | 1 | 0 | 0 | 0 | 0 |
 | wallet.kraken.com | privacy | 1 | 1 | 0 | 0 | 0 | 0 |
-| www.kraken.com | features | 44981 | 43 | 10 | 1709 | 43219 | 23 |
-| www.kraken.com | learn | 18660 | 2 | 10 | 676 | 17972 | 0 |
+| www.kraken.com | features | 44832 | 44 | 0 | 1566 | 43222 | 0 |
+| www.kraken.com | learn | 18656 | 2 | 10 | 672 | 17972 | 0 |
 | www.kraken.com | price-prediction | 17248 | 1 | 0 | 615 | 16632 | 0 |
 | www.kraken.com | sell | 17248 | 1 | 0 | 615 | 16632 | 0 |
 | www.kraken.com | buy | 17247 | 1 | 0 | 615 | 16631 | 0 |
@@ -124,15 +116,15 @@
 | www.kraken.com | stocks | 4586 | 3 | 0 | 475 | 4108 | 3 |
 | www.kraken.com | categories | 1428 | 1 | 0 | 50 | 1377 | 0 |
 | www.kraken.com | convert | 1103 | 1 | 0 | 1084 | 18 | 0 |
-| www.kraken.com | institutions | 1041 | 42 | 0 | 0 | 999 | 40 |
+| www.kraken.com | institutions | 1042 | 42 | 0 | 0 | 1000 | 40 |
 | www.kraken.com | pro | 1033 | 37 | 0 | 0 | 996 | 0 |
 | www.kraken.com | wallet | 592 | 6 | 10 | 32 | 544 | 0 |
-| www.kraken.com | prices | 588 | 1 | 0 | 398 | 189 | 0 |
-| www.kraken.com | press | 516 | 1 | 42 | 0 | 473 | 0 |
+| www.kraken.com | prices | 587 | 1 | 0 | 397 | 189 | 0 |
+| www.kraken.com | press | 516 | 1 | 42 | 0 | 473 | 40 |
 | www.kraken.com | competitions | 364 | 1 | 0 | 12 | 351 | 0 |
-| www.kraken.com | app | 310 | 13 | 0 | 0 | 297 | 0 |
+| www.kraken.com | app | 308 | 11 | 0 | 0 | 297 | 0 |
 | www.kraken.com | compare | 308 | 0 | 0 | 11 | 297 | 0 |
-| www.kraken.com | compliance | 252 | 8 | 1 | 0 | 243 | 8 |
+| www.kraken.com | compliance | 252 | 8 | 1 | 0 | 243 | 0 |
 | www.kraken.com | partnercampaign | 140 | 0 | 0 | 5 | 135 | 0 |
 | www.kraken.com | launch | 84 | 3 | 0 | 0 | 81 | 0 |
 | www.kraken.com | krak | 61 | 34 | 0 | 0 | 27 | 1 |
@@ -142,7 +134,8 @@
 | www.kraken.com | kbtc | 56 | 2 | 0 | 0 | 54 | 0 |
 | www.kraken.com | khype | 56 | 2 | 0 | 0 | 54 | 0 |
 | www.kraken.com | prime | 56 | 2 | 0 | 0 | 54 | 1 |
-| www.kraken.com | (home) | 28 | 1 | 0 | 0 | 27 | 1 |
+| www.kraken.com | (home) | 29 | 1 | 0 | 0 | 28 | 1 |
+| www.kraken.com | cryptowatch | 29 | 1 | 0 | 0 | 28 | 0 |
 | www.kraken.com | 10x-analytics | 28 | 1 | 0 | 0 | 27 | 0 |
 | www.kraken.com | 13terms | 28 | 1 | 0 | 0 | 27 | 0 |
 | www.kraken.com | A01K | 28 | 1 | 0 | 0 | 27 | 0 |
@@ -187,7 +180,6 @@
 | www.kraken.com | cryptomriya | 28 | 1 | 0 | 0 | 27 | 0 |
 | www.kraken.com | cryptorecovery | 28 | 1 | 0 | 0 | 27 | 0 |
 | www.kraken.com | cryptoukrainets | 28 | 1 | 0 | 0 | 27 | 0 |
-| www.kraken.com | cryptowatch | 28 | 1 | 0 | 0 | 27 | 0 |
 | www.kraken.com | culture | 28 | 1 | 0 | 0 | 27 | 0 |
 | www.kraken.com | cyptobymathieu | 28 | 1 | 0 | 0 | 27 | 0 |
 | www.kraken.com | danmatern | 28 | 1 | 0 | 0 | 27 | 0 |
@@ -328,9 +320,8 @@
 | www.kraken.com | news | 16 | 10 | 0 | 0 | 6 | 0 |
 | www.kraken.com | careers | 12 | 1 | 0 | 0 | 11 | 0 |
 | www.kraken.com | listings | 12 | 1 | 0 | 0 | 11 | 0 |
-| www.kraken.com | sign-up | 5 | 0 | 0 | 0 | 5 | 0 |
+| www.kraken.com | sign-up | 4 | 0 | 0 | 0 | 4 | 0 |
 | www.kraken.com | u | 2 | 0 | 0 | 0 | 2 | 0 |
-| www.kraken.com | c | 2 | 2 | 0 | 0 | 0 | 0 |
 | www.kraken.com | kraken-in-deutschland | 1 | 1 | 0 | 0 | 0 | 0 |
 | www.kraken.com | kraken-in-osterreich | 1 | 1 | 0 | 0 | 0 | 0 |
 | www.kraken.com | kraken-cryptology-course | 1 | 1 | 0 | 0 | 0 | 0 |
@@ -341,10 +332,11 @@
 | www.kraken.com | otc | 1 | 1 | 0 | 0 | 0 | 0 |
 | www.kraken.com | slp | 1 | 1 | 0 | 0 | 0 | 0 |
 | www.kraken.com | bank | 1 | 1 | 0 | 0 | 0 | 0 |
-| www.kraken.com | session-expired | 1 | 1 | 0 | 0 | 0 | 0 |
-| 합계 |  | 218550 | 659 | 483 | 12600 | 204808 | 204 |
+| www.kraken.com | nft | 1 | 1 | 0 | 0 | 0 | 0 |
+| www.kraken.com | wealth-creators | 1 | 1 | 0 | 0 | 0 | 0 |
+| 합계 |  | 218321 | 571 | 473 | 12482 | 204795 | 144 |
 
-## 수집 대기: 864건
+## 수집 대기: 895건
 - https://www.kraken.com/10x-analytics 
 - https://www.kraken.com/13terms 
 - https://www.kraken.com/A01K 
@@ -399,7 +391,15 @@
 - https://www.kraken.com/categories 
 - https://www.kraken.com/cheekycrypto 
 - https://www.kraken.com/competitions 
+- https://www.kraken.com/compliance 
+- https://www.kraken.com/compliance/aml-cft 
+- https://www.kraken.com/compliance/building-a-culture-of-compliance-training-and-awareness 
+- https://www.kraken.com/compliance/circular-trading-faking-market-activity-undermining-trust 
 - https://www.kraken.com/compliance/evolution-of-aml-regulations 
+- https://www.kraken.com/compliance/how-spoofing-and-layering-impact-markets 
+- https://www.kraken.com/compliance/market-integrity 
+- https://www.kraken.com/compliance/trading-on-secrets-insider-dealing 
+- https://www.kraken.com/compliance/wash-trading-the-fake-buzz-that-moves-real-markets 
 - https://www.kraken.com/convert 
 - https://www.kraken.com/cryptokucherov 
 - https://www.kraken.com/cryptologykey 
@@ -427,6 +427,19 @@
 - https://www.kraken.com/drops 
 - https://www.kraken.com/eu-deposit-trade-bonus-rules 
 - https://www.kraken.com/europe-switch 
+- https://www.kraken.com/features 
+- https://www.kraken.com/features/24-7-support 
+- https://www.kraken.com/features/btc-staking 
+- https://www.kraken.com/features/cryptocurrency-apps 
+- https://www.kraken.com/features/dual-investments 
+- https://www.kraken.com/features/eth-restaking 
+- https://www.kraken.com/features/fee-schedule 
+- https://www.kraken.com/features/forex-trading-markets 
+- https://www.kraken.com/features/funded 
+- https://www.kraken.com/features/funding-options 
+- https://www.kraken.com/features/grants 
+- https://www.kraken.com/features/indices 
+- https://www.kraken.com/features/liquidity 
 - https://www.kraken.com/features/security 
 - https://www.kraken.com/features/security/bug-bounty 
 - https://www.kraken.com/features/security/kraken-security-labs 
@@ -524,256 +537,8 @@
 - https://www.kraken.com/legal/biometrics-policy 
 - https://www.kraken.com/legal/bitcoin-sweepstakes-terms 
 - https://www.kraken.com/legal/black-friday-incentive-terms-11-26 
-- https://www.kraken.com/legal/br-terms 
-- https://www.kraken.com/legal/brazil-get-10-bonus-rules 
-- https://www.kraken.com/legal/brazil-get-30-bonus-rules 
-- https://www.kraken.com/legal/btc-sweeps-terms 
-- https://www.kraken.com/legal/btc-vault-7d-boost-terms 
-- https://www.kraken.com/legal/bullion-rush-futures-trading-challenge-terms 
-- https://www.kraken.com/legal/chutes-spot-trading-challenge-terms 
-- https://www.kraken.com/legal/competitions26 
-- https://www.kraken.com/legal/cookies 
-- https://www.kraken.com/legal/credits 
-- https://www.kraken.com/legal/crypto-deposit-terms 
-- https://www.kraken.com/legal/cspr-perps-trading-challenge-terms 
-- https://www.kraken.com/legal/cspr-spot-trading-challenge-terms 
-- https://www.kraken.com/legal/deposit-sweepstakes-terms 
-- https://www.kraken.com/legal/digital-assets-brokerage-services 
-- https://www.kraken.com/legal/disclosures 
-- https://www.kraken.com/legal/eea-futures-fee-waiver-promotion-terms 
-- https://www.kraken.com/legal/eea-terms 
-- https://www.kraken.com/legal/electronic-fund-transfer-disclosures 
-- https://www.kraken.com/legal/exchangetradingrules 
-- https://www.kraken.com/legal/exclusive-incentive-50-btc-terms 
-## 차단: 71건
-- https://blog.kraken.com/product/xstocks/10-billion-in-total-transaction?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/10-billion-in-total-transaction?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/10-billion-in-total-transaction?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/24-7-on-kraken-pro?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/24-7-on-kraken-pro?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/24-7-on-kraken-pro?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/25-billion-in-total-transaction-volume?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/25-billion-in-total-transaction-volume?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/25-billion-in-total-transaction-volume?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/bending-spoons-ipo-access-now-available?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/bending-spoons-ipo-access-now-available?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/bending-spoons-ipo-access-now-available?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/bitso-integration?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/bitso-integration?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/bitso-integration?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/bnb-chain-integration?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/bnb-chain-integration?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/bnb-chain-integration?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/bringing-tokenized-equities-to-ton-blockchain?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/bringing-tokenized-equities-to-ton-blockchain?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/bringing-tokenized-equities-to-ton-blockchain?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/celebrating-100-xstocks?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/celebrating-100-xstocks?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/celebrating-100-xstocks?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/coinroutes-integration?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/coinroutes-integration?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/coinroutes-integration?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/deepening-our-partnership-with-alpaca?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/deepening-our-partnership-with-alpaca?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/deepening-our-partnership-with-alpaca?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/eligible-as-collateral-for-futures-and-margin?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/eligible-as-collateral-for-futures-and-margin?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/eligible-as-collateral-for-futures-and-margin?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/fundrise-vcx-tokenize-leading-private-tech-companies?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/fundrise-vcx-tokenize-leading-private-tech-companies?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/fundrise-vcx-tokenize-leading-private-tech-companies?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/introducing-opt-in-rewards?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/introducing-opt-in-rewards?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/introducing-opt-in-rewards?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/introducing-xchange?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/introducing-xchange?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/introducing-xchange?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/introducing-xstocks-margin-trading-on-kraken-pro?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/introducing-xstocks-margin-trading-on-kraken-pro?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/introducing-xstocks-margin-trading-on-kraken-pro?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/launch-on-360x?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/launch-on-360x?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/launch-on-360x?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/launch-on-ethereum?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/launch-on-ethereum?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/launch-on-ethereum?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/real-adoption-of-tokenized-stocks?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/real-adoption-of-tokenized-stocks?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/real-adoption-of-tokenized-stocks?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/spacex-ipo-access?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/spacex-ipo-access?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/spacex-ipo-access?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/tokenized-equities-kraken-pro?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/tokenized-equities-kraken-pro?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/tokenized-equities-kraken-pro?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/tokenized-equities-now-available?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/tokenized-equities-now-available?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/tokenized-equities-now-available?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/tokenized-equity-perpetual-futures?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/tokenized-equity-perpetual-futures?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/tokenized-equity-perpetual-futures?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/tokenized-ipo-access?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/tokenized-ipo-access?share=twitter HTTP 403
-- https://blog.kraken.com/product/xstocks/tokenized-ipo-access?share=facebook HTTP 403
-- https://blog.kraken.com/product/xstocks/tron-blockchain?share=linkedin HTTP 403
-- https://blog.kraken.com/product/xstocks/tron-blockchain?share=facebook HTTP 403
+## 차단: 2건
+- https://blog.kraken.com/news/kraken-otc-acquires-circle-trade 정적 요청 차단
+- https://blog.kraken.com/news/kraken-acquiring-coinsetter-and-cavirtex-to-expand 정적 요청 차단
 ## 오류: 0건
 ## 내용 거의 없음: 0건
-## 정독했으나 위키 어디에도 출처로 안 쓰인 페이지: 157건 (반영하거나 coverage 메모에 사유 기록)
-- https://www.kraken.com/compliance (Compliance Hub)
-- https://www.kraken.com/compliance/aml-cft (Anti-Money Laundering and Combating the Financing of Terrorism (AML/CFT))
-- https://www.kraken.com/compliance/building-a-culture-of-compliance-training-and-awareness (Building a Culture of Compliance: Training and Awareness in AML/CFT Programs)
-- https://www.kraken.com/compliance/circular-trading-faking-market-activity-undermining-trust (Circular Trading: Faking Market Activity, Undermining Trust)
-- https://www.kraken.com/compliance/how-spoofing-and-layering-impact-markets (Non-Genuine Orders, Real Risks: How Spoofing and Layering Impact Markets)
-- https://www.kraken.com/compliance/market-integrity (Market Integrity)
-- https://www.kraken.com/compliance/trading-on-secrets-insider-dealing (Trading on Secrets? Here’s What You Need to Know About Insider Dealing)
-- https://www.kraken.com/compliance/wash-trading-the-fake-buzz-that-moves-real-markets (Wash Trading: The Fake Buzz That Moves Real Markets)
-- https://www.kraken.com/features (Browse All Of Kraken's Features | Kraken)
-- https://www.kraken.com/features/24-7-support (24/7 Global Customer Support | Kraken)
-- https://www.kraken.com/features/btc-staking (BTC Staking on Kraken | Earn rewards on your BTC holdings)
-- https://www.kraken.com/features/cryptocurrency-apps (Kraken Cryptocurrency & Bitcoin Apps | Kraken)
-- https://www.kraken.com/features/dual-investments (Dual Investments on Kraken Pro | Earn Up to 200% APR on BTC, ETH & USD)
-- https://www.kraken.com/features/eth-restaking (ETH Restaking on Kraken with EigenLayer | Earn Extra ETH Rewards)
-- https://www.kraken.com/features/fee-schedule (Fee Structures | Explore our trading fees | Kraken)
-- https://www.kraken.com/features/forex-trading-markets (Bitcoin (BTC) to USD Spot Trading - Price & Chart | Kraken Pro)
-- https://www.kraken.com/features/funded (Kraken Funded — Trade With Our Capital | Kraken)
-- https://www.kraken.com/features/funding-options (Funding Options | Fiat to Crypto & Crypto to Crypto Trading | Kraken)
-- https://www.kraken.com/features/grants (Bitcoin and Crypto Developer Grant Program | Kraken)
-- https://www.kraken.com/features/indices (Cryptocurrency Indices | Bitcoin, Ethereum & Litecoin Index | Kraken)
-- https://www.kraken.com/features/liquidity (Cryptocurrency and Bitcoin Liquidity | Kraken)
-- https://www.kraken.com/institutions/corporations (Crypto Trading and Treasury Solutions for Corporations | Kraken)
-- https://www.kraken.com/institutions/custody/brochure (Kraken Custody | Qualified digital asset custody for institutions)
-- https://www.kraken.com/institutions/etp-issuers (Crypto Liquidity and Execution for ETP Issuers | Kraken)
-- https://www.kraken.com/institutions/futures (Crypto Futures Trading for Institutions | Kraken Futures)
-- https://www.kraken.com/institutions/hedge-funds (Crypto Trading Platform for Hedge Funds | Kraken)
-- https://www.kraken.com/institutions/investment-advisors (Crypto Trading Platform for Investment Advisors | Kraken)
-- https://www.kraken.com/institutions/investment-funds (Crypto Trading Platform for Investment Funds | Kraken)
-- https://www.kraken.com/institutions/market-makers (Crypto Trading Platform for Market Makers & HFT | Kraken Institutional)
-- https://www.kraken.com/institutions/otc-derivatives (Institutional Crypto Derivatives | OTC Trading Desk | Kraken)
-- https://www.kraken.com/institutions/otc-lending (Crypto-Backed Loans | OTC Lending | Kraken)
-- https://www.kraken.com/institutions/otc/contactform (Crypto OTC Trading Platform | Kraken)
-- https://www.kraken.com/institutions/private-clients (Crypto VIP Program | Kraken VIP: Access Redefined)
-- https://www.kraken.com/institutions/protocol-investment (Kraken 360 Investments | Early Capital for Pre-TGE Protocols)
-- https://www.kraken.com/institutions/protocols (Launch and Scale Your Protocol with Kraken)
-- https://www.kraken.com/institutions/ramp (Kraken Ramp | Seamless Fiat-to-Crypto Onramp for Institutions)
-- https://www.kraken.com/institutions/spot (Crypto Spot Trading for Institutions | Kraken)
-- https://www.kraken.com/institutions/staking (Crypto Staking for Institutions | Kraken)
-- https://www.kraken.com/institutions/trading-firms (Crypto Trading Platform for Trading Firms | Kraken)
-- https://www.kraken.com/institutions/trading-firms/case-study-da-vinci (Kraken | Da Vinci Trading Case Study)
-- https://www.kraken.com/institutions/venture-capitalists (Crypto Trading and Liquidity for Venture Capital Firms | Kraken)
-- https://www.kraken.com/institutions/wealth-managers (Crypto Trading Solutions for Wealth Managers | Kraken)
-- https://www.kraken.com/legal/centeia-deposit-trade-bonus-rules (Deposit €100, Trade €100 Get €15 in BTC | Official Terms and Conditions)
-- https://www.kraken.com/legal/mica-whitepapers/history (MiCA-Whitepapers History)
-- https://www.kraken.com/features/otc-exchange/cardano (Cardano OTC | Over-the-counter ADA Trading | Kraken)
-- https://www.kraken.com/features/otc-exchange/avalanche (Avalanche OTC | Over-the-counter AVAX Trading | Kraken)
-- https://www.kraken.com/features/otc-exchange/bitcoin (Bitcoin OTC | Over-the-counter BTC Trading | Kraken)
-- https://www.kraken.com/features/otc-exchange/dogecoin (Dogecoin OTC | Over-the-counter DOGE Trading | Kraken)
-- https://www.kraken.com/features/api-trading (Kraken API | REST, WebSocket and FIX APIs)
-- https://www.kraken.com/features/dollar-cost-averaging (Kraken DCA | Auto Invest in Crypto with Dollar-Cost Averaging)
-- https://www.kraken.com/stocks/tsla (Tesla (TSLA) Stock price today - quote & chart)
-- https://www.kraken.com/features/borrow (Kraken Borrow — Boost Your Buying Power with Crypto-Backed Loans)
-- https://www.kraken.com/features/margin-trading (Crypto Margin Trading – Up to 20x Leverage | Kraken)
-- https://docs.kraken.com/home/cli (kraken-cli - Kraken Developers)
-- https://docs.kraken.com/home/guides/quickstart (Quickstart - Kraken Developers)
-- https://docs.kraken.com/home/mcp (MCP server - Kraken Developers)
-- https://docs.kraken.com/home/sdks/go (Go - Kraken Developers)
-- https://docs.kraken.com/home/sdks (SDKs - Kraken Developers)
-- https://docs.kraken.com/home/sdks/rust (Rust - Kraken Developers)
-- https://docs.kraken.com/home/support (Support - Kraken Developers)
-- https://support.kraken.com/articles/0-maker-fees-on-futures-trading-on-kraken-pro (0% Maker Fees on Futures Trading on Kraken Pro | Kraken)
-- https://support.kraken.com/articles/360028368871-how-to-calculate-profits-losses-from-trading-without-using-margin- (How to calculate profits/losses from trading (without using margin) | Kraken)
-- https://support.kraken.com/articles/bending-spoons-ipo-xstocks (Bending Spoons IPO Access on Kraken via xStocks | Kraken)
-- https://support.kraken.com/articles/buy-sell-and-convert-xstocks (How to buy, sell and convert xStocks on the Kraken app)
-- https://support.kraken.com/articles/buy-sell-and-convert-xstocks-pro (Buy and Sell xStocks on Kraken Pro | Kraken Support)
-- https://support.kraken.com/articles/changes-to-margin-futures-xstocks-brazil (Margin, Futures, and xStocks Changes for Brazil | Kraken Support)
-- https://support.kraken.com/articles/corporate-actions-xstocks-kraken-app (Corporate Actions with xStocks | Kraken Support)
-- https://support.kraken.com/articles/corporate-actions-xstocks-perpetual-futures-faq (Corporate Actions on xStocks Perpetual Futures FAQ)
-- https://support.kraken.com/articles/creating-an-icloud-backup (Creating an iCloud backup | Kraken)
-- https://support.kraken.com/articles/getting-started-with-xstocks (Getting Started with xStocks | Kraken Support)
-- https://support.kraken.com/articles/getting-started-with-xstocks-pro (Getting started with xStocks on Kraken Pro)
-- https://support.kraken.com/articles/how-to-buy-sell-xstocks-on-kraken (How to Buy, Sell and Convert xStocks | Kraken Support)
-- https://support.kraken.com/articles/jersey-mikes-ipo-xstocks (Jersey Mike's IPO Access on Kraken)
-- https://support.kraken.com/articles/multiple-networks-and-methods-on-kraken (Multiple Networks and Methods for deposits and withdrawals on Kraken | Kraken)
-- https://support.kraken.com/articles/xstocks-deposit-fees-minimums (xStocks deposit fees & minimums)
-- https://support.kraken.com/articles/xstocks-faq (xStocks Frequently Asked Questions | Kraken Support)
-- https://support.kraken.com/articles/xstocks-futures-trading-contest (xStocks Futures Trading Contest | Kraken Support)
-- https://support.kraken.com/articles/xstocks-perps-kraken (xStocks Perps on Kraken)
-- https://support.kraken.com/articles/xstocks-perps-kraken-pro (xStocks Perps on Kraken Pro)
-- https://support.kraken.com/articles/xstocks-points-program-faq (xStocks Points Program FAQ)
-- https://support.kraken.com/articles/xstocks-vaults (What are xStocks Vaults on Kraken)
-- https://support.kraken.com/articles/zksync-funding-on-kraken (Ethereum funding using zkSync Era | Kraken)
-- https://support.kraken.com/sections/xstocks-on-kraken (xStocks on Kraken | Kraken)
-- https://support.kraken.com/sections/xstocks-on-kraken-pro (xStocks on Kraken Pro | Kraken)
-- https://support.kraken.com/categories/xstocks (xStocks | Kraken)
-- https://www.kraken.com/features/otc-exchange (Crypto OTC Trading Platform | Kraken)
-- https://www.kraken.com/features/futures (Bitcoin (BTC) to USD Spot Trading - Price & Chart | Kraken Pro)
-- https://blog.kraken.com/product/xstocks/bnb-chain-integration (Kraken and Backed deepen xStocks reach with BNB Chain integration - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/tokenized-equities-now-available (From Wall Street to your wallet: Tokenized equities now available on Kraken - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/tron-blockchain (xStocks expands to the TRON blockchain - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/launch-on-ethereum (xStocks launch on Ethereum - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/now-available-to-eu-clients (xStocks now available to EU clients - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/tokenized-equities-kraken-pro (xStocks now available on Kraken Pro - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/trust-wallet (Trust Wallet joins xStocks Alliance, unlocking tokenized equities access for its 200 million users - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/wallet-in-telegram (Wallet in Telegram joins xStocks Alliance, expanding xStocks reach to another 100 million users  - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/10-billion-in-total-transaction (xStocks surpasses $10 billion in total transaction volume, with nearly $2 billion onchain - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/24-7-on-kraken-pro (xStocks: now trading 24/7 on Kraken Pro - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/deepening-our-partnership-with-alpaca (Deepening our partnership with Alpaca, xStocks gain momentum - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/bringing-tokenized-equities-to-ton-blockchain (xStocks bringing tokenized equities to TON blockchain and Telegram’s 1 billion users - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/launch-on-360x (xStocks launch on 360X, extending the leading standard of tokenized equities to Deutsche Börse clients - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/25-billion-in-total-transaction-volume (xStocks remain largest provider of tokenized equities, surpass $25 billion in total transaction volume - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/introducing-xstocks-margin-trading-on-kraken-pro (Introducing xStocks margin trading on Kraken Pro - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/tokenized-equity-perpetual-futures (Announcing the world’s first regulated, tokenized-equity perpetual futures, using xStocks - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/introducing-xchange (xStocks introduces xChange: TradFi liquidity, DeFi infrastructure - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/real-adoption-of-tokenized-stocks (Setting the record straight: real adoption of tokenized stocks - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/celebrating-100-xstocks (Celebrating 100 xStocks and the growing global market for tokenized equities - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/fundrise-vcx-tokenize-leading-private-tech-companies (xStocks and Fundrise partner to tokenize VCX Fund, unlocking onchain exposure to leading private tech companies - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/coinroutes-integration (xStocks integrates with CoinRoutes to accelerate institutional multi-asset trading of tokenized equities - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/bitso-integration (Bitso launches xStocks' tokenized equities, bringing Wall Street to Argentina - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/tokenized-ipo-access (Payward brings tokenized IPO access to retail investors across the globe   - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/introducing-opt-in-rewards (Introducing xStocks Opt-In Rewards: earn up to 1% rewards by holding xStocks - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/spacex-ipo-access (SpaceX IPO access now available via xStocks - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/bending-spoons-ipo-access-now-available (Bending Spoons IPO access now available via xStocks - Kraken Blog Kraken Blog)
-- https://blog.kraken.com/product/xstocks/eligible-as-collateral-for-futures-and-margin (xStocks are now eligible as collateral for futures and margin trading on Kraken Pro - Kraken Blog Kraken Blog)
-- https://www.kraken.com/institutions/embed/case-study-bunq (Payward Services | On/off-ramps)
-- https://www.kraken.com/institutions/embed (Payward Services | On/off-ramps)
-- https://www.kraken.com/institutions/custody/supported-assets (Kraken Prime | Supported Assets)
-- https://www.kraken.com/institutions/monthly-strategist-call (January Strategist Call | Kraken Institutional)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/9d02d1e9318ab263f2e176ba7a2c439f225fe74a.pdf?dl= (9d02d1e9318ab263f2e176ba7a2c439f225fe74a.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/022cd72280ffa834cb7b7d662ecf822e72eb471d.pdf?dl= (022cd72280ffa834cb7b7d662ecf822e72eb471d.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/f1da750b793a537fb94c255d15f9cc934a3a366c.pdf?dl= (f1da750b793a537fb94c255d15f9cc934a3a366c.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/7bef1b0cec9272d6abc3768f5dfcbab282711237.pdf?dl= (7bef1b0cec9272d6abc3768f5dfcbab282711237.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/e7cb2e6758f56b3eaa044d4b0b8097f2d1252a63.pdf?dl= (e7cb2e6758f56b3eaa044d4b0b8097f2d1252a63.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/8b63a20627f23a3e0e4caf02b1b3c35707c416c0.pdf?dl= (8b63a20627f23a3e0e4caf02b1b3c35707c416c0.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/1adf3b9c26de394bb77da658aa545c451bdafa87.pdf?dl= (1adf3b9c26de394bb77da658aa545c451bdafa87.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/ef8f277bbf16f4be159144dcc755671b4fafc3b1.pdf?dl= (ef8f277bbf16f4be159144dcc755671b4fafc3b1.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/2b8e1a82b93473447fbfbf2584268fbf169bc648.pdf?dl= (2b8e1a82b93473447fbfbf2584268fbf169bc648.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/5d0958c4d07e9e14c0dc39365647717db06243f5.pdf?dl= (5d0958c4d07e9e14c0dc39365647717db06243f5.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/3f5b5a99f699fa914a3dfa8d3603cedaab515ce3.pdf?dl= (3f5b5a99f699fa914a3dfa8d3603cedaab515ce3.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/5f96f40538c920802b5fbee46faf73e793c9dd14.pdf?dl= (5f96f40538c920802b5fbee46faf73e793c9dd14.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/7a760107f3bc2f673a3ddbdba5c28b542d18092b.pdf?dl= (7a760107f3bc2f673a3ddbdba5c28b542d18092b.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/1668eaad1e79a7f75f04a0e97253eb80c8260048.pdf?dl= (1668eaad1e79a7f75f04a0e97253eb80c8260048.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/07a9e3f8c814663aca505a5b62b06138cc5df08d.pdf?dl= (07a9e3f8c814663aca505a5b62b06138cc5df08d.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/276e476f947164a6450408f1c6a5c8644f5d9e0e.pdf?dl= (276e476f947164a6450408f1c6a5c8644f5d9e0e.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/1abbe6600c3d8fdd784a7655393b4794615527d0.pdf?dl= (1abbe6600c3d8fdd784a7655393b4794615527d0.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/85866d27edd5dde62b0a5ee2a8782b9619cff0a9.pdf?dl= (85866d27edd5dde62b0a5ee2a8782b9619cff0a9.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/931b4551089100150791ae0fe3bb2ddb7cfd1b7c.pdf?dl= (931b4551089100150791ae0fe3bb2ddb7cfd1b7c.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/7b7bc7dc29f22c942470fce9260f03d0ce9dca8c.pdf?dl= (7b7bc7dc29f22c942470fce9260f03d0ce9dca8c.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/6b1f611816aa0645e9f2a2130e52156629a49307.pdf?dl= (6b1f611816aa0645e9f2a2130e52156629a49307.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/ed883fc89a9fb172b59a0ff8ce9818a21908ff4a.pdf?dl= (ed883fc89a9fb172b59a0ff8ce9818a21908ff4a.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/ec90a4f8305fbab8f31d3024eed0df3fcba33320.pdf?dl= (ec90a4f8305fbab8f31d3024eed0df3fcba33320.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/4eb08954c54044db1b0b7181dd02d9659fa1b2d5.pdf?dl= (4eb08954c54044db1b0b7181dd02d9659fa1b2d5.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/8182ed2052bf86e11f646e02edea8d26fd8adcb1.pdf?dl= (8182ed2052bf86e11f646e02edea8d26fd8adcb1.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/8ab058c4b0e03a71c5b12174aa9c17fe13888572.pdf?dl= (8ab058c4b0e03a71c5b12174aa9c17fe13888572.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/ecaeba3914bdfd854244137766274ddd8c2526cd.pdf?dl= (ecaeba3914bdfd854244137766274ddd8c2526cd.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/2a2555a9c99c57e6b63008fea34e962d1fa6720b.pdf?dl= (2a2555a9c99c57e6b63008fea34e962d1fa6720b.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/bbdf09182371efa703b522bb3bb48df4193eef8f.pdf?dl= (bbdf09182371efa703b522bb3bb48df4193eef8f.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/7bc138abcc70976581460999aadcdbe1133c38e0.pdf?dl= (7bc138abcc70976581460999aadcdbe1133c38e0.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/d4301c514c266dc8f75a9c012c995a9857a2184f.pdf?dl= (d4301c514c266dc8f75a9c012c995a9857a2184f.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/c68d64a59a51dc4afaefccc42b0e5ea8788b8928.pdf?dl= (c68d64a59a51dc4afaefccc42b0e5ea8788b8928.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/b2d36cdfaf04d6125a97ea8b076a8cbd9b05de59.pdf?dl= (b2d36cdfaf04d6125a97ea8b076a8cbd9b05de59.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/f7994b92a252783dde5cf75afe943f6ad22150dd.pdf?dl= (f7994b92a252783dde5cf75afe943f6ad22150dd.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/523e476cf746d9b2f6313d5f77a108f7220dd248.pdf?dl= (523e476cf746d9b2f6313d5f77a108f7220dd248.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/92c254cb58f07238f6bc41fa42ff2a05f04c7fa7.pdf?dl= (92c254cb58f07238f6bc41fa42ff2a05f04c7fa7.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/4bd0ed3725e6de082c8b36906c39690d9961178a.pdf?dl= (4bd0ed3725e6de082c8b36906c39690d9961178a.pdf?dl=)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/26157d3569373840e021aa9c1863c685dc6f0d4c.pdf (26157d3569373840e021aa9c1863c685dc6f0d4c.pdf)
-- https://assets-cms.kraken.com/files/51n36hrp/facade/660ec6fd2f27b4c082972a867658709bf0e3eace.pdf (660ec6fd2f27b4c082972a867658709bf0e3eace.pdf)

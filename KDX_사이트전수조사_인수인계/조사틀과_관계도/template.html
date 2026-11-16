@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>미국 주식 토큰 조사 틀과 관계도</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* 배치: 위에 한 줄 결론과 조작부, 가운데 5개 줄(lane)의 관계 그림과 설명 칸, 아래에 전체 관계 표 */
+  --bg:#FAF7F7; --panel:#FFFFFF; --ink:#1F1A1B; --muted:#6E6668; --line:#DCD6D7; --band:#F3EEEF;
+  --accent:#A32020; --accent2:#DB536A; --soft:#F8DDE1;
+  --body:"Nanum Gothic",Arial,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#171314; --panel:#211C1D; --ink:#F2ECED; --muted:#A99FA2; --line:#3B3336; --band:#1D1819;
+    --accent:#E57373; --accent2:#EE93A4; --soft:#3A2227; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#171314; --panel:#211C1D; --ink:#F2ECED; --muted:#A99FA2; --line:#3B3336; --band:#1D1819;
+  --accent:#E57373; --accent2:#EE93A4; --soft:#3A2227; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
+.wrap{max-width:1320px;margin:0 auto;padding:24px 20px 56px;display:flex;flex-direction:column;gap:18px}
+h1{font-size:26px;font-weight:800;margin:0;text-wrap:balance}
+.lead{margin:0;max-width:70ch;color:var(--ink)}
+.meta{color:var(--muted);font-size:13px;margin:0}
+.controls{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.group{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.group b{font-size:13px;color:var(--muted);font-weight:700;margin-right:2px}
+button{font-family:inherit;font-size:13px;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+button:hover{border-color:var(--accent)}
+button:focus-visible,.node:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button[aria-pressed="true"]{background:var(--soft);border-color:var(--accent);font-weight:700}
+button[aria-pressed="false"].chip{opacity:.5}
+.main{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:16px;align-items:start}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px}
+.figure{margin:0;padding:8px;overflow-x:auto}
+.figure svg{display:block;width:100%;min-width:860px;height:auto}
+figcaption{font-size:13px;color:var(--muted);padding:6px 8px 4px}
+.panel{padding:16px;position:sticky;top:60px;max-height:calc(100vh - 72px);overflow:auto}
+.panel h2{font-size:18px;margin:0 0 2px;font-weight:800}
+.panel .sub{color:var(--muted);font-size:13px;margin:0 0 10px}
+.panel ul{margin:8px 0 0;padding-left:18px}
+.panel li{margin:0 0 6px}
+.rel{border-top:1px solid var(--line);padding:10px 0 2px;margin-top:10px}
+.rel p{margin:4px 0}
+.tag{display:inline-block;font-size:12px;font-weight:700;border-radius:4px;padding:1px 6px;border:1px solid var(--line);margin-right:6px;white-space:nowrap}
+.grade{font-size:12px;color:var(--muted);white-space:nowrap}
+a{color:var(--accent)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line)}
+th{font-size:12.5px;color:var(--muted);font-weight:700;background:var(--band)}
+.tablewrap{overflow-x:auto}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+h3{font-size:19px;margin:0;font-weight:800;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px}
+h4{font-size:14px;margin:0 0 4px;font-weight:800}
+.toc{display:flex;flex-wrap:wrap;gap:6px;position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line)}
+.toc a{font-size:13px;color:var(--ink);text-decoration:none;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:5px 11px}
+.toc a:hover,.toc a:focus-visible{border-color:var(--accent);outline:none}
+.sec{padding:18px;display:flex;flex-direction:column;gap:12px;scroll-margin-top:64px}
+.sec ul{margin:0;padding-left:18px}.sec li{margin:0 0 4px}
+.no{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:var(--accent);color:var(--panel);font-size:14px}
+.kind{font-size:12.5px;font-weight:400;color:var(--muted)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.two>div{background:var(--band);border-radius:8px;padding:12px 14px}
+.note{font-size:13px;color:var(--muted);margin:0}
+.lanehead{font:700 12.5px var(--body);fill:var(--muted)}
+.band{fill:var(--band)}
+.node rect{fill:var(--panel);stroke:var(--line);stroke-width:1.2}
+.node.issuer rect{stroke:var(--accent2);stroke-width:2}
+.node text.nm{font:800 13px var(--body);fill:var(--ink)}
+.node text.sb{font:400 11px var(--body);fill:var(--muted)}
+.node{cursor:pointer}
+.node.sel rect{fill:var(--soft);stroke:var(--accent);stroke-width:2.2}
+.dim{opacity:.13}
+.edge{fill:none}
+.e-acq{stroke:var(--accent);stroke-width:2.6}
+.e-inv{stroke:var(--accent);stroke-width:1.9;stroke-dasharray:7 4}
+.e-ally{stroke:var(--ink);stroke-width:1.6}
+.e-infra{stroke:var(--muted);stroke-width:1.7;stroke-dasharray:2 4}
+.e-supply{stroke:var(--accent2);stroke-width:2.2}
+.e-claim{stroke:var(--muted);stroke-width:1.1;stroke-dasharray:1 5}
+.e-rival{stroke:var(--ink);stroke-width:1.4;stroke-dasharray:10 4 2 4}
+.h-acq,.h-inv{fill:var(--accent)} .h-infra{fill:var(--muted)} .h-supply{fill:var(--accent2)}
+.elabel rect{fill:var(--panel);stroke:var(--line)}
+.elabel text{font:700 11.5px var(--body);fill:var(--ink)}
+.swatch{width:34px;height:10px;flex:none}
+@media (max-width:980px){.main{grid-template-columns:1fr}.panel{position:static;max-height:none}}
+@media (prefers-reduced-motion:no-preference){.node rect,.edge{transition:opacity .15s}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header style="display:flex;flex-direction:column;gap:8px">
+    <h1>미국 주식 토큰 조사 틀과 관계도</h1>
+    <p class="lead">처음 던진 관심사 7개를 겹치지 않는 대분류 8개로 다시 묶고, 지금까지 확인된 사실과 남은 확인을 칸마다 붙였음. 회사 사이의 관계는 F에서 그림으로 봄.</p>
+    <p class="meta">기준일 2026-11-16. 근거 등급: 공식(회사나 감독기관의 공식 자료), 보도(언론 보도), 리서치팩(프로젝트 리서치팩 11/11 검증분). 여기 없는 내용은 아직 확인하지 않은 것임.</p>
+  </header>
+
+  <nav class="toc" aria-label="대분류 바로가기"><!--NAV--></nav>
+<!--GRAPH-START-->
+  <div class="controls">
+    <div class="group" id="chips"><b>관계 유형</b></div>
+    <div class="group" id="presets"><b>초점</b></div>
+  </div>
+
+  <div class="main">
+    <figure class="card figure">
+      <svg id="g" viewBox="0 0 1180 716" role="img" aria-label="미국 주식 토큰 사업자 사이의 인수, 투자, 제휴, 인프라 제공, 상품 공급 관계 그림. 같은 내용이 아래 표에 있음"></svg>
+      <figcaption>분홍 굵은 테두리는 주식 토큰을 직접 발행하는 회사. 화살표는 인수한 쪽에서 인수된 쪽, 투자한 쪽에서 투자받은 쪽, 제공하는 쪽에서 받는 쪽으로 향함. 선에 이름표는 회사를 눌렀을 때 나옴.</figcaption>
+    </figure>
+    <aside class="card panel" id="panel" aria-live="polite"></aside>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <h4>전체 관계 표</h4>
+    <p class="note">위 그림과 같은 내용. 관계 유형 단추와 초점 단추로 걸러짐.</p>
+    <div class="tablewrap"><table id="tbl"><thead><tr><th>유형</th><th>주는 쪽</th><th>받는 쪽</th><th>내용</th><th>시점</th><th>근거</th></tr></thead><tbody></tbody></table></div>
+  </div>
+<!--GRAPH-END-->
+</div>
+
+<script>
+/*DATA*/const W=172,H=46,HS=38,svg=document.getElementById("g"),NS="http://www.w3.org/2000/svg";
+const nodes={};N.forEach(([id,nm,sb,lane,y,iss,memo])=>nodes[id]={id,nm,sb,x:LANES[lane][0],y,iss,memo,h:lane===4?HS:H});
+let sel=null,off=new Set();
+const el=(t,a={},p=svg)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);p.appendChild(e);return e};
+function clip(a,b){const dx=b.x-a.x,dy=b.y-a.y,hw=W/2+3,hh=a.h/2+3;const t=Math.min(dx?hw/Math.abs(dx):1e9,dy?hh/Math.abs(dy):1e9);return{x:a.x+dx*t,y:a.y+dy*t}}
+function draw(){
+  svg.innerHTML="";
+  LANES.forEach(([x,t],i)=>{el("rect",{x:x-W/2-14,y:14,width:W+28,height:i===2?560:686,rx:10,class:"band"});el("text",{x,y:36,"text-anchor":"middle",class:"lanehead"}).textContent=t});
+  el("rect",{x:590-W/2-14,y:590,width:W+28,height:110,rx:10,class:"band"});el("text",{x:590,y:612,"text-anchor":"middle",class:"lanehead"}).textContent="한국";
+  const seen={},labels=[];
+  E.forEach((e,i)=>{
+    const[s,t,ty,txt]=e;if(off.has(ty))return;
+    const a=nodes[s],b=nodes[t],key=[s,t].sort().join("|"),j=seen[key]=(seen[key]||0)+1;
+    const p0=clip(a,b),p1=clip(b,a),mx=(p0.x+p1.x)/2,my=(p0.y+p1.y)/2,dx=p1.x-p0.x,dy=p1.y-p0.y,L=Math.hypot(dx,dy)||1;
+    const sign=(s<t?1:-1)*(j%2?1:-1),k=(10+18*Math.ceil(j/2)+L*0.05)*sign,cx=mx-dy/L*k,cy=my+dx/L*k;
+    const on=!sel||s===sel||t===sel;
+    el("path",{d:`M${p0.x},${p0.y} Q${cx},${cy} ${p1.x},${p1.y}`,class:`edge e-${ty}${on?"":" dim"}`});
+    if(TYPES[ty].arrow){const ang=Math.atan2(p1.y-cy,p1.x-cx)*180/Math.PI;el("polygon",{points:"0,0 -11,-5 -11,5",transform:`translate(${p1.x},${p1.y}) rotate(${ang})`,class:`h-${ty}${on?"":" dim"}`})}
+    if(sel&&on&&L>=170)labels.push([0.25*p0.x+0.5*cx+0.25*p1.x,0.25*p0.y+0.5*cy+0.25*p1.y,TYPES[ty].k+(e[4]&&/^\d/.test(e[4])?" "+e[4]:"")]);
+  });
+  Object.values(nodes).forEach(n=>{
+    const linked=!sel||n.id===sel||E.some(e=>!off.has(e[2])&&((e[0]===sel&&e[1]===n.id)||(e[1]===sel&&e[0]===n.id)));
+    const g=el("g",{class:`node${n.iss?" issuer":""}${n.id===sel?" sel":""}${linked?"":" dim"}`,tabindex:0,role:"button","aria-label":n.nm+", "+n.sb});
+    el("rect",{x:n.x-W/2,y:n.y-n.h/2,width:W,height:n.h,rx:8},g);
+    el("text",{x:n.x,y:n.y-(n.h===H?3:1),"text-anchor":"middle",class:"nm"},g).textContent=n.nm;
+    el("text",{x:n.x,y:n.y+(n.h===H?13:12),"text-anchor":"middle",class:"sb"},g).textContent=n.sb;
+    const pick=()=>{sel=sel===n.id?null:n.id;render()};g.addEventListener("click",pick);g.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();pick()}});
+  });
+  labels.forEach(([x,y,t])=>{const g=el("g",{class:"elabel"}),w=t.length*11.5+14;el("rect",{x:x-w/2,y:y-11,width:w,height:21,rx:5},g);el("text",{x,y:y+4,"text-anchor":"middle"},g).textContent=t});
+}
+const srcHtml=k=>{const s=SRC[k];return (s[1]?`<a href="${s[1]}" target="_blank" rel="noopener">${s[0]}</a>`:s[0])+` <span class="grade">[${s[2]}]</span>`};
+function panel(){
+  const p=document.getElementById("panel");
+  if(!sel){p.innerHTML=`<h2>읽는 법</h2><p class="sub">회사를 누르면 관계와 출처가 여기에 나옴</p>
+  <ul><li><b>접점과 상품이 따로 있음.</b> Binance와 Trust Wallet은 Ondo가 만든 주식 토큰을 받아서 팔고, Kraken은 발행사 Backed를 사들였음.</li>
+  <li><b>실물 주식은 소수의 보관 증권사에 모임.</b> Kraken, Coinbase, Dinari의 뒤에 모두 Alpaca가 있음.</li>
+  <li><b>기존 거래소도 들어옴.</b> Nasdaq은 Payward와 통로를 공동 개발하고 1억 달러 투자에 합의했음.</li>
+  <li><b>같은 두 회사가 여러 관계를 가짐.</b> Coinbase는 Ondo의 투자자이자 수탁 제공자이면서 주식 토큰에서는 경쟁사임.</li>
+  <li><b>선의 굵기가 다름.</b> 인수와 투자는 굵은 선, 행사 동반이나 파트너 명시처럼 회사가 내세운 협력은 가는 점선으로 구분했음.</li></ul>
+  <p class="note" style="margin-top:10px">위 다섯 줄은 아래 표의 사실을 묶어 읽은 해석임.</p>`;return}
+  const n=nodes[sel],rs=E.filter(e=>!off.has(e[2])&&(e[0]===sel||e[1]===sel));
+  p.innerHTML=`<h2>${n.nm}</h2><p class="sub">${n.sb}${n.iss?", 주식 토큰 직접 발행":""}</p>`+
+   (n.memo.length?`<ul>${n.memo.map(m=>{const[t,k]=m.split("|");return `<li>${t}${k?" "+srcHtml(k):""}</li>`}).join("")}</ul>`:"")+
+   rs.map(e=>`<div class="rel"><p><span class="tag">${TYPES[e[2]].k}</span><b>${nodes[e[0]].nm}</b> ${TYPES[e[2]].arrow?"→":"↔"} <b>${nodes[e[1]].nm}</b>${e[4]?` <span class="grade">${e[4]}</span>`:""}</p><p>${e[3]}</p><p>${srcHtml(e[5])}</p></div>`).join("")+
+   (rs.length?"":`<p class="note">확인된 관계 없음</p>`);
+}
+function table(){
+  document.querySelector("#tbl tbody").innerHTML=E.filter(e=>!off.has(e[2])&&(!sel||e[0]===sel||e[1]===sel)).map(e=>`<tr><td><span class="tag">${TYPES[e[2]].k}</span></td><td>${nodes[e[0]].nm}</td><td>${nodes[e[1]].nm}</td><td>${e[3]}</td><td class="num">${e[4]||""}</td><td>${srcHtml(e[5])}</td></tr>`).join("");
+}
+function controls(){
+  const c=document.getElementById("chips");c.querySelectorAll("button").forEach(b=>b.remove());
+  Object.entries(TYPES).forEach(([k,v])=>{const b=document.createElement("button");b.className="chip";b.id="chip-"+k;b.setAttribute("aria-pressed",String(!off.has(k)));
+    b.innerHTML=`<svg class="swatch" viewBox="0 0 34 10" aria-hidden="true"><line x1="1" y1="5" x2="33" y2="5" class="edge e-${k}"></line></svg>${v.k}`;
+    b.onclick=()=>{off.has(k)?off.delete(k):off.add(k);render()};c.appendChild(b)});
+  const p=document.getElementById("presets");p.querySelectorAll("button").forEach(b=>b.remove());
+  [["전체",null],["Payward (Kraken)","payward"],["Coinbase","coinbase"],["Ondo","ondo"],["Dinari","dinari"],["Alpaca","alpaca"],["카카오페이증권","kakao"]].forEach(([t,id],i)=>{const b=document.createElement("button");b.id="preset-"+i;b.textContent=t;b.setAttribute("aria-pressed",String(sel===id));b.onclick=()=>{sel=id;render()};p.appendChild(b)});
+}
+function render(){draw();panel();table();controls()}
+render();
+</script>
+</body>
+</html>

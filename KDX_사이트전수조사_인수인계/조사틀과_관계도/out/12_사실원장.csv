@@ -1,0 +1,107 @@
+﻿대분류,소분류,회사,사실,시점,출처,출처 주소,근거 등급
+출신과 진입,출신,Payward (Kraken),가상자산 거래소. Kraken의 모회사,,Kraken 블로그 2026.3.9,https://blog.kraken.com/news/payward-partners-with-nasdaq,공식
+출신과 진입,진입 시점,Payward (Kraken),주식 토큰 xStocks를 2025년에 출시,2025,Kraken 블로그 2025.12.2,https://blog.kraken.com/news/backed-acquisition,공식
+출신과 진입,진입 방식,Payward (Kraken),발행사 Backed의 상품을 팔다가 Backed 인수에 합의,2025.12,Kraken 블로그 2025.12.2,https://blog.kraken.com/news/backed-acquisition,공식
+출신과 진입,출신,Coinbase,가상자산 거래소. 미국 상장사,,Cointelegraph 2026.8.24,https://cointelegraph.com/news/coinbase-taps-chainlink-for-tokenized-stock-data-on-base,보도
+출신과 진입,진입 시점,Coinbase,자체 블록체인 Base에서 주식 토큰 출시,2026.8.24,Cointelegraph 2026.8.24,https://cointelegraph.com/news/coinbase-taps-chainlink-for-tokenized-stock-data-on-base,보도
+출신과 진입,진입 방식,Coinbase,아부다비 금융특구에 세운 법인으로 직접 발행. 법인 설립은 2026.6,2026.6,Genfinity 2026.8.25,https://genfinity.io/2026/08/25/coinbase-tokenized-stocks-live-on-base,보도
+출신과 진입,출신,Binance,가상자산 거래소,,The Block 2026.2.24,https://www.theblock.co/post/391030/binance-brings-back-tokenized-stocks-via-ondo-finance-partnership,보도
+출신과 진입,진입 시점,Binance,주식 토큰을 2021.4에 냈다가 규제 당국 경고 속에 2021.7 중단,2021,The Block 2021.7.16,https://www.theblock.co/post/111661/binance-ceases-stock-tokens-trading,보도
+출신과 진입,진입 시점,Binance,Ondo 상품으로 재개,2026.2.24,The Block 2026.2.24,https://www.theblock.co/post/391030/binance-brings-back-tokenized-stocks-via-ondo-finance-partnership,보도
+출신과 진입,진입 방식,Binance,자체 발행이 아니라 Ondo의 주식 토큰 10종을 받아 판매,2026.2,The Block 2026.2.24,https://www.theblock.co/post/391030/binance-brings-back-tokenized-stocks-via-ondo-finance-partnership,보도
+출신과 진입,출신,Ondo,토큰화 전문. 국채 토큰에서 시작해 주식으로 넓힘,,머니투데이 2026.9.29,https://www.mt.co.kr/stock/2026/09/29/2026092916273597892,보도
+출신과 진입,진입 시점,Ondo,미국 밖 투자자 대상으로 주식과 ETF 토큰 100종 넘게 출시,2025.9,Blockworks 2025.9,https://blockworks.co/news/tokenized-stocks-on-ethereum,보도
+출신과 진입,진입 방식,Ondo,상품은 자체 발행. 미국 인가는 Oasis Pro 인수로 확보,2025.10,"Ondo 블로그, 2025 정리",https://ondo.finance/blog/2025-recap,공식
+출신과 진입,출신,Dinari,토큰화 전문. 주식 토큰 발행과 유통 인프라 회사,,Dinari 블로그 2026.9.30,https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities,공식
+출신과 진입,진입 시점,Dinari,미국 투자자 대상 판매를 2026년에 시작,2026,Dinari 블로그 2026.9.18,https://dinari.com/blog/the-secs-innovation-exemption-advances-the-market-for-tokenized-equities,공식
+출신과 진입,출신,Nasdaq,기존 증권거래소,,Kraken 블로그 2026.3.9,https://blog.kraken.com/news/payward-partners-with-nasdaq,공식
+출신과 진입,진입 시점,Nasdaq,자체 주식 토큰 설계를 2027 상반기 가동 예정으로 발표,2026.3,Kraken 블로그 2026.3.9,https://blog.kraken.com/news/payward-partners-with-nasdaq,공식
+출신과 진입,출신,Securitize,토큰화 전문. 운용사 펀드 토큰화,,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+출신과 진입,출신,Robinhood,주식 거래 앱,,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+상품 구조,토큰의 법적 성격,Ondo,채무증권(구조화 노트). 토큰 보유자는 기초 주식의 주주명부에 오르지 않음,,"Ondo 문서, 법적 구조",https://docs.ondo.finance/ondo-stocks/legal-and-regulatory,공식
+상품 구조,발행 주체,Ondo,영국령 버진아일랜드의 특수목적법인. 보유자 권리는 스위스법 적용,,"Ondo 문서, 법적 구조",https://docs.ondo.finance/ondo-stocks/legal-and-regulatory,공식
+상품 구조,기초 주식 보관,Ondo,규제 받는 수탁 증권사에 1대1로 보관하고 담보권 설정,,"Ondo 문서, 법적 구조",https://docs.ondo.finance/ondo-stocks/legal-and-regulatory,공식
+상품 구조,규모,Ondo,주식 토큰 예치자산 10억 달러 돌파,2026.5,머니투데이 2026.9.29,https://www.mt.co.kr/stock/2026/09/29/2026092916273597892,보도
+상품 구조,토큰의 법적 성격,Coinbase,신탁 구조로 보관된 실물 주식에 대한 청구권이라고 설명,,Base 주식 안내,https://www.base.org/stocks,공식
+상품 구조,발행 주체,Coinbase,아부다비 금융특구 법인. 현지 금융당국 인가,2026.8,Base 주식 안내,https://www.base.org/stocks,공식
+상품 구조,투자자 권리,Coinbase,배당과 주식 분할은 토큰 수를 바꾸지 않고 배수 조정으로 처리,,Base 주식 안내,https://www.base.org/stocks,공식
+상품 구조,기초 주식 보관,Coinbase,Alpaca가 파산 절연 구조로 보관,,Base 주식 안내,https://www.base.org/stocks,공식
+상품 구조,토큰의 법적 성격,Dinari,실물 주식을 1대1로 보관하는 방식. 배당과 의결권을 포함한 주주 권리 보존을 내세움,,Dinari 블로그 2026.9.30,https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities,공식
+상품 구조,기초 주식 보관,Dinari,청산 회사 Alpaca Securities의 증권 계좌에 보관,,Dinari 블로그 2026.9.18,https://dinari.com/blog/the-secs-innovation-exemption-advances-the-market-for-tokenized-equities,공식
+상품 구조,규모,Dinari,미국 주식과 ETF 700종 넘게 취급,2026,Dinari 블로그 2026.9.18,https://dinari.com/blog/the-secs-innovation-exemption-advances-the-market-for-tokenized-equities,공식
+상품 구조,발행 주체,Payward (Kraken),xStocks는 Backed가 발행. Kraken이 Backed 인수에 합의,2025.12,Kraken 블로그 2025.12.2,https://blog.kraken.com/news/backed-acquisition,공식
+상품 구조,규모,Payward (Kraken),xStocks 누적 거래 250억 달러 초과. 블록체인 위 결제 40억 달러 초과. 보유자 8.5만 명 초과,2026.3,Kraken 블로그 2026.3.9,https://blog.kraken.com/news/payward-partners-with-nasdaq,공식
+상품 구조,토큰의 법적 성격,Securitize,주주명부 자체가 블록체인 장부. Figure와 Superstate도 같은 유형,,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+상품 구조,토큰의 법적 성격,Robinhood,미국 밖에서 파는 채무증권형 토큰,,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+최종 투자자,국적 및 지역 제한,Payward (Kraken),"xStocks는 미국 밖 일부 국가의 개인만 가능. 미국, 캐나다, 영국, 호주는 불가",,Kraken xStocks 안내,https://www.kraken.com/xstocks,공식
+최종 투자자,최소 투자금액,Payward (Kraken),1달러부터 가능하다고 안내,,Kraken xStocks 안내,https://www.kraken.com/xstocks,공식
+최종 투자자,국적 및 지역 제한,Coinbase,미국 밖 자격 지역만 가능. 미국 투자자 제외,2026.8,Cointelegraph 2026.8.24,https://cointelegraph.com/news/coinbase-taps-chainlink-for-tokenized-stock-data-on-base,보도
+최종 투자자,국적 및 지역 제한,Ondo,미국 거주자는 살 수 없음,,"Ondo 문서, 이용 자격",https://docs.ondo.finance/ondo-stocks/eligibility,공식
+최종 투자자,국적 및 지역 제한,Ondo,"출시 당시 미국, 영국, 유럽경제지역 거주자 제외",2025.9,Blockworks 2025.9,https://blockworks.co/news/tokenized-stocks-on-ethereum,보도
+최종 투자자,국적 및 지역 제한,Binance,Ondo 상품 판매에서 미국 이용자 제외,2026.2,The Block 2026.2.24,https://www.theblock.co/post/391030/binance-brings-back-tokenized-stocks-via-ondo-finance-partnership,보도
+최종 투자자,국적 및 지역 제한,Dinari,미국 투자자에게 자회사 증권사를 통해 판매,2026,Dinari 블로그 2026.9.18,https://dinari.com/blog/the-secs-innovation-exemption-advances-the-market-for-tokenized-equities,공식
+최종 투자자,국적 및 지역 제한,Dinari,해외 85개 넘는 국가와 지역에서 운영,2026.9,이코노미스트 2026.9.29,https://economist.co.kr/article/view/ecn202609290038,보도
+유통과 접점,자체 접점,Payward (Kraken),자기 거래소 앱에서 판매,,Kraken xStocks 안내,https://www.kraken.com/xstocks,공식
+유통과 접점,거래 장소,Payward (Kraken),"미국 안 일반 주식은 주문 접수만 직접 하고 체결, 청산, 보관은 Alpaca에 위탁",,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+유통과 접점,자체 접점,Coinbase,자기 블록체인 Base와 거래소를 보유. 토큰은 Base 위 금융 앱에서 거래와 담보로 사용,2026.8,Base 주식 안내,https://www.base.org/stocks,공식
+유통과 접점,공급 방식,Binance,접점만 제공. 상품은 Ondo 것,2026.2,The Block 2026.2.24,https://www.theblock.co/post/391030/binance-brings-back-tokenized-stocks-via-ondo-finance-partnership,보도
+유통과 접점,공급 방식,Ondo,자체 앱에서도 팔고 Binance와 Trust Wallet에도 공급,,Blockworks 2025.9,https://blockworks.co/news/tokenized-stocks-on-ethereum,보도
+유통과 접점,공급 방식,Dinari,파트너가 증권사 인가 없이 주식 토큰을 팔 수 있게 API로 공급,,Dinari 사업 안내,https://dinari.com/business,공식
+유통과 접점,거래 장소,Securitize,자체 대체거래시스템. Figure와 tZERO도 대체거래시스템 운영,,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+인가,보유 인가와 법인,Securitize,"증권사, 대체거래시스템, 명의개서대리인",,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+인가,취득 시점과 방식,Securitize,명의개서대리인 등록 2019.7. 증권사는 2020.11 인수로 확보,2019~2020,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+인가,인가로 하는 사업과 개시 시점,Securitize,토큰 보관과 즉시 결제에 대한 업무 변경 승인,2026.5,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+인가,보유 인가와 법인,Ondo,"증권사, 대체거래시스템, 명의개서대리인 3종. Oasis Pro 보유분",2025.10,"Ondo 블로그, 2025 정리",https://ondo.finance/blog/2025-recap,공식
+인가,취득 시점과 방식,Ondo,인가 보유 회사 Oasis Pro 인수,2025.10,"Ondo 블로그, 2025 정리",https://ondo.finance/blog/2025-recap,공식
+인가,인가로 하는 사업과 개시 시점,Ondo,미국 안 토큰 업무 시작,2026.7,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+인가,보유 인가와 법인,Dinari,SEC 등록 명의개서대리인. 자회사 Dinari Securities는 SEC 등록 증권사이자 FINRA 회원,,Dinari 미국 고지 사항,https://dinari.com/us/disclosures,공식
+인가,인가로 하는 사업과 개시 시점,Dinari,자회사 증권사를 통해 미국 투자자에게 주식 토큰 판매,2026,Dinari 블로그 2026.9.18,https://dinari.com/blog/the-secs-innovation-exemption-advances-the-market-for-tokenized-equities,공식
+인가,보유 인가와 법인,Superstate,명의개서대리인,2025.3,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+인가,보유 인가와 법인,Coinbase,토큰 주식은 아부다비 금융당국 인가로 발행. 미국 고객의 일반 주식은 별도 증권사 법인으로 운영,2026.8,crypto.news,https://crypto.news/coinbase-adds-six-tokenized-stocks-after-228m-debut/,보도
+인가,인가 없는 구간을 메우는 방법,Payward (Kraken),"미국 안에서는 체결, 청산, 보관을 Alpaca에 위탁. 주식 토큰은 미국 밖에서만 판매",,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+인가,인가 없는 구간을 메우는 방법,Coinbase,미국 주식 거래의 청산은 Apex가 대행,,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+한국 접점,한국 회사와의 협약,Ondo,카카오페이증권과 협약. 한국 상장주식 해외 유통 체계와 토큰화 인프라 공동 연구,2026.9.29,SBS Biz 2026.9.29,https://biz.sbs.co.kr/amp/article/20000337347,보도
+한국 접점,한국 회사와의 협약,Ondo,카카오페이증권이 밝힌 선택 이유는 글로벌 유통망,2026.9.29,SBS Biz 2026.9.29,https://biz.sbs.co.kr/amp/article/20000337347,보도
+한국 접점,한국 회사와의 협약,Dinari,카카오페이증권과 협약. 원주 조달 기반 위에서 한국 주식 토큰화 개념검증,2026.9.29,Dinari 블로그 2026.9.30,https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities,공식
+한국 접점,한국 회사와의 협약,Dinari,카카오페이증권이 밝힌 선택 이유는 미국 규제 아래 토큰화 증권을 운영해 본 경험,2026.9.29,SBS Biz 2026.9.29,https://biz.sbs.co.kr/amp/article/20000337347,보도
+한국 접점,한국 주식 취급,Dinari,1대1 보관 방식을 한국 상장주식에 적용하는 방안 검토. 유통은 Dinari의 미국과 해외 파트너망,2026.9,Dinari 블로그 2026.9.30,https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities,공식
+한국 접점,한국 주식 취급,Dinari,실제 토큰 주식 출시 여부는 미정. 연내 공동 작업반 구성,2026.9,이코노미스트 2026.9.29,https://economist.co.kr/article/view/ecn202609290038,보도
+제도와 시장,인가별 절차와 소요 기간,공통,명의개서대리인은 신청 후 30일째 효력. 상장 주식을 다룰 때 의무,,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+제도와 시장,인가별 절차와 소요 기간,공통,증권사는 FINRA가 신규 가입 신청을 접수 후 180일 안에 심사,,FINRA 가입 심사 안내,https://www.finra.org/industry/after-you-apply,공식
+제도와 시장,인가별 절차와 소요 기간,공통,대체거래시스템은 별도 인가가 아니라 증권사가 내는 운영 신고,,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+제도와 시장,인가별 절차와 소요 기간,공통,청산기관 등록을 받은 신규 사업자는 Paxos 계열 1곳. 임시 등록,2026.5,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+제도와 시장,등록된 곳 수,공통,명의개서대리인 약 320곳. 그중 SEC 등록 260여 곳,2025.9,SEC 명의개서대리인 통계,https://www.sec.gov/data-research/statistics-data-visualizations/transfer-agents,공식
+제도와 시장,가상자산과 증권 인가 체계의 차이,공통,주식 토큰은 증권이라 증권 인가가 필요. Coinbase도 미국 일반 주식은 증권사 법인으로 운영,,crypto.news,https://crypto.news/coinbase-adds-six-tokenized-stocks-after-228m-debut/,보도
+제도와 시장,규제 변화 연표,공통,"Binance 주식 토큰 중단. 독일, 홍콩 등 규제 당국 경고",2021.7,The Block 2021.7.16,https://www.theblock.co/post/111661/binance-ceases-stock-tokens-trading,보도
+제도와 시장,규제 변화 연표,공통,SEC가 명의개서대리인 규칙 개정을 제안. 분산원장 사용 허용 포함,2026.9.1,"Global FinReg Blog, SEC 규칙 개정 제안",https://www.globalfinregblog.com/?p=4341,보도
+제도와 시장,규제 변화 연표,공통,SEC 혁신 면제로 거래소도 대체거래시스템도 아닌 토큰 거래시설 지위 신설,2026.9,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+관계,인수,Payward (Kraken) > Backed,xStocks 발행사 인수 합의,2025.12,Kraken 블로그 2025.12.2,https://blog.kraken.com/news/backed-acquisition,공식
+관계,인수,Payward (Kraken) > NinjaTrader,15억 달러에 인수 합의,2025.3,Kraken 블로그 2025.3.20,https://blog.kraken.com/news/kraken-to-acquire-ninjatrader,공식
+관계,인수,Payward (Kraken) > Breakout,인수,2025.9,Kraken 블로그 2025.9.4,https://blog.kraken.com/news/kraken-acquires-breakout,공식
+관계,인수,Payward (Kraken) > Small Exchange,인수,2025.10,Kraken 블로그 2025.10.16,https://blog.kraken.com/news/acquires-small-exchange,공식
+관계,인수,Payward (Kraken) > Magna,인수,2026.2,Kraken 블로그 2026.2.18,https://blog.kraken.com/news/payward-acquires-magna,공식
+관계,인수,Payward (Kraken) > Bitnomial,인수 합의,2026.4,Kraken 블로그 2026.4.17,https://blog.kraken.com/news/payward-acquires-bitnomial,공식
+관계,인수,Payward (Kraken) > Reap,인수 발표,2026.5,Kraken 블로그 2026.5.7,https://blog.kraken.com/global/reap-acquisition-cn,공식
+관계,투자,Nasdaq > Payward (Kraken),1억 달러 투자 합의,2026.9,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+관계,제휴와 협약,Nasdaq > Payward (Kraken),Nasdaq 주식 토큰과 xStocks를 잇는 통로 공동 개발. Payward가 해당 거래의 주 결제 층,2026.3,Kraken 블로그 2026.3.9,https://blog.kraken.com/news/payward-partners-with-nasdaq,공식
+관계,투자,ICE > OKX,OKX에 투자,리서치팩 9장,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+관계,인수,Ondo > Oasis Pro,미국 인가 3종을 가진 회사 인수,2025.10,"Ondo 블로그, 2025 정리",https://ondo.finance/blog/2025-recap,공식
+관계,상품 공급,Ondo > Binance,Ondo 주식 토큰 10종을 Binance Alpha와 Wallet에 공급,2026.2,The Block 2026.2.24,https://www.theblock.co/post/391030/binance-brings-back-tokenized-stocks-via-ondo-finance-partnership,보도
+관계,상품 공급,Ondo > Trust Wallet,Ondo 주식 토큰을 지갑 앱에 공급,2025.9,Blockworks 2025.9,https://blockworks.co/news/tokenized-stocks-on-ethereum,보도
+관계,투자,Coinbase > Ondo,Coinbase Ventures가 Ondo 투자자,2024.2 글 기준,Ondo 블로그 2024.2,https://ondo.finance/blog/ondo-finance-expands-risk-and-compliance-team-adding-additional-goldman-alum,공식
+관계,보관과 청산 제공,Coinbase > Ondo,Ondo 상품의 USDC 수납 계좌를 Coinbase Prime이 수탁,,"Ondo 문서, 주소 목록",https://docs.ondo.finance/addresses,공식
+관계,경쟁,Coinbase > Ondo,미국 밖 미국 주식 토큰 판매에서 경쟁. Ondo는 Coinbase 주식 토큰도 발행,2026.8 이후,"DefiLlama, COINon",https://defillama.com/rwa/asset/COINon,보도
+관계,상품 공급,BlackRock > Ondo,Ondo 국채 토큰(OUSG) 자금을 BlackRock 토큰 펀드 BUIDL에 넣어 운용,,"Ondo 블로그, BUIDL 활용",https://ondo.finance/blog/building-on-buidl-how-ondo-leverages-blackrocks-tokenized-treasuries,공식
+관계,보관과 청산 제공,Securitize > BlackRock,"BUIDL을 BlackRock과 함께 출시, 토큰화 담당",2024.3,"Ondo 블로그, BUIDL 활용",https://ondo.finance/blog/building-on-buidl-how-ondo-leverages-blackrocks-tokenized-treasuries,공식
+관계,보관과 청산 제공,Circle > BlackRock,BUIDL과 USDC 사이 상시 환매 유동성 제공,2024.3,"Ondo 블로그, BUIDL 활용",https://ondo.finance/blog/building-on-buidl-how-ondo-leverages-blackrocks-tokenized-treasuries,공식
+관계,보관과 청산 제공,Alpaca > Payward (Kraken),"Kraken 미국 주식 거래의 체결, 청산, 보관 대행",,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+관계,보관과 청산 제공,Alpaca > Dinari,"Dinari Securities의 청산 회사, 실물 주식 보관",,Dinari 블로그 2026.9.18,https://dinari.com/blog/the-secs-innovation-exemption-advances-the-market-for-tokenized-equities,공식
+관계,보관과 청산 제공,Alpaca > Coinbase,Coinbase 주식 토큰의 실물 주식 보관,2026.8,Base 주식 안내,https://www.base.org/stocks,공식
+관계,보관과 청산 제공,Apex > Coinbase,Coinbase 미국 주식 거래의 청산 대행,,프로젝트 문서 KDX 7-9장 핸드오프 v3,,리서치팩
+관계,회사가 내세운 협력,Alpaca > Ondo,Ondo가 생태계 참여사로 Alpaca를 명시,,"Ondo 문서, 주식 토큰",https://docs.ondo.finance/ondo-stocks,공식
+관계,제휴와 협약,Dinari > tZERO,증권사가 토큰 주식을 취급할 수 있는 운영 틀 공동 구축,2026.7,Dinari 블로그 2026.7.8,https://dinari.com/blog/dinari-and-tzero-partner,공식
+관계,제휴와 협약,Dinari > Circle,미국 주식 약 700종의 스테이블코인 결제와 배당 지급 지원,2026.8,이코노미스트 2026.9.29,https://economist.co.kr/article/view/ecn202609290038,보도
+관계,제휴와 협약,카카오페이증권 > Ondo,"협약: 한국 상장주식 해외 유통 체계, 토큰화 인프라 공동 연구",2026.9.29,SBS Biz 2026.9.29,https://biz.sbs.co.kr/amp/article/20000337347,보도
+관계,제휴와 협약,카카오페이증권 > Dinari,협약: 원주 조달 기반 위에서 한국 주식 토큰화 개념검증,2026.9.29,Dinari 블로그 2026.9.30,https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities,공식
+관계,회사가 내세운 협력,Ondo > 대형 금융사 여럿,2026.2 Ondo 행사 무대에 함께 선다고 Ondo가 공지,2026.2,"Ondo 블로그, 2025 정리",https://ondo.finance/blog/2025-recap,공식
+관계,회사가 내세운 협력,Ondo > BlackRock,Ondo가 기관 파트너로 BlackRock을 명시,,Ondo 블로그 2024.2,https://ondo.finance/blog/ondo-finance-expands-risk-and-compliance-team-adding-additional-goldman-alum,공식

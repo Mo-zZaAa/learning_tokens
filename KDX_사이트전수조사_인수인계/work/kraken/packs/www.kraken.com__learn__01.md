@@ -17,7 +17,7 @@
 | https://www.kraken.com/at/learn/how-to-stake-bitcoin |  |  |
 
 
-## 목록만 둔 URL 671건 (inventory.csv에서 plan=list)
+## 목록만 둔 URL 672건 (inventory.csv에서 plan=list)
 - https://www.kraken.com/learn/ai-and-crypto-survey
 - https://www.kraken.com/learn/ai-stocks-to-watch
 - https://www.kraken.com/learn/algorithmic-stablecoins

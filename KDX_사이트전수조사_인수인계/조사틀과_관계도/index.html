@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>미국 주식 토큰 조사 틀과 관계도</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* 배치: 위에 한 줄 결론과 조작부, 가운데 5개 줄(lane)의 관계 그림과 설명 칸, 아래에 전체 관계 표 */
+  --bg:#FAF7F7; --panel:#FFFFFF; --ink:#1F1A1B; --muted:#6E6668; --line:#DCD6D7; --band:#F3EEEF;
+  --accent:#A32020; --accent2:#DB536A; --soft:#F8DDE1;
+  --body:"Nanum Gothic",Arial,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#171314; --panel:#211C1D; --ink:#F2ECED; --muted:#A99FA2; --line:#3B3336; --band:#1D1819;
+    --accent:#E57373; --accent2:#EE93A4; --soft:#3A2227; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#171314; --panel:#211C1D; --ink:#F2ECED; --muted:#A99FA2; --line:#3B3336; --band:#1D1819;
+  --accent:#E57373; --accent2:#EE93A4; --soft:#3A2227; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
+.wrap{max-width:1320px;margin:0 auto;padding:24px 20px 56px;display:flex;flex-direction:column;gap:18px}
+h1{font-size:26px;font-weight:800;margin:0;text-wrap:balance}
+.lead{margin:0;max-width:70ch;color:var(--ink)}
+.meta{color:var(--muted);font-size:13px;margin:0}
+.controls{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.group{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.group b{font-size:13px;color:var(--muted);font-weight:700;margin-right:2px}
+button{font-family:inherit;font-size:13px;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+button:hover{border-color:var(--accent)}
+button:focus-visible,.node:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button[aria-pressed="true"]{background:var(--soft);border-color:var(--accent);font-weight:700}
+button[aria-pressed="false"].chip{opacity:.5}
+.main{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:16px;align-items:start}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px}
+.figure{margin:0;padding:8px;overflow-x:auto}
+.figure svg{display:block;width:100%;min-width:860px;height:auto}
+figcaption{font-size:13px;color:var(--muted);padding:6px 8px 4px}
+.panel{padding:16px;position:sticky;top:60px;max-height:calc(100vh - 72px);overflow:auto}
+.panel h2{font-size:18px;margin:0 0 2px;font-weight:800}
+.panel .sub{color:var(--muted);font-size:13px;margin:0 0 10px}
+.panel ul{margin:8px 0 0;padding-left:18px}
+.panel li{margin:0 0 6px}
+.rel{border-top:1px solid var(--line);padding:10px 0 2px;margin-top:10px}
+.rel p{margin:4px 0}
+.tag{display:inline-block;font-size:12px;font-weight:700;border-radius:4px;padding:1px 6px;border:1px solid var(--line);margin-right:6px;white-space:nowrap}
+.grade{font-size:12px;color:var(--muted);white-space:nowrap}
+a{color:var(--accent)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line)}
+th{font-size:12.5px;color:var(--muted);font-weight:700;background:var(--band)}
+.tablewrap{overflow-x:auto}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+h3{font-size:19px;margin:0;font-weight:800;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px}
+h4{font-size:14px;margin:0 0 4px;font-weight:800}
+.toc{display:flex;flex-wrap:wrap;gap:6px;position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line)}
+.toc a{font-size:13px;color:var(--ink);text-decoration:none;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:5px 11px}
+.toc a:hover,.toc a:focus-visible{border-color:var(--accent);outline:none}
+.sec{padding:18px;display:flex;flex-direction:column;gap:12px;scroll-margin-top:64px}
+.sec ul{margin:0;padding-left:18px}.sec li{margin:0 0 4px}
+.no{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:var(--accent);color:var(--panel);font-size:14px}
+.kind{font-size:12.5px;font-weight:400;color:var(--muted)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.two>div{background:var(--band);border-radius:8px;padding:12px 14px}
+.note{font-size:13px;color:var(--muted);margin:0}
+.lanehead{font:700 12.5px var(--body);fill:var(--muted)}
+.band{fill:var(--band)}
+.node rect{fill:var(--panel);stroke:var(--line);stroke-width:1.2}
+.node.issuer rect{stroke:var(--accent2);stroke-width:2}
+.node text.nm{font:800 13px var(--body);fill:var(--ink)}
+.node text.sb{font:400 11px var(--body);fill:var(--muted)}
+.node{cursor:pointer}
+.node.sel rect{fill:var(--soft);stroke:var(--accent);stroke-width:2.2}
+.dim{opacity:.13}
+.edge{fill:none}
+.e-acq{stroke:var(--accent);stroke-width:2.6}
+.e-inv{stroke:var(--accent);stroke-width:1.9;stroke-dasharray:7 4}
+.e-ally{stroke:var(--ink);stroke-width:1.6}
+.e-infra{stroke:var(--muted);stroke-width:1.7;stroke-dasharray:2 4}
+.e-supply{stroke:var(--accent2);stroke-width:2.2}
+.e-claim{stroke:var(--muted);stroke-width:1.1;stroke-dasharray:1 5}
+.e-rival{stroke:var(--ink);stroke-width:1.4;stroke-dasharray:10 4 2 4}
+.h-acq,.h-inv{fill:var(--accent)} .h-infra{fill:var(--muted)} .h-supply{fill:var(--accent2)}
+.elabel rect{fill:var(--panel);stroke:var(--line)}
+.elabel text{font:700 11.5px var(--body);fill:var(--ink)}
+.swatch{width:34px;height:10px;flex:none}
+@media (max-width:980px){.main{grid-template-columns:1fr}.panel{position:static;max-height:none}}
+@media (prefers-reduced-motion:no-preference){.node rect,.edge{transition:opacity .15s}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header style="display:flex;flex-direction:column;gap:8px">
+    <h1>미국 주식 토큰 조사 틀과 관계도</h1>
+    <p class="lead">처음 던진 관심사 7개를 겹치지 않는 대분류 8개로 다시 묶고, 지금까지 확인된 사실과 남은 확인을 칸마다 붙였음. 회사 사이의 관계는 F에서 그림으로 봄.</p>
+    <p class="meta">기준일 2026-11-16. 근거 등급: 공식(회사나 감독기관의 공식 자료), 보도(언론 보도), 리서치팩(프로젝트 리서치팩 11/11 검증분). 여기 없는 내용은 아직 확인하지 않은 것임.</p>
+  </header>
+
+  <nav class="toc" aria-label="대분류 바로가기"><a href="#frame">틀 한눈에</a><a href="#a">A 출신과 진입</a><a href="#b">B 상품 구조</a><a href="#c">C 최종 투자자</a><a href="#d">D 유통과 접점</a><a href="#e">E 인가</a><a href="#f">F 관계</a><a href="#g">G 한국 접점</a><a href="#h">H 제도와 시장</a></nav>
+<section class="card sec" id="frame"><h3>틀 한눈에</h3><div class="tablewrap"><table><thead><tr><th>대분류</th><th>조사 질문</th><th>내 관심사 번호</th><th>구분</th><th>확인된 사실</th></tr></thead><tbody>
+<tr><td><a href="#a"><b>A 출신과 진입</b></a></td><td>출신, 진입 시점, 진입 방식</td><td class="num">1, 2</td><td>필수</td><td class="num">19건</td></tr>
+<tr><td><a href="#b"><b>B 상품 구조</b></a></td><td>토큰의 법적 성격, 발행 주체, 투자자 권리, 기초 주식 보관, 규모, 수수료</td><td class="num">2</td><td>필수</td><td class="num">15건</td></tr>
+<tr><td><a href="#c"><b>C 최종 투자자</b></a></td><td>대상, 국적 및 지역 제한, 최소 투자금액</td><td class="num">2</td><td>필수</td><td class="num">8건</td></tr>
+<tr><td><a href="#d"><b>D 유통과 접점</b></a></td><td>자체 접점, 거래 장소, 공급 방식</td><td class="num">2, 3</td><td>필수</td><td class="num">7건</td></tr>
+<tr><td><a href="#e"><b>E 인가</b></a></td><td>보유 인가와 법인, 취득 시점과 방식, 인가로 하는 사업과 개시 시점, 인가 없는 구간을 메우는 방법</td><td class="num">5, 6</td><td>필수</td><td class="num">12건</td></tr>
+<tr><td><a href="#f"><b>F 관계</b></a></td><td>인수, 투자, 제휴, 보관과 청산 제공, 상품 공급, 경쟁</td><td class="num">7</td><td>선택</td><td class="num">30건</td></tr>
+<tr><td><a href="#g"><b>G 한국 접점</b></a></td><td>한국 회사와의 협약, 한국 주식 취급, 한국 투자자 대상 판매</td><td class="num">4</td><td>선택</td><td class="num">6건</td></tr>
+<tr><td><a href="#h"><b>H 제도와 시장</b></a></td><td>인가별 절차와 소요 기간, 등록된 곳 수, 가상자산과 증권 인가 체계의 차이, 규제 변화 연표</td><td class="num">6</td><td>공통</td><td class="num">9건</td></tr>
+</tbody></table></div><p class="note">필수는 회사마다 채우는 칸, 선택은 해당 있을 때만 쓰는 칸, 공통은 회사별이 아니라 한 번만 정리하는 칸. 관심사 번호는 처음 던진 질문 7개의 번호.</p></section>
+<section class="card sec" id="a"><h3><span class="no">A</span>출신과 진입 <span class="kind">필수, 관심사 1, 2</span></h3>
+<p class="note">조사 질문: 출신(무엇을 하던 회사인가: 가상자산 거래소, 주식 앱, 토큰화 전문, 기존 금융 인프라) / 진입 시점(주식 토큰을 언제 시작했는가. 중단과 재개 포함) / 진입 방식(직접 만들었는가, 사들였는가, 남의 상품을 받아 파는가)</p>
+<div class="tablewrap"><table><thead><tr><th>항목</th><th>회사</th><th>확인된 사실</th><th>시점</th><th>근거</th></tr></thead><tbody>
+<tr><td>출신</td><td><b>Binance</b></td><td>가상자산 거래소</td><td class="num"></td><td><a href="https://www.theblock.co/post/391030/binance-brings-back-tokenized-stocks-via-ondo-finance-partnership" target="_blank" rel="noopener">The Block 2026.2.24</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>출신</td><td><b>Coinbase</b></td><td>가상자산 거래소. 미국 상장사</td><td class="num"></td><td><a href="https://cointelegraph.com/news/coinbase-taps-chainlink-for-tokenized-stock-data-on-base" target="_blank" rel="noopener">Cointelegraph 2026.8.24</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>출신</td><td><b>Dinari</b></td><td>토큰화 전문. 주식 토큰 발행과 유통 인프라 회사</td><td class="num"></td><td><a href="https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities" target="_blank" rel="noopener">Dinari 블로그 2026.9.30</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>출신</td><td><b>Nasdaq</b></td><td>기존 증권거래소</td><td class="num"></td><td><a href="https://blog.kraken.com/news/payward-partners-with-nasdaq" target="_blank" rel="noopener">Kraken 블로그 2026.3.9</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>출신</td><td><b>Ondo</b></td><td>토큰화 전문. 국채 토큰에서 시작해 주식으로 넓힘</td><td class="num"></td><td><a href="https://www.mt.co.kr/stock/2026/09/29/2026092916273597892" target="_blank" rel="noopener">머니투데이 2026.9.29</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>출신</td><td><b>Payward (Kraken)</b></td><td>가상자산 거래소. Kraken의 모회사</td><td class="num"></td><td><a href="https://blog.kraken.com/news/payward-partners-with-nasdaq" target="_blank" rel="noopener">Kraken 블로그 2026.3.9</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>출신</td><td><b>Robinhood</b></td><td>주식 거래 앱</td><td class="num"></td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>출신</td><td><b>Securitize</b></td><td>토큰화 전문. 운용사 펀드 토큰화</td><td class="num"></td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>진입 시점</td><td><b>Binance</b></td><td>주식 토큰을 2021.4에 냈다가 규제 당국 경고 속에 2021.7 중단</td><td class="num">2021</td><td><a href="https://www.theblock.co/post/111661/binance-ceases-stock-tokens-trading" target="_blank" rel="noopener">The Block 2021.7.16</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>진입 시점</td><td><b>Binance</b></td><td>Ondo 상품으로 재개</td><td class="num">2026.2.24</td><td><a href="https://www.theblock.co/post/391030/binance-brings-back-tokenized-stocks-via-ondo-finance-partnership" target="_blank" rel="noopener">The Block 2026.2.24</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>진입 시점</td><td><b>Coinbase</b></td><td>자체 블록체인 Base에서 주식 토큰 출시</td><td class="num">2026.8.24</td><td><a href="https://cointelegraph.com/news/coinbase-taps-chainlink-for-tokenized-stock-data-on-base" target="_blank" rel="noopener">Cointelegraph 2026.8.24</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>진입 시점</td><td><b>Dinari</b></td><td>미국 투자자 대상 판매를 2026년에 시작</td><td class="num">2026</td><td><a href="https://dinari.com/blog/the-secs-innovation-exemption-advances-the-market-for-tokenized-equities" target="_blank" rel="noopener">Dinari 블로그 2026.9.18</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>진입 시점</td><td><b>Nasdaq</b></td><td>자체 주식 토큰 설계를 2027 상반기 가동 예정으로 발표</td><td class="num">2026.3</td><td><a href="https://blog.kraken.com/news/payward-partners-with-nasdaq" target="_blank" rel="noopener">Kraken 블로그 2026.3.9</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>진입 시점</td><td><b>Ondo</b></td><td>미국 밖 투자자 대상으로 주식과 ETF 토큰 100종 넘게 출시</td><td class="num">2025.9</td><td><a href="https://blockworks.co/news/tokenized-stocks-on-ethereum" target="_blank" rel="noopener">Blockworks 2025.9</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>진입 시점</td><td><b>Payward (Kraken)</b></td><td>주식 토큰 xStocks를 2025년에 출시</td><td class="num">2025</td><td><a href="https://blog.kraken.com/news/backed-acquisition" target="_blank" rel="noopener">Kraken 블로그 2025.12.2</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>진입 방식</td><td><b>Binance</b></td><td>자체 발행이 아니라 Ondo의 주식 토큰 10종을 받아 판매</td><td class="num">2026.2</td><td><a href="https://www.theblock.co/post/391030/binance-brings-back-tokenized-stocks-via-ondo-finance-partnership" target="_blank" rel="noopener">The Block 2026.2.24</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>진입 방식</td><td><b>Coinbase</b></td><td>아부다비 금융특구에 세운 법인으로 직접 발행. 법인 설립은 2026.6</td><td class="num">2026.6</td><td><a href="https://genfinity.io/2026/08/25/coinbase-tokenized-stocks-live-on-base" target="_blank" rel="noopener">Genfinity 2026.8.25</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>진입 방식</td><td><b>Ondo</b></td><td>상품은 자체 발행. 미국 인가는 Oasis Pro 인수로 확보</td><td class="num">2025.10</td><td><a href="https://ondo.finance/blog/2025-recap" target="_blank" rel="noopener">Ondo 블로그, 2025 정리</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>진입 방식</td><td><b>Payward (Kraken)</b></td><td>발행사 Backed의 상품을 팔다가 Backed 인수에 합의</td><td class="num">2025.12</td><td><a href="https://blog.kraken.com/news/backed-acquisition" target="_blank" rel="noopener">Kraken 블로그 2025.12.2</a> <span class="grade">[공식]</span></td></tr>
+</tbody></table></div>
+<div class="two">
+<div><h4>이렇게 읽음(해석)</h4><ul><li>출신이 비어 있는 것을 정함. 거래소는 고객은 있으나 증권 인가와 발행 구조가 없어 사들이거나 받아 옴. 토큰화 전문 회사는 인가와 구조는 있으나 접점이 없어 남의 앱에 공급</li><li>거래소는 늦게 온 것이 아님. 2021년에 먼저 했다가 규제에 막혀 접고 2025~2026년에 돌아옴</li></ul></div>
+<div><h4>남은 확인</h4><ul><li>Kraken xStocks의 정확한 출시일</li><li>Robinhood 주식 토큰의 출시 시점과 구조(공식 자료)</li><li>Dinari 주식 토큰의 최초 출시 시점</li><li>Coinbase가 직접 발행을 택한 이유(회사 발표)</li></ul></div>
+</div></section>
+<section class="card sec" id="b"><h3><span class="no">B</span>상품 구조 <span class="kind">필수, 관심사 2</span></h3>
+<p class="note">조사 질문: 토큰의 법적 성격(주식 자체인가, 보관된 주식에 대한 청구권인가, 채무증권인가) / 발행 주체(어느 나라의 어느 법인이 발행하는가) / 투자자 권리(배당, 의결권, 실물 주식 전환) / 기초 주식 보관(누가 어디에 보관하는가) / 규모(종목 수, 거래액, 보유자 수) / 수수료(거래, 발행, 상환에 드는 비용)</p>
+<div class="tablewrap"><table><thead><tr><th>항목</th><th>회사</th><th>확인된 사실</th><th>시점</th><th>근거</th></tr></thead><tbody>
+<tr><td>토큰의 법적 성격</td><td><b>Coinbase</b></td><td>신탁 구조로 보관된 실물 주식에 대한 청구권이라고 설명</td><td class="num"></td><td><a href="https://www.base.org/stocks" target="_blank" rel="noopener">Base 주식 안내</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>토큰의 법적 성격</td><td><b>Dinari</b></td><td>실물 주식을 1대1로 보관하는 방식. 배당과 의결권을 포함한 주주 권리 보존을 내세움</td><td class="num"></td><td><a href="https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities" target="_blank" rel="noopener">Dinari 블로그 2026.9.30</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>토큰의 법적 성격</td><td><b>Ondo</b></td><td>채무증권(구조화 노트). 토큰 보유자는 기초 주식의 주주명부에 오르지 않음</td><td class="num"></td><td><a href="https://docs.ondo.finance/ondo-stocks/legal-and-regulatory" target="_blank" rel="noopener">Ondo 문서, 법적 구조</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>토큰의 법적 성격</td><td><b>Robinhood</b></td><td>미국 밖에서 파는 채무증권형 토큰</td><td class="num"></td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>토큰의 법적 성격</td><td><b>Securitize</b></td><td>주주명부 자체가 블록체인 장부. Figure와 Superstate도 같은 유형</td><td class="num"></td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>발행 주체</td><td><b>Coinbase</b></td><td>아부다비 금융특구 법인. 현지 금융당국 인가</td><td class="num">2026.8</td><td><a href="https://www.base.org/stocks" target="_blank" rel="noopener">Base 주식 안내</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>발행 주체</td><td><b>Ondo</b></td><td>영국령 버진아일랜드의 특수목적법인. 보유자 권리는 스위스법 적용</td><td class="num"></td><td><a href="https://docs.ondo.finance/ondo-stocks/legal-and-regulatory" target="_blank" rel="noopener">Ondo 문서, 법적 구조</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>발행 주체</td><td><b>Payward (Kraken)</b></td><td>xStocks는 Backed가 발행. Kraken이 Backed 인수에 합의</td><td class="num">2025.12</td><td><a href="https://blog.kraken.com/news/backed-acquisition" target="_blank" rel="noopener">Kraken 블로그 2025.12.2</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>투자자 권리</td><td><b>Coinbase</b></td><td>배당과 주식 분할은 토큰 수를 바꾸지 않고 배수 조정으로 처리</td><td class="num"></td><td><a href="https://www.base.org/stocks" target="_blank" rel="noopener">Base 주식 안내</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>기초 주식 보관</td><td><b>Coinbase</b></td><td>Alpaca가 파산 절연 구조로 보관</td><td class="num"></td><td><a href="https://www.base.org/stocks" target="_blank" rel="noopener">Base 주식 안내</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>기초 주식 보관</td><td><b>Dinari</b></td><td>청산 회사 Alpaca Securities의 증권 계좌에 보관</td><td class="num"></td><td><a href="https://dinari.com/blog/the-secs-innovation-exemption-advances-the-market-for-tokenized-equities" target="_blank" rel="noopener">Dinari 블로그 2026.9.18</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>기초 주식 보관</td><td><b>Ondo</b></td><td>규제 받는 수탁 증권사에 1대1로 보관하고 담보권 설정</td><td class="num"></td><td><a href="https://docs.ondo.finance/ondo-stocks/legal-and-regulatory" target="_blank" rel="noopener">Ondo 문서, 법적 구조</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>규모</td><td><b>Dinari</b></td><td>미국 주식과 ETF 700종 넘게 취급</td><td class="num">2026</td><td><a href="https://dinari.com/blog/the-secs-innovation-exemption-advances-the-market-for-tokenized-equities" target="_blank" rel="noopener">Dinari 블로그 2026.9.18</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>규모</td><td><b>Ondo</b></td><td>주식 토큰 예치자산 10억 달러 돌파</td><td class="num">2026.5</td><td><a href="https://www.mt.co.kr/stock/2026/09/29/2026092916273597892" target="_blank" rel="noopener">머니투데이 2026.9.29</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>규모</td><td><b>Payward (Kraken)</b></td><td>xStocks 누적 거래 250억 달러 초과. 블록체인 위 결제 40억 달러 초과. 보유자 8.5만 명 초과</td><td class="num">2026.3</td><td><a href="https://blog.kraken.com/news/payward-partners-with-nasdaq" target="_blank" rel="noopener">Kraken 블로그 2026.3.9</a> <span class="grade">[공식]</span></td></tr>
+</tbody></table></div>
+<div class="two">
+<div><h4>이렇게 읽음(해석)</h4><ul><li>같은 미국 주식 토큰이라도 주식 자체, 보관된 주식에 대한 청구권, 채무증권으로 갈림. 사업자 간 차별점의 첫째 축</li></ul></div>
+<div><h4>남은 확인</h4><ul><li>xStocks의 법적 성격(Backed 투자설명서 원문)</li><li>상품별 배당과 의결권 처리, 실물 주식 전환 가능 여부</li><li>Coinbase와 Ondo의 종목 수와 거래액</li><li>수수료</li></ul></div>
+</div></section>
+<section class="card sec" id="c"><h3><span class="no">C</span>최종 투자자 <span class="kind">필수, 관심사 2</span></h3>
+<p class="note">조사 질문: 대상(개인, 기관, 적격투자자) / 국적 및 지역 제한(미국 투자자가 살 수 있는가. 제외 지역) / 최소 투자금액</p>
+<div class="tablewrap"><table><thead><tr><th>항목</th><th>회사</th><th>확인된 사실</th><th>시점</th><th>근거</th></tr></thead><tbody>
+<tr><td>국적 및 지역 제한</td><td><b>Binance</b></td><td>Ondo 상품 판매에서 미국 이용자 제외</td><td class="num">2026.2</td><td><a href="https://www.theblock.co/post/391030/binance-brings-back-tokenized-stocks-via-ondo-finance-partnership" target="_blank" rel="noopener">The Block 2026.2.24</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>국적 및 지역 제한</td><td><b>Coinbase</b></td><td>미국 밖 자격 지역만 가능. 미국 투자자 제외</td><td class="num">2026.8</td><td><a href="https://cointelegraph.com/news/coinbase-taps-chainlink-for-tokenized-stock-data-on-base" target="_blank" rel="noopener">Cointelegraph 2026.8.24</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>국적 및 지역 제한</td><td><b>Dinari</b></td><td>미국 투자자에게 자회사 증권사를 통해 판매</td><td class="num">2026</td><td><a href="https://dinari.com/blog/the-secs-innovation-exemption-advances-the-market-for-tokenized-equities" target="_blank" rel="noopener">Dinari 블로그 2026.9.18</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>국적 및 지역 제한</td><td><b>Dinari</b></td><td>해외 85개 넘는 국가와 지역에서 운영</td><td class="num">2026.9</td><td><a href="https://economist.co.kr/article/view/ecn202609290038" target="_blank" rel="noopener">이코노미스트 2026.9.29</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>국적 및 지역 제한</td><td><b>Ondo</b></td><td>미국 거주자는 살 수 없음</td><td class="num"></td><td><a href="https://docs.ondo.finance/ondo-stocks/eligibility" target="_blank" rel="noopener">Ondo 문서, 이용 자격</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>국적 및 지역 제한</td><td><b>Ondo</b></td><td>출시 당시 미국, 영국, 유럽경제지역 거주자 제외</td><td class="num">2025.9</td><td><a href="https://blockworks.co/news/tokenized-stocks-on-ethereum" target="_blank" rel="noopener">Blockworks 2025.9</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>국적 및 지역 제한</td><td><b>Payward (Kraken)</b></td><td>xStocks는 미국 밖 일부 국가의 개인만 가능. 미국, 캐나다, 영국, 호주는 불가</td><td class="num"></td><td><a href="https://www.kraken.com/xstocks" target="_blank" rel="noopener">Kraken xStocks 안내</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>최소 투자금액</td><td><b>Payward (Kraken)</b></td><td>1달러부터 가능하다고 안내</td><td class="num"></td><td><a href="https://www.kraken.com/xstocks" target="_blank" rel="noopener">Kraken xStocks 안내</a> <span class="grade">[공식]</span></td></tr>
+</tbody></table></div>
+<div class="two">
+<div><h4>이렇게 읽음(해석)</h4><ul><li>미국 투자자에게 파는 곳은 미국 증권 인가를 가진 쪽으로 한정됨(Dinari, Securitize, Ondo의 미국 상품)</li></ul></div>
+<div><h4>남은 확인</h4><ul><li>회사별 최소 투자금액과 적격투자자 제한</li><li>Ondo 미국 상품의 대상과 종목</li><li>한국 거주자 가능 여부</li></ul></div>
+</div></section>
+<section class="card sec" id="d"><h3><span class="no">D</span>유통과 접점 <span class="kind">필수, 관심사 2, 3</span></h3>
+<p class="note">조사 질문: 자체 접점(자기 앱이나 거래 화면이 있는가) / 거래 장소(자체 앱, 대체거래시스템, 블록체인 위 장터, 파트너 플랫폼) / 공급 방식(직접 판매, 남의 접점에 공급, 둘 다)</p>
+<div class="tablewrap"><table><thead><tr><th>항목</th><th>회사</th><th>확인된 사실</th><th>시점</th><th>근거</th></tr></thead><tbody>
+<tr><td>자체 접점</td><td><b>Coinbase</b></td><td>자기 블록체인 Base와 거래소를 보유. 토큰은 Base 위 금융 앱에서 거래와 담보로 사용</td><td class="num">2026.8</td><td><a href="https://www.base.org/stocks" target="_blank" rel="noopener">Base 주식 안내</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>자체 접점</td><td><b>Payward (Kraken)</b></td><td>자기 거래소 앱에서 판매</td><td class="num"></td><td><a href="https://www.kraken.com/xstocks" target="_blank" rel="noopener">Kraken xStocks 안내</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>거래 장소</td><td><b>Payward (Kraken)</b></td><td>미국 안 일반 주식은 주문 접수만 직접 하고 체결, 청산, 보관은 Alpaca에 위탁</td><td class="num"></td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>거래 장소</td><td><b>Securitize</b></td><td>자체 대체거래시스템. Figure와 tZERO도 대체거래시스템 운영</td><td class="num"></td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>공급 방식</td><td><b>Binance</b></td><td>접점만 제공. 상품은 Ondo 것</td><td class="num">2026.2</td><td><a href="https://www.theblock.co/post/391030/binance-brings-back-tokenized-stocks-via-ondo-finance-partnership" target="_blank" rel="noopener">The Block 2026.2.24</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>공급 방식</td><td><b>Dinari</b></td><td>파트너가 증권사 인가 없이 주식 토큰을 팔 수 있게 API로 공급</td><td class="num"></td><td><a href="https://dinari.com/business" target="_blank" rel="noopener">Dinari 사업 안내</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>공급 방식</td><td><b>Ondo</b></td><td>자체 앱에서도 팔고 Binance와 Trust Wallet에도 공급</td><td class="num"></td><td><a href="https://blockworks.co/news/tokenized-stocks-on-ethereum" target="_blank" rel="noopener">Blockworks 2025.9</a> <span class="grade">[보도]</span></td></tr>
+</tbody></table></div>
+<div class="two">
+<div><h4>이렇게 읽음(해석)</h4><ul><li>접점 보유와 상품 발행이 따로 있음. 둘 다 가진 곳은 Kraken(인수)과 Coinbase(자체 발행)</li></ul></div>
+<div><h4>남은 확인</h4><ul><li>Robinhood와 Gemini의 구조</li><li>Dinari 파트너 목록과 규모</li><li>상품별로 올라가 있는 블록체인 장터</li></ul></div>
+</div></section>
+<section class="card sec" id="e"><h3><span class="no">E</span>인가 <span class="kind">필수, 관심사 5, 6</span></h3>
+<p class="note">조사 질문: 보유 인가와 법인(증권사, 대체거래시스템, 명의개서대리인, 해외 인가) / 취득 시점과 방식(신규 등록인가 인수인가) / 인가로 하는 사업과 개시 시점 / 인가 없는 구간을 메우는 방법(위탁, 해외 법인)</p>
+<div class="tablewrap"><table><thead><tr><th>항목</th><th>회사</th><th>확인된 사실</th><th>시점</th><th>근거</th></tr></thead><tbody>
+<tr><td>보유 인가와 법인</td><td><b>Coinbase</b></td><td>토큰 주식은 아부다비 금융당국 인가로 발행. 미국 고객의 일반 주식은 별도 증권사 법인으로 운영</td><td class="num">2026.8</td><td><a href="https://crypto.news/coinbase-adds-six-tokenized-stocks-after-228m-debut/" target="_blank" rel="noopener">crypto.news</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>보유 인가와 법인</td><td><b>Dinari</b></td><td>SEC 등록 명의개서대리인. 자회사 Dinari Securities는 SEC 등록 증권사이자 FINRA 회원</td><td class="num"></td><td><a href="https://dinari.com/us/disclosures" target="_blank" rel="noopener">Dinari 미국 고지 사항</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>보유 인가와 법인</td><td><b>Ondo</b></td><td>증권사, 대체거래시스템, 명의개서대리인 3종. Oasis Pro 보유분</td><td class="num">2025.10</td><td><a href="https://ondo.finance/blog/2025-recap" target="_blank" rel="noopener">Ondo 블로그, 2025 정리</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>보유 인가와 법인</td><td><b>Securitize</b></td><td>증권사, 대체거래시스템, 명의개서대리인</td><td class="num"></td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>보유 인가와 법인</td><td><b>Superstate</b></td><td>명의개서대리인</td><td class="num">2025.3</td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>취득 시점과 방식</td><td><b>Ondo</b></td><td>인가 보유 회사 Oasis Pro 인수</td><td class="num">2025.10</td><td><a href="https://ondo.finance/blog/2025-recap" target="_blank" rel="noopener">Ondo 블로그, 2025 정리</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>취득 시점과 방식</td><td><b>Securitize</b></td><td>명의개서대리인 등록 2019.7. 증권사는 2020.11 인수로 확보</td><td class="num">2019~2020</td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>인가로 하는 사업과 개시 시점</td><td><b>Dinari</b></td><td>자회사 증권사를 통해 미국 투자자에게 주식 토큰 판매</td><td class="num">2026</td><td><a href="https://dinari.com/blog/the-secs-innovation-exemption-advances-the-market-for-tokenized-equities" target="_blank" rel="noopener">Dinari 블로그 2026.9.18</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>인가로 하는 사업과 개시 시점</td><td><b>Ondo</b></td><td>미국 안 토큰 업무 시작</td><td class="num">2026.7</td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>인가로 하는 사업과 개시 시점</td><td><b>Securitize</b></td><td>토큰 보관과 즉시 결제에 대한 업무 변경 승인</td><td class="num">2026.5</td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>인가 없는 구간을 메우는 방법</td><td><b>Coinbase</b></td><td>미국 주식 거래의 청산은 Apex가 대행</td><td class="num"></td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>인가 없는 구간을 메우는 방법</td><td><b>Payward (Kraken)</b></td><td>미국 안에서는 체결, 청산, 보관을 Alpaca에 위탁. 주식 토큰은 미국 밖에서만 판매</td><td class="num"></td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+</tbody></table></div>
+<div class="two">
+<div><h4>이렇게 읽음(해석)</h4><ul><li>명부 인가를 먼저 따고 판매 인가는 인수로 당김</li><li>미국 안 토큰 업무 개시가 2026년에 몰림</li></ul></div>
+<div><h4>남은 확인</h4><ul><li>Dinari 명의개서대리인 등록일과 증권사 승인일(SEC, FINRA 등록부)</li><li>Kraken과 Coinbase 증권사 법인의 등록 정보</li><li>회사가 밝힌 인가 취득 이유</li></ul></div>
+</div></section>
+<section class="card sec" id="f"><h3><span class="no">F</span>관계 <span class="kind">선택, 관심사 7</span></h3>
+<p class="note">조사 질문: 인수, 투자, 제휴(해당 있을 때만) / 보관과 청산 제공, 상품 공급(누가 뒤에서 받치고 누가 상품을 대는가) / 경쟁(같은 투자자를 두고 다투는 상대)</p>
+<!--GRAPH-START-->
+  <div class="controls">
+    <div class="group" id="chips"><b>관계 유형</b></div>
+    <div class="group" id="presets"><b>초점</b></div>
+  </div>
+
+  <div class="main">
+    <figure class="card figure">
+      <svg id="g" viewBox="0 0 1180 716" role="img" aria-label="미국 주식 토큰 사업자 사이의 인수, 투자, 제휴, 인프라 제공, 상품 공급 관계 그림. 같은 내용이 아래 표에 있음"></svg>
+      <figcaption>분홍 굵은 테두리는 주식 토큰을 직접 발행하는 회사. 화살표는 인수한 쪽에서 인수된 쪽, 투자한 쪽에서 투자받은 쪽, 제공하는 쪽에서 받는 쪽으로 향함. 선에 이름표는 회사를 눌렀을 때 나옴.</figcaption>
+    </figure>
+    <aside class="card panel" id="panel" aria-live="polite"></aside>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <h4>전체 관계 표</h4>
+    <p class="note">위 그림과 같은 내용. 관계 유형 단추와 초점 단추로 걸러짐.</p>
+    <div class="tablewrap"><table id="tbl"><thead><tr><th>유형</th><th>주는 쪽</th><th>받는 쪽</th><th>내용</th><th>시점</th><th>근거</th></tr></thead><tbody></tbody></table></div>
+  </div>
+
+<div class="two">
+<div><h4>남은 확인</h4><ul><li>BlackRock의 Securitize 투자</li><li>Franklin Templeton의 개별 관계</li><li>Robinhood와 Gemini의 관계</li><li>ICE의 OKX 투자 시점과 규모</li></ul></div>
+</div></section>
+<section class="card sec" id="g"><h3><span class="no">G</span>한국 접점 <span class="kind">선택, 관심사 4</span></h3>
+<p class="note">조사 질문: 한국 회사와의 협약(상대, 내용, 회사가 밝힌 이유) / 한국 주식 취급(한국 상장주식을 토큰으로 만들거나 유통하는가) / 한국 투자자 대상 판매</p>
+<div class="tablewrap"><table><thead><tr><th>항목</th><th>회사</th><th>확인된 사실</th><th>시점</th><th>근거</th></tr></thead><tbody>
+<tr><td>한국 회사와의 협약</td><td><b>Dinari</b></td><td>카카오페이증권과 협약. 원주 조달 기반 위에서 한국 주식 토큰화 개념검증</td><td class="num">2026.9.29</td><td><a href="https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities" target="_blank" rel="noopener">Dinari 블로그 2026.9.30</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>한국 회사와의 협약</td><td><b>Dinari</b></td><td>카카오페이증권이 밝힌 선택 이유는 미국 규제 아래 토큰화 증권을 운영해 본 경험</td><td class="num">2026.9.29</td><td><a href="https://biz.sbs.co.kr/amp/article/20000337347" target="_blank" rel="noopener">SBS Biz 2026.9.29</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>한국 회사와의 협약</td><td><b>Ondo</b></td><td>카카오페이증권과 협약. 한국 상장주식 해외 유통 체계와 토큰화 인프라 공동 연구</td><td class="num">2026.9.29</td><td><a href="https://biz.sbs.co.kr/amp/article/20000337347" target="_blank" rel="noopener">SBS Biz 2026.9.29</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>한국 회사와의 협약</td><td><b>Ondo</b></td><td>카카오페이증권이 밝힌 선택 이유는 글로벌 유통망</td><td class="num">2026.9.29</td><td><a href="https://biz.sbs.co.kr/amp/article/20000337347" target="_blank" rel="noopener">SBS Biz 2026.9.29</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>한국 주식 취급</td><td><b>Dinari</b></td><td>1대1 보관 방식을 한국 상장주식에 적용하는 방안 검토. 유통은 Dinari의 미국과 해외 파트너망</td><td class="num">2026.9</td><td><a href="https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities" target="_blank" rel="noopener">Dinari 블로그 2026.9.30</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>한국 주식 취급</td><td><b>Dinari</b></td><td>실제 토큰 주식 출시 여부는 미정. 연내 공동 작업반 구성</td><td class="num">2026.9</td><td><a href="https://economist.co.kr/article/view/ecn202609290038" target="_blank" rel="noopener">이코노미스트 2026.9.29</a> <span class="grade">[보도]</span></td></tr>
+</tbody></table></div>
+<div class="two">
+<div><h4>이렇게 읽음(해석)</h4><ul><li>방향은 미국 주식을 들여오는 것이 아니라 한국 주식의 해외 유통</li><li>Ondo의 주식 토큰은 미국 거주자가 살 수 없고 Dinari는 미국 투자자에게 팔 수 있음. 미국 개인에게 닿으려면 Dinari 쪽 구조가 필요해 보임</li></ul></div>
+<div><h4>남은 확인</h4><ul><li>협약 원문과 범위</li><li>옴니버스 계좌 추진 상황</li><li>카카오페이증권과 시버트 파이낸셜의 관계</li></ul></div>
+</div></section>
+<section class="card sec" id="h"><h3><span class="no">H</span>제도와 시장 <span class="kind">공통, 관심사 6</span></h3>
+<p class="note">조사 질문: 인가별 절차와 소요 기간(회사별이 아니라 한 번만 정리) / 등록된 곳 수 / 가상자산과 증권 인가 체계의 차이 / 규제 변화 연표</p>
+<div class="tablewrap"><table><thead><tr><th>항목</th><th>회사</th><th>확인된 사실</th><th>시점</th><th>근거</th></tr></thead><tbody>
+<tr><td>인가별 절차와 소요 기간</td><td><b>공통</b></td><td>명의개서대리인은 신청 후 30일째 효력. 상장 주식을 다룰 때 의무</td><td class="num"></td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>인가별 절차와 소요 기간</td><td><b>공통</b></td><td>증권사는 FINRA가 신규 가입 신청을 접수 후 180일 안에 심사</td><td class="num"></td><td><a href="https://www.finra.org/industry/after-you-apply" target="_blank" rel="noopener">FINRA 가입 심사 안내</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>인가별 절차와 소요 기간</td><td><b>공통</b></td><td>대체거래시스템은 별도 인가가 아니라 증권사가 내는 운영 신고</td><td class="num"></td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>인가별 절차와 소요 기간</td><td><b>공통</b></td><td>청산기관 등록을 받은 신규 사업자는 Paxos 계열 1곳. 임시 등록</td><td class="num">2026.5</td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+<tr><td>등록된 곳 수</td><td><b>공통</b></td><td>명의개서대리인 약 320곳. 그중 SEC 등록 260여 곳</td><td class="num">2025.9</td><td><a href="https://www.sec.gov/data-research/statistics-data-visualizations/transfer-agents" target="_blank" rel="noopener">SEC 명의개서대리인 통계</a> <span class="grade">[공식]</span></td></tr>
+<tr><td>가상자산과 증권 인가 체계의 차이</td><td><b>공통</b></td><td>주식 토큰은 증권이라 증권 인가가 필요. Coinbase도 미국 일반 주식은 증권사 법인으로 운영</td><td class="num"></td><td><a href="https://crypto.news/coinbase-adds-six-tokenized-stocks-after-228m-debut/" target="_blank" rel="noopener">crypto.news</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>규제 변화 연표</td><td><b>공통</b></td><td>Binance 주식 토큰 중단. 독일, 홍콩 등 규제 당국 경고</td><td class="num">2021.7</td><td><a href="https://www.theblock.co/post/111661/binance-ceases-stock-tokens-trading" target="_blank" rel="noopener">The Block 2021.7.16</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>규제 변화 연표</td><td><b>공통</b></td><td>SEC가 명의개서대리인 규칙 개정을 제안. 분산원장 사용 허용 포함</td><td class="num">2026.9.1</td><td><a href="https://www.globalfinregblog.com/?p=4341" target="_blank" rel="noopener">Global FinReg Blog, SEC 규칙 개정 제안</a> <span class="grade">[보도]</span></td></tr>
+<tr><td>규제 변화 연표</td><td><b>공통</b></td><td>SEC 혁신 면제로 거래소도 대체거래시스템도 아닌 토큰 거래시설 지위 신설</td><td class="num">2026.9</td><td>프로젝트 문서 KDX 7-9장 핸드오프 v3 <span class="grade">[리서치팩]</span></td></tr>
+</tbody></table></div>
+<div class="two">
+<div><h4>이렇게 읽음(해석)</h4><ul><li>쉬운 인가(명의개서대리인)와 어려운 인가(청산기관)의 차이가 신규 사업자가 채운 칸과 비운 칸을 설명</li></ul></div>
+<div><h4>남은 확인</h4><ul><li>주식 토큰을 다루는 명의개서대리인과 증권사 전수(SEC 등록부 대조)</li><li>가상자산 거래소의 주별 송금업 면허 현황</li><li>혁신 면제 승인 사업자 목록</li></ul></div>
+</div></section><!--GRAPH-END-->
+</div>
+
+<script>
+const TYPES={"acq": {"k": "인수", "arrow": true}, "inv": {"k": "투자", "arrow": true}, "ally": {"k": "제휴와 협약", "arrow": false}, "infra": {"k": "보관과 청산 제공", "arrow": true}, "supply": {"k": "상품 공급", "arrow": true}, "rival": {"k": "경쟁", "arrow": false}, "claim": {"k": "회사가 내세운 협력", "arrow": false}};
+const LANES=[[100, "기존 금융 인프라와 운용사"], [345, "토큰화 전문 회사"], [590, "뒤에서 받치는 회사"], [835, "투자자 접점을 가진 회사"], [1080, "Payward가 인수한 회사"]];
+const SRC={"k_nasdaq": ["Kraken 블로그 2026.3.9", "https://blog.kraken.com/news/payward-partners-with-nasdaq", "공식"], "k_backed": ["Kraken 블로그 2025.12.2", "https://blog.kraken.com/news/backed-acquisition", "공식"], "k_ninja": ["Kraken 블로그 2025.3.20", "https://blog.kraken.com/news/kraken-to-acquire-ninjatrader", "공식"], "k_breakout": ["Kraken 블로그 2025.9.4", "https://blog.kraken.com/news/kraken-acquires-breakout", "공식"], "k_small": ["Kraken 블로그 2025.10.16", "https://blog.kraken.com/news/acquires-small-exchange", "공식"], "k_magna": ["Kraken 블로그 2026.2.18", "https://blog.kraken.com/news/payward-acquires-magna", "공식"], "k_bitnomial": ["Kraken 블로그 2026.4.17", "https://blog.kraken.com/news/payward-acquires-bitnomial", "공식"], "k_reap": ["Kraken 블로그 2026.5.7", "https://blog.kraken.com/global/reap-acquisition-cn", "공식"], "d_kakao": ["Dinari 블로그 2026.9.30", "https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities", "공식"], "d_tzero": ["Dinari 블로그 2026.7.8", "https://dinari.com/blog/dinari-and-tzero-partner", "공식"], "d_exempt": ["Dinari 블로그 2026.9.18", "https://dinari.com/blog/the-secs-innovation-exemption-advances-the-market-for-tokenized-equities", "공식"], "d_biz": ["Dinari 사업 안내", "https://dinari.com/business", "공식"], "o_legal": ["Ondo 문서, 법적 구조", "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory", "공식"], "o_elig": ["Ondo 문서, 이용 자격", "https://docs.ondo.finance/ondo-stocks/eligibility", "공식"], "o_addr": ["Ondo 문서, 주소 목록", "https://docs.ondo.finance/addresses", "공식"], "o_buidl": ["Ondo 블로그, BUIDL 활용", "https://ondo.finance/blog/building-on-buidl-how-ondo-leverages-blackrocks-tokenized-treasuries", "공식"], "o_recap": ["Ondo 블로그, 2025 정리", "https://ondo.finance/blog/2025-recap", "공식"], "o_vc": ["Ondo 블로그 2024.2", "https://ondo.finance/blog/ondo-finance-expands-risk-and-compliance-team-adding-additional-goldman-alum", "공식"], "o_stocks": ["Ondo 문서, 주식 토큰", "https://docs.ondo.finance/ondo-stocks", "공식"], "base": ["Base 주식 안내", "https://www.base.org/stocks", "공식"], "n_sbs": ["SBS Biz 2026.9.29", "https://biz.sbs.co.kr/amp/article/20000337347", "보도"], "n_econ": ["이코노미스트 2026.9.29", "https://economist.co.kr/article/view/ecn202609290038", "보도"], "n_bin": ["The Block 2026.2.24", "https://www.theblock.co/post/391030/binance-brings-back-tokenized-stocks-via-ondo-finance-partnership", "보도"], "n_bin21": ["The Block 2021.7.16", "https://www.theblock.co/post/111661/binance-ceases-stock-tokens-trading", "보도"], "n_bw": ["Blockworks 2025.9", "https://blockworks.co/news/tokenized-stocks-on-ethereum", "보도"], "n_ct": ["Cointelegraph 2026.8.24", "https://cointelegraph.com/news/coinbase-taps-chainlink-for-tokenized-stock-data-on-base", "보도"], "n_cn": ["crypto.news", "https://crypto.news/coinbase-adds-six-tokenized-stocks-after-228m-debut/", "보도"], "n_llama": ["DefiLlama, COINon", "https://defillama.com/rwa/asset/COINon", "보도"], "pack": ["프로젝트 문서 KDX 7-9장 핸드오프 v3", "", "리서치팩"], "k_xstocks": ["Kraken xStocks 안내", "https://www.kraken.com/xstocks", "공식"], "d_bd": ["Dinari 미국 고지 사항", "https://dinari.com/us/disclosures", "공식"], "sec_ta": ["SEC 명의개서대리인 통계", "https://www.sec.gov/data-research/statistics-data-visualizations/transfer-agents", "공식"], "finra": ["FINRA 가입 심사 안내", "https://www.finra.org/industry/after-you-apply", "공식"], "n_tarule": ["Global FinReg Blog, SEC 규칙 개정 제안", "https://www.globalfinregblog.com/?p=4341", "보도"], "n_mt": ["머니투데이 2026.9.29", "https://www.mt.co.kr/stock/2026/09/29/2026092916273597892", "보도"], "n_gen": ["Genfinity 2026.8.25", "https://genfinity.io/2026/08/25/coinbase-tokenized-stocks-live-on-base", "보도"]};
+const N=[["nasdaq", "Nasdaq", "미국 증권거래소", 0, 96, 0, ["자기 방식의 주식 토큰 설계를 2027 상반기 가동 예정으로 발표(Payward와 공동 발표)|k_nasdaq", "자사 상장 주식을 SEC 혁신 면제 토큰 거래시설에서 제외한다는 방침|pack"]], ["ice", "ICE", "NYSE의 모회사", 0, 176, 0, []], ["blackrock", "BlackRock", "세계 최대 자산운용사", 0, 266, 0, ["토큰 펀드 BUIDL을 2024.3 출시|o_buidl"]], ["tradfi", "대형 금융사 여럿", "Fidelity, Franklin 등", 0, 346, 0, ["Ondo가 이름을 든 곳: BlackRock, WisdomTree, DTCC, Fidelity, Franklin Templeton, BNY, State Street 등|o_recap"]], ["securitize", "Securitize", "펀드 토큰화 회사", 1, 96, 0, ["운용사 펀드를 토큰으로 만들어 주는 회사", "증권사, 대체거래시스템, 명의개서대리인을 모두 보유. 명의개서대리인 등록 2019.7, 증권사 인수 2020.11|pack", "팀 안에서는 건우쌤 담당"]], ["ondo", "Ondo", "국채와 주식 토큰 발행", 1, 250, 1, ["주식 토큰은 영국령 버진아일랜드 법인이 발행하는 채무증권. 토큰 보유자는 기초 주식의 주주명부에 오르지 않음|o_legal", "미국 거주자는 살 수 없음|o_elig", "미국 밖 판매 시작 2025.9, 미국 안 토큰 업무 시작 2026.7|pack"]], ["oasis", "Oasis Pro", "미국 인가 3종 보유", 1, 330, 0, ["증권사, 대체거래시스템, 명의개서대리인 인가를 가진 회사|o_recap"]], ["dinari", "Dinari", "주식 토큰 발행과 공급", 1, 440, 1, ["SEC 등록 명의개서대리인. 자회사 Dinari Securities는 등록 증권사|d_exempt", "2026년에 미국 투자자에게 700종 넘는 주식 토큰 판매 시작|d_exempt", "파트너가 증권사 인가 없이 토큰 주식을 팔 수 있게 API로 공급|d_biz"]], ["tzero", "tZERO", "토큰 증권 장터", 1, 520, 0, ["토큰 증권을 사고파는 대체거래시스템 운영사", "팀 안에서는 건우쌤 담당"]], ["backed", "Backed", "xStocks 발행사", 1, 610, 1, ["Kraken이 파는 주식 토큰 xStocks를 발행하던 회사|k_backed"]], ["apex", "Apex", "청산 대행 증권사", 2, 120, 0, []], ["alpaca", "Alpaca", "보관과 청산 대행 증권사", 2, 300, 0, ["미국 주식 토큰 밑 실물의 약 94%를 보관한다는 회사 주장|pack"]], ["circle", "Circle", "USDC 발행사", 2, 440, 0, []], ["okx", "OKX", "가상자산 거래소", 3, 96, 0, []], ["coinbase", "Coinbase", "미국 상장 가상자산 거래소", 3, 200, 1, ["2026.8.24 자체 블록체인 Base에서 주식 토큰 출시. 미국 밖 투자자 대상|n_ct", "발행은 아부다비 금융특구 법인, 실물은 Alpaca 보관|base", "미국 고객의 일반 주식 거래는 별도 증권사 법인으로 운영|n_cn"]], ["binance", "Binance", "세계 최대 가상자산 거래소", 3, 300, 0, ["2021.4 주식 토큰을 냈다가 규제 당국 경고 뒤 2021.7 중단|n_bin21", "2026.2 Ondo 상품으로 다시 시작. 미국 제외|n_bin"]], ["trust", "Trust Wallet", "가상자산 지갑 앱", 3, 380, 0, []], ["payward", "Payward (Kraken)", "Kraken의 모회사", 3, 560, 1, ["미국 안: 주문 접수만 직접 하고 체결, 청산, 보관은 Alpaca에 맡김|pack", "미국 밖: 주식 토큰 xStocks 판매. 누적 거래 250억 달러 초과, 보유자 8.5만 명 초과(2026.3 회사 발표)|k_nasdaq"]], ["ninja", "NinjaTrader", "개인 선물 거래 플랫폼", 4, 420, 0, []], ["breakout", "Breakout", "회사 자금 거래 플랫폼", 4, 468, 0, ["평가를 통과한 개인에게 회사 자금으로 거래하게 해 주는 플랫폼|k_breakout"]], ["small", "Small Exchange", "미국 지정 선물시장", 4, 516, 0, ["미국 상품선물거래위원회 지정 선물시장|k_small"]], ["magna", "Magna", "토큰 배분 관리 도구", 4, 564, 0, []], ["bitnomial", "Bitnomial", "미국 인가 파생상품 거래소", 4, 612, 0, ["미국 상품선물거래위원회 인가 파생상품 거래소|k_bitnomial"]], ["reap", "Reap", "기업 결제와 카드 발급", 4, 660, 0, []], ["kakao", "카카오페이증권", "한국 모바일 증권사", 2, 656, 0, ["2026.9.29 같은 날 Ondo, Dinari와 각각 협약. 목적은 한국 상장주식의 해외 유통|n_sbs", "실제 토큰 주식 출시 여부는 미정|n_econ"]]];
+const E=[["payward", "backed", "acq", "xStocks 발행사 인수 합의", "2025.12", "k_backed"], ["payward", "ninja", "acq", "15억 달러에 인수 합의", "2025.3", "k_ninja"], ["payward", "breakout", "acq", "인수", "2025.9", "k_breakout"], ["payward", "small", "acq", "인수", "2025.10", "k_small"], ["payward", "magna", "acq", "인수", "2026.2", "k_magna"], ["payward", "bitnomial", "acq", "인수 합의", "2026.4", "k_bitnomial"], ["payward", "reap", "acq", "인수 발표", "2026.5", "k_reap"], ["nasdaq", "payward", "inv", "1억 달러 투자 합의", "2026.9", "pack"], ["nasdaq", "payward", "ally", "Nasdaq 주식 토큰과 xStocks를 잇는 통로 공동 개발. Payward가 해당 거래의 주 결제 층", "2026.3", "k_nasdaq"], ["ice", "okx", "inv", "OKX에 투자", "리서치팩 9장", "pack"], ["ondo", "oasis", "acq", "미국 인가 3종을 가진 회사 인수", "2025.10", "o_recap"], ["ondo", "binance", "supply", "Ondo 주식 토큰 10종을 Binance Alpha와 Wallet에 공급", "2026.2", "n_bin"], ["ondo", "trust", "supply", "Ondo 주식 토큰을 지갑 앱에 공급", "2025.9", "n_bw"], ["coinbase", "ondo", "inv", "Coinbase Ventures가 Ondo 투자자", "2024.2 글 기준", "o_vc"], ["coinbase", "ondo", "infra", "Ondo 상품의 USDC 수납 계좌를 Coinbase Prime이 수탁", "", "o_addr"], ["coinbase", "ondo", "rival", "미국 밖 미국 주식 토큰 판매에서 경쟁. Ondo는 Coinbase 주식 토큰도 발행", "2026.8 이후", "n_llama"], ["blackrock", "ondo", "supply", "Ondo 국채 토큰(OUSG) 자금을 BlackRock 토큰 펀드 BUIDL에 넣어 운용", "", "o_buidl"], ["securitize", "blackrock", "infra", "BUIDL을 BlackRock과 함께 출시, 토큰화 담당", "2024.3", "o_buidl"], ["circle", "blackrock", "infra", "BUIDL과 USDC 사이 상시 환매 유동성 제공", "2024.3", "o_buidl"], ["alpaca", "payward", "infra", "Kraken 미국 주식 거래의 체결, 청산, 보관 대행", "", "pack"], ["alpaca", "dinari", "infra", "Dinari Securities의 청산 회사, 실물 주식 보관", "", "d_exempt"], ["alpaca", "coinbase", "infra", "Coinbase 주식 토큰의 실물 주식 보관", "2026.8", "base"], ["apex", "coinbase", "infra", "Coinbase 미국 주식 거래의 청산 대행", "", "pack"], ["alpaca", "ondo", "claim", "Ondo가 생태계 참여사로 Alpaca를 명시", "", "o_stocks"], ["dinari", "tzero", "ally", "증권사가 토큰 주식을 취급할 수 있는 운영 틀 공동 구축", "2026.7", "d_tzero"], ["dinari", "circle", "ally", "미국 주식 약 700종의 스테이블코인 결제와 배당 지급 지원", "2026.8", "n_econ"], ["kakao", "ondo", "ally", "협약: 한국 상장주식 해외 유통 체계, 토큰화 인프라 공동 연구", "2026.9.29", "n_sbs"], ["kakao", "dinari", "ally", "협약: 원주 조달 기반 위에서 한국 주식 토큰화 개념검증", "2026.9.29", "d_kakao"], ["ondo", "tradfi", "claim", "2026.2 Ondo 행사 무대에 함께 선다고 Ondo가 공지", "2026.2", "o_recap"], ["ondo", "blackrock", "claim", "Ondo가 기관 파트너로 BlackRock을 명시", "", "o_vc"]];
+const W=172,H=46,HS=38,svg=document.getElementById("g"),NS="http://www.w3.org/2000/svg";
+const nodes={};N.forEach(([id,nm,sb,lane,y,iss,memo])=>nodes[id]={id,nm,sb,x:LANES[lane][0],y,iss,memo,h:lane===4?HS:H});
+let sel=null,off=new Set();
+const el=(t,a={},p=svg)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);p.appendChild(e);return e};
+function clip(a,b){const dx=b.x-a.x,dy=b.y-a.y,hw=W/2+3,hh=a.h/2+3;const t=Math.min(dx?hw/Math.abs(dx):1e9,dy?hh/Math.abs(dy):1e9);return{x:a.x+dx*t,y:a.y+dy*t}}
+function draw(){
+  svg.innerHTML="";
+  LANES.forEach(([x,t],i)=>{el("rect",{x:x-W/2-14,y:14,width:W+28,height:i===2?560:686,rx:10,class:"band"});el("text",{x,y:36,"text-anchor":"middle",class:"lanehead"}).textContent=t});
+  el("rect",{x:590-W/2-14,y:590,width:W+28,height:110,rx:10,class:"band"});el("text",{x:590,y:612,"text-anchor":"middle",class:"lanehead"}).textContent="한국";
+  const seen={},labels=[];
+  E.forEach((e,i)=>{
+    const[s,t,ty,txt]=e;if(off.has(ty))return;
+    const a=nodes[s],b=nodes[t],key=[s,t].sort().join("|"),j=seen[key]=(seen[key]||0)+1;
+    const p0=clip(a,b),p1=clip(b,a),mx=(p0.x+p1.x)/2,my=(p0.y+p1.y)/2,dx=p1.x-p0.x,dy=p1.y-p0.y,L=Math.hypot(dx,dy)||1;
+    const sign=(s<t?1:-1)*(j%2?1:-1),k=(10+18*Math.ceil(j/2)+L*0.05)*sign,cx=mx-dy/L*k,cy=my+dx/L*k;
+    const on=!sel||s===sel||t===sel;
+    el("path",{d:`M${p0.x},${p0.y} Q${cx},${cy} ${p1.x},${p1.y}`,class:`edge e-${ty}${on?"":" dim"}`});
+    if(TYPES[ty].arrow){const ang=Math.atan2(p1.y-cy,p1.x-cx)*180/Math.PI;el("polygon",{points:"0,0 -11,-5 -11,5",transform:`translate(${p1.x},${p1.y}) rotate(${ang})`,class:`h-${ty}${on?"":" dim"}`})}
+    if(sel&&on&&L>=170)labels.push([0.25*p0.x+0.5*cx+0.25*p1.x,0.25*p0.y+0.5*cy+0.25*p1.y,TYPES[ty].k+(e[4]&&/^\d/.test(e[4])?" "+e[4]:"")]);
+  });
+  Object.values(nodes).forEach(n=>{
+    const linked=!sel||n.id===sel||E.some(e=>!off.has(e[2])&&((e[0]===sel&&e[1]===n.id)||(e[1]===sel&&e[0]===n.id)));
+    const g=el("g",{class:`node${n.iss?" issuer":""}${n.id===sel?" sel":""}${linked?"":" dim"}`,tabindex:0,role:"button","aria-label":n.nm+", "+n.sb});
+    el("rect",{x:n.x-W/2,y:n.y-n.h/2,width:W,height:n.h,rx:8},g);
+    el("text",{x:n.x,y:n.y-(n.h===H?3:1),"text-anchor":"middle",class:"nm"},g).textContent=n.nm;
+    el("text",{x:n.x,y:n.y+(n.h===H?13:12),"text-anchor":"middle",class:"sb"},g).textContent=n.sb;
+    const pick=()=>{sel=sel===n.id?null:n.id;render()};g.addEventListener("click",pick);g.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();pick()}});
+  });
+  labels.forEach(([x,y,t])=>{const g=el("g",{class:"elabel"}),w=t.length*11.5+14;el("rect",{x:x-w/2,y:y-11,width:w,height:21,rx:5},g);el("text",{x,y:y+4,"text-anchor":"middle"},g).textContent=t});
+}
+const srcHtml=k=>{const s=SRC[k];return (s[1]?`<a href="${s[1]}" target="_blank" rel="noopener">${s[0]}</a>`:s[0])+` <span class="grade">[${s[2]}]</span>`};
+function panel(){
+  const p=document.getElementById("panel");
+  if(!sel){p.innerHTML=`<h2>읽는 법</h2><p class="sub">회사를 누르면 관계와 출처가 여기에 나옴</p>
+  <ul><li><b>접점과 상품이 따로 있음.</b> Binance와 Trust Wallet은 Ondo가 만든 주식 토큰을 받아서 팔고, Kraken은 발행사 Backed를 사들였음.</li>
+  <li><b>실물 주식은 소수의 보관 증권사에 모임.</b> Kraken, Coinbase, Dinari의 뒤에 모두 Alpaca가 있음.</li>
+  <li><b>기존 거래소도 들어옴.</b> Nasdaq은 Payward와 통로를 공동 개발하고 1억 달러 투자에 합의했음.</li>
+  <li><b>같은 두 회사가 여러 관계를 가짐.</b> Coinbase는 Ondo의 투자자이자 수탁 제공자이면서 주식 토큰에서는 경쟁사임.</li>
+  <li><b>선의 굵기가 다름.</b> 인수와 투자는 굵은 선, 행사 동반이나 파트너 명시처럼 회사가 내세운 협력은 가는 점선으로 구분했음.</li></ul>
+  <p class="note" style="margin-top:10px">위 다섯 줄은 아래 표의 사실을 묶어 읽은 해석임.</p>`;return}
+  const n=nodes[sel],rs=E.filter(e=>!off.has(e[2])&&(e[0]===sel||e[1]===sel));
+  p.innerHTML=`<h2>${n.nm}</h2><p class="sub">${n.sb}${n.iss?", 주식 토큰 직접 발행":""}</p>`+
+   (n.memo.length?`<ul>${n.memo.map(m=>{const[t,k]=m.split("|");return `<li>${t}${k?" "+srcHtml(k):""}</li>`}).join("")}</ul>`:"")+
+   rs.map(e=>`<div class="rel"><p><span class="tag">${TYPES[e[2]].k}</span><b>${nodes[e[0]].nm}</b> ${TYPES[e[2]].arrow?"→":"↔"} <b>${nodes[e[1]].nm}</b>${e[4]?` <span class="grade">${e[4]}</span>`:""}</p><p>${e[3]}</p><p>${srcHtml(e[5])}</p></div>`).join("")+
+   (rs.length?"":`<p class="note">확인된 관계 없음</p>`);
+}
+function table(){
+  document.querySelector("#tbl tbody").innerHTML=E.filter(e=>!off.has(e[2])&&(!sel||e[0]===sel||e[1]===sel)).map(e=>`<tr><td><span class="tag">${TYPES[e[2]].k}</span></td><td>${nodes[e[0]].nm}</td><td>${nodes[e[1]].nm}</td><td>${e[3]}</td><td class="num">${e[4]||""}</td><td>${srcHtml(e[5])}</td></tr>`).join("");
+}
+function controls(){
+  const c=document.getElementById("chips");c.querySelectorAll("button").forEach(b=>b.remove());
+  Object.entries(TYPES).forEach(([k,v])=>{const b=document.createElement("button");b.className="chip";b.id="chip-"+k;b.setAttribute("aria-pressed",String(!off.has(k)));
+    b.innerHTML=`<svg class="swatch" viewBox="0 0 34 10" aria-hidden="true"><line x1="1" y1="5" x2="33" y2="5" class="edge e-${k}"></line></svg>${v.k}`;
+    b.onclick=()=>{off.has(k)?off.delete(k):off.add(k);render()};c.appendChild(b)});
+  const p=document.getElementById("presets");p.querySelectorAll("button").forEach(b=>b.remove());
+  [["전체",null],["Payward (Kraken)","payward"],["Coinbase","coinbase"],["Ondo","ondo"],["Dinari","dinari"],["Alpaca","alpaca"],["카카오페이증권","kakao"]].forEach(([t,id],i)=>{const b=document.createElement("button");b.id="preset-"+i;b.textContent=t;b.setAttribute("aria-pressed",String(sel===id));b.onclick=()=>{sel=id;render()};p.appendChild(b)});
+}
+function render(){draw();panel();table();controls()}
+render();
+</script>
+</body>
+</html>

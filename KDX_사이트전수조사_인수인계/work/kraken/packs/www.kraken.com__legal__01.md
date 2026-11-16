@@ -1438,3 +1438,4 @@ These specific risks include but are not limited to:
 | https://www.kraken.com/legal/tos |  |  |
 | https://www.kraken.com/legal/ca-terms |  |  |
 | https://www.kraken.com/legal/uk/asset-statements |  |  |
+| https://www.kraken.com/legal/uk/disclaimer |  |  |
