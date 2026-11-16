@@ -65,15 +65,15 @@ https://www.kraken.com/compare/polkadot-vs-kusama,www.kraken.com,,compare,www.kr
 https://www.kraken.com/compare/ripple-vs-bitcoin,www.kraken.com,,compare,www.kraken.com/compare/*,sitemap:sitemap.xml,list,,,,,,
 https://www.kraken.com/compare/stellar-vs-ripple,www.kraken.com,,compare,www.kraken.com/compare/*,sitemap:sitemap.xml,list,,,,,,
 https://www.kraken.com/competitions,www.kraken.com,,competitions,www.kraken.com/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/compliance,www.kraken.com,,compliance,www.kraken.com/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/compliance/aml-cft,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/compliance/building-a-culture-of-compliance-training-and-awareness,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/compliance/circular-trading-faking-market-activity-undermining-trust,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,read,,,,,,
+https://www.kraken.com/compliance,www.kraken.com,,compliance,www.kraken.com/*,sitemap:sitemap.xml,read,ok,render,5586,Compliance Hub,raw/www.kraken.com/compliance.md,
+https://www.kraken.com/compliance/aml-cft,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,read,ok,render,17365,Anti-Money Laundering and Combating the Financing of Terrorism (AML/CFT),raw/www.kraken.com/compliance__aml-cft.md,
+https://www.kraken.com/compliance/building-a-culture-of-compliance-training-and-awareness,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,read,ok,render,10935,Building a Culture of Compliance: Training and Awareness in AML/CFT Programs,raw/www.kraken.com/compliance__building-a-culture-of-compliance-training-and-awareness.md,
+https://www.kraken.com/compliance/circular-trading-faking-market-activity-undermining-trust,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,read,ok,render,9207,"Circular Trading: Faking Market Activity, Undermining Trust",raw/www.kraken.com/compliance__circular-trading-faking-market-activity-undermining-trust.md,
 https://www.kraken.com/compliance/evolution-of-aml-regulations,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,skim,,,,,,
-https://www.kraken.com/compliance/how-spoofing-and-layering-impact-markets,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/compliance/market-integrity,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/compliance/trading-on-secrets-insider-dealing,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/compliance/wash-trading-the-fake-buzz-that-moves-real-markets,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,read,,,,,,
+https://www.kraken.com/compliance/how-spoofing-and-layering-impact-markets,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,read,ok,render,9855,"Non-Genuine Orders, Real Risks: How Spoofing and Layering Impact Markets",raw/www.kraken.com/compliance__how-spoofing-and-layering-impact-markets.md,
+https://www.kraken.com/compliance/market-integrity,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,read,ok,render,10445,Market Integrity,raw/www.kraken.com/compliance__market-integrity.md,
+https://www.kraken.com/compliance/trading-on-secrets-insider-dealing,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,read,ok,render,11619,Trading on Secrets? Here’s What You Need to Know About Insider Dealing,raw/www.kraken.com/compliance__trading-on-secrets-insider-dealing.md,
+https://www.kraken.com/compliance/wash-trading-the-fake-buzz-that-moves-real-markets,www.kraken.com,,compliance,www.kraken.com/compliance/*,sitemap:sitemap.xml,read,ok,render,13045,Wash Trading: The Fake Buzz That Moves Real Markets,raw/www.kraken.com/compliance__wash-trading-the-fake-buzz-that-moves-real-markets.md,
 https://www.kraken.com/convert,www.kraken.com,,convert,www.kraken.com/*,sitemap:sitemap.xml,read,,,,,,
 https://www.kraken.com/cryptokucherov,www.kraken.com,,cryptokucherov,www.kraken.com/*,sitemap:sitemap.xml,read,,,,,,
 https://www.kraken.com/cryptologykey,www.kraken.com,,cryptologykey,www.kraken.com/*,sitemap:sitemap.xml,read,,,,,,
@@ -101,19 +101,19 @@ https://www.kraken.com/doubletop,www.kraken.com,,doubletop,www.kraken.com/*,site
 https://www.kraken.com/drops,www.kraken.com,,drops,www.kraken.com/*,sitemap:sitemap.xml,read,,,,,,
 https://www.kraken.com/eu-deposit-trade-bonus-rules,www.kraken.com,,eu-deposit-trade-bonus-rules,www.kraken.com/*,sitemap:sitemap.xml,read,,,,,,
 https://www.kraken.com/europe-switch,www.kraken.com,,europe-switch,www.kraken.com/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/features,www.kraken.com,,features,www.kraken.com/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/features/24-7-support,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/features/btc-staking,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/features/cryptocurrency-apps,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/features/dual-investments,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/features/eth-restaking,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/features/fee-schedule,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/features/forex-trading-markets,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/features/funded,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/features/funding-options,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/features/grants,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/features/indices,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,,,,,,
-https://www.kraken.com/features/liquidity,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,,,,,,
+https://www.kraken.com/features,www.kraken.com,,features,www.kraken.com/*,sitemap:sitemap.xml,read,ok,render,8032,Browse All Of Kraken's Features | Kraken,raw/www.kraken.com/features.md,
+https://www.kraken.com/features/24-7-support,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,ok,render,8508,24/7 Global Customer Support | Kraken,raw/www.kraken.com/features__24-7-support.md,
+https://www.kraken.com/features/btc-staking,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,ok,render,14746,BTC Staking on Kraken | Earn rewards on your BTC holdings,raw/www.kraken.com/features__btc-staking.md,
+https://www.kraken.com/features/cryptocurrency-apps,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,ok,render,8299,Kraken Cryptocurrency & Bitcoin Apps | Kraken,raw/www.kraken.com/features__cryptocurrency-apps.md,
+https://www.kraken.com/features/dual-investments,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,ok,render,16625,"Dual Investments on Kraken Pro | Earn Up to 200% APR on BTC, ETH & USD",raw/www.kraken.com/features__dual-investments.md,
+https://www.kraken.com/features/eth-restaking,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,ok,render,18417,ETH Restaking on Kraken with EigenLayer | Earn Extra ETH Rewards,raw/www.kraken.com/features__eth-restaking.md,
+https://www.kraken.com/features/fee-schedule,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,ok,render,16542,Fee Structures | Explore our trading fees | Kraken,raw/www.kraken.com/features__fee-schedule.md,
+https://www.kraken.com/features/forex-trading-markets,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,ok,render,3100,Bitcoin (BTC) to USD Spot Trading - Price & Chart | Kraken Pro,raw/www.kraken.com/features__forex-trading-markets.md,이동: https://pro.kraken.com/app/trade/btc-usd
+https://www.kraken.com/features/funded,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,ok,render,13788,Kraken Funded — Trade With Our Capital | Kraken,raw/www.kraken.com/features__funded.md,
+https://www.kraken.com/features/funding-options,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,ok,render,8857,Funding Options | Fiat to Crypto & Crypto to Crypto Trading | Kraken,raw/www.kraken.com/features__funding-options.md,
+https://www.kraken.com/features/grants,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,ok,render,7239,Bitcoin and Crypto Developer Grant Program | Kraken,raw/www.kraken.com/features__grants.md,
+https://www.kraken.com/features/indices,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,ok,render,8200,"Cryptocurrency Indices | Bitcoin, Ethereum & Litecoin Index | Kraken",raw/www.kraken.com/features__indices.md,
+https://www.kraken.com/features/liquidity,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,ok,render,7276,Cryptocurrency and Bitcoin Liquidity | Kraken,raw/www.kraken.com/features__liquidity.md,
 https://www.kraken.com/features/margin-trading/lp/margin/t/adrsbl_display_kraken_pro_conversion_sign-up_row_pro_app_april_2026_margin,www.kraken.com,,features,www.kraken.com/features/margin-trading/lp/margin/t/*,sitemap:sitemap.xml,list,,,,,,
 https://www.kraken.com/features/security,www.kraken.com,,features,www.kraken.com/features/*,sitemap:sitemap.xml,read,,,,,,
 https://www.kraken.com/features/security/bug-bounty,www.kraken.com,,features,www.kraken.com/features/security/*,sitemap:sitemap.xml,read,,,,,,
@@ -48409,16 +48409,16 @@ https://www.kraken.com/cn/learn/buy-battery-technology-supply-chain-stocks,www.k
 https://www.kraken.com/cn/learn/buy-iron-ore-royalties-stocks,www.kraken.com,cn,learn,www.kraken.com/learn/*,sitemap:commodity-stocks.xml,skip,,,,,,언어판 중복: https://www.kraken.com/learn/buy-iron-ore-royalties-stocks
 https://www.kraken.com/cn/learn/buy-metals-mining-stocks,www.kraken.com,cn,learn,www.kraken.com/learn/*,sitemap:commodity-stocks.xml,skip,,,,,,언어판 중복: https://www.kraken.com/learn/buy-metals-mining-stocks
 https://www.kraken.com/cn/learn/buy-heating-oil-distillate-stocks,www.kraken.com,cn,learn,www.kraken.com/learn/*,sitemap:commodity-stocks.xml,skip,,,,,,언어판 중복: https://www.kraken.com/learn/buy-heating-oil-distillate-stocks
-https://www.kraken.com/features/otc-exchange/cardano,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,read,,,,,,
-https://www.kraken.com/features/otc-exchange/avalanche,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,read,,,,,,
-https://www.kraken.com/features/otc-exchange/bitcoin,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,read,,,,,,
-https://www.kraken.com/features/otc-exchange/dogecoin,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,read,,,,,,
-https://www.kraken.com/features/otc-exchange/ethereum,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,read,,,,,,
-https://www.kraken.com/features/otc-exchange/solana,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,read,,,,,,
-https://www.kraken.com/features/otc-exchange/tron,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,read,,,,,,
-https://www.kraken.com/features/otc-exchange/usdc,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,read,,,,,,
-https://www.kraken.com/features/otc-exchange/tether,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,read,,,,,,
-https://www.kraken.com/features/otc-exchange/xrp,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,read,,,,,,
+https://www.kraken.com/features/otc-exchange/cardano,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,read,ok,render,47025,Cardano OTC | Over-the-counter ADA Trading | Kraken,raw/www.kraken.com/features__otc-exchange__cardano.md,
+https://www.kraken.com/features/otc-exchange/avalanche,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,read,ok,render,46880,Avalanche OTC | Over-the-counter AVAX Trading | Kraken,raw/www.kraken.com/features__otc-exchange__avalanche.md,
+https://www.kraken.com/features/otc-exchange/bitcoin,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,read,ok,render,47217,Bitcoin OTC | Over-the-counter BTC Trading | Kraken,raw/www.kraken.com/features__otc-exchange__bitcoin.md,
+https://www.kraken.com/features/otc-exchange/dogecoin,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,read,ok,render,47165,Dogecoin OTC | Over-the-counter DOGE Trading | Kraken,raw/www.kraken.com/features__otc-exchange__dogecoin.md,
+https://www.kraken.com/features/otc-exchange/ethereum,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,list,,,,,,
+https://www.kraken.com/features/otc-exchange/solana,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,list,,,,,,
+https://www.kraken.com/features/otc-exchange/tron,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,list,,,,,,
+https://www.kraken.com/features/otc-exchange/usdc,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,list,,,,,,
+https://www.kraken.com/features/otc-exchange/tether,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,list,,,,,,
+https://www.kraken.com/features/otc-exchange/xrp,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,list,,,,,,
 https://www.kraken.com/es/features/otc-exchange/cardano,www.kraken.com,es,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,skip,,,,,,언어판 중복: https://www.kraken.com/features/otc-exchange/cardano
 https://www.kraken.com/es/features/otc-exchange/avalanche,www.kraken.com,es,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,skip,,,,,,언어판 중복: https://www.kraken.com/features/otc-exchange/avalanche
 https://www.kraken.com/es/features/otc-exchange/bitcoin,www.kraken.com,es,features,www.kraken.com/features/otc-exchange/*,sitemap:otc.xml,skip,,,,,,언어판 중복: https://www.kraken.com/features/otc-exchange/bitcoin
@@ -152553,7 +152553,7 @@ https://www.kraken.com/tw/stocks/aht.pri,www.kraken.com,tw,stocks,www.kraken.com
 https://www.kraken.com/cn/stocks/aht.pri,www.kraken.com,cn,stocks,www.kraken.com/stocks/*,sitemap:aht.pri.xml,skip,,,,,,언어판 중복: https://www.kraken.com/stocks/aht.pri
 https://proapp.kraken.com/9f1e?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=%2F&original_landing=eyJ1cmwiOiJodHRwczovL3d3dy5rcmFrZW4uY29tLyIsInJlZmVycmVyIjoiIn0%3D&anon_id=d6f50e03-5357-4a27-a42b-dc1de978e3a9&ga_session_id=1794825298&ga_client_id=1878653643.1794825298&statsig_stable_id=d7b5d8f0-01a9-4487-a95e-4241b2b34ca2,proapp.kraken.com,,9f1e,proapp.kraken.com/*,homepage,skip,,,,,,수동 제외
 https://www.kraken.com/stocks/msft,www.kraken.com,,stocks,www.kraken.com/stocks/*,homepage,list,,,,,,
-https://www.kraken.com/features/api-trading,www.kraken.com,,features,www.kraken.com/features/*,homepage,read,,,,,,
+https://www.kraken.com/features/api-trading,www.kraken.com,,features,www.kraken.com/features/*,homepage,read,ok,render,14112,"Kraken API | REST, WebSocket and FIX APIs",raw/www.kraken.com/features__api-trading.md,이동: https://www.kraken.com/pro/trading-api
 https://pro.kraken.com/app/markets/spot,pro.kraken.com,,app,pro.kraken.com/app/markets/*,homepage,skip,,,,,,수동 제외
 https://pro.kraken.com/app/home,pro.kraken.com,,app,pro.kraken.com/app/*,homepage,skip,,,,,,수동 제외
 https://pro.kraken.com/app/promos/overview,pro.kraken.com,,app,pro.kraken.com/app/promos/*,homepage,skip,,,,,,수동 제외
@@ -152562,7 +152562,7 @@ https://proapp.kraken.com/9f1e?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_u
 https://www.kraken.com/prices/bitcoin,www.kraken.com,,prices,www.kraken.com/prices/*,homepage,list,,,,,,
 https://docs.kraken.com/api,docs.kraken.com,,api,docs.kraken.com/*,homepage,list,,,,,,
 https://pro.kraken.com/app/markets/spot/stocksAndEtfs,pro.kraken.com,,app,pro.kraken.com/app/markets/spot/*,homepage,skip,,,,,,수동 제외
-https://www.kraken.com/features/dollar-cost-averaging,www.kraken.com,,features,www.kraken.com/features/*,homepage,read,,,,,,
+https://www.kraken.com/features/dollar-cost-averaging,www.kraken.com,,features,www.kraken.com/features/*,homepage,read,ok,render,20833,Kraken DCA | Auto Invest in Crypto with Dollar-Cost Averaging,raw/www.kraken.com/features__dollar-cost-averaging.md,이동: https://www.kraken.com/app/dollar-cost-averaging
 https://support.kraken.com/forms/648008,support.kraken.com,,forms,support.kraken.com/forms/*,homepage,skip,,,,,,수동 제외
 https://blog.kraken.com/,blog.kraken.com,,(home),blog.kraken.com/*,homepage,read,,,,,,
 https://pro.kraken.com/app/trade/futures-sol-usd-perp,pro.kraken.com,,app,pro.kraken.com/app/trade/*,homepage,skip,,,,,,수동 제외
@@ -152592,7 +152592,7 @@ https://www.kraken.com/prices/xrp,www.kraken.com,,prices,www.kraken.com/prices/*
 https://www.kraken.com/sign-up,www.kraken.com,,sign-up,www.kraken.com/*,homepage,skip,,,,,,수동 제외
 https://www.kraken.com/prices/solana,www.kraken.com,,prices,www.kraken.com/prices/*,homepage,list,,,,,,
 https://www.kraken.com/prices/tether,www.kraken.com,,prices,www.kraken.com/prices/*,homepage,list,,,,,,
-https://www.kraken.com/features/borrow,www.kraken.com,,features,www.kraken.com/features/*,homepage,read,,,,,,
+https://www.kraken.com/features/borrow,www.kraken.com,,features,www.kraken.com/features/*,homepage,read,ok,render,14532,Kraken Borrow — Boost Your Buying Power with Crypto-Backed Loans,raw/www.kraken.com/features__borrow.md,이동: https://www.kraken.com/app/borrow?shortlink=borrowwelcome&lid=3avkilimabn9&deep_link_value=borrow%2Fwelcome&source_caller=ui&c=Kraken+Borrow+GTM&onelink_id=IKVW
 https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=%2F&original_landing=eyJ1cmwiOiJodHRwczovL3d3dy5rcmFrZW4uY29tLyIsInJlZmVycmVyIjoiIn0%3D&anon_id=d6f50e03-5357-4a27-a42b-dc1de978e3a9&ga_session_id=1794825298&ga_client_id=1878653643.1794825298&statsig_stable_id=d7b5d8f0-01a9-4487-a95e-4241b2b34ca2,app.kraken.com,,JDNW,app.kraken.com/*,homepage,skip,,,,,,수동 제외
 https://pro.kraken.com/app/markets/margin,pro.kraken.com,,app,pro.kraken.com/app/markets/*,homepage,skip,,,,,,수동 제외
 https://www.kraken.com/stocks/nvda,www.kraken.com,,stocks,www.kraken.com/stocks/*,homepage,list,,,,,,
@@ -152605,7 +152605,7 @@ https://www.kraken.com/krak,www.kraken.com,,krak,www.kraken.com/*,homepage,read,
 https://pro.kraken.com/perps/crypto-perpetuals,pro.kraken.com,,perps,pro.kraken.com/perps/*,homepage,read,,,,,,
 https://www.kraken.com/sign-up?rfr=pro-web,www.kraken.com,,sign-up,www.kraken.com/*,homepage,skip,,,,,,수동 제외
 https://pro.kraken.com/app/markets/futures,pro.kraken.com,,app,pro.kraken.com/app/markets/*,homepage,skip,,,,,,수동 제외
-https://www.kraken.com/features/margin-trading,www.kraken.com,,features,www.kraken.com/features/*,homepage,read,,,,,,
+https://www.kraken.com/features/margin-trading,www.kraken.com,,features,www.kraken.com/features/*,homepage,read,ok,render,14580,Crypto Margin Trading – Up to 20x Leverage | Kraken,raw/www.kraken.com/features__margin-trading.md,이동: https://www.kraken.com/pro/margin
 https://www.kraken.com/legal/candidate-privacy-notice,www.kraken.com,,legal,www.kraken.com/legal/*,homepage,skim,,,,,,
 https://support.kraken.com/hc/en-us/articles/360022629052-Risk-Disclosure,support.kraken.com,,hc,support.kraken.com/hc/en-us/articles/*,homepage,skim,,,,,,
 https://www.kraken.com/stocks/pltr,www.kraken.com,,stocks,www.kraken.com/stocks/*,homepage,list,,,,,,
@@ -205924,7 +205924,7 @@ https://support.kraken.com/sections/apaylo-payment-provider-cad,support.kraken.c
 https://support.kraken.com/sections/us-futures,support.kraken.com,,sections,support.kraken.com/sections/*,sitemap:sections.xml,list,,,,,,
 https://support.kraken.com/sections/xstocks-on-kraken,support.kraken.com,,sections,support.kraken.com/sections/*,sitemap:sections.xml,read,ok,render,4481,xStocks on Kraken | Kraken,raw/support.kraken.com/sections__xstocks-on-kraken.md,
 https://support.kraken.com/sections/peso-funding,support.kraken.com,,sections,support.kraken.com/sections/*,sitemap:sections.xml,list,,,,,,
-https://support.kraken.com/sections/xstocks-on-kraken-pro,support.kraken.com,,sections,support.kraken.com/sections/*,sitemap:sections.xml,read,,,,,,
+https://support.kraken.com/sections/xstocks-on-kraken-pro,support.kraken.com,,sections,support.kraken.com/sections/*,sitemap:sections.xml,read,ok,render,4028,xStocks on Kraken Pro | Kraken,raw/support.kraken.com/sections__xstocks-on-kraken-pro.md,
 https://support.kraken.com/sections/eur-funding,support.kraken.com,,sections,support.kraken.com/sections/*,sitemap:sections.xml,list,,,,,,
 https://support.kraken.com/sections/kraken-drops,support.kraken.com,,sections,support.kraken.com/sections/*,sitemap:sections.xml,list,,,,,,
 https://support.kraken.com/sections/latest-drops,support.kraken.com,,sections,support.kraken.com/sections/*,sitemap:sections.xml,list,,,,,,
@@ -213976,8 +213976,8 @@ https://support.kraken.com/cn/forms/51691682076564,support.kraken.com,cn,forms,s
 https://support.kraken.com/cn/forms/53435993777684,support.kraken.com,cn,forms,support.kraken.com/forms/*,sitemap:forms.xml,skip,,,,,,언어판 중복: https://support.kraken.com/forms/53435993777684
 https://support.kraken.com/cn/forms/54119554927252,support.kraken.com,cn,forms,support.kraken.com/forms/*,sitemap:forms.xml,skip,,,,,,언어판 중복: https://support.kraken.com/forms/54119554927252
 https://app.kraken.com/JDNW?af_js_web=true&af_ss_ver=2_2_0&pid=direct&af_ss_ui=true&landing=%2F&original_landing=not_set&anon_id=d6f50e03-5357-4a27-a42b-dc1de978e3a9&ga_session_id=1794825298&ga_client_id=1878653643.1794825298&statsig_stable_id=d7b5d8f0-01a9-4487-a95e-4241b2b34ca2,app.kraken.com,,JDNW,app.kraken.com/*,homepage,skip,,,,,,수동 제외
-https://www.kraken.com/features/otc-exchange,www.kraken.com,,features,www.kraken.com/features/*,homepage,read,,,,,,
-https://www.kraken.com/features/futures,www.kraken.com,,features,www.kraken.com/features/*,homepage,read,,,,,,
+https://www.kraken.com/features/otc-exchange,www.kraken.com,,features,www.kraken.com/features/*,homepage,read,ok,render,9122,Crypto OTC Trading Platform | Kraken,raw/www.kraken.com/features__otc-exchange.md,이동: https://www.kraken.com/institutions/otc
+https://www.kraken.com/features/futures,www.kraken.com,,features,www.kraken.com/features/*,homepage,read,ok,render,2745,Bitcoin (BTC) to USD Spot Trading - Price & Chart | Kraken Pro,raw/www.kraken.com/features__futures.md,이동: https://pro.kraken.com/app/trade/btc-usd
 https://support.kraken.com/articles/4413167516692-my-account-is-compromised-what-should-I-do-,support.kraken.com,,articles,support.kraken.com/articles/*,homepage,list,,,,,,
 https://id.kraken.com/sign-in?redirect=https%253A%252F%252Fsupport.kraken.com%252F&rfr=support,id.kraken.com,,sign-in,id.kraken.com/*,homepage,skip,,,,,,수동 제외
 https://support.kraken.com/categories/Kraken-Wallet,support.kraken.com,,categories,support.kraken.com/categories/*,homepage,list,,,,,,
@@ -218242,112 +218242,310 @@ https://www.kraken.com/stocks/smfl,www.kraken.com,,stocks,www.kraken.com/stocks/
 https://www.kraken.com/stocks/snbrq,www.kraken.com,,stocks,www.kraken.com/stocks/*,link,list,,,,,,
 https://www.kraken.com/stocks/maxnq,www.kraken.com,,stocks,www.kraken.com/stocks/*,link,list,,,,,,
 https://www.kraken.com/stocks/innd,www.kraken.com,,stocks,www.kraken.com/stocks/*,link,list,,,,,,
-https://www.kraken.com/legal/uk/disclaimer,www.kraken.com,,,,link,,,,,,,
-https://www.kraken.com/bank,www.kraken.com,,,,link,,,,,,,
-https://support.kraken.com/hc/en-us/articles/360027545252-Kraken-Affiliate-program,support.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/10-billion-in-total-transaction?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://www.kraken.com/en-gb/features/cryptocurrency-apps,www.kraken.com,,,,link,,,,,,,
-https://eu.kraken.com/,eu.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/category/news?view=archive,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/10-billion-in-total-transaction?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/10-billion-in-total-transaction?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/24-7-on-kraken-pro?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/24-7-on-kraken-pro?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/24-7-on-kraken-pro?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/25-billion-in-total-transaction-volume?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://www.kraken.com/learn/defi,www.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/25-billion-in-total-transaction-volume?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/25-billion-in-total-transaction-volume?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/bending-spoons-ipo-access-now-available?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://app.kraken.com/IKVW/BSPxIPOAccess,app.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/bending-spoons-ipo-access-now-available?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/bending-spoons-ipo-access-now-available?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/bitso-integration?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/bitso-integration?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/bitso-integration?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/bnb-chain-integration?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/bnb-chain-integration?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://www.kraken.com/learn/blockchain,www.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/bnb-chain-integration?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/bringing-tokenized-equities-to-ton-blockchain?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/bringing-tokenized-equities-to-ton-blockchain?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/bringing-tokenized-equities-to-ton-blockchain?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/celebrating-100-xstocks?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/celebrating-100-xstocks?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/celebrating-100-xstocks?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/coinroutes-integration?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/coinroutes-integration?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/coinroutes-integration?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/deepening-our-partnership-with-alpaca?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/deepening-our-partnership-with-alpaca?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/deepening-our-partnership-with-alpaca?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/eligible-as-collateral-for-futures-and-margin?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://eu.kraken.com/legal/risk-disclosure,eu.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/eligible-as-collateral-for-futures-and-margin?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/eligible-as-collateral-for-futures-and-margin?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://kraken.com/xstocks,kraken.com,,,,link,,,,,,,
-https://assets-cms.kraken.com/files/51n36hrp/facade/660ec6fd2f27b4c082972a867658709bf0e3eace.pdf,assets-cms.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/fundrise-vcx-tokenize-leading-private-tech-companies?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/fundrise-vcx-tokenize-leading-private-tech-companies?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/fundrise-vcx-tokenize-leading-private-tech-companies?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/introducing-opt-in-rewards?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/introducing-opt-in-rewards?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/introducing-opt-in-rewards?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/introducing-xchange?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/introducing-xchange?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/introducing-xchange?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/introducing-xstocks-margin-trading-on-kraken-pro?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://pro.kraken.com/app/markets/tokenizedEquities,pro.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/introducing-xstocks-margin-trading-on-kraken-pro?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/introducing-xstocks-margin-trading-on-kraken-pro?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/launch-on-360x?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/launch-on-360x?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/launch-on-360x?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/launch-on-ethereum?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/launch-on-ethereum?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/launch-on-ethereum?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/real-adoption-of-tokenized-stocks?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/real-adoption-of-tokenized-stocks?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/real-adoption-of-tokenized-stocks?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://kraken.com/c/ipos/SPCXx?assetClass=tokenized_asset,kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/spacex-ipo-access?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/spacex-ipo-access?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/spacex-ipo-access?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tokenized-equities-kraken-pro?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://proapp.kraken.com/OBT6/hoe8qklv,proapp.kraken.com,,,,link,,,,,,,
-https://kraken.com/pro/xstocks,kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tokenized-equities-kraken-pro?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tokenized-equities-kraken-pro?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tokenized-equities-now-available?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tokenized-equities-now-available?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tokenized-equities-now-available?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tokenized-equity-perpetual-futures?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tokenized-equity-perpetual-futures?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tokenized-equity-perpetual-futures?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://app.kraken.com/IKVW/SPYxUSDperp,app.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tokenized-ipo-access?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tokenized-ipo-access?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tokenized-ipo-access?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tron-blockchain?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tron-blockchain?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/tron-blockchain?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/trust-wallet?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/trust-wallet?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/trust-wallet?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/wallet-in-telegram?share=twitter,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/wallet-in-telegram?share=facebook,blog.kraken.com,,,,link,,,,,,,
-https://blog.kraken.com/product/xstocks/wallet-in-telegram?share=linkedin,blog.kraken.com,,,,link,,,,,,,
-https://pro.kraken.com/app/portfolio/overview,pro.kraken.com,,,,link,,,,,,,
-https://pro.kraken.com/app/settings/account,pro.kraken.com,,,,link,,,,,,,
-https://www.kraken.com/session-expired,www.kraken.com,,,,link,,,,,,,
-https://support.kraken.com/legal/equities,support.kraken.com,,,,link,,,,,,,
-https://support.kraken.com/legal,support.kraken.com,,,,link,,,,,,,
-https://kraken.com/c,kraken.com,,,,link,,,,,,,
-https://eu.kraken.com/payward-europe-digital-solutions/support/articles/xstocks/appropriateness-test,eu.kraken.com,,,,link,,,,,,,
-https://support.kraken.com/hc/articles/where-is-kraken-licensed-or-regulated,support.kraken.com,,,,link,,,,,,,
-https://support.kraken.com/articles/xstocks-futures-trading-competition-terms-conditions,support.kraken.com,,,,link,,,,,,,
-https://support.kraken.com/articles/13614490585620-placing-your-first-derivatives-trade-on-kraken-pro,support.kraken.com,,,,link,,,,,,,
-https://www.kraken.com/c,www.kraken.com,,,,link,,,,,,,
-https://pro.kraken.com/app/earn,pro.kraken.com,,,,link,,,,,,,
-https://www.kraken.com/c/rewards,www.kraken.com,,,,link,,,,,,,
-https://support.kraken.com/pro.kraken.com,support.kraken.com,,,,link,,,,,,,
+https://www.kraken.com/legal/uk/disclaimer,www.kraken.com,,legal,www.kraken.com/legal/uk/*,link,skim,,,,,,
+https://www.kraken.com/bank,www.kraken.com,,bank,www.kraken.com/*,link,read,,,,,,
+https://support.kraken.com/hc/en-us/articles/360027545252-Kraken-Affiliate-program,support.kraken.com,,hc,support.kraken.com/hc/en-us/articles/*,link,list,,,,,,
+https://blog.kraken.com/product/xstocks/10-billion-in-total-transaction?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://www.kraken.com/en-gb/features/cryptocurrency-apps,www.kraken.com,en-gb,features,www.kraken.com/features/*,link,skip,,,,,,언어판 중복: https://www.kraken.com/features/cryptocurrency-apps
+https://eu.kraken.com/,eu.kraken.com,,(home),eu.kraken.com/*,link,read,,,,,,
+https://blog.kraken.com/category/news?view=archive,blog.kraken.com,,category,blog.kraken.com/category/*,link,list,,,,,,
+https://blog.kraken.com/product/xstocks/10-billion-in-total-transaction?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/10-billion-in-total-transaction?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/24-7-on-kraken-pro?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/24-7-on-kraken-pro?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/24-7-on-kraken-pro?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/25-billion-in-total-transaction-volume?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://www.kraken.com/learn/defi,www.kraken.com,,learn,www.kraken.com/learn/*,link,list,,,,,,
+https://blog.kraken.com/product/xstocks/25-billion-in-total-transaction-volume?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/25-billion-in-total-transaction-volume?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/bending-spoons-ipo-access-now-available?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://app.kraken.com/IKVW/BSPxIPOAccess,app.kraken.com,,IKVW,app.kraken.com/IKVW/*,link,skip,,,,,,수동 제외
+https://blog.kraken.com/product/xstocks/bending-spoons-ipo-access-now-available?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/bending-spoons-ipo-access-now-available?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/bitso-integration?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/bitso-integration?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/bitso-integration?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/bnb-chain-integration?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/bnb-chain-integration?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://www.kraken.com/learn/blockchain,www.kraken.com,,learn,www.kraken.com/learn/*,link,list,,,,,,
+https://blog.kraken.com/product/xstocks/bnb-chain-integration?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/bringing-tokenized-equities-to-ton-blockchain?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/bringing-tokenized-equities-to-ton-blockchain?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/bringing-tokenized-equities-to-ton-blockchain?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/celebrating-100-xstocks?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/celebrating-100-xstocks?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/celebrating-100-xstocks?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/coinroutes-integration?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/coinroutes-integration?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/coinroutes-integration?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/deepening-our-partnership-with-alpaca?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/deepening-our-partnership-with-alpaca?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/deepening-our-partnership-with-alpaca?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/eligible-as-collateral-for-futures-and-margin?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://eu.kraken.com/legal/risk-disclosure,eu.kraken.com,,legal,eu.kraken.com/legal/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/eligible-as-collateral-for-futures-and-margin?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/eligible-as-collateral-for-futures-and-margin?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://kraken.com/xstocks,kraken.com,,xstocks,kraken.com/*,link,read,,,,,,
+https://assets-cms.kraken.com/files/51n36hrp/facade/660ec6fd2f27b4c082972a867658709bf0e3eace.pdf,assets-cms.kraken.com,,files,assets-cms.kraken.com/files/51n36hrp/facade/*,link,read,ok,pdf,6029,660ec6fd2f27b4c082972a867658709bf0e3eace.pdf,raw/assets-cms.kraken.com/files__51n36hrp__facade__660ec6fd2f27b4c082972a867658709bf0e3eace.pdf.md,
+https://blog.kraken.com/product/xstocks/fundrise-vcx-tokenize-leading-private-tech-companies?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/fundrise-vcx-tokenize-leading-private-tech-companies?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/fundrise-vcx-tokenize-leading-private-tech-companies?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/introducing-opt-in-rewards?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/introducing-opt-in-rewards?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/introducing-opt-in-rewards?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/introducing-xchange?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/introducing-xchange?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/introducing-xchange?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/introducing-xstocks-margin-trading-on-kraken-pro?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://pro.kraken.com/app/markets/tokenizedEquities,pro.kraken.com,,app,pro.kraken.com/app/markets/*,link,skip,,,,,,수동 제외
+https://blog.kraken.com/product/xstocks/introducing-xstocks-margin-trading-on-kraken-pro?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/introducing-xstocks-margin-trading-on-kraken-pro?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/launch-on-360x?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/launch-on-360x?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/launch-on-360x?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/launch-on-ethereum?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/launch-on-ethereum?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/launch-on-ethereum?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/real-adoption-of-tokenized-stocks?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/real-adoption-of-tokenized-stocks?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://blog.kraken.com/product/xstocks/real-adoption-of-tokenized-stocks?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,blocked,,,,,HTTP 403
+https://kraken.com/c/ipos/SPCXx?assetClass=tokenized_asset,kraken.com,,c,kraken.com/c/ipos/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/spacex-ipo-access?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/spacex-ipo-access?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/spacex-ipo-access?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/tokenized-equities-kraken-pro?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://proapp.kraken.com/OBT6/hoe8qklv,proapp.kraken.com,,OBT6,proapp.kraken.com/OBT6/*,link,skip,,,,,,수동 제외
+https://kraken.com/pro/xstocks,kraken.com,,pro,kraken.com/pro/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/tokenized-equities-kraken-pro?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/tokenized-equities-kraken-pro?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/tokenized-equities-now-available?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/tokenized-equities-now-available?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/tokenized-equities-now-available?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/tokenized-equity-perpetual-futures?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/tokenized-equity-perpetual-futures?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/tokenized-equity-perpetual-futures?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://app.kraken.com/IKVW/SPYxUSDperp,app.kraken.com,,IKVW,app.kraken.com/IKVW/*,link,skip,,,,,,수동 제외
+https://blog.kraken.com/product/xstocks/tokenized-ipo-access?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/tokenized-ipo-access?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/tokenized-ipo-access?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/tron-blockchain?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/tron-blockchain?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/tron-blockchain?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/trust-wallet?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/trust-wallet?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/trust-wallet?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/wallet-in-telegram?share=twitter,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/wallet-in-telegram?share=facebook,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://blog.kraken.com/product/xstocks/wallet-in-telegram?share=linkedin,blog.kraken.com,,product,blog.kraken.com/product/*/*,link,read,,,,,,
+https://pro.kraken.com/app/portfolio/overview,pro.kraken.com,,app,pro.kraken.com/app/portfolio/*,link,skip,,,,,,수동 제외
+https://pro.kraken.com/app/settings/account,pro.kraken.com,,app,pro.kraken.com/app/settings/*,link,skip,,,,,,수동 제외
+https://www.kraken.com/session-expired,www.kraken.com,,session-expired,www.kraken.com/*,link,read,,,,,,
+https://support.kraken.com/legal/equities,support.kraken.com,,legal,support.kraken.com/legal/*,link,read,,,,,,
+https://support.kraken.com/legal,support.kraken.com,,legal,support.kraken.com/*,link,list,,,,,,
+https://kraken.com/c,kraken.com,,c,kraken.com/*,link,read,,,,,,
+https://eu.kraken.com/payward-europe-digital-solutions/support/articles/xstocks/appropriateness-test,eu.kraken.com,,payward-europe-digital-solutions,eu.kraken.com/payward-europe-digital-solutions/support/articles/xstocks/*,link,read,,,,,,
+https://support.kraken.com/hc/articles/where-is-kraken-licensed-or-regulated,support.kraken.com,,hc,support.kraken.com/hc/articles/*,link,list,,,,,,
+https://support.kraken.com/articles/xstocks-futures-trading-competition-terms-conditions,support.kraken.com,,articles,support.kraken.com/articles/*,link,read,,,,,,
+https://support.kraken.com/articles/13614490585620-placing-your-first-derivatives-trade-on-kraken-pro,support.kraken.com,,articles,support.kraken.com/articles/*,link,list,,,,,,
+https://www.kraken.com/c,www.kraken.com,,c,www.kraken.com/*,link,read,,,,,,
+https://pro.kraken.com/app/earn,pro.kraken.com,,app,pro.kraken.com/app/*,link,skip,,,,,,수동 제외
+https://www.kraken.com/c/rewards,www.kraken.com,,c,www.kraken.com/c/*,link,read,,,,,,
+https://support.kraken.com/pro.kraken.com,support.kraken.com,,pro.kraken.com,support.kraken.com/*,link,list,,,,,,
+https://support.kraken.com/hc/en-us/articles/source-of-wealth-or-source-of-funds-documents,support.kraken.com,,hc,support.kraken.com/hc/en-us/articles/*,link,list,,,,,,
+https://support.kraken.com/hc/en-us/articles/4402532394260,support.kraken.com,,hc,support.kraken.com/hc/en-us/articles/*,link,list,,,,,,
+https://www.kraken.com/features/account-management,www.kraken.com,,features,www.kraken.com/features/*,link,read,,,,,,
+https://support.kraken.com/hc,support.kraken.com,,hc,support.kraken.com/*,link,list,,,,,,
+https://support.kraken.com/hc/contact-support,support.kraken.com,,hc,support.kraken.com/hc/*,link,list,,,,,,
+https://app.kraken.com/UflE,app.kraken.com,,UflE,app.kraken.com/*,link,skip,,,,,,수동 제외
+https://support.kraken.com/hc/en-us/categories/360000032263-Fiat-currency-funding,support.kraken.com,,hc,support.kraken.com/hc/en-us/categories/*,link,list,,,,,,
+https://pro.kraken.com/app/markets/options,pro.kraken.com,,app,pro.kraken.com/app/markets/*,link,skip,,,,,,수동 제외
+https://pro.kraken.com/app/dex/home,pro.kraken.com,,app,pro.kraken.com/app/dex/*,link,skip,,,,,,수동 제외
+https://pro.kraken.com/app/markets/stocks/xstocks,pro.kraken.com,,app,pro.kraken.com/app/markets/stocks/*,link,skip,,,,,,수동 제외
+https://docs.kraken.com/api/docs/custody-api/list-custody-vaults,docs.kraken.com,,api,docs.kraken.com/api/docs/custody-api/*,link,list,,,,,,
+https://docs.kraken.com/api/docs/otc-api/create-otc-quote-request,docs.kraken.com,,api,docs.kraken.com/api/docs/otc-api/*,link,list,,,,,,
+https://docs.kraken.com/api/docs/prime-api/fix/nos-fix,docs.kraken.com,,api,docs.kraken.com/api/docs/prime-api/fix/*,link,list,,,,,,
+https://www.kraken.com/app/borrow?shortlink=borrowwelcome&lid=3avkilimabn9&deep_link_value=borrow%2Fwelcome&source_caller=ui&c=Kraken+Borrow+GTM&onelink_id=IKVW,www.kraken.com,,app,www.kraken.com/app/*,link,read,,,,,,
+https://www.kraken.com/app/borrow?shortlink=borrowwelcome&lid=t1vg98vagfjy&onelink_id=IKVW&source_caller=ui&c=Kraken+Borrow+GTM&deep_link_value=borrow%2Fwelcome,www.kraken.com,,app,www.kraken.com/app/*,link,read,,,,,,
+https://app.kraken.com/JDNW?deep_link_value=borrow%2Fwelcome,app.kraken.com,,JDNW,app.kraken.com/*,link,skip,,,,,,수동 제외
+https://www.kraken.com/learn/trading/margin-call,www.kraken.com,,learn,www.kraken.com/learn/trading/*,link,list,,,,,,
+https://app.kraken.com/JDNW?deep_link_value=autoearn,app.kraken.com,,JDNW,app.kraken.com/*,link,skip,,,,,,수동 제외
+https://support.kraken.com/hc/en-us/articles/overview-of-bitcoin-staking-on-kraken,support.kraken.com,,hc,support.kraken.com/hc/en-us/articles/*,link,list,,,,,,
+https://www.kraken.com/learn/finance/dollar-cost-averaging,www.kraken.com,,learn,www.kraken.com/learn/finance/*,link,list,,,,,,
+https://www.kraken.com/learn/crypto-guides,www.kraken.com,,learn,www.kraken.com/learn/*,link,list,,,,,,
+https://app.kraken.com/JDNW/rx0cjg3r,app.kraken.com,,JDNW,app.kraken.com/JDNW/*,link,skip,,,,,,수동 제외
+https://support.kraken.com/hc/en-us/articles/recurring-orders,support.kraken.com,,hc,support.kraken.com/hc/en-us/articles/*,link,list,,,,,,
+https://pro.kraken.com/app/dual-currency-investment/recurring,pro.kraken.com,,app,pro.kraken.com/app/dual-currency-investment/*,link,skip,,,,,,수동 제외
+https://pro.kraken.com/app/dual-currency-investment/strategies,pro.kraken.com,,app,pro.kraken.com/app/dual-currency-investment/*,link,skip,,,,,,수동 제외
+https://support.kraken.com/hc/en-us/articles/360001368823-Where-can-I-use-Kraken-,support.kraken.com,,hc,support.kraken.com/hc/en-us/articles/*,link,list,,,,,,
+https://support.kraken.com/hc/en-us/categories/360002119091-Earn,support.kraken.com,,hc,support.kraken.com/hc/en-us/categories/*,link,list,,,,,,
+https://support.kraken.com/hc/en-us/articles/360052734432-Ethereum-Merge-Staking-and-Trading-FAQ,support.kraken.com,,hc,support.kraken.com/hc/en-us/articles/*,link,list,,,,,,
+https://support.kraken.com/hc/articles/overview-of-eth-restaking-on-kraken,support.kraken.com,,hc,support.kraken.com/hc/articles/*,link,list,,,,,,
+https://support.kraken.com/hc/articles/360037682011,support.kraken.com,,hc,support.kraken.com/hc/articles/*,link,list,,,,,,
+https://support.kraken.com/hc/articles/360000381846,support.kraken.com,,hc,support.kraken.com/hc/articles/*,link,list,,,,,,
+https://support.kraken.com/hc/articles/360000767986,support.kraken.com,,hc,support.kraken.com/hc/articles/*,link,list,,,,,,
+https://support.kraken.com/hc/articles/360000423043,support.kraken.com,,hc,support.kraken.com/hc/articles/*,link,list,,,,,,
+https://support.kraken.com/hc/articles/360000292886,support.kraken.com,,hc,support.kraken.com/hc/articles/*,link,list,,,,,,
+https://support.kraken.com/hc/en-us/articles/360048212832-Buy-Crypto-with-your-credit-or-debit-card,support.kraken.com,,hc,support.kraken.com/hc/en-us/articles/*,link,list,,,,,,
+https://www.kraken.com/sign-up?theme=pro-premium-dark,www.kraken.com,,sign-up,www.kraken.com/*,link,skip,,,,,,수동 제외
+https://support.kraken.com/hc/en-us/articles/201893658-Available-currency-pairs-on-Kraken,support.kraken.com,,hc,support.kraken.com/hc/en-us/articles/*,link,list,,,,,,
+https://support.kraken.com/hc/en-us/sections/360013370331-Instantly-Buy-Crypto,support.kraken.com,,hc,support.kraken.com/hc/en-us/sections/*,link,list,,,,,,
+https://support.kraken.com/hc/en-us/articles/360000381846-Cash-deposit-options-fees-minimums-and-processing-times-,support.kraken.com,,hc,support.kraken.com/hc/en-us/articles/*,link,list,,,,,,
+https://blog.kraken.com/post/6920/kraken-grants-150000-to-new-bitcoin-developer-center-brink,blog.kraken.com,,post,blog.kraken.com/post/6920/*,link,list,,,,,,
+https://www.kraken.com/prices/monero,www.kraken.com,,prices,www.kraken.com/prices/*,link,list,,,,,,
+https://blog.kraken.com/post/7001/kraken-150000-grants-ethereum-gitcoin,blog.kraken.com,,post,blog.kraken.com/post/7001/*,link,list,,,,,,
+https://proapp.kraken.com/9f1e?deep_link_value=goToPair%2FBTC%2FUSD%2Fmargin,proapp.kraken.com,,9f1e,proapp.kraken.com/*,link,skip,,,,,,수동 제외
+https://proapp.kraken.com/9f1e?deep_link_value=goToMarkets%2FSpotMargin,proapp.kraken.com,,9f1e,proapp.kraken.com/*,link,skip,,,,,,수동 제외
+https://pro.kraken.com/app,pro.kraken.com,,app,pro.kraken.com/*,link,read,,,,,,
+https://support.kraken.com/hc/en-us/articles/4402532394260-Client-eligibility-for-margin-trading-services,support.kraken.com,,hc,support.kraken.com/hc/en-us/articles/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/qtum,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/ampleforth-governance-token,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,skim,,,,,,
+https://www.kraken.com/features/otc-exchange/ethereum-name-service,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/api3,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/convex,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/bitdao,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/alchemy-pay,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,skim,,,,,,
+https://www.kraken.com/features/otc-exchange/synthetix,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/polkastarter,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/omg-network,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/nym-tech,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/maker,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/lido-dao,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/loopring,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/axie-infinity-shards,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/energy-web,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/synapse,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/basic-attention-token,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/near-protocol,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/livepeer,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/basilisk,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/chiliz,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/ankr,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/numeraire,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/nano,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/injective,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/truefi,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/stepn,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/aragon,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/pax-gold,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/keep-network,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/selfkey,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/gala-games,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/cosmos,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/bluzelle,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/boba-network,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/gnosis,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/perpetual-protocol,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/idex,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/civic,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/dai,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/kusama,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/alien-worlds,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,skim,,,,,,
+https://www.kraken.com/features/otc-exchange/stella,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/serum,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/internet-computer-protocol,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/request,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/karura,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/phala,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/centrifuge,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/fantom,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/the-graph,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/unifi-protocol-dao,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/iexec-rlc,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/terra-2.0,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/litecoin,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/zcash,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,read,,,,,,
+https://www.kraken.com/features/otc-exchange/aavegotchi,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,skim,,,,,,
+https://www.kraken.com/features/otc-exchange/bittorrent,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/moonriver,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/liechtenstein-cryptoassets-exchange,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/shiba-inu,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/polygon,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/mina,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/1inch,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,skim,,,,,,
+https://www.kraken.com/features/otc-exchange/songbird,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/swipe,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/bifrost,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/flow,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/cartesi,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/chainlink,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/bancor,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/star-atlas,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/coti,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/polkadot,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/monero,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/gensokishi-metaverse,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/ocean,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/lisk,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/augur,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/algorand,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,skim,,,,,,
+https://www.kraken.com/features/otc-exchange/ethereum-classic,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/fetch.ai,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/band,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/akash,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,skim,,,,,,
+https://www.kraken.com/features/otc-exchange/orca,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/coin98,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/stargate-finance,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/dash,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/curve,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/celer-network,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/rarible,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/balancer,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/interlay,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/gari-network,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/oxygen,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/marinade-staked-sol,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/origin,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/covalent,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/nodle,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/usd-coin,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/quant,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/powerledger,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/kyber-network,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/arpa,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/storj,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/sushi,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/mirror-protocol,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/integritee,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/filecoin,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/chromia,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,read,,,,,,
+https://www.kraken.com/features/otc-exchange/kintsugi,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/decentraland,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/stafi,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/apecoin,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/ripple,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/shiden,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/enjin,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/raydium,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/green-satoshi-token,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/harvest-finance,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/compound,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/juno,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,read,,,,,,
+https://www.kraken.com/features/otc-exchange/samoyedcoin,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/icon,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/siacoin,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/adventure-gold,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,skim,,,,,,
+https://www.kraken.com/features/otc-exchange/waves,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/woo-network,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/tezos,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/0x,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,read,,,,,,
+https://www.kraken.com/features/otc-exchange/badger-dao,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/stellar,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/uniswap,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/radicle,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/jasmycoin,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/ambire-adex,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,skim,,,,,,
+https://www.kraken.com/features/otc-exchange/ethereumpow,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/augur-v2,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/thorchain,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/superfarm,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/the-sandbox,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/enzyme-finance,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/secret,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/kava,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/ren,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,read,,,,,,
+https://www.kraken.com/features/otc-exchange/audius,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/gitcoin,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/acala,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,skim,,,,,,
+https://www.kraken.com/features/otc-exchange/dent,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/terra-classic,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,
+https://www.kraken.com/features/otc-exchange/bitcoin-cash,www.kraken.com,,features,www.kraken.com/features/otc-exchange/*,link,list,,,,,,

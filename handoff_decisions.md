@@ -10,3 +10,4 @@
 - ATS 상세 조사는 야간 거래 3곳만(지시문 2절 시간 부족 시 규칙). ATS-2 후보 STEN, CGXS는 규모가 작거나 차별화 근거가 약해 ats_screen.csv에만 남김. ATS-2가 Blue Ocean, Bruce, MOON을 '다른 담당'으로 적은 줄은 병합 때 ATS-1 줄로 대체.
 - site-pack-reader는 세션 시작 뒤 추가된 정의라 에이전트 종류로 부를 수 없음. general-purpose + model haiku로 띄우고 정의 파일(.claude/agents/site-pack-reader.md)을 그대로 따르게 함. 부르는 횟수를 줄이려고 에이전트 하나에 묶음 2~6개를 주고, 묶음마다 notes 파일을 따로 쓰게 함(verify 짝 맞춤 유지).
 - ATS 운영사 사이트는 map하지 않음. ATS-1이 운영사 사이트와 FINRA API로 필요한 항목을 채웠고, 남은 시간을 회사 6곳 읽기에 씀.
+- 02 새 판은 정리(위키)를 메인 모델이 하게 하지만, 시간과 메인 대화 분량을 줄이려고 notes→위키, DB 줄 옮기기는 sonnet SITEFACT 에이전트에 맡김. 메인은 위키의 open-questions, verify.md, db/facts.csv로 companies 본문을 씀.

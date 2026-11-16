@@ -1,0 +1,20 @@
+# 읽기 묶음: accounts.binance.com / en (1/1)
+
+
+## 목록만 둔 URL 98건 (inventory.csv에서 plan=list)
+- https://accounts.binance.com/en/login?loginChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQ%3D
+- https://accounts.binance.com/en/register?registerChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQ%3D
+- https://accounts.binance.com/en/register?registerChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQtbGVnYWwtZGlzY2xvc3VyZXMvYnN0b2Nrcy1kaWdpdGFsLXNlY3VyaXRpZXMtZG9jdW1lbnRhdGlvbi1kaXNjbG9zdXJlcw%3D%3D
+- https://accounts.binance.com/en/login?loginChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQtbGVnYWwtZGlzY2xvc3VyZXMvYnN0b2Nrcy1kaWdpdGFsLXNlY3VyaXRpZXMtZG9jdW1lbnRhdGlvbi1kaXNjbG9zdXJlcw%3D%3D
+- https://accounts.binance.com/en/login?loginChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQtbGVnYWwtZGlzY2xvc3VyZXMvYnN0b2Nrcy1kaWdpdGFsLXNlY3VyaXRpZXMtZG9jdW1lbnRhdGlvbi1wcm9zcGVjdHVzZXM%3D
+- https://accounts.binance.com/en/register?registerChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQtbGVnYWwtZGlzY2xvc3VyZXMvYnN0b2Nrcy1kaWdpdGFsLXNlY3VyaXRpZXMtZG9jdW1lbnRhdGlvbi1wcm9zcGVjdHVzZXM%3D
+- https://accounts.binance.com/en/register?registerChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQtbGVnYWwvMjAyNS1QaWVycmVHYXNseS1IZWxtZXQtRGVzaWduLUNvbnRlc3Q%3D
+- https://accounts.binance.com/en/login?loginChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQtbGVnYWwvMjAyNS1QaWVycmVHYXNseS1IZWxtZXQtRGVzaWduLUNvbnRlc3Q%3D
+- https://accounts.binance.com/en/login?loginChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQtbGVnYWwvN2hlU2VsZWN0aW9uVGVybXNBbmRDb25kaXRpb25z
+- https://accounts.binance.com/en/register?registerChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQtbGVnYWwvN2hlU2VsZWN0aW9uVGVybXNBbmRDb25kaXRpb25z
+- https://accounts.binance.com/en/register?registerChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQtbGVnYWwvQXJnZW50aW5hLUJpbmFuY2VQYXktUVItQ2FtcGFpZ24%3D
+- https://accounts.binance.com/en/login?loginChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQtbGVnYWwvQXJnZW50aW5hLUJpbmFuY2VQYXktUVItQ2FtcGFpZ24%3D
+- https://accounts.binance.com/en/login?loginChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQtbGVnYWwvQkM0RVUtQ29uc3VsdGF0aW9uLVJlc3BvbnNlLUVTTUEtMTgtMTItMjAyMw%3D%3D
+- https://accounts.binance.com/en/register?registerChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQtbGVnYWwvQkM0RVUtQ29uc3VsdGF0aW9uLVJlc3BvbnNlLUVTTUEtMTgtMTItMjAyMw%3D%3D
+- https://accounts.binance.com/en/register?registerChannel=&return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vYWJvdXQtbGVnYWwvQkM0RVUtSm9pbnQtQ29uc3VsdGF0aW9uLVJlc3BvbnNlLUVDLTE5LTA3LTIwMjQ%3D
+- ...

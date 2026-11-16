@@ -66,13 +66,23 @@ for agent, r in collect('sources'):
     src_map[(agent, old)] = nid
     src_rows.append([nid] + r[1:])
 
+prev = {}
+mp = os.path.join(D, '_fact_id_map.csv')
+if os.path.exists(mp):
+    for row in csv.DictReader(open(mp, encoding='utf-8')):
+        prev[(row['agent'], row['original_id'])] = row['fact_id']
+nextn = max([int(v[2:]) for v in prev.values()] + [0])
 fact_rows, fmap, seen = [], [], set()
 for agent, r in collect('facts'):
     key = (r[1], r[10], r[23], r[24])
     if key in seen:
         continue
     seen.add(key)
-    nid = 'F-%04d' % (len(fact_rows) + 1)
+    if (agent, r[0]) in prev:
+        nid = prev[(agent, r[0])]
+    else:
+        nextn += 1
+        nid = 'F-%04d' % nextn
     fmap.append([nid, agent, r[0]])
     r = [nid] + r[1:]
     sid = r[22]
@@ -87,6 +97,7 @@ def write(name, rows):
         w.writerows(rows)
 
 write('sources', src_rows)
+fact_rows.sort(key=lambda r: r[0])
 write('facts', fact_rows)
 with open(os.path.join(D, '_fact_id_map.csv'), 'w', encoding='utf-8', newline='') as f:
     w = csv.writer(f); w.writerow(['fact_id', 'agent', 'original_id']); w.writerows(fmap)

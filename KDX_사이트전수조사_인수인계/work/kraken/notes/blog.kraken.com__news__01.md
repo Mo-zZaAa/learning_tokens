@@ -1,0 +1,34 @@
+# notes: blog.kraken.com__news__01.md
+
+## 승격 후보
+- https://blog.kraken.com/news/kraken-acquires-crypto-derivatives-trading-platform-and-index-provider-crypto-facilities-in-nine-figure-deal-official-press-release
+- https://blog.kraken.com/news/kraken-acquires-australias-longest-running-crypto-service-provider-bit-trade
+- https://blog.kraken.com/news/kraken-acquires-cryptowatch-and-launches-new-trade
+- https://blog.kraken.com/news/kraken-acquires-dutch-bitcoin-exchange-clevercoin
+- https://blog.kraken.com/news/free-bank-withdrawals-are-live-for-us-clients
+- https://blog.kraken.com/news/kraken-otc-acquires-circle-trade
+- https://blog.kraken.com/news/kraken-forms-exclusive-partnership-with-fidor-bank
+- https://blog.kraken.com/news/kraken-introduces-no-fee-usd-deposits-with-signature-and-mvb-bank
+- https://blog.kraken.com/news/kraken-acquiring-coinsetter-and-cavirtex-to-expand
+- https://blog.kraken.com/news/kraken-to-allow-a-new-way-to-earn-crypto-rewards-with-staked-acquisition
+- https://blog.kraken.com/news/kraken-completes-soc-2-type-i-for-custody-and-funding-services
+- https://blog.kraken.com/news/kraken-progresses-european-expansion-secures-eu-e-money-license-and-vasp-in-spain
+- https://blog.kraken.com/news/kraken-to-acquire-dutch-crypto-broker-bcm-in-commitment-to-grow-european-business
+- https://blog.kraken.com/news/kraken-secures-vasp-registration-from-dutch-central-bank
+- https://blog.kraken.com/news/eu-mifid-license
+- https://blog.kraken.com/news/kraken-to-acquire-ninjatrader
+- https://blog.kraken.com/news/custody-usdg-rewards
+- https://blog.kraken.com/news/mica-license-central-bank-of-ireland
+- https://blog.kraken.com/news/why-were-launching-krak
+- https://blog.kraken.com/news/all-30-eea-countries-mica
+- https://blog.kraken.com/news/kraken-acquires-breakout
+- https://blog.kraken.com/news/backed-acquisition
+- https://blog.kraken.com/news/kraken-custody-uk-and-australia
+- https://blog.kraken.com/news/custody-partner-ethena
+- https://blog.kraken.com/news/kraken-acquires-glidera
+- https://blog.kraken.com/news/payward-acquires-magna
+- https://blog.kraken.com/news/kraken-wyoming-first-digital-asset-bank
+- https://blog.kraken.com/news/payward-acquires-bitnomial
+- https://blog.kraken.com/news/payward-files-application-for-occ-national-trust-company
+- https://blog.kraken.com/news/industry-news/europe-mica-switch
+- https://blog.kraken.com/news/acquires-small-exchange
