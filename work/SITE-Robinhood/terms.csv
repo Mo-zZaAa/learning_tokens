@@ -1,0 +1,7 @@
+"용어","원어","쉬운 뜻","이 과제에서 중요한 이유","헷갈리는 짝","차이 한 줄","한국의 대응 용어와 제도","source_id"
+"Stock Tokens","Stock Tokens(Robinhood Chain판)","RHJ(저지)가 발행하는 토큰화 부채증권. 기초증권에 대한 경제적 노출만 줌","Robinhood 토큰증권의 핵심 상품. 주식 소유가 아니라 발행사에 대한 채권","Classic Stock Tokens","Stock Tokens는 부채증권(담보로 기초증권 보유 의무), Classic은 EEA 고객과의 양자 계약(보유 의무 없음, 헤지로 매수)","예탁증서(DR), 파생결합증권(ELS/DLS)과 비교 대상. 전자증권법상 토큰증권과의 관계는 별도 검토","SITE-Robinhood-S01"
+"Classic Stock Tokens","Classic Stock Tokens(구 Robinhood Stock Tokens)","EU 고객용 파생계약. 가격은 미국 주식 가격을 따르지만 권리는 없음","2025-06 출시된 1세대. MiFID II 파생상품으로 서술","Stock Tokens","발행 주체가 Robinhood(EU 사이트 기준)이고 파생계약이라 청구 상대가 Robinhood","파생상품, 장외파생상품 투자매매업","SITE-Robinhood-S05"
+"RHJ","Robinhood Assets (Jersey) Limited","저지 설립 비공개 유한회사로 Stock Tokens 발행 주체","발행 주체와 감독 범위를 가름","Robinhood Europe, UAB","RHJ는 토큰 발행사, Robinhood Europe는 EU 인가 사업자","발행 법인과 판매 법인의 분리","SITE-Robinhood-S01"
+"Tokenised Products Programme","RHJ Tokenised Products Programme","RHJ가 부채증권을 종목별 Final Terms로 발행하는 프로그램. 기본투자설명서를 리히텐슈타인 FMA가 승인","발행 구조와 공시 체계","Final Terms","기본투자설명서는 틀, Final Terms는 종목별 조건","증권신고서 일괄신고(발행 조건 확정서)","SITE-Robinhood-S01"
+"Robinhood Chain","Robinhood Chain","Robinhood가 2026-07 출시한 이더리움 호환 레이어 2 블록체인. 허가 불필요(permissionless)","Stock Tokens 기록과 거래 인프라, 시퀀서 수익원","Arbitrum","Chain은 Robinhood 자체 체인, Arbitrum은 다른 이더리움 L2(사이트 원문에서 연결 근거 못 찾음)","(해당 없음) 분산원장 기반 전자등록은 전자증권법 별도","SITE-Robinhood-S01"
+"Funded Customers","Funded Customers","45일 내 잔액이 있거나 거래한 고유 개인","회사 규모 지표 정의","Total Platform Assets","고객 수 대 자산 규모","활동 계좌 수","SITE-Robinhood-S02"

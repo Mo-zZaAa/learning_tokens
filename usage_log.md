@@ -29,3 +29,5 @@
 | 12:15 | 2a | SITEFACT-Dinari | | | 205,685 | 5,107,294 |
 | 12:15 | 2a | Coinbase base.org stocks 읽기(Haiku) | | | 181,358 | 5,288,652 |
 | 12:17 | 2a | Binance B1 읽기(Haiku) | | | 170,762 | 5,459,414 |
+| 12:18 | 2a, 3단계 | Binance B2, VER-Binance, VER-Dinari | | | 388,272 | 5,847,686 |
+| 12:20 | 3단계 | VER-Coinbase | | | 142,838 | 5,990,524 |
