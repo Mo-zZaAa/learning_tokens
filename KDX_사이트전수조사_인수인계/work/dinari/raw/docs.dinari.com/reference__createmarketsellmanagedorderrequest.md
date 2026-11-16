@@ -1,0 +1,239 @@
+---
+url: https://docs.dinari.com/reference/createmarketsellmanagedorderrequest
+title: Create Market Sell Managed Order Request
+description: Create a managed `OrderRequest` to place a market sell `Order`.
+
+Fees for the `Order` can optionally be specified in the `OrderRequest` for DFN orders in USD, supporting up to 6 decimal places
+
+If an `OrderRequest` with the same `client_order_id` already exists for the given account, the creation call will fail.
+fetched: 2026-11-16
+method: static
+plan: read
+---
+
+## Dinari Enterprise API
+
+* [⚠️ Environment](https://docs.dinari.com/reference/environments)
+* [Market Data](https://docs.dinari.com/reference/getstocks)
+  + [Get Stocksget](https://docs.dinari.com/reference/getstocks)
+  + [Get Historical Stock Pricesget](https://docs.dinari.com/reference/getstockpricechart)
+  + [Get Stock Splitsget](https://docs.dinari.com/reference/getstocksplits)
+  + [Get Stock Splits for Stockget](https://docs.dinari.com/reference/getstocksplitsbyid)
+  + [Get News Articles for Stockget](https://docs.dinari.com/reference/getstocknewsbystockid)
+  + [Get Stock Dividend Announcementsget](https://docs.dinari.com/reference/getstockdividendsbystockid)
+  + [Get Market Hoursget](https://docs.dinari.com/reference/getmarkethours)
+  + [Get Stock current priceget](https://docs.dinari.com/reference/getstockcurrentprice)
+  + [Get Alloysget](https://docs.dinari.com/reference/getalloys)
+  + [Get Alloy current priceget](https://docs.dinari.com/reference/getalloycurrentprice)
+  + [Get Historical Alloy Pricesget](https://docs.dinari.com/reference/getalloypricechart)
+  + [Get Stock Quoteget](https://docs.dinari.com/reference/getstockcurrentquotesroutev2)
+* [Entities](https://docs.dinari.com/reference/getentities)
+  + [Get Entitiesget](https://docs.dinari.com/reference/getentities)
+  + [Create Entitypost](https://docs.dinari.com/reference/createentities)
+  + [Get Current Entityget](https://docs.dinari.com/reference/getcurrententity)
+  + [Get Entity by IDget](https://docs.dinari.com/reference/getentitybyid)
+  + [Update Entitypatch](https://docs.dinari.com/reference/updateentitybyid)
+* [KYC](https://docs.dinari.com/reference/getentitykyc)
+  + [Get KYC Dataget](https://docs.dinari.com/reference/getentitykyc)
+  + [Submit KYC Datapost](https://docs.dinari.com/reference/createentitykyc)
+  + [Get KYC Documentsget](https://docs.dinari.com/reference/getentitykycdocument)
+  + [Upload KYC Documentspost](https://docs.dinari.com/reference/createentitykycdocument)
+  + [Create Managed KYC Checkpost](https://docs.dinari.com/reference/createmanagedentitykycembed)
+* [Accounts](https://docs.dinari.com/reference/getentityaccounts)
+  + [Get Accounts for Entityget](https://docs.dinari.com/reference/getentityaccounts)
+  + [Create Account for Entitypost](https://docs.dinari.com/reference/createentityaccounts)
+  + [Get Account by IDget](https://docs.dinari.com/reference/getaccount)
+  + [Deactivate Accountpost](https://docs.dinari.com/reference/createaccountdeactivation)
+  + [Get Portfolioget](https://docs.dinari.com/reference/getaccountportfolio)
+  + [Get Cash Balancesget](https://docs.dinari.com/reference/getaccountcash)
+  + [Get Interest Paymentsget](https://docs.dinari.com/reference/getaccountinterestpayments)
+  + [Get Dividend Paymentsget](https://docs.dinari.com/reference/getaccountdividendpayments)
+  + [Sandbox Faucetpost](https://docs.dinari.com/reference/createaccountfaucet)
+  + [Get TokenTransfersget](https://docs.dinari.com/reference/gettokentransfers)
+  + [Create TokenTransferpost](https://docs.dinari.com/reference/createtokentransfers)
+  + [Get TokenTransfer by IDget](https://docs.dinari.com/reference/gettokentransfer)
+  + [Get Brokerage Account Activitiesget](https://docs.dinari.com/reference/getbrokerageaccountactivities)
+* [Wallets](https://docs.dinari.com/reference/getwallet)
+  + [Get Walletget](https://docs.dinari.com/reference/getwallet)
+  + [Get Wallet Connection Nonceget](https://docs.dinari.com/reference/getaccountwalletconnectionnonce)
+  + [Connect Wallet to Accountpost](https://docs.dinari.com/reference/createaccountwalletconnection)
+  + [Connect an internal Wallet to Accountpost](https://docs.dinari.com/reference/createaccountwalletinternalconnection)
+* [Orders](https://docs.dinari.com/reference/getorders)
+  + [Get Ordersget](https://docs.dinari.com/reference/getorders)
+  + [Get Order by IDget](https://docs.dinari.com/reference/getorderbyid)
+  + [Query Order Fulfillmentsget](https://docs.dinari.com/reference/getaccountallorderfulfillments)
+  + [Get Order Fulfillmentsget](https://docs.dinari.com/reference/getaccountorderfulfillments)
+  + [Get Order Fulfillment by IDget](https://docs.dinari.com/reference/getaccountorderfulfillmentbyid)
+  + [Get Orders for Entityget](https://docs.dinari.com/reference/getentityorders)
+  + [Cancel Orderspost](https://docs.dinari.com/reference/createbatchordercancellation)
+* [Managed Orders](https://docs.dinari.com/reference/getlistorderrequests)
+  + [List Order Requestsget](https://docs.dinari.com/reference/getlistorderrequests)
+  + [Get Order Request by IDget](https://docs.dinari.com/reference/getorderrequestbyid)
+  + [Cancel Orderpost](https://docs.dinari.com/reference/createordercancellation)
+  + [Create Market Buy Managed Order Requestpost](https://docs.dinari.com/reference/createmarketbuymanagedorderrequest)
+  + [Create Market Sell Managed Order Requestpost](https://docs.dinari.com/reference/createmarketsellmanagedorderrequest)
+  + [Create Limit Buy Managed Order Requestpost](https://docs.dinari.com/reference/createlimitbuymanagedorderrequest)
+  + [Create Limit Sell Managed Order Requestpost](https://docs.dinari.com/reference/createlimitsellmanagedorderrequest)
+* [Proxied Orders](https://docs.dinari.com/reference/proxied-orders)
+* [Withdrawals](https://docs.dinari.com/reference/getaccountwithdrawalrequests)
+  + [Get Withdrawal Requestsget](https://docs.dinari.com/reference/getaccountwithdrawalrequests)
+  + [Create Withdrawal Requestpost](https://docs.dinari.com/reference/createaccountwithdrawalrequests)
+  + [Get Withdrawal Request by IDget](https://docs.dinari.com/reference/getaccountwithdrawalrequest)
+  + [Get Withdrawalsget](https://docs.dinari.com/reference/getaccountwithdrawals)
+  + [Get Withdrawal by IDget](https://docs.dinari.com/reference/getaccountwithdrawal)
+* [Order Requests](https://docs.dinari.com/reference/createeip155orderrequestpermit)
+  + [Create EIP155 Order Request Permitpost](https://docs.dinari.com/reference/createeip155orderrequestpermit)
+  + [Submit EIP155 Order Requestpost](https://docs.dinari.com/reference/createeip155orderrequestpermittransaction)
+  + [Create EIP155 Order Request Permit Transactionpost](https://docs.dinari.com/reference/createeip155permittransaction)
+
+Powered by
+
+Copy Page
+
+# Create Market Sell Managed Order Request
+
+post
+
+https://api-enterprise.sbt.dinari.com/api/v2/accounts/{account\_id}/order\_requests/market\_sell
+
+Create a managed `OrderRequest` to place a market sell `Order`.
+
+Fees for the `Order` can optionally be specified in the `OrderRequest` for DFN orders in USD, supporting up to 6 decimal places
+
+If an `OrderRequest` with the same `client_order_id` already exists for the given account, the creation call will fail.
+
+Recent Requests
+
+Log in to see full request history
+
+| Time | Status | User Agent |  |
+| --- | --- | --- | --- |
+| Retrieving recent requests… | | | |
+
+Loading…
+
+Path Params
+
+account\_id
+
+uuid
+
+required
+
+Body Params
+
+Input parameters for creating a market sell `OrderRequest`.
+
+asset\_quantity
+
+number
+
+required
+
+≥ 0
+
+Quantity of shares to trade. Must be a positive number with a precision of up to 6 decimal places.
+
+stock\_id
+
+uuid | null
+
+ID of `Stock`.
+
+alloy\_id
+
+uuid | null
+
+ID of `Alloy`.
+
+recipient\_account\_id
+
+uuid | null
+
+ID of `Account` to receive the `Order`.
+
+payment\_token\_address
+
+string | null
+
+Address of the payment token to be used for the sell order. If not provided, the default payment token (USD+) will be used. Should only be specified if `recipient_account_id` for a non-managed wallet account is also provided.
+
+client\_order\_id
+
+string | null
+
+Customer-supplied ID to map this order to an order in their own systems. Must be unique within the entity.
+
+fee
+
+number | null
+
+≥ 0
+
+Optional fee amount associated with `Order` in USD for DFN orders. Must be a positive number with a precision of up to 6 decimal places.
+
+Responses
+
+# 201 Created
+
+# 422 Unprocessable Entity
+
+# 423 Locked
+
+# default Default error response
+
+Updated 7 months ago
+
+---
+
+[Create Market Buy Managed Order Request](https://docs.dinari.com/reference/createmarketbuymanagedorderrequest)[Create Limit Buy Managed Order Request](https://docs.dinari.com/reference/createlimitbuymanagedorderrequest)
+
+Did this page help you?
+
+Yes
+
+No
+
+Language
+
+ShellNodeRubyPHPPython
+
+Credentials
+
+Header +1
+
+URL
+
+Base URL
+
+https://api-enterprise.sbt.dinari.com/api/v2/accounts/{account\_id}/order\_requests/market\_sell
+
+```
+Loading…
+```
+
+Response
+
+Click `Try It!` to start a request and see the response here! Or choose an example:
+
+application/json
+
+201422423default
+
+Updated 7 months ago
+
+---
+
+[Create Market Buy Managed Order Request](https://docs.dinari.com/reference/createmarketbuymanagedorderrequest)[Create Limit Buy Managed Order Request](https://docs.dinari.com/reference/createlimitbuymanagedorderrequest)
+
+Did this page help you?
+
+Yes
+
+No
+
+## 구조화 데이터(JSON-LD)
+
+```json
+{"@context":"https://schema.org","@type":"TechArticle","headline":"Create Market Sell Managed Order Request","dateModified":"2026-04-20T21:43:36.000Z"}
+```

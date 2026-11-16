@@ -1,0 +1,357 @@
+---
+url: https://docs.dinari.com/reference/market-data
+title: Get Stocks
+description: Get a list of Stocks .
+fetched: 2026-11-16
+method: render
+plan: skim
+---
+
+`CTRL-/`
+
+## Dinari Enterprise API
+
+* [⚠️ Environment](https://docs.dinari.com/reference/environments)
+* [Market Data](https://docs.dinari.com/reference/getstocks)
+  + [Get Stocksget](https://docs.dinari.com/reference/getstocks)
+  + [Get Historical Stock Pricesget](https://docs.dinari.com/reference/getstockpricechart)
+  + [Get Stock Splitsget](https://docs.dinari.com/reference/getstocksplits)
+  + [Get Stock Splits for Stockget](https://docs.dinari.com/reference/getstocksplitsbyid)
+  + [Get News Articles for Stockget](https://docs.dinari.com/reference/getstocknewsbystockid)
+  + [Get Stock Dividend Announcementsget](https://docs.dinari.com/reference/getstockdividendsbystockid)
+  + [Get Market Hoursget](https://docs.dinari.com/reference/getmarkethours)
+  + [Get Stock current priceget](https://docs.dinari.com/reference/getstockcurrentprice)
+  + [Get Alloysget](https://docs.dinari.com/reference/getalloys)
+  + [Get Alloy current priceget](https://docs.dinari.com/reference/getalloycurrentprice)
+  + [Get Historical Alloy Pricesget](https://docs.dinari.com/reference/getalloypricechart)
+  + [Get Stock Quoteget](https://docs.dinari.com/reference/getstockcurrentquotesroutev2)
+* [Entities](https://docs.dinari.com/reference/getentities)
+  + [Get Entitiesget](https://docs.dinari.com/reference/getentities)
+  + [Create Entitypost](https://docs.dinari.com/reference/createentities)
+  + [Get Current Entityget](https://docs.dinari.com/reference/getcurrententity)
+  + [Get Entity by IDget](https://docs.dinari.com/reference/getentitybyid)
+  + [Update Entitypatch](https://docs.dinari.com/reference/updateentitybyid)
+* [KYC](https://docs.dinari.com/reference/getentitykyc)
+  + [Get KYC Dataget](https://docs.dinari.com/reference/getentitykyc)
+  + [Submit KYC Datapost](https://docs.dinari.com/reference/createentitykyc)
+  + [Get KYC Documentsget](https://docs.dinari.com/reference/getentitykycdocument)
+  + [Upload KYC Documentspost](https://docs.dinari.com/reference/createentitykycdocument)
+  + [Create Managed KYC Checkpost](https://docs.dinari.com/reference/createmanagedentitykycembed)
+* [Accounts](https://docs.dinari.com/reference/getentityaccounts)
+  + [Get Accounts for Entityget](https://docs.dinari.com/reference/getentityaccounts)
+  + [Create Account for Entitypost](https://docs.dinari.com/reference/createentityaccounts)
+  + [Get Account by IDget](https://docs.dinari.com/reference/getaccount)
+  + [Deactivate Accountpost](https://docs.dinari.com/reference/createaccountdeactivation)
+  + [Get Portfolioget](https://docs.dinari.com/reference/getaccountportfolio)
+  + [Get Cash Balancesget](https://docs.dinari.com/reference/getaccountcash)
+  + [Get Interest Paymentsget](https://docs.dinari.com/reference/getaccountinterestpayments)
+  + [Get Dividend Paymentsget](https://docs.dinari.com/reference/getaccountdividendpayments)
+  + [Sandbox Faucetpost](https://docs.dinari.com/reference/createaccountfaucet)
+  + [Get TokenTransfersget](https://docs.dinari.com/reference/gettokentransfers)
+  + [Create TokenTransferpost](https://docs.dinari.com/reference/createtokentransfers)
+  + [Get TokenTransfer by IDget](https://docs.dinari.com/reference/gettokentransfer)
+  + [Get Brokerage Account Activitiesget](https://docs.dinari.com/reference/getbrokerageaccountactivities)
+* [Wallets](https://docs.dinari.com/reference/getwallet)
+  + [Get Walletget](https://docs.dinari.com/reference/getwallet)
+  + [Get Wallet Connection Nonceget](https://docs.dinari.com/reference/getaccountwalletconnectionnonce)
+  + [Connect Wallet to Accountpost](https://docs.dinari.com/reference/createaccountwalletconnection)
+  + [Connect an internal Wallet to Accountpost](https://docs.dinari.com/reference/createaccountwalletinternalconnection)
+* [Orders](https://docs.dinari.com/reference/getorders)
+  + [Get Ordersget](https://docs.dinari.com/reference/getorders)
+  + [Get Order by IDget](https://docs.dinari.com/reference/getorderbyid)
+  + [Query Order Fulfillmentsget](https://docs.dinari.com/reference/getaccountallorderfulfillments)
+  + [Get Order Fulfillmentsget](https://docs.dinari.com/reference/getaccountorderfulfillments)
+  + [Get Order Fulfillment by IDget](https://docs.dinari.com/reference/getaccountorderfulfillmentbyid)
+  + [Get Orders for Entityget](https://docs.dinari.com/reference/getentityorders)
+  + [Cancel Orderspost](https://docs.dinari.com/reference/createbatchordercancellation)
+* [Managed Orders](https://docs.dinari.com/reference/getlistorderrequests)
+  + [List Order Requestsget](https://docs.dinari.com/reference/getlistorderrequests)
+  + [Get Order Request by IDget](https://docs.dinari.com/reference/getorderrequestbyid)
+  + [Cancel Orderpost](https://docs.dinari.com/reference/createordercancellation)
+  + [Create Market Buy Managed Order Requestpost](https://docs.dinari.com/reference/createmarketbuymanagedorderrequest)
+  + [Create Market Sell Managed Order Requestpost](https://docs.dinari.com/reference/createmarketsellmanagedorderrequest)
+  + [Create Limit Buy Managed Order Requestpost](https://docs.dinari.com/reference/createlimitbuymanagedorderrequest)
+  + [Create Limit Sell Managed Order Requestpost](https://docs.dinari.com/reference/createlimitsellmanagedorderrequest)
+* [Proxied Orders](https://docs.dinari.com/reference/proxied-orders)
+* [Withdrawals](https://docs.dinari.com/reference/getaccountwithdrawalrequests)
+  + [Get Withdrawal Requestsget](https://docs.dinari.com/reference/getaccountwithdrawalrequests)
+  + [Create Withdrawal Requestpost](https://docs.dinari.com/reference/createaccountwithdrawalrequests)
+  + [Get Withdrawal Request by IDget](https://docs.dinari.com/reference/getaccountwithdrawalrequest)
+  + [Get Withdrawalsget](https://docs.dinari.com/reference/getaccountwithdrawals)
+  + [Get Withdrawal by IDget](https://docs.dinari.com/reference/getaccountwithdrawal)
+* [Order Requests](https://docs.dinari.com/reference/createeip155orderrequestpermit)
+  + [Create EIP155 Order Request Permitpost](https://docs.dinari.com/reference/createeip155orderrequestpermit)
+  + [Submit EIP155 Order Requestpost](https://docs.dinari.com/reference/createeip155orderrequestpermittransaction)
+  + [Create EIP155 Order Request Permit Transactionpost](https://docs.dinari.com/reference/createeip155permittransaction)
+
+Powered by
+
+Copy Page
+
+# Get Stocks
+
+get
+
+https://api-enterprise.sbt.dinari.com/api/v2/market\_data/stocks/
+
+Get a list of `Stocks`.
+
+Recent Requests
+
+Log in to see full request history
+
+| Time | Status | User Agent |  |
+| --- | --- | --- | --- |
+| Make a request to see history. | | | |
+
+0 Requests This Month
+
+#### URL Expired
+
+The URL for this request expired after 30 days.
+
+Close
+
+Query Params
+
+symbols
+
+array of strings
+
+length ≤ 100
+
+List of `Stock` symbols to query. If not provided, all `Stocks` are returned.
+
+symbols
+
+ADD  string
+
+page
+
+integer
+
+≥ 1
+
+Defaults to 1
+
+page\_size
+
+integer
+
+1 to 100
+
+Defaults to 25
+
+limit
+
+integer
+
+20 to 100
+
+Defaults to 20
+
+Number of results to return
+
+order
+
+string
+
+enum
+
+Defaults to asc
+
+Sort order
+
+ascdesc
+
+Allowed:
+
+`asc``desc`
+
+next
+
+string | null
+
+Cursor for next page
+
+previous
+
+string | null
+
+Cursor for previous page
+
+Responses
+
+# 200 OK
+
+# 422 Unprocessable Entity
+
+# default Default error response
+
+Response body
+
+object
+
+status
+
+integer
+
+required
+
+HTTP status code
+
+message
+
+string
+
+required
+
+Human-readable message
+
+error\_id
+
+string
+
+required
+
+Reference Id for Dinari support
+
+error
+
+string
+
+Additional context and information
+
+Updated 7 months ago
+
+---
+
+[⚠️ Environment](https://docs.dinari.com/reference/environments)[Get Historical Stock Prices](https://docs.dinari.com/reference/getstockpricechart)
+
+Did this page help you?
+
+Yes
+
+No
+
+Language
+
+ShellNodeRubyPHPPython
+
+Credentials
+
+Header +1
+
+URL
+
+Base URL
+
+https://api-enterprise.sbt.dinari.com/api/v2/market\_data/stocks/
+
+cURL Request
+
+```
+```
+xxxxxxxxxx
+```
+
+1
+
+```
+curl --request GET \
+```
+
+2
+
+```
+     --url https://api-enterprise.sbt.dinari.com/api/v2/market_data/stocks/ \
+```
+
+3
+
+```
+     --header 'accept: application/json'
+```
+```
+
+Try It!
+
+default
+
+```
+```
+xxxxxxxxxx
+```
+
+12
+
+5
+
+1
+
+```
+{
+```
+
+2
+
+```
+  "status": 0,
+```
+
+3
+
+```
+  "message": "string",
+```
+
+4
+
+```
+  "error_id": "string"
+```
+
+5
+
+```
+}
+```
+```
+
+Updated 7 months ago
+
+---
+
+[⚠️ Environment](https://docs.dinari.com/reference/environments)[Get Historical Stock Prices](https://docs.dinari.com/reference/getstockpricechart)
+
+Did this page help you?
+
+Yes
+
+No
+
+## 펼치거나 눌러야 보이던 내용
+
+- Defaults to 422
+- Defaults to Unprocessable Entity
+- field_errors
+- array of objects
+- Contains list of field-specific errors
+- field_name
+- Name of field with error
+- field_error
+- Description of error
+- body_error
+- Description of body-specific error (ex. JSON issues)
+- "error_id": "string",
+- "error": {
+- "field_errors": [
+- "field_name": "string",
+- "field_error": "string"
+- "body_error": "string"
+
+## 구조화 데이터(JSON-LD)
+
+```json
+{"@context":"https://schema.org","@type":"TechArticle","headline":"Get Stocks","dateModified":"2026-04-20T21:43:36.000Z"}
+```

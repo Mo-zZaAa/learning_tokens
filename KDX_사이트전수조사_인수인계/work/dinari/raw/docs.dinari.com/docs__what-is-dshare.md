@@ -1,0 +1,128 @@
+---
+url: https://docs.dinari.com/docs/what-is-dshare
+title: What are dShares™?
+description: A dShare™ is a token 1:1 backed by a security , commonly a U.S. equity. How is it backed? To ensure a true 1:1 backing, a mint (aka issuance) or a burn (aka redemption) only occurs when a corresponding order is complete on a brokerage account: sequenceDiagram actor A as Customer participant B as Blo…
+fetched: 2026-11-16
+method: static
+plan: read
+---
+
+## Getting Started
+
+* [Quickstart](https://docs.dinari.com/docs/quickstart)
+* [Deploy to production](https://docs.dinari.com/docs/deploy-to-production)
+* [Hosted Trading](https://docs.dinari.com/docs/hosted-trading)
+
+## Core Concepts
+
+* [What are dShares™?](https://docs.dinari.com/docs/what-is-dshare)
+  + [Blockchain](https://docs.dinari.com/docs/blockchain)
+    - [Wrapping dShares™](https://docs.dinari.com/docs/wrapping)
+    - [Hyperliquid](https://docs.dinari.com/docs/hyperliquid)
+    - [dShare Bridging Guide](https://docs.dinari.com/docs/dshare-bridging-guide)
+    - [Deprecation Notices](https://docs.dinari.com/docs/deprecations)
+* [What is USD+?](https://docs.dinari.com/docs/what-is-usd)
+  + [Blockchain](https://docs.dinari.com/docs/usdplus-evm)
+    - [EVM](https://docs.dinari.com/docs/usdplus-evm)
+      * [Integration Guide](https://docs.dinari.com/docs/usdplus-evm-integration-guide)
+* [Trading Hours](https://docs.dinari.com/docs/trading-hours)
+* [Partner Fees](https://docs.dinari.com/docs/fees)
+
+## Technical Integration
+
+* [Entity Management](https://docs.dinari.com/docs/entity-management)
+  + [Identity Verification (KYC)](https://docs.dinari.com/docs/managing-kyc)
+  + [Managing Accounts](https://docs.dinari.com/docs/managing-accounts)
+  + [Managing Wallets](https://docs.dinari.com/docs/managing-wallets)
+  + [Funding Accounts through Wallets](https://docs.dinari.com/docs/funding-accounts-through-wallets)
+* [Ordering](https://docs.dinari.com/docs/placing-orders)
+  + [Placing Orders](https://docs.dinari.com/docs/placing-orders)
+    - [Placing dShare Orders with Alchemy](https://docs.dinari.com/docs/placing-dshare-orders-with-alchemy)
+    - [Placing dShare Orders with Safe Vaults](https://docs.dinari.com/docs/placing-dshare-orders-with-safe-vaults)
+  + [Order Types & Behaviors](https://docs.dinari.com/docs/order-type)
+  + [Order Fulfillment Amounts in the Orders API](https://docs.dinari.com/docs/order-fulfillment-amounts-in-the-orders-api)
+* [Stock Data](https://docs.dinari.com/docs/stock-data)
+  + [Pricing & Quotes](https://docs.dinari.com/docs/pricing-quotes)
+  + [24/7 Tradable Assets](https://docs.dinari.com/docs/24-7-trading)
+  + [24/5 Tradable Assets](https://docs.dinari.com/docs/245-tradable-assets)
+* [Corporate Actions](https://docs.dinari.com/docs/corporate-action-processing)
+  + [Dividends](https://docs.dinari.com/docs/dividend-payments)
+  + [Stock Splits](https://docs.dinari.com/docs/stock-split-handling)
+  + [Ticker Changes](https://docs.dinari.com/docs/ticker-changes)
+  + [Mergers](https://docs.dinari.com/docs/mergers)
+* [Websockets for Order Data (BETA)](https://docs.dinari.com/docs/websockets)
+* [Troubleshooting & Known Issues](https://docs.dinari.com/docs/error-codes)
+  + [Error Codes](https://docs.dinari.com/docs/error-codes)
+  + [Orders Stuck in SUBMITTED Status](https://docs.dinari.com/docs/stuck-orders)
+  + [Smart Contract Wallet Support](https://docs.dinari.com/docs/smart-contract-wallet-support)
+
+## Compliance and Regional
+
+* [Security](https://docs.dinari.com/docs/security)
+* [Regional Requirements](https://docs.dinari.com/docs/regional-requirements)
+  + [US Customers](https://docs.dinari.com/docs/us)
+* [Restrictions](https://docs.dinari.com/docs/restrictions)
+* [Taxes & Reporting](https://docs.dinari.com/docs/taxes-reporting)
+
+## Support
+
+* [Staying Safe on Dinari](https://docs.dinari.com/docs/staying-safe-on-dinari)
+* [FAQs](https://docs.dinari.com/docs/faqs)
+* [Status Pages](https://docs.dinari.com/docs/status-pages)
+
+Powered by
+
+# What are dShares™?
+
+A dShare™ is a token 1:1 backed by a [security](https://www.investopedia.com/terms/s/security.asp), commonly a U.S. equity.
+
+# How is it backed?
+
+To ensure a true 1:1 backing, a mint (aka issuance) or a burn (aka redemption) only occurs when a corresponding order is complete on a brokerage account:
+
+```
+sequenceDiagram
+	actor A as Customer
+	participant B as Blockchain
+	participant C as Dinari
+	participant D as Alpaca
+	Note over A,D: Issuance
+	A ->> B: Escrow funds and submit order
+	B ->> C: Forward order
+	C ->> D: Submit order
+	D ->> D: Fill order
+	D ->> C: Notify completion
+	C ->> B: Fill order
+	B ->> A: Mint dShares
+	Note over A,D: Redemption
+	A ->> B: Escrow dShares and submit order
+	B ->> C: Forward order
+	C ->> D: Submit order
+	D ->> D: Fill order
+	D ->> C: Notify completion
+	C ->> B: Fill order
+	B ->> B: Burn dShares
+	B ->> A: Transfer funds
+```
+
+Updated about 1 month ago
+
+---
+
+[Hosted Trading](https://docs.dinari.com/docs/hosted-trading)[Blockchain](https://docs.dinari.com/docs/blockchain)
+
+Did this page help you?
+
+Yes
+
+No
+
+Copy Page
+
+* + [How is it backed?](https://docs.dinari.com/docs/what-is-dshare)
+
+## 구조화 데이터(JSON-LD)
+
+```json
+{"@context":"https://schema.org","@type":"TechArticle","headline":"What are dShares™?","dateModified":"2026-10-14T11:27:27.000Z"}
+```

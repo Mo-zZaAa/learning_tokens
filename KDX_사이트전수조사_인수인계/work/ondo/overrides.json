@@ -1,0 +1,9 @@
+{
+ "settings": {
+  "template_min": 40,
+  "sample": 5,
+  "skim_cap": 40,
+  "read_all_under": 300,
+  "locales": ",en-us,en,en-gb,ko-kr,ko"
+ }
+}
