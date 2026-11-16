@@ -80,7 +80,9 @@ details.sec>summary .code{font-family:var(--mono);color:var(--accent);font-size:
 .txt{cursor:pointer}
 .lv-b .body{font-weight:700}
 .lv-s .body{padding-left:1.6em}
-.lv-q1 .body,.lv-q2 .body,.lv-q3 .body{padding-left:3.2em}
+.lv-q1 .body,.lv-q2 .body,.lv-q3 .body,.lv-d .body{padding-left:3.2em}
+.lv-d .body{font-size:14.5px}
+.row.defn .txt{color:var(--muted)}
 .lv-img .body{padding-left:1.6em}
 .mk{display:inline-block;width:1.3em;color:var(--faint);font-weight:400}
 .lv-b .mk{color:var(--ink)}
@@ -175,7 +177,7 @@ figure figcaption{font-size:12px;color:var(--muted)}
   .row{grid-template-columns:minmax(0,1fr)}
   .num{text-align:left;padding:0}
   .tools,.form,.notes{grid-column:1}
-  .lv-s .body{padding-left:.9em} .lv-q1 .body,.lv-q2 .body,.lv-q3 .body{padding-left:1.8em}
+  .lv-s .body{padding-left:.9em} .lv-q1 .body,.lv-q2 .body,.lv-q3 .body,.lv-d .body{padding-left:1.8em}
   .claims button{grid-template-columns:1fr;gap:0}
 }
 
@@ -403,7 +405,7 @@ function evHtml(r){
   if (!r.src || !r.src.length) return '<div class="ev"><p class="q" style="quotes:none">이 줄에 붙은 근거 문장이 없습니다.</p></div>';
   return '<div class="ev">' + r.src.map(s => `<div class="item">${s.q?`<p class="q">${esc(s.q)}</p>`:''}${s.e?`<p class="e">${esc(s.e)}</p>`:''}<p>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.t||s.url)}</a>`:esc(s.t)}</p></div>`).join('') + '</div>';
 }
-const MK = {b:'●', s:'★', q1:'①', q2:'②', q3:'③'};
+const MK = {b:'●', s:'★', q1:'①', q2:'②', q3:'③', d:'◦'};
 const QLBL = {q1:'원문', q2:'번역', q3:'해석'};
 
 function rowHtml(c, r, hasKids){
@@ -430,6 +432,7 @@ function rowHtml(c, r, hasKids){
     if (r.interp && !edited) t = `<span class="interp">해석</span> ${withTerms(r.text)}`;
     if (r.label === '흐름' && !edited) t = `<span class="lbl">흐름</span><span class="flow">${(r.text||'').split(/\s*→\s*/).map((x,i,a) => `<span class="fbox">${withTerms(x)}</span>${i<a.length-1?'<span class="farrow" aria-hidden="true">→</span>':''}`).join('')}</span>`;
     if (r.label === '쉽게 말하면') cls.push('easy');
+    if (r.defn) cls.push('defn');
     body = `<span class="mk">${MK[r.level]||''}</span>${grp}<span class="txt" data-ev="${r.id}">${t}</span>${linkChips(r.links)}${link}${srcLinks(r)}` +
       (conf?'<span class="chip ok">확정</span>':'') + (edited?'<span class="chip ed">고침</span>':'') + (r.added?'<span class="chip new">추가</span>':'') +
       (del?' <button class="sec2" type="button" data-act="undel" data-lid="'+r.id+'" style="padding:0 8px;font-size:12px">되살리기</button>':'') +

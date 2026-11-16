@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>해외 사례 9곳 전체 그림</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* 배치: 맨 위 회사 선택 단추와 주장 여섯 장, 아래로 블록 일곱 개. 블록마다 주장, 그림, 해석, 접힌 출처 순서 */
+  --bg:#FAF7F7; --panel:#FFFFFF; --ink:#1F1A1B; --muted:#6E6668; --line:#DCD6D7; --band:#F3EEEF;
+  --accent:#A32020; --accent2:#DB536A; --soft:#F8DDE1; --on-accent:#FFFFFF; --grey:#C9C2C4;
+  --body:"Nanum Gothic",Arial,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#171314; --panel:#211C1D; --ink:#F2ECED; --muted:#A99FA2; --line:#3B3336; --band:#1D1819;
+    --accent:#E57373; --accent2:#EE93A4; --soft:#3A2227; --on-accent:#1B1415; --grey:#5A5054; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#171314; --panel:#211C1D; --ink:#F2ECED; --muted:#A99FA2; --line:#3B3336; --band:#1D1819;
+  --accent:#E57373; --accent2:#EE93A4; --soft:#3A2227; --on-accent:#1B1415; --grey:#5A5054; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15.5px;line-height:1.6}
+.wrap{max-width:1120px;margin:0 auto;padding:28px 20px 72px;display:flex;flex-direction:column;gap:18px}
+h1{font-size:28px;font-weight:800;margin:0;text-wrap:balance}
+.lead{margin:4px 0 0;color:var(--muted)}
+button{font-family:inherit;color:var(--ink);cursor:pointer}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a{color:var(--accent)}
+
+.focusbar{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;display:flex;flex-wrap:wrap;gap:6px;align-items:center;border-bottom:1px solid var(--line)}
+.focusbar b{font-size:13px;color:var(--muted);margin-right:4px}
+.pill{font-size:13.5px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:5px 13px}
+.pill:hover{border-color:var(--accent)}
+.pill[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent);font-weight:700}
+.sep{width:1px;height:20px;background:var(--line);margin:0 4px}
+
+.glance{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.glance a{display:flex;flex-direction:column;gap:6px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;text-decoration:none;color:var(--ink)}
+.glance a:hover{border-color:var(--accent)}
+.glance .k{font-size:12.5px;font-weight:800;color:var(--accent)}
+.glance .c{font-weight:700;line-height:1.45;text-wrap:pretty}
+
+section.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px 22px;display:flex;flex-direction:column;gap:14px;scroll-margin-top:64px}
+.sh{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+.sh .n{font-size:13px;font-weight:800;color:var(--on-accent);background:var(--accent);border-radius:6px;padding:1px 9px}
+.sh h2{font-size:21px;margin:0;font-weight:800}
+.claim{font-size:18px;font-weight:800;margin:0;text-wrap:balance}
+.read{display:flex;gap:10px;align-items:flex-start;background:var(--band);border-radius:8px;padding:10px 14px}
+.read .t{flex:none;font-size:12px;font-weight:800;color:var(--accent);border:1px solid var(--accent);border-radius:5px;padding:0 6px;margin-top:3px}
+.read p{margin:0}
+details.srcs{font-size:13px;color:var(--muted)}
+details.srcs summary{cursor:pointer;width:max-content}
+details.srcs ul{margin:6px 0 0;padding-left:18px;display:grid;gap:2px}
+.co{font:inherit;font-weight:800;background:none;border:0;padding:0;color:var(--ink);border-bottom:2px solid transparent;text-align:left}
+.co:hover{border-bottom-color:var(--accent2)}
+.f{transition:opacity .15s}
+.dim{opacity:.22}
+.hit{background:var(--soft)}
+.sub{font-size:14px;font-weight:800;color:var(--muted);margin:6px 0 0}
+.note{font-size:14px;color:var(--muted);margin:0}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--muted);align-items:center}
+.tag{display:inline-block;font-size:11.5px;font-weight:800;border-radius:5px;padding:0 6px;white-space:nowrap}
+.tag.buy{background:var(--accent);color:var(--on-accent)}
+.tag.own{background:var(--soft);color:var(--ink);border:1px solid var(--accent2)}
+.tag.lend{border:1.5px dashed var(--muted);color:var(--ink)}
+.tag.plan{border:1px solid var(--line);color:var(--muted)}
+
+/* 순서 줄: 회사마다 단계 칩을 시간순으로 */
+.tl{display:grid;gap:4px}
+.tlrow{display:grid;grid-template-columns:128px minmax(0,1fr);gap:12px;padding:8px;border-radius:8px;border-top:1px solid var(--line)}
+.tlrow:first-child{border-top:0}
+.tln small{display:block;color:var(--muted);font-size:12.5px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;align-items:flex-start;align-content:flex-start}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:8px;padding:3px 8px;background:var(--panel);font-size:14px}
+.chip.tok{border-left:4px solid var(--accent)}
+.chip .cd{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* 표 */
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:760px}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{font-size:12.5px;color:var(--muted);font-weight:700}
+th small{display:block;font-weight:400}
+td{font-size:14px}
+td.empty{background:repeating-linear-gradient(135deg,transparent 0 7px,var(--band) 7px 14px)}
+td.grp{font-weight:800;white-space:nowrap}
+td.num{white-space:nowrap}
+td small{color:var(--muted)}
+.hatch{display:inline-block;width:26px;height:13px;border-radius:3px;background:repeating-linear-gradient(135deg,transparent 0 5px,var(--band) 5px 10px);border:1px solid var(--line);vertical-align:-2px}
+.cnt{display:flex;align-items:center;gap:8px}
+.cnt b{min-width:44px;font-variant-numeric:tabular-nums}
+.cbar{height:8px;border-radius:4px;background:var(--accent2)}
+.who{display:grid;gap:4px}
+.who span{border-radius:6px;padding:1px 4px}
+.who small{color:var(--muted);font-size:13px}
+
+/* 한국 연결 */
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.box{border:1px solid var(--line);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:6px}
+.box h3{margin:0 0 2px;font-size:15px;font-weight:800}
+.kr{display:grid;grid-template-columns:104px minmax(0,1fr);gap:10px;padding:6px 8px;border-radius:8px;background:var(--band);font-size:14px}
+
+/* 단계 */
+.waves{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.wave{border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.wave .wh{background:var(--band);padding:10px 14px;border-bottom:1px solid var(--line)}
+.wave .wk{font-size:13px;font-weight:800;color:var(--accent)}
+.wave .wt{font-weight:800;line-height:1.4}
+.wave ul{list-style:none;margin:0;padding:6px 8px;display:grid;gap:2px}
+.wave li{display:grid;grid-template-columns:62px minmax(0,1fr);gap:8px;padding:6px;border-radius:7px;font-size:14px}
+.wave .d{font-size:12.5px;color:var(--muted);padding-top:2px;font-variant-numeric:tabular-nums}
+.wave .x{font-size:11.5px;font-weight:800;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:0 5px;margin-left:6px}
+
+/* 거래 시설 */
+.ats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.acard{border:1px solid var(--line);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.acard h3{margin:0;font-size:17px;font-weight:800}
+.share{display:grid;gap:3px}
+.share .big{font-size:22px;font-weight:800;color:var(--accent);font-variant-numeric:tabular-nums}
+.share .trk{height:8px;border-radius:4px;background:var(--band);overflow:hidden}
+.share .trk i{display:block;height:100%;background:var(--accent)}
+.share small{color:var(--muted);font-size:12.5px}
+.fld{display:grid;gap:1px;font-size:14px}
+.fld b{font-size:12.5px;color:var(--muted)}
+.fld.take b{color:var(--accent)}
+.ev{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.ev li{display:grid;grid-template-columns:98px 128px minmax(0,1fr);gap:10px;padding:6px 8px;border-radius:7px;font-size:14px;border-top:1px solid var(--line)}
+.ev li:first-child{border-top:0}
+.ev .d{color:var(--muted);font-variant-numeric:tabular-nums;font-size:13px;padding-top:1px}
+
+/* 요약 */
+.ones{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.one{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:5px}
+.one .top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.one .ty{font-size:12.5px;font-weight:800;color:var(--accent);white-space:nowrap}
+.one .id{color:var(--muted);font-size:14px}
+.one .size{font-size:14px}
+.one .see{font-weight:700}
+.one .tok{font-size:12.5px;color:var(--muted);margin-top:auto}
+
+@media (max-width:860px){
+  .glance{grid-template-columns:1fr 1fr}
+  .waves,.ats,.ones,.two{grid-template-columns:1fr}
+  .tlrow{grid-template-columns:1fr}
+  .ev li{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.f{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>해외 사례 9곳 전체 그림</h1>
+    <p class="lead">대상: 가상자산 거래소 3곳(Binance, Kraken, Coinbase), 증권 중개 앱 1곳(Robinhood), 토큰화 전문 회사 2곳(Ondo, Dinari), 미국 야간 ATS(대체거래소) 3곳(Blue Ocean, Bruce, MOON)</p>
+    <p class="lead">정리 순서: KDX의 자산, 고객, 시장 확장과 거래 시설 운영에 대응하는 질문 순. 회사 이름 선택 시 해당 회사만 강조 표시</p>
+  </header>
+  <div class="focusbar" id="focusbar" role="group" aria-label="회사 선택"></div>
+  <nav class="glance" id="glance" aria-label="주장 한눈에 보기"></nav>
+  <div id="blocks" style="display:flex;flex-direction:column;gap:18px"></div>
+</div>
+<script>
+"use strict";
+const NAMES={binance:"Binance",kraken:"Kraken",coinbase:"Coinbase",robinhood:"Robinhood",ondo:"Ondo",dinari:"Dinari","blue-ocean":"Blue Ocean",bruce:"Bruce",moon:"MOON"};
+const TYPE={binance:"가상자산 거래소",kraken:"가상자산 거래소",coinbase:"가상자산 거래소",robinhood:"증권 중개 앱",ondo:"토큰화 전문 회사",dinari:"토큰화 전문 회사","blue-ocean":"야간 ATS",bruce:"야간 ATS",moon:"야간 ATS"};
+const SIX=["binance","kraken","coinbase","robinhood","ondo","dinari"];
+const ATS3=["blue-ocean","bruce","moon"];
+const MT={"직접":"own","인수":"buy","제휴":"lend","위탁":"lend","계획":"plan"};
+
+const GLANCE=[
+  ["asset","자산 확장","주식 토큰은 6곳 중 5곳에서 본업 자산 뒤에 더한 여러 자산 중 하나이며, 파생 거래소는 3곳 모두 인수로 확보함"],
+  ["cust","고객 확장","기관, 자문사, 증권사 고객은 인수와 제휴로 더한 사례가 많고, Coinbase는 기관 현물 거래대금이 개인의 약 4.7배임"],
+  ["market","시장 확장","9곳 중 7곳이 한국과 연결되어 있고, 그중 5곳은 한국 증권사와 제휴하거나 투자를 받은 방식임"],
+  ["role","발행과 판매의 역할 분담","주식 토큰은 발행, 판매, 원주 보관을 서로 다른 회사가 나눠 맡으며 시작했고, 발행은 판매 채널 보유 회사로 이동함"],
+  ["ats","거래 시설의 주문 확보","주문 채널을 주주로 둔 Bruce는 점유율이 12.3%(2026 Q2)에서 29.8%(10월 최근 3주)로 상승, 백업 계약에 그친 MOON은 3.8%에서 2.0%로 하락함"],
+  ["reg","인가 경로","증권 자격은 직접 등록, 파생 자격은 인수 사례가 많으며, 미국 거래 시설은 인가가 아닌 등록과 신고로 운영됨"]
+];
+const TITLE={
+  asset:"자산 확장 순서와 방법",
+  cust:"고객 확장 대상과 방법",
+  market:"국가 확장 방법과 한국 연결",
+  role:"주식 토큰의 발행, 판매, 보관 역할 분담",
+  ats:"야간 거래 시설(ATS) 3곳의 주문 확보 방식",
+  reg:"미국 등록 종류별 전체 수와 9곳 보유 현황",
+  ones:"회사별 요약"
+};
+
+/* 1 자산: [시점, 내용, 방법, 주식 토큰 단계 여부] */
+const ASSET={
+  binance:[["2017-07","가상자산 거래소","직접"],["2021-04","주식 토큰 출시(2021-10 종료)","직접",1],["2026-02","Ondo 주식 토큰 상장","제휴",1],["2026-06","주식 토큰(bStocks) 발행","직접",1],["2026-09","주식 토큰의 선물 담보 활용","직접",1]],
+  kraken:[["2011","가상자산 거래소","직접"],["2025-05","선물 중개사(NinjaTrader)","인수"],["2025-06","주식 토큰(xStocks) 판매","직접",1],["2025-10","파생 거래소(Small Exchange)","인수"],["2025-12","주식 토큰 발행사(Backed)","인수",1],["2026-05","선물 거래소와 청산소(Bitnomial)","인수"],["","비상장 기업 주식의 토큰 공모(xPO)","계획"]],
+  coinbase:[["","가상자산 거래소","직접"],["2018-09","달러 스테이블코인(USDC)","제휴"],["2022","파생 거래소(FairX)","인수"],["2025-08","옵션 거래소(Deribit)","인수"],["2026","예측시장","직접"],["2026-02","앱 내 주식, ETF 거래","직접"],["2026-08","주식 토큰(자체 블록체인 Base)","직접",1],["2026-09","선물 청산소(Coinbase Clearing)","직접"]],
+  robinhood:[["2013","미국 주식","직접"],["2019-01","가상자산","직접"],["2025-06","가상자산 거래소(Bitstamp)","인수"],["2025-06","EU 주식 토큰, 비상장 회사 토큰","직접",1],["2026-01","선물, 예측시장 거래소(MIAXdx 지분 90%)","인수"],["2026-07","자체 블록체인, 지갑용 주식 토큰","직접",1],["","선물 중개","직접"],["","EU 머니마켓펀드(J.P. Morgan)","제휴"]],
+  ondo:[["2021~","단기 국채 토큰(OUSG), 담보부 노트(USDY)","직접"],["2025-09","주식 토큰(미국 밖)","직접",1],["2025-10","미국 증권사, ATS, 명의개서대리인(Oasis Pro)","인수"],["2026-07","미국용 보관형 주식 토큰","직접",1],["2026-09","BlackRock 전략 포트폴리오 3종","제휴"]],
+  dinari:[["2023-08","미국 주식 토큰(dShares)","직접",1],["","국채 담보 달러 토큰(USD+)","직접"],["2025-06","미국 증권사(Dinari Securities) 등록","직접"],["2025-08","자체 거래망(Dinari Financial Network)","직접"],["2026-07","브로커리지, 수탁(tZERO)","제휴"],["","청산, 결제(Alpaca)","위탁"]]
+};
+
+/* 2 고객: [개인, 기관과 자문사, 다른 회사를 통한 공급] */
+const CCOLS=["개인","기관, 자문사","다른 회사를 통한 공급"];
+const CUST={
+  binance:["거래소 이용자에 직접 판매, 40개 언어 지원",null,null],
+  kraken:["미국 밖 선택 국가 개인에 주식 토큰 직접 판매","기관 대상 서비스(Prime): 펀드, 은행, 재무부서","해외주식 중개 인프라 회사(GTN) 제휴로 GTN의 기관 고객에 주식 토큰 제공 계획(2026-07)"],
+  coinbase:["현물 거래대금 234억 달러(2026 Q3, 회사 발표)","현물 거래대금 1,111억 달러(2026 Q3, 회사 발표), 옵션(Deribit)은 기관에 먼저 제공",null],
+  robinhood:["앱 고객 2,870만 명(2026 Q3, 회사 발표), 관리계좌(Strategies) 출시(2025-03)","투자자문사(RIA)용 수탁 플랫폼(TradePMR) 인수(2025-02)",null],
+  ondo:["담보부 노트(USDY)와 주식 토큰을 미국 밖 개인에 직접 판매","단기 국채 토큰(OUSG)은 미국 적격투자자 대상, USDY와 주식 토큰은 미국 밖 기관 포함","거래소와 지갑에 공급(Binance 상장 2026-02)"],
+  dinari:["미국 투자자에 직접 판매(2026-08)",null,"제휴 앱 경유 판매(2023-08), 기업과 핀테크용 API(2024-02), tZERO 제휴로 증권사 공급(2026-07)"]
+};
+
+/* 3 시장: [시점, 내용, 방법] */
+const MARKET={
+  binance:[["2022-09","두바이 가상자산 인가(VARA)","직접"],["2024-09","아르헨티나 현지 법인 등록","직접"],["2025-10","한국 가상자산 거래소(고팍스) 최대주주 변경 수리","인수"],["2025-12","아부다비 증권 인가 3종","직접"]],
+  kraken:[["2024-06","미국 증권사(Kraken Securities) 등록","직접"],["2025-04","버뮤다 인가","직접"],["2025-06","EU 가상자산 인가(아일랜드, MiCA)","직접"],["2026-05","EU 증권 중개 인가(키프로스, MiFID II)","직접"],["2026-07","홍콩(GTN, 홍콩 상장주 우선)","제휴"],["2026-11","영국, EU 상장 주식 200종 이상을 주식 토큰으로 제공",""]],
+  coinbase:[["2025-08","미국 밖 고객 기반(Deribit)","인수"],["2026-08","아부다비 인가와 발행 법인 설립","직접"]],
+  robinhood:[["2025-06","EU 인가(리투아니아)","직접"],["2025-06","EU 가상자산 거래소(Bitstamp)","인수"],["2026-06","캐나다 가상자산 회사(WonderFi)","인수"],["2026-07","지갑 120개국","직접"],["2026","영국 가상자산 출시","직접"]],
+  ondo:[["2025-09","미국 밖 판매(영국령 버진아일랜드 법인 발행)","직접"],["2025-10","아시아, 중남미(BNB 체인 확장)","직접"],["2025-11","EU 투자설명서 승인(리히텐슈타인 FMA)","직접"],["2026-09","한국(카카오페이증권, 미래에셋 MOU)","제휴"]],
+  dinari:[["2023-08","미국 밖 판매","직접"],["2025-06","미국 증권사 등록","직접"],["2026-08","미국 판매 724종","직접"],["2026-09","한국(카카오페이증권 협약)","제휴"]]
+};
+const KOREA=[
+  {h:"한국 자산을 해외로: 한국 주식의 토큰화와 해외 유통",rows:[
+    ["ondo","카카오페이증권, 미래에셋과 한국 주식 해외 유통 MOU(2026-09)"],
+    ["dinari","카카오페이증권과 한국 주식 해외 유통 협약(2026-09)"],
+    ["kraken","GTN 제휴로 홍콩 다음 한국 상장자산 토큰화 계획(규제 승인 조건)"]]},
+  {h:"해외 시장을 한국으로: 한국 증권사 연결과 국내 진입",rows:[
+    ["blue-ocean","삼성증권과 첫 해외 제휴(2022-02), 한국 낮 시간에 미국 주식 체결"],
+    ["bruce","NH투자증권 투자 참여(2025-06), 메리츠증권(2026-09)과 토스증권(2026-10)에 시세 연결"],
+    ["moon","한국 증권사의 백업 ATS 계약(2025-11)"],
+    ["binance","한국 가상자산 거래소(고팍스) 최대주주 변경 수리(2025-10)"]]}
+];
+
+/* 4 역할 분담 */
+const WAVES=[
+  {k:"1단계",p:"2020~2021",t:"거래소의 직접 판매와 철수",ev:[
+    ["2021-04","binance","주식 토큰 출시, 7월 신규 구매 중단, 10월 종료"]]},
+  {k:"2단계",p:"2023~2025",t:"전문 회사의 발행과 거래소, 앱의 판매",ev:[
+    ["2023-08","dinari","미국 밖 판매 개시, 2024-02 제휴 앱에 API 공급"],
+    ["2025-06","kraken","Backed(발행사)가 발행한 주식 토큰(xStocks)을 Kraken 앱에서 판매"],
+    ["2025-09","ondo","주식 토큰 100종 출시, 2026-02 Binance 상장"],
+    ["2025-06","robinhood","EU에서 자체 파생계약 방식으로 직접 판매","예외"]]},
+  {k:"3단계",p:"2025.12~2026",t:"판매 채널 보유 회사의 직접 발행",ev:[
+    ["2025-12","kraken","발행사 Backed 인수 합의, 2026-01 지분 100% 취득"],
+    ["2026-06","binance","계열 법인(BTech)을 통한 주식 토큰(bStocks) 직접 발행"],
+    ["2026-07","robinhood","저지 법인을 통한 지갑용 주식 토큰 직접 발행"],
+    ["2026-08","coinbase","아부다비 법인을 통한 자체 블록체인(Base) 주식 토큰 발행"]]}
+];
+/* [회사, 발행, 판매, 원주 보관, 2026-01 초(순위, 점유율), 2026-11-16(순위, 점유율)] */
+const ROLE=[
+  ["binance","계열 법인(BTech, 아부다비)","자체 거래소","Alpaca",null,[1,36.62]],
+  ["kraken","Backed(저지 법인, 2025-12 인수 합의)","자체 앱에 외부 거래소, 지갑, API 제휴사 추가","InCore Bank(스위스 은행), Alpaca, GTN Europe(영국 중개사)",[2,24.37],[3,18.26]],
+  ["coinbase","아부다비 법인(Coinbase Onchain SPV)","탈중앙화 금융(DeFi)에 공급, 외부 프로토콜이 유통","Alpaca",null,[8,1.26]],
+  ["robinhood","저지 법인(지갑용), EU는 회사와 맺는 파생계약","자체 앱과 자체 지갑","Alpaca(지갑용), EU 파생계약은 원주 보유 의무 없음",null,[6,4.01]],
+  ["ondo","영국령 버진아일랜드 법인","자체 앱에 거래소, 지갑 공급 병행","Alpaca, BitGo Trust",[1,51.59],[2,24.23]],
+  ["dinari","Dinari Inc.(미국 법인)","미국은 직접 판매, 미국 밖은 제휴 앱에 도매 공급","Alpaca",[7,0.37],[11,0.41]]
+];
+
+/* 5 거래 시설 */
+const ATS=[
+  {id:"blue-ocean",q3:83.0,q2:83.9,amt:"2,435.5억 달러",extra:"",
+   own:"2021-10 정식 개장. 지주회사 지분을 Urbana(캐나다 상장 투자회사)가 약 35%(2023), 도쿄증권거래소가 5%(2023-09) 보유",
+   flow:"ATS에 가입한 구독 브로커. 2022-02 삼성증권이 첫 해외 제휴사, 2022년부터 한국 증권사 고객이 한국 낮 시간에 이용",
+   take:"해외 시간대 체결은 현지 ATS, 접점은 국내 증권사",avoid:"한 체결 시장 의존, 시세 없는 지정가 주문"},
+  {id:"bruce",q3:15.0,q2:12.3,amt:"439.7억 달러",extra:"2026-10 최근 3주 29.8%",
+   own:"2025-03 개시. 2025-06 투자사에 Robinhood(미국 주식 거래 앱), Webull(투자 앱), NH투자증권 참여",
+   flow:"미국 브로커딜러와 해외 브로커. 메리츠증권(2026-09)과 토스증권(2026-10)에 시세 연결",
+   take:"주문을 낼 증권사, 앱을 주주로 묶는 구조",avoid:"시세 없이 주문만 받는 연결"},
+  {id:"moon",q3:2.0,q2:3.8,amt:"58.3억 달러",extra:"",
+   own:"2024-11 출시. 운영사 OTC Link는 OTC Markets Group(미국 장외주식 시장 운영사) 계열",
+   flow:"브로커딜러 구독자. 2025-11 한국 증권사의 백업 ATS 계약, 2025-12 Moomoo(아시아 투자 앱) 연결",
+   take:"기존 인가 위에 시간대만 더하는 확장",avoid:"주문 채널 없이 체결 시장만 여는 것"}
+];
+const EVENTS=[
+  ["2024-08-05","blue-ocean","체결 일괄 취소. 한국 증권사 19곳, 취소 6,300억원, 약 9만 계좌"],
+  ["2024-08-16","","한국 증권사의 미국 주식 주간거래 일괄 중단"],
+  ["2025-11-04","","한국 증권사 18곳 주간거래 재개(약 15개월 만). 조건: 2곳 이상 ATS 계약과 거래 되돌림 체계"],
+  ["2026-09-01","blue-ocean","18개 종목(SOXL, KORU 등) 거래 중단. 사유: 공정접근 5% 문턱에 따른 자체 중단"],
+  ["2026-09-11","blue-ocean","18개 종목 거래 재개(한국 시간)"],
+  ["2026-09-14","bruce","메리츠증권에 시세 연결"],
+  ["2026-10-01","bruce","토스증권에 시세 연결"],
+  ["2026-10-12~30","bruce","최근 3주 점유율 29.8%"]
+];
+
+/* 6 등록: [묶음, 종류, 전체 수, 덧붙임, 직접 등록, 인수로 확보] */
+const REG=[
+  ["증권","증권거래소",29,"",[],[]],
+  ["","상장주식 ATS",35,"",[["blue-ocean","2021-10 개장"],["bruce","2025-03 개시"],["moon","2024-11 출시"]],[["ondo","Oasis Pro 인수, 2025-10"]]],
+  ["","그 밖의 ATS",81,"",[],[["ondo","Oasis Pro 인수"]]],
+  ["","청산기관(NSCC, DTC 등)",9,"",[],[]],
+  ["","청산, 보관형 증권사",158,"",[["robinhood","Robinhood Securities, 2017-10"]],[]],
+  ["","브로커딜러 전체",3184,"",[["robinhood","2013"],["kraken","2024-06"],["dinari","2025-06"],["blue-ocean","2020-10"],["bruce","2020-11"],["moon","OTC Link, 2012-03"]],[["ondo","Oasis Pro 인수"],["coinbase","기존 법인 Keystone Capital 확보"]]],
+  ["","명의개서대리인",328,"SEC 등록 273곳, 은행계 55곳",[["dinari","회사 발표 기준"]],[["ondo","Oasis Pro 인수"]]],
+  ["파생","선물 중개",0,"",[],[["kraken","NinjaTrader 2025-05, Bitnomial 2026-05"]]],
+  ["","선물 거래소",0,"",[],[["kraken","Small Exchange, Bitnomial"],["coinbase","FairX, 2022"],["robinhood","MIAXdx 지분 90%, 2026-01"]]],
+  ["","선물 청산소",0,"",[["coinbase","Coinbase Clearing, 2026-09-28"]],[["kraken","Bitnomial"],["robinhood","MIAXdx"]]]
+];
+
+/* 7 요약: [회사, 성격, 본업 규모, 사례로 볼 점, 주식 토큰 순위] */
+const ONES=[
+  ["binance","가상자산 거래소(2017~)","","아부다비 증권 인가 3종 직접 취득, 다른 발행사 토큰 상장 뒤 직접 발행으로 전환","주식 토큰 1위, 36.62%"],
+  ["kraken","가상자산 거래소(2011~)","총플랫폼마진 4.87억 달러(2026 Q3, 회사 발표)","파생 회사 3곳과 주식 토큰 발행사를 인수로 확보, 기관 서비스와 비상장 토큰 공모 계획","주식 토큰 3위, 18.26%"],
+  ["coinbase","미국 상장 가상자산 거래소","현물 거래대금: 기관 1,111억 달러, 개인 234억 달러(2026 Q3, 회사 발표)","기관 비중이 큰 고객 구조, 파생 거래소 인수, 모든 자산을 한 곳에서 거래하는 2026 우선순위","주식 토큰 8위, 1.26%"],
+  ["robinhood","미국 주식 거래 앱(2013~)","고객 2,870만 명, 순매출 14.2억 달러(2026 Q3, 회사 발표)","주식에서 가상자산, 파생, 예측시장, 비상장 회사 토큰으로 자산 확장, 자문사 플랫폼 인수","주식 토큰 6위, 4.01%"],
+  ["ondo","국채 토큰 발행 회사(2021~)","","미국 적격투자자 대상 국채 토큰에서 출발, 미국 인가 법인 인수, BlackRock 제휴 상품","주식 토큰 2위, 24.23%"],
+  ["dinari","토큰화 전문 회사(2021 설립)","","기록과 중개는 직접, 청산과 보관은 위탁, 다른 회사에 API로 공급하는 도매 구조","주식 토큰 11위, 0.41%"],
+  ["blue-ocean","미국 야간 ATS(2021-10 개장)","거래대금 2,435.5억 달러, 야간 3곳 중 83.0%(2026 Q3)","먼저 개장해 한국 증권사를 연결, 사고와 종목 중단 때 한국 주문이 경쟁사로 이동",""],
+  ["bruce","미국 야간 ATS(2025-03 개시)","거래대금 439.7억 달러, 야간 3곳 중 15.0%(2026 Q3)","주문을 보낼 증권사와 앱을 주주로 확보, 한국 증권사에 시세 연결",""],
+  ["moon","미국 야간 ATS(2024-11 출시)","거래대금 58.3억 달러, 야간 3곳 중 2.0%(2026 Q3)","기존 브로커딜러 위에 야간 거래 추가, 한국 연결은 백업 계약에 그침",""]
+];
+
+const SRC={"asset": [["Kraken의 NinjaTrader 인수", "https://blog.kraken.com/news/kraken-to-acquire-ninjatrader"], ["Kraken의 Small Exchange 인수", "https://blog.kraken.com/news/acquires-small-exchange"], ["Payward의 Bitnomial 인수", "https://www.payward.com/press-release/payward-completes-acquisition-of-bitnomial-the-first-fully-cftc-licensed-crypto-native-derivatives-stack-in-the-us"], ["Kraken 주식 토큰 출시", "https://blog.kraken.com/product/xstocks/tokenized-equities-now-available"], ["Kraken의 Backed 인수", "https://www.payward.com/press-release/kraken-acquires-backed-xstocks-expansion"], ["Payward 2026년 3분기 요약", "https://www.payward.com/press-release/payward-q3-2026-financial-highlights"], ["Robinhood 2026년 3분기 보고서", "https://investors.robinhood.com/node/16931/html"], ["Robinhood EU 주식 토큰 출시", "https://www.marketsmedia.com/?p=144033"], ["Robinhood EU 투자 안내", "https://robinhood.com/eu/en/invest"], ["Binance 회사 소개", "https://www.binance.com/en/about"], ["Binance 2021 주식 토큰 중단", "https://decrypt.co/76126/crypto-exchange-binance-halts-operations-tesla-facebook-google-stock-tokens"], ["Ondo 토큰의 Binance 상장", "https://ondo.finance/blog/tokenized-stocks-live-on-binance"], ["Binance 주식 토큰 출시", "https://www.prnewswire.com/apac/news-releases/binance-exchange-launches-bstocks-tokenized-securities-11-backing-and-247-trading-302798969.html"], ["Binance 주식 토큰의 선물 담보", "https://www.prnewswire.com/news-releases/binances-bstocks-become-the-fastest-tokenized-equity-product-to-surpass-1-billion-in-assets-under-management-302909927.html"], ["Base 주식 토큰", "https://www.base.org/blog/tokenized-stocks"], ["CFTC 선물 거래소 목록", "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizations"], ["Coinbase의 FairX 인수", "https://www.theblock.co/linked/130126/coinbase-announces-acquisition-of-derivatives-exchange-fairx"], ["Coinbase의 Deribit 인수", "https://www.theblock.co/post/366957/coinbase-completes-2-9-billion-cash-and-stock-acquisition-of-deribit"], ["Coinbase 2025년 4분기 주주서한", "https://s27.q4cdn.com/397450999/files/doc_financials/2025/q4/coin-20260212.pdf"], ["CFTC 선물 청산소 목록", "https://www.cftc.gov/IndustryOversight/IndustryFilings/ClearingOrganizations"], ["Dinari 미국 밖 출시", "https://dinari.com/blog/7-5m-in-seed-investments-and-ex-us-launch-of-dshare-platform"], ["Dinari USD+ 설명", "https://docs.dinari.com/docs/what-is-usd"], ["Dinari Securities 등록부", "https://api.brokercheck.finra.org/search/firm/329672"], ["Dinari Financial Network", "https://dinari.com/blog/dinari-launches-the-dinari-financial-network-an-omni-chain-orderbook-powered-by-avalanche"], ["Dinari 공시(청산, 결제)", "https://dinari.com/us/disclosures"], ["Dinari와 tZERO 제휴", "https://dinari.com/blog/dinari-and-tzero-partner"], ["Ondo Finance", "https://ondo.finance/"], ["Ondo 주식 토큰 100종", "https://decrypt.co/337944/ondo-100-tokenized-stocks-ethereum"], ["Ondo의 Oasis Pro 인수", "https://ondo.finance/blog/ondo-acquires-oasis-pro"], ["Ondo 미국 토큰증권 출시", "https://ondo.finance/blog/ondo-launches-tokenized-securities-in-usa"]], "cust": [["Binance 회사 소개", "https://www.binance.com/en/about"], ["Kraken 주식 토큰 안내", "https://www.kraken.com/xstocks"], ["Kraken Prime", "https://www.kraken.com/prime"], ["Payward와 GTN 제휴", "https://www.payward.com/press-release/gtn-xstocks"], ["Coinbase 2026년 3분기 주주서한(PDF, 주소 없음)", ""], ["Robinhood 2026년 3분기 보고서", "https://investors.robinhood.com/node/16931/html"], ["Ondo USDY 안내", "https://docs.ondo.finance/general-access-products/usdy/basics"], ["Ondo 주식 토큰 가입 안내", "https://docs.ondo.finance/ondo-stocks/onboarding-and-kyc"], ["Ondo 토큰의 Binance 상장", "https://ondo.finance/blog/tokenized-stocks-live-on-binance"], ["Dinari 미국 밖 출시", "https://dinari.com/blog/7-5m-in-seed-investments-and-ex-us-launch-of-dshare-platform"], ["Dinari 기업용 API", "https://dinari.com/blog/b2b-api-and-managed-account"], ["Dinari와 tZERO 제휴", "https://dinari.com/blog/dinari-and-tzero-partner"], ["Dinari 미국 판매 724종", "https://dinari.com/blog/dinari-launches-724-tokenized-stocks-available-to-u-s-investors-and-businesses"]], "market": [["Ondo와 카카오페이증권 MOU", "https://koreaherald.com/article/10887648"], ["Dinari와 카카오페이증권 협약", "https://www.etoday.co.kr/news/view/2630410"], ["Payward와 GTN 제휴", "https://www.payward.com/press-release/gtn-xstocks"], ["Blue Ocean과 삼성증권 제휴", "https://prnewswire.com/news-releases/blue-ocean-technologies--samsung-securities-announce-strategic-partnership-offering-us-equity-trading-during-local-asia-pacific-business-hours-301476177.html"], ["Bruce 투자 유치와 NH투자증권", "https://www.financemagnates.com/institutional-forex/bruce-markets-plans-weekend-trading-to-bring-us-equities-closer-to-247-access/"], ["Bruce와 메리츠증권 시세 연결", "https://www.prnewswire.com/apac/news-releases/meritz-securities-connects-to-bruce-markets-data-feed-for-us-equities-improving-market-data-for-korean-traders-302876583.html"], ["Bruce와 토스증권 시세 연결", "https://www.thailand-business-news.com/?p=332115"], ["한국 증권사의 백업 ATS 계약", "https://news.bizwatch.co.kr/article/market/2025/10/31/0035"], ["Binance의 고팍스 최대주주 변경", "https://decrypt.co/344719/binance-cleared-acquire-korean-crypto-exchange-gopax"], ["Binance 두바이 인가", "https://www.vara.ae/en/news/binance-secures-mvp-licence-from-dubais-virtual-assets-regulatory-authority/"], ["Binance 아부다비 인가", "https://tools.prnewswire.com/en-us/live/20813/release/20251207EN41035"], ["Kraken Securities 등록부", "https://api.brokercheck.finra.org/search/firm/324343"], ["EU 가상자산 인가 목록(ESMA)", "https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv"], ["Payward 보도자료(키프로스 인가 줄의 출처)", "https://payward.com/press-release/payward-lseg-tokenization-partnership"], ["Kraken 영국, EU 주식 토큰", "https://www.payward.com/press-release/xstocks-uk-eu-equities"], ["Coinbase 아부다비 인가", "https://www.macaubusiness.com/coinbase-establishes-its-tokenization-hub-in-abu-dhabi-with-financial-services-permission-from-the-financial-services-regulatory-authority-fsra-2/"], ["Robinhood 리투아니아 인가", "https://www.ecovis.com/lithuania/blog/2025/06/15/us-broker-robinhood-obtains-lithuanian-a-category-mifid-brokerage-and-mica-license-for-crypto-services-in-the-european-union/"], ["Robinhood 2026년 3분기 보고서", "https://investors.robinhood.com/node/16931/html"], ["Robinhood 2026년 2분기 실적", "https://investors.robinhood.com/news-releases/news-release-details/robinhood-reports-second-quarter-2026-results"], ["Robinhood 2026년 3분기 실적", "https://investors.robinhood.com/news-releases/news-release-details/robinhood-reports-third-quarter-2026-results"], ["Ondo 주식 토큰 100종", "https://decrypt.co/337944/ondo-100-tokenized-stocks-ethereum"], ["Ondo BNB 체인 확장", "https://ondo.finance/blog/global-markets-live-on-bnb-chain"], ["Ondo EU 투자설명서 최종조건", "https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf"], ["Dinari Securities 등록부", "https://api.brokercheck.finra.org/search/firm/329672"], ["Dinari 미국 판매 724종", "https://dinari.com/blog/dinari-launches-724-tokenized-stocks-available-to-u-s-investors-and-businesses"]], "role": [["rwa.xyz 주식 토큰 순위(2026-11-16)", "https://app.rwa.xyz/stocks"], ["Sentora 주간 글의 rwa.xyz 순위표(2026-01-09)", "https://www.sentora.com"], ["Binance 2021 주식 토큰 중단", "https://decrypt.co/76126/crypto-exchange-binance-halts-operations-tesla-facebook-google-stock-tokens"], ["Dinari 기업용 API", "https://dinari.com/blog/b2b-api-and-managed-account"], ["Kraken 주식 토큰 출시", "https://blog.kraken.com/product/xstocks/tokenized-equities-now-available"], ["Ondo 주식 토큰 100종", "https://decrypt.co/337944/ondo-100-tokenized-stocks-ethereum"], ["Ondo 토큰의 Binance 상장", "https://ondo.finance/blog/tokenized-stocks-live-on-binance"], ["Robinhood EU 주식 토큰 출시", "https://www.marketsmedia.com/?p=144033"], ["Kraken의 Backed 인수", "https://www.payward.com/press-release/kraken-acquires-backed-xstocks-expansion"], ["Binance 주식 토큰 출시", "https://www.prnewswire.com/apac/news-releases/binance-exchange-launches-bstocks-tokenized-securities-11-backing-and-247-trading-302798969.html"], ["Robinhood 2026년 3분기 보고서", "https://investors.robinhood.com/node/16931/html"], ["Base 주식 토큰", "https://www.base.org/blog/tokenized-stocks"], ["Binance 주식 토큰 보관과 판매 지역", "https://www.prnewswire.com/apac/news-releases/binance-exchange-launches-bstocks-tokenized-securities-11-backing-and-247-trading-302798969.html"], ["Ondo EU 투자설명서 최종조건", "https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf"], ["Kraken 주식 토큰 투자설명서 통지", "https://hanfa.hr/notifikacije/FTWS_971932.pdf"], ["Robinhood 저지 법인 투자설명서", "https://cdn.robinhood.com/assets/robinhood/legal/rhj_base_prospectus.pdf"], ["Coinbase 주식 토큰 투자설명서", "https://api.coinbase.com/v1/tokenized-stocks/prospectus/NVDAc.pdf"], ["Dinari 미국 공시", "https://dinari.com/us/disclosures"]], "ats": [["FINRA 주간 ATS 거래 자료", "https://api.finra.org/data/group/otcMarket/name/weeklySummary"], ["Blue Ocean 개장 보도자료", "https://www.urbanacorp.com/ndgcnt/uploads/2021/10/1-Blue-Ocean-ATS-Launch-Press-Release-10-5-21-FINAL.pdf"], ["Blue Ocean과 삼성증권 제휴", "https://prnewswire.com/news-releases/blue-ocean-technologies--samsung-securities-announce-strategic-partnership-offering-us-equity-trading-during-local-asia-pacific-business-hours-301476177.html"], ["Blue Ocean 지주회사 주주", "https://prnewswire.com/news-releases/blue-ocean-technologies--tokyo-stock-exchange-close-strategic-investment-agreement-focused-on-expanding-trading-hours-for-japanese-investors-301926166.html"], ["도쿄증권거래소의 Blue Ocean 투자", "https://prnewswire.com/news-releases/blue-ocean-technologies--tokyo-stock-exchange-close-strategic-investment-agreement-focused-on-expanding-trading-hours-for-japanese-investors-301926166.html"], ["Bruce 개시 발표", "https://peak6.com/bruce-ats-set-to-launch-a-new-era-of-overnight-trading"], ["Bruce 투자 유치", "https://www.marketsmedia.com/overnight-trading-platform-bruce-ats-raises-funds"], ["Bruce와 메리츠증권 시세 연결", "https://www.prnewswire.com/apac/news-releases/meritz-securities-connects-to-bruce-markets-data-feed-for-us-equities-improving-market-data-for-korean-traders-302876583.html"], ["Bruce와 토스증권 시세 연결", "https://www.thailand-business-news.com/?p=332115"], ["MOON 출시 발표", "https://aapnews.aap.com.au/news/globenewswire9277404"], ["Moomoo의 MOON 연결", "https://www.aap.com.au/aapreleases/globenewswire9594942/"], ["한국 증권사의 백업 ATS 계약", "https://news.bizwatch.co.kr/article/market/2025/10/31/0035"], ["2024-08-05 체결 취소", "https://core.asiae.co.kr/article/2024080717595330539"], ["2024-08-16 주간거래 중단", "https://m.dailian.co.kr/news/view/1557686"], ["2025-11-04 주간거래 재개", "https://v.daum.net/v/K5h8TeFYG2"], ["2026-09 종목 중단과 재개", "https://koreaherald.com/article/10860485"]], "reg": [["SEC 증권거래소 목록", "https://www.sec.gov/about/divisions-offices/division-trading-markets/national-securities-exchanges"], ["SEC 상장주식 ATS 목록", "https://www.sec.gov/divisions/marketreg/form-ats-n-filings.htm"], ["SEC ATS 목록", "https://www.sec.gov/foia/docs/atslist"], ["SEC 청산기관 목록", "https://www.sec.gov/about/divisions-offices/division-trading-markets/clearing-agencies"], ["SEC 브로커딜러 분석(청산, 보관형 158곳)", "https://www.sec.gov/files/dera-broker-dealer-activity-2506.pdf"], ["SEC 명의개서대리인 통계", "https://www.sec.gov/data-research/statistics-data-visualizations/transfer-agents"], ["CFTC 선물 거래소 목록", "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizations"], ["CFTC 선물 청산소 목록", "https://www.cftc.gov/IndustryOversight/IndustryFilings/ClearingOrganizations"], ["Kraken Securities 등록부", "https://api.brokercheck.finra.org/search/firm/324343"], ["Dinari Securities 등록부", "https://api.brokercheck.finra.org/search/firm/329672"], ["Ondo(Oasis Pro) 등록부", "https://api.brokercheck.finra.org/search/firm/149420"], ["Blue Ocean 등록부", "https://api.brokercheck.finra.org/search/firm/306512"], ["Bruce 등록부", "https://api.brokercheck.finra.org/search/firm/300209"], ["OTC Link 등록부", "https://api.brokercheck.finra.org/search/firm/153944"], ["Form ATS-N 규정", "https://www.ecfr.gov/current/title-17/section-242.304"], ["넥스트레이드 본인가(금융위)", "https://www.fsc.go.kr/po010103/83953"], ["Binance 아부다비 인가 3종", "https://cointelegraph.com/news/binance-abu-dhabi-fsra-licenses-exchange-clearing-broker-dealer"], ["Ondo EU 투자설명서 최종조건", "https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf"], ["Kraken 주식 토큰 투자설명서 통지", "https://hanfa.hr/notifikacije/FTWS_971932.pdf"], ["Robinhood 저지 법인 투자설명서", "https://cdn.robinhood.com/assets/robinhood/legal/rhj_base_prospectus.pdf"], ["Coinbase 주식 토큰 투자설명서", "https://api.coinbase.com/v1/tokenized-stocks/prospectus/NVDAc.pdf"]], "ones": [["Payward 보도자료(2026 Q3 총플랫폼마진)", "https://www.payward.com/press-release/payward-completes-acquisition-of-bitnomial-the-first-fully-cftc-licensed-crypto-native-derivatives-stack-in-the-us"], ["Robinhood 2026년 3분기 실적", "https://investors.robinhood.com/news-releases/news-release-details/robinhood-reports-third-quarter-2026-results"], ["Coinbase 2026년 3분기 주주서한(PDF, 주소 없음)", ""], ["FINRA 주간 ATS 거래 자료", "https://api.finra.org/data/group/otcMarket/name/weeklySummary"], ["rwa.xyz 주식 토큰 순위(2026-11-16)", "https://app.rwa.xyz/stocks"]]};
+
+let focus="";
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const coBtn=id=>`<button type="button" class="co" data-pick="${id}">${esc(NAMES[id])}</button>`;
+const srcs=k=>`<details class="srcs"><summary>출처 ${SRC[k].length}</summary><ul>${SRC[k].map(s=>s[1]?`<li><a href="${s[1]}" target="_blank" rel="noopener">${esc(s[0])}</a></li>`:`<li>${esc(s[0])}</li>`).join("")}</ul></details>`;
+const read=t=>`<div class="read"><span class="t">해석</span><p>${esc(t)}</p></div>`;
+const head=(n,id)=>`<div class="sh"><span class="n">${n}</span><h2>${esc(TITLE[id])}</h2></div><p class="claim">${esc(GLANCE.find(g=>g[0]===id)[2])}</p>`;
+const chip=c=>`<span class="chip${c[3]?" tok":""}">${c[0]?`<span class="cd">${c[0]}</span>`:""}<span>${esc(c[1])}</span>${c[2]?`<span class="tag ${MT[c[2]]}">${c[2]}</span>`:""}</span>`;
+const tl=data=>`<div class="tl">${SIX.map(id=>`<div class="tlrow f" data-co="${id}"><div class="tln">${coBtn(id)}<small>${TYPE[id]}</small></div><div class="chips">${data[id].map(chip).join("")}</div></div>`).join("")}</div>`;
+const mlegend=extra=>`<div class="legend"><span><span class="tag own">직접</span> 직접 출시, 등록, 인가</span><span><span class="tag buy">인수</span> 기존 회사 인수</span><span><span class="tag lend">제휴</span> 제휴 또는 위탁</span><span><span class="tag plan">계획</span> 발표된 계획</span>${extra||""}</div>`;
+
+function assetBlock(){
+  return `<section class="card" id="asset">${head(1,"asset")}
+  ${mlegend(`<span><span class="chip tok" style="padding:0 6px;font-size:12px">왼쪽 굵은 선</span> 주식 토큰 관련 단계</span>`)}
+  ${tl(ASSET)}
+  ${read("주식 토큰으로 출발한 곳은 Dinari뿐이고, 나머지 5곳은 가상자산, 주식, 국채 토큰 고객 위에 주식 토큰을 더함. 인수로 자산과 인가를 더한 사례는 9건(Kraken 4, Coinbase 2, Robinhood 2, Ondo 1)이며 이 중 6건이 파생 관련임")}${srcs("asset")}</section>`;
+}
+function custBlock(){
+  const cnt=CCOLS.map((c,i)=>SIX.filter(id=>CUST[id][i]).length);
+  const th=CCOLS.map((c,i)=>`<th>${esc(c)}<small>${cnt[i]}/6곳</small></th>`).join("");
+  const rows=SIX.map(id=>`<tr class="f" data-co="${id}"><td>${coBtn(id)}<br><small>${TYPE[id]}</small></td>${CUST[id].map(c=>c?`<td>${esc(c)}</td>`:`<td class="empty" aria-label="확인된 자료 없음"></td>`).join("")}</tr>`).join("");
+  return `<section class="card" id="cust">${head(2,"cust")}
+  <div class="legend"><span><span class="hatch"></span> 빗금 칸: 확인된 자료 없음</span></div>
+  <div class="scroll"><table><thead><tr><th style="width:140px">회사</th>${th}</tr></thead><tbody>${rows}</tbody></table></div>
+  ${read("개인 고객에서 출발한 곳은 인수(Robinhood의 자문사 플랫폼)와 제휴(Kraken의 GTN, Dinari의 tZERO)로 기관과 증권사 고객을 더함. 처음부터 기관을 겨냥한 상품은 Ondo의 단기 국채 토큰(미국 적격투자자 대상)임")}${srcs("cust")}</section>`;
+}
+function marketBlock(){
+  const kr=KOREA.map(g=>`<div class="box"><h3>${esc(g.h)}</h3>${g.rows.map(r=>`<div class="kr f" data-co="${r[0]}"><span>${coBtn(r[0])}</span><span>${esc(r[1])}</span></div>`).join("")}</div>`).join("");
+  return `<section class="card" id="market">${head(3,"market")}
+  <p class="sub">한국과의 연결</p><div class="two">${kr}</div>
+  <p class="sub">국가를 넓힌 순서와 방법</p>${mlegend()}
+  ${tl(MARKET)}
+  ${read("해외 진출은 현지 인가 직접 취득(Kraken의 EU 2건, Binance의 두바이와 아부다비)과 현지 회사 인수(Robinhood의 Bitstamp, WonderFi)로 나뉨. 한국 주식을 해외에 유통하려는 3곳(Ondo, Dinari, Kraken) 중 2곳이 카카오페이증권과 제휴함")}${srcs("market")}</section>`;
+}
+function roleBlock(){
+  const cols=WAVES.map(w=>`<div class="wave"><div class="wh"><div class="wk">${w.k} ${w.p}</div><div class="wt">${esc(w.t)}</div></div><ul>${w.ev.map(e=>`<li class="f" data-co="${e[1]}"><span class="d">${e[0]}</span><span>${coBtn(e[1])}${e[3]?`<span class="x">${e[3]}</span>`:""}<br>${esc(e[2])}</span></li>`).join("")}</ul></div>`).join("");
+  const sh=v=>v?`${v[0]}위 ${v[1]}%`:"순위표에 없음";
+  const rows=ROLE.map(r=>`<tr class="f" data-co="${r[0]}"><td>${coBtn(r[0])}</td><td>${esc(r[1])}</td><td>${esc(r[2])}</td><td>${esc(r[3])}</td><td class="num">${sh(r[4])} → <b>${sh(r[5])}</b></td></tr>`).join("");
+  return `<section class="card" id="role">${head(4,"role")}
+  <div class="waves">${cols}</div>
+  <p class="sub">현재의 역할 분담과 점유율 변화</p>
+  <div class="scroll"><table><thead><tr><th style="width:104px">회사</th><th>발행</th><th>판매</th><th>원주 보관</th><th>점유율<small>2026-01 초 → 2026-11-16, 유통 중인 토큰 가치 기준</small></th></tr></thead><tbody>${rows}</tbody></table></div>
+  <p class="note">시장 규모: 2026-01 초 8.01억 달러(순위표 9곳 합계) → 2026-11-16 37.1억 달러(4.6배), rwa.xyz 집계</p>
+  ${read("2단계에서는 전문 회사가 발행하고 거래소가 판매했으나(Backed와 Kraken, Ondo와 Binance), 3단계에서 Kraken, Binance, Robinhood, Coinbase가 직접 발행으로 전환함. 원주 보관에는 6곳 모두 Alpaca(미국 증권 중개사)가 포함됨. 2026-01 순위표에 없던 Binance가 2026-11 1위에 올랐고, 1위였던 Ondo는 51.59%에서 24.23%로 하락함")}${srcs("role")}</section>`;
+}
+function atsBlock(){
+  const cards=ATS.map(a=>`<div class="acard f" data-co="${a.id}"><h3>${coBtn(a.id)}</h3>
+    <div class="share"><span class="big">${a.q3.toFixed(1)}%</span><div class="trk"><i style="width:${a.q3}%"></i></div><small>야간 3곳 거래대금 점유율, 2026 Q3(Q2 ${a.q2.toFixed(1)}%). 거래대금 ${a.amt}${a.extra?`. ${a.extra}`:""}</small></div>
+    <div class="fld"><b>운영과 주주</b><span>${esc(a.own)}</span></div>
+    <div class="fld"><b>주문을 보내는 곳</b><span>${esc(a.flow)}</span></div>
+    <div class="fld take"><b>KDX가 가져올 것</b><span>${esc(a.take)}</span></div>
+    <div class="fld take"><b>KDX가 피할 것</b><span>${esc(a.avoid)}</span></div></div>`).join("");
+  const ev=EVENTS.map(e=>`<li class="f" data-co="${e[1]||"kr"}"><span class="d">${e[0]}</span><span>${e[1]?coBtn(e[1]):"<b>한국 증권사</b>"}</span><span>${esc(e[2])}</span></li>`).join("");
+  return `<section class="card" id="ats">${head(5,"ats")}
+  <div class="ats">${cards}</div>
+  <p class="sub">사고와 중단, 한국 연결 연표</p><ul class="ev">${ev}</ul>
+  ${read("KDX는 주문을 모으는 거래 시설이라는 점에서 이 3곳과 사업 형태가 가까움. 선발 Blue Ocean은 2024-08 사고로 한국 주간거래가 약 15개월 중단됐고, 2026-09 종목 중단 뒤 한국 증권사 2곳(메리츠증권, 토스증권)이 Bruce 시세를 연결함")}${srcs("ats")}</section>`;
+}
+function regBlock(){
+  const mx=Math.log10(3184);
+  const who=a=>a.length?`<div class="who">${a.map(x=>`<span class="f" data-co="${x[0]}">${coBtn(x[0])} <small>${esc(x[1])}</small></span>`).join("")}</div>`:"";
+  const rows=REG.map(r=>`<tr><td class="grp">${esc(r[0])}</td><td>${esc(r[1])}</td><td class="num">${r[2]?`<div class="cnt"><b>${r[2].toLocaleString("en-US")}곳</b><span class="cbar" style="width:${Math.round(Math.log10(r[2])/mx*90)}px"></span></div>${r[3]?`<small>${esc(r[3])}</small>`:""}`:""}</td><td>${who(r[4])}</td><td>${who(r[5])}</td></tr>`).join("");
+  return `<section class="card" id="reg">${head(6,"reg")}
+  <div class="scroll"><table><thead><tr><th></th><th>미국 등록 종류</th><th>전체 수</th><th>직접 등록한 회사</th><th>인수로 확보한 회사</th></tr></thead><tbody>${rows}</tbody></table></div>
+  <p class="note">미국 밖 투자설명서 승인: 리히텐슈타인 FMA(Kraken, Ondo, Robinhood), 아부다비 ADGM(Binance, Coinbase). Binance는 미국 등록 없이 아부다비 인가 3종(거래소, 청산과 수탁, 중개)을 취득함</p>
+  ${read("브로커딜러는 3,184곳으로 많으나 증권거래소(29곳)와 청산기관(9곳)은 소수이며 9곳 중 보유한 곳이 없음. 미국 ATS는 브로커딜러 등록과 Form ATS-N 신고로 운영되고, 한국 ATS는 금융위 인가가 필요함(넥스트레이드 2025-02 본인가)")}${srcs("reg")}</section>`;
+}
+function onesBlock(){
+  const cards=ONES.map(o=>`<div class="one f" data-co="${o[0]}"><div class="top">${coBtn(o[0])}</div><div class="id">${esc(o[1])}</div>${o[2]?`<div class="size">${esc(o[2])}</div>`:""}<div class="see">${esc(o[3])}</div>${o[4]?`<div class="tok">${esc(o[4])}(2026-11-16)</div>`:""}</div>`).join("");
+  return `<section class="card" id="ones"><div class="sh"><span class="n">7</span><h2>${TITLE.ones}</h2></div><p class="claim">회사 성격, 본업 규모, 사례로 볼 점</p><div class="ones">${cards}</div>${srcs("ones")}</section>`;
+}
+function paint(){
+  document.querySelectorAll("#focusbar .pill").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.pick===focus)));
+  document.querySelectorAll(".f").forEach(el=>{const on=!focus||el.dataset.co===focus;el.classList.toggle("dim",!on);el.classList.toggle("hit",!!focus&&on)});
+}
+function init(){
+  const pill=id=>`<button type="button" class="pill" data-pick="${id}">${esc(NAMES[id])}</button>`;
+  document.getElementById("focusbar").innerHTML=`<b>회사 선택</b><button type="button" class="pill" data-pick="">전체</button>`+SIX.map(pill).join("")+`<span class="sep" aria-hidden="true"></span>`+ATS3.map(pill).join("");
+  document.getElementById("glance").innerHTML=GLANCE.map(g=>`<a href="#${g[0]}"><span class="k">${esc(g[1])}</span><span class="c">${esc(g[2])}</span></a>`).join("");
+  document.getElementById("blocks").innerHTML=assetBlock()+custBlock()+marketBlock()+roleBlock()+atsBlock()+regBlock()+onesBlock();
+  document.addEventListener("click",e=>{const b=e.target.closest("[data-pick]");if(!b)return;const id=b.dataset.pick;focus=(id===focus)?"":id;paint()});
+  paint();
+}
+init();
+</script>
+</body>
+</html>

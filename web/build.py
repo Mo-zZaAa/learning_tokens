@@ -193,7 +193,7 @@ def parse(path):
             cur["rows"].append({"level": "img", "imgs": [i for i in imgs if i["k"]], "raw": s})
             continue
         lead = s[0]
-        level = {"●": "b", "★": "s", "①": "q1", "②": "q2", "③": "q3"}.get(lead)
+        level = {"●": "b", "★": "s", "①": "q1", "②": "q2", "③": "q3", "-": "d"}.get(lead)
         if level is None:
             level, body = "s", s
         else:
@@ -216,6 +216,8 @@ def parse(path):
                "src": evidence(ids), "ids": ids, "links": links}
         if label == "해석":
             row["interp"] = True
+        if label == "뜻":
+            row["defn"] = True
         if link:
             row["link"] = link
         if label == "주장" and level == "b":
