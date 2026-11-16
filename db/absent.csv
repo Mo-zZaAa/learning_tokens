@@ -222,3 +222,9 @@ Robinhood,향후 방향,찾았으나 공개 자료 없음,"1차, 교차 확인 �
 Dinari,E 인가 > 보유 인가와 법인 > 명의개서대리인(Dinari Inc.),찾았으나 공개 자료 없음,인가 지도와 보도자료는 명의개서대리인 보유를 말하나 SEC 등록부(Form TA)를 열지 못해 본문에서 뺌,www.sec.gov(클라우드 접속 차단)
 Dinari,F 관계 > Gemini 공급,찾았으나 공개 자료 없음,출처가 언론 보도뿐(인가 지도, DB 모두)
 Dinari,B 상품 구조 > 규모 > 1년 전 대비(같은 출처),찾았으나 공개 자료 없음,rwa.xyz 시계열 API가 403이라 같은 출처의 1년 전 값을 못 얻음. 2026-01-16 값(Sentora 보고서 인용)은 단일 출처라 본문에서 뺌,rwa.xyz
+제도,"CFTC 지정 선물거래소(DCM), 청산소(DCO) 수",못 찾음,cftc.gov와 sirt.cftc.gov가 Cloudflare 봇 확인(403)으로 막힘. 우회하지 않음,https://www.cftc.gov/IndustryOversight/TradingOrganizations/DCMs; https://www.cftc.gov/IndustryOversight/ClearingOrganizations/DCOs; https://sirt.cftc.gov/sirt/sirt.aspx?Topic=TradingOrganizations
+제도,CFTC FCM 재무 데이터 월간 보고서의 FCM 수,못 찾음(대용값 NFA 회원 FCM 79곳),cftc.gov 403(봇 확인),https://www.cftc.gov/MarketReports/financialfcmdata/index.htm
+Binance,"bStocks 목록의 한국 ADR, EWY 기초 토큰 여부",못 찾음,"binance.com 공지와 목록은 봇 확인, api.binance.com은 지역 제한(451). 사용자 로컬 브라우저 필요",https://www.binance.com/en/about-legal-disclosures/bstocks-digital-securities-documentation-prospectuses; https://api.binance.com/api/v3/exchangeInfo
+제도,SEC 투자자 안내(investor.gov) ADR 설명,못 찾음(대체: 17 CFR 230.405 정의),investor.gov Access Denied(403),https://www.investor.gov/introduction-investing/investing-basics/glossary/american-depositary-receipts-adrs
+제도,FINRA Industry Snapshot 4.5절 야간 ATS와 비ATS 분기 거래대금 값,못 찾음(그림만 있고 표 없음),PDF 그림에 숫자 표기 없음,https://www.finra.org/sites/default/files/2026-05/2026-Industry-Snapshot.pdf p.84 Figure 4.5.1
+Ondo Finance,Ondo Stocks 전체 종목 목록,못 찾음(개별 자산 페이지로 확인),"app.ondo.finance 목록은 동적, api.gm.ondo.finance는 API 키 필요(403)",https://app.ondo.finance; https://api.gm.ondo.finance/v1/assets/all/metadata

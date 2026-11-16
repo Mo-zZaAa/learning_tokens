@@ -1,0 +1,568 @@
+
+Virtual Currency Business Licensing | Department of Financial Services
+      Skip to main content
+DFS Global Navigation Header
+Department of Financial Services
+                  Consumer Information
+Consumer Information
+Auto Insurance
+Banking and Sending Money
+Disaster and Flood Resources
+Drug Prices and PBMs
+Fraud and Cyber Protection
+Healthcare
+Homeowners & Tenants
+Small Business Resources
+Student Loan Resources and Relief
+More...
+                  Applications & Filings
+Applications & Filings
+Application Fees & Assessments
+Pharmacy Benefit Managers
+Banks and Trusts
+Insurance Agents & Brokers
+Insurance Companies
+Mortgage Companies
+Virtual Currency Businesses
+More...
+                  Industry Guidance
+Industry Guidance
+AI Safety & the RAISE Act
+Cybersecurity Resource Center
+Climate Change
+Diversity, Equity and Inclusion
+Health Equity
+Innovation
+Enforcement & Discipline
+Circular Letters
+Industry Letters
+Regulatory & Legislative Activities
+                  Reports & Publications
+Reports & Publications
+Newsroom
+Examinations & Exam Reports
+DFS Annual Reports
+Other Reports
+Hearings
+Weekly Bulletins
+                  About Us
+About Us
+Contact Us
+File a Complaint or Appeal
+Careers With DFS
+Newsroom
+Procurement
+Search
+Submit search
+DFS Portal
+Virtual Currency Business Licensing
+TOP
+Virtual Currency Business Licensing
+SHARE
+Sections
+See All
+                            Introduction
+Virtual Currency Business Activity
+New York offers a leading, forward-looking state-level framework where virtual currency firms can conduct a range of activities under rigorous supervision. In June
+2015, DFS issued virtual currency regulation 
+23 NYCRR Part 200
+ under the New York Financial Services Law. DFS has granted numerous 
+BitLicenses
+ and 
+limited purpose trust charters
+. 
+What You Can Build in New York: Virtual Currency Business Activity Under a BitLicense or Trust Charter
+Through its licensing, chartering, and material change processes, DFS has authorized a variety of business models after reviewing to ensure that appropriate controls and personnel are in place. New Yorkers have a well-regulated way to access the evolving virtual currency marketplace.
+Here are examples of what a licensed or chartered entity can build.
+Payments & Transmission:
+ Move customer virtual currency, enabling crypto payments, remittances, and merchant settlement services. 
+Note
+:  a 
+limited purpose trust company
+ can engage in money transmission in New York without obtaining a separate New York 
+money transmitter license
+.
+Custody:
+ Hold and safeguard digital assets on behalf of clients. Limited purpose trust companies can custody as a fiduciary, which many pension funds, registered investment advisers, and other regulated institutional clients often require before they'll entrust assets to a custodian.
+Retail and Institutional Trading:
+ Operate a buying-and-selling business serving both retail customers and institutional counterparties.
+Exchange Services:
+ Offer fiat-to-crypto on/off ramps and crypto-to-crypto conversion services, allowing connections between traditional finance and digital assets.
+Stablecoin and Token Issuance:
+ Issue, control, or administer a virtual currency or other tokenized asset, including stablecoins, under a framework that provided the foundation for the development of the GENIUS Act.
+Staking-as-a-Service:
+ Staking services that allow customers to participate in proof-of-stake network validation and earn staking rewards through your platform.
+Merchant Services: 
+Facilitating transactions between cryptocurrency holders and merchants via point-of-sale integrations.
+Payroll Services:
+ Allowing businesses and their employees to integrate cryptocurrency into their payroll processes.
+Quick Links
+Annual Assessment Charges - BitLicense
+Title: Part 200 Virtual Currency Regulation
+ (NYCRR - westlaw.com)
+Cybersecurity Requirements for Financial Services Companies
+Title: Part 504 Transaction Monitoring and Filtering Program Requirements and Certifications
+ (NYCRR - westlaw.com)
+FAQs: Virtual Currency Businesses
+Questions
+Questions regarding virtual currency business activity in New York State can be sent via email to 
+[email protected]
+ and should include your full contact information.
+Back to Top ▲
+Next Section
+Continue
+                            Information for Applicants
+To conduct virtual currency business activity in New York State, entities can either apply for a BitLicense or for a charter under the New York Banking Law (for example, as a New York State limited purpose trust company or New York State bank) with approval to conduct virtual currency business. While these forms of authorization are similar, a New York State limited purpose trust company charter may provide some additional benefits. For example, a limited purpose trust company can exercise fiduciary powers, while a BitLicensee cannot. In addition, a limited purpose trust company can engage in money transmission in New York without obtaining a separate New York money transmitter license. An applicant for a BitLicense must separately apply for a Money Transmission License. For more information about applying for a limited purpose trust charter, please see 
+here
+. For more information about applying for a money transmission license, visit
+ Money Transmitter Licensing
+.
+BitLicense Application and License Management
+The Department of Financial Services uses the 
+Nationwide Multistate Licensing System and Registry (NMLS)
+ to manage the BitLicense. NMLS is a secure web-based system created by the Conference of State Bank Supervisors (CSBS), in cooperation with the American Association of Residential Mortgage Regulators to provide efficiencies in the processing of state licenses and improve supervision of state-regulated industries. Through NMLS, companies maintain a single record to apply for, amend, surrender and change license authorities in one or more states, and make reports conveniently and safely online.
+Access to NMLS
+To enter information into NMLS, you must first complete a 
+Company Account Request Form
+ and identify a Primary Account Administrator and a Secondary Account Administrator. This form can be submitted electronically through the NMLS website's “
+Getting Started
+” section. This form needs to be submitted only once per company, regardless of the number of NMLS participating states in which you are licensed.
+Within three days of completing and submitting the Company Account Request Form, the Primary Account Administrator will receive NMLS login information. The Primary Account Administrator will have full rights to access the system, submit information to this agency and other participating state regulators, and set up other company users in the system. Instructions and tutorials on how to access and use the system are also available in the 
+NMLS Resource Center
+.
+Managing Your License on NMLS
+Each company holding a BitLicense that wishes to manage its license on NMLS must 
+create a company record in the system
+ (see above). See the 
+NY Virtual Currency Business Activity Company License Checklist
+ on the NMLS website for more information.
+Submitting a Substantially Complete Application
+To submit an application, please follow the instructions on the 
+NY Virtual Currency Business Activity License New Application Checklist
+ (the “BitLicense Application Checklist”). You can view the BitLicense Application Checklist any time, even without an NMLS account. The Application Checklist is a critically important guide for anyone considering applying for a BitLicense. Before submitting a BitLicense application, please read the Application Checklist carefully. BitLicense applications must generally contain all items described in the Application Checklist. Failure to submit all of these items, as described, is the most common reason for delays in the application process.
+Note: An application will 
+not
+ be deemed ready for substantive review until the Department has received all required information, documents, and fees, as described in detail in the 
+BitLicense Application Checklist
+, and the required documents appear to be facially adequate in terms of organization and level of detail. (Exceptions may be made if deemed appropriate by DFS in light of specific circumstances.) Applications that are not ready for substantive review generally will not receive detailed expert review by DFS staff. Thus, the processing of an application that does not contain all items as described in the BitLicense Application Checklist may be denied for insufficiency. 
+In the process of considering an application, DFS may request additional information and supporting documents, beyond those found in the BitLicense Application Checklist.
+For more information on the Department’s application review process, see 
+Notice of Virtual Currency Business Activity License Application Procedures
+.
+Questions about the application process can be sent via email to 
+[email protected]
+. If it appears that an applicant would benefit from a more interactive dialogue, DFS staff may recommend a pre-application call or meeting (virtual or in person).
+The Application Process
+In the application process, an NMLS Identification Number will be assigned to your application. Maintain a record of this NMLS Identification Number, as it will be used as your application reference number throughout the the process. The NMLS Identification Number must be included on every hard-copy document submitted to the Department.
+Note:
+ If an applicant has already submitted Forms MU1 and MU2 through NMLS for another state, the applicant does not need to re-enter the company record into NMLS. However, the applicant is required to provide jurisdiction-specific information to support its New York State application.
+Useful Links and Forms
+NY Virtual Currency Business Activity License New Application Checklist
+Notice of Virtual Currency Business Activity License Application Procedures
+Authority to Release Information
+ (PDF)
+Financial Statement
+ (PDF)
+Licensee Contact Update
+ (PDF)
+Back to Top ▲
+Next Section
+Continue
+                            Guidance and Notices
+Industry Letters
+Date Issued
+Title
+2026-11-12
+Guidance on Advertising and Marketing
+2025-09-30
+Updated Guidance on Custodial Structures for Customer Protection in the Event of Insolvency
+2025-06-23
+Guidance on Impact to Financial Sector of Ongoing Global Conflicts
+2025-01-16
+Notice Regarding Rapidly Proliferating, Sentiment-Based Virtual Currencies
+2024-05-30
+Guidance Regarding Customer Service Requests and Complaints
+2024-01-22
+Guidance on Assessment of the Character and Fitness of Directors, Senior Officers, and Managers
+2023-11-15
+Guidance Regarding Listing of Virtual Currencies
+2023-09-18
+Proposed Updates to Guidance Regarding Listing of Virtual Currency
+2023-09-18
+General Framework for Greenlisted Coins
+2023-01-23
+Guidance on Custodial Structures for Customer Protection in the Event of Insolvency
+Note: This guidance has been superseded by 
+Updated Guidance on Custodial Structures for Customer Protection in the Event of Insolvency
+ issued on September 30, 2025.
+2022-09-14
+Notice Regarding Ethereum’s Upcoming Protocol Change
+2022-06-08
+Guidance on the Issuance of U.S. Dollar-Backed Stablecoins
+2022-04-28
+Guidance on Use of Blockchain Analytics
+2022-02-25
+Escalating Situation in Ukraine and Impact to Financial Sector
+2021-07-29
+Diversity, Equity and Inclusion and Corporate Governance
+2020-06-24
+Request for Comments on a Proposed Framework for a Conditional BitLicense
+2018-02-07
+Guidance on Prevention of Market Manipulation and Other Wrongful Activity
+Notices
+Date Issued
+Title and Details
+2025-04-10
+Notice of Voluntary Surrender and Name Change – Bakkt Crypto Solutions, LLC and Bakkt Marketplace, LLC
+2024-10-11
+Notice of Voluntary Surrender - Cboe Clear Digital, LLC
+2024-03-25
+Notice of Voluntary Surrender - SoFi Digital Assets
+2024-01-03
+Notice of Voluntary Surrender - Genesis
+2023-12-27
+Notice of Voluntary Surrender - Coinsource
+Back to Top ▲
+Next Section
+Continue
+                            Regulated Entities
+Entity
+Licensure
+Date Granted
+Anchorage Digital NY, LLC
+Virtual Currency License                    
+2024-12
+Bakkt Financial Solutions I, LLC
+Virtual Currency and Money Transmitter Licenses
+2021-03
+Bastion Platforms Trust Company, LLC
+Limited Purpose Trust Charter
+2025-02
+bitFlyer USA, Inc. 
+Virtual Currency License
+2017-11
+BitGo New York Trust Company, LLC
+Limited Purpose Trust Charter
+2021-03
+BitOoda Digital, LLC
+Virtual Currency License
+2022-02
+Bitpay, Inc.
+Virtual Currency License
+2018-07
+Bitstamp USA, Inc.
+Virtual Currency License
+2019-04
+Block, Inc., f/k/a Square, Inc.
+Virtual Currency and Money Transmitter Licenses
+2018-06
+Bullish US Operations LLC
+Virtual Currency and Money Transmitter Licenses
+2025-09
+Circle Internet Financial, LLC
+Virtual Currency and Money Transmitter Licenses
+2015-09
+Circle Internet Trust Company, LLC. d/b/a Circle New York Trust
+Limited Purpose Trust Charter
+2026-07
+Coin Cafe, Inc.
+Virtual Currency License
+2023-01
+Coinbase Custody Trust Company, LLC
+Limited Purpose Trust Charter
+2018-10
+Coinbase, Inc.
+Virtual Currency and Money Transmitter Licenses
+2017-01
+Cottonwood Vending
+Virtual Currency License
+2019-01
+Cumberland New York LLC
+Virtual Currency License
+2024-06
+eToro NY LLC
+Virtual Currency and Money Transmitter Licenses
+2023-02
+Fireblocks Trust Company, LLC
+Limited Purpose Trust Charter
+2024-08
+GalaxyOne Prime NY LLC
+Virtual Currency and Money Transmitter Licenses
+2026-05
+Gemini Trust Company, LLC
+Limited Purpose Trust Charter
+2015-10
+GMO-Z.com Trust Company, Inc.
+Limited Purpose Trust Charter
+2020-12
+ICE Digital Trust, LLC
+Limited Purpose Trust Charter
+2019-08
+Mastercard Transaction Services (US) LLC
+Virtual Currency and Money Transmitter Licenses
+2026-05
+Moon Inc. d/b/a LibertyX
+Virtual Currency License
+2019-01
+MoonPay Trust Company, LLC
+Limited Purpose Trust Charter
+2025-11
+MoonPay USA LLC
+Virtual Currency and Money Transmitter Licenses
+2025-06
+NYDIG Execution LLC
+Virtual Currency and Money Transmitter Licenses
+2018-11
+NYDIG Trust Company LLC
+Limited Purpose Trust Charter
+2018-11
+PayPal Digital, Inc.
+Limited Purpose Trust Charter
+2024-05
+PayPal, Inc.
+Virtual Currency and Money Transmitter Licenses
+2022-06*
+Provenance Technologies, Inc. d/b/a Fiant
+Virtual Currency and Money Transmitter Licenses
+2022-02**
+Ripple Markets DE LLC f/k/a XRP II LLC
+Virtual Currency License
+2016-06
+Robinhood Crypto, LLC
+Virtual Currency and Money Transmitter Licenses
+2019-01
+Standard Custody & Trust Company, LLC d/b/a Ripple Custody & Trust Co.
+Limited Purpose Trust Charter
+2021-05
+WisdomTree Digital Trust Company, LLC
+Limited Purpose Trust Charter
+2024-03
+Zap Solutions, Inc.
+Virtual Currency and Money Transmitter Licenses
+2026-02
+zerohash liquidity services LLC f/k/a Seed Digital Commodity Market, LLC
+Virtual Currency License
+2019-07
+zerohash LLC
+Virtual Currency and Money Transmitter Licenses
+2019-07
+*The Department granted PayPal, Inc. a virtual currency license in October 2020 and a money transmitter license in October 2013.
+**The Department granted Provenance Technologies, Inc. a money transmitter license in October 2021 and the virtual currency license in February 2022.
+Back to Top ▲
+Next Section
+Continue
+                            Virtual Currency Listing and Self-Certification
+There are multiple paths virtual currency businesses can take to list virtual currencies:
+Approval of a specific application to DFS for a material change of business
+Self-certification of a coin listing policy approved by DFS
+Use of virtual currencies already on the 
+Greenlist
+.
+For more information, please see 
+Guidance Regarding Listing of Virtual Currencies
+.
+Self-Certification
+Regulated entities engaged in Virtual Currency Business Activity may submit to DFS a self-certification policy, pursuant to 
+guidance DFS issued in November 2023
+. Once DFS approves such a policy, the Licensee may self-certify eligible coins for listing. When a Licensee self-certifies a coin the Licensee is required to notify its assigned supervisory team.
+To access the DFS Portal you will need to create a portal account.
+Instructions: Creating a DFS Portal account
+When you first log in, click on 
+Ask for Apps
+ to request access to the 
+Virtual Self-Certification application
+, for the company(ies) you will be filing for. When this is approved, you will be able to access this application in the 
+My Apps
+ menu.
+DFS Portal
+Back to Top ▲
+Next Section
+Continue
+                            Greenlisted Coins
+Any entity licensed or chartered by the New York State Department of Financial Services to conduct virtual currency business activity in New York may list coins on the Greenlist without having a separate DFS-approved coin-listing policy. If a VC Entity decides to list a coin on the Greenlist, it must notify DFS at least ten days prior to offering the coin in New York.
+Coin
+Symbol
+Bitcoin
+BTC
+Ethereum
+ETH
+Gemini Dollar*
+GUSD
+GMO JPY*
+GYEN
+GMO USD*
+ZUSD
+Ripple USD*
+RLUSD 
+WisdomTree Dollar*
+USDW
+WisdomTree Gold*
+GOLD
+*denotes stablecoins approved for issuance in New York by VC Entities
+Disclaimer: DFS may, at any time and in its sole discretion, prohibit or otherwise limit a coin’s use before or after a VC Entity begins using a coin; require that any VC Entity delist, halt, or otherwise limit or curtail activity with respect to any coin; remove any coin from the Greenlist; refrain from placing any coin on the Greenlist; or discontinue the Greenlist process entirely. DFS may also update its current self-certification guidance in its sole discretion.
+Back to Top ▲
+Next Section
+Continue
+                            BitLicense FAQs
+1. Who needs a BitLicense?
++
+A person (whether an individual or a company) that engages in Virtual Currency Business Activity requires a BitLicense. Under 
+23 NYCRR 200.2(q)
+, Virtual Currency Business Activity can fall into one of five types of activities involving New York or New Yorkers:
+receiving Virtual Currency for transmission or transmitting Virtual Currency;
+storing, holding, or maintaining custody or control of Virtual Currency on behalf of others;
+buying and selling Virtual Currency as a customer business;
+performing exchange services as a customer business; or
+controlling, administering, or issuing a Virtual Currency.
+2. I am a consumer who wants to invest in a Virtual Currency like Bitcoin. Do I need a BitLicense?
++
+No. A consumer who uses Virtual Currency solely for investment purposes does not require a BitLicense. 
+23 NYCRR 200.3(c)
+.
+3. Does my store need a BitLicense to accept Virtual Currency as payment for goods or services?
++
+No.  Merchants and consumers that use Virtual Currency solely for the purchase or sale of goods or services are exempt from the licensing requirement.  
+23 NYCRR 200.3(c)
+.
+4. Are charitable organizations exempt from the BitLicense requirements?
++
+No. Charitable organizations are not exempt.
+5. Does a charitable organization need a BitLicense merely to accept donations of Virtual Currency?
++
+No. Merely accepting donations of Virtual Currency does not require a BitLicense.
+6. I am interested in mining Virtual Currency by myself or through a company I want to form. Does this require a BitLicense?
++
+In itself, Virtual Currency mining does not require a BitLicense. However, other Virtual Currency-related activities in which a miner engages may require a BitLicense.
+7. Do I need a BitLicense to sell the coins that I have mined for my own account?
++
+Merely selling the coins you have mined, in a private, non-commercial transaction, does not require a BitLicense. However, other Virtual Currency-related activities that a miner engages in may require a BitLicense.
+8. I write code and build tools for the Virtual Currency space.  Do I need a BitLicense for this?
++
+Under the regulation, the development and dissemination of software (as a purely technical service) in and of itself does not require a BitLicense. 
+23 NYCRR 200.2(q)
+. The use of your product or service, however, may involve licensable Virtual Currency Business Activity.
+As an example, writing software that allows customers to self-custody Virtual Currency in a wallet would not, in and of itself, require a BitLicense. However, building a wallet service in which you kept custody of other people’s funds on their behalf likely would require a BitLicense.
+9. I am a financial advisor and want to give my clients advice on buying or selling Virtual Currency. Do I need a BitLicense?
++
+No. Merely providing advice on buying or selling Virtual Currency does not require a BitLicense.
+10. Will my company need any New York license other than a BitLicense?
++
+In some cases, it may. The BitLicense allows a company to conduct Virtual Currency Business Activity involving New York or a New York Resident, but it does not replace any other licenses required under New York law. For example, many BitLicensees engage in the transmission of fiat currency (
+e.g.
+, U.S. dollars), which requires them to hold a money transmission license under New York Banking Law 
+Article 13-B
+.
+11. If my company is registered with FinCEN, does it still need a BitLicense in order to engage in Virtual Currency Business Activity?
++
+Yes. The fact that a company is registered with FinCEN does not affect whether the company requires a BitLicense.
+12. Are there any alternatives to getting a BitLicense?
++
+Yes. A business that is chartered under the New York Banking Law (for example, a New York State limited purpose trust company or a New York State bank) can engage in Virtual Currency Business Activity without a BitLicense if it has received the Superintendent’s approval to do so. Further information about limited purpose trust companies can be found 
+here
+.
+13. How does a New York state limited purpose trust company charter differ from a BitLicense?
++
+While these forms of authorization are similar in many respects, a New York state limited purpose trust company charter may provide some additional benefits. For example, a limited purpose trust company can exercise fiduciary powers, while a BitLicensee cannot. 
+23 NYCRR 200.3(a)
+.  In addition, a limited purpose trust company can engage in money transmission in New York without obtaining a separate New York money transmitter license.
+14. How do I submit a BitLicense application to DFS?
++
+BitLicense applications are submitted through the Nationwide Multistate Licensing System, or NMLS. Please see the 
+application instructions at the NMLS website
+, on the “NY Virtual Currency Business Activity License New Application Checklist (Company).”
+15. How long will the application process take?
++
+Completion times vary, but DFS has observed that most delays are a result of submitting an application with one or more elements missing. DFS has published 
+guidance
+ for applicants on the specific documents and information required for an application to be ready for substantive review.  DFS will not begin its substantive review of an application until it is informationally complete – all documents and information must have been submitted or provided and must appear to be responsive and comprehensive in terms of organization, clarity, level of detail, and tailoring based on the applicant’s specific business and operations.
+16. What are the capital requirements for a BitLicensee?
++
+The BitLicense regulation lays out the requirements for capitalization. See 
+23 NYCRR 200.8
+.  The capitalization determination may vary depending on business model and risk.
+17. Is there a surety bond or similar requirement?
++
+Yes. There is a requirement to either obtain a surety bond, or to fund an account, for the protection of the BitLicensee’s customers. 
+23 NYCRR 200.9(a)
+.  Generally, the minimum amount of this bond or account is $500,000, although that figure can increase based upon the specifics of the BitLicensee’s business model.
+18. Which coins can a BitLicensee adopt or list for offering or usage?
++
+A BitLicensee may offer or use any of the following coins:
+Coins that DFS has specifically approved for the BitLicensee;
+Coins for which the BitLicensee has self-certified to DFS that their use is in compliance with the BitLicensee’s DFS-approved coin listing policy; and
+Coins that are on the DFS Greenlist, which can be found 
+here
+.
+19. How does the Greenlisting Process Work?
++
+Please reference the 
+General Framework for Greenlist Coins
+ for additional information regarding the Greenlist.
+20. Are “stablecoins” considered Virtual Currencies under the BitLicense regulation?
++
+While the answer will depend on the specifics of the coin, many coins that are commonly referred to as “stablecoins” are considered to be Virtual Currencies under 23 NYCRR Part 200, and therefore their use would require licensure and self-certification, Greenlisting, or specific DFS approval with respect to any Virtual Currency Business Activity.
+21. Is an out-of-state business required to obtain a BitLicense to engage in Virtual Currency Business Activity in New York State or with New York State residents?
++
+Yes. A business must obtain a BitLicense if it engages in Virtual Currency Business Activity involving New York State or any person that resides, is located, has a place of business, or is conducting business in New York State.
+Back to Top ▲
+Next Section
+Continue
+                            Regulation and History
+Virtual Currency Business Activity (BitLicense)
+As stated in 23 NYCRR 200.3(a), “No Person shall, without a license obtained from the superintendent…engage in any Virtual Currency Business Activity.”
+23 NYCRR 200.2(q) provides, in part: "Virtual Currency Business Activity means the conduct of any one of the following types of activities involving New York or a New York Resident:
+receiving Virtual Currency for Transmission or Transmitting Virtual Currency, except where the transaction is undertaken for non-financial purposes and does not involve the transfer of more than a nominal amount of Virtual Currency;
+storing, holding, or maintaining custody or control of Virtual Currency on behalf of others;
+buying and selling Virtual Currency as a customer business;
+performing Exchange Services as a customer business; or
+controlling, administering or issuing a Virtual Currency.”
+For licensing requirements see 
+23 NYCRR Part 200
+.
+History
+The virtual currency landscape has evolved substantially since the first bitcoin launched in 2009. In New York, DFS has been regulating virtual currency business activity since 2013. A brief timeline of events leading to the BitLicense regulation in June 2015 follows:
+2015 – DFS revises draft BitLicense regulations and on June 24, the BitLicense regulation goes into effect
+2014 – DFS holds public hearings on virtual currency; begins considering virtual currency applications for limited purpose trust company charters; publishes proposed BitLicense regulation and opens public comment period
+2013 – DFS begins receiving virtual currency applications for Money Transmitter Licenses
+Back to Top ▲
+Next Section
+Continue
+                            Questions?
+If you are unable to find the answer to your questions on this website, contact us at 
+[email protected]
+. For questions specific to licensing email 
+[email protected]
+. To learn more about NMLS visit the 
+NMLS website
+.
+Back to Top ▲
+Next Section
+Continue
+Have a question or need help? 
+Check our FAQs
+. If you still need help, 
+contact DFS
+.
+        Who We Supervise
+Institutions That We Supervise
+The Department of Financial Services supervises many different types of institutions. Supervision by DFS may entail chartering, licensing, registration requirements, examination, and more.
+            Learn More
+Department of Financial Services
+About Us
+Mission and Leadership
+Advisory Boards
+Institutions That We Supervise
+Contact Us
+State Laws & Regulations
+State Codes, Rules & Regulations (NYCRR)
+State Laws (LBDC)
+State Bills & Laws (Senate)
+Website
+Accessibility & Reasonable Accommodations
+Disclaimer
+Privacy Policy
+Site Map
+Language Assistance
+Language Access Policies and Plans
+Department of Financial Services
+CONNECT WITH US
