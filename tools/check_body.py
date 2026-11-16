@@ -18,6 +18,11 @@ for p in sys.argv[1:]:
             continue
         ids = re.findall(r'\[([^\]]+)\]', body)
         if body.startswith('!['): continue
+        if any(k in body for k in ('원문 :', '번역 :', '해석 :')) and body[0] in '①②③': continue
+        if 'http' in body and body.startswith('★'):
+            ids = re.findall(r'\[([^\]]+)\]', body)
+            if not ids: bad.append(f'{p}:{n} 근거 ID 없음')
+            continue
         if not any(k in body for k in ('원문 :', '번역 :', '해석 :', '발언 :')):
             text = re.sub(r'\[[^\]]+\]', '', body)
             text = re.sub(r'\([^)]*\)', '', text)

@@ -165,3 +165,4 @@ Robinhood,주요 사례(해당 시),찾았으나 공개 자료 없음,"1차, 교
 Robinhood,향후 방향,찾았으나 공개 자료 없음,"1차, 교차 확인 사실 없어 중분류 삭제","공식 사이트 notes와 위키, work/EXT-*"
 Dinari,E 인가 > 보유 인가와 법인 > 명의개서대리인(Dinari Inc.),찾았으나 공개 자료 없음,인가 지도와 보도자료는 명의개서대리인 보유를 말하나 SEC 등록부(Form TA)를 열지 못해 본문에서 뺌,www.sec.gov(클라우드 접속 차단), work/LICMAP/licenses_check.csv
 Dinari,F 관계 > Gemini 공급,찾았으나 공개 자료 없음,출처가 언론 보도뿐(인가 지도, DB 모두),natlawreview(404), work/LICMAP/relations_check.csv
+Dinari,B 상품 구조 > 규모 > 1년 전 대비(같은 출처),찾았으나 공개 자료 없음,rwa.xyz 시계열 API가 403이라 같은 출처의 1년 전 값을 못 얻음. 2026-01-16 값(Sentora 보고서 인용)은 단일 출처라 본문에서 뺌,rwa.xyz, Sentora, Token Terminal, Dune
