@@ -1,45 +1,45 @@
 ﻿회사,화면,설명,원래 주소,파일,찍은 일시,메모
-Dinari,logo,홈 헤더 로고,https://dinari.com,captures/Dinari/logo.png,2026-11-16 15:04,"HTTP 200 제목:Dinari - API & Tokens for 1:1 Backed US Stocks, ET"
-Dinari,가입,앱 가입/로그인 첫 화면,https://app.dinari.com,captures/Dinari/signup.png,2026-11-16 15:05,HTTP 200 제목:Dinari Trading App
-Dinari,종목 목록,dShares 목록,https://app.dinari.com/dshares,captures/Dinari/list.png,2026-11-16 15:05,HTTP 200 제목:Dinari Trading App
-Dinari,주문,trade 화면,https://app.dinari.com/trade,captures/Dinari/order.png,2026-11-16 15:05,HTTP 200 제목:Dinari Trading App
-Kraken,logo,헤더 로고,https://www.kraken.com/xstocks,captures/Kraken/logo.png,2026-11-16 15:05,HTTP 200 제목:Tokenized Stocks and ETFs on Kraken
-Kraken,가입,가입 화면 첫 단계,https://www.kraken.com/sign-up,captures/Kraken/signup.png,2026-11-16 15:05,"HTTP 200 제목:Create account - Kraken | Buy, Sell and Margin Tra"
-Kraken,종목 목록,xStocks 종목 목록,https://www.kraken.com/xstocks,captures/Kraken/list.png,2026-11-16 15:05,HTTP 200 제목:Tokenized Stocks and ETFs on Kraken
-Kraken,주문,xStock 종목 페이지 매수 영역,https://www.kraken.com/prices/xstocks,captures/Kraken/order.png,2026-11-16 15:05,HTTP 200 제목:Tokenized Stock Prices – 24/7 Live Equity Token Ra
-Ondo,logo,헤더 로고,https://ondo.finance,captures/Ondo/logo.png,2026-11-16 15:06,"HTTP 200 제목:Ondo Finance — Institutional-grade finance, delive"
-Ondo,가입,앱 첫 화면(지갑 연결),https://app.ondo.finance,captures/Ondo/signup.png,2026-11-16 15:06,HTTP 200 제목:Ondo | Tokenized Stocks
-Ondo,종목 목록,Global Markets 종목 목록,https://app.ondo.finance/assets,captures/Ondo/list.png,2026-11-16 15:06,"HTTP 404 제목:404: Page Not Found | Ondo 차단/오류 의심:['not found', '404']"
-Ondo,주문,Global Markets 소개/주문 안내,https://ondo.finance/global-markets,captures/Ondo/order.png,2026-11-16 15:06,HTTP 200 제목:Ondo Stocks | Tokenized Stocks and ETFs | Ondo Fin
-Robinhood,logo,헤더 로고,https://robinhood.com/eu/en/stock-tokens/,captures/Robinhood/logo.png,2026-11-16 15:06,HTTP 404 제목:Page not found | Robinhood 차단/오류 의심:['not found']
-Robinhood,가입,가입 화면,https://robinhood.com/us/en/signup/,captures/Robinhood/signup.png,2026-11-16 15:06,HTTP 404 제목:Page not found | Robinhood 차단/오류 의심:['not found']
-Robinhood,종목 목록,EU 주식 토큰 페이지,https://robinhood.com/eu/en/stock-tokens/,captures/Robinhood/list.png,2026-11-16 15:06,HTTP 404 제목:Page not found | Robinhood 차단/오류 의심:['not found']
-Robinhood,주문,종목 페이지,https://robinhood.com/eu/en/stocks/TSLA/,captures/Robinhood/order.png,2026-11-16 15:06,HTTP 404 제목:Page not found | Robinhood 차단/오류 의심:['not found']
-Binance,logo,헤더 로고,https://www.binance.com/en/stocks,captures/Binance/logo.png,2026-11-16 15:07,HTTP 202 제목:$353.763 | Apple Inc. Common Stock (AAPL) Stock Pr
-Binance,가입,가입 화면,https://accounts.binance.com/en/register,captures/Binance/signup.png,2026-11-16 15:07,HTTP 200 제목:Create a free account | Binance
-Binance,종목 목록,stocks 목록,https://www.binance.com/en/stocks,captures/Binance/list.png,2026-11-16 15:07,HTTP 200 제목:$353.763 | Apple Inc. Common Stock (AAPL) Stock Pr
-Binance,주문,종목 주문 화면,https://www.binance.com/en/trade/TSLAUSDT,captures/Binance/order.png,2026-11-16 15:07,"HTTP 200 제목:64664.05 Trade BTC/USDT Spot | Crypto, bStocks & t"
-Coinbase,logo,브랜드 페이지 로고,https://www.coinbase.com/en-gb/brand,captures/Coinbase/logo.png,2026-11-16 15:07,로고 요소 못 찾아 헤더 좌상단 영역 캡처 HTTP 403 제목:Just a moment... 차단/오류 의심:['just a moment']
-Coinbase,가입,Base 앱 안내,https://www.base.org,captures/Coinbase/signup.png,2026-11-16 15:08,"coinbase.com 가입은 봇 차단, base.org 홈으로 대신 HTTP 200 제목:Base"
-Coinbase,종목 목록,Base stocks,https://www.base.org/stocks,captures/Coinbase/list.png,2026-11-16 15:08,HTTP 200 제목:Base
-Coinbase,주문,Base markets stocks,https://www.base.org/markets/stocks,captures/Coinbase/order.png,2026-11-16 15:08,HTTP 200 제목:Tokenized Stocks | Base Markets
-BlueOcean,logo,로고,https://blueocean-tech.io,captures/BlueOcean/logo.png,2026-11-16 15:08,HTTP 200 제목:Blue Ocean Technologies LLC
-BlueOcean,홈,홈,https://blueocean-tech.io,captures/BlueOcean/home.png,2026-11-16 15:08,HTTP 200 제목:Blue Ocean Technologies LLC
-BlueOcean,안내1,거래시간/제품 안내,https://blueocean-tech.io/trading-hours/,captures/BlueOcean/info1.png,2026-11-16 15:08,HTTP 404 제목:Page not found – Blue Ocean Technologies LLC 차단/오류 의심:['not found']
-BlueOcean,안내2,구독자 안내,https://blueocean-tech.io/subscribers/,captures/BlueOcean/info2.png,2026-11-16 15:09,HTTP 404 제목:Page not found – Blue Ocean Technologies LLC 차단/오류 의심:['not found']
-Bruce,logo,로고,https://brucemarkets.com,captures/Bruce/logo.png,2026-11-16 15:09,HTTP 200 제목:Bruce Markets: Institutional-Grade Overnight Tradi
-Bruce,홈,홈,https://brucemarkets.com,captures/Bruce/home.png,2026-11-16 15:09,HTTP 200 제목:Bruce Markets: Institutional-Grade Overnight Tradi
-Bruce,안내1,거래시간 안내,https://brucemarkets.com/trading-hours,captures/Bruce/info1.png,2026-11-16 15:09,HTTP 404 제목:Page Not Found - Bruce Markets 차단/오류 의심:['not found']
-Bruce,안내2,구독자/참가자 안내,https://brucemarkets.com/about,captures/Bruce/info2.png,2026-11-16 15:09,HTTP 200 제목:Company — Bruce Markets
-MOON,logo,로고,https://www.otcmarkets.com/market-activity/moon,,2026-11-16 15:10,"실패:Page.goto: Timeout 30000ms exceeded.
+Dinari,logo,홈 헤더 로고,https://dinari.com,captures/Dinari/logo.png,2026-11-16 15:13,"HTTP 200 제목:Dinari - API & Tokens for 1:1 Backed US Stocks, ET"
+Dinari,가입,앱 가입/로그인 첫 화면,https://app.dinari.com,captures/Dinari/signup.png,2026-11-16 15:13,HTTP 200 제목:Dinari Trading App
+Dinari,종목 목록,dShares 목록,https://app.dinari.com/dshares,captures/Dinari/list.png,2026-11-16 15:13,HTTP 200 제목:Dinari Trading App
+Dinari,주문,trade 화면,https://app.dinari.com/trade,captures/Dinari/order.png,2026-11-16 15:13,HTTP 200 제목:Dinari Trading App
+Kraken,logo,헤더 로고,https://www.kraken.com/xstocks,captures/Kraken/logo.png,2026-11-16 15:13,HTTP 200 제목:Tokenized Stocks and ETFs on Kraken
+Kraken,가입,가입 화면 첫 단계,https://www.kraken.com/sign-up,captures/Kraken/signup.png,2026-11-16 15:13,"HTTP 200 제목:Create account - Kraken | Buy, Sell and Margin Tra"
+Kraken,종목 목록,xStocks 종목 목록,https://www.kraken.com/xstocks,captures/Kraken/list.png,2026-11-16 15:14,HTTP 200 제목:Tokenized Stocks and ETFs on Kraken
+Kraken,주문,xStock 종목 페이지 매수 영역,https://www.kraken.com/prices/xstocks,captures/Kraken/order.png,2026-11-16 15:14,HTTP 200 제목:Tokenized Stock Prices – 24/7 Live Equity Token Ra
+Ondo,logo,헤더 로고,https://ondo.finance,captures/Ondo/logo.png,2026-11-16 15:14,"HTTP 200 제목:Ondo Finance — Institutional-grade finance, delive"
+Ondo,가입,"앱 첫 화면(지갑 연결 단계, 개인정보 미입력)",https://app.ondo.finance,captures/Ondo/signup.png,2026-11-16 15:14,HTTP 200 제목:Ondo | Tokenized Stocks
+Ondo,종목 목록,"Ondo Stocks 종목 목록(공개 소개 페이지, app.ondo.finance/assets는 404)",https://ondo.finance/ondo-stocks,captures/Ondo/list.png,2026-11-16 15:14,HTTP 200 제목:Ondo Stocks | Tokenized Stocks and ETFs | Ondo Fin
+Ondo,주문,개별 종목(AAPLon) 주문 영역,https://app.ondo.finance/assets/aaplon,captures/Ondo/order.png,2026-11-16 15:14,HTTP 200 제목:AAPLon: Apple (Ondo Tokenized) Tokenized Stock Pri
+Robinhood,logo,헤더 로고,https://robinhood.com/eu/en/,captures/Robinhood/logo.png,2026-11-16 15:14,HTTP 200 제목:Explore Classic Stock Tokens & Crypto | Robinhood
+Robinhood,가입,가입 화면 첫 단계,https://robinhood.com/signup/,captures/Robinhood/signup.png,2026-11-16 15:15,HTTP 200 제목:What’s your email address? | Robinhood
+Robinhood,종목 목록,EU 투자(주식 토큰 포함) 페이지,https://robinhood.com/eu/en/invest/,captures/Robinhood/list.png,2026-11-16 15:15,stock-tokens 전용 페이지는 404 HTTP 200 제목:Build your Portfolio with Classic Stock Tokens | R
+Robinhood,주문,"종목 페이지(TSLA, 공개 화면)",https://robinhood.com/stocks/TSLA/,captures/Robinhood/order.png,2026-11-16 15:15,"로그인 필요: 주문창은 로그인 후에만 보임, 공개 종목 페이지로 대신 HTTP 200 제목:Tesla: TSLA Stock Price Quote & News | Robinhood"
+Binance,logo,헤더 로고,https://www.binance.com/en/stocks,captures/Binance/logo.png,2026-11-16 15:15,HTTP 202 제목:$354.112 | Apple Inc. Common Stock (AAPL) Stock Pr
+Binance,가입,가입 화면,https://accounts.binance.com/en/register,captures/Binance/signup.png,2026-11-16 15:15,HTTP 200 제목:Create a free account | Binance
+Binance,종목 목록,stocks 목록,https://www.binance.com/en/stocks,captures/Binance/list.png,2026-11-16 15:15,HTTP 200 제목:$354.134 | Apple Inc. Common Stock (AAPL) Stock Pr
+Binance,주문,종목 주문 화면,https://www.binance.com/en/trade/TSLAUSDT,captures/Binance/order.png,2026-11-16 15:15,"HTTP 200 제목:64,414.20 | BTC USDT | Bitcoin to USDT - Binance S"
+Coinbase,logo,base.org 헤더 로고,https://www.base.org,captures/Coinbase/logo.png,2026-11-16 15:16,"coinbase.com 브랜드 페이지 봇 차단(403), base.org 로고로 대신 로고 요소 못 찾아 헤더 좌상단 영역 캡처 HTTP 200 제목:Base"
+Coinbase,가입,Base 앱 안내,https://www.base.org,captures/Coinbase/signup.png,2026-11-16 15:16,"coinbase.com 가입은 봇 차단, base.org 홈으로 대신 HTTP 200 제목:Base"
+Coinbase,종목 목록,Base stocks,https://www.base.org/stocks,captures/Coinbase/list.png,2026-11-16 15:16,HTTP 200 제목:Base
+Coinbase,주문,Base markets stocks,https://www.base.org/markets/stocks,captures/Coinbase/order.png,2026-11-16 15:16,HTTP 200 제목:Tokenized Stocks | Base Markets
+BlueOcean,logo,로고,https://blueocean-tech.io,captures/BlueOcean/logo.png,2026-11-16 15:16,HTTP 200 제목:Blue Ocean Technologies LLC
+BlueOcean,홈,홈,https://blueocean-tech.io,captures/BlueOcean/home.png,2026-11-16 15:17,HTTP 200 제목:Blue Ocean Technologies LLC
+BlueOcean,안내1,Blue Ocean ATS 안내(거래시간 포함),https://blueocean-tech.io/blue-ocean-ats/,captures/BlueOcean/info1.png,2026-11-16 15:17,HTTP 200 제목:Blue Ocean ATS – Blue Ocean Technologies LLC
+BlueOcean,안내2,구독자 가입 안내,https://blueocean-tech.io/sign-up/,captures/BlueOcean/info2.png,2026-11-16 15:17,HTTP 200 제목:Sign Up – Blue Ocean Technologies LLC
+Bruce,logo,로고,https://brucemarkets.com,captures/Bruce/logo.png,2026-11-16 15:17,HTTP 200 제목:Bruce Markets: Institutional-Grade Overnight Tradi
+Bruce,홈,홈,https://brucemarkets.com,captures/Bruce/home.png,2026-11-16 15:17,HTTP 200 제목:Bruce Markets: Institutional-Grade Overnight Tradi
+Bruce,안내1,Bruce ATS 안내,https://www.brucemarkets.com/bruce-ats,captures/Bruce/info1.png,2026-11-16 15:17,HTTP 200 제목:Bruce ATS — Overnight Trading System | Bruce Marke
+Bruce,안내2,파트너와 참가자 안내,https://www.brucemarkets.com/partners-participants,captures/Bruce/info2.png,2026-11-16 15:17,HTTP 200 제목:Partners & Participants — Bruce Markets
+MOON,logo,로고,https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:18,"실패:Page.goto: Timeout 20000ms exceeded.
 Call log:
-  - navigating to ""https://www.otcmarkets.com/market-"
-MOON,홈,MOON 페이지,https://www.otcmarkets.com/market-activity/moon,,2026-11-16 15:10,"실패:Page.goto: Timeout 30000ms exceeded.
+  - navigating to ""https://www.otcmarkets.com/otc-lin"
+MOON,홈,MOON 페이지,https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:18,"실패:Page.goto: Timeout 20000ms exceeded.
 Call log:
-  - navigating to ""https://www.otcmarkets.com/market-"
-MOON,안내1,거래시간 안내,https://www.otcmarkets.com/markets/otc-markets-moon,,2026-11-16 15:11,"실패:Page.goto: Timeout 30000ms exceeded.
+  - navigating to ""https://www.otcmarkets.com/otc-lin"
+MOON,안내1,거래시간 안내,https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:18,"실패:Page.goto: Timeout 20000ms exceeded.
 Call log:
-  - navigating to ""https://www.otcmarkets.com/markets"
-MOON,안내2,구독자 안내,https://www.otcmarkets.com/overnight,,2026-11-16 15:11,"실패:Page.goto: Timeout 30000ms exceeded.
+  - navigating to ""https://www.otcmarkets.com/otc-lin"
+MOON,안내2,구독자 안내,https://www.otcmarkets.com/otc-link/moon-overnight,,2026-11-16 15:19,"실패:Page.goto: Timeout 20000ms exceeded.
 Call log:
-  - navigating to ""https://www.otcmarkets.com/overnig"
+  - navigating to ""https://www.otcmarkets.com/otc-lin"

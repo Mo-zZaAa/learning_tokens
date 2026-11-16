@@ -32,10 +32,10 @@
     ③ 해석 : 큰 곳은 발행부터 결제까지의 수직 통합. 그래서 xStocks 발행사 Backed 인수
   ![발언 2](../captures/quotes/Kraken_4.png)
 ● 발언 3 : 규제 시장과 블록체인을 잇는다 [F-1044]
-  ★ Arjun Sethi(Payward, Kraken 공동 CEO), Nasdaq 제휴 발표, 2026-03-09, https://blog.kraken.com/news/payward-partners-with-nasdaq [F-1044]
+  ★ Arjun Sethi(Payward, Kraken 공동 CEO), Nasdaq(미국 증권거래소) 제휴 발표, 2026-03-09, https://blog.kraken.com/news/payward-partners-with-nasdaq [F-1044]
     ① 원문 : "With xStocks, our goal is to make equities natively interoperable across trading venues, financial applications and blockchain networks while preserving issuer rights regulatory protections and price integrity."
     ② 번역 : xStocks로 주식을 거래소, 금융 앱, 블록체인 사이에서 기본적으로 상호운용되게 하되 발행자 권리, 규제 보호, 가격 무결성을 지키는 것이 목표다.
-    ③ 해석 : 큰 곳은 허가형 시장과 블록체인의 연결. 그래서 Nasdaq(미국 증권거래소)과 연결 통로 개발
+    ③ 해석 : 큰 곳은 허가형 시장과 블록체인의 연결. 그래서 Nasdaq과 연결 통로 개발
   ![발언 3](../captures/quotes/Kraken_5.png)
 ● 발언 4 : 다음은 해외 주요 주식이다 [F-1045]
   ★ Val Gui(xStocks 총괄), Kraken 블로그 xStocks 100종 돌파, 2026-03-18, https://blog.kraken.com/product/xstocks/celebrating-100-xstocks [F-1045]
@@ -62,7 +62,7 @@
 ● 발행 주체와 보관
   ★ 발행 : Backed 저지 법인, 2024년 설립 [F-0935]
   ★ 토큰 수만큼 기초주식을 담보로 1:1 보유 의무 [F-0955]
-  ★ 보관 : InCore Bank(스위스 은행), Alpaca(미국), GTN Europe(영국) [F-0964]
+  ★ 보관 : InCore Bank(스위스 은행), Alpaca(미국 중개사), GTN Europe(영국 중개사) [F-0964]
   ★ 담보대리인이 투자자 직접 대리인으로 질권 보유 [F-0963]
 ● 투자자 권리
   ★ 배당은 현금 대신 토큰 수량 증가로 재투자 [F-0398]
