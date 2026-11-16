@@ -1,0 +1,7 @@
+"주체","주체 유형","대상","대상 유형","관계 종류","지분율","금액","시점","상태","회사가 밝힌 목적","source_id","링크","검증 상태"
+"Coinbase","회사 표기 발행 주체","Alpaca","법인","사업 제휴","","","","운영 중","규제된 브로커 겸 보관기관으로서 파산 격리 구조로 주식 보관","SITE-Coinbase-S01","https://base.org/stocks","단일 출처"
+"Coinbase","회사 표기 발행 주체","Chainlink","프로토콜","사업 제휴","","","","운영 중","주식 가격 피드 제공(Total Return Values)","SITE-Coinbase-S02","https://docs.base.org/base-chain/asset-issuance/tokenized-stocks-on-base","1차 출처 확인"
+"Coinbase Technologies, Inc.","법인","Coinbase Sequencer(Base)","서비스","사업 제휴","","","","운영 중","Base 거래를 받고 기록하고 보고하는 노드 운영(약관상 비수탁)","SITE-Coinbase-S03","https://docs.base.org/terms-of-service","1차 출처 확인"
+"Coinbase","회사","Circle","법인","사업 제휴","","","2018-09","운영 중","USDC 출시(블로그가 비교 사례로 언급)","SITE-Coinbase-S04","https://www.base.org/blog/tokenized-stocks","1차 출처 확인"
+"Coinbase","회사 표기 발행 주체","Authorized Participants(기관 마켓메이커)","법인군","발행과 유통 위탁","","","","운영 중","KYC 마친 AP가 주식을 사서 토큰을 민팅하고 상환","SITE-Coinbase-S04","https://www.base.org/blog/tokenized-stocks","1차 출처 확인"
+"Base","체인","Aave, Morpho","프로토콜","사업 제휴","","","","운영 중","Base가 상업적 관계가 있다고 밝힘(토큰화 주식 담보 대출과 전략)","SITE-Coinbase-S12","https://www.base.org/markets/stocks/mstrc","단일 출처"

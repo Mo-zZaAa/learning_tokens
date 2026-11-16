@@ -56,6 +56,24 @@ Classic Stock Tokens,Classic Stock Tokens,2026-10 실적 발표에서 기존 EEA
 발행과 유통 분리,Separation of issuance and distribution,"자기가 발행, 인수, 주선한 증권을 자기 유통 플랫폼에서 거래시키지 못하게 하는 원칙",해외 사업자의 발행부터 거래까지 한 회사 구조와 정면으로 다름,자기계약 금지,"분리 원칙은 상품 단위, 자기계약 금지는 거래 상대방 단위","금융위 정비방안(2023.2.6.), 하위법규 조문 미확인",KR-2-S07
 외국인 통합계좌,Omnibus account,글로벌 운용사나 증권사 명의로 여러 최종투자자 주문을 한 계좌에서 처리,외국인이 국내 토큰증권에 투자하는 경로,외국인 투자자 등록,"등록제는 2023.12.14. 폐지, LEI 또는 여권번호로 바로 계좌 개설","자본시장법 제168조, 시행령",KR-2-S12
 외화증권,Foreign currency securities,외국환거래법 제3조제1항제8호의 증권. 국내 증권사가 해외 증권을 다룰 때의 기본 용어,해외 토큰증권을 국내 투자자에게 중개하는 경로,외국 집합투자증권,외국 펀드는 별도 특례(금투업규정 제7편 제9장),금융투자업규정 제5-30조,KR-2-S06
+bStocks,bStocks,Binance가 ADGM 승인 투자설명서로 공개한 Digital Securities. 종목 티커는 기초 티커 뒤에 B를 붙임,Binance의 토큰증권 핵심 상품,Binance 거래소의 일반 가상자산 현물,"bStocks는 투자설명서와 공시가 있는 증권형, 일반 코인은 해당 없음","토큰증권(전자증권법상 발행, 자본시장법상 투자계약증권과 비교)",SITE-Binance-S02
+BTech Holdings,BTech Holdings,투자설명서 제목에 발행 주체로 표기된 법인. 정식 법인명과 Binance와의 관계는 사이트에 없음,발행 주체 파악,Binance 거래소 운영 법인,발행 주체와 거래소 운영 주체의 분리 여부가 핵심. 외부 자료에서 확인(EXT-Binance-001),발행인,SITE-Binance-S05
+Digital Securities,Digital Securities,사이트가 bStocks를 부르는 이름,법적 성격 표기,Certificate,"사이트는 Digital Securities, 외부 법적 분류는 Certificate(EXT-Binance-002)",토큰증권,SITE-Binance-S02
+Outstanding Certificates 공시,Disclosure on Outstanding Certificates,주 단위로 게시하는 bStocks 발행 잔량 공시,발행량과 담보 확인 수단,기업행위 공시,"잔량 공시는 수량, 기업행위 공시는 배당, 분할 등 사건","발행 잔고 공시, 예탁 잔고 확인",SITE-Binance-S03
+기업행위 공시,Disclosure on corporate action,"기초 주식의 배당, 분할 등 사건이 bStocks에 미치는 영향을 알리는 공시",권리 처리 방식 파악,Outstanding Certificates 공시,"기업행위는 사건, 잔량은 수량","권리 행사, 배당 처리 공시",SITE-Binance-S03
+거래 편입 통지,Admission to Trading Notice,종목을 거래 대상으로 편입한다는 통지,거래 개시 시점과 종목 단위 확인,청산 편입 통지,거래 가능 시점 대 청산 가능 시점,상장 공시,SITE-Binance-S07
+청산 편입 통지,Admission to Clearing Notice,종목을 청산 대상으로 편입한다는 통지,청산 단계가 별도로 공지됨을 보여줌,거래 편입 통지,청산 단계의 편입은 거래와 별도 통지,청산 대상 지정,SITE-Binance-S04
+ADGM FSRA,Abu Dhabi Global Market Financial Services Regulatory Authority,아부다비 글로벌 마켓의 금융서비스 규제기관. 사이트는 이 기관 규제를 받는다고 표기,인가 표기와 투자설명서 승인 기관,ADGM 자체,"ADGM은 금융자유구역, FSRA는 규제기관","금융위원회, 금융감독원에 대응하는 규제 주체(관할 구역이 다름)",SITE-Binance-S01
+CNV VAS 등록,CNV Registry of Virtual Asset Service Providers,아르헨티나 증권위원회의 가상자산서비스제공자 등록부. 사이트는 라이선스나 감독이 아니라고 명시,등록과 인가의 차이 사례,인가(license),"등록은 자금세탁 통제 목적, 인가는 영업 허가",특정금융정보법상 가상자산사업자 신고,SITE-Binance-S10
+US Plea Agreements,US Plea Agreements,미국 법원 판결과 FinCEN 동의 명령을 합친 개인정보 고지상의 정의,준법 감독 부담 확인,제재 유무,감독인과의 정보 공유 의무가 약관에 반영됨,해당 없음(해외 형사 합의),SITE-Binance-S12
+배수,multiplier,토큰 한 개가 주식 몇 주에 해당하는지를 나타내는 온체인 값. 배당과 분할이 토큰 수량 대신 배수로 반영됨,배당과 분할 처리 방식이 한국 토큰증권 설계와 다름,리베이스 토큰,수량이 변하지 않고 환산비만 변함,주식 분할과 배당 처리(예탁결제원 권리 배정),SITE-Coinbase-S06
+승인 참여자,Authorized Participant(AP),KYC를 마치고 토큰을 직접 발행(민팅)하고 상환할 수 있는 기관 파트너. 주로 기관 마켓메이커,1차 시장과 2차 시장의 경계,일반 이용자,AP만 KYC를 거치고 2차 시장은 허가 없이 거래,"발행인과 인수인, 유통 주선",SITE-Coinbase-S04
+파산 격리,bankruptcy-remote,발행사나 중개사가 파산해도 기초자산이 채권자 청구 대상에서 분리되도록 보관하는 구조,1:1 뒷받침 주장의 핵심,분리 보관,법적 격리 여부는 실제 약정과 관할에 따라 달라 사이트 표기만으로 확인 불가,"투자자 예탁금 별도 예치, 신탁",SITE-Coinbase-S01
+Policy Registry,Policy Registry,전송 허용과 거부 규칙(정책)을 모아 두고 여러 토큰이 같은 정책을 참조하게 하는 공유 저장소,전송 제한을 온체인에서 집행하는 방식,화이트리스트,정책 하나를 여러 토큰이 공유,전송 제한 토큰증권의 양도 제한,SITE-Coinbase-S06
+동결과 압류,freeze and seize,관리자가 정책에 걸린 주소의 토큰을 동결하거나 승인된 주소로 옮기는 기능,법적 요건 충족을 위해 넣었다고 사이트가 밝힘,일시정지,"일시정지는 함수 단위, 동결과 압류는 주소 단위",계좌관리기관의 강제 처분 집행,SITE-Coinbase-S06
+총수익 가격 피드,Total Return Values feed,배당 등 기업행위를 반영해 주가 대신 총수익을 보고하는 Chainlink 가격 피드,토큰 가격과 담보 평가에 쓰임,시장가 피드,배수가 이미 반영된 값,,SITE-Coinbase-S02
+Coinbase Sequencer,Coinbase Sequencer,Coinbase가 운영하며 Base 거래를 받고 기록하고 보고하는 노드. 사용자 자산을 보관하지 않는다고 약관이 명시,Base 체인 운영의 중앙 지점,검증자,Base는 optimistic rollup이고 시퀀서가 주문 담당,,SITE-Coinbase-S03
+Aave V4 담보,Aave V4 collateral,토큰화 주식을 맡기고 USDC를 빌리는 DeFi 대출. Base Markets가 담보 사용 금액과 금리를 표시,주식 토큰의 DeFi 활용 규모 지표,Morpho vault,"Aave는 대출 시장, Morpho와 Superform은 전략 vault",증권담보대출(참고),SITE-Coinbase-S07
 dShares,dShares,기초 증권에 1:1로 담보된 Dinari의 토큰,Dinari 사업의 핵심 상품. 법적 성격이 지역과 법인에 따라 다르게 서술됨,주식 예탁증서(DR),"DR은 발행사나 예탁기관이 발행, dShares는 브로커딜러와 수탁 브로커가 보유한 주식을 토큰으로 기록","주식 예탁증서, 토큰증권(전자증권법상 발행 방식)",SITE-Dinari-S06
 2차 기록 토큰,secondary recordkeeping token,계좌의 주식 포지션을 블록체인에 따로 기록한 토큰. 별도 투자가 아니며 불일치 시 계좌 기록이 우선(미국 공시),미국 고객 dShares의 법적 성격 서술,별도 증권(docs FAQ),"미국 공시는 계좌 기록의 사본, FAQ는 별도 증권이라 표현",전자증권법상 전자등록부와 토큰의 관계,SITE-Dinari-S07
 완전공개 청산,fully disclosed clearing,청산 회사가 고객별 계좌를 알고 직접 장부를 관리하는 방식,Dinari Securities와 Alpaca의 역할 분담,옴니버스 청산,옴니버스는 고객 구분 없이 합산,"청산결제(예탁결제원, 증권사 위탁매매)",SITE-Dinari-S07
@@ -79,7 +97,6 @@ IPO access,IPO access,상장 전 기업의 토큰화 주식을 IPO 가격에 신
 Ondo Stocks,Ondo Stocks (구 Ondo Global Markets),미국 상장 주식과 ETF 가격을 따라가는 토큰을 미국 외 투자자에게 제공하는 서비스 이름. 사이트는 이전 명칭이 Ondo Global Markets라고 적는다,핵심 상품의 현재 이름과 옛 이름이 섞여 쓰임,Ondo Global Markets(GM) 토큰,같은 상품의 옛 이름과 새 이름. 개명 시점은 사이트에 없음,,SITE-Ondo-S15
 on 접미사,"""on"" suffix (예: TSLAon)",기초 종목 티커 뒤에 on을 붙인 토큰 이름,토큰이 주식 자체가 아니라 Ondo 발행 토큰임을 구분하는 표기,DR(예탁증서),DR은 원주 권리를 대표하나 이 토큰은 기초자산 보유 권리를 주지 않는다고 약관이 밝힘,증권예탁증권(DR). 같은 것이 아님,SITE-Ondo-S28
 구조화 노트,structured note,BVI 특수목적회사가 발행하는 채무 상품. 토큰 보유자 권리는 발행사 판매 약관(스위스법)에 따름,토큰화 주식의 법적 성격(주식이 아니라 발행사에 대한 채권),"주식, DR",주주 권리가 없고 발행사 채무 및 담보에 의존,"파생결합증권(ELS, DLS)과 비교 검토 대상(국내 분류는 확인 필요)",SITE-Ondo-S24
-파산 격리,bankruptcy-remote,"발행 SPV가 Ondo 운영 법인과 자산, 장부, 계정을 분리해 운영 법인 파산의 영향을 줄이는 설계",투자자 보호 구조의 핵심 주장(회사 서술),,회사가 밝힌 설계 목표이며 법원 판단은 사이트에 없음,,SITE-Ondo-S10
 Security Agent,Security Agent / Collateral Agent,담보권을 투자자를 위해 보유하고 담보 자산 존재를 검증하는 독립 수탁 대리인. 사이트는 Ankura Trust Company를 지명,담보 구조의 핵심 주체,신탁업자,,신탁법상 수탁자와 비교 필요(확인 필요),SITE-Ondo-S32
 USDon,USDon,Ondo Stocks 브로커리지 계좌의 미국 달러로 1:1 담보되는 스테이블코인. 토큰화 주식 매수와 상환의 결제 수단,결제 단계 구조,USDC,"USDC는 외부 스테이블코인, USDon은 플랫폼 내 결제용. 둘 사이 전환은 기본적으로 허용 목록(whitelist) 필요",,SITE-Ondo-S17
 Off-Hours 세션,Off-Hours session,"기초 미국 시장이 닫힌 시간(주말, 공휴일)에 선택된 자산만 거래하는 별도 세션. 자산별 한도와 넓은 스프레드",거래시간 24/5와 24/7의 구분,오버나이트 세션,"오버나이트는 평일 8:05pm-3:55am ET, Off-Hours는 기초 시장 휴장 때",,SITE-Ondo-S26

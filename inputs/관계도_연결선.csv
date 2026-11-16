@@ -1,0 +1,29 @@
+주는 쪽 또는 사는 쪽,받는 쪽 또는 팔린 쪽,방향 있음,관계,내용,출처 이름,링크
+nasdaq,payward,1,"제휴 2026.3, 투자 2026.9","Nasdaq는 자금 1억 달러와 시장 감시 기술을, Payward는 xStocks 틀과 24시간 체결 능력을 제공. Nasdaq 주식 토큰은 2027년 2분기 출시 목표.",Ledger Insights,https://www.ledgerinsights.com/nasdaq-invests-100m-in-kraken-parent-targets-q2-2027-for-native-tokenized-equities/
+payward,backed,1,인수 (2025.12 발표),xStocks를 발행하던 회사를 사들여 발행을 내부로 가져옴.,Cointelegraph,https://cointelegraph.com/news/nasdaq-kraken-issuer-centric-tokenized-equities
+payward,ninja,1,인수 15억 달러 (2025),미국 선물 시장 진입 발판과 개인 선물 투자자 기반 확보.,The Block,https://www.theblock.co/post/397890/kraken-parent-payward-agrees-to-acquire-bitnomial-for-up-to-550-million
+payward,bitnomial,1,인수 (2026.5 완료),"미국 파생상품의 거래소, 청산소, 중개 자격 세 가지를 한 번에 확보. 최대 5.5억 달러.",Payward,https://www.payward.com/press-release/payward-completes-acquisition-of-bitnomial-the-first-fully-cftc-licensed-crypto-native-derivatives-stack-in-the-us
+lse,payward,0,"제휴, 2027년 상장 계획",런던증권거래소가 2027년 새 거래 시장(LSE 24)에 xStocks를 올릴 계획. 규제 승인 전제.,crypto.news,https://crypto.news/payward-expands-kraken-with-2b-acquisition-push/
+alpaca,payward,1,원주 보관과 청산,xStocks 뒤의 실제 미국 주식을 사고 맡아 두는 역할.,Alpaca,https://alpaca.markets/blog/alpaca-holds-94-market-share-of-tokenized-us-stocks-and-etfs-setting-global-standard-for-on-chain-markets/
+ondo,binance,1,주식 토큰 공급 (2026.2),"Ondo는 상품(주식 토큰 10종)을, Binance는 고객과 거래 화면을 제공. Binance가 2021년 중단 뒤 처음 다시 올린 주식 토큰.",The Block,https://www.theblock.co/post/391030/binance-brings-back-tokenized-stocks-via-ondo-finance-partnership
+binance,btech,1,자체 발행 (2026.6),Binance 계열 법인이 직접 발행(bStocks). 주주 권리는 없는 증서 형태.,Unlock Blockchain,https://www.unlock-bc.com/en/binance-bstocks-launch-puts-adgm-in-tokenized-securities-spotlight
+alpaca,binance,1,원주 보관,bStocks 뒤의 실제 주식을 맡아 둠.,DefiLlama,https://defillama.com/rwa/platform/bstocks?view=information
+coinbase,keystone,1,인수 추진 (2018),"증권으로 분류될 토큰을 다루려고 브로커딜러, ATS, 투자자문 자격을 가진 회사 3곳 인수를 추진.",Coinbase 블로그,https://medium.com/the-coinbase-blog/our-path-to-listing-sec-regulated-crypto-securities-a1724e13bb5a
+coinbase,cbspv,1,자체 발행 (2026.8),Coinbase가 지배하는 아부다비 법인이 주식 토큰을 발행. 미국인은 살 수 없음.,crypto.news,https://cryptonews.net/news/finance/33343684/
+alpaca,coinbase,1,원주 보관,Coinbase 주식 토큰 뒤의 실제 주식을 맡아 둠.,Galaxy,https://www.galaxy.com/insights/research/coinbase-tokenized-stocks-base-third-party-issuer-sec-innovation-exemption
+robinhood,bitstamp,1,인수 2억 달러 (2025),가상자산 라이선스 50여 개와 기관 고객 기반 확보.,CNBC,https://www.nbcsandiego.com/news/business/money-report/robinhoods-200-million-bitstamp-deal-takes-it-beyond-retail-trading/3838538/
+robinhood,wonderfi,1,인수 (2025),캐나다 가상자산 이용자 기반 확보.,CNBC,https://www.nbcsandiego.com/news/business/money-report/robinhoods-200-million-bitstamp-deal-takes-it-beyond-retail-trading/3838538/
+ondo,oasis,1,인수 (2025.10 완료),"미국에서 토큰증권을 중개하고, 거래시키고, 기록할 자격 세 가지를 인수로 확보.",The Block,https://www.theblock.co/post/373547/ondo-completes-acquisition-of-us-regulated-broker-oasis-pro
+ondo,blackrock,0,토큰 펀드 편입,Ondo 국채 토큰(OUSG)의 주된 편입 자산이 BlackRock 토큰 펀드(BUIDL)였음.,Ledger Insights,https://ledgerinsights.com/has-ondo-cracked-the-code-on-24-7-tokenized-money-market-fund-redemptions
+ondo,franklin,0,토큰 펀드 담보 편입,"Ondo가 Franklin 토큰 펀드를 자기 국채 토큰의 담보에 넣고, 그 펀드를 24시간 환매할 수 있게 받아 줌(2025.2).",Ledger Insights,https://ledgerinsights.com/has-ondo-cracked-the-code-on-24-7-tokenized-money-market-fund-redemptions
+securitize,blackrock,1,토큰 펀드 발행 대행,BlackRock 토큰 펀드(BUIDL)를 Securitize가 토큰으로 발행.,Four Pillars,https://research.4pillars.io/en/research/securitize-code-is-not-law-law-is-law
+ondo,kakao,0,MOU (2026.9.28),"카카오페이증권은 한국 주식 원주 조달 기반을, Ondo는 해외 유통망을 맡는 구도. 상품화 시점은 미정.",머니투데이,https://www.mt.co.kr/stock/2026/09/29/2026092916273597892
+dinari,kakao,0,MOU (2026.9.29),"카카오페이증권이 원주를 조달하면 Dinari와 1대1 발행과 상환, 주주 권리 반영을 검증(PoC). 상품화 시점은 미정.",머니투데이,https://www.mt.co.kr/stock/2026/09/29/2026092916273597892
+ondo,mirae,0,MOU,디지털자산 기반 투자상품과 토큰화 협력.,블록미디어,https://www.blockmedia.co.kr/archives/1106147
+alpaca,ondo,1,원주 매매와 보관,Ondo 주식 토큰 뒤의 실제 주식을 사고 맡아 둠.,Alpaca,https://alpaca.markets/blog/alpaca-holds-94-market-share-of-tokenized-us-stocks-and-etfs-setting-global-standard-for-on-chain-markets/
+dinari,tzero,0,제휴 (2026.7),"Dinari는 토큰화 기술을, tZERO는 중개, 수탁, 청산, 결제 인프라를 제공. 증권사가 주식 토큰을 팔 수 있는 운영 틀.",Crypto Briefing,https://cryptobriefing.com/dinari-and-tzero-partner-to-bring-tokenized-equities-to-broker-dealers/
+dinari,gemini,1,주식 토큰 공급 (2025.6),"Dinari는 주식 토큰을, Gemini는 유럽 고객과 거래 화면을 제공.",National Law Review,https://natlawreview.com/press-releases/update-gemini-list-dinaris-tokenized-us-equities-bringing-access-european
+alpaca,dinari,0,토큰화 망 협력 (2025.10),Alpaca 즉시 토큰화 망의 출범 협력사.,Business Wire,https://www.businesswire.com/news/home/20251001526080/en
+securitize,nyse,0,토큰증권 시장 협력,Securitize 계열 증권사가 NYSE 디지털 ATS에 처음 연결되는 증권사로 지정.,Markets Media,https://www.marketsmedia.com/securitize-tokenizes-own-public-stock-alongside-nyse-listing/
+securitize,kb,0,MOU (2026.9.23),국내 기관투자자 대상 토큰증권 사업 공동 추진.,메트로신문,https://www.metroseoul.co.kr/article/20260923500126
+kakao,siebert,0,MOU (2026.5),"카카오페이가 지분 20%를 가진 미국 증권사. 한국 주식을 토큰화해 미국 규제 아래 거래하는 방안, 2027년 상반기 미국 출시 목표.",노컷뉴스,https://nocutnews.co.kr/news/6552347

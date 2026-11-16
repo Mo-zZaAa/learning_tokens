@@ -51,61 +51,70 @@ Mirae Asset Global Investments,회사,Ondo Finance,회사,사업 제휴,,,2026,�
 "Robinhood Markets, Inc.",회사,"WonderFi(Bitbuy, Coinsquare)",회사,인수와 합병,"100%(완전 자회사 보도, 캐나다 달러 약 2.5억은 미확인)",약 180000000 USD(언론 표기),2026-06-01,운영 중,"캐나다 진출, 펀디드 고객 약 30만 추가",S-0120,https://www.kucoin.com/news/flash/robinhood-completes-180m-acquisition-of-wonderfi-to-expand-in-canada,단일 출처
 "Robinhood Markets, Inc.",회사,Rothera(Susquehanna International Group와 합작),합작회사,지분 투자,미확인,,2026,운영 중,"예측시장 사업, 분기 연환산 매출 1억 달러 초과",S-0108,https://finviz.com/news/409270/robinhood-reports-third-quarter-2026-results,1차 출처 확인
 Robinhood Chain,체인,Arbitrum 기술 스택,기술,사업 제휴,,,2026-07-01,운영 중,자체 이더리움 L2 구축,S-0115,https://cryptobriefing.com/robinhood-crypto-mainnet-eu-perps/,교차 확인
-"Dinari, Inc.",법인,"Dinari Securities, LLC",법인,모회사와 자회사,100%(회사 공시 wholly owned),,,운영 중,"브로커딜러 법인으로 미국 고객 계좌 운영, 기술은 모회사가 개발해 라이선스",S-0144,https://dinari.com/us/disclosures,"충돌 / 외부 BrokerCheck 직접 소유주는 Dinari Holdings, LLC(EXT-Dinari-006)"
-Alpaca Securities LLC,법인(청산 브로커딜러),"Dinari Securities, LLC",법인,사업 제휴,,,,운영 중,"완전공개 청산, 수탁, 주문 집행",S-0144,https://dinari.com/us/disclosures,단일 출처
-tZERO,법인,"Dinari, Inc.",법인,사업 제휴,,,2026-07-08,발표,"브로커딜러용 토큰화 주식 단일 연동(tZERO가 브로커리지, 수탁, 청산, 결제 제공)",S-0182,https://dinari.com/blog/dinari-and-tzero-partner,단일 출처 / 외부 미열람(EXT-Dinari handover_questions)
-Flow Traders,법인,"Dinari, Inc.",법인,사업 제휴,,,2025-12,운영 중,장외 시간 24/7 유동성 공급(시장조성),S-0167,https://dinari.com/case-studies/flow-traders,단일 출처 / EXT-Dinari-023 단일 출처
-Broadridge,법인,"Dinari, Inc.",법인,사업 제휴,,,2026-11-05,발표,dShares 보유자 위임장 투표 연동,S-0188,https://dinari.com/blog/broadridge-and-dinari-partner-to-bring-proxy-voting-to-dshares,단일 출처
-카카오페이증권,법인,"Dinari, Inc.",법인,사업 제휴,,,2026-09,발표,"한국 상장주식 토큰화 PoC와 해외 접근 방안 탐색, 공동 태스크포스",S-0187,https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities,"교차 확인 / 외부 확인됨(EXT-Dinari-016~018): 체결일 2026-09-29, 탐색 단계 MOU"
-"Gemini, BitGo, VanEck",법인,"Dinari, Inc.",법인,사업 제휴,,,2025-08,운영 중,Dinari Financial Network 초기 validator와 인프라 파트너,S-0179,https://dinari.com/blog/dinari-launches-the-dinari-financial-network-an-omni-chain-orderbook-powered-by-avalanche,단일 출처
-Bitcoin.com,법인,"Dinari, Inc.",법인,사업 제휴,,,2026-05-14,운영 중,"지갑에서 토큰화 미국 주식, ETF 거래(Embedded Trading App)",S-0180,https://dinari.com/blog/bitcoincom-and-dinari-bring-tokenized-equities-and-etfs-to-global-investors,단일 출처
-S&P Dow Jones Indices,법인,"Dinari, Inc.",법인,사업 제휴,,,,운영 중,S&P Digital Markets 50 지수 토큰 공동 개발,S-0180,https://dinari.com/blog/bitcoincom-and-dinari-bring-tokenized-equities-and-etfs-to-global-investors,단일 출처 / 회사 서술(공동 개발)
-"Circle Internet Financial, LLC",법인,"Dinari, Inc.",법인,사업 제휴,,,2026-08,운영 중,USDC 입금과 실시간 결제,S-0144,https://dinari.com/us/disclosures,"충돌 / 공시는 제휴 관계 아님, docs와 블로그는 제휴. 외부 EXT-Dinari-019는 언론 서술"
-"Hack VC, Blockchange Ventures, VanEck Ventures, F-Prime, Blizzard 등",투자자,"Dinari, Inc.",법인,지분 투자,미공개,12.7백만 달러(누적 22.65),2025-05,발표,"토큰화 자산 확대, 기관 파트너 통합, 인프라 확장",S-0178,https://dinari.com/blog/12m-series-a-equities-onchain,"교차 확인 / 외부 확인됨(EXT-Dinari-013, 014)"
-"3kVC, SPEILLLP, 500 Global, Balaji Srinivasan, Sancus Ventures, Version One VC",투자자,"Dinari, Inc.",법인,지분 투자,미공개,"7.5백만 달러(시드, 후에 총 10)",2023-08,발표,미국 밖 dShare 플랫폼 출시,S-0173,https://dinari.com/blog/7-5m-in-seed-investments-and-ex-us-launch-of-dshare-platform,교차 확인 / 외부 확인됨(EXT-Dinari-010~012)
-Cadana,법인(유통 파트너),"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,"API 단일 연동으로 토큰화 미국 주식, ETF 제공",S-0164,https://dinari.com/case-studies/cadana,단일 출처 / 회사 사례 글
-Eldora,법인(유통 파트너),"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,"API 단일 연동으로 토큰화 미국 주식, ETF 제공",S-0165,https://dinari.com/case-studies/eldora,단일 출처 / 회사 사례 글
-Fasset,법인(유통 파트너),"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,"API 단일 연동으로 토큰화 미국 주식, ETF 제공",S-0166,https://dinari.com/case-studies/fasset,단일 출처 / 회사 사례 글
-Meru,법인(유통 파트너),"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,"API 단일 연동으로 토큰화 미국 주식, ETF 제공",S-0169,https://dinari.com/case-studies/meru,단일 출처 / 회사 사례 글
-Offramp,법인(유통 파트너),"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,"API 단일 연동으로 토큰화 미국 주식, ETF 제공",S-0170,https://dinari.com/case-studies/offramp,단일 출처 / 회사 사례 글
-Roxom,법인(유통 파트너),"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,"API 단일 연동으로 토큰화 미국 주식, ETF 제공",S-0171,https://dinari.com/case-studies/roxom,단일 출처 / 회사 사례 글
-RWAX Exchange,법인(유통 파트너),"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,"API 단일 연동으로 토큰화 미국 주식, ETF 제공",S-0172,https://dinari.com/case-studies/rwax-exchange,단일 출처 / 회사 사례 글
-Hyperliquid(HyperCore),플랫폼,"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,SpaceX dShare 현물 상장(허가 없는 환경),S-0168,https://dinari.com/case-studies/hyperliquid,단일 출처 / 회사 사례 글
-"Payward, Inc.",법인,Kraken Securities LLC,법인,모회사와 자회사,100%(wholly owned 표기),,,운영 중,FINRA/SIPC 회원 브로커리지 서비스 제공,S-0190,https://www.kraken.com/,1차 출처 확인
-"Payward, Inc.",법인,"Payward Interactive, Inc.",법인,모회사와 자회사,,,,운영 중,미국 고객 암호화폐 서비스(FinCEN 등록 money services business),S-0192,https://www.kraken.com/krak,1차 출처 확인
-"Payward, Inc.",법인,Krak,브랜드/하위 조직,모회사와 자회사,,,,운영 중,"금융기술 앱(은행 아님), 구조화 데이터에 subOrganization으로 표기",S-0189,https://www.kraken.com/legal,1차 출처 확인
-Backed Assets (JE) Limited,법인(저지),Payward Digital Solutions Ltd.,법인(버뮤다),발행과 유통 위탁,,,,운영 중,xStocks를 발행하고 PDSL이 적격 Kraken 고객에게 제공,S-0196,https://www.kraken.com/xstocks,1차 출처 확인
-Lead Bank,법인(은행),Krak,브랜드/하위 조직,사업 제휴,,,,운영 중,미국 고객용 Krak 체크카드 발행(Visa U.S.A. Inc. 라이선스),S-0192,https://www.kraken.com/krak,1차 출처 확인
-"Payward Wallet, LLC",법인,Krak Vaults,상품,사업 제휴,,,,운영 중,Vaults를 비규제 상품으로 제공,S-0192,https://www.kraken.com/krak,1차 출처 확인
-CF Benchmarks,법인,Kraken,회사,모회사와 자회사,,,,운영 중,"디지털 자산 지수 제공(a Kraken company 표기, 직접 지분 구조는 미표기)",S-0205,https://www.kraken.com/institutions/asset-managers,단일 출처
-bunq,법인(은행),Kraken,회사,사업 제휴,,,,운영 중,Kraken Crypto-as-a-Service(Embed)로 앱 내 거래 출시,S-0203,https://www.kraken.com/institutions/banks,단일 출처
-Payward Oceanic Ltd.,법인,Kraken Institutional OTC,상품,사업 제휴,,,,운영 중,"OTC 현물, 파생, 대출 제공 법인으로 표기",S-0206,https://www.kraken.com/institutions/kraken-360,단일 출처
-Tulip HoldCo Ltd.,법인,Kraken(프로모션),회사,사업 제휴,,,2026-06,운영 중,우크라이나 컨퍼런스 프로모션과 예측 게임의 주최 법인. Kraken 그룹과의 지분 관계는 사이트에 없음,S-0198,https://www.kraken.com/legal/incrypted-conference-2026,단일 출처
-Ondo Finance Inc.,회사,Ondo Global Markets (BVI) Limited,회사,지분 투자,9.99%,,2026-11-16 열람 시점,운영 중,토큰화 서비스 제공(회사 서술),S-0233,https://docs.ondo.finance/ondo-stocks/legal-and-regulatory,교차 확인
-Flux Finance Inc.,회사,Ondo Global Markets (BVI) Limited,회사,지분 투자,90.01%,,2026-11-16 열람 시점,운영 중,,S-0233,https://docs.ondo.finance/ondo-stocks/legal-and-regulatory,교차 확인
-Ondo Foundation,재단,Flux Finance Inc.,회사,모회사와 자회사,100%,,2026-11-16 열람 시점,운영 중,Flux는 Ondo Foundation의 완전 자회사(회사 서술),S-0233,https://docs.ondo.finance/ondo-stocks/legal-and-regulatory,단일 출처
-"Flux Finance, Inc.",회사,Ondo Global Markets (BVI) Limited,회사,지분 투자,,,2026-11-16 열람 시점,운영 중,토큰 보유자 채무에 대한 추가 담보 자금 보증(회사 서술),S-0241,https://docs.ondo.finance/ondo-stocks/trust-and-transparency,단일 출처
-Ondo Finance Inc.,회사,Ondo I LP,회사,모회사와 자회사,,,2026-11-16 열람 시점,운영 중,Fund의 general partner의 단독 멤버(회사 서술). OUSG 발행 주체,S-0225,https://docs.ondo.finance/legal/ondo-summit-terms/keynote-disclaimers,1차 출처 확인
-"Ankura Trust Company, LLC",회사,Ondo Global Markets (BVI) Limited,회사,사업 제휴,,,2026-11-16 열람 시점,운영 중,Security Agent 및 담보 검증(Verification Agent),S-0238,https://docs.ondo.finance/ondo-stocks/secondary-market-restrictions,1차 출처 확인
-Persona,회사,Ondo Stocks,상품,사업 제휴,,,2026-11-16 열람 시점,운영 중,KYC/KYB 검증,S-0236,https://docs.ondo.finance/ondo-stocks/onboarding-and-kyc,1차 출처 확인
-"Nest Exchange Limited(Binance 운영, 사이트 서술)",회사,Ondo Stocks,상품,상장과 자금 조달,,,2026-11-16 열람 시점,운영 중,UAE에서 Digital Securities로 지칭되는 일부 Ondo Stocks의 거래 허용,S-0231,https://docs.ondo.finance/ondo-stocks/important-notes,단일 출처
-"Bitget, Trust Wallet, OKX, HTX Global, 1inch",회사,Ondo Stocks,상품,사업 제휴,,,2026-11-16 열람 시점,운영 중,출시 생태계 파트너(회사 서술),S-0237,https://docs.ondo.finance/ondo-stocks/overview,1차 출처 확인
-Broadridge Financial Solutions,회사,Ondo Finance,회사,사업 제휴,,,2026-04-28,운영 중,토큰화 주식과 ETF 보유자의 기초 주식 의결 선호 제출,S-0210,https://ondo.finance/,단일 출처
-"Kinexys by J.P. Morgan, Mastercard, Ripple",회사,Ondo Finance,회사,사업 제휴,,,2026-05-06,운영 중,"토큰화 미국 국채 펀드의 첫 국경 간, 은행 간 상환 시범",S-0210,https://ondo.finance/,단일 출처
-BlackRock,회사,Ondo Intelligent Portfolios,상품,사업 제휴,,,2026-09-24,운영 중,처음 출시된 세 포트폴리오가 BlackRock이 Ondo를 위해 개발한 전략에 기반(회사 서술),S-0210,https://ondo.finance/,단일 출처
-SBI Holdings,회사,Ondo Finance,회사,사업 제휴,,,2026-07-17,발표,일본 주식 온체인 제공(Ondo 인사이트 목록의 The Block 기사 제목 기준),S-0213,https://ondo.finance/insights,단일 출처
-Grvt,회사,Ondo Finance,회사,사업 제휴,,$100M(검토 중),2026-08-11,발표,USDY 포지션 검토(인사이트 목록의 The Block 기사 제목 기준),S-0213,https://ondo.finance/insights,단일 출처
-"Robinhood Markets, Inc.",법인,Robinhood Financial LLC,법인,모회사와 자회사,100%(약관 wholly owned),,,운영 중,중개 서비스 제공,S-0252,https://cdn.robinhood.com/assets/robinhood/legal/Robinhood%20Terms%20and%20Conditions.pdf,1차 출처 확인
-"Robinhood Markets, Inc.",법인,"Robinhood Securities, LLC",법인,모회사와 자회사,100%(약관 wholly owned),,,운영 중,청산 브로커딜러,S-0252,https://cdn.robinhood.com/assets/robinhood/legal/Robinhood%20Terms%20and%20Conditions.pdf,1차 출처 확인
-"Robinhood Markets, Inc.",법인,"Robinhood Europe, UAB",법인,모회사와 자회사,100%(약관 wholly owned),,,운영 중,EU 금융상품과 가상자산 서비스,S-0252,https://cdn.robinhood.com/assets/robinhood/legal/Robinhood%20Terms%20and%20Conditions.pdf,1차 출처 확인
-"Robinhood Markets, Inc.",법인,"Robinhood Credit, Inc.",법인,모회사와 자회사,100%(약관 wholly owned),,,운영 중,,S-0252,https://cdn.robinhood.com/assets/robinhood/legal/Robinhood%20Terms%20and%20Conditions.pdf,1차 출처 확인
-"Robinhood Markets, Inc.",법인,Robinhood Non-Custodial Ltd.,법인,모회사와 자회사,,,,운영 중,"케이맨 자회사, Robinhood Wallet 제공(지분율 원문 불명)",S-0244,https://investors.robinhood.com/node/16931/html,1차 출처 확인
-"Robinhood Markets, Inc.",법인,Robinhood Assets (Jersey) Limited,법인,발행과 유통 위탁,,,2026-07,운영 중,Stock Tokens 발행 주체. RHM과의 지분 관계는 10-Q 읽은 범위에서 명시 없음,S-0244,https://investors.robinhood.com/node/16931/html,1차 출처 확인(지분 관계는 미확인)
-"Robinhood Markets, Inc.",법인,Bitstamp Ltd.,법인,인수와 합병,100%(all outstanding equity),"224 백만 USD(인수일 공정가치, 전액 현금)",2025-06-02,운영 중,"EU, 영국, 아시아 확장 가속",S-0244,https://investors.robinhood.com/node/16931/html,1차 출처 확인
-"Robinhood Markets, Inc.",법인,WonderFi Technologies Inc.,법인,인수와 합병,100%(all outstanding equity),"178 백만 USD(인수일 공정가치, 전액 현금)",2026-06-01,운영 중,캐나다 확장 가속,S-0244,https://investors.robinhood.com/node/16931/html,1차 출처 확인
-"Robinhood Markets, Inc.",법인,TradePMR,법인,인수와 합병,100%(all outstanding equity),,2025-02-26,운영 중,RIA용 수탁 및 포트폴리오 운용 플랫폼,S-0244,https://investors.robinhood.com/node/16931/html,1차 출처 확인
-"Robinhood Markets, Inc.",법인,Rothera(Susquehanna International Group와 합작),합작법인,지분 투자,"(원문 지분율 미확인, 회사가 통제해 연결)",,2025-11,운영 중,MIAXdx 인수와 이벤트 계약 거래소 및 청산소 운영,S-0244,https://investors.robinhood.com/node/16931/html,1차 출처 확인
-Rothera,합작법인,MIAX Derivatives Exchange(MIAXdx),법인,인수와 합병,90%,,2026-01-20,운영 중,,S-0244,https://investors.robinhood.com/node/16931/html,1차 출처 확인
-"Robinhood Markets, Inc.",법인,J.P. Morgan Asset Management,법인,사업 제휴,,,,운영 중,EU 고객에 EUR Liquidity LVNAV 머니마켓펀드 접근 제공,S-0248,https://robinhood.com/eu/en/invest,단일 출처
-"Robinhood Markets, Inc.",법인,BNY,법인,사업 제휴,,,2026-04,운영 중,Trump Accounts 인프라 개발과 운영(BNY는 재무부 financial agent로 선정),S-0244,https://investors.robinhood.com/node/16931/html,1차 출처 확인
-"Robinhood Markets, Inc.",법인,The Nasdaq Stock Market LLC,거래소,상장과 자금 조달,,,,운영 중,Class A 보통주 HOOD 상장,S-0244,https://investors.robinhood.com/node/16931/html,1차 출처 확인
+BTech Holdings,법인,Binance(bStocks 게시 사이트),법인,발행과 유통 위탁,,,2026,"운영 중(투자설명서 게시 근거만, 사이트에 두 법인 관계 서술 없음)",bStocks 투자설명서의 발행 주체로 표기,S-0142,https://www.binance.com/en/about-legal/bstocks-digital-securities-documentation-prospectuses-circle,단일 출처
+Binance Services Latinoamérica S.A. de C.V.,법인,규제받는 현지 파트너(이름 미표기),법인,사업 제휴,,,2024-09,운영 중,법정화폐 거래를 규제받는 현지 파트너를 통해 처리,S-0147,https://www.binance.com/en/about-legal/Bonafide-InstantDiscountCampaign,1차 출처 확인
+Binance Barbados Limited,법인,Binance Wallet,서비스,사업 제휴,,,,운영 중,Binance Wallet 서비스를 가능하게 하는 법인,S-0149,https://www.binance.com/en/about-legal/binance-wallet-privacy-notice,1차 출처 확인
+Coinbase,회사 표기 발행 주체,Alpaca,법인,사업 제휴,,,,운영 중,규제된 브로커 겸 보관기관으로서 파산 격리 구조로 주식 보관,S-0154,https://base.org/stocks,단일 출처
+Coinbase,회사 표기 발행 주체,Chainlink,프로토콜,사업 제휴,,,,운영 중,주식 가격 피드 제공(Total Return Values),S-0155,https://docs.base.org/base-chain/asset-issuance/tokenized-stocks-on-base,1차 출처 확인
+"Coinbase Technologies, Inc.",법인,Coinbase Sequencer(Base),서비스,사업 제휴,,,,운영 중,Base 거래를 받고 기록하고 보고하는 노드 운영(약관상 비수탁),S-0156,https://docs.base.org/terms-of-service,1차 출처 확인
+Coinbase,회사,Circle,법인,사업 제휴,,,2018-09,운영 중,USDC 출시(블로그가 비교 사례로 언급),S-0157,https://www.base.org/blog/tokenized-stocks,1차 출처 확인
+Coinbase,회사 표기 발행 주체,Authorized Participants(기관 마켓메이커),법인군,발행과 유통 위탁,,,,운영 중,KYC 마친 AP가 주식을 사서 토큰을 민팅하고 상환,S-0157,https://www.base.org/blog/tokenized-stocks,1차 출처 확인
+Base,체인,"Aave, Morpho",프로토콜,사업 제휴,,,,운영 중,Base가 상업적 관계가 있다고 밝힘(토큰화 주식 담보 대출과 전략),S-0165,https://www.base.org/markets/stocks/mstrc,단일 출처
+"Dinari, Inc.",법인,"Dinari Securities, LLC",법인,모회사와 자회사,100%(회사 공시 wholly owned),,,운영 중,"브로커딜러 법인으로 미국 고객 계좌 운영, 기술은 모회사가 개발해 라이선스",S-0177,https://dinari.com/us/disclosures,"충돌 / 외부 BrokerCheck 직접 소유주는 Dinari Holdings, LLC(EXT-Dinari-006)"
+Alpaca Securities LLC,법인(청산 브로커딜러),"Dinari Securities, LLC",법인,사업 제휴,,,,운영 중,"완전공개 청산, 수탁, 주문 집행",S-0177,https://dinari.com/us/disclosures,단일 출처
+tZERO,법인,"Dinari, Inc.",법인,사업 제휴,,,2026-07-08,발표,"브로커딜러용 토큰화 주식 단일 연동(tZERO가 브로커리지, 수탁, 청산, 결제 제공)",S-0215,https://dinari.com/blog/dinari-and-tzero-partner,단일 출처 / 외부 미열람(EXT-Dinari handover_questions)
+Flow Traders,법인,"Dinari, Inc.",법인,사업 제휴,,,2025-12,운영 중,장외 시간 24/7 유동성 공급(시장조성),S-0200,https://dinari.com/case-studies/flow-traders,단일 출처 / EXT-Dinari-023 단일 출처
+Broadridge,법인,"Dinari, Inc.",법인,사업 제휴,,,2026-11-05,발표,dShares 보유자 위임장 투표 연동,S-0221,https://dinari.com/blog/broadridge-and-dinari-partner-to-bring-proxy-voting-to-dshares,단일 출처
+카카오페이증권,법인,"Dinari, Inc.",법인,사업 제휴,,,2026-09,발표,"한국 상장주식 토큰화 PoC와 해외 접근 방안 탐색, 공동 태스크포스",S-0220,https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities,"교차 확인 / 외부 확인됨(EXT-Dinari-016~018): 체결일 2026-09-29, 탐색 단계 MOU"
+"Gemini, BitGo, VanEck",법인,"Dinari, Inc.",법인,사업 제휴,,,2025-08,운영 중,Dinari Financial Network 초기 validator와 인프라 파트너,S-0212,https://dinari.com/blog/dinari-launches-the-dinari-financial-network-an-omni-chain-orderbook-powered-by-avalanche,단일 출처
+Bitcoin.com,법인,"Dinari, Inc.",법인,사업 제휴,,,2026-05-14,운영 중,"지갑에서 토큰화 미국 주식, ETF 거래(Embedded Trading App)",S-0213,https://dinari.com/blog/bitcoincom-and-dinari-bring-tokenized-equities-and-etfs-to-global-investors,단일 출처
+S&P Dow Jones Indices,법인,"Dinari, Inc.",법인,사업 제휴,,,,운영 중,S&P Digital Markets 50 지수 토큰 공동 개발,S-0213,https://dinari.com/blog/bitcoincom-and-dinari-bring-tokenized-equities-and-etfs-to-global-investors,단일 출처 / 회사 서술(공동 개발)
+"Circle Internet Financial, LLC",법인,"Dinari, Inc.",법인,사업 제휴,,,2026-08,운영 중,USDC 입금과 실시간 결제,S-0177,https://dinari.com/us/disclosures,"충돌 / 공시는 제휴 관계 아님, docs와 블로그는 제휴. 외부 EXT-Dinari-019는 언론 서술"
+"Hack VC, Blockchange Ventures, VanEck Ventures, F-Prime, Blizzard 등",투자자,"Dinari, Inc.",법인,지분 투자,미공개,12.7백만 달러(누적 22.65),2025-05,발표,"토큰화 자산 확대, 기관 파트너 통합, 인프라 확장",S-0211,https://dinari.com/blog/12m-series-a-equities-onchain,"교차 확인 / 외부 확인됨(EXT-Dinari-013, 014)"
+"3kVC, SPEILLLP, 500 Global, Balaji Srinivasan, Sancus Ventures, Version One VC",투자자,"Dinari, Inc.",법인,지분 투자,미공개,"7.5백만 달러(시드, 후에 총 10)",2023-08,발표,미국 밖 dShare 플랫폼 출시,S-0206,https://dinari.com/blog/7-5m-in-seed-investments-and-ex-us-launch-of-dshare-platform,교차 확인 / 외부 확인됨(EXT-Dinari-010~012)
+Cadana,법인(유통 파트너),"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,"API 단일 연동으로 토큰화 미국 주식, ETF 제공",S-0197,https://dinari.com/case-studies/cadana,단일 출처 / 회사 사례 글
+Eldora,법인(유통 파트너),"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,"API 단일 연동으로 토큰화 미국 주식, ETF 제공",S-0198,https://dinari.com/case-studies/eldora,단일 출처 / 회사 사례 글
+Fasset,법인(유통 파트너),"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,"API 단일 연동으로 토큰화 미국 주식, ETF 제공",S-0199,https://dinari.com/case-studies/fasset,단일 출처 / 회사 사례 글
+Meru,법인(유통 파트너),"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,"API 단일 연동으로 토큰화 미국 주식, ETF 제공",S-0202,https://dinari.com/case-studies/meru,단일 출처 / 회사 사례 글
+Offramp,법인(유통 파트너),"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,"API 단일 연동으로 토큰화 미국 주식, ETF 제공",S-0203,https://dinari.com/case-studies/offramp,단일 출처 / 회사 사례 글
+Roxom,법인(유통 파트너),"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,"API 단일 연동으로 토큰화 미국 주식, ETF 제공",S-0204,https://dinari.com/case-studies/roxom,단일 출처 / 회사 사례 글
+RWAX Exchange,법인(유통 파트너),"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,"API 단일 연동으로 토큰화 미국 주식, ETF 제공",S-0205,https://dinari.com/case-studies/rwax-exchange,단일 출처 / 회사 사례 글
+Hyperliquid(HyperCore),플랫폼,"Dinari, Inc.",법인,발행과 유통 위탁,,,,운영 중,SpaceX dShare 현물 상장(허가 없는 환경),S-0201,https://dinari.com/case-studies/hyperliquid,단일 출처 / 회사 사례 글
+"Payward, Inc.",법인,Kraken Securities LLC,법인,모회사와 자회사,100%(wholly owned 표기),,,운영 중,FINRA/SIPC 회원 브로커리지 서비스 제공,S-0223,https://www.kraken.com/,1차 출처 확인
+"Payward, Inc.",법인,"Payward Interactive, Inc.",법인,모회사와 자회사,,,,운영 중,미국 고객 암호화폐 서비스(FinCEN 등록 money services business),S-0225,https://www.kraken.com/krak,1차 출처 확인
+"Payward, Inc.",법인,Krak,브랜드/하위 조직,모회사와 자회사,,,,운영 중,"금융기술 앱(은행 아님), 구조화 데이터에 subOrganization으로 표기",S-0222,https://www.kraken.com/legal,1차 출처 확인
+Backed Assets (JE) Limited,법인(저지),Payward Digital Solutions Ltd.,법인(버뮤다),발행과 유통 위탁,,,,운영 중,xStocks를 발행하고 PDSL이 적격 Kraken 고객에게 제공,S-0229,https://www.kraken.com/xstocks,1차 출처 확인
+Lead Bank,법인(은행),Krak,브랜드/하위 조직,사업 제휴,,,,운영 중,미국 고객용 Krak 체크카드 발행(Visa U.S.A. Inc. 라이선스),S-0225,https://www.kraken.com/krak,1차 출처 확인
+"Payward Wallet, LLC",법인,Krak Vaults,상품,사업 제휴,,,,운영 중,Vaults를 비규제 상품으로 제공,S-0225,https://www.kraken.com/krak,1차 출처 확인
+CF Benchmarks,법인,Kraken,회사,모회사와 자회사,,,,운영 중,"디지털 자산 지수 제공(a Kraken company 표기, 직접 지분 구조는 미표기)",S-0238,https://www.kraken.com/institutions/asset-managers,단일 출처
+bunq,법인(은행),Kraken,회사,사업 제휴,,,,운영 중,Kraken Crypto-as-a-Service(Embed)로 앱 내 거래 출시,S-0236,https://www.kraken.com/institutions/banks,단일 출처
+Payward Oceanic Ltd.,법인,Kraken Institutional OTC,상품,사업 제휴,,,,운영 중,"OTC 현물, 파생, 대출 제공 법인으로 표기",S-0239,https://www.kraken.com/institutions/kraken-360,단일 출처
+Tulip HoldCo Ltd.,법인,Kraken(프로모션),회사,사업 제휴,,,2026-06,운영 중,우크라이나 컨퍼런스 프로모션과 예측 게임의 주최 법인. Kraken 그룹과의 지분 관계는 사이트에 없음,S-0231,https://www.kraken.com/legal/incrypted-conference-2026,단일 출처
+Ondo Finance Inc.,회사,Ondo Global Markets (BVI) Limited,회사,지분 투자,9.99%,,2026-11-16 열람 시점,운영 중,토큰화 서비스 제공(회사 서술),S-0266,https://docs.ondo.finance/ondo-stocks/legal-and-regulatory,교차 확인
+Flux Finance Inc.,회사,Ondo Global Markets (BVI) Limited,회사,지분 투자,90.01%,,2026-11-16 열람 시점,운영 중,,S-0266,https://docs.ondo.finance/ondo-stocks/legal-and-regulatory,교차 확인
+Ondo Foundation,재단,Flux Finance Inc.,회사,모회사와 자회사,100%,,2026-11-16 열람 시점,운영 중,Flux는 Ondo Foundation의 완전 자회사(회사 서술),S-0266,https://docs.ondo.finance/ondo-stocks/legal-and-regulatory,단일 출처
+"Flux Finance, Inc.",회사,Ondo Global Markets (BVI) Limited,회사,지분 투자,,,2026-11-16 열람 시점,운영 중,토큰 보유자 채무에 대한 추가 담보 자금 보증(회사 서술),S-0274,https://docs.ondo.finance/ondo-stocks/trust-and-transparency,단일 출처
+Ondo Finance Inc.,회사,Ondo I LP,회사,모회사와 자회사,,,2026-11-16 열람 시점,운영 중,Fund의 general partner의 단독 멤버(회사 서술). OUSG 발행 주체,S-0258,https://docs.ondo.finance/legal/ondo-summit-terms/keynote-disclaimers,1차 출처 확인
+"Ankura Trust Company, LLC",회사,Ondo Global Markets (BVI) Limited,회사,사업 제휴,,,2026-11-16 열람 시점,운영 중,Security Agent 및 담보 검증(Verification Agent),S-0271,https://docs.ondo.finance/ondo-stocks/secondary-market-restrictions,1차 출처 확인
+Persona,회사,Ondo Stocks,상품,사업 제휴,,,2026-11-16 열람 시점,운영 중,KYC/KYB 검증,S-0269,https://docs.ondo.finance/ondo-stocks/onboarding-and-kyc,1차 출처 확인
+"Nest Exchange Limited(Binance 운영, 사이트 서술)",회사,Ondo Stocks,상품,상장과 자금 조달,,,2026-11-16 열람 시점,운영 중,UAE에서 Digital Securities로 지칭되는 일부 Ondo Stocks의 거래 허용,S-0264,https://docs.ondo.finance/ondo-stocks/important-notes,단일 출처
+"Bitget, Trust Wallet, OKX, HTX Global, 1inch",회사,Ondo Stocks,상품,사업 제휴,,,2026-11-16 열람 시점,운영 중,출시 생태계 파트너(회사 서술),S-0270,https://docs.ondo.finance/ondo-stocks/overview,1차 출처 확인
+Broadridge Financial Solutions,회사,Ondo Finance,회사,사업 제휴,,,2026-04-28,운영 중,토큰화 주식과 ETF 보유자의 기초 주식 의결 선호 제출,S-0243,https://ondo.finance/,단일 출처
+"Kinexys by J.P. Morgan, Mastercard, Ripple",회사,Ondo Finance,회사,사업 제휴,,,2026-05-06,운영 중,"토큰화 미국 국채 펀드의 첫 국경 간, 은행 간 상환 시범",S-0243,https://ondo.finance/,단일 출처
+BlackRock,회사,Ondo Intelligent Portfolios,상품,사업 제휴,,,2026-09-24,운영 중,처음 출시된 세 포트폴리오가 BlackRock이 Ondo를 위해 개발한 전략에 기반(회사 서술),S-0243,https://ondo.finance/,단일 출처
+SBI Holdings,회사,Ondo Finance,회사,사업 제휴,,,2026-07-17,발표,일본 주식 온체인 제공(Ondo 인사이트 목록의 The Block 기사 제목 기준),S-0246,https://ondo.finance/insights,단일 출처
+Grvt,회사,Ondo Finance,회사,사업 제휴,,$100M(검토 중),2026-08-11,발표,USDY 포지션 검토(인사이트 목록의 The Block 기사 제목 기준),S-0246,https://ondo.finance/insights,단일 출처
+"Robinhood Markets, Inc.",법인,Robinhood Financial LLC,법인,모회사와 자회사,100%(약관 wholly owned),,,운영 중,중개 서비스 제공,S-0285,https://cdn.robinhood.com/assets/robinhood/legal/Robinhood%20Terms%20and%20Conditions.pdf,1차 출처 확인
+"Robinhood Markets, Inc.",법인,"Robinhood Securities, LLC",법인,모회사와 자회사,100%(약관 wholly owned),,,운영 중,청산 브로커딜러,S-0285,https://cdn.robinhood.com/assets/robinhood/legal/Robinhood%20Terms%20and%20Conditions.pdf,1차 출처 확인
+"Robinhood Markets, Inc.",법인,"Robinhood Europe, UAB",법인,모회사와 자회사,100%(약관 wholly owned),,,운영 중,EU 금융상품과 가상자산 서비스,S-0285,https://cdn.robinhood.com/assets/robinhood/legal/Robinhood%20Terms%20and%20Conditions.pdf,1차 출처 확인
+"Robinhood Markets, Inc.",법인,"Robinhood Credit, Inc.",법인,모회사와 자회사,100%(약관 wholly owned),,,운영 중,,S-0285,https://cdn.robinhood.com/assets/robinhood/legal/Robinhood%20Terms%20and%20Conditions.pdf,1차 출처 확인
+"Robinhood Markets, Inc.",법인,Robinhood Non-Custodial Ltd.,법인,모회사와 자회사,,,,운영 중,"케이맨 자회사, Robinhood Wallet 제공(지분율 원문 불명)",S-0277,https://investors.robinhood.com/node/16931/html,1차 출처 확인
+"Robinhood Markets, Inc.",법인,Robinhood Assets (Jersey) Limited,법인,발행과 유통 위탁,,,2026-07,운영 중,Stock Tokens 발행 주체. RHM과의 지분 관계는 10-Q 읽은 범위에서 명시 없음,S-0277,https://investors.robinhood.com/node/16931/html,1차 출처 확인(지분 관계는 미확인)
+"Robinhood Markets, Inc.",법인,Bitstamp Ltd.,법인,인수와 합병,100%(all outstanding equity),"224 백만 USD(인수일 공정가치, 전액 현금)",2025-06-02,운영 중,"EU, 영국, 아시아 확장 가속",S-0277,https://investors.robinhood.com/node/16931/html,1차 출처 확인
+"Robinhood Markets, Inc.",법인,WonderFi Technologies Inc.,법인,인수와 합병,100%(all outstanding equity),"178 백만 USD(인수일 공정가치, 전액 현금)",2026-06-01,운영 중,캐나다 확장 가속,S-0277,https://investors.robinhood.com/node/16931/html,1차 출처 확인
+"Robinhood Markets, Inc.",법인,TradePMR,법인,인수와 합병,100%(all outstanding equity),,2025-02-26,운영 중,RIA용 수탁 및 포트폴리오 운용 플랫폼,S-0277,https://investors.robinhood.com/node/16931/html,1차 출처 확인
+"Robinhood Markets, Inc.",법인,Rothera(Susquehanna International Group와 합작),합작법인,지분 투자,"(원문 지분율 미확인, 회사가 통제해 연결)",,2025-11,운영 중,MIAXdx 인수와 이벤트 계약 거래소 및 청산소 운영,S-0277,https://investors.robinhood.com/node/16931/html,1차 출처 확인
+Rothera,합작법인,MIAX Derivatives Exchange(MIAXdx),법인,인수와 합병,90%,,2026-01-20,운영 중,,S-0277,https://investors.robinhood.com/node/16931/html,1차 출처 확인
+"Robinhood Markets, Inc.",법인,J.P. Morgan Asset Management,법인,사업 제휴,,,,운영 중,EU 고객에 EUR Liquidity LVNAV 머니마켓펀드 접근 제공,S-0281,https://robinhood.com/eu/en/invest,단일 출처
+"Robinhood Markets, Inc.",법인,BNY,법인,사업 제휴,,,2026-04,운영 중,Trump Accounts 인프라 개발과 운영(BNY는 재무부 financial agent로 선정),S-0277,https://investors.robinhood.com/node/16931/html,1차 출처 확인
+"Robinhood Markets, Inc.",법인,The Nasdaq Stock Market LLC,거래소,상장과 자금 조달,,,,운영 중,Class A 보통주 HOOD 상장,S-0277,https://investors.robinhood.com/node/16931/html,1차 출처 확인
