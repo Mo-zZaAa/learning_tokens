@@ -101,3 +101,13 @@
 - 경영진 발언: 회사당 3~4건, 원문 캡처는 `captures/quotes/`. Bruce 발언 3건은 언론에 전재된 회사 보도자료 문장이라 같은 보도자료의 1차 확인 사실 ID(F-0023, F-0025, F-0033)를 붙임. QUOTES-C 발언(F-1072~F-1079)은 단일 출처로 남음.
 - 화면: `captures/<회사>/`(로고, 가입, 종목 목록, 주문). 로그인 뒤 화면은 공개 화면으로 대신. Binance 주문 화면은 BTC/USDT로 연결되어 본문에서 뺌. Ondo 주문 화면은 지역 제한 화면이라 뺌. Coinbase는 base.org 화면.
 - 회사별 빈칸은 `work/V3-<회사>/gaps.md`.
+
+
+## 9. 웹 화면과 v4 (2026-11-16)
+- 화면: web/build.py → web/index.html, 게시 https://claude.ai/artifact/QnuzMo25ig3Qw9K7ACgFuJ. 설명과 메모 처리 순서는 web/README.md.
+- 본문 v4: companies/<회사>_v4.md 9개(check_body OK). 바뀐 줄은 work/V4/*_changes.md, ATS는 work/V4/*.patch.md.
+- 가로 비교: kb/cross.md, db/cross.csv, db/cross_ats.csv, db/ats_events.csv.
+- 공통 줄(1,636억, 18곳 재개, 증권신고서, 2027-02 시행)은 kb/regulation_compare.md 끝으로 옮김. ATS 행의 "전문투자자"는 거래참가자(증권사)라는 조문 해석으로 고침.
+- 내보내기: web/export.py → export/handoff_to_chat.zip.
+- tools/merge_db.py 버그 수정: MANUAL verdicts가 VER-*보다 먼저 읽혀 지던 문제. FIX-CO 판정은 work/VER-ZZ-FIXCO(마지막에 읽힘).
+- 남은 것: Coinbase 설립, 창업자, 미션 공식 문장(coinbase.com 403), Coinbase 선물 중개(NFA 미확인), Ondo EU 투자설명서 갱신(FMA PDF 목록 확인 필요), 2026-09 종목 중단 회사 직접 공지(삼성증권 410, Blue Ocean 404), "15개월"은 실제 14개월 19일이라 "약 15개월"로 씀.
