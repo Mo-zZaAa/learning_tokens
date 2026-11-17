@@ -297,6 +297,7 @@ body.noemph .em-n,body.noemph strong.em-b{font-weight:inherit;color:inherit}
 body.noemph .em-r{color:inherit;font-weight:inherit}
 body.noemph .em-h,body.noemph .row.claim .txt,body.noemph .row .lbl.key{background:none}
 /* 줄 번호 접기 */
+body.nodefn .row.defn{display:none}
 body.nonum .row{grid-template-columns:2.6em minmax(0,1fr)}
 body.nonum .num .dfull{display:none}
 body.nonum .num::after{content:"⋯";font-size:14px}
@@ -315,6 +316,7 @@ body.nonum .num::after{content:"⋯";font-size:14px}
   </div>
   <span class="spacer"></span>
   <button class="tbtn" id="btn-num" type="button" title="줄 번호(예: Kraken 카드-1) 보이기와 접기">줄 번호 보기</button>
+  <button class="tbtn" id="btn-defn" type="button" title="용어 뜻 줄(뜻 : ...)을 모두 접거나 펼침. 밑줄 친 용어는 눌러서 뜻을 볼 수 있음">뜻 접기</button>
   <button class="tbtn" id="btn-emph" type="button" title="숫자 굵게, 위험 낱말 빨강, 핵심 형광펜">강조 끄기</button>
   <button class="tbtn" id="btn-fold" type="button">모두 접기</button>
   <button class="tbtn" id="btn-xlsx" type="button" title="본문 9곳과 전체 그림, 메모를 엑셀로 저장(화면에서 고친 내용 포함)">엑셀 받기</button>
@@ -628,6 +630,7 @@ document.addEventListener('click', e => {
   const rk = t.closest('[data-relk]'); if (rk){ relKind = rk.dataset.relk; keepScroll(render); return; }
   const srcb = t.closest('[data-srcrow]'); if (srcb && !t.closest('a')){ const k = srcb.dataset.srcrow; openSrc.has(k) ? openSrc.delete(k) : openSrc.add(k); keepScroll(render); return; }
   if (t.closest('#btn-num')){ VIEW.num = !VIEW.num; applyView(); keepScroll(() => requestAnimationFrame(layoutRails)); return; }
+  if (t.closest('#btn-defn')){ VIEW.defn = !VIEW.defn; applyView(); keepScroll(() => requestAnimationFrame(layoutRails)); return; }
   if (t.closest('#btn-emph')){ VIEW.emph = !VIEW.emph; applyView(); return; }
   if (t.closest('#btn-xlsx')){ saveXlsx(); return; }
   if (t.closest('#btn-fold')){ allOpen = !allOpen; const c = CO[cur]; c.sections.forEach(s => { const k = cur + '/' + s.code; if (allOpen) closedSecs.delete(k); else closedSecs.add(k); }); t.closest('#btn-fold').textContent = allOpen ? '모두 접기' : '모두 펼치기'; render(); return; }
@@ -716,11 +719,13 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape'){ closePop();
 
 // ---------- 보기 설정(줄 번호 접기, 강조) ----------
 const VKEY = 'kdx-view-v1';
-let VIEW = {num: false, emph: true};
+let VIEW = {num: false, emph: true, defn: true};
 try{ Object.assign(VIEW, JSON.parse(localStorage.getItem(VKEY) || '{}')); }catch(e){}
 function applyView(){
   document.body.classList.toggle('nonum', !VIEW.num);
   document.body.classList.toggle('noemph', !VIEW.emph);
+  document.body.classList.toggle('nodefn', !VIEW.defn);
+  const bd = $('#btn-defn'); if (bd) bd.textContent = VIEW.defn ? '뜻 접기' : '뜻 펼치기';
   const bn = $('#btn-num'), be = $('#btn-emph');
   if (bn) bn.textContent = VIEW.num ? '줄 번호 접기' : '줄 번호 보기';
   if (be) be.textContent = VIEW.emph ? '강조 끄기' : '강조 켜기';
