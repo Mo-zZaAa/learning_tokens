@@ -30,6 +30,7 @@ COS = [
     ("robinhood", "Robinhood", "Robinhood"),
     ("dinari", "Dinari", "Dinari"),
     ("ondo", "Ondo", "Ondo"),
+    ("common", "6개사 공통", "__none__"),
 ]
 SLUGS = [c[0] for c in COS]
 # db/facts.csv의 회사 값 → slug (나머지 값은 이 화면의 회사가 아님)
