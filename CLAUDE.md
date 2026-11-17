@@ -11,6 +11,6 @@
 - 회사를 주식 토큰 순위로 평가하지 않는다. KDX 시사점은 자산, 고객, 시장, 거래 시설 운영 순서.
 - 긴 줄표, 가운뎃점, 구어체 금지.
 - 사용자 피드백 한 회차가 끝나면 playbook을 갱신한다.
-- 브리핑을 쓰기 전에 회사별 축(덩치를 키운 방식, 스토리라인 명제)을 axes.md로 승인받는다. 승인 전에는 brief 파일을 쓰지 않는다(writing_rules M절).
+- 브리핑을 쓰기 전에 회사별 축(덩치를 키운 방식)을 axes.md로 승인받는다. 승인 전에는 brief 파일을 쓰지 않는다(writing_rules M절).
 
 구조: companies/(본문), db/(사실 DB), kb/(지식 정리), web/(화면 build.py, export.py), discussion/(메모와 답), tools/(점검, 병합 도구), handoff.md(작업 인계).
