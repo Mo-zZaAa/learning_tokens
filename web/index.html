@@ -374,6 +374,7 @@ const EM_RED = /(금지|제외|중단|제재|벌금|과징금|소송|파산|해�
 function emph(s){
   return s.split(/(<[^>]+>)/).map(p => p.startsWith('<') ? p : p.replace(EM_NUM, '<span class="em-n">$1</span>').replace(/(<[^>]+>)|(금지|제외|중단|제재|벌금|과징금|소송|파산|해킹|위반|불가|리스크|사고|철수|손실|경고|기소|유죄)/g, (m, tag, w) => tag ? tag : `<span class="em-r">${w}</span>`)).join('');
 }
+const HIDE_LBL = new Set(['주장','한 줄 정체']);
 const KEY_LBL = /^(KSF|KSF 후보|가져올 것|피할 것|결론|핵심|KDX 시사점|리스크|주의)/;
 function stripMk(s){ return String(s||'').replace(/\*\*(.+?)\*\*/g,'$1').replace(/==(.+?)==/g,'$1').replace(/!!(.+?)!!/g,'$1'); }
 
@@ -441,7 +442,7 @@ function evHtml(r){
   if (!r.src || !r.src.length) return '<div class="ev"><p class="q" style="quotes:none">이 줄에 붙은 근거 문장이 없습니다.</p></div>';
   return '<div class="ev">' + r.src.map(s => `<div class="item">${s.q?`<p class="q">${esc(s.q)}</p>`:''}${s.e?`<p class="e">${esc(s.e)}</p>`:''}<p>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.t||s.url)}</a>`:esc(s.t)}</p></div>`).join('') + '</div>';
 }
-const MK = {b:'●', s:'★', q1:'①', q2:'②', q3:'③', d:'◦'};
+const MK = {b:'●', s:'•', q1:'①', q2:'②', q3:'③', d:'-'};
 const QLBL = {q1:'원문', q2:'번역', q3:'해석'};
 
 function rowHtml(c, r, hasKids){
@@ -461,6 +462,7 @@ function rowHtml(c, r, hasKids){
   } else {
     let t;
     if (edited){ t = withTerms(S.edits[r.id]); }
+    else if (r.label && HIDE_LBL.has(r.label)){ t = withTerms(r.text); }
     else if (r.label){ t = `<span class="lbl${KEY_LBL.test(r.label)?' key':''}">${withTerms(r.label)}</span> : ${withTerms(r.text)}`; }
     else t = withTerms(r.text);
     const link = r.link ? ` <span class="src"><a href="${esc(r.link)}" target="_blank" rel="noopener">원문 링크</a></span>` : '';
@@ -516,7 +518,7 @@ function railHtml(r){
   userMemos(r).forEach(m => { if (!LOG_BY_MEMO[m.mid]) cards.push({k: m.mid, type: m.type, text: m.text, st: memoStatus(m)}); });
   // 답이 달린 메모(답함, 합의, 보류)는 화면에서 없앰
   if (!cards.length) return '';
-  return '<div class="rail">' + cards.map(c => { const open = openCards.has(c.k); if (c.st === '합의' && !open) return `<div class="rdone" data-card="${esc(c.k)}" title="합의된 메모, 누르면 열림">✓</div>`; return `<div class="rcard t-${esc(c.type).replace(/ /g,'')}${open?' open':''}" data-card="${esc(c.k)}" tabindex="0" title="${esc(dispOf(r))} 줄의 메모"><div class="rh"><span class="rt">${esc(c.type)}</span><span class="st st-${c.st.replace(' ','')}">${esc(c.st)}</span></div><div class="rx"><b class="rt" style="margin-right:4px">${esc(c.type)}</b>${c.st==='답함'?'<span style="color:var(--accent);font-weight:700;margin-right:4px">답함</span>':''}${esc(c.text)}</div>${c.ans?`<div class="ra"><b>답</b> ${esc(c.ans)}</div>`:''}${open && c.g ? ((c.g.changes||[]).map(x => `<div class="ra"><span class="before">${esc(x.before||'')}</span> → <b>${esc(x.after||'')}</b></div>`).join('') + (c.st==='합의'?'':`<div class="acts"><button type="button" data-act="agree" data-g="${c.g._i}" data-lid="${r.id}">합의</button><button type="button" data-act="rechal" data-lid="${r.id}">다시 챌린지</button></div>`)) : ''}</div>`; }).join('') + '</div>';
+  return '<div class="rail">' + cards.map(c => { const open = openCards.has(c.k); if (c.st === '합의' && !open) return `<div class="rdone" data-card="${esc(c.k)}" title="합의된 메모, 누르면 열림">✓</div>`; return `<div class="rcard t-${esc(c.type).replace(/ /g,'')}${open?' open':''}" data-card="${esc(c.k)}" tabindex="0" title="${esc(dispOf(r))} 줄의 메모"><div class="rh"><span class="rt">${esc(c.type)}</span><span class="st st-${c.st.replace(' ','')}">${esc(c.st)}</span></div><div class="rx"><b class="rt" style="margin-right:4px">${esc(c.type)}</b>${c.st==='답함'?'<span style="color:var(--accent);font-weight:700;margin-right:4px">답함</span>':''}${esc(c.text)}</div>${c.ans?`<div class="ra"><b>답</b> ${esc(c.ans)}</div>`:''}${open?`<div class="acts"><button type="button" data-rm="${esc(c.k)}" title="이 메모 지우기">지우기</button></div>`:''}${open && c.g ? ((c.g.changes||[]).map(x => `<div class="ra"><span class="before">${esc(x.before||'')}</span> → <b>${esc(x.after||'')}</b></div>`).join('') + (c.st==='합의'?'':`<div class="acts"><button type="button" data-act="agree" data-g="${c.g._i}" data-lid="${r.id}">합의</button><button type="button" data-act="rechal" data-lid="${r.id}">다시 챌린지</button></div>`)) : ''}</div>`; }).join('') + '</div>';
 }
 // 메모 칩이 서로 겹치지 않게 아래로 밀기
 function layoutRails(){
@@ -553,7 +555,7 @@ function renderCompany(){
   c.sections.forEach(sec => { let n = 0; rowsOf(c, sec).forEach(r => { n++; DISP[r.id] = `${c.name} ${sec.code}-${n}`; }); });
   const claims = [];
   c.sections.forEach(sec => rowsOf(c, sec).forEach(r => { if (r.claim && !S.del[r.id]) claims.push([sec, r]); }));
-  let h = `<div class="page"><div class="head">${c.logo?`<img alt="${esc(c.name)} 로고" src="${D.imgs[c.logo]}">`:''}<div><h1>${esc(c.name)}</h1><div class="kind">${c.kind==='ats'?'미국 주식 야간 거래 시장(ATS)':c.kind==='overview'?'회사 6곳과 미국 야간 ATS 3곳을 한 장으로. 줄 끝 단추를 누르면 그 회사 본문 줄로 갑니다.':'주식 토큰 사업자'}</div></div></div><p class="hint">줄 왼쪽 ${MEMO_ICON} 을 누르면 메모, 챌린지, 딥다이브 요청을 남깁니다. 줄 번호를 누르면 고치기, 줄 추가, 확정, 주황 표시가 나옵니다. 달린 메모는 줄 왼쪽에 붙어 보입니다.</p>`;
+  let h = `<div class="page"><div class="head">${c.logo?`<img alt="${esc(c.name)} 로고" src="${D.imgs[c.logo]}">`:''}<div><h1>${esc(c.name)}</h1><div class="kind">${c.kind==='ats'?'미국 주식 야간 거래 시장(ATS)':c.kind==='overview'?'회사 6곳과 미국 야간 ATS 3곳을 한 장으로. 줄 끝 단추를 누르면 그 회사 본문 줄로 갑니다.':'주식 토큰 사업자'}</div></div></div><p class="hint">줄 왼쪽 ${MEMO_ICON} 을 누르면 메모, 챌린지, 딥다이브 요청을 남깁니다. 줄 번호를 누르면 고치기, 줄 추가, 확정, 주황 표시가 나옵니다. 달린 메모는 줄 왼쪽에 붙어 보이고, 메모 카드를 눌러 펼치면 지우기 단추가 있습니다(메모 탭에서도 지울 수 있음).</p>`;
   let claimsHtml = '';
   if (claims.length) claimsHtml = `<section class="claims"><h2>주장 한눈에 보기</h2><ol>${claims.map(([sec,r]) => `<li><button type="button" data-jump="${sec.code}"><span class="cs">${esc(secShort(sec))}</span><span class="ct">${esc(stripMk(S.edits[r.id]!=null?S.edits[r.id].replace(/^주장\s*:\s*/,''):r.text))}</span></button></li>`).join('')}</ol></section>`;
   let cardHtml = '', restHtml = '';
@@ -596,7 +598,7 @@ function renderMemo(){
     <div class="filters" role="group" aria-label="상태">${sts.map(s => `<button type="button" data-mf-st="${s}" aria-pressed="${f.st===s}">${s==='all'?'모든 상태':s}</button>`).join('')}</div><div class="mlist">`;
   if (!list.length) h += '<div class="empty">아직 메모가 없습니다. 본문에서 줄 번호를 누르면 메모, 고치기, 확정 단추가 나옵니다.</div>';
   list.forEach(m => {
-    h += `<div class="mcard"><div class="meta"><button class="go" type="button" data-go="${esc(m.lid)}" data-co="${esc(m.co)}">${esc(m.disp||m.lid)}</button><span>${esc(m.type)}</span><span class="st st-${(m.stNow||'').replace(' ','')}">${esc(m.stNow)}</span><span>${esc(m.at||'')}</span>${m.stNow==='안 보냄' && S.memos.find(x => x.mid===m.mid)?`<button class="sec2" type="button" data-rm="${m.mid}" style="padding:0 8px;font-size:12px">지우기</button>`:''}</div>
+    h += `<div class="mcard"><div class="meta"><button class="go" type="button" data-go="${esc(m.lid)}" data-co="${esc(m.co)}">${esc(m.disp||m.lid)}</button><span>${esc(m.type)}</span><span class="st st-${(m.stNow||'').replace(' ','')}">${esc(m.stNow)}</span><span>${esc(m.at||'')}</span>${S.memos.find(x => x.mid===m.mid)?`<button class="sec2" type="button" data-rm="${m.mid}" style="padding:0 8px;font-size:12px">지우기</button>`:''}</div>
       <div>${esc(m.text)}</div>${m.line?`<div class="line">줄: ${esc(m.line)}</div>`:''}${m.answer?`<div class="note ans"><span class="who">답</span>${esc(m.answer)}</div>`:''}</div>`;
   });
   h += '</div></div>';
@@ -646,7 +648,7 @@ document.addEventListener('click', e => {
   const ev = t.closest('[data-ev]'); if (ev && !t.closest('.ev') && !t.closest('.lchip')){ const id = ev.dataset.ev; openEv.has(id) ? openEv.delete(id) : openEv.add(id); keepScroll(render); return; }
   const mf = t.closest('[data-mf-co],[data-mf-st]'); if (mf){ const f = window._mf || {co:'all', st:'all'}; if (mf.dataset.mfCo) f.co = mf.dataset.mfCo; if (mf.dataset.mfSt) f.st = mf.dataset.mfSt; window._mf = f; render(); return; }
   const go = t.closest('[data-go]'); if (go){ cur = go.dataset.co || cur; view = 'read'; location.hash = cur; closedSecs.clear(); render(); const el = document.getElementById('L-'+go.dataset.go); if (el){ el.scrollIntoView({block:'center'}); el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 2400); } return; }
-  const rm = t.closest('[data-rm]'); if (rm){ S.memos = S.memos.filter(m => m.mid !== rm.dataset.rm); save(); render(); return; }
+  const rm = t.closest('[data-rm]'); if (rm){ S.memos = S.memos.filter(m => m.mid !== rm.dataset.rm); openCards.delete(rm.dataset.rm); save(); keepScroll(render); toast('메모를 지웠습니다'); return; }
   const act = t.closest('[data-act]'); if (act) doAct(act.dataset.act, act.dataset.lid, act);
 });
 
@@ -773,7 +775,7 @@ function buildXlsx(sheets){ // sheets: [{name, rows, widths}]
   sheets.forEach((s, i) => files.push([`xl/worksheets/sheet${i+1}.xml`, sheetXml(s.rows, s.widths)]));
   return zipStore(files);
 }
-const LV_MARK = {b:'●', s:'★', q1:'①', q2:'②', q3:'③', d:'-', img:'그림', th:'표 머리', tr:'표'};
+const LV_MARK = {b:'●', s:'•', q1:'①', q2:'②', q3:'③', d:'-', img:'그림', th:'표 머리', tr:'표'};
 function xlsxSheets(){
   const body = [['회사','대분류','줄 번호','줄 ID','단계','문구','근거 번호','원문 링크','원문 근거 문장','화면 상태']];
   D.companies.forEach(c => {
