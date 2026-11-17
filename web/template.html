@@ -344,12 +344,33 @@ body.nonum .num::after{content:"⋯";font-size:14px}
 .brief details.bsec{margin:18px 0}
 .brief details.bsec>summary{font-size:17px;font-weight:800;color:var(--ink);padding:6px 10px;background:var(--accent-soft);border-radius:6px}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .brief .bl.binterp{background:#2a2340}:root:not([data-theme="light"]) .brief .bl.lv2 .bx,:root:not([data-theme="light"]) .brief .bl.lv3 .bx{color:var(--ink)}}
+
+/* 가상자산 거래소 3곳 비교 탭 */
+.cmp3{max-width:1100px}
+.cmp3 h1{font-size:22px;margin:4px 0 10px}
+.cmp3 h2{font-size:18px;margin:26px 0 10px;padding:6px 10px;background:var(--accent-soft);border-radius:6px}
+.cmp3 p{margin:8px 0;line-height:1.7}
+.cmp3 ul{margin:4px 0 8px;padding-left:1.4em;line-height:1.75}
+.cmp3 ul ul{margin:2px 0}
+.cmp3 li.judge,.cmp3 p.judge{color:var(--faint)}
+.cmp3 li.judge > ul{color:var(--ink)}
+.cmp3 table{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0 12px}
+.cmp3 th,.cmp3 td{border-bottom:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top;line-height:1.6}
+.cmp3 th{background:var(--quote);font-weight:700}
+.cmp3 td:first-child{font-weight:700;white-space:nowrap}
+.cmp3 details.csrc{margin:6px 0 4px}
+.cmp3 details.csrc>summary{cursor:pointer;color:var(--muted);font-size:13px;list-style:none}
+.cmp3 details.csrc>summary::before{content:"▸ ";color:var(--faint)}
+.cmp3 details[open].csrc>summary::before{content:"▾ "}
+.cmp3 details.csrc ol{margin:6px 0;padding-left:1.6em;font-size:13px;line-height:1.7}
+@media (max-width:760px){.cmp3 table{display:block;overflow-x:auto}.cmp3 td:first-child{white-space:normal}}
 </style>
 
 <header class="top">
   <span class="brand">KDX 해외 사례</span>
   <div class="tabs" role="tablist">
-    <button class="tab" id="tab-ov" role="tab" aria-selected="true">전체 그림</button>
+    <button class="tab" id="tab-cmp3" role="tab" aria-selected="false" data-view="cmp3">가상자산 거래소 3곳 비교</button>
+    <button class="tab" id="tab-ov" role="tab" aria-selected="false">전체 그림</button>
     <button class="tab" id="tab-brief" role="tab" aria-selected="false" data-view="brief">브리핑</button>
     <button class="tab" id="tab-read" role="tab" aria-selected="false">본문</button>
     <button class="tab" id="tab-compare" role="tab" aria-selected="false" data-view="compare">가로 비교</button>
@@ -653,7 +674,7 @@ function render(){
   document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-selected', b.dataset.view === view));
   $('#btn-fold').hidden = view !== 'read'; applyView();
   document.querySelectorAll('.co').forEach(el => el.setAttribute('aria-current', el.dataset.slug === cur && view === 'read'));
-  if (view === 'read') renderCompany(); else if (view === 'memo') renderMemo(); else if (view === 'compare') renderCompare(); else if (view === 'lic') renderLic(); else if (view === 'rules') renderRules(); else if (view === 'brief') renderBrief();
+  if (view === 'read') renderCompany(); else if (view === 'memo') renderMemo(); else if (view === 'compare') renderCompare(); else if (view === 'lic') renderLic(); else if (view === 'rules') renderRules(); else if (view === 'brief') renderBrief(); else if (view === 'cmp3') renderCmp3();
   updateCount();
 }
 function keepScroll(fn){ const y = window.scrollY; fn(); window.scrollTo(0, y); }
@@ -969,8 +990,73 @@ function renderLic(){
 
 function lawLinks(arr){ return '<div class="lawl">' + arr.map(l => l.url ? `<a href="${esc(l.url)}" target="_blank" rel="noopener" title="${esc(l.e||'')}">${esc(l.t)}</a>` : `<span>${esc(l.t)}</span>`).join('') + '</div>'; }
 
+
+// ---------- 가상자산 거래소 3곳 비교(문서 그대로 렌더) ----------
+function mdInline(s){
+  let h = esc(s);
+  h = h.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+  h = h.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (m, a, u) => `<a href="${u}" target="_blank" rel="noopener">${a}</a>`);
+  return h;
+}
+function renderCmp3(){
+  const lines = (D.cmp3 || '').split('\n');
+  let h = '<div class="page cmp3">', i = 0;
+  const listBlock = () => {
+    // 들여쓰기 2칸마다 한 단계, "(판단)"으로 시작하는 항목은 회색
+    let out = '', stack = [];
+    while (i < lines.length && /^\s*- /.test(lines[i])){
+      const m = lines[i].match(/^(\s*)- (.*)$/); const d = Math.floor(m[1].length / 2);
+      if (!stack.length || d > stack[stack.length-1]){ out += '<ul>'; stack.push(d); }
+      else {
+        out += '</li>';
+        while (stack.length > 1 && d < stack[stack.length-1]){ out += '</ul></li>'; stack.pop(); }
+      }
+      out += `<li${/^\(판단\)/.test(m[2]) ? ' class="judge"' : ''}>${mdInline(m[2])}`;
+      i++;
+    }
+    out += '</li>';
+    while (stack.length > 1){ out += '</ul></li>'; stack.pop(); }
+    return out + '</ul>';
+  };
+  const splitSrc = s => { // 괄호와 대괄호 밖의 ", "에서만 나눔
+    const out = []; let cur = '', dep = 0;
+    for (let k = 0; k < s.length; k++){
+      const c = s[k];
+      if (c === '[' || c === '(') dep++;
+      if (c === ']' || c === ')') dep = Math.max(0, dep - 1);
+      if (c === ',' && dep === 0 && s[k+1] === ' '){ out.push(cur.trim()); cur = ''; k++; continue; }
+      cur += c;
+    }
+    if (cur.trim()) out.push(cur.trim());
+    return out;
+  };
+  while (i < lines.length){
+    const l = lines[i];
+    if (!l.trim()){ i++; continue; }
+    if (l.startsWith('# ')){ h += `<h1>${mdInline(l.slice(2))}</h1>`; i++; continue; }
+    if (l.startsWith('## ')){ h += `<h2>${mdInline(l.slice(3))}</h2>`; i++; continue; }
+    if (/^\s*- /.test(l)){ h += listBlock(); continue; }
+    if (l.startsWith('|')){
+      const rows = [];
+      while (i < lines.length && lines[i].startsWith('|')){ rows.push(lines[i].trim().replace(/^\||\|$/g,'').split('|').map(c => c.trim())); i++; }
+      const body = rows.filter(r => !r.every(c => /^:?-{2,}:?$/.test(c) || c === ''));
+      h += `<table><thead><tr>${body[0].map(c => `<th>${mdInline(c)}</th>`).join('')}</tr></thead><tbody>${body.slice(1).map(r => `<tr>${r.map(c => `<td>${mdInline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+      continue;
+    }
+    if (l.startsWith('출처:')){
+      // 섹션 끝 출처는 접어서
+      const items = splitSrc(l.slice(3).trim());
+      h += `<details class="csrc"><summary>출처 ${items.length}건</summary><ol>${items.map(x => `<li>${mdInline(x)}</li>`).join('')}</ol></details>`;
+      i++; continue;
+    }
+    h += `<p${/^\(판단\)/.test(l) ? ' class="judge"' : ''}>${mdInline(l)}</p>`; i++;
+  }
+  h += '</div>';
+  $('#main').innerHTML = h;
+}
+
 // ---------- 브리핑 탭 ----------
-let briefCur = 'axes';
+let briefCur = 'Kraken';
 // 브리핑 글 강조: 라벨 굵게, 날짜 파랑, 원문 인용 형광펜, 숫자 굵게와 위험 낱말 빨강(withTerms의 emph)
 function bFmt(x){
   let s = x || '', lbl = '';
@@ -1025,7 +1111,7 @@ function bTable(rows){
 }
 function renderBrief(){
   const B = D.briefs || {cos: []};
-  const tabs = [['axes','축과 가설'],['pillars','전략 틀 비교'], ...B.cos.map(c => [c.name, c.name]), ['ats','야간 ATS']];
+  const tabs = [...B.cos.map(c => [c.name, c.name]), ['ats','야간 ATS']];
   let h = `<div class="page brief"><div class="bnav">${tabs.map(([k,l]) => `<button type="button" data-brief="${esc(k)}" aria-current="${briefCur===k}">${esc(l)}</button>`).join('')}</div>`;
   if (briefCur === 'axes') h += `<h1>승인된 축과 가설</h1>` + bTable(B.axes);
   else if (briefCur === 'pillars') h += `<h1>9곳 전략 틀 비교</h1>` + bTable(B.pillars) + (B.pillars_read||[]).map(x => `<div class="bl"><span class="bm">•</span><span>${esc(x)}</span></div>`).join('');
@@ -1061,8 +1147,9 @@ document.addEventListener('input', e => {
 // ---------- 시작 ----------
 const fromHash = location.hash.slice(1);
 cur = CO[fromHash] ? fromHash : (CO['overview'] ? 'overview' : D.companies[0].slug);
-if (fromHash.startsWith('v-') && ['compare','lic','rules','brief'].includes(fromHash.slice(2))) view = fromHash.slice(2);
+if (fromHash.startsWith('v-') && ['compare','lic','rules','brief','cmp3'].includes(fromHash.slice(2))) view = fromHash.slice(2);
+if (!fromHash) view = 'cmp3';
 renderNav(); render();
-window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (CO[h] && (h !== cur || view !== 'read')){ cur = h; view = 'read'; render(); } else if (h.startsWith('v-') && h.slice(2) !== view && ['compare','lic','rules','brief'].includes(h.slice(2))){ view = h.slice(2); render(); } });
+window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (CO[h] && (h !== cur || view !== 'read')){ cur = h; view = 'read'; render(); } else if (h.startsWith('v-') && h.slice(2) !== view && ['compare','lic','rules','brief','cmp3'].includes(h.slice(2))){ view = h.slice(2); render(); } });
 })();
 </script>

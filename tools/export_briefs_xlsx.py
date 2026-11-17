@@ -1,4 +1,4 @@
-"""브리핑 6곳(회사 전략, 1~3층), 승인된 축, 전략 틀 비교, 캡처를 엑셀 한 파일로.
+"""브리핑 6곳(회사 전략, 1~3층), 야간 ATS, 캡처를 엑셀 한 파일로.
 사용: python3 tools/export_briefs_xlsx.py  →  export/KDX_해외사례_브리핑.xlsx
 캡처 배치: 전략 틀 캡처는 각 회사 전략 3절 바로 아래, 그 밖의 근거 캡처는 그 사실 번호를 인용한 줄 바로 아래.
 인용되지 않은 근거 캡처는 회사 시트 끝 "참고 캡처"에. 사진 옆 칸에 무엇을 보여주는지와 해석."""
@@ -317,8 +317,7 @@ def main():
     toc.column_dimensions['B'].width = 110
     toc['A1'] = 'KDX 해외 사례 브리핑 (2026-11-17)'
     toc['A1'].font = Font(name=F, size=16, bold=True, color='1F3864')
-    items = [('축과 가설', 'PM이 승인한 회사별 축(덩치를 키운 방식)과 가설 판단'),
-             ('전략 틀 비교', '9곳이 공식적으로 내건 기둥, 우선순위, 비전 문장. 처음 나온 시점과 변천')]
+    items = []
     items += [(c, f'{c} 브리핑: {c}의 전략 7절, 1~3층, 전략 틀 캡처와 근거 캡처') for c in COS]
     items += [('야간 ATS', 'Blue Ocean, Bruce, MOON의 미션 문장과 캡처')]
     toc['A3'], toc['B3'] = '시트', '내용'
@@ -327,18 +326,6 @@ def main():
         toc.cell(row=4 + i, column=1, value=a).font = f_bold
         toc.cell(row=4 + i, column=1).hyperlink = f"#'{a}'!A1"
         toc.cell(row=4 + i, column=2, value=b).font = f_base
-    table_sheet(wb, '축과 가설', '승인된 축과 가설', 'axes.md', '## 승인된 축', '\n---\n')
-    ws, nr = table_sheet(wb, '전략 틀 비교', '9곳 전략 틀 비교', 'briefs/00_전략틀_비교.md', '## 한눈에', '## 읽는 법')
-    t = open('briefs/00_전략틀_비교.md', encoding='utf-8').read()
-    if '## 읽는 법' in t:
-        rb = t[t.index('## 읽는 법'):].split('## 주요 캡처')[0]
-        ws.cell(row=nr + 1, column=1, value='읽는 법').font = f_bold
-        for i, l in enumerate([x[2:] for x in rb.split('\n') if x.startswith('- ')]):
-            c = ws.cell(row=nr + 2 + i, column=2, value=l)
-            c.font = f_base
-            c.alignment = wrap
-            ws.merge_cells(start_row=nr + 2 + i, start_column=2, end_row=nr + 2 + i, end_column=4)
-            ws.row_dimensions[nr + 2 + i].height = 32
     for co in COS:
         company_sheet(wb, co)
     ws = wb.create_sheet('야간 ATS')
