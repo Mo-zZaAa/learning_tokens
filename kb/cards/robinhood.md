@@ -106,7 +106,7 @@
 | 상품 | 판매와 중개 | 체결 | 청산, 결제, 보관 | 누가 돈을 내나 |
 |---|---|---|---|---|
 | 미국 주식, 옵션 | Robinhood Financial(자회사, 증권사) | 시장조성자와 도매업자(남). 야간은 Blue Ocean ATS(남) | Robinhood Securities(자회사, 청산 증권사) | 시장조성자(주문 흐름 대가), 신용 매수 고객(대출 이자), Gold 구독자 |
-| 미국 가상자산 | Robinhood Crypto(자회사, 뉴욕주 가상자산 인가) | 외부 유동성 공급자(남) | Robinhood Crypto가 직접 보관 | 유동성 공급자(리베이트) |
+| 미국 가상자산 | Robinhood Crypto(자회사, 뉴욕주 가상자산 인가 등 주별 인가) | 외부 유동성 공급자(남) | Robinhood Crypto가 직접 보관 | 유동성 공급자(리베이트) |
 | 예측시장 이벤트 계약 | Robinhood Derivatives(자회사, 선물 중개사 FCM). 고객 주문과 증거금을 받음 | Kalshi, ForecastEx, Crypto.com(남의 거래소), Rothera(합작) | 각 거래소의 청산소 | 고객: Robinhood 수수료 계약당 최대 1센트 + 거래소 수수료 최대 1센트. 예: Gold 아닌 고객이 0.90달러 계약 100개를 사면 90달러 + Robinhood 0.90달러 + 거래소 1달러 = 91.90달러 |
 | Bitstamp 가상자산 거래소 | Bitstamp 나라별 법인(자회사) | Bitstamp 호가창 | Bitstamp | 거래하는 개인과 기관(미국 일부와 미국 밖) |
 | Classic Stock Tokens(EU 앱 주식 토큰) | Robinhood Europe(자회사, 리투아니아)이 고객과 직접 계약 | 회사가 고객의 거래 상대 | 회사가 위험을 줄이려 사 둔 기초 주식을 미국 인가 기관이 보관(토큰 담보 아님) | 고객(유로와 달러 환전 수수료 0.1%) |
