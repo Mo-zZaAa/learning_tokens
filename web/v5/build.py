@@ -590,12 +590,14 @@ def main():
     sources_by_id = {s["source_id"]: s for s in read_dicts(ROOT / "db/sources.csv")}
     data = {
         "built": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "cos": [[s, n] for s, n, _ in COS] + [list(COMMON)],
+        "cos": [[s, n] for s, n, _ in COS] + ([] if COMMON[0] in SLUGS else [list(COMMON)]),
         "fcols": FACT_COLS + ["ref"],
         "terms": load_terms(),
         "C": {},
     }
     for slug, name, prefix in COS:
+        if slug == COMMON[0]:
+            continue
         data["C"][slug] = build_company(slug, name, prefix, facts_all, facts_by_id, sources_by_id)
     data["C"][COMMON[0]] = build_common()
 

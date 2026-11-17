@@ -1,10 +1,10 @@
-빈칸 번호,무엇이 비었나,찾아본 곳,다음에 볼 곳
-G-BN01,"사업별 매출 금액(가상자산 현물, 파생, 예치와 스테이킹, 결제, 주식)과 매출 총액의 회사 공식 값","Binance 블로그 2025 결산(F-1387), 9주년 보도자료(F-1536), ADGM 약관 2026-10-27(F-1289), CZ 발언 보도(IBTimes UK), Forbes 추정 보도(Billionaires.Africa), Fortune 2023-08-10 분석(curl 403), The Block(403)","Forbes 2026 억만장자 프로필 원문, Fortune 2023-08-10 원문(로컬 브라우저), BTech Holdings 첫 감사 재무제표(2026-12-31 기준, bstocks.finance 게시 예정이나 발행 SPV만 다룸)"
-G-BN02,2021년 뒤 연도별 이익(흑자 폭),"Decrypt 2020-01-21(이익 비공개 방침), ForkLog 2020-12-05(2019, 2020 값), 미국 법무부 보도문 irs.gov 게재본(미국 이용자 이익 누계만), Finance Magnates 2018 소각 기사","법무부 사실 인정서(United States v. Binance Holdings Limited, W.D. Wash. 23-cr-178) 원문, Bloomberg 2021~2025 보도(유료)"
-G-BN03,추천인 보상 조건(초기 성장 원동력으로 거론됨)의 1차 자료,"기존 DB B1 메모(1차 미확보), binance.com 지원 글(봇 확인으로 열지 않음)",로컬 브라우저로 Binance Referral 지원 글과 2017~2018 보관본
-G-BN04,bStocks 거래 수수료율(Binance가 bStocks에서 받는 돈),"Moderna bStocks 투자설명서(발행사 비용 0, 상환 수수료 0), ADGM 약관(전용 수수료율 없음), bStocks 출시 보도자료",binance.com/en/fee 수수료 표(로컬 브라우저)
-G-BN05,"수수료 0인 미국 주식 직접 거래에서 Binance가 버는 몫(스프레드, 환전, Alpaca와의 배분)","2026-06-01 출시 보도자료(AAP 사본), ADGM 약관 이해충돌 조항, Moderna 투자설명서 Alpaca 계약 설명","Nest Trading 주식 거래 약관(로컬 브라우저), Alpaca 쪽 발표"
-G-BN06,TradFi 무기한선물의 청산 법인,"2026-01-08 보도자료(Nest Exchange만 표기), ADGM 등록부","Nest Exchange 거래 규정(Exchange Rules), NCCL 청산 규정(Clearing Rules)"
-G-BN07,ADGM 인가 전 Binance.com의 계약 상대 법인과 감독 당국,"기존 DB(F-1656 인가와 등록 20여 개, F-1708~F-1710 본사 없음), binance.com 약관(봇 확인)",2025년 이전 Binance.com 이용약관 보관본(로컬 브라우저)
-G-BN08,MGX 투자를 받은 이유(회사 설명),"아부다비 미디어오피스 발표(이유 없음), CoinMarketCap 기사","2025-03 공동 CEO 인터뷰, MGX 발표문"
-G-BN09,파생 거래대금 점유율 46.4%(CoinDesk Data 2026-10)의 원문,"CoinDesk Data 10월호(data.coindesk.com 404, coindesk.com/research 429), 7월호(현물 26.9%만 확인)",로컬 브라우저로 10월호 원문
+빈칸 번호,무엇이 비었나,찾아본 곳,다음에 볼 곳,상태
+G-BN01,"사업별 매출 금액(가상자산 현물, 파생, 예치와 스테이킹, 결제, 주식)과 매출 총액의 회사 공식 값","Binance 블로그 2025 결산(F-1387), 9주년 보도자료(F-1536), ADGM 약관 2026-10-27(F-1289), CZ 발언 보도(IBTimes UK), Forbes 추정 보도(Billionaires.Africa), Fortune 2023-08-10 분석(curl 403), The Block(403)","Forbes 2026 억만장자 프로필 원문, Fortune 2023-08-10 원문(로컬 브라우저), BTech Holdings 첫 감사 재무제표(2026-12-31 기준, bstocks.finance 게시 예정이나 발행 SPV만 다룸)","공개 안 됨(본 곳: Binance 블로그 2025 결산(F-1387), 9주년 보도자료(F-1536), ADGM 약관 2026-10-27(F-1289), CZ 발언 보도(IBTimes UK), Forbes 추정 보도(Billionaires.Africa), Fortune 2023-08-10 분석(curl 403), The Block(403))"
+G-BN02,2021년 뒤 연도별 이익(흑자 폭),"Decrypt 2020-01-21(이익 비공개 방침), ForkLog 2020-12-05(2019, 2020 값), 미국 법무부 보도문 irs.gov 게재본(미국 이용자 이익 누계만), Finance Magnates 2018 소각 기사","법무부 사실 인정서(United States v. Binance Holdings Limited, W.D. Wash. 23-cr-178) 원문, Bloomberg 2021~2025 보도(유료)","공개 안 됨(본 곳: Decrypt 2020-01-21(이익 비공개 방침), ForkLog 2020-12-05(2019, 2020 값), 미국 법무부 보도문 irs.gov 게재본(미국 이용자 이익 누계만), Finance Magnates 2018 소각 기사)"
+G-BN03,추천인 보상 조건(초기 성장 원동력으로 거론됨)의 1차 자료,"기존 DB B1 메모(1차 미확보), binance.com 지원 글(봇 확인으로 열지 않음), academy.binance.com(www.binance.com으로 넘어가 202 봇 확인, 더 열지 않음), binance.medium.com(403), PR Newswire Binance 보도자료 목록(추천 보상 보도자료 없음), ADGM 이용약관 2026-10-27(referral 조항 없음), CryptoGlobe 2018-05 추천 보상 2배 기사(429), 웹 검색(제휴 홍보 글뿐, 1차 아님)",로컬 브라우저로 Binance Referral 지원 글과 2017~2018 보관본,"열림(1차 미확보, 2026-11-17 C3)"
+G-BN04,bStocks 거래 수수료율(Binance가 bStocks에서 받는 돈),"Moderna bStocks 투자설명서(발행사 비용 0, 상환 수수료 0), ADGM 약관(전용 수수료율 없음), bStocks 출시 보도자료",binance.com/en/fee 수수료 표(로컬 브라우저),
+G-BN05,"수수료 0인 미국 주식 직접 거래에서 Binance가 버는 몫(스프레드, 환전, Alpaca와의 배분)","2026-06-01 출시 보도자료(AAP 사본), ADGM 약관 이해충돌 조항, Moderna 투자설명서 Alpaca 계약 설명","Nest Trading 주식 거래 약관(로컬 브라우저), Alpaca 쪽 발표",
+G-BN06,TradFi 무기한선물의 청산 법인,"2026-01-08 보도자료(Nest Exchange만 표기), ADGM 등록부","Nest Exchange 거래 규정(Exchange Rules), NCCL 청산 규정(Clearing Rules)",
+G-BN07,ADGM 인가 전 Binance.com의 계약 상대 법인과 감독 당국,"기존 DB(F-1656 인가와 등록 20여 개, F-1708~F-1710 본사 없음), binance.com 약관(봇 확인)",2025년 이전 Binance.com 이용약관 보관본(로컬 브라우저),
+G-BN08,MGX 투자를 받은 이유(회사 설명),"아부다비 미디어오피스 발표(이유 없음), CoinMarketCap 기사","2025-03 공동 CEO 인터뷰, MGX 발표문",
+G-BN09,파생 거래대금 점유율 46.4%(CoinDesk Data 2026-10)의 원문,"CoinDesk Data 10월호(data.coindesk.com 404, coindesk.com/research 429), 7월호(현물 26.9%만 확인)",로컬 브라우저로 10월호 원문,

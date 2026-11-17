@@ -44,14 +44,14 @@ table{font-size:inherit}
   padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 .brand{font-weight:800;letter-spacing:-.01em;white-space:nowrap;font-size:15px}
 .cos{display:flex;gap:4px;min-width:0}
-.cos button,.seg button,.memobtn,.btn{border:1px solid var(--line);background:var(--panel);border-radius:7px;padding:5px 10px;font-size:14px;line-height:1.3;white-space:nowrap}
+.cos button,.seg button,.memobtn,.btn{border:1px solid var(--line);background:var(--panel);border-radius:7px;padding:5px 9px;font-size:14px;line-height:1.3;white-space:nowrap}
 .cos button[aria-current="true"]{background:var(--ink);color:var(--panel);border-color:var(--ink);font-weight:700}
 .cos button small{font-size:11px;color:var(--faint);margin-left:3px}
 .cos button[aria-current="true"] small{color:var(--panel);opacity:.75}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;padding:2px;gap:2px;background:var(--bg)}
 .seg button{border:0;background:transparent;padding:4px 14px;border-radius:6px}
 .seg button[aria-selected="true"]{background:var(--panel);box-shadow:0 1px 2px var(--shade);font-weight:700;color:var(--accent)}
-.search{position:relative;flex:1 1 200px;min-width:0}
+.search{position:relative;flex:1 1 150px;min-width:0}
 .search input{width:100%;font:inherit;font-size:14px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
 .memobtn{display:inline-flex;gap:6px;align-items:center}
 .memobtn b{min-width:1.6em;text-align:center;background:var(--memo-soft);color:var(--memo);border-radius:9px;padding:0 6px;font-size:12px;font-variant-numeric:tabular-nums}
@@ -87,9 +87,10 @@ table{font-size:inherit}
 .lnav a{text-decoration:none;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:13px;white-space:nowrap}
 .lnav a b{color:var(--accent);margin-right:4px;font-variant-numeric:tabular-nums}
 .lnav a.off{color:var(--faint)}
-.layer{margin-top:22px;display:grid;grid-template-columns:minmax(0,1fr);gap:12px;min-width:0}
+.layer{margin-top:18px;display:grid;grid-template-columns:minmax(0,1fr);gap:12px;min-width:0}
 .layer>*{min-width:0}
-.lhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;border-top:2px solid var(--ink);padding-top:10px}
+.lhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;border-top:2px solid var(--ink);padding-top:8px}
+.ov .pagehead{margin-bottom:8px}
 .lhead .lnum{font-size:12px;font-weight:800;color:var(--panel);background:var(--ink);border-radius:5px;padding:1px 8px;letter-spacing:.04em}
 .lhead h2{margin:0;font-size:21px;letter-spacing:-.01em}
 .lhead code{color:var(--faint)}
@@ -97,10 +98,12 @@ table{font-size:inherit}
 .ptitle{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:8px 0 8px}
 .ptitle h3{margin:0;font-size:16px}
 .ptitle code,.ptitle span{color:var(--faint);font-size:12.5px}
-.cgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;font-size:13.5px;line-height:1.5}
-.cbox{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px 10px;min-width:0}
-.cbox>h3{margin:2px 0 6px;font-size:14.5px;color:var(--accent)}
-.cbox .li{padding-block:2px;gap:6px}
+.cgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;font-size:12.5px;line-height:1.42}
+.cbox{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 10px;min-width:0}
+.cbox>h3{margin:0 0 4px;font-size:14px;color:var(--accent)}
+.cbox .li{padding-block:1px;gap:6px}
+.lnav .tools{margin:0 0 0 auto;display:flex;gap:6px}
+.lnav .tools button{padding:2px 9px;font-size:12.5px}
 .cbox .d1{margin-left:16px}.cbox .d2{margin-left:32px}
 .cbox .li.d0 .tx strong{font-weight:700}
 .artw{padding-right:30px}
@@ -202,7 +205,7 @@ strong.warn{color:var(--warn)}
 .tbl{border-collapse:collapse;width:100%;font-size:13.5px;line-height:1.5}
 .tbl th{position:sticky;top:0;background:var(--quote);text-align:left;font-weight:700;color:var(--muted);font-size:12.5px;padding:7px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
 .tbl td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top;min-width:7em;max-width:30em;overflow-wrap:anywhere}
-.tbl td:first-child{white-space:nowrap;min-width:0;font-family:var(--mono);font-size:12.5px}
+.tbl.idc td:first-child{white-space:nowrap;min-width:0;font-family:var(--mono);font-size:12.5px}
 .tbl tr:last-child td{border-bottom:0}
 .tbl tr.ln{padding:0}
 .tbl .mc{width:30px;min-width:30px;padding:4px 2px;position:relative}
@@ -297,6 +300,7 @@ button.primary{background:var(--memo);border-color:var(--memo);color:var(--on-me
   .cgrid{grid-template-columns:1fr}
   .lnav{gap:4px}
   .lnav a{padding:3px 9px;font-size:12.5px}
+  .lnav .tools{margin-left:0}
   .sec{padding:4px 14px 10px}
   .rbody{padding:0 12px 14px}
   .rsec>summary{padding:12px 12px}
@@ -311,6 +315,7 @@ button.primary{background:var(--memo);border-color:var(--memo);color:var(--on-me
   .tbl td{display:grid;grid-template-columns:6.5em minmax(0,1fr);gap:8px;border:0;max-width:none;min-width:0;padding:4px 10px;white-space:normal}
   .tbl td::before{content:attr(data-l);color:var(--faint);font-size:12px;font-family:var(--sans)}
   .tbl td.e{display:none}
+  .tbl.idc td:first-child{white-space:normal}
   .tbl td .cv{min-width:0}
   .tbl td.mc{display:flex;justify-content:flex-end;padding:0 6px}
   .tbl td.mc::before{content:none}
@@ -420,7 +425,8 @@ function ready(what, path, msg){ return `<div class="ready"><b>준비 중</b>${e
 function tableHTML(t, opt){
   opt = opt || {};
   const cols = t.cols || [];
-  let h = `<div class="tblw"><table class="tbl${opt.gblk === false ? '' : ' gblk'}"${t.id ? ` id="${esc(t.id)}"` : ''}><thead><tr>${cols.map(c => `<th>${esc(c)}</th>`).join('')}<th class="mc"><span class="sr">메모</span></th></tr></thead><tbody>`;
+  const idc = (t.rows || []).length && t.rows.every(r => String(r.c[0] || '').length <= 14 && !/\s/.test(String(r.c[0] || '')));
+  let h = `<div class="tblw"><table class="tbl${idc ? ' idc' : ''}${opt.gblk === false ? '' : ' gblk'}"${t.id ? ` id="${esc(t.id)}"` : ''}><thead><tr>${cols.map(c => `<th>${esc(c)}</th>`).join('')}<th class="mc"><span class="sr">메모</span></th></tr></thead><tbody>`;
   for (const r of (t.rows || [])) h += `<tr class="ln" id="${esc(r.id)}">${cols.map((c, i) => r.c[i] ? `<td data-l="${esc(c)}"><div class="cv">${inl(r.c[i])}</div></td>` : `<td class="e" data-l="${esc(c)}"></td>`).join('')}<td class="mc">${MB}</td></tr>`;
   return h + '</tbody></table></div>';
 }
@@ -461,14 +467,13 @@ function hasOv(C){ return C.ov.layers.some(L => L.parts.some(p => p.doc)); }
 function renderOv(C){
   const LS = C.ov.layers;
   let h = `<article class="ov"><header class="pagehead"><div class="eyebrow">개요</div><h1>${esc(C.name)}</h1>`;
-  h += `<div class="meta"><span>위에서 아래로 카드, 쉬운 해설, 개요 문서와 질문 답</span><span>만든 시각 ${esc(D.built)}</span></div>`;
-  h += `<div class="tools"><button type="button" data-act="openall">모두 펼치기</button><button type="button" data-act="closeall">모두 접기</button></div></header>`;
-  h += `<nav class="lnav" aria-label="층 바로 가기">${LS.map((L, i) => `<a href="#${L.id}" data-go="${L.id}"${L.parts.some(p => p.doc) ? '' : ' class="off"'}><b>${i + 1}층</b>${esc(LAYER_SHORT[L.k] || L.label)}</a>`).join('')}</nav>`;
+  h += `<div class="meta"><span>위에서 아래로 카드, 쉬운 해설, 개요 문서와 질문 답</span><span>만든 시각 ${esc(D.built)}</span></div></header>`;
+  h += `<nav class="lnav" aria-label="층 바로 가기">${LS.map((L, i) => `<a href="#${L.id}" data-go="${L.id}"${L.parts.some(p => p.doc) ? '' : ' class="off"'}><b>${i + 1}층</b>${esc(LAYER_SHORT[L.k] || L.label)}</a>`).join('')}<span class="tools"><button type="button" data-act="openall">모두 펼치기</button><button type="button" data-act="closeall">모두 접기</button></span></nav>`;
   LS.forEach((L, i) => {
     h += `<section class="layer" id="${L.id}" data-sec="${esc(L.label)}"><div class="lhead"><span class="lnum">${i + 1}층</span><h2>${esc(L.label)}</h2>${L.parts.length === 1 ? `<code>${esc(L.parts[0].path)}</code>` : ''}</div>`;
     for (const P of L.parts){
       const sub = L.parts.length > 1;
-      let ph = sub ? `<div class="ptitle"><h3>${esc(P.label)}</h3><code>${esc(P.path)}</code>${P.doc && P.doc.title ? `<span>${esc(P.doc.title)}</span>` : ''}</div>` : (P.doc && P.doc.title ? `<div class="ptitle"><span>${esc(P.doc.title)}</span></div>` : '');
+      let ph = sub ? `<div class="ptitle"><h3>${esc(P.label)}</h3><code>${esc(P.path)}</code>${P.doc && P.doc.title ? `<span>${esc(P.doc.title)}</span>` : ''}</div>` : (P.doc && P.doc.title && L.kind !== 'grid' ? `<div class="ptitle"><span>${esc(P.doc.title)}</span></div>` : '');
       ph += P.doc ? docHTML(P.doc, L.kind) : ready(P.label, P.path);
       h += `<div class="lpart" data-sec="${esc(L.label)}: ${esc(P.label)}">${ph}</div>`;
     }
@@ -777,7 +782,7 @@ function goTo(co, v, id, q){
   if (!el){ toast('그 줄을 이 화면에서 찾지 못함(글이 바뀌었을 수 있음)'); return; }
   openUp(el); glossIn(MAIN); clearHits();
   if (q) hilite(el, q);
-  el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash');
+  if (!el.matches('.layer,.rsec,.sec,.lpart')){ el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash'); }
   const rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches || Math.abs(el.getBoundingClientRect().top) > 2400;
   el.scrollIntoView({block: el.classList.contains('rsec') || el.classList.contains('layer') || el.tagName === 'TABLE' ? 'start' : 'center', behavior: rm ? 'auto' : 'smooth'});
   setHash(id);
