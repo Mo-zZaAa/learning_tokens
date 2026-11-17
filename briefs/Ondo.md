@@ -48,7 +48,9 @@
   - 해석 : 수익이 발행과 상환 거래량에 붙어 있어 유통처가 많을수록 수익 기회가 늘어나는 구조임 [F-0546](https://docs.ondo.finance/ondo-stocks/fees-and-taxes)
 
 ### 3. 비전: 금융시장을 온체인으로, 발행 플랫폼은 한두 곳으로 모인다는 전망
+- 2024-01 회사 블로그는 앞으로 24개월을 세 단계(three phases)로 제시함 : Phase I Drive Use of Tokenized Cash Equivalents(USDY, OUSG, OMMF 같은 토큰화 현금성 자산 이용 확대), Phase II Expand into Other Public Securities(상장 주식 등 다른 공개 증권으로 확장), Phase III RWAs & Beyond(실물자산 전반과 그 너머). 당시 미션은 "기관급 금융 상품과 서비스를 모두에게"였음 [F-1658](https://ondo.finance/blog/ondos-journey-vision-achievements-and-the-path-forward)[F-1659](https://ondo.finance/blog/ondos-journey-vision-achievements-and-the-path-forward)
 - 원문 기준 미션 : 2025-02-03 "금융시장을 온체인으로 가져오는 플랫폼, 자산, 인프라를 만들어 열린 경제로의 전환을 앞당긴다"로 바꾸고 새 브랜드를 냄. 실행 조각은 자산(Global Markets), 인프라(Ondo Chain), 생태계 세 가지 [F-1452](https://ondo.finance/blog/towards-the-open-economy)[F-1451](https://ondo.finance/blog/global-markets)[F-1213](https://ondo.finance/blog/introducing-ondo-chain)
+  - 미션 원문의 세 요소는 "the platforms, assets, and infrastructure to bring financial markets onchain"(플랫폼, 자산, 인프라)임. 같은 날 발표 묶음은 실행 조각을 자산, 인프라, 생태계로 적어 한 항목(플랫폼 대 생태계)이 다름. 2026-07 Ondo Network 발표 글도 같은 세 요소로 미션을 다시 적음 [F-1661](https://ondo.finance/blog/our-new-visual-identity)[F-1451](https://ondo.finance/blog/global-markets)[F-1664](https://ondo.finance/blog/introducing-the-ondo-network)
   - 그 앞(2024-01)부터 RWA(실물자산) 토큰화가 Ondo 같은 한 곳 또는 극소수 발행 플랫폼으로 모일 것이라고 전망함. 발행에 집중하는 이유가 이 전망임 [F-1444](https://ondo.finance/blog/ondos-journey-vision-achievements-and-the-path-forward)
   - 2026-05 창업자 사망 뒤 CEO가 된 Ian De Bode는 미션과 로드맵이 그대로라고 밝힘 [F-0207](https://forklog.com/en/power-struggle-emerges-at-ondo-finance-following-founders-death/)[F-1468](https://ondo.finance/blog/onward-remembering-nathan-allman-and-the-road-ahead)
 - 기둥별 실현
@@ -57,6 +59,8 @@
   - 해석 : Ondo Chain은 이름뿐인 기둥이 됐으나 인프라 기둥 자체는 Ondo Network로 가동 중임. Ondo Network 위에서 Ondo Perps가 실제로 돌아가기 때문 [F-1467](https://ondo.finance/blog/introducing-the-ondo-network)
   - 생태계 : 실현 중. 2025-06 Alliance, 회사 생태계 페이지의 파트너 189곳 [F-1453](https://ondo.finance/blog/ondo-finance-global-markets-alliance)[F-0474](https://ondo.finance/ecosystem)
 - 2026-06 이후 방향 : 발행 위로 "거래, 프라임 브로커리지, 자산관리 층으로 올라간다"고 밝힘 [F-1468](https://ondo.finance/blog/onward-remembering-nathan-allman-and-the-road-ahead)
+  - 같은 CEO 글(2026-06-01)의 그림이 지금의 틀인 네 층 스택임 : 1 Tokenized Securities(주식, ETF, 채권, 뮤추얼펀드 토큰), 2 Prime Brokerage Services & Onchain Derivatives(프라임 브로커리지(거래자에게 레버리지와 담보 운용을 묶어 주는 서비스)와 RWA 무기한선물, 토큰화 주식 옵션), 3 Asset Management(자산군을 넘는 맞춤 포트폴리오, 자동 리밸런싱), 4 Agentic & Composable Finance(AI 투자, 로보어드바이저, RWA 스테이킹). 아래층 발행에서 위층 서비스로 올라가는 순서임 [F-1662](https://ondo.finance/blog/onward-remembering-nathan-allman-and-the-road-ahead)
+  - 2층 표현은 2026-02 Ondo Perps 발표가 먼저 씀(Perps와 Ondo Stocks 현물 묶음을 온체인 프라임 브로커리지의 초기 형태로 규정). 2026-09 Intelligent Portfolios 발표는 자산 접근 다음 단계인 배분 서비스를 "지금까지 만든 것 위의 다음 층"이라고 설명함 [F-1667](https://ondo.finance/blog/introducing-ondo-perps)[F-1668](https://ondo.finance/blog/introducing-ondo-intelligent-portfolios)
   - 거래 : Ondo Perps(미국 주식, ETF 무기한선물, 최대 20배, 미국 밖 전용) 2026-02 발표, 2026-07 출시 [F-1469](https://ondo.finance/blog/introducing-ondo-perps)[F-1467](https://ondo.finance/blog/introducing-the-ondo-network)
   - 자산관리 : Intelligent Portfolios(BlackRock이 Ondo용으로 만든 전략 기반 포트폴리오 3종, 기초는 Ondo Stocks) 2026-09, 비상장사 토큰 Private Markets 2026-10 [F-1324](https://ondo.finance/blog/introducing-ondo-intelligent-portfolios)[F-1153](https://ondo.finance/blog/introducing-ondo-private-markets)
   - 해석 : 2026-07 Ondo Perps 출시로 발행 중심 회사가 자체 거래 플랫폼에 진출하기 시작함. Ondo Perps는 Ondo가 직접 운영하는 거래 플랫폼이고, 현물 주식 토큰은 여전히 남의 거래소와 지갑이 판매하기 때문 [F-1469](https://ondo.finance/blog/introducing-ondo-perps)[F-1464](https://ondo.finance/blog/what-sets-ondo-stocks-apart)
