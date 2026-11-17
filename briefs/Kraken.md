@@ -26,6 +26,10 @@
 - 같은 시기에 주식으로도 넓힘. 미국 안은 실물 주식을 직접, 미국 밖은 주식 토큰으로
   - 미국 안 : 2025-04 실물 주식 거래 시작(주문 집행과 보관은 Alpaca, 미국 증권 중개 회사). 현재 11,000종 이상이며 일부 주에서만 제공 [F-1338](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))[F-0420](https://www.kraken.com/stocks)[F-0422](https://www.kraken.com/stocks)
   - 미국 밖 : 2025-06 xStocks(미국 주식을 1:1로 담보한 토큰) 출시. 처음에는 직접 발행하지 않고 Backed(스위스 주식 토큰 발행 회사, 발행 법인은 저지)가 만든 토큰을 Kraken이 판매함. 저지(영국 왕실 속령, 자체 법과 감독청 보유)는 발행사 자체에 금융 인가를 요구하지 않아 발행 부담이 가벼움 [F-1249](https://blog.kraken.com/product/xstocks/tokenized-equities-now-available)F-0940
+  - 출시 시점 : 같은 주에 Gemini(미국 가상자산 거래소)가 2025-06-27 EU에서 Dinari(미국 주식 토큰 발행 회사)가 발행한 1종목으로, Robinhood가 2025-06-30 EU에서 200종 이상으로 주식 토큰을 냄. 대형 거래소들이 한꺼번에 주식 토큰에 들어온 주에 xStocks는 60종으로 시작함 [F-1527][F-0221][F-1249]
+  - 차이 : Robinhood의 토큰은 투자자와 Robinhood 사이의 파생계약임. xStocks는 출시 날부터 다른 거래소 Bybit(해외 대형 가상자산 거래소)에도 함께 나왔고, 개인 지갑과 다른 플랫폼으로 옮길 수 있는 토큰이었음 [F-0644][F-1525]
+  - 옮길 수 있는 토큰이어서 다른 거래소, 지갑, DeFi(블록체인 위에서 돌아가는 대출, 거래 같은 금융 서비스)가 같은 토큰을 받아 쓰며 빠르게 퍼짐. 출시 135일 만에 누적 거래 100억 달러, 1년 만에 파트너 100곳 이상과 7개 블록체인에 이르렀고, DeFi에 배치된 xStocks는 1억 달러를 넘어 다른 토큰화 자산 발행사보다 많다는 것이 회사 주장임 [F-1525][F-0162][F-1526]
+  - 시장 위치 : CoinGecko(가상자산 시세 집계 사이트) 시가총액 상위 15개 토큰화 주식 중 8개가 xStocks(2026-07-01, 회사 인용). 제3자 rwa.xyz(토큰화 자산 집계 사이트)의 발행 잔액 기준으로는 3위(점유율 18%, 2026-11-16). 집계 기준이 달라 이어 붙이지 않음 [F-0161][F-1023]
   - 판매 뒤 규모가 커지자(운용자산 2026-02 2.25억 달러에서 10억 달러 초과로) 2025-12 Backed를 인수해 발행까지 그룹 안으로 들임. CEO는 이를 "발행부터 결제까지 수직 통합"이라고 설명함 [F-0165](https://www.payward.com/press-release/xstocks-surpasses-1-billion-aum)[F-0139](https://www.payward.com/press-release/kraken-acquires-backed-xstocks-expansion)[F-1043](https://blog.kraken.com/news/backed-acquisition)
   - 그 결과 xStocks 누적 거래 450억 달러 초과, 보유자 55만 초과에 이르렀고, 미국 밖 개인이 미국 공모주를 사는 IPO Access까지 붙임 [F-0166](https://www.payward.com/press-release/xstocks-surpasses-1-billion-aum)[F-1046](https://blog.kraken.com/product/xstocks/spacex-ipo-access)
 - Nasdaq과는 역할을 나눠 협력함(2026-09)
