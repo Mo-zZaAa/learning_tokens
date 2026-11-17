@@ -1,0 +1,3 @@
+"source_id","제목","발행 주체","발행일","출처 종류","언어","링크","저장 파일 경로","캡처 파일","접근 결과","열람 일시"
+"STRH2-S01","Charles Schwab Form 10-Q 2026 Q3","The Charles Schwab Corporation","2026-11","공시","en","https://www.sec.gov/Archives/edgar/data/0000316709/000031670926000038/schw-20260930.htm","","","열람 차단(sec.gov 403), 검색 결과로 숫자 일치 확인","2026-11-17"
+"STRH2-S02","Interactive Brokers Group Reports Brokerage Metrics for October 2026","Interactive Brokers Group, Inc.","2026-11-02","회사 발표","en","https://www.interactivebrokers.com/mkt/getFileNew.php?file=latestMetricPR","sources/STORY-RH2/ibkr_2026_10_metrics.pdf","","열람 성공(curl)","2026-11-17"

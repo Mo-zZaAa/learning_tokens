@@ -235,6 +235,8 @@ figure figcaption{font-size:12px;color:var(--muted)}
 @media (hover:none){.addm{opacity:.6}}
 .hint{font-size:12.5px;color:var(--muted);margin:-6px 0 14px}
 .hint svg{color:var(--accent);vertical-align:-2px}
+.scard .sext{border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:7px 10px;margin:8px 0 4px;font-size:14px;line-height:1.65}
+.xbadge{display:inline-block;font-size:11px;font-weight:800;color:#fff;background:var(--accent);border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
 .mbadge{border:0;border-radius:9px;background:var(--orange);color:var(--panel);font-size:11px;font-weight:700;min-width:18px;height:18px;padding:0 5px;margin-top:2px;cursor:pointer}
 .rail{display:none}
 .row.has-notes{box-shadow:inset 3px 0 0 var(--orange)}
@@ -1213,7 +1215,7 @@ function parseStrat(src){
     if (l.startsWith('돈:')){ out.money = l.slice(2).trim(); return; }
     if (l.startsWith('## ')){ co = {name: l.slice(3).trim(), acts: [], flow: []}; out.cos[co.name] = co; sec = ''; return; }
     if (!co) return;
-    let m = l.match(/^- (정체|해설|돈):\s*(.*)$/);
+    let m = l.match(/^- (정체|해설|돈|위치|토큰화|KDX가 볼 점):\s*(.*)$/);
     if (m){ co[m[1]] = m[2]; sec = ''; return; }
     if (/^- (흐름|행보)\s*$/.test(l)){ sec = l.slice(2).trim(); return; }
     if (sec === '행보' && (m = l.match(/^\s+- (.+?)\s*\[([^\]]+)\]:\s*(.*)$/))){ co.acts.push({p: m[1], badge: m[2], x: m[3]}); return; }
@@ -1233,6 +1235,7 @@ function stratCard(c, side){
     <div class="slab">전략 틀이 바뀐 흐름 (아래가 지금)</div>
     <ol class="sflow">${c.flow.map((f,i) => `<li class="${i === n - 1 ? 'now' : ''}"><div class="ft">${stratFmt(f.t)}</div><div class="fx">${stratFmt(f.x)}</div></li>`).join('')}</ol>
     <div class="sint"><span class="ibadge">해설</span>${stratFmt(c['해설'] || '')}</div>
+    ${['위치','토큰화','KDX가 볼 점'].filter(k => c[k]).map(k => `<div class="sext"><span class="xbadge">${k === '위치' ? '시장 안 위치' : k === '토큰화' ? '토큰화를 보는 눈' : 'KDX가 볼 점'}</span>${stratFmt(c[k])}</div>`).join('')}
     <div class="slab">기둥별 행보</div>
     <div class="sacts">${c.acts.map(a => `<div class="sact"><div class="sp">${esc(a.p)} <span class="sb ${BADGE_CLS(a.badge)}">${esc(a.badge)}</span></div><div class="sx">${stratFmt(a.x)}</div></div>`).join('')}</div>
   </div>`;

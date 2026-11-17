@@ -245,3 +245,7 @@
 - 함정: 위키백과 주소처럼 괄호가 든 URL은 괄호 짝을 허용하는 정규식으로 뽑는다. 표 구분선 "|---|"를 문서 끝 표시("---")로 잘못 자르지 않는다. 사진은 표시 크기 1.5배 JPEG로 줄여 넣는다(31MB → 8MB). 행 높이는 한글 기준 C열 한 줄 약 44자. 결과물에서 공백 표시(비공개, 미확인 등)는 사진 설명까지 거른다.
 - 확인: soffice --headless --convert-to pdf 후 pdftoppm으로 한 쪽 렌더(쪽 맞춤 가로 1장).
 - 웹 브리핑 탭(web/brief_data.py): 엑셀과 같은 배치를 데이터로 만들어 build.py가 D.briefs로 넣는다. 사진은 web/brief_img/*.jpg(폭 900px, 품질 78)로 따로 두고 상대 경로로 참조, Artifact 게시 때 files 지도로 함께 올린다(페이지 안 data URI로 넣으면 16MB 한도를 넘음).
+
+## 14. 미국 증권사 비교 숫자(2026-11-17 추가)
+- Interactive Brokers 월간 지표: interactivebrokers.com/mkt/getFileNew.php?file=latestMetricPR 가 curl로 열리나 Java 직렬화 덩어리 안에 PDF가 들어 있음. %PDF부터 %%EOF까지 잘라 pdftotext로 읽음.
+- Charles Schwab 실적: sec.gov(403), pressroom.aboutschwab.com(Cloudflare 확인 화면), aboutschwab.com IR(403), finance.yahoo.com(curl 429, WebFetch 허용 밖) 모두 막힘. 우회하지 않고 검색 결과 3건 일치로 DB에 넣되 검증 상태에 "사용자 로컬 브라우저 확인 대기"를 적음.
