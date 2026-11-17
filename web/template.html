@@ -408,6 +408,68 @@ body.nonum .num::after{content:"⋯";font-size:14px}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pi:#4d4416;--pi-ink:#fff1b0;--pi-edge:#b49a2c;--bub:#1d2a40;--bub-edge:#3f5f96;--keybox:#2b2714}}
 :root[data-theme="dark"]{--pi:#4d4416;--pi-ink:#fff1b0;--pi-edge:#b49a2c;--bub:#1d2a40;--bub-edge:#3f5f96;--keybox:#2b2714}
 mark.hm{background:linear-gradient(180deg,transparent 35%,var(--pi) 35%);color:inherit;padding:0 2px;font-weight:700}
+
+/* 검색, 질문 창, 어디서나 메모 */
+.gsearch{position:relative}
+.gsearch input{width:260px;max-width:46vw;border:1px solid var(--line);border-radius:8px;padding:6px 10px;font:inherit;font-size:14px;background:var(--panel);color:var(--ink)}
+.gsearch input:focus{outline:2px solid var(--accent);border-color:transparent}
+.gres{position:absolute;left:0;top:40px;width:min(640px,92vw);max-height:72vh;overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 32px rgba(0,0,0,.18);z-index:60;padding:6px 0 10px}
+.gres .ghead{display:flex;align-items:center;gap:8px;padding:6px 12px 8px;border-bottom:1px solid var(--line);font-size:13.5px}
+.gres .gask{margin-left:auto;border:1px solid var(--accent);color:var(--accent);background:var(--accent-soft);border-radius:6px;padding:2px 8px;font:inherit;font-size:12.5px;cursor:pointer}
+.gres .gx{border:0;background:transparent;color:var(--muted);cursor:pointer;font-size:14px}
+.gres .gk{font-size:12px;font-weight:800;color:var(--muted);padding:10px 12px 2px}
+.gres .gk span{font-weight:600}
+.gres .gi{display:block;width:100%;text-align:left;border:0;background:transparent;padding:6px 12px;font:inherit;color:var(--ink);cursor:pointer;line-height:1.5}
+.gres button.gi:hover{background:var(--accent-soft)}
+.gres .gi .gw{font-size:11.5px;color:var(--accent);font-weight:700}
+.gres .gi .gt{font-size:13.5px}
+.gres .gi.fact a{font-size:12px}
+.gres .gempty{padding:14px 12px;color:var(--muted)}
+mark.shl{background:#ffe066;color:#111;border-radius:2px;padding:0 1px}
+mark.shl-first{outline:2px solid #f08c00}
+.chat-fab{position:fixed;right:18px;bottom:18px;z-index:70;border:0;border-radius:24px;padding:11px 18px;background:var(--accent);color:#fff;font:inherit;font-weight:800;font-size:15px;box-shadow:0 6px 18px rgba(0,0,0,.22);cursor:pointer}
+.chat-fab.on{background:var(--ink)}
+.chat{position:fixed;right:18px;bottom:72px;z-index:70;width:min(440px,calc(100vw - 32px));height:min(620px,calc(100vh - 120px));display:flex;flex-direction:column;background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:0 14px 40px rgba(0,0,0,.25);overflow:hidden}
+.chat[hidden]{display:none}
+.chat .chh{display:flex;align-items:center;gap:8px;padding:10px 12px;border-bottom:1px solid var(--line);background:var(--accent-soft)}
+.chat .chh b{font-size:15px}
+.chat .chsub{font-size:12px;color:var(--muted)}
+.chat .chdeep{margin-left:auto;font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:3px}
+.chat .chh button{border:0;background:transparent;font-size:15px;cursor:pointer;color:var(--muted)}
+.chat .chlog{flex:1;overflow:auto;padding:10px 12px}
+.chat .chhint{color:var(--muted);font-size:13px;line-height:1.6;padding:6px 2px}
+.chat .cmsg{margin:8px 0;line-height:1.6;font-size:14px}
+.chat .cmsg.me{margin-left:18%;background:var(--accent);color:#fff;border-radius:12px 12px 2px 12px;padding:7px 11px}
+.chat .cmsg.bot{margin-right:6%;background:var(--quote);border:1px solid var(--line);border-radius:12px 12px 12px 2px;padding:8px 11px}
+.chat .cmsg p{margin:2px 0 6px}
+.chat .cmsg ul{margin:2px 0 4px;padding-left:1.2em}
+.chat .cmsg li.cint{color:var(--muted)}
+.chat .cprog{color:var(--muted);font-size:13px}
+.chat .cprog:empty{display:none}
+.chat .fref{font-size:11px;padding:0 3px;border:1px solid var(--line);border-radius:4px;text-decoration:none;color:var(--accent);margin:0 1px}
+.chat .cnote{color:var(--orange);font-size:12.5px}
+.chat .cbar{margin-top:4px}
+.chat .cbar button{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:6px;padding:2px 8px;font:inherit;font-size:12px;cursor:pointer}
+.chat .chin{display:flex;gap:6px;padding:8px;border-top:1px solid var(--line)}
+.chat .chin textarea{flex:1;resize:none;border:1px solid var(--line);border-radius:8px;padding:6px 8px;font:inherit;font-size:14px;background:var(--panel);color:var(--ink)}
+.chat .chbtns{display:flex;flex-direction:column;gap:4px}
+.chat .chbtns button{border:1px solid var(--line);border-radius:8px;padding:6px 12px;font:inherit;font-size:13.5px;cursor:pointer;background:var(--panel);color:var(--ink)}
+.chat .chbtns .pri{background:var(--accent);color:#fff;border-color:var(--accent)}
+.selmemo{position:absolute;z-index:75;border:0;border-radius:16px;padding:5px 12px;background:#f08c00;color:#fff;font:inherit;font-weight:800;font-size:13px;box-shadow:0 4px 12px rgba(0,0,0,.25);cursor:pointer}
+.selmemo[hidden]{display:none}
+.memopop{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:80;width:min(460px,calc(100vw - 32px));background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:0 16px 44px rgba(0,0,0,.3);padding:12px 14px}
+.memopop[hidden]{display:none}
+.memopop .mph{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.memopop .mph span{font-size:12px;color:var(--muted)}
+.memopop .mph button{margin-left:auto;border:0;background:transparent;cursor:pointer;color:var(--muted)}
+.memopop blockquote{margin:0 0 8px;padding:6px 10px;border-left:4px solid #f08c00;background:var(--pi);color:var(--pi-ink);border-radius:4px;font-size:13.5px;max-height:120px;overflow:auto}
+.memopop .types{display:flex;flex-wrap:wrap;gap:8px;font-size:13px;margin-bottom:6px}
+.memopop textarea{width:100%;min-height:90px;border:1px solid var(--line);border-radius:8px;padding:7px 9px;font:inherit;font-size:14px;background:var(--panel);color:var(--ink)}
+.memopop .row{display:flex;gap:6px;justify-content:flex-end;margin-top:8px}
+.memopop .row button{border:1px solid var(--line);border-radius:8px;padding:5px 14px;font:inherit;cursor:pointer;background:var(--panel);color:var(--ink)}
+.memopop .row .pri{background:var(--accent);color:#fff;border-color:var(--accent)}
+@media (max-width:760px){.gsearch input{width:150px}}
+@media print{.chat-fab,.chat,.selmemo,.memopop,.gsearch{display:none!important}}
 .cmp3 .lbl{font-weight:800}
 .cmp3 blockquote.cq{margin:8px 0 10px;padding:8px 14px;border-left:4px solid var(--accent);background:var(--accent-soft);border-radius:6px;font-weight:600;line-height:1.7}
 .cmp3 .ckey{background:var(--keybox);border:2px solid var(--pi-edge);border-radius:10px;padding:4px 16px 8px;margin:10px 0 14px}
@@ -471,6 +533,7 @@ mark.hm{background:linear-gradient(180deg,transparent 35%,var(--pi) 35%);color:i
     <button class="tab" id="tab-memo" role="tab" aria-selected="false">메모</button>
   </div>
   <span class="spacer"></span>
+  <div class="gsearch"><input id="gq" type="search" placeholder="검색(본문, 브리핑, 사실 DB)" autocomplete="off" aria-label="전체 검색"><div id="gres" class="gres" hidden></div></div>
   <button class="tbtn" id="btn-num" type="button" title="줄 번호(예: Kraken 카드-1) 보이기와 접기">줄 번호 보기</button>
   <button class="tbtn" id="btn-defn" type="button" title="용어 뜻 줄(뜻 : ...)을 모두 접거나 펼침. 밑줄 친 용어는 눌러서 뜻을 볼 수 있음">뜻 접기</button>
   <button class="tbtn" id="btn-emph" type="button" title="숫자 굵게, 위험 낱말 빨강, 핵심 형광펜">강조 끄기</button>
@@ -498,7 +561,7 @@ const MEMO_TYPES = ['메모','챌린지','딥다이브 요청','풀어쓰기 요
 let S;
 function blank(){ return {memos:[], edits:{}, del:{}, conf:{}, orange:{}, added:{}, order:{}, agreed:{}, seq:1}; }
 function load(){ try{ const t = localStorage.getItem(KEY); S = t ? Object.assign(blank(), JSON.parse(t)) : blank(); }catch(e){ S = blank(); } }
-function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} updateCount(); }
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} updateCount(); if (typeof syncSoon === 'function') syncSoon(); }
 load();
 
 // ---------- 데이터 색인 ----------
@@ -749,13 +812,13 @@ function renderMemo(){
   if (f.co !== 'all') list = list.filter(m => m.co === f.co);
   if (f.st !== 'all') list = list.filter(m => m.stNow === f.st); else list = list.filter(m => !['답함','합의','보류'].includes(m.stNow));
   list.sort((a,b) => (b.at||'').localeCompare(a.at||''));
-  let h = `<div class="memo-page"><h1 style="margin:0 0 4px;font-size:24px">메모</h1><p style="margin:0;color:var(--muted)">이 브라우저에만 저장됩니다. 다 쓰면 위의 "메모 보내기"로 한꺼번에 보내 주세요.</p>
+  let h = `<div class="memo-page"><h1 style="margin:0 0 4px;font-size:24px">메모</h1><p style="margin:0;color:var(--muted)">${MEMO_DB ? '자동 저장되어 Claude가 바로 읽을 수 있습니다. 어느 화면에서든 글자를 드래그하면 메모 단추가 나옵니다.' : '이 브라우저에만 저장됩니다. 어느 화면에서든 글자를 드래그하면 메모 단추가 나옵니다. 다 쓰면 "메모 보내기"로 보내 주세요.'}</p>
     <div class="filters" role="group" aria-label="회사">${[['all','전체']].concat(D.companies.map(c => [c.slug,c.name])).map(([k,l]) => `<button type="button" data-mf-co="${k}" aria-pressed="${f.co===k}">${esc(l)}</button>`).join('')}</div>
     <div class="filters" role="group" aria-label="상태">${sts.map(s => `<button type="button" data-mf-st="${s}" aria-pressed="${f.st===s}">${s==='all'?'모든 상태':s}</button>`).join('')}</div><div class="mlist">`;
   if (!list.length) h += '<div class="empty">아직 메모가 없습니다. 본문에서 줄 번호를 누르면 메모, 고치기, 확정 단추가 나옵니다.</div>';
   list.forEach(m => {
-    h += `<div class="mcard"><div class="meta"><button class="go" type="button" data-go="${esc(m.lid)}" data-co="${esc(m.co)}">${esc(m.disp||m.lid)}</button><span>${esc(m.type)}</span><span class="st st-${(m.stNow||'').replace(' ','')}">${esc(m.stNow)}</span><span>${esc(m.at||'')}</span>${m.type==='삭제' && S.del[m.lid]?`<button class="sec2" type="button" data-act="undel" data-lid="${esc(m.lid)}" style="padding:0 8px;font-size:12px">되살리기</button>`:''}${S.memos.find(x => x.mid===m.mid)?`<button class="sec2" type="button" data-rm="${m.mid}" style="padding:0 8px;font-size:12px">지우기</button>`:''}</div>
-      <div>${esc(m.text)}</div>${m.line?`<div class="line">줄: ${esc(m.line)}</div>`:''}${m.answer?`<div class="note ans"><span class="who">답</span>${esc(m.answer)}</div>`:''}</div>`;
+    h += `<div class="mcard"><div class="meta">${m.view ? `<button class="go" type="button" data-fgo="${esc(m.mid)}">${esc(m.disp)}</button>` : `<button class="go" type="button" data-go="${esc(m.lid)}" data-co="${esc(m.co)}">${esc(m.disp||m.lid)}</button>`}<span>${esc(m.type)}</span><span class="st st-${(m.stNow||'').replace(' ','')}">${esc(m.stNow)}</span><span>${esc(m.at||'')}</span>${m.type==='삭제' && S.del[m.lid]?`<button class="sec2" type="button" data-act="undel" data-lid="${esc(m.lid)}" style="padding:0 8px;font-size:12px">되살리기</button>`:''}${S.memos.find(x => x.mid===m.mid)?`<button class="sec2" type="button" data-rm="${m.mid}" style="padding:0 8px;font-size:12px">지우기</button>`:''}</div>
+      <div>${esc(m.text)}</div>${m.line?`<div class="line">${m.view ? '고른 글' : '줄'}: ${esc(m.line)}</div>`:''}${m.answer?`<div class="note ans"><span class="who">답</span>${esc(m.answer)}</div>`:''}</div>`;
   });
   h += '</div></div>';
   $('#main').innerHTML = h;
@@ -1329,6 +1392,254 @@ document.addEventListener('input', e => {
   if (e.target.id === 'rel-q'){ relQ = e.target.value; const pos = e.target.selectionStart; renderLic(); const el = $('#rel-q'); el.focus(); el.setSelectionRange(pos,pos); }
   if (e.target.id === 'term-q'){ termQ = e.target.value; const pos = e.target.selectionStart; renderRules(); const el = $('#term-q'); el.focus(); el.setSelectionRange(pos,pos); }
 });
+
+
+// ---------- 검색, 질문 창, 어디서나 메모 ----------
+const FACT = {}; (D.facts||[]).forEach(f => FACT[f[0]] = f);
+const IDX = [];
+(function(){
+  const clean = t => String(t||'').replace(/\[(F-\d{4}|CASE-\d+)\]\([^)]*\)/g, '$1').replace(/\*\*|==|!!/g, '').replace(/\s+/g, ' ').trim();
+  D.companies.forEach(c => c.sections.forEach(sec => sec.rows.forEach(r => { const t = clean((r.label ? r.label + ' : ' : '') + (r.text||'')); if (t.length > 3) IDX.push({k:'본문', w:c.name, t, go:{view:'read', co:c.slug, lid:r.id}}); })));
+  ((D.briefs||{}).cos||[]).forEach(c => c.blocks.forEach(b => { if (b.t === 'p' && b.x && b.x.trim().length > 3) IDX.push({k:'브리핑', w:c.name, t:clean(b.x), go:{view:'brief', brief:c.name}}); }));
+  [['cmp3','거래소 3곳 비교',D.cmp3],['parts','파트별 해외 사례',D.parts],['qa','질문과 답',D.qa],['strat','전략 한눈에',D.strat]].forEach(([v,label,src]) => {
+    let head = '';
+    (src||'').split('\n').forEach(l => {
+      if (/^#{1,3} /.test(l)){ head = l.replace(/^#+\s*/, ''); return; }
+      if (/^\s*\|?\s*:?-{2,}/.test(l) || /^출처:/.test(l)) return;
+      const t = clean(l.replace(/^\s*(?:[-|>]|:::)\s*/, '').replace(/\|/g, ' / '));
+      if (t.length > 3) IDX.push({k:label, w:head, t, go: v === 'strat' ? {view:'brief', brief:'strat'} : {view:v}});
+    });
+  });
+  (D.facts||[]).forEach(f => IDX.push({k:'사실 DB', w:f[1], t:f[2], id:f[0], date:f[3], url:f[4]}));
+  IDX.forEach(x => x.l = (x.w + ' ' + x.t + ' ' + (x.id||'')).toLowerCase());
+})();
+const KIND_W = {'브리핑':6, '전략 한눈에':6, '질문과 답':5, '거래소 3곳 비교':5, '파트별 해외 사례':5, '본문':3, '사실 DB':2};
+function searchIdx(q, n, any){
+  const toks = String(q||'').toLowerCase().split(/[\s,.?!]+/).map(x => x.replace(/(은|는|이|가|을|를|의|에|에서|와|과|로|으로|도|만)$/, '')).filter(x => x.length >= 1);
+  if (!toks.length) return [];
+  const sc = x => toks.reduce((a,t) => a + (x.l.includes(t) ? 1 : 0), 0);
+  let out = IDX.map(x => [sc(x), x]).filter(([s]) => any ? s > 0 : s === toks.length);
+  if (!out.length && !any) return searchIdx(q, n, true);
+  out.sort((a,b) => b[0] - a[0] || (KIND_W[b[1].k]||0) - (KIND_W[a[1].k]||0) || a[1].t.length - b[1].t.length);
+  return out.slice(0, n).map(x => x[1]);
+}
+function markQ(h, q){
+  const toks = String(q||'').split(/\s+/).filter(t => t.length >= 2).map(t => esc(t).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  if (!toks.length) return h;
+  const re = new RegExp('(' + toks.join('|') + ')', 'gi');
+  return h.split(/(<[^>]+>)/).map(p => p.startsWith('<') ? p : p.replace(re, '<mark class="shl">$1</mark>')).join('');
+}
+function snip(t, q, len){
+  const tok = String(q||'').split(/\s+/).filter(x => x.length >= 2).sort((a,b) => b.length - a.length)[0] || '';
+  const i = tok ? t.toLowerCase().indexOf(tok.toLowerCase()) : -1;
+  const a = Math.max(0, i - Math.floor(len/3));
+  return (a > 0 ? '…' : '') + t.slice(a, a + len) + (a + len < t.length ? '…' : '');
+}
+// 화면 이동 뒤 찾은 글자를 형광으로 표시하고 첫 곳으로 스크롤
+function highlightIn(q, exact){
+  let toks = String(q||'').split(/\s+/).filter(t => t.length >= 2).sort((a,b) => b.length - a.length);
+  if (exact){ const t = String(q||'').replace(/\s+/g, ' ').trim(); const main = $('#main').textContent.replace(/\s+/g, ' '); toks = [30, 18, 10].map(n => t.slice(0, n)).filter(x => x.length >= 4 && main.includes(x)).slice(0, 1); }
+  if (!toks.length) return;
+  const main = $('#main'); const re = new RegExp('(' + toks.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'gi');
+  const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT, {acceptNode: n => n.parentElement.closest('script,style,mark.shl,button,.bside') ? NodeFilter.FILTER_REJECT : (re.test(n.nodeValue) ? (re.lastIndex = 0, NodeFilter.FILTER_ACCEPT) : NodeFilter.FILTER_REJECT)});
+  const nodes = []; while (walker.nextNode() && nodes.length < 300) nodes.push(walker.currentNode);
+  let first = null;
+  nodes.forEach(n => {
+    const frag = document.createDocumentFragment();
+    n.nodeValue.split(re).forEach((part, i) => { if (!part) return; if (i % 2){ const mk = document.createElement('mark'); mk.className = 'shl'; mk.textContent = part; frag.appendChild(mk); if (!first) first = mk; } else frag.appendChild(document.createTextNode(part)); });
+    n.replaceWith(frag);
+  });
+  if (first){ let d = first.closest('details'); while (d){ d.open = true; d = d.parentElement.closest('details'); } setTimeout(() => first.scrollIntoView({block:'center', behavior:'smooth'}), 60); first.classList.add('shl-first'); }
+}
+function goTo(go, q, exact){
+  if (!go) return;
+  if (go.view === 'read'){ cur = go.co || cur; view = 'read'; location.hash = cur; closedSecs.clear(); render(); const el = go.lid && document.getElementById('L-' + go.lid); if (el){ el.scrollIntoView({block:'center'}); el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 2400); } else highlightIn(q, exact); return; }
+  if (go.view === 'brief') briefCur = go.brief || briefCur;
+  view = go.view; location.hash = 'v-' + view; render(); window.scrollTo(0,0); highlightIn(q, exact);
+}
+let gTimer = 0, gLast = [];
+function renderSearch(){
+  const q = $('#gq').value.trim(); const box = $('#gres');
+  if (q.length < 2){ box.hidden = true; return; }
+  const R = searchIdx(q, 60); gLast = R;
+  const groups = {}; R.forEach((x,i) => (groups[x.k] = groups[x.k] || []).push([x,i]));
+  const order = ['전략 한눈에','브리핑','질문과 답','거래소 3곳 비교','파트별 해외 사례','본문','사실 DB'];
+  let h = `<div class="ghead"><b>"${esc(q)}"</b> ${R.length}건${R.length >= 60 ? ' 이상' : ''}<button type="button" class="gask" data-gask="1">질문 창에 묻기</button><button type="button" class="gx" data-gx="1" aria-label="닫기">✕</button></div>`;
+  if (!R.length) h += '<div class="gempty">찾은 것이 없습니다. 낱말을 줄여 보세요.</div>';
+  order.filter(k => groups[k]).forEach(k => {
+    h += `<div class="gk">${esc(k)} <span>${groups[k].length}</span></div>`;
+    groups[k].slice(0, k === '사실 DB' ? 15 : 8).forEach(([x,i]) => {
+      h += x.id
+        ? `<div class="gi fact"><div class="gw">${esc(x.id)}, ${esc(x.w)}${x.date ? ', ' + esc(x.date) : ''}</div><div class="gt">${markQ(esc(snip(x.t, q, 160)), q)}</div>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">원문 ↗</a>` : ''}</div>`
+        : `<button type="button" class="gi" data-gi="${i}"><div class="gw">${esc(x.w)}</div><div class="gt">${markQ(esc(snip(x.t, q, 140)), q)}</div></button>`;
+    });
+  });
+  box.innerHTML = h; box.hidden = false;
+}
+document.addEventListener('input', e => { if (e.target.id === 'gq'){ clearTimeout(gTimer); gTimer = setTimeout(renderSearch, 180); } });
+document.addEventListener('keydown', e => {
+  if (e.target.id === 'gq' && e.key === 'Escape'){ $('#gres').hidden = true; e.target.blur(); }
+  if (e.target.id === 'gq' && e.key === 'Enter'){ e.preventDefault(); clearTimeout(gTimer); renderSearch(); }
+  if (e.key === '/' && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)){ e.preventDefault(); $('#gq').focus(); }
+});
+document.addEventListener('click', e => {
+  const gi = e.target.closest('[data-gi]'); if (gi){ const x = gLast[+gi.dataset.gi]; $('#gres').hidden = true; goTo(x.go, $('#gq').value.trim()); return; }
+  if (e.target.closest('[data-gx]')){ $('#gres').hidden = true; return; }
+  if (e.target.closest('[data-gask]')){ $('#gres').hidden = true; openChat($('#gq').value.trim()); return; }
+  if (!e.target.closest('.gsearch')) { const b = $('#gres'); if (b) b.hidden = true; }
+  const fg = e.target.closest('[data-fgo]'); if (fg){ const m = S.memos.find(x => x.mid === fg.dataset.fgo); if (m) goTo({view: m.view, brief: m.brief, co: m.co}, m.quote || '', true); return; }
+});
+
+// 런타임 기능: 있으면 켜고 없으면 숨김
+const CAP = n => (window.claude && claude.use) ? claude.use(n).catch(() => null) : Promise.resolve(null);
+let SAMPLE = null, MEMO_DB = null;
+CAP('sample').then(x => { SAMPLE = x; });
+CAP('db').then(async d => { if (!d) return; MEMO_DB = d; try { await pullMemos(); } catch(e){} if (view === 'memo') render(); });
+
+// 메모를 DB에도 저장(다른 기기와 Claude가 읽음)
+let synced = {}, syncT = 0, syncing = false;
+async function pullMemos(){
+  const snap = await MEMO_DB.collection('memos').get();
+  let added = 0;
+  snap.docs.forEach(d => { const m = d.data(); if (!m || !m.mid) return; synced[m.mid] = JSON.stringify(m); if (!S.memos.find(x => x.mid === m.mid)){ S.memos.push(m); added++; } });
+  if (added){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} updateCount(); }
+  syncSoon();
+}
+function syncSoon(){ if (!MEMO_DB) return; clearTimeout(syncT); syncT = setTimeout(syncNow, 800); }
+async function syncNow(){
+  if (!MEMO_DB || syncing) return; syncing = true;
+  try {
+    const live = {}; S.memos.forEach(m => live[m.mid] = JSON.stringify(m));
+    for (const [id, js] of Object.entries(live)) if (synced[id] !== js){ await MEMO_DB.collection('memos').doc(id).set(JSON.parse(js)); synced[id] = js; }
+    for (const id of Object.keys(synced)) if (!live[id]){ await MEMO_DB.collection('memos').doc(id).delete(); delete synced[id]; }
+  } catch(e){ /* 쓰기 권한이 없으면 이 브라우저에만 남김 */ }
+  syncing = false;
+}
+
+// 어디서나 메모: 글자를 드래그하면 메모 단추
+const VIEW_LABEL = {cmp3:'거래소 3곳 비교', parts:'파트별 해외 사례', qa:'질문과 답', brief:'브리핑', compare:'가로 비교', lic:'인가와 관계', rules:'제도와 용어', read:'본문'};
+function ctxLabel(){ if (view === 'brief') return '브리핑 ' + (briefCur === 'strat' ? '전략 한눈에' : briefCur); if (view === 'read') return ((CO[cur]||{}).name || '') + ' 본문'; return VIEW_LABEL[view] || view; }
+function ctxCo(){ if (view === 'read') return cur; if (view === 'brief'){ const sl = (CO_NAMES.find(x => x[0] === briefCur)||[])[1]; return sl || ''; } return ''; }
+function addFreeMemo(quote, text, type){
+  const m = {mid: 'm' + Date.now().toString(36) + (S.seq++), lid: '', co: ctxCo(), disp: ctxLabel(), type: type || '메모', text, st: '안 보냄', at: now(), line: quote, quote, view, brief: view === 'brief' ? briefCur : ''};
+  S.memos.push(m); save(); return m;
+}
+let selQuote = '';
+function hideSel(){ const b = $('#selmemo'); if (b) b.hidden = true; }
+function onSel(){
+  const sel = window.getSelection(); const t = sel && sel.toString().trim();
+  if (!t || t.length < 2 || t.length > 800 || view === 'memo') return hideSel();
+  const node = sel.anchorNode && (sel.anchorNode.nodeType === 1 ? sel.anchorNode : sel.anchorNode.parentElement);
+  if (!node || !node.closest('#main') || node.closest('input,textarea,form,.memopop')) return hideSel();
+  const r = sel.getRangeAt(0).getBoundingClientRect(); selQuote = t;
+  const b = $('#selmemo'); b.hidden = false;
+  b.style.top = Math.max(60, r.top + window.scrollY - 42) + 'px'; b.style.left = Math.min(window.innerWidth - 120, Math.max(8, r.left + window.scrollX + r.width/2 - 40)) + 'px';
+}
+document.addEventListener('mouseup', () => setTimeout(onSel, 10));
+document.addEventListener('selectionchange', () => { clearTimeout(window._selT); window._selT = setTimeout(() => { const s = window.getSelection(); if (!s || !s.toString().trim()) hideSel(); else if (matchMedia('(pointer:coarse)').matches) onSel(); }, 250); });
+function openMemoPop(quote, preset){
+  hideSel();
+  let p = $('#memopop'); if (!p){ p = document.createElement('div'); p.id = 'memopop'; p.className = 'memopop'; document.body.appendChild(p); }
+  p.innerHTML = `<div class="mph"><b>메모</b><span>${esc(ctxLabel())}</span><button type="button" data-mpx="1" aria-label="닫기">✕</button></div>
+    <blockquote>${esc(quote.length > 240 ? quote.slice(0,240) + '…' : quote)}</blockquote>
+    <div class="types">${MEMO_TYPES.map((k,i) => `<label><input type="radio" name="mpt" value="${esc(k)}"${i===0?' checked':''}> ${esc(k)}</label>`).join('')}</div>
+    <textarea id="mp-text" placeholder="이 부분에 대한 메모, 반론, 더 알아볼 것">${esc(preset||'')}</textarea>
+    <div class="row"><button type="button" class="pri" data-mpsave="1">저장</button><button type="button" data-mpx="1">취소</button></div>`;
+  p.dataset.quote = quote; p.hidden = false; setTimeout(() => $('#mp-text').focus(), 30);
+}
+document.addEventListener('click', e => {
+  if (e.target.closest('#selmemo')){ e.preventDefault(); openMemoPop(selQuote); return; }
+  if (e.target.closest('[data-mpx]')){ $('#memopop').hidden = true; return; }
+  if (e.target.closest('[data-mpsave]')){
+    const p = $('#memopop'); const txt = $('#mp-text').value.trim(); const type = (p.querySelector('input[name=mpt]:checked')||{}).value || '메모';
+    if (!txt && type === '메모'){ $('#mp-text').focus(); return; }
+    addFreeMemo(p.dataset.quote, txt || type, type); p.hidden = true; window.getSelection().removeAllRanges(); toast(MEMO_DB ? '메모를 저장했습니다(Claude가 읽을 수 있음)' : '메모를 남겼습니다'); return;
+  }
+});
+
+// 질문 창: 사실 DB와 화면 글을 찾아 답함
+const CHAT = {turns: [], busy: false, ctl: null, deep: false};
+const CHAT_RULES = `너는 "KDX 해외 사례" 리서치 화면에 붙은 도우미다. 대상 회사는 Kraken(모회사 Payward), Robinhood, Binance, Coinbase, Dinari, Ondo와 미국 주식 야간 거래 시설 Blue Ocean, Bruce, MOON이다.
+규칙:
+1. 답하기 전에 반드시 search 도구로 자료를 찾는다. 낱말을 바꿔 2~4번 찾아도 된다. 숫자나 날짜는 get_fact로 원문 사실을 확인할 수 있다.
+2. 찾은 자료에 있는 내용만 쓴다. 자료에 없으면 "이 화면 자료에는 없음"이라고 한 줄로 말하고 지어내지 않는다.
+3. 사실 DB에서 온 숫자와 사건 뒤에는 [F-1234]처럼 번호를 붙인다. 숫자에는 기준일을 붙인다.
+4. 한국어, "~함, ~임, ~됨" 문체의 짧은 개조식. 첫 줄은 질문에 대한 한 줄 답, 그 아래 "- " 줄 3~8개. 긴 줄표(—)와 가운뎃점(·)을 쓰지 않는다.
+5. 해석은 "(해석)"으로 시작해 사실과 구분한다. 회사를 주식 토큰 순위로 평가하지 않는다.`;
+const CHAT_TOOLS = [
+  {name: 'search', description: '화면의 모든 글(전략 한눈에, 브리핑, 질문과 답, 비교 문서, 본문)과 사실 DB 1,700여 줄에서 낱말로 찾는다. 결과는 [{kind, where, text, id?, date?}] 최대 limit개. 회사 이름과 핵심 낱말 2~3개를 함께 넣으면 잘 찾는다.',
+   inputSchema: {type: 'object', properties: {query: {type: 'string', description: '찾을 낱말들(공백으로 구분)'}, limit: {type: 'number', description: '최대 개수, 기본 14'}}, required: ['query']},
+   execute: (inp) => { const n = Math.min(25, Math.max(4, Number(inp.limit) || 14)); const q = String(inp.query || ''); chatProgress('찾는 중: ' + q); return searchIdx(q, n, true).map(x => Object.assign({kind: x.k, where: x.w, text: x.t.slice(0, 420)}, x.id ? {id: x.id, date: x.date} : {})); }},
+  {name: 'get_fact', description: '사실 DB 한 줄을 번호(F-1234)로 가져온다. 회사, 내용, 기준일, 원문 링크를 돌려준다.',
+   inputSchema: {type: 'object', properties: {id: {type: 'string'}}, required: ['id']},
+   execute: (inp) => { const f = FACT[String(inp.id || '').trim()]; if (!f) throw new Error('그런 번호 없음'); return {id: f[0], company: f[1], text: f[2], date: f[3], url: f[4]}; }},
+];
+function chatFmt(t){
+  const lines = String(t||'').split('\n');
+  let h = '', inList = false;
+  const inl = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\[?(F-\d{4})\]?/g, (m, id) => FACT[id] && FACT[id][4] ? `<a class="fref" href="${esc(FACT[id][4])}" target="_blank" rel="noopener" title="${esc(FACT[id][2].slice(0,160))}">${id}</a>` : `<span class="fref">${id}</span>`);
+  lines.forEach(l => {
+    const m = l.match(/^\s*[-*•]\s+(.*)$/);
+    if (m){ if (!inList){ h += '<ul>'; inList = true; } h += `<li${/^\(해석\)/.test(m[1]) ? ' class="cint"' : ''}>${inl(m[1])}</li>`; }
+    else { if (inList){ h += '</ul>'; inList = false; } if (l.trim()) h += `<p>${inl(l)}</p>`; }
+  });
+  if (inList) h += '</ul>';
+  return h;
+}
+function chatProgress(t){ const el = document.querySelector('#chat .cmsg.pending .cprog'); if (el) el.textContent = t; }
+function ensureChat(){
+  if ($('#chat')) return;
+  const c = document.createElement('div'); c.id = 'chat'; c.className = 'chat'; c.hidden = true;
+  c.innerHTML = `<div class="chh"><b>질문하기</b><span class="chsub">화면 글과 사실 DB에서 찾아 답함</span><label class="chdeep"><input type="checkbox" id="ch-deep"> 깊게</label><button type="button" data-chx="1" aria-label="닫기">✕</button></div>
+    <div class="chlog" id="chlog"><div class="chhint">예: "Ondo는 미국에서 주식 토큰을 팔 수 있나?", "Kraken이 산 회사와 산 이유", "야간 ATS 수수료 비교"</div></div>
+    <form class="chin" id="chform"><textarea id="ch-q" rows="2" placeholder="질문을 쓰고 Enter"></textarea><div class="chbtns"><button type="submit" class="pri" id="ch-send">묻기</button><button type="button" id="ch-stop" hidden>멈춤</button></div></form>`;
+  document.body.appendChild(c);
+}
+function openChat(q){ ensureChat(); $('#chat').hidden = false; $('#chat-fab').classList.add('on'); if (q){ $('#ch-q').value = q; askChat(); } else setTimeout(() => $('#ch-q').focus(), 30); }
+function addMsg(role, html, cls){ const d = document.createElement('div'); d.className = 'cmsg ' + role + (cls ? ' ' + cls : ''); d.innerHTML = html; $('#chlog').appendChild(d); $('#chlog').scrollTop = 1e9; return d; }
+async function askChat(){
+  const q = $('#ch-q').value.trim(); if (!q || CHAT.busy) return;
+  $('#ch-q').value = ''; addMsg('me', esc(q));
+  const R = searchIdx(q, 6, true);
+  if (!SAMPLE){
+    addMsg('bot', `<p>이 화면에서는 Claude 답변을 쓸 수 없어, 찾은 자료만 보여 드립니다.</p><ul>${R.map(x => `<li>${esc(x.k)}${x.w ? ', ' + esc(x.w) : ''}: ${chatFmt(x.t.slice(0,200)).replace(/^<p>|<\/p>$/g,'')}</li>`).join('') || '<li>찾은 것이 없습니다</li>'}</ul>`);
+    return;
+  }
+  CHAT.busy = true; CHAT.ctl = new AbortController(); $('#ch-stop').hidden = false; $('#ch-send').disabled = true;
+  const box = addMsg('bot', '<div class="cprog">생각하는 중…</div><div class="cbody"></div>', 'pending');
+  CHAT.turns.push({role: 'user', content: q});
+  const turns = [{role: 'user', content: CHAT_RULES + '\n\n지금 보고 있는 화면: ' + ctxLabel() + '\n\n첫 질문: ' + CHAT.turns[0].content}].concat(CHAT.turns.slice(1));
+  try {
+    const res = await SAMPLE(turns, {cache: false, signal: CHAT.ctl.signal, tools: CHAT_TOOLS, modelTier: $('#ch-deep').checked ? 'default' : 'quick',
+      onText: ({text}) => { box.querySelector('.cprog').textContent = ''; box.querySelector('.cbody').innerHTML = chatFmt(text.split('\n\n').pop() ? text : text); $('#chlog').scrollTop = 1e9; }});
+    const text = res.text;
+    box.querySelector('.cbody').innerHTML = chatFmt(text) + (res.truncated ? '<p class="cnote">답이 길어 잘렸습니다. 질문을 나눠 주세요.</p>' : '');
+    CHAT.turns.push({role: 'assistant', content: text});
+    box.classList.remove('pending'); box.querySelector('.cprog').remove();
+    const bar = document.createElement('div'); bar.className = 'cbar';
+    bar.innerHTML = `<button type="button" data-cmemo="1">메모로 남기기</button>`;
+    bar.querySelector('button').onclick = () => { addFreeMemo('질문: ' + q, text, '메모'); toast('답을 메모로 남겼습니다'); };
+    box.appendChild(bar);
+  } catch(e){
+    CHAT.turns.pop();
+    box.classList.remove('pending'); const pr = box.querySelector('.cprog'); if (pr) pr.remove();
+    const msg = {not_granted: 'Claude 사용을 허락하지 않아 답할 수 없습니다.', rate_limited: '질문이 몰렸습니다. 잠시 뒤 다시 물어 주세요.', cancelled: '멈췄습니다.', sampling_disabled: '이 계정에서는 질문 기능이 꺼져 있습니다.'}[e && e.code] || '답을 받지 못했습니다' + (e && e.code ? ' (' + e.code + ')' : '') + '.';
+    box.querySelector('.cbody').innerHTML = (e && e.text ? chatFmt(e.text) : '') + `<p class="cnote">${esc(msg)}</p>`;
+    if (e && e.code === 'not_granted') SAMPLE = null;
+  }
+  CHAT.busy = false; $('#ch-stop').hidden = true; $('#ch-send').disabled = false;
+}
+document.addEventListener('submit', e => { if (e.target.id === 'chform'){ e.preventDefault(); askChat(); } });
+document.addEventListener('keydown', e => { if (e.target.id === 'ch-q' && e.key === 'Enter' && !e.shiftKey && !e.isComposing){ e.preventDefault(); askChat(); } });
+document.addEventListener('click', e => {
+  if (e.target.closest('#chat-fab')){ const c = $('#chat'); if (c && !c.hidden){ c.hidden = true; $('#chat-fab').classList.remove('on'); } else openChat(); return; }
+  if (e.target.closest('[data-chx]')){ $('#chat').hidden = true; $('#chat-fab').classList.remove('on'); return; }
+  if (e.target.closest('#ch-stop')){ CHAT.ctl && CHAT.ctl.abort(); return; }
+});
+(function(){
+  const fab = document.createElement('button'); fab.id = 'chat-fab'; fab.type = 'button'; fab.className = 'chat-fab'; fab.innerHTML = '💬 질문하기'; document.body.appendChild(fab);
+  const sb = document.createElement('button'); sb.id = 'selmemo'; sb.type = 'button'; sb.className = 'selmemo'; sb.hidden = true; sb.innerHTML = '📝 메모'; document.body.appendChild(sb);
+})();
 
 // ---------- 시작 ----------
 const fromHash = location.hash.slice(1);
