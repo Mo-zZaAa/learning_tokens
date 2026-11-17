@@ -1,0 +1,736 @@
+# zerohash Documentation
+
+> The zerohash API's provide you with financial and crypto infrastructure.
+
+## Documentation: Getting Started
+- [Getting Started](https://docs.zerohash.com/docs/getting-started.md): Helpful information that teaches you about our platform and leads you to making your first API call
+  - [Get Platform Access](https://docs.zerohash.com/docs/get-platform-access.md): How to get access to Cert and Production
+  - [Submit First API Call](https://docs.zerohash.com/docs/submit-first-api-call.md): Establish connectivity to our services
+
+## Documentation: User Guides
+- General
+  - [Asset Recovery Process](https://docs.zerohash.com/docs/asset-recovery-process-1.md)
+  - [API Authentication](https://docs.zerohash.com/docs/authentication.md)
+  - [Custody](https://docs.zerohash.com/docs/zerohash-custody.md)
+    - Address Information
+      - [Supported Address Formats](https://docs.zerohash.com/docs/supported-address-formats.md)
+      - [LTC 3-prefixed addresses](https://docs.zerohash.com/docs/does-zero-hash-support-ltc-3-prefixed-addresses.md)
+      - [Address formats for Testing in Cert](https://docs.zerohash.com/docs/address-formats-for-testing-in-cert.md)
+      - [Memos, Destination Tags & Messages](https://docs.zerohash.com/docs/memos-destination-tags.md)
+      - [Blockchain Trustline Requirements](https://docs.zerohash.com/docs/blockchain-trustline-requirements.md)
+    - Mainnets
+      - [Bitcoin Cash (BCH) Chain Support](https://docs.zerohash.com/docs/which-bitcoin-cash-bch-chain-do-you-support.md)
+      - [Preparing for the Ethereum Proof of Stake Merge Event](https://docs.zerohash.com/docs/preparing-for-the-ethereum-proof-of-stake-merge-event.md)
+      - [Solana Blockchain Support FAQ](https://docs.zerohash.com/docs/solana-blockchain-support-faq.md)
+    - Testnets
+      - [Testnet Support and Token Faucets](https://docs.zerohash.com/docs/testnet-support-and-token-faucets.md)
+    - [Proof of Reserves](https://docs.zerohash.com/docs/proof-of-reserves.md): Cryptographically verifiable attestations of participant balances held by zerohash
+  - [API Security](https://docs.zerohash.com/docs/api-security.md): zerohash maintains the highest API security standards
+  - [AWS PrivateLink Connectivity](https://docs.zerohash.com/docs/aws-privatelink-connectivity.md): Connect to zerohash over AWS PrivateLink instead of the public internet
+  - [Request IDs and Idempotency](https://docs.zerohash.com/docs/request-ids.md)
+  - [Pricing](https://docs.zerohash.com/docs/fees.md)
+  - [Permitted and Prohibited/ Restricted Jurisdictions](https://docs.zerohash.com/docs/permitted-and-restricted-jurisdictions.md): List of permitted and restricted jurisdictions.
+    - [Permitted Higher Risk Geographies](https://docs.zerohash.com/docs/updated-list-of-permitted-higher-risk-non-us-geographies.md)
+    - [Prohibited and Restricted Jurisdictions List](https://docs.zerohash.com/docs/prohibited-and-restricted-non-us-jurisdictions-list.md)
+    - [Restricted Endpoints for New York Participants](https://docs.zerohash.com/docs/restricted-activities-for-new-york-participants.md): Functionality that is not enabled for New York Participants on the zerohash platform
+  - [Supported Assets and Instruments](https://docs.zerohash.com/docs/supported-assets-instruments.md)
+    - [Production Environment Assets](https://docs.zerohash.com/docs/production-environment-assets.md)
+    - [Certification Environment Assets](https://docs.zerohash.com/docs/certification-environment-assets.md)
+    - [Production Environment Blockchains](https://docs.zerohash.com/docs/production-environment-blockchains.md)
+    - [Production Environment Stablecoins](https://docs.zerohash.com/docs/production-environment-stablecoins.md)
+  - [Terminology](https://docs.zerohash.com/docs/terminology.md)
+  - [When are Fiat withdrawals processed?](https://docs.zerohash.com/docs/when-are-fiat-withdrawals-processed.md)
+  - [zerohash Cryptocurrency Kiosk Consumer Disclosures, Transaction Limitations, and Refund Policies (Listed by State)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-consumer-disclosures-transaction-limitations-and-refund-policies-listed-by-state-copy.md)
+    - [Crypto ATM & Kiosks Receipt](https://docs.zerohash.com/docs/crypto-atm-kiosks-receipt.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Alabama)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-alabama.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Arizona)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-arizona.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Arkansas)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-arkansas.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (California)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-california-copy-1.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Colorado)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-colorado.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Connecticut)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-connecticut.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Florida)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-florida.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Georgia)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-georgia.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Hawaii)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-hawaii.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Illinois)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-illinois.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Iowa)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-iowa.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Kansas)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-kansas.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Louisiana)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-louisiana.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Maine)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-maine.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Maryland)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-maryland.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Massachusetts)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-massachusetts.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Minnesota)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-minnesota.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Mississippi)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-mississippi.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Missouri)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-missouri.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Nebraska)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-nebraska.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (New Jersey)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-new-jersey.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (New Mexico)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-new-mexico.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (New York)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-new-york.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (North Carolina)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-north-carolina.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (North Dakota)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-north-dakota.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Oklahoma)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-oklahoma.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Rhode Island)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-rhode-island.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Tennessee)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-tennessee.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Texas)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-texas.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Utah)](https://docs.zerohash.com/docs/cryptocurrency-kiosk-disclosures-and-refund-policies-utah.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Vermont)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-vermont.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Washington)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-washington.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Wisconsin)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-wisconsin.md)
+    - [zerohash Cryptocurrency Kiosk Disclosures and Refund Policies (Wyoming)](https://docs.zerohash.com/docs/zerohash-cryptocurrency-kiosk-disclosures-and-refund-policies-wyoming.md)
+- Help Articles
+  - [Safeguarding Your Identity Online](https://docs.zerohash.com/docs/safeguarding-your-identity-online.md)
+  - [Understanding Cryptocurrency, Cash, and Stocks](https://docs.zerohash.com/docs/understanding-cryptocurrency-cash-and-stocks.md)
+  - [Understanding Cryptocurrency Pricing: Unraveling Price Discrepancies](https://docs.zerohash.com/docs/understanding-cryptocurrency-pricing-unraveling-price-discrepancies.md)
+  - [Demystifying Blockchain: How It Works and Transaction Expectations](https://docs.zerohash.com/docs/demystifying-blockchain-how-it-works-and-transaction-expectations.md)
+  - [Protecting Yourself from Cryptocurrency Fraud: Common Scams](https://docs.zerohash.com/docs/protecting-yourself-from-cryptocurrency-fraud-common-scams.md)
+  - [Protecting Against Elder Financial Exploitation in the World of Cryptocurrency](https://docs.zerohash.com/docs/protecting-against-elder-financial-exploitation-in-the-world-of-cryptocurrency.md)
+  - [What to do if you Suspect that you are a Fraud Victim](https://docs.zerohash.com/docs/what-should-i-do-if-i-believe-that-i-am-a-victim-of-fraud-or-a-scam.md)
+  - [Unknown zerohash Charges on Financial Statement](https://docs.zerohash.com/docs/unknown-zero-hash-charges-on-financial-statement.md)
+  - [Navigating Crypto Delivery: A Step-by-Step Guide](https://docs.zerohash.com/docs/navigating-crypto-delivery-a-step-by-step-guide.md)
+  - [What is Cryptocurrency: A Guide to Popular Digital Assets and Consumer Interaction](https://docs.zerohash.com/docs/what-is-cryptocurrency-a-guide-to-popular-digital-assets-and-consumer-interaction.md)
+  - [Assets delisting](https://docs.zerohash.com/docs/assets-delisting.md): Description on how we proceed when an asset is delisted from our platform
+  - [Liquidity Models](https://docs.zerohash.com/docs/liquidity-models.md)
+- [Core API Resources](https://docs.zerohash.com/docs/core-resources.md)
+  - Participants
+    - [Supported Zip Code Formats](https://docs.zerohash.com/docs/supported-zip-code-formats.md)
+    - [ISO 3166 Conversions](https://docs.zerohash.com/docs/iso-3166-subdivision-conversions.md): In certain endpoints, zerohash requires a non-null and valid ISO 3166-2 value. If you do not have these values in your systems already that conform to our standard, this page will instruct you on…
+    - [Sanction Screening](https://docs.zerohash.com/docs/sanction-screening.md): Depending on the Product and the Platform's implementation, zerohash may take on the responsibility of sanction screening end users during the initial onboarding step. Both the Platform and zerohash,…
+    - [ITIN/SSN format](https://docs.zerohash.com/docs/itin-format.md): Document format and errors for the ITIN/SSN document for the USA.
+    - [EU Participant Creation](https://docs.zerohash.com/docs/eu-participant-creation.md)
+    - [EU Entity (Business) Onboarding](https://docs.zerohash.com/docs/eu-entity-business-onboarding.md)
+  - Accounts
+    - [Platform Account FAQs](https://docs.zerohash.com/docs/platform-account-faqs.md)
+    - [Float Accounts](https://docs.zerohash.com/docs/float-accounts.md)
+    - [Custom Accounts](https://docs.zerohash.com/docs/creating-custom-accounts.md)
+    - [Origin Field](https://docs.zerohash.com/docs/origin-field.md)
+  - [Balances Websocket](https://docs.zerohash.com/docs/balances-websocket.md)
+    - [API Workflow](https://docs.zerohash.com/docs/api-workflow-3.md)
+- [Onboarding](https://docs.zerohash.com/docs/onboarding-experience-sample.md): Onboard end users to digital asset services with a pre-built KYC service managed by zerohash.
+  - [KYC Support: Unable to Sign Up/Rejected](https://docs.zerohash.com/docs/faqs-kycaas-unable-to-sign-updecline.md)
+  - [Test verification sessions](https://docs.zerohash.com/docs/test-verification-sessions.md): Recommendations and helpful tips for testing the KYC experience in the zerohash SDK.
+  - [KYC Support: Accepted Identification Documents](https://docs.zerohash.com/docs/kyc-support-accepted-identification-documents.md): Supported documents if asked to provide a government issued photo ID
+- [SDK](https://docs.zerohash.com/docs/sdk.md): Build low-code integrations with the zerohash SDK, which centers on front end experiences.
+  - [Available SDKs](https://docs.zerohash.com/docs/sdk-index.md): Full list of supported SDK products and their details
+  - [SDK Styling](https://docs.zerohash.com/docs/sdk-styling.md)
+  - [Mobile SDKs](https://docs.zerohash.com/docs/mobile-sdks.md): Integrate seamlessly into iOS and Android apps
+    - [iOS SDK](https://docs.zerohash.com/docs/ios-sdk.md)
+    - [Android SDK](https://docs.zerohash.com/docs/android-sdk.md)
+    - [Capacitor Plugin](https://docs.zerohash.com/docs/capacitor-plugin.md)
+    - [Native Migration Guide](https://docs.zerohash.com/docs/native-migration-guide.md): For customers looking to migrate their Web SDK implementation to one of our native SDKs
+- [Client Portal](https://docs.zerohash.com/docs/onboarding.md)
+  - Logging In
+    - [Reset Password](https://docs.zerohash.com/docs/how-do-i-reset-my-password.md): Guide on how to do a password reset.
+    - [Sign Up Link Expired - Way Forward](https://docs.zerohash.com/docs/my-sign-up-link-has-expired.md)
+    - [Login with 2FA Device](https://docs.zerohash.com/docs/how-can-i-login-without-my-2-factor-authentication-device.md)
+    - [Single Sign On (SSO)](https://docs.zerohash.com/docs/single-sign-on-sso.md)
+  - [Application Review Process](https://docs.zerohash.com/docs/application-review-process.md)
+  - Account Administration
+    - [Users](https://docs.zerohash.com/docs/how-to-add-user.md): How to add users on your zerohash account.
+    - [Generate API Keys](https://docs.zerohash.com/docs/generate-api-keys.md): How to generate API keys on zerohash.
+    - [Whitelist IP Addresses](https://docs.zerohash.com/docs/whitelist-ip-addresses.md)
+  - [Setting your Primary Account Group](https://docs.zerohash.com/docs/how-do-i-set-my-primary-account-group.md)
+  - [How do I allocate funds?](https://docs.zerohash.com/docs/how-do-i-allocate-funds.md)
+  - [Reporting Suite](https://docs.zerohash.com/docs/reporting-suite.md): This guide describes the zerohash reporting tools available to platforms.
+  - [Generating Platform Deposit Addresses](https://docs.zerohash.com/docs/generating-platform-deposit-addresses.md)
+  - [Creating a Withdrawal Account](https://docs.zerohash.com/docs/creating-a-withdrawal-account.md)
+- Misc.
+  - [zerohash Index Calculation](https://docs.zerohash.com/docs/how-is-the-zero-hash-index-calculated.md)
+  - [Notional Value Rounding](https://docs.zerohash.com/docs/how-are-notional-values-rounded.md)
+  - [Lock Your Platform](https://docs.zerohash.com/docs/lock-your-platform.md)
+  - [Error handling](https://docs.zerohash.com/docs/error-handling.md)
+- Stablecoins
+  - [Issuer Fees](https://docs.zerohash.com/docs/issuer-fees.md)
+
+## Documentation: Value Added Services
+- [AUTH](https://docs.zerohash.com/docs/auth.md): The trusted layer for onchain account linking
+  - [Getting started with AUTH](https://docs.zerohash.com/docs/auth-sdk-integration-guide.md): Add AUTH to your app, follow a transfer from start to finish, and test it before going live.
+  - [How AUTH works](https://docs.zerohash.com/docs/auth-how-it-works.md): Follow the AUTH flow to link institutional accounts and digital asset wallets, authorize onchain transfers, and track transfer status.
+  - [Configure AUTH](https://docs.zerohash.com/docs/auth-configuration.md): Choose AUTH products, institutional accounts, wallets, assets, networks, controls, and webhook delivery with zerohash before integration.
+  - [AUTH controls](https://docs.zerohash.com/docs/auth-controls.md): Compare AUTH Connection, name-match, and non-AUTH-initiated transaction controls and plan your Platform configuration.
+    - [Connection control](https://docs.zerohash.com/docs/auth-connection-control.md): Select the institutional accounts and wallets end users can connect to through AUTH.
+    - [Name match](https://docs.zerohash.com/docs/auth-name-match.md): Compare name matching before crediting with post-credit exception reporting, and plan deposit holds and recovery.
+    - [Non-AUTH-initiated transaction block](https://docs.zerohash.com/docs/auth-non-auth-initiated-transactions.md): Configure how deposits initiated outside AUTH enter recovery quarantine and how your platform shows status and recovery.
+  - [AUTH network](https://docs.zerohash.com/docs/auth-network.md): Explore AUTH institutional accounts and digital asset wallets, confirm platform availability, or contact zerohash about becoming an AUTH Partner.
+  - [AUTH glossary](https://docs.zerohash.com/docs/auth-glossary.md): Definitions of AUTH providers and partners, connections, institutional accounts, wallets, controls, recovery quarantine, and Cert.
+  - [AUTH FAQ](https://docs.zerohash.com/docs/auth-faq.md): Answers to AUTH questions about account linking, onchain transfers, institutional accounts, digital asset wallets, funding, controls, testing, and setup.
+- Tax
+  - [Tax overview](https://docs.zerohash.com/docs/crypto-tax-overview.md)
+    - [W-9 Implementation Guide - API](https://docs.zerohash.com/docs/w-9-implementation-guide.md): Guide to providing relevant W-9 details during user onboarding
+    - [W-8 Implementation Guide - API](https://docs.zerohash.com/docs/w-8-implementation-guide-api.md): Guide to providing relevant W-8 details during user onboarding
+    - [Tax Data Collection - KYCaaS](https://docs.zerohash.com/docs/tax-data-collection-kycaas.md): What to expect for platforms using zerohash KYC services to onboard customers
+    - [EEA Tax Guidelines](https://docs.zerohash.com/docs/eea-tax-guidelines.md): What to expect for platforms onboarded to zerohash europe
+  - [Taxable Events](https://docs.zerohash.com/docs/what-constitutes-a-taxable-event.md)
+  - [Supported Tax Forms](https://docs.zerohash.com/docs/what-tax-forms-might-i-receive.md)
+- Transfers
+  - Deposits
+    - [Retail Crypto Deposits FAQ](https://docs.zerohash.com/docs/retail-digital-asset-deposits-faq.md)
+    - [CREATE2 Smart Contract-Powered Address Deployments](https://docs.zerohash.com/docs/create2-smart-contract-powered-address-deployments.md): zerohash uses CREATE2 Smart Contracts to predictively deploy on-chain addresses only once a deposit is confirmed
+  - Withdrawals
+    - [Network Fees](https://docs.zerohash.com/docs/network-fees.md)
+    - [Network Fee Estimation](https://docs.zerohash.com/docs/how-are-network-fee-estimates-calculated.md)
+    - [Withdrawal Spreads](https://docs.zerohash.com/docs/withdrawal-spreads.md): This page describes monetization options available on withdrawals
+    - [Minimum Withdrawal Amounts](https://docs.zerohash.com/docs/are-there-minimum-withdrawal-amounts.md)
+    - [Withdrawal Status Tracking](https://docs.zerohash.com/docs/withdrawal-api-response-field-interpretation.md)
+
+## Documentation: Transact
+- [Agentic Suite (Beta)](https://docs.zerohash.com/docs/agentic-suite-beta.md): Enable agents to Hold, Move, and Stream on-chain money
+  - Get Started
+    - [x402 Platform Configuration](https://docs.zerohash.com/docs/payments-facilitator-configuration.md): Enable your platform or merchant to accept agent payments over x402, settled and facilitated by zerohash.
+    - [x402 Merchant Configuration](https://docs.zerohash.com/docs/x402-merchant-configuration.md): Configure the endpoints, pricing, assets, and streaming settings your merchant will use to accept x402 payments from agents.
+    - [Know your Agent (KYA)](https://docs.zerohash.com/docs/know-your-agent.md): Compliant onboarding of agents.
+  - [Hold Onchain Money](https://docs.zerohash.com/docs/hold-onchain-money.md): Provision wallet for your agent.
+  - [Move Onchain Money](https://docs.zerohash.com/docs/move-onchain-money.md): Enable merchants and agents to accept, pay out, and stream payments over x402.
+    - [Accept (payins)](https://docs.zerohash.com/docs/accept-payins.md): Enable agents to pay using zerohash's x402 middleware connector
+      - [Streaming Acceptance](https://docs.zerohash.com/docs/stream-onchain-money.md): Accept streaming payments
+- [Payins](https://docs.zerohash.com/docs/payins.md): Power your checkout with crypto and stablecoins
+  - [Merchant Onboarding Guide](https://docs.zerohash.com/docs/merchant-onboarding-guide.md): Submit and manage Merchants via the zerohash API.
+  - [Shopper Onboarding Guide](https://docs.zerohash.com/docs/onboard-shoppers.md): Everything you need to know to onboard shoppers at the right tier for your transaction type
+  - [Payins SDK Integration Guide](https://docs.zerohash.com/docs/payins-integration-guide.md): Power your checkout with crypto and stablecoins - end to end integration guide
+  - [Payins API Integration Guide](https://docs.zerohash.com/docs/payins-api-integration-guide.md): Power your checkout with crypto and stablecoins - end to end integration guide
+- [Payouts](https://docs.zerohash.com/docs/payouts.md): Always-on global payouts at internet speed
+  - [Modular Payouts](https://docs.zerohash.com/docs/modular-payouts.md): Global Payouts, with maximum flexibility in how you integrate.
+    - [Modular Payouts API Integration Guide](https://docs.zerohash.com/docs/payouts-integration-guide.md): Always-on global payouts at internet speed - end to end technical integration guide
+    - [Modular Payouts SDK Integration Guide](https://docs.zerohash.com/docs/payouts-sdk-integration-guide.md): Always-on global payouts at internet speed - end to end technical integration guide
+    - [Modular Payouts No-Code Integration Guide](https://docs.zerohash.com/docs/enterprise-settlements-no-code-integration-guide.md): Fiat-to-stablecoin settlements with zero engineering effort
+  - [Single API Call Payouts](https://docs.zerohash.com/docs/streamlined-payouts.md): Simplified global Payout execution via API.
+    - [US - Single API Call Payouts API Integration Guide](https://docs.zerohash.com/docs/new-payouts-api-integration-guide.md)
+    - [EU - Single API Call Payouts API](https://docs.zerohash.com/docs/eu-single-api-call-payouts-api.md)
+  - [Payouts - Supported Regions](https://docs.zerohash.com/docs/supported-regions.md): See the table below for our supported regions for the Payouts product
+- Crypto Transfers
+  - [Crypto Deposits SDK Guide](https://docs.zerohash.com/docs/crypto-deposits-sdk-guide.md): Enable users to deposit crypto into your app without conversion to fiat
+  - [Crypto Withdrawals SDK Guide](https://docs.zerohash.com/docs/crypto-withdrawals-guide.md): Enable users to withdraw stablecoins & crypto directly from your platform to their exchange account or wallet
+- [Account Funding](https://docs.zerohash.com/docs/fund-overview.md): Instantly fund an account anytime, anywhere
+  - Deposits
+    - [Onboarding SDK + Fund SDK](https://docs.zerohash.com/docs/fund-integration-guide-onboarding-api-fund-sdk-sdk.md): Instantly fund an account anytime, anywhere - end to end integration guide for the Account Funding product
+    - [Onboarding API + Fund SDK](https://docs.zerohash.com/docs/fund-integration-guide-sdk.md): Instantly fund an account anytime, anywhere - end to end integration guide for the Account Funding product
+    - [Onboarding API + Fund API](https://docs.zerohash.com/docs/fund-integration-guide-api.md): Instantly fund an account anytime, anywhere - end to end integration guide for the Account Funding product
+  - Withdrawals
+    - [Account Link SDK + Withdraw SDK Guide](https://docs.zerohash.com/docs/wallet-link-sdk-integration-guide.md): Platforms can use the Account Link SDK and Withdraw SDK together to allow their End Customers to link an external account and then subsequently withdraw funds to it.
+    - [Fund Withdrawals SDK with AUTH Guide](https://docs.zerohash.com/docs/auth-withdrawals-sdk.md): Simplify withdrawals from your platform with AUTH connectivity to popular exchanges & wallets
+  - Reconciliation Guidelines
+    - [Account Funding + Buy/Sell Reconciliation](https://docs.zerohash.com/docs/account-funding-reconciliation.md): Understanding net settlement across independent products
+    - [Withdrawal Reconciliation](https://docs.zerohash.com/docs/withdrawals-releasing-funds.md): Platforms who manage a ledger on their end must abide by our conformance requirements
+  - [Customer Sub-Accounts](https://docs.zerohash.com/docs/customer-sub-accounts.md): Use the `account_label` parameter to distinguish transactions across multiple accounts within the Account Funding product.
+  - [FAQ's for Support Teams and Customer-Facing Material](https://docs.zerohash.com/docs/faqs-for-platforms-support-team.md)
+  - [Multi-Tenant Account Funding](https://docs.zerohash.com/docs/multi-tenant-account-funding.md): Use the Account Funding product to fund all of our multi-tenant account offerings
+- [On & Off Ramps](https://docs.zerohash.com/docs/on-off-ramps.md): Seamless conversion between fiat and crypto
+  - [On Ramp Integration Guide](https://docs.zerohash.com/docs/on-ramp-integration-guide.md): Seamless conversion between fiat and crypto - end to end technical integration guide
+  - [Off Ramp Integration Guide](https://docs.zerohash.com/docs/off-ramp-integration-guide.md): Seamless conversion between crypto and fiat - end to end technical integration guide
+  - [Custom Spreads](https://docs.zerohash.com/docs/custom-spreads.md)
+  - [Transaction Fees](https://docs.zerohash.com/docs/transaction-fees.md)
+- [Bank Rails](https://docs.zerohash.com/docs/fiat.md): zerohash provides regulated fiat payment infrastructure for moving USD into and out of crypto and stablecoins. This guide introduces the available funding models, the payment rails we support, and…
+  - ACH + RTP Integration
+    - [Bank Account Linking](https://docs.zerohash.com/docs/bank-account-linking.md): ACH and RTP payments require linking and verifying a customer's bank account before any money moves.
+    - [Funding Models](https://docs.zerohash.com/docs/funding-models.md): zerohash supports three ACH funding models: Pre-funded, On-demand, and Instant USD. The model you choose determines funds availability for your customers and balance requirements you may have to…
+    - [ACH Limits and Velocity Controls](https://docs.zerohash.com/docs/ach-limits-and-velocity-controls.md)
+    - [ACH Returns](https://docs.zerohash.com/docs/ach-returns.md)
+- [Virtual Accounts](https://docs.zerohash.com/docs/virtual-accounts.md): Programmatically issue and manage named virtual accounts for customer deposits
+  - [Virtual Accounts Setup](https://docs.zerohash.com/docs/virtual-accounts-setup.md): Get your integration ready before creating your first virtual account.
+  - [Create and Use Virtual Accounts](https://docs.zerohash.com/docs/create-a-virtual-account.md): Create a Virtual Account linked to a customer for deposits and stablecoin or crypto conversions
+  - [Manage Virtual Accounts](https://docs.zerohash.com/docs/manage-virtual-accounts.md): Query or close an existing virtual account(s)
+- Remittances
+  - [Remittances Integration Guide](https://docs.zerohash.com/docs/remittance-integration-guide.md): Make cross-border payments instantly, 24/7/365
+  - [Remittances - Stablecoin Sandwich](https://docs.zerohash.com/docs/fiat-remittances-stablecoin-sandwich.md): The stablecoin bridge - move money across borders and currencies instantly
+  - Lightning Network
+    - [BOLT11 Deposits and Withdrawals Integration Guide](https://docs.zerohash.com/docs/bolt11-deposits-and-withdrawals.md): Deposits and Withdrawals using the BOLT11 standard on the Lightning Network including generating and sending to invoices.
+    - [LNURL Deposits and Withdrawals Integration Guide](https://docs.zerohash.com/docs/lnurl-deposits-and-withdrawals.md): Deposits and Withdrawals using the LNURL standard on the Lightning Network including generating and sending to invoices.
+    - [UMA Deposits and Withdrawals Integration Guide](https://docs.zerohash.com/docs/uma-deposits-and-withdrawals.md): Deposits and Withdrawals using the UMA (LNURL-p) standard on the Lightning Network including generating and sending to invoices.
+- [Transaction Limits](https://docs.zerohash.com/docs/transaction-limits.md)
+- [Recovery](https://docs.zerohash.com/docs/recovery.md): Give your customers a way to recover funds - whether zerohash hosts the experience for you, or you build it directly into your own platform.
+  - Platform-hosted
+    - [API - Recovery Integration Guide](https://docs.zerohash.com/docs/api-recovery.md): Use zerohash's API's to allow your customers to recover funds
+  - zerohash-hosted
+    - [Recovery SDK Integration Guide](https://docs.zerohash.com/docs/recovery-sdk-integration-guide.md)
+    - [Recovery Portal](https://docs.zerohash.com/docs/recovery-portal.md): Direct your customers to zerohash's fully-hosted recovery experience - no UI to build, no API calls to make.
+- [Travel Rule](https://docs.zerohash.com/docs/travel-rule.md): Collect travel rule information from your end customer
+  - [zerohash-hosted Remediation](https://docs.zerohash.com/docs/zerohash-hosted-remediation.md): A fully zerohash-hosted Travel Rule information recovery experience, with no collection UI to build on your end.
+  - [Platform-hosted Remediation](https://docs.zerohash.com/docs/platform-hosted-remediation.md): Build your own Travel Rule information recovery experience using zerohash APIs, with full control over the UI and the end-to-end flow.
+
+## Documentation: Trade
+- [Buy/Sell](https://docs.zerohash.com/docs/buysell.md)
+  - [Choosing Between CLOB and RFQ](https://docs.zerohash.com/docs/choosing-between-clob-and-rfq.md): Differences between execution models
+  - [Central Limit Order Book](https://docs.zerohash.com/docs/central-limit-order-book-3.md)
+    - [Supported Instruments (CLOB)](https://docs.zerohash.com/docs/supported-instruments.md)
+    - [Account Activation & Funding Models](https://docs.zerohash.com/docs/account-setup.md)
+    - [Commissions, Fees and Tiering](https://docs.zerohash.com/docs/commissions-and-fees-spreads-tiers.md)
+    - [Order Management](https://docs.zerohash.com/docs/supported-orders.md)
+    - [Market Data (CLOB)](https://docs.zerohash.com/docs/market-data-clob.md)
+  - [Request For Quote](https://docs.zerohash.com/docs/request-for-quote.md)
+    - [Supported Instruments (RFQ)](https://docs.zerohash.com/docs/supported-instruments-1.md): All assets below are supported within the US.
+    - [Spreads and Fees](https://docs.zerohash.com/docs/spreads-and-fees.md)
+    - [Account Setup & Funding Models](https://docs.zerohash.com/docs/account-setup-1.md)
+    - [Request and Execute Quotes](https://docs.zerohash.com/docs/submit-and-execute-quotes.md)
+    - [Price Subscription Websocket](https://docs.zerohash.com/docs/prices-websocket.md)
+    - [USDC Trading Pairs](https://docs.zerohash.com/docs/usdc-trading-pairs.md)
+- Settlement Process
+  - Settlement Reconciliation
+    - [Standard Settlement](https://docs.zerohash.com/docs/standard-settlement.md)
+    - [Suspense Settlement](https://docs.zerohash.com/docs/suspense-settlement.md)
+  - [Settlement Configurations](https://docs.zerohash.com/docs/settlement-configurations.md)
+  - [Account management guide](https://docs.zerohash.com/docs/account-management-guide.md): Programmatically manage your account via our robust set of API's
+- [Settlements as a Service](https://docs.zerohash.com/docs/settlements-as-a-service.md)
+  - [Settlements as a Service Integration Guide](https://docs.zerohash.com/docs/settlements-as-a-service-integration-guide.md)
+- [ Portfolio Strategies](https://docs.zerohash.com/docs/portfolio-strategies.md)
+  - [Portfolio Strategies Implementation Guide](https://docs.zerohash.com/docs/portfolio-strategies-implementation-guide.md)
+- Account Onboarding & Maintenance
+  - [Customer Account Types](https://docs.zerohash.com/docs/customer-accounts-guide.md)
+    - [Tenant Types](https://docs.zerohash.com/docs/tenant-types.md)
+    - [Financial Advisor Management](https://docs.zerohash.com/docs/financial-advisor-authorization.md)
+    - [Trading with Customer Accounts](https://docs.zerohash.com/docs/customer-account-trading.md)
+    - [Account Lifecycle and Controls](https://docs.zerohash.com/docs/account-lifecycle-and-controls.md)
+  - Ledger Account Types
+    - [Account Basics](https://docs.zerohash.com/docs/what-is-an-account.md)
+    - [Account Groups](https://docs.zerohash.com/docs/what-is-an-account-group.md)
+    - [Account Labels](https://docs.zerohash.com/docs/what-is-an-account-label.md)
+    - [Account Types](https://docs.zerohash.com/docs/what-is-an-account-type.md)
+  - [Participant and Account Statuses and Locking](https://docs.zerohash.com/docs/participant-account-statuses-locking.md)
+- [Financial Advisor-Linked Accounts](https://docs.zerohash.com/docs/financial-advisor-linked-accounts.md): zerohash offers a seamless solution for Financial Advisors to manage customer accounts
+  - [Financial Advisor Implementation Guide](https://docs.zerohash.com/docs/financial-advisor-implementation-guide.md): How to set up a financial advisor for your customers
+- [Collateral Management](https://docs.zerohash.com/docs/collateral-management.md)
+- [Loyalty](https://docs.zerohash.com/docs/loyalty.md)
+  - [Rewards Integration Guide](https://docs.zerohash.com/docs/rewards-integration-guide.md)
+  - [Awards Integration Guide](https://docs.zerohash.com/docs/awards-integration-guide.md)
+- [Staking](https://docs.zerohash.com/docs/staking.md)
+  - [Staking FAQs](https://docs.zerohash.com/docs/staking-faqs.md)
+
+## Documentation: Tokenize
+- Tokenization Payment Rails
+  - [Tokenization Payment Rails Integration Guide](https://docs.zerohash.com/docs/tokenization-payment-rails.md): Powering tokenized finance with real-time, stablecoin-native funding - end to end developer integration guide
+- [Tokenization Engine](https://docs.zerohash.com/docs/tokenization-engine.md): Tokenization Engine Integration Guide
+  - [Fungible Tokens](https://docs.zerohash.com/docs/fungible-token-11-stablecoin-integration.md): Tokenization Engine Integration Guide - Fungible Tokens
+  - [Non-Fungible Tokens (NFT)](https://docs.zerohash.com/docs/non-fungible-token-nft-integration.md): Tokenization Engine Integration Guide - Non-Fungible Tokens
+
+## API Reference: zerohash API
+- [API Authentication](https://docs.zerohash.com/reference/api-authentication.md)
+- Public
+  - [Get server time](https://docs.zerohash.com/reference/get_time.md): Provides the current server time in seconds using Unix timestamp format.
+
+## API Reference: CORE RESOURCES
+- [Participants](https://docs.zerohash.com/reference/participants.md)
+  - [Individual Participants](https://docs.zerohash.com/reference/individual-participants.md)
+    - [Create customer](https://docs.zerohash.com/reference/post_participants-customers-new.md): Submit an **individual participant** to the zerohash ecosystem. This is the single entry point for onboarding a natural-person customer — regardless of how they will use the platform (trading,…
+    - [Update customer](https://docs.zerohash.com/reference/patch_participants-customers-participant-code.md): **Update a customer** of your platform.  _This endpoint is only available to certain participants leveraging zerohash for customer settlements. Please contact us for more information on enabling it._…
+    - [Submit documents](https://docs.zerohash.com/reference/post_participants-documents.md): Submit a **document** on behalf of yourself or a customer as a platform on zerohash — for example identity documents, tax forms (such as `form_w9`), or other supporting files required to complete…
+    - [Lock customer](https://docs.zerohash.com/reference/post_participants-customers-participant-code-lock.md): When platforms terminate a customer, they may alert zerohash through this endpoint.
+    - [Participant Limits](https://docs.zerohash.com/reference/participant-limits.md)
+      - [Update participant limits](https://docs.zerohash.com/reference/patch_participant-participant-code-limits.md): Updates transaction limits for a participant. Allows platforms to configure custom limits by transaction type, time period, and asset. This endpoint is available when the platform is configured…
+      - [Get participant limits](https://docs.zerohash.com/reference/get_participant-participant-code-limits.md): Allows the Platform to query Customer limits, broken out by transaction type, time period and asset.
+  - Beneficiary Participants
+    - [Create beneficiary](https://docs.zerohash.com/reference/post_participants-beneficiaries-new.md): Submit a **beneficiary** to the zerohash ecosystem — an individual who receives payouts through your platform. zerohash runs the required identity and compliance screening and returns a…
+    - [Create entity beneficiary](https://docs.zerohash.com/reference/post_participants-entity-beneficiaries-new.md): Submit a **non-natural-person (business) beneficiary** to the zerohash ecosystem, a legal entity that receives payouts through your platform. zerohash runs the required business and returns a…
+    - [Update beneficiary](https://docs.zerohash.com/reference/patch_participants-beneficiaries-participant-code.md): Update a **beneficiary** in the zerohash ecosystem.  _Available only to platforms leveraging zerohash for beneficiary services. Contact us for more information on enabling it._  This is a **partial…
+  - [Entity Participants](https://docs.zerohash.com/reference/entity-participants.md)
+    - [Create entity customer](https://docs.zerohash.com/reference/post_participants-entity-new.md): Submit an **entity (business) participant** to the zerohash ecosystem. Use this to onboard a legal entity — corporation, LLC, partnership, sole proprietorship, non-profit, trust/estate, and so on —…
+    - [Update entity customer](https://docs.zerohash.com/reference/patch_participants-entity-participant-code.md): **Update an entity customer** affiliated with your platform. _Your platform must be configured for this endpoint before use._  This is a **partial update** — send only the fields you want to change.…
+    - [Submit entity documents](https://docs.zerohash.com/reference/post_participants-entity-documents.md): Submits a business document on behalf of an entity, or an identity document on behalf of a control person or a beneficial owner of the entity, if you operate a platform on zerohash.  **Required…
+    - [Entity User Managment](https://docs.zerohash.com/reference/entity-user-managment.md)
+      - [Update entity user](https://docs.zerohash.com/reference/patch_participants-entity-participant-code-users-user-code.md): Update one or more fields of an existing Entity user (Control Person, Beneficial Owner, or Board Member). This is a partial update endpoint - only the fields provided in the request body will be…
+      - [Get participant user basic info](https://docs.zerohash.com/reference/get_participant-participant-code-basic-info-cp-bo.md): This endpoint returns Participant User basic info.
+      - [Entity User Details](https://docs.zerohash.com/reference/entity-user-details.md)
+        - [Get participant user full info](https://docs.zerohash.com/reference/get_participant-participant-code-full-info-cp-bo.md): This endpoint returns Participant User full info.
+        - [Get participant user sanction screening info](https://docs.zerohash.com/reference/get_participant-participant-code-sanction-screening-info-cp-bo.md): This endpoint returns Participant User sanction screening info.
+  - [Query Participants](https://docs.zerohash.com/reference/query-participants.md)
+    - [Get participant](https://docs.zerohash.com/reference/get_participants-email.md): This endpoint returns a participant associated with an email address. It provides a dedicated and lightweight alternative to using the email query parameter within the `GET /participants` endpoint…
+    - [List participants](https://docs.zerohash.com/reference/get_participants.md): Returns a list of all participants to which you are associated.
+    - [Get participant basic info](https://docs.zerohash.com/reference/get_participant-participant-code-basic-info.md): This endpoint returns Participant basic info.
+    - [Get participant KYC status](https://docs.zerohash.com/reference/get_participant-participant-code-kyc-status.md): This endpoint returns KYC Status information attached to a participant.
+    - [Participant Details](https://docs.zerohash.com/reference/participant-details.md)
+      - [Get participant sanction screening info](https://docs.zerohash.com/reference/get_participant-participant-code-sanction-screening-info.md): This endpoint returns Participant sanction screening info.
+      - [Get participant full info](https://docs.zerohash.com/reference/get_participant-participant-code-full-info.md): This endpoint returns Participant full info.
+      - [Get participant document metadata](https://docs.zerohash.com/reference/get_participant-participant-code-full-info-document-metadata.md): Returns a list of KYC document metadata for a participant. Does not include document contents or signed URLs.
+      - [Download participant document](https://docs.zerohash.com/reference/get_participant-participant-code-full-info-documents-document-id-download.md): Returns a single KYC document with a presigned S3 URL for downloading. The presigned URL expires after 15 minutes. Returns 404 if the document is not found or does not belong to the participant.
+  - [Participant Jurisdictions](https://docs.zerohash.com/reference/participant-jurisdictions.md)
+    - [List countries](https://docs.zerohash.com/reference/get_jurisdiction-countries.md): Returns a list of ISO 3166-1-A2 country codes & country names.
+    - [List subdivisions](https://docs.zerohash.com/reference/get_jurisdiction-subdivisions.md): Returns a list of ISO 3166-2 subdivisions for the provided country.
+    - [Evaluate participant onboarding](https://docs.zerohash.com/reference/post_jurisdiction-evaluate-onboarding.md): Returns a status whether the onboarding operation is allowed or not.
+  - [Appendix](https://docs.zerohash.com/reference/appendix-1.md)
+- [Accounts](https://docs.zerohash.com/reference/accounts-4.md)
+  - [Get account](https://docs.zerohash.com/reference/get_accounts-account-id.md): Retrieves account details for a given `account_id`.
+  - [List accounts](https://docs.zerohash.com/reference/get_accounts.md): Retrieves a list of all accounts and their current balances. When the request is authenticated with a crypto-withdrawals JWT that pins the withdrawal to an asset and a network, the listing is…
+  - [Account Movements](https://docs.zerohash.com/reference/movements.md)
+    - [List movements](https://docs.zerohash.com/reference/get_movements.md): Retrieves the history of each itemized movement that has been applied to all account(s) that the requesting platform has access to. Results are limited to the last 2 months
+    - [List account movements](https://docs.zerohash.com/reference/get_accounts-account-id-movements.md): Retrieves the history of each itemized movement that has been applied to an account to lead up to its current balance.
+    - [List account run history](https://docs.zerohash.com/reference/get_accounts-account-id-run-history.md): Retrieves the history of grouped settlements, deposits, withdrawals and other changes that have been applied to an account to lead up to its current balance.
+  - [List NDOs](https://docs.zerohash.com/reference/get_accounts-net-delivery-obligations.md): Returns all net delivery obligations (NDO) across all accounts under your platform.
+- [Customer Accounts (MTA)](https://docs.zerohash.com/reference/customer-accounts-mta.md)
+  - Account Opening
+    - [Create customer account](https://docs.zerohash.com/reference/post_accounts.md): Creates a new customer account. The pair (`participant_code`, `account_label`) is unique per participant and is used as idempotency check rather than `X-Request-Id`; submitting the same pair a second…
+    - [Get account details](https://docs.zerohash.com/reference/get_accounts-zrn-details.md): Retrieves customer account details
+    - [Update customer account](https://docs.zerohash.com/reference/patch_accounts-zrn.md): Updates prefunded and tier values for an existing customer account.
+  - [Tenant Management](https://docs.zerohash.com/reference/tenant-management-1.md)
+    - [Add tenant to customer account](https://docs.zerohash.com/reference/post_accounts-zrn-tenants.md): Adds a tenant to an existing customer account
+    - [Remove tenant from customer account](https://docs.zerohash.com/reference/delete_accounts-zrn-tenants-tenant.md): Removes a tenant from an existing customer account
+  - Advisor Management
+    - [Add advisor to customer account](https://docs.zerohash.com/reference/post_accounts-zrn-advisors.md): Adds an advisor to an existing customer account
+    - [Remove advisor from customer account](https://docs.zerohash.com/reference/delete_accounts-zrn-advisors-financial-advisor.md): Removes an advisor from an existing customer account
+  - [Account Administration](https://docs.zerohash.com/reference/account-administration-1.md)
+    - [Withdraw lock customer account](https://docs.zerohash.com/reference/post_accounts-zrn-withdraw-lock.md): Locks withdrawals for an existing customer account
+    - [Withdraw unlock customer account](https://docs.zerohash.com/reference/post_accounts-zrn-withdraw-unlock.md): Unlocks withdrawals for an existing customer account
+    - [Lock customer account](https://docs.zerohash.com/reference/post_accounts-zrn-lock.md): Locks an existing customer account
+    - [Unlock customer account](https://docs.zerohash.com/reference/post_accounts-zrn-unlock.md): Unlocks an existing customer account
+    - [Divest customer account](https://docs.zerohash.com/reference/post_accounts-zrn-divest.md): Divests an existing customer account
+    - [Close customer account](https://docs.zerohash.com/reference/post_accounts-zrn-close.md): Closes an existing customer account
+- [Deposits](https://docs.zerohash.com/reference/deposits-3.md)
+  - [Blockchain Addresses](https://docs.zerohash.com/reference/blockchain-3.md)
+    - [Create deposit address](https://docs.zerohash.com/reference/post_deposits-digital-asset-addresses.md): Creates a deposit address for a given asset.
+    - [Update address owner](https://docs.zerohash.com/reference/patch_deposits-digital-asset-addresses.md): Assigns a new owner to a digital wallet address.
+    - [List deposit addresses](https://docs.zerohash.com/reference/get_deposits-digital-asset-addresses.md): Retrieves a list of addresses associated with your platform.
+    - Blockchain Deposits
+      - [Get crypto deposit by ID](https://docs.zerohash.com/reference/get_deposits-crypto-deposit-id.md): Retrieves a single blockchain deposit by its unique deposit ID.
+      - [List crypto deposits](https://docs.zerohash.com/reference/get_deposits-crypto.md): Retrieves a paginated list of blockchain deposits. Filter by deposit IDs, account IDs, transaction hashes, assets, states, and timestamps.
+  - Universal Money Addresses (UMA)
+    - [Create UMA address](https://docs.zerohash.com/reference/post_deposits-uma.md): Creates an UMA address for a given participant.
+    - [List UMA addresses](https://docs.zerohash.com/reference/get_deposits-uma.md): Retrieves a list of UMA addresses associated with your platform.
+    - [Update UMA address](https://docs.zerohash.com/reference/patch_deposits-uma.md): Updates an UMA username for a given participant.
+  - BOLT11
+    - [Create a BOLT11 invoice for deposit](https://docs.zerohash.com/reference/post_deposits-bolt11.md): Creates a Lightning Network invoice (BOLT11) to deposit funds to the informed participant account.
+    - [Create a test payment for a BOLT11 deposit invoice](https://docs.zerohash.com/reference/post_deposits-bolt11-test-payment.md): Simulate a payment of BOLT11 invoice deposit generated by /deposits/bolt11. (CERT only)
+  - Management
+    - [List deposits](https://docs.zerohash.com/reference/get_deposits.md): Retrieves a paginated list of deposits made by you and your customers. Results are limited to the last 2 months.
+    - [List fiat accounts](https://docs.zerohash.com/reference/get_deposits-fiat-accounts.md): Retrieves a list of all fiat accounts. You must include your participant_code in the reference field with any deposit to ensure that funds can be allocated correctly to your participant.
+  - CERT Only
+    - [Fund account](https://docs.zerohash.com/reference/post_deposits-fund.md): Funds a specified fiat account in the zerohash CERT environment. This is helpful when automating end-to-end testing or manually validating a feature. Not available in production.
+  - Report External Cost-Basis on Deposits
+    - [Create deposit transfer lots](https://docs.zerohash.com/reference/post_deposits-deposit-id-lots.md): Associates one or more cost-basis lots with a deposit for tax reporting.
+    - [Get deposit transfer lots](https://docs.zerohash.com/reference/get_deposits-deposit-id-lots.md): Retrieves the cost-basis transfer lots recorded for a deposit.
+    - [Delete deposit transfer lots](https://docs.zerohash.com/reference/delete_deposits-deposit-id-lots.md): Removes the cost-basis transfer lots recorded for a deposit. Supply a `request_id` to delete a specific submission; omit the body to clear the deposit’s current lot.
+- Withdrawals
+  - Request
+    - [Create withdrawal request](https://docs.zerohash.com/reference/post_withdrawals-requests.md): Creates new withdrawal requests to be settled. Withdrawal requests created through the API go directly into an APPROVED state.  ### Specifying the destination  Provide **exactly one** of the…
+    - [Get withdrawal request](https://docs.zerohash.com/reference/get_withdrawals-requests-id.md): Retrieves a specific withdrawal request by `id` associated with your participant or platform.
+    - [Delete withdrawal request](https://docs.zerohash.com/reference/delete_withdrawals-requests-id.md): Rejects a pending withdrawal request.
+    - [Get withdrawal requests](https://docs.zerohash.com/reference/get_withdrawals-requests.md): Retrieves a list of all withdrawal requests created by users as part of your participant. Results are limited to the last 2 months.
+  - [Locked Network Fee](https://docs.zerohash.com/reference/locked-network-fee-2.md)
+    - [Get withdrawal quote](https://docs.zerohash.com/reference/get_withdrawals-locked-network-fee.md): Returns a locked network fee quote for a planned crypto withdrawal. The returned `withdrawal_quote_id` is valid for 30 seconds and must be passed to POST /withdrawals/execute to complete the…
+    - [Execute withdrawal](https://docs.zerohash.com/reference/post_withdrawals-execute.md): Executes a withdrawal that has been previously quoted. Fee denomination, since the key names do not make it obvious: `network_fee`, `withdrawal_fee` and the `net_withdrawal_*` amounts are all…
+    - [Get network fee estimate](https://docs.zerohash.com/reference/get_withdrawals-estimate-network-fee.md): Returns a withdrawal estimation for a given asset.
+  - Universal Money Address (UMA)
+    - [Request UMA Withdrawal](https://docs.zerohash.com/reference/post_withdrawals-uma.md): Requests a withdrawal to an UMA address (on Lightning Network).
+    - [Performs an UMA lookup prior to initiating a withdrawal](https://docs.zerohash.com/reference/get_withdrawals-umalookup-recipient.md): Verifies UMA address of a recipient and returns details of supported receiving currencies` (on Lightning Network).
+  - Blockchain
+    - [Get withdrawal addresses](https://docs.zerohash.com/reference/get_withdrawals-digital-asset-addresses.md): Retrieves a list of all withdrawal addresses created by users as part of your participant.
+    - [Get withdrawal address](https://docs.zerohash.com/reference/get_withdrawals-digital-asset-addresses-id.md): Retrieves a specific crypto withdrawal account associated with your participant or platform.
+    - [Validate address](https://docs.zerohash.com/reference/get_withdrawals-validate-address.md): Checks whether a withdrawal address is valid for a given asset. For tag-based assets (e.g. XRP, XLM, EOS), also validates whether a destination tag or memo is required.
+  - Fiat
+    - [Get fiat accounts](https://docs.zerohash.com/reference/get_withdrawals-fiat-accounts.md): Retrieves a list of all whitelisted fiat withdrawal accounts. Fiat accounts are currently whitelisted via the Client Portal only.
+    - [Get fiat account](https://docs.zerohash.com/reference/get_withdrawals-fiat-accounts-id.md): Retrieves a specific fiat withdrawal account that has been whitelisted.
+- Travel Rule
+  - [List trusted VASPs](https://docs.zerohash.com/reference/get_travel-rule-vasps.md): Lists the Virtual Asset Service Providers (VASPs) that zerohash can exchange Travel Rule data with. When submitting Travel Rule information for a hosted wallet, pass the chosen VASP `id` as…
+  - [Get Travel Rule approval state](https://docs.zerohash.com/reference/get_travel-rule-state-approval.md): Returns whether a deposit or a planned withdrawal can go ahead under the Travel Rule and, if it cannot, what information is still needed.  - **Deposit mode** (`intention_action=deposit`): send…
+  - [Submit Travel Rule information](https://docs.zerohash.com/reference/post_travel-rule-submit.md): Submits Travel Rule information about the owner of a crypto address, either for an existing deposit (send `deposit_id`) or for an address (send `address`). Use `address` to register a withdrawal…
+- Assets
+  - [List assets](https://docs.zerohash.com/reference/get_assets.md): Returns a list of all assets supported in the zerohash environment.
+  - [Get asset staking information](https://docs.zerohash.com/reference/get_assets-asset-staking-info.md): Returns staking parameters for a specific asset including APY, activation periods, and unstaking details.
+- Transfers
+  - [Create transfer](https://docs.zerohash.com/reference/post_transfers.md): Create a new transfer request between your own accounts. To submit transfers on behalf of others, you will require the `submits_platform_transfers_for` relationship. Transfer requests created via the…
+  - [List transfers](https://docs.zerohash.com/reference/get_transfers.md): Retrieves a list of objects containing information about transfers. This endpoint supports pagination and filtering based on the below parameters. Results are limited to the last 2 months.
+  - [Get transfer](https://docs.zerohash.com/reference/get_transfers-id.md): Retrieves a single transfer made to or from your participant, or to or from your platform's account group.
+- Proof of Reserves
+  - [Get Proof of Reserves signing keys](https://docs.zerohash.com/reference/get_por-keys.md): List the `zh_por_pub` Ed25519 public keys used to sign Merkle Sum Tree root commitments, with the range of snapshot dates each one covers.  The list is a discovery convenience, not a trust anchor: it…
+  - [Get a signed root commitment](https://docs.zerohash.com/reference/get_por-roots-asset-snapshot.md): Return the signed Merkle Sum Tree root commitment for one asset in your platform's tree.  The tree is always your own: the platform is taken from your authenticated identity and cannot be supplied in…
+  - [Get an inclusion proof for a participant](https://docs.zerohash.com/reference/post_por-proofs-asset-snapshot.md): Return the Merkle inclusion proof for one participant in your platform's tree for an asset: the leaf preimage, the sibling path, and the signed root the path resolves to.  This is a POST because the…
+
+## API Reference: TRADING
+- [External Market Data](https://docs.zerohash.com/reference/market-data-2.md)
+  - News
+    - [List news articles](https://docs.zerohash.com/reference/get_market-data-news-latest.md): Retrieves a list of market news articles filtered using given parameters.
+    - [List news feeds](https://docs.zerohash.com/reference/get_market-data-news-feeds.md): Retrieves a list of available market data feeds, which can be used to query articles.
+    - [List categories](https://docs.zerohash.com/reference/get_market-data-news-categories.md): Retrieves a list of available market data categories, which can be used to query articles.
+  - Symbol Data
+    - [List symbol data](https://docs.zerohash.com/reference/get_market-data-symbol-data.md): Retrieves a list of symbols and their market data.
+    - [List OHLCV data](https://docs.zerohash.com/reference/get_market-data-ohlcv.md): Retrieves an list of historical data of open, high, low, close, underlying_volume and quoted_volume.
+- [Index](https://docs.zerohash.com/reference/index-page.md)
+  - [List index prices](https://docs.zerohash.com/reference/get_index.md): Request the latest zerohash index value for the most recently calculated data.
+- [Staking](https://docs.zerohash.com/reference/staking-1.md)
+  - [Stake Management](https://docs.zerohash.com/reference/stake-management.md)
+    - [Create a new stake](https://docs.zerohash.com/reference/post_stakes.md): Submit a staking request for a specific asset. The platform performs validation checks before processing the stake.
+    - [Cancel a stake](https://docs.zerohash.com/reference/post_stakes-stake-id-cancel.md): Cancel a pending stake request before it is fully processed.
+    - [Get stake status](https://docs.zerohash.com/reference/get_stakes-stake-id-status.md): Get the current status and details of a specific stake by its ID.
+    - [Get staking summary](https://docs.zerohash.com/reference/get_stakes-participant-code-asset-summary.md): Get a summary of the staking activity for a given participant_code and asset, including total staked amount, total rewards earned, and average APY.
+    - [List staking rewards](https://docs.zerohash.com/reference/get_stakes-participant-code-rewards.md): Retrieve staking reward history for a participant. Includes detailed reward information and cumulative summaries.
+    - [List participant stakes](https://docs.zerohash.com/reference/get_stakes-participant-code.md): List all stakes for a participant with optional filtering by asset, status and creation time. Time filters take full RFC3339 timestamps; the rewards endpoint instead filters by calendar date with…
+  - [Unstake Management](https://docs.zerohash.com/reference/unstake-management.md)
+    - [Cancel an unstake](https://docs.zerohash.com/reference/post_stakes-unstake-unstake-id-cancel.md): Cancel a pending unstake request before it is fully processed.
+    - [Unstake assets](https://docs.zerohash.com/reference/post_stakes-unstake.md): Execute unstaking operation to withdraw staked assets. Funds will become available after the network-specific cooldown period.
+    - [List participant unstakes](https://docs.zerohash.com/reference/get_stakes-participant-code-unstakes.md): List all unstakes for a participant with optional filtering by asset, status, creation time and completion time. Time filters take full RFC3339 timestamps; the rewards endpoint instead filters by…
+    - [Get unstake status](https://docs.zerohash.com/reference/get_stakes-unstake-unstake-id-status.md): Get the current status and details of a specific unstake request by its ID.
+- [Positions](https://docs.zerohash.com/reference/positions.md)
+  - [List positions](https://docs.zerohash.com/reference/get_positions.md): Retrieve all positions maintained at zerohash.
+  - [List platform positions](https://docs.zerohash.com/reference/get_positions-platform-platform-code.md): Retrieve all platform positions maintained at zerohash.
+  - [List participant positions](https://docs.zerohash.com/reference/get_positions-participant-id.md): Retrieve all positions for the specified participant maintained at zerohash.
+- [Trades](https://docs.zerohash.com/reference/trades.md)
+  - [Query Trades](https://docs.zerohash.com/reference/query-trades.md)
+    - [Get trade](https://docs.zerohash.com/reference/get_trades-trade-id.md): Retrieves trade details for a specific trade.
+    - [Get trades](https://docs.zerohash.com/reference/get_trades.md): Returns trade details where the requestor is the Platform, either party associated with the trade, or the account group where the trade was settled. For the party information, the asset is the…
+  - [Post Trade Settlement ](https://docs.zerohash.com/reference/post-trade-settlement.md)
+    - [Submit trade](https://docs.zerohash.com/reference/post_trades.md): Submits a trade for settlement that was matched and executed outside of zerohash.
+    - [Submit batch of trades](https://docs.zerohash.com/reference/post_trades-batch.md): Submits a batch of trades for settlement that was matched and executed outside of zerohash.
+- [Request For Quote](https://docs.zerohash.com/reference/liquidity.md)
+  - [Get quote](https://docs.zerohash.com/reference/post_liquidity-rfq.md): Retrieves a quote for the purchase or sale of a given asset. Exactly one of `quantity` or `total` must be supplied in the request body.  **EU platforms:** `EUR` is supported as the `quoted_currency`.
+  - [Update quote](https://docs.zerohash.com/reference/patch_liquidity-rfq.md): Updates an active quote's `total` (and optionally its `fees`) before execution. The `quote_id` and new `total` are both required.
+  - [Execute quote](https://docs.zerohash.com/reference/post_liquidity-execute.md): Executes the quote identified by `quote_id`. Returns the executed quote, the booked `trade_id`(s), and the trade status.
+- [Portfolio Strategies](https://docs.zerohash.com/reference/portfolio-strategies.md)
+  - [Strategy Management](https://docs.zerohash.com/reference/strategy-management.md)
+    - [Create a Strategy](https://docs.zerohash.com/reference/post_strategies.md): Creates a new Strategy under your platform. Synchronous. The `request_id` sent as the `X-REQUEST-ID` header is the idempotency key — re-submitting the same value returns the existing Strategy with…
+    - [Update a Strategy's metadata](https://docs.zerohash.com/reference/patch_strategies-strategy-id.md): Updates the Strategy's `metadata`. Synchronous. The submitted value replaces the previous one verbatim (no merge); pass `{}` to clear. Only `metadata` is mutable.
+    - [List Strategies](https://docs.zerohash.com/reference/get_strategies.md): Lists all Strategies under your platform, paginated. Synchronous.
+    - [Get a Strategy](https://docs.zerohash.com/reference/get_strategies-strategy-id.md): Retrieves a single Strategy by its `id`. Synchronous.
+  - [Traders](https://docs.zerohash.com/reference/traders.md)
+    - [Update a Trader's settings](https://docs.zerohash.com/reference/patch_strategies-traders-trader-id.md): Updates a Trader's settings. Synchronous. Currently the only mutable field is `auto_rebalance`. Does not affect any in-flight Operation; takes effect on the next Rebalance.
+    - [List Traders](https://docs.zerohash.com/reference/get_strategies-traders.md): Lists Traders across one or more Strategies, paginated. Synchronous.
+    - [Get a Trader](https://docs.zerohash.com/reference/get_strategies-traders-trader-id.md): Retrieves a single Trader by its `id`. Synchronous.
+  - [Operations](https://docs.zerohash.com/reference/operations.md)
+    - [Rebalance](https://docs.zerohash.com/reference/post_strategies-strategy-id-rebalance.md): Re-aligns Traders to the supplied allocations. Asynchronous. If `participants` is omitted, every Trader with `auto_rebalance: true` is targeted; if provided, only those Traders are targeted (ignoring…
+    - [Enroll participants](https://docs.zerohash.com/reference/post_strategies-strategy-id-enroll.md): Submits a new enrollment Operation. Asynchronous. Each participant is processed independently; participant-level failures do not block the others. Idempotent on (strategy_id, `X-REQUEST-ID`).
+    - [Top up participants](https://docs.zerohash.com/reference/post_strategies-strategy-id-top-up.md): Adds fiat to one or more existing Traders' positions and buys proportionally to the supplied allocations. Asynchronous. Idempotent on (strategy_id, `X-REQUEST-ID`).
+    - [Partial sell](https://docs.zerohash.com/reference/post_strategies-strategy-id-partial-sell.md): Executes a partial sell for one or more existing Traders. `amount` is the fiat the Trader wants back; sells are sized proportionally to the supplied allocations. Asynchronous. PartialSell does NOT…
+    - [Liquidate participants](https://docs.zerohash.com/reference/post_strategies-strategy-id-liquidate.md): Fully exits one or more participants from the Strategy by selling everything they currently hold. Asynchronous. No allocations or per-participant amount — zerohash reads each participant's current…
+    - [List Operations](https://docs.zerohash.com/reference/get_strategies-operations.md): Lists Operations across one or more Strategies, paginated. Synchronous.
+    - [Get an Operation](https://docs.zerohash.com/reference/get_strategies-operations-operation-id.md): Retrieves a single Operation by its `id`. Use this to poll until `status` is terminal (`settled`, `skipped`, or `failed`) — or subscribe to webhooks and skip the polling.
+  - [Executions](https://docs.zerohash.com/reference/executions.md)
+    - [List Executions](https://docs.zerohash.com/reference/get_strategies-executions.md): Lists Executions across one or more Strategies, paginated. Each Execution includes the full `instructions[]` array, which can be large — narrow with filters whenever possible. Synchronous.
+    - [Get an Execution](https://docs.zerohash.com/reference/get_strategies-executions-execution-id.md): Retrieves a single Execution by its `id`. Synchronous. Includes the full `instructions[]` array.
+- [Central Limit Order Book](https://docs.zerohash.com/reference/clob.md)
+  - [Account Management](https://docs.zerohash.com/reference/account-management-6.md)
+    - [Get account balance](https://docs.zerohash.com/reference/post_orders-v1-get-account-balance.md): Returns a snapshot of an account balance and buying power on the CLOB matching the given filters.
+    - [List account balances](https://docs.zerohash.com/reference/post_orders-v1-list-account-balances.md): Returns a snapshotted list  balances and buying for an account power on the CLOB matching the given filter.
+  - [Order Management](https://docs.zerohash.com/reference/order-management-3.md)
+    - [Submit order](https://docs.zerohash.com/reference/post_orders-v1-insert-order.md): Submit a new order to the CLOB.
+    - [Create order subscription](https://docs.zerohash.com/reference/post_orders-v1-create-order-subscription.md): Create a subscription to receive updates on working orders.
+    - [List open orders](https://docs.zerohash.com/reference/post_orders-v1-get-open-orders.md): Returns snapshot of working orders the CLOB matching the given filters.
+    - [List orders](https://docs.zerohash.com/reference/post_orders-v1-search-orders.md): Search for orders places on the CLOB matching the given filters.
+    - [Get order executions](https://docs.zerohash.com/reference/post_orders-v1-search-executions.md): Search for order executions on the CLOB matching the given filters. This endpoint returns all the executions for the given filters, and is paginated.  Note: This executions means all the events that…
+    - [Cancel order](https://docs.zerohash.com/reference/post_orders-v1-cancel-order.md): Cancel an order on the CLOB.
+  - [Market Data](https://docs.zerohash.com/reference/market-data-4.md)
+    - [Market data subscription](https://docs.zerohash.com/reference/post_orders-v1-create-market-data-subscription.md): Subscribe to market data for CLOB instrument.
+    - [List instruments](https://docs.zerohash.com/reference/post_orders-v1-list-instruments.md): List all instruments available on the CLOB.
+    - [Get trade stats](https://docs.zerohash.com/reference/post_orders-v1-get-trade-stats.md): Get trade stats for a given instrument.
+- [Rewards](https://docs.zerohash.com/reference/rewards.md)
+  - [Disperse rewards](https://docs.zerohash.com/reference/post_rewards.md): Completes a transaction involving a designated asset and disperses rewards.
+- [Awards](https://docs.zerohash.com/reference/awards.md)
+  - [Fund awards account](https://docs.zerohash.com/reference/post_awards-fund.md): Define the quantity, quoted currency, and asset that you plan to distribute to customers through the `POST /awards/distribute` endpoint.
+  - [Distribute awards](https://docs.zerohash.com/reference/post_awards-distribute.md): Evenly distribute the purchased crypto among the specified customers.
+
+## API Reference: TRANSACT
+- [Convert and Withdraw](https://docs.zerohash.com/reference/convert-and-withdraw.md)
+  - [Get quote](https://docs.zerohash.com/reference/post_convert-withdraw-rfq.md): Retrieves a quote for the purchase of an asset and the network fees associated with an imminent and automatic withdrawal of the asset. Exactly one of `quantity` or `total` must be supplied in the…
+  - [Execute quote](https://docs.zerohash.com/reference/post_convert-withdraw-execute.md): Executes a convert-and-withdraw quote. The underlying asset will be purchased and automatically withdrawn. Use the returned `withdrawal_request_id` with `GET /withdrawals/requests/{id}` to track the…
+- Payments
+  - Manage Payments
+    - [Create payment](https://docs.zerohash.com/reference/post_payments.md): Creates a fiat pre-fund/settlement or a crypto payout. The request body must match one of the four documented shapes; submitting both `total` and `quantity` on a payout is rejected.
+    - [Retry a fiat payment](https://docs.zerohash.com/reference/post_payments-transaction-id-retry.md): Retries a failed, cancelled, or returned fiat transaction whose linked trade has already terminated.
+    - [List pending ACH settlements](https://docs.zerohash.com/reference/get_payments-settlements.md): Retrieves pending ACH settlements for a specific platform. Used by the platform to reconcile the daily ACH settlement window.
+    - [List fiat transaction statuses](https://docs.zerohash.com/reference/get_payments-status.md): Retrieves fiat transaction status objects for the calling platform. Defaults: when `start_date`/`end_date` are omitted, the last day of transactions is returned; when `page`/`size` are omitted, the…
+    - [List fiat transaction history](https://docs.zerohash.com/reference/get_payments-history.md): Retrieves the historical fiat transactions (ACH / same-day ACH / wire / RTP) for the calling platform, with optional filters by participant, transfer type, or a set of transaction identifiers.
+  - Manage External Accounts
+    - [Create external account](https://docs.zerohash.com/reference/post_payments-external-accounts.md): Links an external fiat or crypto account to a participant. Fiat accounts are linked via a Plaid processor token. Crypto account support requires the feature to be enabled on the calling platform.
+    - [List external accounts](https://docs.zerohash.com/reference/get_payments-external-accounts.md): Retrieves a paginated list of external accounts linked to the calling platform, optionally filtered by participants, account type, or account status.
+    - [Close external account](https://docs.zerohash.com/reference/post_payments-external-accounts-external-account-id-close.md): Closes an external account previously linked to a participant. After closure the account can no longer be used for new payments.
+  - ACH powered RFQ
+    - [Request payment quote](https://docs.zerohash.com/reference/post_payments-rfq.md): Retrieves a quote for a payout. Exactly one of `quantity` or `total` must be supplied. The returned `quote_id` can be passed to `POST /payments/execute` before `expire_ts`.
+    - [Execute payment quote](https://docs.zerohash.com/reference/post_payments-execute.md): Executes the quote identified by `quote_id` and creates the underlying fiat transaction. The quote must not have expired.
+  - Query Payments
+    - [Get payment by id](https://docs.zerohash.com/reference/get_payments-payment-id.md): Fetches a single payout by its identifier, returning the current lifecycle status and on-chain details.
+    - [List payments](https://docs.zerohash.com/reference/get_payments.md): Retrieves a paginated list of payouts for the platform, optionally filtered by `participant_code` and a `start_date` / `end_date` window.
+- Account Funding
+  - Account Funding Deposits
+    - [Get quote](https://docs.zerohash.com/reference/post_fund-rfq.md): Retrieves a quote for a fund event for a given participant code and asset. This endpoint response indicates the rate by which a subsequent on-chain deposit will be honored at.
+    - [List transactions](https://docs.zerohash.com/reference/get_fund-transactions.md): You can use the `fund_id` in the response as the “parent” to query `GET /movements?parent_link_id=[fund_id]` to view a trail of all movements related to this fund event.
+  - [Create deposit](https://docs.zerohash.com/reference/post_fund-deposit.md): This endpoint is used to create a new Fiat deposit and enable instant buying power.
+- Payins
+  - [Get payin authorization limits](https://docs.zerohash.com/reference/get_pay-limits.md): Retrieves the current authorization level, per-window limits, and volume totals for an end-user participant on the authenticated platform. Optionally scoped to a specific merchant when…
+  - [Request a payin quote](https://docs.zerohash.com/reference/post_pay-rfq-1.md): Retrieves a quote for a pay event for a given participant code and asset. The response includes a deposit address and rate at which a subsequent on-chain deposit will be honored.  The quote has an…
+  - [Refresh a payin quote](https://docs.zerohash.com/reference/post_pay-id-rfq-1.md): Refreshes an existing pay quote identified by its transaction ID. This is used when a previously issued quote is near to expire and the platform wants a new rate for the same deposit address. Already…
+  - [List payin transactions](https://docs.zerohash.com/reference/get_pay-transactions-1.md): Retrieves a paginated list of pay transactions for the authenticated platform. Results can be filtered by participant, asset, deposit status, and timestamps. Each deposit also emits a…
+  - [Cancel a pending manual approval](https://docs.zerohash.com/reference/delete_pay-id-approval.md): Cancels a pending or approved manual approval for a Tier 4 payin transaction, setting it to REJECTED state.  Use this endpoint when a platform or shopper wants to withdraw a transaction that is…
+- Payouts
+  - [Retrieve payout state](https://docs.zerohash.com/reference/get_payouts.md): Returns the current lifecycle state of a payout. Identify the payout by **exactly one** of `payout_id` or `idempotency_key` — supplying neither or both returns `400 Bad Request`. The response is…
+  - [Submit or validate a payout](https://docs.zerohash.com/reference/post_payouts.md): Single endpoint that drives the full payout lifecycle. The optional `validate` body field switches between two modes:  - `validate: true` — runs the full pre-flight pipeline (schema, business-logic,…
+- Virtual Accounts
+  - [Simulate a virtual account deposit](https://docs.zerohash.com/reference/post_virtual-accounts-id-deposits-simulate.md): Simulates an inbound wire, ACH or RTP deposit into a virtual account in the zerohash CERT environment, so you can test deposit handling without sending real money. The deposit then follows the same…
+  - [Create a virtual account](https://docs.zerohash.com/reference/post_virtual-accounts.md): Requests a virtual account for a participant. The account is created asynchronously: this endpoint returns `202 Accepted` with `status: PENDING` and no `bank_details`, and the account becomes…
+  - [List virtual accounts](https://docs.zerohash.com/reference/get_virtual-accounts.md): Returns a paginated list of virtual accounts scoped to the authenticated platform. With `participant_code`, returns only that participant's virtual accounts. Without `participant_code`, returns all…
+  - [Retrieve a virtual account](https://docs.zerohash.com/reference/get_virtual-accounts-id.md): Returns a single virtual account. `bank_details` is populated once `status` leaves `PENDING`. An unknown id or an account belonging to another platform return `404 Not Found`.
+  - [List virtual account transactions](https://docs.zerohash.com/reference/get_virtual-accounts-id-transactions.md): Returns a paginated list of transactions for a single virtual account, newest first, scoped to the authenticated platform. Filterable by `direction`, `status` and a `from_date`/`to_date` range. An…
+  - [Close a virtual account](https://docs.zerohash.com/reference/patch_virtual-accounts-id-close.md): Requests closure. Closing is asynchronous: a `202 Accepted` returns the record with `status: CLOSING`, and the account reaches `CLOSED` once the banking partner acknowledges. Poll `GET…
+
+## API Reference: SDK
+- [Changelog](https://docs.zerohash.com/reference/changelog.md)
+- [Overview](https://docs.zerohash.com/reference/sdk-overview.md)
+- [Installation](https://docs.zerohash.com/reference/sdk-instalation.md)
+- [Getting Started](https://docs.zerohash.com/reference/sdk-getting-started.md)
+- [Modules](https://docs.zerohash.com/reference/sdk-modules.md)
+  - [User Onboarding](https://docs.zerohash.com/reference/sdk-modules-user-onboarding.md)
+    - [Acquire an onboarding access token](https://docs.zerohash.com/reference/sdk-modules-user-onboarding-acquire-an-onboarding-access-token-copy.md): Acquire an onboarding access token.
+    - [Verification results](https://docs.zerohash.com/reference/sdk-modules-user-onboarding-verification-results.md)
+    - [Iframe integration - Permissions](https://docs.zerohash.com/reference/iframe-integration-permissions.md)
+  - [Crypto Buy](https://docs.zerohash.com/reference/sdk-modules-crypto-buy.md)
+  - [Profile](https://docs.zerohash.com/reference/sdk-modules-profile.md)
+  - [Crypto Sell](https://docs.zerohash.com/reference/sdk-modules-crypto-sell.md)
+  - [Crypto Withdrawals](https://docs.zerohash.com/reference/sdk-modules-crypto-withdrawals.md)
+  - [Fiat Deposits](https://docs.zerohash.com/reference/sdk-modules-fiat-deposits.md)
+  - [Fiat Withdrawals](https://docs.zerohash.com/reference/sdk-modules-fiat-withdrawals.md)
+  - [Fund](https://docs.zerohash.com/reference/fund-sdk.md): Use this developer guide for an efficient integration to the Fund SDK
+  - [Fund Withdrawals](https://docs.zerohash.com/reference/fund-withdrawals.md): Fiat to Crypto withdrawal flow
+  - [Fiat Account Link](https://docs.zerohash.com/reference/sdk-modules-fiat-account-link.md): Use this developer guide for an efficient integration to the Fiat account link SDK
+  - [Crypto Account Link](https://docs.zerohash.com/reference/sdk-modules-crypto-account-link.md): Use this developer guide for an efficient integration to the Crypto Account Link SDK
+  - [Pay](https://docs.zerohash.com/reference/pay.md): Use this developer guide for an efficient integration to the PAY SDK
+- [Integration with Mobile Apps](https://docs.zerohash.com/reference/sdk-integration-with-mobile-apps.md)
+  - [Flutter](https://docs.zerohash.com/reference/sdk-integration-with-mobile-apps-flutter.md)
+  - [Kotlin](https://docs.zerohash.com/reference/sdk-integration-with-mobile-apps-kotlin.md)
+  - [React Native](https://docs.zerohash.com/reference/sdk-integration-with-mobile-apps-react-native.md)
+  - [Swift](https://docs.zerohash.com/reference/sdk-integration-with-mobile-apps-swift.md)
+- [SDK Mappers](https://docs.zerohash.com/reference/sdk-mappers.md)
+- [SDK Authorization](https://docs.zerohash.com/reference/sdk-authorization.md)
+  - [Generate a client access token](https://docs.zerohash.com/reference/post_client-auth-token.md): Generates a temporary JWT access token used to initialize zerohash SDK modules on behalf of one of your end users. The platform authenticates to this endpoint with its own HMAC credentials; the…
+  - [Revoke a client access token](https://docs.zerohash.com/reference/post_revoke-auth-token.md): Revokes a client access token previously issued via `/client_auth_token`, preventing it from being used to initialize SDK modules. The platform authenticates to this endpoint with its own HMAC…
+
+## API Reference: Webhooks
+- [Overview](https://docs.zerohash.com/reference/overview.md): Basic information about how our webhooks work
+- [Webhook Security](https://docs.zerohash.com/reference/webhook-security.md)
+  - [Authenticating zerohash Webhooks with OAuth 2.0](https://docs.zerohash.com/reference/authenticating-zerohash-webhooks-with-oauth-20.md): For platforms whose security policy requires an authenticated bearer token on inbound calls from zerohash. Covers how the flow works, what zerohash needs from you, and what to configure on your side.…
+- [Multiple Webhook Endpoints](https://docs.zerohash.com/reference/multiple-webhook-endpoints.md): This guide explains how zerohash can deliver every webhook notification to more than one listener endpoint, so a platform running redundant or disaster-recovery listeners can keep each one fed from…
+- [Participants](https://docs.zerohash.com/reference/participants-1.md): Webhook events related to participants.
+  - [Participant status updates](https://docs.zerohash.com/reference/participant-status-updates.md): Webhook events triggered by a participant status update.
+  - [Participant onboarding status update](https://docs.zerohash.com/reference/participant-onboarding-status-update.md): Webhook events triggered by a participant onboarding status update.
+- [Payments](https://docs.zerohash.com/reference/payments-1.md): Webhook events related to participants.
+  - [Payments status updates](https://docs.zerohash.com/reference/payments-status-changes.md): Webhook events triggered by a payments status update.
+  - [External account status updates](https://docs.zerohash.com/reference/external-account-status-updates.md): Webhook events trigged by linked bank accounts updates.
+- [Account Funding](https://docs.zerohash.com/reference/account-funding-1.md): Webhook events related to the Account Funding product
+  - [Account Funding Transaction Updates](https://docs.zerohash.com/reference/fund-transaction-update.md)
+- [Payins](https://docs.zerohash.com/reference/payins-1.md): Webhook events related to the Payins product
+  - [Payin Transaction Updates](https://docs.zerohash.com/reference/payins-transaction-updates.md)
+- [Assets](https://docs.zerohash.com/reference/assets-1.md): Webhooks related to assets prices and changes
+  - [Asset price change updates](https://docs.zerohash.com/reference/asset-price-change-updates.md): Major price changes variation notification
+- [Accounts](https://docs.zerohash.com/reference/accounts-2.md): Webhooks related to account changes
+  - [Account Balance update](https://docs.zerohash.com/reference/account-balance.md)
+  - [Customer Account status update](https://docs.zerohash.com/reference/customer-account-status-update.md)
+  - [Enriched Account Balance Update](https://docs.zerohash.com/reference/enriched-account-balance-update.md): An opt-in variant of the account balance webhook that embeds the trade, deposit, withdrawal or transfer that caused the balance to change
+- [Trades](https://docs.zerohash.com/reference/trades-2.md): Webhooks related to Trades changes
+  - [Trade Status update](https://docs.zerohash.com/reference/trade-status.md)
+- [Portfolio Strategies](https://docs.zerohash.com/reference/trade-strategy-1.md)
+  - [Portfolio Strategy Operations](https://docs.zerohash.com/reference/trade-strategy-operations.md): Webhook events triggered by potfolio strategy operations activity.
+  - [Portfolio Strategy Executions](https://docs.zerohash.com/reference/trade-strategy-executions.md): Webhook events triggered by portfolio strategy execution activity.
+  - [Portfolio Strategy Traders](https://docs.zerohash.com/reference/trade-strategy-traders.md): Webhook events triggered by portfolio strategy trader activity.
+- [Deposits & Withdrawals](https://docs.zerohash.com/reference/deposits-withdrawals.md): Webhooks related to deposit & withdrawal events
+  - [Deposit Status Updates](https://docs.zerohash.com/reference/deposit-status-updates.md)
+  - [AUTH Withdrawal Status Updates](https://docs.zerohash.com/reference/withdrawal-status-updates.md)
+- [Connect](https://docs.zerohash.com/reference/connect-webhooks.md): Programmatically monitor Connect activity with event-driven webhook notifications
+- [Single API Call Payouts Webhooks](https://docs.zerohash.com/reference/beta-payouts-webhooks.md)
+- [Virtual Accounts](https://docs.zerohash.com/reference/virtual-accounts.md): Webhook events related to Virtual Accounts.
+  - [Virtual Account Updates](https://docs.zerohash.com/reference/virtual-account-updates.md)
+- [Staking](https://docs.zerohash.com/reference/staking-webhooks.md)
+
+## API Reference: websockets
+- [Private Websocket API](https://docs.zerohash.com/reference/private-websocket-api.md)
+  - [Authentication](https://docs.zerohash.com/reference/authentication-1.md)
+  - [Balance Subscription](https://docs.zerohash.com/reference/balance-subscription.md)
+    - [Initial Subscription](https://docs.zerohash.com/reference/initial-subscription.md)
+    - [Balance Updates](https://docs.zerohash.com/reference/balance-updates.md)
+    - [Subscription Filters](https://docs.zerohash.com/reference/subscription-filters.md)
+  - [Price Subscription](https://docs.zerohash.com/reference/price-subscription.md)
+    - [List Symbols](https://docs.zerohash.com/reference/listing-available-symbols.md)
+    - [Subscribing to a Symbol](https://docs.zerohash.com/reference/subscribing-to-a-symbol.md)
+    - [Price Updates](https://docs.zerohash.com/reference/price-updates.md)
+  - [Maintaining Subscription](https://docs.zerohash.com/reference/maintaining-subscription.md)
+
+## API Reference: FIX API
+- [Central Limit Order Book](https://docs.zerohash.com/reference/central-limit-order-book.md): Integration documentation for the Zero Hash Central Limit Order Book.
+  - [Session Level Messages](https://docs.zerohash.com/reference/session-level-messages.md): FIX Session level messages on the Zero Hash CLOB.
+    - [Standard Headers](https://docs.zerohash.com/reference/standard-headers.md): Standard headers for FIX on the zerohash CLOB.
+    - [Standard Trailers](https://docs.zerohash.com/reference/standard-trailers.md): Standard Trailers for FIX on the Zero Hash CLOB.
+    - [Login (35=A)](https://docs.zerohash.com/reference/login-35a-1.md): Login for FIX on the zerohash CLOB.
+    - [Logout (35=5)](https://docs.zerohash.com/reference/logout-355-1.md): Logout for FIX on the zerohash CLOB.
+    - [Heartbeat (35=0)](https://docs.zerohash.com/reference/heartbeat-350-1.md): Heartbeats for FIX on the zerohash CLOB.
+    - [Reject (35=3)](https://docs.zerohash.com/reference/reject-353-1.md): Rejects for FIX on the zerohash CLOB.
+  - [FIX Order Entry](https://docs.zerohash.com/reference/fix-order-entry.md): Integration documentation for the CLOB FIX order entry API.
+    - [New Order Single (35=D)](https://docs.zerohash.com/reference/new-order-single.md): Place a New Order Single request over FIX API.
+    - [Order Cancel Request (35=F)](https://docs.zerohash.com/reference/order-cancel-request.md): Cancel an order that is still live on the zerohash CLOB.
+    - [Order Mass Cancel Request (35=q)](https://docs.zerohash.com/reference/order-mass-cancel-request.md): Cancel multiple open orders at once on the zerohash CLOB
+    - [Cancel Replace (35=G)](https://docs.zerohash.com/reference/cancel-replace.md): Request a cancel/replace order over FIX API.
+    - [Order Cancel Reject (35=9)](https://docs.zerohash.com/reference/order-cancel-reject.md): Cancel Reject messages on the zerohash CLOB.
+    - [Execution Report (35=8)](https://docs.zerohash.com/reference/execution-report-358.md)
+    - [Order Mass Cancel Report (35=r)](https://docs.zerohash.com/reference/order-mass-cancel-report.md): Response to an OrderMassCancelRequest on the zerohash CLOB
+    - [Business Message Reject (35=j)](https://docs.zerohash.com/reference/business-message-reject.md): Business-level rejects on the zerohash CLOB.
+  - [FIX Market Data](https://docs.zerohash.com/reference/fix-order-entry-copy.md): The zerohash CLOB market data gateway.
+    - [Securities Request List (35=x)](https://docs.zerohash.com/reference/market-snapshot.md): Submits a request to get a list of the symbols available to trade on the exchange.
+    - [Security List (35 = y)](https://docs.zerohash.com/reference/security-list-35-y.md): A response to a SecurityListRequest that includes information about the requested symbols.
+    - [Market Data Request (35=V)](https://docs.zerohash.com/reference/market-data-request-35v.md): Sent by the client to subscribe or unsubscribe to market data for a given symbol.
+    - [Market Data Snapshot (W)](https://docs.zerohash.com/reference/market-data-snapshot-w.md): Sent in response to a MarketDataRequest. This message can contain a 2 sided list of quotes for a single security.
+    - [Market Data Incremental Refresh (35=X)](https://docs.zerohash.com/reference/market-data-incremental-refresh-35x.md): Sent in response to a MarketDataRequest. This message provides incremental updates for quote changes in a single security.
+  - [Drop Copy Message](https://docs.zerohash.com/reference/drop-copy-message.md): Drop Copy messages on the zerohash CLOB.
+    - [Execution Report (35=8)](https://docs.zerohash.com/reference/execution-report-358-copy.md)
+  - [Appendix](https://docs.zerohash.com/reference/appendix.md): Appendix for needed components included in Order Executions & Market Data requests.
+    - [Instrument](https://docs.zerohash.com/reference/instrument.md)
+    - [Order Quantity](https://docs.zerohash.com/reference/order-quantity.md)
+    - [Parties](https://docs.zerohash.com/reference/parties-1.md)
+    - [MDFullGrp](https://docs.zerohash.com/reference/mdfullgrp.md)
+    - [FIX 5.0 XML Files - Order Gateway](https://docs.zerohash.com/reference/fix-50-xml-files-order-gateway-copy.md)
+    - [FIX 5.0 XML Files - Market Data Gateway](https://docs.zerohash.com/reference/fix-50-xml-files-market-data.md)
+  - [FIX Rejects Reasons](https://docs.zerohash.com/reference/fix-rejects-reasons.md): Application Layer Messages
+  - [Session Management (CLOB)](https://docs.zerohash.com/reference/session-management-clob.md)
+- [Straight Through Processing](https://docs.zerohash.com/reference/straight-through-processing.md)
+
+## API Reference: Connect
+- Organization Token
+  - [Generate access token](https://docs.zerohash.com/reference/getaccesstoken.md): Request an OAuth2 access token for API authentication. Use the returned token in a subsequent /sessions call.
+- User Token
+  - [Initialize session](https://docs.zerohash.com/reference/startsession.md): Create a new session and receive a JWT for authenticated API requests.
+
+## Recipes
+- [Convert Withdraw Quote](https://docs.zerohash.com/recipes/convert-withdraw-quote.md)
+- [Fund Get Transactions](https://docs.zerohash.com/recipes/fund-get-transactions.md)
+- [Liquidity Quote](https://docs.zerohash.com/recipes/liquidity-quote.md)
+- [Post Trade Settlement](https://docs.zerohash.com/recipes/post-trade-settlement-1.md)
+- [REST API Authentication](https://docs.zerohash.com/recipes/rest-api-authentication-1.md)
+- [Web SDK Integration](https://docs.zerohash.com/recipes/web-sdk-integration.md)
+- [Webhook Signatures](https://docs.zerohash.com/recipes/webhook-signatures.md)
+- [Websocket Authentication](https://docs.zerohash.com/recipes/websocket-authentication.md)
+
+## Pages
+- [About zerohash](https://docs.zerohash.com/page/about-zero-hash.md)
+- [Anti-Fraud Policy](https://docs.zerohash.com/page/anti-fraud-policy.md)
+- [Certification Environment Assets](https://docs.zerohash.com/page/cert-environment-assets.md)
+- [Certification Environment Instruments](https://docs.zerohash.com/page/certification-environment-instruments.md)
+- [Corporate Structure](https://docs.zerohash.com/page/corporate-structure.md)
+- [Electronic Fund Transfer Act Disclosures](https://docs.zerohash.com/page/electronic-fund-transfer-act-disclosures.md)
+- [FAQ](https://docs.zerohash.com/page/faq.md)
+- [FinCen Registration Documents](https://docs.zerohash.com/page/fincen-registration-documents.md)
+- [Forks Policy](https://docs.zerohash.com/page/forks-policy.md)
+- [General Risks of Digital Assets](https://docs.zerohash.com/page/general-risks-of-digital-assets.md)
+- [KYC Terms](https://docs.zerohash.com/page/kyc-terms.md)
+- [Legal](https://docs.zerohash.com/page/legal.md)
+- [Licencias y divulgaciones en EE. UU.](https://docs.zerohash.com/page/licencias-y-divulgaciones-en-ee-uu.md)
+- [New York BitLicense Risk Disclosure and Complaint Procedure](https://docs.zerohash.com/page/new-york-bitlicense-risk-disclosure-and-complaint-procedure.md)
+- [Participant Code of Conduct](https://docs.zerohash.com/page/participant-code-of-conduct.md)
+- [Payment Sender Terms](https://docs.zerohash.com/page/payment-sender-terms.md)
+- [Política de privacidad (Privacy Policy - Spanish)](https://docs.zerohash.com/page/política-de-privacidad.md)
+- [Privacy Opt Out](https://docs.zerohash.com/page/privacy-opt-out.md)
+- [zerohash Global Privacy Statement](https://docs.zerohash.com/page/privacy-policy.md)
+- [Production Environment Stablecoins](https://docs.zerohash.com/page/production-environment-stablecoins.md)
+- [Production Environment Instruments](https://docs.zerohash.com/page/production-environment.md)
+- [Restricted Business Activities](https://docs.zerohash.com/page/restricted-business-activities.md)
+- [State Complaints Procedures](https://docs.zerohash.com/page/state-complaints-procedures.md)
+- [Supported Assets & Instruments](https://docs.zerohash.com/page/supported-assets-instruments.md)
+- [Terms Of Service](https://docs.zerohash.com/page/terms-of-service.md)
+- [Texas Statements FAQ](https://docs.zerohash.com/page/texas-statements-faq.md)
+- [Third-Party Transaction Disclosures](https://docs.zerohash.com/page/third-party-funding-disclosures.md)
+- [US Licenses and Disclosures](https://docs.zerohash.com/page/us-licenses-and-disclosures.md)
+- [What should I do if I believe that I am a victim of Fraud or a Scam?](https://docs.zerohash.com/page/what-should-i-do-if-i-believe-that-i-am-a-victim-of-fraud-or-a-scam.md)
+- [zerohash Brand Guidelines](https://docs.zerohash.com/page/zero-hash-brand-guidelines.md)
+- [zerohash Crypto Payouts Service Terms](https://docs.zerohash.com/page/zero-hash-crypto-payouts-service-terms.md)
+- [zerohash Payment Recipient Terms](https://docs.zerohash.com/page/zero-hash-payment-recipient-terms.md)
+- [zerohash Promotional Material Regulatory Standards](https://docs.zerohash.com/page/zero-hash-promotional-material-regulatory-standards.md)
+- [zerohash Processor Index](https://docs.zerohash.com/page/zerohash-processor-index.md)
+- [zerohash (Sub)Processor Index](https://docs.zerohash.com/page/zerohash-processor-subprocessor-list.md)
+
+## Release Notes
+- [OUSD.ETH, OUSD.SOL, OUSD.TEMPO, and OUSD.BASE now available across Trade and Transact](https://docs.zerohash.com/changelog/ousdeth-ousdsol-ousdtempo-and-ousdbase-now-available-across-trade-and-transact.md)
+- [Account Funding Available through zerohash B.V. (EU entity)](https://docs.zerohash.com/changelog/account-funding-available-with-zerohash-bv-eu-entity.md)
+- [USDC.TEMPO and USDT.TEMPO now available across Trade and Transact](https://docs.zerohash.com/changelog/usdctempo-and-usdttempo-now-available-across-trade-and-transact.md)
+- [New W-8BEN certification field and updated W-9 and W-8 guides](https://docs.zerohash.com/changelog/new-w-8ben-certification-field-and-updated-w-9-and-w-8-guides.md)
+- [Onboarding SDK: Simplified Tax Certification](https://docs.zerohash.com/changelog/onboarding-sdk-simplified-tax-certification.md)
+- [Updated List of Prohibited, Restricted, and Permitted Higher Risk Jurisdictions (October 2026)](https://docs.zerohash.com/changelog/updated-list-of-prohibited-restricted-and-permitted-higher-risk-jurisdictions-october-2026.md)
+- [Fund SDK September 2026 Enhancements](https://docs.zerohash.com/changelog/fund-sdk-september-2026-enhancements.md)
+- [Report Cost Basis on Deposits](https://docs.zerohash.com/changelog/report-cost-basis-on-deposits.md)
+- [USD Virtual Accounts](https://docs.zerohash.com/changelog/usd-virtual-accounts.md)
+- [Duplicate Order Submission Protection](https://docs.zerohash.com/changelog/duplicate-order-submission-protection.md)

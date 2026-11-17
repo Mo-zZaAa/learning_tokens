@@ -1,0 +1,175 @@
+
+Payward Services | On/off-ramps
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+Crypto TradingCrypto TradingOn/off-rampsOn/off-rampsTokenized EquitiesTokenized EquitiesDerivatives InfrastructureDerivatives InfrastructureStaking & YieldStaking & YieldIndices & DataIndices & DataCard Issuance & PaymentsCard Issuance & PaymentsEmbedded WalletsEmbedded Wallets
+Crypto TradingCrypto TradingOn/off-rampsOn/off-rampsTokenized EquitiesTokenized EquitiesDerivatives InfrastructureDerivatives InfrastructureStaking & YieldStaking & YieldIndices & DataIndices & DataCard Issuance & PaymentsCard Issuance & PaymentsEmbedded WalletsEmbedded Wallets
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+On/off-ramps
+Local rails, global reach. One integration.
+Global on and off ramps across fiat currencies and digital assets. 24+ payment methods, 190+ countries, 600+ assets. No payment infrastructure to build or manage.
+Get in touch with salesRead the docs
+Platforms expanding geographically
+Expand into new markets without managing jurisdiction-by-jurisdiction banking relationships or fragmented integrations. Payward Services provides the local rails.
+Payment platforms
+Extend existing payment infrastructure to support end-to-end fiat-to-crypto flows. Payward Services handles liquidity, execution, and the regulatory layer.
+Crypto wallets and fintech apps
+Let users move between fiat and crypto within your product. Payward Services handles payments, compliance, and liquidity.
+Key capabilities
+Broad asset and network coverage
+Major cryptocurrencies and stablecoins across Ethereum, Solana, Polygon, Arbitrum, and more.
+Address validation
+Validate withdrawal addresses before use to prevent loss of funds.
+Saved withdrawal addresses
+Manage a whitelist of validated withdrawal destinations for repeat transfers.
+Hosted Ramp checkout
+Embed a fiat-to-crypto on-ramp without building payment processing infrastructure.
+Prospective quotes
+Preview exact spend and receive amounts before checkout. Users know what they get before committing.
+For developers
+Full documentation for deposits, withdrawals, and the Ramp API is available at docs.services.payward.com. Sandbox access is available from day one.
+Read the Funding documentation
+Read the Funding documentation
+Explore the Ramp API
+Explore the Ramp API
+Exactly what we needed to launch crypto fast: Proven infrastructure, streamlined onboarding and a fully compliant in-app crypto experience.
+Tom Bilske
+Head of New Products, bunq
+Read the story
+Read the story
+Frequently asked questions
+What is the difference between an on-ramp and an off-ramp?
+An on-ramp turns fiat into crypto, and an off-ramp turns crypto back into fiat. With our hosted checkout, your user pays in fiat and we deliver crypto to their wallet. To off-ramp, your users convert crypto or stablecoins to fiat and withdraw it to a linked bank account. See Ramp.
+How does a hosted on-ramp checkout work for our product?
+Integration follows four steps. You discover which countries, currencies, payment methods and assets are valid for your user, preview the pay and receive amounts, optionally check minimum and maximum limits, then send the user to a hosted checkout. Payward handles payment processing, user verification and crypto delivery, and your product receives transaction updates. Full steps are in the Ramp guide.
+How are our users verified?
+We verify your users for you through a hosted web or embedded flow, so you don't need to build identity collection yourself. Verification runs in the background, so your product waits for the result before the user can buy. Approved partners in the EEA can instead submit users their own provider has already verified. See Hosted KYC.
+Which assets, countries and payment methods are supported?
+Supported assets include major cryptocurrencies such as Bitcoin and Ethereum and stablecoins such as USDC and USDT, across several networks. Coverage varies by product and is subject to regulatory requirements in each jurisdiction, so the supported countries, currencies and payment methods depend on your user's location. Your integration engineer can confirm corridor-specific availability. See asset, funding rail and geo coverage.
+Can we test the integration before going live?
+Yes. You get a sandbox from day one to build and test your integration. The Ramp checkout itself isn't available in the sandbox, so you test it in production with small real amounts, using a production test account we set up for you. See Environments.
+Get in touch
+Ready to add fiat and crypto funding to your product?
+Talk to our team about your use case and integration requirements.
+*First name
+*Last name
+*Please enter a valid business email address
+*Company name
+*Country of business
+Type of business
+🇦🇫
+Phone number
+Assets amount
+Monthly trading volume
+Assets of interest
+Areas of interest
+How did you hear about us?
+Your message
+*By continuing I agree to the Terms of Service & Privacy Policy
+Send
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.
