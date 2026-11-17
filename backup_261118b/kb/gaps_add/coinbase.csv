@@ -1,0 +1,14 @@
+빈칸 번호,무엇이 비었나,찾아본 곳,다음에 볼 곳
+G-CB01,2018 이전 연간 매출과 손익(회사가 낸 숫자),"2021 10-K(2019~2021만 있음), IR CDN 주주서한, Cointelegraph(로이터 추정 2018 매출 약 5.2억 달러), sec.gov S-1(403)","2021-02 S-1 원문(사용자 로컬 브라우저), 영국 Companies House의 CB Payments 연차 재무제표"
+G-CB02,Deribit 인수 당시 매출과 이익 금액(29억 달러가 이익의 몇 배인지),"2025 10-K 인수 주석(대가와 무형자산만), 인수 발표 보도(Pulse2, FSTech: 조정 EBITDA 흑자라고만), 2025 Q2 주주서한","2025-05-08 8-K와 2025 Q1 주주서한(sec.gov, 로컬 브라우저), Sentillia B.V. 네덜란드 상공회의소 재무제표"
+G-CB03,Base 처리 수수료(시퀀서 수익) 금액,"2025 10-K(기타 거래 수익 2.53억에 결제 수익과 합산), 2024 Q4 서한 재분류 주석, 2026 Q3 분석가 콜","제3자 온체인 집계(Token Terminal, Dune 등, 제3자 자료로 따로 표시), 10-K 수익 주석 세분"
+G-CB04,예측시장 수수료를 Coinbase와 Kalshi가 나누는 방식과 금액,"2026 Q3 주주서한과 콜(연환산 2억 달러 초과만), 2025 10-K, Coinbase 블로그(coinbase.com 403)","Kalshi 쪽 발표, Coinbase 예측시장 수수료표(로컬 브라우저)"
+G-CB05,Kalshi 계약을 Coinbase 고객이 거래할 때 청산하는 주체,"CDP 개발자 문서(자체 계약은 Coinbase Clearing), 2025 10-K, 검색 요약(2026-09 ION XTP 선택 보도, 원문 미열람)","Crowdfund Insider ION 기사 원문, Kalshi 청산 규정, CFTC 등록 서류"
+G-CB06,"미국 주식 거래(거래 수수료 없음)의 수익원(주문 대가, 스프레드, 이용료)","2025 10-K(소개 중개사 구조만), Bitcoin Magazine, Built In",Coinbase Capital Markets Form CRS와 SEC 규칙 606 주문 대가 보고서(로컬 브라우저)
+G-CB07,앱 주식 시범 공개의 정확한 날짜와 대상,"2025 10-K(2025-12 시작), 2025 Q4 서한(early access 3,000종목), Bitcoin Magazine(12월 제한 출시)","Coinbase 블로그 System Update(2025-12-17) 원문(coinbase.com 403, 로컬 브라우저)"
+G-CB08,"2023 Circle 계약의 배분식 원문(앱 안 USDC 몫, 밖 USDC 반씩의 정확한 조항)","Circle 블로그(2023-08, 보유량 기준과 반씩 문장), 2025 10-K 본문(계약서는 첨부로만 언급)","10-K 첨부 Circle Agreement와 2024 보충 계약(sec.gov, 로컬), Circle S-1(2025)"
+G-CB09,Coinbase International Exchange와 Deribit의 청산과 결제를 맡는 법인,"2025 10-K, INTX 출범 글(Markets Media), 2024 Q4 서한(USDC 정산만)","INTX 거래 규칙서, 버뮤다 금융청 등록부, Deribit 이용 약관"
+G-CB10,"OCC 국가 신탁회사 인가 결과(2026-04 조건부, 2026-11 최종 승인이라는 보도)","OCC 결정문 cd1370.pdf(curl에 차단 화면), 검색 요약(The Block, Fintech Futures 403)",OCC 결정문과 Coinbase 발표(로컬 브라우저)
+G-CB11,Coinbase Clearing LLC의 CFTC 청산소 신청과 The Clearing Company 신청(2025-11)이 같은 건인지,"CFTC 청산소 목록(앞선 열람), Markets Media, 코인텔레그래프","CFTC 등록 명령 PDF(cftc.gov 403, 로컬 브라우저)"
+G-CB12,"연혁 빈 해(2014, 2016, 2019)에 무엇을 팔고 무슨 일이 있었나","이번에 연 10-K, 주주서한, TechCrunch(2015, 2018), YC 블로그(2013)","Coinbase 블로그 옛 글(Medium 저장본), 2021 S-1 사업 연혁"
+G-CB13,다른 회사에 파는 서비스 묶음(Crypto-as-a-Service)의 과금 주체와 금액,"db F-1517(범위만), 2025 10-K, CDP 개발자 문서","Coinbase 기관 서비스 요금표, 은행 제휴 발표(예: 계약 상대와 수수료)"

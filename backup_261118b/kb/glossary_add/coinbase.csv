@@ -1,0 +1,104 @@
+용어,뜻,출처
+"Coinbase Global, Inc.","Coinbase 그룹의 지주회사. Nasdaq 상장(종목 기호 COIN), 거래소, 중개사, 신탁회사 등 자회사를 거느림",https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+"Coinbase, Inc.",미국 개인 앱의 가상자산 매매와 보관을 맡는 자회사. 주별 송금업 인가와 뉴욕주 BitLicense를 가짐,https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1810231
+Coinbase Exchange,Coinbase가 운영하는 가상자산 현물 거래소. 360종 이상을 체결함,https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+Coinbase International Exchange(INTX),"버뮤다 인가로 미국 밖 고객에게 무기한선물과 현물을 체결하는 Coinbase 거래소. 2023-05 출범, 2026-10 Deribit과 합침",https://www.marketsmedia.com/introducing-coinbase-international-exchange/
+Coinbase Derivatives(Coinbase Derivatives Exchange),미국 CFTC 지정 선물 거래소. 2022-02 인수한 FairX(법인 LMX Labs)의 지금 이름,https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+Coinbase Financial Markets,"미국 선물 중개사(FCM). 2023-08 등록, 2025-12부터 예측시장 계약도 판매",https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+Coinbase Clearing,2026-09 CFTC에 등록한 Coinbase 청산소. 완전 담보 계약만 청산,https://www.marketsmedia.com/coinbase-clearing-receives-cftc-approval/
+Coinbase Capital Markets,SEC 등록 증권사이자 FINRA 회원. 2018 인수한 Keystone Capital의 지금 이름이며 미국 주식 주문을 받음,https://api.brokercheck.finra.org/search/firm/10722
+Coinbase Custody Trust Company,"뉴욕주 제한목적 신탁회사. 운용사, ETF, 기관의 가상자산을 맡아 보관하는 Coinbase 자회사",https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1810231
+Coinbase Prime,"기관 고객용 매매, 보관, 대출 서비스 묶음",https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+Coinbase One,거래 수수료 면제와 USDC 보상 우대를 주는 Coinbase의 유료 구독 서비스,https://s27.q4cdn.com/397450999/files/doc_financials/2024/q4/Q4-24-Shareholder-Letter.pdf
+Coinbase Advanced,고급 개인 트레이더용 Coinbase 거래 화면. 미국 밖 개인의 무기한선물 주문 창구,https://www.marketsmedia.com/coinbase-launches-stock-perpetual-futures/
+Coinbase Pro,"Coinbase가 2026 4분기 다시 내겠다고 밝힌 고급 거래 화면. 현물, 선물, 무기한선물, 옵션, 주식을 한 계좌 증거금으로 묶을 계획",https://s27.q4cdn.com/397450999/files/doc_financials/2026/q3/
+Coinbase Tokenized Stocks,Coinbase 그룹의 아부다비 발행 법인이 Base 블록체인에 낸 미국 주식 토큰. 미국 밖 적격 개인만 거래,https://www.base.org/blog/tokenized-stocks
+Coinbase Onchain SPV,"Coinbase Tokenized Stocks를 발행하는 아부다비(ADGM) 법인. 2026-06 설립, 토큰 발행만 하는 특수목적법인",https://api.coinbase.com/v1/tokenized-stocks/prospectus/NVDAc.pdf
+Base,Coinbase가 2023 공개한 이더리움 위 블록체인(L2). 거래를 모아 처리해 수수료를 낮춤,https://cointelegraph.com/news/coinbase-base-launches-mainnet-for-builders-will-onboard-users-august
+L2(레이어 2),이더리움 같은 기반 블록체인 위에 얹어 거래를 모아 처리하는 블록체인. 속도를 높이고 비용을 낮춤,https://cointelegraph.com/news/coinbase-base-launches-mainnet-for-builders-will-onboard-users-august
+시퀀서,L2에서 거래를 받아 순서를 정하고 기록하는 서버. Base의 시퀀서는 Coinbase가 운영하고 처리 수수료를 받음,https://docs.base.org/terms-of-service
+USDC,"1개를 1달러로 바꿔 주는 달러 스테이블코인. 발행사는 Circle, Coinbase는 유통을 맡음",https://www.circle.com/blog/ushering-in-the-next-chapter-for-usdc
+Circle,"USDC를 발행하고 준비금을 굴리는 미국 회사. 2025-06 상장, Coinbase가 지분을 가짐",https://www.circle.com/blog/ushering-in-the-next-chapter-for-usdc
+Centre,2018 Circle과 Coinbase가 USDC를 함께 운영하려고 만든 기구. 2023-08 해산,https://www.circle.com/blog/ushering-in-the-next-chapter-for-usdc
+스테이블코인,달러 같은 법정통화와 1:1로 바꿀 수 있게 만든 가상자산,https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+준비금,스테이블코인을 돈으로 바꿔 줄 수 있게 발행사가 따로 쌓아 둔 현금과 단기 국채. USDC 준비금 운용 수익을 Circle과 Coinbase가 나눔,https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+USDC 보상,Coinbase가 USDC를 맡긴 고객에게 주는 보상. 은행 예금 이자가 아님,https://s27.q4cdn.com/397450999/files/doc_financials/2024/q4/Q4-24-Shareholder-Letter.pdf
+Deribit,"가상자산 옵션 거래량과 미결제약정 세계 1위 거래소. 두바이 VARA 조건부 인가, 2025-08 Coinbase가 인수",https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+FairX(LMX Labs),개인 투자자용 소형 선물을 상장하려고 세운 CFTC 지정 선물 거래소(법인 LMX Labs). 2022-02 Coinbase가 인수,https://www.prnewswire.com/news-releases/fairx-announces-new-futures-exchange-for-retail-investors-301297843.html
+Keystone Capital,1982 등록된 미국 증권사. 2018 Coinbase가 인수해 Coinbase Capital Markets로 바꿈,https://api.brokercheck.finra.org/search/firm/10722
+Venovate Marketplace,증권사이자 대체거래시스템(ATS) 인가를 가진 회사. 2018 Keystone과 함께 Coinbase가 인수,https://altswire.com/crypto-exchange-coinbase-buys-broker-dealers-move-offer-regulated-securities/
+Digital Wealth,투자자문사(RIA) 인가를 가진 회사. 2018 Keystone과 함께 Coinbase가 인수,https://altswire.com/crypto-exchange-coinbase-buys-broker-dealers-move-offer-regulated-securities/
+Nodal Clear,Deutsche Börse 그룹 EEX 소속의 미국 CFTC 등록 청산소. Coinbase Derivatives 선물을 청산,https://www.silicon.co.uk/press-release/nodal-clear-announces-clearing-support-for-24x7-trading-on-coinbase-derivatives-exchange
+EEX,Deutsche Börse 그룹의 에너지와 원자재 거래소 그룹. Nodal Clear의 모그룹,https://www.prnewswire.com/news-releases/fairx-announces-new-futures-exchange-for-retail-investors-301297843.html
+Kalshi,사건 결과를 두고 예/아니오 계약을 상장하는 CFTC 규제 거래소(KalshiEX). Coinbase 예측시장 출시 때 주문을 받음,https://robinhood.com/us/en/newsroom/robinhood-prediction-markets-hub/
+The Clearing Company,예측시장 청산을 만들던 스타트업. 2025-12 Coinbase가 인수(금액 비공개),https://cointelegraph.com/news/coinbase-acquires-clearing-company-prediction-markets
+Apex Fintech Solutions,"미국 증권 청산과 보관 회사. Coinbase 미국 주식 주문의 체결, 청산, 보관을 맡음",https://bitcoinmagazine.com/news/coinbase-launches-24-5-stock-trading
+Alpaca,미국 증권 중개와 보관 회사. Coinbase 주식 토큰의 기초주를 발행 법인 명의로 보관,https://api.coinbase.com/v1/tokenized-stocks/prospectus/NVDAc.pdf
+Aerodrome,Base 위 탈중앙 거래소. Coinbase 주식 토큰이 거래되는 곳 가운데 하나,https://www.base.org/stocks
+Dinari,미국 주식 토큰(dShares)을 발행해 다른 앱과 거래소에 공급하는 미국 회사. 2024 말 Base로 넓힘,https://dinari.com/blog/dinaris-2024-year-in-review-assets-apis-and-more
+NinjaTrader,"미국 개인 선물 중개사(FCM). Coinbase Derivatives 첫 상품을 판 외부 중개사의 하나, 2025 Kraken이 인수",https://www.financemagnates.com/cryptocurrency/trading/coinbase-to-target-retail-traders-with-first-bitcoin-derivatives/
+Tagomi,기관용 가상자산 주문 중개 회사. 2020 Coinbase가 인수해 Prime의 바탕이 됨,https://bitcoinmagazine.com/markets/coinbases-new-custody-service-opens-its-doors
+iShares,BlackRock의 ETF 브랜드. 비트코인 ETF의 비트코인을 Coinbase Custody가 보관,https://www.ishares.com/us/prospectus/bita
+rwa.xyz,토큰화 실물자산 발행 잔액을 모아 보여 주는 집계 사이트,https://app.rwa.xyz/stocks
+Kraken,"미국 가상자산 거래소(모회사 Payward). 선물 중개사, 거래소, 청산소를 인수로 갖춤",https://blog.kraken.com/news/kraken-to-acquire-ninjatrader
+Robinhood,미국 개인용 주식 앱 회사. 예측시장을 Kalshi 경유로 연 뒤 MIAXdx를 인수,https://robinhood.com/us/en/newsroom/robinhood-prediction-markets-hub/
+MIAXdx,CFTC 지정 거래소와 청산소를 가진 회사. 2026-01 Robinhood 합작법인이 지분 90% 인수,https://investors.robinhood.com/node/16931/html
+NYDFS,뉴욕주 금융감독청. BitLicense와 신탁회사 인가를 내줌,https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1810231
+BitLicense,뉴욕주 주민에게 가상자산 영업을 하려면 받아야 하는 NYDFS 인가. Coinbase는 2017-01 받음,https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1810231
+송금업 인가,고객 돈과 가상자산을 받아 옮기는 영업에 미국 주마다 따로 받는 인가,https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+제한목적 신탁회사,일반인 예금을 받지 않고 맡은 자산을 관리하는 업무만 하는 뉴욕주 신탁회사 인가,https://www.nysenate.gov/legislation/laws/BNK/102-A
+수탁인(fiduciary),남의 자산을 맡아 그 사람의 이익을 위해 관리할 법적 의무를 지는 자,https://www.ishares.com/us/prospectus/bita
+적격 수탁기관,"미국 투자자문사가 고객 자산을 맡길 수 있다고 법이 정한 보관기관(은행, 신탁회사 등). ETF 운용사가 수탁기관을 고를 때의 요건",https://www.ishares.com/us/prospectus/bita
+국가 신탁회사,미국 연방 통화감독청(OCC)이 내주는 신탁 전용 은행 인가. 예금보험 없이 수탁 업무만 함. Coinbase가 2025-10 신청,https://www.comptrollerofthecurrency.gov/topics/charters-and-licensing/digital-assets-licensing-applications/coinbase-national-trust-company.pdf
+OCC,미국 통화감독청. 연방 은행과 국가 신탁회사 인가를 내줌,https://www.occ.gov/
+CFTC,"미국 상품선물거래위원회. 선물, 옵션, 스왑과 그 거래소, 중개사, 청산소를 감독",https://www.cftc.gov/
+SEC,"미국 증권거래위원회. 증권, 증권사, 거래소를 감독",https://www.sec.gov/
+FINRA,미국 증권사를 회원으로 두고 감독하는 자율규제기구,https://www.finra.org/
+FCM(선물 중개사),고객의 선물과 옵션 주문을 받고 고객 증거금을 맡는 회사. CFTC 등록,https://www.ecfr.gov/current/title-17/chapter-I/part-1/section-1.3
+DCM(선물 거래소),CFTC가 지정한 선물과 옵션 거래소. 사는 주문과 파는 주문을 맞붙임,https://www.ecfr.gov/current/title-17/chapter-I/part-33/section-33.3
+DCO(청산소),선물 거래 양쪽 사이에 들어가 서로의 상대방이 되어 결제를 보증하는 기관. CFTC 등록,https://www.ecfr.gov/current/title-17/chapter-I/part-1/section-1.3
+소개 중개사(introducing broker),고객 주문만 받아 넘기고 돈과 증권 보관은 다른 증권사(계좌 보관 증권사)에 맡기는 중개사,https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+대체거래시스템(ATS),거래소로 등록하지 않고 증권사가 운영하는 증권 체결 시설,https://altswire.com/crypto-exchange-coinbase-buys-broker-dealers-move-offer-regulated-securities/
+투자자문사(RIA),남의 돈을 운용하거나 투자 조언을 하는 SEC 등록 회사,https://altswire.com/crypto-exchange-coinbase-buys-broker-dealers-move-offer-regulated-securities/
+버뮤다 금융청(BMA),버뮤다 금융 감독기관. Coinbase International Exchange에 가상자산 사업 인가를 내줌,https://www.bma.bm/regulated-entities
+ADGM,아부다비 국제금융센터. 자체 법과 금융감독청(FSRA)을 둔 금융 자유구역,https://api.coinbase.com/v1/tokenized-stocks/prospectus/NVDAc.pdf
+FSRA,ADGM 금융감독청. Coinbase 주식 토큰 발행 구조와 설명서를 승인,https://api.coinbase.com/v1/tokenized-stocks/prospectus/NVDAc.pdf
+VARA,두바이 가상자산규제청. Deribit에 조건부 가상자산 인가를 내줌,https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+FCA,영국 금융감독청. Coinbase 영국 법인(CB Payments)을 가상자산사업자로 등록,https://cointelegraph.com/news/coinbase-fca-uk-crypto-registration
+MiCA,EU 가상자산시장 규정. 한 회원국 인가로 EU 전체에서 영업할 수 있음,https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv
+EEA,"유럽경제지역. EU 27개국과 노르웨이, 아이슬란드, 리히텐슈타인. MiCA 인가로 30개국 영업",https://s27.q4cdn.com/397450999/files/doc_financials/2025/q2/Q2-2025-Shareholder-Letter.pdf
+SEC 혁신 면제,SEC가 신기술 상품을 미국에서 팔 수 있게 하려고 검토한 예외 제도. Coinbase는 주식 토큰 미국 출시를 이 뒤에 보겠다고 함,https://s27.q4cdn.com/397450999/files/doc_financials/2026/q3/
+선물,정한 날(또는 만기 없이) 정한 값에 사고팔기로 한 약속. 양쪽 다 지켜야 하고 증거금을 맡김,https://www.ecfr.gov/current/title-17/chapter-I/part-1/section-1.3
+옵션,정한 값에 사거나 팔 권리. 산 쪽은 값(프리미엄)을 미리 내고 의무는 없음,https://www.finra.org/investors/investing/investment-products/options
+선물옵션,선물을 기초자산으로 하는 옵션. 미국에서는 선물 거래소에 상장,https://www.financemagnates.com/cryptocurrency/exchange/coinbase-completes-us-derivatives-infrastructure-with-cftc-clearing-registration/
+스왑,두 당사자가 정한 기간 동안 현금 흐름을 서로 바꾸기로 한 계약,https://www.financemagnates.com/cryptocurrency/exchange/coinbase-completes-us-derivatives-infrastructure-with-cftc-clearing-registration/
+무기한선물,만기 없이 계속 들고 갈 수 있는 선물. 가상자산 시장에서 거래가 가장 많은 파생상품,https://www.marketsmedia.com/introducing-coinbase-international-exchange/
+주식 무기한선물,주식을 사지 않고 주가만 따라가는 무기한선물. Coinbase는 2026-03 미국 밖 고객에게 냄,https://www.marketsmedia.com/coinbase-launches-stock-perpetual-futures/
+나노 비트코인 선물,계약 1건이 비트코인 0.01개인 소형 선물. Coinbase Derivatives의 첫 상품(2022-06),https://www.financemagnates.com/cryptocurrency/trading/coinbase-to-target-retail-traders-with-first-bitcoin-derivatives/
+증거금,선물을 거래할 때 손실에 대비해 맡기는 돈,https://www.ecfr.gov/current/title-17/chapter-I/part-1/section-1.3
+완전 담보 계약,나올 수 있는 최대 손실만큼을 미리 다 맡기고 거래하는 계약. Coinbase Clearing이 청산하는 범위,https://www.marketsmedia.com/coinbase-clearing-receives-cftc-approval/
+청산,체결된 거래에서 누가 누구에게 무엇을 줘야 하는지 확정하고 청산소가 양쪽의 상대방이 되어 이행을 보증하는 일,https://www.silicon.co.uk/press-release/nodal-clear-announces-clearing-support-for-24x7-trading-on-coinbase-derivatives-exchange
+미결제약정,아직 청산되거나 만기가 오지 않아 남아 있는 계약의 규모. 시장 크기를 재는 지표,https://pulse2.com/coinbase-to-buy-deribit-in-2-9-billion-deal/
+예측시장(사건 계약),"선거, 경기 결과 같은 사건이 일어나면 1, 아니면 0을 받는 예/아니오 계약을 사고파는 시장. 미국에서는 CFTC 규제 파생상품",https://docs.cdp.coinbase.com/derivatives-predictions/welcome
+스프레드,사는 값과 파는 값의 차이. Coinbase는 개인 매매에서 수수료와 함께 받음,https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+스테이킹(블록체인 보상),가상자산을 맡겨 블록체인 검증에 쓰고 받는 보상. Coinbase는 보상 총액을 매출로 잡고 대부분을 고객에게 넘김,https://s27.q4cdn.com/397450999/files/doc_financials/2021/q4/8e5e0508-da75-434d-9505-cba99fa00147.pdf
+탈중앙 거래소,거래소 회사 없이 블록체인 위 프로그램이 주문을 맞추는 거래 장소,https://www.base.org/blog/tokenized-stocks
+승인 참여자,신원 확인을 마치고 주식을 사서 넘겨 새 토큰을 만들거나 토큰을 주식으로 바꿀 수 있는 기관. 주로 시장조성자,https://api.coinbase.com/v1/tokenized-stocks/prospectus/NVDAc.pdf
+창설과 상환,"창설은 기초주를 넘기고 새 토큰을 받는 것, 상환은 토큰을 돌려주고 기초주를 받는 것",https://api.coinbase.com/v1/tokenized-stocks/prospectus/NVDAc.pdf
+비례 수익권,발행 법인이 보관한 주식 전체에서 나오는 이익을 보유 비율만큼 받을 권리. 주식을 직접 가진 것은 아님,https://api.coinbase.com/v1/tokenized-stocks/prospectus/NVDAc.pdf
+ETF,거래소에 상장돼 주식처럼 사고파는 펀드. 비트코인 ETF는 비트코인을 수탁기관에 맡겨 둠,https://www.ishares.com/us/prospectus/bita
+직상장,새 주식을 팔지 않고 기존 주주의 주식을 바로 거래소에서 거래하게 하는 상장 방식,https://www.nasdaqtrader.com/TraderNews.aspx?id=ETA2021-28
+기준가(reference price),직상장 첫날 거래소가 정하는 참고 가격. 공모가가 아님,https://www.nasdaqtrader.com/TraderNews.aspx?id=ETA2021-28
+공모,새로 발행하거나 기존 주식을 정한 값에 여러 투자자에게 파는 것,https://www.nasdaqtrader.com/TraderNews.aspx?id=ETA2021-28
+우선주,보통주보다 먼저 배당이나 남은 재산을 받는 주식. Coinbase 벤처 투자자는 A부터 E 시리즈 우선주를 받았고 상장 전 보통주로 바뀜,https://s27.q4cdn.com/397450999/files/doc_financials/2021/q4/8e5e0508-da75-434d-9505-cba99fa00147.pdf
+전환사채,정한 값에 주식으로 바꿀 수 있는 회사채,https://s27.q4cdn.com/397450999/files/doc_financials/2021/q4/8e5e0508-da75-434d-9505-cba99fa00147.pdf
+선순위채,파산 때 다른 빚보다 먼저 갚는 회사채,https://s27.q4cdn.com/397450999/files/doc_financials/2021/q4/8e5e0508-da75-434d-9505-cba99fa00147.pdf
+순매출(net revenue),Coinbase가 고객에게서 번 매출(거래 수익 + 구독과 서비스 수익),https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+총매출(total revenue),순매출에 회사 자기 돈의 운용 수익 등 기타 수익을 더한 값,https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+거래 수익,고객이 사고팔 때 Coinbase가 받는 수수료와 스프레드(회사 지표 이름 transaction revenue),https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+구독과 서비스 수익,"거래와 상관없이 맡겨 둔 자산과 구독에서 나는 수익. USDC 몫, 스테이킹, 대출, 보관, 구독(회사 지표 이름 subscription and services revenue)",https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+MTU(월간 거래 이용자),28일 안에 한 번 이상 거래한 개인 수(Coinbase 지표),https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+연환산 순매출,가장 최근 분기 순매출에 4를 곱한 값,https://s27.q4cdn.com/397450999/files/doc_financials/2026/q3/
+조정 EBITDA,"이자, 세금, 감가상각 등을 빼기 전 영업 이익을 회사 기준으로 조정한 값",https://pulse2.com/coinbase-to-buy-deribit-in-2-9-billion-deal/
+CFO,최고재무책임자,https://s27.q4cdn.com/397450999/files/doc_financials/2026/q3/
+Nasdaq,미국 증권거래소. Coinbase 주식(COIN)이 상장된 곳,https://www.nasdaqtrader.com/TraderNews.aspx?id=ETA2021-28

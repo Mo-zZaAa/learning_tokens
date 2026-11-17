@@ -1,0 +1,1734 @@
+<title>KDX 해외 사례</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* 레이아웃: 왼쪽 회사 목록, 오른쪽 본문 한 단. 줄 번호는 왼쪽 여백의 작은 고정폭 글씨 */
+:root{
+  --bg:#f3f5f8; --panel:#ffffff; --ink:#18212d; --muted:#5d6878; --faint:#8a94a3;
+  --line:#dde2e9; --accent:#22509e; --accent-soft:#e6edf8; --orange:#b85a00; --orange-soft:#fbeedf;
+  --ok:#2b7a4b; --ok-soft:#e3f2e8; --warn:#9b2c2c; --quote:#f7f8fb; --hl:#fff6c9;
+  --sans:"Pretendard","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR","Segoe UI",system-ui,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,"D2Coding",monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10141a; --panel:#171c24; --ink:#e4e9f0; --muted:#a0abba; --faint:#76808f;
+  --line:#2a313c; --accent:#86aef5; --accent-soft:#1d2a40; --orange:#ffa04d; --orange-soft:#3a2614;
+  --ok:#6fcf97; --ok-soft:#173226; --warn:#ff8a8a; --quote:#1b212b; --hl:#4a4113; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10141a; --panel:#171c24; --ink:#e4e9f0; --muted:#a0abba; --faint:#76808f;
+  --line:#2a313c; --accent:#86aef5; --accent-soft:#1d2a40; --orange:#ffa04d; --orange-soft:#3a2614;
+  --ok:#6fcf97; --ok-soft:#173226; --warn:#ff8a8a; --quote:#1b212b; --hl:#4a4113; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{background:var(--bg);color:var(--ink)}
+body{font-family:var(--sans);font-size:15px;line-height:1.6;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--panel)}
+a{color:var(--accent)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--panel);border-bottom:1px solid var(--line);
+  padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
+.brand{font-weight:800;letter-spacing:-.01em;font-size:16px;margin-right:6px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap}
+.tab{border:1px solid var(--line);background:transparent;border-radius:6px;padding:4px 12px;cursor:pointer;color:var(--muted)}
+.tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--panel);font-weight:700}
+.spacer{flex:1}
+.tbtn{border:1px solid var(--line);background:var(--panel);border-radius:6px;padding:4px 10px;cursor:pointer}
+.tbtn:hover{border-color:var(--accent)}
+.unsent{display:inline-flex;align-items:center;gap:6px;font-weight:700;border-color:var(--orange);color:var(--orange)}
+.unsent b{background:var(--orange);color:var(--panel);border-radius:10px;padding:0 8px;font-size:13px}
+.unsent.zero{border-color:var(--line);color:var(--muted)} .unsent.zero b{background:var(--faint)}
+
+.wrap{display:grid;grid-template-columns:220px minmax(0,1fr);gap:0;min-height:calc(100% - 52px)}
+nav.side{border-right:1px solid var(--line);background:var(--panel);padding:14px 10px 40px max(10px,env(safe-area-inset-left,0px));
+  position:sticky;top:calc(env(safe-area-inset-top,0px) + 52px);align-self:start;max-height:calc(100vh - 52px);overflow:auto}
+.navh{font-size:12px;color:var(--faint);letter-spacing:.06em;margin:14px 8px 6px}
+.navh:first-child{margin-top:0}
+.co{display:flex;align-items:center;gap:10px;width:100%;text-align:left;border:0;background:transparent;border-radius:8px;padding:7px 8px;cursor:pointer}
+.co:hover{background:var(--accent-soft)}
+.co[aria-current="true"]{background:var(--accent-soft);font-weight:700;color:var(--accent)}
+.co img{width:24px;height:24px;object-fit:contain;border-radius:5px;background:#fff;border:1px solid var(--line)}
+.co .cnt{margin-left:auto;font-size:12px;color:var(--orange);font-weight:700}
+
+main{min-width:0;padding-block:20px 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.page{max-width:900px;margin:0 auto}
+.head{display:flex;gap:16px;align-items:center;margin-bottom:14px}
+.head img{height:52px;max-width:180px;object-fit:contain;background:#fff;border-radius:8px;padding:6px;border:1px solid var(--line)}
+.head h1{margin:0;font-size:28px;letter-spacing:-.02em;text-wrap:balance}
+.head .kind{color:var(--muted);font-size:13px}
+
+.claims{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-bottom:22px}
+.claims h2{font-size:13px;color:var(--muted);margin:0 0 6px;letter-spacing:.04em}
+.claims ol{margin:0;padding:0;list-style:none;display:grid;gap:4px}
+.claims button{border:0;background:transparent;text-align:left;padding:3px 0;cursor:pointer;display:grid;grid-template-columns:7.5em 1fr;gap:10px;width:100%}
+.claims button:hover .ct{text-decoration:underline}
+.claims .cs{color:var(--accent);font-weight:700;font-size:13px}
+
+details.sec{background:var(--panel);border:1px solid var(--line);border-radius:10px;margin-bottom:14px}
+details.sec>summary{cursor:pointer;list-style:none;padding:12px 16px;font-weight:800;font-size:17px;display:flex;gap:10px;align-items:baseline}
+details.sec>summary::-webkit-details-marker{display:none}
+details.sec>summary::before{content:"▾";color:var(--faint);font-size:13px;width:12px}
+details.sec:not([open])>summary::before{content:"▸"}
+details.sec>summary .code{font-family:var(--mono);color:var(--accent);font-size:14px}
+.rows{padding:0 10px 10px}
+
+.row{display:grid;grid-template-columns:7.2em minmax(0,1fr);gap:8px;padding:3px 6px;border-radius:6px;position:relative}
+.row:hover,.row:focus-within,.row.tools-on{background:var(--quote)}
+.num{align-self:start;font-family:var(--mono);font-size:11.5px;color:var(--faint);padding-top:4px;text-align:right;cursor:pointer;border:0;background:transparent;white-space:nowrap}
+.num:hover{color:var(--accent)}
+.body{min-width:0}
+.txt{cursor:pointer}
+.lv-b .body{font-weight:700}
+.lv-s .body{padding-left:1.6em}
+.lv-q1 .body,.lv-q2 .body,.lv-q3 .body,.lv-d .body{padding-left:3.2em}
+.lv-d .body{font-size:14.5px}
+.row.defn .txt{color:var(--muted)}
+.lv-img .body{padding-left:1.6em}
+.mk{display:inline-block;width:1.3em;color:var(--faint);font-weight:400}
+.lv-b .mk{color:var(--ink)}
+.lbl{font-weight:700}
+.lv-s .lbl{color:var(--muted)}
+.claim .body{color:var(--accent)}
+.row.orange .txt{color:var(--orange)}
+.row.del{display:none}
+.row.hidden{display:none}
+.grp{background:transparent;border:0;cursor:pointer;color:var(--faint);padding:0 4px;font-size:11px}
+.src{font-size:11.5px;margin-left:6px;white-space:nowrap}
+.src a{text-decoration:none;border-bottom:1px solid currentColor}
+.src .more{border:0;background:transparent;color:var(--accent);font-size:11px;cursor:pointer;padding:0 2px}
+.chip{display:inline-block;font-size:11px;border-radius:4px;padding:0 5px;margin-left:6px;vertical-align:1px;font-weight:700}
+.chip.ok{background:var(--ok-soft);color:var(--ok)}
+.chip.ed{background:var(--accent-soft);color:var(--accent)}
+.chip.new{background:var(--orange-soft);color:var(--orange)}
+.lv-q1 .txt{font-style:italic}
+.qbox{background:var(--quote);border-left:3px solid var(--line)}
+.term{border-bottom:1px dotted var(--accent);cursor:help}
+.ev{margin:6px 0 6px 1.6em;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--panel);font-weight:400;font-size:13.5px}
+.ev p{margin:0 0 4px}
+.ev .q{color:var(--muted)}
+.ev .q::before{content:"“"} .ev .q::after{content:"”"}
+.ev .e{color:var(--ink);margin-top:2px}
+.ev+.ev{margin-top:4px}
+.ev .item+.item{border-top:1px dashed var(--line);margin-top:6px;padding-top:6px}
+figure{margin:6px 0;display:inline-block;max-width:100%;vertical-align:top}
+figure img{max-width:100%;max-height:560px;border:1px solid var(--line);border-radius:6px;display:block;cursor:zoom-in;background:#fff}
+figure figcaption{font-size:12px;color:var(--muted)}
+.figs{display:flex;flex-wrap:wrap;gap:10px}
+.figs figure{flex:1 1 240px;max-width:min(100%,420px)}
+.figs.one figure{max-width:100%;flex-basis:100%}
+
+.tools{grid-column:2;display:none;flex-wrap:wrap;gap:4px;margin:4px 0 2px}
+.row.tools-on .tools{display:flex}
+.tools button{border:1px solid var(--line);background:var(--panel);border-radius:5px;padding:1px 8px;font-size:12.5px;cursor:pointer}
+.tools button:hover{border-color:var(--accent);color:var(--accent)}
+.form{grid-column:2;margin:6px 0;padding:10px;border:1px solid var(--accent);border-radius:8px;background:var(--panel);display:grid;gap:8px}
+.form textarea{width:100%;min-height:70px;font:inherit;border:1px solid var(--line);border-radius:6px;padding:6px;background:var(--bg);color:var(--ink)}
+.form .types{display:flex;flex-wrap:wrap;gap:6px}
+.form .types label{border:1px solid var(--line);border-radius:5px;padding:1px 8px;font-size:13px;cursor:pointer}
+.form .types input{margin-right:4px}
+.form .acts{display:flex;gap:6px;flex-wrap:wrap}
+.pri{background:var(--accent);color:var(--panel);border:0;border-radius:6px;padding:4px 12px;cursor:pointer;font-weight:700}
+.sec2{background:transparent;border:1px solid var(--line);border-radius:6px;padding:4px 12px;cursor:pointer}
+.notes{grid-column:2;display:grid;gap:4px;margin:4px 0}
+.note{font-size:13px;border-radius:6px;padding:6px 10px;background:var(--orange-soft)}
+.note.ans{background:var(--accent-soft)}
+.note.agree{background:var(--ok-soft)}
+.note .who{font-weight:700;margin-right:6px}
+.note .chg{display:block;margin-top:3px}
+.note .before{text-decoration:line-through;opacity:.7}
+.note .acts{margin-top:4px;display:flex;gap:6px}
+.note .acts button{border:1px solid var(--line);background:var(--panel);border-radius:5px;padding:0 8px;font-size:12.5px;cursor:pointer}
+
+.memo-page{max-width:900px;margin:0 auto}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 14px}
+.filters button{border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:2px 12px;cursor:pointer;font-size:13px}
+.filters button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);font-weight:700}
+.mlist{display:grid;gap:8px}
+.mcard{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px;display:grid;gap:4px}
+.mcard .meta{display:flex;flex-wrap:wrap;gap:8px;font-size:12.5px;color:var(--muted);align-items:center}
+.mcard .meta .go{font-family:var(--mono);color:var(--accent);border:0;background:transparent;cursor:pointer;padding:0}
+.st{border-radius:4px;padding:0 6px;font-weight:700;font-size:12px}
+.st-안보냄{background:var(--orange-soft);color:var(--orange)}
+.st-보냄{background:var(--accent-soft);color:var(--accent)}
+.st-답함{background:var(--accent-soft);color:var(--accent)}
+.st-합의{background:var(--ok-soft);color:var(--ok)}
+.st-보류{background:var(--quote);color:var(--muted)}
+.mcard .line{font-size:13px;color:var(--muted)}
+.empty{color:var(--muted);padding:20px;text-align:center;border:1px dashed var(--line);border-radius:8px}
+
+.modal{position:fixed;inset:0;background:rgba(10,14,20,.5);z-index:50;display:flex;align-items:flex-start;justify-content:center;
+  padding:max(40px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) 20px max(16px,env(safe-area-inset-left,0px));overflow:auto}
+.modal .box{background:var(--panel);border-radius:12px;max-width:860px;width:100%;padding:16px;display:grid;gap:10px}
+.modal h3{margin:0}
+.modal textarea{width:100%;min-height:200px;font-family:var(--mono);font-size:12.5px;border:1px solid var(--line);border-radius:6px;padding:8px;background:var(--bg);color:var(--ink)}
+.modal .acts{display:flex;flex-wrap:wrap;gap:6px}
+.toast{position:fixed;bottom:max(18px,env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);background:var(--ink);color:var(--panel);padding:8px 16px;border-radius:8px;z-index:60;font-size:14px}
+.pop{position:absolute;z-index:40;max-width:340px;background:var(--panel);border:1px solid var(--accent);border-radius:8px;padding:10px 12px;font-size:13.5px;box-shadow:0 6px 24px rgba(0,0,0,.18)}
+.pop b{display:block;margin-bottom:2px}
+.pop .en{color:var(--muted);font-size:12px}
+.zoom{position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:70;display:flex;align-items:center;justify-content:center;padding:20px;cursor:zoom-out;overflow:auto}
+.zoom img{max-width:100%;max-height:100%;background:#fff}
+
+@media (max-width:760px){
+  .wrap{grid-template-columns:minmax(0,1fr)}
+  nav.side{position:static;max-height:none;border-right:0;border-bottom:1px solid var(--line);display:flex;gap:4px;overflow-x:auto;padding:8px max(16px,env(safe-area-inset-right,0px)) 8px max(16px,env(safe-area-inset-left,0px))}
+  .navh{display:none}
+  .co{width:auto;flex:0 0 auto}
+  .row{grid-template-columns:minmax(0,1fr)}
+  .num{text-align:left;padding:0}
+  .tools,.form,.notes{grid-column:1}
+  .lv-s .body{padding-left:.9em} .lv-q1 .body,.lv-q2 .body,.lv-q3 .body,.lv-d .body{padding-left:1.8em}
+  .claims button{grid-template-columns:1fr;gap:0}
+}
+
+.wide{max-width:1180px;margin:0 auto}
+.wide h1{margin:0 0 4px;font-size:24px}
+.wide h2{font-size:18px;margin:26px 0 8px}
+.lead{margin:0 0 10px;color:var(--muted)}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.tbl table{border-collapse:collapse;width:100%;font-size:13.5px}
+.tbl th,.tbl td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.tbl th{background:var(--quote);font-weight:700;color:var(--muted);white-space:nowrap;position:sticky;top:0}
+.tbl tr:last-child td{border-bottom:0}
+.tbl td.n{font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.tbl tr.orange td{color:var(--orange)}
+.golink{border:0;background:transparent;color:var(--accent);font-weight:700;cursor:pointer;padding:0;text-align:left}
+.golink:hover{text-decoration:underline}
+.bar{display:flex;align-items:center;gap:8px}
+.bar .track{flex:1;height:10px;background:var(--quote);border-radius:5px;min-width:60px;overflow:hidden}
+.bar .fill{height:100%;background:var(--accent)}
+.bar.orange .fill{background:var(--orange)}
+.tl{display:grid;gap:0;border-left:2px solid var(--line);margin-left:6px;padding-left:16px}
+.tl .ev2{position:relative;padding:6px 0}
+.tl .ev2::before{content:"";position:absolute;left:-22px;top:12px;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.tl .d{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.vc{display:grid;grid-template-columns:120px repeat(5,minmax(0,1fr));gap:6px;align-items:stretch;font-size:12.5px}
+.vc .h{font-weight:700;color:var(--muted);text-align:center;padding:4px}
+.vc .co2{font-weight:700;padding:6px 4px;display:flex;align-items:center}
+.vc .cell{border-radius:6px;padding:6px;display:grid;gap:4px;align-content:start;background:var(--quote);min-height:44px}
+.vc .it{border-radius:5px;padding:3px 6px;line-height:1.35;cursor:pointer}
+.vc .it.own{background:var(--accent);color:var(--panel)}
+.vc .it.ent{background:transparent;border:1.5px dashed var(--muted);color:var(--ink)}
+.vc .it .acq{display:block;font-size:11.5px;font-weight:700;opacity:.9}
+.vc .none{color:var(--faint);text-align:center;padding-top:8px}
+.vc .orange.co2{color:var(--orange)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--muted);margin:6px 0 10px;align-items:center}
+.legend i{display:inline-block;width:22px;height:12px;border-radius:3px;vertical-align:-1px;margin-right:5px}
+.legend .own{background:var(--accent)} .legend .ent{border:1.5px dashed var(--muted)}
+.search{width:100%;max-width:420px;font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.chips button{border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:2px 12px;cursor:pointer;font-size:13px}
+.chips button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);font-weight:700}
+.detail{font-size:13px;color:var(--muted);margin-top:4px}
+.gl{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.gl .g{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.gl .g b{display:block}
+.gl .g .en{font-size:12px;color:var(--muted)}
+.lawl a{display:block;font-size:12.5px}
+@media (max-width:760px){.vc{grid-template-columns:repeat(5,minmax(110px,1fr))}.vc .co2{grid-column:1/-1}.vc .h.first{display:none}}
+
+/* 메모: 줄 왼쪽 단추, 달린 메모는 왼쪽 여백 카드로 뻗어 나옴 */
+.numc{display:flex;justify-content:flex-end;align-items:flex-start;gap:2px;align-self:start}
+.addm{border:0;background:transparent;color:var(--faint);cursor:pointer;padding:3px 3px 0;opacity:.35;border-radius:4px;line-height:0}
+.row:hover .addm,.row:focus-within .addm,.addm:focus-visible{opacity:1}
+.addm:hover{color:var(--accent);background:var(--accent-soft)}
+@media (hover:none){.addm{opacity:.6}}
+.hint{font-size:12.5px;color:var(--muted);margin:-6px 0 14px}
+.hint svg{color:var(--accent);vertical-align:-2px}
+.scard .sext{border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:7px 10px;margin:8px 0 4px;font-size:14px;line-height:1.65}
+.xbadge{display:inline-block;font-size:11px;font-weight:800;color:#fff;background:var(--accent);border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
+.mbadge{border:0;border-radius:9px;background:var(--orange);color:var(--panel);font-size:11px;font-weight:700;min-width:18px;height:18px;padding:0 5px;margin-top:2px;cursor:pointer}
+.rail{display:none}
+.row.has-notes{box-shadow:inset 3px 0 0 var(--orange)}
+.rcard{max-width:100%;overflow:hidden;font-size:12.5px;line-height:1.45;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--orange);border-radius:7px;padding:5px 8px;cursor:pointer;position:relative}
+.rcard .rh{display:flex;gap:6px;align-items:center;justify-content:space-between}
+.rcard .rt{font-weight:700;color:var(--orange)}
+.rcard .rx{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rcard .ra{color:var(--muted);margin-top:3px;display:none}
+.rcard.open .ra{display:block}
+.rcard:not(.open) .rh{display:none}
+.rcard:not(.open){padding:2px 8px}
+.rdone{width:20px;height:20px;border-radius:50%;background:var(--ok-soft);color:var(--ok);font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center;cursor:pointer;justify-self:end}
+.rcard.open .rx{white-space:normal}
+.rcard.open{z-index:6;box-shadow:0 6px 20px rgba(0,0,0,.14);position:relative}
+.rail{max-height:none}
+.rail .rcard:not(.open)+.rcard:not(.open){margin-top:0}
+.rcard .acts{display:flex;gap:6px;margin-top:5px}
+.rcard .acts button{border:1px solid var(--line);background:var(--panel);border-radius:5px;padding:0 8px;font-size:12px;cursor:pointer}
+.rcard .before{text-decoration:line-through;opacity:.7}
+.rcard.t-챌린지{border-left-color:var(--warn)} .rcard.t-챌린지 .rt{color:var(--warn)}
+.rcard.t-딥다이브요청,.rcard.t-풀어쓰기요청{border-left-color:var(--accent)} .rcard.t-딥다이브요청 .rt,.rcard.t-풀어쓰기요청 .rt{color:var(--accent)}
+.row:has(.rcard:hover),.row:has(.rcard:focus){background:var(--hl)}
+@media (min-width:1320px){
+  .page{max-width:1160px;padding-left:260px}
+  .rail{display:grid;gap:4px;position:absolute;right:calc(100% + 30px);top:2px;width:215px;z-index:5}
+  .rail::after{content:"";position:absolute;top:12px;left:100%;width:30px;border-top:1.5px solid var(--orange)}
+  .mbadge{display:none}
+  .row.has-notes .notes{display:none}
+}
+
+.cells{display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));gap:10px;font-size:13.5px;padding:4px 0;border-bottom:1px solid var(--line)}
+.cells.th{font-weight:700;color:var(--muted);font-size:12.5px;border-bottom:2px solid var(--line)}
+.cell{min-width:0}
+.lchip{display:inline-block;border:1px solid var(--accent);color:var(--accent);background:transparent;border-radius:10px;font-size:11px;padding:0 6px;margin:2px 0 0 4px;cursor:pointer;font-family:var(--mono);white-space:nowrap}
+.lchip:hover{background:var(--accent);color:var(--panel)}
+.interp{display:inline-block;font-size:11px;font-weight:700;border-radius:4px;padding:0 5px;background:var(--quote);color:var(--muted);border:1px dashed var(--muted);margin-right:2px;vertical-align:1px}
+.row.flash{background:var(--hl)!important;transition:background .4s}
+.lv-th .body,.lv-tr .body{padding-left:0}
+@media (max-width:760px){.cells{grid-template-columns:minmax(0,1fr)}.cells.th{display:none}.cells .cell:first-child{font-weight:700}}
+
+.colink{border:0;background:transparent;padding:0;font:inherit;color:inherit;border-bottom:1.5px solid var(--accent);cursor:pointer}
+.colink:hover{color:var(--accent)}
+details.sec.idcard{border:2px solid var(--accent);background:var(--panel)}
+details.sec.idcard>summary{color:var(--accent)}
+.flow{display:inline-flex;flex-wrap:wrap;gap:6px;align-items:center;margin-left:6px;vertical-align:middle}
+.fbox{border:1.5px solid var(--accent);border-radius:8px;padding:3px 10px;background:var(--accent-soft);font-weight:600;font-size:13.5px}
+.farrow{color:var(--accent);font-weight:700}
+.row.easy .txt{background:var(--hl);padding:1px 4px;border-radius:4px}
+.row.easy .lbl{color:var(--ink)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+/* 강조: 숫자 굵게, 위험 낱말 빨강, 핵심 형광펜. 본문 표기 **굵게** ==형광펜== !!빨강!! */
+.em-n{font-weight:700;color:var(--ink)}
+.em-r{color:var(--warn);font-weight:700}
+mark.em-h,.em-h{background:linear-gradient(transparent 45%,var(--hl) 45%);color:inherit;padding:0 1px}
+strong.em-b{font-weight:800}
+.row.claim .txt{background:linear-gradient(transparent 50%,var(--hl) 50%)}
+.row .lbl.key{background:var(--hl);padding:0 3px;border-radius:3px;color:var(--ink)}
+body.noemph .em-n,body.noemph strong.em-b{font-weight:inherit;color:inherit}
+body.noemph .em-r{color:inherit;font-weight:inherit}
+body.noemph .em-h,body.noemph .row.claim .txt,body.noemph .row .lbl.key{background:none}
+/* 줄 번호 접기 */
+body.nodefn .row.defn{display:none}
+body.nonum .row{grid-template-columns:2.6em minmax(0,1fr)}
+body.nonum .num .dfull{display:none}
+body.nonum .num::after{content:"⋯";font-size:14px}
+.num .dfull{display:inline}
+
+/* 브리핑 탭 */
+.bnav{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.bnav button{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:4px 12px;cursor:pointer;font:inherit;font-size:13px;color:var(--ink)}
+.bnav button[aria-current="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.brief h2.bh2{font-size:17px;margin:22px 0 8px;padding:6px 10px;background:var(--accent-soft);border-radius:6px;color:var(--ink)}
+.brief h3.bh3{font-size:15px;margin:16px 0 6px;color:var(--accent)}
+.brief h4.bh4{font-size:13px;margin:12px 0 6px;color:var(--muted)}
+.brief .bl{display:grid;grid-template-columns:1.4em minmax(0,1fr);gap:2px;padding:2px 0;line-height:1.6}
+.brief .bl.lv2{padding-left:1.6em}.brief .bl.lv3{padding-left:3.2em}
+.brief .bl.tb{grid-template-columns:minmax(0,1fr);font-size:13.5px;border-bottom:1px solid var(--line);padding:4px 0}
+.brief .bl .bm{color:var(--faint)}
+.brief .bl.hl .bx{background:linear-gradient(transparent 50%,var(--hl) 50%)}
+.brief .bid{display:inline-block;font-size:11px;padding:0 2px;margin-left:3px;color:var(--faint);text-decoration:none;vertical-align:2px}
+.brief .bid:hover{color:var(--accent)}
+/* 전략 한눈에 카드 */
+.brief .scommon{background:var(--keybox);border:2px solid var(--pi-edge);border-radius:10px;padding:10px 16px;font-size:16px;font-weight:600;line-height:1.7;margin:0 0 16px}
+.brief .sgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.brief .sgi{display:flex;flex-direction:column;gap:8px}
+.brief .sgo{align-self:flex-start;border:1px solid var(--line);background:var(--panel);color:var(--accent);border-radius:6px;padding:4px 10px;cursor:pointer;font:inherit;font-size:13px}
+.scard{background:var(--panel);border:1px solid var(--line);border-top:5px solid var(--accent);border-radius:10px;padding:12px 16px 14px;line-height:1.6;flex:1}
+.scard .sname{font-size:19px;font-weight:800;color:var(--accent)}
+.scard .sid{font-size:15.5px;font-weight:700;margin:6px 0 10px;padding:8px 10px;background:var(--accent-soft);border-radius:8px}
+.scard .slab{font-size:12.5px;font-weight:700;color:var(--muted);margin:10px 0 4px;letter-spacing:.02em}
+.scard ol.sflow{list-style:none;margin:0;padding:0 0 0 12px;border-left:3px solid var(--line)}
+.scard ol.sflow li{position:relative;padding:3px 0 8px 8px;font-size:14px;color:var(--muted)}
+.scard ol.sflow li .ft{font-weight:700;color:var(--ink)}
+.scard ol.sflow li .fx{font-size:13.5px;line-height:1.6;margin-top:1px}
+.scard ol.sflow li.now .fx{color:var(--ink);font-weight:500}
+.scard .smoney,.brief .smon{background:var(--ok-soft);border-left:4px solid var(--ok);border-radius:6px;padding:7px 10px;margin:0 0 6px;font-size:14px;line-height:1.65}
+.brief .scommon.smon{border:0;border-left:4px solid var(--ok);font-size:15px}
+.mbadge{display:inline-block;font-size:11px;font-weight:800;color:#fff;background:var(--ok);border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
+.scard ol.sflow li::before{content:"";position:absolute;left:-19px;top:10px;width:11px;height:11px;border-radius:50%;background:var(--line);border:2px solid var(--panel)}
+.scard ol.sflow li.now .ft{color:var(--accent);font-size:15px;font-weight:800}
+.scard ol.sflow li.now::before{background:var(--accent)}
+.scard b.sd{color:var(--accent)}
+.scard .sint{background:var(--keybox);border-left:4px solid var(--pi-edge);border-radius:6px;padding:8px 10px;margin:10px 0 4px;font-size:14.5px;font-weight:600}
+.scard .sint .ibadge{display:inline-block;font-size:11px;font-weight:800;color:#fff;background:#7b5cd6;border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
+.scard .sact{padding:6px 0;border-bottom:1px dashed var(--line)}
+.scard .sact:last-child{border-bottom:0}
+.scard .sp{font-weight:800;font-size:14.5px}
+.scard .sx{font-size:13.5px;color:var(--ink);margin-top:2px}
+.scard .sb{display:inline-block;font-size:11.5px;font-weight:700;border-radius:10px;padding:0 8px;margin-left:4px;vertical-align:1px}
+.scard .sb.g{background:var(--ok-soft);color:var(--ok)}
+.scard .sb.b{background:var(--accent-soft);color:var(--accent)}
+.scard .sb.w{background:var(--orange-soft);color:var(--orange)}
+.page.brief{max-width:1500px}
+.brief .bwrap{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:20px;align-items:start}
+.brief .bside{position:sticky;top:112px;max-height:calc(100vh - 124px);overflow:auto}
+.brief .scard.side{box-shadow:0 4px 18px rgba(0,0,0,.08)}
+@media (max-width:1250px){.brief .bwrap{grid-template-columns:minmax(0,1fr)}.brief .bside{position:static;max-height:none;order:-1}.brief .sgrid{grid-template-columns:minmax(0,1fr)}}
+.brief .bimg{display:grid;grid-template-columns:minmax(0,620px) minmax(0,1fr);gap:14px;margin:10px 0 14px;padding:10px;background:var(--quote);border-radius:8px}
+.brief .bimg img{max-width:100%;border:1px solid var(--line);border-radius:6px;background:#fff;cursor:zoom-in}
+.brief .bimg .cap{font-size:13.5px;line-height:1.6}
+.brief .bimg .cap b{display:block;color:var(--muted);font-size:12px;margin-top:6px}
+.brief table.bt{border-collapse:collapse;width:100%;font-size:13.5px;margin:6px 0 12px}
+.brief table.bt th,.brief table.bt td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.brief table.bt th{background:var(--accent-soft)}
+@media (max-width:760px){.brief .bimg{grid-template-columns:minmax(0,1fr)}}
+
+/* 브리핑 가독성 */
+.brief .bl{font-size:15px}
+.brief .bl.lv1 .bx{color:var(--ink)}
+.brief .bl.lv2 .bx,.brief .bl.lv3 .bx{color:#2f3a49}
+.brief b.blbl{font-weight:800;color:var(--ink)}
+.brief .bdate{color:var(--accent);font-weight:700;white-space:nowrap}
+.brief mark.bq{background:linear-gradient(transparent 40%,var(--hl) 40%);color:inherit;padding:0 2px}
+.brief .bl.binterp{background:#f4efff;border-left:3px solid #7b5cd6;border-radius:4px;padding:4px 8px;margin:4px 0;font-weight:400}
+.brief .bl.binterp .ibadge{display:inline-block;font-size:11px;font-weight:800;color:#fff;background:#7b5cd6;border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
+.brief .bl.key{background:var(--hl);border-radius:6px;padding:6px 10px;margin:4px 0;font-size:15.5px}
+.brief .bl.key b.blbl{color:var(--accent)}
+.brief h3.bh3{border-left:4px solid var(--accent);padding-left:8px}
+.brief details.bfold{margin:4px 0 10px 1.4em}
+.brief details.bfold>summary,.brief details.bsec>summary{cursor:pointer;color:var(--muted);font-size:13px;list-style:none}
+.brief details.bfold>summary::before,.brief details.bsec>summary::before{content:"▸ ";color:var(--faint)}
+.brief details[open].bfold>summary::before,.brief details[open].bsec>summary::before{content:"▾ "}
+.brief details.bsec{margin:18px 0}
+.brief details.bsec>summary{font-size:17px;font-weight:800;color:var(--ink);padding:6px 10px;background:var(--accent-soft);border-radius:6px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .brief .bl.binterp{background:#2a2340}:root:not([data-theme="light"]) .brief .bl.lv2 .bx,:root:not([data-theme="light"]) .brief .bl.lv3 .bx{color:var(--ink)}}
+
+/* 가상자산 거래소 3곳 비교 탭 */
+.cmp3{max-width:1100px}
+.cmp3 h1{font-size:22px;margin:4px 0 10px}
+.cmp3 h2{font-size:18px;margin:26px 0 10px;padding:6px 10px;background:var(--accent-soft);border-radius:6px}
+.cmp3 p{margin:8px 0;line-height:1.7}
+.cmp3 ul{margin:4px 0 8px;padding-left:1.4em;line-height:1.75}
+.cmp3 ul ul{margin:2px 0}
+.cmp3 li.judge,.cmp3 p.judge{color:var(--faint)}
+.cmp3 li.judge > ul{color:var(--ink)}
+.cmp3 table{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0 12px}
+.cmp3 th,.cmp3 td{border-bottom:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top;line-height:1.6}
+.cmp3 th{background:var(--quote);font-weight:700}
+.cmp3 td:first-child{font-weight:700;white-space:nowrap}
+.cmp3 details.csrc{margin:6px 0 4px}
+.cmp3 details.csrc>summary{cursor:pointer;color:var(--muted);font-size:13px;list-style:none}
+.cmp3 details.csrc>summary::before{content:"▸ ";color:var(--faint)}
+.cmp3 details[open].csrc>summary::before{content:"▾ "}
+.cmp3 details.csrc ol{margin:6px 0;padding-left:1.6em;font-size:13px;line-height:1.7}
+@media (max-width:760px){.cmp3 table{display:block;overflow-x:auto}.cmp3 td:first-child{white-space:normal}}
+/* 강조 공통: 형광펜, 포스트잇, 말풍선 */
+:root{--pi:#fff3a3;--pi-ink:#3d3300;--pi-edge:#e8c84a;--bub:#e8f0ff;--bub-edge:#9db8ea;--keybox:#fff9e0}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pi:#4d4416;--pi-ink:#fff1b0;--pi-edge:#b49a2c;--bub:#1d2a40;--bub-edge:#3f5f96;--keybox:#2b2714}}
+:root[data-theme="dark"]{--pi:#4d4416;--pi-ink:#fff1b0;--pi-edge:#b49a2c;--bub:#1d2a40;--bub-edge:#3f5f96;--keybox:#2b2714}
+mark.hm{background:linear-gradient(180deg,transparent 35%,var(--pi) 35%);color:inherit;padding:0 2px;font-weight:700}
+
+/* 검색, 질문 창, 어디서나 메모 */
+.gsearch{position:relative}
+.gsearch input{width:260px;max-width:46vw;border:1px solid var(--line);border-radius:8px;padding:6px 10px;font:inherit;font-size:14px;background:var(--panel);color:var(--ink)}
+.gsearch input:focus{outline:2px solid var(--accent);border-color:transparent}
+.gres{position:absolute;left:0;top:40px;width:min(640px,92vw);max-height:72vh;overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 32px rgba(0,0,0,.18);z-index:60;padding:6px 0 10px}
+.gres .ghead{display:flex;align-items:center;gap:8px;padding:6px 12px 8px;border-bottom:1px solid var(--line);font-size:13.5px}
+.gres .gask{margin-left:auto;border:1px solid var(--accent);color:var(--accent);background:var(--accent-soft);border-radius:6px;padding:2px 8px;font:inherit;font-size:12.5px;cursor:pointer}
+.gres .gx{border:0;background:transparent;color:var(--muted);cursor:pointer;font-size:14px}
+.gres .gk{font-size:12px;font-weight:800;color:var(--muted);padding:10px 12px 2px}
+.gres .gk span{font-weight:600}
+.gres .gi{display:block;width:100%;text-align:left;border:0;background:transparent;padding:6px 12px;font:inherit;color:var(--ink);cursor:pointer;line-height:1.5}
+.gres button.gi:hover{background:var(--accent-soft)}
+.gres .gi .gw{font-size:11.5px;color:var(--accent);font-weight:700}
+.gres .gi .gt{font-size:13.5px}
+.gres .gi.fact a{font-size:12px}
+.gres .gempty{padding:14px 12px;color:var(--muted)}
+mark.shl{background:#ffe066;color:#111;border-radius:2px;padding:0 1px}
+mark.shl-first{outline:2px solid #f08c00}
+.chat-fab{position:fixed;right:18px;bottom:18px;z-index:70;border:0;border-radius:24px;padding:11px 18px;background:var(--accent);color:#fff;font:inherit;font-weight:800;font-size:15px;box-shadow:0 6px 18px rgba(0,0,0,.22);cursor:pointer}
+.chat-fab.on{background:var(--ink)}
+.chat{position:fixed;right:18px;bottom:72px;z-index:70;width:min(440px,calc(100vw - 32px));height:min(620px,calc(100vh - 120px));display:flex;flex-direction:column;background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:0 14px 40px rgba(0,0,0,.25);overflow:hidden}
+.chat[hidden]{display:none}
+.chat .chh{display:flex;align-items:center;gap:8px;padding:10px 12px;border-bottom:1px solid var(--line);background:var(--accent-soft)}
+.chat .chh b{font-size:15px}
+.chat .chsub{font-size:12px;color:var(--muted)}
+.chat .chdeep{margin-left:auto;font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:3px}
+.chat .chh button{border:0;background:transparent;font-size:15px;cursor:pointer;color:var(--muted)}
+.chat .chlog{flex:1;overflow:auto;padding:10px 12px}
+.chat .chhint{color:var(--muted);font-size:13px;line-height:1.6;padding:6px 2px}
+.chat .cmsg{margin:8px 0;line-height:1.6;font-size:14px}
+.chat .cmsg.me{margin-left:18%;background:var(--accent);color:#fff;border-radius:12px 12px 2px 12px;padding:7px 11px}
+.chat .cmsg.bot{margin-right:6%;background:var(--quote);border:1px solid var(--line);border-radius:12px 12px 12px 2px;padding:8px 11px}
+.chat .cmsg p{margin:2px 0 6px}
+.chat .cmsg ul{margin:2px 0 4px;padding-left:1.2em}
+.chat .cmsg li.cint{color:var(--muted)}
+.chat .cprog{color:var(--muted);font-size:13px}
+.chat .cprog:empty{display:none}
+.chat .fref{font-size:11px;padding:0 3px;border:1px solid var(--line);border-radius:4px;text-decoration:none;color:var(--accent);margin:0 1px}
+.chat .cnote{color:var(--orange);font-size:12.5px}
+.chat .cbar{margin-top:4px}
+.chat .cbar button{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:6px;padding:2px 8px;font:inherit;font-size:12px;cursor:pointer}
+.chat .chin{display:flex;gap:6px;padding:8px;border-top:1px solid var(--line)}
+.chat .chin textarea{flex:1;resize:none;border:1px solid var(--line);border-radius:8px;padding:6px 8px;font:inherit;font-size:14px;background:var(--panel);color:var(--ink)}
+.chat .chbtns{display:flex;flex-direction:column;gap:4px}
+.chat .chbtns button{border:1px solid var(--line);border-radius:8px;padding:6px 12px;font:inherit;font-size:13.5px;cursor:pointer;background:var(--panel);color:var(--ink)}
+.chat .chbtns .pri{background:var(--accent);color:#fff;border-color:var(--accent)}
+.selmemo{position:absolute;z-index:75;border:0;border-radius:16px;padding:5px 12px;background:#f08c00;color:#fff;font:inherit;font-weight:800;font-size:13px;box-shadow:0 4px 12px rgba(0,0,0,.25);cursor:pointer}
+.selmemo[hidden]{display:none}
+.memopop{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:80;width:min(460px,calc(100vw - 32px));background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:0 16px 44px rgba(0,0,0,.3);padding:12px 14px}
+.memopop[hidden]{display:none}
+.memopop .mph{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.memopop .mph span{font-size:12px;color:var(--muted)}
+.memopop .mph button{margin-left:auto;border:0;background:transparent;cursor:pointer;color:var(--muted)}
+.memopop blockquote{margin:0 0 8px;padding:6px 10px;border-left:4px solid #f08c00;background:var(--pi);color:var(--pi-ink);border-radius:4px;font-size:13.5px;max-height:120px;overflow:auto}
+.memopop .types{display:flex;flex-wrap:wrap;gap:8px;font-size:13px;margin-bottom:6px}
+.memopop textarea{width:100%;min-height:90px;border:1px solid var(--line);border-radius:8px;padding:7px 9px;font:inherit;font-size:14px;background:var(--panel);color:var(--ink)}
+.memopop .row{display:flex;gap:6px;justify-content:flex-end;margin-top:8px}
+.memopop .row button{border:1px solid var(--line);border-radius:8px;padding:5px 14px;font:inherit;cursor:pointer;background:var(--panel);color:var(--ink)}
+.memopop .row .pri{background:var(--accent);color:#fff;border-color:var(--accent)}
+@media (max-width:760px){.gsearch input{width:150px}}
+@media print{.chat-fab,.chat,.selmemo,.memopop,.gsearch{display:none!important}}
+
+/* 브리핑 핵심 */
+.brief .cintro{color:var(--muted);font-size:13.5px;margin:-4px 0 10px}
+.brief .cjump{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.brief .cjump a{cursor:pointer;font-size:13px;font-weight:700;border:1px solid var(--line);border-radius:14px;padding:2px 10px;background:var(--panel);color:var(--accent)}
+.brief .ccard{background:var(--panel);border:1px solid var(--line);border-top:5px solid var(--accent);border-radius:12px;padding:12px 18px 14px;margin:0 0 18px}
+.brief .ccard.call{border-top-color:var(--pi-edge);background:var(--keybox)}
+.brief .cch{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.brief .cch h2{font-size:20px;margin:2px 0 8px;color:var(--accent)}
+.brief .cgo{margin-left:auto;border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent);border-radius:8px;padding:4px 10px;font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+.brief .cthree{background:var(--keybox);border:2px solid var(--pi-edge);border-radius:10px;padding:8px 14px 8px;margin:0 0 12px}
+.brief .cthree .ctl{font-size:12px;font-weight:800;color:var(--orange);letter-spacing:.04em}
+.brief .cthree ol{margin:4px 0 2px;padding-left:1.3em}
+.brief .cthree li{font-size:16px;font-weight:700;line-height:1.65;margin:3px 0}
+.brief .cbody ul{margin:2px 0;padding-left:1.25em;line-height:1.7}
+.brief .cbody > ul{padding-left:0;list-style:none}
+.brief .cbody li.cl0{margin:10px 0 4px;font-size:15.5px}
+.brief .cbody li.cl0:not(:has(> .cn))::before{content:"• ";color:var(--accent);font-weight:800}
+.brief .cbody li.cl0 > .cn{display:inline-block;min-width:1.8em;font-weight:800;color:var(--accent)}
+.brief .cbody li.cl1{font-size:14.5px;margin:3px 0}
+.brief .cbody li.cl2,.brief .cbody li.cl3{font-size:14px;color:var(--muted);margin:1px 0}
+.brief .cbody li .cn{font-weight:700;color:var(--muted);margin-right:5px;font-size:.92em}
+.brief .cbody .clab{font-weight:800}
+.brief .cbody li.judge{color:var(--faint)}
+.brief .cbody li.judge > ul{color:var(--ink)}
+.brief .cbody .cd{color:var(--accent);font-weight:600}
+.brief details.cfold{margin:0 0 12px;border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:8px 14px}
+.brief details.cfold > summary{cursor:pointer;font-weight:800;color:var(--accent);font-size:15px}
+.brief details.cfold[open] > summary{margin-bottom:8px}
+.cmp3 .lbl{font-weight:800}
+.cmp3 blockquote.cq{margin:8px 0 10px;padding:8px 14px;border-left:4px solid var(--accent);background:var(--accent-soft);border-radius:6px;font-weight:600;line-height:1.7}
+.cmp3 .ckey{background:var(--keybox);border:2px solid var(--pi-edge);border-radius:10px;padding:4px 16px 8px;margin:10px 0 14px}
+.cmp3 .ckey>h2{background:none;padding:6px 0 0;margin:6px 0 4px}
+.cmp3 .ckey ul{font-size:16px}
+.cmp3 p.sub{margin:16px 0 6px;font-size:16px}
+.cmp3 tr.hlrow td{background:var(--keybox)}
+.cmp3 tr.hlrow td:first-child{box-shadow:inset 4px 0 0 var(--pi-edge)}
+.postit{position:relative;background:var(--pi);color:var(--pi-ink);border-left:5px solid var(--pi-edge);border-radius:3px 10px 10px 3px;
+  padding:10px 14px 10px 40px;margin:12px 0 6px;box-shadow:2px 3px 8px rgba(0,0,0,.12);line-height:1.7;font-size:15.5px;transform:rotate(-.3deg)}
+.postit::before{content:"📌";position:absolute;left:11px;top:9px;font-size:17px}
+.postit b.pt{margin-right:6px}
+.cmp3 li.postli{list-style:none;margin-left:-1.2em}
+.cmp3 li.postli>.postit{margin:6px 0}
+.qa h1{font-size:22px;margin:4px 0 6px}
+.qa .qintro{color:var(--muted);margin:0 0 12px}
+.qa .qtoc{background:var(--keybox);border:2px solid var(--pi-edge);border-radius:10px;padding:10px 16px;margin:0 0 18px}
+.qa .qtoc h2{font-size:17px;margin:4px 0 8px}
+.qa .qtoc ol{margin:0;padding-left:1.5em;line-height:1.6}
+.qa .qtoc li{margin:0 0 8px}
+.qa .qtoc a{cursor:pointer;font-weight:700;text-decoration:none}
+.qa .qtoc .tp{display:block;color:var(--muted);font-size:14px}
+.qa .qtoc .tp::before{content:"📌 "}
+.qa details.qsec{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:6px 18px 12px;margin:0 0 16px}
+.qa details.qsec>summary{list-style:none;cursor:pointer}
+.qa details.qsec>summary::-webkit-details-marker{display:none}
+.qa .qbub{position:relative;display:inline-block;max-width:100%;background:var(--bub);border:1.5px solid var(--bub-edge);border-radius:16px;
+  padding:9px 14px 9px 44px;margin:8px 0 12px;font-size:16.5px;font-weight:800;line-height:1.5}
+.qa .qbub::before{content:"💬";position:absolute;left:13px;top:8px;font-size:19px}
+.qa .qbub::after{content:"";position:absolute;left:26px;bottom:-9px;border:8px solid transparent;border-top-color:var(--bub-edge);border-bottom:0}
+.qa .qbub .qn{color:var(--accent);margin-right:6px}
+.qa details.qsec:not([open])>summary .qbub{margin-bottom:6px}
+.qa details.qsec:not([open])>summary .qbub::before{content:"💬"}
+.qa .qfin{border:2px solid var(--pi-edge);background:var(--keybox)}
+.qa .qfin .qbub{background:var(--pi);border-color:var(--pi-edge)}
+.qa .qfin .qbub::before{content:"💬"}
+.qa .qfin .qbub::after{border-top-color:var(--pi-edge)}
+.qa ul{margin:4px 0 8px;padding-left:1.4em;line-height:1.8}
+.qa ul ul{margin:2px 0;font-size:14.5px;color:var(--muted)}
+.qa ul ul b,.qa ul ul mark{color:var(--ink)}
+.qa .lbl{font-weight:800}
+.qa .qd{color:var(--accent);font-weight:600}
+.qa details.qfold{margin:10px 0;border:1px dashed var(--line);border-radius:8px;padding:4px 12px}
+.qa details.qfold>summary{cursor:pointer;color:var(--muted);font-size:14px}
+.qa details.qfold>summary::before{content:"▸ 펼치기: "}
+.qa details[open].qfold>summary::before{content:"▾ 접기: "}
+</style>
+
+<header class="top">
+  <span class="brand">KDX 해외 사례</span>
+  <div class="tabs" role="tablist">
+    <button class="tab" id="tab-cmp3" role="tab" aria-selected="false" data-view="cmp3">가상자산 거래소 3곳 비교</button>
+    <button class="tab" id="tab-parts" role="tab" aria-selected="false" data-view="parts">파트별 해외 사례</button>
+    <button class="tab" id="tab-qa" role="tab" aria-selected="false" data-view="qa">질문과 답</button>
+    <button class="tab" id="tab-ov" role="tab" aria-selected="false">전체 그림</button>
+    <button class="tab" id="tab-brief" role="tab" aria-selected="false" data-view="brief">브리핑</button>
+    <button class="tab" id="tab-read" role="tab" aria-selected="false">본문</button>
+    <button class="tab" id="tab-compare" role="tab" aria-selected="false" data-view="compare">가로 비교</button>
+    <button class="tab" id="tab-lic" role="tab" aria-selected="false" data-view="lic">인가와 관계</button>
+    <button class="tab" id="tab-rules" role="tab" aria-selected="false" data-view="rules">제도와 용어</button>
+    <button class="tab" id="tab-memo" role="tab" aria-selected="false">메모</button>
+  </div>
+  <span class="spacer"></span>
+  <div class="gsearch"><input id="gq" type="search" placeholder="검색(본문, 브리핑, 사실 DB)" autocomplete="off" aria-label="전체 검색"><div id="gres" class="gres" hidden></div></div>
+  <button class="tbtn" id="btn-num" type="button" title="줄 번호(예: Kraken 카드-1) 보이기와 접기">줄 번호 보기</button>
+  <button class="tbtn" id="btn-defn" type="button" title="용어 뜻 줄(뜻 : ...)을 모두 접거나 펼침. 밑줄 친 용어는 눌러서 뜻을 볼 수 있음">뜻 접기</button>
+  <button class="tbtn" id="btn-emph" type="button" title="숫자 굵게, 위험 낱말 빨강, 핵심 형광펜">강조 끄기</button>
+  <button class="tbtn" id="btn-fold" type="button">모두 접기</button>
+  <button class="tbtn" id="btn-xlsx" type="button" title="본문 9곳과 전체 그림, 메모를 엑셀로 저장(화면에서 고친 내용 포함)">엑셀 받기</button>
+  <button class="tbtn unsent" id="btn-send" type="button">메모 보내기 <b id="unsent-n">0</b></button>
+</header>
+<div class="wrap">
+  <nav class="side" id="nav" aria-label="회사 목록"></nav>
+  <main id="main"></main>
+</div>
+
+<script id="data" type="application/json">/*__DATA__*/null</script>
+<script>
+(function(){
+"use strict";
+const D = JSON.parse(document.getElementById('data').textContent);
+const KEY = 'kdx-review-v1';
+const $ = (s, el=document) => el.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const now = () => new Date().toISOString().slice(0,16).replace('T',' ');
+const MEMO_TYPES = ['메모','챌린지','딥다이브 요청','풀어쓰기 요청'];
+
+// ---------- 저장 ----------
+let S;
+function blank(){ return {memos:[], edits:{}, del:{}, conf:{}, orange:{}, added:{}, order:{}, agreed:{}, seq:1}; }
+function load(){ try{ const t = localStorage.getItem(KEY); S = t ? Object.assign(blank(), JSON.parse(t)) : blank(); }catch(e){ S = blank(); } }
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} updateCount(); if (typeof syncSoon === 'function') syncSoon(); }
+load();
+
+// ---------- 데이터 색인 ----------
+const CO = {}; const LINE = {};
+D.companies.forEach(c => { CO[c.slug] = c; c.sections.forEach(sec => sec.rows.forEach(r => { r.co = c.slug; r.sec = sec.code; LINE[r.id] = r; })); });
+const LOG_BY_LINE = {}; const LOG_BY_MEMO = {};
+(D.log||[]).forEach((g,i) => { g._i = 'g'+i; (LOG_BY_LINE[g.line_id] = LOG_BY_LINE[g.line_id] || []).push(g); if (g.memo_id) LOG_BY_MEMO[g.memo_id] = g; });
+
+// 용어
+const TERM_KEYS = [];
+D.terms.forEach((t,i) => t.k.forEach(k => TERM_KEYS.push([k,i])));
+TERM_KEYS.sort((a,b) => b[0].length - a[0].length);
+const TERM_RE = TERM_KEYS.length ? new RegExp(TERM_KEYS.map(k => k[0].replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|'), 'g') : null;
+const TERM_IDX = Object.fromEntries(TERM_KEYS);
+const CO_NAMES = [['Blue Ocean','blue-ocean'],['Robinhood','robinhood'],['Coinbase','coinbase'],['Binance','binance'],['Kraken','kraken'],['Dinari','dinari'],['Ondo','ondo'],['Bruce','bruce'],['MOON','moon']];
+const CO_RE = new RegExp('\\b(' + CO_NAMES.map(x => x[0]).join('|') + ')\\b', 'g');
+function withTerms(text){
+  let h = esc(text);
+  if (TERM_RE){ const seen = new Set();
+    h = h.replace(TERM_RE, m => { if (seen.has(m)) return m; seen.add(m); return `<span class="term" tabindex="0" data-term="${TERM_IDX[m]}">${m}</span>`; }); }
+  // 다른 회사 이름은 그 회사 본문으로 가는 링크(줄마다 처음 한 번, 지금 보는 회사 제외, 태그 밖에서만)
+  const done = new Set();
+  h = h.replace(/\*\*(.+?)\*\*/g, '<strong class="em-b">$1</strong>').replace(/==(.+?)==/g, '<mark class="em-h">$1</mark>').replace(/!!(.+?)!!/g, '<span class="em-r">$1</span>');
+  return h.split(/(<[^>]+>)/).map(part => part.startsWith('<') ? part : emph(part.replace(CO_RE, m => { const sl = (CO_NAMES.find(x => x[0] === m)||[])[1]; if (!sl || sl === cur || done.has(sl) || !CO[sl]) return m; done.add(sl); return `<button class="colink" type="button" data-goco="${sl}" title="${m} 본문으로">${m}</button>`; }))).join('');
+}
+// 자동 강조: 단위가 붙은 숫자는 굵게, 위험 낱말은 빨강(태그 밖 글자에만)
+const EM_NUM = /(\d[\d,.]*(?:\s?(?:억|조|만|천))?\s?(?:%|퍼센트|달러|원|명|곳|개국|개사|종목|배|위|억|조|만|건))/g;
+const EM_RED = /(금지|제외|중단|제재|벌금|과징금|소송|파산|해킹|위반|불가|리스크|사고|철수|손실|경고|기소|유죄)/g;
+function emph(s){
+  return s.split(/(<[^>]+>)/).map(p => p.startsWith('<') ? p : p.replace(EM_NUM, '<span class="em-n">$1</span>').replace(/(<[^>]+>)|(금지|제외|중단|제재|벌금|과징금|소송|파산|해킹|위반|불가|리스크|사고|철수|손실|경고|기소|유죄)/g, (m, tag, w) => tag ? tag : `<span class="em-r">${w}</span>`)).join('');
+}
+const HIDE_LBL = new Set(['주장','한 줄 정체']);
+const KEY_LBL = /^(KSF|KSF 후보|가져올 것|피할 것|결론|핵심|KDX 시사점|리스크|주의)/;
+function stripMk(s){ return String(s||'').replace(/\*\*(.+?)\*\*/g,'$1').replace(/==(.+?)==/g,'$1').replace(/!!(.+?)!!/g,'$1'); }
+
+function memoStatus(m){
+  if (S.agreed[m.mid]) return '합의';
+  const g = LOG_BY_MEMO[m.mid];
+  if (g) return g.status === '합의' ? '합의' : (g.status === '보류' ? '보류' : '답함');
+  return m.st;
+}
+function unsent(){ return S.memos.filter(m => m.st === '안 보냄'); }
+function updateCount(){
+  const n = unsent().length; const b = $('#btn-send');
+  $('#unsent-n').textContent = n; b.classList.toggle('zero', n === 0);
+  document.querySelectorAll('.co').forEach(el => { const k = unsent().filter(m => m.co === el.dataset.slug).length; el.querySelector('.cnt').textContent = k ? k : ''; });
+}
+function lineText(r){ if (S.edits[r.id] != null) return S.edits[r.id]; return (r.label ? r.label + ' : ' : '') + (r.text||''); }
+function addMemo(r, type, text, extra){
+  const m = Object.assign({mid: 'm' + Date.now().toString(36) + (S.seq++), lid: r.id, co: r.co, disp: dispOf(r), type, text, st: '안 보냄', at: now(), line: lineText(r)}, extra||{});
+  S.memos.push(m); save(); return m;
+}
+// 같은 줄에 아직 안 보낸 같은 종류의 자동 기록은 하나로 합친다
+function autoMemo(r, type, text, extra){
+  const old = S.memos.find(m => m.lid === r.id && m.type === type && m.st === '안 보냄');
+  if (old){ Object.assign(old, {text, at: now(), line: lineText(r)}, extra||{}); save(); return old; }
+  return addMemo(r, type, text, extra);
+}
+
+// ---------- 회사 줄 목록(사용자 추가, 순서 반영) ----------
+function rowsOf(c, sec){
+  let rows = sec.rows.slice();
+  (S.added[c.slug]||[]).filter(a => a.sec === sec.code).forEach(a => {
+    const r = Object.assign({level: a.level, text: a.text, label: null, src: [], added: true, co: c.slug, sec: sec.code, id: a.lid}, {});
+    LINE[a.lid] = r;
+    const at = rows.findIndex(x => x.id === a.after);
+    rows.splice(at < 0 ? rows.length : at + 1, 0, r);
+  });
+  const ord = (S.order[c.slug]||{})[sec.code];
+  if (ord){ const pos = Object.fromEntries(ord.map((id,i) => [id,i])); rows.sort((a,b) => (pos[a.id] ?? 1e9) - (pos[b.id] ?? 1e9)); }
+  return rows;
+}
+const DISP = {};
+function dispOf(r){ return DISP[r.id] || r.disp || r.id; }
+
+// ---------- 그리기 ----------
+let cur = null, view = 'read', allOpen = true;
+const collapsedGroups = new Set();
+const openEv = new Set(), openTools = new Set();
+let openForm = null; // {lid, kind}
+
+function renderNav(){
+  const groups = [['overview','한눈에'],['company','회사 6곳'],['ats','미국 야간 ATS 3곳']];
+  $('#nav').innerHTML = groups.map(([k,h]) => `<div class="navh">${h}</div>` + D.companies.filter(c => c.kind === k).map(c =>
+    `<button class="co" type="button" data-slug="${c.slug}" aria-current="${c.slug===cur}">${c.logo?`<img alt="" src="${D.imgs[c.logo]}">`:''}<span>${esc(c.name)}</span><span class="cnt"></span></button>`).join('')).join('');
+  updateCount();
+}
+
+function srcLinks(r){
+  const urls = [...new Set((r.src||[]).map(s => s.url).filter(Boolean))];
+  if (!urls.length) return '';
+  const first = `<a href="${esc(urls[0])}" target="_blank" rel="noopener">출처</a>`;
+  const more = urls.length > 1 ? ` <button class="more" type="button" data-ev="${r.id}" title="근거 모두 보기">+${urls.length-1}</button>` : '';
+  return `<span class="src">${first}${more}</span>`;
+}
+function evHtml(r){
+  if (!r.src || !r.src.length) return '<div class="ev"><p class="q" style="quotes:none">이 줄에 붙은 근거 문장이 없습니다.</p></div>';
+  return '<div class="ev">' + r.src.map(s => `<div class="item">${s.q?`<p class="q">${esc(s.q)}</p>`:''}${s.e?`<p class="e">${esc(s.e)}</p>`:''}<p>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.t||s.url)}</a>`:esc(s.t)}</p></div>`).join('') + '</div>';
+}
+const MK = {b:'●', s:'•', q1:'①', q2:'②', q3:'③', d:'-'};
+const QLBL = {q1:'원문', q2:'번역', q3:'해석'};
+
+function rowHtml(c, r, hasKids){
+  const del = S.del[r.id], conf = S.conf[r.id], edited = S.edits[r.id] != null;
+  const orange = S.orange[r.id] != null ? S.orange[r.id] : !!r.orange;
+  const cls = ['row','lv-'+r.level]; if (r.claim) cls.push('claim'); if (orange) cls.push('orange'); if (del) cls.push('del'); if (openTools.has(r.id)) cls.push('tools-on');
+  let body;
+  const linkChips = (L) => (L||[]).map(l => `<button class="lchip" type="button" data-go="${esc(l.id)}" data-co="${esc(l.co)}" title="본문 줄로 이동">${esc(l.disp)}</button>`).join('');
+  if (r.level === 'th' || r.level === 'tr'){
+    const cells = r.cells || [];
+    const ed = S.edits[r.id];
+    body = ed != null ? `<span class="txt" data-ev="${r.id}">${withTerms(ed)}</span>` :
+      `<div class="cells ${r.level}" style="--n:${cells.length}" data-ev="${r.id}">` + cells.map(cl => `<div class="cell">${r.level==='th'?esc(cl.t):withTerms(cl.t)}${linkChips(cl.links)}</div>`).join('') + '</div>';
+    if (r.level === 'tr') body += srcLinks(r) + (conf?'<span class="chip ok">확정</span>':'') + (edited?'<span class="chip ed">고침</span>':'') + (openEv.has(r.id) ? evHtml(r) : '');
+  } else if (r.level === 'img'){
+    body = `<div class="figs${r.imgs.length===1?' one':''}">` + r.imgs.map(i => `<figure><img loading="lazy" alt="${esc(i.c)}" src="${D.imgs[i.k]}"><figcaption>${esc(i.c)}</figcaption></figure>`).join('') + '</div>';
+  } else {
+    let t;
+    if (edited){ t = withTerms(S.edits[r.id]); }
+    else if (r.label && HIDE_LBL.has(r.label)){ t = withTerms(r.text); }
+    else if (r.label){ t = `<span class="lbl${KEY_LBL.test(r.label)?' key':''}">${withTerms(r.label)}</span> : ${withTerms(r.text)}`; }
+    else t = withTerms(r.text);
+    const link = r.link ? ` <span class="src"><a href="${esc(r.link)}" target="_blank" rel="noopener">원문 링크</a></span>` : '';
+    const grp = hasKids ? `<button class="grp" type="button" data-grp="${r.id}" aria-label="아래 줄 접기">${collapsedGroups.has(r.id)?'▸':'▾'}</button>` : '';
+    if (r.interp && !edited) t = `<span class="interp">해석</span> ${withTerms(r.text)}`;
+    if (r.label === '흐름' && !edited) t = `<span class="lbl">흐름</span><span class="flow">${(r.text||'').split(/\s*→\s*/).map((x,i,a) => `<span class="fbox">${withTerms(x)}</span>${i<a.length-1?'<span class="farrow" aria-hidden="true">→</span>':''}`).join('')}</span>`;
+    if (r.label === '쉽게 말하면') cls.push('easy');
+    if (r.defn) cls.push('defn');
+    body = `<span class="mk">${MK[r.level]||''}</span>${grp}<span class="txt" data-ev="${r.id}">${t}</span>${linkChips(r.links)}${link}${srcLinks(r)}` +
+      (conf?'<span class="chip ok">확정</span>':'') + (edited?'<span class="chip ed">고침</span>':'') + (r.added?'<span class="chip new">추가</span>':'') +
+      (del?' <button class="sec2" type="button" data-act="undel" data-lid="'+r.id+'" style="padding:0 8px;font-size:12px">되살리기</button>':'') +
+      (openEv.has(r.id) ? evHtml(r) : '');
+  }
+  const tools = `<div class="tools">
+    <button type="button" data-act="memo" data-lid="${r.id}">메모</button>
+    ${r.level!=='img'?`<button type="button" data-act="edit" data-lid="${r.id}">고치기</button>`:''}
+    <button type="button" data-act="add" data-lid="${r.id}">아래에 줄 추가</button>
+    <button type="button" data-act="${del?'undel':'del'}" data-lid="${r.id}">${del?'되살리기':'삭제'}</button>
+    <button type="button" data-act="up" data-lid="${r.id}">위로</button>
+    <button type="button" data-act="down" data-lid="${r.id}">아래로</button>
+    <button type="button" data-act="conf" data-lid="${r.id}">${conf?'확정 풀기':'확정'}</button>
+    <button type="button" data-act="orange" data-lid="${r.id}">${orange?'주황 끄기':'주황 표시'}</button>
+  </div>`;
+  const nm = noteCount(r);
+  return `<div class="${cls.join(' ')}${nm?' has-notes':''}" id="L-${r.id}" data-lid="${r.id}">${railHtml(r)}<div class="numc"><button class="addm" type="button" data-act="memo" data-lid="${r.id}" title="이 줄에 메모" aria-label="${esc(dispOf(r))}에 메모">${MEMO_ICON}</button><button class="num" type="button" data-tools="${r.id}" title="${esc(dispOf(r))} 줄 도구 열기(고치기, 추가, 삭제, 순서, 확정, 주황)"><span class="dfull">${esc(dispOf(r))}</span></button>${nm?`<button class="mbadge" type="button" data-notes="${r.id}" title="달린 메모 보기">${nm}</button>`:''}</div><div class="body">${body}</div>${tools}${formHtml(r)}${openNotes.has(r.id)?notesHtml(r):''}</div>`;
+}
+
+function formHtml(r){
+  if (!openForm || openForm.lid !== r.id) return '';
+  if (openForm.kind === 'memo'){
+    const sel = openForm.type || '메모';
+    return `<form class="form" data-form="memo" data-lid="${r.id}">
+      <div class="types">${MEMO_TYPES.map(t => `<label><input type="radio" name="mt-${r.id}" value="${t}" ${t===sel?'checked':''}>${t}</label>`).join('')}</div>
+      <textarea id="f-memo-${r.id}" placeholder="이 줄에 대한 메모, 반론, 더 알아볼 것">${esc(openForm.text||'')}</textarea>
+      <div class="acts"><button class="pri" type="submit">메모 남기기</button><button class="sec2" type="button" data-act="close">닫기</button></div></form>`;
+  }
+  if (openForm.kind === 'edit' || openForm.kind === 'add'){
+    const v = openForm.kind === 'edit' ? lineText(r) : '';
+    const lv = openForm.kind === 'add' ? `<div class="types">${[['b','● 대분류 줄'],['s','★ 세부 줄'],['q1','① 하위 줄']].map(([k,l]) => `<label><input type="radio" name="lv-${r.id}" value="${k}" ${k===(r.level==='img'?'s':r.level.startsWith('q')?'q1':r.level)?'checked':''}>${l}</label>`).join('')}</div>` : '';
+    return `<form class="form" data-form="${openForm.kind}" data-lid="${r.id}">${lv}
+      <textarea id="f-${openForm.kind}-${r.id}" placeholder="${openForm.kind==='add'?'새 줄 문구':''}">${esc(v)}</textarea>
+      <div class="acts"><button class="pri" type="submit">${openForm.kind==='add'?'줄 추가':'고친 문구 저장'}</button>${openForm.kind==='edit'&&S.edits[r.id]!=null?'<button class="sec2" type="button" data-act="revert" data-lid="'+r.id+'">원래 문구로</button>':''}<button class="sec2" type="button" data-act="close">닫기</button></div></form>`;
+  }
+  return '';
+}
+
+const MEMO_ICON = '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M2.5 3.5h11v7h-6l-3 2.5v-2.5h-2z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M8 5.2v3.6M6.2 7h3.6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>';
+const openNotes = new Set(), openCards = new Set();
+function userMemos(r){ return S.memos.filter(m => m.lid === r.id && !['고침','추가','삭제','순서','확정','주황','합의'].includes(m.type)); }
+function noteCount(r){ return userMemos(r).filter(m => !LOG_BY_MEMO[m.mid] && m.st !== '합의').length; }
+function railHtml(r){
+  const cards = [];
+  userMemos(r).forEach(m => { if (!LOG_BY_MEMO[m.mid]) cards.push({k: m.mid, type: m.type, text: m.text, st: memoStatus(m)}); });
+  // 답이 달린 메모(답함, 합의, 보류)는 화면에서 없앰
+  if (!cards.length) return '';
+  return '<div class="rail">' + cards.map(c => { const open = openCards.has(c.k); if (c.st === '합의' && !open) return `<div class="rdone" data-card="${esc(c.k)}" title="합의된 메모, 누르면 열림">✓</div>`; return `<div class="rcard t-${esc(c.type).replace(/ /g,'')}${open?' open':''}" data-card="${esc(c.k)}" tabindex="0" title="${esc(dispOf(r))} 줄의 메모"><div class="rh"><span class="rt">${esc(c.type)}</span><span class="st st-${c.st.replace(' ','')}">${esc(c.st)}</span></div><div class="rx"><b class="rt" style="margin-right:4px">${esc(c.type)}</b>${c.st==='답함'?'<span style="color:var(--accent);font-weight:700;margin-right:4px">답함</span>':''}${esc(c.text)}</div>${c.ans?`<div class="ra"><b>답</b> ${esc(c.ans)}</div>`:''}${open?`<div class="acts"><button type="button" data-rm="${esc(c.k)}" title="이 메모 지우기">지우기</button></div>`:''}${open && c.g ? ((c.g.changes||[]).map(x => `<div class="ra"><span class="before">${esc(x.before||'')}</span> → <b>${esc(x.after||'')}</b></div>`).join('') + (c.st==='합의'?'':`<div class="acts"><button type="button" data-act="agree" data-g="${c.g._i}" data-lid="${r.id}">합의</button><button type="button" data-act="rechal" data-lid="${r.id}">다시 챌린지</button></div>`)) : ''}</div>`; }).join('') + '</div>';
+}
+// 메모 칩이 서로 겹치지 않게 아래로 밀기
+function layoutRails(){
+  let lastBottom = -1e9;
+  document.querySelectorAll('.rail').forEach(el => {
+    el.style.transform = '';
+    const st = getComputedStyle(el); if (st.display === 'none') return;
+    const r = el.getBoundingClientRect();
+    const top = r.top + window.scrollY;
+    if (top < lastBottom + 4){ const d = lastBottom + 4 - top; el.style.transform = `translateY(${d}px)`; lastBottom = top + d + r.height; }
+    else lastBottom = top + r.height;
+  });
+}
+window.addEventListener('resize', () => requestAnimationFrame(layoutRails));
+function notesHtml(r){
+  const mine = S.memos.filter(m => m.lid === r.id && !['고침','추가','삭제','순서','확정','주황','합의'].includes(m.type));
+  const logs = [];
+  if (!mine.filter(m => !LOG_BY_MEMO[m.mid]).length) return '';
+  let h = '<div class="notes">';
+  mine.forEach(m => { if (!LOG_BY_MEMO[m.mid]) h += `<div class="note"><span class="who">${esc(m.type)}</span>${esc(m.text)} <span class="st st-${memoStatus(m).replace(' ','')}">${memoStatus(m)}</span></div>`; });
+  logs.forEach(g => {
+    const agreed = S.agreed[g.memo_id || g._i] || g.status === '합의';
+    h += `<div class="note"><span class="who">질문</span>${esc(g.question)}</div>`;
+    h += `<div class="note ans${agreed?' agree':''}"><span class="who">답</span>${esc(g.answer)}` +
+      (g.changes||[]).map(x => `<span class="chg">${esc(x.where||'')}: <span class="before">${esc(x.before||'')}</span> → <b>${esc(x.after||'')}</b></span>`).join('') +
+      (agreed ? '<div class="acts"><span class="st st-합의">합의</span></div>' : `<div class="acts"><button type="button" data-act="agree" data-g="${g._i}" data-lid="${r.id}">합의</button><button type="button" data-act="rechal" data-lid="${r.id}">다시 챌린지</button></div>`) + '</div>';
+  });
+  return h + '</div>';
+}
+
+function renderCompany(){
+  const c = CO[cur]; if (!c) return;
+  // 화면 번호 다시 매기기(추가, 순서 반영)
+  c.sections.forEach(sec => { let n = 0; rowsOf(c, sec).forEach(r => { n++; DISP[r.id] = `${c.name} ${sec.code}-${n}`; }); });
+  const claims = [];
+  c.sections.forEach(sec => rowsOf(c, sec).forEach(r => { if (r.claim && !S.del[r.id]) claims.push([sec, r]); }));
+  let h = `<div class="page"><div class="head">${c.logo?`<img alt="${esc(c.name)} 로고" src="${D.imgs[c.logo]}">`:''}<div><h1>${esc(c.name)}</h1><div class="kind">${c.kind==='ats'?'미국 주식 야간 거래 시장(ATS)':c.kind==='overview'?'회사 6곳과 미국 야간 ATS 3곳을 한 장으로. 줄 끝 단추를 누르면 그 회사 본문 줄로 갑니다.':'주식 토큰 사업자'}</div></div></div>`;
+  let claimsHtml = '';
+  if (claims.length) claimsHtml = `<section class="claims"><h2>주장 한눈에 보기</h2><ol>${claims.map(([sec,r]) => `<li><button type="button" data-jump="${sec.code}"><span class="cs">${esc(secShort(sec))}</span><span class="ct">${esc(stripMk(S.edits[r.id]!=null?S.edits[r.id].replace(/^주장\s*:\s*/,''):r.text))}</span></button></li>`).join('')}</ol></section>`;
+  let cardHtml = '', restHtml = '';
+  c.sections.forEach(sec => {
+    const rows = rowsOf(c, sec);
+    let inner = '', hideUnder = null, qbox = false;
+    rows.forEach((r, i) => {
+      const nxt = rows[i+1];
+      const depth = l => l === 'b' ? 0 : (l === 's' || l === 'img' || l === 'th' || l === 'tr') ? 1 : 2;
+      const hasKids = r.level !== 'img' && nxt && depth(nxt.level) > depth(r.level);
+      let hidden = false;
+      if (hideUnder){ if (depth(r.level) > hideUnder.d) hidden = true; else hideUnder = null; }
+      let html = rowHtml(c, r, hasKids);
+      if (hidden) html = html.replace('class="row ', 'class="row hidden ');
+      inner += html;
+      if (hasKids && collapsedGroups.has(r.id) && !hideUnder) hideUnder = {d: depth(r.level)};
+    });
+    const blk = `<details class="sec${sec.code==='카드'?' idcard':''}" id="S-${sec.code}" ${secOpen(sec)?'open':''}><summary>${sec.code==='카드'?'':`<span class="code">${esc(sec.code)}</span>`}${esc(sec.code==='카드'?'Summary':sec.title)}</summary><div class="rows">${inner}</div></details>`;
+    if (sec.code === '카드') cardHtml += blk; else restHtml += blk;
+  });
+  h += cardHtml + claimsHtml + restHtml + '</div>';
+  $('#main').innerHTML = h;
+  requestAnimationFrame(layoutRails);
+}
+const closedSecs = new Set();
+function secOpen(sec){ return !closedSecs.has(cur + '/' + sec.code); }
+function secShort(sec){ return sec.title.replace(/\(.*\)/,'').replace(/^[A-H] /, sec.code + ' ').slice(0, 14); }
+
+function renderMemo(){
+  const f = window._mf || {co:'all', st:'all'};
+  const sts = ['all','안 보냄','보냄','답함','합의'];
+  let list = S.memos.map(m => Object.assign({}, m, {stNow: memoStatus(m)}));
+  // 다른 기기에서 보낸 메모에 대한 답도 보이게
+  (D.log||[]).forEach(g => { if (!g.memo_id || !S.memos.find(m => m.mid === g.memo_id)) list.push({mid: g.memo_id||g._i, lid: g.line_id, co: g.company_slug || (LINE[g.line_id]||{}).co, disp: g.disp, type: g.type||'메모', text: g.question, stNow: S.agreed[g.memo_id||g._i] ? '합의' : (g.status||'답함'), at: g.time, answer: g.answer}); });
+  if (f.co !== 'all') list = list.filter(m => m.co === f.co);
+  if (f.st !== 'all') list = list.filter(m => m.stNow === f.st); else list = list.filter(m => !['답함','합의','보류'].includes(m.stNow));
+  list.sort((a,b) => (b.at||'').localeCompare(a.at||''));
+  let h = `<div class="memo-page"><h1 style="margin:0 0 4px;font-size:24px">메모</h1><p style="margin:0;color:var(--muted)">${MEMO_DB ? '자동 저장되어 Claude가 바로 읽을 수 있습니다. 어느 화면에서든 글자를 드래그하면 메모 단추가 나옵니다.' : '이 브라우저에만 저장됩니다. 어느 화면에서든 글자를 드래그하면 메모 단추가 나옵니다. 다 쓰면 "메모 보내기"로 보내 주세요.'}</p>
+    <div class="filters" role="group" aria-label="회사">${[['all','전체']].concat(D.companies.map(c => [c.slug,c.name])).map(([k,l]) => `<button type="button" data-mf-co="${k}" aria-pressed="${f.co===k}">${esc(l)}</button>`).join('')}</div>
+    <div class="filters" role="group" aria-label="상태">${sts.map(s => `<button type="button" data-mf-st="${s}" aria-pressed="${f.st===s}">${s==='all'?'모든 상태':s}</button>`).join('')}</div><div class="mlist">`;
+  if (!list.length) h += '<div class="empty">아직 메모가 없습니다. 본문에서 줄 번호를 누르면 메모, 고치기, 확정 단추가 나옵니다.</div>';
+  list.forEach(m => {
+    h += `<div class="mcard"><div class="meta">${m.view ? `<button class="go" type="button" data-fgo="${esc(m.mid)}">${esc(m.disp)}</button>` : `<button class="go" type="button" data-go="${esc(m.lid)}" data-co="${esc(m.co)}">${esc(m.disp||m.lid)}</button>`}<span>${esc(m.type)}</span><span class="st st-${(m.stNow||'').replace(' ','')}">${esc(m.stNow)}</span><span>${esc(m.at||'')}</span>${m.type==='삭제' && S.del[m.lid]?`<button class="sec2" type="button" data-act="undel" data-lid="${esc(m.lid)}" style="padding:0 8px;font-size:12px">되살리기</button>`:''}${S.memos.find(x => x.mid===m.mid)?`<button class="sec2" type="button" data-rm="${m.mid}" style="padding:0 8px;font-size:12px">지우기</button>`:''}</div>
+      <div>${esc(m.text)}</div>${m.line?`<div class="line">${m.view ? '고른 글' : '줄'}: ${esc(m.line)}</div>`:''}${m.answer?`<div class="note ans"><span class="who">답</span>${esc(m.answer)}</div>`:''}</div>`;
+  });
+  h += '</div></div>';
+  $('#main').innerHTML = h;
+}
+
+function render(){
+  $('#tab-ov').setAttribute('aria-selected', view==='read' && cur==='overview'); $('#tab-read').setAttribute('aria-selected', view==='read' && cur!=='overview'); $('#tab-memo').setAttribute('aria-selected', view==='memo');
+  document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-selected', b.dataset.view === view));
+  $('#btn-fold').hidden = view !== 'read'; applyView();
+  document.querySelectorAll('.co').forEach(el => el.setAttribute('aria-current', el.dataset.slug === cur && view === 'read'));
+  if (view === 'read') renderCompany(); else if (view === 'memo') renderMemo(); else if (view === 'compare') renderCompare(); else if (view === 'lic') renderLic(); else if (view === 'rules') renderRules(); else if (view === 'brief') renderBrief(); else if (view === 'cmp3') renderCmp3(); else if (view === 'qa') renderQa(); else if (view === 'parts') renderParts();
+  updateCount();
+}
+function keepScroll(fn){ const y = window.scrollY; fn(); window.scrollTo(0, y); }
+
+// ---------- 동작 ----------
+function toast(t){ const el = document.createElement('div'); el.className = 'toast'; el.textContent = t; document.body.appendChild(el); setTimeout(() => el.remove(), 2200); }
+function closePop(){ document.querySelectorAll('.pop').forEach(p => p.remove()); }
+
+document.addEventListener('click', e => {
+  const t = e.target;
+  if (!t.closest('.pop') && !t.closest('.term')) closePop();
+  const co = t.closest('.co'); if (co){ cur = co.dataset.slug; view = 'read'; location.hash = cur; render(); window.scrollTo(0,0); return; }
+  if (t.closest('#tab-ov')){ view = 'read'; cur = 'overview'; location.hash = 'overview'; render(); window.scrollTo(0,0); return; }
+  if (t.closest('#tab-read')){ view = 'read'; if (cur === 'overview'){ cur = D.companies.find(c => c.kind !== 'overview').slug; location.hash = cur; } render(); window.scrollTo(0,0); return; }
+  if (t.closest('#tab-memo')){ view = 'memo'; render(); window.scrollTo(0,0); return; }
+  const vb = t.closest('[data-view]'); if (vb){ view = vb.dataset.view; location.hash = 'v-' + view; render(); window.scrollTo(0,0); return; }
+  const gco = t.closest('[data-goco]'); if (gco){ const sl = gco.dataset.goco; if (CO[sl]){ cur = sl; view = 'read'; location.hash = sl; render(); window.scrollTo(0,0); } return; }
+  const vci = t.closest('[data-lic]'); if (vci){ const i = +vci.dataset.lic; openLic.has(i) ? openLic.delete(i) : openLic.add(i); keepScroll(render); return; }
+  const rk = t.closest('[data-relk]'); if (rk){ relKind = rk.dataset.relk; keepScroll(render); return; }
+  const srcb = t.closest('[data-srcrow]'); if (srcb && !t.closest('a')){ const k = srcb.dataset.srcrow; openSrc.has(k) ? openSrc.delete(k) : openSrc.add(k); keepScroll(render); return; }
+  if (t.closest('#btn-num')){ VIEW.num = !VIEW.num; applyView(); keepScroll(() => requestAnimationFrame(layoutRails)); return; }
+  if (t.closest('#btn-defn')){ VIEW.defn = !VIEW.defn; applyView(); keepScroll(() => requestAnimationFrame(layoutRails)); return; }
+  if (t.closest('#btn-emph')){ VIEW.emph = !VIEW.emph; applyView(); return; }
+  if (t.closest('#btn-xlsx')){ saveXlsx(); return; }
+  if (t.closest('#btn-fold')){ allOpen = !allOpen; const c = CO[cur]; c.sections.forEach(s => { const k = cur + '/' + s.code; if (allOpen) closedSecs.delete(k); else closedSecs.add(k); }); t.closest('#btn-fold').textContent = allOpen ? '모두 접기' : '모두 펼치기'; render(); return; }
+  if (t.closest('#btn-send')){ openSend(); return; }
+  const term = t.closest('.term'); if (term){ showTerm(term); e.stopPropagation(); return; }
+  if (t.closest('a')) return;
+  const img = t.closest('figure img'); if (img){ const z = document.createElement('div'); z.className = 'zoom'; z.innerHTML = `<img alt="" src="${img.src}">`; z.onclick = () => z.remove(); document.body.appendChild(z); return; }
+  const jump = t.closest('[data-jump]'); if (jump){ const code = jump.dataset.jump; closedSecs.delete(cur+'/'+code); render(); const el = document.getElementById('S-'+code); if (el) el.scrollIntoView({block:'start'}); window.scrollBy(0,-60); return; }
+  const grp = t.closest('[data-grp]'); if (grp){ const id = grp.dataset.grp; collapsedGroups.has(id) ? collapsedGroups.delete(id) : collapsedGroups.add(id); keepScroll(render); return; }
+  const nb = t.closest('[data-notes]'); if (nb){ const id = nb.dataset.notes; openNotes.has(id) ? openNotes.delete(id) : openNotes.add(id); keepScroll(render); return; }
+  const card = t.closest('[data-card]'); if (card && !t.closest('button')){ const k = card.dataset.card; openCards.has(k) ? openCards.delete(k) : openCards.add(k); keepScroll(render); return; }
+  const num = t.closest('[data-tools]'); if (num){ const id = num.dataset.tools; openTools.has(id) ? openTools.delete(id) : openTools.add(id); keepScroll(render); return; }
+  const ev = t.closest('[data-ev]'); if (ev && !t.closest('.ev') && !t.closest('.lchip')){ const id = ev.dataset.ev; openEv.has(id) ? openEv.delete(id) : openEv.add(id); keepScroll(render); return; }
+  const mf = t.closest('[data-mf-co],[data-mf-st]'); if (mf){ const f = window._mf || {co:'all', st:'all'}; if (mf.dataset.mfCo) f.co = mf.dataset.mfCo; if (mf.dataset.mfSt) f.st = mf.dataset.mfSt; window._mf = f; render(); return; }
+  const go = t.closest('[data-go]'); if (go){ cur = go.dataset.co || cur; view = 'read'; location.hash = cur; closedSecs.clear(); render(); const el = document.getElementById('L-'+go.dataset.go); if (el){ el.scrollIntoView({block:'center'}); el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 2400); } return; }
+  const rm = t.closest('[data-rm]'); if (rm){ S.memos = S.memos.filter(m => m.mid !== rm.dataset.rm); openCards.delete(rm.dataset.rm); save(); keepScroll(render); toast('메모를 지웠습니다'); return; }
+  const act = t.closest('[data-act]'); if (act) doAct(act.dataset.act, act.dataset.lid, act);
+});
+
+function doAct(a, lid, el){
+  const r = LINE[lid];
+  if (a === 'close'){ openForm = null; keepScroll(render); return; }
+  if (!r && a !== 'agree') return;
+  const c = r ? CO[r.co] : null;
+  switch(a){
+    case 'memo': openForm = {lid, kind:'memo'}; break;
+    case 'rechal': openForm = {lid, kind:'memo', type:'챌린지'}; break;
+    case 'edit': openForm = {lid, kind:'edit'}; break;
+    case 'add': openForm = {lid, kind:'add'}; break;
+    case 'revert': { const before = S.edits[lid]; delete S.edits[lid]; S.memos = S.memos.filter(m => !(m.lid===lid && m.type==='고침' && m.st==='안 보냄')); openForm = null; save(); toast('원래 문구로 돌렸습니다'); break; }
+    case 'del': S.del[lid] = true; autoMemo(r, '삭제', '이 줄 삭제'); break;
+    case 'undel': delete S.del[lid]; S.memos = S.memos.filter(m => !(m.lid===lid && m.type==='삭제' && m.st==='안 보냄')); save(); break;
+    case 'conf': if (S.conf[lid]){ delete S.conf[lid]; S.memos = S.memos.filter(m => !(m.lid===lid && m.type==='확정' && m.st==='안 보냄')); save(); } else { S.conf[lid] = true; autoMemo(r, '확정', '이 문구로 확정'); } break;
+    case 'orange': { const curO = S.orange[lid] != null ? S.orange[lid] : !!r.orange; S.orange[lid] = !curO; autoMemo(r, '주황', S.orange[lid] ? '주황 표시(추가 확인 필요)' : '주황 해제'); break; }
+    case 'up': case 'down': {
+      const sec = c.sections.find(s => s.code === r.sec); const ids = rowsOf(c, sec).map(x => x.id); const i = ids.indexOf(lid); const j = a === 'up' ? i-1 : i+1;
+      if (j < 0 || j >= ids.length) return; [ids[i], ids[j]] = [ids[j], ids[i]];
+      (S.order[c.slug] = S.order[c.slug] || {})[sec.code] = ids; save();
+      renderCompany(); autoMemo(r, '순서', `${a==='up'?'위로':'아래로'} 옮김`, {order: ids.map(id => dispOf(LINE[id]) + ' ' + id)}); break;
+    }
+    case 'agree': {
+      const g = (D.log||[]).find(x => x._i === el.dataset.g); if (!g) return;
+      S.agreed[g.memo_id || g._i] = true; const rr = LINE[g.line_id] || r;
+      if (rr) addMemo(rr, '합의', '답에 합의: ' + (g.answer||'').slice(0,80), {log_time: g.time});
+      save(); toast('합의로 표시했습니다'); break;
+    }
+  }
+  keepScroll(render);
+}
+
+document.addEventListener('submit', e => {
+  const f = e.target.closest('form[data-form]'); if (!f) return; e.preventDefault();
+  const lid = f.dataset.lid, r = LINE[lid], kind = f.dataset.form, val = f.querySelector('textarea').value.trim();
+  if (kind === 'memo'){
+    if (!val){ toast('메모 내용을 적어 주세요'); return; }
+    const type = (f.querySelector('input[type=radio]:checked')||{}).value || '메모';
+    addMemo(r, type, val); toast('메모를 남겼습니다');
+  } else if (kind === 'edit'){
+    const before = (r.label ? r.label + ' : ' : '') + (r.text||'');
+    if (!val || val === before){ delete S.edits[lid]; } else { S.edits[lid] = val; autoMemo(r, '고침', `${before} → ${val}`, {before, after: val}); }
+    save(); toast('고친 문구를 저장했습니다');
+  } else if (kind === 'add'){
+    if (!val){ toast('새 줄 문구를 적어 주세요'); return; }
+    const level = (f.querySelector('input[type=radio]:checked')||{}).value || 's';
+    const nid = r.id.split('-')[0] + '-u' + Date.now().toString(36);
+    (S.added[r.co] = S.added[r.co] || []).push({lid: nid, sec: r.sec, after: r.id, level, text: val});
+    save(); renderCompany();
+    const nr = LINE[nid]; addMemo(nr, '추가', val, {after: r.id, after_disp: dispOf(r), level});
+    toast('줄을 추가했습니다');
+  }
+  openForm = null; keepScroll(render);
+});
+
+function showTerm(el){
+  closePop();
+  const t = D.terms[+el.dataset.term]; if (!t) return;
+  const p = document.createElement('div'); p.className = 'pop';
+  p.innerHTML = `<b>${esc(t.t)}</b>${t.en?`<div class="en">${esc(t.en)}</div>`:''}<div>${esc(t.e)}</div>${t.p&&t.d?`<div class="en" style="margin-top:4px">헷갈리는 짝: ${esc(t.p)}. ${esc(t.d)}</div>`:''}${t.kr?`<div class="en">한국: ${esc(t.kr)}</div>`:''}`;
+  document.body.appendChild(p);
+  const b = el.getBoundingClientRect(); const w = Math.min(340, window.innerWidth - 32);
+  p.style.top = (window.scrollY + b.bottom + 6) + 'px';
+  p.style.left = Math.max(16, Math.min(window.scrollX + b.left, window.innerWidth - w - 16)) + 'px';
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape'){ closePop(); document.querySelectorAll('.modal,.zoom').forEach(m => m.remove()); } if (e.key === 'Enter' && e.target.classList && e.target.classList.contains('term')) showTerm(e.target); });
+
+
+// ---------- 보기 설정(줄 번호 접기, 강조) ----------
+const VKEY = 'kdx-view-v1';
+let VIEW = {num: false, emph: true, defn: true};
+try{ Object.assign(VIEW, JSON.parse(localStorage.getItem(VKEY) || '{}')); }catch(e){}
+function applyView(){
+  document.body.classList.toggle('nonum', !VIEW.num);
+  document.body.classList.toggle('noemph', !VIEW.emph);
+  document.body.classList.toggle('nodefn', !VIEW.defn);
+  const bd = $('#btn-defn'); if (bd) bd.textContent = VIEW.defn ? '뜻 접기' : '뜻 펼치기';
+  const bn = $('#btn-num'), be = $('#btn-emph');
+  if (bn) bn.textContent = VIEW.num ? '줄 번호 접기' : '줄 번호 보기';
+  if (be) be.textContent = VIEW.emph ? '강조 끄기' : '강조 켜기';
+  try{ localStorage.setItem(VKEY, JSON.stringify(VIEW)); }catch(e){}
+}
+
+// ---------- 엑셀 받기(외부 라이브러리 없이 xlsx 생성) ----------
+const CRC_T = (() => { const T = new Uint32Array(256); for (let n = 0; n < 256; n++){ let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; T[n] = c >>> 0; } return T; })();
+function crc32(b){ let c = 0xFFFFFFFF; for (let i = 0; i < b.length; i++) c = CRC_T[(c ^ b[i]) & 255] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; }
+function zipStore(files){ // files: [[name, string]]
+  const enc = new TextEncoder(); const parts = []; const cent = []; let off = 0;
+  files.forEach(([name, str]) => {
+    const nb = enc.encode(name), db = enc.encode(str), crc = crc32(db);
+    const h = new DataView(new ArrayBuffer(30));
+    h.setUint32(0, 0x04034b50, true); h.setUint16(4, 20, true); h.setUint16(6, 0x0800, true); h.setUint16(8, 0, true);
+    h.setUint32(14, crc, true); h.setUint32(18, db.length, true); h.setUint32(22, db.length, true); h.setUint16(26, nb.length, true);
+    parts.push(new Uint8Array(h.buffer), nb, db);
+    const c = new DataView(new ArrayBuffer(46));
+    c.setUint32(0, 0x02014b50, true); c.setUint16(4, 20, true); c.setUint16(6, 20, true); c.setUint16(8, 0x0800, true);
+    c.setUint32(16, crc, true); c.setUint32(20, db.length, true); c.setUint32(24, db.length, true); c.setUint16(28, nb.length, true); c.setUint32(42, off, true);
+    cent.push(new Uint8Array(c.buffer), nb);
+    off += 30 + nb.length + db.length;
+  });
+  const csize = cent.reduce((a, x) => a + x.length, 0);
+  const e = new DataView(new ArrayBuffer(22));
+  e.setUint32(0, 0x06054b50, true); e.setUint16(8, files.length, true); e.setUint16(10, files.length, true); e.setUint32(12, csize, true); e.setUint32(16, off, true);
+  return new Blob([...parts, ...cent, new Uint8Array(e.buffer)], {type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'});
+}
+function xe(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g,''); }
+function colName(i){ let s = ''; i++; while (i > 0){ const m = (i - 1) % 26; s = String.fromCharCode(65 + m) + s; i = Math.floor((i - 1) / 26); } return s; }
+function sheetXml(rows, widths){
+  const cols = '<cols>' + widths.map((w, i) => `<col min="${i+1}" max="${i+1}" width="${w}" customWidth="1"/>`).join('') + '</cols>';
+  const body = rows.map((r, ri) => `<row r="${ri+1}">` + r.map((v, ci) => `<c r="${colName(ci)}${ri+1}" t="inlineStr"${ri===0?' s="1"':' s="2"'}><is><t xml:space="preserve">${xe(v)}</t></is></c>`).join('') + '</row>').join('');
+  return `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetViews><sheetView workbookViewId="0"><pane ySplit="1" topLeftCell="A2" activePane="bottomLeft" state="frozen"/></sheetView></sheetViews>${cols}<sheetData>${body}</sheetData><autoFilter ref="A1:${colName(rows[0].length-1)}${rows.length}"/></worksheet>`;
+}
+function buildXlsx(sheets){ // sheets: [{name, rows, widths}]
+  const n = sheets.length;
+  const files = [
+    ['[Content_Types].xml', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>${sheets.map((s,i) => `<Override PartName="/xl/worksheets/sheet${i+1}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>`).join('')}</Types>`],
+    ['_rels/.rels', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>`],
+    ['xl/workbook.xml', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets>${sheets.map((s,i) => `<sheet name="${xe(s.name)}" sheetId="${i+1}" r:id="rId${i+1}"/>`).join('')}</sheets>${sheets.map((s,i) => `<definedNames><definedName name="_xlnm._FilterDatabase" localSheetId="${i}" hidden="1">'${xe(s.name)}'!$A$1:$${colName(s.rows[0].length-1)}$${s.rows.length}</definedName></definedNames>`).slice(0,0).join('')}</workbook>`],
+    ['xl/_rels/workbook.xml.rels', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">${sheets.map((s,i) => `<Relationship Id="rId${i+1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet${i+1}.xml"/>`).join('')}<Relationship Id="rId${n+1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>`],
+    ['xl/styles.xml', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><fonts count="2"><font><sz val="10"/><name val="맑은 고딕"/></font><font><b/><sz val="10"/><name val="맑은 고딕"/></font></fonts><fills count="3"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill><fill><patternFill patternType="solid"><fgColor rgb="FFE6EDF8"/><bgColor indexed="64"/></patternFill></fill></fills><borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="3"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="2" borderId="0" xfId="0" applyFont="1" applyFill="1"/><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1"><alignment wrapText="1" vertical="top"/></xf></cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>`],
+  ];
+  sheets.forEach((s, i) => files.push([`xl/worksheets/sheet${i+1}.xml`, sheetXml(s.rows, s.widths)]));
+  return zipStore(files);
+}
+const LV_MARK = {b:'●', s:'•', q1:'①', q2:'②', q3:'③', d:'-', img:'그림', th:'표 머리', tr:'표'};
+function xlsxSheets(){
+  const body = [['회사','대분류','줄 번호','줄 ID','단계','문구','근거 번호','원문 링크','원문 근거 문장','화면 상태']];
+  D.companies.forEach(c => {
+    c.sections.forEach(sec => { let n = 0; rowsOf(c, sec).forEach(r => {
+      n++; const disp = `${c.name} ${sec.code}-${n}`;
+      let text = r.level === 'img' ? (r.imgs||[]).map(i => i.c).join(' / ') : (r.level === 'th' || r.level === 'tr') ? (r.cells||[]).map(x => x.t).join(' | ') : (r.label ? r.label + ' : ' : '') + (r.text||'');
+      const st = [];
+      if (S.edits[r.id] != null){ text = S.edits[r.id]; st.push('고침'); }
+      if (r.added) st.push('추가'); if (S.del[r.id]) st.push('삭제'); if (S.conf && S.conf[r.id]) st.push('확정'); if (S.orange && S.orange[r.id]) st.push('주황');
+      const src = r.src || [];
+      body.push([c.name, sec.title, disp, r.id, LV_MARK[r.level] || r.level, stripMk(text), (r.ids||[]).join(' '), src.map(x => x.url).filter(Boolean).join('\n'), src.map(x => x.q).filter(Boolean).slice(0,3).join('\n'), st.join(', ')]);
+    }); });
+  });
+  const memo = [['회사','줄 번호','줄 ID','종류','메모','상태','답','시각']];
+  S.memos.forEach(m => { const g = LOG_BY_MEMO[m.mid]; memo.push([(CO[m.co]||{}).name || m.co, m.disp, m.lid, m.type, m.text, memoStatus(m), g ? g.answer : '', m.at || '']); });
+  (D.log||[]).forEach(g => { if (!g.memo_id || !S.memos.find(m => m.mid === g.memo_id)) memo.push([g.company || '', g.disp || '', g.line_id || '', g.type || '메모', g.question || '', S.agreed[g.memo_id||g._i] ? '합의' : (g.status || '답함'), g.answer || '', g.time || '']); });
+  const terms = [['용어','영문','뜻','비교 용어','차이','한국 대응']];
+  D.terms.forEach(x => terms.push([x.t || (x.k||[]).join(', '), x.en || '', stripMk(x.e || ''), x.p || '', x.d || '', x.kr || '']));
+  return [
+    {name: '본문', rows: body, widths: [12,22,18,10,6,90,18,40,50,10]},
+    {name: '메모와 답', rows: memo, widths: [12,18,10,10,60,8,60,18]},
+    {name: '용어', rows: terms, widths: [20,22,60,18,50,30]},
+  ];
+}
+async function saveXlsx(){
+  let blob;
+  try{ blob = buildXlsx(xlsxSheets()); }catch(err){ toast('엑셀 파일을 만들지 못했습니다'); return; }
+  const name = `KDX_해외사례_${now().slice(0,10).replace(/[^0-9-]/g,'')}.xlsx`;
+  if (DL){ try{ await DL.save({filename: name, data: blob}); toast('엑셀 파일을 저장했습니다'); return; }catch(err){ if (err && err.code === 'declined') return; } }
+  try{ const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); a.remove(); }
+  catch(err){ toast('이 화면에서는 파일 저장이 막혀 있습니다'); }
+}
+// ---------- 메모 보내기 ----------
+let DL = null; try{ if (window.claude && window.claude.use) window.claude.use('downloads').then(d => { DL = d; }, () => {}); }catch(e){}
+async function saveJson(text, name){
+  if (DL){ try{ await DL.save({filename: name, data: text}); toast('json 파일을 저장했습니다'); return; }catch(err){ if (err && err.code === 'declined') return; } }
+  try{ const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], {type:'application/json'})); a.download = name; document.body.appendChild(a); a.click(); a.remove(); }
+  catch(err){ toast('파일 저장이 막혀 있습니다. json 복사를 써 주세요'); }
+}
+function payload(list){
+  return list.map(m => { const r = LINE[m.lid] || {}; return Object.assign({memo_id: m.mid, line_id: m.lid, company: (CO[m.co]||{}).name || m.co, company_slug: m.co, disp: m.disp, type: m.type, text: m.text, line_now: m.line, at: m.at}, m.before!=null?{before:m.before, after:m.after}:{}, m.after_disp?{after_line: m.after_disp, level: m.level}:{}, m.order?{order:m.order}:{}); });
+}
+function asText(list){
+  const by = {}; list.forEach(m => (by[m.co] = by[m.co] || []).push(m));
+  return Object.keys(by).map(co => `■ ${(CO[co]||{}).name || co}\n` + by[co].map(m => `[${m.disp}] (${m.type}) ${m.text}${m.line && !['고침','추가'].includes(m.type)?`\n   줄: ${m.line}`:''}`).join('\n')).join('\n\n');
+}
+function openSend(){
+  const list = unsent();
+  const txt = list.length ? `KDX 해외 사례 화면 메모 ${list.length}건 (${now()})\n\n` + asText(list) : '';
+  const json = JSON.stringify({sent_at: now(), memos: payload(list)}, null, 1);
+  const m = document.createElement('div'); m.className = 'modal';
+  m.innerHTML = `<div class="box" role="dialog" aria-label="메모 보내기"><h3>메모 보내기</h3>
+    ${list.length ? `<p style="margin:0;color:var(--muted)">안 보낸 메모 ${list.length}건입니다. 글을 복사해 대화창에 붙여 넣어 주세요. 복사하면 "보냄"으로 바뀝니다.</p>
+    <textarea id="send-text" readonly>${esc(txt)}</textarea>
+    <div class="acts"><button class="pri" type="button" id="cp-text">글 복사</button><button class="sec2" type="button" id="cp-json">json 복사</button><button class="sec2" type="button" id="dl-json">json 파일 저장</button><button class="sec2" type="button" id="mk-sent">보냄으로 표시만</button><button class="sec2" type="button" id="x-send">닫기</button></div>
+    <details><summary style="cursor:pointer;color:var(--muted)">json 보기</summary><textarea id="send-json" readonly>${esc(json)}</textarea></details>
+    <p style="margin:0;font-size:12.5px;color:var(--faint)">파일 저장이 안 되는 곳에서는 json 복사를 써 주세요.</p>`
+    : `<p class="empty">안 보낸 메모가 없습니다.</p><div class="acts"><button class="sec2" type="button" id="x-send">닫기</button></div>`}</div>`;
+  document.body.appendChild(m);
+  const markSent = () => { list.forEach(x => { const o = S.memos.find(y => y.mid === x.mid); if (o) o.st = '보냄'; }); save(); render(); };
+  const copy = (id, label) => { const ta = document.getElementById(id); const v = ta.value;
+    const ok = () => { markSent(); toast(label + '를 복사했습니다. 보냄으로 표시했습니다'); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(v).then(ok, () => { ta.closest('details') && (ta.closest('details').open = true); ta.select(); toast('자동 복사가 막혀 있습니다. 선택된 글을 직접 복사해 주세요'); });
+    else { ta.select(); toast('선택된 글을 직접 복사해 주세요'); } };
+  m.addEventListener('click', e => {
+    if (e.target === m || e.target.id === 'x-send') m.remove();
+    if (e.target.id === 'cp-text') copy('send-text', '글');
+    if (e.target.id === 'cp-json') copy('send-json', 'json');
+    if (e.target.id === 'mk-sent'){ markSent(); m.remove(); toast('보냄으로 표시했습니다'); }
+    if (e.target.id === 'dl-json'){ saveJson(json, 'kdx_memos_' + now().replace(/[- :]/g,'') + '.json'); }
+  });
+}
+
+// ---------- 2~4배치 화면 ----------
+const openLic = new Set(), openSrc = new Set(); let relKind = 'all', relQ = '', termQ = '';
+const NAME2SLUG = {}; D.companies.forEach(c => { NAME2SLUG[c.name.toLowerCase()] = c.slug; });
+function slugOf(name){ const n = String(name||'').toLowerCase(); for (const k in NAME2SLUG){ if (n.startsWith(k) || n.includes(k)) return NAME2SLUG[k]; } return null; }
+function coBtn(name){ const sl = slugOf(name); return sl ? `<button class="golink" type="button" data-goco="${sl}">${esc(name)}</button>` : esc(name); }
+function srcCell(key, src){ if (!src || !src.length) return ''; const urls = [...new Set(src.map(s => s.url).filter(Boolean))];
+  return `<span class="src">${urls.map((u,i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${i? i+1 : '출처'}</a>`).join(' ')}</span> <button class="sec2" type="button" data-srcrow="${key}" style="padding:0 6px;font-size:11.5px">근거</button>${openSrc.has(key) ? evHtml({src}) : ''}`; }
+
+function figsHtml(where){ const F = (D.figs||{})[where] || []; if (!F.length) return '';
+  return '<div class="figs">' + F.map(f => `<figure><img loading="lazy" alt="${esc(f.c)}" src="${D.imgs[f.k]}"><figcaption>${esc(f.c)}</figcaption></figure>`).join('') + '</div>'; }
+function renderCompare(){
+  const R = D.rank.slice().sort((a,b) => a.rank - b.rank); const max = Math.max(...R.map(r => r.usd));
+  let h = `<div class="wide"><h1>가로 비교</h1><p class="lead">회사 6곳과 미국 야간 ATS 3곳을 같은 칸으로 나란히 봅니다. 회사 이름을 누르면 본문으로 갑니다. 법적 성격은 SEC 직원 성명(2026-01-28)의 정의를 적용한 우리 분류입니다.</p>`;
+  h += `<h2>제3자 비교표</h2><p class="lead">외부 보고서의 비교표와 구조 그림입니다. 발행처와 입장, 기준 시점을 그림 아래에 적었습니다. 칸 내용이 우리 확인 결과와 다르면 우리 쪽을 따릅니다.</p>` + figsHtml('compare');
+  if ((D.cls||[]).length) h += `<h2>우리 분류와 다른 분류</h2><p class="lead">우리 분류는 상품 단위이고, SEC 직원 성명(2026-01-28)의 정의를 약관과 투자설명서에 적용한 것입니다.</p><div class="tbl"><table><thead><tr><th>자료</th><th>그 자료의 구분</th><th>우리 분류와 다른 점</th><th>출처</th></tr></thead><tbody>` +
+    D.cls.map((r,i) => `<tr><td><b>${esc(r['자료'])}</b></td><td>${esc(r['그 자료의 구분'])}</td><td>${esc(r['우리 분류와 다른 점'])}</td><td>${srcCell('cl'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>';
+  if ((D.check||[]).length){
+    const CK = ['상장 여부와 시점','기업가치와 주요 주주','대표 상품 이름과 쉬운 뜻','최초와 최대 타이틀','큰 인수(금액)','큰 사고와 제재','고객 수','한국 접점','종목 수'];
+    const cos = []; D.check.forEach(r => { if (!cos.includes(r['회사'])) cos.push(r['회사']); });
+    h += `<h2>회사별 꼭 나와야 할 지점</h2><p class="lead">빈칸은 1차 자료로 확인하지 못한 곳입니다. 회사가 스스로 말한 것은 "(회사 주장)"을 붙였습니다. 칸을 누르면 출처가 나옵니다. Securitize, tZERO는 조사 대상 밖이라 주황입니다.</p><div class="tbl"><table><thead><tr><th>회사</th>${CK.map(k => `<th style="min-width:150px">${k}</th>`).join('')}</tr></thead><tbody>` +
+      cos.map(co => `<tr class="${/Securitize|tZERO/.test(co)?'orange':''}"><td>${coBtn(co.replace('(Payward)','').replace(' ATS',''))}</td>${CK.map(k => { const i = D.check.findIndex(r => r['회사'] === co && r['칸'] === k); const r = D.check[i]; if (!r) return '<td></td>'; const nf = /못 찾음|단일 출처/.test(r['출처 성격']); return `<td data-srcrow="ck${i}" style="cursor:pointer">${nf ? '<span class="detail">자료 없음</span>' : esc(r['내용']) + (r['출처 성격'] === '회사 주장' ? ' <span class="detail">(회사 주장)</span>' : '')}${openSrc.has('ck'+i) ? evHtml(r) + (r['비고']?`<div class="detail">${esc(r['비고'])}</div>`:'') : ''}</td>`; }).join('')}</tr>`).join('') + '</tbody></table></div>';
+  }
+  if ((D.axis||[]).length){
+    const AX = ['자산(채권)','자산(비상장주식)','자산(펀드)','자산(가상자산)','고객(고액자산가)','고객(기관)','시장(해외)'];
+    const cos = []; D.axis.forEach(r => { if (!cos.includes(r['회사'])) cos.push(r['회사']); });
+    h += `<h2>회사별 KDX 확장 축</h2><p class="lead">칸에는 그 회사가 그 축에서 한 일을 한 줄로 적었습니다. 빈칸은 한 일이 없거나 확인되지 않은 것입니다. 칸을 누르면 출처가 나옵니다.</p><div class="tbl"><table><thead><tr><th>회사</th>${AX.map(a => `<th>${a}</th>`).join('')}</tr></thead><tbody>` +
+      cos.map(co => `<tr><td>${coBtn(co)}</td>${AX.map(a => { const it = D.axis.map((r,i) => [r,i]).filter(([r]) => r['회사'] === co && r['축'] === a); return `<td>${it.map(([r,i]) => `<div data-srcrow="ax${i}" style="cursor:pointer">${esc(r['한 일(한 줄)'] || r['한 일'] || '')}${r['시점']?` <span class="detail">${esc(r['시점'])}${r['확보 방식']?', '+esc(r['확보 방식']):''}</span>`:''}${openSrc.has('ax'+i)?evHtml(r):''}</div>`).join('')}</td>`; }).join('')}</tr>`).join('') + '</tbody></table></div>';
+  }
+  if ((D.perp||[]).length){
+    h += `<h2>대체재: 주식 무기한선물과 주식 토큰 현물</h2><p class="lead">같은 지표끼리만 나란히 둡니다. 거래대금, 발행 잔액, 미결제약정은 서로 비교하지 않습니다.</p>` + (D.perp_concl||[]).map(c => `<p style="margin:2px 0">${esc(c)}</p>`).join('');
+    D.perp.forEach((tb,ti) => { h += `<h3 style="font-size:15px;margin:14px 0 6px">${esc(tb.sec)}</h3><div class="tbl"><table><thead><tr>${tb.head.map(x => `<th>${esc(x)}</th>`).join('')}<th>출처</th></tr></thead><tbody>` + tb.rows.map((r,i) => `<tr>${r.cells.map(c => `<td>${esc(c)}</td>`).join('')}<td>${srcCell('pp'+ti+'_'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>'; });
+  }
+  h += `<h2>발행 잔액 순위</h2><p class="lead">같은 출처 rwa.xyz. 지금 값은 분산형 토큰화 주식 플랫폼 표 ${esc(R[0]?.date||'')}, 과거 값은 Sentora 주간 글(2026-01-09)에 실린 rwa.xyz 표(2026-01 초). 배수는 직접 계산했습니다.</p><div class="tbl"><table><thead><tr><th>순위</th><th>회사(상품)</th><th>발행 잔액</th><th style="min-width:170px">점유율</th><th>2026-01 초</th><th>배수</th><th>출처</th></tr></thead><tbody>` +
+    R.map((r,i) => `<tr class="${r.slug?'':'orange'}"><td class="n">${r.rank}</td><td>${r.slug?`<button class="golink" type="button" data-goco="${r.slug}">${esc(r.name)}</button>`:esc(r.name)+' <span class="detail">(조사 대상 밖, 추가 확인)</span>'}</td><td class="n">${fmtUsd(r.usd)}</td><td><div class="bar${r.slug?'':' orange'}"><div class="track"><div class="fill" style="width:${(r.usd/max*100).toFixed(1)}%"></div></div><span class="n" style="font-variant-numeric:tabular-nums">${esc(r.share)}%</span></div></td><td class="n">${r.past?`${fmtUsd(r.past.usd)}, ${esc(r.past.share)}%, ${r.past.rank}위`:'<span class="detail">표에 없음</span>'}</td><td class="n">${r.past?r.past.x+'배':''}</td><td>${srcCell('rk'+i, (r.src||[]).concat(r.past?r.past.src:[]))}</td></tr>`).join('') +
+    (D.rank_total?`<tr><td></td><td><b>시장 전체</b></td><td class="n">${fmtUsd(D.rank_total.now)}</td><td></td><td class="n">${fmtUsd(D.rank_total.past)}(표 9곳 합)</td><td class="n">${(D.rank_total.now/D.rank_total.past).toFixed(1)}배</td><td>${srcCell('rkt', D.rank_total.src)}</td></tr>`:'') + '</tbody></table></div>' +
+    `<p class="detail">2026-01 초 표에는 Binance, Robinhood, Coinbase가 없습니다(출시 전이거나 집계 전). 그때 없던 Binance가 11월 1위입니다.</p>` + figsHtml('past');
+  const cols = ['원주 보관사','법적 성격(우리 분류)','판매 지역','투자설명서 승인 관할','한국 주식 계획'];
+  h += `<h2>회사별 한 줄</h2><div class="tbl"><table><thead><tr><th>회사</th><th>상품</th>${cols.map(c => `<th>${c}</th>`).join('')}<th>출처</th></tr></thead><tbody>` +
+    D.cross.map((r,i) => `<tr><td>${coBtn(r['회사'])}</td><td>${esc(r['상품'])}</td>${cols.map(c => `<td>${esc(r[c])}</td>`).join('')}<td>${srcCell('cr'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>';
+  h += `<h2>미국 야간 ATS 3곳</h2><p class="lead">점유율은 FINRA 주간 보고 거래대금 13주 합산을 야간 3사 합계로 나눈 값입니다.</p><div class="tbl"><table><thead><tr><th>ATS</th><th>운영사</th><th>개장</th><th>2026 Q2 점유율</th><th>2026 Q3 점유율</th><th>한국 증권사 연결</th><th>출처</th></tr></thead><tbody>` +
+    D.ats.map((r,i) => `<tr><td>${coBtn(r['ATS'])}</td><td>${esc(r['운영사'])}</td><td>${esc(r['개장'])}</td><td class="n">${esc(r['2026 Q2 점유율'])}</td><td class="n">${esc(r['2026 Q3 점유율'])}</td><td>${esc(r['한국 증권사 연결'])}</td><td>${srcCell('at'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>';
+  h += `<h2>사건 연표</h2><div class="tl">` + D.events.map((e,i) => `<div class="ev2"><div class="d">${esc(e['날짜'])}</div><div><b>${coBtn(e['누가'])}</b> ${esc(e['무슨 일'])} ${srcCell('evt'+i, e.src)}</div></div>`).join('') + '</div></div>';
+  $('#main').innerHTML = h;
+}
+function fmtUsd(v){ if (v >= 1e8) return (v/1e8).toFixed(v >= 1e9 ? 1 : 2).replace(/\.?0+$/,'') + '억 달러'; return Math.round(v/1e4).toLocaleString('ko-KR') + '만 달러'; }
+
+const STAGES = ['발행','체결','청산','기록','접점'];
+const STAGE_DESC = {'발행':'토큰이나 상품을 내는 법인','체결':'거래소, ATS, 파생 거래소','청산':'청산, 결제, 보관','기록':'명의개서, 권리 기록','접점':'고객 주문 접수, 중개'};
+function renderLic(){
+  const cos = []; D.lic.forEach(r => { if (!cos.includes(r.co)) cos.push(r.co); });
+  let h = `<div class="wide"><h1>인가와 관계</h1><p class="lead">인가 지도를 등록부(BrokerCheck, CFTC 목록 등)와 대조해 고친 값입니다. 칸을 누르면 하는 일, 등록부와 다른 점, 출처가 나옵니다. Securitize, tZERO는 이번 조사 대상 밖이라 주황으로 둡니다.</p>`;
+  h += `<h2>생태계 지도(제3자)</h2>` + figsHtml('lic') + `<h2>회사별 밸류체인</h2><div class="legend"><span><i class="own"></i>직접 가짐</span><span><i class="ent"></i>남에게 맡김</span><span>"인수"는 남의 회사를 사서 얻은 자격과 그 시점</span></div>`;
+  h += `<div style="overflow-x:auto"><div class="vc"><div class="h first"></div>${STAGES.map(s => `<div class="h" title="${STAGE_DESC[s]}">${s}<div style="font-weight:400;font-size:11px">${STAGE_DESC[s]}</div></div>`).join('')}`;
+  cos.forEach(co => {
+    const orange = D.lic.some(r => r.co === co && r.orange);
+    h += `<div class="co2${orange?' orange':''}">${coBtn(co)}</div>`;
+    STAGES.forEach(st => {
+      const items = D.lic.map((r,i) => [r,i]).filter(([r]) => r.co === co && r.stage === st);
+      h += '<div class="cell">' + (items.length ? items.map(([r,i]) => `<div class="it ${r.own==='맡김'?'ent':'own'}" data-lic="${i}" tabindex="0">${esc(r.own==='맡김' ? r.lic : (r.ent || r.lic))}${r.how==='인수'?`<span class="acq">인수 ${esc(r.target)} ${esc(r.when)}</span>`:(r.when?`<span class="acq">${r.own==='맡김'?'':'직접 '}${esc(r.when)}</span>`:'')}${r.regwhen?`<span class="acq" style="font-weight:400">등록부 ${esc(r.regwhen)}</span>`:''}</div>`).join('') : '<div class="none">없음</div>') + '</div>';
+    });
+  });
+  h += '</div></div>';
+  const op = [...openLic].map(i => D.lic[i]).filter(Boolean);
+  if (op.length) h += '<div style="display:grid;gap:6px;margin-top:10px">' + op.map(r => `<div class="ev" style="margin:0"><p><b>${esc(r.co)} ${esc(r.job)}</b>: ${esc(r.lic)}${r.ent?` (${esc(r.ent)})`:''}${r.place?`, ${esc(r.place)}`:''}</p>${r.does?`<p>${esc(r.does)}</p>`:''}${r.note?`<p class="e">등록부: ${esc(r.note)}</p>`:''}<p>${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">출처</a>`:''}${r.reg?` <a href="${esc(r.reg)}" target="_blank" rel="noopener">등록부</a>`:''}</p></div>`).join('') + '</div>';
+  const kinds = ['all','인수','투자','제휴','위탁','자회사','자금 조달'];
+  const q = relQ.trim().toLowerCase();
+  let rows = D.rel.filter(r => (relKind === 'all' || r.kind === relKind) && (!q || (r.a + ' ' + r.b + ' ' + r.what).toLowerCase().includes(q)));
+  rows.sort((a,b) => String(b.when).localeCompare(String(a.when)));
+  h += `<h2>관계 표</h2><input class="search" id="rel-q" type="search" placeholder="회사 이름으로 찾기 (예: Alpaca)" value="${esc(relQ)}"><div class="chips">${kinds.map(k => `<button type="button" data-relk="${k}" aria-pressed="${relKind===k}">${k==='all'?'전체':k}</button>`).join('')}</div>
+    <div class="tbl"><table><thead><tr><th>누가</th><th>누구와</th><th>무엇을</th><th>언제</th><th>내용</th><th>출처</th></tr></thead><tbody>` +
+    rows.map(r => `<tr><td>${coBtn(r.a)}</td><td>${coBtn(r.b)}</td><td>${esc(r.kind)}</td><td style="white-space:nowrap">${esc(r.when)}</td><td>${esc(r.what)}${r.give||r.get?`<div class="detail">${r.give?'주는 것: '+esc(r.give):''}${r.give&&r.get?'. ':''}${r.get?'받는 것: '+esc(r.get):''}</div>`:''}</td><td>${r.url?`<a class="src" href="${esc(r.url)}" target="_blank" rel="noopener">출처</a>`:''}</td></tr>`).join('') +
+    `</tbody></table></div><p class="detail">${rows.length}건</p></div>`;
+  $('#main').innerHTML = h;
+}
+
+function lawLinks(arr){ return '<div class="lawl">' + arr.map(l => l.url ? `<a href="${esc(l.url)}" target="_blank" rel="noopener" title="${esc(l.e||'')}">${esc(l.t)}</a>` : `<span>${esc(l.t)}</span>`).join('') + '</div>'; }
+
+
+// ---------- 가상자산 거래소 3곳 비교, 질문과 짚을 점(문서 그대로 렌더, 강조만 더함) ----------
+function mdInline(s){
+  let h = esc(s);
+  h = h.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+  h = h.replace(/==(.+?)==/g, '<mark class="hm">$1</mark>');
+  h = h.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (m, a, u) => `<a href="${u}" target="_blank" rel="noopener">${a}</a>`);
+  return h;
+}
+// 문구는 그대로 두고 "라벨: " 앞부분만 굵게
+function mdLabel(t, qa){
+  const m = t.match(/^([^:\[\]*=]{1,30}?): /);
+  let h;
+  if (m && !/^\(판단\)/.test(m[1]) && !/^\d+(\.\d+)?$/.test(m[1])) h = `<span class="lbl">${mdInline(m[1])}:</span> ${mdInline(t.slice(m[0].length))}`;
+  else h = mdInline(t);
+  if (qa) h = h.replace(/(^|[^\w/.-])((?:19|20)\d\d-\d\d)(?![\w/])/g, '$1<span class="qd">$2</span>');
+  return h;
+}
+// 3곳 비교 문서에서 형광펜을 칠할 핵심 구절(문구 변경 없음, 표시만)
+const CMP3_HL = ['갈리는 지점은 규제를 대하는 방식이고', '주식 토큰은 셋 다 미국 밖 전용', '미국 1위(Coinbase)여도 세계 거래량은 Binance에 크게 밀림',
+  '성과를 가른 것은 시점보다 받은 인가의 범위', '먼저 시작한 효과는 오래가지 않음', '주식 토큰 성과는 "미국 밖 기존 이용자 수"와 "자기 창구에서 팔 수 있는 인가 범위"가 먼저 정하고',
+  'Kraken은 아부다비에서 주식 토큰을 내지 않음', 'Binance에게 주식은 선물 이용자를 위한 상품에 가까움', 'Coinbase에게 규제 준수는 비용이 아니라 상품',
+  'Kraken은 인가를 사서 빠르게 채우고, Coinbase는 받은 인가 범위 안에서 넓힘', '처음부터 만들면 비용과 시간이 많이 들고'];
+const CMP3_ROW = ['규제를 대하는 방식', '붙이는 방법'];
+function mdDoc(src, mode){
+  const qa = mode === 'qa';
+  const lines = (src || '').split('\n');
+  let h = '', i = 0;
+  const cm = mode === 'cmp3';
+  const pre = t => { if (cm) CMP3_HL.forEach(k => { if (t.includes(k) && !t.includes('==' + k)) t = t.replace(k, '==' + k + '=='); }); return t; };
+  const listBlock = () => {
+    // 들여쓰기 2칸마다 한 단계, "(판단)"은 회색, "짚을 한 줄:"은 포스트잇
+    let out = '', stack = [];
+    while (i < lines.length && /^\s*- /.test(lines[i])){
+      const m = lines[i].match(/^(\s*)- (.*)$/); const d = Math.floor(m[1].length / 2);
+      if (!stack.length || d > stack[stack.length-1]){ out += '<ul>'; stack.push(d); }
+      else {
+        out += '</li>';
+        while (stack.length > 1 && d < stack[stack.length-1]){ out += '</ul></li>'; stack.pop(); }
+      }
+      const t = pre(m[2]);
+      if (/^짚을 한 줄:/.test(t)) out += `<li class="postli"><div class="postit">${mdInline(t.replace(/^짚을 한 줄:\s*/, ''))}</div>`;
+      else out += `<li${/^\(판단\)/.test(t) ? ' class="judge"' : ''}>${mdLabel(t, qa)}`;
+      i++;
+    }
+    out += '</li>';
+    while (stack.length > 1){ out += '</ul></li>'; stack.pop(); }
+    return out + '</ul>';
+  };
+  const splitSrc = s => { // 괄호와 대괄호 밖의 ", "에서만 나눔
+    const out = []; let cur = '', dep = 0;
+    for (let k = 0; k < s.length; k++){
+      const c = s[k];
+      if (c === '[' || c === '(') dep++;
+      if (c === ']' || c === ')') dep = Math.max(0, dep - 1);
+      if (c === ',' && dep === 0 && s[k+1] === ' '){ out.push(cur.trim()); cur = ''; k++; continue; }
+      cur += c;
+    }
+    if (cur.trim()) out.push(cur.trim());
+    return out;
+  };
+  let open = '', qn = 0, intro = true;  // open: 열린 감싸개의 닫는 태그
+  const toc = [];
+  const close = () => { h += open; open = ''; };
+  while (i < lines.length){
+    const l = lines[i];
+    if (!l.trim()){ i++; continue; }
+    if (l.startsWith('# ')){ h += `<h1>${mdInline(l.slice(2))}</h1>`; i++; continue; }
+    if (l.startsWith('## ')){
+      close(); intro = false;
+      const t = l.slice(3).trim();
+      if (qa){
+        const isQ = /^Q\.\s*/.test(t), id = 'q-' + (++qn);
+        const tt = t.replace(/^Q\.\s*/, '');
+        toc.push({id, t: tt, pin: '', fin: !isQ});
+        h += `<details class="qsec${isQ ? '' : ' qfin'}" open id="${id}"><summary><span class="qbub">${isQ ? `<span class="qn">Q${qn}.</span>` : ''}${mdInline(tt)}</span></summary>`;
+        open = '</details>';
+      } else if (cm && /^0\./.test(t)){ h += `<div class="ckey"><h2>${mdInline(t)}</h2>`; open = '</div>'; }
+      else h += `<h2>${mdInline(t)}</h2>`;
+      i++; continue;
+    }
+    if (qa && l.startsWith('::: ')){ h += `<details class="qfold"><summary>${mdInline(l.slice(4))}</summary>`; i++; continue; }
+    if (qa && l.trim() === ':::'){ h += '</details>'; i++; continue; }
+    if (qa && /^>\s/.test(l)){
+      const t = l.replace(/^>\s*/, '');
+      if (toc.length) toc[toc.length-1].pin = t;
+      h += `<div class="postit">${mdInline(t)}</div>`; i++; continue;
+    }
+    if (!qa && /^>\s/.test(l)){ h += `<blockquote class="cq">${mdInline(l.replace(/^>\s*/, ''))}</blockquote>`; i++; continue; }
+    if (/^\s*- /.test(l)){ h += listBlock(); continue; }
+    if (l.startsWith('|')){
+      const rows = [];
+      while (i < lines.length && lines[i].startsWith('|')){ rows.push(lines[i].trim().replace(/^\||\|$/g,'').split('|').map(c => c.trim())); i++; }
+      const body = rows.filter(r => !r.every(c => /^:?-{2,}:?$/.test(c) || c === ''));
+      h += `<table><thead><tr>${body[0].map(c => `<th>${mdInline(c)}</th>`).join('')}</tr></thead><tbody>${body.slice(1).map(r => `<tr${cm && CMP3_ROW.includes(r[0]) ? ' class="hlrow"' : ''}>${r.map(c => `<td>${mdInline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+      continue;
+    }
+    if (l.startsWith('출처:')){
+      // 섹션 끝 출처는 접어서
+      const items = splitSrc(l.slice(3).trim());
+      h += `<details class="csrc"><summary>출처 ${items.length}건</summary><ol>${items.map(x => `<li>${mdInline(x)}</li>`).join('')}</ol></details>`;
+      i++; continue;
+    }
+    const cls = /^\(판단\)/.test(l) ? 'judge' : /^\*\*[^*]+\*\*$/.test(l.trim()) ? 'sub' : (qa && intro ? 'qintro' : '');
+    h += `<p${cls ? ` class="${cls}"` : ''}>${qa ? mdLabel(l, qa) : mdInline(pre(l))}</p>`; i++;
+  }
+  close();
+  if (qa && toc.length){
+    const tocH = `<div class="qtoc"><h2>한눈에: 질문 ${toc.filter(x => !x.fin).length}개</h2><ol>${toc.map(x => `<li><a data-jump="${x.id}">${mdInline(x.t)}</a>${x.pin ? `<span class="tp">${mdInline(x.pin)}</span>` : ''}</li>`).join('')}</ol></div>`;
+    const k = h.indexOf('<details class="qsec');
+    h = h.slice(0, k) + tocH + h.slice(k);
+  }
+  return h;
+}
+function renderCmp3(){ $('#main').innerHTML = '<div class="page cmp3">' + mdDoc((D.cmp3 || '').replace(/(설명 순서와 |⑥ )짚을 한 줄/g, '$1핵심 한 줄'), 'cmp3') + '</div>'; }
+function renderParts(){ $('#main').innerHTML = '<div class="page cmp3 parts">' + mdDoc(D.parts, 'parts') + '</div>'; }
+function renderQa(){
+  $('#main').innerHTML = '<div class="page cmp3 qa">' + mdDoc(D.qa, 'qa') + '</div>';
+  $('#main').querySelectorAll('[data-jump]').forEach(a => a.addEventListener('click', e => {
+    e.preventDefault(); const t = document.getElementById(a.dataset.jump); if (t){ t.open = true; t.scrollIntoView({behavior:'smooth', block:'start'}); }
+  }));
+}
+
+// ---------- 브리핑 탭 ----------
+let briefCur = 'core';
+// 브리핑 핵심(briefs/00_브리핑_핵심_261117.md): 회사별 세 줄과 번호 서사, 문구 그대로
+function parseCore(src){
+  const L = (src || '').split('\n'); const out = {intro: '', cos: [], all: null}; let c = null, mode = '';
+  for (let i = 0; i < L.length; i++){
+    const l = L[i];
+    if (i === 0 && l.trim()){ out.intro = l.trim(); continue; }
+    const mh = l.match(/^\d+\.\s+(Kraken|Binance|Coinbase|Robinhood|Dinari|Ondo)\b/);
+    if (mh && /^세 줄\s*$/.test((L[i+1] || '').trim())){ c = {key: mh[1], title: l.trim(), three: [], body: []}; out.cos.push(c); mode = 'head'; continue; }
+    if (/^여섯 회사를 한 번에/.test(l)){ c = {key: 'all', title: l.trim(), three: [], body: []}; out.all = c; mode = 'all'; continue; }
+    if (!c) continue;
+    if (mode === 'head' && /^세 줄\s*$/.test(l.trim())){ mode = 'three'; continue; }
+    if (mode === 'three' && /^\*\s/.test(l)){ c.three.push(l.replace(/^\*\s+/, '')); continue; }
+    if (mode === 'three' && /^\d+\.\s/.test(l)) mode = 'body';
+    if ((mode === 'body' || mode === 'all') && l.trim()) c.body.push(l);
+  }
+  return out;
+}
+function coreFmt(t){ return esc(t).replace(/((?:19|20)\d\d(?:-\d\d)?(?:-\d\d)?(?: Q\d)?)/g, '<span class="cd">$1</span>'); }
+function coreBody(lines){
+  let h = '', stack = [];
+  lines.forEach(raw => {
+    const sp = raw.match(/^(\s*)/)[1].length;
+    const isStar = /^\s*\*\s/.test(raw);
+    const d = isStar ? Math.round(sp / 3) + (raw.trim().startsWith('*') && sp === 0 ? 0 : 0) : 0;
+    let t = raw.replace(/^\s*\*\s+/, '').trim();
+    if (!stack.length || d > stack[stack.length-1]){ h += '<ul>'; stack.push(d); }
+    else { h += '</li>'; while (stack.length > 1 && d < stack[stack.length-1]){ h += '</ul></li>'; stack.pop(); } }
+    let num = '';
+    const mn = t.match(/^(\d+(?:-\d+)?\.)\s+(.*)$/); if (mn){ num = mn[1]; t = mn[2]; }
+    const judge = /^\(판단\)/.test(t) || /^[^:]{0,24}\(판단\)/.test(t);
+    let body;
+    const ml = t.match(/^([^:]{1,30}?):\s(.*)$/);
+    if (d === 0 && ml && !/^\(판단\)/.test(t)) body = `<b class="clab">${coreFmt(ml[1])}:</b> ${coreFmt(ml[2])}`;
+    else if (d === 0 && !/^\(판단\)/.test(t)) body = `<b class="clab">${coreFmt(t)}</b>`;
+    else body = coreFmt(t);
+    h += `<li class="cl${d}${judge ? ' judge' : ''}">${num ? `<span class="cn">${esc(num)}</span>` : ''}${body}`;
+  });
+  if (stack.length){ h += '</li>'; while (stack.length > 1){ h += '</ul></li>'; stack.pop(); } h += '</ul>'; }
+  return h;
+}
+function coreCard(c, withLink){
+  return `<section class="ccard" id="core-${esc(c.key)}"><div class="cch"><h2>${esc(c.title)}</h2>${withLink ? `<button type="button" class="cgo" data-brief="${esc(c.key)}">자세히(전략 카드, 근거) →</button>` : ''}</div>
+    <div class="cthree"><div class="ctl">세 줄</div><ol>${c.three.map(x => `<li>${coreFmt(x)}</li>`).join('')}</ol></div>
+    <div class="cbody">${coreBody(c.body)}</div></section>`;
+}
+// 회사별 전략 한눈에(briefs/00_전략_한눈에.md): 정체, 흐름, 해설, 기둥별 행보
+function parseStrat(src){
+  const out = {common: '', money: '', cos: {}}; let co = null, sec = '';
+  (src || '').split('\n').forEach(l => {
+    if (l.startsWith('공통:')){ out.common = l.slice(3).trim(); return; }
+    if (l.startsWith('돈:')){ out.money = l.slice(2).trim(); return; }
+    if (l.startsWith('## ')){ co = {name: l.slice(3).trim(), acts: [], flow: []}; out.cos[co.name] = co; sec = ''; return; }
+    if (!co) return;
+    let m = l.match(/^- (정체|해설|돈|위치|토큰화|KDX가 볼 점):\s*(.*)$/);
+    if (m){ co[m[1]] = m[2]; sec = ''; return; }
+    if (/^- (흐름|행보)\s*$/.test(l)){ sec = l.slice(2).trim(); return; }
+    if (sec === '행보' && (m = l.match(/^\s+- (.+?)\s*\[([^\]]+)\]:\s*(.*)$/))){ co.acts.push({p: m[1], badge: m[2], x: m[3]}); return; }
+    if (sec === '흐름' && (m = l.match(/^\s+- (.+?):\s*(.*)$/))) co.flow.push({t: m[1], x: m[2]});
+  });
+  return out;
+}
+const BADGE_CLS = b => /가장 큼|매출로|실현|큰 몫|실체/.test(b) ? 'g' : /앞섬|계획|다음 단계|초기|작게/.test(b) ? 'w' : 'b';
+function stratFmt(t){ return esc(t).replace(/((?:19|20)\d\d(?:-\d\d| Q\d)?)/g, '<b class="sd">$1</b>').replace(/&quot;(.+?)&quot;/g, '<mark class="hm">"$1"</mark>'); }
+function stratCard(c, side){
+  if (!c) return '';
+  const n = c.flow.length;
+  return `<div class="scard${side ? ' side' : ''}">
+    <div class="sh"><span class="sname">${esc(c.name)}의 전략</span></div>
+    <div class="sid">${stratFmt(c['정체'] || '')}</div>
+    ${c['돈'] ? `<div class="smoney"><span class="mbadge">돈</span>${stratFmt(c['돈'])}</div>` : ''}
+    <div class="slab">전략 틀이 바뀐 흐름 (아래가 지금)</div>
+    <ol class="sflow">${c.flow.map((f,i) => `<li class="${i === n - 1 ? 'now' : ''}"><div class="ft">${stratFmt(f.t)}</div><div class="fx">${stratFmt(f.x)}</div></li>`).join('')}</ol>
+    <div class="sint"><span class="ibadge">해설</span>${stratFmt(c['해설'] || '')}</div>
+    ${['위치','토큰화','KDX가 볼 점'].filter(k => c[k]).map(k => `<div class="sext"><span class="xbadge">${k === '위치' ? '시장 안 위치' : k === '토큰화' ? '토큰화를 보는 눈' : 'KDX가 볼 점'}</span>${stratFmt(c[k])}</div>`).join('')}
+    <div class="slab">기둥별 행보</div>
+    <div class="sacts">${c.acts.map(a => `<div class="sact"><div class="sp">${esc(a.p)} <span class="sb ${BADGE_CLS(a.badge)}">${esc(a.badge)}</span></div><div class="sx">${stratFmt(a.x)}</div></div>`).join('')}</div>
+  </div>`;
+}
+// 브리핑 글 강조: 라벨 굵게, 날짜 파랑, 원문 인용 형광펜, 숫자 굵게와 위험 낱말 빨강(withTerms의 emph)
+function bFmt(x){
+  let s = x || '', lbl = '';
+  const m = s.match(/^([^:：]{1,28}?)\s:\s/);
+  if (m && !/^\d/.test(m[1])){ lbl = m[1]; s = s.slice(m[0].length); }
+  let h = withTerms(s);
+  h = h.split(/(<[^>]+>)/).map(p => p.startsWith('<') ? p : p
+    .replace(/(\d{4}-\d{2}(?:-\d{2})?|\d{4} Q[1-4]|\d{4}년)/g, '<span class="bdate">$1</span>')
+    .replace(/&quot;([^&]{2,400}?)&quot;/g, '<mark class="bq">“$1”</mark>')).join('');
+  return (lbl ? `<b class="blbl">${esc(lbl)}</b> : ` : '') + h;
+}
+function bLine(b){
+  const us = [...new Set(b.u||[])];
+  const ids = us.map((u,i) => `<a class="bid" href="${esc(u)}" target="_blank" rel="noopener" title="${esc((b.ids||[])[i]||'원문')}">↗</a>`).join('');
+  const extra = '';
+  if (b.lv === '표') return `<div class="bl tb"><span class="bx">${bFmt(b.x)}</span>${ids}${extra}</div>`;
+  const x = (b.x||'').replace(/\s*(?:F-\d{4}|CASE-\d+)(?:\([^)]*\))?/g, '').replace(/\s+([.,])/g, '$1').trim();
+  const isInterp = /^해석\s*:/.test(x);
+  const isKey = /^(축|가설)\s*:/.test(x);
+  const mk = b.lv === '•' ? '•' : b.lv ? '-' : '';
+  const cls = b.lv === '-' ? ' lv2' : b.lv === '--' ? ' lv3' : ' lv1';
+  const body = isInterp ? `<span class="ibadge">해석</span>${bFmt(x.replace(/^해석\s*:\s*/, ''))}` : bFmt(x);
+  return `<div class="bl${cls}${isInterp?' binterp':''}${isKey?' key':''}"><span class="bm">${isInterp||isKey?'':mk}</span><span><span class="bx">${body}</span>${ids}${extra}</span></div>`;
+}
+function bImg(b){
+  return `<div class="bimg"><div><img loading="lazy" src="${esc(b.src)}" alt="${esc(b.what)}" data-zoom="1"></div><div class="cap"><b>무엇</b>${esc(b.what)}<b>해석</b>${esc(b.note)}</div></div>`;
+}
+const FOLD_SEC = /^(2층|3층|참고 캡처)/;
+function bBlocks(list){
+  let h = '', ev = [], inSec = false;
+  const flushEv = () => { if (ev.length){ h += `<details class="bfold"><summary>근거 화면 ${ev.length}장</summary>${ev.map(bImg).join('')}</details>`; ev = []; } };
+  list.forEach(b => {
+    if (b.t === 'img' && b.k !== 'pillar'){ ev.push(b); return; }
+    flushEv();
+    if (b.t === 'h2'){
+      if (inSec){ h += '</details>'; inSec = false; }
+      if (FOLD_SEC.test(b.x)){ h += `<details class="bsec"><summary>${esc(b.x)}</summary>`; inSec = true; }
+      else h += `<h2 class="bh2">${esc(b.x)}</h2>`;
+      return;
+    }
+    if (b.t === 'h3'){ h += `<h3 class="bh3">${esc(b.x)}</h3>`; return; }
+    if (b.t === 'h4'){ h += `<h4 class="bh4">${esc(b.x)}</h4>`; return; }
+    if (b.t === 'img'){ h += bImg(b); return; }
+    h += bLine(b);
+  });
+  flushEv();
+  if (inSec) h += '</details>';
+  return h;
+}
+function bTable(rows){
+  if (!rows || !rows.length) return '';
+  return `<table class="bt"><thead><tr>${rows[0].map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+}
+function renderBrief(){
+  const B = D.briefs || {cos: []};
+  const CORE = parseCore(D.core);
+  const order = CORE.cos.map(c => c.key).filter(k => B.cos.find(x => x.name === k)).concat(B.cos.map(c => c.name).filter(n => !CORE.cos.find(c => c.key === n)));
+  const tabs = [['core','핵심'], ...order.map(n => [n, n]), ['ats','야간 ATS'], ['strat','전략 카드 모음']];
+  const S = parseStrat(D.strat);
+  let h = `<div class="page brief"><div class="bnav">${tabs.map(([k,l]) => `<button type="button" data-brief="${esc(k)}" aria-current="${briefCur===k}">${esc(l)}</button>`).join('')}</div>`;
+  if (briefCur === 'axes') h += `<h1>승인된 축과 가설</h1>` + bTable(B.axes);
+  else if (briefCur === 'pillars') h += `<h1>9곳 전략 틀 비교</h1>` + bTable(B.pillars) + (B.pillars_read||[]).map(x => `<div class="bl"><span class="bm">•</span><span>${esc(x)}</span></div>`).join('');
+  else if (briefCur === 'ats') h += `<h1>야간 ATS 3곳</h1>` + bBlocks(B.ats||[]);
+  else if (briefCur === 'core') h += `<h1>브리핑 핵심</h1><p class="cintro">${esc(CORE.intro)}</p><div class="cjump">${CORE.cos.map(c => `<a data-jump="core-${esc(c.key)}">${esc(c.key)}</a>`).join('')}${CORE.all ? '<a data-jump="core-all">여섯 회사를 한 번에</a>' : ''}</div>` + CORE.cos.map(c => coreCard(c, true)).join('') + (CORE.all ? `<section class="ccard call" id="core-all"><div class="cch"><h2>${esc(CORE.all.title)}</h2></div><div class="cbody">${coreBody(CORE.all.body)}</div></section>` : '');
+  else if (briefCur === 'strat') h += `<h1>회사별 전략 한눈에</h1><div class="scommon">${stratFmt(S.common)}</div>${S.money ? `<div class="scommon smon"><span class="mbadge">돈</span>${stratFmt(S.money)}</div>` : ''}<div class="sgrid">${B.cos.map(c => `<div class="sgi">${stratCard(S.cos[c.name])}<button type="button" class="sgo" data-brief="${esc(c.name)}">${esc(c.name)} 브리핑 열기</button></div>`).join('')}</div>`;
+  else { const c = B.cos.find(x => x.name === briefCur); const cc = CORE.cos.find(x => x.key === briefCur);
+    if (c) h += `<h1>${esc(c.name)} 브리핑</h1>` + (cc ? coreCard(cc, false) : '') +
+      `<details class="cfold"><summary>전략 카드: 전략 틀이 바뀐 흐름, 해설, 기둥별 행보</summary>${stratCard(S.cos[c.name])}</details>` +
+      `<details class="cfold"><summary>상세 브리핑: 서사 전체와 근거, 원문 링크, 캡처</summary>${bBlocks(c.blocks)}</details>`; }
+  h += '</div>';
+  $('#main').innerHTML = h;
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-brief]'); if (b){ briefCur = b.dataset.brief; renderBrief(); window.scrollTo(0,0); return; }
+  const cj = e.target.closest('.cjump [data-jump]'); if (cj){ const el = document.getElementById(cj.dataset.jump); if (el) el.scrollIntoView({behavior:'smooth', block:'start'}); return; }
+  const z = e.target.closest('.bimg img'); if (z){ const m = document.createElement('div'); m.className = 'zoom'; m.innerHTML = `<img src="${z.getAttribute('src')}" alt="">`; m.addEventListener('click', () => m.remove()); document.body.appendChild(m); }
+});
+
+function renderRules(){
+  let h = `<div class="wide"><h1>제도와 용어</h1><p class="lead">모든 회사에 공통인 한미 제도 차이입니다. 조문 이름을 누르면 원문으로 갑니다.</p>`;
+  h += `<h2>한미 제도 비교</h2><div class="tbl"><table><thead><tr><th>쟁점</th><th>미국 제도</th><th>미국 조문</th><th>한국 제도</th><th>한국 조문</th><th>차이에 따른 결과</th></tr></thead><tbody>` +
+    D.reg.map(r => `<tr><td><b>${withTerms(r.issue)}</b></td><td>${withTerms(r.us)}</td><td>${lawLinks(r.us_law)}</td><td>${withTerms(r.kr)}</td><td>${lawLinks(r.kr_law)}</td><td>${withTerms(r.diff)}</td></tr>`).join('') + '</tbody></table></div>';
+  if ((D.tp_reg||[]).length){ const hd0 = D.tp_reg[0].head; const keep = hd0.map((x,i) => x === '근거' ? -1 : i).filter(i => i >= 0); const hd = keep.map(i => hd0[i]); h += `<h2>제3자 자료로 본 쟁점</h2><p class="lead">외부 보고서와 기사의 지적을 우리 DB와 대조했습니다. 발행처와 입장을 함께 적었습니다.</p><div class="tbl"><table><thead><tr>${hd.map(x => `<th>${esc(x)}</th>`).join('')}<th>출처</th></tr></thead><tbody>` + D.tp_reg.map((r,i) => `<tr>${keep.map(k => r.cells[k] || '').map(c => `<td>${withTerms(c.replace(/\[?TP-\d{3}\]?/g,'').replace(/F-\d{4}/g,''))}</td>`).join('')}<td>${srcCell('tr'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>'; }
+  h += `<h2>구조 그림(제3자)</h2><p class="lead">주식이 움직이는 길과 토큰화 방식별 흐름입니다. 발행처와 입장을 그림 아래에 적었습니다.</p>` + figsHtml('rules');
+  h += `<h2>모든 회사에 공통인 한국 시장 사정</h2><p class="lead">회사 본문에서 빼고 여기에 한 번만 둡니다.</p><div class="tbl"><table><thead><tr><th>줄</th><th>내용</th><th>출처</th></tr></thead><tbody>` +
+    D.common.map((r,i) => `<tr><td><b>${esc(r.t)}</b></td><td>${esc(r.d)}</td><td>${srcCell('cm'+i, r.src)}</td></tr>`).join('') + '</tbody></table></div>';
+  const q = termQ.trim().toLowerCase();
+  const T = D.terms.filter(t => !q || (t.t + ' ' + t.en + ' ' + t.e).toLowerCase().includes(q));
+  h += `<h2>용어</h2><input class="search" id="term-q" type="search" placeholder="용어 찾기" value="${esc(termQ)}"><p class="detail">${T.length}개</p><div class="gl">` +
+    T.map(t => `<div class="g"><b>${esc(t.t)}</b>${t.en?`<span class="en">${esc(t.en)}</span>`:''}<div>${esc(t.e)}</div>${t.p&&t.d?`<div class="en">헷갈리는 짝: ${esc(t.p)}. ${esc(t.d)}</div>`:''}${t.kr?`<div class="en">한국: ${esc(t.kr)}</div>`:''}</div>`).join('') + '</div></div>';
+  $('#main').innerHTML = h;
+}
+document.addEventListener('input', e => {
+  if (e.target.id === 'rel-q'){ relQ = e.target.value; const pos = e.target.selectionStart; renderLic(); const el = $('#rel-q'); el.focus(); el.setSelectionRange(pos,pos); }
+  if (e.target.id === 'term-q'){ termQ = e.target.value; const pos = e.target.selectionStart; renderRules(); const el = $('#term-q'); el.focus(); el.setSelectionRange(pos,pos); }
+});
+
+
+// ---------- 검색, 질문 창, 어디서나 메모 ----------
+const FACT = {}; (D.facts||[]).forEach(f => FACT[f[0]] = f);
+const IDX = [];
+(function(){
+  const clean = t => String(t||'').replace(/\[(F-\d{4}|CASE-\d+)\]\([^)]*\)/g, '$1').replace(/\*\*|==|!!/g, '').replace(/\s+/g, ' ').trim();
+  D.companies.forEach(c => c.sections.forEach(sec => sec.rows.forEach(r => { const t = clean((r.label ? r.label + ' : ' : '') + (r.text||'')); if (t.length > 3) IDX.push({k:'본문', w:c.name, t, go:{view:'read', co:c.slug, lid:r.id}}); })));
+  ((D.briefs||{}).cos||[]).forEach(c => c.blocks.forEach(b => { if (b.t === 'p' && b.x && b.x.trim().length > 3) IDX.push({k:'브리핑', w:c.name, t:clean(b.x), go:{view:'brief', brief:c.name}}); }));
+  [['cmp3','거래소 3곳 비교',D.cmp3],['parts','파트별 해외 사례',D.parts],['qa','질문과 답',D.qa],['strat','전략 한눈에',D.strat]].forEach(([v,label,src]) => {
+    let head = '';
+    (src||'').split('\n').forEach(l => {
+      if (/^#{1,3} /.test(l)){ head = l.replace(/^#+\s*/, ''); return; }
+      if (/^\s*\|?\s*:?-{2,}/.test(l) || /^출처:/.test(l)) return;
+      const t = clean(l.replace(/^\s*(?:[-|>]|:::)\s*/, '').replace(/\|/g, ' / '));
+      if (t.length > 3) IDX.push({k:label, w:head, t, go: v === 'strat' ? {view:'brief', brief:'strat'} : {view:v}});
+    });
+  });
+  (function(){ let co = ''; (D.core||'').split('\n').forEach(l => { const m = l.match(/^\d+\.\s+(Kraken|Binance|Coinbase|Robinhood|Dinari|Ondo)\b/); if (m){ co = m[1]; return; } if (/^여섯 회사를 한 번에/.test(l)){ co = 'core'; return; } const t = clean(l.replace(/^\s*\*\s*/, '')); if (co && t.length > 3 && t !== '세 줄') IDX.push({k:'브리핑 핵심', w: co === 'core' ? '여섯 회사를 한 번에' : co, t, go:{view:'brief', brief: co}}); }); })();
+  (D.facts||[]).forEach(f => IDX.push({k:'사실 DB', w:f[1], t:f[2], id:f[0], date:f[3], url:f[4]}));
+  IDX.forEach(x => x.l = (x.w + ' ' + x.t + ' ' + (x.id||'')).toLowerCase());
+})();
+const KIND_W = {'브리핑 핵심':8, '브리핑':6, '전략 한눈에':6, '질문과 답':5, '거래소 3곳 비교':5, '파트별 해외 사례':5, '본문':3, '사실 DB':2};
+function searchIdx(q, n, any){
+  const toks = String(q||'').toLowerCase().split(/[\s,.?!]+/).map(x => x.replace(/(은|는|이|가|을|를|의|에|에서|와|과|로|으로|도|만)$/, '')).filter(x => x.length >= 1);
+  if (!toks.length) return [];
+  const sc = x => toks.reduce((a,t) => a + (x.l.includes(t) ? 1 : 0), 0);
+  let out = IDX.map(x => [sc(x), x]).filter(([s]) => any ? s > 0 : s === toks.length);
+  if (!out.length && !any) return searchIdx(q, n, true);
+  out.sort((a,b) => b[0] - a[0] || (KIND_W[b[1].k]||0) - (KIND_W[a[1].k]||0) || a[1].t.length - b[1].t.length);
+  return out.slice(0, n).map(x => x[1]);
+}
+function markQ(h, q){
+  const toks = String(q||'').split(/\s+/).filter(t => t.length >= 2).map(t => esc(t).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  if (!toks.length) return h;
+  const re = new RegExp('(' + toks.join('|') + ')', 'gi');
+  return h.split(/(<[^>]+>)/).map(p => p.startsWith('<') ? p : p.replace(re, '<mark class="shl">$1</mark>')).join('');
+}
+function snip(t, q, len){
+  const tok = String(q||'').split(/\s+/).filter(x => x.length >= 2).sort((a,b) => b.length - a.length)[0] || '';
+  const i = tok ? t.toLowerCase().indexOf(tok.toLowerCase()) : -1;
+  const a = Math.max(0, i - Math.floor(len/3));
+  return (a > 0 ? '…' : '') + t.slice(a, a + len) + (a + len < t.length ? '…' : '');
+}
+// 화면 이동 뒤 찾은 글자를 형광으로 표시하고 첫 곳으로 스크롤
+function highlightIn(q, exact){
+  let toks = String(q||'').split(/\s+/).filter(t => t.length >= 2).sort((a,b) => b.length - a.length);
+  if (exact){ const t = String(q||'').replace(/\s+/g, ' ').trim(); const main = $('#main').textContent.replace(/\s+/g, ' '); toks = [30, 18, 10].map(n => t.slice(0, n)).filter(x => x.length >= 4 && main.includes(x)).slice(0, 1); }
+  if (!toks.length) return;
+  const main = $('#main'); const re = new RegExp('(' + toks.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'gi');
+  const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT, {acceptNode: n => n.parentElement.closest('script,style,mark.shl,button,.bside') ? NodeFilter.FILTER_REJECT : (re.test(n.nodeValue) ? (re.lastIndex = 0, NodeFilter.FILTER_ACCEPT) : NodeFilter.FILTER_REJECT)});
+  const nodes = []; while (walker.nextNode() && nodes.length < 300) nodes.push(walker.currentNode);
+  let first = null;
+  nodes.forEach(n => {
+    const frag = document.createDocumentFragment();
+    n.nodeValue.split(re).forEach((part, i) => { if (!part) return; if (i % 2){ const mk = document.createElement('mark'); mk.className = 'shl'; mk.textContent = part; frag.appendChild(mk); if (!first) first = mk; } else frag.appendChild(document.createTextNode(part)); });
+    n.replaceWith(frag);
+  });
+  if (first){ let d = first.closest('details'); while (d){ d.open = true; d = d.parentElement.closest('details'); } setTimeout(() => first.scrollIntoView({block:'center', behavior:'smooth'}), 60); first.classList.add('shl-first'); }
+}
+function goTo(go, q, exact){
+  if (!go) return;
+  if (go.view === 'read'){ cur = go.co || cur; view = 'read'; location.hash = cur; closedSecs.clear(); render(); const el = go.lid && document.getElementById('L-' + go.lid); if (el){ el.scrollIntoView({block:'center'}); el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 2400); } else highlightIn(q, exact); return; }
+  if (go.view === 'brief') briefCur = go.brief || briefCur;
+  view = go.view; location.hash = 'v-' + view; render(); window.scrollTo(0,0); highlightIn(q, exact);
+}
+let gTimer = 0, gLast = [];
+function renderSearch(){
+  const q = $('#gq').value.trim(); const box = $('#gres');
+  if (q.length < 2){ box.hidden = true; return; }
+  const R = searchIdx(q, 60); gLast = R;
+  const groups = {}; R.forEach((x,i) => (groups[x.k] = groups[x.k] || []).push([x,i]));
+  const order = ['브리핑 핵심','전략 한눈에','브리핑','질문과 답','거래소 3곳 비교','파트별 해외 사례','본문','사실 DB'];
+  let h = `<div class="ghead"><b>"${esc(q)}"</b> ${R.length}건${R.length >= 60 ? ' 이상' : ''}<button type="button" class="gask" data-gask="1">질문 창에 묻기</button><button type="button" class="gx" data-gx="1" aria-label="닫기">✕</button></div>`;
+  if (!R.length) h += '<div class="gempty">찾은 것이 없습니다. 낱말을 줄여 보세요.</div>';
+  order.filter(k => groups[k]).forEach(k => {
+    h += `<div class="gk">${esc(k)} <span>${groups[k].length}</span></div>`;
+    groups[k].slice(0, k === '사실 DB' ? 15 : 8).forEach(([x,i]) => {
+      h += x.id
+        ? `<div class="gi fact"><div class="gw">${esc(x.id)}, ${esc(x.w)}${x.date ? ', ' + esc(x.date) : ''}</div><div class="gt">${markQ(esc(snip(x.t, q, 160)), q)}</div>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">원문 ↗</a>` : ''}</div>`
+        : `<button type="button" class="gi" data-gi="${i}"><div class="gw">${esc(x.w)}</div><div class="gt">${markQ(esc(snip(x.t, q, 140)), q)}</div></button>`;
+    });
+  });
+  box.innerHTML = h; box.hidden = false;
+}
+document.addEventListener('input', e => { if (e.target.id === 'gq'){ clearTimeout(gTimer); gTimer = setTimeout(renderSearch, 180); } });
+document.addEventListener('keydown', e => {
+  if (e.target.id === 'gq' && e.key === 'Escape'){ $('#gres').hidden = true; e.target.blur(); }
+  if (e.target.id === 'gq' && e.key === 'Enter'){ e.preventDefault(); clearTimeout(gTimer); renderSearch(); }
+  if (e.key === '/' && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)){ e.preventDefault(); $('#gq').focus(); }
+});
+document.addEventListener('click', e => {
+  const gi = e.target.closest('[data-gi]'); if (gi){ const x = gLast[+gi.dataset.gi]; $('#gres').hidden = true; goTo(x.go, $('#gq').value.trim()); return; }
+  if (e.target.closest('[data-gx]')){ $('#gres').hidden = true; return; }
+  if (e.target.closest('[data-gask]')){ $('#gres').hidden = true; openChat($('#gq').value.trim()); return; }
+  if (!e.target.closest('.gsearch')) { const b = $('#gres'); if (b) b.hidden = true; }
+  const fg = e.target.closest('[data-fgo]'); if (fg){ const m = S.memos.find(x => x.mid === fg.dataset.fgo); if (m) goTo({view: m.view, brief: m.brief, co: m.co}, m.quote || '', true); return; }
+});
+
+// 런타임 기능: 있으면 켜고 없으면 숨김
+const CAP = n => (window.claude && claude.use) ? claude.use(n).catch(() => null) : Promise.resolve(null);
+let SAMPLE = null, MEMO_DB = null;
+CAP('sample').then(x => { SAMPLE = x; });
+CAP('db').then(async d => { if (!d) return; MEMO_DB = d; try { await pullMemos(); } catch(e){} if (view === 'memo') render(); });
+
+// 메모를 DB에도 저장(다른 기기와 Claude가 읽음)
+let synced = {}, syncT = 0, syncing = false;
+async function pullMemos(){
+  const snap = await MEMO_DB.collection('memos').get();
+  let added = 0;
+  snap.docs.forEach(d => { const m = d.data(); if (!m || !m.mid) return; synced[m.mid] = JSON.stringify(m); if (!S.memos.find(x => x.mid === m.mid)){ S.memos.push(m); added++; } });
+  if (added){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} updateCount(); }
+  syncSoon();
+}
+function syncSoon(){ if (!MEMO_DB) return; clearTimeout(syncT); syncT = setTimeout(syncNow, 800); }
+async function syncNow(){
+  if (!MEMO_DB || syncing) return; syncing = true;
+  try {
+    const live = {}; S.memos.forEach(m => live[m.mid] = JSON.stringify(m));
+    for (const [id, js] of Object.entries(live)) if (synced[id] !== js){ await MEMO_DB.collection('memos').doc(id).set(JSON.parse(js)); synced[id] = js; }
+    for (const id of Object.keys(synced)) if (!live[id]){ await MEMO_DB.collection('memos').doc(id).delete(); delete synced[id]; }
+  } catch(e){ /* 쓰기 권한이 없으면 이 브라우저에만 남김 */ }
+  syncing = false;
+}
+
+// 어디서나 메모: 글자를 드래그하면 메모 단추
+const VIEW_LABEL = {cmp3:'거래소 3곳 비교', parts:'파트별 해외 사례', qa:'질문과 답', brief:'브리핑', compare:'가로 비교', lic:'인가와 관계', rules:'제도와 용어', read:'본문'};
+function ctxLabel(){ if (view === 'brief') return '브리핑 ' + (briefCur === 'strat' ? '전략 한눈에' : briefCur); if (view === 'read') return ((CO[cur]||{}).name || '') + ' 본문'; return VIEW_LABEL[view] || view; }
+function ctxCo(){ if (view === 'read') return cur; if (view === 'brief'){ const sl = (CO_NAMES.find(x => x[0] === briefCur)||[])[1]; return sl || ''; } return ''; }
+function addFreeMemo(quote, text, type){
+  const m = {mid: 'm' + Date.now().toString(36) + (S.seq++), lid: '', co: ctxCo(), disp: ctxLabel(), type: type || '메모', text, st: '안 보냄', at: now(), line: quote, quote, view, brief: view === 'brief' ? briefCur : ''};
+  S.memos.push(m); save(); return m;
+}
+let selQuote = '';
+function hideSel(){ const b = $('#selmemo'); if (b) b.hidden = true; }
+function onSel(){
+  const sel = window.getSelection(); const t = sel && sel.toString().trim();
+  if (!t || t.length < 2 || t.length > 800 || view === 'memo') return hideSel();
+  const node = sel.anchorNode && (sel.anchorNode.nodeType === 1 ? sel.anchorNode : sel.anchorNode.parentElement);
+  if (!node || !node.closest('#main') || node.closest('input,textarea,form,.memopop')) return hideSel();
+  const r = sel.getRangeAt(0).getBoundingClientRect(); selQuote = t;
+  const b = $('#selmemo'); b.hidden = false;
+  b.style.top = Math.max(60, r.top + window.scrollY - 42) + 'px'; b.style.left = Math.min(window.innerWidth - 120, Math.max(8, r.left + window.scrollX + r.width/2 - 40)) + 'px';
+}
+document.addEventListener('mouseup', () => setTimeout(onSel, 10));
+document.addEventListener('selectionchange', () => { clearTimeout(window._selT); window._selT = setTimeout(() => { const s = window.getSelection(); if (!s || !s.toString().trim()) hideSel(); else if (matchMedia('(pointer:coarse)').matches) onSel(); }, 250); });
+function openMemoPop(quote, preset){
+  hideSel();
+  let p = $('#memopop'); if (!p){ p = document.createElement('div'); p.id = 'memopop'; p.className = 'memopop'; document.body.appendChild(p); }
+  p.innerHTML = `<div class="mph"><b>메모</b><span>${esc(ctxLabel())}</span><button type="button" data-mpx="1" aria-label="닫기">✕</button></div>
+    <blockquote>${esc(quote.length > 240 ? quote.slice(0,240) + '…' : quote)}</blockquote>
+    <div class="types">${MEMO_TYPES.map((k,i) => `<label><input type="radio" name="mpt" value="${esc(k)}"${i===0?' checked':''}> ${esc(k)}</label>`).join('')}</div>
+    <textarea id="mp-text" placeholder="이 부분에 대한 메모, 반론, 더 알아볼 것">${esc(preset||'')}</textarea>
+    <div class="row"><button type="button" class="pri" data-mpsave="1">저장</button><button type="button" data-mpx="1">취소</button></div>`;
+  p.dataset.quote = quote; p.hidden = false; setTimeout(() => $('#mp-text').focus(), 30);
+}
+document.addEventListener('click', e => {
+  if (e.target.closest('#selmemo')){ e.preventDefault(); openMemoPop(selQuote); return; }
+  if (e.target.closest('[data-mpx]')){ $('#memopop').hidden = true; return; }
+  if (e.target.closest('[data-mpsave]')){
+    const p = $('#memopop'); const txt = $('#mp-text').value.trim(); const type = (p.querySelector('input[name=mpt]:checked')||{}).value || '메모';
+    if (!txt && type === '메모'){ $('#mp-text').focus(); return; }
+    addFreeMemo(p.dataset.quote, txt || type, type); p.hidden = true; window.getSelection().removeAllRanges(); toast(MEMO_DB ? '메모를 저장했습니다(Claude가 읽을 수 있음)' : '메모를 남겼습니다'); return;
+  }
+});
+
+// 질문 창: 사실 DB와 화면 글을 찾아 답함
+const CHAT = {turns: [], busy: false, ctl: null, deep: false};
+const CHAT_RULES = `너는 "KDX 해외 사례" 리서치 화면에 붙은 도우미다. 대상 회사는 Kraken(모회사 Payward), Robinhood, Binance, Coinbase, Dinari, Ondo와 미국 주식 야간 거래 시설 Blue Ocean, Bruce, MOON이다.
+규칙:
+1. 답하기 전에 반드시 search 도구로 자료를 찾는다. 낱말을 바꿔 2~4번 찾아도 된다. 숫자나 날짜는 get_fact로 원문 사실을 확인할 수 있다.
+2. 찾은 자료에 있는 내용만 쓴다. 자료에 없으면 "이 화면 자료에는 없음"이라고 한 줄로 말하고 지어내지 않는다.
+3. 사실 DB에서 온 숫자와 사건 뒤에는 [F-1234]처럼 번호를 붙인다. 숫자에는 기준일을 붙인다.
+4. 한국어, "~함, ~임, ~됨" 문체의 짧은 개조식. 첫 줄은 질문에 대한 한 줄 답, 그 아래 "- " 줄 3~8개. 긴 줄표(—)와 가운뎃점(·)을 쓰지 않는다.
+5. 해석은 "(해석)"으로 시작해 사실과 구분한다. 회사를 주식 토큰 순위로 평가하지 않는다.`;
+const CHAT_TOOLS = [
+  {name: 'search', description: '화면의 모든 글(전략 한눈에, 브리핑, 질문과 답, 비교 문서, 본문)과 사실 DB 1,700여 줄에서 낱말로 찾는다. 결과는 [{kind, where, text, id?, date?}] 최대 limit개. 회사 이름과 핵심 낱말 2~3개를 함께 넣으면 잘 찾는다.',
+   inputSchema: {type: 'object', properties: {query: {type: 'string', description: '찾을 낱말들(공백으로 구분)'}, limit: {type: 'number', description: '최대 개수, 기본 14'}}, required: ['query']},
+   execute: (inp) => { const n = Math.min(25, Math.max(4, Number(inp.limit) || 14)); const q = String(inp.query || ''); chatProgress('찾는 중: ' + q); return searchIdx(q, n, true).map(x => Object.assign({kind: x.k, where: x.w, text: x.t.slice(0, 420)}, x.id ? {id: x.id, date: x.date} : {})); }},
+  {name: 'get_fact', description: '사실 DB 한 줄을 번호(F-1234)로 가져온다. 회사, 내용, 기준일, 원문 링크를 돌려준다.',
+   inputSchema: {type: 'object', properties: {id: {type: 'string'}}, required: ['id']},
+   execute: (inp) => { const f = FACT[String(inp.id || '').trim()]; if (!f) throw new Error('그런 번호 없음'); return {id: f[0], company: f[1], text: f[2], date: f[3], url: f[4]}; }},
+];
+function chatFmt(t){
+  const lines = String(t||'').split('\n');
+  let h = '', inList = false;
+  const inl = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\[?(F-\d{4})\]?/g, (m, id) => FACT[id] && FACT[id][4] ? `<a class="fref" href="${esc(FACT[id][4])}" target="_blank" rel="noopener" title="${esc(FACT[id][2].slice(0,160))}">${id}</a>` : `<span class="fref">${id}</span>`);
+  lines.forEach(l => {
+    const m = l.match(/^\s*[-*•]\s+(.*)$/);
+    if (m){ if (!inList){ h += '<ul>'; inList = true; } h += `<li${/^\(해석\)/.test(m[1]) ? ' class="cint"' : ''}>${inl(m[1])}</li>`; }
+    else { if (inList){ h += '</ul>'; inList = false; } if (l.trim()) h += `<p>${inl(l)}</p>`; }
+  });
+  if (inList) h += '</ul>';
+  return h;
+}
+function chatProgress(t){ const el = document.querySelector('#chat .cmsg.pending .cprog'); if (el) el.textContent = t; }
+function ensureChat(){
+  if ($('#chat')) return;
+  const c = document.createElement('div'); c.id = 'chat'; c.className = 'chat'; c.hidden = true;
+  c.innerHTML = `<div class="chh"><b>질문하기</b><span class="chsub">화면 글과 사실 DB에서 찾아 답함</span><label class="chdeep"><input type="checkbox" id="ch-deep"> 깊게</label><button type="button" data-chx="1" aria-label="닫기">✕</button></div>
+    <div class="chlog" id="chlog"><div class="chhint">예: "Ondo는 미국에서 주식 토큰을 팔 수 있나?", "Kraken이 산 회사와 산 이유", "야간 ATS 수수료 비교"</div></div>
+    <form class="chin" id="chform"><textarea id="ch-q" rows="2" placeholder="질문을 쓰고 Enter"></textarea><div class="chbtns"><button type="submit" class="pri" id="ch-send">묻기</button><button type="button" id="ch-stop" hidden>멈춤</button></div></form>`;
+  document.body.appendChild(c);
+}
+function openChat(q){ ensureChat(); $('#chat').hidden = false; $('#chat-fab').classList.add('on'); if (q){ $('#ch-q').value = q; askChat(); } else setTimeout(() => $('#ch-q').focus(), 30); }
+function addMsg(role, html, cls){ const d = document.createElement('div'); d.className = 'cmsg ' + role + (cls ? ' ' + cls : ''); d.innerHTML = html; $('#chlog').appendChild(d); $('#chlog').scrollTop = 1e9; return d; }
+async function askChat(){
+  const q = $('#ch-q').value.trim(); if (!q || CHAT.busy) return;
+  $('#ch-q').value = ''; addMsg('me', esc(q));
+  const R = searchIdx(q, 6, true);
+  if (!SAMPLE){
+    addMsg('bot', `<p>이 화면에서는 Claude 답변을 쓸 수 없어, 찾은 자료만 보여 드립니다.</p><ul>${R.map(x => `<li>${esc(x.k)}${x.w ? ', ' + esc(x.w) : ''}: ${chatFmt(x.t.slice(0,200)).replace(/^<p>|<\/p>$/g,'')}</li>`).join('') || '<li>찾은 것이 없습니다</li>'}</ul>`);
+    return;
+  }
+  CHAT.busy = true; CHAT.ctl = new AbortController(); $('#ch-stop').hidden = false; $('#ch-send').disabled = true;
+  const box = addMsg('bot', '<div class="cprog">생각하는 중…</div><div class="cbody"></div>', 'pending');
+  CHAT.turns.push({role: 'user', content: q});
+  const turns = [{role: 'user', content: CHAT_RULES + '\n\n지금 보고 있는 화면: ' + ctxLabel() + '\n\n첫 질문: ' + CHAT.turns[0].content}].concat(CHAT.turns.slice(1));
+  try {
+    const res = await SAMPLE(turns, {cache: false, signal: CHAT.ctl.signal, tools: CHAT_TOOLS, modelTier: $('#ch-deep').checked ? 'default' : 'quick',
+      onText: ({text}) => { box.querySelector('.cprog').textContent = ''; box.querySelector('.cbody').innerHTML = chatFmt(text.split('\n\n').pop() ? text : text); $('#chlog').scrollTop = 1e9; }});
+    const text = res.text;
+    box.querySelector('.cbody').innerHTML = chatFmt(text) + (res.truncated ? '<p class="cnote">답이 길어 잘렸습니다. 질문을 나눠 주세요.</p>' : '');
+    CHAT.turns.push({role: 'assistant', content: text});
+    box.classList.remove('pending'); box.querySelector('.cprog').remove();
+    const bar = document.createElement('div'); bar.className = 'cbar';
+    bar.innerHTML = `<button type="button" data-cmemo="1">메모로 남기기</button>`;
+    bar.querySelector('button').onclick = () => { addFreeMemo('질문: ' + q, text, '메모'); toast('답을 메모로 남겼습니다'); };
+    box.appendChild(bar);
+  } catch(e){
+    CHAT.turns.pop();
+    box.classList.remove('pending'); const pr = box.querySelector('.cprog'); if (pr) pr.remove();
+    const msg = {not_granted: 'Claude 사용을 허락하지 않아 답할 수 없습니다.', rate_limited: '질문이 몰렸습니다. 잠시 뒤 다시 물어 주세요.', cancelled: '멈췄습니다.', sampling_disabled: '이 계정에서는 질문 기능이 꺼져 있습니다.'}[e && e.code] || '답을 받지 못했습니다' + (e && e.code ? ' (' + e.code + ')' : '') + '.';
+    box.querySelector('.cbody').innerHTML = (e && e.text ? chatFmt(e.text) : '') + `<p class="cnote">${esc(msg)}</p>`;
+    if (e && e.code === 'not_granted') SAMPLE = null;
+  }
+  CHAT.busy = false; $('#ch-stop').hidden = true; $('#ch-send').disabled = false;
+}
+document.addEventListener('submit', e => { if (e.target.id === 'chform'){ e.preventDefault(); askChat(); } });
+document.addEventListener('keydown', e => { if (e.target.id === 'ch-q' && e.key === 'Enter' && !e.shiftKey && !e.isComposing){ e.preventDefault(); askChat(); } });
+document.addEventListener('click', e => {
+  if (e.target.closest('#chat-fab')){ const c = $('#chat'); if (c && !c.hidden){ c.hidden = true; $('#chat-fab').classList.remove('on'); } else openChat(); return; }
+  if (e.target.closest('[data-chx]')){ $('#chat').hidden = true; $('#chat-fab').classList.remove('on'); return; }
+  if (e.target.closest('#ch-stop')){ CHAT.ctl && CHAT.ctl.abort(); return; }
+});
+(function(){
+  const fab = document.createElement('button'); fab.id = 'chat-fab'; fab.type = 'button'; fab.className = 'chat-fab'; fab.innerHTML = '💬 질문하기'; document.body.appendChild(fab);
+  const sb = document.createElement('button'); sb.id = 'selmemo'; sb.type = 'button'; sb.className = 'selmemo'; sb.hidden = true; sb.innerHTML = '📝 메모'; document.body.appendChild(sb);
+})();
+
+// ---------- 시작 ----------
+const fromHash = location.hash.slice(1);
+cur = CO[fromHash] ? fromHash : (CO['overview'] ? 'overview' : D.companies[0].slug);
+if (fromHash.startsWith('v-') && ['compare','lic','rules','brief','cmp3','qa','parts'].includes(fromHash.slice(2))) view = fromHash.slice(2);
+if (!fromHash) view = 'cmp3';
+renderNav(); render();
+window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (CO[h] && (h !== cur || view !== 'read')){ cur = h; view = 'read'; render(); } else if (h.startsWith('v-') && h.slice(2) !== view && ['compare','lic','rules','brief','cmp3','qa','parts'].includes(h.slice(2))){ view = h.slice(2); render(); } });
+})();
+</script>

@@ -1,0 +1,88 @@
+용어,뜻,출처
+Dinari,미국 주식과 ETF를 사서 맡겨 두고 1주마다 토큰(dShares)을 찍어 남의 앱과 자회사 증권사로 파는 미국 비상장 회사(2021 설립),https://dinari.com/blog/chainlink-ccip-arbitrum-ethereum-usdplus
+"Dinari, Inc.","Dinari 그룹의 맨 위 법인. 증권사가 아니며 미국 밖판 토큰 발행, SEC 등록 명의개서대리인, 토큰 기술 개발을 맡음",https://dinari.com/us/disclosures
+"Dinari Holdings, LLC","Dinari, Inc.와 증권사 사이의 중간 지주 법인. 2023-12부터 Dinari Securities 지분 75% 이상을 직접 가짐",https://files.brokercheck.finra.org/firm/firm_329672.pdf
+"Dinari Securities, LLC","Dinari의 미국 증권사 자회사. 2025-06-20 SEC와 FINRA 승인, 미국 개인 계좌 개설과 주문 접수를 하고 청산과 보관은 Alpaca에 맡김",https://files.brokercheck.finra.org/firm/firm_329672.pdf
+dShares,"Dinari의 주식 토큰 상품 이름. 실제 주식이나 ETF 1주에 토큰 1개를 짝지음. 미국 밖판은 Dinari에 대한 청구권, 미국판은 증권 계좌 속 주식의 사본 기록",https://dinari.com/dshares
+dShares 미국 밖판,"미국인이 아닌 투자자에게 Dinari, Inc.가 파는 dShares. 보유자는 주식 소유권 없이 시가만큼의 돈을 청구하고 되사기를 요청할 권리만 가짐",https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/695ee673aa80e179e884fafc_Dinari-dShares-Terms-and-Conditions-Revised-12-26-25-CLEAN-with-links.pdf
+dShares 미국판,"미국 거주자가 Dinari Securities 계좌에서 실제 주식을 소유하고, 토큰은 그 보유 내역을 블록체인에 적은 사본. 두 기록이 다르면 계좌 기록이 우선",https://dinari.com/us/disclosures
+USD+,"Dinari, Inc.가 발행하는 달러 토큰. 1개를 1달러로 되사고, 준비금(미국 단기 국채와 달러)에서 나온 수익 일부를 매일 토큰 개수를 늘려 돌려줌. 나머지는 Dinari 관리 보수",https://docs.dinari.com/docs/what-is-usd
+ETF,상장지수펀드. 주식처럼 거래소에서 사고파는 펀드,https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products
+토큰,블록체인에 기록되는 디지털 증표. 여기서는 주식 1주나 1달러에 짝지은 기록,https://dinari.com/dshares
+스테이블코인,"달러 같은 법정화폐와 1:1 값을 유지하도록 만든 토큰(USDC, USDT 등)",https://www.circle.com/usdc
+USDC,미국 Circle이 발행하는 달러 스테이블코인,https://www.circle.com/usdc
+USDT,Tether가 발행하는 달러 스테이블코인,https://tether.to/
+Regulation S,미국 밖에서 미국인이 아닌 사람에게 파는 증권은 미국 공모 등록이 필요 없다는 SEC 규칙(17 CFR 230.901~905),https://www.ecfr.gov/current/title-17/chapter-II/part-230/subject-group-ECFR6e651a4c86c0174/section-230.903
+SEC,"미국 증권거래위원회. 증권 발행, 증권사, 명의개서대리인 등록을 감독",https://www.ecfr.gov/current/title-17/chapter-II
+FINRA,미국 증권사를 회원으로 두고 감독하는 자율규제기관. 증권사 등록 조회 서비스 BrokerCheck를 운영,https://www.finra.org/about
+BrokerCheck,"FINRA가 운영하는 증권사와 직원 등록 조회 서비스. 소유주, 등록일, 사업 종류, 청산 계약이 나옴",https://brokercheck.finra.org/
+명의개서대리인,"증권 보유자 명부를 관리하는 기관(미국 Transfer Agent). SEC에 등록해야 함. Dinari, Inc.는 SEC 등록 명의개서대리인이라고 공시함(2022-05 등록 신청 수리)",https://dinari.com/us/disclosures
+증권사(브로커딜러),증권 주문을 받아 중개하거나 자기 계산으로 사고파는 회사. 미국은 SEC 등록과 FINRA 회원 가입이 필요,https://www.finra.org/about
+청산,체결 뒤 누가 누구에게 무엇을 줘야 하는지 확정하고 이행을 맡는 일,https://dinari.com/us/disclosures
+Alpaca Securities,"미국 청산 증권사. Dinari 대신 주문 집행, 청산과 결제, 주식과 현금 보관, 배당 처리를 맡음(Dinari와 계열 아님)",https://dinari.com/us/disclosures
+분리계정회사(버뮤다),"한 회사 안에 계정별로 자산과 부채를 떼어 두는 버뮤다 법상 회사. Dinari 미국 밖판 기초 주식을 보유하고, Dinari가 멈추면 독립 대표(SAR)가 처분",https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/695ee673aa80e179e884fafc_Dinari-dShares-Terms-and-Conditions-Revised-12-26-25-CLEAN-with-links.pdf
+되사기(Repurchase),미국 밖판 보유자가 Dinari에 토큰을 되사 달라고 요청하는 것. Dinari가 기초 주식을 팔고 요금을 뺀 값을 스테이블코인으로 줌. 계약상 되팔 권리일 뿐 소유권은 아님,https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/695ee673aa80e179e884fafc_Dinari-dShares-Terms-and-Conditions-Revised-12-26-25-CLEAN-with-links.pdf
+발행과 소각,Dinari가 주식을 산 뒤 토큰을 새로 찍는 것(발행)과 주식을 판 뒤 토큰을 없애는 것(소각),https://docs.dinari.com/docs/what-is-dshare
+API,프로그램끼리 주문과 정보를 주고받는 연결 규격. Dinari는 파트너 앱이 이것으로 토큰 주문을 넣게 함,https://docs.dinari.com/docs/quickstart
+위젯(화이트라벨),파트너가 자기 사이트에 그대로 끼워 넣는 Dinari 거래 화면. 파트너 상표로 보임,https://dinari.com/business
+파트너 앱,"Dinari 토큰을 자기 고객에게 파는 핀테크, 지갑, 거래소 앱. 현지 판매 인가는 파트너가 짐",https://dinari.com/business
+핀테크,금융 서비스를 앱으로 파는 기술 회사,https://dinari.com/business
+bp,0.01%. 3bp는 0.03%,https://docs.dinari.com/docs/fees
+장외(OTC) 대량 주문,거래소 호가창을 거치지 않고 Dinari가 2.5만 달러 이상 주문에 값을 따로 내 주는 거래. 사는 값과 파는 값 차이가 Dinari 몫,https://docs.dinari.com/docs/fees
+Flow Traders,시장조성사. Dinari 토큰에 주말과 휴일에 블록체인 위에서 사고팔 값을 냄,https://dinari.com/case-studies/flow-traders
+시장조성사,사는 값과 파는 값을 계속 내서 거래가 되게 하는 회사,https://dinari.com/case-studies/flow-traders
+대체거래시스템(ATS),미국에서 증권사가 운영하는 체결 시장. 거래소 등록 없이 주문을 맞붙임,https://dinari.com/blog/24-7-trading-is-live-with-flow-traders-and-dinari
+다크풀,주문을 미리 공개하지 않고 맞붙이는 체결 시설,https://dinari.com/blog/24-7-trading-is-live-with-flow-traders-and-dinari
+NBBO,미국 전 거래소의 가장 좋은 사는 값과 파는 값. 증권사는 고객 주문을 가장 유리한 조건으로 체결할 의무(FINRA 규칙 5310)를 짐,https://www.finra.org/rules-guidance/rulebooks/finra-rules/5310
+Hyperliquid,자체 블록체인 위에 호가창 거래소를 둔 탈중앙 거래 시설. 무기한선물과 현물을 거래,https://hyperliquid.gitbook.io/hyperliquid-docs
+HyperCore,Hyperliquid의 호가창 층. Dinari SpaceX 토큰(SPCXD)이 USDC와 거래됨,https://docs.dinari.com/docs/hyperliquid
+포장 토큰(wrapped dShare),dShares를 다른 블록체인 규격으로 바꿔 담은 토큰. HyperCore에는 이 형태로 올라감,https://docs.dinari.com/docs/wrapping
+탈중앙 거래소(DEX),운영 회사의 호가창 대신 블록체인 계약으로 토큰을 맞바꾸는 거래 시설,https://dinari.com/blog/coin-usdc-trading-liquidity-pool-camelot-dex
+Camelot,Arbitrum 블록체인 위 탈중앙 거래소. 2024-01 Dinari Coinbase 주식 토큰과 USDC 풀이 생김,https://dinari.com/blog/coin-usdc-trading-liquidity-pool-camelot-dex
+Arbitrum,이더리움 위에서 거래를 묶어 처리하는 블록체인(레이어 2),https://dinari.com/blog/coin-usdc-trading-liquidity-pool-camelot-dex
+이더리움 본망,Ethereum 기본 블록체인. 거래 처리 비용(가스비)이 레이어 2보다 높음,https://docs.dinari.com/docs/fees
+"Ethereum, Base, Plume",Dinari 토큰이 오가는 블록체인 이름들. DefiLlama는 이 넷과 Arbitrum의 주문만 셈,https://api.llama.fi/summary/dexs/dinari
+신원 확인(KYC),고객이 누구인지 확인하는 절차. Dinari는 신원 확인된 지갑만 사고 되팔게 함,https://dinari.com/dshares
+Gemini,미국 가상자산 거래소. EU에서는 몰타 금융감독청 인가 투자회사 법인의 플랫폼으로 Dinari 토큰을 팖,https://www.gemini.com/blog/weve-launched-tokenized-stocks-starting-with-microstrategy-mstr
+몰타 금융감독청(MFSA),몰타의 금융 감독 기관. 투자서비스법으로 투자회사를 인가,https://www.gemini.com/blog/weve-launched-tokenized-stocks-starting-with-microstrategy-mstr
+MiFID II,EU의 증권(금융상품) 규칙. 투자회사 인가와 거래 시설 규칙이 여기에 있음,https://eur-lex.europa.eu/eli/dir/2014/65/oj
+tZERO,"미국 토큰증권 회사. 증권사(디지털 자산 증권 보관), 대체거래시스템 운영 증권사, 명의개서대리인을 자회사로 둠",https://tzero.com/news/dinari-and-tzero-partner-to-create-a-regulated-operating-framework-for-broker-dealers-to-offer
+Broadridge,"미국 상장 금융 기술 회사(S&P 500). 상장사, 펀드, 은행, 증권사를 대신해 주주 안내문을 보내고 위임 투표를 받아 집계",https://www.broadridge.com/capability/governance-and-regulatory-compliance/proxy-services/
+위임 투표(proxy voting),주주가 총회에 직접 가지 않고 투표 지시를 보내 표를 행사하는 방식,https://www.broadridge.com/capability/governance-and-regulatory-compliance/proxy-services/
+Dinari Financial Network(DFN),"Dinari가 2025-08 Avalanche 기반 자체 블록체인으로 내고, 2026-07 증권사, 거래소, 발행사, 보관 기관, 명의개서대리인을 한 운영 방식으로 묶는 틀로 다시 정의한 것. 상당 부분이 계획",https://dinari.com/blog/the-dinari-financial-network
+발행사 후원 dShares,상장사가 직접 후원해 내는 dShares(계획). 주주 관리와 유통을 넓히려는 것이라고 회사가 밝힘,https://dinari.com/blog/dinari-and-tzero-partner
+Avalanche,블록체인 이름. DFN의 기반,https://dinari.com/blog/dinari-launches-the-dinari-financial-network-an-omni-chain-orderbook-powered-by-avalanche
+rwa.xyz,실물자산 토큰의 발행 잔액을 블록체인에서 모아 보여 주는 집계 사이트,https://app.rwa.xyz/stocks
+DefiLlama,블록체인 위 계약의 거래 금액과 수수료를 모아 보여 주는 집계 사이트. 회사 공시가 아님,https://api.llama.fi/summary/dexs/dinari
+발행 잔액,지금 남아 있는 토큰의 값 합계,https://app.rwa.xyz/stocks
+Binance,가상자산 거래소. 주식 토큰 bStocks 발행 잔액 1위(2026-11-16 rwa.xyz),https://app.rwa.xyz/stocks
+Kraken,미국 가상자산 거래소. 주식 토큰 xStocks를 2025-06 미국 밖에 팔기 시작,https://blog.kraken.com/
+Robinhood,미국 개인 증권 앱 회사. EU에서 주식 토큰을 2025-06 팔기 시작,https://robinhood.com/
+Ondo,미국 토큰화 회사. 국채 토큰과 주식 토큰을 냄. 카카오페이증권과 2026-09-28 협약,https://ondo.finance/
+카카오페이증권,한국 모바일 증권사. 2026-09-29 Dinari와 한국 상장 주식을 토큰으로 해외에 파는 개념검증 협약,https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities
+개념검증(PoC),실제 서비스 전에 구조가 되는지 시험해 보는 단계,https://www.etoday.co.kr/news/view/2630410
+외국인 통합계좌,외국 투자자 여럿의 한국 주식을 증권사 한 계좌에 모아 두는 방식(옴니버스 계좌),https://www.mt.co.kr/stock/2026/09/29/2026092916273597892
+예탁증서(ADR),외국 회사 주식을 미국 은행이 맡고 미국에서 대신 거래되게 낸 증서,https://dinari.com/blog/sk-hynix-is-coming-to-dshares
+SK hynix,한국 반도체 회사(한국거래소 000660). Dinari는 미국 예탁증서(SKHY)를 토큰으로 냄,https://dinari.com/blog/sk-hynix-is-coming-to-dshares
+Meru,"중남미 프리랜서와 원격 근무자용 해외 대금 수취, 달러 보관 앱. Dinari API로 미국 주식 토큰을 팖",https://dinari.com/case-studies/meru
+Cadana,100개국 넘는 곳의 급여와 해외 지급을 처리하는 회사. 급여 받은 고객에게 Dinari 토큰을 팖,https://dinari.com/case-studies/cadana
+Fasset,앱 안에서 미국 주식을 사게 하는 투자 앱. Dinari 토큰을 붙임,https://dinari.com/case-studies/fasset
+Kem,"달러 송금, 가상자산, 금, 카드 결제를 한 앱에 묶은 머니 앱. 걸프 지역 이용자에게 Dinari 토큰 724종을 팖",https://dinari.com/blog/kem-brings-tokenized-u-s-equities-to-its-global-money-platform-with-dinari
+500 Global,미국 벤처 투자사. Dinari 시드 투자에 참여,https://500.co/content/dinari-raises-us12-7m-series-a-to-make-it-easy-for-anyone-anywhere-to-access-and-invest-in-the-u-s-stock-market-markup-1177
+Hack VC,가상자산 분야 벤처 투자사. Dinari 시리즈 A를 공동 주도,https://dinari.com/blog/12m-series-a-equities-onchain
+Blockchange Ventures,블록체인 분야 벤처 투자사. Dinari 시리즈 A를 공동 주도,https://dinari.com/blog/12m-series-a-equities-onchain
+VanEck Ventures,미국 자산운용사 VanEck의 벤처 투자 부문. Dinari 시리즈 A 참여,https://dinari.com/blog/12m-series-a-equities-onchain
+"시드, 시리즈 A","스타트업 투자 단계 이름. 시드는 첫 외부 투자, 시리즈 A는 그다음 큰 투자",https://dinari.com/blog/12m-series-a-equities-onchain
+Reuters,국제 통신사,https://whbl.com/2025/06/26/dinari-granted-first-broker-dealer-registration-to-offer-tokenized-stocks/
+관리 보수,USD+ 준비금 수익 중 보유자에게 돌려주지 않고 Dinari가 갖는 몫(약관의 management fee),https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/695ee673aa80e179e884fafc_Dinari-dShares-Terms-and-Conditions-Revised-12-26-25-CLEAN-with-links.pdf
+deployer(토큰을 올린 주소),Hyperliquid에 토큰을 등록한 주소. 규칙상 그 토큰으로 낸 거래 수수료를 기본 100% 받음,https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-1-native-token-standard
+FATF,자금세탁방지 국제기구. 대응이 약한 나라를 지정하며 Dinari는 이 나라들에 팔지 않음,https://cdn.prod.website-files.com/656fd13bce08f2dc3bc50573/695ee673aa80e179e884fafc_Dinari-dShares-Terms-and-Conditions-Revised-12-26-25-CLEAN-with-links.pdf
+Eldora,동남아 투자자용 투자 앱. Dinari 토큰 272종 이상을 24시간 사고팔게 함,https://dinari.com/case-studies/eldora
+Coinbase,미국 상장 가상자산 거래소. Dinari는 이 회사 주식(COIN)도 토큰으로 냄,https://dinari.com/blog/coin-usdc-trading-liquidity-pool-camelot-dex
+SpaceX,미국 우주 발사체 회사(Space Exploration Technologies Corp.). Dinari 토큰 SPCXD가 Hyperliquid에서 거래됨,https://dinari.com/case-studies/hyperliquid
+기초 주식,토큰이 1:1로 짝지은 실제 주식이나 ETF,https://dinari.com/dshares
+중간 지주 법인,"다른 회사 지분을 갖기 위해 둔 중간 단계 법인. Dinari Holdings, LLC가 Dinari Securities를 가짐",https://files.brokercheck.finra.org/firm/firm_329672.pdf
+S&P 500,미국 대형 상장사 500곳으로 만든 주가지수. Dinari는 이 500종을 모두 토큰으로 냄,https://dinari.com/blog/dinari-launches-724-tokenized-stocks-available-to-u-s-investors-and-businesses
+TF,특정 과제를 위해 두 회사 이상이 함께 꾸리는 작업반(태스크포스),https://dinari.com/blog/kakaopay-securities-and-dinari-partner-to-expand-global-access-to-korean-equities
+가스비,블록체인에 거래를 기록할 때 내는 처리 비용,https://docs.dinari.com/docs/fees
+레이어 2,"이더리움 위에서 거래를 묶어 싸게 처리하는 블록체인(Arbitrum, Base 등)",https://docs.dinari.com/docs/faqs

@@ -1,0 +1,10 @@
+번호,상품,자산이 있는 곳,미국 안 투자자,미국 밖 투자자,판매 법인과 인가,판매 경로,날짜(종류),근거
+KR-S01,가상자산 현물,블록체인(국적 없음),팖. 뉴욕주 주민 제외(2015-08 철수),팖. 190개 넘는 나라와 지역,"미국 Payward Interactive(송금업), EEA PESL(MiCA), 그 밖 PDSL(버뮤다)","Kraken 앱, Kraken Pro",2013-09 공개 출시,F-1334 F-1343 F-1348 F-0375 F-1371
+KR-S02,가상자산 선물(미국 규제),블록체인 자산을 기초로 한 CME와 Bitnomial 상장 선물,팖,해당 없음,"NinjaTrader Clearing(FCM), Bitnomial(DCM, DCO)",Kraken 앱(Kraken Derivatives US),"2025-07 CME 선물, 2026 Q2 미국 첫 CFTC 규제 무기한선물",F-1439 F-1638
+KR-S03,가상자산 선물(미국 밖),블록체인 자산을 기초로 한 선물,팔지 않음,"팖. EU 밖은 버뮤다, 영국은 Crypto Facilities, EEA는 키프로스","PDSL(BMA Class F), Crypto Facilities(FCA MTF), Payward Europe Digital Solutions(CySEC MiFID)","Kraken Pro, Kraken Futures","2019-02 영국, 2024-10 버뮤다, 2025-05-20 EEA",F-1367 F-1368 F-1529
+KR-S04,미국 주식과 ETF(실물),미국,팖(2025-04 4개 주에서 시작),,"Kraken Securities LLC(소개 증권사), 체결과 보관은 Alpaca Securities",Kraken 앱,2025-04 출시,F-1338 F-0371
+KR-S05,xStocks(미국 주식 토큰),미국 상장 주식과 ETF,팔지 않음(미국 증권법 미등록),"팖. 영국 등 인가 없는 곳 제외. EU 밖은 버뮤다 PDSL, EEA는 키프로스 법인","발행: Backed Assets (JE). 판매: PDSL, Payward Europe Digital Solutions(CY)","Kraken 앱, Bybit, OKX 등 파트너 100곳 넘게, 360X(독일거래소 계열), 탈중앙 거래소","2025-06-30 출시, 2025-09-10 EU",F-1249 F-0157 F-0971 F-1528 F-1516 F-0175
+KR-S06,xStocks(영국과 EU 주식 토큰),영국과 EU 상장 주식(독일 DAX 40 전부 포함),팔지 않음,팖. 영국 투자자 제외,같음. 기초 주식 체결과 보관은 GTN,같음,2026-11-11 200종 넘게 추가,F-1360 F-0169 F-0174
+KR-S07,xStocks(홍콩 주식 토큰),홍콩 상장 주식,팔지 않음,"계획(GTN 제휴, 시작일 미발표)",같음,같음,2026-07-22 제휴 발표,F-1361 F-0170
+KR-S08,IPO Access(상장 전 기업 토큰),"미국 비상장, 공모 기업",팔지 않음,팖(지역마다 다름),PDSL 등,Kraken 앱,2026-06 발표,F-1046 F-0405 F-1506
+KR-S09,Payward Services(기업용 기능 이용),,미국 기업,"미국 밖 기업(bunq, OKX, WOO X EU 등)",그룹 각 인가 법인,API 연동,"2025-04 Embed, 2026-03-11 Payward Services 출시",F-1340 F-1511 F-1350 F-1726

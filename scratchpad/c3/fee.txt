@@ -1,0 +1,23 @@
+Rothera Exchange and Clearing LLC Fee
+Schedule
+Trading Fees
+Binary Option Contracts
+
+For each trade of any Binary Range Contracts, the buyer and the seller will each be
+charged the following trade fees:
+
+                               Participant Type                       k Value
+
+                FCM — Retail Customer                                   0.02
+
+                FCM — Professional Trading Firm                         0.12
+
+                Market Maker                                            0.03
+
+The fee per order is calculated as Order fees = MAX(round(k × p × (1 − p) × c, 2), 0.01), where k is
+a constant, p is the order price, and c is the number of contracts. Standard rounding (round half
+up) applies.
+
+For example, with k = 0.06, an order to buy 100 contracts at a price of $0.35 generates a fee of
+$1.37, calculated as MAX(round(0.06 × 0.35 × (1 − 0.35) × 100, 2), 0.01).
+

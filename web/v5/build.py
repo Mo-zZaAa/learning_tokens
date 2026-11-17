@@ -3,8 +3,10 @@
 
 실행: python3 web/v5/build.py  →  web/v5/index.html (한 파일, 외부 주소 없이 열림)
 
-회사마다 두 보기만 만든다.
-- 개요: kb/cards/<slug>.md
+회사마다 두 보기만 만든다(6개사 공통 slug common은 개요만).
+- 개요(세 층): 1층 한 화면 카드 kb/cards6/<slug>.md, 2층 쉬운 해설 kb/easy/<slug>.md,
+       3층 개요 문서 kb/cards/<slug>.md + PM 2차 질문과 답 kb/pm_q2/<slug>.md
+       공통: kb/cards6/common.md, kb/easy/00_기초.md, kb/cards/common.md + kb/pm_q2/00_공통.md + kb/pm_q2/추가조사_261118.md
 - raw: 1) PM 질문별 답(kb/coverage/<slug>.csv, kb/questions/<slug>.json) 2) 사건 카드(kb/events/<slug>.json)
        3) 구조 표(kb/structs/<slug>/*.csv) 4) 사실 DB(db/facts.csv) 5) 원본 목록(db/sources.csv)
        6) 빈칸과 정정(kb/gaps.csv, kb/gaps_add/<slug>.csv, kb/corrections.csv) 7) 지난 본문(companies/<회사>_vN.md)
@@ -33,6 +35,7 @@ COS = [
     ("common", "6개사 공통", "__none__"),
 ]
 SLUGS = [c[0] for c in COS]
+COMMON = ("common", "6개사 공통")
 # db/facts.csv의 회사 값 → slug (나머지 값은 이 화면의 회사가 아님)
 FACT_CO = {
     "Kraken(Payward)": "kraken", "Kraken": "kraken",
@@ -123,60 +126,122 @@ def table(ids, base, head, body, idcol="auto", keybase=None):
     return {"cols": head, "rows": rows}
 
 
-# ---------------- 개요(kb/cards/<slug>.md) ----------------
+# ---------------- 개요(세 층) ----------------
 LIST_RE = re.compile(r"^(\s*)(?:([-*+])|(\d+)[.)])\s+(.*)$")
+FENCE_RE = re.compile(r"^\s*(```|~~~)")
+ART_CH = re.compile(r"[─│┌┐└┘├┤┬┴┼═║╔╗╚╝▶◀▼▲]")
+SELFTEST_RE = re.compile(r"셀프\s*테스트|자가\s*테스트|스스로\s*풀")
 
 
-def parse_card(slug, text, ids):
+def is_art(line):
+    t = line.strip()
+    if not t:
+        return False
+    return bool(ART_CH.search(t)) or len(re.findall(r"[→←↓↑⇒]", t)) >= 2 or t[0] in "↓↑"
+
+
+def mark_answers(items):
+    """셀프 테스트 칸: 답은 화면에서 접어 둠. "질문 → 답", "질문 답: 답", "답:"으로 시작하는 줄, 질문 아래 줄."""
+    after_h = False
+    seen_q = False
+    for it in items:
+        t = re.sub(r"\*\*|==|!!", "", it.get("t", "")).strip()
+        if it["k"] == "h3":
+            after_h = bool(re.match(r"^(답|정답)", t))
+            if after_h:
+                it["ans"] = True
+            continue
+        if after_h or re.match(r"^(답|정답)\s*[:：.)]?", t):
+            it["ans"] = True
+            continue
+        if it["k"] == "li" and it.get("d", 0) > 0 and seen_q:
+            it["ans"] = True
+            continue
+        if it["k"] in ("li", "p"):
+            seen_q = True
+            m = re.search(r"\s(?:→|(?:\*\*)?(?:답|정답)(?:\*\*)?\s*[:：])\s*", it["t"])
+            if m and m.start() > 0:
+                it["qa"] = [it["t"][:m.start()].rstrip(), it["t"][m.end():].strip()]
+
+
+def parse_card(slug, text, ids, layer="", mode="card", art=False):
+    """mode: card(머리와 다섯 질문만 펼침) / open(모두 펼친 접이 칸) / grid(접지 않는 상자)."""
     title, intro, secs = "", [], []
     cur = None
     stack = []
     tbl = None
+    fence = None
+    art_open = False
+    pre = (layer + ":") if layer else ""
 
     def target():
         return cur["items"] if cur else intro
 
-    def flush_tbl():
-        nonlocal tbl
-        tbl = None
-
     def sec_code(h):
-        return "s" + hashlib.sha1(h.encode("utf-8")).hexdigest()[:5]
+        return "s" + hashlib.sha1((pre + h).encode("utf-8")).hexdigest()[:5]
+
+    def base():
+        return f"{slug}-o-{cur['code'] if cur else sec_code('intro') if pre else 'intro'}"
 
     for raw in text.splitlines():
         line = raw.rstrip()
+        if fence is not None:
+            if FENCE_RE.match(line):
+                t = "\n".join(fence).strip("\n")
+                if t:
+                    target().append({"k": "pre", "id": ids.make(f"{base()}-{h8(t)}"), "t": t})
+                fence = None
+            else:
+                fence.append(line)
+            continue
+        if FENCE_RE.match(line):
+            tbl = None
+            art_open = False
+            fence = []
+            continue
         if not line.strip():
-            flush_tbl()
+            tbl = None
+            art_open = False
             continue
         if line.startswith("# ") and not title:
             title = line[2:].strip()
             continue
         if line.startswith("## "):
-            flush_tbl()
+            tbl = None
+            art_open = False
             stack = []
             h = line[3:].strip()
             cur = {"h": h, "code": sec_code(h), "items": []}
             secs.append(cur)
             continue
-        code = cur["code"] if cur else "intro"
-        base = f"{slug}-o-{code}"
         if line.lstrip().startswith("|"):
+            art_open = False
             cells = [c.strip() for c in line.strip().strip("|").split("|")]
             if all(re.fullmatch(r":?-{2,}:?", c) for c in cells if c):
                 continue
             if tbl is None:
-                tbl = {"k": "tbl", "id": ids.make(f"{base}-t{h8(' | '.join(cells))}"), "cols": cells, "rows": []}
+                tbl = {"k": "tbl", "id": ids.make(f"{base()}-t{h8(' | '.join(cells))}"), "cols": cells, "rows": []}
                 target().append(tbl)
             else:
-                tbl["rows"].append({"id": ids.make(f"{base}-{h8(' | '.join(cells))}"), "c": cells})
+                tbl["rows"].append({"id": ids.make(f"{base()}-{h8(' | '.join(cells))}"), "c": cells})
             continue
-        flush_tbl()
+        tbl = None
         if line.startswith("### ") or line.startswith("#### "):
+            art_open = False
             t = line.lstrip("#").strip()
-            target().append({"k": "h3", "id": ids.make(f"{base}-{h8(t)}"), "t": t})
+            target().append({"k": "h3", "id": ids.make(f"{base()}-{h8(t)}"), "t": t})
             stack = []
             continue
         m = LIST_RE.match(line)
+        if not m and art and (is_art(line) or (art_open and line.startswith("    "))):
+            items = target()
+            if art_open and items and items[-1]["k"] == "pre":
+                items[-1]["t"] += "\n" + line
+            else:
+                items.append({"k": "pre", "id": ids.make(f"{base()}-{h8(line)}"), "t": line})
+            art_open = True
+            continue
+        art_open = False
         if m:
             ind = len(m.group(1).replace("\t", "    "))
             while stack and stack[-1] > ind:
@@ -185,24 +250,72 @@ def parse_card(slug, text, ids):
                 stack.append(ind)
             d = len(stack) - 1
             t = m.group(4).strip()
-            target().append({"k": "li", "id": ids.make(f"{base}-{h8(t)}"), "d": d, "n": m.group(3) or "", "t": t})
+            target().append({"k": "li", "id": ids.make(f"{base()}-{h8(t)}"), "d": d, "n": m.group(3) or "", "t": t})
             continue
         t = line.strip()
         ind = len(line) - len(line.lstrip())
-        target().append({"k": "p", "id": ids.make(f"{base}-{h8(t)}"), "t": t, "d": 1 if ind and stack else 0})
+        target().append({"k": "p", "id": ids.make(f"{base()}-{h8(t)}"), "t": t, "d": 1 if ind and stack else 0})
+    if fence:
+        t = "\n".join(fence).strip("\n")
+        target().append({"k": "pre", "id": ids.make(f"{base()}-{h8(t)}"), "t": t})
 
-    # 첫 화면: 머리와 다섯 질문. 다섯 질문 칸이 아직 없으면 머리 다음 첫 칸을 대신 펼쳐 둠
     has5 = any("다섯 질문" in s["h"] for s in secs)
     first_other = True
     for s in secs:
-        pin = ("머리" in s["h"]) or ("다섯 질문" in s["h"])
-        if not pin and not has5 and first_other:
-            pin = True
-        if "머리" not in s["h"]:
-            first_other = False
+        if mode == "card":
+            pin = ("머리" in s["h"]) or ("다섯 질문" in s["h"])
+            if not pin and not has5 and first_other:
+                pin = True
+            if "머리" not in s["h"]:
+                first_other = False
+        else:
+            pin = mode == "grid"
         s["pin"] = pin
-        s["id"] = f"{slug}-o-{s['code']}"
+        s["open"] = mode != "card"
+        s["id"] = ids.make(f"{slug}-o-{s['code']}")
+        if art and SELFTEST_RE.search(s["h"]):
+            mark_answers(s["items"])
     return {"title": title, "intro": intro, "secs": secs}
+
+
+# 층: (키, 이름, 그리는 방식, 파일들). {s}는 회사 slug
+OV_LAYERS = {
+    "co": [
+        ("L1", "한 화면 카드", "grid", ["kb/cards6/{s}.md"]),
+        ("L2", "쉬운 해설", "easy", ["kb/easy/{s}.md"]),
+        ("L3", "개요 문서와 질문 답", "doc", ["kb/cards/{s}.md", "kb/pm_q2/{s}.md"]),
+    ],
+    "common": [
+        ("L1", "한 화면 카드", "grid", ["kb/cards6/common.md"]),
+        ("L2", "쉬운 해설", "easy", ["kb/easy/00_기초.md"]),
+        ("L3", "개요 문서와 질문 답", "doc", ["kb/cards/common.md", "kb/pm_q2/00_공통.md", "kb/pm_q2/추가조사_261118.md"]),
+    ],
+}
+PART_LABEL = [("kb/cards/", "개요 문서"), ("kb/pm_q2/추가조사", "추가 조사"), ("kb/pm_q2/", "PM 2차 질문과 답")]
+
+
+def build_overview(slug, ids):
+    layers = []
+    for k, label, kind, paths in OV_LAYERS["common" if slug == "common" else "co"]:
+        parts = []
+        for pth in paths:
+            rp = pth.format(s=slug)
+            fp = ROOT / rp
+            lab = next((v for pre_, v in PART_LABEL if rp.startswith(pre_)), label)
+            doc = None
+            if fp.exists():
+                txt = fp.read_text(encoding="utf-8")
+                if kind == "grid":
+                    doc = parse_card(slug, txt, ids, layer=k, mode="grid")
+                elif kind == "easy":
+                    doc = parse_card(slug, txt, ids, layer=k, mode="open", art=True)
+                elif rp.startswith("kb/cards/"):
+                    doc = parse_card(slug, txt, ids)  # 지금 개요 문서: 줄 id를 전과 같게 둠
+                else:
+                    doc = parse_card(slug, txt, ids, layer=rp, mode="open", art=True)
+            parts.append({"path": rp, "label": lab, "doc": doc})
+        layers.append({"k": k, "label": label, "kind": kind, "id": ids.make(f"{slug}-o-{k}"), "parts": parts})
+    return {"layers": layers}
 
 
 # ---------------- 지난 본문(companies/<회사>_vN.md) ----------------
@@ -298,7 +411,7 @@ def load_terms():
         mi = 1 if mi is None else mi
         for r in body:
             src = r[si] if si is not None and si < len(r) else ""
-            add(r[ti], "", r[mi] if mi < len(r) else "", src, co if co in SLUGS else "", 1)
+            add(r[ti], "", r[mi] if mi < len(r) else "", src, co if co in SLUGS + [COMMON[0]] else "", 1)
         counts[rel(p)] = len(body)
     tp = ROOT / "db/terms.csv"
     if tp.exists():
@@ -323,13 +436,9 @@ def build_company(slug, name, prefix, facts_all, facts_by_id, sources_by_id):
     C = {"slug": slug, "name": name, "files": {}, "refs": {}}
     have = C["files"]
 
-    # 개요
-    card = ROOT / f"kb/cards/{slug}.md"
-    if card.exists():
-        C["ov"] = parse_card(slug, card.read_text(encoding="utf-8"), ids)
-        have["card"] = rel(card)
-    else:
-        C["ov"] = None
+    # 개요(세 층)
+    C["ov"] = build_overview(slug, ids)
+    have["ov"] = [p["path"] for L in C["ov"]["layers"] for p in L["parts"] if p["doc"]]
 
     # 1) PM 질문별 답
     cov = ROOT / f"kb/coverage/{slug}.csv"
@@ -467,19 +576,28 @@ def build_company(slug, name, prefix, facts_all, facts_by_id, sources_by_id):
     return C
 
 
+def build_common():
+    ids = Ids()
+    ov = build_overview(COMMON[0], ids)
+    return {"slug": COMMON[0], "name": COMMON[1], "common": True, "refs": {},
+            "files": {"ov": [p["path"] for L in ov["layers"] for p in L["parts"] if p["doc"]]},
+            "ov": ov, "cov": None, "qs": None, "ev": None, "st": [], "facts": [], "fmissing": [], "srcs": [], "gaps": [], "old": None}
+
+
 def main():
     facts_all = read_dicts(ROOT / "db/facts.csv")
     facts_by_id = {f["fact_id"]: f for f in facts_all}
     sources_by_id = {s["source_id"]: s for s in read_dicts(ROOT / "db/sources.csv")}
     data = {
         "built": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "cos": [[s, n] for s, n, _ in COS],
+        "cos": [[s, n] for s, n, _ in COS] + [list(COMMON)],
         "fcols": FACT_COLS + ["ref"],
         "terms": load_terms(),
         "C": {},
     }
     for slug, name, prefix in COS:
         data["C"][slug] = build_company(slug, name, prefix, facts_all, facts_by_id, sources_by_id)
+    data["C"][COMMON[0]] = build_common()
 
     payload = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     tpl = (HERE / "template.html").read_text(encoding="utf-8")
@@ -492,11 +610,10 @@ def main():
     t = data["terms"]
     print(f"용어 {len(t['e'])}개(맞출 말 {len(t['k'])}개): " + ", ".join(f"{k} {v}" for k, v in t["n"].items()))
     for slug, C in data["C"].items():
-        miss = [k for k in ("card", "cov", "qs", "ev", "st", "gaps_add") if k not in C["files"]]
-        print(f"- {slug}: 사건 {len(C['ev'] or [])}, 구조 표 {len(C['st'])}, 사실 {len(C['facts'])}, 원본 {len(C['srcs'])}"
-              + (f", 없는 근거 {len(C['fmissing'])}" if C["fmissing"] else "")
-              + (f" / 준비 중: {', '.join(miss)}" if miss else ""))
-
+        lay = " / ".join(f"{L['k']} " + ("+".join(p["path"].split("/")[-2] + "/" + p["path"].split("/")[-1] for p in L["parts"] if p["doc"]) or "준비 중") for L in C["ov"]["layers"])
+        miss = [k for k in ("cov", "qs", "ev", "st", "gaps_add") if k not in C["files"]] if not C.get("common") else []
+        print(f"- {slug}: 개요 {lay}" + ("" if C.get("common") else f" | 사건 {len(C['ev'] or [])}, 구조 표 {len(C['st'])}, 사실 {len(C['facts'])}, 원본 {len(C['srcs'])}")
+              + (f" | raw 준비 중: {', '.join(miss)}" if miss else ""))
 
 if __name__ == "__main__":
     main()

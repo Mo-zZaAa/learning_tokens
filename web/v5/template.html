@@ -81,7 +81,39 @@ table{font-size:inherit}
 .empty{color:var(--faint)}
 
 /* 개요 */
-.ov{max-width:800px}
+.ov{max-width:none}
+.read{max-width:800px}
+.lnav{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--toph,57px));z-index:20;background:var(--bg);display:flex;flex-wrap:wrap;gap:6px;padding-block:8px;margin-bottom:6px;border-bottom:1px solid var(--line)}
+.lnav a{text-decoration:none;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:13px;white-space:nowrap}
+.lnav a b{color:var(--accent);margin-right:4px;font-variant-numeric:tabular-nums}
+.lnav a.off{color:var(--faint)}
+.layer{margin-top:22px;display:grid;grid-template-columns:minmax(0,1fr);gap:12px;min-width:0}
+.layer>*{min-width:0}
+.lhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;border-top:2px solid var(--ink);padding-top:10px}
+.lhead .lnum{font-size:12px;font-weight:800;color:var(--panel);background:var(--ink);border-radius:5px;padding:1px 8px;letter-spacing:.04em}
+.lhead h2{margin:0;font-size:21px;letter-spacing:-.01em}
+.lhead code{color:var(--faint)}
+.part{display:block;min-width:0}
+.ptitle{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:8px 0 8px}
+.ptitle h3{margin:0;font-size:16px}
+.ptitle code,.ptitle span{color:var(--faint);font-size:12.5px}
+.cgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;font-size:13.5px;line-height:1.5}
+.cbox{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px 10px;min-width:0}
+.cbox>h3{margin:2px 0 6px;font-size:14.5px;color:var(--accent)}
+.cbox .li{padding-block:2px;gap:6px}
+.cbox .d1{margin-left:16px}.cbox .d2{margin-left:32px}
+.cbox .li.d0 .tx strong{font-weight:700}
+.artw{padding-right:30px}
+.art{margin:6px 0;padding:10px 12px;background:var(--quote);border:1px solid var(--line);border-radius:8px;font-family:var(--mono);font-size:13px;line-height:1.5;white-space:pre;overflow-x:auto;max-width:100%}
+details.ans{display:inline}
+details.ans>summary{display:inline-block;cursor:pointer;font-size:12.5px;color:var(--memo);background:var(--memo-soft);border-radius:999px;padding:0 9px;margin:2px 0 2px 4px;list-style:none}
+details.ans>summary::-webkit-details-marker{display:none}
+details.ans[open]{display:block;margin:4px 0 6px;padding:6px 10px;border-left:3px solid var(--memo);background:var(--memo-soft);border-radius:0 6px 6px 0}
+details.ans[open]>summary{margin:0 0 4px}
+div.ansg>details.ans{display:block;margin:2px 0 8px 22px}
+.cnote{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:14px 16px;display:grid;gap:8px}
+.cnote .links{display:flex;flex-wrap:wrap;gap:6px}
+.cnote .links button{border:1px solid var(--line);background:var(--bg);border-radius:7px;padding:4px 10px;font-size:13px}
 .intro{color:var(--muted);font-size:14px;margin-bottom:12px}
 .sec{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:6px 18px 12px;margin-bottom:12px}
 .sec.pin{border-color:color-mix(in srgb,var(--accent) 35%,var(--line))}
@@ -262,6 +294,9 @@ button.primary{background:var(--memo);border-color:var(--memo);color:var(--on-me
   .seg button{padding:4px 10px}
   .memobtn{padding:5px 8px}
   .pagehead h1{font-size:24px}
+  .cgrid{grid-template-columns:1fr}
+  .lnav{gap:4px}
+  .lnav a{padding:3px 9px;font-size:12.5px}
   .sec{padding:4px 14px 10px}
   .rbody{padding:0 12px 14px}
   .rsec>summary{padding:12px 12px}
@@ -391,28 +426,54 @@ function tableHTML(t, opt){
 }
 
 /* ---------- 개요 ---------- */
+function itemHTML(it){
+  if (it.k === 'li'){
+    const body = it.qa ? `${inl(it.qa[0])} <details class="ans"><summary>답 보기</summary>${inl(it.qa[1])}</details>` : inl(it.t);
+    return `<div class="ln li d${Math.min(it.d || 0, 4)}${it.n ? ' ol' : ''}" id="${it.id}"><span class="bul">${it.n ? esc(it.n) + '.' : ''}</span><div class="tx">${body}</div>${MB}</div>`;
+  }
+  if (it.k === 'p') return `<p class="ln${it.d ? ' d1' : ''}" id="${it.id}"><span class="tx">${it.qa ? `${inl(it.qa[0])} <details class="ans"><summary>답 보기</summary>${inl(it.qa[1])}</details>` : inl(it.t)}</span>${MB}</p>`;
+  if (it.k === 'h3') return `<h3 class="ln" id="${it.id}"><span class="tx">${inl(it.t)}</span>${MB}</h3>`;
+  if (it.k === 'pre') return `<div class="ln artw" id="${it.id}"><pre class="art">${esc(it.t)}</pre>${MB}</div>`;
+  if (it.k === 'tbl') return tableHTML(it, {gblk: false});
+  return '';
+}
 function items(list){
-  return (list || []).map(it => {
-    if (it.k === 'li') return `<div class="ln li d${Math.min(it.d || 0, 4)}${it.n ? ' ol' : ''}" id="${it.id}"><span class="bul">${it.n ? esc(it.n) + '.' : ''}</span><div class="tx">${inl(it.t)}</div>${MB}</div>`;
-    if (it.k === 'p') return `<p class="ln${it.d ? ' d1' : ''}" id="${it.id}"><span class="tx">${inl(it.t)}</span>${MB}</p>`;
-    if (it.k === 'h3') return `<h3 class="ln" id="${it.id}"><span class="tx">${inl(it.t)}</span>${MB}</h3>`;
-    if (it.k === 'tbl') return tableHTML(it, {gblk: false});
-    return '';
-  }).join('');
+  let out = '', grp = '';
+  const flush = () => { if (grp){ out += `<div class="ansg"><details class="ans"><summary>답 보기</summary>${grp}</details></div>`; grp = ''; } };
+  for (const it of (list || [])){ if (it.ans) grp += itemHTML(it); else { flush(); out += itemHTML(it); } }
+  flush();
+  return out;
 }
 function countItems(list){ return (list || []).reduce((n, it) => n + (it.k === 'tbl' ? it.rows.length : 1), 0); }
-function renderOv(C){
-  const O = C.ov;
-  let h = `<article class="ov"><header class="pagehead"><div class="eyebrow">개요</div><h1>${esc(C.name)}</h1>`;
-  if (!O) return h + `</header>${ready('개요 카드', 'kb/cards/' + C.slug + '.md', '파일이 생긴 뒤 다시 빌드하면 채워짐. 그동안 raw 보기에서 사실 DB, 원본, 지난 본문을 볼 수 있음.')}</article>`;
-  h += `<div class="meta"><span>${esc(O.title)}</span><code>${esc(C.files.card)}</code><span>만든 시각 ${esc(D.built)}</span></div>`;
-  h += `<div class="tools"><button type="button" data-act="openall">모두 펼치기</button><button type="button" data-act="closeall">모두 접기</button></div></header>`;
-  if (O.intro.length) h += `<div class="intro gblk" data-sec="머리말">${items(O.intro)}</div>`;
-  for (const s of O.secs){
+const LAYER_SHORT = {L1: '카드', L2: '쉬운 해설', L3: '개요 문서'};
+function docHTML(doc, kind){
+  let h = '';
+  if (doc.intro.length) h += `<div class="intro gblk${kind === 'grid' ? '' : ' read'}" data-sec="머리말">${items(doc.intro)}</div>`;
+  if (kind === 'grid') return h + `<div class="cgrid">${doc.secs.map(s => `<section class="cbox gblk" id="${s.id}" data-sec="카드: ${esc(s.h)}"><h3>${inl(s.h)}</h3>${items(s.items)}</section>`).join('')}</div>`;
+  for (const s of doc.secs){
     const body = items(s.items);
-    if (s.pin) h += `<section class="sec pin gblk" id="${s.id}" data-sec="${esc(s.h)}"><h2>${inl(s.h)}</h2>${body}</section>`;
-    else h += `<details class="sec gblk" id="${s.id}" data-sec="${esc(s.h)}"><summary><h2>${inl(s.h)}</h2><span class="cnt">${countItems(s.items)}줄</span></summary>${body}</details>`;
+    if (s.pin) h += `<section class="sec pin gblk read" id="${s.id}" data-sec="${esc(s.h)}"><h2>${inl(s.h)}</h2>${body}</section>`;
+    else h += `<details class="sec gblk read" id="${s.id}" data-sec="${esc(s.h)}"${s.open ? ' open' : ''}><summary><h2>${inl(s.h)}</h2><span class="cnt">${countItems(s.items)}줄</span></summary>${body}</details>`;
   }
+  return h;
+}
+function hasOv(C){ return C.ov.layers.some(L => L.parts.some(p => p.doc)); }
+function renderOv(C){
+  const LS = C.ov.layers;
+  let h = `<article class="ov"><header class="pagehead"><div class="eyebrow">개요</div><h1>${esc(C.name)}</h1>`;
+  h += `<div class="meta"><span>위에서 아래로 카드, 쉬운 해설, 개요 문서와 질문 답</span><span>만든 시각 ${esc(D.built)}</span></div>`;
+  h += `<div class="tools"><button type="button" data-act="openall">모두 펼치기</button><button type="button" data-act="closeall">모두 접기</button></div></header>`;
+  h += `<nav class="lnav" aria-label="층 바로 가기">${LS.map((L, i) => `<a href="#${L.id}" data-go="${L.id}"${L.parts.some(p => p.doc) ? '' : ' class="off"'}><b>${i + 1}층</b>${esc(LAYER_SHORT[L.k] || L.label)}</a>`).join('')}</nav>`;
+  LS.forEach((L, i) => {
+    h += `<section class="layer" id="${L.id}" data-sec="${esc(L.label)}"><div class="lhead"><span class="lnum">${i + 1}층</span><h2>${esc(L.label)}</h2>${L.parts.length === 1 ? `<code>${esc(L.parts[0].path)}</code>` : ''}</div>`;
+    for (const P of L.parts){
+      const sub = L.parts.length > 1;
+      let ph = sub ? `<div class="ptitle"><h3>${esc(P.label)}</h3><code>${esc(P.path)}</code>${P.doc && P.doc.title ? `<span>${esc(P.doc.title)}</span>` : ''}</div>` : (P.doc && P.doc.title ? `<div class="ptitle"><span>${esc(P.doc.title)}</span></div>` : '');
+      ph += P.doc ? docHTML(P.doc, L.kind) : ready(P.label, P.path);
+      h += `<div class="part" data-sec="${esc(L.label)}: ${esc(P.label)}">${ph}</div>`;
+    }
+    h += '</section>';
+  });
   return h + foot() + '</article>';
 }
 
@@ -525,7 +586,9 @@ function rawParts(C){
   return P;
 }
 function renderRaw(C){
-  const S = C.slug, P = rawParts(C);
+  const S = C.slug;
+  if (C.common) return `<article class="raw"><header class="pagehead"><div class="eyebrow">raw</div><h1>${esc(C.name)}</h1></header><div class="cnote"><span>6개사 공통에는 raw가 따로 없음. 근거 자료는 회사별 raw에 있음</span><div class="links">${D.cos.filter(c => !D.C[c[0]].common).map(([s, n]) => `<button type="button" data-raw="${s}">${esc(n)} raw</button>`).join('')}</div></div>${foot()}</article>`;
+  const P = rawParts(C);
   let h = `<article class="raw"><header class="pagehead"><div class="eyebrow">raw</div><h1>${esc(C.name)}</h1><div class="meta"><span>만든 자료와 원본을 섞지 않고 칸별로 둠</span><span>만든 시각 ${esc(D.built)}</span></div></header>`;
   h += `<nav class="toc" aria-label="raw 칸">${P.map(p => `<a href="#${S}-r-sec-${p.k}" data-go="${S}-r-sec-${p.k}">${esc(p.label)} <span>${p.n}</span></a>`).join('')}</nav>`;
   for (const p of P) h += `<details class="rsec" id="${S}-r-sec-${p.k}" data-sec="${esc(p.label.replace(/^\d+\.\s*/, ''))}"${p.open ? ' open' : ''}><summary><h2>${esc(p.label)}</h2><span class="cnt">${p.n}</span><span class="srcf">${p.files.map(esc).join(', ')}</span></summary><div class="rbody">${p.h}</div></details>`;
@@ -538,7 +601,7 @@ function foot(){
 
 /* ---------- 그리기 ---------- */
 function drawBar(){
-  $('#cos').innerHTML = D.cos.map(([s, n]) => `<button type="button" data-co="${s}" aria-current="${s === cur}">${esc(n)}${D.C[s].ov ? '' : '<small>준비 중</small>'}</button>`).join('');
+  $('#cos').innerHTML = D.cos.map(([s, n]) => `<button type="button" data-co="${s}" aria-current="${s === cur}">${esc(n)}${hasOv(D.C[s]) ? '' : '<small>준비 중</small>'}</button>`).join('');
   $$('#views button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.view === view)));
 }
 function render(){
@@ -563,7 +626,7 @@ function wrapBlock(b){
   const used = new Set();
   const tw = document.createTreeWalker(b, NodeFilter.SHOW_TEXT, {acceptNode(n){
     const p = n.parentElement;
-    if (!p || p.closest('a,th,button,summary,.term,.ref,mark.hit,code,.om,.eid,.fid,script,style')) return NodeFilter.FILTER_REJECT;
+    if (!p || p.closest('a,th,button,summary,.term,.ref,mark.hit,code,pre,.om,.eid,.fid,script,style')) return NodeFilter.FILTER_REJECT;
     return n.nodeValue.trim() ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
   }});
   const nodes = []; while (tw.nextNode()) nodes.push(tw.currentNode);
@@ -624,7 +687,8 @@ function buildIdx(){
     const C = D.C[S];
     const add = (v, sec, id, t) => { t = plain(t).replace(/\s+/g, ' ').trim(); if (t) IDX.push({co: S, v, sec, id, t, l: t.toLowerCase()}); };
     const walk = (list, sec) => (list || []).forEach(it => { if (it.k === 'tbl') it.rows.forEach(r => add('o', sec, r.id, r.c.join(' | '))); else add('o', sec, it.id, it.t); });
-    if (C.ov){ walk(C.ov.intro, '머리말'); C.ov.secs.forEach(s => walk(s.items, s.h)); }
+    if (!C.facts) return;
+    C.ov.layers.forEach(L => L.parts.forEach(P => { if (!P.doc) return; const lab = L.parts.length > 1 ? `${L.label}: ${P.label}` : L.label; walk(P.doc.intro, lab); P.doc.secs.forEach(s => walk(s.items, `${lab} > ${s.h}`)); }));
     if (C.cov) C.cov.rows.forEach(r => add('r', 'PM 질문별 답', r.id, r.c.join(' | ')));
     (C.qs || []).forEach(q => { add('r', 'PM 질문별 답', q._id + '-q', `${q.id || ''} ${q.q || ''}`); if (q.a) add('r', 'PM 질문별 답', q._id + '-a', q.a); (q.tails || []).forEach((t, i) => add('r', 'PM 질문별 답', q._id + '-tail' + i, `${t.q || ''} ${t.a || ''}`)); });
     (C.ev || []).forEach(e => {
@@ -715,7 +779,7 @@ function goTo(co, v, id, q){
   if (q) hilite(el, q);
   el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash');
   const rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches || Math.abs(el.getBoundingClientRect().top) > 2400;
-  el.scrollIntoView({block: el.classList.contains('rsec') || el.tagName === 'TABLE' ? 'start' : 'center', behavior: rm ? 'auto' : 'smooth'});
+  el.scrollIntoView({block: el.classList.contains('rsec') || el.classList.contains('layer') || el.tagName === 'TABLE' ? 'start' : 'center', behavior: rm ? 'auto' : 'smooth'});
   setHash(id);
 }
 
@@ -866,6 +930,7 @@ document.addEventListener('click', e => {
   if (term){ if (lastPtr !== 'mouse' && tipFor === term && !TIP.hidden) closeTip(); else showTip(term); return; }
   if (!t.closest('#tip')) closeTip();
   const co = t.closest('[data-co]'); if (co){ show(co.dataset.co, view); return; }
+  const rw = t.closest('[data-raw]'); if (rw){ show(rw.dataset.raw, 'r'); return; }
   const vw = t.closest('[data-view]'); if (vw){ show(cur, vw.dataset.view); return; }
   const si = t.closest('[data-si]'); if (si){ const x = SRES[+si.dataset.si]; $('#sres').hidden = true; if (x) goTo(x.co, x.v, x.id, $('#q').value.trim().split(/\s+/).length > 1 && !x.l.includes($('#q').value.trim().toLowerCase()) ? $('#q').value.trim().split(/\s+/)[0] : $('#q').value.trim()); return; }
   if (!t.closest('.search')) $('#sres').hidden = true;
@@ -902,7 +967,7 @@ document.addEventListener('keydown', e => {
 });
 
 /* ---------- 시작 ---------- */
-function fitHdr(){ document.documentElement.style.setProperty('--hdr', ($('#top').offsetHeight + 12) + 'px'); }
+function fitHdr(){ const h = $('#top').offsetHeight; document.documentElement.style.setProperty('--toph', h + 'px'); document.documentElement.style.setProperty('--hdr', (h + 56) + 'px'); }
 window.addEventListener('resize', fitHdr);
 function fromHash(){
   const h = decodeURIComponent((location.hash || '').slice(1));
