@@ -41,8 +41,9 @@ FACT_CO = {
 STRUCT_LABEL = {
     "money": "돈(수입 구성)", "entities": "법인과 인가", "deals": "인수", "products": "상품",
     "sales": "판매(어느 나라 자산을 누구에게)", "timeline": "연표", "valuechain": "밸류체인",
+    "funding": "자금 조달", "article": "핵심 기사 질문별 요약",
 }
-STRUCT_ORDER = ["money", "entities", "deals", "products", "sales", "valuechain", "timeline"]
+STRUCT_ORDER = ["money", "funding", "deals", "entities", "products", "sales", "valuechain", "article", "timeline"]
 FACT_COLS = ["fact_id", "회사", "시작(연월)", "무엇을", "값", "단위", "기준일", "검증 상태", "링크", "원문 근거 문장", "source_id"]
 TERM_STOP = {"증권"}  # 너무 흔해 풍선이 오히려 방해되는 말
 
