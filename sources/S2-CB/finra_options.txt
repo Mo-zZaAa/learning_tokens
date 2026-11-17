@@ -1,0 +1,360 @@
+ 
+ Options | FINRA.org 
+ Skip to main content
+FINRA Utility Menu 
+ About Us 
+ Careers 
+ BrokerCheck 
+ Data 
+ Media Center 
+ For Firms 
+ For the Public 
+ FINRA DATA 
+FINRA Data provides non-commercial use of data, specifically the ability to save data views and create and manage a Bond Watchlist. 
+ Login 
+ For Industry Professionals 
+ FINPRO GATEWAY 
+Registered representatives can fulfill Continuing Education requirements, view their industry CRD record and perform other compliance tasks. 
+ Login 
+ For Member Firms 
+ FINRA GATEWAY 
+Firm compliance professionals can access filings and requests, run reports and submit support tickets. 
+ Login 
+ For Case Participants 
+ DR PORTAL 
+Arbitration and mediation case participants and FINRA neutrals can view case information and submit documents through this Dispute Resolution Portal. 
+ Login 
+ Need Help? | Check System Status 
+ Log In to other FINRA systems 
+ Rules & Guidance 
+ R&G Section 1 
+ FINRA Manual 
+ Updates 
+ Interpreting the Rules 
+ Notices 
+ Guidance 
+ Frequently Asked Questions 
+ Key Topics 
+ Interpretive Questions 
+ R&G Section 2 
+ The Rulemaking Process 
+ Rule Filings 
+ Rule Filing Status Report 
+ Requests for Comments 
+ Regulatory Policy Agenda 
+ Rulebook Consolidation 
+ R&G Section 3 
+ Adjudications & Decisions 
+ National Adjudicatory Council (NAC) 
+ Office of Hearing Officers (OHO) 
+ R&G Section 4 
+ Enforcement 
+ Disciplinary Actions Online 
+ Monthly Disciplinary Actions 
+ Sanction Guidelines 
+ Individuals Barred by FINRA 
+ Registration, Exams & CE 
+ Registration section 1 
+ Registration 
+ Broker Dealers 
+ Capital Acquisition Brokers 
+ Funding Portals 
+ Individuals 
+ Registration Section 2 
+ Qualification Exams 
+ Securities Industry Essentials Exam (SIE) 
+ Series 7 
+ Continuing Education (CE) 
+ View a Regulatory Element Learning Plan 
+ Registration Section 3 
+ Registration Systems 
+ Classic CRD 
+ Financial Professional Gateway (FinPro) 
+ Financial Industry Networking Directory (FIND) 
+ Events & Training 
+ Events & Training Section 1 
+ Upcoming Events 
+ On-Demand Education 
+ FINRA Crypto and Blockchain Education Program 
+ FINRA Certified Regulatory and Compliance Professional (CRCP)® Program 
+ Financial Learning Experience (FLEX) 
+ Technical & Navigational Webinars 
+ Filing & Reporting 
+ Filing & Reporting Section 1 
+ FINRA Gateway 
+ Systems Status 
+ Entitlement Program 
+ Financial Intelligence Fusion Center (FIFC) 
+ Market Transparency Reporting Tools 
+ Regulatory Filing Systems 
+ Data Transfer Tools 
+ E-Bill 
+ Compliance Tools 
+ Compliance Tools Section 1 
+ Anti-Money Laundering Template 
+ Cybersecurity Checklist 
+ Compliance Calendar 
+ Weekly Update Email Archive 
+ Membership Application Program (MAP) Tools 
+ Report Center 
+ For Investors 
+ For Investors Section 1 
+ Investor Insights 
+ Tools & Calculators 
+ Investing 
+ Investing Basics 
+ Investment Accounts 
+ Investment Products 
+ Investment Strategies 
+ Working With an Investment Professional 
+ For Investors Section 2 
+ Protect Your Money 
+ Check Registration 
+ Avoid Fraud 
+ Watch for Red Flags 
+ Safeguard Your Identity 
+ Financial Industry Investor Resources 
+ For Investors Section 3 
+ For the Military 
+ Need Help? 
+ File a Complaint 
+ FINRA Securities Helpline for Seniors 
+ Dispute Resolution Services 
+ SIPC Protection 
+ Avenues for Recovery of Losses 
+FINRA Utility Menu 
+ About Us 
+ Careers 
+ BrokerCheck 
+ Data 
+ Media Center 
+ For Firms 
+ For the Public 
+ FINRA DATA 
+FINRA Data provides non-commercial use of data, specifically the ability to save data views and create and manage a Bond Watchlist. 
+ Login 
+ For Industry Professionals 
+ FINPRO GATEWAY 
+Registered representatives can fulfill Continuing Education requirements, view their industry CRD record and perform other compliance tasks. 
+ Login 
+ For Member Firms 
+ FINRA GATEWAY 
+Firm compliance professionals can access filings and requests, run reports and submit support tickets. 
+ Login 
+ For Case Participants 
+ DR PORTAL 
+Arbitration and mediation case participants and FINRA neutrals can view case information and submit documents through this Dispute Resolution Portal. 
+ Login 
+ Need Help? | Check System Status 
+ Log In to other FINRA systems 
+ Font Awesome fontawesome.com --> 
+ For Investors 
+ Investing 
+ Investment Products 
+ EXPLORE THIS SECTION
+FINRA Main Navigation 
+ Investor Insights 
+ Tools & Calculators 
+ Investing 
+ Investing Basics 
+ Investment Accounts 
+ Investment Products 
+ Investment Strategies 
+ Working With an Investment Professional 
+ Protect Your Money 
+ Check Registration 
+ Avoid Fraud 
+ Watch for Red Flags 
+ Safeguard Your Identity 
+ Financial Industry Investor Resources 
+ For the Military 
+ Need Help? 
+Investment Products 
+Options 
+ Overview
+ Types
+ Buying and Selling
+ Risks
+ Key Terms
+ Learn More
+ESSENTIALS 
+An option is a financial instrument known as a derivative that conveys to the purchaser (the option holder) the right, but not the obligation, to buy or sell a set quantity or dollar value of a particular asset—or other underlying financial instrument—at a fixed price by a set date. 
+The seller (or writer) of options accepts the obligation to buy or sell should the purchaser exercise their right. 
+U.S. investors can trade options on a wide range of financial products—from individual stocks or stock exchange-traded funds (ETFs) to indexes, foreign currencies and more. 
+ Calls convey to the purchaser the right, but not the obligation, to buy shares. They convey to the seller the obligation to sell shares if the contract is assigned. 
+ Puts convey to the purchaser the right, but not the obligation, to sell shares. They convey to the seller the obligation to buy shares if the contract is assigned. 
+Options offer leverage, meaning the ability to magnify the value or purchasing power of the premium you pay—but leverage can come with the risk of significant losses. 
+Trading options requires specific approval from an investor’s brokerage firm. 
+Before trading options, read the Characteristics and Risks of Standardized Options disclosure provided by your firm. 
+Options are contracts that offer investors the potential to make money on changes in the value of, say, a stock without actually owning the stock. Of course, one can also lose money trading options. Options are considered derivatives because they derive their value from the price of another asset, called the underlying asset. In the case of options, the underlying asset can be single stocks, exchange-traded funds (ETFs), the value of an index, debt securities (like bonds or index-linked notes) or foreign currencies. In addition, some options have underlying financial instruments that aren’t “assets” in the traditional sense, such as the value of an index or interest rates. 
+Options come in two types: call options and put options. Call options give the holder the right to buy the underlying asset, or the value of the underlying asset, in the case of index options. The seller of a call option accepts, in exchange for the premium the holder pays, an obligation to sell the stock (or the value of the underlying asset) at the agreed upon strike price if assigned. 
+With put options, the holder obtains the right to sell a stock, and the seller takes on the obligation to buy the stock. If the contract is assigned, the seller of a put option must buy the underlying asset at the strike price. 
+Most options on individual stocks give the purchaser (also called the option holder) the right, but not the obligation, to buy or sell the underlying asset at a fixed price, known as the strike price, within a specific period of time. The seller (also known as the writer) of options accepts the obligation to buy or sell the underlying asset if the contract is assigned , meaning the seller’s brokerage firm requires the seller to meet the obligations spelled out in the contract. 
+Options are complex instruments that can play a number of different roles within an investment portfolio, from helping investors manage risk to increasing income from current stock holdings. Buying and selling options can be risky, and trading the product requires specific approval from an investor’s brokerage firm. 
+Bottom Line 
+Although options might be appropriate for some investors within a diversified portfolio , options are complex financial instruments that come with different risks depending on how you trade them. For more information about the inherent risks and characteristics of the options market, check out the Characteristics and Risks of Standardized Options . The Options Industry Council also has a lot of great resources to get you started, including a number of free webinars on a wide range of topics. 
+Beyond puts and calls, options contracts vary in their underlying assets and longevity. 
+Options by Underlying Asset 
+Although the types of assets on which U.S. investors can purchase options include equities, indexes, debt securities and foreign currencies, the focus here is mainly on equity and index options. 
+ Equity Options: Equity options have shares of stocks and exchange-traded funds (ETFs) as their underlying asset. If you exercise an equity option, you buy or sell shares of that underlying stock or ETF depending on whether you purchased a call or a put. Equity options trade “American-style,” which means you (as the holder of the contract) can exercise it at any time between the date of purchase and the expiration date. It’s important to note that different brokerage firms may have different exercise cut-off times. Consult with your brokerage firm or investment professional to ensure that you don’t miss that deadline. 
+ Index Options: Index options have the value of an underlying index, such as the S&P 500 or the Chicago Board Options Exchange’s Volatility Index (VIX), as the underlying asset. Index options are cash-settled, which means exercising an index option results in a cash payment instead of the exchange of a security, such as an index future. Index options generally trade “European-style,” which means the settlement process is done at expiration only, which can be based on the value of the index at market open or market close. 
+The differences between equity options and index options are most important to consider and understand when it comes to indexes for which there are also ETFs. For example, while SPDR S&P 500 options, or SPY options, which are options tied to an ETF that tracks the S&P 500, are American-style options that settle in shares of SPY, S&P 500 Index options, or SPX options, which are tied to S&P 500 futures contracts, are European-style options that settle for cash. 
+Options by Expiration 
+An options contract’s expiration date is the last day that a contract is valid. Before this date, the holder of an options contract can choose to exercise the option (in the case of American-style contracts), trade the contract to close the position or let the contract expire worthless. 
+Generally, standardized equity options that are in-the-money—meaning the market price of the underlying security is above the strike price of a call option or below the strike price of a put—will automatically be exercised at expiration. For call options, that means the cost associated with doing so (in other words, the money to buy 100 shares of the underlying stock) will be due at that time. 
+Below is a list of the most common types of options expirations. 
+ Daily Options:  This is a newer type of options contract that expires on the same day it’s listed. These contracts are currently only offered for index options.   
+ Monthly Options: Options are traditionally structured on a monthly basis, with contracts for each month of the year expiring on the third Friday of every month. 
+ Weekly Options: Weekly options are short-term contracts that are usually listed with at least one week until expiration. While they can expire on any day, Friday is the most common expiration day for single stocks. Some products will list only one week at a time, while others, typically the most liquid products, may list up to five consecutive weekly expirations (minus the week during which the monthly contract will expire). 
+ Long-Term Equity AnticiPation Securities® (LEAPS®): LEAPS are long-term options that expire up to two years and eight months in the future and can act as a stock alternative or portfolio hedge. LEAPS trade just like other listed options but may have limited availability and have unique risks when it comes to their pricing and time premium erosion . 
+Other Options 
+ Binary Options: Unlike other types of options contracts, binary options are all-or-nothing propositions. Trading binary options can be an extremely risky proposition. Trading binary options is made even riskier by fraudulent schemes, many of which originate outside the U.S.  
+Before you can trade options, your brokerage firm must approve your account for a specific level of options trading since some strategies involve substantial risk. In order to be approved for trading, you’ll need to fill out your firm’s options agreement . This policy is designed to protect investors from trading beyond their abilities or financial means and to protect brokerage firms against potential defaults on margin accounts. Ask your firm to learn more about their particular levels of approval and what it takes to be approved for different levels. 
+When approved for options trading, there are a number of things of which you need to be aware. Options have a strike price, the specific price at which the contract may be exercised, and an expiration date, the date by which the purchaser (holder) of the contract must exercise the contract should they wish to do so. A standard-size options contract is equal to 100 shares of the underlying security. 
+The price at which an option is purchased is called the premium. A number of factors impact an option’s premium, and an option’s premium can change often. Learn more about what goes into options pricing. 
+All options, both puts and calls, can be bought and sold. To initiate an options trade, you must either enter an opening purchase or an opening sale. In an opening purchase trade, an investor opens a position by buying a call or a put. In an opening sale trade, an investor opens a position by selling a call or a put. To get out of a trade, an investor must do the reverse. An investor who previously purchased an option can exit the trade with a closing sale of the same contract series. An investor who previously sold an option can exit the trade with a closing purchase. 
+Options are securities that can go up and down based on a variety of factors. As a derivative product, one of the main drivers of an option’s value is the underlying security or index. The purchaser of a contract can make money if the value of the underlying security or index rises above (in the case of a call) or falls below (in the case of a put) the strike price of their options contract by more than the premium paid. The purchaser will only realize their gains if they sell their option position or the position resulting from the exercise of their rights under the contract. 
+The seller of an option will only realize their gains if they buy back the contract for less than the sale price or if the contract expires worthless. A contract expires worthless when the price of the underlying security or index remains below (in the case of a call) or above (in the case of a put) the strike price. Additionally, the seller may also realize gains if the seller of the contract is able to close the position resulting from the assignment at a favorable price. 
+The prices of stocks and indexes change all the time, as do the value of options contracts. Options investors can have a paper profit one day and a paper loss the next. Any potential profits aren't guaranteed until a closing transaction is completed or the contract reaches expiration. 
+For the purchaser of an option, the premium paid is your maximum loss. For the seller of an option, the premium you receive at the time of the sale is your maximum profit. If the seller of a contract is assigned, they may lose money. In the case of an uncovered, or naked, call, where an investor sells a call option without owning the underlying stock, the maximum loss is theoretically unlimited. That’s because while purchasers of options have the right, but not the obligation, to exercise the options contract that they purchased, investors that sell—or write—contracts, have the obligation to buy or sell shares at the strike price if assigned. Learn more about options assignment. 
+Some investors choose to follow a zero-day-to-expiration (ODTE) trading strategy, in which they establish a position on an option contract’s expiration day, though these option contracts may have been listed days, weeks or months prior.  
+Options investors can bound their potential losses (and potential gains) by executing strategies with multiple “legs,” or with multiple contracts on the same security, but doing so is complicated and comes with its own risks. One risk includes one leg of the position being closed automatically by the investor’s brokerage firm due to certain risk factors such as insufficient funds. This can happen if an investor’s account lacks the funds to follow through with a transaction should they be assigned and required to purchase shares. Not all investors will be approved for such strategies. 
+Trading options can come with significant risks. These risks vary greatly based on whether you’re buying or selling options and can include significant risk of loss beyond your initial investment. 
+That’s in part because options can provide leverage. For a premium that’s small relative to the underlying security or index, investors can gain exposure to a relatively large contract value since one contract equates to 100 shares of the underlying asset. On the upside, investors can see a large percentage gain from small percentage moves in the underlying asset. But this leverage can be magnified to the downside as well. 
+The risks of buying and selling options are covered in detail in the Characteristics and Risks of Standardized Options —a disclosure document that brokerage firms are required to distribute to options customers—but below is also a brief overview. 
+ Assignment Risk: The seller of an options contract may be assigned and required to fulfill the terms of the contract by either selling or buying the underlying security at the strike price. For the sellers of equity options, assignment can happen at any time. Learn more about assignment. 
+ Dividend Risk: For sellers, there's a higher risk of assignment the day before a stock’s ex-dividend date , the date a stock begins trading without the value of its dividend payment included in the price. This is because holders of in-the-money positions might exercise early to benefit from that payout. The same risk exists for other corporate actions that might impact the price of the underlying security, such as a merger or acquisition. 
+ Expiration Risk:  In-the-money options contracts are generally automatically exercised at expiration. But to exercise a call option, the owner of the contract should have the funds to do so. Because one options contract is tied to 100 shares of stock, exercising a call can require substantial funds. For a contract with a strike price of $100, the owner of a call would need $10,000 to exercise.  
+ Margin Risk: There are margin requirements related to some short options positions. If the value of the underlying security moves against the seller of that position, or if there's significant volatility in the underlying security or related markets, the seller might be required to deposit significant additional funds. If those funds are not deposited, the firm has the right to liquidate the options position and other securities positions without notice.  There are also margin risks that relate to being an options holder. Learn more about margin risks. 
+ Pin Risk: This risk occurs when a stock closes at or very near an option's strike price at expiration, creating uncertainty for both buyers and sellers. Option buyers must decide whether to exercise without knowing where the stock will open on the next trading day—risking losses if they guess wrong. Option sellers don't know if they'll be assigned, and if assigned, must fulfill the contract at the strike price but are left holding a stock position that might have moved unfavorably by the next day’s open before they can close it out. The "pin" refers to the stock price being stuck at the strike, creating maximum uncertainty and potential weekend gap exposure for both sides. 
+ AM Settlement 
+AM settlement means an option's settlement value is determined based on the opening price of the underlying asset on expiration day, but the option stops trading the day before. This is common for broad-based index options like SPX, which cease trading on Thursday but settle Friday morning based on the opening prices of index components. This creates overnight risk—you can’t trade the option during the settlement period, so unexpected news between Thursday's close and Friday's open can significantly impact your final payout with no ability to react. 
+ American-Style Contract 
+An American-style contract may be exercised at any time between the date of purchase and the expiration date. U.S. equity options contracts are American-style contracts. 
+ Assignment 
+The assignment of an option writer (seller) obligates the writer to sell (in the case of a call) or purchase (in the case of a put) the underlying security at the specified strike price. 
+ At-the-Money 
+At-the-money is a term used to describe when the market price of the underlying security is equal to the strike price of an options contract. 
+ Call 
+In relation to options, a call is an options contract that conveys the right to buy the underlying security at a set price (the strike price) by a designated date (the expiration date). When an investor sells (or writes) a call contract on a stock, the seller is obligated to sell stock at that price if the option is exercised. 
+ Covered Call 
+A covered call is a situation in which an investor sells a call option while owning the underlying stock, generating income (the premium) for the investor with the risk of potentially losing the upside appreciation of the shares if the option is exercised and the investor must sell their shares. 
+ Covered Put 
+A covered put is a situation in which an investor sells a put option while short the underlying stock. This generates income (the premium) for the investor but comes with the risk of potentially losing the gain if the shares decline in value if the option is exercised and the investor must buy shares to close the short position.  
+ European-Style Contract 
+A European-style contract may only be exercised during a period of time on its expiration date. Some U.S. index options contracts are European-style contracts. 
+ Exercise 
+In options trading, to exercise an option means that the purchaser or seller of an options contract buys (in the case of a call) or sells (in the case of a put) the option’s underlying security at a specified price on or before a specified future date. 
+ Expiration Date 
+The expiration date is the date on which an option expires. If the purchaser of an option doesn’t exercise the contract prior to expiration, they lose the premium paid for the contract. The purchaser no longer has any rights, and the option no longer has value. 
+ Implied Volatility 
+Implied volatility is a measure of the expected volatility in the price of an underlying security that’s calculated from current market options prices rather than from historical data about price changes of the underlying stock. 
+ In-the-Money 
+In-the-money is a term used to describe when the market price of the underlying security is above the strike price of a call option or below the strike price of a put, giving the contract intrinsic value. An in-the-money position isn’t profitable for the buyer until the difference between the strike price and the value of the underlying security is greater than the premium paid for the contract. 
+ Intrinsic Value 
+In relation to options, intrinsic value is the value of an option if it were to expire immediately with the underlying stock at its current price. This is the amount by which an option is in-the-money. See also In-the-Money and Time Value . 
+ Open Interest 
+Open interest refers to the number of outstanding contracts in a particular options market or an options contract. This information can be broken down by puts and calls, strike price and expiration date for options tied to a particular security. 
+ Option Holder 
+An option holder is the purchaser of an options contract. 
+ Out-of-the-Money 
+Out-of-the-money is a term used to describe when the market price of the underlying security is below the strike price of a call option or above the strike price of a put, giving the contract no intrinsic value. 
+ Premium 
+In relation to options, a premium is the price paid by the purchaser of an options contract or the price received by the seller of an options contract. It’s determined by a number of factors, including the amount of time left until the contract expires and expectations for future volatility in the price of the underlying asset. The premium is a nonrefundable payment in full from the purchaser to the seller in exchange for the rights conveyed by the option. 
+ PM Settlement 
+PM settlement means an option's settlement value is determined based on the closing price of the underlying asset on expiration day, and the option continues trading through market close on that day. This is standard for equity (stock) options and some index options like SPY, allowing traders to manage their positions until the final bell on expiration day. Unlike AM settlement, PM settlement eliminates overnight risk during the expiration period since you can actively trade and adjust positions until the settlement price is determined at 4:00 p.m. ET. 
+ Put 
+A put is an options contract that conveys the right to sell the underlying security at a set price (strike price) by a designated date (expiration date). When an investor sells a put contract on a stock, the seller is obligated to buy stock at that price if the option is exercised. 
+ Strike Price (Exercise Price) 
+The strike price, or exercise price, is the price per share at which the underlying security may be purchased (in the case of a call) or sold (in the case of a put) by the option holder upon exercise of the contract. 
+ Time Decay 
+Time decay is a term used to describe how the theoretical value of an option "erodes" or reduces with the passage of time. Time decay is referred to in trading parlance as theta. 
+ Time Value 
+Time value is the portion of the option premium that is attributable to the amount of time remaining until the expiration of the option contract. Time value is whatever value the option has in addition to its intrinsic value. 
+ Uncovered Call 
+An uncovered call is a situation where an investor sells a call option without owning the underlying stock and, therefore, if the contract is exercised, must sell the shares on the market, regardless of how high the price has gone up, and then sell them at the strike price. The maximum loss for the writer of an uncovered call, also known as a naked call, is theoretically unlimited. 
+ Uncovered Put 
+An uncovered put is a situation where an investor sells a put option without being short the underlying stock. Therefore, if the contract is exercised, the investor must purchase the shares on the market, regardless of how low the price has dropped, and then buy them at the strike price. The maximum loss for the writer of an uncovered put, also known as a naked put, is the strike price of the put. 
+ Volatility 
+In relation to options, volatility is a measurement of the fluctuation in the market price of the underlying security. Mathematically, volatility is the annualized standard deviation of returns. 
+ Write 
+In relation to options, to write is to sell an options contract. The investor who sells an options contract is called the writer. They are also considered to be short the option. 
+The Greeks 
+The Greeks are a number of key factors that influence the price of options contracts and are called such because of their names, which are all derived from Greek letters of the alphabet. The Greeks are all intimately related, but in the interest of simplicity, we describe them below based on what would be true for one Greek, holding all else constant. 
+ Delta 
+Delta is the amount an option price is expected to change based on a $1 change in the underlying stock. For call options, this is a positive number between 0 and 1. For put options, this is a negative number between 0 and -1. This number isn’t static and changes as an options contract nears expiration and if it becomes in-the-money. Delta will approach 1, or -1, for a call or put option, respectively, if it’s near expiration and in-the-money, while it will approach 0 for contracts that are out-of-the-money as expiration nears. Technically, delta is an instantaneous measure of the option's price change, so that the delta will be altered for even fractional changes in the underlying instrument. 
+ Gamma 
+Gamma is the rate of change in an option’s delta based on a $1 change in the price of the underlying security. The price of a contract with high gamma, a reading near 1, will be very responsive to changes in the price of the underlying security. A contract with low gamma, a reading near 0, won’t be very responsive to price changes. Gamma is typically highest for at-the-money stocks near expiration. 
+ Theta 
+Theta is the rate of change in an option’s theoretical value for every one-day change in the time remaining until expiration, holding all else constant. Theta becomes larger as an option nears expiration. Theta is also known as a contract’s time value. Time has value, because with more time until expiration, there is a greater probability of the underlying security’s price moving enough for the contract to pay off. See also Time Decay . 
+ Rho 
+Rho is the amount the theoretical price of an options contract is expected to change based on a 1 percentage-point change in interest rates, holding all else constant. Rho typically matters most for longer-term options, where a change in interest rates can lead to a greater “cost of carry,” or a greater opportunity cost associated with making the trade versus pursuing another investment. 
+ Vega 
+Vega is the rate of change in an option’s theoretical value in response to a one-point change in implied volatility. Vega typically increases as implied volatility increases, because a more volatile stock has a greater chance of moving enough to end up in-the-money- before expiration. 
+For more information about the inherent risks and characteristics of the options market, check out the  Characteristics and Risks of Standardized Options . 
+The Options Industry Council (OIC) , operated by the OCC , also has a lot of great resources to get you started, including a number of free webinars on a wide range of topics. 
+Additional Resources: 
+FINRA: 
+ Investor Insights: Frequent Intraday Trading 
+ Investor Insights: Trading Options: Understanding Assignment 
+ Investor Insights: Zeroing In on an Options Trading Strategy: 0DTE 
+ FINRA Market Data Center 
+ Regulatory Notice 21-15: FINRA Reminds Members About Options Account Approval, Supervision and Margin Requirements 
+SEC: 
+ Investor Bulletin: Introduction to Options 
+ Investor Bulletin: Opening an Options Account 
+OIC: 
+ Options Disclosure Document (ODD) Quick Guide 
+ Options Disclosure Document (ODD) 
+ Back to Top 
+TOOLS & CALCULATORS 
+ Smart Investing Courses 
+ Market Data and Investment Explorer 
+ Fixed Income Data 
+ BrokerCheck 
+ Fund Analyzer 
+ View All 
+Recent Investor Insights 
+ Investing Basics
+ Getting Started as an Investor
+ Avoid Fraud
+ Protect Your Accounts From Phishing, Smishing and Vishing Scams
+ Protect Your Money
+ Following the Crowd: Investing and Social Media
+ View All 
+FINRA Utility Menu 
+ About Us 
+ Careers 
+ BrokerCheck 
+ Data 
+ Media Center 
+ For Firms 
+FINRA Main Navigation 
+ Rules & Guidance 
+ Registration, Exams & CE 
+ Events & Training 
+ Filing & Reporting 
+ Compliance Tools 
+ For Investors 
+ General Inquiries 
+ 301-590-6500 
+ Securities Helpline for Seniors ® 
+ 844-574-3577 (Mon-Fri 9am-5pm ET) 
+ File a Regulatory Tip 
+ To report on abuse or fraud in the industry 
+ Arbitration & Mediation 
+ FINRA operates the largest securities dispute resolution forum in the United States 
+ File an Investor Complaint 
+ File a complaint about fraud or unfair practices. 
+ Small Firm Help Line 
+ 833-26-FINRA (Mon-Fri 9am-6pm ET) 
+ Office of the Ombuds 
+ Report a concern about FINRA at 888-700-0028 
+Footer Legal Links 
+ Site Map 
+ Privacy Policy 
+ Terms of Use 
+ Translate 
+ Contact Us 
+© 2026 FINRA. All Rights Reserved. 
+FINRA is a Registered Trademark of the Financial Industry Regulatory Authority, Inc. 
