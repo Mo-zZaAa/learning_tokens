@@ -2,84 +2,83 @@
 - 축 : 인수로 미국 파생 인가 한 벌과 주식 토큰 발행사까지 사서, 선물과 주식 토큰을 발행부터 청산까지 한 그룹 안에서 처리
 - 가설 : 다 한다, 거래, 은행, 자산관리, 기업용 인프라 네 기둥을 동시에 넓히고 현물 점유율 6.5%로 1등 아님
 
-## 스토리라인 (PM 초안 반영)
+## 스토리라인
 
-### 1. 출발: 오래된 가상자산 거래소가 은행 인가로 제도권 문을 엶
-- Kraken은 2011년에 시작한 가상자산 거래소이고, 모회사 Payward 아래에서 거래소 하나로 10년 가까이 자람 [F-0176](https://www.payward.com/press-release/gtn-xstocks)
-  - 이 시기 확장은 작은 거래소 인수로 고객과 통화를 넓히는 정도(2016 뉴욕 Coinsetter, 캐나다 Cavirtex, 네덜란드 CleverCoin) [F-1335](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))
-- 2019-02 영국 Crypto Facilities를 1억 달러 넘게 주고 사면서 처음으로 "현물 옆에 파생"을 붙임. 이유는 고객이 현물과 선물을 한 곳에서 거래하게 하려는 것, 당시 최대 인수 [F-1367](https://www.theblock.co/news/markets/2019-02-04-kraken-acquires-crypto-trading-platform-crypto-facilities-in-a-nine-figure-deal-10195)
-  - 다만 영국 회사라 이 선물은 미국 밖 고객용. 미국 고객에게는 열 수 없는 상태로 출발 [F-1336](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))
-- 2020-09 와이오밍 특수목적 은행(SPDI) 인가: 가상자산 거래소 중 처음 받은 미국 은행 인가 [F-1337](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))
-  - 미국 회사였지만 이때부터 "거래소"가 아니라 "은행 인가를 가진 금융회사"로 제도권에 들어서는 첫 발판이 됨. 이 은행 법인이 지금의 수탁을 맡음 [F-0377](https://www.kraken.com/institutions/custody)
-  - 그 연장선에서 지금은 연준 제한목적 마스터 계정까지 갖고(회사 발표), 미국 달러 송금을 남의 은행 대신 자기 계정으로 옮기는 중 [F-1254](https://www.payward.com/press-release/payward-acquires-saldo-bank)[F-1259](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
+### 1. 출발: 오래된 가상자산 거래소가 은행 인가로 제도권에 들어섬
+- Kraken은 2011년에 시작한 가상자산 거래소이며, 모회사 Payward(미국 법인, Kraken과 인수한 회사들을 모두 거느림) 아래에서 10년 가까이 거래소 하나로 성장함 [F-0176](https://www.payward.com/press-release/gtn-xstocks)
+  - 이 시기 확장은 각국 소형 거래소 인수로 고객과 통화를 넓히는 수준이었음(2016 미국 Coinsetter, 캐나다 Cavirtex, 네덜란드 CleverCoin) [F-1335](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))
+- 2019-02 Crypto Facilities(영국 FCA 규제를 받는 가상자산 파생상품 거래소)를 1억 달러 넘게 들여 인수하며 처음으로 현물 옆에 파생상품을 붙임. 고객이 현물과 선물을 한 곳에서 거래하게 하려는 목적이었고, 당시 최대 인수였음 [F-1367](https://www.theblock.co/news/markets/2019-02-04-kraken-acquires-crypto-trading-platform-crypto-facilities-in-a-nine-figure-deal-10195)
+  - 다만 영국 회사여서 이 선물은 미국 밖 고객에게만 제공됨 [F-1336](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))
+- 2020-09 와이오밍 특수목적 예금기관(SPDI, 가상자산 수탁과 예금을 위한 와이오밍주 은행 인가) 인가를 받음. 가상자산 거래소로서는 첫 미국 은행 인가임 [F-1337](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))
+  - 원래 미국 회사였으나, 이때부터 거래소가 아니라 은행 인가를 가진 금융회사로 제도권에 들어서게 됨. 이 은행 법인이 현재 고객 자산 수탁을 맡고 있음 [F-0377](https://www.kraken.com/institutions/custody)
+  - 같은 흐름에서 현재는 연준 제한목적 마스터 계정(미국 연방준비제도에 직접 여는 결제 계좌, 일부 업무로 제한)까지 보유하고(회사 발표), 미국 달러 송금을 다른 은행 대신 자체 계좌로 옮기는 중임 [F-1254](https://www.payward.com/press-release/payward-acquires-saldo-bank)[F-1259](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
 
-### 2. 자산: 선물로 재미를 보고, 미국 안에서 하려고 인가를 통째로 삼
-- 미국 밖에서는 선물이 이미 돈이 되는 사업이었는데, 미국 안에서는 6년 가까이 못 함
-  - 이유 1 : 2021-09 미국 고객에게 등록 없이 마진 거래를 제공했다가 CFTC 제재(125만 달러). 미국에서 레버리지 상품을 팔려면 선물중개업자(FCM) 등록이 반드시 필요하다는 것이 확인됨 [F-1343](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))
-  - 이유 2 : 직접 등록하면 기술과 인가에 돈과 시간이 너무 든다는 것이 CEO 설명. 그래서 "만들지 말고 산다"로 정함 [F-1346](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
-  - 이유 3(해석) : 당국과 소송 중이던 시기에는 인수도 쉽지 않았음. 실제 인수 발표는 SEC가 Kraken 소송을 취하한 2025-03과 같은 달 [CASE-004](https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26278)[F-1117](https://blog.kraken.com/news/kraken-to-acquire-ninjatrader)
-- 그래서 1년 사이 미국 파생 인가를 한 벌로 모음
-  - 2025-05 NinjaTrader(선물중개업자, 15억 달러): 인수 두 달 뒤인 2025-07 미국 고객에게 CME 가상자산 선물을 처음 엶 [F-0177](https://www.financemagnates.com/cryptocurrency/kraken-completes-15b-ninjatrader-acquisition-as-funded-accounts-jump-26-in-q1/)[F-1439](https://blog.kraken.com/product/kraken-derivatives-us/first-cftc-regulated-perpetual-futures-for-us-traders)
-  - 2025-10 Small Exchange(선물거래소, 1억 달러): 남의 거래소에 주문을 넘기던 데서 자기 거래소를 갖게 됨 [F-1116](https://blog.kraken.com/news/acquires-small-exchange)
-  - 2026-05 Bitnomial(중개, 거래소, 청산소 셋 다, 5.5억 달러): 미국 파생의 마지막 칸인 청산까지 그룹 안으로 [F-1118](https://www.payward.com/press-release/payward-completes-acquisition-of-bitnomial-the-first-fully-cftc-licensed-crypto-native-derivatives-stack-in-the-us)[F-1345](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
-  - 이 인가 한 벌 위에 미국 주식 무기한선물을 CFTC와 SEC에 함께 신청(2026-09), 미국 고객용 온체인 무기한선물도 예고. 산 인가들이 다음 상품의 바탕이 됨 [F-1189](https://www.payward.com/press-release/payward-single-stock-perpetual-futures-filing)[F-1190](https://www.payward.com/press-release/payward-hyperliquid-onchain-perpetual-futures)
-- 같은 시기에 주식으로도 넓힘. 미국 안은 직접, 미국 밖은 주식 토큰
-  - 미국 안 : 2025-04 실물 주식 거래 시작(중개는 Alpaca), 지금 11,000종 이상, 일부 주만 [F-1338](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))[F-0420](https://www.kraken.com/stocks)[F-0422](https://www.kraken.com/stocks)
-  - 미국 밖 : 2025-06 xStocks 출시. 처음엔 직접 만들지 않고 저지의 발행사 Backed가 만든 토큰을 Kraken이 팔았음. 저지는 발행사 자체에 금융 인가를 요구하지 않아 발행 부담이 가벼운 곳 [F-1249](https://blog.kraken.com/product/xstocks/tokenized-equities-now-available)F-0940
-  - 팔아 보니 커짐(운용자산 2026-02 2.25억 달러 → 10억 달러 초과) → 2025-12 Backed를 통째로 사서 발행까지 그룹 안으로. CEO 설명은 "발행부터 결제까지 수직 통합" [F-0165](https://www.payward.com/press-release/xstocks-surpasses-1-billion-aum)[F-0139](https://www.payward.com/press-release/kraken-acquires-backed-xstocks-expansion)[F-1043](https://blog.kraken.com/news/backed-acquisition)
-  - 그 결과 xStocks 누적 거래 450억 달러 초과, 보유자 55만 초과, 해외 개인의 미국 IPO 참여(IPO Access)까지 붙임 [F-0166](https://www.payward.com/press-release/xstocks-surpasses-1-billion-aum)[F-1046](https://blog.kraken.com/product/xstocks/spacex-ipo-access)
-- Nasdaq과는 짝을 맞춰 역할을 나눔(2026-09)
-  - Nasdaq이 Payward에 1억 달러를 넣고, Payward는 Nasdaq 시장감시 기술을 자기 모든 거래장에 깜 [F-1119](https://www.payward.com/press-release/payward-nasdaq-tokenized-equities)[F-1255](https://www.payward.com/press-release/payward-nasdaq-tokenized-equities)
-  - Nasdaq은 허가형 시장의 토큰 주식(2027 예정)을 내고, Payward는 그 보유자의 신원확인 온보딩과 초기 정산을 맡으며, xStocks가 도는 무허가 시장과 Nasdaq 토큰 시장을 잇는 연결 통로를 같이 만듦 [F-0160](https://www.payward.com/press-release/payward-partners-with-nasdaq)[F-1044](https://blog.kraken.com/news/payward-partners-with-nasdaq)[F-0159](https://www.payward.com/press-release/payward-partners-with-nasdaq)
-  - 해석 : 규칙이 아직 없는 주식 토큰 시장에서 Nasdaq의 신뢰와 감시 기술을 먼저 들여와 "믿을 만한 쪽"이 되고, 두 시장 사이 길목을 선점하는 구조. 회사도 인수 기준에서 "살 수 없는 신뢰와 입지는 Nasdaq, LSE 같은 기존 기관과 제휴"라고 밝힘 [F-1349](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
+### 2. 자산: 미국 밖에서 수익이 난 선물을 미국 안에서도 하기 위해 인가를 가진 회사를 사들임
+- 미국 밖 선물은 이미 수익이 나는 사업이었으나, 미국 안에서는 6년 가까이 제공하지 못함
+  - 첫째, 2021-09 미국 고객에게 등록 없이 마진 거래를 제공해 CFTC(미국 상품선물거래위원회) 제재(125만 달러)를 받음. 미국에서 레버리지 상품을 팔려면 FCM(선물중개업자, 고객 주문과 증거금을 받는 회사) 등록이 필수라는 점이 확인됨 [F-1343](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))
+  - 둘째, 직접 등록은 기술과 인가에 비용과 시간이 너무 많이 든다는 것이 CEO의 설명이며, 그래서 직접 만들지 않고 인수하는 쪽을 택함 [F-1346](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
+  - 해석 : 당국과 소송 중이던 시기에는 인수도 어려웠던 것으로 보임. 실제 첫 인수 발표는 SEC가 Kraken 소송을 취하한 2025-03과 같은 달이기 때문 [CASE-004](https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26278)[F-1117](https://blog.kraken.com/news/kraken-to-acquire-ninjatrader)
+- 이후 약 1년 사이 미국 파생상품 인가 세 가지(중개, 거래소, 청산)를 모두 인수로 갖춤
+  - 2025-05 NinjaTrader(미국 개인 투자자용 선물 거래 플랫폼, CFTC 등록 FCM) 인수(15억 달러). 두 달 뒤인 2025-07 미국 고객에게 CME(시카고상업거래소, 미국 최대 선물거래소) 상장 가상자산 선물을 처음 제공함 [F-0177](https://www.financemagnates.com/cryptocurrency/kraken-completes-15b-ninjatrader-acquisition-as-funded-accounts-jump-26-in-q1/)[F-1439](https://blog.kraken.com/product/kraken-derivatives-us/first-cftc-regulated-perpetual-futures-for-us-traders)
+  - 2025-10 Small Exchange(CFTC 지정 선물거래소, 즉 DCM) 인수(1억 달러). 다른 거래소에 주문을 넘기던 구조에서 자체 거래소를 갖게 됨 [F-1116](https://blog.kraken.com/news/acquires-small-exchange)
+  - 2026-05 Bitnomial(미국 가상자산 파생상품 회사, 중개 FCM, 거래소 DCM, 청산소 DCO를 모두 보유) 인수(5.5억 달러). 미국 파생상품의 마지막 단계인 청산까지 그룹 안에 들어옴 [F-1118](https://www.payward.com/press-release/payward-completes-acquisition-of-bitnomial-the-first-fully-cftc-licensed-crypto-native-derivatives-stack-in-the-us)[F-1345](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
+  - 이렇게 갖춘 인가를 바탕으로 미국 개별주식 무기한선물(만기 없는 선물)을 CFTC와 SEC에 함께 신청했고(2026-09), 미국 고객용 온체인 무기한선물도 예고함. 인수한 인가가 다음 상품의 기반이 되는 구조임 [F-1189](https://www.payward.com/press-release/payward-single-stock-perpetual-futures-filing)[F-1190](https://www.payward.com/press-release/payward-hyperliquid-onchain-perpetual-futures)
+- 같은 시기에 주식으로도 넓힘. 미국 안은 실물 주식을 직접, 미국 밖은 주식 토큰으로
+  - 미국 안 : 2025-04 실물 주식 거래 시작(주문 집행과 보관은 Alpaca, 미국 증권 중개 회사). 현재 11,000종 이상이며 일부 주에서만 제공 [F-1338](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))[F-0420](https://www.kraken.com/stocks)[F-0422](https://www.kraken.com/stocks)
+  - 미국 밖 : 2025-06 xStocks(미국 주식을 1:1로 담보한 토큰) 출시. 처음에는 직접 발행하지 않고 Backed(스위스 주식 토큰 발행 회사, 발행 법인은 저지)가 만든 토큰을 Kraken이 판매함. 저지(영국 왕실 속령, 자체 법과 감독청 보유)는 발행사 자체에 금융 인가를 요구하지 않아 발행 부담이 가벼움 [F-1249](https://blog.kraken.com/product/xstocks/tokenized-equities-now-available)F-0940
+  - 판매 뒤 규모가 커지자(운용자산 2026-02 2.25억 달러에서 10억 달러 초과로) 2025-12 Backed를 인수해 발행까지 그룹 안으로 들임. CEO는 이를 "발행부터 결제까지 수직 통합"이라고 설명함 [F-0165](https://www.payward.com/press-release/xstocks-surpasses-1-billion-aum)[F-0139](https://www.payward.com/press-release/kraken-acquires-backed-xstocks-expansion)[F-1043](https://blog.kraken.com/news/backed-acquisition)
+  - 그 결과 xStocks 누적 거래 450억 달러 초과, 보유자 55만 초과에 이르렀고, 미국 밖 개인이 미국 공모주를 사는 IPO Access까지 붙임 [F-0166](https://www.payward.com/press-release/xstocks-surpasses-1-billion-aum)[F-1046](https://blog.kraken.com/product/xstocks/spacex-ipo-access)
+- Nasdaq과는 역할을 나눠 협력함(2026-09)
+  - Nasdaq이 Payward에 1억 달러를 투자하고, Payward는 Nasdaq의 시장감시 기술을 자사 모든 거래장에 도입함 [F-1119](https://www.payward.com/press-release/payward-nasdaq-tokenized-equities)[F-1255](https://www.payward.com/press-release/payward-nasdaq-tokenized-equities)
+  - Nasdaq은 허가형 시장(신원이 확인된 참가자만 거래하는 시장)의 토큰 주식 Nasdaq Equity Tokens(2027 예정)를 내고, Payward는 그 보유자의 신원확인 온보딩과 초기 정산을 맡음. 또 xStocks가 유통되는 무허가 시장(누구나 지갑으로 거래하는 시장)과 Nasdaq 토큰 시장을 잇는 연결 통로를 함께 만듦 [F-0160](https://www.payward.com/press-release/payward-partners-with-nasdaq)[F-1044](https://blog.kraken.com/news/payward-partners-with-nasdaq)[F-0159](https://www.payward.com/press-release/payward-partners-with-nasdaq)
+  - 해석 : 규칙이 아직 정해지지 않은 주식 토큰 시장에서 Nasdaq의 신뢰와 감시 기술을 먼저 들여와 믿을 수 있는 사업자가 되고, 두 시장을 잇는 자리를 먼저 차지하려는 것으로 보임. 회사도 인수 기준에서 "살 수 없는 신뢰와 입지는 Nasdaq, LSE 같은 기존 기관과 제휴"라고 밝힘 [F-1349](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
 
 ### 3. 비전: 개인 거래소에서 기업이 빌려 쓰는 금융 인프라로
-- 예전 기관 사업은 따로 전략이 있었다기보다, 거래소가 가진 것 중 기관이 좋아할 기능을 묶어 파는 정도
-  - 2024-03 기관 전담 부문, 2025-06 Prime(펀드, 은행, 기업 재무부서를 위한 거래, 수탁, 금융 한 계정) [F-1339](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))[F-1159](https://blog.kraken.com/product/kraken-prime/introducing-kraken-prime)[F-0439](https://www.kraken.com/prime)
-- 지금은 CEO가 회사를 "지주회사가 아니라 플랫폼 하나, 대차대조표 하나, 규제 체계 하나"로 부르고, 사업 네 기둥 중 하나로 기업용 인프라 Payward Services를 명시 [F-1347](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
-  - 무엇을 파나 : Kraken 자신이 쓰려고 만든 수탁, 유동성, 규제 준수, 위험관리, 결제와 정산을 은행, 핀테크, 증권사, 다른 가상자산 거래소에 API로 [F-1350](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
-  - 누가 쓰나 : 최소 25개 기업. 네덜란드 은행 bunq는 수 주 만에 자기 앱에 가상자산 거래를 넣었고, 경쟁 거래소 OKX는 xStocks를 받아 자기 주식 토큰을 냄 [F-1366](https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)[F-0452](https://www.kraken.com/institutions/banks)[F-1257](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
-  - 돈도 이쪽으로 옮겨 가는 중 : 2026 Q3 총플랫폼마진 4.87억 달러 중 52%가 거래 수수료가 아닌 자산 기반과 접근 기반 [F-1245](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
-- 이미 있는 다른 트랙도 기업용으로 다시 꽂는 중
-  - 인수로 모은 미국 파생 인가 한 벌(FCM, DCM, DCO)을 파트너에게 그대로 빌려줌, 파트너 앱 안 지갑, 파트너 자체 브랜드 xStocks, 비상장사가 자기 주식을 토큰으로 공모하는 xPO [F-1258](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
-- 결제까지 넘봄
-  - 2026-07 Reap 인수(최대 6억 달러): 스테이블코인 카드 발급, 국경 간 송금, 기업 재무관리. 개인 결제가 아니라 기업 결제를 먼저 잡는 형태 [F-1195](https://www.payward.com/press-release/payward-reap-close)[F-1355](https://www.tokenpost.kr)
-  - 어디부터 어떻게 : Reap 브랜드와 경영진은 그대로 두고, Reap이 이미 가진 인가로 아시아태평양과 미주부터, 반대로 Payward의 EU, 미국 인가를 Reap에 빌려 유럽, 미국으로. Visa와 함께 100개 이상 시장에 스테이블코인 카드 [F-1256](https://www.payward.com/press-release/payward-reap-close)
-  - 결제의 바닥인 은행 계좌도 직접 갖추는 중 : 미국은 연준 계정, EU는 리투아니아 인가 디지털 은행 Saldo 인수(2027 종결 예정)로 예금과 대출을 자기 대차대조표에. 회사 표현은 "빌려 쓰는 레일을 소유한 레일로 교체" [F-1259](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)[F-1194](https://www.payward.com/press-release/payward-acquires-saldo-bank)
-  - 결제를 노리는 다른 곳 : Coinbase는 2026 우선순위에 스테이블코인과 결제(USDC), Robinhood는 Robinhood Banking, Binance는 Binance Pay와 카드. 차이는 Kraken이 인수한 결제 회사를 기업용 인프라에 붙여 "기업에게 파는" 쪽이라는 점 [F-0113](https://s27.q4cdn.com/397450999/files/doc_financials/2025/q4/coin-20260212.pdf)[F-1158](https://www.robinhood.com/us/en/newsroom/introducing-strategies-banking-and-cortex)[F-0723](https://www.binance.com/en/about-legal/binance-card-global)
+- 과거의 기관 사업은 별도 전략이라기보다, 거래소가 가진 기능 중 기관이 선호하는 것을 묶어 제공하는 수준이었음
+  - 2024-03 기관 전담 부문, 2025-06 Prime(펀드, 은행, 기업 재무부서를 위한 거래, 수탁, 금융을 한 계정에서 제공) 출시 [F-1339](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))[F-1159](https://blog.kraken.com/product/kraken-prime/introducing-kraken-prime)[F-0439](https://www.kraken.com/prime)
+- 현재는 CEO가 회사를 "지주회사가 아니라 플랫폼 하나, 대차대조표 하나, 규제 체계 하나"로 정의하고, 사업 네 기둥 중 하나로 기업용 인프라 Payward Services를 명시함 [F-1347](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
+  - 제공 내용 : Kraken이 자체 운영을 위해 만든 수탁, 유동성, 규제 준수, 위험관리, 결제와 정산 기능을 은행, 핀테크, 증권사, 다른 가상자산 거래소에 API로 제공 [F-1350](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
+  - 이용 기업 : 최소 25개 기업. bunq(네덜란드 인터넷은행)는 수 주 만에 자기 앱에 가상자산 거래를 넣었고, 경쟁 거래소 OKX(해외 대형 가상자산 거래소)는 xStocks를 받아 자체 주식 토큰을 출시함 [F-1366](https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)[F-0452](https://www.kraken.com/institutions/banks)[F-1257](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
+  - 수익 구성도 이쪽으로 옮겨 가는 중임. 2026 Q3 총플랫폼마진(Payward가 공시하는 매출 지표) 4.87억 달러 중 52%가 거래 수수료가 아닌 자산 기반과 접근 기반 수익이기 때문 [F-1245](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
+- 기존 사업도 기업용으로 다시 연결하는 중(로드맵) : 인수로 갖춘 미국 파생상품 인가(FCM, DCM, DCO)를 파트너에게 제공, 파트너 앱 안 지갑, 파트너 자체 브랜드 xStocks, 비상장사가 자기 주식을 토큰으로 공모하는 xPO [F-1258](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
+- 결제로 넓히는 중
+  - 2026-07 Reap(아시아태평양 기반 스테이블코인 카드, 결제 회사) 인수(최대 6억 달러). 스테이블코인 카드 발급, 국경 간 송금, 기업 재무관리를 Payward Services에 더함. 개인 결제보다 기업 결제를 먼저 겨냥하는 형태임 [F-1195](https://www.payward.com/press-release/payward-reap-close)[F-1355](https://www.tokenpost.kr)
+  - 진출 순서 : Reap의 브랜드와 경영진은 유지하고, Reap이 이미 가진 인가로 아시아태평양과 미주부터 확장함. 반대로 Payward의 EU, 미국 인가를 활용해 Reap을 유럽, 미국에 진출시키며, Visa와 함께 100개 이상 시장에 스테이블코인 카드를 넓히는 중 [F-1256](https://www.payward.com/press-release/payward-reap-close)
+  - 결제의 기반인 은행 계좌도 직접 갖추는 중 : 미국은 연준 계좌, EU는 Saldo Bank(리투아니아 인가 디지털 은행) 인수(2027 종결 예정)로 예금과 대출을 자기 대차대조표에 둠. 회사는 이를 "빌려 쓰는 결제망을 소유한 결제망으로 바꾸는 것"이라고 설명함 [F-1259](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)[F-1194](https://www.payward.com/press-release/payward-acquires-saldo-bank)
+  - 결제를 노리는 다른 회사 : Coinbase는 2026 우선순위에 스테이블코인과 결제(USDC)를, Robinhood는 Robinhood Banking을, Binance는 Binance Pay와 카드를 둠. Kraken은 인수한 결제 회사를 기업용 인프라에 붙여 기업에게 제공한다는 점이 다름 [F-0113](https://s27.q4cdn.com/397450999/files/doc_financials/2025/q4/coin-20260212.pdf)[F-1158](https://www.robinhood.com/us/en/newsroom/introducing-strategies-banking-and-cortex)[F-0723](https://www.binance.com/en/about-legal/binance-card-global)
 
-### 4. 시장: 거점 한 곳에서 넓게 팔아 보고, 큰 시장은 직접 인가, 빡센 곳은 인가 가진 파트너
-- 거점 버뮤다 : 2024-08 디지털자산 인가(Class F) 한 장으로 거래소, 파생 거래소, 수탁을 모두 할 수 있음. 2024-10 이 법인으로 파생 거래장(200개 이상 계약)을 먼저 열었고, 같은 법인이 2025-06 xStocks의 판매 창구가 됨 [F-1416](https://www.bma.bm/regulated-entities)[F-1368](https://www.businesswire.com/news/home/20241003985524/en/Kraken-Launches-Regulated-Derivatives-Venue-in-Bermuda)[F-1369](https://support.kraken.com/articles/where-is-kraken-licensed-or-regulated)
-  - 이 한 장으로 거의 다 되는 이유 : 버뮤다 법인이 미국 밖 여러 나라 고객을 직접 받고, xStocks는 판매국 증권 감독기관에 따로 등록하지 않음. 그래서 출시 며칠 만에 140개국 이상 [F-0391](https://www.kraken.com/xstocks)[F-1249](https://blog.kraken.com/product/xstocks/tokenized-equities-now-available)
-  - 해석 : 수요 검증은 여기서 함. 인가 한 장으로 넓게 팔아 보고, 돈이 되는 것이 확인되면 큰 시장에 제대로 들어감
-- 큰 시장 EU : 인가 없이는 못 파는 시장이라 직접 확보. 가상자산과 증권을 따로 풂
-  - 가상자산 : 사실 2013년 첫 BTC/EUR부터 7개국 국가별 등록으로 이미 영업 중이었음. MiCA가 2026-07부터 인가를 의무로 바꾸자 2025-06 아일랜드에서 MiCA를 받아 EU 단일 인가(30개국)로 옮김. 새로 연 것이 아니라 하던 영업을 지킨 것 [F-1438](https://blog.kraken.com/news/mica-license-central-bank-of-ireland)[F-1440](https://www.fsma.be/en/news/crypto-assets-service-providers-end-transitional-period)[F-1371](https://blog.kraken.com/news/mica-license-central-bank-of-ireland)
-  - 증권과 파생 : 영국 Crypto Facilities로는 EU 고객에게 규제 파생을 줄 수 없어(해석: 브렉시트 뒤 영국 인가로는 EU 영업이 막힘), 2025-02 키프로스 투자회사를 사서 EU 증권 인가(MiFID)를 얻음 → 2025-05 EU 규제 파생, 2026-05 xStocks EU 판매 [F-1370](https://blog.kraken.com/news/eu-mifid-license)[F-1342](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))F-0920
-  - 미국에서 이미 연 것을 EU로 옮기는 중 : 은행(Saldo Bank로 예금과 대출), 결제(Reap의 유럽 진출) [F-1194](https://www.payward.com/press-release/payward-acquires-saldo-bank)[F-1256](https://www.payward.com/press-release/payward-reap-close)
-- 규제가 더 빡센 상장주 시장 : 직접 인가 대신 그 나라 인가를 가진 파트너가 맡음
-  - GTN이 기초주식 집행, 수탁, 기관 판매를 맡고, 독일은 Deutsche Boerse의 360X에서 거래 [F-1084](https://www.payward.com/press-release/gtn-xstocks)[F-0175](https://www.payward.com/press-release/xstocks-dax-40)
-- 자산 순서와 목표 : 가상자산 → 미국 주식 토큰 → 영국, EU 상장주 200종 이상(DAX 40 전부, 2026-11) → 홍콩 수백 종(수 주 안) → 영국, 유럽, 한국 상장자산(계획), LSE의 xStocks 상장 2027 예정. "각국 상장주를 토큰으로"를 공개 목표로 걸고 그 선두를 노림 [F-1360](https://www.hosu-news.com/news/articleView.html?idxno=187188)[F-1361](https://www.theblock.co/news/defi/2026-07-22-kraken-parent-payward-partners-gtn-scale-xstocks-internationally-beyond-us-equities-409448)[F-0170](https://www.payward.com/press-release/gtn-xstocks)[F-0174](https://www.payward.com/press-release/xstocks-uk-eu-equities)
+### 4. 시장: 거점 한 곳에서 넓게 판매하고, 큰 시장은 직접 인가, 규제가 엄격한 시장은 현지 인가를 가진 파트너
+- 거점 버뮤다 : 2024-08 버뮤다 금융청의 디지털자산 사업 인가(Class F) 하나로 거래소, 파생상품 거래소, 수탁을 모두 할 수 있게 됨. 2024-10 이 법인으로 파생상품 거래장(200개 이상 계약)을 먼저 열었고, 같은 법인이 2025-06 xStocks의 판매 창구가 됨 [F-1416](https://www.bma.bm/regulated-entities)[F-1368](https://www.businesswire.com/news/home/20241003985524/en/Kraken-Launches-Regulated-Derivatives-Venue-in-Bermuda)[F-1369](https://support.kraken.com/articles/where-is-kraken-licensed-or-regulated)
+  - 인가 하나로 대부분이 가능한 이유 : 버뮤다 법인이 미국 밖 여러 나라 고객을 직접 받고, xStocks는 판매국 증권 감독기관에 따로 등록하지 않기 때문. 그래서 출시 며칠 만에 140개국 이상으로 넓힘 [F-0391](https://www.kraken.com/xstocks)[F-1249](https://blog.kraken.com/product/xstocks/tokenized-equities-now-available)
+  - 해석 : 수요 확인은 이 거점에서 함. 인가 하나로 넓게 판매해 보고, 수익이 확인된 시장에 제대로 진입하는 순서로 보임
+- 큰 시장 EU : 인가 없이는 판매할 수 없는 시장이어서 직접 확보함. 가상자산과 증권을 따로 해결함
+  - 가상자산 : 2013년 첫 BTC/EUR 거래부터 7개국 국가별 등록으로 이미 영업 중이었음. MiCA(EU 가상자산시장 규정)가 2026-07부터 인가를 의무화하자 2025-06 아일랜드에서 MiCA 인가를 받아 EU 30개국 단일 인가로 옮김. 새 시장을 연 것이 아니라 기존 영업을 지킨 것임 [F-1438](https://blog.kraken.com/news/mica-license-central-bank-of-ireland)[F-1440](https://www.fsma.be/en/news/crypto-assets-service-providers-end-transitional-period)[F-1371](https://blog.kraken.com/news/mica-license-central-bank-of-ireland)
+  - 증권과 파생상품 : 영국 Crypto Facilities만으로는 EU 고객에게 규제 파생상품을 제공할 수 없어(해석: 브렉시트 뒤 영국 인가로는 EU 영업이 제한되기 때문), 2025-02 키프로스 투자회사를 인수해 MiFID(EU 투자회사 규정) 인가를 얻음. 이후 2025-05 EU 규제 파생상품, 2026-05 xStocks EU 판매로 이어짐 [F-1370](https://blog.kraken.com/news/eu-mifid-license)[F-1342](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))F-0920
+  - 미국에서 이미 시작한 사업을 EU로 옮기는 중 : 은행(Saldo Bank로 예금과 대출), 결제(Reap의 유럽 진출) [F-1194](https://www.payward.com/press-release/payward-acquires-saldo-bank)[F-1256](https://www.payward.com/press-release/payward-reap-close)
+- 규제가 엄격한 상장주 시장 : 직접 인가 대신 그 나라 인가를 가진 파트너가 맡음
+  - GTN(여러 나라 상장주의 주문 집행과 수탁을 맡는 증권 중개 그룹, 영국 법인은 FCA 인가)이 기초주식 집행, 수탁, 기관 판매를 맡고, 독일은 360X(Deutsche Boerse 그룹의 디지털자산 거래장, EU 분산원장 시범제도 적용)에서 거래함 [F-1084](https://www.payward.com/press-release/gtn-xstocks)F-0964[F-0175](https://www.payward.com/press-release/xstocks-dax-40)
+- 자산 순서와 목표 : 가상자산 → 미국 주식 토큰 → 영국, EU 상장주 200종 이상(독일 대표 지수 DAX 40 전 종목 포함, 2026-11) → 홍콩 상장주 수백 종(수 주 안 예정) → 영국, 유럽, 한국 상장자산(계획), LSE(런던증권거래소)의 xStocks 상장 2027 예정. 각국 상장주의 토큰화를 공개 목표로 내걸고 이 분야의 선두를 노림 [F-1360](https://www.hosu-news.com/news/articleView.html?idxno=187188)[F-1361](https://www.theblock.co/news/defi/2026-07-22-kraken-parent-payward-partners-gtn-scale-xstocks-internationally-beyond-us-equities-409448)[F-0170](https://www.payward.com/press-release/gtn-xstocks)[F-0174](https://www.payward.com/press-release/xstocks-uk-eu-equities)
 
-### 5. 청산소까지 사며 가상자산 거래소라는 정체성을 벗는 중
-- Bitnomial로 청산소까지 들어오면서 미국 파생에서 중개, 거래소, 청산을 한 그룹이 다 가짐. 거래소가 아니라 시장 인프라 회사에 가까워짐 [F-1118](https://www.payward.com/press-release/payward-completes-acquisition-of-bitnomial-the-first-fully-cftc-licensed-crypto-native-derivatives-stack-in-the-us)
-- 당국과 사이가 좋아 보이는 이유
-  - 2025 이후 : SEC 소송 취하(2025-03), 연준 계정(회사 발표), CFTC와 SEC에 주식 무기한선물 공동 신청, Nasdaq 감시 기술 도입 [CASE-004](https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26278)[F-1254](https://www.payward.com/press-release/payward-acquires-saldo-bank)[F-1189](https://www.payward.com/press-release/payward-single-stock-perpetual-futures-filing)[F-1255](https://www.payward.com/press-release/payward-nasdaq-tokenized-equities)
-  - 그 전 : 2015 뉴욕 철수, 2021 CFTC 제재, 2022 OFAC 제재, 2023 SEC 스테이킹 합의로 당국과 계속 부딪힘 [F-1343](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))[CASE-003](https://www.sec.gov/newsroom/press-releases/2023-25)
-  - 해석 : 처음부터 사이가 좋았던 것이 아니라, 2025년 미국 규제 환경이 바뀐 뒤 "등록 없이 팔다 제재받던 거래소"에서 "인가를 다 가진 금융회사"로 스스로 자리를 옮기는 중. 인수 연쇄, 연준 계정, 청산소, Nasdaq 감시 기술이 모두 같은 방향
+### 5. 청산소 인수와 함께 가상자산 거래소라는 정체성을 벗는 중
+- Bitnomial 인수로 미국 파생상품의 중개, 거래소, 청산을 모두 그룹 안에 두게 됨. 거래소보다는 시장 인프라 회사에 가까워짐 [F-1118](https://www.payward.com/press-release/payward-completes-acquisition-of-bitnomial-the-first-fully-cftc-licensed-crypto-native-derivatives-stack-in-the-us)
+- 당국과의 관계가 좋아 보이는 이유
+  - 2025년 이후 : SEC 소송 취하(2025-03), 연준 계좌 보유(회사 발표), CFTC와 SEC에 주식 무기한선물 공동 신청, Nasdaq 시장감시 기술 도입 [CASE-004](https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26278)[F-1254](https://www.payward.com/press-release/payward-acquires-saldo-bank)[F-1189](https://www.payward.com/press-release/payward-single-stock-perpetual-futures-filing)[F-1255](https://www.payward.com/press-release/payward-nasdaq-tokenized-equities)
+  - 그 이전 : 2015 뉴욕 철수, 2021 CFTC 제재, 2022 OFAC(미국 재무부 해외자산통제국) 제재, 2023 SEC 스테이킹 합의로 당국과 계속 충돌함 [F-1343](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))[CASE-003](https://www.sec.gov/newsroom/press-releases/2023-25)
+  - 해석 : 처음부터 관계가 좋았던 것이 아니라, 2025년 미국 규제 환경이 바뀐 뒤 "등록 없이 판매하다 제재받던 거래소"에서 "인가를 모두 갖춘 금융회사"로 스스로 위치를 옮기는 중으로 보임. 연이은 인수, 연준 계좌, 청산소, Nasdaq 감시 기술이 모두 같은 방향을 가리키기 때문
 
-### 6. KSF: 인수를 야무지게 함. 하나 살 때마다 바로 다음 상품이 나옴
-- 무엇을 사나 : 이미 인가를 가진 회사만. 미국 안에서는 막힌 규제를 뚫는 인가(선물중개 NinjaTrader, 선물거래소 Small Exchange, 중개, 거래소, 청산 한 벌 Bitnomial), 미국 밖에서는 현지 인가(EU 증권 키프로스 투자회사, 아시아태평양 결제 Reap, EU 은행 Saldo) [F-1117](https://blog.kraken.com/news/kraken-to-acquire-ninjatrader)[F-1116](https://blog.kraken.com/news/acquires-small-exchange)[F-1118](https://www.payward.com/press-release/payward-completes-acquisition-of-bitnomial-the-first-fully-cftc-licensed-crypto-native-derivatives-stack-in-the-us)[F-1370](https://blog.kraken.com/news/eu-mifid-license)[F-1195](https://www.payward.com/press-release/payward-reap-close)[F-1194](https://www.payward.com/press-release/payward-acquires-saldo-bank)
-- 어떻게 굴리나 : 산 회사의 인가, 브랜드, 경영진을 그대로 둔 채 그룹에서 운영(Bitnomial, Reap). 인가를 새로 받는 시간 없이 바로 상품을 얹음 [F-1118](https://www.payward.com/press-release/payward-completes-acquisition-of-bitnomial-the-first-fully-cftc-licensed-crypto-native-derivatives-stack-in-the-us)[F-1256](https://www.payward.com/press-release/payward-reap-close)
-- 그래서 효과가 빠름 : NinjaTrader 두 달 뒤 미국 선물, 키프로스 석 달 뒤 EU 파생, Backed 인수 뒤 xStocks 운용자산 4배 [F-1439](https://blog.kraken.com/product/kraken-derivatives-us/first-cftc-regulated-perpetual-futures-for-us-traders)[F-1342](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))[F-0165](https://www.payward.com/press-release/xstocks-surpasses-1-billion-aum)
-- 고르는 기준 : 쇼핑 목록 없이 "인프라 공백을 메우나, 고객이 원하는 역량인가"를 정량으로 따짐. 사지 못하는 신뢰는 제휴로 [F-1349](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
+### 6. KSF: 인가를 가진 회사만 골라 인수하고, 인수 직후 바로 다음 상품을 출시함
+- 인수 대상 : 이미 인가를 가진 회사만 고름. 미국 안에서는 막혀 있던 영역의 인가(선물중개 NinjaTrader, 선물거래소 Small Exchange, 중개, 거래소, 청산을 모두 가진 Bitnomial), 미국 밖에서는 현지 인가(EU 증권 키프로스 투자회사, 아시아태평양 결제 Reap, EU 은행 Saldo) [F-1117](https://blog.kraken.com/news/kraken-to-acquire-ninjatrader)[F-1116](https://blog.kraken.com/news/acquires-small-exchange)[F-1118](https://www.payward.com/press-release/payward-completes-acquisition-of-bitnomial-the-first-fully-cftc-licensed-crypto-native-derivatives-stack-in-the-us)[F-1370](https://blog.kraken.com/news/eu-mifid-license)[F-1195](https://www.payward.com/press-release/payward-reap-close)[F-1194](https://www.payward.com/press-release/payward-acquires-saldo-bank)
+- 운영 방식 : 인수한 회사의 인가, 브랜드, 경영진을 유지한 채 그룹 안에서 운영함(Bitnomial, Reap). 인가를 새로 받는 기간 없이 곧바로 상품을 붙일 수 있기 때문 [F-1118](https://www.payward.com/press-release/payward-completes-acquisition-of-bitnomial-the-first-fully-cftc-licensed-crypto-native-derivatives-stack-in-the-us)[F-1256](https://www.payward.com/press-release/payward-reap-close)
+- 효과 : NinjaTrader 인수 두 달 뒤 미국 선물, 키프로스 인수 석 달 뒤 EU 파생상품, Backed 인수 뒤 xStocks 운용자산 4배 [F-1439](https://blog.kraken.com/product/kraken-derivatives-us/first-cftc-regulated-perpetual-futures-for-us-traders)[F-1342](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))[F-0165](https://www.payward.com/press-release/xstocks-surpasses-1-billion-aum)
+- 선정 기준 : 미리 정한 인수 목록 없이 "인프라 공백을 메우는지, 고객이 원하는 역량인지"를 정량적으로 판단하고, 살 수 없는 신뢰는 제휴로 확보함 [F-1349](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
 
-### 7. 가설: 비상장 모회사라서 가능한 속도
-- Payward는 비상장(2025-11 상장 서류 비공개 제출, 2027 Q2 전에는 상장 안 함), 외부 자금 없이 굴러가고 2026 Q3 조정 EBITDA 6천만 달러 [F-1352](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)[F-0180](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
-- 최근 투자자는 Citadel Securities, Nasdaq 같은 전통 금융의 전략적 투자자 [F-1352](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
+### 7. 가설: 비상장 모회사였기에 가능했던 속도
+- Payward는 비상장 회사이며(2025-11 상장 서류 비공개 제출, 2027 Q2 전에는 상장 계획 없음), 외부 자금 없이 운영이 가능하고 2026 Q3 조정 EBITDA(이자, 세금, 감가상각 전 이익을 회사 기준으로 조정한 값) 6천만 달러를 냄 [F-1352](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)[F-0180](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
+- 최근 투자자는 Citadel Securities(미국 대형 시장조성 회사), Nasdaq 같은 전통 금융의 전략적 투자자임 [F-1352](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
 - 해석
-  - 분기 실적을 묻는 주주가 없어 1년 반 동안 공개된 것만 27.5억 달러 넘는 인수를 연달아 할 수 있었음 [F-1355](https://www.tokenpost.kr)
-  - Nasdaq, Citadel 같은 주주가 들어오면서 인가 심사와 제휴에서 "전통 금융이 믿는 회사"라는 신호를 줌
-  - 상장을 미루는 것도 인가를 다 모은 뒤 "금융 인프라 회사"로 상장하려는 순서로 볼 수 있음
+  - 분기 실적을 요구하는 공개시장 주주가 없어, 1년 반 동안 공개된 금액만 27.5억 달러가 넘는 인수를 연달아 할 수 있었던 것으로 보임 [F-1355](https://www.tokenpost.kr)
+  - Nasdaq, Citadel 같은 주주의 참여가 인가 심사와 제휴에서 전통 금융이 신뢰하는 회사라는 신호가 됨
+  - 상장을 미루는 것도 인가를 모두 갖춘 뒤 금융 인프라 회사로 상장하려는 순서로 볼 수 있음
 
 ## 1층 (키워드)
 - 시작 : 가상자산 현물 거래소(2011, 모회사 Payward)
