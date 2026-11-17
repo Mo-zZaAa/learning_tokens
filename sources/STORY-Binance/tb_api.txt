@@ -1,0 +1,212 @@
+Binance API update hints at stock perpetual contracts as exchanges eye TradFi markets | The Block
+Looking for institutional-grade crypto trading? Discover LMAX Digital, the regulated exchange from LMAX Group
+Institutional crypto intel
+Explore
+Chrome Extension
+Crypto news & price alerts
+News
+Today's top stories
+Business
+Deals
+DeFi
+Ecosystems
+Markets
+Macro
+Regulation
+Web3
+Data
+Market dashboards
+Indices
+Stocks
+Futures
+Stablecoins
+Treasuries
+Ratings
+Prices
+Live crypto prices
+Bitcoin
+Ethereum
+Solana
+XRP
+Crypto Converter
+ETF Trackers
+Research
+From our analysts
+Institutional
+Blockchains
+On-chain
+DeFi Protocols
+Intelligence
+Funding
+Stablecoins
+Reports
+Tokenization
+Learn
+Guides and explainers
+Ecosystems
+DeFi
+Markets
+Glossary
+Live
+BTCUSD
+$65,118.50
+0.02%
+ETHUSD
+$1,820.26
+-0.04%
+SOLUSD
+$71.46
+-0.84%
+PYTHUSD
+$0.0527
+-5.71%
+LINKUSD
+$9.12
+-1.42%
+Home
+/
+News
+/
+Markets
+/
+Binance API update hints at stock perpetual contracts as exchanges eye TradFi markets
+Latest Crypto News
+Bitwise sees Solana reaching $1,100 by 2031 in bull case as onchain trading grows
+Nov 16, 2026, 3:27PM EST
+•
+Markets
+Justin Sun Prize Recognizes New Work on Two Erdős Problems, Highlighting AI's Role in Mathematics
+Nov 16, 2026, 3:01PM EST
+•
+Sponsored
+Solflare CEO says AI security reviews are essential, touts 'bunker mode' and MoneyGram deal
+Nov 16, 2026, 1:59PM EST
+•
+DeFi
+Winklevoss-backed Cypherpunk buys Zcash dip as mining debut delivers $2.6 million operating profit
+Nov 16, 2026, 1:43PM EST
+•
+Business
+See More Latest Crypto News
+Binance API update hints at stock perpetual contracts as exchanges eye TradFi markets
+Binance added a new derivatives API endpoint for users to sign a TradFi-perps agreement, signaling preparations for stock-linked perpetual futures, though launch timing remains unclear
+By
+Naga Avan-Nomayo
+•
+Edited by
+Jason Shubnell
+Markets
+•
+December 11, 2025, 10:21AM EST
+Make us preferred
+Share
+<span class="acf-media-credit"><span class="acf-credit"><span class="acf-credit"><a href="theblock.co" target="_blank">The Block</a></span></span></span>
+Quick Take
+Binance’s futures API added a new endpoint for signing a “TradFi-Perps agreement contract,” hinting at preparatory work for stock perpetual futures.
+The exchange has not officially announced a launch, and no product details are available at press time.
+Binance has quietly moved a step closer toward offering stock-linked perpetual futures, according to a Dec. 11 update to the exchange’s derivatives API documentation.
+The change log for USDⓈ-M futures
+added
+a new REST endpoint — POST /fapi/v1/stock/contract — designed for users to sign a "TradFi-Perps agreement contract," typically required before trading traditional finance-linked perpetuals.
+Binance has not formally announced the rollout of stock perpetual contracts, and it remains unclear when, or even if, the instrument will launch. Still, the inclusion of a dedicated stock-perps contract endpoint suggests infrastructure is being prepared behind the scenes.
+The Block reached out to Binance for comment.
+Why stock perpetuals matter
+Stock perpetual contracts extend the crypto-native perp model — derivatives with no expiration dates and funding-rate mechanisms — into traditional equity markets. Instead of waiting for regulated stock markets to open, traders can take leveraged long or short positions on equities 24/7, with settlement typically in stablecoins like USDT.
+For offshore crypto venues, the appeal appears obvious: equities represent a multi-trillion-dollar asset class, and offering round-the-clock access creates a product unavailable in traditional brokerage channels.
+As for crypto traders, these contracts provide a frictionless way to express macro views, hedge portfolios, or speculate on single-stock names without interacting with traditional brokers.
+The model remains niche, and regulatory uncertainty limits adoption, but exchanges have begun building the plumbing as tokenized stock exposure accelerates.
+Industry momentum
+Binance’s quiet API move lands amid a broader shift toward real-world-asset derivatives across both centralized and decentralized platforms.
+Crypto exchanges like
+Bybit
+and
+Kraken
+have rolled out tokenized stock products, tapping providers like Backed Finance to offer onchain exposure to these traditional financial instruments.
+In July, Coinbase also
+expanded
+its U.S. derivatives offering through CFTC-regulated nano futures for bitcoin and ether. While not yet tied to equities, Coinbase executives argued that the launch could lay the groundwork for a more complete derivatives suite — including markets that more closely mirror traditional finance.
+On the decentralized side, Ostium, a protocol backed by General Catalyst and Jump Crypto, has emerged as an RWA-perp specialist. The platform offers 24/7 perpetuals linked to equities, metals, and energy markets. Since 2023, the platform founded by Harvard alumni has
+raised
+about $27.8 million from investors.
+Tokenized stock access has also gained traction across offshore exchanges this year, with DeFi platforms such as Hyperliquid,
+Lighter
+, and smaller derivatives venues rolling out equity-themed or synthetic stock markets. Growing demand has also
+attracted venture capitalist allocations
+to decentralized venues, as trading activity surged in 2025, topping $1 trillion in October and November, according to The Block's data.
+Expand Chart
+AI is supercharging Hyperliquid - ft. Nansen CEO Alex Svanevik
+More videos →
+TAGS
+Binance
+Perpetuals
+AI is supercharging Hyperliquid - ft. Nansen CEO Alex Svanevik
+More videos →
+COLLABORATIVE INTERVIEW
+Tether and CoinW collaborate to bring tokenized gold yield to crypto investors
+November 16, 2026, 9:35AM EST
+RATINGS
+Best crypto cards with token rewards in 2026
+See more ratings
+Editorial standards and AI use
+The Block's news, research and explainers are reported, written and edited by our editorial team. We sometimes use AI tools for data analysis, summaries or AI overviews. An editor checks the facts, figures and quotes they produce against primary sources, and every piece is reviewed by an editor before it is published. Sponsored content and press releases are labeled as such and are not written by our editorial team.
+© 2026 The Block. All Rights Reserved. This content is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.
+Privacy Policy
+Follow us
+News
+Latest News
+Business
+Deals
+DeFi
+Ecosystems
+Markets
+Macro
+Regulation
+Web3
+Elections Hub
+Press Releases
+Data & Tools
+Dashboards
+Prices
+Indices
+Crypto Converter
+ETF Trackers
+Bitcoin ETF Tracker
+Ethereum ETF Tracker
+Bitcoin Halving Tracker
+Stocks
+Treasuries
+Ratings
+Research & Learn
+Research
+Reports
+Learn
+Glossary
+Campus
+Multimedia
+Podcasts
+Newsletters
+Events
+People
+Emergence
+Company
+About Us
+Contact Us
+Editorial Team
+Careers
+Advertise
+Team Verification
+Conflicts of Interest
+Disclosures
+Security
+Sitemap
+© 2026 the block. all rights reserved.
+Privacy Policy
+•
+Terms of Service
+•
+Cookie Settings
+•
+Security
+•
+Disclaimers
+Do Not Sell or Share My Personal Information

@@ -1,0 +1,435 @@
+zerohash | The Infrastructure Behind Modern Finance
+Products
+Trade
+Transact
+Tokenize
+Agentic
+Buy/sell
+Embeddable out-of-the-box crypto trading
+Staking
+Offer secure token staking
+Qualified Custody
+Safeguard crypto and tokenized assets
+Incentives
+Boost engagement, loyalty and lifetime value
+Lending Stack
+Lending infrastructure for enterprises
+AUTH
+Seamless onchain account linking
+Account Funding
+AUTH
+On & Off Ramp
+Payins
+Payouts
+Remittances
+Tokenization Payment Rails
+Tokenization Engine
+AUTH
+Agentic Finance Suite
+Learn more
+Industries
+Payments & PSPs
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Banks & Institutions
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Brokerages & Trading Platforms
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+FinTechs
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Marketplaces & Platforms
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Gaming Platforms
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Add new financial capabilities as your roadmap evolves, with infrastructure designed for speed, compliance, and scale.
+Power global payments, payouts, and creator earnings with infrastructure built for scale, speed, and compliance.
+Move player funds quickly and compliantly across borders and around the clock.
+Real-time global payments and settlement, built into your existing stack.
+Digital money infrastructure banks can trust
+Launch digital asset trading without rebuilding your platform
+Developers
+Developers HomepageGuides and recipes to start building
+API ReferenceThe full API reference
+Release NotesWhat's new in the API
+API StatusLive uptime and incidents
+$ opendocs.zerohash.comBuild with zerohash
+Trading, stablecoins and payouts through one set of APIs.
+Open the docs →
+Resources
+Blog
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Press
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Reports
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Security
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Case studies
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Careers
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Brand Kit
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Contact Sales
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Help Center
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Products
+Trade
+View Trade
+AUTH
+Lending Stack
+Incentives
+Qualified Custody
+Staking
+Buy/sell
+Transact
+View Transact
+AUTH
+Payins
+Payouts
+On & Off Ramp
+Remittances
+Account Funding
+Tokenize
+View Tokenize
+AUTH
+Tokenization Payment Rails
+Tokenization Engine
+Agentic
+View Agentic
+Agentic Finance Suite
+Learn more
+Solutions
+FinTechs
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Marketplaces & Platforms
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Gaming Platforms
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Payments & PSPs
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Banks & Institutions
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Brokerages & Trading Platforms
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Developers
+Developers HomepageGuides and recipes to start building
+API ReferenceThe full API reference
+Release NotesWhat's new in the API
+API StatusLive uptime and incidents
+Resources
+Blog
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Press
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Reports
+Reports
+Brand Kit
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Security
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Careers
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Contact Sales
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Help Center
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Case studies
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+Log In
+Log In
+Contact Us
+Contact Us
+New
+Introducing AUTH by zerohash
+The Infrastructure 
+Behind Modern Finance
+zerohash is the trusted crypto, stablecoin, and tokenization platform that enables banks, brokerages, and fintechs to launch innovative digital asset products
+Get A Demo
+View docs
+$65B+
+Volume Settled
+7M+
+End customers
+100+
+Assets supported
+200
+Available Jurisdictions
+99.99%
+Uptime
+Alinea
+alinea-invest
+BlackRock
+Bolt
+Current
+DarftKing
+Felix
+felix-pago
+Frankin
+Gusto
+gusto
+IG Group
+Interactive Brokers
+interactive-brokers-trading
+Kalshi
+kalshi
+Lightspark
+Majority
+Marqeta
+Moneylion
+moneylion-2
+Morgan Stanley
+Nuvei
+OnePay
+onepay
+Public
+public
+Ramp
+Replubic
+republic
+Secutitize
+Shfit4
+Simplex
+Stripe
+stripe
+tastytrade
+Transak
+Visa
+WorldPay
+Solutions
+A Regulated Gateway 
+to Modern Money Movement
+Digital assets reshape how value moves. zerohash is the only fully end-to-end regulated platform to trade, transact, and tokenize at institutional scale.
+TRADE
+Embed crypto trading & staking
+Regulated crypto trading with built-in liquidity, custody, and compliance.
+Explore Trading
+TRANSACT
+Real-time stablecoin payments
+Instant stablecoin settlement with abstracted chain and wallet complexity.
+Explore Payments
+Tokenize
+Tokenized financial products
+Issue and manage tokenized products with embedded compliance and lifecycle control.
+Explore Tokenization
+What Sets Us Apart
+Built for the institutions shaping what’s next
+Founded in 2017, zerohash is the infrastructure layer institutions trust to integrate digital assets, stablecoins, and tokenization into their platforms.
+Regulatory Infrastructure
+Licenses, policy engines, and audit controls built for banks and regulated enterprises.
+Liquidity & Execution
+Deep liquidity and smart routing for clean, scalable execution.
+Custody & Asset Controls
+Secure custody with configurable permissions, wallet controls, and risk management guardrails.
+Embedded Compliance
+Transaction monitoring, programmable restrictions, and global policy enforcement across every flow.
+Stablecoin & Multi-Chain Orchestration
+We abstract chains, wallets, and settlement rails into one unified experience.
+Developer-Ready by Design
+Modern APIs and SDKs built for fast integration – without compromising regulatory or operational rigor.
+industries
+The Operating System 
+for Digital Money
+Gaming Platforms
+Move player funds quickly and compliantly across borders and around the clock.
+Marketplaces & Platforms
+Power global payments, payouts, and creator earnings with infrastructure built for scale, speed, and compliance.
+FinTechs
+Add new financial capabilities as your roadmap evolves, with infrastructure designed for speed, compliance, and scale.
+Brokerages & Trading Platforms
+Launch digital asset trading without rebuilding your platform
+Banks & Institutions
+Digital money infrastructure banks can trust
+Payments & PSPs
+Real-time global payments and settlement, built into your existing stack.
+The Onchain
+Readiness Report
+Learn how executives and operators are approaching digital asset implementation.
+Read full report
+Case Studies
+Real Platforms.
+Real Users. Real Scale.
+Lossdog
+"We were looking for a launch reward substantial enough to matter and simple enough to execute fast. As a startup, that meant finding a turnkey solution rather than building compliance and custody infrastructure in-house. zerohash delivered on both counts, and the engagement numbers coming out of that first cohort exceeded what we projected."
+Tom Sosnoff
+Chief Executive Officer
+READ CASE STUDY
+Félix Pago
+“Users aren’t interested in how the money crosses borders. They simply want their money quickly, affordable, and reliably in their local currency.” 
+Manuel Godoy
+Co-Founder and CEO
+READ CASE STUDY
+Franklintempleton
+“We’re starting to see retail interest really ignite the demand for tokenized equities, for tokenized ETFs, for tokenized investment funds. What we expect is that we will see the institutions follow onto these new rails because it will be more efficient for them. They’ll be able to have less operational capital posted because you’re going to have immediate settlement of assets rather than having to fund the 24-hour or longer settlement cycle.” 
+Sandy Kaul
+Head of Innovation
+BlackRock
+“If we can tokenize an ETF, digitize that ETF, we can have investors who are just beginning to invest in markets, through, let’s say crypto. Now, we can get them into the more traditional long-term retirement products. We look at that as the next wave of opportunity for BlackRock over the next ten years.”
+Larry Fink
+CEO, BlackRock
+Draft King
+“[Stablecoins] are something we’re really focused on at DraftKings. Most of our products are not during normal banking hours. They’re evenings and weekends. Ninety percent of our volume comes the 12 hours before an event; half of it live. And our customers aren’t funding an account on Monday to trade. They are opening the app on Sunday.” 
+Jeanine Hightower
+SVP, GM, DraftKings Predictions 
+Remote
+“One of the biggest hurdles when hiring international talent is providing fast, flexible, and reliable payments around the world. Stablecoins have been highly requested by our customers.”
+Job van der Voort
+CEO & Co-founder
+READ CASE STUDY
+Republic
+“With zerohash we can accept stablecoins as a form of payment from anywhere around the world and get settled in fiat.”
+Joel Ippoliti
+Chief Product Officer, Republic
+READ CASE STUDY
+Kalshi
+“Blockchain technology is essential for unlocking the next phase of growth and innovation in prediction markets.” 
+John Wang
+Head of Crypto
+READ CASE STUDY
+Worldpay
+“We’ve found ways to embed stablecoins into our products in ways that add value for our merchants.” 
+Nabil Manji
+SVP, Head of Fintech Growth & Financial Partnerships
+Gusto
+“Stablecoins offer us an opportunity to better serve our customer base. We do payout in over 70 countries today and this really gives us an opportunity to offer many of those customers who want payouts in U.S. dollar equivalent, or who want payouts of other digital assets in the future, to receive that. This gives us that extensibility to be able to pay out in those forms.”
+ John Tullis
+Product Management, Gusto
+READ CASE STUDY
+Interactive Brokers
+“Investment returns are not just about picking the right trades. They are influenced by the costs you pay, the prices you get, and how efficiently your capital is put to work. When investors pay less in fees and trade with efficient execution, those advantages add up and compound over time.”
+Thomas Pefferty
+Founder and Chairman of Interactive Brokers
+READ CASE STUDY
+Alinea Invest
+“Younger investors want access without complexity. They don’t want another app or a totally different experience just to invest in crypto. They want it integrated into the same place they’re already investing for the long term, with clear guidance and real context.”
+Anam Lakhani
+Co-Founder and Co-CEO at Alinea Invest
+READ CASE STUDY
+Public
+“Partnering with zerohash allows us to expand our crypto capabilities to ensure we continue to offer a crypto product that meets the needs of serious investors. On Public, members can build diversified portfolios from equities to fixed income to crypto, and zerohash helps us offer our members a much improved crypto investing experience.”
+Stephen Sikes
+COO of Public
+READ CASE STUDY
+Interactive Brokers 
+“Adding and expanding tokens gives our clients even more flexibility to diversify their portfolios and take advantage of opportunities across digital assets.”
+Steve Sanders
+EVP Marketing & Product Development
+READ CASE STUDY
+Interactive Brokers 
+“The collaboration with zerohash underscores our dedication to providing clients the ability to seamlessly allocate part of their portfolio to cryptocurrency and deliver a crypto trading experience equivalent to traditional equities.”
+Milan Galik
+CEO
+READ CASE STUDY
+Félix
+“Users aren’t interested in how the money crosses borders. They simply want their money quickly, affordable, and reliably in their local currency.” 
+Manuel Godoy
+Co-Founder and CEO, Félix
+READ CASE STUDY
+tastylive
+“The demand from our clients for crypto and digital assets is huge. Innovators across payments, finTechs, trading platforms, brands and more turn to zerohash to seamlessly launch crypto and stablecoin products.”
+Tom Sosnoff
+CEO of tastylive
+MoneyLion
+“Through our partnership with zerohash, the MoneyLion crypto offering provides members an intuitive way to own digital currencies within seamless and secure environment.”
+Dee Choubey
+Co-Founder & CEO of MoneyLion
+READ CASE STUDY
+FAQs
+Is zerohash regulated?
+zerohash operates regulated entities and licensing frameworks across multiple jurisdictions. The platform is designed for banks, brokerages, and fintech companies that require compliance with financial regulations and operational controls. zerohash provides built-in compliance infrastructure, custody solutions, and monitoring systems so partners can launch digital asset products within regulated environments.
+Does zerohash support tokenization of financial assets?
+zerohash provides infrastructure that allows institutions to create and manage tokenized financial assets. Tokenization represents traditional assets such as funds, securities, or deposits as blockchain-based tokens. zerohash helps companies issue and manage these assets while supporting compliance, custody, settlement, and blockchain integration.
+‍
+What are stablecoins and how does zerohash support them?
+Stablecoins are digital currencies designed to maintain a stable value, typically pegged to fiat currencies like the U.S. dollar. Financial platforms use stablecoins to enable faster payments, cross-border transfers, and 24/7 settlement. zerohash infrastructure allows companies to accept, send, and convert stablecoins while managing compliance, liquidity, and blockchain connectivity behind the scenes.
+‍
+Who uses zerohash infrastructure?
+zerohash is used by banks, brokerages, fintech platforms, payment companies, marketplaces, and other platforms that want to embed digital asset capabilities. These companies use zerohash to power services such as crypto trading, stablecoin payments, cross-border payouts, and tokenized asset issuance without building complex blockchain infrastructure internally.
+How is zerohash different from crypto exchanges or wallets?
+zerohash is not a consumer crypto exchange. Instead, it provides infrastructure that powers digital asset products inside other companies' platforms. Banks, brokerages, and fintech apps integrate zerohash technology so their users can trade crypto, move money using stablecoins, or access tokenized assets within familiar financial products.
+‍
+What is digital asset infrastructure?
+Digital asset infrastructure refers to the technology systems that allow financial institutions to interact with blockchain networks and digital assets. This includes custody, liquidity access, regulatory compliance tools, transaction monitoring, settlement, and blockchain connectivity. zerohash provides these capabilities through APIs so companies can launch crypto and stablecoin products without building their own blockchain systems.
+‍
+What products and capabilities does zerohash provide?
+zerohash provides infrastructure across three core areas: trading, payments, and tokenization. Companies can enable digital asset trading, stablecoin-powered money movement, global payouts, on-ramps and off-ramps between crypto and fiat, and tokenized financial assets. These capabilities run on a single infrastructure platform with built-in custody, compliance controls, and settlement systems.
+‍
+How do companies use zerohash?
+Companies integrate zerohash infrastructure to embed digital asset capabilities directly into their products. This includes enabling crypto trading inside brokerage accounts, supporting stablecoin payments and payouts, powering account funding through on-ramps and off-ramps, and launching tokenized financial products. zerohash operates behind the scenes while the end-user experience lives inside the partner's app or platform.
+‍
+What is zerohash and what does the company do?
+zerohash is a digital asset infrastructure provider that enables financial institutions and fintech companies to integrate crypto trading, stablecoin payments, and tokenized assets into their platforms. Companies connect to zerohash through APIs and developer tools rather than building blockchain infrastructure themselves. zerohash handles custody, compliance, liquidity, settlement, and blockchain connectivity so partners can launch digital asset products safely and at scale.
+‍
+Recognized by the industry
+Start Building With
+zerohash
+GET a demo
+Designed for Developers
+CHECK OUR DOCS
+Built for Compliance
+Learn more
+609 W Randolph St.
+Ste 600
+Chicago IL 60661 
+United States
+solutions
+BrokeragebanksPSPTokenization PlatformsPayroll
+Products
+Account FundingremittanceOn & Off RampsPayoutsPayinsTokenization payment railsTokenization engineBuy/sellStaking
+developers
+api docsrelease notesApI status
+Company
+EventsCareersSecurityComplaintsDisclosures & PoliciesDisclosures & Policies
+CONNECT
+log insign up
+security
+legal & complianceelectronic fund transfer  act disclosurescorporate structureNY Bitlicense risk disclosure  & complaint procedureus licenses & disclosuresfraud & scamcomplaints
+about
+partnershipscareerscompanypressresourcesblogbrand assets
+about
+contactfaqsalespress inquiry
+Industries
+Industries
+FinTechs
+Marketplaces & Platforms
+Gaming Platforms
+Payments & PSPs
+Banks & Institutions
+Brokerages & Trading Platforms
+Products
+Products
+Virtual Accounts 
+AUTH
+Lending Stack
+Incentives
+Qualified Custody
+Staking
+Tokenization Payment Rails
+Payins
+Payouts
+On & Off Ramp
+Remittances
+Tokenization Engine
+Account Funding
+Buy/sell
+Resources
+Resources
+API docsSecurityrelease notesPressBlogpress
+Company
+Company
+Events
+CareersWe're HIRING
+BrandDisclosures & PoliciesDisclosures & PoliciesDisclosures & PoliciesComplaintsComplaintsHelp Center
+Services Live
+ 🌐
+ Loading...
+ 🌎
+ Global
+ ✓
+ 🇪🇺
+ Europe (EU)
+ ✓
+My Privacy Choices
+© all rights reserved, zerohash llc 2026. NMLS ID# 1699379
+Pricing and feesTerms and ConditionsPrivacy Policy
+In the United States, zerohash llc is a FinCen-registered Money Service Business and a regulated Money Transmitter that can operate in 51 U.S. jurisdictions. zerohash llc and its affiliate, zerohash liquidity services llc, are licensed to engage in virtual currency business activity by the New York State Department of Financial Services (visit the zerohash website here for zerohash's New York BitLicense Risk Disclosure and Complaint Procedure). In Canada, zerohash llc is registered as a Money Service Business with FINTRAC. For a complete list of zerohash llc’s and zerohash liquidity services llc’s licenses, visit the zerohash website here.

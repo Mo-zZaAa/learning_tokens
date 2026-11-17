@@ -1,0 +1,863 @@
+
+Alpaca - Build Your Fintech App with Broker API for Stock, Options, Crypto
+ Alpaca
+ http://alpaca.markets/
+ Products
+ Broker API
+ Overview
+ End-to-end brokerage platform
+ Resources
+ Webinars, eBooks, and guides
+ Broker API Reference
+ Code snippets, use cases, and more
+ Trading API
+ Overview
+ Execute your trading algorithms
+ TradingView
+ Best-in-class charting and trading platform
+ Market Data
+ Real-time stock market and crypto data
+ Business Account
+ Optimized access to Alpaca products
+ Elite
+ Low-cost, advanced algorithmic trading
+ MCP Server
+ Execute trades powered by AI insights
+ Trading API Reference
+ Code snippets, stories, and more
+ Connect
+ Overview
+ Connect your app with live trading
+ QuantConnect
+ End-to-End Quant Trading Platform
+ Asset Classes
+ US Stocks & ETFs
+ Options
+ Cryptocurrency
+ Platform
+ Industry best cyber security practices
+ Use Cases
+ Fintech Startups
+ Digital Wallets
+ Broker-Dealers
+ Hedge Funds & Prop Firms
+ Algorithmic Traders
+ Robo Advisors
+ Tokenization Platforms
+ Crypto Exchanges
+ Your New Project
+ Shariah-Compliant Investing
+ Developers
+ Tools & Resources
+ Full API Reference
+ Getting Started
+ SDKs and Tools
+ Alpaca-Py
+ Broker API Resources
+ Learn
+ API Status
+ Community
+ Slack
+ Forum
+ Github
+ Enablement Partners
+ Resources
+ About
+ About Alpaca
+ We're Hiring
+ Blog
+ Newsroom
+ Support
+ Frequently Asked Questions
+ API Status
+ Learn
+ Broker API Resources
+ Community Forum
+ Community Slack
+ Contact Us
+ Speak to Sales
+ Login and Signup
+ Login
+ Trading API
+ Broker API
+ Sign Up
+ Trading API
+ Broker API
+ Navigation Button
+ Broker
+ API
+ End-to-end API platform for stock, options,
+ fixed income & crypto investing
+ Broker API is fully equipped with everything you
+ need to launch and scale. Embed fractional stocks,
+ options, fixed income, crypto, high-yield cash,
+ back-office operations, and more—directly with
+ Alpaca.
+ Get API Keys
+ Contact Sales
+ !
+Disclosures
+ Disclosure
+ Orders placed outside regular trading
+ hours (9:30 a.m. – 4:00 p.m. ET) may
+ experience price fluctuations, partial
+ executions, or delays due to lower
+ liquidity and higher volatility.
+ Orders not designated for extended hours
+ execution will be queued for the next
+ trading session.
+ Additionally, fractional trading may be
+ limited during extended hours. For more
+ details, please review Alpaca Extended
+ Hours & Overnight Trading Risk
+ Disclosure.
+ Fixed income securities can experience a
+ greater risk of principal loss when
+ interest rates rise. These investments
+ are also subject to additional risks,
+ including credit quality fluctuations,
+ market volatility, liquidity
+ constraints, prepayment or early
+ redemption, corporate actions, tax
+ implications, and other influencing
+ factors.
+ Fractional share trading allows a
+ customer to buy and sell fractional
+ share quantities and dollar amounts of
+ certain securities. Fractional share
+ trading presents unique risks and is
+ subject to particular limitations that
+ you should be aware of before engaging
+ in such activity. See Alpaca Customer
+ Agreement at
+ https://alpaca.markets/disclosures
+ for
+ more details.
+ Crypto trading is offered through Alpaca
+ Crypto, LLC, and full and fractional
+ securities trading is offered through
+ Alpaca Clearing.
+ Alpaca Clearing offers a high-yield
+ cash management program pursuant to the
+ FDIC Bank Sweep. Customer funds are
+ treated differently and are subject to
+ separate regulatory regimes depending on
+ whether customer funds are held in their
+ brokerage account or within the FDIC
+ Bank Sweep. Specifically, Alpaca
+ Clearing is a member of the Securities
+ Investor Protection Corporation (SIPC),
+ which protects securities customers of
+ its members up to $500,000 (including
+ $250,000 for claims for cash). The
+ Federal Deposit Insurance Corporation
+ (FDIC) insures up to $250,000 per
+ deposit against the failure of an FDIC
+ member bank. Customer funds held in
+ brokerage accounts are SIPC insured, but
+ are not eligible for FDIC insurance
+ coverage. Funds maintained in the FDIC
+ Bank Sweep are intended to be eligible
+ for pass-through FDIC insurance
+ coverage, but are not subject to SIPC
+ coverage. FDIC insurance coverage does
+ not protect against the failure of
+ Alpaca, Alpaca Clearing, or any of its
+ or their affiliates and/or malfeasance
+ by any Alpaca or Alpaca Clearing
+ employee. Program banks that participate
+ in the FDIC Bank Sweep are not members
+ of SIPC and therefore funds held in the
+ Program are not SIPC protected. Please
+ see alpaca.markets/disclosures for
+ important additional disclosures
+ regarding Alpaca Clearing brokerage
+ offering as well as FDIC Bank Sweep
+ terms and conditions.
+ Please read Important Risk Disclosures
+ With Respect To Participating In Fully
+ Paid Securities Lending Transactions
+ carefully before deciding whether to
+ participate in lending Fully Paid
+ Securities or agreeing to enter into a
+ Master Securities Lending Agreement with
+ Alpaca Clearing.
+ These disclosures describe important
+ characteristics of, and risks associated
+ with engaging in, securities-lending
+ transactions.
+ Alpaca Clearing and the companies
+ referenced below are not affiliated and
+ neither are responsible for the
+ liabilities of the other.
+ Options trading is not suitable for all investors
+ due to its inherent high risk, which can potentially
+ result in significant losses. Please read
+ Characteristics
+ and Risks of Standardized Options
+ before investing in options.
+ OmniSub Disclosure
+ The OmniSub product is offered by AlpacaDB as a technology service for
+ sub-accounting related to omnibus clearing services. Approval for this
+ technology service is subject to Alpaca Clearing due diligence review.
+ Trusted by 200+ global financial institutions and
+ fintechs
+ Accessible Investing for Global Customers
+ Deliver fractional US stocks and other financial products directly to your local markets with ease.
+ Developer-First API, In-House Infrastructure
+ Leverage our modern API and real-time, event-driven architecture to accelerate product velocity with faster iterations.
+ Self-Clearing with Embedded Operations
+ Instant onboarding, flexible KYC, and cost-effective trading all supported by Alpaca's self-clearing broker-dealer.
+ Flexibly add one or many assets
+ Alpaca's Broker API allows you to seamlessly embed
+ stock, options, fixed income and crypto trading into
+ your investment app.
+ !
+Disclosures
+ US Stocks
+ 11k+ US equities with fully paid securities lending
+ Fractional & notional trading with margin
+ Full extended and 24/5 trading hours
+ Real-time stock market data access
+ Flexible minimum trade amounts
+ Fully disclosed, omnibus & OmniSub supported
+ Global Stocks
+ Hundreds of German stocks and ETFs available today
+ Real-time stock market data access
+ Trade, settle, and manage positions in EUR
+ Integrated through the same APIs to keep time to market short
+ Coming Soon: Hong Kong, London, Saudi, Korea, and Paris
+ Options
+ Level 1, 2 and 3 fully supported
+ Automated exercise, assignment & event transmission
+ Robust risk management
+ Support major underlying symbols
+ Daily refresh of asset master
+ Crypto
+ Custody security
+ Real-time crypto market data access
+ 24/7/365 crypto trading
+ Fully configurable fee model
+ Available in 49 US states, US territories, Washington DC & select international jurisdictions
+ Instant access to 35+ coins
+ Fixed Income
+ Currently offered with US Treasury bills and corporate bonds, including callable bonds
+ Real-time trading with 2ms execution speed
+ Aggregated liquidity across multiple providers
+ Transparent, flexible, retail-friendly pricing model
+ Coming soon: fractional orders, foreign corporate bonds, and Treasury notes and bonds
+ US Stocks
+ Global Stocks
+ Options
+ Crypto
+ Fixed Income
+ US Stocks
+ 11k+ US equities with fully paid securities lending
+ Fractional & notional trading with margin
+ Full extended and 24/5 trading hours
+ Real-time stock market data access
+ Flexible minimum trade amounts
+ Fully disclosed, omnibus & OmniSub supported
+ Global Stocks
+ Hundreds of German stocks and ETFs available today
+ Real-time stock market data access
+ Trade, settle, and manage positions in EUR
+ Integrated through the same APIs to keep time to market short
+ Coming Soon: Hong Kong, London, Saudi, Korea, and Paris
+ Options
+ Level 1, 2 and 3 fully supported
+ Automated exercise, assignment & event transmission
+ Robust risk management
+ Support major underlying symbols
+ Daily refresh of asset master
+ Crypto
+ Custody security
+ Real-time crypto market data access
+ 24/7/365 crypto trading
+ Fully configurable fee model
+ Available in 49 US states, US territories, Washington DC & select international jurisdictions
+ Instant access to 35+ coins
+ Fixed Income
+ Currently offered with US Treasury bills and corporate bonds, including callable bonds
+ Real-time trading with 2ms execution speed
+ Aggregated liquidity across multiple providers
+ Transparent, flexible, retail-friendly pricing model
+ Coming soon: fractional orders, foreign corporate bonds, and Treasury notes and bonds
+ Performance and scale are in our DNA
+ Broker API offers a modern, proprietary architecture
+ with real-time events support and battle-tested
+ technology that powers some of the most demanding
+ algorithmic traders in the world.
+ 600,000+
+ Daily orders self-cleared
+ From April to May 2025
+ 1.5ms
+ Order processing
+ Powered by Alpaca's OMS v2
+ 99.99%
+ System Uptime
+ Since Jan 2025
+ Advanced capabilities for modern investing
+ experiences
+ High-Yield Cash
+ Earn competitive APY through our FDIC Sweep Program with account-level configurability and up to $1M in FDIC insurance per end-customer
+ FIX Messaging
+ Utilize full FIX 4.2 support to enable low-latency, high-throughput order submission, cancellation, and modification
+ Fractional Shares
+ Empower customers to trade real-time on both quantity and notional orders (up to 9 decimal points)
+ Tokenization
+ Leverage real US equities and fractional share infrastructure to issue tokenized stocks at scale
+ Fully Paid Securities Lending (FPSL)
+ Enable clients to earn passive income on owned securities while retaining high-balance accounts
+ Portfolio Rebalancing
+ Automatically adjust self-managed portfolio with desired cash or stock holding weights, conditions, and triggers
+ Local Currency Trading
+ Place, monitor and sell positions with just-in-time FX conversion to USD and back in 15+ supported currencies
+ 24/5 Trading
+ Allow global customers to flexibly trade US equities beyond standard hours from Sunday evening through Friday evening
+ Custodial Accounts
+ Provide users in US households with tax-advantaged UGMA/UTMA accounts, simplified KYC, tax reporting, and cash-only trading.
+ !
+Custodial Accounts Disclosures
+ US IPO Access
+ Provide users with access to primary issuance products that support dollar-based conditional buy orders and real-time updates.
+ Business Accounts
+ Streamline the onboarding process for business entities through an API-native workflow with automated KYC, KYB, and lifecycle management.
+ Custodial Accounts Disclosures
+ Custodial accounts involve legal, tax, and investment considerations. Assets contributed to these accounts are generally irrevocable gifts to the minor and become the property of the minor. Such accounts may have tax implications, including the potential application of the “kiddie tax.” Upon reaching the age of majority, the beneficiary assumes full control of the account. Investments held in custodial accounts are subject to market risk, including the potential loss of principal, and custodians are responsible for managing the account in the best interest of the minor.
+ Everything you need, without the overhead
+ Our comprehensive platform gets you to market quickly -
+ we provide everything from KYC as a service, account
+ funding, to market data and middle/back office
+ reporting.
+ Our API-driven architecture lets you access and pay for
+ only the products you need.
+ Real-Time Events
+ Receive and automate responses to real-time updates on account opening, fund flows, equity or crypto trades and replay past events via Server-Sent-Events (SSE).
+ Onboarding
+ Offer customers a seamless, near instant account opening experience. Non-registered technology partners can leverage Alpaca’s KYC as a service to get to market faster.
+ Funding
+ Support multiple funding models, including instant funding, pooled accounts and post-trade settlement. Customers can fund via Plaid, ACH transfers, or SWIFT.
+ Trade
+ Build engaging investing and trading experiences for novice to professional investors. Help customers create Watchlists or analyze Market Data. Use our Logo API to enhance the visual experience.
+ Orders
+ Allow customers to place, monitor or cancel whole share or fractional (notional) orders directly while selecting from multiple order types (market, limit, stop, stop limit, day or good til canceled (GTC). They can also buy on margin or sell short.
+ Corporate Actions
+ Educate and engage your users when notifying them of upcoming public corporate action announcements on dividends, mergers, spinoffs and stock splits on how it will impact their account. 
+ Social Sentiment
+ Provide your customers with community-driven insights, social sentiment and news that increases trader confidence.
+ Market News
+ Deliver market-moving content by displaying real-time stock and crypto headlines from trusted sources.
+ Documents API
+ Build a custom branded document center in your app where customers can view or download account onboarding materials, trade confirmations, portfolio history, monthly statements, tax forms, and more.
+ Journal
+ Journaling gives marketers multiple options to engage prospects and customers. Influence new user sign ups with cash towards their first trade, reward loyal customers with stock or crypto, enable cash gifting programs or rewards for referrals.
+ Account Models
+ Get the right fit, every time. Choose between fully disclosed, omnibus, or Alpaca's OmniSub technology. Migrate between them as your business evolves.
+ 1/11
+ Left
+ Right
+ One API, many possibilities
+ Broker-Dealers
+ Banks
+ Investment Advisors
+ Treasury Management
+ Fintech Startups
+ Crypto Exchanges
+ Tokenization Platforms
+ Your Next Venture
+ Get API Keys
+ Contact Sales
+ Supporting 200+ partners in 40+ countries to open
+ financial access
+ See how global brokerages and fintechs are building
+ and scaling with Alpaca
+ Europe & Africa
+ Lightyear
+ United Kingdom
+ Read their
+ story
+ Midas
+ Turkey
+ Read their
+ story
+ Thndr
+ Egypt
+ Read their
+ story
+ Asia
+ Woodstock
+ Japan
+ Read their
+ story
+ Investlink
+ Kazakhstan
+ Read their
+ story
+ Dime!
+ Thailand
+ Read their
+ story
+ North America
+ Kraken
+ United States
+ Read their
+ story
+ Composer
+ United States
+ Read their
+ story
+ Streetbeat
+ United States
+ Read their
+ story
+ Middle East
+ Sarwa
+ United Arab Emirates
+ Read their
+ story
+ Abyan
+ Saudi Arabia
+ Read their
+ story
+ Zad
+ Kuwait
+ Read their
+ story
+ Drahim
+ Saudi Arabia
+ Read their
+ story
+ InvestSky
+ United Arab Emirates
+ Read their
+ story
+ Latin America
+ RUUT
+ Mexico
+ Read their
+ story
+ Traderpal
+ LATAM
+ Read their
+ story
+ tyba
+ Colombia
+ Read their
+ story
+ Oceania
+ Eccuity
+ New Zealand
+ Read their
+ story
+ eToro
+ Australia
+ Read their
+ story
+ Kernel
+ New Zealand
+ Read their
+ story
+ Simple and Modern API
+ Our simple and modern RESTful Web API
+ allows you to
+ build scalable trading services,
+ while staying compliant with applicable
+ rules and
+ regulations. We also offer Open API
+ support.
+ Get
+ API Keys
+ Read
+ Docs
+ Licensed, secure and fully self-clearing
+ Self-Clearing Operations
+ *:first-child]:!mt-0 [&>*:last-child]:!mb-0 !text-gray-100">We clear and custody as members of DTCC, FICC, and
+ OCC to provide trade processing, settlement, and security at
+ reduced costs for our global partners.
+ Regulated & Protected
+ *:first-child]:!mt-0 [&>*:last-child]:!mb-0 !text-gray-100">We're a FINRA-regulated entity with
+ SIPC protection up to $500,000 per customer
+ (cash sub-limits apply) and optional excess coverage where applicable.
+ Security & Privacy by Design
+ *:first-child]:!mt-0 [&>*:last-child]:!mb-0 !text-gray-100">We adhere to the highest standards in security and privacy
+ protection: ISO 27001:2022 certified, SOC 2 Type
+ II controls, GDPR, EU US DPF, CSA Level 1, and ICO standards.
+ Digital Asset Licensing and Registration
+ *:first-child]:!mt-0 [&>*:last-child]:!mb-0 !text-gray-100">Our crypto offerings* are through our registered Money
+ Services Businesses (MSB) with (FinCEN) (NMLS #
+ 2160858) and Digital Asset Businesses
+ (Registration number 208648 B)
+ !
+Disclosures
+ Cryptocurrency services are made available by Alpaca
+ Crypto LLC ("Alpaca Crypto"), a FinCEN registered money services business
+ (NMLS # 2160858), and a wholly-owned subsidiary of AlpacaDB, Inc. Alpaca
+ Crypto is not a member of SIPC or FINRA. Cryptocurrencies are not stocks and
+ your cryptocurrency investments are not protected by either FDIC or SIPC.
+ Please see the Disclosure Library for more
+ information.
+AlpacaX Crypto Ltd.
+ ("AlpacaX Crypto") is authorized and regulated by The Securities Commission of The Bahamas. AlpacaX Crypto is an international business company registered in the Commonwealth of The Bahamas, registration number 208648 B. Services offered by AlpacaX Crypto Ltd. are not available in the United States and other prohibited jurisdictions.
+ Easily build and scale today with Alpaca
+ Get API Keys
+ Contact Sales
+ !
+Disclosures
+ "Broker API allows us to build the best trading experience for our users and we are excited to be a part of Alpaca's journey."
+ Egem Eraslan, Founder and CEO at Midas
+ "By partnering with Alpaca, we’re bringing global expertise to local customers, ensuring they have the tools to confidently participate in the digital economy."
+ Nate Clarke, President and CEO at GoTyme Bank
+ "Alpaca's Broker API help our users invest in US markets and keep more money in their pockets."
+ Chattrin (Joe) Laksanabunsong, CPO at Dime!
+ "Before Alpaca, integrating with a broker would have required a significantly higher amount of dev resources and time. Alpaca's technology has significantly reduced how cumbersome of a process it is."
+ Benjamin Rollert, CEO and Co-Founder at Composer
+ "Alpaca has been a great business partner. One of the reasons we chose Alpaca is due to their Local Currency Trading API."
+ Brian Yun, Co-Founder at Woodstock
+ "Working with Alpaca allows us to tokenize US stocks and ETFs with the speed, accessibility, and programmability of blockchain for these global investors."
+ Ian De Bode, Chief Strategy Officer at Ondo Finance
+ "Our partnership with Alpaca has been crucial in making it easier for us to launch our Shariah-compliant trading solutions. Their reliable technical infrastructure and continuous introduction of new features have been instrumental to our success."
+ Saleh Alaqeel, Co-Founder at Abyan Capital
+ "There are service providers that tell you, ‘this is what we have, take it or leave it.’ Not Alpaca. They listen to us. They understand the region well. They're helping us offer the best possible products to our clients. I cannot say anything but good things about Alpaca."
+ Abdullah Alotaibi, Co-Founder and Deputy CEO of Fintech Brokerage at ZAD
+ "Before Alpaca, companies like ours would likely have undergone the grueling, complex process to become a broker themselves...Alpaca is one of the most important companies in our stack."
+ Som Mohapatra, CIO and Co-founder at Quantbase
+ "We chose to partner with Alpaca for many reasons. Still, we want to highlight Alpaca's ability to differentiate as an API-first company and provide an unparalleled brokerage as a service to InvestSky."
+ Turki Alshaikh, Co-Founder at Investsky
+ "Alpaca offered the APIs, compliance framework, and product suite we needed. They didn’t just sell us a box—they gave us a platform to innovate on. Their team really took the time to understand our market, our users, and our vision, leading to a stronger product."
+ Daniyar Nurstultan, CEO and Founder at Investlink
+ "Broker API allows us to build the best trading experience for our users and we are excited to be a part of Alpaca's journey."
+ Egem Eraslan, Founder and CEO at Midas
+ "By partnering with Alpaca, we’re bringing global expertise to local customers, ensuring they have the tools to confidently participate in the digital economy."
+ Nate Clarke, President and CEO at GoTyme Bank
+ "Alpaca's Broker API help our users invest in US markets and keep more money in their pockets."
+ Chattrin (Joe) Laksanabunsong, CPO at Dime!
+ "Before Alpaca, integrating with a broker would have required a significantly higher amount of dev resources and time. Alpaca's technology has significantly reduced how cumbersome of a process it is."
+ Benjamin Rollert, CEO and Co-Founder at Composer
+ "Alpaca has been a great business partner. One of the reasons we chose Alpaca is due to their Local Currency Trading API."
+ Brian Yun, Co-Founder at Woodstock
+ "Working with Alpaca allows us to tokenize US stocks and ETFs with the speed, accessibility, and programmability of blockchain for these global investors."
+ Ian De Bode, Chief Strategy Officer at Ondo Finance
+ "Our partnership with Alpaca has been crucial in making it easier for us to launch our Shariah-compliant trading solutions. Their reliable technical infrastructure and continuous introduction of new features have been instrumental to our success."
+ Saleh Alaqeel, Co-Founder at Abyan Capital
+ "There are service providers that tell you, ‘this is what we have, take it or leave it.’ Not Alpaca. They listen to us. They understand the region well. They're helping us offer the best possible products to our clients. I cannot say anything but good things about Alpaca."
+ Abdullah Alotaibi, Co-Founder and Deputy CEO of Fintech Brokerage at ZAD
+ "Before Alpaca, companies like ours would likely have undergone the grueling, complex process to become a broker themselves...Alpaca is one of the most important companies in our stack."
+ Som Mohapatra, CIO and Co-founder at Quantbase
+ "We chose to partner with Alpaca for many reasons. Still, we want to highlight Alpaca's ability to differentiate as an API-first company and provide an unparalleled brokerage as a service to InvestSky."
+ Turki Alshaikh, Co-Founder at Investsky
+ "Alpaca offered the APIs, compliance framework, and product suite we needed. They didn’t just sell us a box—they gave us a platform to innovate on. Their team really took the time to understand our market, our users, and our vision, leading to a stronger product."
+ Daniyar Nurstultan, CEO and Founder at Investlink
+ "Broker API allows us to build the best trading experience for our users and we are excited to be a part of Alpaca's journey."
+ Egem Eraslan, Founder and CEO at Midas
+ "By partnering with Alpaca, we’re bringing global expertise to local customers, ensuring they have the tools to confidently participate in the digital economy."
+ Nate Clarke, President and CEO at GoTyme Bank
+ "Alpaca's Broker API help our users invest in US markets and keep more money in their pockets."
+ Chattrin (Joe) Laksanabunsong, CPO at Dime!
+ "Before Alpaca, integrating with a broker would have required a significantly higher amount of dev resources and time. Alpaca's technology has significantly reduced how cumbersome of a process it is."
+ Benjamin Rollert, CEO and Co-Founder at Composer
+ "Alpaca has been a great business partner. One of the reasons we chose Alpaca is due to their Local Currency Trading API."
+ Brian Yun, Co-Founder at Woodstock
+ "Working with Alpaca allows us to tokenize US stocks and ETFs with the speed, accessibility, and programmability of blockchain for these global investors."
+ Ian De Bode, Chief Strategy Officer at Ondo Finance
+ "Our partnership with Alpaca has been crucial in making it easier for us to launch our Shariah-compliant trading solutions. Their reliable technical infrastructure and continuous introduction of new features have been instrumental to our success."
+ Saleh Alaqeel, Co-Founder at Abyan Capital
+ "There are service providers that tell you, ‘this is what we have, take it or leave it.’ Not Alpaca. They listen to us. They understand the region well. They're helping us offer the best possible products to our clients. I cannot say anything but good things about Alpaca."
+ Abdullah Alotaibi, Co-Founder and Deputy CEO of Fintech Brokerage at ZAD
+ "Before Alpaca, companies like ours would likely have undergone the grueling, complex process to become a broker themselves...Alpaca is one of the most important companies in our stack."
+ Som Mohapatra, CIO and Co-founder at Quantbase
+ "We chose to partner with Alpaca for many reasons. Still, we want to highlight Alpaca's ability to differentiate as an API-first company and provide an unparalleled brokerage as a service to InvestSky."
+ Turki Alshaikh, Co-Founder at Investsky
+ "Alpaca offered the APIs, compliance framework, and product suite we needed. They didn’t just sell us a box—they gave us a platform to innovate on. Their team really took the time to understand our market, our users, and our vision, leading to a stronger product."
+ Daniyar Nurstultan, CEO and Founder at Investlink
+ Disclosures
+ The testimonials presented reflect the experiences of specific individuals and may not be representative of others. Testimonials were provided voluntarily and were not given in exchange for compensation or other benefits.
+ 🔒[Exclusive] Access Webinar Tutorial: Build Your Own Trading App with Broker API.
+ Watch now to learn how to build trading
+ apps with
+ Alpaca Broker API, exclusive insights, and expert
+ strategies. Click here
+ Developers
+ Trading API Docs
+ Broker API Docs
+ Market Data API Docs
+ OAuth Docs
+ Slack
+ Forum
+ Support
+ Learn
+ SDKs & Libraries
+ GitHub
+ API Status
+ Security
+ About Us
+ About Alpaca
+ Blog
+ Contact Us
+ We're hiring
+ Newsroom
+ Disclosures
+ Disclosure Library
+ Form CRS
+ Form CRS Responses to Conversation Starters
+ Privacy Policy
+ Cookie Policy
+ Terms & Conditions
+ LinkedIn
+ GitHub
+ Slack
+ Alpaca
+ http://alpaca.markets/
+ © 2026 Alpaca Securities LLC (dba "Alpaca Clearing") All Rights Reserved.
+ © 2026 Alpaca Crypto LLC All rights reserved.
+ © 2026 AlpacaDB, Inc. All rights reserved.
+ Securities brokerage services are provided by Alpaca Clearing, member
+ FINRA/SIPC, a wholly-owned subsidiary
+ of AlpacaDB, Inc. Technology and services are offered by AlpacaDB, Inc.
+ Options trading is not suitable for all investors due to its inherent
+ high risk, which can potentially result in significant losses. Please
+ read Characteristics and Risks of
+ Standardized Options before investing in options.
+ Cryptocurrency services are made available by Alpaca Crypto LLC
+ ("Alpaca Crypto"), a FinCEN registered money services business (NMLS #
+ 2160858), and a wholly-owned subsidiary of AlpacaDB, Inc. Alpaca Crypto
+ is not a member of SIPC or FINRA. Cryptocurrencies are not stocks and
+ your cryptocurrency investments are not protected by either FDIC or
+ SIPC.
+ Cryptocurrency is highly speculative in nature, involves a high degree
+ of risks, such as volatile market price swings, market manipulation,
+ flash crashes, and cybersecurity risks. Cryptocurrency regulations are
+ continuously evolving, and it is your responsibility to understand and
+ abide by them. Cryptocurrency trading can lead to large, immediate and
+ permanent loss of financial value. You should have appropriate knowledge
+ and experience before engaging in cryptocurrency trading. For additional
+ information, please click here.
+ Disclosures
+ Brokerage services are provided by Alpaca Clearing,
+ member FINRA/SIPC, a wholly-owned subsidiary of
+ AlpacaDB, Inc.
+ Technology and services are offered by AlpacaDB, Inc.
+ Brokerage services are provided to customers who can write
+ automated
+ investment code and self-direct their own investments.
+ Alpaca
+ brokerage services are only provided to customers who agree
+ to
+ electronically sign agreements and agree to receive
+ messages,
+ confirmations, and statements electronically.
+ Is Alpaca
+ right for me?
+ This is not an offer, solicitation of an offer, or advice to
+ buy or
+ sell securities or cryptocurrencies, or open a brokerage
+ account or
+ cryptocurrency account in any jurisdiction where
+ Alpaca Clearing or Alpaca Crypto respectively, are not
+ registered or licensed, as applicable.
+ The Paper Trading API is offered by AlpacaDB, Inc. and does
+ not
+ require real money or permit a user to transact in real
+ securities
+ in the market. Providing use of the Paper Trading API is not
+ an
+ offer or solicitation to buy or sell securities, securities
+ derivative or futures products of any kind, or any type of
+ trading
+ or investment advice, recommendation or strategy, given or
+ in any
+ manner endorsed by AlpacaDB, Inc. or any AlpacaDB, Inc.
+ affiliate
+ and the information made available through the Paper Trading
+ API is
+ not an offer or solicitation of any kind in any jurisdiction
+ where
+ AlpacaDB, Inc. or any AlpacaDB, Inc. affiliate
+ (collectively, "Alpaca") is not authorized to
+ do business.
+ You should know that the use or granting of any third party
+ access
+ to your account information or place transactions in your
+ account at
+ your direction is solely at your risk. Alpaca does not
+ warrant
+ against loss of use or any direct, indirect or consequential
+ damages
+ or losses to you caused by your assent, expressed or
+ implied, to a
+ third party accessing your account or information, including
+ access
+ provided through any other third party apps, systems, or
+ sites.
+ Market prices, data and other information available through
+ Alpaca
+ are not warranted as to completeness or accuracy and are
+ subject to
+ change without notice.
+ System response and account access times may vary due to
+ a
+ variety of factors, including trading volumes, market
+ conditions,
+ system performance, and other factors.
+ A more complete description of the impact these factors may
+ have can
+ be found in our
+ risks of
+ automated trading systems section.
+ All investments involve risk and the past performance of a
+ security,
+ or financial product does not guarantee future results or
+ returns.
+ Keep in mind that while diversification may help spread risk
+ it does
+ not assure a profit, or protect against loss, in a down
+ market.
+ There is always the potential of losing money when you
+ invest in
+ securities, or other financial products. Investors should
+ consider
+ their investment objectives and risks carefully before
+ investing.
+ There are risks unique to automated trading algorithms that
+ you
+ should know about and plan for. You should setup a method or
+ system
+ of continuous monitoring or alerting to let you know if
+ there is a
+ mechanical failure, such as connectivity issues, power loss,
+ a
+ computer crash, or system quirk. You should also monitor for
+ instances where your automated trading system experiences
+ anomalies
+ that could result in errant, missing, or duplicated orders.
+ A more
+ complete description of these and other risks can be found
+ in our
+ FAQ section.
+ Conditional orders may have increased risk as a result of
+ their
+ reliance on trigger processing, market data, and other
+ internal and
+ external systems. Such orders are not sent to the market
+ until
+ specified conditions are met. During that time, issues such
+ as
+ system outages with downstream technologies or third parties
+ may
+ occur. Conditional orders triggering near the market close
+ may fail
+ to execute that day. Furthermore, our executing partner may
+ impose
+ controls on conditional orders to limit erroneous trades
+ triggering
+ downstream orders. Alpaca Clearing may not always be made
+ aware of
+ such changes to external controls immediately, which may
+ lead to
+ some conditional orders not being executed. As such, it is
+ important
+ to monitor conditional orders for reasonability. Conditional
+ orders
+ are “Not Held” orders whose execution instructions are on a
+ best
+ efforts basis upon being triggered. Furthermore, conditional
+ orders
+ may be subject to the increased risks of stop orders and
+ market
+ orders outlined above. Given the increased potential risk of
+ using
+ conditional orders, the client agrees that Alpaca Clearing
+ cannot
+ be held responsible for losses, damages, or missed
+ opportunity costs
+ associated with market data problems, systems issues, and
+ user
+ error, among other factors. By using conditional orders the
+ client
+ understands and accepts the risks outlined above. Alpaca
+ Clearing
+ encourages leveraging the use of Paper accounts to become
+ more
+ comfortable with the intricacies associated with these
+ orders.
+ ETFs can entail risks similar to direct stock ownership,
+ including
+ market, sector, or industry risks. Some ETFs may involve
+ international risk, currency risk, commodity risk, and
+ interest rate
+ risk. Trading prices may not reflect the net asset value of
+ the
+ underlying securities.
+ All accounts are opened as limited purpose margin accounts.
+ You should know that
+ margin trading involves interest charges and risks,
+ including the
+ potential to lose more than deposited or the need to deposit
+ additional collateral in a falling market. Before using
+ margin,
+ customers must determine whether this type of trading
+ strategy is
+ right for them given their specific investment objectives,
+ experience, risk tolerance, and financial situation. For
+ more
+ information please see
+ Alpaca's
+ Margin Disclosure Statement
+ and
+ Margin Agreement.
+ These disclosures contain information on Alpaca Clearing's
+ lending policies,
+ interest charges, and the risks associated with margin
+ accounts.
+ Any fee you pay is based on the specific transaction and not
+ the value of your account.
+ In general, we do not charge a commission for trades.
+ However, certain arrangements
+ with authorized business partners may preclude commission
+ free trades by Alpaca Clearing.
+ If your account is established via an authorized business
+ partner,
+ please refer to the fee schedule provided through your
+ authorized partner’s website or platform.
+ Customers of Alpaca Clearing should refer to the
+ Alpaca
+ Clearing Brokerage Fee
+ Schedule.
+ Please ensure you review the fees and costs identified on
+ any confirmations and statements you receive.
+ Cryptocurrency is highly speculative in nature, involves a
+ high
+ degree of risks, such as volatile market price swings,
+ market
+ manipulation, flash crashes, and cybersecurity risks.
+ Cryptocurrency
+ is not regulated or is lightly regulated in most countries.
+ Cryptocurrency trading can lead to large, immediate and
+ permanent
+ loss of financial value. You should have appropriate
+ knowledge and
+ experience before engaging in cryptocurrency trading. For
+ additional
+ information please click
+ here.
+ Cryptocurrency services are made available by Alpaca Crypto,
+ a FinCEN registered money services business (NMLS #
+ 2160858),
+ and a wholly-owned subsidiary of AlpacaDB, Inc. Alpaca
+ Crypto
+ is not a member of SIPC or FINRA. Cryptocurrencies are not
+ stocks and your cryptocurrency investments are not protected
+ by
+ either FDIC or SIPC.
+ Please see the Disclosure Library
+ for more information.
+ © 2026 Alpaca Securities LLC (dba "Alpaca Clearing") All Rights
+ Reserved.
+ © 2026 Alpaca Crypto LLC All rights reserved.
+ © 2026 AlpacaDB, Inc. All rights reserved.
+ Commissions Disclosure
+ Commission-free trading is available to Alpaca's retail customers. Commission-free trading means that there are no commission charges for Alpaca self-directed individual cash brokerage accounts that trade U.S.-listed securities and options through an API. However, certain arrangements with authorized business partners or the use of the Elite Smart Router as part of the Alpaca Elite offering may preclude commission free trades by Alpaca Clearing. Please refer to the Brokerage Fee Schedule for more information. Relevant regulatory fees may apply. Alpaca reserves the right to charge additional fees if it is determined that order flow is non-retail in nature.
+ Alpaca and selected third parties use cookies on this website as specified
+ in the cookie policy. You accept the use of these cookies or other identifiers by pressing
+ 'Accept', closing this notice, or logging into your account.
+ Accept

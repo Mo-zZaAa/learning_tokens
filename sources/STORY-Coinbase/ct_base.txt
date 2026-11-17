@@ -1,0 +1,198 @@
+
+Coinbase’s Base launches mainnet for builders, will onboard users in August
+Ecosystem
+English
+News
+Latest News
+Bitcoin
+Ethereum
+Altcoins
+Blockchain
+Regulation
+Markets
+Markets News
+Price Indexes
+Features
+Magazine
+Reviews
+Research
+Opinion
+Podcasts
+Newsletters
+Commissioned
+Articles
+Press Releases
+Special Projects
+About
+About Cointelegraph
+History of Cointelegraph
+Editorial Policy
+Ads Disclosure
+Financial Risk Disclaimer
+DOGE
+$0.05901
++
+ 0.33%
+TRX
+$0.3057
++
+ 0.79%
+LINK
+$9.13
+−
+ 0.46%
+ZEC
+$908.22
++
+ 2.23%
+ADA
+$0.1530
++
+ 0.12%
+XRP
+$0.9584
+−
+ 0.45%
+ETH
+$1,821.86
++
+ 0.47%
+BTC
+$64,792.56
+−
+ 0.06%
+XMR
+$494.46
+−
+ 0.16%
+BNB
+$593.29
++
+ 0.17%
+XLM
+$0.1377
+−
+ 1.02%
+SOL
+$71.91
++
+ 0.29%
+HYPE
+$69.30
++
+ 3.93%
+Written by 
+Tom Blackstone
+former writer
+Edited by 
+Ana Paula Pereira
+staff editor
+Written by 
+Tom Blackstone
+former writer
+Edited by 
+Ana Paula Pereira
+staff editor
+Coinbase’s Base launches mainnet for builders, will onboard users in August
+Latest News
+Published
+Jul 13, 2023
+Base’s layer-2 mainnet has launched, allowing builders to deploy contracts, while users will be welcomed to the network in August.
+Coinbase’s Base mainnet is now “open for builders,” according to a July 13 blog post from the network’s development team. The team is opening the network to builders ahead of its public launch to allow more time for user onboarding. Base also announced that the public launch of the network will occur in August.
+ Since our testnet launch, we’ve connected with incredible builders and watched their projects thrive on Base.
+Now it’s time to take the next step: Base mainnet is now open for builders.
+https://t.co/YvlQxquhvY
+— Base ️ (@BuildOnBase) 
+July 13, 2023
+Coinbase announced the creation of the Base network on Feb. 23. The team claimed that the network would be a layer-2 of Ethereum and would use the OP Stack software used by Optimism. The announcement was celebrated in the Ethereum community, as many users saw it as a "massive confidence vote" for Ethereum.
+In the team’s July 13 announcement, it stated that the Base mainnet now has two functioning block explorers and an official RPC node that can be used to read data and transmit transactions. Data from these block explorers shows the network has been running since July 2 and has processed over 1 million transactions.
+Base transactions as of July 13. Source: BaseScan block explorer
+An official “OptimismPortal,” or Base bridge contract, has been 
+deployed
+ to Ethereum, blockchain data shows. According to the team, this contract allows developers to transfer Ether (ETH) to the new network to pay gas fees. However, the bridge does not have a web-based user interface (UI), so its functions can only be called via a command-line interface or by running scripts.
+The team stated there will not be a publicly available bridge with a UI during the initial “builder” phase, as this feature is being saved for the upcoming public launch, and the team has asked developers to refrain from launching UIs for their own apps until then.
+Related: 
+Optimism network transactions surged 67% following Bedrock upgrade
+The team is allowing builders to mint a “Base is for builders” commemorative nonfungible token (NFT) in honor of the event and is also giving away a “Genesis Builder NFT” to any developer that deploys a contract to the network and fills out a form on the project’s website.
+Optimism Labs, creator of the OP Stack, has claimed that Base and Optimism will eventually form a “Superchain” of multiple networks that share the same security features. The Superchain will likely face competition from zkSync’s “Hyperchains,” which are being developed to have many of the same features as the Superchain.
+Get the day’s top crypto stories in a quick, daily read.
+ Subscribe 
+Cointelegraph is committed to independent, transparent journalism. This news article is produced in accordance with Cointelegraph’s 
+Editorial Policy
+ and aims to provide accurate and timely information. Readers are encouraged to verify information independently. 
+Coinbase
+Scalability
+DeFi
+NFT
+Layer2
+Blockchain
+More on the subject
+HKMA, Swift explore tokenized deposits for cross-border bank payments
+13 hours ago
+Zoltan Vardai
+DBS, JPMorgan’s Kinexys launch 24/7 transfers of tokenized deposits
+17 hours ago
+Zoltan Vardai
+Enterprise blockchain is going to come back from the dead
+Nov 15, 2026
+Paul Brody
+HKMA, Swift explore tokenized deposits for cross-border bank payments
+13 hours ago
+Zoltan Vardai
+DBS, JPMorgan’s Kinexys launch 24/7 transfers of tokenized deposits
+17 hours ago
+Zoltan Vardai
+Enterprise blockchain is going to come back from the dead
+Nov 15, 2026
+Paul Brody
+ Editor's choice 
+Hackers inject credit card, crypto-stealing malware into 178 major websites
+Bitcoin price fails to hold $65K as US stocks drop further on AI nerves
+Banks are banning AI agents over security... and competition concerns
+Boris Johnson says UK must lead blockchain development despite crypto doubts
+Custodia Bank loses Supreme Court bid for direct Fed payment access
+News
+Latest News
+Markets
+Bitcoin
+Ethereum
+Altcoins
+Blockchain
+Regulation
+Magazine
+All Articles
+Features
+Crypto People
+Hodler's Digest
+Asia Express
+AI Eye
+Crypto Culture
+Crypto Around the World
+Reviews
+Commissioned
+Articles
+Press Releases
+Research
+Special Projects
+Ecosystem
+Formula
+Accelerator
+Decentralization Guardians
+Events
+LONGITUDE Event
+CT Connect
+About
+About Cointelegraph
+History of Cointelegraph
+Podcasts
+Newsletters
+Editorial Policy
+Ads Disclosure
+Financial Risk Disclaimer
+Cointelegraph is committed to providing independent, high-quality journalism across the crypto, blockchain, AI, and fintech industries.
+All news, reviews, and analyses are produced with full journalistic independence and integrity. For more details on our standards and processes, please read our 
+Editorial Policy
+.
+© Cointelegraph 2013 - 2026
+Terms of Service and Privacy Policy
+

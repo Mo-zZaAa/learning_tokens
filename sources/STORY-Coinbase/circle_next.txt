@@ -1,0 +1,285 @@
+
+Ushering in the next chapter for USDC | Circle
+Home
+Digital Assets
+Back
+USDC
+The leading digital dollar
+USDC
+EURC
+The leading digital euro
+EURC
+USYC
+Not available in the US
+Tokenized money market fund
+USYC
+cirBTC
+Circle wrapped bitcoin
+cirBTC
+Reserves
+Learn how USDC and EURC are fully backed and redeemable 1:1, with reserves reported weekly.
+Heading
+Products
+Back
+Access and hold
+Mint
+Access and distribute stablecoins
+Mint
+Digital Asset Accounts
+Launch branded digital asset accounts
+Digital Asset Accounts
+StableFX
+Access 24/7 stablecoin FX
+StableFX
+xReserve
+Launch a USDC-backed stablecoin on your blockchain
+xReserve
+Send and receive
+Circle Payments Network
+Full-stack stablecoin payment infrastructure
+Circle Payments Network
+Fiat Payments
+Upgrade fiat payments with stablecoin settlement
+Fiat Payments
+Stablecoin Payments
+Send and receive stablecoins globally
+Stablecoin Payments
+Managed Payments
+Enable stablecoin payments without the complexity
+Managed Payments
+Treasury Management
+Move money across subsidiaries and counterparties
+Treasury Management
+Build and develop
+Agent Stack
+Build the agentic economy
+Agent Stack
+CCTP
+Move digital assets across blockchains
+CCTP
+Gateway
+Enable a unified USDC balance
+Gateway
+Wallets
+Embed secure wallets in any app
+Wallets
+Contracts
+Build and manage smart contracts
+Contracts
+Arc
+The Economic OS for the internet
+Explore Arc
+Solutions
+Back
+By Use Case
+Collateral Management
+Collateral Management
+Dollar Access
+Dollar Access
+Onchain FX
+Onchain FX
+Payments
+Payments
+Tokenized Repo
+Tokenized Repo
+Trading Services
+Trading Services
+Treasury Management
+Treasury Management
+By Industry
+Banks
+Banks
+Developers
+Back
+Resources
+Circle for Developers
+Circle for Developers
+Documentation
+Documentation
+API Reference
+API Reference
+Testnet Faucet
+Testnet Faucet
+Insights
+Developer Blog
+Developer Blog
+Circle Research
+Circle Research
+Resources
+Back
+Insights
+Blog
+Blog
+Current
+Current
+Company
+About Circle
+About Circle
+Circle National Trust
+Circle National Trust
+Investor Relations
+Investor Relations
+Policy Hub
+Policy Hub
+Partner
+Alliance Program
+Alliance Program
+Partner Stables
+Partner Stables
+Member Directory
+Member Directory
+Support
+Help Center
+Help Center
+Contact Us
+Contact Us
+Case Studies
+Learn about how businesses use Circle
+Browse stories
+Join Us
+Already have an account?
+Sign in
+Sign up
+Already have an account?
+Sign in
+Sign in
+Contact sales
+Circle Internet Financial
+Aug 21, 2023
+Sep 24, 2024
+/
+Circle Blog
+/
+USDC
+/
+Ushering in the next chapter for USDC
+August 21, 2023
+Ushering in the next chapter for USDC
+USDC
+what you’ll learn
+USDC will be launching on 6 new blockchains between September and October, bringing multi-chain access of USDC up to 15 chains.
+TL;DR: 
+USDC is launching on 6 new blockchains; Coinbase is increasing its support for stablecoins with an investment in Circle; Circle will take full control over USDC issuance and governance; Coinbase and Circle will also maintain a commercial relationship.
+By Jeremy Allaire, CEO Circle and Brian Armstrong, CEO Coinbase
+Five years ago, we came together to jointly launch 
+USDC
+ with the idea that stablecoins could become a critical building block in creating a new financial system.
+Since then, stablecoins have proven to be a critical element of the crypto economy, enabling users around the world to get easy access to U.S. dollars and other currencies with the benefits of crypto – a fast, reliable, secure and programmable exchange of value. 
+USDC has an essential role in serving the public interest when it comes to updating the financial system. Having established itself as one of the most widely adopted and trusted digital dollars, USDC has enabled millions of users around the world with the ability to quickly access and move money at scale. USDC has grown from an idea to the second largest stablecoin in the world.
+The objective of stablecoins is to be usable 24/7, widely available, stable, and backed 1:1 with transparent and safe reserves. USDC is designed with these principles – and today we’re pleased to announce the next chapter in our work together. This chapter speaks to our joint belief in the immediate and long term impact of stablecoins and, in particular, 
+unlocking the next phase of utility for USDC
+. 
+Growing the ecosystem: Launching USDC on 6 new blockchains
+Blockchain innovation has continued at a rapid pace, with breakthroughs in speed, security and scalability. USDC will be launching on 6 new blockchains between September and October, bringing multi-chain access of USDC up to 15 to continue accelerating USDC’s momentum with developers around the world. 
+Support for new chains allows USDC to better serve a growing number of businesses, applications, and developer communities who are choosing USDC as the on-chain dollar.
+The next chapter for USDC governance
+Circle and Coinbase, the founding companies behind Centre Consortium, a jointly managed self-governance consortium for USDC, have agreed that with growing regulatory clarity for stablecoins in the U.S. and around the world, the requirement of a separate governance body like Centre, is no longer needed. Centre will no longer exist as a stand-alone entity and Circle will remain as the issuer of USDC, bringing any Centre governance and operations responsibilities in-house. The new structure will streamline the operations and governance, and enhance the direct accountability of Circle as the issuer, including holding all the smart contract keys, complying with regulations on governance of reserves and 
+enabling USDC on new blockchains
+. 
+Building together
+As part of this next chapter, Coinbase and Circle have reached a new agreement. Reflecting Coinbase’s belief in the fundamental importance of stablecoins to the broader crypto economy, Coinbase is taking an equity stake in Circle. This means that Coinbase and Circle will now have even greater strategic and economic alignment on the future of the financial system. Coinbase is committed to the long term success of the stablecoin ecosystem and USDC, specifically. 
+Coinbase and Circle will continue to generate revenue from USDC reserves interest income. Under the parties’ new arrangement, this revenue will continue to be shared based on the amount of USDC held on each of our platforms, and additionally we will now equally share in interest income generated from the broader distribution and usage of USDC. 
+We believe that stablecoins can advance the real-world utility of crypto and help make the global financial system more open and inclusive. Together, we look forward to unlocking additional value by growing the USDC ecosystem, circulation and global adoption.
+BACK TO TOP
+BACK TO TOP
+Author
+Team Circle
+Circle is transforming the way money moves by making it more accessible, inclusive, and efficient — increasing economic opportunity and prosperity around the globe.
+Share
+subscribe to THE CIRCLE newsletter
+subscribe to THE Developer newsletter
+Related posts
+Navigate what’s next in the new internet financial system
+Circle Submits Comment Letter on SEC’s Proposed Regulation Crypto Assets
+October 28, 2026
+Circle Match: Get a rebate to Mint, Set Your Price to Redeem
+October 22, 2026
+Home
+Platform
+USDC
+EURC
+USYC
+CirBTC
+CPN Fiat Payments
+CPN Stablecoin Payments
+CPN Managed Payments
+Arc
+Mint
+StableFX
+Wallets
+Contracts
+Paymaster
+CCTP
+xReserve
+Agent Stack
+Use Cases
+Payments
+Dollar Access
+Trading Services
+Case Studies
+Developer
+Developer Hub
+Documentation
+API Reference
+Sample Projects
+Testnet Faucet
+Developer Blog
+Circle Research
+Uptime Status
+Company
+About Circle
+Careers
+We’re hiring
+Alliance Program
+Circle Partner Stablecoins
+Circle Impact
+Circle Foundation
+Circle Ventures
+Investor Relations
+Brand
+USDC
+Transparency
+Supported Blockchains
+Bridged USDC Standard
+USDC.com
+Insights
+Executive Insights
+Policy Hub
+Pressroom
+Blog
+Support
+Help Center
+Contact Us
+Legal & Privacy
+Your Privacy Choices
+subscribe to the Circle newsletter
+en
+English
+Português - Brasil
+Español - Latin America
+French
+X
+Instagram
+LinkedIn
+Discord
+The Money Movement
+YouTube
+Digital assets are subject to a number of risks, including price volatility. Transacting in digital assets could result in significant losses and may not be suitable for some consumers. Digital asset markets and exchanges are not regulated with the same controls or customer protections available with other forms of financial products and are subject to an evolving regulatory environment. Digital assets do not typically have legal tender status and are not covered by deposit protection insurance. The past performance of a digital asset is not a guide to future performance, nor is it a reliable indicator of future results or performance. Additional disclosures can be found on the 
+Legal and Privacy page
+.
+Circle Internet Financial, LLC (NMLS ID# 1201441). Circle Internet Financial, LLC is licensed as a Money Transmitter by the New York State Department of Financial Services and to engage in Virtual Currency Business Activity by the New York State Department of Financial Services. For information on filing complaints in Texas and Maryland, see our 
+Legal & Privacy page
+.
+Circle International Bermuda Limited is licensed to conduct digital asset business by the Bermuda Monetary Authority.
+© 2026 Circle Internet Group, Inc
+Circle Technology Services, LLC (“CTS”) is a software provider and does not provide regulated financial or advisory services. You are solely responsible for services you provide to users, including obtaining any necessary licenses or approvals and otherwise complying with applicable laws. For additional details, please refer to our 
+Circle Developer terms of service
+.
+Blog
+Ushering in the next chapter for USDC
+ushering-in-the-next-chapter-for-usdc
+August 21, 2023
+USDC will be launching on 6 new blockchains between September and October, bringing multi-chain access of USDC up to 15 chains.
+USDC
+Company Updates
+

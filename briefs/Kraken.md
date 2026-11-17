@@ -11,7 +11,7 @@
   - 다만 영국 회사여서 이 선물은 미국 밖 고객에게만 제공됨 [F-1336](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))
 - 2020-09 와이오밍 특수목적 예금기관(SPDI, 가상자산 수탁과 예금을 위한 와이오밍주 은행 인가) 인가를 받음. 가상자산 거래소로서는 첫 미국 은행 인가임 [F-1337](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))
   - 원래 미국 회사였으나, 이때부터 거래소가 아니라 은행 인가를 가진 금융회사로 제도권에 들어서게 됨. 이 은행 법인이 현재 고객 자산 수탁을 맡고 있음 [F-0377](https://www.kraken.com/institutions/custody)
-  - 같은 흐름에서 현재는 연준 제한목적 마스터 계정(미국 연방준비제도에 직접 여는 결제 계좌, 일부 업무로 제한)까지 보유하고(회사 발표), 미국 달러 송금을 다른 은행 대신 자체 계좌로 옮기는 중임 [F-1254](https://www.payward.com/press-release/payward-acquires-saldo-bank)[F-1259](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
+  - 같은 흐름에서 2026-03 연준 제한목적 마스터 계정(미국 연방준비제도에 직접 여는 결제 계좌, 일부 업무로 제한)까지 받았고(디지털자산 은행으로 첫 사례라는 회사 주장) [F-1532], 미국 달러 송금을 다른 은행 대신 자체 계좌로 옮기는 중임 [F-1254](https://www.payward.com/press-release/payward-acquires-saldo-bank)[F-1259](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
 
 ### 2. 자산: 미국 밖에서 수익이 난 선물을 미국 안에서도 하기 위해 인가를 가진 회사를 사들임
 - 미국 밖 선물은 이미 수익이 나는 사업이었으나, 미국 안에서는 6년 가까이 제공하지 못함

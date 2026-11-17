@@ -1,0 +1,19 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/2 200 
+content-type: text/csv
+content-length: 201399
+date: Tue, 17 Nov 2026 02:02:57 GMT
+x-age: 46
+x-content-type-options: nosniff
+last-modified: Wed, 11 Nov 2026 13:55:41 GMT
+accept-ranges: bytes
+x-fpfis: 144838583 126260953
+strict-transport-security: max-age=31536000; includeSubDomains; preload;
+cache-control: public, max-age=300, s-maxage=300
+etag: "312b7-660008cf1fe80"
+x-cache: Miss from cloudfront
+via: 1.1 b552372cc6117196616936cdcc1d1104.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD61-P11
+x-amz-cf-id: AI9VU9rishqlVkgQ1bO6Ro4cgtifgDR675zU0F88y1Z5UPItvXXPcw==
+

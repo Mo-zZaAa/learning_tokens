@@ -1,0 +1,182 @@
+DATE 2026-09-29T00:00-05:00
+Robinhood Puts the Power of Hedge Funds in Every Trader's Pocket 
+AllNewsIdeasEducationDesignCryptoUncategorized
+NewsSep 29, 2026
+Robinhood Puts the Power of Hedge Funds in Every Trader's Pocket 
+Robinhood introduces Robinhood Agents, perpetual futures, earnings contracts, and more, plus weekend equities trading coming early next year 
+Tonight, live from HOOD Summit 2026 at the George R. Brown Convention Center in Houston, we unveiled our most ambitious lineup of active trading products yet. We announced Robinhood Agents, a fully embedded AI experience that can analyze the market, build strategies, and trade on your behalf around the clock, and Agent Apps, which give your Robinhood Agents another layer of intelligence with institutional-grade data and specialized tools from leading third party providers. 
+We also announced plans to launch 24/7 weekend trading for equities; perpetual futures for eligible U.S. customers; earnings contracts for key company metrics; and more. Together, this is Robinhood’s boldest step forward in our mission to become the #1 place for active traders.
+"Ownership doesn’t work without markets, and markets don’t work without traders," said Robinhood CEO Vlad Tenev. "We're making Robinhood the best place in the world for active traders by delivering tools once reserved for hedge funds, big banks, and quant firms."
+Robinhood Agents, Right in the App
+In May, we launched agentic trading, giving tech-savvy customers a way to connect their own third-party AI agents to Robinhood, safely and autonomously. Since launch, over 150,000 customers have opened agentic trading accounts and now, agents use Robinhood’s tools almost 30 million times a day. 
+Today, the future of agentic finance is going mainstream with Robinhood Agents. The experience now lives right inside the Robinhood app, meaning anyone, regardless of their familiarity with AI, can easily build their own agents to help them develop powerful strategies, run detailed research, or trade automatically.
+“With safety and security at its core, we're setting the standard for what agentic finance can be,” said Abhishek Fatehpuria, VP of Product Management at Robinhood. “Whether you're an expert or are just getting started with AI, you're at a disadvantage if you're not using Robinhood.”
+Setup is simple: give your agent a name, open a dedicated agentic account, choose a model from several leading AI labs including OpenAI, and you're ready to go–with your agent trading within the strategy and limits you set. Plus, usage on OpenAI GPT-Luna will be free until the end of the year.
+From there, you can:
+Create and execute a strategy: Chat with your agent, analyze the market in seconds, and make trades, all without ever leaving the Robinhood app. The Robinhood Trading MCP we launched this summer is still there for customers who want to connect their own third-party agents. Robinhood Agents is a new option built right into the app, so no linking or setup is required – we take care of that for you. 
+Manage your safety controls: Your agent can only access the funds in your dedicated agentic trading account. You can choose to manually approve each trade, which is a setting shown during setup and defaults to on, and it is adjustable at any time.*  
+Set and run it with Loops: Coming soon, we’ll launch Loops, which allow you to turn a strategy into a standing, ongoing instruction for your agent to execute on repeat, around the clock. For example, you can set a Loop to check the market every morning and execute a trade when certain conditions are met, or run a continuous overnight strategy to look for opportunities while you sleep. As always, you’re in control – you can turn off a Loop whenever you’d like. 
+Another Layer of Intelligence with Robinhood Agent Apps 
+By default, Robinhood Agents have access to the dozens of market data sources available in the Robinhood Trading MCP, along with your portfolio data. With our new Agent Apps, you can give your Robinhood Agents an even greater edge by subscribing to premium data sources and tools from 11 different leading companies. Available directly inside the app, the following companies will participate at launch or follow shortly after–all apps will come with a one month free trial:
+Options Trader by Unusual Whales: Find your next options trade with real-time data and unusual activity spotting. ($30/mo)
+Investor Intelligence by Nasdaq: Follow the money. See investor sentiment, positioning, and conviction through combined equity and options activity in near real-time. ($10/mo)
+Options Edge by SpotGamma: See key price levels and whether options are overpriced or underpriced before you trade. ($10/mo)
+Market Interpreter by Wendy: Wendy pulls gamma, key levels, sentiment, and fundamentals into one read and explains them. ($10/mo)
+Government Tracking by Quiver Quantitative: Track congressional trading, corporate lobbying, and more behind-the-scenes activity in Washington D.C. ($10/mo)
+Crypto Fundamentals by Token Terminal: Track and analyze blockchains and crypto like companies, with data from 100+ chains & 1,200+ apps. ($10/mo) 
+Weather Trader by Visual Crossing: Use near-term forecasting models to analyze structural supply chain risks and price disruptions. ($5/mo)
+Satellite Intelligence by SkyFi: Coming soon, see and analyze real-world activity with satellite imagery and insights. ($10/mo)
+ChatterFlow Viral Stocks Detector by Narravance: Track emerging narratives from social chatter across thousands of US stocks. ($8/mo)
+Carbon Arc and Fiscal.ai are also coming soon.
+Robinhood Agents and Agent Apps are coming soon to eligible U.S. customers. Learn more about Robinhood Agents and Agent Apps at robinhood.com/us/en/agents.
+Trade Equities, Even on Weekends
+The stock market never sleeps, and neither should your portfolio. Coming soon, pending regulatory review, Robinhood is expanding its trading hours to let customers trade a selection of U.S. equities 24/7, including weekends. No more watching a headline break on Saturday and waiting until Monday to act. New weekend trading is an extension of the Robinhood 24 Hour Market, which first launched in 2023 and enables customers to trade hundreds of stocks and ETFs from Sunday at 8pm ET through Friday at 8pm ET. 
+“Breaking news doesn’t wait for an opening bell. With the upcoming launch of weekend trading, we’re making sure our customers won’t have to either, no matter what day it is,” said Steve Quirk, Robinhood Chief Brokerage Officer.
+Weekend trading will start with a curated list of stocks and ETFs across all account types. Weekend trading is powered by Bruce ATS, an institutional-grade alternative trading system that offers strong liquidity, resiliency and execution quality.
+“We’re about to change when the world can trade,” said Jason Wallach, CEO, Bruce Markets. “Soon 24/7 trading won’t be a dream, it will be the new global standard. Working alongside Robinhood, we will be giving traders the freedom to trade when they want, not when Wall Street decides.”
+New Assets Are Coming to Robinhood
+We're expanding the types of trades you can make on Robinhood with the launch of perpetual futures and earnings contracts. 
+Perpetual Futures: In the coming months, eligible U.S. customers will be able to trade perpetual futures right inside the Robinhood app. You’ll be able to take long or short positions on BTC, ETH, SOL, XRP, DOGE, ADA, LINK, or HYPE with no expiration dates, and up to 10x leverage on BTC and ETH perpetuals (3x leverage on everything else). Offered by Robinhood Derivatives through Bitstamp, through the end of the year we’ll charge just one basis point per trade (0.01%), which are some of the lowest fees in the industry. You can set stop-loss and take-profit orders, track your liquidation price in real time, and get alerts if a position is at risk. 
+Earnings Contracts: Ahead of Q3 earnings season, we’re launching new earnings contracts in our prediction markets hub. They’re binary options contracts made available through Cboe that allow you to trade on company-specific KPIs like whether a company beats earnings, hits a revenue target, or crosses a key financial milestone. Earnings contracts will require options approval and will begin rolling out to eligible customers in the coming weeks. Cboe will not charge fees on earnings contracts through the end of the year, subject to regulatory review. Robinhood will not charge any contract fees through the end of the year. 
+The Next Chapter for Robinhood Social
+Robinhood Social launched in beta earlier this year, and tonight it’s going live to all eligible customers in the U.S. We’re also making several major updates to the experience, including: new post types for sharing crypto and stock charts, portfolio allocations, and profit-and-loss; and coming in time for Q3 earnings season, a new live earnings experience, which lets customers watch earnings calls and trade in real time as they happen. 
+Coming soon, verified market commentators from other websites, news, and company profiles will bring breaking market news directly into the app so you can stay on top of major events from the companies you care about. Robinhood Social is also coming soon as a Legend widget, putting your trading community right alongside your active trading hub. 
+To learn more about Robinhood Social and get started visit robinhood.com/social. 
+Even More Tools, Built for How You Trade
+To cap things off, we rolled out several other notable upgrades as we make the trading experience even more powerful for active traders:
+Extended options hours: Starting in October, options trading will begin at 7:30am and run until 4:15pm, a 35% increase in trading hours across Robinhood’s most popular symbols. 
+One-cancels-the-other (OCO) orders: With OCO orders you can set a take-profit and a stop-loss on the same position so that when one executes, the other cancels automatically. OCOs are launching for equities in October, with options support following early next year.
+4x intraday margin: Beginning next month, eligible margin customers will be able to opt-in to trade with up to 4x buying power during market hours, up from 2x today. Built-in safeguards include push notifications ahead of market close, plus a one-time notification directly in-app the first time you sign up, so you're never caught off guard.
+Foldables and tablet support: In time for the launch of Apple’s iPhone Duo, we’re rolling out new versions of the Robinhood App for foldable iOS and Android phones, as well as iPad and Android tablets.
+Robinhood Legend, leveled up: Available now for customers, you can run your third party agents natively inside Legend via our Robinhood Trading MCP. And coming later this year, you’ll be able to build a custom indicator to flag unusual volume, mark support levels ahead of a pullback, or scan the market for breakouts, all without switching windows. 
+Performance enhancements with Helios: Over the past year, we’ve rebuilt parts of the engine that powers Robinhood. We’re calling it Helios, and it means faster charts and clicks on Legend and predictive loading on mobile, so you can move across the app to get the latest information and make decisions faster than ever before.
+For an even deeper look at the technology and insights powering what’s next in trading, watch HOOD Summit’s Day 2 livestream sessions at robinhood.com/presents. 
+HOOD Summit: Engines of Creation is made possible thanks to the support of all of our sponsors, who are hosting a number of thoughtful sessions and entertaining activations, including:
+Presenting Sponsors
+Cboe - JJ Kinahan moderates a live conversation with options pioneer and entrepreneur Tom Sosnoff on the HOOD Stage. Sharp insights, real stories, trading through probabilities.
+CME Group - The futures market is evolving — and CME Group's Kevin Comer is on the Podcast Stage Day 1 to walk you through the new products leading the way.
+Nasdaq - Kevin Davitt hits the Trading Lab with a hands-on look at trading options and how to get exposure to the innovation-focused Nasdaq-100 Index®.
+State Street Investment Management - Matt Bartolini joins the HOOD Stage to follow the ETF flows, unpack what's driving them, and show how today's ETFs have become precise trading tools.
+Supporting Sponsors
+AWS - Hart Rossman, VP of AWS, sits down with Robinhood leadership to unpack how the products reshaping your portfolio are built with speed and trust in mind.
+iShares by BlackRock - The AI trade isn't just about who builds the models. BlackRock's Jay Jacobs and Ashley Doll connect the dots across chips, energy, and the full AI economy.
+Direxion - Visit the Direxion booth for a Digital Astronaut Photo Experience, exclusive swag, and prize giveaways. Don't miss one of the most interactive stops on the expo floor.
+Roundhill Investments - Swing by the Roundhill Investments booth for ETF-themed hats and a chance to meet CEO Dave Mazza in person on the expo floor.
+Sage Home Loans - Sage Home Loans is running a custom wallet laser engraving station at their booth. Stop by and walk away with a personalized keepsake from HOOD Summit.
+TipRanks - TipRanks CEO Uri Gruenbaum and chess grandmaster Hikaru Nakamura join the Podcast Stage to help traders cut through noise and act on what actually matters.
+VanEck - AI needs power. Bitcoin miners have it. VanEck's Matthew Sigel maps where technology and infrastructure are converging into the market's next big opportunity.
+5972263
+Disclosures:
+*Crypto trade approvals must be enabled in CT, NY, and CA.
+HOOD Summit 2026: Engines of Creation is sponsored by Robinhood Financial LLC (“RHF”). Not all products presented at HOOD Summit 2026 are offered by RHF, but rather, through affiliates of RHF. Robinhood and its sponsors are separate and unaﬃliated entities and are not responsible for one another’s policies, services, or opinions.
+Brokerage services are offered through Robinhood Financial LLC, (“RHF”) a registered broker dealer (member SIPC), and clearing services through Robinhood Securities, LLC, (“RHS”) a registered broker dealer (member SIPC).
+All investments involve risk and loss of principal is possible.
+Options trading entails significant risk and is not appropriate for all investors. Customers must read and understand the Characteristics and Risks of Standardized Options before engaging in any options trading strategies. Unlike equity and ETF options, index options have some unique features that should be understood before investing in them. This includes, but is not limited to, settlement, exercise, expiration, tax, and cost characteristics.
+Binary KPI options such as earnings options are exchange-listed, cash-settled option contracts listed on an underlying KPI of an issuer. A call binary KPI option pays out if the settlement value of the underlying KPI is at or above the exercise price at expiration. A put binary KPI option pays out if the settlement value is below the exercise price at expiration.
+The settlement value is determined not by the market price of the issuer's stock, but by whether a specific financial or operating metric reported by the issuer in an earnings-related filing submitted to the U.S. Securities and Exchange Commission meets the applicable condition.
+Each contract has a maximum payout of $1.00. Binary KPI options have a multiplier of 1 rather than the standard equity option contracts multiplier of 100.
+One-Cancels-the-Other (OCO) orders let you place two linked orders where execution of one automatically cancels the other. Order execution and cancellation are subject to market conditions and system availability and are not guaranteed; in fast-moving markets, orders may execute at prices different than expected, and in rare cases both legs of an OCO could execute before cancellation is processed. OCO orders do not eliminate investment risk. 
+Intraday margin, if made available by RHF to eligible customers, increases leverage and may magnify both gains and losses, including losses greater than your initial investment. Intraday margin is available only during regular market hours and is subject to lower overnight margin requirements as market close approaches. If your account does not satisfy applicable requirements, you may be required to reduce or close positions, and RHF may liquidate some or all positions without prior notice. RHF may modify, restrict, or terminate intraday margin, including applicable maintenance requirements, at any time and without prior notice. Before using margin, customers must determine whether this type of strategy is right for them given their investment objectives and risk tolerance. For more information please see our Margin Disclosure Statement. 
+There are additional, unique risks with trading during extended hours you should be aware of before making an investment decision, including the risk of lower liquidity, increased volatility, greater spreads, and pricing uncertainty. Please review the Extended Hours Trading Disclosure for more information concerning these risks.
+Robinhood Agents lets you build your own AI agent in the Robinhood app and connect it to a dedicated, self-directed Robinhood account. You choose the LLM model that runs your agent, and you set the instructions and limits that apply. Agents can research markets, analyze holdings, and place trades based on the instructions you provide. 
+Robinhood Agents and its supporting technology are provided by Robinhood Labs, LLC (“RHL”), a technology company. RHL is not a broker-dealer, investment adviser, futures commission merchant, or money transmitter; does not provide investment advice or recommendations; and does not hold customer funds or securities or execute transactions. Brokerage, cryptocurrency, futures  and derivatives services are provided by the applicable registered Robinhood affiliates. 
+Agentic accounts come with trade approvals settings which you can configure to allow automated trade execution. With approvals on, your agent cannot place an order until you approve it. You can turn trade approvals off, and if you do, your agent can place orders without asking you to confirm each one. Engaging with agentic trading entails inherent risks regarding investment outcomes and third-party data policies.
+You assume all risk for trades executed by AI agents and for any use of your data by third-party LLM  providers. Robinhood does not control, supervise, monitor, recommend, or audit agents. 
+Loops runs continuously in the background, including when you're not using the app. Once activated, it may place, modify, or cancel trades in your account automatically, without prompting you for approval on each transaction — including while you're asleep, away from your device, or otherwise not monitoring the market. You are solely responsible for the automation rules you configure and for monitoring their performance; Loops will act on them exactly as configured, including during periods of market volatility. Robinhood does not guarantee how Loops will perform in any given market condition, and automated trading carries the same risk of loss as manual trading. You can pause or turn off Loops at any time in settings; positions or orders already placed will not be automatically reversed.
+Futures (including perpetual futures), options on futures, and cleared swaps trading is offered by Robinhood Derivatives, LLC, (“RHD”), a registered futures commission merchant with the Commodity Futures Trading Commission (CFTC) and Member of National Futures Association (NFA). Futures and cleared swaps trading involves significant risk and is not appropriate for everyone. Please carefully consider if it's appropriate for you in light of your personal financial circumstances.
+Cryptocurrency services are offered through an account with Robinhood Crypto, LLC (NMLS ID 1702840). Robinhood Crypto is licensed to engage in virtual currency business activity by the New York State Department of Financial Services. Cryptocurrency held through Robinhood Crypto is not FDIC insured or SIPC protected. Trading and owning digital assets involves significant risk, including the risk of substantial loss. 
+The statements, comments, and opinions expressed by customers on Robinhood Social are those of the individuals posting them and do not represent the views or recommendations of Robinhood or any affiliates. Content is provided for informational purposes only and is not investment advice, a solicitation, or an offer to buy or sell any security. Before investing, consider your objectives, financial situation, risk tolerance, and applicable fees. For details on a specific security, visit its Stock Detail page on Robinhood. Robinhood Social is a forum within the mobile application offered and operated by Robinhood Tape, LLC (“RHT”), which enables existing Robinhood customers to engage in discussions about markets, investing, finance, and related topics. 
+Insider, Politician, and Hedge Fund trade data on Robinhood Social is obtained from a third-party provider, TipRanks, which sources the information from publicly available regulatory filings. Robinhood does not verify the accuracy or completeness of this data and makes no representations or warranties regarding its reliability. The individuals and entities referenced are not Robinhood customers. Data is for informational purposes only and is not investment advice.
+RHF, RHS, RHL, RHD, Robinhood Crypto and RHT are separate but affiliated entities. All are wholly-owned subsidiaries of Robinhood Markets, Inc.
+A Cautionary Note Regarding Forward-Looking Statements
+This blog post includes forward-looking statements about Robinhood Markets, Inc. (together with its consolidated subsidiaries, “Robinhood,” “we,” or the “Company”), including our expectations, beliefs, plans, and projections about our business, regulatory environment, and product offerings, including the expected timing, availability, features, pricing, and benefits of the products and services described in this blog post. These statements are based on current assumptions and subject to risks and uncertainties that could cause actual results to differ materially from those anticipated.  Our forward-looking statements are subject to a number of known and unknown risks, uncertainties, assumptions, and other factors that may cause our actual future results, performance, or achievements to differ materially from any future results expressed or implied in this blog post. Such risks include, but are not limited to, regulatory developments, market demand, legal challenges, technological changes, our reliance on third parties, and economic conditions. Because some of these risks and uncertainties cannot be predicted or quantified and some are beyond our control, you should not rely on our forward-looking statements as predictions of future events. More information about potential risks and uncertainties that could affect our business and financial results can be found in the “Risk Factors” section in Part I, Item 1A of our Quarterly Report on Form 10-Q for the quarter ended June 30, 2026, and in other filings with the U.S. Securities and Exchange Commission at www.sec.gov. Except as otherwise noted, all forward-looking statements in this blog post are made as of the date of this blog post, September 29, 2026, and are based on information and estimates available to us at this time. Except as required by law, we assume no obligation to update any of the statements in this blog post whether as a result of any new information, future events, changed circumstances, or otherwise. You should read this blog post with the understanding that our actual future results, performance, events, and circumstances might be materially different from what we expect.
+Nasdaq is a registered trademark of Nasdaq, Inc. The information contained above is provided for informational and educational purposes only, and nothing contained herein should be construed as investment advice, either on behalf of a particular security or an overall investment strategy. Neither Nasdaq, Inc.  nor any of its affiliates makes any recommendation to buy or sell any security or any representation about the financial condition of any company. Investors should undertake their own due diligence and carefully evaluate companies before investing. ADVICE FROM A SECURITIES PROFESSIONAL IS STRONGLY ADVISED.
+Share this:
+Customer Relationship Summaries
+FINRA’s BrokerCheck
+Follow us on
+Product
+Invest
+IPO Access
+Predict
+Strategies
+Agents
+Agentic Credit Card
+Retirement
+Gold
+Crypto
+Earn
+Staking
+Chain
+Wallet
+Connect
+API
+Legend
+Options
+Futures
+Trading
+Custodial
+Ventures
+Social
+Banking
+Gold Card
+Platinum Card
+Concierge
+Learn
+Snacks
+Legal & Regulatory
+Terms & Conditions
+Disclosures
+Robinhood US User Privacy Statement
+Robinhood Markets US Web Visitor Privacy Statement
+Law Enforcement Requests
+Your Privacy Choices
+Company
+About us
+Blog
+Vendors
+Press
+Careers
+Investor Relations
+Support
+Sustainability
+Investor Index
+Robinhood Merch
+Legal & Regulatory
+Terms & Conditions
+Disclosures
+Robinhood US User Privacy Statement
+Robinhood Markets US Web Visitor Privacy Statement
+Law Enforcement Requests
+Your Privacy Choices
+Robinhood means Robinhood Markets, Inc. and its family of affiliated entities.
+Robinhood Markets, Inc. (NASDAQ: HOOD) is a global leader in financial services offering retail brokerage, crypto, advisory, digital banking services, and private markets access to a new generation of investors. Additional information about Robinhood can be found at www.robinhood.com.
+Risk Disclosures
+All investments involve risks, including the loss of principal. The past performance of a security or financial product does not guarantee future results or returns. Keep in mind that while diversification may help spread risk it does not assure a profit, or protect against loss. Customers should consider their investment objectives and risks carefully before investing. The price of a given security or asset may increase or decrease based on market conditions and customers may lose money, including their original investment.
+Trading and owning digital assets involves significant risk, including the risk of substantial loss.
+View important disclosures
+Robinhood, 85 Willow Road, Menlo Park, CA 94025. © 2026 Robinhood. All rights reserved.
+Follow us on
+Robinhood means Robinhood Markets, Inc. and its family of affiliated entities.
+Robinhood Markets, Inc. (NASDAQ: HOOD) is a global leader in financial services offering retail brokerage, crypto, advisory, digital banking services, and private markets access to a new generation of investors. Additional information about Robinhood can be found at www.robinhood.com.
+Risk Disclosures
+All investments involve risks, including the loss of principal. The past performance of a security or financial product does not guarantee future results or returns. Keep in mind that while diversification may help spread risk it does not assure a profit, or protect against loss. Customers should consider their investment objectives and risks carefully before investing. The price of a given security or asset may increase or decrease based on market conditions and customers may lose money, including their original investment.
+Trading and owning digital assets involves significant risk, including the risk of substantial loss.
+View important disclosures
+Robinhood, 85 Willow Road, Menlo Park, CA 94025. © 2026 Robinhood. All rights reserved.
+Newsroom
+Crypto
+Design
+Education
+Ideas
+News
+Press Resources
+Investor
+Policy
+Log in
+Press Resources
+Investor
+Policy
+Log inSign up
+Log in
+Sign up

@@ -1,0 +1,81 @@
+
+Press release | Payward to acquire Magic Labs’ wallet infrastructure business
+Trading
+Banking
+AI
+Asset Management
+Services
+About
+Trading
+Banking
+AI
+Asset Management
+Services
+About
+Governance
+Governance
+Newsroom
+Newsroom
+Careers
+Careers
+Payward to acquire Magic Labs’ wallet infrastructure business to expand B2B offering with embedded wallets
+July 27, 2026
+Payward, the unified financial infrastructure platform behind a family of products including Kraken, has entered into a definitive agreement to acquire the wallet-as-a-service business of Magic Labs, extending its Payward Services B2B platform with embedded, non-custodial wallets.
+CHEYENNE, WYOMING, July 27, 2026 — Payward, Inc., a unified financial infrastructure platform advancing an open, global financial system, today announced it has entered into a definitive agreement to acquire the wallet-as-a-service business of Magic Labs (“Magic”), a non-custodial wallet infrastructure provider that has powered more than 60 million wallets and over $10 billion in stablecoin volume for more than 200,000 developers.
+About the acquisition
+The acquisition expands Payward Services, the company’s B2B infrastructure platform, with embedded, non-custodial wallet infrastructure. Payward Services gives partners a single integration point for the infrastructure they need to build always-on financial products — covering crypto trading, custody, tokenized assets, on/off-ramps, and derivatives.
+Magic Labs’ technology extends that platform into embedded wallets, allowing partners to offer self-custody and onchain product experiences alongside Payward’s existing capabilities, without assembling multiple vendors or managing fragmented infrastructure.
+Magic Labs has built wallet infrastructure that combines a TEE-based signing solution, an embedded integration layer, and a developer SDK into a single stack, enabling businesses to issue and manage non-custodial wallets at scale. The acquisition comes as onchain products increasingly require embedded wallet infrastructure as a foundational building block, alongside trading, custody, and stablecoin settlement.
+What they’re saying
+“Embedded wallets are becoming foundational infrastructure for every onchain product. Magic Labs’ technology lets us bring that layer in-house and offer partners a complete, integrated stack — exchange, custody, and now wallets — without stitching together multiple providers,” said Mark Greenberg, Chief Commercial Officer of Payward.
+“This transition allows us to put our full energy behind Newton, the authorization layer for onchain finance, while the wallet business moves to a team committed to serving our customers,” said Sean Li, CEO of Newton Labs.
+Once integrated, Magic Labs’ wallet technology will be built into Payward Services’ product suite, giving enterprise partners a more complete onchain offering under a single provider. The transaction is expected to close in the coming weeks, subject to customary closing conditions.
+About Payward
+Payward, Inc. is a unified financial infrastructure platform that powers a family of products advancing an open, global financial system. Built on a single shared architecture, Payward enables customers to hold, trade, earn, pay, and invest across asset classes without friction or fragmentation.
+At its core, Payward provides the infrastructure layer behind Kraken and a growing set of purpose-built products, including NinjaTrader, Breakout, xStocks, Bitnomial, and CF Benchmarks. Payward separates infrastructure from product expression. Each product surface is designed for a specific customer segment, regulatory regime, and use case, while operating on the same global foundation:
+One global liquidity pool
+One unified risk and margin engine
+One collateral and settlement system
+One compliance and licensing framework
+This shared architecture allows Payward to scale efficiently, launch new products at low marginal cost, and serve diverse global markets while maintaining consistent risk management, regulatory integrity, and operational resilience.
+For more information about Payward, please visit www.payward.com.
+About Newton Labs
+Newton Labs (formerly Magic Labs) is the core developer of Newton Protocol, the authorization layer for onchain finance that enables institutions, asset issuers, and decentralized protocols to enforce compliance, identity, security, and risk policies before any transaction settles, with results anyone can verify onchain. Founded in 2018, the company pioneered embedded wallet infrastructure, creating more than 60 million wallets. In 2026, it sold that business to Payward Services to focus entirely on securing safe passage for the trillions in capital moving onchain. Newton Labs is backed by PayPal Ventures, Cherubic, DCG, CoinFund, Lightspeed Venture Partners, Tiger Global, and Placeholder. For more information, visit newton.xyz.
+Contact
+Lauren Post
+[email protected]
+Latest news
+November 13, 2026
+ Payward Q3 2026 financial highlights
+November 13, 2026
+ Payward Q3 2026 financial highlights
+November 11, 2026
+ xStocks Brings the DAX 40 Onchain, Opening Germany's Largest Listed Companies to 24/7 Global Trading
+November 11, 2026
+ xStocks Brings the DAX 40 Onchain, Opening Germany's Largest Listed Companies to 24/7 Global Trading
+November 11, 2026
+ xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain
+November 11, 2026
+ xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain
+Payward Inc.
+A collection of companies powering the open financial system.
+Trading
+Kraken
+Kraken Pro
+Kraken Wallet
+NinjaTrader
+Breakout
+Banking
+Krak
+Prime
+Asset Management
+Coming soon
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+About Payward
+Public Policy
+Contact
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions. © Payward 2026. All rights reserved. Cookies Policy

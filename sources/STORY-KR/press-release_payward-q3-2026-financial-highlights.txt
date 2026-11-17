@@ -1,0 +1,129 @@
+
+Press release | Payward Q3 2026 financial highlights
+Trading
+Banking
+AI
+Asset Management
+Services
+About
+Trading
+Banking
+AI
+Asset Management
+Services
+About
+Governance
+Governance
+Newsroom
+Newsroom
+Careers
+Careers
+Payward Q3 2026 financial highlights
+November 13, 2026
+Last quarter we introduced four pillars: Trading, Banking, Asset Management, and Payward Services. This quarter we made AI the fifth.
+We think of every financial product as a ledger with rules and a view onto it. Our first four pillars are four views of one ledger. That is why a single balance on Payward can trade, earn, secure a loan, and be spent, and why each product we add costs less to launch and makes the others more useful. Partners using Payward Services bring their own clients onto the same ledger, so we grow with every client and every partner.
+Agents are the next client of that ledger, after consumers, professional traders, institutions, and businesses. They need APIs, markets that never close, instant settlement, programmable collateral, and their own sub-accounts, which this platform already provides. Models are already good at deciding what to do with money, and the hard part now is acting on it. An agent stalls when the capital sits in the wrong asset, on the wrong platform, or can’t be posted as collateral. On Payward it has one balance and one place to act.
+So every Payward app will get an agent harness, the layer where a client directs an agent to act across everything they hold with us. One team builds the shared platform, each product team will build its app’s harness on it, and we expect the first to be available early next year.
+We learn a great deal from the open-source community and will keep supporting it. We build on it with our own proprietary data: trading, balances, payments, identity, and risk for the same client in one place, which we believe few in our industry can match. We plan to train our own models on that data. Where a language model predicts the next word, ours will predict the next transaction, and because we run the execution, we will find out quickly whether the outcome was good.
+People are about to hand money to software that decides what to do with it. Models work in probabilities, but the ledger, margin, settlement, and custody underneath them have to be exact. Every action an agent proposes goes through our risk engine, which decides in code, inside limits the client sets.
+Financial update
+This quarter we made three changes to how we report, so our results are more transparent and better reflect what drives the business.
+First, we now report Total Platform Margin3 11 (TPM) in place of Adjusted Revenue2 11. Adjusted Revenue deducted the cost of the crypto we deliver to clients in a trade, but not the staking rewards we pay to them. TPM deducts both, so everything we pass on to clients is treated the same way.
+Second, we report TPM in three categories by how we earn it:
+Transaction based: earned when a client transacts, on the value of the transaction or for each contract traded;
+Asset based: what we earn over time on assets clients hold with us; and
+Access based: what clients and partners pay to use a product, data, or a service, rather than to transact or hold assets.
+Third, we added new operating metrics that track two growing parts of our business:
+Contracts Traded6: the number of derivatives contracts traded or cleared on our platforms on which we charge a fee per contract, rather than on the value traded; and
+Billable Accounts8: the number of accounts that pay us for access, such as trader evaluations, subscriptions, listings, and index licenses.
+Q3 2026 performance
+TPM was $487 million, up 12% from $436 million in Q2 2026 and down 12% year over year. All three categories grew from Q2 2026: transaction-based TPM rose 7% to $234 million, asset-based TPM rose 26% to $128 million, and access-based TPM rose 7% to $125 million.
+Asset- and access-based TPM together made up 52% of the total, up from 50% in Q2 2026 and 46% in Q3 2025. Access-based TPM, our newest category, grew 59% from Q3 2025 and now makes up about a quarter of the total.
+Adjusted EBITDA4 11 was $60 million, up from $23 million in Q2 2026. Our Adjusted EBITDA Margin10 11 rose to 12% of TPM from 5%.
+Total Platform Transaction Volume5 was $353 billion, up 22% from Q2 2026 and down 30% from Q3 2025. We grew while industry spot volume1 fell 7%, from Q2 2026 and our share of industry spot volume rose to 6.5% in September 2026 from 3.3% in September 2025.
+Contracts Traded6 were 66 million, up 10% from Q2 2026 and 84% from Q3 2025. More clients are trading futures and other derivatives contracts with us, diversifying transaction-based TPM beyond fees tied to notional volume.
+Assets on Platform7 (AOP) averaged $43 billion, up 4% from Q2 2026 and down 21% from Q3 2025. Clients have added assets in each of the last 12 months: AOP at Constant Prices7 rose 29% from Q3 2025 to $71 billion.
+Billable Accounts8 were 1.5 million, up 9% from Q2 2026 and 74% from Q3 2025. These accounts pay us to use our products, which gives us a steady, growing source of earnings alongside what we earn on trading and client assets.
+Funded Accounts9 reached 7.1 million, up 7% from Q2 2026 and 37% from Q3 2025. Accounts with balances have grown about 35% per year since the end of 2023, demonstrating our ability to consistently attract new clients through market cycles.
+Three forces, five pillars
+Last quarter we described three forces reshaping markets:
+Convergence: traditional and onchain assets moving onto the same always-on rails;
+Onshoring: market activity moving back inside regulated venues; and
+Automation: software acting for people and institutions.
+Each of our pillars gives us a way to act on them. Here is what each one did this quarter and what comes next.
+Trading: convergence and onshoring
+Tokenization is where traditional and onchain assets meet. xStocks, launched just over a year ago, passed $1 billion in AUM in October and now offers over 700 tokenized equities. We ran an IPO Access offering for Jersey Mike’s Subs, letting Kraken clients pre-order shares at the offering price, as equity in the US or as xStocks globally. We announced plans with the London Stock Exchange to make the 100 largest London-listed companies available as xStocks and, subject to regulatory approval, to trade xStocks on LSE 24.
+Our CFTC-regulated exchange, clearinghouse, and futures broker are how we bring activity onshore, and one set of licenses serves many products and partners. In the US, we announced our intention to bring onchain perpetual futures to clients, starting on Hyperliquid. Our exchange and clearinghouse would deploy the market, and our futures broker would hold client accounts, subject to regulatory approval. With the same licenses, we are working to bring single-stock perpetual futures to clients, subject to regulatory approval.
+Banking: convergence
+The Krak debit card launched in August, letting clients spend from more than 600 currencies and assets. Our SoFi partnership is designed to give Kraken institutional clients real-time US dollar settlement around the clock, and we are working with Singapore Gulf Bank on 24/7 settlement for institutional digital asset markets. In October, we agreed to acquire Saldo Bank, an EU-licensed digital bank, with closing subject to regulatory approval. We expect it to add interest-bearing deposits and lending for our European clients. Reap also launched a Virtual Asset Ledger, enabling clients of its card-issuing platform to spend Bitcoin and other virtual assets from their existing balances.
+Asset Management: convergence
+xStocks vaults let eligible clients put selected tokenized equities to work in onchain strategies. The yield is paid in the same asset, so clients keep their exposure to the underlying stock or ETF. A Payward-affiliated fund and its clients acquired a stake in AAVE, the native token of the Aave lending network.
+Payward Services: convergence, onshoring, and automation
+Partners reach our products through one integration built for APIs and always-on markets.
+More partners are coming to us for access to tokenization. OKX launched tokenized stocks built on xStocks, and GTN partnered with us to expand global capital market access through xStocks.
+Partners also come to us for our licenses. In Europe, we provide custody and infrastructure for WOO X EU, a MiCA-aligned trading venue. Reap, part of Payward since July, is bringing stablecoin card programs with Visa to more than 100 markets, expanding beyond Asia and Latin America into Europe, the Middle East, and Africa.
+CF Benchmarks, the leading regulated cryptocurrency index provider, launched CFB Oracle, a service that gives exchanges and application developers access to CF Benchmarks indices with signed delivery and onchain verification.
+AI: automation
+AI is already inside the other pillars. In Trading, Kraken AI is live in the US Kraken app, where clients buy, sell, convert, and stake through chat and approve every transaction. Kraken Pro has an assistant and a strategy builder that turns plain English into a backtested strategy, and NinjaTrader has an AI strategy builder in beta. In Banking, Reap is testing a card issued to an agent and limited by merchant, amount, and time. Clients who bring their own agent connect through open-source Kraken CLI and our MCP servers, the standard connection AI tools use to reach an account, and a Kraken app for ChatGPT is in review. We are the rails, and the client brings the brain.
+Inside Payward, our growth team runs on an agent harness we built, and the Kraken app, Kraken Pro, and NinjaTrader teams have started building theirs on the shared platform. The agents that run Payward are becoming the agents that work for our clients.
+Supporting these pillars, our regulatory footprint continued to expand. Kraken plans to launch in the UAE following full market approval from VARA in Dubai, and Payward received in-principle approval from AFSA to expand into Kazakhstan.
+Together, these developments extend the same ledger to more assets, markets, and partners.
+Transparency through Proof of Reserves
+Payward completed its latest quarterly Proof of Reserves as of September 30, 2026. Clients can independently verify that their assets are fully backed onchain and included in the report, which is validated by a third-party accounting firm, The Network Firm.
+* Reserve ratio as of September 30, 2026
+A look ahead
+We are moving every product and market onto the same matching engine, risk engine, and settlement core, so we can launch the next one without rebuilding what sits underneath it. Here is where each pillar goes next.
+Trading. Next come prediction markets for US clients, equity perpetuals that run on our own exchange, clearinghouse, and futures broker under our DCM, DCO, and FCM licenses, and apps built for individual local markets. Underneath them we are putting one account, one margin pool, and one risk engine across every product and asset.
+Banking. Next we’ll move US dollar wires onto our own Fed master account, so they settle at the Fed and we no longer rely only on correspondent banks, and put a US credit card into testing. In Europe we plan to hold client deposits on our own balance sheet and fund our own lending from them. Underneath them we are replacing rails we rent with rails we own: settlement at the Fed and deposits on our own balance sheet.
+Asset Management. Next we’ll introduce the xPO, a primary offering issued onchain (subject to regulatory approval). A private company issues its shares as xStocks, raises its capital in the primary sale, and has a secondary market from its first day. We are designing funds built on xStocks to follow it, and we plan to run strategies of our own. Underneath them we are becoming the manager of the asset, where today we give clients access to other managers’ funds and traditional strategies. Access is what our clients demand.
+Payward Services. Next, the integration our partners already run on will add derivatives through our DCM, DCO, and FCM, embedded wallets inside a partner’s own app, and xStocks offered under a partner’s own brand. Banking follows. Underneath them we are opening the ledger, risk engine, and licenses that run our own apps to any partner that builds on them.
+AI. Next we plan to launch a personal finance agent. Knowing what to do with money is getting cheap. Doing it safely is the hard part, and it takes the rails and risk controls we already run for every client, which is why we are building the agent ourselves. It starts with one of the hardest financial jobs our clients face and grows toward the wider goals they set. We are designing the agent to act only inside the limits the client sets, to require the client to approve a trade or a workflow before it runs, and to record every action the agent takes. Underneath it, custody, margin, settlement, and the risk engine stay hard-coded, so no model can move a client’s assets outside those rules.
+We believe this positions us to get to any asset, any client, anywhere, at any time.
+Notes:
+[1] Source: CoinMarketCap.
+[2] Adjusted Revenue represents total revenue determined in accordance with GAAP, excluding (i) trading costs and (ii) gains and losses on trading activities. Amounts previously reported have been recast to include immaterial reductions to GAAP revenue that were previously recognized in operating expenses. Adjusted Revenue is included for comparison purposes only. Management no longer uses Adjusted Revenue to evaluate our business results.
+[3] We define Total Platform Margin as gross profit, plus other transaction based costs of revenue, other asset based costs of revenue (which exclude staking rewards paid to clients), access based and other costs of revenue, and depreciation and amortization. Total Platform Margin is equivalent to total revenue less (i) trading costs, (ii) (gain) loss on trading activities, and (iii) staking rewards paid to clients. The most directly comparable GAAP measure is gross profit.
+[4] We define Adjusted EBITDA as net income (loss), adjusted to exclude (i) income tax expense (benefit), (ii) financing expense, (iii) depreciation and amortization, (iv) stock-based compensation expense, (v) other (income) loss, net, (vi) (gain) loss on digital assets, net, (vii) restructuring and other costs, (viii) acquisition-related transaction costs, (ix) legal settlements, and (x) other non-EBITDA items, which consist of discrete charges outside our ordinary course of business and non-cash impairments of intangible assets.
+[5] Total Platform Transaction Volume is the aggregate notional value, expressed in US dollars, of transactions executed across our platforms during the period presented, including Consumer, Spot, Margin, OTC, Equities, and Tokenized Equities transactions, payments, and derivatives contracts on which we charge a fee determined by notional value.
+[6] Contracts Traded represents the aggregate number of derivatives contracts traded on which we charge a fee for each contract rather than a fee determined by notional value, with each contract counted once, and replaces Futures DARTs. Futures DARTs represented the average number of revenue-generating futures trades executed on Kraken Futures, NinjaTrader, and Breakout per day.
+[7] Assets on Platform is the daily average value for the period, expressed in U.S. dollars, of client assets held across our products, including digital assets, fiat currencies, and equities. Prior blog posts provided this metric at quarter end. AOP at Constant Prices holds asset prices constant.
+[8] Billable Accounts is the distinct number during the period presented of evaluation users, proprietary trading clients, active brokerage accounts, paying subscribers, issuer services clients, index licensing clients, and clients who interacted with our other services, including products we no longer offer.
+[9] Funded Accounts refers to the number of client accounts that maintained a balance greater than zero as of the last day of the period presented and were able to transact on our platform. A client may hold more than one Funded Account, including across our platform, so Funded Accounts is not a count of unique clients.
+[10] Adjusted EBITDA Margin is calculated as Adjusted EBITDA as a percentage of Total Platform Margin.
+[11] Total Platform Margin, Adjusted EBITDA, Adjusted EBITDA Margin, and Adjusted Revenue are non-GAAP financial measures. They should not be considered in isolation from, or as substitutes for, the most directly comparable measures prepared in accordance with GAAP, and other companies may calculate similarly titled measures differently. Figures may not sum due to rounding.
+The information provided in this communication is for informational purposes only and does not constitute an offer, solicitation, or recommendation to buy or sell any token, security, or financial instrument. It is not intended as, and shall not be relied upon as, investment, financial, legal, or tax advice. Past performance is not necessarily indicative of future results.
+Latest news
+November 11, 2026
+ xStocks Brings the DAX 40 Onchain, Opening Germany's Largest Listed Companies to 24/7 Global Trading
+November 11, 2026
+ xStocks Brings the DAX 40 Onchain, Opening Germany's Largest Listed Companies to 24/7 Global Trading
+November 11, 2026
+ xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain
+November 11, 2026
+ xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain
+November 5, 2026
+ Payward and its clients acquire AAVE token stake
+November 5, 2026
+ Payward and its clients acquire AAVE token stake
+Payward Inc.
+A collection of companies powering the open financial system.
+Trading
+Kraken
+Kraken Pro
+Kraken Wallet
+NinjaTrader
+Breakout
+Banking
+Krak
+Prime
+Asset Management
+Coming soon
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+About Payward
+Public Policy
+Contact
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions. © Payward 2026. All rights reserved. Cookies Policy

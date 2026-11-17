@@ -1,0 +1,123 @@
+
+Press release | 2026 Financial Highlights
+Trading
+Banking
+AI
+Asset Management
+Services
+About
+Trading
+Banking
+AI
+Asset Management
+Services
+About
+Governance
+Governance
+Newsroom
+Newsroom
+Careers
+Careers
+Payward Q1 2026: financial highlights
+May 18, 2026
+Invest strategically. Build resiliently. Grow at scale.
+By Arjun Sethi, Co-CEO of Payward
+Payward’s first quarter of 2026 demonstrates the durability of our platform strategy and the resilience of a business built to perform across cycles.
+Q1 2026 was a quarter of continued execution and investment in growth against a challenging market backdrop, as moderating crypto volatility and elevated geopolitical tensions weighed on markets globally. Where others pulled back, we leaned in – because our conviction hasn't wavered, and we believe the investments we’re making will define our competitive position for years to come.
+Against this environment, Payward delivered Adjusted Revenue of $507 million, up 3% year-over-year, with continued strength across our multi-asset superinfrastructure offsetting softness in core crypto trading. Notably, Futures DARTs rose 51% year-over-year, driven by NinjaTrader, Breakout, and our expanded futures offerings – a signal that our diversification strategy is gaining real traction with clients.
+Adjusted EBITDA totaled $18 million for the quarter, down due to a deliberate choice to continue investing through the cycle to accelerate product innovation, expand the breadth of our platform, and expand the regulatory stack that powers our multi-asset product offerings.
+Central to that investment thesis is a disciplined approach to strategic M&A. Recent acquisitions – Backed (tokenization), Magna (token lifecycle), Bitnomial (US derivatives), and Reap (global payments) – extend our platform into adjacencies that diversify revenue and serve a wider range of clients.
+Together, we believe these moves reflect one conviction: the next phase of financial infrastructure will be won by platforms that serve every client segment, across every asset class – expanding access, reducing friction, and unlocking capital efficiency.
+Q1 financial performance
+Payward delivered Adjusted Revenue of $507 million in Q1 2026, up 3% year-over-year, growing revenue in one of the most challenging quarters the industry has faced since 2022. When the market pulled back, Payward held its ground.
+Total Platform Transaction Volume was $357 billion in Q1, reflecting an industry-wide moderation in trading activity driven by macro headwinds and elevated geopolitical uncertainty. More broadly, Bitcoin price fell 22% in the quarter, total crypto market cap fell 23%, and industry spot volume fell 38%.
+For Kraken - the crypto side of Payward’s business - spot volume share climbed from approximately 3.5% in mid-2025 to a high of 5.2% in March 2026. Relative to the December 2024 volume peak, Payward retained 59% of its spot volume in March 2026 – 2.2x the ~27% retention rate of our largest competitors1. We continued to strengthen our competitive position in a down market.
+Adjusted EBITDA was $18 million, reflecting a conscious choice to keep investing through the cycle. We remained profitable while continuing to invest in the things that drive our business forward: strategic M&A, client acquisition, growth in Assets on Platform to fuel our revenue flywheel, AI tooling to automate core operations and deliver innovative new products to clients, and first-of-their-kind launches to drive future revenue growth – notably US retail margin. We’re not optimizing for today’s EBITDA. We’re building what we believe wins tomorrow.
+Assets on Platform were $40 billion as of March 31, 2026, an 11% year-over-year increase – or 48% when excluding the impact of asset price changes,2 reflecting continued net inflows. Funded Accounts grew 47% year-over-year to 6.1 million, as our reach and relevance continued to compound.
+A more resilient revenue mix
+The composition of our revenue is evolving in ways that strengthen our performance through market cycles. The integration of NinjaTrader and Breakout added meaningful new streams that do not move in lockstep with crypto asset prices, contributing to our outperformance relative to the broader market. Recent acquisitions of Backed, Magna, and Bitnomial extend this diversification further – across tokenization, token lifecycle management, and US derivatives – as they integrate into the platform. 
+Our multi-asset superinfrastructure is built to serve clients across asset classes, market conditions, and geographies. The platform operating today is broader, deeper, and more resilient than it was a year ago.
+Product and platform expansion
+Q1 2026 was a continuation of the execution and expansion we began building in 2025. Growth was driven by strong core product momentum and meaningful contributions from recent acquisitions.
+Direct to Consumer
+Equities trading on Kraken Desktop: US stocks and ETFs now available within Kraken’s unified multi-asset environment
+TradFi futures on Kraken Pro for EU customers: 70 TradFi futures markets (oil, gold, S&P 500, Nasdaq 100) alongside 290+ crypto perpetuals in one account
+Dual Investments on Kraken Pro: New yield product combining a fixed return with a market view on BTC or ETH
+Margin expanded across 40 pairs on Kraken Pro: Stablecoins up to 10x, gold tokens, BTC, ETH regional pairs up to 5x
+DeFi Earn launched: Simplified DeFi rewards up to 8% APY
+Kraken CLI announced: Command-line trading tool built for AI agents
+Krak Salary Match: Earn up to 1% more by receiving salary directly into Krak in the UK, Germany, and Luxembourg
+xStocks reaches 100 tokenized equities: Plan to expand to 500+ by end of 2026
+xChange introduced: Bridges traditional market depth with onchain flexibility through atomic settlement across Ethereum and Solana
+Business to Business
+Institutional
+Kraken Institutional’s first bespoke investment solution: Debut strategy with Bitwise Asset Management, first step toward managed crypto solutions
+Colocation access for institutional API traders: Partnership with Liquidity Connect provides deterministic, ultra-low latency connectivity to our exchange through direct fiber cross-connects
+xStocks on Kraken OTC: Institutional clients can trade tokenized US equities outside traditional market hours with the same direct liquidity, bilateral execution, and relationship-driven service they already rely on for crypto trading
+B2B
+Payward Services launched: B2B infrastructure platform for the new economy
+Payward Ramp/Onramper partnership: White-label fiat-to-crypto infrastructure solution, made available to wallets, Web3 dApps, and developers through Onramper’s aggregation platform
+Kraken 360 launched: End-to-end stack for protocol token launches, combining infrastructure, operations, and global distribution
+Kraken 360 pre-TGE playbooks: Three-part guide series (1, 2, and 3) for protocol teams ahead of token generation events
+Recent strategic M&A
+Backed: Payward completed its acquisition of Backed Finance in January 2026, extending our lead in tokenized equities.
+Magna: Payward acquired Magna in February 2026. Magna is the leading token management platform, used by more than 160 crypto-native teams to handle vesting, claims, distributions, and token lifecycle workflows. The acquisition extends Payward beyond trading infrastructure into a fully verticalized product suite, connecting early-stage fundraising, token issuance, custody, and lifecycle management into a single operating layer.
+Bitnomial: Payward acquired Bitnomial in May 2026 for up to $550 million in cash and stock. Bitnomial is the first US company to hold all three CFTC-issued licenses for a full-stack crypto derivatives business (DCM, DCO, FCM). This infrastructure, built natively for digital assets over more than a decade, gives Payward a fully regulated US derivatives foundation and, through Payward Services, a new channel for partners to offer regulated US derivatives via a single API.
+Reap (announced May 7): Payward entered into a definitive agreement to acquire Reap Technologies for up to $600 million in cash and stock. Reap is a stablecoin-native card issuing and payments infrastructure company, connecting card networks, traditional finance rails, and stablecoin settlement in a single API. The deal extends Payward Services into global cards and payments, and creates a complementary regulatory footprint across APAC, the Americas, EU, and US markets. Expected to close in H2 2026.
+Global reach and partnerships
+Payward x Nasdaq partnership: xStocks to power permissionless infrastructure for Nasdaq’s issuer-sponsored equity tokens, connecting regulated capital markets with decentralized ecosystems
+xStocks launches on 360X / Deutsche Börse: Extends tokenized equities standard to Deutsche Börse clients, bridging TradFi and digital asset markets
+ICE Chat integration: Kraken OTC desk embedded directly into ICE Chat workflows for institutional traders worldwide
+Transparency through Proof of Reserves
+Payward completed its latest quarterly Proof of Reserves as of March 31, 2026. Clients can independently verify that their assets are fully backed onchain and included in the report, which is validated by a third-party accounting firm, The Network Firm.
+*Reserve ratios as of March 31, 2026
+A look ahead
+Q1 tested the industry. Payward emerged from the period with more accounts, more assets, and more market share than at the start of the quarter – with profitability intact. We believe the recovery ahead will reward platforms with the infrastructure, trust, and diversification to serve clients at scale. That is the platform we have been building and will continue to invest in for the long term.
+Non-GAAP metrics
+Adjusted Revenue and Adjusted EBITDA are non-GAAP financial measures used by Management internally to understand, manage, and evaluate the business and make operating decisions. We believe these measures provide additional insight into our operational performance and help facilitate comparisons for the period indicated. Adjusted Revenue is derived by subtracting GAAP trading costs, net from total GAAP gross revenues and allows for greater comparability to peer exchanges. EBITDA is earnings before interest, taxes, depreciation and amortization. Adjusted EBITDA excludes irregular, non-recurring, and/or discretionary expenses and is intended to provide a clearer view of the company’s core profitability. Prior periods have been revised to conform to current period presentation.
+The information provided in this communication is for informational purposes only and does not constitute an offer, solicitation, or recommendation to buy or sell any token, security or financial instrument. It is not intended as, and shall not be relied upon as, investment, financial, legal, or tax advice. Past performance is not necessarily indicative of future results.
+Key Metric Definitions
+Total Platform Transaction Volume: The aggregate notional value, expressed in US dollar terms, of transactions executed across Payward’s platforms during the period presented. This includes, but is not limited to, transaction activity in Spot, Margin, Crypto Futures, Instant Buy & Sell, OTC Spot, Equities, and xStocks.
+Assets on Platform: The aggregate value, expressed in US dollar terms, of assets held by Payward’s customers across all products and asset types — including crypto, equities, and fiat currencies — measured as of the last day of the fiscal quarter. 
+Funded Accounts: The total number of distinct customer accounts across Payward's platforms and products that maintained a balance greater than zero as of the last day of the fiscal quarter. Sub-accounts are counted as separate accounts for purposes of this metric.
+Futures DARTs: The total number of Futures trades across Payward’s platforms, divided by the number of trading days in the period.
+Represents Daily Average Revenue Trades across TradFi futures and Crypto futures. 
+The Total Platform Transaction Volume and Futures DARTs metrics presented in this post have been calculated using updated methodologies since our prior financial highlights post. As a result, prior period figures may not be directly comparable to those presented herein. These updates are intended to more accurately reflect the Company’s operating performance and should be considered when evaluating period-over-period trends.
+Footnotes
+[1] Based on Payward’s analysis of public exchange crypto spot trading volume data.
+[2] Assets on Platform growth in “real terms” is calculated with asset prices held constant at Q4 2023 levels to isolate net client inflows from market-driven price movement. Excludes assets that have declined more than 99% in value relative to the Q4 2023 baseline to avoid distortion from severely impaired tokens.
+Latest news
+November 13, 2026
+ Payward Q3 2026 financial highlights
+November 13, 2026
+ Payward Q3 2026 financial highlights
+November 11, 2026
+ xStocks Brings the DAX 40 Onchain, Opening Germany's Largest Listed Companies to 24/7 Global Trading
+November 11, 2026
+ xStocks Brings the DAX 40 Onchain, Opening Germany's Largest Listed Companies to 24/7 Global Trading
+November 11, 2026
+ xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain
+November 11, 2026
+ xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain
+Payward Inc.
+A collection of companies powering the open financial system.
+Trading
+Kraken
+Kraken Pro
+Kraken Wallet
+NinjaTrader
+Breakout
+Banking
+Krak
+Prime
+Asset Management
+Coming soon
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+About Payward
+Public Policy
+Contact
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions. © Payward 2026. All rights reserved. Cookies Policy

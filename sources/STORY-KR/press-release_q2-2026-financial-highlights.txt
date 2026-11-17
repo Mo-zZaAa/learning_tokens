@@ -1,0 +1,172 @@
+
+Press release | Q2 2026 Financial Highlights
+Trading
+Banking
+AI
+Asset Management
+Services
+About
+Trading
+Banking
+AI
+Asset Management
+Services
+About
+Governance
+Governance
+Newsroom
+Newsroom
+Careers
+Careers
+Payward Q2 2026: financial highlights
+August 14, 2026
+Growing with resilience. Compounding at scale.
+By Arjun Sethi, Co-CEO of Payward
+This letter usually starts with our results. This quarter it starts with the market, because the results are a consequence of it.
+Three forces are rearranging the structure of global markets. Each has been building for years. This was the quarter they became impossible to ignore.
+The first force is convergence
+For a century, markets were organized by asset class: equities in one system, currencies in another, commodities in a third, each with its own venues, settlement stack, intermediaries, and hours. That organizing principle is dissolving. Equities now trade tokenized, around the clock, and settle in minutes. The largest asset managers in the world are issuing money market funds and treasury products in tokenized form. Private companies have liquid markets before they ever list. The question that matters is no longer whether an asset is traditional or digital. It is whether the infrastructure carrying it was built for how markets now behave: continuous, global, and programmable.
+The second force is onshoring
+For a decade, the most innovative market activity lived offshore, outside regulated perimeters, because regulated venues could not carry it. That era is ending. The United States now has CFTC-regulated perpetual futures and retail spot margin for the first time. Europe's MiCA regime has drawn a hard line between licensed platforms and everyone else, and activity is consolidating onto the licensed side of that line. Licenses have become one of the scarcest assets in financial services, and the firms that spent years accumulating them are absorbing the activity of those that did not.
+The third force is automation
+Market participation is becoming machine-speed and API-first. Execution, research, and portfolio decisions are moving into software, and increasingly into AI agents acting on behalf of people and institutions. Agents do not care about market hours or brand campaigns. They need APIs, continuous markets, instant settlement, and programmable collateral. Infrastructure built for humans clicking buttons will not carry them. Infrastructure built for AI agents will.
+One consequence of all three forces: capital now rotates across asset classes faster than it ever has. A platform built for a single asset class rides that asset's cycle, up and down. A platform built across asset classes captures the rotation itself.
+Q2 tested that difference, and the results read like the thesis.
+Payward grew Adjusted Revenue 17% year over year to $508 million and remained Adjusted EBITDA positive, and the growth was broad-based: no single part of the business carried the quarter alone.
+As spot volumes declined across the industry,1 our traditional futures, equities, and tokenized equities activity grew, we gained spot market share for the third consecutive quarter, and Futures DARTs (Daily Average Revenue Trades) grew 8% year over year. Clients increasingly trade more than one market with us.
+The mix tells the same story. Asset-Based and Other Revenue increased from 55% of total revenue in Q2 2025 to 60% in Q2 2026: a growing majority of the platform's revenue now comes from assets and services rather than trading fees. This is not a move away from trading. Trading is the engine room of this company, and 2026 is our largest trading investment year ever. It is what the engine now powers around it.
+Why the architecture matters
+Each of these forces rewards the same design decision, made years ago: build one platform, not a collection of products.
+Underneath every product we ship is a single shared infrastructure: one matching engine, one risk engine, one collateral and settlement core, and one portfolio of more than 100 licenses and registrations across the world. Convergence rewards the unified core, because assets that live on one ledger can trade, earn, collateralize, and settle against each other. Onshoring rewards the license portfolio, because regulated capacity cannot be bought off the shelf and takes years to assemble. Automation rewards rails that were API first from the start, because agents integrate with infrastructure, not with apps.
+On top of that foundation we operate four pillars:
+Payward Trading: spot and derivatives across crypto, equities, and traditional markets, serving consumers, professionals, and institutions through purpose-built surfaces on shared liquidity and one risk engine.
+Payward Banking: the money layer. Deposits, payments, cards, custody, and lending. Money at rest and money in motion.
+Payward Asset Management: investment products spanning structured yield, tokenized asset classes, and private market access. Our recipe is consistent: tokenize an asset, list it, make it collateral, make it earn, and distribute it everywhere.
+Payward Services: the same infrastructure, sold as a product. Banks, fintechs, and platforms integrate once for crypto trading, funding, tokenized assets, market data, card issuance, and payments, on our rails and our licenses.
+The structure pays us in three ways
+It makes us faster: every launch lands on a foundation that already exists, so each one is quicker and cheaper than the last, and we have never shipped faster than we are shipping right now.
+It makes growth durable: one platform earns both a share of the flow and a return on balances, so when volumes moderate, balances and services keep compounding.
+It makes the platform open: the rails that power Kraken, Krak, and NinjaTrader are a product our partners build on, and increasingly a product built for customers that are not human at all.
+We believe no other company building financial technology combines this reach, this license portfolio, and this breadth of products across every client segment: consumers, professionals, institutions, and businesses, in more than 190 countries and territories. And we ended the quarter with more Funded Accounts than at any point in our history.
+Disciplined M&A keeps accelerating the strategy
+Bitnomial gave us the regulated US derivatives stack behind two American firsts; Breakout brought Kraken Prop, our prop trading program, to market; and Reap, which closed on July 1, extends Payward Services into global payments and card issuance. Later in this letter we map where each deal sits, because the pattern matters more than any single transaction.
+Q2 financial performance
+Payward generated Adjusted Revenue of $508 million in Q2 2026, up 17% year over year.
+Adjusted EBITDA was $23 million. In May, we proactively aligned our cost structure with market conditions while protecting investment in our highest priority growth initiatives, strengthening operating leverage and liquidity through the cycle.
+Total Platform Transaction Volume was $310 billion, down 18% year over year, with the mix shifting as capital rotated: spot declined industry-wide while equities and tokenized equities posted significant growth.
+Assets on Platform were $40 billion. Measured in real terms, holding prices constant, client balances grew for the fourth consecutive quarter, even as asset prices declined. Real Assets on Platform grew 48% year over year to $65 billion2, a reflection of clients consolidating more of their financial lives on the platform.
+Funded Accounts grew 42% year over year to 6.6 million. Growth continued across geographies, with particular momentum in markets where our regulatory position is strongest, including the EEA following MiCA authorization, alongside rapid growth in earlier-stage markets.
+Product and platform expansion
+What follows is what we shipped in the quarter, pillar by pillar.
+Payward Trading
+The engine room. Four surfaces, one platform: the Kraken app for consumers, Kraken Pro for professionals, NinjaTrader for traditional futures, and APIs for institutions and machines.
+CFTC-regulated spot margin on Kraken Pro: the first CFTC-regulated spot margin offering for US retail clients, expanded to six additional pairs in June.
+US perpetual futures: the first CFTC-regulated perpetual futures available to US traders, built on our Bitnomial infrastructure.
+Kraken Prop: a crypto prop trading program that gives evaluated traders access to firm capital, powered by Breakout.
+Pre-IPO perpetual futures: perpetual futures on SpaceX, OpenAI, and Anthropic for eligible clients outside the US, plus an SPCX margin pair.
+Deeper leverage and collateral on Kraken Pro: up to 100x leverage on BTC and ETH for eligible clients outside the US, with HYPE, XAUT, and XMR added as collateral assets.
+Onchain trading coming to the Kraken app (announced in the quarter): direct DEX access inside the consumer app, bringing onchain markets into the same account clients already use for spot and derivatives.
+Kraken API Unlocked: a six-part technical series for systematic and algorithmic traders, deepening the API surface that machines trade through: automated strategies, market data feeds, FIX 4.4 connectivity, ultra-low-latency execution and multi-strategy operations.
+Payward Banking
+The money layer: where client cash lives, moves, and earns.
+Flexline: a crypto-backed line of credit that lets clients borrow against their holdings without selling, launched in April and extended to US clients in June.
+Krak expansion across Europe: virtual IBANs and our 1% salary match rolled out to 11 additional markets; Latvia, Greece, Croatia, Hungary, Romania, Lithuania, Estonia, Slovenia, Cyprus, Finland, and Malta.
+Real-world assets in qualified custody: we now support RWAs, starting with Janus Henderson’s JAAA.
+Kraken Custody support for SPL tokens: expanded qualified custody coverage for Solana builders and institutions.
+Payward Asset Management
+Investment products born on the rails: tokenize, list, collateralize, yield, distribute.
+IPO Access: tokenized pre-IPO exposure to private companies for eligible retail clients globally ahead of their public listings, launching with SpaceX and expanding to Bending Spoons in June.
+Bitcoin Vaults on Krak: a dedicated place to set bitcoin aside for the long term, held separately from everyday spending balances.
+Crypto and xStocks Bundles: portfolios that combine digital assets with our tokenized US stocks and ETFs offering (xStocks) into a single, auto-rebalanced investment.
+Opt-In Rewards yield expansion into xStocks: eligible holders in supported countries can earn up to 1% rewards on the xStocks they already hold with us.
+New staking support: NEAR and HYPE staking went live in the quarter.
+Trever Prime integration: extends Prime connectivity to Trever’s institutional client base.
+Across the pillar, the direction is consistent: from trading fees toward asset-based income.
+Payward Services
+This is the pillar worth explaining plainly. The infrastructure that runs our own products is itself a product. What cloud platforms became for computing, Payward Services is becoming for financial infrastructure: a partner integrates once and launches trading, funding, conversions, tokenized assets, market data, and payments inside their own product, on our rails and our licenses. Some of the companies building on these rails compete with us at the application layer. That is the definition of infrastructure. And the economics compound with our partners’ growth, not only our own: revenue here scales with the volume and assets partners bring to the rails.
+Unified Payward Services API: first external partner went live, followed in the weeks after quarter end by the trade fee engine, Conversions and Transfers APIs, EU equities, and Kraken RFQ integration. Partners now integrate once for trading, funding, and conversion instead of stitching together vendors.
+DeFi Earn Bitcoin Vault (May): launched as the first DeFi-yield bitcoin vault offered by a centralized exchange. It has drawn approximately $400 million in deposits and will anchor vaults-as-a-service for Payward Services partners.
+IPO Access: a new distribution channel giving partners tokenized exposure to private companies, including SpaceX, Bending Spoons, and Jersey Mike’s. Partner platforms sourced their SpaceX exposure through Payward Services infrastructure.
+xStocks distribution expansion: BNB Chain, Mantle and Bitget Wallet went live in the quarter, reaching 90 million self-custodial users through Bitget alone, with Bitso and CoinRoutes integrations alongside them. OKX went live in July; we announced a partnership with GTN to carry xStocks into international markets, and xStocks marked its first year on July 2.
+Prediction markets (June 24): we led a $20 million Series A in Onyx Odds, which is building its prediction markets directly on our fully licensed US derivatives stack and embedding crypto trading inside its app. A partner running its core business on our regulated infrastructure is the clearest proof of what this pillar is.
+Payward Services and Tempo: a partnership on global payments and stablecoin infrastructure, extending Payward Services further into payments rails.
+Indices and market data: our CF Benchmarks indices continue to underpin regulated crypto products across the industry, with revenue that scales with the assets referencing our benchmarks rather than the assets we hold.
+Building with AI
+The third force in this letter is not abstract to us. AI is in the machine, not an appendix to it, and we are building in three layers.
+In our products. AI-powered trading experiences are in the pipeline across our consumer and professional platforms. The Kraken CLI, released as open source earlier this year, ships with an MCP server that lets AI agents and algorithmic tools connect directly to our markets today.
+In our operations. We apply AI across risk monitoring, security, and compliance operations, always under model governance and human accountability.
+For the agent economy. We believe AI agents are an emerging class of financial customer. What agents need is exactly what this platform already provides: APIs, 24/7 markets, instant settlement, programmable collateral, and dedicated sub-accounts. We are building for that future deliberately, not just in our own apps, but as open rails for anyone building with AI. We will share more later this year.
+Recent strategic M&A: where each deal sits
+Our acquisition strategy follows one pattern. We buy irreducible inputs: licenses, registrations, and rails that would take years to build. We integrate them vertically, launch our own products on them first, and then open the same capability to partners through Payward Services. Each acquisition strengthens both sides.
+Bitnomial (closed May 1): completed our US CFTC-regulated derivatives stack. Vertically, it enabled Payward to launch regulated US spot margin and perpetual futures in Q2, with significant early momentum roughly two months after launch. As infrastructure, the same regulated venue now hosts partner products, including Onyx Odds’ prediction markets.
+NinjaTrader (2025): our surface for traditional futures, and the driver of this quarter’s Futures DARTs growth. Its technology also reaches beyond our first-party products through its established partner ecosystem of brokers and trading platforms.
+Breakout (2025): the engine behind Kraken Prop, extending our trading pillar into evaluated, capital-backed trading.
+Magna (closed February 13): now underpins Kraken 360, our end-to-end stack for protocol token launches, and the token lifecycle workflows we take to protocol teams ahead of a token launch.
+Reap (closed July 1): a stablecoin-native payments and card issuing platform. We will run our own card and payments products on it, and its issuance and payments capabilities are becoming part of the Payward Services catalog for partners, while its licenses complement our existing footprint of more than 100 licenses and registrations and accelerate international expansion.
+Magic Labs (announced July 27): an agreement to acquire Magic Labs’ wallet infrastructure business, which will add embedded wallets to the Payward Services stack once the acquisition closes, so partners can offer wallets inside their own products the same way they already offer trading and payments.
+Global reach and partnerships
+Partnerships extend the rails. Sponsorships extend the reach.
+Kraken and MoneyGram: a partnership to turn crypto into cash at global scale, connecting our platform to MoneyGram’s retail network across more than 100 countries.
+Payward and Franklin Templeton: a strategic collaboration to advance tokenized assets and institutional digital finance, including plans to tokenize seven Franklin Templeton ETFs through xStocks.
+Maple partnership: expands institutional access to onchain yield and lending markets.
+US Tech Force: we joined in June, supporting the development of American technology and financial infrastructure.
+Kraken and the FIFA World Cup 2026™: named Official Crypto Exchange Supporter of the tournament, bringing fan-first activations and product experiences to football fans across North America and Europe, with a cumulative audience of more than 6 billion projected across 104 matches in 16 host cities.
+UFC and NinjaTrader: an expansive multiyear partnership that puts NinjaTrader in front of a global sports audience.
+Global licensing
+Licenses are among the scarcest inputs in financial services, and they are the foundation the four pillars stand on. The portfolio kept growing in Q2, and so did the pipeline behind it:
+VARA preliminary approval in the UAE: granted preliminary approval for a broker-dealer, investment and management license.
+VASP in the British Virgin Islands: secured Virtual Asset Service Provider (VASP) registrations from the British Virgin Islands Financial Services Commission.
+OCC National Trust Company application: filed in May, deepening our commitment to regulated digital asset infrastructure in the US.
+Transparency through Proof of Reserves
+Payward completed its latest quarterly Proof of Reserves as of June 30, 2026. Clients can independently verify that their assets are fully backed onchain and included in the report, which is validated by a third-party accounting firm, The Network Firm.
+*Reserve ratios as of June 30, 2026
+A look ahead
+The three forces at the top of this letter are early, not finished.
+Convergence: tokenization has touched a fraction of the assets it will carry.
+Onshoring: regulated capacity is still scarce.
+Automation: agents are only beginning to transact.
+Our second half is built against all three: more products on each pillar, including AI-powered trading and structured products, with expanded card, banking, and lending capabilities as they are ready; more geographies, on a license portfolio we believe few can match; and more partners and builders, human and machine, on the rails through Payward Services.
+The industry around us is consolidating. We built this company so that is when we compound fastest.
+Definitions of key operating metrics
+Total Platform Transaction Volume: The aggregate notional value, expressed in US dollar terms, of transactions executed across Payward’s platforms during the period presented. This includes, but is not limited to, transaction activity in Spot, Margin, Crypto Futures, Instant Buy & Sell, OTC & Prime Spot, Equities, and xStocks.
+Assets on Platform: The aggregate value, expressed in US dollar terms, of assets held by Payward’s customers across all products and asset types — including crypto, equities, and fiat currencies — measured as of the last day of the fiscal quarter.
+Funded Accounts: The total number of distinct customer accounts across Payward’s platforms and products that maintained a balance greater than zero as of the last day of the fiscal quarter. Sub-accounts are counted as separate accounts for purposes of this metric.
+Futures DARTs: The total number of Futures trades across Payward’s platforms, divided by the number of trading days in the period. Represents Daily Average Revenue Trades across TradFi futures and Crypto futures.
+Footnotes
+1 Based on Payward’s analysis of public exchange crypto spot trading volume data.
+2 Assets on Platform growth in “real terms” is calculated with asset prices held constant at Q2 2025 levels to isolate net client inflows from market-driven price movement. Excludes assets that have declined more than 99% in value relative to the Q2 2025 baseline to avoid distortion from severely impaired tokens.
+Latest news
+November 13, 2026
+ Payward Q3 2026 financial highlights
+November 13, 2026
+ Payward Q3 2026 financial highlights
+November 11, 2026
+ xStocks Brings the DAX 40 Onchain, Opening Germany's Largest Listed Companies to 24/7 Global Trading
+November 11, 2026
+ xStocks Brings the DAX 40 Onchain, Opening Germany's Largest Listed Companies to 24/7 Global Trading
+November 11, 2026
+ xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain
+November 11, 2026
+ xStocks Broadens Suite of Tokenized Assets, Bringing Hundreds of UK and EU-Listed Equities Onchain
+Payward Inc.
+A collection of companies powering the open financial system.
+Trading
+Kraken
+Kraken Pro
+Kraken Wallet
+NinjaTrader
+Breakout
+Banking
+Krak
+Prime
+Asset Management
+Coming soon
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+About Payward
+Public Policy
+Contact
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions. © Payward 2026. All rights reserved. Cookies Policy
