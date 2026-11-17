@@ -1,0 +1,175 @@
+Kraken Enables Bitcoin Cash (BCH) Deposits and Withdrawals - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ August 7, 2017
+ | 
+ News 
+
+Kraken Enables Bitcoin Cash (BCH) Deposits and Withdrawals
+
+Bitcoin Cash (BCH) deposits and withdrawals are now online – read on for important details!
+
+How many confirmations are required for deposits?
+
+20 confirmations required before BCH deposits are credited
+
+We may lower the required number of confirmations in the coming weeks if the BCH network grows and more miners join the network.
+
+A word of caution about BCH transfers
+
+The BCH network may remain potentially vulnerable for several weeks or more. Clients should take this elevated risk into account when transferring funds. In the event that a deposit is invalidated on the network after the funds are credited to a Kraken account, the amount of the deposit will be debited from the account. If this results in a negative BCH balance withdrawals will be locked until the balance is corrected (by either depositing or buying BCH).
+
+Make sure you only deposit BCH to BCH-specific deposit addresses
+
+Remember that Kraken has asset-specific deposit addresses and any funds sent to an address that isn’t specific to the asset will not be credited. Bitcoin Cash (BCH) deposits should only go to BCH-specific deposit addresses, and regular Bitcoin (XBT) deposits should only go to XBT-specific addresses. Any BCH sent to a XBT deposit address will not be credited and any XBT sent to a BCH deposit address will not be credited.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Qualified custody: the pre-TGE decision that unlocks institutional capital
+
+ 13 min read 
+ May 5th, 2026
+
+Celebrating 100 xStocks and the growing global market for tokenized equities
+
+ 4 min read 
+ March 18th, 2026
+
+Flexline deep dive: the rate-sensitive trader
+
+ 4 min read 
+ May 4th, 2026
+
+TEL is available for trading!
+
+ 2 min read 
+ January 22nd, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
+
+ Loading Comments...
+
+ Write a Comment...
+
+ Email (Required)
+
+ Name (Required)
+
+ Website

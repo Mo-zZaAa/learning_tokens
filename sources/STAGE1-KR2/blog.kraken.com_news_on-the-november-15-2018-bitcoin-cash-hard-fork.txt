@@ -1,0 +1,193 @@
+On the November 15 2018 Bitcoin Cash hard fork - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ November 10, 2018
+ | 
+ News 
+
+On the November 15 2018 Bitcoin Cash hard fork
+
+Bitcoin Cash will hard fork on November 15 2018 around 4:40 pm UTC as part of a scheduled protocol upgrade. This upgrade is more controversial than previous ones and may result in multiple viable chains after the fork.
+
+Initially Kraken will only support Bitcoin ABC, which follows the Bitcoin Cash upgrade roadmap published by bitcoincash.org. You can view the November 15 upgrade here. On November 15 Kraken will prepare its Bitcoin Cash (BCH) wallets to be Bitcoin ABC specific so that coins from any alternative chains will be retained and not sent out from our wallets in withdrawals. We will not support any alternative chains for funding or trading on the day of the fork. We will then monitor the situation in the weeks and months after the fork and evaluate whether or not any changes to our stance are warranted, including the possibility of supporting an alternative chain. However, we make no promise or guarantee that any alternative chain will be supported. Clients who want perfect control should withdraw their BCH from Kraken prior to the fork.
+
+When will the fork happen?
+
+The fork is expected on November 15 2018 around 4:40 pm UTC. Technically, the fork will occur when the median time past of the 11 most recent blocks is greater than or equal to UNIX timestamp 1542300000. You can view a fork countdown here (we do not vouch for the accuracy of this site however).
+
+Will funding be disabled around the time of the fork?
+
+Yes – we will disable Bitcoin Cash (BCH) funding approximately 60 minutes prior to the fork. Be sure to make any BCH deposits or withdrawals safely ahead of this time. After the fork we will not enable BCH funding until we think it is safe to do so, and we do not know in advance how long this may take.
+
+Warning: after the fork if you wish to preserve coins from any alternative chains in your personal wallets, be sure to split your coins and only send coins from the Bitcoin ABC protocol to Kraken BCH deposit addresses. Kraken will not credit coins from alternative chains sent to BCH deposit addresses after the fork.
+
+Will trading be disabled around the time of the fork?
+
+No – BCH trading will continue across the fork. After the fork, any BCH balances in your Kraken account will be tokens of the Bitcoin ABC network (the protocol and roadmap published by bitcoincash.org).
+
+Extreme volatility should be expected
+
+Be cautious trading BCH around the time of the fork, as there may be extreme volatility.
+
+Service availability not guaranteed
+
+We often see denial of service attempts that coincide with hard forks or high market volatility. Traders should plan for intermittent and unpredictable access to the Kraken service and other possible unexpected behavior.
+
+Follow us for any updates on the hard fork
+
+Twitter: https://twitter.com/krakenfx
+
+Status page: https://status.kraken.com/
+
+What are some of the possible alternative chains?
+
+Bitcoin SV
+
+The main rival to Bitcoin ABC is Bitcoin SV, which is proposed by nChain. You can read the announcement about the creation of Bitcoin SV here. Bitcoin SV does not presently meet Kraken’s listing requirements and is unlikely to be supported. Edit: Kraken listed Bitcoin SV on November 18. Read the announcement here: https://blog.kraken.com/post/1928/kraken-credits-clients-with-bitcoin-sv-bsv-and-launches-bsv-trading/
+
+No Change (Bitcoin NayBC)
+
+There may also be a chain that continues the current Bitcoin Cash protocol with no change or upgrade. Advocates of this option are not necessarily against any change or upgrade, but think that any change should wait for a later time when a less controversial change can be found. It is unlikely that this chain will have sufficient mining power to remain viable and Kraken has no plans to offer support.
+
+Kraken has not announced intent to support any alternative chains. This means that you should not expect to ever be credited with any alternative forked/airdropped coins related to this event. If you want the option to preserve/claim tokens on alternative chains, you must withdraw your BCH from Kraken prior to funding being disabled on November 15th. By leaving your coins on Kraken through the upgrade, you are potentially forfeiting any coins on alternative chains that might otherwise be available to you.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Announcing CFTC-regulated perpetual futures for US Traders
+
+ 5 min read 
+ June 15th, 2026
+
+Introducing Kraken Ramp: The gateway for the digital economy
+
+ 3 min read 
+ November 20th, 2025
+
+Trade the Nasdaq 100 with our money using Kraken Prop
+
+ 3 min read 
+ July 20th, 2026
+
+Payward to acquire Bitnomial, creating a fully CFTC-licensed derivatives platform
+
+ 4 min read 
+ April 17th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

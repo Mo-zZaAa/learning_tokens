@@ -1,0 +1,245 @@
+Reviewing the Past Year - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ January 15, 2015
+ | 
+ News 
+
+Reviewing the Past Year
+
+Here’s a look back at major Kraken milestones from the past year (since our launch in September 2013).* It’s been a very busy year and we are pleased to see that our achievements reflect our commitment to providing  clients with the best possible exchange experience.
+
+January 14, 2015  – Volume Reaches New All-Time Daily High
+
+Over 12,000 bitcoins are traded on January 14, 2015, resulting in a new daily high which almost doubles the previous record set on October 5, 2014.
+
+November 25, 2014 – Kraken to Aid MtGox Liquidation and Investigation
+
+Kraken is selected to support the investigation of missing bitcoins and help with the distribution of assets to MtGox creditors. Kraken is chosen over other companies for reasons including its proven track record of stable exchange operation and reliable customer support, and possesses the skill and expertise required to properly carry out an investigation of the lost Bitcoin and the distribution of assets to creditors. Read more: http://blog.kraken.com/post/103599171158/mt-gox-bankruptcy
+
+October 31, 2014 – Kraken and Fidor to Build World’s First Crypto Bank
+
+Kraken and Fidor bank announce plans to create the world’s first cryptocurrency bank. The aim of the open initiative is to set up a fully regulated and licensed financial services entity and pool financial services from different providers in the cryptocurrency space. Read more: http://finance.yahoo.com/news/worlds-first-crypto-currency-bank-155900701.html
+
+October 30, 2014 – Launches Bitcoin-Yen Trading in Japan
+
+Kraken launches trading between bitcoin and Japanese Yen. Domestic JPY funding goes live simultaneously with the new trading option. Kraken now offers comprehensive support for Japanese speakers, with a fully translated Japanese version of the site and Japanese-speaking support agents to assist clients. Read more: http://blog.kraken.com/post/101373998612/kraken-launches-bitcoin-yen-trading-in-japan
+
+October 28, 2014 – Adds USD and GBP
+
+Kraken launches a partnership with PayCash, a Luxembourg-based leader in innovative EU focused payment solutions, to provide both US dollar (USD) and British pound (GBP) funding to its clients. These new funding options coincide with the launch of bitcoin-pound (XBT/GBP) trading. Read more: http://blog.kraken.com/post/101210792222/kraken-adds-usd-and-gbp
+
+October 5, 2014 – Volume Reaches All Time Daily High
+
+Over 6,400 bitcoins are traded on Sunday, October 5, marking a new all time daily high for Kraken. 
+
+September 15, 2014 – Releases iOS App
+
+Kraken announces the launch of the Kraken iOS app. The app allows clients to view market data, check on their open orders, and read the latest bitcoin news. Clients praise the app for its intuitive, easy interface. Read more: http://blog.kraken.com/post/97625728442/introducing-the-kraken-ios-app
+
+September 4, 2014 – Enables Stellar Trading
+
+Stellar is similar to Ripple with the important difference that it is being developed by a non-profit organization and much more of the currency (stellars) will be given away for free. Read more:  https://www.stellar.org/blog/introducing-stellar/
+
+May 30, 2014 – First Place in the CoinTelegraph Exchange Awards 
+
+Kraken takes first place in the CoinTelegraph Exchange Awards. The awards are based on an extensive review of all the major exchanges. Kraken is especially noted for its outstanding security, usability, support, selection of advanced order types, and low fees. Read more: http://cointelegraph.com/news/111621/the_cointelegraph_exchange_review_results_and_more
+
+May 1, 2014 – Named one of the 10 Most Promising Bitcoin Startups
+
+Kraken is chosen by Bitcoin consultant Tim Swanson as one of the 10 most promising start-ups working with blockchain technology. Read more: http://www.businessinsider.com/10-most-promising-blockchain-companies-2014-5#%21JPMuV
+
+April 30, 2014 – Listed on Bloomberg Terminal
+
+Bloomberg launches with bitcoin prices for the over 320,000 clients of its industry-leading terminal for multi-asset data, news and analytics. At launch, Kraken is honored as the only exchange providing complete bitcoin market data to the terminal.  Read more: http://www.bloomberg.com/now/2014-04-30/bitcoin-now-bloomberg/
+
+April 23, 2014 – “A” Rating from TheBlogChain
+
+Kraken receives the highest “A” rating in a review by TheBlogChain. Kraken is especially noted for outstanding security features (receiving and 11/10 in the review for security), and for excellent customer service. Read more: http://theblogchain.com/bitcoin-exchange-reviews/kraken-review/
+
+April 15, 2014 – Enables Dogecoin Trading
+
+Dogecoin is best known for its fun and friendly approach to marketing, and for its highly active community of users. Read more: http://en.wikipedia.org/wiki/Dogecoin
+
+March 25, 2014 – Raises $5M in Series A
+
+Kraken raises 5 million dollars in its series A investment round. The round is led by Hummingbird Ventures. Other investors include Trace Mayer and Barry Silbert. Read more: http://www.cnet.com/news/bitcoin-exchange-kraken-raises-millions-of-dollars/
+
+March 24, 2014 – Passes World’s First Cryptographically Verifiable Proof of Reserves Audit 
+
+Kraken passes the world’s first ever cryptographically verifiable proof of reserves audit. The audit verifies that the total amount of bitcoins held by Kraken exceed the amount required to cover the balances held by customers. The process is the first to effectively implement a method that allows individual customers to cryptographically verify that their balance at the time of the audit was included in the audit. Read more: http://www.coindesk.com/krakens-audit-proves-holds-100-bitcoins-reserve/
+
+February 16, 2014 – #1 Euro Exchange by Volume
+
+Kraken moves this week into the #1 volume spot for trading between bitcoins and euros. The surge in volume may be due in part to the favorable impression Kraken made in avoiding the transaction malleability issue that affected many other exchanges a week earlier.
+
+February 11, 2014 – Unaffected by Transaction Malleability
+
+Kraken is one of the few exchanges unaffected by the “transaction malleability” that required most other exchanges to temporarily halt operations. Kraken is unaffected because its developers considered the risk of transaction malleability from the beginning and built robust accounting procedures into the exchange. Read more: http://blogs.wsj.com/moneybeat/2014/02/11/scary-bitcoin-glitch-revealed-but-does-it-go-beyond-mt-gox/
+
+November 18, 2013 – Enables Namecoin Trading
+
+Namcoin is the first fork of Bitcoin and creates a flexible distributed data storage network. Read more: http://en.wikipedia.org/wiki/Namecoin
+
+October 28, 2013 – Discovers Critical Flaw in Namecoin Protocol
+
+Kraken COO Michael Gronager discovers a flaw in the Namecoin protocol. The bug is discovered during an investigation that is done for any digital currency to make sure it’s safe before adding it to Kraken for trading. Read more: http://www.coindesk.com/namecoin-flaw-patch-needed/
+
+October 9, 2013 – Exclusive Partnership with BaFin Regulated Fidor Bank
+
+Kraken announces an exclusive partnership with BaFin regulated Fidor Bank. This powerful, innovative partnership is the first of its kind between a bitcoin exchange and a licensed, insured bank. Read more: http://forexmagnates.com/the-legitimization-of-bitcoin-kraken-partners-with-bafin-regulated-fidor-bank/
+
+September 17, 2013 – First Exchange to Switch to Standard Bitcoin Currency Code XBT
+
+Kraken becomes the first exchange to switch to XBT as the currency code for bitcoin. XBT will eventually become the standard used by professional exchanges around the world. This code has, for example, been adopted by Bloomberg for use on its industry-leading data terminal. Read more: http://www.coindesk.com/bitcoin-gaining-market-based-legitimacy-xbt/
+
+September 10, 2013 – Kraken Launches
+
+Kraken launches with trading between euros, bitcoins and litecoins, as well as offering the most advanced security features in the industry and nine advanced order types. Read More: http://www.coindesk.com/kraken-opens-for-trading-with-euros-bitcoins-and-litecoins/
+
+August 19, 2013 – Named one of Bitcoin’s Most Important Companies
+
+Prior to launch, Kraken is listed among Bitcoin’s most important companies in an article on Upstart Business Journal. Read more: http://upstart.bizjournals.com/money/loot/2013/08/19/the-22-most-important-bitcoin-companies.html
+
+*Milestones have been attributed approximate dates when necessary.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+SCOR is available for trading!
+
+ 2 min read 
+ March 20th, 2026
+
+FOMC decision, GDP, PCE, and Big Tech earnings, all in the next 2 weeks
+
+ 9 min read 
+ April 22nd, 2026
+
+Earn up to 4.25% APY on USDe with Kraken
+
+ 2 min read 
+ March 31st, 2026
+
+CPI, PPI, and FOMC minutes headline a two-week data window
+
+ 7 min read 
+ August 12th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

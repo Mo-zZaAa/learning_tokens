@@ -1,0 +1,201 @@
+New feature: “cash out” of margin positions with position settlement! - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ May 5, 2016
+ | 
+ News, Product 
+
+New feature: “cash out” of margin positions with position settlement!
+
+We’ve added a great new feature to margin trading. It is called “Position Settlement” and it essentially gives you the option to “cash out” of margin positions. Even if you think leveraged margin trading is not for you, read on, because this feature opens up new ways to use margin that may benefit you! 
+
+What is position settlement? 
+
+Position settlement automates something that was previously only possible on Kraken manually. A leveraged margin position is a spot trade executed through an advance financed by Kraken. For example, a long XBT/EUR position is opened by advancing the trader EUR to buy XBT in a spot trade. And a short XBT/EUR position is opened by advancing the trader XBT to sell for EUR in a spot trade. To close the position, the funds advanced to the trader must be returned to Kraken.
+
+One way to return the funds is by executing an opposing trade to acquire the advanced asset from the market (a sell order to close a long position or a buy order to close a short position).
+
+Another way is to return the advanced funds directly from the trader’s account balance with no trade involved – this is position settlement. Returning the advanced funds in settlement effectively replays the trade from your own balance. Upon completion of a position settlement, you will have swapped out Kraken’s advance for your own assets. Thus, position settlement effectively allows clients to close all or part of a position by buying or selling at the same price the margin position was opened at. 
+
+Examples: if you open a 10 bitcoin long position in XBT/EUR @ 400 EUR, you can close all or part of the position by buying up to 10 bitcoins @ 400 EUR using the EUR balance in your account. Or if you open a 10 bitcoin short position @ 400 EUR, you can close all or part of the position by selling up to 10 bitcoins from your balance @ 400 EUR.
+
+Why should you care? 
+
+There are two main benefits of position settlement. First, it allows you to lock in a buy or sell price before you have deposited the full amount of funds to complete the transaction. This is especially useful for profiting from a move in the market that may happen before your deposit arrives!
+
+Examples: You only have EUR in your account but want to sell some bitcoins from your private wallet. You can lock-in a price for selling the bitcoins before depositing them to your account by creating a short position then settling the position by selling the deposited bitcoins at the previously locked-in price. Or suppose you only have bitcoins in your account and want to buy more before your next bank deposit arrives. You can do this by creating a long bitcoin position at your desired price and settling the position at this price after the bank funds are credited to your account.
+
+The second benefit of position settlement is that it allows you to carry on a trade longer than you normally would with a margin position. 
+
+Example: You have a long bitcoin position and it is nicely profitable. If you don’t want to keep the margin position open much longer (say to avoid further margin fees), you can convert the margin position to a bitcoin balance and let the trade ride that way as long as you want – simply buy the bitcoin at the original position execution price using the fiat currency in your account balance.
+
+How is it done? 
+
+Position settlement is executed with a special order type. It is found only in the advanced order form UI (as “Settle Position”) or through our API (as “settle-position”). 
+
+To settle a long position: Create a Buy Settle Position order. Simply choose the amount you want to settle (up to the total size of your long positions) and select any level of leverage. In the example below, a Buy Settle Position order for 5 bitcoins is created. The bitcoins will be bought using EUR funds from the account at the price the position was opened at. 
+
+To settle a short position: Create a Sell Settle Position order. Simply choose the amount you want to settle (up to the total size of your short positions) and select any level of leverage. In the example below, a Sell Settle Position order for 500 ethers is created. 500 ethers from the account will be sold in return for bitcoins at the price the position was opened at. 
+
+API trading: Settle Position orders work as described in our API documentation under “Add standard order,” with the order type called as “settle-position”. See the API documentation here: https://www.kraken.com/help/api#private-user-trading 
+
+Please note: Position settlement follows the FIFO (“first in first out”) rule – meaning that positions are always settled in the order they are created.
+
+What does it cost?
+
+Since position settlement does not involve a spot trade, naturally there is no fee associated with paying off the advance and closing your position in this manner. It is a free service to any account with margin enabled!
+
+Questions about the settle feature or how to get started with margin trading?
+
+Try these helpful resources: 
+
+From our help center: https://support.kraken.com/hc/sections/200559303-Trading-Leverage-and-Margin
+
+From our trading guide: https://support.kraken.com/hc/sections/200560633-Leverage-and-Margin
+
+Chat with us live: https://www.kraken.com
+
+Send us an email: support@kraken.com
+
+We hope you enjoy the settle feature – stay tuned for announcements about more new features coming soon!
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Put more weight behind every purchase: Announcing the Krak Metal Debit Card
+
+ 5 min read 
+ March 31st, 2026
+
+A Krak virtuális IBAN-okat vezet be Lettországban, Görögországban, Horvátországban és Magyarországon, 1%-os fizetési bónusszal
+
+ 7 min read 
+ May 7th, 2026
+
+Announcing colocation access via Liquidity Connect
+
+ 2 min read 
+ April 8th, 2026
+
+Ditt lönekonto. Ditt IBAN. Dina pengar börjar arbeta från dag ett.
+
+ 4 min read 
+ July 29th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

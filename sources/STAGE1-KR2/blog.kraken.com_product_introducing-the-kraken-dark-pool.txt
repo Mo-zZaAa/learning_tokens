@@ -1,0 +1,159 @@
+Introducing the Kraken Dark Pool - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ June 11, 2015
+ | 
+ News, Product 
+
+Introducing the Kraken Dark Pool
+
+We are pleased to announce the Kraken dark pool, a new feature that allows clients to discreetly place large bitcoin orders and execute against similar sized orders at potentially better prices.  
+
+Kraken is now one of the few exchanges offering a dark pool for bitcoin.
+
+The Kraken dark pool is an order book not visible to the rest of the market. Each trader only knows their own orders. Traders can anonymously place large buy or sell orders without revealing their interest to other traders. Typically, outsized orders, when seen by other traders will cause the market to move unfavorably, making it more difficult to fill the order at the desired price. This unfavorable price movement may be avoided in a dark pool.
+
+The dark pool will accept orders for trading between bitcoins and EUR, USD, JPY or GBP. Dark pool pairings are designated by a “.d” extension (e.g. XBT/EUR.d or XBT/USD.d).
+
+Clients wanting to get started with dark pool trading should go to https://www.kraken.com to login or create and account. Then simply select one of the dark pairs in the intermediate or advanced order form.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+20 million bitcoins mined: why Bitcoin’s fixed supply cap still matters
+
+ 3 min read 
+ March 9th, 2026
+
+FOMC meets July 28–29 as stablecoin rulemaking deadline lands
+
+ 4 min read 
+ July 15th, 2026
+
+Introducing Synthetic Pairs on Kraken Pro
+
+ 4 min read 
+ March 23rd, 2026
+
+Oxidizing Kraken, Part 2: from bet to backbone
+
+ 8 min read 
+ December 16th, 2025
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

@@ -1,0 +1,560 @@
+[
+ {
+  "id": "KR-Q01",
+  "co": "Kraken",
+  "parent": "Q1",
+  "q": "한 문장으로 무엇을 하는 회사인가",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E41"
+   ],
+   "structs": [
+    "entities"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-Q02",
+  "co": "Kraken",
+  "parent": "Q2",
+  "q": "누구에게 무엇을 주고 무엇을 받나",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E31",
+    "KR-E45"
+   ],
+   "structs": [
+    "money"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-Q03",
+  "co": "Kraken",
+  "parent": "Q3",
+  "q": "매출은 어디서 가장 많이 나오나",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E45"
+   ],
+   "structs": [
+    "money:KR-M01~M04"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-Q04",
+  "co": "Kraken",
+  "parent": "Q4",
+  "q": "매출 구성은 어떻게 변해 왔나",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E45"
+   ],
+   "structs": [
+    "money:KR-M05~M09"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-Q05",
+  "co": "Kraken",
+  "parent": "Q5",
+  "q": "무엇에서 출발했나",
+  "a": "",
+  "refs": {
+   "events": [],
+   "structs": [
+    "timeline"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-Q06",
+  "co": "Kraken",
+  "parent": "Q6",
+  "q": "무엇을 언제 왜 붙였나",
+  "a": "",
+  "refs": {
+   "events": [],
+   "structs": [
+    "timeline"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-Q07",
+  "co": "Kraken",
+  "parent": "Q7",
+  "q": "직접 만들었나, 샀나, 제휴했나. 왜 그 방식인가",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E09",
+    "KR-E18",
+    "KR-E19",
+    "KR-E25",
+    "KR-E27",
+    "KR-E35",
+    "KR-E36"
+   ],
+   "structs": []
+  },
+  "tails": [],
+  "story": [],
+  "pm": [],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-Q08",
+  "co": "Kraken",
+  "parent": "Q8",
+  "q": "어느 법인이 어느 인가로 무엇을 하나",
+  "a": "",
+  "refs": {
+   "events": [],
+   "structs": [
+    "entities"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-Q09",
+  "co": "Kraken",
+  "parent": "Q9",
+  "q": "주문, 돈, 자산은 누구에게서 누구에게로 가나",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E23",
+    "KR-E31"
+   ],
+   "structs": [
+    "products",
+    "sales"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-Q10",
+  "co": "Kraken",
+  "parent": "Q10",
+  "q": "어느 나라 자산을 어느 나라 투자자에게 파나",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E16",
+    "KR-E18",
+    "KR-E38"
+   ],
+   "structs": [
+    "sales"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-Q11",
+  "co": "Kraken",
+  "parent": "Q11",
+  "q": "잘하고 있나",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E23",
+    "KR-E27"
+   ],
+   "structs": [
+    "money"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-Q12",
+  "co": "Kraken",
+  "parent": "Q12",
+  "q": "KDX 스토리라인 어디에 넣나. 계속 볼 회사인가",
+  "a": "",
+  "refs": {
+   "events": [],
+   "structs": []
+  },
+  "tails": [],
+  "story": [],
+  "pm": [],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K01",
+  "co": "Kraken",
+  "parent": "K1",
+  "q": "무엇으로 돈 버나. 거래, 자산, 접근 기반은 각각 누구에게 무엇을 주고 받는 돈인가",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E45"
+   ],
+   "structs": [
+    "money:KR-M01~M04"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 39:57 / 1:15:40"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K02",
+  "co": "Kraken",
+  "parent": "K2",
+  "q": "2011~2018 무엇을 팔았나",
+  "a": "",
+  "refs": {
+   "events": [],
+   "structs": [
+    "timeline"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 42:59 / 48:47"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K03",
+  "co": "Kraken",
+  "parent": "K3",
+  "q": "가장 먼저 시작했는데 왜 Binance에 밀렸고, 언제 무엇을 보고 넓히기로 했나",
+  "a": "",
+  "refs": {
+   "events": [],
+   "structs": []
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 42:59"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K04",
+  "co": "Kraken",
+  "parent": "K4",
+  "q": "Crypto Facilities의 인가와 선물의 기초자산",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E09"
+   ],
+   "structs": [
+    "entities:KR-L15"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 34:33 / 35:09"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K05",
+  "co": "Kraken",
+  "parent": "K5",
+  "q": "셋을 다 가진 Bitnomial이 있는데 왜 세 곳을 샀나. 왜 직접 안 만들었나. 왜 오래 걸렸나",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E19",
+    "KR-E25",
+    "KR-E35",
+    "KR-E11",
+    "KR-E13"
+   ],
+   "structs": [
+    "entities:KR-L05~L07"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 36:33 / 56:30 / 57:44"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K06",
+  "co": "Kraken",
+  "parent": "K6",
+  "q": "와이오밍 인가는 정확히 무엇이고 왜 은행 인가였나",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E10",
+    "KR-E30",
+    "KR-E44"
+   ],
+   "structs": [
+    "entities:KR-L03"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 49:57"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K07",
+  "co": "Kraken",
+  "parent": "K7",
+  "q": "인수 기준 문장을 읽히게",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E19",
+    "KR-E31"
+   ],
+   "structs": []
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 54:32"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K08",
+  "co": "Kraken",
+  "parent": "K8",
+  "q": "다른 회사에 판다는 것은 무엇인가. 누가 왜 돈을 내나",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E20",
+    "KR-E31",
+    "KR-E40"
+   ],
+   "structs": [
+    "money:KR-M03",
+    "sales:KR-S09"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 44:15 / 46:08"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K09",
+  "co": "Kraken",
+  "parent": "K9",
+  "q": "xStocks는 법인인가 브랜드인가. 기초 주식은 누가 돈을 내고 샀나",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E23",
+    "KR-E27"
+   ],
+   "structs": [
+    "products"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 59:47 / 1:01:30"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K10",
+  "co": "Kraken",
+  "parent": "K10",
+  "q": "돈을 잘 버는데 Nasdaq 투자를 왜 받았나. 시장감시 기술 도입은 무슨 뜻인가",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E33",
+    "KR-E26"
+   ],
+   "structs": []
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 1:01:58"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K11",
+  "co": "Kraken",
+  "parent": "K11",
+  "q": "토큰 첫 공모(xPO)는 IPO와 무엇이 다른가",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E37"
+   ],
+   "structs": []
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 1:03:09 / 1:05:19"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K12",
+  "co": "Kraken",
+  "parent": "K12",
+  "q": "GTN은 무엇을 하는가. 어느 나라 주식을 어느 나라 투자자에게",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E38"
+   ],
+   "structs": [
+    "sales:KR-S06~S07"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 1:06:13 / 1:10:20"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K13",
+  "co": "Kraken",
+  "parent": "K13",
+  "q": "키프로스 건의 인수일, 인가일, 영업 개시일",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E18"
+   ],
+   "structs": [
+    "entities:KR-L09"
+   ]
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 1:07:07"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K14",
+  "co": "Kraken",
+  "parent": "K14",
+  "q": "LSE 건은 무엇을 하는 시설이고 Kraken의 역할은",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E42"
+   ],
+   "structs": []
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 1:10:47"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K15",
+  "co": "Kraken",
+  "parent": "K15",
+  "q": "요약에서 확장 항목을 한 구조로",
+  "a": "",
+  "refs": {
+   "events": [],
+   "structs": []
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 1:15:40"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ },
+ {
+  "id": "KR-K16",
+  "co": "Kraken",
+  "parent": "K16",
+  "q": "CoinDesk 인터뷰의 네 사업 영역과 만들기, 사기, 제휴의 기준",
+  "a": "",
+  "refs": {
+   "events": [
+    "KR-E41",
+    "KR-E19",
+    "KR-E33"
+   ],
+   "structs": []
+  },
+  "tails": [],
+  "story": [],
+  "pm": [
+   "23, 1:13:01"
+  ],
+  "status": "7번 대기(채팅 쪽 한 줄 답 받아 맞춤)"
+ }
+]

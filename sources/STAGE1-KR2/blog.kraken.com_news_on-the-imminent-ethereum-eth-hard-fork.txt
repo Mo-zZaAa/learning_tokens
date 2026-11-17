@@ -1,0 +1,176 @@
+On the imminent Ethereum (ETH) hard fork - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ October 17, 2016
+ | 
+ News 
+
+On the imminent Ethereum (ETH) hard fork
+
+The Ethereum foundation is planning a hard fork at block 2463000, expected to be reached on Tuesday October 18th 2016 PDT. The fork introduces changes to help protect against the recent DOS attacks on the network. The fork is expected to go very smoothly with the DOS-protected fork quickly becoming the dominant chain while the old vulnerable chain quickly dies out. Learn more about the hard fork and follow updates from the Ethereum foundation on their blog.
+
+Ethereum blog: https://blog.ethereum.org/
+
+What Kraken clients need to know about the hard fork
+
+Funding for ETH, ETC, DAO, REP will be halted – do not send deposits during the fork
+Kraken will halt funding of ETH and all related assets (ETC, DAO, REP) a couple of hours prior to the fork. Client funds will be safely secured on Kraken during this period. Funding will be re-enabled after the outcome of the fork is clear and the network is safe. Kraken clients should not send ETH, ETC, DAO or REP deposits during the fork.   
+
+Trading will continue as normal
+Trading of ETH and all related assets (ETC, DAO, REP) will continue as normal. All ETH, ETC, DAO and REP balances will be tokens of the dominant chain (the chain with the most work on it) after the fork. 
+
+Will Kraken support balances and trading on the non-dominant chain?
+No – Kraken will only support the dominant chain (the chain with the most work on it). 
+
+Update your Ethereum client
+Everyone should update their Ethereum client to the latest version. ETC users should use the latest version of Parity or the official Ethereum Classic Go client (https://github.com/ethereumproject/go-ethereum/releases). ETC users should not use the current version of the foundation Geth client, since it will fork ETC on Tuesday.  
+
+Why is ETC funding being halted?
+An ETC fork is planned for October 25th. However, there is some risk of an unintentional ETC fork along with the ETH fork, because many people are running normal ETH clients with the classic flag set. Due to these risks, ETC funding will also be halted while the outcome of the ETH fork is determined.
+
+Follow us for any updates on the hard fork
+
+https://twitter.com/krakenfx
+
+https://status.kraken.com/
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+The Commodities Cup: trade oil, gas, and copper for a share of $10,000 USDG
+
+ 4 min read 
+ August 20th, 2026
+
+RAIN is available for trading!
+
+ 2 min read 
+ February 10th, 2026
+
+NEO is available for trading!
+
+ 2 min read 
+ May 8th, 2026
+
+RLS is available for trading!
+
+ 2 min read 
+ December 1st, 2025
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

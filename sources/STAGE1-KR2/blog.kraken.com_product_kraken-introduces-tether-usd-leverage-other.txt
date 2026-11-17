@@ -1,0 +1,187 @@
+Kraken introduces tether-USD leverage & other enhancements to margin program - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ April 20, 2017
+ | 
+ Product 
+
+Kraken introduces tether-USD leverage & other enhancements to margin program
+
+Kraken launched support for tether-USD (USDT/USD) trading on March 29 and now adds 2x leveraged margin trading for this pair. Further enhancements to the margin program include higher 5x leverage for other trading pairs:
+
+Bitcoin-USD (XBT/USD): 5x
+
+Ether-bitcoin (ETH/XBT): 5x
+
+Ether-EUR (ETH/EUR): 5x
+
+Ether-USD (ETH/USD): 5x
+
+Margin trading for USDT/USD will help drive volume and liquidity, and may improve price discovery. In the past USDT traded very near $1 USD on confidence that USDT could be redeemed 1:1 for USD from the reserves held by Tether Limited (the company behind the Tether System). However, recently USDT price has come under sell pressure because, although Tether Limited claims to maintain full reserves, the ability to redeem USDT for USD has been temporarily suspended while they transition to a new banking partner.
+
+Which USDT pairs and leverages are available?
+
+USDT/USD: 2x
+
+What are the USDT limits?
+
+T1 = 2000 USDT
+
+T2 = 7500 USDT
+
+T3 = 20000 USDT
+
+T4 = 75000 USDT
+
+What are the margin fees?
+
+Open: 0.01%
+
+Rollover: 0.01%
+
+Related Posts:
+
+Kraken Announces Support for “crypto dollar” Tether (USDT)
+
+Kraken Acquires Cryptowatch and Launches New Trade Platform
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Stablecoins are rewriting global finance. Where is Canada?
+
+ 7 min read 
+ June 4th, 2026
+
+PACT is available for trading!
+
+ 2 min read 
+ February 26th, 2026
+
+QUID is available for trading!
+
+ 2 min read 
+ August 5th, 2026
+
+More leverage, more strategies: Kraken Pro expands margin across 40 pairs
+
+ 4 min read 
+ March 18th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

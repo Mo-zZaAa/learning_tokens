@@ -1,0 +1,193 @@
+Phishing attempt on BitcoinTalk - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ June 2, 2016
+ | 
+ News, Security 
+
+Phishing attempt on BitcoinTalk
+
+ We have been alerted to multiple phishing attempts in the past 24 hours which appear to have been targeted at BitcoinTalk users.
+
+Anyone who received an email with the subject Mtgox.Claim assessment process should delete it and not click on the link it contains! This email did not come from Kraken, but was spoofed to look as though it came from our support email (support@kraken.com).
+
+For more information about the email, see this post on reddit:
+
+https://www.reddit.com/r/Bitcoin/comments/4m3op0/psa_phishing_attempts_reported_today_kraken_re/ 
+
+We do not know exactly how the email addresses were obtained, but if your email address on BitcoinTalk is not hidden, you should consider hiding it. Kraken clients can be assured that this incident was not the result of any breach in Kraken’s database and all client information with Kraken is safe.
+
+Even if you did receive the email, you are safe so long as you do not click on the link (just delete the email and you will be fine). If you did click on the link and you downloaded a file, DO NOT open or run the file. If you have a Kraken account and believe that your system or account credentials might be compromised, please immediately contact us at support@kraken.com and include “PHISHING” in the subject line. Our team will be able to lock down your account while you recover from the incident and get set up in a clean environment.
+
+As always, if you receive an unexpected email that appears to be from Kraken, remember the following:
+
+You can view the full email headers (or full source) to see where the email actually originates from.  Look out for SPF Fail or DKIM Fail, or lack of mention in the headers.
+
+You can reply to the email asking for confirmation – if the sender is spoofed, the message will come to Kraken and not to the attacker
+
+Mass mailings will always be signed with our key: https://www.kraken.com/en-us/security/pgp
+
+Kraken will never require you to install any software, much less through a link from a public file sharing site such as Google Drive.
+
+Here are some more resources to learn about phishing:
+
+https://safety.yahoo.com/Security/PHISHING-SITE.html
+
+http://www.csoonline.com/article/2953190/vulnerabilities/google-drive-phishing-is-back-with-obfuscation.html
+
+Other recommended security precautions:
+
+Please take a moment to set up two-factor authentication on your account if you haven’t already:
+
+https://support.kraken.com/hc/en-us/articles/203395513
+
+Additionally, you may want to enable the global settings lock for increased security:
+
+https://support.kraken.com/hc/en-us/articles/201396877-What-is-the-Global-Settings-Lock-
+
+If you’re using Gmail, we recommend going through the following security checklist:
+
+https://support.google.com/mail/checklist/2986618
+
+Stay safe and keep on trading!
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+MiCA enforcement begins July 1. Switch to one of Europe’s longest-standing licensed exchanges.
+
+ 4 min read 
+ June 19th, 2026
+
+Volume profile indicators now available on Kraken Desktop
+
+ 4 min read 
+ July 7th, 2026
+
+New EEA futures traders: no trading fees for your first 30 days
+
+ 4 min read 
+ June 25th, 2026
+
+Kraken вже скоро в Secret Terminal
+
+ 1 min read 
+ July 16th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

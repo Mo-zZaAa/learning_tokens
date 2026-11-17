@@ -1,0 +1,303 @@
+The State of Kraken Client Services - 18Q2 - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ July 27, 2018
+ | 
+ News, Product 
+
+The State of Kraken Client Services – 18Q2
+
+Customer service is deeply important to Kraken.  It is core to our brand and company culture.  Security first and customer service second.  We must set a positive example for this industry, and do things better than the services we seek to replace.  If we take care of our clients, they’ll take care of us.
+
+— Kraken CEO, Jesse Powell
+
+Introduction
+
+As part of our effort to improve the Kraken client experience, we have been issuing internal reports to track the performance of our Client Services team. This report, the first of a planned series, is adapted for public consumption from our internal reports. We are sharing this information because we think our clients will appreciate more insight into the challenges we face, the progress we have made, and our plans for further improvement.
+
+For this quarter, we have achieved some significant milestone goals including:
+
+client satisfaction has improved significantly to 94% compared to 80% in the prior two quarters as our specialists are able to service clients with quicker and more personable responses;
+
+median first response time (FRT) has shown strong improvements to 2 hours this quarter compared to over 7 days in Q1 2018 and 16 hours in Q4 2017;
+
+median total resolution time (TRT) improved to 10 hours compared to over 11 days in Q1 2018 and 41 hours in Q4 2017;
+
+Tier 4 applications are typically processed and approved in less than 6 hours, Tier 3 verifications in under 1 hour, Tier 2 in under 15 minutes; and
+
+only 2 complaints filed with the CFPB, down from 17 in Q1 2018 and 3 in Q4 2017.
+
+In Q4 2017 through Q1 2018, client support was confronted with many challenges which we faced an uphill path to overcome. The chief challenge was accommodating the unprecedented influx of new clients. As cryptocurrencies appreciated parabolically, the demand to trade on our platform shared the same massive growth. This set the stage for three specific challenges for our team which resulted in ticket backlogs and long wait times for account verification and support requests:
+
+our trading engine at the time had difficulties handling the high trade volume;
+
+our fiat funding partners, also unprepared for the explosion in demand became a bottleneck to resolving issues; and
+
+our specialists couldn’t keep up with new account verifications and incoming support requests.
+
+The current volume of tickets to our support queue is moderate compared to prior quarters. We have seen a shift in focus of trading support tickets as clients seek education on our platform rather than offering their criticisms. While the surge is behind us and wait times are dramatically reduced, a few of the things we’ve done to be better prepared for the next wave include:
+
+the introduction of a new trade engine that will be upgraded and maintained on a regular basis;
+
+adding nearly 200 security-minded and knowledgeable specialists to our team since the beginning of the year;
+
+increasing the number of specialists online at any given time to enhance our support capabilities across all geographic regions and timezones;
+
+re-introducing live chat to instantly service client requests;
+
+streamlining verifications and multiple backend processes; and
+
+helping our fiat funding and other service providers optimize processes.
+
+Key Performance Indicators (KPIs) & Accomplishments
+
+Over the last quarter, we have seen a decline in new ticket requests to 133,671 compared to 505,509 in Q1 2018.
+
+Despite this decrease in ticket volume, we have continued to bolster our recruiting and training programs such that our service capacity not only dwarfs the current need, but will soon eclipse the highest volume days of Q3 2017 and Q1 2018 as well, ensuring that we can provide immediate, personalized service well into the next bull market.
+
+Kraken continues to train highly capable specialists for the groups in which we experienced the highest volumes of backlogged requests earlier in 2018. We do this while streamlining processes within our Support Center to allow specialists to focus their attention on clients’ needs.
+
+In March of this year, we re-launched our live chat platform in order to give our clients an immediate service experience.
+
+Since this initiative, we have seen live chat grow to 39% of our solved tickets, with the number of chat engagements each month growing from under 5,000 to upwards of 13,000 as we continue to increase our coverage of support topics and increase the size of our chat team.
+
+In order to keep up with the demand of this service, we have expanded coverage to 24 hours a day on weekdays. The ability to deliver top-quality, real-time service to our clients 24/7 via constant chat availability is something we hope to achieve in the coming months.
+
+Q2 2018 KPI Comparison Against Industry Benchmark
+
+Source: The Zendesk Customer Service Benchmark (Financial Services)
+
+When compared against industry benchmarks, our Client Services team outperforms the benchmark in every category, while handling 30x the ticket volume.
+
+Trailing Twelve Month Trends
+
+Highest daily number of tickets: 18,388 tickets on January 3, 2018
+
+Highest daily number of new accounts: 71,055 on January 3, 2018
+
+Top five ticket categories, respectively: Verification, General Questions, Fiat Funding, Account Access, and Crypto Funding
+
+Top five live chat categories, respectively: Account Access, Fiat Funding, Verification, General Questions, and Trading
+
+Nearly 700,000 accounts have been verified on our exchange over this period
+
+Language Coverage
+
+Our diverse client support team is distributed globally, with 15+ language proficiencies, offering native language support to the majority of the world. The above map (darker blue) highlights language proficiencies for nations’ official languages supported within our Client Services team.
+
+Select Client Feedback
+
+The feedback below has not been altered except to correct grammar and redact any personal information.
+
+I would like to thank you guys for protecting my investment in Kraken. If you didn’t freeze my withdrawals someone would have stolen all my money. I will always recommend Kraken to all my friends. Thank you.
+
+I did not have to wait for a reply and was practically helped on the spot. Within 15 minutes my issue was solved and I could use my account again. Great work.
+
+Support is always top quality. Usually I get fast replies and answers to my emails. Problems get handled in a professional yet heartfelt matter. I really feel the people instead of just a formal ‘customer service’. You guys must have a fun and progressive work floor. Thanks.
+
+I never had such a positive feeling about a human on the other side of the web 🙂 You helped a lot, and you do it with style. If ever ever you find yourself in [redacted], please let us know, my wife and me would be truly glad to have a cup of coffee with you. I never wrote something like this to “just somebody” I hope you do not mind. [client attached a family photo with the email].
+
+10/10 Kraken has been by far the best exchange customer service I’ve ever had…Honestly, Kraken has some of the best customer service I’ve received online period.
+
+I have been very satisfied with the support and quick responses I have received from the team and would like to note that in comparison to my experiences with other exchanges, Kraken has by far and away been the best.
+
+I’m glad I chose to use Kraken as a crypto exchange. This was not my first time when I received the support from the support team. I don’t know how you do it but both times I had the feeling that this support is reliable, personal and effective. I’m not worried at all if I need support with my cryptos because the problems are solved so easily and smoothly.
+
+Trends in Support Issues
+
+As the cryptocurrency ecosystem continues to grow and evolve, phishing attacks and attempts at compromising your online accounts are simultaneously increasing in frequency and evolving in their complexity.
+
+To ensure that our Kraken community does their best to keep themselves and their Kraken accounts as secure as possible, we offer the following advice:
+
+ Follow Safe Browsing Practices: 
+
+Do not use Google Search or any other search engine to locate our site. Make sure you are only navigating to one of our two official Kraken website URLs: https://www.kraken.com or https://trade.kraken.com
+
+Tip: Bookmark these two URLs within your internet browser and use those bookmarked links whenever you want to access our site.
+
+Read more in our 2016 warning about phishing.
+
+Enable Account Security Features:
+
+All Kraken account holders should secure their account by utilizing our available security features. Protecting your account with two-factor authentication is recommended for all users. Learn how to secure your account here:
+
+https://support.kraken.com/hc/en-us/articles/201396837-Securing-Your-Account.
+
+Remember that it’s also important to protect your email and mobile phone accounts as hackers will often try to compromise those as a way to take over your crypto accounts.  We encourage everyone to re-read our blog post from 2016 on mobile phone security.
+
+ Beware of Social Engineering Attempts:
+
+If you have been contacted by anyone claiming to be a Kraken Support Representative and are unsure about whether or not that contact was made by a legitimate Kraken employee, navigate to www.kraken.com to open a support ticket via our Support page or immediately contact a Live Chat Support team member.
+
+At this time Kraken does not officially offer phone support. Any advertisement of a Kraken support phone number is assuredly a scam (which we would appreciate you reporting).
+
+Goals for Next Quarter
+
+A more intuitive Support Center and regularly updated guide articles will allow clients to more easily find answers on their own. Increasing the size of our chat team will mean that clients who need the assistance of an informed specialist will experience a nearly seamless and immediate transition to live chat from our Support Center or home page.
+
+We aim to continue to delivering exemplary service to our clients while:
+
+maintaining solved-to-new tickets ratio while minimizing any backlog;
+
+improving satisfaction ratings (our current 94% is great but we want to do even better);
+
+improving first response and total resolution times;
+
+improving the live chat support by adding more support topics and increasing the timezone coverage of live chat specialists for 24/7 support;
+
+increase our effective bandwidth by training more specialists in a broader range of support topics; and
+
+improving verification times for Tier 4 to 2 hours, Tier 3 to 20 minutes and Tier 2 to 5 minutes.
+
+Given this list of goals for the next quarter and beyond, we are looking to expand and strengthen our team to achieve these ambitions. Specifically, we encourage applicants who can fulfill our needs for diverse time zone coverage and language proficiencies to apply to our growing team by visiting our Careers page.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+ROLL is available for trading!
+
+ 2 min read 
+ January 16th, 2026
+
+Krak predstavlja virtualne IBAN-ove u Latviji, Grčkoj, Hrvatskoj i Mađarskoj uz bonus na depozit plaće od 1 %
+
+ 5 min read 
+ May 7th, 2026
+
+ALMANAK is available for trading!
+
+ 2 min read 
+ December 11th, 2025
+
+Kraken raises $800 million to advance strategic roadmap 
+
+ 3 min read 
+ November 18th, 2025
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
+
+ Loading Comments...
+
+ Write a Comment...
+
+ Email (Required)
+
+ Name (Required)
+
+ Website

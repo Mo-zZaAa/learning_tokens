@@ -1,0 +1,165 @@
+Update on ETC/ETH funding - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ July 27, 2016
+ | 
+ News 
+
+Update on ETC/ETH funding
+
+When will ETC funding be available?
+
+The ETC funding gateway is expected to come online on Thursday July 28th sometime before 12pm UTC. Edit: ETC funding is now live!
+
+If I deposit ETH will Kraken credit my ETC too?
+
+If you have not yet split your ETH and ETC into different wallets and are worried about the replay attack, you can safely make an ETH deposit to Kraken. The transaction will automatically be replayed on the ETC network if possible and you will receive both your ETH deposit and an equal amount of ETC. However, the ETC will not be credited to your account until our ETC gateway comes online (see above for the ETA on this). But keep in mind that if the ETH deposit cannot be replayed on the ETC network, then you will of course not be credited for any ETC (they will still be in your wallet). One scenario in which the ETC transaction will not be replayable is if you deposit more ETH than you have in ETC. 
+
+Support for contract and block reward deposits
+
+When the ETC gateway comes online the ETH gateway will also be updated. Both gateways will for the first time support deposits from contracts and deposits from block rewards. This means that your Kraken deposit address can be used as the destination address for transactions resulting from contracts. You can also use your Kraken deposit address for block rewards. Another benefit is that the standard Ethereum wallet (Mist) uses a contract as default wallet, so you can now use this default wallet to make deposits to Kraken. 
+
+Reminder: Removing the ICAP deposit option
+
+Remember that we are removing the ICAP deposit option for both ETH and ETC. If you use any ICAP deposit addresses you should switch over to hex addresses immediately. Almost all of our clients use hex addresses already, so only a few will be affected by this change.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+New EEA futures traders: no trading fees for your first 30 days
+
+ 4 min read 
+ June 25th, 2026
+
+Kraken expands access in Colombia with local payment integration
+
+ 2 min read 
+ December 4th, 2025
+
+CHECK is available for trading!
+
+ 2 min read 
+ November 20th, 2025
+
+Цього літа — комісії нижчі на Kraken Pro
+
+ 1 min read 
+ June 3rd, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

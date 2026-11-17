@@ -1,0 +1,19 @@
+번호,법인(정식 이름),브랜드 또는 부르는 이름,소재지,지배,인가의 정식 이름(감독),이 인가로 하는 일,확보 방식,날짜(종류),근거
+KR-L01,"Payward, Inc.",Payward(모회사),미국 와이오밍 Cheyenne,최상위 모회사. 25% 넘게 가진 개인 주주 없음,,"그룹 지주. xStocks 발행사와 토큰화 서비스 계약, 발행사 지출 부담 약정",,2011-07 설립,F-0359 F-1334 F-0921
+KR-L02,"Payward Interactive, Inc.",Kraken(미국 가상자산),미국,"Payward, Inc. 자회사","FinCEN 등록 송금업자(MSB), 주별 송금업 인가(NMLS #1843762)",미국 고객 가상자산 매매와 Krak 송금,직접,,F-0375 F-0376
+KR-L03,"Payward Financial, Inc.",Kraken Financial,미국 와이오밍,Payward 그룹,"와이오밍 특수목적 예금기관(SPDI) 인가, 와이오밍 은행국 감독. 연준 제한목적 마스터 계정","달러 예금 수취, 가상자산 수탁, Fedwire 직접 결제. 대출 금지, 예금 100% 유동자산 보유",직접,"2020-09-16 취득, 2026-03 연준 계정",F-1719 F-1720 F-1722 F-1532 F-0377
+KR-L04,Kraken Securities LLC,Kraken 미국 주식,미국,"Payward, Inc. 100%","SEC 등록 브로커딜러(8-71030), FINRA 회원","미국 주식과 ETF 주문 접수(소개 증권사). 체결, 청산, 보관은 Alpaca Securities에 맡김",직접,"2024-06 등록, 2025-04 서비스 시작",F-0242 F-0371 F-0372 F-1338
+KR-L05,"NinjaTrader Clearing, LLC",Kraken Derivatives US,미국,Payward 그룹(NinjaTrader 인수),"CFTC 등록 선물 중개사(FCM), NFA 회원","미국 고객 선물 계좌와 증거금 관리, CME 상장 가상자산 선물 주문 전달",인수(NinjaTrader),"2025-03-20 발표, 2025-05-01 완료",F-1117 F-0177 F-1439
+KR-L06,"Small Exchange, Inc.",Small Exchange,미국,Payward 그룹,"CFTC 지정 선물 거래소(DCM, 2020-03-10 지정)","선물과 옵션 상품 설계와 상장, 주문 체결",인수(IG Group에서),2025-10-16 발표(완료),F-1116
+KR-L07,"Bitnomial Exchange, LLC / Bitnomial Clearinghouse, LLC / Bitnomial 선물 중개 법인",Bitnomial,미국 시카고,"Payward 그룹, 기존 인가와 제3자 청산 구조 유지","CFTC 선물 거래소(DCM, 2020-04-17 지정), 청산소(DCO, 2023-12-15 등록), 선물 중개사(FCM)","미국 안 파생 상품 상장, 체결, 청산. 미국 첫 CFTC 규제 무기한선물의 시장과 청산",인수,"2026-04-17 발표, 2026-05-01 완료",F-1118 F-1345 F-1638
+KR-L08,Payward Digital Solutions Ltd(PDSL),Kraken 버뮤다,버뮤다,Payward 그룹,버뮤다 금융청(BMA) 디지털자산사업법 Class F 인가(2024-08-01),"미국과 EU 밖 고객의 현물, 파생, xStocks 매매 중개, 일부 선물의 거래장. xStocks 승인 참가자(AP)",직접,"2024-08-01 인가, 2024-10 파생 거래장 출범",F-1369 F-1416 F-0919 F-1368
+KR-L09,Payward Europe Digital Solutions (CY) Limited,Kraken EU 증권(옛 I.F. Greenfields Wealth),키프로스,Payward 그룹,키프로스 증권거래위원회(CySEC) 투자회사 인가 342/17(MiFID II),"EEA 고객 파생(무기한, 만기)과 xStocks 판매, xStocks 승인 참가자",인수,"2025-02 인수 발표, 2025-05-20 EU 파생 출시, 2025-09-10 EU xStocks",F-1370 F-1529 F-0156 F-0920 F-1528
+KR-L10,Payward Europe Solutions Limited(PESL),Kraken EU 가상자산,아일랜드,Payward 그룹,아일랜드 중앙은행(CBI) MiCA 가상자산사업자(CASP) 인가,EEA 30개국 가상자산 매매와 수탁,직접,2025-06 인가,F-1371 F-0381 F-0382 F-0250 F-0251
+KR-L11,Payward Ireland Limited,Kraken EU 전자화폐,아일랜드,Payward 그룹,아일랜드 중앙은행 전자화폐기관(EMI) 인가,EEA 고객 법정화폐 입출금과 결제,직접,,F-1371 F-1254
+KR-L12,Payward Europe Limited(PEL),,아일랜드,Payward 그룹,,Backed Finance AG 지분 100% 보유(2026-01-05경 매입),,2026-01,F-0939 F-0938
+KR-L13,Backed Finance AG,Backed,스위스 Zug,PEL 100%,,xStocks 발행사의 유일한 주주. 토큰화 지식재산은 2026-01-06 Payward로 넘김,인수,"2025-12-02 발표, 2026-01-05경 완료",F-0139 F-0938 F-0923
+KR-L14,Backed Assets (JE) Limited,xStocks 발행사,저지,Backed Finance AG 100%,금융감독 인가 대상 아님. 저지 금융감독청(JFSC) 차입통제령 동의와 자금세탁방지 등록. 기본 투자설명서는 리히텐슈타인 금융시장청(FMA) 승인,"xStocks 발행과 상환, 기초 주식 매수와 담보 보관 위탁. 직원 없음, Payward 인력과 시스템 사용",인수(Backed와 함께),2024-01-19 설립,F-0935 F-0940 F-0942 F-0970
+KR-L15,Crypto Facilities Ltd,Kraken Futures(영국),영국,Payward 그룹,영국 금융감독청(FCA) 규제 다자간거래시설(MTF) 운영과 지수 산출,미국 밖 고객 가상자산 선물 거래장,인수,2019-02 발표,F-1336 F-1367 F-1253
+KR-L16,Reap,Reap,홍콩(아시아태평양),"Payward 그룹, 브랜드와 경영진 독립 유지",Reap의 아시아태평양과 미주 기존 인가,"기업용 스테이블코인 카드 발급, 국경 간 송금, 재무관리 API",인수(최대 6억 달러),"2026-05-07 발표, 2026-07-01 완료",F-1512 F-1195 F-1256
+KR-L17,Saldo Finance Oy(지주)와 Saldo Bank,Saldo Bank,"핀란드 지주, 리투아니아 은행",계약 중(규제 승인 조건),리투아니아 은행 인가(EU),"유럽 고객 예금과 대출, 결제, 카드",인수 계약,"2026-10-14 계약, 2027 종결 예상",F-1194 F-1358
+KR-L18,Payward Oceanic Ltd.,Kraken OTC,,Payward 그룹,,"현물, 파생, 대출 장외 거래(OTC)",,,F-0455

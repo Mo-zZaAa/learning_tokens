@@ -1,0 +1,233 @@
+What Does it Really Cost to Buy and Sell Bitcoins? - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ September 9, 2014
+ | 
+ News 
+
+What Does it Really Cost to Buy and Sell Bitcoins?
+
+The total cost to buy and sell bitcoins at an exchange involves more than you might think. It depends not only on trades fees, but also on deposit and withdrawal fees, conversion fees, and slippage from spread and depth. This can make it difficult to know what your true transaction cost is, especially since the effect of spread and depth is a hidden cost.
+
+Below we discuss a way to measure the total cost, which we call the “Complete Cost Index” (CCI). The CCI is a tool that can help you understand your total transaction cost so your assessment isn’t skewed by trade fees alone, which is what most exchanges will try to sell you on. We calculate the CCI for a range of sites to see how Kraken compares to the competition. Kraken does pretty well!
+
+The Complete Cost Index
+
+The Complete Cost Index measures the overall cost efficiency of an exchange by calculating the total round-trip transaction cost starting from your bank to the exchange and back again. Results are expressed as a percentage representing the amount of money remaining after the round-trip transaction.
+
+The calculation starts with a hypothetical deposit amount and any deposit fees charged by the exchange are subtracted. Next, any currency conversion fees are subtracted (say if you deposit euros but have to convert to dollars to trade). Bitcoins are then bought with a market order, and the buy price for the order is calculated using the actual order book. The bitcoins are then sold with a market order again using the order book to determine the sell price.
+
+Bitcoins are bought and sold at market because this provides a way to measure spread and depth. Spread is the difference in price between the best buy and sell offers in the order book. A larger spread means you will pay more to buy bitcoins and receive less to sell bitcoins, creating a hidden transaction cost. Depth is how your price to buy or sell depends on the volume of your order. Weaker depth creates another hidden cost because you pay more for larger buy orders and receive less for larger sell orders.
+
+Finally, fees for withdrawing back to the bank are calculated by subtracting the withdrawal fee and any conversion fees. The amount left in your bank account at the end is then divided by the starting amount, and the percentage left is the CCI. Thus, the higher the number, the lower the cost.
+
+The results
+
+In Figure 1 below, the CCI is calculated for a range of euro deposit amounts at exchanges that support SEPA deposits and withdrawals. As you can see from the chart, Kraken is the lowest in total cost of the group for transactions up to about €25,000.
+
+The CCI for Kraken vs other exchanges supporting SEPA. Higher number is better (lower cost). Solid lines indicate data at the time the chart was printed, and shading indicates max/min from previous 24 hours. X-axis (volume) is logarithmic. Chart printed on Sept 7th, 2014.
+
+Why is Kraken’s total cost so low?
+
+Because we have reasonable trade fees, very low deposit and withdrawal fees, no conversion fee (since you can trade natively in euros), a tight spread, and solid depth. Compared to BTC-e, for example, Kraken is much lower cost, because BTC-e has weaker depth in the euro market and higher SEPA fees (1% SEPA deposit fee and 1% SEPA withdrawal fee).
+
+The CCI for direct sale sites
+
+Direct sale sites are a convenient way to buy small amounts of bitcoin, but you pay for the convenience. Direct sale sites can seem like they don’t have fees, because they only list buy and sell prices, but the hidden fees are exposed by looking at the CCI.
+
+The CCI for direct sale sites is still a measure of the total cost to do a round trip from your bank and back, but the cost in this case is just the spread between buy and sell prices at the site. In Figure 2 below, the CCI for Kraken is compared to the CCI for direct sale sites that support SEPA. As you can see from the chart, the cost to buy and sell bitcoins at Kraken is much lower compared to the direct sale sites.
+
+The CCI for Kraken vs direct sale sites supporting SEPA. Higher number is better (lower cost). Solid lines indicate data at the time the chart was printed, and shading indicates max/min from previous 24 hours. X-axis (volume) is logarithmic. Chart printed on Sept 7th, 2014.
+
+Limitations of the CCI
+
+The CCI is a measure of all the major costs to trade bitcoin, but depending on how you trade, you might not have all of these costs. So the CCI should be considered in light of your personal trading style. For example, if you deposit and withdraw from an exchange in bitcoin, then you won’t have bank fees. The fees to deposit or withdraw bitcoins weren’t included in this study because they are negligible at Kraken and most other exchanges. Or, if you use limit orders, you can mitigate the effects of spread and depth to some extent, though it’s generally going to be harder to get limit orders filled at an exchange with a larger spread and weaker depth.
+
+Bitcoin exchanges included in the CCI
+
+kraken.com
+
+Kraken charges €0.09 for SEPA withdrawals, nothing for deposits. The order book is true bitcoin-euro trading, so there are no conversion fees involved. The trade fee schedule is listed here and runs from 0.35% to 0.1%.
+
+bitstamp.net
+
+BitStamp charges €0.90 for SEPA withdrawals, nothing for deposits. The order book only offers bitcoin-dollar trading so conversion fees apply on deposits and withdrawals (the conversion spread can be queried by API). The trade fee schedule is listed on the site and runs from 0.50% to 0.20%. Bitstamp has the strongest depth of the group, so it starts to take the lead in the CCI for volumes above approximately €25,000.
+
+btc-e.com
+
+BTC-e charges 1% for both SEPA deposits and withdrawals. The trade fee schedule is a flat 0.20%. BTC-e has a €2,000 deposit limit, so that’s why the chart starts at €2,000.
+
+anxbtc.com
+
+ANX charges €0.90 for SEPA withdrawals, nothing for deposits. The order book is fundamentally bitcoin-dollar with the conversion fees internalized. This means that you can trade bitcoin-euro, but the spread is pretty large due to the internalized conversion fee. The trade fee schedule is maker/taker with a flat 0.60% taker fee (market orders are taker).
+
+itbit.com
+
+ItBit charges €3.64 for SEPA deposits and €8.03 for SEPA withdrawals. The book is true bitcoin-euro so there are no conversion fees. The fee schedule is maker/taker and the taker fee runs from 0.50% to 0.35% (market orders are taker).
+
+Bitcoin direct sale sites included in the CCI
+
+safello.com
+
+Safello only posts a flat buy and sell price, hence the flat line. The CCI is just a measure of the spread between their buy and sell prices.
+
+bitcoinnordic.com
+
+BitcoinNordic only posts a flat buy and sell price, hence the flat line. The CCI is just a measure of the spread between their buy and sell prices.
+
+bitonic.nl
+
+Bitonic price quotes depend on the volume you want to buy or sell, so the CCI is a curve. They don’t publish information on how their prices depend on volume, but the CCI can easily be constructed by querying the buy and sell prices at different volumes. The CCI is just a measure of the spread between their buy and sell prices at different volumes. Bitonic has a limit of €10,000, so that’s why the line ends and €10,000.
+
+To the best of our knowledge, the cost information given here is correct at the time of publication.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+YOM is available for trading!
+
+ 2 min read 
+ June 5th, 2026
+
+Krak führt deutsche IBANs mit 1 % Gehaltsbonus ein
+
+ 6 min read 
+ March 27th, 2026
+
+APXUSD is available for trading!
+
+ 2 min read 
+ April 20th, 2026
+
+BNKR is available for trading!
+
+ 2 min read 
+ July 30th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
+
+ Loading Comments...
+
+ Write a Comment...
+
+ Email (Required)
+
+ Name (Required)
+
+ Website

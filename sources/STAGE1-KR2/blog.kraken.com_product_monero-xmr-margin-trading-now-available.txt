@@ -1,0 +1,199 @@
+Monero (XMR) Margin Trading Now Available - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ March 23, 2017
+ | 
+ Product 
+
+Monero (XMR) Margin Trading Now Available
+
+Since launching Monero (XMR) on January 2nd, trade volumes have been steadily increasing and we are ready to enable margin trading for Monero pairs.
+
+Which currency pairs and leverages are available?
+
+XMR/XBT: 2x,3x
+
+XMR/USD: 2x
+
+XMR/EUR: 2x
+
+What are our XMR limits?
+
+XMR limits depend on the verification level of the account as follows:
+
+Tier 1: 100 XMR
+
+Tier 2: 1000 XMR
+
+Tier 3: 1500 XMR
+
+Tier 4: 3000 XMR
+
+What are the margin fees?
+
+Margin open fee = 0.02%
+
+Rollover fee = 0.02% / 4 hrs
+
+XMR is not a collateral currency
+
+Please note that XMR will not be a collateral currency. This means you cannot open margin positions against the value of your XMR balances. For this reason, you should always maintain adequate balances of other collateral currencies to maintain your margin positions.
+
+Current List of Collateral Currencies
+
+Why do traders like margin trading? 
+
+It allows you to leverage your account for greater profits, while also assuming greater risk. If you are unfamiliar with margin trading and how it works, you can learn all about it by visiting the two sections on margin trading in our Support Center.
+
+Trading: Leverage and Margin
+
+Leverage and Margin
+
+Related Posts:
+
+Kraken Launches Monero Trading
+
+Kraken Acquires Cryptowatch and Launches New Trade Platform
+
+Kraken Announces Trading Support for New Currency: Melon Tokens (MLN)
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+AI is available for trading!
+
+ 2 min read 
+ April 29th, 2026
+
+Payward acquires Magna, bringing deeper token lifecycle infrastructure to Kraken
+
+ 3 min read 
+ February 18th, 2026
+
+WINGS is available for trading!
+
+ 2 min read 
+ April 23rd, 2026
+
+Multi-account trading for Kraken Prop is live on Kraken Desktop
+
+ 5 min read 
+ October 20th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

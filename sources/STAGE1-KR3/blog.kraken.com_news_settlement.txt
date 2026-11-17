@@ -1,0 +1,178 @@
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+[Kraken Blog]
+
+-   News
+
+[]
+
+Sign in Sign up
+
+[]
+
+[]
+
+-   News
+
+Sign in Sign up
+
+Search for:
+
+[]
+
+[]
+
+February 9, 2023 | News
+
+Kraken to end on-chain staking services for U.S. clients
+
+[]
+
+Today, two Kraken subsidiaries announced a settlement with the U.S. Securities and Exchange Commission (SEC) concerning Kraken’s on-chain staking program. Because of this settlement, Kraken has agreed to end its on-chain staking services for U.S. clients.
+
+Starting today, Kraken will automatically unstake all U.S. client assets enrolled in the on-chain staking program. These assets will no longer earn staking rewards. This applies to all staked assets except for staked ether (ETH), which will be unstaked after the Shanghai upgrade. U.S. clients will not be able to stake any additional assets, including ETH.
+
+Kraken will continue to offer staking services for non-U.S. clients through a separate Kraken subsidiary.
+
+What does this mean for existing staking clients in the U.S.?
+
+-   U.S. clients will not be able to stake new assets.
+-   Previously staked non-ETH assets will be automatically unstaked. These assets will be returned to the client’s spot wallet and will no longer earn rewards.
+-   Kraken will prorate final rewards through February 9. These rewards will not become staked. Kraken will instead pay rewards out in their non-staked form.
+-   All staked ETH will become unstaked after the Shanghai upgrade and will continue to earn rewards until then. There are no changes to the payout structure until after the Shanghai upgrade, when ETH will be unstaked.
+
+Staking services for non-U.S. clients will continue uninterrupted. Non-U.S. clients can continue to stake and unstake assets, as well as automatically earn and stake rewards, as usual. 
+
+For more information, please review our updated terms of service or contact Kraken Support.
+
+Share this:
+
+-   Share on X (Opens in new window) X
+-   Share on LinkedIn (Opens in new window) LinkedIn
+-   Share on Facebook (Opens in new window) Facebook
+-   
+
+Related Posts
+
+[]
+
+ALEO is available for trading!
+
+2 min read
+
+January 30th, 2026
+
+[]
+
+NOCK is available for trading!
+
+2 min read
+
+June 25th, 2026
+
+[]
+
+xStocks remain largest provider of tokenized equities, surpass $25 billion in total transaction volume
+
+5 min read
+
+February 19th, 2026
+
+[]
+
+Представляємо Ink Points. Перший сезон вже доступний на Kraken Pro
+
+1 min read
+
+May 14th, 2026
+
+These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+[Kraken Blog Footer Logo]
+
+Categories
+
+-   360
+-   API
+-   Asset Listings
+-   Bitcoin Vault
+-   Blockchain & Crypto Basics
+-   Bonded Earn
+-   Borrow
+-   Bundles
+-   Compliance
+-   Crypto Education
+-   Custody
+-   DeFi Earn
+-   Derivatives
+-   Desktop
+-   Economic Brief
+-   Engineering
+-   Equities
+-   event
+-   Fixed Rate Rewards
+-   Flexline
+-   Funded
+-   FX Perps
+-   Industry News
+-   Ink
+-   IPO Access
+-   Krak
+-   Kraken Card
+-   Kraken Derivatives US
+-   Kraken Embed
+-   Kraken Institutional
+-   Kraken Intelligence
+-   Kraken Pay
+-   Kraken Plus
+-   Kraken Prime
+-   Kraken VIP
+-   Kraken Wallet
+-   Kraken+
+-   Launch
+-   Margin
+-   New Features
+-   News
+-   NFT
+-   Onchain Trading
+-   Options
+-   Payward Services
+-   Perps
+-   Policy
+-   Press Releases
+-   Pro
+-   Product
+-   Promo
+-   Promotions
+-   Prop
+-   Ramp
+-   Security
+-   Staking
+-   Tips & Explainers
+-   Unified Wallet
+-   vip
+-   xstocks
+
+About
+
+-   Why Kraken
+-   Mobile Apps
+-   Institutions
+-   Careers
+-   Chat with Support
+-   Press
+-   Affiliates
+-   Kraken Bank
+-   Status
+
+Follow Us
+
+-   
+-   
+-   
+-   
+
+-   © 2011 - 2026 Payward, Inc.
+-   Privacy Notice
+-   Terms of Service
+-   Cookies Policy

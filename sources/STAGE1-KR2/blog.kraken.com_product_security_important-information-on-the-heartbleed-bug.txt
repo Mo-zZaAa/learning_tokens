@@ -1,0 +1,177 @@
+Important Information on the "Heartbleed" Bug - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ April 18, 2014
+ | 
+ News, Security 
+
+Important Information on the “Heartbleed” Bug
+
+The recently discovered “Heartbleed” OpenSSL vulnerability may have affected many HTTPS sites on the internet, including kraken.com. When exploited, this vulnerability can leak random information that may contain usernames, passwords, and API keys. Most of our servers were patched before the vulnerability was publicly announced, but to ensure that we’re no longer susceptible, all of our old SSL certificates have been revoked and new ones issued. It’s unlikely that our old certificates were compromised, and there has been no evidence of it. There has also been no evidence of this vulnerability being used to steal accounts. The possibility that they can be compromised, however, presents a serious risk because it means the safety of your Kraken security credentials is unknown. It also means that someone might have enough information to use our old revoked certificates in a malicious attempt to mimic our website that would be harder to discern than normal phishing scams.
+
+As a precaution, we recommend all users do the following:
+
+Change your password
+
+Delete your old two-factor authentications and create new ones
+
+Delete your old API keys and create new ones
+
+Turn on revocation checks in your browser so you are alerted to sites using revoked certificates. The revocation check should stay on for at least a year. The state of revocation support is poor so you still need to be careful even with it on.
+
+Similar action should be taken for other https sites where you have accounts. You can check to see if the site is currently vulnerable to Heartbleed (or something else) here:
+
+https://www.ssllabs.com/ssltest/
+
+You should create new credentials for your account (some sites were never vulnerable, but if you’re unsure, it’s best to assume the site was previously vulnerable). However, if the site is still vulnerable to “Heartbleed”, updating your security credentials will still leave you exposed. Keep in mind that the site tester above won’t tell you if the site’s SSL certificates have been revoked and reissued; if they haven’t, there’s a chance that new security credentials can be compromised or the site may be vulnerable to sophisticated phishing scams.
+
+For more information on the Heartbleed vulnerability, see the links below:
+
+http://heartbleed.com/
+
+http://blog.cloudflare.com/staying-ahead-of-openssl-vulnerabilities
+
+http://blog.cloudflare.com/answering-the-critical-question-can-you-get-private-ssl-keys-using-heartbleed
+
+https://blog.torproject.org/blog/openssl-bug-cve-2014-0160
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+VELO is available for trading!
+
+ 2 min read 
+ March 17th, 2026
+
+New pair available for margin trading: SPCXx!
+
+ 2 min read 
+ June 24th, 2026
+
+BREV is available for trading!
+
+ 2 min read 
+ January 6th, 2026
+
+Krak ievieš virtuālos IBAN kontus Latvijā, Grieķijā, Horvātijā un Ungārijā ar 1% algas bonusu
+
+ 6 min read 
+ May 7th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

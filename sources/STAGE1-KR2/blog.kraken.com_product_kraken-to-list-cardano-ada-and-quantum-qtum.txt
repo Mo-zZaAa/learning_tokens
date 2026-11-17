@@ -1,0 +1,261 @@
+Kraken to list two new assets – Cardano (ADA) and Quantum (QTUM) - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ September 27, 2018
+ | 
+ Product 
+
+Kraken to list two new assets – Cardano (ADA) and Quantum (QTUM)
+
+We are pleased to announce that Kraken will list two new digital assets – Cardano (ADA) and Quantum (QTUM).
+
+Trading and funding start time
+
+Trading and funding in the two assets will launch simultaneously. The approximate launch time globally is:
+
+PST: Friday September 28 at 6:00 am
+
+EST: Friday September 28 at 9:00 am
+
+UTC: Friday September 28 at 1:00 pm
+
+CEST: Friday September 28 at 3:00 pm
+
+HKT: Friday September 28 at 9:00 pm
+
+Note that the launch time is approximate only and it’s possible the launch might be delayed. Please follow our status page for updates around the time of the launch: https://status.kraken.com/
+
+Trading pairs
+
+ADA: ADA/USD, ADA/EUR, ADA/CAD, ADA/XBT, ADA/ETH
+
+QTUM: QTUM/USD, QTUM/EUR, QTUM/CAD, QTUM/XBT, QTUM/ETH
+
+How to deposit
+
+ADA: Navigate to Funding > Deposit > Cardano (ADA) then generate a deposit address and send ADA to this address
+
+(Note that ADA addresses are 104 characters long, so take extra care to ensure you have entered the entire address correctly)
+
+QTUM: Navigate to Funding > Deposit > Quantum (QTUM) then generate a deposit address and send QTUM to this address
+
+Confirmations required before deposits credit
+
+ADA: 15 confirmations
+
+QTUM: 24 confirmations
+
+What is Cardano (ADA)?
+
+Cardano is a decentralized computing platform that aims to offer a broad ecosystem of state-of-the-art features. This includes a scalable settlement layer, a computing layer for smart contracts that also supports cross-chain transfers, a decentralized solution for compliance, a treasury, and a “liquid democracy” governance model. Cardano claims to have the world’s first provably secure proof-of-stake consensus mechanism.
+
+Price History – Live Cardano Price
+
+ICO: $0.0024 (January 2017 – raised $62.23M on 25.93B ADA sold)
+
+52-Week High: $1.32 (Jan 3 2018)
+
+52-Week Low: $0.0177 (Oct 6 2017)
+
+Current: $0.0800 (Sept 27 2018)
+
+Market Cap: $2.07B (Sept 27 2018)
+
+Supply
+
+Circulating: 25.93B
+
+Total: 31.11B
+
+Inflation: 45B max
+
+Project website: https://www.cardano.org
+
+How to buy Cardano
+
+What is Quantum (QTUM)?
+
+Quantum aims to combine the best of Bitcoin and Ethereum by welding the two together through an “Account Abstraction Layer.” The result is a marriage of Bitcoin’s unspent transaction output model (but with proof-of-stake consensus) and the Ethereum Virtual Machine (EVM) functionality. One major advantage is that new Bitcoin or Ethereum features can be ported over to Quantum. Similarly, applications built for Ethereum can be ported to Quantum. Quantum runs an “intercompatible” version of EVM (called the “X86 Virtual Machine”) that allows smart contracts to be written in multiple languages.
+
+Price History – Live QTUM Price
+
+ICO: $0.306 (March 2017 – raised $15.6M on 51M QTUM sold)
+
+52-Week High: $106.33 (Jan 6 2018)
+
+52-Week Low: $3.09 (Sept 17 2018)
+
+Current: $3.61 (Sept 27 2018)
+
+Market Cap: $320.85M (Sept 27 2018)
+
+Supply
+
+Circulating: 88.92M
+
+Total: 100.92M
+
+Inflation: 1 QTUM/block
+
+Project website: https://qtum.org
+
+Will the assets be available on the new trading platform?
+
+Yes – clients will be able to trade ADA and QTUM on both https://www.kraken.com and the new platform at https://trade.kraken.com. If you haven’t tried the new platform yet we highly recommend it – most clients prefer it for the improved UI, integrated charts and tools. Also, it supports mobile trading (just navigate to https://trade.kraken.com on your mobile device and select “Trading” in the bottom right to get started).
+
+What about margin trading?
+
+Margin trading will not be available at launch for ADA or QTUM, but may be enabled in the future.
+
+Will Kraken list more assets?
+
+We do plan to list more assets, however, our policy is to never reveal any details in advance – not even about which assets we are considering. Our support agents cannot answer any questions about which assets we may be listing in the future.
+
+Invest with caution
+
+Listing an asset or token on the exchange does not constitute an endorsement by Kraken, nor in any way a recommendation to buy (or sell) the asset or participate in the associated network. While we do extensive research in our evaluation of an asset before listing, we focus on aspects of the project’s legitimacy (it is not illegal and not a scam), and on the security and reliability of the settlement layer (our risk in allowing deposits and withdrawals of the token). Our research does not in any way consider whether the price is justified, or likely to go up or down in the future. Do your own research and invest at your own risk.
+
+Trade with caution
+
+You should always consider the available liquidity when trading in any market and manage this risk accordingly. But the liquidity of a newly listed asset may be very low, so caution is especially warranted. Be extremely careful with market orders and orders that trigger market orders (e.g. stop loss). To be safe, we recommend the use of limit orders to help ensure that your orders don’t get filled at unexpected prices.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Equities trading now available on Kraken Desktop
+
+ 5 min read 
+ March 4th, 2026
+
+IDOS is available for trading!
+
+ 2 min read 
+ March 5th, 2026
+
+WBT is available for trading!
+
+ 2 min read 
+ March 5th, 2026
+
+GNOT is available for trading!
+
+ 2 min read 
+ September 16th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

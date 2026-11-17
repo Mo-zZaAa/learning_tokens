@@ -1,0 +1,171 @@
+Reduced Trade Fees Coming August 1st! - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ July 17, 2015
+ | 
+ News 
+
+Reduced Trade Fees Coming August 1st!
+
+Great news – Kraken® is reducing trade fees and moving to a maker taker model! This change comes by popular demand, since many clients have told us they would like to see a maker taker model with reduced fees overall. We have also simplified the fee structure with fewer tiers than before.
+
+What is a maker taker model?
+
+In a maker taker model, reduced fees are given to the market “makers” who provide liquidity to the market “takers.” The maker fee applies when you add liquidity to the order book by placing a limit buy below market price or a limit sell above market price. The maker fee is paid only when such orders are taken by new incoming orders. The taker fee applies when you remove liquidity from the book by placing a market or limit order that executes immediately against a limit order already on the book. All advanced orders trigger either market or limit orders and the triggered market or limit order will be maker or taker as described above.
+
+What are the benefits?
+
+Traders adding crypto and Bitcoin liquidity to the book will benefit from the reduced maker fee. Since we have reduced the fees overall, most traders removing liquidity from the book will also benefit from reduced fees compared to our previous fee schedule. Although takers pay a little more than makers (only 0.10% more), this is generally offset by the deeper  liquidity and tighter spreads found in the maker taker model.
+
+What are the new fees?
+
+For the bitcoin-fiat pairs, the maker fee goes as low as 0% and up to 0.16% depending on the amount you trade. The taker fee goes as low as 0.10% and up to 0.26% depending on the amount you trade. To review the new fee structure, please check the following link to our site.
+
+https://www.kraken.com/help/makertakerfees
+
+Our crytpo-crypto pairs also have a new maker taker structure with reduced overall fees. Note that the fees for the dark pool have also changed but do not follow a maker taker model, since the maker taker model is only advantageous when you can view the order book.
+
+When will the new fees be active?
+
+Starting August 1, 2015.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Kraken Flexline is now available to ECP-qualified US users
+
+ 4 min read 
+ June 4th, 2026
+
+Introducing the new Kraken Prime: better pricing, better access, one new interface for everything
+
+ 3 min read 
+ August 27th, 2026
+
+Introducing Smart Grid: fully configurable grid trading, only on Kraken Desktop
+
+ 5 min read 
+ September 9th, 2026
+
+Why donor-advised funds are a powerful (and tax-advantaged) tool for crypto-based giving
+
+ 6 min read 
+ December 24th, 2025
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

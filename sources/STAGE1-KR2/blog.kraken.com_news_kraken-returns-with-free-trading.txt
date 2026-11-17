@@ -1,0 +1,201 @@
+Kraken Returns with Free Trading - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ January 13, 2018
+ | 
+ News 
+
+Kraken Returns with Free Trading
+
+The Kraken website and trading is now back online, following the recent scheduled downtime necessary to upgrade our infrastructure. All client funds were kept safe and secure during this time. Please take note of some important information, below:
+
+Trading
+
+All orders have been cancelled prior to trading resuming
+
+Trading pairs launched with no orders on the books
+
+All funds in previously open orders have been returned to your available balance
+
+Margin positions will remain open
+
+Margin liquidations will be paused for at least 48 hours
+
+Creation of new margin positions is disabled for at least 48 hours
+
+Caution: Clients should be extremely careful with market orders and double-check limit order prices in an illiquid market
+
+Funding
+
+Withdrawals are now disabled and will remain disabled for a minimum of 12 hours (during this time we will be monitoring the new system for anomalies)
+
+For fiat or crypto deposits (initiated before, during or following the downtime) please allow up to 2 additional business days for funds to be credited
+
+Fees
+
+All unleveraged trades will be charged 0 fees until January 31, 2018 (UTC)
+
+Margin position, open, and rollover fees are reduced to 0.005% until January 31, 2018 (UTC)
+
+New Accounts and Tier Upgrades
+
+Verifications of new accounts will be delayed and are our lowest priority
+
+Tier upgrades of existing accounts will have priority above new accounts
+
+Note: If you are applying for a Tier 4 account or need help with OTC trading, please indicate this in your support request
+
+Questions and/or Bug Bounty
+
+Please get help or report detected bugs by submitting a request at https://support.kraken.com
+
+We apologize for the uncertainty our downtime has caused. The scheduled downtime was to replace our old trading engine with a brand new trading engine – an improvement that customers have long asked for and that we have long been working hard on. We still have some more work to do before the new trading engine is as good as we want it to be, but this week’s replacement was an important first step to having a better trading experience. Our system is replicated in development, where all tests passed. However when the new engine was moved to the production environment, regression tests picked up a condition that proved quite difficult to track down. Further insight into the downtime and a description of actions we plan to take in order to improve the client experience will be provided via a retrospective Kraken blog post, to be published in the coming days.
+
+With trading now resumed, the engine’s performance will be closely monitored. The site will come down if needed, which may occur with little to no notice. Please continue to refer to status.kraken.com for real-time updates and important announcements over the next few days.
+
+Lastly, in appreciation for your loyalty to Kraken, we are activating zero fee trading for all clients (across non-margin trades) starting today and lasting through the end of this month.
+
+Thank you! 
+
+The Kraken Team
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Kraken bringing crypto options to a wider audience as the market scales
+
+ 4 min read 
+ July 16th, 2026
+
+RSC is available for trading!
+
+ 2 min read 
+ November 17th, 2025
+
+USDe deposits and withdrawals now available on Avalanche!
+
+ 2 min read 
+ July 17th, 2026
+
+RAILS is available for trading!
+
+ 2 min read 
+ February 5th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

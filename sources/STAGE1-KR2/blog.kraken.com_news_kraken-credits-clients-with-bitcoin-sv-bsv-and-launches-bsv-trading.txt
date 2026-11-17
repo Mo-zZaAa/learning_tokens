@@ -1,0 +1,227 @@
+Kraken Credits Clients with Bitcoin SV (BSV) and Launches BSV Trading - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ November 18, 2018
+ | 
+ News 
+
+Kraken Credits Clients with Bitcoin SV (BSV) and Launches BSV Trading
+
+NOTE: BSV was delisted from Kraken on April 22, 2019 and trading on all BSV pairs ceased on April 29, 2019.
+
+The recent Bitcoin Cash hard fork resulted in two (for now) viable chains:
+
+Bitcoin Cash (following the Bitcoin Cash ABC protocol and roadmap published by bitcoincash.org)
+
+Bitcoin SV (following the Bitcoin Cash SV protocol and roadmap published by nChain)
+
+The status of each of these networks can be monitored here: https://cash.coin.dance/
+
+As previously announced, tokens of the Bitcoin Cash ABC protocol are listed on Kraken as Bitcoin Cash (BCH). However, Kraken will also support tokens of the Bitcoin Cash SV protocol under the designation Bitcoin SV (BSV).
+
+WARNING: Bitcoin SV does NOT meet Kraken’s usual listing requirements. It should be seen as an extremely high risk investment. There are many red flags that traders should be aware of:
+
+No known wallets supporting replay protection (be careful!)
+
+No support in major block explorers
+
+Miners apparently subsidized or operating at a loss
+
+Representatives threatening and openly hostile toward other chains
+
+Chain’s survival may be mutually exclusive with other chains
+
+Supply is temporarily constrained because of limited wallet support
+
+Some large holders have indicated they’d be dumping everything ASAP
+
+Kraken has done only very minimal code review
+
+Custodial losses taken on due to attacks originating from nChain or its affiliates will be socialized among all BSV holders on Kraken. Given the volatile state of the network and threats that have been made, Kraken cannot guarantee perfect custody of BSV.
+
+When will BSV come online?
+
+Kraken will credit client accounts with BSV and launch BSV trading at approximately 15:30 PST today, November 18th, 2018. The BSV order books will come online first, then accounts will be credited with BSV a short time later. Please follow our status page for updates around the time of the launch: https://status.kraken.com/
+
+What time will Kraken use to determine how many BSV I receive?
+
+We will use the time that the last common block before the fork was mined, which was 2018-11-15 17:52 UTC. We will look at the BCH balance you had at this timestamp and add an equal amount of BSV to your balance (so if you had 10 BCH at this time, you will end up with 10 BCH and 10 BSV).
+
+Trading pairs
+
+BSV/BTC, BSV/USD, BSV/EUR
+
+What about funding?
+
+We are currently monitoring both the BSV and BCH networks and will not enable deposits or withdrawals in either token until we think it is safe to do so. Funding may be enabled sometime this week, though it could take longer.
+
+What is Bitcoin Cash SV (BSV)?
+
+Bitcoin Cash SV was created by nChain. You can read the original announcement about Bitcoin SV including the specifications here. Bitcoin Cash SV is based on Bitcoin Cash (Bitcoin ABC v0.17.2) but with significant differences including an increase to a maximum block size of 128 MB.
+
+Will BSV be available on the new trading platform?
+
+Yes – clients will be able to trade BSV on both https://www.kraken.com and the new platform at https://trade.kraken.com. If you haven’t tried the new platform yet we highly recommend it – most clients prefer it for the improved UI, integrated charts and tools. Also, it supports mobile trading (just navigate to https://trade.kraken.com on your mobile device and select “Trading” in the bottom right to get started).
+
+What about margin trading?
+
+Margin trading will not be available at launch for BSV, but may be enabled in an upcoming expansion of our margin offering.
+
+Invest with caution
+
+Listing an asset or token on the exchange does not constitute an endorsement by Kraken, nor in any way a recommendation to buy (or sell) the asset or participate in the associated network.  Our research does not in any way consider whether the price is currently justified, or likely to go up or down in the future. Do your own research and invest at your own risk. Bitcoin SV does NOT meet our usual listing requirements and should be seen as an extremely risky investment.
+
+Trade with caution
+
+You should always consider the available liquidity when trading in any market and manage this risk accordingly. But the liquidity of a newly listed asset may be very low, so caution is especially warranted. Be extremely careful with market orders and orders that trigger market orders (e.g. stop loss). To be safe, we recommend the use of limit orders to help ensure that your orders don’t get filled at unexpected prices. Note that sell orders will not start appearing until after the first deposits clear (check the required number of confirmations above for an estimate of how long this might take).
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Introducing Price Predictor: 10 seconds a day, and a free shot at 1 Bitcoin (BTC)
+
+ 3 min read 
+ August 24th, 2026
+
+How one of our clients approached estate planning and opened a Kraken account in their trust’s name
+
+ 7 min read 
+ October 26th, 2026
+
+Trading Spaces recap: pivotal reclaim or another grind lower?
+
+ 6 min read 
+ February 16th, 2026
+
+Flexline deep dive: the builder with crypto on the balance sheet
+
+ 6 min read 
+ May 12th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
+
+ Loading Comments...
+
+ Write a Comment...
+
+ Email (Required)
+
+ Name (Required)
+
+ Website

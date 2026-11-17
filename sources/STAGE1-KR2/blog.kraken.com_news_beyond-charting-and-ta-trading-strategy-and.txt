@@ -1,0 +1,262 @@
+Beyond Charting and TA: Trading Strategy and Methodology - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ September 7, 2015
+ | 
+ News 
+
+Beyond Charting and TA: Trading Strategy and Methodology
+
+Hi Everyone,
+
+This is Kevin Zhou, former economist/trader at Buttercoin and currently strategist/trader at Kraken.  There’s a lot of material out there about how to place orders and execute trades but very little on trading strategy and methodology (beyond charting and TA), so I thought I’d share some of my thoughts on that topic.  I’ll start with an example I call the Miner Put and then get progressively more general and abstract from there.  As a disclaimer, these are my own opinions and do not represent the opinions of Kraken nor any advocacy on behalf of Kraken.  I am also personally long bitcoin with negligible amounts of Ether (Ethereum) and Stellar.
+
+The Miner Put
+
+As more miners move out of the spot market and into the forwards/futures market, an interesting phenomenon arises.  Suppose a miner, to fund his operations, agrees to sell a 3 month forward/future on the market or to some counterparty.  The miner receives cash now and in return has an obligation to pay up bitcoin sometime in the future.  Suppose, also, that during that 3 month term, the price drops a great deal.  Then, at some point, given a mining difficulty which does not similarly drop that sharply, the miner may no longer be profitable in mining coin as the cost of production is greater than the sale price of the coin.  So he naturally stops mining and to fulfill his future obligation buys bitcoin from the market, giving the market upward pressure.  This phenomenon is distinctly asymmetric because if the price rises during the 3 month term of the forward, the miner’s behavior does not change; there is no miner’s call.  Also it’s worth noting that a theoretical “printer’s put” on fiat (rather than bitcoin) can never be reached because the cost of producing paper money is orders of magnitude below the market value of a paper currency.  That being said, there’s always other kinds of puts the Fed generates from the policy they employ, arguably generating significantly more moral hazard than this naturally occurring bitcoin miner’s put.
+
+Thanks to my colleague, Shawn O’Connor, for ideas and discussion.
+
+Event-Driven and Macro
+
+Occasionally there will be one-off events that affect the bitcoin price.  For example, when the ECB took deposit rates negative in June of last year, the bitcoin price immediately spiked up.
+
+Source: bitcoinwisdom.com
+
+Again during the Greece negotiations earlier this year, we saw some sharp price action.
+
+Source: zerohedge.com
+
+This suggests that the market thinks of bitcoin not only as a payments/settlement network, but also as a long-term store of value.
+
+Let’s take a look at the Greek referendum and how we might have traded it.  If the referendum results in a “Yes”, we expect the price to go down and if it results in a “No”, we expect it to go up.  This is only tradable if we have particular and unique insight into how the vote will go down prior to the actual result coming out otherwise the market will have priced it in.  If we believe a “No” is more likely and the market agrees to the same extent, the price will drift up, a priori, and no excess returns are possible.
+
+Let’s have a look at some polls conducted after the announcement but before the vote.
+
+Source: wikipedia.org
+
+We see that as we got closer to the voting day, polls show a very even 50/50 split.  In all likelihood, these are the probabilities the market is pricing in.  Yet the final vote was closer to 40/60.  Any trader who could guess this difference would have made money.
+
+There’s a few ways a trader might be able to do this.  First, he could actually have unique and privileged information on how the people will actually vote or what the government will do.  Second, he could be an expert in geopolitics, sociology, psychology, game theory, or macroeconomics, giving him special insight even without special information.  It’s also possible that the trader develops a hypothesis about bias in the pre-vote polls.  For example, it’s possible that poorer people (especially in a time of strife) don’t have time to participate in polls and they will prefer a “No” vote more so than their richer counterparts.  Poor people have been known to vote against their own interests; the rich have already moved their money out of the country so they are the only ones left to eat the haircuts but that’s a polemic for another time.  Or maybe I’m wrong and they believe in the strong anti-capitulation rhetoric of Varoufakis that a “No” vote is favorable for them.  In any case, a trader, who has access to privileged information (falling under mosaic theory or not) or can derive special insight into a macro event, can make a profitable trade here.
+
+Of course all of this is premised on the idea that what happens in Greece actually affects the bitcoin markets.  I’ve heard counter-theories that opportunistic traders took advantage of the Greek news to pump and dump the market even when fundamentally there was no connection.  Others claim that the pump was done in LTC (and other altcoins like NMC and PPC) and the rise in the bitcoin price was just an incidental aftereffect of the altcoin pumps (more on this later).  Others claim that it was really the Chinese buying in response to the Greek news rather than Greeks or other Europeans doing it.  And of course all of this was confounded with a market crash in China.  I think these are all ideas worth considering but in applying Occam’s Razor, I prefer the original narrative.  In any case, even if the narrative is wrong, it still serves as a good example on macro trading strategy because the principle of thinking about expected value still holds.
+
+Finally, another way to have traded the Greek news of a referendum coming would be to go to the options market and buy a straddle.  Without any opinion on whether the referendum would end in a “Yes” or “No”, we could still assume that the market was pricing something in the middle so we can expect that it would move significantly either up or down which the straddle captures profitably provided that calls and puts were not trading at a premium and pricing in the referendum.  This would only be possible in a more nascent market but bitcoin option markets are rather nascent.
+
+Thanks to my colleagues at Tradeblock, Circle, GenesisTrading, BitGo and Itbit for ideas and discussion.
+
+Using Signals from the Altcoin Markets
+
+We can often use information gleaned from another market as a trading signal for our primary market.  For example, one of the qualitative differences between litecoin and bitcoin is that, according to Charlie Lee, the founder of litecoin, litecoin is immune to the sort of spam attack we saw on bitcoin in July just after the referendum vote in Greece (https://www.reddit.com/r/Bitcoin/comments/3ci25k/the_current_spam_attack_on_bitcoin_is_not/). 
+
+In that reddit post, Charlie mentions that his pull request on bitcoin to fix the UTXO spam attack issue was rejected 3 years ago.  So given that, if that pull request or a similar pull request was eventually accepted into bitcoin, we would have some expectation on how the price would move.
+
+The spam attack peaked over 7/6-7/10 where we saw bitcoin rise about 270 to 290 (~7.4%) while litecoin rose from 5.40 to 6.90 (~28%).  Given that litecoin price is highly correlated to the bitcoin price and it moves usually more up and more down when bitcoin moves up and down, we can calculate some type of litecoin to bitcoin leverage ratio.  So, the effect of a UTXO spam fix on bitcoin should roughly be litecoin’s price increase over 7/6-7/10 divided by the litecoin-bitcoin leverage ratio less the bitcoin price increase over 7/6-7/10.
+
+Let’s look at another example.  I think Megacoin is doomed.  When Megacoin first came out, the main innovation was something called the Kimoto Gravity Well (KGW), a difficulty adjustment algorithm which helps difficulty adjust more rapidly than bitcoin’s standard algorithm.  This was important for altcoins at the time because with merged mining, a lot of hashing power would move very rapidly to the latest fashionable/valuable coin leaving their former network with a high difficulty and low hashing rate, usually spelling death for that coin (it would take a very long time for blocks to be found and thus transactions to be confirmed).  Since Megacoin, almost all new altcoins adopted some version of the KGW (e.g. Darkcoin/Dash with Dark Gravity Wave).  So the major selling point of Megacoin was no longer unique and Megacoin did not achieve strong enough network effects as a pioneer to solidify itself as an incumbent.  The same could be said for Quark and it’s multiple rounds of hashing using different hashing algorithms.  Its main innovation is no longer unique and it didn’t gain enough of a market share during its heyday.  My point with these two examples is that it’s important to understand not only the price action of what you are trading but also the fundamentals of what the asset actually is or does, much like a cotton trader would do well to understand the supply chain of textiles beyond just the financial market for cotton.  And this is especially true for the altcoin/”shitcoin” markets.
+
+Stop Hunting and Margin Call Cascades
+
+Given the ability to margin trade and put on stop losses in the bitcoin markets, some strategies become possible.  Suppose for some reason a trader knew that there was a stop loss of considerable size at $220/XBT and the current market was trading at $221/XBT, he could force the market down $1/XBT and then catch the subsequent market sell order at say $218/XBT.  It gets interesting when there are multiple price points where this selling would trigger, each of them significant enough to trigger the next.  What happens is a margin cascade causing further drops in price, often progressively sharper with each subsequent trigger.  In bitcoin’s history, we’ve seen these flash crashes happen occasionally and usually there is an immediate rebound.  Here’s an example of it happening in realtime: https://www.youtube.com/watch?v=jtOmWmNl4ug.
+
+It makes sense that there is usually a sharp rebound because the automatic selling from a margin call or stop loss does not represent a real opinion about the market but is, rather, a consequence of the exchange liquidating user positions.  Alternatively, if, say SHA-256 was compromised, we would likely not see much of a rebound following a severe crash in bitcoin.
+
+One way you might know a cascade was coming would be to look at the swaps markets.  If USD swaps volumes increase significantly at a certain point in time, you know that many people are going long on leverage at that price point.  Then, given a maintenance margin of say 15%, you would know at about what point these longs would hit their maintenance margin, get margin called, and then liquidated.  Should the price drift close to that point, it might be profitable to drive the market down slightly more and trigger the cascade.  This is likely the exact play some trader or group of traders made last August.
+
+It’s also worth noting that should you have a stop loss on, it’s favorable to be at the top of the cascade rather than at the bottom so some of this risk management game is about guessing where the majority of other traders are placing their stop losses.  Of course, getting roped into a cascade can entirely be avoided by not having a stop loss on in the first place, though this may cause other troubles for your specific risk profile.  Finally, exchanges themselves should keep stop loss and margin call levels of their users private in the strictest sense.  Any privileged knowledge of these levels can cause the market to become unfair and especially so if the employees of exchanges with this information are trading on it.  It’s one thing to guess at where these stop losses or margin call levels are located but it’s another to actually have access to that sort of privileged information.  Maintaining a fair and orderly market, alongside strong security, should be each exchange’s top priority.
+
+—
+
+The next two sections go deep into the weeds; into the more technical workings of the market.  Feel free to skip it if you haven’t the time or patience to be bothered with that sort of thing.
+
+Price-Time Priority and Market Microstructure
+
+Most exchanges follow price-time priority in their order-matching engine.  This means that quotes at better prices fill before quotes at worse prices and then, given the same price point, quotes which enter the book first get priority over those that enter later.  While there are a few other matching schemes, which are different (e.g. pro-rata fill at the same price point), price-time priority is the most common and generally makes the most sense.  Because of this type of market design, certain market microstructure results emerge.
+
+The first microstructure result is that being at the front of the time queue for your given price point is better than being later in the time queue.  Suppose the best bid is 2×100 (where you are buying 1 XBT at 100 USD/XBT, first in the queue, and someone else is doing the same behind you in the queue).  If a sell order is placed higher than 100 USD/XBT, no trade happens and the result is the same regardless of queue priority at the 100 USD/XBT price point.  If a sell order is placed at below 100 USD/XBT, say at 99 USD/XBT, for a size of greater than 2 XBT, both you and the other guy at 100 USD/XBT get filled and the result is still the same.  But in the event that some market participant sells exactly 1 XBT (or some amount between 0 and 2) at 100 USD/XBT, you will get the fill but the other guy at your same price point won’t.  If the market immediately rebounds upward, you will have made unrealized gains while the other guy at your price point doesn’t make anything because his quote is still resting in the book.  So being higher up in the time queue for the same price point must be strictly better (mostly the same, sometimes better) barring any rare and pathological examples of price movement.
+
+The second result is the converse of the first: if you are on the liquidity taking side (as opposed to the liquidity making side), the last XBT at a price point is of higher value to you than the first XBT at a price point.  For example, if the best bid is 10×100, the first coin you sell into that order is worth less than the second coin which is worth less than the third etc.; the last being the most valuable.  This result is less intuitive to think about than the first even though it’s essentially the same result expressed from the perspective of the taker rather than the maker.  Suppose the theoretical true value of bitcoin in the immediate term is the mid market price (average of the best bid and best ask).  Then in the case that the market is 1×98, 2×99 – 2×101 (bids – asks), selling 1 coin into the best bid does not move the mid price while selling 2 coin into the best bid moves the mid price from 100 USD/XBT to 99.5 USD/XBT.  Now there’s a bit of hand waving here but the general principle still holds which is that taking out the full size on a specific price point gives you better unrealized PnL than taking less than the full size.  This can be generalized to the concept that taking out more (but less than full size) at a specific price point is better value than taking out less.  Intuitively, a market at 1×99 – 1000×101 is closer to moving the mid price down than 500×99 – 500×101 so we might say that in the former case, the true price is 99.01 while in the latter case the true price might be closer to 99.5.
+
+Thirdly, the discretization of the order book is important when deciding when to jump ahead in price past large resting orders.  If indeed the first two results are true, there must be some monetary value to being higher in the time queue for the same price point.  So if the best bid is 1000×100 and you have the option of either joining in with your bid of 1 XBT behind that 1000 lot at 100 USD/XBT or price improving slightly to get ahead of that block, how much more you have to pay, at minimum, is determined by the discretization of the order book.  For example if the order book is discretized to the penny, then you would have to post a bid at 1×100.01 to get ahead of the 1000 lot.  If the discretization were sub-penny (say .0001), you would only have to post a bid at 1×100.0001, which is significantly cheaper.  It is possible that the value of being higher in the time queue has a monetary equivalency of greater than .0001 USD/XBT but less than .01 USD/XBT so in the latter case you would jump ahead of the 1000 lot while in the former case you would not.  Ultimately, the equivalency between time priority and monetary value along with the discretization of the order book gives rise to this type of behavior (jumping small orders in front of larger orders).  In the previous example, we hand-waved that the order book was static but if the parties at the 100 USD/XBT price level play back at your jumping behavior by re-jumping you, figuring out what the maximum cost you are willing to pay to be at the front of the time queue becomes more important.  One way to approach this is to check historical data on how often the price series bounces off local minima and maxima and how far it bounces back on average as a proxy for the value of being higher in the time queue and then playing back at other jumpers up to that value but not more.
+
+All of these market behaviors are natural consequences of market design based on price-time priority.  In a market where all orders in the book are real and represent actual intentions to buy or sell at that price, these behaviors would still be present.  In the next section, I’ll loosen that constraint and explore how order book games are played when not all orders are real intentions of buying or selling.  In other words, how does the market play out when bluffing is present in the order book?
+
+Order Book Games, Bluffing, and Possible Market Manipulation
+
+Before we get into how order book games are played, we should be clear on why they are played.  First, assuming that all market participants are honest (want to actually execute at the price they post), what sort of information can we glean from the shape and structure of the bid-ask walls.  If the bid-ask walls are convex, it suggests less price stability than if the walls were concave.  In particular, the shallow middle tails of the convex bid-ask walls mean that the market isn’t too sure where the true short-term price of a bitcoin lies, it must be somewhere in that area but it’s hard to say if the mid price is a good representation of the true short-term price.  With concave walls, the market is pretty sure the price lies somewhere inbetween and close to the middle.  If the walls are asymmetric, say the bid wall is convex but the ask wall is concave, this suggests the true price has a higher chance of being somewhere lower than the mid price or even into the bid wall and vice versa.  If it is indeed true that the price oscillates around its true short term price, a convex bid wall in conjunction with a concave ask wall suggests a higher probability of downward price movement than upward.  For example, suppose the best bids are .1×98, .01×99 and the best asks are 1000×101, 100×102, the true short-term price is most likely to be less than 100 USD/XBT.  Since the market understand this, the bids at 98 USD/XBT and 99 USD/XBT are likely to be hit very quickly.
+
+Now suppose we introduce a trader into this perfectly honest market who is a bit tricky and thinking at a deeper meta-level.  How can he exploit the behavior of the rest of the market?  He can apply a strategy called “layering” where he posts a series of large quotes on the side opposite of the one he intends to trade to move the market in a direction favorable to him for his real trade.  Suppose the market is 10×96, 10×97, 10×98, 10×99 – 10×101, 10×102 and this trader wants to buy some coin at cheaper than 101 USD/XBT.  He can place a huge 1000 size ask on the 101 USD/XBT line and 102 USD/XBT line.  The market reacts by canceling or hitting the 98 USD/XBT and 99 USD/XBT bids.  Now say the market is 10×96, 10×97 – 1010×101, 1010×102.  The trader waits for a few seconds and the spread narrows downward as sell orders jump ahead of him.  The market becomes 10×96, 10×97 – 10×99, 10×100, 1010×101, 1010×102.  He now simultaneously cancels his 1000 size ask at 101 USD/XBT and buys 10 XBT at 99 USD/XBT thus netting him a better price than he would have gotten without bluffing the 101 USD/XBT sell order.  The trader basically benefits from bots that lean their quotes based on order book depth and shape.  Of course this trader still takes the risk that his bluff ask will actually be lifted but if this is done quick enough, most of the time the trader gets his buy done before anyone has a chance to lift his ask.
+
+Quote stuffing is another questionable activity.  It works by flooding the matching engine of an exchange with tons of create and cancel quote operations with the intention of lagging up the execution of actual trades.  This is generally used to crash the market whereby the trader/manipulator can then buy up at the bottom once he’s released the matching engine from the stuffing.  There is an argument to be made here that it is the exchange’s responsibility to check for fill rates so this does not happen.  Also, there are many legitimate market making strategies which involve a high frequency of create and cancel quote operations without any malicious intention to lag the trading engine.  DDoSing a major exchange’s website or spam attacking the bitcoin network would be similar to this in effect.
+
+There’s another strategy/manipulation called painting the tape.  A trader, with the intention of buying at lower than the current spot price, issues a flood of very small micro sell orders into the bid wall, with the intention of “painting” the tape red (a long sequence of down ticks).  Some bots and other market participants might react by selling causing the price to go down and, thereafter, the initial trader buys at a discounted price.
+
+There is some contention in the trading community over whether these sorts of games are pernicious or permissible.  Given that the bitcoin markets are largely unregulated, I’ll leave that for the reader to decide.  After all, at some point in poker’s history, the check-raise was considered bad form but today it is a standard line of play.  The mores of our time are in constant flux.  I would, however, advise against layering, stuffing and painting the tape in the real world, regulated markets, as it is illegal.
+
+Invisible Accretion of Knightian Risk
+
+Knightian Risk (https://en.wikipedia.org/wiki/Knightian_uncertainty) is the risk of unknown unknowns.  By definition, these risks cannot be calculated: true black swans.  In a market where almost everyone herds together in agreement over some type of pricing model, methodology, optimal practice, or belief which is not strictly mathematically true, the inevitable event that proves them wrong accretes a higher probability of happening over time.  For example, if most market makers herd together and believe the price of a bitcoin must be between 220 USD/XBT and 230 USD/XBT for the next few months, then they will keep the price in that band as they buy at the bottom of the band and sell at the top.  All the while, the natural random swings of the market are suppressed and the risk of a sharp move increases.  This naturally built up market “pressure” is never released so when the pressure finally is released (e.g. total market pressure greater than the sum of the capitalizations of all the market makers who are fixing the price in that band), the move will be massive.  The market makers continue to make profits on their mean reversion trades until they finally don’t and the market shoots up to 400 USD/XBT or down to 100 USD/XBT and they end up holding the bag.
+
+Here’s a more nuanced example.  In the history of bitcoin, there have been a few rare flash crashes downward but almost never a flash spike upward.  Traders in the market realize this and thus build it into their strategies.  For example, there might be a trigger in their algo to sell if the price drops by 5% within the span of 1 minute and buy if the price rises by 5% within the span of 30 minutes.  First, this actually increases the prevalence of flash crashes down since sharp moves down trigger stop losses and margin calls which cascade into others placed by other traders with similar beliefs that have similar strategies.  Crashes become sharper over time as the belief in flash crashes happening increases and more traders place more stop losses based on velocity downward.  Second, in the event that the price actually spikes up very sharply, many of these traders will lose money since they do not expect it.  Suppose the price went up 5% within 1 minute followed by an immediate crash down 5% within 1 minute.  The take profit never triggers and then the stop loss triggers sending the trader into a loss.
+
+The Big Picture & Some Relevant Quotes
+
+“It ain’t what you don’t know that gets you into trouble.  It’s what you know for sure that just ain’t so.”  ~ Mark Twain
+
+“The surest way to be deceived is to consider oneself cleverer than others.”  ~ Francois de La Rochefoucauld – Moral Reflections, Sentences and Maxims
+
+It’s important when playing the market to constantly reflect and adjust your ideas given the advent of new information.  It’s very easy to get carried away with confirmation bias on your original idea even when new information suggests the trade was a losing one.  More often than not, if you disagree with the market, the market is right and you are wrong.  Every once in a while, you will be against the market and actually end up right and that’s where the big gains are.  It’s just important to always check yourself and not get carried away.  For every trade you make, there must be someone to take the other side.  Why is that person selling when you are buying when he probably wants to make money just as much as you do?  Does he know something you don’t?
+
+“The more corrupt the state, the more numerous the laws.”  ~ Tacitus – The Annals of Imperial Rome
+
+When deciding upon market microstructure design, I strongly favor parsimony. A simple framework, free of arbitrary rules that pay patronage to various special interests makes for the fairest market.  For example, any rule that asymmetrically limits downside for participants, also, inadvertently, increases moral hazard and excessive risk taking.  If market makers usually make a little money every day when the market trades sideways and then occasionally undertake significant losses when the market moves sharply, then any exchange rule (insurance) which provides redistribution from large winners to large losers favors this special interest group at the expense of the interests of market takers.  So when deciding upon whether to introduce circuit breakers or some type of auction system into a market when the price moves sharply, we should think very carefully about the consequences and their secondary and tertiary effects.  Moreover, behavior adapts to policy changes so any new equilibrium should take that into account not only the effects of the policy directly but also the indirect effects of it as it will change the behavior of participants in the environment.  Lastly, policy should never be made that goes against human nature nor should policy assume, as first principles, that people are not as they are.
+
+“I hated every minute of training, but I said, ‘Don’t quit.  Suffer now and live the rest of your life as a champion.’”  ~ Muhammad Ali
+
+Trading is rather hard and it’s in the practice of actually trading that a trader learns most.  Someone, who watches ten thousand hours of video of people riding bikes but has never ridden one, will not know how to ride a bike.  Similarly, trading knowledge is mostly tacit.  Only by actually trading does a trader get significantly better.  In a way, it’s like poker where newer players have to pay “tuition” to more veteran players before they have achieved a winning level of play.  Moreover, much of trading isn’t even about analytical strategy; it’s about emotional control and not allowing yourself to get too happy at big wins or sad about big losses.  Both excessive fear and excessive hubris are to be avoided.  If you lose big, don’t be afraid to wake up the next day and continue your training.  Moreover, when you win big, don’t blow your winnings on hookers and blow.  Jokes aside, in the end, practice makes perfect.
+
+Kevin Zhou
+Strategist/Trader
+kraken.com
+Skype: kraken.desk
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Flexline deep dive: the long-term holder
+
+ 6 min read 
+ April 28th, 2026
+
+Trading Spaces recap: pivotal reclaim or another grind lower?
+
+ 6 min read 
+ February 16th, 2026
+
+EV is available for trading!
+
+ 2 min read 
+ May 12th, 2026
+
+Payward appoints Robert Moore as Chief Financial Officer
+
+ 4 min read 
+ April 3rd, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

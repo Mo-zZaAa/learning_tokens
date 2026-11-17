@@ -1,0 +1,163 @@
+Support for Multi-sig Bitcoin Payments - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ August 25, 2014
+ | 
+ News 
+
+Support for Multi-sig Bitcoin Payments
+
+2014 is considered by some to be the year of multi-sig, and we are happy to announce that Kraken supports payments to multi-signature Bitcoin addresses (addresses beginning with a ‘3’). Multi-sig features are built right into Bitcoin at the protocol level, offering a powerful free layer of additional security to everyone. Innovations like multi-sig are the building blocks of a better global financial system.
+
+A regular Bitcoin address is made up of two parts: a public key and a private key. Any holder of the private key can spend funds from the address. The beauty of multi-sig is that multiple private keys can be used to protect bitcoins held in a single address.
+
+Since multi-sig addresses can be constructed to require that two out of three private keys be used to spend funds from a single address, asset holders can store their private keys in different places. One private key could be kept on a computer or smartphone, one offline in a secure physical location, and one with an online wallet provider. For extra protection, spending rules can be set up with the wallet provider that match your habits and protect against suspicious activity. Since two of three keys are required to authorize a transaction, you don’t need to trust the wallet provider. An arrangement such as this helps ensure protection from theft should any single private key be compromised. Three individuals could also agree to share a single address configured to allow spending only when authorization is given by at least two out of three parties.
+
+These examples are just the beginning as support for multi-sig addresses grows. To learn more about multi-sig check the following resources.
+
+Coindesk: http://www.coindesk.com/year-multisig-so-far/
+
+World Bitcoin Network: https://www.youtube.com/watch?v=zIbUSaZBJgU
+
+Bitgo (multi-sig wallet provider): http://bitgoinc.com/
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Kraken API Unlocked: FIX 4.4 — institutional connectivity on Kraken
+
+ 7 min read 
+ April 29th, 2026
+
+EU customers: TradFi futures are now live on Kraken Pro
+
+ 3 min read 
+ March 16th, 2026
+
+WINGS is available for trading!
+
+ 2 min read 
+ April 23rd, 2026
+
+The road ahead for crypto markets in 2026
+
+ 7 min read 
+ January 15th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

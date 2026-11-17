@@ -1,0 +1,239 @@
+Bitcoin Cash and a Critical Alert for Margin Traders (Part 2) - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ August 1, 2017
+ | 
+ News 
+
+Bitcoin Cash and a Critical Alert for Margin Traders (Part 2)
+
+This post is a follow-up to our previous post on the Bitcoin Cash hard fork with a few clarifications and reminders for our clients. 
+
+When exactly will the fork happen?
+
+The exact time cannot be known in advance because it is based on “median time.” Median time is the median of the timestamps of the last 11 blocks. When median time increments to 12:20 pm UTC (or later) on Aug 1 the new rules for Bitcoin Cash activate. So the last common block of Bitcoin (XBT) and Bitcoin Cash (BCH) will be the first block that makes the median time increment to 12:20 pm UTC (or later) on Aug 1. And the first block that gets mined after the last common block will mark the point at which the chains part. 
+
+What time will Kraken use to determine how many BCH I receive?
+
+We will use the timestamp of the last common block. In other words, the timestamp of the first block that makes the median time increment to 12:20 pm UTC (or later) on Aug 1 (see paragraph above for further explanation). We will look at the XBT balance you had at this timestamp and add an equal amount of BCH to your balance (so if you had 10 XBT at this time, you will end up with 10 XBT and 10 BCH). 
+
+How late can I send my Bitcoin deposit and still receive Bitcoin Cash?
+
+As stated above, we will use your Bitcoin balance as of the timestamp of the last common block. We require 6 confirmations before a Bitcoin deposit is credited to your balance, so you must send your deposit early enough to allow for 6 confirmations by the last common block. In our previous post, we stated that we will disable Bitcoin funding at 11 am UTC on Aug 1. We now plan to allow funding past 11am and will keep it open long enough for clients to make the final 6 confirmation deadline. However, we will not make any announcement marking the deadline for deposits to be sent and strongly recommend that everyone send us their final deposits no later than 11 am UTC on Aug 1 just to be safe. 
+
+How can I track the median time the BCH fork depends on?
+
+In a recent post about the fork activation timing, the Bitcoin Cash team points out that median time trails clock time by about 6 blocks. So the last common block will be approximately the 6th block with a timestamp after 12:20 pm UTC clock time on Aug 1. There is also at least one block explorer that gives the median time in UTC: 
+
+ https://blockchair.com/bitcoin/blocks?s=median_time(desc)
+
+We cannot vouch for the accuracy of this site, however, so tracking the median time this way should be considered approximate at best. 
+
+When will BCH balances be credited and trading begin?
+
+While we will try to credit BCH balances and enable trading in the pairs BCH/XBT, BCH/USD, and BCH/EUR as soon as possible after the last common block, we cannot say in advance when this will be. We appreciate your patience as we make the necessary preparations to credit balances and open trading. 
+
+Warning: only send BCH deposits to BCH deposit addresses when they become available (do NOT send any BCH to XBT deposit addresses)
+
+We will not enable BCH funding until we think it is safe to do so, and we do not know in advance how long this may take. It could be 24 hours or longer after BCH trading is enabled that BCH funding is available. Do not send any BCH deposits until we make BCH-specific deposit addresses available. We will not honor BCH deposits sent to XBT-specific deposit addresses. We will notify clients via social media (see below) when BCH funding has been enabled. Be sure to split your coins post-fork before sending us XBT or BCH deposits (see the basic splitting instructions at the bottom of this blog post for instruction on how to split your coins).
+
+Alert for Margin Traders (also see previous blog post for more details)
+
+Long XBT margin positions open as of the timestamp of the last common block will result in a BCH credit
+
+example 1: margin buy (long) 10 XBT/USD = +10 BCH (long xbt, short usd)
+
+example 2: margin sell (short) 10 ETH/XBT = +10 BCH (short eth, long xbt)
+
+Short XBT margin positions open as of the timestamp of the last common block will result in a BCH debit
+
+example 1: margin sell (short) 10 XBT/USD = -10 BCH (short xbt, long usd)
+
+example 2: margin buy (long) 10 ETH/XBT = -10 BCH (long eth, short xbt)
+
+Treatment of negative balances (BCH debit)
+
+Accounts with negative balances will be prevented from withdrawing any assets until all assets have balances >= 0. Negative balances are not hard to correct. If you have a negative balance of -10 BCH, simply buy 10 BCH or deposit 10 BCH and the balance will automatically correct.
+
+BCH will not be a collateral currency
+
+Be careful about trading any collateral currencies for BCH if you have margin positions open, because this will reduce your collateral currency balance and could cause liquidation of your margin positions. The same caution should of course be taken when trading any other non-collateral currency assets while you have margin positions open. 
+
+Extreme volatility and cascading liquidations should be expected
+
+Trading on margin in an environment of such high possible volatility is extraordinarily risky. Chances are high that Kraken’s bitcoin markets will become substantially disengaged from one another and out of sync with other global markets. The safest play is to exit your margin positions ahead of the fork and ride it out unleveraged.
+
+Service availability not guaranteed
+
+We often see denial of service attempts that coincide with instances of high market volatility. Traders should plan for intermittent and unpredictable access to the Kraken service and other possible unexpected behavior.
+
+Follow us on social media for Bitcoin Cash updates
+
+Twitter: @krakenfx
+
+Status page: https://status.kraken.com/
+
+Basic steps to split your coins into an XBT wallet and an BCH wallet
+
+We will not recommend any specific wallets here, only covering the basic split steps. These steps take precaution against the possibility that the BCH wallet has malicious code. After all, the BCH wallets are all very new and we don’t know for sure if all of them can be trusted. Following the steps below will help ensure that even if the BCH wallet is malicious you will only lose your BCH and not your XBT as well. 
+
+Wait until after the fork when a few BCH blocks have been mined. 
+
+Move all your Bitcoin (XBT) to a new wallet with a new private key. BCH has replay protection, so you will be able to move your XBT without moving your BCH. 
+
+Wait until your Bitcoin is confirmed in the new wallet. Be sure to complete steps 1-3 before moving to step 4. 
+
+Install a Bitcoin Cash (BCH) wallet and enter the private keys of the original wallet (the wallet you just moved your Bitcoin out of). To be maximally safe, the BCH wallet should be installed on a different machine than the one that has your new Bitcoin wallet on it. You can find a list of BCH wallets on the Bitcoin Cash website. 
+
+This step isn’t necessary, but as a final step you may want to move your BCH to a new BCH wallet with a new private key, just to help ensure you don’t mistake your BCH wallet address for the XBT address it used to be. 
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Kraken API Unlocked: automated crypto trading on Kraken — strategies, infrastructure and where to start
+
+ 8 min read 
+ April 9th, 2026
+
+Payward partners with Nasdaq to develop xStocks-powered gateway connecting permissioned and permissionless tokenized equities markets
+
+ 7 min read 
+ March 9th, 2026
+
+CSPR is available for trading!
+
+ 3 min read 
+ July 21st, 2026
+
+Stablecoins are rewriting global finance. Where is Canada?
+
+ 7 min read 
+ June 4th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
+
+ Loading Comments...
+
+ Write a Comment...
+
+ Email (Required)
+
+ Name (Required)
+
+ Website

@@ -1,0 +1,191 @@
+WebSockets Public API Launching Soon! - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ January 23, 2019
+ | 
+ Product 
+
+WebSockets Public API Launching Soon!
+
+Update: The WebSockets Public API launched on schedule January 30!
+
+Kraken is excited to announce the upcoming launch of the WebSockets Public API for market data! This is a service that many of our clients have requested since it enables faster and easier access to Kraken’s market data.
+
+When will the WebSockets Public API launch?
+
+The approximate worldwide launch time in various time zones is:
+
+UTC: Wednesday January 30 at 5 PM
+
+ET: Wednesday January 30 at 12 PM
+
+PT: Wednesday January 30 at 9 AM
+
+CET: Wednesday January 30 at 6 PM
+
+HKT: Thursday January 31 at 1 AM
+
+The launch time is approximate only and may be significantly delayed.
+
+Do I need to have a Kraken account to use the API?
+
+No – the WebSockets Public API is freely available for anyone to use.
+
+How will I connect to the API?
+
+Follow our documentation here: https://www.kraken.com/en-us/help/websocket-api (remember that the URL for the API will not be active until launch)
+
+Is there a way to try out the API before launch?
+
+Yes – clients can connect to our sandbox environment to try the WebSockets Public API. The documentation can be found here: https://www.kraken.com/en-us/help/websocket-api (you will need to use the URL for the sandbox API)
+
+Will there later be a WebSockets Private API to track my orders and trades?
+
+Yes – we plan to offer this in the future but no ETA is available at this time.
+
+What are the advantages of the WebSockets Public API?
+
+The main advantage is that market data will quickly stream to clients with no polling required. Clients simply use the API to establish a durable, low latency connection with Kraken’s servers, then the servers will push the market data incrementally to clients as soon as an update is available.
+
+The WebSockets protocol provides the best foundation to stream real-time data and build trading applications. Kraken’s WebSockets Public API is just the first phase of a much larger project that will bring many cutting edge services to Kraken clients!
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Kraken 2025 Transparency Report: growing responsibly in a regulated world
+
+ 3 min read 
+ March 19th, 2026
+
+Introducing Smart Grid: fully configurable grid trading, only on Kraken Desktop
+
+ 5 min read 
+ September 9th, 2026
+
+Options are now available on Kraken Pro in the EEA
+
+ 5 min read 
+ October 26th, 2026
+
+Palkkatilisi. Saksalainen IBAN-numerosi. Ansaitse rahoillasi ensimmäisestä päivästä alkaen.
+
+ 4 min read 
+ June 18th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

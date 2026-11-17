@@ -1,0 +1,169 @@
+Degraded Service, Upgrade Next Week - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ December 15, 2017
+ | 
+ News 
+
+Degraded Service, Upgrade Next Week
+
+This blaze is on fire.
+
+The recent, unexpected explosion in demand has been overwhelming.  Each of the past few days has produced 50,000 new account registrations and 10,000 new support tickets — an order of magnitude above where we were just last quarter.  Concurrent users, daily trades and volumes are also hitting new all-time highs.  We are struggling to keep up.
+
+Kraken.com performance is extremely degraded and unreliable.  Clients can expect severe latency and difficulty interacting with all web and API services.  Requests will frequently timeout and fail.  At the moment, the only solution is to wait and try again later.
+
+Next week we will be rolling out a major systems upgrade which should resolve these scaling and load issues.  The upgrade is long overdue and has been substantially delayed by the diversion of resources toward the protracted fire fighting effort required to deal with the last several months of unrelenting growth.
+
+Our fiat funding partners are also experiencing strain.  Most were not prepared for the massive spike in transfer processing and current delays are outside of the usual range, especially for domestic USD.  Cryptocurrency funding remains unaffected.
+
+If you are looking for phone support, be aware that Kraken does NOT offer phone support at this time.  There have been several reports of phishing attempts through fraudulent Kraken support phone numbers advertised on the Internet.  Kraken will never ask you for your password, and we will never ask you to install any software.  Remember that if you are publicly advertising your involvement with cryptocurrencies, you are making yourself a target.  
+
+We regret that we cannot at this time offer what we feel is an acceptable quality of service to our clients.  We hope to make it up to you in the coming weeks.  In the meantime, please trade with caution.  The markets are highly volatile and you are likely to have trouble managing your orders.
+
+Sincerest apologies,
+
+The Kraken Team
+
+UPDATE – 23/Dec/2017: https://blog.kraken.com/post/1413/update-on-system-performance-and-upgrade/
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+We’re raising ETH/USD margin leverage to 20x on Kraken Pro
+
+ 3 min read 
+ September 2nd, 2026
+
+Розділи ₴500 000, торгуючи ф’ючерсами в Турнірі Незалежності для України
+
+ 1 min read 
+ August 14th, 2026
+
+MiCA enforcement begins July 1: what it means for institutional counterparties
+
+ 6 min read 
+ June 23rd, 2026
+
+Multi-account trading for Kraken Prop is live on Kraken Desktop
+
+ 5 min read 
+ October 20th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

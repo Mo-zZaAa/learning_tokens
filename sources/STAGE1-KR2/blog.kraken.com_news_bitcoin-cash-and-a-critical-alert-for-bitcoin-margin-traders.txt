@@ -1,0 +1,219 @@
+Bitcoin Cash and a Critical Alert for Bitcoin Margin Traders - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ July 27, 2017
+ | 
+ News 
+
+Bitcoin Cash and a Critical Alert for Bitcoin Margin Traders
+
+On August 1 2017 at 12:20 pm UTC a small community of Bitcoin users is planning a hard fork from Bitcoin to an alternative protocol called “Bitcoin Cash” (BCH). Bitcoin Cash is expected to be a minority chain, with the vast majority of the Bitcoin community remaining on the chain that activates Segregated Witness and, later on, a possible increase to 2MB blocks. 
+
+Although the Bitcoin Cash fork is expected to be minor, it may be successful. Provided that unforeseen circumstances do not make it prohibitively unsafe or difficult for us to do so, Kraken will support Bitcoin Cash as follows:
+
+All Kraken clients holding Bitcoin (XBT) balances at the time of the fork will be credited with an equal amount of Bitcoin Cash (BCH)
+
+All Kraken clients accessing our Bitcoin (XBT) pool for margin trades at the time of the fork will be debited an equal amount of Bitcoin Cash (BCH)
+
+After the fork Kraken will enable BCH deposits and withdrawals (with replay protection enabled)
+
+After the fork Kraken will enable BCH trading in the following pairs: BCH/XBT, BCH/USD, BCH/EUR
+
+Kraken-owned Cryptowat.ch will support BCH charts and trading
+
+BCH margin trading may be added at a later date if it survives and trade volume is robust
+
+What Kraken Clients Need to Know about the Hard Fork
+
+Bitcoin funding will be halted at 11 am UTC on August 1 – do not deposit during the fork
+
+Kraken will halt XBT funding at 11 am UTC and safely secure funds during the fork. Funding will be re-enabled after the outcome of the fork is clear and the network is safe.
+
+Trading will continue across the fork
+
+XBT trading is expected to continue as normal across the fork, however there may be a brief interruption for the listing of new pairs and adjustment of balances.
+
+Long XBT margin positions held across the fork will result in a BCH credit
+
+If you hold a 10 XBT long position across the fork, it will carry over and can be closed at any time in the usual way. However, you will also receive a 10 BCH credit to your balance corresponding to the margin position.
+
+example 1:  margin buy (long) 10 XBT/USD = +10 BCH (long xbt, short usd)
+
+example 2:  margin sell (short) 10 ETH/XBT = +10 BCH (short eth, long xbt)
+
+Short XBT margin positions held across the fork will result in a BCH debit
+
+If you hold a 10 XBT short position across the fork, it will carry over and can be closed at any time in the usual way. However, please note that you will also be responsible for a 10 BCH debit (negative balance) on your account that must be corrected by either buying or depositing 10 BCH. Why the negative balance? Kraken sources the XBT to finance margin trading from individual lenders and we are preserving the value for these lenders that may lie in the BCH forked from their funds. This means that traders who access our XBT pool across the fork to short must also pay back the BCH that forks from this XBT. Any account with a negative BCH balance will be placed on withdrawal lock until the balance is corrected. 
+
+example 1:  margin sell (short) 10 XBT/USD = -10 BCH (short xbt, long usd)
+
+example 2:  margin buy (long) 10 ETH/XBT = -10 BCH (long eth, short xbt)
+
+Margin traders should be very cautious across the fork
+
+Margin traders are advised to be very cautious across the fork, by either reducing their position sizes or closing out entirely before the fork. In addition to the special provisions described above, margin traders should plan for the possibility of extreme volatility and unfavorable forced liquidations surrounding the fork. As always, margin traders are strongly encouraged to set stops rather than rely on perfect accessibility to the exchange.
+
+A word of caution for everyone
+
+Kraken makes no promises/guarantees/warranties on the outcome of the fork. We will make our best effort to handle things in a way that benefits the most clients, but clients should manage their own wallets/coins if they want perfect control. Kraken will not be held responsible for any circumstances that result in the loss of BCH.
+
+Follow us on social media for updates during the fork
+
+Twitter: @krakenfx
+
+Status Page: https://status.kraken.com/
+
+For more information on Bitcoin Cash
+
+See the project website: https://www.bitcoincash.org/
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Kraken Liquidity Provider Program: tier your rebates to your volume share, not a fixed number
+
+ 4 min read 
+ September 4th, 2026
+
+Ο λογαριασμός μισθοδοσίας σας. Το γερμανικό σας IBAN. Τα χρήματά σας αποδίδουν από την πρώτη ημέρα.
+
+ 1 min read 
+ June 18th, 2026
+
+Kraken Institutional announces first bespoke investment solution
+
+ 2 min read 
+ February 5th, 2026
+
+US is available for trading!
+
+ 2 min read 
+ December 11th, 2025
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
+
+ Loading Comments...
+
+ Write a Comment...
+
+ Email (Required)
+
+ Name (Required)
+
+ Website

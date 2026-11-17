@@ -1,0 +1,253 @@
+Announcement: Reducing Price Precision on all Trading Pairs - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ August 26, 2017
+ | 
+ News 
+
+Announcement: Reducing Price Precision on all Trading Pairs
+
+Effective Wednesday August 30 around 6 am UTC (Tuesday August 29 around 11 pm PT) we will be reducing the allowed decimal place precision for placing orders in all trading pairs. Below is a list of all trading pairs showing the new allowed number of decimal places for each pair. For example, 2 decimal places will be allowed for bitcoin-USD (XBT/USD), meaning that you can place an order for $4,350.01 but not $4,350.001. Trying to place an order with more decimal places than allowed will result in an error and the order will not be created. If the “%” option is used to specify order price, the result will be truncated (rounded down) to the maximum allowed decimal place.    
+
+BCH/XBT 6
+
+BCH/EUR 3
+
+BCH/USD 3
+
+DASH/XBT 6
+
+DASH/EUR 3
+
+DASH/USD 3
+
+EOS/XBT 6
+
+EOS/ETH 6
+
+ETC/XBT 6
+
+ETC/ETH 6
+
+ETC/EUR 4
+
+ETC/USD 4
+
+ETH/XBT 6
+
+ETH/CAD 3
+
+ETH/EUR 3
+
+ETH/JPY 1
+
+ETH/USD 3
+
+GNO/XBT 6
+
+GNO/ETH 6
+
+ICN/XBT 6
+
+ICN/ETH 6
+
+LTC/XBT 6
+
+LTC/EUR 4
+
+LTC/USD 4
+
+MLN/XBT 6
+
+MLN/ETH 6
+
+REP/XBT 6
+
+REP/ETH 6
+
+REP/EUR 4
+
+USDT/USD 4
+
+XBT/CAD 2
+
+XBT/EUR 2
+
+XBT/JPY 0
+
+XBT/USD 2
+
+XDG/XBT 8
+
+XLM/XBT 7
+
+XMR/XBT 6
+
+XMR/EUR 4
+
+XMR/USD 4
+
+XRP/XBT 6
+
+XRP/EUR 6
+
+XRP/USD 6
+
+ZEC/XBT 6
+
+ZEC/EUR 3
+
+ZEC/USD 3
+
+Reducing the price precision will help reduce extraneous activity in the order books as traders continually jump in front of each other by a very small fraction, resulting in a higher volume of canceled (unfilled) orders. We have received many requests from clients for this reduction and it will help reduce load on the trade engine with more efficient order books. 
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Payward Ramp by Kraken is now live on Onramper
+
+ 3 min read 
+ February 26th, 2026
+
+SN51 is available for trading!
+
+ 2 min read 
+ July 9th, 2026
+
+DOS is available for trading!
+
+ 2 min read 
+ August 11th, 2026
+
+LAVA is available for trading!
+
+ 2 min read 
+ December 10th, 2025
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
+
+ Loading Comments...
+
+ Write a Comment...
+
+ Email (Required)
+
+ Name (Required)
+
+ Website

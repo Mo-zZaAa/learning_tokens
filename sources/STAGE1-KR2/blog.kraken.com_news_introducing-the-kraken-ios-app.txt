@@ -1,0 +1,165 @@
+Introducing the Kraken iOS App - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ September 16, 2014
+ | 
+ News 
+
+Introducing the Kraken iOS App
+
+We are very excited to announce the launch of the Kraken iOS app! Read on for screenshots and a quick tour!
+
+Account: Add your Kraken API key to view your balances and open orders at a glance. We recommend that you create a special API key just for your iOS device and only give it the following permissions: 1) query funds, and 2) query open orders and trades. Those are the only permissions the app needs. After you create the API key, you can scan the available QR code with your iOS device to enter the API information.
+
+Markets: Market data and candlestick charts (15m, 1h, 1d). Last price, 24 hour high/low, today’s open/close, 24 hour volume, 24 hour volume weighted average price, today’s volume weighted average price (since 00:00:00 UTC). 
+
+Pair selection: Pressing the currency pair brings up a scrolling menu for changing the currency pair selection. 
+
+Conversion calculator: Pressing the icon in the upper right of the screen brings up a currency conversion calculator for the selected pair. Press the screen to toggle the conversion.
+
+Alerts: Read the latest Bitcoin news.
+
+Download the Kraken iOS app: click here!
+
+Trading is not yet supported. If you would like to trade with the app, let us know! Also, let us know what other features you’d like to see on the app. We always appreciate feedback in order to provide the best exchange experience. To send us feedback, go to https://support.kraken.com and click “Submit a request.” Choose “Feature Request” for the category of your request. Thank you!
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Launareikningurinn þinn. IBAN-númerið þitt. Peningarnir þínir byrja að ávaxta sig frá fyrsta degi.
+
+ 4 min read 
+ July 29th, 2026
+
+RLS is available for trading!
+
+ 2 min read 
+ December 1st, 2025
+
+Купуй. Інвестуй. Отримуй xStocks.
+
+ 1 min read 
+ July 9th, 2026
+
+Inside Kraken’s ethCC: xStocks, Ink, and 17 teams building in 55 hours
+
+ 4 min read 
+ April 22nd, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

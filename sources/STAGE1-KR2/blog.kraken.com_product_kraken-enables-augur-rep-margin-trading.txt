@@ -1,0 +1,185 @@
+Kraken enables Augur (REP) margin trading - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ October 11, 2016
+ | 
+ News, Product 
+
+Kraken enables Augur (REP) margin trading
+
+Augur (REP) margin trading is now available on Kraken! Read on for the details.
+
+What currency pairs and leverages are available?
+
+REP/XBT, REP/ETH, REP/EUR: 2x
+
+What are the REP limits?
+
+The REP limits depend on the verification level of the account as follows:
+
+Tier 1: 200 REP
+
+Tier 2: 1000 REP
+
+Tier 3: 2500 REP
+
+Tier 4: 5000 REP
+
+What are the margin fees?
+
+Margin open fee = 0.02%
+
+Rollover fee = 0.02% / 4 hrs
+
+REP not a collateral currency
+
+Please note that REP will not be a collateral currency, meaning that you cannot open margin positions against the value of your REP balances. For this reason you should always maintain adequate balances in other collateral currencies to maintain your margin positions. To see the current list of collateral currencies, go here: https://support.kraken.com/hc/en-us/articles/204585998-Collateral-Currency
+
+Learn more about margin trading
+
+Why do traders like margin trading? Because it allows you to leverage your account for greater profits. However it also comes with greater risk – if you are unfamiliar with margin trading and how it works, you can learn all about it by visiting the two sections on margin trading in our Support Center.
+
+https://support.kraken.com/hc/en-us/sections/200559303-Trading-Leverage-and-Margin
+
+https://support.kraken.com/hc/en-us/sections/200560633-Leverage-and-Margin
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Votre compte salaire. Votre IBAN. Votre argent qui travaille dès le premier jour.
+
+ 4 min read 
+ July 29th, 2026
+
+On-chain token trading is now built into the Kraken app
+
+ 4 min read 
+ June 18th, 2026
+
+Celebrating 100 xStocks and the growing global market for tokenized equities
+
+ 4 min read 
+ March 18th, 2026
+
+Deepening our partnership with Alpaca, xStocks gain momentum
+
+ 3 min read 
+ December 17th, 2025
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

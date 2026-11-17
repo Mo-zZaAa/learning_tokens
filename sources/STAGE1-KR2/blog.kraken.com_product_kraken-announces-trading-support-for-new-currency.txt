@@ -1,0 +1,205 @@
+Kraken Announces Trading Support for New Currency: Melon Tokens (MLN) - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ March 15, 2017
+ | 
+ Product 
+
+Kraken Announces Trading Support for New Currency: Melon Tokens (MLN)
+
+Kraken will offer support for trading Melon tokens (MLN) shortly after Melon goes live on March 15 at 11am UTC. Built on the Ethereum network, Melon is a protocol for managing digital assets that is decentralized, modular, transparently auditable, and low cost. MLN tokens cover the platform usage fee and are used to reward developers who build Melon modules. Melonport, the company behind Melon, had a very successful Initial Coin Offering (ICO), hitting its target of 227,000 ETH, currently worth about $6.5 million, within 10 minutes.
+
+Which MLN pairs will be available for trading?
+
+MLN/XBT (melon-bitcoin)
+
+MLN/ETH (melon-ether)
+
+Margin trading: We are working to possibly offer MLN margin trading later – stay tuned!
+
+How do I deposit MLN to my Kraken account?
+
+Go to Funding > Deposit > MLN and click “Generate New Address.” Then send MLN to this deposit address with any Ethereum wallet or client that supports tokens, like Parity or Mist.
+
+Will MLN be available on the new trade platform?
+
+Yes! To trade MLN from Kraken’s new trade platform, go to https://trade.kraken.com and click “Connect” to log in to your Kraken account. In the upper left of the screen below the Kraken logo, hover over “BTCEUR” to select the MLNBTC or MLNETH currency pairs. See our previous blog post for more information on getting started with the new trade platform: http://blog.kraken.com/post/157561097377/how-to-get-started-trading-on-krakens-new-trading 
+
+More about MLN tokens & the Melon protocol
+
+A maximum of 1.25 million MLN tokens will be created before the deployment of the final version of Melon (expected to take about two years). A total of 599,400 MLN will be tradable immediately (499,400 from the ICO and 100,000 assigned for the Melonport company to use). Another 650,600 will become tradable later (500,600 reserved for a future crowdsale and 150,000 assigned to founders, advisors, and corporate partners that will be locked and non-tradable for two years or until Melon is fully deployed). After the final version of Melon is deployed, more MLN tokes will be created to incentivize developers for their efforts.
+
+The Melon protocol lets you:
+
+Define the parameters of portfolio structures using smart contracts
+
+Build an auditable, visible track record with low setup costs and minimal variable costs
+
+Invest in other portfolios, or allow others to invest in yours
+
+The team behind MLN includes Reto Trinkler (Co-Founder & CTO), Mona El Isa (Co-Founder & CEO), Dr. Gavin Wood (Advisor), Dr. Andreas Glarner (Advisor) and Jehan Chu (Advisor).
+
+Additional Resources 
+
+Project website: https://melonport.com/
+
+Greenpaper: https://github.com/melonproject/greenpaper/blob/master/melonprotocol.pdf
+
+Team: https://melonport.com/about
+
+Reddit: https://www.reddit.com/r/melonproject/ 
+
+Twitter: https://twitter.com/melonport 
+
+GitHub: https://github.com/melonproject
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Kraken 2025 Transparency Report: growing responsibly in a regulated world
+
+ 3 min read 
+ March 19th, 2026
+
+STABLE is available for trading!
+
+ 2 min read 
+ December 8th, 2025
+
+Kraken wird offizieller Partner der Icon League Kultur aufeinandertreffen – wo Sport, Unterhaltung und digitale
+
+ 3 min read 
+ November 17th, 2025
+
+We’re raising ETH/USD margin leverage to 20x on Kraken Pro
+
+ 3 min read 
+ September 2nd, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
+
+ Loading Comments...
+
+ Write a Comment...
+
+ Email (Required)
+
+ Name (Required)
+
+ Website

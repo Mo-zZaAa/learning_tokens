@@ -1,0 +1,239 @@
+Kraken Fee Change & Important Updates - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ February 24, 2016
+ | 
+ News 
+
+Kraken Fee Change & Important Updates
+
+We have many important updates to share, and we encourage everyone to read the complete list of updates, including a change to trading fees and price precision.
+
+Extension of Free Deposits to April 1
+
+Kraken has seen a more than 2x increase in the number of new accounts (not including the migrated accounts) since announcing our Coinsetter & Cavirtex acquisition and United States expansion into 37 states (plus Washington DC). To celebrate, we are extending the promotion of free United States (via domestic wire) & Canadian dollar deposits (via Interac & EFT) until April 1, 2016. Read more at:
+http://blog.kraken.com/post/137608673157/kraken-acquiring-coinsetter-and-cavirtex-to-expand
+
+High-level updates
+
+Kraken inks multi-million dollar deal with SBI Investment to lead Series B of financing. We are excited about closing the round soon! Until then, you can read more at: http://blog.kraken.com/post/138520352827/kraken-inks-multi-million-dollar-deal-with-sbi
+
+Kraken is closer to helping to distribute over 200,000 bitcoin. Read more at: http://blog.kraken.com/post/139514011237/kraken-announces-significant-progress-in-mtgox
+
+Change to trading fees
+In order to strengthen our product and platform, as well as improve our ability to offer responsive service, we will be raising the trading fees for all fiat and cryptocurrency pairs, effective March 1, 2016. 
+
+The new fee schedule for all currency pairs is as follows:
+
+Note that the fee schedule for the bitcoin dark pool will continue to be a 0.10% premium on the taker fee.
+
+What is ​Maker vs Taker?
+
+A trade gets the ​taker​ fee if the trade order is matched immediately
+
+ against an order already on the order book, which is ​removing liquidity​. A trade gets the ​maker​ fee if the trade order is not
+
+matched immediately against an order already on the order book, which is
+
+ ​adding liquidity​.
+
+Market vs. Limit orders
+
+When you place a ​market order, you want to buy/sell as soon as possible, at the ​best available price. This is the the simplest kind of order. Market orders always get the taker fee.
+
+With a ​limit order​, you establish your desire to buy/sell, but ​only at a certain or better price. A limit ​buy order with the limit price ​below market price will not be matched immediately and once it is matched the trade will get the reduced maker fee. A limit ​sell order with the limit price price ​above market price​ will not be matched immediately and once it is matched the trade will get the reduced maker fee.
+
+Change in price precision
+We make it a point to listen to your feedback regarding how we can help you to trade. Our bitcoin trading clients have requested that we decrease the degree of price precision so that it’s not so easy for orders to jump in front of other orders, simply due to a difference of 0.00001 bitcoin (or about 0.0042 of a US one-cent coin). Meanwhile, our ether trading clients have requested more control in price precision. We will be fulfilling requests to alter the number of decimal places allowed in setting the price for orders, effective March 1, 2016. 
+
+Details:  For some markets we will be decreasing the allowed precision. For example, in our XBT/EUR pair, you can currently set price to a precision of 5 decimal places (€364.70183). Starting March 1, this precision will be reduced to 3 decimal places (€364.702). Why do this? Because many of our traders are concerned that the higher precision favors price over time too much – making it too easy for a new order to jump in front of an older order by 0.00001. 
+
+Here is a complete list of all the currency pairs that will have their precision lowered:
+
+XBT/EUR – reduced from 5 decimal places to 3
+
+XBT/USD – reduced from 5 decimal places to 3
+
+XBT/CAD – reduced from 5 decimal places to 3
+
+XBT/GBP – reduced from 5 decimal places to 3
+
+XBT/JPY – reduced from 3 decimal places to 1
+
+XBT/EUR.d (dark pool) – reduced from 5 decimal places to 3
+
+XBT/USD.d (dark pool) – reduced from 5 decimal places to 3
+
+XBT/CAD.d (dark pool) – reduced from 5 decimal places to 3
+
+XBT/GBP.d (dark pool) – reduced from 5 decimal places to 3
+
+XBT/JPY.d (dark pool) – reduced from 3 decimal places to 1
+
+If you enter an order with too many decimal places, the price of your order will be rounded down for buy orders and rounded up for sell orders. For example, if you enter a buy order of €364.70183, this will be rounded down to €364.701 and as a sell order it will be rounded up to €364.702. Existing orders from before the change will be handled in the same way with buy orders rounded down and sell orders rounded up. Although orders with too many decimal places will be accepted with rounding for now, beginning June 1 2016 they will no longer be accepted (bot traders will get an error message and the order will be cancelled).
+
+We will be increasing the precision for the ETH/XBT market because ether traders have asked for more precision in pricing orders. 
+
+ETH/XBT – increased from 5 decimal places to 6
+
+The price precision for all other currency pairs will remain the same.
+
+Hot Ether Market
+Speaking of ether, you may have noticed the recent explosion of interest and activity around the asset. We’ve just seen a 100% week-on-week increase in ether price. Ethereum’s market cap sits today at 8% of Bitcoin’s, and exceeds that of both Ripple and Litecoin combined. If you’re interested in trading, Kraken offers ether (ETH) against USD, EUR, GBP, CAD, JPY and XBT.
+
+New Kraken status page
+Join us in welcoming the Kraken status page, your go-to dedicated source of up-to-the-minute system status information. If you experience connectivity issues please make sure to subscribe at https://status.kraken.com/ where you will find website, API uptime metrics and the latest news regarding support wait times, etc. Note the upcoming scheduled maintenance on March 1 2016 00:00-00:15 UTC – the site will go offline during this time for about 5 minutes to make the changes described in this post.
+
+New LTC/CAD pair for Canadian traders
+As of March 1, 2016, Kraken will be the only exchange where you can convert litecoins to Canadian dollars and vice versa.
+
+If you still have questions after reading our blog posts:
+
+Visit our support center: https://support.kraken.com/hc 
+
+Chat with us live: https://www.kraken.com
+
+Send us an email: support@kraken.com  
+
+If you’re interested in learning more about Kraken in general, check out our CEO’s January 2016 AMA which can be found at https://www.reddit.com/r/Bitcoin/comments/41vhzz/im_jesse_powell_cofounder_ceo_at_kraken_ama/
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+VTHO is available for trading!
+
+ 2 min read 
+ January 16th, 2026
+
+Your Kraken balance, ready to spend: the Kraken Card is here
+
+ 5 min read 
+ July 13th, 2026
+
+Krak ievieš virtuālos IBAN kontus Latvijā, Grieķijā, Horvātijā un Ungārijā ar 1% algas bonusu
+
+ 6 min read 
+ May 7th, 2026
+
+Kraken launches Fixed Rate Rewards, giving eligible clients fixed APYs of up to 6% on cash and stablecoins
+
+ 3 min read 
+ September 3rd, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

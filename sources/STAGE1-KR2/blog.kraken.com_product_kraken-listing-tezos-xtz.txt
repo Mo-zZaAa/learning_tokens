@@ -1,0 +1,225 @@
+Kraken listing Tezos (XTZ) - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ October 15, 2018
+ | 
+ Product 
+
+Kraken listing Tezos (XTZ)
+
+We are pleased to announce that Kraken will list Tezos (XTZ). XTZ trading starts Tuesday October 16!
+
+Trading and funding start time
+
+The approximate launch time globally is:
+
+PT: Tuesday October 16 at 8:00 am
+
+ET: Tuesday October 16 at 11:00 am
+
+UTC: Tuesday October 16 at 3:00 pm
+
+CEST: Tuesday October 16 at 5:00 pm
+
+HKT: Tuesday October 16 at 11:00 pm
+
+Note that sell orders will not start appearing until after the first XTZ deposits clear (about 30 minutes after launch). The launch time is approximate only and it’s possible the launch might be delayed. Please follow our status page for updates around the time of the launch: https://status.kraken.com/
+
+Trading pairs
+
+XTZ/USD, XTZ/EUR, XTZ/CAD, XTZ/XBT, XTZ/ETH
+
+How to deposit
+
+Navigate to Funding > Deposit > Tezos (XTZ) then generate a deposit address and send XTZ to this address
+
+Confirmations required before deposits credit
+
+30 blocks (approximately 30 minutes)
+
+What is Tezos (XTZ)?
+
+Tezos is a decentralized computing platform for Turing-complete smart contracts. Tezos has three key features. (1) “Liquid Proof-of-Stake” consensus – there is a relatively low barrier to consensus participation and delegation is not required. (2) Smart contract verification – Tezos invented the Michelson programming language that allows formal proofs of contract properties for better contract security. (3) On-chain governance – all aspects of governance are contained in the platform: voting on proposed protocol upgrades, paying developers and implementing the upgrades.
+
+Price History
+
+ICO: $0.382 (July 2017 – raised $232M on 607.4M XTZ sold)
+
+Start of Trading: $1.66 (Oct 02 2017)
+
+52-Week High: $5.91 (June 02 2018)
+
+52-Week Low: $1.14 (Sept 08 2018)
+
+Current: $1.23 (Oct 14 2018)
+
+Market Cap: $748.0M (Oct 14 2018)
+
+Supply
+
+Circulating: 607.5M
+
+Inflation: 763,303,930 max
+
+Project website: https://tezos.com
+
+Will XTZ be available on the new trading platform?
+
+Yes – clients will be able to trade XTZ on both https://www.kraken.com and the new platform at https://trade.kraken.com. If you haven’t tried the new platform yet we highly recommend it – most clients prefer it for the improved UI, integrated charts and tools. Also, it supports mobile trading (just navigate to https://trade.kraken.com on your mobile device and select “Trading” in the bottom right to get started).
+
+What about margin trading?
+
+Margin trading will not be available at launch for XTZ, but may be enabled in the future.
+
+Will Kraken list more assets?
+
+We do plan to list more assets, however, our policy is to never reveal any details in advance – not even about which assets we are considering. Our support agents cannot answer any questions about which assets we may be listing in the future.
+
+Invest with caution
+
+Listing an asset or token on the exchange does not constitute an endorsement by Kraken, nor in any way a recommendation to buy (or sell) the asset or participate in the associated network. While we do extensive research in our evaluation of an asset before listing, we focus on aspects of the project’s legitimacy (it is not illegal and not a scam), and on the security and reliability of the settlement layer (our risk in allowing deposits and withdrawals of the token). Our research does not in any way consider whether the price is currently justified, or likely to go up or down in the future. Do your own research and invest at your own risk.
+
+Trade with caution
+
+You should always consider the available liquidity when trading in any market and manage this risk accordingly. But the liquidity of a newly listed asset may be very low, so caution is especially warranted. Be extremely careful with market orders and orders that trigger market orders (e.g. stop loss). To be safe, we recommend the use of limit orders to help ensure that your orders don’t get filled at unexpected prices. Note that sell orders will not start appearing until after the first deposits clear (check the required number of confirmations above for an estimate of how long this might take).
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Dein Gehaltskonto. Deine IBAN. Dein Geld arbeitet ab dem ersten Tag.
+
+ 4 min read 
+ July 29th, 2026
+
+Introducing Kraken 360: the end-to-end stack for protocol launches
+
+ 2 min read 
+ February 10th, 2026
+
+USDSM is available for trading!
+
+ 2 min read 
+ August 26th, 2026
+
+Introducing The Crypto Closeout: live markets, real traders, every Sunday at 7 p.m. ET
+
+ 3 min read 
+ March 13th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

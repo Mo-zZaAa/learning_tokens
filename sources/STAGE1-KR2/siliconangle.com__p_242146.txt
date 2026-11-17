@@ -1,0 +1,346 @@
+BitLicense hostility to Bitcoin buisness leads Bitfinex and Kraken to ‘Escape from New York’ - SiliconANGLE
+
+ Skip to content
+
+ [the voice of enterprise and emerging tech] 
+
+OUR NETWORK
+
+ search
+
+ Search SiliconANGLE 
+
+ search
+ Submit search
+
+ THE SILICONANGLE 120
+
+ Market Data Provided by
+
+ Search SiliconANGLE 
+
+ search
+ Submit search
+
+Home
+
+TechForward
+
+Cloud 
+
+Cloud Native
+
+AI
+
+Security
+
+Infra
+
+Blockchain
+
+Big Data
+
+Emerging Tech
+
+AWS Marketplace Newsroom
+
+Policy
+
+Apps
+
+Iot
+
+Women In Tech
+
+theCUBE Research
+
+Special Reports
+
+Video Exclusives
+
+CUBE SPECIAL FEATURES
+
+RECENT CUBE EVENTS
+
+AWARDS
+
+More 
+
+AWS Marketplace Newsroom
+Policy
+Apps
+Iot
+Women In Tech
+theCUBE Research
+Special Reports
+Video Exclusives
+CUBE SPECIAL FEATURES
+RECENT CUBE EVENTS
+AWARDS
+Sign In
+
+ THE SILICONANGLE 120
+
+ Market Data Provided by
+
+SHARE
+
+ UPDATED 15:52 EDT / AUGUST 09 2015 
+
+BitLicense hostility to Bitcoin buisness leads Bitfinex and Kraken to ‘Escape from New York’
+
+ by Kyt Dotson
+
+New York has long been the financial hub of the United States and it is the home of the famous Wall Street stock exchange. However, as a technological instrument of finance and exchange, Bitcoin has not seen favorable treatment in this celebrity city of the financial industry. This is due to one piece of legislation: the infamous BitLicense.
+
+In the wake of the final draft of BitLicense two major Bitcoin exchange have announced their exit from New York and will not do business with customers there. Bitcoin exchange Bitfinex and San Fancisco-based Kraken have both announced their withdrawal from New York.
+
+“Due to financial regulation changes in the State of New York, certain Bitfinex services are no longer available for New York Residents,” the exchange operators wrote in an announcement. Reasons cited for leaving include the overly burdensome nature of the BitLicense regulation. Residents of New York who use Bitfinex as an exchange must withdraw their bitcoins before 4:00 pm EDT on August 15, 2015.
+
+World’s largest Bitcoin exchange announces it is leaving New York due to BitLicense “All NY Residents must withdraw” https://t.co/oLhYproPpc
+
+— Erik Voorhees (@ErikVoorhees) August 7, 2015
+
+According to the BitcoinAverage.com market index, Bitfinx represents 39.22% of all current bitcoin volume transactions across the world. This should make the tweet above from Erik Voorhees, co-founder of Bitcoin payment processor Coinapult and founder of Bitcoin exchange Shapeshift.io, hit close to home.
+
+Kraken took to its retreat from New York with a particular timbre of humor using a reference to online gaming by profiling BitLicense as a 40-man raid boss from a game such as World of Warcraft.
+
+BitLicense is described by Kraken thusly, “a creature so foul, so cruel that not even Kraken possesses the courage or strength to face its nasty, big, pointy teeth.” And adds that it includes a list of attributes, attacks and debuffs:
+
+no guarantee of support from New York banks
+
+no guarantee of enforcement against unlicensed competitors
+
+reduced consumer protection
+
+unjustifiable burden and restrictions on global operations
+
+unjustifiable bifurcation of the service for New York alone
+
+unjustifiable expense for the opportunity to compete for the small market
+
+no exemption from traditional money transmission licensing
+
+no onramp for small businesses
+
+dubious value to the consumer
+
+And finally, that defeating this particular monster is actually pyrrhic victory because it drops only one useful item: “Scroll of Protection: New York Law Enforcement.”
+
+The less-humorous, more-serious section of the announcement from Kraken cites that the price of licensing in New York far exceeds the market opportunity for servicing New York Residents. And encourages clients living in New York to escape (in a reference to the John Carpenter movie Escape from New York starring Kurt Russell.)
+
+The BitLicense regulatory framework was finally released in June of this year and now the fallout is happening.
+
+BitLicense roundly criticized by the entire Bitcoin industry
+
+The first draft proposal of BitLicense emerged over a year ago and is the brainchild of then New York Department of Financial Services (NYDFS) Superintendent Benjamin Lawsky. With each subsequent draft released the entire industry has chimed in repeatedly that many of the regulations exceed those provided to similar financial institutions, which already must abide by anti-money laundering laws and other regulations at state and federal levels.
+
+In July 2014, the first draft of BitLicense came up for public comments and it took a beating—however, very little would change. Criticism for the draft and its changes came from almost all angles including wallet services Circle and BitPay, also Bitcoin exchange Kraken. At the October 2014 closure of comments even Reddit, the Internet Archive, and the EFF had weighed in on the problems persistent with BitLicense.
+
+The regulation was described as “sprawling’ and possessing problematic elements such as highly invasive identification requirements not present for other financial tools. BitPay and others criticized the regulation as too stringent and burdensome for Bitcoin startups in the industry space and warned that as a result smaller Bitcoin-related businesses would look elsewhere to open up shop.
+
+Shortly after finalizing BitLicense, Lawsky quit his role as superintendent of the NYDFS. This move generated some controversy over his behavior during the drafting and finalization of BitLicense.
+Image credit: Avco Embassy, Escape from New York movie poster.
+
+A message from John Furrier, co-founder of SiliconANGLE:
+
+Support our mission to keep content open and free by engaging with theCUBE community. Join theCUBE’s Alumni Trust Network, where technology leaders connect, share intelligence and create opportunities.
+
+15M+ viewers of theCUBE videos, powering conversations across AI, cloud, cybersecurity and more
+
+11.4k+ theCUBE alumni — Connect with more than 11,400 tech and business leaders shaping the future through a unique trusted-based network
+
+Are you an AWS customer?  Support SiliconANGLE financially by buying your AWS services from our Marketplace portal page and links: https://siliconangle.com/aws-marketplace/
+
+About SiliconANGLE Media
+
+SiliconANGLE Media is a recognized leader in digital media innovation, uniting breakthrough technology, strategic insights and real-time audience engagement. As the parent company of SiliconANGLE, theCUBE Network, theCUBE Research, CUBE365, theCUBE AI and theCUBE SuperStudios — with flagship locations in Silicon Valley and the New York Stock Exchange — SiliconANGLE Media operates at the intersection of media, technology and AI.
+
+Founded by tech visionaries John Furrier and Dave Vellante, SiliconANGLE Media has built a dynamic ecosystem of industry-leading digital media brands that reach 15+ million elite tech professionals. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations.
+
+LATEST STORIES
+
+Three insights you might have missed from theCUBE’s coverage of Dell’s “AI Leadership Symposium”
+
+SuperDial revamps its healthcare voice agent platform to stop AI bots wasting time calling each other
+
+With $5M in funding, Pretxt launches runtime oversight layer to supervise AI agents in real time
+
+Open AI hit with lawsuit in California over Hugging Face rogue agent incident
+
+At SC26, Nvidia debuts new Rubin HPC chip, scientific research libraries
+
+Corma raises $125M to train cybersecurity-optimized foundation models
+
+LATEST STORIES
+
+Three insights you might have missed from theCUBE’s coverage of Dell’s “AI Leadership Symposium”
+AI - BY VICTORIA GAYTON . 58 SECONDS AGO
+
+SuperDial revamps its healthcare voice agent platform to stop AI bots wasting time calling each other
+AI - BY MIKE WHEATLEY . 48 MINUTES AGO
+
+With $5M in funding, Pretxt launches runtime oversight layer to supervise AI agents in real time
+SECURITY - BY MIKE WHEATLEY . 6 HOURS AGO
+
+Open AI hit with lawsuit in California over Hugging Face rogue agent incident
+POLICY - BY JAMES FARRELL . 12 HOURS AGO
+
+At SC26, Nvidia debuts new Rubin HPC chip, scientific research libraries
+AI - BY MARIA DEUTSCHER . 12 HOURS AGO
+
+Corma raises $125M to train cybersecurity-optimized foundation models
+SECURITY - BY MARIA DEUTSCHER . 14 HOURS AGO 
+
+CUBE EVENT COVERAGE  help_outline
+
+LATEST FROM THECUBE
+Three insights you might have missed from theCUBE’s coverage of Dell’s “AI Leadership Symposium”
+Three insights you might have missed from theCUBE’s coverage of GraphSummit 2026
+Agent fleets drag the messaging layer from afterthought to AI's coordination core
+Leaving VMware starts as a cost decision, but day-two operations decide whether it works
+Agents idling while they wait on humans push Kubernetes to hand back unused resources
+
+DIVE INTO DAVE VELLANTE’S BREAKING ANALYSIS SERIEShelp_outline
+
+IBM Quantum and the race to make scientific advantage useful to industry
+AI cyber resilience and the trust gap
+Can enterprise AI pay for the boom?
+Micron’s memory boom: Is the industry's cyclicality really ending?
+ServiceNow AI Control Tower: Selling a penthouse while building the frame
+
+Sign Up for Our Weekly Newsletter
+SUBSCRIBE
+
+UPCOMING CUBE EVENTS
+
+SEE MORE
+
+RECENT CUBE EVENTS
+
+KubeCon + CloudNativeCon NA 2026
+
+Oracle AI World 2026
+
+monday.com Elevate 2026
+
+Intuit Connect 2026
+
+EVOLVE26
+
+PRIVACY POLICY
+
+TERMS
+
+ABOUT US
+
+CONTACT US
+
+BRAND GUIDELINES
+
+Send us a News tip
+
+Join our community
+
+ theCUBE
+
+ theCUBE Research
+
+ © 2026 SiliconANGLE Media Inc. All rights reserved. 
+
+ ×
+
+Send us a news tip
+
+Send us a News Tip
+
+Phone
+
+This field is for validation purposes and should be left unchanged.
+Name*
+
+ First
+
+ Last
+
+Type of Pitch*
+Consumer or Enterprise?EnterpriseStartup NewsEmerging Technology
+Email*
+
+What's your story?*
+
+File
+Max. file size: 244 MB.
+
+CAPTCHA
+
+ ×
+
+Sign in
+
+SIGN IN
+...
+
+ Remember meLOGIN
+
+Forgot Password? 
+
+ ×
+
+Bio
+
+Ethics statement
+
+ ×
+
+Extract the signal from the noise
+
+Get SiliconANGLE updates and analysis.
+
+ ×
+
+Contact us
+
+Inquire about guest postsAll other inquiries
+
+ ×
+Partner with us
+
+NAME OF INDIVIDUAL*
+
+NAME OF COMPANY*
+
+EMAIL*
+
+COMMENTS*
+
+ ×
+Contact us
+
+NAME OF INDIVIDUAL*
+
+NAME OF COMPANY*
+
+EMAIL*
+
+COMMENTS*
+
+CAPTCHA
+
+ ×
+Guest inquiry
+
+NAME OF INDIVIDUAL*
+
+NAME OF COMPANY*
+
+EMAIL*
+
+COMMENTS*
+
+CAPTCHA
+
+We use cookies for analytics and measurement. You can accept or reject tracking cookies. See our Privacy Policy.
+
+ Accept
+ Reject

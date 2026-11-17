@@ -1,0 +1,177 @@
+Kraken launches Monero trading - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ January 2, 2017
+ | 
+ Product 
+
+Kraken launches Monero trading
+
+Today Kraken is launching support for trading Monero (XMR). Monero is one of the leading cryptocurrencies that has seen huge 40x market cap growth in 2016 and trades with high volume and liquidity. Monero is built on the core principles of privacy, decentralization, open development, scaleability, and fungibility.
+
+You can learn more on the official Monero site and check out the introductory video below.
+
+Which XMR trading pairs are available at launch?
+
+XMR/XBT, XMR/EUR, XMR/USD
+
+Margin: Coming soon – stay tuned for details!
+
+How do I fund my account with XMR?
+
+To deposit your XMR go to Funding > Deposit > XMR and generate a deposit address. Then send your XMR deposit to this deposit address. 15 confirmations are required before the funds are available in your account balance for trading. Kraken utilizes integrated addresses which have the payment ID embedded in the address, so you don’t need to specify a separate payment ID for your deposit.
+
+What about the hard fork at block 1220516?
+
+There is a hard fork planned for block 1220516, estimated for January 9th or 10th (an upgrade to enable RingCT transactions). Note that you should upgrade to Monero v0.10.1 before the hard fork. The hard fork is expected to go smoothly, but there may be significant price volatility around the event presenting opportunity for traders. Kraken XMR deposits will go offline shortly before the fork and remain offline for several hours after the fork.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Il-kont tas-salarju tiegħek. L-IBAN Ġermaniż tiegħek. Flusek jagħmlu l-flus sa mill-ewwel ġurnata.
+
+ 4 min read 
+ June 18th, 2026
+
+SKR is available for trading!
+
+ 2 min read 
+ January 21st, 2026
+
+FIGHT is available for trading!
+
+ 2 min read 
+ January 22nd, 2026
+
+PYUSD deposits and withdrawals now available on Stellar!
+
+ 2 min read 
+ July 28th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
+
+ Loading Comments...
+
+ Write a Comment...
+
+ Email (Required)
+
+ Name (Required)
+
+ Website

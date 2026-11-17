@@ -1,0 +1,253 @@
+Announcement: Reducing Price Precision (Round 2) - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ September 2, 2017
+ | 
+ News 
+
+Announcement: Reducing Price Precision (Round 2)
+
+Effective Wednesday September 6 around 6 am UTC (Tuesday September 5 around 11 pm PT) we will be changing the allowed decimal place precision for placing orders. We had a lot of feedback from clients after the previous change in precision, with most saying they would like to see the precision reduced even further in some pairs, though we are increasing the precision for a few pairs as well. Reducing price precision can help order books operate more efficiently by reducing the volume of canceled (unfilled) orders as traders continually jump in front of each other by a small fraction in price. 
+
+Below is a list of all trading pairs showing the new allowed number of decimal places for each pair. For example, 1 decimal place will be allowed for bitcoin-USD (XBT/USD), meaning that you can place an order for $4,350.1 but not $4,350.01. Trying to place an order with more decimal places than allowed will result in an error and the order will not be created. If the “%” option is used to specify order price, the result will be truncated (rounded down) to the maximum allowed decimal place.   
+
+BCH/XBT 5
+
+BCH/EUR 1
+
+BCH/USD 1
+
+XBT/CAD 1
+
+XBT/EUR 1
+
+XBT/JPY 0
+
+XBT/USD 1
+
+DASH/XBT 5
+
+DASH/EUR 2
+
+DASH/USD 2
+
+DOGE/XBT 8
+
+EOS/XBT 7
+
+EOS/ETH 6
+
+ETC/XBT 6
+
+ETC/ETH 5
+
+ETC/EUR 3
+
+ETC/USD 3
+
+ETH/XBT 5
+
+ETH/CAD 2
+
+ETH/EUR 2
+
+ETH/JPY 0
+
+ETH/USD 2
+
+GNO/XBT 5
+
+GNO/ETH 4
+
+ICN/XBT 7
+
+ICN/ETH 6
+
+LTC/XBT 6
+
+LTC/EUR 2
+
+LTC/USD 2
+
+MLN/XBT 6
+
+MLN/ETH 5
+
+REP/XBT 6
+
+REP/ETH 5
+
+REP/EUR 3
+
+USDT/USD 4
+
+XLM/XBT 8
+
+XMR/XBT 6
+
+XMR/EUR 2
+
+XMR/USD 2
+
+XRP/XBT 8
+
+XRP/EUR 5
+
+XRP/USD 5
+
+ZEC/XBT 5
+
+ZEC/EUR 2
+
+ZEC/USD 2
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Expanding Kraken Custody to Europe under MiCA
+
+ 3 min read 
+ November 19th, 2025
+
+USDG deposits and withdrawals now available on Arbitrum One!
+
+ 3 min read 
+ October 29th, 2026
+
+Update to maker-fee-rebate-eligible trading pairs
+
+ 1 min read 
+ July 16th, 2026
+
+Introducing Synthetic Pairs on Kraken Pro
+
+ 4 min read 
+ March 23rd, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
+
+ Loading Comments...
+
+ Write a Comment...
+
+ Email (Required)
+
+ Name (Required)
+
+ Website

@@ -1,0 +1,185 @@
+On the Ethereum hard fork - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ July 19, 2016
+ | 
+ News 
+
+On the Ethereum hard fork
+
+The Ethereum community has elected to do a hard fork in order to resolve the DAO exploit. The MainNet block on which the hard fork will occur is set at 1920000, which should be reached on July 20 or 21 depending on your time zone.
+
+In an email statement to clients last week about the hard fork we said:
+
+ETH deposits and withdrawals will be disabled approximately 1 hour before the hard fork activates. Trading will continue as normal during the fork. All ETH on Kraken after the fork will be tokens of the winning chain (i.e. the chain with the most work on it). ETH deposits and withdrawals will be enabled again once the winning chain has become clearly evident.
+
+Some interpreted this statement to mean that we would not grant access to balances on the non-dominant chain under any circumstance but this was never our intention. The statement was written from the standpoint of a “winner take all” scenario where the non-dominant chain dies out fairly quickly. Since the outcome of the fork may be more complicated than this, we want to make a number clarifications here and assure everyone that we are making preparations to be ready for any outcome of the fork and will act accordingly.
+
+How long will it take? Although the process may go smoothly and quickly, we want everyone to understand that we will be very cautious about waiting for a clearly dominant chain (with the most work on it) to emerge before enabling ETH and DAO funding again. We think this is unlikely, but depending on how things go, we may have to wait several days or more to be safe. You should not send any Ethereum or DAO deposits to Kraken until we have enable deposits. You can follow us on twitter (https://twitter.com/krakenfx) or our status page (https://status.kraken.com/) to learn when funding is enabled again.
+
+Are my funds safe with Kraken? Yes. We are taking steps to ensure that Kraken balances on both chains are secure against any replay attack. You can read more about the replay attack here:
+
+https://www.reddit.com/r/ethereum/comments/4t2jfq/security_the_oldtonewchain_replay_attack_and_the/
+
+What about my private wallets? Everyone should update their Ethereum client to Geth v1.4.10. Please be very cautious with your private Ethereum wallets and do not send any transactions during the fork to Kraken or anywhere else. Even after the fork you should be careful and understand the danger of the replay attack. If you only care about your funds on the dominant chain, then you do not need to worry about the replay attack.
+
+But if you care about funds on both chains then you will need to take precautions against the replay attack. Here is one place with some tips and discussion that is aimed at a somewhat less technical level:
+
+https://www.reddit.com/r/ethereum/comments/4t9mzg/quick_hf_safety_tips_for_users/
+
+Hopefully a better guide to navigating the fork with your private wallet will be available soon on https://blog.ethereum.org/ or elsewhere.
+
+Will Kraken offer markets for the non-dominant chain? While we haven’t ruled this possibility out, we do not at the present time intend to offer trading markets for the non-dominant chain. In our view it could possibly take several weeks or more before it would even be safe to do this.
+
+What about margin positions? We highly recommend that margin positions be closed before the hard fork starts since the fork may bring a lot of unpredictable volatility or other unusual market behavior making margin trading much riskier than normal. Depending on how the fork resolves, in order to manage the overall exchange risk, we may need at some point to do at least a partial forced closure of margin positions. This means that margin traders may possibly experience at least a partial forced closure of their positions. We will make every effort to minimize the impact and only close positions to the degree that seems necessary, but we cannot guarantee that our decision will be ideal for everyone. We do not think this scenario is very likely, but nonetheless want to let our traders know about the possibility so they can make more informed trading decisions heading into the fork. Margin traders who are uncomfortable with this possibility should close their positions prior to the start of the fork.
+
+What about The DAO? Caution should be exercised for all Ethereum blockchain operations during the fork, including DAO and any other Ethereum based tokens. DAO funding on Kraken will be offline during the fork and you should not send DAO transfers to Kraken or anywhere else during the fork. DAO transfers are also vulnerable to the replay attack discussed above, so you should be cautious about sending DAO transfers even after the fork.
+
+Read more about the Ethereum hard fork
+
+https://blog.ethereum.org/ 
+
+https://www.reddit.com/r/ethereum
+
+http://www.coindesk.com/hard-fork-ethereum-dao/
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Kraken launches Fixed Rate Rewards, giving accredited US investors fixed APYs of up to 7% on cash and stablecoins
+
+ 3 min read 
+ July 28th, 2026
+
+Krak Card launches in the US: up to 2% cashback, 600+ currencies
+
+ 4 min read 
+ August 18th, 2026
+
+Inside our VIP retreat: three nights in Jackson Hole
+
+ 6 min read 
+ October 20th, 2026
+
+Introducing the new Kraken Prime: better pricing, better access, one new interface for everything
+
+ 3 min read 
+ August 27th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

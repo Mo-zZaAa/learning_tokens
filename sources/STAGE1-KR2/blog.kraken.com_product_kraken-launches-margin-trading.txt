@@ -1,0 +1,165 @@
+Kraken Launches Margin Trading - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ May 25, 2015
+ | 
+ News, Product 
+
+Kraken Launches Margin Trading
+
+Kraken is pleased to announce the launch of margin trading. Margin is an exciting instrument that allows clients to amplify their trading profits and gain in both up and down markets.
+
+Kraken is now one of the few exchanges allowing clients to trade bitcoins on margin. 
+
+Margin trading is available to clients who have verified their accounts to Tier 3 or Tier 4. Click here to learn more about how to become verified to Tier 3 or Tier 4. Currently margin trading is only available for the bitcoin-euro currency pair (XBT/EUR). However, clients can margin trade the XBT/EUR pair using their USD balance. 
+
+At launch, Kraken is offering up to 3x leverage, meaning that a margined position can gain 3x more than the underlying move in bitcoin price. A 4% gain in bitcoin price means a 12% gain in a 3x long position. Traders can also leverage their profit when the market drops. A 4% drop in bitcoin price means a 12% gain in a 3x short position.
+
+Opening a margin position is as simple as toggling a button in the order form to select the level of leverage and all the other order details work the same way they do for normal trades, including the many advanced order types Kraken supports. Things are similarly simple for those who margin trade through Kraken’s API interface.
+
+Open positions are easily closed with an opposing leveraged order. If you go long 3 bitcoins with a leveraged buy order, you can close the position by selling 3 bitcoins in a leveraged sell order. Or you can just close part of the position in a smaller sell order. You can even close a position and flip sides to an opposing position in one order, e.g. closing a 3 bitcoin long position and flipping to a 3 bitcoin short position by selling 6 bitcoins in a leveraged sell order.  
+
+Initially there is no extra fee for margin trading. You simply pay your normal trade fee on the opening and closing volume of the margin position. So if you would normally pay 0.10% for a trade, you will pay 0.10% to open a margin position and 0.10% to close that position. Positions open for more than 24 hours will also be charged a 0.05% renewal fee to keep the position open for the next 24 hours. Traders who wish to avoid this fee should close their position within 24 hours.
+
+For more information on the benefits and risks of margin trading, please see Kraken’s Trading Guide and FAQ.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Kraken is an official X Cashtag partner, with trading just a tap away from your timeline
+
+ 4 min read 
+ September 16th, 2026
+
+Trading Spaces Recap: New year, new volatility? Dentoshi breaks down BTC, ETH and early signs of life in altcoins
+
+ 6 min read 
+ January 6th, 2026
+
+xStocks Hackathon: meet the builders who shipped onchain capital markets in 48 hours
+
+ 3 min read 
+ April 22nd, 2026
+
+Kraken named Official Crypto Exchange Supporter of the FIFA World Cup 2026™
+
+ 4 min read 
+ June 9th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

@@ -1,0 +1,231 @@
+Kraken launches Bitcoin Cash (BCH) and Ripple (XRP) margin trading - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ December 29, 2018
+ | 
+ Product 
+
+Kraken launches Bitcoin Cash (BCH) and Ripple (XRP) margin trading
+
+We are pleased to announce the launch of margin trading for Bitcoin Cash (BCH) and Ripple (XRP). The addition expands our margin offering to 8 assets, including Bitcoin (XBT), Ethereum (ETH), Ethereum Classic (ETC), Augur (REP), Monero (XMR), and Tether (USDT).
+
+Which currency pairs and leverage amounts are available?
+
+Bitcoin Cash
+
+BCH/XBT – 2x
+
+BCH/USD – 2x, 3x
+
+BCH/EUR – 2x, 3x
+
+Ripple
+
+XRP/XBT – 2x, 3x
+
+XRP/USD – 2x, 3x, 4x, 5x
+
+XRP/EUR – 2x, 3x, 4x, 5x
+
+What are the borrow limits?
+
+The borrow limits depend on the verification level of your account.
+
+Bitcoin Cash
+
+Tier 1: 1 BCH
+
+Tier 2: 5 BCH
+
+Tier 3: 50 BCH
+
+Tier 4: 500 BCH
+
+Ripple
+
+Tier 1: 5,000 XRP
+
+Tier 2: 25,000 XRP
+
+Tier 3: 250,000 XRP
+
+Tier 4: 2,500,000 XRP
+
+What are the margin fees?
+
+Margin open fee = 0.02%
+
+Rollover fee = 0.02% / 4 hrs
+
+Is margin trading available on the new trading platform?
+
+Yes – clients can margin trade on both https://www.kraken.com and the new platform at https://trade.kraken.com. If you haven’t tried the new platform yet we highly recommend it – most clients prefer it for the improved UI, integrated charts and tools. Also, it supports mobile trading (just navigate to https://trade.kraken.com on your mobile device and select “Trading” in the bottom right to get started).
+
+BCH and XRP are not collateral currencies
+
+Please note that BCH and XRP are not collateral currencies. This means you cannot open margin positions against the value of your BCH or XRP balances. For this reason, you should always maintain adequate balances of other collateral currencies to maintain your margin positions. Be extremely careful when trading collateral currencies for BCH or XRP when you have margin positions open, since this will reduce your account equity and could possibly lead to the liquidation of your margin positions.
+
+Current List of Collateral Currencies
+
+What are the advantages of margin trading?
+
+Margin trading allows you to leverage your account for greater profits, while also assuming greater risk. If you are unfamiliar with margin trading and how it works, you can learn more about it by visiting the two sections on margin trading in our Support Center.
+
+Trading: Leverage and Margin
+
+Terms and Concepts Used in Margin Trading
+
+A word of caution
+
+While margin trading can lead to greater profits, it can also lead to greater losses. Also, if the losses are large enough, your margin positions can be forcibly closed in order to protect the funds you borrowed to open the positions. This means that you may be forced to take a large loss on a trade rather than having the option to try and wait for a more favorable price. Margin Call Level and Liquidation Level are explained in our Support Center.
+
+Margin Call Level and Liquidation Level
+
+Make sure you take the time to fully understand how margin trading works and the risks involved before you start (see the links above for more information).
+
+Questions?
+
+If you have any questions about margin trading, visit our Support Center where you can search our knowledge base, submit a request, or live chat.
+
+https://support.kraken.com
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Kraken and Deutsche Börse announce strategic partnership to bridge traditional and digital markets
+
+ 3 min read 
+ December 4th, 2025
+
+Kraken launches VIP program, setting new benchmark for ultra high net worth crypto service
+
+ 3 min read 
+ December 4th, 2025
+
+Kraken Halloween sweepstakes: trade in October, win 1,000 SOL
+
+ 3 min read 
+ October 1st, 2026
+
+Kraken expands access in Colombia with local payment integration
+
+ 2 min read 
+ December 4th, 2025
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

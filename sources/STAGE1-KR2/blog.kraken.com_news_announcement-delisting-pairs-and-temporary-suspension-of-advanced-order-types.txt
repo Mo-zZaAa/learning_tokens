@@ -1,0 +1,215 @@
+Announcement: Delisting Pairs and Temporary Suspension of Advanced Order Types - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ August 21, 2017
+ | 
+ News 
+
+Announcement: Delisting Pairs and Temporary Suspension of Advanced Order Types
+
+In order to help mitigate the strain on our platform caused by recent exponential growth, we are delisting some of our illiquid trading pairs and temporarily suspending all advanced order types. These changes will go into effect on Tuesday, August 22 around 6 am UTC (Monday August 21 around 11 pm Pacific).
+
+The following pairs will be delisted with all outstanding orders being canceled
+
+XBT/GBP
+
+ETH/GBP
+
+XRP/CAD
+
+XRP/JPY
+
+EOS/EUR
+
+EOS/USD
+
+XLM/EUR
+
+XLM/USD
+
+GNO/EUR
+
+GNO/USD
+
+REP/USD
+
+We do not have any plans at this time to re-list any of these pairs, though this is a possibility once we have ample capacity to do so.
+
+The ability to create new advanced orders will also be temporarily suspended (so you will only be able to create basic limit and market orders)
+
+Open orders will remain open until cancelled or executed, but you will no longer be able to create new orders in any of the following advanced types:
+
+Stop Loss
+
+Take Profit
+
+Stop Loss, Take Profit
+
+Stop Loss, Take Profit Limit
+
+Stop Loss Limit
+
+Take Profit Limit
+
+Trailing Stop
+
+Trailing Stop Limit
+
+Stop, Limit
+
+This applies to all currency pairs but the suspension is temporary only. Advanced orders will return in a month or two as soon as we are better able to process them. We know that many of our clients like the advanced orders, but they are used much less frequently than basic limit and market orders while taking more system resources to process.
+
+The above changes will go into effect on Tuesday, August 22 around 6 am UTC (Monday August 21 around 11 pm Pacific).
+
+We apologize for the inconvenience to clients but we think that immediate action is needed to help alleviate the current strain on our platform. We may take further action if these changes aren’t enough. Our overall plan is to reduce the load on our current platform until upgrades can be made that will enable us to smoothly scale capacity.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+New pair available for margin trading: VVV/USD!
+
+ 2 min read 
+ June 17th, 2026
+
+Kraken 360 pre-TGE playbook Part 2: the 5-step execution window
+
+ 7 min read 
+ March 4th, 2026
+
+FIDD is available for trading!
+
+ 2 min read 
+ February 4th, 2026
+
+Remote isn’t a perk. It’s how Kraken operates.
+
+ 5 min read 
+ March 5th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
+
+ Loading Comments...
+
+ Write a Comment...
+
+ Email (Required)
+
+ Name (Required)
+
+ Website

@@ -1,0 +1,211 @@
+How to Get Started Trading on Kraken’s New Trading Platform - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ March 1, 2017
+ | 
+ News 
+
+How to Get Started Trading on Kraken’s New Trading Platform
+
+Kraken is pleased to launch a new and greatly improved trading platform for our clients that is found here:
+
+https://trade.kraken.com/
+
+The trading platform is adapted from the popular charting and trading site Cryptowatch. Kraken has acquired Cryptowatch – you can read more about the acquisition here:
+
+Kraken acquires Cryptowatch:  http://blog.kraken.com/post/157796880417
+
+Quick-Start Guide to Trading on the New Platform
+
+Accessing the trade interface
+
+There are two ways to access the trade interface so you can start trading.
+
+From https://trade.kraken.com click “Connect” – you will be directed to https://www.kraken.com/trade-login where you will enter your Kraken login credentials (Important: please note that this logs you in to your account at kraken.com and logging out from the new trade platform will NOT log you out from kraken.com – you must navigate to https://www.kraken.com separately and log out if you do not wish to be logged in)
+
+OR you can log in to your account at https://www.kraken.com and navigate to Trade > New Order > Cryptowatch
+
+Entering orders
+
+The order form is on the top right of the screen (you may need to wait a few moments for the screen to finish loading before it becomes available). The order form should be pretty intuitive so we won’t go into that here. The order types and leveraged margin trading of course work the same way.  Note that the option to Settle margin positions is not yet available on the new interface (coming soon), so you will have to use the old interface to settle positions for now.
+
+Viewing recent orders, trades and positions
+
+You can view recent orders, trades and positions in the lower right of the screen. Note that only more recent activity will be shown, so if you want to look further back into your order or trade history, you may have to log in to your account on https://www.kraken.com for this.
+
+Selecting currency pairs
+
+Currency pairs are selected in the upper left of the screen below the Kraken logo.
+
+Is the new trade interface safe?
+
+Yes – it’s just as safe as trading on the old interface. Keep in mind that anyone who has access to your computer while you are logged in will be able to make trades on your account. When you are finished trading, be sure to click “Log out” in the upper right of the screen.
+
+Does the new trade interface require that I stay logged in to kraken.com?
+
+No – you must log in to kraken.com to launch the new interface, but once it is launched you do not need to stay logged in to kraken.com. When you are finished trading, be sure to click “Log out” in the upper right of the screen.
+
+Be careful about trading on the new and old interface at the same time
+
+It is possible to be logged in to the new and old trade interface at the same time. Orders or trades entered on one interface will take a short while to appear on the other interface. We recommend that you just trade on one interface at a time – preferably the new one!
+
+Configurations options
+
+There are many options for configuring the interface, found by clicking the “gear” icon as shown in the image below.
+
+Need more help?
+
+The new cryptocurrency and bitcoin trading platform is pretty intuitive, so you may be able to figure out most things by playing around a bit. Should you need further assistance, please contact Kraken support.
+
+Kraken support: https://support.kraken.com/hc/en-us/requests/new
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+2025 full-year financial highlights
+
+ 13 min read 
+ February 3rd, 2026
+
+CHECK is available for trading!
+
+ 2 min read 
+ November 20th, 2025
+
+Earn up to 6% APY on AUSD with Kraken+
+
+ 3 min read 
+ September 22nd, 2026
+
+DUAL is available for trading!
+
+ 2 min read 
+ April 3rd, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
+
+ Loading Comments...
+
+ Write a Comment...
+
+ Email (Required)
+
+ Name (Required)
+
+ Website

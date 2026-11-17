@@ -1,0 +1,165 @@
+Kraken Introduces Ether Dark Pool and Major Enhancements to Margin Program - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ May 11, 2016
+ | 
+ News, Product 
+
+Kraken Introduces Ether Dark Pool and Major Enhancements to Margin Program
+
+Kraken today became the first and only exchange to offer clients Ether (ETH) Dark Pool trading. The Ether Dark Pool allows clients to discreetly place large ether orders without exposing their intentions to the public, lit order book.
+
+The introduction of Kraken’s Ether Dark Pool comes in the wake of ether’s rapid rise in popularity. Currently the second most valuable form of cryptocurrency behind only bitcoin (XBT), ether’s present market cap is over $700 million. Since the beginning of 2016, ether’s value has risen approximately ten times.
+
+While Kraken has offered dark pool trading for bitcoin since June last year, CEO Jesse Powell said now was the perfect time to add an Ether Dark Pool to Kraken’s leading range of services for digital asset traders. “Kraken is proud to be the first exchange to provide clients with a Dark Pool for ether, a strategic option for professional traders. This year, trading volume for ether has dramatically increased on Kraken’s exchange, and we developed the Ether Dark Pool to bridge the gap between our lit order books and over-the-counter desk,” said Powell.
+
+“Dark Pool trading allows for orders to be placed out of sight so that traders can make large buy or sell orders without revealing their sentiment to other traders. Advantages include reduced market impact and better price for large blocks,” Powell added.
+
+Kraken clients will now have access to 6 ether dark pool currency pairs, with the option to exchange ether for bitcoin (ETH/XBT.d), euro (ETH/EUR.d), United States dollar (ETH/USD.d), Canadian dollar (ETH/CAD.d), pound sterling (ETH/GBP.d), and Japanese yen (ETH/JPY.d). You can view the fee schedule for our dark pairs here: https://www.kraken.com/help/fees
+
+Separately, today Kraken announced major enhancements to their industry leading Margin Trading program, with increased leverage for ETH/XBT (up from 2.5x to 4x) and the addition of support to three pairs: ETH/EUR, XBT/USD and ETH/USD, all with up to 3x leverage. Ether will also become a collateral currency, meaning that now a client’s ETH balance can be used (in addition to XBT, EUR, and USD) as collateral for the advanced (borrowed) funds tied to a leveraged margin trade. Margin trading crypto remains unavailable to US residents at this time.
+
+Powell added, “The details get technical but there are two important takeaways when it comes to dark pool and margin trading. If traders are looking to move large sizes without affecting the market, they trade dark on Kraken. If traders want to keep fewer assets on account and they want less exposure to funding delays, they trade with margin on Kraken. These services together with our OTC bitcoin desk reflect the growing professionalism of our client base and our exchange.”
+
+The significant additions of Ether Dark Pool trading and enhancements to Kraken’s Margin Trading Program come one week after Kraken’s new Position Settlement feature went live on May 4. Position Settlement allows clients to return the advanced (borrowed) funds tied to a leveraged margin trade and close a position by sourcing the funds from their own account balance. Previously only available on Kraken manually, Position Settlement is now a free, automated service which eliminates the impact of funding latency on trading.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Celebrating 100 xStocks and the growing global market for tokenized equities
+
+ 4 min read 
+ March 18th, 2026
+
+Your money, one tap away: bill splitting and Krak’s new home screen are here
+
+ 6 min read 
+ March 24th, 2026
+
+xStocks: now trading 24/7 on Kraken Pro
+
+ 3 min read 
+ December 3rd, 2025
+
+Introducing AI side panel assistant: our new in-chart analyst on Kraken Pro
+
+ 5 min read 
+ August 21st, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

@@ -1,0 +1,211 @@
+On Tether: Journalists Defy Logic, Raising Red Flags - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ July 1, 2018
+ | 
+ News 
+
+On Tether: Journalists Defy Logic, Raising Red Flags
+
+The title is a nod to a recent article in which a reporter covering market structure for Bloomberg News inexplicably fails to comprehend basic market concepts such as arbitrage, order books and currency pegs.  More troubling, however, was the applause from other “journalist” lemmings as they followed in walking their reputations off a cliff.  It defies logic.
+
+The would-be Tether takedown was indefensible and handily dismantled by the community.  Each comment a prelude to a thorough evisceration:
+
+As assuredly the most uninformed piece I have ever read on crypto I think it is a valuable lesson to us to see just how low the standard can be to get published by fairly reputable sources. Small picture a waste of time but big picture a good lesson – @MikeMcDonald89
+
+This is the most clueless shit I have ever read. Do these guys know what an order book is?! – u/virtualgoldmoney
+
+The author of this article is seriously lacking in any understanding of how a market works.  There might be manipulation in USDT but he has not even hinted at any credible proofs for it.  – u/AlpineJoe888
+
+Is this a serious article? How this made it past the editor and got published is beyond me. – u/lowstrife
+
+The amount of wrong assumptions and uninformed conclusions in this article is staggering.  It is painfully bad.  – u/cryptoscopia
+
+It’s scary to think that our lawmakers are reading this stuff.  The title sure was sensational, and it undoubtedly grabbed eyeballs but what of the readers who are not following the outrage on Reddit and Twitter?  What of those who rely on the journalistic integrity and expertise of their news sources?  If we are to take up our pitchforks against market manipulation, guide your torches toward this illumination: the Bloomberg News piece was published on June 29th, the last business day of trading for Q2, and expiration date of numerous futures contracts.  It raises red flags.
+
+But let’s pick up the broader manipulation topic in another post and address the Tether FUD here once and for all.
+
+USDT enjoys price stability due to arbitrage and design
+
+As with any market, traders will employ strategies to buy and sell assets to earn riskless profits, or “arbitrage.” In the cryptocurrency industry, we often encounter traders who will buy and sell cryptocurrency across various different platforms to take advantage of differences in price.  In some respect USDT is no different; we have a number of traders that are actively entering orders (bids and asks) in an attempt to profit from their trade.  However, Tether is unique in that each USDT is (according to the issuer) collateralized with $1 US dollar.  Unlike BTC, ETH, XRP, or other cryptocurrencies, USDT does not experience the same level of volatility because it is asset-backed.  The lack of volatility encourages traders to place bigger orders in the orderbook within a tight range, reflecting their confidence that each USDT is worth ~$1 US dollar.
+
+Taking a look at a snapshot of the order book, we see that there is well over $1 million dollars of resting buy and sell orders within a very close range around a price level of $1 US dollar.  As a result, price changes in USDT are typically very small.  More importantly, small trades and large trades may result in no change or similar changes in price because there is a much larger buy or sell order in the order book that has not been filled.  Anyone, including Bloomberg, is welcome to test this hypothesis by looking at our order books and placing a trade.  All the data is publicly available on the trade panel or through our API.
+
+USDT on Kraken is a miniscule market
+
+Kraken offers only one market on USDT (USDT/USD).  Between our competitors, there are over 400 other traded markets on USDT and Kraken represents less than 0.1% of aggregate daily USDT volume.
+
+As much as we pride ourselves on the level of recognition we enjoy in the industry, we sadly cannot claim to be the arbiters of the price of USDT.  It is more likely determined by the billions of USDT traded over markets like BTC/USDT or ETH/USDT on other platforms.  If 1 BTC trades for ~6,350 USDT on one platform and ~$6,350 US dollars on Kraken, then the implied price of each USDT is logically $1 US dollar.  This level of USDT price discovery happens on markets with hundreds of millions of dollars of volume, not on Kraken’s USDT/USD market, which has currently traded less than $1 million in the last 24 hours.
+
+Image courtesy coinmarketcap.com
+
+Manipulation – What manipulation?
+
+We take allegations of manipulation very seriously.  We strive to operate a platform that is open and fair to all of our users.  We understand the significant level of trust our customers place in us to custody their assets and to provide them a safe trading experience, and we would never jeopardize our reputation by engaging in or supporting manipulation on our platform.
+
+After reading the Bloomberg article, we scratched our heads, questioning just what type of manipulation was being claimed.
+
+Price manipulation?  Is it so hard to believe that an asset-backed stablecoin could trade, well… with so much stability?  As we discussed previously, one need only take a look at the order book to understand why trades of different sizes result in little-to-no change in price levels.  If an order book is too hard a concept to grasp, think about stock at your grocery store.  Why doesn’t the price on avocados change every time you put one in your basket?
+
+Volume manipulation?  USDT volume represents less than 1% of total Kraken volume over the course of 1H2018.  No, we have not been padding USDT volume (or that of any other order book) in a dishonest fashion.  As highlighted before, daily USDT volume on Kraken is less than 0.1% of aggregate daily volume across all of our competitors.  If you’re looking around for potential wash trading in USDT, we recommend you look elsewhere.  That said, it’s not clear what harm could come from wash trading of a pegged asset against its peg.  In Kraken’s case, USDT is only traded against its peg, USD, which itself is an explicitly manipulated asset.
+
+For a real-world historical picture of a massive pegged market, take a look at USD/CNY in 2004:
+
+Image courtesy finance.yahoo.com
+
+USDT does not present a solvency risk to exchanges
+
+Unless an exchange has made promises to the contrary, they are not accountable to clients for the loss of value of any particular asset.  USDT is no different than bitcoin or ether or any publicly traded stock.  If an asset’s value goes to $0, the exchange will simply allow you to withdraw your full balance of worthless assets.  When you deposit USDT with Kraken, it remains in our wallet as USDT to cover our liability to you.  We do not make any conversions on your behalf.  If Tether loses its peg – no matter if it rises or falls in value – we still owe you the same number of tokens.
+
+Oh, and we asked the trader responsible for the mind bottling 13076.389 orders.  The answer: “literally randomly selected”.  So, there you have it.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+USDPT is available for trading!
+
+ 3 min read 
+ July 9th, 2026
+
+Introducing Ink Points: Season 1 is live on Kraken Pro
+
+ 3 min read 
+ April 13th, 2026
+
+Kraken 成为首家获得美联储主账户的数字资产银行
+
+ 1 min read 
+ March 5th, 2026
+
+US is available for trading!
+
+ 2 min read 
+ December 11th, 2025
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
+
+ Loading Comments...
+
+ Write a Comment...
+
+ Email (Required)
+
+ Name (Required)
+
+ Website

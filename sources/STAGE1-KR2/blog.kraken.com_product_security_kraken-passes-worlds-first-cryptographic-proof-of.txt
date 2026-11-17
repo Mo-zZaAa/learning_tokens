@@ -1,0 +1,161 @@
+Kraken Passes World's First Cryptographic Proof of Reserves Audit - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ March 24, 2014
+ | 
+ News, Security 
+
+Kraken Passes World’s First Cryptographic Proof of Reserves Audit
+
+Kraken announced today that it passed a cryptographically verifiable “proof of reserves” audit. The audit is carried out by Stefan Thomas, who verified that the total amount of bitcoins held by Kraken exceed the amount required to cover the balances held by customers. The process employs a variation of the “Merkle Tree” audit method proposed by Greg Maxwell (explained by Zak Wilcox here). The method allows individual customers to cryptographically verify that their balance at the time of the audit was included in the audit. The description of the audit process on Kraken’s website emphasizes that it is merely a first step toward more publicly verifiable accounting practices and says that assets beyond Bitcoin will be considered for future audits. Kraken is honored for its achievement with special promotion for two weeks on Bitcoinity.org, a popular website for Bitcoin market data. In a post to the site thread on Bitcointalk, the creator of Bitcoinity said, “Kraken is getting the shout out for being the first exchange to take some serious steps towards proving their bitcoin solvency. Their solution…is not perfect but it’s better than what any other exchange has done so far.”
+
+Read More:
+
+CoinDesk (3/24): http://www.coindesk.com/krakens-audit-proves-holds-100-bitcoins-reserve/
+
+IBTimes (3/25): http://www.ibtimes.co.uk/cryptocurrency-news-round-auroracoin-airdrop-begins-kraken-bitcoin-audit-dogecoin-donations-1441695
+
+SiliconANGLE (3/26): http://siliconangle.com/blog/2014/03/26/bitcoin-weekly-2014-march-26-irs-to-tax-bitcoins-as-property-kraken-exchange-implements-reserves-audit-mtgox-found-200k-missing-coins/
+
+Bitcoin Magazine (3/28): http://bitcoinmagazine.com/11760/positive-news-another-roundup/
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+SN51 is available for trading!
+
+ 2 min read 
+ July 9th, 2026
+
+CASH is available for trading!
+
+ 2 min read 
+ January 30th, 2026
+
+SOFID is available for trading!
+
+ 2 min read 
+ September 4th, 2026
+
+MEZO is available for trading!
+
+ 2 min read 
+ April 3rd, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

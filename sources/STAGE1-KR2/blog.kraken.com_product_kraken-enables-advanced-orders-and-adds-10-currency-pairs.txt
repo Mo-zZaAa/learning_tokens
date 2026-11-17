@@ -1,0 +1,205 @@
+Kraken Enables Advanced Orders and Adds 10 Currency Pairs - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ February 20, 2018
+ | 
+ Product 
+
+Kraken Enables Advanced Orders and Adds 10 Currency Pairs
+
+Previously, in order to help mitigate strain on our platform caused by exponential growth, we delisted some of our trading pairs and suspended all advanced order types. Since then we have made many infrastructure improvements to better handle load and scale our markets. In a key upgrade we installed a new trade engine on January 13. The new trade engine has and continues to perform extremely well. We are now ready to start bringing back some of the advanced order types and currency pairs.
+
+Two advanced order types enabled
+
+Stop Loss
+
+Take Profit
+
+Please note that these advanced orders trigger off of traded price. A Stop Loss sell order will trigger a market sell when a trade is executed on the exchange at or below the stop price. A Take Profit sell order will execute a market sell when a trade is executed on the exchange at or above the take profit price.
+
+Will more advanced order types be enabled?
+
+Yes! We will bring back more of the advanced order types in the coming weeks after they are thoroughly tested with the new trade engine. 
+
+How to create an advanced order
+
+On https://trade.kraken.com (the Kraken trade platform – try it if you haven’t already!): Select Stop Loss or Take Profit from the “Type” field and enter your stop or take profit trigger price in the “Price” field.
+
+On https://www.kraken.com: From the “Advanced” order form select Stop Loss or Take Profit in the “Order Type” field and enter your stop or take profit trigger price. 
+
+Note: If you don’t see the advanced order options, you may need to clear your browser cache. 
+
+10 currency pairs added
+
+XRP/CAD
+
+XRP/JPY
+
+EOS/EUR
+
+EOS/USD
+
+XLM/EUR
+
+XLM/USD
+
+GNO/EUR
+
+GNO/USD
+
+REP/USD
+
+ZEC/JPY
+
+With the exception of ZEC/JPY, these are all pairs that Kraken previously delisted. We plan to add more currency pairs in the future, but do not have any specific information about which pairs we might add at this time. Specifically, for clients wondering about the XBT/GBP and ETH/GBP pairs, we may add these in the future, but do not have an estimated date at this time.  
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Meet an Atlassian Williams F1 Team driver at the United States GP
+
+ 4 min read 
+ October 5th, 2026
+
+Violet is the new black! Co działo się podczas wydarzenia ’25 Celebration w Warszawie?
+
+ 3 min read 
+ December 18th, 2025
+
+PCE data and June jobs report headline a data-heavy two weeks
+
+ 6 min read 
+ June 24th, 2026
+
+Volume profile indicators now available on Kraken Desktop
+
+ 4 min read 
+ July 7th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
+
+ Loading Comments...
+
+ Write a Comment...
+
+ Email (Required)
+
+ Name (Required)
+
+ Website

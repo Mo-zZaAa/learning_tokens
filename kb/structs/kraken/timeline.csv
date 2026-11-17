@@ -1,0 +1,43 @@
+연도,날짜(종류),사건 번호,사건,법인
+2011,,,(빈 해),
+2012,,,(빈 해),
+2013,,,(빈 해),
+2014,,,(빈 해),
+2015,,,(빈 해),
+2016,,,(빈 해),
+2017,,,(빈 해),
+2018,,,(빈 해),
+2019,2019-02-04(발표),KR-E09,영국 파생 거래 회사 Crypto Facilities 인수,"Payward, Inc."
+2020,2020-09-16(취득),KR-E10,와이오밍 특수목적 예금기관(SPDI) 인가 취득,"Payward Financial, Inc.(Kraken Financial)"
+2021,2021-09(당국 명령),KR-E11,CFTC: 미등록 마진 거래 제재,"Payward Ventures, Inc."
+2022,2022-11(합의),KR-E12,미국 재무부(OFAC) 제재 위반 합의와 30% 감원,"Payward, Inc."
+2023,2023-02(합의),KR-E13,"SEC: 미국 고객 스테이킹 중단 합의, 2023-11 소송, 2025-03 취하","Payward Ventures, Inc."
+2024,2024-03(출범),KR-E14,기관 고객 부문 Kraken Institutional 출범(2024-03)과 Prime(2025-06),"Payward, Inc."
+2024,2024-10(출범),KR-E16,버뮤다 인가 법인으로 미국과 EU 밖 파생 거래장 출범,Payward Digital Solutions Ltd(PDSL)
+2024,2024-10(선임),KR-E17,Arjun Sethi 공동 CEO 선임과 15% 감원,"Payward, Inc."
+2025,2025-02(발표),KR-E18,키프로스 투자회사 인수로 EU 증권 인가(MiFID) 확보,Payward Europe Digital Solutions (CY) Limited
+2025,2025-03-20(발표),KR-E19,NinjaTrader 인수로 미국 선물 중개사(FCM) 확보,"NinjaTrader Clearing, LLC"
+2025,2025-04(출시),KR-E15,미국 주식과 ETF 거래 출시(Alpaca 위탁),Kraken Securities LLC
+2025,2025-04(출시),KR-E20,은행과 핀테크 앱 안에 가상자산 거래를 넣는 Embed 출시,"Payward, Inc."
+2025,2025-06(취득),KR-E22,아일랜드에서 EU 가상자산 인가(MiCA) 취득,Payward Europe Solutions Limited(PESL)
+2025,2025-06-30(출시),KR-E23,주식 토큰 xStocks 출시,"Backed Assets (JE) Limited(발행), PDSL(판매)"
+2025,2025-09-04(안내),KR-E24,프롭 트레이딩 플랫폼 Breakout 인수,"Payward, Inc."
+2025,2025-10-16(발표(완료)),KR-E25,CFTC 지정 선물 거래소 Small Exchange 인수,"Small Exchange, Inc."
+2025,2025-11-18(발표),KR-E26,8억 달러 투자 유치(Citadel Securities 2억 달러 포함)와 상장 서류 비공개 제출,"Payward, Inc."
+2025,2025-12(제휴),KR-E28,"독일거래소 그룹과 제휴, 2026-04 2억 달러 투자","Payward, Inc."
+2025,2025-12-02(발표),KR-E27,xStocks 발행사 Backed 인수,"Payward Europe Limited(지분 매입), Payward, Inc.(지식재산)"
+2026,2026-03(발표),KR-E33,"Nasdaq과 토큰 주식 연결 통로 개발, 2026-09 Nasdaq Ventures 1억 달러 투자","Payward, Inc."
+2026,2026-03-04(발표),KR-E30,연준 제한목적 마스터 계정 취득,"Payward Financial, Inc.(Kraken Financial)"
+2026,2026-03-11(출시),KR-E31,기업용 사업 Payward Services 출시,"Payward, Inc.와 각 인가 법인"
+2026,2026-04(출시),KR-E34,가상자산 담보 신용한도 Flexline과 Krak 직불카드,"Payward, Inc., Payward Interactive"
+2026,2026-04-17(발표),KR-E35,Bitnomial 인수로 미국 청산소(DCO)까지 확보,"Bitnomial(거래소, 청산소, 중개사)"
+2026,2026-05-07(발표),KR-E36,스테이블코인 카드와 결제 회사 Reap 인수,Reap
+2026,2026-06(발표),KR-E37,공모주 토큰 배정 IPO Access,PDSL 등
+2026,2026-07-16(출시),KR-E40,OKX가 xStocks로 미국 주식 토큰 출시,OKX(파트너)
+2026,2026-07-22(발표),KR-E38,GTN 제휴로 미국 밖 주식 토큰 시작,"Payward Services, GTN"
+2026,2026-07-27(합의),KR-E39,Magic Labs 지갑 대행 사업 인수 합의,Payward Services
+2026,2026-08-14(발표),KR-E41,"사업 네 기둥 공식화(Trading, Banking, Asset Management, Payward Services)","Payward, Inc."
+2026,2026-09(발표),KR-E42,LSE와 영국 대형주 토큰 상장 계획,"Payward, LSE"
+2026,2026-09-16(발표),KR-E43,미국 고객용 개별 주식 무기한선물과 블록체인 위 무기한선물 신청,"Bitnomial, NinjaTrader Clearing"
+2026,2026-10-14(계약),KR-E44,EU 은행 Saldo Bank 인수 계약,"Saldo Finance Oy, Saldo Bank"
+2026,2026-11-13(발표),KR-E45,"AI 다섯째 기둥, 실적 지표를 총플랫폼마진(TPM)으로 바꿈","Payward, Inc."

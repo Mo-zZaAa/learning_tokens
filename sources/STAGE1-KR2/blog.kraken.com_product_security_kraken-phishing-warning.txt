@@ -1,0 +1,215 @@
+Kraken Phishing Warning - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ August 15, 2016
+ | 
+ News, Security 
+
+Kraken Phishing Warning
+
+We have received many reports lately of clients falling victim to phishing sites appearing in the ads, above the organic search results, of all of the major search engines.
+
+Unfortunately, it seems to be easier to get an ad up than it is to have one taken down.  Our efforts at reporting the malignant ads have, so far, only resulted in temporary removal.  The matter is now in the hands of our legal team, who are seeking a more permanent cure.
+
+Other services in the ecosystem are suffering the same scourge:
+
+https://www.reddit.com/r/ethereum/comments/4xpj0u/malicious_phisher_is_running_google_ads_for/
+
+Clients who have reused their Kraken password on their email accounts (and other services) likely have had those accounts compromised as well.  If an attacker also has control of your email account, you will not receive alerts about the suspicious activity on your Kraken account.  This is why it is imperative that passwords not be reused across services.
+
+When dealing with financial services, it is always important to practice safe browsing.
+
+Assume ads in search results are phishing
+
+Assume that you can’t tell the difference between an ad and organic search result
+
+Set yourself bookmarks and rely on those for navigating to the desired site
+
+Type the desired domain in the address bar yourself
+
+Verify that you are on the correct domain before entering credentials
+
+Here is a screenshot of the website responsible for the recent phishing attempts.
+
+Notice that the domain contains an extra character and does not support https.  If you enter your two-factor authentication into a phishing site such as this, it is likely that the attacker will be able to use your two-factor code to log in to the real Kraken site.  So, it is extremely important to be diligent, even with two-factor authentication enabled on login.
+
+Here are some screenshots of what the imposter ads look like.
+
+Google:
+
+Yahoo:
+
+Bing:
+
+Phishing ads look just like the organic search results for the real site, and even appear above the real site.  The search engines further deceive you by allowing the attacker to specify the domain that is displayed in the ad, despite it not matching the domain you are ultimately directed to upon following the link.  After clicking a link in search results, it is important to always verify that you have landed on the domain you expected.
+
+What to do if you’ve been phished
+
+If you believe you have entered your credentials in to a phishing site, immediately log in to Kraken.com, change your password and apply two-factor authentication to login.  If you reused your credentials on your email or other accounts, you must change those as well.  Note that until you have control over your email account, an attacker may be able to reset your passwords with other services.  After you have secured your accounts, contact Kraken support to alert us of the potential compromise.
+
+A note about other recent reports of compromised Kraken accounts
+
+Three weeks ago, we notified many clients of actual or attempted breaches of their Kraken accounts.  The attackers appeared to be operating from a list of usernames/passwords obtained from another Bitcoin company.  Two weeks after those notices went out, one of the largest Bitcoin exchanges reported a major hack and asked all its users to change their passwords.  While we do not have conclusive evidence that the events are related, information from our clients indicates an extremely strong correlation.  Some members of the community have gotten to speculating about the relationship between the incidents:
+
+https://www.reddit.com/r/Bitcoin/comments/4wpad8/evidence_bitfinex_hack_3_weeks_old/
+
+In the absence of an official report from the hacked exchange, we may never know for sure.  Again, another reason to use two-factor authentication on login, and not reuse credentials across services.
+
+No evidence of Kraken itself being hacked
+
+We have no reason to believe that Kraken itself has been breached.  The vast majority of reports of hacked accounts so far have admitted to reusing credentials across services, and have not used two-factor authentication on login.
+
+Some hacked accounts had two-factor set only on withdrawals but had not enabled the settings lock, which left open the opportunity for an attacker to remove the setting upon logging in.
+
+As mentioned earlier, even with two-factor set on login, if the two-factor code is entered in to a phishing site, the attacker can perform a “man-in-the-middle” attack, intercept the code (along with your username and password) and use it to log in to the real Kraken.com on your account.
+
+To learn how to use Kraken’s security features to protect your account, see:
+
+https://support.kraken.com/hc/en-us/articles/201396837-What-can-I-do-to-make-my-Kraken-account-secure-
+
+https://support.kraken.com/hc/en-us/articles/201396877-What-is-the-Global-Settings-Lock-
+
+More security features being added
+
+We are working on more cryptocurrency security features to protect our clients, and help our clients protect themselves.  We know that it’s easy to slip up, even while actively practicing good security 99.99% of the time.  We are improving our systems to better catch anomalous activity, and our interface to make the advanced security settings easier to understand.  You might begin to notice small “annoyances” like withdrawal delays as we tweak our system.  We thank you for patience.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Kraken Institutional partners with Centrifuge to support RWAs in qualified custody, starting with Janus Henderson’s JAAA
+
+ 4 min read 
+ June 25th, 2026
+
+Succession at the US Federal Reserve: a policy inflection point
+
+ 15 min read 
+ April 15th, 2026
+
+Announcing colocation access via Liquidity Connect
+
+ 2 min read 
+ April 8th, 2026
+
+KULA is available for trading!
+
+ 2 min read 
+ December 16th, 2025
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

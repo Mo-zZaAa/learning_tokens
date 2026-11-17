@@ -1,0 +1,183 @@
+The Importance of Two-Factor Authentication - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ July 25, 2014
+ | 
+ News, Security 
+
+The Importance of Two-Factor Authentication
+
+The first thing to understand about two-factor authentication is that you need it. For email or financial accounts, where security is of the utmost importance, two-factor authentication is essential because it greatly reduces the chance that the account will be compromised. The second thing to understand about two-factor authentication, however, is that it is a tool with strengths and limitations. To use this tool effectively, you should learn a little about how it works.
+
+Isn’t a Password Good Enough?
+
+A strong password that is securely stored (say in an encrypted file or in your brain) can go a long way toward securing an account. Unfortunately, people don’t always create strong passwords or store them securely. Also, the traditional system of password authentication has an inherent vulnerability. The vulnerability is that since the password itself must be entered every time you use it to log into your account, every login presents a chance for your password to be stolen. You can minimize the danger by being careful, but even careful people regularly fall victim to attacks such as phishing, keylogging, or network sniffing. Two-factor authentication can help overcome this problem by providing a second authentication factor that doesn’t require the authentication secret to be revealed during each login. This means that even if your password is stolen, there’s a good chance your account will still be secure if the second authentication factor isn’t compromised.
+
+The Importance of Being Independent
+
+Two-factor authentication is often described by saying that the two authentication factors involve “something you know” (e.g. a password) and “something you own” (e.g. a cell phone). This isn’t the best way to think about the two factors because many people today use password managers and don’t know all their passwords (a password manager is in some ways more akin to something you own than something you know). A better way to think about two-factor authentication is to see that it enhances account security by requiring two independent channels of authentication. It is important that the two channels be independent to reduce the chance that both channels are compromised at the same time. Complete independence requires two things. First, the two authentication factors should be stored or implemented on different devices (“something you know” is just a way of saying that you can store a password in the device called your brain). Second, the authentication factors shouldn’t share any vulnerabilities because this might leave them open to similar kinds of attack. We already mentioned a vulnerability with traditional passwords – you wouldn’t want your second factor to have the same type of vulnerability. If you follow the standard ways of setting up two-factor authentication, you should end up with two independent channels, but you should still take a moment to think about what you are doing and make sure you aren’t crossing your channels. For example, if you use your cell phone for the second factor and decide to store your password on the same phone, then you don’t really have two-factor authentication because anyone who steals your cell phone will also have your password.
+
+One-Time Passwords
+
+When you set up two-factor authentication for your account, what you do is to set up a two-factor device (the “thing you own” such as a cell phone or Yubikey) to produce one-time passwords (OTP) that you input along with your traditional password on each login. The OTP is “one-time” because it changes for every login and is sometimes called a “dynamic” password for this reason. The idea is that by providing the correct OTP on account login, you are demonstrating that you own the device because only that device could produce the correct OTP. For the type of two-factor authentication that we will focus on here, the dynamic OTP is generated on the basis of a static secret key and a “moving factor.” The moving factor is what makes the OTP dynamic, but by providing the correct OTP the device confirms that it has the correct secret key (because it would be very hard to produce the correct OTP without the secret). The secret key isn’t fundamentally different from a traditional password – they are both just static codes – but it is very different in terms of how it is confirmed. A traditional password has to be revealed each time it is confirmed (this is the vulnerability we noted with traditional passwords), but a two-factor device allows a secret to be confirmed without directly revealing the secret. The secret is confirmed indirectly by checking for the correct OTP on each login and it’s very difficult to determine the secret from knowing the OTPs. So a two-factor device provides an excellent way to protect an authentication secret from theft – so long as the device itself isn’t stolen!
+
+Different Types of Two-Factor Authentication
+
+HOTP vs TOTP: The different types of two-factor authentication are primarily distinguished by how the “moving factor” is implemented. HOTP stands for “HMAC-based One Time Password” and the moving factor is a simple counter that increments each time an OTP is generated. TOTP stands for “Time-based One Time Password” and the moving factor in this case is the passage of time (a new OTP is generated by the device every 30 seconds). The TOTP password is short-lived while the HOTP password may be valid for an unknown amount of time. TOTP requires less maintenance but the time between the device and our servers needs to be synchronized while HOTP requires more maintenance but no synchronization. As a result, the TOTP is generally considered the more secure One-Time Password solution. For most users, however, the difference is marginal compared to the benefits gained from using two-factor authentication in the first place.
+
+Google Authenticator vs Yubikey: Google Authenticator gives you the choice between HOTP and TOTP while Yubikey is only HOTP. But the more significant difference between the two is that Google Authenticator is a software token while Yubikey is a hardware token, meaning that Yubikey is a bit more secure since it isn’t vulnerable to software-based attacks.
+
+Two-Factor Recovery, Email, and the Kraken Master Key
+
+Unfortunately, two-factor devices can be lost or broken and you should understand how your site handles recovery in these cases. Some sites require you to create an account recovery option in advance. At Kraken, we offer more flexibility since you can request a two-factor bypass code by email after you’ve lost access to your account. But this means that you need to take some extra precautions. First, you should create two-factor authentication for the email account associated with your Kraken account. Second, you should create a master key for your Kraken account. The master key essentially gives you a special authentication channel that’s reserved for sensitive things like account recovery. Once created, the master key will be required for account recovery actions such as bypassing your two-factor authentication for account login. When you create the master key, don’t forget the point made above about maintaining independent channels. One mistake that our clients sometimes make is that they put the master key on the same two-factor device used for account login. The problem with this of course is that if the device is lost or stolen, you end up losing the thing you need for recovery along with your regular authentication. If you don’t have a second two-factor device to put the master key on, it’s best to just make the master key a regular password (by choosing the “Password” option). So long as you keep the master key in a safe place, it’s better as a regular password than it is on the same two-factor device you use for login.
+
+Putting it all Together
+
+Let’s put the things we’ve discussed into a picture of how you might secure your Kraken account. Keep in mind that this won’t by any means be a picture of maximum security. We offer many other security tools that haven’t been mentioned here for securing your account further. But the following is a pretty good start:
+
+Two-factor authentication for account login.
+
+Two-factor authentication for the email associated with your Kraken account. If you use the same two-factor device for 1 and 2, then be sure to create some two-factor bypass codes for your email account – that way you won’t lose your email account (necessary for recovering your Kraken account) in case you lose your two-factor device.
+
+Create a master key and store it in a very safe place where it won’t get stolen or lost. Ideally the master key should be created on a two-factor device, but if you don’t have one to spare, it’s best to just use the “Password” option to create the master key and store the standard password in a safe place. Whatever you do, don’t create the master key on the same two-factor device used for account login.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Kraken to sponsor Trump Accounts for all Wyoming newborns in 2026
+
+ 2 min read 
+ February 16th, 2026
+
+SN75 is available for trading!
+
+ 2 min read 
+ July 14th, 2026
+
+Setting the record straight: real adoption of tokenized stocks
+
+ 5 min read 
+ March 5th, 2026
+
+Kraken API Unlocked: automated crypto trading on Kraken — strategies, infrastructure and where to start
+
+ 8 min read 
+ April 9th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

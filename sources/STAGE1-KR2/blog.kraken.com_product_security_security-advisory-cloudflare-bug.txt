@@ -1,0 +1,171 @@
+Security Advisory: Cloudflare Bug - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ February 24, 2017
+ | 
+ Security 
+
+Security Advisory: Cloudflare Bug
+
+A bug was recently discovered with Cloudflare, which Kraken and many other websites use for DoS protection and other services. Due to the nature of the bug, we recommend as a precaution that Kraken clients change their security credentials:
+
+Change your password
+
+Change your two-factor authentication (remove and re-enable it)
+
+Clients who use API keys should generate a new set of keys
+
+You should similarly change your security credentials for other websites that use Cloudflare (see link below for a list of possibly affected sites). If you are using the same password for multiple sites, you should change this immediately so that you have a unique password for each site. And you should enable two-factor authentication for every site that supports it.
+
+The bug has now been fixed by Cloudflare, but it caused sensitive data like passwords to be leaked during a very small percentage of HTTP requests. The peak period of leakage is thought to have occurred between Feb 13 and Feb 18 when about 0.00003% of HTTP requests were affected. Although the rate of leakage was low, the information that might have been leaked could be very sensitive, so it’s important that you take appropriate precautions to protect yourself.
+
+The actual leaks are thought to have only started about 6 months ago, so two-factor authentication or API keys generated before that time are probably safe, but we recommend changing them anyway because the vulnerability potentially existed for years.
+
+Please note that this bug does NOT mean that Kraken itself has been hacked or breached, but since individual security credentials may have been leaked some individual accounts could be vulnerable and everyone should change their credentials as a safeguard.
+
+Here are some links for further reading on the Cloudflare bug:
+
+TechCrunch article: https://techcrunch.com/2017/02/23/major-cloudflare-bug-leaked-sensitive-data-from-customers-websites/
+
+List of sites possibly affected by the bug:  https://github.com/pirate/sites-using-cloudflare/blob/master/README.md
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Fair value gap detection is now built into Kraken Desktop
+
+ 4 min read 
+ September 3rd, 2026
+
+Kraken публікує звіт про підтвердження резервів за грудень 2025 року, продовжуючи дотримуватися свого зобов’язання щодо зміцнення довіри через прозорість
+
+ 1 min read 
+ May 14th, 2026
+
+Announcing the world’s first regulated, tokenized-equity perpetual futures, using xStocks
+
+ 4 min read 
+ February 24th, 2026
+
+The Fed decides. The dot plot speaks. What the March FOMC means for active traders.
+
+ 6 min read 
+ March 18th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

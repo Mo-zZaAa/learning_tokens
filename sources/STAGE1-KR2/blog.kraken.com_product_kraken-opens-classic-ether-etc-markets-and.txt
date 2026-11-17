@@ -1,0 +1,186 @@
+Kraken opens classic ether (ETC) markets and credits ETC to accounts - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ July 26, 2016
+ | 
+ News, Product 
+
+Kraken opens classic ether (ETC) markets and credits ETC to accounts
+
+Last week the Ethereum hard fork went smoothly with the chain reimbursing DAO investors becoming dominant very quickly. As stated by email and on our blog (http://blog.kraken.com/post/147619017767), ETH balances on Kraken after the fork are tokens of this dominant chain. 
+
+However, the competing chain that does not reimburse DAO investors remains viable with a significant community of support. This network has come to be known as Ethereum Classic and the tokens are called classic ethers (ETC). 
+
+Read more about Ethereum Classic: https://ethereumclassic.github.io/
+
+ETC markets on Kraken
+
+Kraken has elected to support classic ether along with most of the major Ethereum exchanges. Kraken is offering the following ETC trading pairs:
+
+ETC/XBT
+ETC/ETH
+ETC/USD
+ETC/EUR
+
+These new markets will likely be thin at first, so please pay attention to the depth of the order book and utilize limit orders to avoid slippage.
+
+ETC Credits
+
+Along with the launch of the new trading pairs, Kraken is crediting client accounts with their ETC balance if they had an ETH balance on Kraken at the fork. 
+
+The fork was at block 1920000, which was on July 20 at 13:20:40 PM UTC. The ETC balance credited to an account will be equivalent to the ETH balance on the account at that time plus any queued but unsettled deposits and minus any queued but unsettled withdrawals.
+
+ETC funding delayed
+
+ETC deposits and withdrawals are unfortunately not available yet. Our current estimate is that ETC funding will be available 24-48 hours after ETC markets open. 
+
+Removing the ICAP deposit option
+
+Please note that along with the update adding ETC markets and balances we are removing the ICAP deposit option for both ETH and ETC. If you use any ICAP deposit addresses you should switch over to hex addresses immediately. Almost all of our clients use hex addresses already, so only a few will be affected by this change. 
+
+Beware the replay risk
+
+If you plan to keep both ETH and ETC in private wallets, make sure you understand the risk of the replay attack and take appropriate steps to protect yourself. For more information on the replay attack see our previous blog post (http://blog.kraken.com/post/147619017767). 
+
+If you have funds in a wallet that can be replayed, you can safely send an ETH deposit to Kraken from this wallet and receive credit in your Kraken account for both the ETH and an equal amount of ETC. For more information on this option, see this blog post: http://blog.kraken.com/post/148071533482
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+Introducing Kraken Prop: trade with our money, not yours
+
+ 4 min read 
+ May 27th, 2026
+
+ESP is available for trading!
+
+ 2 min read 
+ February 12th, 2026
+
+A Krak virtuális IBAN-okat vezet be Lettországban, Görögországban, Horvátországban és Magyarországon, 1%-os fizetési bónusszal
+
+ 7 min read 
+ May 7th, 2026
+
+We issued 56 million tax forms for 2025. Most were under $50. It’s time to fix digital asset taxes.
+
+ 5 min read 
+ April 22nd, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy

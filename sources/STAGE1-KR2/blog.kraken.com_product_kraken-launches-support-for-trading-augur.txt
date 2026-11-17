@@ -1,0 +1,179 @@
+Kraken launches support for trading Augur Reputation Tokens (REP) - Kraken Blog Kraken Blog
+
+Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more
+
+News
+
+ Sign in
+ Sign up
+
+News
+
+ Sign in
+ Sign up
+
+ Search for:
+
+ October 4, 2016
+ | 
+ News, Product 
+
+Kraken launches support for trading Augur Reputation Tokens (REP)
+
+Today Kraken is pleased to launch support for trading Augur Reputation Tokens (REP). The Augur team expressed their excitement for this important step in the overall Augur launch, saying
+
+We all know that Kraken is one of the top exchanges in the space. This is more important: we are personal fans of the overall Kraken trading experience. We use Kraken, we trust Kraken and – this true – even Joey Krug’s mom uses Kraken! We are elated that they’re featuring REP trading on their platform. We predict that trading of REP on Kraken will be strong 🙂 
+
+– Augur team
+
+Which REP trading pairs are available at launch?
+
+REP/XBT, REP/ETH, REP/EUR, REP/USD, REP/CAD, REP/JPY
+
+Margin: Coming soon – stay tuned for details!
+
+What is Augur? What is REP?
+
+Built on Ethereum, Augur is a decentralized global platform for prediction markets. Augur allows anyone to create, trade or monitor prediction markets on any topic. 
+
+An essential service to the markets is a decentralized oracle that reports the final outcome of events the markets were predicting and this is where REP comes in. Owning REP and storing them in your private wallet grants the right to get paid in exchange for accurately and reliably reporting on the outcome of events. Reporters need only report correctly for the markets assigned to them but receive their share of 50% of the trading fees from all Augur markets. 
+
+The prediction markets will not be enabled until later (exact date not set – probably in a few weeks), so for now REP can only be transferred and traded on Kraken.
+
+To learn more about Augur and REP visit the project website: https://www.augur.net/ 
+
+What do I need to know to access my REP and send them to Kraken to trade?
+
+Access your REP: For instructions see here http://blog.augur.net/2016/09/16/test-how-to-access-your-rep/ and here https://www.reddit.com/r/Augur/comments/55tjry/myetherwallet_prep/ (note that the wallet file is the same the key file).
+
+Deposit your REP to Kraken: In your Kraken account go to Funding > Deposit > REP to find the address for depositing REP to your Kraken account.
+
+Note: After the prediction markets are enabled (exact date not set  – probably in a few weeks), note that REP deposited to Kraken are converted to a dormant state, meaning that it will be free from the reporting requirements. Also, REP withdrawals will be sent in the dormant state and must be activated after they are withdrawn for reporting. We have confirmed with the Augur team that there is no penalty or fine for REP held on Kraken in the dormant state (some of the Augur documentation suggests otherwise, but this documentation is out of date). However, to be eligible to earn a share of the Augur trading fees, REP first must be withdrawn and activated from the dormant state.
+
+Share this:
+
+ Share on X (Opens in new window)
+ X
+
+ Share on LinkedIn (Opens in new window)
+ LinkedIn
+
+ Share on Facebook (Opens in new window)
+ Facebook
+
+Related Posts
+
+SN44 is available for trading!
+
+ 2 min read 
+ July 30th, 2026
+
+FRNT is available for trading!
+
+ 2 min read 
+ January 7th, 2026
+
+AI at Kraken Compliance: automating the routine, elevating the critical
+
+ 3 min read 
+ February 16th, 2026
+
+New pair available for margin trading: SPCXx!
+
+ 2 min read 
+ June 24th, 2026
+
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+
+Categories
+
+360
+API
+Asset Listings
+Bitcoin Vault
+Blockchain & Crypto Basics
+Bonded Earn
+Borrow
+Bundles
+Compliance
+Crypto Education
+Custody
+DeFi Earn
+Derivatives
+Desktop
+Economic Brief
+Engineering
+Equities
+event
+Fixed Rate Rewards
+Flexline
+Funded
+FX Perps
+Industry News
+Ink
+IPO Access
+Krak
+Kraken Card
+Kraken Derivatives US
+Kraken Embed
+Kraken Institutional
+Kraken Intelligence
+Kraken Pay
+Kraken Plus
+Kraken Prime
+Kraken VIP
+Kraken Wallet
+Kraken+
+Launch
+Margin
+New Features
+News
+NFT
+Onchain Trading
+Options
+Payward Services
+Perps
+Policy
+Press Releases
+Pro
+Product
+Promo
+Promotions
+Prop
+Ramp
+Security
+Staking
+Tips & Explainers
+Unified Wallet
+vip
+xstocks 
+
+About
+
+Why Kraken
+
+Mobile Apps
+
+Institutions
+
+Careers
+
+Chat with Support
+
+Press
+
+Affiliates
+
+Kraken Bank
+
+Status
+
+Follow Us
+
+© 2011 - 2026 Payward, Inc.
+
+Privacy Notice
+
+Terms of Service
+
+Cookies Policy
