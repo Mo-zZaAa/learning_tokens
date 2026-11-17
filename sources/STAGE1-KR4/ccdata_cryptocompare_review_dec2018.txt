@@ -1,0 +1,130 @@
+CryptoCompare Publishes December 2018 Exchange Review | CCData
+Contact Us
+News
+Prices
+Data & Indices
+Back to menu
+/
+Data & Indices
+Data
+Market Data
+Unrivaled digital asset data for institutional analysis and insights.
+Index Offerings
+Discover our index offerings with $40 billion in benchmarked assets, trusted by 100+ global partners.
+API
+Institutional-grade crypto data streamed live from 300+ exchanges.
+Research and Insights
+Data-driven analysis of key digital asset movements.
+Documentation and Governance
+Index methodologies, policies, announcements and updates.
+Indices
+Back to menu
+A trusted partner since 2014. BMR compliant.
+Data
+No items found.
+Research
+Events
+Back to menu
+/
+Events
+Leading events in crypto and blockchain since 2015.
+Data
+CoinDesk: Policy & Regulation
+A summit on crypto legislation & regulation in Washington, DC. Sept 10, 2025.
+Consensus Miami
+The flagship festival for Crypto’s Most Influential Event. May 5-7, 2026.
+Webinars
+Live & recorded learnings from leaders in digital assets and Web3.
+News
+Prices
+Data
+Back to menu
+Delivering world-class crypto data solutions, indices and market insights
+Data
+Market Data
+Unrivaled digital asset data for institutional analysis and insights.
+Index Offerings
+Discover our index offerings with $40 billion in benchmarked assets, trusted by 100+ global partners.
+API
+Institutional-grade crypto data streamed live from 300+ exchanges.
+Research and Insights
+Data-driven analysis of key digital asset movements.
+Documentation and Governance
+Index methodologies, policies, announcements and updates.
+Indices
+Back to menu
+Delivering world-class crypto data solutions, indices and market insights
+Indices
+No items found.
+Research
+Events
+Back to menu
+Delivering world-class crypto data solutions, indices and market insights
+Events
+CoinDesk: Policy & Regulation
+A summit on crypto legislation & regulation in Washington, DC. Sept 10, 2025.
+Consensus Miami
+The flagship festival for Crypto’s Most Influential Event. May 5-7, 2026.
+Webinars
+Live & recorded learnings from leaders in digital assets and Web3.
+Contact Us
+Press Release
+CryptoCompare Publishes December 2018 Exchange Review
+CryptoCompare, the global cryptocurrency market data provider, today published its December 2018 Exchange Review, offering institutional and retail investors insights into the cryptocurrency exchange industry.
+January 17, 2019
+CryptoCompare Publishes December 2018 Exchange Review
+London, 17 January 2019: CryptoCompare, the global cryptocurrency market data provider, today published its December 2018 Exchange Review, offering institutional and retail investors insights into the cryptocurrency exchange industry.
+The December Monthly Review provides an overview of current exchange market concentrations as well as a monthly evaluation of how spot volumes vs futures volumes have developed historically, including both crypto exchanges (BitMex and BitflyerFX) and traditional exchanges (CBOE and CME). We have also conducted an order book analysis which aims to highlight the most stable exchanges.
+The complete December Exchange Review can be found here »
+Highlights include:
+The top 10 exchanges represented more than 60% of total spot market volume in December. This has not changed significantly in recent months.
+The proportion of futures trading volume increased from 22% in November to 28% in December. BitMex XBT perpetual futures volumes increased 17.7% in December while XBTUSD futures of CME and CBOE decreased 45.5% and 48.0% respectively since November. Regulated exchanges (CME and CBOE) represented only 2.88% of the total crypto futures market in December
+Trading volume from exchanges that offer fiat pairs decreased by 40% in December while crypto to crypto exchange volume decreased by 7.7%. Crypto to crypto exchanges represented three quarters of spot volume in December. However, the majority of exchanges offer fiat to crypto trading
+Stable Coins: Tether (USDT) continues to represent the majority of Bitcoin trading into fiat or stable coins at 65% of total monthly volume in December. In December, the proportion of Bitcoin trading into Tether increased 16.5% since November. Pairs trading from USDT represent the largest markets for stable coins with PAX representing the majority of trading volume in December at 75% of total monthly volume. USDT trading into PAX increased 70% since the previous month.
+Top Exchange Volumes: Binance was the top exchange in December by total monthly volume, followed by OKEX and ZB. Total monthly trading volume among the top 10 exchanges dropped 7.5% on average since November. Binance, OKEX and ZB dropped 13%, 5% and 19% respectively while exchanges BitZ and IDAX contrastingly experienced a 57% and 9% increase in trading volume respectively.
+Order Book Analysis: Among top exchanges, average order book depth down for their top 5 markets have fallen steadily, decreasing 22% since November. This is consistent with the bearish trend we have witnessed over the last few months. Bitfinex, Kraken and Bitstamp maintained the most stable markets in December, while exchanges CoinBene, Bitforex, IDAX showed thin markets combined with high volumes
+In December, three new exchanges (CryptoExchangeWS, XS2, and SafeCoin) were added to CryptoCompare
+Charles Hayter, CEO of CryptoCompare , said:
+“We are delighted to see increasing levels of interest in our monthly crypto exchange review, from both retail and institutional investors. There is a clear appetite for reliable and accurate data that can be trusted as the basis for investment decisions and we pride ourselves in acting as a gatekeeper for clean crypto market data.” The Methodology: CryptoCompare’s Monthly Exchange Review evaluates the consistency and quality of exchange data, which is incorporated into CryptoCompare’s real-time Aggregate Index Methodology (the CCCAGG), used to calculate the best price estimation of cryptocurrency pairs traded across global exchanges. It aggregates transactional data from more than 70 exchanges using a 24-hour volume weighted average for every cryptocurrency pair. Constituent CCCAGG exchanges are reviewed and amended each month to ensure that the most representative and reliable market data is used in CCCAGG pair pricing calculations.
+Media contacts
+Sybille Mueller and Caroline Villiers, Streets Consulting
+Email: sybille.mueller@streetsconsulting.com ; caroline.villiers@streetsconsulting.com
+Tel: 020 7959 2235
+About CryptoCompare
+CryptoCompare is the global cryptocurrency market data aggregator, providing retail and institutional investors with real-time, high-quality and reliable market and pricing data on 5,000+ coins and 200,000+ currency pairs globally, bridging the gap between the crypto asset and traditional financial markets.
+By aggregating and analysing tick data from globally recognised exchanges and seamlessly integrating different datasets in the cryptocurrency price, CryptoCompare provides a comprehensive overview of the market and a fundamental value matrix. At a granular level, CryptoCompare produces cryptocurrency trade data, order book data, block explorer data and social data, taxonomy reports and a suite of cryptocurrency indices.
+Acting as a gatekeeper for reliable, accurate and clean data, that can be trusted as the basis for investment decisions, CryptoCompare adheres to rigorous standards to safeguard data integrity, normalising global data sources to ensure consistency and confidence in the market.
+For more information, please visit our website or follow us on Twitter @CryptoCompare .
+Notes to editors:
+Data methodology: how do we assess exchange data?
+We assess exchanges on the basis of spot 24-hour volume and pricing data. The current process operates as follows: for each exchange, the 24-hour volume and price of every live trading pair is recorded. Each pair volume is compared to the total market volume for that specific pair and assigned a market share ranking. Pricing for each pair is then compared to that of the CCCAGG pair, and a percentage price difference is calculated. Finally, a 24-hour volume weighted % price difference per pair is calculated to produce a figure for how close the overall exchange pricing differences are to that of the CCCAGG.
+As a general guideline, CryptoCompare assumes that exchanges with an overall percentage pricing difference of under 10% is within acceptable boundaries. The reasons for pricing differences across exchanges may be related to a number of factors that include exchange fees, jurisdiction, tax considerations among a series of other factors. It is, however, the first indicator of acceptability within the CCCAGG exchange list.
+Subscribe to Our Newsletter
+Get our latest research, reports and event news delivered straight to your inbox.
+About
+About Us
+Masthead
+Careers
+CoinDesk News
+Research
+Blog
+Contact
+Contact Us
+Accessibility
+Advertise
+Sitemap
+System Status
+Policies
+Documentation and Governance
+Ethics
+Privacy
+Terms of Use
+Do not sell my info
+Developers
+API
+API Documentation
+Certificate Number 23073
+ISO 27001
+Please note that our privacy policy , terms of use , cookies , and do not sell my personal information have been updated.
+Back to top
+© 2026 CoinDesk

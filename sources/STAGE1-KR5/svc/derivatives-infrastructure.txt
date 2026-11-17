@@ -1,0 +1,229 @@
+
+Payward Services | Derivatives Infrastructure
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+Crypto TradingCrypto TradingOn/off-rampsOn/off-rampsTokenized EquitiesTokenized EquitiesDerivatives InfrastructureDerivatives InfrastructureStaking & YieldStaking & YieldIndices & DataIndices & DataCard Issuance & PaymentsCard Issuance & PaymentsEmbedded WalletsEmbedded Wallets
+Crypto TradingCrypto TradingOn/off-rampsOn/off-rampsTokenized EquitiesTokenized EquitiesDerivatives InfrastructureDerivatives InfrastructureStaking & YieldStaking & YieldIndices & DataIndices & DataCard Issuance & PaymentsCard Issuance & PaymentsEmbedded WalletsEmbedded Wallets
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Derivatives Infrastructure
+Offer regulated derivatives, licenses included.
+Launch and scale CFTC-regulated derivatives and prediction markets under your own brand. No licenses to win. No infrastructure to build.
+Get in touch with salesView rulebook
+Built on Kraken’s 15-year operating history and live CFTC-regulated US entities.
+1st
+The first CFTC-regulated exchange to accept crypto as margin collateral
+16+
+Crypto perpetual markets available today
+10
+Exchanges, including CME, ICE, Eurex, and Kalshi
+3
+CFTC entities in-house: DCM, DCO, FCM
+You own the customer. We run the infrastructure.
+Whether your users trade on a centralized exchange or an onchain protocol, they can trade regulated Payward markets without leaving your product. Your users stay in your experience; the regulated rails run quietly behind it.
+Three regulated layers. One integration.
+The exchange
+Launch new markets without running an exchange.
+Contracts list and trade on Bitnomial Exchange, our CFTC-regulated venue: spot margin, futures, perps, options, and prediction markets.
+DCM · Designated Contract Market · Bitnomial Exchange, LLC
+Bitnomial Exchange, LLC is a CFTC-registered designated contract market. View Disclosures.
+The clearinghouse
+Built specifically for crypto, not just adapted to it.
+Bitnomial Clearinghouse manages clearing, settlement, and counterparty risk, including crypto collateral, for our markets or yours.
+DCO · Derivatives Clearing Organization · Bitnomial Clearinghouse, LLC
+Bitnomial Clearinghouse, LLC is a CFTC-registered derivatives clearing organization. View Disclosures.
+The broker
+One relationship reaches the whole regulated market.
+NinjaTrader Clearing carries client accounts and connects you to Bitnomial, CME, ICE, Eurex, Kalshi and more.
+FCM · Futures Commission Merchant · NinjaTrader Clearing, LLC
+NinjaTrader Clearing, LLC is a CFTC-registered futures commission merchant and an NFA Member (NFA ID: 0309379). View Disclosures.
+Powering your derivatives business end to end.
+Give your customers access to futures, perpetuals, and prediction markets through a single integration. Connect to leading exchanges, including CME, Kalshi, Bitnomial, Coinbase, ICE, and Eurex, under your brand with built-in risk management controls.
+Onboard
+Open accounts under your brand.
+Branded account opening, from first application to an approved account.
+Fund
+Fund accounts instantly.
+Instant funding options, balances, and transfers, all through one API.
+Trade
+Trade on your own platform.
+Order execution and live market data on a trading platform you brand.
+Manage risk
+Control risk before the trade.
+Pre-trade risk checks, margin and liquidation controls, and surveillance.
+Operate
+Run the account day to day.
+Reporting, reconciliation, and operational support behind every account.
+One REST and WebSocket API. Most partners go live in 6 to 12 weeks.
+Our infrastructure defines what’s possible
+Settle in the asset the market trades.
+Offer regulated derivatives with crypto settlement, on the first U.S.-regulated exchange to list perpetual futures.
+One collateral pool & framework.
+Users post once and trade spot, futures, perpetuals, and options against the same collateral, using crypto, stablecoins, or USD.
+Contracts built for a new market.
+Build contracts for what people want to trade next, not what financial infrastructure allowed them to trade before.
+One infrastructure. More ways to market.
+Connect your users to regulated markets
+Bring derivatives and prediction markets to your users without building a brokerage or exchange connection. We help you choose an IB model, then run onboarding, funding, execution, and risk for you.
+Best for: Fintechs, trading platforms, and other products putting regulated markets in front of U.S. users.
+Bring your market onshore
+Keep your technology, product and brand while we provide the regulated exchange, clearinghouse and brokerage infrastructure underneath. Launch into the U.S. without building the regulated stack yourself.
+Best for: DEXs, onchain protocols, and international exchanges bringing their markets to U.S. users.
+Clear your own markets
+List markets on your exchange and clear them through Bitnomial Clearinghouse. Access clearing and settlement across spot margin, futures, perps, options and prediction markets without operating your own DCO.
+Best for: exchanges that need a clearing partner for their own markets.
+Ready-made contracts
+Distribute the regulated contracts already listed on Bitnomial Exchange: spot margin, and perpetuals, to your users without creating or listing them yourself.
+Best for: Brokers and platforms looking to expand what their users can trade.
+More of the market, in your product.
+From crypto and derivatives to the markets taking shape next.
+Spot margin
+Offer leveraged spot trading with flexible settlement.
+Perpetual futures
+Crypto perpetuals across 16+ assets, and more to come soon.
+Prediction markets
+Event contracts across sports, politics, culture, crypto, and more.
+Options (coming soon)
+Regulated crypto options are coming to Bitnomial Exchange.
+Futures, spot margin, event contracts, and options trading involves substantial risk and is not suitable for everyone. Losses may exceed the initial investment. Past performance is not necessarily indicative of future results. Leverage magnifies gains and losses and may vary by asset. Geo restrictions and terms apply. View Disclosures.
+For FCMs
+Connect as a clearing member
+Futures commission merchants can become clearing members of Bitnomial Exchange to connect directly to our markets and distribute our contracts. The rulebook governs how those markets operate: governance, market operations, and clearing.
+Read the Bitnomial rulebook
+Read the Bitnomial rulebook
+This collaboration has helped us launch quickly, while allowing our team to focus on the customer experience that sets DraftKings apart.
+Jeanine Hightower-Sellitto
+Senior Vice President, GM DraftKings Predictions
+Frequently asked questions
+Which derivatives products can my platform offer?
+You can offer spot margin, crypto perpetual futures across 16+ markets, dated futures and prediction markets, all listed on Bitnomial Exchange, our CFTC-regulated venue. Regulated crypto options are coming soon. Availability depends on geography and terms. See Payward Services for exchanges.
+Is Payward Services regulated for derivatives?
+Yes. Derivatives run through three CFTC-registered entities: Bitnomial Exchange (a designated contract market), Bitnomial Clearinghouse (a derivatives clearing organization) and NinjaTrader Clearing (a futures commission merchant and NFA member). See our regulatory disclosures.
+How long does it take to launch, and can I test first?
+Most partners go live in 6 to 12 weeks through one REST and WebSocket API. You build and test in a sandbox with test balances first, then we enable production access when you're ready to launch. See Environments.
+Do I need my own licenses or a compliance team?
+No licenses of your own are needed. They're included: our CFTC-regulated exchange, clearinghouse and futures commission merchant provide the regulated layers, so you can launch under your own brand. Geo restrictions, terms and eligibility apply, so talk to us about your model.
+Get in touch
+Ready to offer regulated derivatives?
+Talk to our team.
+*First name
+*Last name
+*Please enter a valid business email address
+*Company name
+*Country of business
+Type of business
+🇦🇫
+Phone number
+Assets amount
+Monthly trading volume
+Assets of interest
+Areas of interest
+How did you hear about us?
+Your message
+*By continuing I agree to the Terms of Service & Privacy Policy
+Send
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

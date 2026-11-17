@@ -1,0 +1,181 @@
+
+Payward Services | DeFi & Onchain Protocols
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+DeFi & Onchain Protocols
+Connect offchain liquidity and regulated fiat rails.
+Payward Services handles KYC, AML, and fiat conversion. Unlocking regulated market access, not overhead.
+Get in touch with salesRead the docs
+$2T+
+Annual transaction volume
+130+
+Blockchains supported
+100+
+Regulatory licenses
+<2ms
+Execution
+Let users cash out without leaving your app
+Your protocol needs an off-ramp; we convert crypto to fiat and settle to a bank account, card, or wallet in seconds.
+Bridge fiat into your protocol
+Your users want to fund a position in fiat; we convert to USDC or USDT and settle onchain across 130+ blockchains.
+Access institutional liquidity for your protocol’s execution
+Your protocol needs deep, reliable liquidity; we route to the same liquidity pools powering Kraken’s spot exchange.
+Add a compliance layer without building one
+Your protocol needs KYC and sanctions screening for regulated markets; we manage it end to end without you operating a compliance function.
+Onboard users without a third-party wallet
+Your users need a wallet before they can touch your protocol; we embed non-custodial wallets directly into your front end, so onboarding happens inside your product, not in someone else’s app.
+Key capabilities
+One integration, not a stack of bridges
+Connect fiat rails, liquidity, and compliance through a single API instead of stitching together separate bridges, custodians, and banking partners.
+Institutional liquidity
+$2T+ in annual transaction volume, sub-2ms execution, and access to the same liquidity pools powering Kraken’s spot exchange.
+Global fiat rails
+24+ payment methods across 100+ jurisdictions, with instant settlement via RTP, SEPA Instant, PIX, and other real-time rails.
+Compliance handled
+KYC, AML, transaction monitoring, and sanctions screening managed end to end, so regulated fiat access doesn’t require you to become a regulated entity.
+Stablecoin settlement, instantly
+Fund in fiat, settle onchain in USDC or USDT, with no correspondent banking and no multi-day delays.
+For developers
+If you’re evaluating the API, the integration documentation covers wallet connections, fiat rails, and webhook configuration.
+Read the Integration documentation
+Read the Integration documentation
+Explore the API reference
+Explore the API reference
+One of the most trusted and robust infrastructures in crypto.
+Thijs Maas
+CEO, Onramper
+Frequently asked questions
+How do DeFi protocols connect to fiat rails?
+Through one Payward Services integration, instead of separate bridges, custodians and banking partners. Your users fund in fiat and settle onchain in USDC or USDT, or cash out to a bank account, card or wallet. You can combine these payment flows with trading in the same integration. See use cases.
+What compliance options does a DeFi protocol have for regulated markets?
+You can have us verify your users, or bring your own verification. With hosted verification, we collect identity evidence through a managed web or embedded flow. Approved partners in the EEA can instead submit users their own provider has already verified. Either way, wait for the result before a new user trades or converts. See Hosted KYC.
+Does Payward cover the banking and funding rails my protocol's users need?
+Your users can fund in fiat and settle in stablecoins such as USDC and USDT, which we support on several networks, including Ethereum, Solana, Polygon and Arbitrum. Which funding rails are available depends on the product and your users' countries, so your integration engineer confirms coverage for your markets. See coverage.
+How can we test the integration before launching?
+Yes. You get a sandbox from day one. It's fully separate from production and uses test balances instead of real funds, so your team can build and run end-to-end flows before launch. The sandbox includes test networks, so you can check the onchain flows your protocol depends on. When you're ready, we enable production access. See Environments.
+Get in touch
+Ready to connect your protocol to regulated fiat rails?
+Talk to our team.
+*First name
+*Last name
+*Please enter a valid business email address
+*Company name
+*Country of business
+Type of business
+🇦🇫
+Phone number
+Assets amount
+Monthly trading volume
+Assets of interest
+Areas of interest
+How did you hear about us?
+Your message
+*By continuing I agree to the Terms of Service & Privacy Policy
+Send
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

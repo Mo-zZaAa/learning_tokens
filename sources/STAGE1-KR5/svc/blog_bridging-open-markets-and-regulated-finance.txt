@@ -1,0 +1,160 @@
+
+Bridging Open Markets and Regulated Finance
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Insights
+Blog
+Research
+Learn
+November 16, 2026
+Bridging Open Markets and Regulated Finance
+Payward spent 15 years building regulated infrastructure across the world. Now, Payward Services partners can use that infrastructure to bring digital-asset products to market in the EU and, for the first time, onshore in the US.
+The rules governing digital assets are still being written. In Washington, DC, important questions about the future structure of US crypto markets remain unresolved. Elsewhere, new regulatory regimes are already taking effect. Regulatory readiness cannot be switched on when legislation passes, a market changes or an opportunity appears.
+A license is not a certificate or corporate milestone. Behind every authorization sits an operating infrastructure: an operating system that comes with capital requirements, reporting obligations, segregated client asset handling, governance structures, market surveillance, and risk models, as well as entities incorporated, staffed, and audited in key jurisdictions.
+The authorization and press release is the part everyone sees, but the machinery underneath takes years of specialist work to assemble. It runs indefinitely through ongoing supervision, periodic examinations, and fixed-cadence reporting. It’s a permanent operating obligation, and the cost and overhead never falls away.
+That is why it cannot be spun up, even in a year or two, no matter how much capital or urgency sits behind the effort. It has to be built before it is needed and maintained every day thereafter.
+For more than 15 years, Payward has built and maintained regulated infrastructure across global markets, comprising more than 100 licenses and registrations across 30 countries. Today, that foundation underpins Payward Services, giving eligible partners access to capabilities across regulated trading, payments, custody and settlement without having to build every underlying layer independently.
+What it takes to build
+We began this work at a point when most of the industry treated regulation as something to reluctantly staff up on; a cost center. For much of the past decade, the firms sitting in application queues were seen as laggards, and the firms that operated offshore were seen as fast.
+We took a different view. Our read was that the regulatory perimeter around digital assets would eventually harden, faster than most firms expected, and that when it did, having the licensing and regulatory stack would prove essential. So we built for that, jurisdiction by jurisdiction, through a decade where it was rarely the popular choice.
+That moment is now here.
+Why it is now the binding constraint
+In the EU, MiCA recently replaced a patchwork of national regimes with a single authorization that a firm either holds or doesn’t. There is no longer any pending status that lets a firm keep serving clients while its application is reviewed.
+In the US, the CFTC licensing stack that governs domestic derivatives took Bitnomial, the first company to assemble it for crypto derivatives, more than a decade to build.
+Any company seeking to offer trading, payments, or derivatives in digital assets needs both: the ability to build the product and the authorizations required to offer it.
+Securing them requires systems and stakeholder engagement that can take years to build and real investment to maintain. Given how many licenses and authorizations are involved - and how hard each is to obtain - few firms in digital finance hold a complete regulatory stack.
+Payward Services gives eligible partners a route to regulated markets through infrastructure already operating in key jurisdictions. Instead of building every authorization, entity, control framework and operating capability independently, partners can focus on their product, customer experience and distribution.
+Europe: what happens when the perimeter hardens
+Payward has held MiCA authorization through the Central Bank of Ireland since June 2025, alongside a MiFID authorization from CySEC covering derivatives and an e-money authorization from the CBI.
+That combination, spot and financial instruments and payments under one group, gives us one of the deepest regulatory footprints of any crypto platform operating in Europe. We are one of the few platforms authorized under both MiCA and MiFID.
+The practical consequence showed up earlier this month. As part of a broader realignment of its regional strategy, MEXC wound down its offering in the Netherlands and referred eligible clients, across both spot and derivatives, to Kraken. MEXC prioritized an orderly, well-supported transition, and both firms provided support to move customers across with minimal disruption.
+As regulatory perimeters harden, firms will have to reassess the products they offer in certain markets, and activity will concentrate on the venues authorized to host it. We received MEXC clients because we had the authorizations already in place. That’s the whole point: a license is not something a firm can stand up in response to a deadline.
+The US: the first crypto-native CFTC stack
+While the United States is at a different point in that evolution, the same logic applies.
+In May, we completed our acquisition of Bitnomial, the first crypto-native exchange in the United States to hold all three CFTC licenses required to operate a full-stack domestic crypto trading and derivatives business: the exchange (DCM), clearinghouse (DCO) and brokerage (FCM).
+Bitnomial spent more than a decade assembling that stack and built it for digital assets from the ground up: crypto settlement and collateral, continuous 24/7 markets, a unified book across spot, futures, options, and perpetuals.
+Those are not capabilities that can be retrofitted onto legacy clearing infrastructure. As Payward Co-CEO Arjun Sethi framed it when we announced the deal: “The shape of a market is determined by its clearing infrastructure, not its front end. Settlement mechanics, margin models, and contract structures define what products can exist and who can access them. The US has had no clearing infrastructure built for digital assets.”
+This is not simply an abstraction. On September 16, we announced plans to bring onchain perpetual futures to eligible US clients through new, permissioned HIP-3 markets on Hyperliquid, subject to regulatory approval. The proposed deployment would extend a popular, existing protocol to US clients, using our licensing stack, while continuing to run onchain.
+For protocol developers, the proposed structure offers a route to regulated markets through an operator that has already spent years building the required licensing infrastructure. As onchain innovation accelerates, the value of maintaining that stack grows with the range of products it can support.
+Derivatives are one leg of it. We were also the first crypto company to be granted a bank charter in the US, and we hold an SEC broker-dealer registration alongside it.
+For a bank or fintech, that combination, alongside a full stack derivatives offering, means the trading, custody, settlement, and payment legs can all sit inside one supervised group rather than across four counterparties with four regulators and four separate failure modes.
+The build-versus-partner math
+Through Payward Services, our B2B infrastructure platform, eligible partners can now offer CFTC-regulated US derivatives to their own end-clients through a single integration. That same integration covers crypto trading, tokenized equities, staking, lending, stablecoin payment rails, and global on/off-ramps. That product set is expanding as we roll out spot margin, perpetuals and options.
+For a fintech, bank, brokerage or payments company, that changes the calculation in two ways.
+The first is time. Building the equivalent internally means applications, examinations, capital commitments, and infrastructure work measured in years rather than quarters, in each jurisdiction separately, with no guarantee of the outcome at the end of any one of them.
+The second consideration is complexity. Firms that take the DIY route usually end up assembling the stack across several vendors and several regulators: one relationship for execution, another for custody, another for payments, another for clearing.
+That model duplicates controls, traps capital in siloed systems and gets harder to oversee as the business grows. A single supervised group with the licenses already in place significantly simplifies operations.
+The next phase of digital finance will reward firms that can operate under supervision in the markets that matter—not simply build another interface.
+Payward Services gives eligible partners a faster route to that capability: regulated infrastructure, delivered through a single integration, so they can focus their resources on the product, customer experience, and distribution that differentiate them.
+Talk to the team
+Not investment advice. Crypto trading involves risk of loss. Payward Europe Solutions Limited, trading as Kraken, is regulated by the Central Bank of Ireland.
+Futures trading involves substantial risk and is not suitable for everyone. Losses may exceed the initial investment. Past performance is not necessarily indicative of future results.
+Bitnomial Exchange, LLC is a CFTC-registered designated contract market. Bitnomial Clearinghouse, LLC is a CFTC-registered derivatives clearing organization. View Disclosures.
+All news
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

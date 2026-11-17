@@ -1,0 +1,168 @@
+
+Launching a U.S. derivatives offering without the full stack
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Insights
+Blog
+Research
+Learn
+October 21, 2026
+Launching a U.S. derivatives offering without building the full stack
+Derivatives are becoming a meaningful source of trading activity and revenue for exchanges and platforms. In the first four months of 2026, the 11 largest centralized perpetual exchanges averaged $4.69 trillion in monthly trading volume¹. Event contracts are also gaining traction: U.S. prediction-market exchanges recorded an estimated $75.1 billion in event-contract trading volume in September 2026², driven largely by sports. These figures point to growing interest across a range of derivatives products.
+For platforms exploring a U.S. launch, accessing regulated exchange, clearing, and brokerage services can be complex. Payward Services brings those capabilities together through one integration.
+What sits behind a U.S. derivatives product
+A U.S. derivatives offering typically relies on three regulated functions:
+Exchange (Designated Contract Market, or DCM): lists contracts and matches orders.
+Clearinghouse (Derivatives Clearing Organization, or DCO): manages clearing, settlement and counterparty risk.
+Broker (Futures Commission Merchant, or FCM): carries client accounts and connects customers to markets.
+Payward provides these functions through its group entities: Bitnomial Exchange is a CFTC-designated contract market, Bitnomial Clearinghouse is a CFTC-registered derivatives clearing organization, and NinjaTrader Clearing is a CFTC-registered futures commission merchant.
+Each function brings its own regulatory, capital, risk and compliance obligations. Platforms can build these capabilities themselves or work with infrastructure partners. The right model depends on the products they plan to offer, including futures, perpetuals, spot margin and event contracts.
+How full-stack offerings compare across providers
+Payward ServicesCoinbaseCrypto.com
+Exchange (DCM)Bitnomial ExchangeCoinbase Derivatives, LLCCrypto.com Derivatives North America (CDNA)
+Clearinghouse (DCO)Bitnomial Clearinghouse LLCCoinbase Clearing LLC³CDNA⁴
+Broker (FCM)NinjaTrader ClearingCoinbase Financial MarketsCrypto.com FCM (Foris DAX)
+CollateralUSD in the U.S.; USD, crypto, or stablecoins in other regions.USDC at the new clearinghouse⁵USD⁶
+SettlementNative crypto settlement on 24/7 markets⁷24/7 at the new clearinghouse⁸Through a CDNA-designated settlement bank⁹
+Offered to third-party platformsYes, four models through one integrationMostly its own products; uses partners for margined derivatives and single-stock perps¹⁰Yes, for prediction markets. Its partner page says the DCO clears for partner exchanges¹¹
+Access to other venues10 exchanges, including CME, ICE, Eurex and KalshiDeribit options and perpetuals for U.S. institutions, through its FCMIntermediary for customers and institutions across the derivatives market, through its FCM¹²
+Provider information reflects publicly available materials reviewed as of October 20, 2026. Product availability and partner access may vary by product, customer, jurisdiction, and provider approval; confirm current availability and terms directly with each provider.
+Four ways to build with Payward Services
+Payward Services brings brokerage, exchange and clearinghouse capabilities together through a single integration. Platforms can choose the model that best fits their product and strategy:
+Connect users to regulated markets. Offer users access to regulated markets without building your own brokerage or exchange connections. Payward Services helps select an introducing broker (IB) model and supports onboarding, funding, execution and risk management.
+Bring your market onshore. Keep your technology, product and brand while Payward provides the regulated exchange, clearinghouse and brokerage infrastructure underneath.
+Clear your own markets. List markets on your exchange and use Bitnomial Clearinghouse for clearing and settlement without operating your own DCO. Markets may include spot margin, futures, perpetuals, options and prediction markets depending on product availability.
+Offer ready-made contracts. Distribute regulated contracts already listed on Bitnomial Exchange, including spot margin and perpetuals, without creating or listing them yourself.
+Across these models, partners can access Payward group entities with U.S. registrations: Bitnomial Exchange, a CFTC-designated DCM; Bitnomial Clearinghouse, a CFTC-registered DCO; and NinjaTrader Clearing, a CFTC-registered FCM and NFA member. Payward Services provides the infrastructure through one integration, while you retain the customer relationship. Partners typically go live in 6 to 12 weeks.
+Collateral and settlement affect product design
+Collateral and settlement affect the customer experience, margin model and risk controls. Payward's infrastructure supports a shared collateral framework across spot margin, futures, perpetuals and options. Customers can use crypto, stablecoins or USD as collateral, depending on the product and applicable clearing requirements. The infrastructure also supports settlement in the asset the market trades.
+The CFTC's December 2025 staff no-action position allows FCMs to accept certain non-securities digital assets, including bitcoin, ether and payment stablecoins, as customer margin collateral, subject to specified conditions. Platforms should confirm product-specific collateral, margin and settlement requirements with their clearing and brokerage providers.
+Why timing matters
+Interest in regulated derivatives is growing, and more firms are exploring entry into the market. Launching requires a model for exchange access, clearing, brokerage, funding, execution and risk management. Working with an infrastructure provider can give platforms a path to market without building and integrating every regulated function themselves, leaving teams more time to focus on product and distribution.
+Next step
+The right model depends on your products, customers and operating strategy—whether you want to connect users to regulated markets, bring your market onshore, clear contracts listed on your exchange or distribute ready-made contracts.
+Talk to the team
+Futures trading involves substantial risk and is not suitable for everyone. Losses may exceed the initial investment. Past performance is not necessarily indicative of future results. View Risk Disclosure Statement.
+NinjaTrader Clearing, LLC d/b/a NinjaTrader, Kraken Derivatives US, Payward Derivatives, and Tradovate is a CFTC-registered futures commission merchant and an NFA Member (NFA ID: 0309379). View Disclosures.
+Bitnomial Exchange, LLC is a CFTC-registered designated contract market. Bitnomial Clearinghouse, LLC is a CFTC-registered derivatives clearing organization. View Disclosures.
+Sources
+Coingecko, State of Crypto Perpetuals Report 2026
+American Gambling Markets Atlas, Prediction Markets
+CryptoNews, Coinbase can now settle derivatives 24/7 with USDC
+Crypto.com, Crypto.com Obtains CFTC Margined Derivatives Licenses
+CryptoNews, Coinbase can now settle derivatives 24/7 with USDC
+Crypto.com, What are perpetual futures and how do they work?
+Kraken, Payward to acquire Bitnomial, creating a fully CFTC-licensed derivatives platform
+CryptoNews, Coinbase can now settle derivatives 24/7 with USDC
+Crypto.com Derivatives North America, Rules of North American Derivatives Exchange, Inc., May 20, 2026
+CryptoNews, Coinbase can now settle derivatives 24/7 with USDC
+Crypto.com, Become a Predictions Partner
+Crypto.com, Crypto.com Obtains CFTC Margined Derivatives Licenses
+All news
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

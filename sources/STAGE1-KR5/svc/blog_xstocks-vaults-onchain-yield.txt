@@ -1,0 +1,130 @@
+
+Earn onchain yield on xStocks
+xStocks not available in the UK. Geo restrictions apply. See kraken.com/legal/xstocks to learn more.
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Insights
+Blog
+Research
+Learn
+PRODUCT
+September 14, 2026
+Kraken Clients Can Now Earn Onchain Yield on xStocks
+Kraken launched a new product that enables clients to earn additional yield on select tokenized stocks and ETFs from newly-launched vaults.
+ST. HELIER, Jersey — Kraken, one of the world’s longest-standing, most liquid and secure digital asset platforms, today launched a new product that enables clients to earn additional yield on select tokenized stocks and ETFs from newly-launched vaults.
+Beginning today, clients can allocate SPYx, QQQx and NVDAx to xStocks vaults via both the Kraken and Kraken Pro interfaces, which earn yield from onchain lending protocols. Yield is paid in-kind and accrues continuously, so clients’ balances grow in the vaults they allocate to. Clients can deposit from less than a dollar and can make a withdrawal request at any time, with xStocks returned in three days.
+xStocks vaults run on the same infrastructure behind Kraken DeFi Earn, which launched in January and has since passed $800 million in deposits. xStocks vaults extends that same architecture and value proposition to a new asset class, letting clients put xStocks holdings to work the same way they already put BTC and stablecoin balances to work.
+“Every xStocks position sitting untouched is capital not working as hard as it should,” said Darius Tabatabai, Head of Kraken Pro. “Clients can already earn dividend yield on select xStocks, and our new vaults enable clients to earn additional onchain yield on their holdings.”
+xStocks vaults are powered by Veda, with strategy design and risk curation by Sentora. Clients can allocate xStocks from within the Kraken interfaces, and Veda’s vault infrastructure ensures allocated xStocks are put to work directly on onchain markets, such as Kamino on Solana. Yield is generated using Sentora’s proprietary risk mitigation solutions and advanced onchain strategies framework. Assets are held in self-custodial wallets and because the vaults operate onchain, clients can check what is happening with their allocation at any time.
+“Tokenized equities have moved beyond simply replicating traditional market exposure onchain, towards making those assets even more productive. By bringing xStocks into Veda vaults, Kraken clients can access onchain yield strategies without having to navigate DeFi themselves. This makes it dead simple to earn on xStocks through the same integration that already enables clients to earn yield on stablecoins and bitcoin,” said Sun Raghupathi, CEO & Co-Founder of Veda.
+“A Kraken client holding SPYx or NVDAx already has the equity exposure. xStocks vaults let them keep that position while generating additional yield in-kind,” said Anthony DeMartino, CEO and Co-Founder of Sentora. “The strategies behind the xStocks vaults are designed to lend those assets into onchain markets such as Kamino, with exposure limits set in advance and live risk models tracking collateral, liquidity and oracle conditions. It’s the same curation approach we built for Kraken’s DeFi Earn vaults, and we’re now extending it to tokenized equities as we deepen our partnership with Kraken.”
+“Tokenized equities have mostly been discussed as a faster way to trade a stock, but they’re also a way to get more yield,” Tabatabai added. “Equities lending is increasingly becoming a common feature in investment apps. xStocks vaults enable investors in some of the most popularly held equities and ETFs to earn additional yield with onchain transparency.”
+xStocks vaults are available to eligible Kraken clients in the EEA and rest of world, excluding the UAE, UK, US, CA and AU.
+All news
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

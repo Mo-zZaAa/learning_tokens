@@ -1,0 +1,183 @@
+
+Payward Services | Consumer Tech & Neobanks
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Consumer Tech & Neobanks
+Add crypto, yield, and tokenized assets in-app, live in weeks.
+Launch financial features without becoming a bank. Payward Services handles execution, custody, and compliance. You keep the brand.
+Get in touch with salesRead the docs
+15
+Years operating history
+$2T+
+Annual transaction volume
+12M+
+Users on the underlying platform
+90
+Days or less to go live
+Add crypto trading as a feature, not a pivot
+Your users buy, sell, and hold crypto inside your existing app. Payward Services executes against institutional liquidity and custodies every asset.
+Offer yield on idle balances
+Your users opt into staking or yield from your app. Payward Services manages validator infrastructure, risk, and reward distribution.
+Let users hold and spend in stablecoins
+Your users fund accounts or spend via card. Payward Services handles conversion and settlement behind the scenes.
+Add tokenized stocks alongside crypto
+Your users trade xStocks through your interface. Payward Services manages collateralization and settlement.
+Give users a self-custody wallet inside your app
+Your users hold and use their own assets in a branded, non-custodial wallet; we provide the embedded wallet infrastructure, with keys secured by TEE-based signing.
+Key capabilities
+Live in weeks, not years
+Modular APIs and dedicated implementation support get most partners to first transactions inside 90 days, with no setup fee, no implementation fee, and no minimum volume.
+Full brand control
+Your UX, your brand, your user relationship. Payward Services runs the engine behind it.
+Everything handled
+Liquidity, licenses, compliance, and infrastructure, all of it, so your team doesn’t have to build a parallel stack.
+Revenue from day one
+Earn on every transaction your users execute, from the first trade.
+For developers
+If you’re evaluating the API, the trading documentation covers authentication, order types, and webhook configuration.
+Read the Trading documentation
+Read the Trading documentation
+Explore the API reference
+Explore the API reference
+Exactly what we needed to launch crypto fast: Proven infrastructure, streamlined onboarding and a fully compliant in-app crypto experience.
+Tom Bilske
+Head of New Products, bunq
+Read the story
+Read the story
+Frequently asked questions
+What can a neobank offer with Payward Services?
+Partners can offer in-app crypto buying, selling and holding, portfolio views, recurring purchases, staking and earn, and tokenized stocks (xStocks). The partner controls the interface and brand, while Payward Services provides execution, custody, settlement and portfolio data. See the use cases guide for the full list.
+How does revenue work for partners?
+Partners earn on every transaction their users execute, from the first trade, with no setup fee, implementation fee or minimum volume. Specific revenue-share terms are not published, so talk to the Payward Services team through the contact form below for details.
+Which assets and regions are supported?
+Supported assets include major cryptocurrencies such as Bitcoin and Ethereum, USD-pegged stablecoins such as USDC and USDT, and tokenized stocks (xStocks). Coverage varies by product and by jurisdiction and is subject to regulatory requirements, so confirm availability for your markets with your integration contact. See the coverage overview.
+How do users get verified (KYC)?
+We can verify your users for you through a hosted web or embedded flow, and a user is onboarded once the result comes back. Approved partners in the EEA can instead submit users their own provider has already verified. See Hosted KYC.
+Can we test before going live?
+Yes. You get a sandbox from day one. It's fully separate from production and uses test balances instead of real funds, so your team can build and run end-to-end flows before launch. When you're ready, we enable production access. See Environments.
+Get in touch
+Ready to launch crypto in your product?
+Talk to our team.
+*First name
+*Last name
+*Please enter a valid business email address
+*Company name
+*Country of business
+Type of business
+🇦🇫
+Phone number
+Assets amount
+Monthly trading volume
+Assets of interest
+Areas of interest
+How did you hear about us?
+Your message
+*By continuing I agree to the Terms of Service & Privacy Policy
+Send
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

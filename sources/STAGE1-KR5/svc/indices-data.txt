@@ -1,0 +1,175 @@
+
+Payward Services | Indices & Market Data
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+Crypto TradingCrypto TradingOn/off-rampsOn/off-rampsTokenized EquitiesTokenized EquitiesDerivatives InfrastructureDerivatives InfrastructureStaking & YieldStaking & YieldIndices & DataIndices & DataCard Issuance & PaymentsCard Issuance & PaymentsEmbedded WalletsEmbedded Wallets
+Crypto TradingCrypto TradingOn/off-rampsOn/off-rampsTokenized EquitiesTokenized EquitiesDerivatives InfrastructureDerivatives InfrastructureStaking & YieldStaking & YieldIndices & DataIndices & DataCard Issuance & PaymentsCard Issuance & PaymentsEmbedded WalletsEmbedded Wallets
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Indices & Data
+The world’s leading digital asset index provider.
+CF Benchmarks is a UK FCA-authorized Benchmark Administrator providing the reference rates and indices that power regulated financial products globally. Its indices and pricing are used by CME Group, Nasdaq, and major institutional issuers for ETFs, structured products, and trading systems.
+Visit CF BenchmarksGet in touch with sales
+200+
+Indices
+$3T+
+In referenced products traded
+$100B+
+Assets under reference
+2017
+UK FCA-regulated since
+Power a structured product or ETF with regulated rates
+Your product needs a defensible, regulated reference price; CF Benchmarks provides settlement-quality rates used across CME Group’s Bitcoin and Ether futures and major ETFs today.
+Reference live pricing in a trading system
+Your platform needs tick-by-tick reference data; CF Benchmarks delivers real-time pricing across major crypto pairs and select traditional asset classes.
+Classify digital assets consistently across a portfolio
+Your firm needs a standard taxonomy for digital assets; CF DACS classifies coins and tokens by the role they play for end users.
+Build a custom index for a digital asset strategy
+Your fund needs an index that doesn’t exist yet; CF Benchmarks constructs single-asset, multi-asset, or thematic indices to your specifications.
+Key capabilities
+Regulated benchmarks
+CF Benchmarks is a UK FCA-authorized Benchmark Administrator, audited by KPMG for compliance with the Benchmarks Regulation. Regulated financial products can reference these indices with confidence in their methodology.
+Real-time and reference rates
+Live tick-by-tick pricing across major crypto pairs and select traditional asset classes, plus once-daily settlement-quality reference rates for end-of-day pricing and structured products.
+Custom index construction
+Single-asset, multi-asset, and thematic indices built to partner specifications, supporting ETF issuers, structured note providers, and onchain index products.
+Track record at scale
+Over $500B in CFTC and FCA-regulated futures contracts settled against CF Benchmarks rates, with $80B+ in assets carried through investment funds, ETFs, and other financial products.
+For developers
+If you’re evaluating the data feeds, the indices documentation covers methodology specifications, data licensing, and integration.
+Read the Indices documentation
+Read the Indices documentation
+Explore the API reference
+Explore the API reference
+One of the most trusted and robust infrastructures in crypto.
+Thijs Maas
+CEO, Onramper
+Frequently asked questions
+What is a crypto reference rate, and is it a price I can trade at?
+A reference rate is a benchmark price used to value or settle a product, not a price you trade at. CF Benchmarks provides real-time rates and once-daily settlement-quality rates. Payward Services asset prices are for display only. When you trade, our swaps lock a quote for about two minutes. See Assets.
+Can I pull historical price charts for crypto assets through Payward Services?
+Yes, for every asset in the Payward Services catalogue. We provide historical price candles (open, high, low, close and volume) for charts and trend views, and the public price data needs no API credentials. This is Payward Services market data, separate from CF Benchmarks indices. See Assets.
+Get in touch
+Ready to build on regulated digital asset benchmarks?
+Talk to our team.
+*First name
+*Last name
+*Please enter a valid business email address
+*Company name
+*Country of business
+Type of business
+🇦🇫
+Phone number
+Assets amount
+Monthly trading volume
+Assets of interest
+Areas of interest
+How did you hear about us?
+Your message
+*By continuing I agree to the Terms of Service & Privacy Policy
+Send
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

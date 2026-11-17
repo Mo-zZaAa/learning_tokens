@@ -1,0 +1,179 @@
+
+Payward Services | Asset Managers
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Asset Managers
+Access benchmark indices, tokenized markets, and staking infrastructure.
+CF Benchmarks powers CME Group’s Bitcoin and Ether futures. Asset managers plug into regulated, institutional-grade data to build structured products and digital asset strategies.
+Get in touch with salesRead the docs
+200+
+Indices
+$3T+
+In referenced products traded
+$100B+
+Assets under reference
+2017
+UK FCA-regulated since
+Add tokenized market access to a strategy
+Your clients want exposure to tokenized equities or crypto; we provide execution, custody, and settlement behind the product.
+Launch a digital asset index or ETF
+Your fund needs a defensible methodology; we construct single-asset, multi-asset, or thematic indices to your specifications.
+Add staking yield to a digital asset strategy
+Your fund wants yield without operational risk; we manage validator infrastructure and reward distribution.
+Power structured products with regulated reference rates
+Your products need settlement-quality pricing; CF Benchmarks provides tick-by-tick rates used by institutional markets today.
+Key capabilities
+Regulated benchmarks
+CF Benchmarks is a UK FCA-authorized Benchmark Administrator with IOSCO-aligned methodology, the same standard used by CME Group, Nasdaq, and major institutional issuers.
+Real-time and reference rates
+Live tick-by-tick pricing across major crypto pairs and select traditional asset classes, with settlement-quality rates for end-of-day pricing and structured products.
+Custom index construction
+Single-asset, multi-asset, and thematic indices built to your specifications, supporting ETF issuers, structured note providers, and onchain index products.
+Institutional execution
+600+ assets, sub-2ms latency, and deep liquidity for any underlying trading or settlement the strategy requires.
+For developers
+If you’re evaluating the API, the indices documentation covers data feeds, methodology specifications, and integration.
+Read the documentation
+Read the documentation
+Explore the API reference
+Explore the API reference
+Exactly what we needed to launch crypto fast: Proven infrastructure, streamlined onboarding and a fully compliant in-app crypto experience.
+Tom Bilske
+Head of New Products, bunq
+Read the story
+Read the story
+Frequently asked questions
+What is Payward Services, and is it an exchange or infrastructure?
+Payward Services is infrastructure for businesses such as fintechs, banks, exchanges and asset managers. We give you the infrastructure that has powered Kraken for 15 years through one integration for trading, payments, tokenized assets, staking, lending, compliance and settlement, replacing a stack of separate vendors.
+Is CF Benchmarks a regulated index provider?
+Yes. CF Benchmarks is a UK FCA-authorized Benchmark Administrator, and it is audited by KPMG for compliance with the Benchmarks Regulation. Its rates are used across CME Group's Bitcoin and Ether futures and major ETFs, which gives regulated products a defensible reference price. See the Indices & Data page for details.
+What is a crypto index, and can I get a custom one for my fund?
+A crypto index tracks a defined basket of digital assets under a published methodology. CF Benchmarks builds single-asset, multi-asset or thematic indices to your specifications, and CF DACS classifies coins and tokens by the role they play for end users, helping you apply a consistent taxonomy across a portfolio.
+Can we add staking to a fund strategy without running validators?
+Yes. Payward Services manages the validator infrastructure and slashing risk, and you can offer staking under your own brand. Eligibility is geo-aware, so you can see which assets qualify by user and country, and you can read current allocations and reward history to show in your product.
+Get in touch
+Ready to build on regulated reference data?
+Fill out the form and a team member will contact you.
+*First name
+*Last name
+*Please enter a valid business email address
+*Company name
+*Country of business
+Type of business
+🇦🇫
+Phone number
+Assets amount
+Monthly trading volume
+Assets of interest
+Areas of interest
+How did you hear about us?
+Your message
+*By continuing I agree to the Terms of Service & Privacy Policy
+Send
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

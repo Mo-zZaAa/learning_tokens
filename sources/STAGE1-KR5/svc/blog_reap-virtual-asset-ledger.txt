@@ -1,0 +1,132 @@
+
+Reap launches Virtual Asset Ledger
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Insights
+Blog
+Research
+Learn
+PRODUCT
+September 22, 2026
+Reap Launches Virtual Asset Ledger, Turning Bitcoin and Any Virtual Assets Into Everyday Spend
+Clients of Reap’s card issuing platform can now spend bitcoin and other virtual assets directly from their existing balances.
+Reap, a global financial technology company that enables financial connectivity and access for businesses worldwide through stablecoin-enabled infrastructure, today announced the launch of its Virtual Asset Ledger, enabling clients of its card issuing platform to spend bitcoin and other virtual assets from their existing balances. With this first-in-market offering, Reap enables faster, real-time conversion and efficient settlement for clients.
+Historically, card companies could allow users to spend bitcoin and other virtual assets with a card via two approaches: converting their holdings to stablecoins first or building a bespoke treasury flow for the asset. With Reap, platforms can now enable users to spend directly against the bitcoin and other virtual assets they already hold. Conversion takes place at the point of sale at the platform’s live rate — without a prior swap, unstaking, or a separate funding pipeline.
+Card spending funded by virtual assets also more than tripled over the past year, reaching $1.04 billion in July 2026, with dollar-backed stablecoins funding 70% of more than 10 million tracked transactions. Average transaction size rose to approximately $86 from $59 a year earlier, a shift that points toward more daily routine purchases like groceries, transport, subscriptions — rather than one-off conversions.
+Asia Pacific now accounts for the largest regional share of crypto card payment volume on the Visa network; it also reported more than 160 stablecoin-linked card programmes live or in development globally as of June 2026.
+The expansion of the platform allows a neobank or consumer fintech to streamline how users hold a cash balance alongside bitcoin and other virtual assets. Traditionally, these operate as separate products: the card draws on cash, while assets like bitcoin remain in a separate wallet until the user sells it before it can be spent.
+However, with Reap’s expanded platform, fintechs can mirror each user’s virtual assets balance to Reap and price it from its own feed. For example, cash and bitcoin can then contribute to a single spending limit. A user holding $400 in cash and $600 in bitcoin would see $1,000 available to spend, while the platform retains control over which balance funds each transaction.
+The same programme can carry the fintech’s own cashback as a third balance, allowing rewards to be credited to the card user directly without a separate redemption flow. Spending limits remain a function of the collateral the client has posted.
+Beyond crypto, clients can now define and manage their own fixed-rate units, such as cashback, loyalty points, credit lines, monthly salary allowances, and make them spendable through the same card. Thus, it removes the need for separate redemption portals or payment flows.
+These balances can coexist on one account and contribute to a single available balance, rather than being held in separate buckets. A wallet can now pair bitcoin from custody with cashback from its own programme; a corporate platform can pair a salary allowance with a credit line.
+“The moment a Bitcoin or virtual asset holder needs to pay for something, the infrastructure has lacked payment solutions,” said Harris Leow, Head of Product, Reap.
+Clients retain custody of user funds and the customer relationship throughout. Reap holds a master collateral account in USDC or USDT, which the client maintains to back outstanding card spend across the programme. Reap neither custodies the underlying assets nor operates as an exchange; treasury management and conversion remain entirely with the client.
+Bitcoin support is available now to card issuing clients through Reap’s existing API. Cards issued through Reap are issued from Hong Kong and Mexico, and can be used wherever Visa is accepted. In 2025, Reap grew 3X (200%) year-on-year in both revenue and volumes.
+All news
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

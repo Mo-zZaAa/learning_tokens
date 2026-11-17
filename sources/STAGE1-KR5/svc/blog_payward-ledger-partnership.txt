@@ -1,0 +1,128 @@
+
+Payward and Ledger partner on self-custody and liquidity
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Insights
+Blog
+Research
+Learn
+PARTNERSHIP
+September 24, 2026
+Payward and Ledger Partner to Close Gap Between Secure Self-Custody and Global Liquidity
+Two of crypto’s most trusted, security-first brands are joining forces to allow users to more easily interact with Payward’s trading, payments, and tokenized equities infrastructure from their Ledger devices and applications
+CHEYENNE, Wyo. and PARIS, France — SEPTEMBER 24, 2026 — Payward, the parent company of Kraken and the developer of the xStocks tokenized equities framework, and Ledger, the global leader in digital asset security for individuals and institutions, announced a strategic partnership to strengthen the connection between secure self-custody and the broader financial infrastructure powering the digital asset economy.
+The integrations share a single principle: the security of holding your own keys should not come at the cost of access. Through this collaboration, Ledger and Payward aim to make it easier for customers to access and interact with crypto offerings across CeFi platforms and onchain ecosystems while maintaining strong personal security practices.
+David Ripley, Co-CEO of Payward, stated: “Self-custody and exchange access shouldn’t feel like separate experiences and ecosystems. The investors who care most about controlling their assets are often the same ones who need deep liquidity, trusted market infrastructure, and secure access to the broader financial system. By partnering with Ledger, we’re building where the industry is heading: a future where secure self-custody and global financial infrastructure work hand in hand to provide powerful and seamless trading experiences.”
+Pascal Gauthier, Chairman & CEO of Ledger, commented: “Ledger brings the hardware-enforced security infrastructure that the entire digital asset ecosystem depends on — securing not just value, but access itself. Through this partnership, we’re giving retail users and, through Ledger Enterprise, the banks and fintechs building on institutional-grade rails, secure access to Payward’s financial infrastructure, backed by Ledger’s uncompromising security. This is self-custody and global markets working as one, at every scale.”
+Under the partnership, Kraken customers will be able to use their Ledger signer directly within the Kraken experience. Built using Ledger’s Device Management Kit, customers will seamlessly fund and withdraw assets and sign transactions, with full Clear Signing support, using the same device they already trust to secure their value. Each integration is designed to reduce friction while strengthening security, allowing customers to move assets seamlessly between self-custody and Kraken’s platform with greater confidence and convenience.
+In parallel, Payward Services, Payward’s B2B infrastructure platform, will become an embedded buy, sell, and swap provider inside Ledger’s Wallet, beginning with debit card and bank transfer support across Europe and the UK, with expansion to further payment rails and geographies expected over time. For millions of Ledger users, it means they can buy, sell and move crypto with Payward while keeping control of their keys.
+This partnership lays the foundation for an ongoing collaboration between the two companies. Ledger and Payward Services are working together to integrate xStocks, Payward’s industry-leading tokenized equities offering, more deeply across Ledger Wallet to allow users to access US and international equities markets onchain. xStocks has already surpassed $42 billion in total transaction volume, and the integration will let Ledger customers around the world buy, sell, and transact hundreds of tokenized equities directly from self-custody. Payward Services will also work with Ledger Enterprise to give Ledger’s growing base of banks, fintechs, and financial institutions access to trading, qualified custody, payments and funding rails through a single integration with Kraken’s exchange infrastructure.
+Together, these integrations bring two critical infrastructure layers of the digital asset ecosystem closer together: the hardware-enforced security infrastructure layer that protects customer assets, and the financial infrastructure layer that enables trading, payments, and market access.
+All news
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

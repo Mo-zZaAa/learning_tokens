@@ -1,0 +1,203 @@
+
+bunq × Payward Services — Case study
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+bunq partners with Payward Services to power in-app crypto investing
+bunq, one of Europe’s largest neobanks, partnered with Payward Services to bring crypto trading into its banking app. The solution enables users to buy, hold and sell crypto directly within the bunq app.
+Talk to our team
+20M+
+users across the EEA
+640+
+assets
+130+
+networks
+T+1
+settlement basis
+01Objectives
+02Challenge
+03Solution
+04Partnership structure
+05Results
+01
+Objectives
+Launch a regulated crypto trading service within bunq’s banking app, offering access to 640+ assets across 130+ networks
+Deliver a seamless user experience, with onboarding in seconds
+Accelerate time to market and reduce complexity through low-latency, modular API integration
+Support regulatory compliance through an appropriately authorized provider, with the potential to expand into other licensed markets, including the U.S. and UK
+Introduce a new product line and increase user engagement through crypto trading and reward opportunities on crypto balances
+02
+Challenge
+bunq, a European neobank with more than 20 million users across the EEA, saw growing demand for seamless access to digital assets.
+To meet this need, bunq chose Payward Services to power a secure, in-app crypto trading experience through its digital asset infrastructure.
+Regulatory coverage
+Ensure compliance and regulatory approvals across key global markets
+Smooth integration
+Connect with bunq’s existing infrastructure through a plug-and-play solution
+Speed to market
+Launch in weeks while minimizing internal development effort and delivery risk
+Cost efficiency
+Avoid the high setup and maintenance burden of building infrastructure in-house
+EUR liquidity
+Access deep EUR liquidity for optimal pricing and execution, without relying on intermediaries or resellers
+Customer growth
+Deliver a user-friendly and trustworthy crypto experience to attract and retain customers
+03
+Solution
+Payward Services delivered a fully integrated, API-based crypto solution, enabling bunq to launch a compliant, high-performance crypto trading feature within its banking app.
+Regulated infrastructure
+The solution supports transactions through Payward Services’ digital asset infrastructure. Each user is assigned an account, and trades are executed and safeguarded using hot and cold wallet solutions.
+Backend trading infrastructure
+While bunq retains control of the user experience, Payward Services operates the trading, liquidity, custody and operational infrastructure behind the scenes.
+Fast API integration
+Low-latency, modular APIs support integration with bunq’s existing systems, helping bring the crypto trading feature to market with limited development effort.
+Deep liquidity and efficient execution
+Payward Services supports order execution and access to EUR liquidity. Customer transactions are processed immediately, while settlement takes place on a T+1 basis.
+Accelerated launch and product expansion
+By using Payward Services’ infrastructure and implementation support, bunq avoided the cost and complexity of building its own solution and accelerated the launch of a new product line.
+Automated onboarding and frictionless KYC
+Users accept the applicable terms during onboarding, while bunq securely transmits KYC information for verification. This enables account activation without adding unnecessary friction to the customer experience.
+Scalable asset support
+Payward Services’ 640+ asset offering continues to grow, allowing bunq to expand access to digital assets as customer demand evolves.
+bunq said the integration made it easy to add crypto trading to its app and gave users a simple way to access digital assets.
+04
+Partnership structure
+Payward Services offers a fully managed, white-label solution for partners to integrate crypto trading directly into their platforms. The infrastructure supports secure execution, EUR liquidity and ongoing asset expansion, enabling bunq to meet user demand and introduce a new product line.
+KEY TERMS
+API endpoint solutions
+APIs support integration across authentication, user management, asset availability, trading and custody.
+Transparent pricing
+A clear pricing model supports bunq’s customer offering and operating model.
+Launch support
+The implementation team worked with bunq to deploy the solution and support its launch.
+05
+Results
+By leveraging Payward Services’ security track record, liquidity and digital asset infrastructure, bunq integrated a crypto solution without the overhead of building it in-house. The partnership accelerated time to market and gave bunq customers access to crypto trading within the bunq app.
+The partnership also helped bunq move quickly to launch a feature its users were asking for: a simple way to trade crypto directly in the bunq app.
+“Payward Services gave us exactly what we needed to launch crypto fast: proven infrastructure, streamlined onboarding and a compliant in-app crypto experience that didn’t add unnecessary complexity for our users.”
+— Tom Bilske, Head of New Products, bunq
+Get in touch
+Ready to build with Payward Services?
+Fill out the form and a team member will contact you.
+*First name
+*Last name
+*Please enter a valid business email address
+*Company name
+*Country of business
+Type of business
+🇦🇫
+Phone number
+Assets amount
+Monthly trading volume
+Assets of interest
+Areas of interest
+How did you hear about us?
+Your message
+*By continuing I agree to the Terms of Service & Privacy Policy
+Send
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

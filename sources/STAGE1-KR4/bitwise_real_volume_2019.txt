@@ -1,0 +1,1224 @@
+Bitwise Asset Management
+Analysis of Real Bitcoin Trade Volume
+March 19, 2019
+The Real Bitcoin Market
+KEY FINDINGS
+
+The real market for bitcoin is significantly smaller, more orderly, and more
+regulated than is commonly understood.
+What Makes Bitcoin Unique?
+
+
+
+
+                       !3
+Bitcoin is a globally fungible commodity with low
+transaction costs, near-zero transportation costs
+          and low-to-zero storage costs.
+
+
+
+
+                        !4
+Bitcoin is a globally fungible commodity with low
+transaction costs, near-zero transportation costs
+           and low-to-zero storage costs.
+
+                 A bitcoin is the same everywhere
+                 in the world.
+
+
+
+
+                                 !5
+ Bitcoin is a globally fungible commodity with low
+transaction costs, near-zero transportation costs
+           and low-to-zero storage costs.
+
+                 On leading exchanges, bitcoin commonly trades
+                 with a $0.01 spread on an approximately $4,000
+                 handle with significant volume.
+
+
+
+
+                                 !6
+ Bitcoin is a globally fungible commodity with low
+transaction costs, near-zero transportation costs
+           and low-to-zero storage costs.
+
+            Unlike physical commodities, there is virtually no
+            cost to transport bitcoin anywhere in the world.
+
+
+
+
+                                          !7
+Bitcoin is a globally fungible commodity with low
+transaction costs, near-zero transportation costs
+         and low-to-zero storage costs.
+
+           Bitcoin can be safely custodied with established
+           third-party custodians at a cost that ranges from
+           0% to 1.5% per year.
+
+
+
+
+                                         !8
+  What does that mean?
+
+
+As a result, you would expect the
+bitcoin market to be uniquely
+orderly and efficient, with tight   Bitcoin fits the textbook definition of an
+
+spreads and nearly perfect          arbitrable good to a degree unmatched in
+                                    history, which would suggest a uniquely
+
+arbitrage.                          efficient market.
+
+
+
+
+                               !9
+Unfortunately, Public Perception And
+Data Suggest Exactly The Opposite
+
+
+                           Public perception holds that the bitcoin
+                           market is in fact uniquely disorderly and
+                           inefficient.
+
+                           This is a rational response to the
+                           information most people have at their
+                           disposal.
+
+
+                           For example, leading data aggregators
+                           show prices on different exchanges
+                           separated by hundreds of dollars.
+
+                   !10
+How Can This Be?
+
+
+
+
+                   !11
+Top Bitcoin Exchanges by Reported Volume
+Reported volume adds to roughly $6 billion/day*, but under the hood the exchanges that report the highest volumes are unrecognizable. The
+vast majority of this reported volume is fake and/or non-economic wash trading.
+
+
+        CoinMarketCap Top Exchanges                                                                Exchange Breakdown
+
+
+
+
+                                                                                     Reported: ~$6 Billion in Avg. 24hr Daily Volume*
+                                                                                      * Only counting trading volumes where BTC trades against fiat currencies or stablecoins.
+
+
+                                                                                                                               Screenshot: Coinmarketcap on March 9, 2019
+                                                                   !12                                                          Data Source: Coinmarketcap. March 4-8, 2019
+        This Data Is Widely Reported … And
+        Extremely Wrong
+                                                                                      “Binance, currently the largest online exchange by
+This data comes from CoinMarketCap.com, the most widely cited source for              volume, according to research site
+bitcoin volume. It is used by every major media outlet in the world (examples         coinmarketcap.com…”
+shown to the right).
+                                                                                           - Wall Street Journal, August 5, 2018
+
+Despite its widespread use, the CoinMarketCap.com data is wrong. It includes
+a large amount of fake and/or non-economic trading volume, thereby giving a
+                                                                                      “According to data from the
+fundamentally mistaken impression of the true size and nature of the bitcoin          website coinmarketcap.com…”
+market.
+                                                                                                                         August 20, 2018
+We will demonstrate in multiple different ways that approximately 95% of this
+volume is fake and/or non-economic in nature, and that the real market for
+bitcoin is significantly smaller, more orderly, and more regulated than               “Digital coins are collectively valued at $140 billion,
+                                                                                      according to coinmarketcap.com…”
+commonly understood.
+                                                                                            - Barron’s, November 23, 2018
+
+
+
+
+                                                                                !13
+What Do Real Exchanges Look Like?
+                                           Coinbase Pro ($27M*)
+
+                                           Coinbase is a San Francisco-based firm that
+                                           has raised $546 million* in venture capital. It
+                                           does about $27 million in daily bitcoin volume.
+                                           The firm has a BitLicense from the New York
+                                           State Department of Financial Services, and is
+                                           generally well-known in the community.
+
+                                           On the left is a screenshot of its trading
+                                           interface.
+
+
+
+
+                       * Average Daily Volume. Data Source: Kaiko. March 4-8, 2019 . Funding estimate is from Crunchbase.
+
+                 !14                                                   Screenshot: Coinbase Pro on December 12, 2018
+What Do Real Exchanges Look Like?
+
+                        This column captures the trade history on
+                        Coinbase Pro. Green trades reflect buy
+                        orders that lifted the offer, while red trades
+                        reflect sell orders that hit the bid.
+
+
+                        Notice that the mix of red and green trades
+                        is unequal and streaky. In this case, there
+                        was more buying activity (green) than
+                        selling activity (red). If you took this
+                        screenshot at a different time, the reverse
+                        could easily have been true.
+
+
+
+
+                 !15                       Screenshot: Coinbase Pro on December 12, 2018
+What Do Real Exchanges Look Like?
+
+                        This column captures trade sizes. Notice
+                        that they vary over time, from 0.0017 bitcoin
+                        to 1.00 bitcoin. You’ll also see a greater-
+                        than-random number of round trade sizes:
+                        1.00 bitcoin, 0.60 bitcoin, 0.10 bitcoin, etc.
+                        This is natural behavior: People are more
+                        likely to trade 1 bitcoin than 0.821 bitcoin.
+
+
+
+
+                 !16                      Screenshot: Coinbase Pro on December 12, 2018
+What Do Real Exchanges Look Like?
+
+                        Each of these grey “candles” represents the
+                        amount of bitcoin traded on Coinbase Pro in
+                        a 5-minute period. Notice that the size of
+                        these candles changes over time: Some 5-
+                        minute periods have more volume than
+                        others, as you would expect.
+
+
+
+
+                 !17                    Screenshot: Coinbase Pro on December 12, 2018
+What Do Real Exchanges Look Like?
+
+                        This is the spread. It’s $0.01. At the time this
+                        screenshot was taken, bitcoin was trading
+                        at $3,419. That means bitcoin was trading at
+                        a 0.0003% spread, making it amongst the
+                        tightest quoted spreads of any financial
+                        instrument in the world.
+
+
+
+
+                 !18                       Screenshot: Coinbase Pro on December 12, 2018
+What Do Suspicious Exchanges Look Like?
+                                       EXAMPLE 1:
+                                       TRADE PRINTING BETWEEN BID AND ASK
+
+
+                                       CoinBene ($480M*)
+
+                                       CoinBene is reported to be the largest bitcoin
+                                       exchange in the world, with $480m in daily
+                                       volume (18x Coinbase Pro). Essentially all of its
+                                       trades print inside the prevailing bid and ask.
+
+
+
+
+                                                * Average Daily Volume. Data Source: CoinMarketCap. March 4-8, 2019
+
+                                                                           Screenshot: CoinBene on December 12, 2018
+
+                       Note: CoinBene’s exact mechanism of printing fake trades between the bid and ask has changed
+                       since this part of the presentation was initially developed in December 2018. The example is still
+                 !19           illustrative. We will examine CoinBene’s current trading patterns later in the presentation.
+What Do Suspicious Exchanges Look Like?
+                        EXAMPLE 1:
+                        TRADE PRINTING BETWEEN BID AND ASK
+
+                        This column captures trades. Notice the
+                        perfectly alternating pattern of green and red
+                        trades. Compare this to Coinbase Pro, where
+                        we saw a more random distribution of buying
+                        and selling activity.
+
+
+                        It’s highly unlikely that there is a perfect, even
+                        distribution of economic buy and sell orders.
+
+
+
+
+                 !20                        Screenshot: CoinBene on December 12, 2018
+What Do Suspicious Exchanges Look Like?
+                        EXAMPLE 1:
+                        TRADE PRINTING BETWEEN BID AND ASK
+
+                        This column shows the “timestamp” for each
+                        trade. Combine it with the “trades” column and
+                        you’ll see that trades on CoinBene come in
+                        pairs, and each pair has one buy (green) and
+                        one offsetting sell (red).
+
+
+                        The size of these trades are always roughly
+                        equal in size (as shown in the middle column),
+                        allowing them to nearly offset one-another
+                        over time.
+
+
+
+
+                 !21                        Screenshot: CoinBene on December 12, 2018
+What Do Suspicious Exchanges Look Like?
+                        EXAMPLE 1:
+                        TRADE PRINTING BETWEEN BID AND ASK
+
+                        The distribution of trade sizes is also very
+                        different than Coinbase Pro.
+
+
+                        For starters, there are no very small trades—
+                        the smallest trade shown is 0.43 bitcoin, or
+                        roughly $1,400. Coinbase Pro had trades as a
+                        small as $5.
+
+                        Also, there are no “round number” trades,
+                        despite the obvious behavioral reasons for
+                        their existence.
+
+
+
+
+                 !22                       Screenshot: CoinBene on December 12, 2018
+What Do Suspicious Exchanges Look Like?
+                        EXAMPLE 1:
+                        TRADE PRINTING BETWEEN BID AND ASK
+
+                        At the time of this screenshot, the best offer to
+                        buy bitcoin on CoinBene was $3,239.59, while
+                        the best offer to sell was $3,274.33. This
+                        means the “spread” was $34.74. That
+                        compares to $0.01 on Coinbase Pro.
+
+
+                        It is surprising that an exchange claiming 18x
+                        more volume than Coinbase Pro would have a
+                        spread that is 3400x larger.
+
+
+
+
+                 !23                      Screenshot: CoinBene on December 12, 2018
+    CoinBene’s Real-World Footprint Is Also
+    Suspiciously Smaller Than Coinbase’s
+                                                CoinBene                                             Coinbase
+
+Number of Twitter Followers                        10K                                                      1M
+
+Number of Google Search Results                   1.25M                                                    26M
+
+                                                                           Ranked 1,917 among websites globally
+                                      Ranked 90,701 among websites
+                                                                                       based on an
+Web Traffic by SimilarWeb         globally based on an estimated 617,475
+                                                                            estimated 25,045,634 monthly web
+                                            monthly web visitors
+                                                                                         visitors
+
+Venture Funding Raised                          Unreported                             $546M over seven years
+
+Number of Employees on LinkedIn       42, most appear to be part-time                                     852
+
+
+
+                                                    !24                     Source: Crunchbase, Twitter, LinkedIn. Data as of December 18, 2018
+What Do Suspicious Exchanges Look Like?
+                        EXAMPLE 2:
+                        MULTIPLE HOURS (AND DAYS) WITH ZERO
+                        VOLUME
+
+
+                        RightBTC ($100M*)
+
+                        RightBTC claims to have roughly 4x the volume
+                        of Coinbase Pro. However, it shows multiple
+                        hours (and days) with zero volume. These gaps
+                        are not correlated with business hours,
+                        volatility, up time or other factors. The two
+                        likely explanations are fake volume and/or
+                        trade mining.
+
+
+
+
+                           * Average Daily Volume. Data Source: CoinMarketCap. March 4-8, 2019
+
+                 !25                                Screenshot: RightBTC on December 8, 2018
+What Do Suspicious Exchanges Look Like?
+                        EXAMPLE 2:
+                        MULTIPLE HOURS (AND DAYS) WITH ZERO
+                        VOLUME
+
+
+
+                        Each “candle” represents the amount of
+                        volume on RightBTC during a one-hour period.
+                        Notice that there are large gaps (stretching for
+                        days in some cases) where no volume occurs.
+
+
+
+
+                 !26                       Screenshot: RightBTC on December 8, 2018
+What Do Suspicious Exchanges Look Like?
+                        EXAMPLE 2:
+                        MULTIPLE HOURS (AND DAYS) WITH ZERO
+                        VOLUME
+
+
+                        RightBTC’s displayed spread here is $371.99.
+                        That compares to $0.01 for Coinbase Pro.
+
+
+                        This is ridiculous, especially considering it
+                        claims to have significantly more volume than
+                        Coinbase Pro.
+
+
+
+
+                 !27                       Screenshot: RightBTC on December 8, 2018
+What Do Suspicious Exchanges Look Like?
+                        EXAMPLE 3:
+                        MONOTONIC TRADING VOLUME
+
+
+                        CHAOEX ($70M*)
+
+                        CHAOEX claims to have $70 million in daily
+                        bitcoin volume, more than 2x the volume of
+                        Coinbase Pro. However, that volume is mostly
+                        monotonic: Roughly an identical amount gets
+                        printed every hour of every day. This volume
+                        pattern is insensitive to price movements,
+                        news, waking hours, weekends, or other real-
+                        world factors.
+
+
+
+
+                           * Average Daily Volume. Data Source: CoinMarketCap. March 4-8, 2019
+
+                 !28                                Screenshot: CHAOEX on December 8, 2018
+What Do Suspicious Exchanges Look Like?
+
+                        Each of these bars reflects one hour’s volume.
+
+                        It is highly unlikely that real trading volume
+                        would remain this consistent every hour of the
+                        day for nearly three consecutive days.
+
+
+
+
+                 !29                     Screenshot: CHAOEX on December 8, 2018
+Not All Fake Exchanges Are Easy To Spot.
+You Need More Data To Dive Deeper.
+
+
+
+
+                       !30
+      We’ve collected data from 81 exchanges*
+We needed a universal method of collecting data across any exchange. So we built infrastructure to programmatically read data
+off the screen. We read the order book and recent trades four times a second.
+
+
+
+
+                                                                           Order
+                                                                           Book                                                                                   Order Books
+                                                                                                               81x
+
+
+                                                                                                                                                                  Trades
+
+
+                                                                           Trade History
+
+
+
+
+                                                                           * Practically every relevant exchange. We started from the top of the reported bitcoin volume list on
+                                                                   !31       the bitcoin markets page on CoinMarketCap on December 5, 2018 and worked our way down to
+                                                                             the bottom, stopping at exchanges with less than $1 million in daily volume.
+       Trade Size Histograms For Well-Known Exchanges
+       Show Natural Patterns
+These histograms show the percentage of volume that is captured within each trade size bucket (0-0.1 BTC, 0.1-0.2 BTC, etc). They
+reveal consistent, intuitive patterns: Percentage weight in each bucket declines as trade size increases, and there are noticeable peaks
+at whole bitcoin sizes (1, 2, 3, etc). X-axis is from 0 to 10 BTC.
+
+
+
+
+          Coinbase ($27M*)                                           Kraken ($31M*)
+                                                                                                                    Bitstamp ($31M*)
+
+
+
+
+            Bittrex ($5M*)                                       Poloniex ($1.4M*)                                  bitFlyer ($13M*)
+                                                                                                     *Average Daily Volume. Source: Kaiko. March 4-8, 2019.
+                                                                          !32                                       Graph Source: Bitwise. March 4-8, 2019.
+       Trade Size Histograms For Suspect Exchanges
+Trade Size Histograms for exchanges with suspicious volume look completely different, and showcase patterns that are both
+idiosyncratic and highly suspicious.
+
+
+
+
+          CoinBene ($480M*)                               IDAX ($163M*)                                              LBank ($127M*)
+
+
+
+
+          BitForex ($241M*)                              Exrates ($35M*)                                             OKEx ($152M*)
+
+                                                                                            *Average Daily Volume. Source: CoinMarketCap. March 4-8, 2019.
+                                                                !33                                                 Graph Source: Bitwise. March 4-8, 2019.
+       Trade Size Histograms For Suspect Exchanges
+Trade Size Histograms for exchanges with suspicious volume look completely different, and showcase patterns that are both
+idiosyncratic and highly suspicious.
+
+
+
+                                                For example, CoinBene’s histogram
+                                                shows an odd bell curve-like distribution.
+
+                                                It also has no peaks at whole bitcoin
+                                                quantities.
+
+
+          CoinBene ($480M*)                                                                                         LBank ($127M*)
+
+
+
+
+          BitForex ($241M*)                               Exrates ($35M*)                                            OKEx ($152M*)
+
+                                                                                             *Average Daily Volume. Source: CoinMarketCap. March 4-8, 2019.
+                                                                  !34                                                Graph Source: Bitwise. March 4-8, 2019.
+       Trade Size Histograms For Suspect Exchanges
+Trade Size Histograms for exchanges with suspicious volume look completely different, and showcase patterns that are both
+idiosyncratic and highly suspicious.
+
+
+
+                                                  LBank shows increasing volume
+                                                  percentage for larger trade sizes. It
+                                                  reverses the decaying trend from all the
+                                                  well-known exchanges.
+
+
+
+
+          CoinBene ($480M*)                                                                                           LBank ($127M*)
+
+
+
+
+          BitForex ($241M*)                               Exrates ($35M*)                                             OKEx ($152M*)
+
+                                                                                             *Average Daily Volume. Source: CoinMarketCap. March 4-8, 2019.
+                                                                  !35                                                Graph Source: Bitwise. March 4-8, 2019.
+       Trade Size Histograms For Suspect Exchanges
+Trade Size Histograms for exchanges with suspicious volume look completely different, and showcase patterns that are both
+idiosyncratic and highly suspicious.
+
+
+
+                                                BitForex has an inexplicable cliff of trade
+                                                volume percentage right before 6 bitcoin
+                                                trade sizes.
+
+
+
+
+          CoinBene ($480M*)                                                                                             LBank ($127M*)
+
+
+
+
+          BitForex ($241M*)                               Exrates ($35M*)                                                OKEx ($152M*)
+
+                                                                                              *Average Daily Volume. Source: CoinMarketCap. March 4-8, 2019.
+                                                                  !36                                                 Graph Source: Bitwise. March 4-8, 2019.
+       Trade Size Histograms For Suspect Exchanges
+Trade Size Histograms for exchanges with suspicious volume look completely different, and showcase patterns that are both
+idiosyncratic and highly suspicious.
+
+
+
+                                                Exrates has substantially no trades
+                                                smaller than 3 bitcoin.
+
+
+
+
+          CoinBene ($480M*)                                                                                          LBank ($127M*)
+
+
+
+
+          BitForex ($241M*)                               Exrates ($35M*)                                             OKEx ($152M*)
+
+                                                                                           *Average Daily Volume. Source: CoinMarketCap. March 4-8, 2019.
+                                                                 !37                                               Graph Source: Bitwise. March 4-8, 2019.
+       Trade Size Histograms For Suspect Exchanges
+Trade Size Histograms for exchanges with suspicious volume look completely different, and showcase patterns that are both
+idiosyncratic and highly suspicious.
+
+
+
+                                                OKEx’s warning sign is the “flat-line”
+                                                volume percentage trend after 3 bitcoin,
+                                                which shows no signs of stopping even at
+                                                10 bitcoin.
+
+
+
+
+          CoinBene ($480M*)                                                                                          LBank ($127M*)
+
+
+
+
+          BitForex ($241M*)                              Exrates ($35M*)                                              OKEx ($152M*)
+
+                                                                                           *Average Daily Volume. Source: CoinMarketCap. March 4-8, 2019.
+                                                                 !38                                               Graph Source: Bitwise. March 4-8, 2019.
+       Trade Size Histograms For Suspect Exchanges
+Trade Size Histograms for exchanges with suspicious volume look completely different, and showcase patterns that are both
+idiosyncratic and highly suspicious.
+
+
+
+
+          CoinBene ($480M*)                                IDAX ($163M*)                                               LBank ($127M*)
+
+
+
+
+                                                IDAX’s histogram appears to have
+                                                multiple artificial trade distribution
+                                                patterns overlapped.
+
+
+
+          BitForex ($241M*)
+
+                                                                                           *Average Daily Volume. Source: CoinMarketCap. March 4-8, 2019.
+                                                                   !39                                             Graph Source: Bitwise. March 4-8, 2019.
+       More Trade Size Histograms For Suspect Exchanges
+Trade Size Histograms for exchanges with suspicious volume look completely different, and showcase patterns that are both
+idiosyncratic and highly suspicious.
+
+
+
+
+                  BitMart ($106M*)                          ZBG ($225M*)                                    CoinTiger ($97M*)
+
+
+
+
+                  SIMEX ($97M*)                            Coinsuper ($82M*)                                     Bit-Z ($152M*)
+
+
+                                                                                           *Average Daily Volume. Source: CoinMarketCap. March 4-8, 2019.
+                                                                !40                                                Graph Source: Bitwise. March 4-8, 2019.
+       Volume Spike Alignment Provides Another Vector Of
+       Analysis
+In a globally integrated market like bitcoin, you would expect exchange volume to rise and fall at the same time across all exchanges. It
+does for well-known exchanges. Notably, volume spikes align at literally the same hour for each of the exchanges below.
+
+
+
+
+                            Kraken ($31M*)                                          bitFlyer ($13M*)
+
+
+
+
+                              Bittrex ($5M*)                                       Poloniex ($1.4M*)
+                                                                                                     *Average Daily Volume. Source: Kaiko. March 4-8, 2019.
+                                                                   !41                                              Graph Source: Bitwise. March 4-8, 2019.
+       Volume Spike Alignment Provides Another Vector Of
+       Analysis
+Many other exchanges, however, fail this test, showing disconnected and/or random patterns. Some of them maintain constant
+volumes over time while others rise and fall at different times than any other market.
+
+
+
+
+                           CoinBene ($480M*)                                             Simex ($97M*)
+
+
+
+
+                           BitMart ($106M*)                                         BitForex ($241M*)
+                                                                                                *Average Daily Volume. Source: CoinMarketCap. March 4-8, 2019.
+                                                                    !42                                                 Graph Source: Bitwise. March 4-8, 2019.
+       Spread Patterning Analysis Provides A Third Vector Of
+       Analysis
+Spreads on well-known exchanges show a consistent pattern, anchoring on zero with random variability, and then spiking periodically
+to reflect momentary surge in volatility and change of the order book.
+
+
+
+
+                             Kraken ($31M*)                                    bitFlyer ($13M*)
+
+
+
+
+                            Bitstamp ($31M*)                                   Poloniex ($1.4M*)
+                                                                                                  *Average Daily Volume. Source: Kaiko. March 4-8, 2019.
+                                                                   !43                                           Graph Source: Bitwise. March 4-8, 2019.
+       Spread Patterning Analysis Provides A Third Vector Of
+       Analysis
+Spreads on suspicious exchanges exhibit a variety of anomalous patterns, including central tendencies that hover around an unusual
+fixed amount, or spreads that stay fixed for extended periods.
+
+
+
+   LBank’s spread fluctuates over time,
+   but reverts to a central tendency of
+   about $10, while claiming roughly 5x                      LBank
+   Coinbase’s daily volume. There is no                      ($127M*)
+   economic explanation for this high
+   spread anchor if LBank is a real,
+   competitive marketplace.
+
+
+
+
+   IDCM’s spreads fluctuate between $8
+   and $15, almost exclusively. There is no                      IDCM
+   reason an exchange with more daily
+   volume than Coinbase would refuse to
+                                                                 ($45M*)
+   drop below a $8 spread almost entirely.
+
+
+
+                                                                                         *Average Daily Volume. Source: CoinMarketCap. March 4-8, 2019.
+                                                                    !44                                          Graph Source: Bitwise. March 4-8, 2019.
+       Applying All Three Analyses: CoinBene
+Now that we know three ways we can spot exchanges with fake volume, let’s look at a few of the top exchanges holistically. CoinBene
+claims the highest ADV ($480M) of any bitcoin spot exchange.
+
+
+                                                    There aren’t any notable volume spikes and     CoinBene's average and peak spreads are
+                                                    the peaks do not align with any other          unreasonably high, upwards of $100. This is only
+Trade Size Histogram shows an odd bell
+curve-like distribution. It also has no peaks at    market. Hourly volume also rarely falls        plausible in a thin market, which contradicts
+whole bitcoin quantities.                           meaningfully close to zero, unlike the         CoinBene’s claim of high volume.
+                                                    pattern exhibited by well-known exchanges.
+
+
+
+
+                                   CoinBene fails all three data analyses. We believe its volume is fabricated.
+
+                                                                                                    *Average Daily Volume. Source: CoinMarketCap. March 4-8, 2019.
+                                                                         !45                                                Graph Source: Bitwise. March 4-8, 2019.
+         Applying All Three Analyses: EXX
+  Let’s look at another exchange. EXX has a reported ADV of $247M.
+
+
+
+
+                                                                                                   EXX’s spread converges to around $6, never
+Trade Size Histogram shows highly concentrated    Volume spikes do not align with any other
+                                                                                                   goes above $12, and rarely goes to $0. For an
+volume on 0-0.1 BTC (over 50%) and does not       market. There’s also an odd U-shaped valley
+                                                                                                   exchange with such high volume, this seems
+show any spikes of volume on round numbers.       of volume mid-week.
+                                                                                                   unlikely unless the market is truly very thin.
+
+
+
+
+               EXX, another of the top exchanges by ADV, again fails all three data analyses. We believe its volume is fabricated.
+
+
+                                                                                                  *Average Daily Volume. Source: CoinMarketCap. March 4-8, 2019.
+                                                                        !46                                               Graph Source: Bitwise. March 4-8, 2019.
+       Applying All Three Analyses: BitForex
+Let’s look at one last exchange. BitForex has an ADV of $241M.
+
+
+
+                                                 Similar to previous suspicious exchanges,
+                                                                                                 Spreads on BitForex vary fairly reasonably. They
+The Trade Size Histogram rises as the            BitForex does not have true spikes—only
+                                                                                                 are low and return to 0 or close to 0. There isn’t
+quantity of bitcoin traded increases. It then    peaks—and the peaks do not align with
+                                                                                                 an obvious reason to question the spread
+drops abruptly right before 6 bitcoin.           any other market.
+                                                                                                 variability.
+
+
+
+
+    BitForex, the fifth largest exchange by reported ADV, fails two of the three data analyses. We believe the volume is fabricated.
+
+
+                                                                                                *Average Daily Volume. Source: CoinMarketCap. March 4-8, 2019.
+                                                                     !47                                                Graph Source: Bitwise. March 4-8, 2019.
+Across the Board, We Find Exchanges That
+Fail One or More of These Tests.
+
+
+
+
+                       !48
+       Why Would Exchanges Exaggerate Volume?
+Volume inflation is familiar to any self-reported league table (dark pools, etc.). But in crypto, the incentive to inflate volume is pernicious
+and strong: Exchanges that appear at the top of the lists used by leading media organizations can attract listing fees (often millions of
+dollars) from ICOs and alt coins.
+
+
+      Where Would You Look To Trade Or List?
+
+
+
+                                                                                “Cryptocurrency Exchanges Are Making Millions
+                                                                                from Just Listing Coins”
+                                                                                - Bitcoin.com, March 12, 2018
+
+
+
+                                                                                “The market price to list a crypto token on an
+                                                                                exchange is $1 million for a reasonably regarded
+                                                                                token, to $3 million for an opportunity to get quick
+                                                                                liquidity.”
+                                                                                - Autonomous Next, April 3, 2018
+
+
+                                                                                                                           Screenshot Source: CoinMarketCap.com. March 9., 2019
+                                                                                Bitcoin.com: “Cryptocurrency Exchanges Are Making Millions From Just Listing Coins,” March 12, 2018
+                                                                      !49                          Autonomous Next:: “CRYPTO: Token and Coin Exchange Listing Fees,” April 3, 2018.
+      Only Ten Exchanges Have Actual Volume
+Just 10 of the 81 top exchanges are revealed to have actual volume**
+
+
+
+
+           $110M*                    $38M*                                $31M*                                           $31M*                                      $27M*
+
+
+
+
+            $14M*                    $8M*                                 $6M*                                            $5M*                                        $1.4M*
+
+
+
+                                                                                                                                                   * Average Daily Volume. Data Source: Kaiko. March 4-8, 2019
+                                                     ** Korean exchanges were excluded from this analysis because they are an isolated market that trades at different prices due to capital restrictions. One other
+                                                    exchange we examined—CEX.IO—passed our tests and appears to be reporting real volume, but it was too small (less than $1M ADV) to include in this group.
+
+
+
+                                                                              !50
+            Total Volume Is Considerably Less Than Reported
+
+
+
+
+Reported Volume: ~$6B
+Source: Coinmarketcap. March 4-8, 2019.
+
+
+
+
+                                          4.5%
+
+
+
+                                                    Actual Volume: $273M
+                                                    Source: Kaiko. March 4-8, 2019.
+
+
+
+
+                                          !51
+       But It Is Healthy Given Bitcoin’s Market Cap
+Considering its market capitalization, Bitcoin’s actual trade volume is reasonable when compared to analogs like gold. In fact, the
+counterfactual—imagining that the reported volume ($6B) is entirely real—would be concerning, as it would imply that 8.6% of all
+bitcoin was changing hands every day.
+
+
+
+
+                                             Market Cap                        Spot Volume                                                Daily Turnover
+
+
+
+              Gold                             ~$6.7T*                            $37B**                                                          0.55%
+
+
+
+             Bitcoin                            ~$70B                             $270M                                                           0.39%
+
+
+
+
+                                                                                 * Estimate of the value of all existing gold from Golden Eagle Coins, March 16, 2019 (assumes spot price of $1,302.13)
+
+                                                                                                                                                 ** Gold spot volume from Marketwatch, Nov 20, 2018.
+
+
+                                                                   !52
+      The SEC Has Indicated That Bitcoin’s Absolute Trade
+      Volume Is Not A Concern
+The “Overdahl Letter,” submitted as a comment letter regarding the Winklevoss Bitcoin Trust application, argued that the SEC has
+approved ETFs in the past with underlying holdings that had lower average daily volume (ADV) than the amount of bitcoin trading each
+day on the proposed pricing exchange for the trust (the Gemini exchange, which had $4.2M ADV at the time). The SEC’s responded
+that Gemini’s ADV in the “absolute sense” was not an issue.
+
+
+
+                                                                      SEC’s response: “The issue here is not that the Gemini
+                                                                      Exchange has low trading volume in an absolute sense but,
+                                                                      rather, that the Trust would value its holdings using the
+                                                                      Gemini Auction price, even though there is no basis in the
+                                                                      record to find that the Gemini Auction represents a
+                                                                      significant portion of the worldwide bitcoin trading.”
+
+
+
+
+                                                              Source: Comment letter (“Overdahl Letter”) submitted to the SEC by James A. Overdahl of the Delta Strategy Group on May 12, 2017, in reference to
+                                                                    Bats BZX Exchange’s Proposed Rule Change to List and Trade Shares Issued by the Winklevoss Bitcoin Trust (File No. SR-BatsBZX-2016-30).
+
+
+
+                                                                         !53
+      Volume Is More U.S. Focused Than Is Widely Perceived
+Nearly 30% of spot bitcoin volume takes place on U.S.-domiciled exchanges, compared to just 1% of reported volume.
+
+
+
+
+       Reported Exchange Volume By Domicile                                         Actual Exchange Volume By Domicile
+
+
+
+
+                                US: 1%                                                                     US: 29%
+                       Source: Coinmarketcap. March 4-8, 2019.
+                                                                                                    Source: Kaiko. March 4-8, 2019.
+
+
+                                                                 !54
+      The Futures Market Is Significant
+Together, the CME bitcoin futures volume ($85M) and the CBOE bitcoin futures volume ($6M) represent nearly as much ADV as the
+largest bitcoin spot market Binance ($110M).
+
+
+
+
+                 $110M                                                                      $91M
+                  Largest Spot Exchange (Binance)                                           Bitcoin Futures (CME & CBOE)
+                      Source: Kaiko. March 4-8, 2019.                Sources: Chicago Mercantile Exchange, Chicago Board Options Exchange. March 4-8, 2019
+
+
+
+
+                                                               !55
+The Bitcoin Market Is More Orderly and
+Efficient Than Is Commonly Understood.
+
+
+
+
+                        !56
+      The 10 Exchanges Trade Extremely Tightly
+The 10 exchanges trade as a uniform, highly connected market. They form a singular price.
+
+
+
+
+                                                                 !57                        Source: Kaiko. Data from 01/01/2018 to 03/17/2019.
+       The 10 Exchanges Trade Extremely Tightly
+Average deviations from the aggregate price for the ten exchanges is well within the expected arbitrage band when you account for
+exchange-level fees (~30 basis points), volatility and hedging costs. Arbitrage is operating well.
+
+
+
+
+                                                                    !58                               Source: Kaiko. Data from 01/01/2018 to 03/17/2019
+      Sustained Deviations Are Extremely Rare
+Sustained deviations (defined as deviations >1% that last more than 100 seconds) appear as single white lines on the graph below. The
+graph demonstrates that the ten exchanges trade at a single unified price.
+
+
+
+
+                                                                  !59                                 Source: Kaiko. Data from 03/01/2018 to 03/17/2019
+        There Is A Common Institutional Understanding Of
+        The True Nature Of The Actual Market
+
+• While mainstream media sites carry the higher “reported volume” data,
+ industry participants broadly know the truth.
+
+
+• For example, every regulated crypto product that has launched              –
+ whether in the U.S. or Europe – has drawn prices either entirely from or,
+ in the case of XBT Provider, almost entirely from a subset of the 10
+ exchanges highlighted in this presentation as “real.”*
+
+
+
+
+                                           * XBT Provider has a unique pricing methodology that draws from a portion of six named exchanges. Five of those six named exchanges are part of the ten exchanges. The sixth, OKCoin, is not.
+
+
+                                                                                                 !60
+          There Is A Common Institutional Understanding Of
+          The True Nature Of The Real Market
+• Other entities that have investigated the question of non-economic and/
+ or fake volume have arrived at similar conclusions as Bitwise.
+
+• When the New York Attorney General (NYAG) reached out to exchanges
+  as part of its Virtual Markets Integrity Initiative, the 10 real exchanges
+  highlighted in this report dominated the list of 13 exchanges that the
+  NYAG reached out to.
+
+• The Blockchain Transparency Institute has investigated non-economic
+ and/or fake volume at length, and has identified 56 exchanges it
+ suspects of having fake volume. None of those exchanges are among the
+ ten exchanges.
+
+• Others media-level investigations into the space have arrived at similar
+  conclusions.
+
+
+   Sources: 1) State of New York Attorney General, “Virtual Markets Integrity Initiative Report,” September 18, 2018; 2) Blockchain Transparency Institute Exchange Advisory List; 3) Crypto Integrity on Medium, “Fake Volume In Cryptocurrency Markets - February
+                                                                                                             report,” March 8, 2019; 4) TheBlockCrypto, “Analysis of Crypto Traded Volumes Indicates A Bleak Trend: Down 80% Across The Market,” March 11, 2018.
+
+
+                                                                                                                        !61
+      Common Misconception: USD and Tether (USDT)
+      Markets Appear To Trade At Different Prices…
+Markets that trade BTC paired against the stablecoin Tether (USDT) appear to trade at a persistent premium to BTC-USD markets. You
+see these apparent dislocations on popular public web sites like CoinMarketCap, which often show highly variable prices.
+
+
+
+
+                                                                 !62                               Source: CoinAPI. Data from 11/01/2018 to 12/11/2018
+       … But Tether Trades At A Variable Price …
+USDT is a stable coin that is designed to trade at a stable price of $1. But in practice, its price varies (sometimes significantly).
+The globally integrated bitcoin market incorporates this into its prices.
+
+
+
+
+                                                                                                           Source: CoinAPI. Data from 01/01/2018 to 12/01/2018
+                                                                      !63
+       … If You Adjust for USDT Price Fluctuations They
+       Trade In Line
+If you treat Tether for what it really is — a currency that fluctuates against the value of the U.S. dollar — prices for BTC/USD and BTC/
+USDT pairs line up exactly.
+
+
+
+
+                                                                    !64                                 Source: CoinAPI. Data from 11/01/2018 to 12/11/2018
+The Bitcoin Market Is More Regulated and
+Surveilled Than Is Commonly Understood.
+
+
+
+
+                         !65
+We acknowledge that we’re using the term “regulated” loosely here. We
+are not implying that bitcoin spot exchanges are “regulated markets” or
+that they are on an equal legal status with national securities exchanges
+or futures exchanges, but rather that the 10 bitcoin spot exchanges
+highlighted earlier interface with other forms of regulation.
+
+
+
+
+                                                 !66
+       FinCEN Has Required Crypto Exchanges To Register
+       As Money Services Businesses (MSB) Since 2013
+FinCEN’s responsibility is to safeguard the financial system from being abused by criminals and terrorists, with a focus on combating
+money laundering. It refers to cryptocurrencies as “virtual currency.”
+
+
+
+                                                                            Clarification: “[A] exchanger is an MSB under
+                                                                            FinCEN’s regulations, specifically, a money transmitter,
+                                                                            unless a limitation to or exemption from the definition
+                                                                            applies to the person.”
+
+
+                                                                            Definition: “An exchanger is a person engaged as a
+                                                                            business in the exchange of virtual currency for real
+                                                                            currency, funds, or other virtual currency.”*
+
+
+
+
+                                                                              * Source: https://www.fincen.gov/sites/default/files/shared/FIN-2013-G001.pdf. March 18, 2013.
+                                                                    !67
+       MSBs Have A Long List Of Obligations
+• Identifying people with ownership stakes or controlling roles in the MSB.
+
+• Establishing a formal Anti-Money Laundering (AML) policy in place with documentation, training, independent review, and a named
+ compliance officer.
+
+• Having strict customer identification and verification policies and procedures.
+
+• Filing Suspicious Activity Reports (SARs) for suspicious customer transactions.
+
+• Filing Currency Transaction Reports (CTRs) for cash-in or cash-out transactions greater than $10,000.
+
+• Maintaining a five-year record of currency exchanges greater than $1,000 and money transfers greater than $3,000.
+
+
+
+
+                                                                                      Source: https://coiniq.com/crypto-exchange-fincen-registration/. October 3, 2018.
+
+                                                                    !68                    Disclaimer: there are additional obligations and this list is not a complete list.
+      A BitLicense Is Needed For Exchanges Doing Business
+      in New York
+To operate in New York, virtual currency businesses must register with the New York State Department of Financial Services (NYSDFS)
+and receive a BitLicense, which enforces strict operating standards. Five of the ten spot bitcoin exchanges are registered with NYSDFS
+and hold a BitLicense.
+
+
+
+
+                                                                  !69
+        The BitLicense Has An Even Longer List Of Obligations
+• Submission of audited financial statements including income statements, statement of assets/liabilities, insurance, and banking.
+
+• Capitalization requirements set at NYDFS’s discretion.
+
+• Full reserves of custodian assets — selling / encumbering prohibited.
+
+• Fingerprints and photographs of employees with access to customer funds.
+
+• Qualified Chief Information Security Officer and annual penetration testing / audits.
+
+• Documented business continuity and disaster recovery plan, independently tested annually.
+
+• Independent exam by NYFDS.
+
+
+
+
+                                                                              BitLicense Overview: https://www.davispolk.com/files/new_yorks_final_bitlicense_rule_overview_changes_july_2014_proposal.pdf
+
+
+                                                                               !70
+           Regulatory Status Of the 10 Exchanges
+
+           Exchange   MSB   BitLicense   Nine out of the ten exchanges—every exchange besides Binance—is
+                                         registered as a Money Services Business with FinCEN.
+Binance
+                                         The BitLicense is more optional because it’s enforced by a NY state
+                       X
+Bitfinex
+                                         regulator and certain exchanges have decided not to do business in NY
+bitFlyer
+                       X        X        due to the operational and compliance burden. Still, five out of ten
+                       X                 exchanges have BitLicenses.
+Bitstamp
+                       X
+Bittrex
+                                         Most of these exchanges have raised significant venture capital or
+                       X        X
+                                         been acquired by large, established companies. They have significant
+Coinbase Pro
+                       X        X
+Gemini                                   public profiles, well-known senior executives, and large offices in major
+itBit
+                       X        X        metropolitan areas.
+                       X
+Kraken
+
+                       X        X
+Poloniex
+
+
+
+
+                                           !71
+Sophisticated Market Surveillance Tools And Protocols
+Are Emerging At The 10 Exchanges
+ Exchange            Market Surveillance Tools               Since
+                                                                           Five out of the ten exchanges—Binfinex, Bitstamp,
+   Binance                       N/A                          N/A
+                                                                           Coinbase Pro, Gemini, and Poloniex—have formal
+                                                                           market surveillance tools in place that help detect
+   Bitfinex          Irisium Market Surveillance         Mar 13, 2018
+                                                                           market manipulations such as spoofing and wash
+   bitFlyer                      N/A                          N/A          trading through the real-time and historical analysis
+   Bitstamp          Irisium Market Surveillance         Nov 28, 2018      of trades, order books, and other market
+                                                                           information.
+    Bittrex                      N/A                          N/A
+                Internal, “Coinbase Trade Surveillance
+ Coinbase Pro    Program” led by Peter Elkins, former    July 4, 2018
+                 head of market surveillance at NYSE
+
+   Gemini                 Nasdaq SMARTS                  April 25, 2018
+
+     itBit                       N/A                          N/A
+
+   Kraken                        N/A                          N/A
+
+   Poloniex                NICE Actimize                 Feb 27, 2019
+
+
+
+                                                                     !72
+Contact Us For More Information
+Visit: www.bitwiseinvestments.com
+Email: matt@bitwiseinvestments.com
+Phone: 1-415-837-8782
+    Bitwise Asset Management, Inc. and its affiliates (collectively, "Bitwise") has prepared this presentation (this "Presentation") for presentation to and
+ discussion with the Staff of the Securities and Exchange Commission on March 19, 2019. This Presentation is neither an offer to sell nor a solicitation for
+an offer to buy interests or units in any Fund or securities offering. The summary set forth in this presentation does not purport to be complete. Information
+      in this presentation may change and be inaccurate, incomplete, or outdated. The information contained in this Presentation is subject to further
+   discussion, completion, and amendment. All of the information herein is subject to change without notice. For example, Bitwise may select new data
+   providers to re-evaluate and re-analyze the information. This Presentation may be updated to provide additional information or reflect changes in the
+information herein. Bitwise intends for this presentation to be included as a public comment on SR-NYSEArca-2019-01, "Notice of Filing of Proposed Rule
+ Change Relating to the Listing and Trading of Shares of the Bitwise Bitcoin ETF Trust under NYSE Arca Rule 8.201-E, (Release No. 34-85093; File No. SR-
+                                                         NYSEArca-2019-01)”, dated February 11, 2019.
+
+
+                                                                              !74
+

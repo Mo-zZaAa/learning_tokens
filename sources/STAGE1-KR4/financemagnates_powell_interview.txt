@@ -1,0 +1,487 @@
+
+Jesse Powell Shares Thoughts on Trading, Kraken and the Future of Bitcoin | Finance Magnates
+ADVERTISEMENT
+News
+Retail FX
+Institutional FX
+Fintech
+Payments
+Cryptocurrency
+Executives
+Thought Leadership
+Webinars
+Trending
+Education
+Academy
+Forex Education
+Cryptocurrency Education
+Fintech Education
+Industry Terms
+Directory
+Events
+Intelligence
+Intelligence Portal
+Quarterly Intelligence Reports
+Buy Latest Report
+Custom Reports
+Market
+Live Market Prices
+Economic Calendar
+What are you looking for?
+What are you looking for?
+Subscribe to our News & Services
+All News
+Retail FX
+Institutional FX
+Fintech
+Payments
+Cryptocurrency
+Executives
+Thought Leadership
+Webinars
+Trending
+Education
+Academy
+Forex Education
+Cryptocurrency Education
+Fintech Education
+Industry Terms
+Directory
+Events
+Intelligence
+Intelligence Portal
+Quarterly Intelligence Reports
+Buy Latest Report
+Custom Reports
+About Us
+Contact us
+Terms of Use
+Privacy
+Market
+Live Market Prices
+Economic Calendar
+Market News by
+Subscribe to our News & Services
+FM ALL News
+FM Crypto
+Follow us on Twitter
+Follow us on Linkedin
+FM Home
+>
+CryptoCurrency
+>
+Interviews
+>
+Jesse Powell Shares Thoughts on Trading, Kraken and the Future of Bitcoin
+Jesse Powell Shares Thoughts on Trading, Kraken and the Future of Bitcoin
+2015-06-03T14:24:02.000+02:00
+W e d n e s d a y , 0 3 / 0 6 / 2 0 1 5 | 1 2 : 2 4 G M T by
+Leon Pick
+Cryptocurrency exchange Kraken has continued to excel in what has become a saturated market, dominating euro-denominated trading.
+Interviews
+Kraken
+Photo: Bloomberg
+San Francisco-based cryptocurrency exchange Kraken has continued to excel in what has become a saturated market, dominating euro-denominated trading and typically ranking in or near the top ten exchanges globally in total volume.
+To help make this happen, it has kept busy introducing new features, expanding to new markets, establishing strategic relationships and thinking outside the box.
+Milestones achieved during the last year include: its expansion to Japan, where MtGox's monumental collapse left a gaping hole in the local bitcoin trading market; being chosen by MtGox bankruptcy trustee Nobuaki Kobayashi to assist with the distribution of remaining assets to creditors; the release of its iOS app and the launch of new charts.
+It is now one of the few exchanges supporting four types of fiat: USD, EUR, GBP and JPY (and CAD to be added in the near future), in addition to alternative digital currencies litecoin, dogecoin, namecoin, Ripple's XRP, stellar, and even Hub Culture's Ven.
+Following Kraken's recent launch of margin trading , Finance Magnates talked with CEO Jesse Powell, also one of the early backers of Ripple, about the exchange and his future outlook for Bitcoin:
+There is increasing focus this year on Bitcoin as a technology, less as a currency. Does this threaten the future success of exchanges- as good as they may be?
+Not at all. Those who aim to separate bitcoin from the Blockchain don't understand Bitcoin. If you want to write something in the ledger, you need ink, and bitcoin is that ink. If we arrive at a world in which conversion between bitcoin and other currencies is no longer a necessary service, I would say that we succeeded in our mission. If more successful blockchains emerge, I would expect more viable Cryptocurrencies to emerge, and therefore even more demand for exchanges.
+Do you anticipate future price volatility or stabilization- if the latter, how/where will prices find equilibrium?
+I think we have a lot of volatility to come but as the market becomes more liquid and bitcoin becomes more widely adopted and used in commerce, we'll see greater stability. Right now volatility comes from it being so thinly traded--it's like a penny stock. The market cap is only $3.3 billion today. Even $360 billion businesses like Google look volatile compared to multi-trillion dollar businesses, like the USD. So, it's all relative.
+Are you seeking to advance past the regulatory "grey area" and attain some official blessing as a regulated entity- similar to how itBit is trying in the US?
+To my knowledge there is no "grey area" in the US. Most exchanges that are servicing US clients are doing so illegally. They're taking on huge contingent liability, and after what happened to Ripple Labs, I'd be worried if I were them. Whether itBit's trust company hack will be accepted by all, or even a majority of the states has yet to be seen. I do hope it works because the money transmission regime makes little sense for exchanges. We are looking for ways to operate legally in the United States.
+Was the recent stability in bitcoin prices a factor in introducing margin?
+Yes, it was one factor. It certainly makes it easier to test things out, and for our clients to play around without losing much.
+What kind of (automated?) risk management protocols are being employed for situations of high volatility?
+We have margin calls and liquidations to help clients protect their positions and to protect the exchange against accounts going negative. We have a limited global pool of funds available for margin, and each account also has its own individual limits. We feel pretty comfortable with the controls we have in place.
+Would margin be scaled down from 3:1 or removed entirely should volatility return in a major way?
+Sure, if we felt that the volatility was beyond our ability to control the risks, we would remove or scale back the feature. First and foremost we exist to provide a market for spot, deliverable bitcoin. Advanced features for traders, like margin, are secondary. We want people to have a good experience and if we feel that a particular feature is going to cause a lot of clients to have a bad experience, we'd remove it or restrict it to those who have shown that they are aware of and accept the extreme risks involved.
+The news release said margin will be "3:1 at launch"- will it be raised in the future?
+Yes, we intend to raise margin up to 10-20x as we're better able to control the risks.
+(Such levels would be by far the highest for spot trading in the industry, and rival those found in CFDs and other synthetic products.)
+Any new currencies (fiat/digital) planned for future addition?
+Canadian dollars are coming within the next two weeks.
+How about new trading instruments (e.g. futures)?
+We are exploring futures, deliverable forwards, options. Our primary concern is that in offering new trading instruments, we avail ourselves to new regulatory authorities, and new bodies of law with which we must comply. We have to do the math on whether the expected revenue is worth the cost of compliance. Unlike most other exchanges, Kraken takes compliance very seriously.
+San Francisco-based cryptocurrency exchange Kraken has continued to excel in what has become a saturated market, dominating euro-denominated trading and typically ranking in or near the top ten exchanges globally in total volume.
+To help make this happen, it has kept busy introducing new features, expanding to new markets, establishing strategic relationships and thinking outside the box.
+Milestones achieved during the last year include: its expansion to Japan, where MtGox's monumental collapse left a gaping hole in the local bitcoin trading market; being chosen by MtGox bankruptcy trustee Nobuaki Kobayashi to assist with the distribution of remaining assets to creditors; the release of its iOS app and the launch of new charts.
+It is now one of the few exchanges supporting four types of fiat: USD, EUR, GBP and JPY (and CAD to be added in the near future), in addition to alternative digital currencies litecoin, dogecoin, namecoin, Ripple's XRP, stellar, and even Hub Culture's Ven.
+Following Kraken's recent launch of margin trading , Finance Magnates talked with CEO Jesse Powell, also one of the early backers of Ripple, about the exchange and his future outlook for Bitcoin:
+There is increasing focus this year on Bitcoin as a technology, less as a currency. Does this threaten the future success of exchanges- as good as they may be?
+Not at all. Those who aim to separate bitcoin from the Blockchain don't understand Bitcoin. If you want to write something in the ledger, you need ink, and bitcoin is that ink. If we arrive at a world in which conversion between bitcoin and other currencies is no longer a necessary service, I would say that we succeeded in our mission. If more successful blockchains emerge, I would expect more viable Cryptocurrencies to emerge, and therefore even more demand for exchanges.
+Do you anticipate future price volatility or stabilization- if the latter, how/where will prices find equilibrium?
+I think we have a lot of volatility to come but as the market becomes more liquid and bitcoin becomes more widely adopted and used in commerce, we'll see greater stability. Right now volatility comes from it being so thinly traded--it's like a penny stock. The market cap is only $3.3 billion today. Even $360 billion businesses like Google look volatile compared to multi-trillion dollar businesses, like the USD. So, it's all relative.
+Are you seeking to advance past the regulatory "grey area" and attain some official blessing as a regulated entity- similar to how itBit is trying in the US?
+To my knowledge there is no "grey area" in the US. Most exchanges that are servicing US clients are doing so illegally. They're taking on huge contingent liability, and after what happened to Ripple Labs, I'd be worried if I were them. Whether itBit's trust company hack will be accepted by all, or even a majority of the states has yet to be seen. I do hope it works because the money transmission regime makes little sense for exchanges. We are looking for ways to operate legally in the United States.
+Was the recent stability in bitcoin prices a factor in introducing margin?
+Yes, it was one factor. It certainly makes it easier to test things out, and for our clients to play around without losing much.
+What kind of (automated?) risk management protocols are being employed for situations of high volatility?
+We have margin calls and liquidations to help clients protect their positions and to protect the exchange against accounts going negative. We have a limited global pool of funds available for margin, and each account also has its own individual limits. We feel pretty comfortable with the controls we have in place.
+Would margin be scaled down from 3:1 or removed entirely should volatility return in a major way?
+Sure, if we felt that the volatility was beyond our ability to control the risks, we would remove or scale back the feature. First and foremost we exist to provide a market for spot, deliverable bitcoin. Advanced features for traders, like margin, are secondary. We want people to have a good experience and if we feel that a particular feature is going to cause a lot of clients to have a bad experience, we'd remove it or restrict it to those who have shown that they are aware of and accept the extreme risks involved.
+The news release said margin will be "3:1 at launch"- will it be raised in the future?
+Yes, we intend to raise margin up to 10-20x as we're better able to control the risks.
+(Such levels would be by far the highest for spot trading in the industry, and rival those found in CFDs and other synthetic products.)
+Any new currencies (fiat/digital) planned for future addition?
+Canadian dollars are coming within the next two weeks.
+How about new trading instruments (e.g. futures)?
+We are exploring futures, deliverable forwards, options. Our primary concern is that in offering new trading instruments, we avail ourselves to new regulatory authorities, and new bodies of law with which we must comply. We have to do the math on whether the expected revenue is worth the cost of compliance. Unlike most other exchanges, Kraken takes compliance very seriously.
+Topics
+Kraken
+Share this article
+Add as a preferred source on Google
+About the Author:
+Leon Pick
+1998 Articles
+5 Followers
+About the Author:
+Leon Pick
+1998 Articles
+5 Followers
+Finance Magnates Daily Update
+Get all the top financial news delivered straight to your inbox. Stay informed, stay ahead.
+Email
+By subscribing, you agree to our Terms of Use and Privacy Policy . You may unsubscribe at any time.
+This site is protected by reCAPTCHA and the Google
+Privacy Policy
+and
+Terms of Service
+apply.
+SIGN UP
+Most Viewed
+CFTC Bars Eight Americans Who Sold Offshore Forex Trading to US Retail Clients
+CFTC Bars Eight Americans Who Sold Offshore Forex Trading to US Retail Clients
+IG Group to Close Its Offices in France, Spain and Italy: Report
+IG Group to Close Its Offices in France, Spain and Italy: Report
+Latest News
+US Retail Forex Deposits Post First Quarterly Rise in a Year
+Tuesday, 17/11/2026 | 12:24 GMT
+Unpredictable? Event Contracts Go Institutional
+Tuesday, 17/11/2026 | 12:20 GMT
+Exclusive: MetroTrade Rebuilds With Kraken Owner Payward, Adds Crypto Contracts
+Tuesday, 17/11/2026 | 10:57 GMT
+Education Center
+Europe's Economic Crossroads: Recession Fears and S&P Global's Contrasting Outlook
+Europe's Economic Crossroads: Recession Fears and S&P Global's Contrasting Outlook
+Decarbonization and Climate Realities: Shaping the Future Investment Landscape
+Decarbonization and Climate Realities: Shaping the Future Investment Landscape
+Keep Reading
+Bitget Wallet: Prediction Markets Will Consolidate in Liquidity but Spread in Access
+7 Things We Wish Someone Had Told Us Before We Started Trading
+Trending
+Microsoft Outage Forces Japanese Markets To Dust Off Fax Machines
+Friday, 13/11/2026 | 08:17 GMT
+Nvidia Shares Plummet as Jensen Huang Resigns After 33 Years at the Helm of the Tech Giant
+Thursday, 12/11/2026 | 15:29 GMT
+Crypto Exchange GOPAX Halts Trading and Standard Withdrawals After Hacking Threat
+Friday, 06/11/2026 | 11:56 GMT
+More from the Author
+Special Report: Winklevoss Twins Help Bitcoin Exchanges Enter the Big Leagues
+Special Report: Winklevoss Twins Help Bitcoin Exchanges Enter the Big Leagues
+Special Report: Winklevoss Twins Help Bitcoin Exchanges Enter the Big Leagues
+Special Report: Winklevoss Twins Help Bitcoin Exchanges Enter the Big Leagues
+Special Report: Winklevoss Twins Help Bitcoin Exchanges Enter the Big Leagues
+Special Report: Winklevoss Twins Help Bitcoin Exchanges Enter the Big Leagues
+Special Report: Winklevoss Twins Help Bitcoin Exchanges Enter the Big Leagues
+Special Report: Winklevoss Twins Help Bitcoin Exchanges Enter the Big Leagues
+Special Report: Winklevoss Twins Help Bitcoin Exchanges Enter the Big Leagues
+Special Report: Winklevoss Twins Help Bitcoin Exchanges Enter the Big Leagues
+Wednesday, 17/02/2016 | 09:40 GMT
+Gemini: 'Institutionalization' of Bitcoin Trading is Definitely Happening
+Gemini: 'Institutionalization' of Bitcoin Trading is Definitely Happening
+Gemini: 'Institutionalization' of Bitcoin Trading is Definitely Happening
+Gemini: 'Institutionalization' of Bitcoin Trading is Definitely Happening
+Gemini: 'Institutionalization' of Bitcoin Trading is Definitely Happening
+Gemini: 'Institutionalization' of Bitcoin Trading is Definitely Happening
+Gemini: 'Institutionalization' of Bitcoin Trading is Definitely Happening
+Gemini: 'Institutionalization' of Bitcoin Trading is Definitely Happening
+Gemini: 'Institutionalization' of Bitcoin Trading is Definitely Happening
+Gemini: 'Institutionalization' of Bitcoin Trading is Definitely Happening
+Tuesday, 05/01/2016 | 15:29 GMT
+Blockchain Startup R3 Looking to Expand Team with Unique IT Talent
+Blockchain Startup R3 Looking to Expand Team with Unique IT Talent
+Blockchain Startup R3 Looking to Expand Team with Unique IT Talent
+Blockchain Startup R3 Looking to Expand Team with Unique IT Talent
+Blockchain Startup R3 Looking to Expand Team with Unique IT Talent
+Blockchain Startup R3 Looking to Expand Team with Unique IT Talent
+Blockchain Startup R3 Looking to Expand Team with Unique IT Talent
+Blockchain Startup R3 Looking to Expand Team with Unique IT Talent
+Blockchain Startup R3 Looking to Expand Team with Unique IT Talent
+Blockchain Startup R3 Looking to Expand Team with Unique IT Talent
+Tuesday, 05/01/2016 | 09:12 GMT
+10 Cryptocurrency Trends to Look Out for in 2016
+10 Cryptocurrency Trends to Look Out for in 2016
+10 Cryptocurrency Trends to Look Out for in 2016
+10 Cryptocurrency Trends to Look Out for in 2016
+10 Cryptocurrency Trends to Look Out for in 2016
+10 Cryptocurrency Trends to Look Out for in 2016
+10 Cryptocurrency Trends to Look Out for in 2016
+10 Cryptocurrency Trends to Look Out for in 2016
+10 Cryptocurrency Trends to Look Out for in 2016
+10 Cryptocurrency Trends to Look Out for in 2016
+Monday, 04/01/2016 | 09:58 GMT
+Coinbase: International Users Became Majority in 2015
+Coinbase: International Users Became Majority in 2015
+Coinbase: International Users Became Majority in 2015
+Coinbase: International Users Became Majority in 2015
+Coinbase: International Users Became Majority in 2015
+Coinbase: International Users Became Majority in 2015
+Coinbase: International Users Became Majority in 2015
+Coinbase: International Users Became Majority in 2015
+Coinbase: International Users Became Majority in 2015
+Coinbase: International Users Became Majority in 2015
+Sunday, 03/01/2016 | 19:48 GMT
+Bitcoin Celebrates 7th Birthday
+Bitcoin Celebrates 7th Birthday
+Bitcoin Celebrates 7th Birthday
+Bitcoin Celebrates 7th Birthday
+Bitcoin Celebrates 7th Birthday
+Bitcoin Celebrates 7th Birthday
+Bitcoin Celebrates 7th Birthday
+Bitcoin Celebrates 7th Birthday
+Bitcoin Celebrates 7th Birthday
+Bitcoin Celebrates 7th Birthday
+Sunday, 03/01/2016 | 10:12 GMT
+CryptoCurrency
+Crypto Market Value Jumped 40% in Q3, but Retail Spot Trading Didn’t Follow
+Crypto Market Value Jumped 40% in Q3, but Retail Spot Trading Didn’t Follow
+Crypto Market Value Jumped 40% in Q3, but Retail Spot Trading Didn’t Follow
+Crypto Market Value Jumped 40% in Q3, but Retail Spot Trading Didn’t Follow
+Crypto Market Value Jumped 40% in Q3, but Retail Spot Trading Didn’t Follow
+Crypto Market Value Jumped 40% in Q3, but Retail Spot Trading Didn’t Follow
+Crypto Market Value Jumped 40% in Q3, but Retail Spot Trading Didn’t Follow
+Crypto Market Value Jumped 40% in Q3, but Retail Spot Trading Didn’t Follow
+Crypto Market Value Jumped 40% in Q3, but Retail Spot Trading Didn’t Follow
+Crypto Market Value Jumped 40% in Q3, but Retail Spot Trading Didn’t Follow
+Monday, 16/11/2026 | 21:40 GMT
+Coincheck Scraps Aplo Brokerage in $18.8M Reversal, Folding Tech into 3iQ
+Coincheck Scraps Aplo Brokerage in $18.8M Reversal, Folding Tech into 3iQ
+Coincheck Scraps Aplo Brokerage in $18.8M Reversal, Folding Tech into 3iQ
+Coincheck Scraps Aplo Brokerage in $18.8M Reversal, Folding Tech into 3iQ
+Coincheck Scraps Aplo Brokerage in $18.8M Reversal, Folding Tech into 3iQ
+Coincheck Scraps Aplo Brokerage in $18.8M Reversal, Folding Tech into 3iQ
+Coincheck Scraps Aplo Brokerage in $18.8M Reversal, Folding Tech into 3iQ
+Coincheck Scraps Aplo Brokerage in $18.8M Reversal, Folding Tech into 3iQ
+Coincheck Scraps Aplo Brokerage in $18.8M Reversal, Folding Tech into 3iQ
+Coincheck Scraps Aplo Brokerage in $18.8M Reversal, Folding Tech into 3iQ
+Friday, 13/11/2026 | 17:58 GMT
+Kraken Parent Payward Breaks Trading Reliance as Services and Custody Drive Q3 Margin
+Kraken Parent Payward Breaks Trading Reliance as Services and Custody Drive Q3 Margin
+Kraken Parent Payward Breaks Trading Reliance as Services and Custody Drive Q3 Margin
+Kraken Parent Payward Breaks Trading Reliance as Services and Custody Drive Q3 Margin
+Kraken Parent Payward Breaks Trading Reliance as Services and Custody Drive Q3 Margin
+Kraken Parent Payward Breaks Trading Reliance as Services and Custody Drive Q3 Margin
+Kraken Parent Payward Breaks Trading Reliance as Services and Custody Drive Q3 Margin
+Kraken Parent Payward Breaks Trading Reliance as Services and Custody Drive Q3 Margin
+Kraken Parent Payward Breaks Trading Reliance as Services and Custody Drive Q3 Margin
+Kraken Parent Payward Breaks Trading Reliance as Services and Custody Drive Q3 Margin
+Friday, 13/11/2026 | 15:21 GMT
+STS Digital Takes Its Crypto Options Desk Into Tokenized Stocks and Gold
+STS Digital Takes Its Crypto Options Desk Into Tokenized Stocks and Gold
+STS Digital Takes Its Crypto Options Desk Into Tokenized Stocks and Gold
+STS Digital Takes Its Crypto Options Desk Into Tokenized Stocks and Gold
+STS Digital Takes Its Crypto Options Desk Into Tokenized Stocks and Gold
+STS Digital Takes Its Crypto Options Desk Into Tokenized Stocks and Gold
+STS Digital Takes Its Crypto Options Desk Into Tokenized Stocks and Gold
+STS Digital Takes Its Crypto Options Desk Into Tokenized Stocks and Gold
+STS Digital Takes Its Crypto Options Desk Into Tokenized Stocks and Gold
+STS Digital Takes Its Crypto Options Desk Into Tokenized Stocks and Gold
+Wednesday, 11/11/2026 | 11:00 GMT
+As US Moves to Cut Off MEXC, Competitor OKX Warns Users Against Transfers
+As US Moves to Cut Off MEXC, Competitor OKX Warns Users Against Transfers
+As US Moves to Cut Off MEXC, Competitor OKX Warns Users Against Transfers
+As US Moves to Cut Off MEXC, Competitor OKX Warns Users Against Transfers
+As US Moves to Cut Off MEXC, Competitor OKX Warns Users Against Transfers
+As US Moves to Cut Off MEXC, Competitor OKX Warns Users Against Transfers
+As US Moves to Cut Off MEXC, Competitor OKX Warns Users Against Transfers
+As US Moves to Cut Off MEXC, Competitor OKX Warns Users Against Transfers
+As US Moves to Cut Off MEXC, Competitor OKX Warns Users Against Transfers
+As US Moves to Cut Off MEXC, Competitor OKX Warns Users Against Transfers
+Monday, 09/11/2026 | 08:21 GMT
+CFI Gets Preliminary Dubai Approval for Its Crypto Brokerage Arm
+CFI Gets Preliminary Dubai Approval for Its Crypto Brokerage Arm
+CFI Gets Preliminary Dubai Approval for Its Crypto Brokerage Arm
+CFI Gets Preliminary Dubai Approval for Its Crypto Brokerage Arm
+CFI Gets Preliminary Dubai Approval for Its Crypto Brokerage Arm
+CFI Gets Preliminary Dubai Approval for Its Crypto Brokerage Arm
+CFI Gets Preliminary Dubai Approval for Its Crypto Brokerage Arm
+CFI Gets Preliminary Dubai Approval for Its Crypto Brokerage Arm
+CFI Gets Preliminary Dubai Approval for Its Crypto Brokerage Arm
+CFI Gets Preliminary Dubai Approval for Its Crypto Brokerage Arm
+Monday, 09/11/2026 | 07:18 GMT
+Crypto Market Value Jumped 40% in Q3, but Retail Spot Trading Didn’t Follow
+Crypto Market Value Jumped 40% in Q3, but Retail Spot Trading Didn’t Follow
+Monday, 16/11/2026 | 21:40 GMT
+Coincheck Scraps Aplo Brokerage in $18.8M Reversal, Folding Tech into 3iQ
+Coincheck Scraps Aplo Brokerage in $18.8M Reversal, Folding Tech into 3iQ
+Friday, 13/11/2026 | 17:58 GMT
+Kraken Parent Payward Breaks Trading Reliance as Services and Custody Drive Q3 Margin
+Kraken Parent Payward Breaks Trading Reliance as Services and Custody Drive Q3 Margin
+Friday, 13/11/2026 | 15:21 GMT
+STS Digital Takes Its Crypto Options Desk Into Tokenized Stocks and Gold
+STS Digital Takes Its Crypto Options Desk Into Tokenized Stocks and Gold
+Wednesday, 11/11/2026 | 11:00 GMT
+Featured Videos
+MetroTrade Taps Kraken’s Parent for Tech; Kalshi Bought a Broker
+MetroTrade Taps Kraken’s Parent for Tech; Kalshi Bought a Broker
+MetroTrade Taps Kraken’s Parent for Tech; Kalshi Bought a Broker
+MetroTrade Taps Kraken’s Parent for Tech; Kalshi Bought a Broker
+Today is Tuesday, the 17th of November 2026, and these are our main stories. MetroTrade relaunches its US futures brokerage on technology from Kraken’s parent. Kalshi buys a broker ahead of stock trading. The FCA reports rising innovation applications.
+Today is Tuesday, the 17th of November 2026, and these are our main stories. MetroTrade relaunches its US futures brokerage on technology from Kraken’s parent. Kalshi buys a broker ahead of stock trading. The FCA reports rising innovation applications.
+Today is Tuesday, the 17th of November 2026, and these are our main stories. MetroTrade relaunches its US futures brokerage on technology from Kraken’s parent. Kalshi buys a broker ahead of stock trading. The FCA reports rising innovation applications.
+Today is Tuesday, the 17th of November 2026, and these are our main stories. MetroTrade relaunches its US futures brokerage on technology from Kraken’s parent. Kalshi buys a broker ahead of stock trading. The FCA reports rising innovation applications.
+More Videos
+eToro Plans Fresh Layoffs; IG to Close Offices in Three European Countries
+eToro Plans Fresh Layoffs; IG to Close Offices in Three European Countries
+eToro Plans Fresh Layoffs; IG to Close Offices in Three European Countries
+eToro Plans Fresh Layoffs; IG to Close Offices in Three European Countries
+eToro Plans Fresh Layoffs; IG to Close Offices in Three European Countries
+eToro Plans Fresh Layoffs; IG to Close Offices in Three European Countries
+Today is Monday, the 16th of November 2026, and these are our main stories. eToro is reportedly planning a second round of layoffs; IG Group is closing three European offices and XTB's share of Polish brokerage accounts climbs.
+Today is Monday, the 16th of November 2026, and these are our main stories. eToro is reportedly planning a second round of layoffs; IG Group is closing three European offices and XTB's share of Polish brokerage accounts climbs.
+Today is Monday, the 16th of November 2026, and these are our main stories. eToro is reportedly planning a second round of layoffs; IG Group is closing three European offices and XTB's share of Polish brokerage accounts climbs.
+Today is Monday, the 16th of November 2026, and these are our main stories. eToro is reportedly planning a second round of layoffs; IG Group is closing three European offices and XTB's share of Polish brokerage accounts climbs.
+Today is Monday, the 16th of November 2026, and these are our main stories. eToro is reportedly planning a second round of layoffs; IG Group is closing three European offices and XTB's share of Polish brokerage accounts climbs.
+Today is Monday, the 16th of November 2026, and these are our main stories. eToro is reportedly planning a second round of layoffs; IG Group is closing three European offices and XTB's share of Polish brokerage accounts climbs.
+FTMO Plans 300 Hires; Tradeify Partners with Inter Miami
+FTMO Plans 300 Hires; Tradeify Partners with Inter Miami
+FTMO Plans 300 Hires; Tradeify Partners with Inter Miami
+FTMO Plans 300 Hires; Tradeify Partners with Inter Miami
+FTMO Plans 300 Hires; Tradeify Partners with Inter Miami
+FTMO Plans 300 Hires; Tradeify Partners with Inter Miami
+Today’s financial news recap covers FTMO plans 300 hires, its founders discuss futures and a possible listing, Tradeify partners with Inter Miami, and futures prop margins come under pressure.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers FTMO plans 300 hires, its founders discuss futures and a possible listing, Tradeify partners with Inter Miami, and futures prop margins come under pressure.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers FTMO plans 300 hires, its founders discuss futures and a possible listing, Tradeify partners with Inter Miami, and futures prop margins come under pressure.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers FTMO plans 300 hires, its founders discuss futures and a possible listing, Tradeify partners with Inter Miami, and futures prop margins come under pressure.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers FTMO plans 300 hires, its founders discuss futures and a possible listing, Tradeify partners with Inter Miami, and futures prop margins come under pressure.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers FTMO plans 300 hires, its founders discuss futures and a possible listing, Tradeify partners with Inter Miami, and futures prop margins come under pressure.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+IG Group Wins Court Approval; eToro Expands Australian Futures Offering
+IG Group Wins Court Approval; eToro Expands Australian Futures Offering
+IG Group Wins Court Approval; eToro Expands Australian Futures Offering
+IG Group Wins Court Approval; eToro Expands Australian Futures Offering
+IG Group Wins Court Approval; eToro Expands Australian Futures Offering
+IG Group Wins Court Approval; eToro Expands Australian Futures Offering
+Today’s financial news recap covers IG Group secures court approval for its Jersey move, eToro adds 65 futures contracts in Australia, Moomoo prepares to offer binary stock options, and the SEC backs the CFTC in a dispute over perpetual futures.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers IG Group secures court approval for its Jersey move, eToro adds 65 futures contracts in Australia, Moomoo prepares to offer binary stock options, and the SEC backs the CFTC in a dispute over perpetual futures.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers IG Group secures court approval for its Jersey move, eToro adds 65 futures contracts in Australia, Moomoo prepares to offer binary stock options, and the SEC backs the CFTC in a dispute over perpetual futures.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers IG Group secures court approval for its Jersey move, eToro adds 65 futures contracts in Australia, Moomoo prepares to offer binary stock options, and the SEC backs the CFTC in a dispute over perpetual futures.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers IG Group secures court approval for its Jersey move, eToro adds 65 futures contracts in Australia, Moomoo prepares to offer binary stock options, and the SEC backs the CFTC in a dispute over perpetual futures.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers IG Group secures court approval for its Jersey move, eToro adds 65 futures contracts in Australia, Moomoo prepares to offer binary stock options, and the SEC backs the CFTC in a dispute over perpetual futures.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+eToro Expands in Argentina; Revolut Receives Israeli Banking Licence
+eToro Expands in Argentina; Revolut Receives Israeli Banking Licence
+eToro Expands in Argentina; Revolut Receives Israeli Banking Licence
+eToro Expands in Argentina; Revolut Receives Israeli Banking Licence
+eToro Expands in Argentina; Revolut Receives Israeli Banking Licence
+eToro Expands in Argentina; Revolut Receives Israeli Banking Licence
+Today’s financial news recap covers eToro's Latin American expansion, a sharp fall in crypto trading, Revolut's Israeli banking licence, and South Korea's record bond-rigging fine.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers eToro's Latin American expansion, a sharp fall in crypto trading, Revolut's Israeli banking licence, and South Korea's record bond-rigging fine.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers eToro's Latin American expansion, a sharp fall in crypto trading, Revolut's Israeli banking licence, and South Korea's record bond-rigging fine.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers eToro's Latin American expansion, a sharp fall in crypto trading, Revolut's Israeli banking licence, and South Korea's record bond-rigging fine.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers eToro's Latin American expansion, a sharp fall in crypto trading, Revolut's Israeli banking licence, and South Korea's record bond-rigging fine.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+Today’s financial news recap covers eToro's Latin American expansion, a sharp fall in crypto trading, Revolut's Israeli banking licence, and South Korea's record bond-rigging fine.
+Finance Magnates Daily Recap brings you the latest news from forex and CFD brokers, fintech, payments, cryptocurrency, digital assets, trading platforms, financial regulation and global markets.
+Get the key company news, executive moves, deals, regulatory updates and market developments of the day, in just a few minutes. New episodes published every weekday.
+Read more: https://www.financemagnates.com
+#FinanceMagnates #ForexNews #FintechNews
+See all videos
+ADVERTISEMENT
+About Us
+Advertise with Us
+Write for Us
+Daily Brief on Spotify
+RSS
+Contact Us
+Latest News
+Directory
+Academy
+Events
+Free Fintech Webinars
+Market News by investingLive.com
+Follow Us
+Looking for a Service?
+We can help
+Get our newsletter
+Looking for a Service?
+We can help
+Finance Magnates is a global B2B provider of multi-asset trading news,
+research and events with special focus on electronic trading, banking, and
+investing. Copyright © 2026 FINANCE MAGNATES CY LIMITED,
+registration number HE 433362, Apostolou Andrea 11, Hyper Tower, 3rd
+Floor, 4007 Mesa Geitonia, Limassol, Cyprus. All rights
+reserved. For more information, read our
+Terms, Cookies
+and
+Privacy Notice
+Manage Cookies
+! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | }

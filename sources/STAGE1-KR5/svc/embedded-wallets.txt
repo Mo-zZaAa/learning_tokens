@@ -1,0 +1,174 @@
+
+Payward Services | Embedded Wallets
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+Crypto TradingCrypto TradingOn/off-rampsOn/off-rampsTokenized EquitiesTokenized EquitiesDerivatives InfrastructureDerivatives InfrastructureStaking & YieldStaking & YieldIndices & DataIndices & DataCard Issuance & PaymentsCard Issuance & PaymentsEmbedded WalletsEmbedded Wallets
+Crypto TradingCrypto TradingOn/off-rampsOn/off-rampsTokenized EquitiesTokenized EquitiesDerivatives InfrastructureDerivatives InfrastructureStaking & YieldStaking & YieldIndices & DataIndices & DataCard Issuance & PaymentsCard Issuance & PaymentsEmbedded WalletsEmbedded Wallets
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Embedded Wallets
+Your product. Their keys. Zero wallet infrastructure to build.
+Payward Embedded Wallets puts non-custodial wallets inside your product, under your brand. TEE-based signing, a plug-in integration layer, and a battle-tested SDK, all proven across more than 60 million wallets. Your users get true self-custody. You get to market in weeks.
+Get in touch with sales
+60M+
+Wallets powered
+$10B+
+Stablecoin volume
+Ship wallets in weeks, not quarters
+Skip the year of key-management engineering. The Payward Embedded Wallets SDK handles generation, signing, and recovery out of the box, so your team builds the product, not the plumbing.
+Give users self-custody, without becoming a custodian
+Your users hold their own keys, secured by TEE-based signing. You deliver full onchain experiences with no custody burden on your books.
+Turn wallets into revenue
+Every wallet holds assets, and held assets can earn. Layer onchain earning and stablecoin payments onto your wallets to open new revenue streams and give users a reason to keep their funds with you.
+Complete your stack with one integration
+Wallets sit alongside crypto trading, custody, on/off-ramps, tokenized equities, staking, and card issuance. One API. One relationship. Nothing left to stitch together.
+Key capabilities
+TEE-based signing
+Keys are generated and used inside trusted execution environments. Non-custodial by design: your users control their assets, always.
+Plug-in integration
+Drop wallet creation and signing flows straight into your product. Your brand, your UX, live fast.
+Proven at scale
+The infrastructure behind 60 million-plus wallets and over $10 billion in stablecoin volume. Not a bet. A track record.
+Onchain by default
+Wallets plug directly into onchain earning, stablecoin payments, and tokenized assets across supported networks.
+One platform, full stack
+Combine wallets with Payward Services trading, custody, ramps, and yield. A single integrated stack where others need five vendors.
+Learn more
+Full product details, documentation, and integration resources are available through Payward Services.
+Read the documentation
+Read the documentation
+Explore the API reference
+Explore the API reference
+Frequently asked questions
+What is the difference between embedded wallets and custody?
+With Payward Embedded Wallets, your users hold their own keys, which are generated and used inside trusted execution environments, so you carry no custody burden on your books. If you'd rather we hold assets for your users, Payward Services Custody provides segregated custody for every asset we support. See coverage.
+Which assets and networks can I offer with embedded wallets?
+Embedded Wallets connect to onchain features across supported networks. Across Payward Services, stablecoins such as USDC and USDT are supported on several networks, alongside major cryptocurrencies and tokenized equities (xStocks). Coverage varies by product and is subject to regulatory requirements in each jurisdiction, so confirm your countries and assets with the Payward team. Details are in the coverage overview.
+Can my users earn yield on the assets in their wallets?
+Yes, where the asset and the user's country are eligible. Wallet balances can earn through our staking and yield products. See Staking & Yield.
+Can we test an integration before going live?
+Yes. You get a sandbox from day one. It's fully separate from production and uses test balances instead of real funds, so your team can build and run end-to-end flows before launch. Ask us how to test wallet-specific flows. When you're ready, we enable production access. See Environments.
+Get in touch
+Ready to embed wallets into your product?
+Talk to our team.
+*First name
+*Last name
+*Please enter a valid business email address
+*Company name
+*Country of business
+Type of business
+🇦🇫
+Phone number
+Assets amount
+Monthly trading volume
+Assets of interest
+Areas of interest
+How did you hear about us?
+Your message
+*By continuing I agree to the Terms of Service & Privacy Policy
+Send
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

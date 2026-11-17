@@ -1,0 +1,2243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/delete-export-report</loc>
+    <lastmod>2026-10-27T13:47:24.625Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/get-account-balance</loc>
+    <lastmod>2026-10-27T13:47:24.456Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/get-api-key-info</loc>
+    <lastmod>2026-10-27T13:47:24.635Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/get-closed-orders</loc>
+    <lastmod>2026-10-27T13:47:24.505Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/get-credit-lines</loc>
+    <lastmod>2026-10-27T13:47:24.476Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/get-export-report-status</loc>
+    <lastmod>2026-10-27T13:47:24.603Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/get-extended-balance</loc>
+    <lastmod>2026-10-27T13:47:24.466Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/get-ledgers-info</loc>
+    <lastmod>2026-10-27T13:47:24.565Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/get-open-orders</loc>
+    <lastmod>2026-10-27T13:47:24.496Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/get-open-positions</loc>
+    <lastmod>2026-10-27T13:47:24.555Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/get-order-amends</loc>
+    <lastmod>2026-10-27T13:47:24.524Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/get-trade-balance</loc>
+    <lastmod>2026-10-27T13:47:24.486Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/get-trade-volume</loc>
+    <lastmod>2026-10-27T13:47:24.583Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/get-trades-history</loc>
+    <lastmod>2026-10-27T13:47:24.534Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/list-wallet-accounts</loc>
+    <lastmod>2026-10-27T13:47:24.645Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/query-ledgers</loc>
+    <lastmod>2026-10-27T13:47:24.574Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/query-orders-info</loc>
+    <lastmod>2026-10-27T13:47:24.515Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/query-trades-info</loc>
+    <lastmod>2026-10-27T13:47:24.544Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/request-export-report</loc>
+    <lastmod>2026-10-27T13:47:24.593Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-data/retrieve-data-export</loc>
+    <lastmod>2026-10-27T13:47:24.614Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-history/account-log-csv</loc>
+    <lastmod>2026-09-08T12:38:31.359Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-history/get-account-log</loc>
+    <lastmod>2026-09-08T12:38:31.349Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-history/get-execution-events</loc>
+    <lastmod>2026-09-08T12:38:31.315Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-history/get-order-events</loc>
+    <lastmod>2026-09-08T12:38:31.323Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-history/get-position-update-events</loc>
+    <lastmod>2026-09-08T12:38:31.338Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-history/get-trigger-events</loc>
+    <lastmod>2026-09-08T12:38:31.330Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-information/calculate-portfolio-margin-pnl-and-greeks</loc>
+    <lastmod>2026-11-09T11:24:08.582Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-information/get-open-positions</loc>
+    <lastmod>2026-11-09T11:24:08.540Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-information/get-portfolio-margin-parameters</loc>
+    <lastmod>2026-11-09T11:24:08.567Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-information/get-position-percentile-of-unwind-queue</loc>
+    <lastmod>2026-11-09T11:24:08.553Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/account-information/get-wallets</loc>
+    <lastmod>2026-11-09T11:24:08.526Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/affiliate/get-cpa-progress</loc>
+    <lastmod>2026-10-23T09:43:29.322Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/affiliate/get-daily-activity</loc>
+    <lastmod>2026-10-23T09:43:29.311Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/affiliate/get-payout-history</loc>
+    <lastmod>2026-10-23T09:43:29.339Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/algo-trading/add-strategy</loc>
+    <lastmod>2026-10-27T13:47:24.749Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/algo-trading/cancel-strategy</loc>
+    <lastmod>2026-10-27T13:47:24.764Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/algo-trading/get-closed-strategies</loc>
+    <lastmod>2026-10-27T13:47:24.838Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/algo-trading/get-open-strategies</loc>
+    <lastmod>2026-10-27T13:47:24.806Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/algo-trading/query-strategies</loc>
+    <lastmod>2026-10-27T13:47:24.823Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/analytics/get-liquidity-pool-statistic</loc>
+    <lastmod>2026-06-11T06:03:46.202Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/analytics/market-analytics</loc>
+    <lastmod>2026-06-11T06:03:46.212Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/api-keys/check-v3-api-key</loc>
+    <lastmod>2026-11-09T11:24:09.292Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/api-user-keys/create-prime-api-user-key</loc>
+    <lastmod>2026-11-04T16:04:24.713Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/api-user-keys/delete-prime-api-user-key</loc>
+    <lastmod>2026-11-04T16:04:24.767Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/api-user-keys/list-prime-api-user-keys</loc>
+    <lastmod>2026-11-04T16:04:24.732Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/api-user-keys/update-prime-api-user-key</loc>
+    <lastmod>2026-11-04T16:04:24.749Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/api-users/create-prime-api-user</loc>
+    <lastmod>2026-11-04T16:04:24.619Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/api-users/get-prime-api-user</loc>
+    <lastmod>2026-11-04T16:04:24.637Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/api-users/list-prime-api-users</loc>
+    <lastmod>2026-11-04T16:04:24.654Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/api-users/update-prime-api-user</loc>
+    <lastmod>2026-11-04T16:04:24.672Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/api-users/update-prime-api-user-roles</loc>
+    <lastmod>2026-11-04T16:04:24.694Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/assignment-program/add-assignment-preference</loc>
+    <lastmod>2026-11-09T11:24:08.938Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/assignment-program/deletes-assignment-preference</loc>
+    <lastmod>2026-11-09T11:24:08.955Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/assignment-program/list-assignment-preferences-history</loc>
+    <lastmod>2026-11-09T11:24:08.972Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/assignment-program/list-assignment-programs</loc>
+    <lastmod>2026-11-09T11:24:08.920Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/candles/market-candles</loc>
+    <lastmod>2026-06-11T06:03:46.193Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/candles/markets</loc>
+    <lastmod>2026-06-11T06:03:46.172Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/candles/resolutions</loc>
+    <lastmod>2026-06-11T06:03:46.183Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/candles/tick-types</loc>
+    <lastmod>2026-06-11T06:03:46.161Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/create-address</loc>
+    <lastmod>2026-11-05T14:58:57.134Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/create-task</loc>
+    <lastmod>2026-11-05T14:58:57.221Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/create-withdrawal-fee-quote</loc>
+    <lastmod>2026-11-05T14:58:57.197Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/get-deposit-info</loc>
+    <lastmod>2026-11-05T14:58:57.148Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/get-task-activity-by-id</loc>
+    <lastmod>2026-11-05T14:58:57.261Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/get-task-by-id</loc>
+    <lastmod>2026-11-05T14:58:57.248Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/get-transaction</loc>
+    <lastmod>2026-11-05T14:58:57.300Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/get-vault</loc>
+    <lastmod>2026-11-05T14:58:57.052Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/get-vault-balance</loc>
+    <lastmod>2026-11-05T14:58:57.067Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/get-withdrawal-info</loc>
+    <lastmod>2026-11-05T14:58:57.185Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/list-assets</loc>
+    <lastmod>2026-11-05T14:58:56.997Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/list-balances</loc>
+    <lastmod>2026-11-05T14:58:57.026Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/list-deposit-addresses</loc>
+    <lastmod>2026-11-05T14:58:57.121Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/list-deposit-methods</loc>
+    <lastmod>2026-11-05T14:58:57.107Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/list-organizations</loc>
+    <lastmod>2026-11-05T14:58:57.014Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/list-task-activities</loc>
+    <lastmod>2026-11-05T14:58:57.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/list-tasks</loc>
+    <lastmod>2026-11-05T14:58:57.209Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/list-transactions</loc>
+    <lastmod>2026-11-05T14:58:57.287Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/list-vault-asset-balances</loc>
+    <lastmod>2026-11-05T14:58:57.080Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/list-vault-policies</loc>
+    <lastmod>2026-11-05T14:58:57.094Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/list-vaults</loc>
+    <lastmod>2026-11-05T14:58:57.038Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/list-whitelist-addresses</loc>
+    <lastmod>2026-11-05T14:58:57.160Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/list-withdrawal-methods</loc>
+    <lastmod>2026-11-05T14:58:57.173Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/custody-external-api/review-task</loc>
+    <lastmod>2026-11-05T14:58:57.273Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/earn/allocate-earn-funds</loc>
+    <lastmod>2026-10-27T13:47:25.110Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/earn/deallocate-earn-funds</loc>
+    <lastmod>2026-10-27T13:47:25.118Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/earn/get-allocation-status</loc>
+    <lastmod>2026-10-27T13:47:25.128Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/earn/get-deallocation-status</loc>
+    <lastmod>2026-10-27T13:47:25.138Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/earn/list-earn-allocations</loc>
+    <lastmod>2026-10-27T13:47:25.101Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/earn/list-earn-strategies</loc>
+    <lastmod>2026-10-27T13:47:25.092Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/fee-schedules/get-fee-schedule-volumes</loc>
+    <lastmod>2026-11-09T11:24:08.676Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/fee-schedules/get-fee-schedules</loc>
+    <lastmod>2026-11-09T11:24:08.662Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/calculate-funding-fees</loc>
+    <lastmod>2026-10-27T13:47:24.847Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/claim-funding-deposit-address</loc>
+    <lastmod>2026-10-27T13:47:24.855Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/create-funding-address</loc>
+    <lastmod>2026-10-27T13:47:24.864Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/create-funding-withdrawal</loc>
+    <lastmod>2026-10-27T13:47:24.873Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/delete-funding-address</loc>
+    <lastmod>2026-10-27T13:47:24.882Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/list-funding-addresses</loc>
+    <lastmod>2026-10-27T13:47:24.890Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/list-funding-assets</loc>
+    <lastmod>2026-10-27T13:47:24.899Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/list-funding-claimed-addresses-v2</loc>
+    <lastmod>2026-10-27T13:47:24.909Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/list-funding-deposit-limits</loc>
+    <lastmod>2026-10-27T13:47:24.918Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/list-funding-deposits</loc>
+    <lastmod>2026-10-27T13:47:24.927Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/list-funding-methods</loc>
+    <lastmod>2026-10-27T13:47:24.936Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/list-funding-networks</loc>
+    <lastmod>2026-10-27T13:47:24.947Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/list-funding-withdrawal-limits</loc>
+    <lastmod>2026-10-27T13:47:24.957Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/list-funding-withdrawals</loc>
+    <lastmod>2026-10-27T13:47:24.966Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding-beta/update-funding-address</loc>
+    <lastmod>2026-10-27T13:47:24.974Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding/get-deposit-addresses</loc>
+    <lastmod>2026-10-27T13:47:24.992Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding/get-deposit-methods</loc>
+    <lastmod>2026-10-27T13:47:24.983Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding/get-status-of-recent-deposits</loc>
+    <lastmod>2026-10-27T13:47:25.001Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding/get-status-of-recent-withdrawals</loc>
+    <lastmod>2026-10-27T13:47:25.048Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding/get-withdrawal-addresses</loc>
+    <lastmod>2026-10-27T13:47:25.023Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding/get-withdrawal-information</loc>
+    <lastmod>2026-10-27T13:47:25.031Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding/get-withdrawal-methods</loc>
+    <lastmod>2026-10-27T13:47:25.012Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding/request-wallet-transfer</loc>
+    <lastmod>2026-10-27T13:47:25.065Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding/request-withdrawal-cancellation</loc>
+    <lastmod>2026-10-27T13:47:25.057Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/funding/withdraw-funds</loc>
+    <lastmod>2026-10-27T13:47:25.040Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/general/get-notifications</loc>
+    <lastmod>2026-11-09T11:24:09.137Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/historical-data/get-your-fills</loc>
+    <lastmod>2026-11-09T11:24:08.692Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/historical-funding-rates/historical-funding-rates</loc>
+    <lastmod>2026-11-09T11:24:08.707Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/instrument-details/get-instrument-status</loc>
+    <lastmod>2026-11-09T11:24:08.398Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/instrument-details/get-instrument-status-list</loc>
+    <lastmod>2026-11-09T11:24:08.383Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/instrument-details/get-instruments</loc>
+    <lastmod>2026-11-09T11:24:08.356Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/instrument-details/get-trading-instruments</loc>
+    <lastmod>2026-11-09T11:24:08.369Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-asset-info</loc>
+    <lastmod>2026-10-27T13:47:24.371Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-grouped-order-book</loc>
+    <lastmod>2026-10-27T13:47:24.426Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-maintenance-schedule</loc>
+    <lastmod>2026-10-27T13:47:24.362Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-ohlc-data</loc>
+    <lastmod>2026-10-27T13:47:24.399Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-order-book</loc>
+    <lastmod>2026-10-27T13:47:24.409Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-orderbook</loc>
+    <lastmod>2026-11-09T11:24:08.329Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-recent-spreads</loc>
+    <lastmod>2026-10-27T13:47:24.445Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-recent-trades</loc>
+    <lastmod>2026-10-27T13:47:24.435Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-server-time</loc>
+    <lastmod>2026-10-27T13:47:24.344Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-system-status</loc>
+    <lastmod>2026-10-27T13:47:24.353Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-ticker-by-symbol</loc>
+    <lastmod>2026-11-09T11:24:08.314Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-ticker-information</loc>
+    <lastmod>2026-10-27T13:47:24.390Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-tickers</loc>
+    <lastmod>2026-11-09T11:24:08.299Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-tradable-asset-pairs</loc>
+    <lastmod>2026-10-27T13:47:24.381Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/get-trade-history</loc>
+    <lastmod>2026-11-09T11:24:08.343Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-data/query-l3-order-book</loc>
+    <lastmod>2026-10-27T13:47:24.417Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-history/get-public-execution-events</loc>
+    <lastmod>2026-09-08T12:38:31.366Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-history/get-public-mark-price-events</loc>
+    <lastmod>2026-09-08T12:38:31.381Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/market-history/get-public-order-events</loc>
+    <lastmod>2026-09-08T12:38:31.374Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/multi-collateral/get-leverage-settings</loc>
+    <lastmod>2026-11-09T11:24:08.627Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/multi-collateral/get-pnl-currency-preferences</loc>
+    <lastmod>2026-11-09T11:24:08.595Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/multi-collateral/set-leverage-settings</loc>
+    <lastmod>2026-11-09T11:24:08.648Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/multi-collateral/set-pnl-currency-preference</loc>
+    <lastmod>2026-11-09T11:24:08.609Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/order-management/batch-order-management</loc>
+    <lastmod>2026-11-09T11:24:08.487Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/order-management/cancel-all-orders</loc>
+    <lastmod>2026-11-09T11:24:08.459Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/order-management/cancel-order</loc>
+    <lastmod>2026-11-09T11:24:08.446Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/order-management/dead-mans-switch</loc>
+    <lastmod>2026-11-09T11:24:08.474Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/order-management/edit-order</loc>
+    <lastmod>2026-11-09T11:24:08.426Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/order-management/get-open-orders</loc>
+    <lastmod>2026-11-09T11:24:08.501Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/order-management/get-specific-orders-status</loc>
+    <lastmod>2026-11-09T11:24:08.513Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/order-management/send-order</loc>
+    <lastmod>2026-11-09T11:24:08.411Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/paylink/create-a-paylink-code</loc>
+    <lastmod>2026-06-11T06:03:47.214Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/paylink/get-paylink-configuration</loc>
+    <lastmod>2026-06-11T06:03:47.233Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/paylink/get-the-generated-paylink-code</loc>
+    <lastmod>2026-06-11T06:03:47.224Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/quotes/check-otc-eligibility</loc>
+    <lastmod>2026-10-09T14:24:17.385Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/quotes/create-otc-quote</loc>
+    <lastmod>2026-10-09T14:24:17.317Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/quotes/get-otc-active-quotes</loc>
+    <lastmod>2026-10-09T14:24:17.353Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/quotes/get-otc-exposures</loc>
+    <lastmod>2026-10-09T14:24:17.375Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/quotes/get-otc-historical-quotes</loc>
+    <lastmod>2026-10-09T14:24:17.364Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/quotes/get-otc-pairs</loc>
+    <lastmod>2026-10-09T14:24:17.341Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/quotes/update-otc-quote</loc>
+    <lastmod>2026-10-09T14:24:17.329Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/request/cancel-a-payment-request</loc>
+    <lastmod>2026-06-11T06:03:47.179Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/request/create-a-payment-request</loc>
+    <lastmod>2026-06-11T06:03:47.165Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/rfqs/accept-an-offer-on-an-open-rfq</loc>
+    <lastmod>2026-11-09T11:24:09.123Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/rfqs/cancel-an-open-rfq</loc>
+    <lastmod>2026-11-09T11:24:09.110Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/rfqs/cancel-open-offer-on-open-rfq</loc>
+    <lastmod>2026-11-09T11:24:09.067Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/rfqs/create-a-new-rfq</loc>
+    <lastmod>2026-11-09T11:24:09.097Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/rfqs/list-all-open-rfqs</loc>
+    <lastmod>2026-11-09T11:24:08.990Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/rfqs/list-offers-placed-by-the-account-on-closed-rfqs</loc>
+    <lastmod>2026-11-09T11:24:09.039Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/rfqs/list-open-offers-on-open-rfqs</loc>
+    <lastmod>2026-11-09T11:24:09.024Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/rfqs/list-open-rfqs-for-account</loc>
+    <lastmod>2026-11-09T11:24:09.082Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/rfqs/place-new-offer-on-an-open-rfq</loc>
+    <lastmod>2026-11-09T11:24:09.054Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/rfqs/retrieve-a-single-rfq-open-or-recently-closed</loc>
+    <lastmod>2026-11-09T11:24:09.008Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/settlement/create-prime-settlement-batch</loc>
+    <lastmod>2026-11-04T16:04:24.786Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/settlement/get-prime-settlement-batch</loc>
+    <lastmod>2026-11-04T16:04:24.797Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/settlement/list-prime-settlement-batches</loc>
+    <lastmod>2026-11-04T16:04:24.815Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/settlement/settle-prime-settlement-batch-asset</loc>
+    <lastmod>2026-11-04T16:04:24.831Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/subaccounts/account-transfer</loc>
+    <lastmod>2026-10-27T13:47:25.083Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/subaccounts/check-subaccount-trading-status</loc>
+    <lastmod>2026-11-09T11:24:08.817Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/subaccounts/create-subaccount</loc>
+    <lastmod>2026-10-27T13:47:25.074Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/subaccounts/get-subaccounts</loc>
+    <lastmod>2026-11-09T11:24:08.800Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/subaccounts/update-subaccount-trading-status</loc>
+    <lastmod>2026-11-09T11:24:08.833Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trades/get-otc-options-trade-history</loc>
+    <lastmod>2026-10-09T14:24:17.419Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trades/get-otc-spot-trade-history</loc>
+    <lastmod>2026-10-09T14:24:17.398Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trading-settings/clear-the-off-book-max-leverage-cap</loc>
+    <lastmod>2026-11-09T11:24:08.785Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trading-settings/get-self-trade-strategy</loc>
+    <lastmod>2026-11-09T11:24:08.722Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trading-settings/get-the-off-book-max-leverage-cap</loc>
+    <lastmod>2026-11-09T11:24:08.753Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trading-settings/set-the-off-book-max-leverage-cap</loc>
+    <lastmod>2026-11-09T11:24:08.768Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trading-settings/update-self-trade-strategy</loc>
+    <lastmod>2026-11-09T11:24:08.736Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trading/add-order</loc>
+    <lastmod>2026-10-27T13:47:24.656Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trading/add-order-batch</loc>
+    <lastmod>2026-10-27T13:47:24.714Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trading/amend-order</loc>
+    <lastmod>2026-10-27T13:47:24.666Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trading/cancel-all-orders</loc>
+    <lastmod>2026-10-27T13:47:24.694Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trading/cancel-all-orders-after-x</loc>
+    <lastmod>2026-10-27T13:47:24.704Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trading/cancel-order</loc>
+    <lastmod>2026-10-27T13:47:24.685Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trading/cancel-order-batch</loc>
+    <lastmod>2026-10-27T13:47:24.723Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trading/edit-order</loc>
+    <lastmod>2026-10-27T13:47:24.675Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/trading/get-websockets-token</loc>
+    <lastmod>2026-10-27T13:47:24.734Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/transfer/cancel-a-pay-transfer-or-an-unclaimed-paylink</loc>
+    <lastmod>2026-06-11T06:03:47.202Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/transfer/create-a-pay-transfer</loc>
+    <lastmod>2026-06-11T06:03:47.189Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/transfers/initiate-sub-account-transfer</loc>
+    <lastmod>2026-11-09T11:24:08.875Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/transfers/initiate-wallet-transfer</loc>
+    <lastmod>2026-11-09T11:24:08.857Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/transfers/initiate-withdrawal-to-spot-wallet</loc>
+    <lastmod>2026-11-09T11:24:08.901Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/transparency/post-trade-data</loc>
+    <lastmod>2026-10-27T13:47:25.158Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/api-reference/transparency/pre-trade-data</loc>
+    <lastmod>2026-10-27T13:47:25.148Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/futures-websocket</loc>
+    <lastmod>2026-11-12T17:35:54.814Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/futures-websocket/account_log</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/futures-websocket/balances</loc>
+    <lastmod>2026-11-12T17:35:54.823Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/futures-websocket/book</loc>
+    <lastmod>2026-11-12T17:35:54.816Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/futures-websocket/challenge</loc>
+    <lastmod>2026-11-12T17:35:54.812Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/futures-websocket/fills</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/futures-websocket/heartbeat</loc>
+    <lastmod>2026-11-12T17:35:54.813Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/futures-websocket/notifications</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/futures-websocket/open_orders</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/futures-websocket/open_orders_verbose</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/futures-websocket/open_position</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/futures-websocket/ticker</loc>
+    <lastmod>2026-11-12T17:35:54.818Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/futures-websocket/ticker_lite</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/futures-websocket/trade</loc>
+    <lastmod>2026-11-12T17:35:54.822Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/overview</loc>
+    <lastmod>2026-10-27T13:47:35.024Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe</loc>
+    <lastmod>2026-11-12T15:11:30.901Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/admin-heartbeat</loc>
+    <lastmod>2026-11-12T15:11:30.894Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/instrument-definition-incremental</loc>
+    <lastmod>2026-11-12T15:11:30.896Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/instrument-definition-snapshot</loc>
+    <lastmod>2026-11-12T15:11:30.897Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/instrument-status-incremental</loc>
+    <lastmod>2026-11-12T15:11:30.898Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/market-data-types</loc>
+    <lastmod>2026-11-12T15:11:30.894Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/negotiate</loc>
+    <lastmod>2026-11-12T15:11:30.895Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/negotiation-reject</loc>
+    <lastmod>2026-11-12T15:11:30.887Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/negotiation-response</loc>
+    <lastmod>2026-11-12T15:11:30.895Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/order-book-incremental</loc>
+    <lastmod>2026-11-12T15:11:30.897Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/order-book-snapshot</loc>
+    <lastmod>2026-11-12T15:11:30.898Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/session-types</loc>
+    <lastmod>2026-11-12T15:11:30.888Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/subscriber-heartbeat</loc>
+    <lastmod>2026-11-12T15:11:30.890Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/subscription-request</loc>
+    <lastmod>2026-11-12T15:11:30.902Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/subscription-response</loc>
+    <lastmod>2026-11-12T15:11:30.887Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/summary-incremental</loc>
+    <lastmod>2026-11-12T15:11:30.889Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/summary-snapshot</loc>
+    <lastmod>2026-11-12T15:11:30.889Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/terminate</loc>
+    <lastmod>2026-11-12T15:11:30.891Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/trade-incremental</loc>
+    <lastmod>2026-11-12T15:11:30.891Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/trading-session-status-incremental</loc>
+    <lastmod>2026-11-12T15:11:30.892Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/sbe/trading-session-status-snapshot</loc>
+    <lastmod>2026-11-12T15:11:30.897Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/addorder</loc>
+    <lastmod>2026-06-11T06:04:02.888Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/amendorder</loc>
+    <lastmod>2026-09-07T12:19:51.011Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/book</loc>
+    <lastmod>2026-06-11T06:04:02.887Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/cancelall</loc>
+    <lastmod>2026-06-11T06:04:02.884Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/cancelallordersafter</loc>
+    <lastmod>2026-06-11T06:04:02.885Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/cancelorder</loc>
+    <lastmod>2026-06-11T06:04:02.885Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/editorder</loc>
+    <lastmod>2026-06-11T06:04:02.886Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/heartbeat</loc>
+    <lastmod>2026-06-11T06:04:02.883Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/ohlc</loc>
+    <lastmod>2026-06-11T06:04:02.882Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/openorders</loc>
+    <lastmod>2026-09-07T12:19:51.013Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/owntrades</loc>
+    <lastmod>2026-09-07T12:19:51.014Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/ping</loc>
+    <lastmod>2026-06-11T06:04:02.911Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/spread</loc>
+    <lastmod>2026-06-18T09:48:36.783Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/subscriptionstatus</loc>
+    <lastmod>2026-06-11T06:04:02.910Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/systemstatus</loc>
+    <lastmod>2026-06-11T06:04:02.908Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/ticker</loc>
+    <lastmod>2026-06-11T06:04:02.909Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/trade</loc>
+    <lastmod>2026-06-11T06:04:02.912Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v1/unsubscribe</loc>
+    <lastmod>2026-06-11T06:04:02.908Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/add_order</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/amend_order</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/balances</loc>
+    <lastmod>2026-09-07T12:19:51.017Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/batch_add</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/batch_cancel</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/book</loc>
+    <lastmod>2026-06-11T06:04:02.948Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/cancel_after</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/cancel_all</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/cancel_order</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/edit_order</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/executions</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/heartbeat</loc>
+    <lastmod>2026-06-11T06:04:02.976Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/instrument</loc>
+    <lastmod>2026-06-11T06:04:02.974Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/level3</loc>
+    <lastmod>2026-11-12T15:11:30.751Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/ohlc</loc>
+    <lastmod>2026-06-11T06:04:02.972Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/ping</loc>
+    <lastmod>2026-06-11T06:04:02.976Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/status</loc>
+    <lastmod>2026-09-03T06:34:46.876Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/ticker</loc>
+    <lastmod>2026-06-11T06:04:02.973Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/trade</loc>
+    <lastmod>2026-06-11T06:04:02.972Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix</loc>
+    <lastmod>2026-11-12T15:11:30.739Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2</loc>
+    <lastmod>2026-11-12T15:11:30.747Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/er</loc>
+    <lastmod>2026-11-12T15:11:30.748Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/header-trailer</loc>
+    <lastmod>2026-10-20T08:43:40.599Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/heartbeat</loc>
+    <lastmod>2026-10-20T08:43:40.600Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/logon</loc>
+    <lastmod>2026-11-12T15:11:30.742Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/logout</loc>
+    <lastmod>2026-10-20T08:43:40.599Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/nos</loc>
+    <lastmod>2026-11-12T15:11:30.748Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/ocj</loc>
+    <lastmod>2026-11-12T15:11:30.747Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/ocr</loc>
+    <lastmod>2026-11-12T15:11:30.746Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/ocrr</loc>
+    <lastmod>2026-11-12T15:11:30.750Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/omcr</loc>
+    <lastmod>2026-11-12T15:11:30.742Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/osr</loc>
+    <lastmod>2026-11-12T15:11:30.749Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/reject-business</loc>
+    <lastmod>2026-11-12T15:11:30.740Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/reject-session</loc>
+    <lastmod>2026-10-22T08:45:08.144Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/resend-request</loc>
+    <lastmod>2026-10-20T08:43:40.639Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/sequence-reset</loc>
+    <lastmod>2026-10-20T08:43:40.637Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix-v2/test-request</loc>
+    <lastmod>2026-10-20T08:43:40.601Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/er</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/header-trailer</loc>
+    <lastmod>2026-06-11T06:04:03.013Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/logon</loc>
+    <lastmod>2026-11-12T15:11:30.744Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/logout</loc>
+    <lastmod>2026-06-11T06:04:03.012Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/mdir</loc>
+    <lastmod>2026-06-11T06:04:03.014Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/mdr</loc>
+    <lastmod>2026-06-11T06:04:03.015Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/mdrr</loc>
+    <lastmod>2026-06-11T06:04:03.012Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/mdsfr</loc>
+    <lastmod>2026-06-11T06:04:03.017Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/news</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/nos</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/ocr</loc>
+    <lastmod>2026-06-11T06:04:03.010Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/ocrr</loc>
+    <lastmod>2026-06-11T06:04:03.066Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/omcr</loc>
+    <lastmod>2026-06-11T06:04:03.069Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/osr</loc>
+    <lastmod>2026-06-11T06:04:03.053Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/reject-business</loc>
+    <lastmod>2026-06-11T06:04:03.052Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/reject-session</loc>
+    <lastmod>2026-06-11T06:04:03.055Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/resend-request</loc>
+    <lastmod>2026-06-11T06:04:03.054Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/sequence-reset</loc>
+    <lastmod>2026-06-11T06:04:03.067Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/sl</loc>
+    <lastmod>2026-07-03T14:58:11.614Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/slr</loc>
+    <lastmod>2026-06-11T06:04:03.051Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/tss</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-fix/tssr</loc>
+    <lastmod>2026-09-03T06:41:11.727Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/add_order</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/amend_order</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/balances</loc>
+    <lastmod>2026-10-15T13:51:26.126Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/batch_add</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/batch_cancel</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/book</loc>
+    <lastmod>2026-06-19T10:47:48.233Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/cancel_after</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/cancel_all</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/cancel_order</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/executions</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/heartbeat</loc>
+    <lastmod>2026-06-11T06:04:03.117Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/instrument</loc>
+    <lastmod>2026-09-10T08:23:04.544Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/ledgers</loc>
+    <lastmod>2026-10-15T13:51:26.132Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/level3</loc>
+    <lastmod>2026-11-12T15:11:30.620Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/margin</loc>
+    <lastmod>2026-11-12T17:35:54.577Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/ohlc</loc>
+    <lastmod>2026-10-23T13:33:56.624Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/ping</loc>
+    <lastmod>2026-06-11T06:04:03.119Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/positions</loc>
+    <lastmod>2026-11-12T17:35:54.577Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/preferences</loc>
+    <lastmod>2026-11-12T17:35:54.569Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/quotes</loc>
+    <lastmod>2026-11-03T20:12:42.473Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/rfqs</loc>
+    <lastmod>2026-11-03T20:12:42.472Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/set_preference</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/status</loc>
+    <lastmod>2026-08-06T16:26:43.566Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/ticker</loc>
+    <lastmod>2026-06-29T15:39:16.190Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/api-reference/unified-ws/trade</loc>
+    <lastmod>2026-07-17T17:07:59.113Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/changelog</loc>
+    <lastmod>2026-11-17T08:53:04.470Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/affiliate/introduction</loc>
+    <lastmod>2026-11-12T15:11:30.618Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/affiliate/ratelimits</loc>
+    <lastmod>2026-11-12T15:11:30.617Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/affiliate/rest</loc>
+    <lastmod>2026-11-12T15:11:30.626Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/algo-trading/overview</loc>
+    <lastmod>2026-11-12T15:11:30.618Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/algo-trading/twap</loc>
+    <lastmod>2026-11-12T15:11:30.622Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/fix/authentication</loc>
+    <lastmod>2026-11-12T15:11:30.619Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/fix/checksums</loc>
+    <lastmod>2026-11-12T15:11:30.624Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/fix/introduction</loc>
+    <lastmod>2026-11-12T15:11:30.619Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/futures/assignment-program</loc>
+    <lastmod>2026-11-12T15:11:30.620Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/futures/introduction</loc>
+    <lastmod>2026-11-12T15:11:30.316Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/futures/maker-protection</loc>
+    <lastmod>2026-11-17T08:53:04.470Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/futures/ratelimits</loc>
+    <lastmod>2026-11-12T15:11:30.317Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/futures/rest</loc>
+    <lastmod>2026-11-12T15:11:30.315Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/futures/websockets</loc>
+    <lastmod>2026-11-12T17:35:54.438Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/general/amends</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/general/api-comparison</loc>
+    <lastmod>2026-11-12T15:11:30.321Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/general/clordid</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/general/colocation</loc>
+    <lastmod>2026-11-12T15:11:30.322Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/general/errors</loc>
+    <lastmod>2026-11-12T15:11:30.322Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/general/examples</loc>
+    <lastmod>2026-11-12T15:11:30.324Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/general/historical-data</loc>
+    <lastmod>2026-11-12T15:11:30.323Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/general/l3-data</loc>
+    <lastmod>2026-11-12T15:11:30.325Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/general/order-lifecycle</loc>
+    <lastmod>2026-11-12T15:11:30.330Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/general/ratelimits</loc>
+    <lastmod>2026-11-12T15:11:30.327Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/general/subaccounts</loc>
+    <lastmod>2026-11-12T15:11:30.319Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/overview</loc>
+    <lastmod>2026-11-12T15:11:30.317Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/rest/api-keys</loc>
+    <lastmod>2026-11-12T15:11:30.313Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/rest/authentication</loc>
+    <lastmod>2026-11-12T15:11:30.318Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/rest/earn</loc>
+    <lastmod>2026-06-11T06:04:03.218Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/rest/funding</loc>
+    <lastmod>2026-11-12T15:11:30.331Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/rest/introduction</loc>
+    <lastmod>2026-08-14T16:22:59.954Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/rest/ratelimits</loc>
+    <lastmod>2026-11-12T15:11:30.324Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/us-perps/api</loc>
+    <lastmod>2026-11-12T15:11:30.312Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/us-perps/connectivity</loc>
+    <lastmod>2026-10-20T08:43:40.484Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/us-perps/overview</loc>
+    <lastmod>2026-11-12T15:11:30.326Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/websockets/authentication</loc>
+    <lastmod>2026-06-11T06:04:03.217Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/websockets/book-checksum-v1</loc>
+    <lastmod>2026-06-11T06:04:03.214Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/websockets/book-checksum-v2</loc>
+    <lastmod>2026-06-11T06:04:03.210Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/websockets/introduction</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/websockets/l3-checksum-v2</loc>
+    <lastmod>2026-06-11T06:04:03.209Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/exchange/guides/websockets/reconnection</loc>
+    <lastmod>2026-06-11T06:04:03.243Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/home/cli</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/home/guides/quickstart</loc>
+    <lastmod>2026-06-11T06:04:03.240Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/home/mcp</loc>
+    <lastmod>2026-11-12T15:11:30.314Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/home/sdks/go</loc>
+    <lastmod>2026-09-08T06:34:18.012Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/home/sdks</loc>
+    <lastmod>2026-11-12T15:11:30.326Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/home/sdks/rust</loc>
+    <lastmod>2026-11-12T15:11:30.308Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/home/support</loc>
+    <lastmod>2026-11-12T15:11:30.307Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com</loc>
+    <lastmod>2026-10-28T19:30:52.572Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/custody-rest</loc>
+    <lastmod>2026-11-12T15:11:30.314Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/otc-rest</loc>
+    <lastmod>2026-06-11T06:04:03.291Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/overview</loc>
+    <lastmod>2026-06-11T06:04:03.292Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/er</loc>
+    <lastmod>2026-06-11T06:04:03.276Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/header-trailer</loc>
+    <lastmod>2026-06-11T06:04:03.276Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/heartbeat</loc>
+    <lastmod>2026-06-11T06:04:03.277Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/logon</loc>
+    <lastmod>2026-06-11T06:04:03.278Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/logout</loc>
+    <lastmod>2026-06-11T06:04:03.290Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/mdr</loc>
+    <lastmod>2026-06-11T06:04:03.289Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/mdrr</loc>
+    <lastmod>2026-06-11T06:04:03.275Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/mdsfr</loc>
+    <lastmod>2026-06-11T06:04:03.274Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/nos</loc>
+    <lastmod>2026-06-11T06:04:03.327Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/ocr</loc>
+    <lastmod>2026-06-11T06:04:03.326Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/ocrej</loc>
+    <lastmod>2026-06-11T06:04:03.322Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/ocrr</loc>
+    <lastmod>2026-06-11T06:04:03.323Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/resend-request</loc>
+    <lastmod>2026-06-11T06:04:03.324Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/sequence-reset</loc>
+    <lastmod>2026-06-11T06:04:03.325Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/session-reject</loc>
+    <lastmod>2026-06-11T06:04:03.325Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/sl</loc>
+    <lastmod>2026-06-11T06:04:03.323Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/slr</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-fix/test-request</loc>
+    <lastmod>2026-06-11T06:04:03.321Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-rest</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/authentication</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/balance</loc>
+    <lastmod>2026-06-11T06:04:03.357Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/cancel</loc>
+    <lastmod>2026-07-08T09:18:32.895Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/currency</loc>
+    <lastmod>2026-06-18T14:01:35.818Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/currency-conversion</loc>
+    <lastmod>2026-06-11T06:04:03.360Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/execution-report</loc>
+    <lastmod>2026-06-11T06:04:03.358Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/exposure</loc>
+    <lastmod>2026-06-11T06:04:03.357Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/hello</loc>
+    <lastmod>2026-07-08T09:18:32.920Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/market-data-snapshot</loc>
+    <lastmod>2026-06-18T14:01:35.817Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/new-order-single</loc>
+    <lastmod>2026-11-12T15:11:30.184Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/order</loc>
+    <lastmod>2026-06-11T06:04:03.388Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/order-cancel-replace-request</loc>
+    <lastmod>2026-06-11T06:04:03.355Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/order-cancel-request</loc>
+    <lastmod>2026-06-11T06:04:03.381Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/order-control-request</loc>
+    <lastmod>2026-06-11T06:04:03.386Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/page</loc>
+    <lastmod>2026-07-08T09:18:32.917Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/ping</loc>
+    <lastmod>2026-06-18T14:01:35.840Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/quote</loc>
+    <lastmod>2026-06-25T15:43:07.684Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/quote-cancel-request</loc>
+    <lastmod>2026-06-11T06:04:03.383Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/quote-request</loc>
+    <lastmod>2026-06-18T14:01:35.841Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/security</loc>
+    <lastmod>2026-06-18T14:01:35.838Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/subscribe</loc>
+    <lastmod>2026-06-18T14:01:35.839Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/trade</loc>
+    <lastmod>2026-06-18T14:01:35.837Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/user</loc>
+    <lastmod>2026-06-18T14:01:35.863Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/api-reference/prime-websocket/user-config</loc>
+    <lastmod>2026-06-18T14:01:35.862Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/changelog</loc>
+    <lastmod>2026-11-04T16:04:29.588Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/guides/custody-rest-auth</loc>
+    <lastmod>2026-11-12T15:11:30.193Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/guides/overview</loc>
+    <lastmod>2026-11-12T15:11:30.192Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/institutional/guides/prime-websocket-auth</loc>
+    <lastmod>2026-11-13T08:49:41.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.kraken.com/pay/guides/pay-webhook</loc>
+    <lastmod>2026-11-12T15:11:30.188Z</lastmod>
+  </url>
+</urlset>

@@ -1,0 +1,140 @@
+
+Payward files for single-stock perpetual futures
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Insights
+Blog
+Research
+Learn
+COMPANY
+September 18, 2026
+Payward files to bring single-stock perpetual futures to US traders
+Eligible US clients will be able to leverage long or short exposure to individual stocks 24/5, without an expiry date.
+We are working to bring single-stock perpetual futures to Kraken, subject to the applicable regulatory process. We will start with perpetual futures tied to 10 individual US stocks: TSLA, SPCX, NVDA, AVGO, MU, AAPL, MSFT, AMZN, GOOGL, PLTR
+We’re working toward 24/5 trading. Our goal is to make these markets continuously available, giving traders greater flexibility to respond to market-moving events.
+No expiry dates. Like the crypto perps Kraken traders already know, single-stock perps are designed to let you maintain long or short price exposure without having to roll an expiring futures contract.
+Leveraged long or short exposure. Eligible US clients would be able to take a view on whether an individual stock’s price will rise or fall without owning the underlying shares.
+Bringing the perpetual futures model to individual stocks
+Perpetual futures changed how traders approach crypto markets. Now we’re working to bring that model to individual US stocks.
+Through Bitnomial, the CFTC-regulated exchange and clearinghouse owned by Payward, Kraken’s parent company, we’re working to create a regulated US futures market for single-stock perps, starting with 10 stocks, with the goal of enabling 24/5 trading. As part of this process, Payward is filing applicable exchange rules and product terms today with the CFTC and SEC.
+Our goal: around-the-clock trading
+US equity markets still largely run on a schedule built around the traditional trading day.
+Earnings, geopolitical events, economic data and company announcements don’t wait for the opening bell. When the underlying stock market is closed, traders have fewer ways to respond directly to new information affecting an individual company.
+That is one of the problems we believe single-stock perps can solve.
+Our goal is to build these contracts for continuous trading. If 24/5 trading is approved, eligible Kraken customers will be able to adjust individual-stock exposure after traditional markets have closed. No waiting for the opening bell. No contract expirations to manage.
+Our filing plans are moving forward while we continue working with regulators on the final market structure, including an eventual expansion to 24/7.
+No expiration date
+Unlike traditional futures contracts, perpetual futures have no expiration date. Instead, they use a funding mechanism designed to keep the futures price aligned with the price of the underlying market.
+As long as margin requirements are maintained, traders can keep a position open without having to roll it into a new contract simply because an expiration date arrives.
+We want to bring that added flexibility to individual stocks, giving traders more choice in how they access and manage exposure.
+Building markets without boundaries
+Payward is dedicated to building trading infrastructure around markets that operate continuously. Perpetual futures are a natural part of that model.
+We’re continuing to work with regulators to bring this capability to US traders, creating a path toward a market where traders can manage exposure on their own schedule.
+All news
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

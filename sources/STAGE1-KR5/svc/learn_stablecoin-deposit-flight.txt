@@ -1,0 +1,164 @@
+
+Stablecoins and bank deposits: what banks need to consider | Payward Services
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Insights
+Blog
+Research
+Learn
+Stablecoins and bank deposits: what banks need to consider
+Stablecoins
+November 6, 2026
+Updated November 12, 2026
+6 min read
+By Payward Services editorial team
+Stablecoins could affect bank deposits and customer relationships, but their growth alone does not show how much money has left banks. The effect depends on where issuers hold reserves, how customers use stablecoins and how banks respond. The history of money market funds offers a useful comparison, with clear limits.
+Money market mutual funds held $7.78 trillion in May 2026.¹ They began growing in the 1970s, when deposit rate limits made it difficult for banks to compete with funds offering higher yields.² As customers moved money into those funds, banks faced a new competitor for their deposits.
+Stablecoins raise a similar question. Circulating supply has grown from under $30 billion in 2020 to more than $300 billion in 2025.³ As customers find new ways to hold and move dollars, banks must consider how those products could affect their deposits and customer relationships.
+The comparison has limits. While money market funds attract savers with higher yields, stablecoins serve different purposes and operate under a different regulatory framework. Their growth alone does not show how much money has left bank deposits. The lesson for banks is not that stablecoins will follow the same path as money market funds. It is that a new way to hold or move money can change customer behavior, and that a bank’s response can affect both its customer relationships and funding costs.
+Even without a clear measure of deposit outflows, community banks are already considering the potential effect. In the 2026 CSBS Annual Survey of Community Banks, close to 60% of respondents rated potential deposit erosion and reduced lending capacity as a most or moderately impactful effect of stablecoin adoption. ABA Banking Journal reports that 3% of respondents currently offered stablecoin solutions, including banks planning to exit that offering.⁴ The survey was a self-selected sample of 330 banks with less than $10 billion in assets. These responses describe expectations and current offerings, not observed deposit flight.
+Three ways stablecoins could affect banks
+Stablecoin growth could affect banks in different ways. The outcome depends on where reserves are held, how issuers manage redemptions, and how banks respond to customer demand.
+1. Some balances remain in the banking system
+A customer may move money out of a bank account to acquire stablecoins, while the issuer holds some reserves as bank deposits. Other reserves may be held in permitted assets, including U.S. Treasury securities and government money market funds.⁵
+Even when reserves return to the banking system, they may not return to the bank that lost the customer deposit. The effect on a particular bank depends on its role and exposure.
+2. Redemptions put pressure on reserve access
+Demand to redeem stablecoins can rise when customers question whether an issuer can access its reserves. In March 2023, USDC traded below its dollar peg after Circle disclosed that $3.3 billion of its reserves were held at Silicon Valley Bank.⁶ For banks holding issuer reserves, concentrated redemption requests may create liquidity demands. The effect on a particular bank depends on its role and exposure.
+Under the OCC’s final rule, issuers within its scope generally must redeem within two business days. If redemption requests exceed 10% of a stablecoin’s outstanding issuance value in a 24-hour period, the issuer must notify the OCC within 24 hours and may request an extension.⁵
+3. Banks introduce competing products
+Banks may respond to demand for stablecoins by offering products or services that keep them involved in the customer relationship. The response to money market funds offers a historical example: after the Garn-St Germain Act of 1982, banks could offer money market deposit accounts that competed for customer balances.²
+Those accounts also affected funding costs. FDIC Chairman William Isaac expected customers to move funds from existing passbook accounts and maturing certificates into the new accounts, and anticipated aggressive pricing by some institutions.⁷ Banks evaluating stablecoin services will need to consider both customer demand and product economics.
+How banks can participate
+Banks considering stablecoins have several decisions to make. One is whether to pursue issuance through an eligible subsidiary or offer services that use a stablecoin issued by another provider. Another is which capabilities to build internally and which to obtain from partners.
+These choices are not necessarily exclusive. A bank pursuing issuance may still work with infrastructure providers, while a bank that does not issue a stablecoin may integrate services that help customers access or use one.
+Issuing through an eligible subsidiary
+Issuing gives a bank a role in designing and delivering a payment stablecoin, subject to applicable approval and regulatory requirements. It also brings responsibilities for reserves, redemption, capital, reporting, and risk management. The issuer must establish or obtain the capabilities needed to manage those functions.
+Working with an issuer or infrastructure provider
+A bank can also support digital asset services using capabilities provided by another firm. Depending on the arrangement, those capabilities may include custody, fiat-to-digital-asset conversion, and compliance services.
+The bank must understand which entity issues the stablecoin, where customer assets are held, and how responsibilities are divided. The effect on deposits depends on the product structure and customer flows; offering access to a stablecoin does not by itself establish that deposits will remain at the bank.
+The OCC’s final rule implementing provisions of the GENIUS Act takes effect on January 18, 2027. It covers entities within the OCC’s jurisdiction, including subsidiaries of national banks and federal savings associations. The OCC will address certain Bank Secrecy Act, anti-money laundering, and sanctions requirements in a separate rulemaking.⁵
+The infrastructure behind the offering
+To offer digital asset services, banks need to support how customers convert between fiat and digital assets, hold assets in custody, and move funds in and out. Each activity requires an operating model that addresses liquidity, controls and compliance.
+Payward Services provides digital asset infrastructure for banks, including custody and compliance capabilities. Its on- and off-ramp infrastructure supports conversion between fiat and digital assets, including major stablecoins on supported networks.
+Available capabilities depend on the bank’s product design, jurisdiction, customer base and integration. Banks can assess these capabilities against the customer experience they want to deliver and the responsibilities they retain.
+Next step
+Explore on/off-ramps
+Read the funding documentation
+Talk to the team
+Sources
+Crane Data, citing ICI, ICI Shows MMF Assets Up to $7.78T, May 29, 2026.
+Federal Reserve History, Garn-St Germain Depository Institutions Act of 1982.
+McKinsey, Stablecoins in payments: What the raw transaction numbers miss, February 2026.
+Conference of State Bank Supervisors, 2026 Annual Survey of Community Banks, as reported by ABA Banking Journal, October 6, 2026; and CSBS, New Technologies Bring Threats and Opportunities for Community Banks.
+OCC, Final rule implementing the GENIUS Act, October 23, 2026.
+Federal Reserve, In the Shadow of Bank Runs: Lessons from the Silicon Valley Bank Failure and Its Impact on Stablecoins, December 17, 2025.
+FDIC, Savings Banks’ Problems: Where We Have Been and Where We Are Headed, address by Chairman William Isaac, December 7, 1982.
+General information only. This article is not legal, tax or individual financial advice. Regulatory requirements vary by market and business model; consult qualified counsel.
+All Learn
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

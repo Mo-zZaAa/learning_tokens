@@ -1,0 +1,58 @@
+
+CryptoCompare Publishes Latest Monthly Exchange Review
+Skip to main Content
+Mondo Visione Worldwide Financial Markets Intelligence
+Advertise with us
+Online Exchange Handbook
+search
+Login
+Subscribe
+Home
+Exchanges
+Exchange Directory
+FTSE Mondo Visione Exchanges Index
+Index News
+News
+Publications
+Acronyms
+Glossary
+White Papers
+Regulators/Associations
+close
+Track all markets on TradingView
+FTSE Mondo Visione Exchanges Index:
+CryptoCompare Publishes Latest Monthly Exchange Review
+Date 06/11/2018
+CryptoCompare, the global cryptocurrency market data provider, today published its monthly Exchange Review for October 2018, designed to offer institutional and retail investors insights into the cryptocurrency exchange industry.
+The monthly review includes exchange trade data; order book and web traffic analysis; news highlights; exchange market segmentation; an overview of trans-fee mining and decentralised exchanges; information on volumes and pairs including Bitcoin to Fiat volumes; as well as exchange security and KYC requirements.
+The Methodology: CryptoCompare’s Monthly Exchange Review evaluates the consistency and quality of exchange data, which is incorporated into CryptoCompare’s real-time Aggregate Index Methodology (the CCCAGG), used to calculate the best price estimation of cryptocurrency pairs traded across global exchanges. It aggregates transactional data from more than 70 exchanges using a 24-hour volume weighted average for every cryptocurrency pair. Constituent CCCAGG exchanges are reviewed and amended each month to ensure that the most representative and reliable market data is used in CCCAGG pair pricing calculations.
+Key findings from the October review include:
+The top exchange by 24h spot trading volume was Binance with an average of just under 980 million USD, followed by OKEX and Bitfinex with volumes of 405 million and 368 million respectively.
+Spot volumes constituted less than three quarters of total market volumes on average (less than 7 billion USD) compared to futures volumes (3.2 billion USD). Within total spot volumes, exchanges with taker fees represent approximately 90% of the exchange spot market volumes, while transaction-fee based (TFM) and no-fee exchanges represent the remaining 10%.
+Bithumb saw a 356% spike in trading volumes from an average of 140 million USD to an average of 640 million USD after the 7th of October. This follows after the Singapore-based BK Global Consortium bought a controlling share in the exchange.
+Bitfinex saw a spike in volumes towards the 15th of October as the Bitcoin premium on Bitfinex vs Coinbase reached an all-time high of 11.28%.
+An analysis of the top 100 exchanges by 24h volumes suggests that a third of top exchanges store the vast majority of users’ funds in cold wallets (offline).
+If we look at the ratio of order book depth down to volume, we can rank exchanges by how immune to manipulation their markets might be. What we find is that, itBit, Kraken and Bitstamp have relatively more stable markets compared to exchanges such as CoinEx, ZB and Coinbene.
+CoinEx, a well-known trans-fee mining exchange, has a significantly higher trade frequency and lower trade size than other exchanges in the top 25. This may point to algorithmic trading, given its almost 176 thousand trades a day at an average trade size of 125 USD. In contrast, Bithumb and HuobiPro had an average trade size of just under 3,000 and 1,500 USD respectively and significantly lower trades per day (12–18 thousand).
+According to a web traffic analysis using Alexa data, exchanges ZB and EXX showed significantly lower daily visitors relative to other exchanges with similar volumes. Both exchanges trade volumes in excess of 150 million USD per day, but attract no more than 700 visitors per day.
+Karl Turner, Head of Data Partnerships, CryptoCompare , said: “Data inconsistencies across exchanges may originate from the illiquidity of certain pairs on exchanges, manipulation, broken APIs, differences in fees across jurisdictions, hacks or shutdown of exchanges. etc. Therefore, in order to maintain consistent pricing and volume data that is representative of the market, CryptoCompare maintains a selection of CCCAGG exchanges that have met our minimum data integrity standards. The exchange review detects exchanges that diverge from patterns of the larger exchange pool.”
+Charles Hayter, CEO of CryptoCompare, said: “Accurate, clean data is crucial for all retail and institutional investors looking to make digital asset investments. That’s why our data aggregation methodology and standards are rigorous, to safeguard data integrity and ensure consistency and confidence in the market.”
+The October Exchange Review can be found here .
+Back to List
+About Us
+Online Exchange Handbook
+Subscribe To News Alerts
+Advertise With Us
+News Centre
+FTSE Mondo Visione Exchanges Index
+Index News
+Exchange Directory
+Resources
+Contact Us
+RSS Feed
+Twitter
+Terms
+Privacy
+Disclaimer
+Cookies
+© Mondo Visione 2026

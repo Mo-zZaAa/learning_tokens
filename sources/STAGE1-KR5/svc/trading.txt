@@ -1,0 +1,179 @@
+
+Payward Services | Trading
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+Crypto TradingCrypto TradingOn/off-rampsOn/off-rampsTokenized EquitiesTokenized EquitiesDerivatives InfrastructureDerivatives InfrastructureStaking & YieldStaking & YieldIndices & DataIndices & DataCard Issuance & PaymentsCard Issuance & PaymentsEmbedded WalletsEmbedded Wallets
+Crypto TradingCrypto TradingOn/off-rampsOn/off-rampsTokenized EquitiesTokenized EquitiesDerivatives InfrastructureDerivatives InfrastructureStaking & YieldStaking & YieldIndices & DataIndices & DataCard Issuance & PaymentsCard Issuance & PaymentsEmbedded WalletsEmbedded Wallets
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Crypto Trading
+Launch crypto trading in weeks, not years.
+Execution, custody, and settlement across 600+ assets. No exchange to build or manage. One API, one integration, one contract.
+Get in touch with salesRead the docs
+In-app crypto trading
+Let users buy and sell crypto assets directly within your product. Payward Services handles execution, custody, and settlement.
+Recurring purchases
+Enable users to set up automated, scheduled crypto purchases. The Price Trigger Swaps API handles scheduling and execution.
+Portfolio management
+Surface crypto holdings alongside traditional assets. Use the Portfolio API for balances, transaction history, and performance data.
+Tokenized equities
+Let users trade tokenized versions of traditional stocks alongside crypto. Payward Services handles execution and settlement.
+Key capabilities
+Unified API
+Trading, custody, and compliance in one integration. No separate vendor stack.
+Institutional-grade liquidity
+Deep order book across major pairs, built on Kraken’s exchange infrastructure.
+Quote-and-execute model
+Lock an FX-style quote for 2 minutes with no slippage between decision and execution.
+Both-side flexibility
+Fix the send or receive amount. The platform calculates the other side.
+Price trigger swaps
+Set target prices, trades execute automatically. Supports Buy the Dip, Join the Rally, and Take the Profit strategies.
+Revenue model support
+Spread capture, fees, and maker-taker models supported from day one.
+For developers
+If you’re evaluating the API, the trading documentation covers authentication, order types, and webhook configuration.
+Read the Trading documentation
+Read the Trading documentation
+Explore the API reference
+Explore the API reference
+Exactly what we needed to launch crypto fast: Proven infrastructure, streamlined onboarding and a fully compliant in-app crypto experience.
+Tom Bilske
+Head of New Products, bunq
+Read the story
+Read the story
+Frequently asked questions
+How do we test crypto trading before going live?
+Payward Services provides a separate sandbox where you build and test with test balances added through simulated deposits, using selected test networks instead of real funds. Sandbox and production are fully separate: accounts, API keys, balances and webhooks do not carry over. Production uses real funds and API keys created after Payward enables production access, and both environments restrict access to allowlisted IP addresses. See the environments documentation.
+Which assets and regions can our users trade?
+Coverage includes major cryptocurrencies, stablecoins, tokenized equities and a wider selection of network-native tokens. Availability varies by jurisdiction and by product, and some assets are subject to regulatory review. Order book trading focuses on high-liquidity major pairs, while onchain quotes cover pairs such as tokenized stocks and USDC. Your integration engineer can confirm availability for your markets. See the coverage documentation.
+Who is Crypto Trading built for, and how do trades execute?
+It is most commonly adopted by banks, brokerages and fintechs that want crypto trading inside their existing product. Trades execute through onchain quote execution or an order book, with custody and settlement handled by Payward Services. You control the user interface and branding. The documentation also covers portfolio, recurring purchase and earn use cases.
+How do we verify our users before they trade?
+Payward Services can run identity verification for your users. You can use Hosted KYC, where Payward collects evidence in a hosted interface, or partner-managed verification. Before requesting a quote for a new user, check that their initial onboarding is complete. See the use cases.
+Has a regulated bank already launched crypto trading this way?
+Yes. bunq, a European neobank with more than 20 million users across the EEA, offers in-app crypto buying, holding and selling through Payward Services. Its case study cites 640+ assets, 130+ networks and a T+1 settlement basis. Results depend on each partner's licences and markets, so talk to the team about your own scope. Read the bunq case study.
+Get in touch
+Ready to launch crypto trading infrastructure?
+Talk to our team.
+*First name
+*Last name
+*Please enter a valid business email address
+*Company name
+*Country of business
+Type of business
+🇦🇫
+Phone number
+Assets amount
+Monthly trading volume
+Assets of interest
+Areas of interest
+How did you hear about us?
+Your message
+*By continuing I agree to the Terms of Service & Privacy Policy
+Send
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

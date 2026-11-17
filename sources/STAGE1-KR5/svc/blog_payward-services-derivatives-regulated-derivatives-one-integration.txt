@@ -1,0 +1,144 @@
+
+Payward Services Derivatives: Regulated Derivatives, One Integration
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Insights
+Blog
+Research
+Learn
+NEWS
+Payward Services Derivatives brings regulated derivatives to platforms through one integration
+TL;DR
+NinjaTrader Connect is now Payward Services Derivatives, a B2B product that gives platforms access to regulated U.S. derivatives infrastructure through one integration.
+It adds futures, perpetuals and prediction markets to Payward Services and connects partners to Payward group entities that cover each regulated function: Bitnomial Exchange, Bitnomial Clearinghouse and NinjaTrader Clearing.
+Partners pick from four models: connect users to regulated markets, bring a market onshore, clear markets listed on their own exchange, or distribute contracts already listed on Bitnomial Exchange.
+Partners keep the customer relationship. Timing to go live depends on the model they choose and their own readiness, plus regulatory approval and onboarding review.
+NinjaTrader Connect is now Payward Services Derivatives, a B2B product that gives platforms access to regulated U.S. derivatives infrastructure through one integration. It adds futures, perpetuals and prediction markets to the Payward Services lineup, which also covers crypto trading, tokenized equities and on/off ramps.
+Demand keeps climbing
+In the first four months of 2026, the 11 largest centralized perpetual exchanges averaged $4.69 trillion in monthly trading volume. Event contracts are drawing volume too: U.S. prediction-market exchanges recorded an estimated $120.7 billion in October 2026, up 64% from September.
+What sits behind a U.S. derivatives product
+At the center is an exchange, a designated contract market (DCM), which lists contracts and matches orders. Behind it sits a clearinghouse, or derivatives clearing organization (DCO), responsible for clearing, settlement and counterparty risk. Customers reach both through a futures commission merchant (FCM), the broker that carries their accounts.
+Each function carries its own regulatory, capital, risk and compliance obligations. Depending on the model, Payward Services Derivatives gives partners access to all three through Payward group entities: Bitnomial Exchange, a CFTC-designated contract market; Bitnomial Clearinghouse, a CFTC-registered derivatives clearing organization; and NinjaTrader Clearing, a CFTC-registered futures commission merchant and NFA member.
+“Payward Services Derivatives connects platforms to an exchange, a clearinghouse and a broker through one integration, so futures and prediction markets can sit next to everything else they build on Payward Services. This is where the best products in this space are headed.” said Max Shanbrom, EVP & GM of Payward Services Derivatives.
+Four ways to build
+Partners choose the model that fits their product.
+Connect users to regulated markets. Offer access without building your own brokerage or exchange connections. Payward Services helps you choose an introducing broker model and supports the onboarding, funding, execution and risk work that follows.
+Bring your market onshore. Keep your technology and your brand. Payward provides the regulated infrastructure underneath.
+Clear your own markets. List on your exchange and use Bitnomial Clearinghouse for clearing and settlement, with no DCO of your own to run. Markets can include spot margin, futures, perpetuals, options and prediction markets, depending on product availability.
+Offer ready-made contracts. Distribute contracts already listed on Bitnomial Exchange, including spot margin and perpetuals.
+Collateral and settlement
+Payward’s infrastructure supports a shared collateral framework across spot margin, futures, perpetuals and options. Depending on the product and applicable clearing requirements, customers can post crypto, stablecoins or USD, and markets can settle in the asset they trade. Partners keep the customer relationship and launch on a timeline that fits their business.
+Next step
+The right model depends on your products and your customers. Talk to the Payward Services team about the one that fits your platform.
+Talk to the team
+Futures trading involves substantial risk and is not suitable for everyone. Losses may exceed the initial investment. Past performance is not necessarily indicative of future results. View Risk Disclosure Statement.
+NinjaTrader Clearing, LLC d/b/a NinjaTrader, Kraken Derivatives US, Payward Services Derivatives, Payward Derivatives, and Tradovate is a CFTC-registered futures commission merchant and an NFA Member (NFA ID: 0309379). View Disclosures.
+Bitnomial Exchange, LLC is a CFTC-registered designated contract market. Bitnomial Clearinghouse, LLC is a CFTC-registered derivatives clearing organization. View Disclosures.
+All news
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

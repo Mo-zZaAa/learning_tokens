@@ -1,0 +1,185 @@
+
+Payward Services | Staking & Yield
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+Crypto TradingCrypto TradingOn/off-rampsOn/off-rampsTokenized EquitiesTokenized EquitiesDerivatives InfrastructureDerivatives InfrastructureStaking & YieldStaking & YieldIndices & DataIndices & DataCard Issuance & PaymentsCard Issuance & PaymentsEmbedded WalletsEmbedded Wallets
+Crypto TradingCrypto TradingOn/off-rampsOn/off-rampsTokenized EquitiesTokenized EquitiesDerivatives InfrastructureDerivatives InfrastructureStaking & YieldStaking & YieldIndices & DataIndices & DataCard Issuance & PaymentsCard Issuance & PaymentsEmbedded WalletsEmbedded Wallets
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Staking & Yield
+Turn idle assets into recurring revenue.
+Launch staking without managing validators, infrastructure, or slashing risk. Auto-earn across eligible assets, configurable by user and geography.
+Get in touch with salesRead the docs
+Wealth platforms
+Offer managed yield strategies as part of a broader investment product. Payward Services handles the underlying infrastructure and reporting.
+DeFi platforms
+Use staking as a reliable yield foundation for broader strategies. Combine with curated DeFi integrations to build structured products.
+Exchanges
+Add staking across listed assets. Increase user retention, asset utilization, and revenue without managing validator infrastructure.
+Wallets
+Embed one-click staking without running validators. Retain assets within the wallet and capture revenue via staking fees.
+Neobanks and fintechs
+Package yield as an "Earn" experience that abstracts staking complexity for users.
+Key capabilities
+Branded staking
+Offer staking directly within your product under your brand.
+Auto-earn
+Enable yield generation on eligible assets with a single API call. On by default, users opt out rather than opt in, maximizing user participation.
+Allocation and visibility
+Configure auto-earn settings per asset and read current allocations and full historical reward data for display in your product.
+Geo-aware eligibility
+Discover which assets are auto-earn eligible by user and by country, so you only surface what is available to each user.
+Institutional risk controls
+Staking managed with the same risk standards applied across the Payward Services platform.
+DeFi yield integration
+Curated strategies layered on top of native staking for platforms that want to offer broader yield options.
+Supported staking assets
+ETH, SOL, DOT, ADA, and additional proof-of-stake assets. Coverage is subject to availability by jurisdiction. Query the API for current eligibility by user and country.
+For developers
+The Earn documentation covers auto-earn configuration, asset eligibility, reward tracking, and API reference.
+Read the Earn documentation
+Read the Earn documentation
+Explore the API reference
+Explore the API reference
+Exactly what we needed to launch crypto fast: Proven infrastructure, streamlined onboarding and a fully compliant in-app crypto experience.
+Tom Bilske
+Head of New Products, bunq
+Read the story
+Read the story
+Frequently asked questions
+Do my users' assets stay liquid when they earn through Auto Earn?
+Yes. With Auto Earn, Payward absorbs any on-chain bonding or unbonding periods, so allocated assets stay liquid and remain at the user's disposal at all times. You turn a yield source on or off for the user, and Payward chooses the assets and routes eligible balances. For the technical detail, see the Auto Earn documentation.
+What is the difference between Auto Earn and Bonded Earn?
+Auto Earn is a single switch per yield source: we pick the assets and route eligible balances for the user. Bonded Earn lets you choose a specific strategy and amount, and shows the lock-up periods that apply. Requests to move funds in or out are accepted first and settle later. See Bonded Earn.
+How do fees and revenue work on staking rewards?
+A fee is taken from the rewards a strategy pays, not from the user's principal. The displayed APY is gross, and rewarded amounts are net of the fee. The fee can be tiered by how much an account has allocated. Your commercial terms are agreed with Payward, so contact sales for pricing specific to your product.
+How does staking work, and what waiting periods can apply?
+Proof-of-stake networks pay rewards for using tokens to help secure the network. Some strategies require funds to stay allocated through a bonding period before they earn, and for ETH an exit queue (the network's waiting list) and an unbonding period before funds return. Bonded Earn shows these stages for each allocation so you can display them to users. See the Bonded Earn documentation.
+How do I show users only the assets available in their country?
+You can check which Auto Earn assets are eligible by country before a user has an account, and then by account. The account view shows the APY and the allocation cap for each eligible asset, so your product only surfaces what is available to that user. Availability varies by jurisdiction. See the Auto Earn documentation.
+Can I show users the rewards they have earned?
+Yes. You can read each user's historical rewards, which are net of any reward fee, as well as the rewards expected at the next payout and the date of that payout. This lets you display earnings in your own product. See the Auto Earn documentation for details.
+Get in touch
+Ready to offer yield products to your users?
+Talk to our team.
+*First name
+*Last name
+*Please enter a valid business email address
+*Company name
+*Country of business
+Type of business
+🇦🇫
+Phone number
+Assets amount
+Monthly trading volume
+Assets of interest
+Areas of interest
+How did you hear about us?
+Your message
+*By continuing I agree to the Terms of Service & Privacy Policy
+Send
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.

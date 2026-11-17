@@ -1,0 +1,38 @@
+# services.payward.com — Payward Services
+#
+# Answer engines and search crawlers are welcome to crawl, index and quote
+# this site. A machine-readable index of the site is published at:
+#     https://services.payward.com/llms.txt
+
+
+User-agent: *
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+Disallow: /u/
+Disallow: /lp/
+
+# Named answer-engine and AI crawlers.
+# NOTE: a named group fully replaces the "*" group for that agent, so the
+# Content-Signal and Disallow rules above are repeated in each group deliberately. Do not remove.
+
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Amazonbot
+User-agent: meta-externalagent
+User-agent: Bytespider
+User-agent: CCBot
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+Allow: /
+Disallow: /u/
+Disallow: /lp/
+
+Sitemap: https://services.payward.com/sitemaps/sitemap.xml
+
+

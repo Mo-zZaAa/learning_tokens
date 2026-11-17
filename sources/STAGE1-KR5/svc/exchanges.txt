@@ -1,0 +1,188 @@
+
+Payward Services | Exchanges
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+View docsLog in
+View docsLog in
+View docsLog in
+View docsLog in
+Overview
+Services
+Who we serve
+Insights
+About Payward
+Get in touch
+Crypto Trading
+Crypto Trading
+On/off-ramps
+On/off-ramps
+Tokenized Equities
+Tokenized Equities
+Derivatives Infrastructure
+Derivatives Infrastructure
+Staking & Yield
+Staking & Yield
+Indices & Data
+Indices & Data
+Card Issuance & Payments
+Card Issuance & Payments
+Embedded Wallets
+Embedded Wallets
+Consumer tech
+Consumer tech
+Fintechs
+Fintechs
+Banks
+Banks
+Exchanges
+Exchanges
+Asset managers
+Asset managers
+DeFi & onchain
+DeFi & onchain
+Blog
+Blog
+Research
+Research
+Learn
+Learn
+Knowledge base
+Knowledge base
+Public policy
+Public policy
+About us
+About us
+Governance
+Governance
+Careers
+Careers
+Exchanges
+Extend into tokenized equities, futures, prediction markets, and yield
+Payward Services runs execution and clearing. No parallel stack to build, no additional team to hire.
+Get in touch with salesRead the docs
+100+
+Futures markets
+$1B+
+Daily derivatives volume
+45µs
+Fills
+200+
+Tokenized equities across 6 chains
+Launch perpetuals, futures, and prediction markets
+Your users trade derivatives through your platform; we clear against the same infrastructure that processes $1B+ in average daily volume.
+Add tokenized equities to your existing trading product
+Your users trade xStocks through your interface; we manage collateralization, custody, and 24/7 settlement.
+Offer staking and yield alongside spot trading
+Your users opt into staking from your platform; we run validator infrastructure and reward distribution.
+Extend into onchain markets without a second team
+Your platform connects to new asset classes; we run the execution and compliance layer behind them.
+Extend from exchange to onchain
+Your users step from spot trading into self-custody and onchain products without leaving your platform; we run the embedded wallet layer behind it.
+Key capabilities
+No parallel stack to build
+Extend your product suite without standing up a second execution, clearing, or custody system alongside the one you already run.
+Institutional execution
+45µs fills, deep liquidity, tight spreads, and no last-look pricing, on the same execution layer professional traders already use.
+Full derivatives stack
+Perpetuals, dated futures, and event contracts across crypto, FX, and commodities, including CME contract support and prediction markets via Kalshi.
+Compliance handled
+KYC, AML, transaction monitoring, and sanctions screening managed end to end across every new product line.
+Live in 90 days or less
+Most partners go from contract signature to first transactions inside three months, with no setup fee, no implementation fee, and no minimum volume.
+For developers
+If you’re evaluating the API, the trading documentation covers authentication, order types, and derivatives integration.
+Read the documentation
+Read the documentation
+Explore the API reference
+Explore the API reference
+One of the most trusted and robust infrastructures in crypto.
+Thijs Maas
+CEO, Onramper
+Frequently asked questions
+What is Payward Services and what can an exchange add through it?
+Payward Services gives you the infrastructure that has powered Kraken for 15 years. Instead of assembling several vendors, you use one integration for trading, payments, tokenized assets, staking, lending, compliance and settlement. An exchange can add derivatives, tokenized equities or yield on top of what it already runs. See our developer documentation.
+How long does an integration take, and how do we test before going live?
+Most partners go from contract signature to first transactions within three months. You build and test in a sandbox that's fully separate from production and uses test balances instead of real funds. When you're ready to launch, we enable production access. See Environments.
+Are there minimum commitments or setup fees?
+No. There's no setup fee, no implementation fee and no minimum volume. Other terms depend on your volumes and product mix, so get in touch through the form below to discuss them.
+Is Payward Services regulated?
+Yes. Payward Digital Solutions Ltd. is licensed by the Bermuda Monetary Authority to conduct digital asset business. Other Payward and Kraken entities hold their own authorisations, listed in our regulatory disclosures. The entity and products available to you depend on your country, so confirm them with our team.
+How does identity verification work for our users?
+We can verify your users for you through a hosted web or embedded flow. Verification runs in the background, so your platform waits for the result before the user can trade. Approved partners in the EEA can instead submit users their own provider has already verified. See Hosted KYC.
+Can we offer staking and yield to our users?
+Yes. Partners can offer two kinds of yield. With Auto Earn, you enable or disable yield across eligible assets for a user and show their allocations and historical rewards. With Bonded Earn, users allocate into strategies and you can follow each allocation through bonding and unbonding. Eligible assets and strategies depend on the user's country, so availability varies by region. See the Auto Earn guide.
+How do our users get a price when they trade?
+Swaps work like institutional FX-style trading. Your platform requests a quote that locks the price for about 2 minutes, executes against that locked quote, and then checks the trade until it reaches a final state. This gives users a firm price before they confirm. The swaps guide explains the full flow.
+Get in touch
+Ready to extend your product suite?
+Talk to our team.
+*First name
+*Last name
+*Please enter a valid business email address
+*Company name
+*Country of business
+Type of business
+🇦🇫
+Phone number
+Assets amount
+Monthly trading volume
+Assets of interest
+Areas of interest
+How did you hear about us?
+Your message
+*By continuing I agree to the Terms of Service & Privacy Policy
+Send
+Payward Digital Solutions Ltd. is licensed to conduct digital asset business by the Bermuda Monetary Authority. Trading futures, derivatives, and other instruments using leverage involves an element of risk and may not be suitable for everyone.
+Get in touch
+Get in touch
+Services →
+Crypto Trading
+On/off-ramps
+Tokenized Equities
+Derivatives Infrastructure
+Staking & Yield
+Indices & Data
+Card Issuance & Payments
+Embedded Wallets
+Who we serve →
+Exchanges
+Banks
+Fintechs
+Asset Managers
+Consumer tech & neobanks
+DeFi & onchain protocols
+Developers →
+Documentation
+API reference
+Privacy Notice
+Cookies Policy
+Terms of Service
+Regulatory Disclosures
+by PAYWARD
+© 2011–2026 Payward, Inc.
+Trading
+Kraken
+Kraken Pro
+NinjaTrader
+Breakout
+VIP
+API Trading
+|
+Services
+Payward Services
+xStocks
+CF Benchmarks
+Reap
+|
+Banking
+Krak
+Prime
+OTC
+Custody
+|
+Asset Management
+This website is provided for general informational purposes only and does not constitute legal, financial, or investment advice. Access to products and services described herein may be subject to eligibility requirements and jurisdictional restrictions.
