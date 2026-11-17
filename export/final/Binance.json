@@ -25,7 +25,7 @@
      "id": "bn-0380",
      "disp": "Binance 카드-2",
      "level": "★",
-     "text": "유형 안 위치 : 아부다비 ADGM 금융서비스규제청(FSRA) 등록부의 활성 인정기관(거래소, 청산소) 3곳(2026-11-16 열람) → 그중 인정투자거래소 2곳의 하나(Nest Exchange)와 인정청산기관 1곳 전부(Nest Clearing and Custody) → 3곳 중 2곳이 Binance 계열(공식 등록부 셈), 공식 거래량 순위 없음 → 2017년 가상자산 거래소 출신",
+     "text": "유형 안 위치 : 아부다비 ADGM 인정기관(거래소, 청산소) 3곳 → 그중 2곳(Nest Exchange, Nest Clearing and Custody)이 Binance 계열 → 2017년 가상자산 거래소 출신",
      "color": "black",
      "fact_ids": [
       "F-1417",
@@ -36,35 +36,8 @@
      "notes": []
     },
     {
-     "id": "bn-0382",
-     "disp": "Binance 카드-3",
-     "level": "-",
-     "text": "뜻 : 인정기관(Recognised Body) = FSRA가 거래소나 청산소로 인정한 시장 운영 기관. 중개, 운용 같은 일반 금융회사 인가와 다른 등급",
-     "color": "black",
-     "fact_ids": [
-      "F-1417"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "bn-0384",
-     "disp": "Binance 카드-4",
-     "level": "-",
-     "text": "다른 공식 목록 : EU MiCA 가상자산사업자 등록부(404곳)와 뉴욕주 NYDFS 가상자산 인가 목록(39곳)에 Binance 법인은 없음",
-     "color": "black",
-     "fact_ids": [
-      "F-1413",
-      "F-1414",
-      "F-1411",
-      "F-1412"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
      "id": "bn-0177",
-     "disp": "Binance 카드-5",
+     "disp": "Binance 카드-3",
      "level": "●",
      "text": "대표 상품 : 미국 주식 거래 = 실제 주식 7,000종 이상(Nest Trading이 주문을 Alpaca로 보냄, 2026-06-01)",
      "color": "black",
@@ -77,7 +50,7 @@
     },
     {
      "id": "bn-0178",
-     "disp": "Binance 카드-6",
+     "disp": "Binance 카드-4",
      "level": "●",
      "text": "대표 상품(토큰) : bStocks = 미국 주식 일부를 기초로 한 증권 증서(계열 BTech Holdings 발행), 미국과 미국인 제외, 가상자산 거래에는 이 제한이 없음",
      "color": "black",
@@ -90,7 +63,7 @@
     },
     {
      "id": "bn-0226",
-     "disp": "Binance 카드-7",
+     "disp": "Binance 카드-5",
      "level": "●",
      "text": "그룹 관계(누가 무엇을 하는가)",
      "color": "black",
@@ -100,7 +73,7 @@
     },
     {
      "id": "bn-0227",
-     "disp": "Binance 카드-8",
+     "disp": "Binance 카드-6",
      "level": "★",
      "text": "Binance 그룹 : 가상자산 거래소 운영, 사업은 여러 나라에 분산, 규제 인가는 아부다비 계열 법인이 보유",
      "color": "black",
@@ -113,7 +86,7 @@
     },
     {
      "id": "bn-0228",
-     "disp": "Binance 카드-9",
+     "disp": "Binance 카드-7",
      "level": "★",
      "text": "Nest Exchange(옛 Nest Services) : 거래소 인가(RIE)와 다자간 거래시설(MTF) 운영",
      "color": "black",
@@ -126,7 +99,7 @@
     },
     {
      "id": "bn-0229",
-     "disp": "Binance 카드-10",
+     "disp": "Binance 카드-8",
      "level": "★",
      "text": "Nest Clearing and Custody(옛 Binance (AD)) : 청산, 수탁, 권리 원장(CSD) 관리",
      "color": "black",
@@ -139,7 +112,7 @@
     },
     {
      "id": "bn-0230",
-     "disp": "Binance 카드-11",
+     "disp": "Binance 카드-9",
      "level": "★",
      "text": "Nest Trading(옛 BCI Limited) : 브로커딜러, 주식 주문 접수와 주식과 bStocks 1:1 전환",
      "color": "black",
@@ -153,7 +126,7 @@
     },
     {
      "id": "bn-0231",
-     "disp": "Binance 카드-12",
+     "disp": "Binance 카드-10",
      "level": "★",
      "text": "BTech Holdings Limited : bStocks 발행 전용 계열사(SPV)",
      "color": "black",
@@ -166,7 +139,7 @@
     },
     {
      "id": "bn-0232",
-     "disp": "Binance 카드-13",
+     "disp": "Binance 카드-11",
      "level": "★",
      "text": "주주 : 아부다비 투자사 MGX가 2025-03 20억 달러로 소수 지분 취득",
      "color": "black",
@@ -179,7 +152,7 @@
     },
     {
      "id": "bn-0337",
-     "disp": "Binance 카드-14",
+     "disp": "Binance 카드-12",
      "level": "★",
      "text": "최대주주 : CZ는 CEO에서 물러났으나 Binance 최대주주로 남음(Finance Magnates 보도)",
      "color": "black",
@@ -191,7 +164,7 @@
     },
     {
      "id": "bn-0387",
-     "disp": "Binance 카드-15",
+     "disp": "Binance 카드-13",
      "level": "-",
      "text": "뜻 : RCH = 인정청산기관(Recognised Clearing House)",
      "color": "black",
@@ -201,7 +174,7 @@
     },
     {
      "id": "bn-0234",
-     "disp": "Binance 카드-16",
+     "disp": "Binance 카드-14",
      "level": "-",
      "text": "뜻 : 왜 아부다비인가 = 회사는 \"규제 명확성과 정당성\"을 이유로 밝힘 . 공동 CEO Teng은 합류 전 ADGM 금융감독청 CEO였음 . MGX도 아부다비 투자사",
      "color": "black",
@@ -215,7 +188,7 @@
     },
     {
      "id": "bn-0179",
-     "disp": "Binance 카드-17",
+     "disp": "Binance 카드-15",
      "level": "●",
      "text": "꼭 알아야 할 사실",
      "color": "black",
@@ -225,7 +198,7 @@
     },
     {
      "id": "bn-0182",
-     "disp": "Binance 카드-18",
+     "disp": "Binance 카드-16",
      "level": "★",
      "text": "큰 제재 : 2023-11-21 미국 재무부 합의. FinCEN(재무부 금융범죄단속청)에 민사과징금 34억 달러와 5년 감독관, OFAC(재무부 해외자산통제국)에 9.68억 달러",
      "color": "black",
@@ -237,7 +210,7 @@
     },
     {
      "id": "bn-0341",
-     "disp": "Binance 카드-19",
+     "disp": "Binance 카드-17",
      "level": "-",
      "text": "무슨 일 : CZ의 사유는 효과적인 자금세탁방지 프로그램을 유지하지 않은 것(법무부 표기)",
      "color": "black",
@@ -249,7 +222,7 @@
     },
     {
      "id": "bn-0236",
-     "disp": "Binance 카드-20",
+     "disp": "Binance 카드-18",
      "level": "★",
      "text": "소송과 사면 : 2025-05 SEC 민사소송 재제기 불가로 취하, 2025-10-21 창업자 CZ가 미 법무부 사면담당관실 목록에 오름(CZ는 자금세탁방지 프로그램 미유지로 4개월 징역과 5천만 달러 벌금, 2024-04-30)",
      "color": "black",
@@ -263,7 +236,7 @@
     },
     {
      "id": "bn-0184",
-     "disp": "Binance 카드-21",
+     "disp": "Binance 카드-19",
      "level": "●",
      "text": "숫자",
      "color": "black",
@@ -273,7 +246,7 @@
     },
     {
      "id": "bn-0237",
-     "disp": "Binance 카드-22",
+     "disp": "Binance 카드-20",
      "level": "★",
      "text": "순위와 잔액 : 2026-11-16 rwa.xyz(토큰화 실물자산 집계 사이트, 제3자 집계) 토큰화 주식 플랫폼 표에서 bStocks 1위, 13.6억 달러, 시장 전체 37.1억 달러의 36.6%, 2위 Ondo 9.0억 달러",
      "color": "black",
@@ -287,7 +260,7 @@
     },
     {
      "id": "bn-0188",
-     "disp": "Binance 카드-23",
+     "disp": "Binance 카드-21",
      "level": "●",
      "text": "흐름(주식 거래) : 이용자 → Binance 앱 → Nest Trading(ADGM 브로커) → Alpaca(청산, 보관)",
      "color": "black",
@@ -300,7 +273,7 @@
     },
     {
      "id": "bn-0189",
-     "disp": "Binance 카드-24",
+     "disp": "Binance 카드-22",
      "level": "●",
      "text": "흐름(bStocks) : 이용자 → Binance 거래소 → 발행(BTech Holdings) → Alpaca(보관)",
      "color": "black",

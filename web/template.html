@@ -90,7 +90,7 @@ details.sec>summary .code{font-family:var(--mono);color:var(--accent);font-size:
 .lv-s .lbl{color:var(--muted)}
 .claim .body{color:var(--accent)}
 .row.orange .txt{color:var(--orange)}
-.row.del .txt{text-decoration:line-through;opacity:.5}
+.row.del{display:none}
 .row.hidden{display:none}
 .grp{background:transparent;border:0;cursor:pointer;color:var(--faint);padding:0 4px;font-size:11px}
 .src{font-size:11.5px;margin-left:6px;white-space:nowrap}
@@ -555,7 +555,7 @@ function renderCompany(){
   c.sections.forEach(sec => { let n = 0; rowsOf(c, sec).forEach(r => { n++; DISP[r.id] = `${c.name} ${sec.code}-${n}`; }); });
   const claims = [];
   c.sections.forEach(sec => rowsOf(c, sec).forEach(r => { if (r.claim && !S.del[r.id]) claims.push([sec, r]); }));
-  let h = `<div class="page"><div class="head">${c.logo?`<img alt="${esc(c.name)} 로고" src="${D.imgs[c.logo]}">`:''}<div><h1>${esc(c.name)}</h1><div class="kind">${c.kind==='ats'?'미국 주식 야간 거래 시장(ATS)':c.kind==='overview'?'회사 6곳과 미국 야간 ATS 3곳을 한 장으로. 줄 끝 단추를 누르면 그 회사 본문 줄로 갑니다.':'주식 토큰 사업자'}</div></div></div><p class="hint">줄 왼쪽 ${MEMO_ICON} 을 누르면 메모, 챌린지, 딥다이브 요청을 남깁니다. 줄 번호를 누르면 고치기, 줄 추가, 확정, 주황 표시가 나옵니다. 달린 메모는 줄 왼쪽에 붙어 보이고, 메모 카드를 눌러 펼치면 지우기 단추가 있습니다(메모 탭에서도 지울 수 있음).</p>`;
+  let h = `<div class="page"><div class="head">${c.logo?`<img alt="${esc(c.name)} 로고" src="${D.imgs[c.logo]}">`:''}<div><h1>${esc(c.name)}</h1><div class="kind">${c.kind==='ats'?'미국 주식 야간 거래 시장(ATS)':c.kind==='overview'?'회사 6곳과 미국 야간 ATS 3곳을 한 장으로. 줄 끝 단추를 누르면 그 회사 본문 줄로 갑니다.':'주식 토큰 사업자'}</div></div></div>`;
   let claimsHtml = '';
   if (claims.length) claimsHtml = `<section class="claims"><h2>주장 한눈에 보기</h2><ol>${claims.map(([sec,r]) => `<li><button type="button" data-jump="${sec.code}"><span class="cs">${esc(secShort(sec))}</span><span class="ct">${esc(stripMk(S.edits[r.id]!=null?S.edits[r.id].replace(/^주장\s*:\s*/,''):r.text))}</span></button></li>`).join('')}</ol></section>`;
   let cardHtml = '', restHtml = '';
@@ -573,7 +573,7 @@ function renderCompany(){
       inner += html;
       if (hasKids && collapsedGroups.has(r.id) && !hideUnder) hideUnder = {d: depth(r.level)};
     });
-    const blk = `<details class="sec${sec.code==='카드'?' idcard':''}" id="S-${sec.code}" ${secOpen(sec)?'open':''}><summary><span class="code">${esc(sec.code)}</span>${esc(sec.title)}</summary><div class="rows">${inner}</div></details>`;
+    const blk = `<details class="sec${sec.code==='카드'?' idcard':''}" id="S-${sec.code}" ${secOpen(sec)?'open':''}><summary>${sec.code==='카드'?'':`<span class="code">${esc(sec.code)}</span>`}${esc(sec.code==='카드'?'Summary':sec.title)}</summary><div class="rows">${inner}</div></details>`;
     if (sec.code === '카드') cardHtml += blk; else restHtml += blk;
   });
   h += cardHtml + claimsHtml + restHtml + '</div>';
@@ -598,7 +598,7 @@ function renderMemo(){
     <div class="filters" role="group" aria-label="상태">${sts.map(s => `<button type="button" data-mf-st="${s}" aria-pressed="${f.st===s}">${s==='all'?'모든 상태':s}</button>`).join('')}</div><div class="mlist">`;
   if (!list.length) h += '<div class="empty">아직 메모가 없습니다. 본문에서 줄 번호를 누르면 메모, 고치기, 확정 단추가 나옵니다.</div>';
   list.forEach(m => {
-    h += `<div class="mcard"><div class="meta"><button class="go" type="button" data-go="${esc(m.lid)}" data-co="${esc(m.co)}">${esc(m.disp||m.lid)}</button><span>${esc(m.type)}</span><span class="st st-${(m.stNow||'').replace(' ','')}">${esc(m.stNow)}</span><span>${esc(m.at||'')}</span>${S.memos.find(x => x.mid===m.mid)?`<button class="sec2" type="button" data-rm="${m.mid}" style="padding:0 8px;font-size:12px">지우기</button>`:''}</div>
+    h += `<div class="mcard"><div class="meta"><button class="go" type="button" data-go="${esc(m.lid)}" data-co="${esc(m.co)}">${esc(m.disp||m.lid)}</button><span>${esc(m.type)}</span><span class="st st-${(m.stNow||'').replace(' ','')}">${esc(m.stNow)}</span><span>${esc(m.at||'')}</span>${m.type==='삭제' && S.del[m.lid]?`<button class="sec2" type="button" data-act="undel" data-lid="${esc(m.lid)}" style="padding:0 8px;font-size:12px">되살리기</button>`:''}${S.memos.find(x => x.mid===m.mid)?`<button class="sec2" type="button" data-rm="${m.mid}" style="padding:0 8px;font-size:12px">지우기</button>`:''}</div>
       <div>${esc(m.text)}</div>${m.line?`<div class="line">줄: ${esc(m.line)}</div>`:''}${m.answer?`<div class="note ans"><span class="who">답</span>${esc(m.answer)}</div>`:''}</div>`;
   });
   h += '</div></div>';

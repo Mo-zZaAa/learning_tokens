@@ -24,7 +24,7 @@
      "id": "cb-0423",
      "disp": "Coinbase 카드-2",
      "level": "★",
-     "text": "유형 안 위치 : 뉴욕주 금융서비스국(NYDFS) 가상자산 인가 목록 39곳(2026-11-16 열람) → BitLicense 26곳의 하나(Coinbase, Inc., 2017-01)와 제한목적 신탁 인가 13곳의 하나(Coinbase Custody Trust Company, 2018-10)를 한 그룹이 함께 보유 → 암호자산 거래대금 점유율 10.7%(2026 Q3, 회사 발표), 공식 순위 없음 → 2012년 시작한 가상자산 회사 출신",
+     "text": "유형 안 위치 : 뉴욕주 NYDFS 가상자산 인가 39곳 → BitLicense와 신탁 인가를 한 그룹이 함께 보유 → 거래대금 점유율 10.7%(2026 Q3, 회사 발표) → 2012년 가상자산 회사 출신",
      "color": "black",
      "fact_ids": [
       "F-1411",
@@ -36,47 +36,8 @@
      "notes": []
     },
     {
-     "id": "cb-0426",
-     "disp": "Coinbase 카드-3",
-     "level": "-",
-     "text": "뜻 : 제한목적 신탁 인가 = 가상자산 보관처럼 정해진 업무만 하는 신탁회사 인가",
-     "color": "black",
-     "fact_ids": [
-      "F-1411"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "cb-0427",
-     "disp": "Coinbase 카드-4",
-     "level": "-",
-     "text": "다른 공식 목록 : EU MiCA 가상자산사업자 404곳에 Coinbase Luxembourg(2025-06-20)가 있으나 거래 플랫폼 운영 코드는 없음. 버뮤다 BMA 디지털자산사업 48곳에 Coinbase 2곳(Coinbase Bermuda Limited는 거래소 운영 허용)",
-     "color": "black",
-     "fact_ids": [
-      "F-1413",
-      "F-1414",
-      "F-1415",
-      "F-1416"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
-     "id": "cb-0429",
-     "disp": "Coinbase 카드-5",
-     "level": "-",
-     "text": "10.7%의 기준 : 회사가 제3자 데이터와 자체 경쟁사 집합으로 낸 분기 점유율이라 공식 순위가 아님. 전년 같은 분기 5.6%",
-     "color": "black",
-     "fact_ids": [
-      "F-0902"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
      "id": "cb-0193",
-     "disp": "Coinbase 카드-6",
+     "disp": "Coinbase 카드-3",
      "level": "●",
      "text": "대표 상품 : Coinbase Tokenized Stocks = Base 블록체인 위의 미국 주식 수익권 토큰, 미국 밖 적격 관할 개인만",
      "color": "black",
@@ -90,7 +51,7 @@
     },
     {
      "id": "cb-0247",
-     "disp": "Coinbase 카드-7",
+     "disp": "Coinbase 카드-4",
      "level": "-",
      "text": "뜻 : Base = Coinbase가 만든 Ethereum 위의 블록체인(롤업, 거래를 모아 처리해 비용을 낮춤). 시퀀서 = Base 거래를 받아 순서대로 기록하는 서버로 Coinbase가 운영",
      "color": "black",
@@ -103,7 +64,7 @@
     },
     {
      "id": "cb-0249",
-     "disp": "Coinbase 카드-8",
+     "disp": "Coinbase 카드-5",
      "level": "●",
      "text": "그룹 관계(누가 누구를 갖고 무슨 일을 하나)",
      "color": "black",
@@ -113,7 +74,7 @@
     },
     {
      "id": "cb-0251",
-     "disp": "Coinbase 카드-9",
+     "disp": "Coinbase 카드-6",
      "level": "★",
      "text": "주식 토큰 발행 라인 : Coinbase Global → Onchain Marketplace Holdings(OMHL, ADGM, 비상장) 100% → Coinbase Onchain SPV Ltd 100%(2026-06-17 설립, 토큰 발행 전용)",
      "color": "black",
@@ -127,7 +88,7 @@
     },
     {
      "id": "cb-0252",
-     "disp": "Coinbase 카드-10",
+     "disp": "Coinbase 카드-7",
      "level": "★",
      "text": "Onchain Marketplace Ltd(OML) : SPV와 같은 그룹 계열, 토큰 발행과 소각, 법적 소유 장부(CSD)를 SPV로부터 위탁받아 운영",
      "color": "black",
@@ -140,7 +101,7 @@
     },
     {
      "id": "cb-0254",
-     "disp": "Coinbase 카드-11",
+     "disp": "Coinbase 카드-8",
      "level": "★",
      "text": "Alpaca : 그룹 밖 제휴 증권사(SEC 등록, FINRA와 SIPC 회원), 기초주 보관과 매매 중개",
      "color": "black",
@@ -152,7 +113,7 @@
     },
     {
      "id": "cb-0255",
-     "disp": "Coinbase 카드-12",
+     "disp": "Coinbase 카드-9",
      "level": "★",
      "text": "미국 인가 법인 : Coinbase Capital Markets(옛 Keystone Capital, 1982 등록 증권사 인수), Coinbase Derivatives(선물 거래소, FairX 인수), Coinbase Financial Markets(선물 중개, 2023-08-15 등록), Coinbase Clearing(청산소, 2026-09-28 등록)",
      "color": "black",
@@ -167,7 +128,7 @@
     },
     {
      "id": "cb-0371",
-     "disp": "Coinbase 카드-13",
+     "disp": "Coinbase 카드-10",
      "level": "-",
      "text": "뜻 : OMHL = SPV의 모회사 역할을 하는 지주 법인",
      "color": "black",
@@ -177,7 +138,7 @@
     },
     {
      "id": "cb-0372",
-     "disp": "Coinbase 카드-14",
+     "disp": "Coinbase 카드-11",
      "level": "-",
      "text": "뜻 : DCM = 미국 CFTC가 지정한 선물 거래소, DCO = CFTC에 등록한 청산소, FCM = 선물 중개업자",
      "color": "black",
@@ -187,7 +148,7 @@
     },
     {
      "id": "cb-0373",
-     "disp": "Coinbase 카드-15",
+     "disp": "Coinbase 카드-12",
      "level": "-",
      "text": "뜻 : CSD = 누가 무엇을 가졌는지 적는 중앙예탁 원장",
      "color": "black",
@@ -197,7 +158,7 @@
     },
     {
      "id": "cb-0197",
-     "disp": "Coinbase 카드-16",
+     "disp": "Coinbase 카드-13",
      "level": "●",
      "text": "꼭 알아야 할 사실",
      "color": "black",
@@ -207,7 +168,7 @@
     },
     {
      "id": "cb-0243",
-     "disp": "Coinbase 카드-17",
+     "disp": "Coinbase 카드-14",
      "level": "★",
      "text": "상장 : 2021-04-14 Nasdaq 직상장 예정(발표), 등록서류는 04-01 SEC 효력",
      "color": "black",
@@ -219,7 +180,7 @@
     },
     {
      "id": "cb-0200",
-     "disp": "Coinbase 카드-18",
+     "disp": "Coinbase 카드-15",
      "level": "★",
      "text": "큰 인수 : 2022 FairX(선물 거래소 확보), 2025-08 Deribit(옵션 거래소, 통합은 2026-10 완료). FairX 금액과 이유 문장은 1차 확인 자료 없음",
      "color": "black",
@@ -232,7 +193,7 @@
     },
     {
      "id": "cb-0375",
-     "disp": "Coinbase 카드-19",
+     "disp": "Coinbase 카드-16",
      "level": "-",
      "text": "뜻 : FairX = 미국 CFTC 지정 선물 거래소(DCM)를 운영하던 회사, Deribit = 가상자산 옵션 거래소",
      "color": "black",
@@ -245,7 +206,7 @@
     },
     {
      "id": "cb-0244",
-     "disp": "Coinbase 카드-20",
+     "disp": "Coinbase 카드-17",
      "level": "★",
      "text": "큰 사고와 제재 : SEC가 제기한 민사 집행 소송을 2025-02-27 양측 합의서로 취하(SEC 발표, 본안 판단 아님)",
      "color": "black",
@@ -258,7 +219,7 @@
     },
     {
      "id": "cb-0378",
-     "disp": "Coinbase 카드-21",
+     "disp": "Coinbase 카드-18",
      "level": "-",
      "text": "무슨 일 : SEC가 2023-06-06 제기한 소송, SEC는 본안 판단이 아니라 규제 접근 개편을 이유로 밝힘",
      "color": "black",
@@ -270,7 +231,7 @@
     },
     {
      "id": "cb-0202",
-     "disp": "Coinbase 카드-22",
+     "disp": "Coinbase 카드-19",
      "level": "●",
      "text": "숫자",
      "color": "black",
@@ -280,7 +241,7 @@
     },
     {
      "id": "cb-0257",
-     "disp": "Coinbase 카드-23",
+     "disp": "Coinbase 카드-20",
      "level": "★",
      "text": "순위와 잔액 : 2026-11-16 rwa.xyz(토큰화 실물자산 집계 사이트) 토큰화 주식 플랫폼 표 8위, 4,690만 달러, 시장 전체 37.1억 달러의 1.26%, 1위 Binance 13.6억 달러의 약 3%",
      "color": "black",
@@ -294,7 +255,7 @@
     },
     {
      "id": "cb-0206",
-     "disp": "Coinbase 카드-24",
+     "disp": "Coinbase 카드-21",
      "level": "★",
      "text": "종목 수 : 주식 토큰 2026-11-16 10종",
      "color": "black",
@@ -306,7 +267,7 @@
     },
     {
      "id": "cb-0207",
-     "disp": "Coinbase 카드-25",
+     "disp": "Coinbase 카드-22",
      "level": "●",
      "text": "흐름 : 이용자(미국 밖 개인) → 지갑, Aerodrome(DeFi) → 발행 SPV(Coinbase Onchain) → 보관 Alpaca",
      "color": "black",
@@ -321,7 +282,7 @@
     },
     {
      "id": "cb-0258",
-     "disp": "Coinbase 카드-26",
+     "disp": "Coinbase 카드-23",
      "level": "-",
      "text": "뜻 : DeFi = 은행이나 거래소 없이 블록체인 위 프로그램으로 돌아가는 금융. Aerodrome = Base 위의 탈중앙 거래소",
      "color": "black",

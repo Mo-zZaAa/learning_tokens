@@ -35,7 +35,7 @@
      "id": "mo-0181",
      "disp": "MOON 카드-3",
      "level": "★",
-     "text": "유형 안 위치 : 미국 SEC 상장주식 ATS 35곳(2026-11) → 그중 야간 거래 ATS 4곳의 하나(로펌 정리) → 야간 3사 거래대금의 2.0%로 3위(2026 Q3, FINRA 주간 보고 계산) → 장외주식 시장 운영사 OTC Markets Group 계열이 2024-11 출시",
+     "text": "유형 안 위치 : 미국 SEC 상장주식 ATS 35곳 → 야간 거래 ATS 4곳의 하나 → 야간 3사 거래대금 2.0%로 3위(2026 Q3) → 장외주식 시장 운영사 OTC Markets Group 계열이 2024-11 출시",
      "color": "black",
      "fact_ids": [
       "F-1141",
@@ -47,22 +47,8 @@
      "notes": []
     },
     {
-     "id": "mo-0182",
-     "disp": "MOON 카드-4",
-     "level": "-",
-     "text": "ATS 전체 안 : 2026 Q3 13주에 NMS 주식 거래를 보고한 ATS 34곳 중 거래대금 30위, 전체 ATS 거래대금의 0.05%. 낮 시간 기관 거래가 섞인 분모라 야간 시장 안 비중은 위 2.0%",
-     "color": "black",
-     "fact_ids": [
-      "F-1419",
-      "F-1422",
-      "F-0042"
-     ],
-     "confirmed": false,
-     "notes": []
-    },
-    {
      "id": "mo-0092",
-     "disp": "MOON 카드-5",
+     "disp": "MOON 카드-4",
      "level": "●",
      "text": "대표 상품 : MOON ATS = 거래소 상장 주식의 야간 거래. 별도로 2024-09 시작한 OTC Overnight은 거래소에 상장되지 않은 장외주식의 야간 거래",
      "color": "black",
@@ -75,7 +61,7 @@
     },
     {
      "id": "mo-0097",
-     "disp": "MOON 카드-6",
+     "disp": "MOON 카드-5",
      "level": "●",
      "text": "숫자",
      "color": "black",
@@ -85,7 +71,7 @@
     },
     {
      "id": "mo-0112",
-     "disp": "MOON 카드-7",
+     "disp": "MOON 카드-6",
      "level": "★",
      "text": "점유율 : 야간 3사 거래대금 합계 대비, FINRA 주간 보고 13주 기준 Q2 3.8%, Q3 2.0%(1위 Blue Ocean 83.0%와 81.0%p 차이)",
      "color": "black",
@@ -99,7 +85,7 @@
     },
     {
      "id": "mo-0100",
-     "disp": "MOON 카드-8",
+     "disp": "MOON 카드-7",
      "level": "●",
      "text": "흐름 : 아시아 투자자 → Moomoo 앱 → MOON ATS 체결",
      "color": "black",
