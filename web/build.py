@@ -530,7 +530,7 @@ def main():
 
     sys.path.insert(0, str(ROOT / "web"))
     import brief_data
-    data = {"companies": companies, "imgs": IMGS, "terms": terms, "log": log, **extra_data(), "briefs": brief_data.build(), "cmp3": (ROOT / "briefs/KDX_가상자산거래소3곳_비교브리핑_261117.md").read_text(encoding="utf-8")}
+    data = {"companies": companies, "imgs": IMGS, "terms": terms, "log": log, **extra_data(), "briefs": brief_data.build(), "cmp3": (ROOT / "briefs/KDX_가상자산거래소3곳_비교브리핑_261117.md").read_text(encoding="utf-8"), "qa": (ROOT / "briefs/PM_질문과_짚을점_261117.md").read_text(encoding="utf-8")}
     tpl = (WEB / "template.html").read_text(encoding="utf-8")
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     html = tpl.replace("/*__DATA__*/null", payload)

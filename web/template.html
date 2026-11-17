@@ -364,12 +364,64 @@ body.nonum .num::after{content:"⋯";font-size:14px}
 .cmp3 details[open].csrc>summary::before{content:"▾ "}
 .cmp3 details.csrc ol{margin:6px 0;padding-left:1.6em;font-size:13px;line-height:1.7}
 @media (max-width:760px){.cmp3 table{display:block;overflow-x:auto}.cmp3 td:first-child{white-space:normal}}
+/* 강조 공통: 형광펜, 포스트잇, 말풍선 */
+:root{--pi:#fff3a3;--pi-ink:#3d3300;--pi-edge:#e8c84a;--bub:#e8f0ff;--bub-edge:#9db8ea;--keybox:#fff9e0}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pi:#4d4416;--pi-ink:#fff1b0;--pi-edge:#b49a2c;--bub:#1d2a40;--bub-edge:#3f5f96;--keybox:#2b2714}}
+:root[data-theme="dark"]{--pi:#4d4416;--pi-ink:#fff1b0;--pi-edge:#b49a2c;--bub:#1d2a40;--bub-edge:#3f5f96;--keybox:#2b2714}
+mark.hm{background:linear-gradient(180deg,transparent 35%,var(--pi) 35%);color:inherit;padding:0 2px;font-weight:700}
+.cmp3 .lbl{font-weight:800}
+.cmp3 .ckey{background:var(--keybox);border:2px solid var(--pi-edge);border-radius:10px;padding:4px 16px 8px;margin:10px 0 14px}
+.cmp3 .ckey>h2{background:none;padding:6px 0 0;margin:6px 0 4px}
+.cmp3 .ckey>h2::before{content:"⭐ "}
+.cmp3 .ckey ul{font-size:16px}
+.cmp3 p.sub{margin:16px 0 6px;font-size:16px}
+.cmp3 tr.hlrow td{background:var(--keybox)}
+.cmp3 tr.hlrow td:first-child{box-shadow:inset 4px 0 0 var(--pi-edge)}
+.postit{position:relative;background:var(--pi);color:var(--pi-ink);border-left:5px solid var(--pi-edge);border-radius:3px 10px 10px 3px;
+  padding:10px 14px 10px 40px;margin:12px 0 6px;box-shadow:2px 3px 8px rgba(0,0,0,.12);line-height:1.7;font-size:15.5px;transform:rotate(-.3deg)}
+.postit::before{content:"📌";position:absolute;left:11px;top:9px;font-size:17px}
+.postit b.pt{margin-right:6px}
+.cmp3 li.postli{list-style:none;margin-left:-1.2em}
+.cmp3 li.postli>.postit{margin:6px 0}
+.qa h1{font-size:22px;margin:4px 0 6px}
+.qa .qintro{color:var(--muted);margin:0 0 12px}
+.qa .qtoc{background:var(--keybox);border:2px solid var(--pi-edge);border-radius:10px;padding:10px 16px;margin:0 0 18px}
+.qa .qtoc h2{font-size:17px;margin:4px 0 8px}
+.qa .qtoc ol{margin:0;padding-left:1.5em;line-height:1.6}
+.qa .qtoc li{margin:0 0 8px}
+.qa .qtoc a{cursor:pointer;font-weight:700;text-decoration:none}
+.qa .qtoc .tp{display:block;color:var(--muted);font-size:14px}
+.qa .qtoc .tp::before{content:"📌 "}
+.qa details.qsec{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:6px 18px 12px;margin:0 0 16px}
+.qa details.qsec>summary{list-style:none;cursor:pointer}
+.qa details.qsec>summary::-webkit-details-marker{display:none}
+.qa .qbub{position:relative;display:inline-block;max-width:100%;background:var(--bub);border:1.5px solid var(--bub-edge);border-radius:16px;
+  padding:9px 14px 9px 44px;margin:8px 0 12px;font-size:16.5px;font-weight:800;line-height:1.5}
+.qa .qbub::before{content:"💬";position:absolute;left:13px;top:8px;font-size:19px}
+.qa .qbub::after{content:"";position:absolute;left:26px;bottom:-9px;border:8px solid transparent;border-top-color:var(--bub-edge);border-bottom:0}
+.qa .qbub .qn{color:var(--accent);margin-right:6px}
+.qa details.qsec:not([open])>summary .qbub{margin-bottom:6px}
+.qa details.qsec:not([open])>summary .qbub::before{content:"💬"}
+.qa .qfin{border:2px solid var(--pi-edge);background:var(--keybox)}
+.qa .qfin .qbub{background:var(--pi);border-color:var(--pi-edge)}
+.qa .qfin .qbub::before{content:"⭐"}
+.qa .qfin .qbub::after{border-top-color:var(--pi-edge)}
+.qa ul{margin:4px 0 8px;padding-left:1.4em;line-height:1.8}
+.qa ul ul{margin:2px 0;font-size:14.5px;color:var(--muted)}
+.qa ul ul b,.qa ul ul mark{color:var(--ink)}
+.qa .lbl{font-weight:800}
+.qa .qd{color:var(--accent);font-weight:600}
+.qa details.qfold{margin:10px 0;border:1px dashed var(--line);border-radius:8px;padding:4px 12px}
+.qa details.qfold>summary{cursor:pointer;color:var(--muted);font-size:14px}
+.qa details.qfold>summary::before{content:"▸ 펼치기: "}
+.qa details[open].qfold>summary::before{content:"▾ 접기: "}
 </style>
 
 <header class="top">
   <span class="brand">KDX 해외 사례</span>
   <div class="tabs" role="tablist">
     <button class="tab" id="tab-cmp3" role="tab" aria-selected="false" data-view="cmp3">가상자산 거래소 3곳 비교</button>
+    <button class="tab" id="tab-qa" role="tab" aria-selected="false" data-view="qa">질문과 짚을 점</button>
     <button class="tab" id="tab-ov" role="tab" aria-selected="false">전체 그림</button>
     <button class="tab" id="tab-brief" role="tab" aria-selected="false" data-view="brief">브리핑</button>
     <button class="tab" id="tab-read" role="tab" aria-selected="false">본문</button>
@@ -674,7 +726,7 @@ function render(){
   document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-selected', b.dataset.view === view));
   $('#btn-fold').hidden = view !== 'read'; applyView();
   document.querySelectorAll('.co').forEach(el => el.setAttribute('aria-current', el.dataset.slug === cur && view === 'read'));
-  if (view === 'read') renderCompany(); else if (view === 'memo') renderMemo(); else if (view === 'compare') renderCompare(); else if (view === 'lic') renderLic(); else if (view === 'rules') renderRules(); else if (view === 'brief') renderBrief(); else if (view === 'cmp3') renderCmp3();
+  if (view === 'read') renderCompany(); else if (view === 'memo') renderMemo(); else if (view === 'compare') renderCompare(); else if (view === 'lic') renderLic(); else if (view === 'rules') renderRules(); else if (view === 'brief') renderBrief(); else if (view === 'cmp3') renderCmp3(); else if (view === 'qa') renderQa();
   updateCount();
 }
 function keepScroll(fn){ const y = window.scrollY; fn(); window.scrollTo(0, y); }
@@ -991,18 +1043,36 @@ function renderLic(){
 function lawLinks(arr){ return '<div class="lawl">' + arr.map(l => l.url ? `<a href="${esc(l.url)}" target="_blank" rel="noopener" title="${esc(l.e||'')}">${esc(l.t)}</a>` : `<span>${esc(l.t)}</span>`).join('') + '</div>'; }
 
 
-// ---------- 가상자산 거래소 3곳 비교(문서 그대로 렌더) ----------
+// ---------- 가상자산 거래소 3곳 비교, 질문과 짚을 점(문서 그대로 렌더, 강조만 더함) ----------
 function mdInline(s){
   let h = esc(s);
   h = h.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+  h = h.replace(/==(.+?)==/g, '<mark class="hm">$1</mark>');
   h = h.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (m, a, u) => `<a href="${u}" target="_blank" rel="noopener">${a}</a>`);
   return h;
 }
-function renderCmp3(){
-  const lines = (D.cmp3 || '').split('\n');
-  let h = '<div class="page cmp3">', i = 0;
+// 문구는 그대로 두고 "라벨: " 앞부분만 굵게
+function mdLabel(t, qa){
+  const m = t.match(/^([^:\[\]*=]{1,30}?): /);
+  let h;
+  if (m && !/^\(판단\)/.test(m[1]) && !/^\d+(\.\d+)?$/.test(m[1])) h = `<span class="lbl">${mdInline(m[1])}:</span> ${mdInline(t.slice(m[0].length))}`;
+  else h = mdInline(t);
+  if (qa) h = h.replace(/(^|[^\w/.-])((?:19|20)\d\d-\d\d)(?![\w/])/g, '$1<span class="qd">$2</span>');
+  return h;
+}
+// 3곳 비교 문서에서 형광펜을 칠할 핵심 구절(문구 변경 없음, 표시만)
+const CMP3_HL = ['갈리는 지점은 규제를 대하는 방식이고', '주식 토큰은 셋 다 미국 밖 전용', '미국 1위(Coinbase)여도 세계 거래량은 Binance에 크게 밀림',
+  '성과를 가른 것은 시점보다 받은 인가의 범위', '먼저 시작한 효과는 오래가지 않음', '주식 토큰 성과는 "미국 밖 기존 이용자 수"와 "자기 창구에서 팔 수 있는 인가 범위"가 먼저 정하고',
+  'Kraken은 아부다비에서 주식 토큰을 내지 않음', 'Binance에게 주식은 선물 이용자를 위한 상품에 가까움', 'Coinbase에게 규제 준수는 비용이 아니라 상품',
+  'Kraken은 인가를 사서 빠르게 채우고, Coinbase는 받은 인가 범위 안에서 넓힘', '처음부터 만들면 비용과 시간이 많이 들고'];
+const CMP3_ROW = ['규제를 대하는 방식', '붙이는 방법'];
+function mdDoc(src, mode){
+  const qa = mode === 'qa';
+  const lines = (src || '').split('\n');
+  let h = '', i = 0;
+  const pre = t => { if (!qa) CMP3_HL.forEach(k => { if (t.includes(k) && !t.includes('==' + k)) t = t.replace(k, '==' + k + '=='); }); return t; };
   const listBlock = () => {
-    // 들여쓰기 2칸마다 한 단계, "(판단)"으로 시작하는 항목은 회색
+    // 들여쓰기 2칸마다 한 단계, "(판단)"은 회색, "짚을 한 줄:"은 포스트잇
     let out = '', stack = [];
     while (i < lines.length && /^\s*- /.test(lines[i])){
       const m = lines[i].match(/^(\s*)- (.*)$/); const d = Math.floor(m[1].length / 2);
@@ -1011,7 +1081,9 @@ function renderCmp3(){
         out += '</li>';
         while (stack.length > 1 && d < stack[stack.length-1]){ out += '</ul></li>'; stack.pop(); }
       }
-      out += `<li${/^\(판단\)/.test(m[2]) ? ' class="judge"' : ''}>${mdInline(m[2])}`;
+      const t = pre(m[2]);
+      if (/^짚을 한 줄:/.test(t)) out += `<li class="postli"><div class="postit"><b class="pt">짚을 한 줄</b>${mdInline(t.replace(/^짚을 한 줄:\s*/, ''))}</div>`;
+      else out += `<li${/^\(판단\)/.test(t) ? ' class="judge"' : ''}>${mdLabel(t, qa)}`;
       i++;
     }
     out += '</li>';
@@ -1030,17 +1102,39 @@ function renderCmp3(){
     if (cur.trim()) out.push(cur.trim());
     return out;
   };
+  let open = '', qn = 0, intro = true;  // open: 열린 감싸개의 닫는 태그
+  const toc = [];
+  const close = () => { h += open; open = ''; };
   while (i < lines.length){
     const l = lines[i];
     if (!l.trim()){ i++; continue; }
     if (l.startsWith('# ')){ h += `<h1>${mdInline(l.slice(2))}</h1>`; i++; continue; }
-    if (l.startsWith('## ')){ h += `<h2>${mdInline(l.slice(3))}</h2>`; i++; continue; }
+    if (l.startsWith('## ')){
+      close(); intro = false;
+      const t = l.slice(3).trim();
+      if (qa){
+        const isQ = /^Q\.\s*/.test(t), id = 'q-' + (++qn);
+        const tt = t.replace(/^Q\.\s*/, '');
+        toc.push({id, t: tt, pin: '', fin: !isQ});
+        h += `<details class="qsec${isQ ? '' : ' qfin'}" open id="${id}"><summary><span class="qbub">${isQ ? `<span class="qn">Q${qn}.</span>` : ''}${mdInline(tt)}</span></summary>`;
+        open = '</details>';
+      } else if (/^0\./.test(t)){ h += `<div class="ckey"><h2>${mdInline(t)}</h2>`; open = '</div>'; }
+      else h += `<h2>${mdInline(t)}</h2>`;
+      i++; continue;
+    }
+    if (qa && l.startsWith('::: ')){ h += `<details class="qfold"><summary>${mdInline(l.slice(4))}</summary>`; i++; continue; }
+    if (qa && l.trim() === ':::'){ h += '</details>'; i++; continue; }
+    if (qa && /^>\s*짚을 점:/.test(l)){
+      const t = l.replace(/^>\s*짚을 점:\s*/, '');
+      if (toc.length) toc[toc.length-1].pin = t;
+      h += `<div class="postit"><b class="pt">짚을 점</b>${mdInline(t)}</div>`; i++; continue;
+    }
     if (/^\s*- /.test(l)){ h += listBlock(); continue; }
     if (l.startsWith('|')){
       const rows = [];
       while (i < lines.length && lines[i].startsWith('|')){ rows.push(lines[i].trim().replace(/^\||\|$/g,'').split('|').map(c => c.trim())); i++; }
       const body = rows.filter(r => !r.every(c => /^:?-{2,}:?$/.test(c) || c === ''));
-      h += `<table><thead><tr>${body[0].map(c => `<th>${mdInline(c)}</th>`).join('')}</tr></thead><tbody>${body.slice(1).map(r => `<tr>${r.map(c => `<td>${mdInline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+      h += `<table><thead><tr>${body[0].map(c => `<th>${mdInline(c)}</th>`).join('')}</tr></thead><tbody>${body.slice(1).map(r => `<tr${CMP3_ROW.includes(r[0]) ? ' class="hlrow"' : ''}>${r.map(c => `<td>${mdInline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
       continue;
     }
     if (l.startsWith('출처:')){
@@ -1049,10 +1143,23 @@ function renderCmp3(){
       h += `<details class="csrc"><summary>출처 ${items.length}건</summary><ol>${items.map(x => `<li>${mdInline(x)}</li>`).join('')}</ol></details>`;
       i++; continue;
     }
-    h += `<p${/^\(판단\)/.test(l) ? ' class="judge"' : ''}>${mdInline(l)}</p>`; i++;
+    const cls = /^\(판단\)/.test(l) ? 'judge' : /^\*\*[^*]+\*\*$/.test(l.trim()) ? 'sub' : (qa && intro ? 'qintro' : '');
+    h += `<p${cls ? ` class="${cls}"` : ''}>${qa ? mdLabel(l, qa) : mdInline(pre(l))}</p>`; i++;
   }
-  h += '</div>';
-  $('#main').innerHTML = h;
+  close();
+  if (qa && toc.length){
+    const tocH = `<div class="qtoc"><h2>⭐ 한눈에: 질문 ${toc.filter(x => !x.fin).length}개와 짚을 점</h2><ol>${toc.map(x => `<li><a data-jump="${x.id}">${mdInline(x.t)}</a>${x.pin ? `<span class="tp">${mdInline(x.pin)}</span>` : ''}</li>`).join('')}</ol></div>`;
+    const k = h.indexOf('<details class="qsec');
+    h = h.slice(0, k) + tocH + h.slice(k);
+  }
+  return h;
+}
+function renderCmp3(){ $('#main').innerHTML = '<div class="page cmp3">' + mdDoc(D.cmp3, 'cmp3') + '</div>'; }
+function renderQa(){
+  $('#main').innerHTML = '<div class="page cmp3 qa">' + mdDoc(D.qa, 'qa') + '</div>';
+  $('#main').querySelectorAll('[data-jump]').forEach(a => a.addEventListener('click', e => {
+    e.preventDefault(); const t = document.getElementById(a.dataset.jump); if (t){ t.open = true; t.scrollIntoView({behavior:'smooth', block:'start'}); }
+  }));
 }
 
 // ---------- 브리핑 탭 ----------
@@ -1147,9 +1254,9 @@ document.addEventListener('input', e => {
 // ---------- 시작 ----------
 const fromHash = location.hash.slice(1);
 cur = CO[fromHash] ? fromHash : (CO['overview'] ? 'overview' : D.companies[0].slug);
-if (fromHash.startsWith('v-') && ['compare','lic','rules','brief','cmp3'].includes(fromHash.slice(2))) view = fromHash.slice(2);
+if (fromHash.startsWith('v-') && ['compare','lic','rules','brief','cmp3','qa'].includes(fromHash.slice(2))) view = fromHash.slice(2);
 if (!fromHash) view = 'cmp3';
 renderNav(); render();
-window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (CO[h] && (h !== cur || view !== 'read')){ cur = h; view = 'read'; render(); } else if (h.startsWith('v-') && h.slice(2) !== view && ['compare','lic','rules','brief','cmp3'].includes(h.slice(2))){ view = h.slice(2); render(); } });
+window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (CO[h] && (h !== cur || view !== 'read')){ cur = h; view = 'read'; render(); } else if (h.startsWith('v-') && h.slice(2) !== view && ['compare','lic','rules','brief','cmp3','qa'].includes(h.slice(2))){ view = h.slice(2); render(); } });
 })();
 </script>
