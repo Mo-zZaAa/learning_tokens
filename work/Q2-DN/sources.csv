@@ -1,0 +1,5 @@
+"source_id","제목","발행 주체","발행일","출처 종류","언어","링크","저장 파일 경로","캡처 파일","접근 결과","열람 일시"
+"Q2DN-S01","Dinari platform page","rwa.xyz","","데이터 집계 사이트","en","https://app.rwa.xyz/platforms/dinari","scratchpad/dn2/dl/rwa_dinari.html","","열람 성공(curl 200)","2026-11-17"
+"Q2DN-S02","Tokenized Stocks","rwa.xyz","","데이터 집계 사이트","en","https://app.rwa.xyz/stocks","scratchpad/dn2/dl/rwa_stocks.html","","열람 성공(curl 200)","2026-11-17"
+"Q2DN-S03","Daily Treasury Bill Rates 2026","U.S. Department of the Treasury","2026-11-17","정부 기관","en","https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_bill_rates&field_tdr_date_value=2026&page&_format=csv","scratchpad/dn2/tbill_2026.csv","","열람 성공(curl 200)","2026-11-17"
+"Q2DN-S04","카카오페이증권과 디나리, 한국 주식에 대한 글로벌 접근성 확대 위해 협력","Dinari(PR Newswire 배포)","2026-09-29","회사 보도자료","ko","https://www.prnewswire.com/kr/news-releases/uCE74uCE74uC624uD398uC774uC99DuAD8CuACFCu002DuB514uB098uB9ACu002Cu002DuD55CuAD6Du002DuC8FCuC2DDuC5D0u002DuB300uD55Cu002DuAE00uB85CuBC8Cu002D-302892876.html","scratchpad/dn2/dl/prn_kr.html","","열람 성공(curl 200)","2026-11-17"
