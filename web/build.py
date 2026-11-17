@@ -530,7 +530,7 @@ def main():
 
     sys.path.insert(0, str(ROOT / "web"))
     import brief_data
-    data = {"companies": companies, "imgs": IMGS, "terms": terms, "log": log, **extra_data(), "briefs": brief_data.build(), "cmp3": (ROOT / "briefs/KDX_가상자산거래소3곳_비교브리핑_261117.md").read_text(encoding="utf-8"), "qa": (ROOT / "briefs/PM_질문과_짚을점_261117.md").read_text(encoding="utf-8"), "strat": (ROOT / "briefs/00_전략_한눈에.md").read_text(encoding="utf-8"), "parts": (ROOT / "briefs/KDX_스토리라인_파트별_해외사례_261117.md").read_text(encoding="utf-8"), "facts": [[f["fact_id"], f.get("회사") or "", re.sub(r"\s+", " ", f.get("무엇을") or "")[:400], f.get("기준일") or f.get("시작(연월)") or "", (f.get("링크") or "").split(";")[0].strip()] for f in facts.values() if (f.get("무엇을") or "").strip()]}
+    data = {"companies": companies, "imgs": IMGS, "terms": terms, "log": log, **extra_data(), "briefs": brief_data.build(), "cmp3": (ROOT / "briefs/KDX_가상자산거래소3곳_비교브리핑_261117.md").read_text(encoding="utf-8"), "qa": (ROOT / "briefs/PM_질문과_짚을점_261117.md").read_text(encoding="utf-8"), "strat": (ROOT / "briefs/00_전략_한눈에.md").read_text(encoding="utf-8"), "parts": (ROOT / "briefs/KDX_스토리라인_파트별_해외사례_261117.md").read_text(encoding="utf-8"), "core": (ROOT / "briefs/00_브리핑_핵심_261117.md").read_text(encoding="utf-8"), "facts": [[f["fact_id"], f.get("회사") or "", re.sub(r"\s+", " ", f.get("무엇을") or "")[:400], f.get("기준일") or f.get("시작(연월)") or "", (f.get("링크") or "").split(";")[0].strip()] for f in facts.values() if (f.get("무엇을") or "").strip()]}
     tpl = (WEB / "template.html").read_text(encoding="utf-8")
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     html = tpl.replace("/*__DATA__*/null", payload)

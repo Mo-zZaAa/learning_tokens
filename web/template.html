@@ -470,6 +470,35 @@ mark.shl-first{outline:2px solid #f08c00}
 .memopop .row .pri{background:var(--accent);color:#fff;border-color:var(--accent)}
 @media (max-width:760px){.gsearch input{width:150px}}
 @media print{.chat-fab,.chat,.selmemo,.memopop,.gsearch{display:none!important}}
+
+/* 브리핑 핵심 */
+.brief .cintro{color:var(--muted);font-size:13.5px;margin:-4px 0 10px}
+.brief .cjump{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.brief .cjump a{cursor:pointer;font-size:13px;font-weight:700;border:1px solid var(--line);border-radius:14px;padding:2px 10px;background:var(--panel);color:var(--accent)}
+.brief .ccard{background:var(--panel);border:1px solid var(--line);border-top:5px solid var(--accent);border-radius:12px;padding:12px 18px 14px;margin:0 0 18px}
+.brief .ccard.call{border-top-color:var(--pi-edge);background:var(--keybox)}
+.brief .cch{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.brief .cch h2{font-size:20px;margin:2px 0 8px;color:var(--accent)}
+.brief .cgo{margin-left:auto;border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent);border-radius:8px;padding:4px 10px;font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+.brief .cthree{background:var(--keybox);border:2px solid var(--pi-edge);border-radius:10px;padding:8px 14px 8px;margin:0 0 12px}
+.brief .cthree .ctl{font-size:12px;font-weight:800;color:var(--orange);letter-spacing:.04em}
+.brief .cthree ol{margin:4px 0 2px;padding-left:1.3em}
+.brief .cthree li{font-size:16px;font-weight:700;line-height:1.65;margin:3px 0}
+.brief .cbody ul{margin:2px 0;padding-left:1.25em;line-height:1.7}
+.brief .cbody > ul{padding-left:0;list-style:none}
+.brief .cbody li.cl0{margin:10px 0 4px;font-size:15.5px}
+.brief .cbody li.cl0:not(:has(> .cn))::before{content:"• ";color:var(--accent);font-weight:800}
+.brief .cbody li.cl0 > .cn{display:inline-block;min-width:1.8em;font-weight:800;color:var(--accent)}
+.brief .cbody li.cl1{font-size:14.5px;margin:3px 0}
+.brief .cbody li.cl2,.brief .cbody li.cl3{font-size:14px;color:var(--muted);margin:1px 0}
+.brief .cbody li .cn{font-weight:700;color:var(--muted);margin-right:5px;font-size:.92em}
+.brief .cbody .clab{font-weight:800}
+.brief .cbody li.judge{color:var(--faint)}
+.brief .cbody li.judge > ul{color:var(--ink)}
+.brief .cbody .cd{color:var(--accent);font-weight:600}
+.brief details.cfold{margin:0 0 12px;border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:8px 14px}
+.brief details.cfold > summary{cursor:pointer;font-weight:800;color:var(--accent);font-size:15px}
+.brief details.cfold[open] > summary{margin-bottom:8px}
 .cmp3 .lbl{font-weight:800}
 .cmp3 blockquote.cq{margin:8px 0 10px;padding:8px 14px;border-left:4px solid var(--accent);background:var(--accent-soft);border-radius:6px;font-weight:600;line-height:1.7}
 .cmp3 .ckey{background:var(--keybox);border:2px solid var(--pi-edge);border-radius:10px;padding:4px 16px 8px;margin:10px 0 14px}
@@ -1269,7 +1298,52 @@ function renderQa(){
 }
 
 // ---------- 브리핑 탭 ----------
-let briefCur = 'strat';
+let briefCur = 'core';
+// 브리핑 핵심(briefs/00_브리핑_핵심_261117.md): 회사별 세 줄과 번호 서사, 문구 그대로
+function parseCore(src){
+  const L = (src || '').split('\n'); const out = {intro: '', cos: [], all: null}; let c = null, mode = '';
+  for (let i = 0; i < L.length; i++){
+    const l = L[i];
+    if (i === 0 && l.trim()){ out.intro = l.trim(); continue; }
+    const mh = l.match(/^\d+\.\s+(Kraken|Binance|Coinbase|Robinhood|Dinari|Ondo)\b/);
+    if (mh && /^세 줄\s*$/.test((L[i+1] || '').trim())){ c = {key: mh[1], title: l.trim(), three: [], body: []}; out.cos.push(c); mode = 'head'; continue; }
+    if (/^여섯 회사를 한 번에/.test(l)){ c = {key: 'all', title: l.trim(), three: [], body: []}; out.all = c; mode = 'all'; continue; }
+    if (!c) continue;
+    if (mode === 'head' && /^세 줄\s*$/.test(l.trim())){ mode = 'three'; continue; }
+    if (mode === 'three' && /^\*\s/.test(l)){ c.three.push(l.replace(/^\*\s+/, '')); continue; }
+    if (mode === 'three' && /^\d+\.\s/.test(l)) mode = 'body';
+    if ((mode === 'body' || mode === 'all') && l.trim()) c.body.push(l);
+  }
+  return out;
+}
+function coreFmt(t){ return esc(t).replace(/((?:19|20)\d\d(?:-\d\d)?(?:-\d\d)?(?: Q\d)?)/g, '<span class="cd">$1</span>'); }
+function coreBody(lines){
+  let h = '', stack = [];
+  lines.forEach(raw => {
+    const sp = raw.match(/^(\s*)/)[1].length;
+    const isStar = /^\s*\*\s/.test(raw);
+    const d = isStar ? Math.round(sp / 3) + (raw.trim().startsWith('*') && sp === 0 ? 0 : 0) : 0;
+    let t = raw.replace(/^\s*\*\s+/, '').trim();
+    if (!stack.length || d > stack[stack.length-1]){ h += '<ul>'; stack.push(d); }
+    else { h += '</li>'; while (stack.length > 1 && d < stack[stack.length-1]){ h += '</ul></li>'; stack.pop(); } }
+    let num = '';
+    const mn = t.match(/^(\d+(?:-\d+)?\.)\s+(.*)$/); if (mn){ num = mn[1]; t = mn[2]; }
+    const judge = /^\(판단\)/.test(t) || /^[^:]{0,24}\(판단\)/.test(t);
+    let body;
+    const ml = t.match(/^([^:]{1,30}?):\s(.*)$/);
+    if (d === 0 && ml && !/^\(판단\)/.test(t)) body = `<b class="clab">${coreFmt(ml[1])}:</b> ${coreFmt(ml[2])}`;
+    else if (d === 0 && !/^\(판단\)/.test(t)) body = `<b class="clab">${coreFmt(t)}</b>`;
+    else body = coreFmt(t);
+    h += `<li class="cl${d}${judge ? ' judge' : ''}">${num ? `<span class="cn">${esc(num)}</span>` : ''}${body}`;
+  });
+  if (stack.length){ h += '</li>'; while (stack.length > 1){ h += '</ul></li>'; stack.pop(); } h += '</ul>'; }
+  return h;
+}
+function coreCard(c, withLink){
+  return `<section class="ccard" id="core-${esc(c.key)}"><div class="cch"><h2>${esc(c.title)}</h2>${withLink ? `<button type="button" class="cgo" data-brief="${esc(c.key)}">자세히(전략 카드, 근거) →</button>` : ''}</div>
+    <div class="cthree"><div class="ctl">세 줄</div><ol>${c.three.map(x => `<li>${coreFmt(x)}</li>`).join('')}</ol></div>
+    <div class="cbody">${coreBody(c.body)}</div></section>`;
+}
 // 회사별 전략 한눈에(briefs/00_전략_한눈에.md): 정체, 흐름, 해설, 기둥별 행보
 function parseStrat(src){
   const out = {common: '', money: '', cos: {}}; let co = null, sec = '';
@@ -1358,19 +1432,26 @@ function bTable(rows){
 }
 function renderBrief(){
   const B = D.briefs || {cos: []};
-  const tabs = [['strat','전략 한눈에'], ...B.cos.map(c => [c.name, c.name]), ['ats','야간 ATS']];
+  const CORE = parseCore(D.core);
+  const order = CORE.cos.map(c => c.key).filter(k => B.cos.find(x => x.name === k)).concat(B.cos.map(c => c.name).filter(n => !CORE.cos.find(c => c.key === n)));
+  const tabs = [['core','핵심'], ...order.map(n => [n, n]), ['ats','야간 ATS'], ['strat','전략 카드 모음']];
   const S = parseStrat(D.strat);
   let h = `<div class="page brief"><div class="bnav">${tabs.map(([k,l]) => `<button type="button" data-brief="${esc(k)}" aria-current="${briefCur===k}">${esc(l)}</button>`).join('')}</div>`;
   if (briefCur === 'axes') h += `<h1>승인된 축과 가설</h1>` + bTable(B.axes);
   else if (briefCur === 'pillars') h += `<h1>9곳 전략 틀 비교</h1>` + bTable(B.pillars) + (B.pillars_read||[]).map(x => `<div class="bl"><span class="bm">•</span><span>${esc(x)}</span></div>`).join('');
   else if (briefCur === 'ats') h += `<h1>야간 ATS 3곳</h1>` + bBlocks(B.ats||[]);
+  else if (briefCur === 'core') h += `<h1>브리핑 핵심</h1><p class="cintro">${esc(CORE.intro)}</p><div class="cjump">${CORE.cos.map(c => `<a data-jump="core-${esc(c.key)}">${esc(c.key)}</a>`).join('')}${CORE.all ? '<a data-jump="core-all">여섯 회사를 한 번에</a>' : ''}</div>` + CORE.cos.map(c => coreCard(c, true)).join('') + (CORE.all ? `<section class="ccard call" id="core-all"><div class="cch"><h2>${esc(CORE.all.title)}</h2></div><div class="cbody">${coreBody(CORE.all.body)}</div></section>` : '');
   else if (briefCur === 'strat') h += `<h1>회사별 전략 한눈에</h1><div class="scommon">${stratFmt(S.common)}</div>${S.money ? `<div class="scommon smon"><span class="mbadge">돈</span>${stratFmt(S.money)}</div>` : ''}<div class="sgrid">${B.cos.map(c => `<div class="sgi">${stratCard(S.cos[c.name])}<button type="button" class="sgo" data-brief="${esc(c.name)}">${esc(c.name)} 브리핑 열기</button></div>`).join('')}</div>`;
-  else { const c = B.cos.find(x => x.name === briefCur); if (c) h += `<div class="bwrap"><div class="bmain"><h1>${esc(c.name)} 브리핑</h1>` + bBlocks(c.blocks) + `</div><aside class="bside">${stratCard(S.cos[c.name], true)}</aside></div>`; }
+  else { const c = B.cos.find(x => x.name === briefCur); const cc = CORE.cos.find(x => x.key === briefCur);
+    if (c) h += `<h1>${esc(c.name)} 브리핑</h1>` + (cc ? coreCard(cc, false) : '') +
+      `<details class="cfold"><summary>전략 카드: 전략 틀이 바뀐 흐름, 해설, 기둥별 행보</summary>${stratCard(S.cos[c.name])}</details>` +
+      `<details class="cfold"><summary>상세 브리핑: 서사 전체와 근거, 원문 링크, 캡처</summary>${bBlocks(c.blocks)}</details>`; }
   h += '</div>';
   $('#main').innerHTML = h;
 }
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-brief]'); if (b){ briefCur = b.dataset.brief; renderBrief(); window.scrollTo(0,0); return; }
+  const cj = e.target.closest('.cjump [data-jump]'); if (cj){ const el = document.getElementById(cj.dataset.jump); if (el) el.scrollIntoView({behavior:'smooth', block:'start'}); return; }
   const z = e.target.closest('.bimg img'); if (z){ const m = document.createElement('div'); m.className = 'zoom'; m.innerHTML = `<img src="${z.getAttribute('src')}" alt="">`; m.addEventListener('click', () => m.remove()); document.body.appendChild(m); }
 });
 
@@ -1410,10 +1491,11 @@ const IDX = [];
       if (t.length > 3) IDX.push({k:label, w:head, t, go: v === 'strat' ? {view:'brief', brief:'strat'} : {view:v}});
     });
   });
+  (function(){ let co = ''; (D.core||'').split('\n').forEach(l => { const m = l.match(/^\d+\.\s+(Kraken|Binance|Coinbase|Robinhood|Dinari|Ondo)\b/); if (m){ co = m[1]; return; } if (/^여섯 회사를 한 번에/.test(l)){ co = 'core'; return; } const t = clean(l.replace(/^\s*\*\s*/, '')); if (co && t.length > 3 && t !== '세 줄') IDX.push({k:'브리핑 핵심', w: co === 'core' ? '여섯 회사를 한 번에' : co, t, go:{view:'brief', brief: co}}); }); })();
   (D.facts||[]).forEach(f => IDX.push({k:'사실 DB', w:f[1], t:f[2], id:f[0], date:f[3], url:f[4]}));
   IDX.forEach(x => x.l = (x.w + ' ' + x.t + ' ' + (x.id||'')).toLowerCase());
 })();
-const KIND_W = {'브리핑':6, '전략 한눈에':6, '질문과 답':5, '거래소 3곳 비교':5, '파트별 해외 사례':5, '본문':3, '사실 DB':2};
+const KIND_W = {'브리핑 핵심':8, '브리핑':6, '전략 한눈에':6, '질문과 답':5, '거래소 3곳 비교':5, '파트별 해외 사례':5, '본문':3, '사실 DB':2};
 function searchIdx(q, n, any){
   const toks = String(q||'').toLowerCase().split(/[\s,.?!]+/).map(x => x.replace(/(은|는|이|가|을|를|의|에|에서|와|과|로|으로|도|만)$/, '')).filter(x => x.length >= 1);
   if (!toks.length) return [];
@@ -1463,7 +1545,7 @@ function renderSearch(){
   if (q.length < 2){ box.hidden = true; return; }
   const R = searchIdx(q, 60); gLast = R;
   const groups = {}; R.forEach((x,i) => (groups[x.k] = groups[x.k] || []).push([x,i]));
-  const order = ['전략 한눈에','브리핑','질문과 답','거래소 3곳 비교','파트별 해외 사례','본문','사실 DB'];
+  const order = ['브리핑 핵심','전략 한눈에','브리핑','질문과 답','거래소 3곳 비교','파트별 해외 사례','본문','사실 DB'];
   let h = `<div class="ghead"><b>"${esc(q)}"</b> ${R.length}건${R.length >= 60 ? ' 이상' : ''}<button type="button" class="gask" data-gask="1">질문 창에 묻기</button><button type="button" class="gx" data-gx="1" aria-label="닫기">✕</button></div>`;
   if (!R.length) h += '<div class="gempty">찾은 것이 없습니다. 낱말을 줄여 보세요.</div>';
   order.filter(k => groups[k]).forEach(k => {
