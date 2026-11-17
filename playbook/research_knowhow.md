@@ -111,3 +111,86 @@
 - 병렬 담당은 scratchpad/<담당>/ 하위 폴더를 처음부터 쓴다.
 - 전체 그림(ov-) 줄은 다른 파일이 링크하지 않으면(`grep -rn "{ov-" companies kb` 0건) 과감하게 합칠 수 있다. 회사별 연표는 회사마다 ★ 한 줄 "시점 항목(방법) → ..."에 그 회사 범위 장 주장 줄 링크 하나. 같은 문장 틀을 반복하는 묶음은 한 줄에 회사별 괄호로.
 - 뜻 줄을 지우기 전에 db/terms.csv의 용어 칸을 검색한다(화면 용어 풀이에 있으면 지움). check_body는 전체 그림의 근거 없는 ● 줄도 잡으니 정의 ● 줄에는 관련 본문 링크를 붙인다.
+
+## 11. 스토리라인 리서치(회사별 막힌 곳, 통한 경로, 함정, 2026-11-17)
+공통: 회사 "왜"는 회사 블로그, 실적 서한 전수(sitemap)에서, 인가 순서의 이유는 회사가 말하지 않으면 제도의 처리 기간(eCFR, FINRA 규칙)으로, 막힌 매체는 같은 기사를 실은 전재 사이트로. 축과 어긋나는 사실(자체 앱, 자체 거래 플랫폼)은 최근 6개월 글에 있으니 축을 쓰기 전에 훑는다.
+
+### Binance
+## 통한 경로
+- binance.com 블로그와 공지는 curl에 202(봇 확인)로 막힘. Binance 보도자료는 prnewswire.com/news/binance/ 목록 페이지에 최근 20건 주소가 모두 있고, 각 보도자료 본문이 curl로 열림(옵션 출시, TradFi 무기한선물, 9주년, 첫 주 주식 데이터, Binance Pay, Capital Connect). AAP(aap.com.au, aapnews.aap.com.au) 사본도 열림.
+- Binance 보도자료의 회사 숫자(주식 연계 무기한선물 월 거래대금, 기관 이용자 증가율, 슈퍼앱 목표)는 같은 날 매체 기사가 그대로 옮기므로 보도자료 원문을 1차로 쓴다.
+- ESMA MiCA 등록부 CASPS.csv(Last-Modified로 기준일)를 grep하면 "MiCA 인가 없음"을 1차로 확인할 수 있다(Binance 0행).
+- cointelegraph.com, decrypt.co, kitco.com, financemagnates.com, news.bizwatch.co.kr, thenationalnews.com은 curl로 열림. theblock.co는 경로에 따라 403(www 없는 news 경로와 post 경로).
+- 아부다비 정부 미디어오피스(mediaoffice.abudhabi) 보도문에 UAE 직원 수(5,000명 중 1,000명)가 있어 Khaleej Times 단일 출처를 1차로 올릴 수 있었음.
+
+#### 함정
+- 기존 DB와 본문은 Binance 주식 무기한선물 시작을 2026-10-29로 적었으나, 2026-09-01 옵션 보도자료에 2026-01 주식 연계 무기한선물 거래대금(4.109억 달러)이 있고 TradFi 무기한선물 상품군은 2026-01-08(금, 은)부터임. 10-29와 11-12는 종목 추가 공지. 2층 문구 정정 필요(이번 범위 밖이라 고치지 않음).
+- Finance Magnates 기사 날짜(2026-07-15)와 내용(6월 출시)이 어긋남. 매체 날짜보다 보도자료 날짜를 기준으로 쓴다.
+- 회사 9주년 보도자료의 "가상자산 보유자의 43%"는 회사 추산(분모 7.41억 명은 업계 추정)이라 회사 주장으로만.
+
+### Coinbase
+## 막힌 곳과 통한 경로
+| 막힌 곳(응답) | 통한 경로 | 비고 |
+|---|---|---|
+| coinbase.com/blog(403) | Markets Media가 "By Coinbase"로 전문 전재(INTX 출범, Coinbase Clearing 승인, tGBP 상장). curl로 열림 | 회사 발표 문장 그대로라 1차 확인으로 씀 |
+| investor.circle.com(403) | circle.com/blog 같은 글(2023-08-21 USDC 다음 장, 두 CEO 공동 서명) | Circle과 Coinbase 수익 배분 원문 |
+| theblock.co(curl 403, WebFetch DNS 실패) | 같은 사건의 cointelegraph, decrypt, financemagnates 기사 | 셋 다 curl 200 |
+| cftc.gov DCO 등록 명령 PDF(403) | 회사 발표 전재(Markets Media)와 매체 기사 | 등록일은 기존 F-1123 |
+| sec.gov 10-K(403) | FairX 인수 금액(검색 요약 2.75억 달러)은 원문 미확인이라 쓰지 않음 | |
+
+#### 쓸모 있었던 1차 출처 위치
+- Coinbase 과거 주주서한: s27.q4cdn.com/397450999/files/doc_financials/2025/q2/Q2-2025-Shareholder-Letter.pdf, .../2021/q4/Coinbase-Q421-Shareholder-Letter.pdf. 파일 이름 규칙이 분기마다 달라 추측 주소는 404(Q1-2025, Q3-2025, Q4-2024). 검색으로 정확한 이름을 먼저 찾는다.
+- Q2 2025 서한: Everything Exchange 첫 표현(p.7), 파생을 키우는 이유(75%, p.8), 스테이블코인 수익을 플랫폼 안과 밖 USDC로 나눈 표(p.4~6), ETF 보관 점유율 80% 이상(p.6).
+- Q4 2021 서한 p.10 표: 상장 첫해 수익 구성(거래 93%, 구독과 서비스 7%)과 2020 비교. "반복 수익이라 안정" 문장(p.11).
+- Q3 2026 AMA, 분석가 콜 녹취(inputs/manual/B03_*): Circle 관계(협력과 경쟁, 50%, 30%), 청산소를 받은 이유(예측시장 자체 계약), 결제 계약사, Everything Exchange 외환 발언.
+
+#### 함정
+- The Clearing Company(2025-11 DCO 신청 발표)와 Coinbase Clearing LLC(CFTC 신청일 2025-11-14)가 같은 신청인지 공개 자료로 확인되지 않는다. 검색 요약 둘이 서로 반대로 말했다. 별개 사실로 쓰고 잇지 않는다.
+- link_story.py는 링크 칸이 로컬 경로인 사실(주주서한 PDF 등)을 대괄호 없는 번호로 바꾼다. 한 줄에 그런 번호만 있으면 check_story가 "근거 없음"으로 잡으므로 링크가 있는 사실을 같이 붙이고, 남은 번호 뒤에 "(주주서한 PDF)"처럼 출처 종류를 붙였다.
+- 새 사실의 링크를 IR 폴더 주소(.../2026/q3/)로 두면 기존 F-1221, F-1222와 같은 방식으로 링크가 걸린다(원문 위치 칸에 로컬 파일 이름).
+- 외환(FX)은 2026 우선순위 정의에만 있고 출시 상품은 없다(tGBP 상장, CEO 발언 수준). 기둥별 실현 여부를 볼 때 "이름뿐인 기둥" 후보로 먼저 표시한다.
+
+### Dinari
+## 통한 경로
+- Reuters 기사 원문(reuters.com)은 막히나, 같은 기사를 실은 지역 방송 사이트(whbl.com 등 Reuters 전재)가 curl로 열림. 본문은 HTML 안 기사 블록에서 "By <기자> (Reuters)" 이후를 잘라 읽음.
+- 인가 "순서의 이유"는 회사가 말하지 않으면 제도의 처리 기간으로 근거를 세움: 명의개서대리인 등록 효력(17 CFR 240.17Ac2-1, 제출 30일째, eCFR renderer API로 열림)과 FINRA 신규 회원 심사(FINRA Rule 1014, finra.org 규칙 페이지 curl로 열림). 회사 사실(법인 설립일, 승인일)과 나란히 두면 해석 근거가 됨.
+- Alpaca 비교: docs.alpaca.markets/docs/about-broker-api(이용 형태 증권사, RIA), alpaca.markets/tokenization(토큰 발행자 아님 고지) 둘 다 curl로 열림.
+- Dinari 사이트 전수조사 저장본(KDX_사이트전수조사_인수인계/work/dinari/raw/)에 블로그, 사례 연구, docs가 다 있어 "왜" 문장(B2B 이유, 목표 문장, 파트너 KYC 방식)을 grep으로 찾는 것이 가장 빠름. 자체 앱 존재는 sbt.dinari.com, app.dinari.com 저장본 제목("Dinari Trading App")과 2023 추천 프로그램 글로 확인.
+
+#### 막힌 곳
+- theblock.co, thedefiant.io, blockworks.co, fortune.com, cryptonews.com, sec.gov(SEC Crypto Task Force의 WilmerHale Dinari 메모 2025-05) 모두 403 또는 허용 밖. WebFetch는 blockworks.co DNS 실패(세션 허용 밖).
+- 창업자가 명의개서대리인을 먼저 받은 이유를 직접 말한 원문은 찾지 못함(Fortune 2026-08-04 기사에 관련 발언이 있다는 검색 요약만 있음, 403). 사용자 로컬 브라우저 과제 후보.
+
+#### 함정
+- 회사가 "자기 고객 화면 없음"처럼 보여도 자체 앱이 있음(2023 자체 웹 앱, 2026 미국판 Dinari Trading App). 축 문장과 어긋나는 사실은 스토리라인에서 "자체 앱과 파트너 판매 비중은 공개 없음"으로 정직하게 적음.
+- 사례 연구 거래대금은 파트너마다 집계 기간이 다름(Cadana 2026-01-01~06-15, Meru 2026-01-01~07-15, Hyperliquid 첫 달 기준일 미표시). 합산하지 않음.
+- 판매 국가 수는 글마다 다름(60+, 70+, 85+, 91, 92). 시점과 기준을 붙여 나열하고 하나로 고르지 않음.
+
+### KR
+- payward.com 전수 목록: www.payward.com/sitemap.xml은 301로 /sitemaps/sitemap.xml에 감(curl -L). 보도자료 약 80건 주소가 다 나옴. 분기 실적은 press-release/q1-2026-financial-highlights, q2-2026-financial-highlights, payward-q3-2026-financial-highlights, 2025-financial-highlights.
+- 사업 기둥의 첫 시점: Q2 2026 서한(2026-08-14)이 네 기둥을 처음 정의, Q1 2026(2026-05-18)은 Direct to Consumer와 B2B 두 묶음. Q3(2026-11-13)에 AI가 다섯째. 코인데스크 인터뷰(2026-09-26)는 재설명.
+- 수익 지표가 Q3에 바뀜: Q2까지 조정매출 기준 "Asset-Based and Other Revenue" 비중(55%에서 60%), Q3부터 TPM 기준 거래, 자산, 접근 세 갈래(46%, 50%, 52%). 두 계열은 이어 붙이지 않는다. 각 정의 원문은 Q3 본문과 각주 [3], [6], [8].
+- payward.com/asset-management, /banking 페이지에 "Coming soon" 표기가 있어 이름뿐인 기둥 판단의 1차 근거가 됨.
+- 함정: xStocks EU 판매 시작은 2025-09-10(blog.kraken.com/product/xstocks/now-available-to-eu-clients, PEDSL CySEC). Backed 투자설명서의 2026-05-04 계약은 지정참가자(AP) 계약이지 판매 시작이 아님.
+- EU 파생 출시 1차: blog.kraken.com/news/euro-reg-futures(2025-05-20). Business Wire 원문은 403.
+- 경쟁 B2B 인프라 공식 홈페이지는 curl로 열림: zerohash.com, paxos.com, anchorage.com, bitgo.com, fireblocks.com, alpaca.markets/broker. coinbase.com은 403이라 docs.cdp.coinbase.com(및 /llms.txt)과 Markets Media 기사(CaaS, 2025-08-04)로 대신함.
+- Gemini 블로그(gemini.com/blog/...)는 curl로 열림. 2025-06-27 EU MSTR 1종목, Dinari 발행.
+- 공유 scratchpad 루트에 둔 스크립트를 다른 담당이 덮어씀(h2t.py). 담당별 하위 폴더에 스크립트까지 두어야 함.
+- B2B 이용사 수는 발언마다 다름: Reap 인수 발표(2026-05-07) Sethi "1,900 B2B partners", 코인데스크(2026-09) "최소 25곳". 하나로 고르지 않음.
+
+### Ondo
+- Ondo 블로그 전수: ondo.finance/sitemap.xml 안 blog 주소 약 190건, curl로 본문이 서버 렌더되어 열림. 날짜는 본문의 "분류 • Mon D, YYYY" 줄로 확인. 비전, 계획 변경, 유통처 발표가 거의 다 여기에 있음.
+- 옛 글 제목이 새 이름으로 바뀌어 있음(2024-02 "Introducing Ondo Global Markets" 주소는 그대로인데 화면 제목은 "Introducing Ondo Stocks"). 주소 슬러그로 옛 이름과 첫 발표 시점을 가린다.
+- 비전, 미션 원문: 2024-01-11 ondos-journey-vision...(발행 플랫폼 수렴 전망, 상장 증권 100조 달러), 2025-02-03 towards-the-open-economy(미션 문장), 2025-02-04 global-markets(설계 변경 이유), 2026-06-01 onward-...(위층 이동). "왜 오래 걸렸나"는 계획 발표 글과 출시 글을 나란히 보면 나온다(허가형 → 자유 이전 토큰).
+- 유통처가 밝힌 수치는 유통처 공식 글로 1차 승격: Bitget 안 Ondo 비중 73%에서 89%는 bitget.com/blog/articles/bitget-tokenized-stocks-etfs-ondo-expansion(2026-03-17)에 원문이 있음(기존 CFOtech 보도 대체 가능).
+- 회사 발표 보유자 수는 시점마다 정의가 다름(2026-08 "holders" 186,636, 2026-10 "cumulative holders" 45만 이상). 이어 쓸 때 정의를 같이 적는다.
+- 회사 TVL(Ondo 발표 13억 달러)과 rwa.xyz 분산 가치(8.99억 달러)는 기준이 달라 같은 줄에서 순위 비교에 쓰지 않는다.
+- 함정: "자기 거래소 없음" 축과 어긋나는 사실(2026-07 Ondo Perps 직접 운영, Oasis Pro ATS 보유)이 블로그 뒤쪽 글에 있음. 축 서술 전에 최근 6개월 글을 훑는다.
+
+### Robinhood
+- robinhood.com/newsroom/<slug>/ 는 curl로 열림(investors.robinhood.com, globenewswire.com은 403). 글 목록은 사이트 전수조사 inventory.csv의 sitemap-newsroom.xml 행(473건)에서 slug로 찾는다. 2016 Gold, 2017 옵션, 2018 가상자산, 2018 자체 청산, 2019 영국 발표, 2022 Ziglu, 2023 X1 같은 옛 글도 남아 있다. 날짜는 HTML 안 "datePublished".
+- 과거 실적 발표: 전수조사 사본에 2023 Q1에서 Q4, 2026 Q2, Q3 보도자료가 있다. 2024 Q4 보도자료는 GlobeNewswire 배포본을 실은 manilatimes.net(tmt-newswire/globenewswire 경로)가 curl로 열림.
+- 10-Q(node__16931__html.md) MD&A에 매출 항목별 비중 표(옵션, 이벤트 계약, 암호화폐, 주식, 순이자 세부, 기타 안 Gold 구독료)가 있다. 수익 구성 변화는 이 표와 2023 보도자료를 이어 쓰면 된다. 위험요인에 창업자 의결권(12% 지분, 50% 초과 의결권), 규제 절에 Bitstamp 법인별 인가가 있다.
+- 사업 기둥 원문은 2026 Q2, Q3 보도자료 Highlights 표제(#1 Platform for Active Traders, #1 in Wallet Share for the Next Generation, #1 Global Financial Ecosystem). 처음 쓴 시점을 보도자료로 확정하지 못함(2024 Q4 보도자료는 Active Traders 표제만). 통화 녹취 사이트(roic.ai, marketbeat)와 investing.com은 403.
+- 막힌 매체: theblock.co, crowdfundinsider, blockworks(403), yahoo(429). 같은 사건은 financemagnates.com, bankingdive.com, amp.cnn.com이 열림.
+- 함정: Robinhood 예측시장은 Kalshi를 대체한 것이 아니라 Kalshi, ForecastEx, Rothera, Crypto.com으로 나눠 보냄(2026-09 뉴스룸). "파트너 뒤 인수"를 "교체"로 쓰지 않는다.
