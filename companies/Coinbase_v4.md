@@ -111,13 +111,13 @@
   ![발언 2](../captures/quotes/Coinbase_04.png)
 ● 서류 대조(발언 2) : 말은 진짜 주식, 서류는 수익권 [F-1059][F-0079]
   ★ 서류 : 투자설명서는 SPV 보관 기초주의 비례 수익권, 직접 투자 아님 [F-0079][F-0081]
-● 발언 4 : 합성이 아닌 진짜 증권이 이긴다 [F-1061]
+● 발언 3 : 합성이 아닌 진짜 증권이 이긴다 [F-1061]
   ★ Brian Armstrong(공동 창업자 겸 CEO), 실적 AMA(2026 Q3), 2026-10-29, 녹취(../inputs/manual/B03_coinbase_Q3_26_AMA_transcript.pdf) [F-1061]
     ① 원문 : "these tokenized equities that we put out, they're real deal securities. You can get the upside from dividends. We're implementing voting rights, things like that. [...] as the largest custodian in crypto, the most trusted brand in crypto, this is actually something that we're uniquely good at and have a right to win."
     ② 번역 : 우리가 낸 주식 토큰은 진짜 증권이다. 배당 이익을 받고 의결권도 구현 중이다. 크립토 최대 수탁기관이자 가장 신뢰받는 브랜드로서 잘할 수 있는 영역이다.
     ③ 해석 : 핵심은 실물 권리형 주식 토큰. 그래서 배당, 의결권, 상환과 수탁 신뢰로 차별화
-  ![발언 4](../captures/quotes/Coinbase_06.png)
-● 서류 대조(발언 4) : 의결권은 직접 아닌 지시 반영, 배당은 재투자 [F-1061][F-0086]
+  ![발언 3](../captures/quotes/Coinbase_06.png)
+● 서류 대조(발언 3) : 의결권은 직접 아닌 지시 반영, 배당은 재투자 [F-1061][F-0086]
   ★ 서류 : 의결권 직접 없음, 현금 배당 없이 재투자 [F-0086][F-0753]
 
 ## A 출신과 진입(주식 토큰 사업)
@@ -135,7 +135,7 @@
   ★ 투자자 : SPV가 Alpaca에 맡긴 기초주의 비례 수익권 [F-0995]
   ★ ADGM 증서(Certificate over Shares), 기초주 직접 투자 아님 [F-0079]
   ★ 유형 : 제3자 보관형(원주를 SPV가 신탁으로 1:1 보유, 제한소구) [F-0995]
-  - 뜻 : 제3자 보관형 = 기초 주식을 발행사나 수탁기관이 따로 보관하고 투자자는 그 주식의 수익권을 가진 유형(이 문서의 분류). 제한소구 = 발행사가 갚을 책임이 보관 주식의 가치까지로 제한됨 [F-0995]
+  - 뜻 : 제3자 보관형 = 기초 주식을 발행사나 수탁기관이 따로 보관하고 투자자는 그 주식의 수익권을 가진 유형. 제한소구 = 발행사가 갚을 책임이 보관 주식의 가치까지로 제한됨 [F-0995]
 ● 발행 주체와 보관
   ★ 발행 : SPV(Coinbase Onchain SPV), 토큰 발행과 장부는 OML(Onchain Marketplace) [F-0076][F-0082]
   ★ 보관 : 기초주는 SPV 명의 분리 계좌, 파산 격리 [F-0081][F-0742]
@@ -171,7 +171,7 @@
 ## E 인가
 ● 주장 : 미국은 인수와 직접 등록으로 쌓고, 토큰 발행은 ADGM 법인 [F-1120][F-1123][F-0082]
 ● 미국 인가(확보 방식과 시점)
-  ★ 미국 거래소, 중개, 청산소와 EU MiCA 인가 : 계기와 열린 것은 사업 범위 장 LINKBLOCK
+  ★ 미국 거래소, 중개, 청산소와 EU MiCA 인가 : 계기와 열린 것은 사업 범위 장 {cb-0431}
 ● 아부다비 인가와 법인
   ★ Onchain Marketplace : FSRA 투자 거래 주선, CSD 수탁 [F-0082]
   ★ 증서 : FSRA가 증권으로 간주, 2026-08-04 투자설명서 승인 [F-0079]
