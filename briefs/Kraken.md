@@ -97,10 +97,10 @@
 - 선정 기준 : 미리 정한 인수 목록 없이 "인프라 공백을 메우는지, 고객이 원하는 역량인지"를 정량적으로 판단하고, 살 수 없는 신뢰는 제휴로 확보함 [F-1349](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
 
 ### 7. 가설: 비상장 모회사였기에 가능했던 속도
-- Payward는 비상장 회사이며(2025-11 상장 서류 비공개 제출, 2027 Q2 전에는 상장 계획 없음), 외부 자금 없이 운영이 가능하고 2026 Q3 조정 EBITDA(이자, 세금, 감가상각 전 이익을 회사 기준으로 조정한 값) 6천만 달러를 냄 [F-1352](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)[F-0180](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
+- Payward는 비상장 회사이며(2025-11 상장 서류를 SEC에 기밀 제출했으나 2027 Q2 전에는 상장 계획 없음), 외부 자금 없이 운영이 가능하고 2026 Q3 조정 EBITDA(이자, 세금, 감가상각 전 이익을 회사 기준으로 조정한 값) 6천만 달러를 냄 [F-1352](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)[F-0180](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
 - 최근 투자자는 Citadel Securities(미국 대형 시장조성 회사), Nasdaq 같은 전통 금융의 전략적 투자자임 [F-1352](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
 - 해석
-  - 분기 실적을 요구하는 공개시장 주주가 없어, 1년 반 동안 공개된 금액만 27.5억 달러가 넘는 인수를 연달아 할 수 있었던 것으로 보임 [F-1355](https://www.tokenpost.kr)
+  - 분기 실적을 요구하는 공개시장 주주가 없어, 1년 반 동안 금액이 알려진 4건만 합쳐도 27.5억 달러가 넘는 인수를 연달아 할 수 있었던 것으로 보임 [F-1355](https://www.tokenpost.kr)
   - Nasdaq, Citadel 같은 주주의 참여가 인가 심사와 제휴에서 전통 금융이 신뢰하는 회사라는 신호가 됨
   - 상장을 미루는 것도 인가를 모두 갖춘 뒤 금융 인프라 회사로 상장하려는 순서로 볼 수 있음
 
@@ -132,10 +132,10 @@
 - 파트너와 결제 : GTN 제휴 1단계로 영국, EU 상장주 200종 이상 xStocks 배포 [F-0174](https://www.payward.com/press-release/xstocks-uk-eu-equities), Reap 기존 인가로 아시아태평양과 미주 확장(2026-07 인수 완료) [F-1256](https://www.payward.com/press-release/payward-reap-close)
 
 ## 3층 (꼬리질문 대비)
-- Q : Bitnomial 인수 금액은? / A : 5.5억 달러, 현금과 주식(코인데스크 보도), 회사 완료 발표에는 금액 없음 [F-1345](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
+- Q : Bitnomial 인수 금액은? / A : 5.5억 달러, 현금과 주식(코인데스크 보도) [F-1345](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
 - Q : 왜 직접 만들지 않고 샀나? / A : 미국 선물 중개업체를 처음부터 세우면 기술과 규제 승인에 비용과 시간이 많이 든다는 Sethi 공동 CEO 설명(코인데스크 보도) [F-1346](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
-- Q : 인수에 쓴 돈은 모두 얼마? / A : 공개 금액만 최소 27.5억 달러(NinjaTrader 15억, Small Exchange 1억, Bitnomial 최대 5.5억, Reap 최대 6억), Backed는 비공개(토큰포스트 보도) [F-1355](https://www.tokenpost.kr)
-- Q : Backed 인수 조건은? / A : 금액 비공개, 2026-01-05경 Payward Europe Limited가 Backed Finance AG 주식 100% 매입 F-0939(Backed 기본 투자설명서 PDF)
+- Q : 인수에 쓴 돈은 모두 얼마? / A : 금액이 알려진 4건 합계 최소 27.5억 달러(NinjaTrader 15억, Small Exchange 1억, Bitnomial 최대 5.5억, Reap 최대 6억, 토큰포스트 보도) [F-1355](https://www.tokenpost.kr)
+- Q : Backed 인수 조건은? / A : 2026-01-05경 Payward Europe Limited가 Backed Finance AG 주식 100% 매입 F-0939(Backed 기본 투자설명서 PDF)
 - Q : xStocks를 사면 주식을 갖나? / A : 아님, 저지 발행사에 대한 상환금 채권, 기초주는 발행사가 1:1 담보로 보유 F-0991(Backed 기본 투자설명서 텍스트), Payward는 발행사 채무를 보증하지 않음 F-0924(Backed 투자설명서 2차 보충서 PDF)
 - Q : SEC와의 문제는? / A : 2023-02 스테이킹 미등록 공모 쟁점으로 합의, 서비스 중단과 3천만 달러 납부 [CASE-003](https://www.sec.gov/newsroom/press-releases/2023-25), 2023-11 별건 소송은 2025-03 취하 [CASE-004](https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26278)
 - Q : 그 밖의 제재 이력은? / A : 2021-09 CFTC 미등록 마진거래 125만 달러, 2022-11 OFAC 이란 제재 위반 36.2만 달러, 2024 호주 ASIC 벌금 800만 호주달러(위키백과 정리) [F-1343](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))
