@@ -1,0 +1,1167 @@
+First Quarter 2022   May 10, 2022
+
+
+
+
+Shareholder Letter
+Fellow
+shareholders,
+                                       The first quarter of 2022 continued a trend of both lower crypto asset prices and volatility
+                                       that began in late 2021. These market conditions directly impacted our Q1 results. But, we
+                                       entered these market conditions with foresight and preparation, and remain as excited as
+                                       ever about the future of crypto. To quote our Prospectus filed over a year ago:
+
+                                       “You can expect volatility in our financials, given the price cycles of the
+                                       cryptocurrency industry. This doesn’t faze us, because we’ve always taken a long-
+                                       term perspective on crypto adoption. We may earn a profit when revenues are high,
+                                       and we may lose money when revenues are low, but our goal is to roughly operate the
+                                       company at break even, smoothed out over time, for the time being. We are looking
+                                       for long-term investors who believe in our mission and will hold through price cycles.”
+
+
+                                          Q1 MTUs and Revenues Down Q/Q; Results Are Within Coinbase Outlook
+                                                                                               Coinbase q1 Outlook  
+                                          Metric                                              Provided february 2022             q1 Actuals
+                                          MTUs                                                         Lower Q/Q                  9.2 million
+                                          Total Trading Volume                                         Lower Q/Q                 $309 billion
+
+                                          Subscription & Services Revenue                              Lower Q/Q                 $152 million
+
+                                          Transaction Expenses                                      Low-to-mid 20s                   24%
+                                          as a percentage of net revenue
+
+                                          Technology & Development, Sales & Marketing,
+                                                                                                   $1.2 to $1.3 billion          $1.2 billion
+                                          and General & Administrative Expenses
+
+
+                                          Sales and Marketing Expenses                                     15-20%                    17%
+                                          as a percentage of net revenue
+
+                                          Stock-based Compensation                                Roughly $360 million           $352 million
+
+
+
+                                          Select Key Business and Financial Metrics
+                                          KEY BUSINESS METRICS                           Q1’21    Q2’21      Q3’21    Q4’21         Q1’22
+
+                                          Monthly Transacting Users MTU (M)                 6.1     8.8        7.4        11.4         9.2
+                                          Trading Volume ($B)                              335      462        327        547         309
+1 For a reconciliation of net income
+                                          Assets on Platform ($B)                          223      180        255        278         256
+  (loss) to Adjusted EBITDA, please
+refer to the reconciliation table in
+the section titled “Reconciliation
+of Net Income (loss) to Adjusted          Financial Metrics ($M)                         Q1’21    Q2’21      Q3’21    Q4’21        Q1’22
+EBITDA”, following the financial
+statements included at the end of
+this shareholder letter. 
+                Net Revenue                                    $1,597 $2,033      $1,235 $2,490          $1,165
+                                          Net Income (Loss)                               $771 $1,606        $406     $840         $(430)
+                                          Adjusted EBITDA1                               $1,117   $1,150      $618 $1,205             $20
+
+
+
+
+                                                                                                                                   Q1 2022      2
+We believe these market conditions are not permanent and we remain focused on
+the long-term. In fact, our investment in our business now is especially critical –
+these periods of low volatility can provide the opportunity to focus more intently
+on product development (as opposed to peak periods, when we are more focused
+on meeting high demand). We approach the opportunities ahead with confidence
+and steady hands.
+
+
+
+To that end, we have made good progress year-to-date, highlighted by the beta
+launch of Coinbase NFT, growth in adoption of Coinbase Wallet, expansion of our
+staking offering through the addition of Cardano, and hiring over 1,200 full-time
+employees to help us build the future of crypto.
+
+
+
+The total crypto market capitalization has swung significantly year-to-date —
+falling nearly 30% in January, recovering somewhat through March, and then
+declining sharply again since April. Crypto asset volatility declined throughout the
+quarter, and in March was at its lowest level since Q4 2020. Q1 total net revenue
+was $1.2 billion — including $1.0 billion in transaction revenue — and MTUs were 9.2
+million, both of which were down compared to Q4, as we had anticipated. 
+
+
+
+Our total Trading Volume declined in-line with total crypto spot market volumes,
+and we gained trading volume market share in 7 of the top 10 assets traded on
+Coinbase (including BTC and ETH). Subscription and services revenue was $152
+million, which represented 13% of total net revenue. Primarily due to lower
+transaction revenue and our commitment to invest heavily this year, our Adjusted
+EBITDA declined to $20 million in Q1. Q1 net loss was $430 million. 
+
+
+
+Coinbase will turn 10 years old this month, which has prompted us to reflect on the
+progress we have made over the last decade, as well as what we want to
+accomplish in the decade ahead. We spent the last decade competing and winning
+the first pillar of our strategy – crypto as an investment – by building tools
+enabling our users to buy, sell, and safely store crypto on our platform. While we
+continue to invest and enhance our core investment platform, the application era
+of crypto is upon us, led by NFTs and decentralized finance, and we are increasingly
+focusing our efforts on these market opportunities. 
+
+
+
+Coinbase has an important role to play in the cryptoeconomy as we execute on the
+second and third pillars of our strategy – crypto as a new financial system and
+crypto as an app platform. We are investing heavily in products such as Coinbase
+Wallet and Coinbase NFT to help us emerge as a leader in these new markets. We
+are in a strong position to help drive and lead crypto’s next phase, and that’s where
+our investments will be focused. 
+
+
+
+
+
+
+                                                                                  Q1 2022   3
+ More Users
+               MTUs in Q1 were 9.2 million, a decrease of 2.2 million or 19% compared to Q4,
+               driven by lower crypto asset price volatility and lower crypto asset prices overall.
+               The sequential decline in MTUs was anticipated, as discussed in our Q4
+               shareholder letter. 
+
+
+
+               Despite the market softness we have seen to date in 2022, we are encouraged by
+               several key developments: 
+
+
+
+               First, a growing number of our users have deepened their engagement with our
+               products. On average, 54% of our MTUs, or approximately 5.0 million, engaged with
+               a non-investing product in Q1. In Q1, the most popular non-investing product
+               adopted by our users was staking. 
+
+
+
+               By the end of Q1, we had 5.8 million users who were engaged with yield generation
+               products, up from 3.6 million in Q4. This sequential growth was largely driven by
+               the enrollment in Cardano staking which we launched in late Q1. In addition, we
+               saw user growth in all other assets we support for staking. Note that Cardano
+               staking users did not influence our reported Q1 MTU levels, as reward payouts did
+               not begin until April 2022. Historically, staking users have had higher levels of
+               retention compared to users who only trade. 
+
+
+
+               Second, our first ever Super Bowl ad was successful in driving awareness of and
+               promoting the Coinbase brand. Our Super Bowl ad “Less Talk, More Bitcoin”
+               reached over 40 million U.S. households, had tens of millions of social mentions,
+               and resulted in significant improvements in our brand awareness, favorability, and
+               consideration, among our target audience. 
+
+
+
+               Third, on the institutional side, we continued to expand our market maker program
+               which helps deepen the pools of liquidity on our exchange, and therefore our
+               ability to provide best execution to our clients. Separately, we continued to see a
+               secular tailwind of crypto adoption among institutions, as our services uniquely
+               meet their security and regulatory needs. In Q1, we grew the number of
+               institutional customers compared to Q4 and were proud to welcome or expand
+               relationships with Alameda, Brevan Howard Digital, Invesco, GSA Capital, Lakestar,
+               Market Securities, Millennium Global, Silvergate, Shapeshift, and World of Women.
+
+
+More Assets
+and Payment
+       Rails
+               As part of our strategy to serve as the primary crypto account and give our
+               customers the greatest amount of choice, we employ a rigorous and time
+               consuming process to list all assets we believe are legal and safe. In addition, we
+               are investing to expand the number of fiat-to-crypto payment rails available to our
+               customers to make these transactions as simple as possible. In Q1, we: 
+
+
+
+
+
+                                                                                                  Q1 2022   4
+               More asset
+                 Added support for 40 assets for custody and 27 assets for trading. In total, we
+                 supported 212 assets for custody and 166 for trading at the end of Q1.
+
+                  Added support for our first two assets on the Solana blockchain – ORCA and
+                  FIDA – and plan to support more Solana tokens over time.
+
+                  Launched USDC fiat-to-crypto trading in 75 new countries. Expanding USDC is
+                  critical in growing adoption of crypto assets and driving deeper engagement
+                  with the cryptoeconomy.
+
+                  Launched the “Experimental” asset label to help better educate customers to
+                  make more informed decisions on newer and lower volume assets.
+
+               More payment rail
+                 Launched Coinbase Pay – which allows any crypto wallet or dapp to connect to
+                 fiat rails – for both Coinbase Wallet Chrome extension and Coinbase NFT. Our
+                 goal is to remove the complexity of transacting in Web3 while leveraging the
+                 scale of our network.
+
+                  For the first time, as part of our international strategy to “go broad,” enabled
+                  payouts to Visa debit cards via Checkout.com in dozens of countries. We believe
+                  this opens a simpler and more trusted path for our international customers to
+                  deepen their cryptoeconomy experience.
+
+                  We were proud to also expand our banking group to include Citi, which furthers
+                  our objective to provide strong global banking coverage for our clients. We
+                  believe the trust, compliance, and scale of our banking partners will help fuel
+                  institutional adoption and provide us with capabilities to scale internationally. 
+
+
+
+
+  Building  
+Innovative
+
+ Products
+               Crypto As An Investment
+
+               Advanced Trading: To create a simpler and more cohesive trading experience, we have
+               rolled out advanced trading functionality to all Retail users on Coinbase.com and will
+               soon follow on the Coinbase mobile app. This allows users to access the full breadth of
+               our trading offering in a single product. 
+
+
+
+               Enhanced Crypto User Experience: We continue to invest to deliver the best consumer
+               crypto experience, delivering core features that our users want. We helped millions of
+               users file their 2021 crypto taxes via our updated Tax Center, and U.S. users can now
+               check and track their portfolio’s lifetime performance.
+
+
+
+               Coinbase Derivatives: In February, we acquired FairX, a regulated crypto derivatives
+               exchange. Through this acquisition we plan to bring a range of crypto derivatives to
+               market to Coinbase customers in the U.S. We believe a well functioning derivatives
+               market is critical to the trading ecosystem and we want to make it more approachable by
+               delivering the clear, easy-to-use experience that Coinbase is known for.
+
+
+                                                                                                    Q1 2022   5
+                       Crypto As A New Financial System
+
+                       Blockchain Rewards: In Q1, we expanded our staking offering to include Cardano, a top
+                       10 crypto asset by market capitalization as of this writing. Cardano staking is now live
+                       in 70+ countries and offers an easy, secure way for our users to participate and earn
+                       rewards in the Cardano network. We have also launched USDT for DeFi Yield, which
+                       lets eligible Coinbase customers earn yield on their assets by lending their crypto to
+                       third-party DeFi protocols. 
+
+
+                       Crypto As An App Platform
+
+                       Coinbase NFT: In April, we released our NFT marketplace, Coinbase NFT, in beta.
+                       Coinbase NFT is designed as a Web3 social marketplace for NFTs, built with significant
+                       input from the NFT community including a variety of leading collectors and creators.
+                       Consistent with our vision of Coinbase as the on-ramp to the cryptoeconomy,
+                       Coinbase NFT is designed to be more than a transaction platform; it is designed to
+                       help users discover and create NFTs, find the right communities, and make
+                       connections. Users are able to create a Coinbase NFT profile to buy and sell NFTs
+                       using any self-custody wallet, and for a limited time there will be no Coinbase
+                       transaction fees. 
+
+
+
+
+
+
+
+An easy way to find and buy NFTs                         Users can enjoy a personalized NFT experience
+
+
+                       Coinbase Wallet: In Q1, we made a broad range of enhancements to our Coinbase
+                       Wallet browser extension. The extension now supports assets on the Solana network
+                       and the use of the Ledger hardware wallet, which provides additional security. The
+                       extension also permits users to send and receive crypto to ENS and Coinbase user
+                       names, and permits users to adjust gas fees to speed up transactions as desired.
+                       Additionally, we added NFT support, permitting users to view their NFTs with details
+                       via the extension.
+
+
+
+
+                                                                                                        Q1 2022   6
+Coinbase Shareholder Letter
+
+
+
+
+
+Financial Overview
+   Key
+
+Metrics
+             Financial Overview
+             TRADING VOLUME ($B)                                Q1’21     Q2’21   Q3’21   Q4’21   Q1’22
+             Retail                                               120      145      93      177     74
+             Institutional                                        215      317     234      371    235
+             Total                                               335       462     327     547     309
+
+
+             TRADING VOLUME (% OF TOTAL)                        Q1’21     Q2’21   Q3’21   Q4’21   Q1’22
+             Bitcoin                                               39       24      19       16     24
+             Ethereum                                              21       26      22       16      21
+             Other crypto assets                                   40       50      59      68      55
+             Total                                               100       100     100     100     100
+
+             TRANSACTION REVENUE  
+             (% OF TOTAL)                                       Q1’21     Q2’21   Q3’21   Q4’21   Q1’22
+             Bitcoin                                               41       26      21       16     25
+             Ethereum                                              19       26      22       16     23
+             Other crypto assets                                   40       48      57      68      52
+             Total                                               100       100     100     100     100
+
+          Note: Figures presented may not sum precisely due to rounding
+
+
+          Q1 total Trading Volume was $309 billion, a decrease of 44% compared to Q4. Our
+          total Trading Volume decline was consistent with the broader crypto spot market,
+          which also declined 44% compared to Q4. On balance, we gained trading volume
+          market share across 7 of the top 10 assets traded on our platform – including both
+          BTC and ETH – largely driven by the strength of our institutional business. 
+
+
+
+          Retail Trading Volume was $74 billion, a decline of 58% compared to Q4. The
+          sequential decline in Q1 was driven primarily by weaker crypto market conditions
+          in Q1 compared to Q4. 
+
+
+
+          Institutional Trading Volume was $235 billion, a decrease of 37% compared to Q4,
+          and accounted for 76% of our total Trading Volume. Institutional Trading Volume
+          was more heavily concentrated in BTC and ETH as compared to our Retail Trading
+          Volume. 
+
+
+
+          Other crypto assets contributed 55% to total Trading Volume in Q1, down from
+          68% in Q4. 
+
+
+
+
+
+
+                                                                                                    Q1 2022   8
+                Quarterly Crypto Asset Volatility vs.
+                Total Coinbase Trading Volume
+               Volume
+
+                 ($B)                                                                                                              Volatility
+
+                  $600                                                                                                             15
+
+
+                  $400                                                                                                             10
+
+
+                  $200                                                                                                             5
+
+
+                       $0                                                                                                          0
+                            Q1’20     Q2’20      Q3’20      Q4’20       Q1’21       Q2’21         Q3’21         Q4’21      Q1’22
+
+                                      crypto asset volatility                total Coinbase Trading volume
+
+
+Assets on 
+Platform
+             At the end of Q1, Assets on Platform were $256 billion, down from $278 billion at the
+             end of Q4. The sequential decline was driven by lower crypto asset prices, partially
+             offset by billions of dollars in net inflows. 
+
+
+
+             Price effects also drove a decline in our market share of the total crypto market
+             capitalization to 11.2% from 11.5% in Q4. Decreases in price were larger for assets with
+             high concentration on our platform – notably ETH and SOL – vs. the market overall.
+
+
+                Assets on Platform
+                ASSETS ON PLATFORM ($B)                              Q1’21      Q2’21   Q3’21       Q4’21               Q1’22
+                Retail                                                 101        88        116           141            123
+                Institutional                                          122        92        139           137            134
+                Total                                                 223        180        255       278                256
+
+
+                ASSETS ON PLATFORM (% OF TOTAL)                      Q1’21      Q2’21   Q3’21       Q4’21               Q1’22
+                Bitcoin                                                62         47         42           40              42
+                Ethereum                                                14        24         22           25              24
+                Other crypto assets                                     21        25         33            31              31
+                Fiat                                                     3         5          3            4               4
+                Total                                                 100        100        100       100                100
+
+             Note: Figures presented may not sum precisely due to rounding
+
+
+
+
+                                                                                                                        Q1 2022         9
+   Net Revenue
+   NET REVENUE ($M)                                           Q1’21      Q2’21      Q3’21       Q4’21           Q1’22
+   Transaction revenue
+   Retail, net                                              1,455.2     1,828.0    1,022.0     2,185.8          965.8
+   Institutional, net                                          85.4       102.4        67.7      90.8            47.2
+   Total Transaction revenue                                1,540.6     1,930.4    1,089.7    2,276.6       1,013.0
+
+   Subscription and services revenue
+   Blockchain rewards                                            9.0      34.4         77.0      102.7           81.9
+   Custodial fee revenue                                       23.5        31.7       31.5        49.6           31.7
+   Earn campaign revenue                                         11.1      16.9        15.2       19.9            5.9
+   Interest income                                               3.3        6.5        8.4         7.6           10.5
+   Other subscription and services revenue                       9.5        13.1      13.0       33.6            21.9
+   Total Subscription and services revenue                     56.4      102.6       145.1      213.4           151.9
+
+   Net Revenue                                              1,597.0 2,033.0        1,234.7 2,490.0          1,164.9
+
+Note 1: Figures presented may not sum precisely due to rounding 
+Note 2: In Q4’21, the Company retrospectively reclassified certain revenues from Blockchain
+
+rewards to Other subscription and services revenue in order to conform with the current period presentation.
+
+This reclassification has no impact on the Company’s previously reported net revenue.
+
+Transaction Revenue
+
+Q1 net revenue was $1.2 billion, of which $1.0 billion was transaction revenue and $152
+million was Subscription and services revenue. Overall, our transaction revenue
+declined 56% compared to Q4, when crypto asset prices experienced all time highs.
+
+
+
+Retail transaction revenue in Q1 was $966 million, down 56% compared to Q4. In Q1,
+the sequential improvement in our blended average retail fee rate reflected the mix of
+consumer activity on the Coinbase platform. 
+
+
+
+Institutional transaction revenue was $47 million, down 48% compared to Q4. Our
+institutional fee rate declined modestly in Q1 compared to Q4, and was driven by a
+change in the fee structure for market makers, which generates the vast majority of
+our institutional volume.
+
+
+
+Subscription and Services Revenue
+
+Subscription and services revenue was $152 million in Q1, down 29% compared to Q4. 
+
+
+
+Blockchain rewards revenue was $82 million in Q1, down 20% compared to Q4.
+Blockchain rewards benefited from increased participation in staking – notably an
+increase in the number of native assets staked across each asset supported on our
+platform – but were more than offset by declines in average crypto asset prices in Q1
+compared to Q4. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                         Q1 2022        10
+Custodial fee revenue was $32 million in Q1, down 36% compared to Q4. The number of
+custody customers continued to increase throughout Q1, driving billions of dollars in
+net inflows, but lower crypto asset prices caused a sequential decline in revenue. 
+
+
+
+Earn campaign revenues were $6 million in Q1, down 70% compared to Q4. The decline
+was driven by fewer campaigns and a decrease in the average amount allocated by
+asset issuers for distribution. 
+
+
+
+Operating Expenses
+
+Total operating expenses were $1.7 billion in Q1, up 9% compared to Q4. The primary
+driver of the sequential increase in expenses was headcount growth as we continued to
+invest heavily in product development, customer service, and other support functions.
+Additionally, because our expenses are largely driven by people and technology, we
+have not seen a meaningful impact from inflation on our cost structure to date. 
+
+
+
+We ended Q1 with 4,948 full-time employees, up 33% from last quarter, and are pleased
+with our ability to attract and retain top talent. Over the past twelve months, we have
+added over 3,200 net new employees, the majority of whom have joined us from either
+careers in the technology or financial services sectors. Our growing team gives us
+additional resources for product development and execution, as well as customer
+support, compliance, and more, which we believe serve as long-term competitive
+advantages for us. 
+
+
+
+
+
+
+   Operating Expenses
+   OPERATING EXPENSES                                    Q1’21   Q2’21    Q3’21     Q4’21     Q1’22
+   Transaction expense ($M)                              234.1   335.4     197.3     501.1    277.8
+       % of net revenue                                   15%     16%      16%       20%       24%
+   Sales and marketing ($M)                              118.0   195.7    105.4     244.6     200.2
+       % of net revenue                                    7%     10%       9%       10%        17%
+   Technology and development ($M)                       184.2   291.5    356.3     459.6     570.7
+   General and administrative ($M)                       121.2   248.2    242.6     297.4     413.6
+   Other operating expense, net ($M)                     155.9   282.4     118.5     73.5     258.6
+   Total operating expenses ($M)                        813.4 1,353.2    1,020.1   1,576.2   1,720.9
+
+
+   Full-time employees (end of quarter)                  1,717   2,176    2,781     3,730     4,948
+
+Note: Figures presented may not sum precisely due to rounding
+
+Transaction expenses were $278 million in Q1, a decrease of 45% compared to Q4. The
+primary source of the decline was lower trading volumes. Transaction expenses as a
+percentage of net revenue increased primarily driven by continued growth of
+Blockchain Rewards, as staking rewards paid to users are included in transaction
+expenses.
+
+
+
+
+
+                                                                                               Q1 2022   11
+Technology and development expenses were $571 million, up 24% compared to Q4, and
+were driven by technical hiring related to our continued investments in product
+innovation and platform infrastructure. 
+
+
+
+Sales and marketing expenses were $200 million, down 18% compared to Q4, driven by
+lower performance marketing spend in connection with softer market conditions. More
+broadly, we focus our marketing spend on areas where we believe we can drive the best
+results, with the majority of our spend oriented towards performance marketing. At the
+same time, we thoughtfully select additional marketing opportunities that are aligned
+with our brand and culture where we see unique, scalable opportunities to reach our
+target audiences. A great example of this was our 2022 Super Bowl ad. 
+
+
+
+General and administrative expenses were $414 million, up 39% compared to Q4. The
+increase was driven primarily by higher full-time and contractor related headcount
+expenses, as we invest to strengthen and scale our customer support, legal,
+compliance, and business support functions. 
+
+
+
+Other operating expenses were $259 million, up 252% compared to Q4. Other expenses
+were driven primarily by an increase in crypto asset impairment charges. Under GAAP,
+we are required to record impairment charges on our crypto assets held when the price
+falls below its cost basis. In addition, we incurred certain platform-related incidents
+and losses that contributed to other operating expenses. 
+
+
+
+Profitability & Cash
+
+In Q1, Adjusted EBITDA was $20 million and net loss was $430 million.
+
+
+
+Our effective tax rate of 30% reflects a tax benefit on negative pretax income. Our Q1
+effective tax rate was higher than the U.S. statutory rate primarily due to research &
+development related tax credits and stock based compensation. Our weighted
+average fully diluted share count in Q1 was 217.5 million and is lower than our reported
+diluted share count last quarter as anti-dilutive securities are excluded due to our net
+loss, in accordance with GAAP. 
+
+
+
+We ended Q1 with approximately $6.1 billion in cash and equivalents – including $3.4
+billion in proceeds from long-term debt we issued in 2021 – down from $7.1 billion at
+the end of Q4. The decrease in our cash and cash equivalents was primarily driven by
+our investments in crypto assets (including USDC), cash payments for acquisitions,
+and the timing of corporate cash transfers from customer custodial funds. As of the
+end of Q1, we had approximately $180 million in USDC and the fair market value of our
+crypto assets held as investments was approximately $1 billion.
+
+
+
+
+
+
+
+
+
+
+
+                                                                                  Q1 2022   12
+Coinbase Shareholder Letter
+
+
+
+
+
+Outlook
+Outlook
+          April 2022
+
+          In April, we saw continued declines in both crypto asset volatility and crypto asset prices,
+          which we believe are associated with weakness in financial markets. For example, the
+          Nasdaq Composite declined approximately 13% and the price of Bitcoin declined
+          approximately 17% in April. 
+
+
+
+            April 2022 Metrics and Results
+            Metric                                 Commentary
+            Crypto Market Capitalization           Declined 18% compared to the end of March
+
+            Crypto Asset Volatility                Declined 14% compared to the Q1 average and was the lowest level
+                                                   observed since mid-2020.
+
+            MTUs                                   8.9 million
+
+            Total Trading Volume                   Approximately $74 billion
+
+
+
+
+
+            Q2 2022 Outlook
+            Metric                                 Commentary
+            MTUs                                   We believe MTUs will be lower in Q2 compared to Q1
+
+            Total Trading Volume                   We believe total Trading Volume will be lower in Q2 compared to Q1
+
+
+            Subscription and Services              We anticipate subscription and services revenue will be similar to modestly
+            Revenue
+
+                              lower in Q2 compared to Q1
+
+
+
+
+            Transaction Expenses                   We anticipate transaction expenses to be in the low 20s as a percent of
+            As a percentage of net revenue         net revenue.
+
+            Sales and Marketing Expenses           We anticipate sales and marketing expenses to be in the mid-to-high
+            As a percentage of net revenue,        teens as a percent of net revenue.
+            including stock-based compensation
+
+
+
+            Technology & Development +             We expect these expenses to be in the range of $1.1-$1.3 billion,
+            General & Administrative               including approximately $420 million of SBC. Expenses will be driven
+            Expenses
+                              primarily by technical and business support related headcount.
+            Including stock-based compensation
+
+
+
+
+
+          Full-year 2022
+
+          Our outlook for 2022 is largely unchanged. We plan to invest significantly, yet prudently,
+          throughout this year to continue building the future of crypto. 
+
+
+
+          While we are navigating uncertain and volatile markets, we have a decade of experience to draw
+          from and will continue to invest wisely to drive long-term growth. We continue to expect that
+          during a prolonged and stressful scenario for our business, we will aim to manage our 2022
+          potential Adjusted EBITDA losses to approximately $500 million on a full-year basis.
+
+
+
+
+                                                                                                            Q2
+                                                                                                            Q1 2021
+                                                                                                               2022              14
+                                          Coinbase Full-Year 2022 Outlook
+                                          Metric                                   Outlook                    Commentary
+                                          Annual Average MTUs                      5.0 - 15.0 million         No change to our prior outlook. This wider than normal
+                                                                                                              range reflects continued macroeconomic uncertainty
+                                                                                                              combined with planned product launches.
+
+                                          Average Transaction                      Pre-2021 Levels            Year-to-date, ATRPU is trending towards 2019 levels.
+                                          Revenue Per User (ATRPU)                                            These lower levels reflect (1) softer crypto market
+                                                                                                              conditions and (2) growth in users engaging in non-
+                                                                                                              invest products (notably staking) that generate
+                                                                                                              Subscription and Services revenue.
+
+                                          Subscription and Services                Strong growth 
+            No change to prior outlook. Outlook is based on current
+                                          Revenue                                  compared to 2021           crypto market conditions. 
+
+
+
+                                          Transaction Expenses                     Low 20%s                   No change to prior outlook. Driven primarily by growth in
+                                          As a percentage of net revenue                                      Blockchain Rewards revenue.
+
+                                          Sales and Marketing                      12-15%                     No change to prior outlook. Increased brand marketing
+                                          Expenses* 
+                                                         efforts, building on the momentum from our first ever
+                                          As a percentage of net revenue,                                     Super Bowl ad in February 2022.
+                                          including stock-based compensation
+
+
+                                          Technology & Development +               $4.25 - $5.25 billion      No change to prior outlook. Driven primarily by an
+                                          General & Administrative                                            ambitious hiring plan to execute on product innovation,
+                                          Expenses
+                                                           international expansion, platform scaling and reliability.
+
+                                          Including stock-based compensation
+                                                                                                              However, we now expect approximately $1.7 billion of
+                                                                                                              stock-based compensation expenses, up from $1.5 billion
+                                                                                                              previously, due to hiring trends and year-to-date
+                                                                                                              acquisitions.
+
+                                          Other Expenses                           N/A                        We do not forecast these as they are driven by crypto asset
+                                                                                                              price impairments and unanticipated system disruptions or
+                                                                                                              incidents. If crypto asset prices drop below their carrying
+                                                                                                              value, we recognize a non-cash impairment expense.
+
+
+
+                                          Tax                                      Low to Mid 20s             Our anticipated tax rate range is slightly higher, up from
+                                                                                                              our prior range of high teens to low 20s, reflecting our
+                                                                                                              year-to-date performance.
+
+                                          cludes other Expenses
+                                        *Ex
+
+
+
+
+                                              H  istorical Transaction Revenue Per User1
+1Calculated as Retail Transaction Fee                                                                                                                          1
+                                                                                                                                                            $ 00
+Revenue divided by Retail MTUs in
+each period. Annual averages
+reflect full-year Retail Transaction
+Fee Revenue divided by the average
+                                                                                                                                                            $7  5
+monthly Retail MTUs, divided by 12
+months. 2022 shown year-to-date.
+
+Note: 2017 - 2018 data is unaudited.
+                                                                                                                                                            $ 05
+
+
+                                                                                                                                                            $2  5
+
+
+                                                                                                                                                            0
+
+                                              2017               2018               2019                 2020              2021             2022
+
+                                                Actuals              1
+                                                                    ‘ 7 AVG    .     1       .
+                                                                                    ‘ 8 AVG             1       .
+                                                                                                        ‘ 9 AVG        20 AVG.  
+                                                                                                                       ‘               21 AVG.  
+                                                                                                                                       ‘                1 22 AVG.  
+                                                                                                                                                      Q ‘
+                                                                    ($55)           ($45)               ($34)          ($45)           ($64)          ($35)
+
+
+
+
+                                                                                                                                                     Q1 2022                15
+Coinbase Shareholder Letter
+
+
+
+
+
+ Looking Ahead
+
+
+
+
+                               Q3 2021   8
+       Looking 
+       Ahead
+                               We are encouraged by the increasing role that crypto is playing in the world. 
+
+
+
+                               From playing a key role in helping Ukraine quickly raise funds in the midst of the Russian
+                               attack to Executive Orders from both the Biden Administration and Governor Gavin Newsom
+                               of California calling for continued examination of digital assets, as well as the UK
+                               government’s recent embrace of crypto as a strategic priority, we are encouraged by the
+1 NBC News poll, March 2022
+
+                               increasing global relevance of crypto. And with estimates of nearly 20% of Americans having
+                               used or traded crypto in these relatively early days1, we firmly believe the future for crypto is
+                               bright. The core tenants of crypto – that it’s instant, borderless, lacks expense and
+                               inefficient intermediaries, and native to the Internet – give way for a future that is incredibly
+                               exciting and transformational. 
+
+
+
+                               Inside the remote-first walls of Coinbase, there are seemingly endless opportunities. From
+                               expanding our core investing products in international markets to delivering the best self-
+                               custody wallet product to serve as the gateway to Web3, we have broad aspirations to serve
+                               as the primary financial account for the cryptoeconomy. The application era of crypto is
+                               upon us, providing even more growth and opportunity in the sector. 
+
+
+
+                               That’s why it’s as important as ever for us to keep investing across our three strategic pillars
+                               – crypto as an investment, crypto as a new financial system, and crypto as an app platform. 
+
+
+
+                               We are at a point in our evolution where we need to continue investing to drive growth and
+                               help grow our sector. At the same time, we will closely monitor market conditions to ensure
+                               we are investing our resources as responsibly and wisely as possible. We took steps to
+                               strengthen our balance sheet last year, and while the near-term may be choppy, we plan to
+                               invest prudently to drive long-term shareholder value. 
+
+
+
+                               #wagmi
+
+
+
+
+
+                                                                                                                   Q1 2022         17
+Webcast Information
+
+We will host a question and answer session to discuss the results for the first
+quarter 2022 on May 10, 2022 at 2:30 pm PT. The live webcast of the call will be
+available on the Investor Relations section of Coinbase’s website at https://
+investor.coinbase.com. A replay of the call as well as a transcript will be available
+on the same website.
+
+
+
+
+
+
+
+Forward Looking Statements
+This communication contains forward-looking statements within the meaning of the
+Private Securities Litigation Reform Act of 1995. All statements other than statements
+of historical fact are forward-looking statements. These statements include, but are
+not limited to, statements regarding our future operating results and financial
+position, including for the second quarter ending June 30, 2022 and the full-year
+ending December 31, 2022, anticipated future expenses and investments,
+expectations relating to certain of our key financial and operating metrics, our
+business strategy and plans, plans for product launches and developments,
+expectations relating to market conditions and market growth, our market position and
+potential market opportunities, and our objectives for future operations. The words
+“believe,” “may,” “will,” “estimate,” “potential,” “continue,” “anticipate,” “intend,”
+“expect,” “could,” “would,” “project,” “plan,” “target,” and similar expressions are
+intended to identify forward-looking statements. Forward-looking statements are
+based on management’s expectations, assumptions, and projections based on
+information available at the time the statements were made. These forward-looking
+statements are subject to a number of risks, uncertainties, and assumptions, including
+risks and uncertainties related to: our ability to successfully execute our business and
+growth strategy and maintain future profitability, market acceptance of our products
+and services, our ability to further penetrate our existing customer base and expand
+our customer base, our ability to develop new products and services, our ability to
+expand internationally, the success of any acquisitions or investments that we make,
+the effects of increased competition in our markets, our ability to stay in compliance
+with applicable laws and regulations, market conditions across the cryptoeconomy and
+general market, political and economic conditions. It is not possible for our
+management to predict all risks, nor can we assess the impact of all factors on our
+business or the extent to which any factor, or combination of factors, may cause actual
+results to differ materially from those contained in any forward-looking statements we
+may make. In light of these risks, uncertainties, and assumptions, our actual results
+could differ materially and adversely from those anticipated or implied in the forward-
+looking statements. Further information on risks that could cause actual results to
+differ materially from forecasted results are, or will be included in our filings with the
+Securities and Exchange Commission (SEC) including our Annual Report on Form 10-
+K for the year ended December 31, 2021 filed with the SEC on February 25, 2022 and
+our Quarterly Report on Form 10-Q for the quarter ended March 31, 2022 that will be
+filed with the SEC. Except as required by law, we assume no obligation to update these
+forward-looking statements, or to update the reasons if actual results differ materially
+from those anticipated in the forward-looking statements.
+
+
+
+
+                                                                                    Q1 2022   18
+Non-GAAP Financial Measure
+
+In addition to our results determined in     A reconciliation of Adjusted EBITDA to net
+accordance with U.S. generally               income can be found below in the table
+accepted accounting principles               captioned “Reconciliation of Net Income to
+(GAAP), we believe Adjusted EBITDA, a        Adjusted EBITDA.” Investors are
+non-GAAP measure, is useful in               encouraged to review the related GAAP
+evaluating our operating performance.        financial measures and the reconciliation
+We use Adjusted EBITDA to evaluate our       of Adjusted EBITDA to its most directly
+ongoing operations and for internal          comparable GAAP financial measure, and
+planning and forecasting purposes. We        not to rely on any single financial measure
+believe that Adjusted EBITDA may be          to evaluate our business. We calculate
+helpful to investors because it provides     Adjusted EBITDA as net income (loss),
+consistency and comparability with           adjusted to exclude provision for or benefit
+past financial performance. However,         from income taxes, depreciation and
+Adjusted EBITDA is presented for             amortization, interest expense, crypto
+supplemental informational purposes          asset borrowing costs, stock-based
+only, has limitations as an analytical       compensation expense, impairment, net,
+tool, and should not be considered in        non-recurring direct listing expenses,
+isolation or as a substitute for financial   unrealized gain or loss on foreign
+information presented in accordance          exchange, fair value gain or loss on
+with GAAP. Among other non-cash and          derivatives, non-recurring legal reserves
+non-recurring items, Adjusted EBITDA         and related costs and other loss, net.
+
+
+
+excludes stock-based compensation
+expense, which has recently been, and
+will continue to be for the foreseeable
+future, a significant recurring expense
+for our business and an important part
+of our compensation strategy. In
+addition, other companies, including
+companies in our industry, may
+calculate similarly titled non-GAAP
+measures, including Adjusted EBITDA,
+differently or may use other measures
+to evaluate their performance, all of
+which could reduce the usefulness of
+our non-GAAP financial measures as
+tools for comparison.
+
+
+
+
+                                                                             Q1 2022        19
+                                                                Coinbase Global, Inc.
+                                                      Condensed Consolidated Balance Sheets
+                                                        (In thousands, except par value data)
+                                                                    (unaudited)
+
+                                                                                                                                              March 31,       December 31,
+                                                                                                                                                2022              2021
+Assets
+Current assets:
+   Cash and cash equivalents............................................................................................. $                    6,116,388      $  7,123,478
+   Restricted cash .................................................................................................................              27,111            30,951
+   Customer custodial funds ...............................................................................................                   10,023,385        10,526,233
+   USDC .................................................................................................................................        179,885           100,096
+   Accounts and loans receivable, net of allowance .......................................................                                       346,048           396,025
+   Income tax receivable......................................................................................................                    56,767            61,231
+   Prepaid expenses and other current assets ................................................................                                    191,068           135,849
+      Total current assets.....................................................................................................               16,940,652        18,373,863
+Crypto assets held .................................................................................................................           1,333,333           988,193
+Lease right-of-use assets .....................................................................................................                   91,431            98,385
+Property and equipment, net ...............................................................................................                       65,861            59,230
+Goodwill...................................................................................................................................    1,080,176           625,758
+Intangible assets, net ............................................................................................................              219,128           176,689
+Other non-current assets......................................................................................................                 1,164,613           952,307
+      Total assets .................................................................................................................. $       20,895,194      $ 21,274,425
+Liabilities, Convertible Preferred Stock, and Stockholders’ Equity
+Current liabilities:
+   Custodial funds due to customers ................................................................................. $                        9,742,961      $ 10,480,612
+   Accounts payable .............................................................................................................                 12,650            39,833
+   Accrued expenses and other current liabilities ............................................................                                   647,960           439,559
+   Crypto asset borrowings .................................................................................................                     485,564           426,665
+   Lease liabilities, current ...................................................................................................                 32,688            32,366
+      Total current liabilities .................................................................................................             10,921,823        11,419,035
+Lease liabilities, non-current ................................................................................................                   66,425            74,078
+Long-term debt .......................................................................................................................         3,386,865         3,384,795
+Other non-current liabilities ..................................................................................................                  23,988            14,828
+      Total liabilities...............................................................................................................        14,399,101        14,892,736
+Commitments and contingencies ........................................................................................
+Stockholders’ equity:
+Class A common stock, $0.00001 par value; 10,000,000 shares authorized at
+March 31, 2022 and December 31, 2021; 173,015 and 168,807 shares issued
+and outstanding at March 31, 2022 and December 31, 2021, respectively .................
+                                                                                                                                                          2              2
+Class B common stock, $0.00001 par value; 500,000 shares authorized at
+March 31, 2022 and December 31, 2021; 48,310 and 48,310 shares issued and
+outstanding at March 31, 2022 and December 31, 2021, respectively.........................
+                                                                                                                                          —          —
+    Additional paid-in capital .................................................................................................   2,579,216  2,034,658
+    Accumulated other comprehensive loss .......................................................................                      (3,890)    (3,395)
+    Retained earnings ............................................................................................................ 3,920,765  4,350,424
+      Total stockholders’ equity...........................................................................................        6,496,093  6,381,689
+          Total liabilities, convertible preferred stock, and stockholders’ equity ........... $ 20,895,194 $ 21,274,425
+                                                      Coinbase Global, Inc.
+                                         Condensed Consolidated Statements of Operations
+                                              (In thousands, except per share data)
+                                                          (unaudited)
+
+
+                                                                                                                            Three Months Ended March 31,
+                                                                                                                                 2022                2021
+Revenue:
+   Net revenue                                                                                                       $           1,164,891     $    1,596,981
+   Other revenue                                                                                                                     1,545            204,131
+      Total revenue                                                                                                              1,166,436          1,801,112
+Operating expenses:
+   Transaction expense                                                                                                             277,826            234,066
+   Technology and development                                                                                                      570,664            184,225
+   Sales and marketing                                                                                                             200,204            117,990
+   General and administrative                                                                                                      413,578            121,231
+   Other operating expense, net                                                                                                    258,627            155,887
+      Total operating expenses                                                                                                   1,720,899            813,399
+      Operating (loss) income                                                                                                     (554,463)           987,713
+Interest expense                                                                                                                    22,138                 —
+Other expense (income), net                                                                                                         32,844             (8,953)
+      (Loss) income before income taxes                                                                                           (609,445)           996,666
+(Benefit from) provision for income taxes                                                                                         (179,786)           225,203
+      Net (loss) income                                                                                              $            (429,659) $         771,463
+Net (loss) income attributable to common stockholders:
+   Basic                                                                                                             $            (429,659) $         301,896
+   Diluted                                                                                                           $            (429,659) $         387,719
+Net (loss) income per share attributable to common stockholders:
+   Basic                                                                                                             $                  (1.98) $            3.80
+   Diluted                                                                                                           $                  (1.98) $            3.05
+
+Weighted-average shares of common stock used to compute net
+(loss) income per share attributable to common stockholders:
+   Basic                                                                                                                           217,472             79,373
+   Diluted                                                                                                                         217,472            126,996
+
+
+                                                       Stock-based Compensation Expense
+
+                                                                                                                                Three Months Ended March 31,
+                                                                                                                                   2022            2021
+Technology and development ......................................................................... $                             256,524 $          73,256
+Sales and marketing .........................................................................................                       14,956             3,531
+General and administrative ..............................................................................                           80,661            27,841
+Total ..................................................................................................................... $      352,141 $         104,628
+                                                   Coinbase Global, Inc.
+                                       Condensed Consolidated Statements of Cash Flows
+                                                      (In thousands)
+                                                        (unaudited)
+
+
+
+                                                                                                                             Three Months Ended March 31,
+                                                                                                                                 2022           2021
+
+
+Cash flows from operating activities
+ Net (loss) income                                                                                                           $   (429,659) $     771,463
+ Adjustments to reconcile net (loss) income to net cash (used in) provided
+ by operating activities
+    Depreciation and amortization .......................................................................                          31,580         10,922
+    Impairment expense ........................................................................................                   229,129            841
+    Stock-based compensation expense............................................................                                  352,141        104,628
+    Provision for transaction losses and doubtful accounts ............................                                            (4,134)         2,503
+    Loss on disposal of property and equipment ..............................................                                          —              11
+    Deferred income taxes ....................................................................................                   (183,183)            36
+    Unrealized loss (gain) on foreign exchange ................................................                                     7,389         (2,869)
+    Non-cash lease expense ................................................................................                         7,748          9,050
+    Realized gain on crypto assets......................................................................                          (21,241)       (32,769)
+    Crypto assets received as revenue ..............................................................                             (179,743)      (180,109)
+    Crypto asset payments for expenses ...........................................................                                167,954        154,989
+    Fair value loss (gain) on derivatives .............................................................                             3,452         (2,800)
+    Amortization of debt discount and issuance costs .....................................                                          2,097             —
+    Gain on investments........................................................................................                      (607)        (9,257)
+ Changes in operating assets and liabilities:
+    USDC .................................................................................................................        (97,965)       (64,064)
+    Accounts and loans receivable ......................................................................                           45,145        (11,976)
+    Income taxes, net ............................................................................................                  3,862        238,486
+    Other current and non-current assets ..........................................................                               (49,083)       (34,587)
+    Custodial funds due to customers .................................................................                           (738,758)     2,355,138
+    Accounts payable ............................................................................................                 (28,398)           614
+    Lease liabilities .................................................................................................            (2,816)        (8,568)
+    Other current and non-current liabilities .......................................................                              54,976        110,083
+Net cash (used in) provided by operating activities                                                                              (830,114)     3,411,765
+Cash flows from investing activities
+  Purchase of property and equipment ..............................................................                                (1,199)           (18)
+  Proceeds from sale of property and equipment ............................................                                            —              48
+  Capitalized internal-use software development costs ..................................                                           (9,082)        (4,388)
+  Business combination, net of cash acquired .................................................                                   (186,150)       (16,525)
+  Purchase of investments...................................................................................                      (25,771)        (9,203)
+  Proceeds from settlement of investments ......................................................                                      766             —
+  Purchase of crypto assets held ........................................................................                        (871,152)      (553,012)
+  Disposal of crypto assets held .........................................................................                        400,858        545,188
+  Loans originated .................................................................................................             (100,625)            —
+  Proceeds from repayment of loans .................................................................                              100,764             —
+Net cash used in investing activities ....................................................................                       (691,591)       (37,910)
+                                                   Coinbase Global, Inc.
+                                       Condensed Consolidated Statements of Cash Flows
+                                                      (In thousands)
+                                                        (unaudited)
+
+
+                                                                                                                            Three Months Ended March 31,
+                                                                                                                                2022            2021
+Cash flows from financing activities
+  Issuance of common stock upon exercise of stock options, net of
+  repurchases ........................................................................................................            16,891         59,387
+  Taxes paid related to net share settlement of equity awards ......................                                            (141,832)            —
+  Proceeds received under the Employee Stock Purchase Plan ..................                                                      8,975             —
+  Issuance of shares from exercise of warrants ...............................................                                        —             433
+  Proceeds from short-term borrowings ............................................................                               149,400             —
+  Repayment of short-term borrowings                                                                                             (20,000)              —
+Net cash provided by financing activities ............................................................                            13,434         59,820
+
+Net (decrease) increase in cash, cash equivalents, and restricted cash .......                             (1,508,271) 3,433,675
+Effect of exchange rates on cash .........................................................................     (5,507)    16,231
+Cash, cash equivalents, and restricted cash, beginning of period .................. 17,680,662                         4,856,029
+Cash, cash equivalents, and restricted cash, end of period ............................ $ 16,166,884 $ 8,305,935
+
+Cash, cash equivalents, and restricted cash consisted of the following:
+   Cash and cash equivalents .............................................................................. $ 6,116,388 $ 1,983,318
+   Restricted cash ................................................................................................... 27,111    30,841
+   Customer custodial funds ................................................................................. 10,023,385      6,291,776
+Total cash, cash equivalents, and restricted cash ............................................. $ 16,166,884 $ 8,305,935
+
+Supplemental disclosure of cash flow information
+  Cash paid during the period for interest ......................................................... $                               190 $             —
+  Cash paid during the period for income taxes ............................................... $                                   1,980 $             —
+  Operating cash outflows for amounts included in the measurement of
+  operating lease liabilities ................................................................................... $                3,771 $        7,490
+
+Supplemental schedule of non-cash investing and financing activities
+  Unsettled purchases of property and equipment .......................................... $                                           234 $           —
+    Right-of-use assets obtained in exchange for operating lease
+    obligations ........................................................................................................... $     1,050     $    13,072
+    Non-cash consideration paid for business combinations ............................ $                                        324,925     $        —
+    Purchase of crypto assets and investments with non-cash consideration $                                                      12,875     $       885
+    Crypto assets borrowed .................................................................................... $               249,764     $     9,158
+    Crypto assets borrowed repaid with crypto assets ....................................... $                                  317,039     $    16,437
+                               Reconciliation of Net Income (Loss) to Adjusted EBITDA (unaudited)
+
+
+                                                                        Q1’21         Q2’21            Q3’21           Q4’21          Q1’22
+                                                                                                  (in thousands)
+
+
+Net Income (Loss) ............................................ $         771,463   $ 1,606,349    $    406,100     $    840,208   $   (429,659)
+
+
+Adjusted to exclude the following:
+    (Benefit from) provision for income
+    taxes ...........................................................    225,203      (737,468)        (135,240)         50,332       (179,786)
+    Depreciation and amortization ................                        10,922        12,612           17,099          23,018         31,580
+    Interest expense .......................................                  —            748            6,972          21,440         22,138
+    Crypto asset borrowing costs .................                         4,273         2,925            2,326           2,322          1,436
+    Stock-based compensation.....................                        104,628       189,335          264,195         262,528        352,141
+    Impairment, net(1) ......................................                841        57,343           17,485          44,252        210,997
+    Non-recurring Direct Listing expenses ..                               4,160        35,000               —               —              —
+    Unrealized loss (gain) on foreign
+    exchange ...................................................           (2,869)      5,261           13,692           (31,028)        7,389
+    Fair value loss (gain) on derivatives ......                           (2,800)    (22,415)           1,392            (8,233)        3,452
+    Legal reserves and related costs ...........                            1,500          —                —                 —             —
+    Other loss, net(2) ........................................                —           —            24,200                —             —
+Adjusted EBITDA .............................................. $        1,117,321 $ 1,149,690 $        618,221     $   1,204,839 $      19,688
+__________________
+
+Note: Figures presented above may not sum precisely due to rounding
+
+     (1)    Impairment, net includes impairment on crypto assets still held and intangible assets.
+     (2)    Other loss, net includes a $25.1 million loss associated with an incident which did not breach our security infrastructure or broader
+            systems, but for which impacted customers were reimbursed, offset by an unrealized gain of $0.9 million related to a contingent
+            consideration arrangement.
+

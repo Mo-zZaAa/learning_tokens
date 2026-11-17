@@ -1,0 +1,49 @@
+TITLE: Kraken Q1 2025 financial update: Strength through market cycles - Kraken Blog Kraken Blog
+description: 
+og:title: Kraken Q1 2025 financial update: Strength through market cycles
+og:description: Kraken completes acquisition of NinjaTrader
+article:published_time: 2025-05-01T19:49:15+00:00
+article:modified_time: 2025-12-02T19:40:28+00:00
+datePublished: 2025-05-01T19:49:15+00:00
+dateModified: 2025-12-02T19:40:28+00:00
+---
+May 1, 2025 | News
+Kraken Q1 2025 financial update: Strength through market cycles
+Kraken completes acquisition of NinjaTrader
+Share this:
+Share on X (Opens in new window) X
+Share on LinkedIn (Opens in new window) LinkedIn
+Share on Facebook (Opens in new window) Facebook
+Kraken began 2025 building on 2024’s solid momentum , navigating a shifting and softening market to outperform, even growing volume share. Our sustained performance across cycles demonstrates the resiliency of our platform, which continues to attract new clients and deepen existing relationships.
+We took a meaningful step toward our multi-asset vision by acquiring NinjaTrader, and rolled out dozens of new products and features – a few of which we highlight below.
+Q1 2025 performance highlights
+Strong topline performance and disciplined execution
+Kraken generated approximately $492 million in adjusted revenue for Q1 2025 and adjusted EBITDA of $185 million. This marks a 18% year-over-year adjusted revenue increase, despite a slowdown in overall market trading activity following a strong Q4 2024. While Q1 adjusted revenue declined 11% sequentially due to overall market softness, adjusted EBITDA decline only 3% sequentially – highlighting Kraken’s resilience amid seasonality. Total exchange trading volume grew 29% year-over-year, while funded accounts increased 26% year-over-year.
+We also outpaced broader industry benchmarks, signaling both expanding market share and deeper client engagement. Assets on platform continued to grow, although the value decreased sequentially due to headwinds in broader cryptoasset market pricing.
+Accelerating multi-asset class ambitions – NinjaTrader acquisition complete
+Today, we completed the acquisition of NinjaTrader — a significant milestone for our business. This transaction marks the largest-ever deal combining traditional finance (TradFi) and crypto. More than an expansion of our business, this strategic acquisition strengthens our position in derivatives for both TradFi services and crypto.
+Crypto traders will soon be able to seamlessly access traditional derivatives within Kraken’s trading experience and derivatives traders will be able to access crypto markets on the NinjaTrader platform.
+NinjaTrader’s infrastructure and community of engaged traders are fully aligned with Kraken’s vision of an institutional-grade trading platform where any asset can be traded, anytime. Read more on the completion of the acquisition here .
+New consumer products
+In Q1, we executed swiftly to roll out high-impact, client-first products for our growing retail user base:
+Kraken Pay : We launched instant, borderless payments across 300+ crypto and fiat currencies – positioning Kraken as both a trading venue and a real-world financial utility.
+New Kraken consumer app : We introduced a new app built for intuitive wealth-building across asset classes, reflecting our vision to become a holistic financial partner for a wider range of clients.
+Staking (U.S. clients in 37 states and 2 territories): We reinforced our leadership in yield-generating services, with a strong emphasis on regulatory alignment.
+Institutional and professional products
+For our professional traders and institutions, we also continued pushing the boundaries to enhance their trading experience.
+FIX API for futures: We launched our institutional-grade API, enabling robust and standardized connectivity for the largest institutions and partners to further boost liquidity and volumes on our derivatives platform. With 250% month-over-month volume growth in Q1 alone from this release, we anticipate growing dividends for our clients as we continue to enhance these services in the year ahead.
+Kraken Pro UI/UX overhaul: We delivered on top client feedback requests, covering asset-based cost basis, average entry price and unrealised P&L, mobile app customisation, an improved web order form, upgraded multi-charts, markets page, account statements and more.
+Kraken OTC in the Kraken Pro app : We made institutional-grade execution tools accessible directly within our Kraken Pro app – bridging the experience between high-volume and everyday traders.
+In addition to a multitude of optimizations to our existing product suites, these Q1 release highlights showcase how Kraken is actively shaping the future of finance. We are strategically building new layers to expand our addressable market, strengthen user engagement and build long-term competitive advantages for our ecosystem.
+Transparency through Proof of Reserves
+Today, we are also announcing the completion of our latest Proof of Reserves for supported cryptocurrencies custodied securely by Kraken as of March 31, 2025.
+While industry participants often rely on an auditor’s single attestation, Kraken continues to set the bar higher by enabling clients to independently confirm their assets are fully backed onchain. We do this by producing a cryptographically verifiable Merkle tree proof that enables clients to confirm that their account balance was included in the report independently validated by Kraken’s third-party accountancy firm. In other words, Kraken is fully accountable to our clients, who have unmatched visibility into the integrity of their holdings.
+Kraken pioneered the practice of regular Proof of Reserves – well before it became an industry expectation – and we remain one of the few platforms to perform this process. We will continue to conduct Proof of Reserves and move to a quarterly cadence. This consistent transparency is foundational to how we operate and will remain a key differentiator as we scale our products and services across asset classes.
+A strong Q1
+Kraken’s performance in Q1 2025 shows that we’re positioned to thrive during market volatility and we’re building momentum as we make long-term investments in our platform. As the crypto landscape continues to evolve, we remain committed to delivering value for our clients, partners and the broader ecosystem.
+Stay tuned for more updates as we continue to build the future of finance, responsibly.
+Revenue and Adjusted EBITDA are non-GAAP financial measures used by Management internally to understand, manage, and evaluate the business and make operating decisions. We believe these measures provide additional insight into our operational performance and help facilitate comparisons for the period indicated. EBITDA is earnings before interest, taxes, depreciation and amortization. Adjusted EBITDA excludes irregular, non-recurring, and/or discretionary expenses and is intended to provide a clearer view of the company’s core profitability. Assets on Platform are measured at the last day of the fiscal quarter. Funded accounts represent total funded customers with a balance greater $0 as of the last day of the quarter. Total Trading Volume includes Spot, Margin, Futures, and Consumer exchange volumes for the period indicated. Average Revenue Per User (ARPU) is measured based on total quarterly gross revenue / quarterly transacting users for the fiscal quarter. Quarterly transacting users represent the number of distinct users that transacted on the platform at least once during the fiscal quarter.
+Share this:
+Share on X (Opens in new window) X
+Share on LinkedIn (Opens in new window) LinkedIn
+Share on Facebook (Opens in new window) Facebook

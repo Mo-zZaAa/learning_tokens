@@ -1,0 +1,58 @@
+ Bringing Money Market Funds On-Chain | Ondo Finance 
+ Skip to main content 
+ Products
+ Resources
+ Ecosystem
+ About
+ Launch App 
+ Products
+ Resources
+ Ecosystem
+ About
+ In this article
+ Introducing OMMF
+ About Money Market Funds
+ New Utility for Security Tokens
+ About Ondo Finance
+ Announcement • Apr 13, 2023 • 3 min
+ Bringing Money Market Funds On-Chain
+ Ondo Finance
+ Official Blog
+ Just over two months ago, we launched the world’s first tokenized US Treasuries exposure in OUSG, bringing the risk-free rate on-chain. Our initial focus has been to use OUSG to help large stablecoin holders more easily tap into Treasuries. We also fostered early on-chain utility for OUSG by developing a decentralized lending platform, Flux Finance, that today facilitates 24/7 lending and borrowing of stablecoins against Ondo’s tokenized Treasuries. Both initiatives have been well-received and are showing signs of strong early organic growth, with OUSG above $70M in Assets Under Management (AUM) and Flux Finance above $40M in Total Value Locked (TVL), including $27M in OUSG collateral. We have also been overwhelmed with demand to use our tokenization platform for new use cases and assets, and we are delighted to reveal today the first product we are releasing in response to that demand.
+ Introducing OMMF
+ We are excited to announce that we are tokenizing US government money market funds. Similar to our tokenized Treasuries, OMMF will accept stablecoin and fiat subscriptions and redemptions and will be compatible with 24/7 on-chain financial infrastructure. Unlike OUSG, which accumulates in value, OMMF will be minted and redeemed for exactly $1 on any business day, and interest will be distributed to OMMF holders daily in the form of new tokens. This price stability will allow OMMF to more easily be used as a dollar or stablecoin replacement for settlement and collateral, particularly in the OTC trading and lending space. Additionally, given its focus on enabling these new use cases, and given the predictability of its $1 price, OMMF will hold small stablecoin reserves on-chain and allow for instant 24/7 subscriptions and redemptions.
+ About Money Market Funds
+ Money market funds (MMFs) have long been a popular investment option for individuals and institutions seeking to preserve capital while generating income, with US MMFs managing more than $5 trillion in capital today. They offer high liquidity and low risk and their value is maintained at a constant $1 per share. Unlike bank deposits, which are subject to fractional-reserve lending and significant asset liability mismatch, MMFs are required to invest entirely in low-risk, short-term debt securities. OMMF will invest only in an especially low-risk class of MMFs: those investing nearly entirely in US government securities. This class of MMFs represent the closest way that most investors can hold an asset pegged to a dollar that is structured to primarily have counterparty risk to the US government.
+ New Utility for Security Tokens
+ In addition to the typical use of MMFs for extremely liquid low-risk cash management, we are excited to leverage the cash-like properties of MMFs (i.e. their price stability) to unlock utility for OMMF as a dollar and stablecoin alternative:
+ Settlement: OTC desks, exchanges, traders, and other institutional counterparties can use OMMF to settle trades denominated in dollars (or stablecoins). This allows the sender to earn yield up until the point of settlement and the receiver to earn yield thereafter. In addition to offering interest, this is a lower risk alternative than bank settlement networks (e.g. Signet) or stablecoins, which generally come with counterparty risk to their operating company issuers.
+ Collateral: OTC desks and other institutional counterparties often collateralize loans using stablecoins (e.g., a BTC loan over-collateralized with USDC). OMMF is a yielding and lower-risk form of collateral that still allows for 24/7 liquidation and settlement. OMMF also has the capacity to be used as collateral at on-chain decentralized lending protocols (e.g. Flux Finance).
+ As the world moves towards a more digital and decentralized future, OMMF represents a longer-term opportunity to provide savers with a superior way to store and transfer wealth. What stablecoins have done for cash, OMMF will do for money market funds, unlocking their potential to be used not just as a store of wealth—their primary current use—but also as a globally-accessible collateral and settlement alternative.
+ About Ondo Finance
+ Ondo’s mission is to provide institutional-grade, blockchain-enabled investment products and services. Ondo has a technology arm that develops decentralized finance technology as well as an asset management arm that creates and manages tokenized funds.
+ If you’d like to learn more about or subscribe to our products, please reach out at investors@ondo.finance or on our website .
+ Next
+ OUSG • Mar 28, 2023 
+ Bond ETFs vs Direct Bond Exposure in Tokenized Products
+ Announcement • Mar 23, 2023 
+ Welcome Justin Schmidt, Ondo's new President and COO
+ Invest
+ USDY OUSG Ondo Stocks Intelligent Portfolios Private Markets 
+ Infrastructure
+ Ondo Network Bridge 
+ Converter 
+ Resources
+ Insights Blog Learn 
+ Partners
+ Ecosystem Foundation 
+ Flux Finance 
+ Explore
+ Docs 
+ Trust & Security 
+ Bug Bounty 
+ Company
+ Team Careers Media Kit 
+ Contact Us Media Inquiries 
+ Ondo © 2026
+ Terms of Service Privacy Policy 
+ 

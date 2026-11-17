@@ -1,0 +1,63 @@
+TITLE: Kraken Q2 2025 financial highlights - Kraken Blog Kraken Blog
+description: 
+og:title: Kraken Q2 2025 financial highlights
+og:description: Kraken is in build mode. We are creating a multi-asset platform that enables anyone to trade anything, anytime, anywhere. In Q2, our pace accelerated — new products launched, global access expanded and infrastructure scaled. We are pushing the envelope on geo expansion and establishing ourselves as the infrastructure provider that will power the next generation […]
+article:published_time: 2025-07-30T13:56:08+00:00
+article:modified_time: 2025-12-02T19:29:28+00:00
+datePublished: 2025-07-30T13:56:08+00:00
+dateModified: 2025-12-02T19:29:28+00:00
+---
+July 30, 2025 | News
+Kraken Q2 2025 financial highlights
+Kraken is in build mode. We are creating a multi-asset platform that enables anyone to trade anything, anytime, anywhere. In Q2, our pace accelerated — new products launched, global access expanded and infrastructure scaled.
+We are pushing the envelope on geo expansion and establishing ourselves as the infrastructure provider that will power the next generation of financial services. From crypto to stocks to tokenized assets , we are redefining what’s possible and ensuring more people can access investment opportunities globally.
+Strong financial results fueled by consistent and disciplined delivery
+We delivered adjusted revenue of $432M in Q2 2025, a 15% year-over-year increase. Adjusted EBITDA came in at $80M.
+Our total exchange volume was $186.8B in Q2 2025, up 19% year-over-year. After a strong Q1, there was market turbulence related to U.S. tariffs and broader macro uncertainties. Q2 volumes decelerated quarter-over-quarter, as Q2 tends to be a seasonally lower quarter for trading activity across the industry.
+Our funded accounts were 4.4M in Q2 2025, increasing 37% year-over-year. Assets on platform were $43.2B at the end of Q2 2025, increasing 47% year-over-year.
+Kraken’s Q2 financial performance remained resilient, highlighted by three key trends:
+Expanding volume market share : We continued to grow our share of spot volume. This was driven by continued investments enhancing product experience, as well as our strong position in stablecoins, where our share of stable-fiat spot volumes grew from 43% to 68%.
+Growth investment: As the TradFi and crypto markets converge, we are strategically investing in innovation and expanding our product suite to accelerate growth. In Q2, we supported faster product delivery and platform enhancements, alongside targeted marketing efforts that demonstrated strong, efficient ROI.
+Expense discipline: To fortify our business across all market cycles, we remain intensely focused on strengthening operating leverage to build a sustainable business.
+Building on top of our pro-trader platform
+Pro traders are the heartbeat of our platform. Their participation in our ecosystem and the liquidity they provide power the rapid development of more products for Kraken’s consumer and institutional businesses, which in turn fuel the overall ecosystem.
+Our strategy was evidenced by several new products in Q2, including commission-free equities trading, tokenized assets and an all‑in‑one global money app.
+We also continued to enhance our pro-trader capabilities and offerings alongside the introduction of a full‑service prime brokerage and a white label solution for fully compliant crypto trading.
+Professional product updates
+Perpetual futures in Europe – We debuted Europe’s largest MiFID‑regulated crypto futures suite . We introduced 24/7 FX perpetual futures (EUR, GBP, AUD, JPY and CHF pairs) on Kraken Pro , widening derivative access under a trusted regulatory framework.
+U.S. futures – We launched a regulated U.S. derivatives offering for U.S. users , providing direct access to crypto futures listed on the CME through our integrated Kraken Pro trading experience .
+Institutional product updates
+Kraken Prime – We opened a full‑service prime brokerage that unifies best‑execution trading, qualified custody, deep multi‑venue liquidity and 24/7 white‑glove support for institutional clients.
+Kraken Custody – We added reward‑bearing USDG for institutional and HNWI clients and added custody support for SOL and XRP.
+Kraken Embed – We launched a white label Crypto‑as‑a‑Service solution that lets banks, brokers and fintechs add fully compliant crypto trading within weeks. The second largest neobank in Europe — bunq — and Alpaca were the first partners to integrate the offering, and there are additional integrations in the pipeline.
+Consumer product updates
+Commission‑free equities trading – We introduced U.S. equities trading in the Kraken app for most U.S. states, giving clients the convenience of managing stocks and crypto side‑by‑side.
+xStocks – We tokenized 55 blue‑chip equities and 5 ETFs on the blockchain, opening round‑the‑clock equity exposure for eligible clients outside the United States, with seamless on‑chain transferability.
+Krak app – We launched an all‑in‑one global money app that lets clients pay, transfer and earn across 300+ crypto and fiat assets in more than 160 countries.
+Dedicated Brazil offering – We added instant BRL funding via Pix, fully localised web and mobile apps, and 24/7 support in Brazilian Portuguese, bringing Kraken’s global platform closer to Brazilian users.
+Kraken+ – We launched a premium membership that offers zero‑fee trading allowances, priority support and boosted USDG rewards. It has seen strong uptake with more than 100k subscribers with more than $1 billion on the platform from both new and seasoned investors.
+Meaningful regulatory progress
+Regulatory clarity is gaining momentum in developed and emerging markets around the world.
+This accelerating trend is opening up new investment and growth opportunities for us. We continue to expand our licensing footprint in order to offer more innovative products and services to a wider audience of institutional and retail customers.
+We became the first exchange to receive authorization from the Central Bank of Ireland under MiCA, positioning the company for accelerated growth across 30 European markets. We also secured a Restricted Dealer licence in Canada , further expanding our regulatory footprint.
+In the U.S., the stablecoin-focused GENIUS Act was signed into law in July, marking a major milestone. At the same time, comprehensive market structure legislation passed the House and is advancing in the Senate with strong bipartisan support.
+Our deep experience with regulation and compliance and proactive approach to policy changes positions us well as new regulatory frameworks continue to develop in other markets across the Americas, EMEA and Asia Pacific.
+Transparency through Proof of Reserves
+Today, we are also announcing the completion of our latest Proof of Reserves for supported cryptocurrencies custodied securely by Kraken as of June 30, 2025.
+Reserve ratios as of June 30, 2025
+Every quarter, Kraken clients can confirm their assets are fully backed onchain. They can verify that their account balance was included in the Proof of Reserves report, independently validated by Kraken’s third-party accountancy firm.
+Kraken pioneered the practice of regular Proof of Reserves – well before it became an industry expectation – and we remain one of the few platforms to perform this process.
+Outlook: H2 2025 and beyond
+Our team is relentlessly focused on taking Kraken to the next level. That’s what our clients demand and what we’re committed to delivering. In the second half of 2025, momentum is building across the global footprint: New licenses are being secured, local funding rails added, multi-asset experiences expanded and innovative products launched — all leveraging Kraken’s core infrastructure.
+Key initiatives on the horizon include:
+International equities — Extending commission‑free stock and ETF trading to major markets beyond the U.S., starting with the U.K., Europe and Australia.
+Tokenized equities — Bringing tokenized equities to more jurisdictions and steadily increasing the number of our listed assets.
+Kraken debit cards — Introducing physical and virtual debit cards, issued with Mastercard, to enable seamless in‑store and online spending of fiat and crypto through the Krak app.
+NinjaTrader growth — Accelerating the platform’s reach into the U.K., Europe and Australia and enabling frictionless multi‑asset trading across Kraken and NinjaTrader ecosystems.
+We are building the backbone of a new financial system; one product, one market and one breakthrough at a time.
+Adjusted revenue and Adjusted EBITDA are non-GAAP financial measures used by Management internally to understand, manage, and evaluate the business and make operating decisions. We believe these measures provide additional insight into our operational performance and help facilitate comparisons for the period indicated. EBITDA is earnings before interest, taxes, depreciation and amortization. Adjusted EBITDA excludes irregular, non-recurring, and/or discretionary expenses and is intended to provide a clearer view of the company’s core profitability. Assets on Platform are measured as of the last day of the fiscal quarter. Funded accounts represent total funded customers with a balance greater $0 as of the last day of the quarter. Total Exchange Volume includes Spot, Margin, Futures, Consumer, and Equities (beginning Q2 2025) exchange volumes for the period indicated. Presented metrics include NinjaTrader starting from May 1, 2025 onward.
+The information provided in this communication is for informational purposes only and does not constitute an offer, solicitation, or recommendation to buy or sell any token, security or financial instrument. It is not intended as, and shall not be relied upon as, investment, financial, legal, or tax advice. Past performance is not necessarily indicative of future results.
+Share this:
+Share on X (Opens in new window) X
+Share on LinkedIn (Opens in new window) LinkedIn
+Share on Facebook (Opens in new window) Facebook

@@ -1,0 +1,76 @@
+ Introducing Ondo Finance | Ondo Finance 
+ Skip to main content 
+ Products
+ Resources
+ Ecosystem
+ About
+ Launch App 
+ Products
+ Resources
+ Ecosystem
+ About
+ In this article
+ Risk Management Meets DeFi
+ Risk and Reward in DeFi
+ Enter Ondo Finance
+ Behind Ondo
+ Keep up with Ondo
+ Legal Disclaimers
+ Announcement • Jul 27, 2021 • 5 min
+ Introducing Ondo Finance
+ Ondo Finance
+ Official Blog
+ Risk Management Meets DeFi
+ Welcome to Ondo, a DeFi protocol built to balance risk appetite against yield for every type of DeFi user. 
+ Today we are excited to announce Ondo Finance . Ondo is a permissionless protocol built to accelerate decentralized finance (“DeFi”) adoption among mainstream investors by enabling the granular exchange of risk. In an economic environment of record-low interest rates, Ondo Finance is positioned to open the door to broader DeFi adoption by allowing risk-averse investors to capture DeFi yield with mitigated and transparent risk, while simultaneously unlocking higher upside exposures for DeFi-native investors.
+ Risk and Reward in DeFi
+ Existing yield in crypto-asset markets is in the form of volatile rates derived from a complex source of inputs. This is a barrier to entry both for retail and institutional market participants who seek yield with defined risk.
+ Thus far, those willing to adopt DeFi are higher on the risk appetite scale. They are exposed to volatile yields, impermanent loss from automated market makers (“AMMs”) like Uniswap, and commingled risk from lending protocols like Compound and Alpha Homora. The often sky-high APYs are inaccessible to traditional market participants who expect more stable returns with comprehensible and customizable risk.
+ Enter Ondo Finance
+ Ondo is a new DeFi primitive that enables users to originate risk-isolated, fixed yield loans backed by yield-generating crypto-assets, making DeFi yields accessible to investors with a wide array of risk preferences. Ondo is a permissionless protocol enabling users to interact on a peer-to-pool basis with no intermediaries. Lenders and borrowers on Ondo are collectively known as liquidity providers , and they contribute capital together in Ondo Vaults , which use smart contracts to enforce loan provisions, such as by controlling the use of borrowed capital. Every Ondo Vault is unique and Ondo Vaults do not commingle risks, so lenders can express highly specific views around acceptable collateral, use of proceeds, LTV thresholds, etc., and can have certainty that these drivers of risk will not change unexpectedly.
+ Initially, there will be just two types of liquidity providers in each Ondo Vault: fixed yield (“FY”) depositors and variable yield (“VY”) depositors. The FY seeks to deliver a stable yield with mitigated downside risk, whereas the VY seeks to maximize returns by using leverage. Ondo liquidity providers can invest in both positions in any ratio they choose, creating their own customized return profiles.
+ Ondo users can make “subscription” requests to the FY and VY during the open subscription window. At the close of this window, the Ondo protocol will accept an equal value of FY and VY subscription requests and provide these assets to liquidity pools on AMMs. After a preset duration, the protocol will withdraw assets from the liquidity pools, then pay back FY depositors their original principal and preset yield, after which VY depositors will receive the remaining assets.
+ Ondo’s launch Vaults are each deployed to a single liquidity pool on a single AMM, with FY depositors providing one asset for the pool and VY depositors providing the other. Fixed yield depositors have their principal and yield secured by the assets from the VY depositors. VY depositors receive leveraged exposure to the AMM liquidity pools while paying a funding cost that is equal to the fixed yield. The fixed yield and variable yield positions are constrained to be equal in value at the launch of an Ondo Vault, such that the fixed yield position is at a 50% loan-to-value ratio and the variable yield receives 2x leverage (as of the launch of the Vault).
+ Ondo has launched its first subscription period with four vaults. The guarded launch places a ~$5m protocol-wide cap on invested assets during the inaugural period. The four initial Vaults include:
+ $1m per-Vault cap:
+ USDC Fixed Yield (10% APY) / ETH Variable Yield (Uniswap v2)
+ USDT Fixed Yield (10% APY) / ETH Variable Yield (Uniswap v2)
+ DAI Fixed Yield (10% APY) / ETH Variable Yield (Uniswap v2)
+ $2m per-Vault cap:
+ ETH Fixed Yield (50% APY) / ALCX Variable Yield (Sushiswap / Alchemix)
+ You can access the protocol via the Ondo web application, available at ondo.finance .
+ We have successfully completed security audits from Peckshield, Certik and Quantstamp. However, please note that this is experimental software and audits do not provide any guarantee of safety.
+ The subscription period for the initial Vaults has opened and will close on July 30 at approximately 1:36pm ET. At the end of this period, subscription requests that exceed the per-Vault cap will not be accepted and users will need to reclaim their unaccepted assets. These Vaults will mature 30 days after the close of the subscription period at approximately 1:36pm ET on August 29, which is when users can redeem their proceeds.
+ We will be releasing some tools including a Scenario Analysis spreadsheet and backtesting dashboards to help users think through the return profiles for deposits in various Ondo Vaults.
+ For more information about Ondo, Vaults, and FY and VY positions, check out our docs .
+ Behind Ondo
+ Ondo is being developed by a team of traditional banking veterans and DeFi experts. Our team includes alumni from Goldman Sachs Digital Assets and Blockchain R&D, Facebook, Microsoft, Symbiont, BadgerDAO, private equity funds, hedge funds, and various venture-backed start-ups. We’re supported by an all-star team of investors and advisors who we’ll announce soon.
+ We aim for Ondo to be community-owned and run. Please engage with us in Discord to find out how you can participate in Ondo’s development. We are also hiring for full-time roles .
+ Keep up with Ondo
+ We have a lot of exciting announcements coming up for Ondo, including the second subscription period and the raising of caps on TVL.
+ Follow us on Twitter and Telegram to stay up to date with announcements.
+ Legal Disclaimers
+ This announcement has been written and published by Ondo Finance Inc. and provides no guarantee, commitment, or undertaking to utilize any of its assets, funds, properties or personnel, Ondo Protocol users or other protocol participants. Ondo Finance does not owe, and does not intend to assume, any duties or obligations to Ondo Protocol users or participants, other than duties or obligations arising under laws of general application, such as non-waivable torts. 
+ To the maximum extent permitted by applicable law, all software relating to Ondo Protocol is being provided on an as-is, where-is basis, with no representations or warranties being made to Ondo Protocol participants and with no liability to Ondo Finance or any other person involved in the development of Ondo Protocol. The statements set forth in this announcement also are not intended to be representations, warranties, guarantees or assumptions of duty or liability of any kind, and Ondo Finance hereby disclaims the foregoing and will not be liable for any damages arising from use of Ondo Protocol. In the event of any conflict or inconsistency between this announcement or any other communication and the terms of any software license involved in Ondo Protocol, the terms of the software license shall govern to the exclusion of this announcement and such other communications. 
+ The forward-looking statements in this announcement are subject to numerous assumptions, risks and uncertainties which are subject to change over time. Such assumptions, risks and uncertainties could cause actual results or developments to differ materially from the results and developments anticipated by us. Even if our anticipated results and developments are realized, such results and developments may nevertheless fail to achieve any or all of the expected benefits anticipated by this announcement. We reserve the right to change the plans, expectations and intentions stated and implied herein at any time and for any reason or no reason, in our sole and absolute discretion, and we undertake no obligation to update publicly or revise any forward-looking statement, whether as a result of new information, future developments or otherwise. 
+ This announcement is not intended to provide legal, financial or investment or other advice and we recommend that you do not rely on, and do not make any financial or other decision based on this announcement. 
+ Invest
+ USDY OUSG Ondo Stocks Intelligent Portfolios Private Markets 
+ Infrastructure
+ Ondo Network Bridge 
+ Converter 
+ Resources
+ Insights Blog Learn 
+ Partners
+ Ecosystem Foundation 
+ Flux Finance 
+ Explore
+ Docs 
+ Trust & Security 
+ Bug Bounty 
+ Company
+ Team Careers Media Kit 
+ Contact Us Media Inquiries 
+ Ondo © 2026
+ Terms of Service Privacy Policy 
+ 

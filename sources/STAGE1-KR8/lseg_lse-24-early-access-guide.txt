@@ -1,0 +1,693 @@
+LSE 24 EARLY ACCESS GUIDE
+Issue 1.0
+Effective from 19 Oct 2026
+LSE 24 Early Access Guide                                                                                                                                                                2
+
+
+
+
+        Contents
+
+
+        1.0      Introduction...................................................................................................................................................... 4
+                 1.1       Purpose ................................................................................................................................................. 4
+                 1.2       Relevant London Stock Exchange communication channels ................................................................ 4
+                 1.3       Readership ............................................................................................................................................ 5
+                 1.4       Document history .................................................................................................................................. 6
+                 1.5       Enquiries ............................................................................................................................................... 7
+        2.0      LSE 24 Market ................................................................................................................................................. 8
+                 2.1       At a glance ............................................................................................................................................ 8
+                 2.2       Overview ............................................................................................................................................... 9
+                 2.3       Offered Securities .................................................................................................................................. 9
+                 2.4       Timeline ............................................................................................................................................... 10
+                 2.5       Customer Testing Phase ..................................................................................................................... 10
+        3.0      LSE 24 Market data ....................................................................................................................................... 12
+                 3.1       Overview ............................................................................................................................................. 12
+                 3.2       LSE 24 identifiers in market data ......................................................................................................... 12
+        4.0      Getting started on LSE 24 ............................................................................................................................. 13
+                 4.1       Onboarding steps ................................................................................................................................ 13
+                 4.2       Readiness checklist ............................................................................................................................. 14
+                 4.3       Suggested test scenarios .................................................................................................................... 14
+                 4.4       Customer Interfaces ............................................................................................................................ 16
+        Appendix ................................................................................................................................................................. 17
+Service and Technical Description                                                                                                 3
+
+
+
+
+                 Disclaimer
+                 London Stock Exchange has taken reasonable efforts to ensure that the information contained in this publication is
+                 correct at the time of going to press but shall not be liable for decisions made in reliance on it. London Stock
+                 Exchange will endeavour to provide notice to customers of changes being made to this document, but this notice
+                 cannot be guaranteed. Therefore, please note that this publication may be updated at any time. The information
+                 contained in this publication and any other publications referred to herein are for guidance purposes only.
+LSE 24 – Early Access Guide
+                                                                                                                                     4
+
+
+
+
+                1.0 Introduction
+                London Stock Exchange 24 (LSE 24) is a new trading venue designed to extend access to London markets
+                beyond traditional UK market hours. As investment activity becomes increasingly global, LSE 24 will give clients
+                greater flexibility to respond to events across time zones and trade global exposures when relevant underlying
+                markets are active. It will complement the core London Stock Exchange market, whose trading hours and closing
+                process will remain unchanged.
+                LSE 24 is being introduced through a phased Early Access programme ahead of production launch. Participants
+                can test new functionality as it becomes available, assess their technical and operational readiness, and provide
+                feedback to help shape subsequent releases. This gives clients the opportunity both to influence the development
+                of the service and to prepare for live trading.
+                The Appendix sets out the planned build up to the production go live.
+
+                1.1 Purpose
+                The purpose of this document is to provide participants with:
+
+                •    A service overview of LSE 24
+                •    A description of the LSE 24 functionality available in CDS from 19 October 2026
+
+
+                LSE 24 runs on Millennium Exchange and, unless stated otherwise in this guide, behaves in the same way as the
+                core London Stock Exchange market described in MIT201, the Business Parameters document and the
+                associated technical specifications. This guide concentrates on where LSE 24 differs.
+                This guide covers the CDS early access service only. Details of the production service – including final trading
+                hours, market model, eligible instruments, membership and post-trade arrangements – will be communicated
+                ahead of launch through London Stock Exchange notices and service announcements.
+
+
+
+                1.2 Relevant London Stock Exchange communication channels
+                LSE 24 announcement and FAQ
+                    The LSE 24 announcement of 21 July 2026 can be found at: www.londonstockexchange.com/discover/news-
+                    and-insights/london-stock-exchange-launch-lse-24
+
+                    Answers to frequently asked questions about LSE 24 can be found at:
+                    docs.londonstockexchange.com/sites/default/files/documents/lse-24-faq-02-1-final.pdf
+
+                Rules of the London Stock Exchange
+                    The full current Rules of the London Stock Exchange in force can be found at:
+                    www.londonstockexchange.com/resources/trade-resources?tab=rules-and-regulations
+
+                    Changes to the Rules of the London Stock Exchange and other key regulatory announcements are made by
+                    London Stock Exchange notices.
+
+                Stock Exchange notices
+                    To sign up to email notification of future London Stock Exchange notices and view the library of previous ones
+                    please see: www.londonstockexchange.com/resources/london-stock-exchange-notices?tab=2021
+
+                Service announcements
+                    Live service changes and other trading and information product news is notified by service announcements.
+                    To be added to the service announcement distribution list, please email: globalsshd@lseg.com.
+LSE 24 – Early Access Guide
+                                                                                                                                          5
+
+
+
+
+                    To view the library of previous service announcements please see:
+
+                    www.londonstockexchange.com/products-and-services/technical-library/service-announcements/service-
+                    announcements.htm
+
+                Live Service Portal
+                    The current system status of London Stock Exchange’s services are displayed on its Live Service Portal.
+                    This is the mechanism for London Stock Exchange communicating any market intervention actions it takes
+                    as a result of a service interruption. Participants can register to receive both SMS text and email notification of
+                    status changes of the portal, which can be found at: http://liveservice.lseg.com
+
+                Trading Services webpage
+                    More details of London Stock Exchange’s trading systems, including where the latest versions of this
+                    document and the Business Parameters document can be found:
+                    www.londonstockexchange.com/tradingservices
+
+                Trading database tools
+                    To help you keep your trading database synchronised on a real-time basis, you may wish to subscribe to either
+                    the Datasync Email Service or the Datasync Daily Tradable Instrument Report (DTI). To find out more please
+                    see:
+
+                    www.lseg.com/areas-expertise/post-trade-services/matching-and-reconciliation/unavista-solutions/unavista-
+                    data-solutions/datasync
+
+                    You can also subscribe to Corporate Action information at:
+
+                    www.lseg.com/areas-expertise/post-trade-services/matching-and-reconciliation/unavista-solutions/unavista-
+                    data-solutions/corporate-actions
+
+                    For both services please contact:
+
+                    •    STX: 33009
+                    •    Telephone: +44 (0)20 7797 3009
+                    •    Email: unavistadatasolutions@lseg.com
+
+                Member Portal
+
+                    The Member Portal enables members to manage their member profile and technical configuration via a single
+                    online interface:
+
+                    •    Member information: company details and regulatory authorisation
+                    •    Market management: trading service access, identifiers, clearing and settlement configuration
+                         (London Stock Exchange)
+                    •    Technical configuration: configuration for production trading systems
+                    •    Compliance information: compliance contacts and registered persons for order deletion
+                    •    User management: manage user access and permissions
+                    •    Third-party clearing and settlement providers will also be able to use the Member Portal to support
+                         member trading configuration set-up
+                    •    Market making registrations
+
+                    Visit: https://www.londonstockexchange.com/equities-trading/membership?tab=already-a-member-
+
+
+                1.3 Readership
+                This document gives a brief introduction to the LSE 24 market.
+LSE 24 – Early Access Guide
+                                                                                                6
+
+
+
+
+                1.4 Document history
+                This document has been through the follow iterations:
+
+                  Version      Date                     Description
+
+                  1.0          09 October 2026          Initial published version of document
+LSE 24 – Early Access Guide
+                                                                                                                                   7
+
+
+
+
+                1.5       Enquiries
+                Technical Account Management - For functional queries, client on-boarding and technical advice about
+                London Stock Exchange’s trading services:
+                Telephone: +44 (0)20 7797 3939 (option 1)                       Email: londontam@lseg.com
+
+
+                Client Support Team - For incident and problem management (Live Service and Customer Development
+                Services (CDS)):
+                Telephone: +44 (0)20 7797 1500                                  Email: support@lseg.com
+
+
+                Equities Technical Onboarding - Enquiries in connection with user setups, certification testing, connectivity
+                testing, pre-trade risk control monitoring Web Portal Support and issues around market maker registration:
+                Telephone: +44 (0)20 7797 3939 (option 2)                       Email: eqtechonboarding@lseg.com
+
+
+                Membership Team - For enquiries relating to trading profile and clearing & settlement static data amendments:
+                Telephone: +44 (0)20 7797 1900                            Email: membership@lseg.com
+                Member Portal:
+                www.lseg.com/markets-products-and-services/our-markets/markets-membership/member-portal
+
+
+                Business & Product Enquiries - in connection with London Stock Exchange’s business operation of its
+                trading services:
+                Telephone: +44 (0)20 7382 7650                                  Email: clients@lseg.com
+
+
+                Credit Control - for invoice enquiries:
+                Telephone: +44 (0) 20 7797 1010                                 Email: capitalmarketscreditcontrol@lseg.com
+
+
+                Market Supervision
+                Live monitoring - Enquiries in connection with real-time trading issues, oversight of the market’s operation and
+                Rules of London Stock Exchange:
+                STX: 33666 (option 2)
+                Telephone: + 44 (0)20 7797 3666 (option 2)                      Email: mktsrvsmarketmonitoring@lseg.com
+                Live Operations - For manual request of deleting live orders from Trading System:
+                STX 33666 (option 1)
+                Telephone: + 44 (0) 20 7797 3666 (option 1)                     Email: msu@lseg.com
+
+
+
+                Control Team – instrument reference data queries:
+                Telephone: 020 7797 3775                                        Email: marketmangement@lseg.com
+LSE 24 – Early Access Guide
+                                                                                                                            8
+
+
+
+
+                2.0 LSE 24 Market
+                2.1 At a glance
+                Table 1: LSE 24 CDS phase 1 in brief
+
+                  Venue                      London Stock Exchange 24 (LSE 24)
+
+                  Market Identifier Code     XLOE
+                  (MIC)
+
+                  Venue identifiers          MIC: XLOE
+                                             GTP Source Venue: 17 (LSE 24)
+                                             GTP Venue of Execution: 26 (LSE 24)
+                                             Native Execution Venue: 26 (LSE 24)
+
+                  Relationship to the core   Separate venue and trading system instance. Core Market trading hours and
+                  LSE Market                 functionality are unchanged.
+
+                  First asset class          Eligible London-listed ETPs (ETFs, ETCs and ETNs) in 16 ETP trading segments
+
+                  Access/ Interfaces         •   FIX Trading
+                                             •   Native Trading
+                                             •   FIX Drop Copy
+                                             •   FIX Post Trade
+                                             •   Group Ticker Plant market data (channels B, D and J)
+                                             •   Agentic AI via Model Context Protocol (MCP)
+
+                  Production launch          Targeted for Q2 2027, subject to regulatory approval, successful testing and
+                                             market readiness
+
+                  Early access               Customer Development Service (CDS) from 19 October 2026 for RFQ trading
+
+                  Trading hours (UK time)    •   Monday to Thursday: RFQ Trading available 17:10–14:20 the following day
+                                             •   Friday: RFQ Trading available 17:10–23:30
+
+                                             The early access trading hours are designed to maximise the testing time
+                                             available to customers in the Customer Development Service (CDS) and will
+                                             differ from the trading hours for the Production service, which will be
+                                             communicated separately.
+
+                  Trading model              Private Request for Quote (RFQ) named model will be supported for CDS Phase
+                                             1:
+                                             •   Manual RFQs (Best Execution or Select and Match)
+                                             •   Auto RFQs (Winner Takes All)
+
+                  Reference price            LSE Core hours market closing price
+
+                  Clearing and settlement    Trades are not sent for clearing during CDS Phase 1
+LSE 24 – Early Access Guide
+                                                                                                                                    9
+
+
+
+
+                2.2        Overview
+                London Stock Exchange 24 (LSE 24) is a new trading venue designed to complement the London Stock Exchange
+                core market which will operate outside London Stock Exchange core market hours.
+                The venue has been developed to meet growing global demand for more flexible, real-time access to markets,
+                enabling clients to trade London-listed products outside traditional UK market hours, respond to events across
+                time zones and access liquidity when global markets and investor demand are active.
+                Designed for a more connected, automated and digital market landscape, LSE 24 combines trusted exchange
+                infrastructure with next-generation trading and connectivity capabilities, while preserving the integrity and
+                operation of the core London Stock Exchange market.
+                Direct trading access will be available to LSE’s eligible existing network of member firms, including brokers, banks,
+                liquidity providers, market makers and specialist trading firms with technical and operational arrangements in place
+                for trading directly on LSE. Investors would typically access LSE 24 through their member firm rather than
+                connecting directly to the venue.
+
+
+
+                2.3 Offered Securities1
+                At launch, LSE 24 will support Exchange Traded Products (that have already been admitted to London Stock
+                Exchange), including ETFs, ETCs and ETNs. ETPs are a natural starting point given their global investor base,
+                broad underlying exposures and role in helping clients access international markets. While ETPs will be the first
+                asset class available, the venue is being built to support broader participation across securities markets over time,
+                with equities representing a natural next step, subject to client demand, operational readiness and regulatory
+                approval.
+                Participants can identify the instruments available on LSE 24 from the Instrument Directory messages published
+                on the LSE 24 Group Ticker Plant channels.
+                Table 2: Segments
+
+                    Segment      Description                                                             GTP channel
+
+                    ETFS         Exchange traded funds                                                   B
+
+                    ETF2         Exchange traded funds (multi-currency)                                  J
+
+                    ETFU         Exchange traded funds (multi-currency 3)                                D
+
+                    IECR         Non-UCITS ETFs                                                          J
+
+                    IECF         Non-UCITS ETFs (multi-currency)                                         B
+
+                    EUET         ETFs – ICSD (Euroclear Bank settlement)                                 D
+
+                    EUE2         ETFs – ICSD (multi-currency 2)                                          B
+
+                    EUE3         ETFs – ICSD (multi-currency 3)                                          D
+
+                    ETCS         Exchange traded products – ETCs and ETNs                                J
+
+                    ETC2         Exchange traded products – ETCs and ETNs (multi-currency 2)             J
+
+                    ETCU         Exchange traded products – ETCs and ETNs (multi-currency 3)             D
+
+                    ECE1         ETCs/ETNs – ICSD (Euroclear Bank settlement)                            J
+
+                    ECE2         ETCs/ETNs – ICSD (multi-currency 2)                                     J
+
+
+                1
+                 The universe of ETPs available on LSE 24 in production is still being finalised, with analysis and client
+                engagement continuing in the lead-up to launch. In production, new instruments, or instruments affected by events
+                such as splits or consolidations, will first trade on the Core LSE Market before becoming eligible for LSE 24.
+LSE 24 – Early Access Guide
+                                                                                                                                            10
+
+
+
+
+                    Segment           Description                                                                   GTP channel
+
+                    ECE3              ETCs/ETNs – ICSD (multi-currency 3)                                           B
+
+                    ETPR              ETNs – professional investors only                                            B
+
+                    ECPR              ETNs – ICSD, professional investors only                                      D
+
+
+
+
+                2.4 Timeline
+                LSE 24 will be available for customer testing from the 19 th of October 2026. Subject to regulatory approval,
+                successful testing and market readiness, production launch is targeted for Q2 2027.
+
+
+
+                2.5 Customer Testing Phase
+                2.5.1 Interfaces
+                In addition to the usual native and FIX trading gateways, customers will be able to use agentic artificial intelligence
+                to connect to the LSE 24 system.
+
+                2.5.1.1       Agentic AI
+                Agentic AI refers to AI-enabled systems that can act on user-defined instructions to achieve specific outcomes,
+                including interacting with market data, order management and execution workflows.
+                Customers (Member firms) will be able to connect to LSE 24 via Claude or ChatGPT Large Language Models via
+                the provided connectors.
+                A new trader group must be requested for the AI agent which can then be used to submit RFQs or RFQ quotes.
+                Further details on onboarding the AI agent will be provided via a separate guide.
+
+
+                2.5.2 Orderbooks
+                LSE 24 will only support the Request for Quote functionality2 for manual RFQs and Auto RFQs.
+
+                2.5.2.1       Request for Quote (RFQ)
+                The Private RFQ functionality will be available for client testing via all 3 interfaces. Please refer the LSE guides for
+                further details on how RFQs work.
+                The following types of RFQs will be available:
+                          1) Named Manual RFQs
+                             a) Select and Match
+                             b) Best Execution
+                          2) Named Auto RFQs
+                             a) Winner Takes All
+
+
+                2.5.3 Trading Sessions
+                The following trading sessions are available for the Private RFQ book in LSE 24.
+                •      Pre trading
+                •      Regular Trading
+                •      Idle
+                •      Halt
+                •      Post Close
+
+                2
+                    For the initial launch on 19 Oct 2026. This document will be updated to reflect any new services added incrementally.
+LSE 24 – Early Access Guide
+                                                                                                                                   11
+
+
+
+
+                2.5.4 Trading Schedule
+
+
+                Table 3: LSE 24 Early Access Schedule
+
+                                                        Time                   PrivateRFQ Book           Trade Date
+
+                          Monday                    00:00 - 17:00                    Idle
+
+                                                        17:00                    Market Start
+
+                                                    17:05 - 17:10                 Pre trading        = Calendar Date +1
+
+                                                    17:10 - 00:00              Regular Trading
+
+                    Monday - Thursday               00:00 - 14:20              Regular Trading
+
+                                                    14:20 - 14:40                 Post Close
+                                                                                                       = Calendar Date
+                                                        14:55                    Market Close
+
+                                                    14:55 - 17:00              System shut down
+
+                                                        17:00                    Market Start
+
+                                                    17:05 - 17:10                 Pre trading
+
+                              Friday                17:10 - 23:30              Regular Trading       = Calendar Date +1
+
+                                                    23:30 - 23:45                 Post Close
+
+                                                        23:50                    Market Close
+                • Cancellations of trades are allowed until Settlement Date - 1.
+                • LSE 24 will have both primary and mirror instances in the primary site (PDC). Instances in the Secondary site
+                    will only be started if the primary site is unavailable.
+                • The early access trading hours are designed to maximise the testing time available to customers in the
+                    Customer Development Service (CDS) and will differ from the trading hours for the Production service, which
+                    will be communicated separately.
+
+
+                2.5.5 Bank Holidays and Early Close Days
+                On the trading day preceding a UK Bank Holiday, LSE 24 CDS Phase 1 will close as normal at 14:20, it will then
+                not re-open until 17:10 on the next trading day following the UK Bank Holiday.
+                On an early close day, LSE 24 CDS Phase 1 will close as normal at 14:20, it will then not re-open until 17:10 on
+                the next trading day.
+LSE 24 – Early Access Guide
+                                                                                                                             12
+
+
+
+
+                3.0 LSE 24 Market data
+                3.1 Overview
+                LSE 24 market data is published by a dedicated LSE 24 Group Ticker Plant using the MITCH protocol.
+                Instruments are published across three channels – B, D and J. Each channel provides the Full Depth Incremental
+                (FDI), Level 1 (TOB), Market By Order (MBO), Market By Price (MBP) and Post Trade (PT – MiFID post-trade)
+                services, with Replay and Recovery services.
+
+
+                3.2 LSE 24 identifiers in market data
+                Table 4: LSE 24 identifiers in Group Ticker Plant messages
+
+                  Message                                 Field                         LSE 24 value
+
+                  All LSE 24 messages                     Source Venue                  17 (LSE 24)
+
+                  All instrument-level messages           Instrument                    LSE 24 Market Data Instrument ID
+
+                  Trade                                   Venue of Execution            26 (XLOE)
+
+                  MiFID Trade                             Venue of Execution            XLOE
+
+                  MiFID Trade                             Trading Mode                  4 – Out of Main Session Trading
+
+
+                The same values are used in messages sent in response to Replay, Recovery, Force Snapshot and order book
+                republish requests.
+
+                GTP Analytics will not be supported by LSE 24.
+
+                Further details can be found in GTP002.
+LSE 24 – Early Access Guide
+                                                                                                                            13
+
+
+
+
+                4.0 Getting started on LSE 24
+                4.1 Onboarding steps
+
+                  Step                Action                                                         Contact
+
+                  1. Register         Inform LSE 24 of:                                              Technical Account
+                                                                                                     Management
+                                      required roles
+                                      •   RFQ requester
+                                      •   RFQ responder
+                                      •   Market data consumer
+                                      preferred method of connection
+                                      •   FIX
+                                      •   Native
+                                      •   AI agent
+
+                  2. Connect          Obtain LSE 24 CDS connection details for the FIX or Native     Technical Account
+                                      Trading, Drop Copy and Post Trade gateways and the GTP         Management/ Equities
+                                      channels B, D and J.                                           Technical Onboarding
+                                      For AI agents, obtain the MCP agent connectors and
+                                      authentication details for the agent trader group.
+
+                  3. Test             Run the suggested scenarios in section 4.3 during LSE 24       Technical Account
+                                      CDS trading hours. To test with a counterparty, contact        Management/ Equities
+                                      Technical Account Management, who will advise on               Technical Onboarding
+                                      available CDS counterparties
+
+                  4. Share feedback   All feedback is warmly welcome including on liquidity,         Technical Account
+                                      pricing, risk control and workflow considerations for LSE 24   Management
+                                      trading.
+LSE 24 – Early Access Guide
+                                                                                                                                 14
+
+
+
+
+                4.2 Readiness checklist
+                1.   Customers should differentiate LSE 24 activity from LSE core market activity. Note that both markets have the
+                     same Instrument ID, ISIN and TIDM.
+                2.   Customers should request for separate (from core LSE market) trader groups and compIDs.
+                3.   Customers should be able to
+                     a)      receive XLOE as a MIC in the LastMkt (30), MarketID (1301) and the Native Execution Venue fields.
+                     b)      access the LSE 24 trading system from 17:00 to 15:00.
+                     c)      send and receive an RFQ request and/or RFQ Quote.
+                     d)      receive Group Ticker Plant messages with
+                           i.    Source Venue 17 (LSE 24),
+                          ii.    Venue of Execution 26 (XLOE)
+                          iii.   MiFID Trading Mode 4 (Out of Main Session Trading)
+
+
+
+                4.3 Suggested test scenarios
+                The following scenarios are intended as a representative starting point for testing LSE 24 functionality. Customers
+                are encouraged to supplement these scenarios with additional test cases to ensure systems, processes and
+                controls are fully validated for specific use cases and implementation requirements.
+
+
+
+                Table 5: Suggested scenarios
+
+                  Scenario                                              Role           Expected result
+
+                  Log on to the LSE 24 CDS trading, Drop Copy           All            Successful logon to the LSE 24
+                  and Post Trade gateways                                              instance
+
+                  Receive Instrument Directory messages on              Market data    Messages carry Source Venue 17
+                  channels B, D and J and identify the eligible
+                  ETPs
+
+                  Submit an auto RFQ with side, minimum                 Requester,     RFQ executes in full against the
+                  number of quotes and execution delay                  market maker   best contra quote once the criteria
+                                                                                       are met and unexecuted quotes
+                                                                                       expire
+
+                  Amend and cancel RFQs                                 Requester,     Acknowledgements received.
+                                                                        market maker
+                  Amend, cancel and mass cancel quotes
+                  Reject an RFQ
+
+                  Allow an RFQ to reach its expiry time or the          Requester,     RFQ terminates and open quotes
+                  five-minute maximum duration                          market maker   expire
+
+                  Execute RFQs before and after midnight within         Requester,     Both trades carry the same trade
+                  the same session                                      market maker   date even though the calendar
+                                                                                       date is different
+LSE 24 – Early Access Guide
+                                                                                                                                               15
+
+
+
+
+                    Scenario                                                Role               Expected result
+
+                    Receive RFQ trades on the Group Ticker Plant            Market data         Message      Field        Value
+
+
+                                                                                                Trade        Venue of     26
+                                                                                                             Execution
+
+
+                                                                                                MiFID        Venue of     XLOE
+                                                                                                Trade        Execution
+
+
+                                                                                                             Trading      4
+                                                                                                             Mode
+
+
+                    Disconnect and recover the FIX or Native                All                Expected gap fill on all gateways
+                    session
+                    Use GTP Replay and Recovery
+
+                    Use natural language3 via the agent LLM to              AI agent           Results in natural language
+                    •    Authenticate and login
+                    •    Submit an RFQ
+                    •    Amend an RFQ
+                    •    Submit an RFQ quote
+                    •    Retrieve all quotes submitted in response
+                         to an RFQ
+                    •    Request to receive all active RFQs
+
+
+
+
+                3
+                    Trades that happened via agentic AI can be verified if the member firm has a FIX post trade or drop copy gateway connection.
+LSE 24 – Early Access Guide
+                                                                                                                        16
+
+
+
+
+                4.4 Customer Interfaces
+                The following interfaces and protocols are available to participants (illustrated in Figure 1 below):
+                Trading Interface (Agentic AI Trading Interface and FIX/ Native Trading Gateways)
+                      •    RFQ/quote entry and immediate confirmation of automated trades
+                Post-trade Interface4
+                      •    ‘Enriched’ trade confirmation of automated trades (including cancellations)5
+                      •    Own Trade Book Download (OTBD)
+                Drop Copy Interface
+                   •   ‘Copy to’ functionality
+                   •   Own Order Book Download (OOBD)
+
+   Figure 1: Customer interfaces
+
+
+
+
+                4
+                    Off book trade reporting is not supported by LSE 24.
+                5
+                    Including any London Stock Exchange 24-initiated cancellations.
+LSE 24 – Early Access Guide
+                                                                                                                             17
+
+
+
+
+                Appendix
+                The following table outlines the tentative timelines and environments for LSE 24 Exchange Trading Products
+                (ETPs).
+
+                  Environment     Tentative Date              Book Type                           Interfaces
+
+                  LSE 24 CDS      October 2026                • Introduction of Request For        •   Model Context Protocol
+                                                                Quote (RFQ) functionality          •   FIX gateway
+                                                              • No Normal Orderbook or Firm        •   Native gateway
+                                                                Quotes (Non-Executable)            •   GTP
+
+                  LSE 24 CDS      Q4 2026                     • Request For Quote (RFQ)            •   Model Context
+                                                                functionality                          Protocol*
+                                                              • Introduction of non-mandatory,     •   FIX gateway
+                                                                indicative, unhittable quotes      •   Native gateway
+                                                                utilising the existing “Firm”      •   GTP
+                                                                Quote functionality.
+                                                              • No Normal Orderbook
+
+                                                                   *MCP cannot be used to submit “firm" quotes until Jan 2027.
+
+                  LSE 24 CDS      January 2027                • RFQ functionality                  •   Model Context Protocol
+                                                              • “Firm” Quotes                      •   FIX gateway
+                                                              • Introduction of the Normal         •   Native gateway
+                                                                Orderbook                          •   GTP
+
+                  LSE 24          Q2 2027 (TBC)               • RFQ functionality                  •   Model Context Protocol
+                  Production                                  • “Firm” Quotes                      •   FIX gateway
+                                                              • Normal Orderbook                   •   Native gateway
+                                                                                                   •   GTP
+                                                                                                                                18
+
+
+
+
+Copyright © October 2026 London Stock Exchange plc. Registered in England and Wales No. 2075721.
+London Stock Exchange plc. has used all reasonable efforts to ensure that the information contained in this publication is correct
+at the time of going to press but shall not be liable for decisions made in reliance on it.
+London Stock Exchange and the coat of arms device are registered trademarks of London Stock Exchange plc.
+

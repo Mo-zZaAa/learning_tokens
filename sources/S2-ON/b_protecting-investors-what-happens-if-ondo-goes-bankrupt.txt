@@ -1,0 +1,80 @@
+ Protecting Investors: What Happens if Ondo goes Bankrupt? | Ondo Finance 
+ Skip to main content 
+ Products
+ Resources
+ Ecosystem
+ About
+ Launch App 
+ Products
+ Resources
+ Ecosystem
+ About
+ USDY • Sep 7, 2023 • 5 min
+ Protecting Investors: What Happens if Ondo goes Bankrupt?
+ Ondo Finance
+ Official Blog
+ Over the past few years, a number of notable players in both the crypto and traditional banking worlds have either gone bankrupt or have come close to doing so. Investors have thus started asking more questions about what would happen to their assets if the company holding such assets were to file for bankruptcy. In this post, we’ll talk more about what we do to protect investors in this scenario and how our efforts compare to others in the space.
+ There are many ways to protect clients’ money. Segregation of funds, separate recordkeeping, regular audits, and adequate disclosures are all ways that firms try to protect investors' funds from bankruptcy. But the best metric—the “gold standard”—is a concept known as “bankruptcy-remoteness”. Typically used in structured finance, the degree of bankruptcy remoteness is the degree to which a legal entity—and therefore the assets in it—is likely to be protected from the bankruptcy of another, related, entity.
+ There are many criteria that influence the degree of bankruptcy remoteness of an entity:
+ Structural Protections: This involves establishing a separate legal entity called a Special Purpose Vehicle (SPV), often with its own set of bylaws, governance structures, and operating procedures to ensure it functions independently.
+ Contractual Protections: Agreements related to the transaction might include clauses that limit the originator's control over the SPV or covenants restricting certain high-risk activities.
+ Limited Recourse and Non-Petition Clauses: These clauses protect the SPV from claims and prevent certain creditors from pushing the SPV into bankruptcy.
+ Independent Directors: Appointing independent directors or managers to the SPV who have a fiduciary responsibility to act in the best interest of the SPV (and not the parent company) can help ensure independent decision-making.
+ Separate Business Purpose: The SPV should have a clearly defined purpose, typically limited to acquiring, holding, and financing assets, and should not engage in other unrelated activities that might expose it to unnecessary risks.
+ No Commingling of Funds: Funds of the SPV should be kept separate from those of the parent company or any other related entity. This minimizes the risk of funds being claimed by creditors of the parent if it becomes bankrupt.
+ At Ondo, all of our products are issued out of separate legal entities using battle-tested practices designed to maximize bankruptcy remoteness. 
+ Let’s take our USDY product as an example. The legal entity that issues USDY, Ondo USDY LLC:
+ Has an independent director and the affirmative vote of the independent director is required for Ondo USDY to file for any bankruptcy.
+ Has a separate Board of Directors from Ondo Finance Inc.
+ Owns, operates, and maintains separate investment and bank accounts from Ondo Finance Inc. (“Ondo”) and its affiliates.
+ Maintains its assets separate from Ondo and Ondo’s affiliates. It does not and will not commingle any assets with Ondo or Ondo’s affiliates.
+ Only has liabilities that will be independent from Ondo or its affiliates (i.e. Ondo and its affiliates will not guarantee its obligations.
+ Does not have any intercompany indebtedness or assume any liabilities of Ondo or Ondo’s affiliates.
+ Has only arm's-length contractual relationships with Ondo or its affiliates (if any) and will follow proper governance procedures.
+ Conducts business in its own name and pays liabilities from its own funds.
+ Is adequately capitalized.
+ Maintains separate accounting records and files separate tax returns from Ondo.
+ Ondo USDY LLC is also established under the laws of Delaware. This is important because Delaware bankruptcy courts have extensive experience in such matters and there is considerable guidance on avoiding substantive consolidation (i.e. combining the assets and liabilities of two entities, implying bankruptcy remoteness was not preserved).
+ Indeed, we’ve gone so far as to obtain an opinion letter from our legal counsel affirming that Ondo USDY LLC is properly structured to preserve non-consolidation with Ondo Finance Inc.
+ But we don’t stop there. The USDY token has also been structured to represent senior secured debt—and the only debt—of Ondo USDY LLC. This means that, even if (somehow) Ondo USDY LLC itself was to go bankrupt, token holders would have the highest priority claim and would specifically be legally secured by the underlying assets.
+ And what are those assets? The only assets Ondo USDY LLC is legally allowed to hold are short-term US Treasuries and bank deposits.
+ Comparisons
+ In reaction to investors asking more questions about bankruptcy protections, many companies in the space have started to advertise some degree of bankruptcy protection to the users. Unfortunately in many cases we’re not sure that these claims hold up to scrutiny.
+ Take stablecoins, for example. While they play a critically useful role in the ecosystem, the largest providers issue these stablecoins directly out of their operating company entity. While they claim that the assets that “back” the stablecoins are held “for the benefit of stablecoin holders”, those assets are legally owned by the same operating company that employs personnel and engage in other business activities with other liabilities.
+ The below chart outlines some of the differences:
+ Typical Stablecoins Ondo USDY 
+ Underlying Assets Varies Treasuries & Bank Deposits 
+ Reserves Held Separate from Operating Company No Yes 
+ Investor Claim on Reserves Unsecured Secured 
+ 3rd Party Oversight Limited Yes 
+ Regulatory Status Uncertain Compliant 
+ Pays Yield No Yes 
+ These considerations are not limited to stablecoins. Any player in the space that accepts and is responsible for investor funds should be evaluated in a similar fashion. As investors get more sophisticated in the questions they ask of their providers, we believe the whole ecosystem will benefit.
+ About Ondo Finance
+ Ondo Finance provides institutional-grade, blockchain-enabled investment products and services. Ondo has a technology arm that develops decentralized finance technology as well as an asset management arm that creates and manages tokenized funds. If you would like to inquire about our products, please send an email to support@ondo.finance .
+ ⚠️ NOTE: USDY is not, and may not be, offered, sold, or otherwise made available in the US or to US persons. USDY has not been registered under the US Securities Act of 1933, a amended ("Act") or pursuant to securities laws of any other jurisdiction, and may not be offered, sold or otherwise transferred in the US or to US persons unless registered under the Act or an exemption or exclusion from the registration requirements thereof is available. Additional restrictions may apply. Ondo USDY LLC, the issuer of USDY, is not registered as an investment company under the US Investment Company Act of 1940, as amended. Nothing herein constitutes any offer to sell, or any solicitation of an offer to buy, USDY. Acquiring USDY involves risks. A USDY holder may incur losses, including total loss of their purchase price. Past performance is not an indication of future results.
+ Next
+ USDY • Aug 3, 2023 
+ Introducing Ondo USD Yield (USDY)
+ Announcement • Jul 13, 2023 
+ Ondo and Polygon Labs Announce Strategic Alliance to Help Drive Adoption of Institutional-Grade DeFi Products and Services
+ Invest
+ USDY OUSG Ondo Stocks Intelligent Portfolios Private Markets 
+ Infrastructure
+ Ondo Network Bridge 
+ Converter 
+ Resources
+ Insights Blog Learn 
+ Partners
+ Ecosystem Foundation 
+ Flux Finance 
+ Explore
+ Docs 
+ Trust & Security 
+ Bug Bounty 
+ Company
+ Team Careers Media Kit 
+ Contact Us Media Inquiries 
+ Ondo © 2026
+ Terms of Service Privacy Policy 
+ 

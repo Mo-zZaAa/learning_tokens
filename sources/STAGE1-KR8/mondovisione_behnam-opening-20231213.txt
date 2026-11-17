@@ -1,0 +1,75 @@
+Opening Statement Of CFTC Chairman Rostin Behnam For The December 13th Commission Open Meeting 
+ Skip to main Content 
+ Mondo Visione Worldwide Financial Markets Intelligence 
+ Advertise with us 
+ Online Exchange Handbook 
+ search 
+ Login 
+ Subscribe 
+ Home 
+ Exchanges 
+ Exchange Directory 
+ FTSE Mondo Visione Exchanges Index 
+ Index News 
+ News 
+ Publications 
+ Acronyms 
+ Glossary 
+ White Papers 
+ Regulators/Associations 
+ close 
+ Track all markets on TradingView 
+ FTSE Mondo Visione Exchanges Index:
+ News 
+ Opening Statement Of CFTC Chairman Rostin Behnam For The December 13th Commission Open Meeting
+ Date 13/12/2023 
+ Good morning, and welcome to the Commission’s final public meeting of 2023.   Today, the Commission will consider three matters—two notices of proposed rulemaking and one registration application.  It has been a very busy year at the Commission.  In February, I laid out an agenda aimed at continuing a longer trajectory of refining policy and regulation to alleviate unnecessary burdens and uncertainty while promoting competition and innovation in the U.S. and abroad. [1]  Today we continue along that course with important goals in mind: protecting customers and ensuring safe, transparent, and resilient derivatives markets. 
+ Before I get to the substance of the matters being considered by the Commission today, I would like to acknowledge the hard work performed by our CFTC colleagues.  You will see some of our staff presenting today, and I would like to thank each of them for their work on our ambitious regulatory agenda.  But there are many staff who have worked behind the scenes to make today possible, and I would like to thank each of them for their work as well.  And, to all of our staff throughout the Offices and Divisions who spend every day protecting customers and our markets, thank you for your professionalism and dedication.  I am incredibly proud to lead this agency. 
+ I will provide a brief overview of the matters on the agenda today and follow-up with questions after the staff presentations. 
+ Notice of Proposed Rulemaking to Require Futures Commission Merchants, Swap Dealers, and Major Swap Participants to Establish an Operational Resilience Framework 
+ First on the agenda today is a Notice of Proposed Rulemaking to Require Futures Commission Merchants (FCMs), Swap Dealers (SDs), and Major Swap Participants (MSPs) to Establish an Operational Resilience Framework (ORF).  I support today’s proposal. 
+ Today’s proposal recognizes that while FCMs, SDs, and MSPs (collectively, “covered entities”) have generally withstood challenging market conditions since the Commission promulgated its risk management program requirements over a decade ago, the Commission must bolster that foundational framework to promote operational resilience in the face of increasingly sophisticated cyberattacks and heightened technological disruptions.  A strong ORF is especially important as the financial sector increasingly relies on third-party service providers; the disruption of which can lead to major interruptions in—and potential corruption of—FCM and SD operations.  In addition to market impacts, events like these may impact covered entities’ ability to comply with the Commission’s statutory and regulatory requirements. 
+ FCM customers, and SD counterparties expect covered entities to take a 360-degree approach to identify, monitor, manage, and assess risks for potential vulnerabilities.  Similarly, the Commission must identify, monitor, manage, and assess any potential gaps in its own risk management requirements that could impede sound risk management practices, expose the U.S. financial system to unmanaged risk, or weaken customer protection. Operational disruptions that place a covered entity’s financial resources at risk; disrupt the segregation and protection of customer funds; hinder recordkeeping; introduce uncertainty or delay; or otherwise inject operational risk into the derivatives market must be avoided to the extent possible to ensure customers, counterparties, and market participants have confidence in the integrity of our markets. 
+ The operational resilience proposal before the Commission today is the product of many months of in-depth research regarding operational resilience standards and guidance issued by the prudential regulators, the SEC, NFA, IOSCO, the FSB, and other subject matter experts to avoid those operational disruptions and failures. The proposal also reflects staff’s own observations and lessons learned from its own oversight activities. 
+ The proposal is a holistic, principles-based approach that is calibrated with certain minimum requirements.  Specifically, t he proposed rule would require covered entities to establish, document, implement, and maintain an ORF reasonably designed to identify, monitor, manage, and assess risks relating to three key risk areas: (1) an information and technology security, (2) third-party relationships, and (3) emergencies and other significant disruptions.  The ORF would also include requirements related to governance, training, testing, and recordkeeping. 
+ The proposal would require covered entities to establish risk appetite and risk tolerance limits and would allow these registrants to rely on an information and technology security program, third-party relationship program, or BCDR plan in which the covered entity participates with one or more affiliates and that is managed and approved at the enterprise level.  Testing would need to be risk-based and include, at a minimum, daily or continuous vulnerability assessment and annual penetration testing, among others.  The proposed rule would also require certain notifications to the Commission and customers or counterparties.  The Commission is also proposing non-binding guidance that FCMs and SDs could consider to identify factors, actions, and strategies as they design their third-party relationship programs. 
+ The Commission recognizes that covered entities subject to this proposal include many different business models.  As a result, the proposal is tailored to accommodate firms that vary in size and complexity, including corporate structures in which operational resilience programs may be managed at an enterprise level and governance arrangements with different reporting line structures. In the same vein, the proposed ORF standard would require covered entities to implement an ORF that is appropriate and proportionate to the nature, size, scope, complexity, and risk profile of the firm’s business as an FCM or SD, following generally accepted standards and best practices. 
+ I look forward to hearing the public's comments on how the proposed operational resilience framework requirements and guidance can strengthen the operational resilience of FCMs, SDs, and MSPs as well as help protect their respective customers and counterparties in the derivatives markets.  The 75-day comment period will begin upon the Commission’s publication of the release on its website. 
+ I thank staff in the Market Participants Division (MPD), Office of the General Counsel (OGC), and the Office of the Chief Economist (OCE) for all of their work on the proposal. 
+ Notice of Proposed Rulemaking Regarding the Protection of Clearing Member Funds Held by Derivatives Clearing Organizations 
+ The Commission will next consider a proposed rule on the protection of clearing member funds held by derivatives clearing organizations (DCOs).  Thank you to Commissioner Johnson and her staff and the staff of the Division of Clearing and Risk (DCR), OGC, and the OCE for their hard work on this proposal. 
+ The Commission has longstanding regulations that provide comprehensive protections for funds belonging to customers of an FCM.  Similar protections, however, are not in place for funds belonging to clearing members of a DCO, whether they are individual market participants or FCMs.  Today’s proposed rule would implement a regime for the protection of clearing member funds that is mostly analogous to the regime currently in place for customer funds.  The proposed rule would ensure that clearing member funds and assets receive proper treatment if a DCO enters bankruptcy by requiring segregation of clearing member funds from the DCO’s own funds and that the funds be held in a depository that acknowledges in writing that the funds belong to clearing members, not the DCO. 
+ I fully support the Commission issuing the notice of proposed rulemaking on the Protection of Clearing Member Funds Held by DCOs.  In retrospect, the Commission’s initial focus on the custody and safeguarding of customer funds was largely responsive to the historical prevailing model in which all, or nearly all, clearing members of a DCO were FCMs.  However, the Commission has since granted registration to a number of DCOs that clear directly for market participants without the intermediation of FCMs, including, in most cases, market participants who are natural persons (i.e., individuals).  Additionally, many DCOs that use the traditional FCM clearing model have at least some non-FCM clearing members. The growth and evolution of the non-intermediated clearing model necessitates the closure of the gap in our regulations that the lack of a regime for the safeguarding and protection of clearing member funds presents.  The proposal of safeguards and protections for clearing member funds that are comparable to those applicable to customers is sound policy. 
+ Lastly, I am pleased that the proposed rule would, in essence, codify the no-action and exemptive relief previously given to four DCOs and would permit DCOs to hold customer funds at foreign central banks and use a modified acknowledgment letter.  Today’s proposed rule would extend that relief to clearing member funds.  Permitting DCOs to hold customer and clearing member funds at a central bank allows them to take advantage of the credit and liquidity risk management benefits that central bank accounts provide.  Again, this is sound policy. 
+ I look forward to hearing the public's comments on the proposed rule.  The 60-day comment period will begin upon the Commission’s publication of the release on its website. 
+ Bitnomial Clearinghouse LLC Application for Registration as a DCO 
+ Finally, the Commission will consider the application of Bitnomial Clearinghouse LLC (Bitnomial or Clearinghouse) for registration as a DCO.  In April 2022, Bitnomial Clearinghouse submitted an application for registration as a DCO pursuant to Section 5b of the Commodity Exchange Act (CEA) and part 39 of the Commission’s regulations (Part 39), in order to clear contracts listed for trading on Bitnomial Exchange, LLC (the “Exchange”), which currently consist of physically-delivered Bitcoin futures contracts and options on Bitcoin futures contracts.  Bitnomial will use a traditional intermediated clearing model that will involve clearing members already active on the Exchange as FCMs. 
+ The Exchange is registered with the Commission as a designated contract market. Since its initial submission, Bitnomial has supplemented and amended its application in response to questions from DCR to address issues identified in the request for comment on potential issues related to affiliations between DCOs, designated contract markets (DCMs), or swap execution facilities with intermediaries, such as FCMs, and other market participants. [2]   This request for comment was jointly issued by the staff of DCR, MPD, and the Division of Market Oversight (DMO) while Bitnomial’s application was being considered by the Commission.  The Commission received 166 comments. [3] 
+ I support Bitnomial’s registration as a DCO.  Bitnomial has demonstrated compliance with each of the Core Principles applicable to DCOs set forth in Section 5b of the CEA and with the regulations implementing the Core Principles set forth in Part 39.  This demonstration of compliance is all that is required for registration.  Bitnomial has also adopted (1) rules that specifically address potential conflicts of interest associated with having an FCM affiliate as a clearing member and (2) a separate, stand-alone policy that addresses potential affiliate conflicts. Binomial has also agreed to publicly disclose its affiliate relationships, including the affiliated FCM.  The disclosure would cover all of the affiliated entities that are owned by Bitnomial, Inc., including the Exchange, the Clearinghouse, and the affiliated FCM, and would fully describe the relationships each entity has with the others.  The disclosure will be posted on Bitnomial’s website, provided to clearing members, and also provided to customers of the affiliated FCM.  These additional measures, which are not required by the CEA, its implementing regulations, or the Core Principles, were voluntarily implemented by Bitnomial in response to the issues identified in the request for comment. 
+ Conclusion 
+ In addition to the three matters on the agenda for today’s meeting, the Commission had included two other matters in the public announcement for today [4] : a Notice of Proposed Rulemaking regarding Swap Date Recordkeeping and Reporting Requirements, and a Notice of Proposed Rulemaking regarding Capital and Financial Reporting Requirements for Swap Dealers and Major Swap Participants. The Commission will be making an announcement regarding disposition of these other matters in the coming days. 
+ I would like to again thank all of the staff for their work on the important matters that we are considering today. 
+ [1]  Rostin Behnam, Chairman, CFTC, Keynote Address of Chairman Rostin Behnam at the ABA Business Law Section Derivatives & Futures Law Committee Winter Meeting (Feb. 3, 2023),  Keynote Address of Chairman Rostin Behnam at the ABA Business Law Section Derivatives & Futures Law Committee Winter Meeting | CFTC . 
+ [2]   See  Press Release Number 8734-23, CFTC, CFTC Staff Releases Request for Comment on the Impact of Affiliations of Certain CFTC-Regulated Entities (June 28, 2023),  CFTC Staff Releases Request for Comment on the Impact of Affiliations of Certain CFTC-Regulated Entities | CFTC . 
+ [3]  Comments are available at  Comments for General CFTC Request for Comment on the Impact of Affiliations of Certain CFTC-Regulated Entities - CFTC . 
+ [4]   See  Press Release Number 8830-23, CFTC to Hold a Commission Open Meeting on December 13 (Dec. 6, 2023),  CFTC to Hold a Commission Open Meeting on December 13 | CFTC . 
+ RELATED LINKS
+ Event: CFTC to Hold a Commission Open Meeting on December 13 
+ Back to List 
+ About Us 
+ Online Exchange Handbook 
+ Subscribe To News Alerts 
+ Advertise With Us 
+ News Centre 
+ FTSE Mondo Visione Exchanges Index 
+ Index News 
+ Exchange Directory 
+ Resources 
+ Contact Us 
+ RSS Feed 
+ Twitter
+ Terms 
+ Privacy 
+ Disclaimer 
+ Cookies 
+ © Mondo Visione 2026

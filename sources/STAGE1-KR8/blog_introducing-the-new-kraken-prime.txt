@@ -1,0 +1,160 @@
+Introducing the new Kraken Prime: better pricing, better access, one new interface for everything - Kraken Blog Kraken Blog 
+ You are using an outdated browser. Upgrade your browser today or install Google Chrome Frame to better experience this site.
+ Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong. Take 2 minutes to learn more 
+ back to kraken.com 
+-->
+ News 
+ Sign in 
+ Sign up 
+ News 
+ Sign in 
+ Sign up 
+ Search for: 
+ August 27, 2026 
+ | 
+ Kraken Institutional , Kraken Prime 
+ Introducing the new Kraken Prime: better pricing, better access, one new interface for everything
+ Execution, settlement, access controls, and order management are now accessible without touching the API.
+ Share this:
+ Share on X (Opens in new window) 
+ X 
+ Share on LinkedIn (Opens in new window) 
+ LinkedIn 
+ Share on Facebook (Opens in new window) 
+ Facebook 
+ Kraken Prime has made a complete overhaul from an API access platform to a full institutional interface.
+ Prime gives institutional clients access to multi-venue liquidity, post-trade net settlement, desk-managed execution and programmatic pricing, all within a single regulated relationship. Until now, getting to that infrastructure meant API integrations or going through the desk. 
+ Here’s a breakdown of what Kraken Institutional clients now get access to in the updated Kraken Prime.
+ Multi-venue execution at programmatic pricing
+ Prime clients access deep liquidity across multiple venues at programmatic pricing. Tight execution across venues, with the quality of a principal desk and the economics of a programmatic one. No spread markup, no manual workflow. Other fees may apply.
+ For institutions that have historically used the OTC desk for execution, Prime offers an alternative route to the same liquidity at tighter pricing, managed entirely from the interface.
+ Post-trade settlement, now self-serve
+ Post-trade settlement on Prime used to require desk involvement at every step. That is no longer the case.
+ Clients now manage the full settlement cycle directly from the interface. Trade against your credit limit, settle net at end of cycle, and handle everything (batch creation, live exposure view, settlement confirmation and PDF or CSV report export) without contacting the desk.
+ For clients who prefer a more hands-off approach, standing instructions can be set for the Prime Middle Office to handle both sides of settlement automatically. Batch scheduling and automated net summary emails are also live, with full settlement automation on the way.
+ A single real-time view of all your Prime activity
+ Previously, getting a complete picture of Prime activity required pulling data programmatically. That is now available directly in the interface.
+ The Prime trading activity view shows all orders, fills and trade history in one unified blotter whether a trade was placed via the UI, the API, or executed by the desk on your behalf. Everything is exportable on demand. Your ops and compliance teams have full visibility without needing API access.
+ Custom access controls for every role in your organization
+ Institutions operate with distinct access requirements across trading, operations and compliance. The Prime interface now supports that directly.
+ Assign trading or view-only permissions per team member, configure API keys and revoke credentials instantly when someone leaves. No engineering involvement, no support ticket. Built for organisations where segregation of duties is a compliance requirement, not an option.
+ Expanded order types, available directly in the interface
+ The Prime interface now supports the full order type suite: limit orders, market orders, Spot RFQs and TWAP.
+ Previously the interface only supported OTC RFQ . All order types are now accessible without programmatic setup, and every order placed via the UI appears in the same activity view and API feed as programmatic trades, one unified record regardless of how the order was placed.
+ Getting started
+ If you are an existing Prime client, log in to Kraken Pro to access the full interface. If you are new to Kraken Prime, reach out to your relationship manager or contact our team directly .
+ Explore Kraken Prime 
+ OTC services, including spot trading, derivatives, and lending, are offered by Payward Oceanic Ltd., a member of the Kraken Group. These products are available only to eligible clients and may not be offered in all jurisdictions. OTC transactions involve risk and may result in the loss of capital. This communication is for informational purposes only and does not constitute investment, legal, or tax advice. Availability is subject to applicable laws and regulatory requirements. 
+ Share this:
+ Share on X (Opens in new window) 
+ X 
+ Share on LinkedIn (Opens in new window) 
+ LinkedIn 
+ Share on Facebook (Opens in new window) 
+ Facebook 
+ « USDSM is available for trading! 
+ AVL is available for trading! »
+ -->
+ Related Posts
+ Asset Listings 
+ -->
+ ROLL is available for trading! 
+ 2 min read 
+ January 16th, 2026 
+ Asset Listings 
+ -->
+ CTR is available for trading! 
+ 2 min read 
+ May 26th, 2026 
+ Asset Listings 
+ -->
+ EV is available for trading! 
+ 2 min read 
+ May 12th, 2026 
+ Asset Listings 
+ -->
+ SFI is available for trading! 
+ 2 min read 
+ October 23rd, 2026 
+ These materials are for general information purposes only and are not investment advice or a recommendation or solicitation to buy, sell, stake or hold any cryptoasset or to engage in any specific trading strategy. Kraken will not undertake efforts to increase the value of any cryptoasset that you buy. Some crypto products and markets are unregulated, and you may not be protected by government compensation and/or regulatory protection schemes. The unpredictable nature of the cryptoasset markets can lead to loss of funds. Tax may be payable on any return and/or on any increase in the value of your cryptoassets and you should seek independent advice on your taxation position.
+ Categories
+ 360 
+ API 
+ Asset Listings 
+ Bitcoin Vault 
+ Blockchain & Crypto Basics 
+ Bonded Earn 
+ Borrow 
+ Bundles 
+ Compliance 
+ Crypto Education 
+ Custody 
+ DeFi Earn 
+ Derivatives 
+ Desktop 
+ Economic Brief 
+ Engineering 
+ Equities 
+ event 
+ Fixed Rate Rewards 
+ Flexline 
+ Funded 
+ FX Perps 
+ Industry News 
+ Ink 
+ IPO Access 
+ Krak 
+ Kraken Card 
+ Kraken Derivatives US 
+ Kraken Embed 
+ Kraken Institutional 
+ Kraken Intelligence 
+ Kraken Pay 
+ Kraken Plus 
+ Kraken Prime 
+ Kraken VIP 
+ Kraken Wallet 
+ Kraken+ 
+ Launch 
+ Margin 
+ New Features 
+ News 
+ NFT 
+ Onchain Trading 
+ Options 
+ Payward Services 
+ Perps 
+ Policy 
+ Press Releases 
+ Pro 
+ Product 
+ Promo 
+ Promotions 
+ Prop 
+ Ramp 
+ Security 
+ Staking 
+ Tips & Explainers 
+ Unified Wallet 
+ vip 
+ xstocks 
+ About
+ Why Kraken 
+ Mobile Apps 
+ Institutions 
+ Careers 
+ Chat with Support 
+ Press 
+ Affiliates 
+ Kraken Bank 
+ Status 
+ Follow Us
+ © 2011 - 2026 Payward, Inc.
+ Privacy Notice 
+ Terms of Service 
+ Cookies Policy 
+ Loading Comments... 
+ Write a Comment... 
+ Email (Required) 
+ Name (Required) 
+ Website

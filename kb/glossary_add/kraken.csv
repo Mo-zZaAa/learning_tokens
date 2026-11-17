@@ -1,0 +1,70 @@
+용어,뜻,출처
+Payward,Kraken의 모회사. 거래(Kraken)와 은행과 자산관리와 다른 금융회사용 기능 판매(Payward Services)를 한 장부로 굴리는 회사. 비상장,F-1347
+Kraken,2011 미국 샌프란시스코에서 세운 가상자산 거래소. 모회사는 Payward,kb/events/kraken.json KR-E01
+Fidor Bank,독일 온라인 은행. 은행 인가가 없던 초기 Kraken이 이 은행과 제휴해 유로 입출금을 엶,kb/events/kraken.json KR-E03
+Mt. Gox,2014-02 무너진 일본의 옛 비트코인 거래소. 당시 최대 거래소였고 해킹과 부실 운영으로 파산함,kb/events/kraken.json KR-E01
+BitLicense,뉴욕주 금융감독청이 주는 가상자산 사업 인가. 뉴욕 주민에게 가상자산 서비스를 하려면 필요함. Kraken은 2015-08 받지 않고 뉴욕에서 철수함,kb/events/kraken.json KR-E07
+CoinMarketCap,가상자산 시세와 거래소 거래량 순위를 모아 보여 주는 사이트,일반 뜻
+금융범죄단속국(FinCEN),미국 재무부 산하 자금세탁 감독 기관. 2023 Binance 명령에 Binance의 신원 확인 없는 출금 한도가 적혀 있음,kb/events/kraken.json KR-E08f
+해외자산통제실(OFAC),미국 재무부 산하 제재 집행 기관. 2022-11 Kraken은 이란 제재 위반으로 이 기관과 합의함,kb/events/kraken.json KR-E12
+신용 거래(마진),거래소에서 돈이나 자산을 빌려 가진 돈보다 크게 사고파는 거래. 선물과 다름. Kraken은 2015-05 최대 3배로 시작함,kb/events/kraken.json KR-E06
+선물,정해진 날 정해진 값에 사고팔기로 지금 약속하는 계약. Kraken 선물의 기초자산은 비트코인 같은 가상자산의 가격,일반 뜻
+무기한선물,만기가 없는 선물. 만기마다 갈아탈 필요 없이 들고 있을 수 있고 현물 가격과 차이를 정기 정산으로 맞춤,일반 뜻
+CFTC,미국 상품선물거래위원회. 선물과 옵션 거래소와 청산소와 중개사를 인가하고 감독함,일반 뜻
+SEC,미국 증권거래위원회. 증권 발행과 증권 거래소와 증권사를 감독함,일반 뜻
+FCA,영국 금융행위감독청. 영국 금융회사의 영업 인가와 감독을 맡음,일반 뜻
+Crypto Facilities,2015 런던에서 세운 가상자산 선물 거래장이자 지수 계산 회사. 영국 FCA 인가를 가짐. Kraken이 2019-02 인수해 처음으로 선물을 팖,F-1803
+NinjaTrader,2003 세운 미국 개인 선물 트레이더용 앱과 선물 중개사(FCM)를 가진 회사. Kraken이 2025-03 발표하고 2025-05 인수를 끝냄,F-1117
+FCM(선물 중개사),Futures Commission Merchant. 고객의 선물 주문을 받아 거래소에 넘기고 고객 증거금을 맡는 CFTC 인가 회사,kb/events/kraken.json KR-E19
+Small Exchange,2020-03 CFTC 지정 선물 거래소(DCM)가 된 미국 회사. Kraken이 2025-10 영국 IG Group에서 1억 달러에 삼. 고객 없이 인가만 산 건,F-1116
+DCM(선물 거래소),Designated Contract Market. 선물과 옵션을 상장하고 주문을 맞붙여 체결하는 CFTC 지정 거래소,kb/events/kraken.json KR-E25
+Bitnomial,선물 거래소(DCM)와 청산소(DCO)와 선물 중개사(FCM)를 모두 가진 미국 회사. Kraken이 2026-04 발표하고 2026-05 인수를 끝냄,F-1118
+DCO(청산소),Derivatives Clearing Organization. 체결된 선물 거래에서 양쪽 사이에 서서 결제를 끝까지 책임지는 CFTC 등록 기관,kb/events/kraken.json KR-E35
+청산,체결된 거래의 결제 의무를 확정하고 한쪽이 못 갚아도 결제가 끝나게 책임지는 일,일반 뜻
+SPDI(특수목적 예금기관),와이오밍주가 2019 만든 주 인가 은행. 달러 예금을 받고 가상자산을 보관하지만 예금 전액을 유동자산으로 들고 있어야 하고 대출은 법으로 금지됨,F-1722
+연준 마스터 계정,미국 중앙은행(연준) 결제망에 직접 들어가 달러를 주고받을 수 있는 계좌. 없으면 다른 은행을 거쳐야 함. Kraken 은행은 2026-03 받음,F-1532
+Fedwire,미국 연준이 운영하는 은행 간 달러 결제망,일반 뜻
+MiCA,EU 가상자산 시장 규정. 한 나라에서 받은 가상자산사업자 인가로 EU 전체에서 영업함. Kraken은 2025-06 아일랜드에서 받음,kb/events/kraken.json KR-E22
+MiFID(MiFID II),EU 금융상품 시장 지침. 증권과 파생 같은 금융상품을 팔고 중개하려면 이 인가가 필요함. 한 나라 인가로 다른 EU 나라에서도 씀,kb/events/kraken.json KR-E18
+CySEC,키프로스 증권거래위원회. Kraken이 2025-02 산 키프로스 투자회사의 인가 기관,F-1370
+버뮤다 인가 법인(PDSL),Kraken의 버뮤다 법인. 버뮤다 금융청 인가로 미국과 EU 밖 고객에게 파생과 xStocks를 팖,kb/events/kraken.json KR-E16
+xStocks,미국과 영국과 EU 상장 주식의 값을 1:1로 따라가는 토큰 상품 브랜드. 법인이 아님. 발행은 그룹 안 저지 발행사가 함. 미국 투자자에게는 팔지 않음,kb/events/kraken.json KR-E23
+Backed,2021 스위스에서 세운 토큰화 회사. 저지 법인으로 xStocks를 발행함. Kraken이 2025-12 인수에 합의하고 2026-01 지분 100%를 삼,kb/events/kraken.json KR-E27
+저지(Jersey),영국 해협의 섬. 영국 왕실 직할령이지만 영국이나 EU가 아니라 자체 법과 감독 기관을 둠. xStocks 발행 법인이 있는 곳,일반 뜻
+추적 증권(tracker certificate),기초 주식 값을 따라가는 만기 없는 증서. 투자자는 주식이 아니라 발행사에 대한 상환 청구권을 가짐,F-0148
+승인 참가자(AP),발행사와 계약해 토큰을 새로 만들거나 되돌리는(창설과 상환) 권한을 가진 회사,F-0920
+InCore Bank,스위스 금융감독 인가 은행. xStocks 기초 주식을 보관함,F-0964
+Alpaca,미국 증권사. Kraken 미국 고객 주식 주문을 체결하고 청산함. 2025-12부터 xStocks 미국 기초 주식을 사서 보관하는 우선 거래처,F-1524
+GTN,여러 나라 주식의 주문 집행과 보관을 맡는 증권 중개 그룹. 영국과 EU 주식 xStocks의 기초 주식을 사고 보관함,kb/events/kraken.json KR-E38
+360X,독일거래소 계열의 블록체인 기반 거래장. EU 시범 특례(DLT 시범 제도)를 받아 2026-02부터 xStocks를 거래함,F-0175
+독일거래소(Deutsche Börse),프랑크푸르트 증권거래소를 운영하는 독일 거래소 그룹. 2026-04 Payward 지분 1.5%를 2억 달러에 삼,F-1357
+Nasdaq Ventures,미국 거래소 Nasdaq의 투자 조직. 2026-09 Payward에 1억 달러 투자를 결정함,F-1255
+시장감시,거래소가 시세 조종과 이상 거래를 잡아내는 일과 그 시스템,일반 뜻
+LSE 24,런던증권거래소(LSE)가 규제 승인을 전제로 계획한 시장 이름. Kraken은 영국 대형주 토큰을 여기서 거래하는 계획을 밝힘,kb/events/kraken.json KR-E42
+xPO,비상장 회사가 자기 주식을 xStocks로 찍어 처음 공모하는 Kraken 계획 상품. 규제 승인 전,kb/events/kraken.json KR-E37
+IPO Access,미국 밖 개인이 상장 전 회사 주식을 공모가에 토큰으로 신청하는 Kraken 상품,kb/events/kraken.json KR-E37
+공모(IPO),회사가 새 주식을 처음으로 일반 투자자에게 파는 것. 상장 그 자체가 아님. 더 큰 개념은 유상증자,inputs/pm_261117 근본 개념 9
+유상증자,회사가 주식 수를 늘려 돈을 받고 파는 것. 증권시장에 올리며 처음 하면 공모(IPO),inputs/pm_261117 근본 개념 9
+S-1 비공개 제출,상장 전에 증권신고서 초안을 SEC에 공개하지 않고 먼저 검토받는 절차,kb/events/kraken.json KR-E26
+Citadel Securities,미국 시장조성 회사(주식과 옵션 주문을 받아 사고팔 값을 내는 회사). 2025-11 Payward에 2억 달러를 투자함,F-1187
+Payward Services,Kraken이 자기 거래소용으로 만든 수탁과 호가와 규정 준수와 결제 기능을 은행과 핀테크와 다른 거래소가 API로 붙여 쓰게 하는 사업,kb/events/kraken.json KR-E31
+Embed,2025-04 Kraken이 낸 은행 앱 안 가상자산 매매 기능. 첫 고객은 bunq. 2026-03 Payward Services로 이름을 바꿈,kb/events/kraken.json KR-E20
+bunq,네덜란드 온라인 은행. Kraken Embed의 첫 고객,kb/events/kraken.json KR-E20
+API,다른 회사 시스템이 이 회사 기능을 프로그램으로 불러 쓰게 하는 연결 규격,일반 뜻
+OKX,해외 대형 가상자산 거래소. 2026-07 Kraken의 xStocks를 받아 자기 고객에게 팖,kb/events/kraken.json KR-E40
+Bybit,해외 대형 가상자산 거래소. xStocks 출시 때부터 같이 팖,kb/events/kraken.json KR-E23
+WOO X EU,해외 가상자산 거래소 WOO X의 EU 법인. 수탁을 Payward Services에 맡김,F-1515
+Hyperliquid,블록체인 위에서 무기한선물을 거래하는 탈중앙 거래장. Payward Services의 파트너,F-1350
+Reap,기업에 스테이블코인 기반 카드와 국경 간 송금을 API로 파는 회사. Kraken이 2026-05 발표하고 2026-07 인수를 끝냄,kb/events/kraken.json KR-E36
+Saldo Bank,리투아니아 인가 디지털 은행. 예금과 대출과 카드를 함. Kraken이 2026-10 인수 계약을 맺음(2027 종결 예상),kb/events/kraken.json KR-E44
+Breakout,프롭 트레이딩 평가 플랫폼. Kraken이 2025-09 인수함,kb/events/kraken.json KR-E24
+프롭 트레이딩,평가를 통과한 트레이더에게 회사 돈을 맡겨 굴리게 하고 이익을 나누는 방식. 트레이더는 평가 응시료를 냄,kb/events/kraken.json KR-E24
+CF Benchmarks,Kraken 계열 가상자산 지수 회사. CME 비트코인 기준가 같은 지수를 계산하고 사용료를 받음,kb/events/kraken.json KR-E08a
+Flexline,가상자산을 팔지 않고 담보로 맡겨 돈을 빌리는 Kraken 신용한도 상품,kb/events/kraken.json KR-E34
+Krak,Kraken의 송금과 결제 앱. 2026-08 직불카드를 냄,kb/events/kraken.json KR-E34
+스테이킹,특정 블록체인에 가상자산을 맡겨 거래 검증에 참여하고 그 대가로 새 코인을 보상으로 받는 것. 이자가 아니라 보상임,일반 뜻
+총플랫폼마진(TPM),Kraken이 2026 Q3부터 쓰는 실적 지표. 총매출에서 거래 비용과 거래 손익과 고객에게 돌려준 스테이킹 보상을 뺀 값. 매출이 아니라 마진 지표,F-1723
+조정매출,Kraken이 2026 Q2까지 쓰던 실적 지표. 스테이킹 보상을 빼지 않음,kb/structs/kraken/money.csv KR-M06
+장외(OTC) 데스크,거래소 호가창 밖에서 기관이나 고액 고객의 큰 주문을 직접 맞춰 주는 부서,F-1775
+적격 수탁,기관 투자자가 규정상 자산을 맡겨야 하는 수탁 형태,kb/events/kraken.json KR-E14
+Prime,펀드와 은행과 기업 재무 부서가 거래와 수탁과 자금 융통을 한 계정에서 하게 하는 Kraken 기관 상품(2025-06),kb/events/kraken.json KR-E14

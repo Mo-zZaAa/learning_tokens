@@ -1,0 +1,347 @@
+IG Group Holdings PLC - M&A Activity 2025 | FinancialFilings
+Skip to main content
+Financial
+Filings
+Companies
+Browse
+Search all companies
+93,079 companies
+Market indices
+44 indices
+Sectors & industries
+11 sectors · 67 industries
+Stock exchanges
+128 exchanges
+Companies by country
+Browse by market
+IPOs
+Recent and upcoming listings
+Filings
+Browse
+Search all filings
+53,669,056 filings
+Filing types & taxonomy
+30 types · 11 categories
+Filings by country
+69 market pages
+By region
+Europe
+Americas
+East Asia
+Southeast Asia
+South Asia
+Oceania
+Middle East & Africa
+Filings by region →
+98 markets
+115 sources
+Datasets
+MCP
+NEW
+Developers
+Solutions
+Pricing
+Build
+API overview
+Typed REST · Markdown, JSON, PDF
+Documentation
+Guides and quickstarts
+API reference
+Every endpoint and field
+Webhooks
+New filings pushed to you
+Changelog
+What shipped, and when
+Deliver
+Amazon S3
+Pre-keyed by ISIN / LEI
+Snowflake
+Query it in your warehouse
+Bulk downloader
+Export filings in bulk
+Free for the web. Paid for the API.
+Self-serve or enterprise - see Pricing
+By use case
+Hedge funds
+The US is solved. Europe is the headache.
+Analytics platforms
+Close the European gap in your coverage
+Academic research
+A citable European filings corpus
+Customer stories
+All stories →
+Case study
+Hebbia
+Case study
+AI Security Institute
+Case study
+ValueSquare
+Theme
+Light
+Dark
+System
+EN
+Language
+English
+EN
+Deutsch
+DE
+Français
+FR
+Español
+ES
+Português
+PT
+Italiano
+IT
+Nederlands
+NL
+日本語
+JA
+简体中文
+ZH
+Pages not yet translated show in English.
+Log in / Sign up
+Get API access
+Ask AI
+IG Group Holdings PLC
+—
+M&A Activity 2025
+Oct 16, 2025
+·
+2025 filings
+Original
+Digital View
+Digital
+Ask AI
+IG Group Holdings PLC
+M&A Activity 2025 · HTML
+Open in viewer
+Opens in your device viewer
+RNS Number : 5408D
+IG Group Holdings plc
+16 October 2025
+16 October 2025
+LEI No: 2138003A5Q1M7ANOUD76
+IG GROUP HOLDINGS PLC
+Sale of Small Exchange
+IG Group Holdings plc ("IG", "the Group") today announces that it has completed the sale of Small Exchange Inc ("Small Exchange") to Payward Inc ("Payward"), the parent company of the crypto exchange Kraken.
+The transaction values Small Exchange at $100.0m (£74.9m), with the consideration comprising $32.5m (£24.3m) in cash and $67.5m (£50.6m) in Payward stock1. The sale results in a post-tax gain of £73.3m and increases Group regulatory capital resources by £22.7m2.
+Under the terms of the deal, IG will enter into a partnership agreement with Kraken which includes distributing the new exchange's products. Details of the new venue's products will be available in due course.
+Breon Corcoran, CEO of IG Group said: "The transaction represents a significant return on the Group's acquisition of Small Exchange and enables us to collaborate with Kraken on the distribution of new crypto products."
+The transaction builds on recent momentum in the Group's crypto strategy.
+In September 2025, IG announced the acquisition of Independent Reserve, a leading crypto exchange based in Australia. The transaction is subject to regulatory approvals and remains on track to complete in early 2026. Last month, IG also obtained a cryptoasset licence from the Financial Conduct Authority, enabling the Group to significantly expand its crypto offering to customers in the UK.
+Earlier in FY26, IG took part in a new funding round at Zero Hash Holdings LLC ("zerohash"), a leading market infrastructure provider for crypto, stablecoin, and tokenized assets, leaving it with an 8.1% shareholding3. This was one of the largest private market raises in the crypto and stablecoin sector in 2025 and values zerohash at approximately $1bn.
+Notes
+1) GBP-USD exchange rate as at 15 October 2025 of 1.33
+2) Equity consideration excluded from Group regulatory capital resources
+3) IG's shareholding in zerohash stated on a fully diluted basis (9.3% prior to latest funding round)
+Enquiries
+IG Group Investor Relations
+Martin Price
+020 7573 0020
+investors@iggroup.com
+Media
+Sodali & Co
+020 7100 6451
+iggroup@client.sodali.com
+Kraken
+Founded in 2011, Kraken is one of the world's longest-standing and most secure crypto platforms globally. Kraken clients trade more than 450 digital assets, traditional assets such as U.S. futures and U.S.-listed stocks and ETFs, and six different national currencies, including GBP, EUR, USD, CAD, CHF, and AUD. Trusted by millions of institutions, professional traders and consumers, Kraken is one of the fastest, most liquid and performant trading platforms available.
+Kraken's suite of products and services includes the Kraken App, Kraken Pro, the Krak App, Kraken Institutional, Kraken's on-chain offerings and the Ninja Trader retail trading platform. Across these offerings, clients can buy, sell, stake, earn rewards, send and receive assets, custody holdings, and access advanced trading, derivatives, and portfolio management tools.
+Kraken has set the industry standard for transparency and client trust, and it was the first crypto platform to conduct Proof of Reserves. It complies with regulations and laws applicable to its business, while actively protecting client privacy and maintaining the highest security standards.
+For more information about Kraken, please visit
+www.kraken.com.
+zerohash
+zerohash is the leading infrastructure provider for crypto, stablecoin, and tokenized assets. Its API and embeddable dev-kit enables innovators to easily launch solutions across cross-border payments, commerce, trading, remittance, payroll, tokenization and on/off-ramps.
+zerohash has a global regulatory footprint, with regulated entities in the EU, Latin America, Australia, New Zealand, Bermuda, and other jurisdictions. In the United States, Zero Hash LLC is a FinCen-registered Money Service Business and a regulated Money Transmitter that can operate in 51 U.S. jurisdictions. Zero Hash LLC and Zero Hash Liquidity Services LLC are licensed to engage in virtual currency business activity by the New York State Department of Financial Services. Zero Hash Trust Company LLC is chartered by the North Carolina Commissioner of Banks as a non-depository trust company. For information about zerohash's global regulatory footprint, please visit
+FAQ
+.
+zerohash has approximately 200 employees around the globe, with offices in New York, Chicago, North Carolina and Amsterdam.
+Small Exchange Inc
+Small Exchange is a Designated Contract Market (DCM) registered with the US Commodity Futures Trading Commission (CFTC).
+Disclaimer - forward-looking statements
+This statement, prepared by IG may contain forward looking about IG and its subsidiaries. Such forward-looking statements can be identified by the use of forward-looking terminology, including the terms "believes", "projects", "estimates", "plans", "anticipates", "targets", "aims", "continues", "expects", "intends", "hopes", "may", "will", "would", "could" or "should" or, in each case, their negative or other various or comparable terminology.
+Forward-looking statements involve known and unknown risks, uncertainties, assumptions and other factors which are beyond IG's control and are based on the Group's beliefs and expectations about future events as of the date the statements are made. If the assumptions on which the Group bases its forward-looking statements change, actual results may differ from those expressed in such statements. There are a number of factors that could cause actual results and developments to differ materially from those expressed or implied by these forward-looking statements, including those set out under "Principal Risks" in the FY25 Group Annual Report for the financial year ended 31 May 2025. The Annual Report can be found on IG's website (www.iggroup.com).
+Forward-looking statements speak only as of the date they are made. Except as required by applicable law and regulation, IG undertakes no obligation to update these forward-looking statements.
+No profit forecasts or estimates
+No statement in this announcement is intended as a profit forecast or estimate for any period and should not be construed as such.
+About IG
+IG Group (LSEG:IGG) provides online trading platforms and educational resources to empower ambitious customers around the globe. Headquartered in the UK, IG Group is a FTSE 250 company that offers customers access to c.19,000 financial markets worldwide.
+More from IG Group Holdings PLC
+2025 filings →
+Earnings Release
+2025
+Dec 16
+Interim / Quarterly Report
+2025
+Nov 24
+Annual Report
+2025
+Oct 27
+Earnings Release
+2025
+Sep 25
+Earnings Release
+2025
+Sep 19
+Latest filings
+Earnings Release
+2026
+Oct 2
+Earnings Release
+2026
+Jul 30
+Earnings Release
+2026
+Jul 8
+Annual Report
+2026
+Jun 7
+Earnings Release
+2026
+May 19
+View all filings →
+Global Filings Brief
+What companies filed last week, read for you
+Mondays. New market coverage, notable disclosures, and what moved in the filings - nothing else in the inbox.
+Email
+Company website
+Also send me
+Also send me
+Global Filings Brief · Mondays
+Product updates · monthly
+API changelog · ~12 a year
+One email asks you to confirm the address. Nothing is stored until you do. See our
+Privacy Policy
+.
+Check your inbox.
+- a link to confirm the address is on its way. Nothing else arrives until you click it.
+Financial
+Filings
+The unified database of
+public-company
+filings.
+93.0K+ companies tracked, 53M+ filings indexed. Free for the web. Paid for the API.
+Contact
+support@financialfilings.com
++1 (929) 346-5787
+Sales & plans ·
+Mon-Fri
+·
+09:00-18:00
+CET
+All contact options
+Financial Data
+Datasets
+Companies
+Filings
+Filings by country
+Companies by country
+Sectors
+Market Indices
+Stock Exchanges
+IPOs
+Standardized Financials
+API
+API Solutions
+Pay-as-you-go Pricing
+MCP Server
+API Documentation
+For AI agents
+Data Coverage
+History by Market
+Classification Framework
+Industry Classification (OICS)
+Filing Types
+Bulk Downloader
+Products
+Compare Alternatives
+Solutions For
+Academic Research
+Hedge Funds
+Analytics Platforms
+Governments
+Company
+About Us
+Funding
+Customers
+Research
+Careers
+Brand kit
+93.0K+
+Companies tracked
+53M+
+Filings indexed
+98
+Markets covered
+Legal Notice
+Privacy Policy
+Terms of Service
+API Terms
+Modern Slavery Statement
+Code of Conduct
+Cookie settings
+© 2026 FINANCIALREPORTS PTE. LTD. · UEN 202504313C · LEI 98450053FB7E60ADDC13 · All rights reserved.
+No guarantee can be given for the completeness, correctness and accuracy of the listed contents.
+Disclaimer: The information, data, analyses, and opinions presented on FinancialFilings are provided for informational purposes only, and are not intended for trading or investing purposes. We make reasonable efforts to ensure accuracy but cannot guarantee the Content will be free of errors. FinancialFilings disclaims any liability for any loss arising from reliance on the Content. Your use of this site is solely at your own risk. Consult your financial advisor before making any investment decisions.
+Show more
+Ask AI about this report
+Ask anything about the IG Group Holdings PLC M&A Activity 2025. Answers come from the filing itself.
+Summarise the key results
+What are the main risks?
+Show revenue and profit in a table
+Answers need a free account.
+Your question
+Send
+Reading the report…
+Sign in or create a free account
+Free account
+Sign in or create a free account
+Free account: alerts on companies you follow, AI chat on filings, and free API & MCP access.
+Sign in or create a free account - no password needed.
+Continue with Google
+Continue with Microsoft
+Sign in with SSO
+or
+Email
+Full name
+Also email me - unsubscribe any time
+Global Filings Brief
+weekly
+Product updates
+monthly
+API changelog
+We emailed a code to
+.
+Verification code
+Use a password instead
+Email or username
+Password
+Forgot password?
+Log in
+← Back to email
+By continuing, you agree to our
+Terms
+and
+Privacy Policy
+.
+Upgrade
+Unlock unlimited filing views
+Pay-as-you-go
+Add a card
+- no fixed fee
+Enterprise & API
+Talk to sales
+Maybe later
+×
+Cookie settings
+We and our partners (such as Google, LinkedIn, Microsoft, Meta, Reddit and TikTok) use cookies to analyse how our site is used and for marketing, including personalised ads. They are set only if you accept. Strictly necessary cookies are always on.
+We use cookies for analytics and marketing, including personalised ads, only if you accept.
+Privacy Policy
+We and our partners (such as Google, LinkedIn, Microsoft, Meta, Reddit and TikTok) use cookies to analyse how our site is used and for marketing, including personalised ads. You can opt out at any time. Strictly necessary cookies are always on.
+We use cookies for analytics and marketing, including personalised ads. You can opt out at any time.
+Privacy Policy
+Reject
+Opt out
+Accept
+OK
