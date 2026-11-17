@@ -327,9 +327,15 @@ body.nonum .num::after{content:"⋯";font-size:14px}
 .scard .sid{font-size:15.5px;font-weight:700;margin:6px 0 10px;padding:8px 10px;background:var(--accent-soft);border-radius:8px}
 .scard .slab{font-size:12.5px;font-weight:700;color:var(--muted);margin:10px 0 4px;letter-spacing:.02em}
 .scard ol.sflow{list-style:none;margin:0;padding:0 0 0 12px;border-left:3px solid var(--line)}
-.scard ol.sflow li{position:relative;padding:2px 0 4px 8px;font-size:14px;color:var(--muted)}
-.scard ol.sflow li::before{content:"";position:absolute;left:-19px;top:9px;width:11px;height:11px;border-radius:50%;background:var(--line);border:2px solid var(--panel)}
-.scard ol.sflow li.now{color:var(--ink);font-weight:800;font-size:15px}
+.scard ol.sflow li{position:relative;padding:3px 0 8px 8px;font-size:14px;color:var(--muted)}
+.scard ol.sflow li .ft{font-weight:700;color:var(--ink)}
+.scard ol.sflow li .fx{font-size:13.5px;line-height:1.6;margin-top:1px}
+.scard ol.sflow li.now .fx{color:var(--ink);font-weight:500}
+.scard .smoney,.brief .smon{background:var(--ok-soft);border-left:4px solid var(--ok);border-radius:6px;padding:7px 10px;margin:0 0 6px;font-size:14px;line-height:1.65}
+.brief .scommon.smon{border:0;border-left:4px solid var(--ok);font-size:15px}
+.mbadge{display:inline-block;font-size:11px;font-weight:800;color:#fff;background:var(--ok);border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
+.scard ol.sflow li::before{content:"";position:absolute;left:-19px;top:10px;width:11px;height:11px;border-radius:50%;background:var(--line);border:2px solid var(--panel)}
+.scard ol.sflow li.now .ft{color:var(--accent);font-size:15px;font-weight:800}
 .scard ol.sflow li.now::before{background:var(--accent)}
 .scard b.sd{color:var(--accent)}
 .scard .sint{background:var(--keybox);border-left:4px solid var(--pi-edge);border-radius:6px;padding:8px 10px;margin:10px 0 4px;font-size:14.5px;font-weight:600}
@@ -1201,16 +1207,17 @@ function renderQa(){
 let briefCur = 'strat';
 // 회사별 전략 한눈에(briefs/00_전략_한눈에.md): 정체, 흐름, 해설, 기둥별 행보
 function parseStrat(src){
-  const out = {common: '', cos: {}}; let co = null, inAct = false;
+  const out = {common: '', money: '', cos: {}}; let co = null, sec = '';
   (src || '').split('\n').forEach(l => {
     if (l.startsWith('공통:')){ out.common = l.slice(3).trim(); return; }
-    if (l.startsWith('## ')){ co = {name: l.slice(3).trim(), acts: []}; out.cos[co.name] = co; inAct = false; return; }
+    if (l.startsWith('돈:')){ out.money = l.slice(2).trim(); return; }
+    if (l.startsWith('## ')){ co = {name: l.slice(3).trim(), acts: [], flow: []}; out.cos[co.name] = co; sec = ''; return; }
     if (!co) return;
-    let m = l.match(/^- (정체|흐름|해설):\s*(.*)$/);
-    if (m){ co[m[1]] = m[2]; inAct = false; return; }
-    if (/^- 행보\s*$/.test(l)){ inAct = true; return; }
-    m = l.match(/^\s+- (.+?)\s*\[([^\]]+)\]:\s*(.*)$/);
-    if (inAct && m) co.acts.push({p: m[1], badge: m[2], x: m[3]});
+    let m = l.match(/^- (정체|해설|돈):\s*(.*)$/);
+    if (m){ co[m[1]] = m[2]; sec = ''; return; }
+    if (/^- (흐름|행보)\s*$/.test(l)){ sec = l.slice(2).trim(); return; }
+    if (sec === '행보' && (m = l.match(/^\s+- (.+?)\s*\[([^\]]+)\]:\s*(.*)$/))){ co.acts.push({p: m[1], badge: m[2], x: m[3]}); return; }
+    if (sec === '흐름' && (m = l.match(/^\s+- (.+?):\s*(.*)$/))) co.flow.push({t: m[1], x: m[2]});
   });
   return out;
 }
@@ -1218,12 +1225,13 @@ const BADGE_CLS = b => /가장 큼|매출로|실현|큰 몫|실체/.test(b) ? 'g
 function stratFmt(t){ return esc(t).replace(/((?:19|20)\d\d(?:-\d\d| Q\d)?)/g, '<b class="sd">$1</b>').replace(/&quot;(.+?)&quot;/g, '<mark class="hm">"$1"</mark>'); }
 function stratCard(c, side){
   if (!c) return '';
-  const steps = (c['흐름'] || '').split(' → ');
+  const n = c.flow.length;
   return `<div class="scard${side ? ' side' : ''}">
     <div class="sh"><span class="sname">${esc(c.name)}의 전략</span></div>
     <div class="sid">${stratFmt(c['정체'] || '')}</div>
-    <div class="slab">전략 틀이 바뀐 흐름</div>
-    <ol class="sflow">${steps.map((x,i) => `<li class="${i === steps.length - 1 ? 'now' : ''}">${stratFmt(x)}</li>`).join('')}</ol>
+    ${c['돈'] ? `<div class="smoney"><span class="mbadge">돈</span>${stratFmt(c['돈'])}</div>` : ''}
+    <div class="slab">전략 틀이 바뀐 흐름 (아래가 지금)</div>
+    <ol class="sflow">${c.flow.map((f,i) => `<li class="${i === n - 1 ? 'now' : ''}"><div class="ft">${stratFmt(f.t)}</div><div class="fx">${stratFmt(f.x)}</div></li>`).join('')}</ol>
     <div class="sint"><span class="ibadge">해설</span>${stratFmt(c['해설'] || '')}</div>
     <div class="slab">기둥별 행보</div>
     <div class="sacts">${c.acts.map(a => `<div class="sact"><div class="sp">${esc(a.p)} <span class="sb ${BADGE_CLS(a.badge)}">${esc(a.badge)}</span></div><div class="sx">${stratFmt(a.x)}</div></div>`).join('')}</div>
@@ -1290,7 +1298,7 @@ function renderBrief(){
   if (briefCur === 'axes') h += `<h1>승인된 축과 가설</h1>` + bTable(B.axes);
   else if (briefCur === 'pillars') h += `<h1>9곳 전략 틀 비교</h1>` + bTable(B.pillars) + (B.pillars_read||[]).map(x => `<div class="bl"><span class="bm">•</span><span>${esc(x)}</span></div>`).join('');
   else if (briefCur === 'ats') h += `<h1>야간 ATS 3곳</h1>` + bBlocks(B.ats||[]);
-  else if (briefCur === 'strat') h += `<h1>회사별 전략 한눈에</h1><div class="scommon">${stratFmt(S.common)}</div><div class="sgrid">${B.cos.map(c => `<div class="sgi">${stratCard(S.cos[c.name])}<button type="button" class="sgo" data-brief="${esc(c.name)}">${esc(c.name)} 브리핑 열기</button></div>`).join('')}</div>`;
+  else if (briefCur === 'strat') h += `<h1>회사별 전략 한눈에</h1><div class="scommon">${stratFmt(S.common)}</div>${S.money ? `<div class="scommon smon"><span class="mbadge">돈</span>${stratFmt(S.money)}</div>` : ''}<div class="sgrid">${B.cos.map(c => `<div class="sgi">${stratCard(S.cos[c.name])}<button type="button" class="sgo" data-brief="${esc(c.name)}">${esc(c.name)} 브리핑 열기</button></div>`).join('')}</div>`;
   else { const c = B.cos.find(x => x.name === briefCur); if (c) h += `<div class="bwrap"><div class="bmain"><h1>${esc(c.name)} 브리핑</h1>` + bBlocks(c.blocks) + `</div><aside class="bside">${stratCard(S.cos[c.name], true)}</aside></div>`; }
   h += '</div>';
   $('#main').innerHTML = h;
