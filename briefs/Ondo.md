@@ -5,9 +5,16 @@
 ## 1층 (키워드)
 - 본업 : 국채 토큰 OUSG(미국 적격투자자), USDY(미국 밖 개인과 기관), 잔액 USDY 19.7억 달러, OUSG 3.13억 달러
 - 시작 : 국채 토큰 직접 발행(2023-01 OUSG, 2023-08 USDY)
-- 붙인 것 : 2024-08 OUSG 기초자산 BlackRock BUIDL(파트너) → 2025-09 미국 밖 주식 토큰 Ondo Stocks(직접) → 2025-09 유통 Bitget, OKX, Trust Wallet(파트너) → 2025-10 미국 증권사, ATS, 명의개서 Oasis Pro(인수) → 2025-10 BNB 체인, 2026-01 Solana 상장(직접) → 2026-02 유통 Binance Alpha, Binance Wallet(파트너) → 2026-04 의결권 Broadridge(파트너) → 2026-07 DTCC(파트너) → 2026-09 BlackRock 포트폴리오 3종(파트너) → 2026-10 비상장사 토큰(직접)
+- 붙인 것
+  - 자산 : 주식 토큰 Ondo Stocks(직접, 2025-09), BlackRock 포트폴리오 3종(파트너), 비상장사 토큰(직접)
+  - 유통처 : Bitget, OKX, Trust Wallet(2025-09), Binance Alpha와 Wallet(2026-02)(모두 파트너)
+  - 미국 판매 자격 : Oasis Pro 증권사, ATS, 명의개서(인수, 2025-10)
+  - 인프라 : BlackRock BUIDL, 의결권 Broadridge, DTCC(파트너), BNB 체인, Solana(직접)
 - 지금 하는 것 : 국채 토큰과 미국 밖 주식 토큰 450종 이상을 남의 거래소, 지갑에 공급(Ondo Stocks 보유자 186,636명, 잔액 8.99억 달러)
-- 해외 진출 : 인가 없이 판매 중(미국 밖 전반), EEA는 투자설명서 승인(직접, 2026-11-11 유효기간 종료), UAE는 Nest Exchange(파트너)
+- 해외 진출
+  - 미국 밖 전반 : 인가 없이 판매
+  - EEA : 투자설명서 승인(직접, 2026-11-11 유효기간 종료)
+  - UAE : Binance 운영 Nest Exchange(파트너)
 
 ## 2층 (받치는 사실)
 - 국채 토큰 잔액 : USDY 발행 잔액 19.7억 달러(2026-11-13 회사 화면) [F-1318](https://ondo.finance/usdy), OUSG 3.13억 달러(2026-11-13 회사 화면) [F-1315](https://ondo.finance/ousg), 국채 토큰 플랫폼 2위 32억 달러, 1위 Franklin Benji 33억 달러(rwa.xyz 제3자 집계, 2026-11-16) [F-1321](https://app.rwa.xyz/treasuries)
