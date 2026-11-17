@@ -1,0 +1,15 @@
+const { chromium } = require('playwright'); const path=require('path'); const U='file://'+path.resolve(__dirname,'../../web/v5/index.html');
+(async()=>{ const b=await chromium.launch();
+const c=await b.newContext({viewport:{width:1280,height:800},deviceScaleFactor:1,colorScheme:'dark'}); const p=await c.newPage();
+p.on('pageerror',e=>console.log('ERR',e.message));
+await p.goto(U+'#kraken-raw'); await p.waitForSelector('.raw');
+console.log('raw 그리기 ms:', await p.evaluate(()=>{const t=performance.now(); document.querySelector('[data-view=o]').click(); document.querySelector('[data-view=r]').click(); return Math.round(performance.now()-t);}));
+console.log('사실 DB 펼치기 ms:', await p.evaluate(()=>{const t=performance.now(); const d=document.getElementById('kraken-r-sec-f'); d.open=true; d.dispatchEvent(new Event('toggle')); return Math.round(performance.now()-t);}));
+await p.fill('#q','청산소'); await p.waitForTimeout(400);
+await p.screenshot({path:path.join(__dirname,'dark_search.png')});
+await p.keyboard.press('Escape'); await p.evaluate(()=>window.scrollTo(0,0));
+await p.click('.qa .mb',{force:true}); await p.waitForTimeout(200);
+await p.screenshot({path:path.join(__dirname,'dark_memo.png')}); await c.close();
+const m=await b.newContext({viewport:{width:390,height:844},deviceScaleFactor:1,isMobile:true,hasTouch:true}); const mp=await m.newPage();
+await mp.goto(U+'#kraken-r-st-KR-M01'); await mp.waitForTimeout(500);
+await mp.screenshot({path:path.join(__dirname,'mobile_raw.png')}); await b.close();})();

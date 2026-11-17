@@ -1,0 +1,107 @@
+용어,뜻,출처
+"Robinhood Markets, Inc.","Robinhood 그룹의 모회사. 미국 개인용 증권, 가상자산, 선물 앱을 운영하는 회사들을 자회사로 둔 Nasdaq 상장사(티커 HOOD)",https://investors.robinhood.com/node/16931/html
+Nasdaq,미국 주식 거래소의 하나. Robinhood 주식(HOOD)이 여기에 상장됨,https://investors.robinhood.com/node/16931/html
+시장조성자,"사는 값과 파는 값을 계속 내며 다른 사람의 주문을 받아 체결해 주고, 두 값의 차이로 버는 회사. Robinhood의 주식, 옵션 주문을 넘겨받아 체결함",https://investors.robinhood.com/node/16931/html
+도매업자(wholesaler),증권사들의 개인 주문을 대량으로 넘겨받아 자기 계정으로 체결하는 시장조성 회사. 미국에서는 몇 곳이 개인 주문 대부분을 받음,https://investors.robinhood.com/node/16931/html
+주문 흐름 대가(PFOF),증권사가 고객 주문을 시장조성자에게 넘기는 대가로 시장조성자에게서 받는 돈. 고객 수수료가 0이어도 Robinhood 매출이 생기는 이유,https://investors.robinhood.com/node/16931/html
+유동성 공급자,가상자산 주문의 거래 상대가 되어 체결해 주는 회사. Robinhood 미국 앱의 가상자산 주문을 받음,https://investors.robinhood.com/node/16931/html
+리베이트(가상자산 거래 리베이트),"Robinhood가 가상자산 주문을 유동성 공급자에게 넘기고 받는 돈. 주식, 옵션의 주문 흐름 대가와 같은 자리",https://investors.robinhood.com/node/16931/html
+거래 기반 매출(Transaction-based revenues),"Robinhood 회사 지표. 고객 주문에서 나오는 돈(주식, 옵션의 주문 흐름 대가, 가상자산 리베이트, 이벤트 계약 수수료)의 합",https://investors.robinhood.com/node/16931/html
+순이자 매출(Net interest revenues),"Robinhood 회사 지표. 신용 매수 대출 이자, 고객 현금을 은행에 맡겨 받는 이자 차이, 주식 대여 수익 등에서 고객에게 준 몫을 뺀 것",https://investors.robinhood.com/node/16931/html
+신용 매수,증권사에서 돈을 빌려 주식을 사는 것. 한국의 신용거래융자와 같음. Robinhood는 빌려준 돈에 이자를 받음,https://robinhood.com/newsroom/robinhood-gold/
+Cash Sweep,고객 계좌의 투자하지 않은 현금을 제휴 은행 예금으로 자동으로 옮기는 프로그램. Robinhood는 은행이 주는 금리와 고객에게 주는 금리의 차이를 가짐,https://investors.robinhood.com/node/16931/html
+주식 대여,고객이 가진 주식을 공매도 등을 하려는 쪽에 빌려주고 대여료를 받는 것,https://investors.robinhood.com/node/16931/html
+Funded Customers(돈이 들어 있는 고객),Robinhood 회사 지표. 최근 45일 안에 Robinhood 계좌 잔액이 0보다 컸거나 거래한 사람 수. 2023 Q4 전 이름은 Net Cumulative Funded Accounts(계산 같음),https://investors.robinhood.com/news-releases/news-release-details/robinhood-reports-third-quarter-2026-results
+Robinhood Gold,"Robinhood의 월정액 구독 상품(월 5달러). 2016-09 신용 매수와 장 전후 거래를 묶어 시작했고 지금은 현금 이자 우대, 카드 혜택 등이 붙음",https://robinhood.com/newsroom/robinhood-gold/
+Trump Accounts,미 재무부가 만든 아동 투자 계좌. Robinhood가 브로커와 첫 수탁자로 선정되어 운영 수입을 받음,https://investors.robinhood.com/node/16931/html
+이벤트 계약,"선거, 경기, 금리 같은 사건의 결과를 두고 사고파는 계약. 맞으면 1달러, 틀리면 0으로 정산되고 1센트에서 99센트 사이에서 거래됨. 미국에서는 CFTC 규제 선물의 한 종류",https://investingnews.com/robinhood-reports-fourth-quarter-and-full-year-2025-results/
+예측시장,이벤트 계약을 사고파는 시장. Robinhood 앱 안의 Prediction Markets Hub,https://robinhood.com/us/en/newsroom/robinhood-prediction-markets-hub/
+Kalshi(KalshiEX LLC),CFTC에 등록된 미국 이벤트 계약 거래소. Robinhood가 2025-03 예측시장을 처음 열 때 계약을 이 거래소로 보냄,https://robinhood.com/us/en/newsroom/robinhood-prediction-markets-hub/
+ForecastEx,미국 이벤트 계약 거래소. Robinhood가 이벤트 계약 일부를 보내는 곳,https://robinhood.com/us/en/support/articles/event-contracts-overview/
+Crypto.com Derivatives North America,가상자산 거래소 Crypto.com의 미국 파생 거래소와 청산소. Robinhood가 2026-09부터 이벤트 계약 일부를 보내고 대가로 Crypto.com 지분을 받기로 함,https://investors.robinhood.com/node/16931/html
+Rothera,Robinhood와 Susquehanna가 세운 합작법인. 2026-01 MIAXdx를 사서 예측시장 거래소와 청산소(Rothera Exchange and Clearing)를 운영. Robinhood가 CEO 선임권과 이사회 과반을 가짐,https://investors.robinhood.com/node/16931/html
+MIAXdx,"CFTC 인가 선물 거래소(DCM), 청산소(DCO), 스와프 거래장(SEF)을 모두 가진 회사. 옛 이름 LedgerX. 미국 상장 거래소 그룹 MIAX의 자회사였다가 2026-01 Rothera가 90%를 삼",https://investors.robinhood.com/node/16931/html
+MIAX(Miami International Holdings),"미국 옵션, 선물 거래소를 운영하는 NYSE 상장 그룹. MIAXdx를 팔고 지분 10%를 남김",https://robinhood.com/us/en/newsroom/robinhood-prediction-markets-joint-venture/
+Susquehanna(SIG),미국 대형 시장조성 회사. Rothera 합작 상대이자 첫날 유동성 공급자,https://robinhood.com/us/en/newsroom/robinhood-prediction-markets-joint-venture/
+CFTC,"미국 상품선물거래위원회. 선물, 옵션, 스와프와 이벤트 계약을 감독하는 연방 기관",https://robinhood.com/us/en/newsroom/robinhood-prediction-markets-hub/
+DCM(Designated Contract Market),CFTC가 지정한 선물 거래소. 선물과 이벤트 계약의 사는 주문과 파는 주문을 맞붙임,https://investors.robinhood.com/node/16931/html
+DCO(Derivatives Clearing Organization),CFTC에 등록한 청산소. 체결된 선물 거래의 결제 이행을 보증함,https://investors.robinhood.com/node/16931/html
+SEF(Swap Execution Facility),CFTC에 등록한 스와프 거래장. 스와프 계약을 여러 참가자가 사고파는 시설,https://investors.robinhood.com/node/16931/html
+선물 중개사(FCM),"Futures Commission Merchant. 고객의 선물 주문과 증거금을 받아 거래소로 넘기는 회사. CFTC 등록, NFA 회원",https://robinhood.com/us/en/newsroom/robinhood-prediction-markets-hub/
+Robinhood Derivatives,Robinhood의 선물 중개 자회사(FCM). 2010년 등록된 옛 Marex North America를 넘겨받은 법인. 선물과 이벤트 계약 주문을 받음,https://www.nfa.futures.org/BasicNet/#0424278
+Marex North America,영국 상품 중개 그룹 Marex의 미국 선물 중개 법인. Robinhood가 넘겨받아 Robinhood Derivatives로 바꿈,https://www.nfa.futures.org/BasicNet/#0424278
+Robinhood Financial,Robinhood의 주식 중개 자회사. 2013-10 SEC 등록 증권사. 고객 계좌를 열고 주문을 받음,https://api.brokercheck.finra.org/search/firm/165998
+Robinhood Securities,"Robinhood의 청산 자회사. 2017-10 SEC 등록 증권사. Robinhood Financial이 받은 주문의 청산, 결제, 보관을 맡음",https://api.brokercheck.finra.org/search/firm/287900
+Robinhood Crypto,Robinhood의 미국 가상자산 자회사. 2019-01 뉴욕주 가상자산 인가. 고객 가상자산을 직접 보관함,https://www.dfs.ny.gov/virtual_currency_businesses
+뉴욕주 가상자산 인가(BitLicense),뉴욕주 금융서비스국이 주는 가상자산 영업 인가. 뉴욕주 주민에게 가상자산을 팔려면 필요,https://www.dfs.ny.gov/virtual_currency_businesses
+SEC,"미국 증권거래위원회. 증권사, 거래소, 상장사 공시를 감독하는 연방 기관",https://api.brokercheck.finra.org/search/firm/165998
+청산,체결된 거래에서 누가 누구에게 무엇을 줘야 하는지 확정하고 이행을 보증하는 일,https://robinhood.com/newsroom/introducing-clearing-by-robinhood/
+청산소,"청산을 하는 기관. 미국 주식은 NSCC, 옵션은 OCC, 선물은 거래소별 DCO",https://investors.robinhood.com/node/16931/html
+옵션,정해진 값에 주식을 사거나 팔 권리를 사고파는 상품. Robinhood 매출에서 가장 큰 줄,https://investors.robinhood.com/node/16931/html
+Blue Ocean ATS,미국 주식을 미국 동부 시간 밤 8시부터 새벽 4시까지(일요일부터 목요일) 거래하는 대체거래시스템. Robinhood 24시간 주식의 야간 주문을 받음,https://prnewswire.com/news-releases/blue-ocean-technologies--tokyo-stock-exchange-close-strategic-investment-agreement-focused-on-expanding-trading-hours-for-japanese-investors-301926166.html
+대체거래시스템(ATS),Alternative Trading System. 증권사가 운영하는 주식 체결 시장. 거래소 등록 없이 SEC 규칙에 따라 주문을 맞붙임,https://blueocean-tech.io/2023/12/07/robinhood-adds-141-stocks-and-etfs-to-24-5-trading-service/
+Bruce ATS,미국 주식 야간 거래를 하는 대체거래시스템. Robinhood가 2025-06 투자 라운드에 참여했고 주말 포함 24시간 거래를 이곳으로 낼 계획,https://robinhood.com/newsroom/hood-summit-2026/
+Cboe,"미국 옵션, 주식 거래소 그룹. Robinhood가 기업 실적 예측 계약을 이곳을 통해 낼 계획",https://robinhood.com/newsroom/hood-summit-2026/
+X1,"무수수료 신용카드를 만들던 미국 핀테크 회사. Robinhood가 2023-07 9,500만 달러 현금에 인수해 Gold Card를 냄",https://robinhood.com/newsroom/robinhood-signs-agreement-to-acquire-x1/
+Robinhood Gold Card,Gold 회원 전용 신용카드(2024-03). 카드 발급 은행은 Coastal Community Bank,https://robinhood.com/newsroom/the-new-gold-standard-introducing-the-robinhood-gold-card/
+Robinhood Banking,Gold 회원용 은행 계좌 서비스(2025-03 발표). Robinhood 자회사가 화면과 고객을 맡고 예금은 Coastal Community Bank가 받음. Robinhood는 은행 인가 없음,https://www.robinhood.com/us/en/newsroom/introducing-strategies-banking-and-cortex
+Coastal Community Bank,미국 예금보험공사(FDIC) 가입 은행. Robinhood의 신용카드 발급과 은행 예금을 맡는 제휴 은행,https://robinhood.com/newsroom/the-new-gold-standard-introducing-the-robinhood-gold-card/
+Robinhood Strategies,Robinhood의 일임 자문 상품(2025-03). SEC 등록 투자자문 자회사가 고객 목표에 맞춘 포트폴리오로 돈을 굴리고 보수를 받음,https://investors.robinhood.com/node/16931/html
+일임 자문,"고객이 투자 판단을 맡기면 자문사가 정한 전략대로 사고팔아 주는 서비스. 한국의 투자일임, 퇴직연금 IRP의 운용 지시와 비슷한 자리",https://investors.robinhood.com/node/16931/html
+RIA(등록투자자문사),Registered Investment Adviser. SEC나 주에 등록하고 고객 돈을 굴리거나 조언하며 보수를 받는 독립 자문사,https://robinhood.com/us/en/newsroom/robinhood-to-acquire-tradepmr/
+TradePMR,"독립 자문사(RIA)가 고객 계좌를 열어 두는 미국 증권사이자 보관 회사. 계좌, 주문, 운영 업무 프로그램(Fusion)을 자문사가 쓰게 하고 체결, 청산, 대출은 Wells Fargo Clearing Services에 맡김. 2025-02 Robinhood가 인수",https://robinhood.com/us/en/newsroom/robinhood-to-acquire-tradepmr/
+Wells Fargo Clearing Services,"미국 은행 그룹 Wells Fargo의 비은행 증권사 자회사. TradePMR 계좌의 체결, 청산, 대출을 맡음",https://robinhood.com/us/en/newsroom/robinhood-to-acquire-tradepmr/
+RVI(Robinhood Ventures Fund I),Robinhood가 만든 펀드. 비상장 회사 지분을 사서 보유하고 펀드 자체는 NYSE에서 거래됨(2026-03 상장),https://cdn.robinhood.com/app_assets/rhv/updates/rvi_annual_report_2026.pdf
+OpenAI 토큰,Robinhood가 2025-06 EU 고객에게 판 비상장사 OpenAI 가격 연동 토큰. OpenAI는 지분이 아니며 제휴하지 않았다고 공개 반박함,https://www.nbcsandiego.com/news/business/money-report/robinhood-stock-tokens-face-scrutiny-in-the-european-union-after-openai-warning/3862953/
+Stock Tokens,2026-07 출시한 Robinhood 주식 토큰. 저지 자회사 Robinhood Assets (Jersey)가 발행하는 담보 붙은 채권이고 미국 밖 120여 개국 이용자가 Robinhood Wallet으로 삼. 주식 소유권 없음,https://investors.robinhood.com/node/16931/html
+Classic Stock Tokens,2025-06 EU 앱에서 출시한 Robinhood 주식 토큰(처음 이름 Robinhood Stock Tokens). 고객과 Robinhood Europe 사이의 파생계약이며 다른 지갑으로 옮길 수 없음,https://robinhood.com/eu/en/invest
+Robinhood Assets (Jersey) Limited,Stock Tokens 발행사. 저지에 세운 Robinhood 자회사이며 감독 대상 금융회사가 아님(저지 등기소의 증권 발행 동의만 받음),https://docs.robinhood.com/rhj/
+저지(Jersey),영국 해협의 영국 왕실 속령. 영국 본토와 다른 자체 법으로 회사를 세우는 역외 지역,https://docs.robinhood.com/rhj/
+Bitstamp Global,Bitstamp의 영국령 버진아일랜드 자회사. Stock Tokens를 발행사에서 직접 받을 수 있는 유일한 곳(1차 청약 창구),https://docs.robinhood.com/rhj/service-providers
+1차 청약 창구(Authorised Participant),새 토큰을 발행사에서 직접 받고 상환할 수 있는 지정 참가자. 일반 투자자는 이곳이 아니라 거래소에서 토큰을 사고팜,https://docs.robinhood.com/rhj/service-providers
+Robinhood Wallet,Robinhood 케이맨 자회사(Robinhood Non-Custodial Ltd)가 내는 지갑 앱. 회사가 아니라 이용자가 자산 열쇠를 쥐는 방식(비수탁)이며 150개국 넘게 쓸 수 있음,https://investors.robinhood.com/node/16931/html
+Uniswap,이더리움 계열 블록체인 위의 탈중앙 거래소. Stock Tokens를 Robinhood Chain에서 사고파는 곳의 하나,https://www.kucoin.com/news/flash/robinhood-chain-launches-12m-in-tokenized-stocks-deposited-into-defi
+탈중앙 거래소(DEX),회사가 아니라 블록체인 위 프로그램이 이용자끼리의 교환을 처리하는 거래소,https://www.kucoin.com/news/flash/robinhood-chain-launches-12m-in-tokenized-stocks-deposited-into-defi
+Alpaca Securities,미국 뉴욕의 증권사. Stock Tokens의 기초 주식을 사고 보관함,https://docs.robinhood.com/rhj/service-providers
+Robinhood Europe,"리투아니아에 세운 Robinhood EU 자회사(Robinhood Europe, UAB). EU 증권 중개 인가와 EU 가상자산 인가를 가짐. Classic Stock Tokens의 계약 상대",https://www.ecovis.com/lithuania/blog/2025/06/15/us-broker-robinhood-obtains-lithuanian-a-category-mifid-brokerage-and-mica-license-for-crypto-services-in-the-european-union/
+MiFID II,"EU 금융상품(증권, 파생) 규칙. 증권사(투자회사) 인가와 거래 시설 규칙이 여기에 있음. Robinhood Europe은 리투아니아에서 이 규칙의 A등급 중개 인가(주문 접수와 전달, 집행, 자기매매)를 받음",https://www.ecovis.com/lithuania/blog/2025/06/15/us-broker-robinhood-obtains-lithuanian-a-category-mifid-brokerage-and-mica-license-for-crypto-services-in-the-european-union/
+MiCA,EU 가상자산 규칙. 한 나라에서 가상자산서비스제공자(CASP) 인가를 받으면 다른 EU 나라에서도 영업할 수 있음,https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv
+Robinhood Chain,Robinhood가 2026-07-01 연 블록체인. 이더리움 위에서 거래를 묶어 처리하는 레이어 2이며 Arbitrum 기술로 만듦. Stock Tokens의 발행과 소유 기록이 여기에 있음,https://investors.robinhood.com/node/16931/html
+Arbitrum,이더리움 레이어 2 블록체인과 그 기술 묶음. Robinhood는 주식 토큰을 처음 이곳에 냈고 이 기술로 자체 체인을 만듦,https://robinhood.com/newsroom/robinhood-accelerates-global-expansion-robinhood-chain-mainnet-stock-tokens-agentic-trading/
+레이어 2,이더리움 같은 기본 블록체인 밖에서 거래를 모아 처리하고 결과만 기본 블록체인에 기록하는 블록체인,https://investors.robinhood.com/node/16931/html
+메인넷,시험판(테스트넷)이 아니라 실제 자산이 오가는 정식 블록체인,https://robinhood.com/newsroom/robinhood-accelerates-global-expansion-robinhood-chain-mainnet-stock-tokens-agentic-trading/
+시퀀서,레이어 2에서 거래 순서를 정해 묶는 서버. 이용자가 내는 체인 수수료를 받음. Robinhood Chain 시퀀서 수익은 출범 파트너와 나눔,https://investors.robinhood.com/news-releases/news-release-details/robinhood-markets-inc-reports-august-2026-operating-data
+Bitstamp,"2011년부터 운영한 가상자산 거래소. 룩셈부르크, 영국, 싱가포르, 영국령 버진아일랜드, 미국 법인으로 인가와 등록 50개 이상을 가짐. 2025-06 Robinhood가 2.24억 달러 현금에 인수",https://robinhood.com/us/en/newsroom/robinhood-to-acquire-bitstamp/
+Bitstamp UK,Bitstamp의 영국 법인. 영국 FCA 등록 가상자산 사업자. Robinhood 영국 가상자산 거래(2026-08)를 맡음,https://robinhood.com/newsroom/robinhood-launches-crypto-trading-for-uk-investors/
+호가창,사는 주문과 파는 주문을 값별로 모아 두고 값이 맞으면 체결하는 거래 방식,https://robinhood.com/us/en/newsroom/robinhood-to-acquire-bitstamp/
+화이트라벨(Bitstamp-as-a-service),Bitstamp가 다른 회사 앱 안에 자기 거래와 보관 기능을 이름 없이 넣어 주고 이용료를 받는 상품,https://robinhood.com/us/en/newsroom/robinhood-to-acquire-bitstamp/
+API,"다른 회사 시스템이 주문, 시세 등을 자동으로 주고받게 하는 연결 규격. 기관 고객이 거래소에 직접 주문을 넣을 때 씀",https://robinhood.com/us/en/newsroom/robinhood-to-acquire-bitstamp/
+무기한선물,만기 없이 가상자산 가격을 따라가는 파생 계약. 레버리지를 써서 거래함,https://investors.robinhood.com/node/16931/html
+WonderFi,캐나다 가상자산 거래 플랫폼 Bitbuy와 Coinsquare를 가진 토론토증권거래소 상장사. 2026-06 Robinhood가 1.78억 달러 현금에 인수,https://robinhood.com/us/en/newsroom/robinhood-to-acquire-wonderfi/
+Bitbuy,캐나다 개인용 가상자산 거래 앱. WonderFi 브랜드이며 지금은 Coinsquare Capital Markets가 운영,https://osc.ca/en/industry/registration-and-compliance/registered-crypto-asset-trading-platforms
+Coinsquare,캐나다 가상자산 거래 플랫폼. WonderFi 브랜드,https://robinhood.com/us/en/newsroom/robinhood-to-acquire-wonderfi/
+Coinsquare Capital Markets(CCML),WonderFi 자회사. Bitbuy와 Coinsquare를 운영하는 캐나다 투자딜러이자 CIRO 회원. Robinhood 캐나다 가상자산 거래를 맡음,https://www.wonder.fi/press-release/wonderfi-announces-ciro-approval-for-acquisition-by-robinhood
+CIRO,캐나다 투자산업 규제기구. 캐나다 증권사(투자딜러)를 감독하는 자율규제기관,https://www.wonder.fi/press-release/wonderfi-announces-ciro-approval-for-acquisition-by-robinhood
+온타리오 증권위원회(OSC),캐나다 온타리오주 증권 감독기관. 가상자산 거래 플랫폼 등록 목록을 공개함(2026-11-15 기준 13곳),https://osc.ca/en/industry/registration-and-compliance/registered-crypto-asset-trading-platforms
+투자딜러,캐나다 증권사 등록 분류. CIRO 회원이며 증권을 폭넓게 사고팔 수 있음,https://osc.ca/en/industry/registration-and-compliance/registered-crypto-asset-trading-platforms
+제한딜러,"캐나다 등록 분류의 하나(Restricted Dealer). 감독기관이 정한 조건 안에서만 영업하도록 등록한 딜러. Coinbase Canada, Kraken 캐나다 법인이 이 분류",https://osc.ca/en/industry/registration-and-compliance/registered-crypto-asset-trading-platforms
+영국 FCA,"영국 금융행위감독청. 영국 증권사와 가상자산 사업자를 등록, 감독",https://robinhood.com/newsroom/robinhood-is-coming-to-the-uk/
+Ziglu,"영국 전자화폐, 가상자산 회사. Robinhood가 2022-04 인수 계약을 했다가 2023-02 해지",https://robinhood.com/newsroom/robinhood-signs-agreement-to-acquire-ziglu/
+MAS,싱가포르 통화청. 싱가포르 금융 감독기관. Robinhood 싱가포르 법인이 2026-07 자본시장서비스 면허를 받음,https://investors.robinhood.com/node/16931/html
+DFSA,두바이 금융서비스청. 두바이국제금융센터 안 금융회사를 감독함. Robinhood 두바이 법인이 2026-07 인가를 받음,https://investors.robinhood.com/node/16931/html
+"시리즈 D, E, F",비상장 회사가 벤처 투자자에게 새 주식을 팔아 돈을 모으는 차수. 알파벳이 뒤로 갈수록 나중 투자,https://robinhood.com/newsroom/robinhood-raises-363-million-to-expand-product-lineup/
+기업가치(valuation),투자 라운드에서 투자자와 회사가 합의한 회사 전체 값,https://robinhood.com/newsroom/robinhood-raises-363-million-to-expand-product-lineup/
+GameStop 매매 폭주,2021-01 개인 투자자가 미국 게임 유통사 GameStop 주식을 몰려 사며 값이 급등한 사건. 청산소 자본 요구가 늘어 Robinhood가 긴급 투자를 받음(로이터 보도),https://www.malaymail.com/news/money/2021/07/02/robinhood-reveals-financial-legal-bruises-in-ipo-filing/1986558
+IPO,회사가 처음으로 일반 투자자에게 주식을 공모하는 것. 보통 거래소 상장과 함께 함,https://techcrunch.com/2021/07/29/robinhoods-stock-drops-8-in-its-first-days-trading/
+자사주 매입,회사가 시장에서 자기 주식을 사들이는 것. 주주에게 이익을 돌려주는 방법의 하나,https://investors.robinhood.com/news-releases/news-release-details/robinhood-reports-third-quarter-2026-results
+전환사채,"정해진 값에 회사 주식으로 바꿀 수 있는 채권. Robinhood는 2026-06 이자 0%, 2029 만기로 22억 달러 발행",https://investors.robinhood.com/news-releases/news-release-details/robinhood-closes-offering-22-billion-000-convertible-senior
+전환사채 평가 손실,전환사채를 시가로 다시 재면서 생긴 장부상 비용. 2021 Robinhood 적자의 큰 몫(20.5억 달러),https://mondovisione.com/media-and-resources/news/robinhood-reports-fourth-quarter-and-full-year-2021-results-2022127/
+주식 보상 비용,직원에게 준 주식을 비용으로 잡은 것. 현금이 나가지 않는 비용,https://mondovisione.com/media-and-resources/news/robinhood-reports-fourth-quarter-and-full-year-2021-results-2022127/
+규제 충당금 환입,앞서 규제 벌금 등으로 비용 처리해 둔 돈 중 쓰지 않게 된 몫을 되돌려 이익으로 잡은 것,https://investingnews.com/robinhood-reports-fourth-quarter-and-full-year-2025-results/
+고객 한 명이 내는 매출(ARPU),총매출을 평균 돈이 들어 있는 고객 수로 나눈 Robinhood 회사 지표. 분기 값은 1년 기준으로 환산,https://investors.robinhood.com/news-releases/news-release-details/robinhood-reports-third-quarter-2026-results
+주식 토큰 의무,Robinhood가 주식 토큰 보유자에게 갚아야 할 돈의 공정가치. 재무제표 기타 유동부채에 들어 있음,https://investors.robinhood.com/node/16931/html
+투자설명서(기본투자설명서),증권을 팔기 전에 발행 구조와 위험을 적어 감독기관 승인을 받는 문서. Stock Tokens 기본투자설명서는 리히텐슈타인 금융시장감독청이 승인,https://cdn.robinhood.com/assets/robinhood/legal/rhj_base_prospectus.pdf
+시리즈별 담보와 한정 청구,"토큰 종목(시리즈)마다 담보를 따로 묶고, 투자자는 그 종목 담보를 판 돈에 대해서만 청구할 수 있다는 투자설명서 조건",https://cdn.robinhood.com/assets/robinhood/legal/rhj_final_terms_for_tokenised_debt_securities_linked_to_apple.pdf
+파생계약,기초 자산 값에 따라 돈을 주고받기로 두 당사자가 맺은 계약. 기초 자산 자체를 갖는 것이 아님,https://robinhood.com/eu/en/invest
+헤지,회사가 고객에게 줄 돈에 맞춰 반대 방향 자산을 사 두어 손실 위험을 줄이는 것,https://investors.robinhood.com/node/16931/html
+출범 파트너,Robinhood Chain을 함께 연 회사들. 회사는 시퀀서 수익을 이들과 나눈다고 밝힘,https://investors.robinhood.com/news-releases/news-release-details/robinhood-markets-inc-reports-august-2026-operating-data

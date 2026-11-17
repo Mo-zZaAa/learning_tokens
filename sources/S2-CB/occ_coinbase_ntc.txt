@@ -1,0 +1,1461 @@
+              APPLICATION
+
+                  TO THE
+
+OFFICE OF THE COMPTROLLER OF THE CURRENCY
+
+              TO ORGANIZE
+
+    COINBASE NATIONAL TRUST COMPANY
+
+               October 3, 2025
+
+
+
+
+             PUBLIC VOLUME
+  INTERAGENCY CHARTER AND FEDERAL DEPOSIT INSURANCE APPLICATION
+
+Type of Charter                                     Chartering Agency
+☒ National Bank                                     ☒ Comptroller of the Currency
+☐ State Bank                                        ☐ State:
+☐ Federal Savings Bank or Association
+☐ State Savings Association
+☐ Other _______________
+
+
+Special Focus                                       Type of Insurance Application
+☐ Community Development                             ☐ De Novo
+☐ Cash Management                                   ☐ Operating Noninsured Institution
+☒ Trust                                             ☐ Other ________________
+☐ Bankers’ Bank
+☐ Credit Card: ☐ Non-CEBA ☐ CEBA                    Federal Reserve Status
+☐ Other ________________                            ☒ Member Bank
+                                                    ☐ Nonmember Bank
+For OCC: ☒ Standard ☐ Expedited
+
+Proposed Depository Institution (institution)
+
+Coinbase National Trust Company
+Name
+One Madison Ave., Suites 2400 and 2500
+Street
+New York                             NY                              10010
+City                                 State                           ZIP Code
+
+Holding Company Identifying Information (if applicable)
+Coinbase Global, Inc.
+Name
+One Madison Ave., Suite 2400
+Street
+New York                          NY                                 10010
+City                              State                              ZIP Code
+
+Contact Person
+Andrew B Samuel                      Associate General Counsel, Custody
+Name                                 Title/Employer
+One Madison Ave., Suites 2400 and 2500
+Street
+New York                             NY                            10010
+City                                 State                          ZIP Code
+646.450.3407                         andrew.samuel@coinbase.com
+Telephone Number                     E-Mail Address
+
+
+                                                1
+                                            Overview
+
+       A.      Provide a brief overview of the application. The overview should describe the
+               institution’s business and any special market niche, including the products,
+               market, services, and any nontraditional activities.
+
+Overview
+Coinbase Global, Inc. (“Coinbase Global,” and together with all of its subsidiaries, “Coinbase”)
+has prepared this Interagency Charter and Federal Deposit Insurance Application
+(“Application”) requesting approval from the Office of the Comptroller of the Currency
+(“OCC”) to organize and operate Coinbase National Trust Company (“CNTC”), a de novo non-
+insured national trust company that will be headquartered in New York, New York.
+
+Background Information on Coinbase
+Coinbase was founded in 2012 to provide a safe, easy-to-use platform for customers to engage
+with crypto assets. Our technology enables customers to trade, hodl, transfer and use crypto
+assets. We provide critical infrastructure for the cryptoeconomy and support developers who are
+building new products and services onchain. We serve the convenience and needs of a wide
+range of customers, from individuals engaging with crypto assets for the first time, to
+sophisticated financial institutions.
+
+Our company began as a startup in 2012; it is now the largest crypto exchange in the United
+States and the largest crypto custodian in the world, with more than 4,200 employees, providing
+services in over 100 countries. In April 2021, with the direct listing of shares in Coinbase Global,
+we became the first publicly traded crypto company (NASDAQ: COIN). As of June 30, 2025,
+Coinbase had $237 billion in quarterly trading volume and $425 billion of assets on platform. In
+May 2025, Coinbase Global became the first crypto company included in the S&P 500.
+
+Strategic Rationale for Coinbase National Trust Company
+Since the company’s founding, Coinbase has always distinguished itself through its strong
+commitment to trust, security and compliance with strong regulatory standards. That
+commitment remains at the heart of Coinbase’s identity and how we do business. This
+application to charter CNTC is the next step in our journey, as we look ahead to new
+opportunities to continue driving innovation under federal regulation.
+
+Proposed Corporate Structure
+CNTC will be chartered as a non-insured national trust company that will elect to follow the
+corporate governance requirements of Delaware law. CNTC will be a direct, wholly-owned
+subsidiary of Coinbase Global, the top-tier entity of Coinbase.
+
+                                                 2
+Business Model
+Among other products and services, Coinbase offers a suite of services to institutional clients,
+referred to as Coinbase Prime. This includes our existing institutional Custody business, which is
+primarily housed in Coinbase Custody Trust Company, LLC (“CCTC”), a limited purpose trust
+company chartered in 2018 by the New York State Department of Financial Services
+(“NYDFS”). Our Custody business has already achieved size and scale – as of June 30, 2025, we
+held $245.7 billion in assets under custody (“AUC”), approximately 7% of the total market
+capitalization of all crypto assets on that date – with an impressive list of clients that includes
+prominent banks, government institutions, asset managers, and venture capital firms.
+
+CNTC will expand Coinbase’s Custody business, including the following features of our
+Custody product offering, which CNTC will provide in a fiduciary capacity as a qualified
+custodian pursuant to regulations promulgated under the Investment Advisers Act of 1940
+(“Qualified Custodian” or “QC”) by the Securities and Exchange Commission (“SEC”):
+   ● Prime Vault: Secure, segregated storage of digital assets powered by industry-leading
+     implementation of multi-party computation (“MPC”), corresponding to onchain wallet
+     address(es) unique to each customer.
+   ● Prime Custody: Holding customer fiat funds and digital assets in an omnibus wallet,
+     enabling clients to trade, with assets remaining within the QC environment throughout
+     the trade lifecycle, with the same comprehensive security protections as Prime Vault.
+
+CNTC will also maintain operational integrations to enable Custody clients to access staking,
+financing, and trading services offered by other Coinbase entities. CNTC also will explore the
+launch of other digital asset products, including payments products and next-generation advances
+on its existing custody products that enable clients to interact with select smart contracts onchain.
+Additional information about CNTC products and services is included in the Business Plan
+submitted with its application as Confidential Exhibit A (“Confidential Business Plan”).
+
+Governance
+CNTC will be overseen by a Board of Directors elected by its sole shareholder, Coinbase Global.
+This Board will have overlapping membership with the board of CCTC. The Board will initially
+consist of seven directors, including three independent directors.
+
+CNTC’s Board will be supported by an Audit Committee, which will comply with the OCC’s
+requirements for a fiduciary audit committee. The roles and responsibilities of the Audit
+Committee are set forth in the Audit Committee Charter included with the application as
+Confidential Exhibit I.
+
+
+
+                                                 3
+Management and Operations
+CNTC will be led by four senior executive officers:
+   1. Chief Executive Officer: Rick Schonberg
+   2. Chief Financial Officer: Alesia Haas
+   3. Chief Risk Officer: Caroline Tarnok
+   4. Chief Operating and Trust Officer: Richard Kelly
+
+The CNTC Board also intends to appoint three further positions as officers:
+   1. Chief Compliance Officer: Joseph Salama
+   2. Chief Information Security Officer: Alan Leung
+   3. BSA/AML Officer: Cory Howard
+
+The CNTC Board of Directors also may appoint additional officers in the future.
+
+CNTC will leverage the expertise and efficiencies of personnel from across Coinbase, as well as
+employ dedicated employees as appropriate to support its business needs.
+
+Risk Management Approach
+Coinbase employs a comprehensive enterprise risk management approach to enable informed
+decision-making and ensure operational resilience. Coinbase’s leadership and an executive
+working group set the tone from the top that cascades risk culture, accountability and
+responsibility throughout the company. Coinbase defines its risk appetite to align with strategic
+objectives, legal requirements, and customer protection needs. Risk appetite is reviewed
+regularly and when material changes occur. This risk management framework is continuously
+developed and strengthened in line with emerging risks. Policies govern how the risks Coinbase
+is willing to accept are managed and controlled, including roles and responsibilities. Procedures
+set out activities undertaken to deliver Coinbase’s strategic objectives within its risk appetite.
+More about Coinbase’s global risk management approach is included in Confidential Exhibit Q
+Enterprise Risk Management (“ERM”) Policy.
+
+A main component of the risk management framework is the three lines of defense structure. In
+the first line of defense, risk owners and functional areas are operationally accountable to
+identify, own, and manage risks. In the second line of defense, Coinbase’s Compliance, Security
+and Risk Management professionals oversee and support first line functions by providing
+specialist frameworks, policies, guidelines, and best practices. In the third line of defense,
+Coinbase’s robust, independent internal audit function provides independent assurance on the
+effectiveness of the first two lines and how they could be improved. Through its internal shared
+services model, Coinbase intends to leverage each line of defense for CNTC. Ultimately, CNTC,
+                                                  4
+through its directors and officers, is responsible for governance, accountability and decision-
+making relating to CNTC’s business.
+
+Anti-Money Laundering and Sanctions Controls
+CNTC will be committed to deterring illicit activities and protecting its business and the
+financial services communities at large from exploitation from criminals. To accomplish this,
+CNTC will implement robust, risk-based policies, procedures and controls designed to mitigate
+its identified money laundering (“ML”), terrorist financing (“TF”) and sanctions risks, and
+comply with applicable anti-money laundering (“AML”), countering the financing of terrorism
+(“CFT”), and sanctions laws and regulations. These include but are not limited to the U.S. Bank
+Secrecy Act, as amended by the USA PATRIOT Act, and applicable laws and regulations
+implemented by the U.S. Department of the Treasury’s Office of Foreign Assets Control.
+Coinbase Global Inc. maintains a global Sanctions Compliance Policy included as Confidential
+Exhibit S of this application.
+
+In particular, CNTC will adopt an AML/CFT and Sanctions Program that is based on its ML/TF
+risks, as informed by its Risk Assessment, in order to provide a framework for effective
+compliance with applicable laws/regulations. The CNTC Board will be ultimately responsible for
+maintaining the AML/CFT Program in compliance with applicable laws and regulations.
+
+CNTC will have an Anti-Money Laundering & Counter Terrorism Financing Policy
+(“AML/CFT Policy”). Coinbase Global maintains a global AML/CFT Policy included as
+Confidential Exhibit R, which establishes minimum AML/CFT compliance requirements for its
+subsidiaries that are regulated entities. In addition, each such regulated entity, including CNTC,
+adopts an entity-specific AML/CFT policy that outlines the entity’s compliance program and is
+tailored to the entity’s specific jurisdictional legal and regulatory requirements, and its product
+offerings.
+While CNTC will have separate and distinct legal and regulatory obligations, CNTC’s
+AML/CFT Policy will outline its overall AML/CFT Compliance Program, and establish, among
+other requirements:
+   ● The appointment and responsibilities of the CNTC AML compliance officer, who is
+     responsible for implementing, and on-going oversight of, the AML/CFT Program;
+   ● The execution of an AML/CFT and Sanctions Risk Assessment, which will be performed
+     on at least an annual basis;
+   ● A risk-based, Know-Your-Customer (“KYC”) Program, designed to perform the proper
+     level of due diligence on the customers of CNTC, which shall include:
+           ○ A customer identification program (“CIP”) that allows CNTC to collect and
+             verify the identities of its customers and, where applicable, their beneficial
+                                                 5
+               owners, through a combination of documentary and non-documentary verification
+               methods;
+            ○ A customer due diligence (“CDD”) program designed to properly risk-rank a
+              customer and perform the proper level of initial and ongoing monitoring to
+              address such risk;
+            ○ Enhanced due diligence (“EDD”) on higher-risk customers, including, but not
+              limited to those identified as Politically Exposed Persons (“PEPs”);
+            ○ Procedures to keep the above due-diligence records of Coinbase customers
+              updated through periodic KYC review;
+   ● Sanctions screening of all customers, beneficial owners, and related parties against
+     applicable government sanctions lists, as well as risk-based screening of fiat and onchain
+     transactions, in order to properly reject block transactions, where required by law;
+   ● A risk-based system of internal controls, including transaction monitoring and
+     investigation processes tailored to business operations, for example, that include the use
+     of blockchain analytics tools to properly identify and report suspicious activity;
+   ● Initial and ongoing AML/CFT training for all CNTC personnel, including employees,
+     contingent personnel, executive management and the Board;
+   ● At least annual independent reviews of the CNTC AML/CFT and Sanctions Program;
+     and
+   ● Regular reporting to the Board and senior management of CNTC on the effectiveness of
+     the AML/CFT Program.
+       B.      Describe any issues about the permissibility of the proposal with regard to
+               applicable state or federal laws or regulations. Identify any regulatory
+               waiver requests and provide adequate justification.
+
+The organizers are not aware of any permissibility issues with regard to applicable state or
+federal laws or regulations. Coinbase will ensure compliance with the citizenship, residency, and
+stock ownership requirements that apply to CNTC’s directors. An analysis of the permissibility
+of CNTC’s proposed activities under the National Bank Act is provided as Confidential Exhibit
+K.
+
+       C.      List and provide a copy of all applications filed in conjunction with this
+               proposal, such as applications for holding company, trust powers, branch
+               offices, service corporations and other subsidiaries.
+
+As part of this Application, Coinbase Global is submitting a request for CNTC to exercise
+fiduciary powers pursuant to 12 U.S.C. § 92a.
+                                                 6
+         D.    When available, provide a copy of all public or private offering materials and
+               the proposed form of stock certificate, including any required restrictive
+               legends.
+
+Coinbase Global will be the sole stockholder of CNTC, and no offering materials will be used.
+
+         E.    Provide a copy of the proposed articles of association, articles of
+               incorporation, or charter, and proposed bylaws.
+
+A copy of the proposed Articles of Association of CNTC is provided as Confidential Exhibit F.
+A copy of the proposed bylaws of CNTC is provided as Confidential Exhibit G.
+
+         F.    Provide a copy of the business plan. The business plan should address, at a
+               minimum, the topics contained in the appropriate regulatory agency’s
+               Business Plan Guidelines.
+
+CNTC’s Business Plan is provided as Confidential Exhibit A.
+
+II.      Management
+
+         A.    Provide a list of the organizers, proposed directors, senior executive officers
+               and any individual or group of proposed shareholders acting in concert that
+               will own or control 10 percent or more of the institution’s stock. For each
+               person listed, attach an Interagency Biographical and Financial Report, a
+               Fingerprint card and indicate all positions and offices currently held or to be
+               held with the institution’s holding company and its affiliates, if applicable.
+               Include the signed “Oath of Director” for each proposed director. For an
+               OTS filing, provide a RB 20a Certification for each person listed.
+
+The organizers and proposed directors of CNTC are:
+      ● Rick Schonberg
+      ● Gregory Tusar
+      ● Alesia Haas
+      ● Paul Grewal
+      ● Dana Wagner
+      ● Brian Dong
+      ● Robert Easton
+
+The proposed senior executive officers of CNTC are:
+                                               7
+   ● Rick Schonberg (Chief Executive Officer / President)
+   ● Alesia Haas (Chief Financial Officer)
+   ● Richard Kelly (Chief Operating and Trust Officer)
+   ● Caroline Tarnok (Chief Risk Officer)
+Because CNTC will be wholly-owned by Coinbase Global, no individual or group of individuals
+acting in concert will directly own or control 10 percent or more of CNTC’s stock.
+Interagency Biographical and Financial Reports for each of the above-named individuals are
+provided as Confidential Exhibit O. The proposed directors will sign the Oath of Director at the
+first board meeting of CNTC.
+       B.      Describe each proposed director’s qualification and experience to serve and
+               oversee management’s implementation of the business plan. Describe the
+               extent, if any, to which directors or major stakeholders are or will be
+               involved in the day-to-day management of the institution. Also list the forms
+               of compensation, if any.
+
+Rick Schonberg: Rick Schonberg has served as the CEO of CCTC since October 22, 2023. Mr.
+Schonberg is a seasoned professional with extensive experience in the financial, technology
+sector. Prior to joining Coinbase, he was the Global Head of Product Development at LCH
+ForexClear, Senior Managing Director at State Street, and Managing Director at Goldman Sachs.
+Mr. Schonberg holds a B.A. from Princeton University and M.B.A. from NYU Stern School of
+Business.
+
+Gregory Tusar: Greg Tusar serves as Coinbase’s VP, Institutional Product for Coinbase,
+leading the development of the firm’s efforts in areas such as Prime Brokerage and Custody,
+Financing, and its Exchange. Mr. Tusar joined from Tagomi Systems, where he was co-founder
+and CTO; Coinbase acquired Tagomi in 2020. Prior to founding Tagomi in 2017, Mr. Tusar was
+Head of Global Execution Services and Platforms at KCG Holdings, responsible for its Retail
+Market Making and Institutional efforts. Mr. Tusar spent 13 years at Goldman Sachs, most
+recently as a Partner and global head of the firm’s equities electronic trading business.
+
+Alesia Haas: Alesia Haas has served as Coinbase Global’s Chief Financial Officer since April
+2018. Prior to joining us, Ms. Haas served as the Chief Financial Officer for Sculptor Capital
+Management, Inc. (formerly Och Ziff Capital Management Group LLC), a global institutional
+alternative asset manager, from December 2016 to April 2018. Prior to that, Ms. Haas served in
+various leadership positions at OneWest Bank, N.A., a commercial bank, from March 2009 until
+shortly after its acquisition by CIT Group Inc. in December 2015, including most recently as its
+Chief Financial Officer from January 2013 until the acquisition. Ms. Haas currently serves as a
+member of the board of directors of ANGI Homeservices Inc., an internet services company, and
+                                                8
+previously served as a member of the board of directors of Vimeo, an AI powered video platform
+from May 2021 to April 2025, and of Sears Holding Corp., a retail holding company, from
+February 2016 to December 2016. Ms. Haas holds a B.S. in Business Administration from
+California Polytechnic State University, San Luis Obispo.
+
+Paul Grewal: Paul Grewal has served as Coinbase Global’s Chief Legal Officer & Secretary
+since August 2020. Prior to joining us, Mr. Grewal served as Vice President & Deputy General
+Counsel of Meta Platforms, Inc. (formerly known as Facebook, Inc.), a social technology
+company, from June 2016 to August 2020. From December 2010 to June 2016, Mr. Grewal
+served as a U.S. Magistrate Judge for the U.S. District Court of the Northern District of
+California. Mr. Grewal was previously a partner at Howrey LLP, a global law firm, and served as
+a Judicial Law Clerk for the U.S. Court of Appeals for the Federal Circuit and the U.S. District
+Court for the Northern District of Ohio. Mr. Grewal currently serves on the board of directors of
+a privately held company and a nonprofit organization. Mr. Grewal holds a S.B. in Civil and
+Environmental Engineering from the Massachusetts Institute of Technology and a J.D. from the
+University of Chicago Law School.
+
+Dana Wagner: Dana Wagner currently serves on the board of directors of Sui Group Holdings,
+a financial services technology company, and is a Transformational Leadership Fellow at The
+University of Oxford. Mr. Wagner previously served as Chief Legal Officer and Corporate
+Secretary at Twilio from 2021 to 2025, as Chief Legal Officer and Corporate Secretary at
+Impossible Foods from 2018 to 2021, and as General Counsel and Corporate Secretary at Square
+(now Block) from 2011 to 2016. Earlier in his career, he led antitrust and consumer protection
+matters at Google, and he has held various positions in the U.S. Department of Justice, including
+positions in the Antitrust Division and in the U.S. Attorney’s Office for the Northern District of
+California. Mr. Wagner also currently serves on the board of directors of CCTC and previously
+served on the board of the Centre Consortium, a joint venture established by Coinbase and Circle
+to support USDC. Mr. Wagner holds a B.A. from the University of California, Berkeley, and a
+J.D. from Yale Law School.
+
+Brian Dong: Brian Dong currently serves as Chief Financial Officer at Applied Intuition, a
+vehicle intelligence company. Mr. Dong previously served as Chief Financial Officer and Chief
+Operating Officer at Greenlight Financial Technology from November 2021 to May 2025, and
+prior to that was a Managing Director at Goldman Sachs for over 12 years in their Investment
+Banking Division, leading their technology M&A and blockchain and crypto coverage desks.
+Mr. Dong previously was an engineer at Qualcomm and an engineer at NASA Jet Propulsion
+Laboratory. Mr. Dong currently serves on the board of CCTC. Mr. Dong holds a B.S.E.E. from
+Cornell University, an M.Eng. from University of California, San Diego and an M.B.A. from
+MIT Sloan School of Management.
+
+
+                                                9
+Robert Easton: Robert Easton currently serves as Vice President and General Counsel of
+Plymouth Rock Management Company of New Jersey, which oversees and operates insurance
+companies that write automobile and homeowners coverage across the Northeast, and as a
+member of the Board of Managers of CCTC. From 2016 to 2023, Mr. Easton worked as Senior
+Vice President at Marsh McLennan, where he served as the global Deputy General Counsel and
+Chief Compliance Officer for Marsh, the world’s largest insurance broker and risk advisor.
+Before that, he served as Senior Vice President & Chief Compliance Officer at McGraw Hill
+Financial (now, S&P Global); as the head of insurance at NYDFS; and as General Counsel at the
+New York Insurance Department. Mr. Easton holds a B.A. from Johns Hopkins University and a
+J.D. from New York University School of Law.
+
+Additional information regarding the qualifications and experience of each proposed director of
+CNTC is provided in the Interagency Biographical and Financial Reports, Confidential Exhibit
+O.
+
+Additional detail on the roles, responsibilities and other aspects of the Board, including director
+compensation, is included in the Confidential Business Plan.
+
+       C.      Provide a list of board committees and members.
+
+The Board of Directors of CNTC will have an Audit Committee.
+
+Additional information regarding the functions of the Audit Committee may be found in the
+Confidential Business Plan. In addition, a draft Audit Committee Charter is provided as
+Confidential Exhibit I.
+
+       D.      Describe any plans to provide ongoing director education or training.
+
+Coinbase provides ongoing education and training to its directors on a variety of topics,
+including regulatory and compliance matters. More information regarding director training for
+CNTC is included in the Confidential Business Plan.
+
+       E.      Describe each proposed senior executive officer’s duties and responsibilities
+               and qualifications and experience to serve in his/her position. If a person has
+               not yet been selected for a key position, list the criteria that will be required
+               in the selection process. Discuss the proposed terms of employment, including
+               compensation and benefits, and attach a copy of all pertinent documents,
+               including an employment contract or compensation arrangement. Provide
+               the aggregate compensation of all officers.
+
+The Bank will be led by senior executive officers with the qualifications and experience
+necessary to implement the Business Plan.
+                                                 10
+Descriptions of the qualifications and experience for CEO Rick Schonberg and CFO Alesia Haas
+are provided above with respect to their roles as directors of CNTC, and for CNTC’s remaining
+two senior executive officers are as follows:
+
+Richard Kelly (Chief Operating and Trust Officer): Richard Kelly has been the Chief
+Operating Officer of CCTC since October 2022. He also leads Institutional Markets and
+Treasury Operations. Prior to joining Coinbase, Mr. Kelly was a Managing Director at Goldman
+Sachs, serving over 15 years leading various Capital Markets operations functions supporting
+Equities and Listed Derivatives. He also worked for Citi, managing Business Continuity
+programs. Mr. Kelly holds a B.S. in Business Information Systems from University College
+Cork.
+
+Caroline Tarnok (Chief Risk Officer): Caroline Tarnok is the Vice President of Financial and
+Operational Risk at Coinbase. Her responsibilities span credit, market, liquidity, payments,
+operational and enterprise risk. Caroline has more than 20 years of risk experience. Prior to
+joining Coinbase in 2019, Caroline spent 17 years at Goldman Sachs, where she was responsible
+for credit risk oversight of broker-dealers and other financial institutions, key derivatives
+products, and digital assets. Caroline holds a B.A. in Economics and Psychology from
+Dartmouth College.
+
+The CNTC Board also intends to appoint three further officers, whose qualifications and
+experience are as follows:
+
+Joseph Salama (Chief Compliance Officer): Joe Salama has served as Coinbase Global’s Chief
+Compliance Officer since May 2025. Prior to joining Coinbase, Joe spent approximately 14
+years at Deutsche Bank, holding various positions including Global Head of Anti-Financial
+Crimes, Americas General Counsel and Global Head of Litigation and Regulatory Enforcement.
+Prior to joining Deutsche Bank, Joe was associated with the law firms of Latham & Watkins and
+Cravath, Swaine & Moore and served as a Judicial Law Clerk for the U.S. District Court for the
+Southern District of New York. Joe holds a J.D. from New York University Law School and a
+B.S. in Chemical Engineering from Columbia School of Engineering and Applied Science.
+
+Alan Leung (Chief Information Security Officer): Alan Leung is the Chief Information
+Security Officer at CCTC and has been with the organization since October 2018. Prior to
+Coinbase, he was the Director of Security Architecture at Blue Cross Blue Shield of New Jersey.
+He also chaired the NH-ISAC working group for universal patient ID’s using blockchain
+technology during this time. Prior to that, he spent 11 years in the defense and aerospace
+industries in various leadership positions building bespoke security solutions. Alan holds an
+MBA from New York University’s Stern School of Business, Masters in Electrical Engineering
+from the University of Pennsylvania, and B.S. in Computer Science & Computer Engineering at
+Rensselaer Polytechnic Institute.
+                                              11
+Cory Howard (BSA/AML Officer): Cory Howard currently serves as the Director, US
+Compliance for Coinbase, as well as the BSA/AML Officer for Coinbase, Inc., CCTC, and
+Coinbase Credit, Inc. Cory has over a decade of legal and compliance experience, serving in
+operational, governance, and financial crimes leadership roles at both traditional financial
+institutions and FinTech companies, including BB&T and Robinhood, prior to joining Coinbase
+in 2021. Cory holds a B.A. in International Affairs from the George Washington University and
+a J.D. from the Wake Forest University School of Law.
+
+Descriptions of each officer’s duties and responsibilities, and information regarding the terms of
+employment of and compensation and benefits paid to senior executive officers, are included in
+the Confidential Business Plan.
+
+Additional information regarding the qualifications and experience of each proposed senior
+executive officer of CNTC is provided in the Interagency Biographical and Financial Reports
+provided as Confidential Exhibit O.
+
+       F.      Describe any potential management interlocking relationships (12 U.S.C.
+               1467a(h)(2), 3201-3208, or applicable state law) that could occur with the
+               establishment or ownership of the institution. Include a discussion of the
+               permissibility of the interlock with regard to relevant law and regulations or
+               include a request for an exemption.
+
+There currently are no potential management interlocking relationships (12 U.S.C. 1467a(h)(2),
+3201-3208, or applicable state law) that could occur with the establishment or ownership of the
+institution.
+
+       G.      Describe any potential conflicts of interest.
+
+No potential conflicts of interest have been identified.
+
+       H.      Describe any transaction, contract, professional fees, or any other type of
+               business relationship involving the institution, the holding company, and its
+               affiliates (if applicable), and any organizer, director, senior executive officer,
+               shareholder owning or controlling 10 percent or more, and other insiders.
+               Include professional services or goods with respect to organizational
+               expenses and bank premises and fixed asset transactions. (Transactions
+               between affiliates of the holding company that do not involve the institution
+               need not be described.)
+
+               1. State whether the business relationship is made in the ordinary course of
+                  business, is made on substantially the same terms as those prevailing at
+                  the time for comparable transactions with non-insiders, and does not
+                                             12
+                  present more than the normal risk of such transaction or present other
+                  unfavorable features.
+
+              2. Specify those organizers that approved each transaction and whether the
+                 transaction was disclosed to proposed directors and prospective
+                 shareholders.
+
+              3. Provide all relevant documentation, including contracts, independent
+                 appraisals, market valuations, and comparisons.
+
+A description of CNTC’s business relationships with its parent company and affiliates is
+included in the Confidential Business Plan. A draft intercompany agreement involving CNTC is
+provided as Confidential Exhibit N. All such transactions will be entered into in the ordinary
+course of business and on substantially the same terms as those prevailing at the time for
+comparable transactions with non-affiliates.
+
+The organizational expenses of CNTC will be borne by Coinbase Global. Additional information
+regarding the organizational expenses of CNTC is included in the Confidential Business Plan
+and has been incorporated into the financial model provided as Confidential Exhibit B.
+
+       I.     Describe all stock benefit plans of the institution and holding company,
+              including stock options, stock warrants, and other similar stock-based
+              compensation plans, for senior executive officers, organizers, directors, and
+              other insiders. Include in the description:
+
+              1. The duration limits.
+
+              2. The vesting requirements.
+
+              3. Transferability restrictions.
+
+              4. Exercise price requirements.
+
+              5. Rights upon termination.
+
+              6. Any “exercise or forfeiture” clause.
+
+              7. Number of shares to be issued or covered by the plans.
+
+              Provide a list of participants, allocation of benefits to each participant, and a
+              copy of each proposed plan. (Plans must conform to applicable regulatory
+              guidelines.)
+
+                                              13
+A general description of Coinbase Global’s Stock Benefit Plan is included in the Confidential
+Business Plan. A copy of Coinbase Global’s Stock Benefit Plan is provided as Confidential
+Exhibit J.
+
+III.   Capital
+
+       A.      For each class of stock, provide the number of authorized shares, the number
+               of shares to be issued, par value, voting rights, convertibility features,
+               liquidation rights, and the projected sales price per share. Indicate the
+               amount of net proceeds to be allocated to common stock, paid -in surplus,
+               and other capital segregations.
+
+CNTC will have a single class of voting common stock, which may be tokenized at a future date.
+Additional information regarding the terms of CNTC’s voting common stock may be found in
+the draft Articles of Association provided as Confidential Exhibit F. Additional information
+regarding the capital structure of CNTC is included in the Confidential Business Plan.
+
+       B.      Describe any noncash contributions to capital, and provide supporting
+               documents for assigned values, including an independent evaluation or
+               appraisal.
+
+Information regarding the contributions to CNTC’s capital is available in the Confidential
+Business Plan.
+
+       C.      Discuss the adequacy of the proposed capital structure relative to internal
+               and external risks, planned operational and financial assumptions, including
+               technology, branching, and projected organization and operating expenses.
+               Present a thorough justification to support the proposed capital, including
+               any off-balance-sheet activities contemplated. Describe any plans for the
+               payment of dividends.
+
+CNTC will maintain capital in excess of applicable minimum capital requirements under the
+National Bank Act and OCC regulations. An analysis of CNTC’s capital and liquidity needs
+under OCC Bulletin 2007-21, Supervision of National Trust Banks: Revised Guidance – Capital
+and Liquidity (June 26, 2007), is provided as Confidential Exhibit E. A discussion of the
+adequacy of CNTC’s proposed capital structure and a summary of CNTC’s dividend policy are
+included in the Confidential Business Plan.
+
+       D.      List all known subscribers to stock. For organizers, directors, 10 percent
+               shareholders, senior executive officers, and other insiders, include the
+               number of shares and anticipated investment and the amount of direct and
+
+                                               14
+               indirect borrowings to finance the investment. Discuss how any debt will be
+               serviced.
+
+The sole shareholder of CNTC will be Coinbase Global. An organizational structure chart for
+Coinbase is provided as Confidential Exhibit L.
+
+       E.      List recipients and amounts of any fees, commissions, or other considerations
+               in connection with the sale of stock.
+
+Not applicable.
+
+       F.      Indicate whether the institution plans to file for S Corporation tax status.
+
+CNTC does not plan to file for S Corporation tax status.
+
+IV.    Convenience and Needs of the Community
+
+       NOTE: This information must be consistent with the proposed business plan.
+
+       A.      Market Characteristics
+
+               1.      Define the intended geographical market area(s). Include a map of the
+                       market area, pinpointing the location of proposed bank’s offices and
+                       offices of competing depository institutions.
+
+CNTC will provide its products and services on a nationwide basis from its headquarters in New
+York, New York. The intended market for such products and services includes primarily
+business and commercial entities. The intended geographic market area is the United States.
+Additional information regarding CNTC’s target market is included in the Confidential Business
+Plan.
+
+               2.      Describe the competitive factors the institution faces in the proposed
+                       market and how the institution will address the convenience and
+                       needs of that market to maintain its long-term viability.
+
+The competitive landscape includes many companies that might compete with CNTC with
+respect to a specific subset of features within its product offerings. Coinbase differentiates itself
+by focusing on customer trust, the ease of use of its products and services, and the full scope of
+product offerings integrated under Coinbase Prime.
+
+Additional discussion of the competitive factors that affect CNTC is included in the Confidential
+Business Plan.
+
+                                                 15
+                3.       Discuss the economic environment and the need for the institution in
+                         terms of population trends, income, and industry and housing
+                         patterns.
+
+The current economic environment as it relates to Coinbase’s business can be characterized by
+greater mainstream integration, particularly driven by institutional investment and regulatory
+clarity surrounding digital assets. This is occurring against a backdrop of macroeconomic
+uncertainty and the increasing use of digital assets, which may have downstream effects on
+income distribution, investment behavior, and even real estate markets. Digital assets are
+evolving from a more speculative market to an institutionalized asset class with expanding
+utilities. As the OCC described in its OCC Letter Addressing Certain Crypto-Asset Activities
+dated March 7, 2025, as with any activity, banks must conduct all crypto-asset activities in a
+safe, sound, and fair manner and in compliance with applicable law. New activities should be
+developed and implemented consistent with sound risk management practices and align with
+banks’ overall business plans and strategies. Coinbase endeavors to obtain this charter pursuant
+to these economic trends and the guidance above.
+
+       B.       Community Reinvestment Act (CRA) Plan 1
+
+                NOTE: The CRA Plan must be bound separately.
+
+                1. Identify the assessment area(s) according to the CRA regulations. 2
+
+                2. Summarize the performance context for the institution based on the
+                   factors discussed in the CRA regulations. 3
+
+                3. Summarize the credit needs of the institution’s proposed assessment
+                   area(s).
+
+                4. Identify the CRA evaluation test 4 under which the institution proposes to
+                   be assessed.
+
+                5. Discuss the institution’s programs, products, and activities that will help
+                   meet the existing or anticipated needs of its community(ies) under the
+
+
+
+1
+       See applicable state requirements.
+2
+       See 12 C.F.R. 25.41, 345.41, 563.41.
+3
+       See 12 C.F.R. 25.21(b), 345.21(b), 563e.21(b).
+4
+       See 12 C.F.R. 25.21(a), 345.21(a), 563e.21(a).
+
+                                                        16
+                  applicable criteria of the CRA regulation, including the needs of low- and
+                  moderate -income geographies and individuals.
+
+As a non-insured national trust company limited to the exercise of fiduciary powers, CNTC will
+not be subject to the Community Reinvestment Act. See 12 U.S.C. § 2902. Nevertheless,
+Coinbase’s products and services are designed to enable individuals and small businesses across
+the economic spectrum to benefit from the unique advantages presented by crypto assets.
+
+V.     Premises and Fixed Assets
+
+       A.     Provide a physical description for permanent premises and discuss whether
+              they will be publicly and handicapped accessible. Indicate the level and type
+              of property insurance to be carried.
+
+CNTC’s premises will be located at One Madison Ave., Suites 2400 and 2500, New York, New
+York, 10010. These premises are not publicly accessible and are handicapped accessible. CNTC
+will carry sufficient property insurance as is required and customary for a trust company.
+
+       B.     If the permanent premises are to be purchased, provide name of seller,
+              purchase price, cost and description of necessary repairs and alterations, and
+              annual depreciation. If the premises are to be constructed, provide the name
+              of the seller, the cost of the land, and the construction costs. Indicate the
+              percentage of the building that will be occupied by the bank. Provide a copy
+              of the appraisal.
+
+Not applicable.
+
+       C.     If the permanent premises are to be leased, provide name of owner, terms of
+              the lease, and cost and description of leasehold improvements. Provide a
+              copy of the proposed lease when available.
+
+Information regarding the leased premises of CNTC is included in the Confidential Business
+Plan.
+
+       D.     If temporary quarters are planned, provide a description of interim facility,
+              length of use, lease terms, and other associated commitments and costs.
+
+Not applicable.
+
+
+
+
+                                              17
+       E.      State whether proposed premises and fixed asset expenditures conform to
+               applicable statutory limitations.
+
+CNTC’s premises and fixed asset expenditures will comply with applicable statutory limitations,
+including 12 U.S.C. § 371d.
+
+       F.      Outline the security program that will be developed and implemented,
+               including the security devices. 5
+
+CNTC’s security program will comply with applicable requirements under the National Bank
+Act and OCC regulations. A description of the physical security program is included in the
+Confidential Business Plan.
+
+       G.      Discuss any significant effect the proposal will have on the quality of the
+               human environment. Include in the discussion changes in air and/or water
+               quality, noise levels, energy consumption, congestion of population, solid
+               waste disposal, or environmental integrity of private land within the meaning
+               of the National Environmental Policy Act, 42 U.S.C. 4321, et seq.
+
+The proposal is not expected to result in any material change in the quality of the human
+environment.
+
+       H.      Describe any plan to establish branches or relocate the main office within the
+               first three years. Any acquisition or operating expenses should be reflected in
+               the financial projections.
+
+CNTC does not have any plans to establish branches or relocate its main office within the first
+three years.
+
+       I.      Indicate if the establishment of the proposed main office and/or any branch
+               site may affect any district, site, building, structure, or object listed in, or
+               eligible for listing in, the National Register of Historic Places pursuant to the
+               National Historic Preservation Act, 16 U.S.C. 470f. (See the Advisory Council
+               on Historic Preservation at www.achp.gov for the Act and implementing
+               regulations.) Specify how such determination was made:
+
+               1. Consultation with the State Historic Preservation Officer (SHPO) and/or
+                  Tribal Historic Preservation Officer (THPO) (when tribal lands or
+                  historic properties of significance to a tribe are involved).
+
+
+5
+       See 12 C.F.R. Parts 21, 326, 568.
+
+                                               18
+               2. Reviewed National Register of Historic Places (see www.cr.nps.gov/nr).
+
+               3. Applied National Register criteria to unlisted properties. 6
+
+               4. Reviewed historical records.
+
+               5. Contact with preservation organizations.
+
+               6. Other (describe).
+
+               As appropriate, provide a copy of any documentation of consultation with
+               the SHPO and/or THPO. You are reminded that if a historic property may
+               be affected, no site preparation, demolition, alterations, construction or
+               renovation may occur without the appropriate regulatory agency’s
+               authorization.
+
+CNTC’s main office is not expected to affect any district, site, building, structure or object listed
+in, or eligible for listing in, the National Register of Historic Places.
+
+VI.    Information Systems
+
+       A.      State whether the institution plans to market its products and services (the
+               ability to do transactions or account maintenance) via electronic means. If
+               yes, specifically state the products and services that will be offered via
+               electronic banking or the Internet.
+
+As CNTC will have no physical branches, the primary means for customers to interact with
+CNTC will be via the internet. Accordingly, all of CNTC’s products and services will be offered
+electronically. Additional detail on CNTC’s marketing plan is included in the Confidential
+Business Plan.
+
+       B.      Outline the proposed or existing information systems architecture and any
+               proposed changes or upgrades. The information should describe how: (1) the
+               information system will work within existing technology; (2) the information
+               system is suitable to the type of business in which the institution will engage;
+               (3) the security hardware, software, and procedures will be sufficient to
+               protect the institution from unauthorized tampering or access; and (4) the
+               organizers and directors will allocate sufficient resources to the entire
+               technology plan.
+
+
+6
+       See 36 C.F.R. 60.4.
+
+                                                 19
+Coinbase’s products are digital and offered via the internet. The Coinbase platform services retail
+customers primarily through the web via http://www.coinbase.com and via the Coinbase mobile
+application. The Coinbase Prime platform services institutional clients through the web via
+prime.coinbase.com and via Coinbase Prime Application Programming Interfaces (“APIs”).
+
+Coinbase’s products are hosted on cloud computing solutions. Additional description of CNTC’s
+information technology is included in the Confidential Business Plan.
+
+        C.       Provide lists or descriptions of the primary systems and flowcharts of the
+                 general processes related to the products and services. The level of detail in
+                 these system descriptions should be sufficient to enable verification of the
+                 cost projections in the pro formas.
+
+Information regarding CNTC’s systems and processes for its products and services is included in
+the Confidential Business Plan.
+
+        D.       Estimate the start-up budget for the information systems related to the
+                 products and services and the expected annual operating and maintenance
+                 costs (including telecommunications, hardware, software, and personnel).
+
+The organizational expenses of CNTC will be borne by Coinbase Global. Additional information
+regarding the organizational expenses of CNTC is included in the Confidential Business Plan
+and has been incorporated into the financial model provided as Confidential Exhibit B.
+
+        E.       Describe the physical and logical components of security. Describe the
+                 security system and discuss the technologies used and key elements for the
+                 security controls, internal controls, and audit procedures. Discuss the types
+                 of independent testing 7 the institution will conduct to ensure the integrity of
+                 the system and its controls.
+
+A Physical and Environmental Security Policy governs the Coinbase physical security program.
+Coinbase’s physical security program comprises a combination of physical barriers, access
+control systems, remotely monitored alarm systems, surveillance cameras and devices and armed
+and unarmed security personnel.
+
+Additional description of CNTC’s physical and logical security program is provided in the
+Confidential Business Plan. A copy of Coinbase’s Physical and Environmental Security Policy is
+
+
+
+7
+        Independent tests should cover general and environmental controls as well as audit, monitoring and
+balancing controls. Independent testing will provide an objective opinion on the adequacy of these controls.
+
+                                                        20
+provided as Confidential Exhibit Z. A copy of Coinbase’s Business Continuity Plan is provided
+as Confidential Exhibit T.
+
+       F.      Describe the information security program that will be in place to comply
+               with the “Interagency Guidelines Establishing Standards for Safeguarding
+               Customer Information.” 8
+
+CNTC will have an information security program that has been approved by senior management
+and the Board of Directors. The CNTC Information Security Policy will be updated at least
+annually and reviewed throughout each year to assure that it reflects changes in the company’s
+operations and systems, as well as changes in the threats or risks to the company’s customer
+information.
+
+Additional discussion of CNTC’s security program is included in the Confidential Business Plan.
+A copy of the Coinbase Information Security Policy is provided as Confidential Exhibit AA.
+
+VII.   Other Information
+
+       A.      List activities and functions, including data processing, that will be
+               outsourced to third parties, identifying the parties and noting any
+               affiliations. Describe all terms and conditions of the vendor management
+               activities and provide a copy of the proposed agreement when available.
+               Describe the due diligence conducted and the planned oversight and
+               management program of the vendors’ or service providers’ relationships (for
+               general vendor management guidance, see the Appendix of the FFIEC’s
+               guidance, Risk Management of Outsourced Technology Services).
+
+A discussion of the functions of CNTC that will be outsourced is included in the Confidential
+Business Plan. A template list of services to be provided to CNTC by Coinbase affiliates is
+provided with the intercompany agreement in Confidential Exhibit N. A copy of Coinbase’s
+Third Party Risk Management Policy is provided as Confidential Exhibit V.
+
+       B.      List all planned expenses related to the organization of the institution and
+               include the name of recipient, type of professional service or goods, and
+               amount. Describe how organization expenses will be paid.
+
+CNTC’s organizational expenses will be borne by Coinbase Global. Additional information
+regarding the organizational expenses of CNTC is included in the Confidential Business Plan.
+Organizational expenses may include fees from legal advisers, consultants, and tax experts.
+
+
+8
+       See 15 U.S.C. 6801, 6805(b); 12 C.F.R. 30; 308 and 364; 568 and 570.
+
+                                                     21
+Organizational expenses have been or will be paid by Coinbase Global; CNTC will not incur or
+reimburse Coinbase Global for expenses incurred in advance of opening, and organizational
+expenses are not reflected in the financial model attached hereto as Confidential Exhibit B.
+
+       C.      Provide evidence that the institution will obtain sufficient fidelity coverage on
+               its officers and employees to conform with generally accepted banking
+               practices.
+
+CNTC’s evidence of fidelity coverage is in Confidential Exhibit M.
+
+       D.      If applicable, list names and addresses of all correspondent depository
+               institutions that have been established or are planned.
+
+A description of relationships with depository institutions is included in the Confidential
+Business Plan.
+
+       E.      Provide a copy of management’s policies for loans, investments, liquidity,
+               funds management, interest rate risk, and other relevant policies. Provide a
+               copy of the Bank Secrecy Act program. Contact the appropriate regulatory
+               agencies to discuss the specific timing for submission.
+
+Copies of various policies governing CNTC’s business are included as Confidential Exhibits to
+the application.
+
+       F.      For Federal Savings Banks or Associations, include information addressing
+               the proposed institution’s compliance with qualified thrift lender
+               requirements.
+
+Not applicable.
+
+       G.      If the institution is, or will be, affiliated with a company engaged in insurance
+               activities that are subject to supervision by a state insurance regulator,
+               provide:
+
+               1. The name of insurance company.
+
+               2. A description of the insurance activity that the company is engaged in
+                  and has plans to conduct.
+
+
+
+
+                                                22
+              3. A list of each state and the lines of business in that state in which the
+                 company holds, or will hold, an insurance license. Indicate the state
+                 where the company holds a resident license or charter, as applicable.
+
+CNTC will not be affiliated with any company engaged in insurance activities.
+
+
+
+
+                                              23
+                     Request for Approval to Exercise Fiduciary Powers
+
+Approval is requested for CNTC to exercise all fiduciary powers permitted to a national trust
+bank under 12 U.S.C. § 92a and 12 C.F.R. Part 9.
+
+CNTC’s capital and surplus will be sufficient to satisfy all applicable requirements imposed by
+federal law on national banks, trust banks and other entities exercising comparable fiduciary
+powers. Sufficient biographical information on proposed trust management personnel has been
+provided in connection with this Application. The fiduciary powers that CNTC intends to
+exercise are not in contravention of applicable laws and will be conducted at the Bank’s main
+office in New York, New York.
+
+
+
+
+                                               24
+Docusign Envelope ID: C20A0945-78AF-4023-80E8-123ADEEBDEF8
+
+
+
+
+                                                    OCC CERTIFICATION
+
+            We, the organizers, certify that the information contained in this application has been examined
+            carefully, and is true, correct, and complete, and is current as of the date of this submission. We
+            also certify that any misrepresentations or omissions of material facts with respect to this
+            application, any attachments to it, and any other documents or information provided in
+            connection with the application for the organization of the proposed financial institution and
+            federal deposit insurance may be grounds for denial or revocation of the charter and/or
+            insurance, or grounds for an objection to the undersigned as proposed director(s) or officer(s) of
+            the proposed financial institution, and may subject the undersigned to other legal sanctions,
+            including the criminal sanctions provided for in 18 U.S.C. 1001, 1007, and 1014. We request
+            that examiners be assigned to make any investigations necessary.
+
+            We acknowledge that approval of this application is in the discretion of the appropriate federal
+            banking agency or agencies. Actions or communications, whether oral, written, or electronic, by
+            an agency or its employees in connection with this filing, including approval of the application if
+            granted, do not constitute a contract, either express or implied, or any other obligation binding
+            upon the agency, other federal banking agencies, the United States, any other agency or entity of
+            the United States, or an office or employee of the United States. Such actions or
+            communications will not affect the ability of any federal banking agency to exercise its
+            supervisory, regulatory, or examination powers under applicable law and regulations. We
+            further acknowledge that the foregoing may not be waived or modified by any employee or agent
+            of a federal banking agency or of the United States.
+
+                         Signature                           Date                      Typed Name
+                                              10/03/2025               Brian Dong
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+Docusign Envelope ID: 4379B344-D82E-4F60-B705-FF4FDA943FDB
+
+
+
+
+                                                    OCC CERTIFICATION
+
+            We, the organizers, certify that the information contained in this application has been examined
+            carefully, and is true, correct, and complete, and is current as of the date of this submission. We
+            also certify that any misrepresentations or omissions of material facts with respect to this
+            application, any attachments to it, and any other documents or information provided in
+            connection with the application for the organization of the proposed financial institution and
+            federal deposit insurance may be grounds for denial or revocation of the charter and/or
+            insurance, or grounds for an objection to the undersigned as proposed director(s) or officer(s) of
+            the proposed financial institution, and may subject the undersigned to other legal sanctions,
+            including the criminal sanctions provided for in 18 U.S.C. 1001, 1007, and 1014. We request
+            that examiners be assigned to make any investigations necessary.
+
+            We acknowledge that approval of this application is in the discretion of the appropriate federal
+            banking agency or agencies. Actions or communications, whether oral, written, or electronic, by
+            an agency or its employees in connection with this filing, including approval of the application if
+            granted, do not constitute a contract, either express or implied, or any other obligation binding
+            upon the agency, other federal banking agencies, the United States, any other agency or entity of
+            the United States, or an office or employee of the United States. Such actions or
+            communications will not affect the ability of any federal banking agency to exercise its
+            supervisory, regulatory, or examination powers under applicable law and regulations. We
+            further acknowledge that the foregoing may not be waived or modified by any employee or agent
+            of a federal banking agency or of the United States.
+
+                         Signature                           Date                      Typed Name
+                                              10/03/2025              Dana Wagner
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+Docusign Envelope ID: 7FEB1D08-34DE-4D2A-8A4F-7709CDF1CBF4
+
+
+
+
+                                                   OCC CERTIFICATION
+
+            We, the organizers, certify that the information contained in this application has been examined
+            carefully, and is true, correct, and complete, and is current as of the date of this submission. We
+            also certify that any misrepresentations or omissions of material facts with respect to this
+            application, any attachments to it, and any other documents or information provided in
+            connection with the application for the organization of the proposed financial institution and
+            federal deposit insurance may be grounds for denial or revocation of the charter and/or
+            insurance, or grounds for an objection to the undersigned as proposed director(s) or officer(s) of
+            the proposed financial institution, and may subject the undersigned to other legal sanctions,
+            including the criminal sanctions provided for in 18 U.S.C. 1001, 1007, and 1014. We request
+            that examiners be assigned to make any investigations necessary.
+
+            We acknowledge that approval of this application is in the discretion of the appropriate federal
+            banking agency or agencies. Actions or communications, whether oral, written, or electronic, by
+            an agency or its employees in connection with this filing, including approval of the application if
+            granted, do not constitute a contract, either express or implied, or any other obligation binding
+            upon the agency, other federal banking agencies, the United States, any other agency or entity of
+            the United States, or an office or employee of the United States. Such actions or
+            communications will not affect the ability of any federal banking agency to exercise its
+            supervisory, regulatory, or examination powers under applicable law and regulations. We
+            further acknowledge that the foregoing may not be waived or modified by any employee or agent
+            of a federal banking agency or of the United States.
+
+                        Signature                            Date                      Typed Name
+                                             10/03/2025              Robert Easton
+             ________________________ ________________________ ________________________
+
+
+
+             ________________________ ________________________ ________________________
+
+
+
+             ________________________ ________________________ ________________________
+
+
+
+             ________________________ ________________________ ________________________
+
+
+
+             ________________________ ________________________ ________________________
+Docusign Envelope ID: A692D48A-7BCA-4E90-85D4-76EB197A59BB
+
+
+
+
+                                                    OCC CERTIFICATION
+
+            We, the organizers, certify that the information contained in this application has been examined
+            carefully, and is true, correct, and complete, and is current as of the date of this submission. We
+            also certify that any misrepresentations or omissions of material facts with respect to this
+            application, any attachments to it, and any other documents or information provided in
+            connection with the application for the organization of the proposed financial institution and
+            federal deposit insurance may be grounds for denial or revocation of the charter and/or
+            insurance, or grounds for an objection to the undersigned as proposed director(s) or officer(s) of
+            the proposed financial institution, and may subject the undersigned to other legal sanctions,
+            including the criminal sanctions provided for in 18 U.S.C. 1001, 1007, and 1014. We request
+            that examiners be assigned to make any investigations necessary.
+
+            We acknowledge that approval of this application is in the discretion of the appropriate federal
+            banking agency or agencies. Actions or communications, whether oral, written, or electronic, by
+            an agency or its employees in connection with this filing, including approval of the application if
+            granted, do not constitute a contract, either express or implied, or any other obligation binding
+            upon the agency, other federal banking agencies, the United States, any other agency or entity of
+            the United States, or an office or employee of the United States. Such actions or
+            communications will not affect the ability of any federal banking agency to exercise its
+            supervisory, regulatory, or examination powers under applicable law and regulations. We
+            further acknowledge that the foregoing may not be waived or modified by any employee or agent
+            of a federal banking agency or of the United States.
+
+                         Signature                           Date                      Typed Name
+                                              10/03/2025              Greg Tusar
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+Docusign Envelope ID: 491693C7-DAA8-485D-9C7D-6A455A83B23C
+
+
+
+
+                                                    OCC CERTIFICATION
+
+            We, the organizers, certify that the information contained in this application has been examined
+            carefully, and is true, correct, and complete, and is current as of the date of this submission. We
+            also certify that any misrepresentations or omissions of material facts with respect to this
+            application, any attachments to it, and any other documents or information provided in
+            connection with the application for the organization of the proposed financial institution and
+            federal deposit insurance may be grounds for denial or revocation of the charter and/or
+            insurance, or grounds for an objection to the undersigned as proposed director(s) or officer(s) of
+            the proposed financial institution, and may subject the undersigned to other legal sanctions,
+            including the criminal sanctions provided for in 18 U.S.C. 1001, 1007, and 1014. We request
+            that examiners be assigned to make any investigations necessary.
+
+            We acknowledge that approval of this application is in the discretion of the appropriate federal
+            banking agency or agencies. Actions or communications, whether oral, written, or electronic, by
+            an agency or its employees in connection with this filing, including approval of the application if
+            granted, do not constitute a contract, either express or implied, or any other obligation binding
+            upon the agency, other federal banking agencies, the United States, any other agency or entity of
+            the United States, or an office or employee of the United States. Such actions or
+            communications will not affect the ability of any federal banking agency to exercise its
+            supervisory, regulatory, or examination powers under applicable law and regulations. We
+            further acknowledge that the foregoing may not be waived or modified by any employee or agent
+            of a federal banking agency or of the United States.
+
+                         Signature                           Date                      Typed Name
+                                              10/03/2025              Paul Grewal
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+Docusign Envelope ID: F25FEBF0-3706-42BA-A84B-506FD22A1506
+
+
+
+
+                                                     OCC CERTIFICATION
+
+            We, the organizers, certify that the information contained in this application has been examined
+            carefully, and is true, correct, and complete, and is current as of the date of this submission. We
+            also certify that any misrepresentations or omissions of material facts with respect to this
+            application, any attachments to it, and any other documents or information provided in
+            connection with the application for the organization of the proposed financial institution and
+            federal deposit insurance may be grounds for denial or revocation of the charter and/or
+            insurance, or grounds for an objection to the undersigned as proposed director(s) or officer(s) of
+            the proposed financial institution, and may subject the undersigned to other legal sanctions,
+            including the criminal sanctions provided for in 18 U.S.C. 1001, 1007, and 1014. We request
+            that examiners be assigned to make any investigations necessary.
+
+            We acknowledge that approval of this application is in the discretion of the appropriate federal
+            banking agency or agencies. Actions or communications, whether oral, written, or electronic, by
+            an agency or its employees in connection with this filing, including approval of the application if
+            granted, do not constitute a contract, either express or implied, or any other obligation binding
+            upon the agency, other federal banking agencies, the United States, any other agency or entity of
+            the United States, or an office or employee of the United States. Such actions or
+            communications will not affect the ability of any federal banking agency to exercise its
+            supervisory, regulatory, or examination powers under applicable law and regulations. We
+            further acknowledge that the foregoing may not be waived or modified by any employee or agent
+            of a federal banking agency or of the United States.
+
+                         Signature                           Date                      Typed Name
+                                              10/03/2025              Alesia J Haas
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+Docusign Envelope ID: F74B8E70-0E7A-4ED6-828A-E5561A17CE2F
+
+
+
+
+                                                    OCC CERTIFICATION
+
+            We, the organizers, certify that the information contained in this application has been examined
+            carefully, and is true, correct, and complete, and is current as of the date of this submission. We
+            also certify that any misrepresentations or omissions of material facts with respect to this
+            application, any attachments to it, and any other documents or information provided in
+            connection with the application for the organization of the proposed financial institution and
+            federal deposit insurance may be grounds for denial or revocation of the charter and/or
+            insurance, or grounds for an objection to the undersigned as proposed director(s) or officer(s) of
+            the proposed financial institution, and may subject the undersigned to other legal sanctions,
+            including the criminal sanctions provided for in 18 U.S.C. 1001, 1007, and 1014. We request
+            that examiners be assigned to make any investigations necessary.
+
+            We acknowledge that approval of this application is in the discretion of the appropriate federal
+            banking agency or agencies. Actions or communications, whether oral, written, or electronic, by
+            an agency or its employees in connection with this filing, including approval of the application if
+            granted, do not constitute a contract, either express or implied, or any other obligation binding
+            upon the agency, other federal banking agencies, the United States, any other agency or entity of
+            the United States, or an office or employee of the United States. Such actions or
+            communications will not affect the ability of any federal banking agency to exercise its
+            supervisory, regulatory, or examination powers under applicable law and regulations. We
+            further acknowledge that the foregoing may not be waived or modified by any employee or agent
+            of a federal banking agency or of the United States.
+
+                         Signature                           Date                      Typed Name
+                                              10/03/2025              Rick Schonberg
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+
+
+
+              ________________________ ________________________ ________________________
+                            CONTENTS OF APPLICATION
+
+Public Volume
+
+ Interagency Charter and Federal Deposit Insurance Application
+
+ OCC Certification
+
+ Public Exhibit A                                Form of Public Notice
+
+
+Confidential Volume
+
+ Confidential Exhibit A                          Business Plan
+
+ Confidential Exhibit B                          Financial Projections
+
+ Confidential Exhibit C                          Additional Information for Application
+
+ Confidential Exhibit D                          Residency Waiver
+
+ Confidential Exhibit E                          Capital and Liquidity Analysis
+
+ Confidential Exhibit F                          Proposed Articles of Association
+
+ Confidential Exhibit G                          Proposed Bylaws
+
+ Confidential Exhibit H                          Form of Stock Certificate
+
+ Confidential Exhibit I                          Audit Committee Charter
+
+ Confidential Exhibit J                          Stock Benefit Plan
+
+ Confidential Exhibit K                          Legal Permissibility Analysis
+
+ Confidential Exhibit L                          Structure Chart
+
+ Confidential Exhibit M                          Fidelity Coverage
+
+ Confidential Exhibit N                          Intercompany General Services Agreement
+
+ Confidential Exhibit O                          Interagency Biographical and Financial
+                                                 Reports
+
+ Confidential Exhibit P                          Liquidity Management Policy
+
+                                            25
+Confidential Exhibit Q         Enterprise Risk Management (ERM) Policy
+
+Confidential Exhibit R         Anti-Money Laundering and Countering the
+                               Financing of Terrorism Policies
+
+Confidential Exhibit S         Sanctions Compliance Policy
+
+Confidential Exhibit T         Business Continuity Policy
+
+                               Business Continuity, Pandemic & Crisis
+                               Recovery Action Plan
+
+
+Confidential Exhibit U         Disaster Recovery Policy
+
+Confidential Exhibit V         Third Party Risk Management Policy
+
+Confidential Exhibit W         Code of Business Conduct & Ethics
+
+Confidential Exhibit X         Technology Policy
+
+Confidential Exhibit Y         Secure Development Lifecycle Policy
+
+Confidential Exhibit Z         Physical and Environmental Security Policy
+
+Confidential Exhibit AA        Information Security Policy
+
+Confidential Exhibit BB        Data Security Policy
+
+Confidential Exhibit CC        Security Incident Response Plan
+
+Confidential Exhibit DD        Access Management Policy
+
+Confidential Exhibit EE        Third Party Security Standard
+
+Confidential Exhibit FF        Security Risk Management Standard
+
+Confidential Exhibit GG        Network Security Standard
+
+Confidential Exhibit HH        Data Retention and Disposal Policy
+
+Confidential Exhibit II        Security Training and Awareness Standard
+
+
+
+
+                          26
+PUBLIC EXHIBIT A
+
+Form of Public Notice
+                                                                                DRAFT NOTICE
+
+                              Coinbase National Trust Company
+                                   Public Notice Language
+
+
+                     An Application to Organize a National Trust Company
+                      with the Office of the Comptroller of the Currency
+
+The organizers, identified below, intending to organize and operate a national trust company
+according to the provisions of the National Bank Act, as amended, submitted an application to
+the Office of the Comptroller of the Currency on October 3, 2025, for permission to organize a
+national trust company, and propose as follows:
+
+   1. That the main office of the national trust company will be located at One Madison
+      Avenue, Suite 2400, New York, New York 10010.
+
+   2. That the national trust company will have the following title: Coinbase National Trust
+      Company.
+
+The organizers and sponsoring organization of Coinbase National Trust Company are:
+
+   1.   Rick Schonberg
+   2.   Gregory Tusar
+   3.   Alesia Haas
+   4.   Paul Grewal
+   5.   Dana Wagner
+   6.   Brian Dong
+   7.   Robert Easton
+
+        Coinbase Global, Inc., One Madison Avenue, Suite 2400, New York, New York 10010.
+
+Any person desiring to comment on this application may do so by submitting written comments
+within 30 days following the date of publication of this notice to Sebastian Astrada, Director for
+Licensing, Office of the Comptroller of the Currency, 400 7th St. SW, Washington, DC 20219,
+or by emailing LicensingPublicComments@occ.treas.gov. A person who wishes to view the
+public file should submit a request to Sebastian Astrada, Director for Licensing, Office of the
+Comptroller of the Currency, 400 7th St. SW, Washington, DC 20219 or by emailing
+Licensing@occ.treas.gov. The public may find information regarding this application, including
+the date of the end of the public comment period, in the OCC Weekly Bulletin at www.occ.gov.
+
+
+
+
+                                      Public Exhibit A - Page 1
+

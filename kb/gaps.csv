@@ -13,3 +13,10 @@ G-K21,Kraken,"MiCA 인가 법인 이름이 두 가지로 적힘(Payward Europe S
 G-K22,Kraken,"2025 이후 인수 전체 목록(Capitalise.ai, Magna 등 DB에 없는 건)","F-1355, 블로그 사이트맵(2019~2024만 확인)",2025~2026 블로그 글과 보도자료,미착수
 G-K23,Kraken,2015 뉴욕 철수 회사 원문 글,"블로그 목록(없음), 매체 3곳 인용",웹 아카이브,미착수
 G-K24,Kraken,"미국 개인에게 마진을 처음 연 날짜(2016-05에는 불가, 늦어도 2020-06에는 팖)","2019-03 전 블로그 122건, 검색, 고객센터","2019~2020 블로그 글, 웹 아카이브",미착수
+G-K25,Kraken,Crypto Facilities가 2019 인수 당시 가진 FCA 허가 범위(MTF 인가는 2020-07),"FCA 등록부(자바스크립트 화면, API 403), cryptofacilities.com, mtf.kraken.com",사용자 브라우저로 FCA 등록부 FRN 757895 열람,열림
+G-K26,Kraken,xPO 뒤 2차 거래 장소와 거래소 상장과의 관계,"2026 Q3 서한(문장 한 줄), payward.com, blog.kraken.com",출시 발표나 규제 신청 서류가 나오면,열림
+G-K27,Kraken,"Prime의 장외, 파생, 대출을 맡는 Payward Oceanic Ltd.의 소재지와 인가, 미국 기관 포함 여부","Kraken 360 페이지, 지원 문서, 법률 고지",사용자 브라우저로 kraken.com/legal 법인 목록,열림
+G-K28,Kraken,영국과 EU 주식 xStocks의 표시 통화(Final Terms),"Kraken Pro 상장 쌍 목록(영국, EU 종목 없음), Backed 문서 페이지(지역 제한)",사용자 브라우저로 assets.backed.fi Final Terms,열림
+G-K29,Kraken,"NinjaTrader, Bitnomial, Reap 인수 대금의 현금과 주식 비율","회사 발표, 완료 발표, 매체, 자문사 자료",상장 서류(S-1) 공개 때,열림
+G-K30,Kraken,와이오밍 SPDI가 예금 이자를 줄 수 있는지(감독 규칙),"2019, 2020 SPDI 법 원문(조항 없음)",와이오밍 은행국 규칙 원문,열림
+G-K31,Kraken,Small Exchange의 DCM 신청일,"Small Exchange 2019-03 글(""최근 신청""), CFTC(403)",CFTC 지정 명령 원문,열림

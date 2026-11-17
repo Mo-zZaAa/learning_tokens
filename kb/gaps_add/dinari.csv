@@ -1,0 +1,10 @@
+빈칸 번호,무엇이 비었나,찾아본 곳,다음에 볼 곳
+G-DN01,"연도별 매출, 이익, 흑자 여부, 수익원별 비중(회사 비공개)","회사 블로그 74건(사이트맵 2026-11-17), 투자 발표 3건, Reuters 2025-06-26, 500 Global 게시, DefiLlama(블록체인 위 주문 금액과 주문 수수료만), sec.gov(403)","사용자 로컬 브라우저로 SEC EDGAR의 Dinari Securities 연간 감사 보고서(Form X-17A-5, 공개분은 재무상태표 위주), 향후 투자 유치 보도의 매출 언급"
+G-DN02,"Hyperliquid에 SpaceX 토큰(SPCXD)을 올린 주소(0xc96fbe547f9cc728dc0a476378fb7bab58069af6)가 Dinari 것인지, 그래서 HyperCore 거래 수수료를 Dinari가 받는지","Hyperliquid API(spotMeta, tokenDetails, spotMetaAndAssetCtxs), HIP-1 문서, Dinari docs(hyperliquid, wrapping), Dinari 사례 연구(hyperliquid)","블록체인 탐색기에서 이 주소와 Dinari 계약 배포 주소 대조, Dinari 문의 창구, Hyperliquid 생태계 공지"
+G-DN03,"EU 밖(홍콩, 중남미, 걸프, 동남아) 파트너가 각각 어떤 현지 인가로 Dinari 토큰을 파는지","dinari.com/dshares 지역별 한 줄, 약관 PDF(2025-12-26), 사례 연구 7건, Gemini 블로그(EU만 확인)","Meru, Kem, Bitcoin.com, Eldora, Fasset의 약관과 고지문, 각국 감독기관 등록부"
+G-DN04,tZERO와 묶은 미국 증권사용 틀을 실제로 쓰는 증권사,"Dinari 블로그(사이트맵 2026-11-17), tZERO 뉴스(2026-07-08), 웹 검색(2026-11-17)","tZERO와 Dinari의 다음 발표, FINRA BrokerCheck에서 tZERO 계열과의 소개 계약을 맺은 증권사"
+G-DN05,Broadridge 위임 투표가 미국 밖판 보유자에게도 되는지(미국 밖판 약관 2025-12-26은 의결권 없음),"Dinari와 Broadridge 발표(2026-11-05), 미국 밖판 약관 PDF, docs 기업행위와 배당 문서","개정 약관(2025-12-26 뒤), docs 의결권 문서, Broadridge 쪽 발표"
+G-DN06,"회사 전체 고객 수, 파트너 수, 미국판 잔액(회사 비공개)","회사 블로그, 사례 연구, 투자 발표, rwa.xyz(미국판 잔액 따로 없음)","rwa.xyz 플랫폼 상세(로그인), 향후 회사 발표"
+G-DN07,명의개서대리인 등록을 증권사보다 약 3년 먼저 받은 이유(창업자 발언),"회사 블로그(2023-08 다른 인가 추진 서술), Reuters 2025-06-26, Fortune 2026-08-04(403)","사용자 로컬 브라우저로 Fortune 기사, 창업자 팟캐스트와 인터뷰"
+G-DN08,증권사를 인수하지 않고 직접 등록한 이유(설립에서 승인까지 약 1년 6개월),"회사 블로그, Reuters 2025-06-26, 500 Global 게시, BrokerCheck 상세 보고서(기간만 확인)","창업자 인터뷰, FINRA 신규 회원 심사 관련 보도"
+G-DN09,사업 페이지가 내세우는 블록체인 위 기관 전용 주말 호가창과 24/7 다크풀의 운영 법인과 인가,"dinari.com/business, docs, BrokerCheck(Dinari Securities 등록 사업 종류에 체결 시설 운영 없음)","SEC 대체거래시스템 목록(Form ATS-N), Flow Traders 쪽 발표"

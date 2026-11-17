@@ -1,0 +1,85 @@
+
+ Coinbase Launches Stock Trading for All U.S. Users, Debuts Yahoo Finance Partnership | Built In 
+ Companies Jobs Articles 
+Can't find your company? 
+Create a company profile. 
+ View All Jobs 
+ Join
+ Log In
+ For Employers
+Coinbase Launches Stock Trading for All U.S. Users, Debuts Yahoo Finance Partnership 
+ Coinbase Capital Markets is making 24/5 trading available across thousands of stocks.
+ Written by
+ Rose Velazquez 
+Published on Feb. 27, 2026 
+Photo: Shutterstock 
+ REVIEWED BY 
+ Sara B.T. Thiel | Feb 27, 2026 
+ Coinbase  has made stock trading available to all of its users in the U.S. through Coinbase Capital Markets. The company has also partnered with Yahoo Finance to enable smarter trading experiences by streamlining the journey from asset discovery and monitoring. 
+Coinbase users based in the United States will be able to buy, sell and manage stocks and ETFs in the same app they use to manage their crypto holdings. Coinbase Capital Markets will also facilitate trading 24 hours a day, five days a week across thousands of stocks.  
+Initially, 24/5 trading will be available for the market’s leading equities, but Coinbase plans to expand to additional stocks over the coming months. As it works toward enabling “a truly always-on market,” Coinbase also expects to offer tokenized stocks in the future. 
+Under the Yahoo Finance partnership, users who are researching an asset on Yahoo Finance will be able to click a button to go to Coinbase to execute a trade. Real-time information from Coinbase on crypto assets will also be incorporated into Yahoo Finance, and Yahoo Finance users will be able to access a free one-month Coinbase One Basic trial*. 
+“Our Everything Exchange vision is about removing artificial boundaries between asset classes and building for the next generation of markets. This expansion is a foundational step toward unifying traditional investments and digital assets into a single platform, simplifying portfolio management and unlocking what comes next,” a  post  from the company stated. 
+ Related Resources Tech & Startup Jobs on Built In 
+ Coinbase is Hiring | View All Jobs 
+*Coinbase One free trial offer: Limited time offer. Existing Coinbase customers excluded. Only available in certain regions. Additional restrictions apply.
+All securities are offered by Coinbase Capital Markets Corp, member FINRA /SIPC (https://www.sipc.org). Securities services offered by Coinbase Capital Markets Corp are separate from digital asset services provided by Coinbase Inc., and any affiliates. SIPC does not apply to digital assets or cash held in your Coinbase Inc. account. Additional information about your broker, Coinbase Capital Markets Corp, can be found on FINRA's BrokerCheck (https://brokercheck.finra.org). Execution, clearing and custody of all securities are provided by APEX Clearing Corporation. Information is provided for informational purposes only and is not investment advice. This is not a recommendation to buy or sell a particular digital asset or security or to employ a particular investment strategy. 
+Recent Articles 
+ 74 Major Companies in Chicago to Know
+ 24 DevOps Companies to Know
+ 24 Companies Hiring Product Designers
+ Explore Job Matches . 
+ = 0 ? availableJobTitleOptions[selectedJobTitleIndex] : jobSearchTerm)" x-on:keydown.arrow-down.prevent="nextJobTitle()" x-on:keydown.arrow-up.prevent="previousJobTitle()" @blur="onJobSearchBlur()" @focus="getJobTitles()" id="searchJobsInput" x-ref="searchJobsInput" type="text" class="flex-grow-1 border-0 pe-2xl form-control" aria-describedby="search" autocomplete="off" placeholder="Job Title or Keyword">
+ Job Title or Keyword 
+ 0" type="button" class="btn btn-sm job-search-clear"> 
+ Clear search 
+ 0"> 
+ Location 
+ 0"> 
+ 0">
+No Results Found 
+ Job Type 
+ Clear 
+ Apply 
+ See Jobs 
+Companies 
+Jobs 
+Tracker 
+Articles 
+More 
+ Join
+ Log In
+Tech Jobs 
+Companies 
+Articles 
+Remote 
+Salaries 
+Best Places To Work 
+Tech Hubs 
+ Post Job
+ © 2026 Built In. All rights reserved. 
+About 
+ Our Story
+ Careers
+ Our Staff Writers
+ Content Descriptions
+Get Involved 
+ Recruit With Built In
+ Become an Expert Contributor
+Resources 
+ Customer Support
+ Share Feedback
+ Report a Bug
+ Job Tools + Career Resources
+ Browse Jobs
+ A-Z
+Hubs 
+ Our Sites 
+ © 2026 Built In. All rights reserved. 
+ Learning Lab User Agreement
+ Accessibility Statement
+ Copyright Policy
+ Privacy Policy
+ Terms of Use
+ Your Privacy Choices/Cookie Settings
+ CA Notice of Collection

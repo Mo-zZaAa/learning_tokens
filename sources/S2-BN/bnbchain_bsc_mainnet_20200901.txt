@@ -1,0 +1,53 @@
+Binance Smart Chain Mainnet Launch - BNB Chain Blog Chains
+Fast. Affordable. EVM-Compatible
+Decentralized data storage & economy
+BNB ecosystem’s staking & governance layer
+Earn rewards by securing the network
+Submit proposals & participate in on-chain governance
+Documentation Faucet BscScan BSCTrace Documentation Faucet Bridge opBNBScan Documentation Faucet Bridge GreenfieldScan DCellar Learn more about Fusion Token Recovery Tool Beacon Chain Explorer Native Staking Liquid Staking
+Start with example and tutorials
+A list of BNB Chain related networks
+Pilot tokens on BNB Smart Chain
+Strategic updates for your advantage
+Follow our blog for the latest updates
+Securely connect to funds & dApps
+Cross-chain transfer between networks
+Explore online & offline hackathons on BNB Chain
+Building together to fast-track your Web3 journey
+Most Valuable Builder Accelerator Program (MVB)
+Incubation for top Web3 projects
+Explore essential tools & support
+A public, community-driven dev forum
+Global and local meetups, conferences, and hackathons
+Explore Opportunities on BNB Chain
+BNB Chain Careers Ecosystem Jobs
+Binance Smart Chain Mainnet Launch
+Binance Smart Chain: A Parallel Chain to Binance Chain That Enables Smart Contracts
+Binance Chain is a community-driven development project with many developers and contributors from all over the world. Binance DEX is the decentralized exchange feature developed on top of the Binance Chain. Since its launch in April 2019, it has made significant progress in building a fast and secure decentralized digital asset exchange.
+At the heart of Binance Chain is a highly performant matching engine built on a distributed consensus that aims to replicate the < 1-second trading efficiency of current centralized exchanges. Unfortunately, the Binance Chain has not given developers a lot of freedom to build decentralized applications (dApps) on top of it without a Turing-complete(ish) virtual machine in the application layer.
+In April, the Binance Chain development team proposed the idea of a parallel blockchain of the current Binance Chain to retain the high performance of the native DEX blockchain and to support a friendly Smart Contract function at the same time. The white paper of Binance Smart Chain is public here .
+Today, the team announced the launch of Binance Smart Chain mainnet.
+Binance Smart Chain Development Achievements
+Binance Smart Chain is an innovative solution to bring programmability and interoperability to Binance Chain.
+The launch of the very initial version of the Binance Smart Chain (BSC) testnet is Rialto . This is a major step toward our mission to create the top decentralized cryptocurrency marketplace.
+https://community.binance.org/topic/2792/binance-smart-chain-rialto-testnet-launch
+A range of services are provided:
+https://community.binance.org/topic/2792/binance-smart-chain-rialto-testnet-launch
+https://community.binance.org/topic/2928/binance-smart-chain-chapel-testnet-launch
+BSC Chapel testnet is launched to replace Rialto testnet. Rialto testnet users should already have received testnet BNB from airdrop.
+Enable native cross-chain transfer of BEP8 token.
+BNB token holders can participate in on-chain governance to decide the global parameters of BSC Chapel Testnet: cross-chain transfer fee, relayer fee, pool fund, etc.
+Upgrade cross-chain communication framework.
+Binance Smart Chain Testnet Ramanujan Upgrade
+This upgrade is breaking and all validator nodes have switched to v1.0.1-beta.2 .
+https://community.binance.org/topic/3042/binance-smart-chain-testnet-ramanujan-upgrade-announcement
+To prepare for the upcoming launch of BNB staking on Binance Chain, Binance sponsored the Stake Wars promotion game with a total of 3,000 BNB in prizes as an opportunity for users and the larger Binance Chain community to practice cross-chain communication between Binance Chain and Binance Smart Chain (BSC).
+https://www.binance.org/en/blog/stake-wars-competition-has-now-concluded/
+The Top reasons why you should build on Binance Smart Chain
+The consensus mechanism used in Binance Smart Chain, Proof of Staked Authority (PoSA), combines features from Delegated Proof-of-Stake (DPoS), and Proof-of-Authority (PoA). This consensus algorithm is built on a network of 21 validators , and can produce a block every 3 seconds based on current testnet testing, which will provide a high speed infrastructure for DeFi protocols. At the same time, the validators will get BNB rewards for executing tasks on the blockchain, which ensures stability and incentive without sacrificing transaction speed.
+In order to allow users and developers to move assets between chains, allowing more freedom, choices and flexibility, a number of cross-chain infrastructures are deployed on Binance Chain and Binance Smart Chain.
+Binance Chain has also pegged major cryptocurrencies that have their own blockchains, including Bitcoin, Ethereum, Ripple, Bitcoin Cash, Litecoin, EOS, and Tron. This mechanism will be used to continue growing the list of assets available on the Binance Smart Chain for DeFi protocols.
+A vibrant and growing ecosystem is supporting Binance Chain and Binance Smart Chain, including:
+Over 600,000 users on Binance Chain and more than 15 million users on Binance.com, all nascent potential users of DeFi projects on Binance Smart Chain.
+One of the biggest and most influential megaphones in crypto twitter as well as several other channels to engage with the Binance community
+© 2026 BNB Chain . All rights reserved.
