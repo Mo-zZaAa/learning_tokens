@@ -1,4 +1,4 @@
-"""스토리라인의 [F-xxxx], [CASE-xxx] 표기를 db의 원문 링크로 바꾼다(이미 링크된 것은 그대로).
+"""브리핑(회사 전략)의 [F-xxxx], [CASE-xxx] 표기를 db의 원문 링크로 바꾼다(이미 링크된 것은 그대로).
 사용: python3 tools/link_story.py briefs/Kraken.md"""
 import csv, re, sys
 R = {r['fact_id']: r for r in csv.DictReader(open('db/facts.csv', encoding='utf-8-sig'))}

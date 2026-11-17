@@ -1,6 +1,6 @@
-"""브리핑 6곳(스토리라인, 1~3층), 승인된 축, 전략 틀 비교, 캡처를 엑셀 한 파일로.
+"""브리핑 6곳(회사 전략, 1~3층), 승인된 축, 전략 틀 비교, 캡처를 엑셀 한 파일로.
 사용: python3 tools/export_briefs_xlsx.py  →  export/KDX_해외사례_브리핑.xlsx
-캡처 배치: 전략 틀 캡처는 각 회사 스토리라인 3절 바로 아래, 그 밖의 근거 캡처는 그 사실 번호를 인용한 줄 바로 아래.
+캡처 배치: 전략 틀 캡처는 각 회사 전략 3절 바로 아래, 그 밖의 근거 캡처는 그 사실 번호를 인용한 줄 바로 아래.
 인용되지 않은 근거 캡처는 회사 시트 끝 "참고 캡처"에. 사진 옆 칸에 무엇을 보여주는지와 해석."""
 import csv, glob, os, re, sys
 from openpyxl import Workbook
@@ -319,7 +319,7 @@ def main():
     toc['A1'].font = Font(name=F, size=16, bold=True, color='1F3864')
     items = [('축과 가설', 'PM이 승인한 회사별 축(덩치를 키운 방식)과 가설 판단'),
              ('전략 틀 비교', '9곳이 공식적으로 내건 기둥, 우선순위, 비전 문장. 처음 나온 시점과 변천')]
-    items += [(c, f'{c} 브리핑: 스토리라인 7절, 1~3층, 전략 틀 캡처와 근거 캡처') for c in COS]
+    items += [(c, f'{c} 브리핑: {c}의 전략 7절, 1~3층, 전략 틀 캡처와 근거 캡처') for c in COS]
     items += [('야간 ATS', 'Blue Ocean, Bruce, MOON의 미션 문장과 캡처')]
     toc['A3'], toc['B3'] = '시트', '내용'
     toc['A3'].font = toc['B3'].font = f_bold

@@ -2,7 +2,7 @@
 - 축 : 증권사 역할을 대신하는 API로 핀테크 앱을 판매 창구로 붙여 미국 주식 토큰을 대는 B2B 공급사(자체 앱 Dinari Trading App은 보조 창구)
 - 가설 : 둘 다 아님, 주식 토큰 B2B 공급 하나에 집중하나 그 영역 1등 아님(발행 잔액 1,520만 달러)
 
-## 스토리라인
+## Dinari의 전략
 
 ### 1. 출발: 미국 밖 지갑 이용자에게 직접 팔다가, 다른 회사 앱에 붙는 공급사로 방향을 정함
 - 미국 안 판매 자격은 두 단계로 갖춤. 2022-05 Dinari, Inc.(본사, 토큰 기술 회사)가 SEC(미국 증권거래위원회)에 명의개서대리인(발행 회사를 대신해 주주 명부와 증권 이전을 기록하는 등록 자격)으로 등록했고, 2025-06 자회사 Dinari Securities가 증권사(broker-dealer, 고객 주문을 받는 등록 증권회사)로 승인받아 미국 53개 주와 영토에서 영업할 수 있게 됨 [F-1237](https://www.sec.gov/Archives/edgar/data/1915430/000191543022000003/0001915430-22-000003-index.html)[F-0116](https://api.brokercheck.finra.org/search/firm/329672)[F-0120](https://api.brokercheck.finra.org/search/firm/329672)

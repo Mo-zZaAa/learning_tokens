@@ -3,7 +3,7 @@
 ## 먼저 읽기
 1. CLAUDE.md, playbook/README.md, playbook/writing_rules.md(특히 L, M절), playbook/research_knowhow.md
 2. playbook/storyline_template.md (7절 틀, 문체, 쓰지 않는 표현)
-3. 완성 예시: briefs/Kraken.md 맨 위 "## 스토리라인" (이 깊이와 문체가 기준)
+3. 완성 예시: briefs/Kraken.md 맨 위 "## <회사>의 전략" (이 깊이와 문체가 기준)
 4. axes.md 맨 위 "승인된 축", 맡은 회사의 briefs/<회사>.md(1~3층), work/AXES/<회사>.md, companies/<회사>_v4.md, db/facts.csv
 
 ## PM의 관심사(이것에 답하는 글이어야 함)
@@ -21,7 +21,7 @@
 1. 위 관심사 중 DB와 본문에 근거가 없는 것을 먼저 목록으로 뽑는다.
 2. 리서치: 회사 공식(블로그, 보도자료, IR, 공시) 우선, 맥락은 믿을 만한 매체 1곳(매체 이름 표시). curl로 열리는 곳은 curl, 검색은 WebSearch(standard). 봇 차단, 지역 제한은 우회하지 않는다(UA 위장 금지). 사용자 계정 정보를 외부 요청에 넣지 않는다. 검색 요약 문장은 사실이 아니라 원문으로 가는 길이다. 원문을 열어 문장을 확인한 것만 사실로 쓴다.
 3. 새 사실은 work/STORY-<회사>/facts.csv, sources.csv(형식은 work/CHROME/facts.csv, sources.csv와 같게, fact_id는 ST<회사 약자>-001부터, source_id는 ST<회사 약자>-S01부터)에 쓰고 원문 저장본은 sources/STORY-<회사>/에. `flock /tmp/kdx_merge.lock python3 -I tools/merge_db.py .`로 병합하고 db/_fact_id_map.csv에서 받은 F 번호를 쓴다.
-4. briefs/<회사>.md의 "# <회사> 브리핑" 머리(축, 가설) 바로 아래, "## 1층 (키워드)" 앞에 "## 스토리라인"을 넣는다(이미 있으면 교체). 1~3층은 건드리지 않는다.
+4. briefs/<회사>.md의 "# <회사> 브리핑" 머리(축, 가설) 바로 아래, "## 1층 (키워드)" 앞에 "## <회사>의 전략"을 넣는다(이미 있으면 교체). 1~3층은 건드리지 않는다.
 5. 근거 표기: 줄 끝 [F-xxxx] 또는 [CASE-xxx]. 링크 변환은 마지막에 아래 스크립트로 한 번에(손으로 URL을 만들지 않는다):
    python3 tools/link_story.py briefs/<회사>.md
 6. 점검: python3 tools/check_story.py briefs/<회사>.md 가 OK. 긴 줄표, 가운뎃점 없음. 처음 나오는 회사, 법인, 제도, 약어마다 괄호 설명이 있는지 스스로 다시 읽는다.

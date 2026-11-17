@@ -2,7 +2,7 @@
 - 축 : 경쟁 거래소까지 유통처로 삼아 발행 중심으로 키웠고, 2026-07 Ondo Perps로 자체 거래 플랫폼에 진출하기 시작
 - 가설 : 1등 집중(발행), 2026-07부터 거래로 확장 시작
 
-## 스토리라인
+## Ondo의 전략
 
 ### 1. 출발: 본업은 국채 토큰(OUSG, USDY)이고, 첫 고객부터 가상자산 이용자였음
 - Ondo Finance(미국 토큰화 기술 회사, 2021년 설립, 비상장)의 본업은 미국 국채 토큰 OUSG(미국 단기 국채 펀드 지분 토큰, 미국 적격투자자용, 2023-01)와 USDY(국채 담보 노트 토큰, 미국 밖 개인과 기관용, 2023-08)임. 주식 토큰은 이 본업 위에 2025-09 붙인 것임 [F-1111](https://ondo.finance/)[F-1150](https://ondo.finance/blog/announcing-tokenized-us-treasuries-and-bonds)[F-0532](https://docs.ondo.finance/legal/ondo-summit-terms/keynote-disclaimers)[F-1151](https://ondo.finance/blog/introducing-ondo-usd-yield-usdy)[F-0505](https://docs.ondo.finance/general-access-products/usdy/basics)

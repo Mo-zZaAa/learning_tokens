@@ -2,7 +2,7 @@
 - 축 : 같은 개인 고객에게 상품을 계속 얹어 키움(주식, 옵션, 가상자산, 선물, 자문, 비상장). 예측시장은 예시 하나(파트너 Kalshi로 먼저 열고 MIAXdx 인수로 직접 운영)
 - 가설 : 다 한다, 같은 고객 계좌에 중개, 가상자산, 자문, 은행, 비상장 접근을 함께 제공(회사 소개 문장)
 
-## 스토리라인
+## Robinhood의 전략
 
 ### 1. 출발: 무료 주식 앱이 같은 고객 계좌에 상품을 하나씩 얹는 구조를 일찍 갖춤
 - Robinhood는 2013년 설립된 미국 개인 주식 중개 회사이며(중개 법인 RHF, 2013-10 SEC(미국 증권거래위원회) 등록), 2015-03 앱을 정식 출시함. 회사는 미국 개인 중개사 중 처음으로 계좌 최소 금액 없는 무수수료 주식 거래를 했고 이후 업계 전체가 따랐다고 설명함(회사 주장) [F-0581](https://investors.robinhood.com/node/16931/html)[F-0243](https://api.brokercheck.finra.org/search/firm/165998)[F-1568](https://en.wikipedia.org/wiki/Robinhood_Markets)[F-1593](https://investors.robinhood.com/node/16931/html)

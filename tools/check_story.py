@@ -1,11 +1,12 @@
-"""스토리라인 문체 점검: python3 tools/check_story.py briefs/Kraken.md
+"""회사 전략(옛 스토리라인) 문체 점검: python3 tools/check_story.py briefs/Kraken.md
 금지 표현, 긴 줄표, 가운뎃점, 근거 없는 줄(해석 줄 제외)을 찾는다."""
 import re, sys
 BAN = ['한 벌','통째','넘봄','넘보','깜.','빡센','빡세','야무지','재미를','재미 좀','굴러가','꽂는','꽂아','길목','돈이 되','짝을 맞','팔아 보니','무엇을 파나','누가 쓰나','어떻게 굴리나','1단계','2단계','3단계']
 for p in sys.argv[1:]:
     t = open(p, encoding='utf-8').read()
-    if '## 스토리라인' in t:
-        t = t[t.index('## 스토리라인'):t.index('## 1층') if '## 1층' in t else len(t)]
+    m = re.search(r'^## (?:스토리라인|.*의 전략)\s*$', t, re.M)
+    if m:
+        t = t[m.start():t.index('## 1층') if '## 1층' in t else len(t)]
     bad = 0
     L = t.split('\n')
     for i, l in enumerate(L, 1):
