@@ -1,0 +1,1430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script data-termly-config>
+        window.TERMLY_CUSTOM_BLOCKING_MAP = {
+            "securepubads.g.doubleclick.net": "essential",
+            "googlesyndication.com": "essential"
+        };
+    </script>
+    
+    <script>
+        window.googletag = window.googletag || { cmd: [] };
+        (function () {
+            // Limited-ads build is required for setPrivacySettings({ limitedAds }) to take effect
+            var GPT_URL = 'https://pagead2.googlesyndication.com/tag/js/gpt.js';
+            var applied = null;
+
+            function limitedAds() {
+                try { return window.Termly.getConsentState().advertising !== true; }
+                catch (e) { return true; }
+            }
+
+            function sync() {
+                var ltd = limitedAds();
+                if (applied === null) {
+                    applied = ltd;
+                    var setMode = function () { googletag.pubads().setPrivacySettings({ limitedAds: ltd }); };
+                    // Must run before the page's defineSlot / enableServices / display commands
+                    if (Array.isArray(googletag.cmd)) { googletag.cmd.unshift(setMode); } else { googletag.cmd.push(setMode); }
+                    var s = document.createElement('script');
+                    s.async = true;
+                    s.src = GPT_URL;
+                    document.head.appendChild(s);
+                } else if (ltd !== applied) {
+                    applied = ltd;
+                    googletag.cmd.push(function () { googletag.pubads().setPrivacySettings({ limitedAds: ltd }); });
+                }
+            }
+
+            window.onTermlyLoaded = function () {
+                window.Termly.on('initialized', sync);
+                window.Termly.on('consent', sync);
+            };
+
+            // Fallback when Termly never initializes
+            setTimeout(function () { if (applied === null) { sync(); } }, 3000);
+        })();
+    </script>
+
+    <script type="text/javascript"
+            src="https://app.termly.io/resource-blocker/9e15d882-204e-4bd1-a50d-8e506c9488d9?autoBlock=on"
+            onload="window.onTermlyLoaded && window.onTermlyLoaded()"></script>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="InvestmentNews" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/georgia/Georgia.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/georgia/Georgia-Italic.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/georgia/Georgia-Bold.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/georgia/Georgia-BoldItalic.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/helvetica/74fc282ac1937b053f409b3b70eb1bb6.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/helvetica/d72e521f27450184733d89aa499e531c.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/helvetica/helvetica-47-light-condensed-587ebd7b5a6f6.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/helvetica/HelveticaNeue-75Bold.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/helvetica/HelveticaNeue-Black.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/helvetica/HelveticaNeue-BlackCond.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/helvetica/HelveticaNeue-Condensed.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/helvetica/HelveticaNeue-Medium.woff" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/helvetica/HelveticaNeue-Roman.woff2" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+            <title>Robinhood to pay $65 million to end SEC probe into stock orders - InvestmentNews</title>   
+    <meta name="description" content="Online broker allegedly failed to properly inform clients that it sold their stock orders to high-frequency traders and other financial firms">
+
+    <link href="/css/site.min.css?v=oVvpLL93GNdFJymkSZjvdhI_adaH4CNdWlIPpreswsY" rel="stylesheet" />
+
+        
+
+
+    <link rel="preload" as="image"
+        href="https://cdn-res.keymedia.com/cdn-cgi/image/w=1000,h=600,f=auto/https://cdn-res.keymedia.com/investmentnews/uploads/2020/12/robinhood-screen-with-desk_opt.jpg"
+        imagesrcset="https://cdn-res.keymedia.com/cdn-cgi/image/w=480,h=288,f=auto/https://cdn-res.keymedia.com/investmentnews/uploads/2020/12/robinhood-screen-with-desk_opt.jpg 480w,
+            https://cdn-res.keymedia.com/cdn-cgi/image/w=1000,h=600,f=auto/https://cdn-res.keymedia.com/investmentnews/uploads/2020/12/robinhood-screen-with-desk_opt.jpg 1000w,
+            https://cdn-res.keymedia.com/cdn-cgi/image/w=1374,h=824,f=auto/https://cdn-res.keymedia.com/investmentnews/uploads/2020/12/robinhood-screen-with-desk_opt.jpg 1374w"
+        imagesizes="(max-width: 1149px) calc(100vw - 80px), 1000px">
+
+        <link rel="canonical" href="https://www.investmentnews.com/regulation-legal-compliance/robinhood-to-pay-65-million-to-end-sec-probe-into-stock-orders/200522">
+        <script type="application/ld+json">
+            {"@context":"https://schema.org","@type":"NewsArticle","headline":"Robinhood to pay $65 million to end SEC probe into stock orders","image":"https://cdn-res.keymedia.com/investmentnews/uploads/2020/12/robinhood-screen-with-desk_opt.jpg","datePublished":"2020-12-17T15:04:33Z","author":{"@type":"Person","name":"Bloomberg News"},"description":"Online broker allegedly failed to properly inform clients that it sold their stock orders to high-frequency traders and other financial firms","dateModified":"2021-09-07T11:10:00Z","publisher":{"@type":"Organization","name":"InvestmentNews","logo":{"@type":"ImageObject","url":"https://www.investmentnews.com/images/logo_h60px.png","width":140,"height":60}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.investmentnews.com/regulation-legal-compliance/robinhood-to-pay-65-million-to-end-sec-probe-into-stock-orders/200522"}}
+        </script>
+        <meta property="og:url" content="https://www.investmentnews.com/regulation-legal-compliance/robinhood-to-pay-65-million-to-end-sec-probe-into-stock-orders/200522">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Robinhood to pay $65 million to end SEC probe into stock orders">
+        <meta property="og:description" content="Online broker allegedly failed to properly inform clients that it sold their stock orders to high-frequency traders and other financial firms">
+        <meta property="og:image" content="https://cdn-res.keymedia.com/investmentnews/uploads/2020/12/robinhood-screen-with-desk_opt.jpg">
+        <meta property="article:published_time" content="2020-12-17T10:04:33&#x2B;00:00" />
+        <meta property="article:modified_time" content="2021-09-07T07:10:00&#x2B;00:00" />
+            <meta property="article:author" content="https://www.investmentnews.com/authors/bloomberg" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Robinhood to pay $65 million to end SEC probe into stock orders">
+    <meta name="twitter:description" content="Online broker allegedly failed to properly inform clients that it sold their stock orders to high-frequency traders and other financial firms">
+    <meta name="twitter:image" content="https://cdn-res.keymedia.com/investmentnews/uploads/2020/12/robinhood-screen-with-desk_opt.jpg">
+    <meta name="twitter:site" content="@investmentnews">
+
+
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TQSWH4CL');</script>
+<!-- End Google Tag Manager -->
+    
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+         googletag.cmd.push(function () {
+            var mapping_adhesion = googletag.sizeMapping().addSize([1024, 0], [[970, 90], [728, 90]]).addSize([0, 0], [[300, 50]]).build();
+
+            googletag.defineSlot('/21873781324/inw/ros/inw_ros_640x480_pre', [640, 480], 'div-gpt-ad-1794956121640-pre').addService(googletag.pubads()).setConfig({ targeting: { 'inw_pos': 'PRE' } });
+            googletag.defineSlot('/21873781324/inw/ros/inw_ros_wallpaper', ['fluid'], 'div-gpt-ad-1794956121640-0').addService(googletag.pubads()).setConfig({ targeting: { 'inw_pos': 'WALL' } });
+            googletag.defineOutOfPageSlot('/21873781324/inw/ros/inw_ros_oop_catfish', 'div-gpt-ad-1794956121640-oop-catfish').addService(googletag.pubads()).setConfig({ targeting: { 'inw_pos': 'CAT' } });
+            googletag.defineSlot('/21873781324/inw/ros/inw_ros_adhesion', [[970, 90], [728, 90], [300, 50]], 'div-gpt-ad-1794956121640-adhesion').defineSizeMapping(mapping_adhesion).addService(googletag.pubads()).setConfig({ targeting: { 'inw_pos': 'ADH' } });
+        });
+
+    </script>
+    
+    <script>
+        googletag.cmd.push(function () {
+            var mapping_billboard = googletag.sizeMapping().addSize([1024, 0], [[970, 250], [970, 90], [728, 90]]).addSize([0, 0], [300, 250]).build();
+            var mapping970x250 = googletag.sizeMapping().addSize([1024, 0], [[970, 250], [970, 90], [728, 90]]).addSize([0, 0], [300, 250]).build();
+            var mapping300x600 = googletag.sizeMapping().addSize([1325, 0], [300, 600]).addSize([0, 0], [300, 250]).build();
+            var mapping300x250_fluid = googletag.sizeMapping().addSize([0, 0], [[300, 250], 'fluid']).build();
+
+            googletag.defineSlot('/21873781324/inw/ros/inw_ros_970x250_lb_01', [[970, 250], [970, 90], [728, 90], [300, 250]], 'div-gpt-ad-1794956121640-1').defineSizeMapping(mapping_billboard).addService(googletag.pubads()).setConfig({ targeting: { 'inw_pos': 'LB_01' } });
+            googletag.defineSlot('/21873781324/inw/ros/inw_ros_300x600_hp_01', [[300, 600], [300, 250]], 'div-gpt-ad-1794956121640-2').defineSizeMapping(mapping300x600).addService(googletag.pubads()).setConfig({ targeting: { 'inw_pos': 'HP_01' } });
+            googletag.defineSlot('/21873781324/inw/ros/inw_ros_300x250_mrec_01', [[300, 250],'fluid'], 'div-gpt-ad-1794956121640-3').defineSizeMapping(mapping300x250_fluid).addService(googletag.pubads()).setConfig({ targeting: { 'inw_pos': 'MREC_01' } });
+            googletag.defineSlot('/21873781324/inw/ros/inw_ros_300x600_hp_02', [[300, 600], [300, 250]], 'div-gpt-ad-1794956121640-5').defineSizeMapping(mapping300x600).addService(googletag.pubads()).setConfig({ targeting: { 'inw_pos': 'HP_02' } });
+
+
+                            var mapping640x480 = googletag.sizeMapping().addSize([1024, 0], [[640, 480], [640, 360], [970, 250], [728, 90]]).addSize([0, 0], [300, 250]).build();
+                            googletag.defineSlot('/21873781324/inw/ros/inw_ros_970x250_lb_03', [[640, 480], [640, 360], [970, 250], [728, 90], [300, 250]], 'div-gpt-ad-1794956121640-6').defineSizeMapping(mapping640x480).addService(googletag.pubads()).setConfig({ targeting: { 'inw_pos': 'LB_03' } });
+                        
+                            googletag.defineSlot('/21873781324/inw/ros/inw_ros_970x250_lb_04', [[970, 250], [728, 90], [300, 250]], 'div-gpt-ad-1794956121640-7').defineSizeMapping(mapping970x250).addService(googletag.pubads()).setConfig({ targeting: { 'inw_pos': 'LB_04' } });
+                        
+            googletag.defineSlot('/21873781324/inw/ros/inw_ros_business-card', 'fluid', 'div-gpt-ad-1794956121640-business-card').addService(googletag.pubads()).setConfig({ targeting: { 'inw_pos': 'BC' } });
+
+            googletag.setConfig({ targeting: {  'inw_cat': 'regulation-legal-compliance' ,  'page_id': '200522'  } });
+        });
+    </script>
+
+    <script>
+        googletag.cmd.push(function () {
+
+            googletag.setConfig({ collapseDiv: 'ON_NO_FILL' });
+            googletag.setConfig({ centering: true });
+            googletag.pubads().addEventListener('slotRenderEnded', function (event) {
+                var adUnitPath = event.slot.getAdUnitPath();
+                if (adUnitPath == '/21873781324/inw/ros/inw_ros_640x480_pre' && !event.isEmpty) {
+                    document.getElementsByTagName("body")[0].style.overflow = "hidden";
+                    document.getElementById('intromercial-handle').style.visibility = '';
+                    setTimeout(dismissIntromercial.bind(null, false), 3e4);
+                }
+                else if (adUnitPath == '/21873781324/inw/ros/inw_ros_300x250_pos' && !event.isEmpty) {
+                    document.getElementsByTagName("body")[0].style.overflow = "hidden";
+                    document.getElementById('intromercial-handle-mobile').style.visibility = '';
+                    setTimeout(dismissIntromercial.bind(null, true), 3e4);
+                }
+            });
+            if (location.pathname === "/"  || location.pathname === "/goria") {
+                googletag.setConfig({ singleRequest: true });
+            }
+            else {
+                googletag.setConfig({ lazyLoad: {
+                    fetchMarginPercent: 50,
+                    renderMarginPercent: 50,
+                    mobileScaling: 2.0,
+                } });
+                googletag.pubads().addEventListener('impressionViewable', function (event) {
+                    let adUnitPath = event.slot.getAdUnitPath();
+                    if (adUnitPath != '/21873781324/inw/ros/inw_ros_640x480_pre' &&
+                        adUnitPath != '/21873781324/inw/ros/inw_ros_300x250_pos' &&
+                        adUnitPath != '/21873781324/inw/ros/inw_ros_oop_catfish' &&
+                        adUnitPath != '/21873781324/inw/ros/inw_ros_adhesion') {
+                        setTimeout(function () {
+                            googletag.pubads().refresh([event.slot]);
+                        }, 30 * 1000);
+                    }
+                });
+            }
+            googletag.enableServices();
+        });
+
+    </script>
+
+<script type="text/javascript">!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{
+src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+crossOrigin: "anonymous", 
+cfg: { // Application Insights Configuration
+    connectionString: 'InstrumentationKey=150f9bc3-7e67-482a-b2ba-f50fc24927ca;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=762b5422-224b-4f9c-b0df-8c8af68d1e56'
+}});</script></head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQSWH4CL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
+    <script>
+        function whichTransitionEndEvent() {
+            var a, b = document.createElement("fakeelement"), c = {
+                transition: "transitionend",
+                OTransition: "oTransitionEnd",
+                MozTransition: "transitionend",
+                WebkitTransition: "webkitTransitionEnd"
+            };
+            for (a in c)
+                if (void 0 !== b.style[a])
+                    return c[a]
+        }
+        function dismissIntromercial(isMobile) {
+            var a = document.getElementById(isMobile ? "intromercial-handle-mobile" : "intromercial-handle")
+                , b = whichTransitionEndEvent()
+                , c = function () {
+                    a.removeEventListener(b, c),
+                        a.style.visibility = 'hidden',
+                        document.getElementsByTagName("body")[0].style.overflow = "auto"
+                };
+            a.addEventListener(b, c),
+                a.style.opacity = 0,
+                void 0 === b && setTimeout(c, 100);
+        }
+    </script>
+
+    <section id="intromercial-handle" class="backdrop" onClick="javascript:dismissIntromercial(false);" style="visibility:hidden;">
+        <div class="intromercial-container">
+            <div class="row intromercial-header">
+                <div class="intromercial-header__left">
+                    <img src="/images/logo-white.svg" alt="InvestmentNews" class="logo">
+                </div>
+                <div class="skip-container">
+                    <button title="Close" onclick="dismissIntromercial(false);"><span>CONTINUE TO SITE</span></button>
+                </div>
+            </div>
+            <div>
+                <div class="intromercial-close" onClick="javascript:dismissIntromercial(false);"></div>
+                <div class="intromercial-banner" id="div-gpt-ad-1794956121640-pre">
+                    <script>
+                        googletag.cmd.push(function () { googletag.display('div-gpt-ad-1794956121640-pre'); });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="intromercial-handle-mobile" class="backdrop" onClick="javascript:dismissIntromercial(true);" style="visibility:hidden;">
+        <div class="intromercial-container">
+            <div class="row intromercial-header">
+                <div class="intromercial-header__logo-area">
+                    <img src="/images/logo-white.svg" alt="InvestmentNews" class="logo prestitial-mobile-logo">
+                </div>
+                <div class="skip-container intromercial-header__close-area">
+                    <button title="Close" onclick="dismissIntromercial(true);"><span>CONTINUE TO SITE</span></button>
+                </div>
+            </div>
+            <div>
+                <div class="intromercial-close" onClick="javascript:dismissIntromercial(true);"></div>
+                <div class="intromercial-banner" id="div-gpt-ad-1794956121640-pos"></div>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="catfish" id="div-gpt-ad-1794956121640-oop-catfish"><script>googletag.cmd.push(function () { googletag.display('div-gpt-ad-1794956121640-oop-catfish'); });</script></div>
+
+    
+    <div class="adhesion" id="div-gpt-ad-1794956121640-adhesion"><script>googletag.cmd.push(function () { googletag.display('div-gpt-ad-1794956121640-adhesion'); });</script></div>
+
+    <div>
+        <header>
+                <nav class="header">
+    <div class="header__logo">
+        <a href="/">
+            <img alt="InvestmentNews" src="/images/logo.svg?v=ntO4WlPzCBUtLp03-XjkkeAznRnzPjlmZ3GG1DSZSGc" />
+        </a>
+    </div>
+    <div class="header__up js-menu-upper"></div>
+    <div class="header__down">
+        <div class="header__down__icons">
+            <a class="header__down__icons__menu js-menu-toggle" href="#"><i class="fas fa-bars"></i></a>
+            <a class="header__down__icons__sns" href="/"><img src="/images/home.svg" /></a>
+            <a class="header__down__icons__sns" target="_blank" href="https://www.facebook.com/newsfromIN/"><img src="/images/facebook.svg" /></a>
+            <a class="header__down__icons__sns" target="_blank" href="https://x.com/investmentnews"><img src="/images/x.svg" /></a>
+            <a class="header__down__icons__sns" target="_blank" href="https://www.linkedin.com/company/investmentnews/"><img src="/images/linkedin.svg" /></a>
+            <a class="header__down__icons__sns" target="_blank" href="https://www.youtube.com/channel/UCUNDiLMQWOJOgKEj9Pe4-9A"><img src="/images/youtube.svg" /></a>
+            <a class="header__down__icons__sns" target="_self" href="/rss"><img src="/images/rss.svg" /></a>
+        </div>
+        <div class="header__down__logo">
+            <a href="/">
+                <img alt="InvestmentNews" src="/images/logo.svg?v=ntO4WlPzCBUtLp03-XjkkeAznRnzPjlmZ3GG1DSZSGc" />
+            </a>
+        </div>
+        <div class="header__down__menus js-menu-lower"></div>
+        <div class="header__down__search">
+            <ul>
+                <li><a class="algolia-search__btn" href="#"><img src="/images/magnifying_glass.svg" /> <span class="header__down__search__text">SEARCH</span> </a></li>
+                <li><a id="pelcro-login-btn" class="header__down__login-button" ><img src="/images/lock.svg" /> LOGIN</a></li>
+                <li><a class="header__down__subscribe-button" href="/subscribe-to-investmentnews">SUBSCRIBE</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header__mobile-menu js-mobile-menu"></div>
+    <a class="pelcro-login-button" hidden>Login</a>
+    <div class="header__down__mobile-divider"></div>
+</nav>
+        </header>
+        
+    
+
+    </div>
+    <div>
+        
+    <section class="wallpaper-wrapper">
+        <div id="div-gpt-ad-1794956121640-0"><script>googletag.cmd.push(function () { googletag.display('div-gpt-ad-1794956121640-0'); });</script></div>
+    </section>
+
+        
+
+
+
+<section class="adjust-ad-order">
+    <section class="wrapper">
+        <div class="ad-wrapper-billboard-v2 smallest-mobile-pull-left">
+            <div id="div-gpt-ad-1794956121640-1"><script>googletag.cmd.push(function () { googletag.display('div-gpt-ad-1794956121640-1'); });</script></div>
+        </div>
+    </section>
+</section>
+
+        <script type="application/ld+json">
+            {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Regulation, Legal \u0026 Compliance","item":"https://www.investmentnews.com/regulation-legal-compliance"},{"@type":"ListItem","position":2,"name":"Robinhood to pay $65 million to end SEC probe into stock orders","item":"https://www.investmentnews.com/regulation-legal-compliance/robinhood-to-pay-65-million-to-end-sec-probe-into-stock-orders/200522"}]}
+        </script>
+        <section class="wrapper wrapper--breadcrumb">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb   ">
+                        <li class="breadcrumb__item breadcrumb__item--first">
+                            <a href="https://www.investmentnews.com/regulation-legal-compliance">
+                                REGULATION, LEGAL &amp; COMPLIANCE
+                            </a>
+                        </li>
+                </ol>
+            </nav>
+        </section>
+
+
+<section class="wrapper">
+    <div class="article-detail">
+        <div class="article-detail__left">
+            <h1 class="article-detail__title">
+                Robinhood to pay $65 million to end SEC probe into stock orders
+            </h1>
+                <div class="article-detail__img">
+                    <img srcset="https://cdn-res.keymedia.com/cdn-cgi/image/w=480,h=288,f=auto/https://cdn-res.keymedia.com/investmentnews/uploads/2020/12/robinhood-screen-with-desk_opt.jpg 480w,
+                        https://cdn-res.keymedia.com/cdn-cgi/image/w=1000,h=600,f=auto/https://cdn-res.keymedia.com/investmentnews/uploads/2020/12/robinhood-screen-with-desk_opt.jpg 1000w,
+                        https://cdn-res.keymedia.com/cdn-cgi/image/w=1374,h=824,f=auto/https://cdn-res.keymedia.com/investmentnews/uploads/2020/12/robinhood-screen-with-desk_opt.jpg 1374w"
+                    sizes="(max-width: 1149px) calc(100vw - 80px), 1000px"
+                    src="https://cdn-res.keymedia.com/cdn-cgi/image/w=1000,h=600,f=auto/https://cdn-res.keymedia.com/investmentnews/uploads/2020/12/robinhood-screen-with-desk_opt.jpg"
+                    width="1000" height="600" alt="Robinhood to pay $65 million to end SEC probe into stock orders" fetchpriority="high" />
+                </div>
+            <div class="article-detail__summary">
+                Online broker allegedly failed to properly inform clients that it sold their stock orders to high-frequency traders and other financial firms
+            </div>
+            <div class="article-detail__passage">
+                <div class="article-detail__date">
+                    DEC 17, 2020
+                </div>
+                <div>
+                        <span class="article-detail__author__name">By&nbsp;</span>
+                        <a id="author" class="article-detail__author__link__name" href="/authors/bloomberg">
+                            Bloomberg
+                        </a>
+                </div>
+                    <div>
+                            <a class="article-detail__author__link__image" href="/authors/bloomberg">
+                                <img src="https://cdn-res.keymedia.com/cdn-cgi/image/w=50,h=auto,f=auto/https://cdn-res.keymedia.com/investmentnews/uploads/2022/03/BloombergNews.png"
+                                    alt="Bloomberg" />
+                            </a>
+                    </div>
+                <div class="article-detail__social">
+                    <!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
+                </div>
+            </div>
+            <div class="article-detail__body">
+                    <div class="wrapper--detail__body">
+                        <!-- wp:paragraph -->
+<p><a href="/companies/robinhood/262944">Robinhood</a> Markets will pay $65 million to settle allegations that it failed to properly inform clients it sold their stock orders to high-frequency traders and other firms, putting a major compliance headache behind the brokerage even as new ones emerge.</p>
+                    </div>
+                    <div class="wrapper--detail__body">
+                        
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Securities and Exchange Commission fine stems from Robinhood’s decision to removed disclosures from its web site that detailed how it made money, the regulator said in a Thursday statement. The brokerage -- known for its immensely popular smart-phone app that offers commission-free trading -- from 2015 to late 2018 hid that its biggest source of revenue was funneling orders to Wall Street titans including <a href="/companies/citadel/257303">Citadel </a>Securities and Two Sigma Securities.</p>
+                    </div>
+                    <div class="wrapper--detail__body">
+                        
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The practice led to client trades being executed at inferior prices compared with those provided by competing brokers, the SEC said.</p>
+                    </div>
+                    <div class="wrapper--detail__body">
+                        
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>“Robinhood provided misleading information to customers about the true costs of choosing to trade with the firm,” SEC Enforcement Director Stephanie Avakian said <a href="https://www.sec.gov/news/press-release/2020-321" target="_blank" rel="noreferrer noopener">in the statement.</a> “Brokerage firms cannot mislead customers about order execution quality.”</p>
+                    </div>
+                        <section class="ad-wrapper-inner">
+                            <div id="div-gpt-ad-1794956121640-6"><script>googletag.cmd.push(function () { googletag.display('div-gpt-ad-1794956121640-6'); });</script></div>
+                        </section>
+                    <div class="wrapper--detail__body">
+                        
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>PIVOTAL MOMENT</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The settlement comes at a pivotal moment for Robinhood, which has exploded in popularity this year as legions of neophyte traders stuck at home during the coronavirus pandemic have flocked to its app. The company, preparing for a potential 2021 initial public offering, has been racing to strengthen its risk management and improve relations with regulators.</p>
+                    </div>
+                    <div class="wrapper--detail__body">
+                        
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Still, new problems keep popping up. On Wednesday, <a href="https://www.investmentnews.com/fintech/robinhood-accused-of-manipulating-customers-by-massachusetts-regulator/200482" target="_blank" rel=" noopener">Massachusetts securities regulators filed a complaint against Robinhood,</a> alleging the firm violated its responsibilities to put its customers’ interests first. And the SEC and the industry’s front-line brokerage regulator are pursuing a separate investigation into how Robinhood responded to <a href="https://www.investmentnews.com/fintech/robinhood-brokerage-is-up-and-running-sort-of-after-outage/189260" target="_blank" rel=" noopener">trading outages that hit the firm in March </a>as COVID-19 fueled extreme market volatility, incidents that triggered a flood of customer complaints.</p>
+                    </div>
+                    <div class="wrapper--detail__body">
+                        
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As part of Thursday’s accord with the SEC, Robinhood agreed to have an outside consultant monitor its compliance by ensuring it follows rules requiring firms to provide best execution for trades. Robinhood, which didn’t admit or deny the regulator’s claims, said it is now fully transparent in its communications with customers about how it makes money.</p>
+                    </div>
+                    <div class="wrapper--detail__body">
+                        
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>“The settlement relates to historical practices that do not reflect Robinhood today,” said Dan Gallagher, the firm’s chief legal officer. “We recognize the responsibility that comes with having helped millions of investors make their first investments, and we’re committed to continuing to evolve Robinhood as we grow to meet our customers’ needs.”</p>
+                    </div>
+                        <section class="ad-wrapper-inner">
+                            <div id="div-gpt-ad-1794956121640-7"><script>googletag.cmd.push(function () { googletag.display('div-gpt-ad-1794956121640-7'); });</script></div>
+                        </section>
+                    <div class="wrapper--detail__body">
+                        
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Gallagher, <a href="https://www.investmentnews.com/practice-management/secs-daniel-gallagher-resigning-as-commissioner/62398" target="_blank" rel=" noopener">a former SEC commissioner, </a>was brought on in May to help the company solve its regulatory issues. The firm, now worth $11 billion, has also added new compliance officers for each of its subsidiaries.</p>
+                    </div>
+                    <div class="wrapper--detail__body">
+                        
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>CONTROVERSIAL PRACTICE</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Underlying the SEC case is payment for order flow, a controversial practice employed by almost all retail brokerages in which they sell customer orders to outside market makers. Critics argue that it’s riddled with conflicts that enable high-speed traders and other firms to profit by taking advantage of retail investors. But defenders say payment for order flow improves prices for clients on the vast majority of trades.</p>
+                    </div>
+                    <div class="wrapper--detail__body">
+                        
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Robinhood has profited handsomely from payment for order flow, though it didn’t widely publicize that fact until October 2018, after Bloomberg reported that the firm made almost half its revenue from selling customers’ trades.</p>
+                    </div>
+                    <div class="wrapper--detail__body">
+                        
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As it finalized the SEC settlement, Robinhood was notified of the Massachusetts case, which argued that Robinhood’s app exposed users to “unnecessary trading risks” by promoting a “gamification” of stock investing to keep novice customers engaged. Robinhood has pledged to fight the claims, contending that the allegations lack merit because the firm doesn’t make investment recommendations for clients.</p>
+                    </div>
+                    <div class="wrapper--detail__body">
+                        
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>[More: <a href="https://www.investmentnews.com/fintech/robinhood-users-say-accounts-were-looted/197968" target="_blank" rel=" noopener">Robinhood users say accounts were looted</a>]</strong></p>
+                    </div>
+                    <div class="wrapper--detail__body">
+                        
+<!-- /wp:paragraph -->
+                    </div>
+            </div>
+            <div class="article-detail__body">
+                <div class="ad-wrapper-inner">
+                    <div id="div-gpt-ad-1794956121640-business-card"><script>googletag.cmd.push(function () { googletag.display('div-gpt-ad-1794956121640-business-card'); });</script></div>
+                </div>
+            </div>
+                    <div class="vc-latest-news">
+        <a class="vc-latest-news__header" href="/news">
+            <h3 class="vc-latest-news__title">
+                Latest News
+            </h3>
+            <span class="vc-latest-news__btn"></span>
+        </a>
+            <div class="vc-latest-news__item">
+                <a class="vc-latest-news__item__img" href="/retirement-planning/irs-hands-down-final-auto-enrollment-rules-for-new-401k-403b-plans/269058">
+                    <img src="https://cdn-res.keymedia.com/cdn-cgi/image/w=130,h=86,f=auto/https://cdn-res.keymedia.com/investmentnews/uploads/2024/07/internal-revenue-service.jpg_s1024x1024wisk20cxdnd8zdvcGyUx6b5NScaoDzqNY4NPK3LayLfU8fTXWE.jpg" alt="IRS hands down final auto enrollment rules for new 401(k), 403(b) plans" width="130" height="86" alt="IRS hands down final auto enrollment rules for new 401(k), 403(b) plans" fetchpriority="high" />
+                </a>
+                <div class="vc-latest-news__item__passage">
+                    <a class="vc-latest-news__item__title" href="/retirement-planning/irs-hands-down-final-auto-enrollment-rules-for-new-401k-403b-plans/269058">
+                        IRS hands down final auto enrollment rules for new 401(k), 403(b) plans
+                    </a>
+                    <p class="vc-latest-news__item__summary">
+                        Treasury&#x2019;s final SECURE 2.0 regulations give plan sponsors flexibility, though Vanguard calls for existing plans to face the mandate too
+                    </p>
+                </div>
+            </div>
+            <div class="vc-latest-news__item">
+                <a class="vc-latest-news__item__img" href="/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-mulls-action/269054">
+                    <img src="https://cdn-res.keymedia.com/cdn-cgi/image/w=130,h=86,f=auto/https://cdn-res.keymedia.com/cms/images/in/deni_638997536608019163.jpg" alt="Embattled Nvidia faces SEC probe as California attorney general mulls action" width="130" height="86" alt="Embattled Nvidia faces SEC probe as California attorney general mulls action" fetchpriority="high" />
+                </a>
+                <div class="vc-latest-news__item__passage">
+                    <a class="vc-latest-news__item__title" href="/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-mulls-action/269054">
+                        Embattled Nvidia faces SEC probe as California attorney general mulls action
+                    </a>
+                    <p class="vc-latest-news__item__summary">
+                        Regulators zero in on disclosures after Jensen Huang&#x2019;s exit, while ETF data shows how deeply the fallout reaches client portfolios
+                    </p>
+                </div>
+            </div>
+            <div class="vc-latest-news__item">
+                <a class="vc-latest-news__item__img" href="/regulation-legal-compliance/finra-penalizes-spartan-capital-318-million-charges-pre-ipo-fraud-reg-bi-violations/269050">
+                    <img src="https://cdn-res.keymedia.com/cdn-cgi/image/w=130,h=86,f=auto/https://cdn-res.keymedia.com/cms/images/in/jame_639305420781998459.jpg" alt="FINRA penalizes Spartan Capital $3.18 million, charges pre-IPO fraud, Reg BI violations" width="130" height="86" alt="FINRA penalizes Spartan Capital $3.18 million, charges pre-IPO fraud, Reg BI violations" fetchpriority="high" />
+                </a>
+                <div class="vc-latest-news__item__passage">
+                    <a class="vc-latest-news__item__title" href="/regulation-legal-compliance/finra-penalizes-spartan-capital-318-million-charges-pre-ipo-fraud-reg-bi-violations/269050">
+                        FINRA penalizes Spartan Capital $3.18 million, charges pre-IPO fraud, Reg BI violations
+                    </a>
+                    <p class="vc-latest-news__item__summary">
+                        Meanwhile, Spartan&#x2019;s owner and former CEO John Lowry was suspended from the securities industry for two years.
+                    </p>
+                </div>
+            </div>
+            <div class="vc-latest-news__item">
+                <a class="vc-latest-news__item__img" href="/independent-broker-dealers/advisor-moves-partners-lands-13b-team-as-merrill-adds-17b/269051">
+                    <img src="https://cdn-res.keymedia.com/cdn-cgi/image/w=130,h=86,f=auto/https://cdn-res.keymedia.com/cms/images/in/deni_639173752483880324.jpg" alt="Advisor moves: &amp;Partners lands $1.3B multigenerational team as Merrill adds $1.7B" width="130" height="86" alt="Advisor moves: &amp;Partners lands $1.3B multigenerational team as Merrill adds $1.7B" fetchpriority="high" />
+                </a>
+                <div class="vc-latest-news__item__passage">
+                    <a class="vc-latest-news__item__title" href="/independent-broker-dealers/advisor-moves-partners-lands-13b-team-as-merrill-adds-17b/269051">
+                        Advisor moves: &amp;Partners lands $1.3B multigenerational team as Merrill adds $1.7B
+                    </a>
+                    <p class="vc-latest-news__item__summary">
+                        Merrill recruits from UBS, Morgan Stanley and Edward Jones as an Oklahoma credit union moves its $430M wealth program to Ameriprise
+                    </p>
+                </div>
+            </div>
+            <div class="vc-latest-news__item">
+                <a class="vc-latest-news__item__img" href="/ria-news/ep-wealth-buys-14b-lodestar-concurrent-adds-carteret/269049">
+                    <img src="https://cdn-res.keymedia.com/cdn-cgi/image/w=130,h=86,f=auto/https://cdn-res.keymedia.com/investmentnews/uploads/2021/02/growth-puzzle.jpg" alt="EP Wealth buys $1.4B Lodestar, Concurrent adds Carteret" width="130" height="86" alt="EP Wealth buys $1.4B Lodestar, Concurrent adds Carteret" fetchpriority="high" />
+                </a>
+                <div class="vc-latest-news__item__passage">
+                    <a class="vc-latest-news__item__title" href="/ria-news/ep-wealth-buys-14b-lodestar-concurrent-adds-carteret/269049">
+                        EP Wealth buys $1.4B Lodestar, Concurrent adds Carteret
+                    </a>
+                    <p class="vc-latest-news__item__summary">
+                        Bay Area and South Carolina advisory teams, including a breakaway group from Raymond James, mark the latest wins for two fast-growing wealth management platforms
+                    </p>
+                </div>
+            </div>
+    </div>
+
+        </div>
+        <div class="article-detail__right">
+            <div class="top-down-list__sub-wrapper">
+                <div class="top-down-list">
+                    <div class="ad-wrapper-300x600">
+                        <div id="div-gpt-ad-1794956121640-2"><script>googletag.cmd.push(function () { googletag.display('div-gpt-ad-1794956121640-2'); });</script></div>
+                    </div>
+                </div>
+                <div class="top-down-list top-down-list--newsletter">
+    <a class="top-down-list__header" href="/newsletter">
+        <h3 class="top-down-list__title">
+            Newsletters
+        </h3>
+        <span class="top-down-list__btn"></span>
+    </a>
+    <div class="top-down-list__body">
+        Subscribe for original insights, commentary and analysis of the issues facing the financial advice community, from the InvestmentNews team.
+    </div>
+</div>
+                <div class="top-down-list">
+                    <div class="ad-wrapper-300x250">
+                        <div id="div-gpt-ad-1794956121640-3"><script>googletag.cmd.push(function () { googletag.display('div-gpt-ad-1794956121640-3'); });</script></div>
+                    </div>
+                </div>
+                <div class="top-down-list top-down-list--sponsored">
+                        <div class="vc-sponsored-articles">
+            <div class="vc-sponsored-articles__item">
+                <span class="vc-sponsored-articles__item__sponsored">
+                    SPONSORED
+                </span>
+                <a class="vc-sponsored-articles__item__title" href="/ria-news/the-new-retirement-challenge-preparing-for-a-longer-future/268989">
+                    The new retirement challenge: Preparing for a longer future
+                </a>
+                <p class="vc-sponsored-articles__item__summary">
+                    Advisors are broadening the conversation beyond savings to help clients prepare for the realities of longer lives
+                </p>
+            </div>
+            <div class="vc-sponsored-articles__item">
+                <span class="vc-sponsored-articles__item__sponsored">
+                    SPONSORED
+                </span>
+                <a class="vc-sponsored-articles__item__title" href="/alternatives/best-practices-for-engaging-women-around-alternatives/268586">
+                    Best Practices for Engaging Women Around Alternatives  
+                </a>
+                <p class="vc-sponsored-articles__item__summary">
+                    Growing wealth, evolving priorities, and untapped opportunities are reshaping how women approach long-term investing.
+                </p>
+            </div>
+    </div>
+
+                </div>
+                <div class="top-down-list top-down-list--span2">
+                    <div class="ad-wrapper-300x600">
+                        <div id="div-gpt-ad-1794956121640-5"><script>googletag.cmd.push(function () { googletag.display('div-gpt-ad-1794956121640-5'); });</script></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+            <section class="bg-dark">
+                <div class="wrapper subscribe-section-extended">
+                    <div class="subscribe-section__left">
+                        <h4 class="subscribe-section__left__header">SUBSCRIBE</h4>
+                        <p class="subscribe-section__left__text">
+                            Get unlimited access to
+                            InvestmentNews
+                        </p>
+                        <h2 class="subscribe-section__left__price">
+                            Subscribe for just
+                            $19.99 per month.
+                        </h2>
+                        <a class="subscribe-section__left__button" href="/subscribe-to-investmentnews">
+                            Subscribe
+                        </a>
+                    </div>
+                    <div class="subscribe-section__right">
+                        <div class="subscribe-section__right__img">
+                            <img src="/images/subscribe/Footer.webp" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <footer class="bg-grey">
+            <div class="wrapper footer__container">
+                <div class="footer__nav__links">
+                    <div class="footer__nav__links__group">
+                        <h5 class="footer__nav__links__group__title">
+                            About
+                        </h5>
+                        <ul class="footer__nav__links__group__nav">
+                            <li><a class="footer__nav__links__group__nav__item" href="/about-us">About Us</a></li>
+                            <li><a class="footer__nav__links__group__nav__item" href="/glossary">Glossary</a></li>
+                            <li><a class="footer__nav__links__group__nav__item" href="/privacy-policy">Privacy Policy</a></li>
+                            <li><a class="footer__nav__links__group__nav__item" href="https://www.keymedia.com/terms-and-conditions">Terms & Conditions</a></li>
+                            <li><a class="footer__nav__links__group__nav__item" href="/cookie-policy">Cookie Policy</a></li>
+                            <li><a class="footer__nav__links__group__nav__item termly-display-preferences" href="#">Your Privacy Choices</a></li>
+                            <li><a class="footer__nav__links__group__nav__item" href="/authors">Authors</a></li>
+                            <li><a class="footer__nav__links__group__nav__item" href="/external-contributors">External contributors</a></li>
+                            <li><a class="footer__nav__links__group__nav__item" href="/sitemap">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav__links__group">
+                        <h5 class="footer__nav__links__group__title">
+                            Contact
+                        </h5>
+                        <ul class="footer__nav__links__group__nav">
+                            <li><a class="footer__nav__links__group__nav__item" href="/contact-us">Contact Us</a></li>
+                            <li><a class="footer__nav__links__group__nav__item" href="/customer-support">Customer Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav__links__group">
+                        <h5 class="footer__nav__links__group__title">
+                            More from us
+                        </h5>
+                        <ul class="footer__nav__links__group__nav">
+                            <li><a class="footer__nav__links__group__nav__item" href="/best-in-wealth">Best in Wealth</a></li>
+                            <li><a class="footer__nav__links__group__nav__item" href="/guides">Guides</a></li>
+                            <li><a class="footer__nav__links__group__nav__item" href="/media-kit-request-page">Media Kit</a></li>
+                            <li><a class="footer__nav__links__group__nav__item" href="https://cdn-res.keymedia.com/cms/files/in/2026%20IN%20Editorial%20Calendar%2007.28.2026.pdf">Editorial Calendar</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav__links__group">
+                        <h5 class="footer__nav__links__group__title">
+                            Subscribers
+                        </h5>
+                        <ul class="footer__nav__links__group__nav">
+                            <li><a class="footer__nav__links__group__nav__item" href="/newsletter-sign-up">Newsletter</a></li>
+                            <li><a class="footer__nav__links__group__nav__item" href="/issues">Issue Archive</a></li>
+                            <li><a class="footer__nav__links__group__nav__item" href="/general-terms-conditions-for-digital-subscription">Digital Subscription Agreement</a></li>
+                            <li><a class="footer__nav__links__group__nav__item--button" href="/subscribe-to-investmentnews">Subscribe</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__nav__company-info">
+                    <div class="footer__nav__company-info__logo">
+                        <img alt="InvestmentNews" src="/images/logo-grey.svg" />
+                    </div>
+                    <p class="footer__nav__company-info__text">
+                        Copyright © 2026 KM Business Information US, Inc.
+                    </p>
+                    <p class="footer__nav__company-info__text">
+                        Use of editorial content without permission is strictly prohibited. <span>All rights reserved</span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div>
+        <button class="btn-go-top js-btn-go-top" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+    
+    <script src="/js/site.min.js?v=wBoS9S5iYHQ4aUS7kCCxprFcppg7N0gzSw-VccBiTEA"></script>
+
+    
+    
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=669804ed7bead90019480635&product=sop' async='async'></script>
+
+
+    
+    <script>
+        function requestPostitialOnScroll() {
+            var currentPosition = window.pageYOffset;
+            var browserHeight = document.documentElement.clientHeight;
+            if (currentPosition > browserHeight) {
+                googletag.cmd.push(function () {
+                    googletag.defineSlot('/21873781324/inw/ros/inw_ros_300x250_pos', [300, 250], 'div-gpt-ad-1794956121640-pos').addService(googletag.pubads()).setConfig({ targeting: { 'inw_pos': 'POS' } });
+                    googletag.display('div-gpt-ad-1794956121640-pos');
+                });
+
+                window.removeEventListener('scroll', requestPostitialOnScroll);
+            }
+        }
+
+        window.addEventListener('scroll', requestPostitialOnScroll);
+    </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.23.3/dist/algoliasearch-lite.umd.js" integrity="sha256-1QNshz86RqXe/qsCBldsUu13eAX6n/O98uubKQs87UI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.68.0/dist/instantsearch.production.min.js" integrity="sha256-pk7I7Xu6RA1qVbVU7Haw3ULL8nd5CXM5ith59df0/7I=" crossorigin="anonymous"></script>
+    <div>
+        <div id="search_overlay">
+            <div id="search_inner_overlay"></div>
+        </div>
+        <div id="search_container">
+            <div id="search_modal">
+                <div id="search_box"></div>
+                <div id="search_content">
+                    <div id="search_panel">
+                        <div id="search_stats"></div>
+                        <div>
+                            <div id="search_per_page"></div>
+                            <div id="search_sort"></div>
+                        </div>
+                    </div>
+                    <div id="search_region"></div>
+                    <div id="search_results"></div>
+                    <div id="search_pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        (function () {
+            const searchClient = algoliasearch('U0984HHT7J', '0f1ea40d184d0224d0470dff2bd5651a');
+
+            var currentRegion = '';
+            var searchCount = 0;
+
+
+            var useRegions = false;
+
+            var regions = [
+                { label: 'All', value: '', count: 0, isRefined: false, exhaustive: true, data: null },
+            ];
+
+            const search = instantsearch({
+                indexName: 'relevance',
+                searchFunction: function (helper) {
+                    if (helper.state.query === '' && searchCount == 0) {
+                        return;
+                    }
+
+                    document.getElementsByClassName('ais-SearchBox-input')[0].style.borderBottomLeftRadius = 0;
+                    document.getElementsByClassName('ais-SearchBox-input')[0].style.borderBottomRightRadius = 0;
+                    document.getElementById('search_content').style.display = 'contents';
+
+                    if (window.innerWidth < 768) {
+                        document.getElementById('search_modal').style.height = '100%';
+                    }
+
+                    if (useRegions)
+                    {
+                        if (helper.state.hierarchicalFacetsRefinements.region.length > 0) {
+                            if (helper.state.hierarchicalFacetsRefinements.region[0] === undefined) {
+                                helper.state.hierarchicalFacetsRefinements.region.pop();
+                            }
+
+                            currentRegion = helper.state.hierarchicalFacetsRefinements.region[0];
+                        } else {
+                            currentRegion = '';
+                        }
+                    }
+
+                    searchCount++;
+                    helper.search();
+
+                    var searchResults = document.getElementsByClassName('ais-Hits');
+
+                    if (searchResults.length > 0)
+                        document.getElementsByClassName('ais-Hits')[0].scrollTop = 0;
+                },
+                searchClient
+            });
+
+            function debounce(func, wait) {
+                let timeout;
+                return function (...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func.apply(this, args), wait);
+                };
+            }
+
+            search.addWidgets([
+                instantsearch.widgets.searchBox({
+                    container: '#search_box',
+                    placeholder: 'Search',
+                    showSubmit: true,
+                    showReset: true,
+                    autofocus: false,
+                    queryHook: debounce(function (query, search) {
+                        search(query);
+                    }, 250)
+                }),
+                instantsearch.widgets.hitsPerPage({
+                    container: '#search_per_page',
+                    items: [
+                        { label: '15', value: 15, default: true },
+                        { label: '25', value: 25 },
+                        { label: '50', value: 50 },
+                        { label: '100', value: 100 }
+                    ]
+                }),
+                instantsearch.widgets.stats({
+                    container: '#search_stats',
+                    templates: {
+                        text(data, { html }) {
+                            return html`
+                                    ${data.nbHits.toLocaleString()} results for "<strong>${data.query}</strong>"
+                                `;
+                        }
+                    }
+                }),
+                instantsearch.widgets.hits({
+                    container: '#search_results',
+                    templates: {
+                        item(data, { html }) {
+                            return html`
+                                    <h3>
+                                        <a href="${data.url}">${data.title}</a>
+                                    </h3>
+                                    <a href="${data.url}">${data.url}</a>
+                                    <p>${data.summary}</p>
+                                `;
+                        },
+                        empty(data, { html }) {
+                            return html`
+                                    <h1>No results</h1>
+                                    <p>No matches were found for "<strong>${data.query}</strong>"</p>
+                                `;
+                        }
+                    }
+                }),
+                instantsearch.widgets.pagination({
+                    container: '#search_pagination',
+                }),
+                instantsearch.widgets.sortBy({
+                    container: '#search_sort',
+                    items: [
+                        { value: 'relevance', label: 'Relevance' },
+                        { value: 'date_desc', label: 'Latest' }
+                    ]
+                }),
+                {
+                    init: function (options) {
+                        if (useRegions) {
+                            options.helper.state.hierarchicalFacetsRefinements.region.push(currentRegion);
+                        }
+                    }
+                }
+            ]);
+
+            if (useRegions) {
+                search.addWidgets([
+                    instantsearch.widgets.menu({
+                        container: '#search_region',
+                        attribute: 'region',
+                        transformItems(items) {
+                            const selectedItem = items.find(item => item.isRefined);
+                            regions.forEach(item => {
+                                item.isRefined = false;
+                            });
+
+                            if (selectedItem) {
+                                regions.find(item => item.value === selectedItem.value).isRefined = true;
+                            } else {
+                                regions.find(item => item.value === currentRegion).isRefined = true;
+                            }
+
+                            return regions;
+                        },
+                        templates: {
+                            item(data, { html }) {
+                                return html`
+                                        <a class="${data.cssClasses.link}" href="${data.url}">
+                                            <span class="${data.cssClasses.label}">${data.label}</span>
+                                        </a>
+                                    `;
+                            }
+                        }
+                    })
+                ]);
+            }
+
+            search.start();
+
+            // Shows and Hides search overlay
+            var searchButton = document.getElementsByClassName('algolia-search__btn');
+
+            if (searchButton.length > 0) {
+                var container = document.getElementById('search_container');
+                var overlay = document.getElementById('search_overlay');
+
+                Array.from(searchButton).forEach(function (button) {
+                    button.addEventListener('click', function (event) {
+                        event.preventDefault();
+                        container.style.display = 'block';
+                        overlay.style.display = 'block';
+                        document.body.style.overflow = 'hidden';
+                        document.getElementsByClassName('ais-SearchBox-input')[0].focus();
+                    });
+                });
+
+                document.addEventListener('keydown', function (event) {
+                    if (event.key === 'Escape' && container.style.display === 'block') {
+                        document.getElementsByClassName('ais-SearchBox-reset')[0].click();
+                    }
+                });
+
+                container.addEventListener('click', function (event) {
+                    if (this === event.target) {
+                        document.getElementsByClassName('ais-SearchBox-reset')[0].click();
+                    }
+                });
+
+                document.getElementsByClassName('ais-SearchBox-reset')[0].addEventListener('click', function (event) {
+                    container.style.display = 'none';
+                    overlay.style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                    document.getElementById('search_content').style.display = 'none';
+                    document.getElementById('search_modal').style.height = 'auto';
+                    document.getElementsByClassName('ais-SearchBox-input')[0].style.borderBottomLeftRadius = '10px';
+                    document.getElementsByClassName('ais-SearchBox-input')[0].style.borderBottomRightRadius = '10px';
+                    searchCount = 0;
+                });
+
+                window.addEventListener('resize', function (event) {
+                    if (window.innerWidth < 768 && search.helper.state.query != '') {
+                        document.getElementById('search_modal').style.height = '100%';
+                    } else {
+                        document.getElementById('search_modal').style.height = 'auto';
+                    }
+                });
+            }
+
+            var styleLink = document.createElement('link');
+            styleLink.setAttribute('rel', 'stylesheet');
+            styleLink.setAttribute('href', 'https://cdn.jsdelivr.net/npm/instantsearch.css@8.1.0/themes/satellite-min.css');
+            styleLink.setAttribute('integrity', 'sha256-p/rGN4RGy6EDumyxF9t7LKxWGg6/MZfGhJM/asKkqvA=');
+            styleLink.setAttribute('crossorigin', 'anonymous');
+
+            document.head.appendChild(styleLink);
+        })();
+    </script>
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        #search_overlay {
+            z-index: 2147483647;
+            position: fixed;
+            inset: 0px;
+            display: none;
+            backdrop-filter: blur(0.25em);
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        #search_inner_overlay {
+            position: absolute;
+            inset: 0px;
+            --bg-opacity: 1;
+            background-color: rgba(55, 65, 81, var(--bg-opacity));
+            opacity: 0.75;
+        }
+
+        #search_container {
+            z-index: 2147483647;
+            position: fixed;
+            inset: 0px;
+            display: none;
+            align-items: flex-start;
+            background-color: rgba(255, 255, 255, var(--bg-opacity));
+            outline: transparent solid 2px;
+            outline-offset: 2px;
+            padding: 0;
+        }
+
+        #search_container div,
+        #search_container p,
+        #search_container table {
+            font-weight: 400;
+        }
+
+        #search_modal {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 80em;
+            background-color: #fff;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            max-height: 100%;
+        }
+
+        .ais-SearchBox-form {
+            background: none;
+            font-size: 1.25rem;
+            height: 4.5rem;
+        }
+
+        .ais-SearchBox-input {
+            border-radius: 10px;
+            padding-left: 3.5rem;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        .ais-SearchBox-input, .ais-SearchBox-form::before, .ais-SearchBox-reset {
+            font-size: 1.3em;
+        }
+
+        .ais-SearchBox-reset {
+            display: flex !important;
+        }
+
+        .ais-SearchBox-form::before {
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 28px;
+            height: 28px;
+            margin-top: -13px;
+        }
+
+        .ais-SearchBox-resetIcon {
+            width: 15px;
+            height: 15px;
+        }
+
+        .ais-SearchBox-input:focus, .ais-HitsPerPage-select:focus, .ais-SortBy-select:focus {
+            outline: 0;
+            border: 1px solid #d6d6e7;
+        }
+
+        #search_content {
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        #search_panel, #search_region {
+            padding: 0 1.5rem;
+        }
+
+        #search_panel {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.875em;
+            --text-opacity: 1;
+            color: rgba(107, 114, 128, var(--text-opacity));
+            flex-direction: column;
+        }
+
+        .ais-Stats-text {
+            padding: 0px;
+            margin: 0px;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            --text-opacity: 1;
+            color: rgba(37, 47, 63, var(--text-opacity));
+        }
+
+        .ais-Stats, .ais-HitsPerPage, .ais-SortBy {
+            margin-top: 20px;
+        }
+
+        .ais-HitsPerPage-select, .ais-SortBy-select {
+            width: fit-content;
+            height: 2em;
+        }
+
+        #search_per_page, #search_panel > div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .ais-HitsPerPage:before {
+            content: 'Result';
+            margin-right: 10px;
+        }
+
+        .ais-SortBy:before {
+            content: 'Sort';
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+
+        .ais-Menu {
+            border-bottom: 1px solid #d6d6e7;
+        }
+
+        .ais-Menu-list {
+            display: flex;
+        }
+
+        .ais-Menu-item {
+            padding: 0.75em 1em;
+        }
+
+        .ais-Menu-item--selected {
+            border-style: solid;
+            border-width: 0px 0px 2px;
+            border-color: transparent transparent rgb(102, 126, 234);
+        }
+
+        .ais-Menu-label {
+            font-weight: 400 !important;
+        }
+
+        .ais-Menu-link {
+            font-size: 16px;
+            --text-opacity: 1;
+            color: rgba(107, 114, 128, var(--text-opacity));
+        }
+
+            .ais-Menu-link:hover {
+                text-decoration: none;
+                --text-opacity: 1;
+                color: rgba(55, 65, 81, var(--text-opacity));
+            }
+
+        .ais-Menu-item--selected .ais-Menu-link, .ais-Menu-item--selected .ais-Menu-link:hover {
+            color: rgb(102, 126, 234);
+        }
+
+        #search_results {
+            display: flex;
+            overflow: hidden;
+        }
+
+        .ais-Hits {
+            overflow-y: scroll;
+            flex-grow: 1;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        .ais-Hits-item {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            box-shadow: none;
+        }
+
+            .ais-Hits-item > h3 {
+                margin: 0;
+                font-size: 1rem;
+                font-weight: 500;
+                overflow-wrap: break-word;
+            }
+
+                .ais-Hits-item > h3 > a {
+                    margin: 0;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    overflow-wrap: break-word;
+                    --text-opacity: 1;
+                    color: rgba(37, 47, 63, var(--text-opacity));
+                }
+
+            .ais-Hits-item > a {
+                font-size: 0.75rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                --text-opacity: 1;
+                color: rgba(159, 166, 178, var(--text-opacity));
+            }
+
+            .ais-Hits-item > p {
+                padding: 0px;
+                margin: 0.25em 0px 0px;
+                overflow: hidden;
+                font-size: 0.875rem;
+                --text-opacity: 1;
+                color: rgba(107, 114, 128, var(--text-opacity));
+            }
+
+            .ais-Hits-item a:hover {
+                color: rgb(102, 126, 234) !important;
+            }
+
+        .ais-Hits--empty {
+            padding: 10em 3em;
+            text-align: center;
+        }
+
+            .ais-Hits--empty > h1 {
+                padding: 0px;
+                margin: 0px;
+                --text-opacity: 1;
+                color: rgba(37, 47, 63, var(--text-opacity));
+                font-size: 1.875em;
+                font-weight: 600;
+                text-transform: none;
+                letter-spacing: -0.025em;
+            }
+
+            .ais-Hits--empty > p {
+                padding: 0px;
+                margin: 0px;
+                --text-opacity: 1;
+                color: rgba(107, 114, 128, var(--text-opacity));
+            }
+
+        .ais-Pagination {
+            display: flex;
+            padding: 0.875rem 1.5rem 1.5rem;
+            justify-content: center;
+        }
+
+        .ais-Pagination-link {
+            padding: 20px 17px;
+            font-size: 16px;
+            --text-opacity: 1;
+            color: rgba(107, 114, 128, var(--text-opacity));
+        }
+
+            .ais-Pagination-link:hover {
+                --text-opacity: 1;
+                color: rgba(107, 114, 128, var(--text-opacity));
+                text-decoration: none;
+            }
+
+        .ais-Pagination-item:not(.ais-Pagination-item--selected):not(.ais-Pagination-item--disabled) > .ais-Pagination-link:hover {
+            background: rgb(224, 224, 235);
+        }
+
+        .ais-Pagination-item--selected > .ais-Pagination-link {
+            color: rgb(255, 255, 255);
+            background: rgb(102, 126, 234);
+        }
+
+            .ais-Pagination-item--selected > .ais-Pagination-link:hover {
+                color: rgb(255, 255, 255);
+                background: rgb(90, 103, 216);
+            }
+
+        .ais-Pagination-item--disabled > .ais-Pagination-link:hover {
+            cursor: not-allowed;
+            color: #b6b7d5;
+        }
+
+        @media only screen and (min-width: 768px) {
+            #search_container {
+                padding: 2.5em;
+            }
+
+            #search_modal {
+                max-height: calc(100% - 3em);
+            }
+
+            #search_panel {
+                flex-direction: row;
+            }
+
+            .ais-Stats, .ais-HitsPerPage, .ais-SortBy {
+                margin: 20px 0;
+            }
+        }
+    </style>
+
+
+    <script type="text/javascript">
+        (function (d, s, id) {
+            var js, tjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://app.termly.io/embed-policy.min.js";
+            tjs.parentNode.insertBefore(js, tjs);
+        }(document, 'script', 'termly-jssdk'));</script>
+    <script>
+        var Pelcro = window.Pelcro || (window.Pelcro = {});
+        Pelcro.siteid = 5230;
+        Pelcro.environment = {};
+        Pelcro.environment.stripe = "pk_live_Wdef2LjEQXsgFWult6IVFobB"
+        Pelcro.environment.domain = "https://www.pelcro.com";
+        Pelcro.environment.ui = "https://js.pelcro.com/ui/plugin/membership/v1/main.min.js"
+    </script>
+    <script src="//js.pelcro.com/sdk/main.min.js" type="text/javascript"></script>
+    <script>
+
+        var pelcro_login_button = document.getElementById("pelcro-login-btn");
+        var pelcro_hidden_login_button = document.querySelector(".pelcro-login-button");
+        var pelcro_login_button_temp = pelcro_login_button.innerHTML;
+
+        var pelcro_subscribe_button = document.querySelectorAll(".pelcro-subscribe-btn");
+        var pelcro_hidden_subscribe_button = document.querySelector(".pelcro-subscribe-button");
+
+        var pelcro_purchase_button = document.getElementById("pelcro-purchase-btn");
+        var pelcro_hidden_purchase_button = document.querySelector(".pelcro-purchase-button");
+
+        window.Pelcro.site.getById((error, response) => {
+            if (error) {
+                return console.log("error", error.message);
+            }
+        });
+
+        document.addEventListener("PelcroSiteLoaded", function () {
+            pelcro_login_button.addEventListener('click', () => {
+                pelcro_hidden_login_button.click();
+            });
+
+            pelcro_subscribe_button.forEach(btn =>
+                btn.addEventListener('click', () => {
+                    pelcro_hidden_subscribe_button.click();
+                })
+            );
+
+            if (pelcro_purchase_button != null) {
+                pelcro_purchase_button.addEventListener('click', () => {
+                    pelcro_hidden_purchase_button.click();
+                });
+            }
+
+            window.Pelcro.ecommerce.products.list((error, response) => { });
+        });
+
+        document.addEventListener('PelcroUserLogout', function (event) {
+            pelcro_login_button.innerHTML = pelcro_login_button_temp;
+        });
+
+        document.addEventListener('PelcroUserLoggedIn', function (event) {
+            pelcro_login_button.innerHTML = "MY ACCOUNT";
+        });
+
+        document.addEventListener('PelcroUserLoaded', function (event) {
+            pelcro_login_button.innerHTML = "MY ACCOUNT";
+        });
+
+        function observePelcroApp(callback) {
+            const observer = new MutationObserver((mutations, obs) => {
+                if (document.getElementById("pelcro-app")) {
+                    obs.disconnect();
+                    callback();
+                }
+            });
+
+            observer.observe(document.body, { childList: true, subtree: true });
+        }
+
+        observePelcroApp(() => {
+            const buttons = document.getElementsByClassName("subscribe-btn");
+            Array.from(buttons).forEach(button => {
+                button.classList.add("enabled");
+                const spinner = button.querySelector(".spinner");
+                if (spinner) spinner.remove();
+            });
+
+
+        });
+
+    </script>
+</body>
+</html>

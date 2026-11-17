@@ -131,7 +131,7 @@
 ## Q16. [7] Coinbase Pro 재출시(현물, 선물, 옵션, 주식을 한 계좌 증거금으로)가 되면 KDX에 무엇이 바뀌나
 - 답(판단): 한 계좌 증거금은 고객이 주식을 담보로 가상자산 선물을 사는 식으로 담보를 돌려 쓰게 하는 것임. 그러려면 판매, 체결, 청산이 한 그룹 안에 있어야 함. Coinbase는 증거금 선물 청산을 아직 외부(Nodal Clear)에 맡기고 있어 이 계획이 그 청산을 안으로 가져올지가 관건임
   - KDX에 옮기면(판단): KDX는 판매와 계좌를 참여 증권사가 갖는 구조라 한 계좌 증거금을 KDX가 직접 줄 수 없음. 고객 담보를 묶는 일은 증권사와 청산 기관이 해야 함. 해외에서 한 계좌 증거금이 표준이 되면 KDX 상품의 담보를 증권사 계좌 안 다른 자산과 함께 인정받는 길을 미리 정해야 함
-- 근거: 계획은 kb/cards/coinbase.md 2절 "다음"의 원문(2026 3분기 서한, inputs/manual/B03_coinbase_Q3_26_shareholder_letter.pdf). 청산 구조는 https://www.marketsmedia.com/coinbase-clearing-receives-cftc-approval/ (db F-1623)
+- 근거: 계획은 2026 3분기 애널리스트 콜 녹취 inputs/manual/B03_coinbase_Q3_26_analyst_call_transcript.txt 216행과 AMA 녹취 354행(Coinbase Pro 이름으로 다시 냄). 청산 구조는 https://www.marketsmedia.com/coinbase-clearing-receives-cftc-approval/ (db F-1623)
 - 한 단계 더: 재출시가 2026 4분기 안에 실제로 나왔나(출시일 확인), 증거금 선물 청산을 Coinbase Clearing으로 옮기는 인가 신청이 있나
 
 ## Q17. [6, 7] 한국 투자자는 Coinbase 주식 토큰을 살 수 있나. 미국 출시(SEC 혁신 면제 뒤)가 되면 무엇이 바뀌나

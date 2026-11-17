@@ -26,8 +26,8 @@ const U = 'file://' + path.resolve(__dirname, '../../web/v5/index.html'); const 
   log('저장된 메모 anchor:', await p.evaluate(() => JSON.parse(localStorage.getItem('kdx-v5-memos')).memos.slice(-1)[0].anchor));
   // 공통
   await p.click('#cos [data-co=common]'); await p.waitForTimeout(300);
-  log('공통 층:', await p.$$eval('.layer', a => a.map(x => x.querySelector('h2').textContent + ' 부분 ' + x.querySelectorAll('.part').length)));
-  log('공통 3층 부분:', await p.$$eval('#common-o-L3 .part', a => a.map(x => (x.querySelector('.ptitle h3') || {}).textContent + (x.querySelector('.ready') ? '(준비 중)' : ''))));
+  log('공통 층:', await p.$$eval('.layer', a => a.map(x => x.querySelector('h2').textContent + ' 부분 ' + x.querySelectorAll('.lpart').length)));
+  log('공통 3층 부분:', await p.$$eval('#common-o-L3 .lpart', a => a.map(x => (x.querySelector('.ptitle h3') || {}).textContent + (x.querySelector('.ready') ? '(준비 중)' : ''))));
   log('2층 글 그림 수:', await p.$$eval('#common-o-L2 pre.art', a => a.length), '셀프 테스트 답 접힘:', await p.$$eval('#common-o-L2 details.ans', a => a.length + '개, 열린 것 ' + a.filter(x => x.open).length));
   await p.click('#common-o-L2 details.ans summary'); await p.waitForTimeout(100);
   log('답 하나 펼침:', await p.$$eval('#common-o-L2 details.ans[open]', a => a.map(x => x.textContent.slice(0, 50))));
