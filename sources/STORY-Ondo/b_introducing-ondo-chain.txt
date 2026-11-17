@@ -1,0 +1,163 @@
+chain Network for RWAs | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+In this article
+Current Barriers
+Ondo Chain Overview
+Features
+Comparison with Other Solutions
+Use Cases
+Future State
+The Future of Capital Markets, Onchain
+Announcement • Feb 6, 2025 • 11 min
+Introducing Ondo Chain: The Omnichain Network for RWAs
+Ondo Finance
+Official Blog
+Bringing capital markets onchain promises global accessibility, round-the-clock liquidity, and unprecedented financial innovation. In a 
+recent post
+, we discussed how our Ondo Stocks platform is being designed to fulfill that promise. However, as we began fleshing out the design of Ondo Stocks* over the past year and spent time with institutional partners like broker-dealers, we realized that today’s public blockchains just didn’t have the features and capabilities necessary to truly make this vision a reality.
+That’s why, over the past year or so, we’ve been working hard to develop not only the Ondo Stocks platform but also the infrastructure to support it. Today, after months of work, we’re excited to finally be able to share more detail about our solution to these challenges:
+Ondo Chain, our new L1 blockchain purpose-built for institutional-grade RWAs.
+In this post, we lay out what we see as the biggest infrastructure barriers to enabling widespread use of tokenized securities, explain how Ondo Chain addresses these issues, and discuss some of the benefits and use cases that this will enable, ultimately paving the way for a more open, efficient, and inclusive financial system.
+Current Barriers
+There are several infrastructure barriers that need to be addressed to enable Ondo Stocks and other efforts to create and use tokenized regulated securities at scale:
+Incompatibility with DeFi.
+ DeFi was not built with public securities in mind. Bringing public securities onchain in a way that is compatible with DeFi presents many obstacles, particularly related to corporate actions, such as forward and reverse stock splits, which can have a dramatic impact on the price of an asset. In TradFi, investors are compensated by receiving more or fewer shares (similar to an onchain rebase), but this method does not work well for most DeFi implementations. Oracle design for thousands of public securities also requires a new scalable approach to bring data onchain in a secure and economical fashion.
+Cross-Chain Liquidity Fragmentation.
+ Onchain capital and users are increasingly multichain, necessitating the need to issue RWAs across chains. However, issuance across chains fragments liquidity and increases the complexity of asset management for any asset issuer. In turn, this increases the importance of bridging, but opens the asset issuer up to significant risks. Bridging adds new points of failure in the system, such as erroneous token mints on a compromised chain or a bridge hack. Cross-chain messaging for omnichain asset issuance, management and distribution needs institutional grade bridging security - reliance on a single bridging provider is not tenable.
+High (and Often Volatile) Transaction Fees
+. On many proof-of-stake blockchains, transaction fees are often paid with the network's native token (e.g. ETH on Ethereum). Because the price of this token can be volatile, the cost to complete a transaction can sometimes be quite high. Compounding this issue, on many chains this same token is also the same one staked by validators to ensure network security. Since validators bear risk by doing this (since these volatile tokens could easily lose value while staked), validators require compensation for doing so; this compensation must be paid by the network from money earned from the transaction fees it charges, further increasing transaction costs.
+Inadequate Network, Bridging, and Protocol Security.
+ The dynamics described in the previous point often make network security expensive. Relying solely on a native token to secure a network that has a high total value of RWAs issued on it is also risky: on average, RWA volatility is significantly lower than crypto volatility, so during bear markets the network security can quickly fall below the required threshold. The same is true for any dApp, oracle, or bridge that holds meaningful RWAs, but is secured by its native token. Institutional-grade onchain capital markets require a more stable and robust security model.
+Institutional Regulatory Concerns.
+ In order to bring this new world to fruition, we must have traditional asset managers participate. But many regulated institutions are precluded from transacting on public blockchains, limiting the capital flows into the onchain ecosystem. While regulation differs by country, many concerns relate to an inability to hold or transact crypto assets (making it challenging to pay gas fees and run nodes) and the risk of malicious MEV or being “front run”, as many most broker-dealers need to guarantee “best execution” for their clients. To bring institutional-grade capital markets onchain, institutions need to have their legal and regulatory concerns addressed.
+Historically, many of these issues, such as network security and institutional restrictions have been addressed through the use of permissioned blockchains where all validators are known entities and the entire system is closed. However, it is precisely the closed-off nature of these networks that nullifies what we see as one of the most compelling promises of blockchain technology: an open, global, and transparent financial system that can be accessed permissionlessly by developers and investors alike. What’s needed is a solution that combines the best of public 
+and
+ permissioned chains while addressing all the issues above. Ondo Chain has been designed from the ground up to do exactly this.
+Ondo Chain Overview
+Ondo Chain is a Layer 1 proof-of-stake blockchain purpose-built to accelerate the creation of institutional-grade financial markets onchain. By combining the openness of public blockchains with the compliance and security features of permissioned chains, Ondo Chain provides the infrastructure to enable tokenized real-world assets to be used at scale.
+Ondo Chain will provide native support for tokenized RWAs, such as Ondo Stocks-issued tokens, ensuring they are seamlessly integrated into all aspects of the blockchain's functionality and ecosystem. RWAs like Ondo Stocks tokens will be used to secure the network, the oracles, and the bridges. Ondo Stocks tokens will have their collateral verified on an ongoing basis by the Ondo Chain validator nodes. The Ondo Chain DeFi ecosystem will be designed to support corporate actions and other unique requirements imposed by RWAs. And finally, Ondo Stocks tokens can natively be used for margin, sourced in traditional finance or DeFi.
+In addition, Ondo Chain will enable asset managers to create omnichain RWAs and manage them effectively. Ondo Chain has been designed for a multichain world, providing institutional-grade security for cross-chain messaging and bridging, allowing it to act as a hub connecting assets and applications across other public and private blockchains.
+Features
+Institutional-Grade Network Security via RWAs:
+ Ondo Chain validators will be able to stake any eligible asset(s) as decided upon by chain-level governance. We anticipate Ondo Chain will support the staking of Ondo Stocks tokens and other high quality liquid assets. By supporting staking of existing assets that are widely held and already pay a yield, particularly RWAs, Ondo Chain can achieve high security at a relatively low cost to validators, while offering additional yield opportunities (e.g. from transaction fees) on top of these otherwise idle but yield-bearing assets. Requiring validators to stake exogenous assets to align incentives is analogous in principle to the way the National Securities Clearing Corporation (NSCC) requires broker-dealers to post high-quality collateral to ensure the integrity of the clearing and settlement process. In both cases, participants have strong incentives to behave properly or risk losing their collateral.
+Permissioned Validators:
+ To uphold integrity and compliance with institutional requirements, validators on Ondo Chain will be permissioned and subject to continuous monitoring, specifically to mitigate their engagement in malicious MEV. This setup creates a fair and secure environment for all participants and makes Ondo Chain suitable for institutions who often can’t pay transaction fees to unknown validators and who, in certain contexts, must provide best execution for and prevent front-running of client transactions. By combining a permissioned validator set with RWA staking, institutional capital can be used to secure not only the network but also other critical components (e.g. bridges, oracles, etc.).
+Connectivity Into Institutional Networks.
+ A subset of Ondo Chain validators will be run by select financial institutions, allowing them to more easily connect Ondo Chain into their private networks and TradFi environments. This decreases latency for transactions involving assets at those institutions and enables access to additional assets and liquidity only available on their systems.
+Scalable and Secure Data Feeds via Enshrined Oracles:
+ Beyond validating blockchain transactions, in Ondo Chain, validators will also publish key offchain data—including asset prices, interest rates, market indices, and the like—ensuring that only accurate, trusted and real-time information is published onchain. This greatly reduces the risk of manipulation or errors that could impact the security or accuracy of onchain transactions, while improving scalability as the value of investments and the number of assets and key data points grows.
+Native Omnichain Messaging and Bridging:
+ Ondo Chain natively incorporates the 
+Ondo Bridge
+, making it possible to bridge tokens or pass general messages to other chains without being susceptible to the hacking or failure of any single third-party message protocol or blockchain. Primary security will be provided by the Ondo Chain validators that run their own decentralized verifier network (DVN), with 
+additional
+ DVNs used at higher transaction amounts. Ondo Chain will also make it easy for developers to create natively omnichain applications by acting as the ‘source of truth’ for key pieces of information (e.g. KYC status, sanction lists, collateral amounts, etc.) across supported chains.
+Enshrined Proof of Reserves and Collateral:
+ A subset of Ondo Chain validators will automatically verify directly with custodians or broker dealers that the balances of every RWA token as reported by the token minter are fully backed by the appropriate amount and type of underlying assets. This process mitigates risks of under-collateralization or misreporting, which can lead to insolvency or loss of user trust in the system. This approach shifts the responsibility from a single centralized minter to a distributed network of validators, increasing transparency and reducing the risk of fraud. By empowering validators to govern these processes, Ondo Chain can maintain a more secure, decentralized, and transparent issuance of tokenized assets, fostering greater confidence among institutional and retail participants alike.
+Open Access and Development.
+ Although validators on Ondo Chain will be permissioned, the rest of the chain will be open, allowing anyone to issue tokens, develop apps, or act as a user or investor. User identification and permissions will be core features of Ondo Chain, allowing asset issuers and application developers to implement permissioning and transfer restrictions at a contract level where appropriate.
+Native DeFi Support for RWAs:
+ Developers will be able to easily develop DeFi apps with full, native support for RWAs, enabling them to be used for borrowing, lending, and staking.
+Institutional-Grade Governance:
+ The governance of Ondo Chain will be decentralized, with stakeholders selecting permissioned governance committee members, who will include financial institutions acting as permissioned validators on Ondo Chain. This two-tier governance structure ensures that the platform aligns with the community's interests and remains adaptable to the evolving blockchain landscape. We believe that Ondo Chain should be governed by and act as an industry utility for those who use it the most. This is not dissimilar to how institutional utilities like the DTCC are self-governing and for-profit but also initialized by and owned primarily by those who use it the most. In the case of Ondo Chain, users include not just large institutions but also global individuals.
+Through these features, Ondo Chain will provide infrastructure purpose built for the tokenization of RWAs while catering to the comprehensive needs of both traditional and crypto-native investors. By combining the strengths of public and permissioned blockchains, Ondo Chain aims to foster a thriving ecosystem where the potential of tokenized RWAs is fully realized.
+Comparison with Other Solutions
+Ondo Chain builds on almost a decade of lessons from the industry regarding the use of blockchain technology in regulated financial applications. It combines elements of permissioned enterprise blockchains, public blockchains, and bridging technology to create infrastructure for enabling institutional-grade financial markets to migrate onchain.
+Compared to most public, permissionless chains
+, Ondo Chain:
+Is uniquely focused in its ecosystem and incentives around the use of (liquid) RWAs in DeFi.
+Enables regulated institutional participation and seamless connectivity into TradFi liquidity.
+Prevents front-running and enhances investor protections by allowing only known, permissioned entities to run validators.
+Is secured by a basket of high-quality liquid exogenous assets, improving security while reducing costs.
+Enables gas fees to be paid in RWAs, enhancing UX and enabling regulated institutions to transact onchain.
+Compared to permissioned, enterprise chains
+, Ondo Chain:
+Allows open access, use, and development.
+Enables the development of an open, robust DeFi ecosystem across asset classes (including crypto).
+Enables native bridging to other chains.
+Eliminates silos and connects liquidity venues.
+Expands access to high-quality RWAs to investors across the world.
+Compared to stand-alone bridging solutions
+, Ondo Chain:
+Is an L1 chain with its own state and logic.
+Is secured by institutional participants and staked RWAs.
+Has native integrations into TradFi networks that enable lower cost and latency while enabling real-time liquidity.
+Use Cases
+As mentioned, Ondo Chain has been designed with the explicit goal of supporting institutional-grade financial markets onchain. When complete, here are just some of the use cases we expect Ondo Chain to enable:
+Prime Brokerage.
+ Access margin on both RWAs and crypto (including with cross-collateralization) from both onchain and off-chain sources at competitive rates. Buy and sell from broker-dealers obligated to provide best execution, and receive competitive securities lending rates when you loan out your assets.
+Staking and Collateral
+. Easily stake tokenized RWAs like Ondo Stocks assets on Ondo Chain to enhance chain security and receive rewards. Post as collateral for borrowing and other uses.
+Onchain Wealth Management.
+ Easily build and/or utilize onchain asset management strategies, including automatic 24/7 portfolio rebalancing across crypto, stocks, bonds, and ETFs.
+Cross-Chain Token Issuance.
+ Issue tokens that automatically work on multiple chains. Set conditions that must be met for bridging to take place. Manage and administer the assets seamlessly across chains.
+Stablecoin Distribution and Yield.
+ Distribute stablecoins secured by tokenized securities across various supported blockchains and easily track minting and yield attribution.
+Bootstrapping Other Networks and Protocols
+: Use restaked Ondo Chain RWAs to secure a new chain or protocol while the native token and network matures.
+Future State
+If we are successful, we believe that creating Ondo Chain will have the following benefits that could not be achieved with any existing blockchains:
+A Seamless and Cost-Effective Investor Experience
+By tightly coupling onchain and off-chain infrastructure, we can eliminate the need for fragmented solutions for oracles, bridging, chain security, and more. With Ondo Chain, validators will provide 
+all
+ these functions, reducing costs and enhancing security. Additionally, certain critical operations, such as token minting upon confirmation of a securities purchase on a traditional exchange, benefit from the lowest possible latency and risk when the broker-dealers themselves act as validators.
+Attracting Traditional Distribution Partners and Asset Suppliers
+Tokenizing securities and other RWAs on a "public permissioned" chain—operated by financial institutions themselves—provides the trust, compliance, and institutional familiarity needed to onboard broker-dealers and asset managers. This alignment creates the network effects and broad adoption required to make onchain capital markets a viable evolution of traditional finance.
+Unified Focus and Incentive Alignment
+A dedicated ecosystem built around RWAs in DeFi allows for concentrated development of wallets, protocols, and applications tailored to the unique needs of financial markets. This unified focus fosters innovation, maximizes utility, and ensures that every participant in the ecosystem is aligned and incentivized to advance the use of tokenized assets.
+Ondo Chain represents our commitment to combining the best of DeFi with the best of TradFi. By addressing the fundamental barriers to onchain capital markets, it creates the foundation for a truly open, accessible, and efficient financial system.
+The Future of Capital Markets, Onchain
+We believe that Ondo Chain represents a significant step forward in the evolution of institutional-grade blockchain infrastructure. By combining the openness of public blockchains with the compliance and security features of permissioned chains, Ondo Chain bridges the gap between traditional and decentralized finance, creating an ecosystem where participants can leverage the best of both worlds.
+By enabling seamless interaction between tokenized assets, DeFi protocols, and traditional market participants, Ondo Chain paves the way for transformative use cases like cross-chain asset issuance, enhanced capital efficiency through better borrowing and lending mechanisms, and new opportunities to generate yield from tokenized real-world assets. These use cases, along with others, provide incentives for institutions to begin participating more actively on public blockchains while providing individuals with access to financial tools traditionally reserved for large-scale investors. Together, these advancements will create a more integrated, dynamic, and inclusive financial ecosystem, setting the stage for the widespread adoption of onchain capital markets.
+As we move forward, we invite developers, asset managers, and other market participants to join us in shaping this new ecosystem. Together, we can unlock the full potential of tokenized assets and enable a financial system that is more efficient, secure, and accessible to all.
+Next
+USDY
+•
+Feb 5, 2025
+USDY Goes Live on BitGo's Go Network: Bringing Yield to Institutional Balances
+Ondo Stocks
+•
+Feb 4, 2025
+Ondo Stocks: Wall Street, Meet DeFi
+Invest
+USDY
+OUSG
+Ondo Stocks
+Intelligent Portfolios
+Private Markets
+Infrastructure
+Ondo Network
+Bridge
+Converter
+Resources
+Insights
+Blog
+Learn
+Partners
+Ecosystem
+Foundation
+Flux Finance
+Explore
+Docs
+Trust & Security
+Bug Bounty
+Company
+Team
+Careers
+Media Kit
+Contact Us
+Media Inquiries
+Ondo © 
+2026
+Terms of Service
+Privacy Policy

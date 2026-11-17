@@ -1,0 +1,49 @@
+
+Institutions Can Now Convert Underlying Shares To Ondo Stocks | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+Case Study • Sep 21, 2026 • 3 min
+Institutions Can Now Convert Underlying Shares To Ondo Stocks
+Ondo Finance
+Official Blog
+Ondo Stocks now supports in-kind conversion between underlying shares and tokenized stocks and ETFs, adding a new primary market route alongside Ondo’s existing cash-funded flow. The functionality works through 
+Ondo Stocks
+ and Alpaca’s 
+Instant Tokenization Network (ITN)
+, enabling approved institutions to contribute existing shares to mint the corresponding Ondo Stocks tokens, or redeem tokens to receive the underlying shares. Inventory that institutions already hold can now become onchain liquidity in just a few clicks. The end result is tighter spreads and deeper liquidity for Ondo Stocks across secondary markets.
+How It Works: Conversion Between Underlying Shares and Tokenized Stocks
+The integration is designed to automate the conversion process without a manual approval step for each transaction, helping institutions move quickly between traditional share inventory and tokenized positions.
+When an approved institution requests a mint, the underlying shares move from its Alpaca account into Ondo’s Alpaca account through an internal book transfer. The corresponding Ondo Stocks tokens are then issued on the supported blockchain. Redemption reverses that process. The institution redeems Ondo Stocks tokens and receives the corresponding underlying shares in its Alpaca account.
+Key details:
+Eligibility:
+ Access is limited to approved institutions on Alpaca and granted case by case. ITN is not a generally available Ondo Stocks feature.
+Account requirements:
+ Institutions must have active accounts with both Ondo and Alpaca and complete the applicable onboarding and approval requirements. Interested institutions should contact both Ondo and Alpaca to request activation.
+Supported networks:
+ Conversions are live now on Ethereum and BNB Chain.
+Why It Matters: Increasing Secondary Market Liquidity
+Ondo Stocks already connects tokenized stocks and ETFs to the liquidity of traditional markets such as Nasdaq and the NYSE through its just-in-time minting and redemption model. This integration builds on that foundation by making it more capital-efficient for institutions to supply liquidity across secondary markets.
+Under the cash-funded model, a purchaser that already holds the underlying shares must source separate cash to mint tokens, potentially adding financing costs and a timing mismatch between its share inventory and tokenized positions. With Ondo Stocks connected to Alpaca’s ITN, institutions can use those shares directly. Reducing that friction makes it easier for market makers to replenish token inventory, manage exposure, and respond to demand across trading venues, meaning institutional capital becomes a more readily
+available source of tokenized stock liquidity in secondary markets.
+Ultimately, this improves trading conditions for Ondo Stocks in secondary markets. More efficient liquidity provision can support tighter spreads and greater depth across connected exchanges, wallets, and DeFi applications in the Ondo Stocks ecosystem.
+Next
+Ondo Stocks
+•
+Sep 16, 2026
+DTCC's Fund/SERV Adds Ondo Finance as Its First Tokenization Member, Bringing Tokenized Funds Into the Mainstream
+Announcement
+•
+Sep 2, 2026
+Open Markets by Design
+Ondo © 
+2026
+Terms of Service
+Privacy Policy

@@ -1,0 +1,73 @@
+
+Open Markets by Design | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+Announcement • Sep 2, 2026 • 1 min
+Open Markets by Design
+Ondo Finance
+Official Blog
+Ondo recently filed three comment letters with the SEC and CFTC on perpetual futures, portfolio margining, and market data. They address different rules, but they make the same basic point: technology can now solve important market structure problems directly. Regulation should focus on whether those solutions work, rather than requiring new systems to recreate the old ones.
+That matters because many familiar market conventions reflect the technology available when they were created. They are implementations, not ends in themselves, but over time they may take on a life of their own.
+Our three letters look at three examples:
+Product design:
+ Traditional futures use expiration to drive convergence. Perpetuals can achieve convergence continuously through funding and mark-to-market requirements. Existing security futures law already has room for that design.
+Risk:
+ Traditional margin frameworks were built around slower settlement and less observable positions. Modern infrastructure can settle exposure more frequently and measure related positions and collateral more directly. Margin rules should follow the risk that actually exists and recognize the improved processes for measuring it in real time.
+Data:
+ Traditional reporting systems reconstruct activity across separate private records. Onchain and attested infrastructure can create a shared, verifiable record as part of the transaction itself. Regulators should be able to use that record rather than require a second system to reproduce it.
+The products and technologies Ondo designs are built to work well and safely in public blockchain environments. The less control you assume over what happens at the edges, the more carefully the core has to be designed. Once those foundations are in place, products and participants can connect in ways no single company or regulator needs to prescribe.
+That’s the opportunity in front of the SEC and CFTC. The regulatory objectives still matter. But the technology available to achieve them has changed for some products, like Ondo Perps, so the means for achieving them can change too. We don’t need new rules or guidance for that.
+There is also a competitive aspect to this. Ondo believes there is something backwards about perps on U.S.-listed stocks trading entirely offshore. Bringing that activity back to the U.S. should not be an open question; it’s something both agencies should actively pursue by applying their stated priorities to a case that fits them especially well.
+Read Ondo’s comments to the SEC and CFTC on:
+Product Definitions
+Portfolio Margining
+Data Reporting
+Next
+Announcement
+•
+Aug 28, 2026
+Ondo Finance Hires Allison Parent, Former GFMA Executive Director and Barclays Global Policy Head, as Chief Policy Officer
+USDY
+•
+Aug 27, 2026
+USDY Is Now Live on Tempo
+Invest
+USDY
+OUSG
+Ondo Stocks
+Intelligent Portfolios
+Private Markets
+Infrastructure
+Ondo Network
+Bridge
+Converter
+Resources
+Insights
+Blog
+Learn
+Partners
+Ecosystem
+Foundation
+Flux Finance
+Explore
+Docs
+Trust & Security
+Bug Bounty
+Company
+Team
+Careers
+Media Kit
+Contact Us
+Media Inquiries
+Ondo © 
+2026
+Terms of Service
+Privacy Policy

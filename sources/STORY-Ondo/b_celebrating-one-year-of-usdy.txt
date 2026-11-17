@@ -1,0 +1,123 @@
+
+Celebrating One Year of USDY | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+In this article
+Expanding Utility: From Protocols to Payments
+Beyond Stablecoins: Utility, Safety, and Access
+The Look Ahead: Reshaping the Onchain Economy
+USDY • Aug 26, 2024 • 5 min
+Celebrating One Year of USDY
+Ondo Finance
+Official Blog
+One year ago we launched USDY, US Dollar Yield token, the world’s first permissionless, yield-bearing tokenized note secured by US Treasuries. In that time, it has grown to become the world’s leading permissionless yieldcoin and achieved several significant milestones:
+📈  
+350m+ TVL
+🌐  
+7 Natively supported blockchains
+🤝  
+70+ Ecosystem projects integrated USDY
+We are particularly proud of the rapid adoption USDY has seen across blockchains and Decentralized Finance (DeFi). The USDY 
+ecosystem
+ has expanded to over 70 projects across 7 blockchains: 
+Ethereum
+, 
+Solana
+, 
+Aptos
+, 
+Sui
+, 
+Mantle
+, 
+Mantra
+, and Cosmos via 
+Noble
+. For many of these chains, Ondo’s USDY was the first native tokenized real-world asset, and introduced new use cases for users and developers in these ecosystems. 
+Cross-chain expansion has catalyzed USDY’s TVL growth, from $0 to over 
+$350m in TVL
+ in one year, becoming the market-leading permissionless yieldcoin. 
+Expanding Utility: From Protocols to Payments
+With USDY, we pioneered the next natural evolution of tokenized Real-World Assets (RWAs). USDY brought institutional-grade structuring and investor protections like 
+OUSG
+ (Ondo US Government Bond Fund), but now in a format accessible to global, non-US individual and institutional users. But it didn’t stop there. Other tokenized RWAs such as BlackRock’s BUIDL and Franklin Templeton’s Benji, while novel products, were not composable with DeFi or permissionless. With Ondo’s experience in traditional finance and institutional-grade products, we created an innovative breakthrough: USDY offered robust investor protections and yield while also being composable and permissionless. Neither stablecoins nor other yieldcoins offered all of these advantages.
+USDY can now be used across a variety of use cases, including, lending & borrowing, cash management, payments, and more, all while earning yield. USDY has demonstrated proven traction across these many use cases:
+Lending & Borrowing
+USDY can now be leveraged across multiple DeFi protocols as collateral while still earning yield. It can improve liquidity pools by providing a natively yielding asset for trading pairs, serve as collateral on money markets for capital efficient borrowing and lending, and as collateral for derivatives. USDY recently launched on 
+Drift
+, marking the first time that yieldcoins could be used as collateral for margin trading and perpetual contracts. This enables traders to utilize the yield from USDY to offset funding costs, rather than covering these expenses out of pocket.
+Treasury Management
+USDY has seen growing demand from onchain treasuries. In July, the Arbitrum DAO voted to approve their STEP Committee's recommendation to diversify 6M ARB from the Arbitrum DAO Treasury into USDY, supporting adoption of RWAs on Arbitrum. USDY represented 17% of the 36B ARB total allocation, second only to Blackrock’s BUIDL fund. Ondo has since shared interest to participate in MakerDAO’s initiative to allocate funds into RWAs. Ondo Finance is excited at the opportunity to bring our high-quality RWAs to Maker and its users. It is a natural fit with our mission of bringing institutional-grade financial products and services to everyone. 
+Payments
+USDY created a breakthrough in onchain payments. With USDY, users and merchants can now make or settle payments with an asset that accrues yield, almost like paying with a savings account. That means merchants can now accrue interest on their balances by accepting USDY as a settlement method. More and more projects have begun using USDY to push broader adoption of crypto payments:
+Helio
+, a leading crypto payments platform on Solana with over 450,000 unique active wallets and 6,000 merchants, integrated USDY as a native payment option. With its Solana Pay plugin, millions of Shopify merchants can settle payments in cryptocurrencies, with real-time conversions to USDY and a select group of stablecoins, such as USDC, EURC and PYUSD. 
+Sphere
+, a payment technology provider on Solana, integrated USDY to enable merchants in emerging markets to conduct secure, cost-effective, and near-instantaneous cross-border payments while having access to US Treasuries backed yield.
+Beyond Stablecoins: Utility, Safety, and Access
+USDY has built upon the innovation of stablecoins while addressing their critical drawbacks. As onchain capital holders become more sophisticated, they realize that tokenized treasuries like USDY offer benefits over traditional stablecoins.  USDY is designed to combine the accessibility and utility of a stablecoin with daily yield and institutional-grade investor protections. As of today, USDY provides yields up to 5.35% APY and offers institutional-grade investor protections that are common in traditional finance, such as bankruptcy remote design. In summary, USDY offers a number of benefits:
+Permissionless
+USDY can be transferred peer-to-peer without intermediaries, as well as be used for payments.
+Yield-bearing
+USDY offers daily accruing yield, providing interest on idle balances.
+Composable
+USDY can be used in Decentralized Finance (DeFi), letting holders earn yield while using USDY as collateral for onchain borrowing, lending, margin trading, perpetuals and more.
+Safety
+USDY is designed for bankruptcy remoteness, is backed by US Treasuries, and provides token holders the benefit of a security interest in the collateral.
+Widely Available
+USDY is available in over 100 countries and supported by the most widely-used blockchains and DeFi projects globally, including Solana, Ethereum, Aptos, Sui, Mantle, Mantra, and Noble
+The Look Ahead: Reshaping the Onchain Economy
+USDY represented a material advance in the tokenization of RWAs, combining the global accessibility and utility of stablecoins with the investor protections, yield, and transparency of traditional institutional finance. We will continue to build on this incredible momentum, expanding access to USDY into new geographies, embedding USDY as the default savings account in emerging markets, and exploring exciting new use cases across staking, payments, collateral, and more. This is just the beginning of our mission to make institutional-grade assets available to everyone.
+⚠️ NOTE: USDY is not, and may not be, offered, sold, or otherwise made available in the US or to US persons. USDY has not been registered under the US Securities Act of 1933, a amended ("Act") or pursuant to securities laws of any other jurisdiction, and may not be offered, sold or otherwise transferred in the US or to US persons unless registered under the Act or an exemption or exclusion from the registration requirements thereof is available. Additional restrictions may apply. Ondo USDY LLC, the issuer of USDY, is not registered as an investment company under the US Investment Company Act of 1940, as amended. Nothing herein constitutes any offer to sell, or any solicitation of an offer to buy, USDY. Acquiring USDY involves risks. A USDY holder may incur losses, including total loss of their purchase price. Past performance is not an indication of future results.
+Ondo does not endorse, Ondo does not make any representation or warranty whatsoever (express or implied, including but not limited to any warranty of merchantability, fitness for a particular purpose or non-infringement) regarding, and ONDO SHALL NOT HAVE ANY LIABILITY WHATSOEVER WITH RESPECT TO ANYONE'S USE OF, any third-party products, services or technologies referenced herein. Additional terms apply. Visit 
+http://ondo.finance/usdy
+ for details.
+Next
+USDY
+•
+Aug 21, 2024
+Bridging the Gap: Bringing Institutional-Grade Investor Protections Onchain
+USDY
+•
+Aug 5, 2024
+Case Study: Bringing Utility to Payments with USDY
+Invest
+USDY
+OUSG
+Ondo Stocks
+Intelligent Portfolios
+Private Markets
+Infrastructure
+Ondo Network
+Bridge
+Converter
+Resources
+Insights
+Blog
+Learn
+Partners
+Ecosystem
+Foundation
+Flux Finance
+Explore
+Docs
+Trust & Security
+Bug Bounty
+Company
+Team
+Careers
+Media Kit
+Contact Us
+Media Inquiries
+Ondo © 
+2026
+Terms of Service
+Privacy Policy
