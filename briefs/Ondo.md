@@ -1,6 +1,6 @@
 # Ondo 브리핑
-- 축 : 경쟁 거래소까지 유통처로 삼고 자신은 발행에만 집중
-- 가설 : 1등 집중, 자기 거래소 없이 발행만 하고 판매는 남의 거래소와 지갑에 맡김
+- 축 : 경쟁 거래소까지 유통처로 삼아 발행 중심으로 키웠고, 2026-07 Ondo Perps로 자체 거래 플랫폼에 진출하기 시작
+- 가설 : 1등 집중(발행), 2026-07부터 거래로 확장 시작
 
 ## 스토리라인
 
@@ -28,14 +28,14 @@
   - 처음 계획은 증권사 계좌 주식에 대한 주문 지시를 토큰으로 주고, 토큰은 Ondo 고객끼리만 옮길 수 있는 허가형 방식이었음 [F-1447](https://ondo.finance/blog/introducing-ondo-global-markets)
   - 2025-02 개발자, 전통 금융 파트너, 전현직 정부 관계자와 협의한 뒤 스테이블코인처럼 미국 밖에서 자유롭게 옮길 수 있는 토큰으로 바꿈. 구호는 "스테이블코인이 달러에 한 일을 증권에 한다" [F-1449](https://ondo.finance/blog/global-markets)
   - 해석 : 이 변경이 남의 거래소와 지갑에 상장하는 유통 방식을 가능하게 함. 허가형 토큰은 Ondo 고객끼리만 옮길 수 있어 거래소가 받아서 팔기 어렵기 때문 [F-1447](https://ondo.finance/blog/introducing-ondo-global-markets)[F-1450](https://ondo.finance/blog/global-markets)
-- 자기 거래소 없이 남의 거래소와 지갑에 공급하는 이유
+- 현물 주식 토큰을 자기 거래소 대신 남의 거래소와 지갑에 공급하는 이유
   - 회사가 밝힌 이유 : 2024-02부터 가상자산 거래소와 핀테크가 자기 고객에게 토큰을 제공하는 것을 유통 방식으로 내세웠고, 2025-02에는 지갑, 프로토콜, 거래소가 이용자에게 처음으로 전통 증권을 줄 수 있고 토큰은 특정 플랫폼에 묶이지 않는다고 설명함 [F-1448](https://ondo.finance/blog/introducing-ondo-global-markets)[F-1450](https://ondo.finance/blog/global-markets)
   - 약관도 Ondo가 거래 장소를 운영하지 않는 기술 제공자라고 명시함 [F-0527](https://docs.ondo.finance/legal/terms-of-service)[F-0525](https://docs.ondo.finance/legal/terms-of-service)
   - 출시 두 달여 전(2025-06) Ondo Stocks Alliance(토큰 증권 표준과 상호운용을 맞추는 연합)를 먼저 만들고 Bitget Wallet, Trust Wallet(가상자산 지갑 앱), Solana Foundation(Solana 블록체인 재단), 수탁사 BitGo, Fireblocks, 증권사 Alpaca를 들임 [F-1453](https://ondo.finance/blog/ondo-finance-global-markets-alliance)
   - 해석 : 거래소를 직접 두면 경쟁 거래소가 상품을 받지 않을 수 있으나, 발행만 하면 서로 경쟁하는 거래소들도 같은 토큰을 받을 수 있음. 실제로 경쟁 관계인 Bitget, OKX, Binance가 모두 Ondo 토큰을 받았기 때문 [F-1454](https://ondo.finance/blog/global-markets-is-live)[F-1125](https://ondo.finance/blog/tokenized-stocks-live-on-binance)
 - 유통처별로 얻은 것
   - 출시(2025-09) : Bitget Wallet, Trust Wallet, OKX Wallet(해외 대형 가상자산 거래소 OKX의 지갑), Gate(가상자산 거래소) 등이 첫날부터 지원했고 100종 이상으로 시작함 [F-1454](https://ondo.finance/blog/global-markets-is-live)
-  - Bitget(해외 대형 가상자산 거래소) : 2025-09 Bitget과 Bitget Wallet에서 100종 이상으로 시작해 98종을 더했고, 2026-03 중앙화 거래소 현물 시장에 처음 상장함. Bitget 공식 발표로는 Bitget 안 토큰화 주식 거래 중 Ondo 비중이 2025-12 초 약 73%에서 같은 달 후반 약 89%(Bitget 자체 집계, 산정 방식 비공개) [F-0202](https://cfotech.news/story/bitget-widens-ondo-tokenised-stocks-etfs-metals)[F-1455](https://ondo.finance/blog/ondo-global-markets-live-on-bitget)[F-1456](https://www.bitget.com/blog/articles/bitget-tokenized-stocks-etfs-ondo-expansion)
+  - Bitget(해외 대형 가상자산 거래소) : 2025-09 Bitget과 Bitget Wallet에서 100종 이상으로 시작해 98종을 더했고, 2026-03 중앙화 거래소 현물 시장에 처음 상장함. Bitget 공식 발표로는 Bitget 안 토큰화 주식 거래 중 Ondo 비중이 2025-12 초 약 73%에서 같은 달 후반 약 89%(Bitget 자체 집계) [F-0202](https://cfotech.news/story/bitget-widens-ondo-tokenised-stocks-etfs-metals)[F-1455](https://ondo.finance/blog/ondo-global-markets-live-on-bitget)[F-1456](https://www.bitget.com/blog/articles/bitget-tokenized-stocks-etfs-ondo-expansion)
   - Binance(세계 최대 가상자산 거래소) : 2025-10 BNB 체인(Binance 계열에서 출발한 블록체인) 상장으로 아시아, 중남미 지갑 이용자에게 닿았고, 2026-02 Binance Alpha(Binance 앱에서 신규 토큰을 소개하는 구역)와 Binance Wallet, 2026-03 Binance가 아부다비에서 운영하는 다자간거래시설(MTF)에 10종이 들어감. 회사는 ADGM(아부다비 국제금융센터) 체계에서 거래가 허용된 첫 디지털 증권이라고 주장함 [F-1052](https://ondo.finance/blog/global-markets-live-on-bnb-chain)[F-1125](https://ondo.finance/blog/tokenized-stocks-live-on-binance)[F-1457](https://ondo.finance/blog/ondo-digital-securities-trade-under-adgm-framework)
   - 그 결과 후발인데도 출시 약 4개월 만에 rwa.xyz 주식 토큰 잔액 1위가 됨(2026-01-16 4.6억 달러, 점유율 53.8%, 크립토슬레이트 보도). 2026-03 점유율은 약 58%(코인텔레그래프 보도) [F-1029](https://cryptoslate.com/tokenized-equities-approach-1b-as-institutional-rails-emerge/)[F-1032](https://cointelegraph.com/news/tokenized-stocks-surpass-1b-ondo-xstocks-dominate-sector)
   - 보유자 수 : 2026-03 3만 명 이상 → 2026-08 186,636명 → 2026-10 누적 보유자 45만 명 이상(모두 회사 발표, 출시 약 14개월). 같은 시기 MetaMask(지갑), Ledger(하드웨어 지갑), KuCoin, MEXC(가상자산 거래소)로 유통처를 더함 [F-1455](https://ondo.finance/blog/ondo-global-markets-live-on-bitget)[F-1390](https://www.prnewswire.com/apac/news-releases/ondo-stocks-surpasses-1-billion-in-value-as-ecosystem-surges-302852162.html)[F-1464](https://ondo.finance/blog/what-sets-ondo-stocks-apart)
@@ -44,7 +44,7 @@
   - Ondo 회사 발표 TVL(예치 총액)은 13억 달러(2026-10-27)로 집계 기준이 달라 rwa.xyz 값과 이어 붙이지 않음 [F-1466](https://ondo.finance/blog/ondo-stocks-live-on-robinhood-chain-and-uniswap)
   - 해석 : 이 방식의 한계로 봄. 유통처는 고객과 화면을 가진 쪽이라 수요가 확인되면 자기 상품으로 바꿀 수 있기 때문. Binance는 2026-06-01 미국 주식 직접 거래와 bStocks를 자기 고객에게 함께 붙였고, bStocks는 출시 약 4개월 만에 10억 달러를 넘김(회사 주장) [F-1198](https://www.aap.com.au/aapreleases/cision20260601ae72536/)[F-1287](https://www.prnewswire.com/news-releases/binances-bstocks-become-the-fastest-tokenized-equity-product-to-surpass-1-billion-in-assets-under-management-302909927.html)
   - 해석 : 다만 유통처를 잃은 것이 아니라 시장 1위 자리를 유통처의 자체 상품에 내준 것에 가까움. 2026-10에도 Binance Wallet과 Nest Exchange가 Ondo 유통처 목록에 있고, Ondo는 유통처를 경쟁사 Robinhood(미국 증권 앱)의 블록체인까지 넓히는 중이기 때문 [F-1464](https://ondo.finance/blog/what-sets-ondo-stocks-apart)[F-1466](https://ondo.finance/blog/ondo-stocks-live-on-robinhood-chain-and-uniswap)
-- 수익 구조 : 주식 토큰은 발행 수수료 없이 상환 0.05%, 이용자에게 제시한 견적가와 실제 매매가의 차이를 Ondo Stocks가 가짐. OUSG 운용보수 0.15%는 2027-01-01까지 면제. 회사 매출은 공개 없음 [F-0545](https://docs.ondo.finance/ondo-stocks/fees-and-taxes)[F-0546](https://docs.ondo.finance/ondo-stocks/fees-and-taxes)[F-1313](https://docs.ondo.finance/qualified-access-products/ousg/fees-and-taxes.md)
+- 수익 구조 : 주식 토큰은 발행 수수료 없이 상환 0.05%, 이용자에게 제시한 견적가와 실제 매매가의 차이를 Ondo Stocks가 가짐. OUSG 운용보수 0.15%는 2027-01-01까지 면제 [F-0545](https://docs.ondo.finance/ondo-stocks/fees-and-taxes)[F-0546](https://docs.ondo.finance/ondo-stocks/fees-and-taxes)[F-1313](https://docs.ondo.finance/qualified-access-products/ousg/fees-and-taxes.md)
   - 해석 : 수익이 발행과 상환 거래량에 붙어 있어 유통처가 많을수록 수익 기회가 늘어나는 구조임 [F-0546](https://docs.ondo.finance/ondo-stocks/fees-and-taxes)
 
 ### 3. 비전: 금융시장을 온체인으로, 발행 플랫폼은 한두 곳으로 모인다는 전망
@@ -53,35 +53,34 @@
   - 2026-05 창업자 사망 뒤 CEO가 된 Ian De Bode는 미션과 로드맵이 그대로라고 밝힘 [F-0207](https://forklog.com/en/power-struggle-emerges-at-ondo-finance-following-founders-death/)[F-1468](https://ondo.finance/blog/onward-remembering-nathan-allman-and-the-road-ahead)
 - 기둥별 실현
   - 자산(Global Markets, 현 Ondo Stocks) : 실현됨. 2025-09 100종으로 출시, 다만 "연말 1,000종" 목표는 2026-11 450종 이상으로 미달 [F-1454](https://ondo.finance/blog/global-markets-is-live)[F-0477](https://ondo.finance/ondo-stocks)
-  - 인프라(Ondo Chain) : 이름 그대로는 접음. 2025-02 자체 L1(독자 블록체인)을 발표했으나 메인넷 없이 2026-07 Ondo Network(실행 계층)로 바꿈. 이유는 병목이 정산이 아니라 거래 실행 속도와 비공개였기 때문 [F-1213](https://ondo.finance/blog/introducing-ondo-chain)[F-0536](https://docs.ondo.finance/legal/ondo-summit-terms/keynote-disclaimers)[F-1467](https://ondo.finance/blog/introducing-the-ondo-network)
+  - 인프라(Ondo Chain) : 이름 그대로는 접음. 2025-02 자체 L1(독자 블록체인)을 발표했으나 메인넷 없이 2026-07 Ondo Network(실행 계층)로 바꿈. 이유는 병목이 정산이 아니라 거래 실행(속도와 거래 정보 보호)이었기 때문 [F-1213](https://ondo.finance/blog/introducing-ondo-chain)[F-0536](https://docs.ondo.finance/legal/ondo-summit-terms/keynote-disclaimers)[F-1467](https://ondo.finance/blog/introducing-the-ondo-network)
   - 해석 : Ondo Chain은 이름뿐인 기둥이 됐으나 인프라 기둥 자체는 Ondo Network로 가동 중임. Ondo Network 위에서 Ondo Perps가 실제로 돌아가기 때문 [F-1467](https://ondo.finance/blog/introducing-the-ondo-network)
   - 생태계 : 실현 중. 2025-06 Alliance, 회사 생태계 페이지의 파트너 189곳 [F-1453](https://ondo.finance/blog/ondo-finance-global-markets-alliance)[F-0474](https://ondo.finance/ecosystem)
 - 2026-06 이후 방향 : 발행 위로 "거래, 프라임 브로커리지, 자산관리 층으로 올라간다"고 밝힘 [F-1468](https://ondo.finance/blog/onward-remembering-nathan-allman-and-the-road-ahead)
   - 거래 : Ondo Perps(미국 주식, ETF 무기한선물, 최대 20배, 미국 밖 전용) 2026-02 발표, 2026-07 출시 [F-1469](https://ondo.finance/blog/introducing-ondo-perps)[F-1467](https://ondo.finance/blog/introducing-the-ondo-network)
   - 자산관리 : Intelligent Portfolios(BlackRock이 Ondo용으로 만든 전략 기반 포트폴리오 3종, 기초는 Ondo Stocks) 2026-09, 비상장사 토큰 Private Markets 2026-10 [F-1324](https://ondo.finance/blog/introducing-ondo-intelligent-portfolios)[F-1153](https://ondo.finance/blog/introducing-ondo-private-markets)
-  - 해석 : Ondo Perps는 Ondo가 직접 운영하는 거래 플랫폼이라 "발행만 한다"에서 처음 벗어나는 지점임. 다만 현물 주식 토큰은 여전히 남의 거래소와 지갑이 판매함 [F-1469](https://ondo.finance/blog/introducing-ondo-perps)[F-1464](https://ondo.finance/blog/what-sets-ondo-stocks-apart)
-- 다른 회사와 차이 : Kraken(미국 가상자산 거래소)은 발행사 Backed(스위스 주식 토큰 발행 회사)를 인수해 xStocks(Backed가 발행하는 주식 토큰)를 자기 앱과 OKX 같은 다른 회사에 공급하고, Binance는 계열 발행사의 bStocks를 자기 거래소에 상장하며, Dinari(미국 주식 토큰 발행사)는 핀테크 앱에 API로 공급함. Ondo는 거래소 없는 발행사가 서로 경쟁하는 대형 거래소와 지갑 여러 곳에 동시에 공급함 [F-0139](https://www.payward.com/press-release/kraken-acquires-backed-xstocks-expansion)[F-1257](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)[F-1126](https://www.prnewswire.com/apac/news-releases/binance-exchange-launches-bstocks-tokenized-securities-11-backing-and-247-trading-302798969.html)[F-0332](https://dinari.com/business)
+  - 해석 : 2026-07 Ondo Perps 출시로 발행 중심 회사가 자체 거래 플랫폼에 진출하기 시작함. Ondo Perps는 Ondo가 직접 운영하는 거래 플랫폼이고, 현물 주식 토큰은 여전히 남의 거래소와 지갑이 판매하기 때문 [F-1469](https://ondo.finance/blog/introducing-ondo-perps)[F-1464](https://ondo.finance/blog/what-sets-ondo-stocks-apart)
+- 다른 회사와 차이 : Kraken(미국 가상자산 거래소)은 발행사 Backed(스위스 주식 토큰 발행 회사)를 인수해 xStocks(Backed가 발행하는 주식 토큰)를 자기 앱과 OKX 같은 다른 회사에 공급하고, Binance는 계열 발행사의 bStocks를 자기 거래소에 상장하며, Dinari(미국 주식 토큰 발행사)는 핀테크 앱에 API로 공급함. Ondo는 현물 주식 토큰을 자기 거래소 없이 서로 경쟁하는 대형 거래소와 지갑 여러 곳에 동시에 공급함 [F-0139](https://www.payward.com/press-release/kraken-acquires-backed-xstocks-expansion)[F-1257](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)[F-1126](https://www.prnewswire.com/apac/news-releases/binance-exchange-launches-bstocks-tokenized-securities-11-backing-and-247-trading-302798969.html)[F-0332](https://dinari.com/business)
   - 회사가 내세우는 상품 차이 : 미국 정규 거래소 유동성에 맞춰 즉시 발행, 상환해 온체인 유동성에만 기대는 경쟁 상품보다 큰 거래가 가능하고, 25종 이상은 24시간 7일 발행, 상환(회사 주장) [F-1465](https://ondo.finance/blog/what-sets-ondo-stocks-apart)
 
 ### 4. 시장: 미국 밖은 인가 없이 파트너 판매, EEA는 직접 승인, 미국은 인수
 - 미국 밖 전반 : 인가 없이 판매함. Regulation S(미국 밖 비미국인에게 파는 증권은 미국 공모 등록이 필요 없다는 규정)에 기대고, 발행 법인 소재지 BVI 금융서비스위원회 등록, 인가도 받지 않음. 각 나라 고객은 그 나라에서 영업하는 거래소와 지갑이 받음 [F-0560](https://docs.ondo.finance/ondo-stocks/legal-and-regulatory)[F-0528](https://docs.ondo.finance/legal/terms-of-service)[F-0190](https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf)[F-1464](https://ondo.finance/blog/what-sets-ondo-stocks-apart)
-- EEA(유럽경제지역) : 직접 승인을 받음. 리히텐슈타인 FMA(금융시장감독청)가 2025-11-11 기본 투자설명서를 승인하고 29개국에 통지해 개인 판매까지 가능해짐. 유효기간은 2026-11-11에 끝났고 갱신 승인 발표는 없음 [F-1240](https://www.fma-li.li)[F-1458](https://ondo.finance/blog/ondo-eu-regulatory-approval)[F-1127](https://docs.ondo.finance/ondo-stocks/important-notes)
+- EEA(유럽경제지역) : 직접 승인을 받음. 리히텐슈타인 FMA(금융시장감독청)가 2025-11-11 기본 투자설명서를 승인하고 29개국에 통지해 개인 판매까지 가능해짐. 유효기간은 2026-11-11에 끝남 [F-1240](https://www.fma-li.li)[F-1458](https://ondo.finance/blog/ondo-eu-regulatory-approval)[F-1127](https://docs.ondo.finance/ondo-stocks/important-notes)
   - 기관 쪽은 2026-04 360X(Deutsche Börse 그룹 계열 디지털자산 거래장)와 Clearstream(Deutsche Börse 그룹 결제, 보관 회사) 제휴로 유럽 증권사와 기관에 공급하고, EU 상장 종목도 더할 예정임 [F-1471](https://ondo.finance/blog/ondo-clearstream-360x-partner)
 - UAE : 현지 파트너가 맡음. Binance가 운영하는 Nest Exchange가 ADGM FSRA(아부다비 금융서비스감독청) 규제 아래 일부 종목 거래를 허용함 [F-0549](https://docs.ondo.finance/ondo-stocks/important-notes)[F-1457](https://ondo.finance/blog/ondo-digital-securities-trade-under-adgm-framework)
 - 미국 : Oasis Pro 인수로 판매 자격을 얻음
   - 그 전 : Ondo Stocks는 미국인과 미국 안 주문을 받을 수 없었음 [F-0190](https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf)
   - 왜 : 2025-07 인수 발표에서 미국 투자자를 위한 규제된 토큰 증권 생태계의 기반이라고 설명함. 증권사, ATS(증권거래소 밖에서 주식을 매매시키는 등록 거래 시설), 명의개서대리인(주주 명부 관리 회사) 세 자격을 한 번에 얻는 길이었음(The Block 보도) [F-1470](https://ondo.finance/blog/ondo-finance-to-acquire-oasis-pro)[F-1392](https://www.theblock.co/news/deals/2025-07-04-ondo-finance-to-acquire-us-regulated-broker-oasis-pro-for-tokenized-securities-expansion-361120)
-  - 어떻게 : 2025-10-07 완료, 금액 비공개. Oasis Pro Markets는 2009년 등록된 증권사이고 Oasis Pro는 스테이블코인 결제를 허가받은 초기 미국 ATS였음 [F-1216](https://ondo.finance/blog/ondo-acquires-oasis-pro)[F-0246](https://api.brokercheck.finra.org/search/firm/149420)[F-1470](https://ondo.finance/blog/ondo-finance-to-acquire-oasis-pro)
-  - 그 뒤 연 것 : 2026-02 SEC(미국 증권거래위원회)에 증권신고서 비공개 제출, 2026-07 Oasis Pro 명의개서대리인이 미국 보관형 IVV(BlackRock S&P 500 ETF), MU(Micron 주식) 토큰 첫 가동(Broadridge(미국 주주 의결권 중개 회사) 의결권 연동), 같은 달 FINRA(미국 증권업 자율규제기구) 승인으로 미국 기관과 개인에게 토큰 주식과 펀드를 팔고 1차 발행, 2차 거래 플랫폼을 운영할 수 있게 됨 [F-1460](https://ondo.finance/blog/ondo-global-markets-files-registration-statement-with-sec)[F-1128](https://ondo.finance/blog/ondo-launches-tokenized-securities-in-usa)[F-1462](https://ondo.finance/blog/finra-authorizations-to-offer-tokenized-equities)
+  - 어떻게 : 2025-10-07 완료. Oasis Pro Markets는 2009년 등록된 증권사이고 Oasis Pro는 스테이블코인 결제를 허가받은 초기 미국 ATS였음 [F-1216](https://ondo.finance/blog/ondo-acquires-oasis-pro)[F-0246](https://api.brokercheck.finra.org/search/firm/149420)[F-1470](https://ondo.finance/blog/ondo-finance-to-acquire-oasis-pro)
+  - 그 뒤 연 것 : 2026-02 SEC(미국 증권거래위원회)에 증권신고서 기밀 제출, 2026-07 Oasis Pro 명의개서대리인이 미국 보관형 IVV(BlackRock S&P 500 ETF), MU(Micron 주식) 토큰 첫 가동(Broadridge(미국 주주 의결권 중개 회사) 의결권 연동), 같은 달 FINRA(미국 증권업 자율규제기구) 승인으로 미국 기관과 개인에게 토큰 주식과 펀드를 팔고 1차 발행, 2차 거래 플랫폼을 운영할 수 있게 됨 [F-1460](https://ondo.finance/blog/ondo-global-markets-files-registration-statement-with-sec)[F-1128](https://ondo.finance/blog/ondo-launches-tokenized-securities-in-usa)[F-1462](https://ondo.finance/blog/finra-authorizations-to-offer-tokenized-equities)
   - 기관 인프라 연결 : 2026-07 DTC(미국 중앙예탁기관) 토큰화 권리로 뒷받침한 CRCLon, SPYon, 2026-10 DTCC(DTC 모회사) 토큰화 서비스 개시 생태계 참여 [F-1463](https://ondo.finance/blog/dtcc-tokenization-service-is-live)
-  - 미국 개인 판매 규모와 증권신고서 효력 발생은 공개 없음 [F-1460](https://ondo.finance/blog/ondo-global-markets-files-registration-statement-with-sec)
   - 해석 : 인수 1년 만에 인가 위에 FINRA 승인, DTC 연결을 쌓아 미국 판매 준비를 갖춘 단계로 봄. 회사도 미국의 세 가지 토큰화 방식을 모두 지원하는 유일한 회사라고 주장함 [F-1461](https://ondo.finance/blog/ondo-global-markets-files-registration-statement-with-sec)[F-1462](https://ondo.finance/blog/finra-authorizations-to-offer-tokenized-equities)
 - 한국 : 현지 파트너 MOU 단계임. 카카오페이증권(카카오 계열 증권사) 한국 주식 해외 유통 MOU(2026-09), 미래에셋자산운용 ETF 토큰화 MOU. 상용화는 규제 검토에 달림. OUSG는 한국 거주자 제외 명시 [F-0204](https://koreaherald.com/article/10887648)[F-0205](https://en.bloomingbit.io/feed/news/123709)[F-1404](https://docs.ondo.finance/qualified-access-products/eligibility.md)
 - 자산 순서와 목표 : 미국 국채 → 미국 주식, ETF → 일본 주식(SBI Holdings(일본 금융그룹) 제휴, The Block 보도), 한국 주식(MOU), EU 상장 종목(Clearstream 보관, 예정) → 비상장사 [F-0487](https://ondo.finance/insights)[F-0204](https://koreaherald.com/article/10887648)[F-1471](https://ondo.finance/blog/ondo-clearstream-360x-partner)[F-1153](https://ondo.finance/blog/introducing-ondo-private-markets)
 
 ### 5. 정체성 변화와 당국 관계: 규제 밖 발행사에서 미국 인가를 가진 토큰화 증권 그룹으로
 - 변화 : DeFi 프로토콜(2021) → 국채 토큰 발행사(2023) → 미국 밖 주식 토큰 발행 플랫폼(2025) → 미국 증권사, ATS, 명의개서대리인과 거래 플랫폼까지 가진 그룹(2026) [F-1442](https://ondo.finance/blog/introducing-ondo-finance)[F-1150](https://ondo.finance/blog/announcing-tokenized-us-treasuries-and-bonds)[F-1454](https://ondo.finance/blog/global-markets-is-live)[F-1461](https://ondo.finance/blog/ondo-global-markets-files-registration-statement-with-sec)[F-1467](https://ondo.finance/blog/introducing-the-ondo-network)
-- 당국 : SEC의 수년간 비공개 조사가 기소 없이 종결됐다고 회사가 발표함(2025-12, SEC 확인문 없음). 두 달 뒤 SEC 공시 의무를 스스로 지겠다며 증권신고서를 냄 [F-1323](https://ondo.finance/blog/tokenized-securities-step-forward)[F-1460](https://ondo.finance/blog/ondo-global-markets-files-registration-statement-with-sec)
+- 당국 : SEC의 수년간 조사가 기소 없이 종결됐다고 회사가 발표함(2025-12). 두 달 뒤 SEC 공시 의무를 스스로 지겠다며 증권신고서를 냄 [F-1323](https://ondo.finance/blog/tokenized-securities-step-forward)[F-1460](https://ondo.finance/blog/ondo-global-markets-files-registration-statement-with-sec)
   - 해석 : 조사 대상에서 SEC 공시를 자청하는 발행사로 위치를 옮기는 중으로 봄. 조사 종결 발표 직후 신고서 제출과 FINRA 승인이 이어졌기 때문 [F-1323](https://ondo.finance/blog/tokenized-securities-step-forward)[F-1460](https://ondo.finance/blog/ondo-global-markets-files-registration-statement-with-sec)[F-1462](https://ondo.finance/blog/finra-authorizations-to-offer-tokenized-equities)
 
 ### 6. KSF: 경쟁 관계를 가리지 않고 큰 유통처에 동시에 공급함
@@ -90,13 +89,13 @@
 - 효과 : 후발인데도 앞섬. Dinari는 2023-08, Kraken xStocks와 Robinhood는 2025-06에 시작했고 Ondo는 2025-09 출시였으나 약 4개월 만에 rwa.xyz 잔액 1위(53.8%), Bitget 안 거래 비중 약 89% [F-0273](https://dinari.com/blog/7-5m-in-seed-investments-and-ex-us-launch-of-dshare-platform)[F-1040](https://blog.kraken.com/product/xstocks/tokenized-equities-now-available)[F-0221](https://www.marketsmedia.com/?p=144033)[F-1029](https://cryptoslate.com/tokenized-equities-approach-1b-as-institutional-rails-emerge/)[F-1456](https://www.bitget.com/blog/articles/bitget-tokenized-stocks-etfs-ondo-expansion)
 - 한계 : 2026-11-16 점유율 24.23%로 2위, 1위는 유통처였던 Binance의 자체 상품임 [F-1022](https://app.rwa.xyz/stocks)[F-1021](https://app.rwa.xyz/stocks)
 
-### 7. 가설: 발행에만 집중한 1등 집중, 이제는 위층으로 올라가는 중
+### 7. 가설: 발행에 집중한 1등 집중, 2026-07부터 거래로 확장 시작
 - 해석 : 1등 집중으로 봄
   - 2024-01부터 발행 플랫폼이 한두 곳으로 모인다고 보고 발행 한 가지에 집중함 [F-1444](https://ondo.finance/blog/ondos-journey-vision-achievements-and-the-path-forward)
-  - 판매 창구, 거래소를 두지 않고 유통은 파트너에게 맡김 [F-0527](https://docs.ondo.finance/legal/terms-of-service)[F-1464](https://ondo.finance/blog/what-sets-ondo-stocks-apart)
+  - 2026-07 Ondo Perps 전까지 판매 창구, 거래소를 두지 않고 유통을 파트너에게 맡김 [F-0527](https://docs.ondo.finance/legal/terms-of-service)[F-1464](https://ondo.finance/blog/what-sets-ondo-stocks-apart)
   - 그 결과 2026-01 회사 발표 기준 국채 토큰과 주식 토큰 두 분야 모두 1위였고(회사 주장), 2026-11 rwa.xyz 기준으로는 두 분야 모두 2위임 [F-1459](https://ondo.finance/blog/ondo-becomes-largest-tokenized-stock-treasury-provider)[F-1321](https://app.rwa.xyz/treasuries)[F-1022](https://app.rwa.xyz/stocks)
 - 해석 : 거래소가 아닌 발행사라는 특성이 확산 속도를 높임. 경쟁 거래소 입장에서 Ondo는 고객을 빼앗는 경쟁자가 아니라 상품 공급자였기 때문. 출시 전 Alliance에 지갑, 거래소가 모였고 Binance, Bitget, OKX가 함께 받은 것이 근거임 [F-1453](https://ondo.finance/blog/ondo-finance-global-markets-alliance)[F-1454](https://ondo.finance/blog/global-markets-is-live)[F-1125](https://ondo.finance/blog/tokenized-stocks-live-on-binance)
-- 해석 : 같은 특성이 한계도 만듦. 고객을 가진 유통처가 자기 상품을 내면 점유율을 내주게 됨(Binance bStocks). 2026-06 이후 Ondo가 거래(Ondo Perps), 자산관리 층으로 올라가는 것은 이 한계를 메우려는 움직임으로 볼 수 있으나, 유통처와 경쟁하게 될 가능성도 있음 [F-1021](https://app.rwa.xyz/stocks)[F-1468](https://ondo.finance/blog/onward-remembering-nathan-allman-and-the-road-ahead)[F-1469](https://ondo.finance/blog/introducing-ondo-perps)
+- 해석 : 같은 특성이 한계도 만듦. 고객을 가진 유통처가 자기 상품을 내면 점유율을 내주게 됨(Binance bStocks). 2026-07 Ondo Perps로 거래에 진출하고 자산관리 층으로 올라가는 것은 이 한계를 메우려는 움직임으로 볼 수 있으나, 유통처와 경쟁하게 될 가능성도 있음 [F-1021](https://app.rwa.xyz/stocks)[F-1468](https://ondo.finance/blog/onward-remembering-nathan-allman-and-the-road-ahead)[F-1469](https://ondo.finance/blog/introducing-ondo-perps)
 - 소유 구조 : Ondo Finance는 비상장이고, 발행 법인 지분 90.01%는 Ondo Foundation(ONDO 토큰 거버넌스 재단)의 자회사 Flux Finance가 가짐. 초기 투자자는 Founders Fund(Peter Thiel의 벤처 투자사), Pantera Capital(가상자산 전문 투자사), Coinbase Ventures(Coinbase 투자 부문)임 [F-0562](https://docs.ondo.finance/ondo-stocks/legal-and-regulatory)[F-1212](https://ondo.finance/blog/ondos-journey-vision-achievements-and-the-path-forward)
   - 해석 : 가상자산 쪽 투자사의 돈과 가상자산 이용자 고객으로 출발한 회사라 증권사 대신 가상자산 거래소와 지갑을 판매 창구로 고른 것이 자연스러웠던 것으로 봄 [F-1443](https://ondo.finance/blog/announcing-tokenized-us-treasuries-and-bonds)[F-1212](https://ondo.finance/blog/ondos-journey-vision-achievements-and-the-path-forward)
 
@@ -107,8 +106,9 @@
   - 자산 : 주식 토큰 Ondo Stocks(직접, 2025-09), BlackRock 포트폴리오 3종(파트너), 비상장사 토큰(직접)
   - 유통처 : Bitget, OKX, Trust Wallet(2025-09), Binance Alpha와 Wallet(2026-02)(모두 파트너)
   - 미국 판매 자격 : Oasis Pro 증권사, ATS, 명의개서(인수, 2025-10)
+  - 거래 : 무기한선물 거래 플랫폼 Ondo Perps(직접, 2026-07, 미국 밖 전용)
   - 인프라 : BlackRock BUIDL, 의결권 Broadridge, DTCC(파트너), BNB 체인, Solana(직접)
-- 지금 하는 것 : 국채 토큰과 미국 밖 주식 토큰 450종 이상을 남의 거래소, 지갑에 공급(Ondo Stocks 보유자 186,636명, 잔액 8.99억 달러)
+- 지금 하는 것 : 국채 토큰과 미국 밖 주식 토큰 450종 이상을 남의 거래소, 지갑에 공급(Ondo Stocks 보유자 186,636명, 잔액 8.99억 달러), 2026-07부터 자체 거래 플랫폼 Ondo Perps 운영
 - 해외 진출
   - 미국 밖 전반 : 인가 없이 판매
   - EEA : 투자설명서 승인(직접, 2026-11-11 유효기간 종료)
@@ -127,13 +127,13 @@
 - 해외 : 미국 밖은 Regulation S(미국 밖 비미국인 판매는 미국 공모 등록 불요) 면제 [F-0560](https://docs.ondo.finance/ondo-stocks/legal-and-regulatory), BVI 감독기관 등록, 인가 없음 [F-0528](https://docs.ondo.finance/legal/terms-of-service), EEA는 리히텐슈타인 FMA 투자설명서 승인 2025-11-11, 29개국 통지, 유효기간 2026-11-11 [F-1240](https://www.fma-li.li)
 
 ## 3층 (꼬리질문 대비)
-- Q : SEC 조사는 / A : 토큰화 방식과 ONDO 토큰 증권성에 대한 다년간 비공개 조사가 기소 없이 종결됐다고 회사가 발표(2025-12-09), SEC 확인문 없음 [F-1323](https://ondo.finance/blog/tokenized-securities-step-forward) [F-0198](https://decrypt.co/351509/ondo-says-biden-era-sec-investigation-closed-no-charges)
+- Q : SEC 조사는 / A : 토큰화 방식과 ONDO 토큰 증권성에 대한 다년간 조사가 기소 없이 종결됐다고 회사가 발표(2025-12-09), 디크립트도 보도 [F-1323](https://ondo.finance/blog/tokenized-securities-step-forward) [F-0198](https://decrypt.co/351509/ondo-says-biden-era-sec-investigation-closed-no-charges)
 - Q : 주식 토큰은 법적으로 무엇인가 / A : BVI 발행 법인의 채무증권, 스위스법 적용, 기초 종목 1:1 추종 [F-0187](https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf). 기초 주식 인도 청구 불가, 담보 범위에서만 상환받는 채무 [F-0188](https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf)
 - Q : USDY는 스테이블코인인가 / A : 아님. 토큰화 담보부 노트(발행사 채무증서) [F-0509](https://docs.ondo.finance/general-access-products/usdy/comparison-stablecoins)
-- Q : Oasis Pro 인수 세부는 / A : 금액 비공개, 목적은 증권사, ATS, 명의개서대리인 인가를 한꺼번에 얻어 미국 투자자에게 판매(The Block 보도) [F-1392](https://www.theblock.co/news/deals/2025-07-04-ondo-finance-to-acquire-us-regulated-broker-oasis-pro-for-tokenized-securities-expansion-361120)
-- Q : 경영 리스크는 / A : 창업자 겸 CEO Nathan Allman 2026-05 사망, Ian De Bode 승계 [F-0207](https://forklog.com/en/power-struggle-emerges-at-ondo-finance-following-founders-death/). 2026-08 유족이 델라웨어 법원에 경영권 소송, 결과는 확인하지 못함 [F-0208](https://forklog.com/en/power-struggle-emerges-at-ondo-finance-following-founders-death/)
-- Q : 숫자의 출처 등급은 / A : 보유자 수는 회사 보도자료 [F-1390](https://www.prnewswire.com/apac/news-releases/ondo-stocks-surpasses-1-billion-in-value-as-ecosystem-surges-302852162.html). Bitget 안 Ondo 비중 2025-12 약 73%에서 89%는 Bitget 발표, 산정 방식 비공개 [F-0203](https://cfotech.news/story/bitget-widens-ondo-tokenised-stocks-etfs-metals). USDY는 회사 화면 19.7억 달러와 rwa.xyz 23.95억 달러가 서로 다르며 하나로 고르지 않음 [F-1322](https://app.rwa.xyz/treasuries)
-- Q : EEA 판매는 지금도 되나 / A : 투자설명서 유효기간이 2026-11-11로 끝났고 갱신 승인본은 확인하지 못함 [F-1240](https://www.fma-li.li)
+- Q : Oasis Pro 인수 세부는 / A : 2025-10-07 완료, 목적은 증권사, ATS, 명의개서대리인 인가를 한꺼번에 얻어 미국 투자자에게 판매(The Block 보도) [F-1392](https://www.theblock.co/news/deals/2025-07-04-ondo-finance-to-acquire-us-regulated-broker-oasis-pro-for-tokenized-securities-expansion-361120)
+- Q : 경영 리스크는 / A : 창업자 겸 CEO Nathan Allman 2026-05 사망, Ian De Bode 승계 [F-0207](https://forklog.com/en/power-struggle-emerges-at-ondo-finance-following-founders-death/). 2026-08 유족이 델라웨어 법원에 경영권 소송을 냄 [F-0208](https://forklog.com/en/power-struggle-emerges-at-ondo-finance-following-founders-death/)
+- Q : 숫자의 출처 등급은 / A : 보유자 수는 회사 보도자료 [F-1390](https://www.prnewswire.com/apac/news-releases/ondo-stocks-surpasses-1-billion-in-value-as-ecosystem-surges-302852162.html). Bitget 안 Ondo 비중 2025-12 약 73%에서 89%는 Bitget 자체 집계 [F-0203](https://cfotech.news/story/bitget-widens-ondo-tokenised-stocks-etfs-metals). USDY는 회사 화면 19.7억 달러와 rwa.xyz 23.95억 달러가 서로 다르며 하나로 고르지 않음 [F-1322](https://app.rwa.xyz/treasuries)
+- Q : EEA 판매 승인 기간은 / A : 리히텐슈타인 FMA 기본 투자설명서 승인 2025-11-11, 유효기간 2026-11-11 종료 [F-1240](https://www.fma-li.li)
 - Q : 한국 관련은 / A : 2026-09-28 카카오페이증권과 한국 주식 해외 유통 MOU, 상용화는 규제, 기술 검토에 달림 [F-0204](https://koreaherald.com/article/10887648). 미래에셋자산운용과 Global X ETF 토큰화 MOU [F-0205](https://en.bloomingbit.io/feed/news/123709). 한국이 Ondo Stocks 활성 거래자 수 1위라는 말은 회사 아시아 담당 주장 [F-0206](https://en.bloomingbit.io/feed/news/123709). OUSG 등 적격 상품은 한국 거주 개인, 법인 제외 명시 [F-1404](https://docs.ondo.finance/qualified-access-products/eligibility.md)
 - Q : Dinari와 차이는 / A : 판매 창구가 Ondo는 대형 가상자산 거래소와 지갑, Dinari는 증권사 등록 없는 핀테크 앱 [F-0332](https://dinari.com/business). 미국 자격은 Ondo가 인수(2025-10), Dinari는 직접 등록(2025-06) [F-0116](https://api.brokercheck.finra.org/search/firm/329672)
 - Q : 유통처 Binance가 경쟁자가 됐나 / A : 2026-02 Ondo 상품 상장 [F-0201](https://cointelegraph.com/news/binance-alpha-ondo-tokenized-stocks-etfs), 2026-06 자체 bStocks 출시 [F-0053](https://www.prnewswire.com/apac/news-releases/binance-exchange-launches-bstocks-tokenized-securities-11-backing-and-247-trading-302798969.html), 2026-11-16 주식 토큰 잔액 13.6억 달러로 Ondo보다 큼(rwa.xyz 제3자 집계) [F-1021](https://app.rwa.xyz/stocks)
