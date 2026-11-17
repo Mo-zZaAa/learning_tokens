@@ -758,8 +758,21 @@
      "notes": []
     },
     {
-     "id": "bn-0369",
+     "id": "bn-0396",
      "disp": "Binance 범위-20",
+     "level": "-",
+     "text": "시작 시점 : 주식 연계 무기한선물은 2026-01 TradFi 무기한선물(금, 은으로 시작)부터 있었고 2026-01 거래대금 4.1억 달러에서 2026-08 3,429억 달러로 커짐. 10-29와 11-12는 종목 추가",
+     "color": "black",
+     "fact_ids": [
+      "F-1540",
+      "F-1542"
+     ],
+     "confirmed": false,
+     "notes": []
+    },
+    {
+     "id": "bn-0369",
+     "disp": "Binance 범위-21",
      "level": "-",
      "text": "24시간 거래대금(Binance TradFi 선물 화면, 2026-11-17 한 시점, 거래소 공식 통계 아님) : 개별 주식 NVDAUSDT 18.3억, SNDKUSDT 17.4억, SKHYNIXUSDT 10.5억 달러",
      "color": "black",
@@ -771,7 +784,7 @@
     },
     {
      "id": "bn-0394",
-     "disp": "Binance 범위-21",
+     "disp": "Binance 범위-22",
      "level": "-",
      "text": "뜻 : SKHYNIXUSDT = SK하이닉스 주가를 따르는 무기한선물",
      "color": "black",
@@ -781,7 +794,7 @@
     },
     {
      "id": "bn-0159",
-     "disp": "Binance 범위-22",
+     "disp": "Binance 범위-23",
      "level": "●",
      "text": "고객(개인에서 기관으로)",
      "color": "black",
@@ -791,7 +804,7 @@
     },
     {
      "id": "bn-0160",
-     "disp": "Binance 범위-23",
+     "disp": "Binance 범위-24",
      "level": "★",
      "text": "개인 이용자 : 거래소 직접, 40개 언어 지원",
      "color": "black",
@@ -803,7 +816,7 @@
     },
     {
      "id": "bn-0161",
-     "disp": "Binance 범위-24",
+     "disp": "Binance 범위-25",
      "level": "★",
      "text": "2026-06 bStocks 자격 이용자 : 미국과 미국인을 뺀 허용 지역에 직접 판매",
      "color": "black",
@@ -815,7 +828,7 @@
     },
     {
      "id": "bn-0222",
-     "disp": "Binance 범위-25",
+     "disp": "Binance 범위-26",
      "level": "★",
      "text": "기관 : 2022-06 기관 전용 사업 출시, 2025-11 BUIDL 담보 수용",
      "color": "black",
@@ -828,7 +841,7 @@
     },
     {
      "id": "bn-0162",
-     "disp": "Binance 범위-26",
+     "disp": "Binance 범위-27",
      "level": "●",
      "text": "시장(어느 나라로)",
      "color": "black",
@@ -838,7 +851,7 @@
     },
     {
      "id": "bn-0163",
-     "disp": "Binance 범위-27",
+     "disp": "Binance 범위-28",
      "level": "★",
      "text": "2022-09 두바이 : VARA(두바이 가상자산 규제청) 직접 라이선스",
      "color": "black",
@@ -850,7 +863,7 @@
     },
     {
      "id": "bn-0164",
-     "disp": "Binance 범위-28",
+     "disp": "Binance 범위-29",
      "level": "★",
      "text": "2024-09 아르헨티나 : 현지 법인이 가상자산 서비스 사업자로 등록",
      "color": "black",
@@ -862,7 +875,7 @@
     },
     {
      "id": "bn-0165",
-     "disp": "Binance 범위-29",
+     "disp": "Binance 범위-30",
      "level": "★",
      "text": "2025-10 한국 : 고팍스 최대주주 변경 수리",
      "color": "black",
@@ -874,7 +887,7 @@
     },
     {
      "id": "bn-0166",
-     "disp": "Binance 범위-30",
+     "disp": "Binance 범위-31",
      "level": "★",
      "text": "2025-12 아부다비 : ADGM 인가 3종 직접",
      "color": "black",
@@ -886,7 +899,7 @@
     },
     {
      "id": "bn-0191",
-     "disp": "Binance 범위-31",
+     "disp": "Binance 범위-32",
      "level": "●",
      "text": "2021-04 주식 토큰 시도, 2021-07 중단 : 인가 없이 시작했다가 접음",
      "color": "black",
@@ -898,7 +911,7 @@
     },
     {
      "id": "bn-0194",
-     "disp": "Binance 범위-32",
+     "disp": "Binance 범위-33",
      "level": "★",
      "text": "해석 : 첫 시도를 접고 2025-12 인가를 받은 뒤 2026-06 재설계해 재개. 인가 없이 시작한 것이 접은 이유라는 설명은 회사가 하지 않음",
      "color": "black",

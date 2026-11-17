@@ -302,12 +302,35 @@ body.nonum .row{grid-template-columns:2.6em minmax(0,1fr)}
 body.nonum .num .dfull{display:none}
 body.nonum .num::after{content:"⋯";font-size:14px}
 .num .dfull{display:inline}
+
+/* 브리핑 탭 */
+.bnav{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.bnav button{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:4px 12px;cursor:pointer;font:inherit;font-size:13px;color:var(--ink)}
+.bnav button[aria-current="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.brief h2.bh2{font-size:17px;margin:22px 0 8px;padding:6px 10px;background:var(--accent-soft);border-radius:6px;color:var(--ink)}
+.brief h3.bh3{font-size:15px;margin:16px 0 6px;color:var(--accent)}
+.brief h4.bh4{font-size:13px;margin:12px 0 6px;color:var(--muted)}
+.brief .bl{display:grid;grid-template-columns:1.4em minmax(0,1fr);gap:2px;padding:2px 0;line-height:1.6}
+.brief .bl.lv2{padding-left:1.6em}.brief .bl.lv3{padding-left:3.2em}
+.brief .bl.tb{grid-template-columns:minmax(0,1fr);font-size:13.5px;border-bottom:1px solid var(--line);padding:4px 0}
+.brief .bl .bm{color:var(--faint)}
+.brief .bl.hl .bx{background:linear-gradient(transparent 50%,var(--hl) 50%)}
+.brief .bid{display:inline-block;font-size:11px;border:1px solid var(--line);border-radius:4px;padding:0 5px;margin-left:5px;color:var(--accent);text-decoration:none;vertical-align:1px}
+.brief .bimg{display:grid;grid-template-columns:minmax(0,620px) minmax(0,1fr);gap:14px;margin:10px 0 14px;padding:10px;background:var(--quote);border-radius:8px}
+.brief .bimg img{max-width:100%;border:1px solid var(--line);border-radius:6px;background:#fff;cursor:zoom-in}
+.brief .bimg .cap{font-size:13.5px;line-height:1.6}
+.brief .bimg .cap b{display:block;color:var(--muted);font-size:12px;margin-top:6px}
+.brief table.bt{border-collapse:collapse;width:100%;font-size:13.5px;margin:6px 0 12px}
+.brief table.bt th,.brief table.bt td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.brief table.bt th{background:var(--accent-soft)}
+@media (max-width:760px){.brief .bimg{grid-template-columns:minmax(0,1fr)}}
 </style>
 
 <header class="top">
   <span class="brand">KDX 해외 사례</span>
   <div class="tabs" role="tablist">
     <button class="tab" id="tab-ov" role="tab" aria-selected="true">전체 그림</button>
+    <button class="tab" id="tab-brief" role="tab" aria-selected="false" data-view="brief">브리핑</button>
     <button class="tab" id="tab-read" role="tab" aria-selected="false">본문</button>
     <button class="tab" id="tab-compare" role="tab" aria-selected="false" data-view="compare">가로 비교</button>
     <button class="tab" id="tab-lic" role="tab" aria-selected="false" data-view="lic">인가와 관계</button>
@@ -610,7 +633,7 @@ function render(){
   document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-selected', b.dataset.view === view));
   $('#btn-fold').hidden = view !== 'read'; applyView();
   document.querySelectorAll('.co').forEach(el => el.setAttribute('aria-current', el.dataset.slug === cur && view === 'read'));
-  if (view === 'read') renderCompany(); else if (view === 'memo') renderMemo(); else if (view === 'compare') renderCompare(); else if (view === 'lic') renderLic(); else if (view === 'rules') renderRules();
+  if (view === 'read') renderCompany(); else if (view === 'memo') renderMemo(); else if (view === 'compare') renderCompare(); else if (view === 'lic') renderLic(); else if (view === 'rules') renderRules(); else if (view === 'brief') renderBrief();
   updateCount();
 }
 function keepScroll(fn){ const y = window.scrollY; fn(); window.scrollTo(0, y); }
@@ -925,6 +948,41 @@ function renderLic(){
 }
 
 function lawLinks(arr){ return '<div class="lawl">' + arr.map(l => l.url ? `<a href="${esc(l.url)}" target="_blank" rel="noopener" title="${esc(l.e||'')}">${esc(l.t)}</a>` : `<span>${esc(l.t)}</span>`).join('') + '</div>'; }
+
+// ---------- 브리핑 탭 ----------
+let briefCur = 'axes';
+function bLine(b){
+  const ids = (b.ids||[]).map((id,i) => b.u && b.u[i] ? `<a class="bid" href="${esc(b.u[i])}" target="_blank" rel="noopener">${esc(id)}</a>` : `<span class="bid">${esc(id)}</span>`).join('');
+  const extra = (b.u||[]).slice((b.ids||[]).length).map(u => `<a class="bid" href="${esc(u)}" target="_blank" rel="noopener">원문</a>`).join('');
+  if (b.lv === '표') return `<div class="bl tb"><span class="bx">${esc(b.x)}</span>${ids}${extra}</div>`;
+  const mk = b.lv === '•' ? '•' : b.lv ? '-' : '';
+  const cls = b.lv === '-' ? ' lv2' : b.lv === '--' ? ' lv3' : '';
+  return `<div class="bl${cls}${b.hl?' hl':''}"><span class="bm">${mk}</span><span><span class="bx">${esc(b.x)}</span>${ids}${extra}</span></div>`;
+}
+function bBlocks(list){
+  return list.map(b => b.t === 'h2' ? `<h2 class="bh2">${esc(b.x)}</h2>` : b.t === 'h3' ? `<h3 class="bh3">${esc(b.x)}</h3>` : b.t === 'h4' ? `<h4 class="bh4">${esc(b.x)}</h4>` :
+    b.t === 'img' ? `<div class="bimg"><div><img loading="lazy" src="${esc(b.src)}" alt="${esc(b.what)}" data-zoom="1"></div><div class="cap"><b>무엇</b>${esc(b.what)}<b>해석</b>${esc(b.note)}</div></div>` : bLine(b)).join('');
+}
+function bTable(rows){
+  if (!rows || !rows.length) return '';
+  return `<table class="bt"><thead><tr>${rows[0].map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+}
+function renderBrief(){
+  const B = D.briefs || {cos: []};
+  const tabs = [['axes','축과 가설'],['pillars','전략 틀 비교'], ...B.cos.map(c => [c.name, c.name]), ['ats','야간 ATS']];
+  let h = `<div class="page brief"><div class="bnav">${tabs.map(([k,l]) => `<button type="button" data-brief="${esc(k)}" aria-current="${briefCur===k}">${esc(l)}</button>`).join('')}</div>`;
+  if (briefCur === 'axes') h += `<h1>승인된 축과 가설</h1>` + bTable(B.axes);
+  else if (briefCur === 'pillars') h += `<h1>9곳 전략 틀 비교</h1>` + bTable(B.pillars) + (B.pillars_read||[]).map(x => `<div class="bl"><span class="bm">•</span><span>${esc(x)}</span></div>`).join('');
+  else if (briefCur === 'ats') h += `<h1>야간 ATS 3곳</h1>` + bBlocks(B.ats||[]);
+  else { const c = B.cos.find(x => x.name === briefCur); if (c) h += `<h1>${esc(c.name)} 브리핑</h1>` + bBlocks(c.blocks); }
+  h += '</div>';
+  $('#main').innerHTML = h;
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-brief]'); if (b){ briefCur = b.dataset.brief; renderBrief(); window.scrollTo(0,0); return; }
+  const z = e.target.closest('.bimg img'); if (z){ const m = document.createElement('div'); m.className = 'zoom'; m.innerHTML = `<img src="${z.getAttribute('src')}" alt="">`; m.addEventListener('click', () => m.remove()); document.body.appendChild(m); }
+});
+
 function renderRules(){
   let h = `<div class="wide"><h1>제도와 용어</h1><p class="lead">모든 회사에 공통인 한미 제도 차이입니다. 조문 이름을 누르면 원문으로 갑니다.</p>`;
   h += `<h2>한미 제도 비교</h2><div class="tbl"><table><thead><tr><th>쟁점</th><th>미국 제도</th><th>미국 조문</th><th>한국 제도</th><th>한국 조문</th><th>차이에 따른 결과</th></tr></thead><tbody>` +
@@ -947,8 +1005,8 @@ document.addEventListener('input', e => {
 // ---------- 시작 ----------
 const fromHash = location.hash.slice(1);
 cur = CO[fromHash] ? fromHash : (CO['overview'] ? 'overview' : D.companies[0].slug);
-if (fromHash.startsWith('v-') && ['compare','lic','rules'].includes(fromHash.slice(2))) view = fromHash.slice(2);
+if (fromHash.startsWith('v-') && ['compare','lic','rules','brief'].includes(fromHash.slice(2))) view = fromHash.slice(2);
 renderNav(); render();
-window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (CO[h] && (h !== cur || view !== 'read')){ cur = h; view = 'read'; render(); } else if (h.startsWith('v-') && h.slice(2) !== view && ['compare','lic','rules'].includes(h.slice(2))){ view = h.slice(2); render(); } });
+window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (CO[h] && (h !== cur || view !== 'read')){ cur = h; view = 'read'; render(); } else if (h.startsWith('v-') && h.slice(2) !== view && ['compare','lic','rules','brief'].includes(h.slice(2))){ view = h.slice(2); render(); } });
 })();
 </script>

@@ -528,7 +528,9 @@ def main():
             if line.strip():
                 log.append(json.loads(line))
 
-    data = {"companies": companies, "imgs": IMGS, "terms": terms, "log": log, **extra_data()}
+    sys.path.insert(0, str(ROOT / "web"))
+    import brief_data
+    data = {"companies": companies, "imgs": IMGS, "terms": terms, "log": log, **extra_data(), "briefs": brief_data.build()}
     tpl = (WEB / "template.html").read_text(encoding="utf-8")
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     html = tpl.replace("/*__DATA__*/null", payload)
