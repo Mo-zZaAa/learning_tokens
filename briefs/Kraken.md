@@ -40,7 +40,16 @@
 ### 3. 비전: 개인 거래소에서 기업이 빌려 쓰는 금융 인프라로
 - 과거의 기관 사업은 별도 전략이라기보다, 거래소가 가진 기능 중 기관이 선호하는 것을 묶어 제공하는 수준이었음
   - 2024-03 기관 전담 부문, 2025-06 Prime(펀드, 은행, 기업 재무부서를 위한 거래, 수탁, 금융을 한 계정에서 제공) 출시 [F-1339](https://en.wikipedia.org/wiki/Kraken_(cryptocurrency_exchange))[F-1159](https://blog.kraken.com/product/kraken-prime/introducing-kraken-prime)[F-0439](https://www.kraken.com/prime)
+  - 기업용은 2025-04 Embed(은행, 핀테크가 자기 앱에 Kraken의 가상자산 거래를 넣게 하는 대행 서비스, 첫 이용사는 네덜란드 인터넷은행 bunq)로 시작했고, 2026-03 이를 넓힌 Payward Services를 출시함. 여러 업체를 이어 붙이지 않고 한 번 연동으로 거래, 수탁, 스테이블코인 결제, 토큰화 자산, 파생을 쓰게 한다는 것이 회사 설명임 [F-1374][F-1511]
 - 현재는 CEO가 회사를 "지주회사가 아니라 플랫폼 하나, 대차대조표 하나, 규제 체계 하나"로 정의하고, 사업 네 기둥 중 하나로 기업용 인프라 Payward Services를 명시함 [F-1347](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
+  - 네 기둥의 원문 이름 : Payward Trading(가상자산, 주식, 전통 시장의 현물과 파생 거래), Payward Banking(예금, 결제, 카드, 수탁, 대출), Payward Asset Management(구조화 수익, 토큰화 자산, 비상장 시장 접근 상품), Payward Services(같은 인프라를 상품으로 판매) [F-1498]
+  - 시점 : 2026-08 Q2 실적 서한(공동 CEO Arjun Sethi 명의)에서 처음 공식화함. 2026-05 Q1 실적 발표까지는 개인용과 기업용 두 묶음으로만 보고했고, 2026-09 코인데스크 인터뷰는 이를 다시 설명한 것임. 2026-11 Q3 실적 발표에서 AI를 다섯째 기둥으로 더했으나, 회사 설명상 AI는 다른 기둥 안에 들어간 기능임 [F-1498][F-1499][F-1500]
+  - 묶는 논리(회사 설명) : 네 기둥은 원장 하나를 보는 네 화면이어서 한 잔액으로 거래, 수익, 대출 담보, 결제가 모두 됨. 인수도 같은 틀로, 몇 년 걸릴 인가와 결제망을 사서 자기 상품에 먼저 얹고 그다음 Payward Services로 파트너에게 엶 [F-1500][F-1508]
+  - 기둥별 실행
+    - 거래 : 본업이며 실체가 가장 큼. 인수한 미국 파생 인가 셋과 xStocks가 핵심이고, 2026 Q3 파생 계약 6,600만 건(전년 대비 84% 증가) [F-1118][F-1503]
+    - 은행 : 회사 사이트의 Payward Banking 이름은 아직 "Coming soon"이나 실행은 많음. 연준 마스터 계정(2026-03), 가상자산 담보 신용한도 Flexline(2026-04), OCC(미국 통화감독청) 국법 신탁회사 인가 신청(2026-05), Krak(Payward의 송금, 결제 앱) 직불카드(2026-08), Saldo Bank 인수 합의(2026-10) [F-1510][F-1532][F-1597][F-1596]
+    - 자산관리 : 이름뿐인 기둥에 가장 가까움. 회사 사이트에서 Payward Asset Management는 "Coming soon"이고, 회사도 지금은 다른 운용사의 펀드와 전략에 접근을 주는 단계이며 운용사가 되는 중이라고 밝힘. 실제 출시는 IPO Access, 가상자산과 xStocks 묶음 포트폴리오, xStocks 금고(2026-09) 같은 접근, 수익 상품이고, 자체 운용은 xPO와 xStocks 기반 펀드로 계획 단계임 [F-1510][F-1509][F-1506][F-1531]
+    - 기업용 인프라 : 2026-03 출시 뒤 Reap(결제, 카드), Magic Labs(지갑 대행 기술 회사) 인수와 Bitnomial 인가로 범위를 넓히는 중(아래) [F-1511][F-1195][F-1514]
   - 제공 내용 : Kraken이 자체 운영을 위해 만든 수탁, 유동성, 규제 준수, 위험관리, 결제와 정산 기능을 은행, 핀테크, 증권사, 다른 가상자산 거래소에 API로 제공 [F-1350](https://www.coindesk.com/ko/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)
   - 이용 기업 : 최소 25개 기업. bunq(네덜란드 인터넷은행)는 수 주 만에 자기 앱에 가상자산 거래를 넣었고, 경쟁 거래소 OKX(해외 대형 가상자산 거래소)는 xStocks를 받아 자체 주식 토큰을 출시함 [F-1366](https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange)[F-0452](https://www.kraken.com/institutions/banks)[F-1257](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
   - 수익 구성도 이쪽으로 옮겨 가는 중임. 2026 Q3 총플랫폼마진(Payward가 공시하는 매출 지표) 4.87억 달러 중 52%가 거래 수수료가 아닌 자산 기반과 접근 기반 수익이기 때문 [F-1245](https://www.payward.com/press-release/payward-q3-2026-financial-highlights)
