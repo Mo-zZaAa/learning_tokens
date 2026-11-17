@@ -25,8 +25,8 @@ def web_img(path):
     return 'brief_img/' + name
 
 
-def img_block(path, what, note):
-    return {'t': 'img', 'src': web_img(path), 'what': X.degap(what), 'note': X.degap(note)}
+def img_block(path, what, note, kind='ev'):
+    return {'t': 'img', 'k': kind, 'src': web_img(path), 'what': X.degap(what), 'note': X.degap(note)}
 
 
 def line_block(level, text, ids, urls, hl):
@@ -47,7 +47,7 @@ def company(co):
         for p in sorted(todo, key=lambda p: X.PILLAR_ORDER.get(os.path.basename(p)[:-4], 99)):
             placed.add(p)
             k = os.path.basename(p)[:-4]
-            out.append(img_block(p, X.PILLAR_DESC.get(k, k), X.NOTES.get(k, '')))
+            out.append(img_block(p, X.PILLAR_DESC.get(k, k), X.NOTES.get(k, ''), 'pillar'))
 
     in3 = False
     for raw in md.split('\n'):
@@ -100,7 +100,7 @@ def company(co):
         for p in left:
             placed.add(p)
             k = os.path.basename(p)[:-4]
-            out.append(img_block(p, X.PILLAR_DESC.get(k, k), X.NOTES.get(k, '')))
+            out.append(img_block(p, X.PILLAR_DESC.get(k, k), X.NOTES.get(k, ''), 'pillar'))
         for fid, cap in rest:
             if cap in placed:
                 continue
@@ -140,7 +140,7 @@ def ats():
                 out.append(line_block('표', text, ids, urls, False))
         for cap in sorted(glob.glob(os.path.join(ROOT, f'captures/pillars/{pre}_*.png')), key=lambda x: X.PILLAR_ORDER.get(os.path.basename(x)[:-4], 99)):
             k = os.path.basename(cap)[:-4]
-            out.append(img_block(os.path.relpath(cap, ROOT), X.PILLAR_DESC.get(k, k), X.NOTES.get(k, '')))
+            out.append(img_block(os.path.relpath(cap, ROOT), X.PILLAR_DESC.get(k, k), X.NOTES.get(k, ''), 'pillar'))
     return out
 
 

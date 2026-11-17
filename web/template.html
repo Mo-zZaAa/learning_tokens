@@ -324,6 +324,26 @@ body.nonum .num::after{content:"⋯";font-size:14px}
 .brief table.bt th,.brief table.bt td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
 .brief table.bt th{background:var(--accent-soft)}
 @media (max-width:760px){.brief .bimg{grid-template-columns:minmax(0,1fr)}}
+
+/* 브리핑 가독성 */
+.brief .bl{font-size:15px}
+.brief .bl.lv1 .bx{color:var(--ink)}
+.brief .bl.lv2 .bx,.brief .bl.lv3 .bx{color:#2f3a49}
+.brief b.blbl{font-weight:800;color:var(--ink)}
+.brief .bdate{color:var(--accent);font-weight:700;white-space:nowrap}
+.brief mark.bq{background:linear-gradient(transparent 40%,var(--hl) 40%);color:inherit;padding:0 2px}
+.brief .bl.binterp{background:#f4efff;border-left:3px solid #7b5cd6;border-radius:4px;padding:4px 8px;margin:4px 0;font-weight:400}
+.brief .bl.binterp .ibadge{display:inline-block;font-size:11px;font-weight:800;color:#fff;background:#7b5cd6;border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
+.brief .bl.key{background:var(--hl);border-radius:6px;padding:6px 10px;margin:4px 0;font-size:15.5px}
+.brief .bl.key b.blbl{color:var(--accent)}
+.brief h3.bh3{border-left:4px solid var(--accent);padding-left:8px}
+.brief details.bfold{margin:4px 0 10px 1.4em}
+.brief details.bfold>summary,.brief details.bsec>summary{cursor:pointer;color:var(--muted);font-size:13px;list-style:none}
+.brief details.bfold>summary::before,.brief details.bsec>summary::before{content:"▸ ";color:var(--faint)}
+.brief details[open].bfold>summary::before,.brief details[open].bsec>summary::before{content:"▾ "}
+.brief details.bsec{margin:18px 0}
+.brief details.bsec>summary{font-size:17px;font-weight:800;color:var(--ink);padding:6px 10px;background:var(--accent-soft);border-radius:6px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .brief .bl.binterp{background:#2a2340}:root:not([data-theme="light"]) .brief .bl.lv2 .bx,:root:not([data-theme="light"]) .brief .bl.lv3 .bx{color:var(--ink)}}
 </style>
 
 <header class="top">
@@ -951,17 +971,53 @@ function lawLinks(arr){ return '<div class="lawl">' + arr.map(l => l.url ? `<a h
 
 // ---------- 브리핑 탭 ----------
 let briefCur = 'axes';
+// 브리핑 글 강조: 라벨 굵게, 날짜 파랑, 원문 인용 형광펜, 숫자 굵게와 위험 낱말 빨강(withTerms의 emph)
+function bFmt(x){
+  let s = x || '', lbl = '';
+  const m = s.match(/^([^:：]{1,28}?)\s:\s/);
+  if (m && !/^\d/.test(m[1])){ lbl = m[1]; s = s.slice(m[0].length); }
+  let h = withTerms(s);
+  h = h.split(/(<[^>]+>)/).map(p => p.startsWith('<') ? p : p
+    .replace(/(\d{4}-\d{2}(?:-\d{2})?|\d{4} Q[1-4]|\d{4}년)/g, '<span class="bdate">$1</span>')
+    .replace(/&quot;([^&]{2,400}?)&quot;/g, '<mark class="bq">“$1”</mark>')).join('');
+  return (lbl ? `<b class="blbl">${esc(lbl)}</b> : ` : '') + h;
+}
 function bLine(b){
   const ids = (b.ids||[]).map((id,i) => b.u && b.u[i] ? `<a class="bid" href="${esc(b.u[i])}" target="_blank" rel="noopener">${esc(id)}</a>` : `<span class="bid">${esc(id)}</span>`).join('');
   const extra = (b.u||[]).slice((b.ids||[]).length).map(u => `<a class="bid" href="${esc(u)}" target="_blank" rel="noopener">원문</a>`).join('');
-  if (b.lv === '표') return `<div class="bl tb"><span class="bx">${esc(b.x)}</span>${ids}${extra}</div>`;
+  if (b.lv === '표') return `<div class="bl tb"><span class="bx">${bFmt(b.x)}</span>${ids}${extra}</div>`;
+  const x = (b.x||'').trim();
+  const isInterp = /^해석\s*:/.test(x);
+  const isKey = /^(축|가설)\s*:/.test(x);
   const mk = b.lv === '•' ? '•' : b.lv ? '-' : '';
-  const cls = b.lv === '-' ? ' lv2' : b.lv === '--' ? ' lv3' : '';
-  return `<div class="bl${cls}${b.hl?' hl':''}"><span class="bm">${mk}</span><span><span class="bx">${esc(b.x)}</span>${ids}${extra}</span></div>`;
+  const cls = b.lv === '-' ? ' lv2' : b.lv === '--' ? ' lv3' : ' lv1';
+  const body = isInterp ? `<span class="ibadge">해석</span>${bFmt(x.replace(/^해석\s*:\s*/, ''))}` : bFmt(x);
+  return `<div class="bl${cls}${isInterp?' binterp':''}${isKey?' key':''}"><span class="bm">${isInterp||isKey?'':mk}</span><span><span class="bx">${body}</span>${ids}${extra}</span></div>`;
 }
+function bImg(b){
+  return `<div class="bimg"><div><img loading="lazy" src="${esc(b.src)}" alt="${esc(b.what)}" data-zoom="1"></div><div class="cap"><b>무엇</b>${esc(b.what)}<b>해석</b>${esc(b.note)}</div></div>`;
+}
+const FOLD_SEC = /^(2층|3층|참고 캡처)/;
 function bBlocks(list){
-  return list.map(b => b.t === 'h2' ? `<h2 class="bh2">${esc(b.x)}</h2>` : b.t === 'h3' ? `<h3 class="bh3">${esc(b.x)}</h3>` : b.t === 'h4' ? `<h4 class="bh4">${esc(b.x)}</h4>` :
-    b.t === 'img' ? `<div class="bimg"><div><img loading="lazy" src="${esc(b.src)}" alt="${esc(b.what)}" data-zoom="1"></div><div class="cap"><b>무엇</b>${esc(b.what)}<b>해석</b>${esc(b.note)}</div></div>` : bLine(b)).join('');
+  let h = '', ev = [], inSec = false;
+  const flushEv = () => { if (ev.length){ h += `<details class="bfold"><summary>근거 화면 ${ev.length}장</summary>${ev.map(bImg).join('')}</details>`; ev = []; } };
+  list.forEach(b => {
+    if (b.t === 'img' && b.k !== 'pillar'){ ev.push(b); return; }
+    flushEv();
+    if (b.t === 'h2'){
+      if (inSec){ h += '</details>'; inSec = false; }
+      if (FOLD_SEC.test(b.x)){ h += `<details class="bsec"><summary>${esc(b.x)}</summary>`; inSec = true; }
+      else h += `<h2 class="bh2">${esc(b.x)}</h2>`;
+      return;
+    }
+    if (b.t === 'h3'){ h += `<h3 class="bh3">${esc(b.x)}</h3>`; return; }
+    if (b.t === 'h4'){ h += `<h4 class="bh4">${esc(b.x)}</h4>`; return; }
+    if (b.t === 'img'){ h += bImg(b); return; }
+    h += bLine(b);
+  });
+  flushEv();
+  if (inSec) h += '</details>';
+  return h;
 }
 function bTable(rows){
   if (!rows || !rows.length) return '';
