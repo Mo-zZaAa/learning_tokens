@@ -249,3 +249,6 @@
 ## 14. 미국 증권사 비교 숫자(2026-11-17 추가)
 - Interactive Brokers 월간 지표: interactivebrokers.com/mkt/getFileNew.php?file=latestMetricPR 가 curl로 열리나 Java 직렬화 덩어리 안에 PDF가 들어 있음. %PDF부터 %%EOF까지 잘라 pdftotext로 읽음.
 - Charles Schwab 실적: sec.gov(403), pressroom.aboutschwab.com(Cloudflare 확인 화면), aboutschwab.com IR(403), finance.yahoo.com(curl 429, WebFetch 허용 밖) 모두 막힘. 우회하지 않고 검색 결과 3건 일치로 DB에 넣되 검증 상태에 "사용자 로컬 브라우저 확인 대기"를 적음.
+
+## 15. 화면 메모 읽기(2026-11-17 추가)
+- 화면(Artifact)의 메모는 브라우저 저장과 함께 화면 DB의 memos 모음에 저장됨. 다음 회차는 "메모 보내기" 파일을 기다리지 말고 ArtifactData list(url=화면 링크, collection=memos)로 바로 읽는다. 화면 메모는 view, brief, quote(고른 글) 칸이 있고, 본문 줄 메모는 lid(줄 ID)가 있다.
