@@ -1,0 +1,15 @@
+빈칸 번호,무엇이 비었나,찾아본 곳,다음에 볼 곳
+G-ON01,"회사 손익(매출, 이익, 흑자 여부)과 영역별 매출 비중, 연도별 매출 추이","회사 블로그 전수(sitemap 209건, 2025 결산 글 포함), docs.ondo.finance 전체 색인(llms.txt), DefiLlama 수수료와 수입 API(수입 0으로 집계, 금리 차이를 보지 못하는 방법론), 웹 검색(standard)","SEC 증권신고서(2026-02 비공개 제출)가 공개되면 발행 법인 재무제표, Oasis Pro Markets 증권사 재무 보고(FOCUS), 경영진 인터뷰"
+G-ON02,발행 법인(Ondo Global Markets (BVI) Limited)과 Ondo Finance Inc. 사이 돈 나눔(토큰화 서비스 대가)과 재단 쪽 Flux Finance가 발행 법인 90.01%를 가진 이유,"Final Terms(MFSA 사본), docs legal-and-regulatory, trust-and-transparency, Ondo Foundation 문서","FMA 승인 기본 투자설명서 전문(수수료, 관련 당사자 거래 절), SEC 증권신고서 공개본"
+G-ON03,"미국 보관형 토큰(IVV, MU)과 Oasis Pro Markets FINRA 승인(2026-07-23) 뒤 미국 개인 판매가 실제로 시작됐는지와 판매 규모","회사 블로그 2026-07-02, 2026-07-23 글과 그 뒤 글 목록(sitemap), 웹 검색(standard, 보도는 승인 내용만 전함)","Oasis Pro Markets ATS 공시(Form ATS-N 또는 Form ATS), FINRA BrokerCheck 업무 종류, 회사 블로그 이후 글"
+G-ON04,주식 토큰 발행 쪽 SEC 증권신고서(2026-02-03 비공개 제출)의 효력 발생 여부,"회사 블로그 2026-02-03 글과 그 뒤 글, 웹 검색",SEC EDGAR(sec.gov는 자동도구 403이라 사용자 로컬 브라우저)
+G-ON05,"Bitget 같은 거래소가 Ondo 토큰을 채우는 방식(거래소가 직접 1차 매수자인지, 시장조성자를 쓰는지), 거래소와 Ondo 사이 수수료 나눔, 지분 관계가 없다는 것을 직접 밝힌 문장","Ondo 블로그(Bitget 2026-03-16), Bitget 공식 블로그, Ondo API 문서(1차 매수자 흐름), 기존 DB","Bitget 이용 약관의 토큰 공급 조항, 거래소 공지, Ondo 생태계 파트너 등록 조건"
+G-ON06,"Oasis Pro와 Strangelove 인수 금액과 지급 방식(현금, 지분, 토큰)","회사 발표 4건(2025-07-04, 2025-07-14, 2025-10-07), 기존 DB(Cointelegraph, Ledger Insights), The Block(403)","The Block 기사 사용자 로컬 브라우저, 인수 관련 공시"
+G-ON07,시리즈 A 기업가치와 2022 이후 지분 투자 여부,"회사 블로그 전수(투자 발표는 2021-08, 2022-04, 2022-07뿐), 웹 검색 요약(집계 사이트의 약 1.2억 달러, 원문 미확인), The Block(403), CoinDesk(429)","The Block 2022-04 기사 로컬 브라우저, Founders Fund 발표"
+G-ON08,USDY 실제 금리 차이(회사가 매달 정한 지급 수익률과 담보 실제 수익의 차이) 값,"ondo.finance/usdy 화면(만기수익률 4.10%, 표시 APY 3.75%는 다른 지표), USDY 출시 글(기초 5.1%, 지급 5.0%)","Ankura 일일 투명성 보고서, USDY 발행 법인 재무제표, USDY 월별 금리 공지"
+G-ON09,"Ondo Perps 운영 법인(Ondo Global Group)의 소재지, 인가, 수수료, 거래 규모","Ondo Perps 발표 글(2026-02-03), Ondo Network 글(2026-07-27)","Perps 이용 약관과 문서 사이트, 회사 월간 정리 글"
+G-ON10,OUSG 잔액이 2025-11 7.8억 달러에서 2026-11 3.1억 달러로 줄어든 이유,"회사 블로그(YLDS 2025-11-24, SWEEP 2025-12-10 글), OUSG 상품 페이지","회사 월간 정리 글, 대형 보유자 이동 보도, rwa.xyz OUSG 보유자 변화(로그인 필요)"
+G-ON11,EU 기본 투자설명서 유효기간(2026-11-11) 뒤 갱신 여부,"기존 DB(FMA 목록 2026-09-07판), docs important-notes","FMA 투자설명서 목록 최신판, Ondo 공지"
+G-ON12,2021~2022 DeFi 금고와 유동성 대여 사업 시절의 수익원(수수료 구조),"회사 블로그 2021-07, 2021-08, 2022-05, 2022-07 글","옛 문서 사이트 보관본(web.archive.org), 금고 스마트 계약 수수료 설정"
+G-ON13,USDY 담보 국채를 보관하는 수탁기관(증권사 또는 은행) 이름,"ondo.finance/usdy 화면(은행 예금 First Citizens Bank만 표시), USDY 출시 글(Ankura가 은행과 증권 계좌를 통제한다는 설명)","USDY 담보 계약(Tokenized Credit and Security Agreement), Ankura 보고서"
+G-ON14,OUSG 펀드 자산의 수탁기관 이름,"docs OUSG overview(펀드의 Coinbase 계좌), 홈페이지(제3자 적격 수탁기관)","OUSG 사모 투자설명서(PPM), 펀드 감사 보고서"
