@@ -315,7 +315,38 @@ body.nonum .num::after{content:"⋯";font-size:14px}
 .brief .bl.tb{grid-template-columns:minmax(0,1fr);font-size:13.5px;border-bottom:1px solid var(--line);padding:4px 0}
 .brief .bl .bm{color:var(--faint)}
 .brief .bl.hl .bx{background:linear-gradient(transparent 50%,var(--hl) 50%)}
-.brief .bid{display:inline-block;font-size:11px;border:1px solid var(--line);border-radius:4px;padding:0 5px;margin-left:5px;color:var(--accent);text-decoration:none;vertical-align:1px}
+.brief .bid{display:inline-block;font-size:11px;padding:0 2px;margin-left:3px;color:var(--faint);text-decoration:none;vertical-align:2px}
+.brief .bid:hover{color:var(--accent)}
+/* 전략 한눈에 카드 */
+.brief .scommon{background:var(--keybox);border:2px solid var(--pi-edge);border-radius:10px;padding:10px 16px;font-size:16px;font-weight:600;line-height:1.7;margin:0 0 16px}
+.brief .sgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.brief .sgi{display:flex;flex-direction:column;gap:8px}
+.brief .sgo{align-self:flex-start;border:1px solid var(--line);background:var(--panel);color:var(--accent);border-radius:6px;padding:4px 10px;cursor:pointer;font:inherit;font-size:13px}
+.scard{background:var(--panel);border:1px solid var(--line);border-top:5px solid var(--accent);border-radius:10px;padding:12px 16px 14px;line-height:1.6;flex:1}
+.scard .sname{font-size:19px;font-weight:800;color:var(--accent)}
+.scard .sid{font-size:15.5px;font-weight:700;margin:6px 0 10px;padding:8px 10px;background:var(--accent-soft);border-radius:8px}
+.scard .slab{font-size:12.5px;font-weight:700;color:var(--muted);margin:10px 0 4px;letter-spacing:.02em}
+.scard ol.sflow{list-style:none;margin:0;padding:0 0 0 12px;border-left:3px solid var(--line)}
+.scard ol.sflow li{position:relative;padding:2px 0 4px 8px;font-size:14px;color:var(--muted)}
+.scard ol.sflow li::before{content:"";position:absolute;left:-19px;top:9px;width:11px;height:11px;border-radius:50%;background:var(--line);border:2px solid var(--panel)}
+.scard ol.sflow li.now{color:var(--ink);font-weight:800;font-size:15px}
+.scard ol.sflow li.now::before{background:var(--accent)}
+.scard b.sd{color:var(--accent)}
+.scard .sint{background:var(--keybox);border-left:4px solid var(--pi-edge);border-radius:6px;padding:8px 10px;margin:10px 0 4px;font-size:14.5px;font-weight:600}
+.scard .sint .ibadge{display:inline-block;font-size:11px;font-weight:800;color:#fff;background:#7b5cd6;border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
+.scard .sact{padding:6px 0;border-bottom:1px dashed var(--line)}
+.scard .sact:last-child{border-bottom:0}
+.scard .sp{font-weight:800;font-size:14.5px}
+.scard .sx{font-size:13.5px;color:var(--ink);margin-top:2px}
+.scard .sb{display:inline-block;font-size:11.5px;font-weight:700;border-radius:10px;padding:0 8px;margin-left:4px;vertical-align:1px}
+.scard .sb.g{background:var(--ok-soft);color:var(--ok)}
+.scard .sb.b{background:var(--accent-soft);color:var(--accent)}
+.scard .sb.w{background:var(--orange-soft);color:var(--orange)}
+.page.brief{max-width:1500px}
+.brief .bwrap{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:20px;align-items:start}
+.brief .bside{position:sticky;top:112px;max-height:calc(100vh - 124px);overflow:auto}
+.brief .scard.side{box-shadow:0 4px 18px rgba(0,0,0,.08)}
+@media (max-width:1250px){.brief .bwrap{grid-template-columns:minmax(0,1fr)}.brief .bside{position:static;max-height:none;order:-1}.brief .sgrid{grid-template-columns:minmax(0,1fr)}}
 .brief .bimg{display:grid;grid-template-columns:minmax(0,620px) minmax(0,1fr);gap:14px;margin:10px 0 14px;padding:10px;background:var(--quote);border-radius:8px}
 .brief .bimg img{max-width:100%;border:1px solid var(--line);border-radius:6px;background:#fff;cursor:zoom-in}
 .brief .bimg .cap{font-size:13.5px;line-height:1.6}
@@ -370,9 +401,9 @@ body.nonum .num::after{content:"⋯";font-size:14px}
 :root[data-theme="dark"]{--pi:#4d4416;--pi-ink:#fff1b0;--pi-edge:#b49a2c;--bub:#1d2a40;--bub-edge:#3f5f96;--keybox:#2b2714}
 mark.hm{background:linear-gradient(180deg,transparent 35%,var(--pi) 35%);color:inherit;padding:0 2px;font-weight:700}
 .cmp3 .lbl{font-weight:800}
+.cmp3 blockquote.cq{margin:8px 0 10px;padding:8px 14px;border-left:4px solid var(--accent);background:var(--accent-soft);border-radius:6px;font-weight:600;line-height:1.7}
 .cmp3 .ckey{background:var(--keybox);border:2px solid var(--pi-edge);border-radius:10px;padding:4px 16px 8px;margin:10px 0 14px}
 .cmp3 .ckey>h2{background:none;padding:6px 0 0;margin:6px 0 4px}
-.cmp3 .ckey>h2::before{content:"⭐ "}
 .cmp3 .ckey ul{font-size:16px}
 .cmp3 p.sub{margin:16px 0 6px;font-size:16px}
 .cmp3 tr.hlrow td{background:var(--keybox)}
@@ -404,7 +435,7 @@ mark.hm{background:linear-gradient(180deg,transparent 35%,var(--pi) 35%);color:i
 .qa details.qsec:not([open])>summary .qbub::before{content:"💬"}
 .qa .qfin{border:2px solid var(--pi-edge);background:var(--keybox)}
 .qa .qfin .qbub{background:var(--pi);border-color:var(--pi-edge)}
-.qa .qfin .qbub::before{content:"⭐"}
+.qa .qfin .qbub::before{content:"💬"}
 .qa .qfin .qbub::after{border-top-color:var(--pi-edge)}
 .qa ul{margin:4px 0 8px;padding-left:1.4em;line-height:1.8}
 .qa ul ul{margin:2px 0;font-size:14.5px;color:var(--muted)}
@@ -421,7 +452,8 @@ mark.hm{background:linear-gradient(180deg,transparent 35%,var(--pi) 35%);color:i
   <span class="brand">KDX 해외 사례</span>
   <div class="tabs" role="tablist">
     <button class="tab" id="tab-cmp3" role="tab" aria-selected="false" data-view="cmp3">가상자산 거래소 3곳 비교</button>
-    <button class="tab" id="tab-qa" role="tab" aria-selected="false" data-view="qa">질문과 짚을 점</button>
+    <button class="tab" id="tab-parts" role="tab" aria-selected="false" data-view="parts">파트별 해외 사례</button>
+    <button class="tab" id="tab-qa" role="tab" aria-selected="false" data-view="qa">질문과 답</button>
     <button class="tab" id="tab-ov" role="tab" aria-selected="false">전체 그림</button>
     <button class="tab" id="tab-brief" role="tab" aria-selected="false" data-view="brief">브리핑</button>
     <button class="tab" id="tab-read" role="tab" aria-selected="false">본문</button>
@@ -726,7 +758,7 @@ function render(){
   document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-selected', b.dataset.view === view));
   $('#btn-fold').hidden = view !== 'read'; applyView();
   document.querySelectorAll('.co').forEach(el => el.setAttribute('aria-current', el.dataset.slug === cur && view === 'read'));
-  if (view === 'read') renderCompany(); else if (view === 'memo') renderMemo(); else if (view === 'compare') renderCompare(); else if (view === 'lic') renderLic(); else if (view === 'rules') renderRules(); else if (view === 'brief') renderBrief(); else if (view === 'cmp3') renderCmp3(); else if (view === 'qa') renderQa();
+  if (view === 'read') renderCompany(); else if (view === 'memo') renderMemo(); else if (view === 'compare') renderCompare(); else if (view === 'lic') renderLic(); else if (view === 'rules') renderRules(); else if (view === 'brief') renderBrief(); else if (view === 'cmp3') renderCmp3(); else if (view === 'qa') renderQa(); else if (view === 'parts') renderParts();
   updateCount();
 }
 function keepScroll(fn){ const y = window.scrollY; fn(); window.scrollTo(0, y); }
@@ -1070,7 +1102,8 @@ function mdDoc(src, mode){
   const qa = mode === 'qa';
   const lines = (src || '').split('\n');
   let h = '', i = 0;
-  const pre = t => { if (!qa) CMP3_HL.forEach(k => { if (t.includes(k) && !t.includes('==' + k)) t = t.replace(k, '==' + k + '=='); }); return t; };
+  const cm = mode === 'cmp3';
+  const pre = t => { if (cm) CMP3_HL.forEach(k => { if (t.includes(k) && !t.includes('==' + k)) t = t.replace(k, '==' + k + '=='); }); return t; };
   const listBlock = () => {
     // 들여쓰기 2칸마다 한 단계, "(판단)"은 회색, "짚을 한 줄:"은 포스트잇
     let out = '', stack = [];
@@ -1082,7 +1115,7 @@ function mdDoc(src, mode){
         while (stack.length > 1 && d < stack[stack.length-1]){ out += '</ul></li>'; stack.pop(); }
       }
       const t = pre(m[2]);
-      if (/^짚을 한 줄:/.test(t)) out += `<li class="postli"><div class="postit"><b class="pt">짚을 한 줄</b>${mdInline(t.replace(/^짚을 한 줄:\s*/, ''))}</div>`;
+      if (/^짚을 한 줄:/.test(t)) out += `<li class="postli"><div class="postit">${mdInline(t.replace(/^짚을 한 줄:\s*/, ''))}</div>`;
       else out += `<li${/^\(판단\)/.test(t) ? ' class="judge"' : ''}>${mdLabel(t, qa)}`;
       i++;
     }
@@ -1118,23 +1151,24 @@ function mdDoc(src, mode){
         toc.push({id, t: tt, pin: '', fin: !isQ});
         h += `<details class="qsec${isQ ? '' : ' qfin'}" open id="${id}"><summary><span class="qbub">${isQ ? `<span class="qn">Q${qn}.</span>` : ''}${mdInline(tt)}</span></summary>`;
         open = '</details>';
-      } else if (/^0\./.test(t)){ h += `<div class="ckey"><h2>${mdInline(t)}</h2>`; open = '</div>'; }
+      } else if (cm && /^0\./.test(t)){ h += `<div class="ckey"><h2>${mdInline(t)}</h2>`; open = '</div>'; }
       else h += `<h2>${mdInline(t)}</h2>`;
       i++; continue;
     }
     if (qa && l.startsWith('::: ')){ h += `<details class="qfold"><summary>${mdInline(l.slice(4))}</summary>`; i++; continue; }
     if (qa && l.trim() === ':::'){ h += '</details>'; i++; continue; }
-    if (qa && /^>\s*짚을 점:/.test(l)){
-      const t = l.replace(/^>\s*짚을 점:\s*/, '');
+    if (qa && /^>\s/.test(l)){
+      const t = l.replace(/^>\s*/, '');
       if (toc.length) toc[toc.length-1].pin = t;
-      h += `<div class="postit"><b class="pt">짚을 점</b>${mdInline(t)}</div>`; i++; continue;
+      h += `<div class="postit">${mdInline(t)}</div>`; i++; continue;
     }
+    if (!qa && /^>\s/.test(l)){ h += `<blockquote class="cq">${mdInline(l.replace(/^>\s*/, ''))}</blockquote>`; i++; continue; }
     if (/^\s*- /.test(l)){ h += listBlock(); continue; }
     if (l.startsWith('|')){
       const rows = [];
       while (i < lines.length && lines[i].startsWith('|')){ rows.push(lines[i].trim().replace(/^\||\|$/g,'').split('|').map(c => c.trim())); i++; }
       const body = rows.filter(r => !r.every(c => /^:?-{2,}:?$/.test(c) || c === ''));
-      h += `<table><thead><tr>${body[0].map(c => `<th>${mdInline(c)}</th>`).join('')}</tr></thead><tbody>${body.slice(1).map(r => `<tr${CMP3_ROW.includes(r[0]) ? ' class="hlrow"' : ''}>${r.map(c => `<td>${mdInline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+      h += `<table><thead><tr>${body[0].map(c => `<th>${mdInline(c)}</th>`).join('')}</tr></thead><tbody>${body.slice(1).map(r => `<tr${cm && CMP3_ROW.includes(r[0]) ? ' class="hlrow"' : ''}>${r.map(c => `<td>${mdInline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
       continue;
     }
     if (l.startsWith('출처:')){
@@ -1148,13 +1182,14 @@ function mdDoc(src, mode){
   }
   close();
   if (qa && toc.length){
-    const tocH = `<div class="qtoc"><h2>⭐ 한눈에: 질문 ${toc.filter(x => !x.fin).length}개와 짚을 점</h2><ol>${toc.map(x => `<li><a data-jump="${x.id}">${mdInline(x.t)}</a>${x.pin ? `<span class="tp">${mdInline(x.pin)}</span>` : ''}</li>`).join('')}</ol></div>`;
+    const tocH = `<div class="qtoc"><h2>한눈에: 질문 ${toc.filter(x => !x.fin).length}개</h2><ol>${toc.map(x => `<li><a data-jump="${x.id}">${mdInline(x.t)}</a>${x.pin ? `<span class="tp">${mdInline(x.pin)}</span>` : ''}</li>`).join('')}</ol></div>`;
     const k = h.indexOf('<details class="qsec');
     h = h.slice(0, k) + tocH + h.slice(k);
   }
   return h;
 }
-function renderCmp3(){ $('#main').innerHTML = '<div class="page cmp3">' + mdDoc(D.cmp3, 'cmp3') + '</div>'; }
+function renderCmp3(){ $('#main').innerHTML = '<div class="page cmp3">' + mdDoc((D.cmp3 || '').replace(/(설명 순서와 |⑥ )짚을 한 줄/g, '$1핵심 한 줄'), 'cmp3') + '</div>'; }
+function renderParts(){ $('#main').innerHTML = '<div class="page cmp3 parts">' + mdDoc(D.parts, 'parts') + '</div>'; }
 function renderQa(){
   $('#main').innerHTML = '<div class="page cmp3 qa">' + mdDoc(D.qa, 'qa') + '</div>';
   $('#main').querySelectorAll('[data-jump]').forEach(a => a.addEventListener('click', e => {
@@ -1163,7 +1198,37 @@ function renderQa(){
 }
 
 // ---------- 브리핑 탭 ----------
-let briefCur = 'Kraken';
+let briefCur = 'strat';
+// 회사별 전략 한눈에(briefs/00_전략_한눈에.md): 정체, 흐름, 해설, 기둥별 행보
+function parseStrat(src){
+  const out = {common: '', cos: {}}; let co = null, inAct = false;
+  (src || '').split('\n').forEach(l => {
+    if (l.startsWith('공통:')){ out.common = l.slice(3).trim(); return; }
+    if (l.startsWith('## ')){ co = {name: l.slice(3).trim(), acts: []}; out.cos[co.name] = co; inAct = false; return; }
+    if (!co) return;
+    let m = l.match(/^- (정체|흐름|해설):\s*(.*)$/);
+    if (m){ co[m[1]] = m[2]; inAct = false; return; }
+    if (/^- 행보\s*$/.test(l)){ inAct = true; return; }
+    m = l.match(/^\s+- (.+?)\s*\[([^\]]+)\]:\s*(.*)$/);
+    if (inAct && m) co.acts.push({p: m[1], badge: m[2], x: m[3]});
+  });
+  return out;
+}
+const BADGE_CLS = b => /가장 큼|매출로|실현|큰 몫|실체/.test(b) ? 'g' : /앞섬|계획|다음 단계|초기|작게/.test(b) ? 'w' : 'b';
+function stratFmt(t){ return esc(t).replace(/((?:19|20)\d\d(?:-\d\d| Q\d)?)/g, '<b class="sd">$1</b>').replace(/&quot;(.+?)&quot;/g, '<mark class="hm">"$1"</mark>'); }
+function stratCard(c, side){
+  if (!c) return '';
+  const steps = (c['흐름'] || '').split(' → ');
+  return `<div class="scard${side ? ' side' : ''}">
+    <div class="sh"><span class="sname">${esc(c.name)}의 전략</span></div>
+    <div class="sid">${stratFmt(c['정체'] || '')}</div>
+    <div class="slab">전략 틀이 바뀐 흐름</div>
+    <ol class="sflow">${steps.map((x,i) => `<li class="${i === steps.length - 1 ? 'now' : ''}">${stratFmt(x)}</li>`).join('')}</ol>
+    <div class="sint"><span class="ibadge">해설</span>${stratFmt(c['해설'] || '')}</div>
+    <div class="slab">기둥별 행보</div>
+    <div class="sacts">${c.acts.map(a => `<div class="sact"><div class="sp">${esc(a.p)} <span class="sb ${BADGE_CLS(a.badge)}">${esc(a.badge)}</span></div><div class="sx">${stratFmt(a.x)}</div></div>`).join('')}</div>
+  </div>`;
+}
 // 브리핑 글 강조: 라벨 굵게, 날짜 파랑, 원문 인용 형광펜, 숫자 굵게와 위험 낱말 빨강(withTerms의 emph)
 function bFmt(x){
   let s = x || '', lbl = '';
@@ -1176,10 +1241,11 @@ function bFmt(x){
   return (lbl ? `<b class="blbl">${esc(lbl)}</b> : ` : '') + h;
 }
 function bLine(b){
-  const ids = (b.ids||[]).map((id,i) => b.u && b.u[i] ? `<a class="bid" href="${esc(b.u[i])}" target="_blank" rel="noopener">${esc(id)}</a>` : `<span class="bid">${esc(id)}</span>`).join('');
-  const extra = (b.u||[]).slice((b.ids||[]).length).map(u => `<a class="bid" href="${esc(u)}" target="_blank" rel="noopener">원문</a>`).join('');
+  const us = [...new Set(b.u||[])];
+  const ids = us.map((u,i) => `<a class="bid" href="${esc(u)}" target="_blank" rel="noopener" title="${esc((b.ids||[])[i]||'원문')}">↗</a>`).join('');
+  const extra = '';
   if (b.lv === '표') return `<div class="bl tb"><span class="bx">${bFmt(b.x)}</span>${ids}${extra}</div>`;
-  const x = (b.x||'').trim();
+  const x = (b.x||'').replace(/\s*(?:F-\d{4}|CASE-\d+)(?:\([^)]*\))?/g, '').replace(/\s+([.,])/g, '$1').trim();
   const isInterp = /^해석\s*:/.test(x);
   const isKey = /^(축|가설)\s*:/.test(x);
   const mk = b.lv === '•' ? '•' : b.lv ? '-' : '';
@@ -1218,12 +1284,14 @@ function bTable(rows){
 }
 function renderBrief(){
   const B = D.briefs || {cos: []};
-  const tabs = [...B.cos.map(c => [c.name, c.name]), ['ats','야간 ATS']];
+  const tabs = [['strat','전략 한눈에'], ...B.cos.map(c => [c.name, c.name]), ['ats','야간 ATS']];
+  const S = parseStrat(D.strat);
   let h = `<div class="page brief"><div class="bnav">${tabs.map(([k,l]) => `<button type="button" data-brief="${esc(k)}" aria-current="${briefCur===k}">${esc(l)}</button>`).join('')}</div>`;
   if (briefCur === 'axes') h += `<h1>승인된 축과 가설</h1>` + bTable(B.axes);
   else if (briefCur === 'pillars') h += `<h1>9곳 전략 틀 비교</h1>` + bTable(B.pillars) + (B.pillars_read||[]).map(x => `<div class="bl"><span class="bm">•</span><span>${esc(x)}</span></div>`).join('');
   else if (briefCur === 'ats') h += `<h1>야간 ATS 3곳</h1>` + bBlocks(B.ats||[]);
-  else { const c = B.cos.find(x => x.name === briefCur); if (c) h += `<h1>${esc(c.name)} 브리핑</h1>` + bBlocks(c.blocks); }
+  else if (briefCur === 'strat') h += `<h1>회사별 전략 한눈에</h1><div class="scommon">${stratFmt(S.common)}</div><div class="sgrid">${B.cos.map(c => `<div class="sgi">${stratCard(S.cos[c.name])}<button type="button" class="sgo" data-brief="${esc(c.name)}">${esc(c.name)} 브리핑 열기</button></div>`).join('')}</div>`;
+  else { const c = B.cos.find(x => x.name === briefCur); if (c) h += `<div class="bwrap"><div class="bmain"><h1>${esc(c.name)} 브리핑</h1>` + bBlocks(c.blocks) + `</div><aside class="bside">${stratCard(S.cos[c.name], true)}</aside></div>`; }
   h += '</div>';
   $('#main').innerHTML = h;
 }
@@ -1254,9 +1322,9 @@ document.addEventListener('input', e => {
 // ---------- 시작 ----------
 const fromHash = location.hash.slice(1);
 cur = CO[fromHash] ? fromHash : (CO['overview'] ? 'overview' : D.companies[0].slug);
-if (fromHash.startsWith('v-') && ['compare','lic','rules','brief','cmp3','qa'].includes(fromHash.slice(2))) view = fromHash.slice(2);
+if (fromHash.startsWith('v-') && ['compare','lic','rules','brief','cmp3','qa','parts'].includes(fromHash.slice(2))) view = fromHash.slice(2);
 if (!fromHash) view = 'cmp3';
 renderNav(); render();
-window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (CO[h] && (h !== cur || view !== 'read')){ cur = h; view = 'read'; render(); } else if (h.startsWith('v-') && h.slice(2) !== view && ['compare','lic','rules','brief','cmp3','qa'].includes(h.slice(2))){ view = h.slice(2); render(); } });
+window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (CO[h] && (h !== cur || view !== 'read')){ cur = h; view = 'read'; render(); } else if (h.startsWith('v-') && h.slice(2) !== view && ['compare','lic','rules','brief','cmp3','qa','parts'].includes(h.slice(2))){ view = h.slice(2); render(); } });
 })();
 </script>
