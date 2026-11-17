@@ -96,7 +96,7 @@ def degap(s):
     return ' '.join(keep).strip()
 
 
-def img_rows(ws, row, path, what, note, col_img='C', col_txt='D'):
+def img_rows(ws, row, path, what, note, col_img='A', col_txt='B'):
     """사진 한 장을 넣고 옆 칸에 설명. 다음 행 번호를 돌려줌."""
     what, note = degap(what), degap(note)
     try:
@@ -118,73 +118,62 @@ def img_rows(ws, row, path, what, note, col_img='C', col_txt='D'):
     img.width, img.height = dw, dh
     ws.add_image(img, f'{col_img}{row}')
     ws.row_dimensions[row].height = max(30, img.height * 0.75 + 6)
-    ws[f'B{row}'] = '사진'
-    ws[f'B{row}'].font = f_small
-    ws[f'B{row}'].alignment = wrap
-    ws.merge_cells(f'{col_txt}{row}:E{row}')
+    ws.merge_cells(f'{col_txt}{row}:C{row}')
     c = ws[f'{col_txt}{row}']
     c.value = f'무엇 : {what}\n\n해석 : {note}\n\n파일 : {path}'
     c.font = f_base
     c.alignment = wrap
-    for col in 'ABCDE':
-        ws[f'{col}{row}'].fill = fill_img
     return row + 1
 
 
 def setup(ws, title, sub=''):
-    ws.column_dimensions['A'].width = 16
-    ws.column_dimensions['B'].width = 5
-    ws.column_dimensions['C'].width = 92
-    ws.column_dimensions['D'].width = 22
-    ws.column_dimensions['E'].width = 46
-    ws.merge_cells('A1:E1')
+    ws.sheet_view.showGridLines = False
+    ws.column_dimensions['A'].width = 100
+    ws.column_dimensions['B'].width = 22
+    ws.column_dimensions['C'].width = 46
+    ws.merge_cells('A1:C1')
     ws['A1'] = title
     ws['A1'].font = f_h1
     ws['A1'].fill = fill_h1
     ws['A1'].alignment = Alignment(vertical='center')
     ws.row_dimensions[1].height = 26
-    if sub:
-        ws.merge_cells('A2:E2')
-        ws['A2'] = sub
-        ws['A2'].font = f_small
-        ws['A2'].alignment = wrap
-    hdr = ['구분', '단계', '내용', '근거 번호', '원문 링크']
+    hdr = ['내용', '근거 번호', '원문 링크']
     for i, h in enumerate(hdr):
-        c = ws.cell(row=3, column=i + 1, value=h)
+        c = ws.cell(row=2, column=i + 1, value=h)
         c.font = f_bold
         c.fill = fill_h2
-        c.border = box
-    ws.freeze_panes = 'A4'
+    ws.freeze_panes = 'A3'
     ws.page_setup.orientation = 'landscape'
     ws.sheet_properties.pageSetUpPr.fitToPage = True
     ws.page_setup.fitToWidth = 1
     ws.page_setup.fitToHeight = 0
-    return 4
+    return 3
 
 
 def put_line(ws, row, part, level, text, ids, urls, hl=False, font=None, fill=None):
-    ws.cell(row=row, column=1, value=part).font = f_small
-    ws.cell(row=row, column=2, value=level).font = f_base
-    c = ws.cell(row=row, column=3, value=text)
+    s = text.strip()
+    if level == '•':
+        text = '• ' + s
+    elif level in ('-', '--'):
+        text = '      ' * len(level) + '- ' + s
+    c = ws.cell(row=row, column=1, value=text)
     c.font = font or (f_bold if hl else f_base)
     c.alignment = wrap
     if hl and not fill:
         c.fill = fill_hl
-    d = ws.cell(row=row, column=4, value=' '.join(ids))
+    d = ws.cell(row=row, column=2, value=' '.join(ids))
     d.font = f_small
     d.alignment = wrap
     if urls:
-        e = ws.cell(row=row, column=5, value='\n'.join(dict.fromkeys(urls)))
+        e = ws.cell(row=row, column=3, value='\n'.join(dict.fromkeys(urls)))
         e.hyperlink = urls[0]
         e.font = f_link
         e.alignment = wrap
     if fill:
-        for col in range(1, 6):
+        for col in range(1, 4):
             ws.cell(row=row, column=col).fill = fill
-    for col in range(1, 6):
-        ws.cell(row=row, column=col).border = box
-    # 행 높이: 글자 수로 대략
-    n = max(1, len(text) // 44 + text.count('\n') + 1, len(dict.fromkeys(urls)) * 2)
+    # 행 높이: 글자 수로 대략(A열 한 줄 약 48자)
+    n = max(1, len(text) // 48 + text.count('\n') + 1, len(dict.fromkeys(urls)) * 2)
     ws.row_dimensions[row].height = min(409, 14 * n + 4)
     return row + 1
 
@@ -192,7 +181,7 @@ def put_line(ws, row, part, level, text, ids, urls, hl=False, font=None, fill=No
 def company_sheet(wb, co):
     md = open(f'briefs/{co}.md', encoding='utf-8').read()
     ws = wb.create_sheet(co)
-    row = setup(ws, f'{co} 브리핑', '순서: 축과 가설 → 스토리라인(7절) → 1층(키워드) → 2층(받치는 사실) → 3층(꼬리질문 대비). 전략 틀 캡처는 3절 아래, 근거 캡처는 그 사실을 인용한 줄 아래.')
+    row = setup(ws, f'{co} 브리핑')
     placed = set()
     part = ''
     pillar_caps = sorted(p for p in glob.glob('captures/pillars/*.png') if os.path.basename(p).startswith(co + '_'))
@@ -290,6 +279,7 @@ PILLAR_ORDER = {k: i for i, k in enumerate(NOTES.keys())}
 
 def table_sheet(wb, name, title, md_path, start_marker=None, end_marker=None):
     ws = wb.create_sheet(name)
+    ws.sheet_view.showGridLines = False
     t = open(md_path, encoding='utf-8').read()
     if start_marker and start_marker in t:
         t = t[t.index(start_marker):]
@@ -308,7 +298,6 @@ def table_sheet(wb, name, title, md_path, start_marker=None, end_marker=None):
             c = ws.cell(row=ri + 3, column=ci + 1, value=text)
             c.font = f_bold if ri == 0 else f_base
             c.alignment = wrap
-            c.border = box
             if ri == 0:
                 c.fill = fill_h2
         ws.row_dimensions[ri + 3].height = 15 * max(1, max(len(x) for x in r) // 40 + 1) if ri else 18
@@ -323,6 +312,7 @@ def main():
     wb = Workbook()
     toc = wb.active
     toc.title = '목차'
+    toc.sheet_view.showGridLines = False
     toc.column_dimensions['A'].width = 22
     toc.column_dimensions['B'].width = 110
     toc['A1'] = 'KDX 해외 사례 브리핑 (2026-11-17)'
@@ -337,15 +327,6 @@ def main():
         toc.cell(row=4 + i, column=1, value=a).font = f_bold
         toc.cell(row=4 + i, column=1).hyperlink = f"#'{a}'!A1"
         toc.cell(row=4 + i, column=2, value=b).font = f_base
-    r = 6 + len(items)
-    notes = ['읽는 법',
-             '스토리라인 문장 끝 근거 번호(F-xxxx)는 근거 번호 칸에, 원문 링크는 오른쪽 칸에 있음(첫 링크는 눌러서 열림).',
-             '노란 칸은 핵심 결론 구절이 있는 줄.',
-             '"해석"으로 시작하는 줄과 사진 옆 해석은 사실이 아니라 근거를 바탕으로 한 판단.',
-             '사진은 원문 화면 캡처. 사진 옆 칸에 무엇을 보여주는지, 해석, 파일 경로.']
-    for i, n in enumerate(notes):
-        c = toc.cell(row=r + i, column=1 if i == 0 else 2, value=n)
-        c.font = f_bold if i == 0 else f_base
     table_sheet(wb, '축과 가설', '승인된 축과 가설', 'axes.md', '## 승인된 축', '\n---\n')
     ws, nr = table_sheet(wb, '전략 틀 비교', '9곳 전략 틀 비교', 'briefs/00_전략틀_비교.md', '## 한눈에', '## 읽는 법')
     t = open('briefs/00_전략틀_비교.md', encoding='utf-8').read()
