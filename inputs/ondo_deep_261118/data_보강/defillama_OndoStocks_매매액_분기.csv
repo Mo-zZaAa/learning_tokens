@@ -1,0 +1,7 @@
+﻿분기,매매액_백만달러,집계일수,첫날,끝날,출처,받은날,비고
+2025-Q3,316.5,30,2025-09-01,2025-09-30,https://api.llama.fi/summary/dexs/ondo-global-markets?dataType=dailyVolume,2026-11-18,"DefiLlama 정의: Ondo Global Markets 사고팔기 금액(이더리움, BNB 체인 TradeExecuted 이벤트, 솔라나 발행과 상환 매매) / 2025-09-01부터"
+2025-Q4,1272.5,92,2025-10-01,2025-12-31,https://api.llama.fi/summary/dexs/ondo-global-markets?dataType=dailyVolume,2026-11-18,"DefiLlama 정의: Ondo Global Markets 사고팔기 금액(이더리움, BNB 체인 TradeExecuted 이벤트, 솔라나 발행과 상환 매매)"
+2026-Q1,2780.7,90,2026-01-01,2026-03-31,https://api.llama.fi/summary/dexs/ondo-global-markets?dataType=dailyVolume,2026-11-18,"DefiLlama 정의: Ondo Global Markets 사고팔기 금액(이더리움, BNB 체인 TradeExecuted 이벤트, 솔라나 발행과 상환 매매)"
+2026-Q2,3008.4,91,2026-04-01,2026-06-30,https://api.llama.fi/summary/dexs/ondo-global-markets?dataType=dailyVolume,2026-11-18,"DefiLlama 정의: Ondo Global Markets 사고팔기 금액(이더리움, BNB 체인 TradeExecuted 이벤트, 솔라나 발행과 상환 매매)"
+2026-Q3,1593.9,92,2026-07-01,2026-09-30,https://api.llama.fi/summary/dexs/ondo-global-markets?dataType=dailyVolume,2026-11-18,"DefiLlama 정의: Ondo Global Markets 사고팔기 금액(이더리움, BNB 체인 TradeExecuted 이벤트, 솔라나 발행과 상환 매매)"
+2026-Q4,737.1,47,2026-10-01,2026-11-16,https://api.llama.fi/summary/dexs/ondo-global-markets?dataType=dailyVolume,2026-11-18,"DefiLlama 정의: Ondo Global Markets 사고팔기 금액(이더리움, BNB 체인 TradeExecuted 이벤트, 솔라나 발행과 상환 매매) / 2026-11-16까지"
