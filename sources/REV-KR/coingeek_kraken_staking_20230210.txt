@@ -1,0 +1,221 @@
+
+ -->
+Kraken fined $30M, ends US staking services
+Reserved IP Address
+°C
+ 11-18-2026 
+ Breaking News
+ CFTC okays blockchain-based derivatives architecture, probes Kalshi 
+BSV
+$19.82
+Vol 9.93m
+-1.12%
+BTC
+$83696
+Vol 34813.46m
+0.33%
+BCH
+$305.8
+Vol 245.96m
+-1.38%
+DOGE
+$0.09
+Vol 1017.94m
+0.49%
+Home
+News
+News
+Business
+Tech
+Finance
+Editorial
+Interviews
+Events
+Videos
+Resources
+Resources
+Blockchain 101
+Bitcoin 101
+More
+More
+Market Cap
+About Us
+Meet the Team
+Contact Us
+Terms of Use
+Privacy Policy
+Cookie Notice
+Advertising
+ Business
+Kraken fined $30M by SEC, agrees to halt US customer staking programs
+By 
+Steven Stradbrooke
+. Senior writer covering all things blockchain, with a focus on regulatory, legislative and policy developments.
+Published:
+Feb 10, 2023
+/
+Last updated:
+Dec 9, 2025
+Homepage
+ > 
+News
+ > 
+ Business
+ > 
+Kraken fined $30M by SEC, agrees to halt US customer staking programs
+Getting your 
+Trinity Audio
+ player ready...
+The 
+Kraken
+ cryptocurrency exchange will pay $30 million and give up its U.S. token-staking business to settle a complaint by the 
+U.S. Securities and Exchange Commission
+ (SEC), leaving rival 
+Coinbase
+ (NASDAQ: 
+COIN
+) bracing for impact.
+On Thursday, the SEC announced that two Kraken entities—Payward Ventures Inc. and Payward Trading Ltd—had agreed to “immediately cease offering or selling securities through crypto asset staking services or staking programs and pay $30 million in disgorgement, prejudgment interest, and civil penalties.”
+Without admitting or denying its guilt, the San Francisco-based Kraken has agreed to be permanently enjoined from “directly or indirectly, offering or selling securities through crypto asset staking services or staking programs.” This ban applies regardless of whether or not said programs are registered as securities with the SEC.
+The SEC says that Kraken’s staking program, which got underway in December 2019, generated “at least $147 million” in net revenue for the exchange through mid-2022. Of this sum, “at least $45.2 million” was derived from around 135,000 U.S. customers who staked over $2.7 billion worth of tokens. Kraken’s profits from the U.S staking investors were just under $15 million.
+Kraken is a private company that isn’t required to issue quarterly financial reports, but the company’s 2021 annual shareholder update revealed that staking “was Kraken’s fastest growing product in 2021 and accounted for more than one-third of Kraken’s gross revenue growth.”
+SEC chairman Gary Gensler said it didn’t matter whether it was “staking-as-a-service, lending, or other means, crypto intermediaries, when offering investment contracts in exchange for investors’ tokens, need to provide the proper disclosures and safeguards required by our securities laws.”
+SEC Division of Enforcement director Gurbir Grewal said the SEC had retail investors in mind when it shut down “this unregistered crypto staking program, through which Kraken not only offered investors outsized returns untethered to any economic realities, but also retained the right to pay them no returns at all.”
+Howey doin’?
+The SEC’s 
+complaint
+ notes that Kraken offered staking programs on 15 different tokens, including 
+Ethereum
+, 
+Solana
+, 
+Cardano
+, and even the ill-fated 
+Luna
+ before it incinerated.
+Blockchains with 
+‘proof of stake’
+ consensus mechanisms require users to stake a certain number of tokens to serve as a ‘validator’ of blockchain transactions. In many cases, this can be cost-prohibitive: Ethereum, for example, 
+requires a minimum of 32 ETH
+ to be a validator, which at current prices totals nearly $50,000.
+Exchanges
+ like Kraken allow users to ‘pool’ their tokens into a larger staking group, thereby permitting small-scale users the opportunity to earn a portion of the pool’s staking rewards. Kraken does all the actual work while periodically paying out staking rewards to pool members.
+The SEC notes that Kraken determined the actual rewards pool members would receive rather than the returns actually produced from the respective blockchains. Kraken didn’t disclose to pool members what rewards the 
+exchange
+ kept for itself, leaving customers unable to determine “if they are receiving their fair share of the staking rewards.” Kraken also didn’t disclose fees or costs to operate the staking program.
+Kraken “offered and sold investment contracts without registering the offer or sales with the SEC as required by the federal securities laws, and no exemption from the registration requirement applied.” Without a registration statement, pool members “lacked material information” regarding the staking program.
+For instance, Kraken kept some of the tokens submitted by pool members as a “liquidity reserve,” which allowed the exchange to quickly fulfill withdrawal requests. But the SEC notes that it’s unclear if/how these reserve tokens were distinguished from other tokens stored on the platform, and whether or not they’d be protected from other creditors in the event of bankruptcy.
+The SEC maintains that the staking program qualified as a security under the 
+Howey test
+. First, customers give Kraken their digital assets, fulfilling the test’s ‘investment of money’ requirement. Second, the nature of the pool means customers and Kraken are ‘participating in a common enterprise.’
+As for the ‘expectation of profits,’ Kraken’s marketing promised “up to 21%” annual returns on customers’ tokens. Finally, staking is a passive investment opportunity, leaving members dependent on Kraken to do all the work, so profits came ‘predominantly from the efforts of others.’
+Kraken promoted its technical ability and expertise to manage the staking program to maximize customers’ returns. Customers understood that Kraken would keep a portion of the staking rewards as its profit and thus would expect the exchange to have “strong financial incentives to engage in the efforts required to make the enterprise successful.”
+Release the Powell!
+Kraken’s outgoing CEO 
+Jesse Powell
+ interrupted his usual scanning the sky for black helicopters long enough to 
+tweet
+ that the staking ban “applies to US accounts only. Staking continues as usual outside of the US.”
+Powell also reiterated the crypto sector’s oft-repeated complaint that comprehending securities law is hard, 
+saying
+: “Some guidance would be appreciated. The “This is wrong but I won’t tell you how to do it right. Want to find out if X works? Try it and see what happens approach does not help the industry nor consumers.”
+It’s unclear why no one at Kraken appears to have solicited the SEC’s opinion on the legality of its staking programs. Presumably, they opted against clarity because they suspected they wouldn’t like the answer, which would rob them of plausible deniability.
+Coinbase’s chief legal officer Paul Grewal sought to distinguish between his exchange’s staking products and Kraken’s, 
+saying
+ the latter “are basically yield products. True on-chain staking services like ours are fundamentally different.”
+Powell responded by 
+saying
+, “I honestly hope that somebody proves, in court, that there is a legal, user-friendly version of custodial staking that can be offered to US consumers. It’ll be a brutal, lengthy, expensive fight and a massive distraction but the industry and the USA will be extremely grateful.”
+Perhaps the SEC’s action will convince Kraken to finally comply with the Internal Revenue Service’s (IRS) ‘request’ for financial information on the exchange’s customers. It’s been a couple of years since the IRS began 
+hounding Kraken for this info
+. The taxman filed a petition Thursday seeking permission from the U.S. District Court for the Northern District of California to enforce its summons. When it rains…
+Real ostriches don’t stick their heads in the sand
+SEC Commissioner Hester Peirce, a prominent digital currency advocate in Washington, 
+dissented
+ from the SEC’s decision to go after Kraken. Peirce lamented that she “should have called for us to put out guidance on staking long before now,” but wondered “whether SEC registration would have been possible” in Kraken’s case.
+Coinbase CEO 
+Brian Armstrong
+ agreed with Hester, 
+claiming
+ that “there was no way to register” staking products with the SEC, making it “a disingenuous offer.” No doubt Armstrong—who 
+telegraphed the SEC’s Kraken action
+ on Wednesday—is bracing for what the SEC has in store for his own company.
+Coinbase’s 
+Q3 financial report
+ showed that ‘blockchain rewards’ (aka staking) generated revenue of $62.8 million, roughly 11% of total revenue for the quarter. Moreover, while staking revenue was down from Q2, it fell only around 8%. Transaction revenue—the company’s bread-and-butter—fell over 44%.
+It’s unclear how much of Coinbase’s staking revenue was derived from U.S. customers, but if Kraken is any guide, it will be at least one-third. Coinbase will reveal its Q4/FY22 results on February 21 and having already lost over $2 billion in the first nine months of last year, and retail crypto traders having lost the stomach for this rollercoaster, Coinbase’s figures are expected to be grim.
+The turd-polishing that Armstrong will be forced to conduct during the ensuing analyst call will be doubly hard if investors can no longer expect staking to help keep the ship afloat. Having already 
+laid off over 2,000 staff
+, opportunities for further belt-tightening are limited.
+Coinbase’s stock price fell over 14% on Thursday, the third straight day of decline, and continued to fall in after-hours trading. The shares traded in the $84 range earlier this month, but closed Thursday below $60.
+Grewal’s blind faith that Coinbase’s staking products are immune from prosecution is typical for Coinbase, which still believes it can defeat the evil SEC’s attempts to prove that many of the tokens listed on the exchange are 
+unregistered securities
+. In an effort to save its own neck from the legal noose, Coinbase appears to be bankrolling the civil defense of a former staffer who 
+pled guilty
+ this week to criminal charges of insider trading on Coinbase token listings.
+What is it about these crypto bros that makes them so impervious to rationality? Perhaps it’s the preposterous wealth they accumulated during the boom times that convinced them they can do no wrong. Armstrong bought himself a $133 million mansion for a Christmas present in 2021. He must have paid extra for the reality-defying force field that envelops it.
+Follow 
+CoinGeek’s Crypto Crime Cartel
+ series, which delves into the stream of groups—from 
+BitMEX
+ to 
+Binance
+, 
+Bitcoin.com
+, 
+Blockstream
+, 
+ShapeShift
+, 
+Coinbase
+, 
+Ripple
+, 
+Ethereum
+, 
+FTX 
+and 
+Tether
+—who have co-opted the digital asset revolution and turned the industry into a minefield for naïve (and even experienced) players in the market.
+Steven Stradbrooke
+Steven Stradbrooke is a ‘self-taught’ writer who learned his craft from every book, newspaper, magazine, newsletter, snarky blog post and bathroom wall poem he ever read. Formerly the senior writer for 11 years at the CalvinAyre.com gambling industry news site, Steven wrote his first Bitcoin-focused article in 2011 and began contributing to CoinGeek in 2017. He joined CoinGeek full-time in 2021.
+Tagged:
+Brian Armstrong
+Coinbase
+Crypto Crime Cartel
+Jesse Powell
+Kraken
+Payward Trading Ltd
+Payward Ventures Inc
+Securities and Exchange Commission
+United States
+Sign up to The Coingeek Newsletter
+By Caroline Casey
+Subscribe
+ -->
+Recommended for you
+South Korean crypto exchanges face falling volume, more hacks
+ Upbit parent Dunamu posts a $13.9M Q3 loss as South Korean crypto volume slumps, Bithumb and Coinone report hacks, and... 
+By 
+Steven Stradbrooke
+November 18, 2026
+CFTC okays blockchain-based derivatives architecture, probes Kalshi
+ Senate panel grills CFTC nominees as the agency approves Backpack and tZERO blockchain derivatives platforms and Kalshi halts Trump mention... 
+By 
+Steven Stradbrooke
+November 18, 2026
+Stay Connected
+CoinGeek is a global media platform covering blockchain and emerging technologies, including BSV blockchain, artificial intelligence (AI), and Web3. It delivers authoritative news, analysis, and educational content for developers, enterprises, and early adopters building scalable blockchain applications, from digital wallets and gaming platforms to enterprise data solutions. CoinGeek also serves as a leading source of insight on BSV blockchain, recognized for its enterprise-grade scalability, low-cost transactions, and alignment with the original Bitcoin protocol described by Satoshi Nakamoto in the 2008 Bitcoin white paper.
+News
+Contact Us
+About Us
+Advertising
+Terms of Use
+Privacy Policy
+Cookie Notice
+Stay Updated,
+Be Informed
+2026 © All Rights Reserved.
+We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.
+Ok
+

@@ -1,0 +1,968 @@
+REGISTERED NUMBER: 09172128 (England and Wales)
+
+ANNUAL REPORT AND
+FINANCIAL STATEMENTS
+FOR THE YEAR ENDED 31 DECEMBER 2021
+FOR
+CRYPTO FACILITIES LTD
+
+mnt
+
+05/10/2022
+COMPANIES HOUSE _ i
+
+WEDNESDAY
+CRYPTO FACILITIES LTD
+
+CONTENTS OF THE FINANCIAL STATEMENTS
+for the year ended 31 December 2021
+
+Page
+Company Information 1
+Strategic Report 2
+Report of the Directors 4
+Report of the Independent Auditors 6
+Statement of Comprehensive Income 9
+Statement of Financial Position 10
+Statement of Changes in Equity 1
+Notes to the Financial Statements 12
+
+Trading and Profit and Loss Account 24
+CRYPTO FACILITIES LTD
+
+COMPANY INFORMATION
+for the year ended 31 December 2021
+
+DIRECTORS: SF Chung”
+GM Worrall
+CWTing ©
+
+REGISTERED OFFICE; 6th Floor, One London Walt
+London
+United Kingdom
+EC2R 7BP
+
+REGISTERED NUMBER: 09172128 (England and Wales)
+
+AUDITORS: Mazars LLP
+30 Old Bailey
+London
+EC4M 7AU
+
+Page 1
+CRYPTO FACILITIES LTD
+
+STRATEGIC REPORT
+for the year ended 31 December 2021
+
+The directors present their strategic report for the year ended 31 December 2021.
+
+REVIEW OF BUSINESS
+
+Crypto Facilities Ltd, (the “Company’) is a wholly owned subsidiary of Crypto Research Ltd (The “Parent"), a Company
+registered in England and Wales. The Company operates a platform which allows participants to trade in Futures based
+‘on the price of cryptocurrency. The Company has one core regulated business, enabling customers to trade in digital
+asset Futures on its Muttilateral Trading Facility (MTF).
+
+The Company derives revenue from trading fees charged to participants for every matched transactions based on the
+notional value of derivatives contracts traded on its exchange platform.
+
+As of 31 December 2021, the Company had £12.4 million of cash on hand.
+
+Financial Key Performance indicators
+
+For the year ended 31 December 2021, the Company key performance indicators ("KPI") include but are not limited to
+trading volume and revenue. These metrics provide indicators as to the performance of the Company and its ability to
+retain and grow its client base.
+
+The Company tumover increased from £7.4 million to £13.9 million in the year 2021, an increase of 89%, driven by
+significant enhancements to the trading platform, changes to pricing structure from tate 2020 and market volatility. As a
+result, trading revenue almost doubled while trading volume grew by nearly 500% in the year 2021.
+
+PRINCIPAL RISKS AND UNCERTAINTIES
+
+Internal and third-party fraud risk
+
+Digital Assets and cryptocurrencies are supported by digital networks, operated through protocols established and
+govemed by consensus that are implemented through computer sofware. They are therefore exposed to risks due to
+fraud, technological glitches, malware, and. hackers. The loss of access to its private keys or other data loss could
+adversely impact the Company's reputation, business, financial condition, and operations. The Company employs strict
+measures and controls in ensuring that customer data and assets are safeguarded. Furthermore, the Company has
+on-going mechanisms to monitor platform activity and reconciliation of transactions against platform data.
+
+Market Risk
+
+The primary activity of the Company is the provision of a trading platform that allows its users to transact in
+cryptocurrency derivative contracts. The Company generates trading revenues through the charging of fees to the clients
+of the platform each time they execute a transaction, and these fees are in the form of cryptocurrency. The Company's
+trading revenues are therefore subject to significant cryptocurrency market risk.
+
+Liquidity Risk
+The Company is unlikely to encounter liquidity risks in the short to medium term. The Company holds substantial liquid
+cash reserves that exceed its typical annual cash out-flows (cash balances in 2021 are £12.4 million though expected to
+decrease to £10.4 million by the end of 2022 due to the industry market condition as observed in the last few months, we
+expect to maintain cash reserves more than our minimal capital adequacy and annual cash outflows. It therefore does
+not depend on the liquidation of illiquid assets to satisfy its liabilities.
+
+Credit Risk
+
+The Company is not subject to any significant credit risks. The Company does not extend credit to any of the clients on
+its trading platform and does not intend to change this aspect of its business model. The Company has no plans to
+extend into lines of business that would ater its credit risk profile. Trade debtors comprise a minimal proportion of its
+balance sheet and this is not forecast to change in a significant manner. The Company's main banking facilities are with
+BW Bank of Germany, a bank that benefits from strong ratings from Moodys (Long-term Bank Deposits Aa3, Short-term
+rating P-1).
+
+Future Developments
+The Company continues to enhance its trading platform to attract and retain customers.
+
+Key elements of the Company's strategy include but are not limited to the following:
+
+- Provide customers with the option to collateralise in BTC/EUR and ETH/EUR contracts
+- Customer retention and growth
+
++ Providing customers with the option to trade on the platform by depositing legal tender
+
+We will continue to offer top level client experience and add additional platform improvements in order to retain and
+deliver a superior trading experience for our Members. We have recently hired for a sales role and for a commercial
+operations role in order to support our client growth ambitions by promoting our existing product and our planned
+releases of BTC/EUR and ETH/EUR.
+
+Page 2
+CRYPTO FACILITIES LTD
+
+STRATEGIC REPORT
+for the year ended 31 December 2021
+
+SECTION 172(1) STATEMENT
+In accordance with Section 414CZA, the directors have considered the following matters during the performance of their
+
+duty to promote the success of the Company.
+
+The board's current decisions are aligned with the future aims of the Company, which are primarily orientated towards
+growth and continuously improving the services provided to the Company's clients.
+
+Stakeholder Engagement
+The Company manages its engagements with its key stakeholders in the following ways:
+
+Clients
+
+The Company's clients are the users of its trading platform, and the board is focused on delivering a high-quality user
+experience. This is achieved through collecting client feedback and monitoring the wider industry to inform decisions
+about adding new features and other improvements to the platform. Client engagement is achieved through community
+building, direct client outreach and building meaningful relationships dividual clients. In respect of the Company's
+target market, the Company's long-term plans are to expand its institutional investors member base since it now
+operates a Multilateral Trading Facility (MTF). as well as ensuring that individual investors can access the Company's
+services through user-friendly and trusted channels.
+
+Suppliers
+
+The Company's key supplier is the provider of settlement and valuation pricing for the contracts listed on the trading
+platform, facilitating an integral part of the Company's operations. This relationship is managed through a licensing
+agreement between the parties. The quality and reliability of this service is of key operational and reputational
+importance to the Company and constitutes an essential part of the long-term ambitions of the Company. The Company
+also relies on providers of cloud computing services, and the board is vigilant to the evolving landscape of providers and
+services available to ensure that it is utilizing those that best fit its needs.
+
+Em
+
+The Directors recognise that the Company's employees are crucial to the business and the delivery of the future strategic
+aims. The success of the business depends on attracting, retaining and motivating highly qualified employees. The
+directors understand the importance of pay, benefits, safety and the workplace environment in achieving this objective.
+Management directly engage with all employees on a bi-annual basis through formal conversations, and monthly through
+business updates. Directors consider the implications of decisions on employees and the wider workforce, where
+relevant and feasible.
+
+Decision Making
+The following principal decisions have been made during the year:
+
+Capital allocation
+In the year 2021, the profit and loss reserves of the Company continued to grow and increased by more than 50% of
+2020 reserves level. The board continues to re-invest all of its profits into the business, and no dividend is recommended
+
+for the year ended 31 December 2021.
+
+Culture
+
+in its business conduct, the Company emphasizes transparency and high compliance standards in order to comply with
+the requirements and rules imposed by its regulators, predominantly the Financial Conduct Authority. The Company
+continues to be ambitious in its strategic aims, seeking to maintain a trusted reputation in the market while continuously
+expanding the scope and quality of the services it offers its cllents. The Company also focuses on technological
+
+innovation, allowing it to bring new and innovative products to market while ensuring that these meet the high standards
+the Company is committed to. i F
+
+ON BEHALF OF THE BOARD:
+
+GM Worrall - Director
+
+WUl-O1- 4H
+
+Date:
+
+Page 3
+CRYPTO FACILITIES LTD
+
+REPORT OF THE DIRECTORS
+for the year ended 31 December 2021
+
+The directors present their report with the financial statements of the company for the year ended 31 December 2021.
+
+PRINCIPAL ACTIVITY
+The principal activity of the Company in the year under review was that of the provision of a trading platform with market
+
+places that allows its users to transact in cryptocurrency derivative contracts.
+
+DIVIDENDS
+The profit for the year, after taxation, amounted to £8,658,173 (2020 - £2,643,907).
+
+The directors do not recommend the payment of a final dividend (2020 - £Niil).
+
+FUTURE DEVELOPMENTS
+Refer to Strategic Report for future developments.
+
+DIRECTORS 7
+The directors shown below have held office during the whole of the period from 1 January 2021 to the date of this report.
+
+SF Chung
+GM Worrall
+
+Other changes in directors holding office are as follows:
+
+T Schiaefer - resigned 12 February 2021
+C WTing - appointed 12 February 2021
+£ AM P Van Den Arend - resigned 30 November 2021
+
+INDEMNITY PROVISION
+Third party indemnity cover for the directors was in place during the period and at the period end and lies within the
+
+parent company.
+
+GOING CONCERN
+
+The Directors have a reasonable expectation that the Company has adequate resources to continue in operational
+existence for the foreseeable future. Thus, they continue to adopt the going concem basis in preparing the financial
+statements. Further details regarding the adoption of the going concem basis can be found in Note 2 of the financial
+statements.
+
+STATEMENT OF DIRECTORS’ RESPONSIBILITIES
+The directors are responsible for preparing the Strategic Report, the Report of the Directors and the financial statements
+in accordance with applicable taw and regulations.
+
+Company law requires the directors to prepare financial statements for each financial year. Under that law the directors
+have elected to prepare the financial statements in accordance with United Kingdom Generally Accepted Accounting
+Practice (United Kingdom Accounting Standards and applicable law). Under Company law the directors must not
+approve the financial statements unless they are satisfied that they give a true and fair view of the state of affairs of the
+Company and of the profit or loss of the Company for that period. In preparing these financial statements, the directors
+are required to:
+
+- Select suitable accounting policies and then apply them consistently;
+
+- make judgements and accounting estimates that are reasonable and prudent;
+
+~ prepare the financial statements on the going concem basis unless it is inappropriate to presume that the Company will
+Continue in business.
+
+The directors are responsible for keeping adequate accounting records that are sufficient 1o show and explain the
+Company's transactions and disclose with reasonable accuracy at any time the financial position of the Company and
+enable them to ensure that the financial statements comply with the Companies Act 2006. They are also responsible for
+Safeguarding the assets of the Company and hence for taking reasonable steps for the prevention and detection of fraud
+and other irregularities.
+
+STATEMENT AS TO DISCLOSURE OF INFORMATION TO AUDITORS
+
+So far as the directors are aware, there is no relevant audit information (as defined by Section 418 of the Companies Act
+2006) of which the Company's auditors are unaware, and each director has taken all the steps that ne ought to have
+taken as a director in order to make himself aware of any relevant audit information and to establish that the Company's
+auditors are aware of that information.
+
+Page 4
+CRYPTO FACILITIES LTD
+
+REPORT OF THE DIRECTORS
+for the year ended 31 December 2021
+
+AUDITORS
+The auditors, Mazars LLP, will be proposed for re-appointment at the forthcoming Annual General Meeting.
+
+ON BEHALF OF THE BOARD:
+
+lege
+
+G M Worrall - Director
+
+Date: Ast =O im Bh)
+
+Page 5
+REPORT OF THE INDEPENDENT AUDITORS TO THE MEMBERS OF
+CRYPTO FACILITIES LTD
+
+Opinion
+
+We have audited the financial statements of Crypto Facilities Ltd (the ‘Company’ for the year ended 31 December 2021
+which comprise the Statement of Comprehensive Income, Statement of Financial Position, Statement of Changes iin
+Equity and Notes to the Financial Statements, including a summary of significant accounting policies. The financial
+reporting framework that has been applied in their preparation is applicable law and United Kingdom Accounting
+Standards, including Financial Reporting Standard 102 ‘The Financial Reporting Standard applicable in the UK and
+Republic of Ireland’ (United Kingdom Generally Accepted Accounting Practice).
+
+In our opinion the financial statements:
+
+= give a true and fair view of the state of the company's affairs as at 31 December 2021 and of its profit for the year
+then ended;
+
+= have been properly prepared in accordance with United Kingdom Generally Accepted Accounting Practice; and
+
+- have been prepared in accordance with the requirements of the Companies Act 2006.
+
+Basis for opinion
+
+We conducted our audit in accordance with Intemational Standards on Auditing (UK) (ISAs (UK)) and applicable faw. Our
+responsibilities under those standards are further described in the Auditors’ responsibilities for the audit of the financiai
+statements section of our report. We are independent of the Company in accordance with the ethical requirements that
+are relevant to our audit of the financial statements in the UK, including the FRC's Ethical Standard, and we have fulfilled
+our other ethical responsibilities in accordance with these requirements. We believe that the audit evidence we have
+obtained is sufficient and appropriate to provide a basis for our opinion.
+
+Conclusions relating to going concern
+In auditing the financial statements, we have concluded that the directors‘ use of the going concem basis of accounting
+
+in the preparation of the financial statements is appropriate.
+
+Based on the work we have performed, we have not identified any material uncertainties relating to events or conditions
+that, individually or collectively, may cast significam doubt on the Company's ability to continue as a going concem for a
+period of at least twelve months from when the financial statements are authorised for issue.
+
+Our responsibilities and the responsibilities of the directors with respect to going concern are described in the relevant
+sections of this report.
+
+Other information
+
+The other information comprises the information included in the annual report, other than the financial statements and
+our auditor's report thereon. The directors are responsible for the other information contained within the annual report.
+Our opinion on the financial statements does not cover the other information and, except to the extent otherwise explicitly
+stated in our report, we do not express any form of assurance conclusion thereon.
+
+Our responsibility is to read the other information and, in doing so, consider whether the other information is materially
+inconsistent with the financial statements or our knowledge obtained in the course of the audit, or otherwise appears to
+be materially misstated. If we identify such material inconsistencies or apparent material misstatements, we are required
+to determine whether this gives rise to a material misstatement in the financial statements themselves. if, based on the
+work we have performed, we conclude that there is a material misstatement of this other information, we are required to
+report that fact
+
+‘We have nothing to report in this regard.
+
+Opinions on other matters prescribed by the Companies Act 2006
+
+In our opinion, based on the work undertaken in the course of the audit:
+
+~ _ the information given in the strategic report and the directors’ report for the financial year for which the financial
+statements are prepared is consistent with the financial statements; and
+
+- the strategic report and the directors’ report have been prepared in accordance with applicable legal
+requirements.
+
+Matters on which we are required to report by exception
+In fight of the knowledge and understanding of the Company and its environment obtained in the course of the audit, we
+have not identified materia! misstatements in the strategic report or the directors’ report.
+
+We have nothing to report in respect of the following matters where the Companies Act 2006 requires us to report to you
+
+if, in our opinion:
+
+- adequate accounting records have not been kept, or retums adequate for our audit have not been received from
+branches not visited by us; or
+
+- the financial statements are not in agreement with the accounting records and returns; or
+
+- certain disclosures of directors' remuneration specified by law are not made; or
+
+- we have not received all the information and explanations we require for our audit.
+
+Pages
+REPORT OF THE INDEPENDENT AUDITORS TO THE MEMBERS OF
+CRYPTO FACILMES LTD
+
+Responsibilities of directors
+As explained more fully in the directors’ responsibilities statement set out on page four, the directors are responsible for
+the preparation of the financial statements and for being satisfied that they give a true and fair view, and for such internal
+contro! as the directors determine is necessary to enable the preparation of financial statements that are free from
+material misstatement, whether due to fraud or error.
+
+In preparing the financial statements, the directors are responsible for assessing the Company's ability to continue as a
+going concem, disclosing, as applicable, matters related to going concem and using the going concem basis of
+accounting unless the directors either intend to liquidate the Company or to cease operations, or have no realistic
+alternative but to do so.
+
+Auditors’ responsibilities for the audit of the financial statements
+
+Our objectives are to obtain reasonable assurance about whether the financial statements as a whole are free from
+material misstatement, whether due to fraud or error, and to issue an auditor's report that includes our opinion.
+Reasonable assurance is a high level of assurance but is not a guarantee that an audit conducted in accordance with
+ISAs (UK) will always detect a material misstatement when it exists. Misstatements can arise from fraud or error and are
+considered material if, individually or in the aggregate, they could reasonably be expected to influence. the economic
+decisions of users taken on the basis of the financial statements.
+
+The extent to which our procedures are capable of detecting irregularities, including fraud is detailed below.
+
+Irregularities, including fraud, are instances of non-compliance with laws and regulations. We design procedures in line
+with our responsibilities, outlined above, to detect material misstatements in respect of irregularities, including fraud.
+
+Based on our understanding of the Company and its industry, we considered that non-compliance with the following laws
+and regulations might have a material effect on the financial statements.
+
+To help us identify instances of non-compliance with these laws and regulations, and in identifying and assessing the
+
+risks of material misstatement in respect to non-compliance, our procedures included, but were not limited to:
+
+- Inquiring of management and, where appropriate, those charged with governance, as to whether the Company is
+in compliance with faws and regulations, and discussing their policies and procedures regarding compliance with
+taws and regulations;
+
+- Inspecting correspondence, if any, with relevant licensing or regulatory authoriti
+
+- Communicating identified laws and regulations to the engagement team and remaining alert to any indications of
+non-compliance throughout our audit; and
+
+- Considering the risk of acts by the Company which were contrary to applicable laws and regulations, including
+fraud.
+
+We also considered those laws and regulations that have a direct impact on the preparation of the financial statements
+such as the Companies Act 2006. We evaluated management's incentives and opportunities for fraudulent manipulation
+of the financial statements (including the risk of override of controls) and determined that the principle risks were related
+to posting inappropriate journal entries, and management bias in accounting estimates.
+
+In addition, we evaluated the directors’ and management's incentives and opportunities for fraudulent manipulation of the
+financial statements, including the risk of management override of controls, and determined that the principal risks
+related to posting manual journal entries to manipulate financial performance, management bias through judgements,
+revenue recognition (which we pinpointed to the occurrence of revenue).
+
+Our audit procedures In relation to fraud included but were not limited to:
+
+- Making enquiries of the directors and management on whether they had knowledge of any actual, suspected or
+alleged fraud;
+
+- Gaining an understanding of the internal controls established to mitigate risks related to fraud;
+
+- Discussing amongst the engagement team the risks of fraud; and
+
+- Addressing the risks of fraud through management override of controls by performing journal entry testing.
+
+There are inherent limitations in the audit procedures described above and the primary responsibility for the prevention
+and detection of irregularities including fraud rests with management. As with any audit» there remained a risk of
+Non-detection of irregularities, as these may involve collusion, forgery, intentional omissions, misrepresentations or the
+override of internal controis.
+
+A further description of our responsibilities for the audit of the financial statements is located on the Financial Reporting
+Council's website at www.frc.org.uk/auditorsresponsibilities. This description forms part of our auditor's report.
+
+Page7
+REPORT OF THE INDEPENDENT AUDITORS TO THE MEMBERS OF
+CRYPTO FACILITIES LTD
+
+Use of our report
+
+This report is made solely to the Company's members, as a body, in accordance with Chapter 3 of Part 16 of the
+Companies Act 2006. Our audit work has been undertaken so that we might state to the Company's members those
+matters we are required to state to them in a Report of the Auditors and for no other purpose. To the fullest extent
+permitted: by taw, we do not accept or assume responsibility to anyone other than the Company and the Company's
+members as a body, for our audit work, for this report, or for the opinions we have formed.
+
+Pauline Pélissier (Senior Statutory Auditor)
+for and on behalf of Mazars LLP
+
+30 Old Bailey
+
+London
+
+EC4M 7AU
+
+Date: .30. September. 2022...
+
+Pages’
+CRYPTO FACILITIES LTD “
+
+STATEMENT OF COMPREHENSIVE
+INCOME
+for the year ended 31 December 2021
+
+2021 2020
+Notes € £
+
+TURNOVER 3 13,948,630 7,368,742
+Trading costs (1,396,987) (833,322)
+GROSS PROFIT 12,551,643 6,535,420
+Administrative expenses (4,365,374) (2,582,480)
+OPERATING PROFIT 7 5 8,186,269 3,952,940
+Exceptional administration expenses 6 100 (467,442)
+PROFIT BEFORE TAXATION — 8,186,369 3,485,498
+Tax on profit 7 471,804 ; : (841,591)
+PROFIT FOR THE FINANCIAL YEAR 8,658,173 2,643,907
+Other comprehensive income - =
+TOTAL COMPREHENSIVE INCOME FOR
+
+THE YEAR 8,658,173 843,907
+
+The notes form part of these financial statements
+Page 9
+CRYPTO FACILITIES LTD (REGISTERED NUMBER: 09172128)
+
+STATEMENT OF FINANCIAL POSITION
+
+31 December 2021
+
+FIXED ASSETS.
+Tangible assets
+
+CURRENT ASSETS
+
+Debtors
+Other assets
+Cash at bank
+
+CREDITORS
+
+Amounts failing due within one year
+Other liabilities
+
+NET CURRENT ASSETS:
+
+TOTAL ASSETS LESS CURRENT
+LIABILITIES
+
+PROVISIONS FOR LIABILITIES
+NET ASSETS,
+
+CAPITAL AND RESERVES,
+Called up share capital
+Share premium
+
+Capita! contribution
+Retained earnings
+
+SHAREHOLDERS’ FUNDS
+
+were
+
+on Sate de.
+
+Notes
+
+1
+12
+
+14
+
+15
+16
+16
+16
+
+approved
+
+by the
+
+Board
+... and were signed on its behalf by:
+
+2021
+€£
+19,862
+
+6,837,210
+466,738,055
+
+12,384,476
+485,959,441
+
+(3,805,925)
+(463,518,000)
+
+18,635,516
+
+18,655,378
+
+18,655,378
+
+118
+6,711,629
+356,754
+11,586,877
+
+18,655,378
+
+of
+
+The notes form part of these financial statements
+
+Page 10
+
+Directors
+
+2020
+(Restated)
+£
+
+48,094
+
+649,005
+196,930,546
+9,198,981
+
+206,778,532
+
+(2,982,581)
+(194,186,230)
+
+9,599,721
+
+9,647,815
+
+(7,364)
+
+9,640,451
+
+118
+6,711,629
+
+2,928,704
+
+9,640,451
+
+and authorised for issue
+Balance at 1 January 2020
+
+Changes in equity
+Total comprehensive income
+
+Balance at 31 December 2020
+
+Changes in equity.
+Share based expense
+Total comprehensive income
+
+Balance at 31 December 2021
+
+o:
+
+CRYPTO FACILITIES LTD
+
+‘STATEMENT OF CHANGES IN EQUITY
+for the year ended 31 December 2021
+
+Called up 7 7
+share Retained Share Capital * Total
+Capital - eamings premium contribution equity
+£ £ Ete £ £
+
+118 284,797 6,711,629 - . 6,996,544
+: 2,643,907 : : 2,643,907
+
+a 118 2,928,704 6,711,629 : "9,640,451
+- : 7 aan 356,754 356,754
+: 8,658,173 : : 8,658,173
+
+118 311,586,877 6,711,629 — 356,754 18,655,378
+
+The notes form part of these financial statements
+
+Page 11
+CRYPTO FACILIMES LTD
+
+NOTES TO THE FINANCIAL STATEMENTS
+for the year ended 31 December 2021
+
+STATUTORY INFORMATION
+
+Crypto Facilities Ltd is a limited Company, registered in England and Wales. Its registered office address is 6th
+Floor, One London Wall, London, United Kingdom, EC2Y SEB and the registered number is 09172128.
+
+ACCOUNTING POLICIES
+
+Basis of preparing the financial statements
+
+These financial statements have been prepared in accordance with Financial Reporting Standard 102 “The
+Financial Reporting Standard applicable in the UK and Republic of Ireland” and the Companies Act 2006. The
+financial statements have been prepared under the historical cost convention, unless otherwise stated.
+
+Going concern
+
+The financial statements have been prepared on a going concer basis. Management considered various items
+to make this assessment, the main drivers being the increase in market share and trading volume. Management
+has also considered the main risks the business is facing including but not limited to the current market stagnant
+which is expected to impact revenue by 60% as referenced in the key performance indicators section. However,
+management expects the industry to regain market volatility in the year 2023 and beyond. The assessment also
+considered cash reserves impact but is satisfied that even in worst case scenarios, it would have sufficient cash
+teserves to meet its day-to-day overheads obligation and regulatory capital adequacy requirement and for at
+least, but not limited to, 12 months from the date of this report.
+
+Financia! Reporting Standard 102 - reduced disclosure exemptions
+
+The company has taken advantage of the following disclosure exemptions in preparing these financial
+statements, as permitted by FRS 102 “The Financial Reporting Standard applicable in the UK and Republic of
+ireland”:
+
++ the requirements of Section 7 Statement of Cash Flows;
+
++ the requirement of paragraph 3.17(d);
+
++ — the requirements of paragraphs 11.42, 11.44, 11.45, 11.47, 11.48(a)(lii), 11.48(a)(iv), 11.48(b)
+and 11.48(¢);
+
++ the requirements of paragraphs 12.26, 12.27, 12.29(a), 12.28(b) and 12.29A;
+
++ the requirements of paragraphs 26.18(b), 26.19 to 26.21 and 26.23; and
+
+ad the requirement of paragraph 33.7.
+
+This information is inciuded in the consolidated financial statements of Crypto Research Ltd as at 31 December
+2021 and these financial statements may be obtained from Companies House, Crown Way, Cardiff, CF14 3UZ.
+
+Page 12 continued...
+CRYPTO FACILITIES LTD
+
+' NOTES TO THE FINANCIAL STATEMENTS - continued
+for the year ended 31 December 2021
+
+ee
+
+2. ACCOUNTING POLICIES - continued
+
+Critical accounting judgements and key sources of estimation uncertainty
+
+Preparation of financial statements requires management to exercise judgement in applying the Company's
+accounting policies. Estimates and assumptions used in the preparation’ of the financial statements are
+continually reviewed and revised as necessary.
+
+Key sources of estimation uncertainty:
+- Valuation of cryptocurrencies
+
+The Company recognises and values any fee revenue on the day it is eamed, the translation performed
+using the cryptocusrency reference rates calculated and published from group provider, CF Benchmarks, a
+registered benchmark used by third parties as benchmarks. The financial assets are stated at fair value
+with any resulting gains or losses recognised in the Statement of Comprehensive Income.
+
+The Company recognises customer cryptocurrency liabilities and corresponding customer cryptocurrency
+asset on initia! recognition and.at reporting period at fair value using the same index provider, CF
+i. Benchmark.
+
+Critical accounting judgements:
+
+Under the ASB guidance, the Company is required to disclose any additional information relevant to an
+understanding of its financial statements (paragraph 112 of 1AS 1 Presentation of Financial Statements). The
+Company have recognised the cryptocurrency assets under FRS 102 section 13 but disclosed and presented the
+information under IAS 1 paragraph 122 as non-financial crypto assets and separately reported the crypto assets
+and liability on the SOFP and notes.
+
+- Other assets and liabilities
+
+‘ The Company holds Digital Assets (Cryptocurrency) equal to the amount due to holders of Digital
+Securities mainly for the purposes of meeting its obligations under the Digital Securities. The Company
+also hold Digital Assets in it's own capacity. Whilst the IFRS Interpretation Committee issued an agenda
+
+oF decision onthe accounting for cryptocurrencies in June 2019, there is no one standard under IFRS which
+
+details how digital currencies are to be accounted for. Following a review of the facts and circumstances,
+the directors have determined that the Cryptocurrency assets held fall within the scope of IAS 2 Inventories
+and have accounted for the Cryptocurrency assets in terms of this siandard.
+
+Tumover 7
+Trading revenue comprises the fair value of the consideration received from users of the online marketplace for
+the trading of financial instruments in the ordinary course of the Company's activities. Trading Revenue is shown
+net of value added tax and others sales tax. Trading revenue is recognised when it is probable that economic
+benefits associated with the transaction will flow to the Company, and the trading revenue can be reliably
+measured.
+
+Principal trading revenue derives from trading fees charged to participants for every matched transactions based
+on the notional value of derivatives contracts traded on tts exchange platform. The-Company operates a tler
+
+pricing model based on volume, with tier thresholds set between $100,000 to $1000,000,000. For further details,
+Please refer to https//www.cryptofacilities.com/derivatives/api/v3/feeschedule setting out the full breakdown of
+the tiered fees.
+
+Accounting for cryptocurrencies
+
+The Company values fee revenue on the same day it is earned, the translation performed using the
+cryptocurrency reference rates calculated and published from group provider, CF Benchmarks, a registered
+benchmark used by third parties as benchmarks. This ensures that the financial assets are stated at fair value
+with any resulting gains or losses recognised in the Statement of Comprehensive Income.
+
+Page 13 continued...
+CRYPTO FACILITIES LTD
+
+NOTES TO THE FINANCIAL STATEMENTS - continued
+for the year ended 31 December 2021
+
+ACCOUNTING POLICIES - continued
+
+Tangible fixed assets
+
+Tangible fixed assets under the cost mode! are stated at historical cost less accumulated depreciation and any
+accumulated impairment tosses. Historical cost includes expenditure that is directly attributable to bringing the
+asset to the location and condition necessary for it to be capable of operating in the manner intended by
+management.
+
+Depreciation is charged so as to allocate the cost of assets less their residual value over their estimated useful
+lives, using the straight-line method.
+
+Depreciation is provided on the following basis:
+
+Fixtures and fittings - S years
+Computer equipment - 2 years
+
+The assets’ residual values, useful lives and depreciation methods are reviewed, and adjusted prospectively if
+appropriate, or if there is an indication of a significant change since the last reporting date.
+
+Gains and losses on disposals are determined by comparing the proceeds with the camying amount and are
+recognised in profit or loss.
+
+Taxation
+
+The tax expense for the year comprises current and deferred tax. Tax is recognised in profit or loss except that a
+charge attributable to an item of income and expense recognised as other comprehensive income or to an item
+recognised directly in equity is also recognised in other comprehensive income or directly in equity respectively.
+
+The current income tax charge is calculated on the basis of tax rates and laws that have been enacted or
+substantively enacted by the reporting date in the countries where the Company operates
+and generates income.
+
+Deferred tax balances are recognised in respect of all timing differences that have originated but not reversed by
+the Statement of Financial Position date, except that:
+- The recognition of deferred tax assets is limited to the extent that it is probable that they will be recovered
+against the reversal of deferred tax liabilities or other future taxable profits; and
+- Any deferred tax balances are reversed if and when all conditions for retaining associated tax allowances.
+have been met.
+
+Deferred tax balances are not recognised in respect of permanent differences except in respect of business.
+combinations, when deferred tax is. recognised on the differences between the fair values of assets acquired and
+the future tax deductions available for them and the differences between the fair values of liabilities acquired and
+the amount that will be assessed for tax. Deferred tax is determined using tax rates and laws that have been
+enacted or substantively enacted by the reporting date.
+
+Page 14 continued...
+CRYPTO FACILITIES LTD
+
+NOTES TO THE FINANCIAL STATEMENTS - continued
+for the year ended 31 December 2021
+
+2. ACCOUNTING POLICIES - continued
+
+Research and development
+
+In the research phase of an internal project it is not possible to demonstrate that the project will generate future
+economic benefits and hence ail expenditure on research shall be recognised as an expense when it is incurred.
+Intangible assets are recognised from the development phase of a project if and only if certain specific criteria are
+met in order to demonstrate the asset will generate probable future economic benefits and that its cost can be
+reliably measured. The capitalised development costs are subsequently amortised on a straight line basis over
+their useful economic lives, which range from 3 to 6 years.
+
+If it is not possible to distinguish between the research phase and the development phase of an internal project,
+the expenditure is treated as if it were all incurred in the research phase only.
+
+Foreign currency transiation
+Functional and presentation currency
+The Company's functional and presentational currency is GBP.
+
+Transactions and balances
+_ _ Foreign currency transactions are translated into the functional currency using the spot exchange rates at the
+“dates of the transactions.
+
+At each period end foreign ‘currency monetary items are translated using the closing rate. Non-monetary items
+measured at historical cost are translated using the exchange rate at the date of the transaction and
+non-monetary items measured at fair value are measured using the exchange rate when fair value was
+determined.
+
+Foreign exchange gains and losses resulting from the settlement of transactions and from the translation at
+ee period-end exchange rates of monetary assets and liabilities denominated in foreign currencies are recognised in
+fe + profit or loss except when deferred in other comprehensive income as qualifying cash flow hedges.
+
+Operating leases .
+e Rentals paid under operating leases are charged to profit or {oss on a straight tine basis over the period of the
+“ lease.
+
+Leases that do not transfer all the risks and rewards of ownership are classified as operating leases. Payments
++ under operating leases are charged to profit or loss on a straight line basis over the period of the lease.
+
+Defined contribution pension plan
+
+a * The Company operates a defined contribution pian for its empioyees. A defined contribution pian is a pension
+plan under which the Company pays fixed contributions into a separate entity. Once the contributions have been
+paid the Company has no further payment obligations.
+
+The contributions are recognised as an expense in profit or loss when they fall due. Amounts not paid are shown
+in accruals as a fiabifty in the Statement of Financiaf Position. The assets of the plan are held separately from the
+Company in independently administered funds.
+
+Provisions for liabilities
+
+Provisions are made where an event has taken place that gives the Company a legal or constructive obligation
+that probably requires settlement by a transfer of economic benefit, and a reliable estimate can be made of the
+amount of the obligation.
+
+Provisions are charged as an expense to profit or loss in the year that the Company becomes aware of the
+obligation, and are measured at the best estimate at the Statement of Financial Position date of the expenditure
+required to settle the obligation, taking into account relevant risks and uncertainties.
+
+‘When payments are eventually made, they are charged to the provision carried in the Statement of Financial
+Position.
+
+Page 15 continued...
+CRYPTO FACILITIES LTD
+
+NOTES TO THE FINANCIAL STATEMENTS - continued
+for the year ended 31 December 2021
+
+ACCOUNTING POLICIES - continued
+
+Accounting for Non-financial Cryptocurrency assets
+Other assets represent cryptocurrencies controlled by the Company in respect of cryptocurrency related products
+that are traded on its platform.
+
+At present there is a fack of guidance available on how cryptocurency assets should be accounted for and
+subsequently disclosed in accordance with UK GAAP, and as such the Company follows guidance issued by the
+ASB for those reporters adopting IFRS as adopted by the EU. The Company has considered IASB guidance,
+including the June 2019 IFRIC agenda decision and current market practice.
+
+Cryptocurrency assets are held for sale in the ordinary course of business of the company and therefore are
+accounted for using the principles of IAS 2 Inventories.
+
+IAS 2 requires measurement at the lower of cost and net realisable value. The Company has elected to measure
+the Cryptocurrency assets at fair value less costs to sell.
+
+Cryptocurrency assets are priced on a daily basis based on the amount of the Cryptocurrency assets heid using
+the relevant Quoted Price, and is considered to be the fair value of the Cryptocurrency assets. 3)
+
+Issue and Redemption
+
+Upon initial recog: mn and the receipt of Cryptocurrency assets, they are recorded at fair value using the Quoted
+Price. Upon redemption of Digital Securities and the transfer out of Cryptocurrency assets, the attributable cost
+Shalt be calculated in accordance with the average cost methodology, and the overall cost reduced accordingly to
+represent the de-recognition of the Cryptocurrency assets.
+
+Subsequent Measurement
+Change in the fair value of the Company's own Cryptocurrency assets are recorded through profit or loss.
+
+Change in the fair value of client Cryptocurrency assets are attributable to the holders of the Cryptocurrency
+assets and therefore the change in value of the Cryptocurrency assets is matched with a corresponding change
+to Funds owed to clients. There is no-impact to the Company's profit or loss in this instance.
+
+During 2021 the Company offered contracts that were collateralised and paid out in the following
+cryptocurrencies:
+
+Cryptocurrency Name Trading Symbol
+Bitcoin XBT
+Ether ETH
+Ripple XRP XRP
+Litecoin LTc
+Bitcoin Cash. BCH
+
+Revenues and Company assets
+
+The Company generates revenues through the charging of fees to the users of the platform
+eacn time they execute a transaction In the cryptocurrency Genivative contracts tnat tne
+Company operates a market in. As the contracts are denominated in and paid out in
+cryptocurrency the Company charges its fees in cryptocurrency. The cumulative balance of fees
+is held by the Company as Company assets. From time to time the Company will liquidate the
+Cryptocurrency assets for fiat currency held for corporate purposes.
+
+Page 16 continued...

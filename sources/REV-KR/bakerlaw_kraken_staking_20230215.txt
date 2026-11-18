@@ -1,0 +1,97 @@
+
+Crypto Exchange Kraken Settles SEC Action and Agrees to Pay $30M Fine and Shutter U.S. Crypto Staking Service | BakerHostetler
+Skip to Main Content
+Professionals
+Practices & Industries
+Insights
+Search
+Menu
+Insights
+Alert
+Crypto Exchange Kraken Settles SEC Action and Agrees to Pay $30M Fine and Shutter U.S. Crypto Staking Service
+02/15/2023
+|
+3 minute read
+Share
+Key Takeaways
+The U.S. Securities and Exchange Commission (SEC) charged Payward Ventures Inc. and Payward Trading Ltd., commonly known as Kraken, with the unlawful offer and sale of its crypto asset staking services.
+The SEC alleged that the staking services Kraken offered and sold were securities subject to the registration requirements of the Securities Act of 1933 (Securities Act).
+Per the settlement with the SEC, Kraken agreed to pay a $30 million fine and unstake assets staked by U.S. investors; however, non-U.S. investors will be unaffected.
+The SEC’s Complaint
+According to the SEC’s complaint, Kraken offered and sold its staking
+[1]
+ services to the general public in which participants could transfer crypto assets to Kraken in exchange for “advertised annual investment returns of as much as 21%” (the Kraken Staking Program). The SEC alleges that this Kraken Staking Program enabled Kraken to achieve a competitive advantage in the staking marketplace because Kraken pooled various participants’ crypto assets and staked them on behalf of the participants, thus earning higher returns than if the participants staked the same crypto assets on their own. By pooling and controlling the tokens, Kraken is alleged to have reduced its transaction costs and risks and, in the case of tokens actually staked by Kraken, increased the likelihood that Kraken itself would be selected to validate blockchain transactions, for which they would earn rewards. Accordingly, the SEC’s complaint alleges that investors lost control of the staked tokens and were provided “very little protection” in exchange for the outsized returns.
+By April 2022, U.S. investors had over $2.7 billion worth of crypto assets invested in the Kraken Staking Program, with Kraken having earned from the staking program approximately $147 million in net revenue. Kraken is alleged to have violated the Securities Act by failing to register its staking services with the SEC, which did not otherwise qualify for an exemption from such requirements.
+Kraken’s purported failure to register prevented investors access to material information about the Kraken Staking Program, which included the business and financial condition of Kraken, the fees charged by Kraken, the extent of Kraken’s profits, and the specific and detailed risks of the investment. Investors were also unaware of Kraken’s financial condition and whether it had the means of paying the marketed returns.
+In the press release announcing the settlement, Gurbir Grewal, Director of the SEC’s Division of Enforcement, stated that “Kraken not only offered investors outsized returns untethered to any economic realities, but also retained the right to pay them no returns at all. All the while, it provided them zero insight into, among other things, its financial condition and whether it even had the means of paying the marketed returns in the first place.”
+[2]
+Settlement Terms
+Kraken did not admit or deny the SEC’s allegations, but it agreed to pay a $30 million fine and unstake assets staked by only U.S. investors, who will also not be able to stake new assets.   Kraken, however, will not unstake ether until after the Ethereum Network’s Shanghai upgrade (an Ethereum Network upgrade) takes effect. Kraken’s unstaking of crypto assets will not affect non-U.S. investors. The settlement also permanently enjoins Kraken from violating Section 5 of the Securities Act and from directly or indirectly offering or selling securities through its aforementioned crypto asset staking services.
+Conclusion
+The SEC continues to take the position that certain crypto-related schemes are investment contracts. Indeed, SEC Chair Gary Gensler stated specifically in the press release that “staking-as-a-service providers must register and provide full, fair, and truthful disclosure and investor protection.”
+[3]
+ If a company has or is planning to develop a crypto staking-as-a-service program, it would be advisable to consult a securities and blockchain lawyer to ensure compliance with the U.S. securities laws.
+The BakerHostetler White Collar, Investigations, and Securities Enforcement and Litigation; Blockchain Technologies and Digital Assets; and Federal Policy teams are composed of dozens of experienced individuals, including attorneys who have served in the U.S. Department of Justice, the SEC, and Congress. Our attorneys include former U.S. attorneys, branch and unit chiefs as well as partners who have served in the SEC’s Division of Enforcement and the SEC’s Office of the General Counsel, and attorneys with extensive experience across all sectors of the blockchain and cryptocurrency markets, including investigations, Bank Secrecy Act/anti-money laundering compliance, tax, privacy, transactions, intellectual property, media and technology design, federal legislation, congressional oversight, investigations, and public policy. Please feel free to contact any of our experienced professionals if you have questions about this alert.
+By: Teresa Goody Guillén, Michelle N. Tanney, Veronica Reynolds, and J’Naia L. Boyd
+[1]
+ Staking concerns validation protocols used by certain blockchains wherein participants obtain rewards through the validation of transactions on the blockchain. Participants can become a validator by first “staking” crypto assets –usually the native asset of the blockchain – and are selected based on the size of their stake.
+[2] Press Release, U.S. Securities and Exchange Commission, Kraken to Discontinue Unregistered Offer and Sale of Crypto Asset Staking-As-A-Service Program and Pay $30 Million to Settle SEC Charges (Feb. 9, 2023), https://www.sec.gov/news/press-release/2023-25.
+[3]
+Id.
+Related Services
+Plus
+Contacts
+Michelle N. Tanney
+Partner
+New York
+T 
++1.212.589.4292
+Email
+J’Naia L. Boyd
+Partner
+New York
+T 
++1.212.589.4677
+Email
+Featured Insights
+Alert
+CBP Tightens Requirements for Foreign Importers of Record and Customs Brokers
+11/17/2026
+|
+8 minute read
+Arrow Right
+Data Counsel
+HIPAA Privacy Rule Overhaul: 8 Important Takeaways from the New HIPAA Privacy Rule
+11/17/2026
+|
+5 minute read
+Arrow Right
+Speaking Engagement
+Jessica Richards Presents at EO Employee Owned 26
+11/17/2026
+|
+1 minute read
+Arrow Right
+News
+Mark Itri Earns Recognition as Impactful Leader by 
+Orange County Business Journal
+ for Third Consecutive Year
+11/17/2026
+|
+1 minute read
+Arrow Right
+See All Insights
+Home
+Print/Save
+Arrow Down
+Arrow Down
+2026
+ © 
+Baker & Hostetler LLP
+Privacy Policy
+Service Terms
+California Privacy Notice
+Fraud Alert
+Contact Us
+Twitter - X
+

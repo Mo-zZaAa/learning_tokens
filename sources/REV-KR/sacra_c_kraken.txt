@@ -1,0 +1,510 @@
+
+-->
+Kraken revenue, valuation & funding | Sacra
+ Features
+ Customers
+ Docs
+ Pricing
+ Unlock
+ Full Access
+ Sign In
+ -->
+ Your Feed
+Workspace
+ Saves
+ Charts
+ Questions
+Explore
+ Companies
+ Categories
+ Reports
+About
+ Features
+ Customers
+ Docs
+ Pricing
+ Community
+New Chat
+Your Feed
+Briefings
+Workspace
+Saves
+Charts
+Questions
+Explore
+Companies
+Categories
+Reports
+Community
+Home
+ > 
+Companies
+ > 
+Kraken
+Kraken
+Follow
+Save
+Crypto exchange for professional traders with deep liquidity and strong security infrastructure
+#web3
+#crypto-exchange
+#crypto
+ Revenue
+$1.01B
+2026
+ Valuation
+$21.00B
+2026
+ Funding
+$832.00M
+2025
+ Growth Rate (y/y)
+32.9%
+2025
+View PDF
+Embed PDF
+View Model
+Details
+ Headquarters
+ Cheyenne, United States
+ CEO
+Arjun Sethi, Dave Ripley
+ Website
+ kraken.com 
+Milestones
+ FOUNDING YEAR
+ 2011
+Listed In
+#web3
+#crypto-exchange
+#crypto
+Kraken
+Overview
+Metrics
+Reports
+News
+Filings
+Highlight
+Unhighlight
+Revenue
+Sacra estimates that 
+Kraken
+ generated $2.2B of revenue in 2025, growing 33% year-over-year from $1.7B in 2024. In Q1'2026, the company announced it did $507M of revenue.
+Kraken
+ primarily monetizes through transaction fees, with total platform transaction volume in 2025 hitting $2.0T, up 34% YoY.
+Funded accounts increased to 5.7 million in 2025, while assets on platform grew to $48.2 billion. In 2024, assets on platform totaled $43.5B with 3.8M funded accounts, up from $23.0B and 3.1M accounts in 2023.
+Quarterly progression in 2025 shows an acceleration through the year: Q1 contributed $492M adjusted revenue (+18% YoY) and $185M adjusted EBITDA, with trading volume up 29% YoY and 4.0M funded accounts; Q2 contributed $432M (+15% YoY) and $80M adjusted EBITDA, with $186.8B exchange volume (+19% YoY) and 4.4M funded accounts (+37% YoY); Q3 was a record quarter at $648M adjusted revenue (+50% QoQ), $178.6M adjusted EBITDA (+124% QoQ), a 27.6% adjusted EBITDA margin, $576.8B platform transaction volume, $59.3B assets on platform, 5.2M funded accounts, and 741,000 futures DARTs (+42% QoQ); Q4 contributed $625M and $84M adjusted EBITDA.
+Adjusted EBITDA reached $530.6M in 2025, representing +26% YoY growth. This compares to $420.7M in 2024 and $(76.5)M in 2023, marking a significant improvement in profitability over the past two years.
+Implied 2025 adjusted EBITDA margin was approximately 24%, consistent with a business increasingly benefiting from scale across trading volume and funded account growth.
+Valuation & Funding
+On April 14, 2026, Deutsche Börse acquired a 1.5% fully diluted stake in Payward for $200 million via a secondary share purchase, implying approximately $13.3 billion in equity value on a simple pro-rata basis.
+In November 2025, 
+Kraken
+ raised $800 million at a $20 billion valuation, with participants including Apollo, Oppenheimer, Jane Street, HSG, DRW, Tribe Capital, and the family office of Arjun Sethi. Separately, 
+Kraken
+ secured a $200 million strategic investment from Citadel Securities at the same $20 billion valuation.
+On November 19, 2025, Payward confidentially submitted a draft registration statement on Form S-1 with the SEC for a proposed IPO; the number of shares and price range were not yet determined. 
+In March 2026, Reuters reported that Kraken had put the IPO plan on hold pending improved market conditions
+; 
+Kraken
+ declined to comment and Reuters could not independently verify the report.
+In September 2025, 
+Kraken
+ raised $500 million at a $15 billion valuation from investors including Jane Street, DRW, HSG, Oppenheimer, Tribe Capital, and the family office of Arjun Sethi.
+Including primary rounds, 
+Kraken
+'s total primary funding now stands at approximately $1.7 billion, up from $27 million raised prior to 2025.
+Product
+Founded in 2011, 
+Kraken
+ launched its crypto exchange in 2013, 
+finding product-market fit as the only place to buy and sell Bitcoin with euros
+—revenue grew from about $160M in 2017 to $2B in 2021 as total Bitcoin trading volume rose from $53B to $625B. The exchange opened to the public in September 2013, initially offering trading for Bitcoin, Litecoin, euro, and US dollar, and now serves over 9 million users across 190+ countries. While Europe remains 
+Kraken
+'s largest market, it has expanded significantly in North America and is growing in regions like Japan, Australia, and the UAE.
+Kraken
+'s consumer experience on iOS enables users to buy from across 70+ cryptocurrencies with a minimum deposit of $10. On the web, 
+Kraken
+ offers a fully-featured order book and trading interface that can be customized by the user.
+Kraken Pro
+ achieves baseline round-trip latencies below 2ms with VPC peering and supports FIX API for both spot and futures trading. The platform features a Unified Wallet that consolidates spot, margin, and futures balances for cross-margining capital efficiency, offers leverage for margin trading up to 10x, and includes advanced order types such as OCO and FOK.
+Kraken
+ positions itself as a secure and regulation-compliant exchange. It holds 95% of deposits in air-gapped, geo-distributed cold storage and has not faced any hacking/coin theft incidents since its launch. 
+Kraken Financial
+ holds a Federal Reserve master account (approved March 2026), 
+making it one of the first crypto-native firms with direct access to Fed payment rails
+ for settlement, liquidity management, and USD transfers without relying on intermediary banks.
+On the derivatives front, 
+Kraken
+ offers MiFID II-regulated crypto derivatives across all 30 EEA countries through its MiCA-regulated Irish entity, enabling passporting of trading, custody, and payment services across the bloc. U.S. clients can trade CME-listed crypto futures directly within the 
+Kraken
+ interface through 
+Kraken
+ Derivatives US (launched July 2025), and 
+Kraken has entered a definitive agreement to acquire Bitnomial, which holds all three CFTC-issued licenses required for a full-stack U.S. digital-asset derivatives business
+—DCM, DCO, and FCM—enabling spot margin, perpetuals, and options for U.S. clients under CFTC regulation; the deal is expected to close imminently.
+Kraken
+ has expanded beyond pure crypto into multi-asset trading across both tokenized and traditional equities. Through the acquisition of 
+Backed Finance AG
+ (December 2025), 
+Kraken fully verticalized its xStocks platform
+—a Solana-based product developed in partnership with Backed Finance that enables blockchain-based certificates tracking companies like Apple, Meta, and GameStop—integrating issuance, trading, and settlement under one roof; xStocks has since surpassed $25 billion in total transaction volume, expanded to 100 tokenized equities, and has announced plans to reach 500+ equities by year-end 2026. Eligible EEA customers can also trade 7,000+ US-listed stocks directly through 
+Kraken
+ Pro and the 
+Kraken
+ mobile app—commission-free and held in the same account alongside 600+ crypto assets and 700+ xStocks—via Payward Europe Digital Solutions (CY) Ltd., 
+Kraken
+'s MiFID-authorized Cyprus entity. For American users, 
+Kraken
+ offers commission-free trading of 11,000+ U.S.-listed stocks and ETFs through FINRA member 
+Kraken Securities
+, with a phased rollout that began in 10 states plus Washington, D.C. (April 2025).
+Kraken
+ also operates Krak, a global peer-to-peer payments app enabling fiat and crypto transfers across 100+ countries, 
+extending the platform's utility beyond trading into everyday money movement
+.
+Business Model
+Kraken
+'s core business model revolves around taking a percentage fee on each trade executed on its platform. Fees vary by trading volume and account type, with professional and institutional clients paying reduced rates based on monthly volume tiers. 
+Kraken
+'s average revenue per user is approximately $2,000 annually, consistent with a customer base skewing to higher-value traders relative to retail-focused competitors.
+The company's revenue mix has shifted toward diversification: approximately 47% of revenue came from trading-based fees and 53% from asset-based and other revenue streams in 2024. Asset-based revenue scales with assets on platform through custody, yield, payments, and financing services. 
+Staking services generate yield for users, and 
+Kraken
+ takes a percentage of rewards, creating recurring revenue streams beyond pure trading activity. 
+Kraken
+ maintains a multi-collateral derivatives engine that lets users post various cryptocurrencies as margin to improve capital efficiency.
+Recent acquisitions, including NinjaTrader for $1.5 billion and Small Exchange for $100 million, extend coverage into regulated U.S. futures and retail trading platforms. These moves add revenue streams that can use existing compliance and technology infrastructure.
+Kraken
+ operates as part of Payward, a unified infrastructure layer that powers multiple products including 
+Kraken
+, NinjaTrader, Breakout, xStocks, and CF Benchmarks on shared global liquidity, risk management, compliance, and settlement systems. 
+This architecture enables near-zero marginal cost to launch additional products once core infrastructure is in place, with each new surface increasing throughput without duplicating risk, capital, or regulatory effort.
+Competition
+Regulated incumbents
+Coinbase has invested heavily in vertical integration, acquiring Deribit for $2.9 billion to add options trading and Echo for token issuance capabilities. 
+The public company maintains a compliance-first approach targeting institutional clients, though it lacks onshore U.S. futures offerings.
+Gemini
+ positions itself as the compliant European alternative with MiFID II licensing and USDC-settled perpetuals. 
+The platform focuses on regulatory arbitrage, offering institutional-grade services in jurisdictions where competitors face restrictions.
+Traditional financial institutions including CME Group and Intercontinental Exchange continue expanding crypto offerings, leveraging existing regulatory relationships and institutional client bases to compete for professional trading flow.
+In November 2025, SoFi launched SoFi Crypto, becoming the first nationally chartered bank in the US to offer consumer crypto trading.
+Liquidity leaders
+Binance
+ remains the dominant global exchange with approximately 41% market share in spot trading and 30% in derivatives despite ongoing regulatory challenges. 
+The platform maintains near-zero fees on major Bitcoin pairs to retain retail flow, while offering comprehensive DeFi and financial services.
+OKX holds the number two position in derivatives trading with sophisticated institutional products including spread trading and cross-currency arbitrage tools. 
+The platform claims 60% market share in spread trading and has processed over $10 billion in institutional volume through its Liquid Marketplace.
+Bybit has emerged as a fast-growing retail-focused platform, reaching number two or three in derivatives with $14.9 billion in daily volume. The exchange offers zero-fee Bitcoin trading and aggressive VIP rebate programs to attract high-volume traders.
+Specialized platforms
+Deribit dominates crypto options trading with deep liquidity in Bitcoin and Ethereum contracts. 
+FTX
+'s collapse created opportunities for specialized derivatives platforms to capture institutional flow seeking alternatives to general-purpose exchanges.
+Decentralized exchanges like 
+Uniswap
+ and dYdX represent structural competition by eliminating custody requirements and reducing counterparty risk. 
+These platforms continue gaining market share, particularly for newer tokens and DeFi-native trading strategies.
+TAM Expansion
+Regulated derivatives
+Through its acquisition of Bitnomial (definitive agreement April 2026, expected close H1 2026) for up to $550 million in cash and stock, 
+Kraken
+ adds all three CFTC-issued licenses—DCM, DCO, and FCM—creating a complete regulated U.S. digital-asset derivatives stack enabling spot margin, perpetuals, and options for U.S. clients. Combined with the Small Exchange DCM acquisition and NinjaTrader's CFTC-registered FCM, 
+Kraken operates redundant regulated derivatives infrastructure targeting the multi-trillion-dollar U.S. derivatives market.
+In Europe, 
+Kraken
+ offers MiFID II-regulated crypto derivatives across all 30 EEA countries under its MiCA-regulated Irish entity (live August 2025), while U.S. clients access CME-listed crypto futures directly within the 
+Kraken
+ interface through 
+Kraken
+ Derivatives US (launched July 2025). 
+CF Benchmarks, part of the Kraken ecosystem, supplies the regulated reference rates underpinning CME Group's crypto futures products
+, including Solana and XRP futures. Regulated derivatives represent less than 20% penetration of the broader crypto derivatives market, creating significant expansion opportunities as institutions require compliant venues for risk management and portfolio allocation.
+Traditional assets
+Through the acquisition of 
+Backed Finance AG
+ (December 2025), 
+Kraken fully verticalized its xStocks platform by integrating issuance, trading, and settlement into a single system
+; xStocks has since surpassed $25 billion in total transaction volume, reached 100 tokenized equities, and is targeting 500+ equities by year-end 2026. The platform enables 24/7 trading of tokenized U.S. equities and ETFs through Solana-based wrappers for European clients, and a partnership with Nasdaq to develop an xStocks-powered equities transformation gateway connects regulated, permissioned equity markets with permissionless blockchain networks in eligible jurisdictions, intended to support Nasdaq's equity-token design while preserving issuer control and shareholder rights.
+Kraken
+'s equities offering extends beyond tokenized assets: eligible EEA customers can trade 7,000+ US-listed conventional stocks commission-free through its MiFID-authorized Cyprus entity, held in the same account alongside 600+ crypto assets and 700+ xStocks, while American users can access 11,000+ U.S. stocks and ETFs commission-free through FINRA member 
+Kraken Securities
+ (phased rollout from April 2025). 
+Together these moves expand Kraken's addressable market from the $1 trillion crypto market into the $55 trillion global equities market.
+ The integration of traditional and crypto assets on a single platform creates cross-selling opportunities and increases wallet share among existing clients, with tokenized securities representing an emerging asset class that could bridge traditional finance and crypto markets.
+Embedded crypto trading
+The company's white-label crypto-as-a-service offering through 
+Kraken Embed
+ allows neobanks and broker-dealers to add crypto trading capabilities. 
+Alpaca
+ has integrated 
+Kraken Embed
+ across 49 U.S. states (June 2025), 
+bringing access to Alpaca's 200+ enterprise partners and 5 million+ end-user accounts
+, with planned expansion to Canada, the EU, and the U.K. Early B2C partnerships include European neobank 
+Bunq
+, demonstrating distribution potential without direct customer acquisition costs.
+Kraken Financial
+'s Federal Reserve master account (approved March 2026) further extends this infrastructure layer, unlocking the ability to offer banking-grade settlement and payment services directly on Fed rails and opening a path to compete for treasury management, payroll, and institutional cash management business without bank intermediaries. Banking services for crypto-native companies represent additional revenue opportunities as the digital asset ecosystem matures and requires traditional financial infrastructure.
+Risks
+Regulatory fragmentation
+: Though 
+Kraken
+ secured a significant legal win when the SEC dismissed its civil enforcement action with prejudice, 
+crypto exchanges still face evolving and inconsistent regulatory frameworks across jurisdictions
+, with potential restrictions on derivatives trading, staking, or cross-border operations remaining a live threat.
+Market concentration
+: The crypto exchange industry exhibits winner-take-all dynamics where liquidity attracts more liquidity, potentially allowing high-share exchanges like 
+Binance
+ to maintain market share despite regulatory challenges. 
+Kraken
+'s mid-tier position by volume could become unsustainable if institutional clients consolidate trading activity on fewer platforms.
+Integration and cost discipline
+: 
+Kraken is simultaneously integrating multiple large acquisitions—NinjaTrader, Small Exchange, Backed Finance, and Bitnomial
+—across CFTC, SEC, and Fed-regulated entities, while also cutting approximately 150–170 employees amid an uncertain IPO timeline, signaling organizational strain at a critical scaling juncture.
+DISCLAIMERS
+ This report is for information purposes only and is not to be used or considered as an offer or the solicitation of an offer to sell or to buy or subscribe for securities or other financial instruments. Nothing in this report constitutes investment, legal, accounting or tax advice or a representation that any investment or strategy is suitable or appropriate to your individual circumstances or otherwise constitutes a personal trade recommendation to you. 
+ This research report has been prepared solely by Sacra and should not be considered a product of any person or entity that makes such report available, if any.
+ Information and opinions presented in the sections of the report were obtained or derived from sources Sacra believes are reliable, but Sacra makes no representation as to their accuracy or completeness. Past performance should not be taken as an indication or guarantee of future performance, and no representation or warranty, express or implied, is made regarding future performance. Information, opinions and estimates contained in this report reflect a determination at its original date of publication by Sacra and are subject to change without notice.
+ Sacra accepts no liability for loss arising from the use of the material presented in this report, except that this exclusion of liability does not apply to the extent that liability arises under specific statutes or regulations applicable to Sacra. Sacra may have issued, and may in the future issue, other reports that are inconsistent with, and reach different conclusions from, the information presented in this report. Those reports reflect different assumptions, views and analytical methods of the analysts who prepared them and Sacra is under no obligation to ensure that such other reports are brought to the attention of any recipient of this report.
+ All rights reserved. All material presented in this report, unless specifically indicated otherwise is under copyright to Sacra. Sacra reserves any and all intellectual property rights in the report. All trademarks, service marks and logos used in this report are trademarks or service marks or registered trademarks or service marks of Sacra. Any modification, copying, displaying, distributing, transmitting, publishing, licensing, creating derivative works from, or selling any report is strictly prohibited. None of the material, nor its content, nor any copy of it, may be altered in any way, transmitted to, copied or distributed to any other party, without the prior express written permission of Sacra. Any unauthorized duplication, redistribution or disclosure of this report will result in prosecution.
+Valuation & Funding History
+Detailed breakdown of all valuation events
+Date
+Event
+Valuation
+Amount
+Price
+Status
+ Sep 2026
+Strategic - Nasdaq Ventures
+ Sources
+ Kraken Stock
+ forgeglobal.com
+ Payward Nasdaq Tokenized Equities
+ payward.com
+ Payward Nasdaq Tokenized Equities
+ payward.com
+ "Payward, the parent company of Kraken, today announced an expansion of its relationship with Nasdaq (Nasdaq: NDAQ), including an agreement by Nasdaq Ventures to invest $100 million, the continued advancement of the companies' work on the Nasdaq Equity Token (NET) framework, and a new market surveillance agreement."
+ Nasdaq Invests in Kraken Parent Payward at $21 Billion Valuation - Bloomberg
+ bloomberg.com
+ "Nasdaq Inc. is investing $100 million in Payward, the parent of cryptocurrency exchange Kraken, as the firm continues to build out infrastructure that supports trading stocks in tokenized form, according to people familiar with the matter. The capital infusion from Nasdaq's venture arm values the crypto company at $21 billion and expands on a partnership with Payward that was announced in March, the people said, asking not to be identified because the investment hasn't been announced publicly."
+ Nasdaq Invests Usd100 Million In Kraken Parent Company Payward At Usd21 Billion Valuation
+ coindesk.com
+ "Nasdaq Ventures invested $100 million in Payward, the parent company of crypto exchange Kraken, valuing it at $21 billion."
+$21.0B
+$100.0M
+ $61.47
+ Closed
+ Share Classes
+Series E
+ Preferred
+ Issue Price:
+$61.47
+ Reported funding date:
+Sep 2026
+ Unlock Kraken data
+ Sign up for data access
+ Apr 2026
+Direct Sale
+—
+—
+ —
+ Announced
+ Nov 2025
+Strategic
+—
+—
+ —
+ Closed
+ Sep 2025
+Growth
+—
+—
+ —
+ Closed
+ Jun 2019
+Growth
+—
+—
+ —
+ Closed
+ Apr 2016
+Series B
+—
+—
+ —
+ Closed
+ Mar 2014
+Series A
+—
+—
+ —
+ Closed
+ Jan 2013
+Seed
+—
+—
+ —
+ Closed
+Revenue Metrics
+Signals-backed revenue observations
+Time
+Metric
+Measurement
+Type
+ Q4 2025
+ Quarterly revenue
+$625M
+ Sources
+ Kraken 2025 Financials
+ blog.kraken.com
+ "Despite industry-wide softness, the platform generated $625 million in adjusted revenue and $84 million in adjusted EBITDA."
+ historical
+ Unlock Kraken data
+ Sign up for data access
+ 2025
+ Revenue
+—
+ historical
+ 2025
+ Revenue growth
+—
+ historical
+ Q3 2025
+ Quarterly revenue growth
+—
+ historical
+ Q3 2025
+ Quarterly revenue
+—
+ historical
+ Q3 2025
+ Quarterly revenue growth
+—
+ historical
+ Q2 2025
+ Quarterly revenue
+—
+ historical
+ Q2 2025
+ Quarterly revenue growth
+—
+ historical
+ Q1 2025
+ Quarterly revenue growth
+—
+ historical
+ Q1 2025
+ Quarterly revenue
+—
+ historical
+ 2024
+ Revenue growth
+—
+ historical
+ 2024
+ Revenue
+—
+ historical
+ 2023
+ Revenue
+—
+ historical
+ Create a free account, or log in.
+ Gain access to limited free reports, models, datasets, interviews and memos.
+ Continue with Google
+or
+Email
+Continue
+By continuing, you agree to our 
+Privacy Policy
+ and 
+Terms of Service
+.
+Free article limit reached.
+Upgrade your account to get unlimited access to all reports, interviews, and community features.
+ Upgrade
+Cancel anytime. No commitment required.
+By continuing, you agree to our 
+Privacy Policy
+ and 
+Terms of Service
+.
+Standard membership required.
+Upgrade your account to get unlimited access to all reports, interviews, and community features
+ Upgrade
+Cancel anytime. No commitment required.
+By continuing, you agree to our 
+Privacy Policy
+ and 
+Terms of Service
+.
+ Standard membership required.
+ Sign up or log in to your Standard account to get unlimited access to all reports, interviews, and community features
+ Continue with Google
+or
+Email
+Continue
+By continuing, you agree to our 
+Privacy Policy
+ and 
+Terms of Service
+.
+Drop files to attach
+Upload files or images
+View PDF
+Embed PDF
+View Model
+Details
+ Headquarters
+ Cheyenne, United States
+ CEO
+Arjun Sethi, Dave Ripley
+ Website
+ kraken.com 
+Milestones
+ FOUNDING YEAR
+ 2011
+Listed In
+#web3
+#crypto-exchange
+#crypto
+ Outline
+ Revenue
+ Valuation & Funding
+ Product
+ Business Model
+ Competition
+ TAM Expansion
+ Risks
+ Embed Document PDF
+ Embed code is missing!
+ Embed options
+ Height
+ Width
+ By embedding Sacra content on your site, you are agreeing to 
+ Sacra Terms of Service 
+ Copy 
+The private markets research you need to be a better investor.
+Privacy Policy
+ | 
+Terms of Service
+Sacra 2025 © All Rights Reserved
+ Home
+ Features
+ Customers
+ Pricing
+ About
+ Sign Up
+ Login
+ Support
+ Companies
+ Categories
+ Reports
+ Q&A
+ Search
+ Docs
+ Integrations
+ Join the Sacra community and get private markets research and data straight to your inbox.
+Join
+
