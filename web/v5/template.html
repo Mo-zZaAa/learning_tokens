@@ -8,7 +8,7 @@
   --bg:#f3f5f8; --panel:#ffffff; --ink:#18212d; --muted:#5d6878; --faint:#8a94a3;
   --line:#dde2e9; --accent:#22509e; --accent-soft:#e6edf8;
   --judge:#8f4700; --judge-soft:#fdeedb; --ok:#2b7a4b; --ok-soft:#e3f2e8; --mid:#7a5b00; --mid-soft:#f8f0d4;
-  --warn:#9b2c2c; --warn-soft:#fbe5e5; --quote:#f7f8fb; --hl:#fff0a0; --hl-ink:#3d3300;
+  --warn:#9b2c2c; --warn-soft:#fbe5e5; --quote:#f7f8fb; --hl:#fff0a0; --hl-ink:#3d3300; --pmq:#1d4ed8; --pmq-bg:#e8efff;
   --memo:#7a3fb8; --memo-soft:#f3ebfc; --on-memo:#ffffff; --shade:rgba(16,24,40,.14); --scrim:rgba(16,24,40,.38);
   --navy:#1f3a6e;
   --sans:"Pretendard","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR","Segoe UI",system-ui,sans-serif;
@@ -19,13 +19,13 @@
   --bg:#10141a; --panel:#171c24; --ink:#e4e9f0; --muted:#a0abba; --faint:#76808f;
   --line:#2a313c; --accent:#86aef5; --accent-soft:#1d2a40;
   --judge:#ffb366; --judge-soft:#3a2614; --ok:#6fcf97; --ok-soft:#173226; --mid:#e6c35c; --mid-soft:#332a10;
-  --warn:#ff8a8a; --warn-soft:#3a1c1c; --quote:#1b212b; --hl:#5a4d10; --hl-ink:#fff1b0;
+  --warn:#ff8a8a; --warn-soft:#3a1c1c; --quote:#1b212b; --hl:#5a4d10; --hl-ink:#fff1b0; --pmq:#9ec1ff; --pmq-bg:#18264a;
   --memo:#c9a2f5; --memo-soft:#2b2140; --on-memo:#1d1230; --shade:rgba(0,0,0,.55); --scrim:rgba(0,0,0,.55); --navy:#a9c1f2; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#10141a; --panel:#171c24; --ink:#e4e9f0; --muted:#a0abba; --faint:#76808f;
   --line:#2a313c; --accent:#86aef5; --accent-soft:#1d2a40;
   --judge:#ffb366; --judge-soft:#3a2614; --ok:#6fcf97; --ok-soft:#173226; --mid:#e6c35c; --mid-soft:#332a10;
-  --warn:#ff8a8a; --warn-soft:#3a1c1c; --quote:#1b212b; --hl:#5a4d10; --hl-ink:#fff1b0;
+  --warn:#ff8a8a; --warn-soft:#3a1c1c; --quote:#1b212b; --hl:#5a4d10; --hl-ink:#fff1b0; --pmq:#9ec1ff; --pmq-bg:#18264a;
   --memo:#c9a2f5; --memo-soft:#2b2140; --on-memo:#1d1230; --shade:rgba(0,0,0,.55); --scrim:rgba(0,0,0,.55); --navy:#a9c1f2; color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -203,6 +203,7 @@ h3.ln{font-size:15.5px;margin:12px 0 4px}
 .ref:hover{text-decoration:underline}
 mark.em{background:var(--hl);color:var(--hl-ink)}
 strong.warn{color:var(--warn)}
+.pmq{color:var(--pmq);background:var(--pmq-bg);font-weight:700;font-size:.82em;border-radius:999px;padding:1px 7px;margin:0 2px;white-space:nowrap;vertical-align:1px}
 
 /* 줄 메모 단추 */
 .mb{position:absolute;right:2px;top:3px;width:24px;height:24px;border:0;border-radius:6px;background:transparent;color:var(--faint);
@@ -506,7 +507,7 @@ function inl(s, co){
     last = RX_INL.lastIndex;
   }
   out += esc(s.slice(last));
-  return out.replace(/⟨([^⟩\n]*)⟩/g, '<span class="todo" title="아직 쓰는 중인 칸">⟨$1⟩</span>').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/==(.+?)==/g, '<mark class="em">$1</mark>').replace(/!!(.+?)!!/g, '<strong class="warn">$1</strong>');
+  return out.replace(/⟨([^⟩\n]*)⟩/g, '<span class="todo" title="아직 쓰는 중인 칸">⟨$1⟩</span>').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/==(.+?)==/g, '<mark class="em">$1</mark>').replace(/!!(.+?)!!/g, '<strong class="warn">$1</strong>').replace(/\((PM No [0-9][^()]*|개념 지침 No [0-9][^()]*|셀프 챌린지 [0-9][^()]*|PM 관점[^()]*)\)/g, '<span class="pmq">$1</span>');
 }
 const plain = s => String(s == null ? '' : s).replace(/\*\*|==|!!/g, '');
 function ready(what, path, msg){ return `<div class="ready"><b>준비 중</b>${esc(what)}: <code>${esc(path)}</code> ${esc(msg || '파일이 생긴 뒤 다시 빌드하면 채워짐.')}</div>`; }
