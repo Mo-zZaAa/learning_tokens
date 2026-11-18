@@ -10,6 +10,7 @@
   --judge:#8f4700; --judge-soft:#fdeedb; --ok:#2b7a4b; --ok-soft:#e3f2e8; --mid:#7a5b00; --mid-soft:#f8f0d4;
   --warn:#9b2c2c; --warn-soft:#fbe5e5; --quote:#f7f8fb; --hl:#fff0a0; --hl-ink:#3d3300;
   --memo:#7a3fb8; --memo-soft:#f3ebfc; --on-memo:#ffffff; --shade:rgba(16,24,40,.14); --scrim:rgba(16,24,40,.38);
+  --navy:#1f3a6e;
   --sans:"Pretendard","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR","Segoe UI",system-ui,sans-serif;
   --mono:ui-monospace,"SF Mono",Menlo,Consolas,"D2Coding",monospace;
   --hdr:120px;
@@ -19,13 +20,13 @@
   --line:#2a313c; --accent:#86aef5; --accent-soft:#1d2a40;
   --judge:#ffb366; --judge-soft:#3a2614; --ok:#6fcf97; --ok-soft:#173226; --mid:#e6c35c; --mid-soft:#332a10;
   --warn:#ff8a8a; --warn-soft:#3a1c1c; --quote:#1b212b; --hl:#5a4d10; --hl-ink:#fff1b0;
-  --memo:#c9a2f5; --memo-soft:#2b2140; --on-memo:#1d1230; --shade:rgba(0,0,0,.55); --scrim:rgba(0,0,0,.55); color-scheme:dark}}
+  --memo:#c9a2f5; --memo-soft:#2b2140; --on-memo:#1d1230; --shade:rgba(0,0,0,.55); --scrim:rgba(0,0,0,.55); --navy:#a9c1f2; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#10141a; --panel:#171c24; --ink:#e4e9f0; --muted:#a0abba; --faint:#76808f;
   --line:#2a313c; --accent:#86aef5; --accent-soft:#1d2a40;
   --judge:#ffb366; --judge-soft:#3a2614; --ok:#6fcf97; --ok-soft:#173226; --mid:#e6c35c; --mid-soft:#332a10;
   --warn:#ff8a8a; --warn-soft:#3a1c1c; --quote:#1b212b; --hl:#5a4d10; --hl-ink:#fff1b0;
-  --memo:#c9a2f5; --memo-soft:#2b2140; --on-memo:#1d1230; --shade:rgba(0,0,0,.55); --scrim:rgba(0,0,0,.55); color-scheme:dark}
+  --memo:#c9a2f5; --memo-soft:#2b2140; --on-memo:#1d1230; --shade:rgba(0,0,0,.55); --scrim:rgba(0,0,0,.55); --navy:#a9c1f2; color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{background:var(--bg)}
@@ -112,6 +113,46 @@ table{font-size:inherit}
 .lnav .tools button{padding:2px 9px;font-size:12.5px}
 .cbox .d1{margin-left:16px}.cbox .d2{margin-left:32px}
 .cbox .li.d0 .tx strong{font-weight:700}
+/* ODX 카드(개요 패키지): 왼쪽 줄 이름, 오른쪽 내용 */
+.odx{background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--navy);border-radius:14px;padding:16px 22px 18px;max-width:1180px}
+.odx-hd{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;padding-bottom:10px;border-bottom:1px dashed var(--line)}
+.odx-hd b{font-size:22px;color:var(--navy);border-bottom:2px dotted var(--navy)}
+.odx-hd span{color:var(--muted)}
+.orow{display:grid;grid-template-columns:140px minmax(0,1fr);gap:18px;padding:12px 0;border-bottom:1px dashed var(--line)}
+.orow:last-child{border-bottom:0}
+.olab{margin:0;font-size:15px;font-weight:700;color:var(--navy)}
+.orow.danger .olab{color:var(--warn)}
+.obody{min-width:0}
+.obody ul.omain,.obody ol.omain{margin:0;padding-left:20px}
+.obody .omain>li{margin:0 0 6px}
+.obody li.strong>.oi>.tx{color:var(--navy);font-weight:700}
+.obody ul.osub{margin:4px 0 2px;padding-left:18px}
+.obody ul.osub li{margin:2px 0}
+.oi{padding-right:28px}
+.oi .tx{overflow-wrap:anywhere}
+.tg{display:inline-block;font-size:11.5px;line-height:1.5;padding:0 7px;border-radius:5px;margin-left:5px;vertical-align:1px;border:0;cursor:pointer;font-family:var(--sans)}
+.tg-s{background:var(--accent-soft);color:var(--accent)}
+.tg-n{background:var(--ok-soft);color:var(--ok)}
+.tg-i{background:var(--memo-soft);color:var(--memo)}
+.tg-e{background:var(--judge-soft);color:var(--judge)}
+.tg-u{background:var(--mid-soft);color:var(--mid)}
+details.omore,details.ofig{margin:4px 0}
+details.omore>summary,details.ofig>summary{cursor:pointer;color:var(--muted);font-size:12.5px;list-style:none;display:inline-block;padding:1px 9px;border:1px solid var(--line);border-radius:999px;background:var(--bg)}
+details.omore>summary::-webkit-details-marker,details.ofig>summary::-webkit-details-marker{display:none}
+details.omore>summary::before,details.ofig>summary::before{content:"\25B8  ";color:var(--faint)}
+details.omore[open]>summary::before,details.ofig[open]>summary::before{content:"\25BE  "}
+details.ofig>summary{color:var(--memo);border-color:color-mix(in srgb,var(--memo) 35%,var(--line));background:var(--memo-soft)}
+.onote{margin:4px 0 6px}
+.opath{display:grid;grid-template-columns:100px minmax(0,1fr);gap:8px 14px}
+.opk{color:var(--accent);font-weight:700}
+.opv{min-width:0}
+.opv .k2{text-decoration:underline;text-underline-offset:3px;margin-right:4px}
+.tip .rq{margin:4px 0 8px;padding-left:8px;border-left:2px solid var(--line);color:var(--ink);font-size:12.5px;overflow-wrap:anywhere}
+.tip .rt{font-weight:600;font-size:12.5px;overflow-wrap:anywhere}
+.tip .rf{font-family:var(--mono);font-size:11px;color:var(--faint);margin-left:4px}
+.tip.ref{max-height:min(60vh,420px);overflow:auto}
+@media (max-width:760px){.odx{padding:12px 14px}.orow{grid-template-columns:1fr;gap:6px}.opath{grid-template-columns:1fr;gap:2px}.opath .opv{margin-bottom:8px}}
+/*__FLOW_CSS__*/
 .qg:not(.open)>.qas{display:none}
 .qas{margin:2px 0 6px 14px;padding-left:8px;border-left:2px solid var(--line);display:grid;gap:2px}
 .qas .li{padding-block:2px}
@@ -517,6 +558,59 @@ function gridItems(list){
   flush();
   return out;
 }
+const TGK = {s: 'tg-s', n: 'tg-n', i: 'tg-i', e: 'tg-e', u: 'tg-u'};
+let ODX = null;   // 지금 그리는 카드(태그 풀이)
+function tagsHTML(tags){
+  return (tags || []).map(t => { const r = ODX && ODX.tags[t]; const k = r ? r.k : 's'; return `<button type="button" class="tg ${TGK[k] || 'tg-s'}" data-tg="${esc(t)}">${esc(t)}</button>`; }).join('');
+}
+function odxTable(t){ return tableHTML({cols: t.cols, rows: t.rows}, {gblk: false}); }
+function odxKids(list){ return list && list.length ? `<ul class="osub">${list.map(k => odxItem(k, 1)).join('')}</ul>` : ''; }
+function odxItem(it, depth){
+  let h = `<li class="${it.strong ? 'strong' : ''}"><div class="ln oi" id="${it.id}"><span class="tx">${inl(it.t)}</span>${tagsHTML(it.tags)}${MB}</div>`;
+  if (it.flow && it.note) h += `<div class="onote">${ODX.flows[it.flow] || ''}</div>`;
+  else if (it.flow) h += `<details class="ofig"><summary>그림: ${esc(ODX.ftitles[it.flow] || it.flow)}</summary>${ODX.flows[it.flow] || ''}</details>`;
+  const kids = it.kids || [], n = kids.length + (it.table ? 1 : 0);
+  if (depth === 0 && n) h += `<details class="omore"><summary>세부 ${n}</summary>${it.table ? odxTable(it.table) : ''}${odxKids(kids)}</details>`;
+  else h += (it.table ? odxTable(it.table) : '') + odxKids(kids);
+  return h + '</li>';
+}
+function odxPath(p){
+  let h = `<div class="opk">${esc(p.k)}</div><div class="opv">`;
+  if (p.t) h += `<div class="ln oi" id="${p.id}"><span class="tx">${inl(p.t)}</span>${tagsHTML(p.tags)}${MB}</div>`;
+  for (const s2 of (p.sub || [])) h += `<div class="ln oi" id="${s2.id}"><span class="tx"><span class="k2">${esc(s2.k2 || '')}</span>${inl(s2.t)}</span>${tagsHTML(s2.tags)}${MB}</div>`;
+  const kids = p.kids || [];
+  if (kids.length) h += `<details class="omore"><summary>세부 ${kids.length}</summary>${odxKids(kids)}</details>`;
+  return h + '</div>';
+}
+function odxHTML(o){
+  ODX = o;
+  const c = o.card;
+  let h = `<div class="odx"><div class="odx-hd"><b>${esc(c.name)}</b><span>${esc(c.sub || '')}</span></div>`;
+  for (const r of c.rows){
+    let body;
+    if (r.path) body = `<div class="opath">${r.path.map(odxPath).join('')}</div>`;
+    else { const tag = r.numbered ? 'ol' : 'ul'; body = `<${tag} class="omain">${(r.items || []).map(it => odxItem(it, 0)).join('')}</${tag}>`; }
+    h += `<div class="orow${r.danger ? ' danger' : ''}" id="${r.id}" data-sec="카드: ${esc(r.label)}"><h3 class="olab">${esc(r.label)}</h3><div class="obody gblk">${body}</div></div>`;
+  }
+  return h + '</div>';
+}
+function showRefTip(el){
+  const t = el.dataset.tg, r = ODX && ODX.tags[t];
+  clearTimeout(tipT);
+  let body;
+  if (!r) body = '<p>풀이 없음</p>';
+  else if (r.k === 'i') body = '<p>해석: 공개 자료로 바로 확인되지 않는 풀이(판단)</p>';
+  else if (r.k === 'e') body = '<p>추정: 공개 숫자로 직접 계산한 값</p>';
+  else if (r.k === 'u') body = '<p>사용자 확인이 필요한 줄</p>';
+  else body = (r.items.length ? r.items.map(x => `<div class="rt">${x.url ? link(x.url, x.t || shortUrl(x.url)) : esc(x.t)}${x.f ? `<span class="rf">${esc(x.f)}</span>` : ''}</div>${x.q ? `<div class="rq">"${esc(x.q)}"</div>` : ''}`).join('') : '<p>연결된 원문 없음</p>')
+    + (r.k === 's' ? `<div class="ts">옛 화면 본문 줄 ${esc(t)}${r.row ? ': ' + esc(r.row) : ''}</div>` : '<div class="ts">새 출처(개요 패키지 sources_new.csv)</div>');
+  TIP.innerHTML = `<div class="tt"><b>${esc(t)}</b></div>${body}`;
+  TIP.classList.add('ref'); TIP.hidden = false; tipFor = el;
+  const rc = el.getBoundingClientRect(), w = TIP.offsetWidth, hh = TIP.offsetHeight;
+  let x = Math.min(Math.max(8, rc.left), window.innerWidth - w - 8), y = rc.bottom + 6;
+  if (y + hh > window.innerHeight - 8) y = Math.max(8, rc.top - hh - 6);
+  TIP.style.left = x + 'px'; TIP.style.top = y + 'px';
+}
 function docHTML(doc, kind){
   let h = '';
   if (doc.intro.length) h += `<div class="intro gblk${kind === 'grid' ? '' : ' read'}" data-sec="머리말">${items(doc.intro)}</div>`;
@@ -528,19 +622,19 @@ function docHTML(doc, kind){
   }
   return h;
 }
-function hasOv(C){ return C.ov.layers.some(L => L.parts.some(p => p.doc)); }
+function hasOv(C){ return C.ov.layers.some(L => L.parts.some(p => p.doc || p.odx)); }
 function renderOv(C){
   const LS = C.ov.layers;
   let h = `<article class="ov"><header class="pagehead"><div class="eyebrow">개요</div><h1>${esc(C.name)}</h1>`;
   h += `<div class="meta"><span>위에서 아래로 카드, 쉬운 해설, 개요 문서와 질문 답</span><span>만든 시각 ${esc(D.built)}</span></div></header>`;
   if (C.ov.deep) h += `<p class="deeplink"><a href="${esc(C.ov.deep.href)}">${esc(C.ov.deep.label)}</a></p>`;
-  h += `<nav class="lnav" aria-label="층 바로 가기">${LS.map((L, i) => `<a href="#${L.id}" data-go="${L.id}"${L.parts.some(p => p.doc) ? '' : ' class="off"'}><b>${i + 1}층</b>${esc(LAYER_SHORT[L.k] || L.label)}</a>`).join('')}<span class="tools"><button type="button" data-act="openall">모두 펼치기</button><button type="button" data-act="closeall">모두 접기</button></span></nav>`;
+  h += `<nav class="lnav" aria-label="층 바로 가기">${LS.map((L, i) => `<a href="#${L.id}" data-go="${L.id}"${L.parts.some(p => p.doc || p.odx) ? '' : ' class="off"'}><b>${i + 1}층</b>${esc(LAYER_SHORT[L.k] || L.label)}</a>`).join('')}<span class="tools"><button type="button" data-act="openall">모두 펼치기</button><button type="button" data-act="closeall">모두 접기</button></span></nav>`;
   LS.forEach((L, i) => {
     h += `<section class="layer" id="${L.id}" data-sec="${esc(L.label)}"><div class="lhead"><span class="lnum">${i + 1}층</span><h2>${esc(L.label)}</h2>${L.parts.length === 1 ? `<code>${esc(L.parts[0].path)}</code>` : ''}${L.kind === 'grid' && L.parts.some(P => P.doc && P.doc.secs.some(x => x.items.some(it => it.k === 'li' && it.d > 0))) ? '<button type="button" class="qall" data-act="qaall">질문 모두 펼치기</button>' : ''}</div>`;
     for (const P of L.parts){
       const sub = L.parts.length > 1;
       let ph = sub ? `<div class="ptitle"><h3>${esc(P.label)}</h3><code>${esc(P.path)}</code>${P.doc && P.doc.title ? `<span>${esc(P.doc.title)}</span>` : ''}</div>` : (P.doc && P.doc.title && L.kind !== 'grid' ? `<div class="ptitle"><span>${esc(P.doc.title)}</span></div>` : '');
-      ph += P.doc ? docHTML(P.doc, L.kind) : ready(P.label, P.path);
+      ph += P.odx ? odxHTML(P.odx) : P.doc ? docHTML(P.doc, L.kind) : ready(P.label, P.path);
       h += `<div class="lpart" data-sec="${esc(L.label)}: ${esc(P.label)}">${ph}</div>`;
     }
     h += '</section>';
@@ -765,6 +859,7 @@ function tipSrc(s){ return /^https?:\/\//.test(s) ? link(s) : esc(s || '출처 �
 function showTip(el){
   const e = TE[+el.dataset.ti]; if (!e) return;
   clearTimeout(tipT);
+  TIP.classList.remove('ref');
   TIP.innerHTML = `<div class="tt"><b>${esc(e[0])}</b>${e[1] && e[1] !== e[0] ? `<span>${esc(e[1])}</span>` : ''}</div><p>${esc(e[2])}</p><div class="ts">출처: ${tipSrc(e[3])}</div>`;
   TIP.hidden = false; tipFor = el;
   const r = el.getBoundingClientRect(), w = TIP.offsetWidth, hh = TIP.offsetHeight;
@@ -775,8 +870,8 @@ function showTip(el){
 function closeTip(){ TIP.hidden = true; tipFor = null; }
 document.addEventListener('pointerdown', e => { lastPtr = e.pointerType || 'mouse'; }, true);
 document.addEventListener('mouseover', e => { const t = e.target.closest && e.target.closest('.term'); if (t && lastPtr === 'mouse') showTip(t); else if (e.target.closest && e.target.closest('#tip')) clearTimeout(tipT); });
-document.addEventListener('mouseout', e => { if (e.target.closest && (e.target.closest('.term') || e.target.closest('#tip'))){ clearTimeout(tipT); tipT = setTimeout(closeTip, 260); } });
-window.addEventListener('scroll', () => { if (!TIP.hidden && lastPtr === 'mouse') closeTip(); }, {passive: true});
+document.addEventListener('mouseout', e => { if (TIP.classList.contains('ref')) return; if (e.target.closest && (e.target.closest('.term') || e.target.closest('#tip'))){ clearTimeout(tipT); tipT = setTimeout(closeTip, 260); } });
+window.addEventListener('scroll', () => { if (!TIP.hidden && lastPtr === 'mouse' && !TIP.classList.contains('ref')) closeTip(); }, {passive: true});
 
 /* ---------- 찾기 ---------- */
 let IDX = null, SRES = [];
@@ -787,7 +882,9 @@ function buildIdx(){
     const add = (v, sec, id, t) => { t = plain(t).replace(/\s+/g, ' ').trim(); if (t) IDX.push({co: S, v, sec, id, t, l: t.toLowerCase()}); };
     const walk = (list, sec) => (list || []).forEach(it => { if (it.k === 'tbl') it.rows.forEach(r => add('o', sec, r.id, r.c.join(' | '))); else add('o', sec, it.id, it.t); });
     if (!C.facts) return;
-    C.ov.layers.forEach(L => L.parts.forEach(P => { if (!P.doc) return; const lab = L.parts.length > 1 ? `${L.label}: ${P.label}` : L.label; walk(P.doc.intro, lab); P.doc.secs.forEach(s => walk(s.items, `${lab} > ${s.h}`)); }));
+    C.ov.layers.forEach(L => L.parts.forEach(P => { if (P.odx){ const w2 = (it, sec) => { add('o', sec, it.id, (it.k2 ? it.k2 + ' ' : '') + (it.t || '') + ' ' + (it.tags || []).join(' ')); if (it.table) it.table.rows.forEach(r => add('o', sec, r.id, r.c.join(' | '))); (it.sub || []).forEach(x => w2(x, sec)); (it.kids || []).forEach(x => w2(x, sec)); };
+      P.odx.card.rows.forEach(r => (r.items || r.path || []).forEach(it => w2(it, `${L.label} > ${r.label}`))); return; }
+      if (!P.doc) return; const lab = L.parts.length > 1 ? `${L.label}: ${P.label}` : L.label; walk(P.doc.intro, lab); P.doc.secs.forEach(s => walk(s.items, `${lab} > ${s.h}`)); }));
     if (C.cov) C.cov.rows.forEach(r => add('r', 'PM 질문별 답', r.id, r.c.join(' | ')));
     (C.qs || []).forEach(q => { add('r', 'PM 질문별 답', q._id + '-q', `${q.id || ''} ${q.q || ''}`); if (q.a) add('r', 'PM 질문별 답', q._id + '-a', q.a); (q.tails || []).forEach((t, i) => add('r', 'PM 질문별 답', q._id + '-tail' + i, `${t.q || ''} ${t.a || ''}`)); });
     (C.ev || []).forEach(e => {
@@ -1087,6 +1184,7 @@ function toast(t){ const el = $('#toast'); el.textContent = t; el.hidden = false
 /* ---------- 클릭 ---------- */
 document.addEventListener('click', e => {
   const t = e.target;
+  const tg = t.closest('[data-tg]'); if (tg){ if (tipFor === tg && !TIP.hidden) closeTip(); else showRefTip(tg); return; }
   const term = t.closest('.term');
   if (term){ if (lastPtr !== 'mouse' && tipFor === term && !TIP.hidden) closeTip(); else showTip(term); return; }
   if (!t.closest('#tip')) closeTip();

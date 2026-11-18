@@ -347,30 +347,11 @@ def flow(title, cls, steps):
     return ''.join(h)
 
 
-g = [legend([('na', '투자자'), ('co', '회사 쪽'), ('is', '발행 법인'), ('tp', '제3자')]), '<div class="flows">',
-     flow('OUSG: 1,000만 원', 'co', [
-         ('na', '투자자(적격투자자이자 적격매수자)', '1,000만 원 ≈ 7,000 USDC(1달러 = 약 1,430원)'),
-         ('co', 'Ondo I LP가 OUSG 7,000달러어치 발행', 'USDC는 펀드의 Coinbase 계좌로 감 [ONM-010]'),
-         ('tp', '펀드가 운용사 펀드 지분을 삼', '2026-11-18 비중대로면 SWEEP 약 3,400, BUIDL 약 2,290, BENJI 약 710, FYOXX 약 530, USDC 약 80달러'),
-         ('na', '1년 뒤(가상 연 4%)', '이자 약 280달러로 OUSG 약 7,280달러어치. 보수 0.15%(약 10.5달러)는 면제라 0 [F-1313]'),
-         ('co', '즉시 상환', '24시간 USDC로. 한도 24시간 전체 5,000만, 1인 2,500만 달러 [on-0350]')]),
-     flow('USDY: 1,000달러', 'is', [
-         ('na', '미국 밖 투자자, 신원 확인(KYC)', '1,000달러 = 약 143만 원'),
-         ('is', 'BVI 발행 법인이 USDY 발행', '국채와 SHVon을 사서 금고에 둠 [on-0335]'),
-         ('tp', '금고 구성(2026-11-13)', '국채 82.73%, SHVon 17.24% [on-0335]'),
-         ('na', '1년 이자(2026-11-16 화면 기준)', '담보 4.10% = 41달러, 보유자 3.75% = 37.5달러, 차이 3.5달러 [F-1934]'),
-         ('tp', 'Ankura Trust', '검증과 담보 대리 [F-0512]')]),
-     flow('Ondo Stocks: AAPLon 1,000달러', 'is', [
-         ('na', '미국 밖 투자자가 판매 창구에서 주문', 'Bitget, Binance 아부다비 거래장, 지갑. 체결은 거래소 장부 안 [F-1457 F-1455]'),
-         ('tp', '1차 매수자(거래소, 시장조성자)', '토큰이 모자라면 발행 법인에 스테이블코인을 내고 새 토큰을 받음 [F-1953]'),
-         ('is', '발행 법인이 실제 주식을 삼', 'Alpaca에서 사서 Alpaca, BitGo Trust 담보 계좌에 둠. Ankura 1순위 담보권 [on-0055 on-0056]'),
-         ('na', '보유자', '값과 배당만 따라감. 거래 시간 일요일 밤 8시~금요일 밤 8시(미국 동부) [on-0083]'),
-         ('is', '상환', '1만 달러 상환 시 수수료 5달러(0.05%)와 견적가 차이 [F-0545]')]),
-     flow('Intelligent Portfolios', 'is', [
-         ('na', '투자자', '포트폴리오 토큰 1개를 받음 [on-0364]'),
-         ('is', '토큰 안', 'Ondo Stocks 바구니(BlackRock 전략) [on-0364]'),
-         ('tp', '바구니 속 종목', '(판단) 종목마다 위 Ondo Stocks 금고 구조 그대로')]),
-     '</div>']
+# 개요 1층과 같은 그림: inputs/ondo_overview_261118/content/ondo_overview.json의 flows를 web/v5/ondo_card.py로 그림
+sys.path.insert(0, str(ROOT / 'web/v5'))
+import ondo_card  # noqa: E402
+_PK = ondo_card.load()
+g = ['<div class="fwlist">'] + [ondo_card.flow_html(_PK['flows'][k], title=True) for k in ('ousg', 'usdy', 'stocks', 'new', 'revenue')] + ['</div>']
 sec('S6', '상품별 돈 흐름(가상 숫자)',
     '네 상품 모두 "돈 → 발행 법인 → 실제 자산 → 토큰"의 같은 뼈대. 다른 점은 금고에 무엇이 들고 누가 지키느냐',
     ''.join(g),
@@ -765,6 +746,7 @@ def render():
     gl = [dict(t=g['용어'], d=g['쉬운 설명'], a=g['비유(원문 병기)']) for g in GL]
     tpl = open('/home/user/learning_tokens/scratchpad/ondodeep/page_tpl.html', encoding='utf-8').read()
     out = tpl.replace('%%TOC%%', toc).replace('%%BODY%%', '\n'.join(body))
+    out = out.replace('</style>', ondo_card.FLOW_CSS + '.fwlist{display:grid;gap:18px}.fwlist .fw-title{font-size:15px}</style>', 1)
     out = out.replace('%%FN%%', json.dumps(fnd, ensure_ascii=False).replace('</', '<\\/')).replace('%%GL%%', json.dumps(gl, ensure_ascii=False).replace('</', '<\\/'))
     return out
 
