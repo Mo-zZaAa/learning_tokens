@@ -1,0 +1,791 @@
+{
+"on-0005": {
+"text": "창업자 Nathan Allman이 2026-05 사망, President였던 Ian De Bode가 CEO 승계(회사 팀 페이지 직함은 Acting CEO and President, 전 McKinsey 디지털자산 업무 총괄). 사망 때 Allman은 CEO, 단독 이사, 다수 주주였고 이후 경영권 소송이 있음(아래 제약과 리스크)",
+"src": [
+{
+"q": "Allman passed away in late May at the age of 32. ... Ian De Bode, then the firm's president, would assume the role of CEO.",
+"url": "https://forklog.com/en/power-struggle-emerges-at-ondo-finance-following-founders-death/;https://cryptobriefing.com/ondo-crypto-succession-planning-challenges/",
+"t": "https://forklog.com/en/power-struggle-emerges-at-ondo-finance-following-founders-death/;https://cryptobriefing.com/ondo-crypto-succession-planning-challenges/"
+},
+{
+"q": "Nathan Allman Founder / Ian De Bode Acting CEO and President",
+"url": "https://ondo.finance/team",
+"t": "Ondo Team (Founder, Mission We Believe)"
+},
+{
+"q": "Ian led the digital asset efforts at McKinsey & Co",
+"url": "https://ondo.finance/team",
+"t": "Ondo Team (Founder, Mission We Believe)"
+}
+],
+"ids": [
+"F-0207",
+"F-1112",
+"F-0498"
+]
+},
+"on-0008": {
+"text": "Flux Finance 90.01%, Ondo Finance Inc. 9.99%(2025-11-11 기준)",
+"src": [
+{
+"q": "The shareholders of the Issuer are Ondo Finance Inc. and Flux Finance Inc., each holding 9.99% and 90.01% of ordinary shares, respectively.",
+"url": "https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf",
+"t": "Final Terms for Product Nr.1 QQQon (ISIN VGG7001AAJ30) and Issue Specific Summary, Base Prospectus dated 11.11.2025"
+}
+],
+"ids": [
+"F-0186"
+]
+},
+"on-0009": {
+"text": "Flux Finance는 Ondo Foundation(재단)의 완전 자회사. 즉 발행 법인의 다수 지분은 Ondo Finance Inc.가 아니라 재단 쪽이 보유",
+"src": [
+{
+"q": "is 90.01% owned by Flux Finance Inc. (a wholly owned subsidiary of the Ondo Foundation)",
+"url": "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory",
+"t": "Legal & Regulatory - Ondo Finance"
+},
+{
+"q": "The shareholders of the Issuer are Ondo Finance Inc. and Flux Finance Inc., each holding 9.99% and 90.01% of ordinary shares, respectively.",
+"url": "https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf",
+"t": "Final Terms for Product Nr.1 QQQon (ISIN VGG7001AAJ30) and Issue Specific Summary, Base Prospectus dated 11.11.2025"
+}
+],
+"ids": [
+"F-0562",
+"F-0186"
+]
+},
+"on-0010": {
+"text": "Flux Finance가 토큰 채무의 추가 담보 자금 보증",
+"src": [
+{
+"q": "has guaranteed funds to further collateralize Ondo Stocks’ obligations to tokenholders",
+"url": "https://docs.ondo.finance/ondo-stocks/trust-and-transparency",
+"t": "Trust & Transparency - Ondo Finance"
+}
+],
+"ids": [
+"F-0580"
+]
+},
+"on-0055": {
+"text": "토큰과 같은 수량의 기초 주식을 Alpaca(미국 청산 증권사)와 BitGo Trust(수탁 회사)의 담보 계좌에 보관",
+"src": [
+{
+"q": "The broker is Alpaca Securities LLC ... The Custodians are: Alpaca Securities LLC ...; and BitGo Trust Company, Inc.",
+"url": "https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf",
+"t": "Final Terms for Product Nr.1 QQQon (ISIN VGG7001AAJ30) and Issue Specific Summary, Base Prospectus dated 11.11.2025"
+},
+{
+"q": "These tokens are fully backed on a 1:1 basis",
+"url": "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory",
+"t": "Legal & Regulatory - Ondo Finance"
+}
+],
+"ids": [
+"F-0189",
+"F-0558"
+]
+},
+"on-0056": {
+"text": "Ankura Trust(담보 대리인)가 1순위 담보권 보유",
+"src": [
+{
+"q": "An independent third-party Security Agent holds a first-priority, perfected security interest in the collateral",
+"url": "https://ondo.finance/ondo-stocks",
+"t": "Ondo Stocks | Tokenized Stocks and ETFs | Ondo Finance"
+},
+{
+"q": "appoints Ankura Trust Company, LLC as the Security Agent",
+"url": "https://docs.ondo.finance/ondo-stocks/secondary-market-restrictions",
+"t": "Secondary Market Restrictions - Ondo Finance"
+}
+],
+"ids": [
+"F-0483",
+"F-0573"
+]
+},
+"on-0078": {
+"text": "USDT(스테이블코인) 계정 이용자에게 2025-09부터 100종 이상 제공",
+"src": [
+{
+"q": "In September 2025, Bitget and Bitget Wallet introduced access to more than 100 tokenised assets through Ondo Finance. More recently, Bitget added 98 more tokenised US stocks and ETFs through the same provider.",
+"url": "https://cfotech.news/story/bitget-widens-ondo-tokenised-stocks-etfs-metals;https://www.financemagnates.com/cryptocurrency/users-outside-us-can-now-trade-ondo-finances-tokenized-stocks-on-bitget-platforms/",
+"t": "https://cfotech.news/story/bitget-widens-ondo-tokenised-stocks-etfs-metals;https://www.financemagnates.com/cryptocurrency/users-outside-us-can-now-trade-ondo-finances-tokenized-stocks-on-bitget-platforms/"
+}
+],
+"ids": [
+"F-0202"
+]
+},
+"on-0083": {
+"text": "일요일 밤 8시~금요일 밤 8시(ET)",
+"src": [
+{
+"q": "8:05:00pm ET (New York time) Sunday evening through 7:59:00pm ET Friday evening",
+"url": "https://docs.ondo.finance/ondo-stocks/market-hours-and-trading-availability",
+"t": "Market Hours & Trading Availability - Ondo Finance"
+}
+],
+"ids": [
+"F-0564"
+]
+},
+"on-0131": {
+"text": "2021년 설립, 창업자 Nathan Allman(Founder). 이전에 Goldman Sachs 디지털자산 팀에서 일함(Ondo 사이트 소개)",
+"src": [
+{
+"q": "\"foundingDate\":\"2021\"",
+"url": "https://ondo.finance/",
+"t": "Ondo Finance 홈페이지(JSON-LD foundingDate)"
+},
+{
+"q": "Nathan Allman Founder / Ian De Bode Acting CEO and President",
+"url": "https://ondo.finance/team",
+"t": "Ondo Team (Founder, Mission We Believe)"
+},
+{
+"q": "Nathan previously worked at Goldman Sachs on the Digital Assets team",
+"url": "https://ondo.finance/team",
+"t": "Ondo Team (Founder, Mission We Believe)"
+}
+],
+"ids": [
+"F-1111",
+"F-1112",
+"F-0497"
+]
+},
+"on-0154": {
+"text": "2026-01 초 4.13억 달러 1위(51.59%) → 11-16 8.99억 2위(24.23%)",
+"src": [
+{
+"q": "",
+"url": "https://www.sentora.com",
+"t": "Sentora(리서치 회사), 표 출처 rwa.xyz, Sentora 주간 글(rwa.xyz Tokenized Public Stocks League Table) (2026-01-09, 순위표). 입장: 리서치 회사",
+"e": "rwa.xyz 토큰화 상장주식 플랫폼 순위 1위, 잔액 4.134억 달러, 점유율 51.59%"
+},
+{
+"q": "platform row value 898829267, market_share_pct 24.23%",
+"url": "https://app.rwa.xyz/stocks",
+"t": "Tokenized Stocks"
+}
+],
+"ids": [
+"TP-001",
+"F-1022"
+]
+},
+"on-0160": {
+"text": "주의. 주식 발행 기업(Tesla 등)의 동의 없이 제3자가 만든 토큰이어서 기업과 보유자 사이 권리 관계가 없고, 토큰 보유 기록은 발행 SPV가 관리하며 담보는 Ankura가 대리 보유(CoinDesk Research, Bullish 의뢰)",
+"src": [
+{
+"q": "",
+"url": "https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities",
+"t": "CoinDesk Research, The Future of Equity Ownership: An Issuer's Guide to Tokenized Equities (2026-09-29, 10쪽). 입장: Bullish(가상자산 거래소) 의뢰, 발행사 직접 방식에 유리하게 씀",
+"e": "비교표 Ondo 열 중 발행사 동의 없음(No consent), 토큰은 주식이 아닌 래퍼(Wrapper), 등록부는 SPV, 의결은 Broadridge 대행(Proxy voting). 같은 열의 미국용 보관형, 유동성 약 70% 칸은 8절 확인 전이라 쓰지 않음"
+},
+{
+"q": "appoints Ankura Trust Company, LLC as the Security Agent",
+"url": "https://docs.ondo.finance/ondo-stocks/secondary-market-restrictions",
+"t": "Secondary Market Restrictions - Ondo Finance"
+}
+],
+"ids": [
+"TP-204",
+"F-0573"
+]
+},
+"on-0174": {
+"text": "오버달(SEC 제출 의견서, 필자가 Citadel Securities 재정 지원을 밝힘), Tokenized U.S. Equities, DeFi Trading, and the SEC's Exemptive Authority, 2026-01-22, 25쪽",
+"src": [
+{
+"q": "This suggests that the user paid about 9.3% more for the tokenized NVDA stock compared to what they would have paid if they instead had executed a trade for NVDA on a regulated exchange.",
+"url": "https://www.sec.gov/files/ctf-written-james-overdahl-tokenized-us-equities-01-22-2026.pdf",
+"t": "James A. Overdahl(Delta Strategy Group), SEC 제출 의견서, Tokenized U.S. Equities, DeFi Trading, and the SEC's Exemptive Authority: An Economic Analysis (2026-01-22, 25쪽). 입장: 필자가 Citadel Securities의 재정 지원을 밝힘",
+"e": "2026-01-14 Uniswap 1% 수수료 풀에서 NVDAon을 약 8,900달러 매수, 같은 1분 최고 주가보다 약 9.3% 비싸게 체결(단일 사례). 24쪽에서 Ondo를 미국 밖 주식 토큰 최대 사업자(점유율 50% 초과)로 서술"
+}
+],
+"ids": [
+"TP-201"
+]
+},
+"on-0204": {
+"text": "BNB 체인 확장(직접)",
+"src": [
+{
+"q": "BNB Chain is home to one of the largest and most engaged global user bases in Web3. Expanding Ondo Stocks to BNB Chain allows us to bring tokenized U.S. stocks and ETFs to millions of users across Asia, Latin America, and other geographies, in an environment that is fast, cost-efficient, and highly",
+"url": "https://ondo.finance/blog/global-markets-live-on-bnb-chain",
+"t": "Ondo 블로그(Ondo Stocks BNB 체인 진출)"
+}
+],
+"ids": [
+"F-1052"
+]
+},
+"on-0206": {
+"text": "카카오페이증권, 미래에셋 MOU(제휴)",
+"src": [
+{
+"q": "The brokerage signed memorandums of understanding with Dinari on Tuesday and Ondo Finance on Monday. ... Commercial launches remain subject to technical assessments, regulatory requirements and investor protection rules in Korea and overseas.",
+"url": "https://koreaherald.com/article/10887648;https://www.digitaltoday.co.kr/en/view/108637/kakaopay-securities-to-push-tokenisation-and-overseas-distribution-of-korean-stocks",
+"t": "https://koreaherald.com/article/10887648;https://www.digitaltoday.co.kr/en/view/108637/kakaopay-securities-to-push-tokenisation-and-overseas-distribution-of-korean-stocks"
+},
+{
+"q": "Working with Mirae Asset on ETF tokenization (Bloomingbit 인터뷰 소제목)",
+"url": "https://en.bloomingbit.io/feed/news/123709",
+"t": "Ondo Finance Says Global Demand for Korean Stocks Is Strong (Kunal Patel 인터뷰 2026-11-05)"
+}
+],
+"ids": [
+"F-0204",
+"F-0205"
+]
+},
+"on-0209": {
+"text": "이용자가 외부 지갑으로 토큰을 옮길 수 있고, 체인 간 이동 통로(LayerZero 브리지)로 DeFi 서비스 연동을 추진",
+"src": [
+{
+"q": "Ondo’s tokenized stocks are ERC20 compliant and transferable",
+"url": "https://docs.ondo.finance/ondo-stocks/investing-and-redeeming",
+"t": "Investing & Redeeming - Ondo Finance"
+},
+{
+"q": "The stage is set for the rapid expansion of Ondo Stocks across the multi-chain economy. Launching this Ondo Bridge with LayerZero empowers users to seamlessly transfer 100+ tokenized stocks and ETFs between Ethereum and BNB Chain, with many more chains coming soon. Moreover, with any wallet, protoco",
+"url": "https://ondo.finance/blog/ondo-bridge-for-onchain-securities",
+"t": "Ondo 블로그(LayerZero 브리지)"
+}
+],
+"ids": [
+"F-0553",
+"F-1051"
+]
+},
+"on-0222": {
+"text": "Ondo Stocks(2025-09 출시, 이전 이름 Ondo Global Markets) = 미국 상장 주식, ETF의 가격을 1:1로 따라가는 채무증권 토큰, 미국 밖 개인과 기관 대상",
+"src": [
+{
+"q": "previously known as Ondo Global Markets",
+"url": "https://ondo.finance/ondo-stocks",
+"t": "Ondo Stocks | Tokenized Stocks and ETFs | Ondo Finance"
+},
+{
+"q": "Product Security Type: Debt instrument / The Tokens are issued as tokenized Tracker Certificates, which track the Underlying on a 1:1 basis / Security Tokens are governed by Swiss Law.",
+"url": "https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf",
+"t": "Final Terms for Product Nr.1 QQQon (ISIN VGG7001AAJ30) and Issue Specific Summary, Base Prospectus dated 11.11.2025"
+},
+{
+"q": "Ondo tokenized stocks are fully backed and secured by U.S. stocks and ETFs held at one or more U.S.-registered broker-dealers and cash in transit",
+"url": "https://decrypt.co/337944/ondo-100-tokenized-stocks-ethereum",
+"t": "DeFi Protocol Ondo Finance Puts 100 Tokenized Stocks on Ethereum"
+}
+],
+"ids": [
+"F-0485",
+"F-0187",
+"F-0197"
+]
+},
+"on-0226": {
+"text": "2025-02 발표한 자체 블록체인 Ondo Chain은 철회, 2026-07 Ondo Network(검증과 정산만 맡는 실행 계층)로 대체",
+"src": [
+{
+"q": "Ondo Chain, our new L1 blockchain purpose-built for institutional-grade RWAs.",
+"url": "https://ondo.finance/blog/introducing-ondo-chain",
+"t": "Introducing Ondo Chain: The Omnichain Network for RWAs"
+},
+{
+"q": "It isn’t a blockchain today; it doesn’t need to be.",
+"url": "https://ondo.finance/blog/introducing-the-ondo-network",
+"t": "Introducing the Ondo Network: The Evolution of Ondo Infrastructure"
+}
+],
+"ids": [
+"F-1213",
+"F-1214"
+]
+},
+"on-0227": {
+"text": "SEC(미국 증권거래위원회)의 수년간 비공개 조사(토큰화 방식과 ONDO 토큰의 증권성)가 기소 없이 종결됐다고 회사가 발표(2025-12). SEC 확인문은 없음",
+"src": [
+{
+"q": "Ondo Finance has received formal notice that a confidential, multi-year SEC investigation, initiated under the Biden administration during a period of heightened scrutiny of digital-asset firms, has been closed without any charges.",
+"url": "https://ondo.finance/blog/tokenized-securities-step-forward",
+"t": "Case Closed: Clearing the Way for Tokenization (Ondo blog)"
+},
+{
+"q": "Ondo said that the investigation ... was closed without any charges. Decrypt reached out to the SEC to confirm the move, but did not immediately receive a response.",
+"url": "https://decrypt.co/351509/ondo-says-biden-era-sec-investigation-closed-no-charges",
+"t": "Ondo Finance Says Biden-Era SEC Investigation Closed With No Charges"
+}
+],
+"ids": [
+"F-1323",
+"F-0198"
+]
+},
+"on-0230": {
+"text": "2025-09 출시 때 100종 이상, 2026-11-16 Ondo 사이트 소개문에 450개 이상(토큰화 주식과 ETF, 회사 표기)",
+"src": [
+{
+"q": "Ondo tokenized stocks are fully backed and secured by U.S. stocks and ETFs held at one or more U.S.-registered broker-dealers and cash in transit",
+"url": "https://decrypt.co/337944/ondo-100-tokenized-stocks-ethereum",
+"t": "DeFi Protocol Ondo Finance Puts 100 Tokenized Stocks on Ethereum"
+},
+{
+"q": "Access 450+ tokenized stocks and ETFs onchain",
+"url": "https://ondo.finance/ondo-stocks",
+"t": "Ondo Stocks | Tokenized Stocks and ETFs | Ondo Finance"
+}
+],
+"ids": [
+"F-0197",
+"F-0477"
+]
+},
+"on-0251": {
+"text": "자체 블록체인(L1) 계획을 접고 검증과 정산만 맡는 실행 계층으로",
+"src": [
+{
+"q": "Ondo Chain, our new L1 blockchain purpose-built for institutional-grade RWAs.",
+"url": "https://ondo.finance/blog/introducing-ondo-chain",
+"t": "Introducing Ondo Chain: The Omnichain Network for RWAs"
+},
+{
+"q": "It isn’t a blockchain today; it doesn’t need to be.",
+"url": "https://ondo.finance/blog/introducing-the-ondo-network",
+"t": "Introducing the Ondo Network: The Evolution of Ondo Infrastructure"
+}
+],
+"ids": [
+"F-1213",
+"F-1214"
+]
+},
+"on-0272": {
+"text": "2026-11-16 rwa.xyz 토큰화 주식 플랫폼 표에서 발행 잔액 2위, 8.99억 달러로 시장 37.1억 달러의 24.23%. 1위 Binance 13.6억 달러와 4.6억 달러 차이",
+"src": [
+{
+"q": "platform row value 898829267, market_share_pct 24.23%",
+"url": "https://app.rwa.xyz/stocks",
+"t": "Tokenized Stocks"
+},
+{
+"q": "platform row value 1358606032, market_share_pct 36.62%",
+"url": "https://app.rwa.xyz/stocks",
+"t": "Tokenized Stocks"
+},
+{
+"q": "Distributed Value $3.71B",
+"url": "https://app.rwa.xyz/stocks",
+"t": "Tokenized Stocks"
+}
+],
+"ids": [
+"F-1022",
+"F-1021",
+"F-1028"
+]
+},
+"on-0273": {
+"text": "같은 날 rwa.xyz 국채 토큰 플랫폼 표 2위, Ondo 상품 합계 32억 달러(시장 139.2억 달러의 약 23%). 1위 Franklin Benji 33억 달러와 약 1억 달러 차이",
+"src": [
+{
+"q": "# Platform RWA Count Total Value 30D% Market Share 1 Franklin Templeton Benji Investments 4 $3.3B Login to Unlock Login to Unlock 2 Ondo 11 $3.2B",
+"url": "https://app.rwa.xyz/treasuries",
+"t": "RWA.xyz Treasuries 리그 표"
+},
+{
+"q": "Distributed Value $13.92B ▼ 5.45 % from 30d ago Represented Value $86.39M ▼ 4.31 % from 30d ago 7D APY 3.57% ▼ 1.30 % from 7d ago Assets 123 Holders 86,310",
+"url": "https://app.rwa.xyz/treasuries",
+"t": "RWA.xyz Treasuries 리그 표"
+}
+],
+"ids": [
+"F-1321",
+"F-1320"
+]
+},
+"on-0279": {
+"text": "Ondo Foundation = ONDO 토큰 거버넌스를 맡는 재단. Ondo Finance Inc.는 토큰화 기술을 제공하는 회사로 재단과 법인이 따로",
+"src": [
+{
+"q": "ONDO is the governance token for the Ondo DAO and Flux Finance",
+"url": "https://docs.ondo.foundation/ondo-token",
+"t": "The ONDO Token"
+},
+{
+"q": "provides tokenization services to, and is an equity holder of, Ondo Global Markets (BVI) Limited",
+"url": "https://docs.ondo.finance/ondo-stocks/important-notes",
+"t": "Ondo Stocks Important Notes (docs)"
+}
+],
+"ids": [
+"F-1209",
+"F-0551"
+]
+},
+"on-0311": {
+"text": "2025-02 자체 L1 Ondo Chain 발표 → 메인넷 출시 없이 2026-07 Ondo Network(검증과 정산만 맡는 실행 계층)로 방향 변경",
+"src": [
+{
+"q": "Ondo Chain, our new L1 blockchain purpose-built for institutional-grade RWAs.",
+"url": "https://ondo.finance/blog/introducing-ondo-chain",
+"t": "Introducing Ondo Chain: The Omnichain Network for RWAs"
+},
+{
+"q": "It isn’t a blockchain today; it doesn’t need to be.",
+"url": "https://ondo.finance/blog/introducing-the-ondo-network",
+"t": "Introducing the Ondo Network: The Evolution of Ondo Infrastructure"
+}
+],
+"ids": [
+"F-1213",
+"F-1214"
+]
+},
+"on-0313": {
+"text": "Catalyst(앱, 인프라 기업에 투자하는 2.5억 달러 전략 투자 이니셔티브)로 닫힌 시스템에서 열린 온체인 경제로 전환을 키운다",
+"src": [
+{
+"q": "The financial system is undergoing a fundamental upgrade. With Ondo Catalyst, we're fueling the transition from closed, permissioned systems to an open, onchain economy. By supporting the infrastructure and applications that unlock real-world utility for tokenized assets, we're helping reshape how c",
+"url": "https://ondo.finance/blog/introducing-ondo-catalyst",
+"t": "Ondo 블로그(Ondo Catalyst 출시)"
+}
+],
+"ids": [
+"F-1048"
+]
+},
+"on-0314": {
+"text": "DTCC와 경쟁이 아니라 연동",
+"src": [
+{
+"q": "Ondo is the only company simultaneously building all pathways for US securities tokenization. Today's initiative with DTCC demonstrates that Ondo Stocks infrastructure is purpose-built to interoperate with institutional market infrastructure, not to compete with it. As tokenized securities markets c",
+"url": "https://ondo.finance/blog/ondo-and-dtcc-collaborate-on-tokenized-stocks",
+"t": "Ondo 블로그(DTC 토큰화 권리 기반 토큰화 주식)"
+}
+],
+"ids": [
+"F-1049"
+]
+},
+"on-0327": {
+"text": "Ondo USDY LLC가 발행한 토큰화 담보부 노트. 2025-12-15부터 Ondo Stocks 발행 법인(Ondo Global Markets (BVI) Limited) 산하로 옮겨 관리",
+"src": [
+{
+"q": "is a tokenized note formerly issued by Ondo USDY LLC",
+"url": "https://docs.ondo.finance/general-access-products/usdy/basics",
+"t": "USDY Basics - Ondo Finance"
+},
+{
+"q": "USDY is not classified as a traditional stablecoin; instead, it is a tokenized secured note",
+"url": "https://docs.ondo.finance/general-access-products/usdy/comparison-stablecoins",
+"t": "Comparison to Stablecoins - Ondo Finance"
+},
+{
+"q": "as of December 15, 2025 has been folded into the Ondo Stocks umbrella",
+"url": "https://docs.ondo.finance/general-access-products/usdy/basics",
+"t": "USDY Basics - Ondo Finance"
+}
+],
+"ids": [
+"F-0504",
+"F-0509",
+"F-0503"
+]
+},
+"on-0331": {
+"text": "State Street Galaxy Onchain Liquidity Sweep Fund 48.57%, BlackRock BUIDL 32.69%, Franklin BENJI 10.13%, Fidelity FYOXX 7.56%, USDC 0.99%",
+"src": [
+{
+"q": "48.57% State Street Galaxy Onchain Liquidity Sweep Fund SWEEP $ 151,967,968 2.84 % 3.41 % 32.69% BlackRock USD Institutional Digital Liquidity Fund BUIDL $ 102,283,051",
+"url": "https://ondo.finance/ousg",
+"t": "OUSG product page (Portfolio Overview, TVL, FAQ)"
+}
+],
+"ids": [
+"F-1315"
+]
+},
+"on-0333": {
+"text": "24시간 즉시 발행과 상환을 위해 기초자산을 BlackRock과 Securitize의 BUIDL로 옮기고 Circle의 USDC 즉시 유동성을 이용",
+"src": [
+{
+"q": "When we initially launched our OUSG token in January of 2023, it was the first time that investors were able to gain exposure to US Treasuries onchain.",
+"url": "https://ondo.finance/blog/building-on-buidl-how-ondo-leverages-blackrocks-tokenized-treasuries",
+"t": "Building on BUIDL: How Ondo Leverages BlackRock's Tokenized Treasuries (Ondo blog)"
+}
+],
+"ids": [
+"F-1317"
+]
+},
+"on-0335": {
+"text": "발행 잔액 19.7억 달러, 기초자산 24.2억 달러, 미국 국채 82.73%, iShares 0-1년 국채 ETF를 Ondo가 토큰으로 만든 SHVon 17.24%(Ondo Stocks 종목을 기초자산으로 다시 담은 것)",
+"src": [
+{
+"q": "Value of USDY Outstanding 3 $ 1.97B Value of Underlying Assets 4 $ 2.42B Collateralization Ratio 5 156.90 %",
+"url": "https://ondo.finance/usdy",
+"t": "USDY product page (Portfolio Overview)"
+}
+],
+"ids": [
+"F-1318"
+]
+},
+"on-0349": {
+"text": "OUSG 즉시 투자와 상환 5,000달러, 즉시 아닌 방식은 투자 10만, 상환 5만 달러. USDY 주력 체인 외는 5,000달러",
+"src": [
+{
+"q": "For instant transactions, the minimum amount is \\$5,000 for both investments and redemptions. For non-instant transactions, our minimum investment and redemption amounts remain at \\$100K and \\$50K, respectively.",
+"url": "https://docs.ondo.finance/qualified-access-products/ousg/overview.md",
+"t": "OUSG Overview (docs)"
+},
+{
+"q": "To mint and redeem USDY on Sui, Aptos, Stellar, XRP, or Noble, please contact [support@ondo.finance](mailto:support@ondo.finance). Please note that that there is a \\$5,000 minimum for minting and redeeming on these networks.",
+"url": "https://docs.ondo.finance/general-access-products/usdy/basics.md",
+"t": "USDY Basics (docs)"
+}
+],
+"ids": [
+"F-1310",
+"F-1319"
+]
+},
+"on-0350": {
+"text": "전체 합산 24시간 5,000만 달러, 투자자 1인당 24시간 2,500만 달러. 상환은 Circle의 USDC 지원 여부에도 제한",
+"src": [
+{
+"q": "Instant minting has a \\$50M **Global Limit**.",
+"url": "https://docs.ondo.finance/qualified-access-products/ousg/instant-limits.md",
+"t": "OUSG Instant Minting and Redemption Limits (docs)"
+}
+],
+"ids": [
+"F-1311"
+]
+},
+"on-0364": {
+"text": "2026-09-24 Ondo Intelligent Portfolios 출시. 첫 3종 BLKHIon(고소득), BLKDIGon(분산 성장), BLKGRWon(고성장)은 BlackRock이 Ondo를 위해 만든 포트폴리오 전략 기반",
+"src": [
+{
+"q": "The first three portfolios launched are based on portfolio strategies developed by BlackRock for Ondo, marking the first time exposure to such portfolio strategies have been made available to onchain investors.",
+"url": "https://ondo.finance/blog/introducing-ondo-intelligent-portfolios",
+"t": "Introducing Ondo Intelligent Portfolios"
+},
+{
+"q": "The first three portfolios launched are based on portfolio strategies developed by BlackRock for Ondo",
+"url": "https://ondo.finance/",
+"t": "Ondo Finance 홈페이지(JSON-LD foundingDate)"
+}
+],
+"ids": [
+"F-1324",
+"F-0461"
+]
+},
+"on-0372": {
+"text": "2026-10-05 Ondo Private Markets 발표. 비상장사 주당 가치에 연동한 토큰화 노트로, 첫 대상은 비상장 AI 기업",
+"src": [
+{
+"q": "Today, we’re introducing Ondo Private Markets, which gives eligible investors tokenized exposure to the economic performance of industry-defining private companies before they go public.",
+"url": "https://ondo.finance/blog/introducing-ondo-private-markets",
+"t": "Introducing Ondo Private Markets"
+}
+],
+"ids": [
+"F-1153"
+]
+},
+"on-0380": {
+"text": "2026-05 사망, 2026-08 유족이 델라웨어 법원에 경영권과 De Bode 해임을 요구, 결과는 확인하지 못함",
+"src": [
+{
+"q": "Allman passed away in late May at the age of 32. ... Ian De Bode, then the firm's president, would assume the role of CEO.",
+"url": "https://forklog.com/en/power-struggle-emerges-at-ondo-finance-following-founders-death/;https://cryptobriefing.com/ondo-crypto-succession-planning-challenges/",
+"t": "https://forklog.com/en/power-struggle-emerges-at-ondo-finance-following-founders-death/;https://cryptobriefing.com/ondo-crypto-succession-planning-challenges/"
+},
+{
+"q": "The mother of the late Ondo Finance founder Nathan Allman has filed a lawsuit in Delaware court seeking control over the RWA project",
+"url": "https://forklog.com/en/power-struggle-emerges-at-ondo-finance-following-founders-death/;https://cryptobriefing.com/ondo-crypto-succession-planning-challenges/",
+"t": "https://forklog.com/en/power-struggle-emerges-at-ondo-finance-following-founders-death/;https://cryptobriefing.com/ondo-crypto-succession-planning-challenges/"
+}
+],
+"ids": [
+"F-0207",
+"F-0208"
+]
+},
+"on-0387": {
+"text": "24시간 합산 5,000만 달러, Circle USDC 지원 여부에 연동",
+"src": [
+{
+"q": "Instant minting has a \\$50M **Global Limit**.",
+"url": "https://docs.ondo.finance/qualified-access-products/ousg/instant-limits.md",
+"t": "OUSG Instant Minting and Redemption Limits (docs)"
+}
+],
+"ids": [
+"F-1311"
+]
+},
+"on-0392": {
+"text": "구성이 바뀌어도 안내가 늦는 상태. 2024-08 BUIDL로 옮긴 뒤 2026-11-13 최대 비중은 SWEEP 48.57%로 바뀌었으므로 구성 공시 주기를 정해야 함",
+"src": [
+{
+"q": "When we initially launched our OUSG token in January of 2023, it was the first time that investors were able to gain exposure to US Treasuries onchain.",
+"url": "https://ondo.finance/blog/building-on-buidl-how-ondo-leverages-blackrocks-tokenized-treasuries",
+"t": "Building on BUIDL: How Ondo Leverages BlackRock's Tokenized Treasuries (Ondo blog)"
+},
+{
+"q": "48.57% State Street Galaxy Onchain Liquidity Sweep Fund SWEEP $ 151,967,968 2.84 % 3.41 % 32.69% BlackRock USD Institutional Digital Liquidity Fund BUIDL $ 102,283,051",
+"url": "https://ondo.finance/ousg",
+"t": "OUSG product page (Portfolio Overview, TVL, FAQ)"
+}
+],
+"ids": [
+"F-1317",
+"F-1315"
+]
+},
+"on-0406": {
+"text": "이름이 둘인 이유 = 이전 이름이 Ondo Global Markets이고 발행 법인명 Ondo Global Markets (BVI) Limited에 옛 이름이 남음",
+"src": [
+{
+"q": "previously known as Ondo Global Markets",
+"url": "https://ondo.finance/ondo-stocks",
+"t": "Ondo Stocks | Tokenized Stocks and ETFs | Ondo Finance"
+},
+{
+"q": "are issued by Ondo Global Markets (BVI) Limited, a British Virgin Islands business company",
+"url": "https://docs.ondo.finance/ondo-stocks/important-notes",
+"t": "Ondo Stocks Important Notes (docs)"
+}
+],
+"ids": [
+"F-0485",
+"F-0550"
+]
+},
+"on-0470": {
+"text": "2026-08-15 Ondo 전체 상품 보유자 200,645명, 그중 Ondo Stocks 186,636명(회사 보도자료)",
+"src": [
+{
+"q": "Ondo now counts 200,645 holders across its product suite",
+"url": "https://www.prnewswire.com/apac/news-releases/ondo-stocks-surpasses-1-billion-in-value-as-ecosystem-surges-302852162.html",
+"t": "Ondo Stocks surpasses $1 billion in value as ecosystem surges"
+}
+],
+"ids": [
+"F-1390"
+]
+},
+"on-0489": {
+"text": "2025-04 BVI 발행 법인 설립, Regulation S 면제로 2025-09 Ondo Global Markets(현 Ondo Stocks) 100종 이상 출시. BVI 감독기관 인가도 받지 않았고 미국인과 미국 안 주문은 제외",
+"src": [
+{
+"q": "The Issuer is Ondo Global Markets (BVI) Limited a BVI business company incorporated under the laws of the British Virgin Islands with company number 2174192",
+"url": "https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf",
+"t": "Final Terms for Product Nr.1 QQQon (ISIN VGG7001AAJ30) and Issue Specific Summary, Base Prospectus dated 11.11.2025"
+},
+{
+"q": "only offers and sells the tokens in reliance on the exemption provided by Regulation S",
+"url": "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory",
+"t": "Legal & Regulatory - Ondo Finance"
+},
+{
+"q": "Ondo tokenized stocks are fully backed and secured by U.S. stocks and ETFs held at one or more U.S.-registered broker-dealers and cash in transit",
+"url": "https://decrypt.co/337944/ondo-100-tokenized-stocks-ethereum",
+"t": "DeFi Protocol Ondo Finance Puts 100 Tokenized Stocks on Ethereum"
+},
+{
+"q": "ONDO IS NOT REGISTERED OR LICENSED BY THE BVI FINANCIAL SERVICES COMMISSION",
+"url": "https://docs.ondo.finance/legal/terms-of-service",
+"t": "Terms of Service - Ondo Finance"
+},
+{
+"q": "(i) who are not in the United States ... who are not U.S. persons ... within the meaning of Rule 902 of Regulation S ... (iii) who are not otherwise in prohibited jurisdictions ... / to both retail and professional investors within the EU and the EEA",
+"url": "https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf",
+"t": "Final Terms for Product Nr.1 QQQon (ISIN VGG7001AAJ30) and Issue Specific Summary, Base Prospectus dated 11.11.2025"
+}
+],
+"ids": [
+"F-0185",
+"F-0560",
+"F-0197",
+"F-0528",
+"F-0190"
+]
+},
+"on-0490": {
+"text": "그 전 Ondo Stocks는 미국인과 미국 안 주문을 받지 못함 → 계기 2025-10-07 Oasis Pro 인수 완료(2009 등록 증권사, ATS, 명의개서대리인 일괄, 금액 비공개) → 그 뒤 2026-07 Oasis Pro 명의개서대리인이 미국 보관형 IVV, MU 토큰을 첫 가동(회사 주장), 2026-09 Oasis Pro Markets가 DTCC Fund/SERV 처리망 합류(The Defiant 보도). 미국 보관형의 매수 대상 범위는 발표에 없음",
+"src": [
+{
+"q": "United States, or any of its states, possessions, territories or federal districts",
+"url": "https://docs.ondo.finance/ondo-stocks/eligibility",
+"t": "Eligibility - Ondo Finance"
+},
+{
+"q": "Ondo Finance is pleased to announce the successful completion of its acquisition of Oasis Pro, including its SEC-registered digital assets broker-dealer, alternative trading system (ATS), and transfer agent (TA) licenses.",
+"url": "https://ondo.finance/blog/ondo-acquires-oasis-pro",
+"t": "Ondo Finance Completes Acquisition of Oasis Pro to Accelerate U.S. Tokenized Securities Innovation"
+},
+{
+"q": "firmName OASIS PRO MARKETS LLC; bcScope ACTIVE; firmStatus Approved; regulator SEC; bdSECNumber 68164; finraRegistered Y; firmStatusDate 08/19/2009; approvedStateRegistrationCount 53; owner ONDO FINANCE INC. OWNER; otherNames LAVECCHIA CAPITAL LLC. 하는 일 체결(ATS)은 notes.md 출처 기준, BrokerCheck JSON에 ATS 표기 없음",
+"url": "https://api.brokercheck.finra.org/search/firm/149420",
+"t": "https://api.brokercheck.finra.org/search/firm/149420"
+},
+{
+"q": "Oasis Pro is a broker-dealer, Alternative Trading System (ATS) and Transfer Agent (TA) registered with the US Securities and Exchange Commission ... Ondo Finance declined to disclose the financial terms of the deal",
+"url": "https://cointelegraph.com/news/ondo-finance-acquires-oasis-pro-tokenized-securities-us;https://www.ledgerinsights.com/ondo-finance-acquires-oasis-pro-to-expand-us-tokenization-capabilities/",
+"t": "https://cointelegraph.com/news/ondo-finance-acquires-oasis-pro-tokenized-securities-us;https://www.ledgerinsights.com/ondo-finance-acquires-oasis-pro-to-expand-us-tokenization-capabilities/"
+},
+{
+"q": "Ondo's launch of tokenized BlackRock iShares Core S&P 500 (IVV) ETF and Micron (MU) stock are the first production deployments of that model in the U.S.",
+"url": "https://ondo.finance/blog/ondo-launches-tokenized-securities-in-usa",
+"t": "Ondo Finance Launches First-Ever Custodial Tokenized Securities in the U.S., Broadridge Partners to Integrate World Class Governance"
+},
+{
+"q": "Ondo’s Oasis Pro Markets Joins DTCC’s Fund/SERV Processing Network",
+"url": "https://ondo.finance/insights?page=2",
+"t": "Insights | Tokenization Research and News | Ondo Finance"
+}
+],
+"ids": [
+"F-1129",
+"F-1216",
+"F-0246",
+"F-0194",
+"F-1128",
+"F-0495"
+]
+},
+"on-0491": {
+"text": "그 전 Regulation S 면제로 미국 밖 판매만 → 계기 2025-11-11 리히텐슈타인 FMA가 기본 투자설명서 승인, EEA 29개국 통지 → 그 뒤 첫 상품 QQQon(발행 한도 5억 달러). 유효기간이 2026-11-11에 끝났고 갱신은 확인하지 못함",
+"src": [
+{
+"q": "only offers and sells the tokens in reliance on the exemption provided by Regulation S",
+"url": "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory",
+"t": "Legal & Regulatory - Ondo Finance"
+},
+{
+"q": "Basisprospekt über das Angebotsprogramm der Ondo Global Markets (BVI) Limited zur Begebung von tokenisierten Tracker-Zertifikaten; gebilligt am 11.11.2025; gebilligt bis 11.11.2026; Nachträge 05.05.2026, 28.08.2026",
+"url": "https://www.fma-li.li",
+"t": "Liste gebilligte Prospekte ab 21. Juli 2019"
+},
+{
+"q": "The Base Prospectus was approved by the Finanzmarktaufsicht Liechtenstein ... on 11.11.2025. / The total issue volume is up to USD 500,000,000. / Blockchain: Ethereum Mainnet.",
+"url": "https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf",
+"t": "Final Terms for Product Nr.1 QQQon (ISIN VGG7001AAJ30) and Issue Specific Summary, Base Prospectus dated 11.11.2025"
+}
+],
+"ids": [
+"F-0560",
+"F-1240",
+"F-0191"
+]
+}
+}
