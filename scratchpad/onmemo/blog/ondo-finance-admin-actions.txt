@@ -1,0 +1,98 @@
+
+Ondo Finance Admin Actions | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+In this article
+The Bug
+The Fix
+Upcoming Admin Actions
+Excess ETH
+Moving Forward
+Legal Disclaimers
+Oct 31, 2021 • 5 min
+Ondo Finance Admin Actions
+Ondo Finance
+Official Blog
+Dear Ondo Finance community,
+This past week we discovered a subtle bug in an audited contract that manages Sushiswap vaults for ETH/CVX and ETH/YGG. All customer funds are safe. All funds will be available to withdraw at the conclusion of these vaults’ 30 day terms.
+This bug required us to take certain admin actions on October 28 with the address controlling the guardian role in order to ensure expected return behavior, and we will have to take similar actions around the maturity dates of the active vaults (Nov 1, Nov 3, and Nov 4).
+The Bug
+The 
+SushiStakingv2Strategy contract
+ manages all vaults that invest in Sushiswap pools that use MasterChefV2 rewards. The contract is designed to periodically harvest liquidity mining rewards and reinvest them for more LP. In normal operations the contract does the following:
+collects all reward tokens (e.g., SUSHI and CVX)
+converts them into a balanced amount of the LP assets (e.g., ETH and CVX)
+invests both in the Sushiswap pool for LP tokens (e.g., ETH-CVX LP)
+deposits those LP into MasterChefV2 to be able to receive more rewards.
+Unfortunately, a bug in step (2) transposed a swap from “tokenB to tokenA” to “tokenA to tokenB”. Where it was supposed to convert 387 CVX to ETH, it instead 
+swapped
+ 387 ETH to 118,474 CVX. Normally this would fail because there isn’t enough ETH. This time it succeeded because there was a large amount of excess, uninvested ETH waiting to be claimed by users. The same thing happened with 
+YGG
+, where 542 ETH was swapped for 236,601 YGG.
+The Fix
+The solution was to manually rescue this inadvertently purchased CVX and YGG and swap both back to ETH so customers could claim their uninvested capital. The contract manages exactly how much ETH is required to handle redemptions. In this case we needed ~936 ETH. We decided to act quickly in selling the CVX and YGG for ETH so as not to put at risk the funds owed to vault depositors. Swapping both tokens yielded ~1053 ETH, more than enough to cover the ~936 ETH owed.
+Upcoming Admin Actions
+The bug has rendered the code path for swapping reward tokens in the contract inoperable. Before we redeem the vaults at expiry, we must manually trigger the reward contracts to transfer CVX and YGG to the contract. Then, we must rescue these reward tokens from the contract.
+When we redeem the vaults there will be no rewards. The contract will sell variable tranche assets to ensure the fixed tranche receives its share. Variable tranche holders will withdraw less CVX and YGG than they are due. However, we will manually send the correct share of reward tokens to all depositors from variable tranches.
+In summary, fixed tranche depositors will receive their correct amount by design; variable tranche depositors will receive their fair share after manual disbursement of reward tokens.
+Excess ETH
+Since ETH was inadvertently sold for CVX before CVX went up in price, we ended up with ~120 ETH above what is owed to fixed and variable tranche depositors. We 
+moved
+ this excess ETH to our Anchorage custody account for now, and will distribute it to variable tranche depositors pro rata with their deposited amounts around maturity of the vaults.
+We believe that the only users with a clear claim on some of this excess are those who made subscription requests to ETH fixed tranches that were rejected and where the rejected ETH could not be claimed back for some time. To compensate those users for their opportunity cost, we plan to distribute to them yield in ETH at the rate of the fixed tranches they tried to subscribe to.
+It is not clear to us what should be done with the remaining ETH after the above compensation. For now, we will move this ETH to a separate multi-sig and use it as an insurance pool to pay out users for any potential vulnerabilities. If and when there is a DAO, we will let DAO members decide what should be done with these funds, whether that means preserving them in an insurance pool or even, for example, retroactively distributing them to variable tranche users. While there are a lot of reasonable arguments to be made about different uses of these funds, we think the insurance pool preserves the greatest optionality.
+Moving Forward
+We take security very seriously and regret that this bug slipped through our testing and Quantstamp audit. We have 5x’d our number of tests since this audit. We will also continue to preserve certain admin functions behind a now 3/5 multi-sig until the protocol has been through more battle testing. Finally, we deeply apologize for the poor communication around the admin actions we took on October 28 and realize that this resulted in some completely understandable panic from our community. We will do better going forward.
+We are deeply grateful to our community for their early adoption of Ondo Finance and for enduring some of these growing pains with us.
+Legal Disclaimers
+This announcement has been written and published by Ondo Finance Inc. and provides no guarantee, commitment, or undertaking to utilize any of its assets, funds, properties or personnel, Ondo Protocol users or other protocol participants. Ondo Finance does not owe, and does not intend to assume, any duties or obligations to Ondo Protocol users or participants, other than duties or obligations arising under laws of general application, such as non-waivable torts.
+To the maximum extent permitted by applicable law, all software relating to Ondo Protocol is being provided on an as-is, where-is basis, with no representations or warranties being made to Ondo Protocol participants and with no liability to Ondo Finance or any other person involved in the development of Ondo Protocol. The statements set forth in this announcement also are not intended to be representations, warranties, guarantees or assumptions of duty or liability of any kind, and Ondo Finance hereby disclaims the foregoing and will not be liable for any damages arising from use of Ondo Protocol. In the event of any conflict or inconsistency between this announcement or any other communication and the terms of any software license involved in Ondo Protocol, the terms of the software license shall govern to the exclusion of this announcement and such other communications.
+The forward-looking statements in this announcement are subject to numerous assumptions, risks and uncertainties which are subject to change over time. Such assumptions, risks and uncertainties could cause actual results or developments to differ materially from the results and developments anticipated by us. Even if our anticipated results and developments are realized, such results and developments may nevertheless fail to achieve any or all of the expected benefits anticipated by this announcement. We reserve the right to change the plans, expectations and intentions stated and implied herein at any time and for any reason or no reason, in our sole and absolute discretion, and we undertake no obligation to update publicly or revise any forward-looking statement, whether as a result of new information, future developments or otherwise.
+This announcement is not intended to provide legal, financial or investment or other advice and we recommend that you do not rely on, and do not make any financial or other decision based on this announcement.
+Next
+Announcement
+•
+Sep 28, 2021
+Introducing Ondo Yield Guild Vaults
+Aug 20, 2021
+APY Calculations Methodology
+Invest
+USDY
+OUSG
+Ondo Stocks
+Intelligent Portfolios
+Private Markets
+Infrastructure
+Ondo Network
+Bridge
+Converter
+Resources
+Insights
+Blog
+Learn
+Partners
+Ecosystem
+Foundation
+Flux Finance
+Explore
+Docs
+Trust & Security
+Bug Bounty
+Company
+Team
+Careers
+Media Kit
+Contact Us
+Media Inquiries
+Ondo © 
+2026
+Terms of Service
+Privacy Policy

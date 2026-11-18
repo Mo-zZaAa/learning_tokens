@@ -155,6 +155,19 @@ strong.warn{color:var(--warn)}
 .mb:hover{background:var(--memo-soft);color:var(--memo)}
 @media (hover:none){.mb{opacity:.45}}
 .hm{background:var(--memo-soft)}
+.ha{background:var(--ok-soft)}
+.ha>.mb,.ha>td>.mb{opacity:1;color:var(--ok)}
+.abadge{border:0;border-radius:999px;background:var(--ok);color:var(--panel);font-size:11px;font-weight:700;line-height:1;padding:3px 7px;margin-left:6px;vertical-align:2px;cursor:pointer}
+.abadge::after{content:"답"}
+.mans{border-left:3px solid var(--ok);background:var(--ok-soft);border-radius:0 8px 8px 0;padding:6px 10px;display:grid;gap:4px;font-size:13.5px}
+.mans .mah{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted)}
+.mans p{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;color:var(--ink)}
+.mans .mfix{font-size:12.5px;color:var(--muted);overflow-wrap:anywhere}
+.ast{border-radius:4px;padding:0 6px;font-weight:700;background:var(--line);color:var(--ink)}
+.ast.a-반영{background:var(--ok);color:var(--panel)}.ast.a-답함{background:var(--accent-soft);color:var(--accent)}.ast.a-보류{background:var(--mid-soft);color:var(--mid)}
+.ms.s-답함{background:var(--accent-soft);color:var(--accent)}
+.mi.flash{animation:flash 2.2s ease-out}
+.memobtn .ac{background:var(--ok-soft);color:var(--ok)}
 .hm>.mb,.hm>td>.mb{opacity:1;color:var(--memo)}
 .flash{animation:flash 2.2s ease-out}
 @keyframes flash{0%,40%{background:var(--hl)}100%{background:transparent}}
@@ -230,6 +243,25 @@ strong.warn{color:var(--warn)}
 .srt{font-weight:600;overflow-wrap:anywhere}
 .path{font-size:12px;color:var(--faint)}
 
+.body{display:grid;gap:0}
+.body .bh{font-size:17px;margin:18px 0 6px;padding-top:12px;border-top:1px solid var(--line)}
+.body .bh:first-child{border-top:0;margin-top:4px;padding-top:0}
+.bl{min-width:0}
+.bl.d1{margin-left:20px}.bl.d2{margin-left:40px}.bl.d3{margin-left:60px}
+.bl>.ol{font-size:15px}
+.bl.b0>.ol{font-weight:600;margin-top:8px}
+.fsubs{margin:2px 0 8px 18px;border-left:2px solid var(--line);padding-left:10px;display:grid;gap:6px}
+.raw.nosrc .fsubs{display:none}
+.fsub{font-size:13px;line-height:1.55;padding-block:3px;overflow-wrap:anywhere}
+.fsub .lab{display:inline-block;min-width:2.6em;color:var(--faint);font-size:12px}
+.fsub .fq{color:var(--ink)}
+.fsub .fm{color:var(--muted)}
+.fsub .fs{color:var(--faint);font-size:12px}
+.fsub .fs a{font-size:12px}
+.fsub .ref{font-size:11px}
+.more{border:0;background:transparent;color:var(--accent);font-size:12px;padding:0 4px;text-decoration:underline}
+.bodytools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--muted)}
+.bodytools button{border:1px solid var(--line);background:var(--panel);border-radius:7px;padding:3px 10px;font-size:13px}
 .oldsec{padding:4px 0 8px;border-bottom:1px solid var(--line)}
 .oldsec:last-child{border-bottom:0}
 .oldsec h3{font-size:15.5px;margin:10px 0 4px}
@@ -334,7 +366,7 @@ button.primary{background:var(--memo);border-color:var(--memo);color:var(--on-me
       <input id="q" type="search" placeholder="찾기 (6개사 전체)" autocomplete="off" aria-label="6개사 전체에서 찾기">
       <div id="sres" class="sres" hidden></div>
     </div>
-    <button type="button" id="memoBtn" class="memobtn" aria-label="메모 목록 열기">메모 <b id="mcount">0</b></button>
+    <button type="button" id="memoBtn" class="memobtn" aria-label="메모 목록 열기">메모 <b id="mcount">0</b><b id="acount" class="ac" hidden></b></button>
   </div>
 </header>
 <main id="main" class="main"></main>
@@ -374,7 +406,7 @@ const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp
 const SLUGS = D.cos.map(c => c[0]);
 const CO_NAME = Object.fromEntries(D.cos);
 const FC = Object.fromEntries(D.fcols.map((c, i) => [c, i]));
-const VIEW_NAME = {o: '개요', r: 'raw'};
+const VIEW_NAME = {o: '개요', r: 'raw', a: '메모 답'};
 const VIEW_KEY = {'개요': 'o', 'raw': 'r'};
 const MAIN = $('#main');
 const MB = '<button type="button" class="mb" data-mb aria-label="이 줄에 메모"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M11.3 1.7a1.5 1.5 0 0 1 2.1 0l.9.9a1.5 1.5 0 0 1 0 2.1L6 13l-3.6.9L3.3 10.3z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>';
@@ -555,6 +587,32 @@ function oldHTML(S, O){
   }
   return h + (open ? '</div>' : '');
 }
+const FIDX = {}, SIDX = {};
+function factOf(co, f){ if (!FIDX[co]){ FIDX[co] = new Map(D.C[co].facts.map(r => [r[0], r])); SIDX[co] = new Map(D.C[co].srcs.map(r => [r[0], r])); } return FIDX[co].get(f); }
+function srcOf(co, sid){ factOf(co, ''); return SIDX[co].get(sid); }
+function longText(t){ t = String(t || ''); if (t.length <= 400) return esc(t); return `${esc(t.slice(0, 400))}<span class="q2" hidden>${esc(t.slice(400))}</span><button type="button" class="more" data-more>더 보기</button>`; }
+const cleanBody = t => String(t).replace(/\{[a-z]{2,4}-\d{3,5}\}/g, '').replace(/\[(?:F-\d{4}[,;\s]*)+\]/g, '').replace(/\s{2,}/g, ' ').trim();
+function fsubHTML(S, lid, f){
+  const r = factOf(S, f), id = `${lid}-${f}`;
+  if (!r) return `<div class="ln fsub" id="${id}"><span class="lab">근거</span> ${esc(f)}: 사실 DB에 없음${MB}</div>`;
+  const g = k => r[FC[k]] || '';
+  const srcs = g('source_id').split(/[;,\s]+/).map(x => srcOf(S, x)).filter(Boolean);
+  const src = srcs.map(x => `${esc(x[1])}${x[2] ? ', ' + esc(x[2]) : ''}${x[3] ? ', ' + esc(x[3]) : ''}${x[4] ? ` <a href="${esc(x[4])}" target="_blank" rel="noopener">열기</a>` : ''}`).join(' / ')
+    || (g('링크') ? `<a href="${esc(g('링크'))}" target="_blank" rel="noopener">${esc(shortUrl(g('링크')))}</a>` : '출처 기록 없음');
+  return `<div class="ln fsub" id="${id}">`
+    + (g('원문 근거 문장') ? `<div class="fq"><span class="lab">원문</span> "${longText(g('원문 근거 문장'))}"</div>` : '')
+    + (g('무엇을') ? `<div class="fm"><span class="lab">뜻</span> ${inl(g('무엇을'), S)}</div>` : '')
+    + `<div class="fs"><span class="lab">출처</span> ${src}${g('검증 상태') ? ` <span class="vs ${VS(g('검증 상태'))}">${esc(g('검증 상태'))}</span>` : ''} <a class="ref" href="#${S}-r-f-${f}" data-go="${S}-r-f-${f}">${f}</a></div>${MB}</div>`;
+}
+function bodyHTML(S, O){
+  let h = '', sec = '';
+  for (const l of O.lines){
+    if (l.k === 'h'){ sec = l.t; h += `<h3 class="ln bh" id="${l.id}"><span class="tx">${esc(l.t)}</span>${MB}</h3>`; continue; }
+    const subs = (l.f || []).map(f => fsubHTML(S, l.id, f)).join('');
+    h += `<div class="bl gblk d${Math.min(l.d, 3)}${l.m === '●' ? ' b0' : ''}" data-sec="본문: ${esc(sec)}"><div class="ln ol" id="${l.id}"><span class="om">${esc(l.m)}</span><span class="tx">${inl(cleanBody(l.t), S)}</span>${MB}</div>${subs ? `<div class="fsubs">${subs}</div>` : ''}</div>`;
+  }
+  return h;
+}
 function rawParts(C){
   const S = C.slug, P = [];
   // 1) PM 질문별 답
@@ -585,19 +643,21 @@ function rawParts(C){
     gn += g.rows.length;
   }
   P.push({k: 'gap', label: '6. 빈칸과 정정', n: gn, files: ['kb/gaps.csv', `kb/gaps_add/${S}.csv`, 'kb/corrections.csv'], open: true, h: gh});
-  // 7) 지난 본문
-  P.push({k: 'old', label: '7. 지난 본문', n: C.old ? C.old.lines.length : 0, files: [C.old ? C.old.path : `companies/${C.name}_v4.md`], open: false,
-    h: C.old ? `<p class="sub">재구성 전 본문(v4). 고치지 않은 원래 글</p>${oldHTML(S, C.old)}` : ready('지난 본문', `companies/${C.name}_v4.md`)});
   return P;
 }
 function renderRaw(C){
   const S = C.slug;
   if (C.common) return `<article class="raw"><header class="pagehead"><div class="eyebrow">raw</div><h1>${esc(C.name)}</h1></header><div class="cnote"><span>6개사 공통에는 raw가 따로 없음. 근거 자료는 회사별 raw에 있음</span><div class="links">${D.cos.filter(c => !D.C[c[0]].common).map(([s, n]) => `<button type="button" data-raw="${s}">${esc(n)} raw</button>`).join('')}</div></div>${foot()}</article>`;
   const P = rawParts(C);
-  let h = `<article class="raw"><header class="pagehead"><div class="eyebrow">raw</div><h1>${esc(C.name)}</h1><div class="meta"><span>만든 자료와 원본을 섞지 않고 칸별로 둠</span><span>만든 시각 ${esc(D.built)}</span></div></header>`;
-  h += `<nav class="toc" aria-label="raw 칸">${P.map(p => `<a href="#${S}-r-sec-${p.k}" data-go="${S}-r-sec-${p.k}">${esc(p.label)} <span>${p.n}</span></a>`).join('')}</nav>`;
-  for (const p of P) h += `<details class="rsec" id="${S}-r-sec-${p.k}" data-sec="${esc(p.label.replace(/^\d+\.\s*/, ''))}"${p.open ? ' open' : ''}><summary><h2>${esc(p.label)}</h2><span class="cnt">${p.n}</span><span class="srcf">${p.files.map(esc).join(', ')}</span></summary><div class="rbody">${p.h}</div></details>`;
-  return h + foot() + '</article>';
+  const nsub = C.old ? C.old.lines.reduce((n, l) => n + (l.f || []).length, 0) : 0;
+  let h = `<article class="raw"><header class="pagehead"><div class="eyebrow">raw</div><h1>${esc(C.name)}</h1><div class="meta"><span>본문을 줄마다 근거 원문과 함께 둠. 만든 표와 카드는 아래에 접어 둠</span><span>만든 시각 ${esc(D.built)}</span></div></header>`;
+  h += `<nav class="toc" aria-label="raw 칸"><a href="#${S}-r-sec-body" data-go="${S}-r-sec-body">본문 <span>${C.old ? C.old.lines.length : 0}</span></a>${P.map(p => `<a href="#${S}-r-sec-${p.k}" data-go="${S}-r-sec-${p.k}">${esc(p.label)} <span>${p.n}</span></a>`).join('')}</nav>`;
+  h += `<details class="rsec" id="${S}-r-sec-body" data-sec="본문" open><summary><h2>본문</h2><span class="cnt">${C.old ? C.old.lines.length + '줄, 근거 ' + nsub : 0}</span><span class="srcf">${esc(C.old ? C.old.path : 'companies/' + C.name + '_v4.md')}, db/facts.csv, db/sources.csv</span></summary><div class="rbody">`;
+  h += C.old ? `<div class="bodytools"><button type="button" data-act="togglesrc">원문 모두 접기</button><span>줄 아래 회색 줄: 근거마다 원문(영어 그대로), 뜻, 출처</span></div><div class="body">${bodyHTML(S, C.old)}</div>` : ready('본문', `companies/${C.name}_v4.md`);
+  h += `</div></details>`;
+  h += `<details class="rsec" id="${S}-r-sec-ref" data-sec="만든 표와 카드(참고)"><summary><h2>만든 표와 카드(참고)</h2><span class="cnt">${P.length}칸</span><span class="srcf">kb/, db/</span></summary><div class="rbody">`;
+  for (const p of P) h += `<details class="rsec" id="${S}-r-sec-${p.k}" data-sec="${esc(p.label.replace(/^\d+\.\s*/, ''))}"><summary><h2>${esc(p.label)}</h2><span class="cnt">${p.n}</span><span class="srcf">${p.files.map(esc).join(', ')}</span></summary><div class="rbody">${p.h}</div></details>`;
+  return h + `</div></details>` + foot() + '</article>';
 }
 function foot(){
   const n = D.terms.n || {};
@@ -709,8 +769,13 @@ function buildIdx(){
     C.facts.forEach(f => add('r', '사실 DB', `${S}-r-f-${f[0]}`, [f[0], f[FC['무엇을']], f[FC['값']], f[FC['단위']], f[FC['원문 근거 문장']]].join(' ')));
     C.srcs.forEach(s => add('r', '원본 목록', `${S}-r-src-${s[0]}`, [s[0], s[1], s[2], s[3]].join(' ')));
     C.gaps.forEach(g => (g.rows || []).forEach(r => add('r', '빈칸과 정정: ' + g.label, r.id, r.c.join(' | '))));
-    if (C.old) C.old.lines.forEach(l => add('r', '지난 본문', l.id, l.t.replace(/\{[a-z]{2,4}-\d{3,5}\}/g, '')));
+    if (C.old){ let sec = ''; C.old.lines.forEach(l => {
+      if (l.k === 'h'){ sec = l.t; add('r', '본문', l.id, l.t); return; }
+      add('r', '본문: ' + sec, l.id, cleanBody(l.t));
+      (l.f || []).forEach(f => { const r = factOf(S, f); if (r) add('r', '본문 원문: ' + sec, `${l.id}-${f}`, [r[FC['원문 근거 문장']], r[FC['무엇을']], f].join(' ')); });
+    }); }
   }
+  Object.values(ANS).forEach(a => { const t = plain([a.memo, a.ans, a.fix].filter(Boolean).join(' / ')).replace(/\s+/g, ' ').trim(); if (t && SLUGS.includes(a.co)) IDX.push({co: a.co, v: 'a', sec: (a.st ? a.st + ' ' : '') + (a.sec || a.view || ''), id: a.mid, t, l: t.toLowerCase()}); });
 }
 function snippet(t, q){
   const i = t.toLowerCase().indexOf(q.toLowerCase());
@@ -726,7 +791,8 @@ function runSearch(){
   let res = IDX.filter(x => x.l.includes(ql)), key = raw;
   if (!res.length && toks.length > 1){ res = IDX.filter(x => toks.every(t => x.l.includes(t))); key = raw.split(/\s+/)[0]; }
   const order = [cur].concat(SLUGS.filter(s => s !== cur));
-  res.sort((a, b) => order.indexOf(a.co) - order.indexOf(b.co) || (a.v === b.v ? 0 : a.v === 'o' ? -1 : 1));
+  const VO = {o: 0, r: 1, a: 2};
+  res.sort((a, b) => order.indexOf(a.co) - order.indexOf(b.co) || VO[a.v] - VO[b.v]);
   SRES = res.slice(0, 200);
   const byCo = {}; res.forEach(x => byCo[x.co] = (byCo[x.co] || 0) + 1);
   let h = `<div class="sh"><span>"${esc(raw)}" ${res.length}건${res.length > SRES.length ? `, 앞 ${SRES.length}건만 보임` : ''}</span><span>${order.filter(s => byCo[s]).map(s => `${esc(CO_NAME[s])} ${byCo[s]}`).join(', ')}</span></div>`;
@@ -781,6 +847,8 @@ function goTo(co, v, id, q){
   const el = document.getElementById(id);
   if (!el){ toast('그 줄을 이 화면에서 찾지 못함(글이 바뀌었을 수 있음)'); return; }
   openUp(el); glossIn(MAIN); clearHits();
+  const rr = el.closest('.raw.nosrc'); if (rr && el.closest('.fsubs')) rr.classList.toggle('nosrc', false);
+  $$('.q2[hidden]', el).forEach(q => { q.hidden = false; const b = q.nextElementSibling; if (b) b.textContent = '줄이기'; });
   if (q) hilite(el, q);
   if (!el.matches('.layer,.rsec,.sec,.lpart')){ el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash'); }
   const rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches || Math.abs(el.getBoundingClientRect().top) > 2400;
@@ -794,12 +862,41 @@ let M = {memos: [], del: []}, OLD = [];
 try { const t = localStorage.getItem(MKEY); if (t){ const o = JSON.parse(t); if (o && Array.isArray(o.memos)) M = {memos: o.memos, del: Array.isArray(o.del) ? o.del : []}; } } catch(e){}
 function persist(){ try { localStorage.setItem(MKEY, JSON.stringify(M)); } catch(e){} }
 function saveM(){ persist(); updateCount(); markMemos(); syncSoon(); if (!$('#mpanel').hidden) renderPanel(); }
-function updateCount(){ $('#mcount').textContent = M.memos.length; }
-function markMemos(){
-  $$('.hm', MAIN).forEach(e => e.classList.remove('hm'));
-  for (const m of M.memos) if (m.co === cur && VIEW_KEY[m.view] === view && m.anchor){ const el = document.getElementById(m.anchor); if (el) el.classList.add('hm'); }
+/* 메모 답(kb/memo_answers.csv). 화면 표시만 바꾸고 메모 문서의 st는 건드리지 않음 */
+function normCo(c){ c = String(c || '').trim(); const l = c.toLowerCase(); if (SLUGS.includes(l)) return l; return SLUGS.find(s => (CO_NAME[s] || '').toLowerCase() === l) || SLUGS.find(s => l.includes(s)) || (/공통|common/.test(c) ? 'common' : l); }
+function normView(v){ v = String(v || '').trim(); return v === 'r' || /raw/i.test(v) ? 'raw' : v === 'a' ? '메모 답' : '개요'; }
+const ANS = {};
+(D.ans || []).forEach(a => { if (a.mid) ANS[a.mid] = Object.assign({}, a, {co: normCo(a.co), view: normView(a.view)}); });
+const ANS_N = Object.values(ANS).filter(a => a.ans).length;
+function shownSt(m){ const a = ANS[m.mid]; return a && (a.st === '반영' || a.st === '답함') ? a.st : m.st; }
+/* 화면에 표시할 메모: 이 브라우저의 v5 메모 + 답 파일에만 있는 메모 */
+function allMemos(){
+  const have = new Set(M.memos.map(m => m.mid).concat(OLD.map(m => m.mid).filter(Boolean)));
+  const only = Object.values(ANS).filter(a => !have.has(a.mid)).map(a => ({mid: a.mid, co: a.co, view: a.view, anchor: a.anchor, sec: a.sec, quote: a.quote, text: a.memo, type: '', st: a.st, time: '', fromFile: true}));
+  return M.memos.concat(only);
 }
-function lineText(ln){ return (ln ? ln.textContent : '').replace(/\s+/g, ' ').trim(); }
+function updateCount(){
+  $('#mcount').textContent = M.memos.length;
+  const ac = $('#acount'); ac.hidden = !ANS_N; ac.textContent = '답 ' + ANS_N;
+}
+function secEl(sec){ return sec ? $$('[data-sec]', MAIN).find(e => e.dataset.sec === sec) : null; }
+function addBadge(el, mid){
+  if (el.querySelector(`:scope .abadge[data-amid="${CSS.escape(mid)}"]`)) return;
+  const host = el.tagName === 'TR' ? (el.querySelector('td .cv') || el.querySelector('td')) : (el.querySelector(':scope > .tx, :scope > dd, :scope > summary > h2, :scope > h2, :scope > h3') || el);
+  const b = document.createElement('button'); b.type = 'button'; b.className = 'abadge'; b.dataset.amid = mid; b.setAttribute('aria-label', '이 메모의 답 보기');
+  host.appendChild(b);
+}
+function markMemos(){
+  $$('.hm,.ha', MAIN).forEach(e => e.classList.remove('hm', 'ha'));
+  $$('.abadge', MAIN).forEach(e => e.remove());
+  for (const m of allMemos()){
+    if (normCo(m.co) !== cur || VIEW_KEY[normView(m.view)] !== view) continue;
+    const a = ANS[m.mid], el = m.anchor ? document.getElementById(m.anchor) : null;
+    if (el){ el.classList.add(a ? 'ha' : 'hm'); if (a) addBadge(el, m.mid); }
+    else if (a){ const s = secEl(m.sec); if (s) addBadge(s, m.mid); }
+  }
+}
+function lineText(ln){ return (ln ? ln.textContent : '').replace(/\s+/g, ' ').trim(); }  // 답 꼬리표는 글자가 없어 인용에 섞이지 않음
 function ctxFrom(el, quote){
   const ln = el && el.closest('.ln'), sec = el && el.closest('[data-sec]');
   return {co: cur, view: VIEW_NAME[view], anchor: ln ? ln.id : '', sec: sec ? sec.dataset.sec : '', quote: String(quote || lineText(ln)).slice(0, 800)};
@@ -849,30 +946,43 @@ SEL.addEventListener('click', () => { if (selCtx) openMemo(selCtx); });
 const TYPE_ORDER = ['질문', '고칠 것', '더 찾을 것', '기타'];
 function fmtTime(t){ try { const d = new Date(t); if (isNaN(d)) return esc(t || ''); const p = n => String(n).padStart(2, '0'); return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`; } catch(e){ return ''; } }
 const trunc = (s, n) => { s = String(s || ''); return s.length > n ? s.slice(0, n) + '…' : s; };
+function ansHTML(mid){
+  const a = ANS[mid]; if (!a) return '';
+  return `<div class="mans"><div class="mah">${a.st ? `<span class="ast a-${esc(a.st)}">${esc(a.st)}</span>` : ''}<b>답</b></div>${a.ans ? `<p>${esc(a.ans)}</p>` : ''}${a.fix ? `<div class="mfix"><b>고친 곳</b> ${inl(a.fix, a.co)}</div>` : ''}</div>`;
+}
 function renderPanel(){
-  const cnt = st => M.memos.filter(m => m.st === st).length;
-  const by = {}; M.memos.forEach(m => (by[m.co] = by[m.co] || []).push(m));
-  let h = `<div class="ph"><h2>메모</h2><div class="pcnt">모두 ${M.memos.length}건: 안 보냄 ${cnt('안 보냄')}, 보냄 ${cnt('보냄')}, 반영 ${cnt('반영')}${DB ? '. 공유 저장소와 맞춤' : '. 이 브라우저에 저장'}</div>`
-    + `<div class="pact"><button type="button" class="primary" data-act="send">모아 보내기 (안 보낸 ${cnt('안 보냄')}건)</button><button type="button" data-act="closepanel">닫기</button></div><div class="sendbox" id="sendbox" hidden></div></div><div class="pbody">`;
-  if (!M.memos.length) h += '<p class="empty">아직 메모가 없음. 줄 오른쪽 연필 단추를 누르거나, 글을 골라 나오는 "메모"를 누르면 여기에 회사별로 모임.</p>';
+  const list0 = allMemos();
+  const cnt = st => list0.filter(m => shownSt(m) === st).length;
+  const by = {}; list0.forEach(m => { const c = normCo(m.co); (by[c] = by[c] || []).push(m); });
+  let h = `<div class="ph"><h2>메모</h2><div class="pcnt">이 브라우저 ${M.memos.length}건, 답 파일에만 있는 것 ${list0.length - M.memos.length}건: 안 보냄 ${cnt('안 보냄')}, 보냄 ${cnt('보냄')}, 답함 ${cnt('답함')}, 반영 ${cnt('반영')}, 보류 ${cnt('보류')}. 답 ${ANS_N}건${DB ? '. 공유 저장소와 맞춤' : ''}</div>`
+    + `<div class="pact"><button type="button" class="primary" data-act="send">모아 보내기 (안 보낸 ${M.memos.filter(m => m.st === '안 보냄').length}건)</button><button type="button" data-act="closepanel">닫기</button></div><div class="sendbox" id="sendbox" hidden></div></div><div class="pbody">`;
+  if (!list0.length) h += '<p class="empty">아직 메모가 없음. 줄 오른쪽 연필 단추를 누르거나, 글을 골라 나오는 "메모"를 누르면 여기에 회사별로 모임.</p>';
   const cos = SLUGS.concat(Object.keys(by).filter(c => !SLUGS.includes(c)));
   for (const c of cos){
     const list = by[c]; if (!list) continue;
     list.sort((a, b) => String(b.time).localeCompare(String(a.time)));
-    h += `<section><h3>${esc(CO_NAME[c] || c)} <span>${list.length}건</span></h3><div style="display:grid;gap:8px">${list.map(m => `<div class="mi" data-mid="${esc(m.mid)}" tabindex="0">`
-      + `<div class="mih"><span class="mt">${esc(m.type)}</span><span class="ms s-${esc(m.st)}">${esc(m.st)}</span><span>${esc(m.view)}${m.sec ? ' &gt; ' + esc(m.sec) : ''}</span><span>${fmtTime(m.time)}</span></div>`
-      + (m.quote ? `<blockquote>${esc(trunc(m.quote, 240))}</blockquote>` : '') + (m.text ? `<p>${esc(m.text)}</p>` : '')
-      + `<div class="mia"><button type="button" data-mgo="${esc(m.mid)}">그 자리로</button><button type="button" data-mdel="${esc(m.mid)}">지우기</button></div></div>`).join('')}</div></section>`;
+    h += `<section><h3>${esc(CO_NAME[c] || c)} <span>${list.length}건</span></h3><div style="display:grid;gap:8px">${list.map(m => { const st = shownSt(m); return `<div class="mi" data-mid="${esc(m.mid)}" tabindex="0">`
+      + `<div class="mih">${m.fromFile ? '<span class="mt">답 파일</span>' : `<span class="mt">${esc(m.type)}</span>`}${st ? `<span class="ms s-${esc(st)}">${esc(st)}</span>` : ''}<span>${esc(m.view)}${m.sec ? ' &gt; ' + esc(m.sec) : ''}</span><span>${fmtTime(m.time)}</span></div>`
+      + (m.quote ? `<blockquote>${esc(trunc(m.quote, 240))}</blockquote>` : '') + (m.text ? `<p>${esc(m.text)}</p>` : '') + ansHTML(m.mid)
+      + `<div class="mia">${m.anchor || m.sec ? `<button type="button" data-mgo="${esc(m.mid)}">그 자리로</button>` : ''}${m.fromFile ? '' : `<button type="button" data-mdel="${esc(m.mid)}">지우기</button>`}</div></div>`; }).join('')}</div></section>`;
   }
   if (OLD.length){
-    h += `<details class="oldm"><summary>이전 화면 메모 ${OLD.length}건 (옛 검토 화면에서 남긴 것, 지우지 않고 그대로 둠)</summary>${OLD.map((m, i) => `<div class="mi">`
-      + `<div class="mih"><span class="mt">${esc(m.type || '메모')}</span>${m.st ? `<span class="ms">${esc(m.st)}</span>` : ''}<span>${esc(m.disp || CO_NAME[m.co] || m.co || '')}</span><span>${esc(fmtTime(m.at || m.time) || m.at || '')}</span></div>`
-      + ((m.quote || m.line) ? `<blockquote>${esc(trunc(m.quote || m.line, 240))}</blockquote>` : '') + (m.text ? `<p>${esc(m.text)}</p>` : '')
+    h += `<details class="oldm"${OLD.some(m => ANS[m.mid]) ? ' open' : ''}><summary>이전 화면 메모 ${OLD.length}건 (옛 검토 화면에서 남긴 것, 지우지 않고 그대로 둠)</summary>${OLD.map((m, i) => `<div class="mi"${m.mid ? ` data-oldmid="${esc(m.mid)}"` : ''}>`
+      + `<div class="mih"><span class="mt">${esc(m.type || '메모')}</span>${shownSt(m) ? `<span class="ms s-${esc(shownSt(m))}">${esc(shownSt(m))}</span>` : ''}<span>${esc(m.disp || CO_NAME[m.co] || m.co || '')}</span><span>${esc(fmtTime(m.at || m.time) || m.at || '')}</span></div>`
+      + ((m.quote || m.line) ? `<blockquote>${esc(trunc(m.quote || m.line, 240))}</blockquote>` : '') + (m.text ? `<p>${esc(m.text)}</p>` : '') + ansHTML(m.mid)
       + ((m.quote || m.line) ? `<div class="mia"><button type="button" data-oldfind="${i}">이 글 찾기</button></div>` : '') + '</div>').join('')}</details>`;
   }
   $('#pin').innerHTML = h + '</div>';
 }
-function openPanel(){ renderPanel(); $('#mpanel').hidden = false; closeTip(); hideSel(); }
+function openPanel(mid, q){
+  renderPanel(); $('#mpanel').hidden = false; closeTip(); hideSel();
+  if (!mid) return;
+  const it = $(`#pin .mi[data-mid="${CSS.escape(mid)}"]`) || $(`#pin .mi[data-oldmid="${CSS.escape(mid)}"]`);
+  if (!it) return;
+  for (let p = it; p; p = p.parentElement) if (p.tagName === 'DETAILS') p.open = true;
+  it.scrollIntoView({block: 'center'}); it.classList.add('flash');
+  if (q) hilite(it, q);
+}
 function closePanel(){ $('#mpanel').hidden = true; }
 function sendAll(){
   const list = M.memos.filter(m => m.st === '안 보냄');
@@ -924,6 +1034,14 @@ async function syncNow(){
   syncing = false;
 }
 
+function goMemo(m){
+  const co = normCo(m.co), v = VIEW_KEY[normView(m.view)] || 'o';
+  if (!SLUGS.includes(co)) return;
+  if (m.anchor && (co !== cur || v !== view || document.getElementById(m.anchor))){ if (co !== cur || v !== view){ cur = co; view = v; render(); } if (document.getElementById(m.anchor)) return goTo(co, v, m.anchor, ''); }
+  if (co !== cur || v !== view){ cur = co; view = v; render(); }
+  const s = secEl(m.sec); if (s) goTo(co, v, s.id || (s.closest('[id]') || {}).id || '', ''); else { window.scrollTo(0, 0); toast('그 줄을 찾지 못해 회사 화면을 엶'); }
+}
+
 /* ---------- 알림 ---------- */
 let toastT = 0;
 function toast(t){ const el = $('#toast'); el.textContent = t; el.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => el.hidden = true, 2600); }
@@ -937,13 +1055,16 @@ document.addEventListener('click', e => {
   const co = t.closest('[data-co]'); if (co){ show(co.dataset.co, view); return; }
   const rw = t.closest('[data-raw]'); if (rw){ show(rw.dataset.raw, 'r'); return; }
   const vw = t.closest('[data-view]'); if (vw){ show(cur, vw.dataset.view); return; }
-  const si = t.closest('[data-si]'); if (si){ const x = SRES[+si.dataset.si]; $('#sres').hidden = true; if (x) goTo(x.co, x.v, x.id, $('#q').value.trim().split(/\s+/).length > 1 && !x.l.includes($('#q').value.trim().toLowerCase()) ? $('#q').value.trim().split(/\s+/)[0] : $('#q').value.trim()); return; }
+  const si = t.closest('[data-si]'); if (si){ const x = SRES[+si.dataset.si]; $('#sres').hidden = true; if (x && x.v === 'a'){ openPanel(x.id, $('#q').value.trim()); return; } if (x) goTo(x.co, x.v, x.id, $('#q').value.trim().split(/\s+/).length > 1 && !x.l.includes($('#q').value.trim().toLowerCase()) ? $('#q').value.trim().split(/\s+/)[0] : $('#q').value.trim()); return; }
   if (!t.closest('.search')) $('#sres').hidden = true;
   const go = t.closest('[data-go]'); if (go){ e.preventDefault(); const p = lidView(go.dataset.go); goTo(p.co, p.v, go.dataset.go, ''); return; }
+  const ab = t.closest('[data-amid]'); if (ab){ e.preventDefault(); openPanel(ab.dataset.amid); return; }
   const mb = t.closest('[data-mb]'); if (mb){ openMemo(ctxFrom(mb)); return; }
+  const mo = t.closest('[data-more]'); if (mo){ const q2 = mo.previousElementSibling; if (q2){ q2.hidden = !q2.hidden; mo.textContent = q2.hidden ? '더 보기' : '줄이기'; } return; }
   const act = t.closest('[data-act]');
   if (act){
     const a = act.dataset.act;
+    if (a === 'togglesrc'){ const r = $('.raw', MAIN); if (r){ const off = r.classList.toggle('nosrc'); act.textContent = off ? '원문 모두 펼치기' : '원문 모두 접기'; } }
     if (a === 'openall') $$('details.sec', MAIN).forEach(d => d.open = true);
     if (a === 'closeall') $$('details.sec', MAIN).forEach(d => d.open = false);
     if (a === 'cancel') closeDlg();
@@ -961,7 +1082,7 @@ document.addEventListener('click', e => {
   const of = t.closest('[data-oldfind]');
   if (of){ const m = OLD[+of.dataset.oldfind]; if (m){ closePanel(); $('#q').value = trunc(String(m.quote || m.line).replace(/\s+/g, ' ').trim(), 30).replace(/…$/, ''); runSearch(); $('#q').focus(); } return; }
   const mi = t.closest('[data-mgo]') || (t.closest('.mi[data-mid]') && !t.closest('button') ? t.closest('.mi[data-mid]') : null);
-  if (mi){ const id = mi.dataset.mgo || mi.dataset.mid; const m = M.memos.find(x => x.mid === id); if (m){ closePanel(); if (m.anchor) goTo(m.co, VIEW_KEY[m.view] || 'o', m.anchor, ''); else show(m.co, VIEW_KEY[m.view] || 'o'); } return; }
+  if (mi){ const id = mi.dataset.mgo || mi.dataset.mid; const m = allMemos().find(x => x.mid === id); if (m){ closePanel(); goMemo(m); } return; }
   if (t === $('#dlg')) closeDlg();
   if (t === $('#mpanel')) closePanel();
 });

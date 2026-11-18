@@ -9,8 +9,10 @@
        공통: kb/cards6/common.md, kb/easy/00_기초.md, kb/cards/common.md + kb/pm_q2/00_공통.md + kb/pm_q2/추가조사_261118.md
 - raw: 1) PM 질문별 답(kb/coverage/<slug>.csv, kb/questions/<slug>.json) 2) 사건 카드(kb/events/<slug>.json)
        3) 구조 표(kb/structs/<slug>/*.csv) 4) 사실 DB(db/facts.csv) 5) 원본 목록(db/sources.csv)
-       6) 빈칸과 정정(kb/gaps.csv, kb/gaps_add/<slug>.csv, kb/corrections.csv) 7) 지난 본문(companies/<회사>_vN.md)
+       6) 빈칸과 정정(kb/gaps.csv, kb/gaps_add/<slug>.csv, kb/corrections.csv)
+       화면 순서: 본문(companies/<회사>_vN.md, 줄마다 근거의 원문, 뜻, 출처를 하위 줄로) 먼저, 1)~6)은 아래 "만든 표와 카드(참고)"에 접어 둠
 뜻 풀이: kb/glossary_main.csv + kb/glossary_add/*.csv + db/terms.csv
+메모 답: kb/memo_answers.csv(mid, co, view, anchor, sec, quote, 메모, 답, 고친 곳, 상태). 없거나 비어도 됨
 없는 파일은 화면에 "준비 중"으로 나오고, 파일이 생긴 뒤 다시 빌드하면 채워진다.
 줄 id는 다시 빌드해도 같은 글(또는 같은 번호의 줄)이면 같다.
 """
@@ -344,7 +346,8 @@ def parse_old(slug, text, ids):
             t = m.group(3).strip()
         else:
             d, t = 0, line.strip()
-        out.append({"k": "l", "id": ids.make(f"{slug}-r-old-{sec}-{h8(t)}"), "d": d, "m": m.group(2) if m else "", "t": t})
+        fs = list(dict.fromkeys(re.findall(r"F-\d{4}", t)))  # 줄에 붙은 근거(줄 안 중복은 한 번)
+        out.append({"k": "l", "id": ids.make(f"{slug}-r-old-{sec}-{h8(t)}"), "d": d, "m": m.group(2) if m else "", "t": t, "f": fs})
     return out
 
 
@@ -576,6 +579,30 @@ def build_company(slug, name, prefix, facts_all, facts_by_id, sources_by_id):
     return C
 
 
+ANS_COLS = {"mid": "mid", "co": "co", "view": "view", "anchor": "anchor", "sec": "sec", "quote": "quote",
+            "메모": "memo", "답": "ans", "고친 곳": "fix", "상태": "st"}
+
+
+def load_answers():
+    """kb/memo_answers.csv: 메모에 대한 답. 파일이 없거나 비었거나 깨져도 빈 목록."""
+    p = ROOT / "kb/memo_answers.csv"
+    if not p.exists():
+        return []
+    try:
+        with open(p, encoding="utf-8-sig", newline="") as f:
+            rows = list(csv.DictReader(f))
+    except Exception as e:  # 쓰는 중인 파일
+        print(f"경고: kb/memo_answers.csv를 읽지 못함({e})")
+        return []
+    out = []
+    for r in rows:
+        r = {(k or "").strip(): (v or "").strip() if isinstance(v, str) else "" for k, v in r.items()}
+        a = {short: r.get(col, "") for col, short in ANS_COLS.items()}
+        if a["mid"] and (a["ans"] or a["fix"] or a["st"]):
+            out.append(a)
+    return out
+
+
 def build_common():
     ids = Ids()
     ov = build_overview(COMMON[0], ids)
@@ -593,6 +620,7 @@ def main():
         "cos": [[s, n] for s, n, _ in COS] + ([] if COMMON[0] in SLUGS else [list(COMMON)]),
         "fcols": FACT_COLS + ["ref"],
         "terms": load_terms(),
+        "ans": load_answers(),
         "C": {},
     }
     for slug, name, prefix in COS:
@@ -609,6 +637,7 @@ def main():
     out.write_text(html, encoding="utf-8")
 
     print(f"web/v5/index.html {len(html.encode('utf-8')) // 1024} KB, 만든 시각 {data['built']}")
+    print(f"메모 답 {len(data['ans'])}줄(kb/memo_answers.csv)")
     t = data["terms"]
     print(f"용어 {len(t['e'])}개(맞출 말 {len(t['k'])}개): " + ", ".join(f"{k} {v}" for k, v in t["n"].items()))
     for slug, C in data["C"].items():
