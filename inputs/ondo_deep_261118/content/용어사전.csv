@@ -1,0 +1,62 @@
+﻿용어,쉬운 설명,비유(원문 병기),처음 나오는 섹션
+토큰(token),블록체인 지갑에 들어가는 디지털 보관증,지갑에 넣는 디지털 영수증(token),S1
+발행 법인(issuer),토큰을 찍고 그 뒤 자산을 자기 명의로 가진 법인,금고 주인(issuer),S3
+"SPV(특수목적 법인, special purpose vehicle)",한 가지 일만 하려고 따로 세운 법인. 본사 위험과 떼어 놓는 용도,칸막이 친 별도 주머니(SPV),S3
+"LP(합자회사, limited partnership)",돈을 대는 유한책임사원(LP)과 굴리는 책임자(GP)로 이뤄진 펀드 그릇,펀드 그릇(LP)과 운전사(GP),S3
+"GP(무한책임사원, general partner)",펀드를 책임지고 굴리는 쪽. OUSG 펀드는 본사가 GP의 유일 구성원,펀드 운전사(GP),S3
+적격투자자(accredited investor),미국에서 소득이나 자산 기준을 넘는 투자자. 사모 증권을 살 수 있음,VIP 입장권 1단계(accredited investor),S1
+적격매수자(qualified purchaser),개인 기준 투자자산 500만 달러 이상. 적격투자자보다 높은 단계,VIP 입장권 2단계(qualified purchaser),S1
+"MMF(머니마켓펀드, money market fund)","아주 짧은 국채, 현금, 레포를 담아 원금이 거의 흔들리지 않는 펀드",쌀통(MMF)에 든 쌀(단기 국채),S7
+"레포(repo, repurchase agreement)",국채를 담보로 하루 이틀 돈을 빌려주는 거래,국채 맡기고 하루 빌려주는 전당포(repo),S7
+스테이블코인(stablecoin),"1달러 가치를 유지하도록 만든 토큰. USDC, PYUSD 등",디지털 달러 지폐(stablecoin),S6
+USDC,Circle이 발행하는 달러 스테이블코인,디지털 달러(USDC),S6
+PYUSD,PayPal 이름으로 Paxos가 발행하는 달러 스테이블코인,PayPal 디지털 달러(PYUSD),S7
+yieldcoin,이자가 붙는 스테이블코인 성격 토큰. Ondo가 USDY를 부르는 말,이자 붙는 디지털 달러(yieldcoin),S1
+담보부 노트(secured note),담보가 붙은 채권. USDY 보유자가 가진 권리,담보 잡힌 차용증(secured note),S5
+채무증권 토큰,발행 법인이 가격만큼 갚기로 한 채권을 토큰으로 만든 것. Ondo Stocks,값을 따라가는 차용증 토큰,S5
+economic exposure(경제적 노출),주식의 소유권 없이 값과 배당 같은 손익만 따라가는 것,주식 그림자(economic exposure),S1
+담보 대리인(collateral agent),"보유자를 대신해 담보에 권리를 쥐고, 문제가 생기면 담보를 처분하는 제3자. Ankura Trust",금고 열쇠를 하나 더 쥔 채권자 대표(collateral agent),S5
+보관기관(custodian),"자산을 맡아 두기만 하는 곳. Alpaca, BitGo Trust, 은행",금고지기(custodian),S5
+1순위 담보권(first-priority security interest),다른 채권자보다 먼저 담보에서 돌려받을 권리,줄 맨 앞자리(first-priority),S5
+limited recourse(제한 상환청구),돌려받을 곳이 발행 법인 자산으로 한정되고 본사에는 청구 못 함,이 주머니 안에서만 돌려받음(limited recourse),S5
+파산 절연(bankruptcy remoteness),본사가 망해도 발행 법인 자산이 본사 채권자에게 넘어가지 않게 떼어 둔 구조,방화벽(bankruptcy remoteness),S4
+재단회사(foundation company),주주가 없는 회사. 이사와 감독인이 정관대로 운영. 케이맨 제도 형태,주인 없는 공익 재단(foundation company),S3
+케이맨제도(Cayman Islands),카리브해 영국령. 펀드와 가상자산 재단을 많이 세우는 등기지,회사 주소지(Cayman),S3
+"BVI(영국령 버진아일랜드, British Virgin Islands)",카리브해 영국령. 해외 법인을 많이 세우는 등기지. 허가가 아님,회사 주소지(BVI),S3
+델라웨어(Delaware),미국 회사 대부분이 등기하는 주. 회사법이 정비됨,미국 회사 주소지(Delaware),S3
+DAO(탈중앙 자율 조직),토큰 보유자 투표로 결정하는 모임,토큰 주주총회(DAO),S3
+거버넌스 토큰(governance token),투표권 성격 토큰. ONDO,투표권 쿠폰(governance token),S1
+SEC 등록 투자자문사(RIA),미국 SEC에 등록하고 투자 자문을 하는 회사. Ondo Capital Management,허가받은 투자 자문 사무소(RIA),S3
+증권사(broker-dealer),증권을 사고팔아 주는 회사,증권사(broker-dealer),S3
+"ATS(대체거래소, alternative trading system)",증권거래소가 아닌 허가받은 증권 매매 시설,사설 증권 장터(ATS),S3
+명의개서대리인(transfer agent),주주명부를 관리하고 소유권 이전을 기록하는 곳,주주명부 관리소(transfer agent),S3
+FINRA,미국 증권사 자율규제기구. 증권사 업무 승인,증권사 관리 협회(FINRA),S11
+FinCEN,미국 재무부 금융범죄단속국. 송금업자 등록 받음,돈세탁 감시 기관(FinCEN),S3
+면제(exemption),조건을 지키면 SEC 등록 없이 팔 수 있게 한 예외,등록 없이 통과하는 옆문(exemption),S11
+수수료 면제(fee waiver),받을 수 있는 수수료를 기간을 정해 안 받는 것,첫 해 수수료 무료 행사(fee waiver),S11
+Rule 506(c),적격투자자에게만 팔면 광고를 해도 등록 면제,VIP만 받는 공개 광고 허용 옆문(Rule 506(c)),S11
+3(c)(7),적격매수자만 받는 펀드는 공모 펀드 등록 면제,큰손 전용 펀드 옆문(3(c)(7)),S11
+Regulation S,미국 밖 판매는 미국 등록 면제. 미국 안 권유 금지 등 조건,미국 밖 매장 예외 규정(Regulation S),S11
+투자설명서(prospectus),공모할 때 감독기관 승인을 받아 투자자에게 주는 설명 문서,상품 설명서 공식 인증본(prospectus),S11
+패스포팅(passporting),EEA 한 나라 승인을 다른 회원국에 통지해 같이 쓰는 제도,한 번 받은 여권으로 여러 나라 입국(passporting),S11
+EEA(유럽경제지역),"EU 27개국 + 아이슬란드, 리히텐슈타인, 노르웨이",유럽 공동 시장(EEA),S11
+FMA(리히텐슈타인 금융시장감독청),리히텐슈타인 금융감독기관,리히텐슈타인 금감원(FMA),S11
+ADGM,아부다비 국제금융센터. 자체 금융 규제 구역,아부다비 금융 특구(ADGM),S11
+"잔액(outstanding, 발행 잔액)",지금 시중에 남은 토큰 수 × 가격. 맡겨 둔 돈의 현재 크기,예금 잔액(outstanding),S9
+TVL(total value locked),가상자산 업계에서 잔액과 거의 같은 뜻,예치금 총액(TVL),S9
+"AUM(운용자산, assets under management)",펀드나 회사가 굴리는 돈의 크기,굴리는 돈(AUM),S9
+점유율(market share),같은 종류 상품 전체 잔액 중 Ondo 몫,파이 조각 크기,S9
+이자 차이(spread),받는 이자와 주는 이자의 차이,예대마진(spread),S8
+만기수익률(yield to maturity),채권을 만기까지 들고 있으면 얻는 연 수익률,끝까지 들고 있을 때 연 이자율(YTM),S8
+발행(mint)과 상환(redeem),돈을 내고 새 토큰을 받는 것과 토큰을 돌려주고 돈을 받는 것,"입금하고 영수증 받기(mint), 영수증 내고 출금(redeem)",S6
+1차 매수자(primary purchaser),발행 법인에서 직접 토큰을 찍고 돌려주는 거래소나 시장조성자,도매상(primary purchaser),S6
+견적가 차이(quote spread),발행 법인이 매기는 가격과 실제 주식 매입가의 차이,도매가와 소매가 차이(quote spread),S8
+리밸런싱(rebalancing),정해진 비중에서 벗어나면 다시 맞추는 것,도시락 반찬 비율 다시 맞추기(rebalancing),S1
+앵커 투자자(anchor investor),펀드 출범 때 가장 먼저 큰돈을 넣어 펀드를 세워 주는 투자자,개업 첫 큰손(anchor investor),S7
+공모 펀드(registered fund),미국 1940년 투자회사법에 등록해 개인도 살 수 있는 펀드. BENJI,일반 매장 상품(registered fund),S7
+사모 펀드(private fund),"등록 면제로 자격 있는 투자자만 사는 펀드. BUIDL, SWEEP, OUSG",회원제 매장 상품(private fund),S7
+share class(클래스),같은 펀드 안에서 조건만 다른 반. FYOXX,같은 수업의 다른 반(share class),S7
+L1(레이어 1 블록체인),"거래를 기록하는 기본 블록체인 자체. Ethereum, Solana 등",고속도로 자체(L1),S10
+브리지(bridge),토큰을 다른 블록체인으로 옮기는 통로. LayerZero,체인 간 다리(bridge),S2
+"무기한선물(perpetual futures, perps)",만기 없이 가격 오르내림에만 거는 파생상품,만기 없는 가격 내기(perps),S2
+CFC(피지배외국법인) 규정,미국 법인이 외국 회사 지분 10% 이상이면 그 외국 회사 이익 일부를 미국에서 과세받을 수 있는 세법,해외 자회사 이익 미국 과세 그물(CFC),S3

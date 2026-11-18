@@ -1,0 +1,112 @@
+﻿id,제목,링크,종류,신뢰도
+S-ousg-page,OUSG 상품 페이지(Portfolio Overview),https://ondo.finance/ousg,공식,high
+S-ip-blog,Introducing Ondo Intelligent Portfolios (Ondo 블로그),https://ondo.finance/blog/introducing-ondo-intelligent-portfolios,공식,high
+S-ip-disclaimer,"Intelligent Portfolios 고지문(사용자 캡처 이미지, 원문 링크는 Ondo 사이트에서 다시 찾을 것)",,공식(캡처),mid
+S-sweep-theblock,"The Block: State Street, Galaxy SWEEP 출시(2026-05-05)",https://www.theblock.co/news/business/2026-05-05-state-street-and-galaxy-launch-fund-on-solana-designed-to-sweep-stablecoins-into-productive-vehicle-400086,언론,high
+S-sweep-yahoo,"Yahoo Finance: SWEEP 출시 예고, Ondo 약 2억 달러",https://finance.yahoo.com/news/state-street-galaxy-launch-tokenized-223000391.html,언론,high
+S-sweep-mm,Markets Media: SWEEP 체인 계획,https://www.marketsmedia.com/state-street-galaxy-to-launch-tokenized-money-market-fund/,언론,mid
+S-sweep-whale,Whale Alert: OUSG 앵커 투자자 약 2억 달러,https://whale-alert.io/stories/ddaf0134c3235a/State-Street-and-Galaxy-launch-Solana-based-SWEEP-tokenized-cash-fund-with-200M-anchor-from-Ondo,기타,mid
+S-buidl-eco,Eco: BUIDL 구조와 역할 분담,https://eco.com/support/en/articles/15483226,기타,mid
+S-buidl-ct,Capital Tokenization: BUIDL BVI 설립,https://capitaltokenization.pages.dev/entities/blackrock-buidl-tokenized-fund/,기타,low
+S-benji-ft,Franklin Templeton 보도자료: BENJI,https://www.franklintempleton.com/press-releases/news-room/2023/franklin-templeton-announces-the-franklin-onchain-u.s.-government-money-fund-surpasses-usd270-million-in-assets-under-management,공식,high
+S-benji-polygon,Polygon 블로그: Franklin 펀드 Polygon 출시,https://polygon.technology/blog/franklin-templeton-money-market-fund-launches-on-polygon-blockchain,공식,high
+S-benji-bw,"Business Wire: BENJI 보유자 간 이전, 공식 주주 기록",https://stocks.observer-reporter.com/observerreporter/article/bizwire-2024-4-25-franklin-templeton-announces-availability-of-peer-to-peer-transfers-for-franklin-onchain-us-government-money-fund,언론,high
+S-fyoxx-defillama,DefiLlama: Fidelity FYOXX,https://defillama.com/rwa/platform/fidelity,데이터,mid
+S-fyoxx-benzinga,Benzinga: Fidelity OnChain 클래스 신고,https://www.benzinga.com/content/44452093/fidelity-joins-the-tokenization-trend-with-on-chain-treasury-fund-filing,언론,mid
+S-fyoxx-blockhead,Blockhead: Fidelity FDIT 출시(2025-09-08),https://www.blockhead.co/2025/09/08/fidelity-quietly-launches-200m-ethereum-based-treasury-fund,언론,mid
+S-fdit-coinchapter,"CoinChapter: FDIT 출시, OUSG가 유일한 앵커(FDIT 자산 99% 이상)",https://coinchapter.com/?p=133848,언론,mid
+S-fdit-marketsmedia,"Markets Media: OUSG 담는 펀드(BUIDL, FDIT, BENJI, WTGXX, ULTRA)",https://www.marketsmedia.com/?p=146332,언론,mid
+S-fdit-ondoblog,Ondo 블로그: Fidelity FDIT 앵커,https://blog.ondo.finance/fidelity-unveils-onchain-money-market-fund-anchored-by-ondo-finance,공식,high
+S-ousg-eco,"Eco: OUSG Deep Dive 2026(출시 때 SHV 중심, 2024 BUIDL 이전, 구성 변화)",https://eco.com/support/en/articles/15254014,기타,mid
+S-ousg-longform,longform.social: Ondo 2026-05 상품별 규모와 OUSG 구성,https://longform.social/post/did:plc:vwwrg7w7v55ca4pilfqd2ooz/3mmhath5fquk2,기타,low
+S-defillama-ondo-token,DefiLlama: ONDO 손익표(분기 Gross Protocol Revenue),https://defillama.com/token/ONDO,데이터,high
+S-defillama-protocol,"DefiLlama: Ondo Finance 프로토콜(TVL, 수수료, 공개 API)",https://defillama.com/protocol/ondo-finance,데이터,high
+S-defillama-api,DefiLlama 공개 API: Ondo Finance,https://api.llama.fi/protocol/ondo-finance,데이터,high
+S-defillama-rwa-ondo,"DefiLlama RWA: Ondo 플랫폼(USDY 이자 차이 2026-08, 발행 구조)",https://defillama.com/rwa/platform/ondo,데이터,high
+S-tokeninsight,TokenInsight: Deep Dive of Ondo Finance(2025-09 USDY 이자 차이와 월 수입),https://tokeninsight.com/en/research/reports/deep-dive-of-ondo-finance,리서치,mid
+S-chaincatcher,ChainCatcher: USDY 2024-01 잔액과 수수료,https://www.chaincatcher.com/en/article/2115176,언론,mid
+S-defiant-2024,"The Defiant: 2024-03 OUSG, USDY 잔액",https://thedefiant.io/news/defi/ondo-finance-tvl-surpasses-usd1-billion-becoming-largest-rwa-platform,언론,mid
+S-bytetree,"ByteTree: 2025-03 OUSG, USDY 잔액",https://www.bytetree.com/research/2025/03/ondo-finance-bringing-financial-markets-on-chain/,리서치,mid
+S-gm-yahoo,"Yahoo Finance: Ondo 토큰 국채, 주식 최대 공급자(Global Markets 5억 달러, 200종 이상)",https://finance.yahoo.com/news/ondo-finance-becomes-largest-provider-205724220.html,언론,mid
+S-gm-mexc,"MEXC 뉴스: OUSG 7.7억 달러, Global Markets 5억 달러",https://www.mexc.com/news/548067,기타,low
+S-coinpaprika,"CoinPaprika: 2026-08 USDY 21.5억, Ondo Stocks 10.1억, OUSG 3.67억 달러",https://coinpaprika.com/education/ondo-finance-ondo/,기타,low
+S-tokenisedetfs,"tokenisedetfs: USDY 2025-07, 2026-03 잔액",https://tokenisedetfs.pages.dev/entities/ondo-finance-ousg-usdy-profile/,기타,low
+S-regs-cfr,17 CFR 230.903 (Regulation S 조건),https://www.law.cornell.edu/cfr/text/17/230.903,법령,high
+DB-001,OUSG Overview,https://docs.ondo.finance/qualified-access-products/ousg/overview,사이트 DB 출처(정체 카드; 확인 항목: 한 줄 정체),high
+DB-002,DeFi Protocol Ondo Finance Puts 100 Tokenized Stocks on Ethereum,https://decrypt.co/337944/ondo-100-tokenized-stocks-ethereum,사이트 DB 출처(정체 카드; 확인 항목: 한 줄 정체),high
+DB-003,인가 지도 등록 수: 명의개서대리인 SEC 등록,https://www.sec.gov/data-research/statistics-data-visualizations/transfer-agents,사이트 DB 출처(정체 카드; 확인 항목: 유형 안 위치),high
+DB-004,Ondo Finance Completes Acquisition of Oasis Pro to Accelerate U.S. Tokenized Securities Innovation,https://ondo.finance/blog/ondo-acquires-oasis-pro,사이트 DB 출처(정체 카드; 확인 항목: 유형 안 위치),high
+DB-005,Ondo Finance 홈페이지(JSON-LD foundingDate),https://ondo.finance/,사이트 DB 출처(정체 카드; 확인 항목: 유형 안 위치),high
+DB-006,Keynote Disclaimers - Ondo Finance,https://docs.ondo.finance/legal/ondo-summit-terms/keynote-disclaimers,사이트 DB 출처(정체 카드; 확인 항목: 대표 상품),high
+DB-007,Comparison to Stablecoins - Ondo Finance,https://docs.ondo.finance/general-access-products/usdy/comparison-stablecoins,사이트 DB 출처(정체 카드; 확인 항목: USDY = Ondo가 발행하는 국채 담보 노트 토큰(),high
+DB-008,USDY Basics - Ondo Finance,https://docs.ondo.finance/general-access-products/usdy/basics,사이트 DB 출처(정체 카드; 확인 항목: USDY = Ondo가 발행하는 국채 담보 노트 토큰(),high
+DB-009,USDY product page (Portfolio Overview),https://ondo.finance/usdy,사이트 DB 출처(정체 카드; 확인 항목: USDY = Ondo가 발행하는 국채 담보 노트 토큰(),high
+DB-010,Ondo Stocks | Tokenized Stocks and ETFs | Ondo Finance,https://ondo.finance/ondo-stocks,"사이트 DB 출처(정체 카드; 확인 항목: Ondo Stocks(2025-09 출시, 이전 이름 )",high
+DB-011,"Final Terms for Product Nr.1 QQQon (ISIN VGG7001AAJ30) and Issue Specific Summary, Base Prospectus dated 11.11.2025",https://www.mfsa.mt/wp-content/uploads/2026/01/Ondo-Global-Markets-BVI-Limited-Final-Terms-Document-dated-11-November-2025.pdf,"사이트 DB 출처(정체 카드; 확인 항목: Ondo Stocks(2025-09 출시, 이전 이름 )",high
+DB-012,Ondo Stocks Important Notes (docs),https://docs.ondo.finance/ondo-stocks/important-notes,사이트 DB 출처(정체 카드; 확인 항목: 뜻),high
+DB-013,Introducing Ondo Chain: The Omnichain Network for RWAs,https://ondo.finance/blog/introducing-ondo-chain,사이트 DB 출처(정체 카드; 확인 항목: 자체 체인),high
+DB-014,Introducing the Ondo Network: The Evolution of Ondo Infrastructure,https://ondo.finance/blog/introducing-the-ondo-network,사이트 DB 출처(정체 카드; 확인 항목: 자체 체인),high
+DB-015,Case Closed: Clearing the Way for Tokenization (Ondo blog),https://ondo.finance/blog/tokenized-securities-step-forward,사이트 DB 출처(정체 카드; 확인 항목: 제재),high
+DB-016,Ondo Finance Says Biden-Era SEC Investigation Closed With No Charges,https://decrypt.co/351509/ondo-says-biden-era-sec-investigation-closed-no-charges,사이트 DB 출처(정체 카드; 확인 항목: 제재),high
+DB-017,Tokenized Stocks,https://app.rwa.xyz/stocks,사이트 DB 출처(정체 카드; 확인 항목: 주식 토큰 순위와 잔액),high
+DB-018,RWA.xyz Treasuries 리그 표,https://app.rwa.xyz/treasuries,사이트 DB 출처(정체 카드; 확인 항목: 국채 토큰 순위와 잔액),high
+DB-019,Ondo Stocks surpasses $1 billion in value as ecosystem surges,https://www.prnewswire.com/apac/news-releases/ondo-stocks-surpasses-1-billion-in-value-as-ecosystem-surges-302852162.html,사이트 DB 출처(정체 카드; 확인 항목: 보유자 수),high
+DB-020,Investing & Redeeming - Ondo Finance,https://docs.ondo.finance/ondo-stocks/investing-and-redeeming,사이트 DB 출처(정체 카드; 확인 항목: 흐름(주식 토큰)),high
+DB-021,cfotech.news,https://cfotech.news/story/bitget-widens-ondo-tokenised-stocks-etfs-metals,사이트 DB 출처(정체 카드; 확인 항목: 흐름(주식 토큰)),high
+DB-022,www.financemagnates.com,https://www.financemagnates.com/cryptocurrency/users-outside-us-can-now-trade-ondo-finances-tokenized-stocks-on-bitget-platforms/,사이트 DB 출처(정체 카드; 확인 항목: 흐름(주식 토큰)),high
+DB-023,Legal & Regulatory - Ondo Finance,https://docs.ondo.finance/ondo-stocks/legal-and-regulatory,사이트 DB 출처(정체 카드; 확인 항목: 뜻),high
+DB-024,OUSG Overview (docs),https://docs.ondo.finance/qualified-access-products/ousg/overview.md,사이트 DB 출처(정체 카드; 확인 항목: 흐름(국채 토큰)),high
+DB-025,"Ondo Team (Founder, Mission We Believe)",https://ondo.finance/team,"사이트 DB 출처(회사 개요와 확장 경로; 확인 항목: 2021년 설립, 창업자 Nathan Allman(Fo)",high
+DB-026,Trust & Transparency - Ondo Finance,https://docs.ondo.finance/ondo-stocks/trust-and-transparency,사이트 DB 출처(회사 개요와 확장 경로; 확인 항목: Flux Finance가 토큰 채무의 추가 담보 자금 ),high
+DB-027,The ONDO Token,https://docs.ondo.foundation/ondo-token,사이트 DB 출처(회사 개요와 확장 경로; 확인 항목: 뜻),high
+DB-028,IAPD Ondo Capital Management LLC firm 325197,https://api.adviserinfo.sec.gov/search/firm/325197,사이트 DB 출처(회사 개요와 확장 경로; 확인 항목: OUSG 발행사 Ondo I LP는 Ondo가 운용하는),high
+DB-029,forklog.com,https://forklog.com/en/power-struggle-emerges-at-ondo-finance-following-founders-death/,사이트 DB 출처(회사 개요와 확장 경로; 확인 항목: 경영),high
+DB-030,cryptobriefing.com,https://cryptobriefing.com/ondo-crypto-succession-planning-challenges/,사이트 DB 출처(회사 개요와 확장 경로; 확인 항목: 경영),high
+DB-031,Ondo 블로그(Ondo Stocks BNB 체인 진출),https://ondo.finance/blog/global-markets-live-on-bnb-chain,사이트 DB 출처(회사 개요와 확장 경로; 확인 항목: 주식 토큰),high
+DB-032,Fees & Taxes - Ondo Finance,https://docs.ondo.finance/ondo-stocks/fees-and-taxes,"사이트 DB 출처(회사 개요와 확장 경로; 확인 항목: 주식 토큰 발행 수수료 없음, 상환 0.05%, 견적가)",high
+DB-033,Announcing Tokenized US Treasuries and Bonds,https://ondo.finance/blog/announcing-tokenized-us-treasuries-and-bonds,"사이트 DB 출처(사업 범위와 넓힌 순서; 확인 항목: 2023-01 OUSG, 2023-08 USDY)",high
+DB-034,Introducing Ondo USD Yield (USDY),https://ondo.finance/blog/introducing-ondo-usd-yield-usdy,"사이트 DB 출처(사업 범위와 넓힌 순서; 확인 항목: 2023-01 OUSG, 2023-08 USDY)",high
+DB-035,"Ondo Finance Launches First-Ever Custodial Tokenized Securities in the U.S., Broadridge Partners to Integrate World Class Governance",https://ondo.finance/blog/ondo-launches-tokenized-securities-in-usa,사이트 DB 출처(사업 범위와 넓힌 순서; 확인 항목: 2026-07 미국용 보관형),high
+DB-036,Introducing Ondo Private Markets,https://ondo.finance/blog/introducing-ondo-private-markets,사이트 DB 출처(사업 범위와 넓힌 순서; 확인 항목: 2026-10 비상장사 토큰),high
+DB-037,Onboarding & KYC - Ondo Finance,https://docs.ondo.finance/ondo-stocks/onboarding-and-kyc,사이트 DB 출처(사업 범위와 넓힌 순서; 확인 항목: 2025-09 Ondo Global Markets 토큰),high
+DB-038,koreaherald.com,https://koreaherald.com/article/10887648,사이트 DB 출처(사업 범위와 넓힌 순서; 확인 항목: 2026-09 한국),high
+DB-039,www.digitaltoday.co.kr,https://www.digitaltoday.co.kr/en/view/108637/kakaopay-securities-to-push-tokenisation-and-overseas-distribution-of-korean-stocks,사이트 DB 출처(사업 범위와 넓힌 순서; 확인 항목: 2026-09 한국),high
+DB-040,Ondo Finance Says Global Demand for Korean Stocks Is Strong (Kunal Patel 인터뷰 2026-11-05),https://en.bloomingbit.io/feed/news/123709,사이트 DB 출처(사업 범위와 넓힌 순서; 확인 항목: 2026-09 한국),high
+DB-041,cointelegraph.com,https://cointelegraph.com/news/ondo-finance-acquires-oasis-pro-tokenized-securities-us,사이트 DB 출처(사업 범위와 넓힌 순서; 확인 항목: 2025-10 Oasis Pro 인수),high
+DB-042,www.ledgerinsights.com,https://www.ledgerinsights.com/ondo-finance-acquires-oasis-pro-to-expand-us-tokenization-capabilities/,사이트 DB 출처(사업 범위와 넓힌 순서; 확인 항목: 2025-10 Oasis Pro 인수),high
+DB-043,Ondo 블로그(Ondo Catalyst 출시),https://ondo.finance/blog/introducing-ondo-catalyst,사이트 DB 출처(경영진 발언; 확인 항목: 2025-07-03 Allman),high
+DB-044,Ondo 블로그(DTC 토큰화 권리 기반 토큰화 주식),https://ondo.finance/blog/ondo-and-dtcc-collaborate-on-tokenized-stocks,사이트 DB 출처(경영진 발언; 확인 항목: 2026-07-15 De Bode),high
+DB-045,Available Assets - Ondo Finance,https://docs.ondo.finance/ondo-stocks/available-assets,사이트 DB 출처(경영진 발언; 확인 항목: Ondo 문서),high
+DB-046,Secondary Market Restrictions - Ondo Finance,https://docs.ondo.finance/ondo-stocks/secondary-market-restrictions,사이트 DB 출처(B 상품 구조; 확인 항목: Ankura Trust(담보 대리인)가 1순위 담보권 ),high
+DB-047,Corporate Actions - Ondo Finance,https://docs.ondo.finance/ondo-stocks/corporate-actions,사이트 DB 출처(B 상품 구조; 확인 항목: 배당은 자동 재투자되어 토큰 가격에 반영),high
+DB-048,"CoinDesk Research, The Future of Equity Ownership: An Issuer's Guide to Tokenized Equities (2026-09-29, 10쪽). 입장: Bullish(가상자산 거래소) 의뢰, 발행사 직접 방식에 유리하게 씀",https://www.coindesk.com/research/the-future-of-equity-ownership-an-issuer-s-guide-to-tokenized-equities,사이트 DB 출처(B 상품 구조; 확인 항목: 그림 해설),high
+DB-049,"Sentora(리서치 회사), 표 출처 rwa.xyz, Sentora 주간 글(rwa.xyz Tokenized Public Stocks League Table) (2026-01-09, 순위표). 입장: 리서치 회사",https://www.sentora.com,사이트 DB 출처(B 상품 구조; 확인 항목: 2026-01 초 4.13억 달러 1위(51.59%) ),high
+DB-050,Ondo 블로그(LayerZero 브리지),https://ondo.finance/blog/ondo-bridge-for-onchain-securities,사이트 DB 출처(B 상품 구조; 확인 항목: 블록체인 위 활용),high
+DB-051,Disclaimers - Ondo Finance,https://docs.ondo.finance/legal/disclaimers,사이트 DB 출처(C 최종 투자자; 확인 항목: 주장),high
+DB-052,Eligibility - Ondo Finance,https://docs.ondo.finance/ondo-stocks/eligibility,"사이트 DB 출처(C 최종 투자자; 확인 항목: 미국인, 미국 안에서 주문하는 자 제외)",high
+DB-053,"포필러스(한국 블록체인 리서치 회사), 2026: The Year of Tokenized Stocks (2026-02-23, 27쪽). 입장: Securitize 후원 보고서",https://4pillars.io/en/reports/2026-the-year-of-tokenized-stocks,사이트 DB 출처(C 최종 투자자; 확인 항목: 주의),high
+DB-054,Overview - Ondo Finance,https://docs.ondo.finance/ondo-stocks/overview,사이트 DB 출처(D 유통과 접점; 확인 항목: 주장),high
+DB-055,Technical - Ondo Finance,https://docs.ondo.finance/ondo-stocks/technical,사이트 DB 출처(D 유통과 접점; 확인 항목: 주장),high
+DB-056,Market Hours & Trading Availability - Ondo Finance,https://docs.ondo.finance/ondo-stocks/market-hours-and-trading-availability,사이트 DB 출처(D 유통과 접점; 확인 항목: 거래시간),high
+DB-057,Off-Hours Trading - Ondo Finance,https://docs.ondo.finance/ondo-stocks/off-hours-trading,사이트 DB 출처(D 유통과 접점; 확인 항목: 미국 정규장(현지 오전 9시 30분~오후 4시) 밖 시),high
+DB-058,Comparison to Other Tokenized Stocks - Ondo Finance,https://docs.ondo.finance/ondo-stocks/comparison-to-other-tokenized-stocks,사이트 DB 출처(D 유통과 접점; 확인 항목: 유동성 공급),high
+DB-059,api.brokercheck.finra.org,https://api.brokercheck.finra.org/search/firm/149420,"사이트 DB 출처(E 인가; 확인 항목: 미국 증권사, ATS, 명의개서대리인)",high
+DB-060,Terms of Service - Ondo Finance,https://docs.ondo.finance/legal/terms-of-service,사이트 DB 출처(E 인가; 확인 항목: 미국 밖 주식 토큰(인가가 계기가 아님)),high
+DB-061,Insights | Tokenization Research and News | Ondo Finance,https://ondo.finance/insights?page=2,사이트 DB 출처(E 인가; 확인 항목: 미국 안 판매(새로 연 것)),high
+DB-062,Liste gebilligte Prospekte ab 21. Juli 2019,https://www.fma-li.li,사이트 DB 출처(E 인가; 확인 항목: EEA 판매(새로 연 것)),high
+DB-063,Insights | Tokenization Research and News | Ondo Finance,https://ondo.finance/insights,사이트 DB 출처(F 관계(해당 시); 확인 항목: 2026-07 SBI Holdings(일본 금융그룹)와),high
+DB-064,"카카오페이證, 글로벌 토큰화 기업들과 맞손… 韓 주식 해외 유통 나서",https://www.mt.co.kr/stock/2026/09/29/2026092916273597892,사이트 DB 출처(G 한국 접점(해당 시); 확인 항목: 카카오페이증권은 전날 같은 취지의 협약을 Dinari와),high
+DB-065,OUSG Regulatory Compliance (docs),https://docs.ondo.finance/qualified-access-products/ousg/regulatory-compliance.md,"사이트 DB 출처(국채 토큰 사업(OUSG, USDY); 확인 항목: OUSG)",high
+DB-066,Building on BUIDL: How Ondo Leverages BlackRock's Tokenized Treasuries (Ondo blog),https://ondo.finance/blog/building-on-buidl-how-ondo-leverages-blackrocks-tokenized-treasuries,"사이트 DB 출처(국채 토큰 사업(OUSG, USDY); 확인 항목: 2024-08 BUIDL로 이전한 경위)",high
+DB-067,Tokenized treasuries market growth (RWA.xyz 인용),https://cryptoslate.com/?p=514232,"사이트 DB 출처(국채 토큰 사업(OUSG, USDY); 확인 항목: 시장 규모 추이(시점 순, rwa.xyz 집계))",high
+DB-068,OUSG Eligibility & Onboarding (docs),https://docs.ondo.finance/qualified-access-products/ousg/eligibility-and-onboarding.md,"사이트 DB 출처(국채 토큰 사업(OUSG, USDY); 확인 항목: OUSG 자격)",high
+DB-069,Eligibility - Ondo Finance,https://docs.ondo.finance/general-access-products/usdy/eligibility,"사이트 DB 출처(국채 토큰 사업(OUSG, USDY); 확인 항목: USDY 자격)",high
+DB-070,USDY Basics (docs),https://docs.ondo.finance/general-access-products/usdy/basics.md,"사이트 DB 출처(국채 토큰 사업(OUSG, USDY); 확인 항목: 최소 금액)",high
+DB-071,OUSG Instant Minting and Redemption Limits (docs),https://docs.ondo.finance/qualified-access-products/ousg/instant-limits.md,"사이트 DB 출처(국채 토큰 사업(OUSG, USDY); 확인 항목: 즉시 발행, 상환 한도)",high
+DB-072,OUSG Fees & Taxes (docs),https://docs.ondo.finance/qualified-access-products/ousg/fees-and-taxes.md,"사이트 DB 출처(국채 토큰 사업(OUSG, USDY); 확인 항목: OUSG 운용보수 0.15%, 2027-01-01까지 )",high
+DB-073,자본시장과 금융투자업에 관한 법률 제4조제1항,https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283193&efYd=20270204,사이트 DB 출처(한국 시장과의 차이; 확인 항목: 주장),high
+DB-074,"Bruce ATS Announces Regulatory Approval, Now Open for Business",https://docs.ondo.finance/qualified-access-products/eligibility.md,사이트 DB 출처(한국 시장과의 차이; 확인 항목: 국채 토큰 OUSG의 한국 제외),high
+DB-075,블로그: 시드 7.5M과 미국 밖 dShare 플랫폼 출시,https://dinari.com/blog/7-5m-in-seed-investments-and-ex-us-launch-of-dshare-platform,사이트 DB 출처(성과와 판단; 확인 항목: 주식 토큰 후발 진입 뒤 빠른 추격),high
+DB-076,Kraken 블로그(xStocks 출시),https://blog.kraken.com/product/xstocks/tokenized-equities-now-available,사이트 DB 출처(성과와 판단; 확인 항목: 주식 토큰 후발 진입 뒤 빠른 추격),high
+DB-077,Robinhood & Gemini Launch Tokenized Stocks (Robinhood 6/30 블로그 전재 포함),https://www.marketsmedia.com/?p=144033,사이트 DB 출처(성과와 판단; 확인 항목: 주식 토큰 후발 진입 뒤 빠른 추격),high
+DB-078,"James A. Overdahl(Delta Strategy Group), SEC 제출 의견서, Tokenized U.S. Equities, DeFi Trading, and the SEC's Exemptive Authority: An Economic Analysis (2026-01-22, 25쪽). 입장: 필자가 Citadel Securities의 재정 지원을 밝힘",https://www.sec.gov/files/ctf-written-james-overdahl-tokenized-us-equities-01-22-2026.pdf,"사이트 DB 출처(성과와 판단; 확인 항목: 평가 1(주의, 탈중앙 거래소 풀에서 단일 사례 약 9.3% 비싸게 체결))",high

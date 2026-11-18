@@ -1,0 +1,8 @@
+﻿상품,발행,운용(무엇을 살지),보관,담보 대리,판매 창구(1차),2차 거래 시설,인프라(장부와 실행)
+OUSG,Ondo 직접(Ondo I LP),Ondo 직접 배분(Ondo Capital Management) + 제3자 운용(운용사 4곳),"제3자(펀드 수탁기관, USDC는 Coinbase)",없음,Ondo 직접(즉시 발행 창구),없음(사모 지분),Ondo 직접(토큰화 기술)
+USDY,재단 쪽 계열(BVI 발행 법인),재단 쪽 계열(발행 법인이 국채 직접 보유),제3자(은행 First Citizens 등),제3자(Ankura),Ondo 직접(발행 창구),"제3자(거래소, DEX)",Ondo 직접
+Ondo Stocks,재단 쪽 계열(BVI 발행 법인),해당 없음(1:1 보유),"제3자(Alpaca, BitGo Trust)",제3자(Ankura),"제3자(Bitget, Binance, 지갑)","제3자(거래소, DEX)","Ondo 직접(Ondo Network, 브리지)"
+Intelligent Portfolios,재단 쪽 계열(BVI 발행 법인),제3자 전략(BlackRock) + Ondo 실행,제3자(밑단 Ondo Stocks 보관),제3자(Ankura),Ondo 앱과 제휴 창구,제3자,Ondo 직접(스마트컨트랙트 리밸런싱)
+"미국 보관형 토큰(IVV, MU)",Ondo 직접(Oasis Pro TA),해당 없음,기존 미국 규제 보관 체인,해당 없음,Ondo 직접(Oasis Pro Markets),Ondo 직접(Oasis Pro ATS),Ondo 직접
+Ondo Perps,해당 없음(파생상품),해당 없음,해당 없음,해당 없음,Ondo 직접(Ondo Global Group),Ondo 직접(거래 시설 운영),Ondo 직접
+Ondo Network,해당 없음,해당 없음,해당 없음,해당 없음,해당 없음,해당 없음,"Ondo 직접(주문 실행과 검증 층, 2026-07)"

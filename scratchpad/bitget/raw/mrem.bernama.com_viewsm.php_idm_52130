@@ -1,0 +1,561 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>BERNAMA MREM (ENG)</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/ticker-style.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,700&display=fallback">
+
+</head>
+<style>
+    .mobile_menu .slicknav_menu .slicknav_btn {
+        top: -43px;
+        right: 10px;
+
+        .gray-bg {
+            background: #fff !important;
+        }
+
+    }
+
+    #navigation li a {
+        padding: 8px 12px;
+        /* Reduce padding */
+        font-size: 16px;
+        /* Reduce font size */
+    }
+
+    * {
+        font-family: 'Poppins', sans-serif;
+        /* Set a small font size as the base size */
+    }
+</style>
+
+<header>
+    <!-- Header Start -->
+    <div class="header-area">
+        <div class="main-header ">
+            <div class="header-top black-bg d-none d-sm-block">
+                <div class="container">
+                    <div class="col-xl-12">
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <!--div class="header-info-left">
+                                <ul>     
+                                    <li class="title"><span class="flaticon-energy"></span> Latest Press Release</li>
+                                    <div class="news_title w3-hide-small w3-hide-medium" style="text-align: justify">
+	    <marquee onmouseover="this.stop();" onmouseout="this.start();">  |  |  |  </marquee> 
+	             </div>
+                                </ul>
+                            </div-->
+                            <div class="header-info-right">
+                                <div class="col-12 mt-1 pl-4">
+                                    <a class="text-white text-decoration-none font-weight-bold" href="index.php">English</a> |
+                                    <a class="text-secondary text-decoration-none" href="mrembm/index.php">Malay</a>
+                                    <!-- <a class="text-secondary text-decoration-none" href="#">Mandarin</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-mid gray-bg d-none d-md-block">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <!-- Logo -->
+                        <div class="col-xl-3 col-lg-3 col-md-3 d-none d-md-block">
+                            <div class="logo">
+                                <a href="index.php"><img src="assets/img/logo/logonew.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-9 col-md-9">
+                            <div class="header-banner f-right ">
+                                <!-- <img src="assets/img/banner/PPZBANNER.png" alt=""> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <!-- Logo -->
+                        <div class="col-xl-6 col-lg-6 col-md-6 d-none d-md-block">
+                            <p><strong>MEDIA RELATIONS AND EVENT MANAGEMENT</strong></p>
+
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <!-- <div class="header-banner f-right ">
+                                <img src="assets/img/banner/PPZBANNER.jpg" alt="">
+                            </div> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="header-bottom header-sticky">
+
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-8 col-lg-8 col-md-12 header-flex">
+                            <!-- sticky -->
+                            <div class="sticky-logo">
+                                <a href="index.php"><img src="assets/img/logo/mrem.gif" alt=""></a>
+                            </div>
+                            <!-- Main-menu -->
+                            <div class="main-menu d-none d-md-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a href="index.php"><i class="fas fa-home"></i> </a></li>
+                                        <!-- <li><a href="aboutus.php">ABOUT US</a></li> -->
+                                        <li><a href="#">ABOUT US</a>
+                                            <ul class="submenu">
+                                                <li><a href="aboutus.php">MREM</a></li>
+                                                <li><a href="https://asianetnews.net/" target="_blank">ASIANET</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="pr.php">PRESS RELEASES </a></li>
+                                        <li><a href="ntte.php">NOTE TO EDITOR </a></li>
+                                        <li><a href="archive.php">ARCHIVES</a></li>
+                                        <!-- <li><a href="#">GALLERY</a>
+                                            <ul class="submenu">
+                                                <li><a href="blog.php">Blog</a></li>
+                                                <li><a href="blog_details.php">Blog Details</a></li>
+                                                <li><a href="elements.php">Element</a></li>
+                                            </ul>
+                                        </li> -->
+                                        <li><a href="contact.php">CONTACT</a></li>
+                                        <li class="d-block d-md-none"><a href="mrembm/index.php"><i class="fab fa-font-awesome"></i> MALAY</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                            <div class="header-right f-right d-none d-lg-block">
+                                <!-- Heder social -->
+                                <ul class="header-social">
+                                    <li><a href="https://www.facebook.com/BERNAMAmremPR/"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://twitter.com/BERNAMAmremPR"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li> <a href="#"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                                <!-- Search Nav -->
+                                <!-- <div class="nav-search search-switch">
+                                    <i class="fa fa-search"></i>
+                                </div> -->
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-md-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+</header><link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<meta http-equiv="Content-Language" content="en-us">
+<!--<meta http-equiv="refresh" content="60;http://www.bernamamrem.com/v2/"/>-->
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!--<script type="text/javascript" src="js/disable.js"></script>--><link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<meta http-equiv="Content-Language" content="en-us">
+<!--<meta http-equiv="refresh" content="60;http://www.bernamamrem.com/v2/"/>-->
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!--<script type="text/javascript" src="js/disable.js"></script>-->
+<style>
+    .about-pera {
+        text-align: justify;
+        /* Justify text */
+        color: black !important;
+        /* Force text color to black */
+    }
+
+    .about-pera img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about-pera a {
+        word-wrap: break-word;
+        word-break: break-word;
+        overflow-wrap: break-word;
+        text-overflow: ellipsis;
+        display: inline-block;
+        max-width: 100%;
+        color: blue;
+    }
+
+    .about-pera sub {
+        line-height: 30px;
+    }
+
+    .about-pera sup {
+        line-height: 30px;
+    }
+
+    .about-pera {
+        text-align: justify !important;
+        color: black !important;
+    }
+
+    .about-pera ul {
+        list-style-type: disc !important;
+        /* Default bullet */
+        padding-left: 30px !important;
+        margin-top: 10px;
+    }
+
+    .about-pera ul ul {
+        list-style-type: circle !important;
+        /* Nested bullet */
+        padding-left: 35px !important;
+        margin-top: 5px;
+    }
+
+    .about-pera ul ul ul {
+        list-style-type: square !important;
+        /* Third-level bullet */
+        padding-left: 40px !important;
+        margin-top: 3px;
+    }
+
+    /* Add spacing for each list item */
+    .about-pera li {
+        margin-bottom: 8px;
+        /* Space between list items */
+    }
+
+    /* Force bullets if they're not displaying */
+    .about-pera li::marker {
+        font-size: 16px;
+        color: #000000;
+        /* Customize bullet color (blue) */
+    }
+
+    /* Alternative: Custom bullet symbol */
+    .about-pera li::before {
+        content: "•";
+        /* Default bullet */
+        color: #000000;
+        font-size: 16px;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+
+    /* Nested levels get different custom bullets */
+    .about-pera ul ul li::before {
+        content: "○";
+        /* Circle */
+        color: #000000;
+        /* Green */
+    }
+
+    .about-pera ul ul ul li::before {
+        content: "■";
+        /* Square */
+        color: #000000;
+        /* Red */
+    }
+
+    .custom-ol {
+        list-style-type: decimal !important;
+        counter-reset: list-counter;
+    }
+
+    .custom-ol li {
+        counter-increment: list-counter;
+        list-style: none !important;
+    }
+
+    .custom-ol li::before {
+        content: counter(list-counter) ". ";
+        color: black;
+    }
+
+
+
+    .about-pera1,
+    .about-pera1 p,
+    .about-pera1 li,
+    .about-pera1 a,
+    .heading-news h4 {
+        font-family: 'Poppins', sans-serif !important;
+    }
+
+    .custom-img {
+        max-width: 100%;
+        /* Ensures the image is responsive */
+        height: auto;
+        /* Maintains aspect ratio */
+        display: block;
+        /* Prevents inline spacing issues */
+        margin: 0 auto;
+        /* Centers the image horizontally */
+    }
+</style>
+
+
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/logo1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+
+    <main>
+        <!-- About US Start -->
+        <div class="about-area2 gray-bg pt-60 pb-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <!-- Trending Tittle -->
+                        <div class="about-right">
+                            <!--div class="about-img">
+                                <img src="assets/img/trending/cavli.jpg" alt="">
+                            </div-->
+                            <div class="heading-news">
+<h4 style="text-align: center;">Bitget Turns 7, Coining the ‘Universal Exchange’ as the Next Generation of Exchanges</h4>
+                            </div>
+                            <div class="about-pera">
+                                <p class="about-pera1" style="text-align: center;">Wednesday 17/09/2025                            </div>
+                            <!-- <div class="about-pera" style="text-align: justify; color:black">
+                                <p class="about-pera1">                            </div> -->
+                            <div class="about-pera">
+                                <p class="about-pera1">
+                                <strong>VICTORIA, Seychelles, Sept 17 (Bernama-GLOBE NEWSWIRE) --</strong>&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=bmZi-LYot30oEWiVzmnEIaA4iLlsv8odnZ1dQnTX6tanrZR3GQy90lJQHbSQE0SHgoLD6lGuQ6u-dFaKAXT_1A==">Bitget</a>, the world&rsquo;s largest Universal Exchange (UEX), is proud to celebrate its 7th anniversary with the theme of #GearUpTo7, kickstarting a new era of integrated finance.<br /><br />Over the past seven years, strategic partnerships, community initiatives, and steady business growth have driven Bitget&rsquo;s global expansion. Collaborations with legendary&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=z91Lj1vWz25ICUipLMqa4mWwwQOniNpP1qr8Mqy-9ft-edfBAOifCc0jkmP9FfIY4tGZP83oN6V_bbhZmN7kxBhLlMwDE-Z2_aS_6U3sREApBeKcYq44CJ3Ql5eYMvNy">Messi</a>,&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=AN4aQfgVrNqmGzHQxgHo_1mx-j73eePP4zUbJgD6-SHYDQ_HYNk8lQPHvFjsKag3Ro0W2VXHWSsXkzLH2wMY8eVRiEicMYo38406j_dgqPhAcGC59uxy27X2FulsEtgpfDhrVc6jCE3v_5AmrrMmHqeyyMi9LtDSxGskSfbfJeg=">Juventus FC</a>,&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=Ptt2_4YfDMjMy74T3KiGuCvVN8H3j4P8srTwI2GA20at5IBkbpk6zOrT7DWPve6t1-QRhLN9Av8CdxSTUKV9itEq7-4hx7IirZDjHLZuZqDdz6DVmUxhSJ5nCnp8LloOmCefbOicrX2Bl1S_wKop6g8TL8oSJMNLsSehPDDwn_8T8weSWGq-QaO4KYPUb2ey">MotoGP</a>,&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=lbfZ1JX7zOFnWNzNvM0ZGd7biJqMRWULjdwxX44ZAUI7rcMmBGnSZ7nmogUFPpHER8aC5xPlBHIo2ianktLtaoVY8uekcN50GmWByN_BSNOoTglmohyIyRZkPRxVmSaMJnskN-uIWgur543S12QQ6odiGYbXeTskygHUFLHTdf8=">LaLiga</a>, and the&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=us_cE3G9RK9k3M2YxFudmt2Qi9IKYdKrzBny_STt7s8OF7U4DHZ34DFQ-9QPCH-arG_XuWzssO7thMtmrTFRs0JcpUout1-DnBvh-uJpqT-Odf379otKEwNHYqJtYNh9xcu6EHMYoEmupTipiPLl1g==">UNTOLD</a>&nbsp;music festival have extended Bitget&rsquo;s reach beyond crypto, connecting with mainstream audiences and global cultural trends. Educational charity initiatives such as&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=MHNOnREW7JLs3XZJudCl8SuqT95qwkhodDRSUNBG_-XHfsM3jj7Fp_RDx_Oxndho98jsNKL8uotg_eOPdAwsMYkZVU1BizsCnS6A5udCTwtBhcRwy88Qa-kIjiawxCSw">Blockchain4Youth</a>&nbsp;and&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=MHNOnREW7JLs3XZJudCl8Vo1fBMSussfAUvw4ixJe248mgJzDfuFCdKHc9HkbA3h1arvLR-gkmXV2sxCuy8WVs4-EzZl_5O_vvRMvlc3Af8M0YoaruBHPBIygDjNwLmI">Blockchain4Her</a>&nbsp;have helped over 15,000 youngsters, enabling inclusivity, with over 60 universities across the globe. Additionally, Bitget's collaboration with&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=MWBkqW1EPI5VmY7RmknN15HkME6EN3wOnUnGDcSPh0cLk3QuPepRVpzDlK5T-5NWFm6mOO-EMGJ_E_mEq00PNEAglMyYGLVeMLRWd6W-NfpRJ4KXX7KaH5QiByaeVxKVPEbtX5awYrlICZgwFDUO4j-vRPRZpU1N95C-DISwJ3H6MrTAN9DMi3aUDXJ9aQzoZF3Z11_yL0GHPnUQk9kxBhiNwuHLxtJkYCJtrnWYmXo=">UNICEF</a>&nbsp;to educate 1M people around blockchain by 2027 has made yet another mark that no Web3 company has been able to surpass.<br /><br />Looking ahead, Bitget is introducing itself as the Universal Exchange (UEX). A concept first mentioned in&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=bmZi-LYot30oEWiVzmnEIeHMxGabeB2Ikw7k5Zs6ReHTxyeR275E-sn760YdFOGIVcLbZ7mzKvH5XAp1Ly4KvqQ9dzA3bWuSCx5NLM-kFOPSvsxUxlW3Ni3dWZh1NwbTLv8_6fj-ARTEpZgLleNov4e9OU-t2kqPNlnseHn51s26FT4kMBvQXv67r3BvCsU2">Bitget CEO Gracy Chen's recent letter</a>&nbsp;to the community. UEX aligns with Bitget&rsquo;s vision to build a holistic ecosystem that breaks the "impossible triangle" of exchanges: user experience, asset variety, and security. By bringing together a range of centralized-decentralized services, AI tools, and security practices under a single unified platform, Bitget has transformed into the first UEX in the world.<br /><br />The transformation has started in the past few months. In Q3 2025,&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=bmZi-LYot30oEWiVzmnEITysM14BM5ZAXP0_aztvLPFryWabmw2B0Fj3LtvblDGvzxdFvvScb3wNMNpPAj2--Ylmtn8FKTheAj1O8osKxxpH_8s9HF4oSJ5jHvMtnitD">Bitget Onchain</a>&nbsp;added full support for Ethereum, BSC, Base, and Solana assets, while partnerships with xStocks and Ondo expanded access to tokenized stocks and ETFs. It also launched the first&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=UXRWXBbEM3MhMnUcogmwaY2ImUeVVEpjmmV2Xr099vBGc-FUbsUcrgDrJOqBEfpQdgKpqBz5Sacv1DsR716m_qxDOG-f_vXRpCfZadJpSAbhkjs5DHGTxwIBVCG6oqw2Nc2RlbP0kKYrN9x6b5Zf6cSuj4xwKSQFdUnzaebDSKw=">Stock Futures</a>, bringing traditional instruments like AAPL and NVDA into crypto derivatives. According to Gracy's vision, Bitget is expanding to support all the tradable assets, not just the top few hundred cryptocurrencies, but all existing tokens. And it&rsquo;s not only about crypto anymore; core assets worldwide, such as stocks, ETFs, gold, and forex, will also be tradable on a single UEX.<br /><br />Another thing that differentiates UEX from CEX and DEX is its integration with AI. Bitget&rsquo;s approach to market intelligence and execution automation is powered by its proprietary AI tool,&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=1BvOhETXrBE9zFBDCls_gZjZukKtc9OYsVeHvXvy6ibVahlCgJPDXzDECPHdDi6m78RCQt72jKhX2CbE0N5xPPyLbzWsLw1T3_aVKJJTuNV1W3JnsY34ba1kXhIK57DL">GetAgent</a>, which provides users with actionable insights and customized strategies through real-time data analysis and interactive guidance. Alongside GetAgent, a suite of automated trading bots enhances accessibility and enables users to pursue opportunities continuously, reducing the gap between analysis and action.<br /><br /><em>&ldquo;Our growth over the past seven years is based on a methodical approach used to build an infrastructure that serves the evolving needs of traders, investors, and institutions. We're shifting towards providing easier access and clean integration of emerging finance into our daily lives. As the first UEX, Bitget is bound to lead this transition with tools and products that meet both current and future demands of users worldwide,&rdquo;</em>&nbsp;said&nbsp;<strong>Gracy Chen, CEO at Bitget.</strong><br /><br />Furthermore, UEX is designed to deliver advanced security, combining the best of on-chain and off-chain protection. It will integrate intelligent tools to detect early signs of token concentration or potential rug-pull risks, reinforced by Bitget&rsquo;s User Protection Fund, now valued at over $700 million.<br /><br />Since day one, Bitget&rsquo;s growth strategy has emphasized sustained, measurable progress rather than premature expansion. It has broadened its presence in emerging regions, including Southeast Asia, Latin America, and the Middle East, through localized community programs, multilingual support, and offline engagement.<br /><br />As regulatory alignment remains a priority. In 2025, Bitget secured licenses or registrations in jurisdictions including Italy, Poland, Lithuania, Czechia, El Salvador, Argentina, Bulgaria, and Georgia. A specialized&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=glyDFFV0QglF_QLyPLjUPKfyYxjO6upiRaMZa3bPNeVUw0kjBiCj8M1_kxhL6pY2msseP4NR6N-oFPjhKWksJmLzko5TsgmjY-KsBroFyizjzJaY_uImAZvKCYD8IKjRKiWe_tSFfHc4KdKVbokT5g==">compliance team</a>&nbsp;of over 70 experts works closely with regulators to advance sustainable frameworks and maintain trust in crypto markets.<br /><br />Throughout this September, Bitget is celebrating its 7th anniversary with the&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=4SFBOP9oDhoGXWqwn91_opAoCMw4FkkY1BAShrelLNb_O3JWpJP28MJyQhN5mr3BkldzaL3gF01GmT1JqP4KeFA6dDRzyDc1QxeP68ef6tMnngLgIhvArokToIyvdNLBhRBsFkHHwWbAa9xR4i_2yw==">&ldquo;Gear Up to 7&rdquo; campaign</a>, boosting the Universal Exchange (UEX) era. The promotion features global events like the #GearUpTo7 Sprint Challenge with a $400,000 USDT prize pool and a Bitget-themed MotoGP racing motorcycle. Motorcycle Parades in multiple cities, anniversary anthem by crypto influencer Lil Bubble, and TopGear Night afterparty at TOKEN2049 will bring the community together. Bitget will also host its inaugural&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=ywW_jwLHsf063uz6Qw2Z5rurTp5lm0A7xo2K4wvstZp28U2uikLZH1ShNf-82Tz3m2FIx4_OrbCeuQhfTY5myxruN2MqKJDUa9KQK5-5HzYGrzPf2BkWg4-rNItT038oqITKtwCQBF2655MuJco5uQ=="><em>Smart Awards</em></a>&nbsp;to recognize outstanding traders who have been integral in its continued success, amplifying their stories of resilience and success within the crypto space.<br /><br />As Bitget commemorates its seventh year, the platform continues to focus on long-term frameworks that connect users, assets, and markets while setting new standards for security, accessibility, and innovation in the cryptospace and beyond.<br /><br />To celebrate Bitget turning 7, please visit&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=ZbW-0tlwcy_WTcw7sStMM_-N67G6SDFNYqxvwIIjrdzm9sjO-TWK1ujn9n7kA7-sU1dvMBcIFya63s_kmGGlV9YshETkse4nUaCrzJVsDHZS-UILGVBn5YTSmOzoT_97">here</a>.<br /><br /><strong>About Bitget</strong><br /><br />Established in 2018,&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=bmZi-LYot30oEWiVzmnEIYjbfJNt-6e2HtUGRxu_hMnUPOg4j1My3KPbRO4jq3s2iCUsLN2-phMTrJaIfIZaJg==">Bitget</a>&nbsp;is the world's largest Universal Exchange (UEX). Serving over 120 million users in 150+ countries and regions, the Bitget exchange is committed to helping users trade smarter with its pioneering copy trading feature and other trading solutions, while offering real-time access to&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=bmZi-LYot30oEWiVzmnEIRDT2s_orIpjgnJrILLBmjRH085VOzdIhirSULXagBeWciPvs6ZrVlInIzUnCabcPVhLH2B7oKIYjd3-lk6bUo0=">Bitcoin price</a>,&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=Fp2ehbgjrar5sxxioGju6MQW8JuK4nL7zhZcBo1pYkX2sr8v6QjWl7-j5mJJ84EFkKJ0TDN3_iZ4rCDwfcj7q-dvZPnYILcXOanSqfsVWW4wtyk8cNtzfivE15SiXpkT">Ethereum price</a>, and other cryptocurrency prices.&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=bmZi-LYot30oEWiVzmnEIbNPdiqueTbr6DGWkRKaUi_4wpzAWJtWbFobTE9aWKGpvlR85oQ-YJLFLBcLUpD9Ea1uC1D_3zNvZYbt2mo6img=">Bitget Wallet</a>&nbsp;is a leading non-custodial crypto wallet supporting 130+ blockchains and millions of tokens. It offers multi-chain trading, staking, payments, and direct access to 20,000+ DApps, with advanced swaps and market insights built into a single platform.<br /><br />Bitget is driving crypto adoption through strategic partnerships, such as its role as the Official Crypto Partner of the World's Top Football League,&nbsp;<strong>LALIGA</strong>, in EASTERN, SEA and LATAM markets. Aligned with its global impact strategy, Bitget has joined hands with&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=MWBkqW1EPI5VmY7RmknN14M4bTRdVvbluXNW0a8OKtjEB15d3hCx3x5vhNWkuGLsnuZ-WLh_cpAriA6FxAJYFg09j5LF2lZBkpFbO-mz2dn1kIKpPrYfMldHbJ9VFukzGwU95kEXgwNIaQKK1kYh0_1Fzu2nJeP40VonGPFvaPIs__BYLhsJYW61OyMApwDn4FxqmUXxrdS0NRHWMu0hwSv2SMlELBa3zCm5iW81It4=">UNICEF</a>&nbsp;to support blockchain education for 1.1 million people by 2027. In the world of motorsports, Bitget is the exclusive cryptocurrency exchange partner of&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=Ptt2_4YfDMjMy74T3KiGuB394RXPkn7Oj5bgeXpPD33YNHvl3iLzoJyD7MiW42VzziVz5FCHYrBGvizcs6sArtx6iHvvNcnmM5lWTnpiJ2CuMLP7iL-srjjLffZrD4muk8dOaK3EdN5Lr5hFOn3ohupoMPLDuMgDdSwt8iIo2MXA7Kfy-9cYZKk8At6vbibQBYQqhLNynbB3r-iKuiIwtw==">MotoGP&trade;</a>, one of the world&rsquo;s most thrilling championships.<br /><br />For more information, visit:&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=-NzPWXFvO8R2yvmKXbiplbJ9JmWq8BwNv3-sFBdH_QQxH73S31SpFddMhDdEi-Alp0qD1a8iNzEUgNvDr-ezhA==">Website</a>&nbsp;|&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=JcgnDwOPEvCV4AuNJBNCP5g9AQJjTwj4x6ulaROfiRkUNTdCU_jYRlS6JgeyQzqFk1YW8LSAheaSyf5ZxQdmq8azCMgd_xoHk4DBZwpqw4k=">Twitter</a>&nbsp;|&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=jBof07FLhMIEVvAn5q9MNOCsPokl1U0uahTSS0klw6TgW8TxPlb9KYYoLd7lTSkEUHuNCyj-kEqcXuGdf2nvauFleZgR9IITIsLj-k08Iy8=">Telegram</a>&nbsp;|&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=2_t4xNoOPzMVO2pxmzk8P_QH2pstvx4dlpOc6qjnowLmR3YU_0HM36YHTcAmHTzgSUpnPbDsTbksZEURhyoO7fuk3FnJ2P1HvlkG2DSiSul37xtMGrYazIxkqqrlZ50s">LinkedIn</a>&nbsp;|&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=Vmfa3A89txgg1oMBZ6QSI2K3E2x-cV0oqKFjQuzwysDe98nFO3jMZHZlgwoXDCCcVbHlvEFAwLs1gOiEfpim5YGy4dWzeZ7mFb278gNu7JA=">Discord</a>&nbsp;|&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=bmZi-LYot30oEWiVzmnEIcHaaDfLLgU9F7Ab2a1TKEkAotSxE_AtDEHtW49Lo8FBiVsYV8jeO3qA8tnQ5GYXCvhI5CbBLLopHHzCHpWYE90=">Bitget Wallet</a><br /><br />For media inquiries, please contact:&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=f9j_zTY6GilQuydkBQ0_3HvqdWuNzdSMezo9Aet2MKSbn-Z4ghcR-2P1P1T798CkN9AWhLivb18ocZUfZ82SFgNhrY3kPOygf-8S2Dvi8wo=">media@bitget.com</a><br /><br /><strong><em>Risk Warning:&nbsp;</em></strong><em>Digital asset prices are subject to fluctuation and may experience significant volatility. Investors are advised to only allocate funds they can afford to lose. The value of any investment may be impacted, and there is a possibility that financial objectives may not be met, nor the principal investment recovered. Independent financial advice should always be sought, and personal financial experience and standing carefully considered. Past performance is not a reliable indicator of future results. Bitget accepts no liability for any potential losses incurred. Nothing contained herein should be construed as financial advice. For further information, please refer to our</em>&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=R968y4wkeuSBh21hLx8W-f7AiDqtVvppHX-ogUcOUuowVK-meLKYZGox_h8HAtgiJDwNNegEVMWh4OBLNyuKSwbkbMsP5Vo0YTEtwNaRtzDGklnOVbrPVO4XvUtjXuN4YCdZS5YX0d6NtjIeXMxgGQ=="><em>Terms of Use</em></a><em>.</em><br /><br />A photo accompanying this announcement is available at&nbsp;<a target="_blank" href="https://www.globenewswire.com/Tracker?data=ofaftgzZgoiIkpFBfy0WKJ0GAoADFDpNXw7qPrcKsQD7s_hCKtkhiPlW6Mt5g_zsO7pFjblkdWRrgCBvjM6xma_JQFYh9e2_UKH-rhW9rOzOPzk4_7EzsIEynq07YCnGHK-nwm2msRKSdbtWeSMMeh_ymV5mTo65cMhcPEkAUQdPYbLWU-QvRa-CAZp8eLLqvcdekd8LfbNhu-KJs0AtxBNFMdPTZJHun0HD4WdOO8FYD_kqIwzaO83Y62PGEwSJsyTeQhp8SmKrGY7na07-OA==">https://www.globenewswire.com/NewsRoom/AttachmentNg/06dc5082-c02b-42d6-b583-4ef6ad05e63f</a><br /><br /><strong>SOURCE: Bitget Limited</strong><br /><br /><em><strong>DISCLAIMER: BERNAMA MREM</strong>&nbsp;</em><em>are not accountable for any causes of website defacement, misuse, or illegal activities connected to cryptocurrency, blockchain, tokenisation, or bitcoin. This material should not be considered as guidance or an opinion, as it does not constitute financial or investment advice. Use this information at your own risk; we are not liable for any losses or damages caused by the republication of&nbsp;this&nbsp;article.</em><br /><br /><strong>--BERNAMA</strong><br /><br />
+                            </div>
+
+                        </div>
+                        <!-- From -->
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Flow Socail -->
+                        <!-- <div class="single-follow mb-45">
+                            <div class="single-box">
+                                <div class="follow-us d-flex align-items-center">
+                                    <div class="follow-social">
+                                        <a href="#"><img src="assets/img/news/icon-fb.png" alt=""></a>
+                                    </div>
+                                    <div class="follow-count">
+                                        <span>8,045</span>
+                                        <p>Fans</p>
+                                    </div>
+                                </div>
+                                <div class="follow-us d-flex align-items-center">
+                                    <div class="follow-social">
+                                        <a href="#"><img src="assets/img/news/icon-tw.png" alt=""></a>
+                                    </div>
+                                    <div class="follow-count">
+                                        <span>8,045</span>
+                                        <p>Fans</p>
+                                    </div>
+                                </div>
+                                <div class="follow-us d-flex align-items-center">
+                                    <div class="follow-social">
+                                        <a href="#"><img src="assets/img/news/icon-ins.png" alt=""></a>
+                                    </div>
+                                    <div class="follow-count">
+                                        <span>8,045</span>
+                                        <p>Fans</p>
+                                    </div>
+                                </div>
+                                <div class="follow-us d-flex align-items-center">
+                                    <div class="follow-social">
+                                        <a href="#"><img src="assets/img/news/icon-yo.png" alt=""></a>
+                                    </div>
+                                    <div class="follow-count">
+                                        <span>8,045</span>
+                                        <p>Fans</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- New Poster -->
+                        <div class="news-poster d-none d-lg-block">
+                            <a href="https://myasean2025.my/" target="_blank"><img src="assets/img/gallery/MyASEAN2025-Logo-Color-ENG.jpg" style="border-radius: 10px;"></a>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About US End -->
+    </main>
+    <style>
+    [class^="ti-"],
+    [class*=" ti-"] {
+        font-family: 'themify';
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 2;
+
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .footer-pera,
+    .footer-pera p,
+    .footer-copy-right p,
+    .footer-tittle h4 {
+        font-family: 'Poppins', sans-serif !important;
+    }
+</style>
+
+<footer>
+    <!-- Footer Start-->
+    <div class="footer-main footer-bg">
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-8">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <!-- logo -->
+                                <div class="footer-logo">
+                                    <a href="index.php"><img src="assets/img/logo/mrem.gif" alt=""></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p class="info1">BERNAMA Media Relations and Event Management (MREM) service is your best medium to reach your desired audience through the print and electronic media, including cable-television and on-line news portals.</p>
+                                        <p class="info2">Tel: +603-2631 1021 [General Line]
+                                            <br> Email: mrem[at]bernama.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Reach Us</h4>
+                            </div>
+                            <!-- Popular post -->
+                            <div class="footer-pera">
+                                <p class="info1">Malaysian National News Agency
+                                    <br>5th Floor, Wisma BERNAMA
+                                    <br>No.28 Jalan BERNAMA
+                                    <br>Off Jalan Tun Razak
+                                    <br>50400 Kuala Lumpur
+                                    <br>Malaysia
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Follow Us</h4>
+                            </div>
+                            <p>
+                                <a href="https://www.facebook.com/bernamaofficial" class="text-light text-decoration-none" target="_blank"><i class="fab fa-facebook fa-2x px-1"></i></a>
+                                <a href="https://twitter.com/bernamadotcom" class="text-light text-decoration-none" target="_blank"><i class="fab fa-twitter fa-2x px-1"></i></a>
+                                <a href="https://www.instagram.com/bernamaofficial/" class="text-light text-decoration-none" target="_blank"><i class="fab fa-instagram fa-2x px-1"></i></a>
+                                <a href="https://www.youtube.com/channel/UCSNmIInJrvJlCI6OempnYrg" class="text-light text-decoration-none" target="_blank"><i class="fab fa-youtube fa-2x px-1"></i></a>
+                                <a href="rss.php" class="text-light text-decoration-none" target="_blank"><i class="fas fa-rss fa-2x px-1"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer-bottom aera -->
+        <div class="footer-bottom-area footer-bg">
+            <div class="container">
+                <div class="footer-border">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-xl-12 ">
+                            <div class="footer-copy-right text-center">
+                                <p class="m-0 text-center text-white">Copyright &copy;2026. Powered By TMK.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End-->
+</footer>
+<!-- Search model Begin -->
+<div class="search-model-box">
+    <div class="d-flex align-items-center h-100 justify-content-center">
+        <div class="search-close-btn">+</div>
+        <form class="search-model-form">
+            <input type="text" id="search-input" placeholder="Searching key.....">
+        </form>
+    </div>
+</div>
+<!-- Search model end -->
+
+<!-- JS here -->
+
+<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<!-- Jquery, Popper, Bootstrap -->
+<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<!-- Jquery Mobile Menu -->
+<script src="./assets/js/jquery.slicknav.min.js"></script>
+
+<!-- Jquery Slick , Owl-Carousel Plugins -->
+<script src="./assets/js/owl.carousel.min.js"></script>
+<script src="./assets/js/slick.min.js"></script>
+<!-- Date Picker -->
+<script src="./assets/js/gijgo.min.js"></script>
+<!-- One Page, Animated-HeadLin -->
+<script src="./assets/js/wow.min.js"></script>
+<script src="./assets/js/animated.headline.js"></script>
+<script src="./assets/js/jquery.magnific-popup.js"></script>
+
+<!-- Scrollup, nice-select, sticky -->
+<script src="assets/js/jquery.scrollUp.min.js"></script>
+<script src="assets/js/jquery.nice-select.min.js"></script>
+<script src="assets/js/jquery.sticky.js"></script>
+
+<!-- contact js -->
+<script src="./assets/js/contact.js"></script>
+<script src="./assets/js/jquery.form.js"></script>
+<script src="./assets/js/jquery.validate.min.js"></script>
+<script src="./assets/js/mail-script.js"></script>
+<script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+<!-- Jquery Plugins, main Jquery -->
+<script src="./assets/js/plugins.js"></script>
+<script src="./assets/js/main.js"></script></body>
+
+</html>

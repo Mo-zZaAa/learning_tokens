@@ -1,0 +1,27 @@
+﻿기준일,상품,잔액_억달러,지표,출처,신뢰도,비고
+2024-01-23,USDY,0.71,TVL,S-chaincatcher,mid,
+2024-01,전체,2.25,회사 발표 운용자산과 예치,OV,high,이상
+2024-03-05,OUSG,1.65,시가총액,S-defiant-2024,mid,
+2024-03-05,USDY,2.01,시가총액,S-defiant-2024,mid,
+2024-10,USDY,4.0,회사 발표 예치,OV,high,이상
+2025-03,OUSG,4.0,TVL,S-bytetree,mid,이상
+2025-03,USDY,5.91,TVL,S-bytetree,mid,이상
+2025-05,USDY,6.3,회사 발표 예치,OV,high,이상
+2025-07,전체,14.0,회사 발표 토큰 상품 운용자산,OV,high,이상
+2025-07,USDY,6.91,AUM,S-tokenisedetfs,low,
+2025-11,OUSG,7.8,회사 발표 예치,OV,high,이상
+2025-11,Ondo Stocks,5.0,TVL,S-gm-yahoo,mid,"이상, 200종 이상"
+2025-12,Ondo Stocks,3.7,회사 발표 예치(첫해 말),OV,high,
+2026-01-초,Ondo Stocks,4.13,rwa.xyz 발행 잔액,on-0154,high,1위 51.59%
+2026-03,USDY,12.1,AUM,S-tokenisedetfs,low,
+2026-05,Ondo Stocks,10.0,회사 발표 예치,OV,high,
+2026-08-14,USDY,21.5,총자산가치,S-coinpaprika,low,회사 자료 인용
+2026-08,Ondo Stocks,10.1,잔액,S-coinpaprika,low,
+2026-08,OUSG,3.67,잔액,S-coinpaprika,low,
+2026-11-13,USDY,19.7,발행 잔액(기초자산 24.2억),on-0335,high,
+2026-11-13,OUSG,3.13,총자산,on-0331,high,
+2026-11-16,Ondo Stocks,8.99,rwa.xyz 발행 잔액,on-0272,high,2위 24.23%
+2026-11-17,USDY,23.8,회사 홈페이지 표시,OV,high,
+2026-11-17,Ondo Stocks,14.4,회사 홈페이지 표시,OV,high,
+2026-11-17,OUSG,3.1,회사 홈페이지 표시,OV,high,
+2026-11-17,전체,41.0,회사 홈페이지 표시 합계,OV,high,약

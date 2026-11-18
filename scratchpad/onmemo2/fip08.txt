@@ -1,0 +1,44 @@
+The Ondo Foundation is excited to announce a significant milestone in our journey: the proposed release of the ONDO token lock-up. This marks a pivotal moment, aligning our community toward a future of open, transparent, and efficient global finance.
+Following the overwhelmingly positive response to
+this tweet and blog post
+, we now seek to move this proposal toward an onchain vote via Tally.
+ONDO Distribution
+ONDO tokens all remain subject to a lock-up (the “Global Lock-Up”) where the release of that lock-up must be agreed upon by a majority of ONDO holders. The Ondo Foundation proposes a release of the Global Lock-Up as described below. This proposal is focused on long-term alignment for core contributors, strategic investors, and ecosystem participants.
+Overview:
+Token Symbol: ONDO
+Max Supply: 10,000,000,000
+Initial Circulating Supply: 1,426,647,567 (~14.3%)
+Vesting: More than 85% of the ONDO tokens would be initially locked and locked tokens would unlock 12, 24, 36, 48, and 60 months after the initial token unlock.
+Investors and Team: Private sale investors (excludes CoinList purchasers) and core contributors would all remain locked up for at least 12 months with a subsequent release over the following four years (five years total).
+Immediate Unlock for CoinList Purchasers: Participants in the Community Access Sale (facilitated by CoinList in May 2022) would be released entirely from the Global Lock-Up, with their tokens therefore representing a substantial portion of the initial circulating supply.
+The ONDO tokens are allocated across the following main categories:
+Community Access Sale: 198,884,411 (~2.0%)
+Ecosystem Growth: 5,210,869,545 (~52.1%)
+Protocol Development: 3,300,000 (33.0%)
+Private Sales: 1,290,246,044 (~12.9%)
+ONDO Unlock Schedule
+1182×579 53.6 KB
+This proposal describes an unlock schedule relative to a to-be-determined date when the tokens first become transferable (the “Public Launch”). For example, “M2” refers to two months from the Public Launch. In this proposal, the Ondo Foundation would be responsible for choosing the exact Public Launch date, and it is expected that the Ondo Foundation will choose a Public Launch date to occur before March 31, 2024, or otherwise it will require additional approval from the ONDO holders.
+Community Access Sale
+ONDO tokens were sold in a “Community Access Sale” to over 18,000 early community members, facilitated on the CoinList platform. Many of the sale participants were early users and advocates of the Ondo DAO. In our proposal, Community Access Sale participants would have their ONDO tokens released entirely from the Global Lock-Up on the Public Launch.
+A small number of ONDO tokens would still be subject to lock-ups that would be released over the subsequent ~12 months, in accordance with the CoinList sale terms and conditions. If the Public Launch was to occur in January of 2024, then approximately 90% (179M) of the 199M ONDO tokens would be freely transferable at the Public Launch (including all tokens sold at $0.055 per token). The remaining tokens (20M) would be released over the following 12 months. The exact number of ONDO tokens circulating during the Public Launch depends on the exact date of the Public Launch.
+ONDO Community Access Sale Unlock Schedule
+1182×579 23.5 KB
+Ecosystem Growth
+52.1% — 5,210,869,545 ONDO
+The “Ecosystem Growth” allocation is a strategic portion of tokens set aside for growth incentives such as airdrops and for contributors to the Ondo ecosystem, including developers, educators, researchers, and strategic contributors.
+24% (1.25B) of the 5.2B ONDO tokens would be unlocked at the Public Launch. The remaining tokens (3.96B) would be subject to the unlock schedule shown below.
+ONDO Ecosystem Growth Unlock Schedule
+1182×579 19.4 KB
+Protocol Development
+33.0% — 3,300,000,000 ONDO
+This portion of the token supply has been allocated to core contributors focused on building infrastructure, products, and protocols to expand the Ondo ecosystem, such as Ondo Finance.
+All of the 3.3B ONDO tokens would be locked for at least 12 months following the Public Launch and subject to the unlock schedule shown below.
+ONDO Protocol Development Unlock Schedule
+1182×579 23.1 KB
+Private Sales
+12.9% — 1,290,246,044 ONDO
+This category represents two historical funding rounds to strategic contributors who invested in Ondo Finance equity rounds. Please note that these funding rounds closed and the allocation has been finalized.
+All of the 1.29B ONDO tokens would be locked for at least 12 months following the Public Launch and subject to the unlock schedule shown below.
+ONDO Private Sales Unlock Schedule
+1182×579 23.5 KB

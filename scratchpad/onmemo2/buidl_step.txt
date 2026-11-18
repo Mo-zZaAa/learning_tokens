@@ -1,0 +1,222 @@
+Applicant information
+Name:
+Securitize Markets, LLC (as distributor of BlackRock USD Institutional Digital Liquidity Fund Ltd. (“BUIDL” or the “Fund”) and on behalf of Blackrock)
+Address (Headquarters):
+701 S Miami Ave, 5th FL, Miami, FL 33131
+Country:
+USA
+Website:
+https://id.securitize.io/primary-market
+Primary contact:
+Jonathan Espinosa, Director of Investments
+Email:
+jonathan.espinosa@securitize.io
+Telegram/X:
+@jon_a_espinosa
+Key Information
+1.	Expected Yield
+The current fund yield will closely track the overnight repo rate minus the fund annual fee of 0.50%. As of 4/24/2024, the current yield after all fees sits at ~4.87%. The yield will accrue to the holder of record every calendar day, as of 3:00 PM, and will be distributed monthly in-kind directly to the investor’s blockchain address on or about the 1st business day of the following month.
+2.	Expected Maturity
+The fund does not have a maturity date.
+3.	Underlying assets:
+The Fund will invest 100% of its total assets in cash, U.S. Treasury bills, notes or other obligations that mature in three months or less from the settlement of the purchase in both the primary and secondary markets. The Fund may invest in variable and floating rate instruments, and transact in securities on a when-issued, delayed delivery or forward commitment basis.
+The Fund will only purchase securities that present minimal credit risk as determined by the Investment Manager.
+The Fund may also invest in one or more government money market funds (“Underlying BlackRock Funds”) managed by the Investment Manager or an affiliate that invest in the same types of securities. For purposes of satisfying the Fund’s strategy of investing 100% of its total assets in cash and the other types of securities described above, investments in such underlying BlackRock Funds will be considered as if they are invested in cash and such securities.
+4.	Minimum/Maximum transaction size:
+USD $5M minimum first investment with $250k minimum follow-ons. The Fund does not have a maximum transaction size.
+5.	Current AUM for product
+The current AUM for the fund can be found
+here
+. $381,768,811.56 as of 5/2/2024.
+6.	Current AUM for issuer:
+BlackRock’s AUM: $10.5T as of Q1 2024
+7.	Volume of transactions LTM
+The volume of transactions (total transfers) for the fund can be found
+here
+. 95 as of 5/2/2024.
+8.	Source of first-loss capital
+N/A
+Basics and background
+1.	How will this investment improve Arbitrum’s RWA ecosystem?
+Securitize is committed to developing solutions in the digital assets space that help solve real problems, specifically by bringing digital asset securities to different markets for treasury management, portfolio diversification, and secured ecosystem utility.
+Securitize is the leader in tokenizing real-world assets, driving the compliant digitization of financial assets through the blockchain. And now, in partnership with BlackRock - one of the world’s largest asset managers, we have launched BUIDL - the BlackRock USD Institutional Digital Liquidity Fund.
+Arbitrum Foundation and Securitize have signed an integration agreement to deploy tokenized securities on Arbitrum.
+2.	Identify key management personnel and individual experience. Also include third parties utilized for managing assets and their qualifications.
+BlackRock Financial Management (BFM)
+, an SEC registered investment adviser, is responsible for the Fund’s investment activities.
+Securitize Markets, LLC
+is the non-exclusive placement agent for the private placement of the tokens by providing a distribution and sales channel for the tokens.
+Securitize, LLC (TA)
+, an SEC-registered transfer agent and technology service provider who will serve as the Fund’s transfer agent and service provider in creating and disbursing the tokens on the blockchain.
+Bank of New York Mellon
+will act as the administrator for the Fund and custodian for the Fund’s assets. As the administrator, BNYM will perform financial, accounting, corporate, administrative, and other services for the Fund. As the Fund Assets Custodian, BNYM will perform custodial services for cash and other non-crypto assets of the Fund delivered to it.
+The Fund’s board of directors has overall responsibility for the management, operation, and administration of the Fund. Each person’s bio is further detailed in the PPM.
+3.	Describe any previous work by the entity or its officers/key contributors similar to that requested. References are encouraged.
+Securitize is the leader in tokenizing real-world assets, driving the compliant digitization of financial assets through the blockchain. Securitize, or through its subsidiaries:
+●	is an SEC registered broker-dealer and member FINRA / SIPC
+●	operates a primary marketplace and an alternative trading system
+●	is a top 10 transfer agent
+●	has an exempt reporting adviser, and
+●	has partnered with several other well-known asset managers like KKR and Hamilton Lane to launch and support tokenized funds on various blockchains.
+BlackRock Financial Management, Inc., is the investment manager of the Fund, and has a long and storied history of successfully managing money for institutional clients, including corporate or public pension plans, and manages $10.5T in assets globally.
+4.	Has your entity or its officers/key contributors been subject to an enforcement action, criminal action, or defaulted on legal or financial obligations? Please describe the circumstances if so.
+No.
+5.	Describe any conflicts of interest for your entity and key personnel.
+Please refer to the “Conflicts of Interest” section of the fund offering memorandum.
+6.	Insurance coverages, guarantees, and backstops
+Securitize is covered by the following: E&O insurance, fidelity bond, umbrella policy, key person insurance. We can furnish more details upon request.
+7.	Historical tracking error in your proposed product, or similar to that being proposed
+Product launched in March 2024; no historical data past that. Currently, the yield has been in line with the objective of tracking the overnight repo rate.
+8.	Brief reason for above tracking error
+N/A
+9.	Please describe any experience your firm has in working with decentralized organizational structures.
+Securitize is the leader in tokenizing real-world assets, driving the compliant digitization of financial assets through the blockchain. As a top 10 transfer agent, Securitize has worked with a considerable list of crypto-native firms, notably working through what KYC processes and requirements look like for DAOs. This has given Securitize insight into various strategies for onboarding decentralized organizational structures to be approved for investing in tokenized securities. While we cannot advise on legal structures for entities, we have seen others onboard via US corporations, non-US corporations, trusts, and other legal entity structures.
+Securitize is also integrated with several additional networks, including Polygon, Avalanche, and XDC, to issue products on these chains.
+10.   What is your entity’s current assets under management, assets held in trust, total value locked, or equivalent metric for your legal structuring?
+As of 31 March 2024, BlackRock has been entrusted to manage $10.5 trillion across equity, fixed income, alternatives, multi-asset, and cash management strategies for institutional and retail clients. BlackRock collectively supports millions of people around the world by working alongside institutions and financial advisors as they contribute to the financial well-being of those who depend on them. BlackRock’s cash management AUM is ~$800B amongst all BlackRock money market funds. The BVI entity for BUIDL has ~$381M (see current AUM) in TVL.
+11.   How many of these assets held are present on Arbitrum One, if any?
+None currently.
+Plan design
+1.	Please describe your proposed product, including a description of the underlying assets and, if more than one asset, the proposed allocation among assets and general investment guidelines. Where appropriate, include targeted maturity mix and credit quality. Attach supplementary documents as appropriate.
+BlackRock USD Institutional Digital Liquidity Fund Ltd. (the “Fund”) is a limited company incorporated under the laws of the British Virgin Islands on 18 September 2023, to operate as a professional fund. BUIDL is only available to investors that meet the criteria outlined in the Private Placement Memorandum. Investors must undergo several suitability checks, including AML, KYC, and sanctions checks.
+The investment objective of the Fund is to seek current income as is consistent with liquidity and stability of principal. The Fund will only accept certain approved investors, subject to strict AML and KYC/B compliance requirements. Investors can subscribe to the Fund via USD and redeem daily via USD or USDC.
+The Fund will invest 100% of its total assets in cash, U.S. Treasury bills, notes and other obligations issued or guaranteed as to principal and interest by the U.S. Treasury, and repurchase agreements secured by such obligations or cash. The Fund will invest, in both the primary and secondary markets, in U.S. Treasury bills, notes or other obligations that mature in three months or less from the settlement of the purchase. The Fund may invest in variable and floating rate instruments, and transact in securities on a when-issued, delayed delivery or forward commitment basis. The Fund will only purchase securities that present minimal credit risk as determined by the Investment Manager.
+The Fund may also invest in one or more government money market funds managed by the Investment Manager or an affiliate thereof that invest in the same types of securities in which the Fund may invest directly. For purposes of satisfying the Fund’s strategy of investing 100% of its total assets in cash and the other types of securities described above, investments in such Underlying BlackRock Funds will be considered as if they are invested in cash and such securities.
+Detailed holdings are available upon request for BUIDL holders.
+2.	Do investors have any shareholder, investor, creditor or similar rights?
+BUIDL will offer investors non-voting, participating Class A Shares, having no par value, issued in the form of digital tokens.
+3.	Describe the legal and contractual structuring for your product including regulatory bodies overseeing your business and the product and identifying all legal jurisdictions interacting with your product. Attach supplementary documents as appropriate.
+Legal:
+The Fund is a limited company incorporated under the laws of the British Virgin Islands on 18 September 2023, to operate as a professional fund. The Fund is a “professional fund” within the meaning of the Securities and Investment Business Act, 2010 (“SIBA”) and accordingly Shares in the Fund are only being offered to and will only be issued to “professional investors” within the meaning of SIBA.
+The Articles are governed by the laws of the British Virgin Islands. The Subscription Documents relating to the Fund are governed by the laws of the state of Delaware. The Subscription Documents provide for disputes to be determined by the courts of the Supreme Court, State of New York, New York County and of the US District Court for the Southern District of New York.
+US Regulatory: The Fund is not registered as an investment company and, therefore, is not required to adhere to certain investment policies under the Company Act in reliance on the exemption provided in Section 3(c)(7) of the Company Act with respect to offers made to U.S. persons. As part of the Fund’s responsibility for the prevention of money laundering, the Fund may require a detailed verification of a Shareholder’s identity, the identity of any beneficial owner underlying an investment in the Fund and the source of payment of such investment.
+Contractual:
+There are three primary legal documents associated with investing in BUIDL:
+The Master Subscription Agreement (“MSA”) (signature required)
+Fund Subscription Agreement (“FSA”) (signature required)
+Private Placement Memorandum (“PPM”) (for reference only)
+Both the MSA and FSA require investor signature prior to investing; the PPM does not.
+The MSA and FSA are binding agreements. They request information and representations from the investor to determine eligibility for investing in the Fund. They also outline the terms of the Fund that the investor must accept in order to invest. These documents need to be signed by legal signers or authorized representatives of the legal entity/Foundation/DAO (likely multiple individuals). Each legal signer must create a securitizeID account.
+The PPM outlines detailed information about the Fund such as the investment objective, structure, legal considerations, risks, and other important information to consider before investing.
+4.	Would Arbitrum’s assets be bankruptcy remote from your own entity and its officers/key contributors? If so, please explain the legal and contractual basis. On a confidential, non-reliance basis, provide any third party legal opinions to support the conclusions.
+Yes. The transfer agent issues securities at the direction of the issuer and does not own or custody the assets. Should Securitize enter bankruptcy, the role of transfer agent could be transitioned to another provider who could redeem shares with the fund. The fund could also decide to close and return funds to shareholders if a successor transfer agent could not be engaged.
+5.	How are Arbitrum’s assets protected vis-à-vis the bankruptcy of the brokerage or applicable financial institution (e.g., bank deposit insurance, securities insurance, etc.)?
+The custodial relationship of the fund with BNY Mellon is covered under the U.S. Securities Investor Protection Act.
+6.	Does the Issuer issue more than one asset? If so, what is the priority relationship between different asset classes?
+The Fund issues only BUIDL tokens.
+7.	Provide a detailed cash flow diagram that shows the flow of funds from ARB/Fiat conversion, investment in underlying asset, payment of expenses, sale of underlying asset, and repayment (Fiat/ARB conversion), including the counterparties and legal jurisdictions involved.
+The BUIDL Fund currently accepts USD for subscription and can be redeemed directly for USD.  Additionally, BUIDL shareholders may also be able to directly sell their shares on the secondary market to Circle in exchange for USDC (more detail below).
+The Fund currently cannot accept ARB tokens for subscription, or utilize ARB in the existing secondary market transaction flow; therefore, the investor must manage any conversion of ARB → USD before the subscription flow or conversion from USD/USDC → ARB after exit from the Fund.
+USD Subscription:
+For subscription into BUIDL, the investor must first complete onboarding with Securitize.  This includes all KYC/B requirements for approval into the fund. Once approved, the investor will sign the BUIDL subscription agreement and will be provided with USD funding instructions via the Securitize platform UI.  Upon receipt of funds, tokens will be minted to the wallet address provided during the subscription process.  Funds must be received prior to the daily cutoff time (2:30 PM ET each business day) in order to be minted the same day.  Newly minted tokens will have a 24-hour lock-up period.
+image
+935×566 40.6 KB
+USD Redemption:
+Investors may redeem directly with the Fund to receive USD via wire transfer to the bank account stored on the records of the Transfer Agent.  Redemptions are initiated by sending tokens to the redemption wallet, which can be facilitated through the Securitize platform UI or by directly sending tokens to the redemption wallet.  Tokens must be received into the records of the Transfer Agent by the cutoff time (3:00 PM ET each business day) for same day processing of the wire payment.  Redemptions received after the cutoff time will be paid during the next operating day of the fund.
+image
+975×702 45.9 KB
+Sale for USDC via Secondary Market
+BUIDL shareholders may also engage directly with Circle in a secondary market transaction to transfer their BUIDL position to Circle in exchange for USDC, in which a smart contract that facilitates a 1:1 atomic swap of BUIDL for USDC. This secondary market is available 24/7/365, but is at the discretion of Circle and is not guaranteed… Transactions can be facilitated through the Securitize platform UI, or by directly interacting with smart contracts. The smart contract facilitates the exchange by sending USDC to the sending address of the BUIDL.
+*
+Note: the ability to directly sell for USDC via Circle is not guaranteed and subject to change.
+image
+951×581 44.3 KB
+8.	Describe anticipated tax consequences (if any) in transacting on the underlying and/or receipt of yield.
+U.S. investors who are not “exempt recipients” will receive Form 1099s. “Exempt recipients” generally include corporations, governments, and tax-exempt entities. U.S. taxable investors will also receive PFIC statements.
+There can be no assurance that the U.S. or British Virgin Islands tax laws, or revenue authority practice, will not be changed adversely with respect to the Fund and its Shareholders or that the Fund’s income tax status will not be successfully challenged by such authorities.
+Potential Shareholders should consult their own advisors regarding tax treatment by the jurisdiction applicable to them. Shareholders should rely only upon advice received from their own tax advisors based upon their own individual circumstances and the laws applicable to them.
+9.	Describe the process and expected timeline for liquidation of assets, if given instructions to do so by Arbitrum governance.
+Generally, Shareholders will have the right to redeem all or any portion of their Shares on each Business Day in exchange for U.S. dollars as described below.
+Requests for USD redemptions must be received in good order by the Transfer Agent between 8:00 a.m. and 3:00 p.m. New York time on the applicable Redemption Date. In order for a redemption request to be treated as having been received in good order as of a Redemption Date, (i) the Shares to be redeemed must be moved to the Transfer Agent’s wallet on the blockchain and (ii) such transfer must be reflected on the Fund’s books and records, in each case by the applicable deadline. A Shareholder may also, but is not required to, submit a redemption request on the Transfer Agent’s website at
+Securitize
+with respect to any Shares to be redeemed. If such Shareholder does not actually submit such a redemption request, it will be deemed to have submitted a redemption request with respect to any Shares that it moves to the Transfer Agent’s wallet. The Transfer Agent will not consider Shares to have been moved to its wallet until after it determines that the transaction is “final.” The Transfer Agent will consider a transaction final only after (a) the transaction has been included in a block published to the blockchain and (b) a sufficient number of additional blocks have been added to the same chain as determined by the Transfer Agent. If a redemption request is not received in good order by the deadline on a Redemption Date, such amount will not be redeemed on such Redemption Date.
+BUIDL holders may also be able to engage in a direct sale of their BUIDL shares to Circle, in which a smart contract facilitates a 1:1 atomic swap of BUIDL for USDC. This secondary market is available 24/7/365 but is at the discretion of Circle and is not guaranteed.
+Except in the event of a full redemption, Shareholders may not redeem Shares unless the value of the Shares to be redeemed is at least $250,000.
+Shares will be redeemed at their NAV per Share (generally expected to be $1.00 per Share). Payment of redemption proceeds will generally be made on the applicable Redemption Date, provided that payment details have already been provided to the Transfer Agent. Redemption proceeds will only be paid to the account of record in the name of the Shareholder.
+10.   What amount of first-loss equity will Sponsor provide to ensure over-collateralization, how is the first-loss equity denominated, and what is the source of capital?
+All shares of the fund are the same, so there is no first-loss equity. All shares are impacted equally.
+11.   Describe the liquidity and stability of the proposed underlying assets, including anticipated settlement times from the sale of the underlying to the repayment of ARB.
+Liquidity and stability of underlying assets:
+The Fund invests 100% of its total assets in cash, U.S. Treasury bills, notes or other obligations that mature in three months or less from the settlement of the purchase in both the primary and secondary markets.
+U.S. Treasury bills are understood to be a stable investment, given their deep and liquid trading market and due to being backed by the U.S. government. This significantly limits the risk of default. More information about the underlying assets and current holdings are described in the plan design section above.
+Settlement:
+Because of the reliance on some traditional banking / fiat systems and processes, there are some time constraints to redemptions and settlement. Generally, Shareholders will have the right to redeem all or any portion of their Shares on each Business Day in exchange for U.S. dollars as described below.
+Investors may redeem directly with the Fund to receive USD via wire transfer. Redemptions will be paid via USD wire transfer to the bank account stored on the records of the Transfer Agent.  Redemptions are initiated by sending tokens to the redemption wallet, which can be facilitated through the Securitize platform UI or by directly sending tokens to the redemption wallet.  Tokens must be received into the records of the Transfer Agent by the cutoff time (3:00 PM ET) for same day processing of the wire payment.  Redemptions received after the cutoff time will be paid during the next operating day of the fund. More information about the detailed description of the redemption process can be found in the question above.
+Payment of redemption proceeds will generally be made on the applicable Redemption Date, provided that payment details have already been provided to the Transfer Agent. Redemption proceeds for Shares generally will be paid in U.S. dollars. Redemption proceeds will only be paid to the account of record in the name of the Shareholder.
+BUIDL holders may engage directly with Circle in a secondary market transaction to exit their BUIDL position, in which a smart contract facilitates a 1:1 atomic swap of BUIDL for USDC.  This secondary market is available 24/7/365 (at the sole discretion of Circle and is not guaranteed)and transactions can be facilitated through the Securitize platform UI, or by directly interacting with smart contracts. The smart contract facilitates the exchange by sending USDC to the sending address of the BUIDL tokens.
+12.   If relying on the blockchain for any of the transactional flows, please describe any blockchain derived risks and mitigations.
+Risks resulting from blockchain operations can include the investors’ risk of loss or accessibility to the asset. This can happen for a variety of reasons not limited to a private key being lost or compromised. The Transfer Agent can perform functions to return ownership of the lost asset to a new wallet. Any instance of security vulnerability or access loss should be reported to the Transfer Agent immediately for investigation and remediation. Typically, this would involve any necessary identity verification followed by procedures to burn the compromised tokens and re-issue (mint) to a new wallet address chosen by the investor.
+13.   Does the product rely on any derivative product (swaps, OTC agreements)?
+The fund does not invest in derivative products such as swaps or over-the-counter (OTC) agreements. Instead, it invests in cash, U.S. Treasury securities, and repurchase agreements secured by such obligations or cash. It also invests in government money market funds that adhere to similar investment criteria, emphasizing direct and straightforward investments rather than derivatives. (See “Underlying asset”).
+14.   List all the third-party counterparties linked to your assets including and not restricted to prime broker if any, custodian, reporting agent, banks for derivatives or loans and provide primary contact details for the third party counterparties
+BlackRock Financial Management (BFM)
+, an SEC registered investment adviser, is responsible for the Fund’s investment activities.
+Securitize, LLC
+, which is an SEC-registered transfer agent and technology service provider, serves as the Fund’s transfer agent and service provider in creating and disbursing digital asset securities on the blockchain representing the Shares. The Transfer Agent will also be responsible for investor onboarding, processing subscriptions, redemptions and transfers and maintaining the register of members, and will assist the Fund’s accountants with FATCA and CRS reporting, including but not limited to providing investor data, financial information, and other data required to perform the filings in accordance with the rules.
+The Bank of New York Mellon
+will serve as the administrator for the Fund, performing certain financial, accounting, corporate, administrative and other services for the Fund, subject to the overall supervision of the Board of Directors.
+The Bank of New York Mellon
+will serve as the Custodian for the Fund to perform custodial services with regard to cash and other assets of the Fund. The Fund’s assets will be held in one or more accounts in the name of the Fund. The Custodian may utilize subcustodians and depositories.
+PricewaterhouseCoopers LLP
+has been retained as the independent auditor of the Fund. Each Shareholder will receive a financial report of the Fund for each fiscal year audited by the Fund’s independent auditor.
+Any contact between the above service providers will be facilitated by the applicant primary contact.
+15.   Can you explain how is risk management (inv and operational) being done? Can you provide a copy of your risk management policy?
+Securitize is responsible for managing the operational and compliance risks. Securitize is a SOC 1 compliant organization and has gone through multiple audits to ensure appropriate operational and compliance risk management policies are in place and adhered to.
+Performance reporting
+1.	What are your proposed performance benchmarks? If this is substantially different from the underlying assets, please explain why.
+BUIDL performance benchmarks are no different from the underlying assets - the investment objective of the Fund is to seek current income as is consistent with liquidity and stability of principal.
+2.	Describe the content, format, preparation process, and cadence of performance reports. This should include proof of reserves, if appropriate. Please include a sample report.
+Each Shareholder will be able to obtain the NAV per Share and information regarding their transactions through the Transfer Agent’s platform. Holdings and accrued interest are displayed real time. Example shown below:
+image
+678×721 66.4 KB
+Additionally, each shareholder will receive a financial report of the Fund for each fiscal year audited by the Fund’s independent auditor.
+3.	Who provides the performance reports in respect of the underlying assets?
+Each Shareholder will receive a financial report of the Fund for each fiscal year audited by the Fund’s independent auditor. The Fund expects to provide such annual financial report within 120 calendar days after the end of each fiscal year of the Fund or as soon as reasonably practicable thereafter. All financial reports shall be prepared in accordance with U.S. generally accepted accounting principles unless otherwise deemed appropriate.
+In addition, each Shareholder will be able to obtain the NAV per Share and information regarding their transactions through the Transfer Agent’s web portal.
+4.	Describe any formal audit process and timing of such audits.
+PricewaterhouseCoopers LLP has been retained as the independent auditor of the Fund. Each Shareholder will receive a financial report of the Fund for each fiscal year audited by the Fund’s independent auditor.
+Pricing
+1.	Provide a copy of your standard contract, or one similar to what is being proposed here.
+Please see the MSA, FSA, and PPM shared privately (links will not be provided publicly)
+2.	Fee summary: Inclusive of the full scope of services requested.
+Shareholders will pay a “Unitary Fee” on their investment in the fund, calculated as 0.50% per year of the net asset value of the shares they hold. If the fund invests in any BlackRock-managed money market funds, the Unitary Fee will be decreased by the amount of any fees and expenses of these funds that the main fund bears.
+3.	Describe frequency of fee payment and its position vis-a-vis payment priority compared with other expenses (i.e., cash waterfall)
+The fee is taken from the fund’s net investment income that would otherwise be paid to the Shareholder. If the fund’s net income on any given day is less than the fee due, the fee will be reduced so that it does not exceed the day’s net income. This fee is calculated daily for each Shareholder.
+Any amount of the Unitary Fee that exceeds the fund’s monthly costs (such as organizational, offering, operational expenses, and any fees and expenses related to administration and custody, as well as any fund indemnification obligations) will be paid monthly to the investment manager as per the management agreement.
+Smart Contract/Architecture
+1.	How many audits have you had and name of auditors? Please provide a copy of reports.
+Securitize’s smart contracts have had periodical technical audits conducted over time. In the past, this was done by CoinFabril; however, our latest audit was performed by Certik. The most recent report can be shared upon request. Securitize is also a SOC1 compliant organization.
+The smart contract code for BUIDL has also been reviewed in detail by several partners as part of the launch, including one partner who has conducted an independent audit. Additionally, Halborn audited the USDC <> BUIDL swap smart contract.
+2.	Is the project permissioned? If so, how are you managing user identities? Any blacklisting/whitelisting features?
+The project is permissioned. Primary and Secondary trading are limited to whitelisted investors passing a KYC/AML onboarding process.
+Each person seeking to invest in the shares must be, among other things, (i) an “accredited investor” and (ii) either (x) a “qualified purchaser” or a “knowledgeable employee,” in each case as defined under applicable U.S. federal securities laws or (y) a non-U.S. person that is outside of the United States at the time it acquires Shares.
+Each prospective Shareholder will be required to agree that no shares, nor any interest therein, will be transferred (other than to a Whitelisted Account) without the prior written consent of the Board of Directors.
+The Transfer Agent operates a “whitelist” comprising investors or prospective investors who are allowed to subscribe for or acquire shares from Shareholders without needing further suitability checks or anti-money laundering verifications. Transfers between these accounts are generally allowed at any time, even when the Fund isn’t accepting new subscriptions or redemptions, providing flexibility within a controlled environment.
+The Transfer Agent controls the permissions for whitelisting through operations that require the usage of keys that are managed via multi-permission processes using Fireblocks. More about the technical details for the identity management and whitelisting mechanisms can be found
+here
+.
+3.	Is the product present on several chains? Are there any cross chain interactions?
+BUIDL is currently solely deployed on the public Ethereum blockchain
+4.	Are the RWA tokens being used in any other protocols? Please describe the various components of the ecosystem
+At the moment, BUIDL tokens are not being used in any other protocols.
+5.	How are trusted roles/admins managed in the system? Which aspects of the solution require trust from users?
+Securitize’s Trust Service component manages the permissioning for the contract. The roles involving certain permissions (MASTER for contract upgrades, ISSUER for daily issuances of tokens for new subscriptions, TRANSFER AGENT for transfer agent operations like burns or freezes) are handled via multipermissioned wallets using fireblocks infrastructure and are under the control of Securitize.
+A more in depth overview of trusted roles and admin management can be found
+here
+.
+6.	Is there any custom logic required for your RWA token? If so please give any details.
+BUIDL is ERC20 compatible, so no custom logic should be required.
+However, the token has extended functionality though Securitize’s DS protocol, which deviates from the ERC20 standard. The extended functionality enabled by this protocol can be found in this series of articles.
+Supplementary
+Please attach any further information or documents you feel would help the screening committee or ARB tokenholders make an informed decision.
+Public Docs
+a.
+Steakhouse Financial Report on BUIDL
+b.
+USDC Smart Contract Press Release
+c.
+FalconX BUIDL Press Release
+d.
+Dune Dashboard - BUIDL
+Private Docs
+a.	Data room - PPM, FAQs, pitch deck (will be provided privately)

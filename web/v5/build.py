@@ -277,6 +277,11 @@ def parse_card(slug, text, ids, layer="", mode="card", art=False):
         s["id"] = ids.make(f"{slug}-o-{s['code']}")
         if art and SELFTEST_RE.search(s["h"]):
             mark_answers(s["items"])
+        if mode == "grid":  # 1층 카드: 세부 줄 "질문 → 답"을 나눠 둠
+            for it in s["items"]:
+                if it["k"] == "li" and it.get("d", 0) >= 1 and " → " in it["t"]:
+                    q, a_ = it["t"].split(" → ", 1)
+                    it["qa2"] = [q.strip(), a_.strip()]
     return {"title": title, "intro": intro, "secs": secs}
 
 

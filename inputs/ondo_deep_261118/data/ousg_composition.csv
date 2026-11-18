@@ -1,0 +1,15 @@
+﻿기준일,구성,비중_pct,상태,출처,신뢰도
+2023-01,BlackRock iShares 단기 국채 ETF(SHV) 중심,,주력,S-ousg-eco,mid
+2024-08,BlackRock BUIDL,,대부분 이전,on-0333,high
+2025-09,"BUIDL, Fidelity FDIT, Franklin BENJI, WisdomTree WTGXX, Wellington/FundBridge ULTRA",,편입 목록(비중 없음),S-fdit-marketsmedia,mid
+2026-05,BUIDL,18,1억 50만 달러,S-ousg-longform,low
+2026-11-13,SWEEP,48.57,,on-0331,high
+2026-11-13,BUIDL,32.69,,on-0331,high
+2026-11-13,BENJI,10.13,,on-0331,high
+2026-11-13,FYOXX,7.56,,on-0331,high
+2026-11-13,USDC,0.99,,on-0331,high
+2026-11-18,SWEEP,48.58,,S-ousg-page,high
+2026-11-18,BUIDL,32.69,,S-ousg-page,high
+2026-11-18,BENJI,10.12,,S-ousg-page,high
+2026-11-18,FYOXX,7.54,,S-ousg-page,high
+2026-11-18,USDC,1.14,Coinbase 보관,S-ousg-page,high
