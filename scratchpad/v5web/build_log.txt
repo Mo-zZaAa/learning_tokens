@@ -1,0 +1,10 @@
+web/v5/index.html 3288 KB, 만든 시각 2026-11-18 00:40
+메모 답 32줄(kb/memo_answers.csv)
+용어 843개(맞출 말 869개): kb/glossary_main.csv 71, kb/glossary_add/binance.csv 94, kb/glossary_add/coinbase.csv 103, kb/glossary_add/dinari.csv 87, kb/glossary_add/kraken.csv 73, kb/glossary_add/ondo.csv 130, kb/glossary_add/robinhood.csv 106, db/terms.csv 179
+- kraken: 개요 L1 cards6/kraken.md / L2 easy/kraken.md / L3 cards/kraken.md+pm_q2/kraken.md | 사건 53, 구조 표 8, 사실 547, 원본 232 | raw 준비 중: gaps_add
+- binance: 개요 L1 cards6/binance.md / L2 easy/binance.md / L3 cards/binance.md+pm_q2/binance.md | 사건 46, 구조 표 7, 사실 229, 원본 101
+- coinbase: 개요 L1 cards6/coinbase.md / L2 easy/coinbase.md / L3 cards/coinbase.md+pm_q2/coinbase.md | 사건 53, 구조 표 8, 사실 356, 원본 109 | raw 준비 중: qs
+- robinhood: 개요 L1 cards6/robinhood.md / L2 easy/robinhood.md / L3 cards/robinhood.md+pm_q2/robinhood.md | 사건 46, 구조 표 7, 사실 321, 원본 122 | raw 준비 중: qs
+- dinari: 개요 L1 cards6/dinari.md / L2 easy/dinari.md / L3 cards/dinari.md+pm_q2/dinari.md | 사건 31, 구조 표 7, 사실 232, 원본 114 | raw 준비 중: qs
+- ondo: 개요 L1 cards6/ondo.md / L2 easy/ondo.md / L3 cards/ondo.md+pm_q2/ondo.md | 사건 40, 구조 표 7, 사실 321, 원본 136 | raw 준비 중: qs
+- common: 개요 L1 cards6/common.md / L2 easy/00_기초.md / L3 cards/common.md+pm_q2/00_공통.md+pm_q2/추가조사_261118.md

@@ -159,6 +159,7 @@ strong.warn{color:var(--warn)}
 .ha>.mb,.ha>td>.mb{opacity:1;color:var(--ok)}
 .abadge{border:0;border-radius:999px;background:var(--ok);color:var(--panel);font-size:11px;font-weight:700;line-height:1;padding:3px 7px;margin-left:6px;vertical-align:2px;cursor:pointer}
 .abadge::after{content:"답"}
+.abadge[data-n]::after{content:"답 " attr(data-n)}
 .mans{border-left:3px solid var(--ok);background:var(--ok-soft);border-radius:0 8px 8px 0;padding:6px 10px;display:grid;gap:4px;font-size:13.5px}
 .mans .mah{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted)}
 .mans p{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;color:var(--ink)}
@@ -325,7 +326,7 @@ button.primary{background:var(--memo);border-color:var(--memo);color:var(--on-me
   .brand{display:none}
   .cos{order:1;flex:1 1 100%;overflow-x:auto;scrollbar-width:none;padding-bottom:1px}
   .cos::-webkit-scrollbar{display:none}
-  .seg{order:2}.search{order:3;flex-basis:120px}.memobtn{order:4}
+  .seg{order:2}.search{order:3;flex-basis:70px}.memobtn{order:4;gap:4px}
   .seg button{padding:4px 10px}
   .memobtn{padding:5px 8px}
   .pagehead h1{font-size:24px}
@@ -880,21 +881,23 @@ function updateCount(){
   const ac = $('#acount'); ac.hidden = !ANS_N; ac.textContent = '답 ' + ANS_N;
 }
 function secEl(sec){ return sec ? $$('[data-sec]', MAIN).find(e => e.dataset.sec === sec) : null; }
-function addBadge(el, mid){
+function addBadge(el, mid, n){
   if (el.querySelector(`:scope .abadge[data-amid="${CSS.escape(mid)}"]`)) return;
   const host = el.tagName === 'TR' ? (el.querySelector('td .cv') || el.querySelector('td')) : (el.querySelector(':scope > .tx, :scope > dd, :scope > summary > h2, :scope > h2, :scope > h3') || el);
-  const b = document.createElement('button'); b.type = 'button'; b.className = 'abadge'; b.dataset.amid = mid; b.setAttribute('aria-label', '이 메모의 답 보기');
+  const b = document.createElement('button'); b.type = 'button'; b.className = 'abadge'; b.dataset.amid = mid; b.setAttribute('aria-label', n > 1 ? `이 칸 메모 답 ${n}건 보기` : '이 메모의 답 보기'); if (n > 1) b.dataset.n = n;
   host.appendChild(b);
 }
 function markMemos(){
   $$('.hm,.ha', MAIN).forEach(e => e.classList.remove('hm', 'ha'));
   $$('.abadge', MAIN).forEach(e => e.remove());
+  const bySec = new Map();
   for (const m of allMemos()){
     if (normCo(m.co) !== cur || VIEW_KEY[normView(m.view)] !== view) continue;
     const a = ANS[m.mid], el = m.anchor ? document.getElementById(m.anchor) : null;
     if (el){ el.classList.add(a ? 'ha' : 'hm'); if (a) addBadge(el, m.mid); }
-    else if (a){ const s = secEl(m.sec); if (s) addBadge(s, m.mid); }
+    else if (a){ const s = secEl(m.sec); if (s){ if (!bySec.has(s)) bySec.set(s, []); bySec.get(s).push(m.mid); } }
   }
+  bySec.forEach((mids, s) => addBadge(s, mids[0], mids.length));  // 줄을 모르는 답은 칸 머리에 하나로 모음
 }
 function lineText(ln){ return (ln ? ln.textContent : '').replace(/\s+/g, ' ').trim(); }  // 답 꼬리표는 글자가 없어 인용에 섞이지 않음
 function ctxFrom(el, quote){

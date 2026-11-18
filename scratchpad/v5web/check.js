@@ -43,6 +43,7 @@ const URL = 'file://' + path.resolve(__dirname, '../../web/v5/index.html');
 
   // raw
   log('raw 칸:', await page.$$eval('details.rsec h2', a => a.map(x => x.textContent)));
+  await page.evaluate(() => { document.querySelectorAll('[id$="-r-sec-ref"], [id$="-r-sec-ev"]').forEach(d => d.open = true); });
   const fref = await page.$('.ev .fids .ref');
   const fTxt = await fref.textContent(); await fref.click(); await page.waitForTimeout(600);
   const fOk = await page.evaluate(id => { const el = document.getElementById(location.hash.slice(1)); return el && el.closest('details').open && el.classList.contains('flash'); }, fTxt);
