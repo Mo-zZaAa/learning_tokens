@@ -1,0 +1,72 @@
+Ondo Finance Launches First-Ever Custodial Tokenized Securities in the U.S., Broadridge Partners to Integrate World Class Governance | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+Ondo Stocks • Jul 2, 2026 • 3 min
+Ondo Finance Launches First-Ever Custodial Tokenized Securities in the U.S., Broadridge Partners to Integrate World Class Governance
+Ondo Finance
+Official Blog
+The milestone marks the expansion of Ondo – the leader in tokenized securities by total value – into the U.S.
+For the first time, U.S. listed securities - BlackRock’s iShares Core S&P 500 (IVV) ETF and Micron (MU) shares – were tokenized by a third party on a public blockchain while staying within the existing U.S. regulatory and infrastructure framework
+Broadridge will enable holders of the tokenized securities to participate in proxy voting and receive regulatory disclosures, seamlessly providing token holders with the same protections and rights as holders of traditional securities
+Investors in securities tokenized by Ondo will have a common voting and shareholder communications platform and experience for synthetic and custodial tokenized securities leveraging Broadridge’s ProxyVote.com platform
+Ondo Finance today announced the first live solution of third-party tokenized U.S. securities operating entirely within the existing regulatory perimeter in the U.S., in partnership with
+Broadridge Financial Solutions Inc.
+, (NYSE: BR) to provide full voting rights for tokenized equity holders.
+In its January 2026
+statement
+on tokenized securities, the SEC described a custodial model in which a third party holds an issuer's securities and issues crypto assets representing a holder's entitlement to the underlying security. Ondo's launch of tokenized BlackRock iShares Core S&P 500 (IVV) ETF and Micron (MU) stock are the first production deployments of that model in the U.S.
+Under this model, which closely follows the SEC’s third-party custodial model, the underlying shares never leave the traditional U.S. regulated custody chain. Ondo’s registered transfer agent mints corresponding tokens, backed 1:1 by those shares, which are issued on the Ethereum blockchain and held by regulated custodians. Each token holder will receive the same shareholder rights and protections as shareholders holding through U.S. brokerage accounts receive, including issuer communications and onchain proxy voting through Broadridge’s ProxyVote.com platform. Transfer restrictions are enforced by the participating broker-dealer, transfer agent, and custodian in accordance with existing regulatory requirements and practices, maintaining full regulatory compliance.
+"Tokenized Securities in the U.S. are too often framed as a binary choice between competing models and tokenization providers. This is a false premise. Ondo has built the regulatory, product, and service infrastructure to support all major models within the United States. Today's milestone shows we can tokenize securities in ways that meet both market and regulatory requirements, for U.S. and global investors and provides a strong foundation for our expanding access to onchain investments for more U.S. investors," said Ian De Bode, CEO of Ondo Finance.
+Today’s announcement marks a major step forward for tokenized securities in the United States. Until now, tokenized securities have largely operated outside the U.S. or have required issuer sponsorship on an issuer-by-issuer basis. This model brings them inside the U.S. regulatory perimeter, with the underlying securities held in the same infrastructure that custodies U.S. securities today. This new structure shows how the benefits of tokenization can be attained while preserving the safeguards, recordkeeping, and market infrastructure that underpin U.S. capital markets.
+"Tokenization will only scale when it delivers both innovation and investor confidence," said Doug DeSchutter, President of Broadridge's Investor Communication Solutions business. "By enabling proxy voting, issuer communications, and regulatory disclosures for Ondo's token holders, we're living up to our promise to empower investors and issuers by providing them with the full range of trusted governance capabilities for tokenized securities regardless of how assets are structured."
+The launch is another milestone in realizing Broadridge’s strategy to enable the adoption of tokenized securities by ensuring that they are supported by governance capabilities with the highest standards for auditability, accountability, and investor protection and comply with U.S. regulatory guidelines. Broadridge supports all models of tokenized securities, including issuer-listed models, synthetic tokenized securities issued outside the United States, and now, third-party tokenized shares within the U.S. by ensuring that investors get the critical communications they need to exercise their voting rights and stay informed about their investments.
+Disclaimer: Oasis Pro TA, LLC, an SEC-registered transfer agent and indirect wholly owned subsidiary of Ondo Finance Inc., issues the tokenized security entitlements in the new model herein described. Such tokenization services are not a regulated activity of Oasis Pro TA, LLC
+Next
+Ondo Stocks
+•
+Jun 30, 2026
+Ondo Tokenized Stocks Are Live on Uniswap
+Ondo Stocks
+•
+Jun 25, 2026
+Ondo Launches First 24/7 Minting and Redemption for Tokenized Stocks
+Invest
+USDY
+OUSG
+Ondo Stocks
+Intelligent Portfolios
+Private Markets
+Infrastructure
+Ondo Network
+Bridge
+Converter
+Resources
+Insights
+Blog
+Learn
+Partners
+Ecosystem
+Foundation
+Flux Finance
+Explore
+Docs
+Trust & Security
+Bug Bounty
+Company
+Team
+Careers
+Media Kit
+Contact Us
+Media Inquiries
+Ondo ©
+2026
+Terms of Service
+Privacy Policy

@@ -1,0 +1,77 @@
+Building on BUIDL: How Ondo Leverages BlackRock’s Tokenized Treasuries | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+OUSG • Aug 28, 2024 • 3 min
+Building on BUIDL: How Ondo Leverages BlackRock’s Tokenized Treasuries
+Ondo Finance
+Official Blog
+When we initially launched our OUSG token in January of 2023, it was the first time that investors were able to gain exposure to US Treasuries onchain. While we were thrilled to be able to bring this offering to clients, we also knew that we eventually wanted to enable instant, 24/7, minting and redemption and start making good on the promise of blockchain technology to improve the client experience. While OUSG – and soon other tokenized US Treasury funds that followed – offered some 24/7 liquidity via secondary markets, creating deep liquidity was prohibitively expensive due to the high opportunity cost of maintaining large, idle, stablecoin reserves.
+We were thus delighted to see that, when BlackRock and Securitize launched BlackRock’s BUIDL token, they had also partnered with Circle to ensure deep, 24/7, liquidity between BUIDL and USDC: while the BUIDL fund itself can take up to a full business day to fulfill a redemption request, Circle agreed to initially allocate 100M USDC to buy BUIDL, at any time, from any investor wishing to sell – effectively providing instant liquidity to any investor that wanted it. This was made possible due to both the large amount of USDC that Circle already holds on its balance sheet and the fact that Circle earns yield from the assets underlying USDC’s reserves (implying no opportunity cost). This arrangement materially advanced the state-of-the-art in the security token landscape, creating a convenient and fluid bridge between stablecoins and exposure to quality real-world assets.
+Inspired by this advance, we decided to improve our own OUSG product, not only by migrating the vast majority of its reserves into BUIDL (thus allowing us to
+also
+offer instant, 24/7 stablecoin redemptions), but also to make further innovations -- instant minting, daily interest distributions, lower minimums, lower fees, and multi-chain support – that would appeal to a broader investor base:
+Instant Redemption
+and
+Subscription:
+Beyond the instant redemptions supported by Circle’s secondary market, OUSG also supports instant
+subscription
+via USDC. When instant USDC subscriptions are made, we instantly mint OUSG tokens to your wallet. The USDC investors send is then automatically routed to the fund’s Coinbase account; we then periodically convert this USDC balance into USD and sweep it into BUIDL, which requires a bank wire to subscribe to. (Note that OUSG also supports non-instant subscriptions and redemptions via bank wire.)
+Lower Minimums:
+Designed primarily for large institutional investors, BUIDL requires a minimum $5 million initial investment and has a minimum mint and redemption size of $250,000. OUSG, by contrast, has an initial investment requirement of only $100,000 and a minimum mint/redeem size of $5,000 thereafter. These lower initial and incremental investment amounts are possible because we accept subscriptions via stablecoin, allowing fully automated, incremental investments without manual intervention.
+Daily Interest Distribution:
+Ondo offers two forms of interest distribution: OUSG with an increasing redemption value and rOUSG, which maintains a constant $1 mint/redeem price and where the balance of rOUSG in investors’ wallets automatically increases (or “rebases”). BUIDL, by contrast, distributes interest monthly to investors via an airdrop of new tokens. The monthly distribution may pose issues for investors who wish to exit a position completely intra-month and for use cases like collateral pledging via smart contract where the smart contract may not know who to allocate interest to when it is distributed well after it is earned.
+Lower Fees:
+Ondo subsidizes fees to bring them down to a max of 35 bps, inclusive of fees paid to 3rd parties, saving investors at least 15 bps versus other offerings.
+More Chains:
+OUSG is available on Ethereum, Solana, and Polygon, providing more entry points for a global and crypto-adjacent user base.
+As mentioned at the outset, we remain excited to see BlackRock embracing securities tokenization with the launch of BUIDL, especially its broad cooperation with ecosystem participants like Securitize and Circle. Such innovation not only advances the state-of-the-art in RWA tokenization directly, it inspires others, like ourselves, to continue to push the boundaries forward!
+⚠️ NOTE: Ondo I LP, the issuer of OUSG, is not registered as an investment company under the US Investment Company Act of 1940, as amended. Nothing herein constitutes any offer to sell, or any solicitation of an offer to buy, OUSG. Acquiring OUSG involves risks. A OUSG holder may incur losses, including total loss of their investment. Past performance is not an indication of future results.
+Next
+USDY
+•
+Aug 27, 2024
+USDY Goes Live on Arbitrum: Bringing RWAs to DeFi
+USDY
+•
+Aug 26, 2024
+Celebrating One Year of USDY
+Invest
+USDY
+OUSG
+Ondo Stocks
+Intelligent Portfolios
+Private Markets
+Infrastructure
+Ondo Network
+Bridge
+Converter
+Resources
+Insights
+Blog
+Learn
+Partners
+Ecosystem
+Foundation
+Flux Finance
+Explore
+Docs
+Trust & Security
+Bug Bounty
+Company
+Team
+Careers
+Media Kit
+Contact Us
+Media Inquiries
+Ondo ©
+2026
+Terms of Service
+Privacy Policy

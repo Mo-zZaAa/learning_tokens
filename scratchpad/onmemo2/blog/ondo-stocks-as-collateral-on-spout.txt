@@ -1,0 +1,86 @@
+New Utility for Ondo Stocks on Solana | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+In this article
+How It Works
+Behind the Scenes
+What’s Next
+Ondo Stocks • Nov 12, 2026 • 2 min
+New Utility for Ondo Stocks on Solana
+Ondo Finance
+Official Blog
+Spout Finance
+will support Ondo Stocks as collateral on Solana when it launches on Solana, enabling users to borrow USDC against tokenized stocks and ETFs with no interest charged by Spout.
+Spout’s interest-free borrowing model will be made possible by a covered-call lending strategy, which leverages Alpaca’s Instant Tokenization Network (ITN) to
+convert Ondo Stocks to underlying shares
+and then sell covered calls against those shares in traditional options markets. Instead of interest payments from borrowers, the options premiums fund lender returns.
+While traditional brokers typically continue charging annual interest to borrow against stocks, Spout will let users borrow against Ondo Stocks interest-free. In exchange, borrowers give up gains above the option’s strike price when the call is sold..
+Spout Finance is part of Ondo Catalyst, a $250M initiative pursuing strategic investments to accelerate the Ondo ecosystem and transformation of capital markets. Ondo Catalyst backs projects building across the Ondo ecosystem, with a focus on next-generation technologies that drive utility, scalability, and adoption of tokenized assets.
+How It Works
+Borrowers will be able to deposit Ondo Stocks as collateral and borrow USDC worth up to 50% of their collateral’s value. For example, $10,000 of collateral supports a loan of up to $5,000. Instead of the loan accruing interest, Spout pools the underlying shares for each asset and sells covered calls against them in weekly cycles:
+If calls expire without being exercised:
+Borrowers give up no upside for that cycle.
+If calls are exercised:
+The affected shares are sold at the strike price and repurchased at the prevailing market price. This can leave borrowers with fewer tokens while their loan balance stays the same.
+The trade-off for interest-free USDC borrowing is giving up gains above the strike price when calls are sold. Borrowers must also maintain sufficient collateral if the value of their tokenized stocks declines or risk having it sold to repay their loan.
+Behind the Scenes
+Ondo previously introduced in-kind conversion between tokenized stocks and underlying shares through Alpaca’s ITN, adding a primary market route alongside cash-funded minting. Approved institutions will be able to transfer existing shares from their Alpaca account and receive corresponding Ondo Stocks tokens in return. Redemptions reverse the process, returning shares rather than cash.
+Spout will use the redemption side of in-kind conversions to support the covered-call strategy:
+Users deposit supported Ondo Stocks as collateral.
+Spout redeems the tokens for underlying shares held in its Alpaca brokerage account.
+Matching receipt tokens represent those shares within Spout’s onchain pools.
+Spout sells covered calls against the shares and uses the premiums, after fees, to pay lenders.
+Brokerage holdings and onchain records are reconciled before each options cycle proceeds.
+With Spout handling the institutional conversion process, borrowers can benefit from a more streamlined covered-call lending strategy.
+What’s Next
+Tokenization is bringing portfolio financing strategies associated with prime brokers and private banks to a global audience. Investors outside the U.S. will be able to access options-funded borrowing onchain without the large account minimums or private banking relationships traditionally associated with those services.
+Ondo Stocks are already deployed across the DeFi ecosystem as productive collateral. Spout will add options-funded borrowing to that growing range of uses.
+Next
+Ondo Stocks
+•
+Nov 10, 2026
+Ondo Bridge Adds Fidelity Center for Applied Technology (FCAT®) as a Required Verifier
+Announcement
+•
+Nov 4, 2026
+Wall Street’s Transfer Agent Rules Need an Onchain Upgrade
+Invest
+USDY
+OUSG
+Ondo Stocks
+Intelligent Portfolios
+Private Markets
+Infrastructure
+Ondo Network
+Bridge
+Converter
+Resources
+Insights
+Blog
+Learn
+Partners
+Ecosystem
+Foundation
+Flux Finance
+Explore
+Docs
+Trust & Security
+Bug Bounty
+Company
+Team
+Careers
+Media Kit
+Contact Us
+Media Inquiries
+Ondo ©
+2026
+Terms of Service
+Privacy Policy

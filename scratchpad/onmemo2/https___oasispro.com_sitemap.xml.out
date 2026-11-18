@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oasis Pro</title>
+  <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+
+  <!-- Bootstrap CSS -->
+  <link href="./styles/bootstrap/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+   <link rel="stylesheet" href="styles/style.css" /> 
+
+  <!-- Google tag (gtag.js) -->
+  <script async src='https://www.googletagmanager.com/gtag/js?id=G-D8W2SFPK7D'></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date()); gtag('config', 'G-D8W2SFPK7D');
+  </script>
+  <script>
+    function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") { var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value); elems["ts"] = JSON.stringify(new Date().getTime()); document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500);
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=renderGoogleInvisibleRecaptchaWithDelay&render=explicit"
+    async defer></script>
+
+  <script>
+    var submittedForm = localStorage.getItem('submittedForm')
+
+    window.addEventListener('DOMContentLoaded', function () {
+      if (submittedForm) {
+        var form = document.getElementById(submittedForm)
+        var newsletter = form.closest('.newsletter')
+        var newsletterInfo = newsletter.querySelector('.newsletter__info')
+
+        form.classList.add('newsletter__form--hidden')
+        newsletter.classList.add('newsletter--submitted')
+        newsletterInfo.classList.add('newsletter__info--visible')
+
+        localStorage.removeItem('submittedForm');
+      }
+    });
+
+    var renderGoogleInvisibleRecaptchaWithDelay = function () {
+      if (document.readyState === 'complete') {
+        setTimeout(() => {
+          renderGoogleInvisibleRecaptcha()
+        }, 3000)
+      }
+      else {
+        window.addEventListener('load', function () {
+          setTimeout(() => {
+            renderGoogleInvisibleRecaptcha()
+          }, 3000)
+        })
+      }
+    }
+
+    var renderGoogleInvisibleRecaptcha = function () {
+      for (var i = 0; i < forms.length; i++) {
+        var form = forms[i]
+        var holder = form.querySelector('.recaptcha-holder')
+        if (null === holder) {
+          continue
+        }
+
+        (function (frm) {
+          var holderId = grecaptcha.render(holder, {
+            'sitekey': '6LenAqoaAAAAAOQ-D-LiCtLdmB5vDHJxmEg8kTgB',
+            'size': 'invisible',
+            'badge': 'bottomright',
+            'callback': function (recaptchaToken) {
+              localStorage.setItem('submittedForm', frm.id)
+              HTMLFormElement.prototype.submit.call(frm);
+            }
+          });
+
+          frm.onsubmit = function (evt) {
+            evt.preventDefault();
+            grecaptcha.execute(holderId)
+          };
+        })(form);
+      }
+    }
+
+  </script>
+</head>
+
+<body>
+  <div class="body-bg">
+    <img src="./images/top-bg.png" />
+  </div>
+  <!--Header-->
+
+  <header>
+    <div class="custom-header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <a href="/" class="navbar-brand">
+            <img src="./images/logo-Black-oasis.svg" alt="Oasis Pro Market" height="36px" width="168px" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="header__menu">
+              <li class="header__menu-item dropdown-header">
+                <a href="#">Solutions</a>
+                <svg class="read-more__arrow" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M2.90859 6.09566L7.37598 10.5631L6.37201 11.567L0.900657 6.09566L6.37201 0.62431L7.37598 1.62827L2.90859 6.09566Z">
+                  </path>
+                </svg>
+                <ul class="dropdown-list">
+                  <li>
+                    <a href="https://oasispromarkets.com" target="_blank">
+                      <span class="title-link">Transact</span>
+                      <span class="des-link">Oasis Pro Markets</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.oasisprosto.com/" target="_blank">
+                      <span class="title-link">Digitize</span>
+                      <span class="des-link">Oasis Pro Tokenization</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.oasisprota.com/" target="_blank">
+                      <span class="title-link">Manage</span>
+                      <span class="des-link">Oasis Pro Transfer Agent</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.oasisproconnect.com/" target="_blank">
+                      <span class="title-link">Connect</span>
+                      <span class="des-link">Oasis Pro Connect</span>
+                    </a>
+                  </li>
+                  <!-- <li>
+                    <a href="https://oasislevant.com/" target="_blank">
+                      <span class="title-link">Interoperability</span>
+                      <span class="des-link">Oasis Pro Levant</span>
+                    </a>
+                  </li> -->
+                </ul>
+              </li>
+
+
+              <li class="header__menu-item ">
+                <a href="https://oasispromarkets.com/blog/">Insights
+                </a>
+              </li>
+              <li class="header__menu-item dropdown-header company-dropdown"><a href="#">International Businesses</a>
+                <svg class="read-more__arrow" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M2.90859 6.09566L7.37598 10.5631L6.37201 11.567L0.900657 6.09566L6.37201 0.62431L7.37598 1.62827L2.90859 6.09566Z">
+                  </path>
+                </svg>
+                <ul class="dropdown-list">
+                  <li><a href="https://forum.makerdao.com/t/tokenization-grand-prix-application-matterhorn-musf/25155">
+                      <span class="title-link">Matterhorn</span>
+                    </a></li>
+                  <li><a href="javascript:void(0)">
+                      <span class="title-link">Oasis Pro Labs Ltd</span>
+                    </a></li>
+                  <li><a href="javascript:void(0)">
+                      <span class="title-link">Oasis Pro Labs India</span>
+                    </a></li>
+                </ul>
+              </li>
+              <li class="header__menu-item dropdown-header company-dropdown"><a href="#">Company</a>
+                <svg class="read-more__arrow" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M2.90859 6.09566L7.37598 10.5631L6.37201 11.567L0.900657 6.09566L6.37201 0.62431L7.37598 1.62827L2.90859 6.09566Z">
+                  </path>
+                </svg>
+                <ul class="dropdown-list">
+                  <li><a href="/">
+                      <span class="title-link">About</span>
+                    </a></li>
+                  <li><a href="https://oasispromarkets.com/press-and-media/" target="_blank">
+                      <span class="title-link">Press & Media</span>
+                    </a></li>
+                  <li><a href="https://oasispromarkets.com/careers/" target="_blank">
+                      <span class="title-link">Careers</span>
+                    </a></li>
+                  <li><a href="https://oasispromarkets.com/team/" target="_blank">
+                      <span class="title-link">Team</span>
+                    </a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!--header end-->
+
+  <main>
+
+    <section class="hbS">
+      <div class="container-fluid">
+        <div class="container" style="margin-bottom: 50px;">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="mb-6" style="color: #6F43FF;">Capital Markets. Evolved.</h3>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 col-md-12">
+              <div class="banner-text">
+                <h1>Delivering powerful infrastructure for the emerging world of
+                  digital securities.<sup>1</sup>
+                </h1>
+                <div>
+                  <div id="hero-newsletter" class="newsletter">
+                    <form id='hero-form' action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+                      method="POST" class="newsletter__form">
+                      <input type=hidden name='captcha_settings'
+                        value='{"keyname":"subscribe_v2","fallback":"true","orgId":"00D4x000006rgC6","ts":""}'>
+                      <input type=hidden name="oid" value="00D4x000006rgC6">
+                      <input type=hidden name="retURL" value="https://www.oasispro.com/">
+                      <div class="newsletter__input-wrapper">
+                        <label class="newsletter__label" for="email">
+                          <input id="email" class="newsletter__input text-medium" name="email" type="email"
+                            placeholder="Email" required />
+                        </label>
+
+                        <button id="news-hero-btn" class="btn btn--newsletter" type="submit">Learn More</button>
+                        <div class="recaptcha-holder"></div>
+                      </div>
+                      <label class="newsletter__checkbox-wrapper">
+                        <div class="checkbox">
+                          <input id="news-check-hero" class="newsletter__checkbox" type="checkbox" required>
+                        </div>
+                        <span>
+                          I agree to the <a href="https://www.oasispromarkets.com/terms-of-service">Terms of Service</a>
+                          and <a href="https://www.oasispromarkets.com/privacy-policy">Privacy Policy</a>
+                        </span>
+                      </label>
+                    </form>
+                    <div id="hero-newsletter-info" class="newsletter__info">
+                      <img src="./images/marker-li-green.svg" alt class="newsletter__info-icon">
+                      <h4 class="newsletter__info-title text-large">Thank you for subscribing.</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="aboutS">
+      <div class="bg-spot">
+        <img src="./images/bg-spot.png" />
+      </div>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 ms-auto">
+              <h3>ABOUT</h3>
+              <p>
+                Oasis Pro brings an efficient, regulated approach to the
+                digital securities markets.<sup>1</sup> Our range of services
+                include:
+              </p>
+              <ul>
+                <li>
+                  A platform for new issuance and regulated ATS for secondary
+                  trading
+                </li>
+                <li>
+                  APIs that bring digital capabilities to traditional
+                  operations
+                </li>
+                <li>
+                  Tokenization services that bring issuers and investors
+                  next-gen, digital capabilities
+                </li>
+                <li>
+                  Transfer agent services to integrate traditional and digital
+                  operations seamlessly
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="clientS">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="mt-0 mb-50px">CLIENTS</h3>
+            </div>
+            <div class="col-lg-4">
+              <p>
+                Our scalable, flexible capabilities can stand alone or be
+                integrated into existing infrastructure to serve:
+              </p>
+            </div>
+            <div class="col-lg-6 ms-auto">
+              <ul class="icn-txt-list">
+                <li>
+                  <div class="d-flex gap-3 align-items-center">
+                    <div class>
+                      <img src="./images/issuer.svg" />
+                    </div>
+                    <div class>
+                      <p>Issuers</p>
+                      <p class="mb-0">Raise capital</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex gap-3 align-items-center">
+                    <div class>
+                      <img src="./images/investor.svg" />
+                    </div>
+                    <div class>
+                      <p>Investors</p>
+                      <p class="mb-0">Expand portfolio opportunities</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex gap-3 align-items-center">
+                    <div class>
+                      <img src="./images/paper.svg" />
+                    </div>
+                    <div class>
+                      <p>White-Label Partners</p>
+                      <p class="mb-0">Evolve digital capabilities</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="solutionS">
+      <div class="bg-spot">
+        <img src="./images/bg-spot.png" />
+      </div>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row mb-100px">
+            <div class="col-lg-6">
+              <h3 class="mb-50px mt-0 text-white">SOLUTIONS</h3>
+              <p class="mb-0 text-white">
+                Oasis Pro has built out a suite of supportive offerings to
+                serve client growth as the digital securities markets evolve,
+                bringing greater efficiency, transparency and liquidity to the
+                capital markets.<sup>1</sup>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-100px">
+              <div class="box-content">
+                <div>
+                  <h3 class="mt-0 mb-50px">Transact</h3>
+                  <p class="mb-50px">
+                    Oasis Pro Markets operates our multi-asset alternative
+                    trading system (ATS) for the primary issuance and
+                    secondary trading of public and private digital
+                    securities.<sup>1</sup> Using our ATS, issuers and
+                    subscribers can securely transact in a range of assets,
+                    making payment via fiat or digital currencies.
+                  </p>
+                </div>
+                <div>
+                  <a href="https://www.oasispromarkets.com/" class="btn-outline-main">LEARN MORE</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-100px">
+              <div class="box-content">
+                <div>
+                  <h3 class="mt-0 mb-50px">Digitize</h3>
+                  <p class="mb-50px">
+                    Oasis Pro Tokenization enables issuers to convert
+                    real-world assets into digital representations of the
+                    same. Built on modular architecture, the platform supports
+                    all tokenization features through UI and APIs and provides
+                    the ability to add support for more tokenization standards
+                    and blockchains, with a factory pattern for deploying new
+                    token contracts.
+                  </p>
+                </div>
+                <div>
+                  <a href="https://oasisprosto.com/" class="btn-outline-main">LEARN MORE</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-100px">
+              <div class="box-content">
+                <div>
+                  <h3 class="mt-0 mb-50px">Manage</h3>
+                  <p class="mb-50px">
+                    Partners can maintain on-chain and off-chain cap tables
+                    and real time reporting capabilities by integrating with
+                    Oasis Pro Transfer Agent. This platform supports multiple
+                    blockchains, improves transparency due to on-chain
+                    management, reduces manual intervention, and allows for
+                    interoperability between permissioned blockchains. It can
+                    be fully integrated with Oasis Pro Markets.
+                  </p>
+                </div>
+                <div>
+                  <a href="https://www.oasisprota.com/" class="btn-outline-main mt-auto">LEARN MORE</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-100px">
+              <div class="box-content">
+                <div>
+                  <h3 class="mt-0 mb-50px">Connect</h3>
+                  <p class="mb-50px">
+                    Through Oasis Pro API Connect, a customizable suite of
+                    APIs empowers partners to deliver digital securities
+                    solutions, both for primary issuances and secondary
+                    trading, via our ecosystem, with their branded apps
+                    connected to our modern, flexible APIs.
+                  </p>
+                </div>
+                <div>
+                  <a href="https://oasisproconnect.com/" class="btn-outline-main mt-auto">LEARN MORE</a>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-md-6">
+              <div class="box-content">
+                <div>
+                  <h3 class="mt-0 mb-50px">Interoperability</h3>
+                  <p class="mb-50px">
+                    Through Oasis Pro Levant, a messaging protocol offers a robust solution for enhancing
+                    interoperability and allowing for seamless message passing between diverse blockchain networks. At
+                    the core of our interoperability platform is the fundamental objective of advancing cross-chain
+                    functionality, a pivotal element for the widespread adoption and enhanced utility of blockchain
+                    technology.
+                  </p>
+                </div>
+                <div>
+                  <a href="https://oasislevant.com/" class="btn-outline-main mt-auto">LEARN MORE</a>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="expertiesS">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="text-center col-12">
+              <h3 class="mt-0 mb-4">EXPERTISE</h3>
+              <p class="mb-0">
+                Our veteran team draws from traditional finance, technology,
+                and trading spheres and is backed by strong, strategic
+                investors.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-9 col-12 ms-auto me-auto">
+              <ul class="img-list">
+                <li>
+                  <img src="./images/Apollo_Global_Management_logo.svg" />
+                </li>
+                <li>
+                  <img src="./images/Blizzard_Logo-03-black.svg" />
+                </li>
+                <li>
+                  <img src="./images/DP_NEW_Logo_print-01.svg" />
+                </li>
+                <li>
+                  <img src="./images/RWT_Primary-Logo_blk.svg" />
+                </li>
+                <li>
+                  <img src="./images/RWT_Horizons_presentation_logo.svg" />
+                </li>
+                <li>
+                  <img src="./images/Inveniam-Logo_3streams.svg" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--Footer Section-->
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="container top-footer">
+        <div class="row">
+          <div class="col-md-4 mmb-50px">
+            <p>
+              Oasis Pro Inc, 2023<br />
+              All Rights Reserved
+            </p>
+            <p class="mb-0">
+              Oasis Pro Markets, LLC is a member of
+              <a style="color: inherit; text-decoration: none" href="https://www.finra.org/#/">FINRA</a>
+              /
+              <a style="color: inherit; text-decoration: none" href="https://www.sipc.org/">SIPCs</a>, and an SEC
+              registered broker-dealer and Alternative Trading
+              System
+            </p>
+          </div>
+          <div class="col-md-4">
+            <ul>
+              <li>
+                <a href="https://www.oasispromarkets.com/terms-of-service">Terms Of Service</a>
+              </li>
+              <li>
+                <a href="https://www.oasispromarkets.com/privacy-policy">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="https://www.oasispromarkets.com/legal-disclaimer">Legal Disclaimer</a>
+              </li>
+              <li>
+                <a href="https://www.oasispromarkets.com/bcp">Business Continuity Plan Disclosure
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <div class="row">
+          <div class="row">
+            <div class="col-12">
+              <p class="mb-0">
+                <sup>1</sup>Digital securities may exhibit higher levels of
+                volatility and inconsistent price valuations. These securities
+                may also have limited disclosure of financial and other
+                company information, lack regulatory oversight and there may
+                be the potential for market manipulation with these types of
+                securities.
+              </p>
+              <p>
+                Investing in public OTC registered or private, unregistered
+                securities is speculative and involves a high degree of risk.
+                Public OTC registered or private, unregistered securities may
+                be illiquid and could be subject to holding periods that may
+                hinder your ability to sell such securities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/jquery-3.6.4.min.js"></script>
+  <!-- Bootstrap JavaScript Bundle with Popper -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
+   <script src="./js/custom.js"></script> 
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+Applicant information
+Name: Ondo USDY LLC
+Address (Headquarters): 500 W Putnam Ave Ste 400
+City, State, Postal Code: Greenwich, CT, 06830-6096
+Country: US
+Website:
+USDY | Ondo Finance
+Primary Contact
+Name: Katie Wheeler
+Title: VP of Partnerships
+Country: US
+Email: Katie.Wheeler@Ondo.Finance
+Telegram:
+@Katie_Wheeler
+Key Information
+Expected Yield: 5.20% APY as at 04/30/24
+Expected Maturity: WAM is 111.36 days as at 04/23/24
+Underlying asset: USDY is backed by a combination of US Dollars held in US Demand Deposit Accounts (i.e. Bank Accounts) and short-term US Treasuries.
+Minimum/Maximum transaction size
+Investments: $500
+Redemptions: $500
+Current AUM for product: $218.75M as at 04/30/24
+Current AUM for issuer: USDY TVL is $218.75M as at 04/30/24. USDY is the only current product of the issuer.
+Volume of transactions LTM As at 04/27/24:
+Total value of USDY subscriptions: $206,592,537.34
+Total value of USDY tokens minted: $169,970,537.35
+USDY tokens pending issuance $36,521,950.00
+Total value of USDY redemptions $391,447.66
+Source of first-loss capital
+USDY is senior debt that is secured by US bank demand deposits and short-term US Treasuries. As of April 30, USDY is overcollateralized by 3.29% from funds contributed in part by Ondo Finance and maintains a 2.89% first-loss equity buffer, creating strong alignment between USDY and Ondo Finance. This overcollateralization also provides protection against short-term price decreases in the US Treasuries.
+Basics and background
+How will this investment improve Arbitrum’s RWA ecosystem?
+Ondo Finance is the market leader in tokenization, building a number of industry first products, including USDY, the world’s first tokenized note secured by US Treasuries and bank deposits. We believe that building a relationship between Ondo Finance and Arbitrum will form the basis of deeper future initiatives. Ondo’s mission extends beyond tokenizing yield bearing cash equivalents.
+Identify key management personnel and individual experience. Also include third parties utilized for managing assets and their qualifications.
+Nathan Allman | Founder and Chief Executive Officer
+Nathan previously worked at Goldman Sachs on the Digital Assets team. He also has a background in private credit investing at Prospect Capital Management. Nathan has an A.B. from Brown University.
+https://www.linkedin.com/in/nathanlallman/
+Justin Schmidt | President and Chief Operating Officer
+Justin previously ran the Digital Assets trading desk at Goldman Sachs and helped launch the broader Digital Assets team. Justin also previously worked as a quantitative equities portfolio manager within the WorldQuant arm of Millennium Partners. Justin has a B.S. and M.Eng. from MIT.
+https://www.linkedin.com/in/justinschmidt/
+Brendan Florez | Managing Director of Client Relations and Strategic Operations
+Prior to joining Ondo, Brendan held prior roles as Senior Relationship Manager at Bridgewater Associates, Founder and CEO of Base Capital, and President & COO of Polyera. He has a degree in Electrical Engineering from Princeton University.
+https://www.linkedin.com/in/brendanflorez/
+Chris Tyrrell | Chief Risk and Compliance Officer
+Chris previously led the compliance team at Goldman Sachs Digital Assets, where he worked closely with Nathan Allman and Justin Schmidt, as well as at
+blockchain.com
+and EDX Markets, where he was most recently Chief Compliance Officer. He has a JD from UVa. Law.
+https://www.linkedin.com/in/christophertyrrell/
+Ian De Bode | Chief Strategy Officer
+Ian was the former head of digital assets at McKinsey where he advised C-suite executives from financial services firms and web3 startups. He has an MBA from Stanford University and a degree in electrical engineering & nanotechnology from the University of Leuven.
+https://www.linkedin.com/in/idebode/
+Describe any previous work by the entity or its officers/key contributors similar to that requested. References are encouraged.
+Described above.
+Has your entity or its officers/key contributors been subject to an enforcement action, criminal action, or defaulted on legal or financial obligations? Please describe the circumstances if so.
+None of the officers/key contributors, nor our entity (together, the “Relevant Parties”) have been subject to any enforcement action or criminal action. Nor have any of the Relevant Parties defaulted on any legal or financial obligations in the last seven (7) years.
+Describe any conflicts of interest for your entity and key personnel.
+Details will be shared over email: rwa@dao.arbitrum.foundation
+Insurance coverages, guarantees, and backstops Name of insurer or guarantor Per incident coverage Aggregate coverage
+N/A
+Historical tracking error in your proposed product, or similar to that being proposed Product 2024 YTD 2023 2022 2021
+N/A
+Brief reason for above tracking error
+N/A
+Please describe any experience your firm has in working with decentralized organizational structures
+Ondo Finance has onboarded a wide variety of crypto-native individuals and entities to our cash equivalent products. Our V1 Product was focused on DAOs.
+What is your entity’s current assets under management, assets held in trust, total value locked, or equivalent metric for your legal structuring?
+USDY TVL is $218.75M as at 04/30/24. USDY is the only current product of the issuer.
+How many of these assets held are present on Arbitrum One, if any?
+None
+Plan design
+Please describe your proposed product, including a description of the underlying assets and, if more than one asset, the proposed allocation among assets and general investment guidelines. Where appropriate, include targeted maturity mix and credit quality. Attach supplementary documents as appropriate.
+USDY is backed by a combination of US Dollars held in US Demand Deposit Accounts (i.e. Bank Accounts) and short-term US Treasuries. See portfolio transparency table here:
+USDY | Ondo Finance
+Do investors have any shareholder, investor, creditor or similar rights?
+Yes, the investors are debtholders, and have rights pursuant to a Borrowing and Lending Memorandum.
+Describe the legal and contractual structuring for your product including regulatory bodies overseeing your business and the product and identifying all legal jurisdictions interacting with your product. Attach supplementary documents as appropriate.
+USDY is offered under a “Regulation S” exemption from the SEC, which requires that we do not offer it to US Persons.
+Would Arbitrum’s assets be bankruptcy remote from your own entity and its officers/key contributors? If so, please explain the legal and contractual basis. On a confidential, non-reliance basis, provide any third party legal opinions to support the conclusions.
+USDY represents debt issued by Ondo USDY LLC, a special purpose vehicle wholly owned by Ondo Finance, managed by a Board including an independent director, and designed to maximize bankruptcy-remoteness – to protect your money even in the unlikely event of a hypothetical bankruptcy of Ondo Finance or any other service provider.
+How are Arbitrum’s assets protected vis-a-vis the bankruptcy of the brokerage or applicable financial institution (e.g., bank deposit insurance, securities insurance, etc.)?
+Ondo USDY LLC is a bankruptcy-remote vehicle. The primary collateral asset, US Treasuries, are held in USDY’s account at Morgan Stanley. This account is not covered by any special insurance.
+Does the Issuer issue more than one asset? If so, what is the priority relationship between different asset classes?
+No
+Provide a detailed cash flow diagram that shows the flow of funds from ARB/Fiat conversion, investment in underlying asset, payment of expenses, sale of underlying asset, and repayment (Fiat/ARB conversion), including the counterparties and legal jurisdictions involved.
+1600×827 67 KB
+Describe anticipated tax consequences (if any) in transacting on the underlying and/or receipt of yield.
+Interest paid on the tokenized loans is expected not to be eligible for the
+“Portfolio interest exemption” and thus, may be subject to US federal withholding taxes for beneficial owners who are not US Persons.
+Describe the process and expected timeline for liquidation of assets, if given instructions to do so by Arbitrum governance.
+To comply with applicable US laws and regulations, we can only redeem USDY via USD bank wire to non-US bank accounts. We will process your redemption within five Business Days of receiving both (a) your request for redemption and (b) valid wire instructions to a USD-denominated, non-US bank account.
+What amount of first-loss equity will Sponsor provide to ensure over-collateralization, how is the first-loss equity denominated, and what is the source of capital?
+USDY is senior debt that is secured by US bank demand deposits and short-term US Treasuries. USDY is currently overcollateralized by a 2.93% first-loss position funded in part by Ondo Finance, creating strong alignment between USDY and Ondo Finance. This overcollateralization also provides a buffer for short-term price decreases in the US Treasuries.
+Describe the liquidity and stability of the proposed underlying assets, including anticipated settlement times from the sale of the underlying to the repayment of ARB.
+USDY’s underlying assets are US Treasury Bills, which are very liquid and stable. They generally have spreads no more than a few basis points, and trade in massive volume. Daily trading volumes in US Treasury securities can reach half a trillion dollars per day. Realized annual price volatility usually measures well under 1%. They settle T+1.
+If relying on the blockchain for any of the transactional flows, please describe any blockchain derived risks and mitigations.
+Subscription and redemption requests for USDY are typically made via our web app at
+USDY | Ondo Finance
+. Alternatively, investors may transfer USDC from their approved ethereum mainnet address to our USDY Coinbase Prime address listed here:
+Smart Contract Addresses | Ondo Finance Docs
+in order to submit a subscription request. We can also process redemptions in a similar manner, by accepting USDY transfers to a team-controlled wallet, where we can then burn USDY on your behalf in order to process the redemption. We can also process subscriptions (in addition to all redemptions) via bank wire, if desired.
+Does the product rely on any derivative product (swaps,OTC agreements?
+No
+List all the third party counterparties linked to your assets including and not restricted to prime broker if any, custodian, reporting agent, banks for derivatives or loans and provide primary contact details for the third party counterparties
+Morgan Stanley Solomon Smith Barney
+Silicon Valley Bank (a subsidiary of Citizens Bank)
+StoneX
+Ankura Trust
+Coinbase
+Can you explain how risk management (inv and operational) is being done? Can you provide a copy of your risk management policy?
+We are in the process of formalizing our risk management policy, and are happy to share the formal policy once it is completed. Our security committee meets regularly to consider and mitigate security risks. Our risk management program includes the following, without limitation:
+Thorough KYC / KYB (to mitigate customer risk);
+Strict internal access controls (to mitigate operational risk);
+Conservative asset selection (to mitigate interest rate and market risk);
+Conservative vendor and counterparty selection (to mitigate various third-party risks); and
+Smart Contract audits (to mitigate technology risk).
+Performance reporting
+What are your proposed performance benchmarks? If this is substantially different from the underlying assets, please explain why.
+USDY offers a variable interest rate adjusted monthly in advance by Ondo. The yield automatically compounds meaning the value in USD at which USDY can be minted and redeemed slowly increases each day. USDY is currently yielding 5.20% APY while the blended US Treasuries and bank deposit portfolio is yielding approximately 5.33% APY. These rates are subject to change.
+Describe the content, format, preparation process, and cadence of performance reports. This should include proof of reserves, if appropriate. Please include a sample report.
+Daily attestation reports (along with monthly attestations and quarterly bank account classification attestations) are produced by Ankura and uploaded onto an Ondo-hosted repository that is directly connected to the USDY product page at
+USDY | Ondo Finance
+Who provides the performance reports in respect of the underlying assets?
+Ankura is our verification agent that verifies the reporting that we initially provide to them.
+Describe any formal audit process and timing of such audits.
+This entity has not yet been audited, but we intend to have audits performed annually on an ongoing basis.
+Pricing
+Provide a copy of your standard contract, or one similar to what is being proposed here.
+USDY documents can be found here:
+Dropbox
+Fee summary: Inclusive of the full scope of services requested. Product Fee schedule If asset based Fee calculation for our plan if asset based Annual fee if flat fee Any other fees (including redemption or minting fees)
+We charge no management or performance fees. When you invest in USDY, we earn interest on the bank deposits and Treasuries that we purchase. The interest rate we set monthly on USDY that you receive is generally set to be slightly lower than the interest the banks and Treasuries pay to us, and we earn the difference.
+You will also be charged a redemption fee of 20bps on any redemptions.
+Finally, you will be assessed an incoming and outgoing wire / money transmission fee on any investments or redemptions under $100,000. These wire fees are charged by our service providers; we do not make money off such fees. As of this writing (2023-07-19), this is $12 per incoming international wire and $30 per wire outgoing international wire but may change at any d with other expenses (i.e., cash waterfall)
+As above.
+Smart Contract/Architecture
+How many audits have you had and name of auditors? Please provide a copy of reports.
+September 2023 Code4rena Audit
+August 2023 Zokyo Audit
+Is the project permissioned? If so, how are you managing user identities? Any blacklisting/whitelisting features?
+Yes, the ability to mint/redeem USDY on the primary market is permissioned to non-US investors who meet the eligibility criteria:
+Eligibility | Ondo Finance Docs
+Is the product present on several chains? Are there any cross chain interactions?
+USDY is available on Ethereum, Mantle, Solana, Sui, and soon, Aptos and Cosmos. Ondo Finance provides a bridge between Ethereum and Mantle (using Axelar’s bridge technology, enhanced with additional protection) at:
+USDY Bridge | Ondo Finance
+Are the RWA tokens being used in any other protocols? Please describe the various components of the ecosystem
+USDY can be used in a similar fashion as stablecoins across DeFi protocols, many of which are listed here:
+Ecosystem | Ondo Finance
+How are trusted roles/admins managed in the system? Which aspects of the solution require trust from users?
+Investors Trust Ondo Finance and their audited smart contracts to facilitate burns and mints of USDY. All administrative permissions for the USDY smart contract system are secured by industry leading Gnosis Safe multi-signature wallets.
+Is there any custom logic required for your RWA token? If so please give any details.
+No custom logic is required as USDY is ERC20 compliant and inherits from the Open Zeppelin ERC20 Standard.
+Supplementary
+Please attach any further information or documents you feel would help the screening committee or ARB tokenholders make an informed decision.
+We will send additional supplementary documents over email: rwa@dao.arbitrum.foundation

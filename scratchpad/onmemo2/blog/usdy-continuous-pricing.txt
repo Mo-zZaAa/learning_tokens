@@ -1,0 +1,72 @@
+Continuous Pricing for USDY Is Now Live, Enabling Intraday Yield | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+USDY • Nov 3, 2026 • 2 min
+Continuous Pricing for USDY Is Now Live, Enabling Intraday Yield
+Ondo Finance
+Official Blog
+Continuous pricing is now live for USDY. Instead of the price updating once daily, USDY's price now updates in real time, so holders earn yield intraday, including on weekends and holidays. That makes USDY useful for holding periods of hours, not days.
+What Platforms Using USDY Need to Do
+New integrations should use the USDY Oracle Wrapper going forward. For lending protocols, exchanges, wallets and other platforms already using USDY, the new oracle is a drop-in replacement for the current one. Platforms reading USDY's price through the USDY Oracle Wrapper switch automatically. Others should point to the USDY Oracle Wrapper on each chain where they use USDY, with no code changes required. Every rate change is limited onchain, so the price feed stays predictable. The current oracle stays live through the end of 2026, giving existing platforms time to migrate. Contract addresses and migration steps are in the
+Ondo docs
+.
+Yield That Accrues Every Second
+Many tokenized Treasury products update their price once daily, and USDY has too. Now USDY goes further. Its price is calculated every time it's read, so every wallet, app and protocol sees a price that includes yield earned up to that second. Holders now capture yield for exactly as long as they hold USDY. For example, eight hours of holding means eight hours of yield.
+Paired with instant minting and redemption, eligible holders outside the U.S. can enter and exit USDY, 24/7 (subject to scheduled maintenance and other occasional downtimes), at the continuously updated price, so short holding periods capture yield without losing it to swap pool slippage. That makes USDY useful for operational balances that move throughout the day, along with longer-term Treasury holdings.
+With continuous pricing, neobanks, fintech apps, and capital allocators can now track short-term liquidity in USDY growing in real time, enabling more precise portfolio valuations and intraday yield management.
+USDY is already the largest tokenized Treasury product with more than
+$2.3 billion in total value
+as of October 2026. Adoption is expected to grow across onchain infrastructure built for markets that never close.
+→
+Explore USDY
+→
+Integrate USDY
+Next
+Announcement
+•
+Oct 29, 2026
+Ondo Intelligent Portfolios Go Live on Solana
+Announcement
+•
+Oct 29, 2026
+DTCC Tokenization Service Launches With Ondo Finance as an Ecosystem Collaborator
+Invest
+USDY
+OUSG
+Ondo Stocks
+Intelligent Portfolios
+Private Markets
+Infrastructure
+Ondo Network
+Bridge
+Converter
+Resources
+Insights
+Blog
+Learn
+Partners
+Ecosystem
+Foundation
+Flux Finance
+Explore
+Docs
+Trust & Security
+Bug Bounty
+Company
+Team
+Careers
+Media Kit
+Contact Us
+Media Inquiries
+Ondo ©
+2026
+Terms of Service
+Privacy Policy

@@ -1,0 +1,98 @@
+Introducing Instant, 24/7/365 Subscriptions and Redemptions; Shifting OUSG Funds into BlackRock’s BUIDL | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+OUSG • Mar 27, 2024 • 3 min
+Introducing Instant, 24/7/365 Subscriptions and Redemptions; Shifting OUSG Funds into BlackRock’s BUIDL
+Ondo Finance
+Official Blog
+Until now, redemptions of OUSG have generally taken a few business days, as traditional T+2 securities settlement times have constrained how quickly we were able to receive USD after selling the underlying securities. While the upcoming move to T+1 settlement for many types of securities is a step in the right direction, one of the major advantages of the blockchain – and one of the most requested features from our existing and prospective clients – is the promise of faster settlement.
+For this reason, we are delighted to announce that OUSG will soon offer instant investment and redemption, 24/7/365. In addition, we are offering a new form of OUSG – rOUSG – with a constant $1.00 per share mint/redeem price, with yield distributed daily in the form of additional rOUSG tokens via token rebasement. Finally, investors will also be able to easily and instantly convert between OUSG and rOUSG using the conversion tool on our website (and onchain).
+OUSG
+rOUSG
+Token Type
+Accumulating
+Rebasing (distributing)
+Yield Distribution Profile
+Reflected through an increasing redemption price (NAV per share)
+Distributed as increased rOUSG token balance, daily
+As Treasury Yield Accrues, the Token Value
+Goes up
+Remains at $1.00
+Best Suited for
+Buy-and-hold cash management (some custodians only support accumulating tokens), collateral at smart contracts
+Yield-bearing means of settlement or exchange
+This move enables us to further act upon another point of feedback we have heard from our clients: simplifying our offering. Now, our global cash equivalent offering will be simplified into two main products:
+OUSG: a cash management and settlement instrument for global institutional and high net worth individuals, including those within the US, with permissioned secondary markets, structured as an investment fund.
+USDY*: a yield-bearing alternative to conventional stablecoins for non-US individual and institutional investors to use for savings, payments, and in onchain financial applications, structured as a secured debt offering.
+This complements our recently announced intent to launch
+Ondo Stocks
+, which will enable the large scale tokenization of other (
+non
+-cash-equivalent) securities with native onchain access to traditional offchain liquidity.
+As part of this evolution, we will also be reallocating a substantial portion of OUSG’s assets into the recently announced BlackRock USD Institutional Digital Liquidity Fund (BUIDL). We’re excited to see BlackRock embracing securities tokenization with the launch of BUIDL, especially its broad cooperation with ecosystem participants. Not only does this further validate our original concept of a tokenized US Treasury fund, but it also bolsters our thesis that tokenization of traditional securities on public blockchains represents the next major step in the evolution of financial markets.
+-
+As we laid out in our
+vision and roadmap post
+earlier this year, we believe in the importance of listening to our clients and in combining the best parts of traditional finance with the functionality of the blockchain. The evolution of our cash management products demonstrates our commitment to both of these tenets, and we are excited to share them with our current and future clients.
+About Ondo
+Ondo Finance provides institutional-grade, blockchain-enabled investment products and services. Ondo has an asset management arm that creates and manages tokenized financial products as well as a technology arm that develops decentralized finance protocols and other blockchain solutions.
+Ondo’s first core products are tokenized cash equivalents that deliver very low risk, high-quality yield from US Treasuries, money market funds, and similar instruments, offering on-chain investors an alternative to stablecoins where holders rather than issuers earn the vast majority of the underlying asset yield.
+For more information on our products, please reach out to us at
+support@ondo.finance
+or check out the following resources:
+Website
+|
+X/Twitter
+|
+Blog
+*Disclaimer
+USDY TOKENS ARE NOT OFFERED OR SOLD, AND WILL NOT BE OFFERED OR SOLD, IN THE UNITED STATES OR TO U.S. PERSONS.  In addition, USDY Tokens have not been registered under the Securities Act of 1933, as amended (the “Act”) or the securities laws of any other jurisdiction, and may not be offered, sold or otherwise transferred in the United States or to U.S. persons unless the USDY Tokens are registered under the Act, or an exemption from the registration requirements of the Act is available.  Additional limitations on transfer also apply.
+Next
+USDY
+•
+Mar 14, 2024
+Ondo USDY LLC Registers with FinCEN
+Monthly Spotlight
+•
+Mar 1, 2024
+Ondo Monthly Spotlight: February 2024
+Invest
+USDY
+OUSG
+Ondo Stocks
+Intelligent Portfolios
+Private Markets
+Infrastructure
+Ondo Network
+Bridge
+Converter
+Resources
+Insights
+Blog
+Learn
+Partners
+Ecosystem
+Foundation
+Flux Finance
+Explore
+Docs
+Trust & Security
+Bug Bounty
+Company
+Team
+Careers
+Media Kit
+Contact Us
+Media Inquiries
+Ondo ©
+2026
+Terms of Service
+Privacy Policy

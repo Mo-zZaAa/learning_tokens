@@ -1,0 +1,47 @@
+The Ondo DAO | Ondo Foundation Docs
+Ondo Foundation Docs
+GitHub
+GitHub
+(opens in a new tab)
+(opens in a new tab)
+Introduction
+The Ondo DAO
+The ONDO Token
+CoinList
+How to Claim Your CoinList Tokens
+Alternative: How to Claim on Etherscan
+CoinList Risk Factors
+Light
+On This Page
+Overview
+Governance Process
+The Ondo DAO
+The Ondo DAO
+Overview
+Stakeholders in the DAO —
+ONDO token
+holders — exercise control over the protocol, including economic parameters and smart contract upgrades, through on-chain governance proposals.
+The DAO might also elect committees or multisigs to manage certain processes, such as updating certain economic parameters or pausing the protocol in critical times.
+Governance Process
+The governance process will typically follow a two-stage process: a forum discussion and an on-chain vote.
+Governance proposals will typically start with a post on the
+Flux Finance Governance Forum
+(opens in a new tab)
+. The post, though optional, is strongly encouraged. Feedback from the community and team will materially increase the chances of a successful and well-aligned governance proposal. Anyone can post and contribute to the discussion on the forum.
+Once the governance proposal is finalized, you can submit a proposal for a binding on-chain vote. The DAO is a fork of Compound's
+Governor Bravo
+(opens in a new tab)
+and uses Tally to manage the on-chain voting process. Voting power is based on ONDO token ownership, and token holders can delegate their voting power to other wallets.
+The DAO parameters are set as follows:
+Proposal Threshold: 100,000,000 ONDO
+To submit a proposal, you need to have this much voting power (directly and/or delegated to you). This rule is necessary to reduce spam or malicious proposals.
+Voting Period: 3 days
+Once the voting period is live, people will be able to cast votes during this period, after which the proposal becomes binding and can be executed.
+Quorum: 1,000,000 ONDO
+Proposals will only pass if there is enough voting power to pass the quorum.
+Timelock: 1 day
+Successful proposals will execute after this delay period once the voting period completes.
+Introduction
+The ONDO Token
+Light
+Ondo Foundation Docs

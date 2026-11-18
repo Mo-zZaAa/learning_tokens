@@ -1,0 +1,117 @@
+What Sets Ondo Stocks Apart | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+In this article
+What is Ondo Stocks?
+Here’s What Sets Ondo Stocks Apart
+Ondo Stocks vs. Others
+Case Study: A 40% Return With Tokenized Stocks in 35 Days
+Conclusion
+Ondo Stocks • Oct 21, 2026 • 3 min
+What Sets Ondo Stocks Apart
+Ondo Finance
+Official Blog
+Tokenized stocks have tripled in 2026, growing from under $1 billion to
+more than $3 billion in onchain market cap
+in just eight months. That growth has the attention of the world’s most important financial institutions, which are no longer asking whether tokenization belongs in global markets but how to build around it.
+In October, the IMF dedicated a chapter of its
+Global Financial Stability Report
+to tokenization, naming Ondo Finance among the largest tokenization providers and using Ondo Stocks in its analysis. Its findings show what investors want from tokenized stocks: the ability to trade around the clock, act on news as it breaks, and put their assets to work.
+Ondo Stocks has been built for that demand from day one, setting milestones the rest of the category now measures itself against:
+First to bring traditional finance liquidity onchain
+, minting and redeeming through U.S.-registered broker-dealers against the liquidity of traditional exchanges like Nasdaq and NYSE.
+First to scale to hundreds of permissionless tokenized stocks
+, with more than 450 stocks and ETFs available to eligible non-U.S. investors.
+First to reach $1 billion in total value locked (TVL) in May 2026
+, the total value of assets deposited in the platform.
+First with real 24/7 trading
+, with minting and redemption live around the clock for 25+ of the most popular Ondo Stocks, including Apple, Nvidia, and Tesla.
+What is Ondo Stocks?
+Ondo Stocks (previously known as Ondo Global Markets) has tokenized more than 450 stocks and ETFs, making them accessible to billions of eligible investors outside the U.S. Each token is fully backed by the underlying shares together with cash in transit, and mints and redeems to the liquidity of traditional markets such as Nasdaq and NYSE. That connection helps enable large trades with minimal slippage. Beyond trading, Ondo Stocks can be used as collateral across DeFi, and participating institutions can convert shares they already hold. Eligible investors outside the U.S. can gain exposure to U.S. stocks and ETFs onchain.
+Here’s What Sets Ondo Stocks Apart
+1. Connecting to TradFi Liquidity
+Liquidity on other tokenization platforms is limited because it relies on onchain liquidity alone. Those platforms are disconnected from traditional markets, so they have to bootstrap their own liquidity onchain. Ondo Stocks overcomes that limit by tapping into the deep liquidity of traditional markets. Ondo Stocks mints and redeems against the liquidity of exchanges like Nasdaq and NYSE. These venues process hundreds of billions in daily volume. This helps provide decreased slippage (the gap between the price you expect and the price you get) in a 24/7 environment. The result is that Ondo Stocks can be bought and sold at scale, with consistent execution.
+2. Bringing True 24/7 to Tokenized Stocks
+Ondo Stocks recently became the first tokenization platform to support 24/7 minting and redemption for tokenized stocks and ETFs. Minting and redemption are live around the clock for 25+ of the most popular Ondo Stocks, including Apple, Nvidia and Tesla, across BNB Chain, Ethereum, and Solana.
+Eligible users outside the U.S. can enter and exit positions at any hour, including weekends and public holidays. On other platforms, 24/7 features were limited to secondary-market transfers on centralized or decentralized exchanges, where thin onchain liquidity can lead to high execution costs. Market-moving news doesn't wait for the Monday open. Until now, tokenized stock holders had to either wait for the market to reopen or accept high slippage in thin onchain liquidity pools. The weekend data below shows the difference.
+3. Institutional-Grade Investor Protections
+Ondo Stocks are built with several protections for holders. Each token is fully backed and secured by U.S. stocks and ETFs held at one or more U.S.-registered broker-dealers, along with cash in transit. An independent third-party Verification Agent reviews the asset backing and publishes a report each business day. An independent third-party Security Agent holds a first-priority security interest in the underlying assets for the benefit of token holders, and the structure is designed for bankruptcy remoteness. The underlying securities are not lent out without express token holder consent.
+4. Global Access Across Ethereum, BNB Chain and Solana
+Ondo Stocks is built for a global audience. Eligible investors outside the U.S. can hold and trade Ondo Stocks on Ethereum, BNB Chain, and Solana, and more than 450,000 holders already do. Ondo Stocks are available through the Ondo web app and across platforms including 1inch Fusion, UniswapX, MetaMask, Ledger, Trust Wallet, Binance Wallet, Bitget Wallet, KuCoin, Gate, and MEXC, where available, and select Ondo Stocks are also admitted to trading on Nest Exchange, a Binance-operated venue in Abu Dhabi.
+5. Composable Across DeFi
+Composability means onchain assets can plug into one another like building blocks. Because Ondo Stocks are tokens, holders can swap them on decentralized exchanges and aggregators, keep them in self-custody wallets, and use them in DeFi apps, all around the clock. It also means new products can be built directly on top of them, as the portfolios below show.
+Ondo Stocks can be used as collateral in lending markets and for perpetual futures trading. On Morpho, SPYon, and QQQon can back stablecoin borrowing in isolated lending markets, with risk parameters managed by Gauntlet. On Euler, SPYon, QQQon and TSLAon can be used to borrow stablecoins, with risk parameters set by Sentora. On Ondo Perps, traders can post tokenized stocks and ETFs directly as margin, starting with SPYon and QQQon for Pre-Alpha users. Ondo Perps is built to draw on the real liquidity of the underlying markets. For market makers, hedging with tokenized stocks as collateral can improve capital efficiency, which means more capital deployed and deeper liquidity for everyone.
+6. 450+ Tokenized Stocks and ETFs Across Every Sector
+Ondo Stocks covers more than 450 U.S. stocks and ETFs. Sectors include technology, semiconductors, AI and data infrastructure, consumer, financials, digital assets, energy and utilities, industrials, healthcare, mining and materials, fixed income, commodities, international ETFs, defense, space, quantum, cybersecurity, and
+many more
+.
+7. Institutions Can Convert Underlying Shares Into Ondo Stocks
+Approved institutions can turn shares they already hold into Ondo Stocks, and back again. Through Alpaca's Instant Tokenization Network, those shares become tokens on Ethereum or BNB Chain without the institution sourcing separate cash. For market makers, that means inventory they already hold can become onchain liquidity, which Ondo expects to support tighter spreads and deeper secondary-market liquidity.
+8. Bringing Voting Preferences to Tokenized Stocks
+Ondo has partnered with Broadridge so that holders of Ondo Stocks will be able to express voting preferences for the underlying shares. Holders will also be able to review prospectuses, regulatory filings, and other governance information through Broadridge's investor communications infrastructure.
+"By working with Broadridge, we are enabling holders of our onchain wrapper stocks to access governance and voting capabilities like holders of the traditional offchain stocks, with all the additional benefits onchain wrapper tokens provide."
+— Matthieu de Vergnes, MD, Global Head of Institutional at Ondo Finance
+9. Curated Portfolios, Built With Ondo Stocks
+Ondo Stocks are the building blocks for
+Ondo Intelligent Portfolios
+, a new onchain product category. Ondo intelligent Portfolios are curated portfolios delivered as single onchain transferable tokens, whose underlying positions are Ondo Stocks. Ondo intelligent Portfolios are designed to scale with Ondo Stocks. The more stocks and ETFs available on Ondo Stocks, the more assets Intelligent Portfolios can choose from. The first three portfolios launched are based on strategies developed by BlackRock for Ondo, marking the first time eligible investors outside the U.S. can access onchain exposure to a full strategy through a single token.
+Being onchain also unlocks programmatic rebalancing, onchain transparency, and multiple asset classes in a single token. Ondo Intelligent Portfolios offer diversified exposure in a single token with transferability and transparency of the blockchain.
+Ondo Stocks vs. Others
+Put it all together and Ondo Stocks combines the best of traditional finance with the best of blockchain: the liquidity and asset backing of traditional markets, with the 24/7 access, transferability, and DeFi compatibility of onchain tokens.
+Case Study: A 40% Return With Tokenized Stocks in 35 Days
+Deep liquidity and fast redemption matter most at scale. Here’s one example of both in practice.
+One wallet has already used Ondo Stocks to execute one of the largest trades in the history of tokenization technology thus far. It built a $13.5M position in CRCLon, the Ondo Stock for Circle, and redeemed at a 40% return in 35 days.
+It started on January 19, 2026, when the wallet began accumulating CRCLon through Ondo Stocks. Over the following weeks, the wallet built a $13.5M position. By February 22-23, 2026, the wallet had redeemed a substantial portion of the position, receiving $18.9M in proceeds.
+A $13.5M position, built and redeemed entirely onchain, with the liquidity of traditional markets behind it.
+*The change in the position's value over the period given above reflects movements in Circle's share price. A similar position could have lost value. This example illustrates liquidity and redemption features of Ondo Stocks and is not in any way a recommendation, guarantee of returns, or investment advice. Past performance is not indicative of future results.
+Conclusion
+Ondo has spent years building the infrastructure for tokenized markets, and it is not slowing down.Tokenized stocks, portfolios, and U.S. Treasuries are all part of the same platform. As markets move onchain, Ondo is building the infrastructure where they will run.
+Next
+Announcement
+•
+Oct 5, 2026
+Introducing Ondo Private Markets: Private Company Exposure Trading 24/7
+Ondo Stocks
+•
+Sep 29, 2026
+Ondo and Kakaopay Securities Partner to Advance Global Distribution of Korean Equities
+Invest
+USDY
+OUSG
+Ondo Stocks
+Intelligent Portfolios
+Private Markets
+Infrastructure
+Ondo Network
+Bridge
+Converter
+Resources
+Insights
+Blog
+Learn
+Partners
+Ecosystem
+Foundation
+Flux Finance
+Explore
+Docs
+Trust & Security
+Bug Bounty
+Company
+Team
+Careers
+Media Kit
+Contact Us
+Media Inquiries
+Ondo ©
+2026
+Terms of Service
+Privacy Policy

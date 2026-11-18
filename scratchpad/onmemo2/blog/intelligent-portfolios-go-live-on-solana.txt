@@ -1,0 +1,97 @@
+Ondo Intelligent Portfolios Go Live on Solana | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+In this article
+Whole Portfolios, Single Tokens
+Seven Portfolios Spanning Income, Growth, and Thematic Exposure
+The Best of DeFi and TradFi, Combined
+What's Next
+Announcement • Oct 29, 2026 • 3 min
+Ondo Intelligent Portfolios Go Live on Solana
+Ondo Finance
+Official Blog
+Ondo Intelligent Portfolios are live on Solana, bringing seven curated portfolios spanning income, growth, and thematic exposure to the ecosystem. Each token gives investors exposure to a portfolio of Ondo Stocks built around a defined investment strategy. They are now available to eligible investors globally (outside the U.S.) across Solana.
+The expansion follows the recent launch of Ondo Intelligent Portfolios on Ethereum and BNB Chain, where they surpassed $45 million in total value locked (TVL) in the first few weeks of trading to become the largest onchain portfolio product by TVL.
+Whole Portfolios, Single Tokens
+Building and maintaining a portfolio takes time, from selecting assets and setting allocations to rebalancing as markets move. Ondo Intelligent Portfolios simplify that process, giving investors exposure to a professionally designed investment strategy through one token without having to buy each asset, set target weights, and manually rebalance positions themselves.
+Ondo intelligent Portfolios work in three layers:
+Portfolio Strategy: Ondo or a third party supplies a portfolio allocation or strategy.
+Programmatic Implementation: The underlying positions are Ondo Stocks, tokenized equities and ETFs backed by real securities and connected to traditional market liquidity. Allocation, rebalancing, and fee logic are encoded into smart contracts, with rebalancing following preset rules on a defined schedule.
+Single-Token Holding Mechanics: Investors gain exposure to the entire portfolio through a single token they can hold in their own wallets without having to to manage or rebalance each constituent position.
+Seven Portfolios Spanning Income, Growth, and Thematic Exposure
+The seven portfolios give Solana investors a range of approaches to choose from, whether they are seeking income, broader growth exposure, or a focused allocation to themes such as AI. Three of the seven Ondo Intelligent Portfolios are based on portfolio strategies developed by BlackRock, the world’s largest asset manager, for use by Ondo. Investors can hold a portfolio individually or combine multiple portfolios to build their own allocation. The full lineup includes:
+Income Portfolios
+BLKHIon: Ondo High Income Powered by BlackRock
+YLD5on: Ondo 5 Targeted Income TR Portfolio
+YLD8on: Ondo 8 Targeted Income TR Portfolio
+Growth Portfolios
+BLKGRWon: Ondo High Growth Powered by BlackRock
+BLKDIGon: Ondo Diversified Growth Powered by BlackRock
+Thematic Portfolios
+MAG7Xon: Ondo Magnificent 7 and Crypto Portfolio
+BRAINon: Ondo AI Leaders Portfolio
+The Best of DeFi and TradFi, Combined
+Ondo Intelligent Portfolios bring the best of TradFi and DeFi to investors in one token:
+Simple. A professionally designed portfolio in a single token.
+Precise. Exposure to a defined portfolio, underpinned by tokenized assets.
+Transparent. Portfolio holdings, weights, and rebalances are visible onchain.
+Flexible. Transferable peer-to-peer and composable with DeFi applications that support them.
+Accessible. Available to eligible investors in permitted jurisdictions, with tokens transferable 24/7.
+Efficient. Programmatic rebalancing reduces the work involved in maintaining a portfolio.
+For developers, this creates another building block for financial applications. A single token representing a curated portfolio could serve as collateral in a supporting lending market, be incorporated into a savings product, or form part of another investment strategy.
+What's Next
+Ondo Stocks brought individual tokenized stocks and ETFs to Solana. Ondo Intelligent Portfolios build on that foundation, combining those assets into defined allocations that investors can hold through a single token. The expansion takes another step toward making both financial assets and portfolio construction expertise broadly accessible onchain. More portfolios are planned, expanding the range of strategies available to investors.
+To learn more about Ondo Intelligent Portfolios, read the
+announcement blog
+and
+explore the portfolios
+.
+Next
+Announcement
+•
+Oct 29, 2026
+DTCC Tokenization Service Launches With Ondo Finance as an Ecosystem Collaborator
+Ondo Stocks
+•
+Oct 27, 2026
+Ondo Stocks Are Live on Robinhood Chain With Uniswap StablePair Pools
+Invest
+USDY
+OUSG
+Ondo Stocks
+Intelligent Portfolios
+Private Markets
+Infrastructure
+Ondo Network
+Bridge
+Converter
+Resources
+Insights
+Blog
+Learn
+Partners
+Ecosystem
+Foundation
+Flux Finance
+Explore
+Docs
+Trust & Security
+Bug Bounty
+Company
+Team
+Careers
+Media Kit
+Contact Us
+Media Inquiries
+Ondo ©
+2026
+Terms of Service
+Privacy Policy

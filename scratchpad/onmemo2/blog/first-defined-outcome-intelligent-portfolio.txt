@@ -1,0 +1,175 @@
+New Ondo Intelligent Portfolio: The First Defined Outcome Strategy | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+In this article
+SPYSHIELDon: Upside S&P 500 Exposure With Downside Buffer
+SPYSHIELDon Underlysing Assets
+How Ondo Intelligent Portfolios Work
+Eight Intelligent Portfolios, Across Four Categories
+What's Next
+Announcement • Nov 17, 2026 • 2 min
+New Ondo Intelligent Portfolio: The First Defined Outcome Strategy
+Ondo Finance
+Official Blog
+Since launching in September, Ondo Intelligent Portfolios have become the largest onchain portfolios product, surpassing $75 million in total value locked as of November 17, 2026. Today, the first defined outcome strategy just went live.
+Ondo US 500 Capital Shielded Portfolio (SPYSHIELDon) seeks to buffer downside performance while capturing S&P 500 gains up to a cap, providing an equity-based alternative to traditional fixed income products.
+This brings the Ondo Intelligent Portfolio lineup to eight portfolios, all available to eligible investors outside the U.S. across Ethereum, BNB Chain, and Solana.
+SPYSHIELDon: Upside S&P 500 Exposure With Downside Buffer
+SPYSHIELDon seeks to provide S&P 500 upside while reducing downside risks with the goal of providing a smoother return path. The trade-off is a capped upside: the strategy gives up gains above a set level in exchange for a buffer against losses.
+The portfolio is built with 12 tokenized Buffer ETFs in equal weights, each designed to capture the upside to a cap of the S&P 500 while buffering up to 100% of the downside. Rather than having a single ETF reset once per year the portfolio ladders 12 ETFs so that buffers and caps are reset. This ladder diversifies the starting prices and caps across the year, aiming to provide a smoother return path. Each ETF seeks to provide its buffer only to shareholders who hold it for its full outcome period (before fees and expenses).
+Together, these positions target SPY’s price gains up to the cap and a buffer against SPY drawdowns.
+SPYSHIELDon Underlysing Assets
+Underlying Asset
+Symbol
+Type
+Sector
+Base Weight
+Innovator Equity Defined Protection ETF - 1 Yr January
+ZJANon
+ETFs
+Defined Outcome
+8.33%
+Innovator Equity Defined Protection ETF - 1 Yr February
+ZFEBon
+ETFs
+Defined Outcome
+8.33%
+Innovator Equity Defined Protection ETF - 1 Yr March
+ZMARon
+ETFs
+Defined Outcome
+8.33%
+Innovator Equity Defined Protection ETF - 1 Yr April
+ZAPRon
+ETFs
+Defined Outcome
+8.33%
+Innovator Equity Defined Protection ETF - 1 Yr May
+ZMAYon
+ETFs
+Defined Outcome
+8.33%
+Innovator Equity Defined Protection ETF - 1 Yr June
+ZJUNon
+ETFs
+Defined Outcome
+8.33%
+Innovator Equity Defined Protection ETF - 1 Yr July
+ZJULon
+ETFs
+Defined Outcome
+8.33%
+Innovator Equity Defined Protection ETF - 1 Yr August
+ZAUGon
+ETFs
+Defined Outcome
+8.33%
+Innovator Equity Defined Protection ETF - 1 Yr September
+ZSEPon
+ETFs
+Defined Outcome
+8.34%
+Innovator Equity Defined Protection ETF - 1 Yr October
+ZOCTon
+ETFs
+Defined Outcome
+8.34%
+Innovator Equity Defined Protection ETF - 1 Yr November
+ZNOVon
+ETFs
+Defined Outcome
+8.34%
+Innovator Equity Defined Protection ETF - 1 Yr December
+ZDEKon
+ETFs
+Defined Outcome
+8.34%
+How Ondo Intelligent Portfolios Work
+Each Ondo Intelligent Portfolio packages a professionally curated investment strategy into a single token. Instead of assembling and maintaining a basket of individual positions yourself, you can mint or redeem a single token that gives you exposure to a precise, transparent, and professionally designed portfolio of underlying assets.
+It works in three layers:
+Based on a portfolio strategy:
+Ondo or a third party supplies a portfolio allocation or strategy. Ondo determines how that model is implemented within the Ondo product.
+Ondo implements the model programmatically:
+The underlying positions are Ondo Stocks: tokenized equities and ETFs backed by the underlying securities (plus cash in transit)  and connected to  traditional market liquidity. The portfolio’s allocation, rebalancing, and fee logic are encoded in smart contracts. Rebalances execute automatically on a defined schedule, following the same preset rules each time, so the strategy is applied consistently over time.
+You hold one token:
+Mint or redeem to move your exposure in or out. Nothing for you to weigh or rebalance.
+Each token is freely transferable onchain (subject to jurisdictional and other restrictions), enabling investors to deploy it across supporting DeFi applications and developers to integrate them into protocols.
+Eight Intelligent Portfolios, Across Four Categories
+SPYSHIELDon brings the lineup to eight Ondo Intelligent Portfolios, including three with portfolio strategies developed by BlackRock. Investors can hold a single portfolio or combine several to create personalized allocations.
+With SPYSHIELDon as Ondo’s first defined outcome strategy, the portfolios span four categories:
+1. Income
+BLKHIon:
+Ondo High Income Powered by BlackRock
+YLD5on:
+Ondo 5 Targeted Income TR Portfolio
+YLD8on:
+Ondo 8 Targeted Income TR Portfolio
+2. Allocation
+BLKGRWon:
+Ondo High Growth Powered by BlackRock
+BLKDIGon:
+Ondo Diversified Growth Powered by BlackRock
+3. Thematic
+MAG7Xon:
+Ondo Magnificent 7 and Crypto Portfolio
+BRAINon:
+Ondo AI Leaders Portfolio
+4. Outcome
+SPYSHIELDon:
+Ondo US 500 Capital Shielded Portfolio (new)
+What's Next
+Ondo Stocks brought individual tokenized stocks and ETFs onchain, becoming the first tokenized stocks platform to surpass $1 billion in TVL in May of 2026. Ondo Intelligent Portfolios builds on that foundation, combining those assets into defined allocations that investors can hold through a single token, now with two new strategies and more coming soon.
+To learn more about Ondo Intelligent Portfolios, read the
+announcement blog
+and
+explore the portfolios
+.
+Next
+Ondo Stocks
+•
+Nov 12, 2026
+New Utility for Ondo Stocks on Solana
+Ondo Stocks
+•
+Nov 10, 2026
+Ondo Bridge Adds Fidelity Center for Applied Technology (FCAT®) as a Required Verifier
+Invest
+USDY
+OUSG
+Ondo Stocks
+Intelligent Portfolios
+Private Markets
+Infrastructure
+Ondo Network
+Bridge
+Converter
+Resources
+Insights
+Blog
+Learn
+Partners
+Ecosystem
+Foundation
+Flux Finance
+Explore
+Docs
+Trust & Security
+Bug Bounty
+Company
+Team
+Careers
+Media Kit
+Contact Us
+Media Inquiries
+Ondo ©
+2026
+Terms of Service
+Privacy Policy

@@ -1,0 +1,78 @@
+The Liquidity Advantage: How OUSG Provides Robust, Multi-Venue Instant Liquidity | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+OUSG • Apr 14, 2025 • 2 min
+The Liquidity Advantage: How OUSG Provides Robust, Multi-Venue Instant Liquidity
+Ondo Finance
+Official Blog
+The launch of BlackRock and Securitize’s BlackRock USD Institutional Digital Liquidity Fund (BUIDL) in March 2024 introduced a meaningful step forward for tokenized Treasuries, particularly through its integration with Circle to enable instant redemptions to USDC.
+Ondo Finance was proud to be the first to integrate BUIDL into our own infrastructure—migrating a portion of OUSG’s backing into the fund. Over time, we have diversified OUSG’s holdings into multiple sources of collateral—each with its own liquidity pathway—which proved useful recently when Circle’s facility faltered.
+Supporting Redundancy in Instant Liquidity
+On March 27, 2025, Circle’s instant BUIDL redemption facility—typically provisioned with up to 20 million USDC—experienced a 23-hour period of limited availability. While non-instant redemptions remained accessible, this window underscored the value of diversified instant liquidity mechanisms.
+OUSG is designed with built-in redundancy to address exactly these kinds of scenarios. When our systems detected instant liquidity constraints via primary channels, an additional onchain liquidity facility was activated to ensure instant OUSG redemptions continued without disruption.
+Two OUSG holders utilized this facility to access liquidity instantly—demonstrating OUSG’s market-leading liquidity profile:
+1,347,623 USDC redemption
+110,000 USDC redemption
+Expanding the Liquidity Network with Ondo Nexus
+But this is just the start. We’re always working to further diversify the liquidity backbone of our tokenized US Treasuries products, aiming to build up to hundreds of millions in stablecoin redemption liquidity.
+Through
+Ondo Nexus
+, OUSG will soon gain access to an additional instant redemption facility—this time via PayPal USD (PYUSD), providing OUSG holders with up to 25 million PYUSD daily in additional instant redemption liquidity.
+This enhancement is part of a broader strategy to create the most robust liquidity network in the tokenized asset space.
+“
+The ability for OUSG holders to access multiple sources of instant redemption liquidity highlights the benefits of composable financial infrastructure
+,” said
+Lee Zasadowski, Head of Investment Operations at Ondo Finance
+.
+“By designing systems with multiple layers of redundancy, we’re able to deliver a level of reliability that’s difficult to achieve in traditional finance.”
+We’re proud to build on innovations from Circle, BlackRock, and others—and we’re equally committed to strengthening the systems that sit atop them. As tokenized finance continues to evolve, Ondo will remain focused on delivering robust, real-time liquidity experiences that go beyond what traditional markets can offer.
+Learn more about OUSG
+Next
+USDY
+•
+Apr 11, 2025
+Aptos Hits $1B Stablecoin TVL: Next Stop, Yieldcoins
+Announcement
+•
+Apr 10, 2025
+Copper Adds Support for Ondo Finance’s Tokenized US Treasuries Tokens
+Invest
+USDY
+OUSG
+Ondo Stocks
+Intelligent Portfolios
+Private Markets
+Infrastructure
+Ondo Network
+Bridge
+Converter
+Resources
+Insights
+Blog
+Learn
+Partners
+Ecosystem
+Foundation
+Flux Finance
+Explore
+Docs
+Trust & Security
+Bug Bounty
+Company
+Team
+Careers
+Media Kit
+Contact Us
+Media Inquiries
+Ondo ©
+2026
+Terms of Service
+Privacy Policy

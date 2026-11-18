@@ -1,0 +1,111 @@
+Ondo Stocks Are Live on Robinhood Chain With Uniswap StablePair Pools | Ondo Finance
+Skip to main content
+Products
+Resources
+Ecosystem
+About
+Launch App
+Products
+Resources
+Ecosystem
+About
+In this article
+Why It Matters: Connecting Ondo Stocks’ 24/7 Liquidity to Uniswap Pools
+What Sets Ondo Apart: Institutional-Grade Tokenization
+What’s Live: 15 Ondo Stocks Are Supported Today
+Ondo Stocks • Oct 27, 2026 • 4 min
+Ondo Stocks Are Live on Robinhood Chain With Uniswap StablePair Pools
+Ondo Finance
+Official Blog
+Ondo Stocks can now be bridged to Robinhood Chain, with 11 tokenized stocks and ETFs live in Uniswap v4 StablePair pools. The pools let traders swap between Ondo Stocks and Robinhood Stock Tokens referencing the same underlying stocks, while holders can supply liquidity to earn liquidity provider (LP) fees. 24/7 Ondo Stocks gives traders an additional route to source liquidity, exit positions, and act on price differences over weekends, when the minting and redemption window for Robinhood Stock Tokens is closed.
+15 of the most actively traded Ondo Stocks are live on Robinhood Chain today, including four that don’t have corresponding Robinhood Stock Tokens: Robinhood (HOODon), the iShares China Large-Cap ETF (FXIon), BitMine Immersion Technologies (BMNRon), and the United States Copper Index Fund (CPERon).
+Ondo Stocks can be bridged via the
+Ondo Bridge
+between Robinhood Chain and BNB Chain or Ethereum, where they can be minted and redeemed.
+Why It Matters: Connecting Ondo Stocks’ 24/7 Liquidity to Uniswap Pools
+The new Uniswap StablePair pools on Robinhood Chain pair Ondo Stocks with Robinhood Stock Tokens referencing the same underlying stocks, such as NVDAon and NVDArh. Traders can swap directly between the two, while holders can supply liquidity to earn liquidity provider (LP) fees.
+StablePair can help liquidity providers retain more value from price corrections through dynamic LP fees. When the paired tokens drift from their expected exchange rate, traders can profit by bringing them back toward alignment. StablePair adjusts the LP fee on those swaps so liquidity providers can capture more of that value, while preserving an incentive for traders to act.
+Ondo Stocks’ 24/7 minting and redemption at prevailing prices gives traders an additional route to source liquidity, exit positions, and act on price differences over weekends, when the minting and redemption window for Robinhood Stock Tokens is closed. Robinhood Stock Tokens continue trading onchain during that closure, but their supply cannot expand to meet new demand, and holders cannot exit through Robinhood’s redemption process. This limitation can result in onchain price divergence.
+Through the Ondo Bridge and Uniswap pools, participants can bring fresh Ondo Stocks inventory into Robinhood Chain or swap into Ondo Stocks to access redemption without waiting for Robinhood’s own minting and redemption window to reopen. Together, Uniswap’s pools and Ondo Stocks’ 24/7 minting and redemption connect weekend trading to an additional source of token supply and a redemption route that remains open.
+For example, when a Robinhood Stock Token trades at a sufficient discount to the prevailing price, an eligible trader could:
+Buy the discounted Robinhood Stock Token on a secondary market.
+Swap it for the corresponding Ondo Stocks asset through the StablePair pool.
+Bridge and redeem the Ondo Stocks asset, even on weekends.
+This creates an additional arbitrage route that can help narrow price differences while the minting and redemption window for Robinhood Stock Tokens is closed.
+The benefits can extend beyond StablePair pools themselves. By providing a mechanism that can keep Robinhood Stock Token prices closer to prevailing market conditions over the weekend, this can also support more consistent pricing in other pools that use the same Robinhood Stock Tokens as a trading pair.
+What Sets Ondo Apart: Institutional-Grade Tokenization
+Robinhood Chain was built as an institutional-grade network for tokenized real-world assets. Now, Ondo Stocks brings institutional-grade RWAs.
+Since launching in September 2025, Ondo Stocks has quickly become the largest tokenized stock platform globally, reaching $1.3 billion in total value locked and over 450,000 cumulative holders.
+Ondo Stocks pioneered tokenized stocks by combining:
+Deep liquidity, low slippage:
+A just-in-time request-for-quote (RFQ) liquidity model taps into underlying stock and ETF liquidity to meet trading demand, supporting large trades without relying solely on prefunded onchain pools.
+Full asset backing:
+Each token is fully backed by securities held at U.S.-registered broker-dealers and cash in transit.
+Institutional-grade investor protections:
+Third-party verification of backing every business day, a structure designed for bankruptcy remoteness, and a first-priority security interest in the backing assets held by an independent security agent for the benefit of tokenholders.
+24/7 onchain transfers:
+Holders can move assets between supported wallets and applications at any time.
+Utility across DeFi:
+Integrations enable holders to use supported tokenized stocks and ETFs for trading, liquidity provision, lending, and collateral.
+Global availability:
+Ondo Stocks can be transferred instantly, 24/7/365 outside the U.S. (subject to jurisdictional and other restrictions).
+What’s Live: 15 Ondo Stocks Are Supported Today
+The initial lineup of Ondo Stocks on Robinhood Chain spans individual stocks and ETFs providing exposure to major indexes, Chinese equities, copper, and more.
+11 of these Ondo Stocks can be minted and redeemed 24/7 on Ethereum and BNB Chain, including weekends. All 11 have StablePair pools on Uniswap:
+NVIDIA (NVDAon) - AI chips and accelerated computing
+SpaceX (SPCXon) - Rockets, satellites, and Starlink internet
+SPDR S&P 500 ETF (SPYon) - Tracks the S&P 500 index
+Meta (METAon) - Facebook, Instagram, WhatsApp, and AI
+Alphabet (GOOGLon) - Google parent spanning search and cloud
+Apple (AAPLon) - iPhones, consumer devices, and digital services
+Strategy (MSTRon) - Corporate bitcoin treasury company
+Circle (CRCLon) - Issuer of the USDC stablecoin
+Tesla (TSLAon) - Electric vehicles, energy, and autonomy
+Invesco QQQ (QQQon) - Tracks the Nasdaq-100 index
+GameStop (GMEon) - Video game retailer
+4 more stocks and ETFs are live, but don’t have corresponding Robinhood Stock Tokens to pair with in StablePools:
+iShares China Large-Cap ETF (FXIon) - Exposure to large Chinese companies
+Robinhood (HOODon) - Retail trading and crypto platform
+BitMine (BMNRon) - Ethereum treasury company
+United States Copper Index Fund (CPERon) - Tracks copper futures prices
+Next
+Ondo Stocks
+•
+Oct 21, 2026
+What Sets Ondo Stocks Apart
+Announcement
+•
+Oct 5, 2026
+Introducing Ondo Private Markets: Private Company Exposure Trading 24/7
+Invest
+USDY
+OUSG
+Ondo Stocks
+Intelligent Portfolios
+Private Markets
+Infrastructure
+Ondo Network
+Bridge
+Converter
+Resources
+Insights
+Blog
+Learn
+Partners
+Ecosystem
+Foundation
+Flux Finance
+Explore
+Docs
+Trust & Security
+Bug Bounty
+Company
+Team
+Careers
+Media Kit
+Contact Us
+Media Inquiries
+Ondo ©
+2026
+Terms of Service
+Privacy Policy
