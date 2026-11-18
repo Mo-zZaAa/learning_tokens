@@ -18,7 +18,7 @@ const OUT = __dirname;
   log('첫 그림 단계', await f.$$eval('.fw-stage', a => a.length), '배지', await f.$$eval('.fw-badge', a => a.map(x => x.textContent).join(', ')));
   await f.scrollIntoViewIfNeeded(); await f.screenshot({ path: path.join(OUT, S + '_flow1.png') });
   log('글 금지 문자:', await p.$eval('.odx', e => { const t = e.innerText; return { 긴줄표: (t.match(/[—–]/g) || []).length, 가운뎃점: (t.match(/·/g) || []).length, 제공: (t.match(/제공/g) || []).length }; }));
-  await p.fill('#q', 'Rothera'); await p.waitForTimeout(400); log('찾기:', await p.textContent('#sres .sh'));
+  await p.fill('#q', process.argv[3] || 'Rothera'); await p.waitForTimeout(400); log('찾기:', await p.textContent('#sres .sh'));
   await c.close();
   const m = await b.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true }); const mp = await m.newPage(); watch(mp, 'mobile');
   await mp.goto(U + '#' + S); await mp.waitForSelector('.odx');
