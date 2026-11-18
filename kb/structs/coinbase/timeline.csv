@@ -18,7 +18,7 @@
 2020,2020-12-31(실적(연간)),CB-E17,2020 실적: 순이익 3.22억 달러 흑자,"Coinbase Global, Inc."
 2021,2021-04-14(상장),CB-E18,Nasdaq 직상장(종목 기호 COIN),"Coinbase Global, Inc."
 2021,2021-05(발행),CB-E19,"전환사채 14.4억 달러, 선순위채 20억 달러","Coinbase Global, Inc."
-2021,2021-09-15(신청),CB-E20,선물 중개사(FCM) 인가 신청,"Coinbase Financial Markets, Inc."
+2021,2021-09-15(신청),CB-E20,선물 중개사(FCM) 인가 신청,Coinbase Financial Markets
 2021,2021-12-31(실적(연간)),CB-E21,"2021 실적: 총매출 78.39억 달러, 기관 거래대금 68%","Coinbase Global, Inc."
 2022,2022-02-01(완료),CB-E22,선물 거래소 FairX 인수(2022-01-11 계약),"Coinbase Derivatives, LLC(옛 LMX Labs, FairX)"
 2022,2022-06-27(출시),CB-E23,첫 선물 상품 나노 비트코인 선물(외부 중개사 판매),"Coinbase Derivatives, LLC"
@@ -27,7 +27,7 @@
 2023,2023-05(출시),CB-E26,버뮤다 인가 거래소에서 미국 밖 기관에 무기한선물 판매,Coinbase International Exchange
 2023,2023-06-06(제소),CB-E27,SEC 민사 소송(2025-02-27 취하),"Coinbase, Inc., Coinbase Global, Inc."
 2023,2023-08(계약),CB-E28,"USDC 구조 변경: Centre 해산, Circle 단독 발행, Coinbase는 Circle 지분과 이자 몫","Coinbase Global, Inc., Circle(외부)"
-2023,2023-08-15(등록),CB-E29,"선물 중개사(FCM) 등록, 자기 고객에게 선물 직접 판매","Coinbase Financial Markets, Inc."
+2023,2023-08-15(등록),CB-E29,"선물 중개사(FCM) 등록, 자기 고객에게 선물 직접 판매",Coinbase Financial Markets
 2023,2023-09(발표),CB-E30,"해외 우선 시장 여섯 곳 지정(EU, 영국, 캐나다, 브라질, 싱가포르, 호주)","Coinbase Global, Inc."
 2024,2024-02-15(발표),CB-E31,"2024 우선순위: 거래와 USDC로 매출, USDC와 Base로 결제","Coinbase Global, Inc."
 2024,2024-12-31(실적(연간)),CB-E32,"2024 실적: 총매출 65.64억 달러, 스테이블코인 9.10억","Coinbase Global, Inc."
@@ -40,12 +40,12 @@
 2025,2025-08(발행),CB-E39,전환사채 30억 달러 발행,"Coinbase Global, Inc."
 2025,2025-10-03(신청),CB-E40,OCC 연방 국가 신탁회사 설립 신청,Coinbase National Trust Company(설립 신청)
 2025,2025-12(계약),CB-E41,예측시장 청산 스타트업 The Clearing Company 인수 계약,"Coinbase Global, Inc."
-2025,2025-12(출시(일부 이용자)),CB-E42,앱에서 미국 주식과 ETF 중개(2026-02-24 전체 이용자),Coinbase Capital Markets Corporation(옛 Keystone)
-2025,2025-12-17(출시),CB-E43,예측시장 출시(주문은 모두 Kalshi로),"Coinbase Financial Markets, Inc."
+2025,2025-12(출시(일부 이용자)),CB-E42,앱에서 미국 주식과 ETF 중개(2026-02-24 전체 이용자),Coinbase Capital Markets(옛 Keystone Capital Corporation)
+2025,2025-12-17(출시),CB-E43,예측시장 출시(주문은 모두 Kalshi로),Coinbase Financial Markets
 2026,2026-01(변경),CB-E44,회사 자체 보유 스테이블코인 수익을 순매출 밖으로 옮겨 적음,"Coinbase Global, Inc."
 2026,2026-03-20(출시),CB-E45,미국 밖 고객에게 미국 주식 무기한선물,Coinbase International Exchange
 2026,2026-05(출시),CB-E46,미국 밖 고객에게 금과 은 무기한선물,Coinbase International Exchange
-2026,2026-06-11(허용),CB-E47,미국 고객이 세계 가상자산 무기한선물을 직접 거래(CFTC 허용),"Coinbase Financial Markets, Inc."
+2026,2026-06-11(허용),CB-E47,미국 고객이 세계 가상자산 무기한선물을 직접 거래(CFTC 허용),Coinbase Financial Markets
 2026,2026-07-15(참여(보도)),CB-E48,경쟁 스테이블코인 모델 Open USD 참여,"Coinbase Global, Inc."
 2026,2026-08-05(갱신(발표)),CB-E49,USDC 계약 같은 조건으로 2029까지 갱신,"Coinbase Global, Inc., Circle(외부)"
 2026,2026-08-24(출시),CB-E50,미국 밖 개인용 주식 토큰 Coinbase Tokenized Stocks 발행,Coinbase Onchain SPV Ltd(아부다비)

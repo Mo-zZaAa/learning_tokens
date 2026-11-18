@@ -1,0 +1,16 @@
+번호,상품,자산이 있는 곳,미국 안 투자자,미국 밖 투자자,판매 법인과 인가,판매 경로,날짜(종류),근거
+RH-S01,미국 주식과 옵션,미국 상장,팖(개인),"영국 개인에게 미국 주식, 옵션(Robinhood U.K.)","미국 Robinhood Financial(SEC 증권사), 영국 Robinhood U.K.(FCA)",Robinhood 앱,"2015-03-12 미국 출시, 2017-12-13 옵션 출시, 2024-03-19 영국 출시",EVRH-002 F-1557 F-1574 F-0613
+RH-S02,미국 주식 주 5일 24시간,미국 상장(야간 체결 Blue Ocean ATS),팖,이 표에서 확인 안 함,Robinhood Financial,Robinhood 앱,2023-05-10 출시,F-1196 F-1241
+RH-S03,가상자산(미국),블록체인(국적 없음),팖(주별 인가가 있는 주),해당 없음,"Robinhood Crypto(뉴욕주 가상자산 인가, 주별 송금업 인가)",Robinhood 앱,"2018-02-22 출시(5개 주), 2019-01 뉴욕 인가",F-1559 F-0257 F-0597
+RH-S04,가상자산(EU),블록체인,해당 없음,EU 개인,"Robinhood Europe(리투아니아, MiCA CASP)",Robinhood EU 앱,"2023-12-07 출시, 2025-06 MiCA 인가",F-1575 F-0213
+RH-S05,가상자산(영국),블록체인,해당 없음,영국 개인,"Bitstamp UK(FCA 등록 가상자산 사업자, 인수)",Robinhood 앱(영국 주식 계좌와 같은 앱),2026-08-10 출시,F-1578
+RH-S06,가상자산(캐나다),블록체인,해당 없음,캐나다 개인과 기관,"Coinsquare Capital Markets(CIRO 투자딜러, 인수)","Bitbuy, Coinsquare, Robinhood 앱(캐나다달러 거래 1회 0.5%)","2026-06-01 인수 완료, 2026-07-01 캐나다 정식 출시",F-1999 F-2002 F-1577
+RH-S07,Bitstamp 가상자산 거래소,블록체인,"미국 일부 고객(Bitstamp USA, 뉴욕주 가상자산 인가)","미국 밖 개인과 기관(EU, 영국, 싱가포르, BVI 법인)",Bitstamp 나라별 법인(인수),"Bitstamp 거래소, API, 화이트라벨",2025-06-02 인수 완료,F-1994 F-1996 F-0616 F-0258
+RH-S08,가상자산 무기한선물,블록체인 자산을 기초로 한 계약,"계획(Robinhood Derivatives가 Bitstamp를 거쳐, 일부 최대 10배)","EU 개인(최대 3배, 뒤에 최대 10배)과 Bitstamp 고객","EU Robinhood Europe, 체결 Bitstamp 거래소",Robinhood EU 앱,"2025-06-30 EU 출시, 2026-09-29 미국 계획 발표",F-0224 F-0659 F-2005 F-1582
+RH-S09,Classic Stock Tokens,미국 주식과 ETF(회사가 위험을 줄이려 사 둔 주식은 미국 인가 기관이 보관),팔지 않음,일부 EEA 관할 적격 개인,Robinhood Europe(리투아니아 MiFID 증권 중개 인가),Robinhood EU 앱 안에서만,2025-06-30 출시,F-0640 F-0647 F-0214
+RH-S10,Stock Tokens,"미국 주식(Alpaca Securities 보관), 토큰은 Robinhood Chain",팔지 않음(미국 증권법 미등록),"120여 개국 적격 이용자. 캐나다, 영국, 스위스 제한","발행 RHJ(저지, 비규제), 1차 청약 Bitstamp Global(BVI). 이용자에게 파는 법인 없이 탈중앙 거래소에서 거래","Robinhood Wallet, 탈중앙 거래소",2026-07-01 출시,F-0637 F-0871 F-0880 F-0869 F-0890
+RH-S11,예측시장 이벤트 계약,"미국 CFTC 규제 거래소(Kalshi, ForecastEx, Crypto.com, Rothera)",팖(일부 주는 스포츠 계약 중단 합의),이 표에서 확인 안 함,Robinhood Derivatives(CFTC FCM),Robinhood 앱 예측시장 허브,"2025-03-17 출시, 2026-06-04 Rothera로 첫 주문",F-1156 F-1990 F-1635
+RH-S12,선물,미국 선물 거래소 상장(CME 등),팖(Robinhood Derivatives),영국 개인(CME 선물 40종 넘게),"미국 Robinhood Derivatives(FCM), 영국 Robinhood U.K.(FCA)",Robinhood 앱,"2024-10-16 미국 출시 발표, 2025-10-27 영국 출시",F-1154 F-1579
+RH-S13,일임 자문 Robinhood Strategies,고객 계좌(미국),팖(관리계좌 고객 개인),해당 없음,Robinhood Asset Management(SEC 등록 투자자문사),Robinhood 앱,2025-03 출시,F-0593 F-0594 F-0604
+RH-S14,자문사 고객 계좌(TradePMR),미국 증권 계좌,팖(독립 투자자문사와 그 고객),해당 없음,"TradePMR(FINRA 회원 증권사, 인수)",자문사가 TradePMR 프로그램으로 계좌를 엶,2025-02-26 인수 완료,F-1997
+RH-S15,"비상장 투자 펀드 RVI, RVII",미국 비상장 회사 지분(펀드가 보유),팖(NYSE 상장 펀드),이 표에서 확인 안 함,운용 Robinhood Ventures DE(투자자문사),NYSE 거래,2026-03-05 RVI 상장,F-1386 F-1330

@@ -195,7 +195,7 @@
 - 근거: F-2131 F-2132
 
 ## CB-E20 2021-09-15(신청) 선물 중개사(FCM) 인가 신청
-- 법인: Coinbase Financial Markets, Inc.
+- 법인: Coinbase Financial Markets
 1. 무엇: 2021-09-15 Coinbase Financial Markets가 미국 선물협회(NFA)에 선물 중개사(FCM) 등록을 신청함
 2. 어떻게: 선물 중개사는 고객의 선물 주문과 증거금(거래 보증금)을 받아 거래소에 넘기는 미국 인가 회사임. 이 인가가 있어야 Coinbase 고객에게 선물을 직접 팔 수 있음
 3. 왜(추정): (판단) 미국 개인에게 가상자산 선물을 팔 계획이었고 판매 자리를 직접 갖추려 함 [F-1228 F-1622]
@@ -285,7 +285,7 @@
 - 근거: F-1609 F-2091 F-2082 F-1603 F-2088
 
 ## CB-E29 2023-08-15(등록) 선물 중개사(FCM) 등록, 자기 고객에게 선물 직접 판매
-- 법인: Coinbase Financial Markets, Inc.
+- 법인: Coinbase Financial Markets
 1. 무엇: 2023-08-15 Coinbase Financial Markets가 NFA에 선물 중개사로 등록되고 같은 날 NFA 회원 승인을 받음(신청 2021-09-15, 23개월). 스왑 회원 승인은 2025-10-02
 2. 어떻게: 이 인가로 Coinbase 고객의 선물 주문과 증거금을 직접 받아 Coinbase Derivatives에 넘길 수 있게 됨. 2025-12부터는 사건 계약(예측시장)도 이 법인이 팖
 3. 왜(추정): (판단) 거래소(2022)에 이어 판매 자리를 직접 가져 앱 고객의 선물 수수료를 외부 중개사와 나누지 않으려 함 [F-1228]
@@ -405,7 +405,7 @@
 - 근거: F-1625 F-1626
 
 ## CB-E42 2025-12(출시(일부 이용자)) 앱에서 미국 주식과 ETF 중개(2026-02-24 전체 이용자)
-- 법인: Coinbase Capital Markets Corporation(옛 Keystone)
+- 법인: Coinbase Capital Markets(옛 Keystone Capital Corporation)
 1. 무엇: 2025-12 SEC 등록 증권사 Coinbase Capital Markets가 일부 미국 이용자에게 주식과 ETF 거래를 엶(초기 3,000종목). 2026-02-24 미국 전체 이용자에게 8,000종목 넘게, 주 5일 24시간, 거래 수수료 없이 엶
 2. 어떻게: 토큰이 아니라 실제 미국 주식임. Coinbase Capital Markets는 주문만 받는 소개 중개사이고 체결, 청산, 보관은 Apex Fintech Solutions가 함. USDC로 결제하고 1달러부터 소수점 단위로 삼(파이낸셜뉴스 영문판 보도)
 3. 왜(회사 발언): 고객이 원하는 자산을 한 곳에서 거래하게 해 이미 자산이 있는 곳에서 더 관리하게 함(2026 우선순위, 2025 4분기 서한) [F-1271]
@@ -418,7 +418,7 @@
 - 근거: F-2099 F-2101 F-0100 F-0101 F-2102 F-1271 / 본문 줄: cb-0171 cb-0219 cb-0274 cb-0300 cb-0301 cb-0321 cb-0357 cb-0391
 
 ## CB-E43 2025-12-17(출시) 예측시장 출시(주문은 모두 Kalshi로)
-- 법인: Coinbase Financial Markets, Inc.
+- 법인: Coinbase Financial Markets
 1. 무엇: 2025-12-17 미국에서 예측시장 판매를 시작함. 선물 중개사 Coinbase Financial Markets가 사건 계약(예/아니오로 끝나는 계약)을 팔고, 출시 때 주문은 모두 Kalshi(CFTC 지정 사건 계약 거래소)로 넘김. 2026-01-28 50개 주 전체로 엶
 2. 어떻게: 고객은 Coinbase 앱에서 주문하고, 체결은 Kalshi 거래소에서 됨. 계약 분야에 스포츠, 경제, 정치, 가상자산, 날씨가 들어감. 자체 계약은 2026-11 기준 시험 환경까지만 엶
 3. 왜(회사 발언): Kalshi는 초기 시장 진입을 도운 파트너이고 여러 파트너 계약도 계속 판다(CFO, 2026 3분기 콜) [F-1614]
@@ -458,7 +458,7 @@
 - 근거: F-1627
 
 ## CB-E47 2026-06-11(허용) 미국 고객이 세계 가상자산 무기한선물을 직접 거래(CFTC 허용)
-- 법인: Coinbase Financial Markets, Inc.
+- 법인: Coinbase Financial Markets
 1. 무엇: 2026-06-11 Coinbase Financial Markets가 미국 고객에게 세계 가상자산 무기한선물을 직접 팔 수 있는 첫 선물 중개사로 CFTC 허용을 받음. 같은 달 Coinbase Derivatives의 금, 은 선물을 24시간 거래로 바꿈(비트코인닷컴 보도)
 2. 어떻게: Coinbase Derivatives의 2026 1분기 금, 은 등 전통 상품선물 명목 거래대금은 520억 달러 초과
 3. 왜(추정): (판단) 미국 밖에서 먼저 연 상품(2023)을 미국 고객에게 들이는 순서. 규제 허용이 나오자마자 들임 [F-1628]

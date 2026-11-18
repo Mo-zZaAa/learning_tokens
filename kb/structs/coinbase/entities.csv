@@ -1,0 +1,18 @@
+번호,법인(정식 이름),브랜드 또는 부르는 이름,소재지,지배,인가의 정식 이름(감독),이 인가로 하는 일,확보 방식,날짜(종류),근거
+CB-L01,"Coinbase Global, Inc.","Coinbase(모회사, Nasdaq COIN)",미국. 2025-12 델라웨어에서 텍사스 법인으로 전환,최상위 모회사. B종 1주 20표,,그룹 지주,,2021-04-14 상장,F-1226 F-0103 F-0104
+CB-L02,"Coinbase, Inc.","Coinbase 앱, Coinbase Exchange(현물 거래소)",미국,Coinbase Global 자회사,"주별 송금업 인가, 뉴욕주 가상자산 인가(BitLicense)와 송금업 인가(NYDFS), 루이지애나 가상자산 인가","미국 개인과 기관의 가상자산 매매와 보관, 현물 거래소 체결",직접,2017-01 BitLicense 취득,F-2124 F-0255 F-1412 F-2096
+CB-L03,Coinbase Custody Trust Company,Coinbase Custody,미국 뉴욕,Coinbase Global 자회사,뉴욕주 제한목적 신탁회사(NYDFS),기관과 ETF 가상자산을 수탁인 자격으로 보관(적격 수탁기관). 예금은 받지 않음,직접,2018-10-23 취득,F-2119 F-0256 F-2123 F-2121
+CB-L04,Coinbase National Trust Company(설립 신청),,미국,,"예금보험 없는 국가 신탁회사(OCC, 신청)",연방 인가로 수탁인 자격 보관(신청 목적),직접,2025-10-03 신청,F-2122
+CB-L05,Coinbase Capital Markets(옛 Keystone Capital Corporation),,미국,Coinbase 자회사,"SEC 등록 증권사, FINRA 회원(CRD 10722)","미국 개인의 주식과 ETF 주문 접수(소개 중개사). 체결, 청산, 보관은 Apex",인수,"1982-08-13 최초 등록, 2018-07 인수 승인",F-1120 F-0245 F-2116 F-2099
+CB-L06,"Coinbase Derivatives, LLC",Coinbase Derivatives Exchange,미국,Coinbase 자회사,CFTC 지정 선물 거래소(DCM),"선물, 무기한형 선물, 사건 계약을 만들어 상장하고 체결","인수(FairX, 옛 LMX Labs)","지정 2020-11-23, 인수 완료 2022-02-01",F-1122 F-2109 F-2096
+CB-L07,Coinbase Financial Markets,,미국,Coinbase 자회사,"CFTC 선물 중개사(FCM), NFA 회원(스왑 회원 2025-10-02)","고객 선물 주문과 증거금을 받아 거래소에 넘김, 사건 계약 판매",직접,"신청 2021-09-15, 등록 2023-08-15",F-1228 F-2100
+CB-L08,Coinbase Clearing LLC,Coinbase Clearing,미국,Coinbase 자회사,CFTC 청산소(DCO),"완전 담보 계약(선물, 선물옵션, 스왑) 청산. 증거금 선물은 외부 Nodal Clear",직접,2026-09-28 등록,F-1123 F-1623 F-1624
+CB-L09,"Nodal Clear, LLC(외부)",,미국,Deutsche Börse 계열 EEX 소속(Coinbase 밖),CFTC 등록 청산소,Coinbase Derivatives 증거금 선물 청산,위탁,"FairX 때부터, 2025-05-09 24시간 청산",F-2111 F-2113
+CB-L10,Coinbase International Exchange(법인 이름 확인 못 함),INTX,버뮤다,Coinbase 자회사,버뮤다 금융청(BMA) 인가,"미국 밖 고객의 무기한선물(가상자산, 미국 주식, 금과 은)과 현물 체결. 2026-10 Deribit과 하나의 거래소로 합침",직접,2023-05 출범,F-1631 F-2096 F-0903
+CB-L11,Deribit FZE,Deribit,UAE 두바이,Sentillia B.V. 자회사(2025-08-14 Coinbase 인수),두바이 가상자산규제청(VARA) 조건부 가상자산사업자 인가,"옵션, 무기한선물, 만기 선물 체결",인수,2025-08-14 완료,F-2095 F-2093
+CB-L12,Coinbase Luxembourg S.A.,,룩셈부르크,Coinbase 자회사,EU 가상자산 규정(MiCA) 가상자산사업자(CASP) 인가,EEA 30개국 개인과 기관 가상자산 매매와 보관,직접,2025-06 취득,F-0254 F-1602
+CB-L13,CB Payments Ltd,,영국,Coinbase 자회사,FCA 가상자산사업자 등록,영국 고객 가상자산 매매,직접,2025-02-03 등록,F-1633
+CB-L14,Coinbase Onchain SPV Ltd,주식 토큰 발행 법인,UAE 아부다비(ADGM),OMHL 100% 자회사. OMHL은 Coinbase Global 100% 자회사,(발행 법인 자체 인가는 확인 못 함) 설명서는 FSRA가 이 증서를 증권으로 간주한다고 씀,Coinbase Tokenized Stocks 발행. 목적은 디지털 증권 발행에 한정,설립,2026-06 설립,F-0076 F-0077 F-0078 F-0079
+CB-L15,Coinbase ADGM 법인(이름 확인 못 함),,UAE 아부다비(ADGM),Coinbase 자회사,FSRA 금융서비스 인가(FSP): 투자 거래 주선과 수탁,주식 토큰 구조를 ADGM 감독 아래 둠,직접,2026-08 보도,F-0095 F-0741
+CB-L16,Coinbase Custody International Limited,,아일랜드,Coinbase 100% 자회사,확인 못 함,주식 토큰 발행 법인 운영비를 대출 한도로 채움,,2026-08 설명서,F-0089
+CB-L17,"Coinbase Technologies, Inc.",Base(시퀀서 운영),미국,Coinbase 자회사,금융 인가 없음,Base 거래 순서를 정하는 서버(Coinbase Sequencer)를 운영하고 처리 수수료를 받음. 이용자 자산을 보관하지 않음,직접,2023-08 Base 공개,F-0764 F-0768 F-0769 F-0770

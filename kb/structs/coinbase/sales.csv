@@ -1,0 +1,11 @@
+번호,상품,자산이 있는 곳,미국 안 투자자,미국 밖 투자자,판매 법인과 인가,판매 경로,날짜(종류),근거
+CB-S01,가상자산 현물,블록체인(국적 없음),"팖(주별 송금업, 뉴욕 BitLicense)","팖. EEA 30개국(MiCA), 영국(FCA 등록), 싱가포르, 캐나다, 호주, 브라질 현지 출시","미국 Coinbase, Inc., EEA Coinbase Luxembourg S.A., 영국 CB Payments Ltd","Coinbase 앱, Coinbase Advanced","2015-01 미국 거래소 출시(보도), 2025-06 MiCA",F-2130 F-2124 F-1602 F-1633 F-2134
+CB-S02,"미국 선물(가상자산, 금과 은, 주가지수)",미국 선물 거래소 상장 계약,팖,확인 못 함,Coinbase Financial Markets(FCM)와 외부 중개사,"Coinbase 앱, 외부 중개사(첫 상품 때 NinjaTrader 등)","2022-06-27 출시, 2023-08-15 자기 중개 등록",F-2112 F-1228 F-1628
+CB-S03,"미국 밖 무기한선물(가상자산, 미국 주식, 금과 은)","가상자산은 블록체인, 주식 무기한선물은 미국 주식 값만 따라감(주식 없음), 금과 은 값",못 삼(미국인 이용 불가),팖(적격 기관과 개인),Coinbase International Exchange(버뮤다 BMA 인가),"개인 Coinbase Advanced, 기관 직접 접속","2023-05 출시, 2026-03-20 주식, 2026-05 금과 은",F-1631 F-2103 F-1627
+CB-S04,세계 가상자산 무기한선물(미국 고객용),블록체인,"팖(2026-06-11 CFTC 허용, 첫 선물 중개사)",해당 없음,Coinbase Financial Markets(FCM),Coinbase 앱,2026-06-11 허용(보도),F-1628
+CB-S05,가상자산 옵션(Deribit),블록체인,"기관은 팖(2026-10 뒤), 개인은 준비 중",팖(기관과 고급 거래자),Deribit FZE(두바이 VARA 조건부 인가),Deribit 직접 접속,"2025-08-14 인수 완료, 2026-10 거래소 합침",F-2095 F-2106 F-0903
+CB-S06,예측시장(사건 계약),"미국 거래소 상장 사건 계약(Kalshi), 자체 계약은 시험 환경",팖(2026-01-28부터 50개 주),확인 못 함,"Coinbase Financial Markets(FCM), 체결은 Kalshi",Coinbase 앱,2025-12-17 출시,F-1376 F-2100
+CB-S07,미국 주식과 ETF(실제 주식),미국,"팖(8,000종목 넘게, 주 5일 24시간, 거래 수수료 없음)",해당 없음(미국 이용자 상품),"Coinbase Capital Markets(SEC 등록 증권사, FINRA 회원). 체결, 청산, 보관은 Apex Fintech Solutions",Coinbase 앱,"2025-12 일부 이용자 출시, 2026-02-24 전체 이용자",F-2099 F-2101 F-0100
+CB-S08,주식 토큰(Coinbase Tokenized Stocks),미국(기초주는 Alpaca 보관),못 삼(Regulation S로 미국인 제외),미국 밖 적격 개인. 한국 여부 확인 못 함,"발행 Coinbase Onchain SPV Ltd(ADGM, FSRA 감독). 판매 법인 없음",Base 위 탈중앙 거래소. 창설과 상환은 기관 AP만,2026-08-24 출시,F-0084 F-0088 F-0742 F-0095 F-0776
+CB-S09,USDC,달러 준비금(Circle 보유),팖,팖,발행 Circle(외부). Coinbase는 유통,"Coinbase 앱, Base",2018-09 출시,F-0790 F-1609 F-1611
+CB-S10,기관 보관,블록체인 자산(Coinbase Custody 보관),"팖(운용사, ETF, 상장사)",확인 못 함,Coinbase Custody Trust Company(뉴욕주 제한목적 신탁),Coinbase Prime,"2018-07-02 영업 시작(보도), 2018-10-23 신탁 인가",F-1377 F-2119 F-1604

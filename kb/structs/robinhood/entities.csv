@@ -1,0 +1,23 @@
+번호,법인(정식 이름),브랜드 또는 부르는 이름,소재지,지배,인가의 정식 이름(감독),이 인가로 하는 일,확보 방식,날짜(종류),근거
+RH-L01,"Robinhood Markets, Inc.",Robinhood(모회사),미국 캘리포니아 멘로파크,"최상위 모회사, Nasdaq 상장(HOOD). 창업자 두 명이 Class B(1주 10표)로 의결권 50% 초과(보통주 약 12%)",,그룹 지주,,"2013 설립, 2021-07-29 상장",F-0581 F-0583 F-1598 F-0210
+RH-L02,"Robinhood Financial, LLC",Robinhood(미국 증권 중개),미국,Robinhood Markets 완전 자회사,"SEC 등록 증권사(8-69188), FINRA 회원, SIPC 회원",미국 고객 주식과 옵션 주문을 받아 시장조성자에게 넘김,직접,2013-10 등록,F-0243 F-0585 F-0587 F-0589
+RH-L03,"Robinhood Securities, LLC",청산 법인,미국,완전 자회사,"SEC 등록 증권사(8-69916), FINRA 회원, SIPC 회원",Robinhood Financial이 받은 계좌의 청산과 보관,직접,"2017-10 등록, 2018-10 자체 청산 발표",F-0244 F-0588 F-1560
+RH-L04,"Robinhood Crypto, LLC",Robinhood Crypto,미국,완전 자회사,"뉴욕주 금융감독청 가상자산 인가와 송금업 인가, 주별 송금업 인가",미국 고객 가상자산 매매와 보관,직접,"2018-02 출시, 2019-01 뉴욕 인가",F-0257 F-0590 F-0592
+RH-L05,"Robinhood Derivatives, LLC",Robinhood Derivatives,미국,완전 자회사,"CFTC 등록 선물 중개사(FCM), NFA 회원(0424278)","선물과 이벤트 계약 주문, 증거금을 받아 거래소로 넘김. Rothera 청산 회원",인수(옛 Marex North America),"2010-11-23 FCM 등록(이전 법인), 2024-03 인수(위키백과 정리)",F-1236 F-1155 F-0591 F-2141
+RH-L06,"Robinhood Money, LLC",Robinhood Banking,미국,완전 자회사,주별 송금업 인가(NMLS 1990968),Robinhood Banking 계좌 판매. 예금은 Coastal Community Bank가 받음(은행 인가 아님),직접 + 은행 제휴,2025-03 발표,F-0596 F-0595 F-1572
+RH-L07,Robinhood Asset Management,Robinhood Strategies,미국,완전 자회사,SEC 등록 투자자문사,관리계좌 고객의 돈을 정한 포트폴리오로 굴리고 보수를 받음,직접,2025-03 출시,F-0593 F-0594 F-0604
+RH-L08,"Robinhood Ventures DE, LLC",Robinhood Ventures,미국,자회사,투자자문사,"비상장 투자 상장 펀드 RVI, RVII 운용",직접,2026-03-05 RVI 상장,F-1330 F-1386
+RH-L09,Robinhood U.K. Ltd,Robinhood UK,영국,자회사,영국 금융행위감독청(FCA) 인가,"영국 개인에게 주식, 옵션, 선물 중개",직접,"2019-11 발표, 2024-03-19 출시",F-1561 F-1574 F-0613
+RH-L10,"Robinhood Europe, UAB",Robinhood EU,리투아니아,완전 자회사,"리투아니아 중앙은행: EU 가상자산 단일 인가(MiCA CASP), 증권 중개 인가(MiFID A등급: 주문 전달, 집행, 자기계정 거래)","EU 개인에게 가상자산, Classic Stock Tokens(파생계약 상대), 무기한선물",직접,"2023 설립과 가상자산 사업자 등록, 2025-06 두 인가",F-0212 F-0213 F-0214 F-0216 F-0586
+RH-L11,Robinhood Assets (Jersey) Limited,RHJ(Stock Tokens 발행사),저지 St. Helier,"단독 주주 Robinhood International, Inc.",규제 대상 아님. 저지 차입 통제 동의(COBO consent)만 받음. 기본투자설명서는 리히텐슈타인 FMA 승인,"Stock Tokens 발행, 기초 주식 매입과 담보 보유",직접,"2026-06-25 기본투자설명서, 2026-07 출시",F-0852 F-0853 F-0854 F-0855 F-0856 F-0857
+RH-L12,Robinhood Non-Custodial Ltd.,Robinhood Wallet,케이맨,자회사,이 표에서 확인한 인가 없음,이용자가 자산을 직접 쥐는 지갑 앱(150개국 넘게),직접,,F-0615
+RH-L13,Bitstamp Global Ltd,Bitstamp,영국령 버진아일랜드 토르톨라,자회사(2025-06-02 인수),"BVI 금융서비스위원회 가상자산 사업자(VASP), 투자서비스(SIBA)","미국 밖 가상자산 거래소, Stock Tokens 1차 청약 창구(승인 참가자, AP)",인수,2025-06-02 완료,F-1636 F-0871
+RH-L14,Bitstamp Europe S.A.,Bitstamp EU,룩셈부르크,자회사(인수),"EU 가상자산 단일 인가(MiCA CASP, 거래 플랫폼 운영 포함)",EU 가상자산 거래소와 무기한선물 체결,인수,2025-06-02 완료,F-0253 F-0224
+RH-L15,Bitstamp UK Ltd,Bitstamp UK,영국,자회사(인수),영국 FCA 등록 가상자산 사업자,영국 개인 가상자산 매매(Robinhood 앱 안),인수,2026-08-10 영국 가상자산 출시,F-1578 F-1636
+RH-L16,Bitstamp Asia,Bitstamp Asia,싱가포르,자회사(인수),싱가포르 통화청(MAS) 주요결제기관(MPI) 면허,싱가포르 가상자산 서비스,인수,2025-06-02 완료,F-1580 F-1636
+RH-L17,"Bitstamp USA, Inc.",Bitstamp US,미국,자회사(인수),뉴욕주 금융감독청 가상자산 인가,미국 일부 고객 가상자산 거래,인수,"2019-04 인가(이전), 2025-06-02 인수",F-0258 F-1996
+RH-L18,Coinsquare Capital Markets Ltd.,"Bitbuy, Coinsquare",캐나다,WonderFi 완전 자회사(2026-06-01 인수),"캐나다 투자산업 자율규제기구(CIRO) 회원 투자딜러, 온타리오 증권위원회 등록 가상자산 거래 플랫폼",캐나다 개인 가상자산 매매와 보관(딜러로 고객 주문을 받음),인수,"2026-05-20 CIRO 승인, 2026-06-01 완료",F-2002 F-0614 F-2001 F-0608
+RH-L19,TradePMR,TradePMR,미국,자회사(2025-02-26 인수),FINRA 회원 증권사,"독립 투자자문사 고객 계좌 보관과 주문 업무 프로그램. 체결, 청산, 대출은 Wells Fargo Clearing Services",인수,2025-02-26 완료,F-1997 F-0603
+RH-L20,"Rothera LLC, Rothera Exchange and Clearing LLC",Rothera(옛 MIAXdx),미국,"Susquehanna와 합작. Rothera가 거래소 지분 90%, MIAX 10%. Robinhood가 CEO 선임권과 이사회 과반으로 재무제표에 포함(위험요인은 운영상 통제하지 않는다고 씀)","CFTC 지정 선물 거래소(DCM), 청산소(DCO), 스와프 거래장(SEF)","이벤트 계약과 선물 상장, 체결, 청산",합작 인수,"2025-11-25 발표, 2026-01-20 완료",F-1987 F-1988 F-2181 F-0610
+RH-L21,Robinhood Singapore Pte. Ltd.,Robinhood Singapore,싱가포르,자회사,싱가포르 통화청 자본시장서비스 면허,중개(출시는 장래 계획),직접,"2026-04-23 예비인가, 2026-07-01 면허",F-1580 F-0617
+RH-L22,Robinhood MENA Limited,Robinhood MENA,아랍에미리트 두바이,자회사,두바이 금융감독청(DFSA) 인가,"주식, 옵션, 가상자산, ETF, 투자 토큰 등 10개 자산군 거래와 수탁(출시는 2027 계획)",직접,2026-10-27 발표,F-1284 F-0618 F-0619
