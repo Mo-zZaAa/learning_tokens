@@ -37,7 +37,7 @@ function bulletBlock(b) {
     if (!kids || !kids.length) return;
     const numInst = ++inst;
     for (const k of kids) {
-      const num = k.num ? { reference: 'num', level: Math.min(lv, 3), instance: numInst } : { reference: 'bul', level: Math.min(lv, 3) };
+      const num = k.num ? { reference: 'num' + numInst, level: Math.min(lv, 3) } : { reference: 'bul', level: Math.min(lv, 3) };
       ps.push(new Paragraph({ numbering: num, spacing: { before: 0, after: 10 }, children: runs(k.text) }));
       walk(k.kids, lv + 1);
     }
@@ -117,7 +117,7 @@ function numbering() {
   const ind = lv => ({ left: 300 + lv * 300, hanging: 220 });
   return { config: [
     { reference: 'bul', levels: bulletChars.map((ch, lv) => ({ level: lv, format: LevelFormat.BULLET, text: ch, alignment: AlignmentType.LEFT, style: { paragraph: { indent: ind(lv) }, run: { font: FONT } } })) },
-    { reference: 'num', levels: [0, 1, 2, 3].map(lv => ({ level: lv, format: LevelFormat.DECIMAL, text: `%${lv + 1})`, alignment: AlignmentType.LEFT, style: { paragraph: { indent: { left: 300 + lv * 300 + 60, hanging: 280 } }, run: { font: FONT } } })) },
+    ...Array.from({ length: inst + 1 }, (_, n) => ({ reference: 'num' + n, levels: [0, 1, 2, 3].map(lv => ({ level: lv, format: LevelFormat.DECIMAL, text: `%${lv + 1})`, alignment: AlignmentType.LEFT, style: { paragraph: { indent: { left: 300 + lv * 300 + 60, hanging: 280 } }, run: { font: FONT } } })) })),
   ] };
 }
 
