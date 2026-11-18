@@ -358,7 +358,7 @@ def resolve_tag(tag, news):
 
 def build_odx(slug, ids):
     """개요 패키지 카드: 줄마다 id를 주고 태그를 원문으로 풂."""
-    pk = ondo_card.load()
+    pk = ondo_card.load(slug)
     if not pk:
         return None
     card = json.loads(json.dumps(pk["card"]))
@@ -387,7 +387,7 @@ def build_odx(slug, ids):
     flows = {k: ondo_card.flow_html(v) for k, v in pk.get("flows", {}).items()}
     titles = {k: v.get("title", "") for k, v in pk.get("flows", {}).items()}
     return {"card": card, "flows": flows, "ftitles": titles, "tags": {t: resolve_tag(t, news) for t in tags},
-            "news": pk.get("sources_new", []), "path": rel(ondo_card.JSON_PATH)}
+            "news": pk.get("sources_new", []), "path": rel(ondo_card.card_path(slug))}
 
 
 def build_overview(slug, ids):
@@ -410,7 +410,7 @@ def build_overview(slug, ids):
                 else:
                     doc = parse_card(slug, txt, ids, layer=rp, mode="open", art=True)
             part = {"path": rp, "label": lab, "doc": doc}
-            if slug == "ondo" and k == "L1":  # Ondo 1층은 개요 패키지 카드(inputs/ondo_overview_261118)
+            if k == "L1" and slug != "common":  # 1층은 회사 개요 카드 JSON(Ondo는 inputs/ondo_overview_261118 사본, 다른 회사는 kb/<slug>_overview)
                 odx = build_odx(slug, ids)
                 if odx:
                     part = {"path": odx.pop("path"), "label": lab, "doc": None, "odx": odx}

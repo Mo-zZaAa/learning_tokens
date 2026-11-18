@@ -118,11 +118,19 @@ def flow_html(f, title=False):
     return "".join(h)
 
 
-def load():
-    """패키지가 없으면 None."""
-    if not JSON_PATH.exists():
+def card_path(slug="ondo"):
+    """회사 개요 카드 JSON 경로. Ondo는 패키지 사본, 다른 회사는 kb/<slug>_overview/<slug>_overview.json."""
+    return JSON_PATH if slug == "ondo" else ROOT / f"kb/{slug}_overview/{slug}_overview.json"
+
+
+def load(slug="ondo"):
+    """카드 JSON이 없으면 None."""
+    path = card_path(slug)
+    if not path.exists():
         return None
-    d = json.loads(JSON_PATH.read_text(encoding="utf-8"))
+    d = json.loads(path.read_text(encoding="utf-8"))
+    if slug != "ondo":
+        return d
     v2 = ROOT / "kb/flows/ondo_flows_v2.json"
     if v2.exists():
         over = json.loads(v2.read_text(encoding="utf-8"))

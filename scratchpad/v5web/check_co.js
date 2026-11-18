@@ -1,0 +1,31 @@
+// 회사 개요 카드 점검: node scratchpad/v5web/check_co.js <slug>
+const { chromium } = require('playwright'); const path = require('path');
+const S = process.argv[2] || 'robinhood';
+const U = 'file://' + path.resolve(__dirname, '../../web/v5/index.html');
+const OUT = __dirname;
+(async () => {
+  const b = await chromium.launch(); const errs = []; const log = (...a) => console.log(...a);
+  const watch = (p, t) => { p.on('console', m => { if (m.type() === 'error') errs.push(t + ' ' + m.text()); }); p.on('pageerror', e => errs.push(t + ' ' + e.message)); };
+  const c = await b.newContext({ viewport: { width: 1280, height: 900 }, deviceScaleFactor: 1 }); const p = await c.newPage(); watch(p, 'pc');
+  await p.goto(U + '#' + S); await p.waitForSelector('.odx');
+  log('머리:', await p.$eval('.odx-hd', e => e.innerText.replace(/\n/g, ' ')));
+  log('줄:', await p.$$eval('.odx .olab', a => a.map(x => x.textContent).join(' / ')));
+  log('그림:', await p.$$eval('.odx details.ofig summary', a => a.map(x => x.textContent).join(' / ')), '| 돈 시점 표 줄:', await p.$$eval('.odx .onote .fw-tb tbody tr', a => a.length));
+  log('상품별 표 열림:', await p.$$eval('.odx details.omore[open]', a => a.map(d => d.querySelectorAll('tbody tr').length + '줄')));
+  await p.evaluate(() => document.querySelector('.odx details.omore[open]').scrollIntoView()); await p.waitForTimeout(100);
+  await p.screenshot({ path: path.join(OUT, S + '_grid_pc.png') });
+  const f = await p.$('.odx details.ofig'); await (await f.$('summary')).click(); await p.waitForTimeout(100);
+  log('첫 그림 단계', await f.$$eval('.fw-stage', a => a.length), '배지', await f.$$eval('.fw-badge', a => a.map(x => x.textContent).join(', ')));
+  await f.scrollIntoViewIfNeeded(); await f.screenshot({ path: path.join(OUT, S + '_flow1.png') });
+  log('글 금지 문자:', await p.$eval('.odx', e => { const t = e.innerText; return { 긴줄표: (t.match(/[—–]/g) || []).length, 가운뎃점: (t.match(/·/g) || []).length, 제공: (t.match(/제공/g) || []).length }; }));
+  await p.fill('#q', 'Rothera'); await p.waitForTimeout(400); log('찾기:', await p.textContent('#sres .sh'));
+  await c.close();
+  const m = await b.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true }); const mp = await m.newPage(); watch(mp, 'mobile');
+  await mp.goto(U + '#' + S); await mp.waitForSelector('.odx');
+  await mp.evaluate(() => document.querySelectorAll('.odx details').forEach(d => d.open = true)); await mp.waitForTimeout(200);
+  log('휴대폰 가로 폭:', await mp.evaluate(() => [document.documentElement.scrollWidth, document.documentElement.clientWidth]), '넘친 상자:', await mp.$$eval('.fw-bx', a => a.filter(x => x.getBoundingClientRect().right > document.documentElement.clientWidth + 1).length));
+  await mp.evaluate(() => document.querySelector('.odx details.omore[open]').scrollIntoView()); await mp.waitForTimeout(100);
+  await mp.screenshot({ path: path.join(OUT, S + '_grid_m.png') });
+  await m.close(); await b.close();
+  log('오류:', errs.length ? errs.slice(0, 5) : '없음');
+})();

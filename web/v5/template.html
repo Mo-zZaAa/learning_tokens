@@ -570,7 +570,7 @@ function odxItem(it, depth){
   if (it.flow && it.note) h += `<div class="onote">${ODX.flows[it.flow] || ''}</div>`;
   else if (it.flow) h += `<details class="ofig"><summary>그림: ${esc(ODX.ftitles[it.flow] || it.flow)}</summary>${ODX.flows[it.flow] || ''}</details>`;
   const kids = it.kids || [], n = kids.length + (it.table ? 1 : 0);
-  if (depth === 0 && n) h += `<details class="omore"><summary>세부 ${n}</summary>${it.table ? odxTable(it.table) : ''}${odxKids(kids)}</details>`;
+  if (depth === 0 && n) h += `<details class="omore"${it.open ? ' open' : ''}><summary>${it.open ? '표' : '세부 ' + n}</summary>${it.table ? odxTable(it.table) : ''}${odxKids(kids)}</details>`;
   else h += (it.table ? odxTable(it.table) : '') + odxKids(kids);
   return h + '</li>';
 }
