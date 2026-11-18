@@ -51,6 +51,7 @@ STRUCT_LABEL = {
 }
 STRUCT_ORDER = ["money", "funding", "deals", "entities", "products", "sales", "valuechain", "article", "timeline"]
 FACT_COLS = ["fact_id", "회사", "시작(연월)", "무엇을", "값", "단위", "기준일", "검증 상태", "링크", "원문 근거 문장", "source_id"]
+DEEP = {"ondo": {"href": "ondo_deep.html", "label": "Ondo 깊이 보기"}}  # 회사별 깊이 보기 페이지(같은 폴더)
 TERM_STOP = {"증권"}  # 너무 흔해 풍선이 오히려 방해되는 말
 
 
@@ -322,7 +323,10 @@ def build_overview(slug, ids):
                     doc = parse_card(slug, txt, ids, layer=rp, mode="open", art=True)
             parts.append({"path": rp, "label": lab, "doc": doc})
         layers.append({"k": k, "label": label, "kind": kind, "id": ids.make(f"{slug}-o-{k}"), "parts": parts})
-    return {"layers": layers}
+    ov = {"layers": layers}
+    if slug in DEEP:
+        ov["deep"] = DEEP[slug]  # 개요 맨 위 "깊이 보기" 링크(상대 경로)
+    return ov
 
 
 # ---------------- 지난 본문(companies/<회사>_vN.md) ----------------

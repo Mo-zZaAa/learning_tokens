@@ -81,6 +81,7 @@ table{font-size:inherit}
 .empty{color:var(--faint)}
 
 /* 개요 */
+.deeplink{margin:6px 0 10px;font-weight:700}
 .ov{max-width:none}
 .read{max-width:800px}
 .lnav{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--toph,57px));z-index:20;background:var(--bg);display:flex;flex-wrap:wrap;gap:6px;padding-block:8px;margin-bottom:6px;border-bottom:1px solid var(--line)}
@@ -532,6 +533,7 @@ function renderOv(C){
   const LS = C.ov.layers;
   let h = `<article class="ov"><header class="pagehead"><div class="eyebrow">개요</div><h1>${esc(C.name)}</h1>`;
   h += `<div class="meta"><span>위에서 아래로 카드, 쉬운 해설, 개요 문서와 질문 답</span><span>만든 시각 ${esc(D.built)}</span></div></header>`;
+  if (C.ov.deep) h += `<p class="deeplink"><a href="${esc(C.ov.deep.href)}">${esc(C.ov.deep.label)}</a></p>`;
   h += `<nav class="lnav" aria-label="층 바로 가기">${LS.map((L, i) => `<a href="#${L.id}" data-go="${L.id}"${L.parts.some(p => p.doc) ? '' : ' class="off"'}><b>${i + 1}층</b>${esc(LAYER_SHORT[L.k] || L.label)}</a>`).join('')}<span class="tools"><button type="button" data-act="openall">모두 펼치기</button><button type="button" data-act="closeall">모두 접기</button></span></nav>`;
   LS.forEach((L, i) => {
     h += `<section class="layer" id="${L.id}" data-sec="${esc(L.label)}"><div class="lhead"><span class="lnum">${i + 1}층</span><h2>${esc(L.label)}</h2>${L.parts.length === 1 ? `<code>${esc(L.parts[0].path)}</code>` : ''}${L.kind === 'grid' && L.parts.some(P => P.doc && P.doc.secs.some(x => x.items.some(it => it.k === 'li' && it.d > 0))) ? '<button type="button" class="qall" data-act="qaall">질문 모두 펼치기</button>' : ''}</div>`;

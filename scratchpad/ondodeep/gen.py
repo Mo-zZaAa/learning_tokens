@@ -83,8 +83,10 @@ def line(s, tag='li'):
 def ul(lines):
     out = ['<ul class="ls">']
     for s in lines:
-        if isinstance(s, tuple):  # (머리, [하위])
-            out.append(line(s[0]).replace('</li>', ''))
+        if isinstance(s, tuple) and not s[1]:
+            out.append(line(s[0]))
+        elif isinstance(s, tuple):  # (질문 머리, [하위])
+            out.append(f'<li class="qh"><b>{T(s[0])}</b>')
             out.append('<ul class="ls sub">' + ''.join(line(x) for x in s[1]) + '</ul></li>')
         else:
             out.append(line(s))
@@ -102,7 +104,7 @@ SECS = []
 
 
 def sec(sid, title, head, fig, l2, l3, l2title='읽는 법과 핵심 숫자'):
-    SECS.append(dict(id=sid, title=title, head=head, fig=fig, l2=l2, l3=l3, l2title=l2title))
+    SECS.append(dict(id=sid, title=title, head=head, fig=fig, l2=ul(l2), l3=ul(l3), l2title=l2title))
 
 
 def box(cls, title, body='', small=''):
@@ -160,6 +162,8 @@ for name, sub, rows, own in cards:
     g.append(f'<div class="pcard {own}{dash}"><div class="ph">{chip(name) if name != "ONDO 토큰" else "<span class=\"chip fdc\">ONDO 토큰</span>"}<small>{E(sub)}</small></div><dl>')
     for k, v in rows:
         jd = '(판단)' in v and not FN_RE.search(v)
+        if jd:
+            v = '(판단) ' + v.replace('(판단)', '')
         g.append(f'<dt>{E(k)}</dt><dd class="{"jd" if jd else "f"}">{T(v)}</dd>')
     g.append('</dl></div>')
 g.append('</div>')
@@ -223,7 +227,7 @@ sec('S2', 'Ondo는 상품마다 무슨 역할을 하나',
      '보관: 하지 않음. 약관상 서비스는 중개, 거래소, 체결, 결제, 청산, 보관 서비스가 아님 [F-0526]. 주식은 Alpaca, BitGo Trust가 맡음 [on-0055]',
      '거래사: 미국 밖 2차 거래는 남의 거래소와 지갑(Bitget, Binance 등) [on-0078 F-1457]. Ondo가 직접 거래 시설을 가진 곳은 둘: 미국 Oasis Pro(2026-07-23 FINRA 판매 승인) [F-1462], 무기한선물 Ondo Perps(Ondo Global Group) [F-1967]',
      '인프라사: Ondo Network(주문 실행과 검증 층, 2026-07), LayerZero 브리지 연동 [on-0226 on-0209]'],
-    ['기술회사란: 약관상 Ondo는 소프트웨어와 기술 제공자로서만 서비스를 함 [F-0525]. BVI 발행 법인의 토큰화 작업과 가격 계산 대행(Tokenizer)도 Ondo Finance Inc. [F-0193]',
+    ['기술회사란: 약관상 Ondo는 소프트웨어와 기술 회사(software and technology provider)로서만 서비스를 함 [F-0525]. BVI 발행 법인의 토큰화 작업과 가격 계산 대행(Tokenizer)도 Ondo Finance Inc. [F-0193]',
      '(판단) 상품이 늘수록 역할이 발행에서 판매 시설, 인프라 순서로 위아래로 넓어지는 중',
      '2026-06-01 새 CEO 글: 토큰 발행 위로 거래, 프라임 브로커리지, 자산관리 층으로 올라가겠다고 함 [F-1468]',
      '(판단) 아예 손대지 않는 곳: 실물 자산 보관, 국채 직접 운용(펀드 매니저 역할), 미국 밖 2차 거래소 운영',
@@ -306,7 +310,7 @@ sec('S4', '법인을 나눈 이유 5가지',
      '인가가 필요한 미국 사업은 회사째로 삼: Oasis Pro 2025-07-04 인수 발표, 2025-10-07 완료 [F-0194 on-0490]',
      '인수 완료 뒤 미국 투자자 판매 승인(FINRA)까지 약 9개월 반: 2026-07-23 승인 [F-1462]'],
     ['(판단) 인가를 언제 받을지 몰라 회사째로 산 선택. 새로 신청하면 기간이 길고 결과를 알 수 없음',
-     '(판단) 분리 목적이 시점마다 다름: 2023 펀드 그릇과 판매 대상, 2025 파산 절연과 인가. 연혁은 S10 법인과 인가 레인']))
+     '(판단) 분리 목적이 시점마다 다름: 2023 펀드 그릇과 판매 대상, 2025 파산 절연과 인가. 연혁은 S10 법인과 인가 레인'])
 
 # ======================= S5 =======================
 CUR_SEC[0] = 'S5'
@@ -365,7 +369,7 @@ g = [legend([('na', '투자자'), ('co', '회사 쪽'), ('is', '발행 법인'),
      flow('Intelligent Portfolios', 'is', [
          ('na', '투자자', '포트폴리오 토큰 1개를 받음 [on-0364]'),
          ('is', '토큰 안', 'Ondo Stocks 바구니(BlackRock 전략) [on-0364]'),
-         ('tp', '바구니 속 종목', '종목마다 위 Ondo Stocks 금고 구조 그대로(판단)')]),
+         ('tp', '바구니 속 종목', '(판단) 종목마다 위 Ondo Stocks 금고 구조 그대로')]),
      '</div>']
 sec('S6', '상품별 돈 흐름(가상 숫자)',
     '네 상품 모두 "돈 → 발행 법인 → 실제 자산 → 토큰"의 같은 뼈대. 다른 점은 금고에 무엇이 들고 누가 지키느냐',
@@ -700,8 +704,7 @@ sec('S11', '규제 용어 풀이: 면제, Regulation S, EU 투자설명서',
          '투자설명서 유효기간 2026-11-11까지 [F-0191]'])],
     [('왜 리히텐슈타인인가', [
          'EU 밖 발행사는 처음 공모하는 나라 등 가운데 승인받을 나라를 스스로 고를 수 있음 [ONM-016]',
-         '회사는 FMA를 통지 제도가 EEA 전체에 미치는 자리 잡은 감독기관이라고만 설명, 고른 이유는 따로 밝히지 않음 [ONM-017]',
-         '같은 FMA 승인 설명서를 Backed(xStocks 발행사)도 씀 [ONM-018]']),
+         '회사는 FMA를 통지 제도가 EEA 전체에 미치는 자리 잡은 감독기관이라고만 설명, 고른 이유는 따로 밝히지 않음 [ONM-017]']),
      ('100종 이상으로 출시한 이유', [
          '2025-02 설계 변경 목적: 지갑, 프로토콜, 거래소가 자기 이용자에게 전통 증권을 팔 수 있게 [F-1450]',
          '(판단) 거래소와 지갑이 메뉴로 걸려면 인기 미국 주식과 ETF가 한꺼번에 있어야 함. 첫날 100종 이상을 내고, Bitget이 2025-09부터 100종 이상을 자기 이용자에게 판 것이 그 결과',
@@ -737,8 +740,8 @@ def render():
     toc = ''.join(f'<li><a href="#{s["id"]}"><b>{s["id"]}</b> {E(s["head"])}</a></li>' for s in SECS) + '<li><a href="#S13"><b>S13</b> 출처: 섹션별로 묶은 링크</a></li>'
     body = []
     for s in SECS:
-        l2 = ul(s['l2']) if not isinstance(s['l2'], str) else s['l2']
-        l3 = ul(s['l3'])
+        l2 = s['l2']
+        l3 = s['l3']
         body.append(f'''<section class="sec" id="{s["id"]}"><div class="sid">{s["id"]} {E(s["title"])}</div>
 <h2 class="head">{E(s["head"])}</h2>
 <div class="fig">{s["fig"]}</div>
