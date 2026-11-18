@@ -293,11 +293,13 @@ def parse_card(slug, text, ids, layer="", mode="card", art=False):
 OV_LAYERS = {
     "co": [
         ("L1", "한 화면 카드", "grid", ["kb/cards6/{s}.md"]),
+        ("LR", "매출로 본 성공 원인", "doc", ["kb/revenue/{s}.md"]),
         ("L2", "쉬운 해설", "easy", ["kb/easy/{s}.md"]),
         ("L3", "개요 문서와 질문 답", "doc", ["kb/cards/{s}.md", "kb/pm_q2/{s}.md"]),
     ],
     "common": [
         ("L1", "한 화면 카드", "grid", ["kb/cards6/common.md"]),
+        ("LR", "매출로 본 성공 원인", "doc", ["kb/revenue/00_공통.md"]),
         ("L2", "쉬운 해설", "easy", ["kb/easy/00_기초.md"]),
         ("L3", "개요 문서와 질문 답", "doc", ["kb/cards/common.md", "kb/pm_q2/00_공통.md", "kb/pm_q2/추가조사_261118.md"]),
     ],
