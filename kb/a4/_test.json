@@ -1,0 +1,6 @@
+{"name":"시험 회사","view":"볼 관점 한 줄 (판단)","sections":[
+{"title":"1. 뭐하는 회사인가","blocks":[
+{"type":"bullet","label":"정체","text":"미국 개인 증권사 앱","kids":[{"text":"세부 줄"},{"text":"번호 하나","num":true,"kids":[{"text":"아래 세부"}]},{"text":"번호 둘","num":true}]},
+{"type":"chain","rows":[{"area":"주식, 옵션 중개(미국)","cells":[{"t":"상장된 주식과 옵션. 2차 거래만 중개","span":3},{"t":"Robinhood Financial(자회사)","own":true,"money":"● 시장조성자가 주문 흐름 대가"},{"t":"시장조성자"},{"t":"Robinhood Securities(자회사, 직접 청산)","own":true},{"t":"Robinhood Securities","own":true}]}]}]},
+{"title":"2. 뭘로 돈 버나","blocks":[{"type":"money","rows":[["주식, 옵션 중개","37%(2026 Q3)","시장조성자","주문을 넘겨받는 대가, 체결 건마다","스프레드로 벎 → 개인 주문 → 대가"]]}]},
+{"title":"3. 왜 잘 됐고 무엇을 배우나","blocks":[{"type":"why","rows":[["먼저 함","Build","이유","숫자"]]}]}]}
