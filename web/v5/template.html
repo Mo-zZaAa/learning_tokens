@@ -229,6 +229,10 @@ body.editing .edel{opacity:.45;text-decoration:line-through}
 
 .orow.hot{background:color-mix(in srgb,var(--hl) 28%,transparent);border-radius:12px;box-shadow:inset 5px 0 0 #e6b800;padding-left:12px;padding-right:8px;margin:6px 0}
 .orow.hot .olab{color:var(--hl-ink)}
+.cbox.wide{grid-column:1/-1}
+.cbox.hot{background:color-mix(in srgb,var(--hl) 28%,var(--panel));box-shadow:inset 5px 0 0 #e6b800}
+.gobtn{margin-left:6px;border:1px solid var(--pmq);background:var(--pmq-bg);color:var(--pmq);border-radius:999px;padding:0 9px;font-size:12px;font-weight:700;line-height:1.7;white-space:nowrap;vertical-align:1px;cursor:pointer}
+.gobtn:hover{filter:brightness(.95)}
 .pmq{color:var(--pmq);background:var(--pmq-bg);font-weight:700;font-size:.82em;border-radius:999px;padding:1px 7px;margin:0 2px;white-space:nowrap;vertical-align:1px}
 
 /* 줄 메모 단추 */
@@ -545,7 +549,7 @@ function inl(s, co){
     last = RX_INL.lastIndex;
   }
   out += esc(s.slice(last));
-  return out.replace(/⟨([^⟩\n]*)⟩/g, '<span class="todo" title="아직 쓰는 중인 칸">⟨$1⟩</span>').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/==(.+?)==/g, '<mark class="em">$1</mark>').replace(/!!(.+?)!!/g, '<strong class="warn">$1</strong>').replace(/\((PM No [0-9][^()]*|개념 지침 No [0-9][^()]*|셀프 챌린지 [0-9][^()]*|PM 관점[^()]*)\)/g, '<span class="pmq">$1</span>');
+  return out.replace(/⟨([^⟩\n]*)⟩/g, '<span class="todo" title="아직 쓰는 중인 칸">⟨$1⟩</span>').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/==(.+?)==/g, '<mark class="em">$1</mark>').replace(/!!(.+?)!!/g, '<strong class="warn">$1</strong>').replace(/\[\[자세히: ([^\]]+)\]\]/g, '<button type="button" class="gobtn" data-find="$1" title="아래 자세한 곳으로 이동">자세히 ↓</button>').replace(/\((PM No [0-9][^()]*|개념 지침 No [0-9][^()]*|셀프 챌린지 [0-9][^()]*|PM 관점[^()]*)\)/g, '<span class="pmq">$1</span>');
 }
 const plain = s => String(s == null ? '' : s).replace(/\*\*|==|!!/g, '');
 function ready(what, path, msg){ return `<div class="ready"><b>준비 중</b>${esc(what)}: <code>${esc(path)}</code> ${esc(msg || '파일이 생긴 뒤 다시 빌드하면 채워짐.')}</div>`; }
@@ -605,7 +609,7 @@ function tagsHTML(tags){
 function odxTable(t){ return tableHTML({cols: t.cols, rows: t.rows}, {gblk: false}); }
 function odxKids(list){ return list && list.length ? `<ul class="osub">${list.map(k => odxItem(k, 1)).join('')}</ul>` : ''; }
 function odxItem(it, depth){
-  let h = `<li class="${it.strong ? 'strong' : ''}"><div class="ln oi" id="${it.id}"><span class="tx">${inl(it.t)}</span>${tagsHTML(it.tags)}${MB}</div>`;
+  let h = `<li class="${it.strong ? 'strong' : ''}"><div class="ln oi" id="${it.id}"><span class="tx">${inl(it.t)}</span>${tagsHTML(it.tags)}${it.goid ? `<button type="button" class="gobtn" data-go="${esc(it.goid)}" title="아래 자세한 곳으로 이동">자세히 ↓</button>` : ''}${MB}</div>`;
   if (it.flow && it.note) h += `<div class="onote">${ODX.flows[it.flow] || ''}</div>`;
   else if (it.flow) h += `<details class="ofig"><summary>그림: ${esc(ODX.ftitles[it.flow] || it.flow)}</summary>${ODX.flows[it.flow] || ''}</details>`;
   const kids = it.kids || [], n = kids.length + (it.table ? 1 : 0);
@@ -653,7 +657,7 @@ function showRefTip(el){
 function docHTML(doc, kind){
   let h = '';
   if (doc.intro.length) h += `<div class="intro gblk${kind === 'grid' ? '' : ' read'}" data-sec="머리말">${items(doc.intro)}</div>`;
-  if (kind === 'grid') return h + `<div class="cgrid">${doc.secs.map(s => `<section class="cbox gblk" id="${s.id}" data-sec="카드: ${esc(s.h)}"><h3>${inl(s.h)}</h3>${gridItems(s.items)}</section>`).join('')}</div>`;
+  if (kind === 'grid') return h + `<div class="cgrid">${doc.secs.map(s => `<section class="cbox gblk${s.h === '핵심 포인트' ? ' wide hot' : s.h === '한눈에 보기' ? ' wide' : ''}" id="${s.id}" data-sec="카드: ${esc(s.h)}"><h3>${inl(s.h)}</h3>${gridItems(s.items)}</section>`).join('')}</div>`;
   for (const s of doc.secs){
     const body = items(s.items);
     if (s.pin) h += `<section class="sec pin gblk read" id="${s.id}" data-sec="${esc(s.h)}"><h2>${inl(s.h)}</h2>${body}</section>`;
@@ -1234,6 +1238,7 @@ document.addEventListener('click', e => {
   const vw = t.closest('[data-view]'); if (vw){ show(cur, vw.dataset.view); return; }
   const si = t.closest('[data-si]'); if (si){ const x = SRES[+si.dataset.si]; $('#sres').hidden = true; if (x && x.v === 'a'){ openPanel(x.id, $('#q').value.trim()); return; } if (x) goTo(x.co, x.v, x.id, $('#q').value.trim().split(/\s+/).length > 1 && !x.l.includes($('#q').value.trim().toLowerCase()) ? $('#q').value.trim().split(/\s+/)[0] : $('#q').value.trim()); return; }
   if (!t.closest('.search')) $('#sres').hidden = true;
+  const gf = t.closest('[data-find]'); if (gf){ e.preventDefault(); const frag = gf.dataset.find, home = gf.closest('section, .orow, .cbox'); const el = Array.from(MAIN.querySelectorAll('.ln[id]')).find(x => !(home && home.contains(x)) && x.textContent.includes(frag)); if (el) goTo(cur, view, el.id, ''); else toast('관련 부분을 찾지 못함'); return; }
   const go = t.closest('[data-go]'); if (go){ e.preventDefault(); const p = lidView(go.dataset.go); goTo(p.co, p.v, go.dataset.go, ''); return; }
   const ab = t.closest('[data-amid]'); if (ab){ e.preventDefault(); openPanel(ab.dataset.amid); return; }
   const qt = t.closest('[data-qtog]'); if (qt){ const g = qt.closest('.qg'); setQg(g, !g.classList.contains('open')); return; }

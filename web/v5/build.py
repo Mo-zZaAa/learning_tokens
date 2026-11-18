@@ -384,6 +384,34 @@ def build_odx(slug, ids):
             it_ids(it, sec)
         for it in row.get("path") or []:
             it_ids(it, sec)
+    # 핵심 포인트의 이동 버튼: go = {"row": 행 이름, "find": 대상 줄 글 조각} → goid(대상 줄 id)
+    plain = lambda x: re.sub(r"==|!!|\*\*", "", x or "")
+    index = {}
+    def idx(it, lab):
+        if it.get("id") and (it.get("t") or it.get("k")):
+            index.setdefault(lab, []).append((plain((it.get("k2") or "") + " " + (it.get("t") or "")), it["id"]))
+        tb = it.get("table")
+        if tb and isinstance(tb, dict) and tb.get("rows") and isinstance(tb["rows"][0], dict):
+            for r in tb["rows"]:
+                index.setdefault(lab, []).append((plain(" | ".join(map(str, r["c"]))), r["id"]))
+        for x in (it.get("sub") or []) + (it.get("kids") or []):
+            idx(x, lab)
+    for row in card["rows"]:
+        for it in (row.get("items") or []) + (row.get("path") or []):
+            idx(it, row["label"])
+    def resolve(it):
+        g = it.get("go")
+        if g:
+            hits = [i for t, i in index.get(g.get("row"), []) if g.get("find") and g["find"] in t]
+            if hits:
+                it["goid"] = hits[0]
+            else:
+                print(f"  ! {slug} 이동 버튼 대상 없음: {g}")
+        for x in it.get("kids") or []:
+            resolve(x)
+    for row in card["rows"]:
+        for it in row.get("items") or []:
+            resolve(it)
     flows = {k: ondo_card.flow_html(v) for k, v in pk.get("flows", {}).items()}
     titles = {k: v.get("title", "") for k, v in pk.get("flows", {}).items()}
     return {"card": card, "flows": flows, "ftitles": titles, "tags": {t: resolve_tag(t, news) for t in tags},
