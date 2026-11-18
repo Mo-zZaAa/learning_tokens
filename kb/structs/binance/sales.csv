@@ -1,0 +1,9 @@
+번호,상품,자산이 있는 곳,미국 안 투자자,미국 밖 투자자,판매 법인과 인가,판매 경로,날짜(종류),근거
+BN-S01,가상자산 현물과 파생(글로벌),블록체인(국적 없음),팔지 않음(2019-09부터 Binance.US로 나눔. 그 전에는 미국 고객 비중이 가장 컸음),"팖. 100개 넘는 나라와 지역(회사 표기). EU는 MiCA 인가 없음, 영국 등은 각국 제한","2026-01부터 Nest Exchange(RIE, MTF), Nest Clearing and Custody(RCH), Nest Trading(브로커)(ADGM FSRA). 그 전 Binance Holdings Limited(인가 없음)",Binance 앱,"2017-07 출시, 2019-09-13 선물",F-1867 F-1714 F-0064 F-1201 F-1548
+BN-S02,가상자산(미국),블록체인,팖,해당 없음,BAM Trading Services(Binance.US),Binance.US 앱,2019-09 출시,F-1714 F-1704
+BN-S03,가상자산(나라별 법인),블록체인,해당 없음,"일본(Binance Japan, 금융청 등록), 한국(고팍스, FIU 신고), 태국(Gulf Binance), 두바이(Binance FZE, VARA), 아르헨티나(CNV 등록), 필리핀(현지 중개사 BlockShoals, 2026 샌드박스)",나라별 법인과 인가(법인 표 BN-L08~L13),각 나라 앱,"2022-09 두바이, 2022-11 일본, 2023-02 한국, 2023-05 태국, 2024-09 아르헨티나, 2026-05 필리핀",F-0068 F-1551 F-1389 F-1552 F-0712 F-1550
+BN-S04,TradFi 무기한선물,"기초는 미국 주식, ETF, 금, 은 등. 계약은 아부다비","팔지 않음(판단, 글로벌 플랫폼 이용자 기준)",팖(글로벌 플랫폼 자격 이용자),Nest Exchange(ADGM RIE),Binance 앱,2026-01-08 출시,F-1540 F-1880
+BN-S05,"미국 주식과 ETF, 옵션(실물)",미국,"팔지 않음(판단, 글로벌 플랫폼 이용자 기준)",팖. 첫 주 거래대금의 80% 넘게 신흥시장 이용자,"주문 접수 Nest Trading(ADGM 브로커), 집행과 보관 Alpaca Securities(미국 증권사)",Binance 앱,"2026-06-01 주식, 2026-09-01 옵션 출시",F-1198 F-1229 F-1545 F-1541
+BN-S06,bStocks(미국 주식 토큰),미국 상장 주식과 ETF(Alpaca 발행사 분리 계좌),팔지 않음(미국과 미국인 제외),"팖. 제한 지역(UAE 본토, EU 대부분, 영국, 일본, 홍콩, 호주, 뉴질랜드, 필리핀, 태국, 튀르키예 등) 제외. 새 발행 청약은 ADGM 안 적격 청약자만","발행 BTech Holdings, 체결 Nest Exchange, 청산과 예탁 Nest Clearing and Custody, 전환 창구 Nest Trading(ADGM FSRA)","Binance 앱 현물 호가창, BNB Chain 위 DeFi",2026-06-12 상장,F-1126 F-0054 F-1855 F-1864 F-1288
+BN-S07,Ondo 주식 토큰(남의 상품),미국 상장 주식(Ondo가 담보),팔지 않음,팖(지역 제한은 Ondo와 Binance 기준),발행 Ondo Global Markets(BVI). Binance는 화면과 MTF,"Binance Wallet 안 Alpha 화면, 2026-03-03부터 Binance MTF",2026-02-24 발표,F-1125 F-0201 F-1457
+BN-S08,한국 원화 가상자산(고팍스),블록체인,해당 없음,한국 이용자만(원화),스트리미(FIU 신고),고팍스 앱. Binance 호가창 공유 안 됨,2023-02 인수 보도,F-1389 F-1553

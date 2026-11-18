@@ -1,0 +1,17 @@
+번호,법인(정식 이름),브랜드 또는 부르는 이름,소재지,지배,인가의 정식 이름(감독),이 인가로 하는 일,확보 방식,날짜(종류),근거
+BN-L01,Binance Holdings (IE) Limited,그룹 모회사,아일랜드,창업자가 최대주주(Forbes 추정 약 90%). MGX 소수 지분,,그룹 지주. bStocks 발행사 BTech Holdings 지분 100%,,,F-1852 F-1876 F-0070
+BN-L02,Binance Holdings Limited,"Binance(2025 전 글로벌 플랫폼, 미국 문서 표기)",케이맨제도,,없음(2023-11 미국 합의 당사자),글로벌 플랫폼 운영(2025-12 전). 미국 합의의 유죄 인정 법인,,2017-07 출시,F-1869 F-1829 F-0719
+BN-L03,Nest Exchange Limited(옛 Nest Services),Binance 거래소,UAE 아부다비(ADGM),그룹 계열,"인정투자거래소(RIE), 다자간거래시설(MTF) 운영(ADGM FSRA)","현물, 파생, bStocks 장내 체결. TradFi 무기한선물 계약을 냄. UAE 평일 업무 시간은 RIE, 그 밖은 MTF",직접 신청,"2025-12-08 발표, 2026-01-05 효력(등록부)",F-0064 F-1418 F-1244 F-1861
+BN-L04,Nest Clearing and Custody Limited(옛 Binance (AD) Limited),청산소,UAE 아부다비(ADGM),그룹 계열,"인정청산기관(RCH), 수탁, 중앙예탁(CSD)(ADGM FSRA)","청산, 결제, 보관, bStocks 권리 원장. bStocks 발행사에 500만 달러 한도 대출, 첫 물량용 주식을 Alpaca에서 빌림",직접 신청,2025-12-08(등록부),F-0065 F-1418 F-1858 F-1863
+BN-L05,Nest Trading Limited(옛 BCI Limited),브로커,UAE 아부다비(ADGM),그룹 계열,"금융업 허가(FSP 260000): 투자 거래, 투자 주선, 자산 운용, 수탁 주선, 자금 서비스(ADGM FSRA)","장외 거래, 가상자산 전환, 미국 주식과 옵션 주문 접수(Alpaca로 넘김), bStocks 발행과 상환 대리인(1:1 전환 창구), 자기 계산 매매",직접 신청,2026-01-05(등록부),F-0066 F-1418 F-1198 F-1853 F-1865
+BN-L06,BTech Holdings Ltd,bStocks 발행사,UAE 아부다비(ADGM),Binance Holdings (IE) 100%,인가 없음(발행사). 종목마다 ADGM FSRA 투자설명서 승인,bStocks(증권 증서) 발행. 기초 주식을 보유자를 위한 신탁으로 Alpaca 분리 계좌에 둠,직접 설립,2026-04-17 설립,F-1852 F-0994 F-0047
+BN-L07,BTech Services Limited,토큰화 운영 회사(Op & Tech Co),"UAE 아부다비(ADGM, 판단)",그룹 계열,,"bStocks 토큰 찍기, 발행 증서 총수 주 단위 공시",직접 설립,,F-1853 F-1862
+BN-L08,Binance FZE,Binance 두바이,UAE 두바이,그룹 계열(판단),VARA MVP 인가(2022-03 잠정 인가 다음),두바이의 자격 있는 개인과 기관에게 VARA 승인 범위의 가상자산 서비스 판매,직접 신청,2022-09-19 취득. 지금 상태 미확인,F-0068 EVBN-001
+BN-L09,BAM Trading Services(Binance.US),Binance.US,미국,글로벌 플랫폼과 별도 법인,,미국 이용자 가상자산 거래(글로벌과 다른 호가창),직접 설립,2019-09 출시,F-1714 F-1704
+BN-L10,Binance Japan(옛 Sakura Exchange BitCoin),Binance Japan,일본,인수 자회사,일본 금융청 가상자산교환업 등록,일본 이용자 가상자산 거래,인수,2022-11-30 발표,F-1551 F-0716
+BN-L11,주식회사 스트리미,고팍스(GOPAX),한국,"Binance 지분 67.45%(72.26% 인수 뒤, 블록미디어 보도)",금융정보분석원 가상자산사업자 신고,원화 가상자산 거래. Binance 호가창 공유와 파생은 못 함,인수,"2023-02 인수 보도, 2025-10 대주주 변경 수리",F-1389 F-0073 F-1553
+BN-L12,Gulf Binance,Gulf Binance,태국,Gulf Innova와 합작,태국 디지털자산 사업자 인가,태국 이용자 가상자산 거래,합작,2023-05 취득(보도),F-1552
+BN-L13,Binance Services Latinoamérica S.A. de C.V.,Binance 아르헨티나,"멕시코 법인(S.A. de C.V.), 아르헨티나 영업",그룹 계열,아르헨티나 CNV 가상자산 서비스 사업자(PSAV) 등록 No. 76. CNV 인가나 감독은 아님,아르헨티나 이용자 가상자산 거래. 법정화폐는 현지 파트너,등록(법정화폐는 위탁),2024-09-11 등록,F-0712 F-0713 F-0715
+BN-L14,Binance Barbados Limited,Binance Wallet,바베이도스,그룹 계열,,Binance Wallet 서비스와 개인정보 처리,,,F-0717 F-0718
+BN-L15,Alpaca Securities LLC(남),Alpaca,미국,남(계약),미국 증권사(청산 브로커),"미국 주식, ETF, 옵션 집행, 청산, 결제, 보관. bStocks 기초 주식 보관(발행사 분리 계좌), 첫 물량 주식 대여",위탁,2026-06-01 출시,F-1198 F-1229 F-1854 F-1858
+BN-L16,(EU) 없음,,EU,,"MiCA 인가 없음(2026-06-24 그리스 신청 철회, ESMA 등록부에 Binance 0행)",,,2026-06-24 철회(보도),F-1548 F-1549

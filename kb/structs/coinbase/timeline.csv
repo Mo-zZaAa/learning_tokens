@@ -1,0 +1,54 @@
+연도,날짜(종류),사건 번호,사건,법인
+2012,2012(설립),CB-E01,샌프란시스코에서 회사 설립,"Coinbase, Inc."
+2012,2012-09(투자),CB-E02,씨앗 투자 60만 달러,"Coinbase, Inc."
+2013,2013-05(투자),CB-E03,A 시리즈 500만 달러(Union Square Ventures 주도),"Coinbase, Inc."
+2014,2014-07(발표),CB-E04,"Dell, Overstock 등 대형 소매업체의 비트코인 결제 처리","Coinbase, Inc."
+2015,2015-01-26(출시(보도가 예고한 날)),CB-E05,"미국 첫 규제 비트코인 거래소 개장과 7,500만 달러 투자","Coinbase, Inc."
+2016,2016-05-24(출시),CB-E06,거래소 이름을 GDAX로 바꾸고 이더 상장,"Coinbase, Inc."
+2017,2017-01(취득),CB-E07,뉴욕주 가상자산 인가(BitLicense)와 송금업 인가 취득,"Coinbase, Inc."
+2017,2017-08(투자),CB-E08,D 시리즈 1억 달러(기업가치 16억 달러),"Coinbase, Inc."
+2018,2018-05-15(발표),CB-E09,기관 상품 묶음 Prime 발표와 기관 보관 영업 시작(2018-07-02),Coinbase Custody Trust Company
+2018,2018-06(발표),CB-E10,"증권사 Keystone, Venovate, Digital Wealth 인수 발표(2018-07 승인)","Coinbase, Inc."
+2018,2018-09(출시),CB-E11,Circle과 달러 스테이블코인 USDC 공동 출시,"Circle(외부), Centre(공동 기구)"
+2018,2018-10-23(취득),CB-E12,뉴욕주 제한목적 신탁회사 인가 취득,Coinbase Custody Trust Company
+2018,2018-10-30(투자),CB-E13,E 시리즈 3억 달러(기업가치 80억 달러 이상),"Coinbase, Inc."
+2019,2019-08-15(발표),CB-E14,Xapo 기관 보관 사업 인수,Coinbase Custody Trust Company
+2019,2019-12-31(실적(연간)),CB-E15,"2019 실적: 순매출의 96%가 거래 수익, 순손실","Coinbase Global, Inc."
+2020,2020(인수(완료 연도)),CB-E16,기관 매매 플랫폼 Tagomi 인수(지금의 Prime),"Coinbase, Inc."
+2020,2020-12-31(실적(연간)),CB-E17,2020 실적: 순이익 3.22억 달러 흑자,"Coinbase Global, Inc."
+2021,2021-04-14(상장),CB-E18,Nasdaq 직상장(종목 기호 COIN),"Coinbase Global, Inc."
+2021,2021-05(발행),CB-E19,"전환사채 14.4억 달러, 선순위채 20억 달러","Coinbase Global, Inc."
+2021,2021-09-15(신청),CB-E20,선물 중개사(FCM) 인가 신청,"Coinbase Financial Markets, Inc."
+2021,2021-12-31(실적(연간)),CB-E21,"2021 실적: 총매출 78.39억 달러, 기관 거래대금 68%","Coinbase Global, Inc."
+2022,2022-02-01(완료),CB-E22,선물 거래소 FairX 인수(2022-01-11 계약),"Coinbase Derivatives, LLC(옛 LMX Labs, FairX)"
+2022,2022-06-27(출시),CB-E23,첫 선물 상품 나노 비트코인 선물(외부 중개사 판매),"Coinbase Derivatives, LLC"
+2022,2022-12-31(실적(연간)),CB-E24,"2022 실적: 총매출 59% 감소, 순손실 26.25억 달러","Coinbase Global, Inc."
+2023,2023-02-23(발표),CB-E25,이더리움 위 블록체인 Base 발표(2023-08 일반 공개),"Coinbase Technologies, Inc.(Base 시퀀서)"
+2023,2023-05(출시),CB-E26,버뮤다 인가 거래소에서 미국 밖 기관에 무기한선물 판매,Coinbase International Exchange
+2023,2023-06-06(제소),CB-E27,SEC 민사 소송(2025-02-27 취하),"Coinbase, Inc., Coinbase Global, Inc."
+2023,2023-08(계약),CB-E28,"USDC 구조 변경: Centre 해산, Circle 단독 발행, Coinbase는 Circle 지분과 이자 몫","Coinbase Global, Inc., Circle(외부)"
+2023,2023-08-15(등록),CB-E29,"선물 중개사(FCM) 등록, 자기 고객에게 선물 직접 판매","Coinbase Financial Markets, Inc."
+2023,2023-09(발표),CB-E30,"해외 우선 시장 여섯 곳 지정(EU, 영국, 캐나다, 브라질, 싱가포르, 호주)","Coinbase Global, Inc."
+2024,2024-02-15(발표),CB-E31,"2024 우선순위: 거래와 USDC로 매출, USDC와 Base로 결제","Coinbase Global, Inc."
+2024,2024-12-31(실적(연간)),CB-E32,"2024 실적: 총매출 65.64억 달러, 스테이블코인 9.10억","Coinbase Global, Inc."
+2025,2025-02-03(등록),CB-E33,영국 FCA 가상자산사업자 등록,CB Payments Ltd
+2025,2025-05-08(발표),CB-E34,옵션 거래소 Deribit 인수(2025-08-14 완료),Deribit FZE(Sentillia B.V. 자회사)
+2025,2025-05-09(시작),CB-E35,미국 선물 24시간 청산 시작(외부 청산소),"Nodal Clear, LLC(외부)"
+2025,2025-06(취득),CB-E36,룩셈부르크 MiCA 인가로 EEA 30개국 영업,Coinbase Luxembourg S.A.
+2025,2025-06(매각),CB-E37,Circle 상장 때 보유 지분 일부 매각,"Coinbase Global, Inc."
+2025,2025-07(출시),CB-E38,미국 CFTC 규제 무기한형 선물 출시,"Coinbase Derivatives, LLC"
+2025,2025-08(발행),CB-E39,전환사채 30억 달러 발행,"Coinbase Global, Inc."
+2025,2025-10-03(신청),CB-E40,OCC 연방 국가 신탁회사 설립 신청,Coinbase National Trust Company(설립 신청)
+2025,2025-12(계약),CB-E41,예측시장 청산 스타트업 The Clearing Company 인수 계약,"Coinbase Global, Inc."
+2025,2025-12(출시(일부 이용자)),CB-E42,앱에서 미국 주식과 ETF 중개(2026-02-24 전체 이용자),Coinbase Capital Markets Corporation(옛 Keystone)
+2025,2025-12-17(출시),CB-E43,예측시장 출시(주문은 모두 Kalshi로),"Coinbase Financial Markets, Inc."
+2026,2026-01(변경),CB-E44,회사 자체 보유 스테이블코인 수익을 순매출 밖으로 옮겨 적음,"Coinbase Global, Inc."
+2026,2026-03-20(출시),CB-E45,미국 밖 고객에게 미국 주식 무기한선물,Coinbase International Exchange
+2026,2026-05(출시),CB-E46,미국 밖 고객에게 금과 은 무기한선물,Coinbase International Exchange
+2026,2026-06-11(허용),CB-E47,미국 고객이 세계 가상자산 무기한선물을 직접 거래(CFTC 허용),"Coinbase Financial Markets, Inc."
+2026,2026-07-15(참여(보도)),CB-E48,경쟁 스테이블코인 모델 Open USD 참여,"Coinbase Global, Inc."
+2026,2026-08-05(갱신(발표)),CB-E49,USDC 계약 같은 조건으로 2029까지 갱신,"Coinbase Global, Inc., Circle(외부)"
+2026,2026-08-24(출시),CB-E50,미국 밖 개인용 주식 토큰 Coinbase Tokenized Stocks 발행,Coinbase Onchain SPV Ltd(아부다비)
+2026,2026-09-28(등록),CB-E51,CFTC 청산소(DCO) 직접 등록,Coinbase Clearing LLC
+2026,2026-10(완료),CB-E52,International Exchange와 Deribit을 하나의 거래소로 합침,"Coinbase International Exchange, Deribit"
+2026,2026-10-29(발표),CB-E53,2026 3분기 실적과 Coinbase Pro 재출시 계획,"Coinbase Global, Inc."

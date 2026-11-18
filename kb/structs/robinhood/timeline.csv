@@ -1,0 +1,47 @@
+연도,날짜(종류),사건 번호,사건,법인
+2013,2013-10(등록),RH-E01,회사 설립과 중개 법인의 증권사 등록,"Robinhood Markets, Inc., Robinhood Financial, LLC"
+2014,2014-09-23(발표),RH-E02,"시리즈 A 1,300만 달러와 대기자 50만 명","Robinhood Markets, Inc."
+2015,2015-03-12(출시),RH-E03,주문 수수료 없는 미국 주식 앱 공개 출시,"Robinhood Financial, LLC"
+2016,2016-09-29(출시),RH-E04,"월정액 구독 Robinhood Gold(신용 매수, 장 전후 거래)","Robinhood Financial, LLC"
+2017,2017-12-13(출시),RH-E05,주문 수수료 없는 옵션 거래 출시,"Robinhood Financial, LLC, Robinhood Securities, LLC"
+2018,2018-02-22(출시),RH-E06,"미국 가상자산 매매 출시(비트코인, 이더리움)","Robinhood Crypto, LLC"
+2018,2018-05-10(발표),RH-E07,시리즈 D 3.63억 달러(기업가치 56억 달러),"Robinhood Markets, Inc."
+2018,2018-10-10(발표),RH-E08,남에게 맡기던 청산을 자체 청산 법인으로 옮김,"Robinhood Securities, LLC"
+2019,2019-01(취득),RH-E09,뉴욕주 가상자산 인가(BitLicense) 취득,"Robinhood Crypto, LLC"
+2019,2019-07-22(발표),RH-E10,시리즈 E 3.23억 달러(기업가치 76억 달러),"Robinhood Markets, Inc."
+2019,2019-11-19(발표),RH-E11,영국 진출 발표(2020-07 연기),Robinhood U.K. Ltd
+2020,2020-05(발표),RH-E12,시리즈 F 6억 달러(기업가치 86억 달러),"Robinhood Markets, Inc."
+2020,2020-07-21(보도),RH-E13,영국 출시 무기한 연기와 해외 확장 보류,Robinhood U.K. Ltd
+2020,2020-12-17(합의),RH-E14,"SEC 6,500만 달러 제재(주문 흐름 대가 안내 누락)","Robinhood Financial, LLC"
+2021,2021-01-28(조치),RH-E15,GameStop 매수 제한과 34억 달러 긴급 조달,"Robinhood Securities, LLC, Robinhood Markets, Inc."
+2021,2021-07-29(상장),RH-E16,Nasdaq 상장(공모 21억 달러),"Robinhood Markets, Inc."
+2022,2022-04-19(계약),RH-E17,영국 Ziglu 인수 계약과 두 차례 감원,"Robinhood Markets, Inc."
+2023,2023-02-13(해지),RH-E18,Ziglu 인수 계약 해지,"Robinhood Markets, Inc."
+2023,2023-05-10(출시),RH-E19,미국 주식 주 5일 24시간 거래(야간 체결은 Blue Ocean ATS),"Robinhood Financial, LLC, Robinhood Securities, LLC"
+2023,2023-06-22(계약),RH-E20,신용카드 회사 X1 인수(2023-07-03 완료),"Robinhood Markets, Inc."
+2023,2023-12-07(출시),RH-E21,EU 개인에게 가상자산 앱 출시(리투아니아 법인),"Robinhood Europe, UAB"
+2024,2024-02-13(발표),RH-E22,"2023 실적: 순이자가 매출 절반, 고객 지표 이름을 Funded Customers로","Robinhood Markets, Inc."
+2024,2024-03(인수),RH-E23,선물 중개사(옛 Marex North America) 인수,"Robinhood Derivatives, LLC"
+2024,2024-03-19(출시),RH-E24,영국 개인에게 미국 주식 중개 출시,Robinhood U.K. Ltd
+2024,2024-06-06(발표),RH-E25,"Bitstamp 인수 발표(2025-06-02 완료, 2.24억 달러 현금)","Robinhood Markets, Inc., Bitstamp"
+2024,2024-07-01(인수),RH-E26,AI 투자 리서치 회사 Pluto Capital 인수,"Robinhood Markets, Inc."
+2024,2024-10-16(출시),RH-E27,앱에서 선물 거래 출시,"Robinhood Derivatives, LLC"
+2024,2024-11-19(발표),RH-E28,"TradePMR 인수 발표(2025-02-26 완료, 약 3억 달러 현금과 주식)","Robinhood Markets, Inc., TradePMR"
+2025,2025-03-17(출시),RH-E29,예측시장 이벤트 계약 출시(남의 거래소 Kalshi로 주문),"Robinhood Derivatives, LLC"
+2025,2025-03-27(발표),RH-E30,일임 자문 Robinhood Strategies와 Robinhood Banking,"Robinhood Asset Management, Robinhood Money, LLC"
+2025,2025-05-13(발표),RH-E31,"WonderFi 인수 발표(2026-06-01 완료, 1.78억 달러 현금)","Robinhood Markets, Inc., WonderFi Technologies Inc."
+2025,2025-06-30(출시),RH-E32,EU 앱 주식 토큰(지금 이름 Classic Stock Tokens)과 EU 인가 둘,"Robinhood Europe, UAB"
+2025,2025-07-07(보도),RH-E33,OpenAI의 반박과 리투아니아 중앙은행의 설명 요청,"Robinhood Europe, UAB"
+2025,2025-09-15(신청),RH-E34,비상장 회사 투자 상장 펀드 RVI 등록 신청(2026-03-05 상장),Robinhood Ventures Fund I
+2025,2025-10-27(출시),RH-E35,영국 개인에게 선물 출시(CME 선물 40종 넘게),Robinhood U.K. Ltd
+2025,2025-11-25(발표),RH-E36,시장조성 회사 Susquehanna와 합작해 예측시장 거래소 MIAXdx 인수(2026-01-20 완료),"Rothera LLC, Rothera Exchange and Clearing LLC"
+2025,2025-12-01(합의),RH-E37,스포츠 이벤트 계약을 두고 주 정부와 충돌,"Robinhood Derivatives, LLC"
+2026,2026-04(선정),RH-E38,미 재무부 아동 투자 계좌(Trump Accounts)의 중개와 단독 초기 수탁 선정,"Robinhood Markets, Inc."
+2026,2026-06-04(시작),RH-E39,"합작 거래소 Rothera로 첫 주문(월드컵, 프로야구)","Robinhood Derivatives, LLC, Rothera Exchange and Clearing LLC"
+2026,2026-07-01(출시),RH-E40,미국 밖 120여 개국 지갑용 Stock Tokens 출시,"Robinhood Assets (Jersey) Limited, Bitstamp Global Ltd"
+2026,2026-07-01(출시),RH-E41,자체 블록체인 Robinhood Chain 메인넷,"Robinhood Markets, Inc."
+2026,2026-07-01(취득),RH-E42,싱가포르 자본시장서비스 면허(2026-04-23 예비인가),Robinhood Singapore Pte. Ltd.
+2026,2026-08-10(출시),RH-E43,영국 개인에게 가상자산 출시(인수한 Bitstamp UK로),Bitstamp UK Ltd
+2026,2026-09-08(시작),RH-E44,이벤트 계약 주문을 Crypto.com 거래소에도 보내고 지분을 받음,"Robinhood Derivatives, LLC"
+2026,2026-09-29(발표),RH-E45,"HOOD Summit: 미국 고객 가상자산 무기한선물, 주말 포함 24시간 주식 계획","Robinhood Markets, Inc."
+2026,2026-10-27(발표),RH-E46,2026 Q3 실적: 순매출 구성과 두바이 인가,"Robinhood Markets, Inc., Robinhood MENA Limited"
