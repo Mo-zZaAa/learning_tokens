@@ -227,6 +227,8 @@ body.editing .edel{opacity:.45;text-decoration:line-through}
 .mbtns .left{margin-right:auto}
 @media (max-width:760px){.rzh{display:none}table.rz{width:auto!important;table-layout:auto}}
 
+.orow.hot{background:color-mix(in srgb,var(--hl) 28%,transparent);border-radius:12px;box-shadow:inset 5px 0 0 #e6b800;padding-left:12px;padding-right:8px;margin:6px 0}
+.orow.hot .olab{color:var(--hl-ink)}
 .pmq{color:var(--pmq);background:var(--pmq-bg);font-weight:700;font-size:.82em;border-radius:999px;padding:1px 7px;margin:0 2px;white-space:nowrap;vertical-align:1px}
 
 /* 줄 메모 단추 */
@@ -627,7 +629,7 @@ function odxHTML(o){
     let body;
     if (r.path) body = `<div class="opath">${r.path.map(odxPath).join('')}</div>`;
     else { const tag = r.numbered ? 'ol' : 'ul'; body = `<${tag} class="omain">${(r.items || []).map(it => odxItem(it, 0)).join('')}</${tag}>`; }
-    h += `<div class="orow${r.danger ? ' danger' : ''}" id="${r.id}" data-sec="카드: ${esc(r.label)}"><h3 class="olab">${esc(r.label)}</h3><div class="obody gblk">${body}</div></div>`;
+    h += `<div class="orow${r.danger ? ' danger' : ''}${r.hot ? ' hot' : ''}" id="${r.id}" data-sec="카드: ${esc(r.label)}"><h3 class="olab">${esc(r.label)}</h3><div class="obody gblk">${body}</div></div>`;
   }
   return h + '</div>';
 }
