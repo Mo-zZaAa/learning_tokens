@@ -445,6 +445,8 @@ def build_overview(slug, ids):
                 if odx:
                     part = {"path": odx.pop("path"), "label": lab, "doc": None, "odx": odx}
             parts.append(part)
+        if k == "LR" and not any(p.get("doc") for p in parts):
+            continue  # 매출 층은 문서가 있는 회사만(Ondo, Dinari 제외)
         layers.append({"k": k, "label": label, "kind": kind, "id": ids.make(f"{slug}-o-{k}"), "parts": parts})
     ov = {"layers": layers}
     if slug in DEEP:
