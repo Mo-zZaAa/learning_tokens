@@ -12,7 +12,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 PKG = ROOT / "inputs/ondo_overview_261118"
-JSON_PATH = PKG / "content/ondo_overview.json"
+JSON_PATH = ROOT / "kb/ondo_overview/ondo_overview.json"  # 사용자 패키지 사본(고친 곳은 같은 폴더 고친곳.md)
+if not JSON_PATH.exists():
+    JSON_PATH = PKG / "content/ondo_overview.json"
 
 FLOW_CSS = """
 .fw{--fw-ondo-bg:#eeedfe;--fw-ondo-bd:#afa9ec;--fw-ondo-ink:#3c3489;--fw-ext-bg:#e1f5ee;--fw-ext-bd:#9fd9c3;--fw-ext-ink:#085041;
