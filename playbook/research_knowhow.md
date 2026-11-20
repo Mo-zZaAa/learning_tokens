@@ -254,3 +254,34 @@
 
 ## 15. 화면 메모 읽기(2026-11-17 추가)
 - 화면(Artifact)의 메모는 브라우저 저장과 함께 화면 DB의 memos 모음에 저장됨. 다음 회차는 "메모 보내기" 파일을 기다리지 말고 ArtifactData list(url=화면 링크, collection=memos)로 바로 읽는다. 화면 메모는 view, brief, quote(고른 글) 칸이 있고, 본문 줄 메모는 lid(줄 ID)가 있다.
+
+## 16. 인가 획득 딥다이브(LICDEEP, 2026-11-20)
+
+### 바깥 요인(규제, 금리, 시장): 막힌 곳과 통한 공식 경로
+| 막힌 곳(응답) | 통한 경로 | 비고 |
+|---|---|---|
+| eur-lex.europa.eu(202 빈 응답, 봇 확인) | ESMA Interactive Single Rulebook(esma.europa.eu/publications-and-data/interactive-single-rulebook/mica/article-<번호>-<제목 앞부분>). 주소 끝은 목록 화면(.../mica)의 링크에서 그대로 따옴 | MiCA 3, 59, 63, 65, 149조, MiFIR 39a조 원문 |
+| www.mas.gov.sg(curl 점검 화면, WebFetch ENOTFOUND) | 없음. 검색 결과와 Cointelegraph | 세션 허용 도메인 밖 |
+| sec.gov 소송 자료(403) | govinfo.gov/content/pkg/USCOURTS-<법원>-<사건번호>/pdf/USCOURTS-...-0.pdf 판결문. 상세 화면(app/details)은 500이 나도 PDF는 열릴 때가 있음 | Kalshi, SEC 대 Binance, SEC 대 Payward |
+| securities-administrators.ca(403) | CSA 공고는 BCSC(bcsc.bc.ca) PDF 사본 | 21-332 |
+| cftc.gov(403) | federalregister.gov API(conditions[agencies][]=commodity-futures-trading-commission) | 2026 예측시장, 무기한 계약 결정까지 관보에 있음 |
+| data.coindesk.com 전체 보고서(HubSpot 이메일 양식) | 요약 화면(Report Summary)만. 목록은 sitemap.xml | 이메일을 넣지 않음 |
+
+### 바깥 요인: 쓸모 있었던 1차 출처 위치
+- 연준 openmarket.htm: 2008년부터 모든 목표금리 변경이 한 표. 날짜는 적용일(결정 다음 날). 결정일 성명은 newsevents/pressreleases/monetaryYYYYMMDDa.htm
+- Coin Metrics Community API(키 없음): asset-metrics?assets=btc&metrics=PriceUSD&frequency=1d&page_size=10000 한 번에 2011년부터. 정의는 reference-data/asset-metrics?metrics=PriceUSD
+- federalregister.gov API로 GENIUS Act 시행 규정, SEC 승인 명령(ETF), 행정명령 서명일까지 한 번에 찾음. effective_on, dates 필드에 효력일
+- 금융위원회 보도자료 검색(fsc.go.kr/no010101?srchKey=all&srchText=): FIU 접속차단, 미신고 사업자 경고 원문. 프록시 연결이 끊길 때가 있어 두세 번 다시 시도
+- ESMA MiCA 경과 기간 목록 PDF(2024-12 폴더, 계속 갱신): 회원국별 6, 9, 12, 18개월과 신청 마감 각주
+
+### 바깥 요인: 함정
+- CoinDesk Data 요약은 달마다 적는 값이 다름(합계만, 현물만, 거래소별만). 다음 달 보고서가 앞 달 값을 고침. 분기 합은 세 달 합계가 다 있을 때만
+- 주소 이름과 보고서 달이 다름(exchange-review-march-2023이 3월 값, exchange-review가 2025-01, exchange-review-november가 2023-11). 본문 "In <달>" 문장과 앞뒤 증감률로 달을 확정
+- 같은 사건 날짜가 출처마다 하루 다름(SEC 대 Binance 제소 06-05 대 법원 의견서 06-06). 둘 다 적음
+- 기존 DB의 BitLicense 시행일(S1KR2-024 "2015-07-24")과 NYDFS 안내(2015-06-24)가 다름. 기존 행을 쓰기 전에 감독기관 원문으로 다시 봄
+
+### 회사 담당이 찾은 경로(인수와 인가 이력)
+- 열림: FINRA BrokerCheck API(api.brokercheck.finra.org/search/firm/<CRD>)와 PDF(files.brokercheck.finra.org/firm/firm_<CRD>.pdf, 옛 이름과 소유 이력), SEC 투자자문사 기록(reports.adviserinfo.sec.gov), NFA BASIC, 델라웨어 형평법원 판결문(courts.delaware.gov, FairX 인수 경위), BMA 등록부, ESMA CASPS.csv, ADGM 공개 등록부(허가일과 철회일), 일본 금융청 등록 PDF(fsa.go.jp/menkyo/menkyoj/kasoutuka.pdf), ASIC PDF, CySEC 등록부, GLEIF API(법인 옛 이름), IG Group 공시 사본(financialreports.eu)
+- 회사별: robinhood.com/newsroom/<slug>/ curl, Motley Fool 실적 통화 녹취(Robinhood), miaxglobal.com PDF, wonder.fi 보도자료, Coinbase IR CDN(s27.q4cdn.com)의 실적 통화 녹취 PDF, blog.kraken.com과 payward.com 보도자료, ninjatrader.com/News, data.coindesk.com의 옛 CryptoCompare 보도자료(2019~2020 파생 거래소 순위), AAP의 cision 사본(Binance PR Newswire 2023~)
+- 막힘(우회 안 함): coinbase.com 블로그와 Medium, cftc.gov, sec.gov, investors.robinhood.com(403), coindesk.com(429), theblock.co, fortune, bloomberg, reuters, crowdfundinsider, businesswire, benzinga, cnbc, newswire.ca, finextra, geekwire(403), binance.com 공지(봇 확인), lb.lt, securities-administrators.ca, Risk.net(유료)
+- 함정: 회사가 세는 인가 수의 단위가 발표마다 다름(나라, 관할, 이정표). 인수 대상의 인가는 인수 전에 다른 회사를 사서 얻은 것일 때가 많아(NinjaTrader의 TransAct, Keystone의 옛 이름들) 등록부의 옛 이름과 소유 이력을 먼저 봄. 대금은 발표가와 회계상 인수일 공정가치가 다름(Deribit 29억 대 42.95억)
