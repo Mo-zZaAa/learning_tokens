@@ -1,0 +1,103 @@
+         List of grandfathering periods decided by Member States under
+        Article 143 of Regulation (EU) 2023/1114 Markets in Crypto-Assets
+                                Regulation (MiCA)*
+
+
+
+Article 143 – Transitional measures
+
+3. Crypto-asset service providers that provided their services in accordance with applicable law before
+   30 December 2024, may continue to do so until 1 July 2026 or until they are granted or refused an
+   authorisation pursuant to Article 63, whichever is sooner.
+   Member States may decide not to apply the transitional regime for crypto-asset service providers
+   provided for in the first subparagraph or to reduce its duration where they consider that their national
+   regulatory framework applicable before 30 December 2024 is less strict than this Regulation.
+   By 30 June 2024, Member States shall notify to the Commission and ESMA whether they have
+   exercised the option provided for in the second subparagraph and the duration of the transitional
+   regime.
+
+
+
+
+                      Member state                               Grandfathering period
+
+        Belgium                                                         18 months
+
+        Bulgaria                                                       18 months**
+
+        Czechia                                                        18 months***
+
+        Denmark                                                       18 months****
+
+        Germany                                                         12 months
+
+        Estonia                                                         18 months
+
+        Ireland                                                         12 months
+
+        Greece                                                          18 months
+
+        Spain                                                           18 months
+    France                            18 months
+
+    Croatia                           18 months
+
+    Italy*****                        18 months
+
+    Cyprus                            18 months
+
+    Latvia                             6 months
+
+    Lithuania                         12 months
+
+    Luxembourg                        18 months
+
+    Hungary                            6 months
+
+    Malta                             18 months
+
+    Netherlands                        6 months
+
+    Austria                           12 months
+
+    Poland                             6 months
+
+    Portugal                          18 months
+
+    Romania                           18 months
+
+    Slovenia                           6 months
+
+    Slovakia                          12 months
+
+    Finland                            6 months
+
+    Sweden                             9 months
+
+
+.
+
+
+                  EEA country   Grandfathering period
+
+    Iceland                          18 months
+         Liechtenstein                                                      18 months
+
+         Norway                                                             12 months
+
+
+* Please note that some of these grandfathering periods have been communicated to ESMA by national competent
+authorities, reflecting their current expectations on national grandfathering period, but that some of these periods
+may not have been incorporated into national law yet. This list is being shared on that basis to facilitate industry
+preparations ahead of MiCA.
+
+* To be able to benefit from the grandfathering period, applicant CASPs must apply before 8 October 2025.
+** The entities listed in the VASP register between 30 December 2024 and 08 July 2025 (the date of entry into
+force of the Bulgarian Act) shall submit an application for authorization under art. 63 of MiCA before 08
+       October 2025 (i.e. within 3 months of entry into force of the Bulgarian Act).
+*** To be able to benefit from the grandfathering period, applicant CASPs must apply before 31 July 2025.
+
+**** To be able to benefit from the grandfathering period, applicant CASPs must apply before 30 December 2024.
+***** Entities registered as VASPs in the Italian AML/TF register, or entities belonging to the same group, must file
+   their application for MICA authorisation by 30 December 2025 to benefit from the grandfathering period.
+

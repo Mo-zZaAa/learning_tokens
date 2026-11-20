@@ -1,0 +1,578 @@
+  ​Futures Commission Merchant​
+     ​1.55 Disclosure Document​
+                                     ​of​
+     ​NinjaTrader Clearing, LLC​
+ ​d/b/a NinjaTrader, Kraken Derivatives US and Tradovate​
+
+
+
+
+              ​The date of this disclosure document is:​
+
+                             ​May 6, 2026​
+
+​Registered with the Commodity Futures Trading Commission as a​
+         ​Futures Commission Merchant NFA ID# 0309379​
+
+                ​222 North LaSalle Street, Suite 400​
+                         ​Chicago, IL 60601​
+                      ​Phone: (312) 423-2234​
+
+
+      ​Compliance@NinjaTrader.com​           ​Compliance@Tradovate.com​
+          ​www.ninjatrader.com​                  ​www.tradovate.com​
+                                                                       ​Disclosure Document​
+​Contents​
+I​ NTRODUCTION​​.......................................................................................................................................................​​3​
+ ​FIRM​​AND​​ITS​​PRINCIPALS​​...................................................................................................................................​​3​
+              ​a.​​The​​Firm​​............................................................................................................................................................​​3​
+               ​b.​​Principals​​..........................................................................................................................................................​​3​
+  ​FIRM'S​​BUSINESS​​....................................................................................................................................................​​4​
+                ​Activity​​and​​Product​​Lines​​...................................................................................................................................​​5​
+   ​FCM​​CUSTOMER​​BUSINESS​​..................................................................................................................................​​5​
+    ​PERMITTED​​DEPOSITORIES​​AND​​COUNTERPARTIES​​....................................................................................​​6​
+     ​MATERIAL​​RISKS​​....................................................................................................................................................​​6​
+      ​RISK​​PRACTICES,​​CONTROLS​​AND​​PROCEDURES​​.........................................................................................​​8​
+       ​FINANCIAL​​DATA​​....................................................................................................................................................​​8​
+        ​MATERIAL​​COMPLAINTS​​OR​​ACTIONS​​.............................................................................................................​​9​
+         ​CUSTOMER​​FUND​​SEGREGATION,​​COLLATERAL​​MANAGEMENT​​AND​​INVESTMENTS​​.....................​​10​
+          ​FILING​​A​​COMPLAINT​​..........................................................................................................................................​​12​
+
+
+
+
+                                                                                                                                                                                          ​2​
+​INTRODUCTION​
+​ he Commodity Futures Trading Commission (“CFTC” or the “Commission”) requires each Futures​
+T
+​Commission Merchant (“FCM”), including NinjaTrader Clearing, LLC d/b/a NinjaTrader, Kraken Derivatives US​
+ ​and Tradovate (“NinjaTrader” or the "Company"), to provide the following information to a customer prior to the​
+  ​time the customer first enters into an account agreement with the FCM or deposits money or securities with the​
+   ​FCM. Except as otherwise noted, the information set out below is as of May 6, 2026. NinjaTrader will update this​
+    ​information annually and as necessary to take account of any material change to its business operations, financial​
+     ​condition, or other factors that NinjaTrader believes may be material to a customer's decision to do business with​
+      ​the Company. Nonetheless, the Company's business activities and financial data are not static and may change in​
+       ​non-material ways throughout any 12-month period.​
+
+​ OTE: NinjaTrader is a subsidiary of NinjaTrader Group, LLC, which is wholly owned by Payward, Inc. d/b/a​
+N
+​Kraken. Information that may be material with respect to NinjaTrader for purposes of the CFTC's disclosure​
+ ​requirements may not be material to Payward, Inc. for purposes of applicable securities or other laws.​
+
+​ his document is intended to be read in conjunction with the Standard Risk Disclosure Statement, which is​
+T
+​available at https://ninjatrader.com/disclosures/.​
+
+
+​FIRM AND ITS PRINCIPALS​
+
+  ​a.​ ​The Firm​
+
+​ injaTrader Clearing, LLC​
+N
+​d/b/a NinjaTrader, Kraken Derivatives US, and Tradovate​
+
+​ 22 North LaSalle Street, Suite 400 Chicago, Illinois 60601 Phone: (312) 423-2234 Email:​
+2
+​Compliance@NinjaTrader.com​​Web:​​www.ninjatrader.com​
+
+​ injaTrader is registered as an FCM with the CFTC (NFA ID# 0309379) and is a member of the National Futures​
+N
+​Association ("NFA"), which serves as its Designated Self-Regulatory Organization ("DSRO"). The NFA's website​
+ ​address is​​www.nfa.futures.org​​. Additional information​​regarding NinjaTrader, including its registration status,​
+  ​principals, and regulatory history, is available through the NFA's Background Affiliation Status Information​
+   ​Center ("BASIC") at​​https://www.nfa.futures.org/basicnet/​​.​
+
+  ​b.​ ​Principals​
+
+​The following individuals and entities are listed principals of NinjaTrader as defined in CFTC Regulation §3.1(a):​
+
+​ hanh Trung Luu, Principal​​Background: Mr. Luu is​​the Chief Technology Officer for Kraken Inc., a position​
+T
+​he has held since 2011. He has over 20 years of experience in financial technology. Areas of Responsibility:​
+ ​Strategic alignment and technology direction Nature of Duties: Mr. Luu provides input on strategic alignment and​
+  ​direction of the Company and its affiliates. Mr. Luu is not involved in the day-to-day operations of NinjaTrader.​
+   ​Mr. Luu is a principal by virtue of his position within the parent organization.​
+
+
+                                                                                                                       ​3​
+​ alter Sledz, President and Chief Operating Officer​​Business Address: 222 North LaSalle Street, Suite 400,​
+W
+​Chicago, IL 60601 Background: Mr. Sledz has over 20 years of experience in financial services, operations, sales,​
+ ​and customer support. He holds a B.S. in Business Administration and Marketing from the University of Illinois.​
+  ​Areas of Responsibility: Clearing operations, sales, treasury, customer onboarding, and customer support Nature​
+   ​of Duties: Mr. Sledz is responsible for all clearing operations and related activities at NinjaTrader.​
+
+​ ric McNulty, Executive Vice President and Chief Financial Officer​​Business Address: 222 North LaSalle​
+E
+​Street, Suite 400, Chicago, IL 60601 Background: Mr. McNulty has over 15 years of experience in finance and​
+ ​accounting. He also serves as CFO of NinjaTrader Group, LLC. Previously, Mr. McNulty held multiple finance​
+  ​roles at Interactive Data Corp (now part of ICE). He is a CPA and holds a B.B.A. in Accounting from the​
+   ​University of Dayton and an M.S. in Accounting (Tax) from Cleveland State University. Areas of Responsibility:​
+    ​Finance, accounting, and administration Nature of Duties: Mr. McNulty oversees all financial reporting,​
+     ​accounting, and regulatory financial filings for NinjaTrader.​
+
+​ ulius Kaiser, Chief Compliance Officer​​Business Address:​​222 North LaSalle Street, Suite 400, Chicago, IL​
+J
+​60601 Background: Mr. Kaiser has held senior legal and compliance positions at Morgan Stanley, Deutsche Bank,​
+ ​and Farmer's Business Network. He began his career in the futures industry with the Legal and Regulation​
+  ​Department of CME Group. Mr. Kaiser holds a B.A. from Texas Tech University, a J.D. from Florida​
+   ​International University, and an LL.M. in Financial Services Law from New York Law School. Areas of​
+    ​Responsibility: Regulatory compliance Nature of Duties: Mr. Kaiser oversees all regulatory compliance functions​
+     ​at NinjaTrader.​
+
+​ injaTrader Group, LLC​​Address: 222 North LaSalle​​Street, Suite 400, Chicago, IL 60601 NinjaTrader Group,​
+N
+​LLC ("NTG") is NinjaTrader's direct parent company and owns 100% of the membership interests of NinjaTrader.​
+ ​NTG is wholly owned by Payward, Inc. d/b/a Kraken.​
+
+
+​FIRM'S BUSINESS​
+​ injaTrader executes and clears futures, options on futures, leveraged spot digital asset transactions, cleared​
+N
+​swaps and event contract products for its customers. For futures and options on futures, NinjaTrader clears​
+ ​customer transactions through omnibus account arrangements with two clearing FCMs. NinjaTrader is a direct​
+  ​clearing member of Bitnomial Clearinghouse, LLC and Kalshi Klear LLC. Client commissions from the​
+   ​execution and clearing of these transactions are the Company's primary source of revenue. NinjaTrader does not​
+    ​manage any customer accounts and does not permit employees to exercise discretionary trading authority over​
+     ​customer accounts.​
+
+​ injaTrader is a subsidiary of NinjaTrader Group, LLC ("NTG"), which is wholly owned by Payward, Inc. d/b/a​
+N
+​Kraken ("Kraken"), a digital asset exchange and services provider. Information regarding the Company's affiliates​
+ ​and the risks they may pose to customers is set forth in the "Material Risks" section below.​
+
+​ pot Digital Asset Margin Program​​(the “Program”)​​.​​NinjaTrader facilitates leveraged spot digital asset​
+S
+​transactions for customers under the rules of Bitnomial Exchange, LLC, a CFTC-registered DCM affiliated with​
+ ​NinjaTrader. Transactions are cleared through Bitnomial Clearinghouse, LLC, a CFTC-registered DCO affiliated​
+  ​with NinjaTrader, at which NinjaTrader is a direct clearing member. Under the Program, an affiliated entity​
+   ​extends margin credit to customers to support leveraged spot digital asset trading. NinjaTrader is not the lender​
+    ​and does not extend credit. Customer obligations to the lender may also be secured by customer collateral assets​
+     ​held at Payward Interactive, Inc. ("PWI"), an affiliated entity. Collateral assets at PWI are not held in​
+      ​CFTC-regulated customer segregated accounts.​
+
+
+
+
+                                                                                                                      ​4​
+                                                                       ​ pproximate % of​
+                                                                       A                       ​ pproximate % of​
+                                                                                               A
+​Activity and Product Lines​
+                                                                       ​Assets​                ​Capital​
+​ CM business, including execution and clearing of futures, options,​
+F
+​leveraged spot digital asset transactions, and SWAP and event​       ​100%​                   ​100%​
+ ​contracts​
+
+
+
+​FCM CUSTOMER BUSINESS​
+​ ypes of Customers:​​Primarily self-directed retail​​day traders. The Company also services proprietary trading​
+T
+​groups and institutional accounts. The Company carries accounts for both domestic and foreign clients.​
+
+​Markets Traded:​
+
+​Exchange​
+
+​Chicago Mercantile Exchange, Inc. (CME)​
+
+​Chicago Board of Trade (CBOT)​
+
+​New York Mercantile Exchange (NYMEX)​
+
+​Commodity Exchange, Inc. (COMEX)​
+
+​ICE Futures U.S.​
+
+​MIAX Futures Exchange LLC​
+
+​Eurex​
+
+​Coinbase Derivatives, LLC (CDE)​
+
+​Bitnomial Exchange, LLC​
+
+​Kalshi Exchange LLC​
+
+
+​ roducts Traded:​​Broad-based equity index futures​​(majority of customer volume), energies, metals, foreign​
+P
+​exchange, agricultural products, financial products, bitcoin and nano bitcoin futures, leveraged spot digital assets,​
+ ​and cleared swaps and event contracts.​
+
+
+
+
+                                                                                                                     ​5​
+​Clearing Relationships:​
+
+​Clearing Entity​                        ​Relationship​                          ​Products​
+
+​Dorman Trading, LLC​                    ​Carrying broker (omnibus)​             ​Futures and options​
+
+​Advantage Futures, LLC​                 ​Carrying broker (omnibus)​             ​Futures and options​
+
+​Bitnomial Clearinghouse, LLC​           ​Direct clearing member​                ​Futures and leveraged spot​
+
+​Kalshi Klear LLC​                       ​Direct clearing member​                ​Cleared SWAPs​
+
+
+I​ n selecting carrying brokers and clearing relationships, NinjaTrader primarily evaluates each entity's financial​
+ ​condition, capital adequacy, registration history, exchange and clearinghouse memberships. Other factors that​
+  ​might also be considered include risk management systems, operational capacity, and disaster recovery​
+   ​procedures. The Company performs ongoing monitoring and periodic reviews of all clearing relationships.​
+
+
+​PERMITTED DEPOSITORIES AND COUNTERPARTIES​
+​ injaTrader maintains customer segregated funds at the following types of institutions: carrying brokers (Dorman​
+N
+​Trading and Advantage Futures), U.S. commercial banks, and, for customer segregated digital assets under the​
+ ​Spot Digital Asset Margin Program, Payward Financial, Inc. d/b/a Kraken Financial, (“PWI”) a​
+  ​Wyoming-chartered special purpose depository institution affiliated with NinjaTrader under common ownership.​
+   ​Kalshi Klear LLC, a CFTC-registered DCO at which NinjaTrader is a direct clearing member, holds customer​
+    ​cleared swaps collateral in connection with cleared swaps and event contract products.​
+
+I​ n selecting depositories, the Company evaluates each institution's financial condition, creditworthiness,​
+ ​operational capacity, service capabilities, and regulatory standing. The Company performs ongoing monitoring​
+  ​and annual reviews of all depositories. When the selected depository is an affiliated entity, the Company's due​
+   ​diligence process may be subject to review by a Principal of the Firm.​
+
+
+​MATERIAL RISKS​
+​ perational Risk​​. NinjaTrader's business depends on​​the functioning of its internal systems, the systems of its​
+O
+​affiliated technology provider, and the systems of exchanges, clearinghouses, carrying brokers, depositories, and​
+ ​other third-party service providers. NinjaTrader's customers are predominantly self-directed retail traders who rely​
+  ​on a single affiliated trading platform for order entry and execution; a disruption to that platform would​
+   ​disproportionately affect the Company's customer base. A failure, disruption, cyberattack, or breach of any of​
+    ​these systems could prevent customers from executing or managing transactions, delay the processing of trades or​
+     ​margin payments, or result in financial loss. NinjaTrader maintains business continuity, disaster recovery, and​
+      ​cybersecurity programs, but cannot guarantee uninterrupted access to its services.​
+
+​ arket Risk​​. Market volatility can result in rapid​​changes in the value of customer positions and collateral. During​
+M
+​periods of extreme volatility, customers may be unable to close positions or satisfy margin requirements before​
+ ​liquidation occurs. Exchange rules may impede order entry during volatile periods. Because NinjaTrader's​
+  ​customer base is concentrated in self-directed retail day traders with similar trading profiles, a severe market​
+
+
+                                                                                                                       ​6​
+​ islocation could cause simultaneous margin failures across a large number of accounts. Adverse market​
+d
+​movements may also affect the value of NinjaTrader's own investments and the financial condition of its carrying​
+ ​brokers, clearinghouses, and counterparties.​
+
+​ redit Risk​​. NinjaTrader is exposed to credit risk​​when customers fail to meet margin obligations or when​
+C
+​counterparties, carrying brokers, or depositories fail to perform. NinjaTrader's customers are also indirectly​
+ ​exposed to the financial condition of the Company's carrying brokers and clearing counterparties, including​
+  ​Dorman Trading, Advantage Futures, Bitnomial Clearinghouse, and Kalshi Klear, at which customer funds are​
+   ​held. If a customer's account has a deficit after liquidation, the Company may be unable to recover the full amount​
+    ​owed, which could reduce the Company's capital.​
+
+​ iquidity and Capital Risk​​. NinjaTrader is subject​​to minimum net capital requirements under CFTC Regulation​
+L
+​1.17. If NinjaTrader were unable to maintain compliance with these requirements, it could be required to modify,​
+ ​suspend, or cease some or all of its business activities. The introduction of new products and services may affect​
+  ​NinjaTrader's capital requirements. The Company monitors its capital adequacy on an ongoing basis. See​
+   ​"Financial Data" below for current net capital figures.​
+
+I​ nvestment Risk​​. Customer funds are invested in accordance​​with CFTC Regulation 1.25. NinjaTrader's current​
+ ​investment policy limits the investment of customer funds to cash and U.S. government securities.​
+
+​ egal and Regulatory Risk​​. Changes in laws, regulations,​​or regulatory interpretation could affect NinjaTrader's​
+L
+​business activities, increase compliance costs, or require modification or termination of products offered. The​
+ ​regulatory treatment of digital assets and digital asset lending products is evolving and subject to uncertainty.​
+
+​ ffiliate Risk​​. NinjaTrader is a subsidiary of NinjaTrader​​Group, LLC, which is wholly owned by Payward, Inc.​
+A
+​d/b/a Kraken. NinjaTrader operates within a group of affiliated entities under common ownership, several of​
+ ​which perform functions that are material to NinjaTrader's customers. The failure, insolvency, or regulatory action​
+  ​against any material affiliate could disrupt NinjaTrader's operations or affect customer funds or positions.​
+
+​The following affiliated relationships create material risks for customers:​
+
+    ​●​ A   ​ n affiliated entity (NinjaTrader, LLC) provides the primary trading platform and technology​
+            ​infrastructure used by NinjaTrader's customers. NinjaTrader's customer base is predominantly dependent​
+             ​on this single platform for order entry and execution.​
+     ​●​ ​An affiliated entity (Bitnomial Exchange, LLC / Bitnomial Clearinghouse, LLC) operates the DCM and​
+              ​DCO on which leveraged spot digital asset transactions are executed and cleared. NinjaTrader is a direct​
+               ​clearing member of Bitnomial Clearinghouse.​
+      ​●​ ​An affiliated entity (Payward Oceanic, Ltd) acts as a market maker and liquidity provider on Bitnomial​
+                ​Exchange and maintains a noncustomer proprietary (house) account at NinjaTrader, creating financial​
+                 ​exposure to that affiliate through margin, settlement, and potential trading losses. This affiliate may take​
+                  ​the other side of customer trades, including liquidation trades.​
+       ​●​ ​An affiliated entity (Payward Financial, Inc. d/b/a Kraken Financial), a Wyoming-chartered special​
+                   ​purpose depository institution, serves as the depository for customer segregated digital assets. Recovery​
+                    ​from an insolvent depository involves risks that may be heightened when the depository is affiliated with​
+                     ​the FCM.​
+
+​ dditional affiliate risks arise in connection with the Spot Digital Asset Margin Program, under which an​
+A
+​affiliated lender extends margin credit to customers and an affiliated entity holds certain customer collateral​
+ ​outside of CFTC-regulated segregated accounts. These risks are described in detail in the​​Program Risk​
+  ​Disclosure Statement​​, which is provided to customers​​prior to participation in the Program.​
+
+
+
+                                                                                                                              ​7​
+​ injaTrader has not entered into a guarantee agreement on behalf of any affiliate and does not invest customer​
+N
+​funds with any affiliated entity (other than as described above with respect to Kraken Financial as depository).​
+
+​ onflicts of Interest​​. The affiliated relationships​​described above create conflicts of interest. NinjaTrader​
+C
+​simultaneously owes duties to its customers and has financial relationships with affiliated entities that may have​
+ ​interests adverse to those customers, including an affiliated market maker that may act as counterparty to​
+  ​customer trades at prices from which the affiliate may profit, and an affiliated depository that holds customer​
+   ​segregated digital assets. Additional conflicts arise in connection with the Spot Digital Asset Margin Program and​
+    ​are described in the​​Program Risk Disclosure Statement​​.​
+
+​ dditionally, although NinjaTrader does not trade a proprietary account for speculative purposes, it does hedge its​
+A
+​foreign currency holding with futures and as such although highly unlikely, it is possible for such a hedge trade to​
+ ​match with a customer’s fx futures trade. Similarly, NinjaTrader allows its employees and employees of affiliates​
+  ​to trade their own accounts and therefore these individuals may be on the opposite side of orders for purchase or​
+   ​sale of futures contracts and option contracts placed by customers and this creates a perception of a conflict of​
+    ​interest.​
+
+​ ustomer Insolvency Risk​​. In the event of NinjaTrader's​​insolvency, customers may be subject to aggregate​
+C
+​customer risk — the risk that losses in certain customer accounts cannot be fully covered, and the shortfall is​
+ ​apportioned pro rata among customers under CFTC Part 190. An insolvency could also require transfer of​
+  ​position or another FCM or liquidation of customer positions and could delay the return of customer funds.​
+
+
+​RISK PRACTICES, CONTROLS AND PROCEDURES​
+​ injaTrader maintains a Risk Management Program ("RMP") that identifies the key risks of the firm, assigns risk​
+N
+​tolerance limits, and establishes policies and procedures for detecting and escalating breaches of those limits.​
+ ​Senior management reviews and approves risk tolerance limits periodically. The Company provides written risk​
+  ​exposure reports to the CFTC and NFA quarterly. The RMP is reviewed for effectiveness as required by​
+   ​regulation.​
+
+​ he Company monitors customer margin requirements and account equity on a real-time or near-real-time basis​
+T
+​and maintains automated systems for detecting margin deficiencies and triggering liquidation processes in​
+ ​accordance with applicable exchange rules and the Company's internal policies. The Company computes its​
+  ​segregation requirements daily for each customer account origin and monitors compliance with CFTC segregation​
+   ​rules, including residual interest requirements, on an ongoing basis. Where NinjaTrader maintains business​
+    ​relationships with affiliated entities, the Company maintains oversight procedures designed to monitor the​
+     ​financial condition and operational performance of those affiliates and to identify and manage the conflicts of​
+      ​interest described in this disclosure. The Company does not maintain formal information barrier policies between​
+       ​its customer-facing operations and affiliated entities; customers should be aware that affiliated entities operating​
+        ​within the Kraken group may have access to information regarding customer activity through shared systems or​
+         ​infrastructure.​
+
+​Additional information regarding NinjaTrader's risk practices is available upon request.​
+
+
+​FINANCIAL DATA​
+​ he following financial data is as of March 31, 2026, unless otherwise noted. NinjaTrader's audited financial​
+T
+​statements are available at https://ninjatrader.com/disclosures/.​
+
+
+
+                                                                                                                           ​8​
+​ et Capital​​: Adjusted net capital: $105,392,189 Net capital requirement: $1,000,000 Excess net capital:​
+N
+​$104,265,254​
+
+​ embers' Equity​​: Total members' equity (unaudited):​​$115,912,572. The Company’s audited financial statements​
+M
+​can be found at https://ninjatrader.com/disclosures/.​
+
+​ ustomer Funds​​: Customer segregated funds on deposit:​​$442,851,289 Customer segregated funds required:​
+C
+​$365,105,730 Excess segregated funds: $77,745,559​
+
+​ leared swaps customer collateral on deposit​​: $0 Cleared​​swaps customer collateral required: $0 Excess cleared​
+C
+​swaps customer collateral: $0​
+
+​ ustomer Concentration​​: Smallest number of futures​​customers comprising 50% of total customer segregated​
+C
+​funds: approximately 2,221 futures customers and 18 30.7 customers.​
+
+​ roprietary Margin Requirements​​: As of March 31, 2026,​​the Company's proprietary margin requirements were​
+P
+​$64,695, representing 0.46% of the aggregate margin requirements for futures customers and 30.7 secured​
+ ​customers.​
+
+​ ncollectable Accounts​​: In the prior 12-month period,​​the Company had uncollectable customer account balances​
+U
+​totaling less than $200,000.​
+
+​ otional Value of Non-Hedged OTC Transactions​​: The​​Company had no non-hedged, principal over-the-counter​
+N
+​transactions outstanding as of March 31, 2026.​
+
+​Unsecured Lines of Credit​​: The Company has no unsecured​​lines of credit.​
+
+I​ lliquid Financial Products​​: The Company does not​​extend financing for customer transactions involving illiquid​
+ ​financial products.​
+
+​Leverage​​: The Company carries no material long-term​​debt and is not materially financially leveraged.​
+
+
+​MATERIAL COMPLAINTS OR ACTIONS​
+​ FTC regulations require the Company to disclose any material administrative, civil, enforcement, or criminal​
+C
+​complaints or actions filed against the Company during the last three years. As of the date of this Disclosure​
+ ​Document, the following actions have been filed or resolved:​
+
+  ​a)​ ​On September 23, 2024, without admitting or denying the findings, NinjaTrader settled a CFTC action (In​
+        ​the Matter of NinjaTrader Clearing LLC, Docket No. 24-27) in which the CFTC found that NinjaTrader​
+         ​violated CFTC Regulation 166.3 by failing to diligently supervise an employee's handling of accounts​
+          ​subject to a court-ordered freeze. Specifically, NinjaTrader failed to have adequate policies and procedures​
+           ​in place and did not adequately monitor its employees to ensure that the freeze order was implemented as​
+
+
+
+                                                                                                                       ​9​
+      r​ equired, resulting in a loss of $233,425.70 in the affected account. NinjaTrader paid a civil monetary​
+       ​penalty of $750,000 and restitution of $233,425.70.​
+
+  ​b)​ ​On November 18, 2024, the NFA filed a complaint against NinjaTrader and its former President, Michael​
+        ​Cavanaugh, alleging violations of NFA Rule 2-9(c) related to Anti-Money Laundering compliance and NFA​
+         ​Rule 2-9(a) regarding supervision. On May 29, 2025, the matter was settled for $250,000 without admission​
+          ​or denial of the allegations. The final order found that NinjaTrader violated NFA Rules 2-9(a) and 2-9(c).​
+           ​No adverse findings were made against Mr. Cavanaugh.​
+
+​ dditional information regarding NinjaTrader's regulatory history is available through the NFA's BASIC system​
+A
+​at https://www.nfa.futures.org/basicnet/.​
+
+
+ ​ USTOMER FUND SEGREGATION, COLLATERAL MANAGEMENT AND​
+ C
+​INVESTMENTS​
+​ CMs may maintain up to three different types of accounts for customers, depending on the products a customer​
+F
+​trades:​
+
+    ​1.​ ​A Customer Segregated Account for customers that trade futures and options on futures listed on US​
+          ​futures exchanges;​
+
+    ​2.​ ​a 30.7 Account for customers that trade futures and options on futures listed on foreign boards of trade;​
+          ​and​
+
+    ​3.​ ​(iii) a Cleared Swaps Customer Account for customers trading swaps that are cleared on a Derivatives​
+          ​Clearing Organization (“DCO” registered with the CFTC.​
+
+​ he requirement to maintain these separate accounts reflects the different risks posed by the different products.​
+T
+​Cash, securities and other collateral (collectively, Customer Funds) required to be held in one type of account,​
+ ​e.g., the Customer Segregated Account, may not be commingled with funds required to be held in another type of​
+  ​account, e.g., the 30.7 Account, except as the CFTC may permit by order.​
+
+​ ustomer Segregated Accounts​​. Funds that customers​​deposit with NinjaTrader, or that are otherwise required to​
+C
+​be held for the benefit of customers, to margin futures and options on futures contracts traded on U.S. designated​
+ ​contract markets are held in Customer Segregated Accounts in accordance with Section 4d(a)(2) of the​
+  ​Commodity Exchange Act (the “Act”) and CFTC Regulation 1.20. Customer segregated funds may not be used to​
+   ​meet the obligations of NinjaTrader or any other person, including another customer.​
+
+​ ustomer Segregated Funds may be commingled in a single account, i.e., on an omnibus basis, and held with: (i)​
+C
+​a bank or trust company located in the US, (ii) a bank or trust company located outside of the US that has in​
+ ​excess of $1 billion of regulatory capital, (iii) an FCM or (iv) a DCO. Such commingled account must be properly​
+  ​titled to make clear that the funds belong to, and are being held for the benefit of, the FCM’s Segregated​
+   ​Customers. NinjaTrader maintains these funds at its carrying brokers (Dorman Trading, LLC and Advantage​
+
+
+                                                                                                                   ​10​
+​ utures, LLC), at U.S. commercial banks, and, for customer segregated digital assets under the Spot Digital Asset​
+F
+​Margin Program, at Payward Financial, Inc. d/b/a Kraken Financial.​
+
+​ leared Swaps Customer Accounts​​. Funds that Cleared​​Swaps Customers deposit with an FCM, or that are​
+C
+​otherwise required to be held for the benefit of Cleared Swaps Customers, to margin swaps cleared through a​
+ ​registered DCO, i.e., Cleared Swaps Customer Collateral, are held in a Cleared Swaps Customer Account in​
+  ​accordance with the provisions of section 4d(f) of the Act and Part 22 of the CFTC’s rules.​
+
+​ unds required to be held in a Cleared Swaps Customer Account may be commingled in an omnibus account and​
+F
+​held with: (i) a bank or trust company located in the US, (ii) a bank or trust company located outside of the US​
+ ​that has in excess of $1 billion of regulatory capital, (iii) an FCM or (iv) a DCO. Such commingled account must​
+  ​be properly titled to make clear that the funds belong to, and are being held for the benefit of, the FCM’s Cleared​
+   ​Swaps Customers. As of the date of this document, NinjaTrader does not maintain any Cleared Swaps Customer​
+    ​Collateral.​
+
+​ 0.7 Secured Accounts​​. Funds that 30.7 Customers deposit​​with an FCM, or that are otherwise required to be held​
+3
+​for the benefit of 30.7 Customers, to margin futures and options on futures contracts traded on foreign boards of​
+ ​trade, i.e., 30.7 Customer Funds, and sometimes referred to as the Foreign Futures and Foreign Options Secured​
+  ​Amount, are held in a 30.7 Account in accordance with CFTC Rule 30.7.​
+
+​ unds required to be held in the 30.7 Account for or on behalf of 30.7 Customers may be commingled in an​
+F
+​omnibus account and held with: (i) a bank or trust company located in the US, (ii) a bank or trust company located​
+ ​outside the US that has in excess of $1 billion in regulatory capital, (iii) an FCM, (iv) a DCO; (v) the clearing​
+  ​organization of any foreign board of trade, (vi) a foreign broker or (vii) such clearing organization’s or foreign​
+   ​broker’s designated depositories. Such commingled account must be properly titled to make clear that the funds​
+    ​belong to, and are being held for the benefit of, the FCM’s 30.7 Customers. As explained below, CFTC Rule 30.7​
+     ​restricts the amount of such funds that may be held outside of the US. As of the date of this document,​
+      ​NinjaTrader maintains 30.7 customer accounts at its carrying brokers.​
+
+​ esidual Interest​​. NinjaTrader is required to maintain​​its own proprietary funds (residual interest) in customer​
+R
+​segregated and cleared swaps accounts in an amount that exceeds the aggregate undermargined amount of all​
+ ​customer accounts, as computed daily. NinjaTrader may not withdraw proprietary funds from these accounts​
+  ​below its required residual interest, and must notify the NFA of any withdrawal exceeding 25% of its targeted​
+   ​residual interest amount.​
+
+I​ nvestment of Customer Funds​​. To ensure compliance​​with regulatory capital requirements and sufficient liquidity,​
+ ​NinjaTrader holds a significant portion of its assets in cash and short dated US Treasuries. Although minimal,​
+  ​NinjaTrader may incur some risk from short-dated US Treasury investments whose market value may fluctuate​
+   ​based on a variety of factors. The firm may also experience some cash foreign currency risk but mitigates that risk​
+    ​by hedging those positions in the futures market.​
+
+
+
+
+                                                                                                                        ​11​
+​ he Company may maintain some internal proprietary trading and non-customer accounts in its business. The​
+T
+​Company hedges the Company’s foreign currency exposure and minimize risk in foreign currency price​
+ ​fluctuation by holding positions in currency futures.​
+
+​ injaTrader’s investments of customer funds comply with CFTC Regulation 1.25. As permitted under CFTC​
+N
+​rules, client funds are invested in cash, US Treasury and/or Agency securities.​
+
+​ injaTrader’s Registration​​. NinjaTrader is registered​​with the CFTC as an FCM and is a member of the NFA.​
+N
+​NinjaTrader is not registered as a broker-dealer with the SEC. Customer funds held by NinjaTrader are not​
+ ​protected by the Securities Investor Protection Corporation (SIPC). NinjaTrader is not a joint FCM/broker-dealer.​
+
+​ or additional information on the protection of customer funds, please see the Futures Industry Association’s​
+F
+​“​Protection of Customer Funds Frequently Asked Questions​​”​​located at​
+ ​https://www.fia.org/sites/default/files/2025-10/FIA%20Customer%20Funds%20FAQ%20October%202025_0.pdf.​
+
+
+​FILING A COMPLAINT​
+​ customer may file a complaint about NinjaTrader or any of its employees with the CFTC by contacting the​
+A
+​Division of Enforcement electronically at https://www.cftc.gov/complaint or by calling (866) 366-2382. A​
+ ​customer may also file a complaint with the NFA electronically at https://www.nfa.futures.org/complaintnet/ or by​
+  ​calling (800) 621-3570.​
+
+​ ustomers who are unable to resolve a dispute with NinjaTrader directly should refer to the arbitration provisions​
+C
+​in their Customer Agreement. Customers participating in the Spot Digital Asset Margin Program should also be​
+ ​aware that the Program agreement(s) may contain separate dispute resolution provisions, including designation of​
+  ​the NFA as the primary arbitration forum for Program-related disputes.​
+
+
+
+
+                                                                                                                 ​12​
+

@@ -1,0 +1,581 @@
+Digital Assets Team
+Australian Securities and Investments Commission
+GPO Box 9827
+Melbourne VIC 3001
+
+via email: digital.assets@asic.gov.au
+
+
+                                                                                            28 February 2025
+
+
+Dear Digital Assets team
+
+
+I am pleased to attach Kraken’s views on the Australian Securities and Investments Commission’s (ASIC)
+consultation paper “CP 381 Updates to INFO 225: Digital Assets: Financial Products and Services” for
+your consideration.
+We are one of the world’s oldest and largest global digital asset businesses, founded in 2011 as one of
+the first exchanges to offer spot trading. Kraken’s services are subject to regulatory licenses and
+permissions as applicable in the jurisdictions in which we operate. We are trusted by over 14 million
+traders and institutions around the world. We have the distinction of trading over 200 digital assets across
+multiple fiat currencies which enables our customers to navigate the crypto landscape with ease and
+flexibility.
+
+Our history in Australia stretches back to 2013 with the founding of Bit Trade Pty Ltd, one of Australia’s
+longest-running crypto exchanges. Kraken acquired Bit Trade to support Australians in accessing crypto
+so that they can achieve financial freedom and inclusion. In addition, Kraken acquired Beaufort
+Fiduciaries Pty Ltd, an Australian financial services licensee, to provide an expanded set of products to
+wholesale clients. We are registered with AUSTRAC as a Digital Currency Exchange and have been
+engaging separately on issues relating to AML/CTF and Travel Rule implementation.
+As cryptocurrency adoption among Australians increases, it is essential that regulations acknowledge and
+adapt to the vital role digital currency plays in providing faster, cheaper transactions as well as a myriad of
+use cases throughout the digital economy.
+Close collaboration between industry, regulators and government will enable us to establish Australia as a
+world-leading jurisdiction for digital asset regulation, setting a benchmark for others to follow and ensuring
+our continued participation in this dynamic and rapidly growing industry.
+
+With this in mind, we thank ASIC for taking a collaborative approach to regulation and providing the
+opportunity for industry participants to reflect on its proposals. In order to create a clear and effective
+regulatory environment for digital assets, we would like to highlight the following points in our response:
+    ●​ Regulating through the Treasury’s pending framework: We have been heavily engaged with
+       the Treasury as it develops proposals for a regulatory framework for digital assets. We strongly
+       support an approach which treats tokens as non-financial products whilst regulating the risks at
+       the level of centralised intermediaries such as custodians, issuers and exchanges. We are
+       therefore concerned that some of the proposals contained within CP 381 run counter to this
+       approach, particularly the illustrated examples which aim to split out various types of assets.
+
+
+    ●​ Instilling a broad no-action relief for firms acting in good faith: As new licensing obligations
+       are introduced for digital asset firms, it is extremely important to provide a safe harbour for firms
+       trying to navigate a shifting and complex regulatory environment in good faith. As part of this, we
+        would like to see a specific prohibition from regulatory enforcement for historical conduct which,
+        as a result of the reforms, brings that conduct within the AFSL perimeter.
+
+
+    ●​ Regulating staking as a unique cryptoasset activity: Staking is a novel and unique activity
+       without a clear analogy in traditional financial services and should be regulated as per its features
+       and idiosyncratic risks. This does not mean a light touch approach - on-chain staking
+       intermediaries should be held to a high standard around consumer protection and transparency,
+       asset safekeeping, and resilience. Australia should follow the UK’s lead and regulate
+       intermediated staking as a standalone financial service as part of the upcoming digital asset
+       framework.
+
+
+    ●​ Recalibrating regulation of stablecoins: Given their strong potential to revolutionize the
+       payments industry, and deliver economic benefits to consumers and businesses alike, we
+       encourage ASIC to carefully consider regulation of stablecoins. Despite these payment benefits,
+       we note that not all stablecoins are used predominantly for payments. We therefore warn against
+       shoehorning existing stablecoins into being regulated as a non-cash payment facility.
+
+
+    ●​ Aligning regulation of wrapped tokens with its underlying use case: We also note that
+       wrapped tokens are generally used to allow holders to deploy assets on a different blockchain
+       rather than to gain price exposure to the underlying asset. This is an important distinction
+       because wrapped tokens allow users to engage with protocols across different blockchains.
+       Regulating them as derivatives would therefore misunderstand their purpose.
+
+
+We would be very happy to meet with your team to discuss the above points in further detail if helpful.
+
+
+Yours sincerely,
+
+Jonathon Miller
+Managing Director Australia
+Kraken
+Consultation Response
+
+Part A: The proposed updates to INFO 225
+
+A1Q1. Are there any topics or guidance that have not been included in the draft updated
+INFO 225 that you think should be? Please provide details.
+
+   ●​ As an overarching observation, we are concerned that the Infosheet 225 consultation
+      undercuts the Treasury’s existing workstream on establishing market structure legislation
+      for cryptoassets. The cross-over between the two workstreams has sent mixed signals to
+      industry and made it difficult to assess the proposals contained within this consultation.
+   ●​ We strongly support the Treasury’s approach which would treat tokens as non-financial
+      products whilst regulating risks at the level of centralised intermediaries. This removes
+      the need to make judgements on a token-by-token basis and instead focuses efforts on
+      where the risks are most prominent. Indeed, this is in line with approaches taken in
+      leading jurisdictions such as the EU and the UK.
+   ●​ We do however understand that ASIC is setting out its interpretation of how current
+      legislation applies to cryptoassets and note the delay to the Treasury’s consultation
+      process. However we would appreciate explicit clarification in the draft that ASIC’s
+      interpretation of the law is distinct from the law itself and that only the courts can
+      determine application of the law.
+   ●​ Despite this strongly held view, we include detailed comments on the proposals within
+      the response below, with the caveat that it has been difficult to assess the proposals in
+      isolation.
+
+
+A1Q2. Are there any topics or guidance that were included that you think should not have
+been included? Please provide details.
+
+   ●​ We have particularly strong views on the following topics:
+         ○​ Staking: It is premature to ascertain whether staking arrangements may or may
+            not form a financial product when staking is being considered as part of the
+            treasury’s legislative framework. We encourage Australia to follow the lead from
+            the UK Treasury, who explicitly stated staking is a unique crypto activity and is in
+            the process of developing a bespoke regime to regulate it, and the European
+            Securities and Market Authority who recently issued an opinion agreeing that
+            staking is inherently a non-financial activity.
+         ○​ Wrapped tokens: The classification of wrapped tokens is extremely broad and,
+            in our opinion, misunderstands their most common use case as a tool for
+            interopability between blockchains. Wrapped tokens are almost exclusively used
+            to enable users to deploy assets on another chain, e.g. using Bitcoin to engage
+            with activities on the Ethereum chain. This is a unique cryptoasset activity and is
+            not utilised as a method of risk management or to gain exposure to price
+            movements in another asset.
+          ○​ Payment stablecoins: Treating stablecoins as non-cash payment facilities
+             would be out of step with the Treasury’s proposals. Furthermore, we note that
+             presently most stablecoins are used for a broad range of use cases, including
+             both payment and non-payment activities (e.g. as a stable store of value and a
+             ‘safe haven’ within the digital asset sphere). For this reason, we would encourage
+             an activity-based regulatory regime that accounts for the risks associated with a
+             particular use case rather than trying to retrospectively fit narrow regulation to
+             multi-use tokens.
+
+
+A1Q3. Do you agree that the good practice guidance in INFO 225 directed to responsible
+entities is applicable to providers of custodial and depository services that provide
+custody of digital assets that are financial products? Are there any good practices that
+you would like added (e.g. on staking services)? Please provide details.
+
+   ●​ As stated above, we strongly believe that the unique nature of staking and its importance
+      to enhancing cyber security and functioning of proof-of-stake blockchains merits the
+      activity to be considered for bespoke, standalone regulation.
+   ●​ We note that whilst staking may be an ancillary service to custody, custody is not a
+      pre-requisite for staking services. Furthermore, staking services vary widely in their
+      structure and should not be uniformly categorized under financial product regulations.​
+
+
+A2Q1. Do you have comments on any of the proposed worked examples? Please give
+details, including whether you consider the product discussed may/may not be a
+financial product.
+
+   ●​ We have provided comments on each of the examples in the table below:
+
+      Example                                           Comment
+
+
+     Example 1              ●​ Exchange tokens, often used for transaction fee discounts on the
+                               native platform, may not inherently be financial products unless
+   Exchange Token              they confer additional rights such as dividends or redemption
+                               features, highlighting that the broader context should be
+                               considered and may bring the token within the financial product
+                               definition.
+                            ●​ Practitioners will benefit from more examples where exchange
+                               tokens evolve into financial products due to changes in their
+                               functionality or market use.
+     Example 2         ●​ As per broader comments, we strongly disagree that staking is a
+                          financial service. As UK and EU authorities have attested, there
+Native Token Staking      are no true analogues in traditional finance and staking is more
+       Service            akin to a cyber security activity than a financial one.
+                       ●​ We strongly encourage ASIC to consider staking regulation
+                          through the lens of the Treasury’s legislative framework. There are
+                          a number of staking models in the market and a one-size-fits-all
+                          approach will only serve to limit Australians’ ability to participate in
+                          blockchain validation and potentially undercut security of networks.
+
+
+
+     Example 3         ●​ Our reading of this example indicates that most in-game NFTs are
+                          not financial products unless they have investment-like features or
+In-Game Non-Fungible      secondary market liquidity.
+    Tokens (NFTs)      ●​ It would be helpful to include a scenario where an NFT confers
+                          future economic rights (e.g., royalties from secondary sales), which
+                          might bring it within the financial product definition.
+
+
+
+     Example 4         ●​ We would encourage ASIC to carefully consider regulation of
+                          stablecoins given their strong potential to deliver faster payments
+    Yield-Bearing         at a lower cost to consumers and businesses alike.
+     Stablecoins       ●​ In addition to removing the need for intermediaries, increasing the
+                          efficiency of settlement functions, a core advantage stablecoins
+                          have over traditional payment instruments is that revenue can be
+                          generated from investing backing assets in low-risk, liquid
+                          instruments rather than by levying fees on consumers and
+                          businesses through interchange and merchant fees.
+                       ●​ There is therefore a strong case for allowing issuers to pass yield
+                          on to consumers to enable them to share in the commercial
+                          success of the project. This should be optional depending on the
+                          model of stablecoin offered.
+
+
+
+     Example 5         ●​ We would appreciate further clarification of the regulatory
+                          perimeter - for instance, are there examples of gold-referenced
+     Gold Asset           tokens which may not trigger a financial product classification?
+  Referenced Token        How would ASIC classify a gold-based token with no redemption
+                          rights?
+     Example 6          ●​ We broadly agree that this would not constitute a managed
+                           investment scheme.
+ Non-fungible token
+   memberships
+
+
+
+     Example 7          ●​ We broadly agree that this would not constitute a managed
+                           investment scheme.
+Token Representing a
+  Claim for Pre-Paid
+      Services:
+
+
+
+     Example 8          ●​ The example implies that tokens sold as part of a fundraising
+                           initiative for blockchain development, often meet the definition of a
+Fundraising for a New      managed investment scheme under s764A(1)(b). This would be
+    Blockchain or          when the funds are pooled and contributors share in the profits or
+ Blockchain Product        success of the project.
+                        ●​ Tokens sold purely as donations (without expectations of profit)
+                           likely fall outside financial product definitions while tokens
+                           providing early access or discounts but marketed as speculative
+                           opportunities may blur the lines, necessitating clearer regulatory
+                           thresholds. Expanding on scenarios where the same token offers
+                           transitions from utility to investment features post-fundraising
+                           would be helpful. There may be a need for ongoing compliance
+                           reviews as product features evolve.
+
+
+
+     Example 9          ●​ We would encourage ASIC to consider a regulatory regime which
+                           is based on specific cryptoasset activities rather than a category of
+    Meme Coins             token.
+                        ●​ Whilst, as the Example 9 states, there is typically not a sufficient
+                           connection between the use of initial funds and potential capital
+                           gain, it is still important to regulate the issuance and custody of
+                           memecoins to the same standard as other tokens to avoid
+                           consumer detriment.
+     Example 10              ●​ We broadly agree that this would not constitute a managed
+                                investment scheme.
+  Tokenised Concert
+        Ticket
+
+
+
+     Example 11              ●​ We agree that products should be regulated as per their underlying
+                                use case and that the act of tokenisation does not alter the
+  Tokenised Security            classification.
+
+
+
+     Example 12              ●​ As above, we agree that tokenization does not impact the
+                                regulation of the underlying product and that contract for
+Contract for Difference         differences are derivative products.
+ Over a Digital Asset
+
+
+
+     Example 13              ●​ We disagree that digital asset wallets should be necessarily
+                                categorised as a non-cash payment facility. Whilst one may or may
+  Digital Asset Wallet          not be able to initiate payments from wallets, we strongly believe
+                                that regulation should focus on the core purpose of a wallet rather
+                                than ancillary activities.
+                             ●​ This is especially the case for self-hosted wallets, whereby the
+                                wallet provider is simply providing basic IT services to enable the
+                                customer to custody their own assets. In line with international best
+                                practice, we believe that self-hosted wallets should be considered
+                                separately from the main custody framework.
+
+
+
+A2Q2: Are there any additional examples you would like to see included? Please give
+details of the suggested example(s), and why you consider the digital asset discussed
+may/may not be a financial product.​
+
+   ●​ No further comments.
+
+A2Q3: For any of these examples, are there any unintended consequences? If so, what
+are these and what do you propose in response?
+
+   ●​ We have included unintended consequences as part of our answer to question 4.
+A3Q1: "Do you think it would be helpful to include an example of a wrapped token and/or
+a ‘stablecoin’ in INFO 225? If so, do you have any suggestions on the features of the
+potential examples in paragraphs 20–21? ".
+
+    ●​ We have identified the following observations on wrapped tokens and stablecoins:
+          a.​ Wrapped tokens: We would like to reiterate previous comments on wrapped
+              tokens, particularly the fact that they are used almost exclusively for utility
+              purposes - deploying assets on different blockchains without exiting positions.
+              There is no true analogue in traditional finance and we would therefore
+              encourage bespoke regulatory treatment as a non-financial product.
+          b.​ Stablecoins: We also note that the stablecoin classification is extremely broad
+              and could potentially capture almost all existing stablecoins. It is also unclear
+              whether this would apply only to those denominated in Australian dollars or
+              whether the intention is to capture all fiat-referenced stablecoins.
+
+
+A3Q2: What are the practical implications for businesses (e.g. for issuers or
+intermediaries) if wrapped tokens or ‘stablecoins’ with these features were classified as
+financial products? Please give details.
+
+    ●​ We are concerned that the proposals would likely bring forward a chilling effect on listing
+       of wrapped tokens as derivative regulation is disproportionate to the use cases and risks
+       at hand. We expect this would be to consumers’ detriment as they will no longer be able
+       to switch between blockchains with ease, e.g. to engage with defi protocols.
+    ●​ The impacts of the stablecoin market could also be significant if a wide interpretation and
+       application of a non-cash payment facility is taken, as argued above.​
+
+A3Q3: Would any transitional provisions or regulatory relief be needed to facilitate
+transition from regulation of a wrapped token or a ‘stablecoin’ as a financial product
+under the current law to the Government’s proposed approaches to ‘stablecoins’ and
+wrapped tokens? Please give details.
+
+    ●​ We are concerned that ASIC’s approach would create significant cliff-edge risks for
+       users of these products. In the event it proceeds regardless, a significant transition
+       period would be required in order to allow customers to exit positions without major
+       disruption to the market (including possible depegging of stablecoins on secondary
+       markets).
+
+
+
+​
+​
+​
+​
+Part B: Licensing of digital asset businesses and their ongoing
+obligations
+
+B1 - General comments
+
+      ●​ We reiterate our comments in relation to Question 1; namely, that we strongly support
+         the Treasury’s approach to regulating digital asset platforms. While we appreciate
+         ASIC’s desire to bring forward regulatory clarity, we think it is important that ASIC work in
+         alignment with Treasury’s proposal, rather than front-run it.
+
+      ●​ At the same time, there is an undeniable trend of crypto-native businesses applying for
+         or acquiring a range of AFSL authorisations. This includes Kraken, as one of our group
+         companies is an AFS licensee.1 Our observation is that such licenses are used to offer
+         traditional financial products which are underpinned by digital assets, such as futures
+         where the underlying contract and associated collateral is in digital assets.
+
+      ●​ To date, there has historically been a large degree of uncertainty over the spot trading
+         and ancillary activities of digital assets, owing to whether any underlying digital asset is a
+         financial product. In our view, the most efficient solution to this conundrum is the
+         Treasury proposal, which seeks to regulate the activities themselves, putting to rest the
+         endless spectre of whether a single digital asset (out of the vast universe of digital
+         assets available for trading) is a form of financial product.
+
+      ●​ Accordingly, we think it is premature to provide direct answers to many of the questions
+         asked in Part B, because it assumes ASIC will continue to front-run Treasury’s (and, by
+         extension, the Government’s) policy work in this space. Because we think ASIC should
+         instead work in coordinated alignment with the Government, our answers below seek to
+         provide our general views about appropriate timelines and conditions for transitionary
+         measures (including no-action type arrangements and license modifications) for the
+         regulatory reform that is currently proposed.
+
+B1Q1: Do you agree that ASIC should progress with a class no-action position as
+proposed here? If not, please give reasons.​
+
+      ●​ As part of any regulatory reform process, there must be acknowledgement that the
+         sector in question will, at some point, require a license or authorisation for activity they
+         have been engaging in and for which they historically did not hold that license or
+         authorisation. Accordingly, our view is that there should be a safe harbour for businesses
+         who, as a result of the reform process, are clearly made obligated to acquire a specific
+         type of license. While it is within ASIC’s remit to grant ‘no-action’ type relief (and we are
+         supportive of the motivation to offer ‘no-action’ type relief), more than that, we also think
+         Treasury should include a specific prohibition from regulatory enforcement action for
+
+1
+    Beaufort Fiduciaries Pty Ltd (ACN 162 139 871 | AFSL 545124).
+      historical conduct which, as a result of the proposed reforms, would bring that conduct
+      within the AFSL regulatory perimeter.
+
+   ●​ We broadly agree with the aims of the class no-action position, however we would
+      strongly advocate for this to be applied broadly t in the context of the Treasury’s pending
+      regulatory framework.
+
+
+B1Q2: Are the proposed conditions appropriate? Are there any additions or changes to
+the proposed conditions that will be more effective for investor protection?
+
+   ●​ In the spirit of working in alignment with the Treasury proposal, and as a matter of
+      procedural fairness, we think ASIC should adopt an official position of ‘no-action’ to align
+      with the transition period following the Treasury proposal becoming law. This should be
+      applied broadly to include matters contemplated by draft INFO 225, except in cases of
+      clear fraud or other intentional misconduct (of which we note ASIC has ongoing
+      investigations). Any other type of enforcement action in the present environment would
+      be a ‘regulation by enforcement’ type of test case, which we think is out of step with
+      ASIC’s own obligations and stated intent to provide commercial certainty to the entities
+      within the financial system.
+
+   ●​ Looking at the list of proposed conditions, in particular, we are particularly concerned
+      that the no-action position would not be available in relation to lending/earn products,
+      given much of the relevant case law is currently subject to appeal. Even more
+      concerning is the prospect of ASIC writing to a person informing them that the no-action
+      position does not apply to them, presumably irrespective of whether or not that person is
+      also complying with the eight other listed conditions.
+
+B1Q3: Do you agree that the class no-action position should be dependent on a person
+lodging an AFS licence application or written intention to apply for a market and/or CS
+facility licence? If not, please explain and suggest an alternative.
+
+   ●​ For reasons outlined above, we think ASIC should simply adopt a ‘no-action’ position
+      toward the crypto industry (excepting instances of fraud and other intentional
+      misconduct) until such time as the Treasury proposal has become law and any
+      transitionary period has elapsed.
+
+   ●​ We understand that legislation giving effect to the Treasury proposal has been a victim of
+      limited Parliamentary time but remains a priority for the Government. Conversations with
+      both the Government and Opposition suggest that the pending crypto legislation will be
+      prioritised following the pending election. If that is the case, then we expect the
+      transitionary period would not be materially different to the periods contemplated in
+      ASIC’s consultation paper (perhaps a year longer). In any event, the entire industry
+      would be moving forward with certainty during that period as a result of what the
+      legislation requires.
+
+B1Q4: Should there be a deadline for applying for an AFS licence or commencing
+pre-lodgement discussions in relation to a market and/or a CS facility licence? Please
+provide reasons.
+
+   ●​ For reasons outlined above, we think the deadline for applying for the relevant license
+      authorisations should be that imposed by the forthcoming legislation, and that ASIC
+      should not take enforcement action in relation to such matters until that time.
+
+B1Q5: For product issuers, should the no-action position extend to other
+obligations—for example, to prepare a Product Disclosure Statement (PDS)? Why or why
+not?
+
+   ●​ As per our previous answers, we support a broad approach to no-action until the
+      Treasury framework becomes law and transition periods have elapsed.
+
+B2Q1: Do you agree that the same regulatory obligations should apply to digital asset
+and traditional financial products of the same category (e.g. securities, derivatives)?
+Please explain your response and provide specific examples.
+
+   ●​ As a general principle, yes we agree that regulation should be technologically neutral in
+      the sense that investor protection outcomes should be the same, however the
+      differences in crypto-based operations or other distinct factors must be accounted for
+      through the rulemaking, guidance and relief mechanisms, as appropriate.
+
+B2Q2: Are there any aspects of ASIC’s guidance that may need to be tailored for digital
+assets that are financial products?
+
+   ●​ Yes. Detailed regulatory guidance that clearly articulates how regulated entities can
+      comply with their obligations is an essential feature of any successful regulatory regime,
+      particularly where that guidance minimises complexity, provides for flexibility in
+      application and seeks to do so in a way that minimises costs on the regulated
+      population.
+
+   ●​ While it is difficult to provide an exhaustive list of the regulatory guidance that will need
+      to be created or tailored in advance of the Treasury proposal becoming law, at a
+      minimum we would suggest the following steps be considered:
+          ○​ In our view, INFO 225 (including this latest proposed update) is no longer fit for
+              purpose. What began as a short document in 2018 is now 32 pages (at least in
+              its proposed updated form). As INFO 225 itself states: “[i]nformation sheets
+              provide concise guidance on a specific process or compliance issue or an
+              overview of detailed guidance.” Once the Treasury proposal becomes law, ASIC
+             should draft a new Regulatory Guide that details the regulation of digital assets in
+             Australia.
+          ○​ In addition to the standalone Regulatory Guide, a number of existing Regulatory
+             Guides will likely need to be updated to include specific guidance in relation to
+             digital assets. To that end, we note ASIC issued an update to Regulatory Guide
+             133: Funds management and custodial services: Holding assets in December
+             2024 to include guidance in relation to holding crypto assets (see Section F).
+             While this type of an update is what we would expect would be needed following
+             the passage of legislation and the transitionary period, we would caution ASIC
+             from updating too much of its regulatory guidance preemptively in the event it is
+             required to duplicate its effort post-reform. We would also expect any such
+             updates would be published in draft for consultation and feedback.
+
+B2Q3: Do you agree that the approach proposed for custodial and depository services is
+appropriate for holding custody of digital assets? Do you agree that extending the
+omnibus client accounts is appropriate for digital assets that are financial products?
+Please explain, providing examples, if relevant.
+
+   ●​ In general terms, we are supportive of the custody regime for digital assets proposed by
+      the Treasury in its draft proposals and support policy development in the context of the
+      broader regime.
+
+   ●​ In line with this, we are supportive of omnibus client accounts - they are the best option
+      for protecting client assets when it comes to managing the operational and cyber risks of
+      crypto. We strongly believe that best-in-class custodians deploying industry-leading
+      security should be able to safeguard Australian customer assets, wherever in the world
+      those custodians happen to be.
+
+
+B2Q4: In relation to organisational competence, what are your views on what ASIC could
+consider in applying Option 5 in Regulatory Guide 105 AFS licensing: Organisational
+competence (RG 105) for entities providing financial services in relation to digital assets
+that are financial products?
+
+   ●​ Whilst there are significant overlaps in terms of competencies between traditional
+      finance and digital asset exchange, we also note the idiosyncratic nature of digital assets
+      may require specific knowledge, e.g. differences in custodying keys or running a staking
+      node where there is no exact parallel in financial services.
+
+   ●​ We therefore strongly encourage ASIC to acknowledge experience in the digital asset
+      sector as equivalent to traditional finance experience but also, where appropriate,
+      recognise knowledge and expertise to demonstrate competence where digital asset
+      activities are unique.
+B3Q1: In relation to the authorisations sought during an AFS licence application, do you
+agree that the existing authorisations are generally appropriate to digital asset service
+providers?
+
+   ●​ We disagree with the notion that existing authorisations are appropriate for digital asset
+      service providers. We strongly support the Treasury’s proposal to regulate the majority of
+      digital asset-related activity under the proposed ‘digital asset facility’ authorisation,
+      acknowledging that the existing authorisations will have a role to play in relation to
+      products and arrangements that are clearly financial products (eg, crypto-based
+      derivatives, P2P transfer/payment facilities, digital asset tokens which are clearly
+      securities, etc.).
+
+   ●​ As noted above, while there is a general trend of crypto-native companies obtaining
+      AFSLs for such products and arrangements, there has remained a large degree of
+      uncertainty over the spot trading (and ancillary) activities of crypto businesses, and
+      whether (and if so, how) they fit within the existing framework. That uncertainty stems
+      from the looming spectre of any single digital asset offered through such activities being
+      a financial product. While we can all agree that a digital asset token representing (and
+      providing the holder with all of the rights and obligations in relation to) a single share of
+      Commonwealth Bank stock would be a security, the problem we have all been grappling
+      with in Australia is the vast number of tokens which do not neatly map to any one of the
+      myriad of financial products listed in the Corporations Act.
+
+   ●​ With respect, we do not think that successive Governments have set out to regulate
+      digital assets on the basis that the current version of the Corporations Act (and, by
+      extension, the existing AFSL authorisation suite) is so readily capable of effective
+      regulation over the digital asset ecosystem. In our view, it is not. Nor do we think the
+      problem is solved by adopting an expansive interpretation of the Corporations Act. This
+      only exacerbates uncertainty, which is why we are so strongly supportive of the Treasury
+      proposal. It is an efficient approach, precisely because it targets the risks posed by
+      centralised intermediaries like crypto exchanges, and regulates those risks without
+      leaving the ‘digital-asset-as-financial-product’ boogieman lingering around, only to be
+      solved through expensive litigation where the outcomes are not certain, and where
+      investors may or may not be better off as a result.
+
+   ●​ While we accept there would, of course, remain digital asset tokens that would be clear
+      examples of a financial product (such as the Commonwealth Bank example mentioned
+      above), we expect this would be a clearly identifiable subset of tokens, for which existing
+      authorisations and requirements would be generally appropriate. But for the vast majority
+      of digital assets, this would not be the case, so, for the sake of both business certainty
+      and investor protection, an alternative regulatory pathway needs to be created.
+B3Q2: Do you agree with the proposal to tailor the derivatives and miscellaneous
+financial investment products authorisations? Are there any others that you would
+recommend?
+
+   ●​ We think this is a question best answered following the Treasury proposal becoming law.
+      This is because we would expect that the offerings which ASIC has referred to as
+      constituting, eg, an atypical form of derivative (ie, because it is not an option, swap or
+      future, or otherwise used for risk management, hedging or speculation) could be
+      captured under the digital asset facility authorisation, or perhaps even accounted for as
+      part of the forthcoming payment system reforms (or both). An example which comes to
+      mind is a yield-bearing stablecoin (Example 4 in draft INFO 225).
+
+   ●​ We are concerned that expanding the concept and associated AFSL authorisation for a
+      derivative is premised upon the broadest possible reading of s761D of the Corporations
+      Act. With respect, we do not think the law is sufficiently settled to justify such a position.
+      Rather, a yield-bearing stablecoin could be accounted for both as a ‘financialised
+      function’ (using the Treasury proposal concept) and ‘payment stablecoin’ under the
+      forthcoming payment reforms. In this sense, we would encourage ASIC (and all
+      stakeholders in the regulatory reform process) not to allow financial product definitions to
+      become so untethered from their common commercial applications as to make those
+      definitions functionally useless.
+
+   ●​ Similarly, we would expect that the Treasury proposal and forthcoming payment system
+      reforms would temper the need for AFSL applicants to select the ‘miscellaneous financial
+      activity’ category.
+
