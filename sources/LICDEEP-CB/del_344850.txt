@@ -1,0 +1,2387 @@
+      IN THE COURT OF CHANCERY OF THE STATE OF DELAWARE
+
+HYDE PARK VENTURE PARTNERS FUND                    )
+III, L.P. and HYDE PARK VENTURE                    )
+PARTNERS FUND III AFFILIATES, L.P.,                )
+                                                   )
+             Petitioners,                          )
+                                                   )
+             v.                                    )   C.A. No. 2022-0344-JTL
+                                                   )
+FAIRXCHANGE, LLC, a Delaware limited               )
+liability company, as successor in liability to    )
+FAIRXCHANGE, INC., a Delaware Corporation,         )
+                                                   )
+             Respondents.                          )
+
+                           MEMORANDUM OPINION
+                        GRANTING MOTION TO COMPEL
+
+                            Date Submitted: February 14, 2023
+                              Date Decided: March 9, 2023
+
+A. Thompson Bayliss, Daniel J. McBride, Anthony R. Sarna, ABRAMS & BAYLISS
+LLP, Wilmington, Delaware; Attorneys for Funds Hyde Park Venture Partners Fund III,
+L.P. and Hyde Park Venture Partners Fund III Affiliates, L.P.
+
+Paul J. Lockwood, Jenness E. Parker, SKADDEN, ARPS, SLATE, MEAGHER &
+FLOM LLP, Wilmington, Delaware; Patricia L. Enerio, Jamie L. Brown, Aaron M.
+Nelson, Elizabeth A. DeFelice, HEYMAN ENERIO GATTUSO & HIRZEL LLP,
+Wilmington, Delaware; Stephen J. Senderowitz, DENTONS, Chicago, Illinois; Douglas
+W. Henkin, DENTONS, New York, New York; Attorneys for Respondent FairXchange,
+LLC.
+
+LASTER, V.C.
+      While Ira Weiss was serving as a director of FairXchange, Inc. (“FairX” or the
+
+“Company”), Coinbase Global, Inc. made an acquisition proposal. Weiss wanted to retain
+
+an investment banker and explore alternatives. The other two members of the Company’s
+
+board of directors (the “Board”) wanted to pursue a transaction with Coinbase. They
+
+began excluding Weiss from the deal process, and they later arranged for a group of
+
+preferred stockholders to remove him from the Board.
+
+      Weiss was a partner in a venture capital firm. Two investment funds sponsored by
+
+the firm had made significant investments in the Company. While serving as a director,
+
+Weiss also managed the funds. He could not avoid sharing information about the
+
+Company with the funds, because Weiss (like all humans) has only one brain. Humans
+
+cannot partition their brains so that they only use particular knowledge for particular
+
+purposes. Weiss drew on a unitary store of knowledge when carrying out his dual roles as
+
+corporate director and fund manager.
+
+      After the Coinbase transaction closed, the funds filed this appraisal proceeding.
+
+During discovery, the Company asserted the attorney-client privilege to withhold
+
+information created during Weiss’s tenure as a director. The funds have moved to compel
+
+production of the information.
+
+      The issue presented by the motion is not whether Weiss has the ability to access
+
+materials in his capacity as a former director. That issue is immaterial in the context of
+
+this litigation, because the funds have the ability to access materials through the
+
+discovery process. The question instead is whether the Company can invoke the attorney-
+
+client privilege against the funds to withhold documents that they otherwise would be
+required to produce. Whether the Company can assert privilege depends on whether the
+
+Company had a reasonable expectation of confidentiality as to Weiss and the funds
+
+during Weiss’s tenure as a director.
+
+       Since 1987, Delaware law has treated the corporation and the members of its
+
+board of directors as joint clients for purposes of privileged material created during a
+
+director’s tenure. Joint clients have no expectation of confidentiality as to each other, and
+
+one joint client cannot assert privilege against another for purposes of communications
+
+made during the period of joint representation. Under this longstanding precedent, a
+
+Delaware corporation cannot invoke privilege against the director to withhold
+
+information generated during the director’s tenure. All of the joint clients were within the
+
+circle of confidentiality when the privileged communications were made, so there is no
+
+privilege to invoke.
+
+       Since 1992, Delaware law has recognized that when a director represents an
+
+investor, there is an implicit expectation that the director can share information with the
+
+investor. Many investors appoint director representatives to monitor corporate
+
+performance—think of controlling stockholders, venture capital firms, and private equity
+
+firms—and information sharing is part of that process. Information sharing necessarily
+
+happens when a director representative serves dual roles because, to reiterate, a human
+
+has only one brain. Of course, director representatives use and share information at their
+
+own risk, and they can be liable for breach of fiduciary duty if they use the information or
+
+permit it to be used for an improper purpose. The bottom line for the attorney-client
+
+privilege is that under the joint client approach, the investor presumptively joins the
+
+                                             2
+director within the circle of confidentiality, and the corporation cannot invoke the
+
+privilege against the investor for materials created during the director’s tenure.
+
+       Three recognized methods exist by which a corporation can alter these default
+
+rules. First, as frequently happens, the parties can address the matter by contract, such as
+
+through a confidentiality agreement. Second, the board of directors can form a committee
+
+that excludes the director, at which point the committee can retain and consult
+
+confidentially with counsel. Third, once a sufficient adversity of interests has arisen and
+
+becomes known to the director, the director cannot reasonably rely on corporate counsel
+
+as to the matters where the interests of the director and corporation are adverse. At that
+
+point, the corporation can assert the attorney-client privilege as to the director. If a
+
+corporation believes that a sufficient adversity of interests exists, the corporation can put
+
+the director on notice of that fact, enabling the director to retain his own counsel and, if
+
+he wishes, call the question of information access through litigation.
+
+       In this case, the Company did not take any of the steps necessary to preserve the
+
+privilege. Weiss and the funds were inside the circle of confidentiality during his tenure
+
+as a director. Without the expectation of confidentiality on which the attorney-client
+
+privilege depends, the Company has no basis for asserting the privilege against the funds
+
+in this action. Their motion to compel is granted.
+
+
+
+
+                                              3
+                          I.      FACTUAL BACKGROUND
+
+       The facts are drawn from the parties’ submissions in connection with the motion
+
+to compel.1 Given the procedural posture, this decision does not make formal findings of
+
+fact. Instead, the following summary reflects how the record appears at this stage of the
+
+proceedings for purposes of the discovery ruling.
+
+A.     The Company
+
+       The Company was a Delaware corporation that operated a futures exchange. The
+
+Company’s founders included Neal Brady and Clifford Lewis. Brady served as CEO, and
+
+Lewis served as Chairman of the Board.
+
+       The Company issued preferred stock to a group of investors. Two of the investors
+
+were Hyde Park Venture Partners Fund III, L.P. and Hyde Park Venture Partners Fund III
+
+Affiliates, L.P. (the “Funds”). Both are sponsored by Hyde Park Venture Partners, an
+
+early-stage venture capital firm that invests in high-growth technology startups. Together,
+
+the Funds owned approximately 15% of the Company’s equity.
+
+B.     The Preferred Stock Director
+
+       The preferred stockholders held the right to designate a member of the Board.
+
+They selected Weiss, who was a partner with Hyde Park Venture Partners. Weiss joined
+
+the Board on November 14, 2019. The other two members were Brady and Lewis.
+
+
+
+
+       1
+          Citations in the form “Dkt. — Ex. — at —” refer to exhibits to the parties’
+submission in relation to the plaintiffs’ motion to compel production of company-
+privileged information. Page citations refer to the internal pagination or, if there is none,
+then to the last three digits of the control number.
+
+                                             4
+       As a director, Weiss received privileged communications from DLA Piper LLP,
+
+the Company’s counsel. DLA Piper also provided advice to Company management that
+
+Weiss did not receive contemporaneously.
+
+C.     The Coinbase Transaction
+
+       Beginning in the summer of 2021, the Company explored an investment from
+
+Coinbase. After conducting due diligence, Coinbase proposed an acquisition rather than
+
+an investment (the “Potential Transaction”).
+
+       By letter dated October 28, 2021, Coinbase provided the Company with a letter of
+
+intent. Brady discussed the Potential Transaction with Coinbase that same day.
+
+       The following day, Coinbase sent the Company a revised letter of intent which
+
+increased the overall purchase price from $285 million to $330 million and increased the
+
+amount of cash consideration from $50 million to $65 million. The revised letter of intent
+
+also increased the portion of total consideration paid to key employees at closing from
+
+25% to 35%, while lowering the portion of consideration paid to key employees one year
+
+after closing from 25% to 15%. The new letter of intent thus improved the aggregate
+
+consideration, while also benefitting the employees.
+
+       By email dated November 4, 2021, Weiss wrote to his fellow directors and DLA
+
+Piper with his “thoughts on a possible sales process.” Dkt. 43 Ex. B at ’546.
+
+       As we know, FairX received a surprise unsolicited offer from Coinbase on
+       October 29th (Friday night). This surprise offer is an incredible validation
+       of the model for FairX, and all the amazing work that has been put in by the
+       team to build FairX from scratch. I have never been involved in any other
+       company that has executed as flawlessly as this one, and FairX has
+       consistently exceeded my wildest expectations.
+
+
+                                               5
+       While we should be flattered by this surprise offer, I believe we have to
+       take a step back and make sure that (1) selling now would maximize
+       shareholder value, and (2) if we do sell now, that we are getting a market
+       price for the company.
+
+       We are all fiduciaries on the board, and while we might view the same
+       information differently, we all are tasked with maximizing value. I am not
+       yet comfortable that the current process is maximizing shareholder value,
+       and I would not vote in favor of this offer. We do not yet have a consensus
+       at the board level for this acquisition, and we should strive to secure board
+       consensus before involving other parties such as shareholders.
+
+       FairX is currently well-capitalized with >$10M in the bank, so there is no
+       need for us to rush into this offer.
+
+Id. The email expressed concern about the timing of the deal (e.g., “I think we should be
+
+particularly cautious about selling now because we have upcoming launches that could
+
+significantly enhance our value.”), and whether the transaction price maximized value
+
+(e.g., “If we choose to look for an acquirer now, we need to ensure there is an objective
+
+process that others can look at and know that we have taken the right steps to maximize
+
+shareholder value.”). Id.
+
+       Weiss proposed that the Company retain an investment banker and continue to
+
+explore a financing round as an alternative. He explained that he wanted a better
+
+understanding of the Company’s value. He recommended that an investment banker or
+
+other neutral party be present in any discussions between management and Coinbase that
+
+might touch on management incentives. He also identified other potential acquirers that
+
+the Company could consider approaching. See id. at ’547.
+
+       On November 8, 2021, the Board met to consider the Potential Transaction. Weiss
+
+stated that he would not vote in favor of it and would advise the Funds to do the same. He
+
+
+                                            6
+explained that he opposed moving forward with Coinbase because he (i) wanted the
+
+Company to conduct a market check and (ii) was concerned about the amount of
+
+Coinbase equity in the deal. Id. at ’535. He reiterated his recommendation that the
+
+Company retain an investment banker. The Board rejected Weiss’s proposal.
+
+         During the back and forth over the Coinbase proposal, DLA Piper made clear to
+
+Weiss that the firm represented him as a director. The lead DLA Piper attorney wrote in
+
+an email, “As I have now repeatedly told you, I’m happy to talk with you, but at this
+
+point, not with Hyde Park’s outside counsel and you. I represent the board and
+
+shareholders of FairX, which includes your firm and you as a board member.” Dkt. 75
+
+Ex. N.
+
+D.       Weiss Sends A Demand Letter.
+
+         During the balance of November 2021, the Company and Coinbase worked on the
+
+Potential Transaction. Weiss contends that he was excluded from large portions of those
+
+discussions.
+
+         By letter dated December 7, 2021, Weiss formally asked for information about the
+
+Potential Transaction in his capacity as a director. See Dkt. 34 Ex. D. Among other items,
+
+he requested:
+
+•        All documents reflecting the negotiations between the Company and Coinbase.
+
+•        All documents reflecting the prospective employment, consulting, or other
+         arrangements between the Company’s current officers and directors and any
+         Coinbase representatives.
+
+•        All documents relating to any unique benefit that any of the Company’s current
+         officers and directors would receive as a result of the Potential Transaction.
+
+
+                                             7
+•     All documents related to the Company or Board’s consideration of hiring an
+      investment banker or financial advisor to assist the Company or Board in
+      connection with the Potential Transaction.
+
+•     All documents reflecting any evaluation or consideration of any merger, sale, or
+      asset disposition involving the Company since January 1, 2021.
+
+•     All documents reflecting any valuation of the Company’s capital stock since
+      January 1, 2021.
+
+•     All documents relating to any proposed debt or equity financing transaction since
+      January 1, 2021.
+
+•     All projections or forecasts, including drafts, prepared by members of the
+      Company’s management since January 1, 2021, irrespective of whether they were
+      submitted to the Board.
+
+Id.
+
+      Brady and Lewis knew that Coinbase wanted the Board to provide a unanimous
+
+recommendation in favor of the sale of the Company. They viewed Weiss as a problem,
+
+and they had been working with a group of preferred stockholders to remove Weiss. On
+
+December 8, 2021, one day after Weiss sent his demand letter, holders of a majority of
+
+the Company’s preferred stock acted by written consent to remove Weiss from the Board.
+
+See Dkt. 43 Ex. F. The Company informed Weiss that his books and records request was
+
+“no longer relevant” because he was no longer a director. Dkt. 43 Ex. H.
+
+E.    The Merger Closes.
+
+      On January 11, 2022, the Board unanimously approved a merger between the
+
+Company and Coinbase (the “Merger”). The Company subsequently sent the Funds a
+
+package of documents that included a Confidential Information Statement, a Notice of
+
+Action by Written Consent Without a Meeting Pursuant to Section 228 of the Delaware
+
+
+                                            8
+General Corporation Law (the “DGCL”), and a Notice of Statutory Appraisal Rights
+
+Under Section 262 of the DGCL, all dated as of January 25, 2022.
+
+       The Merger closed on February 1, 2022. The Company merged with a limited
+
+liability company wholly owned by Coinbase. The latter emerged from the Merger as the
+
+surviving company.
+
+F.     The Appraisal Proceeding And The Discovery Dispute
+
+       On February 3, 2022, the Funds demanded an appraisal of their shares. The Funds
+
+subsequently commenced this appraisal proceeding.
+
+       In discovery, the Company asserted the attorney-client privilege for materials
+
+prepared during Weiss’s tenure as a director. DLA Piper echoed the Company’s
+
+objections. The Company and DLA Piper refused to produce the materials.
+
+       The Company also went on offense. Believing that the Funds possessed privileged
+
+material that they had received from Weiss during his tenure, the Company instructed the
+
+Funds to destroy the information.
+
+       After efforts to resolve the dispute failed, the Funds filed a motion to compel. The
+
+Company filed an opposition and a cross-motion to compel the Funds to destroy any
+
+privileged material that they possess.
+
+                               II.       LEGAL ANALYSIS
+
+       Court of Chancery Rule 26(b) governs the scope of discovery. Under Rule
+
+26(b)(1):
+
+       Parties may obtain discovery regarding any non-privileged matter that is
+       relevant to any party’s claim or defense and proportional to the needs of the
+       case, including the existence, description, nature, custody, condition and
+
+                                             9
+       location of any documents, electronically stored information, or tangible
+       things and the identity and location of persons having knowledge of any
+       discoverable matter.
+
+No one disputes that the Funds seek relevant information. The Company argues that it
+
+can withhold the information because discovery only extends to “non-privileged matter.”
+
+       Delaware has codified the attorney-client privilege. Rule of Evidence 502(b)
+
+provides as follows:
+
+       A client has a privilege to refuse to disclose and to prevent any other person
+       from disclosing confidential communications made for the purpose of
+       facilitating the rendition of professional legal services to the client
+       (1) between the client or the client’s representative and the client’s lawyer
+       or the lawyer’s representative, (2) between the lawyer and the lawyer’s
+       representative, (3) by the client or the client’s representative or the client’s
+       lawyer or a representative of the lawyer to a lawyer or a representative of a
+       lawyer representing another in a matter of common interest, (4) between
+       representatives of the client or between the client and a representative of the
+       client, or (5) among lawyers and their representatives representing the same
+       client.
+
+D.R.E. 502(b). “Paraphrasing the language of D.R.E. 502(b), the privilege extends to a
+
+(1) communication, (2) which is confidential, (3) which was made for the purpose of
+
+facilitating the rendition of professional legal services to the client, (4) between the client
+
+and it’s attorney.” Deutsch v. Cogan, 580 A.2d 100, 104 (Del. Ch. 1990) (cleaned up).
+
+“The burden of proving that the privilege applies to a particular communication is on the
+
+party asserting the privilege.” Moyer v. Moyer, 602 A.2d 68, 72 (Del. 1992). The current
+
+dispute turns on the element of confidentiality.
+
+A.     Delaware’s Longstanding Approach: The Joint Client Rule
+
+       A director’s ability to access corporate information affects whether a corporation
+
+can claim that a communication was confidential as to the director and thereby invoke the
+
+                                              10
+attorney-client privilege. A director’s right to information is “essentially unfettered in
+
+nature,” and that right includes access to privileged material.2 “Directors of Delaware
+
+corporations are generally entitled to share in legal advice the corporation receives.” In re
+
+WeWork Litig., 250 A.3d 901, 908 (Del. Ch. 2020). The rationale for this rule is that “all
+
+directors are responsible for the proper management of the corporation, and thus, should
+
+be treated as a ‘joint client’—‘not in his or her individual capacity, but as a member of
+
+the collective body’—when legal advice is rendered to the corporation through one of its
+
+officers or directors.” 1 Donald J. Wolfe, Jr. & Michael A. Pittenger, Corporate and
+
+Commercial Practice in the Delaware Court of Chancery § 7.02[d], 7-46 (2d ed. 2021)
+
+(footnote omitted); accord Moore Bus. Forms, Inc. v. Cordant Hldgs. Corp., 1996 WL
+
+307444, at *4 & n.4 (Del. Ch. June 4, 1996) (explaining joint client principle); Kirby v.
+
+Kirby, 1987 WL 14862, at *7 (Del. Ch. July 29, 1987) (same).
+
+         Because the corporation has no expectation of confidentiality as to a director, the
+
+general rule is that “a corporation cannot assert the privilege to deny a director access to
+
+legal advice furnished to the board during the director’s tenure.” Moore Bus. Forms, 1996
+
+WL 307444, at *4; see id. at *6 (“Mr. Rogers was a member of that board, having the
+
+same status as the other directors. No basis exists to assert the privilege against him . .
+
+. .”).
+
+
+         2
+         Schoon v. Troy Corp., 2006 WL 1851481, at *1 n.8 (Del. Ch. June 27, 2006)
+(quoting Milstein v. DEC Ins. Brokerage Corp., C.A. Nos. 17586, 17587, at 3 (Del. Ch.
+Feb. 1, 2000) (TRANSCRIPT); accord Intrieri v. Avatex, 1998 WL 326608, at *1 (Del.
+Ch. June 12, 1998); Belloise v. Health Mgmt., Inc., 1996 Del. Ch. LEXIS 127, at *36
+(Del. Ch. June 11, 1996) (Allen, C.).
+
+                                             11
+       The fact that directors function as joint clients with each other and the corporation
+
+means that the expectation of confidentiality that is essential to invoking the privilege
+
+does not exist among the joint clients. “On the matters of common interest upon which
+
+[joint clients] sought the attorney’s assistance, none can have a reasonable expectation of
+
+confidentiality relative to the other clients for his communications with the shared
+
+attorney . . . .” 1 Paul R. Rice, Attorney-Client Privilege In The United States § 4:33,
+
+Westlaw (database updated Dec. 2022). The Delaware Rules of Evidence address this
+
+point expressly by stating that “there is no privilege . . . [a]s to a communication relevant
+
+to a matter of common interest between or among 2 or more clients if the communication
+
+was made by any of them to a lawyer retained or consulted in common, when offered in
+
+an action between or among any of the clients.” D.R.E. 502(d)(6). Rule 502 defines the
+
+“client” for purposes of the rule as “without limitation, officers, directors, and employees
+
+of (a) any business entity that is organized under the laws of this State, and (b) any
+
+business entity organized under the laws of any nation other than the United States that
+
+owns or controls a business entity that is organized under the laws of this State.” D.R.E.
+
+502(a)(1) (emphasis added).
+
+       When a joint client relationship terminates, the absence of confidentiality that is
+
+essential to the privilege does not change. During their tenure, all directors sit with the
+
+corporation inside the circle of confidentiality, and the corporation therefore cannot
+
+invoke the attorney-client privilege against any of the directors. When a director’s tenure
+
+ends, the director leaves the circle of confidentiality for purposes of any subsequent
+
+communications, but that does not retroactively alter the fact that the director was within
+
+                                             12
+the circle of confidentiality for purposes of communications during his tenure. For
+
+materials prepared during the director’s term, the corporation has no expectation of
+
+confidentiality and cannot assert the privilege against the director.
+
+       1.      Kirby
+
+       The joint client approach is nothing new. Justice Berger, then a Vice Chancellor,
+
+adopted the approach nearly forty years ago in Kirby v. Kirby, 1987 WL 14862 (Del. Ch.
+
+July 29, 1987). There, four siblings served as directors of a closely held, nonstock
+
+corporation. One of the four siblings was named sole member of the corporation after
+
+their father’s death. Thirteen years later, three of the siblings learned that the sole
+
+member had named his wife and children as additional members of the corporation. The
+
+three siblings acted at the board level to amend the bylaws to provide that only directors
+
+could be members. The member-sibling responded at the member level by removing the
+
+other siblings from the board. The three siblings filed an action under Section 225 of the
+
+DGCL in which they asked this court to determine that they remained directors of the
+
+corporation.
+
+       During discovery, the removed directors sought the production of documents
+
+generated before their removal that the corporation had withheld on the basis of the
+
+attorney-client privilege. Although the former directors challenged the validity of their
+
+removal, Justice Berger analyzed the question as if the directors had been removed. She
+
+granted the motion on the grounds that the removed directors were joint clients with the
+
+corporation and their sibling director for purposes of privileged material created during
+
+their tenure, reasoning as follows:
+
+                                             13
+      As to those documents prepared prior to [the plaintiffs’ removal], I am not
+      persuaded that the attorney-client privilege may be invoked against
+      plaintiffs. The issue is not whether the documents are privileged or whether
+      plaintiffs have shown sufficient cause to override the privilege. Rather, the
+      issue is whether the directors, collectively, were the client at the time the
+      legal advice was given. Defendants offer no basis on which to find
+      otherwise, and I am aware of none. The directors are all responsible for the
+      proper management of the corporation, and it seems consistent with their
+      joint obligations that they be treated as the “joint client” when legal advice
+      is rendered to the corporation through one of its officers or directors.
+
+Id. at *7. Because the directors were joint clients, the corporation had no expectation of
+
+confidentiality as to the removed directors and could not invoke the attorney-client
+
+privilege to withhold documents created during their tenure. Id.
+
+      2.     AOC Limited Partnership
+
+      The next significant decision in Delaware’s application of the joint client approach
+
+came approximately five years later when then-Vice Chancellor Chandler issued his
+
+decision in AOC Limited Partnership v. Horsham Corp., 1992 WL 97220 (Del. Ch. May
+
+5, 1992). The corporation at the heart of the dispute was Clark Oil & Refining Corp., a
+
+wholly owned subsidiary of AOC Holdings, Inc. (“Holdings”). Two entities jointly
+
+owned Holdings: Horsham Corp., with a controlling 60% interest, and AOC Limited
+
+Partnership (the “AOC Fund”), with the remaining 40%. Paul A. Novelly and Samuel R.
+
+Goldstein indirectly owned 100% of the AOC Fund, and Peter Munk held 83.1% voting
+
+control of Horsham. Novelly, Goldstein, Munk, and two unaffiliated individuals
+
+comprised the board of Clark Oil.
+
+      After the board discussed a potential initial public offering of Clark Oil’s equity,
+
+the AOC Fund sued to enforce a stockholders agreement with Horsham and Holdings and
+
+
+                                            14
+also asserted a claim for breach of fiduciary duty against Horsham, Munk, and the two
+
+unaffiliated directors. Mayer Brown & Platt (“Mayer”) had represented Clark Oil and the
+
+board, and during discovery, the AOC Fund sought production of purportedly privileged
+
+communications. The court held that the defendants could not invoke privilege to prevent
+
+the AOC Fund from accessing the purportedly privileged material:
+
+      Clark Oil is a client of [Mayer]. Plaintiff [the AOC Fund], in effect, is a
+      member of Clark Oil’s board since its two constituents are members of its
+      board. Therefore, plaintiff is just as much the “client” of Mayer as
+      defendants are. Thus, they should have access to the same information to
+      which the defendants have access with respect to legal advice given to
+      Clark Oil.
+
+Id.. at *1. Put differently, Clark Oil had no expectation of confidentiality as to its
+
+directors, including Novelly and Goldstein. Because Novelly and Goldstein managed the
+
+AOC Fund, they necessarily shared information with the fund as human beings who
+
+could not partition their brains. Clark Oil therefore had no expectation of confidentiality
+
+as to the AOC Fund either, and the defendants could not invoke the attorney-client
+
+privilege to withhold advice provided to the Clark Oil board.
+
+      3.      Moore Business Forms
+
+      After another five years, the next landmark decision on the joint client approach
+
+arrived when Justice Jacobs, then serving as a Vice Chancellor, issued his decision in
+
+Moore Business Forms, Inc. v. Cordant Holdings Corp., 1996 WL 307444 (Del. Ch. June
+
+4, 1996). The plaintiff (Moore) had financed a management buyout that was implemented
+
+through the defendant, Cordant Holdings Corp. (“Holdings”). Moore purchased shares of
+
+Holdings preferred stock, and Moore and Holdings entered into a stockholders agreement
+
+
+                                            15
+that gave Moore the right to designate a director on the Holdings board. After Moore
+
+rejected an offer from Holdings to repurchase its shares, the Holdings board began
+
+excluding Moore’s designee from its deliberations about the repurchase. When litigation
+
+ensued, Moore sought to compel production of the materials that the other directors
+
+received. Moore Bus. Forms, 1996 WL 307444, at *4.
+
+       Relying on Kirby, Justice Jacobs held that Moore’s designee was a joint client
+
+with his fellow directors and Holdings. Justice Jacobs explained that because directors
+
+are joint clients with the corporation, the corporation has no expectation of confidentiality
+
+as to the director designee and “cannot assert the [attorney-client] privilege to deny a
+
+director access to legal advice furnished to the board during the director’s tenure.” Id. at
+
+*4. Elaborating on Kirby’s rationale, Justice Jacobs explained that
+
+       [a]lthough the Kirby Court described the directors as a “joint client,” a
+       more accurate description of the relationship is that there was a single
+       “client,” namely, the entire board, which includes all its members. That is, a
+       director seeking information furnished to the board that is the subject of the
+       privilege claim is a “client” not in his or her individual capacity, but as a
+       member of the collective body (the board) of which the director is one
+       member.
+
+Id. at *4 n.4. That clarification does not change the fact that the corporation has no
+
+expectation of confidentiality as to the entire board, including all of its members. Justice
+
+Jacobs’ reference to the “collective body (the board) of which the director is one
+
+member” explains why the directors are within the circle of confidentiality for purposes
+
+of the joint client rule.
+
+       Justice Jacobs next discussed two ways a corporation could create an expectation
+
+of confidentiality as to a director that would support an assertion of privilege. One way
+
+                                             16
+was through “an ex ante agreement among the contracting parties.” Id. at *5. Today,
+
+corporations commonly enter into confidentiality agreements to address the use of
+
+information, with particular emphasis on information sharing.
+
+       A second way to create the necessary expectation of confidentiality was for the
+
+board to act “pursuant to 8 Del. C. § 141(c) and openly with the knowledge of [the
+
+excluded director], to appoint a special committee.” Id. at *6. Having done so, the
+
+committee is “free to retain separate legal counsel,” and its communications with counsel
+
+are “properly protected” to the extent necessary for the committee’s ongoing work. Id.
+
+       In Moore Business Forms, Holdings had not established an expectation of
+
+confidentiality using either method. Moore’s designee was therefore within the circle of
+
+confidentiality as a joint client, and Holdings could not invoke the attorney-client
+
+privilege against him.
+
+       Finally, Justice Jacobs addressed whether it made any difference that the plaintiff
+
+in the lawsuit was Moore, the stockholder that had exercised a right to appoint the
+
+director designee, rather than the director himself (Rogers). Justice Jacobs saw no
+
+distinction between the two:
+
+       The relationship between Moore and Holdings is defined by the
+       Stockholders’ Agreement. Mr. Rogers’ position as a Holdings director
+       derived entirely from his status as Moore’s designee pursuant to that
+       Agreement. All parties understood that Mr. Rogers would be acting as
+       Moore’s representative on the Holdings Board and that his tenure as a
+       director would be at Moore’s pleasure. The Stockholders Agreement cannot
+       reasonably be construed otherwise. Nothing in the Stockholders Agreement
+       precludes Moore from receiving any information imparted to Mr. Rogers. It
+       therefore follows that if Mr. Rogers was entitled to the disputed
+       communications by virtue of his position as a Holdings director, then
+
+
+                                           17
+       Moore would also be entitled to these communications by virtue of the
+       Stockholders’ Agreement.
+
+Id. at *4. The ability of the stockholder to obtain discovery in the litigation with Holdings
+
+therefore turned on and was co-extensive with “Mr. Rogers’ information rights as a
+
+director of Holdings.” Id.
+
+       In holding that Holdings could not more invoke privilege against Moore than it
+
+could against Moore’s designee, Vice Chancellor Jacobs relied on the AOC case,
+
+describing the situation in Moore Business Forms as “strongly analogous to AOC.” Id. at
+
+*5. The outcome in Moore Business Forms did not turn on a contractual right to
+
+information in the Stockholders Agreement, but rather on the fact that Moore could
+
+appoint a designee and was presumed to share information with its designee, just as the
+
+AOC Fund and its representatives on the Clark Oil board were presumed to share
+
+information. That in turn meant that Holdings had no expectation of confidentiality as to
+
+Moore and could not assert the attorney-client privilege.
+
+       4.     SBC Interactive
+
+       One year after Moore Business Forms, while still serving as a Vice Chancellor,
+
+Justice Jacobs returned to the joint client regime in SBC Interactive, Inc. v. Corporate
+
+Media Partners, 1997 WL 770715 (Del. Ch. Dec. 9, 1997). The plaintiff (SBC) was a
+
+partner in a Delaware general partnership. After SBC gave formal notice of its intent to
+
+exercise a contractual withdrawal right, the partnership’s in-house counsel contacted
+
+SBC’s outside counsel and instructed that any communications about the withdrawal be
+
+routed to him. Afterward, the other partners consulted with the partnership’s general
+
+
+                                             18
+counsel about their rights and obligations. Litigation ensued over the withdrawal, and
+
+SBC moved to compel production of privileged communications created before the
+
+service of its withdrawal notice.
+
+       Applying the joint client framework, Justice Jacobs held that SBC could not have
+
+thought that it had an attorney-client relationship with the partnership’s in-house counsel
+
+for purposes of the exercise of its withdrawal right because as soon as SBC served the
+
+withdrawal notice, its interests and the partnership’s became adverse. Id. at *4. The court
+
+distinguished Moore Business Forms as a situation where advice was given “before any
+
+open dispute had arisen, under circumstances where the director being excluded from
+
+access to that advice had a reasonable expectation that he was a client of the board’s
+
+counsel, having the same information access rights as the other board members.” Id. at
+
+*5. Under those circumstances, the corporation had no expectation of confidentiality as to
+
+the director, and the corporation could not assert the attorney-client privilege. Id. at *6.
+
+       In SBC Interactive, however, the partnership put the partner on notice that the
+
+partnership viewed its interests as adverse. After the dispute arose, the partnership’s
+
+counsel asked for all communications to be routed through him, making clear that the
+
+partner was outside the circle of confidentiality. Once the partnership’s counsel took that
+
+step, the partner could no longer have a reasonable expectation that it was a joint client of
+
+the partnership’s in-house counsel. Having excluded the partner from the circle of
+
+confidentiality, the partnership could invoke privilege as to advice regarding the
+
+withdrawal right. See id. at *6.
+
+
+
+                                              19
+       The SBC Interactive decision established a third method by which a corporation
+
+can establish the expectation of confidentiality necessary to invoke privilege under the
+
+joint client paradigm. If the corporation puts the director on notice that an adversity of
+
+interests exists, then the director cannot expect to be within the circle of confidentiality as
+
+to those matters. At that point, the director can either accept the situation and obtain
+
+separate counsel or challenge the corporation’s position by asserting a right to
+
+information under Section 220(d) of the DGCL, which gives sitting directors a
+
+presumptive right to obtain information from the corporation. 8 Del. C. § 220(d).
+
+       5.     The Consistent Application Of The Joint Client Approach
+
+       Over the past quarter century, the principles articulated in Kirby, AOC, Moore
+
+Business Forms, and SBC Interactive have governed the ability of a corporation to invoke
+
+privilege against a director and an affiliated stockholder. A series of written decisions, as
+
+well as numerous transcript rulings, have applied the joint client approach.
+
+       One example is Kalisman v. Friedman, 2013 WL 1668205 (Del. Ch. Apr 17,
+
+2013). The plaintiff, Jason Taubman Kalisman, was a director of Morgans Hotel Group
+
+Co. Id. at *1. Kalisman also was a founding member of OTK Associates, LLC, the
+
+company’s largest stockholder. After OTK announced that it would nominate candidates
+
+for election and present items of business at the company’s annual meeting, the other
+
+directors began meeting in secret to consider strategic alternatives. They concealed their
+
+activities from Kalisman, and “[w]hen he asked for information, he was told nothing was
+
+in the works.” Id. Kalisman only learned the truth when company counsel notified him
+
+
+
+                                              20
+that the board would meet the next day to consider and approve a recapitalization of the
+
+company. The email attached eleven documents spanning hundreds of pages. Id.
+
+       Kalisman filed suit against his fellow directors. When the defendants sought to
+
+assert the attorney-client privilege against him, Kalisman moved to compel. Following
+
+Kirby and Moore Business Forms, the court held that Kalisman was a joint client with the
+
+corporation and his fellow directors, which meant he was entitled to receive the same
+
+information they received and that the corporation had no expectation of confidentiality
+
+against him. Id. at *6. The court then analyzed whether any of the three exceptions
+
+recognized in Moore Business Forms and SBC Interactive applied to the case. There was
+
+no ex ante agreement, the board had not put Kalisman on notice that the board viewed his
+
+interests as adverse on any subject, and the board had not taken formal steps to establish
+
+an expectation of confidentiality as to Kalisman until March 20, 2013, when a committee
+
+on which Kalisman served formed a subcommittee that excluded him. Id. at *4–5. The
+
+court held that as to events prior to March 20, the corporation had no expectation of
+
+confidentiality as to Kalisman and could not assert the attorney-client privilege against
+
+him. The court also observed that the defendants were not well-positioned to invoke
+
+privilege against OTK, the entity Kalisman represented, because “[w]hen a director
+
+serves as the designee of a stockholder on the board, and when it is understood that the
+
+director acts as the stockholder’s representative, then the stockholder is generally entitled
+
+to the same information as the director.” Id. at *6 (citing Moore Bus. Forms, 1996 WL
+
+307444, at *4).
+
+
+
+                                             21
+       A more recent example is In re CBS Corp. Litigation, 2018 WL 3414163 (Del. Ch.
+
+July 13, 2018). There, a controlling stockholder and its affiliated directors sought to
+
+obtain a broad ruling at the beginning of discovery that would prevent the corporation
+
+from asserting the attorney-client privilege against them. Summarizing the principles
+
+articulated in Kirby, Moore Business Forms, and SBC Interactive, Chancellor Bouchard
+
+explained that the directors affiliated with the controlling stockholder were joint clients
+
+with their fellow directors and the corporation such that the corporation had no
+
+expectation of confidentiality against them and could not invoke privilege. CBS, 2018
+
+WL 3414163, at *4–5.
+
+       Following precedent, Chancellor Bouchard held that the controlling stockholder
+
+could receive the same discovery as its director designees, noting that one of the director
+
+designees controlled the controlling stockholder, and it was “simply not realistic or
+
+practical to believe that any information to which she may become privy as a result of
+
+this ruling could be segregated from her thought process as an adversary of CBS in this
+
+case.” Id. In other words, she only had one brain, and she could not avoid sharing
+
+information with the entity she controlled, which was permissible under the weight of
+
+precedent. Id. Chancellor Bouchard also followed precedent in holding that two special
+
+committees formed by the board had established an expectation of confidentiality as to
+
+the controlling stockholder and its affiliated directors such that they could assert privilege
+
+as to matters falling within their purview. Id. at *7. Otherwise, he declined to make broad
+
+rulings about privilege, noting that there were periods when adversity had existed
+
+
+
+                                             22
+between the corporation and the controlling stockholder and its designees that could be
+
+sufficient to support the assertion of privilege under SBC Interactive.
+
+       An even more recent example is In re WeWork Litigation, 250 A.3d 901 (Del. Ch.
+
+2020). There, a corporation’s management team sought to preclude a director from
+
+obtaining production of the corporation’s privileged information. Id. at 910. Applying the
+
+joint client approach, Chancellor Bouchard held that “directors of a Delaware corporation
+
+are presumptively entitled to obtain the corporation’s privileged information as a joint
+
+client of the corporation.” Id. at 911. He rejected the notion that senior management
+
+could invoke the privilege against a sitting director. Id.
+
+       Kalisman, CBS, and WeWork are but three of the many decisions that have applied
+
+the joint client approach and considered whether a corporation had a sufficient
+
+expectation of confidentiality to invoke the attorney-client privilege against a director.3
+
+
+
+
+       3
+         E.g., Police & Fire Ret. Sys. of City of Detroit v. Musk, 2023 WL 1525022, at *2
+n.21 (Del. Ch. Jan. 31, 2023) (“[D]irectors are treated as joint clients with the
+corporations they run . . . .”); In re Aerojet Rocketdyne Hldgs., Inc., 2022 WL 1446782,
+at *5 (Del. Ch. May 5, 2022) (finding one faction of the board suing another faction had
+“no greater claim to the Company’s privilege” because each faction was a joint client
+with the Company); Buttonwood Tree Value P’rs, L.P. v. R. L. Polk & Co., Inc., 2021
+WL 3237114, at *8 (Del. Ch. July 30, 2021) (subsequent history omitted) (“In
+recognition of the reality that a corporation may only assert the privilege through its
+agents, i.e., its officers and directors, legal advice rendered to the corporation through one
+of its officers or directors is typically privileged as though given to a ‘joint client.’”
+(cleaned up)); Schnatter v. Papa John’s Int’l, Inc., 2019 WL 939205, at *1 (Del. Ch. Feb.
+25, 2019) (same). Other cases apply the framework established in Kirby, Moore Business
+Forms, and SBC Interactive by looking to see if one of the exceptions to the joint client
+rule exists. E.g., Bruckel v. TAUC Hldgs., LLC, 2023 WL 116483, at *4 (Del. Ch. Jan. 6,
+2023); In re Howard Midstream Energy P’rs, LLC, 2021 WL 4314111, at *2 (Del. Ch.
+Sept. 22, 2021); Pearl City Elevator, Inc. v. Gieseke, 2020 WL 5640268, at *2 (Del. Ch.
+                                              23
+Numerous decisions have also considered whether a corporation can invoke privilege
+
+against a stockholder affiliated with a director in light of the expectation that a director
+
+acting as a stockholder’s designee will share information with the stockholder, as well as
+
+the practical reality that sharing necessarily occurs when a single person acts in a dual
+
+role.4 This framework has been settled law in Delaware for nearly four decades.
+
+       6.     The Joint Client Approach Applied To This Case
+
+       Under the joint client approach, the Company cannot assert the attorney-client
+
+privilege to withhold information generated while Weiss was a director. During his
+
+tenure, Weiss, the other members of the Board, and the Company were joint clients.
+
+Weiss was therefore within the circle of confidentiality for purposes of privilege. The
+
+Company had no expectation of confidentiality as to Weiss, and the Company cannot
+
+assert privilege against him or his affiliates.
+
+
+
+
+Sept. 21, 2020); Lynch v. Gonzalez, 2019 WL 6125223, at *10 (Del. Ch. Nov. 18, 2019);
+Gilmore v. Turvo, Inc., 2019 WL 3937606, at *2 (Del. Ch. Aug. 19, 2019).
+       4
+         See In re Dole Food Co., Inc. S’holder Litig., 2015 WL 5052214, at *43–44
+(Del. Ch. Aug. 27, 2015); Kortum v. Webasto Sunroofs, Inc., 769 A.2d 113, 121 (Del. Ch.
+2000); KLM v. Checchi, 1997 WL 525861, at *2–3 (Del. Ch. July 23, 1997); see also
+Schoon v. Smith, 953 A.2d 196, 208 (Del. 2008) (holding that director lacked standing to
+sue derivatively because stockholder he represented could bring suit, which only could
+happen if director was able to share information with affiliated stockholder). For
+discussions of the nuanced issues raised by information sharing and the difficulties of a
+bright-line rule that either permits or prohibits sharing, see J. Travis Laster & John Mark
+Zeberkiewicz, The Rights and Duties of Blockholder Directors, 70 Bus. Law. 33, 54–57
+(2015); Cyril Moscow, Director Confidentiality, 74 L. & Contemp. Probs. 197 (2011);
+and Catherine G. Dearlove & Jennifer J. Barrett, What To Do About Informational
+Conflicts Involving Designated Directors, 57 Prac. Law. 45 (2011).
+
+                                                  24
+       During his tenure as a director, Weiss received numerous communications from
+
+the Company and its counsel. DLA Piper communicated directly with Weiss and his
+
+fellow directors about the Merger. See, e.g., Dkt. 75 Exs. N, O, P, Q. In an email dated as
+
+of November 8, 2021, DLA Piper expressly told Weiss that he was a joint client of the
+
+firm, stating: “I represent the board and shareholders of FairX, which includes your firm
+
+and you as a board member.” Dkt. 75 Ex. N at ’886. Weiss had a reasonable expectation
+
+that he was a joint client and within the circle of confidentiality for purposes of privilege.
+
+       After Weiss voiced his desire to retain an investment banker and explore
+
+alternatives to the Coinbase offer, the Company’s management team and its counsel
+
+secretly began to exclude him from communications. Their efforts to withhold
+
+information did not alter his informational rights. Weiss remained inside the circle of
+
+confidentiality and had the right to receive all of the same information that was provided
+
+to his fellow directors.
+
+       The Company did not take any of the recognized steps that would have created an
+
+expectation of confidentiality as to Weiss and provided the factual predicate for asserting
+
+privilege. There was no ex ante agreement. The Board did not form a transaction
+
+committee. No one put Weiss on notice that his interests were adverse as to any topic.
+
+True, Weiss had the sense that he was getting the cold shoulder, and that led him to send
+
+a demand for information on December 7, 2021. He was removed the next day.
+
+       The Funds agree that Weiss became adverse to the Company when he sent his
+
+books and records request for purposes of the Company’s response to his request, and
+
+they do not seek privileged communications concerning that request. The Funds agree
+
+                                              25
+that Weiss no longer remained within the circle of confidentiality after his removal on
+
+December 8, and they accept that the Company can assert the attorney-client privilege
+
+against them from that point.
+
+       No one disputes that Weiss served on the Board as a representative of the Funds.
+
+Under AOC, Moore Business Forms, Kalisman, and CBS, Weiss had the right to share
+
+information with the Funds, and he necessarily shared information in light of his dual
+
+roles as director and fund manager. Having only one brain, Weiss could not avoid sharing
+
+information. The Funds were therefore inside the circle of confidentiality as well.
+
+       When former joint clients sue one another “the default rule is that all
+
+communications made in the course of the joint representation are discoverable.” In re
+
+Teleglobe Commc’ns Corp., 493 F.3d 345, 366 (3d Cir. 2007) (applying Delaware law).
+
+In other words, “where an attorney jointly represents two clients who later become
+
+adversarial parties in litigation, one party cannot assert attorney-client privilege to avoid
+
+disclosure of communications which were made during the joint representation.” In re
+
+Sutton, 1996 WL 659002, at *5 (Del. Super. Aug. 30, 1996). Delaware Rule of Evidence
+
+502(d)(6) states that “there is no privilege . . . [a]s to a communication relevant to a
+
+matter of common interest between or among 2 or more clients if the communication was
+
+made by any of them to a lawyer retained or consulted in common, when offered in an
+
+action between or among any of the clients.” Delaware Rule of Evidence 502(a)(1)
+
+defines the term “client” to include, without limitation, the “directors . . . of any business
+
+entity that is organized under the laws of this state.”
+
+
+
+                                              26
+       Weiss and the Funds were within the circle of confidentiality. The fact that the
+
+Funds have now sought appraisal does not change the scope of the circle as it existed
+
+before December 8, 2021. The Company therefore cannot invoke the attorney-client
+
+privilege to withhold materials created between November 14, 2019, and December 8,
+
+2021, during Weiss’s tenure as a director, except that the Company can assert the
+
+attorney-client privilege for communications relating to Weiss’s books-and-records
+
+request, after he sent it on December 7.
+
+B.     The Company’s Responses
+
+       Faced with these long-settled principles of law, the Company makes three
+
+arguments. First, the Company invokes a related but distinct body of law that governs
+
+how a transaction affects who can direct an entity to assert the attorney-client privilege.
+
+Second, the Company invokes the law governing Section 220(d) of the DGCL and seeks
+
+to apply it to discovery in a plenary action. Third, the Company contends that the Funds
+
+waived their ability to challenge the Company’s invocation of privilege. None of those
+
+arguments succeed.
+
+       1.        The Post-Merger Entity As The Successor To The Privilege
+
+       The Company first argues that as the surviving entity that resulted from the
+
+Merger, the Company succeeded to the constituent entities’ rights to assert privilege. That
+
+is true, but the Company then leaps to the conclusion that because the merger agreement
+
+did not carve out any rights for former directors to access privileged information, the
+
+Company gained the right to invoke privilege against Weiss and the Funds. The second
+
+part is wrong.
+
+                                            27
+       When a corporation engages in a transformative transaction that divides or
+
+combines the corporate form—think of a spinoff, a sale of assets, or a merger—questions
+
+arise as to which entity controls the privilege. In a spinoff, does the privilege travel with
+
+the spun-off entity, or does it remain with the former parent? In a sale of assets, is the
+
+privilege an asset that the buyer acquires, or does the seller retain it? And in a merger,
+
+does the surviving corporation control the privilege?
+
+       For a merger, the answer is easy. Section 259(a) of the DGCL provides that when
+
+constituent corporations combine in a merger, “all property, rights, privileges, powers
+
+and franchises, and all and every other interest shall be thereafter as effectually the
+
+property of the surviving or resulting corporation.” The statute uses the word
+
+“privileges,” and this court has held that the plain language of that word encompasses the
+
+attorney-client privilege.5
+
+
+
+       5
+         Great Hill Equity P’rs IV, LP v. SIG Growth Equity Fund I, LLLP, 80 A.3d 155,
+158 (Del. Ch. 2013). I suspect that the plain language interpretation of the word
+“privilege” in Great Hill is anachronistic and that the concept of “privileges” as used in
+Section 259 refers to the rights, powers, and privileges that a corporation can exercise
+under the DGCL. Section 259 has a pedigree stretching back to the original enactment of
+the DGCL, and cases have consistently used the word “privileges” in that manner. E.g.,
+Bubenzer v. Philadelphia, B. & W.R. Co., 61 A. 270, 275 (Del. Ch. 1905) (quoting 1903
+version of DGCL which provided that following a consolidation, “the corporation created
+thereby shall be possessed of, exercise and enjoy all the rights, powers and privileges
+which this act confers upon consolidated companies; and it shall likewise be possessed
+of, exercise and enjoy all the franchises, rights, powers, privileges, immunities and
+benefits, which any corporation of this state constituent thereof was possessed of or was
+entitled to exercise under its charter or any law of this state”). Cases predating the DGCL
+used the concept of “privileges” in the same way to refer to what the corporation’s
+special charter authorized it to do. See State v. Bank of Smyrna, 7 Del. 99, 110 (Ct. App.
+& Err. 1859) (noting that a canal company “was authorized by a supplement to its
+original charter to extend its canal subject to the same rights, powers and privileges as
+                                             28
+contained in its original charter. By the original charter the Company was exempted from
+taxation and it was held that under the term privileges, the exemption extended to the new
+part, or the extension of the canal”); Swift v. Richardson, 32 A. 143, 144 (Del. Super. Ct.
+1886) (“Corporations are created, and their rights, powers, and privileges are granted, for
+the public good.”). Other authorities likewise use the word “privileges” to refer to legal
+rights, such as a right associated with and exercisable by the owner of a share of stock.
+See, e.g., Adams v. Clearance Corp., 121 A.2d 302, 305 (Del. 1956) (noting Section 123
+of the DGCL granted a corporation the power to own the stock of another and to
+“exercise all the rights, powers and privileges of ownership including the right to vote
+thereon”); Phillips v. Insituform of N. Am., Inc., 1987 WL 16285, at *2 (Del. Ch. Aug.
+27, 1987) (“INA’s common stock is of two classes. The rights, powers and privileges of
+each class are identical except that the holders of Class B are entitled to elect 2/3 of the
+board of directors of the Company.”); Aldridge v. Franco Wyo. Oil. Co., 7 A.2d 753, 765
+(Del. Ch. 1939) (interpreting charter provision that referred to a corporation having the
+ability “to exercise all the rights, powers and privileges of ownership” of stock,
+“including the right to vote thereon” and citing similar language in the 1935 version of
+the DGCL); Philadelphia, Wilmington & B.R. Co. v. Kent Cnty. R. Co., 1875 WL 1949,
+at *2 (Del. Super. Ct. 1875) (noting that corporation crated under Maryland law was
+given the authority to “exercise and enjoy all the rights, powers, and privileges properly
+appertaining to the” the purchasing and holding, leasing, mortgaging, and selling of real
+estate); see also State ex. Re. James v. Schorr, 65 A.2d 810, 823 (Del. 1948) (citing act
+creating Department of Elections and noting that it gave the department the power to
+exercise “such other rights, powers and privileges as by this Act conferred”). A more
+familiar use of the term “privileges” that deploys the word in similar fashion appears in
+the Privileges or Immunities Clause of the United States Constitution, which provides
+that “[n]o State shall make or enforce any law which shall abridge the privileges or
+immunities of citizens of the United States.” U.S. Const. amend. XIV, § 1. The parallel is
+unsurprising, as the drafters of the United States Constitution drew on precedents that
+included the corporate charters used to establish the colonies, and the foundational
+document bears striking similarities to a corporate charter. See, e.g., John Mikhail, Is the
+Constitution a Power of Attorney or a Corporate Charter? A Commentary on “A Great
+Power of Attorney”: Understanding the Fiduciary Constitution by Gary Lawson and Guy
+Seidman, 17 Geo. J. L. & Pub. Pol. 407 (2019); David Ciepley, Is The U.S. Government a
+Corporation? The Corporate Origins of Modern Constitutionalism, 111 Am. Pol. Sci. R.
+418 (2017); John Mikhail, The Necessary and Proper Clauses, 102 Geo. L.J. 1045
+(2014). But while I quibble with Great Hill’s plain meaning interpretation of the word
+“privileges,” I concur with the outcome of the case. To avoid the anachronism, I would
+have introduced an additional analytical step and held that the right to assert privilege is a
+                                             29
+       Because any privilege that a constituent company held before the merger passes to
+
+the surviving company, parties must contract for a different outcome. “Absent . . . an
+
+express carve out, the privilege over all pre-merger communications—including those
+
+relating to the negotiation of the merger itself—passe[s] to the surviving corporation in
+
+the merger, by plain operation of clear Delaware statutory law under § 259 of the
+
+DGCL.” Great Hill, 80 A.3d at 162.
+
+       The Company seeks to use the law governing which entity holds the privilege to
+
+argue that the Merger divested Weiss of his status as a former joint client and deprived
+
+him of his ability to obtain privileged information. The former body of law answers a
+
+different question: What entity controls the privilege to the extent the entity has the right
+
+to invoke it? The latter question turns on the scope of the privilege and the fact that the
+
+director as a former client was within the circle of confidentiality. Cf. McKee v. Specialty
+
+Benefits LLC, C.A. No. 2019-0646-JTL, at 39–40 (Del. Ch. Sep. 10, 2020)
+
+(TRANSCRIPT) (“[W]e’re conceptually talking about . . . whether privilege can be
+
+validly invoked in litigation where the documents are responsive in litigation and it is
+
+someone who previously was a sender, a recipient, or a copy recipient, et cetera, of the
+
+document, and hence the document was, by definition, not confidential as to them. I view
+
+the allocation of rights in the agreement as dealing with a separate concept that isn’t
+
+
+
+
+“right” or “power” of the constituent corporations that passes to the surviving corporation
+under Section 259. The endpoint is the same.
+
+                                             30
+implicated here.”). Section 259 provides that the surviving corporation gains the right to
+
+invoke privilege to the same degree as the constituent corporations. Section 259 does not
+
+create an expanded right that goes beyond the rights that a constituent corporation
+
+possessed.
+
+       In this case, the ability of the Company as the surviving entity to invoke privilege
+
+against Weiss after the Merger is no greater than the ability of the Company as a
+
+constituent entity to invoke privilege against Weiss before the Merger. For the reasons
+
+already discussed, Weiss was within the circle of confidentiality during his tenure on the
+
+Board, and thus, the Company cannot invoke the attorney-client privilege to withhold
+
+information generated during that period. The same is true for the Company as the
+
+surviving entity that succeeded to the Company’s privilege under Section 259.
+
+       The Merger did not give the Company any greater rights than it possessed before
+
+the Merger. The Company’s first argument for invoking privilege therefore fails.
+
+       2.     The Attempt To Rely On Section 220(d)
+
+       In its second argument, the Company focuses on Weiss’s status as a former
+
+director and argues that because his tenure ended, Weiss can no longer obtain privileged
+
+information from the corporation. In making this argument, the Company improperly
+
+takes principles that govern a director’s request for information under Section 220(d) and
+
+attempts to apply them to civil discovery.
+
+              a.     The Company’s Reliance On Section 220(d) Precedent
+
+       To advance its argument that a corporation can treat a former director like any
+
+other outsider once the director’s tenure ends, the Company relies on cases interpreting
+
+                                             31
+Section 220(d). That statute provides that “[a]ny director shall have the right to examine
+
+the corporation’s stock ledger, a list of its stockholders and its other books and records
+
+for a purpose reasonably related to the director’s position as a director.” 8 Del. C. §
+
+220(d). Delaware cases hold that because the statute uses the term “director,” it only
+
+grants rights to a current director. See, e.g., Prokupek v. Consumer Cap. P’rs LLC, 2014
+
+WL 7452205, at *6 (Del. Ch. Dec. 30, 2014). Delaware cases also hold that because the
+
+statute only authorizes a director to access materials “for a purpose reasonably related to
+
+the director’s position as a director,” a director cannot use Section 220(d) if the
+
+corporation proves that the primary purpose for the inspection is unrelated to the
+
+director’s duties. Applying this standard, this court has held that a director would not be
+
+permitted to use section 220(d) to conduct “back-door discovery” on a personal claim.6
+
+       The Company argues that the same principles govern a director’s efforts to obtain
+
+discovery in litigation, such that the director must be pursuing the litigation as a fiduciary
+
+to be able to access privileged information. The upshot of the Company’s approach is that
+
+
+
+
+       6
+          Henshaw v. Am. Cement Corp., 252 A.2d 125, 130 (Del. Ch. 1969) (declining to
+permit a director to use Section 220(d) as a method for “back-door discovery unbound by
+work-product, privilege or any other limitation upon discovery”); see Chappell v. FCB I
+Hldgs. Inc., C.A. No. 8817-VCP, at 8–9 (Aug. 28, 2013) (TRANSCRIPT) (following
+Henshaw in holding that director could not use litigation attorneys from personal
+litigation to obtain information under Section 220(d)); Gunther v. 5iSciences, Inc., C.A.
+No. 5800-CC, at 4–6 (Dec. 3, 2010) (TRANSCRIPT) (rejecting effort of current director
+to obtain records under Section 220(d) where the request was “excessive” and director
+made the request for the benefit of his venture capital firm that was an investor in and
+wanted to acquire the corporation, creating a clear conflict of interest).
+
+                                             32
+a former director cannot obtain privileged information created during his tenure through
+
+discovery in litigation, because the former director no longer acts in a fiduciary capacity.
+
+       In taking these positions, the Company recycles arguments that Justice Berger
+
+rejected nearly forty years ago in Kirby. After removing his three siblings from the board,
+
+the member-director in Kirby argued that his siblings lost any right to access information
+
+under Section 220(d). The court disagreed, explaining that “[p]laintiffs’ rights under
+
+[Section] 220, whatever they may be, are irrelevant. Plaintiffs are seeking discovery in
+
+support of a colorable claim and are entitled to the documents unless they are protected
+
+from disclosure by a valid claim of privilege.” Id. at *7. Justice Berger thus recognized
+
+that a director’s ability to access information under Section 220(d) flows from the
+
+statutory language. A party’s ability to obtain discovery in litigation is governed by the
+
+Court of Chancery Rules, including Rule 26. The former does not affect the latter.
+
+       Since Kirby, this court has applied the discovery rules to discovery and the
+
+language of Section 220(d) to Section 220(d) actions. The court has likewise rejected a
+
+converse attempt by a former director to apply the discovery rules to a Section 220(d)
+
+action. When a former director argued that he had standing to invoke informational rights
+
+under Section 220(d) because of language in Kirby and Moore Business Forms, the court
+
+explained that the plaintiff’s position “erroneously conflates a director’s right to access
+
+corporate books and records under Section 220(d) with a director’s or former director’s
+
+right to discovery of corporate documents when he personally is involved in litigation
+
+either as a plaintiff or a defendant.” King v. DAG SPE Managing Member, Inc., 2013 WL
+
+6870348, at *9 (Del. Ch. Dec. 23, 2013). Pointing out that “[t]he two procedures are
+
+                                             33
+separate and distinct,” the court explained that in Kirby and Moore Business Forms, “the
+
+former directors in [discovery disputes] were pursuing or defending substantive claims
+
+and, as litigants in that context, had the right to pursue discovery under the applicable
+
+court rules.” Id. at *7, *9. Those cases did not apply to a Section 220(d) action, just as the
+
+law of Section 220(d) did not apply to discovery.
+
+       As in Kirby and King, the issue in this case is not whether Weiss, as a former
+
+director, can obtain information under Section 220(d). The question is whether the
+
+Company can withhold discovery from the Funds by invoking privilege even though
+
+Weiss and the Funds were within the circle of confidentiality when the materials were
+
+created. The Company’s Section 220(d) cases are inapposite. The motion to compel is
+
+governed by Rule 26, with the privilege questions governed by Kirby and its progeny.
+
+              b.       The Company’s Reliance On SerVaas
+
+       The Company next fixates on a case that it interprets as applying Section 220(d)-
+
+style considerations to a discovery dispute. In SerVaas v. Ford Smart Mobility LLC, 2021
+
+WL 5226487 (Del. Ch. Nov. 9, 2021), this court issued a letter ruling that reached a
+
+logical result on the facts presented. The decision did not purport to change the law or
+
+depart from the joint client approach. Yet the Company construes the decision as
+
+contemplating a fundamental reorientation of Delaware law regarding how a director can
+
+access information. That is not how I read SerVaas, nor is the Company’s reliance on that
+
+decision persuasive.
+
+       The plaintiffs in SerVaas were former executives who had served on the defendant
+
+entity’s governing board. The two executives had sold their companies to the defendant
+
+                                             34
+and had rights to deferred compensation related to those transactions. One month before
+
+their rights to the deferred compensation vested, the entity terminated the executives for
+
+cause, citing fraud and misappropriation. The executives sued for wrongful termination
+
+and, in discovery, sought access to the investigations on which the entity relied. After the
+
+entity invoked privilege, the executives moved to compel.
+
+       The court denied the motion. In the course of explaining its rationale, the court
+
+cited a series of considerations, namely that the executives (i) were “not acting to further
+
+the interests of [the companies] or their stockholders,” (ii) were “not invoking their
+
+former fiduciary capacities in this action,” (iii) did “not contend that the documents at
+
+issue would have allowed them to act as fully-informed directors,” (iv) were “not
+
+claiming that certain documents were shared with other board members during their
+
+tenure but withheld from them,” and (v) had no reason to believe that they were “‘joint
+
+clients’ of company counsel with regard to the issues.” Id. at *4–5.
+
+       Discovery rulings—including rulings about privilege—require discretionary
+
+determinations based on the facts of the case. The SerVaas decision identified these
+
+considerations when making a discretionary decision. Yet as Company counsel conceded
+
+at oral argument, the Company interprets SerVaas as establishing a new regime in which
+
+a director’s ability to access privileged information resembles a stockholder’s qualified
+
+right to overcome privilege for good cause shown under Garner v. Wolfinbarger, 430
+
+
+
+
+                                            35
+F.2d 1093 (5th Cir. 1970).7 Like Garner, the Company’s approach would allow the
+
+corporation to assert privilege, with the party requesting discovery having the burden to
+
+overcome the privilege by showing that various factors are present.
+
+       A Garner-style regime rests on a conceptual foundation that is categorically
+
+different from the joint client regime. Under Garner, the stockholder starts outside the
+
+circle of confidentiality, enabling the corporation to invoke privilege against the
+
+stockholder. By showing good cause under Garner, the stockholder can penetrate the
+
+privilege and gain access to otherwise confidential materials.
+
+       Under the joint client approach, the director starts inside the circle of
+
+confidentiality. Without the expectation of confidentiality on which privilege depends,
+
+the corporation cannot invoke the privilege against the director. Having started inside the
+
+circle, the director remains there unless and until excluded. Only for matters post-dating
+
+the director’s tenure—or where the corporation follows one of the three acknowledged
+
+exceptions—is the director outside the circle of confidentiality. When it comes time for
+
+
+
+
+       7
+         The Garner factors include: (1) the number of stockholders and the percentage of
+stock they represent; (2) the bona fides of the stockholders; (3) the nature of the
+stockholders’ claim and whether it is obviously colorable; (4) the apparent necessity or
+desirability of the stockholders having the information and the availability of it from
+other sources; (5) whether, if the stockholders’ claim is of wrongful action by the
+corporation, it is of action criminal, or illegal but not criminal, or of doubtful legality;
+(6) whether the communication is of advice concerning the litigation itself; (7) the extent
+to which the communication is identified versus the extent to which the stockholders are
+blindly fishing; the risk of revelation of trade secrets or other information in whose
+confidentiality the corporation has an interest for independent reasons. 430 F.2d at 1104.
+
+                                            36
+discovery, there is no invasion of the privilege because the director starts on the inside
+
+and remains there, unless and until the corporation excludes him.
+
+       Under the joint client approach, confidentiality and privilege do not spring into
+
+being when the director’s tenure ends. All that happens when the director’s tenure ends is
+
+that the joint client relationship ends. That does not mean that one former joint client (the
+
+corporation) can now invoke privilege against another former joint client (the former
+
+director), any more than former joint clients can invoke privilege against each other in
+
+litigation between them. The rule is precisely the opposite: “There is no privilege . . . [a]s
+
+to a communication relevant to a matter of common interest between or among 2 or more
+
+clients if the communication was made by any of them to a lawyer retained or consulted
+
+in common, when offered in an action between or among any of the clients.” D.R.E.
+
+502(d)(6); accord Sutton, 1996 WL 659002, at *5 (“[W]here an attorney jointly
+
+represents two clients who later become adversarial parties in litigation, one party cannot
+
+assert attorney-client privilege to avoid disclosure of communications which were made
+
+during the joint representation.”).
+
+       The Company’s big-picture reading of SerVaas thus starts from a doctrinally
+
+flawed position. The Company fares no better when it tries to turn the fact-specific
+
+considerations that the SerVaas court identified into elements of a Garner-style test.
+
+       The Company interprets the first two considerations—whether the plaintiffs were
+
+acting to further the interests of the corporation or invoking their fiduciary capacities—as
+
+implicating concepts from Section 220(d). As discussed previously, Section 220(d)
+
+requires that a director pursue informational rights for a proper purpose, which means for
+
+                                             37
+a purpose that would further the interests of the corporation or the director’s fiduciary
+
+duties. If the corporation can show that the director is acting with an improper purpose,
+
+then the director cannot access information under Section 220(d).
+
+         As Justice Berger explained in Kirby, a former director who seeks to obtain
+
+information in discovery is not relying on Section 220(d). The source of the right to
+
+obtain information is the discovery rules themselves. The question is whether the
+
+corporation can invoke privilege to withhold information from discovery. That issue is
+
+governed by the law of privilege, including the effect of joint client status on the element
+
+of confidentiality. The rules governing access to information under Section 220(d) do not
+
+apply.
+
+         The closest analog to how the Company interprets these considerations is the
+
+exception to the joint client rule recognized in SBC Interactive. Under that exception,
+
+once a director is on notice of an adversity of interests, then the director cannot
+
+reasonably regard himself as a joint client of the corporation’s counsel and within the
+
+circle of confidentiality. But the temporal framing under SBC Interactive differs from the
+
+Company’s proposed regime.
+
+         The joint client approach looks at the facts and circumstances that existed when
+
+the privileged communication was made. If adversity did not exist, then the director is
+
+treated as a joint client who was within the circle of confidentiality such that the attorney-
+
+client privilege has no purchase. Focusing on the point when the attorney-client
+
+communication was made comports with the general principle that “[t]he existence of the
+
+attorney-client privilege . . . is determined as of the time the communication is made, not
+
+                                             38
+at the time when discovery of the communication is sought.” Hoechst Celanese Corp. v.
+
+Nat’l Union Fire Ins. Co. of Pittsburgh, 623 A.2d 1118, 1123 (Del. Super. Ct. 1992).
+
+Under the Company’s proposed test, the court would ask whether adversity exists at the
+
+time of the lawsuit in which the discovery is sought. If the director’s lawsuit is adverse—
+
+and it typically will be—then the director cannot obtain the discovery. In taking that
+
+different view of adversity, the Company’s proposed test resembles what one
+
+commentator describes as a separate approach to privilege, distinct from Kirby, which
+
+“focuses on whether the directors’ interests are adverse to the corporation’s.” John W.
+
+Gergacz, Attorney-Corporate Client Privilege § 2:5, Westlaw (database updated Aug.
+
+2022). Delaware does not follow that approach. Delaware follows Kirby and its progeny.
+
+       The Company attempts the same analytical move when it focuses on the reference
+
+in SerVaas to whether accessing the documents at issue would have allowed the plaintiffs
+
+to act as fully informed directors. As framed by the Company, that is another way of
+
+asking whether a director has a proper purpose for an inspection, which Section 220(d)
+
+requires. As the Kirby case explained, the issue in discovery is not access to information
+
+under Section 220(d), but rather whether a corporation can withhold discovery under
+
+Rule 26. When a party pursues discovery in a plenary lawsuit, a party generally is not
+
+seeking information to become fully informed as a director, but rather to litigate a case. A
+
+party can obtain relevant discovery in a civil case unless a valid claim of privilege exists.
+
+Whether the responding party can invoke privilege turns on the law of privilege, not
+
+principles under Section 220(d). If the requesting party was within the circle of
+
+confidentiality when the communication was created, then the responding party cannot
+
+                                             39
+invoke privilege. A former director was within the circle of confidentiality for purposes
+
+of communications created during the director’s tenure, so privilege is unavailable.
+
+       The Company thus attempts to use each of the first three case-specific
+
+considerations cited in SerVaas as means of injecting elements of the analysis under
+
+Section 220(d) into the separate context of civil discovery. That attempt fails.
+
+       The Company fares no better when it turns to the last two case-specific
+
+considerations that the SerVaas decision mentioned—whether the documents in question
+
+were shared with other board members but withheld from the plaintiff, and whether the
+
+director had reason to believe that he was a joint client of company counsel. The
+
+Company claims that unless a director can establish one or both of those factors, a
+
+director cannot overcome the privilege. Those considerations are indeed pertinent to
+
+whether a director was within the circle of confidentiality, but here—as with the entirety
+
+of its Garner-style analysis—the Company flips the burden of proof. Under Kirby and its
+
+progeny, a director starts within the circle of confidentiality as a joint client. The
+
+corporation resisting production must show that a situation existed sufficient to cut off
+
+joint client status and place the director outside the circle of confidentiality, such as
+
+sufficient adversity to have put the director on notice so that director knew or should have
+
+known that he could not rely on company counsel. Under the Company’s approach, the
+
+burden rests on the director to identify factors that would enable the director to access the
+
+privilege information. For the factors that the Company draws from Section 220(d), that
+
+burden shift is also inconsistent with the statutory structure, which places the burden on
+
+the corporation to show that the director has an improper purpose. See 8 Del. C. § 220(d)
+
+                                             40
+(“The burden of proof shall be upon the corporation to establish that the inspection such
+
+director seeks is for an improper purpose.”).
+
+       Although the Company claims to favor its proposed Garner-style framework,
+
+what the Company really wants is a rule where the ability to access information ceases
+
+when a director’s tenure ends. At that point, as the Company’s counsel conceded at oral
+
+argument, a former director by definition would not be able to claim that he needed the
+
+information in a fiduciary capacity or to become fully informed about his role. Dkt. 89 at
+
+32. Such a rule would create problems for a former director who wants to rely on expert
+
+legal advice as a defense under Section 141(e) of the DGCL. See 8 Del. C. § 141(e)
+
+(providing that “a member of the board of directors . . . shall, in the performance of such
+
+member’s duties, be fully protected in relying in good faith upon the records of the
+
+corporation and upon such information, opinions, reports or statements presented to the
+
+corporation by any of the corporation’s officers or employees, or committees of the board
+
+of directors, or by any other person as to matters the member reasonably believes are
+
+within such other person’s professional or expert competence and who has been selected
+
+with reasonable care by or on behalf of the corporation.”). The Company’s stance
+
+continues to ignore the fact that the Court of Chancery Rules, including Rule 26, govern
+
+whether a party can obtain information in a civil proceeding. The question is not whether
+
+the former director has an independent right to obtain the information, such as under
+
+Section 220(d), but rather whether a corporation can invoke privilege to withhold
+
+information from someone against whom the corporation had no expectation of
+
+confidentiality.
+
+                                            41
+       Forced to search even further afield for support, the Company drew an analogy
+
+during oral argument to recent disputes involving former Presidents and Vice Presidents
+
+of the United States improperly retaining documents after their terms of office ended.
+
+Dkt. 89 at 21. The Company argued that just as a President or Vice President loses the
+
+ability to possess confidential information after leaving office, a former director likewise
+
+should lose the ability to conduct discovery into privileged material created during the
+
+director’s tenure. The analogy falls short because the inability of Presidents and Vice
+
+Presidents to retain materials is a function of the Presidential Records Act, which
+
+provides that for materials created or received after January 20, 1981, the United States
+
+retains “complete ownership, possession, and control of Presidential records.” 44 U.S.C.
+
+§ 2202. Before the enactment of that statute, Presidents and Vice Presidents could and did
+
+retain official papers: “Beginning with George Washington,” Presidents had, “without
+
+notable exception, treated their presidential papers as personal property.” Nixon v. United
+
+States, 978 F.2d 1269, 1277–78 (D.C. Cir. 1992). After President Washington removed
+
+his papers to Mount Vernon, “he ensured that they would pass by descent within his
+
+family by bequeathing them to his nephew, Mr. Justice Bushrod Washington.” Id. at
+
+1278. Presidents Jefferson, Madison, and Monroe likewise passed their papers by
+
+testamentary gift. Id. The presidential analogy would mean that former directors could
+
+take everything with them and keep it indefinitely.
+
+       The Company seeks to use SerVaas to reject the joint client approach and argue in
+
+its place for a Garner-like framework for current directors and a rule of no access for
+
+former directors. The Company’s proposed regime would change the law dramatically.
+
+                                            42
+The SerVaas decision did not purport to do that. This decision follows the weight of
+
+Delaware precedent and hews to the joint client regime.
+
+              c.     The Company’s Reliance On Federal Precedent
+
+       In addition to citing Section 220(d) and SerVaas, the Company relies on two
+
+federal cases: Wychocki v. Franciscan Sisters of Chi., 2011 WL 2446426 (N.D. Ill. June
+
+15, 2011), and Milroy v. Hanson, 875 F. Supp. 646 (D. Neb. 1995). Based on those
+
+decisions, the Company states that “[f]ederal courts have similarly held that one’s status
+
+as a former director or officer ‘does not entitle her to see privileged documents that she
+
+saw, or to which she had access, during the time she was employed.’” Dkt. 57 ¶ 21
+
+(quoting Wychocki, 2011 WL 2446426, at *9). Previously, the Company recycled
+
+arguments rejected in Kirby. This time, the Company recycles an argument rejected in
+
+Moore Business Forms, where Justice Jacobs distinguished Milroy v. Hanson as taking a
+
+different approach to privilege than Delaware. 1996 WL 307444, at *5 n.5. In Kalisman,
+
+the court again distinguished Milroy v. Hanson and cases adopting a similar rule, noting
+
+that “[t]hose decisions do not accurately describe the law of this State.” 2013 WL
+
+1668205, at *4.
+
+       The federal courts trace their approach to privilege to Commodity Futures Trading
+
+Commission v. Weintraub, 471 U.S. 343 (1985). That decision addressed who controlled
+
+the corporation’s privilege after the filing of a bankruptcy petition. The parties agreed
+
+that for a solvent corporation, “the power to waive the corporate attorney-client privilege
+
+rests with the corporation’s management and is normally exercised by its officers and
+
+directors.” Id. at 348. The parties also agreed that “when control of a corporation passes
+
+                                            43
+to new management, the authority to assert and waive the corporation’s attorney-client
+
+privilege passes as well.” Id. at 349. As a consequence, “[d]isplaced managers may not
+
+assert the privilege over the wishes of current managers.” Id. If the current managers
+
+waived the privilege, it was waived. Id. The Supreme Court of the United States applied
+
+these principles to a corporation that had filed bankruptcy, holding the bankruptcy trustee
+
+has the power to waive the attorney-client privilege with respect to pre-bankruptcy
+
+communications. Id. at 353. If the bankruptcy trustee waived the privilege, then former
+
+managers could not assert it. Id. at 353–54.
+
+       Like Great Hill, the Weintraub decision concerned who controls the corporation’s
+
+right to assert privilege following a transformative event, whatever the scope of the
+
+privilege might be. The Weintraub decision did not address whether the corporation
+
+could assert privilege against someone who started out within the circle of
+
+confidentiality, such as a director who had access to the privileged materials during his
+
+tenure. Yet subsequent decisions, such as those on which the Company relies, have
+
+ignored that distinction and extended the Weintraub rule to hold that former directors
+
+cannot obtain discovery of privileged materials created during their tenure because only
+
+the entity is the client and holder of the privilege. Candor requires acknowledging that the
+
+entity approach currently represents the majority rule in the United States. See, e.g., John
+
+K. Villa, Confusion in the Boardroom, 24 No. 9 ACC Docket 104, at *104 (Oct. 2006).
+
+
+
+
+                                               44
+In blackletter form, it appears in Section 73 of the Restatement (Third) of the Law
+
+Governing Lawyers.8
+
+       “[C]ourts which apply [the entity approach] emphasize that it is only current
+
+management through which the corporation acts.” Villa, supra, at *104. To reach this
+
+result, the entity approach treats directors as the corporation’s agents. The Restatement
+
+explains this oddment as follows:
+
+       Directors of a corporation are not its agents for many legal purposes,
+       because they are not subject to the control of the corporation (see
+       Restatement Second, Agency § 14C). However, in communications with
+       the organization’s counsel, a director who communicates in the interests
+       and for the benefit of the corporation is its agent for the purposes of this
+       Section. Depending on the circumstances, a director acts in that capacity
+       both when participating in a meeting of directors and when communicating
+       individually with a lawyer for the corporation about the corporation’s
+       affairs.
+
+Id. § 73 cmt. d. Delaware law does not view directors as agents. “Directors, in the
+
+ordinary course of their service as directors, do not act as agents of the corporation . . . .”
+
+Arnold v. Soc’y for Sav. Bancorp, Inc., 678 A.2d 533, 539 (Del. 1996). “A board of
+
+directors, in fulfilling its fiduciary duty, controls the corporation, not vice versa. It would
+
+be an analytical anomaly, therefore, to treat corporate directors as agents of the
+
+corporation when they are acting as fiduciaries of the stockholders in managing the
+
+business and affairs of the corporation.”9
+
+
+
+       8
+         See Restatement (Third) of the Law Governing Lawyers § 73 cmt. c (Am. L.
+Inst. 2000) [hereinafter Restatement], Westlaw (database updated Oct. 2022).
+       9
+        Id. at 540 (footnote omitted); see also Firefighters’ Pension Sys. of City of Kans.
+City, Mo. Tr. v. Presidio, Inc., 251 A.3d 212, 286 (Del. Ch. 2021) (“Rather than treating
+                                              45
+       The fact that the board of directors governs the corporation and comprises multiple
+
+individuals means that to the extent there is a corporation that can be a client, the board of
+
+directors is the decisionmaker for the client. 8 Del. C. § 141(a). As Kirby and Moore
+
+Business Forms recognize, the members of the board jointly comprise the client and the
+
+corporation. It follows that the joint client rule should apply when determining whether a
+
+corporation can invoke privilege against one of the members of the board. The
+
+
+
+
+directors as agents of the stockholders, Delaware law has long treated directors as
+analogous to trustees for the stockholders.”); Ellen Taylor, New and Unjustified
+Restrictions on Delaware Directors’ Authority, 21 Del. J. Corp. L. 837, 872 (1996)
+(“[D]irectors are not agents of either the corporation or its shareholders, because they are
+not subject to the control of a principal.” (footnote omitted)).
+
+         There are isolated cases that loosely refer to stockholders as principals and
+directors as their agents, but those references allude to the well-known concept of the
+principal-agent problem from economic theory. They are metaphorical, not doctrinal. See,
+e.g., In re Invs. Bancorp, Inc. S’holder Litig., 177 A.3d 1208, 1223 n.83 (Del. 2017);
+(asserting that requiring directors to specify the precise amount and form of their
+compensation when seeking stockholder ratification “ensure[s] integrity in the underlying
+principal-agent relationship between stockholders and directors” (quoting Desimone v.
+Barrows, 924 A.2d 908, 917 (Del. Ch. 2007))); Calma v. Templeton, 114 A.3d 563, 579
+(Del. Ch. 2015) (“In the corporate law context, stockholders (as principal) can, by
+majority vote, retrospectively and, at times, prospectively, act to validate and affirm the
+acts of the directors (as agents).” (footnote omitted)); UniSuper Ltd. v. News Corp., 2005
+WL 3529317, at *8 (Del. Ch. Dec. 20, 2005) (analogizing directors to agents and
+stockholders to principals). Given that Section 141(a) of the DGCL confers statutory
+authority on the board of directors to manage the business and affairs of the corporation,
+“[c]learly, directors are not mere agents.” Julian Velasco, Fiduciary Duties and Fiduciary
+Outs, 21 Geo. Mason L. Rev. 157, 164 (2013); see Stephen M. Bainbridge, Director
+Primacy: The Means and Ends of Corporate Governance, 97 Nw. U. L. Rev. 547, 605
+(2003) (reviewing authorities and concluding that “the board of directors is not a mere
+agent of the shareholders”); Deborah A. DeMott, The Mechanisms of Control, 13 Conn.
+J. Int’l L. 233, 253 (1999) (“Even when the parent owns all the stock in the subsidiary, its
+directors are not agents of the parent.”).
+
+                                             46
+Restatement nods in the direction of these realities by acknowledging that directors can
+
+be joint clients:
+
+       Communications involving an organization’s director, officer, or employee
+       may qualify as privileged, but it is a separate question whether such a
+       person has authority to invoke or waive the privilege on behalf of the
+       organization. If the lawyer was representing both the organization and the
+       individual as co-clients, the question of invoking and waiving the privilege
+       is determined under the rule for co-clients.
+
+Id. § 73 cmt. j (emphasis added) (citation omitted). But the Restatement treats a joint
+
+representation as the exception rather than the rule. Delaware’s approach correctly
+
+recognizes that the individuals comprising the board jointly constitute the client and are
+
+within the circle of confidentiality for purposes of privilege, unless the corporation
+
+follows one of the three acknowledged methods for excluding a director from the circle.
+
+       When courts reject the joint client approach in favor of the entity approach, they
+
+typically assert that adopting the joint client approach “would have a perverse chilling
+
+effect on candid communications between corporate managers and counsel” because of
+
+the risk that a former fiduciary might be able to use the information in litigation. E.g., Las
+
+Vegas Sands v. Eighth Jud. Dist. Ct., 331 P.3d 905, 913 (Nev. 2014) (internal citation
+
+omitted). In the abstract, that sounds like a valid concern, but it does not hold up against
+
+real-world considerations.
+
+       Evaluating whether the joint client approach might deter boards from consulting
+
+with counsel requires weighing (i) the benefits of consultation against (ii) the likelihood
+
+of losing privilege. The advantages of consultation are extensive. The directors benefit
+
+from legal advice about what course of action to take, and they gain a potential
+
+
+                                             47
+affirmative defense in the form of reliance on advice of counsel, which renders them
+
+“fully protected” under Delaware law. 8 Del. C. § 141(e). Perhaps more important are the
+
+advantages of invoking privilege in discovery. Experience teaches that corporations
+
+invoke privilege aggressively and widely, and it is not too extreme to say that the starting
+
+point is often to assert privilege whenever an attorney is copied on a communication.
+
+E.g., Thermo Fisher Sci. PSG Corp. v. Arranta Bio MA, LLC, 2023 WL 300150, at *6
+
+(Del. Ch. Jan. 18, 2023) (“The evidence presented by Defendant, coupled with my in
+
+camera review, strongly indicates that Plaintiff repeatedly and unthinkingly claimed
+
+privilege over non-privileged communications simply due to the presence of a lawyer in
+
+preparing its log.”). Corporations even invoke privilege when a lawyer is not a part of the
+
+communication. Id. at *3 (collecting examples). And corporations invoke privilege when
+
+a lawyer is not acting in a legal capacity, is giving business advice, or is relaying facts.10
+
+In this court, corporations regularly generate privilege logs spanning hundreds of pages,
+
+with scores of entries per page. Why does this happen? Because information is power,
+
+and privilege provides a basis for withholding power from an adversary.
+
+
+
+       10
+          See, e.g., MPEG LA, L.L.C. v. Dell Glob. B.V., 2013 WL 6628782, at *2 (Del.
+Ch. Dec. 9, 2013) (applying rule that “attorney-client privilege protects legal advice only,
+and not business or personal advice” to reject certain assertions of privilege);
+PharmAthene, Inc. v. SIGA Techs., Inc., 2009 WL 2031793, at *2 (Del. Ch. July 10,
+2009) (same); In re Circon Corp. S’holders Litig., 1998 WL 409166, at *5 (Del. Ch. July
+6, 1998) (overruling assertion of privilege for business strategies; noting that the privilege
+“covers only legal advice and, where appropriate, even facts delivered to an attorney for
+the purpose of forming a legal opinion can be discovered”); Hoechst, 623 A.2d at 1122
+(“The privilege only protects the communications themselves and does not prevent
+disclosure of the underlying facts which are the substance of the communications . . . .”).
+
+                                             48
+       The counterbalancing risk is that on occasion, litigation will arise with a director.
+
+How often does that happen, and what are the consequences? Not often and not much.
+
+       Evidencing the infrequency of the issue, the number of cases involving director
+
+privilege is few. See Gergacz, supra, § 2:5 (collecting cases). Given the number of
+
+corporations (both public and private), the number of directors, and the amount of
+
+litigation, that yield suggests a trivial risk.
+
+       Evidencing the insignificance of the effect, the joint client rule only renders
+
+privilege unavailable as to the joint client. The privilege remains intact for parties outside
+
+the circle of confidentiality. Not only that, but corporations can mitigate any risk from the
+
+joint client approach with a modicum of planning. Corporations can use contract,
+
+committees, or clear notices of adversity to control the aperture of confidentiality. And
+
+even without advanced planning, all is not lost. In litigation in this court, a judicial officer
+
+can enter an order under Delaware Rule of Evidence 510(f), which provides that
+
+“[n]otwithstanding anything in these rules to the contrary, a court may order that the
+
+privilege or protection is not waived by disclosure connected with the litigation pending
+
+before the court—in which event the disclosure is also not a waiver in any other
+
+proceeding.” A similar procedure is available in federal court. See F.R.E. 502(d). Joint
+
+client materials can be produced under such an order. The inability to invoke privilege
+
+against a joint client who was within the circle of confidentiality does not mean that
+
+privilege is lost as to the world.
+
+       This balancing so dramatically favors consultation with counsel that the real-world
+
+effect of the joint client rule is undoubtedly nil. Delaware’s experience proves the point.
+
+                                                  49
+Despite following the joint client approach since 1987, there has been no perceptible
+
+decline in the invocation of privilege. Like Topsy, it grew.
+
+       On the other side of the ledger are clear advantages to the joint client approach. It
+
+guarantees that a current director cannot secretly be excluded from discussions or denied
+
+access to materials, and it ensures a former director is not treated like a banished outsider,
+
+but rather as someone who previously held an important role and was inside the circle of
+
+confidentiality. A former director should not have to fight through a thicket of privilege
+
+to obtain materials created during the director’s tenure. The stockholder who appointed
+
+the director and who had access to that information should not have to fight through a
+
+thicket of privilege either. If a corporation wants to limit the sharing of information, there
+
+are recognized means available.
+
+       Most importantly, the joint client approach prevents lawyers from claiming the
+
+authority to tell directors what to do. The entity approach inverts the power structure by
+
+putting the directors in the subservient role as agents of the corporation, thus enabling
+
+lawyers to assert the dominant role as the representative of the organization. This case
+
+provides a clear example. When Weiss disagreed about the proper way to proceed,
+
+Company’s counsel gave Weiss the following instruction:
+
+       I’m now directing you, as company counsel, not to reach out to investment
+       bankers for the purposes that you describe below because, in my opinion,
+       your proposed actions may or would violate the exclusivity terms of the
+       letter of intent, and could result in a breach which could subject the
+       company, the board and you to liability.
+
+
+
+
+                                             50
+Dkt. 75 Ex. Q at ’597. Company counsel later reiterated this directive, stating: “Please
+
+allow this email to serve as clear instructions to you that you may not reach out to
+
+bankers.” Id. at ’594.
+
+       Lawyers can and should give advice. Lawyers can and should tell directors if they
+
+believe a course of action could result in a breach of fiduciary duty. And lawyers can and
+
+should explain the potential consequences to the Company. But lawyers should not be
+
+giving orders to directors. If a director determines that fiduciary principles mandate a
+
+particular course of action, then the director has a duty to act.
+
+       If the Delaware courts had never addressed how the attorney-client privilege
+
+applied to a director, then there could be reasons to follow the entity rule. Delaware,
+
+however, has adopted the joint client rule, and there are good reasons for it. This decision
+
+adheres to the joint client regime.
+
+C.     The Quasi-Laches Argument
+
+       The Company’s last argument is that the Funds waived their right to obtain
+
+privileged communications because they waited too long to assert it. The Company
+
+points out that Weiss and the Funds did not immediately challenge the Company’s
+
+assertion of privilege after the Company produced a redacted set of minutes for a meeting
+
+of the Board that Weiss attended on November 8, 2021. Invoking a laches-like concept,
+
+the Company argues that the Funds cannot challenge its privilege assertions now.
+
+       Obtaining information in discovery is not like filing a cause of action. Accepting
+
+for purposes of analysis that a substantial delay in mounting a challenge could warrant
+
+
+
+                                              51
+denying a discovery motion in an appropriate case, this is not it. Having properly filed an
+
+appraisal proceeding, the Funds may seek discovery to pursue their claim.
+
+       Under Rule 26(c), a court may issue “any order which justice requires to protect a
+
+party or person from annoyance, embarrassment, oppression, or undue burden or
+
+expense.” The Company has not relied on Rule 26(c). The Company seeks to create a
+
+new rule in which a party must mount a challenge to a position taken in discovery when
+
+the opponent first asserts it, or the party forever loses the opportunity. That is not how
+
+discovery works. This court is busy enough that it does not need to create incentives for
+
+hair-trigger challenges to discovery positions.
+
+       Nothing about the progression of this case suggests that the Funds waived their
+
+right to challenge the Company’s assertion of privilege. Discovery remains ongoing. The
+
+Funds filed a timely motion to compel.
+
+       The Company argues that it has been prejudiced by the manner in which the Funds
+
+proceeded because the Company “has conducted its document review, served third party
+
+subpoenas, interviewed witness [sic], made decisions about counterclaims or third party
+
+claims and performed other litigation planning all based on the existence of a privilege.”
+
+Dkt. 57 ¶ 31. The Company made a tactical decision to assert privilege in a manner that
+
+runs contrary to the joint client approach that Delaware courts have followed for nearly
+
+forty years. The consequences of that choice do not constitute the kind of prejudice that
+
+could support a waiver.
+
+
+
+
+                                            52
+D.     The Company’s Cross-Motion For A Destruction Order
+
+       The Company has asked the court to order the Funds to destroy any privileged
+
+material they received from Weiss. For the reasons already discussed, the material was
+
+not privileged as to Weiss. He was within the circle of confidentiality as a joint client. He
+
+was free to share the information he received with the Funds, and there was an
+
+expectation that he would do so. If the Company had wanted to establish a different
+
+framework, then it was incumbent on the Company to (i) enter into a confidentiality
+
+agreement with Weiss and the Funds making clear that Weiss could not pass along
+
+certain types of information, (ii) form a committee, or (iii) put Weiss on notice as to an
+
+issue where the Company believed his interests were adverse. The Company did none of
+
+those things. Its cross-motion for a destruction order is therefore denied.
+
+                                  III.   CONCLUSION
+
+       The Funds’ motion to compel is granted. The Company cannot invoke the
+
+attorney-client privilege to withhold materials created between November 14, 2019, and
+
+December 8, 2021, except that the Company can assert the attorney-client privilege
+
+regarding communications relating to Weiss’s books-and-records request after he sent it
+
+on December 7. The Company’s request for a destruction order is denied.
+
+
+
+
+                                             53
+

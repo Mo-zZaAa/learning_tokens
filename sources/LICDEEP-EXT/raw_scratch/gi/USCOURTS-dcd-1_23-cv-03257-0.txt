@@ -1,0 +1,1450 @@
+        Case 1:23-cv-03257-JMC                Document 51            Filed 09/12/24         Page 1 of 27
+
+
+
+
+                                 UNITED STATES DISTRICT COURT
+                                 FOR THE DISTRICT OF COLUMBIA
+
+
+    KALSHIEX LLC,
+
+          Plaintiff,                                          Civil Action No. 23-3257 (JMC)
+
+          v.
+
+    COMMODITY FUTURES TRADING
+    COMMISSION,
+
+          Defendant.
+
+                                        MEMORANDUM OPINION
+
+         This lawsuit concerns the interpretation of the Commodity Exchange Act (CEA)’s special
+
+rule for the review of event contracts, a type of derivative contract whose payoff is based on the
+
+outcome of a contingent event. The special rule authorizes the Commodity Futures Trading
+
+Commission (CFTC) to review, and prohibit, event contracts that it determines are contrary to the
+
+public interest if, and only if, they involve specific activities, including “activity that is unlawful
+
+under any Federal or State law” and “gaming.” 7 U.S.C. §§ 7a-2(c)(5)(C)(i)(I),(V). 1 Plaintiff
+
+KalshiEX LLC (Kalshi), a financial services company, tried to offer event contracts that would
+
+allow participants to take positions and trade on the outcome of United States congressional
+
+elections. The CFTC issued an order prohibiting Kalshi from offering the contracts after it
+
+determined that such contracts involve unlawful activity and gaming, and are contrary to the public
+
+interest. Kalshi filed this suit challenging the CFTC’s decision as arbitrary, capricious, and
+
+otherwise not in accordance with the law under the Administrative Procedure Act (APA).
+
+
+1
+  Unless otherwise indicated, the formatting of citations has been modified throughout this opinion, for example, by
+omitting internal quotation marks, emphases, and alterations and by altering capitalization. All pincites to documents
+filed on the docket in this case are to the automatically generated ECF Page ID number that appears at the top of each
+page.
+
+                                                          1
+         Case 1:23-cv-03257-JMC               Document 51           Filed 09/12/24         Page 2 of 27
+
+
+
+
+         The CFTC’s order exceeded its statutory authority. Kalshi’s contracts do not involve
+
+unlawful activity or gaming. They involve elections, which are neither.
+
+         Although the Court acknowledges the CFTC’s concern that allowing the public to trade on
+
+the outcome of elections threatens the public interest, this Court has no occasion to consider that
+
+argument. This case is not about whether the Court likes Kalshi’s product or thinks trading it is a
+
+good idea. The Court’s only task is to determine what Congress did, not what it could do or should
+
+do. And Congress did not authorize the CFTC to conduct the public interest review it conducted
+
+here.
+
+         Accordingly, the Court GRANTS Plaintiff’s motion for summary judgment, ECF 17, and
+
+DENIES Defendant’s cross-motion for summary judgment, ECF 30.
+
+    I.       BACKGROUND
+
+    A. Event Contracts
+
+         The CFTC is an independent federal agency that regulates financial derivative markets. A
+
+derivative is a financial instrument or contract whose price is “directly dependent upon (i.e.[,]
+
+derived from)” the value of one or more underlying assets—for example, commodities (like corn
+
+and wheat), securities, or debt instruments. See Futures Glossary: A Guide to the Language of the
+
+Futures Industry, CFTC, https://perma.cc/63HY-DD7E. Derivatives take many forms, including
+
+“futures, options, and swaps.” Id. 2 These instruments “provide a way to transfer market risk or
+
+
+
+
+2
+  These terms refer to various agreements or contracts. A “future” is “an agreement to purchase or sell a commodity
+for delivery in the future.” Futures Glossary: A Guide to the Language of the Futures Industry, CFTC,
+https://perma.cc/63HY-DD7E. “Option” refers to a “contract that gives the buyer the right, but not the obligation, to
+buy or sell a specified quantity of a commodity or other instrument at a specific price within a specified period of
+time, regardless of the market price of that instrument.” Id. The CFTC acknowledges that the definition of “swap” is
+“detailed and comprehensive,” id., but broadly it is “a type of derivative involving the exchange of cash flows from
+financial instruments.” Inv. Co. Inst. v. Commodity Futures Trading Comm’n, 720 F.3d 370, 373 (D.C. Cir. 2013).
+
+
+                                                         2
+       Case 1:23-cv-03257-JMC           Document 51         Filed 09/12/24    Page 3 of 27
+
+
+
+
+credit risk between two counterparties.” Inv. Co. Inst. v. U.S. Commodity Futures Trading
+
+Comm’n, 891 F. Supp. 2d 162, 168 n.3 (D.D.C. 2012) (citations omitted).
+
+        This case concerns a specific derivative called an “event contract.” An event contract is a
+
+derivative contract “whose payoff is based on a specified event, occurrence, or value.”
+
+Contracts & Products: Event Contracts, CFTC, https://perma.cc/CG2B-3YWY. For example, an
+
+event contract might involve the occurrence of a weather event (e.g., snowfall or hurricanes). See
+
+id.; ECF 38-2 at 23 (Comment Letter from John A. Phillips to U.S. Commodity Futures Trading
+
+Comm’n 3 (Sept. 23, 2022) [hereinafter Phillips Comment]). These contracts usually pose a yes-
+
+or-no question. The buyer of the event contract, for example, may take a “yes” position on whether
+
+the underlying event will happen, see ECF 38-1 at 35 (KalshiEX LLC, Commission Regulation
+
+40.2(a) Notification (June 12, 2023) [hereinafter Kalshi Notification])—such as whether the level
+
+of snowfall in a certain region will exceed a specific amount in a given timeframe. The seller
+
+implicitly takes the opposite, or “no,” position. See id.
+
+        Event contract prices are based upon the current probability that an event will occur and
+
+thus, like stock prices, fluctuate. Id. at 34–35; ECF 38-2 at 27 (Phillips Comment). The contract
+
+specifies the value to be paid on the contract. See ECF 38-1 at 34–35 (Kalshi Notification). Event
+
+contracts expire at a cutoff date and can be purchased and sold at any time before that date. Id. at
+
+40. They are binary. When the contract expires, the seller must pay the buyer if the underlying
+
+event on which the buyer took a “yes” position occurs, but the buyer gets paid nothing if it does
+
+not. Id. at 35.
+
+        Like derivatives generally, event contracts can be used to mitigate risk. Kalshi provides an
+
+illustrative example in its brief concerning a beachfront property owner who might purchase an
+
+event contract predicting that a hurricane will reach landfall in the area. ECF 17-1 at 15. If the
+
+
+
+                                                  3
+        Case 1:23-cv-03257-JMC                  Document 51           Filed 09/12/24          Page 4 of 27
+
+
+
+
+hurricane hits as the owner predicted, the payout from the contract could offset the owner’s loss
+
+of rental income incurred because of the storm. Id. But, like other investments, some buyers trade
+
+event contracts simply to seek some financial return.
+
+    B. The CEA’s Special Rule for the Review of Event Contracts
+
+         The CEA, 7 U.S.C. § 1 et seq., provides a “comprehensive regulatory structure” for the
+
+trading of commodities and futures. Merrill Lynch, Pierce, Fenner & Smith v. Curran, 456 U.S.
+
+353, 355–356 (1982). The CFTC is responsible for administering and enforcing the CEA, and the
+
+statute vests it with exclusive jurisdiction to regulate various types of commodities and futures on
+
+regulated exchanges, as well as to establish implementing regulations. See 7 U.S.C. § 2(a)(1)(A);
+
+17 C.F.R. § 1 et seq. Event contracts are subject to regulation under the CEA as “excluded
+
+commodities”, 3 and thus by the CFTC. 7 U.S.C. § 7a-2(c)(5)(C)(i). Pursuant to the statute, an
+
+entity seeking to offer event contracts must seek and receive CFTC designation as a regulated
+
+exchange (a designated contract market or “DCM”) before listing and publicly trading its
+
+contracts. 7 U.S.C. §§ 2(e), 7(a); 17 C.F.R. § 38.100.
+
+         The statute’s requirements for listing event contracts on CFTC-approved and -regulated
+
+exchanges have changed over time. From 1974 to 2000, the CEA required DCMs to demonstrate
+
+to the CFTC that their contracts satisfied an “economic purpose test” and were not contrary to the
+
+public interest before they could trade their contracts. See Pub. L. No. 93-463, § 207, 88 Stat. 1389,
+
+1400 (1974) (codified at 7 U.S.C. § 7(7) (1994)); Contract Market Designations, 40 Fed. Reg.
+
+25849, 25850 (June 19, 1975). In other words, the statute required the CFTC to preapprove new
+
+event contracts before DCMs could offer them. In 2000, however, Congress amended the CEA to
+
+
+3
+ Relevant here, the CEA’s definition of an “excluded commodity” subject to the statute’s requirements includes “an
+occurrence, extent of an occurrence, or contingency” that is “beyond the control of the parties to the relevant contract,
+agreement, or transaction” and “associated with a financial, commercial, or economic consequence.” 7 U.S.C.
+§ 1a(19)(iv).
+
+                                                           4
+       Case 1:23-cv-03257-JMC            Document 51        Filed 09/12/24      Page 5 of 27
+
+
+
+
+remove the default rule that all event contracts be subject to a “public interest” review and instead
+
+to allow DCMs to self-certify that their proposed contracts complied with the statute and the
+
+CFTC’s regulations, with no prior review required for many types of event contracts. See 7 U.S.C.
+
+§ 7a-2(c)(1) (2006). Finally, in 2010, Congress further amended the CEA by enacting a “[s]pecial
+
+rule” for the review and approval of event contracts. 7 U.S.C. § 7a-2(c)(5)(C). The special rule,
+
+which remains in effect, is at issue in this case.
+
+        The special rule authorizes the CFTC to review certain event contracts to determine
+
+whether (or not) they can be traded. Under the CEA, as currently amended, DCMs can still self-
+
+certify that their contracts comply with the statute and applicable regulations, and can begin
+
+publicly trading those contracts within one business day of their certification. 7 U.S.C. § 7a-
+
+2(c)(1); 17 C.F.R. § 40.2. Or, DCMs can voluntarily request that the CFTC preapprove their
+
+contracts to confirm that they do not violate the CEA or the CFTC’s regulations. 7 U.S.C. § 7a-
+
+2(c)(4)–(5); 17 C.F.R. § 40.3. But under the special rule, the CFTC is empowered to review, and
+
+prohibit, specific types of event contracts if it determines that those contracts are “contrary to the
+
+public interest.” 7 U.S.C. § 7a-2(c)(5)(C)(i). Specifically, the special rule provides:
+
+        In connection with the listing of agreements, contracts, transactions, or swaps in excluded
+        commodities that are based upon the occurrence, extent of an occurrence, or
+        contingency . . . by a designated contract market or swap execution facility, the
+        Commission may determine that such agreements, contracts, or transactions are contrary
+        to the public interest if the agreements, contracts, or transactions involve—
+                (I)     activity that is unlawful under any Federal or State law;
+                (II)    terrorism;
+                (III) assassination;
+                (IV) war;
+                (V)     gaming; or
+                (VI) other similar activity determined by the Commission, by rule or regulation,
+                        to be contrary to the public interest.
+Id.
+        As is apparent from the statute’s text, the special rule applies only to those agreements,
+
+contracts, or transactions that involve the activities specifically enumerated in the statute. In other
+
+                                                     5
+        Case 1:23-cv-03257-JMC                 Document 51           Filed 09/12/24          Page 6 of 27
+
+
+
+
+words, the CFTC may determine that an agreement, contract, or transaction is contrary to the public
+
+interest only if it involves unlawful activity, terrorism, assassination, war, or gaming. 4 If the CFTC
+
+makes such a determination, the agreement, contract, or transaction cannot “be listed or made
+
+available for clearing or trading on or through a registered entity.” Id. §§ 7a-2(c)(5)(C)(i)–(ii). On
+
+the other hand, if the agreement, contract, or transaction does not involve one of the enumerated
+
+topics, the special rule is not implicated, the CFTC has no occasion to make any public interest
+
+determination, and the contract should be listed for trading. Id. §§ 7a-2(c)(5)(C)(i), (c)(5)(B) (“The
+
+Commission shall approve a new contract or other instrument unless the Commission finds that
+
+the new contract or other instrument would violate this chapter (including regulations).”).
+
+         The CFTC’s implementing regulations set forth its process for reviewing event contracts
+
+under the special rule. 17 C.F.R. § 40.11. Pursuant to its regulations, the CFTC “may determine,
+
+based upon the review of the terms or conditions of a submission . . . that an agreement, contract,
+
+transaction, or swap based on an excluded commodity . . ., which may involve, relate to, or
+
+reference an [‘enumerated’ ‘activity’], be subject to a 90-day review.” Id. § 40.11(c). During the
+
+90-day review period, the CFTC “shall request that a registered entity suspend the listing or
+
+trading” of the “agreement, contract, transaction, or swap.” Id. § 40.11(c)(1). By the conclusion of
+
+its review period, the CFTC must issue an order either approving or disapproving of the contract.
+
+Id. § 40.11(c)(2).
+
+
+
+4
+  The Court recognizes that the special rule applies to “other” unspecified activities “similar” to those enumerated. 7
+U.S.C. § 7a-2(c)(5)(C)(i)(VI). But the CFTC can only designate such activities through formal rulemaking or
+regulation. Id. The CFTC has not exercised its authority to develop and issue any rule or regulation prohibiting event
+contracts involving any other similar activity. See ECF 38-1 at 150 n.16 (Dissenting Statement of Commissioner
+Caroline D. Pham Regarding the Review and Stay of KalshiEX LLC’s Political Event Contracts (quoting 76 Fed. Reg.
+at 44786)) (“The Commission may, at some future time, adopt regulations that prohibit products that are based upon
+activities ‘similar to’ the enumerated activities. It has determined not to propose such regulations at this time.”).
+Accordingly, the Court focuses on the statute’s enumerated categories in discussing and interpreting the special rule
+and has no occasion to consider whether the contracts at issue involve activities that are similar to those enumerated
+in the CEA.
+
+                                                          6
+       Case 1:23-cv-03257-JMC           Document 51        Filed 09/12/24      Page 7 of 27
+
+
+
+
+   C. The CFTC’s Order Prohibiting Kalshi’s Congressional Control Contracts
+
+       In 2020, the CFTC authorized Kalshi, a financial services company, to list event contracts
+
+for public trading as a DCM. ECF 38-1 at 209 (Comment Letter from Christopher Greenwood to
+
+U.S. Commodity Futures Trading Comm’n (Sept. 25, 2022)). The contracts Kalshi has offered on
+
+its exchange have involved a broad range of events—from the number of major hurricanes that
+
+will form over the Atlantic during a given year, to whether China’s GDP growth will exceed a
+
+certain rate, and even whether a particular nominee will win in their category at the Oscars. See
+
+id.; ECF 38-2 at 23 (Comment Letter from Aristotle Intl., Inc. to U.S. Commodity Futures Trading
+
+Comm’n 3 (Sept. 23, 2022)). Kalshi has also offered event contracts concerning political events,
+
+such as whether the federal government will shut down or if certain nominees will be confirmed
+
+by the U.S. Senate. ECF 17-1 at 19 (citing Events, Kalshi, https://perma.cc/3PCC-TLE9).
+
+       The dispute between the Parties concerns a specific product that Kalshi attempted to offer
+
+that it refers to as “[c]ongressional [c]ontrol [c]ontracts.” ECF 17-1 at 11. Kalshi’s congressional
+
+control contracts allow buyers to predict which political party will control the U.S. House of
+
+Representatives or Senate on a specific, future date. ECF 38-1 at 33–39 (Kalshi Notification). The
+
+congressional control contracts are “yes”/“no” event contracts that pose the question: “Will
+
+<chamber of Congress> be controlled by <party> for <term>?” Id. at 34–35. The contracts expire
+
+on February 1 of the year that the relevant term begins, id. at 40, and the payout is determined by
+
+the party affiliation of the leader of a specific chamber of Congress (i.e., the Speaker of the House
+
+for the House of Representatives or the President Pro Tempore for the Senate), id. at 39. Upon the
+
+contracts’ expiration, buyers who correctly predicted the electoral outcome will receive one dollar
+
+per contract purchased, but purchasers who made an erroneous prediction about congressional
+
+
+
+                                                 7
+        Case 1:23-cv-03257-JMC               Document 51          Filed 09/12/24         Page 8 of 27
+
+
+
+
+control receive nothing in return for their investment. Id. at 34–35. To avoid potential conflicts of
+
+interest, Kalshi’s congressional control contracts identify categories of prohibited traders to
+
+include candidates for any federal or statewide public office and paid employees with various
+
+political affiliations, including members of Congress, campaign staffers on congressional
+
+campaigns, employees of Democratic and Republican Party organizations and political action
+
+committees, and employees of major polling organizations, as well as the immediate family
+
+members of any prohibited traders, among other categories. Id. at 40–41.
+
+        On June 12, 2023, Kalshi filed a self-certification to trade its congressional control
+
+contracts, pursuant to 7 U.S.C. § 7a-2(c)(1). See ECF 38-1 at 33 (Kalshi Notification). But on June
+
+23, 2023, the CFTC sent a letter to Kalshi representing that it had exercised its authority to initiate
+
+a 90-day review of Kalshi’s self-certified submission because it determined that the contracts “may
+
+involve, relate to, or reference an activity enumerated” in the CEA and applicable regulations. ECF
+
+38-1 at 152 (Letter from Christopher J. Kirkpatrick, Secretary, U.S. Commodity Futures Trading
+
+Comm’n, to Xavier Sottile, Head of Markets, KalshiEX LLC). Consistent with 17 C.F.R.
+
+§ 40.11(c)(1), the CFTC requested that Kalshi suspend any listing and trading of its congressional
+
+control contracts during the review period. ECF 38-1 at 152. The CFTC’s letter also informed
+
+Kalshi that it decided to open a 30-day public comment period to assist it with its evaluation. Id.;
+
+see also id. at 153–56 (Press Release, U.S. Commodity Futures Trading Comm’n, CFTC
+
+Announces Review of Kalshi Congressional Control Contracts and Public Comment Period (June
+
+23, 2023); CFTC, Questions on the KalshiEX LLC “Will <chamber of Congress> be controlled
+
+by <party> for <term>?” Contracts for Public Comment). 5 The CFTC’s decision to commence a
+
+
+5
+  The administrative record reflects that the CFTC received many comments from various sectors. See, e.g., ECF 38-
+1 at 157–236; ECF 38-2 at 8–234; ECF 38-3 at 8–109; ECF 38-4 at 8–132. Some commenters were in favor of the
+CFTC prohibiting Kalshi’s congressional control contracts, and others urged the CFTC to approve the contracts for
+trading. See generally id.
+
+                                                        8
+       Case 1:23-cv-03257-JMC           Document 51        Filed 09/12/24      Page 9 of 27
+
+
+
+
+review of Kalshi’s congressional control contracts was not unanimous. Two of the five
+
+commissioners dissented because they did not agree that Kalshi’s congressional control contracts
+
+involved any of the special rule’s enumerated activities. See ECF 17-1 at 20 (citing Mersinger
+
+Dissenting Statement, CFTC.gov (June 23, 2023), https://perma.cc/XG2U-FNRZ; Pham Dissent-
+
+ing Statement, CFTC.gov (June 23, 2023), https://perma.cc/V9VB-Z24S); see also ECF 38-1 at
+
+146-151 (Dissenting Statement of Comm’r Caroline D. Pham (Aug. 26, 2022)).
+
+       On September 22, 2023, at the conclusion of the review period, the CFTC issued an order
+
+prohibiting Kalshi from listing its congressional control contracts for trading pursuant to the
+
+special rule, ECF 38-1 at 8–30 (Commodity Futures Trading Comm’n, Order (June 12, 2023)
+
+[hereinafter CFTC Order]), with one commissioner dissenting and one abstaining from the
+
+decision. ECF 17-1 at 21 (citing Mersinger Dissenting Statement, CFTC.gov (Sept. 22, 2023),
+
+https://perma.cc/2G23-5XNF; Pham Abstention Statement, CFTC.gov (Sept. 22, 2023),
+
+https://perma.cc/7D8G-C3ET). In its order the CFTC determined that Kalshi’s congressional
+
+control contracts involve two activities enumerated in the special rule—gaming and unlawful
+
+activity. See, e.g., ECF 38-1 at 17, 19 (CFTC Order).
+
+       To reach its conclusion, the CFTC first considered what it means for a contract to “involve”
+
+an enumerated activity under the special rule. 7 U.S.C. § 7a-2(c)(5)(C)(i); ECF 38-1 at 12–14
+
+(CFTC Order). Acknowledging that the CEA does not define the word “involve,” the CFTC looked
+
+to its plain meaning derived from cited dictionaries that define “involve” to mean “to relate to or
+
+affect,” “to relate closely,” to “entail,” or to “have as an essential feature or consequence.” Id. at
+
+12 (citations omitted). Applying these definitions of “involve,” the CFTC rejected Kalshi’s
+
+position that a contract “involve[s]” an enumerated activity “only if that activity is the contract’s
+
+underlying.” Id. at 13. The CFTC reasoned that the definition of the word “involve” in the statute
+
+
+
+                                                  9
+       Case 1:23-cv-03257-JMC                Document 51           Filed 09/12/24         Page 10 of 27
+
+
+
+
+is broad enough to “capture both contracts whose underlying is one of the enumerated activities,
+
+and contracts with a different connection to one of the enumerated activities because, for example,
+
+they ‘relate closely to,’ ‘entail,’ or ‘have as an essential feature or consequence’ one of the
+
+enumerated activities.” Id. at 14. The CFTC also reasoned that “the legislative history of [the
+
+statute] … indicates that the question for the Commission in determining whether a contract
+
+‘involves’ one of the activities enumerated in [the special rule] is whether the contract, considered
+
+as a whole, involves one of those activities.” Id. The CFTC reasoned that considering the contract
+
+“as a whole,” id., a contract could “involve” one of the special rule’s enumerated activities “if
+
+trading in the contract amounts to the enumerated activity,” id. at n.19.
+
+        After construing the word “involve,” the CFTC then provided the bases for its
+
+determination that Kalshi’s congressional control contracts involve “gaming.” Id. at 15–17. Again,
+
+because the CEA does not define “gaming,” the CFTC looked to the ordinary meaning of the term
+
+according to dictionaries and statutory definitions (specifically, in state statutes). Id. at 15–16. The
+
+CFTC reasoned as follows to conclude that the term “gaming” in the special rule “includes betting
+
+or wagering on elections”: First, the order cited to various dictionary definitions of the word
+
+gaming that include, or cross-reference, “gambling” as part of its definition. Id at 15 & n.21. Then,
+
+the CFTC found that under “most state laws, ‘gambling’ involves a person staking something of
+
+value upon the outcome of a game, contest, or contingent event,” citing numerous state penal
+
+statutes. Id at 15 & n.22. 6 The CFTC then cited the federal Unlawful Internet Gambling
+
+
+6
+  For example, the state statutes the CFTC cited include: KY. REV. STAT. ANN. § 528.010(6)(a) (“‘Gambling’ means
+staking or risking something of value upon the outcome of a contest, game, gaming scheme, or gaming device which
+is based upon an element of chance, in accord with an agreement or understanding that someone will receive something
+of value in the event of a certain outcome”); MICH. COMP. LAWS § 750.301 (“Any person or his or her agent or
+employee who, directly or indirectly, takes, receives, or accepts from any person any money or valuable thing with
+the agreement, understanding or allegation that any money or valuable thing will be paid or delivered to any person
+where the payment or delivery is alleged to be or will be contingent upon the result of any race, contest, or game or
+upon the happening of any event not known by the parties to be certain . . . .”); and N.Y. PENAL LAW § 225.00(2) (“A
+person engages in gambling when he stakes or risks something of value upon the outcome of a contest of chance or a
+
+                                                        10
+       Case 1:23-cv-03257-JMC                 Document 51           Filed 09/12/24         Page 11 of 27
+
+
+
+
+Enforcement Act (UIGEA), 31 U.S.C. § 5361 et seq., which defines the term “bet or wager” as
+
+“the staking or risking by any person of something of value upon the outcome of a contest of
+
+others, a sporting event, or a game subject to chance, upon an agreement or understanding that the
+
+person or another person will receive something of value in the event of a certain outcome.”
+
+ECF 38-1 at 16 (CFTC Order (citing 31 U.S.C. § 5362(1)(A)). Based upon the UIGEA’s definition
+
+of “bet or wager,” the CFTC determined that to “bet or wager on elections is to stake something
+
+of value upon the outcome of contests of others, namely, contests between electoral candidates.”
+
+ECF 38-1 at 16 (CFTC Order). The order then recognized that “several state statutes . . . link the
+
+terms ‘gaming’ or ‘gambling’ to betting or wagering on elections.” Id. 7 Accordingly, the CFTC
+
+found that Kalshi’s congressional control contracts involve “gaming,” and are thus subject to the
+
+special rule, because “taking a position in the [c]ongressional [c]ontrol [c]ontracts would be
+
+staking something of value upon the outcome of a contest of others,” namely “the outcome of
+
+Congressional election contests.” Id. at 17.
+
+         The CFTC also set forth the reason it determined that Kalshi’s congressional control
+
+contracts involved unlawful activity under § 7a-2(c)(5)(C)(i)(I). It recognized that many states
+
+criminalize betting or wagering on elections. ECF 38-1 at 18 (CFTC Order). 8 Accordingly, the
+
+
+
+future contingent event not under his control or influence, upon an agreement or understanding that he will receive
+something of value in the event of a certain outcome”). See ECF 38-1 at 15 n.22 (CFTC Order).
+7
+  For example, the state statutes the CFTC cited include: 720 ILL. COMP. STAT. ANN. 5/28-1(a)(2) (“A person commits
+gambling when he . . . makes a wager upon the result of any game, contest, or any political nomination, appointment
+or election”); NEB. REV. STAT. § 28-1101(4) (“A person engages in gambling if he or she bets something of value
+upon the outcome of a future event, which outcome is determined by an element of chance, or upon the outcome of a
+game, contest, or election”); and N.D. CENT. CODE. ANN. § 12.1-28-01 (“‘Gambling’ means risking any
+money . . . upon lot, chance, the operation of gambling apparatus, or the happening or outcome of an event, including
+an election or sporting event, over which the person taking the risk has no control”). See ECF 38-1 at 16 n.24 (CFTC
+Order).
+8
+  For example, the state statutes the CFTC cited include: ARIZ. REV. STAT. ANN. § 16-1015 (“A person who, before
+or during an election provided by law, knowingly makes, offers or accepts a bet or wager, or takes a share or interest
+in, or in any manner becomes a party to the bet or wager, or provides or agrees to provide money to be used by another
+in making the bet or wager, upon any contingency whatever arising out of such election, is guilty of a class 2
+misdemeanor”); ARK. CODE ANN. § 7-1-103(20) (“No person shall make any bet or wager upon the result of any
+election in this state[.]”); and COLO. REV. STAT. ANN. § 31-10-1531 (“It is unlawful for any person, including any
+
+                                                         11
+       Case 1:23-cv-03257-JMC                 Document 51            Filed 09/12/24          Page 12 of 27
+
+
+
+
+CFTC determined that the congressional control contracts, which allow buyers to purchase and
+
+potentially receive a payout based on the results of congressional elections, amounted to activity
+
+that is illegal in many states. Id. at 19–20.
+
+         Finally, the CFTC found that Kalshi’s congressional control contracts were contrary to the
+
+public interest. It reasoned that the control of a chamber of Congress does not have “sufficiently
+
+direct, predictable, or quantifiable economic consequences” for Kalshi’s contracts to serve an
+
+effective hedging or risk mitigating function. Id. at 22. The order also identified the impact that
+
+such contracts could have on the integrity of elections and the perception of integrity, including,
+
+for example, by creating monetary incentives to vote for candidates or incentivizing the spread of
+
+misinformation by those trying to influence perceptions of a party or candidate to maximize
+
+potential financial gain. Id. at 27. Finding that the contracts involved enumerated activities and
+
+were contrary to the public interest, the CFTC’s order prohibited Kalshi from listing and trading
+
+its contracts. Id. at 30.
+
+         Kalshi then brought this suit challenging the CFTC’s order as arbitrary, capricious,
+
+contrary to law, and in excess of the CFTC’s statutory authority under the Administrative
+
+Procedure Act. ECF 1 ¶¶ 86, 87 (citing 5 U.S.C. § 706(2)(A), (C)). Kalshi moved for summary
+
+judgment seeking vacatur of the order. ECF 17. The CFTC opposed Kalshi’s motion and cross-
+
+moved for summary judgment, requesting that the Court affirm its determination prohibiting
+
+Kalshi from listing and trading its congressional control contracts. ECF 30.
+
+
+
+
+candidate for public office, before or during any municipal election, to make any bet or wager with a qualified elector
+or take a share or interest in, or in any manner become a party to, any such bet or wager or provide or agree to provide
+any money to be used by another in making such bet or wager upon any event or contingency whatever arising out of
+such election.”). See ECF 38-1 at 18 n.26 (CFTC Order).
+
+                                                          12
+       Case 1:23-cv-03257-JMC                Document 51           Filed 09/12/24         Page 13 of 27
+
+
+
+
+    II.      LEGAL STANDARD
+
+          This Court reviews the CFTC’s order under the APA to determine whether it is “arbitrary,
+
+capricious, an abuse of discretion, not in accordance with law, or unsupported by substantial
+
+evidence.” Taylor v. USDA, 636 F.3d 608, 613 (D.C. Cir. 2011) (quoting Kleiman & Hochberg,
+
+Inc. v. USDA, 497 F.3d 681, 686 (D.C. Cir. 2007)); see 5 U.S.C. § 706(2)(A), (E). When a court
+
+reviews agency action under the APA, the summary judgment standard set forth in Rule 56 does
+
+not apply. Ardmore Consulting Grp., Inc. v. Contreras-Sweet, 118 F. Supp. 3d 388, 393
+
+(D.D.C. 2015). Instead, “the district judge sits as an appellate tribunal” and “the entire case on
+
+review is a question of law.” Am. Bioscience, Inc. v. Thompson, 269 F.3d 1077, 1083 (D.C.
+
+Cir. 2001). The court does not engage in fact finding and its review is “typically limited to the
+
+administrative record.” Kondapally v. U.S. Citizenship & Immigr. Servs., 557 F. Supp. 3d 10, 20
+
+(D.D.C. 2021).
+
+          At the time this case was originally briefed, the two-step analysis set forth in Chevron
+
+U.S.A., Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837 (1984), governed the Court’s
+
+review of the CFTC’s statutory interpretation. But in Loper Bright Enterprises v. Raimondo, the
+
+Supreme Court overruled Chevron and explained that the role of the reviewing court is “to
+
+independently interpret the statute and effectuate the will of Congress subject to constitutional
+
+limits.” 144 S. Ct. 2244, 2263 (2024). The Court therefore relies on “traditional tools of statutory
+
+construction” to resolve the Parties’ motions. Id. at 2268. 9
+
+
+
+
+9
+  In Loper Bright, the Supreme Court recognized that courts may seek aid from an agency’s “body of experience and
+informed judgment.” 144 S. Ct. at 2262 (quoting Skidmore v. Swift & Co., 323 U.S. 134, 140 (1944)). Because the
+CFTC did not argue that the Court should do so here, the Court neither considers nor addresses the scope of deference
+owed to the CFTC in the wake of Loper Bright.
+
+                                                        13
+      Case 1:23-cv-03257-JMC            Document 51        Filed 09/12/24      Page 14 of 27
+
+
+
+
+   III.      ANALYSIS
+
+          Relevant here, the special rule authorizes the CFTC to determine that an event contract is
+
+contrary to the public interest if it “involve[s]—activity that is unlawful under any Federal or State
+
+law” or “gaming.” 7 U.S.C. §§ 7a-2(c)(5)(C)(i)(I), (V). Below, the Court considers two disputes
+
+about the statute’s meaning. First, the Court resolves the Parties’ disagreement about the definition
+
+of “gaming,” ultimately finding that the word “gaming” in the statute carries its ordinary, plain
+
+meaning and involves playing a game. Second, the Court considers the function of the word
+
+“involve” in the statute and concludes that it broadly refers to the underlying subject of the event
+
+contract or transaction. Because Kalshi’s congressional control contracts involve elections (and
+
+politics, congressional control, and other related topics) and not illegal activities or gaming, the
+
+Court concludes that the special rule is not triggered, which makes it unnecessary for the Court to
+
+determine whether the CFTC was right that these event contracts are contrary to the public interest.
+
+   A. Gaming Requires a Game
+
+          To determine whether Kalshi’s congressional control contracts “involve” either “activity
+
+that is unlawful under any Federal or State law” or “gaming” under the CEA’s special rule,
+
+7 U.S.C. § 7a-2(c)(5)(C)(i), the Court first construes the meaning of the relevant, enumerated
+
+categories. The Court need not spend much time articulating a definition of the phrase “activity
+
+that is unlawful under any Federal or State law” because its definition is clear. The Parties disagree
+
+about what it means for an event contract to “involve” such an activity (which the Court addresses
+
+later), but both sides understand this phrase to encompass activity or conduct that is illegal, and no
+
+one presses the Court to attach a different meaning to this phrase beyond the obvious.
+
+          However, the Parties dispute the meaning of “gaming” as used in the CEA. Kalshi argues
+
+that the term “gaming” in the statute must be “defined by reference to ‘games.’” ECF 17-1 at 39.
+
+
+
+                                                  14
+      Case 1:23-cv-03257-JMC           Document 51        Filed 09/12/24    Page 15 of 27
+
+
+
+
+The CFTC advances a broader definition. Its order equates “gaming” with “gambling,” and
+
+observes that “gambling” is often defined as “staking something of value upon the outcome of a
+
+game, contest, or contingent event.” ECF 38-1 at 15 (CFTC Order). (Although it only advances a
+
+definition of gambling (or gaming) that includes betting on a contest in this litigation. ECF 30 at
+
+39.) After considering the text of the CEA, the statute’s structure and context, and the Parties’
+
+arguments, the Court must agree with Kalshi.
+
+       Start with the text. The CEA does not define “gaming.” See generally 7 U.S.C. § 1 et seq.
+
+“When a term goes undefined in a statute, [courts] give the term its ordinary meaning.” Taniguchi
+
+v. Kan Pac. Saipan, Ltd., 566 U.S. 560, 566 (2012). To discern that meaning, courts often begin
+
+with a survey of dictionaries. See id. at 569. Dictionaries define “gaming” as “the practice or
+
+activity of playing games for stakes” and “the practice or activity of playing games.” Gaming,
+
+Merriam-Webster.com, https://perma.cc/9JZW-SRS2; see also Gaming, Oxford English
+
+Dictionary, https://perma.cc/R99K-A2HD (defining gaming, in relevant part, as “[t]he action or
+
+practice of playing games . . . for stakes.”). The ordinary meaning of the term “gaming” is thus
+
+consistent with Kalshi’s position. The Court finds no reason to stray from the ordinary definitions
+
+of “gaming,” which are “the practice or activity of playing games” and “playing games for stakes.”
+
+Indeed, the statute’s broader context and its structure compel the Court to reject the CFTC’s more
+
+expansive definition and, therefore, the reasoning of its order.
+
+       First, the CFTC contends that “gaming” is synonymous with “gambling” and should be
+
+defined accordingly. ECF 30 at 39; ECF 38-1 at 15 (CFTC Order). The Court finds that definitions
+
+of “gambling” that are untethered to the act of playing a game are much too broad in the context
+
+of the CEA’s special rule. The Court acknowledges that some dictionary definitions of “gaming”
+
+cross-reference gambling, or otherwise define “gaming” to include “gambling.” The
+
+
+
+                                                 15
+       Case 1:23-cv-03257-JMC                 Document 51           Filed 09/12/24          Page 16 of 27
+
+
+
+
+Merriam-Webster dictionary, for example, (which, as observed above, defines “gaming” to include
+
+“the practice or activity of playing games”) includes such a cross-reference. Gaming,
+
+Merriam-Webster.com, https://perma.cc/9JZW-SRS2. But it defines “gambling” to include “the
+
+practice or activity of betting” without any limitation on what is being bet upon. Gambling,
+
+Merriam-Webster.com, https://perma.cc/3FRP-QNBU; see also Gaming, Black’s Law Dictionary
+
+(12th ed. 2024) (defining “gaming” as “gambling”); Gambling, Black’s Law Dictionary (12th
+
+ed. 2024) (defining “gambling” as “[t]he act of risking something of value, especially money, for
+
+a chance to win a prize.”). That definition is consistent with the order’s articulation that “gambling”
+
+under many state statutes means to “stak[e] something of value upon the outcome of a game,
+
+contest, or contingent event.” ECF 38-1 at 15 (CFTC Order), id. at n.22. 10 However, it quickly
+
+becomes clear that definition is unworkable in the context of this statute.
+
+         One glaring issue emerges given the CFTC’s view that the special rule is implicated if the
+
+act of trading an event contract “amounts” to an enumerated activity. ECF 38-1 at 14 n.19 (CFTC
+
+Order). The Court addresses, and rejects, that reading below, but it is difficult to understand how
+
+the CFTC settled on such an expansive definition of gaming (or gambling) given its position. If
+
+the Court agreed with the CFTC’s construction, all event contracts would be subject to review
+
+under the special rule because they all involve purchasing (and thus risking money on) some
+
+contingent event with the hope of receiving a payoff. See CFTC, Contracts & Products: Event
+
+Contracts, https://perma.cc/Q4LP-B6UY. Given that the CEA authorizes the CFTC to review
+
+
+10
+   In further support of its contention that gaming and gambling are interchangeable, the CFTC cites to a Supreme
+Court case in which the Court equated gaming with gambling. See Michigan v. Bay Mills Indian Cmty., 572 U.S. 782,
+792 (2014) (“The ‘gaming activit[y]’ is (once again) the gambling.”). But this Court does not find the CFTC’s
+argument persuasive, or helpful, in construing the meaning of “gaming” in the CEA. Bay Mills involved a question of
+tribal sovereign immunity under the Indian Gaming Regulatory Act, which required the Court to consider whether and
+where a tribe engaged in “gaming activities.” See 572 U.S. at 791–93. The “gaming activities” at issue involved the
+operation of casinos, and the quote the CFTC relies on describes “gaming activity” to include “gambling in the poker
+hall.” Id. at 792. Certainly gaming, as this Court has found it to mean in the CEA, can also be gambling. Playing poker
+is both “gaming” and “gambling.” But that does not mean all forms of gambling are gaming.
+
+                                                         16
+       Case 1:23-cv-03257-JMC                 Document 51            Filed 09/12/24          Page 17 of 27
+
+
+
+
+event contracts only if they involve specific, enumerated activities, any definition of “gaming” that
+
+could be read to subject all event contracts to the special rule just cannot be right. 11
+
+         Nor is the Court persuaded that the order’s discussion of a more limited definition of
+
+gambling (and thus gaming) as “stak[ing] something of value upon the outcome of contests of
+
+others” should displace the plain and ordinary meaning of gaming that the Court has recognized.
+
+ECF 38-1 at 16. (Unless the contest at issue is some sort of game, which many are). That is because
+
+the Court does not find that the CFTC’s sources for the definition it advances are particularly
+
+relevant. In considering the ordinary meaning of the word “gaming,” the CFTC bypassed
+
+dictionary definitions of that term, cited above, which equate “gaming” with “games,” in favor of
+
+more expansive definitions of gambling, which is not a term used in the statute. Similarly, it
+
+surveyed state statutes that prohibit gambling and cited some of those statutes’ broader definitions
+
+of the term, but did not look to state statutes that expressly use or define the word “gaming.”
+
+ECF 38-1 at 15–16 n.22 (CFTC Order). Notably, there are many state statutes that define “gaming”
+
+as tied to games, consistent with the definition of “gaming” Kalshi advances. See, e.g., Iowa Code
+
+§ 725.7(1)(a) (“illegal gaming” means “[p]articipat[ing] in a game for any sum”); Mass. Gen. Laws
+
+ch. 23K, § 2 (defining “gaming” as “dealing, operating, carrying on, conducting, maintaining or
+
+exposing any game for pay”); La. Stat. § 27:205 (defining legal “gaming operations” and “gaming
+
+
+
+
+11
+  The CFTC argues in its briefing that it did not adopt a definition of gaming that includes staking money on any
+contingent event. See ECF 30 at 38. But after observing that gaming and gambling are synonymous, the CFTC’s order
+goes on to recognize a definition of gambling that includes “staking something of value upon the outcome of a game,
+contest, or contingent event.” ECF 38-1 at 15 (CFTC Order). Yes, it ultimately reasoned that Kalshi’s congressional
+control contracts concerned gaming because gaming means gambling, and gambling involves wagering on a contest,
+but the order includes numerous citations to definitions of gambling that make reference to betting on contingencies
+generally. Id. at 15–16 n.2. If the CFTC did not agree that the definition of gambling included betting on contingent
+events, it is not clear to the Court why it referred to definitions of gambling that included such language (and equated
+“gaming” and “gambling”). The CFTC cannot have it both ways: it cannot synonymize gaming with gambling, but
+simultaneously argue that only some gambling is gaming.
+
+                                                          17
+        Case 1:23-cv-03257-JMC                 Document 51            Filed 09/12/24         Page 18 of 27
+
+
+
+
+activities” as “the offering or conducting of any game or gaming device in accordance with” state
+
+law).
+
+         And while the CFTC’s order also considered and pulled definitions from a federal statute,
+
+it did not look to the only one that the Court is aware actually uses the term “gaming”—the Indian
+
+Gaming Regulatory Act (IGRA), 25 U.S.C. § 2701. Although the IGRA does not expressly define
+
+gaming, it refers to various “gaming” classes that, by statute or regulation, each concern categories
+
+of games. 12 Instead, the federal statute discussed in the order is the Unlawful Internet Gambling
+
+Enforcement Act (UIGEA), 31 U.S.C. § 5361 et seq. (emphasis added), which also does not define
+
+or use the term “gaming.” That statute, instead, uses the terms “bet” and “wager” and defines those
+
+terms as “the staking or risking by any person of something of value upon the outcome of a contest
+
+of others, a sporting event, or a game subject to chance, upon an agreement or understanding that
+
+[someone] will receive something of value in the event of a certain outcome.” Id. § 5362(1)(A).
+
+The CFTC borrowed this definition and applied it to “gaming” in the special rule, but the Court
+
+cannot understand why it did that. See ECF 38-1 at 16 (CFTC Order). The CEA does not use the
+
+terms “bet” or “wager” anywhere. See generally 7 U.S.C. § 1 et seq. The Court can think of no
+
+canon of statutory interpretation that counsels toward looking to an unrelated statute that defines
+
+a different term in a different context to determine a statute’s meaning. 13 Accordingly, the Court
+
+
+
+12
+   IGRA sets forth three classes of gaming activity: “class I gaming” means social games; “class II gaming” means
+“the game of chance commonly known as bingo” and certain card games; and “class III gaming” is an undefined
+catch-all “class III gaming” category. 25 U.S.C. § 2703(6)-(8). Regulations define class III by reference to “[c]ard
+games such as baccarat, chemin de fer, blackjack (21), and pai gow;” “[c]asino games such as roulette, craps, and
+keno;” “slot machines” and other “game[s] of chance;” “sports betting,” including “wagering on horse racing, dog
+racing or jai alai;” and “[l]otteries.” 25 C.F.R. § 502.4.
+13
+   Even if the Court were to apply the UIGEA’s definition of “bet” or “wager” to “gaming” under the special rule, it
+would have difficulty finding that an election is a “contest” under that statute. “The traditional canon of construction,
+noscitur a sociis, dictates that words grouped in a list should be given related meaning.” Dole v. United Steelworkers
+of Am., 494 U.S. 26, 36 (1990). The Court can accept the CFTC’s argument that elections are sometimes referred to
+colloquially as “contests,” but elections bear little relation to “sporting events” or “games of chance,” which appear
+alongside the term “contest” in the UIGEA’s definition of “bet” and “wager.” 31 U.S.C. § 5362(1)(A). The Court is
+persuaded by Kalshi’s argument that, considering the other terms in the definition, “contest” must refer to a similar
+
+                                                          18
+       Case 1:23-cv-03257-JMC                 Document 51           Filed 09/12/24         Page 19 of 27
+
+
+
+
+does not agree that “gaming” under the CEA includes wagering on contests that do not involve or
+
+closely relate to a game of some sort. 14
+
+         In sum, the Court finds that “gaming,” as used in the special rule, refers to playing games
+
+or playing games for stakes. The Court next considers the special rule’s use of the word “involve.”
+
+    B. “Involve” Interacts with the Instrument’s Underlying Event
+
+         The special rule authorizes the CFTC to review, and potentially prohibit, event contracts
+
+that “involve” one or more of the enumerated categories. 7 U.S.C. § 7a-2(c)(5)(C)(i). The Parties
+
+disagree about what this provision means. Kalshi argues that, under the special rule, an event
+
+contract “involves” an enumerated activity where the underlying event constitutes or relates to that
+
+activity. See, e.g., ECF 17-1 at 25. In its order, however, the CFTC determined that an event
+
+contract “involves” an enumerated activity, not only if the contract’s “underlying is one of the
+
+enumerated activities,” but if the contract has a “different connection to one of the activities,”
+
+ECF 38-1 at 14 (CFTC Order), including “if trading in the contract amounts to the enumerated
+
+activity,” id. at n.19. After carefully scrutinizing the statute and considering the Parties’ arguments,
+
+the Court again agrees with Kalshi and finds that its event-focused reading of the word “involve”
+
+is the only interpretation that makes sense in the context of this provision.
+
+         As always, the Court begins its analysis with the statute’s text. See, e.g., BP Am. Prod. Co.
+
+v. Burton, 549 U.S. 84, 91 (2006). And because “involve” is left undefined by the CEA, the Court
+
+first considers the ordinary meaning of that word. See, e.g., id. As a preliminary matter, the Court
+
+observes that there is not much daylight between the Parties about what “involve” means in
+
+
+
+
+event for entertainment that might not be characterized as a sporting event or a game of chance—a pageant might fit.
+See ECF 17-1 at 40.
+14
+   Although not dispositive, the Court observes that the CFTC has not subjected Kalshi’s event contracts about whether
+certain nominees will win an Oscar to review under the special rule, ECF 41-1 at 7, even though, at least as the Court
+sees it, the Academy Awards are a contest.
+
+                                                         19
+      Case 1:23-cv-03257-JMC           Document 51         Filed 09/12/24      Page 20 of 27
+
+
+
+
+ordinary parlance. The Parties offer definitions of involve from various dictionaries that are largely
+
+the same, such as “[t]o contain as a part; include,” “to have as a necessary feature or consequence,”
+
+ECF 17-1 at 25 (citing American Heritage Dictionary 921 (4th ed. 2009)), and “to relate to or
+
+affect,” “to relate closely,” to “entail,” or to “have as an essential feature or consequence,” see
+
+ECF 30 at 33 (citing Merriam-Webster, https://perma.cc/2RS8-ZRBJ; Random House College
+
+Dictionary 703 (rev. ed. 1979); Riverside University Dictionary 645 (1983)); see also ECF 38-1
+
+at 12 (CFTC Order). Both sides agree that the term is defined broadly, see ECF 17-1 at 25, ECF 30
+
+at 26, and thus, for example, is more expansive in scope than a phrase like “based upon” (which is
+
+used elsewhere in the CEA). ECF 30 at 34; ECF 36 at 12. Rather, the real disagreement between
+
+the Parties is the function of the word “involve” in the statute and how it interacts with the
+
+enumerated activities.
+
+       Construing the plain meaning of “involve” does not resolve the Parties’ dispute. As the
+
+Supreme Court has recognized, “a statute’s meaning does not aways turn solely on the broadest
+
+imaginable definitions of its component words.” Dubin v. United States, 599 U.S. 110, 120 (2023)
+
+(quoting Epic Sys. Corp. v. Lewis, 584 U.S. 497, 523 (2018)). Accordingly, the Supreme Court
+
+has instructed that where a statute includes terms whose plain meaning is broadly defined, courts
+
+should not construe the language “in isolation,” but must “look to statutory context.” Dubin, 599
+
+U.S. at 119 (citing N.Y. State Conf. of Blue Cross & Blue Shield Plans v. Travelers Ins. Co., 514
+
+U.S. 645, 655 (1995) (considering the term “relate to” and recognizing that if “‘relate to’ were
+
+taken to extend to the furthest stretch of its indeterminacy, then for all practical purposes” there
+
+would be no limits as “really, universally, relations stop nowhere”)). To determine how “involve”
+
+operates in the statute, the Court can consider “traditional tools of statutory interpretation—text,
+
+structure, purpose, and legislative history.” In re Sealed Case, 932 F.3d 915, 928 (D.C. Cir. 2019)
+
+
+
+                                                 20
+      Case 1:23-cv-03257-JMC            Document 51        Filed 09/12/24       Page 21 of 27
+
+
+
+
+(quoting Tax Analysts v. IRS, 350 F.3d 100, 103 (D.C. Cir. 2003)). Considering many of these
+
+tools, and related canons of statutory construction, the Court rejects the CFTC’s reading of the
+
+statute in favor of Kalshi’s for several reasons.
+
+       First, the CFTC’s argument that an event contract “involves” an enumerated activity if the
+
+act of trading the contract “amounts to” the activity cannot be applied consistently throughout the
+
+statute. “[S]tandard principle[s] of statutory construction provide[] that identical words and
+
+phrases within the same statute should normally be given the same meaning” and effect. Powerex
+
+Corp. v. Reliant Energy Servs., Inc., 551 U.S. 224, 232 (2007). And where one term in a statute
+
+“applies without differentiation to” a set of defined categories, “[t]o give the[] same words a
+
+different meaning” for different categories “would be to invent a statute rather than interpret one.”
+
+Clark v. Martinez, 543 U.S. 371, 378 (2005). Other than with respect to the two categories it claims
+
+are implicated here—unlawful activity and gaming—the CFTC’s reading of “involve” does not
+
+work for any other activity enumerated in the special rule.
+
+       The “act of trading in” an event contract can never “amount to” war. The “act of trading
+
+in” an event contract cannot “amount to” terrorism. And no one would formulate a construction of
+
+the statute to read that an “act of trading in” an event contract could ever “amount to” assassination.
+
+With respect to those categories of the special rule, then, the Court is not remotely confused about
+
+how “involve” operates. An event contract can only involve war, terrorism, or assassination if the
+
+contract’s subject itself relates in some way (admittedly broadly) to war, terrorism, or
+
+assassination. There is simply no other workable construction applied to those categories that the
+
+Court can think of. And the Court cannot identify any principled reason, consistent with applicable
+
+canons of construction, that it would treat the two enumerated categories at issue in this case any
+
+differently. In other words, the Court finds no basis to invite ambiguity into a statutory framework
+
+
+
+                                                    21
+      Case 1:23-cv-03257-JMC            Document 51         Filed 09/12/24      Page 22 of 27
+
+
+
+
+that is otherwise clear by construing the relationship between “involve” and the unlawful activity
+
+and gaming categories—and only those categories—more broadly, and thus differently, than the
+
+others.
+
+          The CFTC further argues that the special rule is implicated when the act of trading a
+
+contract amounts to an enumerated activity, and not just when a contract’s underlying involves an
+
+activity, because the special rule applies to “transactions.” Specifically, the statute gives the CFTC
+
+authority to review “agreements, contracts, or transactions” that “involve” an enumerated activity.
+
+Id. Because the plain meaning of the word “transaction” includes “the formation, performance, or
+
+discharge of a contract,” the CFTC contends that the statute’s authorization of its review of
+
+“transaction[s]” that “involve” an enumerated activity is consistent with its reading of the statute—
+
+namely, that a transaction “involve[s]” an enumerated activity if the act of trading in the contract
+
+amounts to that activity. ECF 41-1 at 3 (citing Transaction, Black’s Law Dictionary (11th
+
+ed. 2019)). Kalshi argues that “transaction,” as used in this statute, refers to a financial instrument.
+
+ECF 42 at 2. The Court recognizes the ordinary meaning of the term “transaction,” but also
+
+understands Kalshi’s point. After all, the other terms that are listed alongside “transactions” in the
+
+statute—agreements, contracts, swaps—refer to various derivative instruments, which go by many
+
+names. 7 U.S.C. § 7a-2(5)(c)(ii). And the statute identifies a transaction as something that can be
+
+“list[ed],” further suggesting that it is referring to an actual financial instrument or the product
+
+being exchanged. Id.
+
+          But the Court finds it unnecessary to pick a side because, even using the CFTC’s ordinary
+
+definition of “transaction,” the Court still cannot adopt its “involve-means-trading-in-the-product-
+
+amounts-to-an-enumerated-activity” construction. A financial transaction on an exchange has an
+
+underlying subject just like a contract does. And again, the CFTC’s reading does not lend itself to
+
+
+
+                                                  22
+      Case 1:23-cv-03257-JMC           Document 51         Filed 09/12/24      Page 23 of 27
+
+
+
+
+a consistent application across the statute. Replacing “transaction” with the term “contract”
+
+changes no part of the Court’s analysis. A transaction can only “involve” war, terrorism, or
+
+assassination if the offering underlying the transaction relates in some way to war, assassination,
+
+or terrorism. No one reading this provision would read the statute to mean that a transaction
+
+“involves” war because the discharge of contractual obligations somehow amounts to war, or that
+
+a transaction “involves” terrorism because performance on the contract amounts to terrorism, or
+
+that a transaction on a DCM can amount to assassination in some way. Indeed, the special rule is
+
+not the only provision of the CEA that uses the terms “transaction” and “involve” where it is clear
+
+that the statute can only be referring to the underlying commodity or subject of the transaction.
+
+See, e.g., 7 U.S.C. § 6c(b) (“transaction involving any commodity regulated under this chapter”);
+
+id. § 23(b)(1) (referencing “transactions involving different commodities”); id. § 2(a)(1)(D)(i)
+
+(“contracts[] and transactions involving . . . a security futures product”). Overall, the Court
+
+declines to apply a construction of the statute that only works for some, but not all, of the
+
+enumerated categories.
+
+       Second, the CFTC’s interpretation of the statute would render its reach too broad, and thus
+
+does not make sense to the Court in the context of the statute. This point is best illustrated through
+
+consideration of the special rule’s “unlawful activity” category. According to the CFTC’s order,
+
+Kalshi’s congressional contracts “involve” unlawful activity, not because the subject matter of the
+
+contracts (Congress and elections) relates to anything unlawful, but because in many states it is
+
+unlawful to stake money on the outcome of an election. ECF 38-1 at 19–20 (CFTC Order). But as
+
+the order also recognizes, many states define unlawful gambling as staking money on any
+
+contingent outcome. Id. at 15 n.22. Event contracts, by definition, involve staking money on some
+
+contingent event. CFTC, Contracts & Products: Event Contracts, https://perma.cc/Q4LP-B6UY.
+
+
+
+                                                 23
+       Case 1:23-cv-03257-JMC                  Document 51            Filed 09/12/24          Page 24 of 27
+
+
+
+
+Accordingly, under the CFTC’s logic, it could presumably review any event contract, because (1)
+
+a person or entity purchasing an event contract is putting money on the outcome of a contingent
+
+event and (2) many states define such conduct as “gambling” and make it unlawful. But no one
+
+would contend that reading represents a plausible construction of the statute. Not only because the
+
+CEA specifically preempts the application of state law over derivative markets, 7 U.S.C.
+
+§ 2(a)(1)(A), but because it would swallow the special rule’s provisions authorizing the CFTC to
+
+review only event contracts that relate to specific, enumerated topics, id. § 7a-2(c)(5)(C)(i); see
+
+also Davis v. Mich. Dept. of Treasury, 489 U.S. 803, 809 (1989) (recognizing that it is a
+
+“fundamental canon of statutory construction that the words of a statute must be read in their
+
+context and with a view to their place in the overall statutory scheme.”). 15 Such an interpretation
+
+would also effectively undo the Congressional amendment to the CEA that eliminated the CFTC’s
+
+across-the-board review. See Pub. L. No. 93-463, § 207, 88 Stat. 1389, 1400 (1974) (codified at
+
+7 U.S.C. § 7(7) (1994)); Pub. L. No. 106-554, §§ 110(2), 113, 114 Stat. 2763, 2763A-384, 399
+
+(2000) (codified at 7 U.S.C. §§ 7, 7a-2 (2006)). The only formulation of the interaction between
+
+“involve” and “unlawful activity” that actually works, then, is if the contract or transaction’s
+
+underlying event relates in some way to activity that is illegal—not if the act of staking money on
+
+the contract’s underlying would be unlawful under any state law.
+
+         Finally, the legislative history offers no support for the CFTC’s position. The statute’s
+
+legislative history is not dispositive to the Court’s analysis, but the CFTC discusses it in its order
+
+
+
+15
+   The CFTC acknowledges this argument, but contends that preemption would operate as a backstop. It argues that
+because state laws banning futures contracts are preempted by the CEA, all event contracts would not (and could not)
+be considered “unlawful activity” and, therefore, the CFTC’s definition of “involve” does not swallow the rule.
+ECF 31 at 46. The Court has trouble following the CFTC’s argument. The CFTC does not provide a coherent
+justification as to why it argues that state laws that categorically ban all event contracts are preempted, but those that
+ban specific types of event contracts are not. To be clear, this Court does not make any decision or judgment on the
+preclusive scope of the CEA’s special rule. But the friction the CFTC’s interpretation creates further demonstrates why
+it is wrong.
+
+                                                           24
+       Case 1:23-cv-03257-JMC                  Document 51            Filed 09/12/24          Page 25 of 27
+
+
+
+
+and briefing here, see ECF 31 at 35; ECF 38-1 at 14 n.18 (CFTC Order), so the Court will too. The
+
+CFTC argues that the CEA’s legislative history supports its conclusion that Congress was
+
+concerned about the overall characteristics of an event contract, and not just whether the
+
+underlying subject of the contract involved an enumerated activity. Id. In particular, the order cites
+
+to a colloquy on the Senate floor, in which one senator remarked that the provision ultimately
+
+enacted as Section 5(c)(5)(C) of the CEA was intended to “prevent gambling through futures
+
+markets” and restrict “‘event contract[s]’ around sporting events such as the Super Bowl, the
+
+Kentucky Derby, and Masters Golf Tournament.” Id. (citing 156 Cong. Rec. S5906-07, 2010 WL
+
+2788026 (daily ed. July 15, 2010)). According to the CFTC, under the event-focused reading of
+
+the statute Kalshi advances, contracts involving these sporting events would not fall under the
+
+statute’s gaming category because events like the Super Bowl themselves are games, not
+
+“gaming.” ECF 31 at 35. The Court understands the CFTC to be arguing that these contracts could
+
+only be considered “gaming” if one considers the fact that someone bet money on them.
+
+         A couple points about the CFTC’s invocation of the statute’s legislative history. First, the
+
+order’s point appears to be moot given the Court’s conclusion that “gaming” includes the activity
+
+of playing games and playing games for stakes. Applying that definition, event contracts related
+
+to any of the sporting events the senator mentioned on the floor could implicate the gaming
+
+category. All these events can easily be construed as games; they can even be construed as games
+
+played for stakes (cash prizes and trophies, for example). 16 And second, the Court cannot take
+
+much from the remarks of one senator to elucidate the meaning of the statute. The D.C. Circuit has
+
+
+
+16
+   The CFTC argues that if “involve” only related to a contract’s underlying, the gaming category would not include
+any event contracts at all because it is difficult for the CFTC “to conceive of a contract whose underlying event, itself,
+is ‘gaming.’” Id. The Court has adopted the plain meaning of the word gaming, which is not limited to the act of
+betting money on a game. But even if the Court were to accept that narrower definition of gaming, it is not hard to
+think of examples—like an event contract asking buyers to predict who will win the World Series of Poker
+Tournament.
+
+                                                           25
+       Case 1:23-cv-03257-JMC                 Document 51           Filed 09/12/24         Page 26 of 27
+
+
+
+
+warned that “judges must ‘exercise extreme caution’” with such floor exchanges. Tex. Mun. Power
+
+Agency v. EPA, 89 F.3d 858, 875 (D.C. Cir. 1996) (quoting Gersman v. Grp. Health Ass’n, Inc.,
+
+975 F.2d 886, 892 (D.C. Cir. 1992)). In fact, if the Court were to take anything from this floor
+
+exchange, it would be that the senator would not have intended “gaming” to include elections
+
+given the examples offered.
+
+         To sum it up, the Court agrees that “involve” should be broadly construed. The Court does
+
+not find (nor does Kalshi contend) that the instrument or contract must specifically refer to an
+
+enumerated event to “involve” or relate to it. 17 But a contract or transaction “involves” an
+
+enumerated activity if the event being offered and traded as part of that contract or transaction
+
+relates to that activity. That is the most natural, and only consistently workable, reading of the
+
+provision.
+
+                                                    *     *     *
+
+         Kalshi’s event contracts ask buyers to take a yes/no position on whether a chamber of
+
+Congress will be controlled by a specific party in a given term. That question involves (relates to,
+
+entails, has as its essential feature, or any other iteration of the word) elections, politics, Congress,
+
+and party control; but nothing that any Party to this litigation has identified as illegal or unlawful
+
+activity. Nor does that question bear any relation to any game—played for stakes or otherwise.
+
+Accordingly, the Court concludes that Kalshi’s congressional control contracts do not involve
+
+unlawful activity or gaming. And thus the Court has no occasion to consider whether they are
+
+contrary to the public interest.
+
+
+
+
+17
+  Event contracts that “involve” war, for example, could include “whether there will be a war in X country,” but might
+also cover events related to war, such as weapons trades or military deployments.
+
+                                                         26
+      Case 1:23-cv-03257-JMC           Document 51        Filed 09/12/24      Page 27 of 27
+
+
+
+
+   IV.      CONCLUSION
+
+         For the foregoing reasons, the Court finds that Kalshi’s congressional control contracts do
+
+not involve activity that is unlawful under any Federal or State law, nor do they involve gaming.
+
+Accordingly, the Court must GRANT Plaintiff’s Motion for Summary Judgment and DENY
+
+Defendant’s Cross-Motion for Summary Judgment. A separate order has issued.
+
+         SO ORDERED.
+
+                                                      __________________________
+                                                      JIA M. COBB
+                                                      United States District Judge
+
+Date: September 12, 2024
+
+
+
+
+                                                 27
+

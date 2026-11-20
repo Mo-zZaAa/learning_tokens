@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>MtGox.com</title>
+    <meta name="description" content="MtGox"/>
+    <meta name="author" content="MtGox"/>
+    <meta name="globalsign-domain-verification" content=""/>
+    <meta name="google-site-verification" content="zcCv_1HMVnywslyJsR-7UO-S8R6dyti3ywy4VSsCMq8"/>
+    <meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1,maximum-scale=5"/>
+    <style>
+        table tr td {
+            min-width: 70px;
+            padding: 5px;
+            vertical-align: middle;
+        }
+
+        td input[type="submit"] {
+            font-size: 13px;
+        }
+
+        ul {
+            list-style-type: circle;
+        }
+
+        ul li {
+            padding: 2px;
+        }
+    </style>
+</head>
+<body style="font:15px sans-serif; padding: 20px;">
+<p></p>
+<div><img src="/img/mtgox_logo.png"/></div>
+<div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+
+    <button type="submit" style="font-size:100%; width:100%; -webkit-appearance: none"
+            onClick="location.href='https://claims.mtgox.com'">
+        &nbsp;<br/>
+        MTGOXの債権届出システムにログインする方はこちら<br/>
+        &nbsp;<br/>
+        <span style="font-size:90%">Please click here to log in to the online filing system in relation to MTGOX’s civil rehabilitation proceedings.</span><br/>
+        &nbsp;
+    </button>
+
+    &nbsp;<br/>
+
+    <button type="submit" style="font-size:100%; width:100%; -webkit-appearance: none"
+            onClick="location.href='https://material.mtgox.com/login'">
+        &nbsp;<br/>
+        債権者用資料閲覧ページにログインする方はこちら<br/>
+        &nbsp;<br/>
+        <span style="font-size:90%">Please click here to log in to the website for viewing documents for creditors.</span><br/>
+        &nbsp;
+    </button>
+
+    &nbsp;<br/>
+
+    <button type="submit" style="font-size:100%; width:100%; -webkit-appearance: none"
+            onClick="location.href='https://claims.mtgox.com/faq'">
+        &nbsp;<br/>
+        よくあるご質問（FAQ）はこちら<br/>
+        &nbsp;<br/>
+        <span style="font-size:90%">Click here for the Frequently Asked Questions（FAQ）</span><br/>
+        &nbsp;
+    </button>
+    <div style="margin: 40px 0;">
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>基本弁済、早期一括弁済及び中間弁済の期限日をそれぞれ2026年10月31日（日本時間）から2027年10月31日（日本時間）に変更いたしました。詳細は、以下の「【重要】弁済期限日の変更に関するお知らせ」をご確認ください。</p>
+            <p><a href="/img/pdf/20261016_b3a13e0f-55f6-4653-913b-be80762390e8_announcement_ja.pdf">【重要】弁済期限日の変更に関するお知らせ</a></p>
+            <p>The Rehabilitation Trustee has changed the deadline of the Base Repayment, the Early Lump-Sum Repayment, and the Intermediate Repayment from October 31, 2026 (Japan Time) to October 31, 2027(Japan Time), respectively. For details, please see the “[Important] Notices Concerning Change of Repayment Deadlines” below.</p>
+            <p><a href="/img/pdf/20261016_b3a13e0f-55f6-4653-913b-be80762390e8_announcement_en.pdf">【Important】Notice Concerning Change of Repayment Deadlines</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                従前よりMTGOXや再生管財人を騙る虚偽のウェブサイト及びメールについて、繰り返し注意を呼びかけておりますが、近頃、虚偽のウェブサイト及びメールについての通報を複数受けております。虚偽のウェブサイト及びメールに対して個人情報を提供したり、返信したりしないよう十分ご注意ください。詳細は、以下の「【注意】MTGOX虚偽サイト・虚偽メールに対する注意喚起」をご確認ください。
+            </p>
+            <p><a href="/img/pdf/20251029_66da5e9b-d7d0-4ebf-9f33-fcc9207f34b7_announcement_ja.pdf">【注意】MTGOX虚偽サイト・虚偽メールに対する注意喚起</a></p>
+            <p>
+                We have repeatedly alerted rehabilitation creditors and other relevant parties to the risks of fraudulent websites and emails impersonating the Rehabilitation Trustee and/or MTGOX. Recently we have received multiple reports concerning such websites and emails. Please exercise extreme caution and do not provide any personal information on such websites or reply to such emails. For details, please see the “【Caution】 Regarding the Fraudulent Websites and Emails Impersonating “MTGOX” or the Rehabilitation Trustee” below.
+            </p>
+            <p><a href="/img/pdf/20251029_66da5e9b-d7d0-4ebf-9f33-fcc9207f34b7_announcement_en.pdf">【Caution】Regarding the Fraudulent Websites and Emails Impersonating “MTGOX” or the Rehabilitation Trustee</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                基本弁済、早期一括弁済及び中間弁済の期限日をそれぞれ2025年10月31日（日本時間）から2026年10月31日（日本時間）に変更いたしました。詳細は、以下の「【重要】弁済期限日の変更に関するお知らせ」をご確認ください。
+            </p>
+            <p><a href="/img/pdf/20251027_1cc36334-e8b2-4fe4-8135-97d9a149e4f7_announcement_ja.pdf">【重要】弁済期限日の変更に関するお知らせ</a></p>
+            <p>
+                The Rehabilitation Trustee has changed the deadline of the Base Repayment, the Early Lump-Sum Repayment, and the Intermediate Repayment from October 31, 2025 (Japan Time) to October 31, 2026(Japan Time), respectively. For details, please see the “[Important] Notices Concerning Change of Repayment Deadlines” below.
+            </p>
+            <p><a href="/img/pdf/20251027_1cc36334-e8b2-4fe4-8135-97d9a149e4f7_announcement_en.pdf">【Important】Notice Concerning Change of Repayment Deadlines</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせを掲載しましたので、ご確認ください。
+            </p>
+            <p><a href="/img/pdf/20250327_50441ef4-dc28-473a-9fd2-495db2da4bbd_announcement_ja.pdf">ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせ(6)</a></p>
+            <p>
+                Please refer to the Notice regarding Repayment in Bitcoin and Bitcoin Cash.
+            </p>
+            <p><a href="/img/pdf/20250327_50441ef4-dc28-473a-9fd2-495db2da4bbd_announcement_en.pdf">Notice regarding Repayments in Bitcoin and Bitcoin Cash(6)</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                MTGOXの名称及びロゴを無断で使用して再生債権者の情報を収集しているウェブサイトを確認いたしました。再生管財人が皆様への情報提供に用いているウェブサイト以外のウェブサイトに、再生債権者の皆様の情報を提供しないよう十分にご注意ください。詳細は、以下の「【注意】MTGOXの名称及びロゴを無断使用するウェブサイトについて」をご確認ください。
+            </p>
+            <p><a href="/img/pdf/20250331_e4c1a341-2280-4926-9286-e565d4a97df9_announcement_ja.pdf">【注意】MTGOXの名称及びロゴを無断使用するウェブサイトについて</a></p>
+            <p>
+                We identified a website using the MTGOX name and logo without authorization to collect personal information from rehabilitation creditors. Please exercise extreme caution and ensure that you do not provide your information to any websites other than those used by the Rehabilitation Trustee to provide information to rehabilitation creditors. For details, please see the “Caution: Regarding Unauthorized Use of MTGOX Name and Logo by Website” below.
+            </p>
+            <p><a href="/img/pdf/20250331_e4c1a341-2280-4926-9286-e565d4a97df9_announcement_en.pdf">Caution: Regarding Unauthorized Use of MTGOX Name and Logo by Website</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                基本弁済、早期一括弁済及び中間弁済の期限日をそれぞれ2024年10月31日（日本時間）から2025年10月31日（日本時間）に変更いたしました。詳細は、以下の「【重要】弁済期限日の変更に関するお知らせ」をご確認ください。
+            </p>
+            <p><a href="/img/pdf/20241010_1b5ee10e-cf5b-420e-9e41-43ccd9e515e5_announcement_ja.pdf">【重要】弁済期限日の変更に関するお知らせ</a></p>
+            <p>
+                The Rehabilitation Trustee has changed the deadline of the Base Repayment, the Early Lump-Sum Repayment, and the Intermediate Repayment from October 31, 2024 (Japan Time) to October 31, 2025 (Japan Time), respectively. For details, please see the “[Important] Notices Concerning Change of Repayment Deadlines” below.
+            </p>
+            <p><a href="/img/pdf/20241010_1b5ee10e-cf5b-420e-9e41-43ccd9e515e5_announcement_en.pdf">【Important】Notice Concerning Change of Repayment Deadlines</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせを掲載しましたので、ご確認ください。
+            </p>
+            <p><a href="/img/pdf/20240821_e8dbec0c-1fd8-42b5-b0d9-0b98ab42587c_announcement_ja.pdf">ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせ(5)</a></p>
+            <p>
+                Please refer to the Notice regarding Repayment in Bitcoin and Bitcoin Cash.
+            </p>
+            <p><a href="/img/pdf/20240821_e8dbec0c-1fd8-42b5-b0d9-0b98ab42587c_announcement_en.pdf">Notice regarding Repayments in Bitcoin and Bitcoin Cash(5)</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせを掲載しましたので、ご確認ください。
+            </p>
+            <p><a href="/img/pdf/20240731_f6e19c0e-85b0-41f6-8102-2e8cafc9c498_announcement_ja.pdf">ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせ(4)</a></p>
+            <p>
+                Please refer to the Notice regarding Repayment in Bitcoin and Bitcoin Cash.
+            </p>
+            <p><a href="/img/pdf/20240731_f6e19c0e-85b0-41f6-8102-2e8cafc9c498_announcement_en.pdf">Notice regarding Repayments in Bitcoin and Bitcoin Cash(4)</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせを掲載しましたので、ご確認ください。
+            </p>
+            <p><a href="/img/pdf/20240724_aeedf9f1-7f27-40ec-ad70-26d2811167a5_announcement_ja.pdf">ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせ(3)</a></p>
+            <p>
+                Please refer to the Notice regarding Repayment in Bitcoin and Bitcoin Cash.
+            </p>
+            <p><a href="/img/pdf/20240724_aeedf9f1-7f27-40ec-ad70-26d2811167a5_announcement_en.pdf">Notice regarding Repayments in Bitcoin and Bitcoin Cash(3)</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせを掲載しましたので、ご確認ください。
+            </p>
+            <p><a href="/img/pdf/20240716_c63b18e5-6a79-4f24-9c1c-3dbd74dc6f78_announcement_ja.pdf">ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせ(2)</a></p>
+            <p>
+                Please refer to the Notice regarding Repayment in Bitcoin and Bitcoin Cash.
+            </p>
+            <p><a href="/img/pdf/20240716_c63b18e5-6a79-4f24-9c1c-3dbd74dc6f78_announcement_en.pdf">Notice regarding Repayments in Bitcoin and Bitcoin Cash(2)</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせを掲載しましたので、ご確認ください。
+            </p>
+            <p><a href="/img/pdf/20240705_01_announcement_ja.pdf">ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせ</a></p>
+            <p>
+                Please refer to the Notice regarding Repayment in Bitcoin and Bitcoin Cash.
+            </p>
+            <p><a href="/img/pdf/20240705_01_announcement_en.pdf">Notice regarding Repayments in Bitcoin and Bitcoin Cash</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                ビットコイン及びビットコインキャッシュによる弁済の開始に関するお知らせを掲載しましたので、ご確認ください。
+            </p>
+            <p><a href="/img/pdf/20240624_announcement_ja.pdf">【重要】ビットコイン及びビットコインキャッシュによる弁済の開始に関するお知らせ</a></p>
+            <p>
+                Please refer to the Notice regarding Commencement of Repayments in Bitcoin and Bitcoin Cash.
+            </p>
+            <p><a href="/img/pdf/20240624_announcement_en.pdf">【Important】Notice regarding Commencement of Repayments in Bitcoin and Bitcoin Cash</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                一部の再生債権者から、「MTGOX Team」を名乗る者から、不審なEメールを受領した、との通報を受けました。当該Eメールの内容は虚偽ですので、当該Eメールの指示に従わないようお願いいたします。詳細は、以下の「【注意】MTGOX関係者を騙る虚偽のメールについて」をご確認ください。
+            </p>
+            <p><a href="/img/pdf/20240417_announcement_ja.pdf">【注意】MTGOX関係者を騙る虚偽のメールについて</a></p>
+            <p>
+                We have received reports from some rehabilitation creditors that they have received a suspicious email impersonating the “MTGOX Team”. The information in the email is completely false, so please disregard the instructions and requests in the email.. For details, please see the “[Caution] Please be on the Alert for Fraudulent Emails Impersonating the “MTGOX Team”” below.
+            </p>
+            <p><a href="/img/pdf/20240417_announcement_en.pdf">【Caution】Please be on the Alert for Fraudulent Emails Impersonating the “MTGOX Team”</a></p>
+        </div>
+		<p></p>
+		<div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+			<p>
+				基本弁済、早期一括弁済及び中間弁済の期限日をそれぞれ2023年10月31日（日本時間）から<b><u>2024年10月31日（日本時間）</u></b>に変更いたしました。詳細は、以下の「【重要】弁済期限日の変更に関するお知らせ」をご確認ください。
+			</p>
+			<p><a href="/img/pdf/20230921_announcement_ja.pdf">【重要】弁済期限日の変更に関するお知らせ</a></p>
+			<p>
+				The Rehabilitation Trustee has changed the deadline of the Base Repayment, the Early Lump-Sum Repayment, and the Intermediate Repayment from October 31, 2023 (Japan Time) to <b><u>October 31, 2024 (Japan Time)</u></b>, respectively. For details, please see the “[Important] Notices Concerning Change of Repayment Deadlines” below.
+			</p>
+			<p><a href="/img/pdf/20230921_announcement_en.pdf">【Important】Notice Concerning Change of Repayment Deadlines</a></p>
+		</div>
+		<p></p>
+		<div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                法人本人確認資料のアップロードのお願いを再度掲載しましたのでご確認ください。なお、法人本人確認資料のアップロードの期限は、2023年6月30日（日本時間）に変更されておりますのでご留意ください。その他の内容は2023年5月19日及び同月31日に掲載されたものと同様です。</p>
+            <p>
+                <u><b>法人債権者が当該期限までに法人本人確認資料をアップロードしなかった場合には、弁済方法の選択が無効となり、希望した弁済を受けられない場合があります。</b></u>法人本人確認資料のアップロードが未了の法人債権者は、必ず上記期限までに法人本人確認資料をアップロードしてください。
+            </p>
+            <p><a href="/img/pdf/20230614_announcement_ja.pdf">法人本人確認資料のアップロードのお願い</a></p>
+            <p></p>
+            <p>Please refer to the Notice regarding the Request to Upload Documents for Verification of Corporate
+                Identity again. Please note that the deadline for uploading Documents for Verification of Corporate
+                Identity has been changed to June 30, 2023 (Japan time). The contents other than the deadline are the
+                same as those on May 19, 2023 and May 31, 2023.</p>
+            <p><u><b>If corporate rehabilitation creditors do not upload Documents for Verification of Corporate
+                Identity, your selection of a repayment method will be nullified, and you may not be able to receive the
+                desired repayment. </b></u>Therefore, please make sure to upload the documents for Verification of
+                Corporate Identity by the above deadline.</p>
+            <p><a href="/img/pdf/20230614_announcement_en.pdf">Request to Upload Documents for Verification of Corporate
+                Identity</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>再生計画変更決定確定のお知らせを掲載しましたのでご確認ください。</p>
+            <p><a href="/img/pdf/20230608_announcement_ja.pdf">再生計画変更決定確定のお知らせ</a></p>
+            <p></p>
+            <p>Please refer to the Notice of Amendment of Rehabilitation Plan Becoming Final and Binding.</p>
+            <p><a href="/img/pdf/20230608_announcement_en.pdf">Notice of Amendment of Rehabilitation Plan Becoming Final
+                and Binding</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                法人本人確認資料のアップロード期限を2023年6月15日（日本時間）に変更いたしました。法人の再生債権者の方は以下のお知らせをご確認ください。</p>
+            <p><a href="/img/pdf/20230531_announcement_ja.pdf">法人本人確認資料のアップロードのお願い</a></p>
+            <p></p>
+            <p>The deadline for uploading the documents for Verification of Corporate Identity has been changed to June
+                15, 2023(Japan Time). If you are a corporate rehabilitation creditor, please see the notice below.</p>
+            <p><a href="/img/pdf/20230531_announcement_en.pdf">Request to Upload Documents for Verification of Corporate
+                Identity</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>再生計画の変更及び弁済に係る許可取得に関するお知らせを掲載しましたのでご確認ください。</p>
+            <p><a href="/img/pdf/20230529_announcement_ja.pdf">再生計画の変更及び弁済に係る許可取得に関するお知らせ</a>
+            </p>
+            <p></p>
+            <p>Please refer to the Notice Concerning Amendment of Rehabilitation Plan and Acquisition of Permission
+                Regarding Repayments.</p>
+            <p><a href="/img/pdf/20230529_announcement_en.pdf">Notice Concerning Amendment of Rehabilitation Plan and
+                Acquisition of Permission Regarding Repayments</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                法人本人確認を実施するための機能をリリースいたしました。法人の再生債権者の方は以下のお知らせをご確認ください。</p>
+            <p><a href="/img/pdf/20230519_announcement_ja.pdf">法人本人確認資料のアップロードのお願い</a></p>
+            <p></p>
+            <p>The Rehabilitation Trustee has released a corporate identity verification function. If you are a
+                corporate rehabilitation creditor, please see the notice below.</p>
+            <p><a href="/img/pdf/20230519_announcement_en.pdf">Request to Upload Documents for Verification of Corporate
+                Identity</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>弁済方法の選択及び弁済先情報の登録期限の満了に関するお知らせを掲載しましたのでご確認ください。</p>
+            <p>
+                <a href="/img/pdf/20230407_announcement_ja.pdf">弁済方法の選択及び弁済先情報の登録期限の満了に関するお知らせ</a>
+            </p>
+            <p></p>
+            <p>Please refer to the Notice of Expiration of Deadline for Selecting Repayment Methods and Registering
+                Payee Information</p>
+            <p><a href="/img/pdf/20230407_announcement_en.pdf">Notice of Expiration of Deadline for Selecting Repayment
+                Methods and Registering Payee Information</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                弁済方法の選択及び弁済先情報登録のお願いを再度掲載しましたのでご確認ください。なお、弁済方法の選択及び弁済先情報登録（以下「本件選択及び登録」といいます）の期限は、2023年4月6日（日本時間）に変更されておりますのでご留意ください。その他の内容は2022年12月1日、同月20日、2023年2月8日、同月22日、3月1日、同月7日、同月23日及び同月28日に掲載されたものと同様です。</p>
+            <p>当該期限までに本件選択及び登録を完了しない場合、以下の弁済を受けることができません。</p>
+            <p>・早期一括弁済</p>
+            <p>・仮想通貨再生債権の一部に対する仮想通貨での弁済</p>
+            <p>・銀行送金による弁済</p>
+            <p>・資金移動業者による送金を用いた弁済</p>
+            <p></p>
+            <p>
+                そのため、現時点で本件選択及び登録が完了していない再生債権者の皆様は、下記「弁済方法の選択及び弁済先情報登録のお願い」その他の説明資料や管財人からのご案内をご確認いただき、直ちに本件選択及び登録を完了してください。<u><b>なお、これが再生管財人からの本件選択及び登録の期限に関し、再生債権者全体へ向けた最終のお知らせとなります。</b></u>
+            </p>
+            <p></p>
+            <p>
+                また、本件選択及び登録を実施するためには、MTGOX再生債権届出システム（以下「本システム」といいます。）にログインする必要があり、本システムにログインできない場合には、債権者コードの申請を始めとした各種の申請を行う必要がございます。<b><u>未だ必要な申請をされていない場合には、速やかに申請手続を行ってください。なお、今後各種の申請をされた場合には、申請件数が多数に上ることや、申請内容の不備を補正する時間がない等の理由により、再生管財人において上記期限までに当該申請を承認できない可能性があります。その結果、再生債権者が本システムにログインできず、上記期限までに本件選択及び登録が実施できなかったとしても、MTGOX及び再生管財人は一切の責任は負いませんので、予めご了承ください。</u></b>
+            </p>
+            <p></p>
+            <p><a href="/img/pdf/20230403_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a></p>
+            <p></p>
+            <p>Please refer to the Notice regarding the Request to Select a Repayment Method and Register Payee
+                Information again. Please note that the deadline for selection of repayment method and registration of
+                payee information (“Selection and Registration”) has been changed to April 6, 2023 (Japan time). The
+                contents other than the deadline are the same as those on December 1, 2022, December 20, 2022, February
+                8, 2023, February 22, 2023, March 1, 2023, March 7, 2023, March 23, 2023, and March 28, 2023.</p>
+            <p>Rehabilitation creditors who have not completed the Selection and Registration by the deadline will not
+                be able to receive any of the repayments below.</p>
+            <p>・Early Lump-Sum Repayment</p>
+            <p>・Repayment for a Portion of Cryptocurrency Rehabilitation Claims in Cryptocurrency</p>
+            <p>・Repayment by Bank Remittance</p>
+            <p>・Repayment by Remittance through a Fund Transfer Service Provider</p>
+            <p></p>
+            <p>Therefore, rehabilitation creditors who have not completed the Selection and Registration should refer to
+                the following Notice regarding the Request to Select a Repayment Method and Register Payee Information
+                and other relevant information the Rehabilitation Trustee provided the rehabilitation creditors with and
+                complete the Selection and Registration immediately, as the deadline is fast approaching. <u><b>This is
+                    the final notice to all of rehabilitation creditors from the Rehabilitation Trustee about the
+                    deadline for Selection and Registration.</b></u></p>
+            <p></p>
+            <p>In addition, in order to carry out the Selection and Registration, it is necessary to log in to the MTGOX
+                Online Rehabilitation Claim Filing System (i.e., the “System”). If you are unable to log in to the
+                System, you must apply for the Creditor Code and make various other applications in advance.<b><u>If you
+                    have not yet completed the necessary applications, please promptly complete them. If you file your
+                    applications from now on, the Rehabilitation Trustee may not be able to approve your applications by
+                    the deadline due to a large number of applications, lack of sufficient time to correct deficiencies
+                    in your application, or other reasons. Please note that MTGOX and the Rehabilitation Trustee will
+                    not be liable for any rehabilitation creditor’s failure to log in to the System and carry out the
+                    Selection and Registration by the deadline as a result.</u></b></p>
+            <p></p>
+            <p><a href="/img/pdf/20230403_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                弁済方法の選択及び弁済先情報登録のお願いを再度掲載しましたのでご確認ください。なお、弁済方法の選択及び弁済先情報登録（以下「本件選択及び登録」といいます）の期限は、2023年4月6日（日本時間）に変更されておりますのでご留意ください。その他の内容は2022年12月1日、同月20日、2023年2月8日、同月22日、3月1日、同月7日及び同月23日に掲載されたものと同様です。</p>
+            <p>当該期限までに本件選択及び登録を完了しない場合、以下の弁済を受けることができません。</p>
+            <p>・早期一括弁済</p>
+            <p>・仮想通貨再生債権の一部に対する仮想通貨での弁済</p>
+            <p>・銀行送金による弁済</p>
+            <p>・資金移動業者による送金を用いた弁済</p>
+            <p></p>
+            <p>
+                そのため、現時点で本件選択及び登録が完了していない再生債権者の皆様は、下記「弁済方法の選択及び弁済先情報登録のお願い」その他の説明資料や管財人からのご案内をご確認いただき、直ちに本件選択及び登録を完了してください。</p>
+            <p><u><b>万が一、本件選択及び登録の期限である2023年4月6日の数日前に各種の申請をされた場合には、申請件数が多数に上ることや、申請内容の不備を補正する時間がない等の理由により、再生管財人において上記期限までに当該申請を承認できない可能性があります。その結果、再生債権者がMTGOX再生債権届出システムにログインできず、上記期限までに本件選択及び登録が実施できなかったとしても、MTGOX及び再生管財人は一切の責任は負いませんので、予めご了承ください。</b></u>
+            </p>
+            <p></p>
+            <p><a href="/img/pdf/20230328_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a></p>
+            <p></p>
+            <p>Please refer to the Notice regarding the Request to Select a Repayment Method and Register Payee
+                Information again. Please note that the deadline for selection of repayment method and registration of
+                payee information (“Selection and Registration”) has been changed to April 6, 2023 (Japan time). The
+                contents other than the deadline are the same as those on December 1, 2022, December 20, 2022, February
+                8, 2023, February 22, 2023, March 1, 2023, March 7, 2023, and March 23, 2023.</p>
+            <p></p>
+            <p>Rehabilitation creditors who have not completed the Selection and Registration by the deadline will not
+                be able to receive any of the repayments below.</p>
+            <p>・Early Lump-Sum Repayment</p>
+            <p>・Repayment for a Portion of Cryptocurrency Rehabilitation Claims in Cryptocurrency</p>
+            <p>・Repayment by Bank Remittance</p>
+            <p>・Repayment by Remittance through a Fund Transfer Service Provider</p>
+            <p></p>
+            <p>Therefore, rehabilitation creditors who have not completed the Selection and Registration should refer to
+                the following Notice regarding the Request to Select a Repayment Method and Register Payee Information
+                and other relevant information the Rehabilitation Trustee provided the rehabilitation creditors with and
+                complete the Selection and Registration immediately, as the deadline is fast approaching.</p>
+            <p></p>
+            <p><u><b>If you file your applications a few days before the deadline for the Selection and Registration of
+                April 6, 2023, the Rehabilitation Trustee may not be able to approve your applications in a timely
+                manner due to a large number of applications, lack of sufficient time to correct deficiencies in your
+                application, or other reasons. Please note that MTGOX and the Rehabilitation Trustee will not be liable
+                for any rehabilitation creditor’s failure to log in to the MTGOX Online Rehabilitation Claim Filing
+                System and carry out the Selection and Registration by the deadline as a result.</b></u></p>
+            <p></p>
+            <p><a href="/img/pdf/20230328_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                弁済方法の選択及び弁済先情報登録のお願いを再度掲載しましたのでご確認ください。なお、弁済方法の選択及び弁済先情報登録（以下「本件選択及び登録」といいます）の期限は、2023年4月6日（日本時間）に変更されておりますのでご留意ください。その他の内容は2022年12月1日、同月20日、2023年2月8日、同月22日、3月1日及び同月7日に掲載されたものと同様です。</p>
+            <p></p>
+            <p>当該期限までに本件選択及び登録を完了しない場合、以下の弁済を受けることができません。</p>
+            <p>・早期一括弁済</p>
+            <p>・仮想通貨再生債権の一部に対する仮想通貨での弁済</p>
+            <p>・銀行送金による弁済</p>
+            <p>・資金移動業者による送金を用いた弁済</p>
+            <p></p>
+            <p>
+                そのため、現時点で本件選択及び登録が完了していない再生債権者の皆様は、下記「弁済方法の選択及び弁済先情報登録のお願い」その他の説明資料や管財人からのご案内をご確認いただき、速やかに本件選択及び登録を完了してください。</p>
+            <p></p>
+            <p><a href="/img/pdf/20230323_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a></p>
+            <p>Please refer to the Notice regarding the Request to Select a Repayment Method and Register Payee
+                Information again. Please note that the deadline for selection of repayment method and registration of
+                payee information (“Selection and Registration”) has been changed to April 6, 2023 (Japan time). The
+                contents other than the deadline are the same as those on December 1, 2022, December 20, 2022, February
+                8, 2023, February 22, 2023, March 1, 2023 and March 7, 2023.</p>
+            <p></p>
+            <p>Rehabilitation creditors who have not completed the Selection and Registration by the deadline will not
+                be able to receive any of the repayments below.</p>
+            <p>・Early Lump-Sum Repayment</p>
+            <p>・Repayment for a Portion of Cryptocurrency Rehabilitation Claims in Cryptocurrency</p>
+            <p>・Repayment by Bank Remittance</p>
+            <p>・Repayment by Remittance through a Fund Transfer Service Provider</p>
+            <p></p>
+            <p>Rehabilitation creditors who have not completed the Selection and Registration by the deadline will not
+                be able to receive any of the repayments below.</p>
+            <p></p>
+            <p><a href="/img/pdf/20230323_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p><b>弁済方法の選択及び弁済先情報の登録期限を2023年3月10日（日本時間）から<u>2023年4月6日（日本時間）</u>に変更いたしました。</b>詳細は、以下の「弁済方法の選択及び弁済先情報登録期限並びに弁済期限日変更のお知らせ」をご確認ください。</b>
+            </p>
+            <p>
+                <a href="/img/pdf/20230309_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録期限並びに弁済期限日変更のお知らせ</a>
+            </p>
+            <p></p>
+            <p><b>The Rehabilitation Trustee has changed the deadline for Selection of Repayment Method and Registration
+                of Payee Information from March 10, 2023 (Japan time) to <u>April 6, 2023 (Japan time)</u>.</b> For
+                details, please see the “Change of (i) Deadline for Selection of Repayment Method and Registration of
+                Payee Information and (ii) Repayment Deadline” below.</p></p>
+            <p><a href="/img/pdf/20230309_announcement_en.pdf">【Important】Change of (i) Deadline for Selection of
+                Repayment Method and Registration of Payee Information and (ii) Repayment Deadline</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                弁済方法の選択及び弁済先情報登録のお願いを再度掲載しましたのでご確認ください。なお、弁済方法の選択及び弁済先情報登録（以下「本件選択及び登録」といいます）の期限は、2023年3月10日（日本時間）に変更されておりますのでご留意ください。その他の内容は2022年12月1日、同月20日、2023年2月8日、同月22日及び3月1日に掲載されたものと同様です。</p>
+            <p></p>
+            <p>当該期限までに本件選択及び登録を完了しない場合、以下の弁済を受けることができません。</p>
+            <p>・早期一括弁済</p>
+            <p>・仮想通貨再生債権の一部に対する仮想通貨での弁済</p>
+            <p>・銀行送金による弁済</p>
+            <p>・資金移動業者による送金を用いた弁済</p>
+            <p></p>
+            <p>
+                そのため、現時点で本件選択及び登録が完了していない再生債権者の皆様は、下記「弁済方法の選択及び弁済先情報登録のお願い」その他の説明資料や管財人からのご案内をご確認いただき、速やかに本件選択及び登録を完了してください。</p>
+            <p></p>
+            <p><a href="/img/pdf/20230307_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a></p>
+            <p>Please refer to the Notice regarding the Request to Select a Repayment Method and Register Payee
+                Information again. Please note that the deadline for selection of repayment method and registration of
+                payee information (“Selection and Registration”) has been changed to March 10, 2023 (Japan time). The
+                contents other than the deadline are the same as those on December 1, 2022, December 20, 2022, February
+                8, 2023, February 22, 2023, and March 1, 2023.</p>
+            <p></p>
+            <p>Rehabilitation creditors who have not completed the Selection and Registration by the deadline will not
+                be able to receive any of the repayments below.</p>
+            <p>・Early Lump-Sum Repayment</p>
+            <p>・Repayment for a Portion of Cryptocurrency Rehabilitation Claims in Cryptocurrency</p>
+            <p>・Repayment by Bank Remittance</p>
+            <p>・Repayment by Remittance through a Fund Transfer Service Provider</p>
+            <p></p>
+            <p>Therefore, rehabilitation creditors who have not completed the Selection and Registration should refer to
+                the following Notice regarding the Request to Select a Repayment Method and Register Payee Information
+                and other relevant information the Rehabilitation Trustee provided the rehabilitation creditors with and
+                complete the Selection and Registration as soon as possible.</p>
+            <p></p>
+            <p><a href="/img/pdf/20230307_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>ニュージーランド裁判所による差押命令のお知らせを掲載しましたのでご確認ください。</p>
+            <p><a href="/img/pdf/20230303_announcement_ja.pdf">ニュージーランド裁判所による差押命令のお知らせ</a></p>
+            <p></p>
+            <p>Please refer to the Notice regarding Restraining Order by New Zealand Court.</p>
+            <p><a href="/img/pdf/20230303_announcement_en.pdf">Notice regarding Restraining Order by New Zealand
+                Court</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                弁済方法の選択及び弁済先情報登録のお願いを再度掲載しましたのでご確認ください。なお、弁済方法の選択及び弁済先情報登録（以下「本件選択及び登録」といいます）の期限は、2023年3月10日（日本時間）に変更されておりますのでご留意ください。その他の内容は2022年12月1日、同月20日、2023年2月8日及び同月22日に掲載されたものと同様です。</p>
+            <p></p>
+            <p>当該期限までに本件選択及び登録を完了しない場合、以下の弁済を受けることができません。</p>
+            <p>・早期一括弁済</p>
+            <p>・仮想通貨再生債権の一部に対する仮想通貨での弁済</p>
+            <p>・銀行送金による弁済</p>
+            <p>・資金移動業者による送金を用いた弁済</p>
+            <p></p>
+            <p>
+                そのため、現時点で本件選択及び登録が完了していない再生債権者の皆様は、下記「弁済方法の選択及び弁済先情報登録のお願い」その他の説明資料や管財人からのご案内をご確認いただき、速やかに本件選択及び登録を完了してください。</p>
+            <p></p>
+            <p><a href="/img/pdf/20230301_02_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a></p>
+            <p>Please refer to the Notice regarding the Request to Select a Repayment Method and Register Payee
+                Information again. Please note that the deadline for selection of repayment method and registration of
+                payee information (“Selection and Registration”) has been changed to March 10, 2023 (Japan time). The
+                contents other than the deadline are the same as those on December 1, 2022, December 20, 2022, February
+                8, 2023, and February 22, 2023.</p>
+            <p></p>
+            <p>Rehabilitation creditors who have not completed the Selection and Registration by the deadline will not
+                be able to receive any of the repayments below.</p>
+            <p>・Early Lump-Sum Repayment</p>
+            <p>・Repayment for a Portion of Cryptocurrency Rehabilitation Claims in Cryptocurrency</p>
+            <p>・Repayment by Bank Remittance</p>
+            <p>・Repayment by Remittance through a Fund Transfer Service Provider</p>
+            <p></p>
+            <p>Therefore, rehabilitation creditors who have not completed the Selection and Registration should refer to
+                the following Notice regarding the Request to Select a Repayment Method and Register Payee Information
+                and other relevant information the Rehabilitation Trustee provided the rehabilitation creditors with and
+                complete the Selection and Registration as soon as possible.</p>
+            <p></p>
+            <p><a href="/img/pdf/20230301_02_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>Krakenの日本居住者向けサービスを提供していたPayward
+                Asia株式会社が、仮想通貨による弁済の代理受領を行う法人から離脱したことに伴う代理受領合意の取扱いについて、以下のお知らせを掲載いたしました。なお、再生債権者の皆様に特段ご対応いただく事項はございません。</p>
+            <p><a href="/img/pdf/20230301_01_announcement_ja.pdf">【重要】Payward
+                Asia株式会社の代理受領法人からの離脱に伴う代理受領合意の取扱いに関するお知らせ</a></p>
+            <p></p>
+            <p>Payward Asia, Inc., which had provided Kraken’s services for Japan residents, withdrew from entities
+                performing agency receipt in respect of repayment in cryptocurrencies. The announcement below explains
+                the treatment of the agency receipt agreement upon such withdrawal. Please note that there are no
+                specific procedures that rehabilitation creditors are required to carry out with respect to the
+                above.</p>
+            <p><a href="/img/pdf/20230301_01_announcement_en.pdf">【Important】Notice regarding Handling of Agency Receipt
+                Agreement upon Withdrawal of Payward Asia, Inc. from Entities Performing Agency Receipt</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                弁済方法の選択及び弁済先情報登録のお願いを再度掲載しましたのでご確認ください。なお、弁済方法の選択及び弁済先情報登録（以下「本件選択及び登録」といいます）の期限は、2023年3月10日（日本時間）に変更されておりますのでご留意ください。その他の内容は2022年12月1日、同月20日及び2023年2月9日に掲載されたものと同様です</p>
+            <p></p>
+            <p>当該期限までに本件選択及び登録を完了しない場合、以下の弁済を受けることができません。</p>
+            <p>・早期一括弁済</p>
+            <p>・仮想通貨再生債権の一部に対する仮想通貨での弁済</p>
+            <p>・銀行送金による弁済</p>
+            <p>・資金移動業者による送金を用いた弁済</p>
+            <p></p>
+            <p>
+                そのため、現時点で本件選択及び登録が完了していない再生債権者の皆様は、下記「弁済方法の選択及び弁済先情報登録のお願い」その他の説明資料や管財人からのご案内をご確認いただき、速やかに本件選択及び登録を完了してください。</p>
+            <p></p>
+            <p><a href="/img/pdf/20230222_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a></p>
+            <p>Please refer to the Notice regarding the Request to Select a Repayment Method and Register Payee
+                Information again. Please note that the deadline for selection of repayment method and registration of
+                payee information (“Selection and Registration”) has been changed to March 10, 2023 (Japan time). The
+                contents other than the deadline are the same as those on December 1, 2022, December 20, 2022, and
+                February 9, 2023</p>
+            <p></p>
+            <p>Rehabilitation creditors who have not completed the Selection and Registration by the deadline will not
+                be able to receive any of the repayments below.</p>
+            <p>・Early Lump-Sum Repayment</p>
+            <p>・Repayment for a Portion of Cryptocurrency Rehabilitation Claims in Cryptocurrency</p>
+            <p>・Repayment by Bank Remittance</p>
+            <p>・Repayment by Remittance through a Fund Transfer Service Provider</p>
+            <p></p>
+            <p>Therefore, rehabilitation creditors who have not completed the Selection and Registration should refer to
+                the following Notice regarding the Request to Select a Repayment Method and Register Payee Information
+                and other relevant information the Rehabilitation Trustee provided the rehabilitation creditors with and
+                complete the Selection and Registration as soon as possible.</p>
+            <p></p>
+            <p><a href="/img/pdf/20230222_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>
+                弁済方法の選択及び弁済先情報登録のお願いを再度掲載しましたのでご確認ください。なお、弁済方法の選択及び弁済先情報登録（以下「本件選択及び登録」といいます）の期限は、2023年3月10日（日本時間）に変更されておりますのでご留意ください。その他の内容は2022年12月1日及び同月20日に掲載されたものと同様です。</p>
+            <p></p>
+            <p>当該期限までに本件選択及び登録を完了しない場合、以下の弁済を受けることができません。</p>
+            <p>・早期一括弁済</p>
+            <p>・仮想通貨再生債権の一部に対する仮想通貨での弁済</p>
+            <p>・銀行送金による弁済</p>
+            <p>・資金移動業者による送金を用いた弁済</p>
+            <p></p>
+            <p>
+                そのため、現時点で本件選択及び登録が完了していない再生債権者の皆様は、下記「弁済方法の選択及び弁済先情報登録のお願い」その他の説明資料や管財人からのご案内をご確認いただき、速やかに本件選択及び登録を完了してください。</p>
+            <p></p>
+            <p><a href="/img/pdf/20230209_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a></p>
+            <p>Please refer to the Notice regarding the Request to Select a Repayment Method and Register Payee
+                Information again. Please note that the deadline for selection of repayment method and registration of
+                payee information (“Selection and Registration”) has been changed to March 10, 2023 (Japan time). The
+                contents other than the deadline are the same as those on December 1, 2022, and December 20, 2022.</p>
+            <p></p>
+            <p>Rehabilitation creditors who have not completed the Selection and Registration by the deadline will not
+                be able to receive any of the repayments below.</p>
+            <p>・Early Lump-Sum Repayment</p>
+            <p>・Repayment for a Portion of Cryptocurrency Rehabilitation Claims in Cryptocurrency</p>
+            <p>・Repayment by Bank Remittance</p>
+            <p>・Repayment by Remittance through a Fund Transfer Service Provider</p>
+            <p></p>
+            <p>Therefore, rehabilitation creditors who have not completed the Selection and Registration should refer to
+                the following Notice regarding the Request to Select a Repayment Method and Register Payee Information
+                and other relevant information the Rehabilitation Trustee provided the rehabilitation creditors with and
+                complete the Selection and Registration as soon as possible.</p>
+            <p></p>
+            <p><a href="/img/pdf/20230209_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>Krakenの日本居住者向けサービスを提供していたPayward
+                Asia株式会社が、仮想通貨による弁済の代理受領を行う法人から離脱いたしました。日本居住の再生債権者の方は以下のお知らせをご確認ください。</p>
+            <p></p>
+            <p><a href="/img/pdf/20230120_announcement_ja.pdf">【重要】Krakenの日本居住者向けサービスを提供していたPayward
+                Asia株式会社の代理受領法人からの離脱のお知らせ</a></p>
+            <p></p>
+            <p>Payward Asia, Inc., which had provided Kraken’s services for Japan residents, withdrew from entities
+                performing agency receipt in respect of repayment in cryptocurrencies. If you are a rehabilitation
+                creditor residing in Japan, please see the notice below.</p>
+            <p></p>
+            <p><a href="/img/pdf/20230120_announcement_en.pdf">【Important】Notice regarding Withdrawal of Payward Asia,
+                Inc. which Had Provided Kraken’s Services for Japan Residents from Entities Performing Agency
+                Receipt</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>弁済方法の選択及び弁済先情報の登録期限を2023年1月10日（日本時間）から<u><b>2023年3月10日（日本時間）</b></u>に変更いたしました。詳細は、以下の「弁済方法の選択及び弁済先情報登録期限並びに弁済期限日変更のお知らせ」をご確認ください。
+            </p>
+            <p></p>
+            <p>
+                <a href="/img/pdf/20230106_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録期限並びに弁済期限日変更のお知らせ</a>
+            </p>
+            <p></p>
+            <p>The Rehabilitation Trustee has changed the deadline for Selection of Repayment Method and Registration of
+                Payee Information from January 10, 2023 (Japan time) to <u><b>March 10, 2023 (Japan time)</b></u>. For
+                details, please see the “Change of (i) Deadline for Selection of Repayment Method and Registration of
+                Payee Information and (ii) Repayment Deadline” below.</p>
+            <p></p>
+            <p><a href="/img/pdf/20230106_announcement_en.pdf">【Important】Change of (i) Deadline for Selection of
+                Repayment Method and Registration of Payee Information and (ii) Repayment Deadline</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>弁済方法の選択及び弁済先情報登録のお願い（内容は12月1日のものと同様です。）を再度掲載しましたのでご確認ください。弁済方法の選択及び弁済先情報登録（以下「本件選択及び登録」といいます）の期限は、<u><b>2023年1月10日（日本時間）</b></u>です。
+            </p>
+            <p>当該期限までに本件選択及び登録を完了しない場合、以下の弁済を受けることができません。</p>
+            <p>・早期一括弁済</p>
+            <p>・仮想通貨再生債権の一部に対する仮想通貨での弁済</p>
+            <p>・銀行送金による弁済</p>
+            <p>・資金移動業者による送金を用いた弁済</p>
+            <p></p>
+            <p>
+                そのため、現時点で本件選択及び登録が完了していない再生債権者の皆様は、下記「弁済方法の選択及び弁済先情報登録のお願い」その他の説明資料や管財人からのご案内をご確認いただき、速やかに本件選択及び登録を完了してください。
+            <p>
+            <p></p>
+            <p><a href="/img/pdf/20221220_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a></p>
+            <p>Please refer to the Notice regarding the Request to Select a Repayment Method and Register Payee
+                Information (The contents are the same as those of December 1st.) again. The deadline for selection of
+                repayment method and registration of payee information (“Selection and Registration”) is <u><b>January
+                    10, 2023 (Japan time)</b></u>.</p>
+            <p>Rehabilitation creditors who have not completed the Selection and Registration by the deadline will not
+                be able to receive any of the repayments below.</p>
+            <p>・Early Lump-Sum Repayment</p>
+            <p>・Repayment for a Portion of Cryptocurrency Rehabilitation Claims in Cryptocurrency</p>
+            <p>・Repayment by Bank Remittance</p>
+            <p>・Repayment by Remittance through a Fund Transfer Service Provider</p>
+            <p>Therefore, rehabilitation creditors who have not completed the Selection and Registration should refer to
+                the following Notice regarding the Request to Select a Repayment Method and Register Payee Information
+                and other relevant information the Rehabilitation Trustee provided the rehabilitation creditors with and
+                complete the Selection and Registration as soon as possible.</p>
+            <p><a href="/img/pdf/20221220_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>弁済方法の選択及び弁済先情報登録のお願いを掲載しましたのでご確認ください。弁済方法の選択及び弁済先情報登録の期限は、<u><b>2023年1月10日（日本時間）</b></u>です。
+            </p>
+            <p><a href="/img/pdf/20221201_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a></p>
+            <p>Please refer to the Notice regarding the Request to Select a Repayment Method and Register Payee
+                Information. The deadline for selection of repayment method and registration of payee information is <u><b>January
+                    10, 2023 (Japan time)</b></u>.</p>
+            <p><a href="/img/pdf/20221201_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>再生計画変更決定確定のお知らせを掲載しましたのでご確認ください。</p>
+            <p><a href="/img/pdf/20221028_announcement_ja.pdf">【重要】再生計画変更決定確定のお知らせ</a></p>
+            <p>Please refer to the Notice of Amendment of Rehabilitation Plan Becoming Final and Binding.</p>
+            <p><a href="/img/pdf/20221028_announcement_en.pdf">【Important】Notice of Amendment of Rehabilitation Plan
+                Becoming Final and Binding</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>弁済方法の選択及び弁済先情報登録機能のリリースに関するご案内を掲載しましたのでご確認ください。弁済方法の選択及び弁済先情報登録の期限は、<u><b>2023年1月10日（日本時間）</b></u>です。
+            </p>
+            <p>
+                <a href="/img/pdf/20221006_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録機能のリリースに関するご案内</a>
+            </p>
+            <p>Please refer to the Information on Launch of Function for Selection of Repayment Method and Registration
+                of Payee Information. The deadline for selection of repayment method and registration of payee
+                information is <u><b>January 10, 2023 (Japan time)</b></u>.</p>
+            <p><a href="/img/pdf/20221006_announcement_en.pdf">【Important】Information on Launch of Function for
+                Selection of Repayment Method and Registration of Payee Information.</a></p>
+        </div>
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>再生計画変更のお知らせを掲載しましたのでご確認ください。</p>
+            <p><a href="/img/pdf/20221004_announcement_ja.pdf">【重要】再生計画変更のお知らせ（令和4年10月6日更新）</a></p>
+            <p>Please refer to the Notice of Amendment of Rehabilitation Plan.</p>
+            <p><a href="/img/pdf/20221004_announcement_en.pdf">【Important】Notice of Amendment of Rehabilitation Plan
+                (Updated on October 6, 2022)</a></p>
+        </div>
+
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>氏名変更及び住所変更の手続に関するご案内を掲載しましたのでご確認ください。</p>
+            <p><a href="/img/pdf/20220921_announcement_ja.pdf">【重要】氏名変更及び住所変更の手続に関するご案内</a></p>
+            <p>Please refer to the Information on Procedures for Name and Address Change below.</p>
+            <p><a href="/img/pdf/20220921_announcement_en.pdf">【Important】Information on Procedures for Name and Address
+                Change</a></p>
+        </div>
+
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #ff4500;">
+            <p>再生債権の譲渡等の禁止に関するご案内を掲載しましたのでご確認ください。</p>
+            <p><a href="/img/pdf/20220831_announcement_ja.pdf">【重要】再生債権の譲渡等の禁止に関するご案内</a></p>
+            <p>Please refer to the Information on Prohibition of Assignment, etc. of Rehabilitation Claims below.</p>
+            <p><a href="/img/pdf/20220831_announcement_en.pdf">【Important】Information on Prohibition of Assignment, etc.
+                of Rehabilitation Claims</a></p>
+        </div>
+
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #2ecc71;">
+            <p>弁済に向けた手続に関するご案内を掲載しましたのでご確認ください。また、再生債権届出システム（<a
+                    href="https://claims.mtgox.com/">https://claims.mtgox.com/</a>）により詳細なご案内を掲載しておりますので、ご確認ください。
+            </p>
+            <p><a href="/img/pdf/20220706_announcement_ja.pdf">弁済に向けた手続に関するご案内</a></p>
+            <p>Please refer to the Information on Repayment Procedures below. For more details, please review documents
+                uploaded to the Online Rehabilitation Claim Filing System (<a href="https://claims.mtgox.com/">https://claims.mtgox.com/</a>).
+            </p>
+            <p><a href="/img/pdf/20220706_announcement_en.pdf">Information on Repayment Procedures</a></p>
+        </div>
+
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #2ecc71;">
+            <p>再生計画の認可決定が確定いたしました。</p>
+            <p><a href="/img/pdf/20211116_announcement_ja.pdf">再生計画認可決定確定のお知らせ</a></p>
+            <p>A confirmation order of the Rehabilitation Plan became final and binding.</p>
+            <p><a href="/img/pdf/20211116_announcement_en.pdf">Notice of Confirmation Order of Rehabilitation Plan
+                becoming Final and Binding.</a></p>
+        </div>
+
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #2ecc71;">
+            <p>債権者集会において再生計画案が可決され、東京地方裁判所により再生計画の認可決定がなされました。</p>
+            <p><a href="/img/pdf/20211020_announcement_ja.pdf">再生計画認可決定のお知らせ</a></p>
+            <p>The Draft Rehabilitation Plan was approved at a creditors&rsquo; meeting, and the Tokyo District Court
+                made a confirmation order of the Rehabilitation Plan.</p>
+            <p><a href="/img/pdf/20211020_announcement_en.pdf">Notice of Confirmation Order of Rehabilitation Plan</a>
+            </p>
+        </div>
+
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #2ecc71;">
+            <p><a href="/img/pdf/20211022_announcement_ja.pdf">本民事再生手続への参加希望の受付終了のご案内</a></p>
+            <p>
+                再生管財人は、2021年8月27日、「本民事再生手続への参加希望に関するご案内」をMTGOXのホームページ上に掲載いたしましたが、このご案内にてご連絡した本民事再生手続への参加希望の受付は、期限の経過により既に終了しております。つきましては、今後再生管財人に対して本民事再生手続への参加を希望する連絡がなされたとしても、対応致しかねますのでご了承ください。</p>
+            <p></p>
+            <p><a href="/img/pdf/20211022_announcement_en.pdf">Notice Concerning Passing of Deadline for Accepting
+                Requests for Participation in Rehabilitation Proceedings</a></p>
+            <p>On August 27, 2021 (Japan time), the Rehabilitation Trustee posted a notice titled “Notice Concerning
+                Participation in the Rehabilitation Proceedings” on the MtGox homepage. However, the deadline for
+                accepting requests for participation in the Rehabilitation Proceeding has already passed. Therefore,
+                please note that the Rehabilitation Trustee cannot respond to future requests for participation in the
+                Rehabilitation Proceedings.</p>
+        </div>
+
+        <p></p>
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #2ecc71;">
+            <p>（重要）本民事再生手続への参加希望に関するご案内</p>
+            <p>
+                一部の届出債権者から、2019年3月28日、破産債権、再生債権いずれの届出も行っていないユーザーの自認債権（債権者番号が「Z2」から始まる債権者の債権）に対して出された異議に関し、以下のとおり、「本民事再生手続への参加希望に関するご案内」を掲載しております。<u><b>異議が撤回されていない自認債権者で、本民事再生手続への参加を希望する方は、必ずご確認下さい。</b></u>
+            </p>
+            <p><a href="/img/pdf/20210827_announcement_ja.pdf">本民事再生手続への参加希望に関するご案内</a></p>
+            <p>（Important）Notice Concerning Participation in the Rehabilitation Proceedings</p>
+            <p>As to the objections made by certain creditors on March 28, 2019, to Self-Approved Claims of Users with
+                creditor numbers starting with Z2 who did not file their claims either in the previous bankruptcy
+                proceedings or in the current rehabilitation proceedings, the Rehabilitation Trustee has posted a
+                “Notice Concerning Participation in the Rehabilitation Proceedings” at the link below. <u><b>The
+                    self-approved creditors for whom the objections have not been withdrawn and who wish to participate
+                    in the rehabilitation proceedings must review the notice.</b></u></p>
+            <p><a href="/img/pdf/20210827_announcement_en.pdf">Notice Concerning Participation in the Rehabilitation
+                Proceedings</a></p>
+        </div>
+
+        <p></p>
+
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #2ecc71;">
+            <p>
+                再生債権届出システム（オンラインシステム）において、オンライン投票の機能がリリースされました。オンライン投票の期限は令和3年10月8日（日本時間）までです。</p>
+            <p><a href="/img/pdf/20210531_announcement_ja.pdf">オンライン投票機能リリースのお知らせ</a></p>
+            <p>The online voting function has been released on the online rehabilitation claim filing system (the online
+                system). The deadline for voting online is October 8, 2021 (Japan Time). </p>
+            <p><a href="/img/pdf/20210531_announcement_en.pdf">Notice of Release of Online Voting Function</a></p>
+        </div>
+
+        <p></p>
+
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #2ecc71;">
+            <p>東京地方裁判所により再生計画案を決議に付する旨の決定がなされました。</p>
+            <p><a href="/img/pdf/20210225_announcement_ja.pdf">再生計画案の付議決定について</a></p>
+
+            <p>The Tokyo District Court made an order to refer the draft rehabilitation plan to a resolution.</p>
+            <p><a href="/img/pdf/20210225_announcement_en.pdf">Order to Refer Draft Rehabilitation Plan to
+                Resolution</a></p>
+        </div>
+
+        <p></p>
+
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #2ecc71;">
+            <p>
+                2019年3月28日、一部の届出債権者から、破産債権、再生債権いずれの届出も行っていないユーザーの自認債権に対して異議が出されました。</p>
+            <p>詳細は下記のお知らせをご確認ください。</p>
+            <p>
+                <a href="/img/pdf/20190403_announcement_ja.pdf">「破産債権届出のない自認債権に対する届出債権者からの異議に関するお知らせ」</a>
+            </p>
+            <p>また、以下のとおり、取引所関係再生債権の認否に関するQ&amp;Aを掲載しますので、ご参照ください。</p>
+            <p><a href="/img/pdf/20190403_qa_ja.pdf">「取引所関係再生債権の認否に関するQ&amp;A」（平成31年4月5日更新）</a>
+            </p>
+
+            <p>On March 28, 2019, certain creditors objected to Self-Approved Claims of Users who did not file their
+                claims in the previous bankruptcy proceedings or in this current civil rehabilitation proceedings. For
+                further details, please refer to the post below.</p>
+            <p><a href="/img/pdf/20190403_announcement_en.pdf">[Notice concerning Objections from Creditors against
+                Self-Approved Rehabilitation Claims without Proofs of Bankruptcy Claim]</a></p>
+            <p>Also, the Q&amp;As below give details on our approval or disapproval of the filed claims.</p>
+            <p><a href="/img/pdf/20190403_qa_en.pdf">[Q&amp;As regarding Approval or Disapproval]</a></p>
+        </div>
+
+        <p></p>
+
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #2ecc71;">
+            <p>
+                再生管財人は、取引所関係再生債権を届け出たユーザーに対して、認否結果を通知しました。詳細は下記のお知らせをご確認ください。</p>
+            <p>
+                <a href="/img/pdf/20190326_announcement_ja.pdf">「取引所関係再生債権に係る認否結果の通知のお知らせ（平成31年3月27日更新）」</a>
+            </p>
+            <p>The Rehabilitation Trustee has emailed Users who filed the Exchange-Related Rehabilitation Claims
+                informing them of the results of our approval or disapproval. For further details, please refer to the
+                post below.</p>
+            <p><a href="/img/pdf/20190326_announcement_en.pdf">「Notification of Approval or Disapproval on
+                Exchange-Related Rehabilitation Claims（Updated on March 27, 2019）」</a></p>
+        </div>
+
+        <p></p>
+
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #2ecc71;">
+
+            <p>
+                ＭＴＧＯＸにつき、平成３０年６月２２日午後５時、東京地方裁判所より民事再生手続開始決定がなされ民事再生手続が開始されました。これにより、従前行われていた本件破産手続は、中止されました。また、民事再生手続開始決定と同時に東京地方裁判所より管理命令が発令され当職が再生管財人に選任されました（東京地方裁判所平成２９（再）第３５号再生手続開始申立事件）。</p>
+
+            <p>本再生手続に関する詳細な情報は、下記のお知らせをご覧ください。</p>
+            <p><a href="/img/pdf/20180622_announcement_jp.pdf">「民事再生手続開始決定のお知らせ」</a></p>
+
+            <p>At 5:00 p.m. on June 22, 2018, the Tokyo District Court issued an order of the commencement of civil
+                rehabilitation proceedings for MTGOX. As a result, the previously ongoing bankruptcy proceedings were
+                stayed. In addition, simultaneously with the order of the commencement of civil rehabilitation
+                proceedings, an administration order was issued by the Tokyo District Court, and I have been appointed
+                Civil Rehabilitation Trustee ([In the Matter of a ]Petition for Commencement of Civil Rehabilitation
+                Proceedings, Tokyo District Court 2017 (sai) no. 35).</p>
+
+            <p>Please refer to the post below for further information on the Commencement of Civil Rehabilitation
+                Proceedings.</p>
+            <p><a href="/img/pdf/20180622_announcement_en.pdf">「Announcement of Commencement of Civil Rehabilitation
+                Proceedings」</a></p>
+
+        </div>
+        <p></p>
+
+        <h3>Press Releases &amp; Announcements:</h3>
+
+        <ul>
+            <li>2026-10-16: <a href="/img/pdf/20261016_b3a13e0f-55f6-4653-913b-be80762390e8_announcement_ja.pdf">【重要】弁済期限日の変更に関するお知らせ</a> /
+                <a href="/img/pdf/20261016_b3a13e0f-55f6-4653-913b-be80762390e8_announcement_en.pdf">【Important】Notice Concerning Change of Repayment Deadlines</a></li>
+            <li>2025-12-25: <a href="/img/pdf/20251225_3f83273a-4173-4dda-adfd-3a3a28533551_announcement.pdf">年末年始におけるコールセンター窓口休止のお知らせ
+                / Re: Suspension of Call Center Service during Year-end and New Year Holidays</a></li>
+            <li>2025-10-29: <a href="/img/pdf/20251029_66da5e9b-d7d0-4ebf-9f33-fcc9207f34b7_announcement_ja.pdf">【注意】MTGOX虚偽サイト・虚偽メールに対する注意喚起</a> /
+                <a href="/img/pdf/20251029_66da5e9b-d7d0-4ebf-9f33-fcc9207f34b7_announcement_en.pdf">【Caution】Regarding the Fraudulent Websites and Emails Impersonating “MTGOX” or the Rehabilitation Trustee</a></li>
+            <li>2025-10-27: <a href="/img/pdf/20251027_1cc36334-e8b2-4fe4-8135-97d9a149e4f7_announcement_ja.pdf">【重要】弁済期限日の変更に関するお知らせ</a> /
+                <a href="/img/pdf/20251027_1cc36334-e8b2-4fe4-8135-97d9a149e4f7_announcement_en.pdf">【Important】Notice Concerning Change of Repayment Deadlines</a></li>
+            <li>2025-03-27: <a href="/img/pdf/20250327_50441ef4-dc28-473a-9fd2-495db2da4bbd_announcement_ja.pdf">ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせ(6)</a> /
+                <a href="/img/pdf/20250327_50441ef4-dc28-473a-9fd2-495db2da4bbd_announcement_en.pdf">Notice regarding Repayments in Bitcoin and Bitcoin Cash(6)</a></li>
+            <li>2025-01-10: <a href="/img/pdf/20250331_e4c1a341-2280-4926-9286-e565d4a97df9_announcement_ja.pdf">【注意】MTGOXの名称及びロゴを無断使用するウェブサイトについて</a> /
+                <a href="/img/pdf/20250331_e4c1a341-2280-4926-9286-e565d4a97df9_announcement_en.pdf">Caution: Regarding Unauthorized Use of MTGOX Name and Logo by Website</a></li>
+            <li>2024-12-26: <a href="/img/pdf/20241226_2b514487-7770-4268-b541-e698fe37539e_announcement.pdf">年末年始におけるコールセンター窓口休止のお知らせ
+                / Re: Suspension of Call Center Service during Year-end and New Year Holidays</a></li>
+            <li>2024-10-10: <a href="/img/pdf/20241010_1b5ee10e-cf5b-420e-9e41-43ccd9e515e5_announcement_ja.pdf">【重要】弁済期限日の変更に関するお知らせ</a> /
+                <a href="/img/pdf/20241010_1b5ee10e-cf5b-420e-9e41-43ccd9e515e5_announcement_en.pdf">【Important】Notice Concerning Change of Repayment Deadlines</a></li>
+            <li>2024-08-21: <a href="/img/pdf/20240821_e8dbec0c-1fd8-42b5-b0d9-0b98ab42587c_announcement_ja.pdf">ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせ(5)</a> /
+                <a href="/img/pdf/20240821_e8dbec0c-1fd8-42b5-b0d9-0b98ab42587c_announcement_en.pdf">Notice regarding Repayments in Bitcoin and Bitcoin Cash(5)</a></li>
+            <li>2024-07-31: <a href="/img/pdf/20240731_f6e19c0e-85b0-41f6-8102-2e8cafc9c498_announcement_ja.pdf">ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせ(4)</a> /
+                <a href="/img/pdf/20240731_f6e19c0e-85b0-41f6-8102-2e8cafc9c498_announcement_en.pdf">Notice regarding Repayments in Bitcoin and Bitcoin Cash(4)</a></li>
+            <li>2024-07-24: <a href="/img/pdf/20240724_aeedf9f1-7f27-40ec-ad70-26d2811167a5_announcement_ja.pdf">ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせ(3)</a> /
+                <a href="/img/pdf/20240724_aeedf9f1-7f27-40ec-ad70-26d2811167a5_announcement_en.pdf">Notice regarding Repayments in Bitcoin and Bitcoin Cash(3)</a></li>
+            <li>2024-07-16: <a href="/img/pdf/20240716_c63b18e5-6a79-4f24-9c1c-3dbd74dc6f78_announcement_ja.pdf">ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせ(2)</a> /
+                <a href="/img/pdf/20240716_c63b18e5-6a79-4f24-9c1c-3dbd74dc6f78_announcement_en.pdf">Notice regarding Repayments in Bitcoin and Bitcoin Cash(2)</a></li>
+            <li>2024-07-05: <a href="/img/pdf/20240705_01_announcement_ja.pdf">ビットコイン及びビットコインキャッシュによる弁済の実施に関するお知らせ</a> /
+                <a href="/img/pdf/20240705_01_announcement_en.pdf">Notice regarding Repayments in Bitcoin and Bitcoin Cash</a></li>
+            <li>2024-07-05: <a href="/img/pdf/20240705_02_announcement_ja.pdf">日本に居住する再生債権者による申告及び納税について</a> /
+                <a href="/img/pdf/20240705_02_announcement_en.pdf">Tax Filing and Payment Obligations for Rehabilitation Creditors Residing in Japan</a></li>
+            <li>2024-06-24: <a href="/img/pdf/20240624_announcement_ja.pdf">【重要】ビットコイン及びビットコインキャッシュによる弁済の開始に関するお知らせ</a> /
+                <a href="/img/pdf/20240624_announcement_en.pdf">【Important】Notice regarding Commencement of Repayments in Bitcoin and Bitcoin Cash</a></li>
+	    <li>2024-05-28: <a href="/img/pdf/20240528_announcement_ja.pdf">再生管財人が保有する仮想通貨に関するお知らせ</a> / <a href="/img/pdf/20240528_announcement_en.pdf">Notice regarding Cryptocurrency held by the Rehabilitation Trustee</a></li>
+            <li>2024-04-17: <a href="/img/pdf/20240417_announcement_ja.pdf">【注意】MTGOX関係者を騙る虚偽のメールについて</a> /
+                <a href="/img/pdf/20240417_announcement_en.pdf">【Caution】Please be on the Alert for Fraudulent Emails Impersonating the “MTGOX Team”</a></li>
+            <li>2023-12-28: <a href="/img/pdf/20231228_announcement.pdf">年末年始におけるコールセンター窓口休止のお知らせ
+                / Re: Suspension of Call Center Service during Year-end and New Year Holidays</a></li>
+            <li>2023-11-22: <a href="/img/pdf/20231122_announcement_ja.pdf">信託財産の償還の実施に関するお知らせ</a> /
+                <a href="/img/pdf/20231122_announcement_en.pdf">Announcement on Redemption of Trust Assets</a></li>
+            <li>2023-09-21: <a href="/img/pdf/20230921_announcement_ja.pdf">【重要】弁済期限日の変更に関するお知らせ</a> /
+                <a href="/img/pdf/20230921_announcement_en.pdf">【Important】Notice Concerning Change of Repayment Deadlines</a></li>
+            <li>2023-06-14: <a href="/img/pdf/20230614_announcement_ja.pdf">法人本人確認資料のアップロードのお願い</a> /
+                <a href="/img/pdf/20230614_announcement_en.pdf">Request to Upload Documents for Verification of
+                    Corporate Identity</a></li>
+            <li>2023-06-08: <a href="/img/pdf/20230608_announcement_ja.pdf">再生計画変更決定確定のお知らせ</a> / <a
+                    href="/img/pdf/20230608_announcement_en.pdf">Notice of Amendment of Rehabilitation Plan Becoming
+                Final and Binding</a></li>
+            <li>2023-05-31: <a href="/img/pdf/20230531_announcement_ja.pdf">法人本人確認資料のアップロードのお願い</a> /
+                <a href="/img/pdf/20230531_announcement_en.pdf">Request to Upload Documents for Verification of
+                    Corporate Identity</a></li>
+            <li>2023-05-29: <a
+                    href="/img/pdf/20230529_announcement_ja.pdf">再生計画の変更及び弁済に係る許可取得に関するお知らせ</a>
+                / <a href="/img/pdf/20230529_announcement_en.pdf">Notice Concerning Amendment of Rehabilitation Plan and
+                    Acquisition of Permission Regarding Repayments</a></li>
+            <li>2023-05-19: <a href="/img/pdf/20230519_announcement_ja.pdf">法人本人確認資料のアップロードのお願い</a> /
+                <a href="/img/pdf/20230519_announcement_en.pdf">Request to Upload Documents for Verification of
+                    Corporate Identity</a></li>
+            <li>2023-04-07: <a
+                    href="/img/pdf/20230407_announcement_ja.pdf">弁済方法の選択及び弁済先情報の登録期限の満了に関するお知らせ</a>
+                / <a href="/img/pdf/20230407_announcement_en.pdf">Notice of Expiration of Deadline for Selecting
+                    Repayment Methods and Registering Payee Information</a></li>
+            <li>2023-04-03: <a
+                    href="/img/pdf/20230403_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a> / <a
+                    href="/img/pdf/20230403_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></li>
+            <li>2023-03-28: <a
+                    href="/img/pdf/20230328_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a> / <a
+                    href="/img/pdf/20230328_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></li>
+            <li>2023-03-23: <a
+                    href="/img/pdf/20230323_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a> / <a
+                    href="/img/pdf/20230323_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></li>
+            <li>2023-03-09: <a
+                    href="/img/pdf/20230309_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録期限並びに弁済期限日変更のお知らせ</a>
+                / <a href="/img/pdf/20230309_announcement_en.pdf">【Important】Change of (i) Deadline for Selection of
+                    Repayment Method and Registration of Payee Information and (ii) Repayment Deadline</a></li>
+            <li>2023-03-07: <a
+                    href="/img/pdf/20230307_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a> / <a
+                    href="/img/pdf/20230307_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></li>
+            <li>2023-03-03: <a
+                    href="/img/pdf/20230303_announcement_ja.pdf">ニュージーランド裁判所による差押命令のお知らせ</a> / <a
+                    href="/img/pdf/20230303_announcement_en.pdf">Notice regarding Restraining Order by New Zealand
+                Court</a></li>
+            <li>2023-03-01: <a
+                    href="/img/pdf/20230301_02_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a> /
+                <a href="/img/pdf/20230301_02_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                    Register Payee Information.</a></li>
+            <li>2023-03-01: <a href="/img/pdf/20230301_01_announcement_ja.pdf">【重要】Payward
+                Asia株式会社の代理受領法人からの離脱に伴う代理受領合意の取扱いに関するお知らせ</a> / <a
+                    href="/img/pdf/20230301_01_announcement_en.pdf">【Important】Notice regarding Handling of Agency
+                Receipt Agreement upon Withdrawal of Payward Asia, Inc. from Entities Performing Agency Receipt</a></li>
+            <li>2023-02-22: <a
+                    href="/img/pdf/20230222_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a> / <a
+                    href="/img/pdf/20230222_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></li>
+            <li>2023-02-09: <a
+                    href="/img/pdf/20230209_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a> / <a
+                    href="/img/pdf/20230209_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></li>
+            <li>2023-01-20: <a href="/img/pdf/20230120_announcement_ja.pdf">【重要】Krakenの日本居住者向けサービスを提供していたPayward
+                Asia株式会社の代理受領法人からの離脱のお知らせ</a> / <a href="/img/pdf/20230120_announcement_en.pdf">【Important】Notice
+                regarding Withdrawal of Payward Asia, Inc. which Had Provided Kraken’s Services for Japan Residents from
+                Entities Performing Agency Receipt</a></li>
+            <li>2023-01-06: <a
+                    href="/img/pdf/20230106_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録期限並びに弁済期限日変更のお知らせ</a>
+                / <a href="/img/pdf/20230106_announcement_en.pdf">【Important】Change of (i) Deadline for Selection of
+                    Repayment Method and Registration of Payee Information and (ii) Repayment Deadline</a></li>
+            <li>2022-12-29: <a href="/img/pdf/20221229_announcement.pdf">年末年始におけるコールセンター窓口休止のお知らせ
+                / Re: Suspension of Call Center Service during Year-end and New Year Holidays</a></li>
+            <li>2022-12-20: <a
+                    href="/img/pdf/20221220_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a> / <a
+                    href="/img/pdf/20221220_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></li>
+            <li>2022-12-01: <a
+                    href="/img/pdf/20221201_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録のお願い</a> / <a
+                    href="/img/pdf/20221201_announcement_en.pdf">【Important】Request to Select a Repayment Method and
+                Register Payee Information.</a></li>
+            <li>2022-10-28: <a href="/img/pdf/20221028_announcement_ja.pdf">【重要】再生計画変更決定確定のお知らせ</a> /
+                <a href="/img/pdf/20221028_announcement_en.pdf">【Important】Notice of Amendment of Rehabilitation Plan
+                    Becoming Final and Binding</a></li>
+            <li>2022-10-06: <a
+                    href="/img/pdf/20221006_announcement_ja.pdf">【重要】弁済方法の選択及び弁済先情報登録機能のリリースに関するご案内</a>
+                / <a href="/img/pdf/20221006_announcement_en.pdf">【Important】Information on Launch of Function for
+                    Selection of Repayment Method and Registration of Payee Information</a></li>
+            <li>2022-10-04: <a
+                    href="/img/pdf/20221004_announcement_ja.pdf">【重要】再生計画変更のお知らせ（令和4年10月6日更新）</a> /
+                <a href="/img/pdf/20221004_announcement_en.pdf">【Important】Notice of Amendment of Rehabilitation Plan
+                    (Updated on October 6, 2022)</a></li>
+            <li>2022-09-21: <a
+                    href="/img/pdf/20220921_announcement_ja.pdf">【重要】氏名変更及び住所変更の手続に関するご案内</a> / <a
+                    href="/img/pdf/20220921_announcement_en.pdf">【Important】Information on Procedures for Name and
+                Address Change</a></li>
+            <li>2022-09-05: <a
+                    href="/img/pdf/20220905_announcement_ja.pdf">【重要】オンラインシステム初期登録又は再登録のご案内</a>
+                / <a href="/img/pdf/20220905_announcement_en.pdf">【Important】Notice Concerning Initial
+                    Registration/Re-registration on Online System</a></li>
+            <li>2022-08-31: <a
+                    href="/img/pdf/20220831_announcement_ja.pdf">【重要】再生債権の譲渡等の禁止に関するご案内</a> / <a
+                    href="/img/pdf/20220831_announcement_en.pdf">【Important】Information on Prohibition of Assignment,
+                etc. of Rehabilitation Claims</a></li>
+            <li>2022-07-06: <a href="/img/pdf/20220706_announcement_ja.pdf">弁済に向けた手続に関するご案内</a> / <a
+                    href="/img/pdf/20220706_announcement_en.pdf">Information on Repayment Procedures</a></li>
+            <li>2022-02-14: <a
+                    href="/img/pdf/20220214_announcement.pdf">自認債権者向けオンラインシステム登録機能のリリースのお知らせ（第5弾）</a>
+                / <a href="/img/pdf/20220214_announcement_en.pdf">Announcement of Release of Online System Registration
+                    Feature for Self-Approved Creditors (Phase 5)</a></li>
+            <li>2022-01-06: <a
+                    href="/img/pdf/20220106_announcement.pdf">自認債権者向けオンラインシステム登録機能のリリースのお知らせ（第4弾）</a>
+                / <a href="/img/pdf/20220106_announcement_en.pdf">Announcement of Release of Online System Registration
+                    Feature for Self-Approved Creditors (Phase 4)</a></li>
+            <li>2021-12-28: <a href="/img/pdf/20211228_announcement.pdf">年末年始におけるコールセンター窓口休止のお知らせ/Re:
+                Suspension of Call Center Service during Year-end and New Year Holidays</a></li>
+            <li>2021-12-15: <a href="/img/pdf/20211215_announcement_ja.pdf">MGIF提供担保の提供に関するお知らせ</a> / <a
+                    href="/img/pdf/20211215_announcement_en.pdf">Notice regarding Provision of MGIF Collateral</a></li>
+            <li>2021-11-30: <a
+                    href="/img/pdf/20211130_announcement_ja.pdf">自認債権者向けオンラインシステム登録機能のリリースのお知らせ（第3弾）</a>
+                / <a href="/img/pdf/20211130_announcement_en.pdf">Announcement of Release of Online System Registration
+                    Feature for Self-Approved Creditors (Phase 3)</a></li>
+            <li>2021-11-16: <a href="/img/pdf/20211116_announcement_ja.pdf">再生計画認可決定確定のお知らせ</a> / <a
+                    href="/img/pdf/20211116_announcement_en.pdf">Notice of Confirmation Order of Rehabilitation Plan
+                becoming Final and Binding.</a></li>
+            <li>2021-10-22: <a
+                    href="/img/pdf/20211022_announcement_ja.pdf">本民事再生手続への参加希望の受付終了のご案内</a> / <a
+                    href="/img/pdf/20211022_announcement_en.pdf">Notice Concerning Passing of Deadline for Accepting
+                Requests for Participation in Rehabilitation Proceedings</a></li>
+            <li>2021-10-20: <a href="/img/pdf/20211020_announcement_ja.pdf">再生計画認可決定のお知らせ</a> / <a
+                    href="/img/pdf/20211020_announcement_en.pdf">Notice of Confirmation Order of Rehabilitation Plan</a>
+            </li>
+            <li>2021-10-12: <a href="/img/pdf/20211012_000_announcement_ja.pdf">債権者集会に関するお知らせ</a> / <a
+                    href="/img/pdf/20211012_000_announcement_en.pdf">Notice regarding Creditors&rsquo; Meeting</a></li>
+            <li>2021-10-06: <a
+                    href="/img/pdf/20211006_000_announcement_ja.pdf">オンラインシステムに初期登録/再登録する方法</a> /
+                <a href="/img/pdf/20211006_000_announcement_en.pdf">How to register/re-register for Online System</a>
+            </li>
+            <li>2021-09-21: <a
+                    href="/img/pdf/20210921_000_announcement_ja.pdf">【重要】オンラインシステム初期登録のご案内</a> / <a
+                    href="/img/pdf/20210921_000_announcement_en.pdf">【Important】Announcement of the Online System
+                Initial Registration</a></li>
+            <li>2021-09-21: <a
+                    href="/img/pdf/20210921_001_announcement_ja.pdf">自認債権者向けオンラインシステム登録機能のリリースのお知らせ（第２弾）</a>
+                / <a href="/img/pdf/20210921_001_announcement_en.pdf">Announcement of Release of Online System
+                    Registration Feature for Self-Approved Creditors (Phase 2)</a></li>
+            <li>2021-08-27: <a
+                    href="/img/pdf/20210827_announcement_ja.pdf">（重要）本民事再生手続への参加希望に関するご案内</a> / <a
+                    href="/img/pdf/20210827_announcement_en.pdf">（Important）Notice Concerning Participation in the
+                Rehabilitation Proceedings</a></li>
+            <li>2021-07-16: <a
+                    href="/img/pdf/20210716_announcement_ja.pdf">自認債権者向けオンラインシステム登録機能のリリースのお知らせ（第1弾）</a>
+                / <a href="/img/pdf/20210716_announcement_en.pdf">Announcement of Release of Online System Registration
+                    Feature for Self-Approved Creditors (Phase 1)</a></li>
+            <li>2021-05-31: <a href="/img/pdf/20210531_announcement_ja.pdf">オンライン投票機能リリースのお知らせ</a> /
+                <a href="/img/pdf/20210531_announcement_en.pdf">Notice of Release of Online Voting Function</a></li>
+
+            <li>2021-05-26: <a
+                    href="/img/pdf/20210526_announcement_ja.pdf">再生計画案への投票に際する参照資料閲覧開始のお知らせ</a>
+                / <a href="/img/pdf/20210526_announcement_en.pdf">Notice of Commencement of Inspection of Reference
+                    Materials for Voting on Draft Rehabilitation Plan</a></li>
+            <li>2021-03-19: <a
+                    href="/img/pdf/20210319_announcement_ja.pdf">新型コロナウイルス感染拡大防止のための第6回債権者集会出席自粛のお願い</a>
+                / <a href="/img/pdf/20210319_announcement_en.pdf">Request to Refrain from Attending Sixth Creditors&rsquo;
+                    Meeting to Prevent Spread of Infection of Coronavirus Disease 2019 (COVID-19)</a></li>
+            <li>2021-02-25: <a href="/img/pdf/20210225_announcement_ja.pdf">再生計画案の付議決定について</a> / <a
+                    href="/img/pdf/20210225_announcement_en.pdf">Order to Refer Draft Rehabilitation Plan to
+                Resolution</a></li>
+            <li>2021-01-07: <a
+                    href="/img/pdf/20210107_announcement_ja.pdf">オフライン債権者向けオンラインシステム登録機能のリリースのお知らせ</a>
+                / <a href="/img/pdf/20210107_announcement_en.pdf">Announcement of Release of Online System Registration
+                    Function for Offline Creditors</a></li>
+            <li>2020-12-29: <a href="/img/pdf/20201229_announcement.pdf">年末年始におけるコールセンター窓口休止のお知らせ/
+                Re: Suspension of Call Center Service during Year end and New Year Holidays</a></li>
+            <li>2020-12-15: <a href="/img/pdf/20201215_announcement_ja.pdf">再生計画案の提出に関するお知らせ</a> / <a
+                    href="/img/pdf/20201215_announcement_en.pdf">Announcement of Filing of Draft Rehabilitation Plan</a>
+            </li>
+            <li>2020-10-15: <a
+                    href="/img/pdf/20201015_announcement_ja.pdf">再生計画案の提出期限の変更に関するお知らせ</a> / <a
+                    href="/img/pdf/20201015_announcement_en.pdf">Announcement of Order to Change Submission Deadline for
+                Rehabilitation Plan</a></li>
+            <li>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2020年10月7日、第5回債権者集会（民事再生手続）が開催されました。<br/>
+                    次回の債権者集会は2021年3月24日午後3時より東京地方裁判所債権者等集会場1（家簡地裁合同庁舎5階）において開催されます。<br/>
+                    On October 7, 2020, the fifth creditor&rsquo;s meeting (Civil Rehabilitation Proceedings) was
+                    held.<br/>
+                    Next creditors&rsquo; meeting will be held at Tokyo District Courtroom for Creditors&rsquo; Meeting
+                    No.1 (5F, joint government building for the domestic, summary and district courts) at 15:00 on March
+                    24, 2021.
+                </div>
+            </li>
+            <li>2020-10-01: <a
+                    href="/img/pdf/20201001_announcement_ja.pdf">新型コロナウイルス感染拡大防止のための第5回債権者集会出席自粛のお願い</a>
+                / <a href="/img/pdf/20201001_announcement_en.pdf">Request to Refrain from Attending Fifth Creditors’
+                    Meeting to Prevent Spread of Infection of Coronavirus Disease 2019 (COVID-19)</a></li>
+            <li>2020-06-30: <a
+                    href="/img/pdf/20200630_announcement_ja.pdf">再生計画案の提出期限の変更に関するお知らせ</a> / <a
+                    href="/img/pdf/20200630_announcement_en.pdf">Announcement of Order to Change Submission Deadline for
+                Rehabilitation Plan</a></li>
+            <li>2020-05-07: <a
+                    href="/img/pdf/20200507_announcement_ja.pdf">新型コロナウイルス感染拡大に伴う管財業務の制約について</a>
+                / <a href="/img/pdf/20200507_announcement_en.pdf">Limitation of Rehabilitation Trustee&rsquo;s Work due
+                    to Spread of Infection of Coronavirus Disease 2019 (COVID-19)</a></li>
+            <li>2020-03-30: <a
+                    href="/img/pdf/20200330_announcement_ja.pdf">再生計画案の提出期限の変更に関するお知らせ</a> / <a
+                    href="/img/pdf/20200330_announcement_en.pdf">Announcement of Order to Change Submission Deadline for
+                Rehabilitation Plan</a></li>
+            <li>2020-03-24: <a href="/img/pdf/20200324_announcement_ja.pdf">第4回債権者集会（民事再生手続）配付資料アップロードに関するお知らせ
+                （令和2年3月25日更新）</a> / <a href="/img/pdf/20200324_announcement_en.pdf">Announcement regarding Upload
+                of Documents Distributed at the Fourth Creditors&rsquo; Meeting (Civil Rehabilitation Proceedings)
+                （Updated on March 25, 2020)</a></li>
+            <li>2020-03-13: <a
+                    href="/img/pdf/202003132_announcement_ja.pdf">特別調査の対象となる再生債権に係る認否書提出のお知らせ</a>
+                / <a href="/img/pdf/202003132_announcement_en.pdf">Announcement of Submission of Statement of Acceptance
+                    or Rejection of Rehabilitation Claims Subject to Special Investigation</a></li>
+            <li>2020-03-13: <a
+                    href="/img/pdf/20200313_announcement_ja.pdf">新型コロナウイルス感染拡大防止のための債権者集会出席の自粛のお願い</a>
+                / <a href="/img/pdf/20200313_announcement_en.pdf">Request to Refrain from Attending Creditors&rsquo;
+                    Meetings to Prevent Spread of Infection of Coronavirus Disease 2019 (Covid-19)</a></li>
+            <li>2020-02-26: <a href="/img/pdf/20200226_announcement_ja.pdf">特別調査期間の決定に関するお知らせ</a> / <a
+                    href="/img/pdf/20200226_announcement_en.pdf">Announcement of Order to Set the Period of Special
+                Investigation</a></li>
+            <li>2020-02-21: <a href="/img/pdf/20200221_announcement_ja.pdf">オフライン債権者宛の書面発送について</a> /
+                <a href="/img/pdf/20200221_announcement_en.pdf">Mailing to Offline Users</a></li>
+            <li>2019-12-27: <a href="/img/pdf/20191227_announcement.pdf">年末年始におけるコールセンター窓口休止のお知らせ
+                / Re: Suspension of Call Center Service during Year-end and New Year Holidays</a></li>
+            <li>2019-10-28: <a
+                    href="/img/pdf/20191028_announcement_ja.pdf">再生計画案の提出期限の変更に関するお知らせ</a> / <a
+                    href="/img/pdf/20191028_announcement_en.pdf">Announcement of Order to Change Submission Deadline for
+                Rehabilitation Plan</a></li>
+            <li>2019-10-18: <a
+                    href="/img/pdf/20191018_announcement_ja.pdf">債権届出期間経過後の再生債権届出に関するお知らせ</a> /
+                <a href="/img/pdf/20191018_announcement_en.pdf">Announcement regarding Proofs of Rehabilitation Claims
+                    Filed after Deadline</a></li>
+            <li>2019-10-01: <a href="/img/pdf/20191001_report.pdf">第3回債権者集会（民事再生手続）配付資料/ Documents
+                distributed at the third creditors&rsquo; meeting (Civil Rehabilitation Proceedings)</a>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2019年10月1日、第3回債権者集会（民事再生手続）が開催されました。<br/>
+                    次回の債権者集会は2020年3月25日午後1時30分より東京地方裁判所債権者等集会場1（家簡地裁合同庁舎5階）において開催されます。<br/>
+                    On October 1, 2019, the third creditor&rsquo;s meeting (Civil Rehabilitation Proceedings) was
+                    held.<br/>
+                    Next creditor&rsquo;s meeting will be held at Tokyo District Courtroom for Creditors&rsquo; Meeting
+                    No.1 (5F, joint government building for the domestic, summary and district courts) at 13:30 on March
+                    25, 2020.
+                </div>
+            </li>
+
+            <li>2019-07-05: <a href="/img/pdf/20190628_qa_ja.pdf">債権届出期間経過後の再生債権届出に関する基本的なQ&amp;A（2019年10月9日更新版）</a>
+                / <a href="/img/pdf/20190628_qa_en.pdf">Basic Q&amp;A regarding Proofs of Rehabilitation Claims Filed
+                    after Deadline (Updated on October 9, 2019)</a></li>
+            <li>2019-04-25: <a
+                    href="/img/pdf/20190425_announcement_ja.pdf">再生計画案の提出期限の変更に関するお知らせ</a> / <a
+                    href="/img/pdf/20190425_announcement_en.pdf">Announcement of Order to Change Submission Deadline for
+                Rehabilitation Plan</a></li>
+            <li>2019-04-09: <a href="/img/pdf/20190409_announcement.pdf">連休期間中のコールセンター窓口及びメールサポートの対応について
+                / Re: Close of Call Center Service and Email Support during Consecutive Japanese National Holidays</a>
+            </li>
+            <li>2019-04-03: <a
+                    href="/img/pdf/20190403_announcement_ja.pdf">破産債権届出のない自認債権に対する届出債権者からの異議に関するお知らせ</a>
+                / <a href="/img/pdf/20190403_announcement_en.pdf">Notice concerning Objections from Creditors against
+                    Self-Approved Rehabilitation Claims without Proofs of Bankruptcy Claim</a></li>
+
+            <li>2019-04-03: <a
+                    href="/img/pdf/20190403_qa_ja.pdf">取引所関係再生債権の認否に関するQ&amp;A（平成31年4月5日更新）</a> /
+                <a href="/img/pdf/20190403_qa_en.pdf">Q&amp;As regarding Approval or Disapproval</a></li>
+
+            <li>2019-03-26: <a
+                    href="/img/pdf/20190326_announcement_ja.pdf">取引所関係再生債権に係る認否結果の通知のお知らせ（平成31年3月27日更新）</a>
+                / <a href="/img/pdf/20190326_announcement_en.pdf">Notification of Approval or Disapproval on
+                    Exchange-Related Rehabilitation Claims（Updated on March 27, 2019）</a></li>
+            <li>2019-03-20: <a href="/img/pdf/20190320_report.pdf">第2回債権者集会（民事再生手続）配布資料 / Documents
+                distributed at the second creditors&rsquo; meeting (Civil Rehabilitation Proceedings)</a>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2019年3月20日、第2回債権者集会（民事再生手続）が開催されました。<br/>
+                    次回の債権者集会は2019年10月1日午後1時30分より東京地方裁判所債権者等集会場1（家簡地裁合同庁舎5階）において開催されます。<br/>
+                    On March 20, 2019, the second creditor&rsquo;s meeting (Civil Rehabilitation Proceedings) was
+                    held.<br/>
+                    Next creditor&rsquo;s meeting will be held at Tokyo District Courtroom for Creditors&rsquo; Meeting
+                    No.1 (5F, joint government building for the domestic, summary and district courts) at 13:30 on
+                    October 1, 2019.
+                </div>
+            </li>
+
+            <li>2019-03-19: <a
+                    href="/img/pdf/20190319_announcement_ja.pdf">取引所関係再生債権に係る認否書提出のお知らせ</a> / <a
+                    href="/img/pdf/20190319_announcement_en.pdf">Notice of Submission of Statement of Approval or
+                Disapproval on Exchange-Related Rehabilitation Claims</a></li>
+            <li>2019-02-08: <a
+                    href="/img/pdf/20190208_announcement_ja.pdf">認否書に記載される譲渡債権の名義に関するお知らせ</a> /
+                <a href="/img/pdf/20190208_announcement_en.pdf">Announcement Regarding Transferees of Transferred Claims
+                    Who Will Be Listed in Statement of Approval or Disapproval</a></li>
+            <li>2019-01-25: <a
+                    href="/img/pdf/20190125_announcement_ja.pdf">非取引所関係再生債権の認否に関するお知らせ</a> / <a
+                    href="/img/pdf/20190125_announcement_en.pdf">Announcement of Approval or Disapproval on
+                Non-Exchange-Related Rehabilitation Claims</a></li>
+            <li>2019-01-24: <a
+                    href="/img/pdf/20190124_announcement_ja.pdf">再生債権認否書の提出期限等の変更に関するお知らせ</a> /
+                <a href="/img/pdf/20190124_announcement_en.pdf">Announcement of Order to Change Schedule for Civil
+                    Rehabilitation Proceedings</a></li>
+            <li>2018-12-26: <a href="/img/pdf/20181226_announcement.pdf">年末年始におけるコールセンター窓口休止のお知らせ
+                / Re: Suspension of Call Center Service during Year-end and New Year Holidays</a></li>
+            <li>2018-10-09: <a href="/img/pdf/20181009_announcement.pdf">Payward, Inc.との覚書の締結に関するお知らせ /
+                Announcement on Execution of Memorandum with Payward, Inc.</a></li>
+            <li>2018-10-03: <a
+                    href="/img/pdf/20181003_announcement_ja.pdf">破産債権の譲受人による再生債権届出に関するお知らせ</a>
+                / <a href="/img/pdf/20181003_announcement_en.pdf">Announcement for Filing of Proofs of Claims by
+                    Transferee of Bankruptcy Claims</a></li>
+            <li>2018-09-26: <a href="/img/pdf/20180926_report.pdf">財産状況報告集会配付資料 / Documents distributed at
+                the Meeting for reporting the status of property（Updated on December 3, 2018）</a>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2018年9月26日、財産状況報告集会が開催されました。<br/>
+                    次回の債権者集会は2019年3月20日午後1時30分より東京地方裁判所債権者等集会場1（家簡地裁合同庁舎5階）において開催されます。<br/>
+                    On September 26, 2018, the Meeting for reporting the status of property was held.<br/>
+                    Next creditor&rsquo;s meeting will be held at Tokyo District Courtroom for Creditors&rsquo; Meeting
+                    No.1 (5F, joint government building for the domestic, summary and district courts) at 13:30 on March
+                    20, 2019.
+                </div>
+            </li>
+            <li>2018-09-25: <a href="/img/pdf/20180925_announcement_ja.pdf">破産債権者の利益確保措置に関するお知らせ</a>
+                / <a href="/img/pdf/20180925_announcement_en.pdf">Announcement on Measures to Secure Interests of
+                    Bankruptcy Creditors</a></li>
+        </ul>
+
+        <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify; border: medium solid #2ecc71;">
+            <p>再生債権の届出開始に関するお知らせ等を掲載しました。<br/>The rehabilitation trustee posted the following
+                announcements, etc. regarding the commencement of filing proofs of rehabilitation claim.</p>
+            <ul>
+                <li>2019-01-22: <a href="/img/pdf/20190122_announcement_ja.pdf">債権届出期間の終了のお知らせ</a> / <a
+                        href="/img/pdf/20190122_announcement_en.pdf">Announcement of End of Period for Filing Proofs of
+                    Rehabilitation Claims</a></li>
+                <li>2018-12-08: <a href="/img/pdf/20181208_announcement_ja.pdf">補助的なオンライン方法による届出を行ったユーザー向けの届出内容確認機能のリリースのお知らせ</a>
+                    / <a href="/img/pdf/20181208_announcement_en.pdf">Users Who Filed Proofs of Rehabilitation Claims by
+                        Supplementary Online Method Can Now Check Filed Matters</a></li>
+                <li>2018-12-04: <a href="/img/pdf/20181204_announcement_offline_ja.pdf">再生債権者が変動した場合のオフライン方法による届出について（2019年5月21日更新版）</a>
+                    / <a href="/img/pdf/20181204_announcement_offline_en.pdf">Regarding a Filing for a Change of Holder
+                        of a Rehabilitation Claim via Offline Method (Updated on May 21, 2019)</a></li>
+                <li>2018-11-23: <a href="/img/pdf/20181123_announcement_online_ja.pdf">オンライン方法により届け出た再生債権及び自認債権の再生債権者が変動した場合について（2019年5月21日更新版）</a>
+                    / <a href="/img/pdf/20181123_announcement_online_en.pdf">Regarding a Change of the Holder of a
+                        Rehabilitation Claim Filed via the Online Method and a Self-Approved Claim (Updated on May 21,
+                        2019)</a></li>
+                <li>2018-11-22: <a
+                        href="/img/pdf/20181122_announcement_ja.pdf">債権届出期間経過後になされた再生債権の届出の取扱いに関するお知らせ</a>
+                    / <a href="/img/pdf/20181122_announcement_en.pdf">Announcement for Handling of Proofs of
+                        Rehabilitation Claims Filed After Deadline</a></li>
+                <li>2018-11-01: <a
+                        href="/img/pdf/20181101_announcement_ja.pdf">連絡先メールアドレス／債権届出名義の変更機能のリリースのお知らせ</a>
+                    / <a href="/img/pdf/20181101_announcement_en.pdf">Announcement on Release: New Tool to Change
+                        Contact E-mail Address / Claimholder&rsquo;s Name</a></li>
+                <li>2018-10-03: <a
+                        href="/img/pdf/201810032_announcement_ja.pdf">オンラインシステムの利用に関するEメールでのサポート開始のお知らせ</a>
+                    / <a href="/img/pdf/201810032_announcement_en.pdf">Announcement of E-mail Support for Use of Online
+                        System</a></li>
+                <li>2018-10-03: <a
+                        href="/img/pdf/201810_offline_how_to_ja.pdf">オフライン方法の記載要領（2018年10月3日更新版）</a> /
+                    <a href="/img/pdf/201810_offline_how_to_en.pdf">How to Use Offline Method (Updated on October 3,
+                        2018)</a></li>
+                <li>2018-09-21: <a
+                        href="/img/pdf/20180921_faq_ja.pdf">再生債権届出についてよくあるご質問（2018年9月21日更新版）</a>
+                    / <a href="/img/pdf/20180921_faq_en.pdf">Frequently Asked Questions regarding Filing Proof of
+                        Rehabilitation Claim（Updated on September 21, 2018）</a></li>
+                <li>2018-09-12: <a
+                        href="/img/pdf/20180912_corporate_ja.pdf">法人ユーザー向けオンラインシステムのリリースのお知らせ</a>
+                    / <a href="/img/pdf/20180912_corporate_en.pdf">Re: Release of the Online System for Corporate
+                        Users</a></li>
+                <li>2018-08-23: <a href="/img/pdf/201808_announcement_ja.pdf">再生債権の届出開始に関するお知らせ</a> /
+                    <a href="/img/pdf/201808_announcement_en.pdf">Announcement for Commencement of Filing Proofs of
+                        Rehabilitation Claim</a></li>
+                <li>2018-08-23: <a href="/img/pdf/20180823_qa_ja.pdf">再生債権の届出に関するQ＆A</a> / <a
+                        href="/img/pdf/20180823_qa_en.pdf">Q&amp;As for Filing Proofs of Rehabilitation Claim</a></li>
+                <li>2018-08-23: <a href="/img/pdf/201808_online_how_to_ja.pdf">オンライン方法の記載要領</a> / <a
+                        href="/img/pdf/201808_online_how_to_en.pdf">How to Use Online Method</a></li>
+            </ul>
+        </div>
+
+        <p>民事再生手続きに関するお知らせを掲載しました。<br/>The rehabilitation trustee posted the following
+            announcement regarding the Civil Rehabilitation Proceedings.</p>
+
+        <ul>
+            <li>2018-07-19: <a href="/img/pdf/20180719_announcement.pdf">再生債権届出の開始時期について / Re: Timing for
+                Filing Proofs of Rehabilitation Claim</a></li>
+            <li>2018-06-22: <a href="/img/pdf/20180622_announcement_jp.pdf">民事再生手続開始決定のお知らせ</a> / <a
+                    href="/img/pdf/20180622_announcement_en.pdf">Announcement of Commencement of Civil Rehabilitation
+                Proceedings</a> (Updated on October 26, 2018)
+            </li>
+
+        </ul>
+
+        <p>破産債権の届出に関するお知らせ等を掲載しました。<br/>The bankruptcy trustee posted the following notices and
+            documents regarding the filing of bankruptcy claims.</p>
+
+        <ul>
+            <li>2018-03-17: <a href="/img/pdf/20180317_qa.pdf">第10回債権者集会報告書に関するQ&amp;A / Q&amp;A Regarding
+                10th Creditors&rsquo; Meeting Report</a></li>
+            <li>2018-03-07: <a href="/img/pdf/20180307_report.pdf">第10回債権者集会配布資料 / Documents distributed at
+                the tenth creditors&rsquo; meeting</a>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2018年3月7日、第10回債権者集会が開催されました。<br/>
+                    第11回債権者集会は2018年9月26日午後1時30分より東京地方裁判所債権者等集会場1（家簡地裁合同庁舎5階）において開催されます。<br/>
+                    On March 7, 2018, the tenth creditor&rsquo;s meeting was held.<br/>
+                    The eleventh creditor&rsquo;s meeting will be held at Tokyo District Courtroom for Creditors&rsquo;
+                    Meeting No.1 (5F, joint government building for the domestic, summary and district courts) at 13:30
+                    on September 26, 2018.
+                </div>
+            </li>
+            <li>2018-01-30: <a href="/img/pdf/20180130_faq_jp.pdf">本破産手続に関するFAQ</a> / <a
+                    href="/img/pdf/20180130_faq_en.pdf">FAQs Regarding the Bankruptcy Proceedings</a></li>
+            <li>2017-11-29: <a href="/img/pdf/20171129_annoucement.pdf">一部の債権者による民事再生手続開始の申立てに関するお知らせ
+                / Announcement Regarding Petition for Commencement of Civil Rehabilitation Proceedings Filed by Some of
+                the Creditors</a>
+            </li>
+            <li>2017-09-27: <a href="/img/pdf/20170927_report.pdf">第9回債権者集会配布資料 / Documents distributed at
+                the ninth creditors&rsquo; meeting</a>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2017年9月27日、第9回債権者集会が開催されました。<br/>
+                    第10回債権者集会は2018年3月7日午後1時30分より東京地方裁判所債権者等集会場1（家簡地裁合同庁舎5階）において開催されます。<br/>
+                    On September 27, 2017, the ninth creditor&rsquo;s meeting was held.<br/>
+                    The tenth creditor&rsquo;s meeting will be held at Tokyo District Courtroom for Creditors&rsquo;
+                    Meeting No.1 (5F, joint government building for the domestic, summary and district courts) at 13:30
+                    on March 7, 2018.
+                </div>
+            </li>
+            <li>2017-03-08: <a href="/img/pdf/20170308_report.pdf">第8回債権者集会配布資料 / Documents distributed at
+                the eighth creditors&rsquo; meeting</a>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2017年3月8日、第8回債権者集会が開催されました。<br/>
+                    第9回債権者集会は2017年9月27日午後1時30分より東京地方裁判所債権者等集会場1（家簡地裁合同庁舎5階）において開催されます。<br/>
+                    On March 8, 2017, the eighth creditor&rsquo;s meeting was held.<br/>
+                    The ninth creditor&rsquo;s meeting will be held at Tokyo District Courtroom for Creditors&rsquo;
+                    Meeting No.1 (5F, joint government building for the domestic, summary and district courts) at 13:30
+                    on September 27, 2017.
+                </div>
+            </li>
+            <li>2017-03-08: <a href="/img/pdf/20170308_annoucement.pdf">米国連邦裁判所における期日の開催に関する通知 /
+                Notice of Hearing before United States Bankruptcy Judge</a></li>
+            <li>2016-09-28: <a href="/img/pdf/20160928_report.pdf">第7回債権者集会配布資料 / Documents distributed at
+                the seventh creditors&rsquo; meeting</a>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2016年9月28日、第7回債権者集会が開催されました。<br/>
+                    第8回債権者集会は2017年3月8日午後1時30分より東京地方裁判所債権者等集会場1（家簡地裁合同庁舎5階）において開催されます。<br/>
+                    <br/>
+                    On September 28, 2016, the seventh creditor&rsquo;s meeting was held.<br/>
+                    The eighth creditor&rsquo;s meeting will be held at Tokyo District Courtroom for Creditors&rsquo;
+                    Meeting No.1 (5F, joint government building for the domestic, summary and district courts) at 13:30
+                    on March 8, 2017.
+                </div>
+            </li>
+            <li>2016-06-10: 2016年6月15日修正 / revised on June 15, 2016 <a
+                    href="/img/pdf/20160610_notification_revised_20160615_jp.pdf">債権認否に関するお知らせ（その３）</a> /
+                <a href="/img/pdf/20160610_notification_revised_20160615_en.pdf">Notification of Acceptance and
+                    Rejection of Claims (No. 3)</a></li>
+            <li>2016-06-03: <a href="/img/pdf/20160603_qa_ja.pdf">認否に関するQ&amp;A</a> / <a
+                    href="/img/pdf/20160603_qa_en.pdf">Q&amp;A regarding Acceptance or Rejection of the Claims</a></li>
+            <li>2016-05-25: <a href="/img/pdf/20160525_report.pdf">第6回債権者集会配布資料 / Documents distributed at
+                the sixth creditors&rsquo; meeting</a>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2016年5月25日、第6回債権者集会が開催されました。<br/>
+                    第7回債権者集会は2016年9月28日午後1時30分より東京地方裁判所債権者等集会場1（家簡地裁合同庁舎5階）において開催されます。<br/>
+                    <br/>
+                    On May 25, 2016, the sixth creditor&rsquo;s meeting was held.<br/>
+                    The seventh creditor&rsquo;s meeting will be held at Tokyo District Courtroom for Creditors&rsquo;
+                    Meeting No.1 (5F, joint government building for the domestic, summary and district courts) at 13:30
+                    on September 28, 2016.
+                </div>
+            </li>
+            <li>2016-05-25: <a href="/img/pdf/20160525_notification_jp.pdf">債権認否のお知らせ（その２）</a> / <a
+                    href="/img/pdf/20160525_notification_en.pdf">Notification of Acceptance and Rejection of Claims (No.
+                2)</a></li>
+            <li>2016-05-11: <a href="/img/pdf/20160511_announcement.pdf">ビットコインアドレスのリストの公表中止の件 /
+                Re: Suspension of Release of List of Bitcoin Addresses</a></li>
+            <li>2016-02-17: <a href="/img/pdf/20160217_report.pdf">第5回債権者集会配付資料 / Documents distributed at
+                the fifth creditors&rsquo; meeting</a><br/>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2016年2月17日、第5回債権者集会が開催されました。<br/>
+                    第6回債権者集会は2016年5月25日午後1時30分より東京地方裁判所債権者等集会場1（家簡地裁合同庁舎5階）において開催されます。<br/><br/>
+                    On February 17, 2016, the fifth creditor&rsquo;s meeting was held.<br/>
+                    The sixth creditor&rsquo;s meeting will be held at Tokyo District Courtroom for Creditors&rsquo;
+                    Meeting No.1 (5F, joint government building for the domestic, summary and district courts) at 13:30
+                    on May 25, 2016.
+                </div>
+            </li>
+
+            <li>2016-02-17: <a href="/img/pdf/20160217_notification_jp.pdf">債権認否のお知らせ</a> / <a
+                    href="/img/pdf/20160217_notification_en.pdf">Notification of Acceptance and Rejection of Claims</a>
+            </li>
+            <li>2015-11-10: 株式会社MTGOX代表者代表取締役カルプレス・マルク・マリ・ロベート個人につき東京地方裁判所が破産手続開始を決定しました。/
+                Tokyo District Court announced the Commencement of Bankruptcy Proceedings for Mr. Mark Marie Robert
+                Karpeles, former representative director of MtGox Co., Ltd. on November 10, 2015.<br/>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    原文: <a href="http://kajitani.gr.jp/kaishitsuchi-original.pdf">http://kajitani.gr.jp/kaishitsuchi-original.pdf</a><br/>
+                    English: <a href="http://www.kajitani.gr.jp/english-trsl.pdf">http://www.kajitani.gr.jp/english-trsl.pdf</a>
+                </div>
+            </li>
+
+            <li>2015-09-09: <a href="/img/pdf/20150909_report.pdf">第4回債権者集会配付資料/Documents distributed at the
+                forth creditors&rsquo; meeting</a><br/>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2015年9月9日、第4回債権者集会が開催されました。<br/>
+                    第5回債権者集会は2016年2月17日午後1時30分より東京地方裁判所債権者等集会場1（家簡地裁合同庁舎5階）において開催されます。<br/><br/>
+                    On September 9, 2015, the forth creditor&rsquo;s meeting was held.<br/>
+                    The fifth creditor’s meeting will be held at Tokyo District Courtroom for Creditors’Meeting No.1
+                    (5F, joint government building for the domestic, summary and district courts) at 13:30 on February
+                    17, 2016.
+                </div>
+            </li>
+            <li>2015-07-23: <a href="/img/pdf/20150723_deadline.pdf">オンライン方法による破産債権の届出の期限及び本システムの一時的な機能制限について(再度のお知らせ)
+                / Deadline for filing of bankruptcy claims using online method and temporary restriction on
+                functionality of online system (follow-up notice)</a></li>
+            <li>2015-07-23: <a href="/img/pdf/20150723_offline.pdf">オフライン方法により届け出た破産債権の破産債権者が変動した場合について
+                / Regarding Change of Holder of Bankruptcy Claim Filed Using Offline Method</a></li>
+            <li>2015-07-23: <a href="/img/pdf/20150723_online.pdf">ユーザーがオンライン方法により届け出た取引所関係破産債権の保有者が変動した場合について
+                / Regarding Change of Holder of Claim Users Have Filed Using Online Method</a></li>
+            <li>2015-07-06: <a href="/img/pdf/20150706_deadline.pdf">オンライン方法による破産債権の届出の期限及び本システムの一時的な機能制限について
+                / Deadline for filing of bankruptcy claims using online method and temporary restriction on
+                functionality of online system</a></li>
+            <li>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">2015-04-22:
+                    オフライン届出の書式の不具合を修正しました。2015年4月22日以前にダウンロードしていた場合は、再度ダウンロードしてください。<br/><br/>
+                    The offline claim form was updated to fix an error. If you downloaded the form before this, please
+                    re-download it.
+                </div>
+            </li>
+            <li>2015-04-22: <a href="/img/pdf/20150422_report.pdf">第3回債権者集会配付資料/Documents distributed at the
+                third creditors&rsquo; meeting</a><br/>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2015年4月22日、第3回債権者集会が開催されました。<br/>
+                    第4回債権者集会は2015年9月9日午後1時30分より東京地方裁判所債権者等集会場1（家簡地裁合同庁舎5階）において開催されます。<br/><br/>
+                    On April 22, 2015, the third creditor&rsquo;s meeting was held.<br/>
+                    The forth creditor&rsquo;s meeting will be held at Tokyo District Courtroom for Creditors&rsquo;Meeting
+                    No.1 (5F, joint government building for the domestic, summary and district courts) at 13:30 on
+                    September 9, 2015.
+                </div>
+            </li>
+
+            <li>2015-04-22: <a
+                    href="/img/pdf/201504_notice1_ja.pdf">MTGOXのビットコイン取引所のユーザーによる破産債権の届出開始に関するお知らせ</a>
+                / <a href="/img/pdf/201504_notice1_en.pdf">Notice of Commencement of Filing of Bankruptcy Claims by
+                    MTGOX Bitcoin Exchange Users</a></li>
+
+            <li>2015-04-22: <a
+                    href="/img/pdf/201504_faq_ja.pdf">MTGOXのビットコイン取引所のユーザーによる破産債権の届出等に関するＱ＆Ａ</a>
+                / <a href="/img/pdf/201504_faq_en.pdf">FAQs Regarding Filing, Etc. Bankruptcy Claims by MTGOX Bitcoin
+                    Exchange Users</a></li>
+
+            <li>2015-04-22: <a
+                    href="/img/pdf/201504_notice2_ja.pdf">ユーザーでない破産債権者の破産債権の届け出に関するお知らせ</a>
+                /<a href="/img/pdf/201504_notice2_en.pdf">Notice Regarding Filing of Bankruptcy Claims by Bankruptcy
+                    Creditors other than Users</a></li>
+
+            <li>2015-02-02: <a href="/img/pdf/20150202_tibanne.pdf">株式会社TIBANNEに対する破産手続開始申立て、及び同破産手続開始決定のお知らせ/Announcement
+                of Application for Commencement of Bankruptcy Proceeding for TIBANNE Co., Ltd. and Order of Commencement
+                of Bankruptcy Proceedings</a></li>
+            <li>2014-12-17: <a href="/img/pdf/20141217_answers.pdf">第2回債権者集会におけるご質問等に対する回答 /
+                Answers to Questions, etc., at Second Creditors’ Meeting</a></li>
+            <li>2014-11-26: <a href="/img/pdf/20141126_document.pdf">第2回債権者集会配付資料 / Documents distributed at
+                the second creditors' meeting</a><br/>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2014年11月26日、第2回債権者集会が開催されました。<br/>
+                    第3回債権者集会は2015年4月22日午後1時30分より東京地方裁判所債権者等集会場1（家簡地裁合同庁舎5階）において開催されます。<br/><br/>
+                    On November 26, 2014, the second creditor's meeting was held.<br/>
+                    The third creditor's meeting will be held at Tokyo District Courtroom for Creditors'Meeting No.1
+                    (5F, joint government building for the domestic, summary and district courts) at 13:30 on April 22,
+                    2015.
+                </div>
+            </li>
+            <li>2014-11-26: <a href="/img/pdf/20141126_faq.pdf">第2回債権者集会等に関するFAQ / FAQs Regarding Second
+                Creditors' Meetings</a></li>
+            <li>2014-11-26: <a href="/img/pdf/20141126_announcement.pdf">MTGOX破産手続の支援企業決定のお知らせ /
+                Announcement of Determination of Supporting Company for MtGox Bankruptcy Proceedings</a></li>
+            <li>2014-09-01: <a href="/img/pdf/20140901_transfer_of_office.pdf">破産管財人室移転のお知らせ / Announcement
+                of transfer of the office of bankruptcy trustee</a></li>
+            <li>2014-07-24: <a href="/img/pdf/20140728_announcement.pdf">破産債権届出期間及び債権調査期日の変更のお知らせ
+                / Announcement of order to change the period for filing proofs of claims and the date for investigation
+                of claims</a></li>
+            <li>2014-07-23: <a href="/img/pdf/20140723_report_ja.pdf">債権者集会配付資料（日本語）</a> / <a
+                    href="/img/pdf/20140723_report_en.pdf">Documents distributed at the creditors'
+                meeting（Translation）</a><br/>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2014年7月23日、第1回債権者集会が開催されました。<br/>
+                    第2回債権者集会は2014年11月26日午後1時30分より東京地方裁判所債権者等集会場1（家簡地裁合同庁舎5階）において開催されます。<br/><br/>
+                    On July 23, 2014, the first creditor's meeting was held.<br/>
+                    The second creditor's meeting will be held at Tokyo District Courtroom for Creditors' Meeting No.1
+                    (5F, joint government building for the domestic, summary and district courts) at 13:30 on November
+                    26, 2014.
+                </div>
+            </li>
+            <li>2014-07-14: <a href="/img/pdf/20140714_meeting_faq.pdf">債権者集会に関するご質問に対する回答 / FAQs
+                Regarding Creditors’ Meetings</a></li>
+            <li>2014-06-18: <a href="/img/pdf/20140618_order.pdf">米国連邦裁判所による承認決定 / Order Recognizing
+                Foreign Main Proceeding and Granting Related Relief by U.S. Bankruptcy Court</a></li>
+            <li>2014-05-23: <a href="/img/pdf/20140523_notice.pdf">米国連邦裁判所における期日の開催に関する通知 / Notice
+                of Recognition Hearing in the US Bankruptcy Court</a></li>
+            <li>2014-05-21: <a href="/img/pdf/20140521_announce.pdf">破産手続開始のご連絡 / Announcement of Commencement
+                of Bankruptcy Proceedings</a><br/>
+                <div style="padding: 5px; max-width: 600px; font-size: 14px; text-align: justify;">
+                    2014年5月21日以降、順次、破産管財人より「Announcement of Commencement of Bankruptcy
+                    Proceedings」（破産手続開始決定のお知らせ）をメール送信しております。<br/>
+                    ただし、当該メールは、破産者がメールアドレスを認識する方でかつ破産債権を有する可能性のある方に対し、情報提供のためにお送りしているものです。このメールを受信したことで、破産債権者であることや破産配当等に参加することが当然に認められるものではありません。破産手続に参加し破産配当を受けるためには、別途、破産法に定める債権届出を行った後、債権調査を受ける必要があり、破産法に定める債権調査において債権の存在が認められないことがあります。破産管財人は、このメールの送信により、何人に対してもいかなる法的責任も負うものではありません。<br/><br/>
+                    Since May 21, 2014, the bankruptcy trustee has sent emails titled “Announcement of Commencement of
+                    Bankruptcy Proceedings” in sequence. However, such emails are sent for the purpose of providing
+                    information regarding the commencement of the bankruptcy proceedings for the bankrupt entity to
+                    those whose email addresses are known to the bankrupt entity and who may have bankruptcy claims.
+                    Receipt of such email does not mean that you are certified as a bankruptcy creditor or that you can
+                    participate in the bankruptcy distribution. To participate in the bankruptcy proceedings and to
+                    receive the bankruptcy distribution, after separately filing proofs of your claim as provided in the
+                    Bankruptcy Act of Japan, investigation thereof is necessary. It is possible that, on investigation
+                    of your claims as provided in the Bankruptcy Act of Japan, your claim may not be approved. The
+                    bankruptcy trustee owes no legal liability to anyone due to the transmission of this document.
+                </div>
+            </li>
+            <li>2014-04-24(002): <a href="/img/pdf/20140424_decision.pdf">破産手続開始決定書 / Bankruptcy proceedings
+                written decision</a></li>
+            <li>2014-04-24(001): <a href="/img/pdf/20140424_announce_qa_ja.pdf">破産手続開始決定のお知らせ -
+                基本的なご質問に対する回答</a> / <a href="/img/pdf/20140424_announce_qa_en.pdf">Announcement of
+                Commencement of Bankruptcy Proceedings - Answers to Frequent Asked Questions</a></li>
+            <li>2014-04-16(002): <a href="/img/pdf/20140416_002_announce_ja.pdf">保全管理命令等のお知らせ -
+                基本的なご質問に対する回答</a> / <a href="/img/pdf/20140416_002_announce_en.pdf">Announcement of the
+                Order for Provisional Administration, etc. - Answers to Frequent Asked Questions</a></li>
+            <li>2014-04-16(001): <a href="/img/pdf/20140416_001_press_release.pdf">民事再生手続開始申立ての棄却、保全管理命令のお知らせ
+                / Information regarding the dismissal of the application for commencement of a civil rehabilitation
+                procedure and the order for provisional administration</a></li>
+            <li>2014-03-28: <a href="/img/pdf/20140328_delay_extension.pdf">調査結果報告書の提出期限伸長のお知らせ /
+                Announcement regarding the extension of the deadline for submission of the examination results
+                report</a></li>
+            <li>2014-03-26: <a href="/img/pdf/20140326-investigation.pdf">ビットコインの消失に係る捜査機関への相談に関するお知らせ
+                / Announcement with regard to consultations with investigating authorities on the disappearance of
+                bitcoins</a></li>
+            <li>2014-03-20: <a href="/img/pdf/20140320-btc-announce.pdf">当社保有ビットコインの残高に関するお知らせ /
+                Announcement regarding the balance of Bitcoin held by the company</a></li>
+            <li>2014-03-14: <a href="/img/pdf/20140314-announcement_chapter15.pdf">米国連邦破産法第１５章適用の申請に関するお知らせ
+                / Announcement regarding the applicability of US Bankruptcy Code Chapter 15</a></li>
+            <li>2014-03-08: <a href="/img/pdf/20140308-spam_warning.pdf">MTGOX 詐欺メール注意喚起通知 / Spam warning</a>
+            </li>
+            <li>2014-03-04: <a href="/img/pdf/20140304-announcement.pdf">包括的禁止命令主文の通知 / Comprehensive
+                Prohibition Order Judgment Announcement</a></li>
+            <li>2014-03-03: <a href="/img/pdf/20140303-qa_jp.pdf">民事再生手続に関するよくあるご質問に対する回答</a>
+            </li>
+            <li>2014-02-28: <a href="/img/pdf/20140228-announcement_jp.pdf">民事再生手続開始の申立てに関するお知らせ</a>
+                / <a href="/img/pdf/20140228-announcement_eng.pdf">Announcement Regarding An Application For
+                    Commencement Of A Prodedure Of Civil Rehabilitation</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

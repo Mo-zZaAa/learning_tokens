@@ -1,0 +1,20 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/2 200 
+content-type: application/pdf
+content-length: 252095
+date: Fri, 20 Nov 2026 01:07:07 GMT
+x-age: 1452
+x-content-type-options: nosniff
+last-modified: Wed, 20 May 2026 06:49:46 GMT
+accept-ranges: bytes
+x-fpfis: 230434545 233489376
+strict-transport-security: max-age=31536000; includeSubDomains; preload;
+cache-control: public, max-age=300, s-maxage=300
+etag: "3d8bf-6523a338526e8"
+x-cache: Hit from cloudfront
+via: 1.1 19a1f4ad0433ae2397d314489416121e.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD61-P11
+x-amz-cf-id: nonvBaU-Zrfr1JEUYS2Mto6Ct0ZPxd1z7HkULoslQhTm9-v8_mQzJQ==
+age: 216
+

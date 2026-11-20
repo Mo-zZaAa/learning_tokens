@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                                        <!-- Google Tag Manager -->
+    <script id="data-google-tag-manager" data-nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=">(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            var n = d.querySelector('[nonce]');
+            n && j.setAttribute('nonce', n.nonce || n.getAttribute('nonce'));
+            // n && j.setAttribute('data-nonce', n.nonce || n.getAttribute('nonce'));
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PWBPL2NS');</script>
+    <!-- End Google Tag Manager -->
+        <meta property="og:image" content="https://www.sullcrom.com/SullivanCromwell/_Assets/images/sc-logo-2D_1200x630.png"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" rel="icon" type="image/x-icon" href="/SullivanCromwell/_Assets/images/favicon.ico?_t=638950817388570000"/>
+    <link nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" rel="shortcut icon" href="/SullivanCromwell/_Assets/images/favicon.ico?_t=638950817388570000"/>
+  <link nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" rel="apple-touch-icon" sizes="180x180" href="/SullivanCromwell/_Assets/images/apple-touch-icon.png?_t=638950829818570000"/>
+    <link nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" rel="icon" type="image/png" sizes="32x32" href="/SullivanCromwell/_Assets/images/favicon-32x32.png?_t=638950829842730000"/>
+    <link nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" rel="icon" type="image/png" sizes="16x16" href="/SullivanCromwell/_Assets/images/favicon-16x16.png?_t=638950829830700000"/>
+    <link nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" rel="manifest" href="https://www.sullcrom.com/SullivanCromwell/_Assets/images/files/site.webmanifest.aspx"/>
+    <meta name="next-head-count" content="5"/>
+    <script nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js" defer integrity="sha384-d3UHjPdzJkZuk5H3qKYMLRyWLAQBJbby2yr2Q58hXXtAGF8RSNO9jpLDlKKPv5v3" crossorigin="anonymous"></script>
+    <link nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" integrity="sha384-OXVF05DQEe311p6ohU11NwlnX08FzMCsyoXzGOaL+83dKAb3qS17yZJxESl8YrJQ" rel="stylesheet" crossorigin="anonymous"/>
+    <link nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" rel="stylesheet" href="/SullivanCromwell/_Assets/css/main.css?_t=639294688710000000" as="style"/>
+    <link nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" rel="stylesheet" href="/SullivanCromwell/_Assets/css/stacktable.css?_t=638144126103800000" as="style"/>
+    <noscript data-n-css=""></noscript>
+    <link nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" rel="stylesheet" href="/SullivanCromwell/_Assets/css/About.css?_t=639190125395370000" as="style"/>
+    
+    <!-- Page CSS Starts -->
+<!-- Showtemplatecss -->
+<!-- TEST -->
+<!-- ShowCSS --> 
+    <title>S&amp;C Advises FTX in Acquisition of Regulated Crypto Exchange LedgerX | Sullivan & Cromwell LLP</title>
+<meta name="keywords" content=""/>
+<meta name="description" content="Sullivan & Cromwell advised FTX US in completing its acquisition of Ledger Holdings, parent company of LedgerX, a CFTC-regulated digital currency futures and options exchange and clearinghouse. FTX US will operate the acquired business under the name “FTX US Derivatives.” "/>
+<meta name="robots" content="index, follow"/>
+<meta name="asset_id" content="5730293"/>
+<meta name="asset_label" content="SC Advises FTX in Acquisition of Regulated Crypto Exchange LedgerX"/>
+<link rel="canonical" href="https://www.sullcrom.com/About/News-and-Events/Highlights/2021/November/SC-Advises-FTX-in-Acquisition-of-Regulated-Crypto-Exchange-LedgerX"/><meta name="og:title" content="S&C Advises FTX in Acquisition of Regulated Crypto Exchange LedgerX"/>
+<meta name="og:url" content="https://www.sullcrom.com/About/News-and-Events/Highlights/2021/November/SC-Advises-FTX-in-Acquisition-of-Regulated-Crypto-Exchange-LedgerX"/>
+<meta name="og:site_name" content="Sullivan and Cromwell LLC"/>
+<meta name="og:image" content="https://www.sullcrom.com/SullivanCromwell/_Assets/images/sc-logo-2D_1200x630.png"/>
+<meta name="og:description" content="FTX US completed its acquisition of Ledger Holdings, parent company of LedgerX, a CFTC-regulated digital currency futures and options exchange and clearinghouse."/>
+<meta name="twitter:title" content="S&C Advises FTX in Acquisition of Regulated Crypto Exchange LedgerX"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:creator" content="@sullcrom"/>
+<meta name="twitter:site" content="@sullcrom"/>
+<meta name="twitter:image" content="https://www.sullcrom.com/SullivanCromwell/_Assets/images/sc-twitterlogo-2D_600x330.png?v=2"/>
+<meta name="twitter:description" content="FTX US completed its acquisition of Ledger Holdings, parent company of LedgerX, a CFTC-regulated digital currency futures and options exchange and clearinghouse."/>
+<meta itemprop="name" content="S&C Advises FTX in Acquisition of Regulated Crypto Exchange LedgerX"/>
+<meta itemprop="image" content="https://www.sullcrom.com/SullivanCromwell/_Assets/images/sc-logo-2D_1200x630.png"/>
+<meta itemprop="description" content="FTX US completed its acquisition of Ledger Holdings, parent company of LedgerX, a CFTC-regulated digital currency futures and options exchange and clearinghouse."/>
+
+    <script nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/BioDetail","query":{},"buildId":"sc-theme","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script>
+    <style nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=">
+        #ot-sdk-cookie-policy {
+            display: none !important;
+        }
+    </style>
+    <script nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!--NOT PRINT-->
+      </head>
+<body data-env="live">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWBPL2NS" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="__next">
+        <div class="container-fluid px-0">
+            <div class="nav-wrapper" data-ispredictive="true">
+                <div class="MainNavWrapper_stickyNav__iC5NG sticky-top">
+                    <nav class="navbar bg-cream">
+                        <div class="container my-lg-3 mt-2">
+                            <a class="navbar-brand" href="/#">
+                                <img alt="Sullivan &amp; Cromwell LLP Logo" src="/SullivanCromwell/_Assets/images/Desktop-logo.svg" width="400" height="auto" decoding="async" data-nimg="future" class="MainNavWrapper_logo__fdGSY d-md-block d-none" loading="lazy"/>
+                                <img alt="Sullivan &amp; Cromwell LLP Logo" src="/SullivanCromwell/_Assets/images/Mobile-logo.svg" height="20" decoding="async" data-nimg="future" class="mobile-logo d-md-none d-block" loading="lazy"/>
+                            </a>
+                            <div class="button-group d-flex  align-items-center">
+                                <div class="form-group d-inline-block me-lg-5">
+                                    <button class="navbar-toggler border-0 d-flex align-items-center justify-content-between rounded-0" type="button" aria-controls="navbarSearch" aria-expanded="false" aria-label="Toggle search" id="mobileSearchButton">
+                                        <i class="icon icon-search navbar-toggler__search-icon me-2" style="--icon: url(/sullivancromwell/_assets/images/search-icon.svg?_t=637957410804000000);"></i><span class="navbar-toggler__btn-text d-none d-lg-inline-block">Search</span>
+                                    </button>
+                                </div>
+                                <button class="navbar-toggler border-0" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="mobileMenuButton">
+                                    <span class="icon icon-menu">
+                                      <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+    <!-- Hamburger lines -->
+    <g>
+      <line x1="0" y1="16.5" x2="48" y2="16.5" stroke-width="2"></line>
+      <line x1="0" y1="31.5" x2="48" y2="31.5" stroke-width="2"></line>
+    </g>
+    <!-- Cross lines -->
+    <g style="display: inline;">
+      <line x1="0" y1="24" x2="48" y2="24" stroke-width="2"></line>
+      <line x1="0" y1="24" x2="48" y2="24" stroke-width="2"></line>
+    </g>
+  </svg>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse position-relative hidden" id="navbarSupportedContent">
+                                <form class="navbar-collapse  position-absolute w-100 h-100 top-0 left-0  searchBarMain" role="search" id="navbarSearch">
+                                    <div class="MainNavWrapper_navSearchForm__Ne7Jr container d-flex">
+                                        <input class="MainNavWrapper_navSearchInput__hQGLS searchg2-keyword form-control border-top-0 border-start-0 border-end-0 sc-border-dark px-0 rounded-0 sc-font-secondary fw-normal" type="search" placeholder="Search Sullivan &amp; Cromwell" aria-label="Search" autofocus=""/>
+                                        <button class="navbar-toggler border-0 d-flex align-items-center justify-content-between border-bottom sc-border-dark rounded-0" type="submit" aria-label="Search">
+                                            <i class="icon icon-search navbar-toggler__search-icon me-2" style="--icon: url(/sullivancromwell/_assets/images/search-icon.svg?_t=637957410804000000);"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                                <div class="MainNavWrapper_navList__pCN4m container navbar-nav align-items-start align-items-lg-center mb-0 hidden d-block">
+                                    <ul class="main-nav-inner me-auto d-flex flex-column flex-md-row align-items-start align-items-lg-center mb-0">
+                                       
+                                        <li class="MainNavWrapper_navItem__FwEMK nav-item">
+<a href='/LawyerListing' target='_self' class='nav-link sc-font-primary sc-24pt-30pt'>Lawyers</a>
+</li>
+<li class="MainNavWrapper_navItem__FwEMK nav-item">
+<a href='/PracticeListing' target='_self' class='nav-link sc-font-primary sc-24pt-30pt'>Practices</a>
+</li>
+<li class="MainNavWrapper_navItem__FwEMK nav-item">
+<a href='/InsightListing' target='_self' class='nav-link sc-font-primary sc-24pt-30pt'>Insights</a>
+</li>
+<li class="MainNavWrapper_navItem__FwEMK nav-item">
+<a href='/About/about-us' target='_self' class='nav-link sc-font-primary sc-24pt-30pt'>About</a>
+</li>
+<li class="MainNavWrapper_navItem__FwEMK nav-item">
+<a href='/careers/' target='_self' class='nav-link sc-font-primary sc-24pt-30pt'>Careers</a>
+</li>
+<li class="MainNavWrapper_navItem__FwEMK MainNavWrapper_secondaryNavItem__MUvwB nav-item ms-md-auto">
+<a href='https://alumni.sullcrom.com/login/' target='_self' class='nav-link sc-font-primary sc-16pt sc-font-secondary fw-lighter'>Alumni</a>
+</li>
+                                    </ul>
+                                    <ul class="mobile-social-nav nav col-md-4 justify-content-end list-unstyled d-flex">
+                                        <li class="ms-3">
+                                            <a class="text-muted" href="https://twitter.com/sullcrom" title="Open Twitter in a new window" target='_blank'>
+                                                <img alt="Twitter icon" src="/SullivanCromwell/_Assets/images/X_Icon_Light.svg" height="24" decoding="async" data-nimg="future" class="bi" loading="lazy"/>
+                                            </a>
+                                        </li>
+                                        <li class="ms-3">
+                                            <a class="text-muted" href="https://www.linkedin.com/company/sullivanandcromwell/" title="Open LinkedIn in a new window" target='_blank'>
+                                                <img alt="LinkedIn icon" src="/SullivanCromwell/_Assets/images/LinkedIn_Icon_Light.svg" height="24" decoding="async" data-nimg="future" class="bi" loading="lazy"/>
+                                            </a>
+                                        </li>
+                                        <li class="ms-3">
+                                            <a class="text-muted" href="/SullivanCromwell/RSS-Feeds" title="Open  in a new window">
+                                                <img alt=" icon" src="/SullivanCromwell/_Assets/images/Rss_Icon_Light.svg" height="24" decoding="async" data-nimg="future" class="bi" loading="lazy"/>
+                                            </a>
+                                        </li>
+                                        <li class="ms-3">
+                                            <a class="text-muted" href="https://itunes.apple.com/us/podcast/s-c-critical-insights/id1348902229?mt=2" title="Open Podcasts in a new window" target='_blank'>
+                                                <img alt="Podcasts icon" src="/SullivanCromwell/_Assets/images/Podcast_Icon_Light.svg" height="24" decoding="async" data-nimg="future" class="bi" loading="lazy"/>
+                                            </a>
+                                        </li>
+                                                                            </ul>
+                                    <div class="pb-2  Graphik-Regular-Web d-flex justify-content-end mobile-copyright sc-14pt">
+                                        &copy; 2026 Sullivan & Cromwell LLP                                    </div>
+                                </div>
+                            </div>
+                    </nav>
+                    <div class="container-fluid main-predictive-results">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <ul class="list-group searchg2-results" id="searchg2-results"></ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-none">
+                        <div class="container">
+                            <ul class="main-nav-inner me-auto d-flex flex-column flex-lg-row align-items-start align-items-lg-center mb-0 pt-lg-3 pt-0">
+                                <li class="MainNavWrapper_navItem__FwEMK nav-item">
+                                    <a href="/" class='nav-link sc-font-primary sc-24pt-30pt'>Home</a>
+                                </li>
+                                <li class="MainNavWrapper_navItem__FwEMK nav-item">
+<a href='/LawyerListing' target='_self' class='nav-link sc-font-primary sc-24pt-30pt'>Lawyers</a>
+</li>
+<li class="MainNavWrapper_navItem__FwEMK nav-item">
+<a href='/PracticeListing' target='_self' class='nav-link sc-font-primary sc-24pt-30pt'>Practices</a>
+</li>
+<li class="MainNavWrapper_navItem__FwEMK nav-item">
+<a href='/InsightListing' target='_self' class='nav-link sc-font-primary sc-24pt-30pt'>Insights</a>
+</li>
+<li class="MainNavWrapper_navItem__FwEMK nav-item">
+<a href='/About/about-us' target='_self' class='nav-link sc-font-primary sc-24pt-30pt'>About</a>
+</li>
+<li class="MainNavWrapper_navItem__FwEMK nav-item">
+<a href='/careers/' target='_self' class='nav-link sc-font-primary sc-24pt-30pt'>Careers</a>
+</li>
+<li class="MainNavWrapper_navItem__FwEMK MainNavWrapper_secondaryNavItem__MUvwB nav-item ms-md-auto">
+<a href='https://alumni.sullcrom.com/login/' target='_self' class='nav-link sc-font-primary sc-16pt sc-font-secondary fw-lighter'>Alumni</a>
+</li>
+                            </ul>
+                        </div>
+                    </div>
+                                        <div class="container-fluid bg-light bg-light-grey position-relative utility-nav py-2 d-lg-block d-none">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-10 d-flex align-items-center justify-content-start">
+                                    <div class="MainNavWrapper_breadcrumbWrapper__66WV0 breadcrumb-wrapper">
+                                                                                <a href="/">Home</a>&nbsp;/&nbsp;
+                                                                    <a href="/About/about-us">About</a>&nbsp;/&nbsp;
+                                                                    <a href="/About/NewsEventsListing">News and Events</a>&nbsp;/&nbsp;
+                                                                    <span>Client Highlights</span>
+                                                                            </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+                <main>
+                    <div class="dropzone">
+                        <link nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" rel="stylesheet" href="/SullivanCromwell/_Assets/css/insights/ArticleDetail.css?_t=639190105822670000" as="style"/><div class="container-fluid border-bottom">
+    <div class="Hero_inner__RT0ZJ container">
+                            <div class="sc-font-secondary sc-14pt mb-3 text-uppercase h-0">
+                    Client Highlights                </div>
+                    <h1 class="Hero_heading__VVVhD sc-font-primary sc-54pt-60pt"> 
+            S&amp;C Advises FTX in Acquisition of Regulated Crypto Exchange LedgerX
+        </h1>
+            </div>
+</div>
+<div class="container">
+    <div class="row">
+        <nav class="ContentSidebar_nav__qlCcA col-12 col-lg-2 d-none d-lg-flex position-relative">
+            <ul class="ContentSidebar_navList__3UrEM list-group list-group-flush position-sticky left-0">
+                                                <li class="ContentSidebar_item__l3jYh list-group-item list-group-item-action border-bottom-0 ps-lg-0">
+                    <a class="ContentSidebar_link__nE__L stretched-link sc-font-secondary fw-lighter" href="#our-lawyers">Our Lawyers</a>
+                </li>
+                                                <li class="ContentSidebar_item__l3jYh list-group-item list-group-item-action border-bottom-0 ps-lg-0">
+                    <a class="ContentSidebar_link__nE__L stretched-link sc-font-secondary fw-lighter" href="#relatedPractices">Related Practices</a>
+                </li>
+                            </ul>
+        </nav>
+        <div class="col-12 col-lg-10 blog-intro">
+            <div class="Content_contentContainer__RuK_6 col-12 position-relative border-bottom sc-border-light d-flex flex-row flex-wrap justify-content-between align-items-center flex-lg-column flex-lg-nowrap align-items-lg-start insights-intro  ">
+                                <div class="d-flex mb-2 left_pad_55 article-date-container">
+                                        <span class="sc-font-secondary sc-15pt fw-lighter article-date">November 1, 2021</span>
+                                    </div>
+                                            <div class="Content_collapse__J6pFb Content_pageIntro__AdwF4 collapse mw-100" id="contentSummaryCollapse" style="--intro-p-height:10.3125rem;">
+                    <div class="inner-collapse">
+                    <p>FTX US completed its acquisition of Ledger Holdings, parent company of LedgerX, a CFTC-regulated digital currency futures and options exchange and clearinghouse.</p>
+<p>FTX US, a leading U.S.-regulated cryptocurrency exchange, will operate the acquired business under the name &ldquo;FTX US Derivatives.&rdquo; The acquisition provides FTX US with a CFTC-regulated Designated Contract Market, Swap Execution Facility and Derivatives Clearing Organization, which is expected to enable FTX to continue in its mission of creating products for retail and institutional traders while further developing a strong working relationship with the U.S. regulatory community.</p>
+<p>The S&amp;C team that advised FTX included Mitch Eitel, Ken Li, Mitchell Friedman and Linda Yao. David Gilberg and Aaron Levine advised on CFTC-regulatory matters. Sarah Remmer Long and Jessica Barriere advised on executive compensation. Justin Orr and Elizabeth Cheung advised on intellectual property matters. Renata Hesse, Eric Queen, Bradley Smith and Clea McClellan advised on antitrust and HSR matters. Eric Kadel advised on CFIUS matters.</p>
+                    </div>
+                </div>
+                <a class="Content_collapseBtn__4XDIu btn btn-outline border-0 px-0 sc-font-secondary text-uppercase" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="contentSummaryCollapse" href="#contentSummaryCollapse">Read More</a>
+            
+                       </div>
+           <div class="Content_contentContainer__RuK_6 col-12 border-bottom sc-border-light position-relative pb-0 d-flex flex-row flex-wrap justify-content-between align-items-center flex-lg-column flex-lg-nowrap align-items-lg-start ">
+                                                                          <div class="Section_sectionContainer__7z1kI col-lg-12 col-12 py-5 sc-border-light position-relative pt-4 mt-2 left_pad_55 stay-updated">
+                  <div class="sc-font-secondary sc-14pt text-uppercase mb-3 section-tag">Stay Updated</div>
+                  <div class="sc-font-primary sc-32pt">
+                      <p><a href="https://sullcrom.pages.dealcloud.intapp.com/sampc-mailing-list-selections-and-contact-summary.html" target="_blank">Subscribe</a> to stay current on S&amp;C Insights.</p>                  </div>
+              </div>
+                                                   </div>
+                          <div class="Content_contentContainer__RuK_6 col-12 position-relative border-bottom sc-border-light d-flex flex-row flex-wrap justify-content-between align-items-center flex-lg-column flex-lg-nowrap align-items-lg-start Practice-Contacts">
+                <a class="Content_pageLink__vmpdf visually-hidden position-absolute" id="our-lawyers" name="our-lawyers">Our Lawyers</a>
+                <h2 class="Content_contentHeading__iODMi">Our Lawyers</h2>
+                <div class="Content_collapse__J6pFb Content_carousel__MrGLv collapse mw-100 w-100" id="contentOurLawyersCollapse">
+                    <div class="carousel carousel-dark slide " id="practice-contact-carousel" data-bs-ride="carousel">
+                    <div class="carousel-inner container py-2 mb-4">
+                        <div class="carousel-item row active">
+                            <div class="row d-flex flex-row">
+                                                    <div class="col-12 col-md-4 col-lg-3 mb-4 mb-lg-0 d-flex flex-column">
+                                                                <picture class="Content_picture__0kOPd Content_portraitBg__U3aqX Content_carouselPortrait___fXye d-md-block d-none">
+                                   <a href="/Lawyers/Mitchell-S-Eitel">
+                                    <img layout='responsive' src='https://sullivan-cromwell.imgix.net/sitefiles/professionals/5789.png?h=185&w=175&auto=format&fit=facearea&facepad=4' width='175' height='185' alt='Mitchell S. Eitel Headshot Photo' decoding='async' data-nimg='future' class='img-fluid' loading='lazy'/>
+                                       </a>
+                                </picture>
+                                <div class="Content_carouselContentItem__idIMQ sc-font-primary sc-22pt-24pt lawyer-name">
+                                    <a href="/Lawyers/Mitchell-S-Eitel">
+                                        Mitchell S. Eitel
+                                    </a>
+                                </div>
+                                                                    <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">New York</div>
+                                                                        <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">
+                                        +1-212-558-4000                                    </div>                                <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">
+                                    <a href="#bioEmailModal" data-bs-toggle="modal" data-bs-target="#bioEmailModal" data-sc-email="eitelm@sullcrom.com">Email
+                        </a>
+                                </div>
+                                                                <a class="Content_vCardBtn___Cy2M sc-font-secondary sc-15pt-16pt fw-lighter d-block" href="/Lawyers/Mitchell-S-Eitel.vcf">vCard</a>
+                            </div>
+                                                        <div class="col-12 col-md-4 col-lg-3 mb-4 mb-lg-0 d-flex flex-column">
+                                                                <picture class="Content_picture__0kOPd Content_portraitBg__U3aqX Content_carouselPortrait___fXye d-md-block d-none">
+                                   <a href="/Lawyers/David-J-Gilberg">
+                                    <img layout='responsive' src='https://sullivan-cromwell.imgix.net/sitefiles/professionals/8873.png?h=185&w=175&auto=format&fit=facearea&facepad=4' width='175' height='185' alt='David J. Gilberg Headshot Photo' decoding='async' data-nimg='future' class='img-fluid' loading='lazy'/>
+                                       </a>
+                                </picture>
+                                <div class="Content_carouselContentItem__idIMQ sc-font-primary sc-22pt-24pt lawyer-name">
+                                    <a href="/Lawyers/David-J-Gilberg">
+                                        David J. Gilberg
+                                    </a>
+                                </div>
+                                                                    <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">New York</div>
+                                                                        <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">
+                                        +1-212-558-4000                                    </div>                                <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">
+                                    <a href="#bioEmailModal" data-bs-toggle="modal" data-bs-target="#bioEmailModal" data-sc-email="gilbergd@sullcrom.com">Email
+                        </a>
+                                </div>
+                                                                <a class="Content_vCardBtn___Cy2M sc-font-secondary sc-15pt-16pt fw-lighter d-block" href="/Lawyers/David-J-Gilberg.vcf">vCard</a>
+                            </div>
+                                                        <div class="col-12 col-md-4 col-lg-3 mb-4 mb-lg-0 d-flex flex-column">
+                                                                <picture class="Content_picture__0kOPd Content_portraitBg__U3aqX Content_carouselPortrait___fXye d-md-block d-none">
+                                   <a href="/Lawyers/Renata-B-Hesse">
+                                    <img layout='responsive' src='https://sullivan-cromwell.imgix.net/sitefiles/professionals/25113.png?h=185&w=175&auto=format&fit=facearea&facepad=4' width='175' height='185' alt='Renata B. Hesse Headshot Photo' decoding='async' data-nimg='future' class='img-fluid' loading='lazy'/>
+                                       </a>
+                                </picture>
+                                <div class="Content_carouselContentItem__idIMQ sc-font-primary sc-22pt-24pt lawyer-name">
+                                    <a href="/Lawyers/Renata-B-Hesse">
+                                        Renata B. Hesse
+                                    </a>
+                                </div>
+                                                                    <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">Washington, D.C.</div>
+                                                                        <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">
+                                        +1-202-956-7500                                    </div>                                <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">
+                                    <a href="#bioEmailModal" data-bs-toggle="modal" data-bs-target="#bioEmailModal" data-sc-email="hesser@sullcrom.com">Email
+                        </a>
+                                </div>
+                                                                <a class="Content_vCardBtn___Cy2M sc-font-secondary sc-15pt-16pt fw-lighter d-block" href="/Lawyers/Renata-B-Hesse.vcf">vCard</a>
+                            </div>
+                                                        <div class="col-12 col-md-4 col-lg-3 mb-4 mb-lg-0 d-flex flex-column">
+                                                                <picture class="Content_picture__0kOPd Content_portraitBg__U3aqX Content_carouselPortrait___fXye d-md-block d-none">
+                                   <a href="/Lawyers/Eric-J-Kadel-Jr">
+                                    <img layout='responsive' src='https://sullivan-cromwell.imgix.net/sitefiles/professionals/10775.png?h=185&w=175&auto=format&fit=facearea&facepad=4' width='175' height='185' alt='Eric J. Kadel Jr. Headshot Photo' decoding='async' data-nimg='future' class='img-fluid' loading='lazy'/>
+                                       </a>
+                                </picture>
+                                <div class="Content_carouselContentItem__idIMQ sc-font-primary sc-22pt-24pt lawyer-name">
+                                    <a href="/Lawyers/Eric-J-Kadel-Jr">
+                                        Eric J. Kadel Jr.
+                                    </a>
+                                </div>
+                                                                    <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">Washington, D.C.</div>
+                                                                        <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">
+                                        +1-202-956-7500                                    </div>                                <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">
+                                    <a href="#bioEmailModal" data-bs-toggle="modal" data-bs-target="#bioEmailModal" data-sc-email="kadelej@sullcrom.com">Email
+                        </a>
+                                </div>
+                                                                <a class="Content_vCardBtn___Cy2M sc-font-secondary sc-15pt-16pt fw-lighter d-block" href="/Lawyers/Eric-J-Kadel-Jr.vcf">vCard</a>
+                            </div>
+                            </div></div><div class="carousel-item row"><div class="row d-flex flex-row">
+                            <div class="col-12 col-md-4 col-lg-3 mb-4 mb-lg-0 d-flex flex-column">
+                                                                <picture class="Content_picture__0kOPd Content_portraitBg__U3aqX Content_carouselPortrait___fXye d-md-block d-none">
+                                   <a href="/Lawyers/Ken-Li">
+                                    <img layout='responsive' src='https://sullivan-cromwell.imgix.net/sitefiles/professionals/22439.png?h=185&w=175&auto=format&fit=facearea&facepad=4' width='175' height='185' alt='Ken Li Headshot Photo' decoding='async' data-nimg='future' class='img-fluid' loading='lazy'/>
+                                       </a>
+                                </picture>
+                                <div class="Content_carouselContentItem__idIMQ sc-font-primary sc-22pt-24pt lawyer-name">
+                                    <a href="/Lawyers/Ken-Li">
+                                        Ken Li
+                                    </a>
+                                </div>
+                                                                    <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">New York</div>
+                                                                        <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">
+                                        +1-212-558-4000                                    </div>                                <div class="Content_carouselContentItem__idIMQ sc-font-secondary sc-15pt-16pt fw-lighter">
+                                    <a href="#bioEmailModal" data-bs-toggle="modal" data-bs-target="#bioEmailModal" data-sc-email="liken@sullcrom.com">Email
+                        </a>
+                                </div>
+                                                                <a class="Content_vCardBtn___Cy2M sc-font-secondary sc-15pt-16pt fw-lighter d-block" href="/Lawyers/Ken-Li.vcf">vCard</a>
+                            </div>
+                                                        </div>
+                        </div>
+                    </div>
+                                        <div class="position-relative d-flex align-items-center justify-content-start">
+                        <button class="carousel-control-prev position-relative px-0 w-auto" type="button" data-bs-target="#practice-contact-carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next position-relative px-0 w-auto" type="button" data-bs-target="#practice-contact-carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                                    </div>
+                </div>
+                <a class="Content_collapseBtn__4XDIu btn btn-outline border-0 px-0 sc-font-secondary text-uppercase" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="contentOurLawyersCollapse" href="#contentOurLawyersCollapse">Read More</a>
+              </div>
+                    </div>
+    </div>
+</div><div class="BioRelatedPractices_container__DPS2Y container-fluid bg-primary position-relative py-lg-5 text-white">
+    <div class="container px-0">
+        <div class="row d-flex flex-column left_pad_24">
+            <a class="BioRelatedPractices_collapseBtn___P06x d-block d-lg-none Content_pageLink__vmpdf visually-hidden position-absolute" name="relatedPractices"></a>
+            <h2 class="col col-lg-10 offset-lg-2 position-relative mb-0 mb-lg-4 position-relative d-flex justify-content-between align-items-center left_pad_55">Related Practices
+            <a class="BioRelatedPractices_collapseBtn___P06x d-block d-lg-none collapsed" href="#relatedPractices" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="relatedPractices"></a>
+        </h2>
+            <div class="col col-lg-10 offset-lg-2 collapse d-lg-block mt-4 left_pad_55" id="relatedPractices">
+                <ul class="list-group list-group-flush col bg-primary mx-0 gx-3 d-flex flex-column flex-wrap position-relative">
+                                        <li class="BioRelatedPractices_listItem__ytWOz list-group-item col bg-primary border-0 text-white py-0 ps-0 pe-lg-5">
+                        <a class="BioRelatedPractices_relatedLink__I0Uo7 stretched-link text-decoration-none d-block py-3 border-white border-1 border-top border-bottom fw-lighter sc-font-primary sc-24pt" title="Antitrust" href="/Practices/Litigation/Antitrust">Antitrust</a>
+                    </li>
+                                        <li class="BioRelatedPractices_listItem__ytWOz list-group-item col bg-primary border-0 text-white py-0 ps-0 pe-lg-5">
+                        <a class="BioRelatedPractices_relatedLink__I0Uo7 stretched-link text-decoration-none d-block py-3 border-white border-1 border-top border-bottom fw-lighter sc-font-primary sc-24pt" title="Digital Assets" href="/Practices/General-Practice/Financial-Services/Digital-Assets">Digital Assets</a>
+                    </li>
+                                        <li class="BioRelatedPractices_listItem__ytWOz list-group-item col bg-primary border-0 text-white py-0 ps-0 pe-lg-5">
+                        <a class="BioRelatedPractices_relatedLink__I0Uo7 stretched-link text-decoration-none d-block py-3 border-white border-1 border-top border-bottom fw-lighter sc-font-primary sc-24pt" title="Employment Law" href="/Practices/Litigation/Employment-Law">Employment Law</a>
+                    </li>
+                                        <li class="BioRelatedPractices_listItem__ytWOz list-group-item col bg-primary border-0 text-white py-0 ps-0 pe-lg-5">
+                        <a class="BioRelatedPractices_relatedLink__I0Uo7 stretched-link text-decoration-none d-block py-3 border-white border-1 border-top border-bottom fw-lighter sc-font-primary sc-24pt" title="Financial Services" href="/Practices/General-Practice/Financial-Services">Financial Services</a>
+                    </li>
+                                        <li class="BioRelatedPractices_listItem__ytWOz list-group-item col bg-primary border-0 text-white py-0 ps-0 pe-lg-5">
+                        <a class="BioRelatedPractices_relatedLink__I0Uo7 stretched-link text-decoration-none d-block py-3 border-white border-1 border-top border-bottom fw-lighter sc-font-primary sc-24pt" title="Fintech" href="/Practices/General-Practice/Financial-Services/Fintech">Fintech</a>
+                    </li>
+                                        <li class="BioRelatedPractices_listItem__ytWOz list-group-item col bg-primary border-0 text-white py-0 ps-0 pe-lg-5">
+                        <a class="BioRelatedPractices_relatedLink__I0Uo7 stretched-link text-decoration-none d-block py-3 border-white border-1 border-top border-bottom fw-lighter sc-font-primary sc-24pt" title="Intellectual Property & Technology Transactions" href="/Practices/General-Practice/Intellectual-Property-Technology-Transactions">Intellectual Property & Technology Transactions</a>
+                    </li>
+                                        <li class="BioRelatedPractices_listItem__ytWOz list-group-item col bg-primary border-0 text-white py-0 ps-0 pe-lg-5">
+                        <a class="BioRelatedPractices_relatedLink__I0Uo7 stretched-link text-decoration-none d-block py-3 border-white border-1 border-top border-bottom fw-lighter sc-font-primary sc-24pt" title="Mergers & Acquisitions" href="/Practices/General-Practice/Mergers-Acquisitions">Mergers & Acquisitions</a>
+                    </li>
+                                        <li class="BioRelatedPractices_listItem__ytWOz list-group-item col bg-primary border-0 text-white py-0 ps-0 pe-lg-5">
+                        <a class="BioRelatedPractices_relatedLink__I0Uo7 stretched-link text-decoration-none d-block py-3 border-white border-1 border-top border-bottom fw-lighter sc-font-primary sc-24pt" title="Tax" href="/Practices/Tax">Tax</a>
+                    </li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+</div><script nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=">
+    $(".lg-fixed .Content_collapseBtn__4XDIu").on("click", function (e) {
+        const mediaQuery = window.matchMedia('(min-width: 992px)');
+        let searchUrl = $(this).attr("data-searchurl");
+        // Check if the media query is true
+        if (searchUrl && mediaQuery.matches) {
+            e.preventDefault();
+            e.stopPropagation();
+            document.location.href = searchUrl;
+        }
+    });
+    function fixNewsBreadcrumb() {
+        console.log("fixing...");
+        var breadcrumbTitle = $("div.container-fluid.bg-light.position-relative > div > div > div.col-10.d-flex.align-items-center.justify-content-start > div > a:nth-child(3)").text();
+        if (breadcrumbTitle == "News And Events") {
+            $("div.container-fluid.bg-light.position-relative > div > div > div.col-10.d-flex.align-items-center.justify-content-start > div > a:nth-child(3)").text("News and Events");
+        }
+    }
+    
+    function fixPress() {
+        var theEyebrow = $("main > div > div.container-fluid.border-bottom > div > div");
+        if (theEyebrow.text().includes("Press Mentions")) { 
+            theEyebrow.text("Press"); 
+        }
+        var theBreadcrumb = $("div.container-fluid.bg-light.position-relative.utility-nav > div > div > div.col-10.d-flex.align-items-center.justify-content-start > div > span");
+        if (theBreadcrumb.text().includes("Press Mentions")) { 
+            theBreadcrumb.text("Press"); 
+        }
+    }
+    // related list top borders
+    $(function () {
+        doRelatedItemBorders();
+        fixNewsBreadcrumb();
+        fixPress();
+    })
+  
+    $(window).resize(function () {
+        console.log("resize");
+        doRelatedItemBorders();
+        setTimeout(function () {
+            RITopBorders();
+        }, 250)
+    })
+    function doRelatedItemBorders() {
+        let isMobile = window.matchMedia("only screen and (max-width: 991px)").matches;
+        var spotlightPanel = $(".CarouselPanel_spotlightCarousel__rRHMt").length;
+        if (spotlightPanel == 0) {
+            $("#main_bio_container").addClass("border-bottom");
+        }
+        var relatedList = $("#relatedPractices ul li:not(:first-of-type)");
+        var relatedListFirstItem = $("#relatedPractices ul li:first-of-type");
+        var runningHeight = 0;
+        relatedList.each(function () {
+            var thisHeight = $(this).height();
+            runningHeight += parseInt(thisHeight);
+        })
+        var singleItemHeight = relatedListFirstItem.height();
+        runningHeight += parseInt(singleItemHeight);
+        var numberOfItems = relatedList.length;
+        //var listHeight = (((relatedList.length/2)+1)*singleItemHeight)+18;
+        var listHeight = (runningHeight / 2) + (singleItemHeight - 2);
+        console.log("list height is now " + listHeight + "px");
+        if (!isMobile) {
+            $("#relatedPractices ul").css("maxHeight", parseInt(listHeight) + "px");
+        } else {
+            $("#relatedPractices ul").css("maxHeight", "inherit");
+        }
+    }
+    var observer = new IntersectionObserver(onIntersection, {
+        root: null,
+        threshold: .1
+    })
+    function onIntersection() {
+        RITopBorders();
+    }
+    observer.observe(document.querySelector('.BioRelatedPractices_container__DPS2Y'));
+    function RITopBorders() {
+        console.log("doing top borders...");
+        $("#relatedPractices ul li").removeClass("related_top_border");
+        var relatedList = $("#relatedPractices ul li:not(:first-of-type)");
+        var relatedListFirstItem = $("#relatedPractices ul li:first-of-type");
+        relatedListFirstItem.addClass("related_top_border");
+        var firstItemOffset = relatedListFirstItem.offset().left;
+        var topOfRelatedList = false;
+        if (relatedList.length > 0) {
+            relatedList.each(function () {
+                if ($(this).offset().left != firstItemOffset && !topOfRelatedList) {
+                    $(this).addClass("related_top_border");
+                    topOfRelatedList = true;
+                }
+            });
+        }
+        console.log("borders done");
+    }
+</script>                    </div>
+                </main>
+                <template data-js-template="bio-email-modal">
+                    <div class="sc-email-modal modal fade rounded-0" id="bioEmailModal" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+                            <div class="modal-content rounded-0 border-0">
+                                <div class="modal-body">
+                                    <div class="sc-email-disclaimer">
+                                        <a class="d-block mb-2" href="/">
+                                            <img class="img img-fluid" src="/SullivanCromwell/_Assets/images/Desktop-logo.svg?_t=639083756418330000" alt="Sullivan &amp; Cromwell LLP Logo" width="244" height="13"/></a><p class="sc-font-secondary sc-14pt-17pt fw-semilight">Sending an e-mail through this web site does not create an attorney-client relationship. You should not send us any information through this web site that you would want treated confidentially.</p>
+                                        <div class="d-flex flex-column flex-lg-row justify-content-start">
+                                            <a role="button" class="btn btn-primary me-lg-3 bg-primary rounded-0 sc-font-secondary fw-semilight sc-14pt-17pt" href="mailto:test@example.com">Accept</a>
+                                            <button class="btn btn-secondary text-dark rounded-0 sc-font-secondary fw-semilight sc-14pt-17pt" data-bs-dismiss="modal">Cancel</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                <footer class="bg-light-grey">
+                    <div class="container">
+                        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mt-0">
+                            <div class="col-md-4 d-flex align-items-center">
+                                <a class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1" href="/">
+                                                                        <img alt="Sullivan &amp; Cromwell LLP Logo" src="/SullivanCromwell/_Assets/images/Desktop-logo.svg" class="d-md-block d-none" width="249" height="22" decoding="async" data-nimg="future" loading="lazy"/>
+                                    <img alt="Sullivan &amp; Cromwell LLP Logo" src="/SullivanCromwell/_Assets/images/Mobile-logo.svg" class="mobile-logo d-md-none d-block" height="22" decoding="async" data-nimg="future" loading="lazy"/></a>
+                            </div>
+                            <ul class="nav col-md-4 justify-content-md-end list-unstyled d-flex">
+                                <li class="ms-3">
+                                    <a class="text-muted" href="https://twitter.com/sullcrom" title="Open Twitter in a new window" target='_blank'>
+                                        <img src="/SullivanCromwell/_Assets/images/X_Icon_Light.svg" width="32" height="32" decoding="async" data-nimg="future" class="bi" loading="lazy" alt="Twitter icon"/>
+                                    </a>
+                                </li>
+                                <li class="ms-3">
+                                    <a class="text-muted" href="https://www.linkedin.com/company/sullivanandcromwell/" title="Open LinkedIn in a new window" target='_blank'>
+                                        <img src="/SullivanCromwell/_Assets/images/LinkedIn_Icon_Light.svg" width="32" height="32" decoding="async" data-nimg="future" class="bi" loading="lazy" alt="LinkedIn icon"/>
+                                    </a>
+                                </li>
+                                <li class="ms-3">
+                                    <a class="text-muted" href="/SullivanCromwell/RSS-Feeds" title="Open RSS Feed in a new window">
+                                        <img src="/SullivanCromwell/_Assets/images/Rss_Icon_Light.svg" width="32" height="32" decoding="async" data-nimg="future" class="bi" loading="lazy" alt="RSS Feed icon"/>
+                                    </a>
+                                </li>
+                                <li class="ms-3">
+                                    <a class="text-muted" href="https://itunes.apple.com/us/podcast/s-c-critical-insights/id1348902229?mt=2" title="Open Podcasts in a new window" target='_blank'>
+                                        <img src="/SullivanCromwell/_Assets/images/Podcast_Icon_Light.svg" width="32" height="32" decoding="async" data-nimg="future" class="bi" loading="lazy" alt="Podcasts icon"/>
+                                    </a>
+                                </li>
+                                                            </ul>
+                        </div>
+                        <ul class="nav justify-content-between border-bottom mb-3" id="footer_menu">
+                            <li class="nav-item">
+<a href="/SullivanCromwell/Contact-Us" target="_self">Contact Us</a>
+</li>
+<li class="nav-item">
+<a href="/SullivanCromwell/Information-Policy-Relating-to-Cookies" target="_self">Cookies</a>
+</li>
+<li class="nav-item">
+<a href="/SullivanCromwell/Privacy-Disclaimers" target="_self">Privacy & Disclaimers</a>
+</li>
+<li class="nav-item">
+<a href="/SullivanCromwell/Attorney-Advertising-Notice" target="_self">Attorney Advertising</a>
+</li>
+                        </ul>
+                        <span class="pb-2  Graphik-Regular-Web d-flex justify-content-end sc-14pt">
+                            &copy; 2026 Sullivan & Cromwell LLP                        </span>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+<script nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" src="/SullivanCromwell/_Assets/js/stacktable.js?_t=638144126589000000"></script>
+<script nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" src="/SullivanCromwell/_Assets/js/slick.min.js?_t=638278761884000000"></script>
+<script nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=" src="/SullivanCromwell/_Assets/js/global.js?_t=639300785082000000"></script>
+<script nonce="jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=">
+    // Override document.createElement to add nonce to script tags
+    (function () {
+        var createElement = document.createElement;
+        document.createElement = function (tagName) {
+            var element = createElement.call(document, tagName);
+            if (tagName.toLowerCase() === 'script') {
+                // Set nonce attribute
+                element.setAttribute('nonce', 'jx/wgOGW0FFUlAnU7Z12mGLDA8AX50X5S1AjJtpuD6M=');
+            }
+            return element;
+        };
+    })();
+</script>
+
+</html>

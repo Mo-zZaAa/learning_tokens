@@ -1,0 +1,163 @@
+                                                                                    Appendix 2
+
+                      Details of Screening for New Registration Application
+                        as Virtual Currency Exchange Service Provider
+
+  After the amended Payment Services Act took effect on April 1, 2017, only business
+operators registered with competent Local Finance Bureau are allowed to operate virtual
+currency exchange service (i.e. introduced registration system).
+
+    (Reference) As of the end of Sep. 2017, 11 applicants have been registered as virtual
+          currency exchange service providers, and 19 are still being examined for registration.
+
+
+For Foreign Operators Applying for Registration:
+   When foreign operators apply for registration as virtual currency exchange service
+providers, they need to consult beforehand with the Local Finance Bureau nearest their main
+office established in Japan regarding matters such as the details of their business and the
+documentation they need to prepare. The law requires them to prepare application documents
+in Japanese or in other languages with a Japanese translation of the documents1. For smooth
+discussion, they are advised, when applying, to involve Japanese-speaking attorneys who are
+versed in the relevant Japanese laws, such as the Payment Services Act, as well as business
+practices in Japan.
+
+
+Typical Registration Screening Process:
+  In general, each Local Finance Bureau has providers submit preliminary documents of
+intended application and provide an overview of providers themselves, the virtual currencies
+they plan to handle and their planned service*.
+   After the planned service is found to fall under virtual currency exchange service, each
+Local Finance Bureau asks the provider to submit a draft registration application and conduct
+pre-screening to see if, among other things, there are any omissions in the information
+provided in the application and its internal control systems meet the requirements in Article
+63-5 of the Payment Services Act (refusal of registration) and “Guidelines for Administrative
+Processes” Regarding Virtual Currency Exchange Service Providers (e.g. whether the
+provider has internal control systems to ensure an appropriate and secure execution of virtual
+currency exchange service).
+    * Including whether
+        - the virtual currency they plan to handle falls under “virtual currency”
+        - their service falls under “virtual currency exchange service”
+
+
+1 Note that the required attachments to an application, such as articles of incorporation,
+internal rules and contracts, created in English are accepted if Japanese translations of their
+summaries are attached.
+
+                                                  1
+       as provided in the Payment Services Act
+   After the consultation prior to application, each Local Finance Bureau asks them to submit
+a registration application.
+
+
+Registration Requirements:
+   The law requires applicants to fulfill the following requirements before they are permitted
+to operate virtual currency exchange service:
+
+    - The operator must be a stock company or a foreign virtual currency exchange service
+      provider2 (limited to foreign companies that have offices in Japan). (As provided in
+      Article 63-5(1)(i) of the Payment Services Act)
+    - Foreign virtual currency exchange service providers must also be corporations that have
+      a representative in Japan (limited to an individual who has residency in Japan). (Article
+      63-5(1)(ii) of the Payment Services Act)
+
+    Therefore, if a foreign operator that is not a foreign virtual currency exchange service
+provider intends to operate a virtual currency exchange service in Japan, it must set up a stock
+company in Japan and that company must be registered as a virtual currency exchange service
+provider.
+  When a foreign virtual currency exchange service provider intends to operate a virtual
+currency exchange service in Japan, it must be a foreign operator that has a local office in
+Japan AND the representative of the local office must have Japanese residency.
+  It should be noted that the Companies Act requires that a foreign company register in Japan
+when it has appointed a representative person in Japan (Article 817(1), 933(1)).
+
+
+   In addition to the above, the following requirements must also be met (Article
+63-5(1)(iii)-(x) of the Payment Services Act):
+  - The provider must have the minimum required financial base (i.e. capitalized at a
+     minimum of 10 million yen, and not in negative net assets) and be equipped with
+     systems for adequate operation and legal compliance, deemed necessary to operate a
+      virtual currency exchange service appropriately and securely.
+    - The provider must not use a trade name or company name that is identical to one used
+
+
+2 Foreign virtual currency exchange service providers are those operating a virtual currency
+exchange service under the type of registration deemed the same as that specified in Article
+63-2 of the Payment Services Act as provided in a foreign law deemed an equivalent of the
+Japanese act (Article 2(9) of the Payment Services Act). Foreign virtual currency exchange
+service providers not registered under Article 63-2 of the act are banned from soliciting acts
+specified under the items of Article 2(7) of the act, such as trading of virtual currencies and
+exchange of one virtual currency with another, to Japanese residents (Article 63-22 of the
+Payment Services Act).
+
+                                               2
+    by any other virtual currency exchange service provider.
+  - The provider must not have had its registration in Japan as a virtual currency exchange
+    service provider revoked or registration as a similar operator revoked based on
+    provisions in a foreign law that is deemed equivalent of the Payment Services Act, in the
+    past five years in either case.
+  - The provider must never have violated the Payment Services Act, the Law Controlling
+    Contributions, Money Deposits and Interest or equivalent provisions of foreign laws, and
+    never have been fined in Japan or penalized under foreign laws as a result, in the past
+    five years.
+  - Other businesses operated by the provider must not harm the public interest.
+  - Directors of the provider must not include disqualified individuals.
+
+
+Key Points to be Checked Regarding Organizational System:
+   (1) Protective measures for service users (Administrative Guidelines II-2-2-1)
+     - Whether the provider is equipped with systems to explain, when it explains services
+        or provides information to customers, the information items as provided in the law
+        and ordinance, in accordance with the virtual currencies it handles or the forms of
+        transactions. This includes, for example, whether the provider is equipped with
+        systems to ensure that users are informed about the characteristics of the virtual
+        currency, such as the fact that it is not legal tender or that it carries the risk of loss due
+        to change in its value.
+   (2) Segregated management of money, virtual currencies deposited by users
+      (Administrative Guidelines II-2-2-2)
+     - Whether the provider specifies in its internal rules a method of segregated
+       management of money and virtual currencies respectively and such a method is
+       prescribed in the contracts with users.
+     - Whether the money and virtual currencies belonging to the provider's own assets are
+       clearly separated from those deposited by users in accordance with the method
+       mentioned above and the provider has a system which enables immediate
+        discrimination among deposits belonging to different users. Also, whether the
+        provider is to appropriately verify that such segregation management rule is complied
+        with.
+   (3) Information technology system risk management (Administrative Guidelines II-2-3-1)
+     - Whether the provider's board of directors has established a risk management
+       framework, giving sufficient consideration to the possibility that once risk factors
+       materialize, with the development in computer networking, a chain reaction of impact
+       could bring far-reaching and grave results, having serious damage on its operation.
+     - Whether the provider establishes its IT system risk management framework based on
+
+                                                  3
+       objective criteria about the development in the IT system risk framework.
+          Also, whether the provider is regularly reviewing its IT system risk management
+       framework based on the results on monitoring and analysis of IT system problems,
+       outcomes of IT risk management activities and development in technology.
+
+
+Time Required for Registration:
+   The length of time required for registration can vary, particularly according to the details of
+the virtual currency exchange service under application and the progress of establishing an
+operating framework. Generally, however, the process of “Consultation Prior to Application”
+often takes about three to four months and that of “Application for Registration” typically
+takes one to two months (similar to the cases of other businesses’ registration).
+  (Reference) Outline of the Standard Screening Process for Applications for New
+     Registration with the FSA/Local Financial Bureau (published Feb. 10, 2017)
+
+
+Cost of Registration Application:
+   The applicant must pay 150,000 yen in registration and license tax for each application for
+registration as a virtual currency exchange service provider. Note that this cost does not
+include payments to attorneys, office expenses or fees to translate the necessary documents
+into Japanese.
+
+
+                                                                                             End
+
+
+
+
+                                                4
+

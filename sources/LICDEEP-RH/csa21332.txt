@@ -1,0 +1,720 @@
+              Canadian Securities Administrators Staff Notice 21-332
+                        Crypto Asset Trading Platforms:
+                         Pre-Registration Undertakings
+                Changes to Enhance Canadian Investor Protection
+February 22, 2023
+
+1.       Purpose of this Notice
+
+The Canadian Securities Administrators (the CSA or we) are publishing this notice (the Notice)
+to describe a change in the CSA staff practice in connection with our expectation that crypto asset
+trading platforms (CTPs) that continue to operate in Canada while they seek registration and related
+exemptive relief file a pre-registration undertaking (a PRU) with the CSA, and to provide
+additional guidance to CTPs.
+
+In light of recent insolvencies involving a number of CTPs, including Voyager Digital, Celsius
+Network, the FTX group of companies, BlockFi and Genesis Global (collectively recent CTP
+insolvency events), we are introducing important new investor protection provisions into the
+standard form of PRU. The PRU is required by CSA members as a precondition to CSA members
+allowing unregistered CTPs to continue to operate while the CTPs pursue their applications for
+registration and related relief. PRUs contain commitments by CTPs that the CTPs will operate in
+a certain manner during the registration process. These commitments are generally consistent with
+requirements currently applicable to registered CTPs and are intended to address investor
+protection and level-playing-field concerns, as explained below.
+
+The new commitments we are now requesting from unregistered CTPs relate to the following
+areas:
+    • enhanced commitments in relation to the custody and segregation of crypto assets held on
+       behalf of Canadian clients;
+    • enhanced commitments to preclude the unregistered CTP from pledging, re-hypothecating
+       or otherwise using crypto assets held on behalf of Canadian clients;
+    • a prohibition on the part of the CTP offering margin, credit or other forms of leverage to
+       any type of client in connection with the trading of crypto contracts or crypto assets on the
+       CTP’s platform;
+    • new commitments from controlling mind(s) and global affiliates that affect the CTP entity
+       seeking registration and relief;
+    • restrictions on the part of the CTP relying on crypto assets, including proprietary tokens
+       issued by the CTP or an affiliate of the CTP, in determining the capital of the CTP for
+       excess working capital purposes and in determining the capital base of the CTP;
+    • enhanced commitments in relation to the filing by the CTP of financial information with
+       the CSA on a regular basis;
+
+
+
+#6082629 v1
+                                                        -2-
+
+
+
+    •    enhanced commitments in relation to the retention of a qualified Chief Compliance Officer
+         (CCO) during the pre-registration process;
+    •    a prohibition on the part of the CTP in respect of clients buying or depositing Value-
+         Referenced Crypto Assets (commonly referred to as stablecoins) through crypto contracts
+         without the prior written consent of the CSA; and
+    •    a prohibition on the part of the CTP in respect of trades in crypto contracts based on
+         proprietary tokens, except with the prior written consent of the CSA.
+
+We believe the recent CTP insolvency events noted above highlight the significant investor
+protection risks to Canadian investors of trading crypto assets, particularly where such trading is
+conducted through unregistered CTPs based outside of Canada.
+
+We remind investors that trading in crypto assets comes with elevated levels of risk that may not
+be suitable for many investors, in particular retail investors. Generally speaking, purchasing crypto
+assets is a speculative activity and the value and liquidity of crypto assets are highly volatile.
+Unregistered CTPs accessible by Canadians may not have essential safeguards that help protect
+investors’ assets from loss, theft or misuse.
+
+CTPs that operate in Canada and trade securities or derivatives are required to comply with
+Canadian securities law requirements, including registering1 with securities regulators. While this
+regulatory oversight plays an important role in investor protection, investors should know that
+registration cannot eliminate all risks associated with CTPs.
+
+Accordingly, unregistered CTPs that are continuing to operate in Canada while pursuing
+applications for registration and related relief are expected
+   • to give a revised PRU based on the template set out by CSA staff (the enhanced PRU)
+       within 30 days of the publication of this Notice, and
+   • to implement such systems changes as may be necessary to give effect to the provisions of
+       the PRU within timeframes set out in the PRU.
+
+PRUs given by CTPs will be posted on the CSA Website 2 and may also be posted on local websites
+maintained by individual members of the CSA. 3
+
+As explained below, where an unregistered CTP is unable or unwilling to provide an enhanced
+PRU in a form acceptable to CSA staff or implement the required systems changes within these
+timelines, we will expect the CTP to take appropriate steps to identify and off-board existing users
+in Canada (off-boarding), to impose meaningful restrictions to prevent access to products and services
+offered by the CTP to users in Canada (access restrictions) and to provide notice and timelines to the
+principal regulator (PR) and other members of the CSA for the implementation of such steps and
+
+1
+    https://www.securities-administrators.ca/crypto-trading-platforms-regulation-and-enforcement-actions/
+2
+    https://www.securities-administrators.ca/resources/regulatory-sandbox/decisions/
+    https://www.autorites-valeurs-mobilieres.ca/ressources/bac-a-sable-reglementaire-des-acvm/decisions/
+3
+    See, e.g., https://www.osc.ca/en/industry/registration-and-compliance/registered-crypto-asset-trading-platforms;
+    or https://lautorite.qc.ca/grand-public/registres/plateformes-de-negociation-de-cryptoactifs
+                                                          -3-
+
+
+restrictions. Nothing in this Notice should be interpreted as limiting any enforcement recourse the
+CSA may take against any CTP 4.
+
+The focus of this Notice is on unregistered CTPs that continue to operate in Canada while they seek
+registration and related exemptive relief. However, some of the guidance in this Notice may be
+relevant to registered CTPs and to investment funds that invest in crypto assets. Staff of the PR for
+a registered CTP will separately contact the registered CTP to discuss whether any changes to the
+registered CTP’s registration or related relief may be required.
+
+2.        Background
+
+On August 15, 2022, the CSA published 5 an important update in respect of CTPs that continue to
+operate in Canada while they take steps to comply with applicable securities legislation. 6
+
+The CSA announced that CSA members now expect unregistered CTPs to provide a PRU to their
+PR while their applications for registration and related relief are reviewed. By giving these
+undertakings, unregistered CTPs agree to comply with provisions that address investor protection
+concerns and are consistent with requirements currently applicable to registered CTPs.
+
+The CSA introduced the PRU to address
+   • investor protection and risk management concerns in relation to the activities of
+      unregistered CTPs that have submitted a substantially complete application to be
+      registered and are continuing to operate while they proceed through the registration
+      process and seek related exemptive relief; and
+   • level-playing-field concerns in relation to CTPs that have obtained registration as a
+      restricted dealer or investment dealer and that are operating in accordance with their
+      obligations as a registered firm and the terms and conditions applicable to their
+      registration and exemptive relief.
+
+The provisions of the standard form of PRU represent a number of core business conduct and risk
+management obligations (core obligations) that are consistent with the core obligations that would
+apply to the unregistered CTP if the CTP becomes a registered firm and pursuant to the terms and
+conditions set out in recent exemptive relief decisions granted to registered CTPs.
+
+Specifically, the current standard form of PRU includes, among other things, a public commitment
+by the unregistered CTP to comply with the following:
+
+4
+     For greater certainty, this includes any recourse the OSC may take against CTPs that did not contact the OSC by the
+     April 19, 2021 deadline set out in its March 29, 2021 announcement. See https://www.osc.ca/en/news-events/news/osc-
+     working-ensure-crypto-asset-trading-platforms-comply-securities-law.
+5
+     https://www.securities-administrators.ca/news/canadian-securities-regulators-expect-commitments-from-crypto-
+     trading-platforms-pursuing-registration/.
+6
+     As defined in National Instrument 14-101 Definitions. The term securities legislation includes legislation related
+     to both securities and derivatives. For more information about when and in what circumstances a CTP may be
+     subject to securities legislation, please refer to CSA Staff Notice 21-327 Guidance on the Application of Securities
+     Legislation to Entities Facilitating the Trading of Crypto Assets and Joint CSA/IIROC Staff Notice 21-329 Guidance
+     for Crypto-Asset Trading Platforms: Compliance with Regulatory Requirements.
+                                                 -4-
+
+
+       (a)       core business conduct obligations as set out in Schedule I in relation to
+             •   acting fairly, honestly and in good faith
+             •   system of controls and supervision, including policies and procedures relating to
+                 material, non-public information and personal trading by employees
+             •   conflicts of interest
+             •   restrictions on products and services
+             •   restriction on margin and leverage for retail clients
+             •   no recommendations or advice
+             •   advertising and social media use
+             •   account opening
+             •   investment limits
+             •   account appropriateness assessment
+             •   risk statement
+             •   custody of crypto assets
+             •   insurance
+             •   confidentiality of clients’ order and trade information
+             •   books and records
+
+       (b)       reporting provisions as set out in Schedule II
+
+       (c)       marketplace provisions as set out in Schedule III (applicable only if the CTP is a
+                 marketplace)
+
+       (d)       an obligation to notify the PR of any material change affecting the CTP that may
+                 reasonably be considered material by the PR or a client
+
+       (e)       an obligation to notify the PR of any breach or failure of the CTP’s systems of
+                 controls (e.g., a hack) and steps taken to address such breach or failure
+
+       (f)       an obligation to notify the PR if any regulatory authority initiates compliance or
+                 enforcement action against the CTP
+
+       (g)       an obligation to notify the PR if the CTP becomes subject to any bankruptcy or
+                 insolvency proceedings
+
+       (h)       a commitment to work diligently to advance the applications for registration and
+                 relief and an acknowledgement that if this cannot be achieved within 12 months,
+                 the CTP will cease to carry on registerable activities in Canada
+
+       (i)       certain other acknowledgements and commitments as set out in the PRU
+
+The standard form of PRU includes an acknowledgement that the filing of the PRU by the CTP does
+not mean that the CTP has been or will be granted registration in any CSA jurisdiction or that the
+relief requested in the application for relief will be granted in any CSA jurisdiction. There is no
+assurance that the CTP will be registered or be granted its requested relief, and if it fails to become
+                                                        -5-
+
+
+registered or obtain the necessary exemptive relief within a specified period, it will have to cease
+carrying on registerable activity in each jurisdiction of Canada in which it is not registered.
+
+3.        New Provisions
+
+On December 12, 2022, the CSA announced7 that, in light of recent CTP insolvency events, expanded
+commitments would be expected in the standard form of PRU. These commitments are a
+precondition to CSA staff considering an application for registration and related relief.
+
+          (a)      Custody and segregation of crypto assets held on behalf of Canadian clients
+
+The existing standard form of PRU includes a number of principles-based representations and
+commitments as follows:
+   • The Filer is proficient and experienced in holding Crypto Assets and has established and
+      will maintain and apply policies and procedures that manage and mitigate custodial risks,
+      including but not limited to, an effective system of controls and supervision to safeguard
+      the Crypto Assets. The Filer also maintains appropriate policies and procedures related to
+      IT security, cyber-resilience, disaster recovery capabilities and business continuity plans.
+   • The Filer has and will retain the services of third-party custodians to hold not less than 80%
+      of the total value of Crypto Assets held on behalf of clients.
+
+In light of recent CTP insolvency events as noted above, and in light of the concern that Canadian
+investors, who believe they are purchasing Bitcoin or other crypto assets on a CTP, may find
+themselves as unsecured creditors in the event the CTP becomes insolvent, we are introducing
+additional commitments under this heading.
+
+Specifically, the enhanced PRU will include additional commitments from the CTP to hold assets,
+including cash, securities and crypto assets that are not securities, of a Canadian client
+    • separate and apart from its own property,
+    • in trust for the benefit of the client,
+    • in the case of cash, in a designated trust account or in an account designated for the benefit
+       of clients with a Canadian custodian or Canadian financial institution, and
+    • in the case of crypto assets, in a designated trust account or in an account designated for
+       the benefit of clients with a custodian that comes within the definition of “Acceptable
+       Third-party Custodian”.
+
+“Acceptable Third-party Custodian” means an entity that
+
+                   (i)       is one of the following:
+                         •   a Canadian custodian or Canadian financial institution;
+                         •   a custodian qualified to act as a custodian or sub-custodian for assets held
+                             in Canada pursuant to section 6.2 [Entities Qualified to Act as Custodian or
+
+
+7
+     https://www.securities-administrators.ca/news/csa-provides-update-to-crypto-trading-platforms-operating-in-
+     canada/
+                                                       -6-
+
+
+                             Sub-Custodian for Assets Held in Canada] of National Instrument 81-102
+                             Investment Funds;
+                         •   a custodian that meets the definition of an “acceptable securities location”
+                             in accordance with the Investment Dealer and Partially Consolidated Rules
+                             and Form 1 of New Self-Regulatory Organization of Canada (New SRO);
+                         •   a foreign custodian for which the Filer has obtained the prior written consent
+                             from the PR and the regulator or securities regulatory authority of the
+                             Applicable Jurisdiction(s); or
+                         •   an entity that does not meet the criteria for a qualified custodian and for
+                             which the Filer has obtained the prior written consent from the PR and the
+                             regulator or securities regulatory authority of the Applicable Jurisdiction(s);
+
+                  (ii)       is functionally independent of the Filer within the meaning of National
+                             Instrument 31-103 Registration Requirements, Exemptions and Ongoing
+                             Registrant Obligations (NI 31-103);
+
+                  (iii)      has obtained audited financial statements within the last twelve months
+                             which
+                         •   are audited by a person or company that is authorized to sign an auditor’s
+                             report under the laws of a jurisdiction of Canada or a foreign jurisdiction
+                             and that meets the professional standards of that jurisdiction,
+                         •   are accompanied by an auditor’s report that expresses an unqualified
+                             opinion, and
+                         •   discloses on its statement of financial position or in the notes of the audited
+                             financial statements the amount of liabilities that it owes to its clients for
+                             holding their assets, and the amount of assets held by the custodian to meet
+                             its obligations to those custody clients, broken down by asset; 8 and
+
+                  (iv)       has obtained a Systems and Organization Controls (SOC) 2 Type 1 or SOC
+                             2 Type 2 report within the last twelve months or has obtained a comparable
+                             report recognized by a similar accreditation board satisfactory to the Filer’s
+                             PR and the regulator or securities regulatory authority of the Applicable
+                             Jurisdiction(s).
+
+In addition, the CTP commits to provide an authorization and direction in a form acceptable to
+CSA staff that allows CSA staff to obtain information about the status of Canadian client accounts
+directly from the custodian(s) and without going through the CTP.
+
+         (b)      Restrictions on the ability of unregistered CTPs to pledge, re-hypothecate or
+                  otherwise use crypto assets held on behalf of Canadian clients
+
+The existing standard form of PRU includes a principles-based representation as follows:
+
+
+
+8
+    Similar in concept to that described in SEC Accounting Bulletin No. 121 regarding the accounting for
+    obligations to safeguard crypto assets an entity holds for platform users.
+                                                 -7-
+
+
+   •   The Filer will hold Crypto Assets in trust for the benefit of clients separate and apart from
+       its own assets and from the assets of any custodial service provider. The Filer will not
+       pledge, re-hypothecate or otherwise use any Crypto Assets owned by its clients.
+
+The enhanced PRU will maintain this commitment. In the context of our reviews of the
+applications by the CTPs for registration and related relief, CSA staff will be asking for evidence
+of meaningful compliance systems and corporate governance controls to provide reasonable
+assurance that the CTP complies with this provision.
+
+       (c)     Restrictions on the offering of margin, credit or other forms of leverage
+
+The existing standard form of PRU includes a prohibition on the CTP offering margin, credit or
+other forms of leverage to clients other than clients that are “permitted clients” (as defined in NI
+31-103) in connection with the trading of crypto contracts or crypto assets on the CTP’s platform.
+
+The existing prohibition is based on the restriction on registered dealers offering margin, credit or
+other forms of leverage to clients as set out in section 13.12 [Restriction on borrowing from, or
+lending to, clients] of NI 31-103. However, section 9.3 of NI 31-103 provides an exemption from
+the restriction in section 13.12 for IIROC investment dealers provided they comply with the IIROC
+requirements (now New SRO requirements).
+
+In light of the recent CTP insolvency events as noted above, the enhanced PRU includes a
+commitment that the CTP not offer or provide margin, credit or other forms of leverage to any
+client, including both retail and permitted clients. This activity introduces additional and
+heightened risks to CTPs and has the potential to elevate solvency risk if not managed
+appropriately, even if margin and leverage were to be restricted to permitted clients only.
+
+       (d)     Commitments from controlling mind(s) and global affiliates that affect the
+               Canadian Filer
+
+To ensure the independence of the Canadian Filer, the Filer’s global affiliates, parent entities
+and/or their controlling minds will be expected to co-sign the enhanced PRU.
+
+In co-signing the enhanced PRU, the Filer’s global affiliates, parent entities and/or their controlling
+minds will undertake
+    • Not to interfere with the Canadian Filer’s activities and its directors’ independent
+        judgment;
+    • To ensure that their activities will not undermine the Canadian Filer’s activities and its
+        compliance with Canadian regulatory obligations.
+
+To the extent possible, the enhanced PRU will include a provision that the Canadian Filer’s board
+of directors be independent from that of its global affiliates, its parent entities and/or their
+controlling minds.
+
+       (e)     Restrictions on the use of crypto assets, including proprietary tokens issued by the
+               CTP or an affiliate of the CTP, in determining the capital of the CTP for excess
+                                                        -8-
+
+
+                   working capital purposes, including acceptance of these assets for collateral
+                   purposes.
+
+For the purpose of the minimum excess working capital requirement applicable to registered firms,
+CSA staff will expect a 100% reduction on all crypto assets which are not offset by a
+corresponding current liability, such as crypto assets held for the clients as collateral to guarantee
+obligations under crypto contracts.
+
+This will result in the exclusion of all the crypto assets held by the CTPs from the excess working
+capital calculation (Form 31-103F1).
+
+This provision is based on the fact that most crypto assets are speculative in nature and that their
+value is highly volatile. As a new class of assets, crypto assets have limited investment history
+which indicates that they may lose substantial, if not all, their value in a very short period. CTPs
+must consider those risk elements when calculating their excess working capital to ensure their
+solvency.
+
+          (f)      The filing by CTPs of financial information with the CSA members on a regular
+                   basis
+
+The enhanced PRU will require from the Filer delivery of financial information as provided under
+section 12.12 [Delivering financial information – dealer] of NI 31-103. 9
+
+          (g)      A provision for CTPs to retain/employ a qualified CCO
+
+The enhanced PRU will require that the CTP designate an individual as its CCO and that individual
+must generally meet the requirements of a CCO for a registered exempt market dealer. The CCO
+will be responsible for the following:
+
+                   (i)      maintaining policies and procedures for assessing compliance by the Filer,
+                            and individuals acting on behalf of the Filer, with securities legislation,
+
+                   (ii)     monitoring and assessing compliance by the Filer, and individuals acting on
+                            behalf of the Filer, with securities legislation, and
+
+                   (iii)    directly accessing the board of directors, or individuals acting in such
+                            capacity for the Filer, at such times as the CCO may consider necessary or
+                            advisable in view of the CCO’s responsibilities.
+
+4.        Crypto Assets Available to Canadian Clients on CTPs
+
+CTPs that are registered, or that have entered into or will be entering into a PRU, are reminded
+that, subject to the potential exclusion noted in respect of Value-Referenced Crypto Assets below,
+
+
+9
+     To comply with section 12.12 of NI 31-103, we refer the Filer to sections 12.10 and 12.11 of NI-31-103. Pursuant
+     to subsection 12.10(2) NI 31-103, annual financial statements must be audited.
+                                                        -9-
+
+
+such CTPs are prohibited from permitting Canadian clients to enter into crypto contracts to buy
+and sell any crypto asset that is itself a security and/or a derivative.
+
+          (a)      General
+
+Registered CTPs are required to have established policies and procedures to determine whether
+each crypto asset they permit Canadian clients to enter into crypto contracts to buy and sell is a
+security and/or derivative under securities legislation in Canada.
+
+A registered CTP’s policies and procedures to determine whether a crypto asset is a security and/or
+derivative should include a process for independent analysis of the crypto asset and consideration
+of statements made by any regulator or securities regulatory authority about whether the crypto
+asset, or generally about whether the type of crypto asset, is a security and/or derivative. We expect
+that CTPs that have entered into a PRU would have similar policies and procedures.
+
+Pursuant to the terms of registration and exemptive relief of a registered CTP, if such registered
+CTP is made aware or is informed that a crypto asset is viewed by a regulator or securities
+regulatory authority to be a security and/or derivative, the registered CTP is required to promptly
+stop permitting its clients to buy or deposit such crypto asset through a crypto contract, except to
+allow clients, in an orderly manner, to liquidate their positions in those crypto contracts or transfer
+such crypto assets to a blockchain address specified by the client. We expect that CTPs that have
+entered into a PRU would take similar steps if they were made aware or informed that a crypto
+asset is viewed by a regulator or securities regulatory authority to be a security and/or derivative.
+
+          (b)      Value-Referenced Crypto Assets
+
+As outlined in its business plan, 10 the CSA continues to monitor and assess the presence and role
+of stablecoins in Canadian capital markets and work collaboratively to identify and respond to
+regulatory implications and risks. As a result of this ongoing work, the CSA is of the view that
+stablecoins, or stablecoin arrangements, may constitute securities and/or derivatives.
+
+There is no generally accepted definition of “stablecoin” and there are various iterations of
+stablecoin arrangements. In this Notice and the enhanced PRUs, we use the term “Value-
+Referenced Crypto Asset”, or “VRCA”, since the use of the term “stablecoin” may be misleading
+in that these types of assets can also experience volatility and there have been several instances
+over the past year where crypto assets purported to be “stablecoins” did not maintain their “peg”
+on trading platforms.
+
+Generally, a VRCA is a crypto asset that is designed to maintain a stable value over time by
+referencing the value of a fiat currency or any other value or right, or combination thereof. 11 The
+10
+     2022-2025 CSA Business Plan. See: https://www.securities-administrators.ca/wp-
+     content/uploads/2022/10/2022_2025CSA_BusinessPlan.pdf.
+11
+     In its Consultative Report Review of the Financial Stability Board (FSB) High-level Recommendations of the
+     Regulation, Supervision and Oversight of “Global Stablecoin” Arrangements (October 2022), the FSB highlighted
+     that “stablecoins” include two characteristics that distinguish them from other Crypto Assets—the existence of a
+     stabilisation mechanism and the usability as a means of payment and/or store of value. See
+     https://www.fsb.org/wp-content/uploads/P111022-4.pdf at p 1.
+                                                           - 10 -
+
+
+mechanism through which a VRCA is designed to maintain its value, also commonly known as its
+“peg” to the reference value, may be through maintaining a reserve of assets or through an
+algorithm coded into a smart contract. Whether a particular VRCA is a security and/or derivative
+will depend on the specific facts and circumstances.
+
+The most common form of VRCA is intended to replicate the value of a single fiat currency and
+may give holders digital evidence of a direct or indirect claim on the issuer. 12 The issuer 13 may
+attempt to maintain the value of the VRCAs by setting aside a reserve of assets, which is
+denominated in the fiat currency and may or may not be in a segregated reserve account (a Fiat-
+Backed Crypto Asset). Staff are of the view that Fiat-Backed Crypto Assets generally meet the
+definition of “security” 14 and/or would meet the definition of “derivative” in several
+jurisdictions. 15
+
+Other similarly structured VRCAs are pegged to and backed by assets other than fiat currency
+(e.g., gold, other crypto assets) or a basket of types of assets (e.g., a basket of fiat currencies).
+Similar to Fiat-Backed Crypto Assets, we would generally consider VRCAs pegged to or backed
+by assets other than fiat currency to be a security and/or derivative.
+
+VRCAs remain primarily used to facilitate the trading, borrowing and lending of other crypto
+assets. Their design and use could give rise to a variety of risks in the financial system, particularly
+if the risks of VRCAs are not adequately addressed.
+
+The transparency of VRCA arrangements about their reserves of assets, the stabilization
+mechanisms of their value and their governance are generally key issues that require appropriate
+regulation to protect VRCA holders. Currently, VRCA holders may not receive important
+information about the issuer or key features of the VRCA. Thus, they may not be aware of their
+rights and risks when trading such assets. In addition, consumers may be misled into believing that
+12
+     Many VRCAs limit the circumstances in which a holder can make a claim against the issuer for the underlying
+     asset (e.g., the holder may have to hold or request redemption of a certain value of VRCAs). We do not consider
+     such conditions on redemption to alter the conclusion that the VRCA is a security and/or derivative.
+13
+     This Staff Notice uses the term "issuer" to describe the creator of a VRCA, and also "distribution" in reference to
+     the first sale of such assets by the issuer. These terms are generally used in respect of securities. As noted, certain
+     VRCAs, including Fiat-Backed Crypto Assets, constitute derivatives in certain jurisdictions. The use of "issuer"
+     and "distribution" should not, therefore, be read to exclude the application of securities legislation in respect of
+     derivatives in such jurisdictions.
+     Generally, the issuance of Fiat-Backed Crypto Assets includes all the functions performed by its issuer. Among
+     other things, the issuer of a VRCA is the entity responsible for designing the Fiat-Backed Crypto Asset, managing
+     the minting, issuance, redemption and supply of tokens, and maintaining the crypto asset’s peg through the
+     coordinated management of the reserve assets and token supply. The issuance in Canada of a Fiat-Backed Crypto
+     Asset that meets the definition of security may constitute a distribution in accordance with the securities legislation.
+14
+     For instance, Fiat-Backed Crypto Assets would generally constitute an “evidence of indebtedness” under the
+     definition of “security” in several jurisdictions and may also be a security under other clauses of the definition of
+     “security”.
+15
+     Depending on the specific facts and circumstances a VRCA may also be a deposit under provincial and federal
+     legislation and may be subject to another regulatory oversight regime in Canada. For example, if the issuer is a
+     Canadian financial institution, or the equivalent in a foreign jurisdiction, there may be existing exemptions from
+     securities legislation that may be applicable or may be appropriate.
+                                                        - 11 -
+
+
+VRCAs are risk-free, that their price will not deviate from its reference value (both in the normal
+markets and during difficult events) or that they have a direct claim on the reserve of assets. We
+generally note that the redemption rights on VRCAs are left to the discretion of the issuer and are
+not always clearly disclosed.
+
+Some of the significant risks associated with VRCAs are related to the stabilization mechanism
+associated with the maintenance of the peg to their reference value, the management, and
+custodianship of their reserve of assets and their governance. In addition, the risk that is most likely
+to have an impact on the financial system as a whole, relative to other risks, is the redemption risk
+or “run” risk.
+
+There are also VRCAs that attempt to maintain their value based on an algorithm coded in a smart
+contract instead of holding a dedicated reserve of assets. 16 These are generally riskier than other
+types of VRCAs, as they are typically not collateralized and rely on algorithms and market
+incentives to peg their price to the reference value.
+
+Although the existing standard form of PRU and the exemptive relief decisions for registered CTPs
+already include restrictions on clients entering into crypto contracts in respect of crypto assets that
+are securities and/or derivatives, we recognize that VRCAs may be used by the clients of CTPs as
+an on-ramp to deposit assets with the CTP, for the trading of other crypto assets, as a store of value
+during times of volatility in the crypto asset markets or to avoid converting their crypto assets into
+fiat currency, or they may be used for other purposes, such as a means of payment. 17
+
+We also recognize that the core provisions and the new provisions in the enhanced PRU may
+mitigate certain risks associated with VRCAs. Accordingly, the enhanced PRU includes a
+prohibition on CTPs allowing their clients entering into crypto contracts to buy or deposit VRCAs
+without the CTP obtaining the prior written consent of the CSA. Such consent may be subject to
+terms and conditions imposed on the CTP and the issuer of the VRCA.
+If a CTP requests written consent from the CSA for its clients to enter into crypto contracts to buy
+or deposit a particular VRCA, we expect the CTP to conduct sufficient due diligence to ensure that
+applicable risks in respect of the VRCA are addressed, including that:
+     • the VRCA is a Fiat-Backed Crypto Asset;
+     • where distributions of the Fiat-Backed Crypto Asset are made in Canada, such distributions
+       are made in compliance with applicable Canadian securities legislation;
+     • the issuer of the Fiat-Backed Crypto Asset maintains a reserve of assets with a market value
+       at least equal to the value of outstanding units of the Fiat-Backed Crypto Asset at the end
+       of each day;
+     • the reserve of assets is comprised of highly liquid assets, such as cash or cash equivalents;
+
+16
+     The Bank of Canada’s Staff Discussion Paper Stablecoins and Their Risks to Financial Stability dated November
+     28, 2022, described algorithmic VRCAs as seeking to achieve price stability through algorithms that regulate the
+     supply and demand of the VRCA in response to market conditions, often relying on incentives of actors in the
+     secondary market to stabilize the price, using mechanisms that vary and include allowing the VRCA to be freely
+     converted against a second unbacked Crypto Asset or a periodic rebasing of the VRCA through adjustments in the
+     VRCA supply. See https://www.bankofcanada.ca/wp-content/uploads/2022/11/sdp2022-20.pdf at p 5.
+17
+     The Relative Benefits and Risks of Stablecoins as a Means of Payment: A Case Study Perspective, Bank of Canada,
+     December 19, 2022. See https://www.bankofcanada.ca/2022/12/staff-discussion-paper-2022-21/.
+                                                        - 12 -
+
+
+     •    the reserve of assets is held by a qualified custodian in favour of the Fiat-Backed Crypto
+          Asset holders;
+     •    the reserve of assets is segregated from assets of the issuer and the assets of each class of
+          other crypto asset issued by the issuer;
+     •    the reserve of assets is subject to a monthly attestation and an annual audit from an
+          independent auditor, copies of which are made publicly accessible in a timely manner;
+     •    the redemption rights of the VRCA holder, directly or indirectly, against the issuer of the
+          Fiat-Backed Crypto Asset, or the reserve of assets, are clearly articulated in policies and
+          procedures and publicly disclosed;
+     •    the issuer of the Fiat-Backed Crypto Asset maintains a plan for recovery and to support an
+          orderly wind-down in case of a crisis or failure by the issuer or an affiliate of the issuer;
+     •    the issuer of the Fiat-Backed Crypto Asset maintains effective governance practices;
+     •    key accurate information about the Fiat-Backed Crypto Asset is made publicly accessible
+          in plain and non-technical language; and
+     •    the CTP is not otherwise prohibited from allowing clients to enter into crypto contracts in
+          respect of the Fiat-Backed Crypto Asset. 18
+
+We would also expect that the issuer of the VRCA that is proposed to be offered to Canadian
+clients of a CTP would take appropriate steps to address applicable risks, including those noted
+above.
+
+For greater certainty, we would not expect to provide consent in respect of a VRCA that is not
+fully-backed by an appropriate reserve but rather maintains its value through an algorithm. Also,
+a CTP providing a PRU, or a registered CTP, may not be able to satisfy their PRU commitments
+or regulatory obligations in respect of VRCAs that maintain their value through an algorithm,
+including know-your product, account appropriateness or other PRU commitments or regulatory
+obligations to clients.
+
+If a registered CTP wishes to allow clients to enter into crypto contracts to buy or deposit a
+particular VRCA, they should contact their PR. Additionally, we invite issuers of VRCAs that
+would like a VRCA for which they are the issuer to be distributed in Canada or are seeking consent
+for a VRCA for which they are the issuer to be bought or deposited on a CTP through crypto
+contracts to contact a member of the CSA. Such issuers of VRCAs would be expected to explain
+the steps they have taken to comply with applicable Canadian securities legislation and address
+the applicable risks, including those noted above.
+
+We caution that Fiat-Backed Crypto Assets, including any that we may consent to be traded on a
+CTP, are subject to various risks and are not the same as fiat currency. The fact that a regulator or
+securities regulatory authority may provide written consent to a CTP for its clients to enter into
+crypto contracts to buy or deposit a particular VRCA, should not be viewed as our endorsement or
+approval of the VRCA or an indication that the VRCA is risk-free. Further, any consent given
+should not be viewed as a statement that the VRCA has been distributed in accordance with
+Canadian securities legislation.
+
+18
+     For example, the PRUs, and the exemptive relief decisions for registered CTPs, include prohibitions for crypto
+     assets that have been the subject of certain regulatory action.
+                                                         - 13 -
+
+
+
+The CSA will continue to monitor and assess the presence and role of VRCAs in Canadian capital
+markets and work collaboratively with other Canadian authorities, as well as international
+organizations and standard-setting bodies, to respond to the regulatory implications and risks of
+such crypto assets.
+
+This approach in respect of VRCAs is intended to be an interim approach only, as the CSA
+continues its work in this area. We will consider whether any modifications to this approach are
+required both on an interim basis and for a longer-term framework, and whether any amendments
+are needed to existing exemptive relief decisions for registered CTPs.
+
+5.        CSA Response if a CTP is unable or unwilling to provide a revised form of PRU
+
+As set out above, nothing in this Notice should be interpreted as limiting any enforcement recourse
+the CSA may take against any CTP. If a CTP currently operating in Canada engages in registration
+discussions with a CSA member but is not prepared to file a revised form of PRU in a form
+acceptable to CSA staff, files the PRU but does not abide by the provisions of the PRU, or does
+not make bona fide attempts to progress through the registration process as quickly as possible, or
+if other information comes to the attention of CSA staff that raises investor protection or other
+public interest concerns, CSA staff will consider compliance and/or enforcement action against
+the CTP and its principals. This compliance and enforcement action may include, without
+limitation,
+    • the CTP being named on a CSA Investor Alert and/or Investor Warning List; 19
+    • the CTP being directed to implement off-boarding and to impose access restrictions;
+    • an order that the CTP and its principals cease trading and/or an order denying exemptions
+        under securities law to the CTP and its principals; and
+    • other penalties or sanctions against the CTP and its principals, as may be determined by
+        Canadian securities regulatory authorities or regulators.
+
+6.        Questions
+
+Please refer your questions to any of the following CSA staff:
+
+Michael Brady                                                     H. Zach Masum
+Deputy Director, Capital Markets Regulation                       Manager, Legal Services
+British Columbia Securities Commission                            British Columbia Securities Commission
+mbrady@bcsc.bc.ca                                                 zmasum@bcsc.bc.ca
+
+
+
+19
+     See, e.g., https://www.securities-administrators.ca/investor-alerts/; https://checkfirst.ca/wp-
+     content/uploads/2022/05/ASC-Investors-Guide-Cryptocurrencies.pdf; https://www.asc.ca/news-and-
+     publications/investment-caution-list; https://www.bcsc.bc.ca/enforcement/early-intervention/investment-caution-
+     list; https://lautorite.qc.ca/en/general-public/fraud-prevention/illegal-on-line-trading-platforms/warning-list-of-
+     websites-and-companies-that-solicit-investors-illegally and https://www.osc.ca/en/investors/investor-warnings-
+     and-alerts
+                                              - 14 -
+
+
+
+Patricia Quinton-Campbell                              Ashlyn D’Aoust
+Manager, Legal                                         Senior Legal Counsel, Market Regulation
+Alberta Securities Commission                          Alberta Securities Commission
+Patricia.Quinton-Campbell@asc.ca                       Ashlyn.DAoust@asc.ca
+
+Tonya Fleming
+Manager, Innovation in Finance, Corporate
+Finance
+Alberta Securities Commission
+Tonya.Fleming@asc.ca
+
+Dean Murrison                                          Graham Purse
+Executive Director, Securities Division                Legal Counsel, Securities Division
+Financial and Consumer Affairs Authority of            Financial and Consumer Affairs Authority of
+Saskatchewan                                           Saskatchewan
+Dean.murrison@gov.sk.ca                                graham.purse2@gov.sk.ca
+
+Chris Besko                                            Arian Poushangi
+Director, General Counsel                              Legal Counsel
+Manitoba Financial Services Agency –                   Manitoba Financial Services Agency –
+Securities                                             Securities
+chris.besko@gov.mb.ca                                  arian.poushangi@gov.mb.ca
+
+Paul Hayward                                           Gloria Tsang
+Senior Legal Counsel, Compliance and                   Senior Legal Counsel, Compliance and
+Registrant Regulation                                  Registrant Regulation
+Ontario Securities Commission                          Ontario Securities Commission
+phayward@osc.gov.on.ca                                 gtsang@osc.gov.on.ca
+
+Namrata Bhagia                                         Melissa Taylor
+Legal Counsel, Compliance and Registrant               Senior Legal Counsel, Corporate Finance
+Regulation                                             Ontario Securities Commission
+Ontario Securities Commission                          mtaylor@osc.gov.on.ca
+nbhagia@osc.gov.on.ca
+
+Pascale Toupin                                         Nicole Truong
+Director, Oversight of Intermediaries                  Senior analyst, Oversight of Intermediaries
+Autorité des marchés financiers                        Autorité des marchés financiers
+Pascale.Toupin@lautorite.qc.ca                         Nicole.Truong@lautorite.qc.ca
+
+Jérémie Moisan-De Serres                               Mathieu Simard
+Senior analyst, Oversight of Intermediaries            Senior policy analyst, Data, Fintech and
+Autorité des marchés financiers                        Innovation
+Jeremie.Moisan-DeSerres@lautorite.qc.ca                Autorité des marchés financiers
+                                                       Mathieu.simard@lautorite.qc.ca
+                                      - 15 -
+
+
+Katherine S. Donovan
+Legal Counsel, Securities Division
+Financial and Consumer Services
+Commission (New Brunswick)
+katherine.donovan@fcnb.ca
+
+Doug Harris
+General Counsel, Director of Market
+Regulation and Policy and Secretary
+Nova Scotia Securities Commission
+Doug.Harris@novascotia.ca
+

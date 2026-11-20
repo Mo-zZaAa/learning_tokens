@@ -1,0 +1,65 @@
+                                                                                                   17 December 2024
+                                                                                              ESMA75-453128700-1396
+
+
+
+
+ESMA Statement on MiCA Transitional Measures
+The Markets in Crypto Assets Regulation (MiCA) includes a transitional regime for crypto asset
+service providers (CASPs) that offered their services prior to 30 December 2024. This regime
+grants them additional time to transition from compliance with the current regulatory framework
+to compliance with MiCA.
+
+Article 143(3) of the Markets in Crypto Assets Regulation (MiCA) states that “Crypto-asset
+service providers that provided their services in accordance with applicable law before 30
+December 2024, may continue to do so until 1 July 2026 or until they are granted or refused
+an authorisation pursuant to Article 63, whichever is sooner.” The article gives individual
+Member States complete discretion not to apply this transitional regime or to reduce its duration
+in view of fostering financial stability and investor protection. This inherently non-unified
+approach to transitional periods has resulted in Member States reducing the transitional period
+in their jurisdiction to different lengths. As a result, CASPs will face different transitional periods
+depending on the Member State or Member States in which they are active. ESMA has
+collected an overview of the length of transitional regimes per member state which can be
+found here: List of grandfathering periods decided by Member States under MiCA.
+
+The different transitional periods should be taken into account by CASPs providing services in
+more than one Member State when they transition to MiCA. For example, a CASP seeking a
+MiCA authorisation in Member State A, with a 12-month transitional period, while also serving
+clients in Member State B, with a 6-month transitional period, should take action to ensure
+compliance with the applicable law of Member State B. Particularly, a situation where the MiCA
+authorisation in Member State A (and passporting rights in the European Union) is obtained
+after the 6-month transitional period in Member State B ends would create an interim period
+(of up to 6 months) in which the CASP would not have the required authorisation to provide
+crypto-asset services to clients in Member State B. Given the potentially disruptive nature of
+such a situation, CASPs are expected to make all possible effort to be compliant and undertake
+all possible steps to avoid detriment to their clients, market participants, and the integrity of the
+market, while also adhering to applicable AML/CFT requirements.
+
+The possible challenges raised by MiCA’s transitional regime were identified at an early stage
+and shared in a communication published in October 2023 1 . ESMA called for market
+participants to apply for a MiCA authorisation as soon as possible, reminding them that without
+a MiCA authorisation they would not benefit from passporting rights within the EU during the
+transitional period 2 . ESMA also called on CASPs to make adequate preparations that will
+reduce the risk of disruption, including to engage, at an early stage, with the national competent
+
+
+1
+    ESMA74-449133380-441_Statement_on_MiCA_Supervisory_Convergence.pdf.
+2
+    Please see a Q&A on passporting during transitional periods here ESMA_QA_2086.
+
+ESMA - 201-203 rue de Bercy - CS 80910 - 75589 Paris Cedex 12 - France - www.esma.europa.eu                      1
+authorities (NCAs) of the jurisdictions in which they operate to inform them of their authorisation
+plans.
+
+When processing authorisations of CASPs, NCAs should ensure they are fully aware of the
+activities of CASPs outside the Home Member State and possible implications on the cross-
+border provision of services in Host Member States. The Home NCA should engage in early
+and continuous dialogue with relevant Host Member States to mitigate disruptions – to the
+extent possible – in services that could cause harm to CASPs’ clients.
+
+
+
+
+                                                                                                  2
+

@@ -1,0 +1,148 @@
+Coinbase buys Earn.com and makes CEO Balaji Srinivasan its first CTO | TechCrunch 
+ TechCrunch Desktop Logo 
+ TechCrunch Mobile Logo 
+ Latest 
+ Startups 
+ Venture 
+ Apple 
+ Security 
+ AI 
+ Apps 
+ Disrupt 2026 
+ Events 
+ Podcasts 
+ Newsletters 
+ Search Submit 
+ Site Search Toggle 
+ Mega Menu Toggle 
+ Topics
+ Latest 
+ AI 
+ Amazon 
+ Apps 
+ Biotech & Health 
+ Climate 
+ Cloud Computing 
+ Commerce 
+ Crypto 
+ Enterprise 
+ EVs 
+ Fintech 
+ Fundraising 
+ Gadgets 
+ Gaming 
+ Google 
+ Government & Policy 
+ Hardware 
+ Instagram 
+ Layoffs 
+ Media & Entertainment 
+ Meta 
+ Microsoft 
+ Privacy 
+ Robotics 
+ Security 
+ Social 
+ Space 
+ Startups 
+ TikTok 
+ Transportation 
+ Venture 
+ More from TechCrunch
+ Staff 
+ Events 
+ Startup Battlefield 
+ StrictlyVC 
+ Newsletters 
+ Podcasts 
+ Videos 
+ Partner Content 
+ TechCrunch Brand Studio 
+ Contact Us 
+ Image Credits: TechCrunch 
+ Coinbase buys Earn.com and makes CEO Balaji Srinivasan its first CTO
+ Jon Russell 
+ 9:00 AM PDT · April 16, 2018 
+ Coinbase, the prominent cryptocurrency exchange, has announced its most significant piece of M&A to date after it agreed to buy Earn.com , the U.S. startup that uses the blockchain for its paid-email service, in a deal worth more than $120 million. In addition, Coinbase has appointed Earn.com co-founder and CEO Balaji Srinivasan as its first CTO, while the rest of the team will transition over, too.
+ The deal doesn’t come as a complete surprise as  Coindesk reported  last month that Coinbase and Earn.com were in talks over a deal.
+ This is Coinbase’s fifth acquisition to date — its most recent was a deal to buy Cipher Browser last week  — and its largest outlay so far. Neither party is saying exactly how much Coinbase is paying, but Srinivasan told TechCrunch in an interview that the deal represents a positive return on investment for those who backed Earn.com, which was formerly known as 21. The company had raised more than $120 million from investors, according to Crunchbase data , which gives some idea of the total deal package.
+ All of Coinbase’s previous acquisitions have centered around talent; for example, last week’s Cipher deal saw highly rated developer Peter Kim join the Coinbase ranks. That seems to be a major motivator for landing Earn.com, despite a high price and a product that both Srinivasan and Coinbase CEO Brian Armstrong intend to “double down” on post-acquisition.
+ A Stanford graduate who holds a BS, MS and PhD in Electrical Engineering and an MS in Chemical Engineering, Srinivasan is highly prized in Silicon Valley. He sits on the board at power investor firm Andreessen Horowitz and is known for being an early evangelist of cryptocurrencies and blockchain technology. (He once told me that he tipped Uber drivers in bitcoin in its early days, going so far as to set up Coinbase wallets for them while in their back of their car as they took him to his destination.)
+ It’s not a secret that Coinbase has struggled to fill its vacancies with talent, and that has extended to the CTO role. Bringing in a name as big as Srinivasan is a major coup for the company and, with the startup said to be paying some of its talent more than $1 million per year in salary, it doesn’t make you wonder how big a factor landing Srinivasan is in making this deal happen.
+ More importantly for Andreessen Horowitz, Qualcomm Ventures, Khosla Ventures and other backers of Earn.com, this deal with Coinbase — which includes cash, stock and crypto — represents a turnaround in fortunes for the startup. (Andreessen Horowitz is also an investor in Coinbase, it should be noted.)
+ Founded as secretive bitcoin mining operation “21E6” in 2013, the company quickly raised more than $100 million, but struggled as the price of bitcoin fell and expensive operational costs weighed it down.
+ Srinivasan was an initial co-founder, but he stepped back from daily operations to take a full-time role with Andreessen Horowitz as the startup got going. He returned to the fold as CEO in 2015 when, he explained, the company had less than a year in runway, having wracked up large capital commitments that it couldn’t pay back, even with millions of dollars of mining profit each month.
+ Alongside CFO Lily Liu, Srinivasan refocused the company to offer a service that rewards users financially for answering emails and completing tasks. Today, he said, the company — which was renamed to Earn.com last year — is profitable, with revenue at an eight-digital annual rate run with “hundreds of thousands” of users.
+ “With Coinbase’s user base and distribution muscle, I think it could hit $100 million in GMV over the next 12-18 months,” Srinivasan told TechCrunch. “I’m proud of the fact that we turned what could have been a disaster into a successful product and I’m excited about the road ahead.”
+ (Srinivasan wrote more about “the turnaround” of Earn.com on his blog here .)
+ Coinbase CEO Brian Armstrong onstage at TechCrunch Disrupt San Francisco in 2014 
+ It is fairly easy to dismiss Earn.com as Silicon Valley hyperbole — the fact that Marc Andreessen will answer your email  in return for a $100 donation to Black Girls Code may be neat, but it is not a game-changer — but the company’s product gets interesting when you consider it at scale.
+ Srinivasan explained how the ability to reach hundreds of domain experts with questions — for example, AI engineers about their next career move, or expectations for how the industry matures — starts to become a powerful tool, particularly when the surveyor pays based on results. That’s a very different proposal to existing intelligence services, and it has found success among some tech industry verticals.
+ Lately, Earn.com has branched out into token-based incentives for tasks , and it launched a platform that allows companies preparing to hold an ICO to airdrop tokens to Earn.com users in exchange for answers, opinions and other feedback.
+ Writing in a blog post for Coinbase — which interestingly focuses heavily on Srinivasan’s arrival at the company — CEO Armstrong called Earn.com “arguably one of the earliest practical blockchain applications to achieve meaningful scale.”
+ It’ll be interesting to see what Coinbase does with it, particularly around product integrations.
+ Perhaps of more significance is what Srinivasan does in his new role.
+ Acknowledging what many perceive as Coinbase’s conservative approach to cryptocurrencies — it offers users the chance to buy only four — Srinivasan said a large part of his role is to look at emerging technologies.
+ “There’s a lot of amazing stuff happening,” he told TechCrunch. “Atomic swaps, sharding, plasma, proof of stake, etc, and a big part of my job will be to take all of that stuff, and rank it based on whether we can use it to create new products for our users.”
+ Another part, he mentioned, will be evangelizing the concept of blockchain itself beyond just the cryptocurrencies as investments. So you can expect him to pop up at events and generally have a wider presence in the media as Coinbase looks to cement its position as a blockchain and crypto leader.
+ Srinivasan will also continue to be involved with Andreessen Horowitz, and at Coinbase he’ll be part of the company’s recently announced investment arm, Coinbase Ventures .
+ “Every once in a while, a company comes along that is the start button for a technology,” Srinivasan said, citing companies like Microsoft (Windows) and Facebook and their roles in igniting the next phases of technology development.
+ “If you control and build that onboarding process, then you can build everything else downstream. If you do it right, then Coinbase goes from the place people build cryptocurrency to the place where blockchain technology is built.”
+ Coinbase is certainly trying to move in that direction with the fund — which follows the wider trend of crypto companies getting into investment — while the recent hiring of former LinkedIn M&A head Emilie Choi  has advanced the M&A piece with three deals announced in 2018 alone.
+ Note: The original version of this article has been updated to reflect that Srinivasan is targeting $100 million in GMV over the next 18 months 
+ Disclosure: The author owns a small amount of cryptocurrency. Enough to gain an understanding, not enough to change a life. 
+ Topics
+ Andreessen Horowitz , balaji srinivasan , brian armstrong , coinbase , Crypto , cryptocurrencies , earn.com , Emilie choi , Khosla Ventures , Marc Andreessen , Startups 
+ When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. 
+ Jon Russell 
+ Writer, Investor and Communications Advisor 
+ Jon Russell reported on startups and technology across Asia for TechCrunch between 2014 and 2019. He now runs Fully Drafted, a communications advisory firm, and continues to write about Asia tech at asiatechreview.com. 
+ View Bio 
+ 2027
+ San Francisco 
+ Get an Early Peek at the Next TechCrunch Disrupt 
+ Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line.
+ Sign up for our waitlist 
+ Register Now 
+ Most Popular
+ Microsoft CEO Satya Nadella explains why he asked 60K employees to quit 
+ Julie Bort 
+ Amazon and Google will together own nearly 30% of Anthropic after its IPO 
+ Julie Bort 
+ Google joins the tech outage trend by announcing it’s not having one 
+ Sarah Perez 
+ FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’ 
+ Zack Whittaker 
+ The tech products we enthusiastically recommend this holiday season 
+ Amanda Silberling 
+ Where was Nvidia’s security team? 
+ Connie Loizos 
+ Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang 
+ Anthony Ha 
+ Loading the next article 
+ Error loading the next article 
+ X 
+ LinkedIn 
+ Facebook 
+ Instagram 
+ youTube 
+ Mastodon 
+ Threads 
+ Bluesky 
+ TechCrunch 
+ Staff 
+ Contact Us 
+ Advertise 
+ Site Map 
+ Terms of Service 
+ Privacy Policy 
+ RSS Terms of Use 
+ Code of Conduct 
+ Voice AI 
+ Anthropic 
+ Flock 
+ Startup Battlefield 
+ Disrupt 2026 
+ Tech Layoffs 
+ ChatGPT 
+ © 2026 TechCrunch Media LLC.

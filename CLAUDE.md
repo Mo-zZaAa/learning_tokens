@@ -22,4 +22,4 @@
   - 비중과 증가율처럼 숫자가 겹치면 헷갈리지 않게 따로 적는다.
 - 브리핑을 쓰기 전에 회사별 축(덩치를 키운 방식)을 axes.md로 승인받는다. 승인 전에는 brief 파일을 쓰지 않는다(writing_rules M절).
 
-구조: companies/(본문), db/(사실 DB), kb/(지식 정리), web/(화면 build.py, export.py), discussion/(메모와 답), tools/(점검, 병합 도구), handoff.md(작업 인계).
+구조: companies/(본문), db/(사실 DB), kb/(지식 정리), web/(화면 build.py, export.py), discussion/(메모와 답), tools/(점검, 병합 도구), handoff.md(작업 인계, 백데이터 입구).

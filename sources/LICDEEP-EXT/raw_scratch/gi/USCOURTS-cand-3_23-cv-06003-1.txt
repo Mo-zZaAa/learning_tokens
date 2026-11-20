@@ -1,0 +1,193 @@
+                                       Case 3:23-cv-06003-WHO            Document 106        Filed 11/18/24      Page 1 of 3
+
+
+
+
+                                   1
+
+                                   2
+
+                                   3
+
+                                   4                                  UNITED STATES DISTRICT COURT
+
+                                   5                                 NORTHERN DISTRICT OF CALIFORNIA
+
+                                   6
+
+                                   7     SECURITIES AND EXCHANGE                            Case No. 23-cv-06003-WHO
+                                         COMMISSION,
+                                   8                    Plaintiff,                          ORDER DENYING MOTION TO
+                                   9                                                        CERTIFY ORDER FOR
+                                                 v.                                         INTERLOCUTORY APPEAL
+                                  10
+                                         PAYWARD, INC., et al.,                             Re: Dkt. No. 92
+                                  11                    Defendants.
+                                  12
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13          Defendant Payward, Inc (d/b/a Kraken, hereafter “Kraken”) asks me to certify for
+
+                                  14   interlocutory appeal my August 23, 2024 Order Denying Kraken’s Motion to Dismiss. This
+
+                                  15   matter is appropriate for resolution on the papers and the December 4, 2024 hearing is
+
+                                  16   VACATED. See Civ. L.R. 7-1(b).
+
+                                  17          In my August 2024 Order, I found that the Securities and Exchange Commission (“SEC”)
+
+                                  18   had adequately alleged facts to support that the third-party cryptocurrency assets that are sold,
+
+                                  19   exchanged, and traded on Kraken form the basis of investment contracts such that transactions
+
+                                  20   involving those assets are subject to securities laws. Dkt. No. 90. Kraken now asks that I certify
+
+                                  21   this decision for interlocutory appeal pursuant to 28 U.S.C. § 1292(b) on three questions: (1)
+
+                                  22   whether an “investment contract” without a contract can form the basis of an alleged Exchange
+
+                                  23   Act violation; (2) whether an “investment contract” without post-sale obligations by the issuer to
+
+                                  24   the purchaser can form the basis of a violation of the Exchange Act; and (3) whether the United
+
+                                  25   States Supreme Court’s decision in SEC v. W.J. Howey Co., 328 U.S. 293 (1946) (“Howey”)
+
+                                  26   requires an investment of money in the alleged enterprise. Dkt. No. 92.
+
+                                  27          Pursuant to 28 U.S.C. § 1292, a district court may certify for interlocutory appeal an order
+
+                                  28   where (1) “such order involves a controlling question of law,” (2) “there is substantial ground for
+                                       Case 3:23-cv-06003-WHO            Document 106         Filed 11/18/24      Page 2 of 3
+
+
+
+
+                                   1   difference of opinion” as to such question of law, and (3) “an immediate appeal from the order
+
+                                   2   may materially advance the ultimate termination of the litigation.” See 28 U.S.C. § 1292(b). Even
+
+                                   3   where the party seeking to certify an issue for interlocutory review meets its burden to show that
+
+                                   4   each of the three requirements are satisfied, “a district court’s decision to grant or deny
+
+                                   5   certification is entirely discretionary.” Finjan, Inc. v. Check Point Software Techs., Inc., No. 18-
+
+                                   6   CV-02621-WHO, 2020 WL 1929250, at *3 (N.D. Cal. Apr. 21, 2020).
+
+                                   7          Kraken argues that my August 2024 Order involves controlling questions of law that, if
+
+                                   8   decided in its favor, would require dismissal of the entire case. It also argues that the Order
+
+                                   9   considers questions upon which there is a “substantial ground for difference of opinion,” because
+
+                                  10   no appellate court has considered these exact issues. Finally, it contends that immediate appeal
+
+                                  11   would materially advice the ultimate termination of this litigation. Dkt. No. 92.
+
+                                  12          Kraken’s motion for certification for interlocutory review is DENIED. I understand that
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13   Kraken substantially disagrees with my rulings on the first two issues, but it has not cited a case
+
+                                  14   since Howey where a court has held that contractual formalities or post-sale obligations are
+
+                                  15   required for something to constitute an investment contract. Recognizing this, in its Reply,
+
+                                  16   Kraken argues that a circuit split or actual disagreements between courts are not prerequisites for
+
+                                  17   certification and asks me to grant its motion because this case involves “novel legal issues” upon
+
+                                  18   which “reasonable jurists” might disagree. Dkt. No. 102 at 3-4 (citing Reese v. BP Exploration
+
+                                  19   (Alaska) Inc., 643 F.3d 681, 688 (9th Cir. 2011)). As I discussed in the Order, several courts have
+
+                                  20   addressed these issues and disagreed with Kraken’s position. See Dkt. No. 90 at 13-15 (discussing
+
+                                  21   cases, post-Howey, where courts have held that investment contracts are not limited to actual
+
+                                  22   contracts, nor do they require post-sale obligations). And, as for the third issue, courts around the
+
+                                  23   country have considered similar questions and refused to import a “privity of contract” element
+
+                                  24   into the Howey test, such that an investment contract involving the exchange of money would
+
+                                  25   require privity between the issuer and the investor. Dkt. No. 90 (discussing cases). I did the same.
+
+                                  26          Fundamentally, I do not believe that certification will materially advance the ultimate
+
+                                  27   termination of the litigation. While the SEC has plausibly alleged its theory of securities
+
+                                  28   violations against Kraken, only discovery will establish whether the sales, trades, and exchanges
+                                                                                          2
+                                       Case 3:23-cv-06003-WHO           Document 106        Filed 11/18/24     Page 3 of 3
+
+
+
+
+                                   1   on Kraken truly met all the Howey elements. See generally Dkt. No. 90. A complete record is
+
+                                   2   necessary to answer those questions. Certification at this stage would only delay resolution.
+
+                                   3          For the foregoing reasons, the motion is DENIED.
+
+                                   4          IT IS SO ORDERED.
+
+                                   5      Dated: November 18, 2024
+
+                                   6
+                                                                                                   William H. Orrick
+                                   7                                                               United States District Judge
+                                   8
+                                   9
+
+                                  10
+
+                                  11
+
+                                  12
+Northern District of California
+ United States District Court
+
+
+
+
+                                  13
+
+                                  14
+
+                                  15
+
+                                  16
+
+                                  17
+
+                                  18
+
+                                  19
+
+                                  20
+
+                                  21
+
+                                  22
+
+                                  23
+
+                                  24
+                                  25
+
+                                  26
+
+                                  27
+
+                                  28
+                                                                                        3
+
