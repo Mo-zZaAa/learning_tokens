@@ -31,7 +31,7 @@
 | 2021-01 | 2021-02-08 | Bison Trails | 블록체인 노드 인프라. 인수 전 소수 지분 보유 | 없음 | 4.573억 달러(회계) | 아니오 | [LDCB-021] |
 | 2021-04-30 | 2021 | Skew | 기관 데이터 분석(Prime에 붙임) | 없음 | 비공개 | 아니오 | (보도, ForkLog) [링크](https://forklog.com/en/coinbase-to-acquire-analytics-platform-skew/) |
 | 2021-08-05 | 2021-08 | Zabo | 거래소, 지갑 잔고와 거래 내역을 모아 주는 API | 없음 | 비공개 | 아니오 | (보도, Cointelegraph) [링크](https://cointelegraph.com/news/coinbase-acquires-crypto-exchange-data-aggregator-zabo) |
-| 2021-11 | 2021 | Agara | 인공지능 고객 응대(인도) | 없음 | 4,000만에서 5,000만 달러(보도) | 아니오 | (위키백과 정리) [위키백과](https://en.wikipedia.org/wiki/Coinbase) |
+| 2021-11 | 2021 | Agara | 인공지능 고객 응대(인도) | 없음 | 4,000만에서 5,000만 달러(위키백과 정리) | 아니오 | (위키백과 정리) [위키백과](https://en.wikipedia.org/wiki/Coinbase) |
 | 2021-11-24 | 2021 | BRD(Breadwinner AG) | 모바일 지갑, 이용자 1,000만 명 넘음(보도) | 지갑 이용자 | 비공개 | 아니오 | (보도, SiliconANGLE) [링크](https://siliconangle.com/2021/11/24/coinbase-acquires-cryptocurrency-wallet-startup-brd-undisclosed-price/) |
 | 2021 | 2022-01-04 | Unbound Security | 암호 보안 기술 | 없음 | 2.580억 달러(회계) | 아니오 | [LDCB-021] |
 | 2022-01-12 | 2022-02-01 | FairXchange(LMX Labs) | 개인용 소형 선물 거래소 | CFTC 지정 선물 거래소(DCM, 2020-11-23 지정) | 2.751억 달러(회계), 계약 가격 3.3억 달러 | 예(카드 1-4) | [F-2107], [F-2108], [LDCB-015] |
@@ -141,7 +141,7 @@
    - 손님 규모, 매출: 회사 비공개
 5. 판 쪽: 창업자 Greg Tusar(전 Goldman Sachs 전자거래 총괄)와 Jennifer Campbell, 투자자 Pantera, Paradigm 등(보도) [LDCB-010]. 판 이유 찾지 못함(빈칸 7)
 6. 승인: 발표에서 완료까지 65일(계산). 승인 기관 찾지 못함(빈칸 7)
-7. 대금: 총 4,180만 달러, 그중 Coinbase 주식 3,059만(약 73%, 계산) [LDCB-011]. 보도 금액(7,000만에서 1억 달러)과 회계값은 서로 다르며 하나로 고르지 않음
+7. 대금: 총 4,180만 달러, 그중 Coinbase 주식 3,059만(약 73%, 계산) [LDCB-011]. 위키백과 정리 금액(7,500만에서 1억 달러)과 회계값은 서로 다르며 하나로 고르지 않음 [위키백과](https://en.wikipedia.org/wiki/Coinbase)
 8. 같은 시기 바깥: 경쟁 세 회사의 같은 영역 움직임 찾지 못함(빈칸 8)
 9. 산 뒤
    - Tusar가 기관 상품 부사장이 됨(보도, The TRADE) [LDCB-013]
@@ -212,7 +212,7 @@
 ### 카드 1-7. Deribit (2025)
 1. 한 줄 사건: 2025-05-08 발표, 2025-08-14 완료. 세계 1위 가상자산 옵션 거래소. 발표 약 29억 달러(현금 7억 + 주식 1,100만 주), 회계 42.95억 달러 [F-2094], [F-2093]
 2. 그 전 상태
-   - 미국 밖 파생은 2023-05 버뮤다 International Exchange의 무기한선물뿐이었고 옵션이 없었음 [F-1631], [F-1601]
+   - 미국 밖 파생은 2023-05 버뮤다 International Exchange의 무기한선물. 회사는 Deribit으로 옵션을 더해 현물, 선물, 무기한선물, 옵션을 한 곳에 둔다고 밝힘 [F-1631], [F-1378]
    - 회사 말로 지난 2년 세계 거래대금의 75%가 파생, 미국 비중은 일부(회사 주장) [F-1601]
 3. 직접 받는 길: 옵션 거래소를 직접 만들려 했다는 기록 찾지 못함(빈칸 13). 미국에서 옵션은 DCM 상장과 FCM 판매로 가능(판단, 근거 [F-1228], [F-1122])
 4. 대상 회사
