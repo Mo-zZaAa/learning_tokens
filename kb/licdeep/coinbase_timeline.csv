@@ -1,0 +1,65 @@
+날짜,분기,구분,한 줄,출처 링크
+2014-05,2014-Q2,인수 완료,"Kippt 인수(인력, 첫 인수, 위키백과 정리)",https://en.wikipedia.org/wiki/Coinbase
+2014-08,2014-Q3,인수 완료,"Blockr.io 인수(블록체인 탐색기, 위키백과 정리)",https://en.wikipedia.org/wiki/Coinbase
+2015-01-26,2015-Q1,인가 승인,미국 주의 절반에서 송금업 승인을 받아 규제 비트코인 거래소 개장(TechCrunch 보도),https://techcrunch.com/2015/01/25/coinbase-us-bitcoin-exchange/
+2017-01-17,2017-Q1,인가 승인,NYDFS BitLicense와 뉴욕 송금업 인가(DFS 승인 다섯째 가상자산 회사),https://mondovisione.com/news/new-york-state-department-of-financial-services-grants-virtual-currency-license-1-2017117/
+2018-04-16,2018-Q2,인수 발표,"Earn.com 인수, CEO Balaji Srinivasan을 첫 CTO로(1.2억 달러 넘는 규모, TechCrunch 보도)",https://techcrunch.com/2018/04/16/coinbase-buys-earn-com-and-makes-ceo-balaji-srinivasan-its-first-cto/
+2018-05-15,2018-Q2,상품 출시,"기관 상품 묶음 Prime 발표, 2018-07-02 기관 보관 영업 시작",https://bitcoinmagazine.com/markets/coinbases-new-custody-service-opens-its-doors
+2018-06-06,2018-Q2,인수 발표,"증권사 Keystone Capital, ATS Venovate, RIA Digital Wealth 인수 발표(증권형 토큰 목적, 회사 주장)",https://siliconangle.com/2018/06/06/coinbase-snaps-three-companies-push-offer-additional-financial-services/
+2018-07,2018-Q3,인수 완료,"Digital Wealth 모회사 지위 취득(SEC ADV), 2018-07-17 FINRA 승인 보도(SEC는 관여 안 함으로 정정)",https://reports.adviserinfo.sec.gov/reports/ADV/288949/PDF/288949.pdf
+2018-10-23,2018-Q4,인가 승인,NYDFS 제한목적 신탁(Coinbase Custody Trust Company) 승인,https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1810231
+2019-02,2019-Q1,인수 완료,"Neutrino 인수(블록체인 분석, 위키백과 정리)",https://en.wikipedia.org/wiki/Coinbase
+2019-08-15,2019-Q3,인수 발표,"Xapo 기관 보관 사업 인수(5,500만 달러 보도), 보관자산 70억 달러 넘음",https://cointelegraph.com/news/coinbase-custody-buys-xapo-institutions-continuing-rapid-expansion
+2020-05-27,2020-Q2,인수 발표,기관 중개 Tagomi 인수 발표(Tagomi Trading은 2019-03 BitLicense 보유),https://www.financemagnates.com/cryptocurrency/news/coinbase-buys-tagomi-to-boost-institutional-trading/
+2020-07-31,2020-Q3,인수 완료,"Tagomi 인수 완료, 총대가 4,180만 달러(주식 약 73%)",https://s27.q4cdn.com/397450999/files/doc_financials/2021/q4/8e5e0508-da75-434d-9505-cba99fa00147.pdf
+2021-01,2021-Q1,인수 발표,Routefire(기관 주문 체결) 인수 발표(Cointelegraph 보도),https://cointelegraph.com/news/coinbase-s-plans-to-purchase-firm-behind-mercado-bitcoin-fall-through-report
+2021-02-08,2021-Q1,인수 완료,Bison Trails 인수 완료 4.573억 달러(인수 전 소수 지분),https://s27.q4cdn.com/397450999/files/doc_financials/2021/q4/8e5e0508-da75-434d-9505-cba99fa00147.pdf
+2021-04-30,2021-Q2,인수 발표,기관 데이터 Skew 인수 발표(ForkLog 보도),https://forklog.com/en/coinbase-to-acquire-analytics-platform-skew/
+2021-06-18,2021-Q2,인가 승인,일본 금융청 가상자산 교환업 등록(Finance Magnates 보도),https://www.financemagnates.com/cryptocurrency/regulation/coinbase-gets-the-official-green-light-of-japans-financial-services-agency/
+2021-08-05,2021-Q3,인수 발표,데이터 연결 Zabo 인수 발표(Cointelegraph 보도),https://cointelegraph.com/news/coinbase-acquires-crypto-exchange-data-aggregator-zabo
+2021-09-15,2021-Q3,인가 신청,Coinbase Financial Markets FCM 등록 신청(NFA),https://www.nfa.futures.org/BasicNet/#0542717
+2021-10-28,2021-Q4,인수 발표,"FairX에 인수 의향서(2.85억 달러), 다음 날 3.3억 달러로 수정(법원 기록)",https://courts.delaware.gov/Opinions/Download.aspx?id=344850
+2021-11-24,2021-Q4,인수 발표,지갑 BRD 인수 발표(SiliconANGLE 보도),https://siliconangle.com/2021/11/24/coinbase-acquires-cryptocurrency-wallet-startup-brd-undisclosed-price/
+2022-01-04,2022-Q1,인수 완료,Unbound Security 인수 완료 2.580억 달러,https://s27.q4cdn.com/397450999/files/doc_financials/2021/q4/8e5e0508-da75-434d-9505-cba99fa00147.pdf
+2022-01-12,2022-Q1,인수 발표,"FairX(CFTC 지정 선물 거래소) 인수 발표, 계약일 2022-01-11",https://decrypt.co/90341/coinbase-acquiring-derivatives-exchange-bitcoin-futures-trading
+2022-02-01,2022-Q1,인수 완료,"FairX 인수 완료, 회계 총대가 2.751억 달러(주식 약 76%)",https://s27.q4cdn.com/397450999/files/doc_events/2024/Jun/14/coinbase-global-inc-2023-10k_filed.pdf
+2022-05-03,2022-Q2,해지,"브라질 2TM(Mercado Bitcoin 모회사) 인수 협상 중단(Bloomberg 보도, Cointelegraph 인용)",https://cointelegraph.com/news/coinbase-s-plans-to-purchase-firm-behind-mercado-bitcoin-fall-through-report
+2022-06-27,2022-Q2,상품 출시,첫 선물(나노 비트코인)을 NinjaTrader 등 외부 중개사로 판매,https://www.financemagnates.com/cryptocurrency/trading/coinbase-to-target-retail-traders-with-first-bitcoin-derivatives/
+2022-10,2022-Q4,인가 신청,"싱가포르 MPI 예비 승인(1년 뒤 정식, Cointelegraph 보도)",https://cointelegraph.com/news/coinbase-secures-payment-license-singapore
+2023-01-18,2023-Q1,철수,"일본 영업 중단 발표(시장 상황), 2023-02-16까지 출금",https://cointelegraph.com/news/coinbase-stops-japan-operations-amid-trading-slump
+2023-02-21,2023-Q1,전략 발언,"CEO: 증권사 인가는 휴면, 주식 중개 계획 없음, 직접 만들기와 인수와 투자 셋 다 함",https://s27.q4cdn.com/397450999/files/doc_financials/2022/q4/Coinbase-Q422-Earnings-Call-Transcript.pdf
+2023-03-03,2023-Q1,인수 완료,"One River Digital Asset Management(RIA) 인수 완료 9,680만 달러, Coinbase Asset Management로",https://s27.q4cdn.com/397450999/files/doc_events/2024/Jun/14/coinbase-global-inc-2023-10k_filed.pdf
+2023-04-19,2023-Q2,인가 승인,"버뮤다 BMA Class F(Coinbase Bermuda Limited, 거래소와 파생 거래소)",https://www.bma.bm/regulated-entities
+2023-05-02,2023-Q2,상품 출시,"버뮤다 International Exchange 출범, 미국 밖 기관 무기한선물",https://www.marketsmedia.com/introducing-coinbase-international-exchange/
+2023-08-15,2023-Q3,인가 승인,FCM 등록과 NFA 회원 승인(신청 뒤 699일),https://www.nfa.futures.org/BasicNet/#0542717
+2023-09,2023-Q3,철수,인도 개인 서비스 종료(Cointelegraph 보도),https://cointelegraph.com/news/coinbase-india-relaunch-two-years-market-exit
+2023-09-08,2023-Q3,전략 발언,"해외 우선 시장 여섯 곳(EU, 영국, 캐나다, 브라질, 싱가포르, 호주) 지정(Cointelegraph 보도)",https://cointelegraph.com/news/coinbase-near-term-priorities-eu-canada-brazil-singapore-australia
+2023-09-15,2023-Q3,인가 승인,"버뮤다 Class F(Coinbase Bermuda Services Limited), 같은 달 미국 밖 적격 고객 무기한선물 승인",https://www.bma.bm/regulated-entities
+2023-10-01,2023-Q4,인가 승인,싱가포르 MAS 대형 결제기관(MPI) 인가(회사 발표),https://cointelegraph.com/news/coinbase-secures-payment-license-singapore
+2023-11-09,2023-Q4,철수,"옛 Venovate ATS(Coinbase Securities) 영업 중단, 2024-01-08 증권사 등록 종료",https://files.brokercheck.finra.org/firm/firm_151143.pdf
+2024-01,2024-Q1,인수 발표,회사 블로그에 MiFID 인가 법인 인수 계획(Finance Magnates 보도),https://www.financemagnates.com/forex/exclusive-coinbase-acquires-buxs-cyprus-unit-is-the-crypto-giant-entering-cfds/
+2024-10-11,2024-Q4,인수 완료,"BUX Europe Ltd(키프로스 CySEC 인가) 이름을 Coinbase Financial Services Europe로 변경(벨기에 FSMA 등록부, 보도)",https://www.financemagnates.com/forex/exclusive-coinbase-acquires-buxs-cyprus-unit-is-the-crypto-giant-entering-cfds/
+2025-02-03,2025-Q1,인가 승인,영국 FCA 가상자산사업자 등록(CB Payments Ltd),https://cointelegraph.com/news/coinbase-fca-uk-crypto-registration
+2025-03,2025-Q1,인가 승인,인도 금융정보분석원(FIU) 등록(보도),https://cointelegraph.com/news/coinbase-india-relaunch-two-years-market-exit
+2025-05-08,2025-Q2,인수 발표,"Deribit 인수 발표 약 29억 달러(현금 7억 + 주식 1,100만 주)",https://pulse2.com/coinbase-to-buy-deribit-in-2-9-billion-deal/
+2025-05-14,2025-Q2,전략 발언,"CEO: 늘 인수 기회를 봄, 상장사라 유동성 있는 주식을 대금으로 씀(Bloomberg TV, Cointelegraph 인용)",https://cointelegraph.com/news/coinbase-ceo-looking-more-acquisitions-after-deribit
+2025-06-20,2025-Q2,인가 승인,"룩셈부르크 MiCA 인가, EEA 30개국(EU 거점을 아일랜드에서 룩셈부르크로)",https://s27.q4cdn.com/397450999/files/doc_financials/2025/q2/Q2-2025-Shareholder-Letter.pdf
+2025-07,2025-Q3,인수 완료,Liquifi(토큰 배정 관리) 인수(Cointelegraph 보도),https://cointelegraph.com/news/coinbase-seals-deribit-acquisition-deal-2025
+2025-07-31,2025-Q3,전략 발언,주주서한에 everything exchange 표현(찾은 것 중 가장 이른 사용),https://s27.q4cdn.com/397450999/files/doc_financials/2025/q2/Q2-2025-Shareholder-Letter.pdf
+2025-08-14,2025-Q3,인수 완료,"Deribit 인수 완료, 회계 총대가 42.95억 달러(주식 83%)",https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+2025-10-03,2025-Q4,인가 신청,OCC 국가 신탁회사(Coinbase National Trust Company) 설립 신청,https://www.comptrollerofthecurrency.gov/topics/charters-and-licensing/digital-assets-licensing-applications/coinbase-national-trust-company.pdf
+2025-10-08,2025-Q4,인수 완료,"Echo(온체인 자금 조달) 인수, 회계 대가 1.76억 달러(보도는 3.75억 달러)",https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+2025-11-11,2025-Q4,해지,"BVNK 인수 협상(약 20억 달러) 중단(Fortune 보도, Decrypt 인용)",https://decrypt.co/348230/coinbase-abandons-2-billion-acquisition-stablecoin-firm-bvnk-fortune/
+2025-11-14,2025-Q4,인가 신청,Coinbase Clearing LLC CFTC 청산소(DCO) 신청(crypto.news가 CFTC 기록 인용),https://crypto.news/coinbase-can-now-settle-derivatives-24-7-with-usdc/
+2025-12,2025-Q4,상품 출시,"옛 Keystone 증권사(Coinbase Capital Markets)로 미국 주식 중개 시작(Apex가 체결, 보관)",https://s27.q4cdn.com/397450999/files/doc_events/2026/Jun/16/Coinbase-Global-Inc-2025-Annual-Report.pdf
+2025-12-17,2025-Q4,상품 출시,"예측시장 출시, 주문은 모두 Kalshi로",https://www.coinbase.com/blog/system-update-the-future-of-finance-is-on-coinbase
+2025-12-22,2025-Q4,인수 발표,"The Clearing Company(예측시장 청산, 2025-11 DCO 신청) 인수 계약 발표",https://cointelegraph.com/news/coinbase-acquires-clearing-company-prediction-markets
+2026-01,2026-Q1,전략 발언,"코인원 지분 투자 검토 보도, 회사 논평 거부(서울경제 보도 인용)",https://cointelegraph.com/news/coinone-south-korea-sale-coinbase-investment-speculation
+2026-03-09,2026-Q1,상품 출시,EU 26개국 규제 가상자산 선물 출시(키프로스 MiFID 법인),https://decrypt.co/360420/coinbase-debuts-crypto-futures-european-traders-bitcoin-ethereum
+2026-04-02,2026-Q2,인가 승인,OCC 국가 신탁회사 예비 조건부 승인(NCFA 보도),https://ncfacanada.org/?p=80014
+2026-08-13,2026-Q3,인가 승인,"ADGM 금융서비스 인가(투자 거래 주선, 수탁)",https://www.macaubusiness.com/coinbase-establishes-its-tokenization-hub-in-abu-dhabi-with-financial-services-permission-from-the-financial-services-regulatory-authority-fsra-2/
+2026-08-17,2026-Q3,인가 승인,"Deribit 두바이 VARA 중개 인가, Deribit 현물 주문을 Coinbase Exchange로",https://www.marketsmedia.com/deribit-receives-broker-dealer-licence-from-dubai/
+2026-09-28,2026-Q3,인가 승인,Coinbase Clearing LLC CFTC 청산소 등록(신청 뒤 318일),https://www.cftc.gov/IndustryOversight/IndustryFilings/ClearingOrganizations
+2026-10,2026-Q4,상품 출시,International Exchange와 Deribit을 하나의 거래소로 합침,https://s27.q4cdn.com/397450999/files/doc_financials/2026/q3/
+2026-10-29,2026-Q4,전략 발언,주주서한: 인가 80개 이상. CFO: 자체 청산소로 스택을 더 소유,https://s27.q4cdn.com/397450999/files/doc_financials/2026/q3/
+2026-11-06,2026-Q4,인가 승인,"OCC 국가 신탁회사 최종 승인(회사 발표, Decrypt 보도)",https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter
