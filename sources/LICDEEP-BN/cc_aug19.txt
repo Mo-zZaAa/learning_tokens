@@ -1,0 +1,138 @@
+ CryptoCompare Releases Exchange Review for August 2019 | CCData 
+ Contact Us
+ News
+ Prices
+ Data & Indices
+ Back to menu
+ /
+ Data & Indices 
+ Data
+ Market Data
+ Unrivaled digital asset data for institutional analysis and insights.
+ Index Offerings
+ Discover our index offerings with $40 billion in benchmarked assets, trusted by 100+ global partners.
+ API 
+ Institutional-grade crypto data streamed live from 300+ exchanges.
+ Research and Insights 
+ Data-driven analysis of key digital asset movements.
+ Documentation and Governance
+ Index methodologies, policies, announcements and updates.
+ Indices
+ Back to menu
+ A trusted partner since 2014. BMR compliant.
+ Data
+ No items found.
+ Research
+ Events
+ Back to menu
+ /
+ Events
+ Leading events in crypto and blockchain since 2015.
+ Data
+ CoinDesk: Policy & Regulation
+ A summit on crypto legislation & regulation in Washington, DC. Sept 10, 2025.
+ Consensus Miami
+ The flagship festival for Crypto’s Most Influential Event. May 5-7, 2026.
+ Webinars
+ Live & recorded learnings from leaders in digital assets and Web3.
+ News
+ Prices
+ Data
+ Back to menu
+ Delivering world-class crypto data solutions, indices and market insights
+ Data
+ Market Data
+ Unrivaled digital asset data for institutional analysis and insights.
+ Index Offerings
+ Discover our index offerings with $40 billion in benchmarked assets, trusted by 100+ global partners.
+ API 
+ Institutional-grade crypto data streamed live from 300+ exchanges.
+ Research and Insights 
+ Data-driven analysis of key digital asset movements.
+ Documentation and Governance
+ Index methodologies, policies, announcements and updates.
+ Indices
+ Back to menu
+ Delivering world-class crypto data solutions, indices and market insights
+ Indices
+ No items found.
+ Research
+ Events
+ Back to menu
+ Delivering world-class crypto data solutions, indices and market insights
+ Events
+ CoinDesk: Policy & Regulation
+ A summit on crypto legislation & regulation in Washington, DC. Sept 10, 2025.
+ Consensus Miami
+ The flagship festival for Crypto’s Most Influential Event. May 5-7, 2026.
+ Webinars
+ Live & recorded learnings from leaders in digital assets and Web3.
+ Contact Us
+ Press Release
+ CryptoCompare Releases Exchange Review for August 2019
+ CryptoCompare today released its August 2019 Exchange Review which provides analysis of key developments in the cryptocurrency exchange-traded market.
+ September 19, 2019
+ CryptoCompare Releases Exchange Review for August 2019
+ - Market share of exchanges graded AA-E dropped in August, with top-tier exchange volumes seeing largest decline - 
+ London, 19th September 2019 : CryptoCompare, the leading provider of cryptocurrency data and indices, today released its August 2019 Exchange Review which provides analysis of key developments in the cryptocurrency exchange-traded market.
+ Charles Hayter, Co-Founder and CEO of CryptoCompare , said:
+ “Our August Exchange Review examines the major developments in the crypto exchange landscape.  Highlights in this edition include a new spotlight on stablecoins and expanded analysis of derivatives.” CryptoCompare’s Exchange Review evaluates the consistency and quality of cryptocurrency exchange data, assessing exchanges on the basis of spot 24-hour volume and pricing data.  The review covers: exchange rankings by volume; predominant fee types; derivative products; fiat, bitcoin and stablecoin volumes.  It also analyses how volumes have developed for the top trans-fee mining and decentralised exchanges.
+ The August Exchange Review includes a new spotlight on stablecoins as well as an expanded section focusing on derivatives.
+ Update : The August Exchange Review was updated on 24 September 2019, to correct figures reported for Huobi crypto derivatives volumes. The updated report is available at the same link here . 
+ Key highlights: 
+ D-rated exchange LBank saw an average trade size of roughly fourteen times that of AA-rated Coinbase (for BTC-USD and BTC-USDT trades). 
+In terms of trade count, LBank traded an average of 11,000 trades per day, while Coinbase traded around 68,000 trades per day.
+ D-rated Bitmax, a trans-fee mining exchange, constituted roughly half of all USDT volume. 
+USDT trading volume on Bitmax was generated predominantly by two stablecoin markets: USDC-USDT and PAX-USDT.  From the end of June 2019, the exchange saw significant trading volumes from these two pairs, only to drop off abruptly at the beginning of September.
+ Despite a significant decrease in trade volumes, daily web traffic on Coinbase and Binance increased greatly. 
+For Binance and Coinbase, daily unique visitors (estimate based on Alexa data) were up 68.5% and 123.6% respectively since July.
+Binance was the most popular exchange in August, followed by Coinbase and BitTrex with 92,593, 89,969 and 22,237 daily unique visitors, respectively.
+ Exchanges graded AA-E (according to the CryptoCompare Benchmark ) saw their market share drop in August, with top-tier exchange volumes seeing the largest decline. 
+Exchanges with grades AA represented 3.3% (21.74 billion USD) of total aggregate volume in August, down 30.0% (from 31.06 billion USD in July), while those rated A and B represented 12.0% (80.21 billion USD) and 4.2% (28.28 billion USD) respectively, down 35.0% (A) and 42.3% (B).
+ Lower-tier exchanges still dominate 
+Trading volume is still dominated by lower tier exchanges, with D-E rated exchanges representing 71.1% combined (473.84 billion USD).
+ Crypto-to-Crypto trades were down nearly 20% in August 
+Volume from crypto to crypto exchanges decreased 19.16% in August, while volume from exchanges that offer fiat pairs decreased 14.90%.  Binance was the top crypto-to-crypto exchange by total volume in August. The exchange saw trades of 28.45 billion USD (down 41.46% since July).  This was followed by OKEX and CoinBene at 28.41 billion USD (down 38.06%) and 28.01 billion USD (down 28.7%) respectively.
+ The full August Exchange Review can be found here .
+ - Ends -
+ Contact 
+ press@cryptocompare.com 
+ research@cryptocompare.com 
+ About CryptoCompare 
+CryptoCompare is the leading provider of cryptocurrency data and indices. Institutional and retail investors rely on the company for real-time, high quality data spanning 3,200+ coins and 150,000+ currency pairs globally.
+ By aggregating and analysing tick data from globally recognised exchanges and seamlessly integrating multiple datasets, CryptoCompare provides a comprehensive, granular overview of the market across trade, order book, historical, social, and blockchain data.
+ CryptoCompare is at the forefront of industry efforts to provide definitive datasets that can be relied on to make investment decisions. The company adheres to rigorous standards to safeguard data integrity and promote consistency and confidence in the market. For more information, please visit www.cryptocompare.com .
+ Notes to editors: 
+ Data methodology: CryptoCompare’s Monthly Exchange Review evaluates the consistency and quality of exchange data, which is incorporated into CryptoCompare’s real-time Aggregate Index Methodology (the CCCAGG), used to calculate the best price estimate of cryptocurrency pairs traded across global exchanges. It aggregates transactional data from more than 150 exchanges using a 24-hour volume weighted average for every cryptocurrency pair. Constituent CCCAGG exchanges are reviewed and amended each month to ensure the most representative and reliable market data is used in CCCAGG pair pricing calculations.
+ Assessing exchange data: CryptoCompare assesses exchanges on the basis of spot 24-hour volume and pricing data. The current process operates as follows: for each exchange, the 24-hour volume and price of every live trading pair is recorded. Each pair volume is compared to the total market volume for that specific pair and assigned a market share ranking. Pricing for each pair is then compared to that of the CCCAGG pair, and a percentage price difference is calculated. Finally, a 24-hour volume weighted % price difference per pair is calculated to produce a figure to determine how close the overall exchange pricing differences are to those of the CCCAGG. 
+As a general guideline, CryptoCompare assumes that exchanges with an overall percentage pricing difference of under 10% are within acceptable boundaries. The reason for pricing differences across exchanges may be related to several factors including exchange fees, jurisdiction and tax considerations. It remains the first indicator of acceptability within the CCCAGG exchange list.
+ Subscribe to Our Newsletter
+ Get our latest research, reports and event news delivered straight to your inbox.
+ About
+ About Us 
+ Masthead 
+ Careers 
+ CoinDesk News 
+ Research 
+ Blog 
+ Contact
+ Contact Us 
+ Accessibility 
+ Advertise 
+ Sitemap 
+ System Status 
+ Policies
+ Documentation and Governance 
+ Ethics 
+ Privacy 
+ Terms of Use 
+ Do not sell my info 
+ Developers
+ API 
+ API Documentation 
+ Certificate Number 23073
+ISO 27001 
+ Please note that our privacy policy , terms of use , cookies , and do not sell my personal information have been updated.
+ Back to top
+ © 2026 CoinDesk
+ 

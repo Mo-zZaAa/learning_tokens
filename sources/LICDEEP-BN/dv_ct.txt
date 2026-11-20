@@ -1,0 +1,7 @@
+{
+ "error": true,
+ "url": "https://cointelegraph.com/news/competition-for-global-crypto-derivatives-market-dominance-heats-up",
+ "statusCode": 404,
+ "statusMessage": "Article not found",
+ "message": "Article not found"
+}

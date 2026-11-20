@@ -1,0 +1,181 @@
+ 
+ Update: Binance nixes deal to acquire FTX after crypto liquidity crisis - SiliconANGLE 
+ Skip to content 
+ [the voice of enterprise and emerging tech] 
+ OUR NETWORK 
+ search 
+ Search SiliconANGLE 
+ search 
+ Submit search 
+ THE SILICONANGLE 120 
+ Market Data Provided by 
+ Search SiliconANGLE 
+ search 
+ Submit search 
+ Home 
+ TechForward 
+ Cloud 
+ Cloud Native 
+ AI 
+ Security 
+ Infra 
+ Blockchain 
+ Big Data 
+ Emerging Tech 
+ AWS Marketplace Newsroom 
+ Policy 
+ Apps 
+ Iot 
+ Women In Tech 
+ theCUBE Research 
+ Special Reports 
+ Video Exclusives 
+ CUBE SPECIAL FEATURES 
+ RECENT CUBE EVENTS 
+ AWARDS 
+ More AWS Marketplace Newsroom 
+ Policy 
+ Apps 
+ Iot 
+ Women In Tech 
+ theCUBE Research 
+ Special Reports 
+ Video Exclusives 
+ CUBE SPECIAL FEATURES 
+ RECENT CUBE EVENTS 
+ AWARDS 
+ Sign In 
+ THE SILICONANGLE 120 
+ Market Data Provided by 
+ SHARE 
+ UPDATED 13:05 EST / NOVEMBER 08 2022 
+ BLOCKCHAIN 
+ Update: Binance nixes deal to acquire FTX after crypto liquidity crisis
+ by Kyt Dotson 
+ Updated: 
+ Binance Holdings Ltd., the world’s largest cryptocurrency exchange, Wednesday reversed itself and said it’s nixing a tentative agreement to acquire competitor Sam Bankman-Fried’s FTX for an undisclosed amount.
+ “Our hope was to be able to support FTX’s customers to provide liquidity, but the issues are beyond our control or ability to help,” Binance said in a statement reported by the Wall Street Journal Wednesday. The company added in a tweet Wednesday: “As a result of corporate due diligence, as well as the latest news reports regarding mishandled customer funds and alleged US agency investigations, we have decided that we will not pursue the potential acquisition of FTX.com.”
+ The latest announcement follows an epic 48-hour saga between the two exchanges that started over the weekend when Binance announced on Sunday that it would be liquidating its holdings of FTX’s native token FTT. That created a sudden liquidity crisis for FTX as users rushed to the exchange to withdraw from their accounts and generated rumors of insolvency.
+ “This afternoon, FTX asked for our help. There is a significant liquidity crunch,” Binance Chief Executive Changpeng “CZ” Zhao had tweeted Tuesday morning. He said the company has “signed a non-binding [letter of intent], intending to fully acquire http://FTX.com and help cover the liquidity crunch.”
+ FTX CEO Bankman-Fried confirmed the news on social media, stating that Zhao had been one of the firm’s first investors. In a tweet , he stated that “things have come full circle, and FTX.com’s first, and last, investors are the same.”
+ According to the agreement, Binance was to acquire the non-U.S. portion of FTX’s company. As a result, FTX.US will remain independent of the deal and will continue to operate on its own.
+ However, on Wednesday it became apparent that the deal was still quite uncertain. Zhao emphasized that it’s a nonbinding letter of intent, meaning he could back out at any time. Indeed, earlier Wednesday, Coindesk cited an unnamed source as saying Binance might scrap the deal.
+ The initial agreement on a deal cames on the heels of a backlog of withdrawals by FTX customers being sluggish and a report from The Block that showed that withdrawals may have been suspended. However, there was also evidence that withdrawals were not suspended and were continuing apace, just slowed down due to a large backlog.
+ “There is a lot to cover and will take some time,” Zhao said. “This is a highly dynamic situation, and we are assessing the situation in real time. Binance has the discretion to pull out from the deal at any time. We expect FTT to be highly volatile in the coming days as things develop.”
+ During the rumors of insolvency and the liquidity crisis, the FTT token’s price dropped as low as $14.58 this morning upon reports of the withdrawal suspension and jumped as high as $19.01 with the news of the acquisition, according to CoinMarketCap .
+ “Our teams are working on clearing out the withdrawal backlog as is,” Bankman-Fried said in a tweet about the news. “This will clear out liquidity crunches; all assets will be covered 1:1. This is one of the main reasons we’ve asked Binance to come in. It may take a bit to settle etc. — we apologize for that.”
+ Bankman-Fried noted that much of the media coverage about the token liquidation was covered as a “conflict between” FTX and Binance, but he commented that instead, “Binance has shown time and again that they are committed to a more decentralized economy” and “working to improve industry relations with regulators.”
+ “We are in the best of hands,” he said.
+ Binance is the largest crypto exchange by volume, representing over $34 billion in trades in the past 24 hours up to Tuesday morning, according to CoinMarketCap. FTX is the second by volume with $3.8 billion in the past 24 hours.
+ Image: Pixabay
+ A message from John Furrier, co-founder of SiliconANGLE: 
+ Support our mission to keep content open and free by engaging with theCUBE community. Join theCUBE’s Alumni Trust Network , where technology leaders connect, share intelligence and create opportunities.
+ 15M+ viewers of theCUBE videos , powering conversations across AI, cloud, cybersecurity and more
+ 11.4k+ theCUBE alumni — Connect with more than 11,400 tech and business leaders shaping the future through a unique trusted-based network
+ Are you an AWS customer?  Support SiliconANGLE financially by buying your AWS services from our Marketplace portal page and links: https://siliconangle.com/aws-marketplace/ 
+ About SiliconANGLE Media 
+ SiliconANGLE Media is a recognized leader in digital media innovation, uniting breakthrough technology, strategic insights and real-time audience engagement. As the parent company of SiliconANGLE , theCUBE Network , theCUBE Research , CUBE365 , theCUBE AI and theCUBE SuperStudios — with flagship locations in Silicon Valley and the New York Stock Exchange — SiliconANGLE Media operates at the intersection of media, technology and AI.
+ Founded by tech visionaries John Furrier and Dave Vellante, SiliconANGLE Media has built a dynamic ecosystem of industry-leading digital media brands that reach 15+ million elite tech professionals. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations. 
+ LATEST STORIES 
+ Google adds computer use capabilities to Gemini’s Mac app
+ Despite posting a solid earnings beat, Elastic sees its stock slide on rough guidance
+ Resolve AI's SRE-1 model finds root causes of production alerts as AI agents go on call
+ Wiz ties Microsoft Agent Framework package compromise to release pipeline certificate
+ Intuit sells Mailchimp to Bending Spoons for $3.68B, less than a third of what it paid
+ Medical AI startup Boltz raises $110M to speed up small molecule research
+ LATEST STORIES 
+ Google adds computer use capabilities to Gemini’s Mac app
+ AI - BY MARIA DEUTSCHER . 1 HOUR AGO 
+ Despite posting a solid earnings beat, Elastic sees its stock slide on rough guidance
+ CLOUD - BY MIKE WHEATLEY . 1 HOUR AGO 
+ Resolve AI's SRE-1 model finds root causes of production alerts as AI agents go on call
+ AI - BY DUNCAN RILEY . 2 HOURS AGO 
+ Wiz ties Microsoft Agent Framework package compromise to release pipeline certificate
+ SECURITY - BY DUNCAN RILEY . 2 HOURS AGO 
+ Intuit sells Mailchimp to Bending Spoons for $3.68B, less than a third of what it paid
+ APPS - BY DUNCAN RILEY . 3 HOURS AGO 
+ Medical AI startup Boltz raises $110M to speed up small molecule research
+ AI - BY MARIA DEUTSCHER . 4 HOURS AGO 
+ CUBE EVENT COVERAGE    help_outline 
+ LATEST FROM THECUBE 
+ Enterprise AI is pushing cloud infrastructure beyond the GPU 
+ AI inference servers shrink to fit the air-cooled racks enterprises already run 
+ D-Matrix bets stacked DRAM can solve inference's memory bandwidth problem 
+ Hitachi Vantara bets smarter storage can close AI's pilot-to-production gap 
+ Agentic AI pushes the neocloud race beyond GPU counts toward global platforms 
+ DIVE INTO DAVE VELLANTE’S BREAKING ANALYSIS SERIES 
+ help_outline 
+ IBM Quantum and the race to make scientific advantage useful to industry 
+ AI cyber resilience and the trust gap 
+ Can enterprise AI pay for the boom? 
+ Micron’s memory boom: Is the industry's cyclicality really ending? 
+ ServiceNow AI Control Tower: Selling a penthouse while building the frame 
+ Sign Up for Our Weekly Newsletter 
+ SUBSCRIBE 
+ UPCOMING CUBE EVENTS 
+ SEE MORE 
+ RECENT CUBE EVENTS
+ KubeCon + CloudNativeCon NA 2026
+ Oracle AI World 2026
+ monday.com Elevate 2026
+ Intuit Connect 2026
+ EVOLVE26
+ PRIVACY POLICY 
+ TERMS 
+ ABOUT US 
+ CONTACT US 
+ BRAND GUIDELINES 
+ Send us a News tip 
+ Join our community
+ theCUBE
+ theCUBE Research
+ © 2026 SiliconANGLE Media Inc. All rights reserved. 
+ × 
+ Send us a news tip
+ Send us a News Tip
+ Instagram 
+ This field is for validation purposes and should be left unchanged.
+ Name * 
+ First 
+ Last 
+ Type of Pitch * Consumer or Enterprise? Enterprise Startup News Emerging Technology 
+ Email * 
+ What's your story? * 
+ File Max. file size: 244 MB. 
+ CAPTCHA 
+ × 
+ Sign in
+ SIGN IN
+ ...
+ Remember me 
+ LOGIN Forgot Password? 
+ × 
+ Bio
+ Ethics statement
+ × 
+ Extract the signal from the noise
+ Get SiliconANGLE updates and analysis.
+ × 
+ Contact us
+ Inquire about guest posts All other inquiries 
+ × Partner with us
+ NAME OF INDIVIDUAL * 
+ NAME OF COMPANY * 
+ EMAIL * 
+ COMMENTS * 
+ × Contact us
+ NAME OF INDIVIDUAL * 
+ NAME OF COMPANY * 
+ EMAIL * 
+ COMMENTS * 
+ CAPTCHA 
+ × Guest inquiry
+ NAME OF INDIVIDUAL * 
+ NAME OF COMPANY * 
+ EMAIL * 
+ COMMENTS * 
+ CAPTCHA 
+ We use cookies for analytics and measurement. You can accept or reject tracking cookies. See our Privacy Policy .
+ Accept 
+ Reject 
+

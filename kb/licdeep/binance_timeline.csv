@@ -1,0 +1,77 @@
+날짜,분기,구분,한 줄,출처 링크
+2017-07,2017-Q3,상품 출시,"Binance 거래소 출시(가상자산끼리만 거래, 이메일 가입)",kb/events/binance_events_src.py BN-E02
+2018-07-31,2018-Q3,인수 완료,"첫 인수: 지갑 앱 회사 Trust Wallet(현금, Binance 주식, BNB)",https://techcrunch.com/2018/07/31/crypto-exchange-binance-buys-trust-wallet-in-first-acquisition-deal/
+2019-09-02,2019-Q3,인수 발표,가상자산 파생 거래 플랫폼 JEX 인수 발표(Binance JEX로 이름 변경),https://www.financemagnates.com/cryptocurrency/news/binance-acquires-derivatives-specialist-jex/
+2019-09-13,2019-Q3,상품 출시,"Binance Futures(비트코인 선물) 출시, 같은 시기 미국 이용자 차단과 Binance.US",https://bitcoinist.com/binance-successfully-debuts-bitcoin-futures-1-week-before-bakkt
+2019-11-21,2019-Q4,인수 발표,인도 거래소 WazirX 인수 발표(2022-08 CZ는 미완료라고 주장),https://decrypt.co/106944/binance-never-completed-acquisition-troubled-crypto-exchange-wazirx-changpeng-zhao
+2020-04-02,2020-Q2,인수 발표,시세 순위 사이트 CoinMarketCap 인수 발표(약 4억 달러 보도),https://www.financemagnates.com/cryptocurrency/exchange/binance-plays-down-conflict-of-interest-concerns-after-coinmarketcap-takeover
+2020-05-12,2020-Q2,인수 발표,인도네시아 규제 거래소 Tokocrypto에 금액 비공개 투자,https://www.financemagnates.com/cryptocurrency/news/binance-invests-undisclosed-sum-in-indonesian-crypto-exchange/
+2020-05-12,2020-Q2,전략 발언,CZ: 은행 관계로 현지 법정화폐 거래를 받는 국내 거래소와 일하기를 우선(보도 인용),https://cointelegraph.com/news/binance-invests-in-major-indonesia-crypto-exchange-tokocrypto
+2020-06,2020-Q2,인수 완료,"영국 EddieUK 인수, Binance Markets Limited로 이름 변경(binance.uk 출범용)",https://decrypt.co/74658/uk-fca-reveals-its-huge-issue-with-binance-no-hq-and-aml-approach
+2020-07-06,2020-Q3,인수 발표,가상자산 직불카드 회사 Swipe 과반 지분 인수 발표,https://cointelegraph.com/news/binances-second-acquisition-of-2020-is-related-to-crypto-debit-cards
+2021-06-26,2021-Q2,철수,영국 FCA가 Binance Markets Limited의 규제 영업을 막음,https://decrypt.co/74658/uk-fca-reveals-its-huge-issue-with-binance-no-hq-and-aml-approach
+2021-08,2021-Q3,전략 발언,ADGM FSRA 전 CEO Richard Teng이 Binance Singapore CEO로 합류,https://fintechnews.sg/54622/blockchain/binance-appoints-adgms-senior-exec-as-ceo-to-get-ahead-of-regulatory-concerns/
+2021-12-13,2021-Q4,해지,"싱가포르 MAS 거래소 인가 신청 철회, Binance.sg 폐쇄 결정(직전 Hg Exchange 지분 18%)",https://decrypt.co/88111/binance-withdraws-application-license-singapore
+2022-01-28,2022-Q1,인가 신청,스페인 법인 Moon Tech Spain이 스페인 중앙은행에 등록 신청,https://www.financemagnates.com/cryptocurrency/news/binance-obtains-vasp-registration-in-spain/
+2022-03,2022-Q1,인가 승인,두바이 VARA 잠정 인가(Binance FZE),https://cointelegraph.com/news/binance-receives-green-light-for-crypto-services-in-dubai
+2022-03-01,2022-Q1,인수 발표,말레이시아 SC 인가 거래소 MX Global 지분 인수(Cuscapi와 함께),https://cointelegraph.com/news/binance-back-in-malaysia-via-a-strategic-stake-in-regulated-digital-exchange
+2022-03,2022-Q1,인수 발표,브라질 증권사 Sim;paul 인수 협상 발표,https://www.infomoney.com.br/?p=2718163
+2022-03-14,2022-Q1,인가 승인,바레인 중앙은행 가상자산서비스사업자 인가,https://financefeeds.com/binance-gets-first-regulatory-licence-middle-east/
+2022-04-10,2022-Q2,인가 승인,아부다비 ADGM 가상자산 중개 딜러 원칙 승인(Binance (AD) Ltd 예정),https://gulfnews.com/business/crypto-exchange-binance-gets-in-principle-approval-in-abu-dhabi-1.87098732
+2022-04-18,2022-Q2,인수 발표,태국 Gulf Energy가 Binance와 거래소 합작 추진을 공시,https://cointelegraph.com/news/gulf-energy-pursues-joint-venture-with-binance-invests-in-bnb
+2022-05-04,2022-Q2,인가 승인,"프랑스 AMF 등록(PSAN, Binance France SAS), EU 첫 등록",https://www.euronews.com/next/2022/05/05/crypto-exchange-binance-gets-french-regulatory-approval-eyes-paris-as-regional-hub-in-euro
+2022-05-27,2022-Q2,인가 승인,이탈리아 OAM 등록(Binance Italy),https://cointelegraph.com/news/binance-gets-approval-to-operate-in-italy-will-open-office-in-milan
+2022-05-30,2022-Q2,전략 발언,대변인: 가능한 모든 곳에서 인가와 등록을 받겠다,https://cointelegraph.com/news/binance-gets-approval-to-operate-in-italy-will-open-office-in-milan
+2022-07-07,2022-Q3,인가 승인,스페인 중앙은행 등록(신청 뒤 160일),https://www.financemagnates.com/cryptocurrency/news/binance-obtains-vasp-registration-in-spain/
+2022-08,2022-Q3,인가 승인,카자흐스탄 AIFC 원칙 인가,https://cointelegraph.com/news/binance-bybit-secure-full-crypto-licenses-kazakhstan
+2022-08-05,2022-Q3,해지,CZ: WazirX 인수는 완료되지 않았고 Zanmai Labs 지분을 가진 적 없음,https://decrypt.co/106944/binance-never-completed-acquisition-troubled-crypto-exchange-wazirx-changpeng-zhao
+2022-09,2022-Q3,인가 신청,일본 금융청에 운영 인가를 정식 신청해 재진입하겠다고 발표,https://decrypt.co/116013/binance-acquires-japanese-crypto-exchange-sakura
+2022-09-19,2022-Q3,인가 승인,두바이 VARA MVP 인가,https://www.vara.ae/en/news/binance-secures-mvp-licence-from-dubais-virtual-assets-regulatory-authority/
+2022-10-14,2022-Q4,인가 승인,Sakura Exchange BitCoin이 관동재무국에 다시 등록(옛 등록 2017-12-01 긴키),https://www.fsa.go.jp/menkyo/menkyoj/kasoutuka.pdf
+2022-10-20,2022-Q4,인가 승인,키프로스 CySEC 3등급 CASP 등록(Binance Cyprus Limited),https://cyprus-mail.com/2022/10/21/cysec-issues-crypto-asset-license-to-binance
+2022-11-02,2022-Q4,전략 발언,"CZ: 현지 인가를 가진 회사, 결제 사업자, 은행까지 살 대상(Web Summit)",https://news.bloomberglaw.com/banking-law/binance-ceo-with-over-1-billion-to-spend-weighs-buying-a-bank
+2022-11-08,2022-Q4,인수 발표,FTX.com 인수 구속력 없는 의향서 서명(CZ 트윗),https://siliconangle.com/2022/11/08/binance-nixes-deal-acquire-ftx-liquidity-crisis/
+2022-11-09,2022-Q4,해지,"FTX.com 인수 추진 철회(실사, 고객 자금 유용과 미국 조사 보도)",https://siliconangle.com/2022/11/08/binance-nixes-deal-acquire-ftx-liquidity-crisis/
+2022-11-30,2022-Q4,인수 완료,일본 등록 거래소 Sakura Exchange BitCoin 100% 인수 발표,https://mondovisione.com/media-and-resources/news/binance-acquires-jfsa-registered-sakura-exchange-bitcoin-committed-to-enter-jap-20221130/
+2022-12-19,2022-Q4,인수 발표,"Binance.US가 Voyager Digital 자산 최고 입찰자로 뽑힘(보도, 약 10억 달러)",https://www.blockhead.co/2022/12/20/binance-acquires-indonesias-tokocrypto-after-voyager-deal
+2022-12-19,2022-Q4,인수 완료,Tokocrypto 지분 늘림(CZ: 현금을 더 넣고 지분을 조금 늘림),https://cointelegraph.com/news/binance-acquires-100-of-indonesian-tokocrypto-after-initial-investment-in-2020
+2023-01-10,2023-Q1,인가 승인,"스웨덴 금융감독청 등록(Binance Nordics AB), EU 7개국과 세계 15개 관할(회사)",https://www.aap.com.au/aapreleases/cision20230111ae83777/
+2023-01-18,2023-Q1,인가 승인,"폴란드 VASP 기준 충족 발표(Binance Poland, 등록일은 그 이전)",https://cointelegraph.com/news/binance-registers-as-virtual-assets-service-provider-in-poland
+2023-02-03,2023-Q1,인수 발표,한국 고팍스 운영사 스트리미 지분 과반 인수(IRI 자금),https://techcrunch.com/2023/02/06/binance-acquires-majority-stake-in-korean-crypto-exchange-gopax/
+2023-03,2023-Q1,인가 신청,"고팍스 임원 변경 신고(FIU, 2025-10-15 수리)",https://decrypt.co/344719/binance-cleared-acquire-korean-crypto-exchange-gopax
+2023-04-06,2023-Q2,철수,호주 ASIC가 Binance Australia Derivatives 인가를 회사 요청으로 취소,https://gulfnews.com/business/markets/australia-cancels-binances-financial-services-licence-amid-probe-1.1680798214549
+2023-04-25,2023-Q2,해지,Binance.US가 Voyager 자산 인수 계약 해지(미국 규제 환경),https://www.financemagnates.com/cryptocurrency/binanceus-terminates-1b-voyager-asset-purchase-deal/
+2023-05-12,2023-Q2,철수,캐나다 철수(스테이블코인과 투자자 한도 새 지침),https://betakit.com/binance-exits-canada-as-crypto-trading-platforms-feel-broader-impact-of-stricter-regulations/
+2023-05-26,2023-Q2,인가 승인,태국 합작사 Gulf Binance 디지털자산 사업자 인가,https://www.kitco.com/news/article/2023-05-26/binance-secures-operating-license-thailand-its-first-southeast-asia
+2023-06-14,2023-Q2,해지,키프로스 CySEC이 Binance Cyprus를 등록 말소 신청 심사 대상으로 올림,https://cointelegraph.com/news/binance-crypto-exchange-exits-netherlands
+2023-06-16,2023-Q2,철수,네덜란드 VASP 등록 실패로 철수 발표,https://cointelegraph.com/news/binance-crypto-exchange-exits-netherlands
+2023-06-23,2023-Q2,철수,"벨기에 FSMA 즉시 중지 명령(2023-08 Binance Poland로 이전, 2023-09-25 재개)",https://thenextweb.com/news/crypto-binance-belgium-eu-poland
+2023-07-26,2023-Q3,해지,독일 BaFin 수탁 인가 신청 철회 확인,https://cointelegraph.com/news/binance-withdraws-crypto-license-germany
+2023-07-31,2023-Q3,인가 승인,두바이 VARA 운영 MVP 인가(기관과 자격 개인),https://cointelegraph.com/news/binance-wins-operational-crypto-license-in-dubai
+2023-08-01,2023-Q3,상품 출시,"Binance Japan K.K. 출범, 34종 현물(인수 발표 244일 뒤)",https://cointelegraph.com/news/binance-japan-begins-launching-trading-services
+2023-08-08,2023-Q3,인가 승인,"엘살바도르 BSP, DASP 인가",https://decrypt.co/151727/binance-secures-crypto-exchange-license-el-salvador
+2023-09-11,2023-Q3,철수,키프로스 CySEC 등록 말소 확인(6개월 넘게 무영업),https://www.financemagnates.com/cryptocurrency/cyprus-regulator-officially-deregisters-local-binance-entity/
+2023-09-27,2023-Q3,철수,"러시아 사업 전부를 CommEX에 매각(18개국 인가와 등록, 회사)",https://aap.com.au/aapreleases/cision20230927ae21598/
+2023-10-16,2023-Q4,철수,영국 신규 이용자 가입 중단(광고 승인 회사 상실),https://decrypt.co/201841/binance-says-no-to-brits-crypto-exchange-stops
+2023-11-21,2023-Q4,전략 발언,"미국 합의, CZ 사임, Richard Teng CEO 승계",https://gulfnews.com/business/markets/ex-adgm-executive-richard-teng-takes-over-as-crypto-trading-firm-binances-new-ceo-1.1700621485024
+2024-01-16,2024-Q1,상품 출시,태국 Binance TH 거래소 개장(2023-11 SEC 영업 승인),https://bangkokpost.com/business/general/2725039
+2024-04-18,2024-Q2,인가 승인,두바이 VARA 정식 VASP 인가(일반 개인 대상),https://gulfnews.com/business/markets/binance-receives-vasp-licence-from-dubais-virtual-assets-regulatory-authority-1.1713430742124
+2024-08-15,2024-Q3,인가 승인,인도 FIU-IND 보고 의무 기관 등록(회사가 센 19번째),https://www.financemagnates.com/cryptocurrency/binance-secures-19th-global-approval-with-indian-aml-registration/
+2024-09-09,2024-Q3,인가 승인,Tokocrypto가 인도네시아 Bappebti 정식 PFAK 인가(셋째),https://fintechnews.sg/101133/indonesia/binance-backed-tokocrypto-trading-license/
+2024-09-11,2024-Q3,인가 승인,아르헨티나 CNV 가상자산서비스사업자 등록 No. 76,https://www.binance.com/en/about-legal/Bonafide-InstantDiscountCampaign
+2024-09-30,2024-Q3,인가 승인,카자흐스탄 AFSA 정식 DATF 인가,https://fxnewsgroup.com/forex-news/cryptocurrency/binance-kazakhstan-obtains-full-digital-asset-trading-facility-license/
+2024-11-29,2024-Q4,인가 신청,ADGM FSRA 협의 문서에 의견서 제출,https://www.binance.com/en/about-legal/Binance-Consultation-Response-ADGM-FSRA-29-11-2024
+2025-01-02,2025-Q1,인수 완료,브라질 중앙은행이 Sim;paul 인수 승인(회사가 센 21번째),https://www.infomoney.com.br/?p=2718163
+2025-03-12,2025-Q1,전략 발언,"아부다비 MGX 20억 달러 투자(첫 기관 투자, 스테이블코인 납입)",https://www.mediaoffice.abudhabi/en/economy/mgx-invests-in-binance-cryptocurrency-exchange-in-landmark-us2bn-deal/
+2025-10-09,2025-Q4,인수 완료,PayPay가 Binance Japan 지분 40% 인수(Binance 쪽 매각),https://cointelegraph.com/news/softbank-s-paypay-acquires-40-stake-in-binance-japan
+2025-10-15,2025-Q4,인가 승인,한국 FIU가 고팍스 최대주주 변경 신고 수리(발표 뒤 985일),https://decrypt.co/344719/binance-cleared-acquire-korean-crypto-exchange-gopax
+2025-12-03,2025-Q4,전략 발언,공동 창업자 Yi He 공동 CEO 임명,https://cointelegraph.com/news/binance-cofounder-yi-he-named-co-ceo
+2025-12-04,2025-Q4,전략 발언,Teng: 슈퍼앱이자 CeDeFi 거래소가 되겠다(The National),https://www.thenationalnews.com/business/money/2025/12/04/ai-and-blockchain-to-rewrite-global-finance-systems-in-a-decade-says-binance-ceo
+2025-12-08,2025-Q4,인가 승인,"ADGM FSRA가 Binance.com을 거래소, 청산소, 브로커딜러 세 법인으로 승인(Teng: 규제 명확성과 정당성)",https://tools.prnewswire.com/en-us/live/20813/release/20251207EN41035
+2025-12-31,2025-Q4,철수,리투아니아 Bifinity가 Binance 이용자 서비스 중단(MiCA 인가 없음),https://www.lrt.lt/naujienos/verslas/4/2957021/binance-traukiasi-is-lietuvos-padalinio-uzdarymui-vadovauja-elcinas-mamedovas
+2026-01,2026-Q1,인가 신청,그리스 HCMC에 MiCA 인가 신청,https://decrypt.co/371990/binance-withdraws-mica-license-application-greece-eu-users-limbo
+2026-01-05,2026-Q1,상품 출시,"ADGM 규제 영업 개시 예정일(Nest Exchange, Nest Trading 등록부 효력일)",https://www.adgm.com/public-registers/fsra/firms
+2026-06-01,2026-Q2,전략 발언,"Yi He: 다음 30억 이용자, 다중자산 금융 슈퍼앱(미국 주식 출시)",https://www.aap.com.au/aapreleases/cision20260601ae72536/
+2026-06-24,2026-Q2,해지,"그리스 MiCA 인가 신청 철회, 다른 EU 회원국 신청 예정",https://decrypt.co/371990/binance-withdraws-mica-license-application-greece-eu-users-limbo
+2026-07-09,2026-Q3,전략 발언,"Teng: EU 인출 자금 70%는 개인 지갑, 아시아 진출국 일본, 한국, 태국, 인도네시아, 호주, 필리핀",https://cointelegraph.com/news/regulators-invite-binance-seek-new-license-mica-setback-teng
+2026-07-14,2026-Q3,전략 발언,9주년: 30억 명 넘는 이용자의 세계 선도 금융 슈퍼앱 목표,https://www.prnewswire.com/apac/news-releases/binance-marks-nine-years-nearly-half-of-all-crypto-holders-use-binance-156-trillion-in-all-time-volume-and-a-growing-vision-beyond-crypto-302823758.html
