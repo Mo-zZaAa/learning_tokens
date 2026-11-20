@@ -22,15 +22,15 @@
 | 2014-05 | 2014-05 | Kippt | 북마크 서비스(인력 인수) | 없음 | 비공개 | 아니오 | (위키백과 정리) [위키백과](https://en.wikipedia.org/wiki/Coinbase) |
 | 2014-08 | 2014-08 | Blockr.io | 블록체인 탐색기 | 없음 | 비공개 | 아니오 | (위키백과 정리) [위키백과](https://en.wikipedia.org/wiki/Coinbase) |
 | 2018-04 | 2018-04 | Cipher Browser | 이더리움 지갑(개발자 인력) | 없음 | 비공개 | 아니오 | (보도, TechCrunch) [링크](https://techcrunch.com/2018/04/16/coinbase-buys-earn-com-and-makes-ceo-balaji-srinivasan-its-first-cto/) |
-| 2018-04-16 | 2018-04 | Earn.com(옛 21 Inc) | 블록체인 유료 이메일. CEO Balaji Srinivasan이 Coinbase 첫 CTO | 없음(인력) | 1.2억 달러 넘는 규모(보도) | 아니오 | (보도, TechCrunch) [링크](https://techcrunch.com/2018/04/16/coinbase-buys-earn-com-and-makes-ceo-balaji-srinivasan-its-first-cto/) |
+| 2018-04-16 | 2018-04 | Earn.com(옛 21 Inc) | 블록체인 유료 이메일. CEO Balaji Srinivasan이 Coinbase 첫 CTO | 없음(인력) | 1.2억 달러 넘는 규모(현금, 주식, 가상자산, 보도) | 아니오 | [LDCB-057] |
 | 2018-06-06 | 2018-07 | Keystone Capital, Venovate Marketplace, Digital Wealth | 증권사, 증권사 겸 비상장 증권 ATS, 투자자문사 | SEC 등록 증권사 2곳, ATS, RIA | 비공개 | 예(카드 1-1) | [F-2115], [LDCB-001], [LDCB-004] |
 | 2019-02 | 2019-02 | Neutrino | 블록체인 분석(이탈리아) | 없음 | 비공개 | 아니오 | (위키백과 정리) [위키백과](https://en.wikipedia.org/wiki/Coinbase) |
 | 2019-08-15 | 2019-08 | Xapo 기관 보관 사업 | 기관 비트코인 보관 | 보관 고객(51만 4천 BTC 넘게) | 5,500만 달러(보도) | 예(카드 1-2) | [F-2186], [F-2187] |
 | 2020-05-27 | 2020-07-31 | Tagomi Holdings | 기관용 가상자산 중개(여러 거래소 묶음 체결) | 뉴욕 BitLicense(Tagomi Trading), 기관 손님 | 4,180만 달러(회계) | 예(카드 1-3) | [LDCB-010], [LDCB-011] |
 | 2021-01 | 2021 | Routefire | 기관 주문 체결 소프트웨어 | 없음 | 비공개 | 아니오 | (보도, Cointelegraph) [링크](https://cointelegraph.com/news/coinbase-s-plans-to-purchase-firm-behind-mercado-bitcoin-fall-through-report) |
 | 2021-01 | 2021-02-08 | Bison Trails | 블록체인 노드 인프라. 인수 전 소수 지분 보유 | 없음 | 4.573억 달러(회계) | 아니오 | [LDCB-021] |
-| 2021-04-30 | 2021 | Skew | 기관 데이터 분석(Prime에 연결) | 없음 | 비공개 | 아니오 | (보도, ForkLog) [링크](https://forklog.com/en/coinbase-to-acquire-analytics-platform-skew/) |
-| 2021-08-05 | 2021-08 | Zabo | 거래소, 지갑 데이터 연결 API | 없음 | 비공개 | 아니오 | (보도, Cointelegraph) [링크](https://cointelegraph.com/news/coinbase-acquires-crypto-exchange-data-aggregator-zabo) |
+| 2021-04-30 | 2021 | Skew | 기관 데이터 분석(Prime에 붙임) | 없음 | 비공개 | 아니오 | (보도, ForkLog) [링크](https://forklog.com/en/coinbase-to-acquire-analytics-platform-skew/) |
+| 2021-08-05 | 2021-08 | Zabo | 거래소, 지갑 잔고와 거래 내역을 모아 주는 API | 없음 | 비공개 | 아니오 | (보도, Cointelegraph) [링크](https://cointelegraph.com/news/coinbase-acquires-crypto-exchange-data-aggregator-zabo) |
 | 2021-11 | 2021 | Agara | 인공지능 고객 응대(인도) | 없음 | 4,000만에서 5,000만 달러(보도) | 아니오 | (위키백과 정리) [위키백과](https://en.wikipedia.org/wiki/Coinbase) |
 | 2021-11-24 | 2021 | BRD(Breadwinner AG) | 모바일 지갑, 이용자 1,000만 명 넘음(보도) | 지갑 이용자 | 비공개 | 아니오 | (보도, SiliconANGLE) [링크](https://siliconangle.com/2021/11/24/coinbase-acquires-cryptocurrency-wallet-startup-brd-undisclosed-price/) |
 | 2021 | 2022-01-04 | Unbound Security | 암호 보안 기술 | 없음 | 2.580억 달러(회계) | 아니오 | [LDCB-021] |
@@ -220,7 +220,7 @@
    - 인가: 2024-04-02 두바이 VARA 조건부 VASP 인가(현물과 파생), 본사 파나마에서 두바이로, 개인 고객은 파나마 중개 계열사 [LDCB-025]. 2025 10-K 기준 조건부 인가 [F-2095]
    - 발표 때 미결제약정 약 300억 달러, 꾸준한 흑자(회사 주장) [F-2094]
 5. 판 쪽
-   - 2023 초 FT Partners가 기존 투자자 지분 매각 주선으로 들어왔다가 회사 전체 입찰 검토로 역할 확대. 회사는 매물이 아니라고 했음. 가치 40억에서 50억 달러 추정(보도, Bloomberg 인용 CryptoSlate) [LDCB-024]
+   - 2023 초 FT Partners가 기존 투자자 지분 매각 주선으로 들어왔다가 회사 전체 입찰 검토까지 맡음. 회사는 매물이 아니라고 했음. 가치 40억에서 50억 달러 추정(보도, Bloomberg 인용 CryptoSlate) [LDCB-024]
    - Kraken이 몇 달 협상했으나 Coinbase가 이김(보도, Banking Dive가 CoinDesk 인용) [LDCB-027]
    - 창업자는 완료 뒤 물러남 [LDCB-027]
 6. 승인: 발표에서 완료까지 98일(계산). 승인 기관 명단 찾지 못함(빈칸 14)
@@ -234,6 +234,7 @@
    - 2026 3분기 세계 옵션 미결제약정 선두 [F-1618]
    - 2026-08-17 VARA 중개 인가를 받아 Deribit 현물 주문을 Coinbase Exchange로 보냄. 브랜드는 Deribit by Coinbase [LDCB-026]
    - 2026-10 International Exchange와 하나의 거래소로 합침, 미국 기관은 Deribit 옵션 이용, 개인용 준비 [CB-E52], [F-2106]
+   - CFO: 두 거래소를 합친 뒤 교차 증거금, 4개 분기 연속 점유율 증가(회사 주장) [LDCB-058]
    - Deribit 매출과 이익: 회사 비공개
 10. 발언: quotes 7절
 
