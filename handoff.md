@@ -46,7 +46,7 @@
 | 회사 한 곳을 처음부터 이해 | `kb/easy/<회사>.md`(쉬운 해설), `kb/<회사>_overview/`(카드), `companies/<회사>_v4.md`(본문) | 해설 → 카드 → 본문 순 |
 | 매출과 사업 모델 | `kb/revenue/<회사>.md`, `deliverables/매출로본성공원인_4개사_261118.md` | 해마다 구성, 등락 이유, 왜 이 회사에서 됐나 |
 | 인가: 직접 대 인수, 시점, 목적 | `kb/licdeep/01_틀에맞춘답.md`, 회사별 카드, `00_평행연표.md`, `00_발언모음.md` | 사용자 틀에 맞춘 답과 근거 |
-| 인가: 회사별로 무엇을 하려고, 어떻게 얻어, 어디에 썼나 | `kb/licdeep/04_회사별_인가표.md`, `deliverables/회사별_인가표_261122.xlsx`, 30초 인가 스토리 `kb/licdeep/05_30초_인가스토리.md` | 인가를 나란히 놓지 않고 회사별로 줄 세움. 다시 만들기: `python3 -I kb/licdeep/build_04.py` |
+| 인가: 회사별로 무엇을 하려고, 어떻게 얻어, 어디에 썼나 | `kb/licdeep/04_회사별_인가표.md`, `deliverables/회사별_인가표_261122.xlsx`, 인가 스토리(1분, 30초) `kb/licdeep/05_30초_인가스토리.md`, 질문 답 `kb/licdeep/06_질문4개_답_261122.md`, `07_질문7개_답_261122.md`(토큰화 순서, 발행 수익, Binance 아부다비, Keystone) | 인가를 나란히 놓지 않고 회사별로 줄 세움. 다시 만들기: `python3 -I kb/licdeep/build_04.py` |
 | 회사 연혁과 사건 | `kb/events/<회사>_events_src.py`(사건 카드 원본), `kb/structs/<회사>/timeline.csv` | |
 | 한 장 요약 | `deliverables/KDX_A4_*.docx`, `deliverables/4개사_불렛과근거_261119.md` | 불렛과 줄별 근거 |
 | 제도 | `kb/regulation_us.md`, `regulation_kr.md`, `regulation_compare.md`, `kb/licdeep/external.md`(나라별 제도 표) | |
